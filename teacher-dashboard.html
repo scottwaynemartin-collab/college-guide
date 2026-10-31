@@ -426,7 +426,8 @@ textarea.code{font:12px/1.5 var(--mono);min-height:220px;resize:vertical}
 .drow b{text-align:right;font-variant-numeric:tabular-nums}
 .d5{background:#00857e}.d4{background:var(--tq)}.d3{background:#9aa7a9}.d2{background:#ec8f8e}.d1{background:var(--help)}
 .apgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:14px}
-.aprow{display:grid;grid-template-columns:1fr 58px 58px 58px 44px;gap:8px;align-items:center;padding:8px 14px;border:0;border-bottom:1px solid var(--line);background:none;text-align:left;width:100%;font-size:12px}
+.mocktag{display:block;font:800 9px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--tq-ink);text-align:center;margin-top:2px}
+.aprow{display:grid;grid-template-columns:1fr 58px 50px 62px 54px;gap:8px;align-items:center;padding:8px 14px;border:0;border-bottom:1px solid var(--line);background:none;text-align:left;width:100%;font-size:12px}
 .aprow:hover{background:var(--card2)}
 .aprow.head{font:800 10px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);cursor:default}
 .aprow.head:hover{background:none}
@@ -582,6 +583,7 @@ textarea.confnote{width:100%;min-height:150px;border:1.5px solid var(--line2);bo
 .aphead{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}
 .aprowc{display:flex;gap:14px;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}
 .aprowc:last-of-type{border-bottom:0}
+.projpair{display:flex;flex-direction:column;gap:2px;margin-top:6px;font-size:12px}
 .nchip.recent{box-shadow:inset 0 0 0 2px var(--ink)}
 .printonly{display:none}
 .cell.nearc{background:var(--tq-soft);box-shadow:inset 0 0 0 1px rgba(0,178,169,.5)}.cell.nearc b{color:var(--tq-ink)}
@@ -654,7 +656,7 @@ textarea.confnote{width:100%;min-height:150px;border:1.5px solid var(--line2);bo
   .col{flex-basis:84vw}
   .plat{grid-template-columns:1fr!important}
   .apgrid{grid-template-columns:1fr}
-  .aprow{grid-template-columns:1fr 46px 46px 40px}.aprow>:nth-child(3){display:none}
+  .aprow{grid-template-columns:1fr 46px 50px 50px}.aprow>:nth-child(3){display:none}
 }
 @media print{
   body.printing>*:not(#printArea){display:none!important}
@@ -711,7 +713,11 @@ const CONFIG = {
   // AP projection — Proficiency Scaling reference: composite % → AP score
   apScale: [[85,5],[70,4],[55,3],[40,2],[0,1]],
   apRecency: 0.5,             // Unit N counts 1 + (N-1)×this, so recent units weigh more
-  mcWeight: {'APHG':0.5, 'AP World':0.4, 'AP Euro':0.4, default:0.5},   // MC share when writing % exists
+  mcWeight: {'APHG':0.5, 'AP World':0.4, 'AP Euro':0.4, default:0.5},   // MC share when writing is turned on for the unit projection
+  apWriting: false,           // unit projection: AP Classroom MC only until this is turned on in Settings
+  // Mock exam mode: official College Board exam weights per course (editable in Settings)
+  examWeights: {'APHG':'MC 50, FRQ 50', 'AP World':'MC 40, SAQ 20, DBQ 25, LEQ 15', 'AP Euro':'MC 40, SAQ 20, DBQ 25, LEQ 15'},
+  mockPattern: '\\bmock\\b|practice exam|full[- ]?length',
   // Platform colors come from a colorblind-checked palette; keep this order.
   sources: [
     {id:'Gradebook',    color:'var(--s1)', short:'TAC'},
@@ -822,15 +828,32 @@ const isTest = name => !NOT_GRADED_WORK.test(bare(name)) && new RegExp(S().retes
 const TYPES = [{id:'pc', label:'Progress Check', sub:'MCQ'}, {id:'test', label:'Unit Test', sub:'MC test / retest / MCQ'}, {id:'writing', label:'Writing', sub:'SAQ / LEQ / DBQ / FRQ'}];
 function typeOf(name){ const b = bare(name); if (NOT_GRADED_WORK.test(b)) return null; if (/\b(saq|leq|dbq|frq)s?\b/i.test(b)) return 'writing'; if (/progress check|\bpc\b/i.test(b)) return /vocab/i.test(b) ? null : 'pc'; if (/\b(test|retest|mcq?|mc test)\b/i.test(b)) return 'test'; return null; }
 function unitOf(name){ const b = bare(name), m = b.match(/\b(?:unit|u)\s*0?(\d{1,2})\b/i) || b.match(/\btopics?(?:\s+check)?:?\s*(\d{1,2})\.\d/i); return m ? +m[1] : null; }
+const isMock = name => new RegExp(S().mockPattern, 'i').test(bare(name));
+const writingPart = name => { const b = bare(name); return /\bdbq\b/i.test(b) ? 'dbq' : /\bleq\b/i.test(b) ? 'leq' : /\bsaq\b/i.test(b) ? 'saq' : /\bfrq\b/i.test(b) ? 'frq' : null; };
+function examWeights(course){ const txt = S().examWeights[course] || 'MC 50, FRQ 50', out = {}; String(txt).replace(/([A-Za-z]+)\s*:?\s*(\d+(?:\.\d+)?)/g, (m, k, v) => { out[k.toLowerCase()] = +v; }); return out; }
+const scaleScore = comp => (S().apScale.find(([min]) => comp >= min) || [0,1])[1];
+/* Unit MC projection: AP Classroom MC (recent units weighted more), mocks excluded; writing only if turned on in Settings */
 function apProject(course, pts){
   const st = S(), w = p => { const u = unitOf(p.a.name); return u ? 1 + (u-1)*st.apRecency : 1; };
   const wavg = arr => { const W = arr.reduce((t,p)=>t+w(p),0); return arr.reduce((t,p)=>t+p.p*w(p),0)/W; };
-  const mc = pts.filter(p => !p.m && p.a.source==='AP Classroom' && typeOf(p.a.name)!=='writing');
+  const mc = pts.filter(p => !p.m && p.a.source==='AP Classroom' && typeOf(p.a.name)!=='writing' && !isMock(p.a.name));
   if (!mc.length) return null;
-  const wr = pts.filter(p => !p.m && typeOf(p.a.name)==='writing');
+  const wr = st.apWriting ? pts.filter(p => !p.m && typeOf(p.a.name)==='writing' && !isMock(p.a.name)) : [];
   const mcPct = wavg(mc), wrPct = wr.length ? wavg(wr) : null, mw = st.mcWeight[course] ?? st.mcWeight.default ?? .5;
   const comp = wrPct==null ? mcPct : mcPct*mw + wrPct*(1-mw);
-  return {mcPct, wrPct, comp, mw, score:(st.apScale.find(([min])=>comp>=min) || [0,1])[1], nMc:mc.length, nWr:wr.length};
+  return {kind:'Unit MC', mcPct, wrPct, comp, mw, score:scaleScore(comp), nMc:mc.length, nWr:wr.length};
+}
+/* Mock projection: full-length / practice-exam assignments, combined with the official exam weights.
+   Missing writing parts are left out and the rest scaled up proportionally. */
+function mockProject(course, pts){
+  const mocks = pts.filter(p => !p.m && isMock(p.a.name)); if (!mocks.length) return null;
+  const parts = {}; mocks.forEach(p => { const k = typeOf(p.a.name)==='writing' ? (writingPart(p.a.name) || 'frq') : 'mc'; (parts[k] ||= []).push(p.p); });
+  const W = examWeights(course), avg = Object.fromEntries(Object.entries(parts).map(([k,v]) => [k, mean(v)]));
+  const have = Object.keys(W).filter(k => avg[k] != null), miss = Object.keys(W).filter(k => avg[k] == null);
+  if (!have.length) return null;
+  const tw = have.reduce((t,k) => t + W[k], 0), comp = have.reduce((t,k) => t + avg[k]*W[k], 0) / tw;
+  return {kind:'Mock', comp, score:scaleScore(comp), parts:avg, weights:W, missing:miss, nMc:(parts.mc||[]).length, mcPct:avg.mc ?? null, wrPct:null,
+    note: miss.length ? `(no ${miss.map(k=>k.toUpperCase()).join(', ')} yet)` : ''};
 }
 /* AP status for one class: AP Classroom MC only (progress-check MCQs, MC tests, retests as their own tests).
    Writing (FRQ/SAQ/LEQ/DBQ), Canvas and Gradebook are left out. Missing counts as 0 only when marked missing. */
@@ -848,6 +871,12 @@ function apStatus(pts){
   else if (full && nOk > 0) { status = 'watch'; reason = `${nOk} of last ${n} MC ≥ ${cut}% (${L}; avg ${pr(avg)})`; }
   else { status = 'help'; reason = `MC avg ${pr(avg)}${last.length>1?` · last ${last.length}: ${L}`:''}`; }
   return {status, reason, mc, last, avg};
+}
+function projText(c){
+  const u = c.unitProj, m = c.mock, out = [];
+  if (m) out.push(`Mock projection ${m.score} (composite ${p0(m.comp)}${m.parts.mc!=null?`, MC ${p0(m.parts.mc)}`:''}${m.note?' '+m.note:''})`);
+  if (u) out.push(`Unit MC projection ${u.score} (MC ${p0(u.mcPct)}${u.wrPct!=null?`, writing ${p0(u.wrPct)}`:''})`);
+  return out.join(' · ') || 'No AP Classroom MC yet';
 }
 const apBadgeScore = (n, big) => `<span class="apb a${n}${big?' big':''}" data-tip="Projected AP score">${n<=2?'▼ ':''}${n}</span>`;
 
@@ -902,7 +931,8 @@ function classStats(key, cls, assigns, aC){
   const perf = {}; pts.forEach(x => { if (!x.m) (perf[x.a.source] ||= []).push(x.p); });   // gap compares performance, so missing work is left out
   const ps = Object.entries(perf).filter(([,v])=>v.length>=2).map(([k,v])=>({k, avg:mean(v)})).sort((a,b)=>b.avg-a.avg);
   const gap = ps.length >= 2 ? {d: ps[0].avg - ps[ps.length-1].avg, hi: ps[0], lo: ps[ps.length-1]} : null;
-  return {cls, course, period: cls ? splitClass(cls).period : '', avg, pts, missing: pts.filter(x=>x.m).map(x=>x.a), drop, recent, prior, gap, proj: apProject(course, pts), ap: apStatus(pts),
+  const _u = apProject(course, pts), _m = mockProject(course, pts);
+  return {proj: _m || _u, cls, course, period: cls ? splitClass(cls).period : '', avg, pts, missing: pts.filter(x=>x.m).map(x=>x.a), drop, recent, prior, gap, unitProj: _u, mock: _m, ap: apStatus(pts),
     bySrc: Object.fromEntries(Object.entries(bySrc).map(([k,v])=>[k,{avg:mean(v), n:v.length}]))};
 }
 function summarize(key, s, cs){
@@ -919,7 +949,7 @@ function summarize(key, s, cs){
   if (dr) reasons.push({t:'dropping', icon:'↘', label:`Dropping ${fmt(dr.drop,0)}`, tip:`${dr.cls||'All work'}: last 3 average ${p0(dr.recent)} vs ${p0(dr.prior)} before`, w:-dr.drop});
   const gp = cs.filter(c=>c.gap && c.gap.d >= st.gapPts).sort((a,b)=>b.gap.d-a.gap.d)[0];
   if (gp) reasons.push({t:'gap', icon:'⇅', label:`Platform gap ${fmt(gp.gap.d,0)}`, tip:`${gp.gap.hi.k} ${p0(gp.gap.hi.avg)} vs ${gp.gap.lo.k} ${p0(gp.gap.lo.avg)}`, w:gp.gap.d/3});
-  cs.forEach(c => { if (c.proj && c.proj.score <= 2) reasons.push({t:'ap', icon:'◆', label:`AP proj ${c.proj.score}`+(multi?` · ${c.course}`:''), tip:`${c.cls}: AP Classroom MC ${p0(c.proj.mcPct)}${c.proj.wrPct!=null?` · writing ${p0(c.proj.wrPct)}`:''} → composite ${p0(c.proj.comp)}`, w:(3-c.proj.score)*6}); });
+  cs.forEach(c => { if (c.proj && c.proj.score <= 2) reasons.push({t:'ap', icon:'◆', label:`${c.proj.kind==='Mock'?'Mock':'AP proj'} ${c.proj.score}`+(multi?` · ${c.course}`:''), tip:`${c.cls}: ${projText(c)}`, w:(3-c.proj.score)*6}); });
   const RANK = {help:3, watch:2, ok:1, none:0};
   const status = cs.reduce((w, c) => RANK[c.ap.status] > RANK[w] ? c.ap.status : w, 'none');   // AP status only; context never changes it
   const mcLow = Math.min(...cs.map(c => c.ap.avg ?? 101));
@@ -1364,7 +1394,27 @@ function viewCompare(m){
       <div class="stat"><b>${oc!=null&&op!=null?`<span class="delta ${oc>=op?'up':'down'}">${oc>=op?'+':''}${Math.round(oc-op)}</span>`:'—'}</b><span>Change</span></div><div class="stat"><b>${years.length}</b><span>${plural(years.length,'school year')} loaded</span></div></div>
     ${!prior?`<div class="banner" style="background:var(--tq-soft);color:var(--tq-ink)">Load earlier years from Import: set <b>School year</b> (e.g. 2025-26) before pasting, or add a "School Year" column.<span class="sp"></span><button class="btn sm" data-go="import">Import →</button></div>`:''}
     <div class="legend">${years.map(y=>`<span><i style="background:${ycol(y)}"></i>${esc(y)}${y===cur?' (this year)':''}</span>`).join('')}${stuKey?`<span><i style="background:var(--ink);transform:rotate(45deg);width:8px;height:8px"></i>${esc(DB.students[stuKey].name)}</span>`:''}</div>
-    <div class="grid">${types.map(card).join('')}</div>`;
+    <div class="grid">${types.map(card).join('')}${mockVsActualCard(course)}</div>`;
+}
+/* Prior years: mock projection vs. the actual AP score, to see how well the mock predicts */
+function priorApScore(key, course){
+  const p = prof(key) || {}, lbl = (p.labels?.priorAp || p.priorApLabel || '').toLowerCase();
+  if (p.priorAp && (!lbl || lbl.includes(course.toLowerCase()) || !/aphg|world|euro/.test(lbl))) return pnum(p.priorAp);
+  const m = String(p.apScores || '').match(new RegExp(course.replace(/^AP\s+/i,'') + '\\D{0,12}([1-5])', 'i')); return m ? +m[1] : null;
+}
+function mockVsActualCard(course){
+  const cur = curYear(), aC = aCourseMap(), multi = coursesAll().length > 1, rows = [];
+  const priorYears = [...new Set(Object.values(DB.assignments).map(yearOf))].filter(y => y !== cur);
+  Object.keys(DB.students).forEach(k => { const actual = priorApScore(k, course); if (actual == null) return; const sc = DB.scores[k] || {};
+    priorYears.forEach(y => { const pts = Object.values(DB.assignments).filter(a => yearOf(a)===y && !a.hidden && (aC[a.id] ? aC[a.id]===course : !multi)).sort((a,b)=>a.order-b.order)
+      .map(a => ({a, v: sc[a.id]})).filter(x => x.v && !x.v.x && x.v.p!=null).map(x => ({a:x.a, p:x.v.p, m:!!x.v.m}));
+      const mk = mockProject(course, pts); if (mk) rows.push({k, y, mk, actual}); }); });
+  if (!rows.length) return `<section class="card w12"><div class="ch"><h2>Mock projection vs. actual AP score</h2><span class="sub">prior years · ${esc(course)}</span></div><div class="cb"><div class="empty">Needs last year's mock / practice-exam scores (imported with School year = ${esc(priorYears[0]||'e.g. 2025-26')}) and the students' actual AP scores (Profile column "Prior AP score" or "AP scores").</div></div></section>`;
+  const diffs = rows.map(r => r.mk.score - r.actual), exact = diffs.filter(d => d===0).length, within = diffs.filter(d => Math.abs(d)<=1).length;
+  return `<section class="card w12"><div class="ch"><h2>Mock projection vs. actual AP score</h2><span class="sub">prior years · ${esc(course)} · how well the mock predicts</span></div><div class="cb">
+    <div class="strip" style="margin-bottom:10px"><div class="stat accent"><b>${Math.round(exact/rows.length*100)}%</b><span>Exact match</span></div><div class="stat"><b>${Math.round(within/rows.length*100)}%</b><span>Within 1 point</span></div><div class="stat"><b>${(mean(diffs)>=0?'+':'')+fmt(mean(diffs),2)}</b><span>Avg mock − actual</span></div><div class="stat"><b>${rows.length}</b><span>Students compared</span></div></div>
+    <table class="t"><thead><tr><th>Projected (mock)</th>${[1,2,3,4,5].map(n=>`<th class="r">Actual ${n}</th>`).join('')}</tr></thead><tbody>${[5,4,3,2,1].map(pn=>`<tr><td>${apBadgeScore(pn)}</td>${[1,2,3,4,5].map(an=>{ const c = rows.filter(r=>r.mk.score===pn && r.actual===an).length; return `<td class="r num" style="${pn===an&&c?'font-weight:900;color:var(--ok-ink)':''}">${c||''}</td>`; }).join('')}</tr>`).join('')}</tbody></table>
+    <p class="fine">Each student's ${esc(course)} mock projection from a prior school year, compared with the AP score they actually earned. Diagonal = exact match.</p></div></section>`;
 }
 
 function viewAP(m){
@@ -1372,18 +1422,19 @@ function viewAP(m){
   const sc = S().apScale, rng = n => { const i = sc.findIndex(([,v])=>v===n), lo = sc[i][0], hi = i ? sc[i-1][0]-1 : 100; return n===1 ? `under ${sc[sc.length-2][0]}%` : `${lo}–${hi}%`; };
   const dist = list => `<div class="dist">${[5,4,3,2,1].map(n=>{ const k = list.filter(r=>r.c.proj.score===n).length; return `<div class="drow" data-tip="${k} projected ${n} (${rng(n)})"><span class="apb a${n}" style="min-width:26px;height:22px;font-size:12px">${n}</span><span class="tr"><i class="d${n}" style="width:${list.length?k/list.length*100:0}%"></i></span><b>${k} <span class="minor">${list.length?Math.round(k/list.length*100):0}%</span></b></div>`; }).join('')}</div>`;
   const groups = Object.entries(rows.reduce((g,r)=>{ (g[r.c.cls||'No class'] ||= []).push(r); return g; }, {})).sort((a,b)=>classSort(a[0],b[0]));
-  const low = rows.filter(r=>r.c.proj.score<=2), pass = rows.filter(r=>r.c.proj.score>=3);
+  const low = rows.filter(r=>r.c.proj.score<=2), pass = rows.filter(r=>r.c.proj.score>=3), nMock = rows.filter(r=>r.c.mock).length;
   return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())}</div><h1>AP projection</h1>
-      <p>Projected 1–5 from AP Classroom MC % (Unit N counts ${1}+(N−1)×${S().apRecency}), blended with writing % when there is any. Proficiency scaling: 5 = ${rng(5)}, 4 = ${rng(4)}, 3 = ${rng(3)}, 2 = ${rng(2)}, 1 = ${rng(1)}. Missing work isn't counted. It's an estimate, not a College Board prediction.</p></div>
+      <p><b>Unit MC projection:</b> AP Classroom multiple choice only (Unit N counts 1+(N−1)×${S().apRecency})${S().apWriting?', blended with unit writing (turned on in Settings)':', writing ignored'}. <b>Mock projection:</b> once assignments named Mock / Practice Exam / Full-length exist, the mock becomes the headline, combining mock MC with mock writing using the exam weights in Settings. Scaling: 5 = ${rng(5)}, 4 = ${rng(4)}, 3 = ${rng(3)}, 2 = ${rng(2)}, 1 = ${rng(1)}. An estimate, not a College Board prediction.</p></div>
     <div class="actions"><button class="btn" data-act="copy-ap">Copy 1–2 list</button><button class="btn blk" data-act="print-ap">${PRINT}</button></div></div>
-    <div class="strip"><div class="stat accent"><b>${rows.length?Math.round(pass.length/rows.length*100)+'%':'—'}</b><span>Projected 3 or higher</span></div><div class="stat"><b>${rows.length?fmt(mean(rows.map(r=>r.c.proj.score)),1):'—'}</b><span>Average projected score</span></div><div class="stat"><b style="color:var(--help-ink)">${low.length}</b><span>Projected 1–2</span></div><div class="stat"><b>${rows.length}</b><span>Projections (student × class)</span></div></div>
-    ${rows.length ? `<div class="grid" style="margin-bottom:16px"><section class="card w5"><div class="ch"><h2>Distribution</h2><span class="sub">${esc(scopeLabel())}</span></div><div class="cb">${dist(rows)}</div></section>
-      <section class="card w7"><div class="ch"><h2>Projected 1–2</h2><span class="count help">${low.length}</span></div><div class="cb">${low.length?`<div class="namechips">${low.sort((a,b)=>a.c.proj.comp-b.c.proj.comp).map(r=>`<button class="nchip" data-student="${esc(r.s.key)}">${esc(r.s.name)} <span class="minor">${esc(r.c.cls)}</span><b>${r.c.proj.score}</b></button>`).join('')}</div>`:'<div class="empty">✓ No one projected below 3.</div>'}</div></section></div>
+    <div class="strip"><div class="stat accent"><b>${rows.length?Math.round(pass.length/rows.length*100)+'%':'—'}</b><span>Projected 3 or higher</span></div><div class="stat"><b>${rows.length?fmt(mean(rows.map(r=>r.c.proj.score)),1):'—'}</b><span>Average projected score</span></div><div class="stat"><b style="color:var(--help-ink)">${low.length}</b><span>Projected 1–2</span></div><div class="stat"><b>${nMock}</b><span>Using a mock exam</span></div></div>
+    ${rows.length ? `<div class="grid" style="margin-bottom:16px"><section class="card w5"><div class="ch"><h2>Distribution</h2><span class="sub">headline projection · ${esc(scopeLabel())}</span></div><div class="cb">${dist(rows)}</div></section>
+      <section class="card w7"><div class="ch"><h2>Projected 1–2</h2><span class="count help">${low.length}</span></div><div class="cb">${low.length?`<div class="namechips">${low.sort((a,b)=>a.c.proj.comp-b.c.proj.comp).map(r=>`<button class="nchip" data-student="${esc(r.s.key)}">${esc(r.s.name)} <span class="minor">${esc(r.c.cls)}${r.c.mock?' · mock':''}</span><b>${r.c.proj.score}</b></button>`).join('')}</div>`:'<div class="empty">✓ No one projected below 3.</div>'}</div></section></div>
     <div class="apgrid">${groups.map(([cls, list])=>`<section class="ph"><div class="ph-h"><h3>${esc(cls)}</h3><span class="minor" style="color:var(--on-blk2);margin-left:auto">avg ${fmt(mean(list.map(r=>r.c.proj.score)),1)} · ${Math.round(list.filter(r=>r.c.proj.score>=3).length/list.length*100)}% 3+</span></div>
       <div style="padding:12px 14px">${dist(list)}</div>
-      <div class="aprow head"><span>Student</span><span class="n">MC</span><span class="n">Writing</span><span class="n">Blend</span><span class="n">Proj</span></div>
-      ${list.sort((a,b)=>a.c.proj.comp-b.c.proj.comp).map(r=>{ const pj=r.c.proj; return `<button class="aprow${pj.score<=2?' flag':''}" data-student="${esc(r.s.key)}"><span class="who" style="min-width:0">${avatar(r.s.key,r.s.name,26)}<span style="min-width:0">${nameLine(r.s)}</span></span>
-        <span class="n" data-tip="${pj.nMc} AP Classroom MC scores">${p0(pj.mcPct)}</span><span class="n" data-tip="${pj.nWr} writing scores">${pj.wrPct==null?'—':p0(pj.wrPct)}</span><span class="n">${p0(pj.comp)}</span><span class="n">${apBadgeScore(pj.score)}</span></button>`; }).join('')}</section>`).join('')}</div>`
+      <div class="aprow head"><span>Student</span><span class="n">Unit MC</span><span class="n">Unit</span><span class="n">Mock</span><span class="n">Headline</span></div>
+      ${list.sort((a,b)=>a.c.proj.comp-b.c.proj.comp).map(r=>{ const u=r.c.unitProj, mk=r.c.mock, h=r.c.proj; return `<button class="aprow${h.score<=2?' flag':''}" data-student="${esc(r.s.key)}" data-tip="${esc(projText(r.c))}"><span class="who" style="min-width:0">${avatar(r.s.key,r.s.name,26)}<span style="min-width:0">${nameLine(r.s)}</span></span>
+        <span class="n">${u?p0(u.mcPct):'—'}</span><span class="n">${u?apBadgeScore(u.score):'—'}</span><span class="n">${mk?`${p0(mk.comp)}${mk.note?' <span class="minor">*</span>':''}`:'—'}</span><span class="n">${apBadgeScore(h.score)}${mk?'<span class="mocktag">Mock</span>':''}</span></button>`; }).join('')}</section>`).join('')}</div>
+      ${nMock?`<p class="fine">* Mock is missing a writing part; the parts present were scaled up (hover a row for details, e.g. "(no DBQ yet)").</p>`:''}`
       : `<div class="card"><div class="empty">No AP Classroom multiple-choice scores in ${esc(scopeLabel())} yet. Import AP Classroom data (Platform = AP Classroom).</div></div>`}`;
 }
 
@@ -1543,6 +1594,8 @@ function viewSettings(){
         <div class="row2">${f('setTitle','Dashboard title',s.title)}${f('setName','Your name for the greeting',s.teacherName,'text','placeholder="e.g. Mr. Martin"')}</div>
         <div class="note" style="margin-bottom:10px"><b>AP status</b> uses AP Classroom multiple-choice scores only. On track if the MC average ≥ on-track %, or the most recent N MC tests are all ≥ on-track %. Watch if the average is within the watch band, or some (not all) of the recent tests are ≥ on-track %. Otherwise needs help.</div>
         <div class="row3">${f('setApPct','AP on-track % (MC)',s.apOnTrack,'number','min="0" max="100"')}${f('setApRecent','Recent MC tests needed',s.apRecent,'number','min="1" max="10"')}${f('setApBand','AP watch band (points)',s.apBand,'number','min="0" max="40"')}</div>
+        <label class="toggle" style="border:0;padding:0 0 10px"><input type="checkbox" id="setApWriting" ${s.apWriting?'checked':''}> Include unit writing (FRQ/SAQ/DBQ/LEQ) in the Unit MC projection <span class="minor">(off = AP Classroom MC only)</span></label>
+        <div class="row3">${['APHG','AP World','AP Euro'].map(c=>f('setW_'+c.replace(/\s+/g,'_'),`Mock exam weights · ${c}`,s.examWeights[c]||'','text','placeholder="MC 40, SAQ 20, DBQ 25, LEQ 15"')).join('')}</div>
         <div class="row3">${f('setRisk','Class-grade cutoff (%)',s.atRisk,'number','min="0" max="100"')}${f('setCap','Retest cap (%)',s.retestCap,'number','min="0" max="100"')}${f('setMiss','Missing = conversation starter',s.missingForHelp,'number','min="1" max="20"')}</div>
         <div class="row3">${f('setDrop','“Dropping” at (points)',s.dropPts,'number','min="1" max="50"')}${f('setGap','“Platform gap” at (points)',s.gapPts,'number','min="1" max="60"')}</div>
         ${f('setPattern','Assignments that count as tests (pattern)',s.retestPattern)}
@@ -1656,11 +1709,11 @@ function openStudent(key, fresh){
         ${other.length?`<div class="fine printonly">${other.map(([k,v])=>`${esc(k)}: <b>${esc(v)}</b>`).join(' · ')}</div>`:''}
         <div class="aphead">${s.cs.map(c=>apLine(c, s.cs.length>1)).join('')}</div>
         <div class="chiprow">${apChip}${flagChips(key)}${s.reasons.map(r=>`<span class="tag ${r.t}" data-tip="${esc(r.tip)}">${r.icon} ${esc(r.label)}</span>`).join('')}${p.acc?p.acc.split(/[;,]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="acc" style="margin:0">${esc(x)}</span>`).join(''):''}</div></div>
-        <div class="cells" style="min-width:260px;flex:0 1 420px">${s.cs.map(c=>cell(esc(c.cls||'All work'), `<em style="${c.avg!=null&&c.avg<cut?'color:var(--help-ink)':''}">${p0(c.avg)}</em>`, `${letter(c.avg)} now · ${c.missing.length} missing${c.proj?` · AP ${c.proj.score}`:''}`)).join('')}</div></div>
+        <div class="cells" style="min-width:260px;flex:0 1 420px">${s.cs.map(c=>cell(esc(c.cls||'All work'), `<em style="${c.avg!=null&&c.avg<cut?'color:var(--help-ink)':''}">${p0(c.avg)}</em>`, `${letter(c.avg)} now · ${c.missing.length} missing${c.mock?` · Mock ${c.mock.score}`:''}${c.unitProj?` · Unit MC ${c.unitProj.score}`:''}`)).join('')}</div></div>
 
       <div class="conf-grid">
         <section class="fsec c12"><h2>AP on pace <span>AP Classroom multiple choice only · on track if MC avg ≥ ${S().apOnTrack}% or last ${S().apRecent} MC ≥ ${S().apOnTrack}%</span></h2><div class="fb">
-          ${s.cs.map(c=>`<div class="aprowc"><div style="min-width:220px">${apLine(c, s.cs.length>1)}</div>
+          ${s.cs.map(c=>`<div class="aprowc"><div style="min-width:220px">${apLine(c, s.cs.length>1)}${c.mock||c.unitProj?`<div class="projpair">${c.mock?`<span><b>Mock projection: ${c.mock.score}</b>${c.mock.note?` <span class="minor">${esc(c.mock.note)}</span>`:''}</span>`:''}${c.unitProj?`<span class="${c.mock?'minor':''}">Unit MC projection: <b>${c.unitProj.score}</b></span>`:''}</div>`:''}</div>
             <div class="namechips">${c.ap.mc.length ? c.ap.mc.map((x,i)=>`<span class="nchip ${c.ap.last.includes(x)?'recent':''}" data-tip="${esc(x.a.name)}${c.ap.last.includes(x)?' · counts as recent':''}">${esc(s.cs.length>1?bare(x.a.name):bare(x.a.name))}<b style="${x.p<S().apOnTrack?'color:var(--help-ink)':''}">${x.m?'M (0)':p0(x.p)}</b></span>`).join('') : '<span class="minor">No AP Classroom MC scores yet: progress-check MCQs and MC unit tests/retests will appear here.</span>'}</div></div>`).join('')}
           <p class="fine noprint">Everything else on this page (grades, missing work, GPA, attendance, Power Hour, STAAR, TIA, PSAT/SAT, watch flags) is context for the conversation and never changes AP status. Outlined chips = the recent tests.</p>
         </div></section>
@@ -1731,7 +1784,7 @@ function openStudent(key, fresh){
           <p class="fine noprint">Agency rating: 1 = needs heavy support · 2 = developing · 3 = proficient · 4 = owns their learning.</p>
         </div></section>
 
-        ${s.cs.filter(c=>c.cls).map(c=>`<section class="fsec ${s.cs.length>1?'c6':'c12'} noprint1"><h2>Unit tracker · ${esc(c.cls)} <span>${c.proj?`overall AP projection ${c.proj.score} (MC ${p0(c.proj.mcPct)}${c.proj.wrPct!=null?`, writing ${p0(c.proj.wrPct)}`:''})`:'no AP Classroom MC yet'}</span></h2><div class="fb" style="overflow:auto">${tracker(c)}</div></section>`).join('')}
+        ${s.cs.filter(c=>c.cls).map(c=>`<section class="fsec ${s.cs.length>1?'c6':'c12'} noprint1"><h2>Unit tracker · ${esc(c.cls)} <span>${esc(projText(c))}</span></h2><div class="fb" style="overflow:auto">${tracker(c)}</div></section>`).join('')}
 
         <section class="fsec c12 noprint1"><h2>Every score, side by side <span>trend oldest → newest · red dot = missing · dashed line = ${cut}% cutoff</span></h2><div class="fb">
           ${plats.length?`<div class="cplat" style="grid-template-columns:repeat(${plats.length},minmax(0,1fr))">${plats.map(pl=>{ const pts = s.pts.filter(x=>x.a.source===pl.id), av = mean(pts.map(x=>x.p));
@@ -1763,7 +1816,7 @@ function confText(key){
   const s = studentFull(key), p = prof(key) || {}, ag = DB.agency[key] || {}, f = ag.form || {}, L = [`Student conference — ${s.name}`, `${p.gradeLevel?`Grade ${p.gradeLevel} · `:''}${s.classes.join(' · ')}${s.ids[0]?` · ID ${s.ids[0]}`:''}${p.counselor?` · Counselor: ${p.counselor}`:''} · ${today()}`];
   s.cs.forEach(c => L.push(`${c.cls||'Class'} — ${STATUS[c.ap.status].label}: ${c.ap.reason}`));
   if (p.apExam) L.push(`AP exam: ${AP_EXAM[p.apExam]}`); if (schoolFlags(key).length) L.push(`Watch flags: ${schoolFlags(key).join('; ')}`); L.push('');
-  L.push('GRADES'); s.cs.forEach(c => L.push(`${c.cls}: Q1 ${p.byClass?.[c.cls]?.grade1 ?? '—'} · Q2 ${p.byClass?.[c.cls]?.grade2 ?? '—'} · now ${p0(c.avg)} · ${c.missing.length} missing${c.proj?` · AP proj ${c.proj.score}`:''}`));
+  L.push('GRADES'); s.cs.forEach(c => L.push(`${c.cls}: Q1 ${p.byClass?.[c.cls]?.grade1 ?? '—'} · Q2 ${p.byClass?.[c.cls]?.grade2 ?? '—'} · now ${p0(c.avg)} · ${c.missing.length} missing · ${projText(c)}`));
   L.push(`GPA unweighted: Q1 ${p.uw1||'—'} → Q2 ${p.uw2||'—'} · weighted: Q1 ${p.w1||'—'} → Q2 ${p.w2||'—'}`, `${(p.labels||{}).rankBand||'Est. rank'}: ${p.rankBand||'—'} · ${(p.labels||{}).quartile||'quartile'} ${p.quartile||'—'}${p.rankCutoffs?` (cutoffs: ${p.rankCutoffs})`:''}`, '');
   L.push('TESTS', `8th STAAR: ${p.staarPct!=null?Math.round(p.staarPct)+'%':'—'} ${staarOf(key)?.label||''}`, `TIA BOY: ${p.tiaBoy||'—'} (last year ${p.priorTiaBoy||p.priorTia||'—'}) · TIA EOY last year: ${p.priorTiaEoy||'—'}`, `Prior AP: ${p.priorAp||'—'}${p.apScores?` · all AP: ${p.apScores}`:''}`, `PSAT: ${p.psatHist||'—'} (best ${p.bestPsat||'—'}) · SAT: ${p.satHist||'—'} (best ${p.bestSat||'—'})`, '');
   L.push('ATTENDANCE & ALL CLASSES', `Absences ${p.absences||'—'} · unexcused ${p.unexcused||'—'} · tardies ${p.tardies||'—'} · zeros ${p.zeros||'—'} · classes below 70 ${p.below70||'—'} · lowest ${p.lowestClass||'—'}${p.closeNext?` · close to next letter: ${p.closeNext}`:''}`);
@@ -2058,7 +2111,7 @@ function loadSample(){
   const last = ['Reyes','Chen','Patel','Brooks','Nguyen','Okafor','Silva','Kim','Novak','Haddad','Lopez','Ward','Ahmed','Bauer','Castro','Diaz','Ellis','Flores','Garcia','Hughes','Ito','Jensen','Khan','Lee'];
   const plan = {
     'APHG': [['Gradebook','Unit 1 Test'],['Canvas','Ch. 1 Reading Quiz'],['AP Classroom','Unit 1 Progress Check MCQ'],['Canvas','Map Quiz: World Regions'],['AP Classroom','Unit 1 Progress Check FRQ'],['Gradebook','Unit 2 Test'],['Canvas','Population Pyramid Lab'],['AP Classroom','Unit 2 Progress Check MCQ'],['Canvas','U2 FRQ Practice: Migration'],['Gradebook','Unit 3 Test'],['AP Classroom','Unit 3 Progress Check MCQ'],['Canvas','Ch. 3 Reading Quiz']],
-    'AP World': [['Gradebook','Unit 1 Test'],['Canvas','U1 SAQ Set A'],['AP Classroom','Unit 1 Progress Check MCQ'],['Canvas','U2 DBQ Practice'],['Gradebook','Unit 2 Test'],['AP Classroom','Unit 2 Progress Check MCQ'],['Canvas','U2 LEQ Outline'],['AP Classroom','Unit 2 Progress Check FRQ'],['Gradebook','Unit 3 Test'],['AP Classroom','Unit 3 Progress Check MCQ'],['Canvas','U3 SAQ Set B']],
+    'AP World': [['Gradebook','Unit 1 Test'],['Canvas','U1 SAQ Set A'],['AP Classroom','Unit 1 Progress Check MCQ'],['Canvas','U2 DBQ Practice'],['Gradebook','Unit 2 Test'],['AP Classroom','Unit 2 Progress Check MCQ'],['Canvas','U2 LEQ Outline'],['AP Classroom','Unit 2 Progress Check FRQ'],['Gradebook','Unit 3 Test'],['AP Classroom','Unit 3 Progress Check MCQ'],['Canvas','U3 SAQ Set B'],['AP Classroom','Practice Exam MCQ (Full-length)'],['AP Classroom','Practice Exam SAQ'],['AP Classroom','Practice Exam DBQ']],
     'AP Euro': [['Gradebook','Unit 1 Test'],['Canvas','Renaissance Reading Quiz'],['AP Classroom','Unit 1 Progress Check MCQ'],['Canvas','U1 DBQ: Reformation'],['Gradebook','Unit 2 Test'],['AP Classroom','Unit 2 Progress Check MCQ'],['Canvas','U2 SAQ Set A'],['AP Classroom','Unit 2 Progress Check FRQ'],['Gradebook','Unit 3 Test']],
   };
   const order = [], len = Math.max(...Object.values(plan).map(p=>p.length));
@@ -2107,10 +2160,12 @@ function loadSample(){
   // last year's classes (different students) so Compare has something to show
   const prevY = (() => { const [a] = curYear().split('-').map(Number); return `${a-1}-${String(a%100).padStart(2,'0')}`; })();
   const pf = ['Abby','Brody','Cami','Drew','Esme','Flynn','Greta','Hugo','Iris','Jonah','Kira','Luca','Mabel','Nico','Opal','Penn','Quin','Remy','Sage','Tate','Una','Vince','Wren','Xavi','Yusuf','Zara','Alma','Beau','Cleo','Dax','Elsa','Fitz','Gwen','Hal','Ines','Jude'];
-  ['APHG','AP World'].forEach((c, ci) => plan[c].forEach(([s,n]) => { const name = `${c} · ${n}`, id = `${s}:${prevY}:${name.toLowerCase()}`; DB.assignments[id] = {id, name, source:s, order:++DB.seq, hidden:false, year:prevY}; }));
+  const prevPlan = c => c === 'APHG' ? [...plan[c], ['AP Classroom','Mock Exam MCQ 1 (Full-length)'], ['AP Classroom','Mock Exam MCQ 2 (Full-length)'], ['AP Classroom','Mock Exam FRQ']] : plan[c].filter(([,n]) => !/practice exam/i.test(n));
+  ['APHG','AP World'].forEach((c, ci) => prevPlan(c).forEach(([s,n]) => { const name = `${c} · ${n}`, id = `${s}:${prevY}:${name.toLowerCase()}`; DB.assignments[id] = {id, name, source:s, order:++DB.seq, hidden:false, year:prevY}; }));
   pf.forEach((fn, i) => {
     const c = i < 22 ? 'APHG' : 'AP World', key = upsertStudent(`${fn} ${last[(i*5+3)%last.length]}`, String(390100+i), `${c} ${periods[c][i%periods[c].length]}`, prevY), sc = DB.scores[key] = {}, base = 58 + rnd()*40;
-    plan[c].forEach(([s,n]) => { const id = `${s}:${prevY}:${c} · ${n}`.toLowerCase().replace(/^([^:]+):([^:]+):/, (mm,a,b)=>`${s}:${prevY}:`); const u = rnd(); if (u < .05) { sc[id] = {p:0, m:true}; return; } let p = base + (rnd()-.5)*22 + (typeOf(n)==='writing' ? -6 : 2); sc[id] = {p: Math.max(25, Math.min(100, p))}; });
+    if (c === 'APHG') { const act = Math.max(1, Math.min(5, Math.round((base - 40) / 12 + (rnd()-.5)*1.4))); DB.profiles[key] = {priorAp: String(act), labels:{priorAp:'Prior AP score (APHG 2026)'}}; }
+    prevPlan(c).forEach(([s,n]) => { const id = `${s}:${prevY}:${c} · ${n}`.toLowerCase().replace(/^([^:]+):([^:]+):/, (mm,a,b)=>`${s}:${prevY}:`); const u = rnd(); if (u < .05) { sc[id] = {p:0, m:true}; return; } let p = base + (rnd()-.5)*22 + (typeOf(n)==='writing' ? -6 : 2); sc[id] = {p: Math.max(25, Math.min(100, p))}; });
   });
   const keys = Object.keys(DB.students).filter(k=>DB.students[k].classes.length);
   keys.slice(0,40).forEach((k,i) => { if (i%4===1) DB.contacts[k] = [{type: CONTACT_TYPES[i%4], note:'', at: Date.now() - (i%9+1)*864e5}]; if (i%11===3 && DB.profiles[k]) DB.profiles[k].acc = i%2 ? '504; extended time' : 'EB'; });
@@ -2173,9 +2228,9 @@ document.addEventListener('click', e => {
   if (act==='copy-prompt') copyText(CHROME_PROMPT, 'Prompt');
   if (act==='copy-grab'){ const g = conversationStarters(m()); copyText(`Conversation starters — ${scopeLabel()} — ${today()}\n\n` + g.map((s,i)=>{ const c = lastContact(s.key); return `${i+1}. ${s.name} (${s.classes.join(', ')}): ${[...s.school, s.missing.length?`${s.missing.length} missing`:''].filter(Boolean).join('; ')} · ${STATUS[s.status].label} — ${c?`last contact ${ago(c.at)} (${c.type})`:'not contacted yet'}`; }).join('\n'), 'List'); }
   if (act==='copy-unpaid'){ const u = unpaidList(m()); copyText(`AP exam unpaid — ${scopeLabel()} — ${today()}\n\n` + u.map(s=>`• ${s.name} (${s.classes.join(', ')})${s.ids.length?' · ID '+s.ids[0]:''}`).join('\n'), 'Unpaid list'); }
-  if (act==='copy-ap'){ const lo = []; m().studs.forEach(s=>s.cs.forEach(c=>{ if (c.proj && c.proj.score<=2) lo.push({s,c}); })); copyText(`AP projection 1–2 — ${scopeLabel()} — ${today()}\n\n` + lo.sort((a,b)=>classSort(a.c.cls,b.c.cls)||a.c.proj.comp-b.c.proj.comp).map(r=>`• ${r.s.name} (${r.c.cls}) — projected ${r.c.proj.score} · MC ${Math.round(r.c.proj.mcPct)}%${r.c.proj.wrPct!=null?` · writing ${Math.round(r.c.proj.wrPct)}%`:''}`).join('\n'), 'AP 1–2 list'); }
+  if (act==='copy-ap'){ const lo = []; m().studs.forEach(s=>s.cs.forEach(c=>{ if (c.proj && c.proj.score<=2) lo.push({s,c}); })); copyText(`AP projection 1–2 — ${scopeLabel()} — ${today()}\n\n` + lo.sort((a,b)=>classSort(a.c.cls,b.c.cls)||a.c.proj.comp-b.c.proj.comp).map(r=>`• ${r.s.name} (${r.c.cls}) — ${projText(r.c)}`).join('\n'), 'AP 1–2 list'); }
   if (act==='print-ap'){ const rows=[]; m().studs.forEach(s=>s.cs.forEach(c=>{ if (c.proj) rows.push({s,c}); })); const g = rows.reduce((o,r)=>{ (o[r.c.cls] ||= []).push(r); return o; }, {});
-    printDoc(`AP projection — ${scopeLabel()}`, Object.entries(g).sort((a,b)=>classSort(a[0],b[0])).map(([cls,list])=>`<section><h2>${esc(cls)} · ${[5,4,3,2,1].map(n=>`${n}s: ${list.filter(r=>r.c.proj.score===n).length}`).join(' · ')}</h2><table><thead><tr><th>Student</th><th class="r">MC</th><th class="r">Writing</th><th class="r">Blend</th><th class="r">Projected</th></tr></thead><tbody>${list.sort((a,b)=>a.c.proj.comp-b.c.proj.comp).map(r=>`<tr><td>${r.c.proj.score<=2?'<b>':''}${esc(r.s.name)}${r.c.proj.score<=2?'</b>':''}</td><td class="r">${Math.round(r.c.proj.mcPct)}%</td><td class="r">${r.c.proj.wrPct==null?'—':Math.round(r.c.proj.wrPct)+'%'}</td><td class="r">${Math.round(r.c.proj.comp)}%</td><td class="r"><b>${r.c.proj.score}</b></td></tr>`).join('')}</tbody></table></section>`).join('') || '<p>No projections yet.</p>'); }
+    printDoc(`AP projection — ${scopeLabel()}`, Object.entries(g).sort((a,b)=>classSort(a[0],b[0])).map(([cls,list])=>`<section><h2>${esc(cls)} · ${[5,4,3,2,1].map(n=>`${n}s: ${list.filter(r=>r.c.proj.score===n).length}`).join(' · ')}</h2><table><thead><tr><th>Student</th><th class="r">Unit MC</th><th class="r">Unit proj.</th><th class="r">Mock</th><th class="r">Headline</th></tr></thead><tbody>${list.sort((a,b)=>a.c.proj.comp-b.c.proj.comp).map(r=>`<tr><td>${r.c.proj.score<=2?'<b>':''}${esc(r.s.name)}${r.c.proj.score<=2?'</b>':''}</td><td class="r">${r.c.unitProj?Math.round(r.c.unitProj.mcPct)+'%':'—'}</td><td class="r">${r.c.unitProj?r.c.unitProj.score:'—'}</td><td class="r">${r.c.mock?`${r.c.mock.score} (${Math.round(r.c.mock.comp)}%)${r.c.mock.note?' '+r.c.mock.note:''}`:'—'}</td><td class="r"><b>${r.c.proj.score}${r.c.mock?' mock':''}</b></td></tr>`).join('')}</tbody></table></section>`).join('') || '<p>No projections yet.</p>'); }
   if (act==='copy-retests') copyText(retestText(m()), 'Retest list');
   if (act==='copy-power') copyText(powerText(m()), 'Power Hour list');
   if (act==='copy-missing') copyText(missingText(m()), 'Missing-work list');
@@ -2197,6 +2252,8 @@ document.addEventListener('click', e => {
     Object.assign(DB.settings, {title:$('#setTitle').value.trim()||CONFIG.title, teacherName:$('#setName').value.trim(), atRisk:num('#setRisk',CONFIG.atRisk), apOnTrack:num('#setApPct',CONFIG.apOnTrack), apRecent:Math.max(1,Math.round(num('#setApRecent',CONFIG.apRecent))), apBand:num('#setApBand',CONFIG.apBand),
       retestCap:num('#setCap',CONFIG.retestCap), missingForHelp:num('#setMiss',CONFIG.missingForHelp), dropPts:num('#setDrop',CONFIG.dropPts), gapPts:num('#setGap',CONFIG.gapPts), retestPattern:pattern});
     if (scale.length) DB.settings.scale = scale;
+    DB.settings.apWriting = $('#setApWriting').checked;
+    const ew = Object.assign({}, CONFIG.examWeights, DB.settings.examWeights || {}); ['APHG','AP World','AP Euro'].forEach(c => { const v = ($('#setW_'+c.replace(/\s+/g,'_'))?.value || '').trim(); if (v) ew[c] = v; }); DB.settings.examWeights = ew;
     save(); render(); toast('Settings saved');
   }
 });

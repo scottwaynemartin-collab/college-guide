@@ -57,12 +57,11 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
   - Unit Test = "test", "retest", "MC" or "MCQ".
 - **Units:** taken from "Unit N", "UN", or a topic number such as "Topic Check: 2.3" (Unit 2).
 - **AP projection:**
-  1. MC % = the weighted average of AP Classroom multiple-choice scores (not writing). Unit N carries weight 1 + (N − 1) × 0.5.
-  2. If any writing scores exist (from any platform), the blend = MC × w + writing × (1 − w). w = 0.5 for APHG and 0.4 for AP World and AP Euro.
-  3. The blend maps to a score: 85+ → 5, 70+ → 4, 55+ → 3, 40+ → 2, otherwise 1.
-  4. Missing work is left out of the projection.
-
-## Views
+  1. **Unit MC projection** (all year): the weighted average of AP Classroom multiple-choice scores (not writing, not mocks). Unit N carries weight 1 + (N − 1) × 0.5. Writing is ignored unless "Include unit writing" is turned on in Settings.
+  2. **Mock projection:** used when assignments named Mock / Practice Exam / Full-length exist. Mock MC = the average of the full-length MC tests. Mock writing = the practice-test FRQ / SAQ / DBQ / LEQ scores. These are combined with the College Board weights (editable in Settings): APHG MC 50 / FRQ 50; AP World and AP Euro MC 40 / SAQ 20 / DBQ 25 / LEQ 15. A missing part is left out and the rest scaled up, with a note such as "(no DBQ yet)".
+  3. Once a mock exists it is the headline (badge "Mock"), and the Unit MC projection is shown alongside.
+  4. The composite maps to a score: 85+ → 5, 70+ → 4, 55+ → 3, 40+ → 2, otherwise 1. Missing work is left out.
+  5. **Compare years:** a "Mock projection vs. actual AP score" grid compares each student's prior-year mock projection with their actual AP score (Profile "Prior AP score" or "AP scores"), showing the exact-match and within-1 rates.
 - **Overview:**
   - Status tiles (On Track / Watch / Needs Help / AP exam unpaid); tapping one filters the roster.
   - Roster, and "Grab these kids" with reason tags and last parent contact.
