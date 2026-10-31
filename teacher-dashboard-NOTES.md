@@ -103,9 +103,9 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
   - Missing work, parent contact log, and conference notes (saved).
   - Prev and Next buttons; the ← and → keys also work.
 - **Import:** the Claude in Chrome prompt, paste box, file drop, school year, **Data check**, import history, and **Undo last import** (one level).
-- **Settings:** rules, which overview cards show, back up, restore, sample data, erase, and **T-TESS summary**.
-- **T-TESS summary** (Settings → Open T-TESS summary): one printable page per class with counts only (no student names), a date stamp, and "Evidence from Classroom Dashboard, student data on request." Organized by dimension:
-  - **1.2 Data & Assessment:** data sources in use; reteach topics (units where the class AP Classroom MC average is below the on-track %); retest priority count.
+- **Settings:** rules, which overview cards show, back up, restore, sample data, erase.
+- **T-TESS** (sidebar tab): see "T-TESS tab" below.
+  - **1.2 Data & Assessment:** data sources in use; reteach units (class AP Classroom unit MC average below the on-track %); retest priority (students one retest from on track).
   - **1.3 Knowledge of Students:** % with a full profile (8th STAAR, TIA BOY and GPA on file); prior AP on file.
   - **1.4 / 2.4 Activities / Differentiation:** reteach groups (units with 2+ students under the on-track %); Power Hour drafts and attended.
   - **2.1 / 3.3 Achieving Expectations / Classroom Culture:** % with an Agency goal; check-ins whose date has passed; % of quarter grade goals met.
@@ -144,12 +144,13 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
   - **Mark sent:** logs "Retest message · Unit N · Canvas" in the contact log and hides the student for that unit until the next import.
   - **Copy prompt for Claude:** names + IDs, the unit and the message, ready for Claude in Chrome to send.
   - Both messages and the cutoff (70) are editable in Settings.
-- **T-TESS:**
-  - 1.2: retest priority = students one retest from on track, plus open unit-test retests.
-  - 1.4: reteach groups made.
-  - 2.3: retest messages sent.
-  - 4.2: falls back to the Settings benchmark.
-  - The footer reads "Evidence from Classroom Dashboard; student data on request."
+- **T-TESS tab** (sidebar, under Insights; replaces the Settings-page version). Written for an administrator who has never seen the dashboard:
+  - A date-stamped intro paragraph: what the dashboard is, what feeds it, that it refreshes weekly.
+  - One table row per dimension (1.2, 1.3, 1.4/2.4, 2.1/3.3, 2.3, 2.5, 3.1, 4.2, 4.4): Dimension · What this dashboard shows (live numbers) · Where to see it (a link that jumps to the page or card, keeping the current course/period filter). A plain-English sentence sits under each row.
+  - No student names anywhere. Numbers are totals for the classes in the current filter (All courses by default; pick a course or period chip to scope it).
+  - Bottom: "Not covered here — see the separate T-TESS dashboard: 1.1, 2.2, 3.2, 4.1, 4.3." Footer: "Student-level data available on request."
+  - Print (one page) and Copy text. In the artifact, Print opens a printable text version.
+  - 4.2 shows last year's results per course from the AP score summary, else the Settings benchmark line, next to this year's projected % 3+.
 
 ## Artifact limits (by design)
 The claude.ai artifact frame blocks several browser features, so the page works around them:

@@ -637,6 +637,12 @@ tr.hi .bbar i{background:var(--tq)} tr.hi td{background:var(--tq-soft)}
 .tt h3{font:800 13px var(--sans);margin:0 0 3px}.tt h3 span{display:inline-block;min-width:64px;font:900 12px var(--display);background:var(--ink);color:var(--card);padding:2px 6px;border-radius:4px;margin-right:6px;text-align:center}
 .tt ul{margin:0;padding-left:84px;font-size:13px;color:var(--ink2)}.tt li{margin:2px 0}.tt b{color:var(--ink)}
 .ttfoot{font-size:11px;color:var(--ink3);margin:10px 0 0;font-style:italic}
+.ttt td,.ttt th{vertical-align:top}
+.ttt tr.ttr td{border-bottom:0;padding-bottom:2px}.ttt tr.ttp td{padding-top:0;font-size:12.5px;color:var(--ink2);font-style:italic}
+.ttt ul{margin:0;padding-left:16px}.ttt li{margin:2px 0}
+.ttdim{display:inline-block;font:900 12px var(--display);background:var(--ink);color:var(--card);padding:2px 7px;border-radius:5px;margin-right:6px}
+.ttgo{font-weight:800;white-space:normal;text-align:left}
+#printArea .ttt{width:100%;border-collapse:collapse;font-size:9.5px;line-height:1.3}#printArea .ttt th{text-align:left;border-bottom:2px solid #000;padding:3px 5px}#printArea .ttt td{padding:2px 5px;border-bottom:1px solid #ccc;vertical-align:top}#printArea .ttt ul{margin:0;padding-left:12px}#printArea .ttt li{margin:0}#printArea .ttintro{font-size:10px;line-height:1.35;margin:0 0 6px}
 #printArea .ttpage{break-after:page;font-size:11px}
 #printArea .ttpage:last-child{break-after:auto}
 #printArea .tthead{display:flex;justify-content:space-between;border-bottom:3px solid #000;padding-bottom:6px;margin-bottom:6px}
@@ -1202,6 +1208,7 @@ const ICONS = {
   compare:'<path d="M4 16V9m4 7V4m4 12v-5m4 5V7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
   ap:'<path d="M10 2.8l2.1 4.4 4.8.6-3.5 3.3.9 4.8L10 13.6l-4.3 2.3.9-4.8-3.5-3.3 4.8-.6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>',
   mail:'<rect x="3" y="5" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 6l6.5 5 6.5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>',
+  ttess:'<path d="M4 4h12v12H4z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 9l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
   theme:'<path d="M15.5 12.5A6.5 6.5 0 0 1 7.5 4.5a6.5 6.5 0 1 0 8 8z" fill="none" stroke="currentColor" stroke-width="1.8"/>',
 };
 const svg = k => `<svg viewBox="0 0 20 20" aria-hidden="true">${ICONS[k]}</svg>`;
@@ -1221,6 +1228,7 @@ function renderSide(m){
     <div class="navlbl">Insights</div>
     ${nav('compare','Compare years','compare')}
     ${nav('ap','AP projection','ap', apLow||'', apLow>0)}
+    ${nav('ttess','T-TESS','ttess')}
     <div class="navlbl">Data</div>
     ${nav('assignments','Assignments','assignments', visibleAssignments().length||'')}
     ${nav('import','Import data','import')}
@@ -1234,7 +1242,7 @@ function renderTop(){
   const crs = courses(), cls = allClasses();
   const nOf = c => Object.values(DB.students).filter(s=>s.classes.some(x=>splitClass(x).course===c)).length;
   const periods = UI.course==='all' ? cls : cls.filter(c=>splitClass(c).course===UI.course);
-  const showScope = !['import','options','ttess'].includes(UI.view) && cls.length;
+  const showScope = !['import','options'].includes(UI.view) && cls.length;
   const staarChips = hasProfiles() ? `<span class="lbl">8th STAAR</span>
       <button class="chip" aria-pressed="${UI.staar==='all'}" data-staar="all">All</button>
       ${STAAR.map(x=>`<button class="chip" aria-pressed="${UI.staar===x.id}" data-staar="${x.id}">${esc(x.short)}</button>`).join('')}
@@ -1250,7 +1258,7 @@ function renderTop(){
       ${showScope ? `<div class="seg" role="group" aria-label="Course">
         <button aria-pressed="${UI.course==='all'}" data-course="all">All<em>${Object.values(DB.students).filter(s=>s.classes.length || !s.past).length}</em></button>
         ${crs.map(c=>`<button aria-pressed="${UI.course===c}" data-course="${esc(c)}">${esc(c)}<em>${nOf(c)}</em></button>`).join('')}
-      </div>` : `<b style="font:900 16px var(--display);text-transform:uppercase">${UI.view==='import'?'Import data':UI.view==='ttess'?'T-TESS summary':'Settings'}</b>`}
+      </div>` : `<b style="font:900 16px var(--display);text-transform:uppercase">${UI.view==='import'?'Import data':'Settings'}</b>`}
       <span class="sp"></span>
       <label class="search"><span aria-hidden="true">⌕</span><span class="sr">Search students</span><input id="q" type="search" placeholder="Search students…" value="${esc(UI.q)}" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
     </div>
@@ -1293,7 +1301,7 @@ function viewOverview(m){
     <div class="tiles${profiles?' four':''}">${tile('ok','t-ok')}${tile('watch','t-watch')}${tile('help','t-help')}${profiles?tile('unpaid','t-ap'):''}</div>
   </section>
   <div class="grid">
-    <section class="card w8"><div class="ch"><h2>${UI.status ? STATUS[UI.status].label : 'Roster'}</h2><span class="count">${list.length}</span>
+    <section class="card w8" id="rosterCard"><div class="ch"><h2>${UI.status ? STATUS[UI.status].label : 'Roster'}</h2><span class="count">${list.length}</span>
         ${UI.status?`<button class="link" data-status="${UI.status}">Clear filter ✕</button>`:''}<span class="sp"></span>
         <label class="sr" for="sortSel">Sort</label><select class="btn sm" id="sortSel">${[['need','Most need first'],['low','Lowest average'],['high','Highest average'],['missing','Most missing'],['name','Name A–Z']].map(([v,l])=>`<option value="${v}" ${UI.sort===v?'selected':''}>${l}</option>`).join('')}</select></div>
       <div class="cb">${list.length ? `<div class="rhead"><span>Student</span><span>AP status (AP Classroom raw MC)</span><span>Class grade</span><span>Missing</span><span>Context</span></div>
@@ -1305,7 +1313,7 @@ function viewOverview(m){
           <span class="who">${avatar(s.key,s.name,30)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · '))}</small></span></span>
           <span class="tags" style="margin-top:5px">${flagChips(s.key)}${s.missing.length?`<span class="tag missing">⧗ ${s.missing.length} missing</span>`:''}</span>${contactLine(s.key)}</span>
           <span>${pill(s.status)}</span></button>`).join('')}</div>${grab.length>12?`<p class="fine">+${grab.length-12} more · turn on “Has flags” to see them in the roster</p>`:''}` : `<div class="empty">✓ No watch flags or ${S().missingForHelp}+ missing right now.</div>`}</div></section>
-      <section class="card"><div class="ch"><h2>Intervention → outcome</h2><span class="sp"></span>${ev.length?'<button class="link" data-act="outcomes">Details</button>':''}</div><div class="cb">
+      <section class="card" id="outcomeCard"><div class="ch"><h2>Intervention → outcome</h2><span class="sp"></span>${ev.length?'<button class="link" data-act="outcomes">Details</button>':''}</div><div class="cb">
         <p class="fine" style="margin:0 0 6px">Next AP Classroom unit MC score vs. the one before.</p>
         <div class="orows">${[['After Power Hour', phOut], ['After a contact', ctOut], ['After a retest', rtOut]].map(([l, o]) => `<div class="orow"><span>${l}</span><b class="${o?(o.d>=0?'up':'down'):''}">${o?`avg MC ${signPts(o.d)}`:'—'}</b><small>${o?plural(o.n,'case'):'not enough data'}</small></div>`).join('')}</div></div></section>
       <section class="card"><div class="ch"><h2>Action lists</h2></div><div class="cb"><div class="alinks">
@@ -1319,7 +1327,7 @@ function viewOverview(m){
         <div class="cb">${unpaid.length ? `<div class="grab">${unpaid.map(s=>`<button class="gi" data-student="${esc(s.key)}" style="grid-template-columns:1fr auto"><span class="who">${avatar(s.key,s.name,30)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · '))}</small></span></span><span class="apx">$ Unpaid</span></button>`).join('')}</div>` : '<div class="empty">✓ Every AP exam is paid or opted out.</div>'}</div></section>`
       : `<section class="card"><div class="ch"><h2>Student profiles</h2></div><div class="cb"><p class="minor" style="margin:0 0 10px">Add 8th-grade STAAR and AP exam payment to see STAAR badges, the STAAR filter and the unpaid list.</p><button class="btn sm" data-go="import" data-anchor="profileCard">Student Profile (CSV) →</button></div></section>`}
     </div>
-    <section class="card w6"><div class="ch"><h2>Reteach radar</h2><span class="sub">5 weakest units · latest AP Classroom unit MC attempt</span><span class="sp"></span><button class="btn sm" data-act="make-groups">Make groups</button></div><div class="cb">
+    <section class="card w6" id="radarCard"><div class="ch"><h2>Reteach radar</h2><span class="sub">5 weakest units · latest AP Classroom unit MC attempt</span><span class="sp"></span><button class="btn sm" data-act="make-groups">Make groups</button></div><div class="cb">
       ${radar.length ? radar.map(set => `${radar.length>1?`<div class="minor" style="font-weight:800;margin:4px 0">${esc(set.course)}</div>`:''}${set.units.map(u => `<div class="rdr"><div class="rdrh"><b>U${u.u}</b><span class="rbar"><i style="width:${u.avg}%;background:${u.avg<S().apOnTrack?'var(--help)':u.avg<S().apOnTrack+10?'var(--watch)':'var(--tq)'}"></i></span><b class="num">${p0(u.avg)}</b><span class="minor">${u.low.length} below ${S().apOnTrack}%</span></div>
         ${u.low.length?`<div class="namechips">${u.low.sort((a,b)=>a.p-b.p).map(x=>`<button class="nchip" data-student="${esc(x.s.key)}">${esc(x.s.name)}<b>${p0(x.p)}</b></button>`).join('')}</div>`:''}</div>`).join('')}`).join('') : '<div class="empty">No AP Classroom unit MC tests yet.</div>'}</div></section>
     <section class="card w6"><div class="ch"><h2>Retest priority</h2><span class="count">${prio.length}</span><span class="sub">one retest ≥ ${S().apOnTrack}% → AP on track</span></div><div class="cb">
@@ -1827,30 +1835,57 @@ function ttessFor(cls){
   const cbLast = latestScore(course, curYear()), ipr = iprFor(course);
   return {cbLast, ipr, cls, course, n, srcs, reteach, groups, retest, full, priorAp, phDrafts, phAtt, dashDrafts, goalSet, checkins, qGoals, qMet, contacts, emails, retestGains, phChanges, weeks: weeks.size, spanWeeks, confs, withMc: withMc.length, onNow, onFirst, tiaPairs, priorPairs, proj: proj.length, proj3, refs, pctOf, rmSent, rprio, groupsMade};
 }
-function ttessHtml(t){
-  const st = S(), sign = v => v==null ? '—' : (v>=0?'+':'') + fmt(v,1) + ' pts', last = (DB.ttess.lastYear || {})[t.course] || '';
-  const parentTypes = CONTACT_TYPES.map(x => `${x}: ${t.contacts[x]||0}`).join(' · ');
-  const row = (dim, title, items) => `<section class="tt"><h3><span>${dim}</span> ${title}</h3><ul>${items.map(i=>`<li>${i}</li>`).join('')}</ul></section>`;
-  return `<div class="ttpage"><div class="tthead"><div><small>${esc(st.school)} · ${esc(st.title)}${st.teacherName?' · '+esc(st.teacherName):''}</small><h2>T-TESS evidence · ${esc(t.cls)}</h2></div><div class="ttdate">${new Date().toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'})}<br><small>${t.n} students · ${curYear()}</small></div></div>
-    ${row('1.2','Data &amp; Assessment', [`Data sources in use: <b>${t.srcs.length ? esc(t.srcs.join(', ')) : 'none yet'}</b>`, `Reteach topics identified (units with class AP Classroom MC avg &lt; ${st.apOnTrack}%): <b>${t.reteach.length}</b>${t.reteach.length?` (${t.reteach.map(r=>`U${r.u} ${p0(r.avg)}`).join(', ')})`:''}`, `Retest priority: <b>${t.rprio}</b> students one retest (≥ ${st.apOnTrack}%) from AP on track · <b>${t.retest}</b> AP Classroom unit MC tests under ${st.retestCap} not yet retested`])}
-    ${row('1.3','Knowledge of Students', [`Students with a full profile (8th STAAR, TIA BOY and GPA on file): <b>${t.pctOf(t.full)}</b> (${t.full} of ${t.n})`, `Prior AP score on file: <b>${t.priorAp}</b> students`])}
-    ${row('1.4 / 2.4','Activities / Differentiation', [`Reteach groups made (Make groups, copied or printed): <b>${t.groupsMade}</b> · units with 2+ students under ${st.apOnTrack}% on AP Classroom unit MC: <b>${t.groups.length}</b>`, `Power Hour drafts: <b>${t.phDrafts}</b> (school record)${t.dashDrafts?` + <b>${t.dashDrafts}</b> drafted from this dashboard`:''} · attended: <b>${t.phAtt}</b>`])}
-    ${row('2.1 / 3.3','Achieving Expectations / Classroom Culture', [`Students with an Agency goal set: <b>${t.pctOf(t.goalSet)}</b> (${t.goalSet} of ${t.n})`, `Check-ins done (check-in date reached): <b>${t.checkins}</b>`, `Quarter grade goals met: <b>${t.qGoals ? t.pctOf(t.qMet, t.qGoals) : '—'}</b>${t.qGoals?` (${t.qMet} of ${t.qGoals} goals with a grade)`:''}`])}
-    ${row('2.3','Communication', [`Parent contacts by type: <b>${parentTypes}</b>`, `Parent emails drafted: <b>${t.emails}</b>`, `Retest messages sent (Canvas): <b>${t.rmSent}</b>`])}
-    ${row('2.5','Monitor &amp; Adjust', [`Average AP Classroom unit MC change after a Power Hour draft: <b>${t.phChanges.length ? sign(mean(t.phChanges)) : 'not enough data yet'}</b>${t.phChanges.length?` (${t.phChanges.length} students)`:''}`, `Average retest gain (MC retest vs. original, same unit): <b>${t.retestGains.length ? sign(mean(t.retestGains)) : 'no retests yet'}</b>${t.retestGains.length?` (${t.retestGains.length} retests)`:''}`, `Weekly data refreshes: <b>${t.weeks}</b> week${t.weeks===1?'':'s'} with new data out of ${t.spanWeeks} since the first import`])}
-    ${row('3.1','Routines', [`Conferences held per grading period: <b>${st.gradingPeriods.map(([g]) => `${g} ${t.confs[g]||0}`).join(' · ')}</b>`])}
-    ${row(`4.2`, `Goal Setting${t.course===st.sloCourse?' (SLO: '+esc(st.sloCourse)+')':''}`, [`AP on track now: <b>${t.withMc ? t.pctOf(t.onNow, t.withMc) : '—'}</b> vs. at the first AP Classroom MC test: <b>${t.withMc ? t.pctOf(t.onFirst, t.withMc) : '—'}</b> (${t.withMc} students with MC data)`, `TIA BOY → EOY growth: <b>${t.tiaPairs.length ? sign(mean(t.tiaPairs.map(([a,b])=>b-a))) : 'EOY not on file yet'}</b>${t.priorPairs.length?` · last year's BOY → EOY: ${sign(mean(t.priorPairs.map(([a,b])=>b-a)))}`:''}`, `Last year's AP results: <b>${t.cbLast ? `${p0(t.cbLast.pass)} scored 3+ (${t.cbLast.n} students, mean ${fmt(t.cbLast.mean,2)}${t.cbLast.globalMean!=null?` vs. global ${fmt(t.cbLast.globalMean,2)}`:''}${t.cbLast.global3!=null?`; global ${p0(t.cbLast.global3)} 3+`:''}, ${esc(examLabel(t.cbLast.year))} score report)` : last ? esc(last) : (S().benchmarks||{})[t.course] ? esc(S().benchmarks[t.course]) : 'not entered'}</b> vs. this year's projection: <b>${t.proj ? t.pctOf(t.proj3, t.proj)+' projected 3+' : '—'}</b>`,
-      ...(t.ipr && t.ipr.rows.length ? [`Instructional Planning Report (${esc(examLabel(t.ipr.year))}): below global: <b>${t.ipr.rows.filter(x=>x.d<=-5).sort((a,b)=>a.d-b.d).slice(0,3).map(x=>`${esc(x.item)} (${fmt(x.d,0)})`).join(', ') || 'none ≥ 5 pts'}</b> · above global: <b>${t.ipr.rows.filter(x=>x.d>=5).sort((a,b)=>b.d-a.d).slice(0,3).map(x=>`${esc(x.item)} (+${fmt(x.d,0)})`).join(', ') || 'none ≥ 5 pts'}</b>`] : [])])}
-    ${row('4.4','School Community', [`Referrals logged: <b>${t.refs.map(([k,v])=>`${k.replace(' referral','')}: ${v}`).join(' · ')}</b>`])}
-    <p class="ttfoot">Evidence from Classroom Dashboard; student data on request.</p></div>`;
+function ttessAgg(classes){
+  const parts = classes.map(ttessFor), sum = k => parts.reduce((t,p) => t + (p[k]||0), 0), cat = k => parts.flatMap(p => p[k]||[]);
+  const merge = k => { const o = {}; parts.forEach(p => Object.entries(p[k]||{}).forEach(([a,b]) => o[a] = (o[a]||0) + b)); return o; };
+  const n = sum('n'), pctOf = (x, d=n) => d ? Math.round(x/d*100)+'%' : '—';
+  const courses = [...new Set(parts.map(p=>p.course))].sort(courseSort);
+  return {parts, n, pctOf, courses, srcs: [...new Set(cat('srcs'))], reteachUnits: parts.reduce((t,p)=>t+p.reteach.length,0), reteachList: parts.flatMap(p => p.reteach.map(r => `${p.cls} U${r.u} ${p0(r.avg)}`)),
+    rprio: sum('rprio'), retest: sum('retest'), full: sum('full'), priorAp: sum('priorAp'), groupsMade: sum('groupsMade'), phDrafts: sum('phDrafts'), phAtt: sum('phAtt'), dashDrafts: sum('dashDrafts'),
+    goalSet: sum('goalSet'), checkins: sum('checkins'), qGoals: sum('qGoals'), qMet: sum('qMet'), contacts: merge('contacts'), emails: sum('emails'), rmSent: sum('rmSent'), retestGains: cat('retestGains'), phChanges: cat('phChanges'),
+    weeks: parts[0]?.weeks || 0, spanWeeks: parts[0]?.spanWeeks || 0, confs: merge('confs'), withMc: sum('withMc'), onNow: sum('onNow'), onFirst: sum('onFirst'), tiaPairs: cat('tiaPairs'), priorPairs: cat('priorPairs'), proj: sum('proj'), proj3: sum('proj3'),
+    refs: REFERRAL_TYPES.map(t => [t, parts.reduce((a,p) => a + (p.contacts[t]||0), 0)])};
 }
-function viewTtess(){
-  const cls = allClasses(), crs = [...new Set(cls.map(c=>splitClass(c).course))];
-  return `<div class="phead"><div><div class="eyebrow"><i></i>Settings</div><h1>T-TESS summary</h1><p>One evidence page per class. Counts only, no student names. Conferences held, referrals, parent emails drafted and assignment arrival dates are tracked from the day this page was added.</p></div>
-    <div class="actions"><button class="btn" data-go="options">‹ Settings</button><button class="btn" data-act="copy-ttess">Copy text</button><button class="btn blk" data-act="print-ttess">${PRINT==='Print'?'Print (one page per class)':'Printable text'}</button></div></div>
-    <div class="card" style="margin-bottom:16px"><div class="cb" style="padding-top:12px"><div class="row3">${crs.map(c=>`<label class="field">Last year's AP results · ${esc(c)}<input class="in" data-lastyear="${esc(c)}" value="${esc((DB.ttess.lastYear||{})[c]||'')}" placeholder="${latestScore(c, curYear()) ? 'filled from the score report' : 'e.g. 72% passed (3+)'}"></label>`).join('')}</div>
-      <p class="fine" style="margin:0">Used in 4.2 when no AP score summary is on file (a pasted score report takes priority). Grading periods are approximate (${S().gradingPeriods.map(([g,a,b])=>`${g} ${a}–${b}`).join(', ')}).</p></div></div>
-    ${cls.length ? cls.map(c => `<div class="card ttcard">${ttessHtml(ttessFor(c))}</div>`).join('') : '<div class="card"><div class="empty">No classes yet.</div></div>'}`;
+function ttessRows(t){
+  const st = S(), sign = v => v==null ? '—' : (v>=0?'+':'−') + fmt(Math.abs(v),1) + ' pts', B = x => `<b>${x}</b>`;
+  const parentTypes = CONTACT_TYPES.map(x => `${x} ${t.contacts[x]||0}`).join(' · ');
+  const lastYear = c => { const sr = latestScore(c, curYear()); if (sr) return `${p0(sr.pass)} scored 3+, mean ${fmt(sr.mean,2)} (${examLabel(sr.year)} score report)`; const b = (S().benchmarks||{})[c] || (DB.ttess.lastYear||{})[c]; return b ? esc(b) : 'not entered'; };
+  const projFor = c => { const ps = t.parts.filter(p=>p.course===c); const n = ps.reduce((a,p)=>a+p.proj,0), k = ps.reduce((a,p)=>a+p.proj3,0); return n ? `${Math.round(k/n*100)}% projected 3+ (${n} students)` : 'no projection yet'; };
+  const go = (label, view, anchor, act) => `<button class="link ttgo" ${act?`data-act="${act}"`:`data-go="${view}"${anchor?` data-anchor="${anchor}"`:''}`}>${label} →</button>`;
+  return [
+    {dim:'1.2', name:'Data &amp; Assessment', show:[`Data sources in use: ${B(t.srcs.length ? esc(t.srcs.join(', ')) : 'none yet')}`, `Reteach units identified: ${B(t.reteachUnits)}${t.reteachList.length?` <span class="minor">(${esc(t.reteachList.join(', '))})</span>`:''}`, `Retest priority: ${B(t.rprio)} student${t.rprio===1?'':'s'} one retest from AP on track · ${B(t.retest)} unit tests under ${st.retestCap} not yet retested`],
+      where: go('Overview · Reteach radar','overview','radarCard'), plain:`The teacher pulls scores from several systems every week and uses them to find the units the class understood least and the students a single retest would move onto pace for the AP exam.`},
+    {dim:'1.3', name:'Knowledge of Students', show:[`Students with a full profile (8th-grade STAAR, TIA beginning-of-year and GPA on file): ${B(t.pctOf(t.full))} (${t.full} of ${t.n})`, `Prior AP score on file: ${B(t.priorAp)} students`],
+      where: go('Conference page (open any student)','overview','rosterCard'), plain:`Each student has a one-page conference view that puts their test history, grades, attendance and goals next to their AP progress, so conversations start from the whole picture.`},
+    {dim:'1.4 / 2.4', name:'Activities / Differentiation', show:[`Reteach groups made: ${B(t.groupsMade)}`, `Power Hour drafts: ${B(t.phDrafts)} (school record)${t.dashDrafts?` + ${B(t.dashDrafts)} drafted from this dashboard`:''} · attended: ${B(t.phAtt)}`],
+      where: go('Make groups','', '', 'make-groups') + ' · ' + go('Power Hour','power'), plain:`Small groups are built from each student's weakest unit, and students below a passing average are drafted into the school's Power Hour tutorial block.`},
+    {dim:'2.1 / 3.3', name:'Achieving Expectations / Classroom Culture', show:[`Students with an Agency goal set: ${B(t.pctOf(t.goalSet))} (${t.goalSet} of ${t.n})`, `Check-ins done: ${B(t.checkins)}`, `Quarter grade goals met: ${B(t.qGoals ? t.pctOf(t.qMet, t.qGoals) : '—')}${t.qGoals?` (${t.qMet} of ${t.qGoals} goals with a grade)`:''}`],
+      where: go('Conference page · Agency section','overview','rosterCard'), plain:`Students set their own grade goal and action steps with the teacher, pick a check-in date, and see whether they met the goal when the quarter grade comes in.`},
+    {dim:'2.3', name:'Communication', show:[`Parent contacts: ${B(parentTypes)}`, `Parent emails drafted: ${B(t.emails)}`, `Retest messages sent to students: ${B(t.rmSent)}`],
+      where: go('Contact log (conference page)','overview','rosterCard') + ' · ' + go('Retest messages','retestmsg'), plain:`Every parent call, email, conference and tutoring contact is logged with a date, and students who need a retest get a message explaining exactly what to bring.`},
+    {dim:'2.5', name:'Monitor &amp; Adjust', show:[`Average unit MC change after a Power Hour draft: ${B(t.phChanges.length ? sign(mean(t.phChanges)) : 'not enough data yet')}${t.phChanges.length?` (${t.phChanges.length} students)`:''}`, `Average retest gain (same unit): ${B(t.retestGains.length ? sign(mean(t.retestGains)) : 'no retests yet')}${t.retestGains.length?` (${t.retestGains.length} retests)`:''}`, `Weekly data refreshes: ${B(t.weeks)} of ${t.spanWeeks} weeks since the first import`],
+      where: go('Overview · Intervention → outcome','overview','outcomeCard'), plain:`After each tutorial or retest the dashboard checks the student's next test score against the one before, so the teacher can see which interventions are working.`},
+    {dim:'3.1', name:'Routines', show:[`Conferences held per grading period: ${B(st.gradingPeriods.map(([g]) => `${g} ${t.confs[g]||0}`).join(' · '))}`],
+      where: go('Contact log (conference page)','overview','rosterCard'), plain:`One-on-one student conferences are logged when they happen, which shows how regularly they occur across the year.`},
+    {dim:'4.2', name:`Goal Setting${t.courses.includes(st.sloCourse)?' (SLO: '+esc(st.sloCourse)+')':''}`, show:[`AP on track now: ${B(t.withMc ? t.pctOf(t.onNow, t.withMc) : '—')} vs. at the first unit test: ${B(t.withMc ? t.pctOf(t.onFirst, t.withMc) : '—')} (${t.withMc} students with test data)`, `TIA beginning → end of year growth: ${B(t.tiaPairs.length ? sign(mean(t.tiaPairs.map(([a,b])=>b-a))) : 'end-of-year not on file yet')}${t.priorPairs.length?` · last year ${sign(mean(t.priorPairs.map(([a,b])=>b-a)))}`:''}`,
+        ...t.courses.map(c => `${esc(c)}: last year ${B(lastYear(c))} · this year ${B(projFor(c))}`)],
+      where: go('AP projection','ap') + ' · ' + go('Compare years','compare'), plain:`"On track" means a student's raw AP Classroom multiple-choice average is at least ${st.apOnTrack}%, the level that predicts passing the AP exam; the projection converts current scores to a likely 1–5 and is compared with last year's real results.`},
+    {dim:'4.4', name:'School Community', show:[`Referrals logged: ${B(t.refs.map(([k,v])=>`${k.replace(' referral','')} ${v}`).join(' · '))}`],
+      where: go('Contact log (conference page)','overview','rosterCard'), plain:`Referrals to the counselor or a co-teacher are logged alongside parent contacts so the team around a student stays coordinated.`},
+  ];
+}
+function ttessText(t, rows){ return [`T-TESS evidence — ${scopeLabel()} — ${new Date().toLocaleDateString()}`, `${S().school} · ${S().teacherName||S().title} · ${t.n} students`, '', ...rows.flatMap(r => [`${r.dim} ${r.name.replace(/&amp;/g,'&')}`, ...r.show.map(x => '  • ' + x.replace(/<[^>]+>/g,'')), `  ${r.plain}`, '']), 'Not covered here — see the separate T-TESS dashboard: 1.1, 2.2, 3.2, 4.1, 4.3.', 'Student-level data available on request.'].join('\n'); }
+function viewTtess(m){
+  const cls = allClasses().filter(c => (UI.course==='all' || splitClass(c).course===UI.course) && (UI.period==='all' || c===UI.period));
+  if (!cls.length) return `<div class="phead"><div><h1>T-TESS</h1></div></div><div class="card"><div class="empty">No classes yet.</div></div>`;
+  const t = ttessAgg(cls), rows = ttessRows(t), st = S();
+  const intro = `This is a private dashboard ${st.teacherName ? esc(st.teacherName) + ' uses' : 'the teacher uses'} to track ${cls.length===1 ? esc(cls[0]) : `${cls.length} AP classes`} (${t.n} students). It combines AP Classroom unit multiple-choice scores (raw, as the College Board reports them), Gradebook/TAC grades, Canvas work, TIA and 8th-grade STAAR results, and College Board AP score reports. The data is refreshed weekly${t.weeks?` (${t.weeks} refreshes so far)`:''}. Everything on this page is a count or an average; no student is named.`;
+  return `<div class="ttview"><div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())} · ${new Date().toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'})}</div><h1>T-TESS evidence</h1><p>${intro}</p></div>
+    <div class="actions"><button class="btn" data-act="copy-ttess">Copy text</button><button class="btn blk" data-act="print-ttess">${PRINT==='Print'?'Print':'Printable text'}</button></div></div>
+    <div class="card"><div class="cb" style="padding:0;overflow:auto"><table class="t ttt"><thead><tr><th style="width:17%">Dimension</th><th>What this dashboard shows</th><th style="width:22%">Where to see it</th></tr></thead><tbody>
+      ${rows.map(r => `<tr class="ttr"><td><span class="ttdim">${r.dim}</span><b>${r.name}</b></td><td><ul>${r.show.map(x=>`<li>${x}</li>`).join('')}</ul></td><td>${r.where}</td></tr><tr class="ttp"><td colspan="3">${r.plain}</td></tr>`).join('')}</tbody></table></div></div>
+    <p class="note" style="margin-top:14px"><b>Not covered here</b> — see the separate T-TESS dashboard: 1.1, 2.2, 3.2, 4.1, 4.3.</p>
+    <p class="ttfoot">Student-level data available on request. Counts begin on the day each feature was added; AP status rule: raw MC average ≥ ${st.apOnTrack}% or the last ${st.apRecent} unit tests ≥ ${st.apOnTrack}%.</p></div>`;
 }
 
 function viewSettings(){
@@ -1878,7 +1913,6 @@ function viewSettings(){
       <section class="card w5"><div class="ch"><h2>Overview cards</h2></div><div class="cb">
         ${OVERVIEW_CARDS.map(c=>`<label class="toggle"><input type="checkbox" data-card="${c.id}" ${DB.hidden.includes(c.id)?'':'checked'}>${esc(c.title)}</label>`).join('')}
       </div></section>
-      <section class="card w12"><div class="ch"><h2>T-TESS summary</h2><span class="sub">One printable evidence page per class · no student names</span><span class="sp"></span><button class="btn pri" data-go="ttess">Open T-TESS summary</button></div></section>
       <section class="card w12"><div class="ch"><h2>Your data</h2></div><div class="cb">
         <div class="note"><b>${Object.keys(DB.students).length}</b> students, <b>${Object.keys(DB.assignments).length}</b> assignments, <b>${Object.keys(DB.profiles).length}</b> profiles and <b>${DB.imports.length}</b> imports are saved in this browser. Back up to move them somewhere else.</div>
         <div class="actions"><button class="btn" data-act="backup">Back up…</button><button class="btn" data-act="restore">Restore backup…</button><button class="btn" data-act="sample">Load sample data</button><button class="btn danger" data-act="wipe">Erase everything</button></div>
@@ -2541,8 +2575,9 @@ document.addEventListener('click', e => {
   if (act==='draft-check') draftCheck();
   if (act==='draft-write') draftWrite();
   if (act==='copy-draft'){ const day = UI.draftDay || defaultDraftDay(); copyText(`Power Hour draft — ${day} — ${draftValue()}\n\n` + draftCandidates(m()).map(x=>`${x.s.ids[0]||'(no ID)'}\t${x.s.name}\t${x.cls}\t${Math.round(x.avg)}%`).join('\n'), 'Draft list'); }
-  if (act==='print-ttess'){ printDoc('T-TESS evidence', allClasses().map(c => ttessHtml(ttessFor(c))).join('')); }
-  if (act==='copy-ttess'){ const d = document.createElement('div'); d.innerHTML = allClasses().map(c => ttessHtml(ttessFor(c))).join('').replace(/<\/(li|h2|h3|p)>/g,'$&\n').replace(/<li>/g,'• '); copyText(d.textContent.replace(/\n{3,}/g,'\n\n'), 'T-TESS summary'); }
+  if (act==='print-ttess' || act==='copy-ttess'){ const cls = allClasses().filter(c => (UI.course==='all' || splitClass(c).course===UI.course) && (UI.period==='all' || c===UI.period)), t = ttessAgg(cls), rows = ttessRows(t);
+    if (act==='copy-ttess') return copyText(ttessText(t, rows), 'T-TESS evidence'); if (!CAN_PRINT) return showText('T-TESS evidence', ttessText(t, rows));
+    return printDoc(`T-TESS evidence — ${scopeLabel()}`, `<p class="ttintro">${$('.ttview .phead p')?.innerHTML || ''}</p><table class="ttt"><thead><tr><th>Dimension</th><th>What this dashboard shows</th><th>Where to see it</th></tr></thead><tbody>${rows.map(r => `<tr><td><b>${r.dim}</b> ${r.name}</td><td><ul>${r.show.map(x=>`<li>${x}</li>`).join('')}</ul></td><td>${r.where.replace(/<[^>]+>/g,'').replace(/ →/g,'')}</td></tr><tr><td colspan="3" style="font-style:italic;color:#333">${r.plain}</td></tr>`).join('')}</tbody></table><p><b>Not covered here</b> — see the separate T-TESS dashboard: 1.1, 2.2, 3.2, 4.1, 4.3.</p><p style="font-style:italic">Student-level data available on request.</p>`); }
   if (act==='copy-summary') copyText(weeklySummary(m()), 'Weekly summary');
   if (act==='make-groups') return openGroups();
   if (act==='groups-copy'){ logGroups(UI.groupSets||[]); return copyText(groupsText(UI.groupSets||[]), 'Groups'); }
