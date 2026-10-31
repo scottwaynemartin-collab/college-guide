@@ -32,7 +32,6 @@ button{font:inherit;color:inherit;cursor:pointer}
 .link{background:none;border:0;color:var(--dim);text-decoration:underline;padding:8px 4px;font-size:15px}
 .bgc{display:inline-flex;align-items:center;gap:6px;background:var(--pn2);border:2px dashed var(--mg);color:#ffc4e3;padding:7px 11px;margin:4px 6px 4px 0;font-size:14px;font-weight:600}
 .bgc:hover{background:#2a1d55}
-/* header */
 .top{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:6px 0 10px;border-bottom:3px solid var(--ln)}
 .brand{font:10px var(--px);color:var(--mg);text-shadow:0 0 8px rgba(255,63,164,.7);background:none;border:0;padding:6px 0;text-align:left}
 .brand b{color:var(--cy);text-shadow:0 0 8px rgba(34,229,255,.7)}
@@ -75,7 +74,6 @@ button{font:inherit;color:inherit;cursor:pointer}
 .combo{display:block;margin-top:6px;color:var(--yl)}
 .verdict.y{animation:pop .5s steps(5)}@keyframes pop{0%{transform:scale(.6)}60%{transform:scale(1.08)}100%{transform:scale(1)}}
 .plabel{font:10px var(--px);align-items:center;color:var(--dim);display:flex;justify-content:space-between}
-/* home */
 .hero{text-align:center;padding:26px 6px 8px}
 .hero h1{font:clamp(26px,8vw,46px)/1.2 var(--px);color:var(--yl);text-shadow:3px 3px 0 var(--mg),6px 6px 0 #000}
 .hero .sub{font:10px/1.8 var(--px);color:var(--cy);margin-top:14px}
@@ -96,7 +94,6 @@ button{font:inherit;color:inherit;cursor:pointer}
 .tea div{padding:10px;background:#0f0c29;border:2px solid var(--ln);font-size:14px}
 .tea b{display:block;font:20px var(--px);margin-bottom:6px}
 .tT{color:var(--cy)}.tE{color:var(--yl)}.tA{color:var(--mg)}
-/* stimulus */
 .stim{background:#0a0820;border:3px solid var(--cy);padding:10px;box-shadow:0 0 0 3px #000,0 0 18px rgba(34,229,255,.25)}
 .stim h3{font:10px/1.6 var(--px);color:var(--cy);margin-bottom:8px}
 .stim svg{width:100%;height:auto;display:block;max-width:560px;margin:0 auto}
@@ -118,7 +115,6 @@ details.peek summary{cursor:pointer;padding:12px;font:10px var(--px);color:var(-
 details.peek summary:before{content:"▸ "}
 details.peek[open] summary:before{content:"▾ "}
 details.peek>div{padding:0 10px 10px}
-/* part */
 .qbox{background:#0a0820;border:3px solid var(--yl);padding:14px;box-shadow:5px 5px 0 #000}
 .qbox .px{font-size:10px;color:var(--yl);display:block;margin-bottom:8px}
 .qbox p{font-size:19px;font-weight:600;margin:0}
@@ -153,7 +149,6 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 .verdict.y{color:var(--gr);border-color:var(--gr);background:#0b2418}
 .verdict.n{color:var(--rd);border-color:var(--rd);background:#2a0c1a}
 .note{font-size:14px;color:var(--dim)}
-/* done */
 .big{font:clamp(24px,7vw,40px)/1.3 var(--px);color:var(--gr);text-align:center;text-shadow:3px 3px 0 #000,0 0 14px rgba(77,255,145,.6)}
 .stars{text-align:center;font-size:30px;letter-spacing:4px;margin:10px 0}
 .rank{text-align:center;font:11px/1.9 var(--px);color:var(--yl)}
@@ -161,7 +156,6 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 .res li{padding:10px 0;border-top:2px dashed var(--ln)}
 .res li:first-child{border-top:0}
 .res b{font-family:var(--px);font-size:11px;margin-right:6px}
-/* sheet */
 #sh{position:fixed;inset:0;z-index:60;display:none;align-items:center;justify-content:center;background:rgba(5,3,18,.8);padding:16px}
 #sh.on{display:flex}
 #sh .card{background:var(--pn);border:3px solid var(--mg);box-shadow:6px 6px 0 #000,0 0 30px rgba(255,63,164,.35);max-width:560px;width:100%;max-height:85vh;overflow:auto;padding:18px;animation:up .2s steps(4)}
@@ -171,18 +165,18 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 #sh ol{padding-left:22px;margin:0}
 #sh li{margin:8px 0}
 @media (max-width:620px){
- body{font-size:16px}
- #app{padding:10px 10px 50px}
- .carts,.tea{grid-template-columns:1fr}
- .how{grid-template-columns:1fr 1fr}
- .panel{padding:14px 12px}
- .row .btn{flex:1 1 100%}
- .qbox p{font-size:17px}
- .verb{flex-direction:column;gap:8px}
- #sh{align-items:flex-end;padding:0}
- #sh .card{max-height:80vh;border-bottom:0;box-shadow:0 -4px 0 #000}
- .seg{font-size:9px;height:40px}
- .tbl:after{content:"◂ swipe to see all columns ▸";display:block;font-size:12px;color:var(--dim);text-align:center;padding:6px 0 0}
+body{font-size:16px}
+#app{padding:10px 10px 50px}
+.carts,.tea{grid-template-columns:1fr}
+.how{grid-template-columns:1fr 1fr}
+.panel{padding:14px 12px}
+.row .btn{flex:1 1 100%}
+.qbox p{font-size:17px}
+.verb{flex-direction:column;gap:8px}
+#sh{align-items:flex-end;padding:0}
+#sh .card{max-height:80vh;border-bottom:0;box-shadow:0 -4px 0 #000}
+.seg{font-size:9px;height:40px}
+.tbl:after{content:"◂ swipe to see all columns ▸";display:block;font-size:12px;color:var(--dim);text-align:center;padding:6px 0 0}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
@@ -191,7 +185,6 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 <main id="app"></main>
 <div id="sh" role="dialog" aria-modal="true" aria-labelledby="shT"><div class="card"><div class="k">📜 Need the background?</div><h3 id="shT"></h3><ol id="shB"></ol><div class="row"><button class="btn c" data-a="x">Got it ▸</button></div></div></div>
 <script>
-/* ===== Background pop-outs (shared by every FRQ) ===== */
 const BG={
 frq:{t:"How AP FRQs are scored",s:["Each part (A, B, C…) is worth 1 point and is scored on its own. A mistake in Part B can't cost you Part C.","Readers look for the right idea, clearly linked to the question. Fancy writing earns nothing extra.","No thesis, intro, or conclusion needed. Label each part and answer it directly.","Write in complete sentences and do what the task verb asks (Identify, Describe, or Explain).","Never leave a part blank. A wrong answer costs nothing."]},
 tea:{t:"The TEA method",s:["T1- Topic: your reason in general words. Turn the question into your claim.","E2- Evidence: the specific proof, like a place, number, or example, ideally from the map or table.","A3- Analysis: why it matters. Explain HOW or WHY your proof backs up your reason, using “because…” or “which leads to…”.","Label each piece T1-, E2-, A3- so the reader can find every point. Describe answers need T1 and E2 plus a short A3. Explain answers need a strong A3."]},
@@ -200,18 +193,15 @@ readtable:{t:"How to read a data table",s:["Read the title and every column head
 raj:{t:"British imperialism in India",s:["Starting in the 1600s, the British East India Company, a private trading firm, used trade deals and military force to take control of large parts of India.","After the Indian Rebellion of 1857, the British government took direct control in 1858. This period, called the British Raj, lasted until independence in 1947.","Britain ran India to benefit its own economy: India supplied raw materials like cotton, jute, and tea, and was a captive market for British factory goods.","By 1900 the British had built about 40,000 km of railway, much of it designed to move goods to ports and troops around the colony.","When Britain left in 1947, it partitioned the colony into India and Pakistan (East Pakistan later became Bangladesh), creating borders that still shape the region."]},
 scale:{t:"Scale of analysis",s:["Scale is the level at which you study something: global, national, regional, or local.","A pattern that looks clear at one scale can change or disappear at another.","A national average can hide big differences between cities and the countryside, or between regions and groups.","On the AP exam, 'limitation' questions often reward pointing out what a source's scale, time frame, or data leave out."]}
 };
-/* ===== Task verbs ===== */
 const VERBS={
 Identify:{d:"Name it. A word or short phrase is enough, with no explaining needed.",l:["Be specific: “cotton” beats “crops.”","Answer exactly what's asked. Extra writing won't earn more.","One sentence max."]},
 Describe:{d:"Paint the picture. Give the specific characteristics or pattern, with details someone could check.",l:["Use evidence: a place, a number, or a feature from the stimulus.","Say what it IS or what it LOOKS LIKE. You don't need a deep “why.”","About 1–2 sentences. Use TEA: Topic + Evidence, then a quick Analysis."]},
 Explain:{d:"Tell HOW or WHY. Connect a cause to an effect so a reader sees the reasoning, not just a fact.",l:["Use linking words: “because…”, “which leads to…”, “as a result…”.","A fact alone won't score. You need the chain of reasoning.","About 2–3 sentences. Use full TEA."]}
 };
-/* ===== FRQ registry: each FRQ data file calls addBG() and addFRQ() ===== */
 const FRQ=[];
 function addBG(o){Object.assign(BG,o)}
 function addFRQ(f){FRQ.push(f)}
 const UNIT="";
-/* Two Scales, One State (original): the same variable at state and county scale. Map stimulus. */
 addBG({
 choropleth:{t:"Types of thematic maps",s:["A thematic map shows one topic (a theme), like income or internet access, instead of just roads and borders.","A choropleth map shades whole areas, like counties or countries, by class: darker or hotter colors usually mean higher values. It works best with rates and percents.","A dot density map places one dot for every set number of things (say, 500 households), so you see counts and where they cluster inside an area.","A graduated (proportional) symbol map puts a circle on each place and makes the circle bigger when the number is bigger.","An isoline map connects points of equal value (like elevation or temperature), and a cartogram stretches or shrinks places by a data value instead of land area."]},
 scaleshift:{t:"Why patterns change with scale",s:["Scale of analysis is the size of the units you look at: one country, 50 states, 3,000 counties, or individual neighborhoods.","When data for many places are rolled into one bigger unit, the values get averaged, and places with lots of people pull the average toward their number.","That is why a state can look 'fine' at 18% while some of its counties are over 40%: the crowded metro counties with low rates outweigh the thinly populated rural ones.","Zooming in to a smaller unit reveals clusters, gaps, and outliers that the bigger unit hides. Zooming out smooths them away.","On the AP exam, always ask: at what scale is this data, and what could be hiding inside each unit?"]},
@@ -246,7 +236,6 @@ wk:["It is a political map of Calderon's counties.","A political map shows borde
 mw:"It names the map type precisely and adds a quick phrase showing it knows how the map works.",
 fr:"The county-scale map is a ___ map because each county is ___ based on its ___.",
 qc:["Which map type shades whole areas by data class?",["Choropleth","Dot density","Graduated symbol"],0,"Choropleth maps color areas by value class. Dot density uses dots; graduated symbols use sized circles."]},
-
 {v:"Describe",
 q:"Using the map, describe how the pattern of households without home internet changes between the state scale and the county scale.",
 sk:"Comparing patterns across scales",
@@ -262,7 +251,6 @@ wk:["At the county scale there are more colors and more details.","That's about 
 mw:"It describes the state scale (one value, 18%), gives specific county evidence with places and numbers, and names what the zoom-in reveals (a rural cluster the state figure hides).",
 fr:"T1- At the state scale the map shows ___, so ___. E2- At the county scale the values range from ___% in ___ to ___% in ___, with the high counties located ___. A3- Zooming in reveals ___ that the state number hides.",
 qc:["A pattern that looks uniform at the state scale but clustered at the county scale is an example of…",["how scale of analysis changes what you see","map projection distortion","a perceptual region"],0,"Changing the size of the units (the scale of analysis) can reveal or hide patterns."]},
-
 {v:"Explain",
 q:"Explain ONE reason rural counties in Calderon have higher rates of households without home internet than the counties around the capital.",
 sk:"Explaining a rural–urban gap",
@@ -278,7 +266,6 @@ wk:["Rural counties don't have internet because they are in the country.","That 
 mw:"It names the reason (low density, high cost per customer), proves it with map numbers (Dry Creek 44% vs. Calder City 6%), and explains the chain that leaves rural homes unconnected.",
 fr:"T1- Rural counties have higher rates because ___. E2- For example, in ___ (___%) homes are ___, so a company must ___. A3- Because ___, companies ___, which leaves ___.",
 qc:["Why does one mile of internet cable cost MORE per customer in a rural county?",["Fewer homes are spread along that mile","Rural land is more expensive","Cable is more expensive in the countryside"],0,"Low population density means each mile of cable reaches fewer paying customers."]},
-
 {v:"Explain",
 q:"Using the map, explain ONE limitation of using only the state-level data to make decisions about improving internet access in Calderon.",
 sk:"Data limits: scale and averages",
@@ -294,7 +281,6 @@ wk:["The state data is a limitation because it is from 2020 and might be out of 
 mw:"It names what's hidden (county differences), proves it with map numbers (18% vs. 44% and 6%), and explains the decision that could go wrong.",
 fr:"T1- One limitation is that the state figure of ___% is an average that hides ___. E2- For example, the map shows ___ at ___% while ___ is only ___%. A3- Because of this, a government using the state number alone might ___, instead of ___.",
 qc:["Why is Calderon's state figure (18%) lower than most of its counties?",["Most people live in the low-rate metro counties, which pull the average down","Rural counties were left out of the state count","The state used a different year than the counties"],0,"A state value is weighted by population, so the crowded metro counties dominate it."]},
-
 {v:"Explain",
 q:"Explain how a state government agency could use a geographic information system (GIS) to decide where to build new broadband internet infrastructure.",
 sk:"Applying geospatial technology",
@@ -310,7 +296,6 @@ wk:["The government could use GPS to find out where people live and then build i
 mw:"It says what GIS does (layers data), names specific layers tied to the map, and explains how the overlap leads to choosing where to build.",
 fr:"T1- A state agency could use GIS to ___ different kinds of map data, such as ___. E2- For example, it could combine this county map with layers showing ___ and ___. A3- Where those layers overlap, the agency can see ___, so it can decide to ___.",
 qc:["The key feature of GIS that helps planners is that it…",["combines many data layers on one map for analysis","tells a phone its exact location","takes photos of Earth from satellites"],0,"GIS stacks layers of spatial data. GPS gives locations; remote sensing takes the images."]},
-
 {v:"Describe",
 q:"Describe ONE way a dot density map or a graduated symbol map of the same data would show the pattern differently from the county choropleth.",
 sk:"Comparing thematic map types",
@@ -326,7 +311,6 @@ wk:["A dot density map would use dots instead of colors, so it would look differ
 mw:"It names the map type, describes exactly what would change (counts vs. rates, with Calder City and Dry Creek as proof), and says why that matters.",
 fr:"T1- A ___ map would show ___ instead of ___. E2- For example, Calder City (___%) might have ___ because ___, while Dry Creek (___%) might have ___. A3- This matters because ___.",
 qc:["Which map type is usually used to show COUNTS placed where things actually are?",["Dot density","Choropleth","Isoline"],0,"Dot density maps put one dot per set number of things. Choropleths shade areas by rate."]},
-
 {v:"Explain",
 q:"Explain how improved internet access in Calderon's rural counties is an example of time-space compression, and explain ONE effect it could have on a rural community.",
 sk:"Time-space compression and its effects",
@@ -343,8 +327,6 @@ mw:"It ties internet access to the concept (shrinking the time to connect across
 fr:"T1- Better internet is an example of time-space compression because ___. E2- For example, a family in ___ could ___ instead of ___. A3- One effect on the community could be ___, because ___.",
 qc:["Time-space compression means that technology…",["reduces the time it takes to connect distant places, so they feel closer","moves places physically closer together","makes rural areas more populated"],0,"The miles don't change; the time and effort to connect across them do."]}
 ]});
-
-/* Fewer Babies, Bigger Cities (original): fertility and development. Data table. */
 addBG({
 tfr:{t:"Total Fertility Rate (TFR)",s:["TFR is the average number of children a woman is expected to have in her lifetime.","A TFR of about 2.1 is replacement level, just enough for each generation to replace itself. The extra 0.1 covers children who die young.","Above 2.1, population tends to grow. Below 2.1, it eventually shrinks unless immigrants arrive.","TFR is one of the best single numbers for predicting a country's future population."]},
 dtm:{t:"Demographic Transition Model (DTM)",s:["The DTM describes how birth and death rates change as a country develops.","Stage 1: both rates are high, so population barely grows.","Stage 2: death rates drop (better food, medicine, sanitation) but birth rates stay high, so population grows fast.","Stage 3: birth rates fall as the country urbanizes and women gain education.","Stages 4–5: both rates are low, and population levels off or even shrinks."]},
@@ -379,7 +361,6 @@ wk:["Ruzhan.","Ruzhan has the LOWEST TFR (1.3). That fits Stage 4 or 5, not Stag
 mw:"Norvale has the highest TFR (5.4) and infant mortality and is the most rural: all Stage 2 signs.",
 fr:"The country most likely in Stage 2 is ___.",
 qc:["In DTM Stage 2, birth rates are ___ and death rates are ___.",["high; falling","low; low","falling; high"],0,"Stage 2 = high births, falling deaths, so population booms."]},
-
 {v:"Describe",
 q:"Describe the relationship between female secondary school enrollment and total fertility rate shown in the table.",
 sk:"Describing a relationship in data",
@@ -395,7 +376,6 @@ wk:["Education and fertility are related.","It doesn't say HOW they're related a
 mw:"It names the direction (inverse) and backs it up with data from two countries.",
 fr:"As female secondary enrollment ___, TFR ___. For example, ___ has ___% enrollment and a TFR of ___, while ___ has ___.",
 qc:["One number goes up while the other goes down. That relationship is…",["inverse (negative)","positive (direct)","no relationship"],0,"Inverse means they move in opposite directions."]},
-
 {v:"Explain",
 q:"Explain ONE reason why increased access to education for women leads to lower fertility rates.",
 sk:"Explaining education → fertility",
@@ -411,7 +391,6 @@ wk:["Educated women are smarter, so they have fewer kids.","Not a real mechanism
 mw:"It picks one mechanism (marrying later + working) and walks through how it leads to fewer births.",
 fr:"When women stay in school longer, they ___. Because of this, ___, which leads to fewer children.",
 qc:["The 'opportunity cost' of having a child means…",["the income or chances a parent gives up","the price of baby clothes","school taxes"],0,"It's what you give up, like wages from a job."]},
-
 {v:"Explain",
 q:"Using data from the table, explain how urbanization can contribute to declining fertility rates.",
 sk:"Explaining urbanization → fertility with data",
@@ -427,7 +406,6 @@ wk:["Cities are crowded, so people have fewer kids.","No data from the table, an
 mw:"It quotes the table AND explains the asset-to-cost shift.",
 fr:"___ is ___% urban with a TFR of ___, but ___ is ___% urban with a TFR of ___. In cities, children ___, so ___.",
 qc:["On a farm a child is often an economic ___; in a city, more of an economic ___.",["asset; cost","cost; asset","cost; cost"],0,"Farm kids help work; city kids mostly cost money."]},
-
 {v:"Describe",
 q:"Describe ONE likely change in the shape of Kestria's population pyramid resulting from the change in its total fertility rate between 1995 and 2020.",
 sk:"Predicting population pyramid shape",
@@ -443,7 +421,6 @@ wk:["Kestria's pyramid will change shape.","It says the shape changes but not HO
 mw:"It links the data (5.8 → 3.1) to a specific shape change (narrower base, wider middle).",
 fr:"Kestria's TFR fell from ___ to ___, so ___. This means the ___ of its pyramid will become ___.",
 qc:["Which part of a population pyramid shows the youngest people?",["The base (bottom)","The top","The middle"],0,"The bottom bars are ages 0–4."]},
-
 {v:"Explain",
 q:"Explain ONE economic challenge Ruzhan is likely to face as a result of its total fertility rate.",
 sk:"Consequences of below-replacement fertility",
@@ -459,7 +436,6 @@ wk:["Ruzhan's population will go down.","That's a population change, not an econ
 mw:"It connects low TFR → aging → a specific economic problem (labor shortages, pension costs).",
 fr:"Ruzhan's TFR of ___ is below ___, so its population will ___. This causes ___ because ___.",
 qc:["Replacement-level fertility is about…",["2.1 children per woman","1.0 child per woman","4.0 children per woman"],0,"2.1 replaces each generation; the extra 0.1 covers children who die young."]},
-
 {v:"Explain",
 q:"Explain ONE limitation of using national-scale data, such as the data in the table, to understand fertility patterns.",
 sk:"Scale of analysis & data limits",
@@ -476,8 +452,6 @@ mw:"It names the hidden variation (cities vs. rural areas) and explains why that
 fr:"National data shows only ___, so it hides differences between ___. This matters because ___.",
 qc:["A single national average can hide differences between…",["cities and rural areas in the country","two different countries","different years"],0,"National data blends together places inside the country."]}
 ]});
-
-/* English Goes Global: the Unit 3 class FRQ (publicly released question). Data table. */
 addBG({
 linguafranca:{t:"Lingua franca",s:["A lingua franca is a shared language people use when they don't speak the same first language.","The name comes from an old trade language used around the Mediterranean Sea.","Swahili in East Africa and Arabic across the Middle East have both served as lingua francas.","Today English is the most widely used global lingua franca: in business, science, air travel, and the internet."]},
 diffusion:{t:"Types of diffusion",s:["Relocation diffusion: people move and bring their language or culture with them.","Expansion diffusion: an idea spreads outward while staying strong where it started.","Its 3 kinds: hierarchical (from powerful people or big cities first), contagious (person to person, like a virus), and stimulus (the idea spreads but gets changed to fit local culture).","English spread by relocation (British colonists) and hierarchical diffusion (elites, schools, and businesses first)."]},
@@ -513,7 +487,6 @@ wk:["India speaks English because it is a big country.","Size doesn't explain la
 mw:"It names the history (British colonial rule), gives specific proof (government, courts, universities), and explains why English lasted after 1947.",
 fr:"T1- One historical reason India has many English speakers is ___. E2- For example, under British rule English was used for ___. A3- This still matters today because ___.",
 qc:["Which country colonized India and spread English there?",["Great Britain","Portugal","The United States"],0,"Britain ruled India until 1947, and English stayed."]},
-
 {v:"Explain",
 q:"Explain ONE contemporary reason why people in China and India are learning English.",
 sk:"Globalization and the spread of English",
@@ -529,7 +502,6 @@ wk:["English is the best language.","That's an opinion, not a reason, and it doe
 mw:"It names a present-day reason (global business), gives an example (jobs with multinational companies), and explains the payoff (higher income).",
 fr:"T1- People in China and India are learning English because ___. E2- For example, ___. A3- This helps them because ___, which leads to ___.",
 qc:["A “lingua franca” is…",["a shared language used by people with different first languages","the oldest language in a region","a language spoken only in France"],0,"It's a common “bridge” language, and today English is the biggest one."]},
-
 {v:"Describe",
 q:"Describe ONE barrier to the diffusion of English throughout China.",
 sk:"Barriers to diffusion",
@@ -545,7 +517,6 @@ wk:["English is hard.","Too vague. Hard for whom, and why? Name a specific barri
 mw:"It names a specific barrier (government control), gives proof (the Great Firewall, Mandarin policy), and describes the effect (fewer chances to use English).",
 fr:"T1- One barrier to English spreading in China is ___. E2- For example, ___. A3- This slows English because ___.",
 qc:["Which is a POLITICAL barrier to diffusion?",["A government blocking foreign websites","A high mountain range","A long distance between cities"],0,"Political barriers come from governments: laws, censorship, and language policies."]},
-
 {v:"Explain",
 q:"Using the table, explain ONE reason for the difference in the percentage of English speakers in the Netherlands compared with the percentage in China.",
 sk:"Explaining a difference with data",
@@ -561,7 +532,6 @@ wk:["The Netherlands has more English speakers than China.","That just restates 
 mw:"It quotes the table, names a reason (language similarity), and explains how it leads to more English speakers.",
 fr:"T1- The Netherlands has ___% English speakers but China has ___ because ___. E2- For example, ___. A3- This creates the difference because ___.",
 qc:["English and Dutch are both part of which language branch?",["Germanic","Romance","Sino-Tibetan"],0,"Germanic languages share roots, which makes English easier for Dutch speakers."]},
-
 {v:"Explain",
 q:"Explain ONE economic reason why a corporation based in an English-speaking country would locate a call center in a country where English is not the dominant language.",
 sk:"Outsourcing and the global economy",
@@ -577,7 +547,6 @@ wk:["Because people in other countries need jobs.","That's about the workers, no
 mw:"It names the economic reason (lower labor costs), uses the table (125 million English speakers in India), and explains the payoff (higher profits).",
 fr:"T1- A corporation would put a call center in ___ because ___. E2- For example, ___. A3- This helps the company because ___, which leads to ___.",
 qc:["The MAIN economic reason companies offshore call centers is…",["lower labor costs","better weather","shorter travel times"],0,"Lower wages mean lower costs and higher profits."]},
-
 {v:"Explain",
 q:"Explain ONE limitation of using the data in the table to understand a country's level of economic development.",
 sk:"Data limits: language vs. development",
@@ -593,7 +562,6 @@ wk:["The table doesn't show every country.","That's about how many countries are
 mw:"It names what's missing (economic data), gives a clear example (the Philippines vs. China), and explains how it could mislead.",
 fr:"T1- One limitation is that the table only shows ___, not ___. E2- For example, ___. A3- This is a problem because ___.",
 qc:["Which of these is an indicator of economic development?",["GDP per capita","Percent who speak English","Number of languages spoken"],0,"GDP per capita measures income per person. Language data doesn't."]},
-
 {v:"Explain",
 q:"Explain ONE negative local impact of a global lingua franca on places where a different language is spoken.",
 sk:"Globalization's impact on local cultures",
@@ -610,8 +578,6 @@ mw:"It names a specific impact (language loss), explains how it happens (young p
 fr:"T1- One negative local impact of a global lingua franca is ___. E2- For example, when ___, ___. A3- This matters because ___.",
 qc:["When cultures around the world become more alike, it's called…",["cultural homogenization","cultural relativism","ethnocentrism"],0,"Homogenization means becoming the same. A global lingua franca can speed it up."]}
 ]});
-
-/* Maple Street District (original): sequent occupance, ethnic neighborhoods, diffusion, religion, and centripetal/centrifugal forces. Text stimulus. */
 addBG({
 sequent:{t:"Sequent occupance",s:["Sequent occupance is the idea that a place is shaped by every group that has ever lived there, one layer at a time.","Each group leaves its mark on the cultural landscape: buildings, signs, foods, places of worship, street names.","The next group doesn't erase everything. It reuses and adds to what's already there, like a Lutheran church becoming a Catholic parish.","Cultural landscape just means the visible, human-made look of a place."]},
 enclave:{t:"Ethnic enclaves",s:["An ethnic enclave (or ethnic neighborhood) is an area where one ethnic group clusters together in a city.","Immigrants settle near people who share their language, religion, and food because it feels safer and makes daily life easier.","Enclaves fill with businesses that serve the group: bakeries, groceries, newspapers, and radio stations in the home language.","Many U.S. cities have had a “Little Italy,” a Chinatown, or a German district. Over time one group moves out and another moves in: ethnic succession."]},
@@ -619,7 +585,6 @@ accult:{t:"Acculturation, assimilation, syncretism",s:["Acculturation: a group a
 religionland:{t:"Religion in the landscape",s:["Religion is one of the easiest cultural traits to spot in a landscape: churches, mosques, temples, shrines, and cemeteries.","Universalizing religions like Christianity and Islam try to appeal to everyone, so they spread widely and build in many places.","Ethnic religions like Hinduism and Judaism are tied to one group or place and spread mostly by migration.","Even a single building can show history: a church may change denomination when the neighborhood changes. Festivals and shrines count too."]},
 centri:{t:"Centripetal vs. centrifugal forces",s:["Centripetal forces pull a group together: a shared language, religion, media, or celebration.","Centrifugal forces push a group apart: tension between newcomers and old-timers, different languages, or feeling like outsiders in your own area.","An ethnic radio station or newspaper is a classic centripetal force for an immigrant community.","Rapid neighborhood change can be centrifugal when long-time residents feel their culture is being replaced. These terms return in Unit 4."]},
 popfolk:{t:"Popular vs. local culture",s:["Local (folk) culture belongs to a specific place or group, is passed down in person, and changes slowly.","Popular culture spreads fast through media and big companies and looks similar everywhere: chain coffee shops, trending music, the same apps.","Globalization helps popular culture spread, which can crowd out local traditions, a process called cultural homogenization.","But the same technology can preserve local culture: communities record recipes, stream festivals, and post heritage-language videos online."]},
-readtext:{t:"How to read a text stimulus",s:["Read the passage twice. The first time, just follow the story. The second time, hunt for geography terms you know.","Underline every place, group, building, and date. FRQ questions almost always point back to those details.","Notice what CHANGES between the time periods and what STAYS. That's where most of the points hide.","When a question says “using the passage,” quote or paraphrase a specific detail as your E2 evidence."]}
 });
 addFRQ({k:"Practice FRQ · Text stimulus",
 t:"Maple Street District",
@@ -627,8 +592,8 @@ d:"Sequent occupance, ethnic neighborhoods, diffusion, religion, and centripetal
 u:"Unit 3",
 st:"A Century on Maple Street: One Neighborhood, Three Communities",
 intro:"The passage below describes how a single neighborhood in a mid-sized U.S. city changed over one hundred years as different groups moved in and out. Read it closely before you answer.",
-stim:"<div class=\"passage\" style=\"background:#0a0820;border:2px solid var(--ln);padding:12px;font-size:16px;line-height:1.6\"><p><strong>1920s.</strong> In the 1920s, Maple Street District was the German heart of Ridgeway, a mid-sized Midwestern city. Immigrants from Bavaria and Saxony filled its brick row houses. They built St. Johannes Lutheran Church on the corner of Maple and Third, opened beer gardens along the avenue, and printed a weekly German-language newspaper, the <em>Ridgeway Zeitung</em>.</p><p><strong>1970s.</strong> By the 1970s, most German families had moved to the suburbs. Mexican and Central American families arrived, drawn by factory jobs. The old church building reopened as Our Lady of Guadalupe Catholic Parish. Taquerías and a panadería replaced the beer gardens, a Spanish-language radio station went on the air, and residents began an annual Día de los Muertos festival on Maple Street.</p><p><strong>2020s.</strong> In the 2020s, young professionals moved in. Coffee shops and a yoga studio opened, and rents rose sharply. The festival is now sponsored by the city and draws thousands of tourists, though several long-running restaurants have closed.</p></div><p class=\"src\">Maple Street District and the city of Ridgeway are fictional and were created for practice. Remember the class directions: label each part, and write Describe and Explain parts as T1- (your reason in general words), E2- (the specific proof), A3- (why it matters).</p>",
-bg:["sequent","enclave","readtext"],
+stim:"<div class=\"passage\" style=\"background:#0a0820;border:2px solid var(--ln);padding:12px;font-size:16px;line-height:1.6\"><p><strong>1920s.</strong> In the 1920s, Maple Street District was the German heart of Ridgeway, a mid-sized Midwestern city. Immigrants from Bavaria and Saxony filled its brick row houses. They built St. Johannes Lutheran Church on the corner of Maple and Third, opened beer gardens along the avenue, and printed a weekly German-language newspaper, the <em>Ridgeway Zeitung</em>.</p><p><strong>1970s.</strong> By the 1970s, most German families had moved to the suburbs. Mexican and Central American families arrived, drawn by factory jobs. The old church building reopened as Our Lady of Guadalupe Catholic Parish. Taquerías and a panadería replaced the beer gardens, a Spanish-language radio station went on the air, and residents began an annual Día de los Muertos festival on Maple Street.</p><p><strong>2020s.</strong> In the 2020s, young professionals moved in. Coffee shops and a yoga studio opened, and rents rose sharply. The festival is now sponsored by the city and draws thousands of tourists, though several long-running restaurants have closed.</p></div><p class=\"src\">Maple Street District and the city of Ridgeway are fictional and were created for practice.</p>",
+bg:["sequent","enclave"],
 nt:[["What happened to the church building across the three periods?","It was built as a Lutheran church by Germans in the 1920s, then reopened as a Catholic parish in the 1970s. Same building, new religion. That's a layer of history you can see on the street."],["Make a quick list: which businesses or media appear in each period?","1920s: beer gardens, a German newspaper. 1970s: taquerías, a panadería, Spanish radio. 2020s: coffee shops, a yoga studio. Each group fills the neighborhood with places that serve ITS needs."],["In the 2020s, who is the festival for? Compare that with the 1970s.","In the 1970s, residents started it for themselves. In the 2020s, the city sponsors it and tourists come by the thousands. Same festival name, but the audience and purpose have shifted."]],
 m:20,
 p:[
@@ -638,7 +603,7 @@ sk:"Identifying relocation diffusion",
 s:[["How did German culture physically get to Ridgeway? Did an idea travel, or did people travel?",["Reread the first paragraph: “Immigrants from Bavaria and Saxony filled its brick row houses.”","People moved and carried their language, religion, and food with them."]],["Name the type of diffusion in one phrase.",["It's the kind where migrants bring culture to a new place.","It starts with “re-” and rhymes with “location.”"]]],
 r:{m:"any",i:[["Relocation diffusion",/relocat/i,"Name the type: relocation diffusion."],["Spread through migration: people moved and brought their culture with them",/migrat|immigr|moved|move |moving|brought|carried/i,"Say that German immigrants MOVED to Ridgeway and brought their culture with them. That's relocation diffusion."]]},
 mo:"Relocation diffusion: German immigrants moved to Ridgeway and brought their language, religion, and food with them.",
-b:["enclave","readtext"],
+b:["enclave"],
 th:"There are like five kinds of diffusion. How do I know which one this is?",
 co:"Start with the biggest split: did PEOPLE move, or did an IDEA move while people stayed put? The passage literally says immigrants filled the row houses. That answers it.",
 kq:"What kind of diffusion is it when German immigrants move to a new city and bring their culture along? Name it.",
@@ -647,14 +612,13 @@ wk:["Contagious diffusion, because it spread from person to person.","Contagious
 mw:"It names the exact type (relocation) and shows the evidence: immigrants moved and carried their culture with them.",
 fr:"The type of diffusion is ___ diffusion, because German ___ moved to Ridgeway and brought ___ with them.",
 qc:["Which situation is relocation diffusion?",["Irish immigrants open a Catholic church in Boston","A dance trend spreads from New York to small towns","A new slang word spreads between classmates"],0,"Relocation diffusion needs people to MOVE. The other two are expansion diffusion (hierarchical and contagious)."]},
-
 {v:"Describe",
 q:"Using the passage, describe ONE way the cultural landscape of Maple Street District changed between the 1920s and the 1970s.",
 sk:"Describing sequent occupance",
 s:[["Name the big-picture change in general words. Which group left, and which arrived?",["Germans moved to the suburbs; Mexican and Central American families moved in.","Geographers call it sequent occupance when one group's layer replaces or covers another's."]],["Pick ONE visible feature from the passage and say what it was before and after.",["The church: Lutheran in the 1920s, Catholic parish in the 1970s.","Or the food: beer gardens → taquerías and a panadería. Or the media: German newspaper → Spanish radio."]],["Say what that change reveals about the neighborhood.",["The buildings stayed, but the signs, foods, and religion changed to fit the new residents.","Each group left its own layer on the same streets."]]],
 r:{m:"all",i:[["Names a specific landscape feature from the passage (church, beer gardens, taquerías, newspaper, radio, signs, foods)",/church|lutheran|catholic|parish|guadalupe|beer|taquer|panader|bakery|newspaper|zeitung|radio|sign|language|restaurant|food|shop|store|business/i,"Name a specific thing you could SEE on the street: the church, the beer gardens, the taquerías, or the newspaper."],["Describes the change: what it was before and what it became",/replac|became|become|turn|chang|reopen|instead|switch|convert|from .* to|now|then|later/i,"Describe the before-and-after: for example, the Lutheran church became a Catholic parish, or taquerías replaced the beer gardens."]]},
 mo:"T1- The cultural landscape changed as the German community was replaced by a Mexican and Central American one, an example of sequent occupance. E2- The passage says St. Johannes Lutheran Church reopened as Our Lady of Guadalupe Catholic Parish, and taquerías and a panadería replaced the beer gardens along the avenue. A3- The buildings stayed on the same corners, but their names, foods, and religion changed to match the new residents, so each group left its own visible layer on Maple Street.",
-b:["sequent","enclave","readtext"],
+b:["sequent","enclave"],
 th:"“Cultural landscape”? I thought landscape meant mountains and rivers.",
 co:"That's the physical landscape. The CULTURAL landscape is everything humans add: buildings, signs, churches, restaurants. So look for the human-made stuff in the passage that changed.",
 kq:"Pick one thing on Maple Street that looked different in the 1970s than in the 1920s. Say what it was before and what it became, using the passage.",
@@ -663,7 +627,6 @@ wk:["The neighborhood got more Mexican people.","That's a change in WHO lived th
 mw:"It names the overall change (sequent occupance), uses specific before-and-after details from the passage (the church, the beer gardens), and explains what the layers show.",
 fr:"T1- Between the 1920s and the 1970s the cultural landscape changed because ___. E2- For example, the passage says the ___ became ___. A3- This shows that ___.",
 qc:["A Lutheran church that later becomes a Catholic parish is the best example of…",["sequent occupance","contagious diffusion","cultural homogenization"],0,"Sequent occupance means each group leaves its own layer on the same place, often reusing older buildings."]},
-
 {v:"Explain",
 q:"Explain how the Día de los Muertos festival in the 2020s is an example of a cultural practice changing as it spreads to new groups of people.",
 sk:"Acculturation and commodification",
@@ -679,7 +642,6 @@ wk:["The festival is more popular now.","That says it changed, but not HOW it sp
 mw:"It names the process (acculturation/commodification), quotes the shift from residents to city sponsorship and tourists, and explains how a new audience changes the festival's purpose.",
 fr:"T1- The festival shows a cultural practice changing as it spreads because ___. E2- In the 1970s ___, but in the 2020s ___. A3- As ___ adopt the festival, its purpose shifts from ___ to ___.",
 qc:["Turning a cultural tradition into something sold to tourists is called…",["commodification","assimilation","relocation diffusion"],0,"Commodification means making culture into a product. A city-sponsored tourist festival is a classic case."]},
-
 {v:"Describe",
 q:"Using the passage, describe ONE way religion is visible in the cultural landscape of Maple Street District.",
 sk:"Religion in the cultural landscape",
@@ -695,7 +657,6 @@ wk:["The people in the neighborhood are religious.","That tells us about the peo
 mw:"It names the feature (a church), gives the exact detail from the passage (St. Johannes → Our Lady of Guadalupe), and describes what the building reveals about the residents.",
 fr:"T1- Religion is visible in the landscape through ___. E2- The passage says ___ at ___. A3- This shows that ___.",
 qc:["Which is the BEST example of religion in the cultural landscape?",["A Catholic parish building on a street corner","A family saying grace before dinner","A country's official language"],0,"The landscape is what you can see outdoors. A church building is religion made visible."]},
-
 {v:"Explain",
 q:"Explain ONE centrifugal effect that the changes of the 2020s could have on long-time residents of Maple Street District.",
 sk:"Centrifugal forces and neighborhood change",
@@ -711,7 +672,6 @@ wk:["Rents went up, so it costs more to live there.","That's the economic fact, 
 mw:"It names the centrifugal effect (feeling pushed out, tension), quotes the 2020s changes from the passage, and explains how those changes divide old-timers from newcomers.",
 fr:"T1- The 2020s changes could be a centrifugal force because ___. E2- The passage says ___ and ___. A3- Because ___, long-time residents may ___, which divides the community.",
 qc:["Which is a CENTRIFUGAL force in a neighborhood?",["Long-time residents feeling pushed out by newcomers and rising rents","A community radio station in the residents' language","An annual festival everyone attends"],0,"Centrifugal forces divide. The radio station and the festival are centripetal: they bring people together."]},
-
 {v:"Explain",
 q:"Explain how the Spanish-language radio station is an example of a centripetal force for the community that arrived in the 1970s.",
 sk:"Centripetal forces and shared media",
@@ -727,7 +687,6 @@ wk:["The radio station plays Spanish music.","That's what it does, not what it d
 mw:"It names the unifying effect (shared language and identity), gives concrete examples of what the station broadcasts, and explains how that builds belonging and keeps the community connected.",
 fr:"T1- The radio station is a centripetal force because it ___. E2- For example, it broadcasts ___ in Spanish, so residents ___. A3- Because ___, the community feels ___.",
 qc:["A newspaper or radio station in an immigrant group's language is best described as a…",["centripetal force","centrifugal force","barrier to diffusion"],0,"Shared media in a shared language pulls a group together. That's centripetal."]},
-
 {v:"Explain",
 q:"Explain ONE way globalization or popular culture could threaten the local culture of Maple Street District, AND ONE way technology could help residents preserve it.",
 sk:"Popular culture, globalization, and preservation",
@@ -744,8 +703,6 @@ mw:"It names the threat (chains and tourists replacing local businesses → homo
 fr:"T1- Globalization or popular culture could threaten Maple Street's local culture by ___. E2- For example, ___. A3- But residents could use technology to preserve it by ___, which would ___.",
 qc:["Globalization spreading the same brands and styles everywhere, so places look alike, is called…",["cultural homogenization","sequent occupance","relocation diffusion"],0,"Homogenization means becoming the same. Technology can speed it up, but it can also help local cultures survive."]}
 ]});
-
-/* Rails of the Raj (original): colonial railways in British India. Map stimulus. */
 addBG({
 cashcrop:{t:"Cash crops & plantations",s:["A cash crop is grown to sell, often for export, rather than to feed the farmer's own family.","Colonial powers pushed colonies to specialize in a few crops their home factories needed, like cotton, jute (for sacks and rope), and tea.","Plantations are large estates that grow one crop for export, often with cheap or forced labor. British-owned tea estates in Assam are an example.","Depending on one or two exports leaves a region exposed to world prices it can't control."]},
 portcity:{t:"Colonial port cities",s:["Colonizers built port cities as gateways, where raw materials left the colony and manufactured goods came in.","Bombay (Mumbai), Calcutta (Kolkata), and Madras (Chennai) grew from small trading posts into major cities under British rule.","Calcutta was the capital of British India until 1911, when the capital moved to Delhi.","Many former colonies still have a primate city, one city far larger than all the others, that began as a colonial port."]},
@@ -779,7 +736,6 @@ wk:["The railroads are all over India.","Too vague. It doesn't say WHAT the patt
 mw:"It names a specific pattern (interior → coast) and points to real places on the map.",
 fr:"The railway lines run from the ___ of India to ___ such as ___.",
 qc:["When many rail lines meet at one place, geographers say the lines…",["converge","disperse","diffuse"],0,"Converge means come together. On this map, the lines converge on coastal ports."]},
-
 {v:"Describe",
 q:"Describe how the pattern of the railway network reflects Great Britain's economic goals in colonial India.",
 sk:"Linking infrastructure to colonial economic goals",
@@ -795,7 +751,6 @@ wk:["Britain wanted to make India better by building trains.","No economic goal 
 mw:"It names the goal (raw materials), uses map evidence (crop regions linked to ports), and connects the two.",
 fr:"The railways link ___ regions like ___ to ports like ___. This shows Britain wanted to ___ so that ___.",
 qc:["Why did British factories need colonies like India?",["For cheap raw materials like cotton","For factory machines","For skilled engineers"],0,"Colonies supplied raw materials; Britain made the finished goods."]},
-
 {v:"Explain",
 q:"Explain how colonial rule contributed to the growth of port cities such as Bombay and Calcutta.",
 sk:"Colonialism and the growth of port cities",
@@ -811,7 +766,6 @@ wk:["Bombay and Calcutta grew because they were big cities.","Circular reasoning
 mw:"It walks the whole chain: colonial trade role → jobs → migration → growth.",
 fr:"Under British rule, ___ became the main place where goods ___. This created jobs in ___, which led to ___.",
 qc:["What usually pulls rural migrants into a growing port city?",["Jobs in trade and shipping","Cheaper farmland","Cooler weather"],0,"Jobs are the main pull factor, and ports created lots of them."]},
-
 {v:"Explain",
 q:"Explain ONE way the colonial emphasis on export cash crops affected rural communities in South Asia.",
 sk:"Effects of cash-crop agriculture on people",
@@ -827,7 +781,6 @@ wk:["Cash crops were bad for farmers.","It says 'bad' but not HOW. An Explain an
 mw:"It names a specific effect (hunger and famine) and explains the chain that caused it.",
 fr:"Because farmers grew ___ instead of ___, they had to ___. When ___, this led to ___.",
 qc:["A cash crop is grown mainly to…",["sell, often for export","feed the farmer's family","feed farm animals"],0,"Cash crops are for selling. Food for the family is subsistence farming."]},
-
 {v:"Describe",
 q:"Describe how the economic relationship shown on the map illustrates Wallerstein's world-system theory.",
 sk:"Applying world-system theory",
@@ -843,7 +796,6 @@ wk:["Wallerstein's theory says there are core and periphery countries.","It defi
 mw:"It labels each country AND uses the map's flow of raw materials to show the relationship.",
 fr:"In world-system theory, Britain was the ___ and India was the ___. India sent ___ to Britain, where ___.",
 qc:["In world-system theory, colonial India was part of the…",["periphery","core","semi-periphery"],0,"The periphery supplies raw materials; the core (Britain) made the high-value goods."]},
-
 {v:"Explain",
 q:"Explain ONE way the colonial transportation network continues to affect patterns of economic development in South Asia today.",
 sk:"Colonial legacy and uneven development",
@@ -859,7 +811,6 @@ wk:["India is still affected by colonialism today.","True, but it names no speci
 mw:"It names a present-day pattern (old ports still lead) and explains why (infrastructure keeps attracting investment).",
 fr:"Because colonial railways led to ___, cities like ___ got a head start. Today they still ___ because ___.",
 qc:["Cumulative causation means…",["places that grow early attract even more growth","all regions grow at the same speed","growth always moves to rural areas"],0,"It's a snowball: investment attracts more investment."]},
-
 {v:"Explain",
 q:"Explain ONE limitation of using this map to understand how colonialism affected people in South Asia.",
 sk:"Finding a source's limitations",
@@ -876,8 +827,6 @@ mw:"It names specific missing data and explains which conclusion you can't reach
 fr:"The map only shows ___, not ___. Because of this, it can't tell us ___.",
 qc:["Which is a real LIMITATION of this map?",["It shows no data about people's lives","It has a legend","It shows railways"],0,"A limitation is information the source is missing, like data about people."]}
 ]});
-
-/* Rings of Farmland (original): a modified von Thünen diagram for a fictional region. Diagram stimulus. */
 addBG({
 vonthunen:{t:"The von Thünen model",s:["Johann Heinrich von Thünen was a German landowner who published The Isolated State in 1826 to explain why farms near a city grow different things than farms far away.","He imagined one market city on a flat plain with the same soil and climate everywhere, no rivers or roads, and farmers hauling goods by wagon.","His rings, from the center out: market gardening and dairy, forest (for firewood and lumber), grains and field crops, then livestock ranching.","The big idea: the farther you are from the market, the more it costs to get your product there, so land use changes with distance.","Real places never match the rings exactly, but the logic of distance and transport cost still shows up everywhere."]},
 bidrent:{t:"Bid-rent & transport cost",s:["Bid-rent is the most a user is willing to pay for land at a given distance from the market.","Land near the city is expensive because many people want it; land far away is cheap.","A farmer whose product is perishable (milk, lettuce) or bulky (timber) saves the most money by being close, so they can outbid others for near-city land.","A rancher's cattle can walk or ride to market cheaply, so the rancher can't outbid anyone near the city and ends up on cheap distant land.","Put together, those bidding wars create the rings."]},
@@ -912,7 +861,6 @@ wk:["Farms.","Every ring is farms. Identify means name the specific activity: da
 mw:"It names the exact activity on the label (dairy and vegetables) and uses the geographer's term for it (market gardening).",
 fr:"Ring 1, closest to the city, is used for ___ farming and ___.",
 qc:["Growing fresh vegetables to sell in a nearby city is called…",["market gardening","ranching","shifting cultivation"],0,"Market gardening (truck farming) is the fresh-produce zone right outside a city."]},
-
 {v:"Explain",
 q:"Explain why the agricultural products grown closest to the market are the most perishable or the most expensive to transport.",
 sk:"Bid-rent and transport cost",
@@ -928,7 +876,6 @@ wk:["Farmers near the city grow what city people want to buy.","That doesn't exp
 mw:"It states the rule (transport cost rises with distance), gives specific products as proof (milk, vegetables, timber vs. grain and cattle), and explains the bidding result (perishable-product farmers outbid others for near-city land).",
 fr:"T1- Products that ___ or are ___ are grown closest to the market because ___. E2- For example, ___ while ___. A3- Because these farmers ___, they can pay ___, which pushes ___.",
 qc:["In von Thünen's model, which cost rises as a farm gets farther from the market?",["transport cost","land cost","labor cost"],0,"Farther away means a longer haul. Land cost actually falls with distance."]},
-
 {v:"Describe",
 q:"Using the diagram, describe how the river changes the pattern of land use compared with the classic von Thünen model.",
 sk:"Modifying the model with a transport route",
@@ -944,7 +891,6 @@ wk:["The river gives the farms water, so farmers near the river can grow more cr
 mw:"It contrasts the classic circles with the stretched ovals, cites the exact rings and direction from the diagram, and explains the cause (cheaper boat transport makes river farms “closer” in cost).",
 fr:"T1- In the classic model the rings are ___, but here the river ___. E2- On the diagram, ring ___ and ring ___ are stretched ___ along the river. A3- This happens because transport by ___ is ___, so farms along the river ___.",
 qc:["Why does a navigable river stretch the von Thünen rings outward along its course?",["Boats move goods more cheaply than wagons, so river farms are “closer” in cost","River water makes crops grow faster","Farmers like living near water"],0,"The model is about transport cost. Cheap boat transport lowers the cost of distance along the river."]},
-
 {v:"Explain",
 q:"Explain how the secondary market town of Crossford along the highway shows how modern transportation changes the von Thünen model.",
 sk:"Modern transport and multiple markets",
@@ -960,7 +906,6 @@ wk:["The highway makes it easier for people to drive to Aldmere.","That's about 
 mw:"It names the broken assumption (one market), uses diagram evidence (the mini dairy zone around Crossford on the highway), and explains the cause (fast, cheap trucking creates a second market and overlapping rings).",
 fr:"T1- Crossford shows that modern transportation ___ the model's assumption of ___. E2- On the diagram, ___ surrounds Crossford where ___. A3- Because trucks on the highway ___, Crossford became ___, so the region has ___.",
 qc:["Which assumption of the von Thünen model does the town of Crossford break?",["There is only one market","Farmers want to make a profit","Transport cost rises with distance"],0,"Crossford is a second market. The other two assumptions still hold on this diagram."]},
-
 {v:"Explain",
 q:"Explain ONE way refrigerated trucking and global shipping have weakened the von Thünen pattern at the national or global scale.",
 sk:"Scale and the global food system",
@@ -976,7 +921,6 @@ wk:["Trucks are faster than horses, so people can sell more.","That's true but d
 mw:"It names the technology (refrigerated trucks and container ships), gives a concrete example with distance (Chile, Mexico, thousands of miles), and explains the effect at a named scale (national/global rings dissolve).",
 fr:"T1- ___ has weakened the model because perishable products no longer have to ___. E2- For example, ___ travel from ___ to ___. A3- At the ___ scale, this means ___.",
 qc:["Which technology MOST directly lets perishable food be grown far from the city that eats it?",["refrigeration (the cold chain)","the tractor","chemical fertilizer"],0,"Refrigerated trucks and containers keep food fresh for weeks, so distance matters far less."]},
-
 {v:"Describe",
 q:"Describe ONE environmental consequence of intensive commercial agriculture in ring 1 or ring 3 of the diagram.",
 sk:"Environmental effects of commercial farming",
@@ -992,7 +936,6 @@ wk:["Farming in ring 3 uses up a lot of land.","Using land isn't an environmenta
 mw:"It names a specific consequence (fertilizer runoff), describes the mechanism (rain washes nitrogen into the river), and gives the result with a real example (algae, dead zones, Gulf of Mexico).",
 fr:"T1- One environmental consequence of intensive farming in ring ___ is ___. E2- Farmers there ___, and when ___, it ___. A3- This leads to ___, such as ___.",
 qc:["Fertilizer washing off fields into rivers is called…",["runoff","salinization","desertification"],0,"Runoff carries nitrogen and phosphorus into waterways, where it feeds algae blooms."]},
-
 {v:"Explain",
 q:"Explain ONE limitation of using this model to understand agriculture in a less developed country today.",
 sk:"Limits of a model across places",
@@ -1009,8 +952,6 @@ mw:"It names the failing assumption (commercial farmers and a single market), gi
 fr:"T1- One limitation is that the model assumes ___, which does not fit many farmers in less developed countries. E2- For example, in ___, many farmers ___. A3- Because those farmers ___, the model would ___.",
 qc:["Which assumption of the von Thünen model is LEAST likely to hold in a rural subsistence-farming region?",["Farmers sell all their products to one central market","Transport takes time","Farmers grow food"],0,"Subsistence farmers grow food for their own families, so there's no single market pulling their land use into rings."]}
 ]});
-
-/* Brookhaven Spreads Out: a Unit 6 practice FRQ (original, invented metro area). Data table. */
 addBG({
 sprawl:{t:"Suburbanization & urban sprawl",s:["Suburbanization is the movement of people and homes from the central city outward to the suburbs that ring it.","In the United States it boomed after World War II: cheap cars, the Interstate Highway System (begun 1956), and FHA and VA government-backed mortgages made a new house far from downtown easy to afford.","Urban sprawl is what that growth looks like on the ground: low-density, car-dependent subdivisions, strip malls, and parking lots spreading over former farmland.","Consequences include long commutes and traffic, air pollution, loss of farmland and habitat, the high cost of stretching roads and sewers outward, and metros sorted by income.","Edge cities (big clusters of offices and malls at highway exits) grew where the sprawl met the beltways."]},
 urbanmodels:{t:"Urban land-use models",s:["Burgess concentric zone model (1920s Chicago): rings around a central business district (CBD): a zone of transition with old housing and factories, then working-class homes, then nicer homes, then a commuter zone.","Hoyt sector model (1939): land uses grow in wedges along railroads and major roads, so a high-rent sector can stretch from downtown to the edge.","Harris and Ullman multiple nuclei model (1945): a city has several centers (airport, university, industrial park, suburban business district), not just one downtown.","Galactic or peripheral model: an old core surrounded by a highway beltway with edge cities and suburbs scattered along it, the classic post-1970 American metro.","Latin American city model: a wealthy spine runs out from the CBD, while squatter settlements and disamenity zones sit on the far edge."]},
@@ -1045,7 +986,6 @@ wk:["Urbanization.","Urbanization means a bigger share of people living in citie
 mw:"It names the specific process (suburbanization/sprawl) and ties it to what the table shows: outward, low-density growth at the edge.",
 fr:"The growth of the outer suburbs from ___ to ___ shows the process of ___.",
 qc:["Suburbanization is…",["people and homes moving from the central city outward to its edges","people moving from farms into the central city","a downtown gaining new skyscrapers"],0,"Suburbs ring the city, and suburbanization is growth in that ring."]},
-
 {v:"Describe",
 q:"Using the table, describe the relationship between distance from the center of Brookhaven and the percent of workers who drive alone to work.",
 sk:"Reading a pattern in data",
@@ -1061,7 +1001,6 @@ wk:["Most people in Brookhaven drive to work alone.","True, but it's one fact ab
 mw:"It states the direction (farther out = more driving alone), quotes all three numbers, and explains the pattern with density and transit.",
 fr:"T1- The farther from the center, the ___ the percent of workers who drive alone. E2- The central city is ___%, the inner suburbs are ___%, and the outer suburbs are ___%. A3- This happens because ___.",
 qc:["Which zone of Brookhaven has the LOWEST drive-alone share?",["The central city (55%)","The inner suburbs (78%)","The outer suburbs (90%)"],0,"Downtown has transit, sidewalks, and nearby jobs, so more people ride, walk, or bike."]},
-
 {v:"Explain",
 q:"Explain ONE cause of the growth of Brookhaven's outer suburbs shown in the table.",
 sk:"Causes of suburbanization",
@@ -1077,7 +1016,6 @@ wk:["People wanted to live in the suburbs.","That's a wish, not a cause. What ma
 mw:"It names a specific cause (cars and highways), gives dated proof (the 1956 Interstate system), and explains the chain all the way to the table's numbers.",
 fr:"T1- One cause of the outer suburbs' growth is ___. E2- For example, ___. A3- This led to growth at the edge because ___, so ___.",
 qc:["Which of these most directly made it possible for workers to live 25 miles from downtown?",["Cars and interstate highways","Skyscrapers downtown","Rent control laws"],0,"Highways and cars shrank commute times, so homes could spread far from jobs."]},
-
 {v:"Explain",
 q:"Explain how the zoning data in the table could contribute to high housing prices in Brookhaven.",
 sk:"Zoning and housing supply",
@@ -1093,7 +1031,6 @@ wk:["Rich people live in the outer suburbs, so houses cost more there.","That de
 mw:"It names the constraint (single-family-only zoning limits supply), quotes the table (85%, 71%), and walks through supply, demand, and price.",
 fr:"T1- Single-family-only zoning can raise housing prices because it ___. E2- In Brookhaven, ___% of the outer suburbs' land is zoned single-family only, so ___. A3- With fewer homes and more people, ___, which pushes prices ___.",
 qc:["Single-family-only zoning means…",["only one detached house is allowed per lot; no apartments or townhouses","only families with children may live there","houses must be sold to one buyer at a time"],0,"It's a rule about building types, and it caps how many homes an area can hold."]},
-
 {v:"Explain",
 q:"Explain how the recent growth and high home prices in some of Brookhaven's central-city neighborhoods could be an example of gentrification, including ONE effect on long-time residents.",
 sk:"Gentrification and displacement",
@@ -1109,7 +1046,6 @@ wk:["The city is growing again because it is popular now.","'Popular' isn't a pr
 mw:"It defines gentrification, anchors it in the note ($610,000 Millside and Canal districts, growth since 2010), and gives a clear effect: displacement by rising rents and taxes.",
 fr:"T1- The recent growth in some central-city neighborhoods could be gentrification, which is when ___. E2- In Brookhaven, ___. A3- One effect on long-time residents is ___, because ___.",
 qc:["Which is the most common NEGATIVE effect of gentrification on long-time residents?",["Displacement, as rents and property taxes rise","Lower home values","Fewer new restaurants"],0,"Rising costs can push out the lower-income residents who were there first."]},
-
 {v:"Describe",
 q:"Describe ONE smart-growth or New Urbanism policy Brookhaven could adopt to reduce sprawl, and how it would work.",
 sk:"Smart growth and New Urbanism",
@@ -1125,7 +1061,6 @@ wk:["Build more roads so people can get to work faster.","More roads is the oppo
 mw:"It names a recognized policy (TOD), describes exactly what changes (rezoning near stations) with a real example, and connects it to less sprawl and less driving.",
 fr:"T1- One smart-growth policy Brookhaven could use is ___. E2- It works by ___. A3- This reduces sprawl because ___.",
 qc:["An urban growth boundary is…",["a line around a metro area beyond which new development is not allowed","a highway loop around a city","the border between a central city and its first suburb"],0,"It's a legal line that keeps growth inside and protects farmland at the edge."]},
-
 {v:"Explain",
 q:"Explain ONE limitation of using data for Brookhaven's three large zones, or the metro total, to understand its housing or transportation problems.",
 sk:"Data limits: scale of analysis",
@@ -1142,8 +1077,6 @@ mw:"It names the limitation (scale and averages), proves it with the $610,000 vs
 fr:"T1- One limitation is that each zone is ___, so the numbers ___. E2- For example, ___. A3- This is a problem because ___, so a planner would need ___.",
 qc:["A median home price for an entire central city is an example of…",["aggregate data that can hide differences between neighborhoods","neighborhood-scale data","a measure of transportation"],0,"One number for 445,000 people blurs the expensive and cheap neighborhoods together."]}
 ]});
-
-/* Measuring Up (original): development indicators for four fictional countries. Data table. */
 addBG({
 devmeasures:{t:"Measures of development",s:["GNI per capita is a country's total income divided by its population. “PPP” (purchasing power parity) adjusts for the fact that a dollar buys more in some countries than in others.","HDI, the Human Development Index, combines income, years of schooling, and life expectancy into one score from 0 to 1. Above 0.80 counts as “very high” development.","Other common measures: literacy rate, infant mortality rate, and the share of workers in each economic sector.","Income measures what a country earns; HDI measures whether that money reaches people's health and education. When the two disagree, something interesting is going on."]},
 rostow:{t:"Rostow's stages of growth",s:["W. W. Rostow (1960) said every country moves through five stages: traditional society, preconditions for take-off, take-off, drive to maturity, and high mass consumption.","Take-off is the big moment: a few industries grow fast, cities swell, and the country starts to industrialize.","High mass consumption is the top stage: most workers are in services, and people spend on cars, electronics, and vacations.","Critics say the model is based on the history of the United States and Western Europe, assumes every country can follow the same path, and ignores how colonialism and global trade can hold countries back.","Wallerstein's world-system theory answers that criticism by looking at the whole world at once: a wealthy core, a semi-periphery, and a periphery that supplies raw materials and cheap labor."]},
@@ -1178,7 +1111,6 @@ wk:["Tessar, because it has a high GNI per capita.","GNI alone is the trap in th
 mw:"It names the one country whose numbers all point to the top stage: highest income, highest HDI, almost no farmers, and most workers in services.",
 fr:"The country most likely in high mass consumption is ___.",
 qc:["Rostow's stage of high mass consumption is marked by…",["most workers in services and high spending on consumer goods","most workers in farming and little trade","a few fast-growing industries just getting started"],0,"It's the top stage: a rich, service-based economy where people buy cars, electronics, and vacations."]},
-
 {v:"Describe",
 q:"Using the table, describe the relationship between the percent of workers in agriculture and the Human Development Index (HDI).",
 sk:"Describing a relationship in data",
@@ -1194,7 +1126,6 @@ wk:["Agriculture and HDI are related.","Related how? A relationship has a direct
 mw:"It states the direction (inverse), proves it with two rows and their numbers, and explains why farming and HDI move in opposite directions.",
 fr:"T1- The table shows that as the percent of workers in agriculture goes ___, HDI goes ___. E2- For example, ___ has ___% in agriculture and an HDI of ___, while ___ has ___% and ___. A3- This makes sense because ___.",
 qc:["If one number goes UP while the other goes DOWN, the relationship is…",["inverse (negative)","positive (direct)","random"],0,"Inverse means opposite directions, like agriculture and HDI in this table."]},
-
 {v:"Explain",
 q:"Using the table, explain why a country can have a high GNI per capita but a lower HDI than its income would predict.",
 sk:"Income vs. human development",
@@ -1210,7 +1141,6 @@ wk:["Tessar has a lower HDI because it is a smaller country.","Size has nothing 
 mw:"It names the reason (concentrated wealth), proves it with Tessar's row (85% petroleum, GII 0.50), and connects it to what HDI measures (education and life expectancy).",
 fr:"T1- A country can have a high GNI per capita but a lower HDI when ___. E2- For example, Tessar ___. A3- This lowers HDI because HDI also measures ___, and ___.",
 qc:["Which of these is NOT one of the three parts of HDI?",["Exports per person","Life expectancy","Years of schooling"],0,"HDI combines income, education, and life expectancy. Exports aren't part of it."]},
-
 {v:"Explain",
 q:"Explain ONE way a high Gender Inequality Index can slow a country's economic development.",
 sk:"Women's status and development",
@@ -1226,7 +1156,6 @@ wk:["Gender inequality is bad for the economy.","That just restates the question
 mw:"It names the general idea (half the population shut out), gives a specific barrier (school, jobs, loans in Sulmani), and explains the chain to slower growth.",
 fr:"T1- A high Gender Inequality Index slows development because ___. E2- For example, in Sulmani women ___. A3- This slows the economy because ___, which leads to ___.",
 qc:["A LOWER Gender Inequality Index means…",["women and men are closer to equal","women have far fewer rights than men","the country has fewer women than men"],0,"On the GII, 0 is full equality, so lower is better."]},
-
 {v:"Explain",
 q:"Explain ONE economic risk for a country whose exports depend heavily on a single commodity.",
 sk:"Commodity dependence",
@@ -1242,7 +1171,6 @@ wk:["Tessar should sell more things.","That's advice, not a risk. The question a
 mw:"It names the risk (price shock), gives proof (Tessar's 85% petroleum and the 2014–2016 oil crash), and traces the chain to budget cuts, debt, and job losses.",
 fr:"T1- Depending on one commodity is risky because ___. E2- For example, Tessar ___, so if ___. A3- This hurts the country because ___, which leads to ___.",
 qc:["A sudden drop in the world price of a country's main export is called a…",["price shock","trade surplus","tariff"],0,"A price shock is a sudden swing in a commodity's price, and it hits one-product economies hardest."]},
-
 {v:"Explain",
 q:"Explain how a special economic zone (SEZ) or export processing zone could help Sulmani move toward Rostow's take-off stage, AND identify one potential downside.",
 sk:"SEZs and industrialization",
@@ -1258,7 +1186,6 @@ wk:["An SEZ would give Sulmani factories and jobs.","That's a start, but it stop
 mw:"It explains what the zone offers (tax breaks, infrastructure, foreign factories), connects it to take-off (new leading sector pulling workers from farms), and names a clear downside (low wages, companies leaving).",
 fr:"T1- A special economic zone could help Sulmani by ___. E2- For example, the zone would offer ___, so companies would ___. A3- This moves Sulmani toward take-off because ___; however, one downside is ___.",
 qc:["Which is a typical feature of a special economic zone?",["Lower taxes and tariffs to attract foreign factories","A ban on all foreign companies","Higher taxes to pay for schools"],0,"SEZs relax the normal rules (taxes, tariffs, paperwork) so that foreign firms will build factories there."]},
-
 {v:"Explain",
 q:"Explain ONE limitation of using the data in the table to compare the quality of life of people in these four countries.",
 sk:"Data limits and scale",
@@ -1275,8 +1202,6 @@ mw:"It names the limitation (national averages for one year), shows what they hi
 fr:"T1- One limitation is that the numbers in the table are ___, which hide ___. E2- For example, ___. A3- This is a problem because ___, so ___.",
 qc:["A country's GNI per capita is $31,400. What does that tell you about a typical rural family there?",["Not much; it's a national average that can hide big gaps","Exactly how much the family earns","That the family has a high quality of life"],0,"Per capita means divided by population. It's an average, and averages can hide huge differences inside a country."]}
 ]});
-
-/* ===== State & helpers ===== */
 const app=document.getElementById('app'),sh=document.getElementById('sh');
 let S={f:null,fi:0,k:-1,max:0,p:[],nt:[]};
 const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -1288,7 +1213,6 @@ const chips=a=>a.map(k=>`<button class="bgc" data-a="bg" data-k="${k}">📜 ${es
 function start(i){S={f:FRQ[i],fi:i,k:0,max:0,p:FRQ[i].p.map(()=>({st:1,h:{},a:'',ck:0,box:[],done:0,ok:0,c:0,q:null,cf:null})),nt:FRQ[i].nt.map(()=>({o:0,a:''})),bo:null,cb:0};render(1)}
 function go(k){S.k=k;S.max=Math.max(S.max,k);render(1)}
 function render(top){const y=scrollY;app.innerHTML=S.k<0?home():hdr()+(S.k==0?stimV():S.k>S.f.p.length?doneV():partV(S.k-1));if(top){scrollTo(0,0);const f=app.querySelector('h2[tabindex]')||app.querySelector('h1[tabindex]');f&&f.focus({preventScroll:true})}else scrollTo(0,y)}
-/* ===== Views ===== */
 function home(){return `<div class="hero"><div class="sub">GeoArcade presents</div><h1>FRQ<br>Tutor</h1><div class="sub">AP Human Geography · free-response training</div>${UNIT?`<div class="sub" style="color:var(--yl)">${UNIT}</div>`:''}<div class="blink">▶ SELECT A CARTRIDGE ◀</div></div>
 <div class="carts">${FRQ.map((f,i)=>[f,i]).sort((a,b)=>(b[0].cls||0)-(a[0].cls||0)).map(([f,i])=>`<button class="cart${f.cls?' cls':''}" data-a="start" data-i="${i}"><span class="k">${f.k}</span><h3>${f.t}</h3><span class="d">${f.d}</span><span class="d">${f.u} · ${f.p.length} parts · about ${f.m} min</span><span class="go">PRESS START ▸</span></button>`).join('')}</div>
 <div class="panel"><span class="tag px">How it works</span><div class="how"><div>Study the stimulus and jot what you notice.</div><div>Decode the task verb for each part.</div><div>Think it through with step-by-step hints.</div><div>Write, check against the rubric, compare with a model.</div></div></div>
@@ -1344,14 +1268,15 @@ return h}
 function bossV(){const B=S.bo;if(!B)return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round</span><p>3 lightning questions on what you just learned. Quick recall now helps you remember it next week.</p><div class="row"><button class="btn m" data-a="boss">Start Boss Round ▸</button></div></div>`;
 if(B.k>=B.l.length)return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round</span><p class="big" style="font-size:20px">${B.r==B.l.length?'Boss defeated!':'Boss battle over!'}</p><p style="text-align:center">You got <b>${B.r}/${B.l.length}</b> on the first try.${B.r<B.l.length?' Come back tomorrow and replay. Spacing out practice is how memories stick.':''}</p></div>`;
 const i=B.l[B.k],q=S.f.p[i].qc;return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round · ${B.k+1}/${B.l.length}</span>${mcqV(q,B.s,(i+B.k+1)%3,'bq','')}${B.s===0||B.s>0?`<div class="row"><button class="btn m" data-a="bn">${B.k+1<B.l.length?'Next ▸':'Finish ▸'}</button></div>`:''}</div>`}
+function exportTxt(){const n=S.f.p.length;return `${S.f.t} (${S.f.u}) · GeoArcade FRQ Tutor\nScore: ${score()}/${n}\n\n`+S.f.p.map((p,i)=>{const st=S.p[i];return `Part ${L(i)} (${p.v}): ${p.q}\nMy answer: ${st.a.trim()||'(blank)'}\nResult: ${st.done?(st.ok?'point earned':'not yet'):'not attempted'}\n`}).join('\n')}
 function doneV(){const n=S.f.p.length,sc=score(),ps=S.f.p.map((p,i)=>[p,i,S.p[i]]),ok=ps.filter(x=>x[2].ok),no=ps.filter(x=>x[2].done&&!x[2].ok),un=ps.filter(x=>!x[2].done);
 const rank=sc==n?"GEO LEGEND":sc>=5?"MAP MASTER":sc>=3?"RISING SCOUT":"KEEP PLAYING";
 return `<div class="panel" style="text-align:center"><h2 class="big" tabindex="-1">${un.length?'Progress report':'Stage clear!'}</h2><div class="stars" aria-label="${sc} of ${n}">${'★'.repeat(sc)}<span style="opacity:.25">${'★'.repeat(n-sc)}</span></div><div class="rank">${sc}/${n} points · Rank: ${rank}</div></div>
 <div class="panel"><span class="tag px" style="color:var(--gr)">Nailed it</span>${ok.length?`<ul class="res">${ok.map(([p,i])=>`<li><b style="color:var(--gr)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span></li>`).join('')}</ul>`:'<p class="note">No points yet. Every replay makes it easier!</p>'}</div>
 <div class="panel"><span class="tag px" style="color:var(--rd)">Review these</span>${no.length?`<ul class="res">${no.map(([p,i])=>`<li><b style="color:var(--rd)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br>${chips(p.b)}<button class="link" data-a="go" data-k="${i+1}">Revisit Part ${L(i)}</button></li>`).join('')}</ul>`:'<p>Nothing to review so far. 🏆</p>'}</div>
 ${un.length?`<div class="panel"><span class="tag px" style="color:var(--yl)">Not tried yet</span><ul class="res">${un.map(([p,i])=>`<li><b style="color:var(--yl)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br><button class="link" data-a="go" data-k="${i+1}">Go to Part ${L(i)}</button></li>`).join('')}</ul></div>`:''}
+<div class="panel"><span class="tag px">Turn it in</span><p>Nothing saves on this page. Copy your answers to paste into Canvas or a doc.</p><div class="row"><button class="btn c" data-a="copy">📋 Copy my answers</button><span class="note" id="cpmsg" role="status" aria-live="polite"></span></div><details class="peek" id="cpd"><summary>See the text</summary><div><textarea readonly id="cpt" aria-label="Your answers" style="min-height:200px">${esc(exportTxt())}</textarea></div></details></div>
 ${no.length?`<div class="row"><button class="btn c" data-a="retry">↻ Retry what I missed ▸</button></div>`:''}${bossV()}<div class="row"><button class="btn" data-a="start" data-i="${S.fi}">↻ Replay</button>${FRQ.length>1?`<button class="btn m" data-a="start" data-i="${(S.fi+1)%FRQ.length}">Try “${esc(FRQ[(S.fi+1)%FRQ.length].t)}” ▸</button>`:''}<button class="btn o" data-a="home">Menu</button></div>`}
-/* ===== Events ===== */
 let opener;function openBG(k){opener=document.activeElement;app.setAttribute('aria-hidden','true');document.getElementById('shT').textContent=BG[k].t;document.getElementById('shB').innerHTML=BG[k].s.map(x=>`<li>${esc(x)}</li>`).join('');sh.classList.add('on');sh.querySelector('[data-a=x]').focus()}
 function closeBG(){if(!sh.classList.contains('on'))return;sh.classList.remove('on');app.removeAttribute('aria-hidden');opener&&opener.focus()}
 document.addEventListener('click',e=>{if(e.target==sh)return closeBG();const b=e.target.closest('[data-a]');if(!b||b.disabled)return;const a=b.dataset.a,i=+b.dataset.i,j=+b.dataset.j;
@@ -1377,6 +1302,7 @@ st.ck=1;st.c=5;st.g=P.r.i.map(r=>r[1].test(st.a));st.box=P.r.m=="any"?st.g.map((
 case 'rev':S.p[i].ck=0;S.p[i].done=0;S.p[i].c=4;render(1);return document.getElementById('ans').focus();
 case 'next':{const w=S.p[i].done;S.p[i].done=1;S.p[i].ok=earned(i);if(!w)S.cb=S.p[i].ok?S.cb+1:0;return go(i+2)}
 case 'cf':S.p[i].cf=+b.dataset.k;return render();
+case 'copy':{const m=document.getElementById('cpmsg'),t=exportTxt();const fail=()=>{document.getElementById('cpd').open=true;const ta=document.getElementById('cpt');ta.focus();ta.select();m.textContent='Select the text below and copy it.'};try{navigator.clipboard.writeText(t).then(()=>{m.textContent='✔ Copied! Now paste it into Canvas.'},fail)}catch(e){fail()}return}
 case 'retry':{const m=S.p.findIndex(x=>x.done&&!x.ok);S.p[m].c=4;S.p[m].ck=0;S.p[m].done=0;return go(m+1)}
 }});
 document.addEventListener('input',e=>{const t=e.target,d=t.dataset;if(d.in=='ans')S.p[+d.i].a=t.value;else if(d.in=='nt')S.nt[+d.j].a=t.value});

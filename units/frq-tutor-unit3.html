@@ -32,7 +32,6 @@ button{font:inherit;color:inherit;cursor:pointer}
 .link{background:none;border:0;color:var(--dim);text-decoration:underline;padding:8px 4px;font-size:15px}
 .bgc{display:inline-flex;align-items:center;gap:6px;background:var(--pn2);border:2px dashed var(--mg);color:#ffc4e3;padding:7px 11px;margin:4px 6px 4px 0;font-size:14px;font-weight:600}
 .bgc:hover{background:#2a1d55}
-/* header */
 .top{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:6px 0 10px;border-bottom:3px solid var(--ln)}
 .brand{font:10px var(--px);color:var(--mg);text-shadow:0 0 8px rgba(255,63,164,.7);background:none;border:0;padding:6px 0;text-align:left}
 .brand b{color:var(--cy);text-shadow:0 0 8px rgba(34,229,255,.7)}
@@ -75,7 +74,6 @@ button{font:inherit;color:inherit;cursor:pointer}
 .combo{display:block;margin-top:6px;color:var(--yl)}
 .verdict.y{animation:pop .5s steps(5)}@keyframes pop{0%{transform:scale(.6)}60%{transform:scale(1.08)}100%{transform:scale(1)}}
 .plabel{font:10px var(--px);align-items:center;color:var(--dim);display:flex;justify-content:space-between}
-/* home */
 .hero{text-align:center;padding:26px 6px 8px}
 .hero h1{font:clamp(26px,8vw,46px)/1.2 var(--px);color:var(--yl);text-shadow:3px 3px 0 var(--mg),6px 6px 0 #000}
 .hero .sub{font:10px/1.8 var(--px);color:var(--cy);margin-top:14px}
@@ -96,7 +94,6 @@ button{font:inherit;color:inherit;cursor:pointer}
 .tea div{padding:10px;background:#0f0c29;border:2px solid var(--ln);font-size:14px}
 .tea b{display:block;font:20px var(--px);margin-bottom:6px}
 .tT{color:var(--cy)}.tE{color:var(--yl)}.tA{color:var(--mg)}
-/* stimulus */
 .stim{background:#0a0820;border:3px solid var(--cy);padding:10px;box-shadow:0 0 0 3px #000,0 0 18px rgba(34,229,255,.25)}
 .stim h3{font:10px/1.6 var(--px);color:var(--cy);margin-bottom:8px}
 .stim svg{width:100%;height:auto;display:block;max-width:560px;margin:0 auto}
@@ -118,7 +115,6 @@ details.peek summary{cursor:pointer;padding:12px;font:10px var(--px);color:var(-
 details.peek summary:before{content:"▸ "}
 details.peek[open] summary:before{content:"▾ "}
 details.peek>div{padding:0 10px 10px}
-/* part */
 .qbox{background:#0a0820;border:3px solid var(--yl);padding:14px;box-shadow:5px 5px 0 #000}
 .qbox .px{font-size:10px;color:var(--yl);display:block;margin-bottom:8px}
 .qbox p{font-size:19px;font-weight:600;margin:0}
@@ -153,7 +149,6 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 .verdict.y{color:var(--gr);border-color:var(--gr);background:#0b2418}
 .verdict.n{color:var(--rd);border-color:var(--rd);background:#2a0c1a}
 .note{font-size:14px;color:var(--dim)}
-/* done */
 .big{font:clamp(24px,7vw,40px)/1.3 var(--px);color:var(--gr);text-align:center;text-shadow:3px 3px 0 #000,0 0 14px rgba(77,255,145,.6)}
 .stars{text-align:center;font-size:30px;letter-spacing:4px;margin:10px 0}
 .rank{text-align:center;font:11px/1.9 var(--px);color:var(--yl)}
@@ -161,7 +156,6 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 .res li{padding:10px 0;border-top:2px dashed var(--ln)}
 .res li:first-child{border-top:0}
 .res b{font-family:var(--px);font-size:11px;margin-right:6px}
-/* sheet */
 #sh{position:fixed;inset:0;z-index:60;display:none;align-items:center;justify-content:center;background:rgba(5,3,18,.8);padding:16px}
 #sh.on{display:flex}
 #sh .card{background:var(--pn);border:3px solid var(--mg);box-shadow:6px 6px 0 #000,0 0 30px rgba(255,63,164,.35);max-width:560px;width:100%;max-height:85vh;overflow:auto;padding:18px;animation:up .2s steps(4)}
@@ -171,18 +165,18 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 #sh ol{padding-left:22px;margin:0}
 #sh li{margin:8px 0}
 @media (max-width:620px){
- body{font-size:16px}
- #app{padding:10px 10px 50px}
- .carts,.tea{grid-template-columns:1fr}
- .how{grid-template-columns:1fr 1fr}
- .panel{padding:14px 12px}
- .row .btn{flex:1 1 100%}
- .qbox p{font-size:17px}
- .verb{flex-direction:column;gap:8px}
- #sh{align-items:flex-end;padding:0}
- #sh .card{max-height:80vh;border-bottom:0;box-shadow:0 -4px 0 #000}
- .seg{font-size:9px;height:40px}
- .tbl:after{content:"◂ swipe to see all columns ▸";display:block;font-size:12px;color:var(--dim);text-align:center;padding:6px 0 0}
+body{font-size:16px}
+#app{padding:10px 10px 50px}
+.carts,.tea{grid-template-columns:1fr}
+.how{grid-template-columns:1fr 1fr}
+.panel{padding:14px 12px}
+.row .btn{flex:1 1 100%}
+.qbox p{font-size:17px}
+.verb{flex-direction:column;gap:8px}
+#sh{align-items:flex-end;padding:0}
+#sh .card{max-height:80vh;border-bottom:0;box-shadow:0 -4px 0 #000}
+.seg{font-size:9px;height:40px}
+.tbl:after{content:"◂ swipe to see all columns ▸";display:block;font-size:12px;color:var(--dim);text-align:center;padding:6px 0 0}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
@@ -191,7 +185,6 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 <main id="app"></main>
 <div id="sh" role="dialog" aria-modal="true" aria-labelledby="shT"><div class="card"><div class="k">📜 Need the background?</div><h3 id="shT"></h3><ol id="shB"></ol><div class="row"><button class="btn c" data-a="x">Got it ▸</button></div></div></div>
 <script>
-/* ===== Background pop-outs (shared by every FRQ) ===== */
 const BG={
 frq:{t:"How AP FRQs are scored",s:["Each part (A, B, C…) is worth 1 point and is scored on its own. A mistake in Part B can't cost you Part C.","Readers look for the right idea, clearly linked to the question. Fancy writing earns nothing extra.","No thesis, intro, or conclusion needed. Label each part and answer it directly.","Write in complete sentences and do what the task verb asks (Identify, Describe, or Explain).","Never leave a part blank. A wrong answer costs nothing."]},
 tea:{t:"The TEA method",s:["T1- Topic: your reason in general words. Turn the question into your claim.","E2- Evidence: the specific proof, like a place, number, or example, ideally from the map or table.","A3- Analysis: why it matters. Explain HOW or WHY your proof backs up your reason, using “because…” or “which leads to…”.","Label each piece T1-, E2-, A3- so the reader can find every point. Describe answers need T1 and E2 plus a short A3. Explain answers need a strong A3."]},
@@ -200,18 +193,15 @@ readtable:{t:"How to read a data table",s:["Read the title and every column head
 raj:{t:"British imperialism in India",s:["Starting in the 1600s, the British East India Company, a private trading firm, used trade deals and military force to take control of large parts of India.","After the Indian Rebellion of 1857, the British government took direct control in 1858. This period, called the British Raj, lasted until independence in 1947.","Britain ran India to benefit its own economy: India supplied raw materials like cotton, jute, and tea, and was a captive market for British factory goods.","By 1900 the British had built about 40,000 km of railway, much of it designed to move goods to ports and troops around the colony.","When Britain left in 1947, it partitioned the colony into India and Pakistan (East Pakistan later became Bangladesh), creating borders that still shape the region."]},
 scale:{t:"Scale of analysis",s:["Scale is the level at which you study something: global, national, regional, or local.","A pattern that looks clear at one scale can change or disappear at another.","A national average can hide big differences between cities and the countryside, or between regions and groups.","On the AP exam, 'limitation' questions often reward pointing out what a source's scale, time frame, or data leave out."]}
 };
-/* ===== Task verbs ===== */
 const VERBS={
 Identify:{d:"Name it. A word or short phrase is enough, with no explaining needed.",l:["Be specific: “cotton” beats “crops.”","Answer exactly what's asked. Extra writing won't earn more.","One sentence max."]},
 Describe:{d:"Paint the picture. Give the specific characteristics or pattern, with details someone could check.",l:["Use evidence: a place, a number, or a feature from the stimulus.","Say what it IS or what it LOOKS LIKE. You don't need a deep “why.”","About 1–2 sentences. Use TEA: Topic + Evidence, then a quick Analysis."]},
 Explain:{d:"Tell HOW or WHY. Connect a cause to an effect so a reader sees the reasoning, not just a fact.",l:["Use linking words: “because…”, “which leads to…”, “as a result…”.","A fact alone won't score. You need the chain of reasoning.","About 2–3 sentences. Use full TEA."]}
 };
-/* ===== FRQ registry: each FRQ data file calls addBG() and addFRQ() ===== */
 const FRQ=[];
 function addBG(o){Object.assign(BG,o)}
 function addFRQ(f){FRQ.push(f)}
 const UNIT="Unit 3 · Cultural Patterns and Processes";
-/* English Goes Global: the Unit 3 class FRQ (publicly released question). Data table. */
 addBG({
 linguafranca:{t:"Lingua franca",s:["A lingua franca is a shared language people use when they don't speak the same first language.","The name comes from an old trade language used around the Mediterranean Sea.","Swahili in East Africa and Arabic across the Middle East have both served as lingua francas.","Today English is the most widely used global lingua franca: in business, science, air travel, and the internet."]},
 diffusion:{t:"Types of diffusion",s:["Relocation diffusion: people move and bring their language or culture with them.","Expansion diffusion: an idea spreads outward while staying strong where it started.","Its 3 kinds: hierarchical (from powerful people or big cities first), contagious (person to person, like a virus), and stimulus (the idea spreads but gets changed to fit local culture).","English spread by relocation (British colonists) and hierarchical diffusion (elites, schools, and businesses first)."]},
@@ -247,7 +237,6 @@ wk:["India speaks English because it is a big country.","Size doesn't explain la
 mw:"It names the history (British colonial rule), gives specific proof (government, courts, universities), and explains why English lasted after 1947.",
 fr:"T1- One historical reason India has many English speakers is ___. E2- For example, under British rule English was used for ___. A3- This still matters today because ___.",
 qc:["Which country colonized India and spread English there?",["Great Britain","Portugal","The United States"],0,"Britain ruled India until 1947, and English stayed."]},
-
 {v:"Explain",
 q:"Explain ONE contemporary reason why people in China and India are learning English.",
 sk:"Globalization and the spread of English",
@@ -263,7 +252,6 @@ wk:["English is the best language.","That's an opinion, not a reason, and it doe
 mw:"It names a present-day reason (global business), gives an example (jobs with multinational companies), and explains the payoff (higher income).",
 fr:"T1- People in China and India are learning English because ___. E2- For example, ___. A3- This helps them because ___, which leads to ___.",
 qc:["A “lingua franca” is…",["a shared language used by people with different first languages","the oldest language in a region","a language spoken only in France"],0,"It's a common “bridge” language, and today English is the biggest one."]},
-
 {v:"Describe",
 q:"Describe ONE barrier to the diffusion of English throughout China.",
 sk:"Barriers to diffusion",
@@ -279,7 +267,6 @@ wk:["English is hard.","Too vague. Hard for whom, and why? Name a specific barri
 mw:"It names a specific barrier (government control), gives proof (the Great Firewall, Mandarin policy), and describes the effect (fewer chances to use English).",
 fr:"T1- One barrier to English spreading in China is ___. E2- For example, ___. A3- This slows English because ___.",
 qc:["Which is a POLITICAL barrier to diffusion?",["A government blocking foreign websites","A high mountain range","A long distance between cities"],0,"Political barriers come from governments: laws, censorship, and language policies."]},
-
 {v:"Explain",
 q:"Using the table, explain ONE reason for the difference in the percentage of English speakers in the Netherlands compared with the percentage in China.",
 sk:"Explaining a difference with data",
@@ -295,7 +282,6 @@ wk:["The Netherlands has more English speakers than China.","That just restates 
 mw:"It quotes the table, names a reason (language similarity), and explains how it leads to more English speakers.",
 fr:"T1- The Netherlands has ___% English speakers but China has ___ because ___. E2- For example, ___. A3- This creates the difference because ___.",
 qc:["English and Dutch are both part of which language branch?",["Germanic","Romance","Sino-Tibetan"],0,"Germanic languages share roots, which makes English easier for Dutch speakers."]},
-
 {v:"Explain",
 q:"Explain ONE economic reason why a corporation based in an English-speaking country would locate a call center in a country where English is not the dominant language.",
 sk:"Outsourcing and the global economy",
@@ -311,7 +297,6 @@ wk:["Because people in other countries need jobs.","That's about the workers, no
 mw:"It names the economic reason (lower labor costs), uses the table (125 million English speakers in India), and explains the payoff (higher profits).",
 fr:"T1- A corporation would put a call center in ___ because ___. E2- For example, ___. A3- This helps the company because ___, which leads to ___.",
 qc:["The MAIN economic reason companies offshore call centers is…",["lower labor costs","better weather","shorter travel times"],0,"Lower wages mean lower costs and higher profits."]},
-
 {v:"Explain",
 q:"Explain ONE limitation of using the data in the table to understand a country's level of economic development.",
 sk:"Data limits: language vs. development",
@@ -327,7 +312,6 @@ wk:["The table doesn't show every country.","That's about how many countries are
 mw:"It names what's missing (economic data), gives a clear example (the Philippines vs. China), and explains how it could mislead.",
 fr:"T1- One limitation is that the table only shows ___, not ___. E2- For example, ___. A3- This is a problem because ___.",
 qc:["Which of these is an indicator of economic development?",["GDP per capita","Percent who speak English","Number of languages spoken"],0,"GDP per capita measures income per person. Language data doesn't."]},
-
 {v:"Explain",
 q:"Explain ONE negative local impact of a global lingua franca on places where a different language is spoken.",
 sk:"Globalization's impact on local cultures",
@@ -344,8 +328,6 @@ mw:"It names a specific impact (language loss), explains how it happens (young p
 fr:"T1- One negative local impact of a global lingua franca is ___. E2- For example, when ___, ___. A3- This matters because ___.",
 qc:["When cultures around the world become more alike, it's called…",["cultural homogenization","cultural relativism","ethnocentrism"],0,"Homogenization means becoming the same. A global lingua franca can speed it up."]}
 ]});
-
-/* Maple Street District (original): sequent occupance, ethnic neighborhoods, diffusion, religion, and centripetal/centrifugal forces. Text stimulus. */
 addBG({
 sequent:{t:"Sequent occupance",s:["Sequent occupance is the idea that a place is shaped by every group that has ever lived there, one layer at a time.","Each group leaves its mark on the cultural landscape: buildings, signs, foods, places of worship, street names.","The next group doesn't erase everything. It reuses and adds to what's already there, like a Lutheran church becoming a Catholic parish.","Cultural landscape just means the visible, human-made look of a place."]},
 enclave:{t:"Ethnic enclaves",s:["An ethnic enclave (or ethnic neighborhood) is an area where one ethnic group clusters together in a city.","Immigrants settle near people who share their language, religion, and food because it feels safer and makes daily life easier.","Enclaves fill with businesses that serve the group: bakeries, groceries, newspapers, and radio stations in the home language.","Many U.S. cities have had a “Little Italy,” a Chinatown, or a German district. Over time one group moves out and another moves in: ethnic succession."]},
@@ -353,7 +335,6 @@ accult:{t:"Acculturation, assimilation, syncretism",s:["Acculturation: a group a
 religionland:{t:"Religion in the landscape",s:["Religion is one of the easiest cultural traits to spot in a landscape: churches, mosques, temples, shrines, and cemeteries.","Universalizing religions like Christianity and Islam try to appeal to everyone, so they spread widely and build in many places.","Ethnic religions like Hinduism and Judaism are tied to one group or place and spread mostly by migration.","Even a single building can show history: a church may change denomination when the neighborhood changes. Festivals and shrines count too."]},
 centri:{t:"Centripetal vs. centrifugal forces",s:["Centripetal forces pull a group together: a shared language, religion, media, or celebration.","Centrifugal forces push a group apart: tension between newcomers and old-timers, different languages, or feeling like outsiders in your own area.","An ethnic radio station or newspaper is a classic centripetal force for an immigrant community.","Rapid neighborhood change can be centrifugal when long-time residents feel their culture is being replaced. These terms return in Unit 4."]},
 popfolk:{t:"Popular vs. local culture",s:["Local (folk) culture belongs to a specific place or group, is passed down in person, and changes slowly.","Popular culture spreads fast through media and big companies and looks similar everywhere: chain coffee shops, trending music, the same apps.","Globalization helps popular culture spread, which can crowd out local traditions, a process called cultural homogenization.","But the same technology can preserve local culture: communities record recipes, stream festivals, and post heritage-language videos online."]},
-readtext:{t:"How to read a text stimulus",s:["Read the passage twice. The first time, just follow the story. The second time, hunt for geography terms you know.","Underline every place, group, building, and date. FRQ questions almost always point back to those details.","Notice what CHANGES between the time periods and what STAYS. That's where most of the points hide.","When a question says “using the passage,” quote or paraphrase a specific detail as your E2 evidence."]}
 });
 addFRQ({k:"Practice FRQ · Text stimulus",
 t:"Maple Street District",
@@ -361,8 +342,8 @@ d:"Sequent occupance, ethnic neighborhoods, diffusion, religion, and centripetal
 u:"Unit 3",
 st:"A Century on Maple Street: One Neighborhood, Three Communities",
 intro:"The passage below describes how a single neighborhood in a mid-sized U.S. city changed over one hundred years as different groups moved in and out. Read it closely before you answer.",
-stim:"<div class=\"passage\" style=\"background:#0a0820;border:2px solid var(--ln);padding:12px;font-size:16px;line-height:1.6\"><p><strong>1920s.</strong> In the 1920s, Maple Street District was the German heart of Ridgeway, a mid-sized Midwestern city. Immigrants from Bavaria and Saxony filled its brick row houses. They built St. Johannes Lutheran Church on the corner of Maple and Third, opened beer gardens along the avenue, and printed a weekly German-language newspaper, the <em>Ridgeway Zeitung</em>.</p><p><strong>1970s.</strong> By the 1970s, most German families had moved to the suburbs. Mexican and Central American families arrived, drawn by factory jobs. The old church building reopened as Our Lady of Guadalupe Catholic Parish. Taquerías and a panadería replaced the beer gardens, a Spanish-language radio station went on the air, and residents began an annual Día de los Muertos festival on Maple Street.</p><p><strong>2020s.</strong> In the 2020s, young professionals moved in. Coffee shops and a yoga studio opened, and rents rose sharply. The festival is now sponsored by the city and draws thousands of tourists, though several long-running restaurants have closed.</p></div><p class=\"src\">Maple Street District and the city of Ridgeway are fictional and were created for practice. Remember the class directions: label each part, and write Describe and Explain parts as T1- (your reason in general words), E2- (the specific proof), A3- (why it matters).</p>",
-bg:["sequent","enclave","readtext"],
+stim:"<div class=\"passage\" style=\"background:#0a0820;border:2px solid var(--ln);padding:12px;font-size:16px;line-height:1.6\"><p><strong>1920s.</strong> In the 1920s, Maple Street District was the German heart of Ridgeway, a mid-sized Midwestern city. Immigrants from Bavaria and Saxony filled its brick row houses. They built St. Johannes Lutheran Church on the corner of Maple and Third, opened beer gardens along the avenue, and printed a weekly German-language newspaper, the <em>Ridgeway Zeitung</em>.</p><p><strong>1970s.</strong> By the 1970s, most German families had moved to the suburbs. Mexican and Central American families arrived, drawn by factory jobs. The old church building reopened as Our Lady of Guadalupe Catholic Parish. Taquerías and a panadería replaced the beer gardens, a Spanish-language radio station went on the air, and residents began an annual Día de los Muertos festival on Maple Street.</p><p><strong>2020s.</strong> In the 2020s, young professionals moved in. Coffee shops and a yoga studio opened, and rents rose sharply. The festival is now sponsored by the city and draws thousands of tourists, though several long-running restaurants have closed.</p></div><p class=\"src\">Maple Street District and the city of Ridgeway are fictional and were created for practice.</p>",
+bg:["sequent","enclave"],
 nt:[["What happened to the church building across the three periods?","It was built as a Lutheran church by Germans in the 1920s, then reopened as a Catholic parish in the 1970s. Same building, new religion. That's a layer of history you can see on the street."],["Make a quick list: which businesses or media appear in each period?","1920s: beer gardens, a German newspaper. 1970s: taquerías, a panadería, Spanish radio. 2020s: coffee shops, a yoga studio. Each group fills the neighborhood with places that serve ITS needs."],["In the 2020s, who is the festival for? Compare that with the 1970s.","In the 1970s, residents started it for themselves. In the 2020s, the city sponsors it and tourists come by the thousands. Same festival name, but the audience and purpose have shifted."]],
 m:20,
 p:[
@@ -372,7 +353,7 @@ sk:"Identifying relocation diffusion",
 s:[["How did German culture physically get to Ridgeway? Did an idea travel, or did people travel?",["Reread the first paragraph: “Immigrants from Bavaria and Saxony filled its brick row houses.”","People moved and carried their language, religion, and food with them."]],["Name the type of diffusion in one phrase.",["It's the kind where migrants bring culture to a new place.","It starts with “re-” and rhymes with “location.”"]]],
 r:{m:"any",i:[["Relocation diffusion",/relocat/i,"Name the type: relocation diffusion."],["Spread through migration: people moved and brought their culture with them",/migrat|immigr|moved|move |moving|brought|carried/i,"Say that German immigrants MOVED to Ridgeway and brought their culture with them. That's relocation diffusion."]]},
 mo:"Relocation diffusion: German immigrants moved to Ridgeway and brought their language, religion, and food with them.",
-b:["enclave","readtext"],
+b:["enclave"],
 th:"There are like five kinds of diffusion. How do I know which one this is?",
 co:"Start with the biggest split: did PEOPLE move, or did an IDEA move while people stayed put? The passage literally says immigrants filled the row houses. That answers it.",
 kq:"What kind of diffusion is it when German immigrants move to a new city and bring their culture along? Name it.",
@@ -381,14 +362,13 @@ wk:["Contagious diffusion, because it spread from person to person.","Contagious
 mw:"It names the exact type (relocation) and shows the evidence: immigrants moved and carried their culture with them.",
 fr:"The type of diffusion is ___ diffusion, because German ___ moved to Ridgeway and brought ___ with them.",
 qc:["Which situation is relocation diffusion?",["Irish immigrants open a Catholic church in Boston","A dance trend spreads from New York to small towns","A new slang word spreads between classmates"],0,"Relocation diffusion needs people to MOVE. The other two are expansion diffusion (hierarchical and contagious)."]},
-
 {v:"Describe",
 q:"Using the passage, describe ONE way the cultural landscape of Maple Street District changed between the 1920s and the 1970s.",
 sk:"Describing sequent occupance",
 s:[["Name the big-picture change in general words. Which group left, and which arrived?",["Germans moved to the suburbs; Mexican and Central American families moved in.","Geographers call it sequent occupance when one group's layer replaces or covers another's."]],["Pick ONE visible feature from the passage and say what it was before and after.",["The church: Lutheran in the 1920s, Catholic parish in the 1970s.","Or the food: beer gardens → taquerías and a panadería. Or the media: German newspaper → Spanish radio."]],["Say what that change reveals about the neighborhood.",["The buildings stayed, but the signs, foods, and religion changed to fit the new residents.","Each group left its own layer on the same streets."]]],
 r:{m:"all",i:[["Names a specific landscape feature from the passage (church, beer gardens, taquerías, newspaper, radio, signs, foods)",/church|lutheran|catholic|parish|guadalupe|beer|taquer|panader|bakery|newspaper|zeitung|radio|sign|language|restaurant|food|shop|store|business/i,"Name a specific thing you could SEE on the street: the church, the beer gardens, the taquerías, or the newspaper."],["Describes the change: what it was before and what it became",/replac|became|become|turn|chang|reopen|instead|switch|convert|from .* to|now|then|later/i,"Describe the before-and-after: for example, the Lutheran church became a Catholic parish, or taquerías replaced the beer gardens."]]},
 mo:"T1- The cultural landscape changed as the German community was replaced by a Mexican and Central American one, an example of sequent occupance. E2- The passage says St. Johannes Lutheran Church reopened as Our Lady of Guadalupe Catholic Parish, and taquerías and a panadería replaced the beer gardens along the avenue. A3- The buildings stayed on the same corners, but their names, foods, and religion changed to match the new residents, so each group left its own visible layer on Maple Street.",
-b:["sequent","enclave","readtext"],
+b:["sequent","enclave"],
 th:"“Cultural landscape”? I thought landscape meant mountains and rivers.",
 co:"That's the physical landscape. The CULTURAL landscape is everything humans add: buildings, signs, churches, restaurants. So look for the human-made stuff in the passage that changed.",
 kq:"Pick one thing on Maple Street that looked different in the 1970s than in the 1920s. Say what it was before and what it became, using the passage.",
@@ -397,7 +377,6 @@ wk:["The neighborhood got more Mexican people.","That's a change in WHO lived th
 mw:"It names the overall change (sequent occupance), uses specific before-and-after details from the passage (the church, the beer gardens), and explains what the layers show.",
 fr:"T1- Between the 1920s and the 1970s the cultural landscape changed because ___. E2- For example, the passage says the ___ became ___. A3- This shows that ___.",
 qc:["A Lutheran church that later becomes a Catholic parish is the best example of…",["sequent occupance","contagious diffusion","cultural homogenization"],0,"Sequent occupance means each group leaves its own layer on the same place, often reusing older buildings."]},
-
 {v:"Explain",
 q:"Explain how the Día de los Muertos festival in the 2020s is an example of a cultural practice changing as it spreads to new groups of people.",
 sk:"Acculturation and commodification",
@@ -413,7 +392,6 @@ wk:["The festival is more popular now.","That says it changed, but not HOW it sp
 mw:"It names the process (acculturation/commodification), quotes the shift from residents to city sponsorship and tourists, and explains how a new audience changes the festival's purpose.",
 fr:"T1- The festival shows a cultural practice changing as it spreads because ___. E2- In the 1970s ___, but in the 2020s ___. A3- As ___ adopt the festival, its purpose shifts from ___ to ___.",
 qc:["Turning a cultural tradition into something sold to tourists is called…",["commodification","assimilation","relocation diffusion"],0,"Commodification means making culture into a product. A city-sponsored tourist festival is a classic case."]},
-
 {v:"Describe",
 q:"Using the passage, describe ONE way religion is visible in the cultural landscape of Maple Street District.",
 sk:"Religion in the cultural landscape",
@@ -429,7 +407,6 @@ wk:["The people in the neighborhood are religious.","That tells us about the peo
 mw:"It names the feature (a church), gives the exact detail from the passage (St. Johannes → Our Lady of Guadalupe), and describes what the building reveals about the residents.",
 fr:"T1- Religion is visible in the landscape through ___. E2- The passage says ___ at ___. A3- This shows that ___.",
 qc:["Which is the BEST example of religion in the cultural landscape?",["A Catholic parish building on a street corner","A family saying grace before dinner","A country's official language"],0,"The landscape is what you can see outdoors. A church building is religion made visible."]},
-
 {v:"Explain",
 q:"Explain ONE centrifugal effect that the changes of the 2020s could have on long-time residents of Maple Street District.",
 sk:"Centrifugal forces and neighborhood change",
@@ -445,7 +422,6 @@ wk:["Rents went up, so it costs more to live there.","That's the economic fact, 
 mw:"It names the centrifugal effect (feeling pushed out, tension), quotes the 2020s changes from the passage, and explains how those changes divide old-timers from newcomers.",
 fr:"T1- The 2020s changes could be a centrifugal force because ___. E2- The passage says ___ and ___. A3- Because ___, long-time residents may ___, which divides the community.",
 qc:["Which is a CENTRIFUGAL force in a neighborhood?",["Long-time residents feeling pushed out by newcomers and rising rents","A community radio station in the residents' language","An annual festival everyone attends"],0,"Centrifugal forces divide. The radio station and the festival are centripetal: they bring people together."]},
-
 {v:"Explain",
 q:"Explain how the Spanish-language radio station is an example of a centripetal force for the community that arrived in the 1970s.",
 sk:"Centripetal forces and shared media",
@@ -461,7 +437,6 @@ wk:["The radio station plays Spanish music.","That's what it does, not what it d
 mw:"It names the unifying effect (shared language and identity), gives concrete examples of what the station broadcasts, and explains how that builds belonging and keeps the community connected.",
 fr:"T1- The radio station is a centripetal force because it ___. E2- For example, it broadcasts ___ in Spanish, so residents ___. A3- Because ___, the community feels ___.",
 qc:["A newspaper or radio station in an immigrant group's language is best described as a…",["centripetal force","centrifugal force","barrier to diffusion"],0,"Shared media in a shared language pulls a group together. That's centripetal."]},
-
 {v:"Explain",
 q:"Explain ONE way globalization or popular culture could threaten the local culture of Maple Street District, AND ONE way technology could help residents preserve it.",
 sk:"Popular culture, globalization, and preservation",
@@ -478,8 +453,6 @@ mw:"It names the threat (chains and tourists replacing local businesses → homo
 fr:"T1- Globalization or popular culture could threaten Maple Street's local culture by ___. E2- For example, ___. A3- But residents could use technology to preserve it by ___, which would ___.",
 qc:["Globalization spreading the same brands and styles everywhere, so places look alike, is called…",["cultural homogenization","sequent occupance","relocation diffusion"],0,"Homogenization means becoming the same. Technology can speed it up, but it can also help local cultures survive."]}
 ]});
-
-/* ===== State & helpers ===== */
 const app=document.getElementById('app'),sh=document.getElementById('sh');
 let S={f:null,fi:0,k:-1,max:0,p:[],nt:[]};
 const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -491,7 +464,6 @@ const chips=a=>a.map(k=>`<button class="bgc" data-a="bg" data-k="${k}">📜 ${es
 function start(i){S={f:FRQ[i],fi:i,k:0,max:0,p:FRQ[i].p.map(()=>({st:1,h:{},a:'',ck:0,box:[],done:0,ok:0,c:0,q:null,cf:null})),nt:FRQ[i].nt.map(()=>({o:0,a:''})),bo:null,cb:0};render(1)}
 function go(k){S.k=k;S.max=Math.max(S.max,k);render(1)}
 function render(top){const y=scrollY;app.innerHTML=S.k<0?home():hdr()+(S.k==0?stimV():S.k>S.f.p.length?doneV():partV(S.k-1));if(top){scrollTo(0,0);const f=app.querySelector('h2[tabindex]')||app.querySelector('h1[tabindex]');f&&f.focus({preventScroll:true})}else scrollTo(0,y)}
-/* ===== Views ===== */
 function home(){return `<div class="hero"><div class="sub">GeoArcade presents</div><h1>FRQ<br>Tutor</h1><div class="sub">AP Human Geography · free-response training</div>${UNIT?`<div class="sub" style="color:var(--yl)">${UNIT}</div>`:''}<div class="blink">▶ SELECT A CARTRIDGE ◀</div></div>
 <div class="carts">${FRQ.map((f,i)=>[f,i]).sort((a,b)=>(b[0].cls||0)-(a[0].cls||0)).map(([f,i])=>`<button class="cart${f.cls?' cls':''}" data-a="start" data-i="${i}"><span class="k">${f.k}</span><h3>${f.t}</h3><span class="d">${f.d}</span><span class="d">${f.u} · ${f.p.length} parts · about ${f.m} min</span><span class="go">PRESS START ▸</span></button>`).join('')}</div>
 <div class="panel"><span class="tag px">How it works</span><div class="how"><div>Study the stimulus and jot what you notice.</div><div>Decode the task verb for each part.</div><div>Think it through with step-by-step hints.</div><div>Write, check against the rubric, compare with a model.</div></div></div>
@@ -547,14 +519,15 @@ return h}
 function bossV(){const B=S.bo;if(!B)return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round</span><p>3 lightning questions on what you just learned. Quick recall now helps you remember it next week.</p><div class="row"><button class="btn m" data-a="boss">Start Boss Round ▸</button></div></div>`;
 if(B.k>=B.l.length)return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round</span><p class="big" style="font-size:20px">${B.r==B.l.length?'Boss defeated!':'Boss battle over!'}</p><p style="text-align:center">You got <b>${B.r}/${B.l.length}</b> on the first try.${B.r<B.l.length?' Come back tomorrow and replay. Spacing out practice is how memories stick.':''}</p></div>`;
 const i=B.l[B.k],q=S.f.p[i].qc;return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round · ${B.k+1}/${B.l.length}</span>${mcqV(q,B.s,(i+B.k+1)%3,'bq','')}${B.s===0||B.s>0?`<div class="row"><button class="btn m" data-a="bn">${B.k+1<B.l.length?'Next ▸':'Finish ▸'}</button></div>`:''}</div>`}
+function exportTxt(){const n=S.f.p.length;return `${S.f.t} (${S.f.u}) · GeoArcade FRQ Tutor\nScore: ${score()}/${n}\n\n`+S.f.p.map((p,i)=>{const st=S.p[i];return `Part ${L(i)} (${p.v}): ${p.q}\nMy answer: ${st.a.trim()||'(blank)'}\nResult: ${st.done?(st.ok?'point earned':'not yet'):'not attempted'}\n`}).join('\n')}
 function doneV(){const n=S.f.p.length,sc=score(),ps=S.f.p.map((p,i)=>[p,i,S.p[i]]),ok=ps.filter(x=>x[2].ok),no=ps.filter(x=>x[2].done&&!x[2].ok),un=ps.filter(x=>!x[2].done);
 const rank=sc==n?"GEO LEGEND":sc>=5?"MAP MASTER":sc>=3?"RISING SCOUT":"KEEP PLAYING";
 return `<div class="panel" style="text-align:center"><h2 class="big" tabindex="-1">${un.length?'Progress report':'Stage clear!'}</h2><div class="stars" aria-label="${sc} of ${n}">${'★'.repeat(sc)}<span style="opacity:.25">${'★'.repeat(n-sc)}</span></div><div class="rank">${sc}/${n} points · Rank: ${rank}</div></div>
 <div class="panel"><span class="tag px" style="color:var(--gr)">Nailed it</span>${ok.length?`<ul class="res">${ok.map(([p,i])=>`<li><b style="color:var(--gr)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span></li>`).join('')}</ul>`:'<p class="note">No points yet. Every replay makes it easier!</p>'}</div>
 <div class="panel"><span class="tag px" style="color:var(--rd)">Review these</span>${no.length?`<ul class="res">${no.map(([p,i])=>`<li><b style="color:var(--rd)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br>${chips(p.b)}<button class="link" data-a="go" data-k="${i+1}">Revisit Part ${L(i)}</button></li>`).join('')}</ul>`:'<p>Nothing to review so far. 🏆</p>'}</div>
 ${un.length?`<div class="panel"><span class="tag px" style="color:var(--yl)">Not tried yet</span><ul class="res">${un.map(([p,i])=>`<li><b style="color:var(--yl)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br><button class="link" data-a="go" data-k="${i+1}">Go to Part ${L(i)}</button></li>`).join('')}</ul></div>`:''}
+<div class="panel"><span class="tag px">Turn it in</span><p>Nothing saves on this page. Copy your answers to paste into Canvas or a doc.</p><div class="row"><button class="btn c" data-a="copy">📋 Copy my answers</button><span class="note" id="cpmsg" role="status" aria-live="polite"></span></div><details class="peek" id="cpd"><summary>See the text</summary><div><textarea readonly id="cpt" aria-label="Your answers" style="min-height:200px">${esc(exportTxt())}</textarea></div></details></div>
 ${no.length?`<div class="row"><button class="btn c" data-a="retry">↻ Retry what I missed ▸</button></div>`:''}${bossV()}<div class="row"><button class="btn" data-a="start" data-i="${S.fi}">↻ Replay</button>${FRQ.length>1?`<button class="btn m" data-a="start" data-i="${(S.fi+1)%FRQ.length}">Try “${esc(FRQ[(S.fi+1)%FRQ.length].t)}” ▸</button>`:''}<button class="btn o" data-a="home">Menu</button></div>`}
-/* ===== Events ===== */
 let opener;function openBG(k){opener=document.activeElement;app.setAttribute('aria-hidden','true');document.getElementById('shT').textContent=BG[k].t;document.getElementById('shB').innerHTML=BG[k].s.map(x=>`<li>${esc(x)}</li>`).join('');sh.classList.add('on');sh.querySelector('[data-a=x]').focus()}
 function closeBG(){if(!sh.classList.contains('on'))return;sh.classList.remove('on');app.removeAttribute('aria-hidden');opener&&opener.focus()}
 document.addEventListener('click',e=>{if(e.target==sh)return closeBG();const b=e.target.closest('[data-a]');if(!b||b.disabled)return;const a=b.dataset.a,i=+b.dataset.i,j=+b.dataset.j;
@@ -580,6 +553,7 @@ st.ck=1;st.c=5;st.g=P.r.i.map(r=>r[1].test(st.a));st.box=P.r.m=="any"?st.g.map((
 case 'rev':S.p[i].ck=0;S.p[i].done=0;S.p[i].c=4;render(1);return document.getElementById('ans').focus();
 case 'next':{const w=S.p[i].done;S.p[i].done=1;S.p[i].ok=earned(i);if(!w)S.cb=S.p[i].ok?S.cb+1:0;return go(i+2)}
 case 'cf':S.p[i].cf=+b.dataset.k;return render();
+case 'copy':{const m=document.getElementById('cpmsg'),t=exportTxt();const fail=()=>{document.getElementById('cpd').open=true;const ta=document.getElementById('cpt');ta.focus();ta.select();m.textContent='Select the text below and copy it.'};try{navigator.clipboard.writeText(t).then(()=>{m.textContent='✔ Copied! Now paste it into Canvas.'},fail)}catch(e){fail()}return}
 case 'retry':{const m=S.p.findIndex(x=>x.done&&!x.ok);S.p[m].c=4;S.p[m].ck=0;S.p[m].done=0;return go(m+1)}
 }});
 document.addEventListener('input',e=>{const t=e.target,d=t.dataset;if(d.in=='ans')S.p[+d.i].a=t.value;else if(d.in=='nt')S.nt[+d.j].a=t.value});

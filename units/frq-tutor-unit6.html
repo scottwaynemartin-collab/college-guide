@@ -32,7 +32,6 @@ button{font:inherit;color:inherit;cursor:pointer}
 .link{background:none;border:0;color:var(--dim);text-decoration:underline;padding:8px 4px;font-size:15px}
 .bgc{display:inline-flex;align-items:center;gap:6px;background:var(--pn2);border:2px dashed var(--mg);color:#ffc4e3;padding:7px 11px;margin:4px 6px 4px 0;font-size:14px;font-weight:600}
 .bgc:hover{background:#2a1d55}
-/* header */
 .top{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:6px 0 10px;border-bottom:3px solid var(--ln)}
 .brand{font:10px var(--px);color:var(--mg);text-shadow:0 0 8px rgba(255,63,164,.7);background:none;border:0;padding:6px 0;text-align:left}
 .brand b{color:var(--cy);text-shadow:0 0 8px rgba(34,229,255,.7)}
@@ -75,7 +74,6 @@ button{font:inherit;color:inherit;cursor:pointer}
 .combo{display:block;margin-top:6px;color:var(--yl)}
 .verdict.y{animation:pop .5s steps(5)}@keyframes pop{0%{transform:scale(.6)}60%{transform:scale(1.08)}100%{transform:scale(1)}}
 .plabel{font:10px var(--px);align-items:center;color:var(--dim);display:flex;justify-content:space-between}
-/* home */
 .hero{text-align:center;padding:26px 6px 8px}
 .hero h1{font:clamp(26px,8vw,46px)/1.2 var(--px);color:var(--yl);text-shadow:3px 3px 0 var(--mg),6px 6px 0 #000}
 .hero .sub{font:10px/1.8 var(--px);color:var(--cy);margin-top:14px}
@@ -96,7 +94,6 @@ button{font:inherit;color:inherit;cursor:pointer}
 .tea div{padding:10px;background:#0f0c29;border:2px solid var(--ln);font-size:14px}
 .tea b{display:block;font:20px var(--px);margin-bottom:6px}
 .tT{color:var(--cy)}.tE{color:var(--yl)}.tA{color:var(--mg)}
-/* stimulus */
 .stim{background:#0a0820;border:3px solid var(--cy);padding:10px;box-shadow:0 0 0 3px #000,0 0 18px rgba(34,229,255,.25)}
 .stim h3{font:10px/1.6 var(--px);color:var(--cy);margin-bottom:8px}
 .stim svg{width:100%;height:auto;display:block;max-width:560px;margin:0 auto}
@@ -118,7 +115,6 @@ details.peek summary{cursor:pointer;padding:12px;font:10px var(--px);color:var(-
 details.peek summary:before{content:"▸ "}
 details.peek[open] summary:before{content:"▾ "}
 details.peek>div{padding:0 10px 10px}
-/* part */
 .qbox{background:#0a0820;border:3px solid var(--yl);padding:14px;box-shadow:5px 5px 0 #000}
 .qbox .px{font-size:10px;color:var(--yl);display:block;margin-bottom:8px}
 .qbox p{font-size:19px;font-weight:600;margin:0}
@@ -153,7 +149,6 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 .verdict.y{color:var(--gr);border-color:var(--gr);background:#0b2418}
 .verdict.n{color:var(--rd);border-color:var(--rd);background:#2a0c1a}
 .note{font-size:14px;color:var(--dim)}
-/* done */
 .big{font:clamp(24px,7vw,40px)/1.3 var(--px);color:var(--gr);text-align:center;text-shadow:3px 3px 0 #000,0 0 14px rgba(77,255,145,.6)}
 .stars{text-align:center;font-size:30px;letter-spacing:4px;margin:10px 0}
 .rank{text-align:center;font:11px/1.9 var(--px);color:var(--yl)}
@@ -161,7 +156,6 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 .res li{padding:10px 0;border-top:2px dashed var(--ln)}
 .res li:first-child{border-top:0}
 .res b{font-family:var(--px);font-size:11px;margin-right:6px}
-/* sheet */
 #sh{position:fixed;inset:0;z-index:60;display:none;align-items:center;justify-content:center;background:rgba(5,3,18,.8);padding:16px}
 #sh.on{display:flex}
 #sh .card{background:var(--pn);border:3px solid var(--mg);box-shadow:6px 6px 0 #000,0 0 30px rgba(255,63,164,.35);max-width:560px;width:100%;max-height:85vh;overflow:auto;padding:18px;animation:up .2s steps(4)}
@@ -171,18 +165,18 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 #sh ol{padding-left:22px;margin:0}
 #sh li{margin:8px 0}
 @media (max-width:620px){
- body{font-size:16px}
- #app{padding:10px 10px 50px}
- .carts,.tea{grid-template-columns:1fr}
- .how{grid-template-columns:1fr 1fr}
- .panel{padding:14px 12px}
- .row .btn{flex:1 1 100%}
- .qbox p{font-size:17px}
- .verb{flex-direction:column;gap:8px}
- #sh{align-items:flex-end;padding:0}
- #sh .card{max-height:80vh;border-bottom:0;box-shadow:0 -4px 0 #000}
- .seg{font-size:9px;height:40px}
- .tbl:after{content:"◂ swipe to see all columns ▸";display:block;font-size:12px;color:var(--dim);text-align:center;padding:6px 0 0}
+body{font-size:16px}
+#app{padding:10px 10px 50px}
+.carts,.tea{grid-template-columns:1fr}
+.how{grid-template-columns:1fr 1fr}
+.panel{padding:14px 12px}
+.row .btn{flex:1 1 100%}
+.qbox p{font-size:17px}
+.verb{flex-direction:column;gap:8px}
+#sh{align-items:flex-end;padding:0}
+#sh .card{max-height:80vh;border-bottom:0;box-shadow:0 -4px 0 #000}
+.seg{font-size:9px;height:40px}
+.tbl:after{content:"◂ swipe to see all columns ▸";display:block;font-size:12px;color:var(--dim);text-align:center;padding:6px 0 0}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
@@ -191,7 +185,6 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 <main id="app"></main>
 <div id="sh" role="dialog" aria-modal="true" aria-labelledby="shT"><div class="card"><div class="k">📜 Need the background?</div><h3 id="shT"></h3><ol id="shB"></ol><div class="row"><button class="btn c" data-a="x">Got it ▸</button></div></div></div>
 <script>
-/* ===== Background pop-outs (shared by every FRQ) ===== */
 const BG={
 frq:{t:"How AP FRQs are scored",s:["Each part (A, B, C…) is worth 1 point and is scored on its own. A mistake in Part B can't cost you Part C.","Readers look for the right idea, clearly linked to the question. Fancy writing earns nothing extra.","No thesis, intro, or conclusion needed. Label each part and answer it directly.","Write in complete sentences and do what the task verb asks (Identify, Describe, or Explain).","Never leave a part blank. A wrong answer costs nothing."]},
 tea:{t:"The TEA method",s:["T1- Topic: your reason in general words. Turn the question into your claim.","E2- Evidence: the specific proof, like a place, number, or example, ideally from the map or table.","A3- Analysis: why it matters. Explain HOW or WHY your proof backs up your reason, using “because…” or “which leads to…”.","Label each piece T1-, E2-, A3- so the reader can find every point. Describe answers need T1 and E2 plus a short A3. Explain answers need a strong A3."]},
@@ -200,18 +193,15 @@ readtable:{t:"How to read a data table",s:["Read the title and every column head
 raj:{t:"British imperialism in India",s:["Starting in the 1600s, the British East India Company, a private trading firm, used trade deals and military force to take control of large parts of India.","After the Indian Rebellion of 1857, the British government took direct control in 1858. This period, called the British Raj, lasted until independence in 1947.","Britain ran India to benefit its own economy: India supplied raw materials like cotton, jute, and tea, and was a captive market for British factory goods.","By 1900 the British had built about 40,000 km of railway, much of it designed to move goods to ports and troops around the colony.","When Britain left in 1947, it partitioned the colony into India and Pakistan (East Pakistan later became Bangladesh), creating borders that still shape the region."]},
 scale:{t:"Scale of analysis",s:["Scale is the level at which you study something: global, national, regional, or local.","A pattern that looks clear at one scale can change or disappear at another.","A national average can hide big differences between cities and the countryside, or between regions and groups.","On the AP exam, 'limitation' questions often reward pointing out what a source's scale, time frame, or data leave out."]}
 };
-/* ===== Task verbs ===== */
 const VERBS={
 Identify:{d:"Name it. A word or short phrase is enough, with no explaining needed.",l:["Be specific: “cotton” beats “crops.”","Answer exactly what's asked. Extra writing won't earn more.","One sentence max."]},
 Describe:{d:"Paint the picture. Give the specific characteristics or pattern, with details someone could check.",l:["Use evidence: a place, a number, or a feature from the stimulus.","Say what it IS or what it LOOKS LIKE. You don't need a deep “why.”","About 1–2 sentences. Use TEA: Topic + Evidence, then a quick Analysis."]},
 Explain:{d:"Tell HOW or WHY. Connect a cause to an effect so a reader sees the reasoning, not just a fact.",l:["Use linking words: “because…”, “which leads to…”, “as a result…”.","A fact alone won't score. You need the chain of reasoning.","About 2–3 sentences. Use full TEA."]}
 };
-/* ===== FRQ registry: each FRQ data file calls addBG() and addFRQ() ===== */
 const FRQ=[];
 function addBG(o){Object.assign(BG,o)}
 function addFRQ(f){FRQ.push(f)}
 const UNIT="Unit 6 · Cities and Urban Land Use";
-/* Brookhaven Spreads Out: a Unit 6 practice FRQ (original, invented metro area). Data table. */
 addBG({
 sprawl:{t:"Suburbanization & urban sprawl",s:["Suburbanization is the movement of people and homes from the central city outward to the suburbs that ring it.","In the United States it boomed after World War II: cheap cars, the Interstate Highway System (begun 1956), and FHA and VA government-backed mortgages made a new house far from downtown easy to afford.","Urban sprawl is what that growth looks like on the ground: low-density, car-dependent subdivisions, strip malls, and parking lots spreading over former farmland.","Consequences include long commutes and traffic, air pollution, loss of farmland and habitat, the high cost of stretching roads and sewers outward, and metros sorted by income.","Edge cities (big clusters of offices and malls at highway exits) grew where the sprawl met the beltways."]},
 urbanmodels:{t:"Urban land-use models",s:["Burgess concentric zone model (1920s Chicago): rings around a central business district (CBD): a zone of transition with old housing and factories, then working-class homes, then nicer homes, then a commuter zone.","Hoyt sector model (1939): land uses grow in wedges along railroads and major roads, so a high-rent sector can stretch from downtown to the edge.","Harris and Ullman multiple nuclei model (1945): a city has several centers (airport, university, industrial park, suburban business district), not just one downtown.","Galactic or peripheral model: an old core surrounded by a highway beltway with edge cities and suburbs scattered along it, the classic post-1970 American metro.","Latin American city model: a wealthy spine runs out from the CBD, while squatter settlements and disamenity zones sit on the far edge."]},
@@ -246,7 +236,6 @@ wk:["Urbanization.","Urbanization means a bigger share of people living in citie
 mw:"It names the specific process (suburbanization/sprawl) and ties it to what the table shows: outward, low-density growth at the edge.",
 fr:"The growth of the outer suburbs from ___ to ___ shows the process of ___.",
 qc:["Suburbanization is…",["people and homes moving from the central city outward to its edges","people moving from farms into the central city","a downtown gaining new skyscrapers"],0,"Suburbs ring the city, and suburbanization is growth in that ring."]},
-
 {v:"Describe",
 q:"Using the table, describe the relationship between distance from the center of Brookhaven and the percent of workers who drive alone to work.",
 sk:"Reading a pattern in data",
@@ -262,7 +251,6 @@ wk:["Most people in Brookhaven drive to work alone.","True, but it's one fact ab
 mw:"It states the direction (farther out = more driving alone), quotes all three numbers, and explains the pattern with density and transit.",
 fr:"T1- The farther from the center, the ___ the percent of workers who drive alone. E2- The central city is ___%, the inner suburbs are ___%, and the outer suburbs are ___%. A3- This happens because ___.",
 qc:["Which zone of Brookhaven has the LOWEST drive-alone share?",["The central city (55%)","The inner suburbs (78%)","The outer suburbs (90%)"],0,"Downtown has transit, sidewalks, and nearby jobs, so more people ride, walk, or bike."]},
-
 {v:"Explain",
 q:"Explain ONE cause of the growth of Brookhaven's outer suburbs shown in the table.",
 sk:"Causes of suburbanization",
@@ -278,7 +266,6 @@ wk:["People wanted to live in the suburbs.","That's a wish, not a cause. What ma
 mw:"It names a specific cause (cars and highways), gives dated proof (the 1956 Interstate system), and explains the chain all the way to the table's numbers.",
 fr:"T1- One cause of the outer suburbs' growth is ___. E2- For example, ___. A3- This led to growth at the edge because ___, so ___.",
 qc:["Which of these most directly made it possible for workers to live 25 miles from downtown?",["Cars and interstate highways","Skyscrapers downtown","Rent control laws"],0,"Highways and cars shrank commute times, so homes could spread far from jobs."]},
-
 {v:"Explain",
 q:"Explain how the zoning data in the table could contribute to high housing prices in Brookhaven.",
 sk:"Zoning and housing supply",
@@ -294,7 +281,6 @@ wk:["Rich people live in the outer suburbs, so houses cost more there.","That de
 mw:"It names the constraint (single-family-only zoning limits supply), quotes the table (85%, 71%), and walks through supply, demand, and price.",
 fr:"T1- Single-family-only zoning can raise housing prices because it ___. E2- In Brookhaven, ___% of the outer suburbs' land is zoned single-family only, so ___. A3- With fewer homes and more people, ___, which pushes prices ___.",
 qc:["Single-family-only zoning means…",["only one detached house is allowed per lot; no apartments or townhouses","only families with children may live there","houses must be sold to one buyer at a time"],0,"It's a rule about building types, and it caps how many homes an area can hold."]},
-
 {v:"Explain",
 q:"Explain how the recent growth and high home prices in some of Brookhaven's central-city neighborhoods could be an example of gentrification, including ONE effect on long-time residents.",
 sk:"Gentrification and displacement",
@@ -310,7 +296,6 @@ wk:["The city is growing again because it is popular now.","'Popular' isn't a pr
 mw:"It defines gentrification, anchors it in the note ($610,000 Millside and Canal districts, growth since 2010), and gives a clear effect: displacement by rising rents and taxes.",
 fr:"T1- The recent growth in some central-city neighborhoods could be gentrification, which is when ___. E2- In Brookhaven, ___. A3- One effect on long-time residents is ___, because ___.",
 qc:["Which is the most common NEGATIVE effect of gentrification on long-time residents?",["Displacement, as rents and property taxes rise","Lower home values","Fewer new restaurants"],0,"Rising costs can push out the lower-income residents who were there first."]},
-
 {v:"Describe",
 q:"Describe ONE smart-growth or New Urbanism policy Brookhaven could adopt to reduce sprawl, and how it would work.",
 sk:"Smart growth and New Urbanism",
@@ -326,7 +311,6 @@ wk:["Build more roads so people can get to work faster.","More roads is the oppo
 mw:"It names a recognized policy (TOD), describes exactly what changes (rezoning near stations) with a real example, and connects it to less sprawl and less driving.",
 fr:"T1- One smart-growth policy Brookhaven could use is ___. E2- It works by ___. A3- This reduces sprawl because ___.",
 qc:["An urban growth boundary is…",["a line around a metro area beyond which new development is not allowed","a highway loop around a city","the border between a central city and its first suburb"],0,"It's a legal line that keeps growth inside and protects farmland at the edge."]},
-
 {v:"Explain",
 q:"Explain ONE limitation of using data for Brookhaven's three large zones, or the metro total, to understand its housing or transportation problems.",
 sk:"Data limits: scale of analysis",
@@ -343,8 +327,6 @@ mw:"It names the limitation (scale and averages), proves it with the $610,000 vs
 fr:"T1- One limitation is that each zone is ___, so the numbers ___. E2- For example, ___. A3- This is a problem because ___, so a planner would need ___.",
 qc:["A median home price for an entire central city is an example of…",["aggregate data that can hide differences between neighborhoods","neighborhood-scale data","a measure of transportation"],0,"One number for 445,000 people blurs the expensive and cheap neighborhoods together."]}
 ]});
-
-/* ===== State & helpers ===== */
 const app=document.getElementById('app'),sh=document.getElementById('sh');
 let S={f:null,fi:0,k:-1,max:0,p:[],nt:[]};
 const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -356,7 +338,6 @@ const chips=a=>a.map(k=>`<button class="bgc" data-a="bg" data-k="${k}">📜 ${es
 function start(i){S={f:FRQ[i],fi:i,k:0,max:0,p:FRQ[i].p.map(()=>({st:1,h:{},a:'',ck:0,box:[],done:0,ok:0,c:0,q:null,cf:null})),nt:FRQ[i].nt.map(()=>({o:0,a:''})),bo:null,cb:0};render(1)}
 function go(k){S.k=k;S.max=Math.max(S.max,k);render(1)}
 function render(top){const y=scrollY;app.innerHTML=S.k<0?home():hdr()+(S.k==0?stimV():S.k>S.f.p.length?doneV():partV(S.k-1));if(top){scrollTo(0,0);const f=app.querySelector('h2[tabindex]')||app.querySelector('h1[tabindex]');f&&f.focus({preventScroll:true})}else scrollTo(0,y)}
-/* ===== Views ===== */
 function home(){return `<div class="hero"><div class="sub">GeoArcade presents</div><h1>FRQ<br>Tutor</h1><div class="sub">AP Human Geography · free-response training</div>${UNIT?`<div class="sub" style="color:var(--yl)">${UNIT}</div>`:''}<div class="blink">▶ SELECT A CARTRIDGE ◀</div></div>
 <div class="carts">${FRQ.map((f,i)=>[f,i]).sort((a,b)=>(b[0].cls||0)-(a[0].cls||0)).map(([f,i])=>`<button class="cart${f.cls?' cls':''}" data-a="start" data-i="${i}"><span class="k">${f.k}</span><h3>${f.t}</h3><span class="d">${f.d}</span><span class="d">${f.u} · ${f.p.length} parts · about ${f.m} min</span><span class="go">PRESS START ▸</span></button>`).join('')}</div>
 <div class="panel"><span class="tag px">How it works</span><div class="how"><div>Study the stimulus and jot what you notice.</div><div>Decode the task verb for each part.</div><div>Think it through with step-by-step hints.</div><div>Write, check against the rubric, compare with a model.</div></div></div>
@@ -412,14 +393,15 @@ return h}
 function bossV(){const B=S.bo;if(!B)return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round</span><p>3 lightning questions on what you just learned. Quick recall now helps you remember it next week.</p><div class="row"><button class="btn m" data-a="boss">Start Boss Round ▸</button></div></div>`;
 if(B.k>=B.l.length)return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round</span><p class="big" style="font-size:20px">${B.r==B.l.length?'Boss defeated!':'Boss battle over!'}</p><p style="text-align:center">You got <b>${B.r}/${B.l.length}</b> on the first try.${B.r<B.l.length?' Come back tomorrow and replay. Spacing out practice is how memories stick.':''}</p></div>`;
 const i=B.l[B.k],q=S.f.p[i].qc;return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round · ${B.k+1}/${B.l.length}</span>${mcqV(q,B.s,(i+B.k+1)%3,'bq','')}${B.s===0||B.s>0?`<div class="row"><button class="btn m" data-a="bn">${B.k+1<B.l.length?'Next ▸':'Finish ▸'}</button></div>`:''}</div>`}
+function exportTxt(){const n=S.f.p.length;return `${S.f.t} (${S.f.u}) · GeoArcade FRQ Tutor\nScore: ${score()}/${n}\n\n`+S.f.p.map((p,i)=>{const st=S.p[i];return `Part ${L(i)} (${p.v}): ${p.q}\nMy answer: ${st.a.trim()||'(blank)'}\nResult: ${st.done?(st.ok?'point earned':'not yet'):'not attempted'}\n`}).join('\n')}
 function doneV(){const n=S.f.p.length,sc=score(),ps=S.f.p.map((p,i)=>[p,i,S.p[i]]),ok=ps.filter(x=>x[2].ok),no=ps.filter(x=>x[2].done&&!x[2].ok),un=ps.filter(x=>!x[2].done);
 const rank=sc==n?"GEO LEGEND":sc>=5?"MAP MASTER":sc>=3?"RISING SCOUT":"KEEP PLAYING";
 return `<div class="panel" style="text-align:center"><h2 class="big" tabindex="-1">${un.length?'Progress report':'Stage clear!'}</h2><div class="stars" aria-label="${sc} of ${n}">${'★'.repeat(sc)}<span style="opacity:.25">${'★'.repeat(n-sc)}</span></div><div class="rank">${sc}/${n} points · Rank: ${rank}</div></div>
 <div class="panel"><span class="tag px" style="color:var(--gr)">Nailed it</span>${ok.length?`<ul class="res">${ok.map(([p,i])=>`<li><b style="color:var(--gr)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span></li>`).join('')}</ul>`:'<p class="note">No points yet. Every replay makes it easier!</p>'}</div>
 <div class="panel"><span class="tag px" style="color:var(--rd)">Review these</span>${no.length?`<ul class="res">${no.map(([p,i])=>`<li><b style="color:var(--rd)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br>${chips(p.b)}<button class="link" data-a="go" data-k="${i+1}">Revisit Part ${L(i)}</button></li>`).join('')}</ul>`:'<p>Nothing to review so far. 🏆</p>'}</div>
 ${un.length?`<div class="panel"><span class="tag px" style="color:var(--yl)">Not tried yet</span><ul class="res">${un.map(([p,i])=>`<li><b style="color:var(--yl)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br><button class="link" data-a="go" data-k="${i+1}">Go to Part ${L(i)}</button></li>`).join('')}</ul></div>`:''}
+<div class="panel"><span class="tag px">Turn it in</span><p>Nothing saves on this page. Copy your answers to paste into Canvas or a doc.</p><div class="row"><button class="btn c" data-a="copy">📋 Copy my answers</button><span class="note" id="cpmsg" role="status" aria-live="polite"></span></div><details class="peek" id="cpd"><summary>See the text</summary><div><textarea readonly id="cpt" aria-label="Your answers" style="min-height:200px">${esc(exportTxt())}</textarea></div></details></div>
 ${no.length?`<div class="row"><button class="btn c" data-a="retry">↻ Retry what I missed ▸</button></div>`:''}${bossV()}<div class="row"><button class="btn" data-a="start" data-i="${S.fi}">↻ Replay</button>${FRQ.length>1?`<button class="btn m" data-a="start" data-i="${(S.fi+1)%FRQ.length}">Try “${esc(FRQ[(S.fi+1)%FRQ.length].t)}” ▸</button>`:''}<button class="btn o" data-a="home">Menu</button></div>`}
-/* ===== Events ===== */
 let opener;function openBG(k){opener=document.activeElement;app.setAttribute('aria-hidden','true');document.getElementById('shT').textContent=BG[k].t;document.getElementById('shB').innerHTML=BG[k].s.map(x=>`<li>${esc(x)}</li>`).join('');sh.classList.add('on');sh.querySelector('[data-a=x]').focus()}
 function closeBG(){if(!sh.classList.contains('on'))return;sh.classList.remove('on');app.removeAttribute('aria-hidden');opener&&opener.focus()}
 document.addEventListener('click',e=>{if(e.target==sh)return closeBG();const b=e.target.closest('[data-a]');if(!b||b.disabled)return;const a=b.dataset.a,i=+b.dataset.i,j=+b.dataset.j;
@@ -445,6 +427,7 @@ st.ck=1;st.c=5;st.g=P.r.i.map(r=>r[1].test(st.a));st.box=P.r.m=="any"?st.g.map((
 case 'rev':S.p[i].ck=0;S.p[i].done=0;S.p[i].c=4;render(1);return document.getElementById('ans').focus();
 case 'next':{const w=S.p[i].done;S.p[i].done=1;S.p[i].ok=earned(i);if(!w)S.cb=S.p[i].ok?S.cb+1:0;return go(i+2)}
 case 'cf':S.p[i].cf=+b.dataset.k;return render();
+case 'copy':{const m=document.getElementById('cpmsg'),t=exportTxt();const fail=()=>{document.getElementById('cpd').open=true;const ta=document.getElementById('cpt');ta.focus();ta.select();m.textContent='Select the text below and copy it.'};try{navigator.clipboard.writeText(t).then(()=>{m.textContent='✔ Copied! Now paste it into Canvas.'},fail)}catch(e){fail()}return}
 case 'retry':{const m=S.p.findIndex(x=>x.done&&!x.ok);S.p[m].c=4;S.p[m].ck=0;S.p[m].done=0;return go(m+1)}
 }});
 document.addEventListener('input',e=>{const t=e.target,d=t.dataset;if(d.in=='ans')S.p[+d.i].a=t.value;else if(d.in=='nt')S.nt[+d.j].a=t.value});

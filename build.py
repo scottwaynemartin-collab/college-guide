@@ -28,6 +28,17 @@ BUILDS = {
 }
 
 
+def slim(text):
+    """Drop blank lines, indentation, and comment-only lines (saves a little space per embed)."""
+    keep = []
+    for line in text.split("\n"):
+        t = line.strip()
+        if not t or t.startswith("//") or (t.startswith("/*") and t.endswith("*/")):
+            continue
+        keep.append(t)
+    return "\n".join(keep)
+
+
 def build(out, unit, frqs):
     missing = [n for n in frqs if not (ROOT / f"src/frqs/{n}.js").exists()]
     if missing:
@@ -39,6 +50,7 @@ def build(out, unit, frqs):
     html = (engine.replace("/*@@TITLE@@*/", title)
                   .replace("/*@@UNIT@@*/", unit)
                   .replace("/*@@DATA@@*/", data))
+    html = slim(html)
     path = ROOT / out
     path.parent.mkdir(exist_ok=True)
     path.write_text(html)
