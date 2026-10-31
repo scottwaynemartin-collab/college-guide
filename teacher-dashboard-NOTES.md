@@ -138,12 +138,18 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
   - Optional score-summary columns: "School mean", "School % 3+", "Texas mean", "Texas % 3+" (a lone "School mean" still counts as ours).
 - **Compare years:** "% AP on track by month" for the course, using the same rule as of each month's end, by arrival date.
 - **Retest messages** (sidebar under Action lists; a button on every Overview / class page):
-  - **Who:** students whose most recent **Gradebook (TAC) unit test** (curved) is **≤ 70** and who have no retest for that unit (any platform), and no ticked retest. They are grouped by class and unit, all checked.
-  - **Optional group:** 71–79 (up to the retest cap), unchecked and greyed. It uses the second message ("is below 80").
+  - **Who:** students whose most recent **Gradebook (TAC) unit test** (curved) is **below 80** and who have no retest for that unit (any platform), and no ticked retest. Grouped by class and unit, all checked.
+  - The threshold is in Settings ("Retest message if TAC unit test is below"). Setting it lower than the retest cap (80) brings back an optional second tier (cutoff–79, unchecked) with its own message.
   - **Copy for Canvas:** the names, one per line, plus the message. With more than one student it copies one personalized message per student, separated by "----".
-  - **Mark sent:** logs "Retest message · Unit N · Canvas" in the contact log and hides the student for that unit until the next import.
+  - **Mark sent:** logs "Retest message · Unit N · Canvas" in the contact log (once per student per unit per day) and hides the student for that unit until the next import.
   - **Copy prompt for Claude:** names + IDs, the unit and the message, ready for Claude in Chrome to send.
-  - Both messages and the cutoff (70) are editable in Settings.
+  - The message says "below 80"; it is editable in Settings.
+- **Power Hour drafts** (sidebar under Action lists): three lists, one tab each:
+  - **Below 80 on latest test:** latest TAC unit test *or retest* (whichever is later) under 80.
+  - **Below 70 in class** and **Below 80 in class:** current class grade.
+  - One line per student per class, grouped by class period: name, period, ID, the triggering score, last Power Hour draft (profile "Last Power Hour", else the last draft from this dashboard), no-shows. Students with a profile "Power Hour assigned now" value are left out (listed in a footnote).
+  - **Copy roster** (name · ID · period, one per line), **Copy prompt for Claude** (sheet ID, the draft day, the dropdown value, and the list with reasons), **Mark drafted** (logs "PH draft — Unit 3 test 72" or "PH draft — class grade 68" once per student, with the draft day as the note, and hides them until the next import).
+  - A student on several lines (two classes) is logged once per action; a second press the same day doesn't log again.
 - **T-TESS tab** (sidebar, under Insights; replaces the Settings-page version). Written for an administrator who has never seen the dashboard:
   - A date-stamped intro paragraph: what the dashboard is, what feeds it, that it refreshes weekly.
   - One table row per dimension (1.2, 1.3, 1.4/2.4, 2.1/3.3, 2.3, 2.5, 3.1, 4.2, 4.4): Dimension · What this dashboard shows (live numbers) · Where to see it (a link that jumps to the page or card, keeping the current course/period filter). A plain-English sentence sits under each row.

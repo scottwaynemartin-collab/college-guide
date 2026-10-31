@@ -540,6 +540,7 @@ tr.hi .bbar i{background:var(--tq)} tr.hi td{background:var(--tq-soft)}
 .rmopt .rmrow:last-child{border-bottom:0}
 .rmoh{font:800 11px var(--sans);text-transform:uppercase;letter-spacing:.05em;color:var(--ink3);margin:6px 0 2px}
 .tag.sent{background:var(--tq-soft);color:var(--tq-ink)}
+.pdg{margin-bottom:10px}.pdmeta{flex-basis:100%;margin-left:27px}@media (min-width:900px){.pdmeta{flex-basis:auto;margin-left:0}}
 .rmsent{font-size:10px;font-weight:700;color:var(--tq-ink)}
 .gh3{font:900 13px var(--display);text-transform:uppercase;margin:12px 0 6px}
 .ggrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}
@@ -743,7 +744,7 @@ const RETEST_MSG = `Subject: Please schedule your Unit [N] reassessment
 
 Hi [First name],
 
-Your Unit [N] test score is 70 or below, so I want you to retest as soon as possible. Most importantly, I want to help you maximize your learning, your grade, and your AP test potential.
+Your Unit [N] test score is below 80, so I want you to retest as soon as possible. Most importantly, I want to help you maximize your learning, your grade, and your AP test potential.
 
 I may draft you for Power Hour, but you can also just come in whenever works best for you. If I draft you and that day doesn't work, come in at your earliest availability.
 
@@ -788,10 +789,10 @@ const CONFIG = {
   mcWeight: {'APHG':0.5, 'AP World':0.4, 'AP Euro':0.4, default:0.5},   // MC share when writing is turned on for the unit projection
   apWriting: false,           // (kept for old saved settings; the unit projection never uses writing)
   apCountPC: false,           // count AP Classroom Progress Check MCQs in AP status (off = unit MC tests/retests only)
-  // Retest messages: latest Gradebook (TAC, curved) unit test at or below this = must retest; up to the retest cap = optional
-  retestMsgCut: 70,
+  // Retest messages: latest Gradebook (TAC, curved) unit test below this = must retest (set it lower than the retest cap to get an optional tier)
+  retestMsgCut: 80,
   retestMsg: RETEST_MSG,
-  retestMsg2: RETEST_MSG.replace('is 70 or below', 'is below 80'),
+  retestMsg2: RETEST_MSG,
   // Last year's AP results shown next to this year's projection (edit in Settings). Format: "Label: mean 4.05, 92.5% 3+"
   benchmarks: {'APHG':'Martin 2026: mean 4.05, 92.5% 3+', 'AP World':'Martin 2026: mean 3.51, 70% 3+', 'AP Euro':''},
   // Mock exam mode: official College Board exam weights per course (editable in Settings)
@@ -816,7 +817,7 @@ const AP_EXAM = {paid:'Paid', unpaid:'Unpaid', opted:'Opted out'};
 
 /* ---------- storage (browser only) ---------- */
 const KEY = 'classroomDashboard.v1';
-const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, emailLog:{}, conferences:{}, ttess:{}, groups:[], retestMsgs:{}, cb:{scores:[], ipr:[]}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
+const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, emailLog:{}, conferences:{}, ttess:{}, groups:[], retestMsgs:{}, phDrafted:{}, cb:{scores:[], ipr:[]}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
 let DB = load();
 function load(){ try{ return Object.assign(blank(), JSON.parse(localStorage.getItem(KEY)||'{}')); }catch(e){ return blank(); } }
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(DB)); }catch(e){ toast('Could not save — browser storage is unavailable or full'); } }
@@ -824,6 +825,7 @@ const S = () => Object.assign({}, CONFIG, DB.settings);
 function curYear(){ if (S().currentYear) return S().currentYear; const d = new Date(), y = d.getFullYear() - (d.getMonth() < 7 ? 1 : 0); return `${y}-${String((y+1)%100).padStart(2,'0')}`; }
 Object.values(DB.assignments).forEach(a => { if (!a.year) a.year = curYear(); });
 if (!DB.cb) DB.cb = {scores:[], ipr:[]};
+if (!DB.settings.rm80){ ['retestMsgCut','retestMsg','retestMsg2'].forEach(k => delete DB.settings[k]); DB.settings.rm80 = true; }   // one-time: retest messages moved from ≤70 to below 80
 const yearOf = a => a.year || curYear();
 
 const UI = { view: location.hash.slice(1) || 'overview', course:'all', period:'all', staar:'all', status:null, q:'', sort:'need',
@@ -1228,7 +1230,7 @@ const svg = k => `<svg viewBox="0 0 20 20" aria-hidden="true">${ICONS[k]}</svg>`
 /* ---------- shell ---------- */
 function renderSide(m){
   const ph = powerHour(m).reduce((t,g)=>t+g.rows.length,0), rt = retestRows(m).filter(r=>!r.done).length, mb = m.studs.reduce((t,s)=>t+s.missing.length,0);
-  const apLow = m.studs.reduce((t,s)=>t+s.cs.filter(c=>c.proj && c.proj.score<=2).length,0), rmN = retestMsgRows(m).filter(r=>r.tier==='must' && !r.hidden).length;
+  const apLow = m.studs.reduce((t,s)=>t+s.cs.filter(c=>c.proj && c.proj.score<=2).length,0), rmN = retestMsgRows(m).filter(r=>r.tier==='must' && !r.hidden).length, pdN = new Set(phDraftRows(m,'test').filter(r=>!r.hidden && !r.drafted).map(r=>r.s.key)).size;
   const nav = (id, label, icon, ct, hot) => `<button class="nav" data-go="${id}" ${UI.view===id?'aria-current="page"':''}>${svg(icon)}${label}${ct?`<span class="ct${hot?' hot':''}">${ct}</span>`:''}</button>`;
   $('#side').innerHTML = `<div class="brand"><span class="mark">PC</span><div><b>${esc(S().title)}</b><small>${esc(S().school)}</small></div></div>
     ${nav('overview','Overview','overview', m.counts.help||'', true)}
@@ -1236,6 +1238,7 @@ function renderSide(m){
     ${nav('retests','Retests','retests', rt||'')}
     ${nav('retestmsg','Retest messages','mail', rmN||'', rmN>0)}
     ${nav('power','Power Hour','power', ph||'', ph>0)}
+    ${nav('phdraft','Power Hour drafts','power', pdN||'', pdN>0)}
     ${nav('missing','Missing work','missing', mb||'')}
     <div class="navlbl">Insights</div>
     ${nav('compare','Compare years','compare')}
@@ -1296,7 +1299,7 @@ function viewOverview(m){
   const syncs = S().sources.map(p=>({p, i:lastSync(p.id)})).filter(x=>x.i);
   const list = rosterList(m);
   const grab = conversationStarters(m);
-  const rt = retestRows(m).filter(r=>!r.done), rmN = retestMsgRows(m).filter(r=>r.tier==='must' && !r.hidden).length, ev = outcomes(m), phOut = outcomeSum(ev,'Power Hour'), ctOut = outcomeSum(ev,'Contact'), rtOut = outcomeSum(ev,'Retest'), radar = reteachRadar(m), prio = retestPriority(m), ph = powerHour(m), mb = missingBoard(m), profiles = hasProfiles(), unpaid = unpaidList(m);
+  const rt = retestRows(m).filter(r=>!r.done), rmN = retestMsgRows(m).filter(r=>r.tier==='must' && !r.hidden).length, pdN = new Set(phDraftRows(m,'test').filter(r=>!r.hidden && !r.drafted).map(r=>r.s.key)).size, ev = outcomes(m), phOut = outcomeSum(ev,'Power Hour'), ctOut = outcomeSum(ev,'Contact'), rtOut = outcomeSum(ev,'Retest'), radar = reteachRadar(m), prio = retestPriority(m), ph = powerHour(m), mb = missingBoard(m), profiles = hasProfiles(), unpaid = unpaidList(m);
   const cards = OVERVIEW_CARDS.filter(c=>!DB.hidden.includes(c.id)).map(c => {
     let html; try { html = c.render(m); } catch(e){ console.error(c.id, e); html = `<div class="empty">This card hit an error: ${esc(e.message)}</div>`; }
     return `<section class="card ${c.size}"><div class="ch"><h2>${esc(c.title)}</h2>${c.sub?`<span class="sub">${esc(c.sub)}</span>`:''}</div><div class="cb">${html}</div></section>`;
@@ -1330,7 +1333,8 @@ function viewOverview(m){
         <div class="orows">${[['After Power Hour', phOut], ['After a contact', ctOut], ['After a retest', rtOut]].map(([l, o]) => `<div class="orow"><span>${l}</span><b class="${o?(o.d>=0?'up':'down'):''}">${o?`avg MC ${signPts(o.d)}`:'—'}</b><small>${o?plural(o.n,'case'):'not enough data'}</small></div>`).join('')}</div></div></section>
       <section class="card"><div class="ch"><h2>Action lists</h2></div><div class="cb"><div class="alinks">
         <button class="alink" data-go="retests"><span class="n">${rt.length}</span><span><b>Retests</b><small>${plural(new Set(rt.map(r=>r.s.key)).size,'student')} under ${S().retestCap}</small></span><span class="go">→</span></button>
-        <button class="alink" data-go="retestmsg"><span class="n">${rmN}</span><span><b>Retest messages</b><small>TAC unit test ${S().retestMsgCut} or below, not retested</small></span><span class="go">→</span></button>
+        <button class="alink" data-go="retestmsg"><span class="n">${rmN}</span><span><b>Retest messages</b><small>TAC unit test below ${S().retestMsgCut}, not retested</small></span><span class="go">→</span></button>
+        <button class="alink" data-go="phdraft"><span class="n">${pdN}</span><span><b>Power Hour drafts</b><small>Latest TAC unit test below ${S().retestCap} · lists for Claude</small></span><span class="go">→</span></button>
         <button class="alink" data-go="power"><span class="n">${ph.reduce((t,g)=>t+g.rows.length,0)}</span><span><b>Power Hour</b><small>Under ${S().atRisk} in ${plural(ph.length,'period')}</small></span><span class="go">→</span></button>
         ${(()=>{ const pr = m.studs.flatMap(s=>s.cs.filter(c=>c.proj)), lo = pr.filter(c=>c.proj.score<=2).length; return pr.length ? `<button class="alink" data-go="ap"><span class="n">${lo}</span><span><b>AP projection</b><small>Projected 1–2 · ${Math.round(pr.filter(c=>c.proj.score>=3).length/pr.length*100)}% on track for 3+</small></span><span class="go">→</span></button>` : ''; })()}
         <button class="alink" data-go="missing"><span class="n">${mb.cols.reduce((t,c)=>t+c.n,0)}</span><span><b>Missing work</b><small>${mb.most[0]?`Most missed: ${esc(short(bare(mb.most[0].a.name),26))}`:'Nothing missing'}</small></span><span class="go">→</span></button>
@@ -1730,7 +1734,7 @@ function retestMsgRows(m){
     const u = unitOf(last.a.name);
     if (c.pts.some(x => isRetest(x.a) && unitOf(x.a.name)===u && !x.m) || c.pts.some(x => unitOf(x.a.name)===u && DB.retestDone[s.key+'|'+x.a.id])) return;
     const id = `${s.key}|${c.cls}|${u}`, sent = (DB.retestMsgs||{})[id];
-    out.push({s, c, a:last.a, p:last.p, u, id, sent, hidden: !!sent && sent > lastImp, tier: Math.round(last.p) <= cut ? 'must' : 'opt'});
+    out.push({s, c, a:last.a, p:last.p, u, id, sent, hidden: !!sent && sent > lastImp, tier: Math.round(last.p) < cut ? 'must' : 'opt'});
   }));
   return out;
 }
@@ -1743,18 +1747,53 @@ function viewRetestMsgs(m){
   const row = (r, on) => `<div class="rmrow${on?'':' opt'}"><label><input type="checkbox" data-rm="${esc(r.id)}" ${on?'checked':''} aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">TAC ${p0(r.p)}${r.s.ids[0]?` · ID ${esc(r.s.ids[0])}`:''}</span>${r.sent?`<span class="tag sent">sent ${dateS(r.sent)}</span>`:''}<button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
   const body = gs.map((g,i) => { const a = g.rows.filter(r=>r.tier==='must'&&!r.hidden), o = g.rows.filter(r=>r.tier==='opt'&&!r.hidden), h = g.rows.filter(r=>r.hidden); if (!a.length && !o.length) return h.length ? `<p class="fine w12" style="margin:0">${esc(g.cls)} · Unit ${g.u}: sent since the last data refresh (hidden): ${h.map(r=>esc(r.s.name)).join(', ')}</p>` : '';
     return `<section class="card w6 rmg"><div class="ch"><h2>${esc(g.cls||'No class')} · Unit ${g.u}</h2><span class="count help">${a.length}</span>${o.length?`<span class="sub">+${o.length} optional</span>`:''}</div><div class="cb">
-      ${a.length ? a.map(r=>row(r,true)).join('') : `<div class="minor">No one at ${cut} or below.</div>`}
-      ${o.length ? `<div class="rmopt"><div class="rmoh">Eligible to retest (optional) · ${cut+1}–${cap-1}</div>${o.map(r=>row(r,false)).join('')}</div>` : ''}
+      ${a.length ? a.map(r=>row(r,true)).join('') : `<div class="minor">No one below ${cut}.</div>`}
+      ${o.length ? `<div class="rmopt"><div class="rmoh">Eligible to retest (optional) · ${cut}–${cap-1}</div>${o.map(r=>row(r,false)).join('')}</div>` : ''}
       ${h.length ? `<p class="fine">Sent since the last data refresh (hidden): ${h.map(r=>esc(r.s.name)).join(', ')}</p>` : ''}
       <div class="actions" style="margin-top:10px"><button class="btn sm pri" data-act="rm-copy" data-g="${i}">Copy for Canvas</button><button class="btn sm" data-act="rm-sent" data-g="${i}">Mark sent</button><button class="btn sm" data-act="rm-prompt" data-g="${i}">Copy prompt for Claude</button></div></div></section>`; }).join('');
   return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())}</div><h1>Retest messages</h1>
-      <p>Students whose most recent <b>Gradebook (TAC) unit test</b>, the curved grade, is <b>${cut} or below</b> and who haven't retested that unit. Grouped by class and unit. Students at ${cut+1}–${cap-1} are listed as optional (unchecked). Message text is in Settings.</p></div>
+      <p>Students whose most recent <b>Gradebook (TAC) unit test</b>, the curved grade, is <b>below ${cut}</b> and who haven't retested that unit. Grouped by class and unit.${cut < cap ? ` Students at ${cut}–${cap-1} are listed as optional (unchecked).` : ''} Message text is in Settings.</p></div>
     <div class="actions"><button class="btn" data-go="retests">Retests →</button><button class="btn" data-go="options" data-anchor="rmSettings">Edit messages</button></div></div>
-    <div class="strip"><div class="stat accent"><b>${must.length}</b><span>${cut} or below</span></div><div class="stat"><b>${opt.length}</b><span>Optional ${cut+1}–${cap-1}</span></div><div class="stat"><b>${gs.length}</b><span>Class · unit groups</span></div><div class="stat"><b>${hid.length}</b><span>Sent, hidden until next refresh</span></div></div>
-    <div class="grid">${body || `<div class="card w12"><div class="empty">✓ No Gradebook unit test at ${cut} or below without a retest in ${esc(scopeLabel())}.</div></div>`}</div>
+    <div class="strip"><div class="stat accent"><b>${must.length}</b><span>Below ${cut}</span></div>${cut < cap ? `<div class="stat"><b>${opt.length}</b><span>Optional ${cut}–${cap-1}</span></div>` : ''}<div class="stat"><b>${gs.length}</b><span>Class · unit groups</span></div><div class="stat"><b>${hid.length}</b><span>Sent, hidden until next refresh</span></div></div>
+    <div class="grid">${body || `<div class="card w12"><div class="empty">✓ No Gradebook unit test below ${cut} without a retest in ${esc(scopeLabel())}.</div></div>`}</div>
     <p class="fine">"Mark sent" logs "Retest message · Unit N · Canvas" in each student's contact log and hides them for that unit until the next data import. A retest score for the unit (any platform) or a ticked retest removes them for good.</p>`;
 }
 function rmSelected(t){ const g = UI.rmGroups[+t.dataset.g], box = t.closest('.rmg'), ids = new Set([...box.querySelectorAll('[data-rm]:checked')].map(x=>x.dataset.rm)); return g.rows.filter(r => ids.has(r.id)); }
+
+/* ---------- Power Hour drafts: lists Claude can enter in the Tutorials sheet ---------- */
+const PD_LISTS = [{id:'test', label:'Below 80 on latest test', sub:'latest TAC unit test or retest'}, {id:'c70', label:'Below 70 in class', sub:'current class grade'}, {id:'c80', label:'Below 80 in class', sub:'current class grade'}];
+function phDraftRows(m, kind){
+  const cap = +S().retestCap, cut = +S().atRisk, lastImp = DB.imports.length ? Math.max(...DB.imports.map(i=>i.at||0)) : 0, out = [];
+  m.studs.forEach(s => s.cs.forEach(c => { if (!c.cls) return;
+    let p = null, why = '', score = null;
+    if (kind==='test'){ const gb = c.pts.filter(x => x.a.source==='Gradebook' && unitOf(x.a.name) && typeOf(x.a.name)==='test' && !isMock(x.a.name) && !x.m); const last = gb[gb.length-1]; if (!last || Math.round(last.p) >= cap) return; score = last.p; why = `Unit ${unitOf(last.a.name)} ${isRetest(last.a)?'retest':'test'} ${Math.round(last.p)}`; }
+    else { const lim = kind==='c70' ? cut : cap; if (c.avg==null || Math.round(c.avg) >= lim) return; score = c.avg; why = `class grade ${Math.round(c.avg)}`; }
+    const pr = s.profile || {}, drafted = !!String(pr.phNow||'').trim(), stamp = (DB.phDrafted||{})[s.key], hidden = !!stamp && stamp > lastImp;
+    const lastDash = (DB.drafts[s.key]||[]).slice(-1)[0], lastLog = (DB.contacts[s.key]||[]).filter(x => /^PH draft/.test(x.type)).slice(-1)[0];
+    const lastDraft = pr.phLast || (lastDash ? lastDash.day : lastLog ? dateS(lastLog.at) : '');
+    out.push({s, c, cls:c.cls, score, why, drafted, now: pr.phNow || '', hidden, lastDraft, noShows: pr.phNoShows ?? '', id: s.key+'|'+c.cls});
+  }));
+  return out.sort((a,b) => classSort(a.cls,b.cls) || a.score - b.score);
+}
+function viewPhDrafts(m){
+  const kind = PD_LISTS.some(l=>l.id===UI.phList) ? UI.phList : 'test', L = PD_LISTS.find(l=>l.id===kind);
+  const all = phDraftRows(m, kind).filter(r => matchQ(r.s)), rows = all.filter(r => !r.drafted && !r.hidden), excl = all.filter(r => r.drafted), hid = all.filter(r => !r.drafted && r.hidden);
+  UI.pdRows = rows;
+  const groups = {}; rows.forEach(r => (groups[r.cls] ||= []).push(r));
+  const nStud = new Set(rows.map(r=>r.s.key)).size, day = UI.draftDay || defaultDraftDay();
+  const row = r => `<div class="rmrow"><label><input type="checkbox" data-pd="${esc(r.id)}" checked aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">${esc(r.cls)}${r.s.ids[0]?` · ID ${esc(r.s.ids[0])}`:''}</span><span class="tag ${r.score < S().atRisk ? 'below' : 'missing'}">${esc(r.why)}</span><span class="minor pdmeta">last draft ${esc(r.lastDraft || '—')} · no-shows ${esc(String(r.noShows===''?'—':r.noShows))}</span><button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
+  return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())} · next: ${esc(day)}</div><h1>Power Hour drafts</h1>
+      <p>Build a draft list, then copy it for Claude to enter in the Tutorials sheet (or draft it yourself on the Power Hour page). Students already assigned for the upcoming Power Hour (profile "Power Hour assigned now") are left out. One line per student per class.</p></div>
+    <div class="actions"><div class="tabs" role="group" aria-label="List">${PD_LISTS.map(l=>`<button aria-pressed="${l.id===kind}" data-pdlist="${l.id}">${l.label}</button>`).join('')}</div><button class="btn" data-go="power">Power Hour page →</button></div></div>
+    <div class="strip"><div class="stat accent"><b>${nStud}</b><span>Students · ${esc(L.label.toLowerCase())}</span></div><div class="stat"><b>${rows.length}</b><span>Lines (student × class)</span></div><div class="stat"><b>${new Set(excl.map(r=>r.s.key)).size}</b><span>Already drafted (left out)</span></div><div class="stat"><b>${new Set(hid.map(r=>r.s.key)).size}</b><span>Marked drafted, hidden until next refresh</span></div></div>
+    <div class="card"><div class="ch"><h2>${esc(L.label)}</h2><span class="sub">${esc(L.sub)} · grouped by class period</span><span class="sp"></span>
+        <button class="btn sm pri" data-act="pd-roster">Copy roster</button><button class="btn sm" data-act="pd-prompt">Copy prompt for Claude</button><button class="btn sm" data-act="pd-drafted">Mark drafted</button></div>
+      <div class="cb">${rows.length ? Object.entries(groups).sort((a,b)=>classSort(a[0],b[0])).map(([cls, list]) => `<div class="pdg"><div class="rmoh">${esc(cls)} · ${list.length}</div>${list.map(row).join('')}</div>`).join('') : `<div class="empty">✓ No one for this list in ${esc(scopeLabel())}.</div>`}
+      ${excl.length ? `<p class="fine">Already assigned for the upcoming Power Hour (left out): ${[...new Set(excl.map(r=>`${r.s.name} (${r.now})`))].map(esc).join(', ')}</p>` : ''}
+      ${hid.length ? `<p class="fine">Marked drafted since the last data refresh (hidden): ${[...new Set(hid.map(r=>r.s.name))].map(esc).join(', ')}</p>` : ''}</div></div>
+    <p class="fine">"Mark drafted" logs "PH draft — reason" once per student in the contact log (a student on several lines is logged once) and hides them until the next data import.</p>`;
+}
+const pdSelected = () => { const ids = new Set([...document.querySelectorAll('[data-pd]:checked')].map(x=>x.dataset.pd)); return (UI.pdRows||[]).filter(r => ids.has(r.id)); };
 /* ---------- conference prep ---------- */
 function talkingPoints(s, p){
   const out = [], cut = +S().apOnTrack;
@@ -1913,10 +1952,10 @@ function viewSettings(){
         <div class="row3">${f('setRisk','Class-grade cutoff (%)',s.atRisk,'number','min="0" max="100"')}${f('setCap','Retest cap (%)',s.retestCap,'number','min="0" max="100"')}${f('setMiss','Missing = conversation starter',s.missingForHelp,'number','min="1" max="20"')}</div>
         <div class="row3">${f('setDrop','“Dropping” at (points)',s.dropPts,'number','min="1" max="50"')}${f('setGap','“Platform gap” at (points)',s.gapPts,'number','min="1" max="60"')}</div>
         ${f('setPattern','Assignments that count as tests (pattern)',s.retestPattern)}
-        <div id="rmSettings" class="note" style="margin:6px 0 10px"><b>Retest messages.</b> [N] = unit number, [First name] = the student's first name. The second message goes to the optional group (between the cutoff and the retest cap).</div>
-        <div class="row3">${f('setRmCut','Retest message cutoff (TAC %)',s.retestMsgCut,'number','min="0" max="100"')}</div>
-        <label class="field">Message · ${esc(s.retestMsgCut)} or below<textarea class="in" id="setRetestMsg" rows="10">${esc(s.retestMsg)}</textarea></label>
-        <label class="field">Message · optional group (${+s.retestMsgCut+1}–${s.retestCap-1})<textarea class="in" id="setRetestMsg2" rows="6">${esc(s.retestMsg2)}</textarea></label>
+        <div id="rmSettings" class="note" style="margin:6px 0 10px"><b>Retest messages.</b> [N] = unit number, [First name] = the student's first name. Students whose latest TAC unit test is below the number get the message. Set it lower than the retest cap (${esc(s.retestCap)}) to get an optional second tier with its own message.</div>
+        <div class="row3">${f('setRmCut','Retest message if TAC unit test is below (%)',s.retestMsgCut,'number','min="0" max="100"')}</div>
+        <label class="field">Message · below ${esc(s.retestMsgCut)}<textarea class="in" id="setRetestMsg" rows="10">${esc(s.retestMsg)}</textarea></label>
+        ${+s.retestMsgCut < +s.retestCap ? `<label class="field">Message · optional group (${esc(s.retestMsgCut)}–${s.retestCap-1})<textarea class="in" id="setRetestMsg2" rows="6">${esc(s.retestMsg2)}</textarea></label>` : ''}
         <div class="note" style="margin:6px 0 10px"><b>Benchmarks</b> (AP projection page and T-TESS 4.2). Format: <code>Label: mean 4.05, 92.5% 3+</code></div>
         <div class="row3">${['APHG','AP World','AP Euro'].map(c=>f('setB_'+c.replace(/\s+/g,'_'),`Last year · ${c}`,(s.benchmarks||{})[c]||'','text','placeholder="Martin 2026: mean 3.8, 85% 3+"')).join('')}</div>
         ${f('setScale','Grade scale (minimum:letter, comma separated)',s.scale.map(([m,l])=>m+':'+l).join(', '))}
@@ -2196,7 +2235,7 @@ function render(){
   if (UI.status==='unpaid' && !hasProfiles()) UI.status = null;
   const m = buildModel();
   renderSide(m); renderTop();
-  const v = {overview:viewOverview, retests:viewRetests, power:viewPower, missing:viewMissing, compare:viewCompare, ap:viewAP, retestmsg:viewRetestMsgs, assignments:viewAssignments, import:viewImport, options:viewSettings, ttess:viewTtess}[UI.view] || viewOverview;
+  const v = {overview:viewOverview, retests:viewRetests, power:viewPower, missing:viewMissing, compare:viewCompare, ap:viewAP, retestmsg:viewRetestMsgs, phdraft:viewPhDrafts, assignments:viewAssignments, import:viewImport, options:viewSettings, ttess:viewTtess}[UI.view] || viewOverview;
   $('#view').innerHTML = v(m);
   if (UI.view==='import') wireDrop();
   return m;
@@ -2553,7 +2592,7 @@ function loadSample(){
 /* ---------- events ---------- */
 function go(v){ UI.view = v; try { if (location.hash.slice(1)!==v) location.hash = v; } catch(_){} $('#side').classList.remove('open'); closeLayer(); render(); window.scrollTo(0,0); }
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-apf],[data-quart],[data-wsort],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-confnav],[data-confheld],[data-close]');
+  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-pdlist],[data-apf],[data-quart],[data-wsort],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-confnav],[data-confheld],[data-close]');
   if (!t) { if (!e.target.closest('aside,.menu-btn')) $('#side').classList.remove('open'); return; }
   if (t.dataset.close !== undefined){ if (e.target === t || t.tagName==='BUTTON'){ closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !t.closest('.conf')) return openStudent(k); nextFile(); } return; }
   if (t.dataset.go){ go(t.dataset.go); if (t.dataset.anchor) document.getElementById(t.dataset.anchor)?.scrollIntoView({block:'start'}); return; }
@@ -2567,6 +2606,7 @@ document.addEventListener('click', e => {
   if (t.dataset.wsort){ UI.wsort = t.dataset.wsort; return render(); }
   if (t.dataset.status){ UI.showAll = false; UI.status = UI.status===t.dataset.status ? null : t.dataset.status; return render(); }
   if (t.dataset.cmptype){ UI.cmpType = t.dataset.cmptype; return render(); }
+  if (t.dataset.pdlist){ UI.phList = t.dataset.pdlist; return render(); }
   if (t.dataset.retestby){ UI.retestBy = t.dataset.retestby; return render(); }
   if (t.dataset.asort){ const k=t.dataset.asort; UI.asort = UI.asort[0]===k ? [k,-UI.asort[1]] : [k, ['name','source'].includes(k)?1:-1]; return render(); }
   if (t.dataset.rename){ const a=DB.assignments[t.dataset.rename]; return askText('Rename assignment', a.name, v => { a.name=v; save(); render(); }); }
@@ -2601,7 +2641,17 @@ document.addEventListener('click', e => {
     if (act==='rm-copy') return copyText(`TO (Canvas Inbox, one name per line):\n${names}\n\n==== ${one?'MESSAGE':'MESSAGES (one per student)'} ====\n\n` + (one ? msgs[0] : sel.map((r,i)=>`To: ${r.s.name}\n\n${msgs[i]}`).join('\n\n----\n\n')), `${plural(sel.length,'name')} + message${one?'':'s'}`);
     if (act==='rm-prompt'){ const tiers = [...new Set(sel.map(r=>r.tier))];
       return copyText(`Please send Canvas Inbox messages for me in my ${g.cls} course (Unit ${g.u} reassessment). Send each student their own individual message, not a group message. Put the Subject line in Canvas's Subject box and the rest in the message body. Replace [First name] with the student's first name and change nothing else.\n\nStudents (name · student ID):\n${sel.map((r,i)=>`${i+1}. ${r.s.name}${r.s.ids[0]?` · ${r.s.ids[0]}`:''}${tiers.length>1?(r.tier==='must'?' · message A':' · message B'):''}`).join('\n')}\n\n` + tiers.map(tr => `${tiers.length>1?(tr==='must'?'MESSAGE A':'MESSAGE B')+'\n':'MESSAGE\n'}${retestMsgFill(sel.find(r=>r.tier===tr), true)}`).join('\n\n') + `\n\nWhen you're done, list who it was sent to so I can press "Mark sent" in my dashboard.`, 'Prompt for Claude'); }
-    const now = Date.now(); sel.forEach(r => { (DB.contacts[r.s.key] ||= []).push({type:`Retest message · Unit ${r.u} · Canvas`, note:'', at:now}); (DB.retestMsgs ||= {})[r.id] = now; }); save(); render(); return toast(`${plural(sel.length,'retest message')} logged as sent`); }
+    const now = Date.now(), day = new Date().toDateString(), seen = new Set(); let n = 0;
+    sel.forEach(r => { const type = `Retest message · Unit ${r.u} · Canvas`, k = r.s.key+'|'+type; (DB.retestMsgs ||= {})[r.id] = now; if (seen.has(k) || (DB.contacts[r.s.key]||[]).some(c => c.type===type && new Date(c.at).toDateString()===day)) return; seen.add(k); (DB.contacts[r.s.key] ||= []).push({type, note:'', at:now}); n++; });
+    save(); render(); return toast(`${plural(n,'retest message')} logged as sent`); }
+  if (act==='pd-roster' || act==='pd-prompt' || act==='pd-drafted'){ const sel = pdSelected(); if (!sel.length) return toast('Tick at least one student');
+    const day = UI.draftDay || defaultDraftDay(), byStu = {}; sel.forEach(r => (byStu[r.s.key] ||= {s:r.s, list:[]}).list.push(r));
+    const lines = Object.values(byStu).map(({s, list}) => ({s, cls: list.map(r=>r.cls).join(' / '), why: [...new Set(list.map(r=>r.why))].join('; ')}));
+    if (act==='pd-roster') return copyText(lines.map(l => `${l.s.name}\t${l.s.ids[0]||''}\t${l.cls}`).join('\n'), `${plural(lines.length,'student')} (name · ID · period)`);
+    if (act==='pd-prompt') return copyText(`Please draft these students for Power Hour in the PCHS Tutorials sheet (Google Sheet ${S().tutorialsSheet}) for ${day}. In each student's row (find them by student ID on the alphabet tab for their last name), put "${draftValue()}" in the ${day} column. Only fill a cell that is empty; if someone is already drafted that day, skip them and tell me.\n\nStudents (name · student ID · class period · reason):\n${lines.map((l,i)=>`${i+1}. ${l.s.name} · ${l.s.ids[0]||'(no ID)'} · ${l.cls} · ${l.why}`).join('\n')}\n\nWhen you're done, list who was drafted and who was skipped so I can press "Mark drafted" in my dashboard.`, 'Prompt for Claude');
+    const now = Date.now(), today0 = new Date().toDateString(); let n = 0;
+    lines.forEach(l => { (DB.phDrafted ||= {})[l.s.key] = now; if ((DB.contacts[l.s.key]||[]).some(c => /^PH draft/.test(c.type) && new Date(c.at).toDateString()===today0)) return; (DB.contacts[l.s.key] ||= []).push({type:`PH draft — ${l.why}`, note:day, at:now}); n++; });
+    save(); render(); return toast(`${plural(n,'student')} logged as drafted for ${day}`); }
   if (act==='toggle-done'){ UI.showDone = !UI.showDone; render(); }
   if (act==='flags-only'){ UI.flagsOnly = !UI.flagsOnly; render(); }
   if (act==='show-all'){ UI.showAll = true; render(); }
@@ -2636,7 +2686,7 @@ document.addEventListener('click', e => {
       retestCap:num('#setCap',CONFIG.retestCap), missingForHelp:num('#setMiss',CONFIG.missingForHelp), dropPts:num('#setDrop',CONFIG.dropPts), gapPts:num('#setGap',CONFIG.gapPts), retestPattern:pattern});
     if (scale.length) DB.settings.scale = scale;
     DB.settings.apCountPC = $('#setApCountPC').checked; DB.settings.apWriting = false;
-    DB.settings.retestMsgCut = num('#setRmCut', CONFIG.retestMsgCut); DB.settings.retestMsg = $('#setRetestMsg').value.trim() || CONFIG.retestMsg; DB.settings.retestMsg2 = $('#setRetestMsg2').value.trim() || CONFIG.retestMsg2;
+    DB.settings.retestMsgCut = num('#setRmCut', CONFIG.retestMsgCut); DB.settings.retestMsg = $('#setRetestMsg').value.trim() || CONFIG.retestMsg; DB.settings.retestMsg2 = ($('#setRetestMsg2')?.value || '').trim() || DB.settings.retestMsg;
     const bm = Object.assign({}, CONFIG.benchmarks, DB.settings.benchmarks || {}); ['APHG','AP World','AP Euro'].forEach(c => { const el = $('#setB_'+c.replace(/\s+/g,'_')); if (el) bm[c] = el.value.trim(); }); DB.settings.benchmarks = bm;
     const ew = Object.assign({}, CONFIG.examWeights, DB.settings.examWeights || {}); ['APHG','AP World','AP Euro'].forEach(c => { const v = ($('#setW_'+c.replace(/\s+/g,'_'))?.value || '').trim(); if (v) ew[c] = v; }); DB.settings.examWeights = ew;
     save(); render(); toast('Settings saved');
