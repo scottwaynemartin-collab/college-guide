@@ -1270,7 +1270,7 @@ function renderTop(){
       ${showScope ? `<div class="seg" role="group" aria-label="Course">
         <button aria-pressed="${UI.course==='all'}" data-course="all">All<em>${Object.values(DB.students).filter(s=>s.classes.length || !s.past).length}</em></button>
         ${crs.map(c=>`<button aria-pressed="${UI.course===c}" data-course="${esc(c)}">${esc(c)}<em>${nOf(c)}</em></button>`).join('')}
-      </div>` : `<b style="font:900 16px var(--display);text-transform:uppercase">${UI.view==='import'?'Import data':'Settings'}</b>`}
+      </div>` : `<b style="font:900 16px var(--display);text-transform:uppercase">${({import:'Import data', options:'Settings', ttess:'T-TESS', overview:'Overview'})[UI.view] || esc(S().title)}</b>`}
       <span class="sp"></span>
       <label class="search"><span aria-hidden="true">⌕</span><span class="sr">Search students</span><input id="q" type="search" placeholder="Search students…" value="${esc(UI.q)}" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
     </div>
