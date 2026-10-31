@@ -158,6 +158,20 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
   - Print (one page) and Copy text. In the artifact, Print opens a printable text version.
   - 4.2 shows last year's results per course from the AP score summary, else the Settings benchmark line, next to this year's projected % 3+.
 
+## Added: At a glance, Help, backup, district participation
+- **At a glance** (sidebar, under Insights): one printable page for an administrator, always every class regardless of the course chips, no student names.
+  - Tiles: % on pace for a 3+ (headline AP projection ≥ 3 ÷ students with a projection), % AP exam paid, students drafted to Power Hour (profile drafts, dashboard drafts or PH-draft contacts), total drafts and attended.
+  - Table 1: on pace for a 3+ per course and per class period, with last year's result (score summary, else the Settings benchmark) and "AP on track now".
+  - Table 2: AP exam participation per course and class: paid ÷ enrolled, unpaid shown; students come from the Student Profile "AP Exam" column.
+  - **School-wide social studies participation**: lines entered in Settings → At a glance inputs ("Label: paid of total" or "Label: 71%").
+  - **AP exam participation by campus**: one small chart per course from the **District participation** import (`Course,Year,Campus,Participation %`, pasted on the Import page). Latest year per course; sorted; the campus matching Settings → School is highlighted; a dashed line marks the district average. A Settings text list is the fallback if nothing is imported.
+  - Copy text, Print (one page).
+- **Help & rules** (sidebar footer): where the numbers come from, the AP status rule, one line per page, import naming rules, phone/other-computer steps, privacy. "Copy instructions for the import chat" copies the note for the chat that loads data.
+- **Backup:** compressed (gzip, prefix `CDZ1:`, about 4–5× smaller) so it fits in a note or email; Restore accepts both compressed and plain JSON. Settings shows the last backup date; the Overview shows a reminder chip when real data hasn't been backed up for 14 days.
+- **Data check:** new item "AP Classroom items not counted in AP status" lists AP Classroom assignments that lack "Unit N" or "test/MC" in the name (progress checks and writing excluded by design).
+- **Weekly summary:** adds retest messages to send, the Power Hour draft list count, and "After Power Hour: avg MC ±X".
+- **Top bar** shows the page name on the welcome screen, Help, T-TESS and At a glance instead of the course chips.
+
 ## Artifact limits (by design)
 The claude.ai artifact frame blocks several browser features, so the page works around them:
 - **Pop-ups (`confirm`, `prompt`, `alert`):** replaced with dialogs built into the page.

@@ -540,6 +540,14 @@ tr.hi .bbar i{background:var(--tq)} tr.hi td{background:var(--tq-soft)}
 .rmopt .rmrow:last-child{border-bottom:0}
 .rmoh{font:800 11px var(--sans);text-transform:uppercase;letter-spacing:.05em;color:var(--ink3);margin:6px 0 2px}
 .tag.sent{background:var(--tq-soft);color:var(--tq-ink)}
+.admh{font:900 13px var(--display);text-transform:uppercase;letter-spacing:.04em;margin:16px 0 6px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}.admh small{font:600 11px var(--sans);text-transform:none;letter-spacing:0;color:var(--ink3)}
+.adm .t td{padding:5px 8px}.adm .minor{font-size:11px}
+#printArea .adm{font-size:10.5px}#printArea .admh{margin:8px 0 3px;font-size:11px}#printArea .adm table{font-size:10px}#printArea .adm td,#printArea .adm th{padding:2px 5px}#printArea .adm .strip{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:6px 0}#printArea .adm .stat{border:1px solid #000;padding:5px 7px}#printArea .adm .stat b{font:900 18px var(--display);display:block}#printArea .adm .stat span{font-size:9px;text-transform:uppercase;letter-spacing:.05em}#printArea .adm .bbar{display:block;height:7px;border:1px solid #000;border-radius:4px;overflow:hidden}#printArea .adm .bbar i{display:block;height:100%;background:#000}#printArea .adm tr.hi td{background:#eee;-webkit-print-color-adjust:exact;print-color-adjust:exact}#printArea .adm .tthead{display:flex;justify-content:space-between;border-bottom:3px solid #000;padding-bottom:4px}#printArea .adm .tthead h2{background:none;color:#000;padding:0;margin:0;font-size:18px}#printArea .adm .ttfoot{font-style:italic;color:#333;margin-top:6px;font-size:9px}
+.dgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.dchart{border-radius:10px;box-shadow:0 0 0 1px var(--line);padding:10px 12px}.dch{display:flex;justify-content:space-between;gap:8px;align-items:baseline;margin-bottom:6px}
+.drow2{display:grid;grid-template-columns:minmax(90px,.9fr) 1fr 44px;gap:8px;align-items:center;padding:3px 0;font-size:12px}.drow2 .dl{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.drow2 .bbar{position:relative}.drow2 .bbar em{position:absolute;top:-3px;bottom:-3px;border-left:2px dashed var(--ink);margin-left:-1px}
+.drow2.me{font-weight:800}.drow2.me .dl{color:var(--tq-ink)}.drow2.me .bbar i{background:var(--tq)}.drow2.me .bbar{box-shadow:inset 0 0 0 1.5px var(--tq)}
+#printArea .dgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}#printArea .dchart{border:1px solid #000;padding:5px 7px}#printArea .drow2{font-size:9.5px;padding:1px 0;grid-template-columns:minmax(70px,.9fr) 1fr 32px}#printArea .drow2 .bbar em{border-left:1.5px dashed #000}#printArea .drow2.me .bbar i{background:#000}#printArea .drow2:not(.me) .bbar i{background:#888}
+.helpb p{margin:0 0 8px;font-size:13px;line-height:1.5}.helpb p:last-child{margin-bottom:0}.helpl{margin:0 0 8px;padding-left:18px;font-size:13px;line-height:1.5}.helpl li{margin:3px 0}.helpb code{background:var(--card2);padding:1px 5px;border-radius:4px;font-size:12px}
 .pdg{margin-bottom:10px}.pdmeta{flex-basis:100%;margin-left:27px}@media (min-width:900px){.pdmeta{flex-basis:auto;margin-left:0}}
 .rmsent{font-size:10px;font-weight:700;color:var(--tq-ink)}
 .gh3{font:900 13px var(--display);text-transform:uppercase;margin:12px 0 6px}
@@ -795,6 +803,11 @@ const CONFIG = {
   retestMsg2: RETEST_MSG,
   // Last year's AP results shown next to this year's projection (edit in Settings). Format: "Label: mean 4.05, 92.5% 3+"
   benchmarks: {'APHG':'Martin 2026: mean 4.05, 92.5% 3+', 'AP World':'Martin 2026: mean 3.51, 70% 3+', 'AP Euro':''},
+  // Admin snapshot: numbers that come from the AP coordinator, one per line. "Label: paid of total" or "Label: 94%"
+  adminDept: '',       // e.g. "Social studies (all AP): 410 of 455"  /  "APHG (all teachers): 180 of 196"
+  adminDistrict: '',   // last year's AP participation by school, e.g. "Panther Creek: 71%"  /  "Lone Star: 58%"
+  adminDeptLabel: 'Social studies AP exam participation (school-wide)',
+  adminDistrictLabel: "Last year's AP participation by campus",
   // Mock exam mode: official College Board exam weights per course (editable in Settings)
   examWeights: {'APHG':'MC 50, FRQ 50', 'AP World':'MC 40, SAQ 20, DBQ 25, LEQ 15', 'AP Euro':'MC 40, SAQ 20, DBQ 25, LEQ 15'},
   mockPattern: '\\bmock\\b|practice exam|full[- ]?length',
@@ -817,14 +830,14 @@ const AP_EXAM = {paid:'Paid', unpaid:'Unpaid', opted:'Opted out'};
 
 /* ---------- storage (browser only) ---------- */
 const KEY = 'classroomDashboard.v1';
-const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, emailLog:{}, conferences:{}, ttess:{}, groups:[], retestMsgs:{}, phDrafted:{}, cb:{scores:[], ipr:[]}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
+const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, emailLog:{}, conferences:{}, ttess:{}, groups:[], retestMsgs:{}, phDrafted:{}, cb:{scores:[], ipr:[], district:[]}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
 let DB = load();
 function load(){ try{ return Object.assign(blank(), JSON.parse(localStorage.getItem(KEY)||'{}')); }catch(e){ return blank(); } }
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(DB)); }catch(e){ toast('Could not save — browser storage is unavailable or full'); } }
 const S = () => Object.assign({}, CONFIG, DB.settings);
 function curYear(){ if (S().currentYear) return S().currentYear; const d = new Date(), y = d.getFullYear() - (d.getMonth() < 7 ? 1 : 0); return `${y}-${String((y+1)%100).padStart(2,'0')}`; }
 Object.values(DB.assignments).forEach(a => { if (!a.year) a.year = curYear(); });
-if (!DB.cb) DB.cb = {scores:[], ipr:[]};
+if (!DB.cb) DB.cb = {scores:[], ipr:[]}; if (!DB.cb.district) DB.cb.district = [];
 if (!DB.settings.rm80){ ['retestMsgCut','retestMsg','retestMsg2'].forEach(k => delete DB.settings[k]); DB.settings.rm80 = true; }   // one-time: retest messages moved from ≤70 to below 80
 const yearOf = a => a.year || curYear();
 
@@ -1101,7 +1114,8 @@ function parentEmail(key){
 function weeklySummary(m){
   const rt = retestRows(m).filter(r=>!r.done), ph = powerHour(m), mb = missingBoard(m), L = [`Weekly summary — ${scopeLabel()} — ${today()}`, ``];
   L.push(`${m.studs.length} students · ${m.counts.ok} AP on track · ${m.counts.watch} AP watch · ${m.counts.help} AP needs help · ${m.counts.none} no AP MC yet (AP Classroom MC only)`);
-  L.push(`Retests open: ${rt.length} · Power Hour: ${ph.reduce((t,g)=>t+g.rows.length,0)} · Missing assignments: ${mb.cols.reduce((t,c)=>t+c.n,0)}`, ``);
+  const rmN = retestMsgRows(m).filter(r=>r.tier==='must' && !r.hidden).length, pdN = new Set(phDraftRows(m,'test').filter(r=>!r.hidden && !r.drafted).map(r=>r.s.key)).size, phO = outcomeSum(outcomes(m), 'Power Hour');
+  L.push(`Retests open: ${rt.length} · Retest messages to send: ${rmN} · Power Hour (under ${S().atRisk}): ${ph.reduce((t,g)=>t+g.rows.length,0)} · Power Hour draft list (latest TAC test under ${S().retestCap}): ${pdN} · Missing assignments: ${mb.cols.reduce((t,c)=>t+c.n,0)}${phO?` · After Power Hour: avg MC ${signPts(phO.d)} (${phO.n} cases)`:''}`, ``);
   periodRows(m).forEach(r => L.push(`${r.cls}: AP on track ${r.ok} · watch ${r.watch} · needs help ${r.help} · class avg ${p0(r.avg)} · ${r.missing} missing`));
   const cs = conversationStarters(m); if (cs.length) L.push('', `Conversation starters (${cs.length}): ${cs.slice(0,10).map(x=>x.name).join(', ')}${cs.length>10?'…':''}`);
   const pr = m.studs.flatMap(s=>s.cs.filter(c=>c.proj)); if (pr.length) L.push(``, `AP projection: ${Math.round(pr.filter(c=>c.proj.score>=3).length/pr.length*100)}% projected 3+ · ${pr.filter(c=>c.proj.score<=2).length} projected 1–2`);
@@ -1223,6 +1237,8 @@ const ICONS = {
   ap:'<path d="M10 2.8l2.1 4.4 4.8.6-3.5 3.3.9 4.8L10 13.6l-4.3 2.3.9-4.8-3.5-3.3 4.8-.6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>',
   mail:'<rect x="3" y="5" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 6l6.5 5 6.5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>',
   ttess:'<path d="M4 4h12v12H4z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 9l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
+  help:'<circle cx="10" cy="10" r="7.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7.8 8a2.2 2.2 0 1 1 3.1 2c-.6.3-.9.7-.9 1.3M10 14.2h.01" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
+  admin:'<rect x="3" y="4" width="14" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M6 12.5V9m4 3.5V7m4 5.5v-2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
   theme:'<path d="M15.5 12.5A6.5 6.5 0 0 1 7.5 4.5a6.5 6.5 0 1 0 8 8z" fill="none" stroke="currentColor" stroke-width="1.8"/>',
 };
 const svg = k => `<svg viewBox="0 0 20 20" aria-hidden="true">${ICONS[k]}</svg>`;
@@ -1244,11 +1260,13 @@ function renderSide(m){
     ${nav('compare','Compare years','compare')}
     ${nav('ap','AP projection','ap', apLow||'', apLow>0)}
     ${nav('ttess','T-TESS','ttess')}
+    ${nav('admin','At a glance','admin')}
     <div class="navlbl">Data</div>
     ${nav('assignments','Assignments','assignments', visibleAssignments().length||'')}
     ${nav('import','Import data','import')}
     <div class="side-foot">
       ${nav('options','Settings','settings')}
+      ${nav('help','Help & rules','help')}
       <button class="nav" data-act="theme">${svg('theme')}${document.documentElement.dataset.theme==='dark'?'Light mode':'Dark mode'}</button>
       <div class="lock">🔒 Private. Data stays in this browser.</div>
     </div>`;
@@ -1257,7 +1275,7 @@ function renderTop(){
   const crs = courses(), cls = allClasses();
   const nOf = c => Object.values(DB.students).filter(s=>s.classes.some(x=>splitClass(x).course===c)).length;
   const periods = UI.course==='all' ? cls : cls.filter(c=>splitClass(c).course===UI.course);
-  const showScope = !['import','options'].includes(UI.view) && cls.length;
+  const showScope = !['import','options','help','admin'].includes(UI.view) && cls.length;
   const staarChips = hasProfiles() ? `<span class="lbl">8th STAAR</span>
       <button class="chip" aria-pressed="${UI.staar==='all'}" data-staar="all">All</button>
       ${STAAR.map(x=>`<button class="chip" aria-pressed="${UI.staar===x.id}" data-staar="${x.id}">${esc(x.short)}</button>`).join('')}
@@ -1273,7 +1291,7 @@ function renderTop(){
       ${showScope ? `<div class="seg" role="group" aria-label="Course">
         <button aria-pressed="${UI.course==='all'}" data-course="all">All<em>${Object.values(DB.students).filter(s=>s.classes.length || !s.past).length}</em></button>
         ${crs.map(c=>`<button aria-pressed="${UI.course===c}" data-course="${esc(c)}">${esc(c)}<em>${nOf(c)}</em></button>`).join('')}
-      </div>` : `<b style="font:900 16px var(--display);text-transform:uppercase">${({import:'Import data', options:'Settings', ttess:'T-TESS', overview:'Overview'})[UI.view] || esc(S().title)}</b>`}
+      </div>` : `<b style="font:900 16px var(--display);text-transform:uppercase">${({import:'Import data', options:'Settings', ttess:'T-TESS', overview:'Overview', help:'Help & rules', admin:'At a glance'})[UI.view] || esc(S().title)}</b>`}
       <span class="sp"></span>
       <label class="search"><span aria-hidden="true">⌕</span><span class="sr">Search students</span><input id="q" type="search" placeholder="Search students…" value="${esc(UI.q)}" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
     </div>
@@ -1310,7 +1328,7 @@ function viewOverview(m){
       <div class="eyebrow"><i></i>${today()}</div>
       <h1>${UI.course==='all'&&UI.period==='all'&&UI.staar==='all' ? `${hi}${S().teacherName?', '+esc(S().teacherName):''}` : esc(scopeLabel())}</h1>
       <p>${m.studs.length} students · AP status from AP Classroom unit MC tests (raw)${m.counts.help?` · <b>${m.counts.help}</b> AP needs help`:''}${m.counts.none?` · <b>${m.counts.none}</b> no AP MC yet`:''}${rt.length?` · <b>${rt.length}</b> retests open`:''}${phOut?` · After Power Hour: avg MC <b>${signPts(phOut.d)}</b>`:''}</p>
-      <div class="syncs">${syncs.map(({p,i})=>{ const stale=(Date.now()-i.at)>S().staleDays*864e5; return `<span class="sync${stale?' stale':''}" data-tip="${esc(p.id)}: last import ${new Date(i.at).toLocaleString()}"><i style="background:${p.color}"></i>${esc(p.id)} · ${ago(i.at)}</span>`; }).join('')}</div>
+      <div class="syncs">${!DB.sample && m.studs.length && (!DB.lastBackup || Date.now()-DB.lastBackup > 14*864e5) ? `<button class="sync stale" data-act="backup" data-tip="Data lives only in this browser. Back up every couple of weeks, and to move it to your phone.">⚠ Backup ${DB.lastBackup ? ago(DB.lastBackup) : 'never'} · back up now</button>` : ''}${syncs.map(({p,i})=>{ const stale=(Date.now()-i.at)>S().staleDays*864e5; return `<span class="sync${stale?' stale':''}" data-tip="${esc(p.id)}: last import ${new Date(i.at).toLocaleString()}"><i style="background:${p.color}"></i>${esc(p.id)} · ${ago(i.at)}</span>`; }).join('')}</div>
     </div>
     <div class="actions"><button class="btn" data-go="retestmsg">Retest messages${rmN?` (${rmN})`:''}</button><button class="btn" data-act="copy-summary">Copy weekly summary</button><button class="btn" data-act="export">Export CSV</button><button class="btn pri" data-go="import">＋ Update data</button></div></div>
     <div class="tiles${profiles?' four':''}">${tile('ok','t-ok')}${tile('watch','t-watch')}${tile('help','t-help')}${profiles?tile('unpaid','t-ap'):''}</div>
@@ -1614,7 +1632,11 @@ function viewImport(){
         <details style="margin-top:10px"><summary class="minor" style="cursor:pointer;font-weight:700">Columns it understands</summary><div class="prompt" style="margin-top:6px">${esc('Student, Student ID, Class, 8th STAAR %, 8th STAAR Level, AP Exam, Q1 Grade, Q2 Grade (to date), TIA BOY 26-27 %, TIA BOY 26-27 test, Prior AP score (APHG 2026), Prior TIA BOY 25-26 %, Prior TIA EOY 25-26 %, Prior TIA test, Grade level, Q1 Unweighted GPA (all classes), Q1 Weighted GPA (all classes, est.), Q1 classes counted, Est. rank band (from Q1 weighted GPA), Est. quartile, Rank cutoffs used, AP scores (all, from Aware), PSAT history (total(EBRW/Math)), Best PSAT, SAT history, Best SAT, Q2-to-date Unweighted GPA (all classes), Q2-to-date Weighted GPA (all classes, est.), Q2 classes counted, Absences YTD (full-day), Unexcused/unresolved absences, Tardies YTD, Zeros (all classes), Classes below 70 now, Lowest class now, Power Hour drafts, Power Hour no-shows, Power Hour attended, Last Power Hour draft, Power Hour assigned now, Watch flags')}</div>
         <p class="minor" style="margin:6px 0 0">Any other column (e.g. Counselor, TIA EOY) is kept and shown on the student's conference page. A student in two classes has one row per class; re-importing updates, never duplicates. Blank cells keep the earlier value.</p></details>
       </div></section>
-      <section class="card w12"><div class="ch"><h2>College Board reports</h2><span class="sub">AP score reports and the Instructional Planning Report · paste into the box above · used in Compare and T-TESS 4.2</span></div><div class="cb">
+      <section class="card w12" id="cbCardImport"><div class="ch"><h2>College Board reports</h2><span class="sub">AP score reports, district participation and the Instructional Planning Report · paste into the box above · used in Compare and T-TESS 4.2</span></div><div class="cb">
+        <div class="row2" style="margin-bottom:10px"><div><div class="minor" style="font-weight:800;margin-bottom:4px">DISTRICT PARTICIPATION (one row per campus per course; shown on At a glance)</div>
+          <div class="prompt">Course,Year,Campus,Participation %
+APHG,2026,Panther Creek,71
+APHG,2026,Another High,58</div></div><div class="minor" style="align-self:end">Use the same campus name as in Settings → School (currently "${esc(S().school)}") so your bar is highlighted. Re-pasting a campus for the same course and year replaces it.</div></div>
         <div class="row2"><div><div class="minor" style="font-weight:800;margin-bottom:4px">AP SCORE SUMMARY (one row per course per exam year)</div>
           <div class="prompt">Course,Year,Score 5,Score 4,Score 3,Score 2,Score 1,Mean,Global mean,Global % 3+
 APHG,2026,12,20,25,18,9,3.1,2.6,54</div></div>
@@ -1647,6 +1669,7 @@ function dataCheck(){
   const cur = Object.values(DB.assignments).filter(a => yearOf(a)===curYear() && !a.hidden);
   add('Course prefix not recognized', 'Prefix doesn’t match any of your classes, so these scores aren’t counted for anyone. Fix the prefix or the class name.', cur.filter(a => { const p = String(a.name).split(/\s+·\s+/); return p.length > 1 && !assignCourse(a.name, crs); }).map(a => a.name));
   add('Tests with no unit in the name', 'Left out of Compare, the Unit Tracker and per-unit AP projection.', cur.filter(a => typeOf(a.name) && !unitOf(a.name)).map(a => a.name));
+  add('AP Classroom items not counted in AP status', 'AP status uses unit MC tests and retests only. These need "Unit N" plus "test", "retest" or "MC" in the name (progress checks and writing are context by design). Rename on the Assignments page.', cur.filter(a => a.source==='AP Classroom' && !isApMC(a) && !isPC(a) && typeOf(a.name)!=='writing' && !NOT_GRADED_WORK.test(bare(a.name))).map(a => `${a.name} — ${!unitOf(a.name) ? 'no unit number' : 'no "test" / "MC" in the name'}`));
   return out;
 }
 function dataCheckCard(){
@@ -1794,6 +1817,113 @@ function viewPhDrafts(m){
     <p class="fine">"Mark drafted" logs "PH draft — reason" once per student in the contact log (a student on several lines is logged once) and hides them until the next data import.</p>`;
 }
 const pdSelected = () => { const ids = new Set([...document.querySelectorAll('[data-pd]:checked')].map(x=>x.dataset.pd)); return (UI.pdRows||[]).filter(r => ids.has(r.id)); };
+
+/* ---------- Admin snapshot: one page, no names ---------- */
+function parsePartLines(txt){ return String(txt||'').split('\n').map(l => l.trim()).filter(Boolean).map(l => { const m = l.match(/^(.*?)[:\-–]\s*(.+)$/); if (!m) return null; const label = m[1].trim(), v = m[2];
+  const of = v.match(/([\d.]+)\s*(?:of|\/)\s*([\d.]+)/i); if (of) return {label, paid:+of[1], total:+of[2], pct: +of[2] ? +of[1]/+of[2]*100 : null};
+  const pc = v.match(/([\d.]+)\s*%?/); return pc ? {label, pct:+pc[1]} : null; }).filter(Boolean); }
+function adminData(){
+  const m0 = buildModel();   // full roster regardless of the course chips: an admin page shows everything
+  const saved = {course:UI.course, period:UI.period, staar:UI.staar, apf:UI.apf, quart:UI.quart, flagsOnly:UI.flagsOnly, status:UI.status, q:UI.q};
+  Object.assign(UI, {course:'all', period:'all', staar:'all', apf:'all', quart:'all', flagsOnly:false, status:null, q:''}); const m = buildModel(); Object.assign(UI, saved);
+  const byCls = {}; m.studs.forEach(s => s.cs.forEach(c => { if (!c.cls) return; const r = (byCls[c.cls] ||= {cls:c.cls, course:c.course, n:0, proj:0, proj3:0, ok:0, withMc:0, paid:0, unpaid:0, opted:0, unknown:0});
+    r.n++; if (c.proj){ r.proj++; if (c.proj.score >= 3) r.proj3++; } if (c.ap.status!=='none'){ r.withMc++; if (c.ap.status==='ok') r.ok++; }
+    const ex = s.profile?.apExam; if (ex==='paid') r.paid++; else if (ex==='unpaid') r.unpaid++; else if (ex==='opted') r.opted++; else r.unknown++; }));
+  const classes = Object.values(byCls).sort((a,b)=>classSort(a.cls,b.cls));
+  const byCourse = {}; classes.forEach(r => { const c = (byCourse[r.course] ||= {course:r.course, n:0, proj:0, proj3:0, ok:0, withMc:0, paid:0, unpaid:0, opted:0, unknown:0}); ['n','proj','proj3','ok','withMc','paid','unpaid','opted','unknown'].forEach(k => c[k] += r[k]); });
+  const courses = Object.values(byCourse).sort((a,b)=>courseSort(a.course,b.course));
+  const tot = {n:0, proj:0, proj3:0, ok:0, withMc:0, paid:0, unpaid:0, opted:0, unknown:0}; courses.forEach(c => Object.keys(tot).forEach(k => tot[k] += c[k]));
+  const stuTot = {n:m.studs.length, paid:m.studs.filter(s=>s.profile?.apExam==='paid').length, unpaid:m.studs.filter(s=>s.profile?.apExam==='unpaid').length, opted:m.studs.filter(s=>s.profile?.apExam==='opted').length};
+  const drafted = new Set(), draftsN = {total:0, attended:0, noShows:0};
+  m.studs.forEach(s => { const p = s.profile || {}, d = pnum(p.phDrafts) || 0; if (d || (DB.drafts[s.key]||[]).length || (DB.contacts[s.key]||[]).some(c => /^PH draft/.test(c.type))) drafted.add(s.key); draftsN.total += d; draftsN.attended += pnum(p.phAttended) || 0; draftsN.noShows += pnum(p.phNoShows) || 0; });
+  const dash = Object.values(DB.drafts).reduce((t,a)=>t+a.length,0) + Object.values(DB.contacts).flat().filter(c => /^PH draft/.test(c.type)).length;
+  const dist = {}; DB.cb.district.forEach(x => { const yrs = (dist[x.course] ||= {}); (yrs[x.year] ||= []).push(x); });
+  const charts = Object.entries(dist).sort((a,b)=>courseSort(a[0],b[0])).map(([course, yrs]) => { const year = Object.keys(yrs).sort().slice(-1)[0], rows = yrs[year].slice().sort((a,b)=>b.pct-a.pct); return {course, year, rows, avg: mean(rows.map(r=>r.pct))}; });
+  return {classes, courses, tot, stuTot, drafted: drafted.size, draftsN, dash, dept: parsePartLines(S().adminDept), district: parsePartLines(S().adminDistrict), charts, students: m.studs.length};
+}
+const pctOrDash = (a, b) => b ? Math.round(a/b*100) + '%' : '—';
+function adminHtml(d, forPrint){
+  const st = S(), bar = (pct, cls='') => `<span class="bbar ${cls}"><i style="width:${Math.max(0, Math.min(100, pct||0))}%"></i></span>`;
+  const school = st.school.toLowerCase();
+  const row = (label, a, b, extra='') => `<tr><td><b>${esc(label)}</b>${extra}</td><td class="r num">${a}</td><td class="r num">${b}</td><td class="r num"><b>${pctOrDash(a,b)}</b></td><td style="width:30%">${bar(b ? a/b*100 : 0)}</td></tr>`;
+  const bench = c => { const b = parseBench((st.benchmarks||{})[c]), sr = latestScore(c, curYear()); return sr ? `${p0(sr.pass)} 3+ (${examLabel(sr.year)})` : b && b.pass != null ? `${b.pass}% 3+ (${esc(b.label)})` : ''; };
+  return `<div class="adm">
+    <div class="tthead"><div><small>${esc(st.school)} · ${esc(st.title)}${st.teacherName?' · '+esc(st.teacherName):''}</small><h2>At a glance</h2></div><div class="ttdate">${new Date().toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'})}<br><small>${d.students} students · ${d.classes.length} classes · ${curYear()}</small></div></div>
+    <div class="strip" style="margin:10px 0"><div class="stat accent"><b>${pctOrDash(d.tot.proj3, d.tot.proj)}</b><span>On pace for a 3+ (all my AP classes)</span></div><div class="stat"><b>${pctOrDash(d.stuTot.paid, d.stuTot.n)}</b><span>AP exam paid (my students)</span></div><div class="stat"><b>${d.drafted}</b><span>Students drafted to Power Hour</span></div><div class="stat"><b>${d.draftsN.total || d.dash}</b><span>Power Hour drafts${d.draftsN.attended?` · ${d.draftsN.attended} attended`:''}</span></div></div>
+    <h3 class="admh">On pace for a 3 or higher <small>AP projection from AP Classroom unit MC tests (raw %); last year's result alongside where known</small></h3>
+    <table class="t"><thead><tr><th>Class</th><th class="r">Projected 3+</th><th class="r">With a projection</th><th class="r">%</th><th></th></tr></thead><tbody>
+      ${d.courses.map(c => `<tr class="hi"><td><b>${esc(c.course)} · all periods</b>${bench(c.course)?`<div class="minor">Last year: ${bench(c.course)}</div>`:''}</td><td class="r num">${c.proj3}</td><td class="r num">${c.proj}</td><td class="r num"><b>${pctOrDash(c.proj3,c.proj)}</b></td><td style="width:30%">${bar(c.proj ? c.proj3/c.proj*100 : 0)}</td></tr>` + d.classes.filter(r=>r.course===c.course).map(r => row(r.cls, r.proj3, r.proj, ` <span class="minor">· AP on track now ${pctOrDash(r.ok, r.withMc)}</span>`)).join('')).join('')}
+    </tbody></table>
+    <h3 class="admh">AP exam participation — my classes <small>paid ÷ enrolled, from the Student Profile import</small></h3>
+    <table class="t"><thead><tr><th>Class</th><th class="r">Paid</th><th class="r">Enrolled</th><th class="r">%</th><th></th></tr></thead><tbody>
+      <tr class="hi"><td><b>All my AP students</b><div class="minor">${d.stuTot.unpaid} signed up, not yet paid · ${d.stuTot.opted} opted out</div></td><td class="r num">${d.stuTot.paid}</td><td class="r num">${d.stuTot.n}</td><td class="r num"><b>${pctOrDash(d.stuTot.paid, d.stuTot.n)}</b></td><td style="width:30%">${bar(d.stuTot.n ? d.stuTot.paid/d.stuTot.n*100 : 0)}</td></tr>
+      ${d.courses.map(c => row(`${c.course} · all periods`, c.paid, c.n, c.unpaid?` <span class="minor">· ${c.unpaid} unpaid</span>`:'') + d.classes.filter(r=>r.course===c.course).map(r => row(r.cls, r.paid, r.n, r.unpaid?` <span class="minor">· ${r.unpaid} unpaid</span>`:'')).join('')).join('')}
+    </tbody></table>
+    <h3 class="admh">${esc(st.adminDeptLabel)} <small>entered in Settings from the AP coordinator's list</small></h3>
+    ${d.dept.length ? `<table class="t"><thead><tr><th>Group</th><th class="r">Paid</th><th class="r">Total</th><th class="r">%</th><th></th></tr></thead><tbody>${d.dept.map(x => `<tr><td><b>${esc(x.label)}</b></td><td class="r num">${x.paid ?? '—'}</td><td class="r num">${x.total ?? '—'}</td><td class="r num"><b>${x.pct==null?'—':Math.round(x.pct)+'%'}</b></td><td style="width:30%">${bar(x.pct)}</td></tr>`).join('')}</tbody></table>` : `<p class="minor">Not entered yet${forPrint?'':' — Settings → At a glance inputs'}.</p>`}
+    ${d.charts.length ? `<h3 class="admh">AP exam participation by campus <small>district · ${esc(d.charts.map(c=>c.year).filter((v,i,a)=>a.indexOf(v)===i).join(', '))} · ${esc(st.school)} highlighted · dashed line = district average</small></h3>
+    <div class="dgrid">${d.charts.map(ch => `<div class="dchart"><div class="dch"><b>${esc(ch.course)}</b><span class="minor">${ch.rows.length} campuses · district avg ${Math.round(ch.avg)}%</span></div>
+      ${ch.rows.map(r => { const me = r.campus.toLowerCase().includes(school) || school.includes(r.campus.toLowerCase()); return `<div class="drow2${me?' me':''}"><span class="dl">${esc(r.campus)}</span><span class="bbar"><i style="width:${Math.max(0,Math.min(100,r.pct))}%"></i><em style="left:${Math.max(0,Math.min(100,ch.avg))}%"></em></span><b class="num">${Math.round(r.pct)}%</b></div>`; }).join('')}</div>`).join('')}</div>` : ''}
+    ${d.district.length || !d.charts.length ? `<h3 class="admh">${esc(st.adminDistrictLabel)} <small>entered in Settings · your school highlighted</small></h3>` : ''}
+    ${d.charts.length && !d.district.length ? '' : d.district.length ? `<table class="t"><thead><tr><th>School</th><th class="r">Participation</th><th></th></tr></thead><tbody>${d.district.slice().sort((a,b)=>(b.pct??-1)-(a.pct??-1)).map(x => `<tr${x.label.toLowerCase().includes(school)?' class="hi"':''}><td><b>${esc(x.label)}</b>${x.paid!=null?`<div class="minor">${x.paid} of ${x.total}</div>`:''}</td><td class="r num"><b>${x.pct==null?'—':Math.round(x.pct)+'%'}</b></td><td style="width:40%">${bar(x.pct)}</td></tr>`).join('')}</tbody></table>` : `<p class="minor">Not entered yet${forPrint?'':' — paste "District participation" on the Import page, or lines in Settings → At a glance inputs'}.</p>`}
+    <p class="ttfoot">Projection: raw AP Classroom multiple-choice average mapped to the College Board score scale (85+ → 5, 70+ → 4, 55+ → 3). Participation: students marked Paid in the profile import. Student-level data available on request.</p></div>`;
+}
+function adminText(d){ const st = S(); return [`At a glance — ${st.school} · ${st.teacherName||st.title} — ${new Date().toLocaleDateString()}`, '',
+  `On pace for a 3+: ${pctOrDash(d.tot.proj3, d.tot.proj)} of ${d.tot.proj} students with a projection`, ...d.courses.map(c => `  ${c.course}: ${pctOrDash(c.proj3,c.proj)} (${c.proj3} of ${c.proj})` + d.classes.filter(r=>r.course===c.course).map(r => `\n    ${r.cls}: ${pctOrDash(r.proj3,r.proj)} · AP on track now ${pctOrDash(r.ok,r.withMc)}`).join('')), '',
+  `AP exam paid: ${pctOrDash(d.stuTot.paid, d.stuTot.n)} (${d.stuTot.paid} of ${d.stuTot.n}; ${d.stuTot.unpaid} unpaid, ${d.stuTot.opted} opted out)`, ...d.courses.map(c => `  ${c.course}: ${pctOrDash(c.paid,c.n)} (${c.paid} of ${c.n})` + d.classes.filter(r=>r.course===c.course).map(r => `\n    ${r.cls}: ${pctOrDash(r.paid,r.n)} (${r.paid} of ${r.n})`).join('')), '',
+  `Power Hour: ${d.drafted} students drafted · ${d.draftsN.total || d.dash} drafts · ${d.draftsN.attended} attended · ${d.draftsN.noShows} no-shows`, '',
+  `${st.adminDeptLabel}:`, ...(d.dept.length ? d.dept.map(x => `  ${x.label}: ${x.pct==null?'—':Math.round(x.pct)+'%'}${x.paid!=null?` (${x.paid} of ${x.total})`:''}`) : ['  not entered']), '',
+  ...d.charts.flatMap(ch => [`AP exam participation by campus — ${ch.course} ${ch.year} (district avg ${Math.round(ch.avg)}%):`, ...ch.rows.map(r => `  ${r.campus}: ${Math.round(r.pct)}%`), '']),
+  `${st.adminDistrictLabel}:`, ...(d.district.length ? d.district.slice().sort((a,b)=>(b.pct??-1)-(a.pct??-1)).map(x => `  ${x.label}: ${x.pct==null?'—':Math.round(x.pct)+'%'}`) : ['  not entered']), '', 'Student-level data available on request.'].join('\n'); }
+function viewAdmin(){
+  if (!Object.keys(DB.students).length) return `<div class="phead"><div><h1>At a glance</h1></div></div><div class="card"><div class="empty">No data yet.</div></div>`;
+  const d = adminData();
+  return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>All classes · ${new Date().toLocaleDateString(undefined,{month:'long',day:'numeric'})}</div><h1>At a glance</h1><p>One page for an administrator: who is on pace for a 3 or higher, AP exam participation, Power Hour drafting, and the school and district numbers you enter in Settings. Always shows every class, whatever the course chips say. No student names.</p></div>
+    <div class="actions"><button class="btn" data-go="options" data-anchor="adminSettings">Enter school numbers</button><button class="btn" data-go="import" data-anchor="cbCardImport">Paste district participation</button><button class="btn" data-act="copy-admin">Copy text</button><button class="btn blk" data-act="print-admin">${PRINT==='Print'?'Print':'Printable text'}</button></div></div>
+    <div class="card"><div class="cb" style="padding-top:14px">${adminHtml(d, false)}</div></div>`;
+}
+/* ---------- Help & rules ---------- */
+const CHAT_NOTE = `The dashboard uses AP Classroom unit MC tests as its main data. Please:
+1. Import AP Classroom scores with Platform = AP Classroom, as raw % (correct ÷ total). Each name needs "Unit N" plus "MC Test" or "MC Retest", e.g. "APHG · Unit 3 MC Test". A curved Gradebook copy doesn't count toward AP status, so the raw AP Classroom score is required.
+2. Keep importing the Gradebook (TAC) "Unit N Test" curved grades too. The Retest messages and Power Hour drafts pages use them (below 80).
+3. Name retests "Unit N MC Retest" (AP Classroom) or "Unit N Retest" (Gradebook) so students drop off the retest lists.
+4. Progress checks are context only now, so keep importing them as usual.
+5. Import weekly. Each test's date is the day it first arrives, which drives the "% on track by month" and "after Power Hour" numbers.
+6. Optional: if the AP score summary has School mean, School % 3+, Texas mean or Texas % 3+ columns, include them for the Benchmarks card.
+7. When I paste you a "Copy prompt for Claude" from Retest messages or Power Hour drafts, do exactly what it says (one Canvas message per student, or fill the Tutorials sheet), then tell me who it was done for.`;
+function viewHelp(){
+  const st = S(), sec = (t, body) => `<section class="card w6"><div class="ch"><h2>${t}</h2></div><div class="cb helpb">${body}</div></section>`;
+  return `<div class="phead"><div><h1>Help &amp; rules</h1><p>How the dashboard decides things, what each page is for, and how to move it to another device.</p></div><div class="actions"><button class="btn" data-act="copy-chatnote">Copy instructions for the import chat</button></div></div>
+  <div class="grid">
+    ${sec('Where the numbers come from', `<p><b>One source of truth:</b> AP status, the AP projection, Retests, Reteach radar, groups and the Compare charts use <b>AP Classroom unit MC tests and retests only, raw %</b> (correct ÷ total). A retest counts as its own test, in order.</p>
+      <p><b>Context only (never changes AP status):</b> progress checks, FRQ/SAQ/LEQ/DBQ, Canvas, Gradebook/TAC grades, GPA, attendance, STAAR, TIA, Power Hour.</p>
+      <p><b>Gradebook (TAC) curved unit tests</b> drive the Retest messages and Power Hour drafts pages (below ${st.retestCap}), because that is the grade students see.</p>`)}
+    ${sec('AP status rule', `<p><span class="pill ok">✓ AP on track</span> raw MC average ≥ ${st.apOnTrack}%, <i>or</i> the last ${st.apRecent} unit tests both ≥ ${st.apOnTrack}%.</p>
+      <p><span class="pill watch">! AP watch</span> average ${st.apOnTrack-st.apBand}–${st.apOnTrack-0.1}%, <i>or</i> only one of the last ${st.apRecent} ≥ ${st.apOnTrack}%.</p>
+      <p><span class="pill help">▼ AP needs help</span> average below ${st.apOnTrack-st.apBand}% and no recent test ≥ ${st.apOnTrack}%.</p>
+      <p><b>Projection:</b> the unit MC average (later units weigh more) mapped to 85+ → 5, 70+ → 4, 55+ → 3, 40+ → 2. Once a mock / practice exam exists it becomes the headline. Numbers are in Settings.</p>`)}
+    ${sec('Pages', `<ul class="helpl">
+      <li><b>Overview</b> — tiles, roster, conversation starters (watch flags or ${st.missingForHelp}+ missing), reteach radar, retest priority, intervention → outcome, charts.</li>
+      <li><b>Retests</b> — AP Classroom unit MC tests under ${st.retestCap}, tick when done.</li>
+      <li><b>Retest messages</b> — TAC unit test below ${st.retestMsgCut}, not retested: copy names + message for Canvas, or a prompt for Claude; Mark sent logs it.</li>
+      <li><b>Power Hour</b> — under ${st.atRisk} list, and drafting straight into the Tutorials sheet.</li>
+      <li><b>Power Hour drafts</b> — three lists (latest TAC test below ${st.retestCap}; class below ${st.atRisk}; class below ${st.retestCap}); copy roster or a prompt for Claude; Mark drafted logs it.</li>
+      <li><b>Missing work</b> — by class, copy or print.</li>
+      <li><b>Compare years</b> — unit averages this year vs. earlier years, % on track by month, mock vs. actual AP score.</li>
+      <li><b>AP projection</b> — distribution per class with last year's benchmark.</li>
+      <li><b>T-TESS</b> — evidence per dimension for an administrator, no names.</li>
+      <li><b>At a glance</b> — one page for an administrator: on pace for a 3+, AP exam participation, Power Hour, school and district numbers.</li>
+      <li><b>Conference page</b> — click any student: prep card, AP on pace, growth, grades, tests, Agency goals, contact log, print.</li></ul>`)}
+    ${sec('Importing (weekly)', `<p>Paste the prompt from <b>Import data</b> into Claude in Chrome. It reads TAC, Canvas and AP Classroom and pastes the grades in. Names matter:</p>
+      <ul class="helpl"><li>AP Classroom: <code>APHG · Unit 3 MC Test</code>, <code>… Unit 3 MC Retest</code>, raw %.</li><li>Gradebook: <code>APHG · Unit 3 Test</code> (curved), <code>… Unit 3 Retest</code>.</li><li>Progress checks and writing: import as usual; they show as context.</li></ul>
+      <p>The <b>Data check</b> card on the Import page lists anything that won't count (missing unit number, unrecognized course prefix, duplicate students). <b>Undo last import</b> is there too.</p>
+      <p>Student Profile (CSV) adds STAAR, TIA, GPA, attendance, AP exam paid/unpaid, Power Hour stats and watch flags. College Board score summaries and Instructional Planning Reports paste in the same box.</p>`)}
+    ${sec('Phone or another computer', `<p>Everything is saved <b>in this browser only</b> — nothing is uploaded. So a phone shows the welcome screen until you move the data:</p>
+      <ol class="helpl"><li>Here: Settings → <b>Back up…</b> → Copy all (it's compressed, so it fits in a note or an email to yourself).</li><li>There: open the same link → Settings → <b>Restore backup…</b> → paste.</li></ol>
+      <p>Repeat after each import if you want the other device current. The Overview shows a reminder when the last backup is more than two weeks old.</p>`)}
+    ${sec('Privacy', `<p>No network calls (the only exception is Power Hour drafting, which writes to your own Google Sheet through your own connector). Printouts for administrators (T-TESS, Admin snapshot) carry no student names. The sample data is made up.</p><p class="minor">Settings → Erase everything removes all data from this browser.</p>`)}
+  </div>`;
+}
 /* ---------- conference prep ---------- */
 function talkingPoints(s, p){
   const out = [], cut = +S().apOnTrack;
@@ -1956,6 +2086,9 @@ function viewSettings(){
         <div class="row3">${f('setRmCut','Retest message if TAC unit test is below (%)',s.retestMsgCut,'number','min="0" max="100"')}</div>
         <label class="field">Message · below ${esc(s.retestMsgCut)}<textarea class="in" id="setRetestMsg" rows="10">${esc(s.retestMsg)}</textarea></label>
         ${+s.retestMsgCut < +s.retestCap ? `<label class="field">Message · optional group (${esc(s.retestMsgCut)}–${s.retestCap-1})<textarea class="in" id="setRetestMsg2" rows="6">${esc(s.retestMsg2)}</textarea></label>` : ''}
+        <div id="adminSettings" class="note" style="margin:6px 0 10px"><b>At a glance inputs</b> — one per line, <code>Label: paid of total</code> or <code>Label: 71%</code>. The line whose label contains your school name is highlighted on the district list.</div>
+        <div class="row2"><label class="field">${esc(s.adminDeptLabel)}<textarea class="in" id="setAdminDept" rows="4" placeholder="Social studies (all AP): 410 of 455&#10;APHG (all teachers): 180 of 196">${esc(s.adminDept)}</textarea></label>
+        <label class="field">${esc(s.adminDistrictLabel)}<textarea class="in" id="setAdminDistrict" rows="4" placeholder="Panther Creek: 71%&#10;Another High: 58%">${esc(s.adminDistrict)}</textarea></label></div>
         <div class="note" style="margin:6px 0 10px"><b>Benchmarks</b> (AP projection page and T-TESS 4.2). Format: <code>Label: mean 4.05, 92.5% 3+</code></div>
         <div class="row3">${['APHG','AP World','AP Euro'].map(c=>f('setB_'+c.replace(/\s+/g,'_'),`Last year · ${c}`,(s.benchmarks||{})[c]||'','text','placeholder="Martin 2026: mean 3.8, 85% 3+"')).join('')}</div>
         ${f('setScale','Grade scale (minimum:letter, comma separated)',s.scale.map(([m,l])=>m+':'+l).join(', '))}
@@ -1965,7 +2098,7 @@ function viewSettings(){
         ${OVERVIEW_CARDS.map(c=>`<label class="toggle"><input type="checkbox" data-card="${c.id}" ${DB.hidden.includes(c.id)?'':'checked'}>${esc(c.title)}</label>`).join('')}
       </div></section>
       <section class="card w12"><div class="ch"><h2>Your data</h2></div><div class="cb">
-        <div class="note"><b>${Object.keys(DB.students).length}</b> students, <b>${Object.keys(DB.assignments).length}</b> assignments, <b>${Object.keys(DB.profiles).length}</b> profiles and <b>${DB.imports.length}</b> imports are saved in this browser. Back up to move them somewhere else.</div>
+        <div class="note"><b>${Object.keys(DB.students).length}</b> students, <b>${Object.keys(DB.assignments).length}</b> assignments, <b>${Object.keys(DB.profiles).length}</b> profiles and <b>${DB.imports.length}</b> imports are saved in this browser. Back up to move them somewhere else. Last backup: <b>${DB.lastBackup ? new Date(DB.lastBackup).toLocaleDateString() + ' (' + ago(DB.lastBackup) + ')' : 'never'}</b>.</div>
         <div class="actions"><button class="btn" data-act="backup">Back up…</button><button class="btn" data-act="restore">Restore backup…</button><button class="btn" data-act="sample">Load sample data</button><button class="btn danger" data-act="wipe">Erase everything</button></div>
       </div></section>
     </div>`;
@@ -2235,7 +2368,7 @@ function render(){
   if (UI.status==='unpaid' && !hasProfiles()) UI.status = null;
   const m = buildModel();
   renderSide(m); renderTop();
-  const v = {overview:viewOverview, retests:viewRetests, power:viewPower, missing:viewMissing, compare:viewCompare, ap:viewAP, retestmsg:viewRetestMsgs, phdraft:viewPhDrafts, assignments:viewAssignments, import:viewImport, options:viewSettings, ttess:viewTtess}[UI.view] || viewOverview;
+  const v = {overview:viewOverview, retests:viewRetests, power:viewPower, missing:viewMissing, compare:viewCompare, ap:viewAP, retestmsg:viewRetestMsgs, phdraft:viewPhDrafts, assignments:viewAssignments, import:viewImport, options:viewSettings, ttess:viewTtess, help:viewHelp, admin:viewAdmin}[UI.view] || viewOverview;
   $('#view').innerHTML = v(m);
   if (UI.view==='import') wireDrop();
   return m;
@@ -2422,6 +2555,13 @@ function readUndo(){ try { return JSON.parse(localStorage.getItem(UNDO_KEY) || '
    Instructional Planning Report:  Course, Year, Section, Item, Our %, Global % [, Students]  (Section = Unit / Skill / MC / FRQ …) */
 const lcHead = rows => rows[0].map(x => String(x).trim().toLowerCase());
 function isScoreSummary(rows){ const h = lcHead(rows); return h.some(x=>/score\s*5/.test(x)) && h.some(x=>/score\s*1/.test(x)) && !h.includes('student id'); }
+function isDistrict(rows){ const h = lcHead(rows); return h.includes('campus') && h.some(x=>/particip/.test(x)); }
+function importDistrict(rows, file, stay){
+  const h = lcHead(rows), cC = h.findIndex(x=>/^course/.test(x)), yC = h.findIndex(x=>/year/.test(x)), kC = h.indexOf('campus'), pC = h.findIndex(x=>/particip/.test(x)); let n = 0;
+  rows.slice(1).forEach(r => { const course = String(r[cC]||'').trim(), campus = String(r[kC]||'').trim(), year = String(r[yC]||'').trim() || String(new Date().getFullYear()), pct = pnum(r[pC]); if (!course || !campus || pct==null) return;
+    DB.cb.district = DB.cb.district.filter(x => !(x.course.toLowerCase()===course.toLowerCase() && x.year===year && x.campus.toLowerCase()===campus.toLowerCase())); DB.cb.district.push({course, year, campus, pct}); n++; });
+  finishReport(file, `Imported ${plural(n,'district participation row')}`, stay);
+}
 function isIPR(rows){ const h = lcHead(rows); return h.some(x=>/global/.test(x)) && h.includes('item') && h.some(x=>/^section|^category/.test(x)); }
 function importScoreSummary(rows, file, stay){
   const h = lcHead(rows), col = re => h.findIndex(x => re.test(x));
@@ -2453,6 +2593,7 @@ const examLabel = y => /^\d{4}-\d{2}$/.test(String(y)) ? `${+String(y).slice(0,4
 const latestScore = (course, notYear) => DB.cb.scores.filter(x => x.course.toLowerCase()===course.toLowerCase() && x.year !== notYear).sort((a,b)=>String(b.year).localeCompare(String(a.year)))[0] || null;
 function iprFor(course){ const rows = DB.cb.ipr.filter(x => x.course.toLowerCase()===course.toLowerCase()); if (!rows.length) return null; const y = rows.map(x=>x.year).sort().slice(-1)[0]; return {year:y, rows: rows.filter(x=>x.year===y && x.ours!=null && x.global!=null).map(x=>({...x, d:x.ours-x.global}))}; }
 function routeImport(rows, label, fallback, stay, year){
+  if (isDistrict(rows)) { saveUndo(label); importDistrict(rows, label, stay); return true; }
   if (isScoreSummary(rows) || isIPR(rows)) { saveUndo(label); isScoreSummary(rows) ? importScoreSummary(rows, label, stay) : importIPR(rows, label, stay); return true; }
   if (isCanvas(rows) || isProfile(rows) || isStandard(rows)) saveUndo(label);
   if (isCanvas(rows)) importCanvas(rows, label, stay, year);
@@ -2498,12 +2639,23 @@ function exportCSV(){
       ...assigns.map(a=>{ const v=sc[a.id]; return !v?'':v.x?'EX':v.m?'M':fmt(v.p); })]; });
   showText('Export CSV', [head,...lines].map(r=>r.map(csvCell).join(',')).join('\n'), `dashboard-${scopeLabel().replace(/[^\w]+/g,'-')}-${new Date().toISOString().slice(0,10)}.csv`, 'text/csv');
 }
+async function backupText(){
+  const json = JSON.stringify(DB); if (typeof CompressionStream === 'undefined') return json;
+  try { const cs = new CompressionStream('gzip'), w = cs.writable.getWriter(); w.write(new TextEncoder().encode(json)); w.close();
+    const u8 = new Uint8Array(await new Response(cs.readable).arrayBuffer()); let bin = ''; for (let i = 0; i < u8.length; i += 0x8000) bin += String.fromCharCode.apply(null, u8.subarray(i, i + 0x8000));
+    return 'CDZ1:' + btoa(bin); } catch(_){ return json; }
+}
+async function parseBackup(txt){
+  txt = String(txt||'').trim();
+  if (txt.startsWith('CDZ1:')){ const u8 = Uint8Array.from(atob(txt.slice(5).replace(/\s+/g,'')), c => c.charCodeAt(0)); const ds = new DecompressionStream('gzip'), w = ds.writable.getWriter(); w.write(u8); w.close(); txt = await new Response(ds.readable).text(); }
+  return JSON.parse(txt);
+}
 function restoreDialog(){
   modal(`<div class="dh"><h2>Restore backup</h2><button class="btn sm x" data-close aria-label="Cancel">✕</button></div>
     <p>Paste the backup text below. This replaces everything currently in the dashboard.</p>
     <textarea class="in code" id="restoreText" placeholder='{"students":{...}}' data-autofocus></textarea>
     <div class="actions" style="justify-content:space-between;margin-top:12px"><label class="btn" style="cursor:pointer">Or choose a file…<input type="file" id="restoreFile" accept=".json,.txt" hidden></label><span><button class="btn" data-close>Cancel</button> <button class="btn dangerfill" id="restoreGo">Replace my data</button></span></div>`, '');
-  const apply = txt => { try { const d = JSON.parse(txt); if (!d.students) throw 0; DB = Object.assign(blank(), d); save(); closeLayer(); render(); toast('Backup restored'); } catch(_){ toast('That isn’t a dashboard backup'); } };
+  const apply = async txt => { try { const d = await parseBackup(txt); if (!d.students) throw 0; DB = Object.assign(blank(), d); save(); closeLayer(); render(); toast('Backup restored'); } catch(_){ toast('That isn’t a dashboard backup'); } };
   $('#restoreGo').onclick = () => apply($('#restoreText').value);
   $('#restoreFile').onchange = async e => { const f = e.target.files[0]; if (f) $('#restoreText').value = await f.text(); };
 }
@@ -2631,6 +2783,9 @@ document.addEventListener('click', e => {
     if (act==='copy-ttess') return copyText(ttessText(t, rows), 'T-TESS evidence'); if (!CAN_PRINT) return showText('T-TESS evidence', ttessText(t, rows));
     return printDoc(`T-TESS evidence — ${scopeLabel()}`, `<p class="ttintro">${$('.ttview .phead p')?.innerHTML || ''}</p><table class="ttt"><thead><tr><th>Dimension</th><th>What this dashboard shows</th><th>Where to see it</th></tr></thead><tbody>${rows.map(r => `<tr><td><b>${r.dim}</b> ${r.name}</td><td><ul>${r.show.map(x=>`<li>${x}</li>`).join('')}</ul></td><td>${r.where.replace(/<[^>]+>/g,'').replace(/ →/g,'')}</td></tr><tr><td colspan="3" style="font-style:italic;color:#333">${r.plain}</td></tr>`).join('')}</tbody></table><p><b>Not covered here</b> — see the separate T-TESS dashboard: 1.1, 2.2, 3.2, 4.1, 4.3.</p><p style="font-style:italic">Student-level data available on request.</p>`); }
   if (act==='copy-summary') copyText(weeklySummary(m()), 'Weekly summary');
+  if (act==='copy-chatnote') copyText(CHAT_NOTE, 'Instructions for the chat');
+  if (act==='copy-admin') copyText(adminText(adminData()), 'At a glance');
+  if (act==='print-admin'){ const d = adminData(); if (!CAN_PRINT) return showText('At a glance', adminText(d)); return printDoc('At a glance', adminHtml(d, true)); }
   if (act==='make-groups') return openGroups();
   if (act==='groups-copy'){ logGroups(UI.groupSets||[]); return copyText(groupsText(UI.groupSets||[]), 'Groups'); }
   if (act==='groups-print'){ const sets = UI.groupSets||[]; logGroups(sets); if (!CAN_PRINT) return showText('Reteach groups', groupsText(sets));
@@ -2675,7 +2830,7 @@ document.addEventListener('click', e => {
   if (act==='sample'){ if (Object.keys(DB.students).length && !DB.sample) return askConfirm('Load sample data?', 'Sample data <b>replaces</b> your current students, scores and notes. Back up first if you need them.', 'Replace with sample', loadSample); loadSample(); }
   if (act==='clear-sample'){ const keep=DB.settings; DB=blank(); DB.settings=keep; save(); render(); toast('Sample data removed'); }
   if (act==='theme'){ DB.settings.theme = document.documentElement.dataset.theme==='dark' ? 'light' : 'dark'; save(); render(); }
-  if (act==='backup') showText('Backup', JSON.stringify(DB), `classroom-dashboard-backup-${new Date().toISOString().slice(0,10)}.json`, 'application/json');
+  if (act==='backup'){ DB.lastBackup = Date.now(); save(); backupText().then(txt => showText(`Backup · ${Math.round(txt.length/1024)} KB${txt.startsWith('CDZ1:')?' (compressed)':''}`, txt, `classroom-dashboard-backup-${new Date().toISOString().slice(0,10)}.txt`, 'text/plain')); if (UI.view==='options') render(); }
   if (act==='restore') restoreDialog();
   if (act==='wipe') askConfirm('Erase everything?', 'All students, scores, profiles, notes and settings in this browser will be deleted. This can’t be undone.', 'Erase everything', () => { try{ localStorage.removeItem(KEY); }catch(_){} DB=blank(); save(); UI.course='all'; UI.period='all'; UI.staar='all'; render(); toast('Everything erased'); });
   if (act==='save-settings'){
@@ -2687,6 +2842,7 @@ document.addEventListener('click', e => {
     if (scale.length) DB.settings.scale = scale;
     DB.settings.apCountPC = $('#setApCountPC').checked; DB.settings.apWriting = false;
     DB.settings.retestMsgCut = num('#setRmCut', CONFIG.retestMsgCut); DB.settings.retestMsg = $('#setRetestMsg').value.trim() || CONFIG.retestMsg; DB.settings.retestMsg2 = ($('#setRetestMsg2')?.value || '').trim() || DB.settings.retestMsg;
+    DB.settings.adminDept = $('#setAdminDept').value.trim(); DB.settings.adminDistrict = $('#setAdminDistrict').value.trim();
     const bm = Object.assign({}, CONFIG.benchmarks, DB.settings.benchmarks || {}); ['APHG','AP World','AP Euro'].forEach(c => { const el = $('#setB_'+c.replace(/\s+/g,'_')); if (el) bm[c] = el.value.trim(); }); DB.settings.benchmarks = bm;
     const ew = Object.assign({}, CONFIG.examWeights, DB.settings.examWeights || {}); ['APHG','AP World','AP Euro'].forEach(c => { const v = ($('#setW_'+c.replace(/\s+/g,'_'))?.value || '').trim(); if (v) ew[c] = v; }); DB.settings.examWeights = ew;
     save(); render(); toast('Settings saved');
