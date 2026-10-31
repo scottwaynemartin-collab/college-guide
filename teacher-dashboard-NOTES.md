@@ -14,7 +14,7 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
 | Kind | Header | Notes |
 |---|---|---|
 | **Grades** | `Student,Student ID,Class,Platform,<assignment>,…` | Class = course + period (`APHG 3B`). Prefix assignments with the course (`APHG · Unit 2 Test`). Platform = `Canvas`, `AP Classroom`, or `Gradebook` (Gradebook is TAC). Optional `School Year` column. |
-| **Profile** | `Student,Student ID,Class,8th STAAR %,8th STAAR Level,AP Exam,Q1 Grade,Q2 Grade (to date),TIA BOY 26-27 %,Prior AP score (APHG 2026),Prior TIA BOY/EOY 25-26 %,Grade level,Q1 Unweighted GPA,Q1 Weighted GPA,Est. rank band,Est. quartile[,Accommodations]` | Matched on Student ID. Never counted in averages. A blank cell keeps the earlier value. |
+| **Student Profile (CSV)** | `Student, Student ID, Class, 8th STAAR %, 8th STAAR Level, AP Exam, Q1 Grade, Q2 Grade (to date), TIA BOY 26-27 %, TIA BOY 26-27 test, Prior AP score (APHG 2026), Prior TIA BOY 25-26 %, Prior TIA EOY 25-26 %, Prior TIA test, Grade level, Q1 Unweighted GPA (all classes), Q1 Weighted GPA (all classes, est.), Q1 classes counted, Est. rank band (from Q1 weighted GPA), Est. quartile, Rank cutoffs used, AP scores (all, from Aware), PSAT history (total(EBRW/Math)), Best PSAT, SAT history, Best SAT, Q2-to-date Unweighted GPA (all classes), Q2-to-date Weighted GPA (all classes, est.), Q2 classes counted, Absences YTD (full-day), Unexcused/unresolved absences, Tardies YTD, Zeros (all classes), Classes below 70 now, Lowest class now, Power Hour drafts, Power Hour no-shows, Power Hour attended, Last Power Hour draft, Power Hour assigned now, Watch flags` | Imported from its own card, "Student Profile (CSV)", on the Import page. Each header is mapped explicitly (`PROFILE_FIELDS`). One row per student per class, matched on Student ID; Q1–Q4 class grades are stored per class. Re-importing updates and never duplicates, and blank cells keep the earlier value. Unknown columns are kept and shown under "Other profile fields". Never counted in averages. |
 | **Canvas export** | "Export Entire Gradebook" CSV | Detected automatically. Sections become classes, and the "Points Possible" row is used as "out of". |
 | **Anything else** | any | A one-time column picker. The layout is remembered for files with the same header. |
 
@@ -76,7 +76,17 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
   - Class average per unit for each type, this year against earlier years, with missing work left out.
   - Optional overlay of one student.
 - **AP projection:** the distribution per class, with 1–2s flagged.
+- **Filters:** class and period, 8th STAAR level, AP exam (paid / unpaid / opted out), estimated quartile, and has-flags.
+- **Watch list card:** students with school watch flags or dashboard flags, sortable by number of flags. A school flag that already covers a dashboard flag (for example "Below 70 in a class") isn't counted twice.
+- **Classes side by side:** per class, the average, status mix and missing work, plus profile averages: 8th STAAR, TIA BOY, GPA (Q2-to-date weighted, otherwise Q1) and absences.
 - **Conference view** (click any student):
+  - Header: name, ID, grade, classes, AP exam paid or unpaid, and watch flags as chips.
+  - Grades & GPA: my-class Q1 and Q2, and all-class unweighted and weighted GPA Q1 vs. Q2-to-date with up/down arrows. Rank band and quartile, with the cutoffs used in small text.
+  - Tests: 8th STAAR, TIA BOY/EOY this year vs. last year, prior AP and all AP scores, PSAT and SAT history with a small trend line, and AP Classroom progress checks.
+  - Attendance & risk: absences, unexcused, tardies, zeros, classes below 70, lowest class. Amber or red when high.
+  - Power Hour: drafts, no-shows, attended, last draft, assigned now.
+  - Agency conferencing goals: goal, action steps, check-in date, support, notes, and per-quarter rating 1–4 with grade goal vs. actual. All saved per student.
+  - Print / Save as PDF: a one-page summary in black and white.
   - Baseline, Academic Snapshot.
   - Agency 1–4 and grade goal vs. actual per quarter (saved).
   - Unit Tracker per class.

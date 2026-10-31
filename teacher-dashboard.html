@@ -195,7 +195,7 @@ kbd{font:700 10px var(--sans);border:1px solid var(--line2);border-bottom-width:
 .rrow:hover{background:var(--card2)}
 .who{display:flex;align-items:center;gap:10px;min-width:0}
 .av{width:34px;height:34px;border-radius:10px;flex:none;display:grid;place-content:center;font:800 12px var(--sans);color:#fff}
-.who b{display:flex;align-items:center;font-weight:800;white-space:nowrap;min-width:0}
+.who b{display:flex;align-items:center;flex-wrap:wrap;row-gap:2px;font-weight:800;min-width:0}
 .who b .nm{overflow:hidden;text-overflow:ellipsis;min-width:0}
 .who b .staar,.who b .apx{flex:none}
 .who small{display:block;font-size:11px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -500,8 +500,60 @@ textarea.confnote{width:100%;min-height:150px;border:1.5px solid var(--line2);bo
   body.conf-open .conf-page{max-width:none;padding:0}
   body.conf-open .fsec{box-shadow:0 0 0 1px #ccc}
   body.conf-open .fsec>h2{background:#000!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-  body.conf-open textarea.confnote{border:1px solid #999;min-height:120px}
+  body.conf-open textarea.confnote{border:1px solid #999;min-height:90px}
+  body.conf-open .noprint1{display:none!important}
+  body.conf-open .conf{filter:grayscale(1);font-size:11px}
+  body.conf-open .conf-head{border-bottom-color:#000;padding-bottom:8px;margin-bottom:8px}
+  body.conf-open .conf-head h1{font-size:24px}
+  body.conf-open .conf-grid{gap:6px}
+  body.conf-open .fsec>.fb{padding:6px 8px}
+  body.conf-open .cell{padding:4px 6px;box-shadow:inset 0 0 0 1px #999;background:#fff}
+  body.conf-open .cell b{font-size:14px}
+  body.conf-open table.ft td,body.conf-open table.ft th{padding:3px 5px}
+  body.conf-open .flag,body.conf-open .tag,body.conf-open .pill{box-shadow:inset 0 0 0 1px #000;background:#fff!important;color:#000!important}
+  body.conf-open input,body.conf-open textarea{border:1px solid #999!important;background:#fff!important}
+  body.conf-open .rate button[aria-pressed="true"]{background:#000!important;color:#fff!important}
+  body.conf-open .c4{grid-column:span 4!important}body.conf-open .c5{grid-column:span 5!important}body.conf-open .c6{grid-column:span 6!important}body.conf-open .c7{grid-column:span 7!important}body.conf-open .c8{grid-column:span 8!important}body.conf-open .c12{grid-column:span 12!important}
+  body.conf-open .goalform{grid-template-columns:1.2fr 1.2fr .8fr!important;gap:6px}
+  body.conf-open .goalform textarea.in{min-height:0;height:auto}
+  body.conf-open .cells{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:4px}
+  body.conf-open .cells.two{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  body.conf-open .fsec>h2{padding:4px 8px;font-size:11px}
+  body.conf-open .fine{margin-top:4px}
+  body.conf-open .rate button{width:20px;height:20px;font-size:10px}
+  body.conf-open table.ft input{padding:2px 4px;font-size:11px}
+  body.conf-open .fsec{break-inside:auto}
+  body.conf-open .conf-head .cells{flex:0 1 300px!important;min-width:0!important}
+  body.conf-open .miniline{height:22px}
+  body.conf-open textarea.confnote{min-height:48px!important;height:48px}
+  body.conf-open .conf-head h1{font-size:20px}
+  body.conf-open .nchip{padding:1px 5px;font-size:10px}
+  body.conf-open .namechips{gap:3px}
+  body.conf-open .mlist div{padding:2px 6px;font-size:10px}
+  body.conf-open .cell span{font-size:8px;letter-spacing:.04em}
+  body.conf-open .cell small{font-size:9px}
+  body.conf-open .goalform .field{margin-bottom:2px;font-size:10px}
+  body.conf-open table.ft{font-size:11px}
+  body.conf-open .conf-head .av{width:40px!important;height:40px!important}
+  @page{size:letter;margin:0.35in}
 }
+
+/* conference additions */
+.chiprow{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.flag{display:inline-flex;align-items:center;gap:4px;font:800 11px/1 var(--sans);padding:4px 7px;border-radius:6px;white-space:nowrap}
+.flag.amber{background:var(--watch-bg);color:var(--watch-ink);box-shadow:inset 0 0 0 1px rgba(245,165,36,.55)}
+.flag.red{background:var(--help-bg);color:var(--help-ink);box-shadow:inset 0 0 0 1px rgba(229,72,77,.55)}
+.flag.ok{background:var(--ok-bg);color:var(--ok-ink)}.flag.gray{background:var(--line);color:var(--ink2)}
+.arr{font:800 11px var(--sans);margin-left:4px;white-space:nowrap}.arr.up{color:var(--ok-ink)}.arr.down{color:var(--help-ink)}.arr.flat{color:var(--ink3)}
+.fine{font-size:11px;color:var(--ink3);margin:8px 0 0}
+.cells.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.cell.warnc{background:var(--watch-bg);box-shadow:inset 0 0 0 1px rgba(245,165,36,.55)}.cell.warnc b{color:var(--watch-ink)}
+.cell.bad{background:var(--help-bg);box-shadow:inset 0 0 0 1px rgba(229,72,77,.55)}.cell.bad b{color:var(--help-ink)}
+.miniline{display:block;margin-top:4px;max-width:100%}
+.goalform{display:grid;grid-template-columns:1.2fr 1.2fr .8fr;gap:12px}
+.goalform .field{margin-bottom:6px}
+.goalside{display:flex;flex-direction:column}
+@media (max-width:900px){.goalform{grid-template-columns:1fr}}
 
 /* in-page print area (no new windows, so it works inside artifacts) */
 #printArea{display:none}
@@ -631,7 +683,7 @@ Object.values(DB.assignments).forEach(a => { if (!a.year) a.year = curYear(); })
 const yearOf = a => a.year || curYear();
 
 const UI = { view: location.hash.slice(1) || 'overview', course:'all', period:'all', staar:'all', status:null, q:'', sort:'need',
-  retestBy:'student', draft:null, draftBlock:'A Block', draftDay:'', cmpType:'all', cmpStudent:'', pasteYear:'', phOut:new Set(), pasteSrc:'Canvas', lastResult:'', asort:['order',-1] };
+  retestBy:'student', apf:'all', quart:'all', flagsOnly:false, wsort:'count', draft:null, draftBlock:'A Block', draftDay:'', cmpType:'all', cmpStudent:'', pasteYear:'', phOut:new Set(), pasteSrc:'Canvas', lastResult:'', asort:['order',-1] };
 
 /* ---------- helpers ---------- */
 const $ = s => document.querySelector(s);
@@ -795,23 +847,29 @@ function summarize(key, s, cs){
   cs.forEach(c => { if (c.proj && c.proj.score <= 2) reasons.push({t:'ap', icon:'◆', label:`AP proj ${c.proj.score}`+(multi?` · ${c.course}`:''), tip:`${c.cls}: AP Classroom MC ${p0(c.proj.mcPct)}${c.proj.wrPct!=null?` · writing ${p0(c.proj.wrPct)}`:''} → composite ${p0(c.proj.comp)}`, w:(3-c.proj.score)*6}); });
   const status = !worst ? 'none' : (reasons.some(r=>r.t==='below') || missing.length >= st.missingForHelp) ? 'help'
     : (worst.avg < cut + st.watchBand || reasons.length) ? 'watch' : 'ok';
-  return {key, name:s.name, ids:s.ids, classes:cs.map(c=>c.cls).filter(Boolean), cs, worst, avg:mean(pts.map(p=>p.p)), pts, missing, reasons, status, profile:prof(key),
+  const school = schoolFlags(key);
+  const covered = t => (t==='below' && school.some(f=>/below\s*70/i.test(f))) || (t==='missing' && school.some(f=>/zero|missing/i.test(f)));
+  const extra = reasons.filter(r => !covered(r.t));
+  return {extra,key, name:s.name, ids:s.ids, classes:cs.map(c=>c.cls).filter(Boolean), cs, worst, avg:mean(pts.map(p=>p.p)), pts, missing, reasons, status, profile:prof(key), school, nflags: school.length + extra.length,
     need: reasons.reduce((t,r)=>t+r.w,0) + (status==='help'?20:status==='watch'?5:0)};
 }
 function buildModel(){
   const aC = aCourseMap();
   const assigns = visibleAssignments();
   const inScope = c => { if (!c) return UI.course==='all' && UI.period==='all'; const sp = splitClass(c); return (UI.course==='all' || sp.course===UI.course) && (UI.period==='all' || c===UI.period); };
-  const staarOk = key => UI.staar==='all' || (UI.staar==='none' ? !staarOf(key) : prof(key)?.staarLevel===UI.staar);
+  const staarOk = key => (UI.staar==='all' || (UI.staar==='none' ? !staarOf(key) : prof(key)?.staarLevel===UI.staar))
+    && (UI.apf==='all' || (prof(key)?.apExam || 'none')===UI.apf) && (UI.quart==='all' || quartOf(key)===UI.quart);
   const studs = [];
   for (const [key, s] of Object.entries(DB.students)){
     if (!staarOk(key) || (!s.classes.length && s.past)) continue;
     const enr = (s.classes.length ? s.classes : ['']).filter(inScope);
-    if (enr.length) studs.push(summarize(key, s, enr.map(c => classStats(key, c, assigns, aC))));
+    if (!enr.length) continue;
+    const sm = summarize(key, s, enr.map(c => classStats(key, c, assigns, aC)));
+    if (!UI.flagsOnly || sm.nflags) studs.push(sm);
   }
   const scopeAssigns = assigns.filter(a => UI.course==='all' || !aC[a.id] || aC[a.id]===UI.course);
-  const counts = {ok:0, watch:0, help:0, none:0, unpaid:0};
-  studs.forEach(s => { counts[s.status]++; if (s.profile?.apExam==='unpaid') counts.unpaid++; });
+  const counts = {ok:0, watch:0, help:0, none:0, unpaid:0, flagged:0};
+  studs.forEach(s => { counts[s.status]++; if (s.profile?.apExam==='unpaid') counts.unpaid++; if (s.nflags) counts.flagged++; });
   return {studs, assigns:scopeAssigns, aC, counts};
 }
 function studentFull(key){
@@ -821,7 +879,8 @@ function studentFull(key){
 }
 const matchQ = s => !UI.q || s.name.toLowerCase().includes(UI.q.toLowerCase()) || s.ids.some(i=>i.toLowerCase().includes(UI.q.toLowerCase()));
 const statusMatch = s => !UI.status || (UI.status==='unpaid' ? s.profile?.apExam==='unpaid' : s.status===UI.status);
-const scopeLabel = () => [UI.period!=='all' ? UI.period : UI.course!=='all' ? UI.course : 'All courses', UI.staar!=='all' ? `STAAR ${UI.staar==='none'?'no data':STAAR.find(x=>x.id===UI.staar).label}` : ''].filter(Boolean).join(' · ');
+const scopeLabel = () => [UI.period!=='all' ? UI.period : UI.course!=='all' ? UI.course : 'All courses', UI.staar!=='all' ? `STAAR ${UI.staar==='none'?'no data':STAAR.find(x=>x.id===UI.staar).label}` : '',
+  UI.apf!=='all' ? `AP exam ${UI.apf==='none'?'no data':AP_EXAM[UI.apf]}` : '', UI.quart!=='all' ? `Quartile ${UI.quart}` : '', UI.flagsOnly ? 'Flagged only' : ''].filter(Boolean).join(' · ');
 const STATUS = { ok:{label:'On Track', icon:'✓'}, watch:{label:'Watch', icon:'!'}, help:{label:'Needs Help', icon:'▼'}, none:{label:'No grades', icon:'·'}, unpaid:{label:'AP Exam Unpaid', icon:'$'} };
 const pill = s => `<span class="pill ${s}">${STATUS[s].icon} ${STATUS[s].label}</span>`;
 const tagsHtml = rs => `<div class="tags">${rs.map(r=>`<span class="tag ${r.t}" data-tip="${esc(r.tip)}">${r.icon} ${esc(r.label)}</span>`).join('')}</div>`;
@@ -854,10 +913,11 @@ function weeklySummary(m){
 }
 function periodRows(m){
   const g = {};
-  m.studs.forEach(s => s.cs.forEach(c => { if (!c.cls) return; const r = g[c.cls] ||= {cls:c.cls, avgs:[], ok:0, watch:0, help:0, missing:0, n:0};
+  m.studs.forEach(s => s.cs.forEach(c => { if (!c.cls) return; const r = g[c.cls] ||= {cls:c.cls, avgs:[], ok:0, watch:0, help:0, missing:0, n:0, staar:[], tia:[], gpa:[], abs:[]};
     r.n++; if (c.avg!=null) r.avgs.push(c.avg); r.missing += c.missing.length;
+    const pf = s.profile || {}; [[r.staar, pf.staarPct], [r.tia, pnum(pf.tiaBoy)], [r.gpa, pnum(pf.w2) ?? pnum(pf.w1)], [r.abs, pnum(pf.absences)]].forEach(([arr, v]) => { if (v!=null) arr.push(v); });
     const st = c.avg==null ? null : (c.avg < S().atRisk || c.missing.length >= S().missingForHelp) ? 'help' : c.avg < S().atRisk + S().watchBand ? 'watch' : 'ok'; if (st) r[st]++; }));
-  return Object.values(g).map(r=>({...r, avg:mean(r.avgs)})).sort((a,b)=>classSort(a.cls,b.cls));
+  return Object.values(g).map(r=>({...r, avg:mean(r.avgs), staarAvg:mean(r.staar), tiaAvg:mean(r.tia), gpaAvg:mean(r.gpa), absAvg:mean(r.abs)})).sort((a,b)=>classSort(a.cls,b.cls));
 }
 
 /* ---------- Power Hour drafting via the viewer's Google Sheets connector (claude.ai artifact only) ---------- */
@@ -1000,6 +1060,12 @@ function renderTop(){
       <button class="chip" aria-pressed="${UI.staar==='all'}" data-staar="all">All</button>
       ${STAAR.map(x=>`<button class="chip" aria-pressed="${UI.staar===x.id}" data-staar="${x.id}">${esc(x.short)}</button>`).join('')}
       <button class="chip" aria-pressed="${UI.staar==='none'}" data-staar="none">No data</button>` : '';
+  const hasQ = Object.keys(DB.profiles).some(k => quartOf(k)), hasAp = Object.values(DB.profiles).some(p => p.apExam), hasFlags = Object.keys(DB.profiles).some(k => schoolFlags(k).length);
+  const moreChips = hasProfiles() || hasQ ? `<div class="chips" role="group" aria-label="More filters">
+      ${hasAp ? `<span class="lbl">AP exam</span>${[['all','All'],['paid','Paid'],['unpaid','Unpaid'],['opted','Opted out']].map(([v,l])=>`<button class="chip" aria-pressed="${UI.apf===v}" data-apf="${v}">${l}</button>`).join('')}` : ''}
+      ${hasQ ? `<span class="lbl">Quartile</span>${['all','Q1','Q2','Q3','Q4'].map(v=>`<button class="chip" aria-pressed="${UI.quart===v}" data-quart="${v}">${v==='all'?'All':v}</button>`).join('')}` : ''}
+      <span class="lbl">Flags</span><button class="chip" aria-pressed="${UI.flagsOnly}" data-act="flags-only">${UI.flagsOnly?'✓ ':''}Has flags</button>
+    </div>` : '';
   $('#top').innerHTML = `<div class="toprow">
       <button class="iconbtn menu-btn" data-act="menu" aria-label="Open menu">☰</button>
       ${showScope ? `<div class="seg" role="group" aria-label="Course">
@@ -1013,7 +1079,8 @@ function renderTop(){
       ${periods.length > 1 ? `<button class="chip" aria-pressed="${UI.period==='all'}" data-period="all">All periods</button>
       ${periods.map(c=>`<button class="chip" aria-pressed="${UI.period===c}" data-period="${esc(c)}">${esc(UI.course==='all'?c:(splitClass(c).period||c))}</button>`).join('')}` : ''}
       ${staarChips}
-    </div>` : ''}`;
+    </div>` : ''}
+    ${showScope ? moreChips : ''}`;
 }
 const sampleBanner = () => DB.sample ? `<div class="banner">⚠ Made-up sample students. Nothing here is real. <span class="sp"></span><button class="btn sm" data-act="clear-sample">Remove sample data</button></div>` : '';
 
@@ -1066,7 +1133,7 @@ function viewOverview(m){
       </div></div></section>
       ${profiles ? `<section class="card"><div class="ch"><h2>AP exam unpaid</h2><span class="count">${unpaid.length}</span><span class="sp"></span>${unpaid.length?'<button class="link" data-act="copy-unpaid">Copy</button>':''}</div>
         <div class="cb">${unpaid.length ? `<div class="grab">${unpaid.map(s=>`<button class="gi" data-student="${esc(s.key)}" style="grid-template-columns:1fr auto"><span class="who">${avatar(s.key,s.name,30)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · '))}</small></span></span><span class="apx">$ Unpaid</span></button>`).join('')}</div>` : '<div class="empty">✓ Every AP exam is paid or opted out.</div>'}</div></section>`
-      : `<section class="card"><div class="ch"><h2>Student profiles</h2></div><div class="cb"><p class="minor" style="margin:0 0 10px">Add 8th-grade STAAR and AP exam payment to see STAAR badges, the STAAR filter and the unpaid list.</p><button class="btn sm" data-go="import">Import a Profile CSV →</button></div></section>`}
+      : `<section class="card"><div class="ch"><h2>Student profiles</h2></div><div class="cb"><p class="minor" style="margin:0 0 10px">Add 8th-grade STAAR and AP exam payment to see STAAR badges, the STAAR filter and the unpaid list.</p><button class="btn sm" data-go="import" data-anchor="profileCard">Student Profile (CSV) →</button></div></section>`}
     </div>
     ${cards}
   </div>`;
@@ -1081,7 +1148,7 @@ function rosterRow(s){
     <span class="who">${avatar(s.key,s.name)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · ')||'No class')}${apBadge(s.key)}${draftedTag(s.key)}</small></span></span>
     <span><span class="big ${s.worst&&s.worst.avg<S().atRisk?'help':''}">${p0(multi ? s.worst?.avg : s.avg)}</span>${multi?`<span class="minor" style="display:block">${s.cs.filter(c=>c.avg!=null).map(c=>`${esc(c.course)} ${p0(c.avg)}`).join(' · ')}</span>`:`<span class="minor" style="display:block">${letter(s.avg)}</span>`}</span>
     <span class="num" style="font-weight:800;${s.missing.length?'color:var(--help-ink)':''}">${s.missing.length||'—'}</span>
-    <span>${s.reasons.length?tagsHtml(s.reasons):'<span class="minor">—</span>'}</span>
+    <span>${s.reasons.length||s.school.length?`<div class="tags">${flagChips(s.key)}${s.extra.map(r=>`<span class="tag ${r.t}" data-tip="${esc(r.tip)}">${r.icon} ${esc(r.label)}</span>`).join('')}</div>`:'<span class="minor">—</span>'}</span>
     <span>${pill(s.status)}</span></button>`;
 }
 function welcome(){
@@ -1287,11 +1354,13 @@ function viewImport(){
         <div class="actions" style="margin-top:10px;justify-content:space-between"><span class="minor">🔒 Stays in this browser</span><button class="btn pri" id="pasteGo" data-act="paste">Import pasted data</button></div>
         ${UI.lastResult?`<div class="note" role="status" style="margin:10px 0 0;white-space:pre-line;color:var(--ok-ink);font-weight:700">${esc(UI.lastResult)}\n<button class="link" data-go="overview">See the dashboard →</button></div>`:''}
       </div></section>
-      <section class="card w6"><div class="ch"><h2>Student profiles</h2><span class="sub">Not counted in averages</span></div><div class="cb">
-        <p style="margin:0 0 10px;color:var(--ink2);font-size:13px">Paste a CSV with this header into the box above. Rows are matched on Student ID.</p>
-        <div class="prompt">Student,Student ID,Class,8th STAAR %,8th STAAR Level,AP Exam
-"Reyes, Ava",410200,APHG 3B,82,Meets,Unpaid</div>
-        <p class="minor" style="margin:8px 0 0">STAAR Level: Masters, Meets, Approaches, Did Not Meet. AP Exam: Paid, Unpaid, Opted out. Optional last column <b>Accommodations</b> (e.g. "504; extended time") shows in the student panel only.</p>
+      <section class="card w6 paste" id="profileCard"><div class="ch"><h2>Student Profile (CSV)</h2><span class="sub">Not counted in averages · matched on Student ID</span></div><div class="cb">
+        <label class="field" for="profBox">Paste the profile CSV (or choose the file)</label>
+        <textarea id="profBox" aria-label="Student Profile CSV" placeholder="Student,Student ID,Class,8th STAAR %,8th STAAR Level,AP Exam,Q1 Grade,…"></textarea>
+        <div class="actions" style="margin-top:10px;justify-content:space-between"><label class="btn sm" style="cursor:pointer">Choose CSV file…<input type="file" id="profFile" accept=".csv,.tsv,.txt" hidden></label><button class="btn pri" data-act="import-profile">Import Student Profile (CSV)</button></div>
+        ${UI.lastResult && /profile/i.test(UI.lastResult)?`<div class="note" role="status" style="margin:10px 0 0;white-space:pre-line;color:var(--ok-ink);font-weight:700">${esc(UI.lastResult)}</div>`:''}
+        <details style="margin-top:10px"><summary class="minor" style="cursor:pointer;font-weight:700">Columns it understands</summary><div class="prompt" style="margin-top:6px">${esc('Student, Student ID, Class, 8th STAAR %, 8th STAAR Level, AP Exam, Q1 Grade, Q2 Grade (to date), TIA BOY 26-27 %, TIA BOY 26-27 test, Prior AP score (APHG 2026), Prior TIA BOY 25-26 %, Prior TIA EOY 25-26 %, Prior TIA test, Grade level, Q1 Unweighted GPA (all classes), Q1 Weighted GPA (all classes, est.), Q1 classes counted, Est. rank band (from Q1 weighted GPA), Est. quartile, Rank cutoffs used, AP scores (all, from Aware), PSAT history (total(EBRW/Math)), Best PSAT, SAT history, Best SAT, Q2-to-date Unweighted GPA (all classes), Q2-to-date Weighted GPA (all classes, est.), Q2 classes counted, Absences YTD (full-day), Unexcused/unresolved absences, Tardies YTD, Zeros (all classes), Classes below 70 now, Lowest class now, Power Hour drafts, Power Hour no-shows, Power Hour attended, Last Power Hour draft, Power Hour assigned now, Watch flags')}</div>
+        <p class="minor" style="margin:6px 0 0">Any other column (e.g. Counselor, TIA EOY) is kept and shown on the student's conference page. A student in two classes has one row per class; re-importing updates, never duplicates. Blank cells keep the earlier value.</p></details>
       </div></section>
       <section class="card w6"><div class="ch"><h2>Or drop exported files</h2></div><div class="cb">
         <div class="drop" id="drop"><h3>Drop CSV files here</h3><button class="btn" data-act="pick">Choose files…</button>
@@ -1368,10 +1437,21 @@ const OVERVIEW_CARDS = [
           <div class="rt"><span class="big" style="font-size:18px">${p0(av)}</span>${!sy?'<span class="pill none">· None</span>':stale?`<span class="pill watch">! ${Math.floor((Date.now()-sy.at)/864e5)}d old</span>`:'<span class="pill ok">✓ Fresh</span>'}</div></div>`;
       }).join('') + `<div style="margin-top:10px;text-align:right"><button class="link" data-go="import">Update data →</button></div>`;
   }},
-  { id:'periods', title:'Periods side by side', sub:'Average, status mix and missing work', size:'w8', render(m){
+  { id:'periods', title:'Classes side by side', sub:'Grades, status mix, and baseline averages from the profile', size:'w12', render(m){
       const rows = periodRows(m); if (!rows.length) return '<div class="empty">No classes yet.</div>';
-      return `<table class="t"><thead><tr><th>Class</th><th class="r">Students</th><th class="r">Average</th><th>On track / Watch / Help</th><th class="r">Missing</th></tr></thead><tbody>${rows.map(r=>`<tr><td><button class="link" style="font-size:13px;color:var(--ink)" data-period="${esc(r.cls)}">${esc(r.cls)}</button></td><td class="r num">${r.n}</td><td class="r"><span class="big ${r.avg!=null&&r.avg<S().atRisk?'help':''}" style="font-size:16px">${p0(r.avg)}</span></td>
-        <td><div style="display:flex;align-items:center;gap:8px"><span class="pbar" style="flex:1">${[['ok','var(--ok)'],['watch','var(--watch)'],['help','var(--help)']].map(([k,c])=>r[k]?`<i style="flex:${r[k]};background:${c}" data-tip="${STATUS[k].label}: ${r[k]}"></i>`:'').join('')}</span><span class="minor num" style="white-space:nowrap">${r.ok} / ${r.watch} / ${r.help}</span></div></td><td class="r num">${r.missing||'—'}</td></tr>`).join('')}</tbody></table>`;
+      const prof = rows.some(r=>r.staar.length||r.tia.length||r.gpa.length||r.abs.length);
+      return `<div style="overflow:auto"><table class="t"><thead><tr><th>Class</th><th class="r">Students</th><th class="r">Average</th><th>On track / Watch / Help</th><th class="r">Missing</th>${prof?'<th class="r">8th STAAR</th><th class="r">TIA BOY</th><th class="r">GPA (W)</th><th class="r">Absences</th>':''}</tr></thead><tbody>${rows.map(r=>`<tr><td><button class="link" style="font-size:13px;color:var(--ink)" data-period="${esc(r.cls)}">${esc(r.cls)}</button></td><td class="r num">${r.n}</td><td class="r"><span class="big ${r.avg!=null&&r.avg<S().atRisk?'help':''}" style="font-size:16px">${p0(r.avg)}</span></td>
+        <td><div style="display:flex;align-items:center;gap:8px"><span class="pbar" style="flex:1">${[['ok','var(--ok)'],['watch','var(--watch)'],['help','var(--help)']].map(([k,c])=>r[k]?`<i style="flex:${r[k]};background:${c}" data-tip="${STATUS[k].label}: ${r[k]}"></i>`:'').join('')}</span><span class="minor num" style="white-space:nowrap">${r.ok} / ${r.watch} / ${r.help}</span></div></td><td class="r num">${r.missing||'—'}</td>
+        ${prof?`<td class="r num">${r.staarAvg==null?'—':p0(r.staarAvg)}</td><td class="r num">${r.tiaAvg==null?'—':p0(r.tiaAvg)}</td><td class="r num">${r.gpaAvg==null?'—':fmt(r.gpaAvg,2)}</td><td class="r num">${r.absAvg==null?'—':fmt(r.absAvg,1)}</td>`:''}</tr>`).join('')}</tbody></table></div>
+        ${prof?'<p class="minor" style="margin:8px 0 0">GPA uses Q2-to-date weighted when present, otherwise Q1. Absences = average full-day absences this year.</p>':''}`;
+  }},
+  { id:'watchlist', title:'Watch list', sub:'School watch flags + dashboard flags', size:'w4', render(m){
+      const rows = m.studs.filter(s=>s.nflags).sort(UI.wsort==='name' ? (a,b)=>a.name.localeCompare(b.name) : (a,b)=>b.nflags-a.nflags || b.need-a.need);
+      if (!rows.length) return '<div class="empty">✓ No one is flagged.</div>';
+      return `<div class="tabs" style="margin-bottom:6px"><button aria-pressed="${UI.wsort!=='name'}" data-wsort="count">Most flags</button><button aria-pressed="${UI.wsort==='name'}" data-wsort="name">Name</button></div>
+        <div class="grab">${rows.slice(0,14).map(s=>`<button class="gi" data-student="${esc(s.key)}" style="grid-template-columns:1fr auto"><span style="min-width:0"><span class="who">${avatar(s.key,s.name,28)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · '))}</small></span></span>
+          <span class="tags" style="margin-top:5px">${flagChips(s.key)}${s.extra.map(r=>`<span class="tag ${r.t}">${r.icon} ${esc(r.label)}</span>`).join('')}</span></span><span class="count ${s.nflags>=3?'help':''}">${s.nflags}</span></button>`).join('')}</div>
+        ${rows.length>14?`<p class="minor" style="margin:8px 0 0">+${rows.length-14} more · turn on “Has flags” above to see them all in the roster</p>`:''}`;
   }},
   { id:'movers', title:'Biggest changes', sub:'Since your previous update', size:'w4', render(m){
       if (!DB.prev) return '<div class="empty">Changes show up after your next import.</div>';
@@ -1384,7 +1464,7 @@ const OVERVIEW_CARDS = [
       return STAAR.map(l => { const g = m.studs.filter(s=>s.profile?.staarLevel===l.id), av = mean(g.map(s=>s.avg).filter(v=>v!=null)), help = g.filter(s=>s.status==='help').length;
         return `<button class="srcrow" data-staar="${l.id}" style="width:100%;border-left:0;border-right:0;border-top:0;background:none;text-align:left"><span class="staar s-${l.id}" style="margin:0;min-width:84px;justify-content:center">${esc(l.short)}</span><div><b>${plural(g.length,'student')}</b><small>${help?`${help} need help`:'None need help'}</small></div><div class="rt"><span class="big" style="font-size:18px">${p0(av)}</span></div></button>`; }).join('');
   }},
-  { id:'heatmap', title:'Score heatmap', sub:'Recent assignments, lowest averages first', size:'w8', render(m){
+  { id:'heatmap', title:'Score heatmap', sub:'Recent assignments, lowest averages first', size:'w12', render(m){
       const a = m.assigns.slice(-24), rows = m.studs.filter(matchQ).filter(statusMatch).sort((x,y)=>(x.avg??999)-(y.avg??999));
       if (!a.length || !rows.length) return '<div class="empty">Nothing to show yet.</div>';
       const c = S().atRisk, heat = p => p<c-20?'var(--r3)':p<c-10?'var(--r2)':p<c?'var(--r1)':p<c+10?'var(--mid)':p<c+20?'var(--b1)':p<97?'var(--b2)':'var(--b3)';
@@ -1396,82 +1476,122 @@ const OVERVIEW_CARDS = [
 ];
 
 /* ---------- student drawer ---------- */
+const metHtml = (act, goal) => act==null || goal==null ? '<span class="minor">—</span>' : act >= goal ? '<span class="met y">✓ Met</span>' : `<span class="met n">✗ ${Math.round(goal-act)} short</span>`;
 function openStudent(key, fresh){
   if (!DB.students[key]) return;
   const keepScroll = !fresh && $('#layer .conf') && $('#layer').dataset.student===key ? $('#layer .conf').scrollTop : 0;
-  const s = studentFull(key), p = prof(key) || {}, lvl = staarOf(key), cut = S().atRisk, ag = DB.agency[key] || {};
+  const s = studentFull(key), p = prof(key) || {}, L = p.labels || {}, lvl = staarOf(key), cut = S().atRisk, ag = DB.agency[key] || {}, form = ag.form || {};
   const plats = S().sources.filter(pl => s.pts.some(x=>x.a.source===pl.id));
   const pname = id => id==='Gradebook' ? 'TAC / Gradebook' : id;
-  const num = v => { const n = parseFloat(String(v??'').replace(/[^\d.\-]/g,'')); return isNaN(n) ? null : n; };
-  const show = (v, suf='') => v==null || v==='' ? '—' : esc(v) + (suf && !/%$/.test(String(v)) && num(v)!=null ? suf : '');
-  const cell = (label, val, sub) => `<div class="cell"><span>${label}</span><b>${val}</b>${sub?`<small>${sub}</small>`:''}</div>`;
+  const show = v => v==null || v==='' ? '—' : esc(v);
+  const cell = (label, val, sub, cls='') => `<div class="cell ${cls}"><span>${label}</span><b>${val}</b>${sub?`<small>${sub}</small>`:''}</div>`;
+  const arrow = (a, b, dec=2) => { const x = pnum(a), y = pnum(b); if (x==null || y==null) return ''; const d = y - x; return Math.abs(d) < 1e-9 ? '<span class="arr flat">＝</span>' : `<span class="arr ${d>0?'up':'down'}">${d>0?'▲':'▼'} ${Math.abs(d).toFixed(dec)}</span>`; };
+  const warn = (v, red) => { const n = pnum(v); return n==null ? '' : n >= red ? 'bad' : n > 0 ? 'warnc' : ''; };
   const qNow = (() => { const qs = [1,2,3,4].filter(q => p['grade'+q]); return qs.length ? Math.max(...qs) : 1; })();
-  const actual = q => p['grade'+q] ? num(p['grade'+q]) : (q===qNow && s.avg!=null && !p['grade'+q] ? s.avg : null);
+  const actual = q => p['grade'+q] ? pnum(p['grade'+q]) : (q===qNow && s.avg!=null ? s.avg : null);
+  const apChip = p.apExam ? `<span class="flag ${p.apExam==='unpaid'?'red':p.apExam==='paid'?'ok':'gray'}">AP exam: ${p.apExam==='unpaid'?'$ ':''}${AP_EXAM[p.apExam]}</span>` : '';
+  const pcs = s.pts.filter(x => x.a.source==='AP Classroom' && /progress check/i.test(bare(x.a.name)));
+  const psat = testHistory(p.psatHist), sat = testHistory(p.satHist);
   const units = c => { const u = {}; c.pts.forEach(x => { const n = unitOf(x.a.name), t = typeOf(x.a.name); if (!n) return; (u[n] ||= {pts:[], pc:[], test:[], wr:[], miss:0}); u[n].pts.push(x); if (x.m) { u[n].miss++; return; } if (t) u[n][t==='writing'?'wr':t].push(x.p); }); return Object.entries(u).sort((a,b)=>a[0]-b[0]); };
   const tracker = c => { const rows = units(c); if (!rows.length) return `<div class="minor">No unit-tagged assignments for ${esc(c.cls||'this class')} yet.</div>`;
     return `<table class="ft"><thead><tr><th>Unit</th><th class="r">Progress check</th><th class="r">Unit test (raw)</th><th class="r">Writing</th><th class="r">Missing</th><th class="r">AP proj.</th></tr></thead><tbody>${rows.map(([u, d]) => { const pj = apProject(c.course, d.pts);
       return `<tr><td><b>U${u}</b></td><td class="r num">${d.pc.length?p0(mean(d.pc)):'—'}</td><td class="r num">${d.test.length?p0(mean(d.test)):'—'}</td><td class="r num">${d.wr.length?p0(mean(d.wr)):'—'}</td><td class="r num" style="${d.miss?'color:var(--help-ink);font-weight:800':''}">${d.miss||''}</td><td class="r">${pj?apBadgeScore(pj.score):'<span class="minor">—</span>'}</td></tr>`; }).join('')}</tbody></table>`; };
+  const myGrade = (cls, q) => (p.byClass?.[cls]?.['grade'+q]) ?? (s.cs.length===1 ? p['grade'+q] : null);
+  const other = Object.entries(Object.assign({}, p.counselor ? {Counselor: p.counselor} : {}, p.other || {}));
   $('#layer').innerHTML = `<div class="conf" role="dialog" aria-modal="true" aria-label="Conference: ${esc(s.name)}">
-    <div class="conf-bar"><b>Agency conference</b><span class="minor" style="color:var(--on-blk2)">${today()}</span>
+    <div class="conf-bar"><b>Student conference</b><span class="minor" style="color:var(--on-blk2)">${today()}</span>
       ${(() => { const order = rosterList(buildModel()).map(x=>x.key), i = order.indexOf(key); return i < 0 ? '' : `<button class="btn sm" data-confnav="${esc(order[(i-1+order.length)%order.length])}" aria-label="Previous student">‹ Prev</button><span class="minor" style="color:var(--on-blk2)">${i+1} of ${order.length}</span><button class="btn sm" data-confnav="${esc(order[(i+1)%order.length])}" aria-label="Next student">Next ›</button>`; })()}
       <span style="flex:1"></span>
       <button class="btn sm" data-email="${esc(key)}">Draft parent email</button>
-      <button class="btn sm pri" data-act="conf-print">${CAN_PRINT?'Print':'Printable text'}</button>
+      <button class="btn sm pri" data-act="conf-print">${CAN_PRINT?'Print / Save as PDF':'Printable text'}</button>
       <button class="btn sm" data-close aria-label="Close conference view">✕ Close</button></div>
     <div class="conf-page">
-      <div class="conf-head">${avatar(key, s.name, 56)}<div style="flex:1;min-width:220px"><h1>${esc(s.name)}</h1>
+      <div class="conf-head">${avatar(key, s.name, 56)}<div style="flex:1;min-width:240px"><h1>${esc(s.name)}</h1>
         <div class="meta">${p.gradeLevel?`Grade ${esc(p.gradeLevel)} · `:''}${esc(s.classes.join(' · ')||'No class')}${s.ids.length?` · ID ${esc(s.ids.join(', '))}`:''}${draftedTag(key)}</div>
-        <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center">${pill(s.status)}${tagsHtml(s.reasons)}${p.acc?p.acc.split(/[;,]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="acc" style="margin:0">${esc(x)}</span>`).join(''):''}</div></div>
-        <div class="cells" style="min-width:260px;flex:0 1 420px">${s.cs.map(c=>cell(esc(c.cls||'All work'), `<em style="${c.avg!=null&&c.avg<cut?'color:var(--help-ink)':''}">${p0(c.avg)}</em>`, `${letter(c.avg)} · ${c.missing.length} missing${c.proj?` · AP ${c.proj.score}`:''}`)).join('')}</div></div>
+        <div class="chiprow">${pill(s.status)}${apChip}${flagChips(key)}${s.reasons.map(r=>`<span class="tag ${r.t}" data-tip="${esc(r.tip)}">${r.icon} ${esc(r.label)}</span>`).join('')}${p.acc?p.acc.split(/[;,]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="acc" style="margin:0">${esc(x)}</span>`).join(''):''}</div></div>
+        <div class="cells" style="min-width:260px;flex:0 1 420px">${s.cs.map(c=>cell(esc(c.cls||'All work'), `<em style="${c.avg!=null&&c.avg<cut?'color:var(--help-ink)':''}">${p0(c.avg)}</em>`, `${letter(c.avg)} now · ${c.missing.length} missing${c.proj?` · AP ${c.proj.score}`:''}`)).join('')}</div></div>
 
       <div class="conf-grid">
-        <section class="fsec c6"><h2>Baseline <span>where they started</span></h2><div class="fb"><div class="cells">
-          ${cell('8th STAAR', p.staarPct!=null?Math.round(p.staarPct)+'%':'—', lvl?`<span class="staar s-${lvl.id}" style="margin:0">${esc(lvl.label)}</span>`:'')}
-          ${cell(esc(p.tiaLabel||'TIA BOY 26-27'), show(p.tiaBoy,'%'))}
-          ${cell(esc(p.priorTiaLabel||'Prior TIA 25-26'), show(p.priorTia,'%'))}
-          ${cell(esc(p.priorApLabel||'Prior AP score'), show(p.priorAp))}
-          ${cell('AP exam', p.apExam?`<em style="${p.apExam==='unpaid'?'color:var(--help-ink)':''}">${p.apExam==='unpaid'?'$ ':''}${AP_EXAM[p.apExam]}</em>`:'—')}
-        </div></div></section>
-
-        <section class="fsec c6"><h2>Academic snapshot <span>GPA &amp; rank estimate</span></h2><div class="fb">
-          <table class="ft"><thead><tr><th>Quarter</th><th class="r">Grade</th><th class="r">Weighted GPA</th><th class="r">Unweighted GPA</th></tr></thead><tbody>
-          ${[1,2,3,4].map(q=>`<tr><td><b>Q${q}</b>${q===qNow?' <span class="minor">to date</span>':''}</td><td class="r num">${show(p['grade'+q])}</td><td class="r num">${show(p['w'+q])}</td><td class="r num">${show(p['uw'+q])}</td></tr>`).join('')}</tbody></table>
-          <div class="cells" style="margin-top:10px">${cell('Est. rank band', show(p.rankBand))}${cell('Est. quartile', show(p.quartile))}${cell('Average now', p0(s.avg), letter(s.avg))}</div>
+        <section class="fsec c6"><h2>Grades &amp; GPA</h2><div class="fb">
+          <table class="ft"><thead><tr><th>My class</th><th class="r">Q1</th><th class="r">Q2 to date</th><th class="r">Now (dashboard)</th></tr></thead><tbody>
+            ${s.cs.filter(c=>c.cls).map(c=>`<tr><td><b>${esc(c.cls)}</b></td><td class="r num">${show(myGrade(c.cls,1))}</td><td class="r num">${show(myGrade(c.cls,2))} ${arrow(myGrade(c.cls,1), myGrade(c.cls,2), 0)}</td><td class="r num">${p0(c.avg)}</td></tr>`).join('') || '<tr><td colspan="4" class="minor">No class</td></tr>'}</tbody></table>
+          <table class="ft" style="margin-top:10px"><thead><tr><th>All-class GPA</th><th class="r">Q1</th><th class="r">Q2 to date</th><th class="r">Change</th></tr></thead><tbody>
+            <tr><td><b>Unweighted</b></td><td class="r num">${show(p.uw1)}</td><td class="r num">${show(p.uw2)}</td><td class="r">${arrow(p.uw1, p.uw2) || '—'}</td></tr>
+            <tr><td><b>Weighted</b> <span class="minor">est.</span></td><td class="r num">${show(p.w1)}</td><td class="r num">${show(p.w2)}</td><td class="r">${arrow(p.w1, p.w2) || '—'}</td></tr>
+            ${p.q1Count||p.q2Count?`<tr><td class="minor">Classes counted</td><td class="r minor">${show(p.q1Count)}</td><td class="r minor">${show(p.q2Count)}</td><td></td></tr>`:''}</tbody></table>
+          <div class="cells" style="margin-top:10px">${cell('Est. class rank', show(p.rankBand))}${cell('Est. quartile', show(p.quartile))}</div>
+          ${p.rankCutoffs?`<p class="fine">Cutoffs used: ${esc(p.rankCutoffs)}</p>`:''}
         </div></section>
 
-        <section class="fsec c12"><h2>Agency &amp; goals <span>rate 1–4 each quarter · set a grade goal · saved in this browser</span></h2><div class="fb" style="overflow:auto">
-          <table class="ft"><thead><tr><th>Quarter</th><th>Agency rating</th><th>Grade goal</th><th class="r">Actual</th><th>Goal met?</th><th>Student reflection / next step</th></tr></thead><tbody>
-          ${[1,2,3,4].map(q=>{ const a = ag['Q'+q] || {}, act = actual(q), goal = num(a.goal), met = act!=null && goal!=null ? act >= goal : null;
+        <section class="fsec c6"><h2>Tests</h2><div class="fb"><div class="cells">
+          ${cell('8th STAAR', p.staarPct!=null?Math.round(p.staarPct)+'%':'—', lvl?`<span class="staar s-${lvl.id}" style="margin:0">${esc(lvl.label)}</span>`:'')}
+          ${cell('TIA BOY', `${show(p.tiaBoy)} ${arrow(p.priorTiaBoy ?? p.priorTia, p.tiaBoy, 0)}`, `this year${p.tiaBoyTest?` · ${esc(p.tiaBoyTest)}`:''} · last yr ${show(p.priorTiaBoy ?? p.priorTia)}`)}
+          ${cell('TIA EOY', show(p.tiaEoy), `this year · last yr ${show(p.priorTiaEoy)}${p.priorTiaTest?` · ${esc(p.priorTiaTest)}`:''}`)}
+          ${cell(esc(L.priorAp || p.priorApLabel || 'Prior AP score'), show(p.priorAp), p.apScores?`All AP: ${esc(p.apScores)}`:'')}
+          ${cell('PSAT', show(p.bestPsat), `${psat.length?psat.map(x=>x.total).join(' → '):'no history'}${miniLine(psat.map(x=>x.total)) ? '<br>'+miniLine(psat.map(x=>x.total)) : ''}`)}
+          ${cell('SAT', show(p.bestSat), `${sat.length?sat.map(x=>x.total).join(' → '):'no history'}${miniLine(sat.map(x=>x.total)) ? '<br>'+miniLine(sat.map(x=>x.total)) : ''}`)}
+        </div>
+        <div style="margin-top:10px"><div class="minor" style="font-weight:800;margin-bottom:5px">AP CLASSROOM PROGRESS CHECKS</div>
+          ${pcs.length?`<div class="namechips">${pcs.map(x=>`<span class="nchip" data-tip="${esc(x.a.name)}" style="${!x.m&&x.p<S().retestCap?'box-shadow:inset 0 0 0 1.5px var(--watch)':''}">${esc(s.cs.length>1?x.a.name:bare(x.a.name))}<b>${x.m?'M':p0(x.p)}</b></span>`).join('')}</div>`:'<div class="minor">None yet.</div>'}</div>
+        </div></section>
+
+        <section class="fsec c4"><h2>Attendance &amp; risk</h2><div class="fb"><div class="cells two">
+          ${cell('Absences YTD', show(p.absences), 'full-day', warn(p.absences, 10))}
+          ${cell('Unexcused / unresolved', show(p.unexcused), '', warn(p.unexcused, 3))}
+          ${cell('Tardies YTD', show(p.tardies), '', warn(p.tardies, 10))}
+          ${cell('Zeros (all classes)', show(p.zeros), '', warn(p.zeros, 3))}
+          ${cell('Classes below 70', show(p.below70), '', warn(p.below70, 1))}
+          ${cell('Lowest class now', show(p.lowestClass))}
+        </div></div></section>
+
+        <section class="fsec c4"><h2>Power Hour</h2><div class="fb"><div class="cells two">
+          ${cell('Drafts', show(p.phDrafts))}${cell('No-shows', show(p.phNoShows), '', warn(p.phNoShows, 2))}
+          ${cell('Attended', show(p.phAttended))}${cell('Last draft', show(p.phLast))}
+        </div>
+          ${p.phNow?`<p class="fine" style="font-size:12px;color:var(--ink)"><b>Assigned now:</b> ${esc(p.phNow)}</p>`:''}
+          ${(DB.drafts[key]||[]).length?`<p class="fine">Drafted from this dashboard: ${(DB.drafts[key]).slice(-5).reverse().map(d=>esc(d.day)).join(' · ')}</p>`:''}
+        </div></section>
+
+        <section class="fsec c4"><h2>Missing work <span>${s.missing.length}</span></h2><div class="fb">
+          ${s.missing.length?`<div class="mlist">${s.missing.map(m=>`<div><span>${esc(s.cs.length>1?m.a.name:bare(m.a.name))}</span><span>${esc(m.a.source==='Gradebook'?'TAC':m.a.source)}</span></div>`).join('')}</div>`:'<div class="minor">✓ Nothing missing.</div>'}
+        </div></section>
+
+        <section class="fsec c12"><h2>Agency conferencing goals <span>saved in this browser · prints with the summary</span></h2><div class="fb">
+          <div class="goalform">
+            <label class="field">Goal<textarea class="in" rows="2" data-agform="${esc(key)}|goal" placeholder="What does the student want to achieve? (e.g. raise APHG to an 85 by the end of Q2)">${esc(form.goal||'')}</textarea></label>
+            <label class="field">Action steps<textarea class="in" rows="3" data-agform="${esc(key)}|steps" placeholder="1. &#10;2. &#10;3. ">${esc(form.steps||'')}</textarea></label>
+            <div class="goalside"><label class="field">Check-in date<input class="in" type="date" data-agform="${esc(key)}|checkin" value="${esc(form.checkin||'')}"></label>
+              <label class="field">Support from me<input class="in" data-agform="${esc(key)}|support" value="${esc(form.support||'')}" placeholder="e.g. Power Hour Thursdays"></label></div>
+            <label class="field" style="grid-column:1/-1">Notes<textarea class="confnote" id="confNote" data-confnote="${esc(key)}" placeholder="Strengths, concerns, what the student said, who attended…">${esc(DB.confNotes[key]||'')}</textarea></label>
+          </div>
+          <table class="ft" style="margin-top:6px"><thead><tr><th>Quarter</th><th>Agency rating</th><th>Grade goal</th><th class="r">Actual</th><th>Goal met?</th><th>Reflection / next step</th></tr></thead><tbody>
+          ${[1,2,3,4].map(q=>{ const a = ag['Q'+q] || {}, act = actual(q), goal = pnum(a.goal);
             return `<tr><td><b>Q${q}</b></td><td><span class="rate" role="group" aria-label="Q${q} agency rating">${[1,2,3,4].map(n=>`<button aria-pressed="${+a.rating===n}" data-agrate="${esc(key)}|Q${q}|${n}">${n}</button>`).join('')}</span></td>
-              <td style="width:110px"><input data-agency="${esc(key)}|Q${q}|goal" value="${esc(a.goal||'')}" placeholder="e.g. 85" inputmode="decimal" aria-label="Q${q} grade goal"></td>
+              <td style="width:100px"><input data-agency="${esc(key)}|Q${q}|goal" value="${esc(a.goal||'')}" placeholder="e.g. 85" inputmode="decimal" aria-label="Q${q} grade goal"></td>
               <td class="r num"><b>${act==null?'—':p0(act)}</b>${act!=null&&!p['grade'+q]?' <span class="minor">live</span>':''}</td>
               <td data-met="${esc(key)}|Q${q}" data-actual="${act==null?'':act}">${metHtml(act, goal)}</td>
               <td><input data-agency="${esc(key)}|Q${q}|next" value="${esc(a.next||'')}" placeholder="What will they do differently?" aria-label="Q${q} next step"></td></tr>`; }).join('')}</tbody></table>
-          <p class="minor" style="margin:8px 0 0">1 = needs heavy support · 2 = developing · 3 = proficient · 4 = owns their learning.</p>
+          <p class="fine">Agency rating: 1 = needs heavy support · 2 = developing · 3 = proficient · 4 = owns their learning.</p>
         </div></section>
 
-        ${s.cs.filter(c=>c.cls).map(c=>`<section class="fsec ${s.cs.length>1?'c6':'c12'}"><h2>Unit tracker · ${esc(c.cls)} <span>${c.proj?`overall AP projection ${c.proj.score} (MC ${p0(c.proj.mcPct)}${c.proj.wrPct!=null?`, writing ${p0(c.proj.wrPct)}`:''})`:'no AP Classroom MC yet'}</span></h2><div class="fb" style="overflow:auto">${tracker(c)}</div></section>`).join('')}
+        ${s.cs.filter(c=>c.cls).map(c=>`<section class="fsec ${s.cs.length>1?'c6':'c12'} noprint1"><h2>Unit tracker · ${esc(c.cls)} <span>${c.proj?`overall AP projection ${c.proj.score} (MC ${p0(c.proj.mcPct)}${c.proj.wrPct!=null?`, writing ${p0(c.proj.wrPct)}`:''})`:'no AP Classroom MC yet'}</span></h2><div class="fb" style="overflow:auto">${tracker(c)}</div></section>`).join('')}
 
-        <section class="fsec c12"><h2>Every score, side by side <span>trend oldest → newest · red dot = missing · dashed line = ${cut}% cutoff</span></h2><div class="fb">
+        <section class="fsec c12 noprint1"><h2>Every score, side by side <span>trend oldest → newest · red dot = missing · dashed line = ${cut}% cutoff</span></h2><div class="fb">
           ${plats.length?`<div class="cplat" style="grid-template-columns:repeat(${plats.length},minmax(0,1fr))">${plats.map(pl=>{ const pts = s.pts.filter(x=>x.a.source===pl.id), av = mean(pts.map(x=>x.p));
             return `<div class="pcol" style="--c:${pl.color}"><div class="pcol-h"><b>${esc(pname(pl.id))}</b><span class="minor">${pts.length}</span><span class="big ${av!=null&&av<cut?'help':''}">${p0(av)}</span></div>
               <div style="padding:4px 10px 0">${spark(pts, 90, true)}</div>
               <div class="pcol-b">${pts.slice().reverse().map(x=>`<div class="prow" data-tip="${esc(x.a.name)}"><span>${esc(s.cs.length>1?x.a.name:bare(x.a.name))}</span>${x.m?'<b class="ms">MISSING</b>':`<b>${p0(x.p)}</b>`}</div>`).join('')}</div></div>`; }).join('')}</div>`:'<div class="minor">No scores yet.</div>'}
         </div></section>
 
-        <section class="fsec c5"><h2>Missing work <span>${s.missing.length}</span></h2><div class="fb">
-          ${s.missing.length?`<div class="mlist">${s.missing.map(m=>`<div><span>${esc(s.cs.length>1?m.a.name:bare(m.a.name))}</span><span>${esc(m.a.source==='Gradebook'?'TAC':m.a.source)}</span></div>`).join('')}</div>`:'<div class="minor">✓ Nothing missing.</div>'}
-          <div class="noprint" style="margin-top:14px"><div class="minor" style="font-weight:800;margin-bottom:6px">PARENT CONTACT</div>
-            <div class="clog">${CONTACT_TYPES.map(t=>`<button class="btn sm" data-contact="${esc(key)}|${t}">＋ ${t}</button>`).join('')}</div>
-            <input class="in" id="contactNote" placeholder="Optional note for the contact" style="margin-top:8px">
-            <div class="notes">${(DB.contacts[key]||[]).slice().reverse().slice(0,5).map((c,i)=>`<div class="n">${esc(c.type)}${c.note?` — ${esc(c.note)}`:''}<small>${new Date(c.at).toLocaleDateString()} · <button class="link" data-delcontact="${DB.contacts[key].length-1-i}">delete</button></small></div>`).join('')}</div>
-            <div class="minor">Remember to document parent contact in eSchool too.</div></div>
+        <section class="fsec c6 noprint"><h2>Parent contact</h2><div class="fb">
+          <div class="clog">${CONTACT_TYPES.map(t=>`<button class="btn sm" data-contact="${esc(key)}|${t}">＋ ${t}</button>`).join('')}</div>
+          <input class="in" id="contactNote" placeholder="Optional note for the contact" style="margin-top:8px">
+          <div class="notes">${(DB.contacts[key]||[]).slice().reverse().slice(0,5).map((c,i)=>`<div class="n">${esc(c.type)}${c.note?` — ${esc(c.note)}`:''}<small>${new Date(c.at).toLocaleDateString()} · <button class="link" data-delcontact="${DB.contacts[key].length-1-i}">delete</button></small></div>`).join('')}</div>
+          <div class="minor">Remember to document parent contact in eSchool too.</div>
         </div></section>
 
-        <section class="fsec c7"><h2>Conference notes <span>saved automatically in this browser</span></h2><div class="fb">
-          <label class="sr" for="confNote">Conference notes</label>
-          <textarea class="confnote" id="confNote" data-confnote="${esc(key)}" placeholder="Strengths, concerns, student goals, agreed next steps, who attended…">${esc(DB.confNotes[key]||'')}</textarea>
-          ${(DB.notes[key]||[]).length?`<div class="notes" style="margin-top:8px">${DB.notes[key].slice().reverse().map((n,i)=>`<div class="n">${esc(n.text)}<small>${new Date(n.at).toLocaleDateString()} · <button class="link noprint" data-delnote="${DB.notes[key].length-1-i}">delete</button></small></div>`).join('')}</div>`:''}
+        <section class="fsec c6 ${other.length?'':'noprint'}"><h2>Other profile fields <span>extra columns from the import</span></h2><div class="fb">
+          ${other.length?`<table class="ft"><tbody>${other.map(([k,v])=>`<tr><td class="minor" style="width:45%">${esc(k)}</td><td><b>${esc(v)}</b></td></tr>`).join('')}</tbody></table>`:'<div class="minor">None. New columns you add to the profile CSV (Counselor, TIA EOY, …) show up here.</div>'}
         </div></section>
       </div>
     </div></div>`;
@@ -1479,15 +1599,18 @@ function openStudent(key, fresh){
   document.body.classList.add('conf-open');
   const cf = $('#layer .conf'); cf.scrollTop = keepScroll; if (!keepScroll) $('.conf-bar [data-close]').focus();
 }
-const metHtml = (act, goal) => act==null || goal==null ? '<span class="minor">—</span>' : act >= goal ? '<span class="met y">✓ Met</span>' : `<span class="met n">✗ ${Math.round(goal-act)} short</span>`;
 function confText(key){
-  const s = studentFull(key), p = prof(key) || {}, ag = DB.agency[key] || {}, L = [`Agency conference — ${s.name}`, `${s.classes.join(' · ')} · ${today()}`, ''];
-  L.push('BASELINE', `8th STAAR: ${p.staarPct!=null?Math.round(p.staarPct)+'%':'—'} ${staarOf(key)?.label||''}`, `TIA BOY: ${p.tiaBoy||'—'} · Prior TIA: ${p.priorTia||'—'} · Prior AP: ${p.priorAp||'—'} · AP exam: ${AP_EXAM[p.apExam]||'—'}`, '');
-  L.push('ACADEMIC SNAPSHOT'); [1,2,3,4].forEach(q => { if (p['grade'+q]||p['w'+q]||p['uw'+q]) L.push(`Q${q}: grade ${p['grade'+q]||'—'} · weighted ${p['w'+q]||'—'} · unweighted ${p['uw'+q]||'—'}`); }); L.push(`Rank band: ${p.rankBand||'—'} · Quartile: ${p.quartile||'—'}`, '');
-  L.push('AGENCY & GOALS'); [1,2,3,4].forEach(q => { const a = ag['Q'+q]; if (a) L.push(`Q${q}: agency ${a.rating||'—'} · goal ${a.goal||'—'}${a.next?` · next: ${a.next}`:''}`); }); L.push('');
-  L.push('CURRENT'); s.cs.forEach(c => L.push(`${c.cls}: ${p0(c.avg)} ${letter(c.avg)} · ${c.missing.length} missing${c.proj?` · AP projection ${c.proj.score}`:''}`));
-  if (s.missing.length) L.push('', 'MISSING', ...s.missing.map(m=>`• ${m.a.name}`));
+  const s = studentFull(key), p = prof(key) || {}, ag = DB.agency[key] || {}, f = ag.form || {}, L = [`Student conference — ${s.name}`, `${p.gradeLevel?`Grade ${p.gradeLevel} · `:''}${s.classes.join(' · ')}${s.ids[0]?` · ID ${s.ids[0]}`:''} · ${today()}`];
+  if (p.apExam) L.push(`AP exam: ${AP_EXAM[p.apExam]}`); if (schoolFlags(key).length) L.push(`Watch flags: ${schoolFlags(key).join('; ')}`); L.push('');
+  L.push('GRADES'); s.cs.forEach(c => L.push(`${c.cls}: Q1 ${p.byClass?.[c.cls]?.grade1 ?? '—'} · Q2 ${p.byClass?.[c.cls]?.grade2 ?? '—'} · now ${p0(c.avg)} · ${c.missing.length} missing${c.proj?` · AP proj ${c.proj.score}`:''}`));
+  L.push(`GPA unweighted: Q1 ${p.uw1||'—'} → Q2 ${p.uw2||'—'} · weighted: Q1 ${p.w1||'—'} → Q2 ${p.w2||'—'}`, `Est. rank: ${p.rankBand||'—'} · quartile ${p.quartile||'—'}${p.rankCutoffs?` (cutoffs: ${p.rankCutoffs})`:''}`, '');
+  L.push('TESTS', `8th STAAR: ${p.staarPct!=null?Math.round(p.staarPct)+'%':'—'} ${staarOf(key)?.label||''}`, `TIA BOY: ${p.tiaBoy||'—'} (last year ${p.priorTiaBoy||p.priorTia||'—'}) · TIA EOY last year: ${p.priorTiaEoy||'—'}`, `Prior AP: ${p.priorAp||'—'}${p.apScores?` · all AP: ${p.apScores}`:''}`, `PSAT: ${p.psatHist||'—'} (best ${p.bestPsat||'—'}) · SAT: ${p.satHist||'—'} (best ${p.bestSat||'—'})`, '');
+  L.push('ATTENDANCE & RISK', `Absences ${p.absences||'—'} · unexcused ${p.unexcused||'—'} · tardies ${p.tardies||'—'} · zeros ${p.zeros||'—'} · classes below 70 ${p.below70||'—'} · lowest ${p.lowestClass||'—'}`);
+  L.push(`Power Hour: drafts ${p.phDrafts||'—'} · no-shows ${p.phNoShows||'—'} · attended ${p.phAttended||'—'} · last ${p.phLast||'—'}${p.phNow?` · assigned now ${p.phNow}`:''}`, '');
+  L.push('AGENCY CONFERENCING GOALS', `Goal: ${f.goal||''}`, `Action steps: ${f.steps||''}`, `Check-in date: ${f.checkin||''}`, `Support: ${f.support||''}`);
+  [1,2,3,4].forEach(q => { const a = ag['Q'+q]; if (a && (a.rating||a.goal||a.next)) L.push(`Q${q}: agency ${a.rating||'—'} · grade goal ${a.goal||'—'}${a.next?` · next: ${a.next}`:''}`); });
   if (DB.confNotes[key]) L.push('', 'NOTES', DB.confNotes[key]);
+  if (s.missing.length) L.push('', 'MISSING WORK', ...s.missing.map(m=>`• ${m.a.name}`));
   return L.join('\n');
 }
 function spark(pts, H = 120, compact = false){
@@ -1569,47 +1692,70 @@ function importCanvas(rows, file, stay, year){
 }
 
 /* Profile layout: Student, Student ID, Class, 8th STAAR %, 8th STAAR Level, AP Exam (never counted in averages) */
-function isProfile(rows){ const h = rows[0].map(x=>x.trim().toLowerCase()); return h.some(x=>/staar/.test(x)) || h.some(x=>/^ap exam/.test(x)); }
-/* Conference-form columns: anything blank keeps the earlier value */
-function profileExtras(h, raw, r){
-  const x = {};
-  h.forEach((hh, i) => { const v = String(r[i] ?? '').trim(); if (!v) return; let m;
-    if ((m = hh.match(/^q([1-4])\s*grade/))) x['grade'+m[1]] = v;
-    else if ((m = hh.match(/^q([1-4])\s*unweighted\s*gpa/))) x['uw'+m[1]] = v;
-    else if ((m = hh.match(/^q([1-4])\s*weighted\s*gpa/))) x['w'+m[1]] = v;
-    else if (/prior\s*tia/.test(hh)) { x.priorTia = v; x.priorTiaLabel = raw[i].trim(); }
-    else if (/^tia/.test(hh)) { x.tiaBoy = v; x.tiaLabel = raw[i].trim(); }
-    else if (/prior\s*ap/.test(hh)) { x.priorAp = v; x.priorApLabel = raw[i].trim(); }
-    else if (/grade\s*level/.test(hh)) x.gradeLevel = v;
-    else if (/rank/.test(hh)) x.rankBand = v;
-    else if (/quartile/.test(hh)) x.quartile = v;
-  });
-  return x;
+/* ---------- Student Profile (CSV) ----------
+   One row per student per class, matched on Student ID (+ Class for per-class grades).
+   Re-importing updates fields; blank cells keep the earlier value. Unknown columns are kept in `other`. */
+const PROFILE_FIELDS = [
+  ['name', /^student( name)?$|^name$/], ['id', /^student id$|^id( number)?$/], ['cls', /^class$/],
+  ['staarPct', /staar.*(%|pct|percent|score)/], ['staarLevel', /staar.*level/], ['apExam', /^ap exam/],
+  ['grade1', /^q1 grade/], ['grade2', /^q2 grade/], ['grade3', /^q3 grade/], ['grade4', /^q4 grade/],
+  ['tiaBoyTest', /^tia boy.*test/], ['tiaBoy', /^tia boy/], ['tiaEoyTest', /^tia eoy.*test/], ['tiaEoy', /^tia eoy/],
+  ['priorAp', /^prior ap/], ['priorTiaTest', /^prior tia.*test/], ['priorTiaBoy', /^prior tia boy(?!\s*\/)/], ['priorTiaEoy', /^prior tia eoy/], ['priorTia', /^prior tia/],
+  ['gradeLevel', /^grade level/],
+  ...[1,2,3,4].flatMap(q => [['q'+q+'Count', new RegExp(`^q${q}(-to-date)? classes counted`)], ['uw'+q, new RegExp(`^q${q}(-to-date)? unweighted gpa`)], ['w'+q, new RegExp(`^q${q}(-to-date)? weighted gpa`)]]),
+  ['rankCutoffs', /rank cutoffs/], ['rankBand', /rank band/], ['quartile', /quartile/],
+  ['apScores', /^ap scores/], ['psatHist', /^psat history/], ['bestPsat', /^best psat/], ['satHist', /^sat history/], ['bestSat', /^best sat/],
+  ['unexcused', /unexcused/], ['absences', /^absences/], ['tardies', /^tardies/], ['zeros', /^zeros/], ['below70', /classes below 70/], ['lowestClass', /^lowest class/],
+  ['phNoShows', /power hour no-?shows?/], ['phAttended', /power hour attended/], ['phLast', /last power hour/], ['phNow', /power hour assigned/], ['phDrafts', /^power hour drafts/],
+  ['watchFlags', /^watch flags/], ['acc', /accommodation|^504$|^iep$/], ['counselor', /^counselor/],
+];
+const PER_CLASS = new Set(['grade1','grade2','grade3','grade4']);
+function isProfile(rows){ const h = rows[0].map(x=>x.trim().toLowerCase()); return h.some(x=>/staar/.test(x)) || h.some(x=>/^ap exam/.test(x)) || (h.includes('student id') && h.some(x=>/gpa|tia|psat|watch flags/.test(x)) && !h.includes('platform')); }
+function profileMap(header){
+  const used = new Set();
+  return header.map(raw => { const hh = String(raw).trim().toLowerCase().replace(/\s+/g,' '); const f = PROFILE_FIELDS.find(([k, re]) => !used.has(k) && re.test(hh)); if (f) { used.add(f[0]); return f[0]; } return null; });
 }
 function importProfile(rows, file, stay){
-  const h = rows[0].map(x=>x.trim().toLowerCase()), col = re => h.findIndex(x=>re.test(x));
-  const nameI = col(/^student( name)?$|^name$/), idI = col(/student id|^id$/), clsI = col(/^class$/), pctI = col(/staar.*(%|pct|percent|score)/), lvlI = col(/staar.*level/), apI = col(/^ap exam/), accI = col(/accommodation|^504|^iep|^ell?$|^eb$|^sped/);
+  const header = rows[0].map(x=>String(x).trim()), map = profileMap(header), col = k => map.indexOf(k);
   let n = 0, created = 0;
   rows.slice(1).forEach(r => {
-    const id = idI>=0 ? (r[idI]||'').trim() : '', name = nameI>=0 ? r[nameI] : '';
-    if (!id && !(name||'').trim()) return;
+    const id = col('id')>=0 ? String(r[col('id')]||'').trim() : '', name = col('name')>=0 ? r[col('name')] : '', cls = col('cls')>=0 ? String(r[col('cls')]||'').trim() : '';
+    if (!id && !String(name||'').trim()) return;
     const existed = (id && DB.idmap[id]) || DB.students[nameKey(name)];
-    const key = upsertStudent(name, id, clsI>=0 ? r[clsI] : ''); if (!key) return;
+    const key = upsertStudent(name, id, cls); if (!key) return;
     if (!existed) created++;
-    const pv = pctI>=0 ? parseFloat(String(r[pctI]).replace(/[^\d.]/g,'')) : NaN;
-    DB.profiles[key] = Object.assign(DB.profiles[key] || {}, {
-      staarPct: isNaN(pv) ? (DB.profiles[key]?.staarPct ?? null) : pv,
-      staarLevel: lvlI>=0 && normStaar(r[lvlI]) ? normStaar(r[lvlI]) : (DB.profiles[key]?.staarLevel || ''),
-      apExam: apI>=0 && normAp(r[apI]) ? normAp(r[apI]) : (DB.profiles[key]?.apExam || ''),
-      acc: accI>=0 ? String(r[accI]||'').trim() : (DB.profiles[key]?.acc || ''),
-    }, profileExtras(h, rows[0], r));
+    const p = DB.profiles[key] ||= {};
+    header.forEach((hd, i) => {
+      const v = String(r[i] ?? '').trim(), f = map[i];
+      if (!v || ['name','id','cls'].includes(f)) return;
+      if (!f) { (p.other ||= {})[hd] = v; return; }
+      (p.labels ||= {})[f] = hd;
+      if (f === 'staarPct') { const nv = parseFloat(v.replace(/[^\d.]/g,'')); if (!isNaN(nv)) p.staarPct = nv; return; }
+      if (f === 'staarLevel') { if (normStaar(v)) p.staarLevel = normStaar(v); return; }
+      if (f === 'apExam') { if (normAp(v)) p.apExam = normAp(v); return; }
+      if (PER_CLASS.has(f) && cls) ((p.byClass ||= {})[cls] ||= {})[f] = v;
+      p[f] = v;
+    });
     n++;
   });
   DB.imports.push({file: file.startsWith('Pasted ') ? 'Pasted profile data' : file, source:'Profile', at: Date.now(), students: n, assignments: 0});
-  const msg = `Imported ${plural(n,'student profile')}${created?` (${created} new student${created===1?'':'s'})`:''}`;
+  const unknown = header.filter((h,i)=>!map[i]).length;
+  const msg = `Imported ${plural(n,'profile row')}${created?` (${created} new student${created===1?'':'s'})`:''}${unknown?` · ${unknown} extra column${unknown===1?'':'s'} kept`:''}`;
   save(); toast(msg);
   if (stay){ UI.lastResult = (UI.lastResult ? UI.lastResult + '\n' : '') + '✓ ' + msg; render(); return; }
   go('overview');
+}
+/* profile helpers */
+const pnum = v => { const n = parseFloat(String(v ?? '').replace(/[^\d.\-]/g,'')); return isNaN(n) ? null : n; };
+function schoolFlags(key){ const f = prof(key)?.watchFlags; return f ? String(f).split(/\s*[;|]\s*|\s*,\s*(?=[A-Z0-9])/).map(x=>x.trim()).filter(Boolean) : []; }
+const flagSev = f => /below|zero|fail|unexcused|no.?show|\bF\b|missing|chronic/i.test(f) ? 'red' : 'amber';
+const flagChips = key => schoolFlags(key).map(f => `<span class="flag ${flagSev(f)}">${flagSev(f)==='red'?'▼':'!'} ${esc(f)}</span>`).join('');
+const quartOf = key => { const m = String(prof(key)?.quartile || '').match(/[1-4]/); return m ? 'Q'+m[0] : ''; };
+function testHistory(str){ return String(str||'').split(/\s*[;|]\s*|\s*,\s*(?=\S*\d{3,4}\s*\()/).map(x => { const m = x.match(/(\d{3,4})\s*(?:\(([^)]*)\))?/); return m ? {total:+m[1], parts:m[2]||'', raw:x.trim()} : null; }).filter(Boolean); }
+function miniLine(vals, w = 160, h = 34){
+  if (vals.length < 2) return '';
+  const lo = Math.min(...vals) - 20, hi = Math.max(...vals) + 20, x = i => 4 + i*(w-8)/(vals.length-1), y = v => h-4 - (v-lo)*(h-8)/(hi-lo);
+  return `<svg class="miniline" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" aria-hidden="true"><path d="${vals.map((v,i)=>`${i?'L':'M'}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join('')}" fill="none" stroke="var(--tq)" stroke-width="2"/>${vals.map((v,i)=>`<circle cx="${x(i)}" cy="${y(v)}" r="3" fill="var(--tq)"/>`).join('')}</svg>`;
 }
 
 const sig = h => h.map(x=>x.trim().toLowerCase()).join('|');
@@ -1780,11 +1926,21 @@ function loadSample(){
     if (i % 13 !== 7) {
       const sp = Math.max(30, Math.min(99, skill + (rnd()-.5)*24));
       const u = rnd();
-      const g10 = cls[0].startsWith('APHG'), q1 = Math.max(55, Math.min(100, skill + (rnd()-.5)*10)), uw = Math.max(2, Math.min(4, 1.6 + q1/40 + (rnd()-.5)*.3));
+      const g10 = cls[0].startsWith('APHG'), q1 = Math.max(55, Math.min(100, skill + (rnd()-.5)*10)), q2 = Math.max(50, q1 + (rnd()-.6)*12), uw = Math.max(2, Math.min(4, 1.6 + q1/40 + (rnd()-.5)*.3)), uw2 = Math.max(1.8, Math.min(4, uw + (q2-q1)/40));
+      const qt = Math.min(4, 1 + Math.floor((100-q1)/9)), abs = Math.floor(rnd()*rnd()*14), zeros = q1 < 72 ? 1 + Math.floor(rnd()*4) : Math.floor(rnd()*1.4), drafts = q1 < 75 ? 1 + Math.floor(rnd()*5) : Math.floor(rnd()*2), noshow = drafts ? Math.floor(rnd()*Math.min(3, drafts+1)) : 0;
+      const flags = [q2 < 70 && 'Below 70 in a class', zeros >= 3 && `${zeros} zeros`, abs >= 9 && 'Attendance', noshow >= 2 && 'Power Hour no-shows'].filter(Boolean);
+      const psat1 = Math.round(820 + sp*5 + (rnd()-.5)*80), psat2 = psat1 + Math.round((rnd()-.3)*90);
       DB.profiles[key] = {staarPct: Math.round(sp), staarLevel: sp>=85?'masters':sp>=70?'meets':sp>=55?'approaches':'dnm', apExam: u<.68?'paid':u<.88?'unpaid':'opted',
-        gradeLevel: g10 ? '9' : '10', grade1: String(Math.round(q1)), grade2: String(Math.round(Math.max(50, q1 + (rnd()-.6)*12))), tiaBoy: Math.round(Math.max(20, sp - 15 + (rnd()-.5)*20)) + '%',
-        priorTia: g10 ? '' : Math.round(Math.max(20, sp - 5 + (rnd()-.5)*20)) + '%', priorAp: g10 ? '' : String(Math.max(1, Math.min(5, Math.round((sp-30)/14)))), priorApLabel: 'Prior AP score (APHG 2026)',
-        uw1: uw.toFixed(2), w1: (uw + 0.9 + rnd()*.4).toFixed(2), rankBand: ['Top 10%','Top 25%','Top 50%','Bottom 50%'][Math.min(3, Math.floor((100-q1)/9))], quartile: 'Q' + Math.min(4, 1 + Math.floor((100-q1)/9))};
+        gradeLevel: g10 ? '9' : '10', grade1: String(Math.round(q1)), grade2: String(Math.round(q2)), byClass: Object.fromEntries(cls.map((c,ci) => [c, {grade1: String(Math.round(q1 - ci*3)), grade2: String(Math.round(q2 - ci*3))}])),
+        tiaBoy: Math.round(Math.max(20, sp - 15 + (rnd()-.5)*20)) + '%', tiaBoyTest: g10 ? 'TIA BOY APHG' : 'TIA BOY AP World',
+        priorTiaBoy: g10 ? '' : Math.round(Math.max(20, sp - 20 + (rnd()-.5)*20)) + '%', priorTiaEoy: g10 ? '' : Math.round(Math.max(25, sp - 5 + (rnd()-.5)*16)) + '%', priorTiaTest: g10 ? '' : 'TIA APHG',
+        priorAp: g10 ? '' : String(Math.max(1, Math.min(5, Math.round((sp-30)/14)))), apScores: g10 ? '' : `APHG ${Math.max(1, Math.min(5, Math.round((sp-30)/14)))} (2026)`,
+        uw1: uw.toFixed(2), w1: (uw + 0.9 + rnd()*.4).toFixed(2), q1Count: '7', uw2: uw2.toFixed(2), w2: (uw2 + 0.9 + rnd()*.4).toFixed(2), q2Count: '7',
+        rankBand: ['Top 10%','Top 25%','Top 50%','Bottom 50%'][qt-1], quartile: 'Q' + qt, rankCutoffs: 'Sample cutoffs: Top 10% ≥ 4.60 · Top 25% ≥ 4.30 · Top 50% ≥ 3.90 (weighted)',
+        psatHist: g10 ? `${psat1}(${Math.round(psat1/2)}/${psat1-Math.round(psat1/2)})` : `${psat1}(${Math.round(psat1/2)}/${psat1-Math.round(psat1/2)}); ${psat2}(${Math.round(psat2/2)}/${psat2-Math.round(psat2/2)})`, bestPsat: String(Math.max(psat1, g10 ? 0 : psat2)),
+        satHist: '', bestSat: '', absences: String(abs), unexcused: String(Math.floor(abs*rnd()*.5)), tardies: String(Math.floor(rnd()*8)), zeros: String(zeros), below70: String(q2 < 70 ? 1 : 0), lowestClass: q2 < 75 ? `${cls[0]} ${Math.round(q2)}` : `Geometry ${Math.round(Math.min(q2, 82))}`,
+        phDrafts: String(drafts), phNoShows: String(noshow), phAttended: String(drafts - noshow), phLast: drafts ? 'Thu, Oct 29' : '', phNow: q2 < 70 ? 'Tue, Nov 3 · A Block' : '', watchFlags: flags.join('; '),
+        other: i % 6 === 0 ? {'Counselor (sample)': ['Ms. A','Mr. B','Ms. C'][i%3]} : {}};
     }
   }
   // last year's classes (different students) so Compare has something to show
@@ -1810,15 +1966,18 @@ function loadSample(){
 /* ---------- events ---------- */
 function go(v){ UI.view = v; try { if (location.hash.slice(1)!==v) location.hash = v; } catch(_){} $('#side').classList.remove('open'); closeLayer(); render(); window.scrollTo(0,0); }
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-confnav],[data-close]');
+  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-apf],[data-quart],[data-wsort],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-confnav],[data-close]');
   if (!t) { if (!e.target.closest('aside,.menu-btn')) $('#side').classList.remove('open'); return; }
   if (t.dataset.close !== undefined){ if (e.target === t || t.tagName==='BUTTON'){ closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !t.closest('.conf')) return openStudent(k); nextFile(); } return; }
-  if (t.dataset.go) return go(t.dataset.go);
+  if (t.dataset.go){ go(t.dataset.go); if (t.dataset.anchor) document.getElementById(t.dataset.anchor)?.scrollIntoView({block:'start'}); return; }
   if (t.dataset.report) return printReport(t.dataset.report);
   if (t.dataset.student) return openStudent(t.dataset.student);
   if (t.dataset.course){ UI.course = t.dataset.course; UI.period = 'all'; UI.status = null; return render(); }
   if (t.dataset.period){ UI.period = t.dataset.period; UI.status = null; return render(); }
   if (t.dataset.staar){ UI.staar = UI.staar===t.dataset.staar && t.dataset.staar!=='all' ? 'all' : t.dataset.staar; return render(); }
+  if (t.dataset.apf){ UI.apf = t.dataset.apf; return render(); }
+  if (t.dataset.quart){ UI.quart = t.dataset.quart; return render(); }
+  if (t.dataset.wsort){ UI.wsort = t.dataset.wsort; return render(); }
   if (t.dataset.status){ UI.showAll = false; UI.status = UI.status===t.dataset.status ? null : t.dataset.status; return render(); }
   if (t.dataset.cmptype){ UI.cmpType = t.dataset.cmptype; return render(); }
   if (t.dataset.retestby){ UI.retestBy = t.dataset.retestby; return render(); }
@@ -1835,12 +1994,14 @@ document.addEventListener('click', e => {
   const act = t.dataset.act, m = () => buildModel();
   if (act==='conf-print'){ const k = $('#layer').dataset.student; if (!CAN_PRINT) return showText(`Conference — ${DB.students[k].name}`, confText(k));
     const done = () => { window.removeEventListener('afterprint', done); }; window.addEventListener('afterprint', done); try { window.print(); } catch(_){ showText('Conference', confText(k)); } return; }
+  if (act==='import-profile'){ const txt = $('#profBox').value.trim(); if (!txt) return toast('Paste the profile CSV first (or choose the file)'); const rows = parseCSV(txt); if (rows.length < 2) return toast('Need a header row and at least one student'); if (!profileMap(rows[0]).includes('id')) return toast('The CSV needs a “Student ID” column'); saveUndo('Student Profile (CSV)'); UI.lastResult = ''; importProfile(rows, 'Pasted profile data', true); return; }
   if (act==='undo-import'){ const u = readUndo(); if (!u) return toast('Nothing to undo'); return askConfirm('Undo last import?', `This puts everything back to how it was before <b>${esc(u.label)}</b> (${ago(u.at)}). Notes, ratings and contacts added since then are also rolled back.`, 'Undo import', () => { DB = Object.assign(blank(), u.db); save(); try { localStorage.removeItem(UNDO_KEY); } catch(_){} render(); toast('Import undone'); }); }
   if (act==='draft-check') draftCheck();
   if (act==='draft-write') draftWrite();
   if (act==='copy-draft'){ const day = UI.draftDay || defaultDraftDay(); copyText(`Power Hour draft — ${day} — ${draftValue()}\n\n` + draftCandidates(m()).map(x=>`${x.s.ids[0]||'(no ID)'}\t${x.s.name}\t${x.cls}\t${Math.round(x.avg)}%`).join('\n'), 'Draft list'); }
   if (act==='copy-summary') copyText(weeklySummary(m()), 'Weekly summary');
   if (act==='toggle-done'){ UI.showDone = !UI.showDone; render(); }
+  if (act==='flags-only'){ UI.flagsOnly = !UI.flagsOnly; render(); }
   if (act==='show-all'){ UI.showAll = true; render(); }
   if (act==='menu') $('#side').classList.toggle('open');
   if (act==='pick') $('#fileIn').click();
@@ -1891,6 +2052,7 @@ document.addEventListener('change', e => {
 document.addEventListener('input', e => {
   const t = e.target;
   if (t.dataset.confnote){ DB.confNotes[t.dataset.confnote] = t.value; save(); return; }
+  if (t.dataset.agform){ const [k,f] = t.dataset.agform.split('|'); (((DB.agency[k] ||= {}).form ||= {}))[f] = t.value; save(); return; }
   if (t.dataset.agency){ const [k,q,f] = t.dataset.agency.split('|'); ((DB.agency[k] ||= {})[q] ||= {})[f] = t.value; save(); return; }
   if (e.target.id !== 'q') return;
   UI.q = e.target.value;
@@ -1903,6 +2065,7 @@ document.addEventListener('keydown', e => {
   if ((e.key==='ArrowRight' || e.key==='ArrowLeft') && $('#layer .conf') && !e.target.closest('input,textarea,select')){ const b = document.querySelectorAll('[data-confnav]'); if (b.length===2) b[e.key==='ArrowLeft'?0:1].click(); }
 });
 $('#fileIn').addEventListener('change', e => { handleFiles([...e.target.files]); e.target.value=''; });
+document.addEventListener('change', async e => { if (e.target.id !== 'profFile') return; const f = e.target.files[0]; e.target.value = ''; if (!f) return; $('#profBox').value = await f.text(); toast(`${f.name} loaded — press Import Student Profile (CSV)`); });
 window.addEventListener('hashchange', () => { const v = location.hash.slice(1); if (v && v!==UI.view){ UI.view=v; closeLayer(); render(); } });
 
 /* tooltip */
