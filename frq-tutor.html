@@ -60,6 +60,20 @@ button{font:inherit;color:inherit;cursor:pointer}
 .chip.fr{border-color:var(--gr);color:var(--gr)}
 .fix{display:block;font-style:normal;color:var(--yl);font-size:14px;margin-top:4px}
 .why{margin:8px 0 0;font-size:15px;color:#bfefff}
+.sub{display:flex;gap:4px;margin:12px 0}
+.sb{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 2px;min-height:52px;background:#0b0820;border:2px solid #7066c9;color:var(--dim);font-size:12px;font-weight:600}
+.sb span{font-size:18px}.sb.on{background:var(--cy);color:#0b0820;border-color:var(--cy)}.sb.dn{border-color:var(--gr);color:var(--gr)}.sb:disabled{opacity:.35;cursor:default}
+.qmini{border-left:4px solid var(--yl);padding:6px 10px;margin:8px 0;background:#0a0820}.qmini .px{font-size:10px;color:var(--yl)}.qmini h2{font-size:16px;line-height:1.45;font-weight:600}
+.mq{font-weight:700;margin:4px 0 10px}
+.opt{display:block;width:100%;text-align:left;background:var(--pn2);border:2px solid #7066c9;padding:12px;margin:8px 0;min-height:48px;font-size:16px}
+.opt.good{border-color:var(--gr);background:#0b2418;color:var(--gr)}.opt.bad{border-color:var(--rd);background:#2a0c1a;color:#ffc2cc}
+.fb{padding:10px;border:2px solid;font-size:15px}.fb.y{border-color:var(--gr);color:var(--gr);background:#0b2418}.fb.n{border-color:var(--yl);color:var(--yl);background:#2b2410}
+.boss{border-color:var(--mg)}
+.conf{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:12px 0 0;font-size:14px;color:var(--dim)}.conf span{width:100%}
+.cb{background:var(--pn2);border:2px solid #7066c9;padding:8px 10px;min-height:44px;font-size:14px}.cb.on{border-color:var(--cy);background:#0d3340;color:var(--cy)}
+.cal{margin:10px 0 0;padding:10px;border-left:4px solid var(--cy);background:#0a0820;font-size:15px}
+.combo{display:block;margin-top:6px;color:var(--yl)}
+.verdict.y{animation:pop .5s steps(5)}@keyframes pop{0%{transform:scale(.6)}60%{transform:scale(1.08)}100%{transform:scale(1)}}
 .plabel{font:10px var(--px);align-items:center;color:var(--dim);display:flex;justify-content:space-between}
 /* home */
 .hero{text-align:center;padding:26px 6px 8px}
@@ -331,6 +345,25 @@ tea:{t:"The TEA method",s:["T = Topic: turn the question into your claim, using 
 readmap:{t:"How to read a map",s:["Read the title first. It tells you the topic, place, and time.","Check the legend so you know what each color and symbol means.","Look for patterns: what's clustered, what's connected, what points where?","Then ask WHY: who made this, and what story is it telling?"]},
 readtable:{t:"How to read a data table",s:["Read the title and every column header, including units (%, per 1,000).","Find the highest and lowest value in each column.","Compare columns: when one goes up, does another go up or down?","When there are two years, look for change over time."]}
 });
+const QC=[[
+["When many rail lines meet at one place, geographers say the lines…",["converge","disperse","diffuse"],0,"Converge means come together. On this map, the lines converge on coastal ports."],
+["Why did British factories need colonies like India?",["For cheap raw materials like cotton","For factory machines","For skilled engineers"],0,"Colonies supplied raw materials; Britain made the finished goods."],
+["What usually pulls rural migrants into a growing port city?",["Jobs in trade and shipping","Cheaper farmland","Cooler weather"],0,"Jobs are the main pull factor, and ports created lots of them."],
+["A cash crop is grown mainly to…",["sell, often for export","feed the farmer's family","feed farm animals"],0,"Cash crops are for selling. Food for the family is subsistence farming."],
+["In world-system theory, colonial India was part of the…",["periphery","core","semi-periphery"],0,"The periphery supplies raw materials; the core (Britain) made the high-value goods."],
+["Cumulative causation means…",["places that grow early attract even more growth","all regions grow at the same speed","growth always moves to rural areas"],0,"It's a snowball: investment attracts more investment."],
+["Which is a real LIMITATION of this map?",["It shows no data about people's lives","It has a legend","It shows railways"],0,"A limitation is information the source is missing, like data about people."]
+],[
+["In DTM Stage 2, birth rates are ___ and death rates are ___.",["high; falling","low; low","falling; high"],0,"Stage 2 = high births, falling deaths, so population booms."],
+["One number goes up while the other goes down. That relationship is…",["inverse (negative)","positive (direct)","no relationship"],0,"Inverse means they move in opposite directions."],
+["The 'opportunity cost' of having a child means…",["the income or chances a parent gives up","the price of baby clothes","school taxes"],0,"It's what you give up, like wages from a job."],
+["On a farm a child is often an economic ___; in a city, more of an economic ___.",["asset; cost","cost; asset","cost; cost"],0,"Farm kids help work; city kids mostly cost money."],
+["Which part of a population pyramid shows the youngest people?",["The base (bottom)","The top","The middle"],0,"The bottom bars are ages 0–4."],
+["Replacement-level fertility is about…",["2.1 children per woman","1.0 child per woman","4.0 children per woman"],0,"2.1 replaces each generation; the extra 0.1 covers children who die young."],
+["A single national average can hide differences between…",["cities and rural areas in the country","two different countries","different years"],0,"National data blends together places inside the country."]
+]];
+FRQ.forEach((f,i)=>f.p.forEach((p,j)=>p.qc=QC[i][j]));
+FRQ[0].m=20;FRQ[1].m=20;
 /* ===== State & helpers ===== */
 const app=document.getElementById('app'),sh=document.getElementById('sh');
 let S={f:null,fi:0,k:-1,max:0,p:[],nt:[]};
@@ -340,57 +373,72 @@ const TEA=[["T","Topic","tT","#22e5ff"],["E","Evidence","tE","#ffd23f"],["A","An
 const earned=i=>{const p=S.f.p[i],st=S.p[i],c=st.box.filter(Boolean).length;return p.r.m=="any"?c>0:c==p.r.i.length};
 const score=()=>S.p.filter(x=>x.done&&x.ok).length;
 const chips=a=>a.map(k=>`<button class="bgc" data-a="bg" data-k="${k}">📜 ${esc(BG[k].t)}</button>`).join('');
-function start(i){S={f:FRQ[i],fi:i,k:0,max:0,p:FRQ[i].p.map(()=>({st:1,h:{},a:'',ck:0,box:[],done:0,ok:0})),nt:FRQ[i].nt.map(()=>({o:0,a:''}))};render(1)}
+function start(i){S={f:FRQ[i],fi:i,k:0,max:0,p:FRQ[i].p.map(()=>({st:1,h:{},a:'',ck:0,box:[],done:0,ok:0,c:0,q:null,cf:null})),nt:FRQ[i].nt.map(()=>({o:0,a:''})),bo:null,cb:0};render(1)}
 function go(k){S.k=k;S.max=Math.max(S.max,k);render(1)}
 function render(top){const y=scrollY;app.innerHTML=S.k<0?home():hdr()+(S.k==0?stimV():S.k>S.f.p.length?doneV():partV(S.k-1));if(top){scrollTo(0,0);const f=app.querySelector('h2[tabindex]')||app.querySelector('h1[tabindex]');f&&f.focus({preventScroll:true})}else scrollTo(0,y)}
 /* ===== Views ===== */
 function home(){return `<div class="hero"><div class="sub">GeoArcade presents</div><h1>FRQ<br>Tutor</h1><div class="sub">AP Human Geography · free-response training</div><div class="blink">▶ SELECT A CARTRIDGE ◀</div></div>
-<div class="carts">${FRQ.map((f,i)=>`<button class="cart" data-a="start" data-i="${i}"><span class="k">${f.k}</span><h3>${f.t}</h3><span class="d">${f.d}</span><span class="d">${f.u} · ${f.p.length} parts</span><span class="go">PRESS START ▸</span></button>`).join('')}</div>
+<div class="carts">${FRQ.map((f,i)=>`<button class="cart" data-a="start" data-i="${i}"><span class="k">${f.k}</span><h3>${f.t}</h3><span class="d">${f.d}</span><span class="d">${f.u} · ${f.p.length} parts · about ${f.m} min</span><span class="go">PRESS START ▸</span></button>`).join('')}</div>
 <div class="panel"><span class="tag px">How it works</span><div class="how"><div>Study the stimulus and jot what you notice.</div><div>Decode the task verb for each part.</div><div>Think it through with step-by-step hints.</div><div>Write, check against the rubric, compare with a model.</div></div></div>
 <div class="panel"><span class="tag px">The TEA method</span><p>For every <b>Describe</b> or <b>Explain</b> part, build your answer in three moves:</p>${chips(["frq","tea"])}<div class="tea" style="margin-top:8px"><div><b class="tT">T</b><strong>Topic</strong><br>Turn the question into your claim.</div><div><b class="tE">E</b><strong>Evidence</strong><br>A specific place, number, or example.</div><div><b class="tA">A</b><strong>Analysis</strong><br>The “because… which leads to…” that proves it.</div></div></div>`}
 function hdr(){const n=S.f.p.length,segs=[["👁",0]].concat(S.f.p.map((_,i)=>[L(i),i+1]),[["★",n+1]]);
 const cur=S.k==0?"Stimulus":S.k>n?"Results":`Part ${L(S.k-1)} of ${n}`;
-return `<div class="top"><button class="brand" data-a="home">◀ Geo<b>Arcade</b> · FRQ Tutor</button><span class="score" aria-live="polite"><span class="sym">★</span> ${score()}/${n}</span></div>
+return `<div class="top"><button class="brand" data-a="home">◀ Geo<b>Arcade</b> · FRQ Tutor</button><span class="score" aria-live="polite"><span class="sym">★</span> ${score()}/${n}${S.cb>1?` <span class="sym">🔥</span>${S.cb}`:''}</span></div>
 <div class="prog" role="navigation" aria-label="Progress">${segs.map(([t,k])=>{const p=k>0&&k<=n?S.p[k-1]:null,c=k==S.k?'cur':p&&p.done?(p.ok?'ok':'no'):k<=S.max?'v':'';return `<button class="seg ${c}" data-a="go" data-k="${k}" ${k==S.k?'aria-current="step"':''} aria-label="${k==0?'Stimulus':k>n?'Results':'Part '+t+(p&&p.done?(p.ok?', point earned':', not yet'):'')}">${k==0||k>n?`<span class="sym">${t}</span>`:t}</button>`}).join('')}</div>
 <div class="plabel"><h1 tabindex="-1" style="font:inherit">${esc(S.f.t)}</h1><span>${cur}</span></div><div class="jump">Tap any letter to jump to that part. Go in order or skip around.</div>`}
 function stimBox(){return `<div class="stim"><h3>${esc(S.f.st)}</h3>${S.f.stim}</div>`}
-function stimV(){const all=S.nt.every(x=>x.o);
-return `<div class="panel"><span class="tag px">Step 1 · Look first</span><p>${esc(S.f.intro)} <b>No questions yet.</b> Strong FRQ writers study the stimulus <i>before</i> reading the prompt.</p></div>${stimBox()}
+function stimV(){const all=S.nt.every(x=>x.o),nx=S.nt.findIndex(x=>!x.o);
+return `<div class="panel"><span class="tag px">Step 1 · Look first</span><p>${esc(S.f.intro)} <b>No questions yet.</b> Strong writers look closely first. Answer 3 quick “notice” questions below.</p></div>${stimBox()}
 <div class="row" style="margin-top:8px">${chips(S.f.bg)}</div>
-<div class="panel"><span class="tag px">What do you notice?</span>${S.f.nt.map((n,j)=>`<div class="notice"><div class="q">${j+1}. ${esc(n[0])}</div><textarea data-in="nt" data-j="${j}" placeholder="Jot your idea (optional)…" aria-label="Your idea">${esc(S.nt[j].a)}</textarea>${S.nt[j].o?`<div class="take">${esc(n[1])}</div>`:`<div class="row" style="margin-top:8px"><button class="btn o" data-a="nt" data-j="${j}">Compare with tutor</button></div>`}</div>`).join('')}
+<div class="panel"><span class="tag px">What do you notice? · ${Math.min(nx<0?3:nx+1,3)}/3</span>${S.f.nt.map((n,j)=>nx>=0&&j>nx?'':`<div class="notice"><div class="q">${j+1}. ${esc(n[0])}</div><textarea data-in="nt" data-j="${j}" placeholder="Jot your idea (optional)…" aria-label="Your idea">${esc(S.nt[j].a)}</textarea>${S.nt[j].o?`<div class="take">${esc(n[1])}</div>`:`<div class="row" style="margin-top:8px"><button class="btn o" data-a="nt" data-j="${j}">Compare with tutor</button></div>`}</div>`).join('')}
 <div class="row"><button class="btn g" data-a="go" data-k="1">Reveal Part A ▸</button>${all?'':'<span class="note">Tip: compare all three notes first. Good writers always look before they write!</span>'}</div></div>`}
-function partV(i){const P=S.f.p[i],st=S.p[i],V=VERBS[P.v],tea=P.v!="Identify",n=S.f.p.length,ready=st.st>P.s.length;
+const CARDS=[["❓","Ask"],["🔤","Verb"],["📘","Learn"],["🧠","Think"],["✏️","Write"],["✅","Check"]];
+const CAL=[["You weren't sure, but you got it! Trust your thinking more.","Smart move noticing you weren't sure. The Fix-it tips show exactly what to add."],["Nice! You know more than you think.","Close! Compare your answer to the model line by line."],["Confident AND correct. That's mastery!","You felt sure, but the rubric wants more. Always check your answer against the rubric before moving on."]];
+const YES=["★ Point earned! Your hard thinking paid off.","★ Point earned! That's exactly what AP readers look for.","★ Point earned! You used evidence like a geographer."];
+function mcqV(q,pick,rot,act,extra){const o=q[1].map((t,k)=>[t,k]);for(let r=0;r<rot;r++)o.push(o.shift());
+return `<div class="mcq"><p class="mq">${esc(q[0])}</p>${o.map(([t,k])=>`<button class="opt ${pick==null?'':k==0?'good':k==pick?'bad':''}" data-a="${act}" data-o="${k}" ${extra} ${pick===0?'disabled':''}>${esc(t)}</button>`).join('')}
+${pick==null?'':pick==0?`<p class="fb y" role="status">✔ Right! ${esc(q[3])}</p>`:`<p class="fb n" role="status">Not quite, and that's OK. ${esc(q[3])}</p>`}</div>`}
+function partV(i){const P=S.f.p[i],st=S.p[i],V=VERBS[P.v],tea=P.v!="Identify",n=S.f.p.length,c=st.c;
 let h=`<details class="peek"><summary>View stimulus</summary><div>${stimBox()}</div></details>
-<div class="qbox"><span class="px">Part ${L(i)} · ${P.v}</span><h2 tabindex="-1" style="font-size:19px;line-height:1.45">${esc(P.q)}</h2><div class="plain"><b>In plain words:</b> ${esc(P.kq)}</div></div>
-<div class="coach"><div class="av" aria-hidden="true">🧭</div><div><p class="kid">“${esc(P.th)}”</p><p><b>Tutor:</b> ${esc(P.co)}</p></div></div>
-<div class="panel"><span class="tag px">1 · Decode the verb</span><div class="verb"><span class="vb">${P.v}</span><div><b>${V.d}</b><ul>${V.l.map(x=>`<li>${x}</li>`).join('')}</ul></div></div><div style="margin-top:8px">${chips(tea?['frq','tea']:['frq'])}</div></div>
-<div class="panel"><span class="tag px">2 · Learn what you need</span><h3 class="lt">${esc(P.ml[0])}</h3><ul class="les">${P.ml[1].map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
-<div class="voc"><span class="px">Key words</span>${P.ml[2].map(v=>`<p><b>${esc(v[0])}:</b> ${esc(v[1])}</p>`).join('')}</div>
-<p class="note" style="margin-top:10px">Want the bigger story?</p>${chips(P.b)}</div>
-<div class="panel"><span class="tag px">3 · Think it through${tea?' with TEA':''}</span>`;
+<div class="sub" role="tablist" aria-label="Steps for Part ${L(i)}">${CARDS.map(([ic,t],k)=>`<button class="sb ${k==c?'on':k<c||(k==5&&st.ck)?'dn':''}" data-a="card" data-i="${i}" data-c="${k}" ${k==5&&!st.ck?'disabled':''} ${k==c?'aria-current="step"':''}><span aria-hidden="true">${ic}</span>${t}</button>`).join('')}</div>`;
+const nav=(nx,lab)=>`<div class="row">${c>0?`<button class="btn o" data-a="card" data-i="${i}" data-c="${c-1}">◀ Back</button>`:''}<button class="btn c" data-a="card" data-i="${i}" data-c="${nx}">${lab} ▸</button></div>`;
+const qline=`<div class="qmini"><span class="px">Part ${L(i)} · ${P.v}</span><h2 tabindex="-1">${esc(P.q)}</h2></div>`;
+if(c==0)h+=`<div class="qbox"><span class="px">Part ${L(i)} · ${P.v}</span><h2 tabindex="-1" style="font-size:19px;line-height:1.45">${esc(P.q)}</h2><div class="plain"><b>In plain words:</b> ${esc(P.kq)}</div></div>
+<div class="coach"><div class="av" aria-hidden="true">🧭</div><div><p class="kid">“${esc(P.th)}”</p><p><b>Tutor:</b> ${esc(P.co)}</p></div></div>${nav(1,'Got it! What does “'+P.v+'” mean?')}<button class="link" data-a="card" data-i="${i}" data-c="4">Feeling confident? Try it cold first ▸</button>`;
+if(c==1)h+=qline+`<div class="panel"><span class="tag px">Decode the verb</span><div class="verb"><span class="vb">${P.v}</span><div><b>${V.d}</b><ul>${V.l.map(x=>`<li>${x}</li>`).join('')}</ul></div></div><div style="margin-top:8px">${chips(tea?['frq','tea']:['frq'])}</div></div>${nav(2,'Learn what I need')}`;
+if(c==2)h+=qline+`<div class="panel"><span class="tag px">Learn what you need</span><h3 class="lt">${esc(P.ml[0])}</h3><ul class="les">${P.ml[1].map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+<div class="voc"><span class="px">Key words</span>${P.ml[2].map(v=>`<p><b>${esc(v[0])}:</b> ${esc(v[1])}</p>`).join('')}</div></div>
+<div class="panel"><span class="tag px">Quick check</span><p class="note">Pulling an idea out of your memory makes it stick. Give it a try!</p>${mcqV(P.qc,st.q,(i+S.fi)%3,'mcq',`data-i="${i}"`)}</div>
+<p class="note">Want the bigger story?</p>${chips(P.b)}${nav(3,'Think it through')}<button class="link" data-a="card" data-i="${i}" data-c="4">Already know this? Skip to writing</button>`;
+if(c==3){h+=qline+`<div class="panel"><span class="tag px">Think it through${tea?' with TEA':''}</span>`;
 P.s.slice(0,st.st).forEach((s,j)=>{const t=tea?TEA[j]:[j+1,'Step '+(j+1),'','#22e5ff'],shown=s[1].filter((_,m)=>st.h[j+'-'+m]).length;
 h+=`<div class="step" style="color:${t[3]}"><div class="badge">${t[0]}</div><div style="color:var(--ink);flex:1"><div class="lb" style="color:${t[3]}">${t[1]}</div><p class="pr">${esc(s[0])}</p>${s[1].slice(0,shown).map(x=>`<div class="hint">${esc(x)}</div>`).join('')}${shown<s[1].length?`<button class="hb" data-a="hint" data-j="${j}" data-m="${shown}">Hint ${shown+1}/${s[1].length}</button>`:''}</div></div>`});
-h+=ready?`<p class="note">✔ Thinking done. Time to write.</p>`:st.st<P.s.length?`<div class="row"><button class="btn c" data-a="step" data-i="${i}">Next step ▸</button><button class="link" data-a="skip" data-i="${i}">I'm ready, skip to writing</button></div>`:`<div class="row"><button class="btn c" data-a="step" data-i="${i}">Start writing ▸</button></div>`;
-h+=`</div>`;
-if(ready){h+=`<div class="panel"><span class="tag px">4 · Write it</span>${tea?`<div class="teamini"><b class="tT">T</b> claim · <b class="tE">E</b> specific evidence · <b class="tA">A</b> because… which leads to…</div>`:`<div class="teamini">Identify = a short, specific answer. One phrase is enough.</div>`}
+h+=`</div><div class="row"><button class="btn o" data-a="card" data-i="${i}" data-c="2">◀ Back</button>${st.st<P.s.length?`<button class="btn c" data-a="step" data-i="${i}">Next step ▸</button>`:`<button class="btn c" data-a="card" data-i="${i}" data-c="4">Start writing ▸</button>`}</div>${st.st<P.s.length?`<button class="link" data-a="card" data-i="${i}" data-c="4">I'm ready, skip to writing</button>`:''}`}
+if(c==4)h+=qline+`<div class="panel"><span class="tag px">Write it</span>${tea?`<div class="teamini"><b class="tT">T</b> claim · <b class="tE">E</b> specific evidence · <b class="tA">A</b> because… which leads to…</div>`:`<div class="teamini">Identify = a short, specific answer. One phrase is enough.</div>`}
 <details class="peek weak"><summary>Don't fall for this weak answer</summary><div><p class="wa">“${esc(P.wk[0])}”</p><p><b>❌ Why it misses:</b> ${esc(P.wk[1])}</p></div></details>
-<textarea id="ans" data-in="ans" data-i="${i}" placeholder="${tea?'Write 2–3 sentences…':'Write a short phrase…'}" aria-label="Your answer" ${st.ck?'readonly':''}>${esc(st.a)}</textarea>
-${st.ck?'':`<div class="chips"><button class="chip fr" data-a="frame" data-i="${i}">🧩 Stuck? Use a sentence frame</button>${tea?["For example, ","This is because ","which leads to ","As a result, "].map(c=>`<button class="chip" data-a="ins" data-t="${c}">+ ${c.trim()}</button>`).join(''):''}</div><p class="note">Sentence frames have blanks (___). Replace each blank with your own words.</p>`}
-${st.ck?`<div class="row"><button class="link" data-a="rev" data-i="${i}">✎ Revise my answer</button></div>`:`${st.w?'<p class="fix" role="alert">⚠ You still have blanks (___) to fill in. Replace each one with your own words first!</p>':''}<div class="row"><button class="btn" data-a="check" data-i="${i}">Check my answer ▸</button></div>`}</div>`}
-if(st.ck){const ok=earned(i);h+=`<div class="panel"><span class="tag px">5 · Check it</span><p><b>What earns the point${P.r.m=="any"?' (any ONE of these)':' (you need ALL of these)'}:</b> Tick each one your answer really does.</p>
+<textarea id="ans" data-in="ans" data-i="${i}" placeholder="${tea?'Write 2–3 sentences…':'Write a short phrase…'}" aria-label="Your answer">${esc(st.a)}</textarea>
+<div class="chips"><button class="chip fr" data-a="frame" data-i="${i}">🧩 Stuck? Use a sentence frame</button>${tea?["For example, ","This is because ","which leads to ","As a result, "].map(c=>`<button class="chip" data-a="ins" data-t="${c}">+ ${c.trim()}</button>`).join(''):''}</div>
+${st.w?'<p class="fix" role="alert">⚠ You still have blanks (___) to fill in. Replace each one with your own words first!</p>':''}
+<div class="conf"><span>How sure are you?</span>${['😬 Not sure','🙂 Kind of','😎 Very'].map((t,k)=>`<button class="cb ${st.cf===k?'on':''}" data-a="cf" data-i="${i}" data-k="${k}" aria-pressed="${st.cf===k}">${t}</button>`).join('')}</div>
+<div class="row"><button class="btn o" data-a="card" data-i="${i}" data-c="3">◀ Back</button><button class="btn" data-a="check" data-i="${i}">Check my answer ▸</button></div></div>`;
+if(c==5&&st.ck){const ok=earned(i);h+=qline+`<div class="panel"><span class="tag px">Check it</span><p class="note" style="margin:0 0 6px">Your answer:</p><div class="mine">${esc(st.a)}</div>
+<p style="margin-top:12px"><b>What earns the point${P.r.m=="any"?' (any ONE of these)':' (you need ALL of these)'}:</b> Tick each one your answer really does.</p>
 <ul class="ck">${P.r.i.map((r,j)=>`<li><label><input type="checkbox" data-a="box" data-i="${i}" data-j="${j}" ${st.box[j]?'checked':''}><span>${esc(r[0])}${st.g[j]?'<small>Tutor spotted this; double-check it.</small>':''}${!st.box[j]&&!(P.r.m=="any"&&st.box.some(Boolean))?`<em class="fix">Fix it: ${esc(r[2])}</em>`:''}</span></label></li>`).join('')}</ul>
 <p class="note">The tutor guesses from keywords. <b>You</b> make the final call, so be honest!</p>
 <div class="model"><span class="px">Model answer</span>${esc(P.mo)}<p class="why"><b>✅ Why it works:</b> ${esc(P.mw)}</p></div>
-<div role="status" class="verdict ${ok?'y':'n'}">${ok?'★ Point earned!':'Not yet! Use the Fix-it tips above, then revise.'}</div>
-<div class="row">${ok?'':`<button class="btn o" data-a="rev" data-i="${i}">✎ Revise</button>`}<button class="btn g" data-a="next" data-i="${i}">${i+1<n?`Part ${L(i+1)} ▸`:'See results ▸'}</button></div></div>`}
+<div role="status" class="verdict ${ok?'y':'n'}">${ok?YES[i%3]:'Not yet, and “not yet” is how everyone learns. Use the Fix-it tips, then revise.'}${ok&&S.cb>0?`<span class="combo">🔥 ${S.cb+1} in a row!</span>`:''}</div>${st.cf==null?'':`<p class="cal">${CAL[st.cf][ok?0:1]}</p>`}
+<div class="row">${ok?'':`<button class="btn o" data-a="rev" data-i="${i}">✎ Revise</button>`}<button class="btn g" data-a="next" data-i="${i}">${i+1<n?`On to Part ${L(i+1)} ▸`:'See results ▸'}</button></div></div>`}
 return h}
+function bossV(){const B=S.bo;if(!B)return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round</span><p>3 lightning questions on what you just learned. Quick recall now helps you remember it next week.</p><div class="row"><button class="btn m" data-a="boss">Start Boss Round ▸</button></div></div>`;
+if(B.k>=B.l.length)return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round</span><p class="big" style="font-size:20px">${B.r==B.l.length?'Boss defeated!':'Boss battle over!'}</p><p style="text-align:center">You got <b>${B.r}/${B.l.length}</b> on the first try.${B.r<B.l.length?' Come back tomorrow and replay. Spacing out practice is how memories stick.':''}</p></div>`;
+const i=B.l[B.k],q=S.f.p[i].qc;return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round · ${B.k+1}/${B.l.length}</span>${mcqV(q,B.s,(i+B.k+1)%3,'bq','')}${B.s===0||B.s>0?`<div class="row"><button class="btn m" data-a="bn">${B.k+1<B.l.length?'Next ▸':'Finish ▸'}</button></div>`:''}</div>`}
 function doneV(){const n=S.f.p.length,sc=score(),ps=S.f.p.map((p,i)=>[p,i,S.p[i]]),ok=ps.filter(x=>x[2].ok),no=ps.filter(x=>x[2].done&&!x[2].ok),un=ps.filter(x=>!x[2].done);
 const rank=sc==n?"GEO LEGEND":sc>=5?"MAP MASTER":sc>=3?"RISING SCOUT":"KEEP PLAYING";
 return `<div class="panel" style="text-align:center"><h2 class="big" tabindex="-1">${un.length?'Progress report':'Stage clear!'}</h2><div class="stars" aria-label="${sc} of ${n}">${'★'.repeat(sc)}<span style="opacity:.25">${'★'.repeat(n-sc)}</span></div><div class="rank">${sc}/${n} points · Rank: ${rank}</div></div>
 <div class="panel"><span class="tag px" style="color:var(--gr)">Nailed it</span>${ok.length?`<ul class="res">${ok.map(([p,i])=>`<li><b style="color:var(--gr)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span></li>`).join('')}</ul>`:'<p class="note">No points yet. Every replay makes it easier!</p>'}</div>
 <div class="panel"><span class="tag px" style="color:var(--rd)">Review these</span>${no.length?`<ul class="res">${no.map(([p,i])=>`<li><b style="color:var(--rd)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br>${chips(p.b)}<button class="link" data-a="go" data-k="${i+1}">Revisit Part ${L(i)}</button></li>`).join('')}</ul>`:'<p>Nothing to review so far. 🏆</p>'}</div>
 ${un.length?`<div class="panel"><span class="tag px" style="color:var(--yl)">Not tried yet</span><ul class="res">${un.map(([p,i])=>`<li><b style="color:var(--yl)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br><button class="link" data-a="go" data-k="${i+1}">Go to Part ${L(i)}</button></li>`).join('')}</ul></div>`:''}
-<div class="row"><button class="btn" data-a="start" data-i="${S.fi}">↻ Replay</button><button class="btn m" data-a="start" data-i="${1-S.fi}">Try “${esc(FRQ[1-S.fi].t)}” ▸</button><button class="btn o" data-a="home">Menu</button></div>`}
+${no.length?`<div class="row"><button class="btn c" data-a="retry">↻ Retry what I missed ▸</button></div>`:''}${bossV()}<div class="row"><button class="btn" data-a="start" data-i="${S.fi}">↻ Replay</button><button class="btn m" data-a="start" data-i="${1-S.fi}">Try “${esc(FRQ[1-S.fi].t)}” ▸</button><button class="btn o" data-a="home">Menu</button></div>`}
 /* ===== Events ===== */
 let opener;function openBG(k){opener=document.activeElement;app.setAttribute('aria-hidden','true');document.getElementById('shT').textContent=BG[k].t;document.getElementById('shB').innerHTML=BG[k].s.map(x=>`<li>${esc(x)}</li>`).join('');sh.classList.add('on');sh.querySelector('[data-a=x]').focus()}
 function closeBG(){if(!sh.classList.contains('on'))return;sh.classList.remove('on');app.removeAttribute('aria-hidden');opener&&opener.focus()}
@@ -405,13 +453,19 @@ case 'x':return closeBG();
 case 'nt':S.nt[j].o=1;return render();
 case 'hint':{const k=S.k-1;S.p[k].h[j+'-'+b.dataset.m]=1;return render()}
 case 'step':S.p[i].st++;return render();
-case 'skip':S.p[i].st=99;render();return document.getElementById('ans').focus();
+case 'card':S.p[i].c=+b.dataset.c;return render(1);
+case 'mcq':S.p[i].q=+b.dataset.o;return render();
+case 'boss':{const f=S.p.map((x,k)=>k),miss=f.filter(k=>!S.p[k].ok),rest=f.filter(k=>S.p[k].ok);S.bo={l:miss.concat(rest).slice(0,3),k:0,s:null,r:0};return render()}
+case 'bq':{const B=S.bo;if(B.s==null&&+b.dataset.o==0)B.r++;if(B.s!==0)B.s=+b.dataset.o;return render()}
+case 'bn':S.bo.k++;S.bo.s=null;return render();
 case 'frame':{const t=document.getElementById('ans'),f=S.f.p[i].fr;t.value=t.value.trim()?t.value.trim()+'\n'+f:f;S.p[i].a=t.value;t.focus();const c=t.value.indexOf('___',t.value.length-f.length);if(c>=0)t.setSelectionRange(c,c+3);return}
 case 'ins':{const t=document.getElementById('ans');const pos=t.selectionStart??t.value.length;const pre=t.value.slice(0,pos),sp=pre&&!/\s$/.test(pre)?' ':'';t.value=pre+sp+b.dataset.t+t.value.slice(pos);S.p[S.k-1].a=t.value;t.focus();const c=(pre+sp+b.dataset.t).length;t.setSelectionRange(c,c);return}
 case 'check':{const st=S.p[i],P=S.f.p[i];if(st.a.includes('___')){st.w=1;render();return document.getElementById('ans').focus()}st.w=0;if(st.a.trim().length<2){const t=document.getElementById('ans');t.placeholder='Type an answer first — even a rough one!';return t.focus()}
-st.ck=1;st.g=P.r.i.map(r=>r[1].test(st.a));st.box=P.r.m=="any"?st.g.map((g,j)=>g&&st.g.indexOf(true)==j):st.g.slice();return render()}
-case 'rev':S.p[i].ck=0;S.p[i].done=0;render();return document.getElementById('ans').focus();
-case 'next':S.p[i].done=1;S.p[i].ok=earned(i);return go(i+2);
+st.ck=1;st.c=5;st.g=P.r.i.map(r=>r[1].test(st.a));st.box=P.r.m=="any"?st.g.map((g,j)=>g&&st.g.indexOf(true)==j):st.g.slice();return render(1)}
+case 'rev':S.p[i].ck=0;S.p[i].done=0;S.p[i].c=4;render(1);return document.getElementById('ans').focus();
+case 'next':{const w=S.p[i].done;S.p[i].done=1;S.p[i].ok=earned(i);if(!w)S.cb=S.p[i].ok?S.cb+1:0;return go(i+2)}
+case 'cf':S.p[i].cf=+b.dataset.k;return render();
+case 'retry':{const m=S.p.findIndex(x=>x.done&&!x.ok);S.p[m].c=4;S.p[m].ck=0;S.p[m].done=0;return go(m+1)}
 }});
 document.addEventListener('input',e=>{const t=e.target,d=t.dataset;if(d.in=='ans')S.p[+d.i].a=t.value;else if(d.in=='nt')S.nt[+d.j].a=t.value});
 document.addEventListener('keydown',e=>{if(e.key=='Escape')closeBG();else if(e.key=='Tab'&&sh.classList.contains('on')){e.preventDefault();sh.querySelector('[data-a=x]').focus()}});
