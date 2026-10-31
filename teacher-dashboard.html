@@ -1497,7 +1497,7 @@ function openStudent(key, fresh){
     return `<table class="ft"><thead><tr><th>Unit</th><th class="r">Progress check</th><th class="r">Unit test (raw)</th><th class="r">Writing</th><th class="r">Missing</th><th class="r">AP proj.</th></tr></thead><tbody>${rows.map(([u, d]) => { const pj = apProject(c.course, d.pts);
       return `<tr><td><b>U${u}</b></td><td class="r num">${d.pc.length?p0(mean(d.pc)):'—'}</td><td class="r num">${d.test.length?p0(mean(d.test)):'—'}</td><td class="r num">${d.wr.length?p0(mean(d.wr)):'—'}</td><td class="r num" style="${d.miss?'color:var(--help-ink);font-weight:800':''}">${d.miss||''}</td><td class="r">${pj?apBadgeScore(pj.score):'<span class="minor">—</span>'}</td></tr>`; }).join('')}</tbody></table>`; };
   const myGrade = (cls, q) => (p.byClass?.[cls]?.['grade'+q]) ?? (s.cs.length===1 ? p['grade'+q] : null);
-  const other = Object.entries(Object.assign({}, p.counselor ? {Counselor: p.counselor} : {}, p.other || {}));
+  const other = Object.entries(p.other || {});
   $('#layer').innerHTML = `<div class="conf" role="dialog" aria-modal="true" aria-label="Conference: ${esc(s.name)}">
     <div class="conf-bar"><b>Student conference</b><span class="minor" style="color:var(--on-blk2)">${today()}</span>
       ${(() => { const order = rosterList(buildModel()).map(x=>x.key), i = order.indexOf(key); return i < 0 ? '' : `<button class="btn sm" data-confnav="${esc(order[(i-1+order.length)%order.length])}" aria-label="Previous student">‹ Prev</button><span class="minor" style="color:var(--on-blk2)">${i+1} of ${order.length}</span><button class="btn sm" data-confnav="${esc(order[(i+1)%order.length])}" aria-label="Next student">Next ›</button>`; })()}
@@ -1507,7 +1507,7 @@ function openStudent(key, fresh){
       <button class="btn sm" data-close aria-label="Close conference view">✕ Close</button></div>
     <div class="conf-page">
       <div class="conf-head">${avatar(key, s.name, 56)}<div style="flex:1;min-width:240px"><h1>${esc(s.name)}</h1>
-        <div class="meta">${p.gradeLevel?`Grade ${esc(p.gradeLevel)} · `:''}${esc(s.classes.join(' · ')||'No class')}${s.ids.length?` · ID ${esc(s.ids.join(', '))}`:''}${draftedTag(key)}</div>
+        <div class="meta">${p.gradeLevel?`Grade ${esc(p.gradeLevel)} · `:''}${esc(s.classes.join(' · ')||'No class')}${s.ids.length?` · ID ${esc(s.ids.join(', '))}`:''}${p.counselor?` · Counselor: ${esc(p.counselor)}`:''}${draftedTag(key)}</div>
         <div class="chiprow">${pill(s.status)}${apChip}${flagChips(key)}${s.reasons.map(r=>`<span class="tag ${r.t}" data-tip="${esc(r.tip)}">${r.icon} ${esc(r.label)}</span>`).join('')}${p.acc?p.acc.split(/[;,]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="acc" style="margin:0">${esc(x)}</span>`).join(''):''}</div></div>
         <div class="cells" style="min-width:260px;flex:0 1 420px">${s.cs.map(c=>cell(esc(c.cls||'All work'), `<em style="${c.avg!=null&&c.avg<cut?'color:var(--help-ink)':''}">${p0(c.avg)}</em>`, `${letter(c.avg)} now · ${c.missing.length} missing${c.proj?` · AP ${c.proj.score}`:''}`)).join('')}</div></div>
 
@@ -1535,7 +1535,7 @@ function openStudent(key, fresh){
           ${pcs.length?`<div class="namechips">${pcs.map(x=>`<span class="nchip" data-tip="${esc(x.a.name)}" style="${!x.m&&x.p<S().retestCap?'box-shadow:inset 0 0 0 1.5px var(--watch)':''}">${esc(s.cs.length>1?x.a.name:bare(x.a.name))}<b>${x.m?'M':p0(x.p)}</b></span>`).join('')}</div>`:'<div class="minor">None yet.</div>'}</div>
         </div></section>
 
-        <section class="fsec c4"><h2>Attendance &amp; risk</h2><div class="fb"><div class="cells two">
+        <section class="fsec c4"><h2>Attendance &amp; all classes <span>from the profile · not in averages</span></h2><div class="fb"><div class="cells two">
           ${cell('Absences YTD', show(p.absences), 'full-day', warn(p.absences, 10))}
           ${cell('Unexcused / unresolved', show(p.unexcused), '', warn(p.unexcused, 3))}
           ${cell('Tardies YTD', show(p.tardies), '', warn(p.tardies, 10))}
@@ -1544,7 +1544,7 @@ function openStudent(key, fresh){
           ${cell('Lowest class now', show(p.lowestClass))}
         </div></div></section>
 
-        <section class="fsec c4"><h2>Power Hour</h2><div class="fb"><div class="cells two">
+        <section class="fsec c4"><h2>Power Hour <span>from the profile</span></h2><div class="fb"><div class="cells two">
           ${cell('Drafts', show(p.phDrafts))}${cell('No-shows', show(p.phNoShows), '', warn(p.phNoShows, 2))}
           ${cell('Attended', show(p.phAttended))}${cell('Last draft', show(p.phLast))}
         </div>
@@ -1600,12 +1600,12 @@ function openStudent(key, fresh){
   const cf = $('#layer .conf'); cf.scrollTop = keepScroll; if (!keepScroll) $('.conf-bar [data-close]').focus();
 }
 function confText(key){
-  const s = studentFull(key), p = prof(key) || {}, ag = DB.agency[key] || {}, f = ag.form || {}, L = [`Student conference — ${s.name}`, `${p.gradeLevel?`Grade ${p.gradeLevel} · `:''}${s.classes.join(' · ')}${s.ids[0]?` · ID ${s.ids[0]}`:''} · ${today()}`];
+  const s = studentFull(key), p = prof(key) || {}, ag = DB.agency[key] || {}, f = ag.form || {}, L = [`Student conference — ${s.name}`, `${p.gradeLevel?`Grade ${p.gradeLevel} · `:''}${s.classes.join(' · ')}${s.ids[0]?` · ID ${s.ids[0]}`:''}${p.counselor?` · Counselor: ${p.counselor}`:''} · ${today()}`];
   if (p.apExam) L.push(`AP exam: ${AP_EXAM[p.apExam]}`); if (schoolFlags(key).length) L.push(`Watch flags: ${schoolFlags(key).join('; ')}`); L.push('');
   L.push('GRADES'); s.cs.forEach(c => L.push(`${c.cls}: Q1 ${p.byClass?.[c.cls]?.grade1 ?? '—'} · Q2 ${p.byClass?.[c.cls]?.grade2 ?? '—'} · now ${p0(c.avg)} · ${c.missing.length} missing${c.proj?` · AP proj ${c.proj.score}`:''}`));
   L.push(`GPA unweighted: Q1 ${p.uw1||'—'} → Q2 ${p.uw2||'—'} · weighted: Q1 ${p.w1||'—'} → Q2 ${p.w2||'—'}`, `Est. rank: ${p.rankBand||'—'} · quartile ${p.quartile||'—'}${p.rankCutoffs?` (cutoffs: ${p.rankCutoffs})`:''}`, '');
   L.push('TESTS', `8th STAAR: ${p.staarPct!=null?Math.round(p.staarPct)+'%':'—'} ${staarOf(key)?.label||''}`, `TIA BOY: ${p.tiaBoy||'—'} (last year ${p.priorTiaBoy||p.priorTia||'—'}) · TIA EOY last year: ${p.priorTiaEoy||'—'}`, `Prior AP: ${p.priorAp||'—'}${p.apScores?` · all AP: ${p.apScores}`:''}`, `PSAT: ${p.psatHist||'—'} (best ${p.bestPsat||'—'}) · SAT: ${p.satHist||'—'} (best ${p.bestSat||'—'})`, '');
-  L.push('ATTENDANCE & RISK', `Absences ${p.absences||'—'} · unexcused ${p.unexcused||'—'} · tardies ${p.tardies||'—'} · zeros ${p.zeros||'—'} · classes below 70 ${p.below70||'—'} · lowest ${p.lowestClass||'—'}`);
+  L.push('ATTENDANCE & ALL CLASSES', `Absences ${p.absences||'—'} · unexcused ${p.unexcused||'—'} · tardies ${p.tardies||'—'} · zeros ${p.zeros||'—'} · classes below 70 ${p.below70||'—'} · lowest ${p.lowestClass||'—'}`);
   L.push(`Power Hour: drafts ${p.phDrafts||'—'} · no-shows ${p.phNoShows||'—'} · attended ${p.phAttended||'—'} · last ${p.phLast||'—'}${p.phNow?` · assigned now ${p.phNow}`:''}`, '');
   L.push('AGENCY CONFERENCING GOALS', `Goal: ${f.goal||''}`, `Action steps: ${f.steps||''}`, `Check-in date: ${f.checkin||''}`, `Support: ${f.support||''}`);
   [1,2,3,4].forEach(q => { const a = ag['Q'+q]; if (a && (a.rating||a.goal||a.next)) L.push(`Q${q}: agency ${a.rating||'—'} · grade goal ${a.goal||'—'}${a.next?` · next: ${a.next}`:''}`); });

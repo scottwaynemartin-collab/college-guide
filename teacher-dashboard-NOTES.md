@@ -83,7 +83,7 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
   - Header: name, ID, grade, classes, AP exam paid or unpaid, and watch flags as chips.
   - Grades & GPA: my-class Q1 and Q2, and all-class unweighted and weighted GPA Q1 vs. Q2-to-date with up/down arrows. Rank band and quartile, with the cutoffs used in small text.
   - Tests: 8th STAAR, TIA BOY/EOY this year vs. last year, prior AP and all AP scores, PSAT and SAT history with a small trend line, and AP Classroom progress checks.
-  - Attendance & risk: absences, unexcused, tardies, zeros, classes below 70, lowest class. Amber or red when high.
+  - Attendance & all classes: absences, unexcused, tardies, zeros, classes below 70, lowest class. Amber or red when high. Counselor shows in the header.
   - Power Hour: drafts, no-shows, attended, last draft, assigned now.
   - Agency conferencing goals: goal, action steps, check-in date, support, notes, and per-quarter rating 1–4 with grade goal vs. actual. All saved per student.
   - Print / Save as PDF: a one-page summary in black and white.
