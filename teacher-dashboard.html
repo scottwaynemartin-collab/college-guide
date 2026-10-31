@@ -163,7 +163,9 @@ kbd{font:700 10px var(--sans);border:1px solid var(--line2);border-bottom-width:
 .grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
 .ovmain{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:16px;align-items:start;min-width:0}
 .ovside{display:flex;flex-direction:column;gap:16px;min-width:0}
-#rosterCard{container-type:inline-size}
+.tscroll{overflow-x:auto;max-width:100%}
+#rosterCard{container-type:inline-size;min-width:0}
+#rosterCard .cb{overflow-x:auto}   /* safety net: if a row can't shrink, the card scrolls instead of painting under the side panel */
 @container (max-width:660px){
   #rosterCard .rhead{display:none}
   #rosterCard .rrow{grid-template-columns:minmax(0,1fr) auto auto;grid-template-areas:"who avg miss" "ap ap ap" "tags tags tags";row-gap:6px}
@@ -2100,13 +2102,13 @@ function openStudent(key, fresh){
               <label class="field">AP skill gap<input class="in" data-agform="${esc(key)}|skillGap" value="${esc(form.skillGap||'')}" placeholder="e.g. using evidence, reasoning"></label></div>
             <label class="field" style="grid-column:1/-1">Notes<textarea class="confnote" id="confNote" data-confnote="${esc(key)}" placeholder="Strengths, concerns, what the student said, who attended…">${esc(DB.confNotes[key]||'')}</textarea></label>
           </div>
-          <table class="ft" style="margin-top:6px"><thead><tr><th>Quarter</th><th>Agency rating</th><th>Grade goal</th><th class="r">Actual</th><th>Goal met?</th><th>Reflection / next step</th></tr></thead><tbody>
+          <div class="tscroll"><table class="ft" style="margin-top:6px"><thead><tr><th>Quarter</th><th>Agency rating</th><th>Grade goal</th><th class="r">Actual</th><th>Goal met?</th><th>Reflection / next step</th></tr></thead><tbody>
           ${[1,2,3,4].map(q=>{ const a = ag['Q'+q] || {}, act = actual(q), goal = pnum(a.goal);
             return `<tr><td><b>Q${q}</b></td><td><span class="rate" role="group" aria-label="Q${q} agency rating">${[1,2,3,4].map(n=>`<button aria-pressed="${+a.rating===n}" data-agrate="${esc(key)}|Q${q}|${n}">${n}</button>`).join('')}</span></td>
               <td style="width:100px"><input data-agency="${esc(key)}|Q${q}|goal" value="${esc(a.goal||'')}" placeholder="e.g. 85" inputmode="decimal" aria-label="Q${q} grade goal"></td>
               <td class="r num"><b>${act==null?'—':p0(act)}</b>${act!=null&&!p['grade'+q]?' <span class="minor">live</span>':''}</td>
               <td data-met="${esc(key)}|Q${q}" data-actual="${act==null?'':act}">${metHtml(act, goal)}</td>
-              <td><input data-agency="${esc(key)}|Q${q}|next" value="${esc(a.next||'')}" placeholder="What will they do differently?" aria-label="Q${q} next step"></td></tr>`; }).join('')}</tbody></table>
+              <td><input data-agency="${esc(key)}|Q${q}|next" value="${esc(a.next||'')}" placeholder="What will they do differently?" aria-label="Q${q} next step"></td></tr>`; }).join('')}</tbody></table></div>
           <p class="fine noprint">Agency rating: 1 = needs heavy support · 2 = developing · 3 = proficient · 4 = owns their learning.</p>
         </div></section>
 
