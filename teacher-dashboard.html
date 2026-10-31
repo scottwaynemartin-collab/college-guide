@@ -516,6 +516,20 @@ textarea.confnote{width:100%;min-height:150px;border:1.5px solid var(--line2);bo
   body.conf-open .c4{grid-column:span 4!important}body.conf-open .c5{grid-column:span 5!important}body.conf-open .c6{grid-column:span 6!important}body.conf-open .c7{grid-column:span 7!important}body.conf-open .c8{grid-column:span 8!important}body.conf-open .c12{grid-column:span 12!important}
   body.conf-open .goalform{grid-template-columns:1.2fr 1.2fr .8fr!important;gap:6px}
   body.conf-open .goalform textarea.in{min-height:0;height:auto}
+  body.conf-open .skillpair{gap:6px}
+  body.conf-open .printonly{display:block;margin-top:2px}
+  body.conf-open .goalform .field:has(> input:placeholder-shown),body.conf-open .goalform .field:has(> textarea:placeholder-shown){display:none}
+  body.conf-open .goalform{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:4px 6px!important}
+  body.conf-open .goalform .in,body.conf-open .goalform textarea.confnote{padding:2px 6px!important;font-size:10.5px!important;line-height:1.3;border-radius:5px}
+  body.conf-open .goalform input.in{height:22px}
+  body.conf-open .goalform textarea.in{height:auto;min-height:0!important}
+  body.conf-open .goalform textarea.confnote{min-height:34px!important;height:34px}
+  body.conf-open .nchip{font-size:9px;padding:0 4px;display:inline;line-height:1.7;margin-right:3px}
+  body.conf-open .namechips{display:block}
+  body.conf-open .goalside,body.conf-open .skillpair{display:contents}
+  body.conf-open .goalform .field textarea.in{min-height:32px}
+  body.conf-open .conf-head .chiprow{margin-top:4px;gap:3px}
+  body.conf-open .cells.two .cell{padding:3px 6px}
   body.conf-open .cells{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:4px}
   body.conf-open .cells.two{grid-template-columns:repeat(2,minmax(0,1fr))!important}
   body.conf-open .fsec>h2{padding:4px 8px;font-size:11px}
@@ -553,6 +567,9 @@ textarea.confnote{width:100%;min-height:150px;border:1.5px solid var(--line2);bo
 .goalform{display:grid;grid-template-columns:1.2fr 1.2fr .8fr;gap:12px}
 .goalform .field{margin-bottom:6px}
 .goalside{display:flex;flex-direction:column}
+.skillpair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.printonly{display:none}
+.cell.nearc{background:var(--tq-soft);box-shadow:inset 0 0 0 1px rgba(0,178,169,.5)}.cell.nearc b{color:var(--tq-ink)}
 @media (max-width:900px){.goalform{grid-template-columns:1fr}}
 
 /* in-page print area (no new windows, so it works inside artifacts) */
@@ -1508,6 +1525,7 @@ function openStudent(key, fresh){
     <div class="conf-page">
       <div class="conf-head">${avatar(key, s.name, 56)}<div style="flex:1;min-width:240px"><h1>${esc(s.name)}</h1>
         <div class="meta">${p.gradeLevel?`Grade ${esc(p.gradeLevel)} · `:''}${esc(s.classes.join(' · ')||'No class')}${s.ids.length?` · ID ${esc(s.ids.join(', '))}`:''}${p.counselor?` · Counselor: ${esc(p.counselor)}`:''}${draftedTag(key)}</div>
+        ${other.length?`<div class="fine printonly">${other.map(([k,v])=>`${esc(k)}: <b>${esc(v)}</b>`).join(' · ')}</div>`:''}
         <div class="chiprow">${pill(s.status)}${apChip}${flagChips(key)}${s.reasons.map(r=>`<span class="tag ${r.t}" data-tip="${esc(r.tip)}">${r.icon} ${esc(r.label)}</span>`).join('')}${p.acc?p.acc.split(/[;,]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="acc" style="margin:0">${esc(x)}</span>`).join(''):''}</div></div>
         <div class="cells" style="min-width:260px;flex:0 1 420px">${s.cs.map(c=>cell(esc(c.cls||'All work'), `<em style="${c.avg!=null&&c.avg<cut?'color:var(--help-ink)':''}">${p0(c.avg)}</em>`, `${letter(c.avg)} now · ${c.missing.length} missing${c.proj?` · AP ${c.proj.score}`:''}`)).join('')}</div></div>
 
@@ -1519,7 +1537,7 @@ function openStudent(key, fresh){
             <tr><td><b>Unweighted</b></td><td class="r num">${show(p.uw1)}</td><td class="r num">${show(p.uw2)}</td><td class="r">${arrow(p.uw1, p.uw2) || '—'}</td></tr>
             <tr><td><b>Weighted</b> <span class="minor">est.</span></td><td class="r num">${show(p.w1)}</td><td class="r num">${show(p.w2)}</td><td class="r">${arrow(p.w1, p.w2) || '—'}</td></tr>
             ${p.q1Count||p.q2Count?`<tr><td class="minor">Classes counted</td><td class="r minor">${show(p.q1Count)}</td><td class="r minor">${show(p.q2Count)}</td><td></td></tr>`:''}</tbody></table>
-          <div class="cells" style="margin-top:10px">${cell('Est. class rank', show(p.rankBand))}${cell('Est. quartile', show(p.quartile))}</div>
+          <div class="cells" style="margin-top:10px">${cell(esc(L.rankBand || 'Est. class rank'), show(p.rankBand))}${cell(esc(L.quartile || 'Est. quartile'), show(p.quartile))}</div>
           ${p.rankCutoffs?`<p class="fine">Cutoffs used: ${esc(p.rankCutoffs)}</p>`:''}
         </div></section>
 
@@ -1542,6 +1560,7 @@ function openStudent(key, fresh){
           ${cell('Zeros (all classes)', show(p.zeros), '', warn(p.zeros, 3))}
           ${cell('Classes below 70', show(p.below70), '', warn(p.below70, 1))}
           ${cell('Lowest class now', show(p.lowestClass))}
+          ${p.closeNext!=null&&p.closeNext!==''?cell('Close to next letter', show(p.closeNext), esc(L.closeNext||''), 'nearc'):''}
         </div></div></section>
 
         <section class="fsec c4"><h2>Power Hour <span>from the profile</span></h2><div class="fb"><div class="cells two">
@@ -1561,7 +1580,11 @@ function openStudent(key, fresh){
             <label class="field">Goal<textarea class="in" rows="2" data-agform="${esc(key)}|goal" placeholder="What does the student want to achieve? (e.g. raise APHG to an 85 by the end of Q2)">${esc(form.goal||'')}</textarea></label>
             <label class="field">Action steps<textarea class="in" rows="3" data-agform="${esc(key)}|steps" placeholder="1. &#10;2. &#10;3. ">${esc(form.steps||'')}</textarea></label>
             <div class="goalside"><label class="field">Check-in date<input class="in" type="date" data-agform="${esc(key)}|checkin" value="${esc(form.checkin||'')}"></label>
+              <label class="field">Next step<input class="in" data-agform="${esc(key)}|nextStep" value="${esc(form.nextStep||'')}" placeholder="e.g. redo Unit 2 DBQ thesis"></label>
               <label class="field">Support from me<input class="in" data-agform="${esc(key)}|support" value="${esc(form.support||'')}" placeholder="e.g. Power Hour Thursdays"></label></div>
+            <div class="skillpair" style="grid-column:1/-1">
+              <label class="field">AP skill strength<input class="in" data-agform="${esc(key)}|skillStrength" value="${esc(form.skillStrength||'')}" placeholder="e.g. sourcing"></label>
+              <label class="field">AP skill gap<input class="in" data-agform="${esc(key)}|skillGap" value="${esc(form.skillGap||'')}" placeholder="e.g. using evidence, reasoning"></label></div>
             <label class="field" style="grid-column:1/-1">Notes<textarea class="confnote" id="confNote" data-confnote="${esc(key)}" placeholder="Strengths, concerns, what the student said, who attended…">${esc(DB.confNotes[key]||'')}</textarea></label>
           </div>
           <table class="ft" style="margin-top:6px"><thead><tr><th>Quarter</th><th>Agency rating</th><th>Grade goal</th><th class="r">Actual</th><th>Goal met?</th><th>Reflection / next step</th></tr></thead><tbody>
@@ -1571,7 +1594,7 @@ function openStudent(key, fresh){
               <td class="r num"><b>${act==null?'—':p0(act)}</b>${act!=null&&!p['grade'+q]?' <span class="minor">live</span>':''}</td>
               <td data-met="${esc(key)}|Q${q}" data-actual="${act==null?'':act}">${metHtml(act, goal)}</td>
               <td><input data-agency="${esc(key)}|Q${q}|next" value="${esc(a.next||'')}" placeholder="What will they do differently?" aria-label="Q${q} next step"></td></tr>`; }).join('')}</tbody></table>
-          <p class="fine">Agency rating: 1 = needs heavy support · 2 = developing · 3 = proficient · 4 = owns their learning.</p>
+          <p class="fine noprint">Agency rating: 1 = needs heavy support · 2 = developing · 3 = proficient · 4 = owns their learning.</p>
         </div></section>
 
         ${s.cs.filter(c=>c.cls).map(c=>`<section class="fsec ${s.cs.length>1?'c6':'c12'} noprint1"><h2>Unit tracker · ${esc(c.cls)} <span>${c.proj?`overall AP projection ${c.proj.score} (MC ${p0(c.proj.mcPct)}${c.proj.wrPct!=null?`, writing ${p0(c.proj.wrPct)}`:''})`:'no AP Classroom MC yet'}</span></h2><div class="fb" style="overflow:auto">${tracker(c)}</div></section>`).join('')}
@@ -1590,7 +1613,7 @@ function openStudent(key, fresh){
           <div class="minor">Remember to document parent contact in eSchool too.</div>
         </div></section>
 
-        <section class="fsec c6 ${other.length?'':'noprint'}"><h2>Other profile fields <span>extra columns from the import</span></h2><div class="fb">
+        <section class="fsec c6 noprint"><h2>Other profile fields <span>extra columns from the import</span></h2><div class="fb">
           ${other.length?`<table class="ft"><tbody>${other.map(([k,v])=>`<tr><td class="minor" style="width:45%">${esc(k)}</td><td><b>${esc(v)}</b></td></tr>`).join('')}</tbody></table>`:'<div class="minor">None. New columns you add to the profile CSV (Counselor, TIA EOY, …) show up here.</div>'}
         </div></section>
       </div>
@@ -1603,11 +1626,11 @@ function confText(key){
   const s = studentFull(key), p = prof(key) || {}, ag = DB.agency[key] || {}, f = ag.form || {}, L = [`Student conference — ${s.name}`, `${p.gradeLevel?`Grade ${p.gradeLevel} · `:''}${s.classes.join(' · ')}${s.ids[0]?` · ID ${s.ids[0]}`:''}${p.counselor?` · Counselor: ${p.counselor}`:''} · ${today()}`];
   if (p.apExam) L.push(`AP exam: ${AP_EXAM[p.apExam]}`); if (schoolFlags(key).length) L.push(`Watch flags: ${schoolFlags(key).join('; ')}`); L.push('');
   L.push('GRADES'); s.cs.forEach(c => L.push(`${c.cls}: Q1 ${p.byClass?.[c.cls]?.grade1 ?? '—'} · Q2 ${p.byClass?.[c.cls]?.grade2 ?? '—'} · now ${p0(c.avg)} · ${c.missing.length} missing${c.proj?` · AP proj ${c.proj.score}`:''}`));
-  L.push(`GPA unweighted: Q1 ${p.uw1||'—'} → Q2 ${p.uw2||'—'} · weighted: Q1 ${p.w1||'—'} → Q2 ${p.w2||'—'}`, `Est. rank: ${p.rankBand||'—'} · quartile ${p.quartile||'—'}${p.rankCutoffs?` (cutoffs: ${p.rankCutoffs})`:''}`, '');
+  L.push(`GPA unweighted: Q1 ${p.uw1||'—'} → Q2 ${p.uw2||'—'} · weighted: Q1 ${p.w1||'—'} → Q2 ${p.w2||'—'}`, `${(p.labels||{}).rankBand||'Est. rank'}: ${p.rankBand||'—'} · ${(p.labels||{}).quartile||'quartile'} ${p.quartile||'—'}${p.rankCutoffs?` (cutoffs: ${p.rankCutoffs})`:''}`, '');
   L.push('TESTS', `8th STAAR: ${p.staarPct!=null?Math.round(p.staarPct)+'%':'—'} ${staarOf(key)?.label||''}`, `TIA BOY: ${p.tiaBoy||'—'} (last year ${p.priorTiaBoy||p.priorTia||'—'}) · TIA EOY last year: ${p.priorTiaEoy||'—'}`, `Prior AP: ${p.priorAp||'—'}${p.apScores?` · all AP: ${p.apScores}`:''}`, `PSAT: ${p.psatHist||'—'} (best ${p.bestPsat||'—'}) · SAT: ${p.satHist||'—'} (best ${p.bestSat||'—'})`, '');
-  L.push('ATTENDANCE & ALL CLASSES', `Absences ${p.absences||'—'} · unexcused ${p.unexcused||'—'} · tardies ${p.tardies||'—'} · zeros ${p.zeros||'—'} · classes below 70 ${p.below70||'—'} · lowest ${p.lowestClass||'—'}`);
+  L.push('ATTENDANCE & ALL CLASSES', `Absences ${p.absences||'—'} · unexcused ${p.unexcused||'—'} · tardies ${p.tardies||'—'} · zeros ${p.zeros||'—'} · classes below 70 ${p.below70||'—'} · lowest ${p.lowestClass||'—'}${p.closeNext?` · close to next letter: ${p.closeNext}`:''}`);
   L.push(`Power Hour: drafts ${p.phDrafts||'—'} · no-shows ${p.phNoShows||'—'} · attended ${p.phAttended||'—'} · last ${p.phLast||'—'}${p.phNow?` · assigned now ${p.phNow}`:''}`, '');
-  L.push('AGENCY CONFERENCING GOALS', `Goal: ${f.goal||''}`, `Action steps: ${f.steps||''}`, `Check-in date: ${f.checkin||''}`, `Support: ${f.support||''}`);
+  L.push('AGENCY CONFERENCING GOALS', `Goal: ${f.goal||''}`, `Action steps: ${f.steps||''}`, `AP skill strength: ${f.skillStrength||''} · gap: ${f.skillGap||''}`, `Check-in date: ${f.checkin||''} · Next step: ${f.nextStep||''}`, `Support: ${f.support||''}`);
   [1,2,3,4].forEach(q => { const a = ag['Q'+q]; if (a && (a.rating||a.goal||a.next)) L.push(`Q${q}: agency ${a.rating||'—'} · grade goal ${a.goal||'—'}${a.next?` · next: ${a.next}`:''}`); });
   if (DB.confNotes[key]) L.push('', 'NOTES', DB.confNotes[key]);
   if (s.missing.length) L.push('', 'MISSING WORK', ...s.missing.map(m=>`• ${m.a.name}`));
@@ -1705,7 +1728,7 @@ const PROFILE_FIELDS = [
   ...[1,2,3,4].flatMap(q => [['q'+q+'Count', new RegExp(`^q${q}(-to-date)? classes counted`)], ['uw'+q, new RegExp(`^q${q}(-to-date)? unweighted gpa`)], ['w'+q, new RegExp(`^q${q}(-to-date)? weighted gpa`)]]),
   ['rankCutoffs', /rank cutoffs/], ['rankBand', /rank band/], ['quartile', /quartile/],
   ['apScores', /^ap scores/], ['psatHist', /^psat history/], ['bestPsat', /^best psat/], ['satHist', /^sat history/], ['bestSat', /^best sat/],
-  ['unexcused', /unexcused/], ['absences', /^absences/], ['tardies', /^tardies/], ['zeros', /^zeros/], ['below70', /classes below 70/], ['lowestClass', /^lowest class/],
+  ['unexcused', /unexcused/], ['absences', /^absences/], ['tardies', /^tardies/], ['zeros', /^zeros/], ['closeNext', /just under a cutoff|close to (the )?next/], ['below70', /classes below 70/], ['lowestClass', /^lowest class/],
   ['phNoShows', /power hour no-?shows?/], ['phAttended', /power hour attended/], ['phLast', /last power hour/], ['phNow', /power hour assigned/], ['phDrafts', /^power hour drafts/],
   ['watchFlags', /^watch flags/], ['acc', /accommodation|^504$|^iep$/], ['counselor', /^counselor/],
 ];
