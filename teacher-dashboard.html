@@ -792,7 +792,8 @@ const CONFIG = {
   tutorialsSheet: '1C3DSO4lJieWN2KiS3FiQwgOeQz2uFtcfXGB-T70QMkI',
   draftTabs: ['A-D Swenson','E-K Morgan','L-Rh Frederick','Ri-Z Istre'],
   draftName: 'Martin, Scott B106',   // exactly as in the sheet's dropdown, without the block
-  priorityDay: 4,                    // Thursday = Science / Social Studies priority day
+  draftDaysOk: [2, 3],               // default draft day = the next Tuesday or Wednesday (never Thursday: A Block duty)
+  dutyDay: 4,                        // Thursday A Block is duty, so it is never the default
   currentYear: '',            // blank = automatic (Aug–Jul), e.g. "2026-27"
   // AP projection — Proficiency Scaling reference: composite % → AP score
   apScale: [[85,5],[70,4],[55,3],[40,2],[0,1]],
@@ -1144,7 +1145,7 @@ async function sheetSet(range, value){ return MCP.callTool('Google Sheets', 'upd
 const colL = i => { let s = ''; i++; while (i) { const m = (i-1) % 26; s = String.fromCharCode(65+m) + s; i = Math.floor((i-1)/26); } return s; };
 const dayLabel = d => d.toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'});
 function draftDays(){ const out = [], d = new Date(); d.setHours(12,0,0,0); while (out.length < 10){ d.setDate(d.getDate()+1); if (d.getDay()>0 && d.getDay()<6) out.push(new Date(d)); } return out; }
-function defaultDraftDay(){ const days = draftDays(), pri = days.find(d => d.getDay()===S().priorityDay); return dayLabel(pri || days[0]); }
+function defaultDraftDay(){ const days = draftDays(), ok = S().draftDaysOk || [2,3], pick = days.find(d => ok.includes(d.getDay())) || days.find(d => d.getDay() !== S().dutyDay) || days[0]; return dayLabel(pick); }
 function draftDeadline(label){ const d = draftDays().find(x => dayLabel(x)===label); if (!d) return null; const dl = new Date(d); dl.setDate(dl.getDate()-1); dl.setHours(18,0,0,0); return dl; }
 const draftValue = () => `${S().draftName.trim()} ${UI.draftBlock}`;
 function draftCandidates(m){ return powerHour(m).flatMap(g => g.rows.filter(r=>!UI.phOut.has(r.s.key+'|'+g.cls)).map(r=>({s:r.s, cls:g.cls, avg:r.c.avg}))).filter((x,i,a)=>a.findIndex(y=>y.s.key===x.s.key)===i); }
@@ -1187,7 +1188,7 @@ function draftPanel(m){
   const label = {ready:'Ready', done:'Drafted ✓', mine:'Already yours', taken:'Drafted by someone else', notfound:'Not in sheet', noid:'No student ID', err:'Problem', pending:'Checking…'};
   return `<section class="draftbox"><h2>⚡ Draft in the Tutorials sheet <span class="minor" style="font:600 12px var(--sans);text-transform:none">${cand.length} checked below</span></h2>
     <div class="row3">
-      <label class="field">Day<select id="draftDay">${days.map(x=>{ const l=dayLabel(x); return `<option ${l===day?'selected':''}>${esc(l)}${x.getDay()===S().priorityDay?' (Soc. St. priority)':''}</option>`; }).join('')}</select></label>
+      <label class="field">Day<select id="draftDay">${days.map(x=>{ const l=dayLabel(x); return `<option ${l===day?'selected':''}>${esc(l)}${x.getDay()===S().dutyDay?' (duty — avoid)':(S().draftDaysOk||[2,3]).includes(x.getDay())?' (usual)':''}</option>`; }).join('')}</select></label>
       <label class="field">Block<select id="draftBlock">${['A Block','B Block','Advisory'].map(b=>`<option ${b===UI.draftBlock?'selected':''}>${b}</option>`).join('')}</select></label>
       <label class="field">Your dropdown name<input id="draftName" value="${esc(S().draftName)}" placeholder="Last, First Room"></label>
     </div>
@@ -1820,7 +1821,7 @@ function viewPhDrafts(m){
       ${hid.length ? `<p class="fine">Marked drafted since the last data refresh (hidden): ${[...new Set(hid.map(r=>r.s.name))].map(esc).join(', ')}</p>` : ''}</div></div>
     <p class="fine">"Mark drafted" logs "PH draft — reason" once per student in the contact log (a student on several lines is logged once) and hides them until the next data import.</p>`;
 }
-const pdDay = () => { const d0 = UI.draftDay || defaultDraftDay(); if (!/^Thu/.test(d0)) return d0; const labels = draftDays().map(dayLabel), i = labels.indexOf(d0); return labels.slice(i+1).find(x => !/^Thu/.test(x)) || labels.find(x => !/^Thu/.test(x)) || d0; };   // A Block drafts: Thursday A Block is duty
+const pdDay = () => (UI.draftDay && !/^Thu/.test(UI.draftDay)) ? UI.draftDay : defaultDraftDay();   // default = next Tuesday or Wednesday, never Thursday (A Block duty)
 const pdSelected = () => { const ids = new Set([...document.querySelectorAll('[data-pd]:checked')].map(x=>x.dataset.pd)); return (UI.pdRows||[]).filter(r => ids.has(r.id)); };
 
 /* ---------- Admin snapshot: one page, no names ---------- */
