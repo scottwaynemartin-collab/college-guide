@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FRQ Tutor · Unit 7 · Industrial and Economic Development · AP Human Geography · GeoArcade</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Chakra+Petch:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0c0920;--pn:#161239;--pn2:#1e1950;--ink:#eeeaff;--dim:#a49ed6;--cy:#22e5ff;--mg:#ff3fa4;--yl:#ffd23f;--gr:#4dff91;--rd:#ff5b6e;--ln:#3a3288;--px:'Press Start 2P',monospace}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);background-image:linear-gradient(rgba(34,229,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(34,229,255,.05) 1px,transparent 1px);background-size:28px 28px;color:var(--ink);font:17px/1.55 'Chakra Petch',system-ui,sans-serif;min-height:100vh}
+body:after{content:"";position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.12) 0 1px,transparent 1px 3px);z-index:50}
+#app{max-width:780px;margin:0 auto;padding:14px 14px 60px}
+.px{font-family:var(--px);text-transform:uppercase;letter-spacing:.04em;line-height:1.6}
+h1,h2,h3{margin:0}
+p{margin:.4em 0}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--yl)!important;outline-offset:3px}
+.brand,.bgc,.hb,.link,details.peek summary{min-height:44px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.panel{background:var(--pn);border:3px solid var(--ln);box-shadow:5px 5px 0 #000;padding:16px;margin:16px 0;position:relative}
+.panel>.tag{position:absolute;top:-12px;left:12px;background:var(--bg);padding:2px 8px;font-size:10px;color:var(--cy);border:2px solid var(--ln)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--yl);color:#120d2b;border:0;box-shadow:inset -4px -4px 0 rgba(0,0,0,.25),4px 4px 0 #000;padding:13px 18px;font:11px/1.4 var(--px);text-transform:uppercase;min-height:46px}
+.btn:active{transform:translate(3px,3px);box-shadow:inset -4px -4px 0 rgba(0,0,0,.25),1px 1px 0 #000}
+.btn:disabled{opacity:.4;cursor:not-allowed;transform:none}
+.btn.c{background:var(--cy)}.btn.m{background:var(--mg);color:#120d2b}.btn.g{background:var(--gr)}
+.btn.o{background:transparent;color:var(--cy);box-shadow:inset 0 0 0 2px var(--cy),4px 4px 0 #000}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:14px}
+.link{background:none;border:0;color:var(--dim);text-decoration:underline;padding:8px 4px;font-size:15px}
+.bgc{display:inline-flex;align-items:center;gap:6px;background:var(--pn2);border:2px dashed var(--mg);color:#ffc4e3;padding:7px 11px;margin:4px 6px 4px 0;font-size:14px;font-weight:600}
+.bgc:hover{background:#2a1d55}
+/* header */
+.top{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:6px 0 10px;border-bottom:3px solid var(--ln)}
+.brand{font:10px var(--px);color:var(--mg);text-shadow:0 0 8px rgba(255,63,164,.7);background:none;border:0;padding:6px 0;text-align:left}
+.brand b{color:var(--cy);text-shadow:0 0 8px rgba(34,229,255,.7)}
+.score{font:10px var(--px);color:var(--yl);white-space:nowrap}
+.prog{display:flex;gap:4px;margin:12px 0 4px}
+.seg{flex:1;height:40px;border:2px solid #7066c9;background:#0b0820;font:9px var(--px);color:var(--dim);padding:0;display:flex;align-items:center;justify-content:center}
+.seg.v{color:var(--ink);border-color:var(--cy)}
+.seg.ok{background:var(--gr);color:#0b1a12;border-color:var(--gr)}
+.seg.no{background:#4a2140;color:#ffb3c8;border-color:var(--rd)}
+.seg.cur{background:var(--yl);color:#111;border-color:var(--yl);animation:pulse 1.2s steps(2) 3}
+.seg:disabled{cursor:default}
+@keyframes pulse{50%{box-shadow:0 0 0 2px var(--yl),0 0 12px var(--yl)}}
+.sym{font-family:system-ui,sans-serif;font-size:14px;line-height:1}
+.jump{font-size:13px;color:var(--dim);margin-top:4px}
+.plain{margin-top:10px;padding-top:10px;border-top:2px dashed var(--ln);font-size:16px;color:#dcd8ff}
+.plain b{color:var(--gr)}
+.coach{display:flex;gap:12px;align-items:flex-start;margin:16px 0;background:#1a1240;border:3px solid var(--mg);padding:12px;box-shadow:5px 5px 0 #000}
+.coach .av{flex:none;width:48px;height:48px;display:grid;place-content:center;font-size:28px;background:#0a0820;border:3px solid var(--mg)}
+.coach p{margin:0 0 6px;font-size:16px}.coach .kid{color:var(--dim);font-style:italic}.coach b{color:var(--mg)}
+.lt{font-size:19px;color:var(--yl);margin-bottom:4px}
+.les{padding-left:20px;margin:6px 0}.les li{margin:6px 0}
+.voc{background:#0a0820;border:2px solid var(--ln);padding:10px 12px;margin-top:10px}
+.voc .px{font-size:10px;color:var(--cy);display:block;margin-bottom:4px}.voc p{font-size:15px;margin:4px 0}.voc b{color:var(--cy)}
+.weak summary{color:var(--rd)}.wa{font-style:italic;color:#ffc2cc}
+.chip.fr{border-color:var(--gr);color:var(--gr)}
+.fix{display:block;font-style:normal;color:var(--yl);font-size:14px;margin-top:4px}
+.why{margin:8px 0 0;font-size:15px;color:#bfefff}
+.sub{display:flex;gap:4px;margin:12px 0}
+.sb{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 2px;min-height:52px;background:#0b0820;border:2px solid #7066c9;color:var(--dim);font-size:12px;font-weight:600}
+.sb span{font-size:18px}.sb.on{background:var(--cy);color:#0b0820;border-color:var(--cy)}.sb.dn{border-color:var(--gr);color:var(--gr)}.sb:disabled{opacity:.35;cursor:default}
+.qmini{border-left:4px solid var(--yl);padding:6px 10px;margin:8px 0;background:#0a0820}.qmini .px{font-size:10px;color:var(--yl)}.qmini h2{font-size:16px;line-height:1.45;font-weight:600}
+.mq{font-weight:700;margin:4px 0 10px}
+.opt{display:block;width:100%;text-align:left;background:var(--pn2);border:2px solid #7066c9;padding:12px;margin:8px 0;min-height:48px;font-size:16px}
+.opt.good{border-color:var(--gr);background:#0b2418;color:var(--gr)}.opt.bad{border-color:var(--rd);background:#2a0c1a;color:#ffc2cc}
+.fb{padding:10px;border:2px solid;font-size:15px}.fb.y{border-color:var(--gr);color:var(--gr);background:#0b2418}.fb.n{border-color:var(--yl);color:var(--yl);background:#2b2410}
+.boss{border-color:var(--mg)}
+.conf{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:12px 0 0;font-size:14px;color:var(--dim)}.conf span{width:100%}
+.cb{background:var(--pn2);border:2px solid #7066c9;padding:8px 10px;min-height:44px;font-size:14px}.cb.on{border-color:var(--cy);background:#0d3340;color:var(--cy)}
+.cal{margin:10px 0 0;padding:10px;border-left:4px solid var(--cy);background:#0a0820;font-size:15px}
+.combo{display:block;margin-top:6px;color:var(--yl)}
+.verdict.y{animation:pop .5s steps(5)}@keyframes pop{0%{transform:scale(.6)}60%{transform:scale(1.08)}100%{transform:scale(1)}}
+.plabel{font:10px var(--px);align-items:center;color:var(--dim);display:flex;justify-content:space-between}
+/* home */
+.hero{text-align:center;padding:26px 6px 8px}
+.hero h1{font:clamp(26px,8vw,46px)/1.2 var(--px);color:var(--yl);text-shadow:3px 3px 0 var(--mg),6px 6px 0 #000}
+.hero .sub{font:10px/1.8 var(--px);color:var(--cy);margin-top:14px}
+.blink{animation:bl 1s steps(1) 5;color:var(--gr);font:11px var(--px);margin:18px 0 4px}
+@keyframes bl{50%{opacity:0}}
+.carts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.cart.cls{border-color:var(--yl)}.cart.cls .k{color:var(--gr)}
+.cart{text-align:left;background:linear-gradient(160deg,#241c63,#120e33);border:3px solid var(--cy);box-shadow:6px 6px 0 #000;padding:16px;display:flex;flex-direction:column;gap:8px}
+.cart:nth-child(2){border-color:var(--mg)}
+.cart .k{font:9px var(--px);color:var(--yl)}
+.cart h3{font-size:21px;line-height:1.25}
+.cart .d{color:var(--dim);font-size:15px}
+.cart .go{margin-top:auto;font:10px var(--px);color:var(--gr)}
+.how{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;counter-reset:h}
+.how div{background:var(--pn2);padding:10px;border-left:4px solid var(--cy);font-size:14px}
+.how div:before{counter-increment:h;content:"0" counter(h);display:block;font:10px var(--px);color:var(--cy);margin-bottom:4px}
+.tea{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.tea div{padding:10px;background:#0f0c29;border:2px solid var(--ln);font-size:14px}
+.tea b{display:block;font:20px var(--px);margin-bottom:6px}
+.tT{color:var(--cy)}.tE{color:var(--yl)}.tA{color:var(--mg)}
+/* stimulus */
+.stim{background:#0a0820;border:3px solid var(--cy);padding:10px;box-shadow:0 0 0 3px #000,0 0 18px rgba(34,229,255,.25)}
+.stim h3{font:10px/1.6 var(--px);color:var(--cy);margin-bottom:8px}
+.stim svg{width:100%;height:auto;display:block;max-width:560px;margin:0 auto}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;margin-top:8px;color:var(--dim)}
+.legend i{display:inline-block;width:14px;height:14px;vertical-align:-2px;margin-right:5px;border:1px solid #000}
+.src{font-size:12px;color:var(--dim);margin-top:6px;font-style:italic}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:480px;font-size:15px}
+th,td{border:2px solid var(--ln);padding:8px 6px;text-align:center}
+th{background:var(--pn2);color:var(--yl);font-size:13px;line-height:1.3}
+td:first-child{text-align:left;font-weight:700;color:var(--cy)}
+.notice{border-left:4px solid var(--yl);padding:10px 12px;background:var(--pn2);margin:12px 0}
+.notice .q{font-weight:700}
+.notice textarea{min-height:56px;margin-top:8px}
+.take{margin-top:8px;padding:10px;background:#0f2a24;border:2px solid var(--gr);font-size:15px}
+.take:before{content:"TUTOR'S TAKE";display:block;font:10px var(--px);color:var(--gr);margin-bottom:4px}
+details.peek{margin:12px 0;border:2px solid var(--ln);background:#0e0b28}
+details.peek summary{cursor:pointer;padding:12px;font:10px var(--px);color:var(--cy);list-style:none}
+details.peek summary:before{content:"▸ "}
+details.peek[open] summary:before{content:"▾ "}
+details.peek>div{padding:0 10px 10px}
+/* part */
+.qbox{background:#0a0820;border:3px solid var(--yl);padding:14px;box-shadow:5px 5px 0 #000}
+.qbox .px{font-size:10px;color:var(--yl);display:block;margin-bottom:8px}
+.qbox p{font-size:19px;font-weight:600;margin:0}
+.verb{display:flex;gap:14px;align-items:flex-start}
+.verb .vb{font:13px var(--px);background:var(--mg);color:#120d2b;padding:10px;box-shadow:3px 3px 0 #000;flex:none}
+.verb ul{margin:6px 0 0;padding-left:20px;font-size:15px;color:var(--dim)}
+.step{display:flex;gap:12px;padding:12px 0;border-top:2px dashed var(--ln)}
+.step:first-of-type{border-top:0}
+.badge{flex:none;width:44px;height:44px;display:flex;align-items:center;justify-content:center;font:16px var(--px);background:#0a0820;border:3px solid currentColor}
+.step .lb{font:10px/1.8 var(--px);opacity:.9}
+.step .pr{margin:4px 0 6px}
+.hb{background:none;border:2px solid var(--yl);color:var(--yl);font:10px var(--px);padding:8px 12px;margin:4px 6px 0 0}
+.hint{background:#2b2410;border-left:4px solid var(--yl);padding:8px 10px;margin:6px 0;font-size:15px}
+.hint:before{content:"💡 "}
+textarea{width:100%;min-height:140px;background:#07061a;color:var(--ink);border:3px solid var(--cy);padding:12px;font:17px/1.5 'Chakra Petch',system-ui,sans-serif;resize:vertical}
+textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.chip{background:var(--pn2);border:2px solid var(--ln);padding:6px 10px;font-size:14px;color:var(--dim)}
+.teamini{font-size:14px;color:var(--dim);margin-bottom:8px}
+.teamini b{font-family:var(--px);font-size:11px}
+.ck{list-style:none;padding:0;margin:8px 0}
+.ck li{margin:8px 0}
+.ck label{display:flex;gap:12px;align-items:flex-start;background:var(--pn2);border:2px solid var(--ln);padding:10px 12px;cursor:pointer}
+.ck input{appearance:none;flex:none;width:26px;height:26px;border:3px solid var(--cy);background:#07061a;margin:0;cursor:pointer;display:grid;place-content:center}
+.ck input:checked{background:var(--gr);border-color:var(--gr)}
+.ck input:checked:after{content:"✓";color:#07220f;font-weight:900}
+.ck small{display:block;color:var(--gr);font-size:12px}
+.mine{white-space:pre-wrap;background:#07061a;border:2px dashed var(--ln);padding:10px;font-size:15px;color:var(--dim)}
+.model{background:#102033;border:3px solid var(--cy);padding:12px}
+.model .px{font-size:10px;color:var(--cy);display:block;margin-bottom:6px}
+.verdict{font:12px/1.6 var(--px);padding:12px;text-align:center;margin-top:12px;border:3px solid}
+.verdict.y{color:var(--gr);border-color:var(--gr);background:#0b2418}
+.verdict.n{color:var(--rd);border-color:var(--rd);background:#2a0c1a}
+.note{font-size:14px;color:var(--dim)}
+/* done */
+.big{font:clamp(24px,7vw,40px)/1.3 var(--px);color:var(--gr);text-align:center;text-shadow:3px 3px 0 #000,0 0 14px rgba(77,255,145,.6)}
+.stars{text-align:center;font-size:30px;letter-spacing:4px;margin:10px 0}
+.rank{text-align:center;font:11px/1.9 var(--px);color:var(--yl)}
+.res{list-style:none;padding:0;margin:0}
+.res li{padding:10px 0;border-top:2px dashed var(--ln)}
+.res li:first-child{border-top:0}
+.res b{font-family:var(--px);font-size:11px;margin-right:6px}
+/* sheet */
+#sh{position:fixed;inset:0;z-index:60;display:none;align-items:center;justify-content:center;background:rgba(5,3,18,.8);padding:16px}
+#sh.on{display:flex}
+#sh .card{background:var(--pn);border:3px solid var(--mg);box-shadow:6px 6px 0 #000,0 0 30px rgba(255,63,164,.35);max-width:560px;width:100%;max-height:85vh;overflow:auto;padding:18px;animation:up .2s steps(4)}
+@keyframes up{from{transform:translateY(30px);opacity:0}}
+#sh .k{font:9px var(--px);color:var(--mg)}
+#sh h3{font-size:22px;margin:6px 0 10px}
+#sh ol{padding-left:22px;margin:0}
+#sh li{margin:8px 0}
+@media (max-width:620px){
+ body{font-size:16px}
+ #app{padding:10px 10px 50px}
+ .carts,.tea{grid-template-columns:1fr}
+ .how{grid-template-columns:1fr 1fr}
+ .panel{padding:14px 12px}
+ .row .btn{flex:1 1 100%}
+ .qbox p{font-size:17px}
+ .verb{flex-direction:column;gap:8px}
+ #sh{align-items:flex-end;padding:0}
+ #sh .card{max-height:80vh;border-bottom:0;box-shadow:0 -4px 0 #000}
+ .seg{font-size:9px;height:40px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<main id="app"></main>
+<div id="sh" role="dialog" aria-modal="true" aria-labelledby="shT"><div class="card"><div class="k">📜 Need the background?</div><h3 id="shT"></h3><ol id="shB"></ol><div class="row"><button class="btn c" data-a="x">Got it ▸</button></div></div></div>
+<script>
+/* ===== Background pop-outs (shared by every FRQ) ===== */
+const BG={
+frq:{t:"How AP FRQs are scored",s:["Each part (A, B, C…) is worth 1 point and is scored on its own. A mistake in Part B can't cost you Part C.","Readers look for the right idea, clearly linked to the question. Fancy writing earns nothing extra.","No thesis, intro, or conclusion needed. Label each part and answer it directly.","Write in complete sentences and do what the task verb asks (Identify, Describe, or Explain).","Never leave a part blank. A wrong answer costs nothing."]},
+tea:{t:"The TEA method",s:["T1- Topic: your reason in general words. Turn the question into your claim.","E2- Evidence: the specific proof, like a place, number, or example, ideally from the map or table.","A3- Analysis: why it matters. Explain HOW or WHY your proof backs up your reason, using “because…” or “which leads to…”.","Label each piece T1-, E2-, A3- so the reader can find every point. Describe answers need T1 and E2 plus a short A3. Explain answers need a strong A3."]},
+readmap:{t:"How to read a map",s:["Read the title first. It tells you the topic, place, and time.","Check the legend so you know what each color and symbol means.","Look for patterns: what's clustered, what's connected, what points where?","Then ask WHY: who made this, and what story is it telling?"]},
+readtable:{t:"How to read a data table",s:["Read the title and every column header, including units (%, per 1,000).","Find the highest and lowest value in each column.","Compare columns: when one goes up, does another go up or down?","When there are two years, look for change over time."]},
+raj:{t:"British imperialism in India",s:["Starting in the 1600s, the British East India Company, a private trading firm, used trade deals and military force to take control of large parts of India.","After the Indian Rebellion of 1857, the British government took direct control in 1858. This period, called the British Raj, lasted until independence in 1947.","Britain ran India to benefit its own economy: India supplied raw materials like cotton, jute, and tea, and was a captive market for British factory goods.","By 1900 the British had built about 40,000 km of railway, much of it designed to move goods to ports and troops around the colony.","When Britain left in 1947, it partitioned the colony into India and Pakistan (East Pakistan later became Bangladesh), creating borders that still shape the region."]},
+scale:{t:"Scale of analysis",s:["Scale is the level at which you study something: global, national, regional, or local.","A pattern that looks clear at one scale can change or disappear at another.","A national average can hide big differences between cities and the countryside, or between regions and groups.","On the AP exam, 'limitation' questions often reward pointing out what a source's scale, time frame, or data leave out."]}
+};
+/* ===== Task verbs ===== */
+const VERBS={
+Identify:{d:"Name it. A word or short phrase is enough, with no explaining needed.",l:["Be specific: “cotton” beats “crops.”","Answer exactly what's asked. Extra writing won't earn more.","One sentence max."]},
+Describe:{d:"Paint the picture. Give the specific characteristics or pattern, with details someone could check.",l:["Use evidence: a place, a number, or a feature from the stimulus.","Say what it IS or what it LOOKS LIKE. You don't need a deep “why.”","About 1–2 sentences. Use TEA: Topic + Evidence, then a quick Analysis."]},
+Explain:{d:"Tell HOW or WHY. Connect a cause to an effect so a reader sees the reasoning, not just a fact.",l:["Use linking words: “because…”, “which leads to…”, “as a result…”.","A fact alone won't score. You need the chain of reasoning.","About 2–3 sentences. Use full TEA."]}
+};
+/* ===== FRQ registry: each FRQ data file calls addBG() and addFRQ() ===== */
+const FRQ=[];
+function addBG(o){Object.assign(BG,o)}
+function addFRQ(f){FRQ.push(f)}
+const UNIT="Unit 7 · Industrial and Economic Development";
+/* Measuring Up (original): development indicators for four fictional countries. Data table. */
+addBG({
+devmeasures:{t:"Measures of development",s:["GNI per capita is a country's total income divided by its population. “PPP” (purchasing power parity) adjusts for the fact that a dollar buys more in some countries than in others.","HDI, the Human Development Index, combines income, years of schooling, and life expectancy into one score from 0 to 1. Above 0.80 counts as “very high” development.","Other common measures: literacy rate, infant mortality rate, and the share of workers in each economic sector.","Income measures what a country earns; HDI measures whether that money reaches people's health and education. When the two disagree, something interesting is going on."]},
+rostow:{t:"Rostow's stages of growth",s:["W. W. Rostow (1960) said every country moves through five stages: traditional society, preconditions for take-off, take-off, drive to maturity, and high mass consumption.","Take-off is the big moment: a few industries grow fast, cities swell, and the country starts to industrialize.","High mass consumption is the top stage: most workers are in services, and people spend on cars, electronics, and vacations.","Critics say the model is based on the history of the United States and Western Europe, assumes every country can follow the same path, and ignores how colonialism and global trade can hold countries back.","Wallerstein's world-system theory answers that criticism by looking at the whole world at once: a wealthy core, a semi-periphery, and a periphery that supplies raw materials and cheap labor."]},
+gii:{t:"Gender Inequality Index",s:["The Gender Inequality Index (GII) is a UN measure from 0 to 1 that compares women and men. Lower is better; 0 would mean full equality.","It combines three things: reproductive health (maternal deaths and teen births), empowerment (seats in parliament and secondary schooling), and participation in the paid workforce.","Countries with a high GII usually have fewer girls finishing school, fewer women in paid jobs, and more early marriages.","Development experts argue that educating and employing women is one of the fastest ways to raise a country's HDI, which is why microloans to women, like those from Bangladesh's Grameen Bank, are so popular."]},
+commodity:{t:"Commodity dependence",s:["A commodity is a raw product sold in bulk at a world price: oil, copper, coffee, cocoa, cotton.","A country is commodity-dependent when most of its export earnings come from one or two commodities. Nigeria and Venezuela, for example, get most of theirs from oil.","World prices for commodities swing wildly. Oil fell from over $100 a barrel in 2014 to under $30 in early 2016.","When the price drops, the country's income, government budget, and jobs all drop at once. Some geographers call this trap the “resource curse.”","The usual advice is to diversify: build manufacturing and services so that one price can't sink the whole economy."]},
+sez:{t:"Special economic zones",s:["A special economic zone (SEZ) is an area where a government relaxes its normal rules to attract foreign factories: lower taxes, fewer tariffs, less paperwork.","An export processing zone (EPZ) is a type of SEZ focused on assembling goods for export. Mexico's maquiladoras along the U.S. border are a famous example.","China's first SEZ, Shenzhen, grew from a fishing town of about 30,000 people in 1980 into a city of more than 17 million.","Companies get cheap labor and easy exporting; the host country gets jobs, technology, and foreign investment.","Downsides can include low wages, weak worker protections, pollution, and companies that leave once the tax breaks end."]},
+sectors:{t:"Economic sectors",s:["Primary sector: taking things from the earth (farming, fishing, mining). Secondary: making things (factories, construction). Tertiary: services (stores, schools, hospitals, banks).","Some books add quaternary (information and research) and quinary (top-level decision-making).","As a country develops, workers shift from primary to secondary to tertiary. Rich countries usually have under 5% of workers in farming and over 70% in services.","A big share of workers in agriculture usually signals low incomes, because farms in poor countries produce little per worker and most of it is eaten, not sold."]}
+});
+addFRQ({k:"Practice FRQ · Data table",
+t:"Measuring Up",
+d:"Development indicators, Rostow, commodity dependence, and special economic zones.",
+u:"Unit 7",
+st:"Selected Development Indicators for Four Countries, 2023",
+intro:"Geographers use many indicators to measure development, because no single number tells the whole story. The table shows six indicators for four countries.",
+stim:"<div class=\"tbl\"><table><thead><tr><th>Country</th><th>GNI per capita (PPP, US$)</th><th>HDI (0–1)</th><th>Gender Inequality Index (0–1, lower is better)</th><th>Workers in agriculture (%)</th><th>Workers in services (%)</th><th>Exports from one commodity (%)</th></tr></thead><tbody>\n<tr><td>Ardena</td><td>48,200</td><td>0.93</td><td>0.08</td><td>2</td><td>78</td><td>9 (machinery)</td></tr><tr><td>Kovar</td><td>14,100</td><td>0.76</td><td>0.35</td><td>18</td><td>55</td><td>20 (electronics)</td></tr>\n<tr><td>Sulmani</td><td>2,100</td><td>0.49</td><td>0.58</td><td>62</td><td>25</td><td>15 (coffee)</td></tr><tr><td>Tessar</td><td>31,400</td><td>0.74</td><td>0.50</td><td>6</td><td>60</td><td>85 (petroleum)</td></tr></tbody></table></div><p class=\"src\">Note: The countries and data are invented for practice. Remember the class directions: label each part, and write Describe and Explain parts as T1- (your reason in general words), E2- (the specific proof), A3- (why it matters).</p>",
+bg:["devmeasures","rostow","readtable"],
+nt:[["Look at Tessar's GNI per capita, then slide over to its HDI. Does its ranking stay the same?","No! Tessar is #2 in income ($31,400) but LAST in HDI (0.74), below Kovar, which earns less than half as much per person. That mismatch is the heart of this FRQ."],["Run your finger down the agriculture column, then down the HDI column. What happens?","As the share of farm workers rises (2, 6, 18, 62%), HDI mostly falls (0.93, 0.74, 0.76, 0.49). Tessar is the one exception: oil money shrank its farming but didn't lift its HDI."],["Which country gets most of its export money from ONE product? What is the product?","Tessar: 85% of its exports are petroleum. One product, one world price. Keep that in mind for the later parts."]],
+m:20,
+p:[
+{v:"Identify",
+q:"Identify the country in the table that is most likely in Rostow's stage of high mass consumption.",
+sk:"Matching data to a Rostow stage",
+s:[["Recall what high mass consumption looks like: rich, service-based, few farmers.",["It's the TOP stage: high incomes, most workers in services, very few in farming.","Think of the United States or Germany today."]],["Find the row with the highest HDI and the most service workers.",["Scan the HDI column for the highest number, then check the services column.","It's the first row."]]],
+r:{m:"any",i:[["Ardena",/ardena/i,"Find the country with the highest GNI per capita, the highest HDI, and the most workers in services."]]},
+mo:"Ardena.",
+b:["rostow","sectors"],
+th:"I remember Rostow had stages, but I forget what the top one is.",
+co:"No problem. The top stage is high mass consumption: a rich country where most people work in services and can afford cars, phones, and vacations. Now find the richest, most service-heavy row.",
+kq:"Which country is the rich one at the top of Rostow's ladder? Just name it.",
+ml:["Rostow's top stage",["Rostow's model has five stages, from traditional society (mostly farming) to high mass consumption (mostly services and shopping).","In high mass consumption, GNI per capita and HDI are very high, under 5% of workers farm, and most workers are in services.","Ardena fits: $48,200 per person, HDI 0.93, 2% in agriculture, 78% in services.","Tessar has a high income too, but 85% of its exports are one raw commodity, which is not what a mature, diversified economy looks like."],[["High mass consumption","Rostow's fifth stage: a wealthy, service-based economy."],["Tertiary sector","Service jobs: stores, schools, hospitals, offices."]]],
+wk:["Tessar, because it has a high GNI per capita.","GNI alone is the trap in this table. Tessar's HDI is the lowest of the four and 85% of its exports are one raw material, so it isn't a mature, diversified economy. Check HDI and the services column too."],
+mw:"It names the one country whose numbers all point to the top stage: highest income, highest HDI, almost no farmers, and most workers in services.",
+fr:"The country most likely in high mass consumption is ___.",
+qc:["Rostow's stage of high mass consumption is marked by…",["most workers in services and high spending on consumer goods","most workers in farming and little trade","a few fast-growing industries just getting started"],0,"It's the top stage: a rich, service-based economy where people buy cars, electronics, and vacations."]},
+
+{v:"Describe",
+q:"Using the table, describe the relationship between the percent of workers in agriculture and the Human Development Index (HDI).",
+sk:"Describing a relationship in data",
+s:[["Say the relationship in general words. When one number goes up, what does the other do?",["Compare the top and bottom of each column.","When agriculture goes UP, HDI goes DOWN. That's an inverse (negative) relationship."]],["Prove it with two rows from the table, numbers included.",["Use the two extremes: Sulmani and Ardena.","Sulmani: 62% in agriculture, HDI 0.49. Ardena: 2% in agriculture, HDI 0.93."]],["Say why that relationship makes sense.",["Think about what happens to workers as a country develops.","Workers move from farms to factories and services, which raises incomes, schooling, and life expectancy."]]],
+r:{m:"all",i:[["States the direction: higher percent in agriculture goes with lower HDI (inverse/negative relationship)",/invers|negativ|opposite|lower|higher|less|more|fewer|smaller|larger|bigger|decreas|increas|drop|fall|rise|go(es)? (up|down)/i,"State the direction: the higher the percent of workers in agriculture, the lower the HDI."],["Uses the table as proof: names countries or quotes numbers (e.g., Sulmani 62% / 0.49 vs. Ardena 2% / 0.93)",/sulmani|ardena|kovar|tessar|62|0\.49|0\.93|0\.76|0\.74|2 ?%|18 ?%|6 ?%/i,"Use the table: Sulmani has 62% in agriculture and an HDI of 0.49, while Ardena has 2% and 0.93."]]},
+mo:"T1- The table shows an inverse relationship: the higher the percent of workers in agriculture, the lower the HDI. E2- Sulmani has 62% of its workers in agriculture and the lowest HDI (0.49), while Ardena has only 2% in agriculture and the highest HDI (0.93). A3- This fits the idea that as countries develop, workers shift out of farming into factories and services, which raises incomes, education, and life expectancy.",
+b:["sectors","readtable"],
+th:"Describe a relationship? Do I just say they're related?",
+co:"Almost! A relationship has a direction. Try the sentence: “As ___ goes up, ___ goes ___.” Then prove it with two rows and their actual numbers.",
+kq:"When a country has more farm workers, what happens to its HDI? Say the direction and prove it with numbers from the table.",
+ml:["Reading a relationship in a table",["Two columns have a relationship if one changes in a predictable way when the other changes.","Positive (direct): both go up together. Inverse (negative): one goes up while the other goes down.","Here, more farm workers means a lower HDI, so the relationship is inverse.","To prove it, quote two rows: Sulmani (62% agriculture, HDI 0.49) and Ardena (2%, HDI 0.93).","Note the exception: Tessar has few farmers (6%) but a middling HDI (0.74). Real data is rarely perfect, and exceptions are great material for later parts."],[["Inverse relationship","One number goes up while the other goes down."],["Primary sector","Jobs that take things from the earth: farming, fishing, mining."]]],
+wk:["Agriculture and HDI are related.","Related how? A relationship has a direction (as one goes up, the other goes down), and you need numbers from the table as proof."],
+mw:"It states the direction (inverse), proves it with two rows and their numbers, and explains why farming and HDI move in opposite directions.",
+fr:"T1- The table shows that as the percent of workers in agriculture goes ___, HDI goes ___. E2- For example, ___ has ___% in agriculture and an HDI of ___, while ___ has ___% and ___. A3- This makes sense because ___.",
+qc:["If one number goes UP while the other goes DOWN, the relationship is…",["inverse (negative)","positive (direct)","random"],0,"Inverse means opposite directions, like agriculture and HDI in this table."]},
+
+{v:"Explain",
+q:"Using the table, explain why a country can have a high GNI per capita but a lower HDI than its income would predict.",
+sk:"Income vs. human development",
+s:[["Find the mismatch, then name the general reason. Who actually gets the money?",["Tessar: $31,400 per person but HDI 0.74, below Kovar at $14,100.","GNI per capita is an average. It can be high even if most of the money goes to a few people."]],["Give specific proof from Tessar's row.",["85% of Tessar's exports are petroleum. Oil money flows to the government and a small elite, not to everyone.","Its Gender Inequality Index (0.50) is high, so women in particular are being left behind."]],["Explain why that lowers HDI specifically.",["Remember what HDI measures besides income: schooling and life expectancy.","If oil money isn't spent on schools and hospitals, two of HDI's three parts stay low."]]],
+r:{m:"all",i:[["Names a reason: wealth is concentrated or unequal, money comes from one resource (oil), low spending or corruption, or gender inequality",/concentrat|unequal|inequal|few|elite|rich|wealthy|gap|spend|invest|corrupt|govern|oil|petrol|women|gender|gii|average|distribut|one (product|commodity|export|resource)/i,"Name the reason: Tessar's oil wealth is concentrated in a few hands and not spread to most people."],["Explains the link to HDI: money doesn't reach education, health, or life expectancy for most people",/educat|school|literacy|health|hospital|life expectancy|doctor|not reach|doesn.t reach|does not reach|left out|left behind|trickle|most people|poor|unequal|inequal|concentrat|elite|spend|invest/i,"Connect it to HDI: if the money isn't spent on schools and health care, education and life expectancy stay low."]]},
+mo:"T1- A country can have a high GNI per capita but a lower HDI when its wealth is concentrated in a few hands and not spent on people. E2- Tessar earns $31,400 per person on paper, but 85% of its exports are petroleum, so the money flows to the government and a small elite rather than into schools and hospitals; its high Gender Inequality Index (0.50) shows that women in particular are left out. A3- Because HDI also measures education and life expectancy, not just income, a country that does not invest its oil money in health and schooling scores lower than its GNI alone would predict.",
+b:["devmeasures","commodity","gii"],
+th:"If they have the money, why wouldn't they be developed?",
+co:"Because “per capita” is an average, not a paycheck. If one oil company and a few officials earn almost everything, the average looks great while most families never see it. Follow where the oil money actually goes.",
+kq:"Tessar is rich on paper but scores low on HDI. Explain why that happens, using the table.",
+ml:["When income and HDI disagree",["GNI per capita divides a country's total income by its population, so a few very rich people can pull the average up.","HDI has three parts: income, years of schooling, and life expectancy. Income is only one third of the score.","Oil-rich countries such as Equatorial Guinea have had a GNI per capita far higher than their HDI would suggest, because oil money went to a small elite.","A high Gender Inequality Index is a clue: when women are kept out of school and work, half the population's health and education lag behind.","So when GNI is high but HDI is low, look for concentrated wealth and low spending on people."],[["GNI per capita","A country's total income divided by its population: an average, not what each person gets."],["HDI","Human Development Index: income + schooling + life expectancy, scored 0 to 1."]]],
+wk:["Tessar has a lower HDI because it is a smaller country.","Size has nothing to do with it; the table doesn't even show population. The reason is WHERE the money goes: concentrated oil wealth that isn't spent on schools and health."],
+mw:"It names the reason (concentrated wealth), proves it with Tessar's row (85% petroleum, GII 0.50), and connects it to what HDI measures (education and life expectancy).",
+fr:"T1- A country can have a high GNI per capita but a lower HDI when ___. E2- For example, Tessar ___. A3- This lowers HDI because HDI also measures ___, and ___.",
+qc:["Which of these is NOT one of the three parts of HDI?",["Exports per person","Life expectancy","Years of schooling"],0,"HDI combines income, education, and life expectancy. Exports aren't part of it."]},
+
+{v:"Explain",
+q:"Explain ONE way a high Gender Inequality Index can slow a country's economic development.",
+sk:"Women's status and development",
+s:[["Name the general idea. What does a high GII mean for half the population?",["A high GII means women have less schooling, fewer paid jobs, and less political power than men.","If half the population can't fully contribute, the economy loses their skills and work."]],["Give a specific example of what women can't do, using Sulmani (GII 0.58) if you like.",["Girls leave school early; women can't get loans to start businesses; women aren't hired for paid jobs.","Teen births and early marriage keep young women out of school and work."]],["Explain how that leads to slower growth.",["Fewer workers and fewer educated people → less produced → lower incomes.","Educated working women also have fewer, healthier children, which raises the next generation's HDI."]]],
+r:{m:"all",i:[["Names a specific barrier women face: schooling, paid jobs, loans/credit, property, political power, health, early marriage or childbirth",/school|educat|literacy|job|work|labor|labour|workforce|employ|business|loan|credit|vote|parliament|polit|health|maternal|pregnan|child|birth|fertil|marri|propert|land|own/i,"Name what women are kept from: school, paid jobs, loans to start businesses, or political power."],["Explains the effect on the economy: fewer workers or skills, less produced, lower incomes, slower growth",/because|so |lead|less|fewer|half|lower|slow|lose|loss|waste|miss|smaller|reduc|shrink|product|income|gdp|gni|grow|econom|tax|spend|invest|poverty|poor/i,"Explain the payoff: shutting out half the population means fewer workers and skills, so less is produced and incomes grow more slowly."]]},
+mo:"T1- A high Gender Inequality Index slows development because it keeps half the population from fully contributing to the economy. E2- In Sulmani (GII 0.58), many girls leave school early to marry, and few women hold paid jobs or can get loans to start businesses. A3- Because educated, working women earn income, have fewer and healthier children, and start businesses, shutting them out shrinks the workforce and the country's skills, so the economy grows more slowly than it could.",
+b:["gii"],
+th:"Isn't gender inequality a social issue, not an economic one?",
+co:"It's both, and that's the point. Picture an economy that only lets half its people learn and work. Now ask: how much is it leaving on the table?",
+kq:"How can treating women unequally make a whole country poorer? Explain ONE way.",
+ml:["Why women's status drives development",["The Gender Inequality Index measures gaps between women and men in health, schooling, political power, and paid work. Lower is better.","When girls stay in school, they marry later, have fewer and healthier children, and earn more as adults.","When women can get loans, they start small businesses. Grameen Bank in Bangladesh pioneered microloans to women in the 1980s for exactly this reason.","Economists estimate that closing the gender gap in work would add trillions of dollars to the world economy.","So a high GII isn't just unfair; it means a country is wasting half its brainpower and labor."],[["Gender Inequality Index","A 0-to-1 UN score of the gap between women and men; lower is better."],["Microloan","A very small loan, often to a woman, to start or grow a tiny business."]]],
+wk:["Gender inequality is bad for the economy.","That just restates the question. Name a specific thing women are kept from (school, jobs, loans) and explain how that leads to slower growth."],
+mw:"It names the general idea (half the population shut out), gives a specific barrier (school, jobs, loans in Sulmani), and explains the chain to slower growth.",
+fr:"T1- A high Gender Inequality Index slows development because ___. E2- For example, in Sulmani women ___. A3- This slows the economy because ___, which leads to ___.",
+qc:["A LOWER Gender Inequality Index means…",["women and men are closer to equal","women have far fewer rights than men","the country has fewer women than men"],0,"On the GII, 0 is full equality, so lower is better."]},
+
+{v:"Explain",
+q:"Explain ONE economic risk for a country whose exports depend heavily on a single commodity.",
+sk:"Commodity dependence",
+s:[["Name the risk in general words. What does the country have no control over?",["Commodities are sold at a WORLD price the country can't set.","If the price crashes, so does the country's income. There's nothing to fall back on."]],["Give a specific example, using Tessar (85% petroleum) or a real case.",["Oil fell from over $100 a barrel in 2014 to under $30 in 2016, and crashed again in 2020.","Nigeria and Venezuela both rely on oil for most export earnings and both suffered deep crises when prices fell."]],["Explain the chain reaction inside the country.",["Export income falls → government budget shrinks → spending cuts, debt, lost jobs.","This is sometimes called the “resource curse.”"]]],
+r:{m:"all",i:[["Names a risk: price shock or volatility, running out of the resource, falling demand, or the resource curse",/price|shock|crash|drop|fall|volatil|swing|fluctuat|run out|deplet|finite|curse|dutch|demand|boom|bust|replace|substitut|renewable|electric|climate|one product|single product|eggs/i,"Name the risk: the world price can crash (or the resource can run out), and the country can't control it."],["Explains the effect on the country: lost income or revenue, budget cuts, debt, unemployment, recession",/because|so |lead|income|revenue|money|budget|debt|unemploy|job|govern|econom|recession|collaps|lose|loss|suffer|hurt|crisis|cut|fall back|nothing else|no other/i,"Explain the damage: when the price falls, export income, government revenue, and jobs all fall at once."]]},
+mo:"T1- Depending on one commodity is risky because the whole economy rises and falls with that product's world price, which the country cannot control. E2- Tessar gets 85% of its export earnings from petroleum, so if oil prices crash, as they did from over $100 a barrel in 2014 to under $30 in 2016, government revenue and jobs collapse at the same time. A3- Because the country has few other exports to fall back on, a price shock can lead to budget cuts, debt, and unemployment, which is why heavy commodity dependence is sometimes called the resource curse.",
+b:["commodity"],
+th:"Oil is valuable. How is selling a lot of it a risk?",
+co:"It's valuable until the day it isn't. Tessar doesn't set the price of oil; the world market does. Ask yourself what happens to a family budget when 85% of the paycheck can be cut in half overnight.",
+kq:"Tessar earns almost all its export money from oil. What ONE economic danger does that create? Explain how it hurts the country.",
+ml:["Putting all your eggs in one basket",["A commodity is a raw product sold at a world price: oil, copper, coffee, cocoa.","Commodity prices swing wildly. Oil went from over $100 a barrel in 2014 to under $30 in early 2016, and briefly collapsed again in 2020.","When 85% of exports are one product, a price crash cuts export income, government revenue, and jobs all at once.","Nigeria and Venezuela, both heavily dependent on oil, fell into deep recessions when prices dropped.","Geographers call this pattern the resource curse: rich in a resource, but poorer and less stable because of it."],[["Commodity","A raw product sold in bulk at a world price."],["Resource curse","When depending on one valuable resource leaves a country unstable and underdeveloped."]]],
+wk:["Tessar should sell more things.","That's advice, not a risk. The question asks what could go WRONG: name the danger (a price crash) and explain how it hurts the country."],
+mw:"It names the risk (price shock), gives proof (Tessar's 85% petroleum and the 2014–2016 oil crash), and traces the chain to budget cuts, debt, and job losses.",
+fr:"T1- Depending on one commodity is risky because ___. E2- For example, Tessar ___, so if ___. A3- This hurts the country because ___, which leads to ___.",
+qc:["A sudden drop in the world price of a country's main export is called a…",["price shock","trade surplus","tariff"],0,"A price shock is a sudden swing in a commodity's price, and it hits one-product economies hardest."]},
+
+{v:"Explain",
+q:"Explain how a special economic zone (SEZ) or export processing zone could help Sulmani move toward Rostow's take-off stage, AND identify one potential downside.",
+sk:"SEZs and industrialization",
+s:[["Name what an SEZ does in general words.",["It's an area with special rules (low taxes, no tariffs, good roads and power) to attract foreign factories.","Think of Shenzhen in China or Mexico's maquiladoras."]],["Give specific proof of how that helps a farming country like Sulmani (62% in agriculture).",["Factories hire workers leaving farms, earn export money, and bring in technology and skills.","Shenzhen went from a fishing town of about 30,000 in 1980 to a city of 17 million."]],["Connect it to take-off, then add a downside. Use “however” or “but.”",["Take-off = a few fast-growing industries pull the economy out of farming.","Downsides: low wages, pollution, weak worker protections, companies leaving when tax breaks end."]]],
+r:{m:"all",i:[["Explains what the SEZ offers or attracts: tax breaks, no tariffs, foreign investment, factories, jobs, exports, technology",/tax|tariff|duty|incentive|foreign|invest|fdi|compan|factor|manufactur|job|employ|export|infrastruct|technolog|skill|industr|secondary/i,"Say what an SEZ does: low taxes and no tariffs attract foreign factories that create jobs and exports."],["Connects it to take-off or industrial growth: moving workers out of farming, a new leading industry, faster growth",/take.?off|rostow|stage|industrial|manufactur|grow|develop|precondition|shift|move|leading sector|urban|secondary/i,"Connect it to Rostow: new factories pull workers out of farming and start the fast industrial growth of take-off."],["Identifies a downside: low wages, exploitation, pollution, weak protections, lost tax revenue, companies leaving, dependence on foreign firms",/but|however|downside|negative|low wage|cheap|exploit|pollut|environment|condition|sweatshop|lose|loss|leave|unstable|dependen|revenue|tax break|few|unequal|rights|union|foreign (control|own)|profit/i,"Add a downside: for example, wages are often low, pollution rises, or companies leave when the tax breaks end."]]},
+mo:"T1- A special economic zone could help Sulmani start to industrialize by attracting foreign factories. E2- Inside the zone, the government offers low taxes, no tariffs on imported parts, and ready-built roads and power, so multinational companies open clothing or electronics plants that hire workers leaving farms, much as the Shenzhen SEZ turned a fishing town into a manufacturing giant. A3- Those factories create a new leading sector, export earnings, and job skills that can push Sulmani from Rostow's traditional stage toward take-off; however, the downside is that wages are often low and labor and environmental rules are weak, and if the tax breaks end the companies may simply move to a cheaper country.",
+b:["sez","rostow","sectors"],
+th:"This question has two parts. Do I need both?",
+co:"Yes, both, and that's good news: the downside is the easy half. Explain the help first (factories, jobs, exports), then flip it with “however…” and name one cost.",
+kq:"How could a special economic zone kick-start factories in Sulmani and move it toward take-off? And what's one thing that could go wrong?",
+ml:["SEZs: a shortcut to take-off?",["A special economic zone is an area with special rules to attract foreign factories: low taxes, no tariffs on imported parts, less red tape, and good roads, ports, and power.","Export processing zones are SEZs focused on assembling goods for export, like Mexico's maquiladoras near the U.S. border.","China opened Shenzhen as its first SEZ in 1980; it grew from about 30,000 people to over 17 million and helped launch China's industrial take-off.","For a farming country like Sulmani, factories pull workers out of agriculture into the secondary sector, bring export income, and teach new skills, which is what Rostow's take-off needs.","But SEZs can mean low wages, long hours, pollution, little tax revenue for the host country, and factories that leave when a cheaper country offers a better deal."],[["Special economic zone","An area with lower taxes and looser rules to attract foreign factories."],["Take-off","Rostow's stage when a few industries grow fast and the economy starts to industrialize."],["Export processing zone","An SEZ where factories assemble goods mainly for export."]]],
+wk:["An SEZ would give Sulmani factories and jobs.","That's a start, but it stops too early. Connect the factories to take-off (workers leave farms, industry grows fast) AND name one downside."],
+mw:"It explains what the zone offers (tax breaks, infrastructure, foreign factories), connects it to take-off (new leading sector pulling workers from farms), and names a clear downside (low wages, companies leaving).",
+fr:"T1- A special economic zone could help Sulmani by ___. E2- For example, the zone would offer ___, so companies would ___. A3- This moves Sulmani toward take-off because ___; however, one downside is ___.",
+qc:["Which is a typical feature of a special economic zone?",["Lower taxes and tariffs to attract foreign factories","A ban on all foreign companies","Higher taxes to pay for schools"],0,"SEZs relax the normal rules (taxes, tariffs, paperwork) so that foreign firms will build factories there."]},
+
+{v:"Explain",
+q:"Explain ONE limitation of using the data in the table to compare the quality of life of people in these four countries.",
+sk:"Data limits and scale",
+s:[["What kind of numbers are these? Who do they describe, exactly?",["Every number is a NATIONAL average for one year.","An average can hide huge gaps: rich vs. poor regions, city vs. countryside, men vs. women."]],["Pick a country and show what the average might be hiding.",["Tessar: $31,400 per person on average, but a small oil elite could be very rich while rural families and women (GII 0.50) live on far less.","Or: Sulmani's farmers may grow and trade food that never shows up in GNI (the informal economy)."]],["Explain why that makes comparing quality of life risky.",["Two countries with similar numbers could feel very different to live in.","You'd need data at a smaller scale (regions, cities, genders) to compare fairly."]]],
+r:{m:"all",i:[["Names a limitation: national averages hide regional/urban-rural/gender/rich-poor gaps, informal economy not counted, only one year, PPP issues, or quality of life factors not measured",/average|national|hide|hidden|mask|region|rural|urban|city|countryside|gender|women|rich|poor|gap|inequal|distribut|one year|single year|snapshot|change|informal|unpaid|not counted|uncount|ppp|exchange|cost of living|happiness|freedom|environment|pollut|safety|crime|doesn.t (measure|show)|does not (measure|show)|leaves? out|missing|scale/i,"Name the limitation: these are national averages for one year, so they hide gaps between regions, cities and countryside, and men and women."],["Explains why it misleads, ideally with an example from the table",/because|so |mislead|wrong|example|even though|but|tessar|sulmani|kovar|ardena|could|might|may|can.t|cannot|not tell|don.t know/i,"Explain with an example: Tessar's $31,400 average could mean a rich oil elite and poor rural villages, so the average doesn't tell you how most people live."]]},
+mo:"T1- One limitation is that every number in the table is a national average for a single year, which hides differences between groups inside each country. E2- For example, Tessar's $31,400 GNI per capita is an average: a small oil elite in the capital may be extremely rich while rural families and women (GII 0.50) live on far less, and Kovar's 55% service workers may be concentrated in a few big cities. A3- Because the averages flatten the gaps between rich and poor regions, genders, and the formal and informal economy, two countries with similar numbers could offer very different lives, so you would need data at a smaller scale to compare quality of life fairly.",
+b:["devmeasures","scale"],
+th:"But the table HAS the data. What's the limit?",
+co:"The table has six numbers per country, and each one is an average of millions of lives. Zoom in: does a farmer in Tessar's countryside live like someone in its oil capital? The average says yes. Reality probably says no.",
+kq:"Why can't these six numbers tell you how good life really is in each country? Explain ONE reason, with an example.",
+ml:["What averages hide",["GNI per capita, HDI, and the other indicators here are national averages: one number for a whole country, for one year.","Averages hide gaps. A country can have a wealthy capital city and desperately poor rural regions and still show a middling average.","They also miss the informal economy: farming for your own family, street vending, and unpaid work at home don't show up in GNI.","Quality of life also includes things no column here measures: safety, clean air, political freedom, and happiness.","Geographers fix this by changing scale: compare regions, cities, or genders instead of whole countries, and look at more than one year."],[["National average","One number for a whole country, which can hide big differences inside it."],["Informal economy","Work that isn't officially recorded or taxed, so it's missing from GNI."],["Scale","The level you're looking at: global, national, regional, or local."]]],
+wk:["The table only has four countries.","That's about how many rows there are, not about what the numbers can tell you. Explain what the averages hide, like gaps between rich and poor regions or men and women."],
+mw:"It names the limitation (national averages for one year), shows what they hide with a specific example (Tessar's oil elite vs. rural families), and explains why that makes comparing quality of life unreliable.",
+fr:"T1- One limitation is that the numbers in the table are ___, which hide ___. E2- For example, ___. A3- This is a problem because ___, so ___.",
+qc:["A country's GNI per capita is $31,400. What does that tell you about a typical rural family there?",["Not much; it's a national average that can hide big gaps","Exactly how much the family earns","That the family has a high quality of life"],0,"Per capita means divided by population. It's an average, and averages can hide huge differences inside a country."]}
+]});
+
+/* ===== State & helpers ===== */
+const app=document.getElementById('app'),sh=document.getElementById('sh');
+let S={f:null,fi:0,k:-1,max:0,p:[],nt:[]};
+const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const L=i=>String.fromCharCode(65+i);
+const TEA=[["T1","Topic · your reason in general words","tT","#22e5ff"],["E2","Evidence · the specific proof","tE","#ffd23f"],["A3","Analysis · why it matters","tA","#ff3fa4"]];
+const earned=i=>{const p=S.f.p[i],st=S.p[i],c=st.box.filter(Boolean).length;return p.r.m=="any"?c>0:c==p.r.i.length};
+const score=()=>S.p.filter(x=>x.done&&x.ok).length;
+const chips=a=>a.map(k=>`<button class="bgc" data-a="bg" data-k="${k}">📜 ${esc(BG[k].t)}</button>`).join('');
+function start(i){S={f:FRQ[i],fi:i,k:0,max:0,p:FRQ[i].p.map(()=>({st:1,h:{},a:'',ck:0,box:[],done:0,ok:0,c:0,q:null,cf:null})),nt:FRQ[i].nt.map(()=>({o:0,a:''})),bo:null,cb:0};render(1)}
+function go(k){S.k=k;S.max=Math.max(S.max,k);render(1)}
+function render(top){const y=scrollY;app.innerHTML=S.k<0?home():hdr()+(S.k==0?stimV():S.k>S.f.p.length?doneV():partV(S.k-1));if(top){scrollTo(0,0);const f=app.querySelector('h2[tabindex]')||app.querySelector('h1[tabindex]');f&&f.focus({preventScroll:true})}else scrollTo(0,y)}
+/* ===== Views ===== */
+function home(){return `<div class="hero"><div class="sub">GeoArcade presents</div><h1>FRQ<br>Tutor</h1><div class="sub">AP Human Geography · free-response training</div>${UNIT?`<div class="sub" style="color:var(--yl)">${UNIT}</div>`:''}<div class="blink">▶ SELECT A CARTRIDGE ◀</div></div>
+<div class="carts">${FRQ.map((f,i)=>[f,i]).sort((a,b)=>(b[0].cls||0)-(a[0].cls||0)).map(([f,i])=>`<button class="cart${f.cls?' cls':''}" data-a="start" data-i="${i}"><span class="k">${f.k}</span><h3>${f.t}</h3><span class="d">${f.d}</span><span class="d">${f.u} · ${f.p.length} parts · about ${f.m} min</span><span class="go">PRESS START ▸</span></button>`).join('')}</div>
+<div class="panel"><span class="tag px">How it works</span><div class="how"><div>Study the stimulus and jot what you notice.</div><div>Decode the task verb for each part.</div><div>Think it through with step-by-step hints.</div><div>Write, check against the rubric, compare with a model.</div></div></div>
+<div class="panel"><span class="tag px">The TEA method</span><p>For every <b>Describe</b> or <b>Explain</b> part, build your answer in three moves:</p>${chips(["frq","tea"])}<div class="tea" style="margin-top:8px"><div><b class="tT">T1-</b><strong>Topic</strong><br>Your reason in general words.</div><div><b class="tE">E2-</b><strong>Evidence</strong><br>The specific proof: a place, number, or example.</div><div><b class="tA">A3-</b><strong>Analysis</strong><br>Why it matters: the “because… which leads to…”.</div></div></div>`}
+function hdr(){const n=S.f.p.length,segs=[["👁",0]].concat(S.f.p.map((_,i)=>[L(i),i+1]),[["★",n+1]]);
+const cur=S.k==0?"Stimulus":S.k>n?"Results":`Part ${L(S.k-1)} of ${n}`;
+return `<div class="top"><button class="brand" data-a="home">◀ Geo<b>Arcade</b> · FRQ Tutor</button><span class="score" aria-live="polite"><span class="sym">★</span> ${score()}/${n}${S.cb>1?` <span class="sym">🔥</span>${S.cb}`:''}</span></div>
+<div class="prog" role="navigation" aria-label="Progress">${segs.map(([t,k])=>{const p=k>0&&k<=n?S.p[k-1]:null,c=k==S.k?'cur':p&&p.done?(p.ok?'ok':'no'):k<=S.max?'v':'';return `<button class="seg ${c}" data-a="go" data-k="${k}" ${k==S.k?'aria-current="step"':''} aria-label="${k==0?'Stimulus':k>n?'Results':'Part '+t+(p&&p.done?(p.ok?', point earned':', not yet'):'')}">${k==0||k>n?`<span class="sym">${t}</span>`:t}</button>`}).join('')}</div>
+<div class="plabel"><h1 tabindex="-1" style="font:inherit">${esc(S.f.t)}</h1><span>${cur}</span></div><div class="jump">Tap any letter to jump to that part. Go in order or skip around.</div>`}
+function stimBox(){return `<div class="stim"><h3>${esc(S.f.st)}</h3>${S.f.stim}</div>`}
+function stimV(){const all=S.nt.every(x=>x.o),nx=S.nt.findIndex(x=>!x.o);
+return `<div class="panel"><span class="tag px">Step 1 · Look first</span><p>${esc(S.f.intro)} <b>No questions yet.</b> Strong writers look closely first. Answer 3 quick “notice” questions below.</p></div>${stimBox()}
+<div class="row" style="margin-top:8px">${chips(S.f.bg)}</div>
+<div class="panel"><span class="tag px">What do you notice? · ${Math.min(nx<0?3:nx+1,3)}/3</span>${S.f.nt.map((n,j)=>nx>=0&&j>nx?'':`<div class="notice"><div class="q">${j+1}. ${esc(n[0])}</div><textarea data-in="nt" data-j="${j}" placeholder="Jot your idea (optional)…" aria-label="Your idea">${esc(S.nt[j].a)}</textarea>${S.nt[j].o?`<div class="take">${esc(n[1])}</div>`:`<div class="row" style="margin-top:8px"><button class="btn o" data-a="nt" data-j="${j}">Compare with tutor</button></div>`}</div>`).join('')}
+<div class="row"><button class="btn g" data-a="go" data-k="1">Reveal Part A ▸</button>${all?'':'<span class="note">Tip: compare all three notes first. Good writers always look before they write!</span>'}</div></div>`}
+const CARDS=[["❓","Ask"],["🔤","Verb"],["📘","Learn"],["🧠","Think"],["✏️","Write"],["✅","Check"]];
+const CAL=[["You weren't sure, but you got it! Trust your thinking more.","Smart move noticing you weren't sure. The Fix-it tips show exactly what to add."],["Nice! You know more than you think.","Close! Compare your answer to the model line by line."],["Confident AND correct. That's mastery!","You felt sure, but the rubric wants more. Always check your answer against the rubric before moving on."]];
+const YES=["★ Point earned! Your hard thinking paid off.","★ Point earned! That's exactly what AP readers look for.","★ Point earned! You used evidence like a geographer."];
+function mcqV(q,pick,rot,act,extra){const o=q[1].map((t,k)=>[t,k]);for(let r=0;r<rot;r++)o.push(o.shift());
+return `<div class="mcq"><p class="mq">${esc(q[0])}</p>${o.map(([t,k])=>`<button class="opt ${pick==null?'':k==0?'good':k==pick?'bad':''}" data-a="${act}" data-o="${k}" ${extra} ${pick===0?'disabled':''}>${esc(t)}</button>`).join('')}
+${pick==null?'':pick==0?`<p class="fb y" role="status">✔ Right! ${esc(q[3])}</p>`:`<p class="fb n" role="status">Not quite, and that's OK. ${esc(q[3])}</p>`}</div>`}
+function partV(i){const P=S.f.p[i],st=S.p[i],V=VERBS[P.v],tea=P.v!="Identify",n=S.f.p.length,c=st.c;
+let h=`<details class="peek"><summary>View stimulus</summary><div>${stimBox()}</div></details>
+<div class="sub" role="tablist" aria-label="Steps for Part ${L(i)}">${CARDS.map(([ic,t],k)=>`<button class="sb ${k==c?'on':k<c||(k==5&&st.ck)?'dn':''}" data-a="card" data-i="${i}" data-c="${k}" ${k==5&&!st.ck?'disabled':''} ${k==c?'aria-current="step"':''}><span aria-hidden="true">${ic}</span>${t}</button>`).join('')}</div>`;
+const nav=(nx,lab)=>`<div class="row">${c>0?`<button class="btn o" data-a="card" data-i="${i}" data-c="${c-1}">◀ Back</button>`:''}<button class="btn c" data-a="card" data-i="${i}" data-c="${nx}">${lab} ▸</button></div>`;
+const qline=`<div class="qmini"><span class="px">Part ${L(i)} · ${P.v}</span><h2 tabindex="-1">${esc(P.q)}</h2></div>`;
+if(c==0)h+=`<div class="qbox"><span class="px">Part ${L(i)} · ${P.v}</span><h2 tabindex="-1" style="font-size:19px;line-height:1.45">${esc(P.q)}</h2><div class="plain"><b>In plain words:</b> ${esc(P.kq)}</div></div>
+<div class="coach"><div class="av" aria-hidden="true">🧭</div><div><p class="kid">“${esc(P.th)}”</p><p><b>Tutor:</b> ${esc(P.co)}</p></div></div>${nav(1,'Got it! What does “'+P.v+'” mean?')}<button class="link" data-a="card" data-i="${i}" data-c="4">Feeling confident? Try it cold first ▸</button>`;
+if(c==1)h+=qline+`<div class="panel"><span class="tag px">Decode the verb</span><div class="verb"><span class="vb">${P.v}</span><div><b>${V.d}</b><ul>${V.l.map(x=>`<li>${x}</li>`).join('')}</ul></div></div><div style="margin-top:8px">${chips(tea?['frq','tea']:['frq'])}</div></div>${nav(2,'Learn what I need')}`;
+if(c==2)h+=qline+`<div class="panel"><span class="tag px">Learn what you need</span><h3 class="lt">${esc(P.ml[0])}</h3><ul class="les">${P.ml[1].map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+<div class="voc"><span class="px">Key words</span>${P.ml[2].map(v=>`<p><b>${esc(v[0])}:</b> ${esc(v[1])}</p>`).join('')}</div></div>
+<div class="panel"><span class="tag px">Quick check</span><p class="note">Pulling an idea out of your memory makes it stick. Give it a try!</p>${mcqV(P.qc,st.q,(i+S.fi)%3,'mcq',`data-i="${i}"`)}</div>
+<p class="note">Want the bigger story?</p>${chips(P.b)}${nav(3,'Think it through')}<button class="link" data-a="card" data-i="${i}" data-c="4">Already know this? Skip to writing</button>`;
+if(c==3){h+=qline+`<div class="panel"><span class="tag px">Think it through${tea?' with TEA':''}</span>`;
+P.s.slice(0,st.st).forEach((s,j)=>{const t=tea?TEA[j]:[j+1,'Step '+(j+1),'','#22e5ff'],shown=s[1].filter((_,m)=>st.h[j+'-'+m]).length;
+h+=`<div class="step" style="color:${t[3]}"><div class="badge">${t[0]}</div><div style="color:var(--ink);flex:1"><div class="lb" style="color:${t[3]}">${t[1]}</div><p class="pr">${esc(s[0])}</p>${s[1].slice(0,shown).map(x=>`<div class="hint">${esc(x)}</div>`).join('')}${shown<s[1].length?`<button class="hb" data-a="hint" data-j="${j}" data-m="${shown}">Hint ${shown+1}/${s[1].length}</button>`:''}</div></div>`});
+h+=`</div><div class="row"><button class="btn o" data-a="card" data-i="${i}" data-c="2">◀ Back</button>${st.st<P.s.length?`<button class="btn c" data-a="step" data-i="${i}">Next step ▸</button>`:`<button class="btn c" data-a="card" data-i="${i}" data-c="4">Start writing ▸</button>`}</div>${st.st<P.s.length?`<button class="link" data-a="card" data-i="${i}" data-c="4">I'm ready, skip to writing</button>`:''}`}
+if(c==4)h+=qline+`<div class="panel"><span class="tag px">Write it</span>${tea?`<div class="teamini">Label it: <b class="tT">T1-</b> your reason · <b class="tE">E2-</b> specific proof · <b class="tA">A3-</b> why it matters</div>`:`<div class="teamini">Identify = a short, specific answer. One phrase is enough.</div>`}
+<details class="peek weak"><summary>Don't fall for this weak answer</summary><div><p class="wa">“${esc(P.wk[0])}”</p><p><b>❌ Why it misses:</b> ${esc(P.wk[1])}</p></div></details>
+<textarea id="ans" data-in="ans" data-i="${i}" placeholder="${tea?'Write 2–3 sentences…':'Write a short phrase…'}" aria-label="Your answer">${esc(st.a)}</textarea>
+<div class="chips"><button class="chip fr" data-a="frame" data-i="${i}">🧩 Stuck? Use a sentence frame</button>${tea?["For example, ","This is because ","which leads to ","As a result, "].map(c=>`<button class="chip" data-a="ins" data-t="${c}">+ ${c.trim()}</button>`).join(''):''}</div>
+${st.w?'<p class="fix" role="alert">⚠ You still have blanks (___) to fill in. Replace each one with your own words first!</p>':''}
+<div class="conf"><span>How sure are you?</span>${['😬 Not sure','🙂 Kind of','😎 Very'].map((t,k)=>`<button class="cb ${st.cf===k?'on':''}" data-a="cf" data-i="${i}" data-k="${k}" aria-pressed="${st.cf===k}">${t}</button>`).join('')}</div>
+<div class="row"><button class="btn o" data-a="card" data-i="${i}" data-c="3">◀ Back</button><button class="btn" data-a="check" data-i="${i}">Check my answer ▸</button></div></div>`;
+if(c==5&&st.ck){const ok=earned(i);h+=qline+`<div class="panel"><span class="tag px">Check it</span><p class="note" style="margin:0 0 6px">Your answer:</p><div class="mine">${esc(st.a)}</div>
+<p style="margin-top:12px"><b>What earns the point${P.r.m=="any"?' (any ONE of these)':' (you need ALL of these)'}:</b> Tick each one your answer really does.</p>
+<ul class="ck">${P.r.i.map((r,j)=>`<li><label><input type="checkbox" data-a="box" data-i="${i}" data-j="${j}" ${st.box[j]?'checked':''}><span>${esc(r[0])}${st.g[j]?'<small>Tutor spotted this; double-check it.</small>':''}${!st.box[j]&&!(P.r.m=="any"&&st.box.some(Boolean))?`<em class="fix">Fix it: ${esc(r[2])}</em>`:''}</span></label></li>`).join('')}</ul>
+<p class="note">The tutor guesses from keywords. <b>You</b> make the final call, so be honest!</p>
+<div class="model"><span class="px">Model answer</span>${esc(P.mo)}<p class="why"><b>✅ Why it works:</b> ${esc(P.mw)}</p></div>
+<div role="status" class="verdict ${ok?'y':'n'}">${ok?YES[i%3]:'Not yet, and “not yet” is how everyone learns. Use the Fix-it tips, then revise.'}${ok&&S.cb>0?`<span class="combo">🔥 ${S.cb+1} in a row!</span>`:''}</div>${st.cf==null?'':`<p class="cal">${CAL[st.cf][ok?0:1]}</p>`}
+<div class="row">${ok?'':`<button class="btn o" data-a="rev" data-i="${i}">✎ Revise</button>`}<button class="btn g" data-a="next" data-i="${i}">${i+1<n?`On to Part ${L(i+1)} ▸`:'See results ▸'}</button></div></div>`}
+return h}
+function bossV(){const B=S.bo;if(!B)return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round</span><p>3 lightning questions on what you just learned. Quick recall now helps you remember it next week.</p><div class="row"><button class="btn m" data-a="boss">Start Boss Round ▸</button></div></div>`;
+if(B.k>=B.l.length)return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round</span><p class="big" style="font-size:20px">${B.r==B.l.length?'Boss defeated!':'Boss battle over!'}</p><p style="text-align:center">You got <b>${B.r}/${B.l.length}</b> on the first try.${B.r<B.l.length?' Come back tomorrow and replay. Spacing out practice is how memories stick.':''}</p></div>`;
+const i=B.l[B.k],q=S.f.p[i].qc;return `<div class="panel boss"><span class="tag px" style="color:var(--mg)">Boss round · ${B.k+1}/${B.l.length}</span>${mcqV(q,B.s,(i+B.k+1)%3,'bq','')}${B.s===0||B.s>0?`<div class="row"><button class="btn m" data-a="bn">${B.k+1<B.l.length?'Next ▸':'Finish ▸'}</button></div>`:''}</div>`}
+function doneV(){const n=S.f.p.length,sc=score(),ps=S.f.p.map((p,i)=>[p,i,S.p[i]]),ok=ps.filter(x=>x[2].ok),no=ps.filter(x=>x[2].done&&!x[2].ok),un=ps.filter(x=>!x[2].done);
+const rank=sc==n?"GEO LEGEND":sc>=5?"MAP MASTER":sc>=3?"RISING SCOUT":"KEEP PLAYING";
+return `<div class="panel" style="text-align:center"><h2 class="big" tabindex="-1">${un.length?'Progress report':'Stage clear!'}</h2><div class="stars" aria-label="${sc} of ${n}">${'★'.repeat(sc)}<span style="opacity:.25">${'★'.repeat(n-sc)}</span></div><div class="rank">${sc}/${n} points · Rank: ${rank}</div></div>
+<div class="panel"><span class="tag px" style="color:var(--gr)">Nailed it</span>${ok.length?`<ul class="res">${ok.map(([p,i])=>`<li><b style="color:var(--gr)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span></li>`).join('')}</ul>`:'<p class="note">No points yet. Every replay makes it easier!</p>'}</div>
+<div class="panel"><span class="tag px" style="color:var(--rd)">Review these</span>${no.length?`<ul class="res">${no.map(([p,i])=>`<li><b style="color:var(--rd)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br>${chips(p.b)}<button class="link" data-a="go" data-k="${i+1}">Revisit Part ${L(i)}</button></li>`).join('')}</ul>`:'<p>Nothing to review so far. 🏆</p>'}</div>
+${un.length?`<div class="panel"><span class="tag px" style="color:var(--yl)">Not tried yet</span><ul class="res">${un.map(([p,i])=>`<li><b style="color:var(--yl)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br><button class="link" data-a="go" data-k="${i+1}">Go to Part ${L(i)}</button></li>`).join('')}</ul></div>`:''}
+${no.length?`<div class="row"><button class="btn c" data-a="retry">↻ Retry what I missed ▸</button></div>`:''}${bossV()}<div class="row"><button class="btn" data-a="start" data-i="${S.fi}">↻ Replay</button>${FRQ.length>1?`<button class="btn m" data-a="start" data-i="${(S.fi+1)%FRQ.length}">Try “${esc(FRQ[(S.fi+1)%FRQ.length].t)}” ▸</button>`:''}<button class="btn o" data-a="home">Menu</button></div>`}
+/* ===== Events ===== */
+let opener;function openBG(k){opener=document.activeElement;app.setAttribute('aria-hidden','true');document.getElementById('shT').textContent=BG[k].t;document.getElementById('shB').innerHTML=BG[k].s.map(x=>`<li>${esc(x)}</li>`).join('');sh.classList.add('on');sh.querySelector('[data-a=x]').focus()}
+function closeBG(){if(!sh.classList.contains('on'))return;sh.classList.remove('on');app.removeAttribute('aria-hidden');opener&&opener.focus()}
+document.addEventListener('click',e=>{if(e.target==sh)return closeBG();const b=e.target.closest('[data-a]');if(!b||b.disabled)return;const a=b.dataset.a,i=+b.dataset.i,j=+b.dataset.j;
+if(b.tagName=='INPUT'&&a=='box'){S.p[i].box[j]=b.checked;return render()}
+switch(a){
+case 'start':return start(i);
+case 'home':S.k=-1;return render(1);
+case 'go':return go(+b.dataset.k);
+case 'bg':return openBG(b.dataset.k);
+case 'x':return closeBG();
+case 'nt':S.nt[j].o=1;return render();
+case 'hint':{const k=S.k-1;S.p[k].h[j+'-'+b.dataset.m]=1;return render()}
+case 'step':S.p[i].st++;return render();
+case 'card':S.p[i].c=+b.dataset.c;return render(1);
+case 'mcq':S.p[i].q=+b.dataset.o;return render();
+case 'boss':{const f=S.p.map((x,k)=>k),miss=f.filter(k=>!S.p[k].ok),rest=f.filter(k=>S.p[k].ok);S.bo={l:miss.concat(rest).slice(0,3),k:0,s:null,r:0};return render()}
+case 'bq':{const B=S.bo;if(B.s==null&&+b.dataset.o==0)B.r++;if(B.s!==0)B.s=+b.dataset.o;return render()}
+case 'bn':S.bo.k++;S.bo.s=null;return render();
+case 'frame':{const t=document.getElementById('ans'),f=S.f.p[i].fr;t.value=t.value.trim()?t.value.trim()+'\n'+f:f;S.p[i].a=t.value;t.focus();const c=t.value.indexOf('___',t.value.length-f.length);if(c>=0)t.setSelectionRange(c,c+3);return}
+case 'ins':{const t=document.getElementById('ans');const pos=t.selectionStart??t.value.length;const pre=t.value.slice(0,pos),sp=pre&&!/\s$/.test(pre)?' ':'';t.value=pre+sp+b.dataset.t+t.value.slice(pos);S.p[S.k-1].a=t.value;t.focus();const c=(pre+sp+b.dataset.t).length;t.setSelectionRange(c,c);return}
+case 'check':{const st=S.p[i],P=S.f.p[i];if(st.a.includes('___')){st.w=1;render();return document.getElementById('ans').focus()}st.w=0;if(st.a.trim().length<2){const t=document.getElementById('ans');t.placeholder='Type an answer first — even a rough one!';return t.focus()}
+st.ck=1;st.c=5;st.g=P.r.i.map(r=>r[1].test(st.a));st.box=P.r.m=="any"?st.g.map((g,j)=>g&&st.g.indexOf(true)==j):st.g.slice();return render(1)}
+case 'rev':S.p[i].ck=0;S.p[i].done=0;S.p[i].c=4;render(1);return document.getElementById('ans').focus();
+case 'next':{const w=S.p[i].done;S.p[i].done=1;S.p[i].ok=earned(i);if(!w)S.cb=S.p[i].ok?S.cb+1:0;return go(i+2)}
+case 'cf':S.p[i].cf=+b.dataset.k;return render();
+case 'retry':{const m=S.p.findIndex(x=>x.done&&!x.ok);S.p[m].c=4;S.p[m].ck=0;S.p[m].done=0;return go(m+1)}
+}});
+document.addEventListener('input',e=>{const t=e.target,d=t.dataset;if(d.in=='ans')S.p[+d.i].a=t.value;else if(d.in=='nt')S.nt[+d.j].a=t.value});
+document.addEventListener('keydown',e=>{if(e.key=='Escape')closeBG();else if(e.key=='Tab'&&sh.classList.contains('on')){e.preventDefault();sh.querySelector('[data-a=x]').focus()}});
+render(1);
+</script>
+</body>
+</html>
