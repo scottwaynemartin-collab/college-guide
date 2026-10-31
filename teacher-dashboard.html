@@ -23,7 +23,9 @@
               Classes look like "APHG 3B" (course + period). Assignments may be prefixed
               with their course, e.g. "APHG · Unit 2 Test", so they count only for that course.
     Optional "School Year" column (e.g. 2025-26) tags older data; it's used only in Compare.
-    Profile:  Student,Student ID,Class,8th STAAR %,8th STAAR Level,AP Exam[,Accommodations]
+    Profile:  Student,Student ID,Class,8th STAAR %,8th STAAR Level,AP Exam, and optionally Q1 Grade, Q2 Grade (to date),
+              TIA BOY 26-27 %, Prior AP score (APHG 2026), Prior TIA BOY/EOY 25-26 %, Grade level,
+              Q1 Unweighted GPA, Q1 Weighted GPA (any quarter Q1–Q4), Est. rank band, Est. quartile, Accommodations
               Matched on Student ID. Never counted in averages. AP Exam = Paid / Unpaid / Opted out.
 
   Works inside a claude.ai artifact: no pop-ups (confirm/prompt/alert), no new windows,
@@ -410,7 +412,7 @@ textarea.code{font:12px/1.5 var(--mono);min-height:220px;resize:vertical}
 .stu:after{content:"";position:absolute;left:50%;top:-6px;width:8px;height:8px;background:var(--ink);transform:translateX(-50%) rotate(45deg)}
 .delta{font-weight:800;font-variant-numeric:tabular-nums}.delta.up{color:var(--ok-ink)}.delta.down{color:var(--help-ink)}
 /* AP projection */
-.apb{display:inline-grid;place-content:center;min-width:28px;height:28px;padding:0 6px;border-radius:8px;font:900 15px/1 var(--display)}
+.apb{white-space:nowrap;display:inline-grid;place-content:center;min-width:28px;height:28px;padding:0 6px;border-radius:8px;font:900 15px/1 var(--display)}
 .apb.big{min-width:44px;height:44px;font-size:24px;border-radius:12px}
 .apb.a5{background:#00857e;color:#fff}.apb.a4{background:var(--tq);color:var(--blk)}.apb.a3{background:var(--line);color:var(--ink)}.apb.a2{background:var(--help-bg);color:var(--help-ink);box-shadow:inset 0 0 0 1.5px var(--help)}.apb.a1{background:var(--help);color:#fff}
 .tag.ap{background:var(--ink);color:var(--card)}
@@ -454,6 +456,52 @@ textarea.code{font:12px/1.5 var(--mono);min-height:220px;resize:vertical}
 .dstat{font:800 10px var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:5px;white-space:nowrap}
 .dstat.ready{background:var(--ok-bg);color:var(--ok-ink)}.dstat.done{background:var(--tq);color:var(--blk)}.dstat.mine{background:var(--line);color:var(--ink2)}.dstat.taken,.dstat.err{background:var(--watch-bg);color:var(--watch-ink)}.dstat.notfound,.dstat.noid{background:var(--help-bg);color:var(--help-ink)}
 .drafted{display:inline-flex;font:800 10px var(--sans);letter-spacing:.04em;text-transform:uppercase;padding:2px 6px;border-radius:5px;background:var(--tq-soft);color:var(--tq-ink);margin-left:6px}
+
+/* conference view */
+.conf{position:fixed;inset:0;z-index:55;background:var(--bg);overflow:auto}
+.conf-bar{position:sticky;top:0;z-index:2;background:var(--blk);color:#fff;display:flex;align-items:center;gap:10px;padding:10px 22px;flex-wrap:wrap}
+.conf-bar .btn{background:var(--blk3);border-color:var(--blk3);color:#fff}
+.conf-bar .btn.pri{background:var(--tq);border-color:var(--tq);color:var(--blk)}
+.conf-bar b{font:900 13px var(--display);text-transform:uppercase;letter-spacing:.06em;color:var(--tq-hi)}
+.conf-page{max-width:1180px;margin:0 auto;padding:22px 22px 60px}
+.conf-head{display:flex;gap:16px;align-items:center;flex-wrap:wrap;border-bottom:4px solid var(--tq);padding-bottom:14px;margin-bottom:16px}
+.conf-head h1{font:900 38px/1 var(--display);text-transform:uppercase;letter-spacing:-.02em}
+.conf-head .meta{color:var(--ink2);font-size:13px;margin-top:6px}
+.conf-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.fsec{background:var(--card);border-radius:12px;box-shadow:0 0 0 1px var(--line);overflow:hidden;break-inside:avoid;min-width:0}
+.fsec>h2{background:var(--blk);color:#fff;font:900 13px var(--display);text-transform:uppercase;letter-spacing:.06em;padding:9px 14px;display:flex;align-items:center;gap:8px}
+.fsec>h2 span{font:600 11px var(--sans);text-transform:none;letter-spacing:0;color:var(--on-blk2)}
+.fsec>.fb{padding:12px 14px}
+.cells{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
+.cell{background:var(--card2);border-radius:10px;box-shadow:inset 0 0 0 1px var(--line);padding:9px 11px}
+.cell span{display:block;font:800 10px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}
+.cell b{display:block;font:900 20px/1.2 var(--display);margin-top:3px}
+.cell b em{font-style:normal}
+.cell small{display:block;font-size:11px;color:var(--ink3)}
+table.ft{width:100%;border-collapse:collapse;font-size:13px}
+table.ft th{font:800 10px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);text-align:left;padding:6px 8px;border-bottom:1.5px solid var(--ink)}
+table.ft td{padding:7px 8px;border-bottom:1px solid var(--line)}
+table.ft .r{text-align:right}
+table.ft input,table.ft select{width:100%;min-width:60px;border:1.5px solid var(--line2);border-radius:8px;padding:5px 8px;background:var(--card);color:var(--ink);font-size:13px}
+.rate{display:inline-flex;gap:3px}
+.rate button{width:30px;height:30px;border-radius:8px;border:1.5px solid var(--line2);background:var(--card);font:900 13px var(--display)}
+.rate button[aria-pressed="true"]{background:var(--tq);border-color:var(--tq);color:var(--blk)}
+.met{font:800 11px var(--sans)}.met.y{color:var(--ok-ink)}.met.n{color:var(--help-ink)}
+.cplat{display:grid;gap:10px}
+.mlist{display:flex;flex-direction:column;gap:5px}
+.mlist div{display:flex;justify-content:space-between;gap:8px;font-size:13px;padding:6px 10px;border-radius:8px;background:var(--help-bg);color:var(--help-ink);font-weight:600}
+textarea.confnote{width:100%;min-height:150px;border:1.5px solid var(--line2);border-radius:10px;padding:10px 12px;background:var(--card);color:var(--ink);font:13px/1.5 var(--sans);resize:vertical}
+.c4{grid-column:span 4}.c5{grid-column:span 5}.c6{grid-column:span 6}.c7{grid-column:span 7}.c8{grid-column:span 8}.c12{grid-column:span 12}
+@media (max-width:900px){.c4,.c5,.c6,.c7,.c8{grid-column:span 12}.conf-head h1{font-size:28px}.conf-page{padding:14px}.cplat{grid-template-columns:1fr!important}}
+@media print{
+  body.conf-open>*:not(#layer){display:none!important}
+  body.conf-open #layer .conf{position:static;overflow:visible;background:#fff}
+  body.conf-open .conf-bar,body.conf-open .noprint{display:none!important}
+  body.conf-open .conf-page{max-width:none;padding:0}
+  body.conf-open .fsec{box-shadow:0 0 0 1px #ccc}
+  body.conf-open .fsec>h2{background:#000!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body.conf-open textarea.confnote{border:1px solid #999;min-height:120px}
+}
 
 /* in-page print area (no new windows, so it works inside artifacts) */
 #printArea{display:none}
@@ -556,7 +604,7 @@ const CONFIG = {
   mcWeight: {'APHG':0.5, 'AP World':0.4, 'AP Euro':0.4, default:0.5},   // MC share when writing % exists
   // Platform colors come from a colorblind-checked palette; keep this order.
   sources: [
-    {id:'Gradebook',    color:'var(--s1)', short:'GB'},
+    {id:'Gradebook',    color:'var(--s1)', short:'TAC'},
     {id:'Canvas',       color:'var(--s2)', short:'CV'},
     {id:'AP Classroom', color:'var(--s3)', short:'AP'},
     {id:'Other',        color:'var(--s4)', short:'··'},
@@ -573,7 +621,7 @@ const AP_EXAM = {paid:'Paid', unpaid:'Unpaid', opted:'Opted out'};
 
 /* ---------- storage (browser only) ---------- */
 const KEY = 'classroomDashboard.v1';
-const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
+const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
 let DB = load();
 function load(){ try{ return Object.assign(blank(), JSON.parse(localStorage.getItem(KEY)||'{}')); }catch(e){ return blank(); } }
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(DB)); }catch(e){ toast('Could not save — browser storage is unavailable or full'); } }
@@ -1325,55 +1373,107 @@ const OVERVIEW_CARDS = [
 /* ---------- student drawer ---------- */
 function openStudent(key){
   if (!DB.students[key]) return;
-  const s = studentFull(key), notes = DB.notes[key] || [], cut = S().atRisk, p = prof(key), lvl = staarOf(key);
+  const keepScroll = $('#layer .conf') && $('#layer').dataset.student===key ? $('#layer .conf').scrollTop : 0;
+  const s = studentFull(key), p = prof(key) || {}, lvl = staarOf(key), cut = S().atRisk, ag = DB.agency[key] || {};
   const plats = S().sources.filter(pl => s.pts.some(x=>x.a.source===pl.id));
-  const sc = DB.scores[key] || {};
-  const excused = visibleAssignments().filter(a=>sc[a.id]?.x);
-  $('#layer').innerHTML = `<div class="scrim" data-close><div class="drawer" role="dialog" aria-modal="true" aria-label="${esc(s.name)}">
-    <div class="dtop"><div class="row">${avatar(key, s.name, 48)}<div><h2>${esc(s.name)}${staarBadge(key)}</h2><div class="minor">${esc(s.classes.join(' · ')||'No class')}${s.ids.length?' · ID '+esc(s.ids.join(', ')):''}</div></div>
-      <div class="x"><button class="btn sm" data-report="${esc(key)}">${CAN_PRINT?'Print report':'Report text'}</button><button class="btn sm" data-close aria-label="Close">✕</button></div></div>
-      <div class="cls-chips">${s.cs.map(c=>{ const st = c.avg==null?'':c.avg<cut?'help':c.avg<cut+S().watchBand?'watch':'ok'; return `<div class="cc ${st}"><span>${esc(c.cls||'All work')}</span><b>${p0(c.avg)}</b><span>${letter(c.avg)} · ${c.missing.length} missing${c.proj?` · AP ${c.proj.score}`:''}</span></div>`; }).join('')}
-        <div class="cc"><span>Status</span><b style="font-size:16px;margin-top:4px">${STATUS[s.status].icon} ${STATUS[s.status].label}</b></div></div>
-    </div>
-    <div class="dbody">
-      ${p ? `<div class="sec"><h3>Profile <span class="minor" style="font:600 11px var(--sans);text-transform:none;letter-spacing:0">not counted in averages</span></h3><div class="profile">
-        <div><span>8th STAAR level</span><b>${lvl?`<span class="staar s-${lvl.id}" style="margin:0;font-size:12px;padding:5px 8px">${esc(lvl.label)}</span>`:'—'}</b></div>
-        <div><span>8th STAAR score</span><b>${p.staarPct!=null?Math.round(p.staarPct)+'%':'—'}</b></div>
-        <div><span>AP exam</span><b style="${p.apExam==='unpaid'?'color:var(--help-ink)':''}">${p.apExam?(p.apExam==='unpaid'?'$ ':'')+AP_EXAM[p.apExam]:'—'}</b></div></div>
-        ${p.acc?`<div style="margin-top:8px">${p.acc.split(/[;,]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="acc">${esc(x)}</span>`).join('')}</div>`:''}</div>` : ''}
-      <div class="sec"><h3>Parent contact</h3><div class="panel">
-        <div class="clog">${CONTACT_TYPES.map(t=>`<button class="btn sm" data-contact="${esc(key)}|${t}">＋ ${t}</button>`).join('')}<span style="flex:1"></span><button class="btn sm pri" data-email="${esc(key)}">Draft parent email</button></div>
-        <div class="notes" style="margin-top:6px">${(DB.contacts[key]||[]).slice().reverse().slice(0,6).map((c,i,arr)=>`<div class="n">${esc(c.type)}${c.note?` — ${esc(c.note)}`:''}<small>${new Date(c.at).toLocaleDateString()} · ${ago(c.at)} · <button class="link" data-delcontact="${(DB.contacts[key].length-1-i)}">delete</button></small></div>`).join('') || '<div class="minor" style="margin-top:8px">No contacts logged yet. Tap a button to log one with today\'s date (add a note first if you like).</div>'}</div>
-        ${(DB.drafts[key]||[]).length?`<div class="minor" style="margin-top:8px">Power Hour drafts: ${(DB.drafts[key]).slice(-5).reverse().map(d=>esc(d.day)).join(' · ')}</div>`:''}
-        <div class="minor" style="margin-top:6px">Remember to document parent contact in eSchool too.</div>
-        <label class="sr" for="contactNote">Contact note</label><input class="in" id="contactNote" placeholder="Optional note for the contact (e.g. left voicemail)" style="margin-top:8px">
-      </div></div>
-      ${s.reasons.length?`<div class="sec"><h3>Why they're flagged</h3>${tagsHtml(s.reasons)}<div class="minor" style="margin-top:6px">${s.reasons.map(r=>esc(r.tip)).join(' · ')}</div></div>`:''}
-      <div class="sec"><h3>Trend</h3><div class="panel">${spark(s.pts)}</div></div>
-      <div class="sec"><h3>Every platform, side by side</h3>
-        ${plats.length?`<div class="plat" style="grid-template-columns:repeat(${plats.length},minmax(0,1fr))">${plats.map(pl=>{ const pts = s.pts.filter(x=>x.a.source===pl.id).slice().reverse(); const av = mean(pts.map(x=>x.p));
-          return `<div class="pcol" style="--c:${pl.color}"><div class="pcol-h"><b>${esc(pl.id)}</b><span class="minor">${pts.length}</span><span class="big ${av!=null&&av<cut?'help':''}">${p0(av)}</span></div>
-            <div class="pcol-b">${pts.map(x=>`<div class="prow" data-tip="${esc(x.a.name)}"><span>${esc(bare(x.a.name))}</span>${x.m?'<b class="ms">MISSING</b>':`<b>${p0(x.p)}</b>`}</div>`).join('')}</div></div>`; }).join('')}</div>`:'<div class="panel minor">No scores yet.</div>'}
-        ${excused.length?`<div class="minor" style="margin-top:6px">Excused: ${excused.map(a=>esc(bare(a.name))).join(', ')}</div>`:''}</div>
-      <div class="sec"><h3>Notes</h3><div class="panel">
-        <div class="notes">${notes.slice().reverse().map((n,i)=>`<div class="n">${esc(n.text)}<small>${new Date(n.at).toLocaleDateString()} · <button class="link" data-delnote="${notes.length-1-i}">delete</button></small></div>`).join('') || '<div class="minor">No notes yet: parent contacts, accommodations, reminders…</div>'}</div>
-        <label class="sr" for="noteText">New note</label><textarea class="in" id="noteText" rows="2" placeholder="Add a note…" style="margin-top:8px"></textarea>
-        <div style="margin-top:8px"><button class="btn pri sm" data-addnote="${esc(key)}">Add note</button></div></div></div>
-    </div></div></div>`;
+  const pname = id => id==='Gradebook' ? 'TAC / Gradebook' : id;
+  const num = v => { const n = parseFloat(String(v??'').replace(/[^\d.\-]/g,'')); return isNaN(n) ? null : n; };
+  const show = (v, suf='') => v==null || v==='' ? '—' : esc(v) + (suf && !/%$/.test(String(v)) && num(v)!=null ? suf : '');
+  const cell = (label, val, sub) => `<div class="cell"><span>${label}</span><b>${val}</b>${sub?`<small>${sub}</small>`:''}</div>`;
+  const qNow = (() => { const qs = [1,2,3,4].filter(q => p['grade'+q]); return qs.length ? Math.max(...qs) : 1; })();
+  const actual = q => p['grade'+q] ? num(p['grade'+q]) : (q===qNow && s.avg!=null && !p['grade'+q] ? s.avg : null);
+  const units = c => { const u = {}; c.pts.forEach(x => { const n = unitOf(x.a.name), t = typeOf(x.a.name); if (!n) return; (u[n] ||= {pts:[], pc:[], test:[], wr:[], miss:0}); u[n].pts.push(x); if (x.m) { u[n].miss++; return; } if (t) u[n][t==='writing'?'wr':t].push(x.p); }); return Object.entries(u).sort((a,b)=>a[0]-b[0]); };
+  const tracker = c => { const rows = units(c); if (!rows.length) return `<div class="minor">No unit-tagged assignments for ${esc(c.cls||'this class')} yet.</div>`;
+    return `<table class="ft"><thead><tr><th>Unit</th><th class="r">Progress check</th><th class="r">Unit test (raw)</th><th class="r">Writing</th><th class="r">Missing</th><th class="r">AP proj.</th></tr></thead><tbody>${rows.map(([u, d]) => { const pj = apProject(c.course, d.pts);
+      return `<tr><td><b>U${u}</b></td><td class="r num">${d.pc.length?p0(mean(d.pc)):'—'}</td><td class="r num">${d.test.length?p0(mean(d.test)):'—'}</td><td class="r num">${d.wr.length?p0(mean(d.wr)):'—'}</td><td class="r num" style="${d.miss?'color:var(--help-ink);font-weight:800':''}">${d.miss||''}</td><td class="r">${pj?apBadgeScore(pj.score):'<span class="minor">—</span>'}</td></tr>`; }).join('')}</tbody></table>`; };
+  $('#layer').innerHTML = `<div class="conf" role="dialog" aria-modal="true" aria-label="Conference: ${esc(s.name)}">
+    <div class="conf-bar"><b>Agency conference</b><span class="minor" style="color:var(--on-blk2)">${today()}</span><span style="flex:1"></span>
+      <button class="btn sm" data-email="${esc(key)}">Draft parent email</button>
+      <button class="btn sm pri" data-act="conf-print">${CAN_PRINT?'Print':'Printable text'}</button>
+      <button class="btn sm" data-close aria-label="Close conference view">✕ Close</button></div>
+    <div class="conf-page">
+      <div class="conf-head">${avatar(key, s.name, 56)}<div style="flex:1;min-width:220px"><h1>${esc(s.name)}</h1>
+        <div class="meta">${p.gradeLevel?`Grade ${esc(p.gradeLevel)} · `:''}${esc(s.classes.join(' · ')||'No class')}${s.ids.length?` · ID ${esc(s.ids.join(', '))}`:''}${draftedTag(key)}</div>
+        <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center">${pill(s.status)}${tagsHtml(s.reasons)}${p.acc?p.acc.split(/[;,]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="acc" style="margin:0">${esc(x)}</span>`).join(''):''}</div></div>
+        <div class="cells" style="min-width:260px;flex:0 1 420px">${s.cs.map(c=>cell(esc(c.cls||'All work'), `<em style="${c.avg!=null&&c.avg<cut?'color:var(--help-ink)':''}">${p0(c.avg)}</em>`, `${letter(c.avg)} · ${c.missing.length} missing${c.proj?` · AP ${c.proj.score}`:''}`)).join('')}</div></div>
+
+      <div class="conf-grid">
+        <section class="fsec c6"><h2>Baseline <span>where they started</span></h2><div class="fb"><div class="cells">
+          ${cell('8th STAAR', p.staarPct!=null?Math.round(p.staarPct)+'%':'—', lvl?`<span class="staar s-${lvl.id}" style="margin:0">${esc(lvl.label)}</span>`:'')}
+          ${cell(esc(p.tiaLabel||'TIA BOY 26-27'), show(p.tiaBoy,'%'))}
+          ${cell(esc(p.priorTiaLabel||'Prior TIA 25-26'), show(p.priorTia,'%'))}
+          ${cell(esc(p.priorApLabel||'Prior AP score'), show(p.priorAp))}
+          ${cell('AP exam', p.apExam?`<em style="${p.apExam==='unpaid'?'color:var(--help-ink)':''}">${p.apExam==='unpaid'?'$ ':''}${AP_EXAM[p.apExam]}</em>`:'—')}
+        </div></div></section>
+
+        <section class="fsec c6"><h2>Academic snapshot <span>GPA &amp; rank estimate</span></h2><div class="fb">
+          <table class="ft"><thead><tr><th>Quarter</th><th class="r">Grade</th><th class="r">Weighted GPA</th><th class="r">Unweighted GPA</th></tr></thead><tbody>
+          ${[1,2,3,4].map(q=>`<tr><td><b>Q${q}</b>${q===qNow?' <span class="minor">to date</span>':''}</td><td class="r num">${show(p['grade'+q])}</td><td class="r num">${show(p['w'+q])}</td><td class="r num">${show(p['uw'+q])}</td></tr>`).join('')}</tbody></table>
+          <div class="cells" style="margin-top:10px">${cell('Est. rank band', show(p.rankBand))}${cell('Est. quartile', show(p.quartile))}${cell('Average now', p0(s.avg), letter(s.avg))}</div>
+        </div></section>
+
+        <section class="fsec c12"><h2>Agency &amp; goals <span>rate 1–4 each quarter · set a grade goal · saved in this browser</span></h2><div class="fb" style="overflow:auto">
+          <table class="ft"><thead><tr><th>Quarter</th><th>Agency rating</th><th>Grade goal</th><th class="r">Actual</th><th>Goal met?</th><th>Student reflection / next step</th></tr></thead><tbody>
+          ${[1,2,3,4].map(q=>{ const a = ag['Q'+q] || {}, act = actual(q), goal = num(a.goal), met = act!=null && goal!=null ? act >= goal : null;
+            return `<tr><td><b>Q${q}</b></td><td><span class="rate" role="group" aria-label="Q${q} agency rating">${[1,2,3,4].map(n=>`<button aria-pressed="${+a.rating===n}" data-agrate="${esc(key)}|Q${q}|${n}">${n}</button>`).join('')}</span></td>
+              <td style="width:110px"><input data-agency="${esc(key)}|Q${q}|goal" value="${esc(a.goal||'')}" placeholder="e.g. 85" inputmode="decimal" aria-label="Q${q} grade goal"></td>
+              <td class="r num"><b>${act==null?'—':p0(act)}</b>${act!=null&&!p['grade'+q]?' <span class="minor">live</span>':''}</td>
+              <td data-met="${esc(key)}|Q${q}" data-actual="${act==null?'':act}">${metHtml(act, goal)}</td>
+              <td><input data-agency="${esc(key)}|Q${q}|next" value="${esc(a.next||'')}" placeholder="What will they do differently?" aria-label="Q${q} next step"></td></tr>`; }).join('')}</tbody></table>
+          <p class="minor" style="margin:8px 0 0">1 = needs heavy support · 2 = developing · 3 = proficient · 4 = owns their learning.</p>
+        </div></section>
+
+        ${s.cs.filter(c=>c.cls).map(c=>`<section class="fsec ${s.cs.length>1?'c6':'c12'}"><h2>Unit tracker · ${esc(c.cls)} <span>${c.proj?`overall AP projection ${c.proj.score} (MC ${p0(c.proj.mcPct)}${c.proj.wrPct!=null?`, writing ${p0(c.proj.wrPct)}`:''})`:'no AP Classroom MC yet'}</span></h2><div class="fb" style="overflow:auto">${tracker(c)}</div></section>`).join('')}
+
+        <section class="fsec c12"><h2>Every score, side by side <span>trend oldest → newest · red dot = missing · dashed line = ${cut}% cutoff</span></h2><div class="fb">
+          ${plats.length?`<div class="cplat" style="grid-template-columns:repeat(${plats.length},minmax(0,1fr))">${plats.map(pl=>{ const pts = s.pts.filter(x=>x.a.source===pl.id), av = mean(pts.map(x=>x.p));
+            return `<div class="pcol" style="--c:${pl.color}"><div class="pcol-h"><b>${esc(pname(pl.id))}</b><span class="minor">${pts.length}</span><span class="big ${av!=null&&av<cut?'help':''}">${p0(av)}</span></div>
+              <div style="padding:4px 10px 0">${spark(pts, 90, true)}</div>
+              <div class="pcol-b">${pts.slice().reverse().map(x=>`<div class="prow" data-tip="${esc(x.a.name)}"><span>${esc(s.cs.length>1?x.a.name:bare(x.a.name))}</span>${x.m?'<b class="ms">MISSING</b>':`<b>${p0(x.p)}</b>`}</div>`).join('')}</div></div>`; }).join('')}</div>`:'<div class="minor">No scores yet.</div>'}
+        </div></section>
+
+        <section class="fsec c5"><h2>Missing work <span>${s.missing.length}</span></h2><div class="fb">
+          ${s.missing.length?`<div class="mlist">${s.missing.map(m=>`<div><span>${esc(s.cs.length>1?m.a.name:bare(m.a.name))}</span><span>${esc(m.a.source==='Gradebook'?'TAC':m.a.source)}</span></div>`).join('')}</div>`:'<div class="minor">✓ Nothing missing.</div>'}
+          <div class="noprint" style="margin-top:14px"><div class="minor" style="font-weight:800;margin-bottom:6px">PARENT CONTACT</div>
+            <div class="clog">${CONTACT_TYPES.map(t=>`<button class="btn sm" data-contact="${esc(key)}|${t}">＋ ${t}</button>`).join('')}</div>
+            <input class="in" id="contactNote" placeholder="Optional note for the contact" style="margin-top:8px">
+            <div class="notes">${(DB.contacts[key]||[]).slice().reverse().slice(0,5).map((c,i)=>`<div class="n">${esc(c.type)}${c.note?` — ${esc(c.note)}`:''}<small>${new Date(c.at).toLocaleDateString()} · <button class="link" data-delcontact="${DB.contacts[key].length-1-i}">delete</button></small></div>`).join('')}</div>
+            <div class="minor">Remember to document parent contact in eSchool too.</div></div>
+        </div></section>
+
+        <section class="fsec c7"><h2>Conference notes <span>saved automatically in this browser</span></h2><div class="fb">
+          <label class="sr" for="confNote">Conference notes</label>
+          <textarea class="confnote" id="confNote" data-confnote="${esc(key)}" placeholder="Strengths, concerns, student goals, agreed next steps, who attended…">${esc(DB.confNotes[key]||'')}</textarea>
+          ${(DB.notes[key]||[]).length?`<div class="notes" style="margin-top:8px">${DB.notes[key].slice().reverse().map((n,i)=>`<div class="n">${esc(n.text)}<small>${new Date(n.at).toLocaleDateString()} · <button class="link noprint" data-delnote="${DB.notes[key].length-1-i}">delete</button></small></div>`).join('')}</div>`:''}
+        </div></section>
+      </div>
+    </div></div>`;
   $('#layer').dataset.student = key;
-  $('.dtop [data-close]').focus();
+  document.body.classList.add('conf-open');
+  const cf = $('#layer .conf'); cf.scrollTop = keepScroll; if (!keepScroll) $('.conf-bar [data-close]').focus();
 }
-function spark(pts){
+const metHtml = (act, goal) => act==null || goal==null ? '<span class="minor">—</span>' : act >= goal ? '<span class="met y">✓ Met</span>' : `<span class="met n">✗ ${Math.round(goal-act)} short</span>`;
+function confText(key){
+  const s = studentFull(key), p = prof(key) || {}, ag = DB.agency[key] || {}, L = [`Agency conference — ${s.name}`, `${s.classes.join(' · ')} · ${today()}`, ''];
+  L.push('BASELINE', `8th STAAR: ${p.staarPct!=null?Math.round(p.staarPct)+'%':'—'} ${staarOf(key)?.label||''}`, `TIA BOY: ${p.tiaBoy||'—'} · Prior TIA: ${p.priorTia||'—'} · Prior AP: ${p.priorAp||'—'} · AP exam: ${AP_EXAM[p.apExam]||'—'}`, '');
+  L.push('ACADEMIC SNAPSHOT'); [1,2,3,4].forEach(q => { if (p['grade'+q]||p['w'+q]||p['uw'+q]) L.push(`Q${q}: grade ${p['grade'+q]||'—'} · weighted ${p['w'+q]||'—'} · unweighted ${p['uw'+q]||'—'}`); }); L.push(`Rank band: ${p.rankBand||'—'} · Quartile: ${p.quartile||'—'}`, '');
+  L.push('AGENCY & GOALS'); [1,2,3,4].forEach(q => { const a = ag['Q'+q]; if (a) L.push(`Q${q}: agency ${a.rating||'—'} · goal ${a.goal||'—'}${a.next?` · next: ${a.next}`:''}`); }); L.push('');
+  L.push('CURRENT'); s.cs.forEach(c => L.push(`${c.cls}: ${p0(c.avg)} ${letter(c.avg)} · ${c.missing.length} missing${c.proj?` · AP projection ${c.proj.score}`:''}`));
+  if (s.missing.length) L.push('', 'MISSING', ...s.missing.map(m=>`• ${m.a.name}`));
+  if (DB.confNotes[key]) L.push('', 'NOTES', DB.confNotes[key]);
+  return L.join('\n');
+}
+function spark(pts, H = 120, compact = false){
   if (pts.length < 2) return '<div class="minor">Needs at least two scores.</div>';
-  const W = 640, H = 120, pad = 8, cut = S().atRisk, x = i => pad + i*(W-2*pad)/(pts.length-1), y = p => pad + (100-Math.max(0,Math.min(100,p)))*(H-2*pad)/100;
+  const W = compact ? 320 : 640, pad = 8, cut = S().atRisk, x = i => pad + i*(W-2*pad)/(pts.length-1), y = p => pad + (100-Math.max(0,Math.min(100,p)))*(H-2*pad)/100;
   const d = pts.map((q,i)=>`${i?'L':'M'}${x(i).toFixed(1)},${y(q.p).toFixed(1)}`).join('');
   return `<svg class="spark" viewBox="0 0 ${W} ${H}" role="img" aria-label="Score trend across ${pts.length} scores">
     <line class="gr" x1="0" x2="${W}" y1="${y(100)}" y2="${y(100)}"/><line class="gr" x1="0" x2="${W}" y1="${y(0)}" y2="${y(0)}"/><line class="ct" x1="0" x2="${W}" y1="${y(cut)}" y2="${y(cut)}"/>
     <path class="ar" d="${d}L${x(pts.length-1)},${y(0)}L${x(0)},${y(0)}Z"/><path class="ln" d="${d}"/>
     ${pts.map((q,i)=>`<circle cx="${x(i)}" cy="${y(q.p)}" r="${q.m?5:4}" fill="${q.m?'var(--help)':srcColor(q.a.source)}"/><rect class="hit" x="${x(i)-10}" y="0" width="20" height="${H}" data-tip="<b>${esc(bare(q.a.name))}</b><br>${esc(q.a.source)} · ${q.m?'Missing':pct(q.p)}"/>`).join('')}
-  </svg><div class="scale" style="margin-top:4px"><span>Oldest</span><span style="margin-left:auto">Newest · dot color = platform · red = missing · dashed = ${cut}% cutoff</span></div>`;
+  </svg>${compact ? '' : `<div class="scale" style="margin-top:4px"><span>Oldest</span><span style="margin-left:auto">Newest · dot color = platform · red = missing · dashed = ${cut}% cutoff</span></div>`}`;
 }
-function closeLayer(){ $('#layer').innerHTML=''; delete $('#layer').dataset.student; }
+function closeLayer(){ $('#layer').innerHTML=''; delete $('#layer').dataset.student; document.body.classList.remove('conf-open'); }
 
 /* ---------- printing (in-page; no new windows). Inside a claude.ai artifact window.print is blocked, so show the text instead. ---------- */
 const CAN_PRINT = (() => { try { return window.self === window.top; } catch(_) { return false; } })();
@@ -1443,6 +1543,22 @@ function importCanvas(rows, file, stay, year){
 
 /* Profile layout: Student, Student ID, Class, 8th STAAR %, 8th STAAR Level, AP Exam (never counted in averages) */
 function isProfile(rows){ const h = rows[0].map(x=>x.trim().toLowerCase()); return h.some(x=>/staar/.test(x)) || h.some(x=>/^ap exam/.test(x)); }
+/* Conference-form columns: anything blank keeps the earlier value */
+function profileExtras(h, raw, r){
+  const x = {};
+  h.forEach((hh, i) => { const v = String(r[i] ?? '').trim(); if (!v) return; let m;
+    if ((m = hh.match(/^q([1-4])\s*grade/))) x['grade'+m[1]] = v;
+    else if ((m = hh.match(/^q([1-4])\s*unweighted\s*gpa/))) x['uw'+m[1]] = v;
+    else if ((m = hh.match(/^q([1-4])\s*weighted\s*gpa/))) x['w'+m[1]] = v;
+    else if (/prior\s*tia/.test(hh)) { x.priorTia = v; x.priorTiaLabel = raw[i].trim(); }
+    else if (/^tia/.test(hh)) { x.tiaBoy = v; x.tiaLabel = raw[i].trim(); }
+    else if (/prior\s*ap/.test(hh)) { x.priorAp = v; x.priorApLabel = raw[i].trim(); }
+    else if (/grade\s*level/.test(hh)) x.gradeLevel = v;
+    else if (/rank/.test(hh)) x.rankBand = v;
+    else if (/quartile/.test(hh)) x.quartile = v;
+  });
+  return x;
+}
 function importProfile(rows, file, stay){
   const h = rows[0].map(x=>x.trim().toLowerCase()), col = re => h.findIndex(x=>re.test(x));
   const nameI = col(/^student( name)?$|^name$/), idI = col(/student id|^id$/), clsI = col(/^class$/), pctI = col(/staar.*(%|pct|percent|score)/), lvlI = col(/staar.*level/), apI = col(/^ap exam/), accI = col(/accommodation|^504|^iep|^ell?$|^eb$|^sped/);
@@ -1459,7 +1575,7 @@ function importProfile(rows, file, stay){
       staarLevel: lvlI>=0 && normStaar(r[lvlI]) ? normStaar(r[lvlI]) : (DB.profiles[key]?.staarLevel || ''),
       apExam: apI>=0 && normAp(r[apI]) ? normAp(r[apI]) : (DB.profiles[key]?.apExam || ''),
       acc: accI>=0 ? String(r[accI]||'').trim() : (DB.profiles[key]?.acc || ''),
-    });
+    }, profileExtras(h, rows[0], r));
     n++;
   });
   DB.imports.push({file: file.startsWith('Pasted ') ? 'Pasted profile data' : file, source:'Profile', at: Date.now(), students: n, assignments: 0});
@@ -1631,7 +1747,11 @@ function loadSample(){
     if (i % 13 !== 7) {
       const sp = Math.max(30, Math.min(99, skill + (rnd()-.5)*24));
       const u = rnd();
-      DB.profiles[key] = {staarPct: Math.round(sp), staarLevel: sp>=85?'masters':sp>=70?'meets':sp>=55?'approaches':'dnm', apExam: u<.68?'paid':u<.88?'unpaid':'opted'};
+      const g10 = cls[0].startsWith('APHG'), q1 = Math.max(55, Math.min(100, skill + (rnd()-.5)*10)), uw = Math.max(2, Math.min(4, 1.6 + q1/40 + (rnd()-.5)*.3));
+      DB.profiles[key] = {staarPct: Math.round(sp), staarLevel: sp>=85?'masters':sp>=70?'meets':sp>=55?'approaches':'dnm', apExam: u<.68?'paid':u<.88?'unpaid':'opted',
+        gradeLevel: g10 ? '9' : '10', grade1: String(Math.round(q1)), grade2: String(Math.round(Math.max(50, q1 + (rnd()-.6)*12))), tiaBoy: Math.round(Math.max(20, sp - 15 + (rnd()-.5)*20)) + '%',
+        priorTia: g10 ? '' : Math.round(Math.max(20, sp - 5 + (rnd()-.5)*20)) + '%', priorAp: g10 ? '' : String(Math.max(1, Math.min(5, Math.round((sp-30)/14)))), priorApLabel: 'Prior AP score (APHG 2026)',
+        uw1: uw.toFixed(2), w1: (uw + 0.9 + rnd()*.4).toFixed(2), rankBand: ['Top 10%','Top 25%','Top 50%','Bottom 50%'][Math.min(3, Math.floor((100-q1)/9))], quartile: 'Q' + Math.min(4, 1 + Math.floor((100-q1)/9))};
     }
   }
   // last year's classes (different students) so Compare has something to show
@@ -1657,9 +1777,9 @@ function loadSample(){
 /* ---------- events ---------- */
 function go(v){ UI.view = v; try { if (location.hash.slice(1)!==v) location.hash = v; } catch(_){} $('#side').classList.remove('open'); closeLayer(); render(); window.scrollTo(0,0); }
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-close]');
+  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-close]');
   if (!t) { if (!e.target.closest('aside,.menu-btn')) $('#side').classList.remove('open'); return; }
-  if (t.dataset.close !== undefined){ if (e.target === t || t.tagName==='BUTTON'){ closeLayer(); nextFile(); } return; }
+  if (t.dataset.close !== undefined){ if (e.target === t || t.tagName==='BUTTON'){ closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !t.closest('.conf')) return openStudent(k); nextFile(); } return; }
   if (t.dataset.go) return go(t.dataset.go);
   if (t.dataset.report) return printReport(t.dataset.report);
   if (t.dataset.student) return openStudent(t.dataset.student);
@@ -1673,11 +1793,14 @@ document.addEventListener('click', e => {
   if (t.dataset.rename){ const a=DB.assignments[t.dataset.rename]; return askText('Rename assignment', a.name, v => { a.name=v; save(); render(); }); }
   if (t.dataset.del){ const a=DB.assignments[t.dataset.del]; return askConfirm('Delete assignment?', `“${esc(a.name)}” and all its scores will be removed.`, 'Delete', () => { delete DB.assignments[a.id]; Object.values(DB.scores).forEach(s=>delete s[a.id]); save(); render(); }); }
   if (t.dataset.addnote){ const k=t.dataset.addnote, txt=$('#noteText').value.trim(); if (!txt) return; (DB.notes[k] ||= []).push({text:txt, at:Date.now()}); save(); return openStudent(k); }
+  if (t.dataset.agrate){ const [k,q,n] = t.dataset.agrate.split('|'), a = ((DB.agency[k] ||= {})[q] ||= {}); a.rating = +a.rating===+n ? '' : +n; save(); return openStudent(k); }
   if (t.dataset.contact){ const [k, type] = t.dataset.contact.split('|'), note = ($('#contactNote')?.value||'').trim(); (DB.contacts[k] ||= []).push({type, note, at:Date.now()}); save(); toast(`${type} logged`); render(); return openStudent(k); }
   if (t.dataset.delcontact){ const k=$('#layer').dataset.student; DB.contacts[k].splice(+t.dataset.delcontact,1); save(); render(); return openStudent(k); }
-  if (t.dataset.email){ return showText(`Parent email — ${DB.students[t.dataset.email].name}`, parentEmail(t.dataset.email)); }
+  if (t.dataset.email){ UI.reopen = $('#layer').dataset.student || null; return showText(`Parent email — ${DB.students[t.dataset.email].name}`, parentEmail(t.dataset.email)); }
   if (t.dataset.delnote){ const k=$('#layer').dataset.student; DB.notes[k].splice(+t.dataset.delnote,1); save(); return openStudent(k); }
   const act = t.dataset.act, m = () => buildModel();
+  if (act==='conf-print'){ const k = $('#layer').dataset.student; if (!CAN_PRINT) return showText(`Conference — ${DB.students[k].name}`, confText(k));
+    const done = () => { window.removeEventListener('afterprint', done); }; window.addEventListener('afterprint', done); try { window.print(); } catch(_){ showText('Conference', confText(k)); } return; }
   if (act==='draft-check') draftCheck();
   if (act==='draft-write') draftWrite();
   if (act==='copy-draft'){ const day = UI.draftDay || defaultDraftDay(); copyText(`Power Hour draft — ${day} — ${draftValue()}\n\n` + draftCandidates(m()).map(x=>`${x.s.ids[0]||'(no ID)'}\t${x.s.name}\t${x.cls}\t${Math.round(x.avg)}%`).join('\n'), 'Draft list'); }
@@ -1727,16 +1850,20 @@ document.addEventListener('change', e => {
   if (t.dataset.hide){ DB.assignments[t.dataset.hide].hidden = !t.checked; save(); render(); }
   if (t.dataset.card){ DB.hidden = t.checked ? DB.hidden.filter(x=>x!==t.dataset.card) : [...DB.hidden, t.dataset.card]; save(); }
   if (t.dataset.rdone){ t.checked ? DB.retestDone[t.dataset.rdone] = Date.now() : delete DB.retestDone[t.dataset.rdone]; save(); render(); }
+  if (t.dataset.agency && t.dataset.agency.endsWith('|goal')){ const [k,q] = t.dataset.agency.split('|'), td = document.querySelector(`[data-met="${CSS.escape(k+'|'+q)}"]`); if (td){ const g = parseFloat(t.value), a = td.dataset.actual===''?null:+td.dataset.actual; td.innerHTML = metHtml(a, isNaN(g)?null:g); } }
   if (t.dataset.ph){ t.checked ? UI.phOut.delete(t.dataset.ph) : UI.phOut.add(t.dataset.ph); render(); }
 });
 document.addEventListener('input', e => {
+  const t = e.target;
+  if (t.dataset.confnote){ DB.confNotes[t.dataset.confnote] = t.value; save(); return; }
+  if (t.dataset.agency){ const [k,q,f] = t.dataset.agency.split('|'); ((DB.agency[k] ||= {})[q] ||= {})[f] = t.value; save(); return; }
   if (e.target.id !== 'q') return;
   UI.q = e.target.value;
   if (['import','options','assignments'].includes(UI.view)) UI.view = 'overview';
   const pos = e.target.selectionStart; render(); const q = $('#q'); q.focus(); q.setSelectionRange(pos, pos);
 });
 document.addEventListener('keydown', e => {
-  if (e.key==='Escape'){ if ($('#layer').innerHTML){ closeLayer(); nextFile(); } else $('#side').classList.remove('open'); }
+  if (e.key==='Escape'){ if ($('#layer').innerHTML){ const inConf = !!$('#layer .conf'); closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !inConf) return openStudent(k); nextFile(); } else $('#side').classList.remove('open'); }
   if (e.key==='/' && !e.target.closest('input,textarea,select')){ e.preventDefault(); $('#q').focus(); }
 });
 $('#fileIn').addEventListener('change', e => { handleFiles([...e.target.files]); e.target.value=''; });
