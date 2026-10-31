@@ -160,7 +160,16 @@ kbd{font:700 10px var(--sans);border:1px solid var(--line2);border-bottom-width:
 .phead p{margin:6px 0 0;color:var(--ink2);max-width:680px}
 
 /* cards */
-.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
+.ovmain{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:16px;align-items:start;min-width:0}
+.ovside{display:flex;flex-direction:column;gap:16px;min-width:0}
+#rosterCard{container-type:inline-size}
+@container (max-width:660px){
+  #rosterCard .rhead{display:none}
+  #rosterCard .rrow{grid-template-columns:minmax(0,1fr) auto auto;grid-template-areas:"who avg miss" "ap ap ap" "tags tags tags";row-gap:6px}
+  #rosterCard .rrow>:nth-child(1){grid-area:who}#rosterCard .rrow>:nth-child(2){grid-area:ap}#rosterCard .rrow>:nth-child(3){grid-area:avg;text-align:right}#rosterCard .rrow>:nth-child(4){grid-area:miss;text-align:right}#rosterCard .rrow>:nth-child(4)::after{content:" missing";font:700 10px var(--sans);color:var(--ink3)}#rosterCard .rrow>:nth-child(5){grid-area:tags}
+}
+@media (max-width:1100px){.ovmain{grid-template-columns:minmax(0,1fr)}}
 .card{background:var(--card);border-radius:var(--r);box-shadow:0 0 0 1px var(--line),0 1px 2px rgba(0,0,0,.04);min-width:0;display:flex;flex-direction:column}
 .ch{display:flex;align-items:center;gap:10px;padding:14px 16px 10px;flex-wrap:wrap}
 .ch h2{font:900 14px/1.1 var(--display);text-transform:uppercase;letter-spacing:.02em}
@@ -189,7 +198,8 @@ kbd{font:700 10px var(--sans);border:1px solid var(--line2);border-bottom-width:
 .apx{display:inline-flex;align-items:center;gap:3px;font:800 9.5px/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:3px 6px;border-radius:5px;margin-left:4px;background:var(--ink);color:var(--card);vertical-align:1px}
 
 /* roster */
-.rhead,.rrow{display:grid;grid-template-columns:minmax(190px,1.4fr) minmax(190px,1.5fr) 90px 56px minmax(140px,1.4fr);gap:12px;align-items:center}
+.rhead,.rrow{display:grid;grid-template-columns:minmax(150px,1.3fr) minmax(170px,1.4fr) 80px 48px minmax(150px,1.6fr);gap:10px;align-items:center;min-width:0}
+.rrow>span{min-width:0}.rrow .tags{flex-wrap:wrap;max-width:100%}.rrow .tags .tag,.rrow .tags .flag{white-space:normal;text-align:left}
 .apline{display:flex;flex-direction:column;align-items:flex-start;gap:3px;margin:2px 0}
 .apline small{font-size:11px;color:var(--ink2);line-height:1.3}
 .apline small b{font-weight:800}
@@ -471,7 +481,7 @@ textarea.code{font:12px/1.5 var(--mono);min-height:220px;resize:vertical}
 .conf-head{display:flex;gap:16px;align-items:center;flex-wrap:wrap;border-bottom:4px solid var(--tq);padding-bottom:14px;margin-bottom:16px}
 .conf-head h1{font:900 38px/1 var(--display);text-transform:uppercase;letter-spacing:-.02em}
 .conf-head .meta{color:var(--ink2);font-size:13px;margin-top:6px}
-.conf-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.conf-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:14px}
 .fsec{background:var(--card);border-radius:12px;box-shadow:0 0 0 1px var(--line);overflow:hidden;break-inside:avoid;min-width:0}
 .fsec>h2{background:var(--blk);color:#fff;font:900 13px var(--display);text-transform:uppercase;letter-spacing:.06em;padding:9px 14px;display:flex;align-items:center;gap:8px}
 .fsec>h2 span{font:600 11px var(--sans);text-transform:none;letter-spacing:0;color:var(--on-blk2)}
@@ -1301,13 +1311,13 @@ function viewOverview(m){
     <div class="tiles${profiles?' four':''}">${tile('ok','t-ok')}${tile('watch','t-watch')}${tile('help','t-help')}${profiles?tile('unpaid','t-ap'):''}</div>
   </section>
   <div class="grid">
-    <section class="card w8" id="rosterCard"><div class="ch"><h2>${UI.status ? STATUS[UI.status].label : 'Roster'}</h2><span class="count">${list.length}</span>
+    <div class="ovmain"><section class="card" id="rosterCard"><div class="ch"><h2>${UI.status ? STATUS[UI.status].label : 'Roster'}</h2><span class="count">${list.length}</span>
         ${UI.status?`<button class="link" data-status="${UI.status}">Clear filter ✕</button>`:''}<span class="sp"></span>
         <label class="sr" for="sortSel">Sort</label><select class="btn sm" id="sortSel">${[['need','Most need first'],['low','Lowest average'],['high','Highest average'],['missing','Most missing'],['name','Name A–Z']].map(([v,l])=>`<option value="${v}" ${UI.sort===v?'selected':''}>${l}</option>`).join('')}</select></div>
       <div class="cb">${list.length ? `<div class="rhead"><span>Student</span><span>AP status (AP Classroom raw MC)</span><span>Class grade</span><span>Missing</span><span>Context</span></div>
  ${list.slice(0, UI.showAll ? list.length : 30).map(rosterRow).join('')}
         ${list.length > 30 && !UI.showAll ? `<div style="text-align:center;padding:12px"><button class="btn sm" data-act="show-all">Show all ${list.length}</button></div>` : ''}` : `<div class="empty">${UI.q?`No one matches “${esc(UI.q)}”.`:'No students in this group.'}</div>`}</div></section>
-    <div class="w4" style="display:flex;flex-direction:column;gap:16px;min-width:0">
+    <div class="ovside">
       <section class="card"><div class="ch"><h2>Conversation starters</h2><span class="count help">${grab.length}</span><span class="sp"></span><button class="link" data-act="copy-grab">Copy</button></div>
         <div class="cb"><p class="fine" style="margin:0 0 6px">School watch flags or ${S().missingForHelp}+ missing. Context only; doesn't change AP status.</p>${grab.length ? `<div class="grab">${grab.slice(0,12).map((s,i)=>`<button class="gi" data-student="${esc(s.key)}" style="grid-template-columns:1fr auto"><span style="min-width:0">
           <span class="who">${avatar(s.key,s.name,30)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · '))}</small></span></span>
@@ -1326,7 +1336,7 @@ function viewOverview(m){
       ${profiles ? `<section class="card"><div class="ch"><h2>AP exam unpaid</h2><span class="count">${unpaid.length}</span><span class="sp"></span>${unpaid.length?'<button class="link" data-act="copy-unpaid">Copy</button>':''}</div>
         <div class="cb">${unpaid.length ? `<div class="grab">${unpaid.map(s=>`<button class="gi" data-student="${esc(s.key)}" style="grid-template-columns:1fr auto"><span class="who">${avatar(s.key,s.name,30)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · '))}</small></span></span><span class="apx">$ Unpaid</span></button>`).join('')}</div>` : '<div class="empty">✓ Every AP exam is paid or opted out.</div>'}</div></section>`
       : `<section class="card"><div class="ch"><h2>Student profiles</h2></div><div class="cb"><p class="minor" style="margin:0 0 10px">Add 8th-grade STAAR and AP exam payment to see STAAR badges, the STAAR filter and the unpaid list.</p><button class="btn sm" data-go="import" data-anchor="profileCard">Student Profile (CSV) →</button></div></section>`}
-    </div>
+    </div></div>
     <section class="card w6" id="radarCard"><div class="ch"><h2>Reteach radar</h2><span class="sub">5 weakest units · latest AP Classroom unit MC attempt</span><span class="sp"></span><button class="btn sm" data-act="make-groups">Make groups</button></div><div class="cb">
       ${radar.length ? radar.map(set => `${radar.length>1?`<div class="minor" style="font-weight:800;margin:4px 0">${esc(set.course)}</div>`:''}${set.units.map(u => `<div class="rdr"><div class="rdrh"><b>U${u.u}</b><span class="rbar"><i style="width:${u.avg}%;background:${u.avg<S().apOnTrack?'var(--help)':u.avg<S().apOnTrack+10?'var(--watch)':'var(--tq)'}"></i></span><b class="num">${p0(u.avg)}</b><span class="minor">${u.low.length} below ${S().apOnTrack}%</span></div>
         ${u.low.length?`<div class="namechips">${u.low.sort((a,b)=>a.p-b.p).map(x=>`<button class="nchip" data-student="${esc(x.s.key)}">${esc(x.s.name)}<b>${p0(x.p)}</b></button>`).join('')}</div>`:''}</div>`).join('')}`).join('') : '<div class="empty">No AP Classroom unit MC tests yet.</div>'}</div></section>
