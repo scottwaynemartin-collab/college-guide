@@ -189,7 +189,10 @@ kbd{font:700 10px var(--sans);border:1px solid var(--line2);border-bottom-width:
 .apx{display:inline-flex;align-items:center;gap:3px;font:800 9.5px/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:3px 6px;border-radius:5px;margin-left:4px;background:var(--ink);color:var(--card);vertical-align:1px}
 
 /* roster */
-.rhead,.rrow{display:grid;grid-template-columns:minmax(200px,1.7fr) 110px 70px minmax(150px,1.6fr) 104px;gap:12px;align-items:center}
+.rhead,.rrow{display:grid;grid-template-columns:minmax(190px,1.4fr) minmax(190px,1.5fr) 90px 56px minmax(140px,1.4fr);gap:12px;align-items:center}
+.apline{display:flex;flex-direction:column;align-items:flex-start;gap:3px;margin:2px 0}
+.apline small{font-size:11px;color:var(--ink2);line-height:1.3}
+.apline small b{font-weight:800}
 .rhead{font:800 10px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);padding:6px 10px;border-bottom:1.5px solid var(--ink)}
 .rrow{padding:10px;border:0;border-bottom:1px solid var(--line);background:none;text-align:left;width:100%}
 .rrow:hover{background:var(--card2)}
@@ -518,6 +521,14 @@ textarea.confnote{width:100%;min-height:150px;border:1.5px solid var(--line2);bo
   body.conf-open .goalform textarea.in{min-height:0;height:auto}
   body.conf-open .skillpair{gap:6px}
   body.conf-open .printonly{display:block;margin-top:2px}
+  body.conf-open .aprowc{padding:2px 0;gap:6px;display:inline-flex;margin-right:16px;border:0}
+  body.conf-open .aprowc .namechips,body.conf-open .aphead{display:none!important}
+  body.conf-open tr:not(:has(button[aria-pressed="true"])):has(input[data-agency$="|goal"]:placeholder-shown):has(input[data-agency$="|next"]:placeholder-shown){display:none}
+  body.conf-open .cell.nearc b{font-size:11px}
+  body.conf-open .cell.nearc small{display:none}
+  body.conf-open .cells.two{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+  body.conf-open .aphead{margin-top:3px;gap:8px}
+  body.conf-open .apline small{font-size:9.5px}
   body.conf-open .goalform .field:has(> input:placeholder-shown),body.conf-open .goalform .field:has(> textarea:placeholder-shown){display:none}
   body.conf-open .goalform{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:4px 6px!important}
   body.conf-open .goalform .in,body.conf-open .goalform textarea.confnote{padding:2px 6px!important;font-size:10.5px!important;line-height:1.3;border-radius:5px}
@@ -568,6 +579,10 @@ textarea.confnote{width:100%;min-height:150px;border:1.5px solid var(--line2);bo
 .goalform .field{margin-bottom:6px}
 .goalside{display:flex;flex-direction:column}
 .skillpair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.aphead{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}
+.aprowc{display:flex;gap:14px;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.aprowc:last-of-type{border-bottom:0}
+.nchip.recent{box-shadow:inset 0 0 0 2px var(--ink)}
 .printonly{display:none}
 .cell.nearc{background:var(--tq-soft);box-shadow:inset 0 0 0 1px rgba(0,178,169,.5)}.cell.nearc b{color:var(--tq-ink)}
 @media (max-width:900px){.goalform{grid-template-columns:1fr}}
@@ -608,8 +623,8 @@ textarea.confnote{width:100%;min-height:150px;border:1.5px solid var(--line2);bo
   .tile .tf span:last-child{display:none}
   .w3,.w6{grid-column:span 12}
   .rhead{display:none}
-  .rrow{grid-template-columns:1fr auto;grid-template-areas:"who avg" "tags st";row-gap:8px}
-  .rrow>:nth-child(1){grid-area:who}.rrow>:nth-child(2){grid-area:avg;text-align:right}.rrow>:nth-child(3){display:none}.rrow>:nth-child(4){grid-area:tags}.rrow>:nth-child(5){grid-area:st;justify-self:end}
+  .rrow{grid-template-columns:1fr auto;grid-template-areas:"who avg" "ap ap" "tags tags";row-gap:8px}
+  .rrow>:nth-child(1){grid-area:who}.rrow>:nth-child(2){grid-area:ap}.rrow>:nth-child(3){grid-area:avg;text-align:right}.rrow>:nth-child(4){display:none}.rrow>:nth-child(5){grid-area:tags}
   .phead h1{font-size:28px}
   .strip{grid-template-columns:repeat(2,1fr)}
   .row2,.row3,.steps{grid-template-columns:1fr}
@@ -651,7 +666,11 @@ const CONFIG = {
   title: 'Classroom',
   school: 'Panther Creek',
   teacherName: '',
-  atRisk: 70,                 // below this = Needs Help, and goes on the Power Hour list
+  // AP status = on pace to pass the AP exam, from AP Classroom multiple-choice scores only
+  apOnTrack: 55,              // MC average at or above this = AP on track
+  apRecent: 2,                // …or the last N MC tests all at or above apOnTrack
+  apBand: 10,                 // MC average within this many points below apOnTrack = AP watch
+  atRisk: 70,                 // class-grade cutoff: Power Hour list and "Below 70" context chip
   watchBand: 10,              // within this many points above the cutoff = Watch
   retestCap: 80,              // Frisco caps retests at 80, so only scores under 80 qualify
   retestPattern: '\\b(test|exam|progress check|assessment)\\b',   // which assignments count as tests
@@ -791,6 +810,23 @@ function apProject(course, pts){
   const comp = wrPct==null ? mcPct : mcPct*mw + wrPct*(1-mw);
   return {mcPct, wrPct, comp, mw, score:(st.apScale.find(([min])=>comp>=min) || [0,1])[1], nMc:mc.length, nWr:wr.length};
 }
+/* AP status for one class: AP Classroom MC only (progress-check MCQs, MC tests, retests as their own tests).
+   Writing (FRQ/SAQ/LEQ/DBQ), Canvas and Gradebook are left out. Missing counts as 0 only when marked missing. */
+const isApMC = a => a.source==='AP Classroom' && typeOf(a.name)!=='writing' && !NOT_GRADED_WORK.test(bare(a.name));
+function apStatus(pts){
+  const st = S(), cut = +st.apOnTrack, n = Math.max(1, Math.round(+st.apRecent || 2)), band = +st.apBand;
+  const mc = pts.filter(p => isApMC(p.a));
+  const pr = v => (Math.round(v) >= cut && v < cut) ? fmt(v,1)+'%' : p0(v);
+  if (!mc.length) return {status:'none', reason:'No AP Classroom MC yet', mc, last:[], avg:null};
+  const avg = mean(mc.map(p=>p.p)), last = mc.slice(-n), full = last.length === n, nOk = last.filter(p=>p.p>=cut).length, L = last.map(p=>pr(p.p)).join(', ');
+  let status, reason;
+  if (avg >= cut) { status = 'ok'; reason = `MC avg ${pr(avg)}`; }
+  else if (full && nOk === n) { status = 'ok'; reason = `last ${n} MC ${L} (avg ${pr(avg)})`; }
+  else if (avg >= cut - band) { status = 'watch'; reason = `MC avg ${pr(avg)}${full?` · last ${n}: ${L}`:''}`; }
+  else if (full && nOk > 0) { status = 'watch'; reason = `${nOk} of last ${n} MC ≥ ${cut}% (${L}; avg ${pr(avg)})`; }
+  else { status = 'help'; reason = `MC avg ${pr(avg)}${last.length>1?` · last ${last.length}: ${L}`:''}`; }
+  return {status, reason, mc, last, avg};
+}
 const apBadgeScore = (n, big) => `<span class="apb a${n}${big?' big':''}" data-tip="Projected AP score">${n<=2?'▼ ':''}${n}</span>`;
 
 /* ---------- profile (STAAR, AP exam) ---------- */
@@ -844,7 +880,7 @@ function classStats(key, cls, assigns, aC){
   const perf = {}; pts.forEach(x => { if (!x.m) (perf[x.a.source] ||= []).push(x.p); });   // gap compares performance, so missing work is left out
   const ps = Object.entries(perf).filter(([,v])=>v.length>=2).map(([k,v])=>({k, avg:mean(v)})).sort((a,b)=>b.avg-a.avg);
   const gap = ps.length >= 2 ? {d: ps[0].avg - ps[ps.length-1].avg, hi: ps[0], lo: ps[ps.length-1]} : null;
-  return {cls, course, period: cls ? splitClass(cls).period : '', avg, pts, missing: pts.filter(x=>x.m).map(x=>x.a), drop, recent, prior, gap, proj: apProject(course, pts),
+  return {cls, course, period: cls ? splitClass(cls).period : '', avg, pts, missing: pts.filter(x=>x.m).map(x=>x.a), drop, recent, prior, gap, proj: apProject(course, pts), ap: apStatus(pts),
     bySrc: Object.fromEntries(Object.entries(bySrc).map(([k,v])=>[k,{avg:mean(v), n:v.length}]))};
 }
 function summarize(key, s, cs){
@@ -862,13 +898,14 @@ function summarize(key, s, cs){
   const gp = cs.filter(c=>c.gap && c.gap.d >= st.gapPts).sort((a,b)=>b.gap.d-a.gap.d)[0];
   if (gp) reasons.push({t:'gap', icon:'⇅', label:`Platform gap ${fmt(gp.gap.d,0)}`, tip:`${gp.gap.hi.k} ${p0(gp.gap.hi.avg)} vs ${gp.gap.lo.k} ${p0(gp.gap.lo.avg)}`, w:gp.gap.d/3});
   cs.forEach(c => { if (c.proj && c.proj.score <= 2) reasons.push({t:'ap', icon:'◆', label:`AP proj ${c.proj.score}`+(multi?` · ${c.course}`:''), tip:`${c.cls}: AP Classroom MC ${p0(c.proj.mcPct)}${c.proj.wrPct!=null?` · writing ${p0(c.proj.wrPct)}`:''} → composite ${p0(c.proj.comp)}`, w:(3-c.proj.score)*6}); });
-  const status = !worst ? 'none' : (reasons.some(r=>r.t==='below') || missing.length >= st.missingForHelp) ? 'help'
-    : (worst.avg < cut + st.watchBand || reasons.length) ? 'watch' : 'ok';
+  const RANK = {help:3, watch:2, ok:1, none:0};
+  const status = cs.reduce((w, c) => RANK[c.ap.status] > RANK[w] ? c.ap.status : w, 'none');   // AP status only; context never changes it
+  const mcLow = Math.min(...cs.map(c => c.ap.avg ?? 101));
   const school = schoolFlags(key);
   const covered = t => (t==='below' && school.some(f=>/below\s*70/i.test(f))) || (t==='missing' && school.some(f=>/zero|missing/i.test(f)));
   const extra = reasons.filter(r => !covered(r.t));
   return {extra,key, name:s.name, ids:s.ids, classes:cs.map(c=>c.cls).filter(Boolean), cs, worst, avg:mean(pts.map(p=>p.p)), pts, missing, reasons, status, profile:prof(key), school, nflags: school.length + extra.length,
-    need: reasons.reduce((t,r)=>t+r.w,0) + (status==='help'?20:status==='watch'?5:0)};
+    need: RANK[status]*1000 + (status==='none' ? 0 : 101 - mcLow) + reasons.reduce((t,r)=>t+r.w,0)/100};
 }
 function buildModel(){
   const aC = aCourseMap();
@@ -898,8 +935,9 @@ const matchQ = s => !UI.q || s.name.toLowerCase().includes(UI.q.toLowerCase()) |
 const statusMatch = s => !UI.status || (UI.status==='unpaid' ? s.profile?.apExam==='unpaid' : s.status===UI.status);
 const scopeLabel = () => [UI.period!=='all' ? UI.period : UI.course!=='all' ? UI.course : 'All courses', UI.staar!=='all' ? `STAAR ${UI.staar==='none'?'no data':STAAR.find(x=>x.id===UI.staar).label}` : '',
   UI.apf!=='all' ? `AP exam ${UI.apf==='none'?'no data':AP_EXAM[UI.apf]}` : '', UI.quart!=='all' ? `Quartile ${UI.quart}` : '', UI.flagsOnly ? 'Flagged only' : ''].filter(Boolean).join(' · ');
-const STATUS = { ok:{label:'On Track', icon:'✓'}, watch:{label:'Watch', icon:'!'}, help:{label:'Needs Help', icon:'▼'}, none:{label:'No grades', icon:'·'}, unpaid:{label:'AP Exam Unpaid', icon:'$'} };
+const STATUS = { ok:{label:'AP on track', icon:'✓'}, watch:{label:'AP watch', icon:'!'}, help:{label:'AP needs help', icon:'▼'}, none:{label:'No AP data', icon:'·'}, unpaid:{label:'AP Exam Unpaid', icon:'$'} };
 const pill = s => `<span class="pill ${s}">${STATUS[s].icon} ${STATUS[s].label}</span>`;
+const apLine = (c, multi) => `<span class="apline"><span class="pill ${c.ap.status}">${STATUS[c.ap.status].icon} ${STATUS[c.ap.status].label}</span><small>${multi&&c.cls?`<b>${esc(c.cls)}</b> · `:''}${esc(c.ap.status==='none'?c.ap.reason:c.ap.reason)}</small></span>`;
 const tagsHtml = rs => `<div class="tags">${rs.map(r=>`<span class="tag ${r.t}" data-tip="${esc(r.tip)}">${r.icon} ${esc(r.label)}</span>`).join('')}</div>`;
 const avatar = (key, name, size) => `<span class="av" style="background:${avColor(key)}${size?`;width:${size}px;height:${size}px`:''}">${esc(initials(name))}</span>`;
 const nameLine = s => `<b><span class="nm">${esc(s.name)}</span>${staarBadge(s.key)}</b>`;
@@ -921,9 +959,10 @@ function parentEmail(key){
 }
 function weeklySummary(m){
   const rt = retestRows(m).filter(r=>!r.done), ph = powerHour(m), mb = missingBoard(m), L = [`Weekly summary — ${scopeLabel()} — ${today()}`, ``];
-  L.push(`${m.studs.length} students · ${m.counts.ok} on track · ${m.counts.watch} watch · ${m.counts.help} need help`);
+  L.push(`${m.studs.length} students · ${m.counts.ok} AP on track · ${m.counts.watch} AP watch · ${m.counts.help} AP needs help · ${m.counts.none} no AP MC yet (AP Classroom MC only)`);
   L.push(`Retests open: ${rt.length} · Power Hour: ${ph.reduce((t,g)=>t+g.rows.length,0)} · Missing assignments: ${mb.cols.reduce((t,c)=>t+c.n,0)}`, ``);
-  periodRows(m).forEach(r => L.push(`${r.cls}: avg ${p0(r.avg)} · ${r.help} need help · ${r.watch} watch · ${r.missing} missing`));
+  periodRows(m).forEach(r => L.push(`${r.cls}: AP on track ${r.ok} · watch ${r.watch} · needs help ${r.help} · class avg ${p0(r.avg)} · ${r.missing} missing`));
+  const cs = conversationStarters(m); if (cs.length) L.push('', `Conversation starters (${cs.length}): ${cs.slice(0,10).map(x=>x.name).join(', ')}${cs.length>10?'…':''}`);
   const pr = m.studs.flatMap(s=>s.cs.filter(c=>c.proj)); if (pr.length) L.push(``, `AP projection: ${Math.round(pr.filter(c=>c.proj.score>=3).length/pr.length*100)}% projected 3+ · ${pr.filter(c=>c.proj.score<=2).length} projected 1–2`);
   if (m.counts.unpaid) L.push(`AP exams unpaid: ${m.counts.unpaid}`);
   return L.join('\n');
@@ -933,7 +972,7 @@ function periodRows(m){
   m.studs.forEach(s => s.cs.forEach(c => { if (!c.cls) return; const r = g[c.cls] ||= {cls:c.cls, avgs:[], ok:0, watch:0, help:0, missing:0, n:0, staar:[], tia:[], gpa:[], abs:[]};
     r.n++; if (c.avg!=null) r.avgs.push(c.avg); r.missing += c.missing.length;
     const pf = s.profile || {}; [[r.staar, pf.staarPct], [r.tia, pnum(pf.tiaBoy)], [r.gpa, pnum(pf.w2) ?? pnum(pf.w1)], [r.abs, pnum(pf.absences)]].forEach(([arr, v]) => { if (v!=null) arr.push(v); });
-    const st = c.avg==null ? null : (c.avg < S().atRisk || c.missing.length >= S().missingForHelp) ? 'help' : c.avg < S().atRisk + S().watchBand ? 'watch' : 'ok'; if (st) r[st]++; }));
+    const st = c.ap.status; if (st !== 'none') r[st]++; else r.none = (r.none||0) + 1; }));
   return Object.values(g).map(r=>({...r, avg:mean(r.avgs), staarAvg:mean(r.staar), tiaAvg:mean(r.tia), gpaAvg:mean(r.gpa), absAvg:mean(r.abs)})).sort((a,b)=>classSort(a.cls,b.cls));
 }
 
@@ -1109,11 +1148,11 @@ function viewOverview(m){
   const tile = (k, cls) => `<button class="tile ${cls}" aria-pressed="${UI.status===k}" data-status="${k}">
       <span class="tl"><span class="ic">${STATUS[k].icon}</span>${STATUS[k].label}</span>
       <span class="tn">${m.counts[k]}</span>
-      <span class="tf"><span>${Math.round(m.counts[k]/total*100)}% of students</span><span>${UI.status===k?'Showing ✕':'Show list'}</span></span>
+      <span class="tf"><span>${k==='unpaid'?`${Math.round(m.counts[k]/total*100)}% of students`:k==='ok'?`MC avg ≥ ${S().apOnTrack}% or last ${S().apRecent} ≥ ${S().apOnTrack}%`:k==='watch'?`MC avg ${S().apOnTrack-S().apBand}–${S().apOnTrack-0.1}% or ${+S().apRecent===2?'1':'some'} of last ${S().apRecent} ≥ ${S().apOnTrack}%`:`MC avg < ${S().apOnTrack-S().apBand}%, no recent ≥ ${S().apOnTrack}%`}</span><span>${UI.status===k?'Showing ✕':'Show list'}</span></span>
       <span class="bar"><i style="width:${m.counts[k]/total*100}%"></i></span></button>`;
   const syncs = S().sources.map(p=>({p, i:lastSync(p.id)})).filter(x=>x.i);
   const list = rosterList(m);
-  const grab = m.studs.filter(s=>s.reasons.length).sort((a,b)=>b.need-a.need).slice(0,8);
+  const grab = conversationStarters(m);
   const rt = retestRows(m).filter(r=>!r.done), ph = powerHour(m), mb = missingBoard(m), profiles = hasProfiles(), unpaid = unpaidList(m);
   const cards = OVERVIEW_CARDS.filter(c=>!DB.hidden.includes(c.id)).map(c => {
     let html; try { html = c.render(m); } catch(e){ console.error(c.id, e); html = `<div class="empty">This card hit an error: ${esc(e.message)}</div>`; }
@@ -1124,7 +1163,7 @@ function viewOverview(m){
     <div class="hero-head"><div>
       <div class="eyebrow"><i></i>${today()}</div>
       <h1>${UI.course==='all'&&UI.period==='all'&&UI.staar==='all' ? `${hi}${S().teacherName?', '+esc(S().teacherName):''}` : esc(scopeLabel())}</h1>
-      <p>${m.studs.length} students${avg!=null?` averaging <b>${p0(avg)}</b>`:''}${m.counts.help?` · <b>${m.counts.help}</b> need help`:''}${rt.length?` · <b>${rt.length}</b> retests open`:''}</p>
+      <p>${m.studs.length} students · AP status from AP Classroom MC only${m.counts.help?` · <b>${m.counts.help}</b> AP needs help`:''}${m.counts.none?` · <b>${m.counts.none}</b> no AP MC yet`:''}${rt.length?` · <b>${rt.length}</b> retests open`:''}</p>
       <div class="syncs">${syncs.map(({p,i})=>{ const stale=(Date.now()-i.at)>S().staleDays*864e5; return `<span class="sync${stale?' stale':''}" data-tip="${esc(p.id)}: last import ${new Date(i.at).toLocaleString()}"><i style="background:${p.color}"></i>${esc(p.id)} · ${ago(i.at)}</span>`; }).join('')}</div>
     </div>
     <div class="actions"><button class="btn" data-act="copy-summary">Copy weekly summary</button><button class="btn" data-act="export">Export CSV</button><button class="btn pri" data-go="import">＋ Update data</button></div></div>
@@ -1134,14 +1173,15 @@ function viewOverview(m){
     <section class="card w8"><div class="ch"><h2>${UI.status ? STATUS[UI.status].label : 'Roster'}</h2><span class="count">${list.length}</span>
         ${UI.status?`<button class="link" data-status="${UI.status}">Clear filter ✕</button>`:''}<span class="sp"></span>
         <label class="sr" for="sortSel">Sort</label><select class="btn sm" id="sortSel">${[['need','Most need first'],['low','Lowest average'],['high','Highest average'],['missing','Most missing'],['name','Name A–Z']].map(([v,l])=>`<option value="${v}" ${UI.sort===v?'selected':''}>${l}</option>`).join('')}</select></div>
-      <div class="cb">${list.length ? `<div class="rhead"><span>Student</span><span>Average</span><span>Missing</span><span>Flags</span><span>Status</span></div>
+      <div class="cb">${list.length ? `<div class="rhead"><span>Student</span><span>AP status (AP Classroom MC)</span><span>Class grade</span><span>Missing</span><span>Context</span></div>
  ${list.slice(0, UI.showAll ? list.length : 30).map(rosterRow).join('')}
         ${list.length > 30 && !UI.showAll ? `<div style="text-align:center;padding:12px"><button class="btn sm" data-act="show-all">Show all ${list.length}</button></div>` : ''}` : `<div class="empty">${UI.q?`No one matches “${esc(UI.q)}”.`:'No students in this group.'}</div>`}</div></section>
     <div class="w4" style="display:flex;flex-direction:column;gap:16px;min-width:0">
-      <section class="card"><div class="ch"><h2>Grab these kids</h2><span class="count help">${grab.length}</span><span class="sp"></span><button class="link" data-act="copy-grab">Copy</button></div>
-        <div class="cb">${grab.length ? `<div class="grab">${grab.map((s,i)=>`<button class="gi" data-student="${esc(s.key)}"><span class="rank">${i+1}</span>
-          <span><span class="who">${avatar(s.key,s.name)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.worst?.cls || s.classes.join(', '))}</small></span></span>${tagsHtml(s.reasons)}${contactLine(s.key)}</span>
-          <span class="big ${s.worst&&s.worst.avg<S().atRisk?'help':''}">${p0(s.worst?.avg)}</span></button>`).join('')}</div>` : `<div class="empty">✓ Nobody flagged right now.</div>`}</div></section>
+      <section class="card"><div class="ch"><h2>Conversation starters</h2><span class="count help">${grab.length}</span><span class="sp"></span><button class="link" data-act="copy-grab">Copy</button></div>
+        <div class="cb"><p class="fine" style="margin:0 0 6px">School watch flags or ${S().missingForHelp}+ missing. Context only; doesn't change AP status.</p>${grab.length ? `<div class="grab">${grab.slice(0,12).map((s,i)=>`<button class="gi" data-student="${esc(s.key)}" style="grid-template-columns:1fr auto"><span style="min-width:0">
+          <span class="who">${avatar(s.key,s.name,30)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · '))}</small></span></span>
+          <span class="tags" style="margin-top:5px">${flagChips(s.key)}${s.missing.length?`<span class="tag missing">⧗ ${s.missing.length} missing</span>`:''}</span>${contactLine(s.key)}</span>
+          <span>${pill(s.status)}</span></button>`).join('')}</div>${grab.length>12?`<p class="fine">+${grab.length-12} more · turn on “Has flags” to see them in the roster</p>`:''}` : `<div class="empty">✓ No watch flags or ${S().missingForHelp}+ missing right now.</div>`}</div></section>
       <section class="card"><div class="ch"><h2>Action lists</h2></div><div class="cb"><div class="alinks">
         <button class="alink" data-go="retests"><span class="n">${rt.length}</span><span><b>Retests</b><small>${plural(new Set(rt.map(r=>r.s.key)).size,'student')} under ${S().retestCap}</small></span><span class="go">→</span></button>
         <button class="alink" data-go="power"><span class="n">${ph.reduce((t,g)=>t+g.rows.length,0)}</span><span><b>Power Hour</b><small>Under ${S().atRisk} in ${plural(ph.length,'period')}</small></span><span class="go">→</span></button>
@@ -1155,18 +1195,23 @@ function viewOverview(m){
     ${cards}
   </div>`;
 }
+function conversationStarters(m){
+  return m.studs.filter(s => s.school.length || s.missing.length >= S().missingForHelp)
+    .sort((a,b) => (b.school.length + (b.missing.length>=S().missingForHelp?1:0)) - (a.school.length + (a.missing.length>=S().missingForHelp?1:0)) || b.missing.length - a.missing.length || a.name.localeCompare(b.name));
+}
 function rosterList(m){
   const sorters = { need:(a,b)=>b.need-a.need, name:(a,b)=>a.name.localeCompare(b.name), low:(a,b)=>(a.worst?.avg??999)-(b.worst?.avg??999), high:(a,b)=>(b.avg??-1)-(a.avg??-1), missing:(a,b)=>b.missing.length-a.missing.length };
   return m.studs.filter(matchQ).filter(statusMatch).sort(sorters[UI.sort] || sorters.need);
 }
 function rosterRow(s){
-  const multi = s.cs.filter(c=>c.avg!=null).length > 1;
+  const multi = s.cs.length > 1, gmulti = s.cs.filter(c=>c.avg!=null).length > 1;
+  const ctx = [flagChips(s.key), ...s.extra.map(r=>`<span class="tag ${r.t}" data-tip="${esc(r.tip)}">${r.icon} ${esc(r.label)}</span>`)].join('');
   return `<button class="rrow" data-student="${esc(s.key)}">
     <span class="who">${avatar(s.key,s.name)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · ')||'No class')}${apBadge(s.key)}${draftedTag(s.key)}</small></span></span>
-    <span><span class="big ${s.worst&&s.worst.avg<S().atRisk?'help':''}">${p0(multi ? s.worst?.avg : s.avg)}</span>${multi?`<span class="minor" style="display:block">${s.cs.filter(c=>c.avg!=null).map(c=>`${esc(c.course)} ${p0(c.avg)}`).join(' · ')}</span>`:`<span class="minor" style="display:block">${letter(s.avg)}</span>`}</span>
+    <span>${s.cs.map(c=>apLine(c, multi)).join('')}</span>
+    <span><span class="big ${s.worst&&s.worst.avg<S().atRisk?'help':''}" style="font-size:17px">${p0(gmulti ? s.worst?.avg : s.avg)}</span>${gmulti?`<span class="minor" style="display:block">${s.cs.filter(c=>c.avg!=null).map(c=>`${esc(c.course)} ${p0(c.avg)}`).join(' · ')}</span>`:`<span class="minor" style="display:block">${letter(s.avg)}</span>`}</span>
     <span class="num" style="font-weight:800;${s.missing.length?'color:var(--help-ink)':''}">${s.missing.length||'—'}</span>
-    <span>${s.reasons.length||s.school.length?`<div class="tags">${flagChips(s.key)}${s.extra.map(r=>`<span class="tag ${r.t}" data-tip="${esc(r.tip)}">${r.icon} ${esc(r.label)}</span>`).join('')}</div>`:'<span class="minor">—</span>'}</span>
-    <span>${pill(s.status)}</span></button>`;
+    <span>${ctx?`<div class="tags">${ctx}</div>`:'<span class="minor">—</span>'}</span></button>`;
 }
 function welcome(){
   return `<section class="welcome"><div class="eyebrow"><i></i>${esc(S().school)} · ${esc(S().title)}</div>
@@ -1416,8 +1461,10 @@ function viewSettings(){
     <div class="grid">
       <section class="card w7"><div class="ch"><h2>Rules</h2></div><div class="cb">
         <div class="row2">${f('setTitle','Dashboard title',s.title)}${f('setName','Your name for the greeting',s.teacherName,'text','placeholder="e.g. Mr. Martin"')}</div>
-        <div class="row3">${f('setRisk','Needs Help below (%)',s.atRisk,'number','min="0" max="100"')}${f('setBand','Watch band (+ points)',s.watchBand,'number','min="0" max="40"')}${f('setCap','Retest cap (%)',s.retestCap,'number','min="0" max="100"')}</div>
-        <div class="row3">${f('setMiss','Missing for Needs Help',s.missingForHelp,'number','min="1" max="20"')}${f('setDrop','“Dropping” at (points)',s.dropPts,'number','min="1" max="50"')}${f('setGap','“Platform gap” at (points)',s.gapPts,'number','min="1" max="60"')}</div>
+        <div class="note" style="margin-bottom:10px"><b>AP status</b> uses AP Classroom multiple-choice scores only. On track if the MC average ≥ on-track %, or the most recent N MC tests are all ≥ on-track %. Watch if the average is within the watch band, or some (not all) of the recent tests are ≥ on-track %. Otherwise needs help.</div>
+        <div class="row3">${f('setApPct','AP on-track % (MC)',s.apOnTrack,'number','min="0" max="100"')}${f('setApRecent','Recent MC tests needed',s.apRecent,'number','min="1" max="10"')}${f('setApBand','AP watch band (points)',s.apBand,'number','min="0" max="40"')}</div>
+        <div class="row3">${f('setRisk','Class-grade cutoff (%)',s.atRisk,'number','min="0" max="100"')}${f('setCap','Retest cap (%)',s.retestCap,'number','min="0" max="100"')}${f('setMiss','Missing = conversation starter',s.missingForHelp,'number','min="1" max="20"')}</div>
+        <div class="row3">${f('setDrop','“Dropping” at (points)',s.dropPts,'number','min="1" max="50"')}${f('setGap','“Platform gap” at (points)',s.gapPts,'number','min="1" max="60"')}</div>
         ${f('setPattern','Assignments that count as tests (pattern)',s.retestPattern)}
         ${f('setScale','Grade scale (minimum:letter, comma separated)',s.scale.map(([m,l])=>m+':'+l).join(', '))}
         <button class="btn pri" data-act="save-settings">Save settings</button>
@@ -1457,7 +1504,7 @@ const OVERVIEW_CARDS = [
   { id:'periods', title:'Classes side by side', sub:'Grades, status mix, and baseline averages from the profile', size:'w12', render(m){
       const rows = periodRows(m); if (!rows.length) return '<div class="empty">No classes yet.</div>';
       const prof = rows.some(r=>r.staar.length||r.tia.length||r.gpa.length||r.abs.length);
-      return `<div style="overflow:auto"><table class="t"><thead><tr><th>Class</th><th class="r">Students</th><th class="r">Average</th><th>On track / Watch / Help</th><th class="r">Missing</th>${prof?'<th class="r">8th STAAR</th><th class="r">TIA BOY</th><th class="r">GPA (W)</th><th class="r">Absences</th>':''}</tr></thead><tbody>${rows.map(r=>`<tr><td><button class="link" style="font-size:13px;color:var(--ink)" data-period="${esc(r.cls)}">${esc(r.cls)}</button></td><td class="r num">${r.n}</td><td class="r"><span class="big ${r.avg!=null&&r.avg<S().atRisk?'help':''}" style="font-size:16px">${p0(r.avg)}</span></td>
+      return `<div style="overflow:auto"><table class="t"><thead><tr><th>Class</th><th class="r">Students</th><th class="r">Average</th><th>AP on track / watch / needs help</th><th class="r">Missing</th>${prof?'<th class="r">8th STAAR</th><th class="r">TIA BOY</th><th class="r">GPA (W)</th><th class="r">Absences</th>':''}</tr></thead><tbody>${rows.map(r=>`<tr><td><button class="link" style="font-size:13px;color:var(--ink)" data-period="${esc(r.cls)}">${esc(r.cls)}</button></td><td class="r num">${r.n}</td><td class="r"><span class="big ${r.avg!=null&&r.avg<S().atRisk?'help':''}" style="font-size:16px">${p0(r.avg)}</span></td>
         <td><div style="display:flex;align-items:center;gap:8px"><span class="pbar" style="flex:1">${[['ok','var(--ok)'],['watch','var(--watch)'],['help','var(--help)']].map(([k,c])=>r[k]?`<i style="flex:${r[k]};background:${c}" data-tip="${STATUS[k].label}: ${r[k]}"></i>`:'').join('')}</span><span class="minor num" style="white-space:nowrap">${r.ok} / ${r.watch} / ${r.help}</span></div></td><td class="r num">${r.missing||'—'}</td>
         ${prof?`<td class="r num">${r.staarAvg==null?'—':p0(r.staarAvg)}</td><td class="r num">${r.tiaAvg==null?'—':p0(r.tiaAvg)}</td><td class="r num">${r.gpaAvg==null?'—':fmt(r.gpaAvg,2)}</td><td class="r num">${r.absAvg==null?'—':fmt(r.absAvg,1)}</td>`:''}</tr>`).join('')}</tbody></table></div>
         ${prof?'<p class="minor" style="margin:8px 0 0">GPA uses Q2-to-date weighted when present, otherwise Q1. Absences = average full-day absences this year.</p>':''}`;
@@ -1479,7 +1526,7 @@ const OVERVIEW_CARDS = [
   { id:'staar', title:'8th STAAR vs. now', sub:'Current average by STAAR level', size:'w4', render(m){
       if (!hasProfiles()) return '<div class="empty">Import a Profile CSV to compare.</div>';
       return STAAR.map(l => { const g = m.studs.filter(s=>s.profile?.staarLevel===l.id), av = mean(g.map(s=>s.avg).filter(v=>v!=null)), help = g.filter(s=>s.status==='help').length;
-        return `<button class="srcrow" data-staar="${l.id}" style="width:100%;border-left:0;border-right:0;border-top:0;background:none;text-align:left"><span class="staar s-${l.id}" style="margin:0;min-width:84px;justify-content:center">${esc(l.short)}</span><div><b>${plural(g.length,'student')}</b><small>${help?`${help} need help`:'None need help'}</small></div><div class="rt"><span class="big" style="font-size:18px">${p0(av)}</span></div></button>`; }).join('');
+        return `<button class="srcrow" data-staar="${l.id}" style="width:100%;border-left:0;border-right:0;border-top:0;background:none;text-align:left"><span class="staar s-${l.id}" style="margin:0;min-width:84px;justify-content:center">${esc(l.short)}</span><div><b>${plural(g.length,'student')}</b><small>${help?`${help} AP needs help`:'None AP needs help'}</small></div><div class="rt"><span class="big" style="font-size:18px">${p0(av)}</span></div></button>`; }).join('');
   }},
   { id:'heatmap', title:'Score heatmap', sub:'Recent assignments, lowest averages first', size:'w12', render(m){
       const a = m.assigns.slice(-24), rows = m.studs.filter(matchQ).filter(statusMatch).sort((x,y)=>(x.avg??999)-(y.avg??999));
@@ -1526,10 +1573,16 @@ function openStudent(key, fresh){
       <div class="conf-head">${avatar(key, s.name, 56)}<div style="flex:1;min-width:240px"><h1>${esc(s.name)}</h1>
         <div class="meta">${p.gradeLevel?`Grade ${esc(p.gradeLevel)} · `:''}${esc(s.classes.join(' · ')||'No class')}${s.ids.length?` · ID ${esc(s.ids.join(', '))}`:''}${p.counselor?` · Counselor: ${esc(p.counselor)}`:''}${draftedTag(key)}</div>
         ${other.length?`<div class="fine printonly">${other.map(([k,v])=>`${esc(k)}: <b>${esc(v)}</b>`).join(' · ')}</div>`:''}
-        <div class="chiprow">${pill(s.status)}${apChip}${flagChips(key)}${s.reasons.map(r=>`<span class="tag ${r.t}" data-tip="${esc(r.tip)}">${r.icon} ${esc(r.label)}</span>`).join('')}${p.acc?p.acc.split(/[;,]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="acc" style="margin:0">${esc(x)}</span>`).join(''):''}</div></div>
+        <div class="aphead">${s.cs.map(c=>apLine(c, s.cs.length>1)).join('')}</div>
+        <div class="chiprow">${apChip}${flagChips(key)}${s.reasons.map(r=>`<span class="tag ${r.t}" data-tip="${esc(r.tip)}">${r.icon} ${esc(r.label)}</span>`).join('')}${p.acc?p.acc.split(/[;,]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="acc" style="margin:0">${esc(x)}</span>`).join(''):''}</div></div>
         <div class="cells" style="min-width:260px;flex:0 1 420px">${s.cs.map(c=>cell(esc(c.cls||'All work'), `<em style="${c.avg!=null&&c.avg<cut?'color:var(--help-ink)':''}">${p0(c.avg)}</em>`, `${letter(c.avg)} now · ${c.missing.length} missing${c.proj?` · AP ${c.proj.score}`:''}`)).join('')}</div></div>
 
       <div class="conf-grid">
+        <section class="fsec c12"><h2>AP on pace <span>AP Classroom multiple choice only · on track if MC avg ≥ ${S().apOnTrack}% or last ${S().apRecent} MC ≥ ${S().apOnTrack}%</span></h2><div class="fb">
+          ${s.cs.map(c=>`<div class="aprowc"><div style="min-width:220px">${apLine(c, s.cs.length>1)}</div>
+            <div class="namechips">${c.ap.mc.length ? c.ap.mc.map((x,i)=>`<span class="nchip ${c.ap.last.includes(x)?'recent':''}" data-tip="${esc(x.a.name)}${c.ap.last.includes(x)?' · counts as recent':''}">${esc(s.cs.length>1?bare(x.a.name):bare(x.a.name))}<b style="${x.p<S().apOnTrack?'color:var(--help-ink)':''}">${x.m?'M (0)':p0(x.p)}</b></span>`).join('') : '<span class="minor">No AP Classroom MC scores yet: progress-check MCQs and MC unit tests/retests will appear here.</span>'}</div></div>`).join('')}
+          <p class="fine noprint">Everything else on this page (grades, missing work, GPA, attendance, Power Hour, STAAR, TIA, PSAT/SAT, watch flags) is context for the conversation and never changes AP status. Outlined chips = the recent tests.</p>
+        </div></section>
         <section class="fsec c6"><h2>Grades &amp; GPA</h2><div class="fb">
           <table class="ft"><thead><tr><th>My class</th><th class="r">Q1</th><th class="r">Q2 to date</th><th class="r">Now (dashboard)</th></tr></thead><tbody>
             ${s.cs.filter(c=>c.cls).map(c=>`<tr><td><b>${esc(c.cls)}</b></td><td class="r num">${show(myGrade(c.cls,1))}</td><td class="r num">${show(myGrade(c.cls,2))} ${arrow(myGrade(c.cls,1), myGrade(c.cls,2), 0)}</td><td class="r num">${p0(c.avg)}</td></tr>`).join('') || '<tr><td colspan="4" class="minor">No class</td></tr>'}</tbody></table>
@@ -1624,6 +1677,7 @@ function openStudent(key, fresh){
 }
 function confText(key){
   const s = studentFull(key), p = prof(key) || {}, ag = DB.agency[key] || {}, f = ag.form || {}, L = [`Student conference — ${s.name}`, `${p.gradeLevel?`Grade ${p.gradeLevel} · `:''}${s.classes.join(' · ')}${s.ids[0]?` · ID ${s.ids[0]}`:''}${p.counselor?` · Counselor: ${p.counselor}`:''} · ${today()}`];
+  s.cs.forEach(c => L.push(`${c.cls||'Class'} — ${STATUS[c.ap.status].label}: ${c.ap.reason}`));
   if (p.apExam) L.push(`AP exam: ${AP_EXAM[p.apExam]}`); if (schoolFlags(key).length) L.push(`Watch flags: ${schoolFlags(key).join('; ')}`); L.push('');
   L.push('GRADES'); s.cs.forEach(c => L.push(`${c.cls}: Q1 ${p.byClass?.[c.cls]?.grade1 ?? '—'} · Q2 ${p.byClass?.[c.cls]?.grade2 ?? '—'} · now ${p0(c.avg)} · ${c.missing.length} missing${c.proj?` · AP proj ${c.proj.score}`:''}`));
   L.push(`GPA unweighted: Q1 ${p.uw1||'—'} → Q2 ${p.uw2||'—'} · weighted: Q1 ${p.w1||'—'} → Q2 ${p.w2||'—'}`, `${(p.labels||{}).rankBand||'Est. rank'}: ${p.rankBand||'—'} · ${(p.labels||{}).quartile||'quartile'} ${p.quartile||'—'}${p.rankCutoffs?` (cutoffs: ${p.rankCutoffs})`:''}`, '');
@@ -2030,7 +2084,7 @@ document.addEventListener('click', e => {
   if (act==='pick') $('#fileIn').click();
   if (act==='paste') importPaste();
   if (act==='copy-prompt') copyText(CHROME_PROMPT, 'Prompt');
-  if (act==='copy-grab'){ const g = m().studs.filter(s=>s.reasons.length).sort((a,b)=>b.need-a.need).slice(0,8); copyText(`Grab these kids — ${scopeLabel()} — ${today()}\n\n` + g.map((s,i)=>{ const c = lastContact(s.key); return `${i+1}. ${s.name} (${s.worst?.cls||''}, ${p0(s.worst?.avg)}): ${s.reasons.map(r=>r.label).join(', ')} — ${c?`last contact ${ago(c.at)} (${c.type})`:'not contacted yet'}`; }).join('\n'), 'List'); }
+  if (act==='copy-grab'){ const g = conversationStarters(m()); copyText(`Conversation starters — ${scopeLabel()} — ${today()}\n\n` + g.map((s,i)=>{ const c = lastContact(s.key); return `${i+1}. ${s.name} (${s.classes.join(', ')}): ${[...s.school, s.missing.length?`${s.missing.length} missing`:''].filter(Boolean).join('; ')} · ${STATUS[s.status].label} — ${c?`last contact ${ago(c.at)} (${c.type})`:'not contacted yet'}`; }).join('\n'), 'List'); }
   if (act==='copy-unpaid'){ const u = unpaidList(m()); copyText(`AP exam unpaid — ${scopeLabel()} — ${today()}\n\n` + u.map(s=>`• ${s.name} (${s.classes.join(', ')})${s.ids.length?' · ID '+s.ids[0]:''}`).join('\n'), 'Unpaid list'); }
   if (act==='copy-ap'){ const lo = []; m().studs.forEach(s=>s.cs.forEach(c=>{ if (c.proj && c.proj.score<=2) lo.push({s,c}); })); copyText(`AP projection 1–2 — ${scopeLabel()} — ${today()}\n\n` + lo.sort((a,b)=>classSort(a.c.cls,b.c.cls)||a.c.proj.comp-b.c.proj.comp).map(r=>`• ${r.s.name} (${r.c.cls}) — projected ${r.c.proj.score} · MC ${Math.round(r.c.proj.mcPct)}%${r.c.proj.wrPct!=null?` · writing ${Math.round(r.c.proj.wrPct)}%`:''}`).join('\n'), 'AP 1–2 list'); }
   if (act==='print-ap'){ const rows=[]; m().studs.forEach(s=>s.cs.forEach(c=>{ if (c.proj) rows.push({s,c}); })); const g = rows.reduce((o,r)=>{ (o[r.c.cls] ||= []).push(r); return o; }, {});
@@ -2053,7 +2107,7 @@ document.addEventListener('click', e => {
     const scale = $('#setScale').value.split(',').map(x=>x.split(':').map(s=>s.trim())).filter(x=>x.length===2 && !isNaN(+x[0])).map(([mn,l])=>[+mn,l]).sort((a,b)=>b[0]-a[0]);
     const num = (id, d) => { const v = parseFloat($(id).value); return isNaN(v) ? d : v; };
     let pattern = $('#setPattern').value.trim() || CONFIG.retestPattern; try { new RegExp(pattern,'i'); } catch(_){ pattern = CONFIG.retestPattern; toast('Test pattern was invalid, kept the default'); }
-    Object.assign(DB.settings, {title:$('#setTitle').value.trim()||CONFIG.title, teacherName:$('#setName').value.trim(), atRisk:num('#setRisk',CONFIG.atRisk), watchBand:num('#setBand',CONFIG.watchBand),
+    Object.assign(DB.settings, {title:$('#setTitle').value.trim()||CONFIG.title, teacherName:$('#setName').value.trim(), atRisk:num('#setRisk',CONFIG.atRisk), apOnTrack:num('#setApPct',CONFIG.apOnTrack), apRecent:Math.max(1,Math.round(num('#setApRecent',CONFIG.apRecent))), apBand:num('#setApBand',CONFIG.apBand),
       retestCap:num('#setCap',CONFIG.retestCap), missingForHelp:num('#setMiss',CONFIG.missingForHelp), dropPts:num('#setDrop',CONFIG.dropPts), gapPts:num('#setGap',CONFIG.gapPts), retestPattern:pattern});
     if (scale.length) DB.settings.scale = scale;
     save(); render(); toast('Settings saved');

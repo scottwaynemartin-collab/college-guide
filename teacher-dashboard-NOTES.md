@@ -32,17 +32,21 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
 **School years:** assignments carry a year. Only the current year (August–July, for example 2026-27) counts anywhere on the dashboard. Older years appear only in **Compare years**, and last year's students never appear on the current roster.
 
 ## The rules (all adjustable in Settings)
-- **Average:** the mean of every graded score for that class, with missing work counted as 0. An assignment prefixed with a course counts only for students in that course.
-- **Needs Help:**
-  - any class average under the cutoff (70), or
-  - 3 or more missing assignments.
-- **Watch:** not Needs Help, but any of these:
-  - lowest class average under 80 (cutoff + 10)
-  - 2 missing assignments
-  - dropping
-  - a platform gap
-  - AP projection of 1–2
-- **On Track:** everything else.
+- **AP status** (the On track / Watch / Needs help tiles, the roster and the conference page) means one thing only: on pace to pass the AP exam. It is worked out **per class** (APHG, AP World, AP Euro alike) from **AP Classroom multiple-choice scores only**:
+  - **Counted:** progress-check MCQs, and MC unit tests and retests. A retest counts as its own test.
+  - **Left out:** FRQ, SAQ, LEQ and DBQ, and everything from Canvas or the Gradebook.
+  - **Missing work** counts as 0 only when it's marked missing. Ungraded or blank work is skipped.
+  - **Order:** by assignment order.
+  - **AP on track:** MC average ≥ 55%, **or** the 2 most recent MC tests are both ≥ 55%.
+  - **AP watch:** MC average from 45% to 54.9%, **or** only one of the last 2 MC tests is ≥ 55%.
+  - **AP needs help:** MC average below 45%, and neither of the last 2 is ≥ 55%.
+  - **No AP data:** no AP Classroom MC yet (not counted as on track).
+  - **Each row shows the reason,** for example "AP on track: MC avg 58%" or "AP on track: last 2 MC 61%, 57% (avg 49%)".
+  - **Students in two classes** get a status for each class. The tiles and filters use the student's lowest status.
+  - **Settings:** AP on-track % (55), recent MC tests needed (2), AP watch band (10 points).
+- **Context only,** never changing AP status: class grades, missing work, dropping, platform gap, AP projection, GPA, attendance, zeros, Power Hour, STAAR, TIA, PSAT/SAT, school watch flags, near-cutoff classes. These show as chips on the roster and in full on the conference page.
+- **Conversation starters** (Overview): students with school watch flags or 3+ missing (adjustable).
+- **Class-grade cutoff (70):** used for the Power Hour list and the "Below 70" context chip.
 - **Dropping:** the average of the last 3 scores is 8 or more points below the average of the earlier scores. It needs 6 or more scores.
 - **Platform gap:** platform averages 15 or more points apart. Each platform needs 2 or more scores, and missing work is left out of this check.
 - **Retests:** tests and progress checks scored under 80 (the Frisco retest cap). Missing work isn't included. Never treated as tests: "Corrections", "TURN IN HERE", the LockDown Browser test, and "Fill in the Blank Review".
