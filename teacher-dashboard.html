@@ -23,7 +23,7 @@
               Classes look like "APHG 3B" (course + period). Assignments may be prefixed
               with their course, e.g. "APHG · Unit 2 Test", so they count only for that course.
     Optional "School Year" column (e.g. 2025-26) tags older data; it's used only in Compare.
-    Profile:  Student,Student ID,Class,8th STAAR %,8th STAAR Level,AP Exam
+    Profile:  Student,Student ID,Class,8th STAAR %,8th STAAR Level,AP Exam[,Accommodations]
               Matched on Student ID. Never counted in averages. AP Exam = Paid / Unpaid / Opted out.
 
   Works inside a claude.ai artifact: no pop-ups (confirm/prompt/alert), no new windows,
@@ -428,6 +428,33 @@ textarea.code{font:12px/1.5 var(--mono);min-height:220px;resize:vertical}
 .aprow .n{text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
 .aprow.flag{background:color-mix(in srgb,var(--help-bg) 55%,transparent)}
 
+/* contact log & extras */
+.clog{display:flex;gap:6px;flex-wrap:wrap}
+.lastc{display:block;font-size:11px;color:var(--ink3);margin-top:5px}
+.lastc.none{color:var(--watch-ink);font-weight:700}
+.acc{display:inline-flex;font:800 10px var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:5px;background:var(--drop-bg);color:var(--drop-ink);margin:0 4px 4px 0}
+.trow.done{opacity:.5}.trow.done span:first-child{text-decoration:line-through}
+.trow input{width:16px;height:16px;accent-color:var(--tq)}
+.trow.ck{grid-template-columns:20px 1fr auto auto}
+.pbar{display:flex;height:12px;border-radius:4px;overflow:hidden;gap:2px;min-width:120px}
+.pbar i{display:block;height:100%}
+
+/* power hour drafting */
+.draftbox{background:var(--blk);color:#fff;border-radius:var(--r);padding:16px 18px;margin-bottom:16px}
+.draftbox h2{font:900 16px var(--display);text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.draftbox .row3{margin-top:12px}
+.draftbox .field{color:var(--on-blk2)}
+.draftbox .field input,.draftbox .field select{background:var(--blk2);border-color:var(--blk3);color:#fff}
+.draftbox .minor{color:var(--on-blk2)}
+.draftbox .btn{background:var(--blk3);border-color:var(--blk3);color:#fff}
+.draftbox .btn.pri{background:var(--tq);border-color:var(--tq);color:var(--blk)}
+.draftbox .btn:disabled{opacity:.45;cursor:not-allowed}
+.dprev{margin-top:12px;background:var(--card);color:var(--ink);border-radius:12px;max-height:340px;overflow:auto}
+.dprev table td,.dprev table th{padding:7px 10px}
+.dstat{font:800 10px var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:5px;white-space:nowrap}
+.dstat.ready{background:var(--ok-bg);color:var(--ok-ink)}.dstat.done{background:var(--tq);color:var(--blk)}.dstat.mine{background:var(--line);color:var(--ink2)}.dstat.taken,.dstat.err{background:var(--watch-bg);color:var(--watch-ink)}.dstat.notfound,.dstat.noid{background:var(--help-bg);color:var(--help-ink)}
+.drafted{display:inline-flex;font:800 10px var(--sans);letter-spacing:.04em;text-transform:uppercase;padding:2px 6px;border-radius:5px;background:var(--tq-soft);color:var(--tq-ink);margin-left:6px}
+
 /* in-page print area (no new windows, so it works inside artifacts) */
 #printArea{display:none}
 #printArea .hd{border-bottom:4px solid #00b2a9;padding-bottom:10px;margin-bottom:16px}
@@ -517,6 +544,11 @@ const CONFIG = {
   staleDays: 7,
   scale: [[90,'A'],[80,'B'],[70,'C'],[60,'D'],[0,'F']],
   courseOrder: ['APHG','AP World','AP Euro'],
+  // Power Hour drafting (PCHS "Tutorials" sheet). Drafting writes your dropdown name into the day's column.
+  tutorialsSheet: '1C3DSO4lJieWN2KiS3FiQwgOeQz2uFtcfXGB-T70QMkI',
+  draftTabs: ['A-D Swenson','E-K Morgan','L-Rh Frederick','Ri-Z Istre'],
+  draftName: 'Martin, Scott B106',   // exactly as in the sheet's dropdown, without the block
+  priorityDay: 4,                    // Thursday = Science / Social Studies priority day
   currentYear: '',            // blank = automatic (Aug–Jul), e.g. "2026-27"
   // AP projection — Proficiency Scaling reference: composite % → AP score
   apScale: [[85,5],[70,4],[55,3],[40,2],[0,1]],
@@ -541,7 +573,7 @@ const AP_EXAM = {paid:'Paid', unpaid:'Unpaid', opted:'Opted out'};
 
 /* ---------- storage (browser only) ---------- */
 const KEY = 'classroomDashboard.v1';
-const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
+const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
 let DB = load();
 function load(){ try{ return Object.assign(blank(), JSON.parse(localStorage.getItem(KEY)||'{}')); }catch(e){ return blank(); } }
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(DB)); }catch(e){ toast('Could not save — browser storage is unavailable or full'); } }
@@ -551,7 +583,7 @@ Object.values(DB.assignments).forEach(a => { if (!a.year) a.year = curYear(); })
 const yearOf = a => a.year || curYear();
 
 const UI = { view: location.hash.slice(1) || 'overview', course:'all', period:'all', staar:'all', status:null, q:'', sort:'need',
-  retestBy:'student', cmpType:'all', cmpStudent:'', pasteYear:'', phOut:new Set(), pasteSrc:'Canvas', lastResult:'', asort:['order',-1] };
+  retestBy:'student', draft:null, draftBlock:'A Block', draftDay:'', cmpType:'all', cmpStudent:'', pasteYear:'', phOut:new Set(), pasteSrc:'Canvas', lastResult:'', asort:['order',-1] };
 
 /* ---------- helpers ---------- */
 const $ = s => document.querySelector(s);
@@ -748,12 +780,112 @@ const tagsHtml = rs => `<div class="tags">${rs.map(r=>`<span class="tag ${r.t}" 
 const avatar = (key, name, size) => `<span class="av" style="background:${avColor(key)}${size?`;width:${size}px;height:${size}px`:''}">${esc(initials(name))}</span>`;
 const nameLine = s => `<b><span class="nm">${esc(s.name)}</span>${staarBadge(s.key)}</b>`;
 
+/* ---------- contact log ---------- */
+const CONTACT_TYPES = ['Email','Call','Conference','Tutoring'];
+const lastContact = key => (DB.contacts[key] || []).slice(-1)[0] || null;
+function contactLine(key){ const c = lastContact(key); return c ? `<span class="lastc">Last contact: ${ago(c.at)} · ${esc(c.type)}</span>` : `<span class="lastc none">Not contacted yet</span>`; }
+function parentEmail(key){
+  const s = studentFull(key), first = s.name.split(' ')[0], cap = S().retestCap, cut = S().atRisk, nm = a => s.cs.length > 1 ? a.name : bare(a.name);
+  const rt = []; s.cs.forEach(c => c.pts.forEach(p => { if (!p.m && p.p < cap && isTest(p.a.name) && !DB.retestDone[key+'|'+p.a.id]) rt.push(p); }));
+  const lines = [`Hello,`, ``, `I wanted to share a quick update on ${first}'s progress.`, ``];
+  s.cs.filter(c=>c.avg!=null).forEach(c => lines.push(`• ${c.cls}: ${Math.round(c.avg)}% (${letter(c.avg)})`));
+  if (s.missing.length) { lines.push(``, `Missing work (${s.missing.length}):`); s.missing.forEach(m => lines.push(`• ${nm(m.a)}`)); }
+  if (rt.length) { lines.push(``, `${first} is eligible to retest (retests can raise a score up to ${cap}):`); rt.forEach(p => lines.push(`• ${nm(p.a)}: currently ${Math.round(p.p)}%`)); }
+  if (s.cs.some(c=>c.avg!=null && c.avg<cut)) lines.push(``, `I'd love to see ${first} at Power Hour this week for extra support.`);
+  lines.push(``, `Please reach out with any questions. Thank you for your support!`, ``, S().teacherName || '[Your name]', S().school);
+  return lines.join('\n');
+}
+function weeklySummary(m){
+  const rt = retestRows(m).filter(r=>!r.done), ph = powerHour(m), mb = missingBoard(m), L = [`Weekly summary — ${scopeLabel()} — ${today()}`, ``];
+  L.push(`${m.studs.length} students · ${m.counts.ok} on track · ${m.counts.watch} watch · ${m.counts.help} need help`);
+  L.push(`Retests open: ${rt.length} · Power Hour: ${ph.reduce((t,g)=>t+g.rows.length,0)} · Missing assignments: ${mb.cols.reduce((t,c)=>t+c.n,0)}`, ``);
+  periodRows(m).forEach(r => L.push(`${r.cls}: avg ${p0(r.avg)} · ${r.help} need help · ${r.watch} watch · ${r.missing} missing`));
+  const pr = m.studs.flatMap(s=>s.cs.filter(c=>c.proj)); if (pr.length) L.push(``, `AP projection: ${Math.round(pr.filter(c=>c.proj.score>=3).length/pr.length*100)}% projected 3+ · ${pr.filter(c=>c.proj.score<=2).length} projected 1–2`);
+  if (m.counts.unpaid) L.push(`AP exams unpaid: ${m.counts.unpaid}`);
+  return L.join('\n');
+}
+function periodRows(m){
+  const g = {};
+  m.studs.forEach(s => s.cs.forEach(c => { if (!c.cls) return; const r = g[c.cls] ||= {cls:c.cls, avgs:[], ok:0, watch:0, help:0, missing:0, n:0};
+    r.n++; if (c.avg!=null) r.avgs.push(c.avg); r.missing += c.missing.length;
+    const st = c.avg==null ? null : (c.avg < S().atRisk || c.missing.length >= S().missingForHelp) ? 'help' : c.avg < S().atRisk + S().watchBand ? 'watch' : 'ok'; if (st) r[st]++; }));
+  return Object.values(g).map(r=>({...r, avg:mean(r.avgs)})).sort((a,b)=>classSort(a.cls,b.cls));
+}
+
+/* ---------- Power Hour drafting via the viewer's Google Sheets connector (claude.ai artifact only) ---------- */
+let MCP = null;
+try { if (window.claude && claude.use) claude.use('mcp').then(x => { MCP = x; if (UI.view==='power') render(); }).catch(()=>{}); } catch(_){}
+function sheetPayload(r){ let p = r && (r.payload !== undefined ? r.payload : r); if (p && Array.isArray(p.content)) p = p.content.map(c=>c.text||'').join(''); if (typeof p === 'string') { try { p = JSON.parse(p); } catch(_){} } return p || {}; }
+async function sheetGet(range){ return sheetPayload(await MCP.callTool('Google Sheets', 'get_values', {spreadsheetId: S().tutorialsSheet, range})).values || []; }
+async function sheetSet(range, value){ return MCP.callTool('Google Sheets', 'update_values', {spreadsheetId: S().tutorialsSheet, range, values: [[value]]}); }
+const colL = i => { let s = ''; i++; while (i) { const m = (i-1) % 26; s = String.fromCharCode(65+m) + s; i = Math.floor((i-1)/26); } return s; };
+const dayLabel = d => d.toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'});
+function draftDays(){ const out = [], d = new Date(); d.setHours(12,0,0,0); while (out.length < 10){ d.setDate(d.getDate()+1); if (d.getDay()>0 && d.getDay()<6) out.push(new Date(d)); } return out; }
+function defaultDraftDay(){ const days = draftDays(), pri = days.find(d => d.getDay()===S().priorityDay); return dayLabel(pri || days[0]); }
+function draftDeadline(label){ const d = draftDays().find(x => dayLabel(x)===label); if (!d) return null; const dl = new Date(d); dl.setDate(dl.getDate()-1); dl.setHours(18,0,0,0); return dl; }
+const draftValue = () => `${S().draftName.trim()} ${UI.draftBlock}`;
+function draftCandidates(m){ return powerHour(m).flatMap(g => g.rows.filter(r=>!UI.phOut.has(r.s.key+'|'+g.cls)).map(r=>({s:r.s, cls:g.cls, avg:r.c.avg}))).filter((x,i,a)=>a.findIndex(y=>y.s.key===x.s.key)===i); }
+async function draftCheck(){
+  const day = UI.draftDay || defaultDraftDay(), rows = draftCandidates(buildModel()).map(x => ({...x, id: x.s.ids.find(i=>/^\d{5,7}$/.test(i)) || x.s.ids[0] || ''}));
+  UI.draft = {day, block:UI.draftBlock, value:draftValue(), busy:'Checking the Tutorials sheet…', rows: rows.map(r=>({...r, status: r.id ? 'pending' : 'noid'}))}; render();
+  try {
+    const want = rows.filter(r=>r.id); let seen = 0;
+    for (const tab of S().draftTabs){
+      const q = `'${tab}'`, hdr = (await sheetGet(`${q}!1:1`))[0] || [], col = hdr.findIndex(h => String(h).trim().toLowerCase() === day.toLowerCase());
+      const ids = (await sheetGet(`${q}!A:A`)).map(r => String(r[0]||'').trim());
+      const here = UI.draft.rows.filter(r => r.status==='pending' && ids.includes(r.id)); if (!here.length) continue;
+      if (col < 0) { here.forEach(r => { r.status = 'err'; r.note = `${day} isn't a column in ${tab} yet`; }); continue; }
+      const vals = await sheetGet(`${q}!${colL(col)}:${colL(col)}`);
+      here.forEach(r => { const row = ids.indexOf(r.id); r.tab = tab; r.cell = `${q}!${colL(col)}${row+1}`; r.current = String((vals[row]||[])[0]||'').trim();
+        r.status = !r.current ? 'ready' : r.current.toLowerCase().startsWith(S().draftName.trim().toLowerCase()) ? 'mine' : 'taken'; seen++; });
+      if (seen >= want.length) break;
+    }
+    UI.draft.rows.forEach(r => { if (r.status==='pending') { r.status = 'notfound'; r.note = 'ID not found in the sheet'; } });
+    UI.draft.busy = '';
+  } catch(e){ UI.draft.busy = ''; UI.draft.error = draftError(e); }
+  render();
+}
+async function draftWrite(){
+  const d = UI.draft; if (!d) return; const ready = d.rows.filter(r=>r.status==='ready'); if (!ready.length) return;
+  let i = 0; d.busy = `Drafting 0 of ${ready.length}…`; render();
+  for (const r of ready){
+    try { await sheetSet(r.cell, d.value); r.status = 'done'; (DB.drafts[r.s.key] ||= []).push({day:d.day, value:d.value, at:Date.now()}); }
+    catch(e){ r.status = 'err'; r.note = draftError(e); }
+    d.busy = `Drafting ${++i} of ${ready.length}…`; render();
+  }
+  d.busy = ''; save(); render(); toast(`Drafted ${ready.filter(r=>r.status==='done').length} for ${d.day}`);
+}
+function draftError(e){ const c = e && (e.code || e.name) || ''; return /authz|denied|permission|consent/i.test(c+String(e && e.message)) ? 'Google Sheets access was declined or isn’t connected' : (e && e.message) || 'Something went wrong talking to Google Sheets'; }
+const draftedTag = key => { const d = (DB.drafts[key]||[]).slice(-1)[0]; return d ? `<span class="drafted" data-tip="Drafted for Power Hour: ${esc(d.value)}">PH ${esc(d.day.replace(/^\w+, /,''))}</span>` : ''; };
+function draftPanel(m){
+  const days = draftDays(), day = UI.draftDay || defaultDraftDay(), dl = draftDeadline(day), late = dl && Date.now() > dl, d = UI.draft, cand = draftCandidates(m);
+  const ok = !!MCP, named = !!S().draftName.trim();
+  const counts = d ? d.rows.reduce((o,r)=>(o[r.status]=(o[r.status]||0)+1,o),{}) : {};
+  const label = {ready:'Ready', done:'Drafted ✓', mine:'Already yours', taken:'Drafted by someone else', notfound:'Not in sheet', noid:'No student ID', err:'Problem', pending:'Checking…'};
+  return `<section class="draftbox"><h2>⚡ Draft in the Tutorials sheet <span class="minor" style="font:600 12px var(--sans);text-transform:none">${cand.length} checked below</span></h2>
+    <div class="row3">
+      <label class="field">Day<select id="draftDay">${days.map(x=>{ const l=dayLabel(x); return `<option ${l===day?'selected':''}>${esc(l)}${x.getDay()===S().priorityDay?' (Soc. St. priority)':''}</option>`; }).join('')}</select></label>
+      <label class="field">Block<select id="draftBlock">${['A Block','B Block','Advisory'].map(b=>`<option ${b===UI.draftBlock?'selected':''}>${b}</option>`).join('')}</select></label>
+      <label class="field">Your dropdown name<input id="draftName" value="${esc(S().draftName)}" placeholder="Last, First Room"></label>
+    </div>
+    <p class="minor" style="margin:0">Writes <b style="color:#fff">${esc(draftValue())}</b> on ${esc(day)}. ${dl?`Deadline: ${dl.toLocaleString(undefined,{weekday:'short',hour:'numeric',minute:'2-digit'})}${late?' — <b style="color:#ffc15c">past the 6 pm deadline, students may not be notified</b>':''}.`:''} A Block 12:20–12:50 · B Block 12:50–1:20 · Advisory 12:20–12:50.</p>
+    <div class="actions" style="margin-top:12px">
+      ${ok ? `<button class="btn" data-act="draft-check" ${!named||!cand.length||(d&&d.busy)?'disabled':''}>Check sheet</button>
+        <button class="btn pri" data-act="draft-write" ${!d||d.busy||!counts.ready||d.day!==day||d.value!==draftValue()?'disabled':''}>Draft ${counts.ready||0} student${counts.ready===1?'':'s'}</button>`
+        : `<span class="minor">Direct drafting works when this dashboard is open as your claude.ai artifact with Google Sheets connected. Until then, copy the list and draft by Student ID.</span>`}
+      <button class="btn" data-act="copy-draft">Copy draft list</button>
+      ${d&&d.busy?`<span class="minor">${esc(d.busy)}</span>`:''}${d&&d.error?`<span class="minor" style="color:#ffc15c">${esc(d.error)}</span>`:''}
+    </div>
+    ${d && d.rows.length ? `<div class="dprev"><table class="t"><thead><tr><th>Student</th><th>ID</th><th>Tab</th><th>Now in sheet</th><th>Status</th></tr></thead><tbody>${d.rows.map(r=>`<tr><td><b>${esc(r.s.name)}</b> <span class="minor">${esc(r.cls)} · ${p0(r.avg)}</span></td><td class="num">${esc(r.id||'—')}</td><td>${esc(r.tab||'—')}</td><td class="minor">${esc(r.current||'')}</td><td><span class="dstat ${r.status}" ${r.note?`data-tip="${esc(r.note)}"`:''}>${label[r.status]}</span></td></tr>`).join('')}</tbody></table></div>` : ''}
+  </section>`;
+}
+
 /* ---------- derived lists ---------- */
 function retestRows(m){
   const cap = S().retestCap, out = [], seen = new Set();
   m.studs.forEach(s => s.cs.forEach(c => c.pts.forEach(p => {
     const k = s.key + '|' + p.a.id;
-    if (!p.m && p.p < cap && isTest(p.a.name) && !seen.has(k)){ seen.add(k); out.push({s, cls:c.cls, a:p.a, p:p.p}); }
+    if (!p.m && p.p < cap && isTest(p.a.name) && !seen.has(k)){ seen.add(k); out.push({s, cls:c.cls, a:p.a, p:p.p, k, done:!!DB.retestDone[k]}); }
   })));
   return out;
 }
@@ -790,7 +922,7 @@ const svg = k => `<svg viewBox="0 0 20 20" aria-hidden="true">${ICONS[k]}</svg>`
 
 /* ---------- shell ---------- */
 function renderSide(m){
-  const ph = powerHour(m).reduce((t,g)=>t+g.rows.length,0), rt = retestRows(m).length, mb = m.studs.reduce((t,s)=>t+s.missing.length,0);
+  const ph = powerHour(m).reduce((t,g)=>t+g.rows.length,0), rt = retestRows(m).filter(r=>!r.done).length, mb = m.studs.reduce((t,s)=>t+s.missing.length,0);
   const apLow = m.studs.reduce((t,s)=>t+s.cs.filter(c=>c.proj && c.proj.score<=2).length,0);
   const nav = (id, label, icon, ct, hot) => `<button class="nav" data-go="${id}" ${UI.view===id?'aria-current="page"':''}>${svg(icon)}${label}${ct?`<span class="ct${hot?' hot':''}">${ct}</span>`:''}</button>`;
   $('#side').innerHTML = `<div class="brand"><span class="mark">PC</span><div><b>${esc(S().title)}</b><small>${esc(S().school)}</small></div></div>
@@ -852,7 +984,7 @@ function viewOverview(m){
   const sorters = { need:(a,b)=>b.need-a.need, name:(a,b)=>a.name.localeCompare(b.name), low:(a,b)=>(a.worst?.avg??999)-(b.worst?.avg??999), high:(a,b)=>(b.avg??-1)-(a.avg??-1), missing:(a,b)=>b.missing.length-a.missing.length };
   list.sort(sorters[UI.sort] || sorters.need);
   const grab = m.studs.filter(s=>s.reasons.length).sort((a,b)=>b.need-a.need).slice(0,8);
-  const rt = retestRows(m), ph = powerHour(m), mb = missingBoard(m), profiles = hasProfiles(), unpaid = unpaidList(m);
+  const rt = retestRows(m).filter(r=>!r.done), ph = powerHour(m), mb = missingBoard(m), profiles = hasProfiles(), unpaid = unpaidList(m);
   const cards = OVERVIEW_CARDS.filter(c=>!DB.hidden.includes(c.id)).map(c => {
     let html; try { html = c.render(m); } catch(e){ console.error(c.id, e); html = `<div class="empty">This card hit an error: ${esc(e.message)}</div>`; }
     return `<section class="card ${c.size}"><div class="ch"><h2>${esc(c.title)}</h2>${c.sub?`<span class="sub">${esc(c.sub)}</span>`:''}</div><div class="cb">${html}</div></section>`;
@@ -865,7 +997,7 @@ function viewOverview(m){
       <p>${m.studs.length} students${avg!=null?` averaging <b>${p0(avg)}</b>`:''}${m.counts.help?` · <b>${m.counts.help}</b> need help`:''}${rt.length?` · <b>${rt.length}</b> retests open`:''}</p>
       <div class="syncs">${syncs.map(({p,i})=>{ const stale=(Date.now()-i.at)>S().staleDays*864e5; return `<span class="sync${stale?' stale':''}" data-tip="${esc(p.id)}: last import ${new Date(i.at).toLocaleString()}"><i style="background:${p.color}"></i>${esc(p.id)} · ${ago(i.at)}</span>`; }).join('')}</div>
     </div>
-    <div class="actions"><button class="btn" data-act="export">Export CSV</button><button class="btn pri" data-go="import">＋ Update data</button></div></div>
+    <div class="actions"><button class="btn" data-act="copy-summary">Copy weekly summary</button><button class="btn" data-act="export">Export CSV</button><button class="btn pri" data-go="import">＋ Update data</button></div></div>
     <div class="tiles${profiles?' four':''}">${tile('ok','t-ok')}${tile('watch','t-watch')}${tile('help','t-help')}${profiles?tile('unpaid','t-ap'):''}</div>
   </section>
   <div class="grid">
@@ -878,7 +1010,7 @@ function viewOverview(m){
     <div class="w4" style="display:flex;flex-direction:column;gap:16px;min-width:0">
       <section class="card"><div class="ch"><h2>Grab these kids</h2><span class="count help">${grab.length}</span><span class="sp"></span><button class="link" data-act="copy-grab">Copy</button></div>
         <div class="cb">${grab.length ? `<div class="grab">${grab.map((s,i)=>`<button class="gi" data-student="${esc(s.key)}"><span class="rank">${i+1}</span>
-          <span><span class="who">${avatar(s.key,s.name)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.worst?.cls || s.classes.join(', '))}</small></span></span>${tagsHtml(s.reasons)}</span>
+          <span><span class="who">${avatar(s.key,s.name)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.worst?.cls || s.classes.join(', '))}</small></span></span>${tagsHtml(s.reasons)}${contactLine(s.key)}</span>
           <span class="big ${s.worst&&s.worst.avg<S().atRisk?'help':''}">${p0(s.worst?.avg)}</span></button>`).join('')}</div>` : `<div class="empty">✓ Nobody flagged right now.</div>`}</div></section>
       <section class="card"><div class="ch"><h2>Action lists</h2></div><div class="cb"><div class="alinks">
         <button class="alink" data-go="retests"><span class="n">${rt.length}</span><span><b>Retests</b><small>${plural(new Set(rt.map(r=>r.s.key)).size,'student')} under ${S().retestCap}</small></span><span class="go">→</span></button>
@@ -896,7 +1028,7 @@ function viewOverview(m){
 function rosterRow(s){
   const multi = s.cs.filter(c=>c.avg!=null).length > 1;
   return `<button class="rrow" data-student="${esc(s.key)}">
-    <span class="who">${avatar(s.key,s.name)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · ')||'No class')}${apBadge(s.key)}</small></span></span>
+    <span class="who">${avatar(s.key,s.name)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · ')||'No class')}${apBadge(s.key)}${draftedTag(s.key)}</small></span></span>
     <span><span class="big ${s.worst&&s.worst.avg<S().atRisk?'help':''}">${p0(multi ? s.worst?.avg : s.avg)}</span>${multi?`<span class="minor" style="display:block">${s.cs.filter(c=>c.avg!=null).map(c=>`${esc(c.course)} ${p0(c.avg)}`).join(' · ')}</span>`:`<span class="minor" style="display:block">${letter(s.avg)}</span>`}</span>
     <span class="num" style="font-weight:800;${s.missing.length?'color:var(--help-ink)':''}">${s.missing.length||'—'}</span>
     <span>${s.reasons.length?tagsHtml(s.reasons):'<span class="minor">—</span>'}</span>
@@ -915,7 +1047,8 @@ function welcome(){
 }
 
 function viewRetests(m){
-  const rows = retestRows(m).filter(r=>matchQ(r.s)), cap = S().retestCap;
+  const allRows = retestRows(m).filter(r=>matchQ(r.s)), cap = S().retestCap, nDone = allRows.filter(r=>r.done).length;
+  const rows = UI.showDone ? allRows : allRows.filter(r=>!r.done);
   const studs = [...new Set(rows.map(r=>r.s.key))];
   const gain = mean(rows.map(r=>cap-r.p));
   const tests = Object.values(rows.reduce((g,r)=>{ (g[r.a.id] ||= {a:r.a, rows:[]}).rows.push(r); return g; }, {})).sort((a,b)=>b.rows.length-a.rows.length);
@@ -925,21 +1058,21 @@ function viewRetests(m){
     const by = {}; rows.forEach(r => (by[r.s.key] ||= {s:r.s, list:[]}).list.push(r));
     body = `<div class="rgrid">${Object.values(by).sort((a,b)=>b.list.length-a.list.length || a.s.name.localeCompare(b.s.name)).map(({s,list})=>`<div class="rcard">
       <div class="who" data-student="${esc(s.key)}">${avatar(s.key,s.name)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · '))}</small></span><span class="count" style="margin-left:auto">${list.length}</span></div>
-      <div class="tlist">${list.sort((a,b)=>a.p-b.p).map(r=>`<div class="trow"><span><span class="dot" style="background:${srcColor(r.a.source)}"></span>${esc(bare(r.a.name))}</span><span class="sc">${p0(r.p)}</span><span class="gain" data-tip="Up to ${cap} on retest">+${Math.round(cap-r.p)}</span></div>`).join('')}</div></div>`).join('')}</div>`;
+      <div class="tlist">${list.sort((a,b)=>a.p-b.p).map(r=>`<div class="trow ck${r.done?' done':''}"><input type="checkbox" data-rdone="${esc(r.k)}" ${r.done?'checked':''} aria-label="Retest done: ${esc(bare(r.a.name))}" data-tip="Tick when the retest is done"><span><span class="dot" style="background:${srcColor(r.a.source)}"></span>${esc(bare(r.a.name))}</span><span class="sc">${p0(r.p)}</span><span class="gain" data-tip="Up to ${cap} on retest">+${Math.round(cap-r.p)}</span></div>`).join('')}</div></div>`).join('')}</div>`;
   } else {
     body = `<div class="card"><div class="cb" style="padding-top:12px;overflow:auto"><table class="t"><thead><tr><th>Test</th><th>Platform</th><th class="r">Under ${cap}</th><th>Students</th></tr></thead><tbody>
       ${tests.map(t=>`<tr><td><b>${esc(bare(t.a.name))}</b><div class="minor">${esc(t.a.name.includes('·')?t.a.name.split('·')[0].trim():'')}</div></td><td><span class="dot" style="background:${srcColor(t.a.source)}"></span>${esc(t.a.source)}</td><td class="r"><b>${t.rows.length}</b></td>
         <td><div class="namechips">${t.rows.sort((a,b)=>a.p-b.p).map(r=>`<button class="nchip" data-student="${esc(r.s.key)}">${esc(r.s.name)}<b>${p0(r.p)}</b></button>`).join('')}</div></td></tr>`).join('')}</tbody></table></div></div>`;
   }
   return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())}</div><h1>Retests</h1>
-      <p>Tests and progress checks scored under ${cap}. Frisco caps retests at ${cap}, so anyone below it has points to gain.</p></div>
+      <p>Tests and progress checks scored under ${cap}. Frisco caps retests at ${cap}, so anyone below it has points to gain. Tick a test when the retest is done.</p></div>
     <div class="actions"><div class="tabs" role="group" aria-label="Group by"><button aria-pressed="${UI.retestBy==='student'}" data-retestby="student">By student</button><button aria-pressed="${UI.retestBy==='test'}" data-retestby="test">By test</button></div>
-    <button class="btn" data-act="copy-retests">Copy list</button><button class="btn blk" data-act="print-retests">${PRINT}</button></div></div>
+    ${nDone?`<button class="btn sm" data-act="toggle-done">${UI.showDone?'Hide':'Show'} ${nDone} done</button>`:''}<button class="btn" data-act="copy-retests">Copy list</button><button class="btn blk" data-act="print-retests">${PRINT}</button></div></div>
     <div class="strip"><div class="stat accent"><b>${rows.length}</b><span>Retests open</span></div><div class="stat"><b>${studs.length}</b><span>Students</span></div><div class="stat"><b>${tests.length}</b><span>Tests involved</span></div><div class="stat"><b>${gain==null?'—':'+'+Math.round(gain)}</b><span>Avg points to gain</span></div></div>
     ${body}`;
 }
 function retestText(m){
-  const rows = retestRows(m), cap = S().retestCap, by = {};
+  const rows = retestRows(m).filter(r=>!r.done), cap = S().retestCap, by = {};
   rows.forEach(r => (by[r.s.key] ||= {s:r.s, list:[]}).list.push(r));
   return `Retests (under ${cap}) — ${scopeLabel()} — ${today()}\n\n` + Object.values(by).sort((a,b)=>a.s.name.localeCompare(b.s.name))
     .map(({s,list}) => `${s.name} (${s.classes.join(', ')})\n` + list.map(r=>`  • ${bare(r.a.name)}: ${Math.round(r.p)}%`).join('\n')).join('\n\n');
@@ -951,10 +1084,11 @@ function viewPower(m){
   return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())} · Draft</div><h1>Power Hour</h1>
       <p>Everyone under ${S().atRisk}% in any class, grouped by period. Untick anyone you don't want to send, then copy or print.</p></div>
     <div class="actions"><button class="btn" data-act="copy-power">Copy list</button><button class="btn blk" data-act="print-power">${PRINT}</button></div></div>
+    ${draftPanel(m)}
     <div class="strip"><div class="stat accent"><b>${inc}</b><span>On the list</span></div><div class="stat"><b>${groups.length}</b><span>Periods</span></div><div class="stat"><b>${n-inc}</b><span>Left off</span></div><div class="stat"><b>${p0(mean(groups.flatMap(g=>g.rows.map(r=>r.c.avg))))}</b><span>Avg of listed</span></div></div>
     ${groups.length ? `<div class="ph-grid">${groups.map(g=>`<section class="ph"><div class="ph-h"><h3>${esc(g.cls)}</h3><span class="count">${g.rows.filter(r=>!UI.phOut.has(r.s.key+'|'+g.cls)).length}</span></div>
       ${g.rows.map(r=>{ const k=r.s.key+'|'+g.cls, out=UI.phOut.has(k); return `<div class="ph-row${out?' out':''}"><input type="checkbox" data-ph="${esc(k)}" ${out?'':'checked'} aria-label="Include ${esc(r.s.name)}">
-        <span class="who" data-student="${esc(r.s.key)}" style="cursor:pointer">${avatar(r.s.key,r.s.name,30)}<span style="min-width:0">${nameLine(r.s)}<small>${r.c.missing.length?plural(r.c.missing.length,'missing assignment'):'No missing work'}</small></span></span>
+        <span class="who" data-student="${esc(r.s.key)}" style="cursor:pointer">${avatar(r.s.key,r.s.name,30)}<span style="min-width:0">${nameLine(r.s)}<small>${r.c.missing.length?plural(r.c.missing.length,'missing assignment'):'No missing work'}${draftedTag(r.s.key)}</small></span></span>
         <span class="big help">${p0(r.c.avg)}</span></div>`; }).join('')}</section>`).join('')}</div>`
       : `<div class="card"><div class="empty">✓ No one is under ${S().atRisk}% in ${esc(scopeLabel())}.</div></div>`}`;
 }
@@ -1107,7 +1241,7 @@ function viewImport(){
         <p style="margin:0 0 10px;color:var(--ink2);font-size:13px">Paste a CSV with this header into the box above. Rows are matched on Student ID.</p>
         <div class="prompt">Student,Student ID,Class,8th STAAR %,8th STAAR Level,AP Exam
 "Reyes, Ava",410200,APHG 3B,82,Meets,Unpaid</div>
-        <p class="minor" style="margin:8px 0 0">STAAR Level: Masters, Meets, Approaches, Did Not Meet. AP Exam: Paid, Unpaid, Opted out.</p>
+        <p class="minor" style="margin:8px 0 0">STAAR Level: Masters, Meets, Approaches, Did Not Meet. AP Exam: Paid, Unpaid, Opted out. Optional last column <b>Accommodations</b> (e.g. "504; extended time") shows in the student panel only.</p>
       </div></section>
       <section class="card w6"><div class="ch"><h2>Or drop exported files</h2></div><div class="cb">
         <div class="drop" id="drop"><h3>Drop CSV files here</h3><button class="btn" data-act="pick">Choose files…</button>
@@ -1161,6 +1295,17 @@ const OVERVIEW_CARDS = [
           <div class="rt"><span class="big" style="font-size:18px">${p0(av)}</span>${!sy?'<span class="pill none">· None</span>':stale?`<span class="pill watch">! ${Math.floor((Date.now()-sy.at)/864e5)}d old</span>`:'<span class="pill ok">✓ Fresh</span>'}</div></div>`;
       }).join('') + `<div style="margin-top:10px;text-align:right"><button class="link" data-go="import">Update data →</button></div>`;
   }},
+  { id:'periods', title:'Periods side by side', sub:'Average, status mix and missing work', size:'w8', render(m){
+      const rows = periodRows(m); if (!rows.length) return '<div class="empty">No classes yet.</div>';
+      return `<table class="t"><thead><tr><th>Class</th><th class="r">Students</th><th class="r">Average</th><th>On track / Watch / Help</th><th class="r">Missing</th></tr></thead><tbody>${rows.map(r=>`<tr><td><button class="link" style="font-size:13px;color:var(--ink)" data-period="${esc(r.cls)}">${esc(r.cls)}</button></td><td class="r num">${r.n}</td><td class="r"><span class="big ${r.avg!=null&&r.avg<S().atRisk?'help':''}" style="font-size:16px">${p0(r.avg)}</span></td>
+        <td><div style="display:flex;align-items:center;gap:8px"><span class="pbar" style="flex:1">${[['ok','var(--ok)'],['watch','var(--watch)'],['help','var(--help)']].map(([k,c])=>r[k]?`<i style="flex:${r[k]};background:${c}" data-tip="${STATUS[k].label}: ${r[k]}"></i>`:'').join('')}</span><span class="minor num" style="white-space:nowrap">${r.ok} / ${r.watch} / ${r.help}</span></div></td><td class="r num">${r.missing||'—'}</td></tr>`).join('')}</tbody></table>`;
+  }},
+  { id:'movers', title:'Biggest changes', sub:'Since your previous update', size:'w4', render(m){
+      if (!DB.prev) return '<div class="empty">Changes show up after your next import.</div>';
+      const rows = m.studs.map(s=>({s, was:DB.prev.avgs[s.key]})).filter(r=>r.was!=null && r.s.avg!=null).map(r=>({...r, d:r.s.avg-r.was})).filter(r=>Math.abs(r.d)>=1).sort((a,b)=>Math.abs(b.d)-Math.abs(a.d)).slice(0,7);
+      if (!rows.length) return `<div class="empty">No one moved more than a point since ${ago(DB.prev.at)}.</div>`;
+      return `<div class="grab">${rows.map(r=>`<button class="gi" data-student="${esc(r.s.key)}" style="grid-template-columns:1fr auto"><span class="who">${avatar(r.s.key,r.s.name,30)}<span style="min-width:0">${nameLine(r.s)}<small>${p0(r.was)} → ${p0(r.s.avg)}</small></span></span><span class="delta ${r.d>0?'up':'down'}" style="font-size:15px">${r.d>0?'▲ +':'▼ '}${fmt(r.d,1)}</span></button>`).join('')}</div>`;
+  }},
   { id:'staar', title:'8th STAAR vs. now', sub:'Current average by STAAR level', size:'w4', render(m){
       if (!hasProfiles()) return '<div class="empty">Import a Profile CSV to compare.</div>';
       return STAAR.map(l => { const g = m.studs.filter(s=>s.profile?.staarLevel===l.id), av = mean(g.map(s=>s.avg).filter(v=>v!=null)), help = g.filter(s=>s.status==='help').length;
@@ -1194,7 +1339,15 @@ function openStudent(key){
       ${p ? `<div class="sec"><h3>Profile <span class="minor" style="font:600 11px var(--sans);text-transform:none;letter-spacing:0">not counted in averages</span></h3><div class="profile">
         <div><span>8th STAAR level</span><b>${lvl?`<span class="staar s-${lvl.id}" style="margin:0;font-size:12px;padding:5px 8px">${esc(lvl.label)}</span>`:'—'}</b></div>
         <div><span>8th STAAR score</span><b>${p.staarPct!=null?Math.round(p.staarPct)+'%':'—'}</b></div>
-        <div><span>AP exam</span><b style="${p.apExam==='unpaid'?'color:var(--help-ink)':''}">${p.apExam?(p.apExam==='unpaid'?'$ ':'')+AP_EXAM[p.apExam]:'—'}</b></div></div></div>` : ''}
+        <div><span>AP exam</span><b style="${p.apExam==='unpaid'?'color:var(--help-ink)':''}">${p.apExam?(p.apExam==='unpaid'?'$ ':'')+AP_EXAM[p.apExam]:'—'}</b></div></div>
+        ${p.acc?`<div style="margin-top:8px">${p.acc.split(/[;,]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="acc">${esc(x)}</span>`).join('')}</div>`:''}</div>` : ''}
+      <div class="sec"><h3>Parent contact</h3><div class="panel">
+        <div class="clog">${CONTACT_TYPES.map(t=>`<button class="btn sm" data-contact="${esc(key)}|${t}">＋ ${t}</button>`).join('')}<span style="flex:1"></span><button class="btn sm pri" data-email="${esc(key)}">Draft parent email</button></div>
+        <div class="notes" style="margin-top:6px">${(DB.contacts[key]||[]).slice().reverse().slice(0,6).map((c,i,arr)=>`<div class="n">${esc(c.type)}${c.note?` — ${esc(c.note)}`:''}<small>${new Date(c.at).toLocaleDateString()} · ${ago(c.at)} · <button class="link" data-delcontact="${(DB.contacts[key].length-1-i)}">delete</button></small></div>`).join('') || '<div class="minor" style="margin-top:8px">No contacts logged yet. Tap a button to log one with today\'s date (add a note first if you like).</div>'}</div>
+        ${(DB.drafts[key]||[]).length?`<div class="minor" style="margin-top:8px">Power Hour drafts: ${(DB.drafts[key]).slice(-5).reverse().map(d=>esc(d.day)).join(' · ')}</div>`:''}
+        <div class="minor" style="margin-top:6px">Remember to document parent contact in eSchool too.</div>
+        <label class="sr" for="contactNote">Contact note</label><input class="in" id="contactNote" placeholder="Optional note for the contact (e.g. left voicemail)" style="margin-top:8px">
+      </div></div>
       ${s.reasons.length?`<div class="sec"><h3>Why they're flagged</h3>${tagsHtml(s.reasons)}<div class="minor" style="margin-top:6px">${s.reasons.map(r=>esc(r.tip)).join(' · ')}</div></div>`:''}
       <div class="sec"><h3>Trend</h3><div class="panel">${spark(s.pts)}</div></div>
       <div class="sec"><h3>Every platform, side by side</h3>
@@ -1292,7 +1445,7 @@ function importCanvas(rows, file, stay, year){
 function isProfile(rows){ const h = rows[0].map(x=>x.trim().toLowerCase()); return h.some(x=>/staar/.test(x)) || h.some(x=>/^ap exam/.test(x)); }
 function importProfile(rows, file, stay){
   const h = rows[0].map(x=>x.trim().toLowerCase()), col = re => h.findIndex(x=>re.test(x));
-  const nameI = col(/^student( name)?$|^name$/), idI = col(/student id|^id$/), clsI = col(/^class$/), pctI = col(/staar.*(%|pct|percent|score)/), lvlI = col(/staar.*level/), apI = col(/^ap exam/);
+  const nameI = col(/^student( name)?$|^name$/), idI = col(/student id|^id$/), clsI = col(/^class$/), pctI = col(/staar.*(%|pct|percent|score)/), lvlI = col(/staar.*level/), apI = col(/^ap exam/), accI = col(/accommodation|^504|^iep|^ell?$|^eb$|^sped/);
   let n = 0, created = 0;
   rows.slice(1).forEach(r => {
     const id = idI>=0 ? (r[idI]||'').trim() : '', name = nameI>=0 ? r[nameI] : '';
@@ -1305,6 +1458,7 @@ function importProfile(rows, file, stay){
       staarPct: isNaN(pv) ? (DB.profiles[key]?.staarPct ?? null) : pv,
       staarLevel: lvlI>=0 && normStaar(r[lvlI]) ? normStaar(r[lvlI]) : (DB.profiles[key]?.staarLevel || ''),
       apExam: apI>=0 && normAp(r[apI]) ? normAp(r[apI]) : (DB.profiles[key]?.apExam || ''),
+      acc: accI>=0 ? String(r[accI]||'').trim() : (DB.profiles[key]?.acc || ''),
     });
     n++;
   });
@@ -1426,9 +1580,9 @@ document.addEventListener('drop', e=>{ e.preventDefault(); if (!e.target.closest
 const csvCell = v => { v = String(v ?? ''); return /[",\n]/.test(v) ? `"${v.replace(/"/g,'""')}"` : v; };
 function exportCSV(){
   const m = buildModel(), assigns = m.assigns;
-  const head = ['Student','Student ID','Classes','Average','Status','Missing','Flags','8th STAAR %','8th STAAR Level','AP Exam', ...assigns.map(a=>`${a.name} [${a.source}]`)];
+  const head = ['Student','Student ID','Classes','Average','Status','Missing','Flags','8th STAAR %','8th STAAR Level','AP Exam','Last contact', ...assigns.map(a=>`${a.name} [${a.source}]`)];
   const lines = m.studs.map(s=>{ const sc=DB.scores[s.key]||{}, p=s.profile||{};
-    return [s.name, s.ids.join('; '), s.classes.join('; '), fmt(s.avg), STATUS[s.status].label, s.missing.length, s.reasons.map(r=>r.label).join('; '), p.staarPct??'', staarOf(s.key)?.label||'', AP_EXAM[p.apExam]||'',
+    return [s.name, s.ids.join('; '), s.classes.join('; '), fmt(s.avg), STATUS[s.status].label, s.missing.length, s.reasons.map(r=>r.label).join('; '), p.staarPct??'', staarOf(s.key)?.label||'', AP_EXAM[p.apExam]||'', (c => c ? `${new Date(c.at).toLocaleDateString()} ${c.type}` : '')(lastContact(s.key)),
       ...assigns.map(a=>{ const v=sc[a.id]; return !v?'':v.x?'EX':v.m?'M':fmt(v.p); })]; });
   showText('Export CSV', [head,...lines].map(r=>r.map(csvCell).join(',')).join('\n'), `dashboard-${scopeLabel().replace(/[^\w]+/g,'-')}-${new Date().toISOString().slice(0,10)}.csv`, 'text/csv');
 }
@@ -1488,19 +1642,22 @@ function loadSample(){
     const c = i < 22 ? 'APHG' : 'AP World', key = upsertStudent(`${fn} ${last[(i*5+3)%last.length]}`, String(390100+i), `${c} ${periods[c][i%periods[c].length]}`, prevY), sc = DB.scores[key] = {}, base = 58 + rnd()*40;
     plan[c].forEach(([s,n]) => { const id = `${s}:${prevY}:${c} · ${n}`.toLowerCase().replace(/^([^:]+):([^:]+):/, (mm,a,b)=>`${s}:${prevY}:`); const u = rnd(); if (u < .05) { sc[id] = {p:0, m:true}; return; } let p = base + (rnd()-.5)*22 + (typeOf(n)==='writing' ? -6 : 2); sc[id] = {p: Math.max(25, Math.min(100, p))}; });
   });
+  const keys = Object.keys(DB.students).filter(k=>DB.students[k].classes.length);
+  keys.slice(0,40).forEach((k,i) => { if (i%4===1) DB.contacts[k] = [{type: CONTACT_TYPES[i%4], note:'', at: Date.now() - (i%9+1)*864e5}]; if (i%11===3 && DB.profiles[k]) DB.profiles[k].acc = i%2 ? '504; extended time' : 'EB'; });
   const H = 36e5;
   DB.imports.push({file:'Pasted Gradebook data', source:'Gradebook', year:prevY, at:Date.now()-60*24*H, students:36, assignments:22},
     {file:'Pasted Gradebook data', source:'Gradebook', at:Date.now()-9*24*H, students:52, assignments:10},
     {file:'Pasted profile data', source:'Profile', at:Date.now()-5*24*H, students:48, assignments:0},
     {file:'Pasted AP Classroom data', source:'AP Classroom', at:Date.now()-2*24*H, students:52, assignments:10},
     {file:'Pasted Canvas data', source:'Canvas', at:Date.now()-3*H, students:52, assignments:11});
+  const snap = snapshot(); Object.keys(snap.avgs).forEach(k => snap.avgs[k] += (rnd()-.5)*12); snap.at = Date.now()-7*864e5; DB.prev = snap;
   save(); UI.course='all'; UI.period='all'; UI.staar='all'; UI.status=null; render(); toast('Loaded made-up sample data');
 }
 
 /* ---------- events ---------- */
 function go(v){ UI.view = v; try { if (location.hash.slice(1)!==v) location.hash = v; } catch(_){} $('#side').classList.remove('open'); closeLayer(); render(); window.scrollTo(0,0); }
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-close]');
+  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-close]');
   if (!t) { if (!e.target.closest('aside,.menu-btn')) $('#side').classList.remove('open'); return; }
   if (t.dataset.close !== undefined){ if (e.target === t || t.tagName==='BUTTON'){ closeLayer(); nextFile(); } return; }
   if (t.dataset.go) return go(t.dataset.go);
@@ -1516,14 +1673,22 @@ document.addEventListener('click', e => {
   if (t.dataset.rename){ const a=DB.assignments[t.dataset.rename]; return askText('Rename assignment', a.name, v => { a.name=v; save(); render(); }); }
   if (t.dataset.del){ const a=DB.assignments[t.dataset.del]; return askConfirm('Delete assignment?', `“${esc(a.name)}” and all its scores will be removed.`, 'Delete', () => { delete DB.assignments[a.id]; Object.values(DB.scores).forEach(s=>delete s[a.id]); save(); render(); }); }
   if (t.dataset.addnote){ const k=t.dataset.addnote, txt=$('#noteText').value.trim(); if (!txt) return; (DB.notes[k] ||= []).push({text:txt, at:Date.now()}); save(); return openStudent(k); }
+  if (t.dataset.contact){ const [k, type] = t.dataset.contact.split('|'), note = ($('#contactNote')?.value||'').trim(); (DB.contacts[k] ||= []).push({type, note, at:Date.now()}); save(); toast(`${type} logged`); render(); return openStudent(k); }
+  if (t.dataset.delcontact){ const k=$('#layer').dataset.student; DB.contacts[k].splice(+t.dataset.delcontact,1); save(); render(); return openStudent(k); }
+  if (t.dataset.email){ return showText(`Parent email — ${DB.students[t.dataset.email].name}`, parentEmail(t.dataset.email)); }
   if (t.dataset.delnote){ const k=$('#layer').dataset.student; DB.notes[k].splice(+t.dataset.delnote,1); save(); return openStudent(k); }
   const act = t.dataset.act, m = () => buildModel();
+  if (act==='draft-check') draftCheck();
+  if (act==='draft-write') askConfirm('Draft these students?', `This writes <b>${esc(UI.draft.value)}</b> into the Tutorials sheet for ${UI.draft.rows.filter(r=>r.status==='ready').length} students on <b>${esc(UI.draft.day)}</b>. Students and parents get the school's notification email.`, 'Draft them', draftWrite, false);
+  if (act==='copy-draft'){ const day = UI.draftDay || defaultDraftDay(); copyText(`Power Hour draft — ${day} — ${draftValue()}\n\n` + draftCandidates(m()).map(x=>`${x.s.ids[0]||'(no ID)'}\t${x.s.name}\t${x.cls}\t${Math.round(x.avg)}%`).join('\n'), 'Draft list'); }
+  if (act==='copy-summary') copyText(weeklySummary(m()), 'Weekly summary');
+  if (act==='toggle-done'){ UI.showDone = !UI.showDone; render(); }
   if (act==='show-all'){ UI.showAll = true; render(); }
   if (act==='menu') $('#side').classList.toggle('open');
   if (act==='pick') $('#fileIn').click();
   if (act==='paste') importPaste();
   if (act==='copy-prompt') copyText(CHROME_PROMPT, 'Prompt');
-  if (act==='copy-grab'){ const g = m().studs.filter(s=>s.reasons.length).sort((a,b)=>b.need-a.need).slice(0,8); copyText(`Grab these kids — ${scopeLabel()} — ${today()}\n\n` + g.map((s,i)=>`${i+1}. ${s.name} (${s.worst?.cls||''}, ${p0(s.worst?.avg)}): ${s.reasons.map(r=>r.label).join(', ')}`).join('\n'), 'List'); }
+  if (act==='copy-grab'){ const g = m().studs.filter(s=>s.reasons.length).sort((a,b)=>b.need-a.need).slice(0,8); copyText(`Grab these kids — ${scopeLabel()} — ${today()}\n\n` + g.map((s,i)=>{ const c = lastContact(s.key); return `${i+1}. ${s.name} (${s.worst?.cls||''}, ${p0(s.worst?.avg)}): ${s.reasons.map(r=>r.label).join(', ')} — ${c?`last contact ${ago(c.at)} (${c.type})`:'not contacted yet'}`; }).join('\n'), 'List'); }
   if (act==='copy-unpaid'){ const u = unpaidList(m()); copyText(`AP exam unpaid — ${scopeLabel()} — ${today()}\n\n` + u.map(s=>`• ${s.name} (${s.classes.join(', ')})${s.ids.length?' · ID '+s.ids[0]:''}`).join('\n'), 'Unpaid list'); }
   if (act==='copy-ap'){ const lo = []; m().studs.forEach(s=>s.cs.forEach(c=>{ if (c.proj && c.proj.score<=2) lo.push({s,c}); })); copyText(`AP projection 1–2 — ${scopeLabel()} — ${today()}\n\n` + lo.sort((a,b)=>classSort(a.c.cls,b.c.cls)||a.c.proj.comp-b.c.proj.comp).map(r=>`• ${r.s.name} (${r.c.cls}) — projected ${r.c.proj.score} · MC ${Math.round(r.c.proj.mcPct)}%${r.c.proj.wrPct!=null?` · writing ${Math.round(r.c.proj.wrPct)}%`:''}`).join('\n'), 'AP 1–2 list'); }
   if (act==='print-ap'){ const rows=[]; m().studs.forEach(s=>s.cs.forEach(c=>{ if (c.proj) rows.push({s,c}); })); const g = rows.reduce((o,r)=>{ (o[r.c.cls] ||= []).push(r); return o; }, {});
@@ -1531,7 +1696,7 @@ document.addEventListener('click', e => {
   if (act==='copy-retests') copyText(retestText(m()), 'Retest list');
   if (act==='copy-power') copyText(powerText(m()), 'Power Hour list');
   if (act==='copy-missing') copyText(missingText(m()), 'Missing-work list');
-  if (act==='print-retests'){ const mm=m(), cap=S().retestCap, by={}; retestRows(mm).forEach(r=>(by[r.s.key] ||= {s:r.s, list:[]}).list.push(r));
+  if (act==='print-retests'){ const mm=m(), cap=S().retestCap, by={}; retestRows(mm).filter(r=>!r.done).forEach(r=>(by[r.s.key] ||= {s:r.s, list:[]}).list.push(r));
     printDoc(`Retests under ${cap} — ${scopeLabel()}`, `<table><thead><tr><th>Student</th><th>Class</th><th>Test</th><th class="r">Score</th><th class="r">Done</th></tr></thead><tbody>${Object.values(by).sort((a,b)=>a.s.name.localeCompare(b.s.name)).flatMap(({s,list})=>list.map((r,i)=>`<tr><td>${i?'':`<b>${esc(s.name)}</b>`}</td><td>${i?'':esc(s.classes.join(', '))}</td><td>${esc(bare(r.a.name))}</td><td class="r">${Math.round(r.p)}%</td><td class="r"><span class="box"></span></td></tr>`)).join('')}</tbody></table>`); }
   if (act==='print-power'){ const groups = powerHour(m()); printDoc(`Power Hour — ${scopeLabel()}`, groups.map(g=>{ const rows=g.rows.filter(r=>!UI.phOut.has(r.s.key+'|'+g.cls)); return rows.length?`<section><h2>${esc(g.cls)} · ${rows.length}</h2><table><tbody>${rows.map(r=>`<tr><td><span class="box"></span>${esc(r.s.name)}</td><td class="r"><b>${Math.round(r.c.avg)}%</b></td><td class="r">${r.c.missing.length?r.c.missing.length+' missing':''}</td></tr>`).join('')}</tbody></table></section>`:''; }).join('') || '<p>No one on the list.</p>'); }
   if (act==='print-missing'){ const b = missingBoard(m()); printDoc(`Missing work — ${scopeLabel()}`, b.cols.map(c=>`<section><h2>${esc(c.cls)} · ${c.n}</h2><table><tbody>${c.items.map(i=>`<tr><td style="width:30%"><b>${esc(i.s.name)}</b></td><td>${i.list.map(a=>esc(bare(a.name))).join(' · ')}</td></tr>`).join('')}</tbody></table></section>`).join('') || '<p>Nothing missing.</p>'); }
@@ -1556,8 +1721,12 @@ document.addEventListener('change', e => {
   const t = e.target;
   if (t.id==='sortSel'){ UI.sort = t.value; render(); }
   if (t.id==='cmpStu'){ UI.cmpStudent = t.value; render(); }
+  if (t.id==='draftDay'){ UI.draftDay = t.value.replace(/ \(.*\)$/,''); render(); }
+  if (t.id==='draftBlock'){ UI.draftBlock = t.value; render(); }
+  if (t.id==='draftName'){ DB.settings.draftName = t.value.trim(); save(); render(); }
   if (t.dataset.hide){ DB.assignments[t.dataset.hide].hidden = !t.checked; save(); render(); }
   if (t.dataset.card){ DB.hidden = t.checked ? DB.hidden.filter(x=>x!==t.dataset.card) : [...DB.hidden, t.dataset.card]; save(); }
+  if (t.dataset.rdone){ t.checked ? DB.retestDone[t.dataset.rdone] = Date.now() : delete DB.retestDone[t.dataset.rdone]; save(); render(); }
   if (t.dataset.ph){ t.checked ? UI.phOut.delete(t.dataset.ph) : UI.phOut.add(t.dataset.ph); render(); }
 });
 document.addEventListener('input', e => {
