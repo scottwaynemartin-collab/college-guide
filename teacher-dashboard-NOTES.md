@@ -99,7 +99,18 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
   - Missing work, parent contact log, and conference notes (saved).
   - Prev and Next buttons; the ← and → keys also work.
 - **Import:** the Claude in Chrome prompt, paste box, file drop, school year, **Data check**, import history, and **Undo last import** (one level).
-- **Settings:** rules, which overview cards show, back up, restore, sample data, erase.
+- **Settings:** rules, which overview cards show, back up, restore, sample data, erase, and **T-TESS summary**.
+- **T-TESS summary** (Settings → Open T-TESS summary): one printable page per class with counts only (no student names), a date stamp, and "Evidence from Classroom Dashboard, student data on request." Organized by dimension:
+  - **1.2 Data & Assessment:** data sources in use; reteach topics (units where the class AP Classroom MC average is below the on-track %); retest priority count.
+  - **1.3 Knowledge of Students:** % with a full profile (8th STAAR, TIA BOY and GPA on file); prior AP on file.
+  - **1.4 / 2.4 Activities / Differentiation:** reteach groups (units with 2+ students under the on-track %); Power Hour drafts and attended.
+  - **2.1 / 3.3 Achieving Expectations / Classroom Culture:** % with an Agency goal; check-ins whose date has passed; % of quarter grade goals met.
+  - **2.3 Communication:** parent contacts by type; parent emails drafted.
+  - **2.5 Monitor & Adjust:** average AP Classroom MC change after a Power Hour draft (assignments imported after the first draft vs. before); average retest gain (MC retest vs. the same-unit original); weeks with a data refresh.
+  - **3.1 Routines:** conferences marked "held", per grading period (approximate dates in `CONFIG.gradingPeriods`).
+  - **4.2 Goal Setting (SLO: APHG):** % AP on track now vs. at the first MC test; TIA BOY → EOY growth; last year's AP results (typed in on the page) vs. % projected 3+.
+  - **4.4 School Community:** counselor and co-teacher referrals logged.
+  - **Tracked from the day the page was added:** "Mark conference held", referral buttons, parent-email drafts and assignment arrival dates.
 
 ## Artifact limits (by design)
 The claude.ai artifact frame blocks several browser features, so the page works around them:

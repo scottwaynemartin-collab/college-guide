@@ -587,6 +587,25 @@ textarea.confnote{width:100%;min-height:150px;border:1.5px solid var(--line2);bo
 .cell.nearc{background:var(--tq-soft);box-shadow:inset 0 0 0 1px rgba(0,178,169,.5)}.cell.nearc b{color:var(--tq-ink)}
 @media (max-width:900px){.goalform{grid-template-columns:1fr}}
 
+/* T-TESS */
+.ttcard{margin-bottom:16px;padding:18px 20px}
+.tthead{display:flex;justify-content:space-between;gap:12px;border-bottom:3px solid var(--tq);padding-bottom:8px;margin-bottom:8px}
+.tthead h2{font:900 22px var(--display);text-transform:uppercase;margin-top:2px}
+.tthead small{color:var(--ink3);font-weight:700;font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+.ttdate{text-align:right;font-weight:800;font-size:13px}
+.tt{padding:6px 0;border-bottom:1px solid var(--line)}
+.tt h3{font:800 13px var(--sans);margin:0 0 3px}.tt h3 span{display:inline-block;min-width:64px;font:900 12px var(--display);background:var(--ink);color:var(--card);padding:2px 6px;border-radius:4px;margin-right:6px;text-align:center}
+.tt ul{margin:0;padding-left:84px;font-size:13px;color:var(--ink2)}.tt li{margin:2px 0}.tt b{color:var(--ink)}
+.ttfoot{font-size:11px;color:var(--ink3);margin:10px 0 0;font-style:italic}
+#printArea .ttpage{break-after:page;font-size:11px}
+#printArea .ttpage:last-child{break-after:auto}
+#printArea .tthead{display:flex;justify-content:space-between;border-bottom:3px solid #000;padding-bottom:6px;margin-bottom:6px}
+#printArea .tthead h2{background:none;color:#000;padding:0;margin:2px 0 0;font-size:18px}
+#printArea .tt{padding:4px 0;border-bottom:1px solid #ccc;break-inside:avoid}
+#printArea .tt h3{font-size:12px;margin:0 0 2px}#printArea .tt h3 span{display:inline-block;min-width:56px;border:1.5px solid #000;padding:1px 4px;margin-right:6px;text-align:center}
+#printArea .tt ul{margin:0;padding-left:70px}#printArea .tt li{margin:1px 0}
+#printArea .ttfoot{font-style:italic;color:#333;margin-top:8px}
+
 /* in-page print area (no new windows, so it works inside artifacts) */
 #printArea{display:none}
 #printArea .hd{border-bottom:4px solid #00b2a9;padding-bottom:10px;margin-bottom:16px}
@@ -680,6 +699,9 @@ const CONFIG = {
   staleDays: 7,
   scale: [[90,'A'],[80,'B'],[70,'C'],[60,'D'],[0,'F']],
   courseOrder: ['APHG','AP World','AP Euro'],
+  sloCourse: 'APHG',          // T-TESS 4.2 goal-setting (SLO) course
+  // Approximate grading periods (month-day, school year starting in August). Adjust to the district calendar.
+  gradingPeriods: [['Q1','08-01','10-16'], ['Q2','10-17','12-20'], ['Q3','01-01','03-13'], ['Q4','03-14','06-30']],
   // Power Hour drafting (PCHS "Tutorials" sheet). Drafting writes your dropdown name into the day's column.
   tutorialsSheet: '1C3DSO4lJieWN2KiS3FiQwgOeQz2uFtcfXGB-T70QMkI',
   draftTabs: ['A-D Swenson','E-K Morgan','L-Rh Frederick','Ri-Z Istre'],
@@ -709,7 +731,7 @@ const AP_EXAM = {paid:'Paid', unpaid:'Unpaid', opted:'Opted out'};
 
 /* ---------- storage (browser only) ---------- */
 const KEY = 'classroomDashboard.v1';
-const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
+const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, emailLog:{}, conferences:{}, ttess:{}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
 let DB = load();
 function load(){ try{ return Object.assign(blank(), JSON.parse(localStorage.getItem(KEY)||'{}')); }catch(e){ return blank(); } }
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(DB)); }catch(e){ toast('Could not save — browser storage is unavailable or full'); } }
@@ -944,6 +966,7 @@ const nameLine = s => `<b><span class="nm">${esc(s.name)}</span>${staarBadge(s.k
 
 /* ---------- contact log ---------- */
 const CONTACT_TYPES = ['Email','Call','Conference','Tutoring'];
+const REFERRAL_TYPES = ['Counselor referral','Co-teacher referral'];
 const lastContact = key => (DB.contacts[key] || []).slice(-1)[0] || null;
 function contactLine(key){ const c = lastContact(key); return c ? `<span class="lastc">Last contact: ${ago(c.at)} · ${esc(c.type)}</span>` : `<span class="lastc none">Not contacted yet</span>`; }
 function parentEmail(key){
@@ -1111,7 +1134,7 @@ function renderTop(){
   const crs = courses(), cls = allClasses();
   const nOf = c => Object.values(DB.students).filter(s=>s.classes.some(x=>splitClass(x).course===c)).length;
   const periods = UI.course==='all' ? cls : cls.filter(c=>splitClass(c).course===UI.course);
-  const showScope = !['import','options'].includes(UI.view) && cls.length;
+  const showScope = !['import','options','ttess'].includes(UI.view) && cls.length;
   const staarChips = hasProfiles() ? `<span class="lbl">8th STAAR</span>
       <button class="chip" aria-pressed="${UI.staar==='all'}" data-staar="all">All</button>
       ${STAAR.map(x=>`<button class="chip" aria-pressed="${UI.staar===x.id}" data-staar="${x.id}">${esc(x.short)}</button>`).join('')}
@@ -1127,7 +1150,7 @@ function renderTop(){
       ${showScope ? `<div class="seg" role="group" aria-label="Course">
         <button aria-pressed="${UI.course==='all'}" data-course="all">All<em>${Object.values(DB.students).filter(s=>s.classes.length || !s.past).length}</em></button>
         ${crs.map(c=>`<button aria-pressed="${UI.course===c}" data-course="${esc(c)}">${esc(c)}<em>${nOf(c)}</em></button>`).join('')}
-      </div>` : `<b style="font:900 16px var(--display);text-transform:uppercase">${UI.view==='import'?'Import data':'Settings'}</b>`}
+      </div>` : `<b style="font:900 16px var(--display);text-transform:uppercase">${UI.view==='import'?'Import data':UI.view==='ttess'?'T-TESS summary':'Settings'}</b>`}
       <span class="sp"></span>
       <label class="search"><span aria-hidden="true">⌕</span><span class="sr">Search students</span><input id="q" type="search" placeholder="Search students…" value="${esc(UI.q)}" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
     </div>
@@ -1455,6 +1478,63 @@ function dataCheckCard(){
     ${issues.length?`<div class="cb">${issues.map(i=>`<details class="toggle" style="display:block"><summary style="cursor:pointer"><b>${esc(i.title)}</b> <span class="count" style="height:18px;min-width:20px;font-size:11px">${i.items.length}</span> <span class="minor">${esc(i.why)}</span></summary><div class="namechips" style="margin:8px 0 4px">${i.items.slice(0,60).map(x=>`<span class="nchip">${esc(x)}</span>`).join('')}${i.items.length>60?`<span class="minor">+${i.items.length-60} more</span>`:''}</div></details>`).join('')}</div>`:''}</section>`;
 }
 
+/* ---------- T-TESS evidence (per class, no student names) ---------- */
+function periodOf(t){ const d = new Date(t), md = String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+  const g = S().gradingPeriods.find(([,a,b]) => a <= b ? (md >= a && md <= b) : (md >= a || md <= b)); return g ? g[0] : '—'; }
+function ttessFor(cls){
+  const st = S(), cut = +st.apOnTrack, aC = aCourseMap(), assigns = visibleAssignments(), course = splitClass(cls).course, now = Date.now();
+  const keys = Object.entries(DB.students).filter(([,s]) => s.classes.includes(cls)).map(([k]) => k);
+  const rows = keys.map(k => ({k, c: classStats(k, cls, assigns, aC), p: prof(k) || {}}));
+  const n = rows.length, pctOf = (x, d=n) => d ? Math.round(x/d*100)+'%' : '—';
+  const srcs = [...new Set(rows.flatMap(r => r.c.pts.map(x => x.a.source)))].map(x => x==='Gradebook' ? 'TAC / Gradebook' : x);
+  if (rows.some(r => Object.keys(r.p).length)) srcs.push('Student Profile (STAAR, TIA, GPA, attendance)');
+  const unitScores = {}; rows.forEach(r => r.c.ap.mc.forEach(x => { const u = unitOf(x.a.name); if (u) (unitScores[u] ||= []).push({k:r.k, p:x.p}); }));
+  const reteach = Object.entries(unitScores).map(([u, arr]) => ({u:+u, avg: mean(arr.map(a=>a.p))})).filter(t => t.avg < cut).sort((a,b)=>a.u-b.u);
+  const groups = Object.entries(unitScores).map(([u, arr]) => new Set(arr.filter(a=>a.p<cut).map(a=>a.k)).size).filter(x => x >= 2);
+  const retest = rows.reduce((t, r) => t + r.c.pts.filter(x => !x.m && x.p < st.retestCap && isTest(x.a.name) && !DB.retestDone[r.k+'|'+x.a.id]).length, 0);
+  const full = rows.filter(r => r.p.staarPct!=null && r.p.tiaBoy && (r.p.w1 || r.p.uw1)).length, priorAp = rows.filter(r => r.p.priorAp).length;
+  const phDrafts = rows.reduce((t,r) => t + (pnum(r.p.phDrafts) || 0), 0), phAtt = rows.reduce((t,r) => t + (pnum(r.p.phAttended) || 0), 0), dashDrafts = rows.reduce((t,r) => t + (DB.drafts[r.k]||[]).length, 0);
+  const goalSet = rows.filter(r => (DB.agency[r.k]?.form?.goal || '').trim()).length;
+  const checkins = rows.filter(r => { const d = DB.agency[r.k]?.form?.checkin; return d && new Date(d+'T23:59') <= new Date(); }).length;
+  let qGoals = 0, qMet = 0; rows.forEach(r => [1,2,3,4].forEach(q => { const a = DB.agency[r.k]?.['Q'+q], g = pnum(a?.goal), act = pnum(r.p.byClass?.[cls]?.['grade'+q]) ?? pnum(r.p['grade'+q]); if (g!=null && act!=null){ qGoals++; if (act >= g) qMet++; } }));
+  const contacts = {}; rows.forEach(r => (DB.contacts[r.k]||[]).forEach(c => { contacts[c.type] = (contacts[c.type]||0) + 1; }));
+  const emails = rows.reduce((t,r) => t + (DB.emailLog[r.k]||[]).length, 0);
+  const retestGains = []; rows.forEach(r => r.c.ap.mc.filter(x => /retest/i.test(bare(x.a.name))).forEach(rt => { const u = unitOf(rt.a.name), orig = r.c.ap.mc.filter(x => !/retest/i.test(bare(x.a.name)) && unitOf(x.a.name)===u && typeOf(x.a.name)===typeOf(rt.a.name) && x.a.order < rt.a.order).slice(-1)[0]; if (orig) retestGains.push(rt.p - orig.p); }));
+  const phChanges = []; rows.forEach(r => { const d = (DB.drafts[r.k]||[])[0]; if (!d) return; const before = r.c.ap.mc.filter(x => x.a.at && x.a.at < d.at), after = r.c.ap.mc.filter(x => x.a.at && x.a.at > d.at); if (before.length && after.length) phChanges.push(mean(after.map(x=>x.p)) - mean(before.map(x=>x.p))); });
+  const weeks = new Set(DB.imports.map(i => { const d = new Date(i.at); d.setHours(0,0,0,0); d.setDate(d.getDate() - d.getDay()); return d.toISOString().slice(0,10); }));
+  const firstImp = DB.imports.length ? Math.min(...DB.imports.map(i=>i.at)) : null, spanWeeks = firstImp ? Math.max(1, Math.ceil((now - firstImp) / (7*864e5))) : 0;
+  const confs = {}; rows.forEach(r => (DB.conferences[r.k]||[]).forEach(c => { const g = periodOf(c.at); confs[g] = (confs[g]||0) + 1; }));
+  const withMc = rows.filter(r => r.c.ap.mc.length), onNow = withMc.filter(r => r.c.ap.status==='ok').length, onFirst = withMc.filter(r => r.c.ap.mc[0].p >= cut).length;
+  const tiaPairs = rows.map(r => [pnum(r.p.tiaBoy), pnum(r.p.tiaEoy)]).filter(([a,b]) => a!=null && b!=null), priorPairs = rows.map(r => [pnum(r.p.priorTiaBoy), pnum(r.p.priorTiaEoy)]).filter(([a,b]) => a!=null && b!=null);
+  const proj = rows.filter(r => r.c.proj), proj3 = proj.filter(r => r.c.proj.score >= 3).length;
+  const refs = REFERRAL_TYPES.map(t => [t, contacts[t] || 0]);
+  return {cls, course, n, srcs, reteach, groups, retest, full, priorAp, phDrafts, phAtt, dashDrafts, goalSet, checkins, qGoals, qMet, contacts, emails, retestGains, phChanges, weeks: weeks.size, spanWeeks, confs, withMc: withMc.length, onNow, onFirst, tiaPairs, priorPairs, proj: proj.length, proj3, refs, pctOf};
+}
+function ttessHtml(t){
+  const st = S(), sign = v => v==null ? '—' : (v>=0?'+':'') + fmt(v,1) + ' pts', last = (DB.ttess.lastYear || {})[t.course] || '';
+  const parentTypes = CONTACT_TYPES.map(x => `${x}: ${t.contacts[x]||0}`).join(' · ');
+  const row = (dim, title, items) => `<section class="tt"><h3><span>${dim}</span> ${title}</h3><ul>${items.map(i=>`<li>${i}</li>`).join('')}</ul></section>`;
+  return `<div class="ttpage"><div class="tthead"><div><small>${esc(st.school)} · ${esc(st.title)}${st.teacherName?' · '+esc(st.teacherName):''}</small><h2>T-TESS evidence · ${esc(t.cls)}</h2></div><div class="ttdate">${new Date().toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'})}<br><small>${t.n} students · ${curYear()}</small></div></div>
+    ${row('1.2','Data &amp; Assessment', [`Data sources in use: <b>${t.srcs.length ? esc(t.srcs.join(', ')) : 'none yet'}</b>`, `Reteach topics identified (units with class AP Classroom MC avg &lt; ${st.apOnTrack}%): <b>${t.reteach.length}</b>${t.reteach.length?` (${t.reteach.map(r=>`U${r.u} ${p0(r.avg)}`).join(', ')})`:''}`, `Retest priority count (tests/progress checks under ${st.retestCap}, not yet retested): <b>${t.retest}</b>`])}
+    ${row('1.3','Knowledge of Students', [`Students with a full profile (8th STAAR, TIA BOY and GPA on file): <b>${t.pctOf(t.full)}</b> (${t.full} of ${t.n})`, `Prior AP score on file: <b>${t.priorAp}</b> students`])}
+    ${row('1.4 / 2.4','Activities / Differentiation', [`Reteach groups (units with 2+ students under ${st.apOnTrack}% on AP Classroom MC): <b>${t.groups.length}</b>${t.groups.length?` · ${t.groups.reduce((a,b)=>a+b,0)} student placements`:''}`, `Power Hour drafts: <b>${t.phDrafts}</b> (school record)${t.dashDrafts?` + <b>${t.dashDrafts}</b> drafted from this dashboard`:''} · attended: <b>${t.phAtt}</b>`])}
+    ${row('2.1 / 3.3','Achieving Expectations / Classroom Culture', [`Students with an Agency goal set: <b>${t.pctOf(t.goalSet)}</b> (${t.goalSet} of ${t.n})`, `Check-ins done (check-in date reached): <b>${t.checkins}</b>`, `Quarter grade goals met: <b>${t.qGoals ? t.pctOf(t.qMet, t.qGoals) : '—'}</b>${t.qGoals?` (${t.qMet} of ${t.qGoals} goals with a grade)`:''}`])}
+    ${row('2.3','Communication', [`Parent contacts by type: <b>${parentTypes}</b>`, `Parent emails drafted: <b>${t.emails}</b>`])}
+    ${row('2.5','Monitor &amp; Adjust', [`Average AP Classroom MC change after a Power Hour draft: <b>${t.phChanges.length ? sign(mean(t.phChanges)) : 'not enough data yet'}</b>${t.phChanges.length?` (${t.phChanges.length} students)`:''}`, `Average retest gain (MC retest vs. original, same unit): <b>${t.retestGains.length ? sign(mean(t.retestGains)) : 'no retests yet'}</b>${t.retestGains.length?` (${t.retestGains.length} retests)`:''}`, `Weekly data refreshes: <b>${t.weeks}</b> week${t.weeks===1?'':'s'} with new data out of ${t.spanWeeks} since the first import`])}
+    ${row('3.1','Routines', [`Conferences held per grading period: <b>${st.gradingPeriods.map(([g]) => `${g} ${t.confs[g]||0}`).join(' · ')}</b>`])}
+    ${row(`4.2`, `Goal Setting${t.course===st.sloCourse?' (SLO: '+esc(st.sloCourse)+')':''}`, [`AP on track now: <b>${t.withMc ? t.pctOf(t.onNow, t.withMc) : '—'}</b> vs. at the first AP Classroom MC test: <b>${t.withMc ? t.pctOf(t.onFirst, t.withMc) : '—'}</b> (${t.withMc} students with MC data)`, `TIA BOY → EOY growth: <b>${t.tiaPairs.length ? sign(mean(t.tiaPairs.map(([a,b])=>b-a))) : 'EOY not on file yet'}</b>${t.priorPairs.length?` · last year's BOY → EOY: ${sign(mean(t.priorPairs.map(([a,b])=>b-a)))}`:''}`, `Last year's AP results: <b>${last ? esc(last) : 'not entered'}</b> vs. this year's projection: <b>${t.proj ? t.pctOf(t.proj3, t.proj)+' projected 3+' : '—'}</b>`])}
+    ${row('4.4','School Community', [`Referrals logged: <b>${t.refs.map(([k,v])=>`${k.replace(' referral','')}: ${v}`).join(' · ')}</b>`])}
+    <p class="ttfoot">Evidence from Classroom Dashboard, student data on request.</p></div>`;
+}
+function viewTtess(){
+  const cls = allClasses(), crs = [...new Set(cls.map(c=>splitClass(c).course))];
+  return `<div class="phead"><div><div class="eyebrow"><i></i>Settings</div><h1>T-TESS summary</h1><p>One evidence page per class. Counts only, no student names. Conferences held, referrals, parent emails drafted and assignment arrival dates are tracked from the day this page was added.</p></div>
+    <div class="actions"><button class="btn" data-go="options">‹ Settings</button><button class="btn" data-act="copy-ttess">Copy text</button><button class="btn blk" data-act="print-ttess">${PRINT==='Print'?'Print (one page per class)':'Printable text'}</button></div></div>
+    <div class="card" style="margin-bottom:16px"><div class="cb" style="padding-top:12px"><div class="row3">${crs.map(c=>`<label class="field">Last year's AP results · ${esc(c)}<input class="in" data-lastyear="${esc(c)}" value="${esc((DB.ttess.lastYear||{})[c]||'')}" placeholder="e.g. 72% passed (3+)"></label>`).join('')}</div>
+      <p class="fine" style="margin:0">Used in 4.2. Grading periods are approximate (${S().gradingPeriods.map(([g,a,b])=>`${g} ${a}–${b}`).join(', ')}).</p></div></div>
+    ${cls.length ? cls.map(c => `<div class="card ttcard">${ttessHtml(ttessFor(c))}</div>`).join('') : '<div class="card"><div class="empty">No classes yet.</div></div>'}`;
+}
+
 function viewSettings(){
   const s = S(), f = (id, label, val, type='text', extra='') => `<label class="field">${label}<input id="${id}" type="${type}" value="${esc(val)}" ${extra}></label>`;
   return `<div class="phead"><div><h1>Settings</h1><p>Saved in this browser.</p></div></div>
@@ -1472,6 +1552,7 @@ function viewSettings(){
       <section class="card w5"><div class="ch"><h2>Overview cards</h2></div><div class="cb">
         ${OVERVIEW_CARDS.map(c=>`<label class="toggle"><input type="checkbox" data-card="${c.id}" ${DB.hidden.includes(c.id)?'':'checked'}>${esc(c.title)}</label>`).join('')}
       </div></section>
+      <section class="card w12"><div class="ch"><h2>T-TESS summary</h2><span class="sub">One printable evidence page per class · no student names</span><span class="sp"></span><button class="btn pri" data-go="ttess">Open T-TESS summary</button></div></section>
       <section class="card w12"><div class="ch"><h2>Your data</h2></div><div class="cb">
         <div class="note"><b>${Object.keys(DB.students).length}</b> students, <b>${Object.keys(DB.assignments).length}</b> assignments, <b>${Object.keys(DB.profiles).length}</b> profiles and <b>${DB.imports.length}</b> imports are saved in this browser. Back up to move them somewhere else.</div>
         <div class="actions"><button class="btn" data-act="backup">Back up…</button><button class="btn" data-act="restore">Restore backup…</button><button class="btn" data-act="sample">Load sample data</button><button class="btn danger" data-act="wipe">Erase everything</button></div>
@@ -1661,6 +1742,9 @@ function openStudent(key, fresh){
 
         <section class="fsec c6 noprint"><h2>Parent contact</h2><div class="fb">
           <div class="clog">${CONTACT_TYPES.map(t=>`<button class="btn sm" data-contact="${esc(key)}|${t}">＋ ${t}</button>`).join('')}</div>
+          <div class="clog" style="margin-top:6px">${REFERRAL_TYPES.map(t=>`<button class="btn sm" data-contact="${esc(key)}|${t}">＋ ${t}</button>`).join('')}
+            <button class="btn sm pri" data-confheld="${esc(key)}">✓ Mark conference held</button></div>
+          ${(DB.conferences[key]||[]).length?`<div class="fine">Conferences held: ${DB.conferences[key].map(c=>new Date(c.at).toLocaleDateString()).join(' · ')}</div>`:''}
           <input class="in" id="contactNote" placeholder="Optional note for the contact" style="margin-top:8px">
           <div class="notes">${(DB.contacts[key]||[]).slice().reverse().slice(0,5).map((c,i)=>`<div class="n">${esc(c.type)}${c.note?` — ${esc(c.note)}`:''}<small>${new Date(c.at).toLocaleDateString()} · <button class="link" data-delcontact="${DB.contacts[key].length-1-i}">delete</button></small></div>`).join('')}</div>
           <div class="minor">Remember to document parent contact in eSchool too.</div>
@@ -1731,7 +1815,7 @@ function render(){
   if (UI.status==='unpaid' && !hasProfiles()) UI.status = null;
   const m = buildModel();
   renderSide(m); renderTop();
-  const v = {overview:viewOverview, retests:viewRetests, power:viewPower, missing:viewMissing, compare:viewCompare, ap:viewAP, assignments:viewAssignments, import:viewImport, options:viewSettings}[UI.view] || viewOverview;
+  const v = {overview:viewOverview, retests:viewRetests, power:viewPower, missing:viewMissing, compare:viewCompare, ap:viewAP, assignments:viewAssignments, import:viewImport, options:viewSettings, ttess:viewTtess}[UI.view] || viewOverview;
   $('#view').innerHTML = v(m);
   if (UI.view==='import') wireDrop();
   return m;
@@ -1880,7 +1964,7 @@ function commit({file, source, assigns, data, stay, year}){
   if (!DB.sessionAt || Date.now()-DB.sessionAt > 30*60e3) DB.prev = Object.keys(DB.students).length ? snapshot() : null;
   DB.sessionAt = Date.now();
   const touched = new Set();
-  assigns.forEach(a => { a.id = resolveId(a.id, year); if (!DB.assignments[a.id]) DB.assignments[a.id] = {id:a.id, name:a.name, source, order: ++DB.seq, hidden:false, year}; });
+  assigns.forEach(a => { a.id = resolveId(a.id, year); if (!DB.assignments[a.id]) DB.assignments[a.id] = {id:a.id, name:a.name, source, order: ++DB.seq, hidden:false, year, at: Date.now()}; });
   data.forEach(d => {
     const key = upsertStudent(d.name, d.id, d.cls, year); if (!key) return;
     touched.add(key);
@@ -2043,7 +2127,7 @@ function loadSample(){
 /* ---------- events ---------- */
 function go(v){ UI.view = v; try { if (location.hash.slice(1)!==v) location.hash = v; } catch(_){} $('#side').classList.remove('open'); closeLayer(); render(); window.scrollTo(0,0); }
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-apf],[data-quart],[data-wsort],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-confnav],[data-close]');
+  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-apf],[data-quart],[data-wsort],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-confnav],[data-confheld],[data-close]');
   if (!t) { if (!e.target.closest('aside,.menu-btn')) $('#side').classList.remove('open'); return; }
   if (t.dataset.close !== undefined){ if (e.target === t || t.tagName==='BUTTON'){ closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !t.closest('.conf')) return openStudent(k); nextFile(); } return; }
   if (t.dataset.go){ go(t.dataset.go); if (t.dataset.anchor) document.getElementById(t.dataset.anchor)?.scrollIntoView({block:'start'}); return; }
@@ -2066,7 +2150,8 @@ document.addEventListener('click', e => {
   if (t.dataset.agrate){ const [k,q,n] = t.dataset.agrate.split('|'), a = ((DB.agency[k] ||= {})[q] ||= {}); a.rating = +a.rating===+n ? '' : +n; save(); return openStudent(k); }
   if (t.dataset.contact){ const [k, type] = t.dataset.contact.split('|'), note = ($('#contactNote')?.value||'').trim(); (DB.contacts[k] ||= []).push({type, note, at:Date.now()}); save(); toast(`${type} logged`); render(); return openStudent(k); }
   if (t.dataset.delcontact){ const k=$('#layer').dataset.student; DB.contacts[k].splice(+t.dataset.delcontact,1); save(); render(); return openStudent(k); }
-  if (t.dataset.email){ UI.reopen = $('#layer').dataset.student || null; return showText(`Parent email — ${DB.students[t.dataset.email].name}`, parentEmail(t.dataset.email)); }
+  if (t.dataset.confheld){ const k = t.dataset.confheld; (DB.conferences[k] ||= []).push({at:Date.now()}); save(); toast('Conference logged'); return openStudent(k); }
+  if (t.dataset.email){ (DB.emailLog[t.dataset.email] ||= []).push({at:Date.now()}); save(); UI.reopen = $('#layer').dataset.student || null; return showText(`Parent email — ${DB.students[t.dataset.email].name}`, parentEmail(t.dataset.email)); }
   if (t.dataset.delnote){ const k=$('#layer').dataset.student; DB.notes[k].splice(+t.dataset.delnote,1); save(); return openStudent(k); }
   const act = t.dataset.act, m = () => buildModel();
   if (act==='conf-print'){ const k = $('#layer').dataset.student; if (!CAN_PRINT) return showText(`Conference — ${DB.students[k].name}`, confText(k));
@@ -2076,6 +2161,8 @@ document.addEventListener('click', e => {
   if (act==='draft-check') draftCheck();
   if (act==='draft-write') draftWrite();
   if (act==='copy-draft'){ const day = UI.draftDay || defaultDraftDay(); copyText(`Power Hour draft — ${day} — ${draftValue()}\n\n` + draftCandidates(m()).map(x=>`${x.s.ids[0]||'(no ID)'}\t${x.s.name}\t${x.cls}\t${Math.round(x.avg)}%`).join('\n'), 'Draft list'); }
+  if (act==='print-ttess'){ printDoc('T-TESS evidence', allClasses().map(c => ttessHtml(ttessFor(c))).join('')); }
+  if (act==='copy-ttess'){ const d = document.createElement('div'); d.innerHTML = allClasses().map(c => ttessHtml(ttessFor(c))).join('').replace(/<\/(li|h2|h3|p)>/g,'$&\n').replace(/<li>/g,'• '); copyText(d.textContent.replace(/\n{3,}/g,'\n\n'), 'T-TESS summary'); }
   if (act==='copy-summary') copyText(weeklySummary(m()), 'Weekly summary');
   if (act==='toggle-done'){ UI.showDone = !UI.showDone; render(); }
   if (act==='flags-only'){ UI.flagsOnly = !UI.flagsOnly; render(); }
@@ -2129,6 +2216,7 @@ document.addEventListener('change', e => {
 document.addEventListener('input', e => {
   const t = e.target;
   if (t.dataset.confnote){ DB.confNotes[t.dataset.confnote] = t.value; save(); return; }
+  if (t.dataset.lastyear!==undefined){ (DB.ttess.lastYear ||= {})[t.dataset.lastyear] = t.value; save(); return; }
   if (t.dataset.agform){ const [k,f] = t.dataset.agform.split('|'); (((DB.agency[k] ||= {}).form ||= {}))[f] = t.value; save(); return; }
   if (t.dataset.agency){ const [k,q,f] = t.dataset.agency.split('|'); ((DB.agency[k] ||= {})[q] ||= {})[f] = t.value; save(); return; }
   if (e.target.id !== 'q') return;
