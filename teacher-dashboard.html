@@ -737,13 +737,14 @@ const AP_EXAM = {paid:'Paid', unpaid:'Unpaid', opted:'Opted out'};
 
 /* ---------- storage (browser only) ---------- */
 const KEY = 'classroomDashboard.v1';
-const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, emailLog:{}, conferences:{}, ttess:{}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
+const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, emailLog:{}, conferences:{}, ttess:{}, cb:{scores:[], ipr:[]}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
 let DB = load();
 function load(){ try{ return Object.assign(blank(), JSON.parse(localStorage.getItem(KEY)||'{}')); }catch(e){ return blank(); } }
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(DB)); }catch(e){ toast('Could not save — browser storage is unavailable or full'); } }
 const S = () => Object.assign({}, CONFIG, DB.settings);
 function curYear(){ if (S().currentYear) return S().currentYear; const d = new Date(), y = d.getFullYear() - (d.getMonth() < 7 ? 1 : 0); return `${y}-${String((y+1)%100).padStart(2,'0')}`; }
 Object.values(DB.assignments).forEach(a => { if (!a.year) a.year = curYear(); });
+if (!DB.cb) DB.cb = {scores:[], ipr:[]};
 const yearOf = a => a.year || curYear();
 
 const UI = { view: location.hash.slice(1) || 'overview', course:'all', period:'all', staar:'all', status:null, q:'', sort:'need',
@@ -1394,13 +1395,21 @@ function viewCompare(m){
       <div class="stat"><b>${oc!=null&&op!=null?`<span class="delta ${oc>=op?'up':'down'}">${oc>=op?'+':''}${Math.round(oc-op)}</span>`:'—'}</b><span>Change</span></div><div class="stat"><b>${years.length}</b><span>${plural(years.length,'school year')} loaded</span></div></div>
     ${!prior?`<div class="banner" style="background:var(--tq-soft);color:var(--tq-ink)">Load earlier years from Import: set <b>School year</b> (e.g. 2025-26) before pasting, or add a "School Year" column.<span class="sp"></span><button class="btn sm" data-go="import">Import →</button></div>`:''}
     <div class="legend">${years.map(y=>`<span><i style="background:${ycol(y)}"></i>${esc(y)}${y===cur?' (this year)':''}</span>`).join('')}${stuKey?`<span><i style="background:var(--ink);transform:rotate(45deg);width:8px;height:8px"></i>${esc(DB.students[stuKey].name)}</span>`:''}</div>
-    <div class="grid">${types.map(card).join('')}${mockVsActualCard(course)}</div>`;
+    <div class="grid">${types.map(card).join('')}${mockVsActualCard(course)}${cbCard(course)}</div>`;
 }
 /* Prior years: mock projection vs. the actual AP score, to see how well the mock predicts */
 function priorApScore(key, course){
   const p = prof(key) || {}, lbl = (p.labels?.priorAp || p.priorApLabel || '').toLowerCase();
   if (p.priorAp && (!lbl || lbl.includes(course.toLowerCase()) || !/aphg|world|euro/.test(lbl))) return pnum(p.priorAp);
   const m = String(p.apScores || '').match(new RegExp(course.replace(/^AP\s+/i,'') + '\\D{0,12}([1-5])', 'i')); return m ? +m[1] : null;
+}
+function cbCard(course){
+  const sc = DB.cb.scores.filter(x => x.course.toLowerCase()===course.toLowerCase()).sort((a,b)=>String(a.year).localeCompare(String(b.year))), ipr = iprFor(course);
+  if (!sc.length && !ipr) return `<section class="card w12"><div class="ch"><h2>College Board reports</h2><span class="sub">${esc(course)}</span></div><div class="cb"><div class="empty">Paste an AP score summary or Instructional Planning Report on the Import page.</div></div></section>`;
+  return `<section class="card w12"><div class="ch"><h2>College Board reports</h2><span class="sub">${esc(course)} · actual AP results and the Instructional Planning Report</span></div><div class="cb">
+    ${sc.length?`<table class="t"><thead><tr><th>Exam year</th>${[5,4,3,2,1].map(k=>`<th class="r">${k}s</th>`).join('')}<th class="r">Students</th><th class="r">% 3+</th><th class="r">Global % 3+</th><th class="r">Mean</th><th class="r">Global mean</th></tr></thead><tbody>${sc.map(x=>`<tr><td><b>${esc(examLabel(x.year))}</b></td>${[5,4,3,2,1].map(k=>`<td class="r num">${x.dist[k]}</td>`).join('')}<td class="r num">${x.n}</td><td class="r num"><b>${p0(x.pass)}</b></td><td class="r num">${x.global3!=null?p0(x.global3):'—'}</td><td class="r num">${fmt(x.mean,2)}</td><td class="r num">${x.globalMean!=null?fmt(x.globalMean,2):'—'}</td></tr>`).join('')}</tbody></table>`:''}
+    ${ipr?`<h3 style="font:900 13px var(--display);text-transform:uppercase;margin:14px 0 6px">Instructional Planning Report · ${esc(examLabel(ipr.year))}</h3><table class="t"><thead><tr><th>Section</th><th>Item</th><th class="r">Our %</th><th class="r">Global %</th><th class="r">Difference</th></tr></thead><tbody>${ipr.rows.sort((a,b)=>a.d-b.d).map(x=>`<tr><td>${esc(x.section)}</td><td>${esc(x.item)}</td><td class="r num">${p0(x.ours)}</td><td class="r num">${p0(x.global)}</td><td class="r"><span class="delta ${x.d>=0?'up':'down'}">${x.d>=0?'+':''}${fmt(x.d,0)}</span></td></tr>`).join('')}</tbody></table><p class="fine">Sorted weakest first. Items 5+ points below global are reteach and goal-setting priorities.</p>`:''}
+  </div></section>`;
 }
 function mockVsActualCard(course){
   const cur = curYear(), aC = aCourseMap(), multi = coursesAll().length > 1, rows = [];
@@ -1498,6 +1507,17 @@ function viewImport(){
         <details style="margin-top:10px"><summary class="minor" style="cursor:pointer;font-weight:700">Columns it understands</summary><div class="prompt" style="margin-top:6px">${esc('Student, Student ID, Class, 8th STAAR %, 8th STAAR Level, AP Exam, Q1 Grade, Q2 Grade (to date), TIA BOY 26-27 %, TIA BOY 26-27 test, Prior AP score (APHG 2026), Prior TIA BOY 25-26 %, Prior TIA EOY 25-26 %, Prior TIA test, Grade level, Q1 Unweighted GPA (all classes), Q1 Weighted GPA (all classes, est.), Q1 classes counted, Est. rank band (from Q1 weighted GPA), Est. quartile, Rank cutoffs used, AP scores (all, from Aware), PSAT history (total(EBRW/Math)), Best PSAT, SAT history, Best SAT, Q2-to-date Unweighted GPA (all classes), Q2-to-date Weighted GPA (all classes, est.), Q2 classes counted, Absences YTD (full-day), Unexcused/unresolved absences, Tardies YTD, Zeros (all classes), Classes below 70 now, Lowest class now, Power Hour drafts, Power Hour no-shows, Power Hour attended, Last Power Hour draft, Power Hour assigned now, Watch flags')}</div>
         <p class="minor" style="margin:6px 0 0">Any other column (e.g. Counselor, TIA EOY) is kept and shown on the student's conference page. A student in two classes has one row per class; re-importing updates, never duplicates. Blank cells keep the earlier value.</p></details>
       </div></section>
+      <section class="card w12"><div class="ch"><h2>College Board reports</h2><span class="sub">AP score reports and the Instructional Planning Report · paste into the box above · used in Compare and T-TESS 4.2</span></div><div class="cb">
+        <div class="row2"><div><div class="minor" style="font-weight:800;margin-bottom:4px">AP SCORE SUMMARY (one row per course per exam year)</div>
+          <div class="prompt">Course,Year,Score 5,Score 4,Score 3,Score 2,Score 1,Mean,Global mean,Global % 3+
+APHG,2026,12,20,25,18,9,3.1,2.6,54</div></div>
+          <div><div class="minor" style="font-weight:800;margin-bottom:4px">INSTRUCTIONAL PLANNING REPORT (one row per unit / skill / question)</div>
+          <div class="prompt">Course,Year,Section,Item,Our %,Global %
+APHG,2026,Unit,Unit 3: Cultural Patterns,61,58
+APHG,2026,FRQ,FRQ 2,44,39</div></div></div>
+        <p class="minor" style="margin:8px 0 0">Year = exam year (2026 is stored as school year 2025-26). Re-importing replaces the same course + year. Each student's own AP score goes in the Student Profile (“Prior AP score” / “AP scores”).</p>
+        ${DB.cb.scores.length||DB.cb.ipr.length?`<p class="minor" style="margin:6px 0 0"><b>On file:</b> ${DB.cb.scores.map(x=>`${esc(x.course)} ${esc(x.year)} scores`).join(' · ')}${DB.cb.scores.length&&DB.cb.ipr.length?' · ':''}${[...new Set(DB.cb.ipr.map(x=>`${x.course} ${x.year}`))].map(x=>esc(x)+' IPR').join(' · ')}</p>`:''}
+      </div></section>
       <section class="card w6"><div class="ch"><h2>Or drop exported files</h2></div><div class="cb">
         <div class="drop" id="drop"><h3>Drop CSV files here</h3><button class="btn" data-act="pick">Choose files…</button>
         <p class="minor" style="margin:10px 0 0">Canvas “Export Entire Gradebook” and Profile CSVs are recognized automatically. Other layouts are set up once and remembered.</p></div>
@@ -1539,6 +1559,8 @@ function ttessFor(cls){
   const n = rows.length, pctOf = (x, d=n) => d ? Math.round(x/d*100)+'%' : '—';
   const srcs = [...new Set(rows.flatMap(r => r.c.pts.map(x => x.a.source)))].map(x => x==='Gradebook' ? 'TAC / Gradebook' : x);
   if (rows.some(r => Object.keys(r.p).length)) srcs.push('Student Profile (STAAR, TIA, GPA, attendance)');
+  if (DB.cb.scores.some(x=>x.course.toLowerCase()===course.toLowerCase())) srcs.push('AP score reports');
+  if (DB.cb.ipr.some(x=>x.course.toLowerCase()===course.toLowerCase())) srcs.push('AP Instructional Planning Report');
   const unitScores = {}; rows.forEach(r => r.c.ap.mc.forEach(x => { const u = unitOf(x.a.name); if (u) (unitScores[u] ||= []).push({k:r.k, p:x.p}); }));
   const reteach = Object.entries(unitScores).map(([u, arr]) => ({u:+u, avg: mean(arr.map(a=>a.p))})).filter(t => t.avg < cut).sort((a,b)=>a.u-b.u);
   const groups = Object.entries(unitScores).map(([u, arr]) => new Set(arr.filter(a=>a.p<cut).map(a=>a.k)).size).filter(x => x >= 2);
@@ -1559,7 +1581,8 @@ function ttessFor(cls){
   const tiaPairs = rows.map(r => [pnum(r.p.tiaBoy), pnum(r.p.tiaEoy)]).filter(([a,b]) => a!=null && b!=null), priorPairs = rows.map(r => [pnum(r.p.priorTiaBoy), pnum(r.p.priorTiaEoy)]).filter(([a,b]) => a!=null && b!=null);
   const proj = rows.filter(r => r.c.proj), proj3 = proj.filter(r => r.c.proj.score >= 3).length;
   const refs = REFERRAL_TYPES.map(t => [t, contacts[t] || 0]);
-  return {cls, course, n, srcs, reteach, groups, retest, full, priorAp, phDrafts, phAtt, dashDrafts, goalSet, checkins, qGoals, qMet, contacts, emails, retestGains, phChanges, weeks: weeks.size, spanWeeks, confs, withMc: withMc.length, onNow, onFirst, tiaPairs, priorPairs, proj: proj.length, proj3, refs, pctOf};
+  const cbLast = latestScore(course, curYear()), ipr = iprFor(course);
+  return {cbLast, ipr, cls, course, n, srcs, reteach, groups, retest, full, priorAp, phDrafts, phAtt, dashDrafts, goalSet, checkins, qGoals, qMet, contacts, emails, retestGains, phChanges, weeks: weeks.size, spanWeeks, confs, withMc: withMc.length, onNow, onFirst, tiaPairs, priorPairs, proj: proj.length, proj3, refs, pctOf};
 }
 function ttessHtml(t){
   const st = S(), sign = v => v==null ? '—' : (v>=0?'+':'') + fmt(v,1) + ' pts', last = (DB.ttess.lastYear || {})[t.course] || '';
@@ -1573,7 +1596,8 @@ function ttessHtml(t){
     ${row('2.3','Communication', [`Parent contacts by type: <b>${parentTypes}</b>`, `Parent emails drafted: <b>${t.emails}</b>`])}
     ${row('2.5','Monitor &amp; Adjust', [`Average AP Classroom MC change after a Power Hour draft: <b>${t.phChanges.length ? sign(mean(t.phChanges)) : 'not enough data yet'}</b>${t.phChanges.length?` (${t.phChanges.length} students)`:''}`, `Average retest gain (MC retest vs. original, same unit): <b>${t.retestGains.length ? sign(mean(t.retestGains)) : 'no retests yet'}</b>${t.retestGains.length?` (${t.retestGains.length} retests)`:''}`, `Weekly data refreshes: <b>${t.weeks}</b> week${t.weeks===1?'':'s'} with new data out of ${t.spanWeeks} since the first import`])}
     ${row('3.1','Routines', [`Conferences held per grading period: <b>${st.gradingPeriods.map(([g]) => `${g} ${t.confs[g]||0}`).join(' · ')}</b>`])}
-    ${row(`4.2`, `Goal Setting${t.course===st.sloCourse?' (SLO: '+esc(st.sloCourse)+')':''}`, [`AP on track now: <b>${t.withMc ? t.pctOf(t.onNow, t.withMc) : '—'}</b> vs. at the first AP Classroom MC test: <b>${t.withMc ? t.pctOf(t.onFirst, t.withMc) : '—'}</b> (${t.withMc} students with MC data)`, `TIA BOY → EOY growth: <b>${t.tiaPairs.length ? sign(mean(t.tiaPairs.map(([a,b])=>b-a))) : 'EOY not on file yet'}</b>${t.priorPairs.length?` · last year's BOY → EOY: ${sign(mean(t.priorPairs.map(([a,b])=>b-a)))}`:''}`, `Last year's AP results: <b>${last ? esc(last) : 'not entered'}</b> vs. this year's projection: <b>${t.proj ? t.pctOf(t.proj3, t.proj)+' projected 3+' : '—'}</b>`])}
+    ${row(`4.2`, `Goal Setting${t.course===st.sloCourse?' (SLO: '+esc(st.sloCourse)+')':''}`, [`AP on track now: <b>${t.withMc ? t.pctOf(t.onNow, t.withMc) : '—'}</b> vs. at the first AP Classroom MC test: <b>${t.withMc ? t.pctOf(t.onFirst, t.withMc) : '—'}</b> (${t.withMc} students with MC data)`, `TIA BOY → EOY growth: <b>${t.tiaPairs.length ? sign(mean(t.tiaPairs.map(([a,b])=>b-a))) : 'EOY not on file yet'}</b>${t.priorPairs.length?` · last year's BOY → EOY: ${sign(mean(t.priorPairs.map(([a,b])=>b-a)))}`:''}`, `Last year's AP results: <b>${t.cbLast ? `${p0(t.cbLast.pass)} scored 3+ (${t.cbLast.n} students, mean ${fmt(t.cbLast.mean,2)}${t.cbLast.globalMean!=null?` vs. global ${fmt(t.cbLast.globalMean,2)}`:''}${t.cbLast.global3!=null?`; global ${p0(t.cbLast.global3)} 3+`:''}, ${esc(examLabel(t.cbLast.year))} score report)` : last ? esc(last) : 'not entered'}</b> vs. this year's projection: <b>${t.proj ? t.pctOf(t.proj3, t.proj)+' projected 3+' : '—'}</b>`,
+      ...(t.ipr && t.ipr.rows.length ? [`Instructional Planning Report (${esc(examLabel(t.ipr.year))}): below global: <b>${t.ipr.rows.filter(x=>x.d<=-5).sort((a,b)=>a.d-b.d).slice(0,3).map(x=>`${esc(x.item)} (${fmt(x.d,0)})`).join(', ') || 'none ≥ 5 pts'}</b> · above global: <b>${t.ipr.rows.filter(x=>x.d>=5).sort((a,b)=>b.d-a.d).slice(0,3).map(x=>`${esc(x.item)} (+${fmt(x.d,0)})`).join(', ') || 'none ≥ 5 pts'}</b>`] : [])])}
     ${row('4.4','School Community', [`Referrals logged: <b>${t.refs.map(([k,v])=>`${k.replace(' referral','')}: ${v}`).join(' · ')}</b>`])}
     <p class="ttfoot">Evidence from Classroom Dashboard, student data on request.</p></div>`;
 }
@@ -1581,8 +1605,8 @@ function viewTtess(){
   const cls = allClasses(), crs = [...new Set(cls.map(c=>splitClass(c).course))];
   return `<div class="phead"><div><div class="eyebrow"><i></i>Settings</div><h1>T-TESS summary</h1><p>One evidence page per class. Counts only, no student names. Conferences held, referrals, parent emails drafted and assignment arrival dates are tracked from the day this page was added.</p></div>
     <div class="actions"><button class="btn" data-go="options">‹ Settings</button><button class="btn" data-act="copy-ttess">Copy text</button><button class="btn blk" data-act="print-ttess">${PRINT==='Print'?'Print (one page per class)':'Printable text'}</button></div></div>
-    <div class="card" style="margin-bottom:16px"><div class="cb" style="padding-top:12px"><div class="row3">${crs.map(c=>`<label class="field">Last year's AP results · ${esc(c)}<input class="in" data-lastyear="${esc(c)}" value="${esc((DB.ttess.lastYear||{})[c]||'')}" placeholder="e.g. 72% passed (3+)"></label>`).join('')}</div>
-      <p class="fine" style="margin:0">Used in 4.2. Grading periods are approximate (${S().gradingPeriods.map(([g,a,b])=>`${g} ${a}–${b}`).join(', ')}).</p></div></div>
+    <div class="card" style="margin-bottom:16px"><div class="cb" style="padding-top:12px"><div class="row3">${crs.map(c=>`<label class="field">Last year's AP results · ${esc(c)}<input class="in" data-lastyear="${esc(c)}" value="${esc((DB.ttess.lastYear||{})[c]||'')}" placeholder="${latestScore(c, curYear()) ? 'filled from the score report' : 'e.g. 72% passed (3+)'}"></label>`).join('')}</div>
+      <p class="fine" style="margin:0">Used in 4.2 when no AP score summary is on file (a pasted score report takes priority). Grading periods are approximate (${S().gradingPeriods.map(([g,a,b])=>`${g} ${a}–${b}`).join(', ')}).</p></div></div>
     ${cls.length ? cls.map(c => `<div class="card ttcard">${ttessHtml(ttessFor(c))}</div>`).join('') : '<div class="card"><div class="empty">No classes yet.</div></div>'}`;
 }
 
@@ -2050,7 +2074,42 @@ function guessSource(name){ return /canvas/i.test(name)?'Canvas':/\bap\b|ap[ _-]
 const UNDO_KEY = KEY + '.undo';
 function saveUndo(label){ try { localStorage.setItem(UNDO_KEY, JSON.stringify({label, at:Date.now(), db:DB})); } catch(_){} }
 function readUndo(){ try { return JSON.parse(localStorage.getItem(UNDO_KEY) || 'null'); } catch(_){ return null; } }
+/* ---------- College Board reports ----------
+   AP score summary:  Course, Year, Score 5, Score 4, Score 3, Score 2, Score 1 [, Mean, Global mean, Global % 3+]
+   Instructional Planning Report:  Course, Year, Section, Item, Our %, Global % [, Students]  (Section = Unit / Skill / MC / FRQ …) */
+const lcHead = rows => rows[0].map(x => String(x).trim().toLowerCase());
+function isScoreSummary(rows){ const h = lcHead(rows); return h.some(x=>/score\s*5/.test(x)) && h.some(x=>/score\s*1/.test(x)) && !h.includes('student id'); }
+function isIPR(rows){ const h = lcHead(rows); return h.some(x=>/global/.test(x)) && h.includes('item') && h.some(x=>/^section|^category/.test(x)); }
+function importScoreSummary(rows, file, stay){
+  const h = lcHead(rows), col = re => h.findIndex(x => re.test(x));
+  const cC = col(/^course/), yC = col(/year/), sc = [5,4,3,2,1].map(n => col(new RegExp('score\\s*'+n))), mC = col(/^(our |school |class )?mean/), gm = col(/global\s*mean/), g3 = col(/global.*3/);
+  let n = 0;
+  rows.slice(1).forEach(r => { const course = String(r[cC]||'').trim(), year = normYear(r[yC]) || String(r[yC]||'').trim(); if (!course) return;
+    const dist = Object.fromEntries([5,4,3,2,1].map((k,i) => [k, pnum(r[sc[i]]) || 0])), tot = Object.values(dist).reduce((a,b)=>a+b,0); if (!tot) return;
+    const rec = {course, year, dist, n: tot, pass: (dist[5]+dist[4]+dist[3])/tot*100, mean: pnum(r[mC]) ?? [5,4,3,2,1].reduce((t,k)=>t+k*dist[k],0)/tot, globalMean: gm>=0 ? pnum(r[gm]) : null, global3: g3>=0 ? pnum(r[g3]) : null};
+    DB.cb.scores = DB.cb.scores.filter(x => !(x.course===course && x.year===year)); DB.cb.scores.push(rec); n++; });
+  finishReport(file, `Imported ${plural(n,'AP score summary row')}`, stay);
+}
+function importIPR(rows, file, stay){
+  const h = lcHead(rows), col = re => h.findIndex(x => re.test(x));
+  const cC = col(/^course/), yC = col(/year/), sC = col(/^section|^category/), iC = col(/^item/), oC = col(/^(our|school|class|your)/), gC = col(/^global/), nC = col(/students|^n$/);
+  let n = 0;
+  rows.slice(1).forEach(r => { const course = String(r[cC]||'').trim(), year = normYear(r[yC]) || String(r[yC]||'').trim(), item = String(r[iC]||'').trim(); if (!course || !item) return;
+    const rec = {course, year, section: String(r[sC]||'').trim() || 'Item', item, ours: pnum(r[oC]), global: pnum(r[gC]), n: nC>=0 ? pnum(r[nC]) : null};
+    DB.cb.ipr = DB.cb.ipr.filter(x => !(x.course===course && x.year===year && x.section===rec.section && x.item===item)); DB.cb.ipr.push(rec); n++; });
+  finishReport(file, `Imported ${plural(n,'Instructional Planning Report row')}`, stay);
+}
+function finishReport(file, msg, stay){
+  DB.imports.push({file: file.startsWith('Pasted ') ? 'Pasted College Board report' : file, source:'Profile', at: Date.now(), students: 0, assignments: 0});
+  save(); toast(msg);
+  if (stay){ UI.lastResult = (UI.lastResult ? UI.lastResult + '\n' : '') + '✓ ' + msg; render(); return; }
+  go('import');
+}
+const examLabel = y => /^\d{4}-\d{2}$/.test(String(y)) ? `${+String(y).slice(0,4)+1} exam` : String(y);
+const latestScore = (course, notYear) => DB.cb.scores.filter(x => x.course.toLowerCase()===course.toLowerCase() && x.year !== notYear).sort((a,b)=>String(b.year).localeCompare(String(a.year)))[0] || null;
+function iprFor(course){ const rows = DB.cb.ipr.filter(x => x.course.toLowerCase()===course.toLowerCase()); if (!rows.length) return null; const y = rows.map(x=>x.year).sort().slice(-1)[0]; return {year:y, rows: rows.filter(x=>x.year===y && x.ours!=null && x.global!=null).map(x=>({...x, d:x.ours-x.global}))}; }
 function routeImport(rows, label, fallback, stay, year){
+  if (isScoreSummary(rows) || isIPR(rows)) { saveUndo(label); isScoreSummary(rows) ? importScoreSummary(rows, label, stay) : importIPR(rows, label, stay); return true; }
   if (isCanvas(rows) || isProfile(rows) || isStandard(rows)) saveUndo(label);
   if (isCanvas(rows)) importCanvas(rows, label, stay, year);
   else if (isProfile(rows)) importProfile(rows, label, stay);
