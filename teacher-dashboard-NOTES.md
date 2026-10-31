@@ -143,12 +143,12 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
   - **Copy for Canvas:** the names, one per line, plus the message. With more than one student it copies one personalized message per student, separated by "----".
   - **Mark sent:** logs "Retest message · Unit N · Canvas" in the contact log (once per student per unit per day) and hides the student for that unit until the next import.
   - **Copy prompt for Claude:** names + IDs, the unit and the message, ready for Claude in Chrome to send.
-  - The message says "below 80"; it is editable in Settings.
+  - The message says "below 80" and includes: "I'll usually draft you for A Block. If A Block doesn't work, you can come during B Block instead — any day except Wednesday B Block or Thursday A Block, when I have duty." Editable in Settings.
 - **Power Hour drafts** (sidebar under Action lists): three lists, one tab each:
   - **Below 80 on latest test:** latest TAC unit test *or retest* (whichever is later) under 80.
   - **Below 70 in class** and **Below 80 in class:** current class grade.
   - One line per student per class, grouped by class period: name, period, ID, the triggering score, last Power Hour draft (profile "Last Power Hour", else the last draft from this dashboard), no-shows. Students with a profile "Power Hour assigned now" value are left out (listed in a footnote).
-  - **Copy roster** (name · ID · period, one per line), **Copy prompt for Claude** (sheet ID, the draft day, the dropdown value, and the list with reasons), **Mark drafted** (logs "PH draft — Unit 3 test 72" or "PH draft — class grade 68" once per student, with the draft day as the note, and hides them until the next import).
+  - **Copy roster** (name · ID · period, one per line), **Copy prompt for Claude** (sheet ID, the draft day, the dropdown value "Martin, Scott B106 A Block" — drafts are always A Block, never Wednesday B Block or Thursday A Block (duty); a Thursday default day moves to the next non-Thursday — and the list with reasons), **Mark drafted** (logs "PH draft — Unit 3 test 72" or "PH draft — class grade 68" once per student, with the draft day as the note, and hides them until the next import).
   - A student on several lines (two classes) is logged once per action; a second press the same day doesn't log again.
 - **T-TESS tab** (sidebar, under Insights; replaces the Settings-page version). Written for an administrator who has never seen the dashboard:
   - A date-stamped intro paragraph: what the dashboard is, what feeds it, that it refreshes weekly.

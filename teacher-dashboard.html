@@ -757,6 +757,8 @@ Your Unit [N] test score is below 80, so I want you to retest as soon as possibl
 
 I may draft you for Power Hour, but you can also just come in whenever works best for you. If I draft you and that day doesn't work, come in at your earliest availability.
 
+I'll usually draft you for A Block. If A Block doesn't work, you can come during B Block instead — any day except Wednesday B Block or Thursday A Block, when I have duty.
+
 Before you can retest, you must complete the retesting module. Bring these three things:
 1. Your completed Progress Check corrections.
 2. Your fill-in-the-blank notes — you'll show them to me.
@@ -840,6 +842,7 @@ function curYear(){ if (S().currentYear) return S().currentYear; const d = new D
 Object.values(DB.assignments).forEach(a => { if (!a.year) a.year = curYear(); });
 if (!DB.cb) DB.cb = {scores:[], ipr:[]}; if (!DB.cb.district) DB.cb.district = [];
 if (!DB.settings.rm80){ ['retestMsgCut','retestMsg','retestMsg2'].forEach(k => delete DB.settings[k]); DB.settings.rm80 = true; }   // one-time: retest messages moved from ≤70 to below 80
+if (!DB.settings.rm81){ ['retestMsg','retestMsg2'].forEach(k => delete DB.settings[k]); DB.settings.rm81 = true; }   // one-time: A Block / duty sentence added to the message
 const yearOf = a => a.year || curYear();
 
 const UI = { view: location.hash.slice(1) || 'overview', course:'all', period:'all', staar:'all', status:null, q:'', sort:'need',
@@ -1804,9 +1807,9 @@ function viewPhDrafts(m){
   const all = phDraftRows(m, kind).filter(r => matchQ(r.s)), rows = all.filter(r => !r.drafted && !r.hidden), excl = all.filter(r => r.drafted), hid = all.filter(r => !r.drafted && r.hidden);
   UI.pdRows = rows;
   const groups = {}; rows.forEach(r => (groups[r.cls] ||= []).push(r));
-  const nStud = new Set(rows.map(r=>r.s.key)).size, day = UI.draftDay || defaultDraftDay();
+  const nStud = new Set(rows.map(r=>r.s.key)).size;
   const row = r => `<div class="rmrow"><label><input type="checkbox" data-pd="${esc(r.id)}" checked aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">${esc(r.cls)}${r.s.ids[0]?` · ID ${esc(r.s.ids[0])}`:''}</span><span class="tag ${r.score < S().atRisk ? 'below' : 'missing'}">${esc(r.why)}</span><span class="minor pdmeta">last draft ${esc(r.lastDraft || '—')} · no-shows ${esc(String(r.noShows===''?'—':r.noShows))}</span><button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
-  return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())} · next: ${esc(day)}</div><h1>Power Hour drafts</h1>
+  return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())} · next: ${esc(pdDay())} · A Block</div><h1>Power Hour drafts</h1>
       <p>Build a draft list, then copy it for Claude to enter in the Tutorials sheet (or draft it yourself on the Power Hour page). Students already assigned for the upcoming Power Hour (profile "Power Hour assigned now") are left out. One line per student per class.</p></div>
     <div class="actions"><div class="tabs" role="group" aria-label="List">${PD_LISTS.map(l=>`<button aria-pressed="${l.id===kind}" data-pdlist="${l.id}">${l.label}</button>`).join('')}</div><button class="btn" data-go="power">Power Hour page →</button></div></div>
     <div class="strip"><div class="stat accent"><b>${nStud}</b><span>Students · ${esc(L.label.toLowerCase())}</span></div><div class="stat"><b>${rows.length}</b><span>Lines (student × class)</span></div><div class="stat"><b>${new Set(excl.map(r=>r.s.key)).size}</b><span>Already drafted (left out)</span></div><div class="stat"><b>${new Set(hid.map(r=>r.s.key)).size}</b><span>Marked drafted, hidden until next refresh</span></div></div>
@@ -1817,6 +1820,7 @@ function viewPhDrafts(m){
       ${hid.length ? `<p class="fine">Marked drafted since the last data refresh (hidden): ${[...new Set(hid.map(r=>r.s.name))].map(esc).join(', ')}</p>` : ''}</div></div>
     <p class="fine">"Mark drafted" logs "PH draft — reason" once per student in the contact log (a student on several lines is logged once) and hides them until the next data import.</p>`;
 }
+const pdDay = () => { const d0 = UI.draftDay || defaultDraftDay(); if (!/^Thu/.test(d0)) return d0; const labels = draftDays().map(dayLabel), i = labels.indexOf(d0); return labels.slice(i+1).find(x => !/^Thu/.test(x)) || labels.find(x => !/^Thu/.test(x)) || d0; };   // A Block drafts: Thursday A Block is duty
 const pdSelected = () => { const ids = new Set([...document.querySelectorAll('[data-pd]:checked')].map(x=>x.dataset.pd)); return (UI.pdRows||[]).filter(r => ids.has(r.id)); };
 
 /* ---------- Admin snapshot: one page, no names ---------- */
@@ -2801,10 +2805,10 @@ document.addEventListener('click', e => {
     sel.forEach(r => { const type = `Retest message · Unit ${r.u} · Canvas`, k = r.s.key+'|'+type; (DB.retestMsgs ||= {})[r.id] = now; if (seen.has(k) || (DB.contacts[r.s.key]||[]).some(c => c.type===type && new Date(c.at).toDateString()===day)) return; seen.add(k); (DB.contacts[r.s.key] ||= []).push({type, note:'', at:now}); n++; });
     save(); render(); return toast(`${plural(n,'retest message')} logged as sent`); }
   if (act==='pd-roster' || act==='pd-prompt' || act==='pd-drafted'){ const sel = pdSelected(); if (!sel.length) return toast('Tick at least one student');
-    const day = UI.draftDay || defaultDraftDay(), byStu = {}; sel.forEach(r => (byStu[r.s.key] ||= {s:r.s, list:[]}).list.push(r));
+    const day = pdDay(), byStu = {}; sel.forEach(r => (byStu[r.s.key] ||= {s:r.s, list:[]}).list.push(r));
     const lines = Object.values(byStu).map(({s, list}) => ({s, cls: list.map(r=>r.cls).join(' / '), why: [...new Set(list.map(r=>r.why))].join('; ')}));
     if (act==='pd-roster') return copyText(lines.map(l => `${l.s.name}\t${l.s.ids[0]||''}\t${l.cls}`).join('\n'), `${plural(lines.length,'student')} (name · ID · period)`);
-    if (act==='pd-prompt') return copyText(`Please draft these students for Power Hour in the PCHS Tutorials sheet (Google Sheet ${S().tutorialsSheet}) for ${day}. In each student's row (find them by student ID on the alphabet tab for their last name), put "${draftValue()}" in the ${day} column. Only fill a cell that is empty; if someone is already drafted that day, skip them and tell me.\n\nStudents (name · student ID · class period · reason):\n${lines.map((l,i)=>`${i+1}. ${l.s.name} · ${l.s.ids[0]||'(no ID)'} · ${l.cls} · ${l.why}`).join('\n')}\n\nWhen you're done, list who was drafted and who was skipped so I can press "Mark drafted" in my dashboard.`, 'Prompt for Claude');
+    if (act==='pd-prompt') return copyText(`Please draft these students for Power Hour in the PCHS Tutorials sheet (Google Sheet ${S().tutorialsSheet}) for ${day}. In each student's row (find them by student ID on the alphabet tab for their last name), choose the dropdown value "${S().draftName.trim()} A Block" in the ${day} column. Drafts are always A Block. Never draft for Wednesday B Block or Thursday A Block (I have duty). Only fill a cell that is empty; if someone is already drafted that day, skip them and tell me.\n\nStudents (name · student ID · class period · reason):\n${lines.map((l,i)=>`${i+1}. ${l.s.name} · ${l.s.ids[0]||'(no ID)'} · ${l.cls} · ${l.why}`).join('\n')}\n\nWhen you're done, list who was drafted and who was skipped so I can press "Mark drafted" in my dashboard.`, 'Prompt for Claude');
     const now = Date.now(), today0 = new Date().toDateString(); let n = 0;
     lines.forEach(l => { (DB.phDrafted ||= {})[l.s.key] = now; if ((DB.contacts[l.s.key]||[]).some(c => /^PH draft/.test(c.type) && new Date(c.at).toDateString()===today0)) return; (DB.contacts[l.s.key] ||= []).push({type:`PH draft — ${l.why}`, note:day, at:now}); n++; });
     save(); render(); return toast(`${plural(n,'student')} logged as drafted for ${day}`); }
