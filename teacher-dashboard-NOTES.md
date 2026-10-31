@@ -33,16 +33,18 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
 **School years:** assignments carry a year. Only the current year (August–July, for example 2026-27) counts anywhere on the dashboard. Older years appear only in **Compare years**, and last year's students never appear on the current roster.
 
 ## The rules (all adjustable in Settings)
-- **AP status** (the On track / Watch / Needs help tiles, the roster and the conference page) means one thing only: on pace to pass the AP exam. It is worked out **per class** (APHG, AP World, AP Euro alike) from **AP Classroom multiple-choice scores only**:
-  - **Counted:** progress-check MCQs, and MC unit tests and retests. A retest counts as its own test.
-  - **Left out:** FRQ, SAQ, LEQ and DBQ, and everything from Canvas or the Gradebook.
+- **AP status** (the On track / Watch / Needs help tiles, the roster and the conference page) means one thing only: on pace to pass the AP exam. It is worked out **per class** (APHG, AP World, AP Euro alike) from **one source of truth: AP Classroom unit MC tests and retests** (plus full-length mock MC when present):
+  - **Unit MC test** = source AP Classroom, "Unit N" in the name, and "test", "retest", "MC" or "MCQ". A retest counts as its own test, in order.
+  - **Raw scores only:** the AP Classroom raw % is used, never a curved Gradebook/TAC copy of the same test. Shown as "raw MC %".
+  - **Left out of the math (shown as context only):** Progress Check MCQs, FRQ/SAQ/LEQ/DBQ, and everything from Canvas or the Gradebook.
+  - **Settings toggle:** "Count progress checks in AP status" (default off) adds AP Classroom progress-check MCQs back in.
   - **Missing work** counts as 0 only when it's marked missing. Ungraded or blank work is skipped.
   - **Order:** by assignment order.
   - **AP on track:** MC average ≥ 55%, **or** the 2 most recent MC tests are both ≥ 55%.
   - **AP watch:** MC average from 45% to 54.9%, **or** only one of the last 2 MC tests is ≥ 55%.
   - **AP needs help:** MC average below 45%, and neither of the last 2 is ≥ 55%.
-  - **No AP data:** no AP Classroom MC yet (not counted as on track).
-  - **Each row shows the reason,** for example "AP on track: MC avg 58%" or "AP on track: last 2 MC 61%, 57% (avg 49%)".
+  - **No AP data:** no AP Classroom unit MC test yet (not counted as on track).
+  - **Each row shows the reason,** for example "AP on track: raw MC avg 58%" or "AP on track: last 2 raw MC 61%, 57% (avg 49%)".
   - **Students in two classes** get a status for each class. The tiles and filters use the student's lowest status.
   - **Settings:** AP on-track % (55), recent MC tests needed (2), AP watch band (10 points).
 - **Context only,** never changing AP status: class grades, missing work, dropping, platform gap, AP projection, GPA, attendance, zeros, Power Hour, STAAR, TIA, PSAT/SAT, school watch flags, near-cutoff classes. These show as chips on the roster and in full on the conference page.
@@ -50,19 +52,21 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
 - **Class-grade cutoff (70):** used for the Power Hour list and the "Below 70" context chip.
 - **Dropping:** the average of the last 3 scores is 8 or more points below the average of the earlier scores. It needs 6 or more scores.
 - **Platform gap:** platform averages 15 or more points apart. Each platform needs 2 or more scores, and missing work is left out of this check.
-- **Retests:** tests and progress checks scored under 80 (the Frisco retest cap). Missing work isn't included. Never treated as tests: "Corrections", "TURN IN HERE", the LockDown Browser test, and "Fill in the Blank Review".
+- **Retests (retest priority):** AP Classroom unit MC tests (raw %) scored under 80 (the Frisco retest cap). Progress checks, writing, Canvas and Gradebook items are not listed. A test drops off once a same-unit AP Classroom retest is imported, or when ticked. Missing work isn't included. Never treated as tests: "Corrections", "TURN IN HERE", the LockDown Browser test, and "Fill in the Blank Review".
 - **Power Hour list:** anyone under 70 in any class, grouped by class period.
 - **Assignment types** (used by Compare, the Unit Tracker and AP projection):
   - Writing = SAQ, LEQ, DBQ or FRQ in the name.
-  - Progress Check = "progress check" in the name, except vocabulary ones.
-  - Unit Test = "test", "retest", "MC" or "MCQ".
+  - Progress Check = "progress check" or "PC" in the name.
+  - Unit MC test = AP Classroom + "Unit N" + "test", "retest", "MC" or "MCQ" (not a PC, not writing, not a mock).
+- **Compare years:** the Progress Check and Unit Test tabs use AP Classroom raw MC only. Each average shows n (students · tests) and a fine-print line naming the source and active filters.
+- **Unit Tracker** (conference page): per unit, Test (raw MC %) | Retest | Best | Class avg | PC (not counted, greyed).
 - **Units:** taken from "Unit N", "UN", or a topic number such as "Topic Check: 2.3" (Unit 2).
 - **AP projection:**
-  1. **Unit MC projection** (all year): the weighted average of AP Classroom multiple-choice scores (not writing, not mocks). Unit N carries weight 1 + (N − 1) × 0.5. Writing is ignored unless "Include unit writing" is turned on in Settings.
+  1. **Unit MC projection** (all year): the weighted average of AP Classroom unit MC tests and retests, raw % (no writing, no progress checks, no mocks). Unit N carries weight 1 + (N − 1) × 0.5.
   2. **Mock projection:** used when assignments named Mock / Practice Exam / Full-length exist. Mock MC = the average of the full-length MC tests. Mock writing = the practice-test FRQ / SAQ / DBQ / LEQ scores. These are combined with the College Board weights (editable in Settings): APHG MC 50 / FRQ 50; AP World and AP Euro MC 40 / SAQ 20 / DBQ 25 / LEQ 15. A missing part is left out and the rest scaled up, with a note such as "(no DBQ yet)".
   3. Once a mock exists it is the headline (badge "Mock"), and the Unit MC projection is shown alongside.
   4. The composite maps to a score: 85+ → 5, 70+ → 4, 55+ → 3, 40+ → 2, otherwise 1. Missing work is left out.
-  5. **Compare years:** a "Mock projection vs. actual AP score" grid compares each student's prior-year mock projection with their actual AP score (Profile "Prior AP score" or "AP scores"), showing the exact-match and within-1 rates.
+  5. **Compare years:** a "Mock projection vs. actual AP score" grid compares each student's prior-year mock projection with their actual AP score (Profile "Prior AP score" or "AP scores"), showing the exact-match and within-1 rates. A class-level line also compares against the imported College Board AP score summary.
 - **Overview:**
   - Status tiles (On Track / Watch / Needs Help / AP exam unpaid); tapping one filters the roster.
   - Roster, and "Grab these kids" with reason tags and last parent contact.
@@ -130,4 +134,5 @@ The claude.ai artifact frame blocks several browser features, so the page works 
 - Data lives in one browser. Use **Back up…** in Settings to move it.
 - **Undo last import** keeps only one step.
 - Power Hour drafting has been tested against a mock of the sheet layout, not yet against the live sheet.
-- Vocabulary Progress Checks still appear in Retests when under 80. Whether they should is the teacher's call.
+- Progress checks no longer appear in Retests; only AP Classroom unit MC tests do.
+- If the other chat imports only the Gradebook copy of a unit test (curved), it won't count. The AP Classroom raw score must be imported with "Unit N" in the name.

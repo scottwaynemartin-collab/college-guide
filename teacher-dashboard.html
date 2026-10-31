@@ -584,6 +584,7 @@ textarea.confnote{width:100%;min-height:150px;border:1.5px solid var(--line2);bo
 .aprowc{display:flex;gap:14px;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}
 .aprowc:last-of-type{border-bottom:0}
 .projpair{display:flex;flex-direction:column;gap:2px;margin-top:6px;font-size:12px}
+.pcnc{color:var(--ink3)!important;background:var(--empty)}
 .nchip.recent{box-shadow:inset 0 0 0 2px var(--ink)}
 .printonly{display:none}
 .cell.nearc{background:var(--tq-soft);box-shadow:inset 0 0 0 1px rgba(0,178,169,.5)}.cell.nearc b{color:var(--tq-ink)}
@@ -714,7 +715,8 @@ const CONFIG = {
   apScale: [[85,5],[70,4],[55,3],[40,2],[0,1]],
   apRecency: 0.5,             // Unit N counts 1 + (N-1)×this, so recent units weigh more
   mcWeight: {'APHG':0.5, 'AP World':0.4, 'AP Euro':0.4, default:0.5},   // MC share when writing is turned on for the unit projection
-  apWriting: false,           // unit projection: AP Classroom MC only until this is turned on in Settings
+  apWriting: false,           // (kept for old saved settings; the unit projection never uses writing)
+  apCountPC: false,           // count AP Classroom Progress Check MCQs in AP status (off = unit MC tests/retests only)
   // Mock exam mode: official College Board exam weights per course (editable in Settings)
   examWeights: {'APHG':'MC 50, FRQ 50', 'AP World':'MC 40, SAQ 20, DBQ 25, LEQ 15', 'AP Euro':'MC 40, SAQ 20, DBQ 25, LEQ 15'},
   mockPattern: '\\bmock\\b|practice exam|full[- ]?length',
@@ -826,7 +828,7 @@ function assignCourse(name, crs){
 const NOT_GRADED_WORK = /correction|turn in here|lock ?down browser test|make sure (yours|it) works|fill in the blank review/i;   // completion items, never tests
 const isTest = name => !NOT_GRADED_WORK.test(bare(name)) && new RegExp(S().retestPattern, 'i').test(bare(name));
 /* Compare & AP projection: assignment type and unit from the name */
-const TYPES = [{id:'pc', label:'Progress Check', sub:'MCQ'}, {id:'test', label:'Unit Test', sub:'MC test / retest / MCQ'}, {id:'writing', label:'Writing', sub:'SAQ / LEQ / DBQ / FRQ'}];
+const TYPES = [{id:'pc', label:'Progress Check', sub:'AP Classroom MCQ · raw'}, {id:'test', label:'Unit Test', sub:'AP Classroom MC test / retest · raw'}, {id:'writing', label:'Writing', sub:'SAQ / LEQ / DBQ / FRQ · context'}];
 function typeOf(name){ const b = bare(name); if (NOT_GRADED_WORK.test(b)) return null; if (/\b(saq|leq|dbq|frq)s?\b/i.test(b)) return 'writing'; if (/progress check|\bpc\b/i.test(b)) return /vocab/i.test(b) ? null : 'pc'; if (/\b(test|retest|mcq?|mc test)\b/i.test(b)) return 'test'; return null; }
 function unitOf(name){ const b = bare(name), m = b.match(/\b(?:unit|u)\s*0?(\d{1,2})\b/i) || b.match(/\btopics?(?:\s+check)?:?\s*(\d{1,2})\.\d/i); return m ? +m[1] : null; }
 const isMock = name => new RegExp(S().mockPattern, 'i').test(bare(name));
@@ -837,9 +839,9 @@ const scaleScore = comp => (S().apScale.find(([min]) => comp >= min) || [0,1])[1
 function apProject(course, pts){
   const st = S(), w = p => { const u = unitOf(p.a.name); return u ? 1 + (u-1)*st.apRecency : 1; };
   const wavg = arr => { const W = arr.reduce((t,p)=>t+w(p),0); return arr.reduce((t,p)=>t+p.p*w(p),0)/W; };
-  const mc = pts.filter(p => !p.m && p.a.source==='AP Classroom' && typeOf(p.a.name)!=='writing' && !isMock(p.a.name));
+  const mc = pts.filter(p => !p.m && isUnitMC(p.a));
   if (!mc.length) return null;
-  const wr = st.apWriting ? pts.filter(p => !p.m && typeOf(p.a.name)==='writing' && !isMock(p.a.name)) : [];
+  const wr = [];   // unit projection never uses writing
   const mcPct = wavg(mc), wrPct = wr.length ? wavg(wr) : null, mw = st.mcWeight[course] ?? st.mcWeight.default ?? .5;
   const comp = wrPct==null ? mcPct : mcPct*mw + wrPct*(1-mw);
   return {kind:'Unit MC', mcPct, wrPct, comp, mw, score:scaleScore(comp), nMc:mc.length, nWr:wr.length};
@@ -858,19 +860,25 @@ function mockProject(course, pts){
 }
 /* AP status for one class: AP Classroom MC only (progress-check MCQs, MC tests, retests as their own tests).
    Writing (FRQ/SAQ/LEQ/DBQ), Canvas and Gradebook are left out. Missing counts as 0 only when marked missing. */
-const isApMC = a => a.source==='AP Classroom' && typeOf(a.name)!=='writing' && !NOT_GRADED_WORK.test(bare(a.name));
+/* SINGLE SOURCE OF TRUTH: AP Classroom unit multiple-choice tests and retests (raw % = correct ÷ total).
+   Gradebook/TAC copies of the same test are curved and never used; Progress Check MCQs, writing, Canvas and Gradebook are context only. */
+const isPC = a => /progress check|\bpc\b/i.test(bare(a.name));
+const isRetest = a => /\bretest\b/i.test(bare(a.name));
+const isUnitMC = a => a.source==='AP Classroom' && !!unitOf(a.name) && /\b(test|retest|mcq?)\b/i.test(bare(a.name)) && !isPC(a) && typeOf(a.name)!=='writing' && !isMock(a.name) && !NOT_GRADED_WORK.test(bare(a.name));
+const isMockMC = a => isMock(a.name) && typeOf(a.name)!=='writing';
+const isApMC = a => isUnitMC(a) || isMockMC(a) || (S().apCountPC && a.source==='AP Classroom' && isPC(a) && typeOf(a.name)!=='writing');
 function apStatus(pts){
   const st = S(), cut = +st.apOnTrack, n = Math.max(1, Math.round(+st.apRecent || 2)), band = +st.apBand;
   const mc = pts.filter(p => isApMC(p.a));
   const pr = v => (Math.round(v) >= cut && v < cut) ? fmt(v,1)+'%' : p0(v);
-  if (!mc.length) return {status:'none', reason:'No AP Classroom MC yet', mc, last:[], avg:null};
+  if (!mc.length) return {status:'none', reason:'No AP Classroom unit MC test yet', mc, last:[], avg:null};
   const avg = mean(mc.map(p=>p.p)), last = mc.slice(-n), full = last.length === n, nOk = last.filter(p=>p.p>=cut).length, L = last.map(p=>pr(p.p)).join(', ');
   let status, reason;
-  if (avg >= cut) { status = 'ok'; reason = `MC avg ${pr(avg)}`; }
-  else if (full && nOk === n) { status = 'ok'; reason = `last ${n} MC ${L} (avg ${pr(avg)})`; }
-  else if (avg >= cut - band) { status = 'watch'; reason = `MC avg ${pr(avg)}${full?` · last ${n}: ${L}`:''}`; }
-  else if (full && nOk > 0) { status = 'watch'; reason = `${nOk} of last ${n} MC ≥ ${cut}% (${L}; avg ${pr(avg)})`; }
-  else { status = 'help'; reason = `MC avg ${pr(avg)}${last.length>1?` · last ${last.length}: ${L}`:''}`; }
+  if (avg >= cut) { status = 'ok'; reason = `raw MC avg ${pr(avg)}`; }
+  else if (full && nOk === n) { status = 'ok'; reason = `last ${n} raw MC ${L} (avg ${pr(avg)})`; }
+  else if (avg >= cut - band) { status = 'watch'; reason = `raw MC avg ${pr(avg)}${full?` · last ${n}: ${L}`:''}`; }
+  else if (full && nOk > 0) { status = 'watch'; reason = `${nOk} of last ${n} raw MC ≥ ${cut}% (${L}; avg ${pr(avg)})`; }
+  else { status = 'help'; reason = `raw MC avg ${pr(avg)}${last.length>1?` · last ${last.length}: ${L}`:''}`; }
   return {status, reason, mc, last, avg};
 }
 function projText(c){
@@ -1103,7 +1111,7 @@ function retestRows(m){
   const cap = S().retestCap, out = [], seen = new Set();
   m.studs.forEach(s => s.cs.forEach(c => c.pts.forEach(p => {
     const k = s.key + '|' + p.a.id;
-    if (!p.m && p.p < cap && isTest(p.a.name) && !seen.has(k)){ seen.add(k); out.push({s, cls:c.cls, a:p.a, p:p.p, k, done:!!DB.retestDone[k]}); }
+    if (!p.m && p.p < cap && isUnitMC(p.a) && !isRetest(p.a) && !seen.has(k)){ const retaken = c.pts.some(x => isRetest(x.a) && isUnitMC(x.a) && unitOf(x.a.name)===unitOf(p.a.name)); seen.add(k); out.push({s, cls:c.cls, a:p.a, p:p.p, k, done:!!DB.retestDone[k] || retaken}); }
   })));
   return out;
 }
@@ -1217,7 +1225,7 @@ function viewOverview(m){
     <div class="hero-head"><div>
       <div class="eyebrow"><i></i>${today()}</div>
       <h1>${UI.course==='all'&&UI.period==='all'&&UI.staar==='all' ? `${hi}${S().teacherName?', '+esc(S().teacherName):''}` : esc(scopeLabel())}</h1>
-      <p>${m.studs.length} students · AP status from AP Classroom MC only${m.counts.help?` · <b>${m.counts.help}</b> AP needs help`:''}${m.counts.none?` · <b>${m.counts.none}</b> no AP MC yet`:''}${rt.length?` · <b>${rt.length}</b> retests open`:''}</p>
+      <p>${m.studs.length} students · AP status from AP Classroom unit MC tests (raw)${m.counts.help?` · <b>${m.counts.help}</b> AP needs help`:''}${m.counts.none?` · <b>${m.counts.none}</b> no AP MC yet`:''}${rt.length?` · <b>${rt.length}</b> retests open`:''}</p>
       <div class="syncs">${syncs.map(({p,i})=>{ const stale=(Date.now()-i.at)>S().staleDays*864e5; return `<span class="sync${stale?' stale':''}" data-tip="${esc(p.id)}: last import ${new Date(i.at).toLocaleString()}"><i style="background:${p.color}"></i>${esc(p.id)} · ${ago(i.at)}</span>`; }).join('')}</div>
     </div>
     <div class="actions"><button class="btn" data-act="copy-summary">Copy weekly summary</button><button class="btn" data-act="export">Export CSV</button><button class="btn pri" data-go="import">＋ Update data</button></div></div>
@@ -1227,7 +1235,7 @@ function viewOverview(m){
     <section class="card w8"><div class="ch"><h2>${UI.status ? STATUS[UI.status].label : 'Roster'}</h2><span class="count">${list.length}</span>
         ${UI.status?`<button class="link" data-status="${UI.status}">Clear filter ✕</button>`:''}<span class="sp"></span>
         <label class="sr" for="sortSel">Sort</label><select class="btn sm" id="sortSel">${[['need','Most need first'],['low','Lowest average'],['high','Highest average'],['missing','Most missing'],['name','Name A–Z']].map(([v,l])=>`<option value="${v}" ${UI.sort===v?'selected':''}>${l}</option>`).join('')}</select></div>
-      <div class="cb">${list.length ? `<div class="rhead"><span>Student</span><span>AP status (AP Classroom MC)</span><span>Class grade</span><span>Missing</span><span>Context</span></div>
+      <div class="cb">${list.length ? `<div class="rhead"><span>Student</span><span>AP status (AP Classroom raw MC)</span><span>Class grade</span><span>Missing</span><span>Context</span></div>
  ${list.slice(0, UI.showAll ? list.length : 30).map(rosterRow).join('')}
         ${list.length > 30 && !UI.showAll ? `<div style="text-align:center;padding:12px"><button class="btn sm" data-act="show-all">Show all ${list.length}</button></div>` : ''}` : `<div class="empty">${UI.q?`No one matches “${esc(UI.q)}”.`:'No students in this group.'}</div>`}</div></section>
     <div class="w4" style="display:flex;flex-direction:column;gap:16px;min-width:0">
@@ -1298,7 +1306,7 @@ function viewRetests(m){
         <td><div class="namechips">${t.rows.sort((a,b)=>a.p-b.p).map(r=>`<button class="nchip" data-student="${esc(r.s.key)}">${esc(r.s.name)}<b>${p0(r.p)}</b></button>`).join('')}</div></td></tr>`).join('')}</tbody></table></div></div>`;
   }
   return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())}</div><h1>Retests</h1>
-      <p>Tests and progress checks scored under ${cap}. Frisco caps retests at ${cap}, so anyone below it has points to gain. Tick a test when the retest is done.</p></div>
+      <p>AP Classroom unit MC tests (raw %) under ${cap}. Frisco caps retests at ${cap}, so anyone below it has points to gain. A test drops off once a retest for that unit is imported, or when you tick it.</p></div>
     <div class="actions"><div class="tabs" role="group" aria-label="Group by"><button aria-pressed="${UI.retestBy==='student'}" data-retestby="student">By student</button><button aria-pressed="${UI.retestBy==='test'}" data-retestby="test">By test</button></div>
     ${nDone?`<button class="btn sm" data-act="toggle-done">${UI.showDone?'Hide':'Show'} ${nDone} done</button>`:''}<button class="btn" data-act="copy-retests">Copy list</button><button class="btn blk" data-act="print-retests">${PRINT}</button></div></div>
     <div class="strip"><div class="stat accent"><b>${rows.length}</b><span>Retests open</span></div><div class="stat"><b>${studs.length}</b><span>Students</span></div><div class="stat"><b>${tests.length}</b><span>Tests involved</span></div><div class="stat"><b>${gain==null?'—':'+'+Math.round(gain)}</b><span>Avg points to gain</span></div></div>
@@ -1353,7 +1361,7 @@ function viewCompare(m){
   if (!course) return `<div class="phead"><div><h1>Compare years</h1></div></div><div class="card"><div class="empty">No data yet.</div></div>`;
   const multi = all.length > 1;
   const as = Object.values(DB.assignments).filter(a => !a.hidden && (aC[a.id] ? aC[a.id]===course : !multi))
-    .map(a => ({a, type:typeOf(a.name), unit:unitOf(a.name), year:yearOf(a)})).filter(x => x.type && x.unit);
+    .map(a => ({a, type: isUnitMC(a) ? 'test' : (a.source==='AP Classroom' && isPC(a) && typeOf(a.name)!=='writing') ? 'pc' : typeOf(a.name)==='writing' ? 'writing' : null, unit:unitOf(a.name), year:yearOf(a)})).filter(x => x.type && x.unit);
   const years = [...new Set(as.map(x=>x.year))].sort((a,b)=> a===cur ? -1 : b===cur ? 1 : b.localeCompare(a));
   const ycol = y => ['var(--s1)','var(--s2)','var(--s3)','var(--s4)'][Math.min(years.indexOf(y),3)];
   const curKeys = new Set(m.studs.map(s=>s.key));
@@ -1365,7 +1373,7 @@ function viewCompare(m){
       if (only ? k!==only : (year===cur && !curKeys.has(k))) continue;
       ids.forEach(id => { const v = sc[id]; if (v && !v.x && !v.m && v.p!=null) ps.push(v.p); });
     }
-    return ps.length ? {avg:mean(ps), n:ps.length, k:ids.length} : null;
+    return ps.length ? {avg:mean(ps), n:ps.length, k:ids.length, students: new Set(Object.entries(DB.scores).filter(([k2, sc2]) => (only ? k2===only : (year!==cur || curKeys.has(k2))) && ids.some(id => sc2[id] && !sc2[id].x && !sc2[id].m && sc2[id].p!=null)).map(([k2])=>k2)).size} : null;
   };
   const types = UI.cmpType==='all' ? TYPES : TYPES.filter(t=>t.id===UI.cmpType);
   const prior = years.find(y=>y!==cur);
@@ -1382,9 +1390,10 @@ function viewCompare(m){
     }).join('');
     const rows = units.map(u => { const c = years.map(y=>cell(t.id,u,y)), st = stuKey ? cell(t.id,u,cur,stuKey) : null;
       const d = c[0] && years[0]===cur && c[1] ? c[0].avg - c[1].avg : null;
-      return `<tr><td><b>U${u}</b></td>${c.map(x=>`<td class="r num">${x?p0(x.avg):'—'}</td>`).join('')}${prior?`<td class="r">${d==null?'—':`<span class="delta ${d>=0?'up':'down'}">${d>=0?'+':''}${Math.round(d)}</span>`}</td>`:''}${stuKey?`<td class="r num"><b>${st?p0(st.avg):'—'}</b></td>`:''}</tr>`; }).join('');
+      return `<tr><td><b>U${u}</b></td>${c.map(x=>`<td class="r num">${x?`${p0(x.avg)}<div class="minor">${x.students} st · ${x.k} test${x.k===1?'':'s'}</div>`:'—'}</td>`).join('')}${prior?`<td class="r">${d==null?'—':`<span class="delta ${d>=0?'up':'down'}">${d>=0?'+':''}${Math.round(d)}</span>`}</td>`:''}${stuKey?`<td class="r num"><b>${st?p0(st.avg):'—'}</b></td>`:''}</tr>`; }).join('');
     return `<section class="card ${types.length>1?'w4':'w12'}"><div class="ch"><h2>${t.label}</h2><span class="sub">${t.sub}</span></div><div class="cb">
       <div class="gchart"><div class="yax">${[100,75,50,25,0].map(v=>`<div style="top:${100-v}%"><span>${v}</span></div>`).join('')}</div><div class="ggroups">${groups}</div></div>
+      <p class="fine" style="margin:6px 0 0">${t.id==='writing'?'Writing (any platform) · context only, not in AP status':'AP Classroom raw MC only (Gradebook / TAC copies excluded)'} · ${esc(course)}${UI.period!=='all'?' · '+esc(UI.period)+' (this year)':''}${UI.staar!=='all'||UI.apf!=='all'||UI.quart!=='all'||UI.flagsOnly?' · roster filters on':''} · missing not counted</p>
       <table class="t" style="margin-top:10px"><thead><tr><th>Unit</th>${years.map(y=>`<th class="r"><span class="dot" style="background:${ycol(y)}"></span>${esc(y)}</th>`).join('')}${prior?'<th class="r">Δ</th>':''}${stuKey?'<th class="r">Student</th>':''}</tr></thead><tbody>${rows}</tbody></table></div></section>`;
   };
   return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(course)}${UI.period!=='all'?' · '+esc(UI.period)+' (this year)':''}</div><h1>Compare years</h1>
@@ -1418,12 +1427,14 @@ function mockVsActualCard(course){
     priorYears.forEach(y => { const pts = Object.values(DB.assignments).filter(a => yearOf(a)===y && !a.hidden && (aC[a.id] ? aC[a.id]===course : !multi)).sort((a,b)=>a.order-b.order)
       .map(a => ({a, v: sc[a.id]})).filter(x => x.v && !x.v.x && x.v.p!=null).map(x => ({a:x.a, p:x.v.p, m:!!x.v.m}));
       const mk = mockProject(course, pts); if (mk) rows.push({k, y, mk, actual}); }); });
+  if (!rows.length && latestScore(course, cur)) { const sr = latestScore(course, cur); return `<section class="card w12"><div class="ch"><h2>Mock projection vs. actual AP score</h2><span class="sub">prior years · ${esc(course)}</span></div><div class="cb"><p class="note" style="margin:0">Actual ${esc(examLabel(sr.year))}: <b>${p0(sr.pass)}</b> scored 3+ (${sr.n} students). Import last year's mock / practice-exam scores (School year ${esc(priorYears[0]||'2025-26')}) to compare each student's mock projection.</p></div></section>`; }
   if (!rows.length) return `<section class="card w12"><div class="ch"><h2>Mock projection vs. actual AP score</h2><span class="sub">prior years · ${esc(course)}</span></div><div class="cb"><div class="empty">Needs last year's mock / practice-exam scores (imported with School year = ${esc(priorYears[0]||'e.g. 2025-26')}) and the students' actual AP scores (Profile column "Prior AP score" or "AP scores").</div></div></section>`;
-  const diffs = rows.map(r => r.mk.score - r.actual), exact = diffs.filter(d => d===0).length, within = diffs.filter(d => Math.abs(d)<=1).length;
+  const diffs = rows.map(r => r.mk.score - r.actual), sumRow = latestScore(course, cur), mock3 = rows.length ? rows.filter(r=>r.mk.score>=3).length/rows.length*100 : null, exact = diffs.filter(d => d===0).length, within = diffs.filter(d => Math.abs(d)<=1).length;
   return `<section class="card w12"><div class="ch"><h2>Mock projection vs. actual AP score</h2><span class="sub">prior years · ${esc(course)} · how well the mock predicts</span></div><div class="cb">
     <div class="strip" style="margin-bottom:10px"><div class="stat accent"><b>${Math.round(exact/rows.length*100)}%</b><span>Exact match</span></div><div class="stat"><b>${Math.round(within/rows.length*100)}%</b><span>Within 1 point</span></div><div class="stat"><b>${(mean(diffs)>=0?'+':'')+fmt(mean(diffs),2)}</b><span>Avg mock − actual</span></div><div class="stat"><b>${rows.length}</b><span>Students compared</span></div></div>
     <table class="t"><thead><tr><th>Projected (mock)</th>${[1,2,3,4,5].map(n=>`<th class="r">Actual ${n}</th>`).join('')}</tr></thead><tbody>${[5,4,3,2,1].map(pn=>`<tr><td>${apBadgeScore(pn)}</td>${[1,2,3,4,5].map(an=>{ const c = rows.filter(r=>r.mk.score===pn && r.actual===an).length; return `<td class="r num" style="${pn===an&&c?'font-weight:900;color:var(--ok-ink)':''}">${c||''}</td>`; }).join('')}</tr>`).join('')}</tbody></table>
-    <p class="fine">Each student's ${esc(course)} mock projection from a prior school year, compared with the AP score they actually earned. Diagonal = exact match.</p></div></section>`;
+    ${sumRow?`<p class="note" style="margin:10px 0 0">Class level: last year's mocks projected <b>${p0(mock3)}</b> 3+ · actual <b>${p0(sumRow.pass)}</b> 3+ (${esc(examLabel(sumRow.year))} score report, ${sumRow.n} students).</p>`:''}
+    <p class="fine">Each student's ${esc(course)} mock projection from a prior school year, compared with the AP score they actually earned (Prior AP score / AP scores in the profile). Diagonal = exact match.</p></div></section>`;
 }
 
 function viewAP(m){
@@ -1564,7 +1575,7 @@ function ttessFor(cls){
   const unitScores = {}; rows.forEach(r => r.c.ap.mc.forEach(x => { const u = unitOf(x.a.name); if (u) (unitScores[u] ||= []).push({k:r.k, p:x.p}); }));
   const reteach = Object.entries(unitScores).map(([u, arr]) => ({u:+u, avg: mean(arr.map(a=>a.p))})).filter(t => t.avg < cut).sort((a,b)=>a.u-b.u);
   const groups = Object.entries(unitScores).map(([u, arr]) => new Set(arr.filter(a=>a.p<cut).map(a=>a.k)).size).filter(x => x >= 2);
-  const retest = rows.reduce((t, r) => t + r.c.pts.filter(x => !x.m && x.p < st.retestCap && isTest(x.a.name) && !DB.retestDone[r.k+'|'+x.a.id]).length, 0);
+  const retest = rows.reduce((t, r) => t + r.c.pts.filter(x => !x.m && x.p < st.retestCap && isUnitMC(x.a) && !isRetest(x.a) && !DB.retestDone[r.k+'|'+x.a.id] && !r.c.pts.some(y => isRetest(y.a) && isUnitMC(y.a) && unitOf(y.a.name)===unitOf(x.a.name))).length, 0);
   const full = rows.filter(r => r.p.staarPct!=null && r.p.tiaBoy && (r.p.w1 || r.p.uw1)).length, priorAp = rows.filter(r => r.p.priorAp).length;
   const phDrafts = rows.reduce((t,r) => t + (pnum(r.p.phDrafts) || 0), 0), phAtt = rows.reduce((t,r) => t + (pnum(r.p.phAttended) || 0), 0), dashDrafts = rows.reduce((t,r) => t + (DB.drafts[r.k]||[]).length, 0);
   const goalSet = rows.filter(r => (DB.agency[r.k]?.form?.goal || '').trim()).length;
@@ -1618,7 +1629,7 @@ function viewSettings(){
         <div class="row2">${f('setTitle','Dashboard title',s.title)}${f('setName','Your name for the greeting',s.teacherName,'text','placeholder="e.g. Mr. Martin"')}</div>
         <div class="note" style="margin-bottom:10px"><b>AP status</b> uses AP Classroom multiple-choice scores only. On track if the MC average ≥ on-track %, or the most recent N MC tests are all ≥ on-track %. Watch if the average is within the watch band, or some (not all) of the recent tests are ≥ on-track %. Otherwise needs help.</div>
         <div class="row3">${f('setApPct','AP on-track % (MC)',s.apOnTrack,'number','min="0" max="100"')}${f('setApRecent','Recent MC tests needed',s.apRecent,'number','min="1" max="10"')}${f('setApBand','AP watch band (points)',s.apBand,'number','min="0" max="40"')}</div>
-        <label class="toggle" style="border:0;padding:0 0 10px"><input type="checkbox" id="setApWriting" ${s.apWriting?'checked':''}> Include unit writing (FRQ/SAQ/DBQ/LEQ) in the Unit MC projection <span class="minor">(off = AP Classroom MC only)</span></label>
+        <label class="toggle" style="border:0;padding:0 0 10px"><input type="checkbox" id="setApCountPC" ${s.apCountPC?'checked':''}> Count progress checks in AP status <span class="minor">(off = AP Classroom unit MC tests and retests only, raw %)</span></label>
         <div class="row3">${['APHG','AP World','AP Euro'].map(c=>f('setW_'+c.replace(/\s+/g,'_'),`Mock exam weights · ${c}`,s.examWeights[c]||'','text','placeholder="MC 40, SAQ 20, DBQ 25, LEQ 15"')).join('')}</div>
         <div class="row3">${f('setRisk','Class-grade cutoff (%)',s.atRisk,'number','min="0" max="100"')}${f('setCap','Retest cap (%)',s.retestCap,'number','min="0" max="100"')}${f('setMiss','Missing = conversation starter',s.missingForHelp,'number','min="1" max="20"')}</div>
         <div class="row3">${f('setDrop','“Dropping” at (points)',s.dropPts,'number','min="1" max="50"')}${f('setGap','“Platform gap” at (points)',s.gapPts,'number','min="1" max="60"')}</div>
@@ -1714,10 +1725,15 @@ function openStudent(key, fresh){
   const apChip = p.apExam ? `<span class="flag ${p.apExam==='unpaid'?'red':p.apExam==='paid'?'ok':'gray'}">AP exam: ${p.apExam==='unpaid'?'$ ':''}${AP_EXAM[p.apExam]}</span>` : '';
   const pcs = s.pts.filter(x => x.a.source==='AP Classroom' && /progress check/i.test(bare(x.a.name)));
   const psat = testHistory(p.psatHist), sat = testHistory(p.satHist);
-  const units = c => { const u = {}; c.pts.forEach(x => { const n = unitOf(x.a.name), t = typeOf(x.a.name); if (!n) return; (u[n] ||= {pts:[], pc:[], test:[], wr:[], miss:0}); u[n].pts.push(x); if (x.m) { u[n].miss++; return; } if (t) u[n][t==='writing'?'wr':t].push(x.p); }); return Object.entries(u).sort((a,b)=>a[0]-b[0]); };
-  const tracker = c => { const rows = units(c); if (!rows.length) return `<div class="minor">No unit-tagged assignments for ${esc(c.cls||'this class')} yet.</div>`;
-    return `<table class="ft"><thead><tr><th>Unit</th><th class="r">Progress check</th><th class="r">Unit test (raw)</th><th class="r">Writing</th><th class="r">Missing</th><th class="r">AP proj.</th></tr></thead><tbody>${rows.map(([u, d]) => { const pj = apProject(c.course, d.pts);
-      return `<tr><td><b>U${u}</b></td><td class="r num">${d.pc.length?p0(mean(d.pc)):'—'}</td><td class="r num">${d.test.length?p0(mean(d.test)):'—'}</td><td class="r num">${d.wr.length?p0(mean(d.wr)):'—'}</td><td class="r num" style="${d.miss?'color:var(--help-ink);font-weight:800':''}">${d.miss||''}</td><td class="r">${pj?apBadgeScore(pj.score):'<span class="minor">—</span>'}</td></tr>`; }).join('')}</tbody></table>`; };
+  const units = c => { const u = {}; c.pts.forEach(x => { const n = unitOf(x.a.name); if (!n) return; const r = (u[n] ||= {test:[], retest:[], pc:[]});
+      if (isUnitMC(x.a)) (isRetest(x.a) ? r.retest : r.test).push(x.m ? 0 : x.p); else if (x.a.source==='AP Classroom' && isPC(x.a) && typeOf(x.a.name)!=='writing') r.pc.push(x.m ? 0 : x.p); }); return Object.entries(u).filter(([,r]) => r.test.length||r.retest.length||r.pc.length).sort((a,b)=>a[0]-b[0]); };
+  const classUnitAvg = (cls, course, u) => { const ids = Object.values(DB.assignments).filter(a => !a.hidden && yearOf(a)===curYear() && isUnitMC(a) && !isRetest(a) && unitOf(a.name)===+u && (!aCourseMap()[a.id] || aCourseMap()[a.id]===course)).map(a=>a.id); const ps = [];
+      Object.entries(DB.students).forEach(([k2, st2]) => { if (!st2.classes.includes(cls)) return; ids.forEach(id => { const v = (DB.scores[k2]||{})[id]; if (v && !v.x && v.p!=null) ps.push(v.p); }); }); return ps.length ? mean(ps) : null; };
+  const tracker = c => { const rows = units(c); if (!rows.length) return `<div class="minor">No AP Classroom unit tests for ${esc(c.cls||'this class')} yet.</div>`;
+    const cut = S().apOnTrack, col = v => v==null ? '' : v < cut ? 'color:var(--help-ink);font-weight:800' : '';
+    return `<table class="ft"><thead><tr><th>Unit</th><th class="r">Test (raw MC %)</th><th class="r">Retest</th><th class="r">Best</th><th class="r">Class avg</th><th class="r pcnc">PC (not counted)</th></tr></thead><tbody>${rows.map(([u, d]) => { const t = d.test.length ? d.test[0] : null, rt = d.retest.length ? Math.max(...d.retest) : null, best = [t, rt].filter(v=>v!=null).length ? Math.max(...[t, rt].filter(v=>v!=null)) : null, ca = classUnitAvg(c.cls, c.course, u);
+      return `<tr><td><b>U${u}</b></td><td class="r num" style="${col(t)}">${t==null?'—':p0(t)}</td><td class="r num" style="${col(rt)}">${rt==null?'—':p0(rt)}</td><td class="r num" style="font-weight:800;${col(best)}">${best==null?'—':p0(best)}</td><td class="r num">${ca==null?'—':p0(ca)}</td><td class="r num pcnc">${d.pc.length?p0(mean(d.pc)):'—'}</td></tr>`; }).join('')}</tbody></table>
+      <p class="fine">Raw % from AP Classroom (correct ÷ total); a Gradebook / TAC copy of the same test is curved and not used. Red = under ${cut}%. Progress checks are shown for context only.</p>`; };
   const myGrade = (cls, q) => (p.byClass?.[cls]?.['grade'+q]) ?? (s.cs.length===1 ? p['grade'+q] : null);
   const other = Object.entries(p.other || {});
   $('#layer').innerHTML = `<div class="conf" role="dialog" aria-modal="true" aria-label="Conference: ${esc(s.name)}">
@@ -1736,9 +1752,9 @@ function openStudent(key, fresh){
         <div class="cells" style="min-width:260px;flex:0 1 420px">${s.cs.map(c=>cell(esc(c.cls||'All work'), `<em style="${c.avg!=null&&c.avg<cut?'color:var(--help-ink)':''}">${p0(c.avg)}</em>`, `${letter(c.avg)} now · ${c.missing.length} missing${c.mock?` · Mock ${c.mock.score}`:''}${c.unitProj?` · Unit MC ${c.unitProj.score}`:''}`)).join('')}</div></div>
 
       <div class="conf-grid">
-        <section class="fsec c12"><h2>AP on pace <span>AP Classroom multiple choice only · on track if MC avg ≥ ${S().apOnTrack}% or last ${S().apRecent} MC ≥ ${S().apOnTrack}%</span></h2><div class="fb">
+        <section class="fsec c12"><h2>AP on pace <span>AP Classroom unit MC tests &amp; retests only (raw %) · on track if raw MC avg ≥ ${S().apOnTrack}% or last ${S().apRecent} ≥ ${S().apOnTrack}%</span></h2><div class="fb">
           ${s.cs.map(c=>`<div class="aprowc"><div style="min-width:220px">${apLine(c, s.cs.length>1)}${c.mock||c.unitProj?`<div class="projpair">${c.mock?`<span><b>Mock projection: ${c.mock.score}</b>${c.mock.note?` <span class="minor">${esc(c.mock.note)}</span>`:''}</span>`:''}${c.unitProj?`<span class="${c.mock?'minor':''}">Unit MC projection: <b>${c.unitProj.score}</b></span>`:''}</div>`:''}</div>
-            <div class="namechips">${c.ap.mc.length ? c.ap.mc.map((x,i)=>`<span class="nchip ${c.ap.last.includes(x)?'recent':''}" data-tip="${esc(x.a.name)}${c.ap.last.includes(x)?' · counts as recent':''}">${esc(s.cs.length>1?bare(x.a.name):bare(x.a.name))}<b style="${x.p<S().apOnTrack?'color:var(--help-ink)':''}">${x.m?'M (0)':p0(x.p)}</b></span>`).join('') : '<span class="minor">No AP Classroom MC scores yet: progress-check MCQs and MC unit tests/retests will appear here.</span>'}</div></div>`).join('')}
+            <div class="namechips">${c.ap.mc.length ? c.ap.mc.map((x,i)=>`<span class="nchip ${c.ap.last.includes(x)?'recent':''}" data-tip="${esc(x.a.name)}${c.ap.last.includes(x)?' · counts as recent':''}">${esc(s.cs.length>1?bare(x.a.name):bare(x.a.name))}<b style="${x.p<S().apOnTrack?'color:var(--help-ink)':''}">${x.m?'M (0)':p0(x.p)}</b></span>`).join('') : '<span class="minor">No AP Classroom unit MC tests yet. Names need “Unit N” plus “Test”, “Retest” or “MC”.</span>'}</div></div>`).join('')}
           <p class="fine noprint">Everything else on this page (grades, missing work, GPA, attendance, Power Hour, STAAR, TIA, PSAT/SAT, watch flags) is context for the conversation and never changes AP status. Outlined chips = the recent tests.</p>
         </div></section>
         <section class="fsec c6"><h2>Grades &amp; GPA</h2><div class="fb">
@@ -2173,6 +2189,7 @@ function loadSample(){
     'AP World': [['Gradebook','Unit 1 Test'],['Canvas','U1 SAQ Set A'],['AP Classroom','Unit 1 Progress Check MCQ'],['Canvas','U2 DBQ Practice'],['Gradebook','Unit 2 Test'],['AP Classroom','Unit 2 Progress Check MCQ'],['Canvas','U2 LEQ Outline'],['AP Classroom','Unit 2 Progress Check FRQ'],['Gradebook','Unit 3 Test'],['AP Classroom','Unit 3 Progress Check MCQ'],['Canvas','U3 SAQ Set B'],['AP Classroom','Practice Exam MCQ (Full-length)'],['AP Classroom','Practice Exam SAQ'],['AP Classroom','Practice Exam DBQ']],
     'AP Euro': [['Gradebook','Unit 1 Test'],['Canvas','Renaissance Reading Quiz'],['AP Classroom','Unit 1 Progress Check MCQ'],['Canvas','U1 DBQ: Reformation'],['Gradebook','Unit 2 Test'],['AP Classroom','Unit 2 Progress Check MCQ'],['Canvas','U2 SAQ Set A'],['AP Classroom','Unit 2 Progress Check FRQ'],['Gradebook','Unit 3 Test']],
   };
+  Object.keys(plan).forEach(c => { plan[c] = plan[c].flatMap(([s2,n2]) => { const mm = s2==='Gradebook' && n2.match(/^Unit (\d) Test$/); return mm ? [['AP Classroom',`Unit ${mm[1]} MC Test`],['AP Classroom',`Unit ${mm[1]} MC Retest`],['Gradebook',`Unit ${mm[1]} Test`]] : [[s2,n2]]; }); });
   const order = [], len = Math.max(...Object.values(plan).map(p=>p.length));
   for (let i=0;i<len;i++) Object.entries(plan).forEach(([c,p]) => { if (p[i]) order.push([c, ...p[i]]); });
   order.forEach(([c,s,n]) => { const name = `${c} · ${n}`, id = s+':'+name.toLowerCase(); DB.assignments[id] = {id, name, source:s, order:++DB.seq, hidden:false}; });
@@ -2185,8 +2202,11 @@ function loadSample(){
     cls.forEach(cl => {
       const course = splitClass(cl).course, base = 66 + rnd()*33, type = rnd(); skill = Math.max(skill, base);
       const dropper = type < .1, gapper = type > .88, slacker = base < 72 && type > .4;
+      const raw = {};
       plan[course].forEach(([s,n], j) => {
-        const aid = s+':'+`${course} · ${n}`.toLowerCase(), u = rnd();
+        const aid = s+':'+`${course} · ${n}`.toLowerCase(), u = rnd(), un = (n.match(/^Unit (\d)/)||[])[1];
+        if (/MC Retest$/.test(n)) { const t0 = raw[un]; if (t0 != null && t0 < 62) sc[aid] = {p: Math.min(100, t0 + 6 + rnd()*16)}; return; }
+        if (s==='Gradebook' && /^Unit \d Test$/.test(n) && raw[un] != null) { sc[aid] = {p: Math.min(100, raw[un] + 8)}; return; }
         if (u < .025 + (slacker?.12:0) + (dropper&&j>plan[course].length-4?.1:0)) { sc[aid] = {p:0, m:true}; return; }
         if (u > .985) { sc[aid] = {p:null, x:true}; return; }
         let p = base + (rnd()-.5)*18;
@@ -2194,6 +2214,7 @@ function loadSample(){
         if (gapper && s==='AP Classroom') p -= 32;
         if (/test|progress check/i.test(n)) p -= 2;
         sc[aid] = {p: Math.max(25, Math.min(100, p))};
+        if (/MC Test$/.test(n)) raw[un] = sc[aid].p;
       });
     });
     if (i % 13 !== 7) {
@@ -2311,7 +2332,7 @@ document.addEventListener('click', e => {
     Object.assign(DB.settings, {title:$('#setTitle').value.trim()||CONFIG.title, teacherName:$('#setName').value.trim(), atRisk:num('#setRisk',CONFIG.atRisk), apOnTrack:num('#setApPct',CONFIG.apOnTrack), apRecent:Math.max(1,Math.round(num('#setApRecent',CONFIG.apRecent))), apBand:num('#setApBand',CONFIG.apBand),
       retestCap:num('#setCap',CONFIG.retestCap), missingForHelp:num('#setMiss',CONFIG.missingForHelp), dropPts:num('#setDrop',CONFIG.dropPts), gapPts:num('#setGap',CONFIG.gapPts), retestPattern:pattern});
     if (scale.length) DB.settings.scale = scale;
-    DB.settings.apWriting = $('#setApWriting').checked;
+    DB.settings.apCountPC = $('#setApCountPC').checked; DB.settings.apWriting = false;
     const ew = Object.assign({}, CONFIG.examWeights, DB.settings.examWeights || {}); ['APHG','AP World','AP Euro'].forEach(c => { const v = ($('#setW_'+c.replace(/\s+/g,'_'))?.value || '').trim(); if (v) ew[c] = v; }); DB.settings.examWeights = ew;
     save(); render(); toast('Settings saved');
   }
