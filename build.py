@@ -16,14 +16,23 @@ ROOT = Path(__file__).parent
 LIMIT_KB = 100  # keep each Google Sites embed small enough to load fast on phones
 
 BUILDS = {
+    "units/frq-tutor-unit1.html": ("Unit 1 · Thinking Geographically", ["u1-two-scales"]),
     "units/frq-tutor-unit2.html": ("Unit 2 · Population and Migration", ["u2-fewer-babies"]),
-    "units/frq-tutor-unit3.html": ("Unit 3 · Cultural Patterns and Processes", ["u3-english-global"]),
+    "units/frq-tutor-unit3.html": ("Unit 3 · Cultural Patterns and Processes", ["u3-english-global", "u3-neighborhood"]),
     "units/frq-tutor-unit4.html": ("Unit 4 · Political Patterns and Processes", ["u4-rails-of-the-raj"]),
-    "frq-tutor.html": ("", ["u4-rails-of-the-raj", "u2-fewer-babies", "u3-english-global"]),
+    "units/frq-tutor-unit5.html": ("Unit 5 · Agriculture and Rural Land Use", ["u5-rings-of-farmland"]),
+    "units/frq-tutor-unit6.html": ("Unit 6 · Cities and Urban Land Use", ["u6-metro-shift"]),
+    "units/frq-tutor-unit7.html": ("Unit 7 · Industrial and Economic Development", ["u7-measuring-up"]),
+    "frq-tutor.html": ("", ["u1-two-scales", "u2-fewer-babies", "u3-english-global", "u3-neighborhood",
+                            "u4-rails-of-the-raj", "u5-rings-of-farmland", "u6-metro-shift", "u7-measuring-up"]),
 }
 
 
 def build(out, unit, frqs):
+    missing = [n for n in frqs if not (ROOT / f"src/frqs/{n}.js").exists()]
+    if missing:
+        print(f"{out:32s} skipped, missing: {', '.join(missing)}")
+        return
     engine = (ROOT / "src/engine.html").read_text()
     data = "\n".join((ROOT / f"src/frqs/{name}.js").read_text() for name in frqs)
     title = "FRQ Tutor · " + (unit + " · " if unit else "") + "AP Human Geography · GeoArcade"
