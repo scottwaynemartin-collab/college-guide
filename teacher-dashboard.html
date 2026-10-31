@@ -1679,7 +1679,7 @@ document.addEventListener('click', e => {
   if (t.dataset.delnote){ const k=$('#layer').dataset.student; DB.notes[k].splice(+t.dataset.delnote,1); save(); return openStudent(k); }
   const act = t.dataset.act, m = () => buildModel();
   if (act==='draft-check') draftCheck();
-  if (act==='draft-write') askConfirm('Draft these students?', `This writes <b>${esc(UI.draft.value)}</b> into the Tutorials sheet for ${UI.draft.rows.filter(r=>r.status==='ready').length} students on <b>${esc(UI.draft.day)}</b>. Students and parents get the school's notification email.`, 'Draft them', draftWrite, false);
+  if (act==='draft-write') draftWrite();
   if (act==='copy-draft'){ const day = UI.draftDay || defaultDraftDay(); copyText(`Power Hour draft — ${day} — ${draftValue()}\n\n` + draftCandidates(m()).map(x=>`${x.s.ids[0]||'(no ID)'}\t${x.s.name}\t${x.cls}\t${Math.round(x.avg)}%`).join('\n'), 'Draft list'); }
   if (act==='copy-summary') copyText(weeklySummary(m()), 'Weekly summary');
   if (act==='toggle-done'){ UI.showDone = !UI.showDone; render(); }
