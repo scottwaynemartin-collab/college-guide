@@ -1028,9 +1028,7 @@ function viewOverview(m){
       <span class="tf"><span>${Math.round(m.counts[k]/total*100)}% of students</span><span>${UI.status===k?'Showing ✕':'Show list'}</span></span>
       <span class="bar"><i style="width:${m.counts[k]/total*100}%"></i></span></button>`;
   const syncs = S().sources.map(p=>({p, i:lastSync(p.id)})).filter(x=>x.i);
-  const list = m.studs.filter(matchQ).filter(statusMatch);
-  const sorters = { need:(a,b)=>b.need-a.need, name:(a,b)=>a.name.localeCompare(b.name), low:(a,b)=>(a.worst?.avg??999)-(b.worst?.avg??999), high:(a,b)=>(b.avg??-1)-(a.avg??-1), missing:(a,b)=>b.missing.length-a.missing.length };
-  list.sort(sorters[UI.sort] || sorters.need);
+  const list = rosterList(m);
   const grab = m.studs.filter(s=>s.reasons.length).sort((a,b)=>b.need-a.need).slice(0,8);
   const rt = retestRows(m).filter(r=>!r.done), ph = powerHour(m), mb = missingBoard(m), profiles = hasProfiles(), unpaid = unpaidList(m);
   const cards = OVERVIEW_CARDS.filter(c=>!DB.hidden.includes(c.id)).map(c => {
@@ -1072,6 +1070,10 @@ function viewOverview(m){
     </div>
     ${cards}
   </div>`;
+}
+function rosterList(m){
+  const sorters = { need:(a,b)=>b.need-a.need, name:(a,b)=>a.name.localeCompare(b.name), low:(a,b)=>(a.worst?.avg??999)-(b.worst?.avg??999), high:(a,b)=>(b.avg??-1)-(a.avg??-1), missing:(a,b)=>b.missing.length-a.missing.length };
+  return m.studs.filter(matchQ).filter(statusMatch).sort(sorters[UI.sort] || sorters.need);
 }
 function rosterRow(s){
   const multi = s.cs.filter(c=>c.avg!=null).length > 1;
@@ -1295,8 +1297,31 @@ function viewImport(){
         <div class="drop" id="drop"><h3>Drop CSV files here</h3><button class="btn" data-act="pick">Choose files…</button>
         <p class="minor" style="margin:10px 0 0">Canvas “Export Entire Gradebook” and Profile CSVs are recognized automatically. Other layouts are set up once and remembered.</p></div>
       </div></section>
-      ${DB.imports.length?`<section class="card w12"><div class="ch"><h2>Import history</h2></div><div class="cb">${DB.imports.slice().reverse().slice(0,25).map(i=>`<div class="srcrow"><span class="srclogo" style="background:${srcColor(i.source)}">${esc(src(i.source).short)}</span><div><b>${esc(i.file)}</b><small>${esc(i.source)}${i.year&&i.year!==curYear()?` · ${esc(i.year)}`:''} · ${plural(i.students,'student')}${i.source==='Profile'?'':` · ${plural(i.assignments,'assignment')}`}</small></div><div class="rt minor">${new Date(i.at).toLocaleString()}</div></div>`).join('')}</div></section>`:''}
+      ${dataCheckCard()}
+      ${DB.imports.length?`<section class="card w12"><div class="ch"><h2>Import history</h2><span class="sp"></span>${(u => u ? `<button class="btn sm danger" data-act="undo-import" data-tip="Put the data back the way it was before “${esc(u.label)}”">↶ Undo last import (${esc(u.label)}, ${ago(u.at)})</button>` : '')(readUndo())}</div><div class="cb">${DB.imports.slice().reverse().slice(0,25).map(i=>`<div class="srcrow"><span class="srclogo" style="background:${srcColor(i.source)}">${esc(src(i.source).short)}</span><div><b>${esc(i.file)}</b><small>${esc(i.source)}${i.year&&i.year!==curYear()?` · ${esc(i.year)}`:''} · ${plural(i.students,'student')}${i.source==='Profile'?'':` · ${plural(i.assignments,'assignment')}`}</small></div><div class="rt minor">${new Date(i.at).toLocaleString()}</div></div>`).join('')}</div></section>`:''}
     </div>`;
+}
+
+/* Data check: things worth fixing after an import */
+function dataCheck(){
+  const studs = Object.entries(DB.students).filter(([,s]) => s.classes.length || !s.past), out = [];
+  const crs = [...new Set(Object.values(DB.students).flatMap(s => [...s.classes, ...Object.values(s.past||{}).flat()]).map(c => splitClass(c).course))];
+  const add = (title, why, items) => { if (items.length) out.push({title, why, items}); };
+  add('No student ID', 'Can’t match across platforms or draft for Power Hour.', studs.filter(([,s]) => !s.ids.length).map(([,s]) => s.name));
+  add('No class', 'Won’t show under any course or period.', studs.filter(([,s]) => !s.classes.length).map(([,s]) => s.name));
+  add('Profile but no grades', 'Usually a Student ID that doesn’t match the grade data.', studs.filter(([k]) => DB.profiles[k] && !Object.keys(DB.scores[k]||{}).length).map(([,s]) => s.name));
+  const byName = {}; studs.forEach(([k,s]) => (byName[s.name.toLowerCase().replace(/[^a-z]/g,'')] ||= []).push(s));
+  add('Possible duplicate students', 'Same name, different records (often an ID on one platform but not another).', Object.values(byName).filter(g => g.length > 1).map(g => `${g[0].name} (${g.map(s=>s.ids[0]||'no ID').join(' / ')})`));
+  const cur = Object.values(DB.assignments).filter(a => yearOf(a)===curYear() && !a.hidden);
+  add('Course prefix not recognized', 'Prefix doesn’t match any of your classes, so these scores aren’t counted for anyone. Fix the prefix or the class name.', cur.filter(a => { const p = String(a.name).split(/\s+·\s+/); return p.length > 1 && !assignCourse(a.name, crs); }).map(a => a.name));
+  add('Tests with no unit in the name', 'Left out of Compare, the Unit Tracker and per-unit AP projection.', cur.filter(a => typeOf(a.name) && !unitOf(a.name)).map(a => a.name));
+  return out;
+}
+function dataCheckCard(){
+  if (!Object.keys(DB.students).length) return '';
+  const issues = dataCheck();
+  return `<section class="card w12"><div class="ch"><h2>Data check</h2><span class="count ${issues.length?'help':''}">${issues.length}</span><span class="sub">${issues.length?'Worth a look after importing':'✓ Everything lines up'}</span></div>
+    ${issues.length?`<div class="cb">${issues.map(i=>`<details class="toggle" style="display:block"><summary style="cursor:pointer"><b>${esc(i.title)}</b> <span class="count" style="height:18px;min-width:20px;font-size:11px">${i.items.length}</span> <span class="minor">${esc(i.why)}</span></summary><div class="namechips" style="margin:8px 0 4px">${i.items.slice(0,60).map(x=>`<span class="nchip">${esc(x)}</span>`).join('')}${i.items.length>60?`<span class="minor">+${i.items.length-60} more</span>`:''}</div></details>`).join('')}</div>`:''}</section>`;
 }
 
 function viewSettings(){
@@ -1371,9 +1396,9 @@ const OVERVIEW_CARDS = [
 ];
 
 /* ---------- student drawer ---------- */
-function openStudent(key){
+function openStudent(key, fresh){
   if (!DB.students[key]) return;
-  const keepScroll = $('#layer .conf') && $('#layer').dataset.student===key ? $('#layer .conf').scrollTop : 0;
+  const keepScroll = !fresh && $('#layer .conf') && $('#layer').dataset.student===key ? $('#layer .conf').scrollTop : 0;
   const s = studentFull(key), p = prof(key) || {}, lvl = staarOf(key), cut = S().atRisk, ag = DB.agency[key] || {};
   const plats = S().sources.filter(pl => s.pts.some(x=>x.a.source===pl.id));
   const pname = id => id==='Gradebook' ? 'TAC / Gradebook' : id;
@@ -1387,7 +1412,9 @@ function openStudent(key){
     return `<table class="ft"><thead><tr><th>Unit</th><th class="r">Progress check</th><th class="r">Unit test (raw)</th><th class="r">Writing</th><th class="r">Missing</th><th class="r">AP proj.</th></tr></thead><tbody>${rows.map(([u, d]) => { const pj = apProject(c.course, d.pts);
       return `<tr><td><b>U${u}</b></td><td class="r num">${d.pc.length?p0(mean(d.pc)):'—'}</td><td class="r num">${d.test.length?p0(mean(d.test)):'—'}</td><td class="r num">${d.wr.length?p0(mean(d.wr)):'—'}</td><td class="r num" style="${d.miss?'color:var(--help-ink);font-weight:800':''}">${d.miss||''}</td><td class="r">${pj?apBadgeScore(pj.score):'<span class="minor">—</span>'}</td></tr>`; }).join('')}</tbody></table>`; };
   $('#layer').innerHTML = `<div class="conf" role="dialog" aria-modal="true" aria-label="Conference: ${esc(s.name)}">
-    <div class="conf-bar"><b>Agency conference</b><span class="minor" style="color:var(--on-blk2)">${today()}</span><span style="flex:1"></span>
+    <div class="conf-bar"><b>Agency conference</b><span class="minor" style="color:var(--on-blk2)">${today()}</span>
+      ${(() => { const order = rosterList(buildModel()).map(x=>x.key), i = order.indexOf(key); return i < 0 ? '' : `<button class="btn sm" data-confnav="${esc(order[(i-1+order.length)%order.length])}" aria-label="Previous student">‹ Prev</button><span class="minor" style="color:var(--on-blk2)">${i+1} of ${order.length}</span><button class="btn sm" data-confnav="${esc(order[(i+1)%order.length])}" aria-label="Next student">Next ›</button>`; })()}
+      <span style="flex:1"></span>
       <button class="btn sm" data-email="${esc(key)}">Draft parent email</button>
       <button class="btn sm pri" data-act="conf-print">${CAN_PRINT?'Print':'Printable text'}</button>
       <button class="btn sm" data-close aria-label="Close conference view">✕ Close</button></div>
@@ -1609,6 +1636,7 @@ function openMapper(rows, file, srcHint, year){
     <div class="cols">${h.map((x,i)=>`<label><input type="checkbox" data-col="${i}" ${m.cols.some(c=>c.i===i)?'checked':''}><span>${esc(x||'(column '+(i+1)+')')}</span><span class="smp">${esc(body.slice(0,3).map(r=>r[i]).join(' · '))}</span><input type="number" data-out="${i}" value="${colOut(i)}" placeholder="%" aria-label="Out of for ${esc(x)}"></label>`).join('')}</div>
     <div class="actions" style="margin-top:16px;justify-content:flex-end"><button class="btn" data-close>Cancel</button><button class="btn pri" id="mGo">Import ${body.length} rows</button></div>`, '');
   $('#mGo').onclick = () => {
+    saveUndo(file);
     const g = id => +$(id).value, yv = $('#mYear').value;
     const mm = { source:$('#mSrc').value, idI:g('#mId'), nameI:g('#mName'), firstI:g('#mFirst'), lastI:g('#mLast'), clsI:g('#mCls'), cls:$('#mClsTxt').value.trim(),
       cols:[...document.querySelectorAll('[data-col]:checked')].map(c=>({i:+c.dataset.col, out: $(`[data-out="${c.dataset.col}"]`).value}))};
@@ -1658,7 +1686,12 @@ function importStandard(rows, file, fallback, stay, year){
 }
 function matchSource(v){ v = String(v).trim().toLowerCase(); const f = S().sources.find(s=>s.id.toLowerCase()===v) || S().sources.find(s=>v.includes(s.id.toLowerCase().split(' ')[0])); return f ? f.id : (/ap/.test(v) ? 'AP Classroom' : 'Other'); }
 function guessSource(name){ return /canvas/i.test(name)?'Canvas':/\bap\b|ap[ _-]?classroom|college ?board/i.test(name)?'AP Classroom':'Gradebook'; }
+/* Undo: keep one copy of the data from just before the latest import (in this browser) */
+const UNDO_KEY = KEY + '.undo';
+function saveUndo(label){ try { localStorage.setItem(UNDO_KEY, JSON.stringify({label, at:Date.now(), db:DB})); } catch(_){} }
+function readUndo(){ try { return JSON.parse(localStorage.getItem(UNDO_KEY) || 'null'); } catch(_){ return null; } }
 function routeImport(rows, label, fallback, stay, year){
+  if (isCanvas(rows) || isProfile(rows) || isStandard(rows)) saveUndo(label);
   if (isCanvas(rows)) importCanvas(rows, label, stay, year);
   else if (isProfile(rows)) importProfile(rows, label, stay);
   else if (isStandard(rows)) importStandard(rows, label, fallback, stay, year);
@@ -1777,7 +1810,7 @@ function loadSample(){
 /* ---------- events ---------- */
 function go(v){ UI.view = v; try { if (location.hash.slice(1)!==v) location.hash = v; } catch(_){} $('#side').classList.remove('open'); closeLayer(); render(); window.scrollTo(0,0); }
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-close]');
+  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-confnav],[data-close]');
   if (!t) { if (!e.target.closest('aside,.menu-btn')) $('#side').classList.remove('open'); return; }
   if (t.dataset.close !== undefined){ if (e.target === t || t.tagName==='BUTTON'){ closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !t.closest('.conf')) return openStudent(k); nextFile(); } return; }
   if (t.dataset.go) return go(t.dataset.go);
@@ -1793,6 +1826,7 @@ document.addEventListener('click', e => {
   if (t.dataset.rename){ const a=DB.assignments[t.dataset.rename]; return askText('Rename assignment', a.name, v => { a.name=v; save(); render(); }); }
   if (t.dataset.del){ const a=DB.assignments[t.dataset.del]; return askConfirm('Delete assignment?', `“${esc(a.name)}” and all its scores will be removed.`, 'Delete', () => { delete DB.assignments[a.id]; Object.values(DB.scores).forEach(s=>delete s[a.id]); save(); render(); }); }
   if (t.dataset.addnote){ const k=t.dataset.addnote, txt=$('#noteText').value.trim(); if (!txt) return; (DB.notes[k] ||= []).push({text:txt, at:Date.now()}); save(); return openStudent(k); }
+  if (t.dataset.confnav){ return openStudent(t.dataset.confnav, true); }
   if (t.dataset.agrate){ const [k,q,n] = t.dataset.agrate.split('|'), a = ((DB.agency[k] ||= {})[q] ||= {}); a.rating = +a.rating===+n ? '' : +n; save(); return openStudent(k); }
   if (t.dataset.contact){ const [k, type] = t.dataset.contact.split('|'), note = ($('#contactNote')?.value||'').trim(); (DB.contacts[k] ||= []).push({type, note, at:Date.now()}); save(); toast(`${type} logged`); render(); return openStudent(k); }
   if (t.dataset.delcontact){ const k=$('#layer').dataset.student; DB.contacts[k].splice(+t.dataset.delcontact,1); save(); render(); return openStudent(k); }
@@ -1801,6 +1835,7 @@ document.addEventListener('click', e => {
   const act = t.dataset.act, m = () => buildModel();
   if (act==='conf-print'){ const k = $('#layer').dataset.student; if (!CAN_PRINT) return showText(`Conference — ${DB.students[k].name}`, confText(k));
     const done = () => { window.removeEventListener('afterprint', done); }; window.addEventListener('afterprint', done); try { window.print(); } catch(_){ showText('Conference', confText(k)); } return; }
+  if (act==='undo-import'){ const u = readUndo(); if (!u) return toast('Nothing to undo'); return askConfirm('Undo last import?', `This puts everything back to how it was before <b>${esc(u.label)}</b> (${ago(u.at)}). Notes, ratings and contacts added since then are also rolled back.`, 'Undo import', () => { DB = Object.assign(blank(), u.db); save(); try { localStorage.removeItem(UNDO_KEY); } catch(_){} render(); toast('Import undone'); }); }
   if (act==='draft-check') draftCheck();
   if (act==='draft-write') draftWrite();
   if (act==='copy-draft'){ const day = UI.draftDay || defaultDraftDay(); copyText(`Power Hour draft — ${day} — ${draftValue()}\n\n` + draftCandidates(m()).map(x=>`${x.s.ids[0]||'(no ID)'}\t${x.s.name}\t${x.cls}\t${Math.round(x.avg)}%`).join('\n'), 'Draft list'); }
@@ -1865,6 +1900,7 @@ document.addEventListener('input', e => {
 document.addEventListener('keydown', e => {
   if (e.key==='Escape'){ if ($('#layer').innerHTML){ const inConf = !!$('#layer .conf'); closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !inConf) return openStudent(k); nextFile(); } else $('#side').classList.remove('open'); }
   if (e.key==='/' && !e.target.closest('input,textarea,select')){ e.preventDefault(); $('#q').focus(); }
+  if ((e.key==='ArrowRight' || e.key==='ArrowLeft') && $('#layer .conf') && !e.target.closest('input,textarea,select')){ const b = document.querySelectorAll('[data-confnav]'); if (b.length===2) b[e.key==='ArrowLeft'?0:1].click(); }
 });
 $('#fileIn').addEventListener('change', e => { handleFiles([...e.target.files]); e.target.value=''; });
 window.addEventListener('hashchange', () => { const v = location.hash.slice(1); if (v && v!==UI.view){ UI.view=v; closeLayer(); render(); } });
