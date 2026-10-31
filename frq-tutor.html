@@ -43,6 +43,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 .seg:disabled{cursor:default}
 @keyframes pulse{50%{box-shadow:0 0 0 2px var(--yl),0 0 12px var(--yl)}}
 .sym{font-family:system-ui,sans-serif;font-size:14px;line-height:1}
+.jump{font-size:13px;color:var(--dim);margin-top:4px}
 .plabel{font:9px var(--px);color:var(--dim);display:flex;justify-content:space-between}
 /* home */
 .hero{text-align:center;padding:26px 6px 8px}
@@ -308,14 +309,14 @@ function home(){return `<div class="hero"><div class="sub">GeoArcade presents</d
 function hdr(){const n=S.f.p.length,segs=[["👁",0]].concat(S.f.p.map((_,i)=>[L(i),i+1]),[["★",n+1]]);
 const cur=S.k==0?"Stimulus":S.k>n?"Results":`Part ${L(S.k-1)} of ${n}`;
 return `<div class="top"><button class="brand" data-a="home">◀ Geo<b>Arcade</b> · FRQ Tutor</button><span class="score" aria-live="polite"><span class="sym">★</span> ${score()}/${n}</span></div>
-<div class="prog" role="navigation" aria-label="Progress">${segs.map(([t,k])=>{const p=k>0&&k<=n?S.p[k-1]:null,c=k==S.k?'cur':p&&p.done?(p.ok?'ok':'no'):k<=S.max?'v':'';return `<button class="seg ${c}" data-a="go" data-k="${k}" ${k<=S.max?'':'disabled'} aria-label="${k==0?'Stimulus':k>n?'Results':'Part '+t}">${k==0||k>n?`<span class="sym">${t}</span>`:t}</button>`}).join('')}</div>
-<div class="plabel"><span>${esc(S.f.t)}</span><span>${cur}</span></div>`}
+<div class="prog" role="navigation" aria-label="Progress">${segs.map(([t,k])=>{const p=k>0&&k<=n?S.p[k-1]:null,c=k==S.k?'cur':p&&p.done?(p.ok?'ok':'no'):k<=S.max?'v':'';return `<button class="seg ${c}" data-a="go" data-k="${k}" aria-label="${k==0?'Stimulus':k>n?'Results':'Part '+t}">${k==0||k>n?`<span class="sym">${t}</span>`:t}</button>`}).join('')}</div>
+<div class="plabel"><span>${esc(S.f.t)}</span><span>${cur}</span></div><div class="jump">Tap any letter to jump to that part. Go in order or skip around.</div>`}
 function stimBox(){return `<div class="stim"><h3>${esc(S.f.st)}</h3>${S.f.stim}</div>`}
 function stimV(){const all=S.nt.every(x=>x.o);
 return `<div class="panel"><span class="tag px">Step 1 · Look first</span><p>${esc(S.f.intro)} <b>No questions yet.</b> Strong FRQ writers study the stimulus <i>before</i> reading the prompt.</p></div>${stimBox()}
 <div class="row" style="margin-top:8px">${chips(S.f.bg)}</div>
 <div class="panel"><span class="tag px">What do you notice?</span>${S.f.nt.map((n,j)=>`<div class="notice"><div class="q">${j+1}. ${esc(n[0])}</div><textarea data-in="nt" data-j="${j}" placeholder="Jot your idea (optional)…" aria-label="Your idea">${esc(S.nt[j].a)}</textarea>${S.nt[j].o?`<div class="take">${esc(n[1])}</div>`:`<div class="row" style="margin-top:8px"><button class="btn o" data-a="nt" data-j="${j}">Compare with tutor</button></div>`}</div>`).join('')}
-<div class="row"><button class="btn g" data-a="go" data-k="1" ${all?'':'disabled'}>Reveal Part A ▸</button>${all?'':'<span class="note">Compare all three notes to unlock the questions.</span>'}</div></div>`}
+<div class="row"><button class="btn g" data-a="go" data-k="1">Reveal Part A ▸</button>${all?'':'<span class="note">Tip: compare all three notes first. Good writers always look before they write!</span>'}</div></div>`}
 function partV(i){const P=S.f.p[i],st=S.p[i],V=VERBS[P.v],tea=P.v!="Identify",n=S.f.p.length,ready=st.st>P.s.length;
 let h=`<details class="peek"><summary>View stimulus</summary><div>${stimBox()}</div></details>
 <div class="qbox"><span class="px">Part ${L(i)} · ${P.v}</span><p>${esc(P.q)}</p></div>
@@ -336,11 +337,12 @@ if(st.ck){const ok=earned(i);h+=`<div class="panel"><span class="tag px">4 · Ch
 <div class="verdict ${ok?'y':'n'}">${ok?'★ Point earned!':'Not yet: revise or move on'}</div>
 <div class="row">${ok?'':`<button class="btn o" data-a="rev" data-i="${i}">Revise</button>`}<button class="btn g" data-a="next" data-i="${i}">${i+1<n?`Part ${L(i+1)} ▸`:'See results ▸'}</button></div></div>`}
 return h}
-function doneV(){const n=S.f.p.length,sc=score(),ps=S.f.p.map((p,i)=>[p,i,S.p[i]]),ok=ps.filter(x=>x[2].ok),no=ps.filter(x=>!x[2].ok);
+function doneV(){const n=S.f.p.length,sc=score(),ps=S.f.p.map((p,i)=>[p,i,S.p[i]]),ok=ps.filter(x=>x[2].ok),no=ps.filter(x=>x[2].done&&!x[2].ok),un=ps.filter(x=>!x[2].done);
 const rank=sc==n?"GEO LEGEND":sc>=5?"MAP MASTER":sc>=3?"RISING SCOUT":"KEEP PLAYING";
-return `<div class="panel" style="text-align:center"><div class="big">Stage clear!</div><div class="stars" aria-label="${sc} of ${n}">${'★'.repeat(sc)}<span style="opacity:.25">${'★'.repeat(n-sc)}</span></div><div class="rank">${sc}/${n} points · Rank: ${rank}</div></div>
+return `<div class="panel" style="text-align:center"><div class="big">${un.length?'Progress report':'Stage clear!'}</div><div class="stars" aria-label="${sc} of ${n}">${'★'.repeat(sc)}<span style="opacity:.25">${'★'.repeat(n-sc)}</span></div><div class="rank">${sc}/${n} points · Rank: ${rank}</div></div>
 <div class="panel"><span class="tag px" style="color:var(--gr)">Nailed it</span>${ok.length?`<ul class="res">${ok.map(([p,i])=>`<li><b style="color:var(--gr)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span></li>`).join('')}</ul>`:'<p class="note">No points yet. Every replay makes it easier!</p>'}</div>
-<div class="panel"><span class="tag px" style="color:var(--rd)">Review these</span>${no.length?`<ul class="res">${no.map(([p,i])=>`<li><b style="color:var(--rd)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br>${chips(p.b)}<button class="link" data-a="go" data-k="${i+1}">Revisit Part ${L(i)}</button></li>`).join('')}</ul>`:'<p>Nothing to review. Perfect run! 🏆</p>'}</div>
+<div class="panel"><span class="tag px" style="color:var(--rd)">Review these</span>${no.length?`<ul class="res">${no.map(([p,i])=>`<li><b style="color:var(--rd)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br>${chips(p.b)}<button class="link" data-a="go" data-k="${i+1}">Revisit Part ${L(i)}</button></li>`).join('')}</ul>`:'<p>Nothing to review so far. 🏆</p>'}</div>
+${un.length?`<div class="panel"><span class="tag px" style="color:var(--yl)">Not tried yet</span><ul class="res">${un.map(([p,i])=>`<li><b style="color:var(--yl)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br><button class="link" data-a="go" data-k="${i+1}">Go to Part ${L(i)}</button></li>`).join('')}</ul></div>`:''}
 <div class="row"><button class="btn" data-a="start" data-i="${S.fi}">↻ Replay</button><button class="btn m" data-a="start" data-i="${1-S.fi}">Try “${esc(FRQ[1-S.fi].t)}” ▸</button><button class="btn o" data-a="home">Menu</button></div>`}
 /* ===== Events ===== */
 function openBG(k){document.getElementById('shT').textContent=BG[k].t;document.getElementById('shB').innerHTML=BG[k].s.map(x=>`<li>${esc(x)}</li>`).join('');sh.classList.add('on');sh.querySelector('[data-a=x]').focus()}
