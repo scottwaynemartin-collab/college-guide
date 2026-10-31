@@ -19,7 +19,7 @@ Every number on screen comes from one dataset. Nothing is invented, smoothed or 
 - Canonical pages: <https://data.worldbank.org/indicator/SP.DYN.CBRT.IN>, <https://data.worldbank.org/indicator/SP.DYN.CDRT.IN>.
 - Countries and years: Niger, Bangladesh, Sweden and Japan, 1960–2024. The extract is in [`data/wdi_cbr_cdr.csv`](data/wdi_cbr_cdr.csv) (260 rows) and is rebuilt by [`scripts/extract_data.py`](scripts/extract_data.py).
 
-> Check before you publish: the sandbox this was built in could not reach data.worldbank.org directly, so the numbers come from the mirror above. They are worth spot-checking against the World Bank site. WDI updates its estimates each year when the UN publishes a new revision, so the latest release may differ slightly.
+**Verified against the World Bank:** on 31 October 2026, all 520 values in the extract (4 countries × 65 years × 2 rates) were compared with the live World Bank API (<https://api.worldbank.org>, both indicators last updated 8 October 2026). Every value matched exactly. To re-run the check: `python3 -I scripts/verify_worldbank.py`. WDI revises its estimates when the UN publishes a new *World Population Prospects*, so run it again before reusing the film after a future WDI update.
 
 ## Every number that appears on screen
 
