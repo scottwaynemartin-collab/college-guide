@@ -39,24 +39,24 @@ Q: Explain ONE reason rural counties in Calderon have higher rates of households
 MODEL ANSWER: T1- Rural counties have higher rates of households without internet because their low population density makes internet infrastructure very expensive per customer. E2- In Dry Creek (44%) homes are spread miles apart, so a company must lay far more fiber-optic cable to reach each household than it does in dense Calder City (6%), where one line serves hundreds of homes. A3- Because the company earns less for every mile of cable in a rural county, it builds there last or not at all, so many rural households are left without service and the rate stays high.
 RUBRIC: Names a reason: low population density / homes spread far apart, high cost of infrastructure per customer, distance from the city, or lower incomes / Explains the cause-and-effect chain to the higher rate
 MINI-LESSON (Density, distance, and the cost of a connection):
- - Population density is the number of people per square mile. Rural counties have low density: homes sit far apart.
+ - Population density is the number of people per unit of land area, for example per square mile. Rural counties have low density: homes sit far apart.
  - Internet service needs physical infrastructure, like fiber-optic cable or cell towers, and it costs money for every mile built.
  - In a dense city, one mile of cable can serve hundreds of paying customers. In a rural county it might serve five, so the company earns far less per mile.
- - Companies build where they make money first, so rural areas get service later, slower, or never. This is related to distance decay: the farther from the center, the weaker the connection.
+ - Companies build where they make money first, so rural areas get service later, slower, or never. Distance decay plays a role too: places far from the metro interact with it less and get new services later.
  - Lower rural incomes can add to it: even where service exists, fewer families can afford it.
 KEY WORDS: Population density = People per unit of land.; Infrastructure = The physical systems a place needs, like roads, pipes, and cables.; Distance decay = Interaction weakens as distance grows.
 QUICK CHECK: Why does one mile of internet cable cost MORE per customer in a rural county? → Fewer homes are spread along that mile (Low population density means each mile of cable reaches fewer paying customers.)
 
 --- Part D (Explain) ---
 Q: Using the map, explain ONE limitation of using only the state-level data to make decisions about improving internet access in Calderon.
-MODEL ANSWER: T1- One limitation is that a single state-level number is an average that hides the differences inside the state, so planners can't see where the problem actually is. E2- The map shows Calderon at 18%, but at the county scale Dry Creek is 44% and Northfork is 41% while Calder City is only 6%, and eight of the 12 counties are above the state figure. A3- Because the 18% figure makes the whole state look moderately connected, a government using it alone might spread money evenly or underestimate the need, instead of targeting the rural counties where nearly half of households lack internet.
+MODEL ANSWER: T1- One limitation is that a single state-level number is an average that hides the differences inside the state, so planners can't see where the problem actually is. E2- The map shows Calderon at 18%, but at the county scale Dry Creek is 44% and Northfork is 41% while Calder City is only 6%, and eight of the 12 counties are above the state figure. A3- Because the 18% figure makes the whole state look moderately connected, a government using it alone might spread money evenly or underestimate the need, instead of targeting counties like Dry Creek and Northfork, where more than 40% of households lack internet.
 RUBRIC: States the limitation: one state value is an average that hides or masks differences between counties / Uses map evidence and explains the effect on a decision (wrong places, spread too thin, underestimating need)
 MINI-LESSON (How averages hide the extremes):
  - A state-level figure is a population-weighted average: counties with more people count more, so the crowded metro counties pull Calderon down to 18%.
  - Eight of the 12 counties are above 18%, and two are above 40%. The average doesn't describe any real county well.
  - If leaders only see 18%, they may think the problem is mild or spread money evenly, when it's concentrated in rural counties.
  - A good limitation answer names what's hidden, proves it with a number from the map, and says what bad decision could follow.
- - This is a scale problem: data reported at a big scale can't guide decisions that need to be made at a small scale.
+ - This is a scale problem: data reported for a whole state can't guide decisions that have to be made county by county.
 KEY WORDS: Average = A single number that summarizes many values, and can hide the extremes.; Limitation = Something a source can't show that you'd need to answer the question.; Scale of analysis = The size of the units in the data.
 QUICK CHECK: Why is Calderon's state figure (18%) lower than most of its counties? → Most people live in the low-rate metro counties, which pull the average down (A state value is weighted by population, so the crowded metro counties dominate it.)
 
@@ -204,13 +204,13 @@ QUICK CHECK: On a farm a child is often an economic ___; in a city, more of an e
 
 --- Part E (Describe) ---
 Q: Describe ONE likely change in the shape of Kestria's population pyramid resulting from the change in its total fertility rate between 1995 and 2020.
-MODEL ANSWER: T1- Kestria's pyramid will get a narrower base because fewer children are being born. E2- Its TFR fell from 5.8 in 1995 to 3.1 in 2020, so each new age group at the bottom is smaller than the one before. A3- Meanwhile the large group born in the 1990s moves up into working ages, so the middle of the pyramid gets wider and the shape looks more like a beehive than a triangle.
+MODEL ANSWER: T1- Kestria's pyramid will get a narrower base because fewer children are being born. E2- Its TFR fell from 5.8 in 1995 to 3.1 in 2020, so each new age group at the bottom is smaller than the one before. A3- Meanwhile the large group born in the 1990s moves up into working ages, so the pyramid becomes a slimmer triangle with a bulge moving up into the working ages. It is not yet the beehive shape of a country near replacement level, because a TFR of 3.1 is still well above 2.1.
 RUBRIC: Describes a shape change: narrower base, or a wider working-age middle / Links it to Kestria's falling TFR (5.8 → 3.1)
 MINI-LESSON (Reading pyramid shapes):
  - The bottom bars of a pyramid are the youngest people (ages 0–4).
  - High fertility = a wide base (a triangle shape).
  - When fertility drops, fewer babies are born, so the base narrows.
- - The many kids born earlier grow up, so the working-age middle gets wider, like a beehive.
+ - The many kids born earlier grow up, so a bulge moves up into the working-age middle. A country only gets the beehive shape once its TFR falls to about 2.1.
 KEY WORDS: Cohort = A group of people born in the same time period.; Working-age population = People ages 15–64.
 QUICK CHECK: Which part of a population pyramid shows the youngest people? → The base (bottom) (The bottom bars are ages 0–4.)
 
@@ -320,7 +320,7 @@ MODEL ANSWER: T1- One barrier to English spreading in China is government contro
 RUBRIC: Names a barrier: government policy, Mandarin emphasis, internet limits, language difference, few teachers, rural access, no British colonial history, or cultural pride / Describes how it slows English from spreading in China
 MINI-LESSON (Barriers to diffusion):
  - Diffusion is how ideas, languages, and products spread from place to place.
- - Barriers slow diffusion. They can be physical (distance), political (laws, censorship), economic (cost of school), or cultural (pride in your own language).
+ - Barriers slow diffusion. They can be physical (oceans, mountains, deserts), political (laws, censorship), economic (cost of school), or cultural (pride in your own language).
  - China's government promotes Mandarin and blocks many English websites.
  - Mandarin uses characters and tones, so it's very different from English and harder to switch between.
  - Unlike India, China was never a British colony (except Hong Kong), so English never became a language of government.
@@ -412,11 +412,11 @@ Unit 3 · Maple Street District (Practice FRQ · Text stimulus)
 ======================================================================
 STIMULUS: A Century on Maple Street: One Neighborhood, Three Communities
 The passage below describes how a single neighborhood in a mid-sized U.S. city changed over one hundred years as different groups moved in and out. Read it closely before you answer.
-1920s. In the 1920s, Maple Street District was the German heart of Ridgeway, a mid-sized Midwestern city. Immigrants from Bavaria and Saxony filled its brick row houses. They built St. Johannes Lutheran Church on the corner of Maple and Third, opened beer gardens along the avenue, and printed a weekly German-language newspaper, the Ridgeway Zeitung.
+1920s. In the 1920s, Maple Street District was the German heart of Ridgeway, a mid-sized Midwestern city. Immigrants from Saxony and Hanover filled its brick row houses. They built St. Johannes Lutheran Church on the corner of Maple and Third, opened beer gardens along the avenue, and printed a weekly German-language newspaper, the Ridgeway Zeitung.
 1970s. By the 1970s, most German families had moved to the suburbs. Mexican and Central American families arrived, drawn by factory jobs. The old church building reopened as Our Lady of Guadalupe Catholic Parish. Taquerías and a panadería replaced the beer gardens, a Spanish-language radio station went on the air, and residents began an annual Día de los Muertos festival on Maple Street.
 2020s. In the 2020s, young professionals moved in. Coffee shops and a yoga studio opened, and rents rose sharply. The festival is now sponsored by the city and draws thousands of tourists, though several long-running restaurants have closed.
 
-Maple Street District and the city of Ridgeway are fictional and were created for practice. Remember the class directions: label each part, and write Describe and Explain parts as T1- (your reason in general words), E2- (the specific proof), A3- (why it matters).
+Maple Street District and the city of Ridgeway are fictional and were created for practice.
 
 --- Part A (Identify) ---
 Q: Identify the type of diffusion that brought German culture to Maple Street District in the 1920s.
@@ -444,10 +444,10 @@ QUICK CHECK: A Lutheran church that later becomes a Catholic parish is the best 
 
 --- Part C (Explain) ---
 Q: Explain how the Día de los Muertos festival in the 2020s is an example of a cultural practice changing as it spreads to new groups of people.
-MODEL ANSWER: T1- The Día de los Muertos festival shows how a cultural practice can change as it spreads to new groups, a process tied to acculturation and commodification. E2- The passage says residents began the festival for their own neighborhood in the 1970s, but by the 2020s it is sponsored by the city and draws thousands of tourists. A3- As outsiders adopt the celebration, its purpose shifts from honoring family ancestors to entertaining visitors and bringing money into the city, so the festival keeps its name but loses some of its original religious meaning.
+MODEL ANSWER: T1- The Día de los Muertos festival shows how a cultural practice can change as it spreads to new groups, a process called stimulus diffusion, along with commodification. E2- The passage says residents began the festival for their own neighborhood in the 1970s, but by the 2020s it is sponsored by the city and draws thousands of tourists. A3- As outsiders adopt the celebration, its purpose shifts from honoring family ancestors to entertaining visitors and bringing money into the city, so the festival keeps its name but loses some of its original religious meaning.
 RUBRIC: Names how the festival changed: city-sponsored, tourists, commercial/commodified, mainstream, bigger, or adopted by outsiders (acculturation or stimulus diffusion) / Explains why spreading to new groups changed its meaning or purpose (cause → effect)
 MINI-LESSON (When a tradition goes mainstream):
- - Acculturation is when a group adopts parts of another culture. It works both ways: the wider city has adopted a Latino holiday.
+ - Acculturation is when a group adopts parts of another culture. Stimulus diffusion is when an idea spreads but gets changed to fit the new group that adopts it, which is what happened to the festival.
  - Commodification means turning a cultural practice into something to sell or market, like a festival that attracts tourist dollars.
  - Stimulus diffusion is when an idea spreads but gets changed to fit the new group. A tourist festival keeps the skeleton of the original but swaps out some of its meaning.
  - Día de los Muertos is itself syncretic: it blends Indigenous Aztec traditions with Catholic All Souls' Day.
@@ -460,10 +460,10 @@ MODEL ANSWER: T1- Religion is visible on Maple Street through its place of worsh
 RUBRIC: Names a religious feature from the passage: the church/parish (Lutheran, Catholic, Guadalupe) or the Día de los Muertos festival / Describes how it is visible or what it shows about the residents (building, corner, name, celebrated in the street, which faith)
 MINI-LESSON (Spotting religion in a landscape):
  - Religion is one of the most visible cultural traits: churches, mosques, temples, shrines, cemeteries, and religious festivals all shape the look of a place.
- - Christianity is a universalizing religion, so it builds places of worship wherever its followers settle. Lutherans and Catholics are two branches of it.
- - Our Lady of Guadalupe is the most important Catholic figure in Mexico, so a parish with that name signals a Mexican community.
+ - Christianity is a universalizing religion, so it builds places of worship wherever its followers settle. Catholicism and Protestantism are two branches of it, and Lutheran is a denomination within the Protestant branch.
+ - Our Lady of Guadalupe, the Mexican image of the Virgin Mary, is Mexico's most important Catholic symbol, so a parish with that name signals a Mexican community.
  - Día de los Muertos blends Indigenous and Catholic traditions and fills the street with altars, marigolds, and painted skulls for a few days each year.
-KEY WORDS: Universalizing religion = A religion that seeks followers everywhere (Christianity, Islam, Buddhism).; Ethnic religion = A religion tied to one group or place (Hinduism, Judaism).; Denomination = A branch within a religion, like Lutheran or Catholic.
+KEY WORDS: Universalizing religion = A religion that seeks followers everywhere (Christianity, Islam, Buddhism).; Ethnic religion = A religion tied to one group or place (Hinduism, Judaism).; Denomination = A division within a branch, like Lutheran or Baptist within Protestantism.
 QUICK CHECK: Which is the BEST example of religion in the cultural landscape? → A Catholic parish building on a street corner (The landscape is what you can see outdoors. A church building is religion made visible.)
 
 --- Part E (Explain) ---
@@ -533,11 +533,6 @@ BACKGROUND POP-OUTS:
    - Popular culture spreads fast through media and big companies and looks similar everywhere: chain coffee shops, trending music, the same apps.
    - Globalization helps popular culture spread, which can crowd out local traditions, a process called cultural homogenization.
    - But the same technology can preserve local culture: communities record recipes, stream festivals, and post heritage-language videos online.
-• How to read a text stimulus
-   - Read the passage twice. The first time, just follow the story. The second time, hunt for geography terms you know.
-   - Underline every place, group, building, and date. FRQ questions almost always point back to those details.
-   - Notice what CHANGES between the time periods and what STAYS. That's where most of the points hide.
-   - When a question says “using the passage,” quote or paraphrase a specific detail as your E2 evidence.
 
 ======================================================================
 Units 4 · 7 · Rails of the Raj (Practice FRQ · Map stimulus)
@@ -712,7 +707,7 @@ MINI-LESSON (Highways, trucks, and extra markets):
  - A town on the highway, like Crossford, can collect farm products and grow into a secondary market with its own small rings around it.
  - In the real world, cities have many suburbs and towns, each pulling the rings in its own direction, so the pattern looks more like overlapping blobs than circles.
 KEY WORDS: Secondary market = A smaller town where farmers also sell, in addition to the main city.; Assumption = Something a model treats as true to keep it simple.
-QUICK CHECK: Which assumption of the von Thünen model does the town of Crossford break? → There is only one market (Crossford is a second market. The other two assumptions still hold on this diagram.)
+QUICK CHECK: Which assumption of the von Thünen model does the town of Crossford break? → There is only one market (Crossford is a second market, so the one-market assumption is broken. The other two choices are things the model assumes and this diagram still shows. The highway and river bend the rings too, but the question asks about the town.)
 
 --- Part E (Explain) ---
 Q: Explain ONE way refrigerated trucking and global shipping have weakened the von Thünen pattern at the national or global scale.
@@ -809,7 +804,7 @@ Note: The central city's population fell to 388,000 in 2000, then grew again aft
 --- Part A (Identify) ---
 Q: Identify the process shown by the growth of the outer suburbs and exurbs between 1970 and 2020.
 MODEL ANSWER: Suburbanization, or urban sprawl: population spreading outward from the central city into low-density outer suburbs.
-RUBRIC: Suburbanization or urban sprawl (also accept decentralization, exurbanization, counterurbanization, outward growth)
+RUBRIC: Suburbanization or urban sprawl (also accept decentralization, exurbanization, outward growth)
 MINI-LESSON (Suburbanization and sprawl):
  - Urbanization is the share of people living in cities going up. Suburbanization is more specific: people and homes moving from the central city outward to its edges.
  - When that outward growth is low-density and built around the car (big lots, strip malls, highways), geographers call it urban sprawl.
@@ -885,7 +880,7 @@ QUICK CHECK: An urban growth boundary is… → a line around a metro area beyon
 --- Part G (Explain) ---
 Q: Explain ONE limitation of using data for Brookhaven's three large zones, or the metro total, to understand its housing or transportation problems.
 MODEL ANSWER: T1- One limitation is scale: each row averages hundreds of thousands of people, so it hides big differences between neighborhoods. E2- The central city's median home price is listed as $395,000, but the note says the renovated Millside and Canal districts are at $610,000, which means other central neighborhoods must be far cheaper; likewise the 55% drive-alone figure lumps transit-rich downtown together with car-dependent parts of the city. A3- Because the zone averages blur these differences, a planner could not tell where housing is actually unaffordable or where buses are missing, and would need neighborhood or census-tract data to target the real problem.
-RUBRIC: Names a limitation: large-scale averages hide variation within zones or neighborhoods, or city/suburb boundaries are defined differently, or rent and income data are missing / Explains why it misleads or what data would be needed instead
+RUBRIC: Names a limitation: zone-level or metro-level averages hide variation within zones or neighborhoods, or city/suburb boundaries are defined differently, or rent and income data are missing / Explains why it misleads or what data would be needed instead
 MINI-LESSON (When the scale is too big):
  - Scale of analysis is the size of the area each number describes: a block, a neighborhood, a city, a metro, a country.
  - A number for a big area is an average, and averages hide the highs and lows inside them.
@@ -907,7 +902,7 @@ BACKGROUND POP-OUTS:
    - Hoyt sector model (1939): land uses grow in wedges along railroads and major roads, so a high-rent sector can stretch from downtown to the edge.
    - Harris and Ullman multiple nuclei model (1945): a city has several centers (airport, university, industrial park, suburban business district), not just one downtown.
    - Galactic or peripheral model: an old core surrounded by a highway beltway with edge cities and suburbs scattered along it, the classic post-1970 American metro.
-   - Latin American city model: a wealthy spine runs out from the CBD, while squatter settlements and disamenity zones sit on the far edge.
+   - Latin American city model: a wealthy spine runs out from the CBD, squatter settlements ring the far edge, and disamenity sectors (along rivers or rail lines) cut through the city.
 • Gentrification
    - Gentrification happens when wealthier, often younger, residents move into an older lower-income neighborhood near downtown, renovate the housing, and open new businesses.
    - It is pulled by cheap older homes, short commutes to downtown jobs, walkable streets, and a taste for city life among young professionals and retirees.
@@ -1000,7 +995,7 @@ QUICK CHECK: A LOWER Gender Inequality Index means… → women and men are clos
 
 --- Part E (Explain) ---
 Q: Explain ONE economic risk for a country whose exports depend heavily on a single commodity.
-MODEL ANSWER: T1- Depending on one commodity is risky because the whole economy rises and falls with that product's world price, which the country cannot control. E2- Tessar gets 85% of its export earnings from petroleum, so if oil prices crash, as they did from over $100 a barrel in 2014 to under $30 in 2016, government revenue and jobs collapse at the same time. A3- Because the country has few other exports to fall back on, a price shock can lead to budget cuts, debt, and unemployment, which is why heavy commodity dependence is sometimes called the resource curse.
+MODEL ANSWER: T1- Depending on one commodity is risky because the whole economy rises and falls with that product's world price, which the country cannot control. E2- Tessar gets 85% of its export earnings from petroleum, so if oil prices crash, as they did from over $100 a barrel in 2014 to under $30 in 2016, government revenue and jobs collapse at the same time. A3- Because the country has few other exports to fall back on, a price shock can lead to budget cuts, debt, and unemployment, which is one part of what geographers call the resource curse: resource-rich countries often end up less stable and less developed than expected.
 RUBRIC: Names a risk: price shock or volatility, running out of the resource, falling demand, or the resource curse / Explains the effect on the country: lost income or revenue, budget cuts, debt, unemployment, recession
 MINI-LESSON (Putting all your eggs in one basket):
  - A commodity is a raw product sold at a world price: oil, copper, coffee, cocoa.

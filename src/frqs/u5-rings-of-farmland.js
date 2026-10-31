@@ -80,7 +80,7 @@ ml:["Highways, trucks, and extra markets",["Von Thünen's model assumes one mark
 wk:["The highway makes it easier for people to drive to Aldmere.","That's about commuters, not land use. The question wants what Crossford shows about the model: a second market with its own mini ring, created because trucks on the highway cut transport cost."],
 mw:"It names the broken assumption (one market), uses diagram evidence (the mini dairy zone around Crossford on the highway), and explains the cause (fast, cheap trucking creates a second market and overlapping rings).",
 fr:"T1- Crossford shows that modern transportation ___ the model's assumption of ___. E2- On the diagram, ___ surrounds Crossford where ___. A3- Because trucks on the highway ___, Crossford became ___, so the region has ___.",
-qc:["Which assumption of the von Thünen model does the town of Crossford break?",["There is only one market","Farmers want to make a profit","Transport cost rises with distance"],0,"Crossford is a second market. The other two assumptions still hold on this diagram."]},
+qc:["Which assumption of the von Thünen model does the town of Crossford break?",["There is only one market","Farmers want to make a profit","Transport cost rises with distance"],0,"Crossford is a second market, so the one-market assumption is broken. The other two choices are things the model assumes and this diagram still shows. The highway and river bend the rings too, but the question asks about the town."]},
 
 {v:"Explain",
 q:"Explain ONE way refrigerated trucking and global shipping have weakened the von Thünen pattern at the national or global scale.",
