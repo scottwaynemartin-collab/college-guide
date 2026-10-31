@@ -116,6 +116,41 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
   - **4.4 School Community:** counselor and co-teacher referrals logged.
   - **Tracked from the day the page was added:** "Mark conference held", referral buttons, parent-email drafts and assignment arrival dates.
 
+## Added in this round (conference, overview, T-TESS, retest messages)
+- **Conference page:**
+  - Rank cells use the imported column labels, e.g. "Q1 snapshot rank band (vs past cutoffs)".
+  - "Close to next letter" shows in Attendance & all classes.
+  - The Agency form has AP skill strength, AP skill gap and Next step.
+  - **Conference prep card** at the top gives 3 talking points worked out from the data:
+    1. Raw MC trend: up or down in a row, or the latest unit MC test missing.
+    2. Classes under 70: from the profile, or from the dashboard when my class is lower.
+    3. Power Hour no-shows, or missing work when there's no Power Hour data.
+    - Amber/red marks a concern. The card prints, compact and black & white.
+  - **Growth tracker** (screen only): a line chart of every AP Classroom unit MC score in order, with R marking a retest. Beside it: TIA BOY → EOY this year, last year's TIA, and last year's AP score.
+  - The Unit Tracker shows "Retest message sent: date" under a unit when one was logged.
+- **Overview:**
+  - **Reteach radar:** the 5 weakest units per course, using each student's latest AP Classroom unit MC attempt. Students below the on-track % are listed under each unit.
+  - **Make groups:** reteach groups by each student's weakest unit, 4–5 per group (snake-dealt so group MC averages balance). Buckets of 1–3 fold into the student's next-weakest unit. You can copy or print the groups; each copy or print is logged for T-TESS.
+  - **Retest priority:** watch / needs-help students whose next retest at ≥ 55% would flip them to AP on track. Each row shows the lowest score that flips them, and the list is sorted by it. The retest is added as its own test, as in the status rule.
+  - **Intervention → outcome:** for each Power Hour draft, contact and retest, the next unit MC score vs. the previous one. The hero line shows "After Power Hour: avg MC ±X pts".
+  - Test dates come from when each assignment first arrived in the dashboard, since imports carry no due dates.
+- **AP projection, Benchmarks card:** this year's projected mean and % 3+ next to last year's line from Settings (default "Martin 2026: mean 4.05, 92.5% 3+" for APHG and "mean 3.51, 70% 3+" for AP World). Our class, school, Texas and global lines come from the AP score summary.
+  - Optional score-summary columns: "School mean", "School % 3+", "Texas mean", "Texas % 3+" (a lone "School mean" still counts as ours).
+- **Compare years:** "% AP on track by month" for the course, using the same rule as of each month's end, by arrival date.
+- **Retest messages** (sidebar under Action lists; a button on every Overview / class page):
+  - **Who:** students whose most recent **Gradebook (TAC) unit test** (curved) is **≤ 70** and who have no retest for that unit (any platform), and no ticked retest. They are grouped by class and unit, all checked.
+  - **Optional group:** 71–79 (up to the retest cap), unchecked and greyed. It uses the second message ("is below 80").
+  - **Copy for Canvas:** the names, one per line, plus the message. With more than one student it copies one personalized message per student, separated by "----".
+  - **Mark sent:** logs "Retest message · Unit N · Canvas" in the contact log and hides the student for that unit until the next import.
+  - **Copy prompt for Claude:** names + IDs, the unit and the message, ready for Claude in Chrome to send.
+  - Both messages and the cutoff (70) are editable in Settings.
+- **T-TESS:**
+  - 1.2: retest priority = students one retest from on track, plus open unit-test retests.
+  - 1.4: reteach groups made.
+  - 2.3: retest messages sent.
+  - 4.2: falls back to the Settings benchmark.
+  - The footer reads "Evidence from Classroom Dashboard; student data on request."
+
 ## Artifact limits (by design)
 The claude.ai artifact frame blocks several browser features, so the page works around them:
 - **Pop-ups (`confirm`, `prompt`, `alert`):** replaced with dialogs built into the page.
