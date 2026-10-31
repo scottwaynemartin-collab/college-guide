@@ -12,18 +12,21 @@
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--bg);background-image:linear-gradient(rgba(34,229,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(34,229,255,.05) 1px,transparent 1px);background-size:28px 28px;color:var(--ink);font:17px/1.55 'Chakra Petch',system-ui,sans-serif;min-height:100vh}
-body:after{content:"";position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 1px,transparent 1px 3px);z-index:50}
+body:after{content:"";position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.12) 0 1px,transparent 1px 3px);z-index:50}
 #app{max-width:780px;margin:0 auto;padding:14px 14px 60px}
 .px{font-family:var(--px);text-transform:uppercase;letter-spacing:.04em;line-height:1.6}
 h1,h2,h3{margin:0}
 p{margin:.4em 0}
 button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--yl)!important;outline-offset:3px}
+.brand,.bgc,.hb,.link,details.peek summary{min-height:44px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .panel{background:var(--pn);border:3px solid var(--ln);box-shadow:5px 5px 0 #000;padding:16px;margin:16px 0;position:relative}
 .panel>.tag{position:absolute;top:-12px;left:12px;background:var(--bg);padding:2px 8px;font-size:10px;color:var(--cy);border:2px solid var(--ln)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--yl);color:#120d2b;border:0;box-shadow:inset -4px -4px 0 rgba(0,0,0,.25),4px 4px 0 #000;padding:13px 18px;font:11px/1.4 var(--px);text-transform:uppercase;min-height:46px}
 .btn:active{transform:translate(3px,3px);box-shadow:inset -4px -4px 0 rgba(0,0,0,.25),1px 1px 0 #000}
 .btn:disabled{opacity:.4;cursor:not-allowed;transform:none}
-.btn.c{background:var(--cy)}.btn.m{background:var(--mg);color:#fff}.btn.g{background:var(--gr)}
+.btn.c{background:var(--cy)}.btn.m{background:var(--mg);color:#120d2b}.btn.g{background:var(--gr)}
 .btn.o{background:transparent;color:var(--cy);box-shadow:inset 0 0 0 2px var(--cy),4px 4px 0 #000}
 .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:14px}
 .link{background:none;border:0;color:var(--dim);text-decoration:underline;padding:8px 4px;font-size:15px}
@@ -35,11 +38,11 @@ button{font:inherit;color:inherit;cursor:pointer}
 .brand b{color:var(--cy);text-shadow:0 0 8px rgba(34,229,255,.7)}
 .score{font:10px var(--px);color:var(--yl);white-space:nowrap}
 .prog{display:flex;gap:4px;margin:12px 0 4px}
-.seg{flex:1;height:26px;border:2px solid var(--ln);background:#0b0820;font:9px var(--px);color:var(--dim);padding:0;display:flex;align-items:center;justify-content:center}
+.seg{flex:1;height:40px;border:2px solid #7066c9;background:#0b0820;font:9px var(--px);color:var(--dim);padding:0;display:flex;align-items:center;justify-content:center}
 .seg.v{color:var(--ink);border-color:var(--cy)}
 .seg.ok{background:var(--gr);color:#0b1a12;border-color:var(--gr)}
 .seg.no{background:#4a2140;color:#ffb3c8;border-color:var(--rd)}
-.seg.cur{background:var(--yl);color:#111;border-color:var(--yl);animation:pulse 1.2s steps(2) infinite}
+.seg.cur{background:var(--yl);color:#111;border-color:var(--yl);animation:pulse 1.2s steps(2) 3}
 .seg:disabled{cursor:default}
 @keyframes pulse{50%{box-shadow:0 0 0 2px var(--yl),0 0 12px var(--yl)}}
 .sym{font-family:system-ui,sans-serif;font-size:14px;line-height:1}
@@ -52,17 +55,17 @@ button{font:inherit;color:inherit;cursor:pointer}
 .lt{font-size:19px;color:var(--yl);margin-bottom:4px}
 .les{padding-left:20px;margin:6px 0}.les li{margin:6px 0}
 .voc{background:#0a0820;border:2px solid var(--ln);padding:10px 12px;margin-top:10px}
-.voc .px{font-size:9px;color:var(--cy);display:block;margin-bottom:4px}.voc p{font-size:15px;margin:4px 0}.voc b{color:var(--cy)}
+.voc .px{font-size:10px;color:var(--cy);display:block;margin-bottom:4px}.voc p{font-size:15px;margin:4px 0}.voc b{color:var(--cy)}
 .weak summary{color:var(--rd)}.wa{font-style:italic;color:#ffc2cc}
 .chip.fr{border-color:var(--gr);color:var(--gr)}
 .fix{display:block;font-style:normal;color:var(--yl);font-size:14px;margin-top:4px}
 .why{margin:8px 0 0;font-size:15px;color:#bfefff}
-.plabel{font:9px var(--px);color:var(--dim);display:flex;justify-content:space-between}
+.plabel{font:10px var(--px);align-items:center;color:var(--dim);display:flex;justify-content:space-between}
 /* home */
 .hero{text-align:center;padding:26px 6px 8px}
 .hero h1{font:clamp(26px,8vw,46px)/1.2 var(--px);color:var(--yl);text-shadow:3px 3px 0 var(--mg),6px 6px 0 #000}
 .hero .sub{font:10px/1.8 var(--px);color:var(--cy);margin-top:14px}
-.blink{animation:bl 1s steps(1) infinite;color:var(--gr);font:11px var(--px);margin:18px 0 4px}
+.blink{animation:bl 1s steps(1) 5;color:var(--gr);font:11px var(--px);margin:18px 0 4px}
 @keyframes bl{50%{opacity:0}}
 .carts{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .cart{text-align:left;background:linear-gradient(160deg,#241c63,#120e33);border:3px solid var(--cy);box-shadow:6px 6px 0 #000;padding:16px;display:flex;flex-direction:column;gap:8px}
@@ -94,7 +97,7 @@ td:first-child{text-align:left;font-weight:700;color:var(--cy)}
 .notice .q{font-weight:700}
 .notice textarea{min-height:56px;margin-top:8px}
 .take{margin-top:8px;padding:10px;background:#0f2a24;border:2px solid var(--gr);font-size:15px}
-.take:before{content:"TUTOR'S TAKE";display:block;font:9px var(--px);color:var(--gr);margin-bottom:4px}
+.take:before{content:"TUTOR'S TAKE";display:block;font:10px var(--px);color:var(--gr);margin-bottom:4px}
 details.peek{margin:12px 0;border:2px solid var(--ln);background:#0e0b28}
 details.peek summary{cursor:pointer;padding:12px;font:10px var(--px);color:var(--cy);list-style:none}
 details.peek summary:before{content:"▸ "}
@@ -105,14 +108,14 @@ details.peek>div{padding:0 10px 10px}
 .qbox .px{font-size:10px;color:var(--yl);display:block;margin-bottom:8px}
 .qbox p{font-size:19px;font-weight:600;margin:0}
 .verb{display:flex;gap:14px;align-items:flex-start}
-.verb .vb{font:13px var(--px);background:var(--mg);color:#fff;padding:10px;box-shadow:3px 3px 0 #000;flex:none}
+.verb .vb{font:13px var(--px);background:var(--mg);color:#120d2b;padding:10px;box-shadow:3px 3px 0 #000;flex:none}
 .verb ul{margin:6px 0 0;padding-left:20px;font-size:15px;color:var(--dim)}
 .step{display:flex;gap:12px;padding:12px 0;border-top:2px dashed var(--ln)}
 .step:first-of-type{border-top:0}
 .badge{flex:none;width:44px;height:44px;display:flex;align-items:center;justify-content:center;font:16px var(--px);background:#0a0820;border:3px solid currentColor}
-.step .lb{font:9px var(--px);opacity:.9}
+.step .lb{font:10px var(--px);opacity:.9}
 .step .pr{margin:4px 0 6px}
-.hb{background:none;border:2px solid var(--yl);color:var(--yl);font:9px var(--px);padding:8px 10px;margin:4px 6px 0 0}
+.hb{background:none;border:2px solid var(--yl);color:var(--yl);font:10px var(--px);padding:8px 12px;margin:4px 6px 0 0}
 .hint{background:#2b2410;border-left:4px solid var(--yl);padding:8px 10px;margin:6px 0;font-size:15px}
 .hint:before{content:"💡 "}
 textarea{width:100%;min-height:140px;background:#07061a;color:var(--ink);border:3px solid var(--cy);padding:12px;font:17px/1.5 'Chakra Petch',system-ui,sans-serif;resize:vertical}
@@ -130,7 +133,7 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 .ck small{display:block;color:var(--gr);font-size:12px}
 .mine{white-space:pre-wrap;background:#07061a;border:2px dashed var(--ln);padding:10px;font-size:15px;color:var(--dim)}
 .model{background:#102033;border:3px solid var(--cy);padding:12px}
-.model .px{font-size:9px;color:var(--cy);display:block;margin-bottom:6px}
+.model .px{font-size:10px;color:var(--cy);display:block;margin-bottom:6px}
 .verdict{font:12px/1.6 var(--px);padding:12px;text-align:center;margin-top:12px;border:3px solid}
 .verdict.y{color:var(--gr);border-color:var(--gr);background:#0b2418}
 .verdict.n{color:var(--rd);border-color:var(--rd);background:#2a0c1a}
@@ -138,7 +141,7 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
 /* done */
 .big{font:clamp(24px,7vw,40px)/1.3 var(--px);color:var(--gr);text-align:center;text-shadow:3px 3px 0 #000,0 0 14px rgba(77,255,145,.6)}
 .stars{text-align:center;font-size:30px;letter-spacing:4px;margin:10px 0}
-.rank{text-align:center;font:11px var(--px);color:var(--yl)}
+.rank{text-align:center;font:11px/1.9 var(--px);color:var(--yl)}
 .res{list-style:none;padding:0;margin:0}
 .res li{padding:10px 0;border-top:2px dashed var(--ln)}
 .res li:first-child{border-top:0}
@@ -163,13 +166,13 @@ textarea:focus{outline:none;box-shadow:0 0 0 3px rgba(34,229,255,.35)}
  .verb{flex-direction:column;gap:8px}
  #sh{align-items:flex-end;padding:0}
  #sh .card{max-height:80vh;border-bottom:0;box-shadow:0 -4px 0 #000}
- .seg{font-size:8px;height:24px}
+ .seg{font-size:9px;height:40px}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 </head>
 <body>
-<div id="app"></div>
+<main id="app"></main>
 <div id="sh" role="dialog" aria-modal="true" aria-labelledby="shT"><div class="card"><div class="k">📜 Need the background?</div><h3 id="shT"></h3><ol id="shB"></ol><div class="row"><button class="btn c" data-a="x">Got it ▸</button></div></div></div>
 <script>
 /* ===== Background pop-outs ===== */
@@ -339,7 +342,7 @@ const score=()=>S.p.filter(x=>x.done&&x.ok).length;
 const chips=a=>a.map(k=>`<button class="bgc" data-a="bg" data-k="${k}">📜 ${esc(BG[k].t)}</button>`).join('');
 function start(i){S={f:FRQ[i],fi:i,k:0,max:0,p:FRQ[i].p.map(()=>({st:1,h:{},a:'',ck:0,box:[],done:0,ok:0})),nt:FRQ[i].nt.map(()=>({o:0,a:''}))};render(1)}
 function go(k){S.k=k;S.max=Math.max(S.max,k);render(1)}
-function render(top){const y=scrollY;app.innerHTML=S.k<0?home():hdr()+(S.k==0?stimV():S.k>S.f.p.length?doneV():partV(S.k-1));top?scrollTo(0,0):scrollTo(0,y)}
+function render(top){const y=scrollY;app.innerHTML=S.k<0?home():hdr()+(S.k==0?stimV():S.k>S.f.p.length?doneV():partV(S.k-1));if(top){scrollTo(0,0);const f=app.querySelector('h2[tabindex]')||app.querySelector('h1[tabindex]');f&&f.focus({preventScroll:true})}else scrollTo(0,y)}
 /* ===== Views ===== */
 function home(){return `<div class="hero"><div class="sub">GeoArcade presents</div><h1>FRQ<br>Tutor</h1><div class="sub">AP Human Geography · free-response training</div><div class="blink">▶ SELECT A CARTRIDGE ◀</div></div>
 <div class="carts">${FRQ.map((f,i)=>`<button class="cart" data-a="start" data-i="${i}"><span class="k">${f.k}</span><h3>${f.t}</h3><span class="d">${f.d}</span><span class="d">${f.u} · ${f.p.length} parts</span><span class="go">PRESS START ▸</span></button>`).join('')}</div>
@@ -348,8 +351,8 @@ function home(){return `<div class="hero"><div class="sub">GeoArcade presents</d
 function hdr(){const n=S.f.p.length,segs=[["👁",0]].concat(S.f.p.map((_,i)=>[L(i),i+1]),[["★",n+1]]);
 const cur=S.k==0?"Stimulus":S.k>n?"Results":`Part ${L(S.k-1)} of ${n}`;
 return `<div class="top"><button class="brand" data-a="home">◀ Geo<b>Arcade</b> · FRQ Tutor</button><span class="score" aria-live="polite"><span class="sym">★</span> ${score()}/${n}</span></div>
-<div class="prog" role="navigation" aria-label="Progress">${segs.map(([t,k])=>{const p=k>0&&k<=n?S.p[k-1]:null,c=k==S.k?'cur':p&&p.done?(p.ok?'ok':'no'):k<=S.max?'v':'';return `<button class="seg ${c}" data-a="go" data-k="${k}" aria-label="${k==0?'Stimulus':k>n?'Results':'Part '+t}">${k==0||k>n?`<span class="sym">${t}</span>`:t}</button>`}).join('')}</div>
-<div class="plabel"><span>${esc(S.f.t)}</span><span>${cur}</span></div><div class="jump">Tap any letter to jump to that part. Go in order or skip around.</div>`}
+<div class="prog" role="navigation" aria-label="Progress">${segs.map(([t,k])=>{const p=k>0&&k<=n?S.p[k-1]:null,c=k==S.k?'cur':p&&p.done?(p.ok?'ok':'no'):k<=S.max?'v':'';return `<button class="seg ${c}" data-a="go" data-k="${k}" ${k==S.k?'aria-current="step"':''} aria-label="${k==0?'Stimulus':k>n?'Results':'Part '+t+(p&&p.done?(p.ok?', point earned':', not yet'):'')}">${k==0||k>n?`<span class="sym">${t}</span>`:t}</button>`}).join('')}</div>
+<div class="plabel"><h1 tabindex="-1" style="font:inherit">${esc(S.f.t)}</h1><span>${cur}</span></div><div class="jump">Tap any letter to jump to that part. Go in order or skip around.</div>`}
 function stimBox(){return `<div class="stim"><h3>${esc(S.f.st)}</h3>${S.f.stim}</div>`}
 function stimV(){const all=S.nt.every(x=>x.o);
 return `<div class="panel"><span class="tag px">Step 1 · Look first</span><p>${esc(S.f.intro)} <b>No questions yet.</b> Strong FRQ writers study the stimulus <i>before</i> reading the prompt.</p></div>${stimBox()}
@@ -358,7 +361,7 @@ return `<div class="panel"><span class="tag px">Step 1 · Look first</span><p>${
 <div class="row"><button class="btn g" data-a="go" data-k="1">Reveal Part A ▸</button>${all?'':'<span class="note">Tip: compare all three notes first. Good writers always look before they write!</span>'}</div></div>`}
 function partV(i){const P=S.f.p[i],st=S.p[i],V=VERBS[P.v],tea=P.v!="Identify",n=S.f.p.length,ready=st.st>P.s.length;
 let h=`<details class="peek"><summary>View stimulus</summary><div>${stimBox()}</div></details>
-<div class="qbox"><span class="px">Part ${L(i)} · ${P.v}</span><p>${esc(P.q)}</p><div class="plain"><b>In plain words:</b> ${esc(P.kq)}</div></div>
+<div class="qbox"><span class="px">Part ${L(i)} · ${P.v}</span><h2 tabindex="-1" style="font-size:19px;line-height:1.45">${esc(P.q)}</h2><div class="plain"><b>In plain words:</b> ${esc(P.kq)}</div></div>
 <div class="coach"><div class="av" aria-hidden="true">🧭</div><div><p class="kid">“${esc(P.th)}”</p><p><b>Tutor:</b> ${esc(P.co)}</p></div></div>
 <div class="panel"><span class="tag px">1 · Decode the verb</span><div class="verb"><span class="vb">${P.v}</span><div><b>${V.d}</b><ul>${V.l.map(x=>`<li>${x}</li>`).join('')}</ul></div></div><div style="margin-top:8px">${chips(tea?['frq','tea']:['frq'])}</div></div>
 <div class="panel"><span class="tag px">2 · Learn what you need</span><h3 class="lt">${esc(P.ml[0])}</h3><ul class="les">${P.ml[1].map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
@@ -373,24 +376,24 @@ if(ready){h+=`<div class="panel"><span class="tag px">4 · Write it</span>${tea?
 <details class="peek weak"><summary>Don't fall for this weak answer</summary><div><p class="wa">“${esc(P.wk[0])}”</p><p><b>❌ Why it misses:</b> ${esc(P.wk[1])}</p></div></details>
 <textarea id="ans" data-in="ans" data-i="${i}" placeholder="${tea?'Write 2–3 sentences…':'Write a short phrase…'}" aria-label="Your answer" ${st.ck?'readonly':''}>${esc(st.a)}</textarea>
 ${st.ck?'':`<div class="chips"><button class="chip fr" data-a="frame" data-i="${i}">🧩 Stuck? Use a sentence frame</button>${tea?["For example, ","This is because ","which leads to ","As a result, "].map(c=>`<button class="chip" data-a="ins" data-t="${c}">+ ${c.trim()}</button>`).join(''):''}</div><p class="note">Sentence frames have blanks (___). Replace each blank with your own words.</p>`}
-${st.ck?`<div class="row"><button class="link" data-a="rev" data-i="${i}">✎ Revise my answer</button></div>`:`${st.w?'<p class="fix">⚠ You still have blanks (___) to fill in. Replace each one with your own words first!</p>':''}<div class="row"><button class="btn" data-a="check" data-i="${i}">Check my answer ▸</button></div>`}</div>`}
+${st.ck?`<div class="row"><button class="link" data-a="rev" data-i="${i}">✎ Revise my answer</button></div>`:`${st.w?'<p class="fix" role="alert">⚠ You still have blanks (___) to fill in. Replace each one with your own words first!</p>':''}<div class="row"><button class="btn" data-a="check" data-i="${i}">Check my answer ▸</button></div>`}</div>`}
 if(st.ck){const ok=earned(i);h+=`<div class="panel"><span class="tag px">5 · Check it</span><p><b>What earns the point${P.r.m=="any"?' (any ONE of these)':' (you need ALL of these)'}:</b> Tick each one your answer really does.</p>
 <ul class="ck">${P.r.i.map((r,j)=>`<li><label><input type="checkbox" data-a="box" data-i="${i}" data-j="${j}" ${st.box[j]?'checked':''}><span>${esc(r[0])}${st.g[j]?'<small>Tutor spotted this; double-check it.</small>':''}${!st.box[j]&&!(P.r.m=="any"&&st.box.some(Boolean))?`<em class="fix">Fix it: ${esc(r[2])}</em>`:''}</span></label></li>`).join('')}</ul>
 <p class="note">The tutor guesses from keywords. <b>You</b> make the final call, so be honest!</p>
 <div class="model"><span class="px">Model answer</span>${esc(P.mo)}<p class="why"><b>✅ Why it works:</b> ${esc(P.mw)}</p></div>
-<div class="verdict ${ok?'y':'n'}">${ok?'★ Point earned!':'Not yet! Use the Fix-it tips above, then revise.'}</div>
+<div role="status" class="verdict ${ok?'y':'n'}">${ok?'★ Point earned!':'Not yet! Use the Fix-it tips above, then revise.'}</div>
 <div class="row">${ok?'':`<button class="btn o" data-a="rev" data-i="${i}">✎ Revise</button>`}<button class="btn g" data-a="next" data-i="${i}">${i+1<n?`Part ${L(i+1)} ▸`:'See results ▸'}</button></div></div>`}
 return h}
 function doneV(){const n=S.f.p.length,sc=score(),ps=S.f.p.map((p,i)=>[p,i,S.p[i]]),ok=ps.filter(x=>x[2].ok),no=ps.filter(x=>x[2].done&&!x[2].ok),un=ps.filter(x=>!x[2].done);
 const rank=sc==n?"GEO LEGEND":sc>=5?"MAP MASTER":sc>=3?"RISING SCOUT":"KEEP PLAYING";
-return `<div class="panel" style="text-align:center"><div class="big">${un.length?'Progress report':'Stage clear!'}</div><div class="stars" aria-label="${sc} of ${n}">${'★'.repeat(sc)}<span style="opacity:.25">${'★'.repeat(n-sc)}</span></div><div class="rank">${sc}/${n} points · Rank: ${rank}</div></div>
+return `<div class="panel" style="text-align:center"><h2 class="big" tabindex="-1">${un.length?'Progress report':'Stage clear!'}</h2><div class="stars" aria-label="${sc} of ${n}">${'★'.repeat(sc)}<span style="opacity:.25">${'★'.repeat(n-sc)}</span></div><div class="rank">${sc}/${n} points · Rank: ${rank}</div></div>
 <div class="panel"><span class="tag px" style="color:var(--gr)">Nailed it</span>${ok.length?`<ul class="res">${ok.map(([p,i])=>`<li><b style="color:var(--gr)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span></li>`).join('')}</ul>`:'<p class="note">No points yet. Every replay makes it easier!</p>'}</div>
 <div class="panel"><span class="tag px" style="color:var(--rd)">Review these</span>${no.length?`<ul class="res">${no.map(([p,i])=>`<li><b style="color:var(--rd)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br>${chips(p.b)}<button class="link" data-a="go" data-k="${i+1}">Revisit Part ${L(i)}</button></li>`).join('')}</ul>`:'<p>Nothing to review so far. 🏆</p>'}</div>
 ${un.length?`<div class="panel"><span class="tag px" style="color:var(--yl)">Not tried yet</span><ul class="res">${un.map(([p,i])=>`<li><b style="color:var(--yl)">${L(i)}</b>${esc(p.sk)} <span class="note">(${p.v})</span><br><button class="link" data-a="go" data-k="${i+1}">Go to Part ${L(i)}</button></li>`).join('')}</ul></div>`:''}
 <div class="row"><button class="btn" data-a="start" data-i="${S.fi}">↻ Replay</button><button class="btn m" data-a="start" data-i="${1-S.fi}">Try “${esc(FRQ[1-S.fi].t)}” ▸</button><button class="btn o" data-a="home">Menu</button></div>`}
 /* ===== Events ===== */
-function openBG(k){document.getElementById('shT').textContent=BG[k].t;document.getElementById('shB').innerHTML=BG[k].s.map(x=>`<li>${esc(x)}</li>`).join('');sh.classList.add('on');sh.querySelector('[data-a=x]').focus()}
-function closeBG(){sh.classList.remove('on')}
+let opener;function openBG(k){opener=document.activeElement;app.setAttribute('aria-hidden','true');document.getElementById('shT').textContent=BG[k].t;document.getElementById('shB').innerHTML=BG[k].s.map(x=>`<li>${esc(x)}</li>`).join('');sh.classList.add('on');sh.querySelector('[data-a=x]').focus()}
+function closeBG(){if(!sh.classList.contains('on'))return;sh.classList.remove('on');app.removeAttribute('aria-hidden');opener&&opener.focus()}
 document.addEventListener('click',e=>{if(e.target==sh)return closeBG();const b=e.target.closest('[data-a]');if(!b||b.disabled)return;const a=b.dataset.a,i=+b.dataset.i,j=+b.dataset.j;
 if(b.tagName=='INPUT'&&a=='box'){S.p[i].box[j]=b.checked;return render()}
 switch(a){
@@ -411,7 +414,7 @@ case 'rev':S.p[i].ck=0;S.p[i].done=0;render();return document.getElementById('an
 case 'next':S.p[i].done=1;S.p[i].ok=earned(i);return go(i+2);
 }});
 document.addEventListener('input',e=>{const t=e.target,d=t.dataset;if(d.in=='ans')S.p[+d.i].a=t.value;else if(d.in=='nt')S.nt[+d.j].a=t.value});
-document.addEventListener('keydown',e=>{if(e.key=='Escape')closeBG()});
+document.addEventListener('keydown',e=>{if(e.key=='Escape')closeBG();else if(e.key=='Tab'&&sh.classList.contains('on')){e.preventDefault();sh.querySelector('[data-a=x]').focus()}});
 render(1);
 </script>
 </body>
