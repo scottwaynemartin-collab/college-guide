@@ -1,0 +1,15 @@
+const {FILE_URL, HTML_PATH, OUT, FIX} = require('./lib');
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1440,height:1000}});
+const errs=[];p.on('pageerror',e=>errs.push(e.message));p.on('dialog',d=>{errs.push('DIALOG');d.dismiss();});
+await p.goto(FILE_URL+'');await p.click('text=Try it with sample data');await p.waitForTimeout(300);
+await p.screenshot({path:OUT+'/x-overview.png',fullPage:true});
+await p.click('.gi'); await p.waitForTimeout(200); await p.fill('#contactNote','Left voicemail'); await p.click('[data-contact$="|Call"]'); await p.waitForTimeout(200);
+await p.screenshot({path:OUT+'/x-drawer.png'});
+await p.click('[data-email]'); await p.waitForTimeout(150); console.log((await p.$eval('#outText',e=>e.value)).slice(0,200)); await p.keyboard.press('Escape'); await p.waitForTimeout(150); await p.keyboard.press('Escape');
+await p.click('aside [data-go=retests]'); const before = await p.$$eval('.trow',x=>x.length); await p.click('[data-rdone]'); await p.waitForTimeout(150); const after = await p.$$eval('.trow',x=>x.length);
+console.log('retest rows',before,after, await p.$eval('[data-act=toggle-done]',e=>e.textContent));
+await p.screenshot({path:OUT+'/x-retests.png'});
+await p.click('aside [data-go=overview]'); await p.click('[data-act=copy-summary]'); await p.waitForTimeout(150);
+console.log(await p.evaluate(()=>weeklySummary(buildModel())));
+console.log('ERR',errs); await b.close();})();
