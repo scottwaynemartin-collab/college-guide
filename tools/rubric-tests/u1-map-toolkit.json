@@ -1,0 +1,72 @@
+{
+"A": [
+  {"a": "A perceptual region.", "ok": true},
+  {"a": "It's a vernacular region because people just think of it as the South, there's no official line around it.", "ok": true},
+  {"a": "Perceptual region - it is based on what people believe and feel about the area, so everybody draws the border in a different place.", "ok": true},
+  {"a": "It is a region that only exists in people's heads, based on things like sweet tea and accents, and nobody agrees exactly where it starts or ends.", "ok": true},
+  {"a": "The South is a region in the southern part of the United States.", "ok": false},
+  {"a": "It's a formal region because all the southern states share the same culture and climate.", "ok": false},
+  {"a": "A functional region, because it is organized around big cities like Atlanta.", "ok": false},
+  {"a": "A cultural region with clear borders that the government set, like the Mason-Dixon line.", "ok": false}
+],
+"B": [
+  {"a": "T1- Mercator makes places near the poles look too big. E2- Greenland looks almost the same size as Africa on the map. A3- But in real life Africa is about 14 times larger, so people think Greenland is huge.", "ok": true},
+  {"a": "Greenland looks as big as Africa but Africa is really 14 times bigger.", "ok": true},
+  {"a": "The Mercator projection makes Greenland look about the size of Africa because land far from the equator gets stretched out.", "ok": true},
+  {"a": "On the map Greenland seems similar in size to Africa, when really Africa is way larger. This is because Mercator enlarges areas closer to the North and South Pole.", "ok": true},
+  {"a": "The Mercator projection distorts the size of Greenland and Africa because it is a flat map.", "ok": false},
+  {"a": "Mercator makes Africa look bigger than it really is and Greenland look smaller, because Africa is on the equator.", "ok": false},
+  {"a": "On a Mercator map Greenland looks about as big as Africa.", "ok": false},
+  {"a": "Greenland looks the same size as Africa because Mercator keeps the area of every country correct and only changes the shapes.", "ok": false}
+],
+"C": [
+  {"a": "T1- Site is the physical characteristics of a place, like landforms and climate. E2- Situation is where the place is relative to other places. A3- Chicago's site is flat land on Lake Michigan and its situation is a hub where railroads connect the East and the West.", "ok": true},
+  {"a": "Site means the actual land the city is built on and situation means its location compared to things around it. New Orleans sits on swampy land below sea level, but its situation near the mouth of the Mississippi makes it a big port.", "ok": true},
+  {"a": "New York City's site is an island with a deep natural harbor. Its situation is that it's on the Atlantic coast between Europe and the rest of the US, so it connects a lot of trade.", "ok": true},
+  {"a": "Site = the natural features at the exact spot, like rivers and hills. Situation = how the city is connected to other cities and regions. Pittsburgh is built where two rivers meet, and it was near coal and iron mines so it became a steel city.", "ok": true},
+  {"a": "Site and situation are two ways of describing where a city like New Orleans is located.", "ok": false},
+  {"a": "Site is the exact latitude and longitude of New Orleans and situation is what is happening there right now, like Mardi Gras or the economy.", "ok": false},
+  {"a": "New Orleans's site is low, swampy land next to the Mississippi River, and a lot of it is below sea level.", "ok": false},
+  {"a": "The site is where the city was first founded, and the situation is the condition the city is in now, like how New Orleans was damaged after Hurricane Katrina.", "ok": false}
+],
+"D": [
+  {"a": "T1- Remote sensing uses satellites to take pictures of the ground. E2- After the hurricane, the county could look at the pictures to see which neighborhoods are flooded. A3- Then they can send rescue teams to those places first.", "ok": true},
+  {"a": "They could fly drones over town to take photos and find which roads are blocked and which houses got destroyed, then send repair crews there.", "ok": true},
+  {"a": "Satellite images from before and after the storm would show where the damage is worst so emergency workers know where to bring food and water.", "ok": true},
+  {"a": "Aerial photos from airplanes can map the flooding, so the county can decide where to send boats and supplies to help people.", "ok": true},
+  {"a": "Remote sensing would help the county respond to the hurricane by sensing things from far away.", "ok": false},
+  {"a": "The county could use GPS to track the hurricane's path and warn people to evacuate before it hits.", "ok": false},
+  {"a": "Remote sensing is when satellites or drones take pictures of the earth from above.", "ok": false},
+  {"a": "They could use satellites to predict where the hurricane is going to make landfall so people can leave town early.", "ok": false}
+],
+"E": [
+  {"a": "T1- A new highway gets built. E2- People who live farther away can now drive into the city faster. A3- So the commuter zone gets bigger because more people can reach the city.", "ok": true},
+  {"a": "If a new hospital opens in a nearby town, people there will go to the closer one instead, so the first hospital's service area shrinks.", "ok": true},
+  {"a": "Technology like Zoom lets people work from home most days, so workers can live much farther from the office and only commute once a week, which expands the commuter zone.", "ok": true},
+  {"a": "A new train line lets people commute in from farther suburbs, so the region grows.", "ok": true},
+  {"a": "A functional region can change size over time because things change.", "ok": false},
+  {"a": "The functional region changes because the state government redraws the county lines.", "ok": false},
+  {"a": "A new highway could be built near the city.", "ok": false},
+  {"a": "Functional regions change size because people's opinions and feelings about where the region is change over time.", "ok": false}
+],
+"F": [
+  {"a": "T1- Environmental determinism says the physical environment controls how a society develops. E2- Possibilism says the environment sets limits but people choose how to adapt. A3- For example, Las Vegas is in a desert, but people use dams and air conditioning to live there, which shows possibilism.", "ok": true},
+  {"a": "Determinism is the idea that climate decides how people act, like saying hot places make people lazy. Possibilism says people can use technology to overcome their environment, like the Dutch building dikes to hold back the sea.", "ok": true},
+  {"a": "Determinists think geography limits what a culture can do, but possibilists believe humans can adapt in different ways. In the Andes mountains people built terraces to farm on steep slopes.", "ok": true},
+  {"a": "Environmental determinism means nature determines people's lives. Possibilism means people have choices. The Netherlands is below sea level but they built polders to make new farmland.", "ok": true},
+  {"a": "Environmental determinism and possibilism are two different ideas about how people and the environment interact.", "ok": false},
+  {"a": "Environmental determinism is when humans change the environment, like cutting down the rainforest, and possibilism is when it is possible for the environment to change humans.", "ok": false},
+  {"a": "Environmental determinism says the environment controls what people can do and how their society develops.", "ok": false},
+  {"a": "Determinism says the environment shapes people, while possibilism says anything is possible and nature has no limits, for example people could live anywhere they want.", "ok": false}
+],
+"G": [
+  {"a": "T1- Numbers can't tell you how people feel. E2- The census might show 5,000 people left, but not why they left. A3- Interviews with residents would show their reasons, like they couldn't afford to rebuild.", "ok": true},
+  {"a": "Census data only counts things like population and income, it doesn't show people's experiences. Qualitative data like talking to survivors could explain what they went through.", "ok": true},
+  {"a": "Statistics might show how many houses got destroyed but not the emotional impact on the community. Field observations and personal stories would help leaders understand what people actually need.", "ok": true},
+  {"a": "Quantitative data misses the why. Asking people open-ended questions in a survey tells you their reasons for staying or leaving.", "ok": true},
+  {"a": "Quantitative data has limits, and qualitative data can help us understand a place after a hurricane.", "ok": false},
+  {"a": "Quantitative data can be wrong because people make mistakes filling out the census, so qualitative data like satellite images would be more accurate.", "ok": false},
+  {"a": "Census numbers don't show people's feelings or their reasons for leaving.", "ok": false},
+  {"a": "Quantitative data is numbers and qualitative data is descriptions with words, so it's best to use both kinds.", "ok": false}
+]
+}

@@ -75,7 +75,7 @@ const DIRECTIONS = `<div class="dir"><b>Directions:</b> Answer all parts of the 
 
 function student(f) {
   const qs = f.p.map((p, i) => {
-    const lines = p.v === 'Identify'
+    const lines = (p.v === 'Identify' || p.v === 'Define')
       ? `<div class="ln"><span class="lab"></span><span class="rule"></span></div><div class="ln"><span class="lab"></span><span class="rule"></span></div>`
       : ['T1-', '', 'E2-', '', 'A3-', ''].map(l => `<div class="ln"><span class="lab">${l}</span><span class="rule"></span></div>`).join('');
     return `<div class="q"><div class="h"><b>${L(i)}.</b>${esc(p.q)}<span class="verb">${p.v}</span></div><div class="lines">${lines}</div></div>`;

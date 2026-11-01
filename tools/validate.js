@@ -31,8 +31,9 @@ Object.values(BG).forEach(b => { if (!b.t || !b.s || b.s.length < 3 || b.s.lengt
 f.p.forEach((p, i) => {
   const L = String.fromCharCode(65 + i), w = `Part ${L}`;
   ['v', 'q', 'sk', 's', 'r', 'mo', 'b', 'th', 'co', 'kq', 'ml', 'wk', 'mw', 'fr', 'qc'].forEach(k => need(p, k, w));
-  if (!['Identify', 'Describe', 'Explain'].includes(p.v)) errs.push(`${w}: verb must be Identify/Describe/Explain`);
-  const steps = p.v === 'Identify' ? 2 : 3;
+  if (!['Identify', 'Define', 'Describe', 'Explain', 'Compare'].includes(p.v)) errs.push(`${w}: verb must be Identify/Define/Describe/Explain/Compare`);
+  const short = p.v === 'Identify' || p.v === 'Define';
+  const steps = short ? 2 : 3;
   if (p.s && p.s.length !== steps) errs.push(`${w}: ${p.v} needs ${steps} thinking steps, found ${p.s.length}`);
   (p.s || []).forEach((s, j) => { if (!Array.isArray(s[1]) || s[1].length < 1 || s[1].length > 2) errs.push(`${w} step ${j + 1}: needs 1 or 2 hints`); });
   if (p.r) {
@@ -46,7 +47,7 @@ f.p.forEach((p, i) => {
     if (!ok) errs.push(`${w}: the model answer does NOT earn its own point (rubric hits: ${hits.join(',')})`);
     if (p.wk && p.r.m === 'all' && (p.r.i || []).every(r => r[1] instanceof RegExp && r[1].test(p.wk[0]))) warn.push(`${w}: the weak answer would pass the rubric`);
   }
-  if (p.v !== 'Identify' && p.mo && !/T1-/.test(p.mo)) warn.push(`${w}: model answer not labeled T1-/E2-/A3-`);
+  if (!short && p.mo && !/T1-/.test(p.mo)) warn.push(`${w}: model answer not labeled T1-/E2-/A3-`);
   (p.b || []).forEach(bgKeys);
   if (p.ml && (!p.ml[1] || p.ml[1].length < 3 || !p.ml[2] || p.ml[2].length < 2)) errs.push(`${w}: mini-lesson needs 3+ sentences and 2+ key words`);
   if (p.fr && !/___/.test(p.fr)) errs.push(`${w}: sentence frame needs blanks (___)`);

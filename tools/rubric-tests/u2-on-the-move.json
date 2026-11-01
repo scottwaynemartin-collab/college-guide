@@ -1,0 +1,72 @@
+{
+"A": [
+  {"a": "The drought.", "ok": true},
+  {"a": "There was a three year drought with no rain.", "ok": true},
+  {"a": "Her family's maize crops died so the farm couldn't feed them anymore.", "ok": true},
+  {"a": "Lack of rainfall made the family farm fail.", "ok": true},
+  {"a": "Something bad happened in Tavira that made her leave.", "ok": false},
+  {"a": "Her cousin Elena already lived in Montaro.", "ok": false},
+  {"a": "The Brava River, because people drown in it every year.", "ok": false},
+  {"a": "She wanted a better paying job at the fruit-packing plant.", "ok": false}
+],
+"B": [
+  {"a": "T1- Most migrants from Tavira went to the country right next door. E2- 410,000 went to Montaro but only 150,000 went to Eldmark, which is 6,000 km away. A3- This shows distance decay, because the farther away a place is, the fewer people move there.", "ok": true},
+  {"a": "Most people moved to Montaro (410,000) instead of far away Eldmark (150,000). This follows Ravenstein's laws that most migrants only move a short distance.", "ok": true},
+  {"a": "The thickest arrow goes to the neighboring country Montaro, and the arrow going across the ocean to Eldmark is way thinner. That's distance decay: it costs more and is harder to go far, so fewer people do it.", "ok": true},
+  {"a": "Most went a short distance. 410k went to Montaro vs 150k to Eldmark 6000 km away even though both are rich, because longer trips cost more and are riskier so fewer people make them.", "ok": true},
+  {"a": "The pattern is that people left Tavira and went to other countries, which shows distance plays a role in migration.", "ok": false},
+  {"a": "More people went to Montaro because it is a high-income country with more jobs, which shows the gravity model, since bigger economies attract more migrants.", "ok": false},
+  {"a": "Most people moved to Montaro, 410,000, compared to 150,000 for Eldmark and 40,000 for Pelora.", "ok": false},
+  {"a": "The biggest flow was 150,000 people going all the way to Eldmark, which shows distance decay doesn't matter when a country has higher wages.", "ok": false}
+],
+"C": [
+  {"a": "T1- Chain migration is when people move to where family members already live. E2- Marisol's cousin Elena already lived in Montaro for six years and got her a job. A3- Having family there made it easier and less scary to move.", "ok": true},
+  {"a": "She followed her cousin Elena, who had already moved to Montaro. Elena found her a job at the fruit-packing plant, which gave Marisol a reason to go there instead of somewhere else.", "ok": true},
+  {"a": "Chain migration means migrants follow relatives who went first. Elena went first and helped Marisol get work, so Marisol had support when she got there.", "ok": true},
+  {"a": "Her cousin had been in Montaro for 6 years and set her up with a job at the plant, so Marisol already had a connection and knew she would have work waiting.", "ok": true},
+  {"a": "Marisol's move is an example of chain migration because she moved from Tavira to Montaro.", "ok": false},
+  {"a": "It is chain migration because she moved in a series of steps, first crossing the river and then walking along the wall.", "ok": false},
+  {"a": "Chain migration is when people move to a place where family members already moved before them.", "ok": false},
+  {"a": "It is chain migration because she sends money back every month, which links her to her family in Tavira.", "ok": false}
+],
+"D": [
+  {"a": "T1- The Brava River is an intervening obstacle. E2- People drown crossing it every year. A3- This makes migrating dangerous, so some people decide not to go at all.", "ok": true},
+  {"a": "The border wall makes it hard to get into Montaro, so migrants have to walk for hours to find a way through, which slows them down and stops some from even trying.", "ok": true},
+  {"a": "The river is risky because people die crossing it at night, so fewer people from Tavira are willing to migrate.", "ok": true},
+  {"a": "The wall is a barrier that makes the trip longer and more dangerous, so it reduces how many people can make it.", "ok": true},
+  {"a": "An intervening obstacle is something that gets in the way of migration from Tavira to Montaro.", "ok": false},
+  {"a": "The drought is an intervening obstacle because it stopped the crops from growing on her farm.", "ok": false},
+  {"a": "The Brava River is an intervening obstacle between Tavira and Montaro.", "ok": false},
+  {"a": "The ocean is an obstacle because it is 6,000 km across, so it makes it harder to migrate to Montaro.", "ok": false}
+],
+"E": [
+  {"a": "T1- Remittances bring money into Tavira's economy. E2- Marisol sends money home every month, and the map shows 410,000 people went to Montaro, which is high-income. A3- That money helps families pay for school and food, and they spend it at local businesses.", "ok": true},
+  {"a": "Marisol sends money home monthly so her brothers stay in school. Since 600,000 people left Tavira and most went to rich countries like Montaro and Eldmark where wages are higher, lots of money flows back and raises household incomes.", "ok": true},
+  {"a": "Stimulus 1 shows most migrants go to high-income countries, and in Stimulus 2 Marisol sends money back every month. This can make Tavira's economy depend on money earned abroad.", "ok": true},
+  {"a": "Marisol sends remittances each month. With hundreds of thousands of Tavirans working in wealthy Montaro and Eldmark, families back home can afford education, which helps the economy grow later.", "ok": true},
+  {"a": "Remittances have an economic effect on Tavira because they involve money.", "ok": false},
+  {"a": "Remittances hurt Tavira because migrants take all their savings with them when they leave, so Tavira loses money.", "ok": false},
+  {"a": "Marisol sends money home every month so her little brothers can stay in school.", "ok": false},
+  {"a": "Remittances are a tax the government of Tavira charges the 600,000 people who emigrated to high-income countries.", "ok": false}
+],
+"F": [
+  {"a": "T1- Most migrants are young working-age adults. E2- Marisol is 24, and 600,000 people left in one year. A3- So Tavira is left with more kids and old people, which raises the dependency ratio.", "ok": true},
+  {"a": "Young adults leave, so the population pyramid gets narrower in the bars for people in their 20s and 30s.", "ok": true},
+  {"a": "Mostly young men emigrate to find work, so Tavira ends up with way more women than men in those ages.", "ok": true},
+  {"a": "People in their twenties leave, and they are the ones who would have kids, so fewer babies are born and the population gets older.", "ok": true},
+  {"a": "Emigration changes the population structure of Tavira because people leave the country.", "ok": false},
+  {"a": "Emigration lowers the dependency ratio because when people leave, more babies are born to replace them.", "ok": false},
+  {"a": "Most of the people who leave are young working-age adults, like Marisol who is 24.", "ok": false},
+  {"a": "Tavira's population drops from about 20 million to 19.4 million, so the country gets smaller.", "ok": false}
+],
+"G": [
+  {"a": "T1- The map only shows how many people left and where they went, not why. E2- It shows 410,000 went to Montaro but doesn't say if it was because of drought or jobs. A3- So you would have to guess the push and pull factors.", "ok": true},
+  {"a": "The flow map doesn't show the reasons people left. For example, we only know about the drought because of Marisol's story, not from the map.", "ok": true},
+  {"a": "Stimulus 1 has numbers but no push or pull factors, so people could be leaving because of war, poverty, or a natural disaster and you couldn't tell.", "ok": true},
+  {"a": "A limitation is it doesn't tell you the causes. People might be leaving because of low wages or violence and the arrows can't show that.", "ok": true},
+  {"a": "Stimulus 1 has limitations for understanding why people leave Tavira.", "ok": false},
+  {"a": "The map is not to scale, so we can't measure the real distance to Eldmark.", "ok": false},
+  {"a": "The map shows numbers and places but not the reasons people left.", "ok": false},
+  {"a": "It only shows the year 2023, so we can't tell if more people will leave in the future.", "ok": false}
+]
+}
