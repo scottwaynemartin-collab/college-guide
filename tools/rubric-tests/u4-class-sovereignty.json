@@ -1,0 +1,72 @@
+{
+"A": [
+  {"a": "Territoriality is when a group of people try to control an area of land and defend it from others.", "ok": true},
+  {"a": "territoriality is the connection people feel to their land and how they protect it", "ok": true},
+  {"a": "Territoriality is a country's or group's attempt to claim a space and keep control over it, like guarding its borders.", "ok": true},
+  {"a": "It's the sense of ownership a group of people has over a certain territory, so they want to keep it as theirs.", "ok": true},
+  {"a": "Territoriality is the land a country has.", "ok": false},
+  {"a": "Territoriality is a type of border.", "ok": false},
+  {"a": "Territoriality is when a country has a lot of territories like islands.", "ok": false},
+  {"a": "Territoriality is how big a country's territory is.", "ok": false}
+],
+"B": [
+  {"a": "T1- Sovereignty is when a state has full control over its own territory. E2- For example the US makes its own laws and nobody else can tell it what to do. A3- This is important because it makes it an independent country.", "ok": true},
+  {"a": "Sovereignty means a state can govern itself without other countries interfering, like making laws and controlling its borders.", "ok": true},
+  {"a": "A sovereign state has the power to rule its land and people and is recognized by other countries, like France.", "ok": true},
+  {"a": "sovereignty is the independence of a state, it gets to decide its own laws and has its own military", "ok": true},
+  {"a": "Sovereignty is when a country has a government.", "ok": false},
+  {"a": "Sovereignty is a king or queen who rules a country.", "ok": false},
+  {"a": "Sovereignty is a state with a lot of power and a big military.", "ok": false},
+  {"a": "Sovereignty is when people of the same culture live in the same state.", "ok": false}
+],
+"C": [
+  {"a": "T1- A unitary state has one central government with most of the power, while a federal state shares power with smaller states. E2- France is unitary and the US is federal. A3- So in federal states local governments can make more of their own decisions.", "ok": true},
+  {"a": "In unitary states power is concentrated in the national government, but federal states divide power between the national and state or provincial governments, like Canada.", "ok": true},
+  {"a": "Federal states like Germany split power between the central government and regions, whereas unitary states like Japan keep almost all power in Tokyo.", "ok": true},
+  {"a": "Unitary states are usually smaller and more culturally the same, while federal states tend to be large and diverse, like India.", "ok": true},
+  {"a": "A federal state shares power between the national government and the states.", "ok": false},
+  {"a": "Unitary states and federal states are both types of governments that run a country.", "ok": false},
+  {"a": "Unitary states are like France and federal states are like the United States.", "ok": false},
+  {"a": "In a unitary state the president has the most power, in a federal state the congress has the most power.", "ok": false}
+],
+"D": [
+  {"a": "T1- The UK wanted sovereignty because they felt the EU had too much control over them. E2- The EU made laws the UK had to follow and controlled immigration with open borders. A3- So people voted for Brexit to take back control of their own laws.", "ok": true},
+  {"a": "Many British people thought the EU was making decisions for the UK, like immigration rules, so they voted to leave in 2016 to get their power back.", "ok": true},
+  {"a": "Brexit happened partly because of sovereignty. Leave voters didn't want the European Court of Justice and Brussels to have power over British laws. They wanted Parliament to be in charge again.", "ok": true},
+  {"a": "Because of free movement, people from other EU countries could move to the UK and the UK couldn't stop them. Leave voters wanted to control their own borders, so they voted to leave the EU.", "ok": true},
+  {"a": "The UK left the EU because people voted for Brexit.", "ok": false},
+  {"a": "The UK left the EU because the economy was bad and they didn't like the euro.", "ok": false},
+  {"a": "Sovereignty is when a state governs itself. The UK left the EU in 2020.", "ok": false},
+  {"a": "The UK wanted more sovereignty so they left the EU.", "ok": false}
+],
+"E": [
+  {"a": "T1- People feel attached to their homeland and want to control it. E2- For example in Catalonia, people speak Catalan and see themselves as different from the rest of Spain. A3- So they push for independence or more autonomy, which is devolution.", "ok": true},
+  {"a": "Territoriality matters because groups like the Scottish have a strong connection to their land, so they want their own parliament to make decisions for Scotland instead of London.", "ok": true},
+  {"a": "Quebec is French speaking and the people there feel their region is unique from the rest of Canada, so they have voted on separating from Canada to rule themselves.", "ok": true},
+  {"a": "When an ethnic group sees a region as their land, they want more control over it, which can make the government give that region more power.", "ok": true},
+  {"a": "Devolution is when the central government gives power to regions.", "ok": false},
+  {"a": "Territoriality plays a role because countries want more territory.", "ok": false},
+  {"a": "Devolution happens because of territoriality, like in Scotland.", "ok": false},
+  {"a": "Territoriality is when people want to control land. Devolution is when power goes to regions.", "ok": false}
+],
+"F": [
+  {"a": "T1- Redrawing district lines can change who wins elections. E2- If a city cracks a minority neighborhood into different districts, they are outnumbered in each. A3- So that group might not get any representative on the city council.", "ok": true},
+  {"a": "If the lines are redrawn to pack all of one party's voters into one district, that party only wins one seat even if they have a lot of voters in the city.", "ok": true},
+  {"a": "Gerrymandering can be used to split up a group of voters so their votes get wasted and the other side wins more council seats.", "ok": true},
+  {"a": "The city could draw a majority-minority district so that a Black neighborhood is together in one district and they can elect someone who represents them.", "ok": true},
+  {"a": "Redrawing district lines can change the election because the districts are different.", "ok": false},
+  {"a": "Redrawing lines affects election results because some people might not know which district they are in.", "ok": false},
+  {"a": "Gerrymandering is when politicians draw lines to help their party.", "ok": false},
+  {"a": "It can make the elections unfair and cause people to be mad.", "ok": false}
+],
+"G": [
+  {"a": "T1- Political fragmentation makes it hard because each city has its own government and budget. E2- For example, one suburb might not want to pay for a bus line that mostly helps people from another city. A3- So routes stop at city borders and people have trouble commuting.", "ok": true},
+  {"a": "Neighboring towns may not agree on who should pay for new train lines, because each one has its own taxes and priorities, so the transit system doesn't connect across the metro.", "ok": true},
+  {"a": "In the DC area, Maryland, Virginia, and DC all had to work together to fund the Metro through WMATA. Different governments have different budgets, so it's hard to share costs.", "ok": true},
+  {"a": "As the metro area grows, people commute across county lines, but each county runs its own bus system, so the buses don't connect and riders have to transfer.", "ok": true},
+  {"a": "It's hard because growing cities have a lot of traffic.", "ok": false},
+  {"a": "Transportation is expensive to build and there are not enough workers.", "ok": false},
+  {"a": "Because the metro area is growing so fast that they can't build roads fast enough.", "ok": false},
+  {"a": "Local governments face challenges because people don't want to ride the bus.", "ok": false}
+]
+}

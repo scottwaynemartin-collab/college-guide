@@ -11,7 +11,7 @@ Each GeoArcade unit page gets its own file from `units/`:
 | 1 · Thinking Geographically | `units/frq-tutor-unit1.html` | Two Scales, One State (one stimulus) · Mapping the Storm (no stimulus) |
 | 2 · Population and Migration | `units/frq-tutor-unit2.html` | Fewer Babies, Bigger Cities (one) · On the Move (two stimuli) |
 | 3 · Cultural Patterns | `units/frq-tutor-unit3.html` | English Goes Global, class FRQ (one) · Maple Street District (one) |
-| 4 · Political Patterns | `units/frq-tutor-unit4.html` | Rails of the Raj (one) · Drawing the Lines (two stimuli) |
+| 4 · Political Patterns | `units/frq-tutor-unit4.html` | Who's in Charge Here?, class FRQ (no stimulus) · Drawing the Lines (two stimuli) · Rails of the Raj (one) |
 | 5 · Agriculture | `units/frq-tutor-unit5.html` | Rings of Farmland (one) · Miracle Seeds (no stimulus) |
 | 6 · Cities | `units/frq-tutor-unit6.html` | Brookhaven Spreads Out (one) · City of Contrasts (two stimuli) |
 | 7 · Development | `units/frq-tutor-unit7.html` | Measuring Up (one) · The Factory Floor (no stimulus) |
