@@ -1,0 +1,72 @@
+{
+"A":[
+  {"a":"Suburbanization","ok":true},
+  {"a":"urban sprawl","ok":true},
+  {"a":"People moving out of the city into the suburbs.","ok":true},
+  {"a":"Decentralization, the population spreading outward away from the central city.","ok":true},
+  {"a":"Population growth in the metro area.","ok":false},
+  {"a":"Gentrification","ok":false},
+  {"a":"Urbanization, more people living in cities.","ok":false},
+  {"a":"Rural to urban migration into the city center.","ok":false}
+],
+"B":[
+  {"a":"T1- The farther from the center, the more people drive alone. E2- 55% in the central city, 78% in the inner suburbs, 90% in the outer suburbs. A3- There's less public transit out there.","ok":true},
+  {"a":"As you go out from the city center driving alone goes up, from 55 percent to 90 percent.","ok":true},
+  {"a":"Its a positive relationship, the outer suburbs have 90% drive alone but the central city only has 55%.","ok":true},
+  {"a":"People closer to downtown drive alone less (55%) than people in the inner suburbs (78%) and exurbs (90%).","ok":true},
+  {"a":"There is a relationship between distance from the center and driving alone to work.","ok":false},
+  {"a":"The central city has a median home price of $395,000 and the inner suburbs are lower at $265,000.","ok":false},
+  {"a":"The farther out you live, the more likely you are to drive alone to work.","ok":false},
+  {"a":"The closer you get to the center, the more people drive alone because downtown has the most jobs, 90% compared to 55%.","ok":false}
+],
+"C":[
+  {"a":"T1- Highways were built. E2- People could drive from the outer suburbs to jobs downtown. A3- So they moved out where they could get bigger houses.","ok":true},
+  {"a":"Land is cheaper out in the exurbs so builders can make bigger houses for less money, which pulls families out of the city.","ok":true},
+  {"a":"Government loans like the FHA made it easy to get a mortgage for a new house in the suburbs, so lots of families bought homes there.","ok":true},
+  {"a":"white flight, white families left the central city when it became more diverse and moved out to the suburbs","ok":true},
+  {"a":"The outer suburbs grew because more people moved there.","ok":false},
+  {"a":"The outer suburbs grew because of gentrification, which pushed rich people out of the central city.","ok":false},
+  {"a":"Cars and highways.","ok":false},
+  {"a":"The suburbs grew because they have better public transit, so people could get to work easily.","ok":false}
+],
+"D":[
+  {"a":"T1- Most land is zoned only for single-family homes. E2- 71% of the metro. A3- That means fewer houses can be built so there isn't enough supply and prices go up.","ok":true},
+  {"a":"Because you can't build apartments on single family lots, there are fewer homes, and when lots of people want them, the prices rise.","ok":true},
+  {"a":"Zoning 85% of the outer suburbs for single family houses restricts the housing supply, and with demand going up from population growth, buyers compete and bid up prices.","ok":true},
+  {"a":"if you can only build one house per lot you cant fit as many people, so theres a shortage of housing and it gets more expensive","ok":true},
+  {"a":"The zoning data in the table could contribute to high housing prices in Brookhaven.","ok":false},
+  {"a":"Single family zoning makes houses expensive because single family homes have bigger yards and are nicer.","ok":false},
+  {"a":"85% of the outer suburbs is zoned single-family only, which bans apartments.","ok":false},
+  {"a":"Zoning forces the city to build lots of apartments everywhere, which raises prices.","ok":false}
+],
+"E":[
+  {"a":"T1- Gentrification is when richer people move into old poor neighborhoods and fix them up. E2- Millside and the Canal District homes are $610,000. A3- The people who lived there before can't afford the rent anymore and have to move out.","ok":true},
+  {"a":"Young professionals are buying old houses near downtown and renovating them, which raises property values. Long-time residents get displaced because their property taxes go up.","ok":true},
+  {"a":"wealthier people moved into Millside and fixed up the buildings, so now the original residents feel like their community and culture is disappearing","ok":true},
+  {"a":"Middle-class people are moving back near downtown and upgrading run-down homes, so prices went up to $610,000 and the older renters got pushed out.","ok":true},
+  {"a":"The central city is growing again because it is popular now, which is gentrification.","ok":false},
+  {"a":"Gentrification is when people move from the city out to the suburbs, so long-time residents lose their neighbors.","ok":false},
+  {"a":"Rich people are moving into old neighborhoods like Millside and renovating the houses.","ok":false},
+  {"a":"Long-time residents moved out to the suburbs on their own, and that caused home prices in the city to go up.","ok":false}
+],
+"F":[
+  {"a":"T1- An urban growth boundary. E2- The city draws a line and no new development can go past it. A3- That keeps the city from spreading onto farmland.","ok":true},
+  {"a":"Brookhaven could do mixed-use zoning so homes, stores, and offices are together. People could walk places instead of driving, and the city would grow up instead of out.","ok":true},
+  {"a":"Build apartments on empty lots and old factory sites in the central city, so new people live inside the city instead of in new subdivisions at the edge.","ok":true},
+  {"a":"make a greenbelt around the city where you cant build so the suburbs stop spreading","ok":true},
+  {"a":"Brookhaven could adopt a smart growth policy to reduce sprawl.","ok":false},
+  {"a":"Brookhaven could build more highways so people can get to work faster.","ok":false},
+  {"a":"Transit-oriented development.","ok":false},
+  {"a":"New Urbanism means building new suburbs with bigger houses farther out so everyone has more space.","ok":false}
+],
+"G":[
+  {"a":"T1- The zones are too big. E2- The central city price is $395,000 but Millside is $610,000. A3- So the averages hide differences between neighborhoods and you can't tell where the problems really are.","ok":true},
+  {"a":"The data is only averages for huge areas, so some neighborhoods might be really poor and others rich, and planners would need neighborhood-level data to know where to help.","ok":true},
+  {"a":"The table doesn't have any income or rent data, so you can't tell if housing is actually affordable for the people who live there.","ok":true},
+  {"a":"everything is lumped together for hundreds of thousands of people so it hides the variation inside each zone, like some parts of the city might have great buses and some have none","ok":true},
+  {"a":"One limitation is that the data has limits for understanding housing.","ok":false},
+  {"a":"The data is from 2020, so it is out of date.","ok":false},
+  {"a":"The zones are really big.","ok":false},
+  {"a":"The table doesn't show how many people live in each zone, so you can't compare them.","ok":false}
+]
+}

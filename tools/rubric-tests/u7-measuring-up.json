@@ -1,0 +1,72 @@
+{
+"A":[
+  {"a":"Ardena","ok":true},
+  {"a":"ardena because it has the highest HDI","ok":true},
+  {"a":"Ardena, 78% of its workers are in services and its GNI is $48,200.","ok":true},
+  {"a":"I think its Ardena since only 2% farm.","ok":true},
+  {"a":"Tessar, because it has a high GNI per capita.","ok":false},
+  {"a":"Kovar because it makes electronics.","ok":false},
+  {"a":"The country with the most development.","ok":false},
+  {"a":"Sulmani","ok":false}
+],
+"B":[
+  {"a":"T1- As agriculture goes up, HDI goes down. E2- Sulmani has 62% in agriculture and an HDI of 0.49. A3- Ardena only has 2% and 0.93.","ok":true},
+  {"a":"It's a negative relationship. Ardena has the fewest farmers and the highest HDI while Sulmani has the most farmers and the lowest HDI.","ok":true},
+  {"a":"Countries with more people working in farming have a lower HDI, like Sulmani (62%, .49) compared to Kovar (18%, .76).","ok":true},
+  {"a":"the less workers in agriculture the higher the HDI, for example ardena 2% = 0.93","ok":true},
+  {"a":"Agriculture and HDI are related to each other.","ok":false},
+  {"a":"As services go up, GNI goes up, like Ardena with 78% in services and $48,200.","ok":false},
+  {"a":"There is an inverse relationship between agriculture and HDI.","ok":false},
+  {"a":"More workers in agriculture means a higher HDI because farming feeds people, like Sulmani with 62%.","ok":false}
+],
+"C":[
+  {"a":"T1- The money isn't spread out evenly. E2- Tessar makes 85% of its exports from oil, so a few rich people get most of it. A3- Most people don't get better schools or hospitals so HDI stays low.","ok":true},
+  {"a":"Tessar's wealth comes from petroleum and goes mostly to the government, which doesn't spend it on healthcare and education, so life expectancy and schooling stay low.","ok":true},
+  {"a":"Because women are left out (GII 0.50), they don't get as much education, and since HDI counts education, the HDI is lower than the GNI.","ok":true},
+  {"a":"corruption, the leaders keep the oil money for themselves instead of building schools, so peoples education and health dont improve","ok":true},
+  {"a":"A country can have a high GNI but a low HDI because they measure different things.","ok":false},
+  {"a":"Tessar has a lower HDI because it has a lot of people working in agriculture.","ok":false},
+  {"a":"Tessar gets 85% of its exports from oil, so its wealth is concentrated.","ok":false},
+  {"a":"Tessar has a lower HDI because it is a smaller country.","ok":false}
+],
+"D":[
+  {"a":"T1- Women can't go to school as much. E2- In Sulmani the GII is 0.58. A3- So fewer people have skills, and the economy grows slower.","ok":true},
+  {"a":"If women can't work paid jobs, half the workforce is missing, so the country produces less and stays poor.","ok":true},
+  {"a":"Women can't get loans to start businesses, so there are fewer new businesses and less economic growth.","ok":true},
+  {"a":"girls get married early and have lots of kids instead of finishing school, so they can't get good jobs and the country loses out on their income","ok":true},
+  {"a":"Gender inequality is bad for the economy.","ok":false},
+  {"a":"Gender inequality slows development because the population pyramid has more men than women.","ok":false},
+  {"a":"In countries with a high GII, women can't go to school or get jobs.","ok":false},
+  {"a":"A high GII means women have too many rights, which slows the economy down.","ok":false}
+],
+"E":[
+  {"a":"T1- If the price of oil drops, the country loses money. E2- Tessar gets 85% of exports from petroleum. A3- So the government can't pay for things and people lose jobs.","ok":true},
+  {"a":"If the world price of coffee crashes, Sulmani's farmers and government lose a lot of income all at once, which could cause a recession.","ok":true},
+  {"a":"The oil could run out, and then Tessar would have nothing else to export, so its economy would collapse and people would be unemployed.","ok":true},
+  {"a":"if other countries switch to electric cars demand for oil falls and tessars revenue goes down, so they'd have to cut spending","ok":true},
+  {"a":"Depending on one commodity is risky for the economy.","ok":false},
+  {"a":"Tessar should sell more things so it doesn't depend on oil.","ok":false},
+  {"a":"The price of oil could go down.","ok":false},
+  {"a":"It's risky because other countries might invade and steal the oil.","ok":false}
+],
+"F":[
+  {"a":"T1- An SEZ gives tax breaks to foreign companies. E2- So they build factories in Sulmani and hire workers who used to farm. A3- That helps industry grow so it can reach take-off, but the downside is workers get paid really low wages.","ok":true},
+  {"a":"The SEZ would attract foreign investment and factories, moving people out of farming into manufacturing, which is what Rostow's take-off needs. But the companies might leave when the tax breaks end.","ok":true},
+  {"a":"No tariffs in the zone brings in multinational companies and jobs, creating a leading industry for take-off. A downside is pollution from the factories since environmental rules are weak.","ok":true},
+  {"a":"factories come for the cheap labor and tax breaks, so Sulmani starts to industrialize fast, but it could end up dependent on foreign companies","ok":true},
+  {"a":"An SEZ would give Sulmani factories and jobs.","ok":false},
+  {"a":"An SEZ gives coffee farmers subsidies so they can grow more coffee and reach take-off. The downside is it costs the government money.","ok":false},
+  {"a":"An SEZ would attract foreign factories with tax breaks, moving workers out of farming and helping Sulmani reach take-off.","ok":false},
+  {"a":"An SEZ would help Sulmani reach high mass consumption right away because people would buy more stuff, and there's no real downside.","ok":false}
+],
+"G":[
+  {"a":"T1- The numbers are national averages. E2- Tessar's $31,400 GNI might mostly go to a rich few. A3- So it doesn't show how most people actually live.","ok":true},
+  {"a":"It's only one year, 2023, so you can't see if things are getting better or worse, which matters when comparing quality of life.","ok":true},
+  {"a":"GNI doesn't count the informal economy, so in Sulmani lots of people who sell stuff on the street aren't counted, which makes them look poorer than they really are.","ok":true},
+  {"a":"the table doesn't show things like crime, pollution or happiness, so you can't really compare quality of life just from money and jobs","ok":true},
+  {"a":"The table has limitations for comparing quality of life.","ok":false},
+  {"a":"The table only has four countries.","ok":false},
+  {"a":"The data are national averages.","ok":false},
+  {"a":"The data must be wrong because Tessar is rich but has a low HDI, which doesn't make sense.","ok":false}
+]
+}

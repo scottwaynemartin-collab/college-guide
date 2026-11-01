@@ -1,0 +1,72 @@
+{
+"A": [
+  {"a": "Relocation diffusion", "ok": true},
+  {"a": "relocation diffusion because the german immigrants moved there and brought their culture", "ok": true},
+  {"a": "Relocation, since the culture moved with the people.", "ok": true},
+  {"a": "The Germans migrated to Ridgeway and brought their language, church, and food with them.", "ok": true},
+  {"a": "Cultural diffusion.", "ok": false},
+  {"a": "Contagious diffusion, because it spread from person to person in the neighborhood.", "ok": false},
+  {"a": "Hierarchical diffusion, because it spread from the important people down to everyone else.", "ok": false},
+  {"a": "Expansion diffusion, because German culture expanded into the neighborhood as more immigrants came.", "ok": false}
+],
+"B": [
+  {"a": "T1- The church changed. E2- St. Johannes Lutheran Church became Our Lady of Guadalupe Catholic Parish. A3- The same building now shows a different religion and group.", "ok": true},
+  {"a": "The beer gardens on the avenue were replaced by taquerias and a panaderia.", "ok": true},
+  {"a": "In the 1920s there was a German newspaper, the Ridgeway Zeitung, but by the 1970s there was a Spanish radio station instead, so the language you'd see and hear switched from German to Spanish.", "ok": true},
+  {"a": "The food places changed from German beer gardens to Mexican taco shops and a bakery.", "ok": true},
+  {"a": "The cultural landscape of Maple Street changed a lot between the 1920s and 1970s.", "ok": false},
+  {"a": "More Mexican and Central American families moved in and the German families moved out to the suburbs.", "ok": false},
+  {"a": "St. Johannes Lutheran Church was on the corner of Maple and Third.", "ok": false},
+  {"a": "The landscape changed because rents went up and coffee shops and a yoga studio opened.", "ok": false}
+],
+"C": [
+  {"a": "T1- The festival changed from a neighborhood tradition to a tourist event. E2- Now the city sponsors it and thousands of tourists come. A3- So it's less about honoring dead family members and more about making money and entertainment.", "ok": true},
+  {"a": "Since the city runs it now and it's full of tourists, it's become commercialized. The original religious meaning of remembering ancestors gets lost because the outsiders just come for the party.", "ok": true},
+  {"a": "This is stimulus diffusion: tourists and new residents take part in Dia de los Muertos but they don't know the traditions, so they celebrate it like a Halloween street party instead of a day to honor the dead.", "ok": true},
+  {"a": "It used to be just for the residents but now it's a big city event for outsiders. That turns it into more of a show for visitors than a family celebration.", "ok": true},
+  {"a": "The festival changed as it spread to new people, so it's an example of cultural change.", "ok": false},
+  {"a": "It's relocation diffusion because the Mexican families moved to Maple Street and brought the festival with them.", "ok": false},
+  {"a": "Now the festival is sponsored by the city and draws thousands of tourists.", "ok": false},
+  {"a": "The festival is more popular now because more Mexican families moved to the neighborhood in the 2020s.", "ok": false}
+],
+"D": [
+  {"a": "T1- The church shows religion. E2- St. Johannes Lutheran Church was built at Maple and Third. A3- Anyone walking by can see the building and know the Germans were Lutheran.", "ok": true},
+  {"a": "Our Lady of Guadalupe Catholic Parish is a building on the corner that shows the Mexican community is Catholic.", "ok": true},
+  {"a": "Dia de los Muertos is celebrated right on Maple Street every year, so you can see the religious tradition of honoring the dead out in public with altars and decorations.", "ok": true},
+  {"a": "The same church building switched from Lutheran to Catholic and its name changed too, which shows the religion of the neighborhood changed when the Mexican families came.", "ok": true},
+  {"a": "Religion is visible in the cultural landscape of Maple Street District.", "ok": false},
+  {"a": "Religion is visible because people speak Spanish on the radio and German in the newspaper.", "ok": false},
+  {"a": "There is a church.", "ok": false},
+  {"a": "Religion is visible through the beer gardens, since the Germans drank beer at their church events.", "ok": false}
+],
+"E": [
+  {"a": "T1- Gentrification could push long-time residents out. E2- Rents rose sharply when young professionals moved in. A3- Families who can't afford it have to leave, which breaks up the community.", "ok": true},
+  {"a": "Older residents might feel like outsiders because coffee shops and a yoga studio replaced the restaurants they used to go to, which causes tension with the newcomers.", "ok": true},
+  {"a": "Since several long-running restaurants closed, residents lose the places where they used to hang out together, so the community is less connected and starts to fall apart.", "ok": true},
+  {"a": "The festival is now run by the city for tourists, so long-time residents might feel like their culture is being taken from them and resent the outsiders, which divides the neighborhood.", "ok": true},
+  {"a": "The changes of the 2020s could be a centrifugal force for long-time residents.", "ok": false},
+  {"a": "The coffee shops are a centrifugal force because they bring everyone together to meet new people.", "ok": false},
+  {"a": "Long-time residents could be displaced by gentrification.", "ok": false},
+  {"a": "The city sponsoring the festival is centrifugal because it makes the neighborhood famous and brings more money to the residents.", "ok": false}
+],
+"F": [
+  {"a": "T1- The radio station brings the community together. E2- It plays news and music in Spanish. A3- People from Mexico and Central America all listen and feel connected.", "ok": true},
+  {"a": "It's centripetal because everyone can hear about local events in their own language, which builds a shared identity.", "ok": true},
+  {"a": "The station keeps the Spanish language alive in the neighborhood, so it preserves their culture and unites people who might feel like outsiders in Ridgeway.", "ok": true},
+  {"a": "Listening to the same Spanish broadcasts helps new immigrants feel like they belong, since they can find out about jobs, the festival, and the church in Spanish.", "ok": true},
+  {"a": "The radio station is a centripetal force for the community.", "ok": false},
+  {"a": "The radio station is centripetal because it spreads Spanish culture outward to other neighborhoods in the city.", "ok": false},
+  {"a": "The station broadcasts news and music in Spanish.", "ok": false},
+  {"a": "The radio station is a centripetal force because Spanish speakers only listen to it and don't talk to English speakers, which keeps them separate from the rest of the city.", "ok": false}
+],
+"G": [
+  {"a": "T1- Chains and global brands could replace local restaurants. E2- Coffee shops opened and long-running restaurants closed. A3- But residents could post recipes and festival videos on social media to keep their culture alive.", "ok": true},
+  {"a": "Tourists turn the festival into a commercial event, which threatens the culture. Technology can help by recording elders telling stories and putting them in an online archive.", "ok": true},
+  {"a": "Popular culture could make Maple Street look like every other trendy neighborhood (homogenization). The radio station could stream online so people who moved away can still listen in Spanish.", "ok": true},
+  {"a": "Globalization brings in big companies like Starbucks that push out family businesses. Residents could make a TikTok or YouTube channel to show the history of the neighborhood and share their traditions.", "ok": true},
+  {"a": "Globalization could threaten the culture and technology could help preserve it.", "ok": false},
+  {"a": "Globalization helps the culture spread to people from around the world, and technology like the radio station already plays music for the neighborhood.", "ok": false},
+  {"a": "Globalization makes everything the same, so chain stores will replace the local restaurants and the neighborhood will lose its culture.", "ok": false},
+  {"a": "Globalization threatens the local culture because more immigrants keep moving in. Technology can help by building better roads and buses so people can visit.", "ok": false}
+]
+}

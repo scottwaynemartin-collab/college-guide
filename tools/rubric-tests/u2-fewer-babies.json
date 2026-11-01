@@ -1,0 +1,72 @@
+{
+"A": [
+  {"a": "Norvale", "ok": true},
+  {"a": "Norvale, because it has the highest TFR (5.4) and high infant mortality.", "ok": true},
+  {"a": "norvale is in stage 2", "ok": true},
+  {"a": "I think Norvale since its birth rate is still really high but deaths are starting to drop.", "ok": true},
+  {"a": "The country with the highest birth rate.", "ok": false},
+  {"a": "Kestria, because its TFR is dropping fast from 5.8 to 3.1.", "ok": false},
+  {"a": "Ruzhan", "ok": false},
+  {"a": "Tamboa, because it is in the middle of the table.", "ok": false}
+],
+"B": [
+  {"a": "T1- There is a negative relationship. E2- Norvale has 22% enrollment and a 5.4 TFR but Ruzhan has 97% and 1.3. A3- So the more girls go to school, the fewer kids they have.", "ok": true},
+  {"a": "As female enrollment goes up, fertility goes down. For example Tamboa is 88% with a TFR of 1.9 while Kestria is 61% with 3.1.", "ok": true},
+  {"a": "Countries with more girls in secondary school have lower fertility rates, like Ruzhan (97%, 1.3) compared to Norvale (22%, 5.4).", "ok": true},
+  {"a": "Higher enrollment = lower TFR. Norvale 22% -> 5.4 kids, Ruzhan 97% -> 1.3 kids. It's an inverse correlation.", "ok": true},
+  {"a": "Female enrollment and fertility rate are related to each other in the table.", "ok": false},
+  {"a": "There is a direct relationship, because the more girls in school the higher the TFR, like Ruzhan with 97%.", "ok": false},
+  {"a": "There's an inverse relationship: more girls in school means lower fertility.", "ok": false},
+  {"a": "Norvale has 22% enrollment and Ruzhan has 97%, so Ruzhan has more girls going to school because it's a richer country.", "ok": false}
+],
+"C": [
+  {"a": "T1- Educated women get married later. E2- If a girl stays in school until she's 18 or goes to college, she doesn't start having kids until her 20s. A3- That means she has fewer years to have children, so the TFR goes down.", "ok": true},
+  {"a": "When women are educated they can get jobs and earn money, so having a lot of kids would mean giving up their income. So they choose to have fewer kids.", "ok": true},
+  {"a": "School teaches women about birth control and family planning, so they're able to control how many kids they have and they end up having less.", "ok": true},
+  {"a": "T1- Education gives women more power to make decisions in their family. E2- An educated woman has a bigger say in when to have kids instead of her husband or in-laws deciding. A3- She is more likely to choose a smaller family, which lowers fertility.", "ok": true},
+  {"a": "Education leads to lower fertility rates because the women are more educated.", "ok": false},
+  {"a": "Educated women know more about health, so infant mortality goes down and fewer babies die, which makes the population grow.", "ok": false},
+  {"a": "Educated women usually get married later in life.", "ok": false},
+  {"a": "Educated women are smarter so they know having lots of kids is bad.", "ok": false}
+],
+"D": [
+  {"a": "T1- Countries that are more urban have lower fertility. E2- Ruzhan is 82% urban and its TFR is 1.3, but Norvale is only 24% urban with a TFR of 5.4. A3- In cities kids don't work on farms and they cost more to raise, so families have fewer.", "ok": true},
+  {"a": "Norvale is 24% urban and has a TFR of 5.4 while Tamboa is 71% urban and has 1.9. In the city kids are expensive because of rent and school, so people don't have as many.", "ok": true},
+  {"a": "In cities people have better access to hospitals and birth control. That's why Kestria (48% urban) has a TFR of 3.1 and Ruzhan (82%) has only 1.3, more urban means lower fertility.", "ok": true},
+  {"a": "Urban countries like Ruzhan (82%) have a low TFR (1.3) compared to rural ones like Norvale (24%, 5.4). On a farm kids are extra workers, but in a city they're just another mouth to feed.", "ok": true},
+  {"a": "Urbanization causes fertility rates to go down because cities are different from the countryside.", "ok": false},
+  {"a": "Cities are crowded and there's no space, so people have fewer kids. Norvale is only 24% urban.", "ok": false},
+  {"a": "Ruzhan is 82% urban with a TFR of 1.3 and Norvale is 24% urban with a TFR of 5.4, so more urban countries have lower fertility.", "ok": false},
+  {"a": "Tamboa is 71% urban with a TFR of 1.9 because cities have a lot of pollution that makes it harder for women to get pregnant.", "ok": false}
+],
+"E": [
+  {"a": "T1- The base of Kestria's pyramid will get narrower. E2- Its TFR dropped from 5.8 to 3.1, so fewer babies are being born. A3- The bottom bars will be smaller than the ones above them.", "ok": true},
+  {"a": "The bottom of the pyramid would shrink because the fertility rate fell from 5.8 to 3.1 kids per woman.", "ok": true},
+  {"a": "Kestria's pyramid will get wider in the middle. Since TFR went from 5.8 down to 3.1, the big group of kids born in 1995 are now adults in the working ages, and fewer babies are being added at the bottom.", "ok": true},
+  {"a": "Because Kestria went from about 6 kids per woman to about 3, the youngest age groups will be smaller, so the base gets thinner and it starts looking less like a triangle.", "ok": true},
+  {"a": "Kestria's population pyramid will change shape because its TFR changed.", "ok": false},
+  {"a": "The top of Kestria's pyramid will get narrower because its TFR fell from 5.8 to 3.1, so there will be fewer old people.", "ok": false},
+  {"a": "The base of the pyramid will get narrower.", "ok": false},
+  {"a": "Kestria's pyramid will get a wider base because its TFR of 3.1 is still above replacement, so the population keeps growing.", "ok": false}
+],
+"F": [
+  {"a": "T1- Ruzhan's TFR is 1.3, which is below the replacement level of 2.1. E2- So there will be fewer young workers and more old people. A3- That means a labor shortage and not enough tax money to pay for pensions.", "ok": true},
+  {"a": "With a TFR of only 1.3 the population is aging. There won't be enough workers to fill jobs, so companies will struggle and the economy could slow down.", "ok": true},
+  {"a": "Since Ruzhan isn't having enough babies to replace itself, it will have a high dependency ratio, meaning fewer working people have to support lots of retired elderly through taxes.", "ok": true},
+  {"a": "Ruzhan's population will shrink because 1.3 is under replacement. Fewer people means a smaller tax base, so the government will have trouble paying for health care for the elderly.", "ok": true},
+  {"a": "Ruzhan will have economic problems because of its fertility rate.", "ok": false},
+  {"a": "Ruzhan's TFR of 1.3 is below replacement, so it will have overpopulation and not enough jobs for all the young people.", "ok": false},
+  {"a": "Ruzhan's TFR of 1.3 is below replacement level, so its population will get older and start to shrink.", "ok": false},
+  {"a": "Ruzhan's low TFR means the government will have to spend a lot more money on schools and daycares for all the kids.", "ok": false}
+],
+"G": [
+  {"a": "T1- National data are averages and hide differences inside a country. E2- Kestria's 3.1 could include cities with 2 and rural villages with 5 or 6. A3- So the government might not realize which regions still have high fertility and need help.", "ok": true},
+  {"a": "The table only shows one number per country, so you can't see that rural areas usually have higher fertility than cities. That could make you think the whole country is the same when it isn't.", "ok": true},
+  {"a": "National data hides differences between ethnic or religious groups. In Ruzhan one religious group might have a TFR of 3 while most people have 1, and you'd never know, so policies wouldn't fit everyone.", "ok": true},
+  {"a": "It doesn't show regional differences. Norvale's 5.4 is an average, so some regions might be way higher or lower, which could lead to the wrong conclusions about where family planning programs are needed.", "ok": true},
+  {"a": "National data is limited and doesn't tell us everything about fertility.", "ok": false},
+  {"a": "National-scale data is limited because the table only shows four countries, so we can't compare the whole world.", "ok": false},
+  {"a": "National data is an average that hides differences within the country.", "ok": false},
+  {"a": "The national data only shows 1995 and 2020 so it misses all the years in between, which could hide changes.", "ok": false}
+]
+}

@@ -1,0 +1,72 @@
+{
+"A": [
+  {"a": "Choropleth map", "ok": true},
+  {"a": "It's a choropleth map because the counties are colored by what percent they have.", "ok": true},
+  {"a": "a chloropleth map", "ok": true},
+  {"a": "The county side is a thematic map where each county is shaded darker or lighter depending on its percent of households without internet.", "ok": true},
+  {"a": "It is a thematic map.", "ok": false},
+  {"a": "It's an isoline map since it shows the data with lines between the different values.", "ok": false},
+  {"a": "A dot density map that shows where people without internet live.", "ok": false},
+  {"a": "It's a reference map with the county names and borders on it.", "ok": false}
+],
+"B": [
+  {"a": "T1- At the state scale the whole state is just one color, 18%. E2- At the county scale it goes from 6% in Calder City up to 44% in Dry Creek. A3- So the county map shows the counties near the capital are low and the outer rural counties are a lot higher.", "ok": true},
+  {"a": "The state map just says 18% for everything so you can't see any pattern. The county map shows a big range, like Calder City is only 6% but Northfork is 41% and Dry Creek is 44%, so the rural counties on the edges are way worse.", "ok": true},
+  {"a": "On the state level it's one number (18%) but zoomed in to counties the numbers range from 6% to 44%, with the lowest ones around the capital.", "ok": true},
+  {"a": "State scale = one shade, 18 percent. County scale shows the counties next to Calder City like Westbrook and Millbrook are 9-10% while far away counties like Pine Ridge (38%) and Northfork (41%) are way higher.", "ok": true},
+  {"a": "At the county scale there are more colors and you can see more detail than at the state scale.", "ok": false},
+  {"a": "The state scale is a small-scale map and the county scale is a large-scale map, so the county map covers more area.", "ok": false},
+  {"a": "At the state scale the whole state is 18%, just one value for all of Calderon.", "ok": false},
+  {"a": "The state is 18% but the county map shows the capital has the most households without internet because it has the most people.", "ok": false}
+],
+"C": [
+  {"a": "T1- Rural counties have homes really spread out. E2- In Dry Creek the houses are far apart so companies have to run miles of cable to reach just a few customers. A3- That costs too much so the companies don't bother building there, so more people go without internet.", "ok": true},
+  {"a": "It's expensive for internet companies to build lines out to the country because there aren't many customers per mile, so they don't make a profit and they skip those areas. That leaves more households with no internet.", "ok": true},
+  {"a": "Low population density. With fewer people living in each square mile it costs more per customer to put in infrastructure, so providers don't build it and people can't get service.", "ok": true},
+  {"a": "T1- People in rural counties often have lower incomes. E2- If a family can't afford the monthly bill or a computer, they won't sign up for internet. A3- So more households in places like Northfork go without home internet.", "ok": true},
+  {"a": "Rural counties have higher rates because they are rural and far from the city.", "ok": false},
+  {"a": "Rural counties have a higher population density so the internet gets overloaded and stops working for people.", "ok": false},
+  {"a": "One reason is low population density in rural areas.", "ok": false},
+  {"a": "Rural counties have less internet because the satellites that send internet can't reach that far out into the country.", "ok": false}
+],
+"D": [
+  {"a": "T1- The state number is an average so it hides differences between the counties. E2- The state is 18% but Dry Creek is 44% and Calder City is only 6%. A3- If the government only looked at 18% it might not send money to the counties that need it most like Dry Creek.", "ok": true},
+  {"a": "The 18% hides the fact that some counties like Northfork are at 41%. Leaders might think the problem is small and not fund it enough, or they'd spread the money out evenly instead of focusing on the rural counties.", "ok": true},
+  {"a": "Using only state data masks the variation. Calder City at 6% pulls the average down, so planners would underestimate how bad it is in places like Pine Ridge at 38% and they'd target the wrong areas.", "ok": true},
+  {"a": "The problem is one value for the whole state doesn't tell you where the problem is. Eight counties are above 18% and some are over 40%, so a plan based on 18% would put internet in the wrong places.", "ok": true},
+  {"a": "State-level data is limited because it doesn't show everything about internet access.", "ok": false},
+  {"a": "One limitation is that state-level data is at a large scale, so it shows the counties in too much detail and that confuses the people making decisions.", "ok": false},
+  {"a": "The state number is an average that hides the differences between counties.", "ok": false},
+  {"a": "The state data is only from one year, 2020, so it might be out of date and the government could make the wrong decision.", "ok": false}
+],
+"E": [
+  {"a": "T1- GIS lets the agency layer different maps on top of each other. E2- They could put the internet access map over a map of where the cable lines already are and population density. A3- Then they can see where the need is biggest and build there first.", "ok": true},
+  {"a": "The agency could use GIS to overlay data like income, schools, and households without internet, and find the counties where all of those overlap so they know where to put the new broadband first.", "ok": true},
+  {"a": "GIS combines a bunch of spatial data in one map. You could combine the 44% in Dry Creek with where the roads are, since cable usually runs along roads, and pick the cheapest spots to build that still reach a lot of people.", "ok": true},
+  {"a": "Using GIS they can stack layers like terrain, population, and where fiber already exists. That analysis shows which areas have high need and no service, so the state prioritizes those areas.", "ok": true},
+  {"a": "The agency could use GIS to help them decide where to build broadband internet.", "ok": false},
+  {"a": "GIS uses GPS satellites to track where people are using the internet, and then they build towers where the signal is weak.", "ok": false},
+  {"a": "GIS can layer lots of different kinds of data on one map, like population and income.", "ok": false},
+  {"a": "GIS is a survey where the government asks people if they have internet, and then they build it in the counties that say no.", "ok": false}
+],
+"F": [
+  {"a": "T1- A graduated symbol map would put a circle in each county sized by how many households don't have internet. E2- Calder City has so many people that even at 6% its circle could be big. A3- So it'd show the total number, not the percent, and the metro could look worse than the rural counties.", "ok": true},
+  {"a": "A dot density map would show where the households without internet actually are inside each county, instead of coloring the whole county one color. The dots would cluster around the towns.", "ok": true},
+  {"a": "With a proportional symbol map the symbols show counts instead of rates, so counties with lots of people would have the biggest symbols even if their percentage is low.", "ok": true},
+  {"a": "A dot map shows the number of households, not the percentage. Dry Creek might only have a few dots even though it's 44% because not many people live there.", "ok": true},
+  {"a": "A dot density map would look different because it uses dots instead of colors.", "ok": false},
+  {"a": "A graduated symbol map would use darker colors for the counties with higher percentages so the pattern would be easier to see.", "ok": false},
+  {"a": "You could use a graduated symbol map instead of a choropleth map.", "ok": false},
+  {"a": "A dot density map would show the same percentages but with dots, so the counties with higher percents would get more dots and the pattern would look the same.", "ok": false}
+],
+"G": [
+  {"a": "T1- Time-space compression is when places feel closer because of technology. E2- With internet, someone in Northfork can video call a doctor instead of driving hours. A3- This means people can get health care without leaving, so maybe they don't move away.", "ok": true},
+  {"a": "Internet makes distance matter less since people in rural counties can connect instantly with the rest of the world. One effect is people could work remote jobs from home and earn money without moving to Calder City.", "ok": true},
+  {"a": "Better internet shrinks the distance between rural towns and cities because information travels instantly. Kids in Dry Creek could take online classes, which helps them get a better education.", "ok": true},
+  {"a": "Faster internet means people in rural Calderon are instantly connected to faraway places, which is time-space compression. One effect is that people might shop online from big companies instead of at local stores, so small local businesses could close.", "ok": true},
+  {"a": "Time-space compression means the world is getting smaller because of technology.", "ok": false},
+  {"a": "This is time-space compression because the farther a county is from Calder City the less internet it has, which is distance decay. So rural people will keep moving to the city.", "ok": false},
+  {"a": "Improved internet is time-space compression because it connects rural places to faraway places instantly, so distance doesn't matter as much.", "ok": false},
+  {"a": "Better internet is time-space compression because the rural counties will grow and get closer to the city. One effect is the rural counties would turn into suburbs.", "ok": false}
+]
+}

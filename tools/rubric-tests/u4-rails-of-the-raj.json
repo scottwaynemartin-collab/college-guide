@@ -1,0 +1,72 @@
+{
+"A":[
+  {"a":"The railways go from inland areas out to the port cities on the coast.","ok":true},
+  {"a":"Most of the train lines connect the inside of India to the ocean.","ok":true},
+  {"a":"The rail lines all lead to a few big cities like Bombay and Calcutta.","ok":true},
+  {"a":"Its like a funnel, all the tracks head toward the harbors where the ships are.","ok":true},
+  {"a":"The pattern of the railway network is shown on the map of India.","ok":false},
+  {"a":"The railroads are spread out evenly so every city in India is connected to every other city equally.","ok":false},
+  {"a":"There are a lot of railway lines in India in 1900.","ok":false},
+  {"a":"The railways mostly connect towns in the middle of India to each other so people could travel around.","ok":false}
+],
+"B":[
+  {"a":"T1- Britain wanted India's raw materials. E2- The railroads go from places that grow cotton and wheat out to the ports. A3- That way the crops could be shipped back to Britain.","ok":true},
+  {"a":"Britain built the railways to take cash crops like jute and tea from the farms inland to the coast so they could ship it to England for their factories.","ok":true},
+  {"a":"The trains carried resources from the interior to port cities like Bombay so Britain could export them and make money off India's goods.","ok":true},
+  {"a":"Britain's goal was to get cheap cotton for its textile mills, so the tracks run from the cotton areas straight to the harbors where it got loaded on ships.","ok":true},
+  {"a":"The pattern of the railway network reflects Britain's economic goals in colonial India.","ok":false},
+  {"a":"The railways were built mainly to move British soldiers around to control the people, so the lines connect the major cities.","ok":false},
+  {"a":"Britain's economic goal was to get raw materials like cotton and jute from India.","ok":false},
+  {"a":"Britain wanted to industrialize India, so it built railways to bring factories and jobs to the interior.","ok":false}
+],
+"C":[
+  {"a":"T1- Bombay and Calcutta were where the British shipped goods out to Britain. E2- All that trade needed workers at the docks and warehouses. A3- So people moved there from villages to get jobs and the cities got huge.","ok":true},
+  {"a":"Calcutta was the capital of British India so a lot of government offices were there, and people came from all over to work for the government, which made the city grow.","ok":true},
+  {"a":"The railroads ended at these port cities so everything being exported passed through them. That created tons of jobs, and rural people migrated there looking for work.","ok":true},
+  {"a":"the british made them trade hubs, so british companies invested lots of money in docks and banks there and that brought in workers so the population exploded","ok":true},
+  {"a":"Colonial rule helped port cities like Bombay and Calcutta grow a lot.","ok":false},
+  {"a":"Bombay and Calcutta grew because they were on the coast and had good soil for farming, so people moved there to grow rice.","ok":false},
+  {"a":"Bombay and Calcutta were the main ports where the British exported cotton and jute to Britain.","ok":false},
+  {"a":"The British forced everyone to live in the port cities so they could keep an eye on them, which is why they got so big.","ok":false}
+],
+"D":[
+  {"a":"T1- Farmers had to grow cotton instead of food. E2- That meant there wasn't enough rice and wheat to eat. A3- When droughts came lots of people starved in famines.","ok":true},
+  {"a":"Because farmers grew jute and indigo to sell, they depended on world market prices. When the price dropped they couldn't pay their debts and lost their land.","ok":true},
+  {"a":"Villages switched to growing cash crops for export so less land was used for food, which made food more expensive and people got poorer.","ok":true},
+  {"a":"rural people got stuck in debt because they had to borrow money to plant the crops the british wanted, and if the crop failed they owed even more","ok":true},
+  {"a":"The colonial emphasis on cash crops affected rural communities in South Asia a lot.","ok":false},
+  {"a":"Growing cash crops gave rural communities more food because the British brought in Green Revolution seeds.","ok":false},
+  {"a":"It caused famines in rural India.","ok":false},
+  {"a":"Cash crops helped rural farmers get rich because they could sell their cotton to Britain for high prices.","ok":false}
+],
+"E":[
+  {"a":"T1- Britain is the core and India is the periphery. E2- India sends raw materials like cotton to Britain. A3- Britain makes them into finished products and keeps the profit.","ok":true},
+  {"a":"In Wallerstein's model India was a periphery country that gave cheap raw resources to Britain, the core, which then made manufactured goods and sold them back to India.","ok":true},
+  {"a":"britain = core, india = periphery. the map shows crops like jute and tea going out of india to britain, where the factories made the money off them","ok":true},
+  {"a":"India was on the periphery because it just exported cheap cash crops, while Britain as the core country did the high-value manufacturing and got wealthy.","ok":true},
+  {"a":"The map illustrates Wallerstein's world-system theory because of the economic relationship between the countries.","ok":false},
+  {"a":"India is the core because it has the most railways and Britain is the periphery because it is far away from Asia.","ok":false},
+  {"a":"Britain was the core and India was the periphery.","ok":false},
+  {"a":"Britain is the core and India is the periphery because Britain sent its factories and manufactured goods to India so India could develop.","ok":false}
+],
+"F":[
+  {"a":"T1- Mumbai and Kolkata are still huge economic centers today. E2- They already had the railroads and ports from colonial times. A3- So businesses keep investing there and people keep moving there.","ok":true},
+  {"a":"The coast of India is more developed than the interior because the colonial railways and ports were built there, and companies still want to locate where the infrastructure already exists.","ok":true},
+  {"a":"Cities like Mumbai are still the biggest hubs because the old rail lines still go there, which brings in factories and migrants looking for jobs.","ok":true},
+  {"a":"development is still uneven, rural inland areas are behind because the trains only brought stuff to the ports, so industry clustered at the coast and kept growing there (cumulative causation)","ok":true},
+  {"a":"The colonial transportation network still affects economic development in South Asia today.","ok":false},
+  {"a":"Mumbai is a big economic hub today because of Bollywood movies and tourism.","ok":false},
+  {"a":"Mumbai and Kolkata are still major economic hubs in India today.","ok":false},
+  {"a":"The old colonial railways are all broken now, so India has no good transportation and the whole country is equally poor.","ok":false}
+],
+"G":[
+  {"a":"T1- The map doesn't show any people. E2- It just shows railroads and crops. A3- So you can't tell how colonialism actually affected people's lives, like if they got poorer or starved.","ok":true},
+  {"a":"It only shows one year, 1900, so you can't see how things changed before and after the British came, which means you can't tell what colonialism actually did.","ok":true},
+  {"a":"The map has no information about incomes or famine deaths, so it can't show who was hurt or who benefited from colonial rule.","ok":true},
+  {"a":"its only showing the whole country so you can't see what happened in individual villages, and the effects on local people could be really different","ok":true},
+  {"a":"One limitation of the map is that it has limits for understanding colonialism.","ok":false},
+  {"a":"The map is limited because it's not to scale and the colors are hard to tell apart.","ok":false},
+  {"a":"The map doesn't show data about people.","ok":false},
+  {"a":"The map was made by the British so all the information on it is false.","ok":false}
+]
+}

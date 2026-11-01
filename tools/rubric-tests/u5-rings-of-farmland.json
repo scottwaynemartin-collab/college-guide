@@ -1,0 +1,72 @@
+{
+"A":[
+  {"a":"Dairy and vegetables.","ok":true},
+  {"a":"ring 1 has milk cows and veggie farms","ok":true},
+  {"a":"Market gardening, growing fresh produce like lettuce and tomatoes to sell in the city.","ok":true},
+  {"a":"Truck farming of fresh fruits and produce right next to Aldmere.","ok":true},
+  {"a":"Farming that sells to the city.","ok":false},
+  {"a":"Grains and field crops like wheat and corn.","ok":false},
+  {"a":"Timber for firewood since wood is heavy to carry.","ok":false},
+  {"a":"Cattle ranching, because the cows get sold at the city market.","ok":false}
+],
+"B":[
+  {"a":"T1- Stuff like milk and vegetables spoils quickly. E2- If it had to travel far it would go bad before it got to the city. A3- So farmers grow it close to the market to save on transportation costs and not lose money.","ok":true},
+  {"a":"Milk goes bad fast and timber is really heavy, so they cost the most to ship. The farther away you are the more you pay to transport, so these farmers pay more rent to be close to the city.","ok":true},
+  {"a":"Perishable goods have to get to market quick or they rot, and shipping costs go up the farther you go, so it makes sense to grow them near the city where transport is cheapest.","ok":true},
+  {"a":"bid rent, the dairy farmers can afford the expensive land near the city because they'd lose more money hauling fresh milk a long distance than a wheat farmer would","ok":true},
+  {"a":"The products closest to the market are the ones that are the most perishable or the most expensive to transport.","ok":false},
+  {"a":"Farmers near the city grow vegetables because the soil there is better and there is more water near the market.","ok":false},
+  {"a":"Milk and vegetables are perishable and spoil quickly.","ok":false},
+  {"a":"Vegetables spoil fast, so they are grown near the city because the land there is cheaper than land far away.","ok":false}
+],
+"C":[
+  {"a":"T1- The river stretches the rings out. E2- Ring 1 and ring 3 go farther along the river instead of being circles. A3- Because boats make it cheaper to ship stuff on the river.","ok":true},
+  {"a":"Instead of perfect circles the rings are shaped like ovals that follow the river, since moving goods by barge costs less than by land.","ok":true},
+  {"a":"The dairy zone extends north and south along the Tarn River because shipping by water is faster, so farms farther away on the river act like they are close to the city.","ok":true},
+  {"a":"the rings get pulled out along the river, theyre elongated, cause transportation costs are lower on the water","ok":true},
+  {"a":"The river changes the pattern of land use compared with the classic von Thunen model.","ok":false},
+  {"a":"The river gives farms more water for irrigation so ring 1 is bigger along the river.","ok":false},
+  {"a":"The rings are stretched into ovals along the river instead of being circles.","ok":false},
+  {"a":"The river blocks the farmers from crossing so the rings get cut in half and are smaller.","ok":false}
+],
+"D":[
+  {"a":"T1- Crossford is like a second market with its own small ring of dairy and vegetables. E2- It's on the highway. A3- Trucks on the highway make transport cheaper so a new market could form there instead of just Aldmere.","ok":true},
+  {"a":"Crossford has its own little dairy and veggie zone around it, which shows there isn't just one market city anymore. The highway lets trucks move stuff fast and cheap so new market towns can pop up.","ok":true},
+  {"a":"Von Thunen assumed one central market, but Crossford is another market town with a mini ring 1. That happened because the highway made shipping faster.","ok":true},
+  {"a":"the highway lets trucks get goods to Crossford quickly so it became another market center with its own set of rings","ok":true},
+  {"a":"Crossford shows how modern transportation changes the von Thunen model.","ok":false},
+  {"a":"Crossford shows that the highway makes it easier for people to commute to their jobs in Aldmere.","ok":false},
+  {"a":"Crossford is a second market town with its own small dairy and vegetable ring.","ok":false},
+  {"a":"Crossford is where the cattle ranching happens because highways are good for trucking cows to the city.","ok":false}
+],
+"E":[
+  {"a":"T1- Refrigerated trucks keep food cold. E2- So strawberries from California can be sold in New York. A3- This means fruits and vegetables don't have to be grown right by the city anymore.","ok":true},
+  {"a":"Because of container ships, the US gets grapes from Chile in the winter, so the perishable ring doesn't need to be by the city, the whole world is the farm zone.","ok":true},
+  {"a":"Refrigeration lets milk and produce travel thousands of miles without spoiling, so at the national scale dairy can be produced far away in places like Wisconsin and shipped everywhere.","ok":true},
+  {"a":"air freight lets flowers and fruit from Kenya or Mexico get to stores in other countries in like a day, so things that spoil dont have to be in ring 1 anymore","ok":true},
+  {"a":"Refrigerated trucking and global shipping have weakened the von Thunen pattern at the global scale.","ok":false},
+  {"a":"Global shipping causes a lot of pollution, which hurts the farms near the city.","ok":false},
+  {"a":"Refrigerated trucks can keep food cold for a long time.","ok":false},
+  {"a":"Refrigerated trucks mean farmers can grow even more food in ring 1 since it lasts longer.","ok":false}
+],
+"F":[
+  {"a":"T1- Fertilizer runoff. E2- Farmers in ring 3 put lots of fertilizer on the grain and rain washes it into the river. A3- This causes algae blooms that kill the fish.","ok":true},
+  {"a":"Dairy farms in ring 1 make tons of manure that leaks into the Tarn River and pollutes the water.","ok":true},
+  {"a":"Plowing the same grain fields over and over leads to soil erosion, because the topsoil gets blown or washed away and the land can't grow as much.","ok":true},
+  {"a":"irrigating the ring 3 fields pumps out so much groundwater that the aquifer gets depleted and wells dry up","ok":true},
+  {"a":"Intensive farming has a bad effect on the environment in ring 1 and ring 3.","ok":false},
+  {"a":"Ring 3 farms use pesticides, which make the crops grow faster and produce more food.","ok":false},
+  {"a":"Water pollution.","ok":false},
+  {"a":"Ring 3 grain fields cause acid rain because wheat plants release chemicals into the air.","ok":false}
+],
+"G":[
+  {"a":"T1- In poorer countries many farmers do subsistence farming. E2- They grow food for their own family, not to sell at a market. A3- So distance to the city doesn't decide what they grow, and the rings wouldn't show up.","ok":true},
+  {"a":"The model assumes flat land, but a country like Nepal has mountains, so farmers grow whatever fits the terrain, not what the distance from the market says.","ok":true},
+  {"a":"Many developing countries grow cash crops for export at the ports instead of for one city, so land use depends on foreign demand and not on rings around a city.","ok":true},
+  {"a":"lots of LDCs have many small village markets not one big city, so theres no single center and the rings wouldnt form like the model predicts","ok":true},
+  {"a":"The model has a limitation when it is used in a less developed country.","ok":false},
+  {"a":"Von Thunen doesn't work there because less developed countries are in stage 2 of the demographic transition model.","ok":false},
+  {"a":"Many farmers in less developed countries practice subsistence farming.","ok":false},
+  {"a":"The model is from the 1800s so it is too old to work anymore.","ok":false}
+]
+}

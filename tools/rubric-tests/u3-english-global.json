@@ -1,6 +1,72 @@
 {
-"A":[{"a":"T1- India used to be a colony of Britain. E2- The British ran the schools and government in English. A3- So English stuck around after they left.","ok":true},
-     {"a":"India has a lot of people so a lot of them speak English.","ok":false}],
-"E":[{"a":"T1- Workers in India get paid less. E2- India has 125 million English speakers. A3- The company saves money and makes more profit.","ok":true},
-     {"a":"Because India has lots of English speakers.","ok":false}]
+"A": [
+  {"a": "T1- India was colonized by Britain. E2- The British used English in the government and schools. A3- After India became independent they kept using English, so lots of people still speak it.", "ok": true},
+  {"a": "The British ruled India for a long time and made English the language of the courts and universities, so educated Indians learned it and it stuck.", "ok": true},
+  {"a": "India used to be part of the British Empire. English became the language of business and government, and India kept it as an official language after 1947.", "ok": true},
+  {"a": "Because of colonialism. The British East India Company and then the Raj taught English in schools to train Indian clerks, and those people passed it down to their kids.", "ok": true},
+  {"a": "India has a lot of English speakers because of its history.", "ok": false},
+  {"a": "English spread to India through globalization and call centers, because American companies hire English speakers there.", "ok": false},
+  {"a": "India was a British colony.", "ok": false},
+  {"a": "India has so many English speakers because it has a huge population, so even a small percent is a lot of people.", "ok": false}
+],
+"B": [
+  {"a": "T1- People are learning English to get better jobs. E2- Tech companies and call centers want workers who speak English. A3- So knowing English means you can earn more money.", "ok": true},
+  {"a": "English is the main language of the internet, so learning it lets people in China use more websites and talk with people around the world.", "ok": true},
+  {"a": "Globalization. Lots of international business is done in English, so Chinese and Indian businesspeople need it to make deals with foreign companies and make more money.", "ok": true},
+  {"a": "Many students want to study at universities in the US or UK, and they need English to get in and understand the classes, which gives them more opportunities later.", "ok": true},
+  {"a": "People in China and India are learning English because it is important.", "ok": false},
+  {"a": "People are learning English because India was a British colony and the British made them learn it.", "ok": false},
+  {"a": "Because of globalization.", "ok": false},
+  {"a": "China's government is making English the official language, so everyone has to learn it.", "ok": false}
+],
+"C": [
+  {"a": "T1- The Great Firewall is a barrier. E2- The government blocks English sites like Google and YouTube. A3- So people don't see English online as much and it doesn't spread.", "ok": true},
+  {"a": "Mandarin is really different from English, with tones and characters instead of an alphabet, which makes English harder for Chinese people to learn, so it spreads more slowly.", "ok": true},
+  {"a": "In rural parts of China there aren't many English teachers, so kids in those villages never really get to learn English and it stays mostly in the big cities.", "ok": true},
+  {"a": "China was never a British colony like India was, so English was never used in its government or schools and fewer people grew up learning it.", "ok": true},
+  {"a": "There are barriers to English spreading in China.", "ok": false},
+  {"a": "One barrier is hierarchical diffusion, since English spreads from big cities to smaller cities in China.", "ok": false},
+  {"a": "The Chinese government is a barrier.", "ok": false},
+  {"a": "Chinese people don't like English because it's a hard language.", "ok": false}
+],
+"D": [
+  {"a": "T1- Dutch and English are similar languages. E2- The Netherlands is 90% English speakers and China is under 1%. A3- Since both are Germanic languages it's easier for Dutch people to learn English.", "ok": true},
+  {"a": "The Netherlands has 90% English speakers vs China's less than 1% because the Netherlands is a small country that depends on trade with English-speaking countries, so people need English for business.", "ok": true},
+  {"a": "Dutch kids grow up watching English TV shows and movies with subtitles, so 90% of Dutch people speak English. China mostly has Chinese-language media, so less than 1% do.", "ok": true},
+  {"a": "The Netherlands is really close to the UK, just across the North Sea, so there's a lot of contact. That's why it's 90% compared to under 1% in China, which is far away.", "ok": true},
+  {"a": "The Netherlands has 90% English speakers and China has less than 1%, which is a really big difference.", "ok": false},
+  {"a": "China has 10 million English speakers and the Netherlands has 15 million, so the Netherlands has more English speakers because it has more people.", "ok": false},
+  {"a": "Dutch is a Germanic language like English, so it's easier for them to learn.", "ok": false},
+  {"a": "The Netherlands was a British colony, so it's 90% English, while China is less than 1%.", "ok": false}
+],
+"E": [
+  {"a": "T1- Wages are lower in India. E2- Workers there get paid way less than in the US but still speak English. A3- So the company saves money on labor and makes more profit.", "ok": true},
+  {"a": "Labor is cheaper in the Philippines, so companies can hire more workers for the same cost and lower their expenses.", "ok": true},
+  {"a": "Because of time zones, a call center in India is open during the American night, so the company can offer 24-hour customer service without paying night shift workers in the US.", "ok": true},
+  {"a": "There's a huge English-speaking workforce in India (125 million) who will work for less, so the corporation cuts costs and increases profits.", "ok": true},
+  {"a": "Corporations put call centers there because it's good for business.", "ok": false},
+  {"a": "Because people in other countries need jobs, and the corporation wants to help the local economy develop.", "ok": false},
+  {"a": "Wages are lower in India.", "ok": false},
+  {"a": "The company moves there because English isn't the dominant language, so it can teach the workers English and spread the language.", "ok": false}
+],
+"F": [
+  {"a": "T1- The table only shows language, not wealth. E2- The Philippines is 95% English but it's less developed than China, which is under 1%. A3- So if you used this table you'd think the Philippines is more developed, which is wrong.", "ok": true},
+  {"a": "Speaking English doesn't measure GDP per capita or HDI. Nigeria has 53% English speakers but is a poorer country, so the table could make you think it's more developed than it is.", "ok": true},
+  {"a": "The table doesn't show income or health, so you can't tell how developed a country is. China has fewer than 1% English speakers but has a huge economy, so the data would mislead you.", "ok": true},
+  {"a": "The table is national averages, so it hides that in India the English speakers are mostly richer people in cities. You might think the whole country is developed when really it's just the wealthy part.", "ok": true},
+  {"a": "The table has limitations for understanding economic development.", "ok": false},
+  {"a": "The table doesn't show every country, like Japan or Germany, so it's limited.", "ok": false},
+  {"a": "The table only shows language, not things like GDP per capita.", "ok": false},
+  {"a": "The table shows that countries with more English speakers are more developed, like the UK and the US, so it's a good measure of development.", "ok": false}
+],
+"G": [
+  {"a": "T1- Local languages could die out. E2- When kids learn English in school and use it online, they stop speaking their parents' language. A3- Over time no one speaks it and the language goes extinct.", "ok": true},
+  {"a": "English as a lingua franca can cause loss of local culture, because songs, stories, and traditions in the local language stop being passed down when young people switch to English.", "ok": true},
+  {"a": "People who don't speak English get left behind. In India the best jobs go to English speakers, so poor and rural people who never learned English can't get those jobs and the gap between rich and poor grows.", "ok": true},
+  {"a": "It leads to cultural homogenization, since everyone watches the same English movies and music and the local culture becomes less unique.", "ok": true},
+  {"a": "A global lingua franca is bad for places that speak a different language.", "ok": false},
+  {"a": "A lingua franca is a language spoken in only one region, so it would isolate people there from the rest of the world.", "ok": false},
+  {"a": "One negative impact is language extinction.", "ok": false},
+  {"a": "English being a lingua franca means everyone will be forced by law to speak English and other languages will be banned.", "ok": false}
+]
 }
