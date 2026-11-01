@@ -31,7 +31,9 @@ h2{font-size:12.5pt;margin:18px 0 6px;border-bottom:2px solid #000;padding-botto
 .namebox{display:flex;gap:18px;font-size:10pt;margin:6px 0 12px}
 .namebox span{flex:1;border-bottom:1px solid #000;padding-top:12px}
 .dir{border:1.5px solid #000;padding:8px 10px;font-size:10pt;margin-bottom:12px}
-.stim{border:1.5px solid #000;padding:10px;margin:8px 0 14px;break-inside:avoid}
+.stim{border:1.5px solid #000;padding:10px;margin:8px 0 14px}
+.stim svg,.stim table,.passage,.legend{break-inside:avoid}
+.stim h4{break-after:avoid}
 .stim h3{font-size:11pt;margin:0 0 6px}
 .stim h4{color:#000!important;font-size:10.5pt;margin:12px 0 4px!important}
 .stim svg{display:block;max-width:100%;height:auto;max-height:4.6in;margin:0 auto}
