@@ -172,6 +172,63 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
 - **Weekly summary:** adds retest messages to send, the Power Hour draft list count, and "After Power Hour: avg MC ±X".
 - **Top bar** shows the page name on the welcome screen, Help, T-TESS and At a glance instead of the course chips.
 
+## Review fixes (Nov 1)
+Three independent reviews covered imports, the action pages, and security / UI events. The fixes are covered by tests 23–25.
+- **Imports**
+  - Score parsing:
+    - "12/15 pts", "12/15 (80%)" and "8.5 of 10" read correctly.
+    - "-/10" (Canvas not yet graded) is blank.
+    - Extra text uses the first number only.
+    - Scores are stored to 2 decimals, and "m:false" is dropped (smaller storage).
+  - Student matching:
+    - Accents and hyphens are ignored ("José Ramírez" = "Jose Ramirez").
+    - A unique first + last name match links "Ava Marie Reyes" to "Ava Reyes".
+    - Two students with the same name but different school IDs stay separate.
+    - Non-Latin names are never dropped.
+  - A grades CSV whose headers contain "Spatial", "Essential" and the like is no longer mistaken for a Student Profile.
+  - Canvas: only real assignment columns (ending "(id)") are imported. Custom columns (Notes) and 0-point columns are skipped. "Final Grade Reflection (1006)" is no longer dropped.
+  - Platform names "TAC", "Teacher Access Center" and "eSchool" → Gradebook; "College Board" → AP Classroom.
+  - School-year rollover: each student remembers the year their classes were imported. After Aug 1 last year's classes move to that year, and they move back if the year setting is changed back.
+  - Dropped files use the School year box as it is now. The column-setup dialog continues with the rest of the dropped files.
+  - Restore backup and Undo re-run the upgrades for older data, so older backups no longer crash At a glance.
+  - Storage full:
+    - The undo copy is removed and the save is retried.
+    - If it still fails, a "Not saved — back up now" banner stays on screen instead of a toast that vanishes.
+    - Erase everything also removes the undo copy.
+  - A stray quote in a tab-separated paste no longer swallows the rest of the file.
+- **Action pages**
+  - Power Hour drafts:
+    - A "Power Hour assigned now" date that has passed no longer hides the student. A blank cell in the profile clears it.
+    - A missing latest unit test counts ("Unit 4 test missing").
+    - The school ID (5–7 digits) is used in roster and prompt copies.
+    - List labels come from Settings.
+  - Default draft day skips any day whose 6 pm-the-day-before deadline has passed. A saved day that is no longer in the next two weeks is ignored.
+  - T-TESS:
+    - Student-level counts (profiles, contacts, emails, retest messages, goals, check-ins, conferences, Power Hour, TIA) count each student once, even in two classes.
+    - Reteach groups are counted once.
+    - The title shows only the course / period filter it actually uses.
+    - Weekly refreshes are compared in calendar weeks.
+  - Make groups for one period no longer erases groups made the same day for another period.
+  - Intervention → outcome:
+    - "PH draft" log entries count as Power Hour.
+    - Retest messages are not counted as parent contacts.
+    - Only Email / Call / Conference / Tutoring count as contacts.
+  - Thresholds: class grades and retest caps compare the **rounded** grade everywhere (69.6 is not below 70) on Overview, Power Hour, Power Hour drafts, Retests, the conference page and T-TESS.
+  - A missing retest no longer counts as the retest, so the unit stays open on Retests, Retest priority, Reteach radar and groups.
+  - At a glance text reports "AP exam enrollments" (a student in two AP classes takes two exams) next to the student count. Its temporary filter reset is always undone.
+  - Hand-entered percentages accept "1,210 of 1,385", "approx. 58%" and labels containing " - ".
+  - Mark sent logs a retest message per course (the course goes in the note).
+- **Security / UI**
+  - Tooltips: every tooltip's text is escaped, and only the bold and line-break markers are allowed back. A hostile name or assignment can no longer run code on hover (tested with 800+ tooltips).
+  - The College Board exam year and grade-scale letters are escaped.
+  - The artifact's "Printable text" no longer loads images from the content.
+  - Search no longer pulls focus back after you click elsewhere, and accented / IME typing works.
+  - A text-selection drag that ends on the dimmed background no longer closes a dialog.
+  - Browser Back to the start page works. An unknown page name shows Overview, highlighted.
+  - The "/" shortcut is ignored while a dialog is open.
+  - Editing the Power Hour draft name no longer swallows the next click.
+  - In the artifact, closing the conference "Printable text" returns to the conference.
+
 ## Artifact limits (by design)
 The claude.ai artifact frame blocks several browser features, so the page works around them:
 - **Pop-ups (`confirm`, `prompt`, `alert`):** replaced with dialogs built into the page.

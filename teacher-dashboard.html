@@ -676,6 +676,7 @@ tr.hi .bbar i{background:var(--tq)} tr.hi td{background:var(--tq-soft)}
 
 /* in-page print area (no new windows, so it works inside artifacts) */
 #printArea{display:none}
+#saveWarn{position:fixed;left:50%;top:10px;transform:translateX(-50%);z-index:200;max-width:min(720px,94vw);background:var(--help);color:#fff;font-size:13px;line-height:1.4;padding:10px 14px;border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.35);display:flex;gap:10px;align-items:center;flex-wrap:wrap}#saveWarn .btn{background:#fff;color:var(--help-ink)}
 #printArea .hd{border-bottom:4px solid #00b2a9;padding-bottom:10px;margin-bottom:16px}
 #printArea .hd small{color:#556;font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:11px}
 #printArea h1{font:900 30px/1.05 var(--display);text-transform:uppercase;margin:4px 0 0;letter-spacing:-.02em}
@@ -837,14 +838,32 @@ const KEY = 'classroomDashboard.v1';
 const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, emailLog:{}, conferences:{}, ttess:{}, groups:[], retestMsgs:{}, phDrafted:{}, cb:{scores:[], ipr:[], district:[]}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
 let DB = load();
 function load(){ try{ return Object.assign(blank(), JSON.parse(localStorage.getItem(KEY)||'{}')); }catch(e){ return blank(); } }
-function save(){ try{ localStorage.setItem(KEY, JSON.stringify(DB)); }catch(e){ toast('Could not save — browser storage is unavailable or full'); } }
+function save(){ const j = JSON.stringify(DB);
+  try { localStorage.setItem(KEY, j); saveWarn(false); }
+  catch(e){ try { localStorage.removeItem(KEY + '.undo'); localStorage.setItem(KEY, j); saveWarn(false); setTimeout(() => toast('Browser storage was full: removed the undo copy so your data could be saved'), 2700); }
+    catch(e2){ saveWarn(true); } } }
+function saveWarn(on){ let el = document.getElementById('saveWarn'); if (!on){ if (el) el.remove(); return; }
+  if (!el){ el = document.createElement('div'); el.id = 'saveWarn'; el.setAttribute('role', 'alert'); document.body.appendChild(el); }
+  el.innerHTML = '⚠ <b>Not saved.</b> This browser’s storage is full or blocked, so recent changes will be lost when the page reloads. Back up now (Settings → Back up…). <button class="btn sm" data-act="backup">Back up now</button>'; }
 const S = () => Object.assign({}, CONFIG, DB.settings);
 function curYear(){ if (S().currentYear) return S().currentYear; const d = new Date(), y = d.getFullYear() - (d.getMonth() < 7 ? 1 : 0); return `${y}-${String((y+1)%100).padStart(2,'0')}`; }
-Object.values(DB.assignments).forEach(a => { if (!a.year) a.year = curYear(); });
-if (!DB.cb) DB.cb = {scores:[], ipr:[]}; if (!DB.cb.district) DB.cb.district = [];
-if (!DB.settings.rm80){ ['retestMsgCut','retestMsg','retestMsg2'].forEach(k => delete DB.settings[k]); DB.settings.rm80 = true; }   // one-time: retest messages moved from ≤70 to below 80
-if (!DB.settings.rm81){ ['retestMsg','retestMsg2'].forEach(k => delete DB.settings[k]); DB.settings.rm81 = true; }   // one-time: A Block / duty sentence added to the message
 const yearOf = a => a.year || curYear();
+/* Upgrades for older saved data. Runs on load, after Restore backup and after Undo import. */
+function migrate(){
+  const fresh = blank(); Object.keys(fresh).forEach(k => { if (DB[k] == null) DB[k] = fresh[k]; });
+  DB.settings ||= {}; DB.cb ||= {}; ['scores','ipr','district'].forEach(k => { if (!Array.isArray(DB.cb[k])) DB.cb[k] = []; });
+  Object.values(DB.assignments).forEach(a => { if (!a.year) a.year = curYear(); });
+  if (!DB.settings.rm80){ ['retestMsgCut','retestMsg','retestMsg2'].forEach(k => delete DB.settings[k]); DB.settings.rm80 = true; }   // one-time: retest messages moved from ≤70 to below 80
+  if (!DB.settings.rm81){ ['retestMsg','retestMsg2'].forEach(k => delete DB.settings[k]); DB.settings.rm81 = true; }   // one-time: A Block / duty sentence added to the message
+  Object.values(DB.scores).forEach(sc => Object.values(sc).forEach(v => { if (v && v.m === false) delete v.m; if (v && typeof v.p === 'number') v.p = Math.round(v.p * 100) / 100; }));   // smaller storage
+  // School-year rollover: classes belong to the year they were imported in; move them to past[year] once that year is over (and back if the year setting is changed back).
+  const cur = curYear();
+  Object.entries(DB.students).forEach(([k, st]) => { st.classes ||= [];
+    if (st.classes.length && !st.cy){ const ys = new Set(Object.keys(DB.scores[k] || {}).map(id => DB.assignments[id]).filter(Boolean).map(yearOf)); st.cy = ys.has(cur) || !ys.size ? cur : [...ys].sort().slice(-1)[0]; }
+    if (st.classes.length && st.cy !== cur){ const pl = ((st.past ||= {})[st.cy] ||= []); st.classes.forEach(c => { if (!pl.includes(c)) pl.push(c); }); st.classes = []; }
+    if (!st.classes.length && st.past && st.past[cur] && st.past[cur].length){ st.classes = st.past[cur]; delete st.past[cur]; st.cy = cur; } });
+}
+migrate();
 
 const UI = { view: location.hash.slice(1) || 'overview', course:'all', period:'all', staar:'all', status:null, q:'', sort:'need',
   retestBy:'student', apf:'all', quart:'all', flagsOnly:false, wsort:'count', draft:null, draftBlock:'A Block', draftDay:'', cmpType:'all', cmpStudent:'', pasteYear:'', phOut:new Set(), pasteSrc:'Canvas', lastResult:'', asort:['order',-1] };
@@ -901,7 +920,20 @@ function normName(raw){
   if (n.includes(',')) { const [last, first] = n.split(',').map(s=>s.trim()); n = `${first} ${last}`; }
   return n;
 }
-const nameKey = n => normName(n).toLowerCase().replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim();
+const nameKey = n => { const raw = normName(n), k = raw.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[-‐–—_.]/g,' ').replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim(); return k || raw.toLowerCase().trim(); };
+const sameKindId = (a, b) => /^\d+$/.test(a) && /^\d+$/.test(b) && a.length === b.length;
+/* Find the student a row belongs to when its ID isn't known yet: same name (accents/hyphens ignored), else a unique first + last name match
+   (so "Ava Marie Reyes" finds "Ava Reyes"). A same-name student with a different school ID is a different person. */
+function findStudentKey(name, id){
+  const nk = nameKey(name); if (!nk) return null;
+  const conflict = k => !!id && (DB.students[k]?.ids || []).some(x => x !== id && sameKindId(x, id));
+  const k = DB.students[nk] ? nk : Object.keys(DB.students).find(k2 => nameKey(DB.students[k2].name) === nk);
+  if (k) return conflict(k) ? nk + '#' + id : k;
+  const t = nk.split(' ');
+  if (t.length >= 2){ const hits = Object.keys(DB.students).filter(k2 => { const u = nameKey(DB.students[k2].name).split(' '); return u.length >= 2 && u[0] === t[0] && u[u.length-1] === t[t.length-1]; });
+    if (hits.length === 1 && !conflict(hits[0])) return hits[0]; }
+  return nk;
+}
 
 /* ---------- courses & periods ---------- */
 const PERIOD_RE = /^(\d{1,2}[A-Z]?|[A-Z]\d{1,2})$/i;
@@ -959,6 +991,8 @@ function mockProject(course, pts){
    Writing (FRQ/SAQ/LEQ/DBQ), Canvas and Gradebook are left out. Missing counts as 0 only when marked missing. */
 /* SINGLE SOURCE OF TRUTH: AP Classroom unit multiple-choice tests and retests (raw % = correct ÷ total).
    Gradebook/TAC copies of the same test are curved and never used; Progress Check MCQs, writing, Canvas and Gradebook are context only. */
+const schoolId = s => (s.ids || []).find(i => /^\d{5,7}$/.test(i)) || (s.ids || [])[0] || '';   // the school's student ID (Canvas/AP Classroom may add their own)
+const below = (v, cut) => v != null && Math.round(v) < cut;   // class-grade thresholds compare the rounded grade the teacher sees
 const isPC = a => /progress check|\bpc\b/i.test(bare(a.name));
 const isRetest = a => /\bretest\b/i.test(bare(a.name));
 const isUnitMC = a => a.source==='AP Classroom' && !!unitOf(a.name) && /\b(test|retest|mcq?)\b/i.test(bare(a.name)) && !isPC(a) && typeOf(a.name)!=='writing' && !isMock(a.name) && !NOT_GRADED_WORK.test(bare(a.name));
@@ -997,28 +1031,28 @@ const hasProfiles = () => Object.values(DB.profiles).some(p => p.staarLevel || p
 
 /* ---------- data model ---------- */
 function upsertStudent(name, id, cls, year){
-  name = normName(name);
-  const key = (id && DB.idmap[id]) || (name && nameKey(name));
+  name = normName(name); id = String(id ?? '').trim();
+  const key = (id && DB.idmap[id]) || (name && findStudentKey(name, id));
   if (!key) return null;
   const st = DB.students[key] || (DB.students[key] = {name, ids:[], classes:[]});
   if (id && !st.ids.includes(id)) { st.ids.push(id); DB.idmap[id] = key; }
-  const list = (year && year !== curYear()) ? ((st.past ||= {})[year] ||= []) : st.classes;
+  const isCur = !year || year === curYear(), list = isCur ? st.classes : ((st.past ||= {})[year] ||= []);
+  if (isCur) st.cy = curYear();
   if (cls) String(cls).split(/\s+and\s+|;/).map(s=>s.trim()).filter(Boolean).forEach(c => { if (!list.includes(c)) list.push(c); });
   return key;
 }
+const scoreVal = (p, miss) => { p = Math.round(p * 100) / 100; return miss ? {p, m:true} : {p}; };
 function parseScore(raw, outOf){
   const v = String(raw ?? '').trim();
-  if (!v || v === '-') return null;
+  if (!v || /^[-–—]+\s*(\/.*)?$/.test(v)) return null;                       // "-", "—", Canvas "-/10" = not graded yet
   if (/^(m|mi|mis|msg|missing|z)$/i.test(v)) return {p:0, m:true};
   if (/^(ex|exc|excused|exempt)$/i.test(v)) return {p:null, x:true};
-  let m = v.match(/^(-?[\d.]+)\s*\/\s*([\d.]+)$/);
-  if (m) { const p = +m[2] ? +m[1] / +m[2] * 100 : null; return p==null?null:{p, m: p===0}; }
-  m = v.match(/^(-?[\d.]+)\s*%$/);
-  if (m) return {p:+m[1], m: +m[1]===0};
-  const n = parseFloat(v.replace(/[^\d.\-]/g,''));
-  if (isNaN(n) || !/\d/.test(v)) return null;
-  const p = outOf ? n / outOf * 100 : n;
-  return {p, m: n === 0};
+  let m = v.match(/^(-?\d+(?:\.\d+)?)\s*(?:\/|of)\s*(\d+(?:\.\d+)?)/i);   // "12/15", "12/15 pts", "12/15 (80%)", "8.5 of 10"
+  if (m) { if (!+m[2]) return null; const p = +m[1] / +m[2] * 100; return scoreVal(p, p === 0); }
+  m = v.match(/^(-?\d+(?:\.\d+)?)\s*%/);
+  if (m) return scoreVal(+m[1], +m[1] === 0);
+  m = v.match(/-?\d+(?:\.\d+)?/); if (!m) return null;                        // first number only: "85 (B)" → 85
+  const n = +m[0]; return scoreVal(outOf ? n / outOf * 100 : n, n === 0);
 }
 const visibleAssignments = () => Object.values(DB.assignments).filter(a=>!a.hidden && yearOf(a)===curYear()).sort((a,b)=>a.order-b.order);
 const lastSync = id => DB.imports.filter(i=>i.source===id).slice(-1)[0];
@@ -1049,7 +1083,7 @@ function summarize(key, s, cs){
   cs.forEach(c => { c.pts.forEach(p => { if (!seen.has(p.a.id)){ seen.add(p.a.id); pts.push(p); if (p.m) missing.push({a:p.a, cls:c.cls}); } }); });
   pts.sort((x,y)=>x.a.order-y.a.order);
   const multi = cs.length > 1, reasons = [];
-  cs.forEach(c => { if (c.avg!=null && c.avg<cut) reasons.push({t:'below', icon:'▼', label:`Below ${cut}`+(multi?` · ${c.course}`:''), tip:`${c.cls}: average ${pct(c.avg)}`, w:(cut-c.avg)*2+12}); });
+  cs.forEach(c => { if (below(c.avg, cut)) reasons.push({t:'below', icon:'▼', label:`Below ${cut}`+(multi?` · ${c.course}`:''), tip:`${c.cls}: average ${pct(c.avg)}`, w:(cut-c.avg)*2+12}); });
   if (missing.length >= 2) reasons.push({t:'missing', icon:'⧗', label:`${missing.length} missing`, tip:missing.slice(0,6).map(m=>bare(m.a.name)).join(', ')+(missing.length>6?'…':''), w:missing.length*4});
   const dr = cs.filter(c=>c.drop!=null && c.drop <= -st.dropPts).sort((a,b)=>a.drop-b.drop)[0];
   if (dr) reasons.push({t:'dropping', icon:'↘', label:`Dropping ${fmt(dr.drop,0)}`, tip:`${dr.cls||'All work'}: last 3 average ${p0(dr.recent)} vs ${p0(dr.prior)} before`, w:-dr.drop});
@@ -1112,7 +1146,7 @@ function parentEmail(key){
   s.cs.filter(c=>c.avg!=null).forEach(c => lines.push(`• ${c.cls}: ${Math.round(c.avg)}% (${letter(c.avg)})`));
   if (s.missing.length) { lines.push(``, `Missing work (${s.missing.length}):`); s.missing.forEach(m => lines.push(`• ${nm(m.a)}`)); }
   if (rt.length) { lines.push(``, `${first} is eligible to retest (retests can raise a score up to ${cap}):`); rt.forEach(p => lines.push(`• ${nm(p.a)}: currently ${Math.round(p.p)}%`)); }
-  if (s.cs.some(c=>c.avg!=null && c.avg<cut)) lines.push(``, `I'd love to see ${first} at Power Hour this week for extra support.`);
+  if (s.cs.some(c=>below(c.avg, cut))) lines.push(``, `I'd love to see ${first} at Power Hour this week for extra support.`);
   lines.push(``, `Please reach out with any questions. Thank you for your support!`, ``, S().teacherName || '[Your name]', S().school);
   return lines.join('\n');
 }
@@ -1145,12 +1179,14 @@ async function sheetSet(range, value){ return MCP.callTool('Google Sheets', 'upd
 const colL = i => { let s = ''; i++; while (i) { const m = (i-1) % 26; s = String.fromCharCode(65+m) + s; i = Math.floor((i-1)/26); } return s; };
 const dayLabel = d => d.toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'});
 function draftDays(){ const out = [], d = new Date(); d.setHours(12,0,0,0); while (out.length < 10){ d.setDate(d.getDate()+1); if (d.getDay()>0 && d.getDay()<6) out.push(new Date(d)); } return out; }
-function defaultDraftDay(){ const days = draftDays(), ok = S().draftDaysOk || [2,3], pick = days.find(d => ok.includes(d.getDay())) || days.find(d => d.getDay() !== S().dutyDay) || days[0]; return dayLabel(pick); }
+function defaultDraftDay(){ const all = draftDays(), days = all.filter(d => { const dl = new Date(d); dl.setDate(dl.getDate()-1); dl.setHours(18,0,0,0); return dl.getTime() > Date.now(); }), ok = S().draftDaysOk || [2,3];
+  const pick = days.find(d => ok.includes(d.getDay())) || days.find(d => d.getDay() !== S().dutyDay) || days[0] || all[0]; return dayLabel(pick); }   // drafts are due 6 pm the day before
+const curDraftDay = () => (UI.draftDay && draftDays().map(dayLabel).includes(UI.draftDay)) ? UI.draftDay : defaultDraftDay();
 function draftDeadline(label){ const d = draftDays().find(x => dayLabel(x)===label); if (!d) return null; const dl = new Date(d); dl.setDate(dl.getDate()-1); dl.setHours(18,0,0,0); return dl; }
 const draftValue = () => `${S().draftName.trim()} ${UI.draftBlock}`;
 function draftCandidates(m){ return powerHour(m).flatMap(g => g.rows.filter(r=>!UI.phOut.has(r.s.key+'|'+g.cls)).map(r=>({s:r.s, cls:g.cls, avg:r.c.avg}))).filter((x,i,a)=>a.findIndex(y=>y.s.key===x.s.key)===i); }
 async function draftCheck(){
-  const day = UI.draftDay || defaultDraftDay(), rows = draftCandidates(buildModel()).map(x => ({...x, id: x.s.ids.find(i=>/^\d{5,7}$/.test(i)) || x.s.ids[0] || ''}));
+  const day = curDraftDay(), rows = draftCandidates(buildModel()).map(x => ({...x, id: x.s.ids.find(i=>/^\d{5,7}$/.test(i)) || x.s.ids[0] || ''}));
   UI.draft = {day, block:UI.draftBlock, value:draftValue(), busy:'Checking the Tutorials sheet…', rows: rows.map(r=>({...r, status: r.id ? 'pending' : 'noid'}))}; render();
   try {
     const want = rows.filter(r=>r.id); let seen = 0;
@@ -1182,7 +1218,7 @@ async function draftWrite(){
 function draftError(e){ const c = e && (e.code || e.name) || ''; return /authz|denied|permission|consent/i.test(c+String(e && e.message)) ? 'Google Sheets access was declined or isn’t connected' : (e && e.message) || 'Something went wrong talking to Google Sheets'; }
 const draftedTag = key => { const d = (DB.drafts[key]||[]).slice(-1)[0]; return d ? `<span class="drafted" data-tip="Drafted for Power Hour: ${esc(d.value)}">PH ${esc(d.day.replace(/^\w+, /,''))}</span>` : ''; };
 function draftPanel(m){
-  const days = draftDays(), day = UI.draftDay || defaultDraftDay(), dl = draftDeadline(day), late = dl && Date.now() > dl, d = UI.draft, cand = draftCandidates(m);
+  const days = draftDays(), day = curDraftDay(), dl = draftDeadline(day), late = dl && Date.now() > dl, d = UI.draft, cand = draftCandidates(m);
   const ok = !!MCP, named = !!S().draftName.trim();
   const counts = d ? d.rows.reduce((o,r)=>(o[r.status]=(o[r.status]||0)+1,o),{}) : {};
   const label = {ready:'Ready', done:'Drafted ✓', mine:'Already yours', taken:'Drafted by someone else', notfound:'Not in sheet', noid:'No student ID', err:'Problem', pending:'Checking…'};
@@ -1192,7 +1228,7 @@ function draftPanel(m){
       <label class="field">Block<select id="draftBlock">${['A Block','B Block','Advisory'].map(b=>`<option ${b===UI.draftBlock?'selected':''}>${b}</option>`).join('')}</select></label>
       <label class="field">Your dropdown name<input id="draftName" value="${esc(S().draftName)}" placeholder="Last, First Room"></label>
     </div>
-    <p class="minor" style="margin:0">Writes <b style="color:#fff">${esc(draftValue())}</b> on ${esc(day)}. ${dl?`Deadline: ${dl.toLocaleString(undefined,{weekday:'short',hour:'numeric',minute:'2-digit'})}${late?' — <b style="color:#ffc15c">past the 6 pm deadline, students may not be notified</b>':''}.`:''} A Block 12:20–12:50 · B Block 12:50–1:20 · Advisory 12:20–12:50.</p>
+    <p class="minor" style="margin:0">Writes <b class="draftwrites" style="color:#fff">${esc(draftValue())}</b> on ${esc(day)}. ${dl?`Deadline: ${dl.toLocaleString(undefined,{weekday:'short',hour:'numeric',minute:'2-digit'})}${late?' — <b style="color:#ffc15c">past the 6 pm deadline, students may not be notified</b>':''}.`:''} A Block 12:20–12:50 · B Block 12:50–1:20 · Advisory 12:20–12:50.</p>
     <div class="actions" style="margin-top:12px">
       ${ok ? `<button class="btn" data-act="draft-check" ${!named||!cand.length||(d&&d.busy)?'disabled':''}>Check sheet</button>
         <button class="btn pri" data-act="draft-write" ${!d||d.busy||!counts.ready||d.day!==day||d.value!==draftValue()?'disabled':''}>Draft ${counts.ready||0} student${counts.ready===1?'':'s'}</button>`
@@ -1209,13 +1245,13 @@ function retestRows(m){
   const cap = S().retestCap, out = [], seen = new Set();
   m.studs.forEach(s => s.cs.forEach(c => c.pts.forEach(p => {
     const k = s.key + '|' + p.a.id;
-    if (!p.m && p.p < cap && isUnitMC(p.a) && !isRetest(p.a) && !seen.has(k)){ const retaken = c.pts.some(x => isRetest(x.a) && isUnitMC(x.a) && unitOf(x.a.name)===unitOf(p.a.name)); seen.add(k); out.push({s, cls:c.cls, a:p.a, p:p.p, k, done:!!DB.retestDone[k] || retaken}); }
+    if (!p.m && below(p.p, cap) && isUnitMC(p.a) && !isRetest(p.a) && !seen.has(k)){ const retaken = c.pts.some(x => isRetest(x.a) && isUnitMC(x.a) && !x.m && unitOf(x.a.name)===unitOf(p.a.name)); seen.add(k); out.push({s, cls:c.cls, a:p.a, p:p.p, k, done:!!DB.retestDone[k] || retaken}); }
   })));
   return out;
 }
 function powerHour(m){
   const cut = S().atRisk, groups = {};
-  m.studs.forEach(s => s.cs.forEach(c => { if (c.avg!=null && c.avg < cut) (groups[c.cls||'No class'] ||= []).push({s, c}); }));
+  m.studs.forEach(s => s.cs.forEach(c => { if (below(c.avg, cut)) (groups[c.cls||'No class'] ||= []).push({s, c}); }));
   return Object.entries(groups).sort((a,b)=>classSort(a[0],b[0])).map(([cls, rows]) => ({cls, rows: rows.sort((a,b)=>a.c.avg-b.c.avg)}));
 }
 function missingBoard(m){
@@ -1389,7 +1425,7 @@ function rosterRow(s){
   return `<button class="rrow" data-student="${esc(s.key)}">
     <span class="who">${avatar(s.key,s.name)}<span style="min-width:0">${nameLine(s)}<small>${esc(s.classes.join(' · ')||'No class')}${apBadge(s.key)}${draftedTag(s.key)}</small></span></span>
     <span>${s.cs.map(c=>apLine(c, multi)).join('')}</span>
-    <span><span class="big ${s.worst&&s.worst.avg<S().atRisk?'help':''}" style="font-size:17px">${p0(gmulti ? s.worst?.avg : s.avg)}</span>${gmulti?`<span class="minor" style="display:block">${s.cs.filter(c=>c.avg!=null).map(c=>`${esc(c.course)} ${p0(c.avg)}`).join(' · ')}</span>`:`<span class="minor" style="display:block">${letter(s.avg)}</span>`}</span>
+    <span><span class="big ${s.worst&&s.worst.avg<S().atRisk?'help':''}" style="font-size:17px">${p0(gmulti ? s.worst?.avg : s.avg)}</span>${gmulti?`<span class="minor" style="display:block">${s.cs.filter(c=>c.avg!=null).map(c=>`${esc(c.course)} ${p0(c.avg)}`).join(' · ')}</span>`:`<span class="minor" style="display:block">${esc(letter(s.avg))}</span>`}</span>
     <span class="num" style="font-weight:800;${s.missing.length?'color:var(--help-ink)':''}">${s.missing.length||'—'}</span>
     <span>${ctx?`<div class="tags">${ctx}</div>`:'<span class="minor">—</span>'}</span></button>`;
 }
@@ -1687,7 +1723,7 @@ function dataCheckCard(){
 
 /* ---------- unit MC helpers: reteach radar, retest priority, groups, outcomes ---------- */
 const unitMCpts = c => c.pts.filter(x => isUnitMC(x.a));
-function latestByUnit(c){ const u = {}; unitMCpts(c).forEach(x => { const n = unitOf(x.a.name); if (n) u[n] = x; }); return u; }   // a later retest replaces the test
+function latestByUnit(c){ const u = {}; unitMCpts(c).forEach(x => { const n = unitOf(x.a.name); if (n && (!x.m || !u[n] || u[n].m)) u[n] = x; }); return u; }   // latest scored attempt; a missing retest doesn't replace the test   // a later retest replaces the test
 const dateS = t => new Date(t).toLocaleDateString(undefined, {month:'short', day:'numeric'});
 function reteachRadar(m){
   const cut = +S().apOnTrack, out = {};
@@ -1699,7 +1735,7 @@ function simRetest(c, u, p){ return apStatus([...c.pts, {a:{id:'_sim', name:`Uni
 function retestPriority(m){
   const cut = +S().apOnTrack, cap = +S().retestCap, out = [];
   m.studs.forEach(s => s.cs.forEach(c => { if (!['watch','help'].includes(c.ap.status)) return;
-    const mc = unitMCpts(c), open = mc.filter(x => !isRetest(x.a) && !x.m && x.p < cap && !DB.retestDone[s.key+'|'+x.a.id] && !mc.some(y => isRetest(y.a) && unitOf(y.a.name)===unitOf(x.a.name)));
+    const mc = unitMCpts(c), open = mc.filter(x => !isRetest(x.a) && !x.m && below(x.p, cap) && !DB.retestDone[s.key+'|'+x.a.id] && !mc.some(y => isRetest(y.a) && !y.m && unitOf(y.a.name)===unitOf(x.a.name)));
     if (!open.length) return;
     const t = open.slice().sort((a,b)=>a.p-b.p)[0], u = unitOf(t.a.name);
     if (simRetest(c, u, cut).status !== 'ok') return;
@@ -1724,7 +1760,7 @@ function makeGroups(m){
   });
 }
 function groupsText(sets){ return sets.map(set => `${set.course} reteach groups — ${today()}\n` + set.groups.map((g,i) => `\nGroup ${i+1} · Unit ${g.u} reteach · avg MC ${p0(g.avg)}\n` + g.mem.map(x => `  ${x.s.name} (${x.cls}) · U${g.u} ${p0(x.p)} · MC avg ${p0(x.avg)}`).join('\n')).join('\n')).join('\n\n'); }
-function logGroups(sets){ const day = new Date().toDateString(); sets.forEach(set => { DB.groups = (DB.groups||[]).filter(g => !(g.course===set.course && new Date(g.at).toDateString()===day));
+function logGroups(sets){ const day = new Date().toDateString(); sets.forEach(set => { const cl = new Set(set.groups.flatMap(g => g.mem.map(x => x.cls))); DB.groups = (DB.groups||[]).filter(g => !(g.course===set.course && new Date(g.at).toDateString()===day && (g.classes||[]).some(c => cl.has(c))));
   set.groups.forEach(g => DB.groups.push({at:Date.now(), course:set.course, u:g.u, n:g.mem.length, classes:[...new Set(g.mem.map(x=>x.cls))]})); }); save(); }
 function openGroups(){
   const sets = makeGroups(buildModel()); UI.groupSets = sets;
@@ -1739,7 +1775,7 @@ function outcomes(m){
     const mc = unitMCpts(c).filter(x => !x.m);
     const around = at => { const b = mc.filter(x => x.a.at && x.a.at < at).slice(-1)[0], a = mc.find(x => x.a.at && x.a.at > at); return b && a ? {before:b, after:a} : null; };
     (DB.drafts[s.key]||[]).forEach(d => { const r = around(d.at); if (r) ev.push({type:'Power Hour', s, c, at:d.at, label:`Power Hour draft · ${d.day}`, ...r}); });
-    (DB.contacts[s.key]||[]).forEach(k => { const r = around(k.at); if (r) ev.push({type:'Contact', s, c, at:k.at, label:k.type, ...r}); });
+    (DB.contacts[s.key]||[]).forEach(k => { const type = /^PH draft/.test(k.type) ? 'Power Hour' : CONTACT_TYPES.includes(k.type) ? 'Contact' : null; if (!type) return; const r = around(k.at); if (r && type === 'Power Hour'){ ev.push({type, s, c, at:k.at, label:k.type, ...r}); return; } if (r) ev.push({type:'Contact', s, c, at:k.at, label:k.type, ...r}); });
     mc.filter(x => isRetest(x.a)).forEach(rt => { const u = unitOf(rt.a.name), o = mc.filter(x => !isRetest(x.a) && unitOf(x.a.name)===u && x.a.order < rt.a.order).slice(-1)[0]; if (o) ev.push({type:'Retest', s, c, at:rt.a.at||0, label:`Unit ${u} retest`, before:o, after:rt}); });
   }));
   ev.forEach(e => e.d = e.after.p - e.before.p);
@@ -1772,7 +1808,7 @@ function viewRetestMsgs(m){
   rows.forEach(r => (groups[r.c.cls+'|'+r.u] ||= {cls:r.c.cls, u:r.u, rows:[]}).rows.push(r));
   const gs = Object.values(groups).sort((a,b)=>classSort(a.cls||'',b.cls||'') || a.u-b.u); UI.rmGroups = gs;
   const must = rows.filter(r=>r.tier==='must' && !r.hidden), opt = rows.filter(r=>r.tier==='opt' && !r.hidden), hid = rows.filter(r=>r.hidden);
-  const row = (r, on) => `<div class="rmrow${on?'':' opt'}"><label><input type="checkbox" data-rm="${esc(r.id)}" ${on?'checked':''} aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">TAC ${p0(r.p)}${r.s.ids[0]?` · ID ${esc(r.s.ids[0])}`:''}</span>${r.sent?`<span class="tag sent">sent ${dateS(r.sent)}</span>`:''}<button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
+  const row = (r, on) => `<div class="rmrow${on?'':' opt'}"><label><input type="checkbox" data-rm="${esc(r.id)}" ${on?'checked':''} aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">TAC ${p0(r.p)}${schoolId(r.s)?` · ID ${esc(schoolId(r.s))}`:''}</span>${r.sent?`<span class="tag sent">sent ${dateS(r.sent)}</span>`:''}<button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
   const body = gs.map((g,i) => { const a = g.rows.filter(r=>r.tier==='must'&&!r.hidden), o = g.rows.filter(r=>r.tier==='opt'&&!r.hidden), h = g.rows.filter(r=>r.hidden); if (!a.length && !o.length) return h.length ? `<p class="fine w12" style="margin:0">${esc(g.cls)} · Unit ${g.u}: sent since the last data refresh (hidden): ${h.map(r=>esc(r.s.name)).join(', ')}</p>` : '';
     return `<section class="card w6 rmg"><div class="ch"><h2>${esc(g.cls||'No class')} · Unit ${g.u}</h2><span class="count help">${a.length}</span>${o.length?`<span class="sub">+${o.length} optional</span>`:''}</div><div class="cb">
       ${a.length ? a.map(r=>row(r,true)).join('') : `<div class="minor">No one below ${cut}.</div>`}
@@ -1789,14 +1825,20 @@ function viewRetestMsgs(m){
 function rmSelected(t){ const g = UI.rmGroups[+t.dataset.g], box = t.closest('.rmg'), ids = new Set([...box.querySelectorAll('[data-rm]:checked')].map(x=>x.dataset.rm)); return g.rows.filter(r => ids.has(r.id)); }
 
 /* ---------- Power Hour drafts: lists Claude can enter in the Tutorials sheet ---------- */
-const PD_LISTS = [{id:'test', label:'Below 80 on latest test', sub:'latest TAC unit test or retest'}, {id:'c70', label:'Below 70 in class', sub:'current class grade'}, {id:'c80', label:'Below 80 in class', sub:'current class grade'}];
+const PD_LISTS_FN = () => [{id:'test', label:`Below ${S().retestCap} on latest test`, sub:'latest TAC unit test or retest (a missing latest test counts)'}, {id:'c70', label:`Below ${S().atRisk} in class`, sub:'current class grade'}, {id:'c80', label:`Below ${S().retestCap} in class`, sub:'current class grade'}];
+/* "Power Hour assigned now" from the profile, ignored once its date has passed (e.g. "Tue, Nov 3 · A Block"). */
+function phNowActive(v){ v = String(v||'').trim(); if (!v) return false;
+  const m = v.match(/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+(\d{1,2})\b/i); if (!m) return true;
+  const mo = 'janfebmaraprmayjunjulaugsepoctnovdec'.indexOf(m[1].toLowerCase().slice(0,3)) / 3, y0 = +curYear().slice(0,4), d = new Date(mo >= 7 ? y0 : y0 + 1, mo, +m[2], 23, 59);
+  return d.getTime() >= Date.now(); }
 function phDraftRows(m, kind){
   const cap = +S().retestCap, cut = +S().atRisk, lastImp = DB.imports.length ? Math.max(...DB.imports.map(i=>i.at||0)) : 0, out = [];
   m.studs.forEach(s => s.cs.forEach(c => { if (!c.cls) return;
     let p = null, why = '', score = null;
-    if (kind==='test'){ const gb = c.pts.filter(x => x.a.source==='Gradebook' && unitOf(x.a.name) && typeOf(x.a.name)==='test' && !isMock(x.a.name) && !x.m); const last = gb[gb.length-1]; if (!last || Math.round(last.p) >= cap) return; score = last.p; why = `Unit ${unitOf(last.a.name)} ${isRetest(last.a)?'retest':'test'} ${Math.round(last.p)}`; }
-    else { const lim = kind==='c70' ? cut : cap; if (c.avg==null || Math.round(c.avg) >= lim) return; score = c.avg; why = `class grade ${Math.round(c.avg)}`; }
-    const pr = s.profile || {}, drafted = !!String(pr.phNow||'').trim(), stamp = (DB.phDrafted||{})[s.key], hidden = !!stamp && stamp > lastImp;
+    if (kind==='test'){ const gb = c.pts.filter(x => x.a.source==='Gradebook' && unitOf(x.a.name) && typeOf(x.a.name)==='test' && !isMock(x.a.name)); const last = gb[gb.length-1]; if (!last || !(last.m || below(last.p, cap))) return;
+      score = last.m ? 0 : last.p; why = `Unit ${unitOf(last.a.name)} ${isRetest(last.a)?'retest':'test'} ${last.m ? 'missing' : Math.round(last.p)}`; }
+    else { const lim = kind==='c70' ? cut : cap; if (!below(c.avg, lim)) return; score = c.avg; why = `class grade ${Math.round(c.avg)}`; }
+    const pr = s.profile || {}, drafted = phNowActive(pr.phNow), stamp = (DB.phDrafted||{})[s.key], hidden = !!stamp && stamp > lastImp;
     const lastDash = (DB.drafts[s.key]||[]).slice(-1)[0], lastLog = (DB.contacts[s.key]||[]).filter(x => /^PH draft/.test(x.type)).slice(-1)[0];
     const lastDraft = pr.phLast || (lastDash ? lastDash.day : lastLog ? dateS(lastLog.at) : '');
     out.push({s, c, cls:c.cls, score, why, drafted, now: pr.phNow || '', hidden, lastDraft, noShows: pr.phNoShows ?? '', id: s.key+'|'+c.cls});
@@ -1804,12 +1846,12 @@ function phDraftRows(m, kind){
   return out.sort((a,b) => classSort(a.cls,b.cls) || a.score - b.score);
 }
 function viewPhDrafts(m){
-  const kind = PD_LISTS.some(l=>l.id===UI.phList) ? UI.phList : 'test', L = PD_LISTS.find(l=>l.id===kind);
+  const PD_LISTS = PD_LISTS_FN(), kind = PD_LISTS.some(l=>l.id===UI.phList) ? UI.phList : 'test', L = PD_LISTS.find(l=>l.id===kind);
   const all = phDraftRows(m, kind).filter(r => matchQ(r.s)), rows = all.filter(r => !r.drafted && !r.hidden), excl = all.filter(r => r.drafted), hid = all.filter(r => !r.drafted && r.hidden);
   UI.pdRows = rows;
   const groups = {}; rows.forEach(r => (groups[r.cls] ||= []).push(r));
   const nStud = new Set(rows.map(r=>r.s.key)).size;
-  const row = r => `<div class="rmrow"><label><input type="checkbox" data-pd="${esc(r.id)}" checked aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">${esc(r.cls)}${r.s.ids[0]?` · ID ${esc(r.s.ids[0])}`:''}</span><span class="tag ${r.score < S().atRisk ? 'below' : 'missing'}">${esc(r.why)}</span><span class="minor pdmeta">last draft ${esc(r.lastDraft || '—')} · no-shows ${esc(String(r.noShows===''?'—':r.noShows))}</span><button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
+  const row = r => `<div class="rmrow"><label><input type="checkbox" data-pd="${esc(r.id)}" checked aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">${esc(r.cls)}${schoolId(r.s)?` · ID ${esc(schoolId(r.s))}`:''}</span><span class="tag ${r.score < S().atRisk ? 'below' : 'missing'}">${esc(r.why)}</span><span class="minor pdmeta">last draft ${esc(r.lastDraft || '—')} · no-shows ${esc(String(r.noShows===''?'—':r.noShows))}</span><button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
   return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())} · next: ${esc(pdDay())} · A Block</div><h1>Power Hour drafts</h1>
       <p>Build a draft list, then copy it for Claude to enter in the Tutorials sheet (or draft it yourself on the Power Hour page). Students already assigned for the upcoming Power Hour (profile "Power Hour assigned now") are left out. One line per student per class.</p></div>
     <div class="actions"><div class="tabs" role="group" aria-label="List">${PD_LISTS.map(l=>`<button aria-pressed="${l.id===kind}" data-pdlist="${l.id}">${l.label}</button>`).join('')}</div><button class="btn" data-go="power">Power Hour page →</button></div></div>
@@ -1821,17 +1863,19 @@ function viewPhDrafts(m){
       ${hid.length ? `<p class="fine">Marked drafted since the last data refresh (hidden): ${[...new Set(hid.map(r=>r.s.name))].map(esc).join(', ')}</p>` : ''}</div></div>
     <p class="fine">"Mark drafted" logs "PH draft — reason" once per student in the contact log (a student on several lines is logged once) and hides them until the next data import.</p>`;
 }
-const pdDay = () => (UI.draftDay && !/^Thu/.test(UI.draftDay)) ? UI.draftDay : defaultDraftDay();   // default = next Tuesday or Wednesday, never Thursday (A Block duty)
+const pdDay = () => { const d = curDraftDay(); return /^Thu/.test(d) ? defaultDraftDay() : d; };   // default = next Tuesday or Wednesday, never Thursday (A Block duty)
 const pdSelected = () => { const ids = new Set([...document.querySelectorAll('[data-pd]:checked')].map(x=>x.dataset.pd)); return (UI.pdRows||[]).filter(r => ids.has(r.id)); };
 
 /* ---------- Admin snapshot: one page, no names ---------- */
-function parsePartLines(txt){ return String(txt||'').split('\n').map(l => l.trim()).filter(Boolean).map(l => { const m = l.match(/^(.*?)[:\-–]\s*(.+)$/); if (!m) return null; const label = m[1].trim(), v = m[2];
-  const of = v.match(/([\d.]+)\s*(?:of|\/)\s*([\d.]+)/i); if (of) return {label, paid:+of[1], total:+of[2], pct: +of[2] ? +of[1]/+of[2]*100 : null};
-  const pc = v.match(/([\d.]+)\s*%?/); return pc ? {label, pct:+pc[1]} : null; }).filter(Boolean); }
+function parsePartLines(txt){ return String(txt||'').split('\n').map(l => l.trim()).filter(Boolean).map(l => {
+  const i = l.lastIndexOf(':'), j = Math.max(l.lastIndexOf(' - '), l.lastIndexOf(' – ')), at = i >= 0 ? i : j; if (at < 0) return null;
+  const label = l.slice(0, at).trim(), v = l.slice(at + (i >= 0 ? 1 : 3)).replace(/(\d),(?=\d{3}\b)/g, '$1'); if (!label) return null;
+  const of = v.match(/(\d+(?:\.\d+)?)\s*(?:of|\/)\s*(\d+(?:\.\d+)?)/i); if (of) return {label, paid:+of[1], total:+of[2], pct: +of[2] ? +of[1]/+of[2]*100 : null};
+  const pc = v.match(/(\d+(?:\.\d+)?)/); return pc ? {label, pct:+pc[1]} : null; }).filter(Boolean); }
 function adminData(){
-  const m0 = buildModel();   // full roster regardless of the course chips: an admin page shows everything
+  // full roster regardless of the course chips: an admin page shows everything
   const saved = {course:UI.course, period:UI.period, staar:UI.staar, apf:UI.apf, quart:UI.quart, flagsOnly:UI.flagsOnly, status:UI.status, q:UI.q};
-  Object.assign(UI, {course:'all', period:'all', staar:'all', apf:'all', quart:'all', flagsOnly:false, status:null, q:''}); const m = buildModel(); Object.assign(UI, saved);
+  let m; try { Object.assign(UI, {course:'all', period:'all', staar:'all', apf:'all', quart:'all', flagsOnly:false, status:null, q:''}); m = buildModel(); } finally { Object.assign(UI, saved); }
   const byCls = {}; m.studs.forEach(s => s.cs.forEach(c => { if (!c.cls) return; const r = (byCls[c.cls] ||= {cls:c.cls, course:c.course, n:0, proj:0, proj3:0, ok:0, withMc:0, paid:0, unpaid:0, opted:0, unknown:0});
     r.n++; if (c.proj){ r.proj++; if (c.proj.score >= 3) r.proj3++; } if (c.ap.status!=='none'){ r.withMc++; if (c.ap.status==='ok') r.ok++; }
     const ex = s.profile?.apExam; if (ex==='paid') r.paid++; else if (ex==='unpaid') r.unpaid++; else if (ex==='opted') r.opted++; else r.unknown++; }));
@@ -1852,7 +1896,7 @@ function adminHtml(d, forPrint){
   const st = S(), bar = (pct, cls='') => `<span class="bbar ${cls}"><i style="width:${Math.max(0, Math.min(100, pct||0))}%"></i></span>`;
   const school = st.school.toLowerCase();
   const row = (label, a, b, extra='') => `<tr><td><b>${esc(label)}</b>${extra}</td><td class="r num">${a}</td><td class="r num">${b}</td><td class="r num"><b>${pctOrDash(a,b)}</b></td><td style="width:30%">${bar(b ? a/b*100 : 0)}</td></tr>`;
-  const bench = c => { const b = parseBench((st.benchmarks||{})[c]), sr = latestScore(c, curYear()); return sr ? `${p0(sr.pass)} 3+ (${examLabel(sr.year)})` : b && b.pass != null ? `${b.pass}% 3+ (${esc(b.label)})` : ''; };
+  const bench = c => { const b = parseBench((st.benchmarks||{})[c]), sr = latestScore(c, curYear()); return sr ? `${p0(sr.pass)} 3+ (${esc(examLabel(sr.year))})` : b && b.pass != null ? `${b.pass}% 3+ (${esc(b.label)})` : ''; };
   return `<div class="adm">
     <div class="tthead"><div><small>${esc(st.school)} · ${esc(st.title)}${st.teacherName?' · '+esc(st.teacherName):''}</small><h2>At a glance</h2></div><div class="ttdate">${new Date().toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'})}<br><small>${d.students} students · ${d.classes.length} classes · ${curYear()}</small></div></div>
     <div class="strip" style="margin:10px 0"><div class="stat accent"><b>${pctOrDash(d.tot.proj3, d.tot.proj)}</b><span>On pace for a 3+ (all my AP classes)</span></div><div class="stat"><b>${pctOrDash(d.stuTot.paid, d.stuTot.n)}</b><span>AP exam paid (my students)</span></div><div class="stat"><b>${d.drafted}</b><span>Students drafted to Power Hour</span></div><div class="stat"><b>${d.draftsN.total || d.dash}</b><span>Power Hour drafts${d.draftsN.attended?` · ${d.draftsN.attended} attended`:''}</span></div></div>
@@ -1875,7 +1919,7 @@ function adminHtml(d, forPrint){
     <p class="ttfoot">Projection: raw AP Classroom multiple-choice average mapped to the College Board score scale (85+ → 5, 70+ → 4, 55+ → 3). Participation: students marked Paid in the profile import. Student-level data available on request.</p></div>`;
 }
 function adminText(d){ const st = S(); return [`At a glance — ${st.school} · ${st.teacherName||st.title} — ${new Date().toLocaleDateString()}`, '',
-  `On pace for a 3+: ${pctOrDash(d.tot.proj3, d.tot.proj)} of ${d.tot.proj} students with a projection`, ...d.courses.map(c => `  ${c.course}: ${pctOrDash(c.proj3,c.proj)} (${c.proj3} of ${c.proj})` + d.classes.filter(r=>r.course===c.course).map(r => `\n    ${r.cls}: ${pctOrDash(r.proj3,r.proj)} · AP on track now ${pctOrDash(r.ok,r.withMc)}`).join('')), '',
+  `On pace for a 3+: ${pctOrDash(d.tot.proj3, d.tot.proj)} (${d.tot.proj3} of ${d.tot.proj} AP exam enrollments with a projection; ${d.students} students)`, ...d.courses.map(c => `  ${c.course}: ${pctOrDash(c.proj3,c.proj)} (${c.proj3} of ${c.proj})` + d.classes.filter(r=>r.course===c.course).map(r => `\n    ${r.cls}: ${pctOrDash(r.proj3,r.proj)} · AP on track now ${pctOrDash(r.ok,r.withMc)}`).join('')), '',
   `AP exam paid: ${pctOrDash(d.stuTot.paid, d.stuTot.n)} (${d.stuTot.paid} of ${d.stuTot.n}; ${d.stuTot.unpaid} unpaid, ${d.stuTot.opted} opted out)`, ...d.courses.map(c => `  ${c.course}: ${pctOrDash(c.paid,c.n)} (${c.paid} of ${c.n})` + d.classes.filter(r=>r.course===c.course).map(r => `\n    ${r.cls}: ${pctOrDash(r.paid,r.n)} (${r.paid} of ${r.n})`).join('')), '',
   `Power Hour: ${d.drafted} students drafted · ${d.draftsN.total || d.dash} drafts · ${d.draftsN.attended} attended · ${d.draftsN.noShows} no-shows`, '',
   `${st.adminDeptLabel}:`, ...(d.dept.length ? d.dept.map(x => `  ${x.label}: ${x.pct==null?'—':Math.round(x.pct)+'%'}${x.paid!=null?` (${x.paid} of ${x.total})`:''}`) : ['  not entered']), '',
@@ -1943,10 +1987,10 @@ function talkingPoints(s, p){
   else if (tr.length) { const t = tr[0], l = t.mc[t.mc.length-1]; out.push({tone: l.p >= cut ? 'ok' : 'warn', text:`Latest raw MC ${p0(l.p)} (Unit ${unitOf(l.a.name)}) · avg ${p0(t.c.ap.avg)}${tag(t.c)}`}); }
   else out.push({tone:'gray', text:'No AP Classroom unit MC test yet'});
   const b70 = pnum(p.below70), lc = p.lowestClass ? String(p.lowestClass).replace(/\s*\d+(\.\d+)?%?\s*$/,'') : '';
-  const dLow = s.cs.filter(c => c.avg!=null && c.avg < S().atRisk);
+  const dLow = s.cs.filter(c => below(c.avg, S().atRisk));
   if (b70 != null && dLow.length > b70) out.push({tone:'bad', text:`${dLow.length} of my classes under ${S().atRisk} now (${dLow.map(c=>`${c.course} ${p0(c.avg)}`).join(', ')})`});
   else if (b70 != null) out.push(b70 ? {tone:'bad', text:`${b70} class${b70>1?'es':''} under 70${lc?`, ${lc} lowest`:''}`} : {tone:'ok', text:`No classes under 70${p.lowestClass?` · lowest: ${p.lowestClass}`:''}`});
-  else { const lo = s.cs.filter(c => c.avg!=null && c.avg < S().atRisk); out.push(lo.length ? {tone:'bad', text:`${lo.length} of my classes under ${S().atRisk} (${lo.map(c=>`${c.course} ${p0(c.avg)}`).join(', ')})`} : {tone:'ok', text:`My class${s.cs.length>1?'es':''}: ${s.cs.map(c=>`${c.course||'class'} ${p0(c.avg)}`).join(', ')}`}); }
+  else { const lo = s.cs.filter(c => below(c.avg, S().atRisk)); out.push(lo.length ? {tone:'bad', text:`${lo.length} of my classes under ${S().atRisk} (${lo.map(c=>`${c.course} ${p0(c.avg)}`).join(', ')})`} : {tone:'ok', text:`My class${s.cs.length>1?'es':''}: ${s.cs.map(c=>`${c.course||'class'} ${p0(c.avg)}`).join(', ')}`}); }
   const dr = pnum(p.phDrafts), ns = pnum(p.phNoShows) || 0;
   if (dr != null) out.push({tone: ns >= 2 ? 'bad' : ns ? 'warn' : 'ok', text:`${ns} Power Hour no-show${ns===1?'':'s'}${dr?` (${dr} drafted, ${pnum(p.phAttended) ?? dr-ns} attended)`:' · not drafted yet'}`});
   else out.push({tone: s.missing.length >= S().missingForHelp ? 'bad' : s.missing.length ? 'warn' : 'ok', text: s.missing.length ? `${plural(s.missing.length,'missing assignment')}` : 'Nothing missing'});
@@ -1999,7 +2043,7 @@ function ttessFor(cls){
   const unitScores = {}; rows.forEach(r => r.c.ap.mc.forEach(x => { const u = unitOf(x.a.name); if (u) (unitScores[u] ||= []).push({k:r.k, p:x.p}); }));
   const reteach = Object.entries(unitScores).map(([u, arr]) => ({u:+u, avg: mean(arr.map(a=>a.p))})).filter(t => t.avg < cut).sort((a,b)=>a.u-b.u);
   const groups = Object.entries(unitScores).map(([u, arr]) => new Set(arr.filter(a=>a.p<cut).map(a=>a.k)).size).filter(x => x >= 2);
-  const retest = rows.reduce((t, r) => t + r.c.pts.filter(x => !x.m && x.p < st.retestCap && isUnitMC(x.a) && !isRetest(x.a) && !DB.retestDone[r.k+'|'+x.a.id] && !r.c.pts.some(y => isRetest(y.a) && isUnitMC(y.a) && unitOf(y.a.name)===unitOf(x.a.name))).length, 0);
+  const retest = rows.reduce((t, r) => t + r.c.pts.filter(x => !x.m && below(x.p, st.retestCap) && isUnitMC(x.a) && !isRetest(x.a) && !DB.retestDone[r.k+'|'+x.a.id] && !r.c.pts.some(y => isRetest(y.a) && isUnitMC(y.a) && !y.m && unitOf(y.a.name)===unitOf(x.a.name))).length, 0);
   const full = rows.filter(r => r.p.staarPct!=null && r.p.tiaBoy && (r.p.w1 || r.p.uw1)).length, priorAp = rows.filter(r => r.p.priorAp).length;
   const phDrafts = rows.reduce((t,r) => t + (pnum(r.p.phDrafts) || 0), 0), phAtt = rows.reduce((t,r) => t + (pnum(r.p.phAttended) || 0), 0), dashDrafts = rows.reduce((t,r) => t + (DB.drafts[r.k]||[]).length, 0);
   const goalSet = rows.filter(r => (DB.agency[r.k]?.form?.goal || '').trim()).length;
@@ -2010,7 +2054,8 @@ function ttessFor(cls){
   const retestGains = []; rows.forEach(r => r.c.ap.mc.filter(x => /retest/i.test(bare(x.a.name))).forEach(rt => { const u = unitOf(rt.a.name), orig = r.c.ap.mc.filter(x => !/retest/i.test(bare(x.a.name)) && unitOf(x.a.name)===u && typeOf(x.a.name)===typeOf(rt.a.name) && x.a.order < rt.a.order).slice(-1)[0]; if (orig) retestGains.push(rt.p - orig.p); }));
   const phChanges = []; rows.forEach(r => { const d = (DB.drafts[r.k]||[])[0]; if (!d) return; const before = r.c.ap.mc.filter(x => x.a.at && x.a.at < d.at), after = r.c.ap.mc.filter(x => x.a.at && x.a.at > d.at); if (before.length && after.length) phChanges.push(mean(after.map(x=>x.p)) - mean(before.map(x=>x.p))); });
   const weeks = new Set(DB.imports.map(i => { const d = new Date(i.at); d.setHours(0,0,0,0); d.setDate(d.getDate() - d.getDay()); return d.toISOString().slice(0,10); }));
-  const firstImp = DB.imports.length ? Math.min(...DB.imports.map(i=>i.at)) : null, spanWeeks = firstImp ? Math.max(1, Math.ceil((now - firstImp) / (7*864e5))) : 0;
+  const wkStart = t => { const d = new Date(t); d.setHours(0,0,0,0); d.setDate(d.getDate() - d.getDay()); return d.getTime(); };
+  const firstImp = DB.imports.length ? Math.min(...DB.imports.map(i=>i.at)) : null, spanWeeks = firstImp ? Math.round((wkStart(now) - wkStart(firstImp)) / (7*864e5)) + 1 : 0;   // calendar weeks, same unit as the weeks count
   const confs = {}; rows.forEach(r => (DB.conferences[r.k]||[]).forEach(c => { const g = periodOf(c.at); confs[g] = (confs[g]||0) + 1; }));
   const withMc = rows.filter(r => r.c.ap.mc.length), onNow = withMc.filter(r => r.c.ap.status==='ok').length, onFirst = withMc.filter(r => r.c.ap.mc[0].p >= cut).length;
   const tiaPairs = rows.map(r => [pnum(r.p.tiaBoy), pnum(r.p.tiaEoy)]).filter(([a,b]) => a!=null && b!=null), priorPairs = rows.map(r => [pnum(r.p.priorTiaBoy), pnum(r.p.priorTiaEoy)]).filter(([a,b]) => a!=null && b!=null);
@@ -2022,21 +2067,34 @@ function ttessFor(cls){
   const cbLast = latestScore(course, curYear()), ipr = iprFor(course);
   return {cbLast, ipr, cls, course, n, srcs, reteach, groups, retest, full, priorAp, phDrafts, phAtt, dashDrafts, goalSet, checkins, qGoals, qMet, contacts, emails, retestGains, phChanges, weeks: weeks.size, spanWeeks, confs, withMc: withMc.length, onNow, onFirst, tiaPairs, priorPairs, proj: proj.length, proj3, refs, pctOf, rmSent, rprio, groupsMade};
 }
+/* Student-level evidence (profiles, contacts, goals, conferences…) counted once per student, even for a student in two of the selected classes. */
+function ttessStudents(keys){
+  const P = k => prof(k) || {}, contacts = {}, confs = {};
+  keys.forEach(k => { (DB.contacts[k]||[]).forEach(c => { contacts[c.type] = (contacts[c.type]||0) + 1; }); (DB.conferences[k]||[]).forEach(c => { const g = periodOf(c.at); confs[g] = (confs[g]||0) + 1; }); });
+  return {n: keys.length, contacts, confs,
+    full: keys.filter(k => { const p = P(k); return p.staarPct!=null && p.tiaBoy && (p.w1 || p.uw1); }).length, priorAp: keys.filter(k => P(k).priorAp).length,
+    phDrafts: keys.reduce((t,k) => t + (pnum(P(k).phDrafts) || 0), 0), phAtt: keys.reduce((t,k) => t + (pnum(P(k).phAttended) || 0), 0), dashDrafts: keys.reduce((t,k) => t + (DB.drafts[k]||[]).length, 0),
+    goalSet: keys.filter(k => (DB.agency[k]?.form?.goal || '').trim()).length, checkins: keys.filter(k => { const d = DB.agency[k]?.form?.checkin; return d && new Date(d+'T23:59') <= new Date(); }).length,
+    emails: keys.reduce((t,k) => t + (DB.emailLog[k]||[]).length, 0), rmSent: Object.entries(contacts).filter(([t]) => /^Retest message/.test(t)).reduce((t,[,v]) => t + v, 0),
+    tiaPairs: keys.map(k => [pnum(P(k).tiaBoy), pnum(P(k).tiaEoy)]).filter(([a,b]) => a!=null && b!=null), priorPairs: keys.map(k => [pnum(P(k).priorTiaBoy), pnum(P(k).priorTiaEoy)]).filter(([a,b]) => a!=null && b!=null),
+    refs: REFERRAL_TYPES.map(t => [t, contacts[t] || 0])};
+}
+const ttScope = () => UI.period!=='all' ? UI.period : UI.course!=='all' ? UI.course : 'All courses';   // T-TESS honours only the course / period chips
 function ttessAgg(classes){
   const parts = classes.map(ttessFor), sum = k => parts.reduce((t,p) => t + (p[k]||0), 0), cat = k => parts.flatMap(p => p[k]||[]);
-  const merge = k => { const o = {}; parts.forEach(p => Object.entries(p[k]||{}).forEach(([a,b]) => o[a] = (o[a]||0) + b)); return o; };
-  const n = sum('n'), pctOf = (x, d=n) => d ? Math.round(x/d*100)+'%' : '—';
+  const keys = [...new Set(classes.flatMap(cls => Object.entries(DB.students).filter(([,s]) => s.classes.includes(cls)).map(([k]) => k)))], L = ttessStudents(keys);
+  const n = L.n, pctOf = (x, d=n) => d ? Math.round(x/d*100)+'%' : '—';
   const courses = [...new Set(parts.map(p=>p.course))].sort(courseSort);
   return {parts, n, pctOf, courses, srcs: [...new Set(cat('srcs'))], reteachUnits: parts.reduce((t,p)=>t+p.reteach.length,0), reteachList: parts.flatMap(p => p.reteach.map(r => `${p.cls} U${r.u} ${p0(r.avg)}`)),
-    rprio: sum('rprio'), retest: sum('retest'), full: sum('full'), priorAp: sum('priorAp'), groupsMade: sum('groupsMade'), phDrafts: sum('phDrafts'), phAtt: sum('phAtt'), dashDrafts: sum('dashDrafts'),
-    goalSet: sum('goalSet'), checkins: sum('checkins'), qGoals: sum('qGoals'), qMet: sum('qMet'), contacts: merge('contacts'), emails: sum('emails'), rmSent: sum('rmSent'), retestGains: cat('retestGains'), phChanges: cat('phChanges'),
-    weeks: parts[0]?.weeks || 0, spanWeeks: parts[0]?.spanWeeks || 0, confs: merge('confs'), withMc: sum('withMc'), onNow: sum('onNow'), onFirst: sum('onFirst'), tiaPairs: cat('tiaPairs'), priorPairs: cat('priorPairs'), proj: sum('proj'), proj3: sum('proj3'),
-    refs: REFERRAL_TYPES.map(t => [t, parts.reduce((a,p) => a + (p.contacts[t]||0), 0)])};
+    rprio: sum('rprio'), retest: sum('retest'), full: L.full, priorAp: L.priorAp, groupsMade: (DB.groups||[]).filter(g => (g.classes||[]).some(c => classes.includes(c))).length, phDrafts: L.phDrafts, phAtt: L.phAtt, dashDrafts: L.dashDrafts,
+    goalSet: L.goalSet, checkins: L.checkins, qGoals: sum('qGoals'), qMet: sum('qMet'), contacts: L.contacts, emails: L.emails, rmSent: L.rmSent, retestGains: cat('retestGains'), phChanges: cat('phChanges'),
+    weeks: parts[0]?.weeks || 0, spanWeeks: parts[0]?.spanWeeks || 0, confs: L.confs, withMc: sum('withMc'), onNow: sum('onNow'), onFirst: sum('onFirst'), tiaPairs: L.tiaPairs, priorPairs: L.priorPairs, proj: sum('proj'), proj3: sum('proj3'),
+    refs: L.refs, enroll: sum('n')};
 }
 function ttessRows(t){
   const st = S(), sign = v => v==null ? '—' : (v>=0?'+':'−') + fmt(Math.abs(v),1) + ' pts', B = x => `<b>${x}</b>`;
   const parentTypes = CONTACT_TYPES.map(x => `${x} ${t.contacts[x]||0}`).join(' · ');
-  const lastYear = c => { const sr = latestScore(c, curYear()); if (sr) return `${p0(sr.pass)} scored 3+, mean ${fmt(sr.mean,2)} (${examLabel(sr.year)} score report)`; const b = (S().benchmarks||{})[c] || (DB.ttess.lastYear||{})[c]; return b ? esc(b) : 'not entered'; };
+  const lastYear = c => { const sr = latestScore(c, curYear()); if (sr) return `${p0(sr.pass)} scored 3+, mean ${fmt(sr.mean,2)} (${esc(examLabel(sr.year))} score report)`; const b = (S().benchmarks||{})[c] || (DB.ttess.lastYear||{})[c]; return b ? esc(b) : 'not entered'; };
   const projFor = c => { const ps = t.parts.filter(p=>p.course===c); const n = ps.reduce((a,p)=>a+p.proj,0), k = ps.reduce((a,p)=>a+p.proj3,0); return n ? `${Math.round(k/n*100)}% projected 3+ (${n} students)` : 'no projection yet'; };
   const go = (label, view, anchor, act) => `<button class="link ttgo" ${act?`data-act="${act}"`:`data-go="${view}"${anchor?` data-anchor="${anchor}"`:''}`}>${label} →</button>`;
   return [
@@ -2054,20 +2112,20 @@ function ttessRows(t){
       where: go('Overview · Intervention → outcome','overview','outcomeCard'), plain:`After each tutorial or retest the dashboard checks the student's next test score against the one before, so the teacher can see which interventions are working.`},
     {dim:'3.1', name:'Routines', show:[`Conferences held per grading period: ${B(st.gradingPeriods.map(([g]) => `${g} ${t.confs[g]||0}`).join(' · '))}`],
       where: go('Contact log (conference page)','overview','rosterCard'), plain:`One-on-one student conferences are logged when they happen, which shows how regularly they occur across the year.`},
-    {dim:'4.2', name:`Goal Setting${t.courses.includes(st.sloCourse)?' (SLO: '+esc(st.sloCourse)+')':''}`, show:[`AP on track now: ${B(t.withMc ? t.pctOf(t.onNow, t.withMc) : '—')} vs. at the first unit test: ${B(t.withMc ? t.pctOf(t.onFirst, t.withMc) : '—')} (${t.withMc} students with test data)`, `TIA beginning → end of year growth: ${B(t.tiaPairs.length ? sign(mean(t.tiaPairs.map(([a,b])=>b-a))) : 'end-of-year not on file yet')}${t.priorPairs.length?` · last year ${sign(mean(t.priorPairs.map(([a,b])=>b-a)))}`:''}`,
+    {dim:'4.2', name:`Goal Setting${t.courses.includes(st.sloCourse)?' (SLO: '+esc(st.sloCourse)+')':''}`, show:[`AP on track now: ${B(t.withMc ? t.pctOf(t.onNow, t.withMc) : '—')} vs. at the first unit test: ${B(t.withMc ? t.pctOf(t.onFirst, t.withMc) : '—')} (${t.withMc} class enrollment${t.withMc===1?'':'s'} with test data)`, `TIA beginning → end of year growth: ${B(t.tiaPairs.length ? sign(mean(t.tiaPairs.map(([a,b])=>b-a))) : 'end-of-year not on file yet')}${t.priorPairs.length?` · last year ${sign(mean(t.priorPairs.map(([a,b])=>b-a)))}`:''}`,
         ...t.courses.map(c => `${esc(c)}: last year ${B(lastYear(c))} · this year ${B(projFor(c))}`)],
       where: go('AP projection','ap') + ' · ' + go('Compare years','compare'), plain:`"On track" means a student's raw AP Classroom multiple-choice average is at least ${st.apOnTrack}%, the level that predicts passing the AP exam; the projection converts current scores to a likely 1–5 and is compared with last year's real results.`},
     {dim:'4.4', name:'School Community', show:[`Referrals logged: ${B(t.refs.map(([k,v])=>`${k.replace(' referral','')} ${v}`).join(' · '))}`],
       where: go('Contact log (conference page)','overview','rosterCard'), plain:`Referrals to the counselor or a co-teacher are logged alongside parent contacts so the team around a student stays coordinated.`},
   ];
 }
-function ttessText(t, rows){ return [`T-TESS evidence — ${scopeLabel()} — ${new Date().toLocaleDateString()}`, `${S().school} · ${S().teacherName||S().title} · ${t.n} students`, '', ...rows.flatMap(r => [`${r.dim} ${r.name.replace(/&amp;/g,'&')}`, ...r.show.map(x => '  • ' + x.replace(/<[^>]+>/g,'')), `  ${r.plain}`, '']), 'Not covered here — see the separate T-TESS dashboard: 1.1, 2.2, 3.2, 4.1, 4.3.', 'Student-level data available on request.'].join('\n'); }
+function ttessText(t, rows){ return [`T-TESS evidence — ${ttScope()} — ${new Date().toLocaleDateString()}`, `${S().school} · ${S().teacherName||S().title} · ${t.n} students`, '', ...rows.flatMap(r => [`${r.dim} ${r.name.replace(/&amp;/g,'&')}`, ...r.show.map(x => '  • ' + x.replace(/<[^>]+>/g,'')), `  ${r.plain}`, '']), 'Not covered here — see the separate T-TESS dashboard: 1.1, 2.2, 3.2, 4.1, 4.3.', 'Student-level data available on request.'].join('\n'); }
 function viewTtess(m){
   const cls = allClasses().filter(c => (UI.course==='all' || splitClass(c).course===UI.course) && (UI.period==='all' || c===UI.period));
   if (!cls.length) return `<div class="phead"><div><h1>T-TESS</h1></div></div><div class="card"><div class="empty">No classes yet.</div></div>`;
   const t = ttessAgg(cls), rows = ttessRows(t), st = S();
   const intro = `This is a private dashboard ${st.teacherName ? esc(st.teacherName) + ' uses' : 'the teacher uses'} to track ${cls.length===1 ? esc(cls[0]) : `${cls.length} AP classes`} (${t.n} students). It combines AP Classroom unit multiple-choice scores (raw, as the College Board reports them), Gradebook/TAC grades, Canvas work, TIA and 8th-grade STAAR results, and College Board AP score reports. The data is refreshed weekly${t.weeks?` (${t.weeks} refreshes so far)`:''}. Everything on this page is a count or an average; no student is named.`;
-  return `<div class="ttview"><div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())} · ${new Date().toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'})}</div><h1>T-TESS evidence</h1><p>${intro}</p></div>
+  return `<div class="ttview"><div class="phead"><div><div class="eyebrow"><i></i>${esc(ttScope())} · ${new Date().toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'})}</div><h1>T-TESS evidence</h1><p>${intro}</p></div>
     <div class="actions"><button class="btn" data-act="copy-ttess">Copy text</button><button class="btn blk" data-act="print-ttess">${PRINT==='Print'?'Print':'Printable text'}</button></div></div>
     <div class="card"><div class="cb" style="padding:0;overflow:auto"><table class="t ttt"><thead><tr><th style="width:17%">Dimension</th><th>What this dashboard shows</th><th style="width:22%">Where to see it</th></tr></thead><tbody>
       ${rows.map(r => `<tr class="ttr"><td><span class="ttdim">${r.dim}</span><b>${r.name}</b></td><td><ul>${r.show.map(x=>`<li>${x}</li>`).join('')}</ul></td><td>${r.where}</td></tr><tr class="ttp"><td colspan="3">${r.plain}</td></tr>`).join('')}</tbody></table></div></div>
@@ -2212,7 +2270,7 @@ function openStudent(key, fresh){
         ${other.length?`<div class="fine printonly">${other.map(([k,v])=>`${esc(k)}: <b>${esc(v)}</b>`).join(' · ')}</div>`:''}
         <div class="aphead">${s.cs.map(c=>apLine(c, s.cs.length>1)).join('')}</div>
         <div class="chiprow">${apChip}${flagChips(key)}${s.reasons.map(r=>`<span class="tag ${r.t}" data-tip="${esc(r.tip)}">${r.icon} ${esc(r.label)}</span>`).join('')}${p.acc?p.acc.split(/[;,]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="acc" style="margin:0">${esc(x)}</span>`).join(''):''}</div></div>
-        <div class="cells" style="min-width:260px;flex:0 1 420px">${s.cs.map(c=>cell(esc(c.cls||'All work'), `<em style="${c.avg!=null&&c.avg<cut?'color:var(--help-ink)':''}">${p0(c.avg)}</em>`, `${letter(c.avg)} now · ${c.missing.length} missing${c.mock?` · Mock ${c.mock.score}`:''}${c.unitProj?` · Unit MC ${c.unitProj.score}`:''}`)).join('')}</div></div>
+        <div class="cells" style="min-width:260px;flex:0 1 420px">${s.cs.map(c=>cell(esc(c.cls||'All work'), `<em style="${below(c.avg, cut)?'color:var(--help-ink)':''}">${p0(c.avg)}</em>`, `${esc(letter(c.avg))} now · ${c.missing.length} missing${c.mock?` · Mock ${c.mock.score}`:''}${c.unitProj?` · Unit MC ${c.unitProj.score}`:''}`)).join('')}</div></div>
 
       <div class="conf-grid">
         <section class="fsec c12 prep"><h2>Conference prep <span>3 talking points from the data</span></h2><div class="fb"><ol class="tps">${talkingPoints(s, p).map(t=>`<li class="${t.tone}">${esc(t.text)}</li>`).join('')}</ol></div></section>
@@ -2349,7 +2407,7 @@ function closeLayer(){ $('#layer').innerHTML=''; delete $('#layer').dataset.stud
 const CAN_PRINT = (() => { try { return window.self === window.top; } catch(_) { return false; } })();
 const PRINT = CAN_PRINT ? 'Print' : 'Printable list';
 function printDoc(title, html){
-  if (!CAN_PRINT){ const d = document.createElement('div'); d.innerHTML = html.replace(/<\/(tr|h2|p|section)>/g, '$&\n').replace(/<\/t[dh]>/g, ' \t$&'); return showText(title, `${title}\n${S().school} · ${today()}\n\n` + d.textContent.replace(/[ \t]+\n/g,'\n').replace(/\n{3,}/g,'\n\n').trim()); }
+  if (!CAN_PRINT){ const d = new DOMParser().parseFromString('<div>' + html.replace(/<\/(tr|h2|p|section)>/g, '$&\n').replace(/<\/t[dh]>/g, ' \t$&') + '</div>', 'text/html').body; return showText(title, `${title}\n${S().school} · ${today()}\n\n` + d.textContent.replace(/[ \t]+\n/g,'\n').replace(/\n{3,}/g,'\n\n').trim()); }
   $('#printArea').innerHTML = `<div class="hd"><small>${esc(S().school)} · ${esc(S().title)}${S().teacherName?' · '+esc(S().teacherName):''} · ${today()}</small><h1>${esc(title)}</h1></div>${html}`;
   document.body.classList.add('printing');
   const done = () => { document.body.classList.remove('printing'); window.removeEventListener('afterprint', done); };
@@ -2372,10 +2430,11 @@ function render(){
   if (UI.period!=='all' && !allClasses().includes(UI.period)) UI.period = 'all';
   if (UI.staar!=='all' && !hasProfiles()) UI.staar = 'all';
   if (UI.status==='unpaid' && !hasProfiles()) UI.status = null;
+  const views = {overview:viewOverview, retests:viewRetests, power:viewPower, missing:viewMissing, compare:viewCompare, ap:viewAP, retestmsg:viewRetestMsgs, phdraft:viewPhDrafts, assignments:viewAssignments, import:viewImport, options:viewSettings, ttess:viewTtess, help:viewHelp, admin:viewAdmin};
+  if (!views[UI.view]) UI.view = 'overview';   // unknown page name (old link, typo) → Overview, highlighted
   const m = buildModel();
   renderSide(m); renderTop();
-  const v = {overview:viewOverview, retests:viewRetests, power:viewPower, missing:viewMissing, compare:viewCompare, ap:viewAP, retestmsg:viewRetestMsgs, phdraft:viewPhDrafts, assignments:viewAssignments, import:viewImport, options:viewSettings, ttess:viewTtess, help:viewHelp, admin:viewAdmin}[UI.view] || viewOverview;
-  $('#view').innerHTML = v(m);
+  $('#view').innerHTML = views[UI.view](m);
   if (UI.view==='import') wireDrop();
   return m;
 }
@@ -2389,7 +2448,7 @@ function parseCSV(text){
   for (let i=0;i<text.length;i++){
     const c = text[i];
     if (q){ if (c==='"'){ if (text[i+1]==='"'){ cell+='"'; i++; } else q=false; } else cell+=c; }
-    else if (c==='"') q = true;
+    else if (c==='"' && cell==='') q = true;   // a stray quote mid-cell (common in tab-separated web pastes) is just a character
     else if (c===delim){ row.push(cell); cell=''; }
     else if (c==='\n' || c==='\r'){ if (c==='\r' && text[i+1]==='\n') i++; row.push(cell); rows.push(row); row=[]; cell=''; }
     else cell += c;
@@ -2402,7 +2461,8 @@ function isCanvas(rows){ const h = rows[0]||[]; return h[0]==='Student' && h.inc
 function importCanvas(rows, file, stay, year){
   const h = rows[0], idI = h.includes('SIS User ID') ? h.indexOf('SIS User ID') : h.indexOf('ID'), secI = h.indexOf('Section');
   const pp = rows.find(r=>/points possible/i.test(r[0]||''));
-  const assigns = h.map((name,i)=>({name,i})).filter(c=>c.name && !CANVAS_SKIP.test(c.name)).map(c => {
+  const hasIds = h.some(x => /\(\d+\)\s*$/.test(x||''));   // real Canvas exports end every assignment header with "(id)"; custom columns like "Notes" don't
+  const assigns = h.map((name,i)=>({name,i})).filter(c=>c.name && (/\(\d+\)\s*$/.test(c.name) || (!hasIds && !CANVAS_SKIP.test(c.name))) && !(pp && parseFloat(pp[c.i]) === 0)).map(c => {
     const m = c.name.match(/^(.*)\s\((\d+)\)$/);
     return {...c, id:'Canvas:' + (m ? m[2] : c.name), title: m ? m[1] : c.name, outOf: pp ? parseFloat(pp[c.i]) || null : null};
   }).filter(c => !pp || !/read only/i.test(pp[c.i]||''));
@@ -2430,23 +2490,26 @@ const PROFILE_FIELDS = [
   ['watchFlags', /^watch flags/], ['acc', /accommodation|^504$|^iep$/], ['counselor', /^counselor/],
 ];
 const PER_CLASS = new Set(['grade1','grade2','grade3','grade4']);
-function isProfile(rows){ const h = rows[0].map(x=>x.trim().toLowerCase()); return h.some(x=>/staar/.test(x)) || h.some(x=>/^ap exam/.test(x)) || (h.includes('student id') && h.some(x=>/gpa|tia|psat|watch flags/.test(x)) && !h.includes('platform')); }
+function isProfile(rows){ const h = rows[0].map(x=>x.trim().toLowerCase());
+  if (h.includes('platform') || h.some(x => /·/.test(x) || /\bunit\s*\d+\b.*\b(test|quiz|mcq?|retest|check)\b/.test(x))) return false;   // looks like grades
+  return h.some(x=>/\bstaar\b/.test(x)) || h.some(x=>/^ap exam/.test(x)) || (h.includes('student id') && h.some(x=>/\b(gpa|tia|psat)\b|^watch flags/.test(x))); }
 function profileMap(header){
   const used = new Set();
   return header.map(raw => { const hh = String(raw).trim().toLowerCase().replace(/\s+/g,' '); const f = PROFILE_FIELDS.find(([k, re]) => !used.has(k) && re.test(hh)); if (f) { used.add(f[0]); return f[0]; } return null; });
 }
 function importProfile(rows, file, stay){
   const header = rows[0].map(x=>String(x).trim()), map = profileMap(header), col = k => map.indexOf(k);
-  let n = 0, created = 0;
+  let n = 0, created = 0; const idCount = {}; if (col('id')>=0) rows.slice(1).forEach(r => { const i = String(r[col('id')]||'').trim(); if (i) idCount[i] = (idCount[i]||0) + 1; });
   rows.slice(1).forEach(r => {
     const id = col('id')>=0 ? String(r[col('id')]||'').trim() : '', name = col('name')>=0 ? r[col('name')] : '', cls = col('cls')>=0 ? String(r[col('cls')]||'').trim() : '';
     if (!id && !String(name||'').trim()) return;
-    const existed = (id && DB.idmap[id]) || DB.students[nameKey(name)];
+    const existed = (id && DB.idmap[id]) || DB.students[findStudentKey(normName(name), id)];
     const key = upsertStudent(name, id, cls); if (!key) return;
     if (!existed) created++;
     const p = DB.profiles[key] ||= {};
     header.forEach((hd, i) => {
       const v = String(r[i] ?? '').trim(), f = map[i];
+      if (!v && f === 'phNow' && id && idCount[id] === 1) { delete p.phNow; return; }   // cleared in the school's sheet
       if (!v || ['name','id','cls'].includes(f)) return;
       if (!f) { (p.other ||= {})[hd] = v; return; }
       (p.labels ||= {})[f] = hd;
@@ -2513,6 +2576,7 @@ function openMapper(rows, file, srcHint, year){
       .filter(d=>d.name && d.name.trim() && !/points possible|class average|^average$/i.test(d.name));
     closeLayer();
     commit({file, source:mm.source, year: yv, stay: file.startsWith('Pasted '), assigns: mm.cols.map(c=>({id: mm.source+':'+h[c.i].toLowerCase(), name:h[c.i], outOf: parseFloat(c.out)||null, col:c.i})), data});
+    nextFile();   // keep going through the rest of the dropped files
   };
 }
 function snapshot(){ const out = {}; Object.keys(DB.students).forEach(k => { const v = studentFull(k).avg; if (v!=null) out[k] = v; }); return {at: Date.now(), avgs: out}; }
@@ -2550,11 +2614,15 @@ function importStandard(rows, file, fallback, stay, year){
     assigns: cols.filter(c=>rs.some(r=>(r[c.i]||'').trim())).map(c=>({id: source+':'+c.name.toLowerCase(), name:c.name, outOf: pp ? parseFloat(pp[c.i])||null : null, col:c.i})),
     data: rs.map(r=>({name:r[0], id: idI>=0 ? (r[idI]||'').trim() : '', cls: clsI>=0 ? r[clsI] : '', cells:r}))}); });
 }
-function matchSource(v){ v = String(v).trim().toLowerCase(); const f = S().sources.find(s=>s.id.toLowerCase()===v) || S().sources.find(s=>v.includes(s.id.toLowerCase().split(' ')[0])); return f ? f.id : (/ap/.test(v) ? 'AP Classroom' : 'Other'); }
+function matchSource(v){ v = String(v).trim().toLowerCase();
+  const f = S().sources.find(s=>s.id.toLowerCase()===v || (s.short||'').toLowerCase()===v); if (f) return f.id;
+  if (/\btac\b|teacher access|gradebook|eschool|skyward/.test(v)) return 'Gradebook';
+  if (/college ?board|ap ?classroom|\bap\b/.test(v)) return 'AP Classroom';
+  const g = S().sources.find(s=>v.includes(s.id.toLowerCase().split(' ')[0])); return g ? g.id : 'Other'; }
 function guessSource(name){ return /canvas/i.test(name)?'Canvas':/\bap\b|ap[ _-]?classroom|college ?board/i.test(name)?'AP Classroom':'Gradebook'; }
 /* Undo: keep one copy of the data from just before the latest import (in this browser) */
 const UNDO_KEY = KEY + '.undo';
-function saveUndo(label){ try { localStorage.setItem(UNDO_KEY, JSON.stringify({label, at:Date.now(), db:DB})); } catch(_){} }
+function saveUndo(label){ try { localStorage.setItem(UNDO_KEY, JSON.stringify({label, at:Date.now(), db:DB})); } catch(_){ try { localStorage.removeItem(UNDO_KEY); } catch(__){} } }   // never leave an older undo copy behind
 function readUndo(){ try { return JSON.parse(localStorage.getItem(UNDO_KEY) || 'null'); } catch(_){ return null; } }
 /* ---------- College Board reports ----------
    AP score summary:  Course, Year, Score 5, Score 4, Score 3, Score 2, Score 1 [, Mean, Global mean, Global % 3+]
@@ -2623,6 +2691,7 @@ function nextFile(){
   const f = queue.shift(); if (!f) return;
   const rows = parseCSV(f.text);
   if (rows.length < 2) { toast(`${f.name}: no rows found`); return nextFile(); }
+  const yb = $('#pasteYear'); if (yb) UI.pasteYear = yb.value;   // read the School year box as it is now, not as it was at the last paste
   const year = normYear(UI.pasteYear) || curYear();
   if (routeImport(rows, f.name, guessSource(f.name), false, year)) nextFile(); else openMapper(rows, f.name, null, year);
 }
@@ -2661,7 +2730,7 @@ function restoreDialog(){
     <p>Paste the backup text below. This replaces everything currently in the dashboard.</p>
     <textarea class="in code" id="restoreText" placeholder='{"students":{...}}' data-autofocus></textarea>
     <div class="actions" style="justify-content:space-between;margin-top:12px"><label class="btn" style="cursor:pointer">Or choose a file…<input type="file" id="restoreFile" accept=".json,.txt" hidden></label><span><button class="btn" data-close>Cancel</button> <button class="btn dangerfill" id="restoreGo">Replace my data</button></span></div>`, '');
-  const apply = async txt => { try { const d = await parseBackup(txt); if (!d.students) throw 0; DB = Object.assign(blank(), d); save(); closeLayer(); render(); toast('Backup restored'); } catch(_){ toast('That isn’t a dashboard backup'); } };
+  const apply = async txt => { try { const d = await parseBackup(txt); if (!d.students) throw 0; DB = Object.assign(blank(), d); migrate(); save(); closeLayer(); render(); toast('Backup restored'); } catch(_){ toast('That isn’t a dashboard backup'); } };
   $('#restoreGo').onclick = () => apply($('#restoreText').value);
   $('#restoreFile').onchange = async e => { const f = e.target.files[0]; if (f) $('#restoreText').value = await f.text(); };
 }
@@ -2749,10 +2818,11 @@ function loadSample(){
 
 /* ---------- events ---------- */
 function go(v){ UI.view = v; try { if (location.hash.slice(1)!==v) location.hash = v; } catch(_){} $('#side').classList.remove('open'); closeLayer(); render(); window.scrollTo(0,0); }
+let pressStart = null; document.addEventListener('mousedown', e => { pressStart = e.target; }, true);
 document.addEventListener('click', e => {
   const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-pdlist],[data-apf],[data-quart],[data-wsort],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-confnav],[data-confheld],[data-close]');
   if (!t) { if (!e.target.closest('aside,.menu-btn')) $('#side').classList.remove('open'); return; }
-  if (t.dataset.close !== undefined){ if (e.target === t || t.tagName==='BUTTON'){ closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !t.closest('.conf')) return openStudent(k); nextFile(); } return; }
+  if (t.dataset.close !== undefined){ if ((e.target === t && pressStart === t) || t.tagName==='BUTTON'){ closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !t.closest('.conf')) return openStudent(k); nextFile(); } return; }
   if (t.dataset.go){ go(t.dataset.go); if (t.dataset.anchor) document.getElementById(t.dataset.anchor)?.scrollIntoView({block:'start'}); return; }
   if (t.dataset.report) return printReport(t.dataset.report);
   if (t.dataset.student) return openStudent(t.dataset.student);
@@ -2778,16 +2848,16 @@ document.addEventListener('click', e => {
   if (t.dataset.email){ (DB.emailLog[t.dataset.email] ||= []).push({at:Date.now()}); save(); UI.reopen = $('#layer').dataset.student || null; return showText(`Parent email — ${DB.students[t.dataset.email].name}`, parentEmail(t.dataset.email)); }
   if (t.dataset.delnote){ const k=$('#layer').dataset.student; DB.notes[k].splice(+t.dataset.delnote,1); save(); return openStudent(k); }
   const act = t.dataset.act, m = () => buildModel();
-  if (act==='conf-print'){ const k = $('#layer').dataset.student; if (!CAN_PRINT) return showText(`Conference — ${DB.students[k].name}`, confText(k));
+  if (act==='conf-print'){ const k = $('#layer').dataset.student; if (!CAN_PRINT){ UI.reopen = k; return showText(`Conference — ${DB.students[k].name}`, confText(k)); }
     const done = () => { window.removeEventListener('afterprint', done); }; window.addEventListener('afterprint', done); try { window.print(); } catch(_){ showText('Conference', confText(k)); } return; }
   if (act==='import-profile'){ const txt = $('#profBox').value.trim(); if (!txt) return toast('Paste the profile CSV first (or choose the file)'); const rows = parseCSV(txt); if (rows.length < 2) return toast('Need a header row and at least one student'); if (!profileMap(rows[0]).includes('id')) return toast('The CSV needs a “Student ID” column'); saveUndo('Student Profile (CSV)'); UI.lastResult = ''; importProfile(rows, 'Pasted profile data', true); return; }
-  if (act==='undo-import'){ const u = readUndo(); if (!u) return toast('Nothing to undo'); return askConfirm('Undo last import?', `This puts everything back to how it was before <b>${esc(u.label)}</b> (${ago(u.at)}). Notes, ratings and contacts added since then are also rolled back.`, 'Undo import', () => { DB = Object.assign(blank(), u.db); save(); try { localStorage.removeItem(UNDO_KEY); } catch(_){} render(); toast('Import undone'); }); }
+  if (act==='undo-import'){ const u = readUndo(); if (!u) return toast('Nothing to undo'); return askConfirm('Undo last import?', `This puts everything back to how it was before <b>${esc(u.label)}</b> (${ago(u.at)}). Notes, ratings and contacts added since then are also rolled back.`, 'Undo import', () => { DB = Object.assign(blank(), u.db); migrate(); save(); try { localStorage.removeItem(UNDO_KEY); } catch(_){} render(); toast('Import undone'); }); }
   if (act==='draft-check') draftCheck();
   if (act==='draft-write') draftWrite();
-  if (act==='copy-draft'){ const day = UI.draftDay || defaultDraftDay(); copyText(`Power Hour draft — ${day} — ${draftValue()}\n\n` + draftCandidates(m()).map(x=>`${x.s.ids[0]||'(no ID)'}\t${x.s.name}\t${x.cls}\t${Math.round(x.avg)}%`).join('\n'), 'Draft list'); }
+  if (act==='copy-draft'){ const day = curDraftDay(); copyText(`Power Hour draft — ${day} — ${draftValue()}\n\n` + draftCandidates(m()).map(x=>`${x.s.ids[0]||'(no ID)'}\t${x.s.name}\t${x.cls}\t${Math.round(x.avg)}%`).join('\n'), 'Draft list'); }
   if (act==='print-ttess' || act==='copy-ttess'){ const cls = allClasses().filter(c => (UI.course==='all' || splitClass(c).course===UI.course) && (UI.period==='all' || c===UI.period)), t = ttessAgg(cls), rows = ttessRows(t);
     if (act==='copy-ttess') return copyText(ttessText(t, rows), 'T-TESS evidence'); if (!CAN_PRINT) return showText('T-TESS evidence', ttessText(t, rows));
-    return printDoc(`T-TESS evidence — ${scopeLabel()}`, `<p class="ttintro">${$('.ttview .phead p')?.innerHTML || ''}</p><table class="ttt"><thead><tr><th>Dimension</th><th>What this dashboard shows</th><th>Where to see it</th></tr></thead><tbody>${rows.map(r => `<tr><td><b>${r.dim}</b> ${r.name}</td><td><ul>${r.show.map(x=>`<li>${x}</li>`).join('')}</ul></td><td>${r.where.replace(/<[^>]+>/g,'').replace(/ →/g,'')}</td></tr><tr><td colspan="3" style="font-style:italic;color:#333">${r.plain}</td></tr>`).join('')}</tbody></table><p><b>Not covered here</b> — see the separate T-TESS dashboard: 1.1, 2.2, 3.2, 4.1, 4.3.</p><p style="font-style:italic">Student-level data available on request.</p>`); }
+    return printDoc(`T-TESS evidence — ${ttScope()}`, `<p class="ttintro">${$('.ttview .phead p')?.innerHTML || ''}</p><table class="ttt"><thead><tr><th>Dimension</th><th>What this dashboard shows</th><th>Where to see it</th></tr></thead><tbody>${rows.map(r => `<tr><td><b>${r.dim}</b> ${r.name}</td><td><ul>${r.show.map(x=>`<li>${x}</li>`).join('')}</ul></td><td>${r.where.replace(/<[^>]+>/g,'').replace(/ →/g,'')}</td></tr><tr><td colspan="3" style="font-style:italic;color:#333">${r.plain}</td></tr>`).join('')}</tbody></table><p><b>Not covered here</b> — see the separate T-TESS dashboard: 1.1, 2.2, 3.2, 4.1, 4.3.</p><p style="font-style:italic">Student-level data available on request.</p>`); }
   if (act==='copy-summary') copyText(weeklySummary(m()), 'Weekly summary');
   if (act==='copy-chatnote') copyText(CHAT_NOTE, 'Instructions for the chat');
   if (act==='copy-admin') copyText(adminText(adminData()), 'At a glance');
@@ -2801,15 +2871,15 @@ document.addEventListener('click', e => {
     const names = sel.map(r=>r.s.name).join('\n'), msgs = sel.map(r=>retestMsgFill(r)), one = new Set(msgs).size === 1;
     if (act==='rm-copy') return copyText(`TO (Canvas Inbox, one name per line):\n${names}\n\n==== ${one?'MESSAGE':'MESSAGES (one per student)'} ====\n\n` + (one ? msgs[0] : sel.map((r,i)=>`To: ${r.s.name}\n\n${msgs[i]}`).join('\n\n----\n\n')), `${plural(sel.length,'name')} + message${one?'':'s'}`);
     if (act==='rm-prompt'){ const tiers = [...new Set(sel.map(r=>r.tier))];
-      return copyText(`Please send Canvas Inbox messages for me in my ${g.cls} course (Unit ${g.u} reassessment). Send each student their own individual message, not a group message. Put the Subject line in Canvas's Subject box and the rest in the message body. Replace [First name] with the student's first name and change nothing else.\n\nStudents (name · student ID):\n${sel.map((r,i)=>`${i+1}. ${r.s.name}${r.s.ids[0]?` · ${r.s.ids[0]}`:''}${tiers.length>1?(r.tier==='must'?' · message A':' · message B'):''}`).join('\n')}\n\n` + tiers.map(tr => `${tiers.length>1?(tr==='must'?'MESSAGE A':'MESSAGE B')+'\n':'MESSAGE\n'}${retestMsgFill(sel.find(r=>r.tier===tr), true)}`).join('\n\n') + `\n\nWhen you're done, list who it was sent to so I can press "Mark sent" in my dashboard.`, 'Prompt for Claude'); }
+      return copyText(`Please send Canvas Inbox messages for me in my ${g.cls} course (Unit ${g.u} reassessment). Send each student their own individual message, not a group message. Put the Subject line in Canvas's Subject box and the rest in the message body. Replace [First name] with the student's first name and change nothing else.\n\nStudents (name · student ID):\n${sel.map((r,i)=>`${i+1}. ${r.s.name}${schoolId(r.s)?` · ${schoolId(r.s)}`:''}${tiers.length>1?(r.tier==='must'?' · message A':' · message B'):''}`).join('\n')}\n\n` + tiers.map(tr => `${tiers.length>1?(tr==='must'?'MESSAGE A':'MESSAGE B')+'\n':'MESSAGE\n'}${retestMsgFill(sel.find(r=>r.tier===tr), true)}`).join('\n\n') + `\n\nWhen you're done, list who it was sent to so I can press "Mark sent" in my dashboard.`, 'Prompt for Claude'); }
     const now = Date.now(), day = new Date().toDateString(), seen = new Set(); let n = 0;
-    sel.forEach(r => { const type = `Retest message · Unit ${r.u} · Canvas`, k = r.s.key+'|'+type; (DB.retestMsgs ||= {})[r.id] = now; if (seen.has(k) || (DB.contacts[r.s.key]||[]).some(c => c.type===type && new Date(c.at).toDateString()===day)) return; seen.add(k); (DB.contacts[r.s.key] ||= []).push({type, note:'', at:now}); n++; });
+    sel.forEach(r => { const type = `Retest message · Unit ${r.u} · Canvas`, note = r.c.course || '', k = r.s.key+'|'+type+'|'+note; (DB.retestMsgs ||= {})[r.id] = now; if (seen.has(k) || (DB.contacts[r.s.key]||[]).some(c => c.type===type && (c.note||'')===note && new Date(c.at).toDateString()===day)) return; seen.add(k); (DB.contacts[r.s.key] ||= []).push({type, note, at:now}); n++; });
     save(); render(); return toast(`${plural(n,'retest message')} logged as sent`); }
   if (act==='pd-roster' || act==='pd-prompt' || act==='pd-drafted'){ const sel = pdSelected(); if (!sel.length) return toast('Tick at least one student');
     const day = pdDay(), byStu = {}; sel.forEach(r => (byStu[r.s.key] ||= {s:r.s, list:[]}).list.push(r));
     const lines = Object.values(byStu).map(({s, list}) => ({s, cls: list.map(r=>r.cls).join(' / '), why: [...new Set(list.map(r=>r.why))].join('; ')}));
-    if (act==='pd-roster') return copyText(lines.map(l => `${l.s.name}\t${l.s.ids[0]||''}\t${l.cls}`).join('\n'), `${plural(lines.length,'student')} (name · ID · period)`);
-    if (act==='pd-prompt') return copyText(`Please draft these students for Power Hour in the PCHS Tutorials sheet (Google Sheet ${S().tutorialsSheet}) for ${day}. In each student's row (find them by student ID on the alphabet tab for their last name), choose the dropdown value "${S().draftName.trim()} A Block" in the ${day} column. Drafts are always A Block. Never draft for Wednesday B Block or Thursday A Block (I have duty). Only fill a cell that is empty; if someone is already drafted that day, skip them and tell me.\n\nStudents (name · student ID · class period · reason):\n${lines.map((l,i)=>`${i+1}. ${l.s.name} · ${l.s.ids[0]||'(no ID)'} · ${l.cls} · ${l.why}`).join('\n')}\n\nWhen you're done, list who was drafted and who was skipped so I can press "Mark drafted" in my dashboard.`, 'Prompt for Claude');
+    if (act==='pd-roster') return copyText(lines.map(l => `${l.s.name}\t${schoolId(l.s)}\t${l.cls}`).join('\n'), `${plural(lines.length,'student')} (name · ID · period)`);
+    if (act==='pd-prompt') return copyText(`Please draft these students for Power Hour in the PCHS Tutorials sheet (Google Sheet ${S().tutorialsSheet}) for ${day}. In each student's row (find them by student ID on the alphabet tab for their last name), choose the dropdown value "${S().draftName.trim()} A Block" in the ${day} column. Drafts are always A Block. Never draft for Wednesday B Block or Thursday A Block (I have duty). Only fill a cell that is empty; if someone is already drafted that day, skip them and tell me.\n\nStudents (name · student ID · class period · reason):\n${lines.map((l,i)=>`${i+1}. ${l.s.name} · ${schoolId(l.s)||'(no ID)'} · ${l.cls} · ${l.why}`).join('\n')}\n\nWhen you're done, list who was drafted and who was skipped so I can press "Mark drafted" in my dashboard.`, 'Prompt for Claude');
     const now = Date.now(), today0 = new Date().toDateString(); let n = 0;
     lines.forEach(l => { (DB.phDrafted ||= {})[l.s.key] = now; if ((DB.contacts[l.s.key]||[]).some(c => /^PH draft/.test(c.type) && new Date(c.at).toDateString()===today0)) return; (DB.contacts[l.s.key] ||= []).push({type:`PH draft — ${l.why}`, note:day, at:now}); n++; });
     save(); render(); return toast(`${plural(n,'student')} logged as drafted for ${day}`); }
@@ -2834,11 +2904,11 @@ document.addEventListener('click', e => {
   if (act==='print-missing'){ const b = missingBoard(m()); printDoc(`Missing work — ${scopeLabel()}`, b.cols.map(c=>`<section><h2>${esc(c.cls)} · ${c.n}</h2><table><tbody>${c.items.map(i=>`<tr><td style="width:30%"><b>${esc(i.s.name)}</b></td><td>${i.list.map(a=>esc(bare(a.name))).join(' · ')}</td></tr>`).join('')}</tbody></table></section>`).join('') || '<p>Nothing missing.</p>'); }
   if (act==='export') exportCSV();
   if (act==='sample'){ if (Object.keys(DB.students).length && !DB.sample) return askConfirm('Load sample data?', 'Sample data <b>replaces</b> your current students, scores and notes. Back up first if you need them.', 'Replace with sample', loadSample); loadSample(); }
-  if (act==='clear-sample'){ const keep=DB.settings; DB=blank(); DB.settings=keep; save(); render(); toast('Sample data removed'); }
+  if (act==='clear-sample'){ try { localStorage.removeItem(UNDO_KEY); } catch(_){} const keep=DB.settings; DB=blank(); DB.settings=keep; save(); render(); toast('Sample data removed'); }
   if (act==='theme'){ DB.settings.theme = document.documentElement.dataset.theme==='dark' ? 'light' : 'dark'; save(); render(); }
   if (act==='backup'){ DB.lastBackup = Date.now(); save(); backupText().then(txt => showText(`Backup · ${Math.round(txt.length/1024)} KB${txt.startsWith('CDZ1:')?' (compressed)':''}`, txt, `classroom-dashboard-backup-${new Date().toISOString().slice(0,10)}.txt`, 'text/plain')); if (UI.view==='options') render(); }
   if (act==='restore') restoreDialog();
-  if (act==='wipe') askConfirm('Erase everything?', 'All students, scores, profiles, notes and settings in this browser will be deleted. This can’t be undone.', 'Erase everything', () => { try{ localStorage.removeItem(KEY); }catch(_){} DB=blank(); save(); UI.course='all'; UI.period='all'; UI.staar='all'; render(); toast('Everything erased'); });
+  if (act==='wipe') askConfirm('Erase everything?', 'All students, scores, profiles, notes and settings in this browser will be deleted. This can’t be undone.', 'Erase everything', () => { try{ localStorage.removeItem(KEY); localStorage.removeItem(UNDO_KEY); }catch(_){} DB=blank(); save(); UI.course='all'; UI.period='all'; UI.staar='all'; render(); toast('Everything erased'); });
   if (act==='save-settings'){
     const scale = $('#setScale').value.split(',').map(x=>x.split(':').map(s=>s.trim())).filter(x=>x.length===2 && !isNaN(+x[0])).map(([mn,l])=>[+mn,l]).sort((a,b)=>b[0]-a[0]);
     const num = (id, d) => { const v = parseFloat($(id).value); return isNaN(v) ? d : v; };
@@ -2860,7 +2930,7 @@ document.addEventListener('change', e => {
   if (t.id==='cmpStu'){ UI.cmpStudent = t.value; render(); }
   if (t.id==='draftDay'){ UI.draftDay = t.value.replace(/ \(.*\)$/,''); render(); }
   if (t.id==='draftBlock'){ UI.draftBlock = t.value; render(); }
-  if (t.id==='draftName'){ DB.settings.draftName = t.value.trim(); save(); render(); }
+  if (t.id==='draftName'){ DB.settings.draftName = t.value.trim(); save(); const w = document.querySelector('.draftwrites'); if (w) w.textContent = draftValue(); }
   if (t.dataset.hide){ DB.assignments[t.dataset.hide].hidden = !t.checked; save(); render(); }
   if (t.dataset.card){ DB.hidden = t.checked ? DB.hidden.filter(x=>x!==t.dataset.card) : [...DB.hidden, t.dataset.card]; save(); }
   if (t.dataset.rdone){ t.checked ? DB.retestDone[t.dataset.rdone] = Date.now() : delete DB.retestDone[t.dataset.rdone]; save(); render(); }
@@ -2874,24 +2944,27 @@ document.addEventListener('input', e => {
   if (t.dataset.agform){ const [k,f] = t.dataset.agform.split('|'); (((DB.agency[k] ||= {}).form ||= {}))[f] = t.value; save(); return; }
   if (t.dataset.agency){ const [k,q,f] = t.dataset.agency.split('|'); ((DB.agency[k] ||= {})[q] ||= {})[f] = t.value; save(); return; }
   if (e.target.id !== 'q') return;
+  if (e.isComposing) return;   // accents / IME: wait for compositionend
   UI.q = e.target.value;
   clearTimeout(UI._qT); UI._qT = setTimeout(() => {   // wait for a pause in typing: a full redraw per keystroke is slow with a big roster
-    if (['import','options','assignments','help'].includes(UI.view)) UI.view = 'overview';
-    const el = $('#q'), pos = el ? el.selectionStart : UI.q.length; render(); const q = $('#q'); if (q){ q.value = UI.q; q.focus(); q.setSelectionRange(pos, pos); }
+    if (['import','options','assignments','help'].includes(UI.view)){ UI.view = 'overview'; try { history.replaceState(null, '', '#overview'); } catch(_){} }
+    const el = $('#q'), had = !!el && document.activeElement === el, pos = el ? el.selectionStart : UI.q.length; render();
+    const q = $('#q'); if (q){ q.value = UI.q; if (had){ q.focus(); q.setSelectionRange(pos, pos); } }   // only if the cursor was still in the search box
   }, 140);
 });
+document.addEventListener('compositionend', e => { if (e.target.id === 'q') e.target.dispatchEvent(new Event('input', {bubbles:true})); });
 document.addEventListener('keydown', e => {
   if (e.key==='Escape'){ if ($('#layer').innerHTML){ const inConf = !!$('#layer .conf'); closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !inConf) return openStudent(k); nextFile(); } else $('#side').classList.remove('open'); }
-  if (e.key==='/' && !e.target.closest('input,textarea,select')){ e.preventDefault(); $('#q').focus(); }
+  if (e.key==='/' && !$('#layer').innerHTML && !e.target.closest('input,textarea,select')){ e.preventDefault(); $('#q').focus(); }
   if ((e.key==='ArrowRight' || e.key==='ArrowLeft') && $('#layer .conf') && !e.target.closest('input,textarea,select')){ const b = document.querySelectorAll('[data-confnav]'); if (b.length===2) b[e.key==='ArrowLeft'?0:1].click(); }
 });
 $('#fileIn').addEventListener('change', e => { handleFiles([...e.target.files]); e.target.value=''; });
 document.addEventListener('change', async e => { if (e.target.id !== 'profFile') return; const f = e.target.files[0]; e.target.value = ''; if (!f) return; $('#profBox').value = await f.text(); toast(`${f.name} loaded — press Import Student Profile (CSV)`); });
-window.addEventListener('hashchange', () => { const v = location.hash.slice(1); if (v && v!==UI.view){ UI.view=v; closeLayer(); render(); } });
+window.addEventListener('hashchange', () => { const v = location.hash.slice(1) || 'overview'; if (v!==UI.view){ UI.view=v; closeLayer(); render(); nextFile(); } });
 
 /* tooltip */
 const tip = $('#tip');
-function showTip(el, x, y){ tip.innerHTML = el.dataset.tip; tip.style.opacity = 1; const r = tip.getBoundingClientRect(); tip.style.left = Math.max(8, Math.min(innerWidth - r.width - 8, x + 12)) + 'px'; tip.style.top = Math.max(8, y - r.height - 10) + 'px'; }
+function showTip(el, x, y){ tip.innerHTML = esc(el.dataset.tip).replace(/&lt;(\/?b|br)&gt;/g, '<$1>'); /* data-tip is decoded by the browser: escape it all, keep only bold and line breaks */ tip.style.opacity = 1; const r = tip.getBoundingClientRect(); tip.style.left = Math.max(8, Math.min(innerWidth - r.width - 8, x + 12)) + 'px'; tip.style.top = Math.max(8, y - r.height - 10) + 'px'; }
 document.addEventListener('mousemove', e => { const el = e.target.closest('[data-tip]'); if (el) showTip(el, e.clientX, e.clientY); else tip.style.opacity = 0; });
 document.addEventListener('focusin', e => { const el = e.target.closest('[data-tip]'); if (el){ const r=el.getBoundingClientRect(); showTip(el, r.left, r.top); } else tip.style.opacity = 0; });
 document.addEventListener('scroll', () => tip.style.opacity = 0, true);

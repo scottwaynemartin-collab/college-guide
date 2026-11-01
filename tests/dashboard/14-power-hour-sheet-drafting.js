@@ -15,7 +15,7 @@ await p.addInitScript(()=>{
     const c=L(r.split(':')[0]); return {payload:JSON.stringify({values:tab.map(row=>[row[c]])})}; }}:null};
 });
 await p.goto(FILE_URL+'');await p.click('text=Try it with sample data');await p.waitForTimeout(300);
-await p.click('aside [data-go=power]');await p.waitForTimeout(300);
+await p.evaluate(()=>{ const d=new Date(); d.setHours(12); do { d.setDate(d.getDate()+1);} while(d.getDay()!==2); UI.draftDay=dayLabel(d); }); await p.click('aside [data-go=power]');await p.waitForTimeout(300);
 await p.click('[data-act=draft-check]');await p.waitForTimeout(800);
 console.log(await p.$$eval('.dprev .dstat',x=>x.map(e=>e.textContent).join(', ')));
 await p.screenshot({path:OUT+'/draft.png',fullPage:false});
