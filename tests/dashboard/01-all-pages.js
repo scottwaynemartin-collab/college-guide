@@ -13,7 +13,7 @@ for (const [w,h] of [[1440,1000],[390,844]]){
  const go=async v=>{ if(w<800){ await p.click('[data-act=menu]'); await p.waitForTimeout(250);} await p.click(`aside [data-go=${v}]`); await p.waitForTimeout(250); };
  for (const v of ['retests','power','missing','compare','ap','assignments','import','options']){ await go(v); await p.screenshot({path:OUT+`/${w}-${v}.png`,fullPage:true}); }
  await go('compare'); await p.click('[data-course="APHG"]'); await p.selectOption('#cmpStu',{index:3}); await p.waitForTimeout(200); await p.screenshot({path:OUT+`/${w}-compare-aphg.png`,fullPage:true});
- await go('overview'); await p.click('[data-status="help"]'); await p.waitForTimeout(150);
+ await go('overview'); await p.click('[data-course="all"]'); await p.waitForTimeout(150); await p.click('[data-status="help"]'); await p.waitForTimeout(150);
  await p.click('.rrow'); await p.waitForTimeout(250); await p.screenshot({path:OUT+`/${w}-drawer.png`});
  await p.keyboard.press('Escape');
  await go('options'); await p.click('[data-act=wipe]'); await p.waitForTimeout(150); await p.screenshot({path:OUT+`/${w}-confirm.png`}); await p.click('#layer [data-close].btn:not(.x)');

@@ -38,7 +38,8 @@ Everything comes in through **Import data**: paste text, or drop CSV files.
   - **Raw scores only:** the AP Classroom raw % is used, never a curved Gradebook/TAC copy of the same test. Shown as "raw MC %".
   - **Left out of the math (shown as context only):** Progress Check MCQs, FRQ/SAQ/LEQ/DBQ, and everything from Canvas or the Gradebook.
   - **Settings toggle:** "Count progress checks in AP status" (default off) adds AP Classroom progress-check MCQs back in.
-  - **Missing work** counts as 0 only when it's marked missing. Ungraded or blank work is skipped.
+  - **Missing (M)** AP Classroom scores are **skipped** (not counted as 0) in the raw MC average, the last-2 rule and the projection. Ungraded or blank work is skipped too.
+  - **"Don't count"**: on the conference page, click one AP Classroom score (e.g. a 4% non-attempt) to leave it out of status / projection / radar / groups. It stays visible, struck through, with a note; stored in `DB.excluded` and in backups.
   - **Order:** by assignment order.
   - **AP on track:** MC average ≥ 55%, **or** the 2 most recent MC tests are both ≥ 55%.
   - **AP watch:** MC average from 45% to 54.9%, **or** only one of the last 2 MC tests is ≥ 55%.
@@ -228,6 +229,26 @@ Three independent reviews covered imports, the action pages, and security / UI e
   - The "/" shortcut is ignored while a dialog is open.
   - Editing the Power Hour draft name no longer swallows the next click.
   - In the artifact, closing the conference "Printable text" returns to the conference.
+
+## Added: missing skipped, "don't count", Agency Pathway, downloads, report imports (Nov 1)
+- **AP math** skips missing (M) and "don't count" scores. Status rules are otherwise unchanged.
+- **Agency Pathway progress import:** `Student ID,Course,Unit,Steps done,Steps total,Cleared` on the Import page.
+  - Rows are matched on Student ID. Unknown IDs are counted and reported.
+  - Re-importing a course + unit replaces every entry for that course + unit.
+  - "Cleared" accepts Yes / True / 1 / ✓, or done ≥ total.
+  - Chips ("Pathway 3/7" / "✓ Cleared") appear:
+    - on Retest messages rows (that unit);
+    - on Power Hour drafts rows (the triggering unit; for class-grade lists, the latest unit);
+    - in a new Pathway column of the conference Unit tracker.
+  - T-TESS 1.4/2.4 and At a glance show counts only: per course + unit, students started / cleared in the **retest group** (latest TAC unit test for that unit below the retest cap) vs. **all students** in the course.
+- **Saving files:** "Save … file" on Back up and Export CSV.
+  - In a normal browser tab it is a plain download.
+  - In the claude.ai artifact it goes through the page's `downloads` capability (declared on the artifact). The viewer confirms each save.
+  - Copy all is always available as the fallback.
+- **Report imports:**
+  - College Board score summaries, Instructional Planning Reports and district participation are logged as **Reports**, with their own chip on the Import page. Earlier ones logged as "Profile" are relabelled on load.
+  - Agency Pathway imports are logged as **Pathway**.
+  - Neither counts as a data refresh, so "hidden until the next refresh" lists (Retest messages sent, Power Hour drafted) stay hidden.
 
 ## Artifact limits (by design)
 The claude.ai artifact frame blocks several browser features, so the page works around them:

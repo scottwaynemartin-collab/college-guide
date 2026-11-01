@@ -541,6 +541,11 @@ tr.hi .bbar i{background:var(--tq)} tr.hi td{background:var(--tq-soft)}
 .rmopt .rmrow:last-child{border-bottom:0}
 .rmoh{font:800 11px var(--sans);text-transform:uppercase;letter-spacing:.05em;color:var(--ink3);margin:6px 0 2px}
 .tag.sent{background:var(--tq-soft);color:var(--tq-ink)}
+.tag.pw{background:var(--card2);color:var(--ink2);box-shadow:inset 0 0 0 1px var(--line2)}.tag.pw.ok{background:var(--ok-bg);color:var(--ok-ink);box-shadow:none}
+button.nchip{font:inherit;cursor:pointer;border:0;text-align:left}
+.nchip.ex{text-decoration:line-through;opacity:.6}.nchip.ex small,.nchip.miss small{display:block;text-decoration:none;font-size:10px;color:var(--ink3);font-weight:600}
+.nchip.miss{opacity:.7}
+@media print{ body.conf-open .nchip.ex{text-decoration:line-through} }
 .admh{font:900 13px var(--display);text-transform:uppercase;letter-spacing:.04em;margin:16px 0 6px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}.admh small{font:600 11px var(--sans);text-transform:none;letter-spacing:0;color:var(--ink3)}
 .adm .t td{padding:5px 8px}.adm .minor{font-size:11px}
 @media (max-width:640px){.adm .t th:last-child,.adm .t td:last-child{display:none}.adm .t td,.adm .t th{padding:4px 5px}.adm .strip{grid-template-columns:1fr 1fr;gap:8px}.adm .stat{padding:10px 12px}}
@@ -836,7 +841,7 @@ const AP_EXAM = {paid:'Paid', unpaid:'Unpaid', opted:'Opted out'};
 
 /* ---------- storage (browser only) ---------- */
 const KEY = 'classroomDashboard.v1';
-const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, emailLog:{}, conferences:{}, ttess:{}, groups:[], retestMsgs:{}, phDrafted:{}, cb:{scores:[], ipr:[], district:[]}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
+const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, emailLog:{}, conferences:{}, ttess:{}, groups:[], retestMsgs:{}, phDrafted:{}, excluded:{}, pathway:{}, cb:{scores:[], ipr:[], district:[]}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
 let DB = load();
 function load(){ try{ return Object.assign(blank(), JSON.parse(localStorage.getItem(KEY)||'{}')); }catch(e){ return blank(); } }
 function save(){ const j = JSON.stringify(DB);
@@ -854,6 +859,7 @@ function migrate(){
   const fresh = blank(); Object.keys(fresh).forEach(k => { if (DB[k] == null) DB[k] = fresh[k]; });
   DB.settings ||= {}; DB.cb ||= {}; ['scores','ipr','district'].forEach(k => { if (!Array.isArray(DB.cb[k])) DB.cb[k] = []; });
   Object.values(DB.assignments).forEach(a => { if (!a.year) a.year = curYear(); });
+  (DB.imports || []).forEach(i => { if (i.source === 'Profile' && !i.students && /College Board|report/i.test(i.file || '')) i.source = 'Reports'; });   // report imports used to be logged as Profile
   if (!DB.settings.rm80){ ['retestMsgCut','retestMsg','retestMsg2'].forEach(k => delete DB.settings[k]); DB.settings.rm80 = true; }   // one-time: retest messages moved from ≤70 to below 80
   if (!DB.settings.rm81){ ['retestMsg','retestMsg2'].forEach(k => delete DB.settings[k]); DB.settings.rm81 = true; }   // one-time: A Block / duty sentence added to the message
   Object.values(DB.scores).forEach(sc => Object.values(sc).forEach(v => { if (v && v.m === false) delete v.m; if (v && typeof v.p === 'number') v.p = Math.round(v.p * 100) / 100; }));   // smaller storage
@@ -878,7 +884,9 @@ const p0 = n => n == null ? '—' : Math.round(n) + '%';
 const mean = a => a.length ? a.reduce((s,x)=>s+x,0)/a.length : null;
 const plural = (n, w) => `${n} ${w}${n===1?'':'s'}`;
 const ago = t => { const d=(Date.now()-t)/1000; return d<60?'just now':d<3600?Math.floor(d/60)+'m ago':d<86400?Math.floor(d/3600)+'h ago':Math.floor(d/86400)+'d ago'; };
-const src = id => S().sources.find(s=>s.id===id) || (id==='Profile' ? {id, color:'var(--blk)', short:'PR'} : S().sources[S().sources.length-1]);
+const src = id => S().sources.find(s=>s.id===id) || ({Profile:{id, color:'var(--blk)', short:'PR'}, Reports:{id, color:'var(--silver)', short:'CB'}, Pathway:{id, color:'var(--tq-ink)', short:'PW'}})[id] || S().sources[S().sources.length-1];
+/* "Hidden until the next data refresh" means the next import of student data — College Board / district reports and Pathway progress don't count. */
+const lastDataImport = () => { const t = DB.imports.filter(i => !['Reports','Pathway'].includes(i.source)).map(i => i.at || 0); return t.length ? Math.max(...t) : 0; };
 const srcColor = id => src(id).color;
 const letter = p => p == null ? '—' : (S().scale.find(([min]) => p >= min) || [0,'F'])[1];
 const initials = n => n.split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join('').toUpperCase();
@@ -907,13 +915,24 @@ function askText(title, value, onSave){
   $('#askSave').onclick = done; $('#askIn').onkeydown = e => { if (e.key==='Enter') done(); };
   $('#askIn').select();
 }
+/* Saving a file: a plain download link in a normal browser tab; inside the claude.ai artifact viewer (which blocks those) the page's "downloads" capability. Copy all always works. */
+const canSave = () => CAN_PRINT || !!(window.claude && typeof window.claude.use === 'function');
+async function saveFile(filename, text, type){
+  if (CAN_PRINT){ try { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], {type})); a.download = filename; document.body.appendChild(a); a.click(); a.remove(); return; } catch(_){} }
+  let dl = null; try { dl = window.claude && await window.claude.use('downloads'); } catch(_){}
+  if (!dl){ toast('Saving files isn’t available here — use Copy all'); return; }
+  try { await dl.save({filename, data: text}); toast(`Saved ${filename}`); }
+  catch(e){ const why = String((e && (e.code || e.message)) || e);
+    if (/declin|cancel|denied|reject|abort/i.test(why)) return toast('Save cancelled');
+    try { await dl.save({filename, data: new Blob([text], {type: type || 'text/plain'})}); toast(`Saved ${filename}`); } catch(_){ toast('Couldn’t save the file — use Copy all'); } }
+}
 function showText(title, text, filename, type){
   modal(`<div class="dh"><h2>${esc(title)}</h2><button class="btn sm x" data-close aria-label="Close">✕</button></div>
-    <p>Copy this and keep it somewhere safe${filename && CAN_PRINT ? ', or download it as a file' : ''}.</p>
+    <p>Copy this and keep it somewhere safe${filename && canSave() ? ', or save it as a file' : ''}.</p>
     <textarea class="in code" id="outText" readonly>${esc(text)}</textarea>
-    <div class="actions" style="justify-content:flex-end;margin-top:12px">${filename && CAN_PRINT ?`<button class="btn" id="dlBtn">Download ${esc(filename.split('.').pop().toUpperCase())}</button>`:''}<button class="btn pri" id="cpBtn" data-autofocus>Copy all</button></div>`, '');
+    <div class="actions" style="justify-content:flex-end;margin-top:12px">${filename && canSave() ?`<button class="btn" id="dlBtn">Save ${esc(filename.split('.').pop().toUpperCase())} file</button>`:''}<button class="btn pri" id="cpBtn" data-autofocus>Copy all</button></div>`, '');
   $('#cpBtn').onclick = () => { const ta=$('#outText'); ta.select(); let done=false; try{ done=document.execCommand('copy'); }catch(_){} if (!done) try{ navigator.clipboard.writeText(text); done=true; }catch(_){} toast(done?'Copied':'Press Ctrl/Cmd+C to copy'); };
-  if (filename && CAN_PRINT) $('#dlBtn').onclick = () => { try{ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([text],{type})); a.download=filename; document.body.appendChild(a); a.click(); a.remove(); }catch(_){ toast('Downloads are blocked here — use Copy all'); } };
+  if (filename && canSave()) $('#dlBtn').onclick = () => saveFile(filename, text, type);
 }
 
 function normName(raw){
@@ -969,7 +988,7 @@ const scaleScore = comp => (S().apScale.find(([min]) => comp >= min) || [0,1])[1
 function apProject(course, pts){
   const st = S(), w = p => { const u = unitOf(p.a.name); return u ? 1 + (u-1)*st.apRecency : 1; };
   const wavg = arr => { const W = arr.reduce((t,p)=>t+w(p),0); return arr.reduce((t,p)=>t+p.p*w(p),0)/W; };
-  const mc = pts.filter(p => !p.m && isUnitMC(p.a));
+  const mc = pts.filter(p => !p.m && !p.ex && isUnitMC(p.a));
   if (!mc.length) return null;
   const wr = [];   // unit projection never uses writing
   const mcPct = wavg(mc), wrPct = wr.length ? wavg(wr) : null, mw = st.mcWeight[course] ?? st.mcWeight.default ?? .5;
@@ -979,7 +998,7 @@ function apProject(course, pts){
 /* Mock projection: full-length / practice-exam assignments, combined with the official exam weights.
    Missing writing parts are left out and the rest scaled up proportionally. */
 function mockProject(course, pts){
-  const mocks = pts.filter(p => !p.m && isMock(p.a.name)); if (!mocks.length) return null;
+  const mocks = pts.filter(p => !p.m && !p.ex && isMock(p.a.name)); if (!mocks.length) return null;
   const parts = {}; mocks.forEach(p => { const k = typeOf(p.a.name)==='writing' ? (writingPart(p.a.name) || 'frq') : 'mc'; (parts[k] ||= []).push(p.p); });
   const W = examWeights(course), avg = Object.fromEntries(Object.entries(parts).map(([k,v]) => [k, mean(v)]));
   const have = Object.keys(W).filter(k => avg[k] != null), miss = Object.keys(W).filter(k => avg[k] == null);
@@ -989,7 +1008,7 @@ function mockProject(course, pts){
     note: miss.length ? `(no ${miss.map(k=>k.toUpperCase()).join(', ')} yet)` : ''};
 }
 /* AP status for one class: AP Classroom MC only (progress-check MCQs, MC tests, retests as their own tests).
-   Writing (FRQ/SAQ/LEQ/DBQ), Canvas and Gradebook are left out. Missing counts as 0 only when marked missing. */
+   Writing (FRQ/SAQ/LEQ/DBQ), Canvas and Gradebook are left out. Scores marked missing (M) and scores the teacher set to "don't count" are skipped. */
 /* SINGLE SOURCE OF TRUTH: AP Classroom unit multiple-choice tests and retests (raw % = correct ÷ total).
    Gradebook/TAC copies of the same test are curved and never used; Progress Check MCQs, writing, Canvas and Gradebook are context only. */
 const schoolId = s => (s.ids || []).find(i => /^\d{5,7}$/.test(i)) || (s.ids || [])[0] || '';   // the school's student ID (Canvas/AP Classroom may add their own)
@@ -1001,7 +1020,7 @@ const isMockMC = a => isMock(a.name) && typeOf(a.name)!=='writing';
 const isApMC = a => isUnitMC(a) || isMockMC(a) || (S().apCountPC && a.source==='AP Classroom' && isPC(a) && typeOf(a.name)!=='writing');
 function apStatus(pts){
   const st = S(), cut = +st.apOnTrack, n = Math.max(1, Math.round(+st.apRecent || 2)), band = +st.apBand;
-  const mc = pts.filter(p => isApMC(p.a));
+  const mc = pts.filter(p => isApMC(p.a) && !p.m && !p.ex);   // missing (M) and "don't count" scores are skipped, not counted as 0
   const pr = v => (Math.round(v) >= cut && v < cut) ? fmt(v,1)+'%' : p0(v);
   if (!mc.length) return {status:'none', reason:'No AP Classroom unit MC test yet', mc, last:[], avg:null};
   const avg = mean(mc.map(p=>p.p)), last = mc.slice(-n), full = last.length === n, nOk = last.filter(p=>p.p>=cut).length, L = last.map(p=>pr(p.p)).join(', ');
@@ -1064,7 +1083,7 @@ function classStats(key, cls, assigns, aC){
   for (const a of assigns){
     if (course && aC[a.id] && aC[a.id] !== course) continue;
     const v = sc[a.id]; if (!v || v.x || v.p == null) continue;
-    pts.push({a, p:v.p, m:!!v.m}); (bySrc[a.source] ||= []).push(v.p);
+    pts.push(DB.excluded && DB.excluded[key+'|'+a.id] ? {a, p:v.p, m:!!v.m, ex:true} : {a, p:v.p, m:!!v.m}); (bySrc[a.source] ||= []).push(v.p);
   }
   const avg = mean(pts.map(x=>x.p));
   let drop = null, recent = null, prior = null;
@@ -1651,7 +1670,7 @@ const CHROME_PROMPT = `Please pull my students' grades into my Classroom Dashboa
 function viewImport(){
   const plat = S().sources.map(x=>`<option ${x.id===UI.pasteSrc?'selected':''}>${esc(x.id)}</option>`).join('');
   return `<div class="phead"><div><h1>Import data</h1><p>Paste, drop files, or let Claude in Chrome do it. Import again any time: newer scores replace older ones.</p>
-      <div class="syncs">${[...S().sources.filter(p=>p.id!=='Other'), src('Profile')].map(p=>{ const i=lastSync(p.id); return `<span class="sync" style="background:var(--card);color:var(--ink2);box-shadow:inset 0 0 0 1px var(--line)"><i style="background:${p.color}"></i>${esc(p.id)} · ${i?ago(i.at):'never'}</span>`; }).join('')}</div></div></div>
+      <div class="syncs">${[...S().sources.filter(p=>p.id!=='Other'), src('Profile'), src('Reports'), src('Pathway')].map(p=>{ const i=lastSync(p.id); return `<span class="sync" style="background:var(--card);color:var(--ink2);box-shadow:inset 0 0 0 1px var(--line)"><i style="background:${p.color}"></i>${esc(p.id)} · ${i?ago(i.at):'never'}</span>`; }).join('')}</div></div></div>
     <div class="grid">
       <section class="card w7"><div class="ch"><h2>Pull with Claude in Chrome</h2><span class="sp"></span><button class="btn sm pri" data-act="copy-prompt">Copy prompt</button></div><div class="cb">
         <p style="margin:0 0 10px;color:var(--ink2);font-size:13px">Keep this tab open, open Claude in Chrome, paste the prompt. It reads Canvas, AP Classroom and your gradebook and pastes the grades into the box on the right.</p>
@@ -1675,6 +1694,10 @@ function viewImport(){
         <p class="minor" style="margin:6px 0 0">Any other column (e.g. Counselor, TIA EOY) is kept and shown on the student's conference page. A student in two classes has one row per class; re-importing updates, never duplicates. Blank cells keep the earlier value.</p></details>
       </div></section>
       <section class="card w12" id="cbCardImport"><div class="ch"><h2>College Board reports</h2><span class="sub">AP score reports, district participation and the Instructional Planning Report · paste into the box above · used in Compare and T-TESS 4.2</span></div><div class="cb">
+        <div class="row2" style="margin-bottom:10px"><div><div class="minor" style="font-weight:800;margin-bottom:4px">AGENCY PATHWAY PROGRESS (one row per student per unit)</div>
+          <div class="prompt">Student ID,Course,Unit,Steps done,Steps total,Cleared
+410200,APHG,3,3,7,No
+410206,APHG,3,7,7,Yes</div></div><div class="minor" style="align-self:end">Shows "Pathway 3/7" or "✓ Cleared" on Retest messages, Power Hour drafts and the conference Unit tracker; counts only on T-TESS and At a glance. Re-importing a course + unit replaces it. Matched on Student ID.</div></div>
         <div class="row2" style="margin-bottom:10px"><div><div class="minor" style="font-weight:800;margin-bottom:4px">DISTRICT PARTICIPATION (one row per campus per course; shown on At a glance)</div>
           <div class="prompt">Course,Year,Campus,Participation %
 APHG,2026,Panther Creek,71
@@ -1723,7 +1746,7 @@ function dataCheckCard(){
 
 
 /* ---------- unit MC helpers: reteach radar, retest priority, groups, outcomes ---------- */
-const unitMCpts = c => c.pts.filter(x => isUnitMC(x.a));
+const unitMCpts = c => c.pts.filter(x => isUnitMC(x.a) && !x.ex);   // "don't count" scores are left out of radar, groups, outcomes and priority
 function latestByUnit(c){ const u = {}; unitMCpts(c).forEach(x => { const n = unitOf(x.a.name); if (n && (!x.m || !u[n] || u[n].m)) u[n] = x; }); return u; }   // latest scored attempt; a missing retest doesn't replace the test   // a later retest replaces the test
 const dateS = t => new Date(t).toLocaleDateString(undefined, {month:'short', day:'numeric'});
 function reteachRadar(m){
@@ -1792,7 +1815,7 @@ function openOutcomes(){
 }
 /* ---------- retest messages (TAC curved unit test ≤ 70, optional 71–79) ---------- */
 function retestMsgRows(m){
-  const cut = +S().retestMsgCut, cap = +S().retestCap, lastImp = DB.imports.length ? Math.max(...DB.imports.map(i=>i.at||0)) : 0, out = [];
+  const cut = +S().retestMsgCut, cap = +S().retestCap, lastImp = lastDataImport(), out = [];
   m.studs.forEach(s => s.cs.forEach(c => {
     const gb = c.pts.filter(x => x.a.source==='Gradebook' && unitOf(x.a.name) && typeOf(x.a.name)==='test' && !isRetest(x.a) && !isMock(x.a.name));
     const last = gb[gb.length-1]; if (!last || last.m || Math.round(last.p) >= cap) return;
@@ -1809,7 +1832,7 @@ function viewRetestMsgs(m){
   rows.forEach(r => (groups[r.c.cls+'|'+r.u] ||= {cls:r.c.cls, u:r.u, rows:[]}).rows.push(r));
   const gs = Object.values(groups).sort((a,b)=>classSort(a.cls||'',b.cls||'') || a.u-b.u); UI.rmGroups = gs;
   const must = rows.filter(r=>r.tier==='must' && !r.hidden), opt = rows.filter(r=>r.tier==='opt' && !r.hidden), hid = rows.filter(r=>r.hidden);
-  const row = (r, on) => `<div class="rmrow${on?'':' opt'}"><label><input type="checkbox" data-rm="${esc(r.id)}" ${on?'checked':''} aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">TAC ${p0(r.p)}${schoolId(r.s)?` · ID ${esc(schoolId(r.s))}`:''}</span>${r.sent?`<span class="tag sent">sent ${dateS(r.sent)}</span>`:''}<button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
+  const row = (r, on) => `<div class="rmrow${on?'':' opt'}"><label><input type="checkbox" data-rm="${esc(r.id)}" ${on?'checked':''} aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">TAC ${p0(r.p)}${schoolId(r.s)?` · ID ${esc(schoolId(r.s))}`:''}</span>${pathwayChip(r.s.key, r.c.course, r.u)}${r.sent?`<span class="tag sent">sent ${dateS(r.sent)}</span>`:''}<button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
   const body = gs.map((g,i) => { const a = g.rows.filter(r=>r.tier==='must'&&!r.hidden), o = g.rows.filter(r=>r.tier==='opt'&&!r.hidden), h = g.rows.filter(r=>r.hidden); if (!a.length && !o.length) return h.length ? `<p class="fine w12" style="margin:0">${esc(g.cls)} · Unit ${g.u}: sent since the last data refresh (hidden): ${h.map(r=>esc(r.s.name)).join(', ')}</p>` : '';
     return `<section class="card w6 rmg"><div class="ch"><h2>${esc(g.cls||'No class')} · Unit ${g.u}</h2><span class="count help">${a.length}</span>${o.length?`<span class="sub">+${o.length} optional</span>`:''}</div><div class="cb">
       ${a.length ? a.map(r=>row(r,true)).join('') : `<div class="minor">No one below ${cut}.</div>`}
@@ -1833,16 +1856,16 @@ function phNowActive(v){ v = String(v||'').trim(); if (!v) return false;
   const mo = 'janfebmaraprmayjunjulaugsepoctnovdec'.indexOf(m[1].toLowerCase().slice(0,3)) / 3, y0 = +curYear().slice(0,4), d = new Date(mo >= 7 ? y0 : y0 + 1, mo, +m[2], 23, 59);
   return d.getTime() >= Date.now(); }
 function phDraftRows(m, kind){
-  const cap = +S().retestCap, cut = +S().atRisk, lastImp = DB.imports.length ? Math.max(...DB.imports.map(i=>i.at||0)) : 0, out = [];
+  const cap = +S().retestCap, cut = +S().atRisk, lastImp = lastDataImport(), out = [];
   m.studs.forEach(s => s.cs.forEach(c => { if (!c.cls) return;
-    let p = null, why = '', score = null;
+    let p = null, why = '', score = null, pu = null;
     if (kind==='test'){ const gb = c.pts.filter(x => x.a.source==='Gradebook' && unitOf(x.a.name) && typeOf(x.a.name)==='test' && !isMock(x.a.name)); const last = gb[gb.length-1]; if (!last || !(last.m || below(last.p, cap))) return;
-      score = last.m ? 0 : last.p; why = `Unit ${unitOf(last.a.name)} ${isRetest(last.a)?'retest':'test'} ${last.m ? 'missing' : Math.round(last.p)}`; }
+      score = last.m ? 0 : last.p; pu = unitOf(last.a.name); why = `Unit ${unitOf(last.a.name)} ${isRetest(last.a)?'retest':'test'} ${last.m ? 'missing' : Math.round(last.p)}`; }
     else { const lim = kind==='c70' ? cut : cap; if (!below(c.avg, lim)) return; score = c.avg; why = `class grade ${Math.round(c.avg)}`; }
     const pr = s.profile || {}, drafted = phNowActive(pr.phNow), stamp = (DB.phDrafted||{})[s.key], hidden = !!stamp && stamp > lastImp;
     const lastDash = (DB.drafts[s.key]||[]).slice(-1)[0], lastLog = (DB.contacts[s.key]||[]).filter(x => /^PH draft/.test(x.type)).slice(-1)[0];
     const lastDraft = pr.phLast || (lastDash ? lastDash.day : lastLog ? dateS(lastLog.at) : '');
-    out.push({s, c, cls:c.cls, score, why, drafted, now: pr.phNow || '', hidden, lastDraft, noShows: pr.phNoShows ?? '', id: s.key+'|'+c.cls});
+    out.push({s, c, cls:c.cls, score, why, pw: pu ? pathwayChip(s.key, c.course, pu) : latestPathwayChip(s.key, c.course), drafted, now: pr.phNow || '', hidden, lastDraft, noShows: pr.phNoShows ?? '', id: s.key+'|'+c.cls});
   }));
   return out.sort((a,b) => classSort(a.cls,b.cls) || a.score - b.score);
 }
@@ -1852,7 +1875,7 @@ function viewPhDrafts(m){
   UI.pdRows = rows;
   const groups = {}; rows.forEach(r => (groups[r.cls] ||= []).push(r));
   const nStud = new Set(rows.map(r=>r.s.key)).size;
-  const row = r => `<div class="rmrow"><label><input type="checkbox" data-pd="${esc(r.id)}" checked aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">${esc(r.cls)}${schoolId(r.s)?` · ID ${esc(schoolId(r.s))}`:''}</span><span class="tag ${r.score < S().atRisk ? 'below' : 'missing'}">${esc(r.why)}</span><span class="minor pdmeta">last draft ${esc(r.lastDraft || '—')} · no-shows ${esc(String(r.noShows===''?'—':r.noShows))}</span><button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
+  const row = r => `<div class="rmrow"><label><input type="checkbox" data-pd="${esc(r.id)}" checked aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">${esc(r.cls)}${schoolId(r.s)?` · ID ${esc(schoolId(r.s))}`:''}</span><span class="tag ${r.score < S().atRisk ? 'below' : 'missing'}">${esc(r.why)}</span>${r.pw||''}<span class="minor pdmeta">last draft ${esc(r.lastDraft || '—')} · no-shows ${esc(String(r.noShows===''?'—':r.noShows))}</span><button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
   return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())} · next: ${esc(pdDay())} · A Block</div><h1>Power Hour drafts</h1>
       <p>Build a draft list, then copy it for Claude to enter in the Tutorials sheet (or draft it yourself on the Power Hour page). Students already assigned for the upcoming Power Hour (profile "Power Hour assigned now") are left out. One line per student per class.</p></div>
     <div class="actions"><div class="tabs" role="group" aria-label="List">${PD_LISTS.map(l=>`<button aria-pressed="${l.id===kind}" data-pdlist="${l.id}">${l.label}</button>`).join('')}</div><button class="btn" data-go="power">Power Hour page →</button></div></div>
@@ -1890,7 +1913,7 @@ function adminData(){
   const dash = Object.values(DB.drafts).reduce((t,a)=>t+a.length,0) + Object.values(DB.contacts).flat().filter(c => /^PH draft/.test(c.type)).length;
   const dist = {}; DB.cb.district.forEach(x => { const yrs = (dist[x.course] ||= {}); (yrs[x.year] ||= []).push(x); });
   const charts = Object.entries(dist).sort((a,b)=>courseSort(a[0],b[0])).map(([course, yrs]) => { const year = Object.keys(yrs).sort().slice(-1)[0], rows = yrs[year].slice().sort((a,b)=>b.pct-a.pct); return {course, year, rows, avg: mean(rows.map(r=>r.pct))}; });
-  return {classes, courses, tot, stuTot, drafted: drafted.size, draftsN, dash, dept: parsePartLines(S().adminDept), district: parsePartLines(S().adminDistrict), charts, students: m.studs.length};
+  return {pw: pathwayStats(allClasses()), classes, courses, tot, stuTot, drafted: drafted.size, draftsN, dash, dept: parsePartLines(S().adminDept), district: parsePartLines(S().adminDistrict), charts, students: m.studs.length};
 }
 const pctOrDash = (a, b) => b ? Math.round(a/b*100) + '%' : '—';
 function adminHtml(d, forPrint){
@@ -1910,6 +1933,8 @@ function adminHtml(d, forPrint){
       <tr class="hi"><td><b>All my AP students</b><div class="minor">${d.stuTot.unpaid} signed up, not yet paid · ${d.stuTot.opted} opted out</div></td><td class="r num">${d.stuTot.paid}</td><td class="r num">${d.stuTot.n}</td><td class="r num"><b>${pctOrDash(d.stuTot.paid, d.stuTot.n)}</b></td><td style="width:30%">${bar(d.stuTot.n ? d.stuTot.paid/d.stuTot.n*100 : 0)}</td></tr>
       ${d.courses.map(c => row(`${c.course} · all periods`, c.paid, c.n, c.unpaid?` <span class="minor">· ${c.unpaid} unpaid</span>`:'') + d.classes.filter(r=>r.course===c.course).map(r => row(r.cls, r.paid, r.n, r.unpaid?` <span class="minor">· ${r.unpaid} unpaid</span>`:'')).join('')).join('')}
     </tbody></table>
+    ${d.pw.length ? `<h3 class="admh">Agency Pathway (retest module) <small>students started / cleared per unit · retest group = latest TAC unit test below ${st.retestCap}</small></h3>
+    <table class="t"><thead><tr><th>Course · unit</th><th class="r">Retest group</th><th class="r">Started</th><th class="r">Cleared</th><th class="r">All students</th><th class="r">Started</th><th class="r">Cleared</th></tr></thead><tbody>${d.pw.map(x => `<tr><td><b>${esc(x.course)} · Unit ${x.u}</b></td><td class="r num">${x.grp.n}</td><td class="r num">${x.grp.started}</td><td class="r num"><b>${x.grp.cleared}</b> <span class="minor">${pctOrDash(x.grp.cleared, x.grp.n)}</span></td><td class="r num">${x.all.n}</td><td class="r num">${x.all.started}</td><td class="r num">${x.all.cleared} <span class="minor">${pctOrDash(x.all.cleared, x.all.n)}</span></td></tr>`).join('')}</tbody></table>` : ''}
     <h3 class="admh">${esc(st.adminDeptLabel)} <small>entered in Settings from the AP coordinator's list</small></h3>
     ${d.dept.length ? `<table class="t"><thead><tr><th>Group</th><th class="r">Paid</th><th class="r">Total</th><th class="r">%</th><th></th></tr></thead><tbody>${d.dept.map(x => `<tr><td><b>${esc(x.label)}</b></td><td class="r num">${x.paid ?? '—'}</td><td class="r num">${x.total ?? '—'}</td><td class="r num"><b>${x.pct==null?'—':Math.round(x.pct)+'%'}</b></td><td style="width:30%">${bar(x.pct)}</td></tr>`).join('')}</tbody></table>` : `<p class="minor">Not entered yet${forPrint?'':' — Settings → At a glance inputs'}.</p>`}
     ${d.charts.length ? `<h3 class="admh">AP exam participation by campus <small>district · ${esc(d.charts.map(c=>c.year).filter((v,i,a)=>a.indexOf(v)===i).join(', '))} · ${esc(st.school)} highlighted · dashed line = district average</small></h3>
@@ -1923,6 +1948,7 @@ function adminText(d){ const st = S(); return [`At a glance — ${st.school} · 
   `On pace for a 3+: ${pctOrDash(d.tot.proj3, d.tot.proj)} (${d.tot.proj3} of ${d.tot.proj} AP exam enrollments with a projection; ${d.students} students)`, ...d.courses.map(c => `  ${c.course}: ${pctOrDash(c.proj3,c.proj)} (${c.proj3} of ${c.proj})` + d.classes.filter(r=>r.course===c.course).map(r => `\n    ${r.cls}: ${pctOrDash(r.proj3,r.proj)} · AP on track now ${pctOrDash(r.ok,r.withMc)}`).join('')), '',
   `AP exam paid: ${pctOrDash(d.stuTot.paid, d.stuTot.n)} (${d.stuTot.paid} of ${d.stuTot.n}; ${d.stuTot.unpaid} unpaid, ${d.stuTot.opted} opted out)`, ...d.courses.map(c => `  ${c.course}: ${pctOrDash(c.paid,c.n)} (${c.paid} of ${c.n})` + d.classes.filter(r=>r.course===c.course).map(r => `\n    ${r.cls}: ${pctOrDash(r.paid,r.n)} (${r.paid} of ${r.n})`).join('')), '',
   `Power Hour: ${d.drafted} students drafted · ${d.draftsN.total || d.dash} drafts · ${d.draftsN.attended} attended · ${d.draftsN.noShows} no-shows`, '',
+  ...(d.pw.length ? ['Agency Pathway (retest module), cleared:', ...d.pw.map(x => `  ${x.course} Unit ${x.u}: retest group ${x.grp.cleared}/${x.grp.n} (${x.grp.started} started) · all students ${x.all.cleared}/${x.all.n}`), ''] : []),
   `${st.adminDeptLabel}:`, ...(d.dept.length ? d.dept.map(x => `  ${x.label}: ${x.pct==null?'—':Math.round(x.pct)+'%'}${x.paid!=null?` (${x.paid} of ${x.total})`:''}`) : ['  not entered']), '',
   ...d.charts.flatMap(ch => [`AP exam participation by campus — ${ch.course} ${ch.year} (district avg ${Math.round(ch.avg)}%):`, ...ch.rows.map(r => `  ${r.campus}: ${Math.round(r.pct)}%`), '']),
   `${st.adminDistrictLabel}:`, ...(d.district.length ? d.district.slice().sort((a,b)=>(b.pct??-1)-(a.pct??-1)).map(x => `  ${x.label}: ${x.pct==null?'—':Math.round(x.pct)+'%'}`) : ['  not entered']), '', 'Student-level data available on request.'].join('\n'); }
@@ -1952,7 +1978,8 @@ function viewHelp(){
     ${sec('AP status rule', `<p><span class="pill ok">✓ AP on track</span> raw MC average ≥ ${st.apOnTrack}%, <i>or</i> the last ${st.apRecent} unit tests both ≥ ${st.apOnTrack}%.</p>
       <p><span class="pill watch">! AP watch</span> average ${st.apOnTrack-st.apBand}–${st.apOnTrack-0.1}%, <i>or</i> only one of the last ${st.apRecent} ≥ ${st.apOnTrack}%.</p>
       <p><span class="pill help">▼ AP needs help</span> average below ${st.apOnTrack-st.apBand}% and no recent test ≥ ${st.apOnTrack}%.</p>
-      <p><b>Projection:</b> the unit MC average (later units weigh more) mapped to 85+ → 5, 70+ → 4, 55+ → 3, 40+ → 2. Once a mock / practice exam exists it becomes the headline. Numbers are in Settings.</p>`)}
+      <p><b>Projection:</b> the unit MC average (later units weigh more) mapped to 85+ → 5, 70+ → 4, 55+ → 3, 40+ → 2. Once a mock / practice exam exists it becomes the headline. Numbers are in Settings.</p>
+      <p><b>Left out of the math:</b> scores marked missing (M), and any single score you set to “don’t count” on the conference page (click the score — for a non-attempt like 4%). Both stay visible.</p>`)}
     ${sec('Pages', `<ul class="helpl">
       <li><b>Overview</b> — tiles, roster, conversation starters (watch flags or ${st.missingForHelp}+ missing), reteach radar, retest priority, intervention → outcome, charts.</li>
       <li><b>Retests</b> — AP Classroom unit MC tests under ${st.retestCap}, tick when done.</li>
@@ -1976,6 +2003,16 @@ function viewHelp(){
   </div>`;
 }
 /* ---------- conference prep ---------- */
+function openExclude(id){
+  const i1 = id.indexOf('|'), k = id.slice(0, i1), aid = id.slice(i1 + 1), a = DB.assignments[aid], v = (DB.scores[k]||{})[aid], cur = (DB.excluded||{})[id];
+  if (!a || !DB.students[k]) return; UI.reopen = k;
+  modal(`<div class="dh"><h2>${cur ? 'Count this score again?' : 'Don’t count this score?'}</h2><button class="btn sm x" data-close aria-label="Close">✕</button></div>
+    <p><b>${esc(DB.students[k].name)}</b> · ${esc(bare(a.name))} · ${v && v.p!=null ? p0(v.p) : '—'}</p>
+    ${cur ? `<p class="minor">Left out of AP status and the projection since ${dateS(cur.at)}${cur.note ? ` — “${esc(cur.note)}”` : ''}.</p>`
+      : `<p class="minor">For a non-attempt (for example a 4% or 7%). The score stays on the page, struck through, but is left out of AP status, the projection, reteach radar and groups. Saved in this browser and in backups.</p><label class="field">Note<input class="in" id="exNote" placeholder="e.g. didn’t attempt — absent / tech problem" data-autofocus></label>`}
+    <div class="actions" style="justify-content:flex-end;margin-top:12px"><button class="btn" data-close>Cancel</button><button class="btn pri" id="exGo">${cur ? 'Count it again' : 'Don’t count it'}</button></div>`);
+  $('#exGo').onclick = () => { DB.excluded ||= {}; if (cur) delete DB.excluded[id]; else DB.excluded[id] = {at: Date.now(), note: ($('#exNote')?.value || '').trim()}; save(); UI.reopen = null; closeLayer(); render(); openStudent(k); toast(cur ? 'Score counted again' : 'Score left out of AP math'); };
+}
 function talkingPoints(s, p){
   const out = [], cut = +S().apOnTrack;
   const tr = s.cs.map(c => { const mc = unitMCpts(c).filter(x=>!x.m); if (!mc.length) return null; let up = 0, dn = 0; for (let i = mc.length-1; i > 0 && mc[i].p > mc[i-1].p; i--) up++; for (let i = mc.length-1; i > 0 && mc[i].p < mc[i-1].p; i--) dn++; return {c, mc, up, dn}; }).filter(Boolean);
@@ -2090,7 +2127,7 @@ function ttessAgg(classes){
     rprio: sum('rprio'), retest: sum('retest'), full: L.full, priorAp: L.priorAp, groupsMade: (DB.groups||[]).filter(g => (g.classes||[]).some(c => classes.includes(c))).length, phDrafts: L.phDrafts, phAtt: L.phAtt, dashDrafts: L.dashDrafts,
     goalSet: L.goalSet, checkins: L.checkins, qGoals: sum('qGoals'), qMet: sum('qMet'), contacts: L.contacts, emails: L.emails, rmSent: L.rmSent, retestGains: cat('retestGains'), phChanges: cat('phChanges'),
     weeks: parts[0]?.weeks || 0, spanWeeks: parts[0]?.spanWeeks || 0, confs: L.confs, withMc: sum('withMc'), onNow: sum('onNow'), onFirst: sum('onFirst'), tiaPairs: L.tiaPairs, priorPairs: L.priorPairs, proj: sum('proj'), proj3: sum('proj3'),
-    refs: L.refs, enroll: sum('n')};
+    refs: L.refs, enroll: sum('n'), pw: pathwayStats(classes)};
 }
 function ttessRows(t){
   const st = S(), sign = v => v==null ? '—' : (v>=0?'+':'−') + fmt(Math.abs(v),1) + ' pts', B = x => `<b>${x}</b>`;
@@ -2103,7 +2140,8 @@ function ttessRows(t){
       where: go('Overview · Reteach radar','overview','radarCard'), plain:`The teacher pulls scores from several systems every week and uses them to find the units the class understood least and the students a single retest would move onto pace for the AP exam.`},
     {dim:'1.3', name:'Knowledge of Students', show:[`Students with a full profile (8th-grade STAAR, TIA beginning-of-year and GPA on file): ${B(t.pctOf(t.full))} (${t.full} of ${t.n})`, `Prior AP score on file: ${B(t.priorAp)} students`],
       where: go('Conference page (open any student)','overview','rosterCard'), plain:`Each student has a one-page conference view that puts their test history, grades, attendance and goals next to their AP progress, so conversations start from the whole picture.`},
-    {dim:'1.4 / 2.4', name:'Activities / Differentiation', show:[`Reteach groups made: ${B(t.groupsMade)}`, `Power Hour drafts: ${B(t.phDrafts)} (school record)${t.dashDrafts?` + ${B(t.dashDrafts)} drafted from this dashboard`:''} · attended: ${B(t.phAtt)}`],
+    {dim:'1.4 / 2.4', name:'Activities / Differentiation', show:[`Reteach groups made: ${B(t.groupsMade)}`, `Power Hour drafts: ${B(t.phDrafts)} (school record)${t.dashDrafts?` + ${B(t.dashDrafts)} drafted from this dashboard`:''} · attended: ${B(t.phAtt)}`,
+        ...(t.pw.length ? [`Agency Pathway (retest module): ${t.pw.map(x => `${esc(x.course)} U${x.u} — retest group ${B(`${x.grp.cleared}/${x.grp.n}`)} cleared, ${x.grp.started} started · all students ${x.all.cleared}/${x.all.n} cleared`).join('; ')}`] : [])],
       where: go('Make groups','', '', 'make-groups') + ' · ' + go('Power Hour','power'), plain:`Small groups are built from each student's weakest unit, and students below a passing average are drafted into the school's Power Hour tutorial block.`},
     {dim:'2.1 / 3.3', name:'Achieving Expectations / Classroom Culture', show:[`Students with an Agency goal set: ${B(t.pctOf(t.goalSet))} (${t.goalSet} of ${t.n})`, `Check-ins done: ${B(t.checkins)}`, `Quarter grade goals met: ${B(t.qGoals ? t.pctOf(t.qMet, t.qGoals) : '—')}${t.qGoals?` (${t.qMet} of ${t.qGoals} goals with a grade)`:''}`],
       where: go('Conference page · Agency section','overview','rosterCard'), plain:`Students set their own grade goal and action steps with the teacher, pick a check-in date, and see whether they met the goal when the quarter grade comes in.`},
@@ -2247,15 +2285,18 @@ function openStudent(key, fresh){
   const pcs = s.pts.filter(x => x.a.source==='AP Classroom' && /progress check/i.test(bare(x.a.name)));
   const psat = testHistory(p.psatHist), sat = testHistory(p.satHist);
   const units = c => { const u = {}; c.pts.forEach(x => { const n = unitOf(x.a.name); if (!n) return; const r = (u[n] ||= {test:[], retest:[], pc:[]});
-      if (isUnitMC(x.a)) (isRetest(x.a) ? r.retest : r.test).push(x.m ? 0 : x.p); else if (x.a.source==='AP Classroom' && isPC(x.a) && typeOf(x.a.name)!=='writing') r.pc.push(x.m ? 0 : x.p); }); return Object.entries(u).filter(([,r]) => r.test.length||r.retest.length||r.pc.length).sort((a,b)=>a[0]-b[0]); };
+      if (isUnitMC(x.a)) (isRetest(x.a) ? r.retest : r.test).push(x); else if (x.a.source==='AP Classroom' && isPC(x.a) && typeOf(x.a.name)!=='writing') r.pc.push(x.m ? 0 : x.p); }); Object.keys(DB.pathway||{}).forEach(id => { const pw = pwSplit(id); if (pw.k===key && pw.course===c.course) u[pw.u] ||= {test:[], retest:[], pc:[]}; });
+      return Object.entries(u).filter(([n,r]) => r.test.length||r.retest.length||r.pc.length||pathwayOf(key, c.course, n)).sort((a,b)=>a[0]-b[0]); };
   const classUnitAvg = (cls, course, u) => { const ids = Object.values(DB.assignments).filter(a => !a.hidden && yearOf(a)===curYear() && isUnitMC(a) && !isRetest(a) && unitOf(a.name)===+u && (!aCourseMap()[a.id] || aCourseMap()[a.id]===course)).map(a=>a.id); const ps = [];
       Object.entries(DB.students).forEach(([k2, st2]) => { if (!st2.classes.includes(cls)) return; ids.forEach(id => { const v = (DB.scores[k2]||{})[id]; if (v && !v.x && v.p!=null) ps.push(v.p); }); }); return ps.length ? mean(ps) : null; };
   const tracker = c => { const rows = units(c); if (!rows.length) return `<div class="minor">No AP Classroom unit tests for ${esc(c.cls||'this class')} yet.</div>`;
     const cut = S().apOnTrack, col = v => v==null ? '' : v < cut ? 'color:var(--help-ink);font-weight:800' : '';
-    return `<table class="ft"><thead><tr><th>Unit</th><th class="r">Test (raw MC %)</th><th class="r">Retest</th><th class="r">Best</th><th class="r">Class avg</th><th class="r pcnc">PC (not counted)</th></tr></thead><tbody>${rows.map(([u, d]) => { const t = d.test.length ? d.test[0] : null, rt = d.retest.length ? Math.max(...d.retest) : null, best = [t, rt].filter(v=>v!=null).length ? Math.max(...[t, rt].filter(v=>v!=null)) : null, ca = classUnitAvg(c.cls, c.course, u);
+    return `<table class="ft"><thead><tr><th>Unit</th><th class="r">Test (raw MC %)</th><th class="r">Retest</th><th class="r">Best</th><th class="r">Class avg</th><th>Pathway</th><th class="r pcnc">PC (not counted)</th></tr></thead><tbody>${rows.map(([u, d]) => { const ok = x => x && !x.m && !x.ex, T = d.test[0] || null, R2 = d.retest.filter(ok), RT = R2.length ? R2.reduce((a,b) => b.p > a.p ? b : a) : (d.retest[0] || null);
+        const cellv = x => !x ? '—' : x.m ? '<span class="minor" title="marked missing — not counted">M</span>' : x.ex ? `<s title="not counted">${p0(x.p)}</s>` : p0(x.p);
+        const t = ok(T) ? T.p : null, rt = ok(RT) ? RT.p : null, best = [t, rt].filter(v=>v!=null).length ? Math.max(...[t, rt].filter(v=>v!=null)) : null, ca = classUnitAvg(c.cls, c.course, u);
       const rms = (DB.retestMsgs||{})[key+'|'+c.cls+'|'+u];
-      return `<tr><td><b>U${u}</b>${rms?`<div class="minor rmsent">Retest message sent: ${dateS(rms)}</div>`:''}</td><td class="r num" style="${col(t)}">${t==null?'—':p0(t)}</td><td class="r num" style="${col(rt)}">${rt==null?'—':p0(rt)}</td><td class="r num" style="font-weight:800;${col(best)}">${best==null?'—':p0(best)}</td><td class="r num">${ca==null?'—':p0(ca)}</td><td class="r num pcnc">${d.pc.length?p0(mean(d.pc)):'—'}</td></tr>`; }).join('')}</tbody></table>
-      <p class="fine">Raw % from AP Classroom (correct ÷ total); a Gradebook / TAC copy of the same test is curved and not used. Red = under ${cut}%. Progress checks are shown for context only.</p>`; };
+      return `<tr><td><b>U${u}</b>${rms?`<div class="minor rmsent">Retest message sent: ${dateS(rms)}</div>`:''}</td><td class="r num" style="${col(t)}">${cellv(T)}</td><td class="r num" style="${col(rt)}">${cellv(RT)}</td><td class="r num" style="font-weight:800;${col(best)}">${best==null?'—':p0(best)}</td><td class="r num">${ca==null?'—':p0(ca)}</td><td>${pathwayChip(key, c.course, u) || '<span class="minor">—</span>'}</td><td class="r num pcnc">${d.pc.length?p0(mean(d.pc)):'—'}</td></tr>`; }).join('')}</tbody></table>
+      <p class="fine">Raw % from AP Classroom (correct ÷ total); a Gradebook / TAC copy of the same test is curved and not used. Red = under ${cut}%. M = marked missing and struck-through = “don’t count”: both are left out of the math. Pathway = Agency Pathway (retest module) progress. Progress checks are shown for context only.</p>`; };
   const myGrade = (cls, q) => (p.byClass?.[cls]?.['grade'+q]) ?? (s.cs.length===1 ? p['grade'+q] : null);
   const other = Object.entries(p.other || {});
   $('#layer').innerHTML = `<div class="conf" role="dialog" aria-modal="true" aria-label="Conference: ${esc(s.name)}">
@@ -2277,8 +2318,10 @@ function openStudent(key, fresh){
         <section class="fsec c12 prep"><h2>Conference prep <span>3 talking points from the data</span></h2><div class="fb"><ol class="tps">${talkingPoints(s, p).map(t=>`<li class="${t.tone}">${esc(t.text)}</li>`).join('')}</ol></div></section>
         <section class="fsec c12"><h2>AP on pace <span>AP Classroom unit MC tests &amp; retests only (raw %) · on track if raw MC avg ≥ ${S().apOnTrack}% or last ${S().apRecent} ≥ ${S().apOnTrack}%</span></h2><div class="fb">
           ${s.cs.map(c=>`<div class="aprowc"><div style="min-width:220px">${apLine(c, s.cs.length>1)}${c.mock||c.unitProj?`<div class="projpair">${c.mock?`<span><b>Mock projection: ${c.mock.score}</b>${c.mock.note?` <span class="minor">${esc(c.mock.note)}</span>`:''}</span>`:''}${c.unitProj?`<span class="${c.mock?'minor':''}">Unit MC projection: <b>${c.unitProj.score}</b></span>`:''}</div>`:''}</div>
-            <div class="namechips">${c.ap.mc.length ? c.ap.mc.map((x,i)=>`<span class="nchip ${c.ap.last.includes(x)?'recent':''}" data-tip="${esc(x.a.name)}${c.ap.last.includes(x)?' · counts as recent':''}">${esc(s.cs.length>1?bare(x.a.name):bare(x.a.name))}<b style="${x.p<S().apOnTrack?'color:var(--help-ink)':''}">${x.m?'M (0)':p0(x.p)}</b></span>`).join('') : '<span class="minor">No AP Classroom unit MC tests yet. Names need “Unit N” plus “Test”, “Retest” or “MC”.</span>'}</div></div>`).join('')}
-          <p class="fine noprint">Everything else on this page (grades, missing work, GPA, attendance, Power Hour, STAAR, TIA, PSAT/SAT, watch flags) is context for the conversation and never changes AP status. Outlined chips = the recent tests.</p>
+            <div class="namechips">${c.pts.some(x=>isApMC(x.a)) ? c.pts.filter(x=>isApMC(x.a)).map(x=>{ const exn = x.ex ? DB.excluded[key+'|'+x.a.id] : null, rec = c.ap.last.includes(x);
+              return x.m ? `<span class="nchip miss" data-tip="${esc(x.a.name)} · marked missing — not counted">${esc(bare(x.a.name))}<b>M</b><small>not counted</small></span>`
+                : `<button class="nchip ${rec?'recent':''}${x.ex?' ex':''}" data-exclude="${esc(key+'|'+x.a.id)}" data-tip="${esc(x.a.name)}${x.ex?` · not counted${exn&&exn.note?' — '+esc(exn.note):''} · click to count it again`:rec?' · counts as recent · click if this wasn’t a real attempt':' · click if this wasn’t a real attempt'}">${esc(bare(x.a.name))}<b style="${!x.ex&&x.p<S().apOnTrack?'color:var(--help-ink)':''}">${p0(x.p)}</b>${x.ex?`<small>not counted${exn&&exn.note?': '+esc(exn.note):''}</small>`:''}</button>`; }).join('') : '<span class="minor">No AP Classroom unit MC tests yet. Names need “Unit N” plus “Test”, “Retest” or “MC”.</span>'}</div></div>`).join('')}
+          <p class="fine noprint">Everything else on this page (grades, missing work, GPA, attendance, Power Hour, STAAR, TIA, PSAT/SAT, watch flags) is context for the conversation and never changes AP status. Outlined chips = the recent tests. Missing (M) scores are skipped. Click a score that wasn’t a real attempt (e.g. 4%) to leave it out; it stays visible, struck through.</p>
         </div></section>
         <section class="fsec c12 noprint1"><h2>Growth tracker <span>every AP Classroom unit MC score in order (R = retest) · dashed = ${S().apOnTrack}% on track</span></h2><div class="fb"><div class="growth"><div>${s.cs.map(c => (s.cs.length>1?`<div class="minor" style="font-weight:800;margin-top:6px">${esc(c.cls||'')}</div>`:'') + mcLine(unitMCpts(c))).join('')}</div>
           <div class="cells">${cell('TIA this year', `${show(p.tiaBoy)} → ${show(p.tiaEoy)}`, `BOY → EOY ${arrow(p.tiaBoy, p.tiaEoy, 0)}`)}${cell('TIA last year', `${show(p.priorTiaBoy ?? p.priorTia)} → ${show(p.priorTiaEoy)}`, `BOY → EOY ${arrow(p.priorTiaBoy ?? p.priorTia, p.priorTiaEoy, 0)}`)}${cell(esc(L.priorAp || p.priorApLabel || "Last year's AP score"), show(p.priorAp), p.apScores?esc(p.apScores):'')}</div></div></div></section>
@@ -2301,7 +2344,7 @@ function openStudent(key, fresh){
           ${cell('PSAT', show(p.bestPsat), `${psat.length?psat.map(x=>x.total).join(' → '):'no history'}${miniLine(psat.map(x=>x.total)) ? '<br>'+miniLine(psat.map(x=>x.total)) : ''}`)}
           ${cell('SAT', show(p.bestSat), `${sat.length?sat.map(x=>x.total).join(' → '):'no history'}${miniLine(sat.map(x=>x.total)) ? '<br>'+miniLine(sat.map(x=>x.total)) : ''}`)}
         </div>
-        <div style="margin-top:10px"><div class="minor" style="font-weight:800;margin-bottom:5px">AP CLASSROOM PROGRESS CHECKS</div>
+        <div class="noprint1" style="margin-top:10px"><div class="minor" style="font-weight:800;margin-bottom:5px">AP CLASSROOM PROGRESS CHECKS</div>
           ${pcs.length?`<div class="namechips">${pcs.map(x=>`<span class="nchip" data-tip="${esc(x.a.name)}" style="${!x.m&&x.p<S().retestCap?'box-shadow:inset 0 0 0 1.5px var(--watch)':''}">${esc(s.cs.length>1?x.a.name:bare(x.a.name))}<b>${x.m?'M':p0(x.p)}</b></span>`).join('')}</div>`:'<div class="minor">None yet.</div>'}</div>
         </div></section>
 
@@ -2640,6 +2683,34 @@ function importDistrict(rows, file, stay){
     DB.cb.district = DB.cb.district.filter(x => !(x.course.toLowerCase()===course.toLowerCase() && x.year===year && x.campus.toLowerCase()===campus.toLowerCase())); DB.cb.district.push({course, year, campus, pct}); n++; });
   finishReport(file, `Imported ${plural(n,'district participation row')}`, stay);
 }
+/* Agency Pathway (retest module) progress: Student ID,Course,Unit,Steps done,Steps total,Cleared. Re-importing a course + unit replaces it. */
+function isPathway(rows){ const h = lcHead(rows); return h.some(x=>/steps? done/.test(x)) && h.some(x=>/steps? total/.test(x)); }
+const pwSplit = id => { const j = id.lastIndexOf('|'), i = id.lastIndexOf('|', j - 1); return {k: id.slice(0, i), course: id.slice(i + 1, j), u: +id.slice(j + 1)}; };
+const pathwayOf = (k, course, u) => (DB.pathway||{})[`${k}|${course}|${+u}`] || null;
+function pathwayChip(k, course, u){ const v = pathwayOf(k, course, u); if (!v) return ''; return v.cleared ? `<span class="tag pw ok" data-tip="Agency Pathway · Unit ${+u} · cleared">✓ Cleared</span>` : `<span class="tag pw" data-tip="Agency Pathway · Unit ${+u} · ${v.done} of ${v.total} steps">Pathway ${v.done}/${v.total}</span>`; }
+function latestPathwayChip(k, course){ const us = Object.keys(DB.pathway||{}).map(pwSplit).filter(x => x.k===k && x.course===course).map(x => x.u); return us.length ? pathwayChip(k, course, Math.max(...us)) : ''; }
+function importPathway(rows, file, stay){
+  const h = lcHead(rows), col = re => h.findIndex(x => re.test(x)), iId = col(/student ?id|^id$/), iC = col(/^course/), iU = col(/^unit/), iD = col(/steps? done/), iT = col(/steps? total/), iCl = col(/^cleared/);
+  const crs = coursesAll(), fixCourse = c => crs.find(x => x.toLowerCase()===String(c).trim().toLowerCase()) || String(c).trim();
+  const recs = rows.slice(1).map(r => ({id: String(r[iId]||'').trim(), course: fixCourse(r[iC]||''), u: +((String(r[iU]||'').match(/\d+/)||[])[0]), done: pnum(r[iD]) ?? 0, total: pnum(r[iT]) ?? 0, cleared: /^(y|yes|true|1|x|✓|cleared|done|complete)/i.test(String(r[iCl]||'').trim())})).filter(r => r.id && r.course && r.u);
+  const cu = new Set(recs.map(r => r.course + '|' + r.u)); DB.pathway ||= {};
+  Object.keys(DB.pathway).forEach(id => { const x = pwSplit(id); if (cu.has(x.course + '|' + x.u)) delete DB.pathway[id]; });   // the new file is the whole picture for that course + unit
+  let n = 0, miss = 0; recs.forEach(r => { const k = DB.idmap[r.id]; if (!k){ miss++; return; } DB.pathway[`${k}|${r.course}|${r.u}`] = {done: r.done, total: r.total, cleared: r.cleared || (r.total > 0 && r.done >= r.total), at: Date.now()}; n++; });
+  DB.imports.push({file: file.startsWith('Pasted ') ? 'Pasted Agency Pathway progress' : file, source:'Pathway', at: Date.now(), students: n, assignments: 0});
+  const msg = `Imported Agency Pathway progress for ${plural(n,'student')} · ${[...cu].map(x => x.replace('|', ' Unit ')).join(', ')}${miss ? ` · ${miss} student ID${miss===1?'':'s'} not found` : ''}`;
+  save(); toast(msg); if (stay){ UI.lastResult = (UI.lastResult ? UI.lastResult + '\n' : '') + '✓ ' + msg; render(); return; } go('overview');
+}
+/* Pathway counts for the no-name pages: per course + unit, students started / cleared — the retest group (latest TAC unit test below the cap) vs. everyone in the course */
+function pathwayStats(classes){
+  const cap = +S().retestCap, aC = aCourseMap(), studs = {}; classes.forEach(cls => { const co = splitClass(cls).course; Object.entries(DB.students).forEach(([k, s]) => { if (s.classes.includes(cls)) (studs[co] ||= new Set()).add(k); }); });
+  const units = {}; Object.keys(DB.pathway||{}).forEach(id => { const x = pwSplit(id); if (studs[x.course]) (units[x.course] ||= new Set()).add(x.u); });
+  const out = []; Object.entries(units).sort((a,b)=>courseSort(a[0],b[0])).forEach(([course, us]) => [...us].sort((a,b)=>a-b).forEach(u => {
+    const tests = Object.values(DB.assignments).filter(a => yearOf(a)===curYear() && a.source==='Gradebook' && unitOf(a.name)===u && typeOf(a.name)==='test' && !isRetest(a) && (!aC[a.id] || aC[a.id]===course)).sort((a,b)=>a.order-b.order);
+    const all = [...studs[course]], grp = all.filter(k => { const sc = DB.scores[k]||{}, t = tests.filter(a => sc[a.id] && !sc[a.id].x && sc[a.id].p!=null).slice(-1)[0]; return t && (sc[t.id].m || Math.round(sc[t.id].p) < cap); });
+    const cnt = ks => ({n: ks.length, started: ks.filter(k => { const v = pathwayOf(k, course, u); return v && (v.done > 0 || v.cleared); }).length, cleared: ks.filter(k => pathwayOf(k, course, u)?.cleared).length});
+    out.push({course, u, grp: cnt(grp), all: cnt(all)}); }));
+  return out;
+}
 function isIPR(rows){ const h = lcHead(rows); return h.some(x=>/global/.test(x)) && h.includes('item') && h.some(x=>/^section|^category/.test(x)); }
 function importScoreSummary(rows, file, stay){
   const h = lcHead(rows), col = re => h.findIndex(x => re.test(x));
@@ -2662,7 +2733,7 @@ function importIPR(rows, file, stay){
   finishReport(file, `Imported ${plural(n,'Instructional Planning Report row')}`, stay);
 }
 function finishReport(file, msg, stay){
-  DB.imports.push({file: file.startsWith('Pasted ') ? 'Pasted College Board report' : file, source:'Profile', at: Date.now(), students: 0, assignments: 0});
+  DB.imports.push({file: file.startsWith('Pasted ') ? 'Pasted College Board / district report' : file, source:'Reports', at: Date.now(), students: 0, assignments: 0});
   save(); toast(msg);
   if (stay){ UI.lastResult = (UI.lastResult ? UI.lastResult + '\n' : '') + '✓ ' + msg; render(); return; }
   go('import');
@@ -2671,6 +2742,7 @@ const examLabel = y => /^\d{4}-\d{2}$/.test(String(y)) ? `${+String(y).slice(0,4
 const latestScore = (course, notYear) => DB.cb.scores.filter(x => x.course.toLowerCase()===course.toLowerCase() && x.year !== notYear).sort((a,b)=>String(b.year).localeCompare(String(a.year)))[0] || null;
 function iprFor(course){ const rows = DB.cb.ipr.filter(x => x.course.toLowerCase()===course.toLowerCase()); if (!rows.length) return null; const y = rows.map(x=>x.year).sort().slice(-1)[0]; return {year:y, rows: rows.filter(x=>x.year===y && x.ours!=null && x.global!=null).map(x=>({...x, d:x.ours-x.global}))}; }
 function routeImport(rows, label, fallback, stay, year){
+  if (isPathway(rows)) { saveUndo(label); importPathway(rows, label, stay); return true; }
   if (isDistrict(rows)) { saveUndo(label); importDistrict(rows, label, stay); return true; }
   if (isScoreSummary(rows) || isIPR(rows)) { saveUndo(label); isScoreSummary(rows) ? importScoreSummary(rows, label, stay) : importIPR(rows, label, stay); return true; }
   if (isCanvas(rows) || isProfile(rows) || isStandard(rows)) saveUndo(label);
@@ -2824,7 +2896,7 @@ function loadSample(){
 function go(v){ UI.view = v; try { if (location.hash.slice(1)!==v) location.hash = v; } catch(_){} $('#side').classList.remove('open'); closeLayer(); render(); window.scrollTo(0,0); }
 let pressStart = null; document.addEventListener('mousedown', e => { pressStart = e.target; }, true);
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-pdlist],[data-apf],[data-quart],[data-wsort],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-confnav],[data-confheld],[data-close]');
+  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-pdlist],[data-exclude],[data-apf],[data-quart],[data-wsort],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-confnav],[data-confheld],[data-close]');
   if (!t) { if (!e.target.closest('aside,.menu-btn')) $('#side').classList.remove('open'); return; }
   if (t.dataset.close !== undefined){ if ((e.target === t && pressStart === t) || t.tagName==='BUTTON'){ closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !t.closest('.conf')) return openStudent(k); nextFile(); } return; }
   if (t.dataset.go){ go(t.dataset.go); if (t.dataset.anchor) document.getElementById(t.dataset.anchor)?.scrollIntoView({block:'start'}); return; }
@@ -2845,6 +2917,7 @@ document.addEventListener('click', e => {
   if (t.dataset.del){ const a=DB.assignments[t.dataset.del]; return askConfirm('Delete assignment?', `“${esc(a.name)}” and all its scores will be removed.`, 'Delete', () => { delete DB.assignments[a.id]; Object.values(DB.scores).forEach(s=>delete s[a.id]); save(); render(); }); }
   if (t.dataset.addnote){ const k=t.dataset.addnote, txt=$('#noteText').value.trim(); if (!txt) return; (DB.notes[k] ||= []).push({text:txt, at:Date.now()}); save(); return openStudent(k); }
   if (t.dataset.confnav){ return openStudent(t.dataset.confnav, true); }
+  if (t.dataset.exclude){ return openExclude(t.dataset.exclude); }
   if (t.dataset.agrate){ const [k,q,n] = t.dataset.agrate.split('|'), a = ((DB.agency[k] ||= {})[q] ||= {}); a.rating = +a.rating===+n ? '' : +n; save(); return openStudent(k); }
   if (t.dataset.contact){ const [k, type] = t.dataset.contact.split('|'), note = ($('#contactNote')?.value||'').trim(); (DB.contacts[k] ||= []).push({type, note, at:Date.now()}); save(); toast(`${type} logged`); render(); return openStudent(k); }
   if (t.dataset.delcontact){ const k=$('#layer').dataset.student; DB.contacts[k].splice(+t.dataset.delcontact,1); save(); render(); return openStudent(k); }
