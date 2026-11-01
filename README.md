@@ -30,7 +30,7 @@ Each GeoArcade unit page gets its own file from `units/`:
 python3 build.py
 ```
 
-It prints each file's size and warns if a unit file goes over 100 KB.
+It prints each file's size and warns if a unit file goes over 120 KB (two full FRQs is about 105-110 KB, still smaller than one phone photo).
 
 ## Adding an FRQ
 

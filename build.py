@@ -13,7 +13,7 @@ below, and run `python3 build.py`.
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-LIMIT_KB = 100  # keep each Google Sites embed small enough to load fast on phones
+LIMIT_KB = 120  # two full FRQs per unit is ~105-110 KB; still smaller than one phone photo
 
 BUILDS = {
     "units/frq-tutor-unit1.html": ("Unit 1 · Thinking Geographically", ["u1-two-scales"]),
