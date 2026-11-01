@@ -161,6 +161,7 @@ kbd{font:700 10px var(--sans);border:1px solid var(--line2);border-bottom-width:
 
 /* cards */
 .grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
+/* overview fix: roster + Conversation starters as two real columns (roster = remaining width, panel 340px; stacks at ≤1100px; replaces the temporary live patch) */
 .ovmain{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:16px;align-items:start;min-width:0}
 .ovside{display:flex;flex-direction:column;gap:16px;min-width:0}
 .tscroll{overflow-x:auto;max-width:100%}
@@ -1986,10 +1987,10 @@ function talkingPoints(s, p){
   else if (up) out.push({tone:'ok', text:(up.up > 1 ? `Raw MC up ${up.up} tests in a row` : 'Raw MC up on the latest test') + ` (${seq(up.mc, up.up)})${tag(up.c)}`});
   else if (tr.length) { const t = tr[0], l = t.mc[t.mc.length-1]; out.push({tone: l.p >= cut ? 'ok' : 'warn', text:`Latest raw MC ${p0(l.p)} (Unit ${unitOf(l.a.name)}) · avg ${p0(t.c.ap.avg)}${tag(t.c)}`}); }
   else out.push({tone:'gray', text:'No AP Classroom unit MC test yet'});
-  const b70 = pnum(p.below70), lc = p.lowestClass ? String(p.lowestClass).replace(/\s*\d+(\.\d+)?%?\s*$/,'') : '';
+  const b70 = below70Count(p.below70), b70L = below70List(p.below70), lc = p.lowestClass ? String(p.lowestClass).replace(/\s*\d+(\.\d+)?%?\s*$/,'') : '';
   const dLow = s.cs.filter(c => below(c.avg, S().atRisk));
   if (b70 != null && dLow.length > b70) out.push({tone:'bad', text:`${dLow.length} of my classes under ${S().atRisk} now (${dLow.map(c=>`${c.course} ${p0(c.avg)}`).join(', ')})`});
-  else if (b70 != null) out.push(b70 ? {tone:'bad', text:`${b70} class${b70>1?'es':''} under 70${lc?`, ${lc} lowest`:''}`} : {tone:'ok', text:`No classes under 70${p.lowestClass?` · lowest: ${p.lowestClass}`:''}`});
+  else if (b70 != null) out.push(b70 ? {tone:'bad', text:`${b70} class${b70>1?'es':''} under 70${b70L.length?`: ${b70L.join(', ')}`:lc?`, ${lc} lowest`:''}`} : {tone:'ok', text:`No classes under 70${p.lowestClass?` · lowest: ${p.lowestClass}`:''}`});
   else { const lo = s.cs.filter(c => below(c.avg, S().atRisk)); out.push(lo.length ? {tone:'bad', text:`${lo.length} of my classes under ${S().atRisk} (${lo.map(c=>`${c.course} ${p0(c.avg)}`).join(', ')})`} : {tone:'ok', text:`My class${s.cs.length>1?'es':''}: ${s.cs.map(c=>`${c.course||'class'} ${p0(c.avg)}`).join(', ')}`}); }
   const dr = pnum(p.phDrafts), ns = pnum(p.phNoShows) || 0;
   if (dr != null) out.push({tone: ns >= 2 ? 'bad' : ns ? 'warn' : 'ok', text:`${ns} Power Hour no-show${ns===1?'':'s'}${dr?` (${dr} drafted, ${pnum(p.phAttended) ?? dr-ns} attended)`:' · not drafted yet'}`});
@@ -2309,7 +2310,7 @@ function openStudent(key, fresh){
           ${cell('Unexcused / unresolved', show(p.unexcused), '', warn(p.unexcused, 3))}
           ${cell('Tardies YTD', show(p.tardies), '', warn(p.tardies, 10))}
           ${cell('Zeros (all classes)', show(p.zeros), '', warn(p.zeros, 3))}
-          ${cell('Classes below 70', show(p.below70), '', warn(p.below70, 1))}
+          ${cell('Classes below 70', show(below70Count(p.below70)), below70List(p.below70).map(esc).join('<br>'), warn(below70Count(p.below70), 1))}
           ${cell('Lowest class now', show(p.lowestClass))}
           ${p.closeNext!=null&&p.closeNext!==''?cell('Close to next letter', show(p.closeNext), esc(L.closeNext||''), 'nearc'):''}
         </div></div></section>
@@ -2383,7 +2384,7 @@ function confText(key){
   L.push('GRADES'); s.cs.forEach(c => L.push(`${c.cls}: Q1 ${p.byClass?.[c.cls]?.grade1 ?? '—'} · Q2 ${p.byClass?.[c.cls]?.grade2 ?? '—'} · now ${p0(c.avg)} · ${c.missing.length} missing · ${projText(c)}`));
   L.push(`GPA unweighted: Q1 ${p.uw1||'—'} → Q2 ${p.uw2||'—'} · weighted: Q1 ${p.w1||'—'} → Q2 ${p.w2||'—'}`, `${(p.labels||{}).rankBand||'Est. rank'}: ${p.rankBand||'—'} · ${(p.labels||{}).quartile||'quartile'} ${p.quartile||'—'}${p.rankCutoffs?` (cutoffs: ${p.rankCutoffs})`:''}`, '');
   L.push('TESTS', `8th STAAR: ${p.staarPct!=null?Math.round(p.staarPct)+'%':'—'} ${staarOf(key)?.label||''}`, `TIA BOY: ${p.tiaBoy||'—'} (last year ${p.priorTiaBoy||p.priorTia||'—'}) · TIA EOY last year: ${p.priorTiaEoy||'—'}`, `Prior AP: ${p.priorAp||'—'}${p.apScores?` · all AP: ${p.apScores}`:''}`, `PSAT: ${p.psatHist||'—'} (best ${p.bestPsat||'—'}) · SAT: ${p.satHist||'—'} (best ${p.bestSat||'—'})`, '');
-  L.push('ATTENDANCE & ALL CLASSES', `Absences ${p.absences||'—'} · unexcused ${p.unexcused||'—'} · tardies ${p.tardies||'—'} · zeros ${p.zeros||'—'} · classes below 70 ${p.below70||'—'} · lowest ${p.lowestClass||'—'}${p.closeNext?` · close to next letter: ${p.closeNext}`:''}`);
+  L.push('ATTENDANCE & ALL CLASSES', `Absences ${p.absences||'—'} · unexcused ${p.unexcused||'—'} · tardies ${p.tardies||'—'} · zeros ${p.zeros||'—'} · classes below 70 ${below70Count(p.below70) ?? '—'}${below70List(p.below70).length?` (${below70List(p.below70).join(', ')})`:''} · lowest ${p.lowestClass||'—'}${p.closeNext?` · close to next letter: ${p.closeNext}`:''}`);
   L.push(`Power Hour: drafts ${p.phDrafts||'—'} · no-shows ${p.phNoShows||'—'} · attended ${p.phAttended||'—'} · last ${p.phLast||'—'}${p.phNow?` · assigned now ${p.phNow}`:''}`, '');
   L.push('AGENCY CONFERENCING GOALS', `Goal: ${f.goal||''}`, `Action steps: ${f.steps||''}`, `AP skill strength: ${f.skillStrength||''} · gap: ${f.skillGap||''}`, `Check-in date: ${f.checkin||''} · Next step: ${f.nextStep||''}`, `Support: ${f.support||''}`);
   [1,2,3,4].forEach(q => { const a = ag['Q'+q]; if (a && (a.rating||a.goal||a.next)) L.push(`Q${q}: agency ${a.rating||'—'} · grade goal ${a.goal||'—'}${a.next?` · next: ${a.next}`:''}`); });
@@ -2530,6 +2531,9 @@ function importProfile(rows, file, stay){
 }
 /* profile helpers */
 const pnum = v => { const n = parseFloat(String(v ?? '').replace(/[^\d.\-]/g,'')); return isNaN(n) ? null : n; };
+/* "Classes below 70 now" = class names with grades split by "/" (e.g. "Algebra 2 Adv 22/Chemistry Adv 0"); "-" or blank = none. A plain number (older files, sample data) is still read as the count. */
+const below70List = v => /^\s*\d+\s*$/.test(String(v ?? '')) ? [] : String(v ?? '').split(/[\/;]/).map(x => x.trim()).filter(x => /\d+(\.\d+)?%?$/.test(x));
+const below70Count = v => v == null ? null : /^\s*\d+\s*$/.test(String(v)) ? +v : below70List(v).length;
 function schoolFlags(key){ const f = prof(key)?.watchFlags; return f ? String(f).split(/\s*[;|]\s*|\s*,\s*(?=[A-Z0-9])/).map(x=>x.trim()).filter(Boolean) : []; }
 const flagSev = f => /below|zero|fail|unexcused|no.?show|\bF\b|missing|chronic/i.test(f) ? 'red' : 'amber';
 const flagChips = key => schoolFlags(key).map(f => `<span class="flag ${flagSev(f)}">${flagSev(f)==='red'?'▼':'!'} ${esc(f)}</span>`).join('');
