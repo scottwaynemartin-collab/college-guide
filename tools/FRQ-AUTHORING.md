@@ -6,11 +6,19 @@ Each FRQ is one file in `src/frqs/`. Copy `u3-english-global.js` as your templat
 
 A 9th/10th grader in AP Human Geography who may be confused or unmotivated. The tutor should feel like a patient private tutor sitting next to them: it anticipates what the kid is thinking, teaches every piece of content they need (so they never have to Google), and walks them through writing step by step. Warm, plain, specific. Never condescending. No jargon without a definition.
 
+## The three AP exam formats
+
+The real AP Human Geography exam has 3 FRQs, and each uses a different format. Every FRQ file sets `fmt` to one of these exact strings:
+
+- `"No stimulus (like Question 1)"`: no map, table, or text. Set `stim:""` and omit `st`. The 3 `nt` prompts become **warm-up recall questions** ("What do you already know about…?") with the tutor's take giving the key facts the kid needs. The `intro` sets the scene in 1–2 sentences of plain context (not a stimulus). Questions may not say "Using the map…"; instead at least one part should ask for a real-world example ("Explain ONE example of…").
+- `"One stimulus (like Question 2)"`: one map, table, diagram, image description, or text.
+- `"Two stimuli (like Question 3)"`: two separate stimuli (e.g., a map AND a table, or a graph AND a short text). Set `two:1`. Put both in `stim`, each with its own heading `<h4 style="color:var(--yl);margin:14px 0 6px">Stimulus 1: …</h4>` and its own source line. `st` names both. At least one part must require using BOTH stimuli together, and at least one part each must use Stimulus 1 and Stimulus 2.
+
 ## Hard rules
 
 - **Original content only.** Do not copy College Board questions, stimuli, or wording. Write a fresh scenario. Fictional countries/cities are fine for data tables (say so in the source line); real places are fine for history and examples.
 - **Accurate.** Every fact in lessons and pop-outs must be true and standard AP Human Geography content (AMSCO / CED). When unsure, leave it out.
-- **7 parts, A–G, 1 point each**, in this order of difficulty: usually A Identify, then a mix of Describe and Explain, with F or G about a limitation of the data/scale or a broader connection. At least one part must say "Using the [table/map/diagram]…".
+- **7 parts, A–G, 1 point each**, in this order of difficulty: usually A Identify, then a mix of Describe and Explain, with F or G about a limitation of the data/scale or a broader connection. At least one part must say "Using the [table/map/diagram]…" (except no-stimulus FRQs).
 - **Task verbs:** `Identify` (name it), `Describe` (what it is/looks like, with evidence), `Explain` (how/why, cause → effect).
 - **TEA labels.** Describe/Explain parts have exactly 3 thinking steps (T1 Topic, E2 Evidence, A3 Analysis). Identify parts have exactly 2 steps. Each step has 1–2 hints that get progressively more specific; the last hint can nearly hand them the answer.
 - **Model answers** for Describe/Explain are written in the class format: `T1- …reason in general words. E2- …specific proof. A3- …why it matters.` Identify model answers are one phrase or sentence. The model answer must earn the point under its own rubric regex.
@@ -23,7 +31,7 @@ A 9th/10th grader in AP Human Geography who may be confused or unmotivated. The 
 - **Shared pop-out keys you may reference without defining:** `frq`, `tea`, `readmap`, `readtable`, `raj`, `scale`.
 - **Stimulus** (`stim`): HTML string. Tables use the `.tbl > table` markup from the template. Diagrams/maps are inline SVG with `viewBox`, `role="img"`, and a full `aria-label` describing it; keep SVG under ~4 KB, use the tutor's palette (dark navy background `#0a1d3a`/`#24304f`, cyan `#22e5ff`, yellow `#ffd23f`, pink `#ff3fa4`, green `#3ddc84`, text `#fff`/`#ffe7a6`, font `Chakra Petch,sans-serif`). Add a `<p class="src">` source/notes line and a `.legend` if needed.
 - **Notice prompts** (`nt`): exactly 3 `[question, tutor's take]` pairs that make the kid look closely before any question appears.
-- **Top-level fields:** `k` (card label, e.g. `"Practice FRQ · Data table"`), `t` (short catchy title), `d` (one-line description), `u` (e.g. `"Unit 5"`), `st` (stimulus title), `intro` (1–2 sentences), `stim`, `bg`, `nt`, `m` (minutes, use 20), `p` (parts).
+- **Top-level fields:** `fmt` (see above), `k` (card label, e.g. `"Practice FRQ · Data table"`), `t` (short catchy title), `d` (one-line description), `u` (e.g. `"Unit 5"`), `st` (stimulus title), `intro` (1–2 sentences), `stim`, `bg`, `nt`, `m` (minutes, use 20), `p` (parts).
 - **Per-part fields:** `v, q, sk` (skill name for the results screen), `s` (steps), `r` (rubric), `mo` (model), `b` (pop-out keys), `th` (what a confused kid is thinking, in quotes), `co` (tutor's warm reply), `kq` (the question in plain words), `ml`, `wk`, `mw` (why the model works), `fr`, `qc`.
 - **Size:** aim for 22–30 KB per file.
 
