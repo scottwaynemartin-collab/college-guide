@@ -1,0 +1,644 @@
+AP HUMAN GEOGRAPHY FRQ TUTOR — CONTENT FOR FACT-CHECK
+Please check every statement below for factual errors, non-standard AP Human Geography terminology, or model answers a College Board reader would not award the point. Fictional countries/cities are intentional.
+
+
+======================================================================
+Unit 1 · Mapping the Storm (Practice FRQ · No stimulus)
+======================================================================
+STIMULUS: undefined
+You're interning at a Gulf Coast county's emergency-management office before hurricane season. Your supervisor wants you to master the geographer's toolkit: maps, locations, regions, and how people and the environment shape each other.
+
+
+--- Part A (Identify) ---
+Q: Identify the type of region that “the South” in the United States is an example of.
+MODEL ANSWER: “The South” is a perceptual (vernacular) region: it exists in people's minds, so its borders are fuzzy and change depending on who you ask.
+RUBRIC: Names it: a perceptual (vernacular) region / Describes it: exists in people's minds, with fuzzy borders
+MINI-LESSON (The three types of regions):
+ - A formal (uniform) region has an official boundary or one shared trait throughout, like the state of Louisiana.
+ - A functional (nodal) region is organized around a central node, like a city's commuter zone.
+ - A perceptual (vernacular) region is based on what people believe and feel, so its borders are fuzzy, like “the South” or “the Midwest.”
+ - Clue: if people argue about its edges and it's tied to identity, it's perceptual.
+KEY WORDS: Perceptual (vernacular) region = A region based on shared identity and feelings, with fuzzy borders.; Formal region = A region with an official boundary or one shared, measurable trait.
+QUICK CHECK: Which of these is a PERCEPTUAL region? → “The Midwest” (The Midwest's borders depend on who you ask. Ohio is formal; a delivery zone is functional.)
+
+--- Part B (Describe) ---
+Q: Describe how the Mercator projection distorts the size of Greenland compared with the size of Africa.
+MODEL ANSWER: T1- The Mercator projection stretches the area of places near the poles, so they look much bigger than they really are. E2- On a Mercator map, Greenland looks about as big as Africa, but Greenland is about 2.2 million km² while Africa is about 30 million km², roughly 14 times larger. A3- Because Greenland is near the North Pole and Africa straddles the equator, people who use only Mercator maps can badly underestimate Africa's true size.
+RUBRIC: Describes the distortion: Greenland looks about as big as Africa / Gives the truth or the reason: Africa is about 14 times bigger, or Mercator stretches areas near the poles
+MINI-LESSON (Why Mercator makes Greenland huge):
+ - Every map projection distorts shape, area, distance, or direction when it flattens the globe.
+ - Gerardus Mercator made his map in 1569 for sailors: it keeps compass directions and local shapes correct.
+ - To do that, it stretches places more and more toward the poles, so Greenland looks as big as Africa, which is really about 14 times larger.
+ - Gall-Peters keeps area correct but stretches shapes; Robinson compromises, with a little distortion everywhere.
+KEY WORDS: Map projection = A way of showing the curved Earth on a flat map.; Distortion = A change in shape, area, distance, or direction caused by flattening the globe.
+QUICK CHECK: Which projection keeps the AREA of every country correct? → Gall-Peters (Gall-Peters is an equal-area projection. Mercator keeps shape and direction; Robinson compromises.)
+
+--- Part C (Describe) ---
+Q: Describe the difference between a city's site and its situation, using New Orleans or another real city as your example.
+MODEL ANSWER: T1- A city's site is the physical land it sits on, while its situation is its location compared to other places. E2- New Orleans's site is low, swampy land in a bend of the Mississippi River, and about half the city is below sea level. Its situation is near the river's mouth on the Gulf of Mexico, which makes it a port linking the central United States to world trade. A3- The site explains New Orleans's flood risk, while the situation explains why people built a major city there anyway.
+RUBRIC: Describes SITE: the physical features of the place itself / Describes SITUATION: location relative to other places and its connections
+MINI-LESSON (Site vs. situation):
+ - Site is the physical character of the place itself: landforms, water, soil, elevation, and climate.
+ - Situation is the place's location relative to other places: nearby rivers, roads, trade routes, and cities.
+ - The French founded New Orleans in 1718 on a bend of the Mississippi surrounded by swamps, so its site is low and flood-prone.
+ - Its situation is excellent: near the river's mouth, it became a port shipping goods from the middle of the country to the world.
+KEY WORDS: Site = The physical features of a place's exact location.; Situation = A place's location relative to other places, and its connections to them.
+QUICK CHECK: “Chicago grew because canals and railroads connected it to the rest of the country.” This describes Chicago's… → situation (Connections to other places are situation. Site would be the flat lakeshore land itself.)
+
+--- Part D (Explain) ---
+Q: Explain how a county government could use remote sensing to respond to a hurricane after it makes landfall.
+MODEL ANSWER: T1- A county could use remote sensing, which collects images of Earth from satellites, planes, or drones, to see storm damage without sending people into danger. E2- After a hurricane, before-and-after images show flooded neighborhoods, destroyed homes, and blocked roads; NOAA, for example, flies planes over the coast to photograph hurricane damage. A3- Knowing where the worst damage is lets the county send rescue crews, water, and generators there first, saving time and lives.
+RUBRIC: Says what remote sensing collects: images from satellites, aircraft, or drones / Explains the response: finding flooding or damage, then sending rescue, supplies, or repairs there
+MINI-LESSON (Remote sensing, GPS, and GIS):
+ - Remote sensing collects information about Earth from a distance, usually with satellites, airplanes, or drones.
+ - Before-and-after images show where floods, fires, or storms did damage, even where roads are cut off.
+ - GPS is different: it pinpoints the exact location of a device, like a rescue boat.
+ - GIS is software that layers map data, like damage images on top of road maps.
+KEY WORDS: Remote sensing = Collecting information about Earth's surface from a distance.; GPS = A satellite system that gives a device's exact location.; GIS = Software that layers and analyzes map data.
+QUICK CHECK: A rescue boat's screen shows its exact latitude and longitude. Which tool is that? → GPS (GPS pinpoints a device's exact location. Remote sensing gathers images from a distance.)
+
+--- Part E (Explain) ---
+Q: Explain ONE reason a functional region, such as a hospital's service area or a city's commuter zone, can change in size over time.
+MODEL ANSWER: T1- A functional region can grow when new transportation makes its node faster to reach. E2- For example, when Washington, D.C.'s Metro Silver Line was extended to Dulles Airport and Loudoun County, Virginia, in 2022, people in those outer suburbs could ride a train into the city. A3- Because a functional region is defined by connections to its node, faster connections let people come from farther away, so the commuter zone's edge moves outward and the region grows.
+RUBRIC: Names a cause: new transportation, a competing node, or new technology / Explains how the edge moves: people come from farther (it grows) or switch to a closer node (it shrinks)
+MINI-LESSON (Functional regions on the move):
+ - A functional (nodal) region is held together by connections to a central node, like commuters going downtown.
+ - Its edge is wherever those connections fade out, not a line set by law.
+ - New highways or train lines let people reach the node from farther away, so the region grows.
+ - A new competing node, like a new hospital in the next town, pulls people away, so the old region shrinks.
+KEY WORDS: Node = The central point a functional region is organized around.; Functional (nodal) region = An area tied together by connections to a node.
+QUICK CHECK: What holds a functional region together? → Connections to a central node (Official borders mean formal; shared feelings mean perceptual.)
+
+--- Part F (Explain) ---
+Q: Explain ONE difference between environmental determinism and possibilism, using a real-world example.
+MODEL ANSWER: T1- Environmental determinism says the environment controls how people live and develop, while possibilism says it only sets limits and people choose how to respond. E2- For example, about a quarter of the Netherlands lies below sea level, but the Dutch built dikes, pumps, and polders (land drained from the sea) to farm and live there. A3- A determinist would expect such flood-prone land to hold a society back, but the Netherlands became one of the world's wealthiest countries, which supports possibilism.
+RUBRIC: Describes determinism: the environment controls or limits what people and societies can do / Describes possibilism with an example: people choose how to adapt, often with technology
+MINI-LESSON (Who's in charge: nature or people?):
+ - Environmental determinism claims climate and landforms control people's behavior and development.
+ - Geographers rejected it by the mid-1900s: it ignored culture and choice and was used to justify colonialism.
+ - Possibilism says the environment sets limits, but people choose how to use it, like the Dutch farming land below sea level.
+ - Sustainability adds a warning: changing nature has costs, so meet today's needs without ruining the environment for the future.
+KEY WORDS: Environmental determinism = The idea that the environment controls human behavior and development.; Possibilism = The idea that nature sets limits, but people choose how to adapt.; Sustainability = Meeting today's needs without harming future generations.
+QUICK CHECK: “Hot climates make people lazy, so tropical countries can't develop.” This claim is an example of… → environmental determinism (Claiming climate controls behavior is determinism, which geographers reject.)
+
+--- Part G (Explain) ---
+Q: Explain ONE limitation of using only quantitative data, such as census numbers, to understand a place after a hurricane, and how qualitative data could help.
+MODEL ANSWER: T1- One limitation of quantitative data is that numbers show how many people were affected, but not why they made their choices. E2- For example, the 2010 census counted about 140,000 fewer people in New Orleans than in 2000, after Hurricane Katrina, but it can't show why some families returned and others never did. A3- Qualitative data, like interviews with residents and field observation, could reveal reasons such as rebuilding costs or ties to family and church, helping leaders plan a better recovery.
+RUBRIC: Names a limitation: numbers don't show people's reasons, feelings, or experiences / Explains what qualitative data adds: interviews, field observation, or stories
+MINI-LESSON (Two kinds of data):
+ - Quantitative data are numbers: population, income, rainfall, or the number of damaged homes.
+ - Qualitative data are descriptions: interviews, field notes, photos, and oral histories.
+ - Field observation means going to a place in person to look, listen, and take notes or photos.
+ - Numbers show the pattern; qualitative data explain the reasons and human experience behind it.
+KEY WORDS: Quantitative data = Information in numbers that can be counted or measured.; Qualitative data = Descriptive information, like interviews, observations, and stories.; Field observation = Studying a place in person.
+QUICK CHECK: Which of these is QUALITATIVE data? → An interview with a family about why they rebuilt (Interviews describe experiences and reasons. Counts and averages are quantitative.)
+
+BACKGROUND POP-OUTS:
+• Map projections & distortion
+   - Every map projection, a way of drawing the round Earth on flat paper, distorts shape, area, distance, or direction.
+   - Mercator (1569) keeps shapes and compass directions true for sailors, but stretches areas more and more toward the poles.
+   - On a Mercator map, Greenland (about 2.2 million km²) looks about as big as Africa (about 30 million km²), though Africa is about 14 times larger.
+   - Gall-Peters keeps area correct but stretches shapes; Robinson compromises, distorting everything a little and nothing a lot.
+• Formal, functional & perceptual regions
+   - A formal (uniform) region has an official boundary or one shared, measurable trait throughout, like the state of Louisiana or the Corn Belt.
+   - A functional (nodal) region is tied together by connections to a central node, like a TV station's viewing area or a city's commuter zone.
+   - A perceptual (vernacular) region exists in people's minds and has fuzzy borders, like “the South” or “the Midwest.”
+   - New Orleans is in all three: Louisiana (formal), its own commuter zone (functional), and “the South” (perceptual).
+• Location, site & situation
+   - Absolute location is a place's exact spot, given by latitude and longitude: New Orleans is at about 30°N, 90°W.
+   - Relative location describes a place compared to other places: New Orleans is near the mouth of the Mississippi River.
+   - Site is the physical character of the place itself: landforms, water, soil, elevation, and climate.
+   - Situation is the place's location relative to other places: its connections to rivers, roads, trade routes, and other cities.
+• Remote sensing vs. GPS vs. GIS
+   - Remote sensing collects information about Earth's surface from a distance, usually from satellites, airplanes, or drones.
+   - Landsat satellites have photographed Earth since 1972, so before-and-after images can reveal floods, burned forests, or growing cities.
+   - GPS uses satellite signals to find the exact location of a device. GIS is software that layers and analyzes map data.
+   - Remote sensing takes the picture, GPS finds the spot, and GIS puts it all together.
+• Determinism, possibilism & sustainability
+   - Environmental determinism is the old, rejected idea that the environment, especially climate, controls how people behave and develop.
+   - Possibilism says the environment sets limits, but people choose how to respond through culture and technology.
+   - It goes both ways: levees protect New Orleans but stop the Mississippi from spreading new mud on its delta, one reason coastal Louisiana has lost about 2,000 square miles of land since the 1930s.
+   - Sustainability means meeting today's needs without ruining the environment for future generations, like restoring coastal wetlands that soften storm surges.
+• Quantitative vs. qualitative data
+   - Quantitative data are numbers you can count or measure: population, income, rainfall, or the number of damaged homes.
+   - Qualitative data are descriptions: interviews, field notes, photos, and people's stories.
+   - Field observation means visiting a place in person to look, listen, and record what you find.
+   - Numbers show how much and where; qualitative data help explain why.
+
+======================================================================
+Unit 2 · On the Move (Practice FRQ · Two stimuli)
+======================================================================
+STIMULUS: Stimulus 1: Emigration from Tavira, 2023 (flow map) · Stimulus 2: One Migrant's Story
+Stimulus 1 is a flow map of the people who left the country of Tavira in 2023. Stimulus 2 is one of those migrants describing her move in her own words. (Tavira, its neighbors, the numbers, and the person are fictional and were created for practice.)
+Stimulus 1: Emigration from Tavira, 2023
+
+[DIAGRAM: Flow map of people who left the fictional country of Tavira in 2023; arrow width shows the number of migrants. The widest arrow, 410,000 people, runs north across the Brava River into Montaro, a high-income neighboring country. A medium arrow, 150,000 people, curves west across the ocean to Eldmark, a high-income country about 6,000 km away. The thinnest arrow, 40,000 people, runs south into Pelora, a middle-income neighboring country. A legend shows thick, medium, and thin arrows for about 400,000, 150,000, and 40,000 migrants.]Flow map created for practice. Tavira, Montaro, Eldmark, Pelora, and all numbers are fictional. Tavira's population is about 20 million. Schematic, not to scale.
+
+Stimulus 2: “Why I Left Tavira”
+
+“The drought lasted three years. Our maize died, and the family farm could not feed us anymore. My cousin Elena had already lived in Montaro for six years. She found me a job at the fruit-packing plant where she works. Getting here was the hardest part: we crossed the Brava River at night, where people drown every year, and then walked for hours along the border wall to find a way through. Now I send money home every month so my little brothers can stay in school. Someday, when the rains return, I will go back to Tavira.”
+
+Account by Marisol, age 24, who moved from Tavira to Montaro in 2023. Marisol and her words are fictional and were created for practice.
+
+--- Part A (Identify) ---
+Q: Identify ONE environmental push factor described in Stimulus 2.
+MODEL ANSWER: A drought that lasted three years and killed the maize on Marisol's family farm.
+RUBRIC: Drought / lack of rain / Crop failure on the family farm
+MINI-LESSON (Push and pull factors):
+ - A push factor makes people want to leave a place. A pull factor attracts them to a new one.
+ - They can be economic, environmental, political, or social.
+ - Environmental pushes include drought, floods, hurricanes, and worn-out soil.
+ - On a farm, drought is also an economic push: no rain, no harvest, no income.
+KEY WORDS: Push factor = A reason people leave a place.; Pull factor = A reason people are drawn to a new place.; Drought = A long period with much less rain than normal.
+QUICK CHECK: Which of these is an ENVIRONMENTAL push factor? → A long drought that ruins crops (Drought comes from nature. Higher wages is an economic pull; jailing critics is a political push.)
+
+--- Part B (Describe) ---
+Q: Using Stimulus 1, describe the pattern of migration from Tavira and how it reflects the role of distance in migration.
+MODEL ANSWER: T1- Most migrants from Tavira moved a short distance to a neighboring country, and far fewer made the long trip overseas. E2- In 2023, 410,000 people went next door to Montaro, while only 150,000 crossed the ocean to Eldmark, about 6,000 km away, even though both are high-income countries. A3- This fits Ravenstein's law that most migrants move short distances, an example of distance decay: long moves cost more and feel riskier, so fewer people make them.
+RUBRIC: Describes the pattern: most went a short distance to neighboring Montaro / Uses map evidence: numbers or arrow widths (410,000 vs. 150,000) / Connects to distance: distance decay or Ravenstein
+MINI-LESSON (Ravenstein and distance decay):
+ - In the 1880s, geographer E. G. Ravenstein wrote “laws of migration.” The first: most migrants move only a short distance.
+ - That's distance decay: the farther apart two places are, the less they interact.
+ - Long moves cost more, are riskier, and take people farther from family.
+ - Distance isn't everything: Pelora is next door too but got only 40,000, because Montaro's higher wages pull harder.
+KEY WORDS: Distance decay = The farther away a place is, the less interaction (trade, travel, migration) it has with you.; Ravenstein's laws = 1880s rules about migration, like “most migrants move short distances.”
+QUICK CHECK: “The farther away a place is, the fewer people move there” describes… → distance decay (Interaction drops as distance grows. Ravenstein saw it in migration.)
+
+--- Part C (Explain) ---
+Q: Using Stimulus 2, explain how Marisol's move is an example of chain migration.
+MODEL ANSWER: T1- Marisol's move is chain migration because she followed a family member who had already settled in Montaro. E2- Her cousin Elena had lived there for six years and found Marisol a job at the fruit-packing plant where she works. A3- Because a relative and a job were waiting, the move was less risky and Montaro was the obvious choice, and now Marisol can help the next relative follow, so the chain keeps growing.
+RUBRIC: Shows what chain migration is: following family or people from home who already moved / Uses the passage: cousin Elena already lived there and found her a job / Explains how the link helped cause the move
+MINI-LESSON (Chain migration):
+ - Chain migration happens when people move somewhere because relatives or people from their hometown already live there.
+ - Earlier migrants share information, help pay for the trip, and help newcomers find jobs and housing.
+ - That makes the move cheaper and less risky, so new migrants pick the same destination.
+ - Over time, this can build ethnic enclaves in the destination.
+KEY WORDS: Chain migration = Migration that follows family or friends who moved earlier.; Ethnic enclave = A neighborhood where many people share the same ethnic background.
+QUICK CHECK: Which is the best example of chain migration? → A man moves to a city where his brother already works (Chain migration follows family or friends who already moved there.)
+
+--- Part D (Explain) ---
+Q: Explain how ONE intervening obstacle described in Stimulus 2 affects migration from Tavira to Montaro.
+MODEL ANSWER: T1- One intervening obstacle is the Brava River, a physical barrier between Tavira and Montaro. E2- Marisol says her group crossed it at night, and people drown there every year. A3- Because the crossing is so dangerous, the river discourages some Tavirans from leaving at all and makes the trip deadly for others, so it slows and reduces migration even though Montaro is right next door.
+RUBRIC: Names an obstacle from the passage: the Brava River or the border wall / Explains its effect (dangerous, costly, fewer people go)
+MINI-LESSON (Intervening obstacles):
+ - An intervening obstacle is a barrier between a migrant's home and destination that makes the move harder.
+ - They can be physical (rivers, deserts, oceans), political (walls, visas, laws), or economic (the trip's cost).
+ - Obstacles can stop some migrants, push others onto riskier routes, and even cost lives.
+ - The opposite is an intervening opportunity: a job or safe place found along the way that makes a migrant stop early.
+KEY WORDS: Intervening obstacle = A barrier between origin and destination that makes migration harder.; Intervening opportunity = A chance found along the way that convinces a migrant to stop there instead.
+QUICK CHECK: A desert that migrants must cross to reach a new country is… → an intervening obstacle (It sits between home and the destination and makes the trip harder.)
+
+--- Part E (Explain) ---
+Q: Using BOTH stimuli, explain ONE economic effect of remittances on Tavira.
+MODEL ANSWER: T1- Remittances, the money migrants send home, raise household incomes in Tavira and bring money into its economy. E2- Marisol sends money home every month so her brothers can stay in school, and Stimulus 1 shows 410,000 Tavirans moved to Montaro, a high-income country with higher wages. A3- When hundreds of thousands of migrants send money like Marisol does, families can afford food, school, and housing, and their spending supports local businesses, though Tavira can also become dependent on money earned abroad.
+RUBRIC: Uses Stimulus 2: Marisol sends money home every month / Uses Stimulus 1: many migrants work in high-income countries / Explains an economic effect on Tavira (income, spending, schooling, businesses, dependence)
+MINI-LESSON (Remittances):
+ - Remittances are money that migrants send back to family in their home country.
+ - For many poorer countries, remittances bring in more money than foreign aid.
+ - Families usually spend it on food, school, health care, and housing, which helps local businesses.
+ - The risk: a country can become dependent on remittances, and the money drops if jobs dry up abroad.
+KEY WORDS: Remittances = Money migrants send home to family.; Transnational migrant = A migrant who keeps strong ties to both the new country and home.
+QUICK CHECK: Remittances are… → money migrants send to family back home (Remittances flow from migrants back to their home country.)
+
+--- Part F (Explain) ---
+Q: Explain ONE way large-scale emigration, like the migration shown in Stimulus 1, can change the population structure of the origin country.
+MODEL ANSWER: T1- Large-scale emigration can leave the origin with fewer working-age adults and a higher dependency ratio, because most migrants are young adults. E2- In 2023 alone, 600,000 people left Tavira, and migrants like 24-year-old Marisol are in their prime working and child-bearing years, so the young-adult bars of Tavira's population pyramid would shrink. A3- With fewer workers to support children and the elderly, the dependency ratio rises, and with fewer young adults left to have children, the birth rate can fall too.
+RUBRIC: Says who leaves: young or working-age adults (or mostly men) / Explains the change in structure (pinched pyramid, higher dependency ratio, fewer births, sex imbalance)
+MINI-LESSON (How migration reshapes a population):
+ - Most migrants are young adults, roughly 20 to 35.
+ - When many leave, the origin's pyramid gets “pinched” in the young-adult bars, while children and elderly stay.
+ - That raises the dependency ratio, and fewer young adults means fewer births.
+ - If the migrants are doctors or engineers, the origin also suffers brain drain.
+KEY WORDS: Dependency ratio = Children and elderly compared with working-age people.; Brain drain = When a country's educated, skilled people emigrate.
+QUICK CHECK: When many young adults emigrate, the origin's dependency ratio usually… → rises (Fewer workers are left to support the same children and elderly, so it rises.)
+
+--- Part G (Explain) ---
+Q: Explain ONE limitation of using Stimulus 1 to understand why people leave Tavira.
+MODEL ANSWER: T1- One limitation is that the flow map shows how many people left Tavira and where they went, but not WHY. E2- It shows 410,000 people moving to Montaro, but not whether they were pushed by drought, low wages, or violence, while Stimulus 2 reveals that Marisol left because of a drought and followed her cousin. A3- Because the map has no information about push and pull factors, someone using it alone would have to guess the causes and could get them wrong.
+RUBRIC: States a limitation: the map shows numbers and places, not reasons / Explains why it matters, with an example (drought, wages, violence; you'd have to guess)
+MINI-LESSON (What a flow map can't tell you):
+ - A flow map uses arrows to show movement; wider arrows mean more people.
+ - It answers WHERE and HOW MANY, but not WHY.
+ - It also hides who moved (ages, men vs. women) and whether 2023 was a normal year.
+ - To learn why people move, geographers use surveys, interviews, and data on wages, rainfall, or conflict.
+KEY WORDS: Flow map = A map that uses arrows of different widths to show movement between places.; Qualitative data = Information in words, like interviews, that can explain WHY people act as they do.
+QUICK CHECK: A flow map of migrants is BEST for showing… → how many people moved and where they went (Flow maps show direction and volume. Reasons need other sources, like interviews.)
+
+BACKGROUND POP-OUTS:
+• Push and pull factors
+   - Push factors make people want to leave a place. Pull factors attract them to a new one.
+   - They come in four main kinds: economic (jobs, wages), environmental (drought, floods), political (war, persecution), and social or cultural (family, religion, discrimination).
+   - Economic factors are the most common reason people migrate.
+   - Most moves combine both: a push at home AND a pull somewhere else.
+• Ravenstein's laws of migration
+   - In the 1880s, geographer E. G. Ravenstein studied British census records and wrote “laws of migration.”
+   - Most migrants move only a short distance, so the number of migrants drops as distance grows: distance decay.
+   - Long-distance migrants usually head for big cities and job centers.
+   - Many people move in steps (step migration), like village → town → city.
+   - Every migration flow produces a counterflow of people returning home.
+• Chain migration
+   - Chain migration happens when people move somewhere because relatives or neighbors from home already live there.
+   - Earlier migrants send back news and money and help newcomers find jobs and housing.
+   - Each newcomer can help the next one, so the “chain” keeps growing.
+   - Over time this can build ethnic enclaves, like Little Havana in Miami.
+• Intervening obstacles & opportunities
+   - An intervening obstacle is a barrier between a migrant's origin and destination that makes the move harder.
+   - It can be physical (rivers, oceans, deserts, mountains), political (border walls, visas, immigration limits), or economic (the cost of the trip).
+   - As transportation improves, political obstacles like visas and walls matter more than physical ones.
+   - An intervening opportunity is the opposite: a job or safe place found along the way that convinces a migrant to stop there instead.
+• Remittances
+   - Remittances are money that migrants send back to family in their home country.
+   - Migrants send more than $600 billion a year to low- and middle-income countries, more than those countries receive in foreign aid.
+   - In Nepal, Honduras, and Tajikistan, remittances equal more than a fifth of GDP.
+   - Families spend the money on food, school, health care, and housing, which boosts local businesses.
+   - Migrants who keep close ties to home like this are called transnational migrants.
+• Voluntary vs. forced migration
+   - Voluntary migration is a choice. Forced migration is caused by violence, persecution, disaster, or slavery.
+   - A refugee has crossed an international border to escape persecution for their race, religion, nationality, political opinion, or social group.
+   - An asylum seeker has asked another country for protection and is still waiting for a decision.
+   - An internally displaced person (IDP) was forced to flee but stayed inside their own country.
+   - A slow drought, like Tavira's, blurs the line between the two.
+• Migration, age, and sex
+   - Most migrants are young adults, roughly ages 20 to 35.
+   - When many leave, the origin's population pyramid gets “pinched” in the young-adult bars, leaving children and older people behind.
+   - That raises the dependency ratio and can lower the birth rate.
+   - Destinations gain young workers: in Qatar and the UAE, so many male guest workers have arrived that men far outnumber women.
+   - When skilled people like doctors and engineers leave, the origin suffers brain drain.
+
+======================================================================
+Unit 4 · Drawing the Lines (Practice FRQ · Two stimuli)
+======================================================================
+STIMULUS: Westmoor Redistricting: Two District Plans (Stimulus 1) and Election Results (Stimulus 2)
+Westmoor, a fictional U.S. state, has 25 voting precincts with equal populations and 5 seats in the U.S. House of Representatives. After the census, mapmakers proposed two plans for grouping those precincts into 5 districts, using the same voters and votes.
+Stimulus 1: Two District Plans for Westmoor
+[DIAGRAM: Two maps, Plan 1 and Plan 2, of the same 5 by 5 grid of 25 equal-population precincts in fictional Westmoor. Each precinct shows the party that won it, A in cyan or B in pink. Rows north to south, precincts west to east. Row 1: A A A A A. Row 2: A B B A A. Row 3: A B B B A. Row 4: A B B B A. Row 5: A A B B A. Party A wins 15 precincts; Party B wins 10, clustered in the center and south. Thick yellow lines split each map into 5 numbered districts of 5 precincts. Plan 1 districts by row: 1 1 2 2 2; 1 1 3 3 2; 1 3 3 3 2; 4 4 4 5 5; 4 4 5 5 5. Plan 2 districts by row: 1 1 2 2 3; 1 1 2 2 3; 5 1 2 3 3; 5 5 5 3 4; 5 4 4 4 4.]A = precinct won by Party AB = precinct won by Party BDistrict border1–5 = district number
+Fictional state created for practice. Simplified: all 25 precincts have equal populations, and a party wins a district by winning at least 3 of its 5 precincts.
+Stimulus 2: Election Results in Westmoor Under Each Plan
+Result | Party A | Party B | 
+Statewide vote share | 60% | 40% | 
+Precincts won (of 25) | 15 | 10 | 
+Districts won under Plan 1 (of 5) | 3 | 2 | 
+Percent of seats under Plan 1 | 60% | 40% | 
+Districts won under Plan 2 (of 5) | 5 | 0 | 
+Percent of seats under Plan 2 | 100% | 0% | 
+
+Fictional data created for practice. Simplified: equal-population precincts, and the same statewide vote under both plans. Remember: label each part, and write Describe and Explain parts as T1- (your reason in general words), E2- (the specific proof), A3- (why it matters).
+
+--- Part A (Identify) ---
+Q: Using Stimulus 1, identify the gerrymandering technique used to draw the district boundaries in Plan 2.
+MODEL ANSWER: Plan 2 uses cracking: Party B's voters are split across all five districts so they are outnumbered in every one.
+RUBRIC: Names cracking / Describes cracking: Party B's voters split across districts so they're outnumbered
+MINI-LESSON (Packing vs. cracking):
+ - Gerrymandering is drawing district lines on purpose to help one party or group win more seats.
+ - Packing crowds the other side's voters into a few districts, which they win by huge margins.
+ - Cracking splits the other side's voters across many districts so they're a minority in each one.
+KEY WORDS: Cracking = Splitting a group's voters across many districts.; Packing = Crowding a group's voters into as few districts as possible.
+QUICK CHECK: Splitting a party's voters across many districts so they're a minority in each one is called… → cracking (Cracking breaks a group apart. Packing crams it together.)
+
+--- Part B (Describe) ---
+Q: Using Stimulus 1, describe how the district boundaries in Plan 2 divide Party B's voters.
+MODEL ANSWER: T1- Plan 2's district lines split Party B's cluster of voters into five pieces. E2- Party B's 10 precincts are bunched in the center and south, but the lines slice that cluster like a pizza, so each district gets exactly 2 Party B precincts and 3 Party A precincts. A3- Because Party B has only 2 of 5 precincts in every district, it is outnumbered 3 to 2 everywhere and cannot win a single district.
+RUBRIC: Describes the split: about 2 Party B precincts in each district / Describes the result: Party B is outnumbered in every district
+MINI-LESSON (Reading a districting map):
+ - A precinct is a small voting area. A district is made of several precincts and elects one representative.
+ - Colors show which party won each precinct; thick yellow lines show district borders. Only the lines move between plans.
+ - Count district by district: whoever wins at least 3 of the 5 precincts wins the district.
+KEY WORDS: Precinct = A small local voting area.; District = An area that elects one representative.
+QUICK CHECK: In Stimulus 1, what changes between Plan 1 and Plan 2? → Only the district lines (Same voters, same colors, different lines. That's why the results change.)
+
+--- Part C (Explain) ---
+Q: Explain why the boundaries of congressional districts in the United States are redrawn every ten years.
+MODEL ANSWER: T1- District lines are redrawn every ten years because the U.S. Census counts the population every ten years, and populations shift. E2- After each census, the House's 435 seats are reapportioned among the states by population; after 2020, Texas gained two seats and New York lost one. A3- Because a state's population and seat count can change, it must redraw its districts (redistricting) so each has about the same number of people: one person, one vote.
+RUBRIC: Names the census as the trigger / Explains the chain: seats shift between states, so lines are redrawn to keep districts equal
+MINI-LESSON (Census → reapportionment → redistricting):
+ - The U.S. Constitution requires a census, a count of every person, every ten years.
+ - The House's 435 seats are then redivided among the states by population. That's reapportionment.
+ - Each state then redraws its district lines so every district has about the same population. That's redistricting, and it's when gerrymandering can happen.
+KEY WORDS: Reapportionment = Redividing House seats among the states after a census.; Redistricting = Redrawing district lines inside a state.
+QUICK CHECK: Redividing the 435 House seats among the states after each census is called… → reapportionment (Reapportionment shifts seats BETWEEN states. Redistricting redraws lines INSIDE a state.)
+
+--- Part D (Explain) ---
+Q: Using both stimuli, explain how Plan 2 produces an election result that does not match the statewide vote.
+MODEL ANSWER: T1- Plan 2 gives Party A every seat because it cracks Party B's voters so they are a minority in every district. E2- Stimulus 2 shows Party B won 40% of the statewide vote but 0% of the seats under Plan 2, and Stimulus 1 shows why: each Plan 2 district has exactly 2 Party B precincts and 3 Party A precincts. A3- Because Party B is outnumbered 3 to 2 in all five districts, its votes are wasted everywhere, so Party A turns 60% of the vote into 100% of the seats.
+RUBRIC: Uses Stimulus 2: votes vs. seats (Party B: 40% of votes, 0% of seats) / Uses Stimulus 1 for the cause: Party B has only 2 of 5 precincts in each district
+MINI-LESSON (Why seats don't always match votes):
+ - Each U.S. House district elects one representative, usually whoever gets the most votes there. That's winner-take-all.
+ - So a statewide vote total doesn't win seats by itself. What matters is how the votes are spread across districts.
+ - Votes that don't help elect anyone are wasted votes. Cracking makes a party lose narrowly everywhere, so nearly all its votes are wasted.
+KEY WORDS: Winner-take-all = Only the top vote-getter in a district wins the seat.; Wasted votes = Votes that don't help elect a candidate.
+QUICK CHECK: Under Plan 2, Party B wins 40% of the vote. What share of the seats does it win? → 0% (Cracking leaves Party B outnumbered in all five districts, so it wins none.)
+
+--- Part E (Explain) ---
+Q: Using Stimulus 2, explain ONE effect that a districting plan like Plan 2 could have on voters or on political representation.
+MODEL ANSWER: T1- One effect of a plan like Plan 2 is that a large group of voters ends up with no representation, which can lower voter turnout. E2- Stimulus 2 shows Party B won 40% of the statewide vote but 0% of the seats under Plan 2, so four in ten voters have no representative from the party they chose. A3- Because Party B's voters lose in every district no matter how many show up, many may feel their votes don't count and stop voting.
+RUBRIC: Uses Stimulus 2: Party B wins 40% of the vote but 0 seats / Explains an effect: no representation, wasted votes, lower turnout, safe seats, or polarization
+MINI-LESSON (What gerrymandering does to voters):
+ - A safe seat is a district one party is almost sure to win, so there's little real competition.
+ - Voters who always lose may feel their votes don't count, so turnout can drop.
+ - In safe seats, the real contest is often the party primary, which can pull candidates toward the extremes and add to polarization.
+KEY WORDS: Voter turnout = The percent of eligible voters who actually vote.; Polarization = Parties moving further apart and compromising less.
+QUICK CHECK: A district drawn so one party is almost certain to win is called a… → safe seat (Safe seats mean little real competition.)
+
+--- Part F (Explain) ---
+Q: Explain ONE way that an independent redistricting commission OR a compactness requirement could reduce gerrymandering like the one in Plan 2.
+MODEL ANSWER: T1- An independent redistricting commission could reduce gerrymandering by taking map-drawing away from politicians. E2- Arizona, Colorado, and Michigan created commissions of citizens from both major parties plus independents, who draw the maps instead of the state legislature. A3- Because these mapmakers aren't trying to keep their own party in power, they have less reason to crack one party's voters the way Plan 2 cracks Party B.
+RUBRIC: Names the method: an independent commission or a compactness rule / Explains how: takes line-drawing away from politicians who benefit, or bans odd shapes that split up voters
+MINI-LESSON (Fixing gerrymandering):
+ - Independent commissions take map-drawing from the legislature and give it to citizens, often from both parties plus independents.
+ - Compactness rules require tight, simple shapes, so it's harder to stretch a district into a city to split its voters.
+ - Contiguity rules require every part of a district to touch.
+KEY WORDS: Compactness = How tight and simple a district's shape is.; Contiguity = Every part of a district is connected.
+QUICK CHECK: A rule that every part of a district must touch the rest of it is called… → contiguity (Contiguous = connected. Compact = a tight, simple shape.)
+
+--- Part G (Explain) ---
+Q: Explain how district boundaries like those in Plan 2 could act as a centrifugal force in a country.
+MODEL ANSWER: T1- Unfair district boundaries like Plan 2's can act as a centrifugal force because they make a large group of citizens lose trust in their government. E2- Under Plan 2, Party B's voters cast 40% of the votes but win no seats, so they may feel cheated and protest or refuse to accept election results. A3- When many citizens believe the system is rigged, tension between groups grows and loyalty to the government weakens, which pulls the country apart.
+RUBRIC: Describes a divisive reaction: distrust, anger, feeling unrepresented, or protest / Connects it to a centrifugal force: it divides people or weakens unity and loyalty
+MINI-LESSON (Centrifugal vs. centripetal forces):
+ - Centrifugal forces divide a state (a country): unequal treatment, conflict between groups, economic gaps, or distrust of government.
+ - Centripetal forces unify it: a shared national identity, trusted institutions, and fair elections.
+ - Strong centrifugal forces can lead to devolution or even demands for independence, as in Catalonia (Spain).
+KEY WORDS: Centrifugal force = Anything that divides a country or weakens its unity.; Devolution = Shifting power from the national government to regions.
+QUICK CHECK: Which of these is a CENTRIPETAL force? → Elections that most citizens trust (Trusted, fair institutions pull a country together. The other two push it apart.)
+
+BACKGROUND POP-OUTS:
+• Gerrymandering: packing & cracking
+   - Gerrymandering is drawing district lines on purpose to help one party or group win more seats.
+   - It's named for Massachusetts Governor Elbridge Gerry, who in 1812 signed a map with a salamander-shaped district.
+   - Packing crowds the other side's voters into a few districts, which they win by huge margins.
+   - Cracking splits the other side's voters across many districts so they're a minority in each. Both tricks waste the other side's votes.
+• Census, reapportionment & redistricting
+   - The U.S. Constitution requires a census, a count of every person, every ten years.
+   - After each census, the House's 435 seats are reapportioned among the states by population. After 2020, Texas gained 2 seats and New York lost 1.
+   - Each state then redistricts: it redraws its lines so every district has about the same population (“one person, one vote”).
+   - Some states, like Texas, have also redrawn maps mid-decade.
+• Voting Rights Act & majority-minority districts
+   - The Voting Rights Act of 1965 outlawed racial discrimination in voting, such as literacy tests used to keep Black Southerners from voting.
+   - It also bans maps that dilute minority voting power, for example by cracking a minority community.
+   - Starting in the 1980s, courts used it to require some majority-minority districts, where a minority group makes up most of the voters.
+   - Courts have also ruled that race can't be the main factor in drawing lines, so these cases are still argued.
+• Commissions, compactness & contiguity
+   - In most states, the legislature draws congressional lines, so the party in control can help itself.
+   - An independent redistricting commission is a separate panel that draws the lines instead, as in Arizona, Colorado, and Michigan.
+   - Compactness means a tight, simple shape. Contiguity means every part of a district touches the rest.
+• States: federal vs. unitary
+   - In AP Human Geography, a state is an independent country with sovereignty. U.S. states like Westmoor are units inside one country.
+   - A nation is a people with a shared culture. A nation-state is mostly one nation (Japan), a multinational state holds several (the United Kingdom), and a stateless nation (the Kurds) has no state.
+   - A federal state splits power between national and regional governments (the U.S., Germany, India); a unitary state keeps it national (France, China).
+   - Because the U.S. is federal, each state runs its own redistricting, so the rules differ from state to state.
+• Safe seats, turnout & polarization
+   - A safe seat is a district one party is almost certain to win. A swing district could go either way.
+   - Voters who always lose may feel their votes don't count, which can lower turnout.
+   - In safe seats, the real race is often the party primary, which can pull candidates toward the extremes and add to polarization.
+• Centrifugal & centripetal forces
+   - Centrifugal forces divide a country: conflict between groups, unequal treatment, economic gaps, or distrust of government.
+   - Centripetal forces unify it: a shared identity, national symbols, and trusted institutions like fair elections.
+   - Strong centrifugal forces can lead to devolution, where power shifts to regions, as when Scotland got its own parliament inside the United Kingdom.
+
+======================================================================
+Unit 5 · Miracle Seeds (Practice FRQ · No stimulus)
+======================================================================
+STIMULUS: undefined
+Since 1950 the world's population has more than tripled to over 8 billion, and farmers now grow enough food to feed everyone, yet hundreds of millions of people still go hungry. This FRQ asks how farming changed to feed a growing world, who got left out, and how to keep it going without wearing out the land.
+
+
+--- Part A (Identify) ---
+Q: Identify ONE agricultural innovation associated with the Green Revolution.
+MODEL ANSWER: High-yield varieties (HYVs) of wheat and rice, like the short, sturdy wheat Norman Borlaug bred in Mexico.
+RUBRIC: Names high-yield seed varieties (HYVs) / Names another input: fertilizer, pesticides, irrigation, or machines
+MINI-LESSON (The Green Revolution package):
+ - The Green Revolution spread new farm technology to developing countries, from Mexico in the 1940s to India and Pakistan in the 1960s.
+ - Its core was high-yield varieties (HYVs): wheat and rice bred to grow much more grain per acre.
+ - Those seeds needed chemical fertilizer, pesticides, and steady irrigation, and many farms also bought tractors and pumps.
+KEY WORDS: High-yield variety (HYV) = A crop bred to produce much more food per acre.; Mechanization = Replacing human or animal labor with machines.
+QUICK CHECK: Which was NOT part of the original Green Revolution of the 1960s? → Genetically modified (GMO) crops (GMOs came later, in the 1990s. The original Green Revolution used crossbred high-yield seeds plus chemicals and water.)
+
+--- Part B (Describe) ---
+Q: Describe ONE way the Green Revolution changed food production in a specific country, such as India or Mexico.
+MODEL ANSWER: T1- The Green Revolution greatly increased how much food India's farms produced per acre. E2- Starting in the mid-1960s, farmers in the Punjab region planted high-yield wheat with chemical fertilizer and irrigation, and India's wheat harvest about doubled in less than ten years. A3- This turned India from a country that depended on U.S. wheat shipments into one that, by the late 1970s, grew enough grain to feed its own people.
+RUBRIC: Names a change: higher yields, more food, or self-sufficiency / Gives proof from a real country (India, Mexico…)
+MINI-LESSON (Before and after):
+ - Mexico once imported much of its wheat; with Borlaug's seeds it grew enough for itself by the mid-1950s.
+ - In the mid-1960s India faced droughts and relied on U.S. wheat shipments.
+ - Punjab farmers planted the new wheat and rice with fertilizer and tube-well irrigation, and India's wheat harvest about doubled in less than a decade.
+ - Faster-growing varieties let many farmers raise two crops a year.
+KEY WORDS: Yield = How much crop a piece of land produces.; Food self-sufficiency = Growing enough food to feed your own people without relying on imports.
+QUICK CHECK: Which region became India's “breadbasket” during the Green Revolution? → Punjab (Punjab farmers adopted high-yield wheat and rice early, making it India's top grain region.)
+
+--- Part C (Explain) ---
+Q: Explain ONE negative environmental consequence of the Green Revolution.
+MODEL ANSWER: T1- One negative environmental consequence of the Green Revolution is the depletion of groundwater. E2- In India's Punjab region, high-yield rice and wheat need heavy irrigation, so farmers pump water from tube wells faster than rain can refill the aquifer, and the water table has dropped year after year. A3- Because the farms depend on that water, a falling water table threatens to make the high yields impossible to keep up, putting future food production at risk.
+RUBRIC: Names a harm: groundwater depletion, salty soil, pollution, or lost crop diversity / Explains how Green Revolution farming causes it
+MINI-LESSON (The hidden costs of high yields):
+ - High-yield seeds need lots of irrigation water and fertilizer to produce big harvests.
+ - In India's Punjab, farmers pump out more groundwater than rain puts back, so the water table keeps falling.
+ - In dry places, irrigation water evaporates and leaves salt behind (salinization), which can ruin fields.
+ - Planting the same few varieties everywhere (monoculture) reduces crop diversity, so one disease can spread farther.
+KEY WORDS: Aquifer = An underground layer of rock or sand that holds water.; Monoculture = Growing just one crop over a large area.
+QUICK CHECK: Pumping groundwater faster than rain can refill it causes… → aquifer depletion (The underground water supply shrinks, and wells have to go deeper.)
+
+--- Part D (Explain) ---
+Q: Explain ONE reason the Green Revolution benefited large farms more than small farms.
+MODEL ANSWER: T1- The Green Revolution helped large farms more because its high-yield package was expensive, and wealthy farmers could afford it more easily. E2- In India, the new seeds only paid off with bought fertilizer, pesticides, and irrigation pumps, and large landowners could get bank loans using their land as collateral, while small farmers often borrowed from moneylenders at high interest. A3- So large farms earned bigger profits and bought more land, while many small farmers fell into debt and some sold their land, widening the gap between rich and poor farmers.
+RUBRIC: Names a reason: the inputs were costly, and big farmers had more money or credit / Explains how that helped large farms or hurt small ones
+MINI-LESSON (Why the gains weren't equal):
+ - The high-yield package (seeds, fertilizer, pesticides, water, machines) had to be paid for before the harvest.
+ - Large landowners could use land as collateral for cheaper bank loans; small farmers often paid moneylenders high interest.
+ - Some small farmers fell into debt, sold their land, and became landless laborers, so rural inequality grew.
+KEY WORDS: Collateral = Property, like land, that a borrower gives up if they can't repay a loan.; Landless laborer = A farmworker who owns no land and works others' fields for wages.
+QUICK CHECK: Why did many small farmers fall into debt during the Green Revolution? → They borrowed to buy seeds, fertilizer, and irrigation (The package cost money up front, so poorer farmers had to borrow, often at high interest.)
+
+--- Part E (Explain) ---
+Q: Explain ONE reason the Green Revolution had less impact in sub-Saharan Africa than in South Asia.
+MODEL ANSWER: T1- The Green Revolution had less impact in sub-Saharan Africa because its high-yield seeds were bred for crops and conditions that didn't match most African farms. E2- Scientists focused on irrigated wheat and rice, but many farmers in sub-Saharan Africa grow staples like cassava, sorghum, and millet on rain-fed fields, and only a small share of the region's farmland is irrigated. A3- Since the new seeds didn't fit Africa's main crops or its dependence on rainfall, yields there rose much less than in South Asia.
+RUBRIC: Names a reason: different staples, little irrigation, high costs, or poor roads / Explains how that limited the benefits
+MINI-LESSON (Why Africa missed most of the boom):
+ - Early Green Revolution seeds were wheat and rice bred for irrigated land.
+ - Much of sub-Saharan Africa relies on staples like cassava, sorghum, millet, and yams, which got far less research attention.
+ - Most farms there are rain-fed: well under 10 percent of the region's cropland is irrigated.
+ - Poor roads, little credit, and costly fertilizer made the package hard to get, especially for small farmers.
+KEY WORDS: Staple crop = The main food that makes up most of what people eat.; Rain-fed farming = Farming that depends only on rainfall, with no irrigation.
+QUICK CHECK: Which crop is a major staple in much of sub-Saharan Africa? → Cassava (Cassava, like sorghum, millet, and yams, wasn't a focus of the early Green Revolution, which centered on wheat and rice.)
+
+--- Part F (Explain) ---
+Q: Explain ONE example of a sustainable farming practice and how it reduces environmental harm caused by agriculture.
+MODEL ANSWER: T1- One sustainable farming practice is conservation tillage, also called no-till farming. E2- Instead of plowing the whole field each year, many farmers in places like the U.S. Midwest, Brazil, and Argentina plant seeds directly into the stalks and leaves left over from last year's crop. A3- Because that leftover plant cover protects the ground from wind and rain, much less soil erodes away, which keeps fields fertile and keeps mud out of nearby rivers.
+RUBRIC: Names a sustainable practice (no-till, crop rotation, terracing, organic, CSA…) / Explains how it reduces a specific harm (erosion, water use, chemicals)
+MINI-LESSON (Farming that can last):
+ - Sustainable agriculture protects soil, water, and ecosystems so farms can keep producing in the future.
+ - Conservation tillage (no-till) leaves crop leftovers on the field instead of plowing, which cuts soil erosion.
+ - Crop rotation with legumes like soybeans or clover adds nitrogen back to the soil naturally.
+ - Terracing cuts steps into hillsides so rain can't carry soil downhill.
+KEY WORDS: Conservation tillage = Planting with little or no plowing, leaving crop leftovers on the soil.; Community-supported agriculture (CSA) = Customers pay a local farm up front for a share of its harvest.
+QUICK CHECK: How does terracing reduce environmental harm? → It slows water running downhill, so less soil erodes (Steps on a hillside hold water and soil in place.)
+
+--- Part G (Explain) ---
+Q: Explain what a food desert is and ONE reason food deserts exist in urban or rural areas of more developed countries.
+MODEL ANSWER: T1- A food desert is an area where people have little access to affordable, healthy food because there are few or no full-service grocery stores nearby. E2- In many low-income city neighborhoods, such as parts of Detroit and Chicago's South Side, supermarket chains closed stores and opened new ones in the suburbs, where customers had more money to spend. A3- Because grocery companies locate where they expect the highest profits, residents without cars must rely on corner stores and fast food, which leads to poorer diets.
+RUBRIC: Defines a food desert: little access to affordable, healthy, or fresh food / Explains a reason: stores avoid poor or sparse areas, or residents lack cars
+MINI-LESSON (Food deserts in rich countries):
+ - A food desert is an area with little access to affordable, healthy food, especially fresh fruits and vegetables.
+ - The USDA counts an area as low-access if many residents live over 1 mile from a supermarket (10 miles in rural areas).
+ - Supermarkets follow sales, so many left low-income city neighborhoods for the suburbs, and few open in thinly populated places.
+ - This is a scale issue: a country can grow plenty of food and still have local pockets of food insecurity.
+KEY WORDS: Food desert = An area with little access to affordable, healthy food.; Food insecurity = Lacking reliable access to enough affordable, nutritious food.
+QUICK CHECK: Which BEST describes a food desert? → An area with little access to affordable, healthy food (It's about access to healthy food, not climate.)
+
+BACKGROUND POP-OUTS:
+• The Green Revolution
+   - The Green Revolution spread high-yield seeds, chemical fertilizers, pesticides, irrigation, and farm machines to developing countries in the mid-1900s.
+   - It began in Mexico in the 1940s, where American plant scientist Norman Borlaug bred short, sturdy, high-yield wheat.
+   - In the 1960s it reached India and Pakistan, and in 1966 a research institute in the Philippines released IR8, nicknamed “miracle rice.”
+   - Borlaug won the 1970 Nobel Peace Prize because the extra food helped prevent famines.
+• The three agricultural revolutions
+   - First (Neolithic), about 10,000 years ago: people domesticated plants and animals in hearths like the Fertile Crescent and settled in villages.
+   - Second, 1700s–1800s, alongside the Industrial Revolution: the seed drill, new crop rotations, and better transportation let fewer farmers feed more people, freeing workers for factories.
+   - Third, from the mid-1900s: the Green Revolution's seeds, chemicals, irrigation, and machines, later joined by GMOs.
+• Agribusiness & vertical integration
+   - Agribusiness is farming run as a big business, from seeds and chemicals to processing, shipping, and selling.
+   - Vertical integration means one company controls several steps of the same supply chain.
+   - Tyson Foods, for example, supplies chicks and feed to contract farmers, then processes and sells the chicken under its own brand.
+   - Green Revolution farmers came to depend on buying fertilizer and pesticides from these companies.
+• GMOs
+   - A GMO (genetically modified organism) has DNA changed in a lab, often by adding a gene from another species.
+   - Bt corn makes its own insect-killing protein, and Golden Rice was engineered to provide vitamin A.
+   - Supporters say GMOs raise yields; critics worry about corporate control of patented seeds.
+   - GMO crops spread from the mid-1990s, after the original Green Revolution.
+• Subsistence farming & staple crops
+   - Subsistence farmers grow food mainly to feed their own families, not to sell.
+   - Shifting cultivation (slash-and-burn): clear and burn a rainforest plot, farm it a few years, then move on so it can recover, as in the Amazon and Central Africa.
+   - Pastoral nomadism: moving herds of camels, goats, or cattle across dry lands like the Sahel and Mongolia.
+   - In much of sub-Saharan Africa, small rain-fed farms grow staples like cassava, yams, sorghum, and millet, not the irrigated wheat and rice the Green Revolution was built for.
+• Environmental costs of high-input farming
+   - Irrigating thirsty high-yield crops can pump groundwater faster than rain refills it; in India's Punjab the water table has been falling for decades.
+   - In dry places, irrigation water evaporates and leaves salt in the soil (salinization), which can ruin fields.
+   - Heavy pesticide use can poison water and breed resistant pests.
+   - Replacing thousands of local varieties with a few high-yield ones (monoculture) shrinks crop diversity, so one disease can wipe out more.
+• Sustainable farming practices
+   - Sustainable agriculture grows food today while protecting the soil, water, and wildlife farms need tomorrow.
+   - Soil savers: no-till, cover crops, contour plowing, and terracing, like the centuries-old rice terraces of the Philippine Cordilleras.
+   - Crop rotation and organic farming rebuild soil with legumes, compost, and manure instead of synthetic fertilizer.
+   - Community-supported agriculture (CSA) and farmers' markets shorten the distance food travels and support small farms.
+• Food deserts & food insecurity
+   - Food insecurity means lacking reliable access to enough affordable, nutritious food, and it happens in rich and poor countries alike.
+   - A food desert is an area, often low-income, where residents live far from a supermarket and healthy food is hard to get.
+   - In cities, many supermarket chains closed stores in poorer neighborhoods and moved to the suburbs, a pattern tied to disinvestment and redlining.
+   - In rural areas, like the Mississippi Delta or the Navajo Nation, too few customers live nearby to support a big store, so families drive far for groceries.
+
+======================================================================
+Unit 7 · The Factory Floor (Practice FRQ · No stimulus)
+======================================================================
+STIMULUS: undefined
+Every factory sits where it does for a reason: close to its raw materials, its customers, or cheap workers. When those costs change, whole industries move, and the places they leave behind have to find a new way to make a living.
+
+
+--- Part A (Identify) ---
+Q: Identify ONE of the three location factors in Alfred Weber's least-cost theory of industrial location.
+MODEL ANSWER: Transportation costs: the cost of moving raw materials to the factory and finished products to the market.
+RUBRIC: Transportation costs / Labor costs / Agglomeration
+MINI-LESSON (Weber's least-cost theory):
+ - Alfred Weber said in 1909 that a factory locates where its total costs are lowest.
+ - Transportation (moving raw materials in and goods out) usually matters most, but much cheaper labor elsewhere can pull a factory away.
+ - Agglomeration means firms save money by clustering near similar firms, like tech companies in Silicon Valley.
+KEY WORDS: Least-cost theory = Weber's idea that factories locate where their total costs are lowest.; Agglomeration = The clustering of similar businesses in one area so they can share resources and save money.
+QUICK CHECK: Which is one of the three factors in Weber's least-cost theory? → Agglomeration (Weber's three factors are transportation, labor, and agglomeration.)
+
+--- Part B (Describe) ---
+Q: Describe why a bulk-reducing (weight-losing) industry, such as copper smelting, usually locates near its source of raw materials.
+MODEL ANSWER: T1- A bulk-reducing industry locates near its raw materials because its finished product weighs much less than its inputs. E2- Copper ore is usually about 1 percent copper or less, so mills and smelters near mines in places like Arizona and Chile remove tons of waste rock to get a little metal. A3- Processing near the mine means only the lighter copper gets shipped, not heavy waste rock, which keeps transportation costs low.
+RUBRIC: Says the finished product weighs less than the raw materials, because waste is removed / Describes the payoff: processing near the mine cuts transportation (shipping) costs
+MINI-LESSON (Bulk-reducing vs. bulk-gaining):
+ - A bulk-reducing industry makes a product that weighs less than its raw materials, so it locates near them. Copper ore is about 1 percent copper or less.
+ - A bulk-gaining industry does the opposite: soft-drink bottlers add water, so they locate near customers (the market).
+ - Either way, the goal is to keep transportation costs low.
+KEY WORDS: Bulk-reducing industry = An industry whose final product weighs less than its inputs, so it locates near raw materials.; Bulk-gaining industry = An industry whose final product weighs more than its inputs, so it locates near the market.
+QUICK CHECK: Which industry is bulk-GAINING and usually locates near its market? → Soft-drink bottling (Bottlers add water, making the product heavier, so they locate near customers.)
+
+--- Part C (Explain) ---
+Q: Explain ONE reason the Industrial Revolution began in Great Britain in the 1700s.
+MODEL ANSWER: T1- One reason the Industrial Revolution began in Great Britain is that it had large deposits of coal and iron ore. E2- Coal fueled the steam engines James Watt improved in the 1760s and 1770s, iron built the machines, and canals like the Bridgewater Canal (1761) moved coal cheaply to Manchester. A3- Because fuel and metal were cheap and close by, British owners could build steam-powered factories before any other country.
+RUBRIC: Names a reason: coal, iron, capital, colonies, rivers/canals, workers, inventions, or political stability / Explains how it helped industry start: powered machines, paid for factories, or moved goods cheaply
+MINI-LESSON (Why Britain went first):
+ - Britain had coal and iron ore: coal fueled steam engines and iron built the machines.
+ - Colonies and trade supplied raw cotton, profits to invest (capital), and markets; rivers and canals made shipping cheap.
+ - The Agricultural Revolution pushed rural workers off the land and into factory jobs.
+KEY WORDS: Industrial Revolution = The shift from making goods by hand to making them with machines and new power sources like steam.; Capital = Money saved up and invested to build businesses, like factories and machines.
+QUICK CHECK: Which advantage helped Britain industrialize first? → Large deposits of coal and iron ore (Coal powered steam engines and iron built machines. Oil and electricity came later.)
+
+--- Part D (Explain) ---
+Q: Explain ONE cause of deindustrialization in the Rust Belt of the United States since the 1970s.
+MODEL ANSWER: T1- One cause of deindustrialization in the Rust Belt is offshoring: companies moved factory work to countries where labor costs much less. E2- After NAFTA (1994) and China's entry into the World Trade Organization (2001), many makers of auto parts and appliances opened plants in Mexico and China, where wages were far lower than in Ohio or Michigan. A3- Because the same products could be made more cheaply abroad, companies closed or shrank Rust Belt plants, which led to the loss of hundreds of thousands of factory jobs.
+RUBRIC: Names a cause: automation, offshoring to lower-wage countries, or foreign competition / Explains how it cut Rust Belt jobs: lower costs elsewhere, fewer workers needed, plants closed or moved
+MINI-LESSON (Why the factory jobs left):
+ - Automation: robots do many factory tasks, so U.S. factories make far more than in 1980 with millions fewer workers.
+ - Offshoring: companies moved production to lower-wage countries, like Mexico after NAFTA (1994) and China after it joined the WTO (2001).
+ - Global competition: in the 1970s and 1980s, Japanese cars and cheaper foreign steel took customers from U.S. automakers and mills.
+KEY WORDS: Deindustrialization = The loss of manufacturing jobs and factories in a region.; Automation = Using machines, robots, and computers to do work people used to do.; Offshoring = Moving production or other work to another country.
+QUICK CHECK: Replacing assembly-line workers with robots is an example of… → automation (Automation means machines do work people used to do, so plants need fewer workers.)
+
+--- Part E (Explain) ---
+Q: Using ONE real Rust Belt city as an example, explain ONE economic or social effect of deindustrialization on that city.
+MODEL ANSWER: T1- One effect of deindustrialization on Detroit, Michigan, was a huge loss of population, which shrank the city's tax base. E2- As auto plants closed or moved away, workers lost their jobs and left: Detroit fell from about 1.85 million people in 1950 to about 640,000 in 2020, leaving tens of thousands of houses vacant. A3- Because far fewer people and businesses paid taxes, the city struggled to pay for streetlights and police, which helped push Detroit into bankruptcy in 2013.
+RUBRIC: Names an effect: job loss, population loss, a shrinking tax base, vacant buildings, or a shift to service jobs / Uses a real Rust Belt city as the example / Explains how losing factories caused the effect
+MINI-LESSON (After the factories close):
+ - Economic effects: unemployment and a shrinking tax base, so the city has less money for schools, police, and streetlights.
+ - Social effects: people move away, leaving vacant houses, polluted old factory sites (brownfields), and higher poverty. Youngstown, Ohio, shrank from about 170,000 people in 1950 to about 60,000.
+ - Some cities reinvent themselves: Pittsburgh replaced steel jobs with service and quaternary jobs in hospitals, universities, and tech.
+KEY WORDS: Tax base = The people and businesses in a place that pay taxes to fund local services.; Brownfield = An abandoned industrial site that may be polluted and needs cleanup before reuse.
+QUICK CHECK: Which auto-industry city lost about two-thirds of its population after 1950? → Detroit, Michigan (Detroit, the Motor City, shrank from about 1.85 million people in 1950 to about 640,000 in 2020.)
+
+--- Part F (Explain) ---
+Q: Explain how microloans can promote economic development, especially for women in developing countries.
+MODEL ANSWER: T1- Microloans promote development by lending small amounts to poor people, especially women, who are shut out of regular banks because they have no collateral. E2- Bangladesh's Grameen Bank lends mostly to women, who use the money to buy a milk cow, a sewing machine, or a mobile phone to rent to neighbors, then repay from their sales. A3- Because she now earns her own income, a borrower can spend more on her children's food, health, and schooling and gains a bigger voice in family decisions, which reduces poverty and empowers women.
+RUBRIC: Says what microloans do: small loans that let poor women shut out of banks start small businesses / Explains the payoff: income for her family, children's schooling and health, or empowerment
+MINI-LESSON (Microloans: small money, big change):
+ - Banks usually want collateral (property they can take if you don't pay), and poor women often own little or none. A microloan skips that.
+ - Grameen Bank in Bangladesh lends mostly to women (about 97 percent of borrowers); it and its founder, Muhammad Yunus, won the 2006 Nobel Peace Prize.
+ - Women tend to spend earnings on their children's food, health, and schooling, so the benefits reach the next generation.
+KEY WORDS: Microloan (microcredit) = A very small loan to start or grow a tiny business.; Collateral = Property a borrower promises to give up if the loan isn't repaid.; Empowerment = Gaining more control over your own life and choices.
+QUICK CHECK: Grameen Bank, a pioneer of microloans to women, was founded in which country? → Bangladesh (Muhammad Yunus started Grameen Bank in Bangladesh; about 97 percent of its borrowers are women.)
+
+--- Part G (Explain) ---
+Q: Explain ONE way ecotourism can support sustainable development, and explain ONE drawback of ecotourism.
+MODEL ANSWER: T1- Ecotourism can support sustainable development because it turns protecting nature into a source of jobs and income. E2- Costa Rica protects about a quarter of its land in parks and reserves, and tourists pay to see its cloud forests, creating jobs for local guides and lodge owners; in Rwanda, visitors pay $1,500 each to see mountain gorillas. A3- Because living forests and gorillas earn money year after year, locals have a reason to protect them for future generations; however, one drawback is that crowds of visitors can damage the fragile places they come to see.
+RUBRIC: Explains how ecotourism brings money or jobs from visitors who come to see nature / Connects it to sustainability: gives people a reason to protect nature for the future / Explains a drawback: crowds damage nature, travel pollution, or profits leaving the community
+MINI-LESSON (Ecotourism and sustainability):
+ - Sustainable development balances the economy, society, and the environment so future generations can meet their needs too.
+ - Costa Rica's forests have grown back from about a fifth of the country in the 1980s to about half today, helped by tourism money.
+ - Drawbacks: too many visitors can damage fragile places, flights add carbon emissions, and profits may leak to foreign-owned companies.
+KEY WORDS: Sustainable development = Development that meets today's needs without harming future generations' ability to meet theirs.; Ecotourism = Tourism based on visiting nature in a way that protects it and helps local communities.
+QUICK CHECK: Which BEST describes sustainable development? → Meeting today's needs without harming future generations' ability to meet theirs (It balances the economy, society, and the environment, now and for the future.)
+
+BACKGROUND POP-OUTS:
+• Weber's least-cost theory
+   - Alfred Weber's least-cost theory (1909) says a factory locates where its total costs are lowest.
+   - His three factors: transportation (moving raw materials in and products out), labor (wages), and agglomeration (savings from clustering near similar firms).
+   - Transportation usually matters most. Weber drew it as a triangle between two raw-material sources and one market.
+• Bulk-reducing, bulk-gaining & break-of-bulk
+   - A bulk-reducing (weight-losing) industry makes a product lighter than its inputs, so it locates near its raw materials, like copper smelting.
+   - A bulk-gaining industry makes a product heavier, so it locates near its market, like soft-drink bottling, which adds water.
+   - A break-of-bulk point, like a seaport, is where goods switch from one kind of transportation to another. Factories locate there to avoid loading and unloading twice.
+• The Industrial Revolution
+   - The Industrial Revolution, the shift from hand tools to machines powered by water and steam, began in Great Britain in the late 1700s.
+   - Britain had coal and iron, capital from trade and colonies, rivers and canals, and workers pushed off farms by the Agricultural Revolution.
+   - It spread to Western Europe and the U.S. in the early 1800s, Japan after 1868, and after World War II to newly industrialized countries like South Korea, then China.
+• Deindustrialization & the Rust Belt
+   - Deindustrialization is the loss of factory jobs in a region that once depended on them, like the U.S. Rust Belt around the Great Lakes.
+   - U.S. factory jobs peaked at about 19.5 million in 1979, then fell by about a third because of automation, offshoring, and foreign competition.
+   - Some Rust Belt cities, like Pittsburgh, shifted to service and quaternary jobs in hospitals, universities, and tech.
+• The new international division of labor
+   - The new international division of labor (NIDL) splits the steps of making one product among different countries.
+   - Design, research, and marketing usually stay in wealthy core countries, while assembly moves to lower-wage countries.
+   - Nike designs shoes in Oregon but has them made in Vietnam, Indonesia, and China, through outsourcing (hiring other companies) and offshoring (moving work abroad).
+• Microloans
+   - A microloan is a very small loan, often a few hundred dollars or less, for people too poor to borrow from regular banks.
+   - Muhammad Yunus founded Grameen Bank in Bangladesh in 1983. About 97 percent of its borrowers are women, and he and the bank won the 2006 Nobel Peace Prize.
+   - Critics warn about high interest rates and tiny businesses that never grow, so microloans can't end poverty alone.
+• Ecotourism
+   - Ecotourism is travel to natural areas that aims to protect the environment and benefit local people.
+   - Costa Rica protects about a quarter of its land in parks and reserves. Rwanda charges $1,500 for a mountain gorilla permit and shares park revenue with nearby villages.
+   - Drawbacks: crowds damage fragile places, flights add carbon emissions, and profits can leak away to foreign-owned companies.
+• The UN Sustainable Development Goals
+   - Sustainable development means meeting today's needs without harming future generations' ability to meet theirs.
+   - In 2015, UN members adopted 17 Sustainable Development Goals (SDGs) for 2030, like no poverty (Goal 1), gender equality (Goal 5), decent work (Goal 8), and life on land (Goal 15).
+   - Microloans to women support Goals 1 and 5; well-run ecotourism supports Goals 8 and 15.
