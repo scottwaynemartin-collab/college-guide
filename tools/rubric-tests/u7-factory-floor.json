@@ -1,0 +1,72 @@
+{
+"A": [
+  {"a": "Transportation costs", "ok": true},
+  {"a": "Labor - how much the factory has to pay its workers.", "ok": true},
+  {"a": "Agglomeration, when companies cluster together so they can share services and workers.", "ok": true},
+  {"a": "The cost of shipping the raw materials to the factory and the products to the market.", "ok": true},
+  {"a": "Location.", "ok": false},
+  {"a": "Good weather and cheap land.", "ok": false},
+  {"a": "Raw materials.", "ok": false},
+  {"a": "Taxes from the government.", "ok": false}
+],
+"B": [
+  {"a": "T1- Copper ore is mostly waste rock, so the finished copper weighs way less. E2- Smelters near the mines remove that rock. A3- That way they only ship the light copper, which saves on transportation costs.", "ok": true},
+  {"a": "The final product is lighter than the raw ore, so it's cheaper to process it near the mine and ship the smaller amount.", "ok": true},
+  {"a": "Because the raw material loses a lot of weight during processing, it would be a waste of money to transport all that heavy ore to a factory far away.", "ok": true},
+  {"a": "Smelting removes most of the weight, so locating near the mine cuts shipping costs.", "ok": true},
+  {"a": "Copper smelters are built near copper mines because that is where the copper is.", "ok": false},
+  {"a": "Bulk-reducing industries locate near the market because the finished product weighs more and is expensive to ship.", "ok": false},
+  {"a": "The copper loses most of its weight when it gets processed.", "ok": false},
+  {"a": "They locate near the raw materials because workers in mining towns are cheaper, so they save on labor costs.", "ok": false}
+],
+"C": [
+  {"a": "T1- Britain had a lot of coal and iron. E2- Coal powered the steam engines and iron was used to build machines. A3- So factories could be built quickly.", "ok": true},
+  {"a": "Britain had colonies that gave it raw materials like cotton and places to sell goods, which made factory owners lots of money to build even more factories.", "ok": true},
+  {"a": "Lots of rivers and canals made it cheap to move coal and goods around the country.", "ok": true},
+  {"a": "The Agricultural Revolution meant fewer farm workers were needed, so lots of people moved to cities and became workers in the new factories.", "ok": true},
+  {"a": "The Industrial Revolution started in Britain because Britain was rich and powerful.", "ok": false},
+  {"a": "Britain had lots of oil, which they used to power the first factories.", "ok": false},
+  {"a": "Britain had large deposits of coal and iron ore.", "ok": false},
+  {"a": "Britain was the first country to have electricity, which ran all the machines in the factories.", "ok": false}
+],
+"D": [
+  {"a": "T1- Automation. E2- Robots in car factories can do the jobs of many workers. A3- So companies needed fewer workers and laid people off.", "ok": true},
+  {"a": "Companies moved factories to Mexico and China where they can pay workers less, so Rust Belt plants closed.", "ok": true},
+  {"a": "Japanese car companies made cheaper, better cars in the 1970s and 80s, so American automakers lost sales and cut jobs in Detroit.", "ok": true},
+  {"a": "Outsourcing to countries with lower wages made it cheaper to produce there, so factories in Ohio shut down.", "ok": true},
+  {"a": "The factories got old and rusty.", "ok": false},
+  {"a": "The Rust Belt deindustrialized because the Industrial Revolution created too many factories.", "ok": false},
+  {"a": "One cause is automation.", "ok": false},
+  {"a": "Factories closed because workers moved to the Sun Belt for the warm weather, so there was nobody left to work in them.", "ok": false}
+],
+"E": [
+  {"a": "T1- Detroit lost a lot of people. E2- When the car factories closed, workers lost their jobs and moved away, and the population fell from almost 2 million to about 640,000. A3- That shrank the tax base, so the city went bankrupt.", "ok": true},
+  {"a": "In Cleveland, when the steel mills shut down lots of people became unemployed, which led to poverty in those neighborhoods.", "ok": true},
+  {"a": "Pittsburgh lost its steel jobs, so it shifted to a service economy based on hospitals, universities, and tech.", "ok": true},
+  {"a": "Youngstown, Ohio lost thousands of steel jobs when the mills closed, so people left and lots of houses were abandoned.", "ok": true},
+  {"a": "Deindustrialization had a big effect on the city and made it worse.", "ok": false},
+  {"a": "Detroit grew a lot because new factories opened there in the 2000s.", "ok": false},
+  {"a": "Detroit's population went down a lot.", "ok": false},
+  {"a": "Houston lost jobs when its oil factories closed, so people moved away.", "ok": false}
+],
+"F": [
+  {"a": "T1- Microloans are small loans for poor people who can't get bank loans. E2- In Bangladesh, Grameen Bank lends to women who buy things like sewing machines to start businesses. A3- The money they earn helps pay for their kids' school and food.", "ok": true},
+  {"a": "Women can borrow a little money to start a small business, like selling vegetables, and then they earn their own income and get more say in their family.", "ok": true},
+  {"a": "Microloans let women who don't have collateral start their own small businesses, which raises the family's income and helps the kids stay healthy.", "ok": true},
+  {"a": "They give tiny loans so women can buy a cow or a phone and make money, which lifts their families out of poverty.", "ok": true},
+  {"a": "Microloans give people money.", "ok": false},
+  {"a": "Microloans are large loans from the World Bank to build dams and factories in developing countries.", "ok": false},
+  {"a": "Microloans are small loans to poor women so they can start a business.", "ok": false},
+  {"a": "Microloans are free money from the government that women don't have to pay back, so they can buy food for their families.", "ok": false}
+],
+"G": [
+  {"a": "T1- Ecotourism brings in money from tourists who come to see nature. E2- In Costa Rica, tourists pay to visit rainforests and locals get jobs as guides. A3- This gives people a reason to protect the forest instead of cutting it down. One drawback is that too many tourists can damage the habitat.", "ok": true},
+  {"a": "Tourists pay to see gorillas in Rwanda, which creates jobs, so people want to keep the gorillas safe for the future. But flying there causes a lot of pollution.", "ok": true},
+  {"a": "Ecotourism creates jobs for local people, and because the forest is worth more standing than cut down, communities conserve it. A drawback is that a lot of the profits go to foreign hotel companies instead of locals.", "ok": true},
+  {"a": "Visitors spend money at eco-lodges, which gives locals income, and that makes them want to protect the animals. However, crowds of tourists can disturb wildlife and cause erosion on the trails.", "ok": true},
+  {"a": "Ecotourism is good because people like to see animals.", "ok": false},
+  {"a": "Ecotourism supports sustainable development because it builds big resorts and factories in the rainforest, but it is expensive.", "ok": false},
+  {"a": "Ecotourism brings in money and jobs from tourists, which gives locals a reason to protect nature.", "ok": false},
+  {"a": "Ecotourism helps because tourists volunteer to plant trees for free, so the country doesn't have to pay for it. A drawback is that tourists might get bored.", "ok": false}
+]
+}

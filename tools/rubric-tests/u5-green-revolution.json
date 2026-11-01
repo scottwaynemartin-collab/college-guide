@@ -1,0 +1,72 @@
+{
+"A": [
+  {"a": "Borlaug's new dwarf wheat seeds that produce way more grain.", "ok": true},
+  {"a": "They started using chemical fertilizers.", "ok": true},
+  {"a": "Irrigation, like pumping groundwater with tube wells.", "ok": true},
+  {"a": "High yield varieties of rice", "ok": true},
+  {"a": "Farming got better.", "ok": false},
+  {"a": "The seed drill invented by Jethro Tull.", "ok": false},
+  {"a": "The domestication of plants and animals.", "ok": false},
+  {"a": "Organic farming without any chemicals.", "ok": false}
+],
+"B": [
+  {"a": "T1- The Green Revolution increased crop yields. E2- In India, wheat production doubled in Punjab after farmers started using high-yield seeds. A3- India stopped needing food aid from the U.S.", "ok": true},
+  {"a": "Mexico went from importing wheat to growing enough for itself because of Borlaug's wheat.", "ok": true},
+  {"a": "In India, farmers in Punjab started growing a lot more rice and wheat per acre, so famines became less common.", "ok": true},
+  {"a": "The Philippines got IR8 rice, which made much bigger harvests, so the country could feed more of its people.", "ok": true},
+  {"a": "The Green Revolution made farming better in India.", "ok": false},
+  {"a": "In India the Green Revolution made farms smaller and more organic.", "ok": false},
+  {"a": "The Green Revolution increased crop yields a lot.", "ok": false},
+  {"a": "In India the Green Revolution got rid of hunger completely, so nobody there is hungry anymore.", "ok": false}
+],
+"C": [
+  {"a": "T1- Groundwater depletion. E2- High-yield rice needs lots of irrigation, so farmers pump water from wells faster than it refills. A3- The water table keeps dropping.", "ok": true},
+  {"a": "Too much chemical fertilizer runs off the fields into rivers, which pollutes the water and causes algae blooms.", "ok": true},
+  {"a": "Farmers only plant a few high-yield varieties now, so lots of traditional crop types disappeared and biodiversity went down.", "ok": true},
+  {"a": "Irrigating so much leaves salt behind in the soil when the water evaporates, so the soil gets salty and less fertile.", "ok": true},
+  {"a": "The Green Revolution was bad for the environment.", "ok": false},
+  {"a": "The Green Revolution caused overpopulation because more food meant more people were born.", "ok": false},
+  {"a": "One negative consequence is water pollution.", "ok": false},
+  {"a": "The Green Revolution made the soil too fertile, so the crops grew too fast and died.", "ok": false}
+],
+"D": [
+  {"a": "T1- The seeds, fertilizer, and irrigation were expensive. E2- Big farmers could afford them or get bank loans. A3- So they made more profit while small farmers fell behind or went into debt.", "ok": true},
+  {"a": "Rich farmers had money to buy tractors and pumps, but poor small farmers couldn't afford them, so their yields stayed low and they couldn't compete.", "ok": true},
+  {"a": "Big landowners could get credit from banks using their land as collateral, but small farmers had to borrow from moneylenders at high interest and many lost their land.", "ok": true},
+  {"a": "The new inputs cost a lot, so only wealthy farms could pay for them, which let them grow more and buy out the small farmers.", "ok": true},
+  {"a": "The Green Revolution benefited large farms more than small farms because large farms are bigger.", "ok": false},
+  {"a": "Large farms benefited more because they used intensive subsistence agriculture, which grows more food.", "ok": false},
+  {"a": "The high-yield seeds and fertilizer were very expensive.", "ok": false},
+  {"a": "Large farms have more space to grow crops, so they can plant more.", "ok": false}
+],
+"E": [
+  {"a": "T1- The seeds were made for wheat and rice. E2- But in Africa people mostly grow cassava, sorghum, and millet. A3- So the new seeds didn't help their main crops much.", "ok": true},
+  {"a": "Most farms in sub-Saharan Africa depend on rain and don't have irrigation, but the high-yield varieties needed lots of water, so yields didn't go up as much.", "ok": true},
+  {"a": "Bad roads made it hard and expensive to get fertilizer to farmers and crops to markets, so many farmers couldn't use the new inputs.", "ok": true},
+  {"a": "African farmers were mostly poor subsistence farmers who couldn't afford fertilizer and pesticides, so they couldn't use the package.", "ok": true},
+  {"a": "The Green Revolution had less impact in Africa because Africa is different from South Asia.", "ok": false},
+  {"a": "Africa is a desert, so nothing grows there.", "ok": false},
+  {"a": "Many farmers in sub-Saharan Africa grow cassava and millet.", "ok": false},
+  {"a": "Sub-Saharan Africa already had plenty of irrigation and food, so it did not need the Green Revolution.", "ok": false}
+],
+"F": [
+  {"a": "T1- Crop rotation. E2- Farmers switch between crops like corn and soybeans. A3- Soybeans put nitrogen back in the soil, so farmers need less chemical fertilizer.", "ok": true},
+  {"a": "No-till farming leaves the old plant stalks on the field, which protects the soil from wind and water erosion.", "ok": true},
+  {"a": "Terracing on hillsides makes flat steps that slow down rain running off, so the soil doesn't wash away.", "ok": true},
+  {"a": "Drip irrigation puts water right at the roots, so farms use way less water and don't drain the aquifers.", "ok": true},
+  {"a": "Sustainable farming helps the environment because it is eco-friendly.", "ok": false},
+  {"a": "Using more pesticides is sustainable because it stops bugs from damaging the crops.", "ok": false},
+  {"a": "One sustainable farming practice is crop rotation.", "ok": false},
+  {"a": "Monoculture is sustainable because planting only one crop uses less land and water.", "ok": false}
+],
+"G": [
+  {"a": "T1- A food desert is an area where it's hard to get fresh, healthy food. E2- Grocery stores don't open in poor neighborhoods because they won't make as much profit. A3- So people have to buy food from gas stations or fast food places.", "ok": true},
+  {"a": "A food desert is a place without a supermarket nearby that sells affordable fresh produce. In rural areas people live so far apart that big stores don't have enough customers to open there.", "ok": true},
+  {"a": "Food deserts are neighborhoods with mostly corner stores and fast food but no grocery store. They exist because many residents don't own cars and can't drive to supermarkets in the suburbs.", "ok": true},
+  {"a": "It's an area with little access to healthy food. Supermarket chains left inner cities for the suburbs, where people have more money.", "ok": true},
+  {"a": "A food desert is a kind of desert found in urban or rural areas of more developed countries.", "ok": false},
+  {"a": "A food desert is a region where crops can't grow because the climate is too dry.", "ok": false},
+  {"a": "A food desert is a place where people don't have access to healthy, affordable food.", "ok": false},
+  {"a": "A food desert is where there is no food at all, like the Sahara, because it is too hot to grow anything.", "ok": false}
+]
+}

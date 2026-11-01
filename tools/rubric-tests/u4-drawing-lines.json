@@ -1,0 +1,72 @@
+{
+"A": [
+  {"a": "Cracking.", "ok": true},
+  {"a": "Plan 2 uses cracking because it splits Party B's voters up into all the districts.", "ok": true},
+  {"a": "They cracked Party B so its voters are spread out and lose in every district.", "ok": true},
+  {"a": "The technique is spreading the other party's voters thin across all 5 districts so they get outvoted everywhere.", "ok": true},
+  {"a": "Gerrymandering.", "ok": false},
+  {"a": "Packing, because Party B's voters are packed into the middle of the state.", "ok": false},
+  {"a": "Plan 2 uses redistricting after the census.", "ok": false},
+  {"a": "Plan 2 uses compactness, because the districts are drawn as neat shapes.", "ok": false}
+],
+"B": [
+  {"a": "T1- Plan 2 splits Party B's voters into all five districts. E2- Each district gets 2 Party B precincts and 3 Party A precincts. A3- So Party B is the minority everywhere and can't win any district.", "ok": true},
+  {"a": "The lines cut through the middle where Party B is, so every district only has two B precincts out of five and Party A always has the majority.", "ok": true},
+  {"a": "Party B's precincts are divided up evenly, 2 per district, so they lose every district 3 to 2.", "ok": true},
+  {"a": "Each district in Plan 2 gets a slice of the Party B area but only 2 of its 5 precincts, so Party B never has enough to win a seat.", "ok": true},
+  {"a": "Plan 2 divides Party B's voters into different districts.", "ok": false},
+  {"a": "Plan 2 packs all of Party B's voters into one district, so they only win one seat.", "ok": false},
+  {"a": "Each district in Plan 2 has 2 Party B precincts.", "ok": false},
+  {"a": "Plan 2 gives Party B only one precinct in each district, so they are outnumbered 4 to 1 everywhere.", "ok": false}
+],
+"C": [
+  {"a": "T1- Every ten years the census counts how many people live in each state. E2- If a state gains or loses people it can gain or lose House seats, like Texas gained two after 2020. A3- So the lines have to be redrawn so each district has about the same population.", "ok": true},
+  {"a": "Because the census happens every 10 years and people move around, so the districts have to be redrawn to keep them equal in population.", "ok": true},
+  {"a": "The census decides reapportionment, which is how many representatives each state gets, so states have to make new district maps to match their new number of seats.", "ok": true},
+  {"a": "The Constitution says to count everyone every decade. When people move, some districts end up with way more people than others, so they redraw them to keep one person, one vote.", "ok": true},
+  {"a": "District boundaries are redrawn every ten years because that is the rule in the United States.", "ok": false},
+  {"a": "Because politicians want to change the lines every ten years to help their party win more seats.", "ok": false},
+  {"a": "Because the U.S. Census is taken every ten years.", "ok": false},
+  {"a": "Because every ten years Congress votes to add more seats to the House of Representatives, so they need new districts.", "ok": false}
+],
+"D": [
+  {"a": "T1- Plan 2 cracks Party B so it loses everywhere. E2- Stimulus 2 shows Party B got 40% of the votes but 0% of the seats, and Stimulus 1 shows each district has only 2 Party B precincts. A3- So Party B's votes are wasted and Party A wins all 5 seats.", "ok": true},
+  {"a": "Party B got 40 percent of the vote but no seats at all, because on the map every district has 3 A precincts and 2 B precincts, so A wins every one.", "ok": true},
+  {"a": "Even though Party A only got 60% of the vote, it won 100% of the seats. That's because the lines in Plan 2 give each district only two Party B precincts, so B is always the minority.", "ok": true},
+  {"a": "Party B won 10 of 25 precincts and 40% of the votes, but zero districts, since its precincts are split two per district and outnumbered 3-2 in each one.", "ok": true},
+  {"a": "Plan 2 produces an election result that doesn't match the statewide vote because of gerrymandering.", "ok": false},
+  {"a": "Plan 2 packs Party B into one district, so B gets 0% of the seats even with 40% of the vote.", "ok": false},
+  {"a": "Party A got 60% of the vote but won 100% of the seats.", "ok": false},
+  {"a": "Under Plan 2 Party B got 40% of the votes but 0% of the seats because fewer Party B voters showed up in Plan 2.", "ok": false}
+],
+"E": [
+  {"a": "T1- Voters in Party B have no representation. E2- Party B won 40% of the vote but 0% of the seats. A3- So those voters might feel their vote doesn't count and stop voting.", "ok": true},
+  {"a": "Under Plan 2, 40% of voters get zero representatives in Congress, so nobody speaks for their views.", "ok": true},
+  {"a": "Party B gets 40% of the votes and none of the seats, so its voters' votes are wasted and they may stop turning out for elections.", "ok": true},
+  {"a": "Since Party A wins 100% of the seats with only 60% of the vote, its representatives have safe seats and don't have to listen to the other side, which can make politics more polarized.", "ok": true},
+  {"a": "Gerrymandering is unfair to Party B.", "ok": false},
+  {"a": "Plan 2 makes more people vote, because Party B voters get excited to win more seats.", "ok": false},
+  {"a": "Party B got 40% of the statewide vote but 0% of the seats under Plan 2.", "ok": false},
+  {"a": "Party B got 40% of the votes but 0% of the seats, which means the districts have unequal populations and break the one person, one vote rule.", "ok": false}
+],
+"F": [
+  {"a": "T1- An independent commission could draw the lines instead of politicians. E2- States like California use citizen commissions. A3- Since the commission doesn't care which party wins, they won't split up Party B on purpose.", "ok": true},
+  {"a": "A compactness requirement means districts have to be neat shapes, not weird ones. Plan 2's districts are long slices that cut up Party B's area, so a compact rule would keep Party B's cluster together and they'd win some seats.", "ok": true},
+  {"a": "If a nonpartisan commission made the maps, the people in power couldn't draw lines to help themselves stay in power.", "ok": true},
+  {"a": "Compactness rules ban strange-shaped districts, which makes it harder to crack a group of voters apart.", "ok": true},
+  {"a": "An independent commission would make redistricting more fair.", "ok": false},
+  {"a": "A compactness requirement would make every district have the same number of people, so they are all equal.", "ok": false},
+  {"a": "A state could use a compactness requirement.", "ok": false},
+  {"a": "An independent commission would let voters pick which district they want to be in, so everyone gets to choose.", "ok": false}
+],
+"G": [
+  {"a": "T1- Plan 2 can make people distrust the government. E2- Party B voters get 40% of the votes but no seats, so they feel cheated. A3- This divides the country and weakens national unity.", "ok": true},
+  {"a": "Party B voters would be angry that they're not represented, which could lead to protests and pull people apart, making the country less unified.", "ok": true},
+  {"a": "When people think elections are rigged they lose trust in the government and their loyalty to the country weakens, which is a centrifugal force.", "ok": true},
+  {"a": "Unfair maps make Party B supporters feel left out, which creates tension between the two parties and splits the country.", "ok": true},
+  {"a": "A centrifugal force is something that divides a country.", "ok": false},
+  {"a": "Plan 2 is a centrifugal force because it brings Party A voters together and unites the state.", "ok": false},
+  {"a": "Party B voters would be angry and feel like they aren't represented.", "ok": false},
+  {"a": "Plan 2 acts as a centrifugal force because all the districts spread out from the center of the state like a pizza.", "ok": false}
+]
+}

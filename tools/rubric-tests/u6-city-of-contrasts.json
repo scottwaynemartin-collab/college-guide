@@ -1,0 +1,72 @@
+{
+"A": [
+  {"a": "The periférico.", "ok": true},
+  {"a": "periferico zone", "ok": true},
+  {"a": "The zone of peripheral squatter settlements on the outskirts of the city.", "ok": true},
+  {"a": "The outermost ring, at the very edge of the city.", "ok": true},
+  {"a": "Slums.", "ok": false},
+  {"a": "The disamenity sector along the river.", "ok": false},
+  {"a": "The zone of in situ accretion.", "ok": false},
+  {"a": "The zone of maturity, near the middle of the city.", "ok": false}
+],
+"B": [
+  {"a": "T1- The spine is a main road with shops and businesses that goes out from the CBD. E2- The elite residential sector is where rich people live along both sides of the spine. A3- It goes all the way out to the mall at the edge.", "ok": true},
+  {"a": "The spine is a commercial strip extending from downtown to the mall, and the wealthiest families live in the elite sector right next to it.", "ok": true},
+  {"a": "The spine is like a wide boulevard with stores, offices and restaurants coming out of the CBD. The elite residential sector is a wedge of rich neighborhoods around it.", "ok": true},
+  {"a": "A big avenue full of businesses runs north from the center, and upper class people have their mansions and fancy apartments along it.", "ok": true},
+  {"a": "The spine is on the north side of the city, and the elite residential sector is next to it.", "ok": false},
+  {"a": "The spine is the river that runs through the city, and the elite residential sector is where the factories are.", "ok": false},
+  {"a": "The spine is a commercial boulevard that runs from the CBD out to the mall.", "ok": false},
+  {"a": "The spine is where poor people live along the railroad, and the elite sector is next to it.", "ok": false}
+],
+"C": [
+  {"a": "T1- The center has the best services. E2- It has reliable water, electricity, and police, while the edge doesn't. A3- In the U.S. rich people moved to the suburbs because they had cars and highways, but in Latin America the edge is where the poor live.", "ok": true},
+  {"a": "Living near the CBD is close to jobs, shops, and culture. In U.S. cities wealthy people moved out to the suburbs, but in Latin America the outskirts are squatter settlements with no services.", "ok": true},
+  {"a": "It's a tradition from Spanish colonial times, when the wealthy lived around the main plaza, which gave them status. U.S. cities are different because the rich left for the suburbs to get more space.", "ok": true},
+  {"a": "The center is safer and has paved roads and clean water, while the outskirts don't even have running water or sewers, so wealthy people stay close to the middle.", "ok": true},
+  {"a": "Rich people like to live in nice areas.", "ok": false},
+  {"a": "Wealthy people live near the CBD because the land is cheapest there, according to bid-rent theory.", "ok": false},
+  {"a": "Wealthy residents live near the CBD because that's where the best stores and services are.", "ok": false},
+  {"a": "In Latin America rich people live out in the suburbs, just like they do in the U.S.", "ok": false}
+],
+"D": [
+  {"a": "T1- Yes, it is a primate city. E2- Puerto Alba has 9.6 million people and San Lucero only has 1.3 million. A3- That's more than twice as big as the second city, so it dominates the country.", "ok": true},
+  {"a": "Yes, because Puerto Alba (9,600,000) is over 7 times bigger than San Lucero (1,300,000), and a primate city has to be at least double the next largest.", "ok": true},
+  {"a": "Yes. By the rank-size rule San Lucero should have 4,800,000 people, but it only has 1,300,000, which shows Puerto Alba is disproportionately larger than any other city in the country.", "ok": true},
+  {"a": "Yes it is primate since 9.6 million is more than double 1.3 million.", "ok": true},
+  {"a": "Yes, Puerto Alba is a primate city because it is the largest city in Valdoria.", "ok": false},
+  {"a": "No, Puerto Alba is not a primate city because it follows the rank-size rule, with 9,600,000 people matching its prediction of 9,600,000.", "ok": false},
+  {"a": "Puerto Alba has 9,600,000 people and San Lucero has 1,300,000.", "ok": false},
+  {"a": "Yes, it's primate because it grew from 5,400,000 to 9,600,000, almost doubling in size.", "ok": false}
+],
+"E": [
+  {"a": "T1- Rural-to-urban migration. E2- People leave the countryside for jobs in Puerto Alba, which grew from 5.4 to 9.6 million. A3- They can't afford real housing, so they build shacks on empty land at the edge.", "ok": true},
+  {"a": "Lots of people move from farms to the city looking for work, but there aren't enough affordable homes, so they make their own houses out of scrap materials on the outskirts.", "ok": true},
+  {"a": "High natural increase means the city's population grows faster than the government can build housing, so poor families end up building illegal homes on land they don't own.", "ok": true},
+  {"a": "Migrants from rural areas are too poor to pay rent, so they put up their own houses on unused land.", "ok": true},
+  {"a": "Because people want to live in the city.", "ok": false},
+  {"a": "Squatter settlements grow because of suburbanization, as wealthy people move out to the edges for bigger houses.", "ok": false},
+  {"a": "One cause is rural-to-urban migration.", "ok": false},
+  {"a": "Squatter settlements grow because the government builds cheap public housing at the edge of the city for poor people.", "ok": false}
+],
+"F": [
+  {"a": "T1- The city is growing too fast to build pipes out to the edge. E2- Stimulus 2 shows Puerto Alba grew from 5.4 million to 9.6 million, and Stimulus 1 shows the periférico is on the outer edge, far from the CBD. A3- So many people there don't get clean water, and diseases spread.", "ok": true},
+  {"a": "Puerto Alba went from 5,400,000 to 9,600,000 people, and the squatter settlements are in the outermost ring of the city. The government can't build sewers and water lines fast enough to reach that far, so people lack sanitation.", "ok": true},
+  {"a": "Since it's a primate city that gained over 4 million people in 25 years, and the periferico is at the very edge away from downtown, buses don't reach it, so residents have really long commutes to jobs in the CBD.", "ok": true},
+  {"a": "The periférico is far from the center on the map and the population nearly doubled since 2000, so the city doesn't have enough money or time to extend water service out there, and people have to buy dirty water.", "ok": true},
+  {"a": "Puerto Alba has a lot of people, so it is crowded.", "ok": false},
+  {"a": "The periférico is right in the CBD, so it is too crowded to fit water pipes.", "ok": false},
+  {"a": "Puerto Alba grew from 5,400,000 to 9,600,000, and the periférico is far from the CBD at the edge of the city.", "ok": false},
+  {"a": "Stimulus 2 shows San Lucero has more people than the rank-size rule predicts, so the government spends its money there instead of on water pipes for the periférico at the edge.", "ok": false}
+],
+"G": [
+  {"a": "T1- Upgrade the settlements in place. E2- Like Rio's Favela-Bairro program, which added water, sewers, and paved roads. A3- That reduces disease and makes life better without kicking people out.", "ok": true},
+  {"a": "The government could give people legal titles to their land, so they feel secure and invest money in fixing up their homes.", "ok": true},
+  {"a": "Build a bus rapid transit line out to the periférico so people can get to jobs in the CBD faster and earn more money.", "ok": true},
+  {"a": "Put in clean water pipes and sewers in the neighborhoods so people don't get sick from dirty water.", "ok": true},
+  {"a": "The government should help the people who live there.", "ok": false},
+  {"a": "The government should bulldoze the squatter settlements and build a new mall there.", "ok": false},
+  {"a": "The government could give residents land titles.", "ok": false},
+  {"a": "The government should build a wall around the periférico so no more migrants can move in, which keeps it from getting too crowded.", "ok": false}
+]
+}
