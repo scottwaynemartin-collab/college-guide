@@ -1,0 +1,6 @@
+{
+"A":[{"a":"T1- India used to be a colony of Britain. E2- The British ran the schools and government in English. A3- So English stuck around after they left.","ok":true},
+     {"a":"India has a lot of people so a lot of them speak English.","ok":false}],
+"E":[{"a":"T1- Workers in India get paid less. E2- India has 125 million English speakers. A3- The company saves money and makes more profit.","ok":true},
+     {"a":"Because India has lots of English speakers.","ok":false}]
+}
