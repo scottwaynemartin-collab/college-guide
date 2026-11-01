@@ -2875,8 +2875,10 @@ document.addEventListener('input', e => {
   if (t.dataset.agency){ const [k,q,f] = t.dataset.agency.split('|'); ((DB.agency[k] ||= {})[q] ||= {})[f] = t.value; save(); return; }
   if (e.target.id !== 'q') return;
   UI.q = e.target.value;
-  if (['import','options','assignments'].includes(UI.view)) UI.view = 'overview';
-  const pos = e.target.selectionStart; render(); const q = $('#q'); q.focus(); q.setSelectionRange(pos, pos);
+  clearTimeout(UI._qT); UI._qT = setTimeout(() => {   // wait for a pause in typing: a full redraw per keystroke is slow with a big roster
+    if (['import','options','assignments','help'].includes(UI.view)) UI.view = 'overview';
+    const el = $('#q'), pos = el ? el.selectionStart : UI.q.length; render(); const q = $('#q'); if (q){ q.value = UI.q; q.focus(); q.setSelectionRange(pos, pos); }
+  }, 140);
 });
 document.addEventListener('keydown', e => {
   if (e.key==='Escape'){ if ($('#layer').innerHTML){ const inConf = !!$('#layer .conf'); closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !inConf) return openStudent(k); nextFile(); } else $('#side').classList.remove('open'); }

@@ -179,12 +179,16 @@ The claude.ai artifact frame blocks several browser features, so the page works 
 - **Printing:** **Print** becomes a copyable text view. Printing works normally when the file is opened directly in Chrome.
 - **Reserved link name:** claude.ai reserves `#settings`, so the Settings view uses `#options`.
 
-## Worth checking
-1. Do the status, retest and AP-projection rules match how the teacher thinks about students?
-2. Is the AP projection weighting (recency, and the MC/writing split per course) sensible?
-3. Spot-check one student's average by hand against Canvas, AP Classroom and TAC.
-4. After a real import, look at **Data check** for ID mismatches and unrecognized prefixes.
-5. Accessibility: keyboard use, contrast, and screen-reader labels.
+## Worth checking (questions for a second reviewer, e.g. ChatGPT)
+1. **AP status rule.** Is "raw unit-MC average ≥ 55% *or* the last 2 unit tests ≥ 55%" a fair proxy for "on pace for a 3"? Should a retest replace the original test instead of counting as an extra test?
+2. **Projection cut scores.** Do 85/70/55/40 (composite % → 5/4/3/2) and the recency weight (Unit N counts 1 + 0.5·(N−1)) look sensible for APHG / AP World / AP Euro?
+3. **Retest messages.** Should they key off the *curved* TAC grade (below 80, as now) or the raw AP Classroom score? A student at TAC 82 / raw 62 currently gets no message.
+4. **Power Hour drafts.** Do the three lists (latest TAC test < 80; class < 70; class < 80) cover the right students, and is "next Tuesday or Wednesday, never Thursday" the right default?
+5. **Retest priority** adds a hypothetical retest at 55% as an extra test and asks whether the student flips to on track. Is that the right question to ask?
+6. **At a glance.** "% on pace for a 3+" divides by students *with a projection* (not all enrolled). Is that the number an administrator expects?
+7. **T-TESS rows.** Does each dimension's evidence match what an appraiser looks for in 1.2, 1.3, 1.4/2.4, 2.1/3.3, 2.3, 2.5, 3.1, 4.2 and 4.4?
+8. After the first real import, open **Import → Data check**. Spot-check one student's numbers by hand against Canvas, AP Classroom and TAC.
+9. Accessibility: keyboard use, screen-reader labels. Dark-mode contrast passed an automated check.
 
 ## Known limits
 - Data lives in one browser. Use **Back up…** in Settings to move it.
