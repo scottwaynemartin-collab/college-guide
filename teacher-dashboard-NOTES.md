@@ -250,6 +250,38 @@ Three independent reviews covered imports, the action pages, and security / UI e
   - Agency Pathway imports are logged as **Pathway**.
   - Neither counts as a data refresh, so "hidden until the next refresh" lists (Retest messages sent, Power Hour drafted) stay hidden.
 
+## Added: Student view, At a glance class averages + trend, draft days, header chips (Nov 2)
+- **Student view** (new page, for projecting in class). Pick a course (APHG / AP World / AP Euro) and optionally one period; the default is all periods combined. Read-only, with Print and Full screen buttons. Uses theme colors, so it works in light and dark.
+  - **Top strip:**
+    - Class average: the current gradebook grade (this quarter's "Qn Grade (to date)" from the Student Profile; the dashboard class average where that's missing).
+    - Unit MC average, raw: AP Classroom first attempts.
+    - Unit MC average, scaled: Gradebook unit tests.
+    - % on pace for a 3: the existing AP on-track rule.
+  - **Unit MC cards** (first attempt only; retests excluded): raw and scaled averages, a score-band bar of the scaled scores (90+ / 80–89 / 70–79 / below 70) with the median marked, % at or above 55% raw, and n.
+  - **Writing cards:** one per FRQ / SAQ / LEQ / DBQ. Each shows the class average (Gradebook copy when there is one), the rubric average when points possible are known (e.g. 4.2/7), and the same band bar.
+  - **Trend:** raw and scaled unit MC by unit, plus writing average by assignment.
+  - **Agency:** cleared the Pathway (latest unit with Pathway data), retests completed (that unit, and all year), average retest gain (AP Classroom raw; Gradebook if there are no AP Classroom retests).
+  - One plain-language takeaway per section.
+  - **Privacy:**
+    - No names, IDs, tooltips or links to students.
+    - Any count, share or band of fewer than 3 students (0 included) reads "fewer than 3". A share where only 1–2 students are left out reads "all but fewer than 3".
+    - Averages need at least 3 scores. The median shows only with 5+ scores.
+    - When a band holds 1–2 students, the other bands are rounded to 5% and n is shown as approximate ("≈25"), so the small band can't be worked out by subtraction.
+- **Points possible** are now remembered per assignment on import: from the points-possible row, or from "x/y" cells. Scores themselves are unchanged. This is only used for the rubric average.
+- **At a glance:**
+  - A **Class avg** column in the course table, per course and per period (same definition as above).
+  - **Trend over time:** a snapshot `{date, course, on-track %, watch %, help %, paid %, class average}` is saved on every grade or profile import (one per course per day; a later import the same day replaces it).
+  - A small line per course (on-track %), plus latest values with the change since the first snapshot.
+  - The first snapshot is taken on load if there is data but no trend yet.
+  - Printout still one page: empty "not entered yet" sections are left out of the printed copy.
+- **Power Hour drafts:**
+  - **Draft day** picker next to Mark drafted. It defaults to the next Tuesday or Wednesday; Thursdays and weekends are refused.
+  - Ticks are remembered, with all / none per class, so groups can be marked for different days.
+  - Each "PH draft" contact-log entry stores its draft day (`day: YYYY-MM-DD`). It is logged once per student per draft day.
+  - **Logged drafts** card (last 3 weeks and upcoming, grouped by draft day): tick students and move them to another date. Older entries are grouped by the day in their note (e.g. "Tue, Nov 3").
+  - The conference contact log shows "for <day>" with an **edit date** link.
+- **Overview header** now shows Profile, Reports and Pathway freshness chips, next to the platform chips. Reports never show as stale.
+
 ## Artifact limits (by design)
 The claude.ai artifact frame blocks several browser features, so the page works around them:
 - **Pop-ups (`confirm`, `prompt`, `alert`):** replaced with dialogs built into the page.
@@ -264,6 +296,7 @@ The claude.ai artifact frame blocks several browser features, so the page works 
 4. **Power Hour drafts.** Do the three lists (latest TAC test < 80; class < 70; class < 80) cover the right students, and is "next Tuesday or Wednesday, never Thursday" the right default?
 5. **Retest priority** adds a hypothetical retest at 55% as an extra test and asks whether the student flips to on track. Is that the right question to ask?
 6. **At a glance.** "% on pace for a 3+" divides by students *with a projection* (not all enrolled). Is that the number an administrator expects?
+10. **Student view privacy.** Is "fewer than 3" (with rounding when a band has 1–2) enough for a projected page, or should small periods be hidden entirely?
 7. **T-TESS rows.** Does each dimension's evidence match what an appraiser looks for in 1.2, 1.3, 1.4/2.4, 2.1/3.3, 2.3, 2.5, 3.1, 4.2 and 4.4?
 8. After the first real import, open **Import → Data check**. Spot-check one student's numbers by hand against Canvas, AP Classroom and TAC.
 9. Accessibility: keyboard use, screen-reader labels. Dark-mode contrast passed an automated check.

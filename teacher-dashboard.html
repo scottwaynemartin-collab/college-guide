@@ -549,7 +549,7 @@ button.nchip{font:inherit;cursor:pointer;border:0;text-align:left}
 .admh{font:900 13px var(--display);text-transform:uppercase;letter-spacing:.04em;margin:16px 0 6px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}.admh small{font:600 11px var(--sans);text-transform:none;letter-spacing:0;color:var(--ink3)}
 .adm .t td{padding:5px 8px}.adm .minor{font-size:11px}
 @media (max-width:640px){.adm .t th:last-child,.adm .t td:last-child{display:none}.adm .t td,.adm .t th{padding:4px 5px}.adm .strip{grid-template-columns:1fr 1fr;gap:8px}.adm .stat{padding:10px 12px}}
-#printArea .adm{font-size:10.5px}#printArea .admh{margin:8px 0 3px;font-size:11px}#printArea .adm table{font-size:10px}#printArea .adm td,#printArea .adm th{padding:2px 5px}#printArea .adm .strip{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:6px 0}#printArea .adm .stat{border:1px solid #000;padding:5px 7px}#printArea .adm .stat b{font:900 18px var(--display);display:block}#printArea .adm .stat span{font-size:9px;text-transform:uppercase;letter-spacing:.05em}#printArea .adm .bbar{display:block;height:7px;border:1px solid #000;border-radius:4px;overflow:hidden}#printArea .adm .bbar i{display:block;height:100%;background:#000}#printArea .adm tr.hi td{background:#eee;-webkit-print-color-adjust:exact;print-color-adjust:exact}#printArea .adm .tthead{display:flex;justify-content:space-between;border-bottom:3px solid #000;padding-bottom:4px}#printArea .adm .tthead h2{background:none;color:#000;padding:0;margin:0;font-size:18px}#printArea .adm .ttfoot{font-style:italic;color:#333;margin-top:6px;font-size:9px}
+#printArea .adm{font-size:10.5px}#printArea .admh{margin:6px 0 2px;font-size:11px}#printArea .adm table{font-size:10px}#printArea .adm td,#printArea .adm th{padding:1px 5px;line-height:1.3}#printArea .adm .strip{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:6px 0}#printArea .adm .stat{border:1px solid #000;padding:5px 7px}#printArea .adm .stat b{font:900 18px var(--display);display:block}#printArea .adm .stat span{font-size:9px;text-transform:uppercase;letter-spacing:.05em}#printArea .adm .bbar{display:block;height:7px;border:1px solid #000;border-radius:4px;overflow:hidden}#printArea .adm .bbar i{display:block;height:100%;background:#000}#printArea .adm tr.hi td{background:#eee;-webkit-print-color-adjust:exact;print-color-adjust:exact}#printArea .adm .tthead{display:flex;justify-content:space-between;border-bottom:3px solid #000;padding-bottom:4px}#printArea .adm .tthead h2{background:none;color:#000;padding:0;margin:0;font-size:18px}#printArea .adm .ttfoot{font-style:italic;color:#333;margin-top:6px;font-size:9px}
 .dgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.dchart{border-radius:10px;box-shadow:0 0 0 1px var(--line);padding:10px 12px}.dch{display:flex;justify-content:space-between;gap:8px;align-items:baseline;margin-bottom:6px}
 .drow2{display:grid;grid-template-columns:minmax(90px,.9fr) 1fr 44px;gap:8px;align-items:center;padding:3px 0;font-size:12px}.drow2 .dl{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.drow2 .bbar{position:relative}.drow2 .bbar em{position:absolute;top:-3px;bottom:-3px;border-left:2px dashed var(--ink);margin-left:-1px}
 .drow2.me{font-weight:800}.drow2.me .dl{color:var(--tq-ink)}.drow2.me .bbar i{background:var(--tq)}.drow2.me .bbar{box-shadow:inset 0 0 0 1.5px var(--tq)}
@@ -679,6 +679,78 @@ button.nchip{font:inherit;cursor:pointer;border:0;text-align:left}
 #printArea .tt h3{font-size:12px;margin:0 0 2px}#printArea .tt h3 span{display:inline-block;min-width:56px;border:1.5px solid #000;padding:1px 4px;margin-right:6px;text-align:center}
 #printArea .tt ul{margin:0;padding-left:70px}#printArea .tt li{margin:1px 0}
 #printArea .ttfoot{font-style:italic;color:#333;margin-top:8px}
+
+/* ---------- Student view (projected in class): big type, class results only ---------- */
+.svhead{display:flex;justify-content:space-between;align-items:flex-end;gap:14px 20px;flex-wrap:wrap;margin-bottom:16px}
+.svhead h1{font:900 46px/1 var(--display);text-transform:uppercase;letter-spacing:-.025em;margin:8px 0 0}
+.svhead p{margin:8px 0 0;color:var(--ink2);font-size:17px}
+.svhead .eyebrow{color:var(--tq-ink);font-size:13px}
+.svctl{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.svctl .chips{margin-top:0}
+.svstrip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:4px 0 12px}
+.svstat{background:var(--card);border-radius:18px;box-shadow:0 0 0 1px var(--line);padding:18px 20px 16px;min-width:0}
+.svstat b{display:block;font:900 60px/1 var(--display);letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.svstat b.sm{font-size:30px;line-height:1.1}
+.svstat span{display:block;font:800 14px/1.25 var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--ink2);margin-top:10px}
+.svstat small{display:block;font-size:14px;color:var(--ink3);margin-top:4px}
+.svstat.accent{background:var(--blk);color:#fff;box-shadow:none}.svstat.accent b{color:var(--tq-hi)}.svstat.accent span,.svstat.accent small{color:var(--on-blk2)}
+.svtake{font-size:19px;font-weight:700;line-height:1.4;padding:12px 18px;border-radius:12px;background:var(--tq-soft);color:var(--ink);box-shadow:inset 6px 0 0 var(--tq);margin:0 0 26px}
+.svsec h2{font:900 24px var(--display);text-transform:uppercase;margin:0 0 12px;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.svsec h2 small{font:600 15px var(--sans);text-transform:none;color:var(--ink3)}
+.svgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px;margin-bottom:12px}
+.svcard{background:var(--card);border-radius:18px;box-shadow:0 0 0 1px var(--line);padding:16px 18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.svcard h3{font:900 22px/1.1 var(--display);text-transform:uppercase;letter-spacing:-.01em}
+.svpair{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.svpair div{background:var(--card2);border-radius:12px;padding:10px 12px;box-shadow:inset 0 0 0 1px var(--line);min-width:0}
+.svpair b{display:block;font:900 36px/1.05 var(--display);font-variant-numeric:tabular-nums}.svpair b small{font-size:.5em;color:var(--ink2)}
+.svpair span{display:block;font:800 12px/1.25 var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--ink2);margin-top:3px}
+.svmeta{display:flex;justify-content:space-between;gap:6px 12px;flex-wrap:wrap;font-size:15px;color:var(--ink2)}.svmeta b{color:var(--ink);font-weight:800}
+.dbar{position:relative;display:flex;gap:2px;height:28px;margin-top:22px}
+.dbar i{display:block;height:100%;min-width:0}.dbar i:first-child{border-radius:8px 0 0 8px}.dbar i:last-child{border-radius:0 8px 8px 0}
+.dbar i.few{background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.55) 0 4px,transparent 4px 8px)}
+.dbar .med{position:absolute;top:-6px;bottom:-6px;width:0;border-left:3px solid var(--ink)}
+.dbar .med span{position:absolute;bottom:100%;left:0;transform:translateX(-50%);white-space:nowrap;font:800 13px var(--sans);color:var(--ink);padding-bottom:2px}
+.b90{background:var(--ok)}.b80{background:var(--s1)}.b70{background:var(--watch)}.blo{background:var(--help)}
+.dleg{display:grid;grid-template-columns:1fr;gap:2px;font-size:14px;color:var(--ink2)}
+.dleg span{display:flex;align-items:center;gap:6px;min-width:0}.dleg i{width:12px;height:12px;border-radius:3px;flex:none}.dleg b{color:var(--ink);margin-left:auto;font-weight:800;white-space:nowrap}
+.svnone{font-size:15px;color:var(--ink3);padding:4px 0}
+.svtrend{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-bottom:12px}
+.lchart{width:100%;height:auto;display:block;overflow:visible}
+.lchart .gr{stroke:var(--line);stroke-width:1}.lchart .ax{font:700 13px var(--sans);fill:var(--ink3)}.lchart .vl{font:800 13px var(--sans)}
+.lchart path{fill:none;stroke-width:3.5;stroke-linejoin:round;stroke-linecap:round}
+.lleg{display:flex;gap:14px;flex-wrap:wrap;font-size:14px;color:var(--ink2);margin-bottom:6px}.lleg span{display:inline-flex;align-items:center;gap:6px}.lleg i{width:16px;height:4px;border-radius:2px;display:inline-block}
+.svag{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:12px}
+body.present aside,body.present .top{display:none!important}
+body.present .app{grid-template-columns:1fr}
+body.present .content{padding:28px 40px 60px}
+@media (max-width:1100px){.svstrip{grid-template-columns:repeat(2,minmax(0,1fr))}.svag,.svtrend{grid-template-columns:1fr}}
+@media (max-width:640px){.svhead h1{font-size:30px}.svstat{padding:14px}.svstat b{font-size:40px}.svstat b.sm{font-size:22px}.svpair b{font-size:28px}.svtake{font-size:16px}.svgrid{grid-template-columns:1fr}.svsec h2{font-size:20px}}
+#printArea .sv{font-size:10px}
+#printArea .svstrip{grid-template-columns:repeat(4,1fr);gap:6px;margin:0 0 4px}
+#printArea .svstat,#printArea .svcard{border:1px solid #000;box-shadow:none;border-radius:6px;background:#fff;color:#000;padding:5px 8px;break-inside:avoid}
+#printArea .svstat b{font-size:22px;color:#000}#printArea .svstat b.sm{font-size:12px}#printArea .svstat span{font-size:8px;margin-top:2px;color:#333}#printArea .svstat small{font-size:7.5px;color:#444}
+#printArea .svtake{font-size:9.5px;padding:2px 8px;margin:0 0 5px;background:#fff;box-shadow:inset 3px 0 0 #000;border-radius:0}
+#printArea .svsec h2{background:none;color:#000;padding:0;margin:5px 0 3px;font-size:12px}#printArea .svsec h2 small{font-size:8.5px;color:#444}
+#printArea .svgrid{grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:3px}
+#printArea .svcard{gap:3px}#printArea .svcard h3{font-size:10.5px}
+#printArea .svpair{gap:4px}#printArea .svpair div{padding:2px 5px;background:#fff;box-shadow:inset 0 0 0 1px #bbb}#printArea .svpair b{font-size:14px}#printArea .svpair span{font-size:7px}
+#printArea .svmeta{font-size:8px}#printArea .svnone{font-size:8.5px}
+#printArea .dbar{height:9px;margin-top:11px;gap:1px}#printArea .dbar .med{border-left-width:2px;top:-3px;bottom:-3px;border-color:#000}#printArea .dbar .med span{font-size:7.5px;color:#000}
+#printArea .dleg{font-size:7.5px;gap:0}#printArea .dleg i{width:7px;height:7px}
+#printArea .dbar i,#printArea .dleg i,#printArea .lchart{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+#printArea .svtrend{grid-template-columns:1fr 1fr;gap:6px;margin-bottom:3px}#printArea .svag{grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:3px}
+#printArea .lleg{font-size:8px;margin-bottom:2px}#printArea .lchart .ax,#printArea .lchart .vl{font-size:12px}
+#printArea .fine{font-size:8px}
+/* Power Hour drafts: draft-day picker, select all/none, logged drafts */
+.pdday{display:inline-flex;align-items:center;gap:6px;font:700 12px var(--sans);color:var(--ink2)}
+.pdday input{border:1.5px solid var(--line2);border-radius:8px;padding:4px 8px;background:var(--card);color:var(--ink);font-size:12px}
+.pdsel{font:600 11px var(--sans);color:var(--ink3);text-transform:none;letter-spacing:0;margin-left:6px}
+.pdlog .nchip{display:inline-flex;align-items:center;gap:5px;cursor:pointer}.pdlog .nchip input{width:14px;height:14px;accent-color:var(--tq)}
+/* At a glance: trend */
+.admtrend{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:900px){.admtrend{grid-template-columns:1fr}}
+#printArea .admtrend{grid-template-columns:1.1fr 1fr;gap:8px}#printArea .admtrend .lleg{font-size:8px}#printArea .admtrend .lchart{max-height:105px}
+#printArea .adm .lchart .ax,#printArea .adm .lchart .vl{font-size:12px}#printArea .admtrend td{white-space:nowrap}
+#printArea .hd:has(+ .adm){display:none}   /* At a glance carries its own header */
 
 /* in-page print area (no new windows, so it works inside artifacts) */
 #printArea{display:none}
@@ -841,7 +913,7 @@ const AP_EXAM = {paid:'Paid', unpaid:'Unpaid', opted:'Opted out'};
 
 /* ---------- storage (browser only) ---------- */
 const KEY = 'classroomDashboard.v1';
-const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, emailLog:{}, conferences:{}, ttess:{}, groups:[], retestMsgs:{}, phDrafted:{}, excluded:{}, pathway:{}, cb:{scores:[], ipr:[], district:[]}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
+const blank = () => ({students:{}, idmap:{}, assignments:{}, scores:{}, notes:{}, profiles:{}, contacts:{}, retestDone:{}, drafts:{}, agency:{}, confNotes:{}, emailLog:{}, conferences:{}, ttess:{}, groups:[], retestMsgs:{}, phDrafted:{}, excluded:{}, pathway:{}, trend:[], cb:{scores:[], ipr:[], district:[]}, imports:[], mappings:{}, settings:{}, hidden:[], sample:false, seq:0, prev:null});
 let DB = load();
 function load(){ try{ return Object.assign(blank(), JSON.parse(localStorage.getItem(KEY)||'{}')); }catch(e){ return blank(); } }
 function save(){ const j = JSON.stringify(DB);
@@ -873,7 +945,8 @@ function migrate(){
 migrate();
 
 const UI = { view: location.hash.slice(1) || 'overview', course:'all', period:'all', staar:'all', status:null, q:'', sort:'need',
-  retestBy:'student', apf:'all', quart:'all', flagsOnly:false, wsort:'count', draft:null, draftBlock:'A Block', draftDay:'', cmpType:'all', cmpStudent:'', pasteYear:'', phOut:new Set(), pasteSrc:'Canvas', lastResult:'', asort:['order',-1] };
+  retestBy:'student', apf:'all', quart:'all', flagsOnly:false, wsort:'count', draft:null, draftBlock:'A Block', draftDay:'', cmpType:'all', cmpStudent:'', pasteYear:'', phOut:new Set(), pasteSrc:'Canvas', lastResult:'', asort:['order',-1],
+  svCourse:'', svPeriod:'all', pdDate:'', pdOff:new Set() };
 
 /* ---------- helpers ---------- */
 const $ = s => document.querySelector(s);
@@ -1199,8 +1272,18 @@ async function sheetSet(range, value){ return MCP.callTool('Google Sheets', 'upd
 const colL = i => { let s = ''; i++; while (i) { const m = (i-1) % 26; s = String.fromCharCode(65+m) + s; i = Math.floor((i-1)/26); } return s; };
 const dayLabel = d => d.toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'});
 function draftDays(){ const out = [], d = new Date(); d.setHours(12,0,0,0); while (out.length < 10){ d.setDate(d.getDate()+1); if (d.getDay()>0 && d.getDay()<6) out.push(new Date(d)); } return out; }
-function defaultDraftDay(){ const all = draftDays(), days = all.filter(d => { const dl = new Date(d); dl.setDate(dl.getDate()-1); dl.setHours(18,0,0,0); return dl.getTime() > Date.now(); }), ok = S().draftDaysOk || [2,3];
-  const pick = days.find(d => ok.includes(d.getDay())) || days.find(d => d.getDay() !== S().dutyDay) || days[0] || all[0]; return dayLabel(pick); }   // drafts are due 6 pm the day before
+function defaultDraftDate(){ const all = draftDays(), days = all.filter(d => { const dl = new Date(d); dl.setDate(dl.getDate()-1); dl.setHours(18,0,0,0); return dl.getTime() > Date.now(); }), ok = S().draftDaysOk || [2,3];
+  return days.find(d => ok.includes(d.getDay())) || days.find(d => d.getDay() !== S().dutyDay) || days[0] || all[0]; }   // drafts are due 6 pm the day before
+const defaultDraftDay = () => dayLabel(defaultDraftDate());
+/* Dates as YYYY-MM-DD (local), for date pickers and the draft day stored on a "PH draft" contact-log entry */
+const isoDay = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+const fromISO = s => { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(s||'')); return m ? new Date(+m[1], +m[2]-1, +m[3], 12) : null; };
+/* Which day a logged draft is for: the stored day, else the "Tue, Nov 3" label in its note (older entries), else the day it was logged */
+function draftISO(c){ if (fromISO(c.day)) return c.day;
+  const m = String(c.note||'').match(/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+(\d{1,2})\b/i), at = new Date(c.at || Date.now());
+  if (m){ const mo = 'janfebmaraprmayjunjulaugsepoctnovdec'.indexOf(m[1].toLowerCase().slice(0,3)) / 3, y0 = at.getFullYear() - (at.getMonth() < 7 ? 1 : 0); return isoDay(new Date(mo >= 7 ? y0 : y0 + 1, mo, +m[2], 12)); }
+  return isoDay(at); }
+const draftDayCheck = d => !d ? 'Pick a date' : (d.getDay()===0 || d.getDay()===6) ? 'Pick a school day' : d.getDay()===S().dutyDay ? 'Thursday A Block is your duty day — pick another day' : '';
 const curDraftDay = () => (UI.draftDay && draftDays().map(dayLabel).includes(UI.draftDay)) ? UI.draftDay : defaultDraftDay();
 function draftDeadline(label){ const d = draftDays().find(x => dayLabel(x)===label); if (!d) return null; const dl = new Date(d); dl.setDate(dl.getDate()-1); dl.setHours(18,0,0,0); return dl; }
 const draftValue = () => `${S().draftName.trim()} ${UI.draftBlock}`;
@@ -1300,6 +1383,7 @@ const ICONS = {
   ttess:'<path d="M4 4h12v12H4z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 9l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
   help:'<circle cx="10" cy="10" r="7.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7.8 8a2.2 2.2 0 1 1 3.1 2c-.6.3-.9.7-.9 1.3M10 14.2h.01" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
   admin:'<rect x="3" y="4" width="14" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M6 12.5V9m4 3.5V7m4 5.5v-2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+  student:'<rect x="3" y="3.5" width="14" height="9.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 13v3.5M6.5 16.5h7M6.5 10.2l2.2-2.4 2 1.6 2.8-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
   theme:'<path d="M15.5 12.5A6.5 6.5 0 0 1 7.5 4.5a6.5 6.5 0 1 0 8 8z" fill="none" stroke="currentColor" stroke-width="1.8"/>',
 };
 const svg = k => `<svg viewBox="0 0 20 20" aria-hidden="true">${ICONS[k]}</svg>`;
@@ -1322,6 +1406,7 @@ function renderSide(m){
     ${nav('ap','AP projection','ap', apLow||'', apLow>0)}
     ${nav('ttess','T-TESS','ttess')}
     ${nav('admin','At a glance','admin')}
+    ${nav('student','Student view','student')}
     <div class="navlbl">Data</div>
     ${nav('assignments','Assignments','assignments', visibleAssignments().length||'')}
     ${nav('import','Import data','import')}
@@ -1336,7 +1421,7 @@ function renderTop(){
   const crs = courses(), cls = allClasses();
   const nOf = c => Object.values(DB.students).filter(s=>s.classes.some(x=>splitClass(x).course===c)).length;
   const periods = UI.course==='all' ? cls : cls.filter(c=>splitClass(c).course===UI.course);
-  const showScope = !['import','options','help','admin'].includes(UI.view) && cls.length;
+  const showScope = !['import','options','help','admin','student'].includes(UI.view) && cls.length;
   const staarChips = hasProfiles() ? `<span class="lbl">8th STAAR</span>
       <button class="chip" aria-pressed="${UI.staar==='all'}" data-staar="all">All</button>
       ${STAAR.map(x=>`<button class="chip" aria-pressed="${UI.staar===x.id}" data-staar="${x.id}">${esc(x.short)}</button>`).join('')}
@@ -1352,9 +1437,9 @@ function renderTop(){
       ${showScope ? `<div class="seg" role="group" aria-label="Course">
         <button aria-pressed="${UI.course==='all'}" data-course="all">All<em>${Object.values(DB.students).filter(s=>s.classes.length || !s.past).length}</em></button>
         ${crs.map(c=>`<button aria-pressed="${UI.course===c}" data-course="${esc(c)}">${esc(c)}<em>${nOf(c)}</em></button>`).join('')}
-      </div>` : `<b style="font:900 16px var(--display);text-transform:uppercase">${({import:'Import data', options:'Settings', ttess:'T-TESS', overview:'Overview', help:'Help & rules', admin:'At a glance'})[UI.view] || esc(S().title)}</b>`}
+      </div>` : `<b style="font:900 16px var(--display);text-transform:uppercase">${({import:'Import data', options:'Settings', ttess:'T-TESS', overview:'Overview', help:'Help & rules', admin:'At a glance', student:'Student view'})[UI.view] || esc(S().title)}</b>`}
       <span class="sp"></span>
-      <label class="search"><span aria-hidden="true">⌕</span><span class="sr">Search students</span><input id="q" type="search" placeholder="Search students…" value="${esc(UI.q)}" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
+      ${UI.view==='student' ? '' : `<label class="search"><span aria-hidden="true">⌕</span><span class="sr">Search students</span><input id="q" type="search" placeholder="Search students…" value="${esc(UI.q)}" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>`}
     </div>
     ${showScope && (periods.length > 1 || staarChips) ? `<div class="chips" role="group" aria-label="Period and STAAR filters">
       ${periods.length > 1 ? `<button class="chip" aria-pressed="${UI.period==='all'}" data-period="all">All periods</button>
@@ -1375,7 +1460,7 @@ function viewOverview(m){
       <span class="tn">${m.counts[k]}</span>
       <span class="tf"><span>${k==='unpaid'?`${Math.round(m.counts[k]/total*100)}% of students`:k==='ok'?`MC avg ≥ ${S().apOnTrack}% or last ${S().apRecent} ≥ ${S().apOnTrack}%`:k==='watch'?`MC avg ${S().apOnTrack-S().apBand}–${S().apOnTrack-0.1}% or ${+S().apRecent===2?'1':'some'} of last ${S().apRecent} ≥ ${S().apOnTrack}%`:`MC avg < ${S().apOnTrack-S().apBand}%, no recent ≥ ${S().apOnTrack}%`}</span><span>${UI.status===k?'Showing ✕':'Show list'}</span></span>
       <span class="bar"><i style="width:${m.counts[k]/total*100}%"></i></span></button>`;
-  const syncs = S().sources.map(p=>({p, i:lastSync(p.id)})).filter(x=>x.i);
+  const syncs = [...S().sources, src('Profile'), src('Reports'), src('Pathway')].map(p=>({p, i:lastSync(p.id)})).filter(x=>x.i);
   const list = rosterList(m);
   const grab = conversationStarters(m);
   const rt = retestRows(m).filter(r=>!r.done), rmN = retestMsgRows(m).filter(r=>r.tier==='must' && !r.hidden).length, pdN = new Set(phDraftRows(m,'test').filter(r=>!r.hidden && !r.drafted).map(r=>r.s.key)).size, ev = outcomes(m), phOut = outcomeSum(ev,'Power Hour'), ctOut = outcomeSum(ev,'Contact'), rtOut = outcomeSum(ev,'Retest'), radar = reteachRadar(m), prio = retestPriority(m), ph = powerHour(m), mb = missingBoard(m), profiles = hasProfiles(), unpaid = unpaidList(m);
@@ -1389,7 +1474,7 @@ function viewOverview(m){
       <div class="eyebrow"><i></i>${today()}</div>
       <h1>${UI.course==='all'&&UI.period==='all'&&UI.staar==='all' ? `${hi}${S().teacherName?', '+esc(S().teacherName):''}` : esc(scopeLabel())}</h1>
       <p>${m.studs.length} students · AP status from AP Classroom unit MC tests (raw)${m.counts.help?` · <b>${m.counts.help}</b> AP needs help`:''}${m.counts.none?` · <b>${m.counts.none}</b> no AP MC yet`:''}${rt.length?` · <b>${rt.length}</b> retests open`:''}${phOut?` · After Power Hour: avg MC <b>${signPts(phOut.d)}</b>`:''}</p>
-      <div class="syncs">${!DB.sample && m.studs.length && (!DB.lastBackup || Date.now()-DB.lastBackup > 14*864e5) ? `<button class="sync stale" data-act="backup" data-tip="Data lives only in this browser. Back up every couple of weeks, and to move it to your phone.">⚠ Backup ${DB.lastBackup ? ago(DB.lastBackup) : 'never'} · back up now</button>` : ''}${syncs.map(({p,i})=>{ const stale=(Date.now()-i.at)>S().staleDays*864e5; return `<span class="sync${stale?' stale':''}" data-tip="${esc(p.id)}: last import ${new Date(i.at).toLocaleString()}"><i style="background:${p.color}"></i>${esc(p.id)} · ${ago(i.at)}</span>`; }).join('')}</div>
+      <div class="syncs">${!DB.sample && m.studs.length && (!DB.lastBackup || Date.now()-DB.lastBackup > 14*864e5) ? `<button class="sync stale" data-act="backup" data-tip="Data lives only in this browser. Back up every couple of weeks, and to move it to your phone.">⚠ Backup ${DB.lastBackup ? ago(DB.lastBackup) : 'never'} · back up now</button>` : ''}${syncs.map(({p,i})=>{ const stale=p.id!=='Reports' && (Date.now()-i.at)>S().staleDays*864e5;   /* College Board / district reports are yearly, never stale */ return `<span class="sync${stale?' stale':''}" data-tip="${esc(p.id)}: last import ${new Date(i.at).toLocaleString()}"><i style="background:${p.color}"></i>${esc(p.id)} · ${ago(i.at)}</span>`; }).join('')}</div>
     </div>
     <div class="actions"><button class="btn" data-go="retestmsg">Retest messages${rmN?` (${rmN})`:''}</button><button class="btn" data-act="copy-summary">Copy weekly summary</button><button class="btn" data-act="export">Export CSV</button><button class="btn pri" data-go="import">＋ Update data</button></div></div>
     <div class="tiles${profiles?' four':''}">${tile('ok','t-ok')}${tile('watch','t-watch')}${tile('help','t-help')}${profiles?tile('unpaid','t-ap'):''}</div>
@@ -1864,7 +1949,7 @@ function phDraftRows(m, kind){
     else { const lim = kind==='c70' ? cut : cap; if (!below(c.avg, lim)) return; score = c.avg; why = `class grade ${Math.round(c.avg)}`; }
     const pr = s.profile || {}, drafted = phNowActive(pr.phNow), stamp = (DB.phDrafted||{})[s.key], hidden = !!stamp && stamp > lastImp;
     const lastDash = (DB.drafts[s.key]||[]).slice(-1)[0], lastLog = (DB.contacts[s.key]||[]).filter(x => /^PH draft/.test(x.type)).slice(-1)[0];
-    const lastDraft = pr.phLast || (lastDash ? lastDash.day : lastLog ? dateS(lastLog.at) : '');
+    const lastDraft = pr.phLast || (lastDash ? lastDash.day : lastLog ? dayLabel(fromISO(draftISO(lastLog))) : '');
     out.push({s, c, cls:c.cls, score, why, pw: pu ? pathwayChip(s.key, c.course, pu) : latestPathwayChip(s.key, c.course), drafted, now: pr.phNow || '', hidden, lastDraft, noShows: pr.phNoShows ?? '', id: s.key+'|'+c.cls});
   }));
   return out.sort((a,b) => classSort(a.cls,b.cls) || a.score - b.score);
@@ -1874,21 +1959,47 @@ function viewPhDrafts(m){
   const all = phDraftRows(m, kind).filter(r => matchQ(r.s)), rows = all.filter(r => !r.drafted && !r.hidden), excl = all.filter(r => r.drafted), hid = all.filter(r => !r.drafted && r.hidden);
   UI.pdRows = rows;
   const groups = {}; rows.forEach(r => (groups[r.cls] ||= []).push(r));
-  const nStud = new Set(rows.map(r=>r.s.key)).size;
-  const row = r => `<div class="rmrow"><label><input type="checkbox" data-pd="${esc(r.id)}" checked aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">${esc(r.cls)}${schoolId(r.s)?` · ID ${esc(schoolId(r.s))}`:''}</span><span class="tag ${r.score < S().atRisk ? 'below' : 'missing'}">${esc(r.why)}</span>${r.pw||''}<span class="minor pdmeta">last draft ${esc(r.lastDraft || '—')} · no-shows ${esc(String(r.noShows===''?'—':r.noShows))}</span><button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
-  return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())} · next: ${esc(pdDay())} · A Block</div><h1>Power Hour drafts</h1>
+  const nStud = new Set(rows.map(r=>r.s.key)).size, day = pdDate();
+  const row = r => `<div class="rmrow"><label><input type="checkbox" data-pd="${esc(r.id)}" ${UI.pdOff.has(r.id)?'':'checked'} aria-label="Include ${esc(r.s.name)}"><b>${esc(r.s.name)}</b></label><span class="minor">${esc(r.cls)}${schoolId(r.s)?` · ID ${esc(schoolId(r.s))}`:''}</span><span class="tag ${r.score < S().atRisk ? 'below' : 'missing'}">${esc(r.why)}</span>${r.pw||''}<span class="minor pdmeta">last draft ${esc(r.lastDraft || '—')} · no-shows ${esc(String(r.noShows===''?'—':r.noShows))}</span><button class="link" data-student="${esc(r.s.key)}">open</button></div>`;
+  const sel = (cls, label) => `<span class="pdsel">${label?`${label} `:''}<button class="link" data-act="pd-sel" data-on="1"${cls?` data-cls="${esc(cls)}"`:''}>all</button> · <button class="link" data-act="pd-sel" data-on="0"${cls?` data-cls="${esc(cls)}"`:''}>none</button></span>`;
+  return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>${esc(scopeLabel())} · draft day: ${esc(dayLabel(day))} · A Block</div><h1>Power Hour drafts</h1>
       <p>Build a draft list, then copy it for Claude to enter in the Tutorials sheet (or draft it yourself on the Power Hour page). Students already assigned for the upcoming Power Hour (profile "Power Hour assigned now") are left out. One line per student per class.</p></div>
     <div class="actions"><div class="tabs" role="group" aria-label="List">${PD_LISTS.map(l=>`<button aria-pressed="${l.id===kind}" data-pdlist="${l.id}">${l.label}</button>`).join('')}</div><button class="btn" data-go="power">Power Hour page →</button></div></div>
     <div class="strip"><div class="stat accent"><b>${nStud}</b><span>Students · ${esc(L.label.toLowerCase())}</span></div><div class="stat"><b>${rows.length}</b><span>Lines (student × class)</span></div><div class="stat"><b>${new Set(excl.map(r=>r.s.key)).size}</b><span>Already drafted (left out)</span></div><div class="stat"><b>${new Set(hid.map(r=>r.s.key)).size}</b><span>Marked drafted, hidden until next refresh</span></div></div>
-    <div class="card"><div class="ch"><h2>${esc(L.label)}</h2><span class="sub">${esc(L.sub)} · grouped by class period</span><span class="sp"></span>
-        <button class="btn sm pri" data-act="pd-roster">Copy roster</button><button class="btn sm" data-act="pd-prompt">Copy prompt for Claude</button><button class="btn sm" data-act="pd-drafted">Mark drafted</button></div>
-      <div class="cb">${rows.length ? Object.entries(groups).sort((a,b)=>classSort(a[0],b[0])).map(([cls, list]) => `<div class="pdg"><div class="rmoh">${esc(cls)} · ${list.length}</div>${list.map(row).join('')}</div>`).join('') : `<div class="empty">✓ No one for this list in ${esc(scopeLabel())}.</div>`}
+    <div class="card"><div class="ch"><h2>${esc(L.label)}</h2><span class="sub">${esc(L.sub)} · grouped by class period</span>${rows.length?sel('', 'Tick'):''}<span class="sp"></span>
+        <button class="btn sm pri" data-act="pd-roster">Copy roster</button><button class="btn sm" data-act="pd-prompt">Copy prompt for Claude</button>
+        <label class="pdday">Draft day <input type="date" id="pdDate" value="${isoDay(day)}" aria-label="Draft day for Mark drafted and the prompt"></label><button class="btn sm" data-act="pd-drafted">Mark drafted</button></div>
+      <div class="cb">${rows.length ? Object.entries(groups).sort((a,b)=>classSort(a[0],b[0])).map(([cls, list]) => `<div class="pdg"><div class="rmoh">${esc(cls)} · ${list.length} ${sel(cls)}</div>${list.map(row).join('')}</div>`).join('') : `<div class="empty">✓ No one for this list in ${esc(scopeLabel())}.</div>`}
       ${excl.length ? `<p class="fine">Already assigned for the upcoming Power Hour (left out): ${[...new Set(excl.map(r=>`${r.s.name} (${r.now})`))].map(esc).join(', ')}</p>` : ''}
       ${hid.length ? `<p class="fine">Marked drafted since the last data refresh (hidden): ${[...new Set(hid.map(r=>r.s.name))].map(esc).join(', ')}</p>` : ''}</div></div>
-    <p class="fine">"Mark drafted" logs "PH draft — reason" once per student in the contact log (a student on several lines is logged once) and hides them until the next data import.</p>`;
+    <p class="fine">"Mark drafted" logs "PH draft — reason" for the <b>draft day</b> picked next to it, once per student per day (a student on several lines is logged once), and hides them until the next data import. To draft groups for different days: tick one group, pick its day, Mark drafted; then the next group.</p>
+    ${loggedDraftsCard()}`;
 }
-const pdDay = () => { const d = curDraftDay(); return /^Thu/.test(d) ? defaultDraftDay() : d; };   // default = next Tuesday or Wednesday, never Thursday (A Block duty)
+/* Draft day for the drafts page: the date picked there; otherwise the Power Hour page's day; never Thursday (A Block duty) */
+function pdDate(){ const d = fromISO(UI.pdDate); if (d && !draftDayCheck(d)) return d;
+  const lbl = curDraftDay(), x = draftDays().find(z => dayLabel(z) === lbl); return x && !draftDayCheck(x) ? x : defaultDraftDate(); }
+const pdDay = () => dayLabel(pdDate());
 const pdSelected = () => { const ids = new Set([...document.querySelectorAll('[data-pd]:checked')].map(x=>x.dataset.pd)); return (UI.pdRows||[]).filter(r => ids.has(r.id)); };
+/* Logged drafts by draft day (last 3 weeks and upcoming), so a wrong day can be fixed for a whole group at once */
+function loggedDraftsCard(){
+  const since = isoDay(new Date(Date.now() - 21*864e5)), groups = {};
+  Object.entries(DB.contacts).forEach(([k, arr]) => { if (!DB.students[k]) return; (arr||[]).forEach((c, i) => { if (!/^PH draft/.test(c.type)) return; const iso = draftISO(c); if (iso >= since) (groups[iso] ||= []).push({k, i, c}); }); });
+  const gs = Object.entries(groups).sort((a,b) => b[0].localeCompare(a[0])); if (!gs.length) return '';
+  return `<div class="card" id="pdLog" style="margin-top:16px"><div class="ch"><h2>Logged drafts</h2><span class="sub">by draft day · last 3 weeks and upcoming · wrong day? tick and move</span></div><div class="cb">
+    ${gs.map(([iso, xs]) => { const d = fromISO(iso); return `<div class="pdg pdlog"><div class="rmoh">${esc(dayLabel(d))} · ${plural(xs.length,'student')}${d.getDay()===S().dutyDay?' <span class="tag below">Thursday · duty day</span>':''}</div>
+      <div class="namechips">${xs.sort((a,b)=>DB.students[a.k].name.localeCompare(DB.students[b.k].name)).map(x => `<label class="nchip"><input type="checkbox" data-pdlog="${esc(x.k)}|${x.i}" checked> ${esc(DB.students[x.k].name)}</label>`).join('')}</div>
+      <div class="actions" style="margin-top:8px"><label class="pdday">Move ticked to <input type="date" data-pdmove value="${iso}"></label><button class="btn sm" data-act="pd-move">Move</button></div></div>`; }).join('')}
+  </div></div>`;
+}
+/* Conference contact log: change the day a logged draft is for */
+function editDraftDate(k, i){ const c = (DB.contacts[k]||[])[i]; if (!c) return;
+  UI.reopen = k;
+  modal(`<div class="dh"><h2>Draft day</h2><button class="btn sm x" data-close aria-label="Cancel">✕</button></div><p>${esc(c.type)}</p>
+    <label class="field">Drafted for<input type="date" id="dlDate" value="${draftISO(c)}" data-autofocus></label>
+    <div class="actions" style="justify-content:flex-end"><button class="btn" data-close>Cancel</button><button class="btn pri" id="dlGo">Save</button></div>`);
+  $('#dlGo').onclick = () => { const d = fromISO($('#dlDate').value), bad = draftDayCheck(d); if (bad) return toast(bad);
+    c.day = isoDay(d); c.note = dayLabel(d); UI.reopen = null; save(); closeLayer(); render(); openStudent(k); toast(`Draft moved to ${dayLabel(d)}`); };
+}
 
 /* ---------- Admin snapshot: one page, no names ---------- */
 function parsePartLines(txt){ return String(txt||'').split('\n').map(l => l.trim()).filter(Boolean).map(l => {
@@ -1897,15 +2008,13 @@ function parsePartLines(txt){ return String(txt||'').split('\n').map(l => l.trim
   const of = v.match(/(\d+(?:\.\d+)?)\s*(?:of|\/)\s*(\d+(?:\.\d+)?)/i); if (of) return {label, paid:+of[1], total:+of[2], pct: +of[2] ? +of[1]/+of[2]*100 : null};
   const pc = v.match(/(\d+(?:\.\d+)?)/); return pc ? {label, pct:+pc[1]} : null; }).filter(Boolean); }
 function adminData(){
-  // full roster regardless of the course chips: an admin page shows everything
-  const saved = {course:UI.course, period:UI.period, staar:UI.staar, apf:UI.apf, quart:UI.quart, flagsOnly:UI.flagsOnly, status:UI.status, q:UI.q};
-  let m; try { Object.assign(UI, {course:'all', period:'all', staar:'all', apf:'all', quart:'all', flagsOnly:false, status:null, q:''}); m = buildModel(); } finally { Object.assign(UI, saved); }
-  const byCls = {}; m.studs.forEach(s => s.cs.forEach(c => { if (!c.cls) return; const r = (byCls[c.cls] ||= {cls:c.cls, course:c.course, n:0, proj:0, proj3:0, ok:0, withMc:0, paid:0, unpaid:0, opted:0, unknown:0});
-    r.n++; if (c.proj){ r.proj++; if (c.proj.score >= 3) r.proj3++; } if (c.ap.status!=='none'){ r.withMc++; if (c.ap.status==='ok') r.ok++; }
+  const m = scopedModel('all', 'all');   // full roster regardless of the course chips: an admin page shows everything
+  const byCls = {}; m.studs.forEach(s => s.cs.forEach(c => { if (!c.cls) return; const r = (byCls[c.cls] ||= {cls:c.cls, course:c.course, n:0, proj:0, proj3:0, ok:0, withMc:0, paid:0, unpaid:0, opted:0, unknown:0, grades:[]});
+    r.n++; const g = gradeNow(s.key, c); if (g != null) r.grades.push(g); if (c.proj){ r.proj++; if (c.proj.score >= 3) r.proj3++; } if (c.ap.status!=='none'){ r.withMc++; if (c.ap.status==='ok') r.ok++; }
     const ex = s.profile?.apExam; if (ex==='paid') r.paid++; else if (ex==='unpaid') r.unpaid++; else if (ex==='opted') r.opted++; else r.unknown++; }));
-  const classes = Object.values(byCls).sort((a,b)=>classSort(a.cls,b.cls));
-  const byCourse = {}; classes.forEach(r => { const c = (byCourse[r.course] ||= {course:r.course, n:0, proj:0, proj3:0, ok:0, withMc:0, paid:0, unpaid:0, opted:0, unknown:0}); ['n','proj','proj3','ok','withMc','paid','unpaid','opted','unknown'].forEach(k => c[k] += r[k]); });
-  const courses = Object.values(byCourse).sort((a,b)=>courseSort(a.course,b.course));
+  const classes = Object.values(byCls).sort((a,b)=>classSort(a.cls,b.cls)); classes.forEach(r => r.avg = mean(r.grades));
+  const byCourse = {}; classes.forEach(r => { const c = (byCourse[r.course] ||= {course:r.course, n:0, proj:0, proj3:0, ok:0, withMc:0, paid:0, unpaid:0, opted:0, unknown:0, grades:[]}); ['n','proj','proj3','ok','withMc','paid','unpaid','opted','unknown'].forEach(k => c[k] += r[k]); c.grades.push(...r.grades); });
+  const courses = Object.values(byCourse).sort((a,b)=>courseSort(a.course,b.course)); courses.forEach(c => c.avg = mean(c.grades));
   const tot = {n:0, proj:0, proj3:0, ok:0, withMc:0, paid:0, unpaid:0, opted:0, unknown:0}; courses.forEach(c => Object.keys(tot).forEach(k => tot[k] += c[k]));
   const stuTot = {n:m.studs.length, paid:m.studs.filter(s=>s.profile?.apExam==='paid').length, unpaid:m.studs.filter(s=>s.profile?.apExam==='unpaid').length, opted:m.studs.filter(s=>s.profile?.apExam==='opted').length};
   const drafted = new Set(), draftsN = {total:0, attended:0, noShows:0};
@@ -1913,7 +2022,7 @@ function adminData(){
   const dash = Object.values(DB.drafts).reduce((t,a)=>t+a.length,0) + Object.values(DB.contacts).flat().filter(c => /^PH draft/.test(c.type)).length;
   const dist = {}; DB.cb.district.forEach(x => { const yrs = (dist[x.course] ||= {}); (yrs[x.year] ||= []).push(x); });
   const charts = Object.entries(dist).sort((a,b)=>courseSort(a[0],b[0])).map(([course, yrs]) => { const year = Object.keys(yrs).sort().slice(-1)[0], rows = yrs[year].slice().sort((a,b)=>b.pct-a.pct); return {course, year, rows, avg: mean(rows.map(r=>r.pct))}; });
-  return {pw: pathwayStats(allClasses()), classes, courses, tot, stuTot, drafted: drafted.size, draftsN, dash, dept: parsePartLines(S().adminDept), district: parsePartLines(S().adminDistrict), charts, students: m.studs.length};
+  return {trend: trendSeries(), pw: pathwayStats(allClasses()), classes, courses, tot, stuTot, drafted: drafted.size, draftsN, dash, dept: parsePartLines(S().adminDept), district: parsePartLines(S().adminDistrict), charts, students: m.studs.length};
 }
 const pctOrDash = (a, b) => b ? Math.round(a/b*100) + '%' : '—';
 function adminHtml(d, forPrint){
@@ -1925,9 +2034,10 @@ function adminHtml(d, forPrint){
     <div class="tthead"><div><small>${esc(st.school)} · ${esc(st.title)}${st.teacherName?' · '+esc(st.teacherName):''}</small><h2>At a glance</h2></div><div class="ttdate">${new Date().toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'})}<br><small>${d.students} students · ${d.classes.length} classes · ${curYear()}</small></div></div>
     <div class="strip" style="margin:10px 0"><div class="stat accent"><b>${pctOrDash(d.tot.proj3, d.tot.proj)}</b><span>On pace for a 3+ (all my AP classes)</span></div><div class="stat"><b>${pctOrDash(d.stuTot.paid, d.stuTot.n)}</b><span>AP exam paid (my students)</span></div><div class="stat"><b>${d.drafted}</b><span>Students drafted to Power Hour</span></div><div class="stat"><b>${d.draftsN.total || d.dash}</b><span>Power Hour drafts${d.draftsN.attended?` · ${d.draftsN.attended} attended`:''}</span></div></div>
     <h3 class="admh">On pace for a 3 or higher <small>AP projection from AP Classroom unit MC tests (raw %); last year's result alongside where known</small></h3>
-    <table class="t"><thead><tr><th>Class</th><th class="r">Projected 3+</th><th class="r">With a projection</th><th class="r">%</th><th></th></tr></thead><tbody>
-      ${d.courses.map(c => `<tr class="hi"><td><b>${esc(c.course)} · all periods</b>${bench(c.course)?`<div class="minor">Last year: ${bench(c.course)}</div>`:''}</td><td class="r num">${c.proj3}</td><td class="r num">${c.proj}</td><td class="r num"><b>${pctOrDash(c.proj3,c.proj)}</b></td><td style="width:30%">${bar(c.proj ? c.proj3/c.proj*100 : 0)}</td></tr>` + d.classes.filter(r=>r.course===c.course).map(r => row(r.cls, r.proj3, r.proj, ` <span class="minor">· AP on track now ${pctOrDash(r.ok, r.withMc)}</span>`)).join('')).join('')}
+    <table class="t"><thead><tr><th>Class</th><th class="r">Class avg</th><th class="r">Projected 3+</th><th class="r">With a projection</th><th class="r">%</th><th></th></tr></thead><tbody>
+      ${d.courses.map(c => `<tr class="hi"><td><b>${esc(c.course)} · all periods</b>${bench(c.course)?`<div class="minor">Last year: ${bench(c.course)}</div>`:''}</td><td class="r num"><b>${p0(c.avg)}</b></td><td class="r num">${c.proj3}</td><td class="r num">${c.proj}</td><td class="r num"><b>${pctOrDash(c.proj3,c.proj)}</b></td><td style="width:26%">${bar(c.proj ? c.proj3/c.proj*100 : 0)}</td></tr>` + d.classes.filter(r=>r.course===c.course).map(r => `<tr><td><b>${esc(r.cls)}</b> <span class="minor">· AP on track now ${pctOrDash(r.ok, r.withMc)}</span></td><td class="r num">${p0(r.avg)}</td><td class="r num">${r.proj3}</td><td class="r num">${r.proj}</td><td class="r num"><b>${pctOrDash(r.proj3,r.proj)}</b></td><td style="width:26%">${bar(r.proj ? r.proj3/r.proj*100 : 0)}</td></tr>`).join('')).join('')}
     </tbody></table>
+    ${trendHtml(d.trend, forPrint)}
     <h3 class="admh">AP exam participation — my classes <small>paid ÷ enrolled, from the Student Profile import</small></h3>
     <table class="t"><thead><tr><th>Class</th><th class="r">Paid</th><th class="r">Enrolled</th><th class="r">%</th><th></th></tr></thead><tbody>
       <tr class="hi"><td><b>All my AP students</b><div class="minor">${d.stuTot.unpaid} signed up, not yet paid · ${d.stuTot.opted} opted out</div></td><td class="r num">${d.stuTot.paid}</td><td class="r num">${d.stuTot.n}</td><td class="r num"><b>${pctOrDash(d.stuTot.paid, d.stuTot.n)}</b></td><td style="width:30%">${bar(d.stuTot.n ? d.stuTot.paid/d.stuTot.n*100 : 0)}</td></tr>
@@ -1935,17 +2045,18 @@ function adminHtml(d, forPrint){
     </tbody></table>
     ${d.pw.length ? `<h3 class="admh">Agency Pathway (retest module) <small>students started / cleared per unit · retest group = latest TAC unit test below ${st.retestCap}</small></h3>
     <table class="t"><thead><tr><th>Course · unit</th><th class="r">Retest group</th><th class="r">Started</th><th class="r">Cleared</th><th class="r">All students</th><th class="r">Started</th><th class="r">Cleared</th></tr></thead><tbody>${d.pw.map(x => `<tr><td><b>${esc(x.course)} · Unit ${x.u}</b></td><td class="r num">${x.grp.n}</td><td class="r num">${x.grp.started}</td><td class="r num"><b>${x.grp.cleared}</b> <span class="minor">${pctOrDash(x.grp.cleared, x.grp.n)}</span></td><td class="r num">${x.all.n}</td><td class="r num">${x.all.started}</td><td class="r num">${x.all.cleared} <span class="minor">${pctOrDash(x.all.cleared, x.all.n)}</span></td></tr>`).join('')}</tbody></table>` : ''}
-    <h3 class="admh">${esc(st.adminDeptLabel)} <small>entered in Settings from the AP coordinator's list</small></h3>
-    ${d.dept.length ? `<table class="t"><thead><tr><th>Group</th><th class="r">Paid</th><th class="r">Total</th><th class="r">%</th><th></th></tr></thead><tbody>${d.dept.map(x => `<tr><td><b>${esc(x.label)}</b></td><td class="r num">${x.paid ?? '—'}</td><td class="r num">${x.total ?? '—'}</td><td class="r num"><b>${x.pct==null?'—':Math.round(x.pct)+'%'}</b></td><td style="width:30%">${bar(x.pct)}</td></tr>`).join('')}</tbody></table>` : `<p class="minor">Not entered yet${forPrint?'':' — Settings → At a glance inputs'}.</p>`}
+    ${forPrint && !d.dept.length ? '' : `<h3 class="admh">${esc(st.adminDeptLabel)} <small>entered in Settings from the AP coordinator's list</small></h3>`}
+    ${forPrint && !d.dept.length ? '' : d.dept.length ? `<table class="t"><thead><tr><th>Group</th><th class="r">Paid</th><th class="r">Total</th><th class="r">%</th><th></th></tr></thead><tbody>${d.dept.map(x => `<tr><td><b>${esc(x.label)}</b></td><td class="r num">${x.paid ?? '—'}</td><td class="r num">${x.total ?? '—'}</td><td class="r num"><b>${x.pct==null?'—':Math.round(x.pct)+'%'}</b></td><td style="width:30%">${bar(x.pct)}</td></tr>`).join('')}</tbody></table>` : `<p class="minor">Not entered yet${forPrint?'':' — Settings → At a glance inputs'}.</p>`}
     ${d.charts.length ? `<h3 class="admh">AP exam participation by campus <small>district · ${esc(d.charts.map(c=>c.year).filter((v,i,a)=>a.indexOf(v)===i).join(', '))} · ${esc(st.school)} highlighted · dashed line = district average</small></h3>
     <div class="dgrid">${d.charts.map(ch => `<div class="dchart"><div class="dch"><b>${esc(ch.course)}</b><span class="minor">${ch.rows.length} campuses · district avg ${Math.round(ch.avg)}%</span></div>
       ${ch.rows.map(r => { const me = r.campus.toLowerCase().includes(school) || school.includes(r.campus.toLowerCase()); return `<div class="drow2${me?' me':''}"><span class="dl">${esc(r.campus)}</span><span class="bbar"><i style="width:${Math.max(0,Math.min(100,r.pct))}%"></i><em style="left:${Math.max(0,Math.min(100,ch.avg))}%"></em></span><b class="num">${Math.round(r.pct)}%</b></div>`; }).join('')}</div>`).join('')}</div>` : ''}
-    ${d.district.length || !d.charts.length ? `<h3 class="admh">${esc(st.adminDistrictLabel)} <small>entered in Settings · your school highlighted</small></h3>` : ''}
-    ${d.charts.length && !d.district.length ? '' : d.district.length ? `<table class="t"><thead><tr><th>School</th><th class="r">Participation</th><th></th></tr></thead><tbody>${d.district.slice().sort((a,b)=>(b.pct??-1)-(a.pct??-1)).map(x => `<tr${x.label.toLowerCase().includes(school)?' class="hi"':''}><td><b>${esc(x.label)}</b>${x.paid!=null?`<div class="minor">${x.paid} of ${x.total}</div>`:''}</td><td class="r num"><b>${x.pct==null?'—':Math.round(x.pct)+'%'}</b></td><td style="width:40%">${bar(x.pct)}</td></tr>`).join('')}</tbody></table>` : `<p class="minor">Not entered yet${forPrint?'':' — paste "District participation" on the Import page, or lines in Settings → At a glance inputs'}.</p>`}
-    <p class="ttfoot">Projection: raw AP Classroom multiple-choice average mapped to the College Board score scale (85+ → 5, 70+ → 4, 55+ → 3). Participation: students marked Paid in the profile import. Student-level data available on request.</p></div>`;
+    ${!forPrint && (d.district.length || !d.charts.length) || forPrint && d.district.length ? `<h3 class="admh">${esc(st.adminDistrictLabel)} <small>entered in Settings · your school highlighted</small></h3>` : ''}
+    ${(d.charts.length || forPrint) && !d.district.length ? '' : d.district.length ? `<table class="t"><thead><tr><th>School</th><th class="r">Participation</th><th></th></tr></thead><tbody>${d.district.slice().sort((a,b)=>(b.pct??-1)-(a.pct??-1)).map(x => `<tr${x.label.toLowerCase().includes(school)?' class="hi"':''}><td><b>${esc(x.label)}</b>${x.paid!=null?`<div class="minor">${x.paid} of ${x.total}</div>`:''}</td><td class="r num"><b>${x.pct==null?'—':Math.round(x.pct)+'%'}</b></td><td style="width:40%">${bar(x.pct)}</td></tr>`).join('')}</tbody></table>` : `<p class="minor">Not entered yet${forPrint?'':' — paste "District participation" on the Import page, or lines in Settings → At a glance inputs'}.</p>`}
+    <p class="ttfoot">Projection: raw AP Classroom multiple-choice average mapped to the College Board score scale (85+ → 5, 70+ → 4, 55+ → 3). Class avg: this quarter's gradebook grade from the Student Profile (dashboard average where missing). Participation: students marked Paid in the profile import. Student-level data available on request.</p></div>`;
 }
 function adminText(d){ const st = S(); return [`At a glance — ${st.school} · ${st.teacherName||st.title} — ${new Date().toLocaleDateString()}`, '',
-  `On pace for a 3+: ${pctOrDash(d.tot.proj3, d.tot.proj)} (${d.tot.proj3} of ${d.tot.proj} AP exam enrollments with a projection; ${d.students} students)`, ...d.courses.map(c => `  ${c.course}: ${pctOrDash(c.proj3,c.proj)} (${c.proj3} of ${c.proj})` + d.classes.filter(r=>r.course===c.course).map(r => `\n    ${r.cls}: ${pctOrDash(r.proj3,r.proj)} · AP on track now ${pctOrDash(r.ok,r.withMc)}`).join('')), '',
+  `On pace for a 3+: ${pctOrDash(d.tot.proj3, d.tot.proj)} (${d.tot.proj3} of ${d.tot.proj} AP exam enrollments with a projection; ${d.students} students)`, ...d.courses.map(c => `  ${c.course}: ${pctOrDash(c.proj3,c.proj)} (${c.proj3} of ${c.proj}) · class avg ${p0(c.avg)}` + d.classes.filter(r=>r.course===c.course).map(r => `\n    ${r.cls}: ${pctOrDash(r.proj3,r.proj)} · AP on track now ${pctOrDash(r.ok,r.withMc)} · class avg ${p0(r.avg)}`).join('')), '',
+  ...(d.trend.courses.length ? ['Trend (AP on track %, first snapshot → latest):', ...d.trend.courses.map(c => `  ${c.course}: ${c.first.ok==null?'—':Math.round(c.first.ok)+'%'} (${c.first.date}) → ${c.last.ok==null?'—':Math.round(c.last.ok)+'%'} (${c.last.date}) · watch ${c.last.watch==null?'—':Math.round(c.last.watch)+'%'} · help ${c.last.help==null?'—':Math.round(c.last.help)+'%'} · paid ${c.last.paid==null?'—':Math.round(c.last.paid)+'%'} · class avg ${p0(c.last.avg)}`), ''] : []),
   `AP exam paid: ${pctOrDash(d.stuTot.paid, d.stuTot.n)} (${d.stuTot.paid} of ${d.stuTot.n}; ${d.stuTot.unpaid} unpaid, ${d.stuTot.opted} opted out)`, ...d.courses.map(c => `  ${c.course}: ${pctOrDash(c.paid,c.n)} (${c.paid} of ${c.n})` + d.classes.filter(r=>r.course===c.course).map(r => `\n    ${r.cls}: ${pctOrDash(r.paid,r.n)} (${r.paid} of ${r.n})`).join('')), '',
   `Power Hour: ${d.drafted} students drafted · ${d.draftsN.total || d.dash} drafts · ${d.draftsN.attended} attended · ${d.draftsN.noShows} no-shows`, '',
   ...(d.pw.length ? ['Agency Pathway (retest module), cleared:', ...d.pw.map(x => `  ${x.course} Unit ${x.u}: retest group ${x.grp.cleared}/${x.grp.n} (${x.grp.started} started) · all students ${x.all.cleared}/${x.all.n}`), ''] : []),
@@ -1958,6 +2069,197 @@ function viewAdmin(){
   return `${sampleBanner()}<div class="phead"><div><div class="eyebrow"><i></i>All classes · ${new Date().toLocaleDateString(undefined,{month:'long',day:'numeric'})}</div><h1>At a glance</h1><p>One page for an administrator: who is on pace for a 3 or higher, AP exam participation, Power Hour drafting, and the school and district numbers you enter in Settings. Always shows every class, whatever the course chips say. No student names.</p></div>
     <div class="actions"><button class="btn" data-go="options" data-anchor="adminSettings">Enter school numbers</button><button class="btn" data-go="import" data-anchor="cbCardImport">Paste district participation</button><button class="btn" data-act="copy-admin">Copy text</button><button class="btn blk" data-act="print-admin">${PRINT==='Print'?'Print':'Printable text'}</button></div></div>
     <div class="card"><div class="cb" style="padding-top:14px">${adminHtml(d, false)}</div></div>`;
+}
+/* ---------- shared: one model with the roster filters cleared (pages that always show a whole course or everything) ---------- */
+function scopedModel(course, period){
+  const saved = {course:UI.course, period:UI.period, staar:UI.staar, apf:UI.apf, quart:UI.quart, flagsOnly:UI.flagsOnly, status:UI.status, q:UI.q};
+  try { Object.assign(UI, {course, period, staar:'all', apf:'all', quart:'all', flagsOnly:false, status:null, q:''}); return buildModel(); } finally { Object.assign(UI, saved); }
+}
+/* "Current gradebook grade" for one class: this grading period's quarter-to-date grade from the Student Profile
+   (e.g. "Q2 Grade (to date)"); the dashboard's class average when the profile doesn't have it yet. */
+function gradeNow(key, c){
+  const p = prof(key) || {}, bc = (p.byClass || {})[c.cls] || {}, one = (DB.students[key]?.classes || []).length === 1, q = +String(periodOf(Date.now())).replace(/\D/g, '');
+  const v = q ? pnum(bc['grade'+q] ?? (one ? p['grade'+q] : null)) : null; return v != null ? v : c.avg;
+}
+/* Small line chart (SVG). labels = x axis; series = [{name, color, vals:[number|null]}]; a null leaves a gap. */
+function lineChart(labels, series, o = {}){
+  const W = o.w || 640, H = o.h || 200, pl = 36, pr = 44, pt = 14, pb = 26, vals = series.flatMap(s => s.vals).filter(v => v != null);
+  if (labels.length < 2 || vals.length < 2) return `<div class="svnone">${esc(o.empty || 'The line starts once there are two points.')}</div>`;
+  const lo = o.min ?? Math.max(0, Math.floor((Math.min(...vals) - 8) / 10) * 10), hi = o.max ?? 100;
+  const x = i => pl + i * (W - pl - pr) / (labels.length - 1), y = v => pt + (hi - Math.max(lo, Math.min(hi, v))) * (H - pt - pb) / (hi - lo || 1);
+  const step = Math.ceil(labels.length / (o.maxLabels || 8)), f = o.fmt || (v => Math.round(v));
+  const grid = [lo, (lo + hi) / 2, hi].map(v => `<line class="gr" x1="${pl}" x2="${W-pr}" y1="${y(v).toFixed(1)}" y2="${y(v).toFixed(1)}"/><text class="ax" x="${pl-6}" y="${(y(v)+4).toFixed(1)}" text-anchor="end">${Math.round(v)}</text>`).join('');
+  const xl = labels.map((l, i) => (i % step && i !== labels.length - 1) ? '' : `<text class="ax" x="${x(i).toFixed(1)}" y="${H-6}" text-anchor="middle">${esc(l)}</text>`).join('');
+  const lines = series.map(s => { let d = '', pen = false; s.vals.forEach((v, i) => { if (v == null){ pen = false; return; } d += `${pen?'L':'M'}${x(i).toFixed(1)},${y(v).toFixed(1)}`; pen = true; });
+    const li = s.vals.map((v, i) => v == null ? -1 : i).filter(i => i >= 0).pop();
+    return `<path d="${d}" style="stroke:${s.color}"/>${s.vals.map((v, i) => v == null ? '' : `<circle cx="${x(i).toFixed(1)}" cy="${y(v).toFixed(1)}" r="4.5" style="fill:${s.color}"/>`).join('')}${li != null ? `<text class="vl" x="${(x(li)+8).toFixed(1)}" y="${(y(s.vals[li])+4).toFixed(1)}" style="fill:${s.color}">${esc(f(s.vals[li]))}</text>` : ''}`; }).join('');
+  return `${series.length > 1 || o.legend ? `<div class="lleg">${series.map(s => `<span><i style="background:${s.color}"></i>${esc(s.name)}</span>`).join('')}</div>` : ''}<svg class="lchart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(o.aria || 'Line chart')}">${grid}${xl}${lines}</svg>`;
+}
+
+/* ---------- Student view: one page to project in class. Class-level counts and averages only:
+   no names, IDs, tooltips or links to students; nothing is counted, averaged or shown as a share from fewer than 3 students. ---------- */
+const SV_MIN = 3;
+const SV_BANDS = [{id:'lo', label:'Below 70'}, {id:'70', label:'70–79'}, {id:'80', label:'80–89'}, {id:'90', label:'90+'}];
+const svBand = v => { const r = Math.round(v); return r >= 90 ? '90' : r >= 80 ? '80' : r >= 70 ? '70' : 'lo'; };
+const median = a => { if (!a.length) return null; const s = a.slice().sort((x,y)=>x-y), h = s.length >> 1; return s.length % 2 ? s[h] : (s[h-1] + s[h]) / 2; };
+/* share of the class: "78%" · "fewer than 3" · "all but fewer than 3" (never a figure that pins down 1–2 students) */
+function svShare(k, n){ if (n < SV_MIN) return null; if (k < SV_MIN) return 'fewer than 3'; if (n - k < SV_MIN) return 'all but fewer than 3'; return Math.round(k / n * 100) + '%'; }
+const svPhrase = (k, n) => { const s = svShare(k, n); return s == null ? null : /%$/.test(s) ? `${s} of the class` : `${s} students`; };
+const svCount = k => k < SV_MIN ? 'fewer than 3' : String(k);
+const svAvg = vals => vals.length >= SV_MIN ? mean(vals) : null;
+const svN = (n, blur) => n < SV_MIN ? 'fewer than 3' : blur ? '≈' + Math.max(5, Math.round(n / 5) * 5) : String(n);
+const cap1 = s => s ? s[0].toUpperCase() + s.slice(1) : s;
+/* Score bands for a list of scores. A band of 0–2 students reads "fewer than 3"; when a band holds 1–2,
+   the other bands are rounded to 5% and n is approximate, so it can't be worked out by subtraction. */
+function svBands(vals){
+  const n = vals.length, cnt = Object.fromEntries(SV_BANDS.map(b => [b.id, 0])); vals.forEach(v => cnt[svBand(v)]++);
+  const few = id => cnt[id] < SV_MIN, blur = SV_BANDS.some(b => cnt[b.id] > 0 && cnt[b.id] < SV_MIN);
+  const label = id => few(id) ? 'fewer than 3' : (blur ? '≈' + Math.round(cnt[id] / n * 20) * 5 : Math.round(cnt[id] / n * 100)) + '%';
+  return {n, cnt, few, blur, label, med: n >= 5 ? median(vals) : null};
+}
+function svDist(vals){
+  const b = svBands(vals); if (b.n < SV_MIN) return `<div class="svnone">Fewer than 3 scores so far.</div>`;
+  const nFew = SV_BANDS.filter(x => b.few(x.id)).length, shown = SV_BANDS.filter(x => !b.few(x.id)).reduce((t, x) => t + b.cnt[x.id], 0), FEW = 6, room = 100 - FEW * nFew;
+  const w = id => b.few(id) ? FEW : shown ? b.cnt[id] / shown * room : 0;
+  let med = '';
+  if (b.med != null){ const mb = svBand(b.med), inB = vals.filter(v => svBand(v) === mb), rank = inB.filter(v => v < b.med).length + inB.filter(v => v === b.med).length / 2;
+    let left = 0; for (const x of SV_BANDS){ if (x.id === mb) break; left += w(x.id); } left += w(mb) * (b.few(mb) ? .5 : inB.length ? rank / inB.length : .5);
+    med = `<em class="med" style="left:${Math.max(3, Math.min(97, left)).toFixed(1)}%"><span>median ${Math.round(b.med)}</span></em>`; }
+  return `<div class="dbar" role="img" aria-label="${esc(SV_BANDS.map(x => `${x.label}: ${b.label(x.id)}`).join(', ') + (b.med != null ? `, median ${Math.round(b.med)}` : ''))}">${SV_BANDS.map(x => `<i class="b${x.id}${b.few(x.id)?' few':''}" style="flex:${w(x.id).toFixed(2)} 1 0"></i>`).join('')}${med}</div>
+    <div class="dleg">${SV_BANDS.slice().reverse().map(x => `<span><i class="b${x.id}"></i>${x.label}<b>${b.label(x.id)}</b></span>`).join('')}</div>`;
+}
+function svData(course, period){
+  const m = scopedModel(course, period), cut = +S().apOnTrack, aC = aCourseMap(), ex = DB.excluded || {};
+  const isRaw = a => isUnitMC(a), isScaled = a => a.source==='Gradebook' && !!unitOf(a.name) && typeOf(a.name)==='test' && !isMock(a.name);
+  const firsts = (c, pred) => { const u = {}; c.pts.forEach(x => { if (x.m || x.ex || !pred(x.a) || isRetest(x.a)) return; const n = unitOf(x.a.name); if (n) (u[n] ||= []).push(x.p); }); for (const k in u) u[k] = mean(u[k]); return u; };   // first attempt = the unit's test, not a retest
+  const per = m.studs.flatMap(s => s.cs.filter(c => c.course === course).map(c => ({s, c, raw: firsts(c, isRaw), scaled: firsts(c, isScaled), grade: gradeNow(s.key, c)})));
+  const withMc = per.filter(r => r.c.ap.status !== 'none'), units = [...new Set(per.flatMap(r => [...Object.keys(r.raw), ...Object.keys(r.scaled)]).map(Number))].sort((a,b)=>a-b);
+  const unitCards = units.map(u => { const raw = per.map(r => r.raw[u]).filter(v => v != null), sc = per.map(r => r.scaled[u]).filter(v => v != null);
+    return {u, raw, sc, n: per.filter(r => r.raw[u] != null || r.scaled[u] != null).length, rawAvg: svAvg(raw), scAvg: svAvg(sc), at55: raw.filter(v => v >= cut).length, blur: svBands(sc).blur}; });   // blur: the bands shown are the scaled scores
+  // writing: one card per FRQ / SAQ / LEQ / DBQ entered this year; the Gradebook copy gives the class average when there is one
+  const wkey = a => { const part = writingPart(a.name) || 'writing', u = unitOf(a.name), num = (bare(a.name).match(new RegExp('\\b' + part + 's?\\s*#?\\s*(\\d)\\b', 'i')) || [])[1] || ''; return u ? `${part}|${u}|${num}` : `${part}|${bare(a.name).toLowerCase()}`; };
+  const wg = {}; visibleAssignments().filter(a => typeOf(a.name)==='writing' && !isMock(a.name) && (!aC[a.id] || aC[a.id]===course)).forEach(a => (wg[wkey(a)] ||= []).push(a));
+  const score = (k, list, f) => { const sc = DB.scores[k] || {}, v = list.map(a => { const x = sc[a.id]; return x && !x.x && !x.m && x.p != null && !ex[k+'|'+a.id] ? f(a, x.p) : null; }).filter(x => x != null); return v.length ? mean(v) : null; };
+  const writing = Object.entries(wg).map(([key, items]) => {
+    const a0 = items.slice().sort((x,y) => x.order - y.order)[0], part = writingPart(a0.name) || 'writing', u = unitOf(a0.name), num = key.split('|')[2] || '';
+    const gb = items.filter(a => a.source==='Gradebook'), use = gb.length ? gb : items, pcts = per.map(r => score(r.s.key, use, (a, p) => p)).filter(v => v != null);
+    const outs = items.map(a => +a.outOf || 0).filter(o => o > 0 && o <= 10), o = outs.length ? outs.slice().sort((x,y) => outs.filter(v => v===y).length - outs.filter(v => v===x).length)[0] : null;
+    const raws = o ? per.map(r => score(r.s.key, items.filter(a => +a.outOf === o), (a, p) => p / 100 * o)).filter(v => v != null) : [];
+    return {label: u ? `Unit ${u} · ${part.toUpperCase()}${num ? ' ' + num : ''}` : short(bare(a0.name), 30), part, u, order: a0.order, pcts, avg: svAvg(pcts), raw: raws.length >= SV_MIN ? mean(raws) : null, outOf: o, n: pcts.length, blur: svBands(pcts).blur};
+  }).sort((a,b) => a.order - b.order);
+  // Agency: the latest unit with Pathway progress (else the latest tested unit); retests from AP Classroom (raw), else the Gradebook
+  const keys = new Set(per.map(r => r.s.key)), pwU = Object.keys(DB.pathway||{}).map(pwSplit).filter(x => x.course===course && keys.has(x.k)).map(x => x.u);
+  const uNow = pwU.length ? Math.max(...pwU) : units.length ? units[units.length-1] : null;
+  const rtFrom = (pred, firstOf) => per.flatMap(r => { const by = {}; r.c.pts.forEach(x => { if (!x.m && !x.ex && pred(x.a) && isRetest(x.a)){ const u = unitOf(x.a.name); if (u) (by[u] ||= []).push(x.p); } });
+    return Object.entries(by).map(([u, ps]) => ({u: +u, gain: firstOf(r)[u] != null ? Math.max(...ps) - firstOf(r)[u] : null})); });
+  let rts = rtFrom(isRaw, r => r.raw), rtSrc = 'raw MC'; if (!rts.length){ rts = rtFrom(isScaled, r => r.scaled); rtSrc = 'gradebook'; }
+  const gains = list => list.map(x => x.gain).filter(g => g != null), rtUnit = rts.filter(x => x.u === uNow);
+  return {course, period, n: per.length, cut, classAvg: svAvg(per.map(r => r.grade).filter(v => v != null)), rawAvg: svAvg(per.flatMap(r => Object.values(r.raw))), scAvg: svAvg(per.flatMap(r => Object.values(r.scaled))),
+    onPace: withMc.filter(r => r.c.ap.status === 'ok').length, withMc: withMc.length, unitCards, writing,
+    agency: {u: uNow, hasPw: pwU.length > 0, cleared: uNow == null ? 0 : [...keys].filter(k => pathwayOf(k, course, uNow)?.cleared).length, rtUnit: rtUnit.length, rtAll: rts.length, rtSrc, gainUnit: svAvg(gains(rtUnit)), gainAll: svAvg(gains(rts))}};
+}
+function svTakeaways(d){
+  const t = {}, cut = d.cut, verb = ph => /^(fewer|all but)/.test(ph) ? 'are' : 'is', pts = n => `${n} point${n===1?'':'s'}`;
+  const ph = svPhrase(d.onPace, d.withMc);
+  if (ph) t.strip = `${cap1(ph)} ${verb(ph)} on pace for a 3 right now. On pace means a raw unit MC average of ${cut}% or better, or your last ${S().apRecent} unit tests at ${cut}% or better.`;
+  const lastSc = d.unitCards.filter(c => c.sc.length >= SV_MIN).pop(), lastRaw = d.unitCards.filter(c => c.raw.length >= SV_MIN).pop();
+  if (lastSc) t.units = `${cap1(svPhrase(lastSc.sc.filter(v => Math.round(v) >= 80).length, lastSc.sc.length))} scored 80 or higher on Unit ${lastSc.u}. If you didn't, the Agency Pathway is your next step.`;
+  else if (lastRaw) t.units = `${cap1(svPhrase(lastRaw.at55, lastRaw.raw.length))} scored ${cut}% or higher (raw) on Unit ${lastRaw.u}, which is on pace for a 3. If you didn't, the Agency Pathway is your next step.`;
+  const ws = d.writing.filter(w => w.avg != null), w = ws[ws.length-1];
+  if (w){ const prev = ws.slice(0, -1).filter(x => x.part === w.part).pop(), nm = w.label.replace(' · ', ' ');
+    if (prev){ const df = Math.round(w.avg - prev.avg); t.writing = `${nm}: class average ${p0(w.avg)}, ${df === 0 ? 'about the same as' : `${df > 0 ? 'up' : 'down'} ${pts(Math.abs(df))} from`} the last ${w.part.toUpperCase()}.`; }
+    else t.writing = `${cap1(svPhrase(w.pcts.filter(v => Math.round(v) >= 80).length, w.pcts.length))} scored 80 or higher on the ${nm}.`; }
+  const tr = d.unitCards.filter(c => c.rawAvg != null);
+  if (tr.length >= 2){ const a = tr[0], b = tr[tr.length-1], df = Math.round(b.rawAvg - a.rawAvg);
+    t.trend = `Raw unit MC average: ${p0(a.rawAvg)} on Unit ${a.u}, ${p0(b.rawAvg)} on Unit ${b.u} (${df >= 0 ? '+' : '−'}${pts(Math.abs(df))}).${df > 0 ? ' Keep it going.' : df < 0 ? ' Retests and the Agency Pathway are how we bring it back up.' : ''}`; }
+  const ag = d.agency, g = ag.gainUnit ?? ag.gainAll;
+  if (g != null) t.agency = g > 0 ? `Retests raised scores by ${pts(Math.round(g))} on average. Clear the Agency Pathway${ag.u != null ? ` for Unit ${ag.u}` : ''} to earn yours.` : `Retests so far: ${Math.round(g)} points on average. Finish every Agency Pathway step before you retest.`;
+  else if (ag.u != null) t.agency = `Clear the Agency Pathway for Unit ${ag.u} to earn a retest (up to ${S().retestCap}).`;
+  return t;
+}
+const svSign = v => (v >= 0 ? '+' : '−') + Math.round(Math.abs(v));
+function svBody(d, forPrint){
+  const st = S(), f = v => v == null ? '—' : p0(v), T = svTakeaways(d), take = k => T[k] ? `<p class="svtake">${esc(T[k])}</p>` : '';
+  const onPace = svShare(d.onPace, d.withMc), ag = d.agency, gain = ag.gainUnit ?? ag.gainAll;
+  if (d.n < SV_MIN) return `<div class="card"><div class="empty">Fewer than 3 students in this group, so nothing is shown.</div></div>`;
+  const unitCard = c => `<div class="svcard"><h3>Unit ${c.u}</h3>
+      <div class="svpair"><div><b>${f(c.rawAvg)}</b><span>Raw avg</span></div><div><b>${f(c.scAvg)}</b><span>Scaled avg</span></div></div>
+      ${c.sc.length ? svDist(c.sc) : `<div class="svnone">${c.raw.length >= SV_MIN ? 'No gradebook scores yet.' : 'Fewer than 3 scores so far.'}</div>`}
+      <div class="svmeta"><span>At or above ${d.cut}% raw <b>${svShare(c.at55, c.raw.length) ?? '—'}</b></span><span>n <b>${svN(c.n, c.blur)}</b></span></div></div>`;
+  const wCard = w => `<div class="svcard"><h3>${esc(w.label)}</h3>
+      <div class="svpair"><div><b>${f(w.avg)}</b><span>Class average</span></div><div><b>${w.raw != null ? `${fmt(w.raw, 1)}<small>/${w.outOf}</small>` : '—'}</b><span>Rubric average</span></div></div>
+      ${svDist(w.pcts)}<div class="svmeta"><span></span><span>n <b>${svN(w.n, w.blur)}</b></span></div></div>`;
+  const ul = d.unitCards.map(c => 'U' + c.u), wl = d.writing.map(w => w.label.replace(/^Unit (\d+) · /, 'U$1 '));
+  return `<div class="svstrip">
+      <div class="svstat"><b>${f(d.classAvg)}</b><span>Class average</span><small>current gradebook grade</small></div>
+      <div class="svstat"><b>${f(d.rawAvg)}</b><span>Unit MC average · raw</span><small>AP Classroom, first attempts</small></div>
+      <div class="svstat"><b>${f(d.scAvg)}</b><span>Unit MC average · scaled</span><small>gradebook, after the scale</small></div>
+      <div class="svstat accent"><b class="${onPace && !/%$/.test(onPace) ? 'sm' : ''}">${onPace ?? '—'}</b><span>On pace for a 3</span><small>raw MC avg ${d.cut}%+, or last ${st.apRecent} unit tests ${d.cut}%+</small></div></div>
+    ${take('strip')}
+    <section class="svsec"><h2>Unit MC tests <small>first attempt only · raw = AP Classroom · scaled = gradebook · bands use the scaled score</small></h2>
+      ${d.unitCards.length ? `<div class="svgrid">${d.unitCards.map(unitCard).join('')}</div>` : '<div class="svnone">No unit MC tests yet.</div>'}${take('units')}</section>
+    <section class="svsec"><h2>Writing <small>FRQ · SAQ · LEQ · DBQ, as entered this year</small></h2>
+      ${d.writing.length ? `<div class="svgrid">${d.writing.map(wCard).join('')}</div>` : '<div class="svnone">No writing entered yet.</div>'}${take('writing')}</section>
+    <section class="svsec"><h2>Trend</h2><div class="svtrend">
+      <div class="svcard"><h3>Unit MC by unit</h3>${lineChart(ul, [{name:'Raw (AP Classroom)', color:'var(--s3)', vals:d.unitCards.map(c => c.rawAvg)}, {name:'Scaled (gradebook)', color:'var(--s1)', vals:d.unitCards.map(c => c.scAvg)}], {aria:'Raw and scaled unit MC class averages by unit', h: forPrint ? 150 : 200, empty:'The line starts after two units.'})}</div>
+      <div class="svcard"><h3>Writing by assignment</h3>${lineChart(wl, [{name:'Class average', color:'var(--s2)', vals:d.writing.map(w => w.avg)}], {aria:'Writing class average by assignment', legend:true, maxLabels:6, h: forPrint ? 150 : 200, empty:'The line starts after two writing assignments.'})}</div></div>${take('trend')}</section>
+    <section class="svsec"><h2>Agency <small>counts only</small></h2><div class="svag">
+      <div class="svstat"><b class="${ag.hasPw && ag.cleared < SV_MIN ? 'sm' : ''}">${ag.hasPw ? svCount(ag.cleared) : '—'}</b><span>Cleared the Agency Pathway</span><small>${ag.u != null ? `Unit ${ag.u}` : 'no Pathway data yet'}</small></div>
+      <div class="svstat"><b class="${ag.rtUnit < SV_MIN ? 'sm' : ''}">${svCount(ag.rtUnit)}</b><span>Retests completed</span><small>${ag.u != null ? `Unit ${ag.u} · ` : ''}all year: ${svCount(ag.rtAll)}</small></div>
+      <div class="svstat accent"><b>${gain != null ? svSign(gain) : '—'}</b><span>Average retest gain</span><small>${gain == null ? 'needs 3+ retests' : `${ag.gainUnit != null ? `Unit ${ag.u}` : 'all year'} · points (${ag.rtSrc})`}</small></div></div>${take('agency')}</section>
+    <p class="fine">Class results only. Any group of fewer than 3 students shows as “fewer than 3”. Missing and excused work isn't counted. Class average = this quarter's gradebook grade where the Student Profile has it.</p>`;
+}
+function viewStudent(){
+  const crs = courses(); if (!crs.length) return `<div class="phead"><div><h1>Student view</h1></div></div><div class="card"><div class="empty">No classes yet.</div></div>`;
+  const course = crs.includes(UI.svCourse) ? UI.svCourse : crs.includes(UI.course) ? UI.course : crs[0]; UI.svCourse = course;
+  const periods = allClasses().filter(c => splitClass(c).course === course), period = periods.includes(UI.svPeriod) ? UI.svPeriod : 'all'; UI.svPeriod = period;
+  const d = svData(course, period), pres = document.body.classList.contains('present'), dark = document.documentElement.dataset.theme === 'dark';
+  return `${sampleBanner()}<div class="sv"><div class="svhead"><div><div class="eyebrow"><i></i>${esc(S().school)} · ${esc(today())}</div>
+      <h1>${esc(course)} · ${period === 'all' ? 'All periods' : esc(splitClass(period).period ? 'Period ' + splitClass(period).period : period)}</h1><p>How our class is doing. Class results only: no names, no individual scores.</p></div>
+    <div class="svctl"><div class="seg" role="group" aria-label="Course">${crs.map(c => `<button aria-pressed="${c===course}" data-svcourse="${esc(c)}">${esc(c)}</button>`).join('')}</div>
+      ${periods.length > 1 ? `<div class="chips" role="group" aria-label="Period"><button class="chip" aria-pressed="${period==='all'}" data-svperiod="all">All my periods</button>${periods.map(c => `<button class="chip" aria-pressed="${period===c}" data-svperiod="${esc(c)}">${esc(splitClass(c).period || c)}</button>`).join('')}</div>` : ''}
+      <button class="btn" data-act="theme">${dark ? 'Light' : 'Dark'}</button><button class="btn" data-act="sv-present">${pres ? '✕ Exit full screen' : '⛶ Full screen'}</button><button class="btn blk" data-act="sv-print">${PRINT==='Print'?'Print':'Printable text'}</button></div></div>
+    ${svBody(d, false)}</div>`;
+}
+function svText(d){
+  const T = svTakeaways(d), f = v => v == null ? '—' : p0(v), L = [`${d.course} — class results — ${d.period === 'all' ? 'all periods' : d.period} — ${today()}`, 'Class results only: no names, no individual scores. Groups of fewer than 3 show as "fewer than 3".', ''];
+  if (d.n < SV_MIN) return L.concat('Fewer than 3 students in this group, so nothing is shown.').join('\n');
+  const bands = vals => { const b = svBands(vals); return b.n < SV_MIN ? 'fewer than 3 scores' : SV_BANDS.slice().reverse().map(x => `${x.label} ${b.label(x.id)}`).join(' · ') + (b.med != null ? ` · median ${Math.round(b.med)}` : ''); };
+  L.push(`Class average ${f(d.classAvg)} · Unit MC raw ${f(d.rawAvg)} · scaled ${f(d.scAvg)} · On pace for a 3: ${svShare(d.onPace, d.withMc) ?? '—'}`); if (T.strip) L.push(T.strip);
+  L.push('', 'UNIT MC TESTS (first attempt only)', ...d.unitCards.map(c => `Unit ${c.u}: raw ${f(c.rawAvg)} · scaled ${f(c.scAvg)} · ${bands(c.sc)} · at or above ${d.cut}% raw ${svShare(c.at55, c.raw.length) ?? '—'} · n ${svN(c.n, c.blur)}`)); if (T.units) L.push(T.units);
+  L.push('', 'WRITING', ...d.writing.map(w => `${w.label}: class average ${f(w.avg)}${w.raw != null ? ` · rubric ${fmt(w.raw, 1)}/${w.outOf}` : ''} · ${bands(w.pcts)} · n ${svN(w.n, w.blur)}`)); if (T.writing) L.push(T.writing);
+  if (T.trend) L.push('', 'TREND', T.trend);
+  const ag = d.agency, g = ag.gainUnit ?? ag.gainAll;
+  L.push('', 'AGENCY', `${ag.hasPw ? svCount(ag.cleared) : '—'} cleared the Agency Pathway${ag.u != null ? ` (Unit ${ag.u})` : ''} · ${svCount(ag.rtUnit)} retests completed${ag.u != null ? ` (Unit ${ag.u}; all year ${svCount(ag.rtAll)})` : ''} · average retest gain ${g != null ? svSign(g) : '—'}`); if (T.agency) L.push(T.agency);
+  return L.join('\n');
+}
+
+/* ---------- At a glance trend: one snapshot per course per day, saved on each data import ---------- */
+function trendSnapshot(){
+  const m = scopedModel('all', 'all'), by = {};
+  m.studs.forEach(s => s.cs.forEach(c => { if (!c.course) return; const r = by[c.course] ||= {n:0, ok:0, watch:0, help:0, withMc:0, paid:0, grades:[]};
+    r.n++; if (c.ap.status !== 'none'){ r.withMc++; r[c.ap.status]++; } if (s.profile?.apExam === 'paid') r.paid++; const g = gradeNow(s.key, c); if (g != null) r.grades.push(g); }));
+  const r1 = v => v == null ? null : Math.round(v * 10) / 10, pc = (a, b) => b ? r1(a / b * 100) : null;
+  return Object.entries(by).map(([course, r]) => ({course, n: r.n, withMc: r.withMc, ok: pc(r.ok, r.withMc), watch: pc(r.watch, r.withMc), help: pc(r.help, r.withMc), paid: pc(r.paid, r.n), avg: r1(mean(r.grades))}));
+}
+function recordTrend(){   // called before save() by the imports; replaces today's snapshot
+  try { const date = isoDay(new Date()), snap = trendSnapshot(); if (!snap.length) return;
+    DB.trend = (DB.trend || []).filter(t => t.date !== date); snap.forEach(x => DB.trend.push({date, ...x})); DB.trend = DB.trend.slice(-600); } catch(e){ console.warn('trend snapshot skipped', e); }
+}
+function trendSeries(){
+  const t = DB.trend || [], dates = [...new Set(t.map(x => x.date))].sort().slice(-40), crs = [...new Set(t.map(x => x.course))].sort(courseSort);
+  return {dates, courses: crs.map(course => { const byDate = dates.map(d => t.find(x => x.date === d && x.course === course) || null), have = byDate.filter(Boolean); return {course, byDate, first: have[0], last: have[have.length-1]}; }).filter(c => c.last)};
+}
+function trendHtml(tr, forPrint){
+  if (!tr.dates.length) return '';
+  const cols = ['var(--s1)', 'var(--s2)', 'var(--s3)', 'var(--s4)'], v = x => x == null ? '—' : Math.round(x) + '%';
+  const ch = (a, b, k, good) => { if (!a || !b || a === b || a[k] == null || b[k] == null) return ''; const d = Math.round(b[k] - a[k]); if (!d) return ' <span class="minor">＝</span>'; return ` <span class="delta ${(d > 0) === good ? 'up' : 'down'}">${d > 0 ? '▲' : '▼'}${Math.abs(d)}</span>`; };
+  const chart = tr.dates.length >= 2 ? lineChart(tr.dates.map(d => dateS(fromISO(d))), tr.courses.map((c, i) => ({name: c.course, color: cols[i % 4], vals: c.byDate.map(x => x ? x.ok : null)})), {min:0, max:100, h: forPrint ? 110 : 170, legend:true, maxLabels:7, fmt: x => Math.round(x) + '%', aria:'AP on track % by course over time'})
+    : `<p class="minor" style="margin:0">The line starts after the next import (one point per import day).</p>`;
+  return `<h3 class="admh">Trend over time <small>AP on track % by course · one snapshot per import day · ${esc(dateS(fromISO(tr.dates[0])))} → ${esc(dateS(fromISO(tr.dates[tr.dates.length-1])))} · ▲▼ = change since the first snapshot</small></h3>
+    <div class="admtrend"><div>${chart}</div><table class="t"><thead><tr><th>Course</th><th class="r">On track</th><th class="r">Watch</th><th class="r">Help</th><th class="r">Paid</th><th class="r">Class avg</th></tr></thead><tbody>
+      ${tr.courses.map(c => { const a = c.first, b = c.last; return `<tr><td><b>${esc(c.course)}</b></td><td class="r num">${v(b.ok)}${ch(a,b,'ok',true)}</td><td class="r num">${v(b.watch)}${ch(a,b,'watch',false)}</td><td class="r num">${v(b.help)}${ch(a,b,'help',false)}</td><td class="r num">${v(b.paid)}${ch(a,b,'paid',true)}</td><td class="r num">${v(b.avg)}${ch(a,b,'avg',true)}</td></tr>`; }).join('')}
+    </tbody></table></div>`;
 }
 /* ---------- Help & rules ---------- */
 const CHAT_NOTE = `The dashboard uses AP Classroom unit MC tests as its main data. Please:
@@ -1990,7 +2292,8 @@ function viewHelp(){
       <li><b>Compare years</b> — unit averages this year vs. earlier years, % on track by month, mock vs. actual AP score.</li>
       <li><b>AP projection</b> — distribution per class with last year's benchmark.</li>
       <li><b>T-TESS</b> — evidence per dimension for an administrator, no names.</li>
-      <li><b>At a glance</b> — one page for an administrator: on pace for a 3+, AP exam participation, Power Hour, school and district numbers.</li>
+      <li><b>At a glance</b> — one page for an administrator: on pace for a 3+, class averages, AP exam participation, Power Hour, trend over time, school and district numbers.</li>
+      <li><b>Student view</b> — a page to project in class: class and unit averages, score bands, writing, trend and Agency counts. No names or IDs; any group of fewer than 3 shows as “fewer than 3”.</li>
       <li><b>Conference page</b> — click any student: prep card, AP on pace, growth, grades, tests, Agency goals, contact log, print.</li></ul>`)}
     ${sec('Importing (weekly)', `<p>Paste the prompt from <b>Import data</b> into Claude in Chrome. It reads TAC, Canvas and AP Classroom and pastes the grades in. Names matter:</p>
       <ul class="helpl"><li>AP Classroom: <code>APHG · Unit 3 MC Test</code>, <code>… Unit 3 MC Retest</code>, raw %.</li><li>Gradebook: <code>APHG · Unit 3 Test</code> (curved), <code>… Unit 3 Retest</code>.</li><li>Progress checks and writing: import as usual; they show as context.</li></ul>
@@ -2407,7 +2710,8 @@ function openStudent(key, fresh){
             <button class="btn sm pri" data-confheld="${esc(key)}">✓ Mark conference held</button></div>
           ${(DB.conferences[key]||[]).length?`<div class="fine">Conferences held: ${DB.conferences[key].map(c=>new Date(c.at).toLocaleDateString()).join(' · ')}</div>`:''}
           <input class="in" id="contactNote" placeholder="Optional note for the contact" style="margin-top:8px">
-          <div class="notes">${(DB.contacts[key]||[]).slice().reverse().slice(0,5).map((c,i)=>`<div class="n">${esc(c.type)}${c.note?` — ${esc(c.note)}`:''}<small>${new Date(c.at).toLocaleDateString()} · <button class="link" data-delcontact="${DB.contacts[key].length-1-i}">delete</button></small></div>`).join('')}</div>
+          <div class="notes">${(DB.contacts[key]||[]).slice().reverse().slice(0,5).map((c,i)=>{ const idx = DB.contacts[key].length-1-i, dr = /^PH draft/.test(c.type);
+            return `<div class="n">${esc(c.type)}${dr ? ` — for <b>${esc(dayLabel(fromISO(draftISO(c))))}</b>` : c.note?` — ${esc(c.note)}`:''}<small>${dr?'logged ':''}${new Date(c.at).toLocaleDateString()} · ${dr?`<button class="link" data-editdraft="${esc(key)}|${idx}">edit date</button> · `:''}<button class="link" data-delcontact="${idx}">delete</button></small></div>`; }).join('')}</div>
           <div class="minor">Remember to document parent contact in eSchool too.</div>
         </div></section>
 
@@ -2474,8 +2778,9 @@ function render(){
   if (UI.period!=='all' && !allClasses().includes(UI.period)) UI.period = 'all';
   if (UI.staar!=='all' && !hasProfiles()) UI.staar = 'all';
   if (UI.status==='unpaid' && !hasProfiles()) UI.status = null;
-  const views = {overview:viewOverview, retests:viewRetests, power:viewPower, missing:viewMissing, compare:viewCompare, ap:viewAP, retestmsg:viewRetestMsgs, phdraft:viewPhDrafts, assignments:viewAssignments, import:viewImport, options:viewSettings, ttess:viewTtess, help:viewHelp, admin:viewAdmin};
+  const views = {overview:viewOverview, retests:viewRetests, power:viewPower, missing:viewMissing, compare:viewCompare, ap:viewAP, retestmsg:viewRetestMsgs, phdraft:viewPhDrafts, assignments:viewAssignments, import:viewImport, options:viewSettings, ttess:viewTtess, help:viewHelp, admin:viewAdmin, student:viewStudent};
   if (!views[UI.view]) UI.view = 'overview';   // unknown page name (old link, typo) → Overview, highlighted
+  if (UI.view !== 'student') document.body.classList.remove('present');   // full screen is only for the student view
   const m = buildModel();
   renderSide(m); renderTop();
   $('#view').innerHTML = views[UI.view](m);
@@ -2568,7 +2873,7 @@ function importProfile(rows, file, stay){
   DB.imports.push({file: file.startsWith('Pasted ') ? 'Pasted profile data' : file, source:'Profile', at: Date.now(), students: n, assignments: 0});
   const unknown = header.filter((h,i)=>!map[i]).length;
   const msg = `Imported ${plural(n,'profile row')}${created?` (${created} new student${created===1?'':'s'})`:''}${unknown?` · ${unknown} extra column${unknown===1?'':'s'} kept`:''}`;
-  save(); toast(msg);
+  recordTrend(); save(); toast(msg);
   if (stay){ UI.lastResult = (UI.lastResult ? UI.lastResult + '\n' : '') + '✓ ' + msg; render(); return; }
   go('overview');
 }
@@ -2641,8 +2946,13 @@ function commit({file, source, assigns, data, stay, year}){
     const sc = DB.scores[key] ||= {};
     assigns.forEach(a => { const v = parseScore(d.cells[a.col], a.outOf); if (v) sc[a.id] = v; });
   });
+  // remember points possible (e.g. "5/7" rubric scores) so the Student view can show a rubric average; scores themselves are unchanged
+  assigns.forEach(a => { const rec = DB.assignments[a.id]; if (!rec || rec.outOf) return; let o = +a.outOf || 0;
+    if (!o){ const ds = data.map(d => (String(d.cells[a.col] ?? '').match(/^\s*-?\d+(?:\.\d+)?\s*(?:\/|of)\s*(\d+(?:\.\d+)?)/i) || [])[1]).filter(Boolean); if (ds.length) o = +ds.slice().sort((x,y) => ds.filter(v=>v===y).length - ds.filter(v=>v===x).length)[0]; }
+    if (o > 0) rec.outOf = o; });
   DB.imports.push({file, source, year, at: Date.now(), students: touched.size, assignments: assigns.length});
   const msg = `Imported ${plural(touched.size,'student')} · ${plural(assigns.length,'assignment')} from ${source}${year!==curYear()?` (${year})`:''}`;
+  if (year === curYear()) recordTrend();
   save(); toast(msg);
   if (stay){ UI.lastResult = (UI.lastResult ? UI.lastResult + '\n' : '') + '✓ ' + msg; render(); return; }
   go('overview');
@@ -2882,6 +3192,16 @@ function loadSample(){
   const keys = Object.keys(DB.students).filter(k=>DB.students[k].classes.length);
   keys.forEach((k,i) => { if (i%3===0 && +(DB.profiles[k]?.phDrafts||0) > 0) DB.drafts[k] = [{day:'Thu, Oct 1', value:'Martin, Scott B106 A Block', at: yStart + span*0.55}]; });
   keys.slice(0,40).forEach((k,i) => { if (i%4===1) DB.contacts[k] = [{type: CONTACT_TYPES[i%4], note:'', at: Date.now() - (i%9+1)*864e5}]; if (i%11===3 && DB.profiles[k]) DB.profiles[k].acc = i%2 ? '504; extended time' : 'EB'; });
+  // made-up Agency Pathway progress for Unit 3 (students under 80 on the Unit 3 MC test) and rubric points on some writing
+  keys.forEach(k => DB.students[k].classes.forEach(cl => { const co = splitClass(cl).course, v = (DB.scores[k]||{})['AP Classroom:' + `${co} · unit 3 mc test`.toLowerCase()]; if (!v || v.m || v.p >= 80) return;
+    const done = Math.floor(rnd()*8), total = 7; DB.pathway[`${k}|${co}|3`] = {done: Math.min(done, total), total, cleared: done >= total, at: Date.now() - 2*864e5}; }));
+  Object.values(DB.assignments).forEach(a => { const b = bare(a.name); if (/\bDBQ\b|\bFRQ\b/.test(b) && !isMock(a.name)) a.outOf = 7; else if (/\bLEQ\b/.test(b)) a.outOf = 6; else if (/\bSAQ\b/.test(b) && !isMock(a.name)) a.outOf = 3; });
+  // made-up At a glance trend: five earlier weekly snapshots drifting toward today's numbers
+  { const now = trendSnapshot(), r1 = v => v == null ? null : Math.round(v * 10) / 10; DB.trend = [];
+    for (let w = 5; w >= 0; w--){ const date = isoDay(new Date(Date.now() - w*7*864e5));
+      now.forEach(x => { const j = () => (rnd() - .5) * 4, ok = x.ok == null ? null : Math.max(0, Math.min(100, x.ok - w*3 + j())), help = x.help == null ? null : Math.max(0, Math.min(100, x.help + w*2 + j()));
+        DB.trend.push({...x, date, ok: r1(ok), help: r1(help), watch: x.watch == null ? null : r1(Math.max(0, 100 - ok - help)), paid: x.paid == null ? null : r1(Math.max(0, x.paid - w*4)), avg: x.avg == null ? null : r1(x.avg - w*.8 + j()/2)}); }); }
+    DB.trend = DB.trend.filter(t => t.date !== isoDay(new Date())).concat(now.map(x => ({date: isoDay(new Date()), ...x}))); }
   const H = 36e5;
   DB.imports.push({file:'Pasted Gradebook data', source:'Gradebook', year:prevY, at:Date.now()-60*24*H, students:36, assignments:22},
     {file:'Pasted Gradebook data', source:'Gradebook', at:Date.now()-9*24*H, students:52, assignments:10},
@@ -2896,7 +3216,7 @@ function loadSample(){
 function go(v){ UI.view = v; try { if (location.hash.slice(1)!==v) location.hash = v; } catch(_){} $('#side').classList.remove('open'); closeLayer(); render(); window.scrollTo(0,0); }
 let pressStart = null; document.addEventListener('mousedown', e => { pressStart = e.target; }, true);
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-pdlist],[data-exclude],[data-apf],[data-quart],[data-wsort],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-confnav],[data-confheld],[data-close]');
+  const t = e.target.closest('[data-go],[data-act],[data-student],[data-report],[data-course],[data-period],[data-staar],[data-status],[data-retestby],[data-cmptype],[data-pdlist],[data-exclude],[data-apf],[data-quart],[data-wsort],[data-asort],[data-rename],[data-del],[data-addnote],[data-delnote],[data-contact],[data-email],[data-delcontact],[data-agrate],[data-confnav],[data-confheld],[data-editdraft],[data-svcourse],[data-svperiod],[data-close]');
   if (!t) { if (!e.target.closest('aside,.menu-btn')) $('#side').classList.remove('open'); return; }
   if (t.dataset.close !== undefined){ if ((e.target === t && pressStart === t) || t.tagName==='BUTTON'){ closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !t.closest('.conf')) return openStudent(k); nextFile(); } return; }
   if (t.dataset.go){ go(t.dataset.go); if (t.dataset.anchor) document.getElementById(t.dataset.anchor)?.scrollIntoView({block:'start'}); return; }
@@ -2917,6 +3237,9 @@ document.addEventListener('click', e => {
   if (t.dataset.del){ const a=DB.assignments[t.dataset.del]; return askConfirm('Delete assignment?', `“${esc(a.name)}” and all its scores will be removed.`, 'Delete', () => { delete DB.assignments[a.id]; Object.values(DB.scores).forEach(s=>delete s[a.id]); save(); render(); }); }
   if (t.dataset.addnote){ const k=t.dataset.addnote, txt=$('#noteText').value.trim(); if (!txt) return; (DB.notes[k] ||= []).push({text:txt, at:Date.now()}); save(); return openStudent(k); }
   if (t.dataset.confnav){ return openStudent(t.dataset.confnav, true); }
+  if (t.dataset.editdraft){ const v = t.dataset.editdraft, j = v.lastIndexOf('|'); return editDraftDate(v.slice(0, j), +v.slice(j + 1)); }
+  if (t.dataset.svcourse){ UI.svCourse = t.dataset.svcourse; UI.svPeriod = 'all'; return render(); }
+  if (t.dataset.svperiod){ UI.svPeriod = t.dataset.svperiod; return render(); }
   if (t.dataset.exclude){ return openExclude(t.dataset.exclude); }
   if (t.dataset.agrate){ const [k,q,n] = t.dataset.agrate.split('|'), a = ((DB.agency[k] ||= {})[q] ||= {}); a.rating = +a.rating===+n ? '' : +n; save(); return openStudent(k); }
   if (t.dataset.contact){ const [k, type] = t.dataset.contact.split('|'), note = ($('#contactNote')?.value||'').trim(); (DB.contacts[k] ||= []).push({type, note, at:Date.now()}); save(); toast(`${type} logged`); render(); return openStudent(k); }
@@ -2957,9 +3280,19 @@ document.addEventListener('click', e => {
     const lines = Object.values(byStu).map(({s, list}) => ({s, cls: list.map(r=>r.cls).join(' / '), why: [...new Set(list.map(r=>r.why))].join('; ')}));
     if (act==='pd-roster') return copyText(lines.map(l => `${l.s.name}\t${schoolId(l.s)}\t${l.cls}`).join('\n'), `${plural(lines.length,'student')} (name · ID · period)`);
     if (act==='pd-prompt') return copyText(`Please draft these students for Power Hour in the PCHS Tutorials sheet (Google Sheet ${S().tutorialsSheet}) for ${day}. In each student's row (find them by student ID on the alphabet tab for their last name), choose the dropdown value "${S().draftName.trim()} A Block" in the ${day} column. Drafts are always A Block. Never draft for Wednesday B Block or Thursday A Block (I have duty). Only fill a cell that is empty; if someone is already drafted that day, skip them and tell me.\n\nStudents (name · student ID · class period · reason):\n${lines.map((l,i)=>`${i+1}. ${l.s.name} · ${schoolId(l.s)||'(no ID)'} · ${l.cls} · ${l.why}`).join('\n')}\n\nWhen you're done, list who was drafted and who was skipped so I can press "Mark drafted" in my dashboard.`, 'Prompt for Claude');
-    const now = Date.now(), today0 = new Date().toDateString(); let n = 0;
-    lines.forEach(l => { (DB.phDrafted ||= {})[l.s.key] = now; if ((DB.contacts[l.s.key]||[]).some(c => /^PH draft/.test(c.type) && new Date(c.at).toDateString()===today0)) return; (DB.contacts[l.s.key] ||= []).push({type:`PH draft — ${l.why}`, note:day, at:now}); n++; });
+    const now = Date.now(), iso = isoDay(pdDate()), bad = draftDayCheck(pdDate()); if (bad) return toast(bad); let n = 0;
+    lines.forEach(l => { (DB.phDrafted ||= {})[l.s.key] = now; if ((DB.contacts[l.s.key]||[]).some(c => /^PH draft/.test(c.type) && draftISO(c)===iso)) return; (DB.contacts[l.s.key] ||= []).push({type:`PH draft — ${l.why}`, note:day, day:iso, at:now}); n++; });
     save(); render(); return toast(`${plural(n,'student')} logged as drafted for ${day}`); }
+  if (act==='pd-sel'){ const on = t.dataset.on === '1'; (UI.pdRows||[]).filter(r => !t.dataset.cls || r.cls === t.dataset.cls).forEach(r => on ? UI.pdOff.delete(r.id) : UI.pdOff.add(r.id)); return render(); }
+  if (act==='pd-move'){ const box = t.closest('.pdlog'), d = fromISO(box.querySelector('[data-pdmove]').value), bad = draftDayCheck(d); if (bad) return toast(bad);
+    const to = isoDay(d), sel = [...box.querySelectorAll('[data-pdlog]:checked')].map(x => { const v = x.dataset.pdlog, j = v.lastIndexOf('|'); return {k: v.slice(0, j), i: +v.slice(j + 1)}; }); if (!sel.length) return toast('Tick at least one student');
+    sel.sort((a,b) => b.i - a.i).forEach(({k, i}) => { const list = DB.contacts[k] || [], c = list[i]; if (!c) return;
+      if (list.some((o, j) => j !== i && /^PH draft/.test(o.type) && draftISO(o) === to)) list.splice(i, 1);   // already logged for that day: keep one entry
+      else { c.day = to; c.note = dayLabel(d); } });
+    save(); render(); return toast(`Moved ${plural(sel.length,'draft')} to ${dayLabel(d)}`); }
+  if (act==='sv-present'){ document.body.classList.toggle('present'); window.scrollTo(0,0); return render(); }
+  if (act==='sv-print'){ const d = svData(UI.svCourse, UI.svPeriod), title = `${d.course} — class results${d.period!=='all'?' · '+d.period:''}`;
+    if (!CAN_PRINT) return showText(title, svText(d)); return printDoc(title, `<div class="sv">${svBody(d, true)}</div>`); }
   if (act==='toggle-done'){ UI.showDone = !UI.showDone; render(); }
   if (act==='flags-only'){ UI.flagsOnly = !UI.flagsOnly; render(); }
   if (act==='show-all'){ UI.showAll = true; render(); }
@@ -3013,6 +3346,8 @@ document.addEventListener('change', e => {
   if (t.dataset.rdone){ t.checked ? DB.retestDone[t.dataset.rdone] = Date.now() : delete DB.retestDone[t.dataset.rdone]; save(); render(); }
   if (t.dataset.agency && t.dataset.agency.endsWith('|goal')){ const [k,q] = t.dataset.agency.split('|'), td = document.querySelector(`[data-met="${CSS.escape(k+'|'+q)}"]`); if (td){ const g = parseFloat(t.value), a = td.dataset.actual===''?null:+td.dataset.actual; td.innerHTML = metHtml(a, isNaN(g)?null:g); } }
   if (t.dataset.ph){ t.checked ? UI.phOut.delete(t.dataset.ph) : UI.phOut.add(t.dataset.ph); render(); }
+  if (t.dataset.pd){ t.checked ? UI.pdOff.delete(t.dataset.pd) : UI.pdOff.add(t.dataset.pd); }
+  if (t.id==='pdDate'){ const d = fromISO(t.value), bad = draftDayCheck(d); if (bad){ toast(bad); t.value = isoDay(pdDate()); return; } UI.pdDate = isoDay(d); render(); }
 });
 document.addEventListener('input', e => {
   const t = e.target;
@@ -3031,8 +3366,9 @@ document.addEventListener('input', e => {
 });
 document.addEventListener('compositionend', e => { if (e.target.id === 'q') e.target.dispatchEvent(new Event('input', {bubbles:true})); });
 document.addEventListener('keydown', e => {
+  if (e.key==='Escape' && !$('#layer').innerHTML && document.body.classList.contains('present')){ document.body.classList.remove('present'); render(); return; }
   if (e.key==='Escape'){ if ($('#layer').innerHTML){ const inConf = !!$('#layer .conf'); closeLayer(); const k = UI.reopen; UI.reopen = null; if (k && !inConf) return openStudent(k); nextFile(); } else $('#side').classList.remove('open'); }
-  if (e.key==='/' && !$('#layer').innerHTML && !e.target.closest('input,textarea,select')){ e.preventDefault(); $('#q').focus(); }
+  if (e.key==='/' && $('#q') && !$('#layer').innerHTML && !e.target.closest('input,textarea,select')){ e.preventDefault(); $('#q').focus(); }
   if ((e.key==='ArrowRight' || e.key==='ArrowLeft') && $('#layer .conf') && !e.target.closest('input,textarea,select')){ const b = document.querySelectorAll('[data-confnav]'); if (b.length===2) b[e.key==='ArrowLeft'?0:1].click(); }
 });
 $('#fileIn').addEventListener('change', e => { handleFiles([...e.target.files]); e.target.value=''; });
@@ -3046,6 +3382,7 @@ document.addEventListener('mousemove', e => { const el = e.target.closest('[data
 document.addEventListener('focusin', e => { const el = e.target.closest('[data-tip]'); if (el){ const r=el.getBoundingClientRect(); showTip(el, r.left, r.top); } else tip.style.opacity = 0; });
 document.addEventListener('scroll', () => tip.style.opacity = 0, true);
 
+if (!(DB.trend || []).length && Object.keys(DB.students).length && !DB.sample){ recordTrend(); save(); }   // first At a glance trend point for data imported before the trend existed
 render();
 </script>
 </body>

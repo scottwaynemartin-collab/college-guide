@@ -8,7 +8,7 @@ const {spawnSync, execFileSync} = require('child_process'), fs = require('fs'), 
 const dir = __dirname, {OUT} = require('./lib');
 const only = process.argv.slice(2);
 const files = fs.readdirSync(dir).filter(f => /^\d\d-.*\.js$/.test(f) && (!only.length || only.some(o => f.startsWith(o)))).sort();
-const onePage = ['r3b.pdf', 'spec-conf.pdf', 'ttess2.pdf', 'admin.pdf'];
+const onePage = ['r3b.pdf', 'spec-conf.pdf', 'ttess2.pdf', 'admin.pdf', 'student.pdf'];
 let failed = 0;
 for (const f of files){
   const t0 = Date.now(), r = spawnSync(process.execPath, [path.join(dir, f)], {cwd: dir, encoding: 'utf8', timeout: 240000});

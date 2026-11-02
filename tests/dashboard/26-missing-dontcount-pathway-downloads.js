@@ -29,9 +29,9 @@ const ids = await p.evaluate(()=>{ const ks=Object.keys(DB.students).filter(k=>D
 await p.fill('#pasteBox', `Student ID,Course,Unit,Steps done,Steps total,Cleared\n${ids[0]},APHG,3,3,7,No\n${ids[1]},APHG,Unit 3,7,7,Yes\n${ids[2]},APHG,3,0,7,No\n999999,APHG,3,2,7,No`);
 await p.click('[data-act=paste]'); await p.waitForTimeout(300);
 const res = await p.evaluate(()=>UI.lastResult.split('\n').pop()); check(/Agency Pathway progress for 3 students/.test(res) && /1 student ID not found/.test(res), 'pathway import: '+res);
-check(await p.evaluate(()=>Object.keys(DB.pathway).length)===3, 'three pathway entries stored');
+check(await p.evaluate(()=>Object.keys(DB.pathway).filter(id=>/\|APHG\|3$/.test(id)).length)===3, 'three APHG Unit 3 pathway entries stored (the sample\'s made-up ones replaced)');
 await p.fill('#pasteBox', `Student ID,Course,Unit,Steps done,Steps total,Cleared\n${ids[0]},APHG,3,5,7,No`); await p.click('[data-act=paste]'); await p.waitForTimeout(300);
-check(await p.evaluate(()=>Object.keys(DB.pathway).length)===1, 're-import of APHG Unit 3 replaced it (1 entry left)');
+check(await p.evaluate(()=>Object.keys(DB.pathway).filter(id=>/\|APHG\|3$/.test(id)).length)===1, 're-import of APHG Unit 3 replaced it (1 entry left)');
 check(await p.evaluate(()=>!!lastSync('Pathway') && lastDataImport() < lastSync('Pathway').at), 'pathway import does not reset "hidden until next refresh"');
 await p.fill('#pasteBox', `Student ID,Course,Unit,Steps done,Steps total,Cleared\n${ids[0]},APHG,3,5,7,No\n${ids[1]},APHG,3,7,7,Yes`); await p.click('[data-act=paste]'); await p.waitForTimeout(300);
 // chips
