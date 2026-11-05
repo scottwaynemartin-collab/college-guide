@@ -26,7 +26,7 @@
   {"a":"the rings get pulled out along the river, theyre elongated, cause transportation costs are lower on the water","ok":true},
   {"a":"The river changes the pattern of land use compared with the classic von Thunen model.","ok":false},
   {"a":"The river gives farms more water for irrigation so ring 1 is bigger along the river.","ok":false},
-  {"a":"The rings are stretched into ovals along the river instead of being circles.","ok":false},
+  {"a":"The rings are stretched into ovals along the river instead of being circles.","ok":true},
   {"a":"The river blocks the farmers from crossing so the rings get cut in half and are smaller.","ok":false}
 ],
 "D":[

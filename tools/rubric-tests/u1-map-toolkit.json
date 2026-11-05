@@ -27,7 +27,9 @@
   {"a": "Site and situation are two ways of describing where a city like New Orleans is located.", "ok": false},
   {"a": "Site is the exact latitude and longitude of New Orleans and situation is what is happening there right now, like Mardi Gras or the economy.", "ok": false},
   {"a": "New Orleans's site is low, swampy land next to the Mississippi River, and a lot of it is below sea level.", "ok": false},
-  {"a": "The site is where the city was first founded, and the situation is the condition the city is in now, like how New Orleans was damaged after Hurricane Katrina.", "ok": false}
+  {"a": "The site is where the city was first founded, and the situation is the condition the city is in now, like how New Orleans was damaged after Hurricane Katrina.", "ok": false},
+  {"a": "Dallas's site is flat prairie land along the Trinity River. Its situation is a hub where railroads and interstates connect Texas to the rest of the country.", "ok": true},
+  {"a": "Site is the physical features of a place, like rivers and landforms, and situation is its location relative to other places and how it connects to them.", "ok": false}
 ],
 "D": [
   {"a": "T1- Remote sensing uses satellites to take pictures of the ground. E2- After the hurricane, the county could look at the pictures to see which neighborhoods are flooded. A3- Then they can send rescue teams to those places first.", "ok": true},

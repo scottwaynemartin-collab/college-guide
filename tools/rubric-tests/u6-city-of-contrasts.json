@@ -37,7 +37,8 @@
   {"a": "Yes, Puerto Alba is a primate city because it is the largest city in Valdoria.", "ok": false},
   {"a": "No, Puerto Alba is not a primate city because it follows the rank-size rule, with 9,600,000 people matching its prediction of 9,600,000.", "ok": false},
   {"a": "Puerto Alba has 9,600,000 people and San Lucero has 1,300,000.", "ok": false},
-  {"a": "Yes, it's primate because it grew from 5,400,000 to 9,600,000, almost doubling in size.", "ok": false}
+  {"a": "Yes, it's primate because it grew from 5,400,000 to 9,600,000, almost doubling in size.", "ok": false},
+  {"a": "Yes, it is primate because it is more than twice as big as San Lucero, which the rank-size rule says should have 4,800,000 people.", "ok": false}
 ],
 "E": [
   {"a": "T1- Rural-to-urban migration. E2- People leave the countryside for jobs in Puerto Alba, which grew from 5.4 to 9.6 million. A3- They can't afford real housing, so they build shacks on empty land at the edge.", "ok": true},
