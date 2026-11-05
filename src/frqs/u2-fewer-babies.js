@@ -10,7 +10,7 @@ dependency:{t:"Dependency ratio",s:["The dependency ratio compares people who us
 addFRQ({k:"Practice FRQ · Data table",
 t:"Fewer Babies, Bigger Cities",
 d:"Fertility, women's education, and urbanization across four countries.",
-u:"Units 2 · 6",
+u:"Units 2 & 6",
 fmt:"One stimulus (like Question 2)",
 st:"Selected Population and Development Indicators",
 intro:"The table shows data for four countries. (The countries are fictional and the data were created for practice.)",
@@ -48,7 +48,7 @@ kq:"Compare the girls-in-school column with the babies-per-woman column. When on
 ml:["Describing a relationship in data",["Positive (direct) relationship: both go up together.","Inverse (negative) relationship: one goes up while the other goes down.","Strong answers name the relationship AND quote numbers from at least two rows.","Compare the extremes (top and bottom of the range) to make the pattern obvious."],[["Inverse relationship","As one variable rises, the other falls."],["Female secondary enrollment","Share of teen girls in high-school-level education."]]],
 wk:["Education and fertility are related.","It doesn't say HOW they're related and uses no numbers from the table."],
 mw:"It names the direction (inverse) and backs it up with data from two countries.",
-fr:"As female secondary enrollment ___, TFR ___. For example, ___ has ___% enrollment and a TFR of ___, while ___ has ___.",
+fr:"T1- As female secondary enrollment ___, TFR ___. E2- For example, ___ has ___% enrollment and a TFR of ___, while ___ has ___% and a TFR of ___. A3- This matters because ___.",
 qc:["One number goes up while the other goes down. That relationship is…",["inverse (negative)","positive (direct)","no relationship"],0,"Inverse means they move in opposite directions."]},
 
 {v:"Explain",
@@ -64,7 +64,7 @@ kq:"Why do women with more education usually have fewer children? Explain ONE re
 ml:["Why education lowers fertility",["Time: girls in school usually marry and start families later, leaving fewer childbearing years.","Money: educated women can earn wages, so each child costs more in lost income (opportunity cost).","Knowledge: education raises awareness of health care and family planning.","Power: educated women often have more say in decisions about family size."],[["Opportunity cost","What you give up when you choose something else."],["Family planning","Choosing the number and timing of children."]]],
 wk:["Educated women are smarter, so they have fewer kids.","Not a real mechanism. It doesn't explain WHAT changes in her life to lower fertility."],
 mw:"It picks one mechanism (marrying later + working) and walks through how it leads to fewer births.",
-fr:"When women stay in school longer, they ___. Because of this, ___, which leads to fewer children.",
+fr:"T1- When women stay in school longer, they ___. E2- For example, a girl who finishes high school is more likely to ___. A3- Because of this, ___, which leads to fewer children.",
 qc:["The 'opportunity cost' of having a child means…",["the income or chances a parent gives up","the price of baby clothes","school taxes"],0,"It's what you give up, like wages from a job."]},
 
 {v:"Explain",
@@ -80,7 +80,7 @@ kq:"More-urban countries in the table have fewer babies. Use the numbers, then e
 ml:["Urban life & family size",["On farms, children help with work, so kids can be an economic asset.","In cities, kids usually don't earn money, and rent, food, and school cost more, so kids become an economic cost.","Cities also have more clinics, contraception, and jobs for women.","Better health care lowers infant mortality, so parents don't need extra births to be sure some children survive."],[["Urbanization","Growth in the share of people living in cities."],["Economic asset","Something that brings in value or help."]]],
 wk:["Cities are crowded, so people have fewer kids.","No data from the table, and 'crowded' isn't the real reason. Explain costs, jobs, or health care."],
 mw:"It quotes the table AND explains the asset-to-cost shift.",
-fr:"___ is ___% urban with a TFR of ___, but ___ is ___% urban with a TFR of ___. In cities, children ___, so ___.",
+fr:"T1- In cities, families tend to have fewer children because ___. E2- ___ is ___% urban with a TFR of ___, but ___ is ___% urban with a TFR of ___. A3- In cities, children ___, so ___.",
 qc:["On a farm a child is often an economic ___; in a city, more of an economic ___.",["asset; cost","cost; asset","cost; cost"],0,"Farm kids help work; city kids mostly cost money."]},
 
 {v:"Describe",
@@ -96,7 +96,7 @@ kq:"Kestria's babies-per-woman dropped a lot. How will the shape of its populati
 ml:["Reading pyramid shapes",["The bottom bars of a pyramid are the youngest people (ages 0–4).","High fertility = a wide base (a triangle shape).","When fertility drops, fewer babies are born, so the base narrows.","The many kids born earlier grow up, so a bulge moves up into the working-age middle. A country only gets the beehive shape once its TFR falls to about 2.1."],[["Cohort","A group of people born in the same time period."],["Working-age population","People ages 15–64."]]],
 wk:["Kestria's pyramid will change shape.","It says the shape changes but not HOW. Say which part gets narrower or wider."],
 mw:"It links the data (5.8 → 3.1) to a specific shape change (narrower base, wider middle).",
-fr:"Kestria's TFR fell from ___ to ___, so ___. This means the ___ of its pyramid will become ___.",
+fr:"T1- Kestria's pyramid will get a narrower ___. E2- Its TFR fell from ___ to ___, so ___. A3- This means the ___ of its pyramid will become ___.",
 qc:["Which part of a population pyramid shows the youngest people?",["The base (bottom)","The top","The middle"],0,"The bottom bars are ages 0–4."]},
 
 {v:"Explain",
@@ -112,7 +112,7 @@ kq:"Ruzhan has very few babies (1.3 per woman). Explain ONE money problem this w
 ml:["Life below replacement level",["A TFR of 2.1 replaces each generation. Ruzhan's 1.3 is far below that.","Over time the population ages: more retirees, fewer young workers.","Fewer workers means fewer taxpayers, while pensions and health care for the elderly cost more.","Businesses may struggle to find workers, which slows the economy."],[["Replacement level","A TFR of about 2.1."],["Elderly dependency ratio","People 65+ for every 100 working-age people."]]],
 wk:["Ruzhan's population will go down.","That's a population change, not an economic challenge, and it doesn't explain the effect on jobs or money."],
 mw:"It connects low TFR → aging → a specific economic problem (labor shortages, pension costs).",
-fr:"Ruzhan's TFR of ___ is below ___, so its population will ___. This causes ___ because ___.",
+fr:"T1- Ruzhan will face ___ because its TFR is below replacement. E2- Its TFR of ___ is below ___, so its population will ___. A3- This causes ___ because ___.",
 qc:["Replacement-level fertility is about…",["2.1 children per woman","1.0 child per woman","4.0 children per woman"],0,"2.1 replaces each generation; the extra 0.1 covers children who die young."]},
 
 {v:"Explain",
@@ -128,6 +128,6 @@ kq:"Each country gets only ONE number. What does that hide, and why is that a pr
 ml:["Why scale matters",["National data is an average for the whole country.","Inside a country, cities often have much lower fertility than rural areas.","Fertility can also differ by region, income, religion, or ethnic group.","So one national number can hide places with very high or very low fertility and lead to bad conclusions or policies."],[["Scale of analysis","The level you study: local, regional, national, global."],["Aggregate data","Data combined into one total or average."]]],
 wk:["The table doesn't have enough countries.","That's about sample size, not scale. The question asks what national-level data hides."],
 mw:"It names the hidden variation (cities vs. rural areas) and explains why that leads to wrong conclusions.",
-fr:"National data shows only ___, so it hides differences between ___. This matters because ___.",
+fr:"T1- One limitation is that national data shows only ___. E2- For example, ___ could hide differences between ___. A3- This matters because ___.",
 qc:["A single national average can hide differences between…",["cities and rural areas in the country","two different countries","different years"],0,"National data blends together places inside the country."]}
 ]});

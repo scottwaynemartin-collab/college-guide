@@ -1,0 +1,72 @@
+{
+"A": [
+  {"a": "T1- Map 1 shows superimposed boundaries. E2- European countries like Britain and France drew the borders without caring about the African groups that lived there. A3- This means many groups got split up.", "ok": true},
+  {"a": "The boundaries are geometric. They are straight lines that follow latitude and longitude, like the border between Egypt and Sudan.", "ok": true},
+  {"a": "Most of the borders are superimposed boundaries because they were drawn by Europeans at the Berlin Conference, not by Africans.", "ok": true},
+  {"a": "A lot of the borders on Map 1 are just straight lines, especially in the Sahara where Algeria, Libya, and Egypt meet. Colonizers drew them with a ruler.", "ok": true},
+  {"a": "The boundaries are geometric.", "ok": false},
+  {"a": "Map 1 shows the borders of the colonies that European countries owned in Africa.", "ok": false},
+  {"a": "They are antecedent boundaries because they were there before people lived there.", "ok": false},
+  {"a": "The type of boundary is a colonial boundary because Africa was colonized.", "ok": false}
+],
+"B": [
+  {"a": "T1- The colonial boundaries are straight lines but the cultural boundaries are curvy. E2- Map 1 has straight borders but on Map 2 groups like the Hausa have uneven edges. A3- This shows Europeans didn't follow where groups lived.", "ok": true},
+  {"a": "The European boundaries split culture groups apart. For example the Ewe on Map 2 are split between the Gold Coast and Togo on Map 1.", "ok": true},
+  {"a": "The colonial borders ignore where ethnic groups live, while the cultural boundaries on Map 2 follow where each group actually lives.", "ok": true},
+  {"a": "Colonial boundaries put a lot of different groups into one colony. Nigeria on Map 1 has the Hausa, Yoruba, and Igbo from Map 2 all together.", "ok": true},
+  {"a": "Map 1 shows colonies and Map 2 shows culture groups.", "ok": false},
+  {"a": "The European boundaries are straight lines.", "ok": false},
+  {"a": "Map 2 has more groups than Map 1.", "ok": false},
+  {"a": "Map 1 is the whole continent of Africa and Map 2 is only West Africa.", "ok": false}
+],
+"C": [
+  {"a": "T1- One outcome is civil war. E2- In Nigeria the borders put the Igbo, Yoruba, and Hausa in one country, and the Igbo tried to break away as Biafra. A3- This happened because different groups were forced to share one government.", "ok": true},
+  {"a": "Colonial borders split ethnic groups between different countries, so some groups want to reunite, which causes border disputes, like the Somali people in Ethiopia and Kenya.", "ok": true},
+  {"a": "Because the borders combined the Muslim north and the Christian south of Sudan into the same country, there was a long civil war until South Sudan became independent in 2011.", "ok": true},
+  {"a": "Many African countries have weak national unity because the colonial lines grouped many different ethnic groups together, so people are more loyal to their tribe than to the country.", "ok": true},
+  {"a": "Colonial boundaries caused a lot of problems in Africa.", "ok": false},
+  {"a": "Africans today speak English and French because of colonization.", "ok": false},
+  {"a": "There are lots of wars in Africa.", "ok": false},
+  {"a": "The boundaries divided Africa into colonies for European countries.", "ok": false}
+],
+"D": [
+  {"a": "T1- Europeans believed their culture was superior to African cultures. E2- At the Berlin Conference they split up Africa without inviting any Africans. A3- This shows they didn't think Africans deserved a say.", "ok": true},
+  {"a": "Europeans thought Africans were uncivilized, so missionaries came to convert them to Christianity and get rid of their traditional religions.", "ok": true},
+  {"a": "The Europeans saw African cultures as primitive and made Africans learn European languages like French in colonial schools.", "ok": true},
+  {"a": "Europeans looked down on African kingdoms and ignored them when they drew the borders, because they thought their own way of governing was the only right way.", "ok": true},
+  {"a": "Ethnocentrism is when you think your culture is better than other cultures.", "ok": false},
+  {"a": "Europeans thought they were better than Africans.", "ok": false},
+  {"a": "European colonization reflected ethnocentrism because they colonized Africa for its resources.", "ok": false},
+  {"a": "The Europeans took over Africa and drew new borders.", "ok": false}
+],
+"E": [
+  {"a": "T1- Many colonies were drawn to include the coast. E2- The Belgian Congo has a small strip that reaches the Atlantic Ocean. A3- This let them ship rubber out of the Congo to Europe.", "ok": true},
+  {"a": "The colonies on the coast like the Gold Coast and Togo stretch inland from the ocean so Europeans could get raw materials from the interior to ports.", "ok": true},
+  {"a": "Almost every European colony has a coastline so they could export resources like gold and diamonds on ships back to Europe.", "ok": true},
+  {"a": "Gambia is drawn around the Gambia River, which the British used to move peanuts and other goods out to the sea for export.", "ok": true},
+  {"a": "Europeans wanted Africa's resources, like gold and rubber.", "ok": false},
+  {"a": "The boundaries are straight lines drawn by Europeans.", "ok": false},
+  {"a": "Britain had the most colonies, so they got the most resources.", "ok": false},
+  {"a": "The Belgian Congo is very big and in the middle of Africa.", "ok": false}
+],
+"F": [
+  {"a": "T1- Colonization affected languages to a great degree. E2- Many countries still use the colonizer's language as their official language, like French in Senegal and English in Nigeria. A3- These languages are used in government and schools, but people still speak African languages at home too.", "ok": true},
+  {"a": "To a large degree but not completely. Portuguese is the official language of Angola and Mozambique, but most people there also speak native languages.", "ok": true},
+  {"a": "Colonization affected languages to a moderate degree. English and French are used in government and business, but hundreds of indigenous languages like Swahili and Hausa are still spoken every day.", "ok": true},
+  {"a": "It had a big impact because English is an official language in Ghana and Nigeria and is taught in schools.", "ok": true},
+  {"a": "Colonization affected African languages because Europeans brought their languages to Africa.", "ok": false},
+  {"a": "Colonization affected languages to a great degree.", "ok": false},
+  {"a": "People in Africa speak many different languages.", "ok": false},
+  {"a": "Colonization changed the languages in Africa a lot.", "ok": false}
+],
+"G": [
+  {"a": "T1- Map 2 shows culture groups, not religions. E2- People in the same culture group can practice different religions, like Yoruba who are Muslim or Christian. A3- So you can't use the map to know where religions are.", "ok": true},
+  {"a": "The map only shows West Africa, so it doesn't tell you anything about religion in North or East Africa.", "ok": true},
+  {"a": "Map 2 shows ethnic groups, but religions like Islam and Christianity spread across many ethnic groups through trade and missionaries, so the groups don't match religions.", "ok": true},
+  {"a": "Map 2 doesn't have a date, so it can't show how religions changed over time as people converted to Christianity or Islam.", "ok": true},
+  {"a": "Map 2 doesn't show religion.", "ok": false},
+  {"a": "Map 2 is hard to read because all the patterns look the same.", "ok": false},
+  {"a": "The map shows where religions are because each culture group has its own religion.", "ok": false},
+  {"a": "Map 2 only shows culture groups like the Hausa and Yoruba.", "ok": false}
+]
+}
