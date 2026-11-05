@@ -14,7 +14,7 @@ const only = process.argv[2];
 
 function load(file) {
   const BG = {}, FRQ = [];
-  new Function('addBG', 'addFRQ', fs.readFileSync(file, 'utf8'))(o => Object.assign(BG, o), f => FRQ.push(f));
+  new Function('addBG', 'addFRQ', fs.readFileSync(file, 'utf8').replace(/@@img:([\w.-]+)@@/g, (_, n) => 'data:image/png;base64,' + fs.readFileSync(path.join(ROOT, 'src/img', n)).toString('base64')))(o => Object.assign(BG, o), f => FRQ.push(f));
   return FRQ[0];
 }
 const esc = t => String(t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));

@@ -12,6 +12,7 @@ const addBG = o => Object.assign(BG, o), addFRQ = f => FRQ.push(f);
 new Function('addBG', 'addFRQ', fs.readFileSync(file, 'utf8'))(addBG, addFRQ);
 
 const errs = [], warn = [];
+for (const m of fs.readFileSync(file, 'utf8').matchAll(/@@img:([\w.-]+)@@/g)) if (!fs.existsSync(path.join(path.dirname(file), '../img', m[1]))) errs.push(`image not found: src/img/${m[1]}`);
 const need = (o, k, where) => { if (o[k] === undefined || o[k] === '' ) errs.push(`${where}: missing "${k}"`); };
 if (FRQ.length !== 1) errs.push(`expected exactly one addFRQ(), found ${FRQ.length}`);
 const f = FRQ[0] || { p: [] };
@@ -31,7 +32,7 @@ Object.values(BG).forEach(b => { if (!b.t || !b.s || b.s.length < 3 || b.s.lengt
 f.p.forEach((p, i) => {
   const L = String.fromCharCode(65 + i), w = `Part ${L}`;
   ['v', 'q', 'sk', 's', 'r', 'mo', 'b', 'th', 'co', 'kq', 'ml', 'wk', 'mw', 'fr', 'qc'].forEach(k => need(p, k, w));
-  if (!['Identify', 'Define', 'Describe', 'Explain', 'Compare'].includes(p.v)) errs.push(`${w}: verb must be Identify/Define/Describe/Explain/Compare`);
+  if (!['Identify', 'Define', 'Describe', 'Explain', 'Compare', 'Explain the degree'].includes(p.v)) errs.push(`${w}: verb must be Identify/Define/Describe/Explain/Compare/Explain the degree`);
   const short = p.v === 'Identify' || p.v === 'Define';
   const steps = short ? 2 : 3;
   if (p.s && p.s.length !== steps) errs.push(`${w}: ${p.v} needs ${steps} thinking steps, found ${p.s.length}`);

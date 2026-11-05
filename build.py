@@ -10,22 +10,33 @@ The tutor is one shared engine (src/engine.html) plus one data file per FRQ
 To add an FRQ: copy a file in src/frqs/, edit it, add its name to BUILDS
 below, and run `python3 build.py`.
 """
+import base64
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-LIMIT_KB = 150  # two FRQs is ~105-110 KB; a class FRQ plus two practice FRQs is ~140 KB. Still smaller than one phone photo.
+LIMIT_KB = 240  # three FRQs is ~140 KB; Unit 4 adds two real map images (~90 KB). Still smaller than one phone photo.
 
 BUILDS = {
     "units/frq-tutor-unit1.html": ("Unit 1 · Thinking Geographically", ["u1-two-scales", "u1-map-toolkit"]),
     "units/frq-tutor-unit2.html": ("Unit 2 · Population and Migration", ["u2-fewer-babies", "u2-on-the-move"]),
     "units/frq-tutor-unit3.html": ("Unit 3 · Cultural Patterns and Processes", ["u3-english-global", "u3-neighborhood"]),
-    "units/frq-tutor-unit4.html": ("Unit 4 · Political Patterns and Processes", ["u4-class-sovereignty", "u4-drawing-lines", "u4-rails-of-the-raj"]),
+    "units/frq-tutor-unit4.html": ("Unit 4 · Political Patterns and Processes", ["u4-class-africa", "u4-class-sovereignty", "u4-drawing-lines"]),
+    "units/frq-tutor-unit4-class.html": ("Unit 4 · Political Patterns and Processes", ["u4-class-africa"]),
     "units/frq-tutor-unit5.html": ("Unit 5 · Agriculture and Rural Land Use", ["u5-rings-of-farmland", "u5-green-revolution"]),
     "units/frq-tutor-unit6.html": ("Unit 6 · Cities and Urban Land Use", ["u6-metro-shift", "u6-city-of-contrasts"]),
-    "units/frq-tutor-unit7.html": ("Unit 7 · Industrial and Economic Development", ["u7-measuring-up", "u7-factory-floor"]),
+    "units/frq-tutor-unit7.html": ("Unit 7 · Industrial and Economic Development", ["u7-measuring-up", "u7-factory-floor", "u4-rails-of-the-raj"]),
 }
 # The all-in-one preview holds every FRQ above, in unit order.
-BUILDS["frq-tutor.html"] = ("", [n for _, names in BUILDS.values() for n in names])
+BUILDS["frq-tutor.html"] = ("", list(dict.fromkeys(n for _, names in BUILDS.values() for n in names)))
+
+
+def inline_images(text):
+    """Replace @@img:name.png@@ with a data URI of src/img/name.png, so each embed stays one self-contained file."""
+    def data_uri(m):
+        f = ROOT / "src/img" / m.group(1)
+        return "data:image/png;base64," + base64.b64encode(f.read_bytes()).decode()
+    return re.sub(r"@@img:([\w.-]+)@@", data_uri, text)
 
 
 def slim(text):
@@ -46,7 +57,7 @@ def build(out, unit, frqs):
         print(f"{out:32s} skipped, no FRQ files yet")
         return
     engine = (ROOT / "src/engine.html").read_text()
-    data = "\n".join((ROOT / f"src/frqs/{name}.js").read_text() for name in frqs)
+    data = inline_images("\n".join((ROOT / f"src/frqs/{name}.js").read_text() for name in frqs))
     title = "FRQ Tutor · " + (unit + " · " if unit else "") + "AP Human Geography · GeoArcade"
     html = (engine.replace("/*@@TITLE@@*/", title)
                   .replace("/*@@UNIT@@*/", unit)

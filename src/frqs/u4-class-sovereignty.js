@@ -1,4 +1,4 @@
-/* Who's in Charge Here?: the Unit 4 class FRQ (publicly released question). No stimulus. */
+/* Who's in Charge Here?: a publicly released AP question used as Unit 4 practice. No stimulus. */
 addBG({
 u4c_territory:{t:"Territoriality",s:["Territoriality is people's connection to a specific piece of land and their effort to claim, defend, and control it.","Geographer Robert Sack described it as controlling people and things by controlling an area.","It shows up at every scale: a country guarding its border, a city zoning its land, a neighborhood's “residents only” parking.","It helps explain fights over land with deep meaning, like Kashmir, which India and Pakistan both claim."]},
 u4c_sovereignty:{t:"Sovereignty & the state",s:["A state is an independent country: a defined territory with a permanent population, a government, and sovereignty.","Sovereignty is a state's supreme authority to govern its own territory without interference from other states.","The idea is often traced to the Peace of Westphalia (1648), which ended the Thirty Years' War in Europe."]},
@@ -8,12 +8,12 @@ u4c_devolution:{t:"Devolution",s:["Devolution is the transfer of power from a st
 u4c_cityvote:{t:"City elections: at-large vs. districts",s:["In at-large elections, every voter in a city votes for every council seat, so a citywide majority can win them all.","In district (ward) elections, each district elects one member, so where the lines fall decides who wins.","Voting rights lawsuits, especially under California's Voting Rights Act (2001), have pushed many cities to switch to district elections, which often helps minority neighborhoods win seats.","City maps are redrawn after each census to keep districts equal in population, and they can be packed or cracked too."]},
 u4c_fragment:{t:"Political fragmentation",s:["A metropolitan (metro) area is a central city plus its suburbs, tied together by commuting.","Political fragmentation means a metro area is split among many separate local governments, each with its own budget and priorities. The Chicago area alone has hundreds.","That makes transit, roads, and water hard to plan across boundaries.","One fix is a regional authority: WMATA, created in 1967 by Maryland, Virginia, and Washington, D.C., runs one Metro system for the whole region."]}
 });
-addFRQ({k:"Class FRQ · No stimulus",
+addFRQ({k:"Released AP FRQ · No stimulus",
 t:"Who's in Charge Here?",
-d:"Territoriality, sovereignty, and governance, from the EU down to city hall. The Unit 4 FRQ from class.",
+d:"Territoriality, sovereignty, and governance, from the EU down to city hall. A real released AP question for extra practice.",
 u:"Unit 4",
 fmt:"No stimulus (like Question 1)",
-cls:1,
+
 intro:"Every government claims a piece of the Earth's surface, but who holds power over it depends on scale: international organizations, national governments, regions, and city councils can all claim a say over the same ground.",
 stim:"",
 bg:["u4c_territory","u4c_sovereignty","u4c_unitfed","tea"],
