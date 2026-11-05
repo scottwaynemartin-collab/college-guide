@@ -76,7 +76,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 .plabel{font:10px/1.7 var(--px);gap:10px;align-items:center;color:var(--dim);display:flex;justify-content:space-between}
 .hero{text-align:center;padding:26px 6px 8px}
 .hero h1{font:clamp(26px,8vw,46px)/1.2 var(--px);color:var(--yl);text-shadow:3px 3px 0 var(--mg),6px 6px 0 #000}
-.hero .sub{font:10px/1.8 var(--px);color:var(--cy);margin-top:14px}
+.hero .sub{display:block;font:10px/1.8 var(--px);color:var(--cy);margin-top:14px}
 .blink{animation:bl 1s steps(1) 5;color:var(--gr);font:11px var(--px);margin:18px 0 4px}
 @keyframes bl{50%{opacity:0}}
 .carts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
@@ -87,6 +87,32 @@ button{font:inherit;color:inherit;cursor:pointer}
 .cart h3{font-size:21px;line-height:1.25}
 .cart .d{color:var(--dim);font-size:15px}
 .cart .go{margin-top:auto;font:10px var(--px);color:var(--gr)}
+#app.wide{max-width:1120px}
+.stats{display:flex;justify-content:center;gap:12px;margin:18px 0 2px;flex-wrap:wrap}
+.stats div{background:var(--pn);border:2px solid var(--ln);box-shadow:4px 4px 0 #000;padding:9px 14px;font:8px/1.6 var(--px);color:var(--dim);text-align:center;min-width:96px}
+.stats b{display:block;font:18px var(--px);color:var(--yl);margin-bottom:6px}
+.units{display:grid;grid-template-columns:repeat(8,1fr);gap:10px;margin:26px 0 12px}
+.ut{background:var(--pn);border:2px solid var(--ln);box-shadow:4px 4px 0 #000;padding:10px 9px;text-align:left;display:flex;flex-direction:column;gap:6px;min-height:100px;transition:transform .08s steps(2)}
+.ut b{font:9px var(--px);color:var(--uc)}
+.ut span{font-size:14px;line-height:1.25;color:var(--dim)}
+.ut i{font:8px var(--px);font-style:normal;color:var(--dim);margin-top:auto}
+.ut:hover{transform:translate(-2px,-2px)}
+.ut.on{border-color:var(--uc);background:var(--pn2);box-shadow:4px 4px 0 #000,inset 0 0 0 2px var(--uc)}
+.ut.on span{color:var(--ink)}.ut.on i{color:var(--uc)}
+.fmts{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0 8px}
+.fmts>span{font:9px var(--px);color:var(--dim);margin-right:4px}
+.fchip{background:transparent;border:2px solid var(--ln);color:var(--dim);padding:7px 12px;font-size:14px;min-height:38px}
+.fchip.on{border-color:var(--cy);color:var(--ink);background:rgba(34,229,255,.12)}
+.usec{margin:30px 0 6px}
+.uh{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;font-size:24px;line-height:1.2;margin:0 0 14px;padding-bottom:10px;border-bottom:3px solid var(--uc)}
+.uh span{font:11px var(--px);color:var(--uc)}
+.uh small{font-size:14px;color:var(--dim);margin-left:auto}
+.cart.u{border-color:var(--uc)}
+.cart.u.cls{border-color:var(--yl)}
+.hubhow{margin-top:44px}
+.none{text-align:center;color:var(--dim);padding:40px 10px}
+@media (max-width:980px){.units{grid-template-columns:repeat(4,1fr)}}
+@media (max-width:620px){.units{grid-template-columns:repeat(2,1fr)}.ut{min-height:86px}.uh{font-size:20px}}
 .how{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;counter-reset:h}
 .how div{background:var(--pn2);padding:10px;border-left:4px solid var(--cy);font-size:14px}
 .how div:before{counter-increment:h;content:"0" counter(h);display:block;font:10px var(--px);color:var(--cy);margin-bottom:4px}
@@ -481,10 +507,21 @@ function wipe(f){try{localStorage.removeItem(SKEY(f))}catch(e){}}
 function start(i,fresh){S={f:FRQ[i],fi:i,k:0,max:0,vis:{0:1},p:FRQ[i].p.map(()=>({st:1,h:{},a:'',ck:0,box:[],done:0,ok:0,c:0,q:null,cf:null})),nt:FRQ[i].nt.map(()=>({o:0,a:''})),bo:null,cb:0};
 if(fresh)wipe(FRQ[i]);else{const v=loadSave(FRQ[i]);if(v)Object.assign(S,{k:v.k,max:v.max,vis:v.vis||{0:1},p:v.p,nt:v.nt||S.nt,cb:v.cb||0})}render(1)}
 function go(k){S.k=k;S.max=Math.max(S.max,k);S.vis[k]=1;render(1)}
-function render(top){const y=scrollY,op=[...app.querySelectorAll('details[data-pk][open]')].map(d=>d.dataset.pk);if(S.k>=0)save();app.innerHTML=S.k<0?home():hdr()+(S.k==0?stimV():S.k>S.f.p.length?doneV():partV(S.k-1));op.forEach(k=>{const d=app.querySelector('details[data-pk="'+k+'"]');if(d)d.open=true});if(top){scrollTo(0,0);const f=app.querySelector('h2[tabindex]')||app.querySelector('h1[tabindex]');f&&f.focus({preventScroll:true})}else scrollTo(0,y)}
-function home(){return `<div class="hero"><div class="sub">GeoArcade presents</div><h1>FRQ<br>Tutor</h1><div class="sub">AP Human Geography · free-response training</div>${UNIT?`<div class="sub" style="color:var(--yl)">${UNIT}</div>`:''}<div class="blink">▶ SELECT A CARTRIDGE ◀</div></div>
+function render(top){const y=scrollY,op=[...app.querySelectorAll('details[data-pk][open]')].map(d=>d.dataset.pk);if(S.k>=0)save();app.classList.toggle('wide',S.k<0&&!UNIT);app.innerHTML=S.k<0?home():hdr()+(S.k==0?stimV():S.k>S.f.p.length?doneV():partV(S.k-1));op.forEach(k=>{const d=app.querySelector('details[data-pk="'+k+'"]');if(d)d.open=true});if(top){scrollTo(0,0);const f=app.querySelector('h2[tabindex]')||app.querySelector('h1[tabindex]');f&&f.focus({preventScroll:true})}else scrollTo(0,y)}
+let UF=0,FF=0;
+const UN=["","Thinking Geographically","Population & Migration","Cultural Patterns","Political Patterns","Agriculture & Rural Land Use","Cities & Urban Land Use","Industry & Development"],UC=["#eeeaff","#22e5ff","#ff3fa4","#4dff91","#ffd23f","#ff9f43","#b18cff","#ff5b6e"];
+const uOf=f=>(f.u.match(/\d/g)||[]).map(Number),qOf=f=>+((f.fmt||'').match(/Question (\d)/)||[0,0])[1];
+function cartH(f,i,u){const v=loadSave(f);return `<button class="cart u${f.cls?' cls':''}" style="--uc:${UC[u]}" data-a="start" data-i="${i}"><span class="k">${f.k}</span><h3>${f.t}</h3><span class="d">${f.d}</span><span class="d">${f.u} · ${f.p.length} parts · about ${f.m} min</span>${f.fmt?`<span class="d" style="color:var(--cy)">AP exam format: ${f.fmt}</span>`:''}<span class="go">${v?`CONTINUE · ${v.p.filter(x=>x.done).length}/${f.p.length} DONE ▸`:'PRESS START ▸'}</span></button>`}
+function hub(){const L2=FRQ.map((f,i)=>({f,i,us:uOf(f),q:qOf(f)})),okF=x=>!FF||x.q==FF,parts=FRQ.reduce((a,f)=>a+f.p.length,0);
+const tabs=[0,1,2,3,4,5,6,7].map(u=>{const n=L2.filter(x=>(!u||x.us.includes(u))&&okF(x)).length;return `<button class="ut${UF==u?' on':''}" style="--uc:${UC[u]}" data-a="uf" data-u="${u}" aria-pressed="${UF==u}"><b>${u?'UNIT '+u:'ALL UNITS'}</b><span>${u?UN[u]:'The full library'}</span><i>${n} FRQ${n==1?'':'s'}</i></button>`}).join('');
+const fm=[[0,'Any'],[1,'Q1 · No stimulus'],[2,'Q2 · One stimulus'],[3,'Q3 · Two stimuli']].map(([q,t])=>`<button class="fchip${FF==q?' on':''}" data-a="ff" data-q="${q}" aria-pressed="${FF==q}">${t}</button>`).join('');
+const secs=(UF?[UF]:[1,2,3,4,5,6,7]).map(u=>{const xs=L2.filter(x=>(UF?x.us.includes(u):x.us[0]==u)&&okF(x)).sort((a,b)=>(b.f.cls||0)-(a.f.cls||0));return xs.length?`<section class="usec" style="--uc:${UC[u]}"><h2 class="uh"><span>UNIT ${u}</span>${UN[u]}<small>${xs.length} FRQ${xs.length==1?'':'s'}</small></h2><div class="carts">${xs.map(x=>cartH(x.f,x.i,u)).join('')}</div></section>`:''}).join('');
+return `<div class="hero"><div class="sub">GeoArcade presents</div><h1>FRQ<br>Tutor</h1><div class="sub">AP Human Geography · free-response training</div><div class="stats"><div><b>${FRQ.length}</b>FRQs</div><div><b>7</b>Units</div><div><b>${parts}</b>Parts</div></div><div class="blink">▶ PICK A UNIT · SELECT A CARTRIDGE ◀</div></div>
+<div class="units" role="group" aria-label="Choose a unit">${tabs}</div><div class="fmts" role="group" aria-label="Filter by AP exam format"><span>AP format:</span>${fm}</div>${secs||'<p class="none">No FRQs match that combo yet. Try a different format or unit.</p>'}`}
+function home(){if(!UNIT)return hub()+`<div class="hubhow">${howV()}</div>`;return `<div class="hero"><div class="sub">GeoArcade presents</div><h1>FRQ<br>Tutor</h1><div class="sub">AP Human Geography · free-response training</div>${UNIT?`<div class="sub" style="color:var(--yl)">${UNIT}</div>`:''}<div class="blink">▶ SELECT A CARTRIDGE ◀</div></div>
 <div class="carts">${FRQ.map((f,i)=>[f,i]).sort((a,b)=>(b[0].cls||0)-(a[0].cls||0)).map(([f,i])=>`<button class="cart${f.cls?' cls':''}" data-a="start" data-i="${i}"><span class="k">${f.k}</span><h3>${f.t}</h3><span class="d">${f.d}</span><span class="d">${f.u} · ${f.p.length} parts · about ${f.m} min</span>${f.fmt?`<span class="d" style="color:var(--cy)">AP exam format: ${f.fmt}</span>`:''}<span class="go">${(v=>v?`CONTINUE · ${v.p.filter(x=>x.done).length}/${f.p.length} DONE ▸`:'PRESS START ▸')(loadSave(f))}</span></button>`).join('')}</div>
-<div class="panel"><span class="tag px">How it works</span><div class="how"><div>Study the stimulus (or warm up) and jot what you notice.</div><div>Decode the task verb for each part.</div><div>Think it through with step-by-step hints.</div><div>Write, check against the rubric, compare with a model.</div></div></div>
+`+howV()}
+function howV(){return `<div class="panel"><span class="tag px">How it works</span><div class="how"><div>Study the stimulus (or warm up) and jot what you notice.</div><div>Decode the task verb for each part.</div><div>Think it through with step-by-step hints.</div><div>Write, check against the rubric, compare with a model.</div></div></div>
 <div class="panel"><span class="tag px">The TEA method</span><p>For every <b>Describe</b> or <b>Explain</b> part, build your answer in three moves:</p>${chips(["frq","tea"])}<div class="tea" style="margin-top:8px"><div><b class="tT">T1-</b><strong>Topic</strong><br>Your reason in general words.</div><div><b class="tE">E2-</b><strong>Evidence</strong><br>The specific proof: a place, number, or example.</div><div><b class="tA">A3-</b><strong>Analysis</strong><br>Why it matters: the “because… which leads to…”.</div></div></div>`}
 function hdr(){const n=S.f.p.length,segs=[[S.f.stim?"👁":"💭",0]].concat(S.f.p.map((_,i)=>[L(i),i+1]),[["★",n+1]]);
 const cur=S.k==0?(S.f.stim?"Stimulus":"Warm-up"):S.k>n?"Results":`Part ${L(S.k-1)} of ${n}`;
@@ -554,6 +591,8 @@ switch(a){
 case 'start':return start(i);
 case 'restart':if(!S.rc){S.rc=1;return render()}S.rc=0;return start(i,1);
 case 'home':save();S.k=-1;return render(1);
+case 'uf':UF=+b.dataset.u;return render();
+case 'ff':FF=+b.dataset.q;return render();
 case 'go':return go(+b.dataset.k);
 case 'bg':return openBG(b.dataset.k);
 case 'x':return closeBG();
