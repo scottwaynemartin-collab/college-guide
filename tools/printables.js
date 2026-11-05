@@ -37,6 +37,7 @@ h2{font-size:12.5pt;margin:18px 0 6px;border-bottom:2px solid #000;padding-botto
 .stim h3{font-size:11pt;margin:0 0 6px}
 .stim h4{color:#000!important;font-size:10.5pt;margin:12px 0 4px!important}
 .stim svg{display:block;max-width:100%;height:auto;max-height:4.6in;margin:0 auto}
+.stim img{display:block;max-width:100%;width:auto!important;height:auto;max-height:5.2in;margin:0 auto;border:1px solid #999}
 .passage{background:#fff!important;color:#000!important;border:1px solid #666!important;font-size:10.5pt!important;padding:8px 10px!important}
 .tbl{overflow:visible}
 table{border-collapse:collapse;width:100%;font-size:9.5pt;margin:4px 0}
@@ -69,7 +70,7 @@ function head(f, kind) {
 }
 function stim(f) {
   if (!f.stim) return `<div class="dir"><b>No stimulus.</b> ${esc(f.intro)}</div>`;
-  return `<p style="margin:0 0 4px">${esc(f.intro)}</p><div class="stim"><h3>${esc(f.st)}</h3>${f.stim}</div>`;
+  return `<p style="margin:0 0 4px">${esc(f.intro)}</p><div class="stim">${f.two ? '' : `<h3>${esc(f.st)}</h3>`}${f.stim}</div>`;
 }
 const DIRECTIONS = `<div class="dir"><b>Directions:</b> Answer all parts of the question. Respond in complete sentences; an outline or bulleted list is not acceptable. Label each part (A, B, C…). For Describe and Explain parts, write it out with <b>T1-</b> (your reason in general words), <b>E2-</b> (the specific proof), and <b>A3-</b> (why it matters).</div>`;
 

@@ -1,0 +1,285 @@
+You are an experienced AP Human Geography teacher and AP Reader. Below is the content of an online FRQ tutor for high-school students (Unit 2). Fictional countries, cities, and data are intentional. Class FRQs and "Released AP FRQ" items use College Board question wording, which must not change.
+
+Please check every statement for:
+1. Factual errors (dates, numbers, places, how models work).
+2. Wrong or non-standard AP Human Geography terms.
+3. Model answers that would NOT earn the point for that task verb, or that don't answer the question.
+4. Quick-check "correct" answers that are wrong or ambiguous, or lessons that contradict the model answer.
+5. Anything a 9th or 10th grader could misread.
+
+List ONLY problems, each with the FRQ title, part letter, the exact sentence, and a one-line fix. If everything in a part is fine, skip it.
+
+
+======================================================================
+Units 2 & 6 · Fewer Babies, Bigger Cities (Practice FRQ · Data table)
+======================================================================
+STIMULUS: Selected Population and Development Indicators
+The table shows data for four countries. (The countries are fictional and the data were created for practice.)
+Country | Total fertility rate 1995 | Total fertility rate 2020 | Female secondary school enrollment, 2020 (%) | Urban population, 2020 (%) | Infant mortality, 2020 (per 1,000 births) | 
+
+Norvale | 6.1 | 5.4 | 22 | 24 | 68 | 
+
+Kestria | 5.8 | 3.1 | 61 | 48 | 31 | 
+
+Tamboa | 3.4 | 1.9 | 88 | 71 | 12 | 
+
+Ruzhan | 2.0 | 1.3 | 97 | 82 | 3 | 
+
+Total fertility rate = average number of children per woman. Data created for practice.
+
+--- Part A (Identify) ---
+Q: Identify the country in the table that is most likely in Stage 2 of the demographic transition model.
+MODEL ANSWER: Norvale.
+RUBRIC: Norvale
+MINI-LESSON (Spotting Stage 2 in data):
+ - Stage 2 countries have high birth rates, so look for the highest TFR (around 5 or more).
+ - Death rates are falling, but health care is still limited, so infant mortality is fairly high.
+ - They are usually more rural, because Stage 2 comes before major urbanization.
+ - Stage 3+ countries show falling TFR, more urban populations, and lower infant mortality.
+KEY WORDS: TFR = Average number of children per woman.; Infant mortality = Babies who die before age 1, per 1,000 births.
+QUICK CHECK: In DTM Stage 2, birth rates are ___ and death rates are ___. → high; falling (Stage 2 = high births, falling deaths, so population booms.)
+
+--- Part B (Describe) ---
+Q: Describe the relationship between female secondary school enrollment and total fertility rate shown in the table.
+MODEL ANSWER: T1- The table shows an inverse relationship: as female secondary enrollment rises, TFR falls. E2- Norvale has only 22% enrollment and a TFR of 5.4, while Ruzhan has 97% enrollment and a TFR of just 1.3. A3- This matters because it suggests that keeping girls in school is one of the strongest ways a country lowers its birth rate.
+RUBRIC: States an inverse/negative relationship (more enrollment, lower TFR) / Supports it with numbers from the table
+MINI-LESSON (Describing a relationship in data):
+ - Positive (direct) relationship: both go up together.
+ - Inverse (negative) relationship: one goes up while the other goes down.
+ - Strong answers name the relationship AND quote numbers from at least two rows.
+ - Compare the extremes (top and bottom of the range) to make the pattern obvious.
+KEY WORDS: Inverse relationship = As one variable rises, the other falls.; Female secondary enrollment = Share of teen girls in high-school-level education.
+QUICK CHECK: One number goes up while the other goes down. That relationship is… → inverse (negative) (Inverse means they move in opposite directions.)
+
+--- Part C (Explain) ---
+Q: Explain ONE reason why increased access to education for women leads to lower fertility rates.
+MODEL ANSWER: T1- Women who stay in school longer tend to have fewer children because they start families later and have more career options. E2- A girl who finishes secondary school usually marries and has her first child years later, and she is more likely to work for wages. A3- Because she starts later and each child costs her more in lost income (opportunity cost), she has fewer children overall.
+RUBRIC: Names a mechanism: delayed marriage, paid work, family-planning knowledge, or decision-making power / Explains how that mechanism results in fewer children
+MINI-LESSON (Why education lowers fertility):
+ - Time: girls in school usually marry and start families later, leaving fewer childbearing years.
+ - Money: educated women can earn wages, so each child costs more in lost income (opportunity cost).
+ - Knowledge: education raises awareness of health care and family planning.
+ - Power: educated women often have more say in decisions about family size.
+KEY WORDS: Opportunity cost = What you give up when you choose something else.; Family planning = Choosing the number and timing of children.
+QUICK CHECK: The 'opportunity cost' of having a child means… → the income or chances a parent gives up (It's what you give up, like wages from a job.)
+
+--- Part D (Explain) ---
+Q: Using data from the table, explain how urbanization can contribute to declining fertility rates.
+MODEL ANSWER: T1- More-urban countries have lower fertility because children cost more and help less in cities. E2- In the table, Norvale is 24% urban with a TFR of 5.4, while Tamboa is 71% urban with a TFR of 1.9. A3- In cities, children don't provide farm labor and housing and schooling cost more, so children become an economic cost rather than an asset, which leads families to have fewer.
+RUBRIC: Uses table data showing more-urban countries have lower TFR / Explains why: children cost more or aren't farm labor in cities, or cities offer better access to health care/contraception
+MINI-LESSON (Urban life & family size):
+ - On farms, children help with work, so kids can be an economic asset.
+ - In cities, kids usually don't earn money, and rent, food, and school cost more, so kids become an economic cost.
+ - Cities also have more clinics, contraception, and jobs for women.
+ - Better health care lowers infant mortality, so parents don't need extra births to be sure some children survive.
+KEY WORDS: Urbanization = Growth in the share of people living in cities.; Economic asset = Something that brings in value or help.
+QUICK CHECK: On a farm a child is often an economic ___; in a city, more of an economic ___. → asset; cost (Farm kids help work; city kids mostly cost money.)
+
+--- Part E (Describe) ---
+Q: Describe ONE likely change in the shape of Kestria's population pyramid resulting from the change in its total fertility rate between 1995 and 2020.
+MODEL ANSWER: T1- Kestria's pyramid will get a narrower base because fewer children are being born. E2- Its TFR fell from 5.8 in 1995 to 3.1 in 2020, so each new age group at the bottom is smaller than the one before. A3- Meanwhile the large group born in the 1990s moves up into working ages, so the pyramid becomes a slimmer triangle with a bulge moving up into the working ages. It is not yet the beehive shape of a country near replacement level, because a TFR of 3.1 is still well above 2.1.
+RUBRIC: Describes a shape change: narrower base, or a wider working-age middle / Links it to Kestria's falling TFR (5.8 → 3.1)
+MINI-LESSON (Reading pyramid shapes):
+ - The bottom bars of a pyramid are the youngest people (ages 0–4).
+ - High fertility = a wide base (a triangle shape).
+ - When fertility drops, fewer babies are born, so the base narrows.
+ - The many kids born earlier grow up, so a bulge moves up into the working-age middle. A country only gets the beehive shape once its TFR falls to about 2.1.
+KEY WORDS: Cohort = A group of people born in the same time period.; Working-age population = People ages 15–64.
+QUICK CHECK: Which part of a population pyramid shows the youngest people? → The base (bottom) (The bottom bars are ages 0–4.)
+
+--- Part F (Explain) ---
+Q: Explain ONE economic challenge Ruzhan is likely to face as a result of its total fertility rate.
+MODEL ANSWER: T1- Ruzhan will face an aging population with too few workers because its fertility is below replacement level. E2- Its TFR of 1.3 is well below 2.1, so fewer young people enter the workforce each year while more people retire. A3- This leads to labor shortages and a smaller tax base to pay for pensions and health care, raising the elderly dependency ratio.
+RUBRIC: Recognizes that TFR is below replacement (≈2.1), so the population ages or shrinks / Explains an economic challenge: labor shortage, pension/health costs, smaller tax base, dependency ratio
+MINI-LESSON (Life below replacement level):
+ - A TFR of 2.1 replaces each generation. Ruzhan's 1.3 is far below that.
+ - Over time the population ages: more retirees, fewer young workers.
+ - Fewer workers means fewer taxpayers, while pensions and health care for the elderly cost more.
+ - Businesses may struggle to find workers, which slows the economy.
+KEY WORDS: Replacement level = A TFR of about 2.1.; Elderly dependency ratio = People 65+ for every 100 working-age people.
+QUICK CHECK: Replacement-level fertility is about… → 2.1 children per woman (2.1 replaces each generation; the extra 0.1 covers children who die young.)
+
+--- Part G (Explain) ---
+Q: Explain ONE limitation of using national-scale data, such as the data in the table, to understand fertility patterns.
+MODEL ANSWER: T1- One limitation is that national data are averages that hide differences within a country. E2- For example, Kestria's TFR of 3.1 could combine cities near 2.0 with rural regions above 5.0. A3- Because of this, the table can't show where fertility is actually high or why, so policies based on it could miss the places that need them most.
+RUBRIC: Names variation hidden by national averages (urban/rural, regional, income, ethnic/religious) / Explains why that hides important patterns or leads to wrong conclusions
+MINI-LESSON (Why scale matters):
+ - National data is an average for the whole country.
+ - Inside a country, cities often have much lower fertility than rural areas.
+ - Fertility can also differ by region, income, religion, or ethnic group.
+ - So one national number can hide places with very high or very low fertility and lead to bad conclusions or policies.
+KEY WORDS: Scale of analysis = The level you study: local, regional, national, global.; Aggregate data = Data combined into one total or average.
+QUICK CHECK: A single national average can hide differences between… → cities and rural areas in the country (National data blends together places inside the country.)
+
+BACKGROUND POP-OUTS:
+• Total Fertility Rate (TFR)
+   - TFR is the average number of children a woman is expected to have in her lifetime.
+   - A TFR of about 2.1 is replacement level, just enough for each generation to replace itself. The extra 0.1 covers children who die young.
+   - Above 2.1, population tends to grow. Below 2.1, it eventually shrinks unless immigrants arrive.
+   - TFR is one of the best single numbers for predicting a country's future population.
+• Demographic Transition Model (DTM)
+   - The DTM describes how birth and death rates change as a country develops.
+   - Stage 1: both rates are high, so population barely grows.
+   - Stage 2: death rates drop (better food, medicine, sanitation) but birth rates stay high, so population grows fast.
+   - Stage 3: birth rates fall as the country urbanizes and women gain education.
+   - Stages 4–5: both rates are low, and population levels off or even shrinks.
+• Women's education & fertility
+   - Worldwide, one of the strongest predictors of lower fertility is how many years of school girls complete.
+   - Staying in school tends to delay marriage and first births.
+   - Education opens paid jobs, so each extra child has a higher opportunity cost (the income a mother gives up).
+   - Educated women usually know more about health care and family planning and have more say in family decisions.
+• Urbanization & family size
+   - On farms, children can help with work, so a big family can be an economic asset.
+   - In cities, children usually don't earn income, and housing, food, and school cost more.
+   - Cities also offer more clinics, contraception, and paid jobs for women.
+   - That's why fertility usually falls as a country becomes more urban.
+• Population pyramids
+   - A population pyramid is a bar graph of a population by age and sex, with the youngest at the bottom.
+   - A wide base means many births, which is common in Stage 2 countries.
+   - When fertility falls, the base narrows and the shape turns more like a beehive or column.
+   - Large age groups (cohorts) move up the pyramid over time like a bulge.
+• Dependency ratio
+   - The dependency ratio compares people who usually aren't working (children under 15 and adults 65+) with the working-age population (15–64).
+   - A high elderly dependency ratio means fewer workers paying taxes to support each retiree's pension and health care.
+   - Very-low-fertility countries such as Japan and Italy face rising elderly dependency ratios.
+   - Common responses include encouraging immigration, raising the retirement age, and supporting families who want children.
+
+======================================================================
+Unit 2 · On the Move (Practice FRQ · Two stimuli)
+======================================================================
+STIMULUS: Stimulus 1: Emigration from Tavira, 2023 (flow map) · Stimulus 2: One Migrant's Story
+Stimulus 1 is a flow map of the people who left the country of Tavira in 2023. Stimulus 2 is one of those migrants describing her move in her own words. (Tavira, its neighbors, the numbers, and the person are fictional and were created for practice.)
+Stimulus 1: Emigration from Tavira, 2023
+
+[DIAGRAM: Flow map of people who left the fictional country of Tavira in 2023; arrow width shows the number of migrants. The widest arrow, 410,000 people, runs north across the Brava River into Montaro, a high-income neighboring country. A medium arrow, 150,000 people, curves west across the ocean to Eldmark, a high-income country about 6,000 km away. The thinnest arrow, 40,000 people, runs south into Pelora, a middle-income neighboring country. A legend shows thick, medium, and thin arrows for about 400,000, 150,000, and 40,000 migrants.]Flow map created for practice. Tavira, Montaro, Eldmark, Pelora, and all numbers are fictional. Tavira's population is about 20 million. Schematic, not to scale.
+
+Stimulus 2: “Why I Left Tavira”
+
+“The drought lasted three years. Our maize died, and the family farm could not feed us anymore. My cousin Elena had already lived in Montaro for six years. She found me a job at the fruit-packing plant where she works. Getting here was the hardest part: we crossed the Brava River at night, where people drown every year, and then walked for hours along the border wall to find a way through. Now I send money home every month so my little brothers can stay in school. Someday, when the rains return, I will go back to Tavira.”
+
+Account by Marisol, age 24, who moved from Tavira to Montaro in 2023. Marisol and her words are fictional and were created for practice.
+
+--- Part A (Identify) ---
+Q: Identify ONE environmental push factor described in Stimulus 2.
+MODEL ANSWER: A drought that lasted three years and killed the maize on Marisol's family farm.
+RUBRIC: Drought / lack of rain / Crop failure on the family farm
+MINI-LESSON (Push and pull factors):
+ - A push factor makes people want to leave a place. A pull factor attracts them to a new one.
+ - They can be economic, environmental, political, or social.
+ - Environmental pushes include drought, floods, hurricanes, and worn-out soil.
+ - On a farm, drought is also an economic push: no rain, no harvest, no income.
+KEY WORDS: Push factor = A reason people leave a place.; Pull factor = A reason people are drawn to a new place.; Drought = A long period with much less rain than normal.
+QUICK CHECK: Which of these is an ENVIRONMENTAL push factor? → A long drought that ruins crops (Drought comes from nature. Higher wages is an economic pull; jailing critics is a political push.)
+
+--- Part B (Describe) ---
+Q: Using Stimulus 1, describe the pattern of migration from Tavira and how it reflects the role of distance in migration.
+MODEL ANSWER: T1- Most migrants from Tavira moved a short distance to a neighboring country, and far fewer made the long trip overseas. E2- In 2023, 410,000 people went next door to Montaro, while only 150,000 crossed the ocean to Eldmark, about 6,000 km away, even though both are high-income countries. A3- This fits Ravenstein's law that most migrants move short distances, an example of distance decay: long moves cost more and feel riskier, so fewer people make them.
+RUBRIC: Describes the pattern: most went a short distance to neighboring Montaro / Uses map evidence: numbers or arrow widths (410,000 vs. 150,000) / Connects to distance: distance decay or Ravenstein
+MINI-LESSON (Ravenstein and distance decay):
+ - In the 1880s, geographer E. G. Ravenstein wrote “laws of migration.” The first: most migrants move only a short distance.
+ - That's distance decay: the farther apart two places are, the less they interact.
+ - Long moves cost more, are riskier, and take people farther from family.
+ - Distance isn't everything: Pelora is next door too but got only 40,000, because Montaro's higher wages pull harder.
+KEY WORDS: Distance decay = The farther away a place is, the less interaction (trade, travel, migration) it has with you.; Ravenstein's laws = 1880s rules about migration, like “most migrants move short distances.”
+QUICK CHECK: “The farther away a place is, the fewer people move there” describes… → distance decay (Interaction drops as distance grows. Ravenstein saw it in migration.)
+
+--- Part C (Explain) ---
+Q: Using Stimulus 2, explain how Marisol's move is an example of chain migration.
+MODEL ANSWER: T1- Marisol's move is chain migration because she followed a family member who had already settled in Montaro. E2- Her cousin Elena had lived there for six years and found Marisol a job at the fruit-packing plant where she works. A3- Because a relative and a job were waiting, the move was less risky and Montaro was the obvious choice, and now Marisol can help the next relative follow, so the chain keeps growing.
+RUBRIC: Shows what chain migration is: following family or people from home who already moved / Uses the passage: cousin Elena already lived there and found her a job / Explains how the link helped cause the move
+MINI-LESSON (Chain migration):
+ - Chain migration happens when people move somewhere because relatives or people from their hometown already live there.
+ - Earlier migrants share information, help pay for the trip, and help newcomers find jobs and housing.
+ - That makes the move cheaper and less risky, so new migrants pick the same destination.
+ - Over time, this can build ethnic enclaves in the destination.
+KEY WORDS: Chain migration = Migration that follows family or friends who moved earlier.; Ethnic enclave = A neighborhood where many people share the same ethnic background.
+QUICK CHECK: Which is the best example of chain migration? → A man moves to a city where his brother already works (Chain migration follows family or friends who already moved there.)
+
+--- Part D (Explain) ---
+Q: Explain how ONE intervening obstacle described in Stimulus 2 affects migration from Tavira to Montaro.
+MODEL ANSWER: T1- One intervening obstacle is the Brava River, a physical barrier between Tavira and Montaro. E2- Marisol says her group crossed it at night, and people drown there every year. A3- Because the crossing is so dangerous, the river discourages some Tavirans from leaving at all and makes the trip deadly for others, so it slows and reduces migration even though Montaro is right next door.
+RUBRIC: Names an obstacle from the passage: the Brava River or the border wall / Explains its effect (dangerous, costly, fewer people go)
+MINI-LESSON (Intervening obstacles):
+ - An intervening obstacle is a barrier between a migrant's home and destination that makes the move harder.
+ - They can be physical (rivers, deserts, oceans), political (walls, visas, laws), or economic (the trip's cost).
+ - Obstacles can stop some migrants, push others onto riskier routes, and even cost lives.
+ - The opposite is an intervening opportunity: a job or safe place found along the way that makes a migrant stop early.
+KEY WORDS: Intervening obstacle = A barrier between origin and destination that makes migration harder.; Intervening opportunity = A chance found along the way that convinces a migrant to stop there instead.
+QUICK CHECK: A desert that migrants must cross to reach a new country is… → an intervening obstacle (It sits between home and the destination and makes the trip harder.)
+
+--- Part E (Explain) ---
+Q: Using BOTH stimuli, explain ONE economic effect of remittances on Tavira.
+MODEL ANSWER: T1- Remittances, the money migrants send home, raise household incomes in Tavira and bring money into its economy. E2- Marisol sends money home every month so her brothers can stay in school, and Stimulus 1 shows 410,000 Tavirans moved to Montaro, a high-income country with higher wages. A3- When hundreds of thousands of migrants send money like Marisol does, families can afford food, school, and housing, and their spending supports local businesses, though Tavira can also become dependent on money earned abroad.
+RUBRIC: Uses Stimulus 2: Marisol sends money home every month / Uses Stimulus 1: many migrants work in high-income countries / Explains an economic effect on Tavira (income, spending, schooling, businesses, dependence)
+MINI-LESSON (Remittances):
+ - Remittances are money that migrants send back to family in their home country.
+ - For many poorer countries, remittances bring in more money than foreign aid.
+ - Families usually spend it on food, school, health care, and housing, which helps local businesses.
+ - The risk: a country can become dependent on remittances, and the money drops if jobs dry up abroad.
+KEY WORDS: Remittances = Money migrants send home to family.; Transnational migrant = A migrant who keeps strong ties to both the new country and home.
+QUICK CHECK: Remittances are… → money migrants send to family back home (Remittances flow from migrants back to their home country.)
+
+--- Part F (Explain) ---
+Q: Explain ONE way large-scale emigration, like the migration shown in Stimulus 1, can change the population structure of the origin country.
+MODEL ANSWER: T1- Large-scale emigration can leave the origin with fewer working-age adults and a higher dependency ratio, because most migrants are young adults. E2- In 2023 alone, 600,000 people left Tavira, and migrants like 24-year-old Marisol are in their prime working and child-bearing years, so the young-adult bars of Tavira's population pyramid would shrink. A3- With fewer workers to support children and the elderly, the dependency ratio rises, and with fewer young adults left to have children, the birth rate can fall too.
+RUBRIC: Says who leaves: young or working-age adults (or mostly men) / Explains the change in structure (pinched pyramid, higher dependency ratio, fewer births, sex imbalance)
+MINI-LESSON (How migration reshapes a population):
+ - Most migrants are young adults, roughly 20 to 35.
+ - When many leave, the origin's pyramid gets “pinched” in the young-adult bars, while children and elderly stay.
+ - That raises the dependency ratio, and fewer young adults means fewer births.
+ - If the migrants are doctors or engineers, the origin also suffers brain drain.
+KEY WORDS: Dependency ratio = Children and elderly compared with working-age people.; Brain drain = When a country's educated, skilled people emigrate.
+QUICK CHECK: When many young adults emigrate, the origin's dependency ratio usually… → rises (Fewer workers are left to support the same children and elderly, so it rises.)
+
+--- Part G (Explain) ---
+Q: Explain ONE limitation of using Stimulus 1 to understand why people leave Tavira.
+MODEL ANSWER: T1- One limitation is that the flow map shows how many people left Tavira and where they went, but not WHY. E2- It shows 410,000 people moving to Montaro, but not whether they were pushed by drought, low wages, or violence, while Stimulus 2 reveals that Marisol left because of a drought and followed her cousin. A3- Because the map has no information about push and pull factors, someone using it alone would have to guess the causes and could get them wrong.
+RUBRIC: States a limitation: the map shows numbers and places, not reasons / Explains why it matters, with an example (drought, wages, violence; you'd have to guess)
+MINI-LESSON (What a flow map can't tell you):
+ - A flow map uses arrows to show movement; wider arrows mean more people.
+ - It answers WHERE and HOW MANY, but not WHY.
+ - It also hides who moved (ages, men vs. women) and whether 2023 was a normal year.
+ - To learn why people move, geographers use surveys, interviews, and data on wages, rainfall, or conflict.
+KEY WORDS: Flow map = A map that uses arrows of different widths to show movement between places.; Qualitative data = Information in words, like interviews, that can explain WHY people act as they do.
+QUICK CHECK: A flow map of migrants is BEST for showing… → how many people moved and where they went (Flow maps show direction and volume. Reasons need other sources, like interviews.)
+
+BACKGROUND POP-OUTS:
+• Push and pull factors
+   - Push factors make people want to leave a place. Pull factors attract them to a new one.
+   - They come in four main kinds: economic (jobs, wages), environmental (drought, floods), political (war, persecution), and social or cultural (family, religion, discrimination).
+   - Economic factors are the most common reason people migrate.
+   - Most moves combine both: a push at home AND a pull somewhere else.
+• Ravenstein's laws of migration
+   - In the 1880s, geographer E. G. Ravenstein studied British census records and wrote “laws of migration.”
+   - Most migrants move only a short distance, so the number of migrants drops as distance grows: distance decay.
+   - Long-distance migrants usually head for big cities and job centers.
+   - Many people move in steps (step migration), like village → town → city.
+   - Every migration flow produces a counterflow of people returning home.
+• Chain migration
+   - Chain migration happens when people move somewhere because relatives or neighbors from home already live there.
+   - Earlier migrants send back news and money and help newcomers find jobs and housing.
+   - Each newcomer can help the next one, so the “chain” keeps growing.
+   - Over time this can build ethnic enclaves, like Little Havana in Miami.
+• Intervening obstacles & opportunities
+   - An intervening obstacle is a barrier between a migrant's origin and destination that makes the move harder.
+   - It can be physical (rivers, oceans, deserts, mountains), political (border walls, visas, immigration limits), or economic (the cost of the trip).
+   - As transportation improves, political obstacles like visas and walls matter more than physical ones.
+   - An intervening opportunity is the opposite: a job or safe place found along the way that convinces a migrant to stop there instead.
+• Remittances
+   - Remittances are money that migrants send back to family in their home country.
+   - Migrants send more than $600 billion a year to low- and middle-income countries, more than those countries receive in foreign aid.
+   - In Nepal, Honduras, and Tajikistan, remittances equal more than a fifth of GDP.
+   - Families spend the money on food, school, health care, and housing, which boosts local businesses.
+   - Migrants who keep close ties to home like this are called transnational migrants.
+• Voluntary vs. forced migration
+   - Voluntary migration is a choice. Forced migration is caused by violence, persecution, disaster, or slavery.
+   - A refugee has crossed an international border to escape persecution for their race, religion, nationality, political opinion, or social group.
+   - An asylum seeker has asked another country for protection and is still waiting for a decision.
+   - An internally displaced person (IDP) was forced to flee but stayed inside their own country.
+   - A slow drought, like Tavira's, blurs the line between the two.
+• Migration, age, and sex
+   - Most migrants are young adults, roughly ages 20 to 35.
+   - When many leave, the origin's population pyramid gets “pinched” in the young-adult bars, leaving children and older people behind.
+   - That raises the dependency ratio and can lower the birth rate.
+   - Destinations gain young workers: in Qatar and the UAE, so many male guest workers have arrived that men far outnumber women.
+   - When skilled people like doctors and engineers leave, the origin suffers brain drain.

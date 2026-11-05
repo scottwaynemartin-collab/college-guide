@@ -11,10 +11,10 @@ Each GeoArcade unit page gets its own file from `units/`:
 | 1 · Thinking Geographically | `units/frq-tutor-unit1.html` | Two Scales, One State (one stimulus) · Mapping the Storm (no stimulus) |
 | 2 · Population and Migration | `units/frq-tutor-unit2.html` | Fewer Babies, Bigger Cities (one) · On the Move (two stimuli) |
 | 3 · Cultural Patterns | `units/frq-tutor-unit3.html` | English Goes Global, class FRQ (one) · Maple Street District (one) |
-| 4 · Political Patterns | `units/frq-tutor-unit4.html` | Who's in Charge Here?, class FRQ (no stimulus) · Drawing the Lines (two stimuli) · Rails of the Raj (one) |
+| 4 · Political Patterns | `units/frq-tutor-unit4.html` (backup: `units/frq-tutor-unit4-class.html`, class FRQ only) | Lines on the Map, class FRQ (two maps) · Who's in Charge Here?, released AP practice (no stimulus) · Drawing the Lines (two stimuli) |
 | 5 · Agriculture | `units/frq-tutor-unit5.html` | Rings of Farmland (one) · Miracle Seeds (no stimulus) |
 | 6 · Cities | `units/frq-tutor-unit6.html` | Brookhaven Spreads Out (one) · City of Contrasts (two stimuli) |
-| 7 · Development | `units/frq-tutor-unit7.html` | Measuring Up (one) · The Factory Floor (no stimulus) |
+| 7 · Development | `units/frq-tutor-unit7.html` | Measuring Up (one) · The Factory Floor (no stimulus) · Rails of the Raj (one) |
 
 Printable student handouts and teacher keys for every FRQ are in `print/` (rebuild with `node tools/printables.js`). A two-page teacher guide is in `docs/teacher-guide.pdf`.
 

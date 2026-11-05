@@ -1,0 +1,387 @@
+You are an experienced AP Human Geography teacher and AP Reader. Below is the content of an online FRQ tutor for high-school students (Unit 7). Fictional countries, cities, and data are intentional. Class FRQs and "Released AP FRQ" items use College Board question wording, which must not change.
+
+Please check every statement for:
+1. Factual errors (dates, numbers, places, how models work).
+2. Wrong or non-standard AP Human Geography terms.
+3. Model answers that would NOT earn the point for that task verb, or that don't answer the question.
+4. Quick-check "correct" answers that are wrong or ambiguous, or lessons that contradict the model answer.
+5. Anything a 9th or 10th grader could misread.
+
+List ONLY problems, each with the FRQ title, part letter, the exact sentence, and a one-line fix. If everything in a part is fine, skip it.
+
+
+======================================================================
+Units 4 & 7 · Rails of the Raj (Practice FRQ · Map stimulus)
+======================================================================
+STIMULUS: Railways, Ports, and Export Regions in British India, c. 1900
+This map shows major railway lines in British India around 1900, the port cities they reached, and regions that specialized in export crops.
+[DIAGRAM: Schematic map of British India around 1900. Railway lines run from export-crop regions in the interior to the coastal ports of Karachi, Bombay, Madras, and Calcutta. Shaded regions: wheat in Punjab, cotton in the Deccan, jute in Bengal, tea in Assam. Arrows from the ports point toward Britain.]RailwayPort cityInland cityWheatCottonJuteTea
+Schematic map created for practice. Simplified, not to scale.
+
+--- Part A (Identify) ---
+Q: Identify the spatial pattern of the railway network shown on the map.
+MODEL ANSWER: The railway lines run from the interior of India and converge on a few coastal port cities, such as Bombay and Calcutta.
+RUBRIC: Lines link the interior to coastal ports / Lines converge on a few major cities (e.g., Bombay, Calcutta)
+MINI-LESSON (Reading spatial patterns):
+ - Geographers describe where things are and how they're arranged: clustered, spread out, in a line, or pointing toward one place.
+ - When many lines meet at one spot, they converge. That spot is usually important, like a port or a capital.
+ - On this map, ask: do the rails connect interior cities to EACH OTHER, or do they mostly run toward the coast?
+KEY WORDS: Spatial pattern = How things are arranged across space.; Converge = Come together at one point.; Interior = Land far from the coast.
+QUICK CHECK: When many rail lines meet at one place, geographers say the lines… → converge (Converge means come together. On this map, the lines converge on coastal ports.)
+
+--- Part B (Describe) ---
+Q: Describe how the pattern of the railway network reflects Great Britain's economic goals in colonial India.
+MODEL ANSWER: T1- The railway pattern reflects Britain's goal of extracting raw materials from India. E2- The lines mostly run from crop-growing regions in the interior, like cotton in the Deccan and jute in Bengal, to the ports of Bombay and Calcutta. A3- This let raw materials move quickly to ships bound for factories in Britain, which is exactly what a colonial economy was built to do.
+RUBRIC: Names the goal: extracting raw materials or cash crops for Britain / Links the rail pattern to moving goods from the interior to ports for export
+MINI-LESSON (Colonies as raw-material suppliers):
+ - During the Industrial Revolution, British factories needed huge amounts of raw materials, like cotton for cloth mills.
+ - Colonies like India supplied those raw materials cheaply and bought back finished British goods.
+ - Colonial infrastructure was often built to move resources OUT, from farms to ports, rather than to connect local towns.
+KEY WORDS: Raw material = An unprocessed resource (cotton, jute, wheat) used to make products.; Extraction = Taking resources out of a place to use elsewhere.; Export = Goods shipped out to another country.
+QUICK CHECK: Why did British factories need colonies like India? → For cheap raw materials like cotton (Colonies supplied raw materials; Britain made the finished goods.)
+
+--- Part C (Explain) ---
+Q: Explain how colonial rule contributed to the growth of port cities such as Bombay and Calcutta.
+MODEL ANSWER: T1- Colonial rule made Bombay and Calcutta grow because they became the gateways between India and Britain. E2- The rail lines ended there, so these cities handled the exports leaving India and the British goods arriving, which concentrated jobs in shipping, warehouses, banking, and government. A3- Those jobs pulled in rural migrants, and more people brought more businesses, so they became some of South Asia's largest cities.
+RUBRIC: Names a colonial function: export/trade hub, rail terminus, or administrative center / Explains growth through jobs, investment, or migration
+MINI-LESSON (How colonial port cities grew):
+ - Every railway on the map ends at a port, so goods and money funneled through a few cities.
+ - Moving goods takes workers: dockworkers, clerks, bankers, merchants, and railway staff.
+ - Jobs attract rural-to-urban migrants, and more people bring more businesses, so the city snowballs.
+ - Calcutta was also the capital of British India until 1911, so government jobs clustered there too.
+KEY WORDS: Rural-to-urban migration = Moving from the countryside to a city, usually for jobs.; Break-of-bulk point = A place where goods switch transport types (train → ship).
+QUICK CHECK: What usually pulls rural migrants into a growing port city? → Jobs in trade and shipping (Jobs are the main pull factor, and ports created lots of them.)
+
+--- Part D (Explain) ---
+Q: Explain ONE way the colonial emphasis on export cash crops affected rural communities in South Asia.
+MODEL ANSWER: T1- The colonial push for export cash crops made rural families more vulnerable to hunger. E2- Farmers were pressured to grow cotton and jute instead of food crops, so less land produced food and families depended on world prices they couldn't control. A3- Because of this, when prices fell or a drought hit, people couldn't afford food, and drought years turned into deadly famines.
+RUBRIC: Names an effect: less food grown, famine, debt, poverty, or dependence on world prices / Explains the cause-and-effect link to cash-crop farming
+MINI-LESSON (Cash crops vs. food crops):
+ - Subsistence farmers grow food for their own families. Cash-crop farmers grow crops to sell.
+ - When land switches from rice or millet to cotton or jute, families have to BUY food with their crop money.
+ - If world prices drop or a drought hits, they can't afford food. Famines in late-1800s British India killed millions.
+ - Many farmers also borrowed for seed and taxes, which trapped them in debt.
+KEY WORDS: Cash crop = A crop grown to sell, often for export.; Subsistence agriculture = Farming to feed your own family, not to sell.
+QUICK CHECK: A cash crop is grown mainly to… → sell, often for export (Cash crops are for selling. Food for the family is subsistence farming.)
+
+--- Part E (Describe) ---
+Q: Describe how the economic relationship shown on the map illustrates Wallerstein's world-system theory.
+MODEL ANSWER: T1- In world-system theory, Britain was the core and India the periphery. E2- The map shows India sending low-value raw materials like cotton and jute to ports for export to Britain. A3- Britain turned those materials into manufactured goods and kept the higher profits and industrial jobs, which is how the core grows wealthy from the periphery.
+RUBRIC: Places Britain as the core and India as the periphery / Describes the flow: raw materials out to the core, manufactured goods or profits kept by the core
+MINI-LESSON (World-system theory in 60 seconds):
+ - Wallerstein said the world economy is one connected system with three tiers.
+ - Core: rich, industrial countries that make high-value goods (colonial Britain).
+ - Periphery: poorer places that supply raw materials and cheap labor (colonial India).
+ - Wealth flows toward the core, because turning raw materials into products is where the money is made.
+KEY WORDS: Core = Wealthy, industrial, high-skill economies.; Periphery = Poorer economies supplying raw materials and low-wage labor.; Semi-periphery = In-between countries with some industry.
+QUICK CHECK: In world-system theory, colonial India was part of the… → periphery (The periphery supplies raw materials; the core (Britain) made the high-value goods.)
+
+--- Part F (Explain) ---
+Q: Explain ONE way the colonial transportation network continues to affect patterns of economic development in South Asia today.
+MODEL ANSWER: T1- The colonial transportation network still concentrates development in the old port cities. E2- Because colonial railways tied the economy to a few ports, cities like Mumbai and Kolkata got a head start in infrastructure, industry, and finance. A3- That infrastructure keeps attracting new businesses and migrants (cumulative causation), so development is still uneven, with many interior rural regions lagging behind.
+RUBRIC: Names a present-day pattern: old ports remain top economic hubs, or coast/interior development is uneven / Explains why: existing infrastructure keeps attracting investment, industry, and migrants
+MINI-LESSON (Colonial legacy & cumulative causation):
+ - Mumbai (old Bombay) is India's financial center today, and Kolkata, Chennai, and Karachi are still major hubs.
+ - Places that got railways, ports, and businesses early had a head start, and that advantage tends to grow.
+ - Geographers call this cumulative causation: investment attracts more investment.
+ - Interior rural regions with fewer old connections often lag behind. That's uneven development.
+KEY WORDS: Uneven development = Some regions develop much faster than others.; Cumulative causation = Growth in a place attracts more growth (a snowball).
+QUICK CHECK: Cumulative causation means… → places that grow early attract even more growth (It's a snowball: investment attracts more investment.)
+
+--- Part G (Explain) ---
+Q: Explain ONE limitation of using this map to understand how colonialism affected people in South Asia.
+MODEL ANSWER: T1- One limitation is that the map shows infrastructure, not people. E2- It has no data on incomes, famine deaths, literacy, or how Indians experienced colonial rule. A3- Because of that, it can't show who actually benefited or was harmed by the railways, so by itself it can't measure colonialism's human impact.
+RUBRIC: States a specific limit (no data on people, incomes, deaths, or experiences; a single time period; one scale) / Explains why that prevents fully understanding colonialism's effects
+MINI-LESSON (How to write a limitation):
+ - A limitation is something a source can't show that you'd need to fully answer a question.
+ - Check three things: WHAT data is missing, WHEN (one year or many?), and at what SCALE.
+ - This map shows railways and crops, but nothing about people: wages, famine deaths, literacy, or how people felt.
+ - Always finish with WHY the gap matters: what conclusion can't you reach?
+KEY WORDS: Limitation = What a source can't show or prove.; Scale = The level of analysis: local, national, global.
+QUICK CHECK: Which is a real LIMITATION of this map? → It shows no data about people's lives (A limitation is information the source is missing, like data about people.)
+
+BACKGROUND POP-OUTS:
+• Cash crops & plantations
+   - A cash crop is grown to sell, often for export, rather than to feed the farmer's own family.
+   - Colonial powers pushed colonies to specialize in a few crops their home factories needed, like cotton, jute (for sacks and rope), and tea.
+   - Plantations are large estates that grow one crop for export, often with cheap or forced labor. British-owned tea estates in Assam are an example.
+   - Depending on one or two exports leaves a region exposed to world prices it can't control.
+• Colonial port cities
+   - Colonizers built port cities as gateways, where raw materials left the colony and manufactured goods came in.
+   - Bombay (Mumbai), Calcutta (Kolkata), and Madras (Chennai) grew from small trading posts into major cities under British rule.
+   - Calcutta was the capital of British India until 1911, when the capital moved to Delhi.
+   - Many former colonies still have a primate city, one city far larger than all the others, that began as a colonial port.
+• Famines in colonial India
+   - Several deadly famines struck British India in the late 1800s. The Great Famine of 1876–78 alone killed millions of people.
+   - Droughts caused the crop failures, but colonial policy made them worse: grain kept being exported, and relief was limited.
+   - Farmers who grew cash crops had little stored food. They depended on wages and market prices to buy it.
+   - Historians point to these famines as evidence that colonial economic choices shaped life-and-death outcomes.
+• Wallerstein's world-system theory
+   - Immanuel Wallerstein divided the world economy into the core, the semi-periphery, and the periphery.
+   - Core countries are wealthy and industrialized, and they make high-value goods.
+   - Periphery countries supply raw materials and cheap labor, and they earn far less.
+   - Colonialism helped build this pattern by locking colonies into shipping raw materials to the core.
+   - The theory's big idea: countries are linked, and the core's wealth depends partly on the periphery.
+• Uneven development
+   - Development is rarely spread evenly inside a country.
+   - Places that get early investment, such as ports, railways, and factories, attract more businesses and workers, which attracts even more investment.
+   - Geographers call this snowball effect cumulative causation.
+   - The result is a core region that keeps growing while peripheral regions fall behind, and the gap can last for generations.
+
+======================================================================
+Unit 7 · The Factory Floor (Practice FRQ · No stimulus)
+======================================================================
+STIMULUS: (no stimulus)
+Every factory sits where it does for a reason: close to its raw materials, its customers, or cheap workers. When those costs change, whole industries move, and the places they leave behind have to find a new way to make a living.
+
+
+--- Part A (Identify) ---
+Q: Identify ONE of the three location factors in Alfred Weber's least-cost theory of industrial location.
+MODEL ANSWER: Transportation costs: the cost of moving raw materials to the factory and finished products to the market.
+RUBRIC: Transportation costs / Labor costs / Agglomeration
+MINI-LESSON (Weber's least-cost theory):
+ - Alfred Weber said in 1909 that a factory locates where its total costs are lowest.
+ - Transportation (moving raw materials in and goods out) usually matters most, but much cheaper labor elsewhere can pull a factory away.
+ - Agglomeration means firms save money by clustering near similar firms, like tech companies in Silicon Valley.
+KEY WORDS: Least-cost theory = Weber's idea that factories locate where their total costs are lowest.; Agglomeration = The clustering of similar businesses in one area so they can share resources and save money.
+QUICK CHECK: Which is one of the three factors in Weber's least-cost theory? → Agglomeration (Weber's three factors are transportation, labor, and agglomeration.)
+
+--- Part B (Describe) ---
+Q: Describe why a bulk-reducing (weight-losing) industry, such as copper smelting, usually locates near its source of raw materials.
+MODEL ANSWER: T1- A bulk-reducing industry locates near its raw materials because its finished product weighs much less than its inputs. E2- Copper ore is usually about 1 percent copper or less, so mills and smelters near mines in places like Arizona and Chile remove tons of waste rock to get a little metal. A3- Processing near the mine means only the lighter copper gets shipped, not heavy waste rock, which keeps transportation costs low.
+RUBRIC: Says the finished product weighs less than the raw materials, because waste is removed / Describes the payoff: processing near the mine cuts transportation (shipping) costs
+MINI-LESSON (Bulk-reducing vs. bulk-gaining):
+ - A bulk-reducing industry makes a product that weighs less than its raw materials, so it locates near them. Copper ore is about 1 percent copper or less.
+ - A bulk-gaining industry does the opposite: soft-drink bottlers add water, so they locate near customers (the market).
+ - Either way, the goal is to keep transportation costs low.
+KEY WORDS: Bulk-reducing industry = An industry whose final product weighs less than its inputs, so it locates near raw materials.; Bulk-gaining industry = An industry whose final product weighs more than its inputs, so it locates near the market.
+QUICK CHECK: Which industry is bulk-GAINING and usually locates near its market? → Soft-drink bottling (Bottlers add water, making the product heavier, so they locate near customers.)
+
+--- Part C (Explain) ---
+Q: Explain ONE reason the Industrial Revolution began in Great Britain in the 1700s.
+MODEL ANSWER: T1- One reason the Industrial Revolution began in Great Britain is that it had large deposits of coal and iron ore. E2- Coal fueled the steam engines James Watt improved in the 1760s and 1770s, iron built the machines, and canals like the Bridgewater Canal (1761) moved coal cheaply to Manchester. A3- Because fuel and metal were cheap and close by, British owners could build steam-powered factories before any other country.
+RUBRIC: Names a reason: coal, iron, capital, colonies, rivers/canals, workers, inventions, or political stability / Explains how it helped industry start: powered machines, paid for factories, or moved goods cheaply
+MINI-LESSON (Why Britain went first):
+ - Britain had coal and iron ore: coal fueled steam engines and iron built the machines.
+ - Colonies and trade supplied raw cotton, profits to invest (capital), and markets; rivers and canals made shipping cheap.
+ - The Agricultural Revolution pushed rural workers off the land and into factory jobs.
+KEY WORDS: Industrial Revolution = The shift from making goods by hand to making them with machines and new power sources like steam.; Capital = Money saved up and invested to build businesses, like factories and machines.
+QUICK CHECK: Which advantage helped Britain industrialize first? → Large deposits of coal and iron ore (Coal powered steam engines and iron built machines. Oil and electricity came later.)
+
+--- Part D (Explain) ---
+Q: Explain ONE cause of deindustrialization in the Rust Belt of the United States since the 1970s.
+MODEL ANSWER: T1- One cause of deindustrialization in the Rust Belt is offshoring: companies moved factory work to countries where labor costs much less. E2- After NAFTA (1994) and China's entry into the World Trade Organization (2001), many makers of auto parts and appliances opened plants in Mexico and China, where wages were far lower than in Ohio or Michigan. A3- Because the same products could be made more cheaply abroad, companies closed or shrank Rust Belt plants, which led to the loss of hundreds of thousands of factory jobs.
+RUBRIC: Names a cause: automation, offshoring to lower-wage countries, or foreign competition / Explains how it cut Rust Belt jobs: lower costs elsewhere, fewer workers needed, plants closed or moved
+MINI-LESSON (Why the factory jobs left):
+ - Automation: robots do many factory tasks, so U.S. factories make far more than in 1980 with millions fewer workers.
+ - Offshoring: companies moved production to lower-wage countries, like Mexico after NAFTA (1994) and China after it joined the WTO (2001).
+ - Global competition: in the 1970s and 1980s, Japanese cars and cheaper foreign steel took customers from U.S. automakers and mills.
+KEY WORDS: Deindustrialization = The loss of manufacturing jobs and factories in a region.; Automation = Using machines, robots, and computers to do work people used to do.; Offshoring = Moving production or other work to another country.
+QUICK CHECK: Replacing assembly-line workers with robots is an example of… → automation (Automation means machines do work people used to do, so plants need fewer workers.)
+
+--- Part E (Explain) ---
+Q: Using ONE real Rust Belt city as an example, explain ONE economic or social effect of deindustrialization on that city.
+MODEL ANSWER: T1- One effect of deindustrialization on Detroit, Michigan, was a huge loss of population, which shrank the city's tax base. E2- As auto plants closed or moved away, workers lost their jobs and left: Detroit fell from about 1.85 million people in 1950 to about 640,000 in 2020, leaving tens of thousands of houses vacant. A3- Because far fewer people and businesses paid taxes, the city struggled to pay for streetlights and police, which helped push Detroit into bankruptcy in 2013.
+RUBRIC: Names an effect: job loss, population loss, a shrinking tax base, vacant buildings, or a shift to service jobs / Uses a real Rust Belt city as the example / Explains how losing factories caused the effect
+MINI-LESSON (After the factories close):
+ - Economic effects: unemployment and a shrinking tax base, so the city has less money for schools, police, and streetlights.
+ - Social effects: people move away, leaving vacant houses, polluted old factory sites (brownfields), and higher poverty. Youngstown, Ohio, shrank from about 170,000 people in 1950 to about 60,000.
+ - Some cities reinvent themselves: Pittsburgh replaced steel jobs with service and quaternary jobs in hospitals, universities, and tech.
+KEY WORDS: Tax base = The people and businesses in a place that pay taxes to fund local services.; Brownfield = An abandoned industrial site that may be polluted and needs cleanup before reuse.
+QUICK CHECK: Which auto-industry city lost about two-thirds of its population after 1950? → Detroit, Michigan (Detroit, the Motor City, shrank from about 1.85 million people in 1950 to about 640,000 in 2020.)
+
+--- Part F (Explain) ---
+Q: Explain how microloans can promote economic development, especially for women in developing countries.
+MODEL ANSWER: T1- Microloans promote development by lending small amounts to poor people, especially women, who are shut out of regular banks because they have no collateral. E2- Bangladesh's Grameen Bank lends mostly to women, who use the money to buy a milk cow, a sewing machine, or a mobile phone to rent to neighbors, then repay from their sales. A3- Because she now earns her own income, a borrower can spend more on her children's food, health, and schooling and gains a bigger voice in family decisions, which reduces poverty and empowers women.
+RUBRIC: Says what microloans do: small loans that let poor women shut out of banks start small businesses / Explains the payoff: income for her family, children's schooling and health, or empowerment
+MINI-LESSON (Microloans: small money, big change):
+ - Banks usually want collateral (property they can take if you don't pay), and poor women often own little or none. A microloan skips that.
+ - Grameen Bank in Bangladesh lends mostly to women (about 97 percent of borrowers); it and its founder, Muhammad Yunus, won the 2006 Nobel Peace Prize.
+ - Women tend to spend earnings on their children's food, health, and schooling, so the benefits reach the next generation.
+KEY WORDS: Microloan (microcredit) = A very small loan to start or grow a tiny business.; Collateral = Property a borrower promises to give up if the loan isn't repaid.; Empowerment = Gaining more control over your own life and choices.
+QUICK CHECK: Grameen Bank, a pioneer of microloans to women, was founded in which country? → Bangladesh (Muhammad Yunus started Grameen Bank in Bangladesh; about 97 percent of its borrowers are women.)
+
+--- Part G (Explain) ---
+Q: Explain ONE way ecotourism can support sustainable development, and explain ONE drawback of ecotourism.
+MODEL ANSWER: T1- Ecotourism can support sustainable development because it turns protecting nature into a source of jobs and income. E2- Costa Rica protects about a quarter of its land in parks and reserves, and tourists pay to see its cloud forests, creating jobs for local guides and lodge owners; in Rwanda, visitors pay $1,500 each to see mountain gorillas. A3- Because living forests and gorillas earn money year after year, locals have a reason to protect them for future generations; however, one drawback is that heavy tourism can damage the places visitors come to see: crowds trample trails, disturb wildlife, and lodges and roads clear forest, so if visitor numbers aren't limited, ecotourism can destroy the nature that earns the money.
+RUBRIC: Explains how ecotourism brings money or jobs from visitors who come to see nature / Connects it to sustainability: gives people a reason to protect nature for the future / Explains a drawback: crowds damage nature, travel pollution, or profits leaving the community
+MINI-LESSON (Ecotourism and sustainability):
+ - Sustainable development balances the economy, society, and the environment so future generations can meet their needs too.
+ - Costa Rica's forests have grown back from about a fifth of the country in the 1980s to about half today, helped by tourism money.
+ - Drawbacks: too many visitors can damage fragile places, flights add carbon emissions, and profits may leak to foreign-owned companies.
+KEY WORDS: Sustainable development = Development that meets today's needs without harming future generations' ability to meet theirs.; Ecotourism = Tourism based on visiting nature in a way that protects it and helps local communities.
+QUICK CHECK: Which BEST describes sustainable development? → Meeting today's needs without harming future generations' ability to meet theirs (It balances the economy, society, and the environment, now and for the future.)
+
+BACKGROUND POP-OUTS:
+• Weber's least-cost theory
+   - Alfred Weber's least-cost theory (1909) says a factory locates where its total costs are lowest.
+   - His three factors: transportation (moving raw materials in and products out), labor (wages), and agglomeration (savings from clustering near similar firms).
+   - Transportation usually matters most. Weber drew it as a triangle between two raw-material sources and one market.
+• Bulk-reducing, bulk-gaining & break-of-bulk
+   - A bulk-reducing (weight-losing) industry makes a product lighter than its inputs, so it locates near its raw materials, like copper smelting.
+   - A bulk-gaining industry makes a product heavier, so it locates near its market, like soft-drink bottling, which adds water.
+   - A break-of-bulk point, like a seaport, is where goods switch from one kind of transportation to another. Factories locate there to avoid loading and unloading twice.
+• The Industrial Revolution
+   - The Industrial Revolution, the shift from hand tools to machines powered by water and steam, began in Great Britain in the late 1700s.
+   - Britain had coal and iron, capital from trade and colonies, rivers and canals, and workers pushed off farms by the Agricultural Revolution.
+   - It spread to Western Europe and the U.S. in the early 1800s, Japan after 1868, and after World War II to newly industrialized countries like South Korea, then China.
+• Deindustrialization & the Rust Belt
+   - Deindustrialization is the loss of factory jobs in a region that once depended on them, like the U.S. Rust Belt around the Great Lakes.
+   - U.S. factory jobs peaked at about 19.5 million in 1979, then fell by about a third because of automation, offshoring, and foreign competition.
+   - Some Rust Belt cities, like Pittsburgh, shifted to service and quaternary jobs in hospitals, universities, and tech.
+• The new international division of labor
+   - The new international division of labor (NIDL) splits the steps of making one product among different countries.
+   - Design, research, and marketing usually stay in wealthy core countries, while assembly moves to lower-wage countries.
+   - Nike designs shoes in Oregon but has them made in Vietnam, Indonesia, and China, through outsourcing (hiring other companies) and offshoring (moving work abroad).
+• Microloans
+   - A microloan is a very small loan, often a few hundred dollars or less, for people too poor to borrow from regular banks.
+   - Muhammad Yunus founded Grameen Bank in Bangladesh in 1983. About 97 percent of its borrowers are women, and he and the bank won the 2006 Nobel Peace Prize.
+   - Critics warn about high interest rates and tiny businesses that never grow, so microloans can't end poverty alone.
+• Ecotourism
+   - Ecotourism is travel to natural areas that aims to protect the environment and benefit local people.
+   - Costa Rica protects about a quarter of its land in parks and reserves. Rwanda charges $1,500 for a mountain gorilla permit and shares park revenue with nearby villages.
+   - Drawbacks: crowds damage fragile places, flights add carbon emissions, and profits can leak away to foreign-owned companies.
+• The UN Sustainable Development Goals
+   - Sustainable development means meeting today's needs without harming future generations' ability to meet theirs.
+   - In 2015, UN members adopted 17 Sustainable Development Goals (SDGs) for 2030, like no poverty (Goal 1), gender equality (Goal 5), decent work (Goal 8), and life on land (Goal 15).
+   - Microloans to women support Goals 1 and 5; well-run ecotourism supports Goals 8 and 15.
+
+======================================================================
+Unit 7 · Measuring Up (Practice FRQ · Data table)
+======================================================================
+STIMULUS: Selected Development Indicators for Four Countries, 2023
+Geographers use many indicators to measure development, because no single number tells the whole story. The table shows six indicators for four countries.
+Country | GNI per capita (PPP, US$) | HDI (0–1) | Gender Inequality Index (0–1, lower is better) | Workers in agriculture (%) | Workers in services (%) | Exports from one commodity (%) | 
+
+Ardena | 48,200 | 0.93 | 0.08 | 2 | 78 | 9 (machinery) | 
+Kovar | 14,100 | 0.76 | 0.35 | 18 | 55 | 20 (electronics) | 
+
+Sulmani | 2,100 | 0.49 | 0.58 | 62 | 25 | 15 (coffee) | 
+Tessar | 31,400 | 0.74 | 0.50 | 6 | 60 | 85 (petroleum) | 
+
+Note: The countries and data are invented for practice. Remember the class directions: label each part, and write Describe and Explain parts as T1- (your reason in general words), E2- (the specific proof), A3- (why it matters).
+
+--- Part A (Identify) ---
+Q: Identify the country in the table that is most likely in Rostow's stage of high mass consumption.
+MODEL ANSWER: Ardena.
+RUBRIC: Ardena
+MINI-LESSON (Rostow's top stage):
+ - Rostow's model has five stages, from traditional society (mostly farming) to high mass consumption (mostly services and shopping).
+ - In high mass consumption, GNI per capita and HDI are very high, under 5% of workers farm, and most workers are in services.
+ - Ardena fits: $48,200 per person, HDI 0.93, 2% in agriculture, 78% in services.
+ - Tessar has a high income too, but 85% of its exports are one raw commodity, which is not what a mature, diversified economy looks like.
+KEY WORDS: High mass consumption = Rostow's fifth stage: a wealthy, service-based economy.; Tertiary sector = Service jobs: stores, schools, hospitals, offices.
+QUICK CHECK: Rostow's stage of high mass consumption is marked by… → most workers in services and high spending on consumer goods (It's the top stage: a rich, service-based economy where people buy cars, electronics, and vacations.)
+
+--- Part B (Describe) ---
+Q: Using the table, describe the relationship between the percent of workers in agriculture and the Human Development Index (HDI).
+MODEL ANSWER: T1- The table shows an inverse relationship: the higher the percent of workers in agriculture, the lower the HDI. E2- Sulmani has 62% of its workers in agriculture and the lowest HDI (0.49), while Ardena has only 2% in agriculture and the highest HDI (0.93). A3- This fits the idea that as countries develop, workers shift out of farming into factories and services, which raises incomes, education, and life expectancy.
+RUBRIC: States the direction: higher percent in agriculture goes with lower HDI (inverse/negative relationship) / Uses the table as proof: names countries or quotes numbers (e.g., Sulmani 62% / 0.49 vs. Ardena 2% / 0.93)
+MINI-LESSON (Reading a relationship in a table):
+ - Two columns have a relationship if one changes in a predictable way when the other changes.
+ - Positive (direct): both go up together. Inverse (negative): one goes up while the other goes down.
+ - Here, more farm workers means a lower HDI, so the relationship is inverse.
+ - To prove it, quote two rows: Sulmani (62% agriculture, HDI 0.49) and Ardena (2%, HDI 0.93).
+ - Note the exception: Tessar has few farmers (6%) but a middling HDI (0.74). Real data is rarely perfect, and exceptions are great material for later parts.
+KEY WORDS: Inverse relationship = One number goes up while the other goes down.; Primary sector = Jobs that take things from the earth: farming, fishing, mining.
+QUICK CHECK: If one number goes UP while the other goes DOWN, the relationship is… → inverse (negative) (Inverse means opposite directions, like agriculture and HDI in this table.)
+
+--- Part C (Explain) ---
+Q: Using the table, explain why a country can have a high GNI per capita but a lower HDI than its income would predict.
+MODEL ANSWER: T1- A country can have a high GNI per capita but a lower HDI when its wealth is concentrated in a few hands and not spent on people. E2- Tessar earns $31,400 per person on paper, but 85% of its exports are petroleum, so the money flows to the government and a small elite rather than into schools and hospitals; its high Gender Inequality Index (0.50) shows that women in particular are left out. A3- Because HDI also measures education and life expectancy, not just income, a country that does not invest its oil money in health and schooling scores lower than its GNI alone would predict.
+RUBRIC: Names a reason: wealth is concentrated or unequal, money comes from one resource (oil), low spending or corruption, or gender inequality / Explains the link to HDI: money doesn't reach education, health, or life expectancy for most people
+MINI-LESSON (When income and HDI disagree):
+ - GNI per capita divides a country's total income by its population, so a few very rich people can pull the average up.
+ - HDI has three parts: income, years of schooling, and life expectancy. Income is only one third of the score.
+ - Oil-rich countries such as Equatorial Guinea have had a GNI per capita far higher than their HDI would suggest, because oil money went to a small elite.
+ - A high Gender Inequality Index is a clue: when women are kept out of school and work, half the population's health and education lag behind.
+ - So when GNI is high but HDI is low, look for concentrated wealth and low spending on people.
+KEY WORDS: GNI per capita = A country's total income divided by its population: an average, not what each person gets.; HDI = Human Development Index: income + schooling + life expectancy, scored 0 to 1.
+QUICK CHECK: Which of these is NOT one of the three parts of HDI? → Exports per person (HDI combines income, education, and life expectancy. Exports aren't part of it.)
+
+--- Part D (Explain) ---
+Q: Explain ONE way a high Gender Inequality Index can slow a country's economic development.
+MODEL ANSWER: T1- A high Gender Inequality Index slows development because it keeps half the population from fully contributing to the economy. E2- In Sulmani (GII 0.58), many girls leave school early to marry, and few women hold paid jobs or can get loans to start businesses. A3- Because educated, working women earn income, have fewer and healthier children, and start businesses, shutting them out shrinks the workforce and the country's skills, so the economy grows more slowly than it could.
+RUBRIC: Names a specific barrier women face: schooling, paid jobs, loans/credit, property, political power, health, early marriage or childbirth / Explains the effect on the economy: fewer workers or skills, less produced, lower incomes, slower growth
+MINI-LESSON (Why women's status drives development):
+ - The Gender Inequality Index measures gaps between women and men in health, schooling, political power, and paid work. Lower is better.
+ - When girls stay in school, they marry later, have fewer and healthier children, and earn more as adults.
+ - When women can get loans, they start small businesses. Grameen Bank in Bangladesh pioneered microloans to women in the 1980s for exactly this reason.
+ - Economists estimate that closing the gender gap in work would add trillions of dollars to the world economy.
+ - So a high GII isn't just unfair; it means a country is wasting half its brainpower and labor.
+KEY WORDS: Gender Inequality Index = A 0-to-1 UN score of the gap between women and men; lower is better.; Microloan = A very small loan, often to a woman, to start or grow a tiny business.
+QUICK CHECK: A LOWER Gender Inequality Index means… → women and men are closer to equal (On the GII, 0 is full equality, so lower is better.)
+
+--- Part E (Explain) ---
+Q: Explain ONE economic risk for a country whose exports depend heavily on a single commodity.
+MODEL ANSWER: T1- Depending on one commodity is risky because the whole economy rises and falls with that product's world price, which the country cannot control. E2- Tessar gets 85% of its export earnings from petroleum, so if oil prices crash, as they did from over $100 a barrel in 2014 to under $30 in 2016, government revenue and jobs collapse at the same time. A3- Because the country has few other exports to fall back on, a price shock can lead to budget cuts, debt, and unemployment, which is one part of what geographers call the resource curse: resource-rich countries often end up less stable and less developed than expected.
+RUBRIC: Names a risk: price shock or volatility, running out of the resource, falling demand, or the resource curse / Explains the effect on the country: lost income or revenue, budget cuts, debt, unemployment, recession
+MINI-LESSON (Putting all your eggs in one basket):
+ - A commodity is a raw product sold at a world price: oil, copper, coffee, cocoa.
+ - Commodity prices swing wildly. Oil went from over $100 a barrel in 2014 to under $30 in early 2016, and briefly collapsed again in 2020.
+ - When 85% of exports are one product, a price crash cuts export income, government revenue, and jobs all at once.
+ - Nigeria and Venezuela, both heavily dependent on oil, fell into deep recessions when prices dropped.
+ - Geographers call this pattern the resource curse: rich in a resource, but poorer and less stable because of it.
+KEY WORDS: Commodity = A raw product sold in bulk at a world price.; Resource curse = When depending on one valuable resource leaves a country unstable and underdeveloped.
+QUICK CHECK: A sudden drop in the world price of a country's main export is called a… → price shock (A price shock is a sudden swing in a commodity's price, and it hits one-product economies hardest.)
+
+--- Part F (Explain) ---
+Q: Explain how a special economic zone (SEZ) or export processing zone could help Sulmani move toward Rostow's take-off stage, AND identify one potential downside.
+MODEL ANSWER: T1- A special economic zone could help Sulmani start to industrialize by attracting foreign factories. E2- Inside the zone, the government offers low taxes, no tariffs on imported parts, and ready-built roads and power, so multinational companies open clothing or electronics plants that hire workers leaving farms, much as the Shenzhen SEZ turned a fishing town into a manufacturing giant. A3- Those factories create a new leading sector, export earnings, and job skills that can push Sulmani from Rostow's traditional stage toward take-off; however, the downside is that wages are often low and labor and environmental rules are weak, and if the tax breaks end the companies may simply move to a cheaper country.
+RUBRIC: Explains what the SEZ offers or attracts: tax breaks, no tariffs, foreign investment, factories, jobs, exports, technology / Connects it to take-off or industrial growth: moving workers out of farming, a new leading industry, faster growth / Identifies a downside: low wages, exploitation, pollution, weak protections, lost tax revenue, companies leaving, dependence on foreign firms
+MINI-LESSON (SEZs: a shortcut to take-off?):
+ - A special economic zone is an area with special rules to attract foreign factories: low taxes, no tariffs on imported parts, less red tape, and good roads, ports, and power.
+ - Export processing zones are SEZs focused on assembling goods for export, like Mexico's maquiladoras near the U.S. border.
+ - China opened Shenzhen as its first SEZ in 1980; it grew from about 30,000 people to over 17 million and helped launch China's industrial take-off.
+ - For a farming country like Sulmani, factories pull workers out of agriculture into the secondary sector, bring export income, and teach new skills, which is what Rostow's take-off needs.
+ - But SEZs can mean low wages, long hours, pollution, little tax revenue for the host country, and factories that leave when a cheaper country offers a better deal.
+KEY WORDS: Special economic zone = An area with lower taxes and looser rules to attract foreign factories.; Take-off = Rostow's stage when a few industries grow fast and the economy starts to industrialize.; Export processing zone = An SEZ where factories assemble goods mainly for export.
+QUICK CHECK: Which is a typical feature of a special economic zone? → Lower taxes and tariffs to attract foreign factories (SEZs relax the normal rules (taxes, tariffs, paperwork) so that foreign firms will build factories there.)
+
+--- Part G (Explain) ---
+Q: Explain ONE limitation of using the data in the table to compare the quality of life of people in these four countries.
+MODEL ANSWER: T1- One limitation is that every number in the table is a national average for a single year, which hides differences between groups inside each country. E2- For example, Tessar's $31,400 GNI per capita is an average: a small oil elite in the capital may be extremely rich while rural families and women (GII 0.50) live on far less, and Kovar's 55% service workers may be concentrated in a few big cities. A3- Because the averages flatten the gaps between rich and poor regions, genders, and the formal and informal economy, two countries with similar numbers could offer very different lives, so you would need data at a smaller scale to compare quality of life fairly.
+RUBRIC: Names a limitation: national averages hide regional/urban-rural/gender/rich-poor gaps, informal economy not counted, only one year, PPP issues, or quality of life factors not measured / Explains why it misleads, ideally with an example from the table
+MINI-LESSON (What averages hide):
+ - GNI per capita, HDI, and the other indicators here are national averages: one number for a whole country, for one year.
+ - Averages hide gaps. A country can have a wealthy capital city and desperately poor rural regions and still show a middling average.
+ - They also miss the informal economy: farming for your own family, street vending, and unpaid work at home don't show up in GNI.
+ - Quality of life also includes things no column here measures: safety, clean air, political freedom, and happiness.
+ - Geographers fix this by changing scale: compare regions, cities, or genders instead of whole countries, and look at more than one year.
+KEY WORDS: National average = One number for a whole country, which can hide big differences inside it.; Informal economy = Work that isn't officially recorded or taxed, so it's missing from GNI.; Scale = The level you're looking at: global, national, regional, or local.
+QUICK CHECK: A country's GNI per capita is $31,400. What does that tell you about a typical rural family there? → Not much; it's a national average that can hide big gaps (Per capita means divided by population. It's an average, and averages can hide huge differences inside a country.)
+
+BACKGROUND POP-OUTS:
+• Measures of development
+   - GNI per capita is a country's total income divided by its population. “PPP” (purchasing power parity) adjusts for the fact that a dollar buys more in some countries than in others.
+   - HDI, the Human Development Index, combines income, years of schooling, and life expectancy into one score from 0 to 1. Above 0.80 counts as “very high” development.
+   - Other common measures: literacy rate, infant mortality rate, and the share of workers in each economic sector.
+   - Income measures what a country earns; HDI measures whether that money reaches people's health and education. When the two disagree, something interesting is going on.
+• Rostow's stages of growth
+   - W. W. Rostow (1960) said every country moves through five stages: traditional society, preconditions for take-off, take-off, drive to maturity, and high mass consumption.
+   - Take-off is the big moment: a few industries grow fast, cities swell, and the country starts to industrialize.
+   - High mass consumption is the top stage: most workers are in services, and people spend on cars, electronics, and vacations.
+   - Critics say the model is based on the history of the United States and Western Europe, assumes every country can follow the same path, and ignores how colonialism and global trade can hold countries back.
+   - Wallerstein's world-system theory answers that criticism by looking at the whole world at once: a wealthy core, a semi-periphery, and a periphery that supplies raw materials and cheap labor.
+• Gender Inequality Index
+   - The Gender Inequality Index (GII) is a UN measure from 0 to 1 that compares women and men. Lower is better; 0 would mean full equality.
+   - It combines three things: reproductive health (maternal deaths and teen births), empowerment (seats in parliament and secondary schooling), and participation in the paid workforce.
+   - Countries with a high GII usually have fewer girls finishing school, fewer women in paid jobs, and more early marriages.
+   - Development experts argue that educating and employing women is one of the fastest ways to raise a country's HDI, which is why microloans to women, like those from Bangladesh's Grameen Bank, are so popular.
+• Commodity dependence
+   - A commodity is a raw product sold in bulk at a world price: oil, copper, coffee, cocoa, cotton.
+   - A country is commodity-dependent when most of its export earnings come from one or two commodities. Nigeria and Venezuela, for example, get most of theirs from oil.
+   - World prices for commodities swing wildly. Oil fell from over $100 a barrel in 2014 to under $30 in early 2016.
+   - When the price drops, the country's income, government budget, and jobs all drop at once. Some geographers call this trap the “resource curse.”
+   - The usual advice is to diversify: build manufacturing and services so that one price can't sink the whole economy.
+• Special economic zones
+   - A special economic zone (SEZ) is an area where a government relaxes its normal rules to attract foreign factories: lower taxes, fewer tariffs, less paperwork.
+   - An export processing zone (EPZ) is a type of SEZ focused on assembling goods for export. Mexico's maquiladoras along the U.S. border are a famous example.
+   - China's first SEZ, Shenzhen, grew from a fishing town of about 30,000 people in 1980 into a city of more than 17 million.
+   - Companies get cheap labor and easy exporting; the host country gets jobs, technology, and foreign investment.
+   - Downsides can include low wages, weak worker protections, pollution, and companies that leave once the tax breaks end.
+• Economic sectors
+   - Primary sector: taking things from the earth (farming, fishing, mining). Secondary: making things (factories, construction). Tertiary: services (stores, schools, hospitals, banks).
+   - Some books add quaternary (information and research) and quinary (top-level decision-making).
+   - As a country develops, workers shift from primary to secondary to tertiary. Rich countries usually have under 5% of workers in farming and over 70% in services.
+   - A big share of workers in agriculture usually signals low incomes, because farms in poor countries produce little per worker and most of it is eaten, not sold.

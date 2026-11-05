@@ -1,0 +1,384 @@
+You are an experienced AP Human Geography teacher and AP Reader. Below is the content of an online FRQ tutor for high-school students (Unit 4). Fictional countries, cities, and data are intentional. Class FRQs and "Released AP FRQ" items use College Board question wording, which must not change.
+
+Please check every statement for:
+1. Factual errors (dates, numbers, places, how models work).
+2. Wrong or non-standard AP Human Geography terms.
+3. Model answers that would NOT earn the point for that task verb, or that don't answer the question.
+4. Quick-check "correct" answers that are wrong or ambiguous, or lessons that contradict the model answer.
+5. Anything a 9th or 10th grader could misread.
+
+List ONLY problems, each with the FRQ title, part letter, the exact sentence, and a one-line fix. If everything in a part is fine, skip it.
+
+
+
+======================================================================
+Unit 4 · Lines on the Map (Class FRQ · Two maps)
+======================================================================
+STIMULUS: Map 1: Africa, Political Boundaries in 1890 · Map 2: Larger Culture Groups in West Africa
+In the 1880s, European powers began invading and occupying the interior areas of Africa, which were inhabited by a variety of diverse culture groups. By 1900, European countries had claimed nearly 90 percent of African territory and redrawn the political boundaries of Africa, many of which remain today.
+Map 1: Africa, Political Boundaries in 1890
+[MAP IMAGE: Map of Africa divided into colonial territories, each labeled with the power that controls it. A key gives the abbreviations: Br. Great Britain, Fr. France, Ind. Independent, It. Italy, Ger. Germany, Port. Portugal, Sp. Spain. North Africa: French Morocco, Rio de Oro (Sp.), Algeria (Fr.), Tunisia (Fr.), Libya (It.), Egypt (Br.). French West Africa covers most of West Africa; along its coast are Gambia (Br.), Portuguese Guinea, Sierra Leone (Br.), Liberia (Ind.), Gold Coast (Br.), Togo (Ger.), Nigeria (Br.), and Kamerun (Ger.). Central Africa: French Equatorial Africa and the large Belgian Congo, which reaches the Atlantic only through a narrow strip of coast. East Africa: Sudan (Br.), Eritrea (It.), Abyssinia (Ind.), Somaliland (Br.), Somalia (It.), Uganda (Br.), Kenya (Br.), German East Africa. Southern Africa: Angola (Port.), South West Africa (Ger.), Rhodesia (Br.), Bechuanaland (Br.), South Africa (Br.), Mozambique (Port.), and the island of Madagascar (Fr.). Many borders are long straight lines, especially across the Sahara between Algeria, Libya, Egypt, and Sudan, and around South West Africa and Bechuanaland. Gambia, the Gold Coast, and Togo are narrow strips running inland from the coast.]Source: Library of Congress
+Map 2: Larger Culture Groups in West Africa
+[MAP IMAGE: Map of West Africa from about 20°N down to the Atlantic coast, with lines at 20°N, 10°N, 10°W, and 0°. Shading patterns mark where larger culture groups live; the patterns only tell neighbors apart, and no political borders are drawn. In the far north are the Berber and Tuareg. Across the middle, west to east: Wolof and Serer near the western coast, Fulani (in two separate areas), Soninke, Malinke (two areas), Bambara, Bobo, Songhai, Mossi, Gurma, and a large Hausa area in the east. Farther south: Susu, Temne, Senufo, Lobi, Dagomba, Bargu, Nupe, and Tiv. Near the southern coast, west to east: Ngere, Kru, Anyi, Ashanti, Fanti, Ewe, Fon, Yoruba, and Igbo. The groups' edges are irregular and curving, and the groups vary greatly in size.]Note: Map 2 shows where West Africa's larger culture groups live. It does not show any political borders.
+Remember the class directions: label each part, and write every Describe and Explain part as T1- (your answer in general words) → E2- (the specific proof) → A3- (why it matters).
+
+--- Part A (Describe) ---
+Q: Describe the type of political boundaries shown in Map 1.
+MODEL ANSWER: T1- Map 1 shows mostly superimposed boundaries, and many of them are geometric. E2- European powers like Britain and France drew them as long straight lines, such as the borders that cross the Sahara between Algeria, Libya, Egypt, and Sudan. A3- Because outsiders drew these lines, they ignored the culture groups who already lived there.
+RUBRIC: Names the type: superimposed or geometric / Gives proof: who drew it, what it ignored, or a Map 1 border
+MINI-LESSON (Types of boundaries):
+ - Geometric boundaries are straight lines, often along latitude or longitude.
+ - Superimposed boundaries are drawn by an outside power on top of existing cultures, ignoring them.
+ - Most of Africa's colonial borders were both.
+KEY WORDS: Superimposed boundary = A border forced onto an area by outsiders.; Geometric boundary = A straight-line border, often along latitude or longitude.
+QUICK CHECK: A border drawn by outsiders that ignores the cultures already there is… → superimposed (Superimposed means laid on top by outsiders, like most of Africa's colonial borders.)
+
+--- Part B (Describe) ---
+Q: Describe ONE way that the European colonial boundaries shown in Map 1 differ from the African cultural boundaries shown in Map 2.
+MODEL ANSWER: T1- The colonial boundaries on Map 1 are mostly straight lines that ignore culture groups, while the cultural boundaries on Map 2 are irregular and follow where each group lives. E2- For example, the Hausa homeland on Map 2 was split between British Nigeria and French West Africa, and the Ewe between the Gold Coast and German Togo. A3- This shows that Europeans drew borders to divide land among themselves, not to match African nations.
+RUBRIC: Colonial side: straight lines that ignore or split groups / Cultural side: irregular edges that follow where groups live
+MINI-LESSON (Colonial lines vs. cultural regions):
+ - A culture region's edges are irregular because they follow where a group settled.
+ - Colonial borders divided land among European powers, so they often cut straight through culture regions.
+ - Some groups were split among colonies, like the Hausa and the Ewe, while Nigeria lumped the Hausa, Yoruba, and Igbo together.
+KEY WORDS: Culture region = An area where people share a language, customs, and identity.; Ethnic group = People who share ancestry, culture, and identity.
+QUICK CHECK: On Map 2, the edges of the culture groups are mostly… → irregular, following where each group lives (Culture regions follow people, so their edges curve. Colonial lines didn't.)
+
+--- Part C (Explain) ---
+Q: Explain ONE political outcome for present-day Africans as a result of the European colonial boundaries.
+MODEL ANSWER: T1- One political outcome is ethnic conflict and civil war inside African countries. E2- Britain's Nigeria combined the Hausa-Fulani north, the Yoruba southwest, and the Igbo southeast, and in 1967 the Igbo region tried to break away as Biafra, starting a civil war (1967–70). A3- Because the borders put peoples with different languages, religions, and histories under one government, competition for power turned violent.
+RUBRIC: Names a political outcome (civil war, separatism, border disputes) / Explains how: groups forced together or split apart
+MINI-LESSON (From borders to conflict):
+ - At independence, mostly in the 1950s and 1960s, African states kept the colonial borders, creating many multinational states.
+ - Different groups forced into one state may compete for power, leading to civil war or separatism, like Biafra (1967–70) or South Sudan (2011).
+ - Groups split across borders, like Somalis in Ethiopia and Kenya, may want to reunite, which can cause border disputes.
+KEY WORDS: Multinational state = A country that contains several nations or ethnic groups.; Separatism = A movement by a group to break away and form its own state.
+QUICK CHECK: Which is a political outcome of colonial borders in Africa? → South Sudan breaking away from Sudan in 2011 (Grouping different peoples in one state led to civil war and, in Sudan's case, a new country.)
+
+--- Part D (Describe) ---
+Q: Describe ONE way that European colonization of Africa reflected the concept of ethnocentrism.
+MODEL ANSWER: T1- European colonization reflected ethnocentrism because Europeans judged African cultures by their own standards and saw their own culture as superior. E2- At the Berlin Conference (1884–85), European leaders set the rules for dividing Africa without inviting a single African, and colonizers later pushed Christianity and European languages on Africans as a so-called “civilizing mission.” A3- This shows ethnocentrism because Europeans assumed African kingdoms and cultures didn't count.
+RUBRIC: Shows the attitude: Europeans saw their culture as superior / Gives a specific example (Berlin Conference, civilizing mission, imposed religion or language)
+MINI-LESSON (Ethnocentrism and colonization):
+ - Ethnocentrism means judging other cultures by your own culture's standards and seeing yours as superior.
+ - Many Europeans claimed they were bringing “civilization” to Africa, an idea called the civilizing mission.
+ - At the Berlin Conference (1884–85) no Africans were invited, and colonizers treated complex African kingdoms as if they didn't count.
+KEY WORDS: Ethnocentrism = Believing your own culture is superior and judging others by it.; Cultural relativism = Understanding a culture on its own terms.
+QUICK CHECK: Judging another culture by your own culture's standards is called… → ethnocentrism (Ethnocentrism puts your own culture at the center and judges others by it.)
+
+--- Part E (Explain) ---
+Q: Explain ONE way that the political boundaries shown in Map 1 illustrate a European colonial emphasis on resource extraction.
+MODEL ANSWER: T1- The boundaries on Map 1 show an emphasis on resource extraction because many colonies were drawn to include a coast or a major river for shipping raw materials out. E2- For example, the huge Belgian Congo reaches the Atlantic through a narrow strip at the mouth of the Congo River, and the Gold Coast and Togo are narrow strips running inland from the shore. A3- This let colonizers move rubber, gold, and cocoa from the interior to ports and on to Europe, instead of linking African communities to each other.
+RUBRIC: Uses Map 1: colonies drawn to include coasts, rivers, or ports / Explains extraction: moving raw materials out to Europe
+MINI-LESSON (Borders built for extraction):
+ - Colonial economies exported raw materials to Europe, so every shipment had to reach a port.
+ - On Map 1, the Gold Coast and Togo are narrow strips running inland from the coast, and Gambia is a thin strip along a river.
+ - The huge Belgian Congo reaches the ocean only through a narrow strip at the Congo River's mouth, its outlet for shipping rubber.
+KEY WORDS: Resource extraction = Taking raw materials out of a place to use or sell elsewhere.; Raw material = An unprocessed resource like rubber, gold, or cocoa.
+QUICK CHECK: Why did so many colonies include at least a stretch of coast? → To ship raw materials out through ports (Raw materials had to reach a port to be shipped to European factories.)
+
+--- Part F (Explain the degree) ---
+Q: Explain the degree to which colonization affected the languages spoken in present-day Africa.
+MODEL ANSWER: T1- Colonization affected the languages spoken in present-day Africa to a large degree, but not completely. E2- European languages are still official in many countries, like French in Senegal, English in Nigeria and Ghana, and Portuguese in Angola, where they are used in government, schools, and business. A3- They lasted partly because they are neutral in countries with many ethnic groups, but the effect isn't total: most Africans still speak African languages like Hausa, Swahili, or Amharic at home.
+RUBRIC: States a degree: great, large, moderate, or small (or “not completely”) / Proves it: official European languages, or African languages still spoken
+MINI-LESSON (Colonial languages today):
+ - Explain the degree: state HOW MUCH, prove it, then say why it isn't more (or less).
+ - European languages stayed after independence for government, schools, and business: French in Senegal, English in Nigeria, Portuguese in Angola.
+ - But most Africans still speak African languages at home, and lingua francas like Swahili and Hausa are spoken by tens of millions.
+KEY WORDS: Official language = The language a government uses for laws, courts, and schools.; Indigenous language = A language that developed in a place before colonizers arrived.
+QUICK CHECK: Which country uses Portuguese as an official language because of colonization? → Angola (Angola was a Portuguese colony (Port. on Map 1).)
+
+--- Part G (Explain) ---
+Q: Explain a possible limitation of using Map 2 to understand the geography of religion in present-day Africa.
+MODEL ANSWER: T1- One limitation is that Map 2 shows culture groups, not religions, and one culture group can include people of several faiths. E2- For example, the Yoruba include many Muslims, many Christians, and followers of traditional Yoruba religion, but Map 2 shades the whole Yoruba area the same way. A3- Because Islam and Christianity spread across culture-group lines through trade and missionaries, using Map 2 to guess religion would give a false picture of where each faith is practiced today.
+RUBRIC: States the limit: culture groups, not religions (or only West Africa) / Explains why: one group can hold several faiths, or the map misses places or change
+MINI-LESSON (Culture is not the same as religion):
+ - Map 2 shows where culture groups live: people who share a language, customs, and identity.
+ - Religion often crosses those lines: Islam spread by trade and Christianity by missionaries, reaching parts of many groups.
+ - Map 2 also covers only West Africa and has no date, so it can't show the rest of Africa or change over time.
+KEY WORDS: Universalizing religion = A religion that seeks converts everywhere, like Christianity and Islam.; Syncretism = Blending two or more religions into something new.
+QUICK CHECK: Which map would BEST show the geography of religion in Africa today? → A recent map of the main religions in each region (To study religion today, you need recent data about religion itself.)
+
+BACKGROUND POP-OUTS:
+• The Scramble for Africa & the Berlin Conference
+   - At the Berlin Conference (1884–85), European powers set the rules for claiming African land. No Africans were invited.
+   - Its “effective occupation” rule said a power had to actually control land to claim it, which helped set off the Scramble for Africa.
+   - Only Liberia and Abyssinia (Ethiopia) stayed independent. Ethiopia defeated an Italian invasion at the Battle of Adwa in 1896.
+• Superimposed & geometric boundaries
+   - A superimposed boundary is drawn by an outside power over an existing cultural landscape, like most colonial borders in Africa.
+   - A geometric boundary is a straight line, often along latitude or longitude, like Egypt and Sudan's border at 22°N.
+   - Other types: antecedent (drawn before settlement), subsequent (after settlement, often following cultural lines), and relic (no longer used but still visible).
+   - One border can be two types: a straight colonial line across the Sahara is both geometric and superimposed.
+• Ethnocentrism & the “civilizing mission”
+   - Ethnocentrism is judging other cultures by your own culture's standards and believing your own is superior.
+   - Many Europeans claimed a duty to “civilize” Africans. The French called it the mission civilisatrice, and racist theories like Social Darwinism were used to justify conquest.
+   - Colonizers often dismissed powerful African states, like the Ashanti Empire and the Sokoto Caliphate, as “primitive.”
+• Colonies built for extraction
+   - Colonial economies in Africa were built to send raw materials to Europe: Congo rubber, Gold Coast gold and cocoa, Nigerian palm oil, and South African diamonds and gold.
+   - The colony Map 1 calls the Belgian Congo began as King Leopold II's personal colony (1885–1908), where forced rubber collection led to the deaths of huge numbers of Congolese.
+   - Railways usually ran from mines and plantations straight to a port, not between African regions.
+• When borders and nations don't match
+   - A nation is a people with a shared identity; a state is an independent country. Africa's colonial borders rarely matched its nations.
+   - At independence, mostly in the 1950s and 1960s, African states kept the colonial borders, leaving many multinational states.
+   - Nigeria has more than 250 ethnic groups. In 1967 the Igbo-led southeast declared independence as Biafra, and the civil war (1967–70) killed hundreds of thousands to millions, many from starvation.
+   - Sudan's mostly Muslim north and mostly Christian and traditional-religion south fought long civil wars until South Sudan became independent in 2011.
+• Languages in Africa today
+   - Africa has about 2,000 languages, nearly a third of the world's total, and most Africans grow up speaking an African language at home.
+   - French is an official or working language in about 20 African countries, English is official in over 20, and Portuguese in six, including Angola and Mozambique.
+   - Swahili and Hausa grew as lingua francas through trade long before European rule, and Arabic spread across North Africa with Islam from the 600s.
+   - Ethiopia, never colonized except for a brief Italian occupation (1936–41), governs mainly in Amharic.
+• Religion in Africa today
+   - Christianity and Islam, both universalizing religions, are Africa's two largest faiths.
+   - Islam spread across North Africa from the 600s and into West Africa along trans-Saharan trade routes. Christianity spread most widely through European missionaries in the 1800s and 1900s.
+   - Traditional religions are still practiced, often blended with Christianity or Islam (syncretism).
+   - One culture group can hold several faiths: many Yoruba are Muslim, many are Christian, and some follow traditional Yoruba religion.
+
+======================================================================
+Unit 4 · Who's in Charge Here? (Released AP FRQ · No stimulus)
+======================================================================
+STIMULUS: (no stimulus)
+Every government claims a piece of the Earth's surface, but who holds power over it depends on scale: international organizations, national governments, regions, and city councils can all claim a say over the same ground.
+
+
+--- Part A (Define) ---
+Q: Define the concept of territoriality in terms of political geography.
+MODEL ANSWER: Territoriality is the connection of people, their culture, and their economy to a specific piece of land, shown when they try to claim, defend, and control that territory.
+RUBRIC: Says people or groups try to claim, control, or defend a specific area / Says people feel attached to, connected to, or identify with a specific area
+MINI-LESSON (Territoriality):
+ - Territory is the land. Territoriality is people's connection to that land and their effort to control it.
+ - The AP course defines it as the connection of people, their culture, and their economic systems to the land.
+ - It shows up at every scale and helps explain border disputes and independence movements.
+KEY WORDS: Territoriality = People's connection to a specific piece of land and their effort to claim and control it.; Territory = The land itself: an area a group or government claims.
+QUICK CHECK: Which is the best example of territoriality? → A country building fences and checkpoints along its border (Territoriality is people acting to claim and control land, like guarding a border.)
+
+--- Part B (Describe) ---
+Q: Describe the concept of sovereignty as it relates to the state.
+MODEL ANSWER: T1- Sovereignty is a state's supreme authority to govern its own territory and people without interference from other states. E2- A sovereign state like Japan makes its own laws, controls its borders, prints its own money, and signs treaties, and other countries recognize that right. A3- Sovereignty is what makes a place a true state: Puerto Rico has its own government but is not sovereign, because the U.S. Congress has the final say over it.
+RUBRIC: Says what it is: a state's authority to govern its territory / Describes the independence: no outside interference
+MINI-LESSON (Sovereignty and the state):
+ - A state is an independent country: a defined territory with a permanent population, a government, and sovereignty.
+ - Sovereignty is a state's supreme authority to govern its own territory without outside interference, so it can make laws, control borders, and sign treaties.
+ - Recognition matters: Taiwan governs itself, but only about a dozen countries officially recognize it as a state.
+KEY WORDS: State = An independent country with territory, people, a government, and sovereignty.; Sovereignty = A state's authority to govern itself without outside interference.
+QUICK CHECK: Which power shows that a state is sovereign? → Making and enforcing its own laws without outside approval (Sovereignty means governing yourself with no outside power in charge.)
+
+--- Part C (Compare) ---
+Q: Compare ONE difference between unitary states and federal states.
+MODEL ANSWER: T1- In a unitary state the central government holds most of the power, while in a federal state power is shared between the national government and states or provinces. E2- For example, in unitary France the national government in Paris sets most policy, including one national school curriculum, while in the federal United States each of the 50 states makes many of its own laws, like speed limits. A3- This matters because a federal system lets a large, diverse country give regions control over local issues, while a unitary system keeps laws the same nationwide.
+RUBRIC: Unitary side: the central government holds most of the power (e.g., France, Japan, China) / Federal side: power is shared with states or provinces (e.g., the U.S., Germany, India, Canada)
+MINI-LESSON (Unitary vs. federal):
+ - In a unitary state, the central government holds most of the power. France, Japan, and China are unitary.
+ - In a federal state, the constitution divides power between the national government and states or provinces. The U.S., Germany, India, and Canada are federal.
+ - Federal systems often fit large, diverse countries; unitary systems often fit smaller or more culturally similar ones.
+KEY WORDS: Unitary state = A state where the central government holds most of the power.; Federal state = A state where power is divided between national and regional governments.
+QUICK CHECK: Which pair lists a unitary state and then a federal state? → Japan, then Germany (Japan keeps power central (unitary); Germany shares it with its 16 states (federal).)
+
+--- Part D (Explain) ---
+Q: Explain ONE possible reason why sovereignty played a role in the UK's withdrawal from the EU.
+MODEL ANSWER: T1- Sovereignty played a role because many British voters felt EU membership took away the UK's power to make its own decisions. E2- As an EU member, the UK had to follow EU laws, accept free movement of EU citizens across its borders, and follow rulings of the European Court of Justice, so the Leave campaign promised to “take back control.” A3- Because many voters wanted Parliament, not the EU, to control the UK's laws and borders, about 52% voted to leave in June 2016, and the UK left the EU on January 31, 2020.
+RUBRIC: Names what the UK felt it had lost: control of laws, borders, trade, or courts / Explains the link: the UK wanted to take back control from the EU
+MINI-LESSON (Supranationalism and Brexit):
+ - Supranationalism is when three or more states give up some sovereignty to an organization, like the EU, for shared benefits.
+ - EU members follow EU laws, let EU citizens live and work in any member country, and let the EU negotiate their trade deals.
+ - Leave campaigners said the UK had lost control of its laws, borders, and trade.
+KEY WORDS: Supranationalism = Three or more states sharing some sovereignty in an organization like the EU.; Referendum = A vote in which citizens decide one question directly.
+QUICK CHECK: The Leave campaign's famous Brexit slogan was… → “Take back control” (“Take back control” was a sovereignty argument: control over the UK's own laws, borders, and trade.)
+
+--- Part E (Explain) ---
+Q: Explain ONE possible reason why territoriality would play a role in devolution.
+MODEL ANSWER: T1- Territoriality can lead to devolution because a group deeply attached to its homeland wants to control that territory itself. E2- For example, many Scots see Scotland as a distinct nation with its own history and identity, so they pushed for self-rule, and in 1999 the UK opened a Scottish Parliament with power over schools, health care, and policing. A3- Because people want decisions about their land made in their own region, not a distant capital, this attachment pressures the national government to devolve power.
+RUBRIC: Names the territorial link: a group's attachment to its homeland or region / Explains the result: demands for self-rule, autonomy, or independence
+MINI-LESSON (Territoriality drives devolution):
+ - Devolution is the transfer of power from a state's central government to its regions.
+ - Territoriality gives groups a reason to want that power: they see a region as their homeland and want to control it.
+ - Examples: Scots in Scotland, Catalans in Catalonia (Spain), French speakers in Quebec (Canada), and Dutch speakers in Flanders (Belgium).
+KEY WORDS: Devolution = The transfer of power from a central government to regions.; Autonomy = Self-government by a region inside a larger state.
+QUICK CHECK: Which is an example of devolution? → The UK creating a Scottish Parliament (Devolution moves power DOWN from the national government to a region, like Scotland.)
+
+--- Part F (Explain) ---
+Q: Explain how redrawing district boundary lines may affect election results within a city.
+MODEL ANSWER: T1- Redrawing district lines can change which group wins seats on a city council, even if no one changes how they vote. E2- For example, if a Latino neighborhood with enough voters to control one district is cracked, or split among three districts, its voters become a minority in each and may elect no council member at all. A3- Because votes only count inside each district, where the lines fall decides whether a group's votes add up to a win or get wasted.
+RUBRIC: Names HOW: packing, cracking, splitting or combining neighborhoods, or a majority-minority district / Explains the effect on results: which group, party, or candidate wins council seats
+MINI-LESSON (Redistricting inside a city):
+ - In district elections, each council district elects one member, so the lines decide which neighborhoods vote together.
+ - Cracking splits a group's neighborhood so it's outnumbered everywhere; packing crams it into one district so its extra votes are wasted.
+ - Lines can also create a majority-minority district, where a minority group is most of the voters and can elect a candidate it chooses.
+KEY WORDS: At-large election = Every voter in the city votes for every council seat.; Majority-minority district = A district where a racial or ethnic minority group makes up most of the voters.
+QUICK CHECK: In an at-large city council election… → every voter in the city votes for every seat (At-large means citywide, so a citywide majority can win every seat.)
+
+--- Part G (Explain) ---
+Q: Explain why neighboring local governments may face challenges providing transportation services in a growing metro area.
+MODEL ANSWER: T1- Neighboring governments may struggle to provide transportation because a growing metro area is politically fragmented into many separate cities and counties, each with its own budget and priorities. E2- For example, in 2019 suburban Gwinnett County voted not to join Atlanta's MARTA system, so MARTA trains still don't reach the county. A3- Because no single government runs the whole metro, governments argue over who should pay, and bus and rail routes stop at city or county lines, leaving commuters stuck in traffic as the region grows.
+RUBRIC: Names the cause: fragmentation into many separate governments / Explains the effect: fights over who pays, or routes that stop at boundaries
+MINI-LESSON (Political fragmentation):
+ - Political fragmentation means one metro area is split among many separate local governments: cities, towns, counties, and special districts.
+ - Each has its own budget, taxes, and priorities, so they often disagree about who pays for transit and where routes go.
+ - A common fix is a regional authority, like WMATA, which runs one Metro system for D.C., Maryland, and Virginia.
+KEY WORDS: Political fragmentation = A metro area divided among many separate local governments.; Regional authority = An agency that runs one service, like transit, across many local governments.
+QUICK CHECK: A metro area split among many separate local governments is an example of… → political fragmentation (Fragmentation means many separate local governments, which makes regional services hard to coordinate.)
+
+BACKGROUND POP-OUTS:
+• Territoriality
+   - Territoriality is people's connection to a specific piece of land and their effort to claim, defend, and control it.
+   - Geographer Robert Sack described it as controlling people and things by controlling an area.
+   - It shows up at every scale: a country guarding its border, a city zoning its land, a neighborhood's “residents only” parking.
+   - It helps explain fights over land with deep meaning, like Kashmir, which India and Pakistan both claim.
+• Sovereignty & the state
+   - A state is an independent country: a defined territory with a permanent population, a government, and sovereignty.
+   - Sovereignty is a state's supreme authority to govern its own territory without interference from other states.
+   - The idea is often traced to the Peace of Westphalia (1648), which ended the Thirty Years' War in Europe.
+• Unitary vs. federal states
+   - A unitary state concentrates power in the central government: France, Japan, China.
+   - A federal state divides power between the national government and states or provinces, and the constitution protects each level's powers: the U.S., Germany, India, Canada.
+   - Federal systems often fit large, diverse countries, since regions can make laws that fit local needs.
+   - The United Kingdom is unitary, but it has devolved some powers to Scotland, Wales, and Northern Ireland.
+• Supranationalism & Brexit
+   - Supranationalism is when three or more states give up some sovereignty to an organization, like the European Union (EU), for shared goals.
+   - EU members follow EU law and allow free movement of EU citizens, and the European Court of Justice has the final word on EU law.
+   - In a June 23, 2016 referendum, about 52% of UK voters chose to leave, after a campaign promising to “take back control” of laws, borders, trade, and money.
+   - The UK left the EU on January 31, 2020.
+• Devolution
+   - Devolution is the transfer of power from a state's central government to its regions, often driven by differences in culture, wealth, or distance from the capital.
+   - Scotland got its own parliament in 1999. In a 2014 referendum, about 55% of Scots voted to stay in the UK.
+   - Catalonia held a 2017 independence vote that Spain's courts ruled illegal, and French-speaking Quebec voted by a hair to stay in Canada in 1995.
+   - Belgium became a federal state in 1993, largely because of tension between Dutch-speaking Flanders and French-speaking Wallonia.
+• City elections: at-large vs. districts
+   - In at-large elections, every voter in a city votes for every council seat, so a citywide majority can win them all.
+   - In district (ward) elections, each district elects one member, so where the lines fall decides who wins.
+   - Voting rights lawsuits, especially under California's Voting Rights Act (2001), have pushed many cities to switch to district elections, which often helps minority neighborhoods win seats.
+   - City maps are redrawn after each census to keep districts equal in population, and they can be packed or cracked too.
+• Political fragmentation
+   - A metropolitan (metro) area is a central city plus its suburbs, tied together by commuting.
+   - Political fragmentation means a metro area is split among many separate local governments, each with its own budget and priorities. The Chicago area alone has hundreds.
+   - That makes transit, roads, and water hard to plan across boundaries.
+   - One fix is a regional authority: WMATA, created in 1967 by Maryland, Virginia, and Washington, D.C., runs one Metro system for the whole region.
+
+======================================================================
+Unit 4 · Drawing the Lines (Practice FRQ · Two stimuli)
+======================================================================
+STIMULUS: Westmoor Redistricting: Two District Plans (Stimulus 1) and Election Results (Stimulus 2)
+Westmoor, a fictional U.S. state, has 25 voting precincts with equal populations and 5 seats in the U.S. House of Representatives. After the census, mapmakers proposed two plans for grouping those precincts into 5 districts, using the same voters and votes.
+Stimulus 1: Two District Plans for Westmoor
+[DIAGRAM: Two maps, Plan 1 and Plan 2, of the same 5 by 5 grid of 25 equal-population precincts in fictional Westmoor. Each precinct shows the party that won it, A in cyan or B in pink. Rows north to south, precincts west to east. Row 1: A A A A A. Row 2: A B B A A. Row 3: A B B B A. Row 4: A B B B A. Row 5: A A B B A. Party A wins 15 precincts; Party B wins 10, clustered in the center and south. Thick yellow lines split each map into 5 numbered districts of 5 precincts. Plan 1 districts by row: 1 1 2 2 2; 1 1 3 3 2; 1 3 3 3 2; 4 4 4 5 5; 4 4 5 5 5. Plan 2 districts by row: 1 1 2 2 3; 1 1 2 2 3; 5 1 2 3 3; 5 5 5 3 4; 5 4 4 4 4.]A = precinct won by Party AB = precinct won by Party BDistrict border1–5 = district number
+Fictional state created for practice. Simplified: all 25 precincts have equal populations, and a party wins a district by winning at least 3 of its 5 precincts.
+Stimulus 2: Election Results in Westmoor Under Each Plan
+Result | Party A | Party B | 
+Statewide vote share | 60% | 40% | 
+Precincts won (of 25) | 15 | 10 | 
+Districts won under Plan 1 (of 5) | 3 | 2 | 
+Percent of seats under Plan 1 | 60% | 40% | 
+Districts won under Plan 2 (of 5) | 5 | 0 | 
+Percent of seats under Plan 2 | 100% | 0% | 
+
+Fictional data created for practice. Simplified: equal-population precincts, and the same statewide vote under both plans. Remember: label each part, and write Describe and Explain parts as T1- (your reason in general words), E2- (the specific proof), A3- (why it matters).
+
+--- Part A (Identify) ---
+Q: Using Stimulus 1, identify the gerrymandering technique used to draw the district boundaries in Plan 2.
+MODEL ANSWER: Plan 2 uses cracking: Party B's voters are split across all five districts so they are outnumbered in every one.
+RUBRIC: Names cracking / Describes cracking: Party B's voters split across districts so they're outnumbered
+MINI-LESSON (Packing vs. cracking):
+ - Gerrymandering is drawing district lines on purpose to help one party or group win more seats.
+ - Packing crowds the other side's voters into a few districts, which they win by huge margins.
+ - Cracking splits the other side's voters across many districts so they're a minority in each one.
+KEY WORDS: Cracking = Splitting a group's voters across many districts.; Packing = Crowding a group's voters into as few districts as possible.
+QUICK CHECK: Splitting a party's voters across many districts so they're a minority in each one is called… → cracking (Cracking breaks a group apart. Packing crams it together.)
+
+--- Part B (Describe) ---
+Q: Using Stimulus 1, describe how the district boundaries in Plan 2 divide Party B's voters.
+MODEL ANSWER: T1- Plan 2's district lines split Party B's cluster of voters into five pieces. E2- Party B's 10 precincts are bunched in the center and south, but the lines slice that cluster like a pizza, so each district gets exactly 2 Party B precincts and 3 Party A precincts. A3- Because Party B has only 2 of 5 precincts in every district, it is outnumbered 3 to 2 everywhere and cannot win a single district.
+RUBRIC: Describes the split: about 2 Party B precincts in each district / Describes the result: Party B is outnumbered in every district
+MINI-LESSON (Reading a districting map):
+ - A precinct is a small voting area. A district is made of several precincts and elects one representative.
+ - Colors show which party won each precinct; thick yellow lines show district borders. Only the lines move between plans.
+ - Count district by district: whoever wins at least 3 of the 5 precincts wins the district.
+KEY WORDS: Precinct = A small local voting area.; District = An area that elects one representative.
+QUICK CHECK: In Stimulus 1, what changes between Plan 1 and Plan 2? → Only the district lines (Same voters, same colors, different lines. That's why the results change.)
+
+--- Part C (Explain) ---
+Q: Explain why the boundaries of congressional districts in the United States are redrawn every ten years.
+MODEL ANSWER: T1- District lines are redrawn every ten years because the U.S. Census counts the population every ten years, and populations shift. E2- After each census, the House's 435 seats are reapportioned among the states by population; after 2020, Texas gained two seats and New York lost one. A3- Because a state's population and seat count can change, it must redraw its districts (redistricting) so each has about the same number of people: one person, one vote.
+RUBRIC: Names the census as the trigger / Explains the chain: seats shift between states, so lines are redrawn to keep districts equal
+MINI-LESSON (Census → reapportionment → redistricting):
+ - The U.S. Constitution requires a census, a count of every person, every ten years.
+ - The House's 435 seats are then redivided among the states by population. That's reapportionment.
+ - Each state then redraws its district lines so every district has about the same population. That's redistricting, and it's when gerrymandering can happen.
+KEY WORDS: Reapportionment = Redividing House seats among the states after a census.; Redistricting = Redrawing district lines inside a state.
+QUICK CHECK: Redividing the 435 House seats among the states after each census is called… → reapportionment (Reapportionment shifts seats BETWEEN states. Redistricting redraws lines INSIDE a state.)
+
+--- Part D (Explain) ---
+Q: Using both stimuli, explain how Plan 2 produces an election result that does not match the statewide vote.
+MODEL ANSWER: T1- Plan 2 gives Party A every seat because it cracks Party B's voters so they are a minority in every district. E2- Stimulus 2 shows Party B won 40% of the statewide vote but 0% of the seats under Plan 2, and Stimulus 1 shows why: each Plan 2 district has exactly 2 Party B precincts and 3 Party A precincts. A3- Because Party B is outnumbered 3 to 2 in all five districts, its votes are wasted everywhere, so Party A turns 60% of the vote into 100% of the seats.
+RUBRIC: Uses Stimulus 2: votes vs. seats (Party B: 40% of votes, 0% of seats) / Uses Stimulus 1 for the cause: Party B has only 2 of 5 precincts in each district
+MINI-LESSON (Why seats don't always match votes):
+ - Each U.S. House district elects one representative, usually whoever gets the most votes there. That's winner-take-all.
+ - So a statewide vote total doesn't win seats by itself. What matters is how the votes are spread across districts.
+ - Votes that don't help elect anyone are wasted votes. Cracking makes a party lose narrowly everywhere, so nearly all its votes are wasted.
+KEY WORDS: Winner-take-all = Only the top vote-getter in a district wins the seat.; Wasted votes = Votes that don't help elect a candidate.
+QUICK CHECK: Under Plan 2, Party B wins 40% of the vote. What share of the seats does it win? → 0% (Cracking leaves Party B outnumbered in all five districts, so it wins none.)
+
+--- Part E (Explain) ---
+Q: Using Stimulus 2, explain ONE effect that a districting plan like Plan 2 could have on voters or on political representation.
+MODEL ANSWER: T1- One effect of a plan like Plan 2 is that a large group of voters ends up with no representation, which can lower voter turnout. E2- Stimulus 2 shows Party B won 40% of the statewide vote but 0% of the seats under Plan 2, so four in ten voters have no representative from the party they chose. A3- Because Party B's voters lose in every district no matter how many show up, many may feel their votes don't count and stop voting.
+RUBRIC: Uses Stimulus 2: Party B wins 40% of the vote but 0 seats / Explains an effect: no representation, wasted votes, lower turnout, safe seats, or polarization
+MINI-LESSON (What gerrymandering does to voters):
+ - A safe seat is a district one party is almost sure to win, so there's little real competition.
+ - Voters who always lose may feel their votes don't count, so turnout can drop.
+ - In safe seats, the real contest is often the party primary, which can pull candidates toward the extremes and add to polarization.
+KEY WORDS: Voter turnout = The percent of eligible voters who actually vote.; Polarization = Parties moving further apart and compromising less.
+QUICK CHECK: A district drawn so one party is almost certain to win is called a… → safe seat (Safe seats mean little real competition.)
+
+--- Part F (Explain) ---
+Q: Explain ONE way that an independent redistricting commission OR a compactness requirement could reduce gerrymandering like the one in Plan 2.
+MODEL ANSWER: T1- An independent redistricting commission could reduce gerrymandering by taking map-drawing away from politicians. E2- Arizona, Colorado, and Michigan created commissions of citizens from both major parties plus independents, who draw the maps instead of the state legislature. A3- Because these mapmakers aren't trying to keep their own party in power, they have less reason to crack one party's voters the way Plan 2 cracks Party B.
+RUBRIC: Names the method: an independent commission or a compactness rule / Explains how: takes line-drawing away from politicians who benefit, or bans odd shapes that split up voters
+MINI-LESSON (Fixing gerrymandering):
+ - Independent commissions take map-drawing from the legislature and give it to citizens, often from both parties plus independents.
+ - Compactness rules require tight, simple shapes, so it's harder to stretch a district into a city to split its voters.
+ - Contiguity rules require every part of a district to touch.
+KEY WORDS: Compactness = How tight and simple a district's shape is.; Contiguity = Every part of a district is connected.
+QUICK CHECK: A rule that every part of a district must touch the rest of it is called… → contiguity (Contiguous = connected. Compact = a tight, simple shape.)
+
+--- Part G (Explain) ---
+Q: Explain how district boundaries like those in Plan 2 could act as a centrifugal force in a country.
+MODEL ANSWER: T1- Unfair district boundaries like Plan 2's can act as a centrifugal force because they make a large group of citizens lose trust in their government. E2- Under Plan 2, Party B's voters cast 40% of the votes but win no seats, so they may feel cheated and protest or refuse to accept election results. A3- When many citizens believe the system is rigged, tension between groups grows and loyalty to the government weakens, which pulls the country apart.
+RUBRIC: Describes a divisive reaction: distrust, anger, feeling unrepresented, or protest / Connects it to a centrifugal force: it divides people or weakens unity and loyalty
+MINI-LESSON (Centrifugal vs. centripetal forces):
+ - Centrifugal forces divide a state (a country): unequal treatment, conflict between groups, economic gaps, or distrust of government.
+ - Centripetal forces unify it: a shared national identity, trusted institutions, and fair elections.
+ - Strong centrifugal forces can lead to devolution or even demands for independence, as in Catalonia (Spain).
+KEY WORDS: Centrifugal force = Anything that divides a country or weakens its unity.; Devolution = Shifting power from the national government to regions.
+QUICK CHECK: Which of these is a CENTRIPETAL force? → Elections that most citizens trust (Trusted, fair institutions pull a country together. The other two push it apart.)
+
+BACKGROUND POP-OUTS:
+• Gerrymandering: packing & cracking
+   - Gerrymandering is drawing district lines on purpose to help one party or group win more seats.
+   - It's named for Massachusetts Governor Elbridge Gerry, who in 1812 signed a map with a salamander-shaped district.
+   - Packing crowds the other side's voters into a few districts, which they win by huge margins.
+   - Cracking splits the other side's voters across many districts so they're a minority in each. Both tricks waste the other side's votes.
+• Census, reapportionment & redistricting
+   - The U.S. Constitution requires a census, a count of every person, every ten years.
+   - After each census, the House's 435 seats are reapportioned among the states by population. After 2020, Texas gained 2 seats and New York lost 1.
+   - Each state then redistricts: it redraws its lines so every district has about the same population (“one person, one vote”).
+   - Some states, like Texas, have also redrawn maps mid-decade.
+• Voting Rights Act & majority-minority districts
+   - The Voting Rights Act of 1965 outlawed racial discrimination in voting, such as literacy tests used to keep Black Southerners from voting.
+   - Section 2 of the law has been used to challenge maps that dilute minority voting power, for example by cracking a minority community.
+   - Starting in the 1980s, courts used it to require some majority-minority districts, where a minority group makes up most of the voters.
+   - Courts have also ruled that race can't be the main factor in drawing lines, and how far Section 2 reaches is still being argued, all the way to the Supreme Court.
+• Commissions, compactness & contiguity
+   - In most states, the legislature draws congressional lines, so the party in control can help itself.
+   - An independent redistricting commission is a separate panel that draws the lines instead, as in Arizona, Colorado, and Michigan.
+   - Compactness means a tight, simple shape. Contiguity means every part of a district touches the rest.
+• States: federal vs. unitary
+   - In AP Human Geography, a state is an independent country with sovereignty. U.S. states like Westmoor are units inside one country.
+   - A nation is a people with a shared culture. A nation-state is mostly one nation (Japan), a multinational state holds several (the United Kingdom), and a stateless nation (the Kurds) has no state.
+   - A federal state splits power between national and regional governments (the U.S., Germany, India); a unitary state keeps it national (France, China).
+   - Because the U.S. is federal, each state runs its own redistricting, so the rules differ from state to state.
+• Safe seats, turnout & polarization
+   - A safe seat is a district one party is almost certain to win. A swing district could go either way.
+   - Voters who always lose may feel their votes don't count, which can lower turnout.
+   - In safe seats, the real race is often the party primary, which can pull candidates toward the extremes and add to polarization.
+• Centrifugal & centripetal forces
+   - Centrifugal forces divide a country: conflict between groups, unequal treatment, economic gaps, or distrust of government.
+   - Centripetal forces unify it: a shared identity, national symbols, and trusted institutions like fair elections.
+   - Strong centrifugal forces can lead to devolution, where power shifts to regions, as when Scotland got its own parliament inside the United Kingdom.
