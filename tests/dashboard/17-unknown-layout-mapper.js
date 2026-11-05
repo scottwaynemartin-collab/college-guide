@@ -1,0 +1,11 @@
+const {FILE_URL, HTML_PATH, OUT, FIX} = require('./lib');
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:390,height:844}});
+const errs=[];p.on('pageerror',e=>errs.push(e.message));
+await p.goto(FILE_URL+'');await p.click('text=Try it with sample data');await p.waitForTimeout(300);
+await p.click('[data-act=menu]');await p.waitForTimeout(200);await p.click('aside [data-go=import]');await p.waitForTimeout(200);
+await p.fill('#profBox','Student,Student ID,Class,Watch flags,Mystery Column,Counselor\n"Brooks, Omar",410221,APHG 3B,Zeros; Attendance,Blue,Ms. Sample');await p.click('[data-act=import-profile]');await p.waitForTimeout(300);
+console.log(await p.evaluate(()=>{const k=DB.idmap['410221'];return JSON.stringify({other:DB.profiles[k].other,counselor:DB.profiles[k].counselor,flags:schoolFlags(k),n:Object.keys(DB.students).length});}));
+await p.evaluate(()=>openStudent(DB.idmap['410221'],true));await p.waitForTimeout(250);
+await p.screenshot({path:OUT+'/m-conf.png'});
+console.log('ERR',errs);await b.close();})();

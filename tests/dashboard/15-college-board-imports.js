@@ -1,0 +1,14 @@
+const {FILE_URL, HTML_PATH, OUT, FIX} = require('./lib');
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1440,height:1000}});
+const errs=[];p.on('pageerror',e=>errs.push(e.message));p.on('dialog',d=>{errs.push('DIALOG');d.dismiss();});
+await p.goto(FILE_URL+'');await p.click('text=Try it with sample data');await p.waitForTimeout(300);
+await p.click('aside [data-go=import]');
+await p.fill('#pasteBox','Course,Year,Score 5,Score 4,Score 3,Score 2,Score 1,Mean,Global mean,Global % 3+\nAPHG,2026,12,20,25,18,9,3.1,2.6,54\nAP World,2026,8,14,20,10,4,,2.9,60');await p.click('#pasteGo');await p.waitForTimeout(200);
+await p.fill('#pasteBox','Course,Year,Section,Item,Our %,Global %\nAPHG,2026,Unit,Unit 3: Cultural Patterns,61,58\nAPHG,2026,Unit,Unit 5: Agriculture,49,57\nAPHG,2026,FRQ,FRQ 2,44,39\nAPHG,2026,Skill,Skill 4: Spatial relationships,52,60');await p.click('#pasteGo');await p.waitForTimeout(200);
+console.log(await p.evaluate(()=>document.querySelector('[role=status]')?.innerText), await p.evaluate(()=>JSON.stringify(DB.cb.scores.map(x=>[x.course,x.year,Math.round(x.pass),x.mean]))));
+await p.click('aside [data-go=compare]');await p.click('[data-course="APHG"]');await p.waitForTimeout(200);
+console.log(await p.$eval('.card:has(h2:text("College Board reports"))',e=>e.innerText.replace(/\n+/g,' | ').slice(0,500)));
+await p.click('aside [data-go=ttess]');await p.waitForTimeout(300);
+const t=await p.$eval('.ttview',e=>e.innerText); if(!/score report/.test(t)) errs.push('T-TESS 4.2 missing score report line'); console.log(t.split('\n').filter(l=>/4\.2|Last year|Instructional|Data sources/.test(l)).join('\n'));
+console.log('ERR',errs);await b.close();})();

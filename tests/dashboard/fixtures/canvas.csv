@@ -1,0 +1,5 @@
+Student,ID,SIS User ID,SIS Login ID,Section,Unit 1 Quiz (101),Essay (102),Current Score,Final Score
+    Points Possible,,,,,20,50,(read only),(read only)
+"Reyes, Ava",11,41000,ava,P1 · AP World,18,45,90,90
+"Chen, Liam",12,41001,liam,P1 · AP World,,0,0,0
+"Student, Test",99,,,P1 · AP World,10,10,50,50

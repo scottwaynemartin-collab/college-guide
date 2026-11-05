@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdfinfo *)",
+      "mcp__github__pull_request_read",
+      "mcp__claude-artifacts__read_artifact",
+      "mcp__claude-artifacts__get_artifact",
+      "mcp__claude-artifacts__describe_capabilities",
+      "mcp__claude-code-remote__read_documentation",
+      "mcp__claude-code-remote__get_trigger",
+      "mcp__Google_Sheets__get_values",
+      "mcp__Google_Sheets__get_spreadsheet"
+    ]
+  }
+}
