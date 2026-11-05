@@ -1,0 +1,586 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Euro Atlas — Unit 2: Age of Reformation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#1A2D52; --navy-deep:#0F1B33; --navy-soft:#2E4373;
+  --cream:#F7F1E5; --cream-warm:#EFE6D2; --paper:#FBF7EE;
+  --brass:#B8923A; --brass-ink:#7C6327; --brass-display:#9E7D32; --brass-light:#D4B05E;
+  --ink:#1A1A1A; --slate:#4F5562; --line:#DDD3BD; --accent-red:#8B2A2A;
+  --forest:#3E6B4F; --plum:#6B3A5B; --terra:#A8582F; --nei:#2C6E6B;
+  --good:#3E6B4F; --good-soft:#E6EFE7; --bad:#8B2A2A; --bad-soft:#F4E5E3;
+  --bg:var(--paper); --bg-alt:var(--cream-warm); --surface:var(--paper);
+  --text:var(--ink); --text-2:var(--slate); --border:var(--line);
+  --lift:0 14px 32px rgba(26,45,82,.10); --lift-2:0 24px 64px rgba(26,45,82,.12); --hair:0 1px 0 rgba(26,45,82,.08);
+  --serif:'Fraunces',Georgia,serif; --sans:'DM Sans',system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0F1B33; --bg-alt:#152442; --surface:#18294A;
+  --text:#F2ECE0; --text-2:#B6BECC; --border:#2C3F65;
+  --line:#2C3F65; --cream:#F2ECE0; --paper:#18294A; --cream-warm:#152442;
+  --brass:#D4B05E; --brass-ink:#D4B05E; --brass-display:#D4B05E; --brass-light:#E2C782; --slate:#B6BECC; --ink:#F2ECE0;
+  --accent-red:#D4756E; --forest:#6FA882; --plum:#B183A2; --terra:#DB9066; --nei:#5FB3AE;
+  --good:#6FA882; --good-soft:#1B3327; --bad:#D4756E; --bad-soft:#3A211F;
+  --lift:0 14px 32px rgba(0,0,0,.35); --lift-2:0 24px 64px rgba(0,0,0,.45); --hair:0 1px 0 rgba(0,0,0,.3);
+}}
+:root[data-theme="dark"]{
+  --bg:#0F1B33; --bg-alt:#152442; --surface:#18294A;
+  --text:#F2ECE0; --text-2:#B6BECC; --border:#2C3F65;
+  --line:#2C3F65; --cream:#F2ECE0; --paper:#18294A; --cream-warm:#152442;
+  --brass:#D4B05E; --brass-ink:#D4B05E; --brass-display:#D4B05E; --brass-light:#E2C782; --slate:#B6BECC; --ink:#F2ECE0;
+  --accent-red:#D4756E; --forest:#6FA882; --plum:#B183A2; --terra:#DB9066; --nei:#5FB3AE;
+  --good:#6FA882; --good-soft:#1B3327; --bad:#D4756E; --bad-soft:#3A211F;
+  --lift:0 14px 32px rgba(0,0,0,.35); --lift-2:0 24px 64px rgba(0,0,0,.45); --hair:0 1px 0 rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.container{max-width:1200px;margin:0 auto;padding:0 32px}
+.narrow{max-width:780px}
+button{font-family:inherit}
+a{color:inherit}
+
+.eyebrow{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--brass-ink);font-weight:600;font-family:var(--sans)}
+.stitle{font-family:var(--serif);font-weight:500;font-size:clamp(1.9rem,3.4vw,2.9rem);letter-spacing:-.02em;line-height:1.08;margin:.55rem 0 0}
+.stitle em{font-style:italic;font-weight:400}
+.slead{font-size:1.05rem;line-height:1.65;color:var(--text-2);max-width:640px;margin:.9rem 0 0}
+
+/* ---------- hero ---------- */
+.hero{background:var(--navy-deep);color:var(--cream);padding:64px 0 54px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border:1px solid rgba(212,176,94,.20);border-radius:50%}
+.hero::before{content:"";position:absolute;right:-40px;top:40px;width:260px;height:260px;border:1px solid rgba(212,176,94,.13);border-radius:50%}
+.hero .container{position:relative;z-index:2}
+.hero .eyebrow{color:var(--brass-light)}
+.hero h1{font-family:var(--serif);font-weight:500;font-size:clamp(2.3rem,5.4vw,4rem);line-height:1.03;letter-spacing:-.025em;margin:.7rem 0 0;max-width:16ch}
+.hero h1 em{font-style:italic;font-weight:400;color:var(--brass-light)}
+.hero .tag{font-family:var(--serif);font-style:italic;font-size:1.15rem;color:rgba(247,241,229,.82);margin:1.1rem 0 0;max-width:52ch}
+.stats{display:flex;gap:0;flex-wrap:wrap;margin-top:2.4rem;border-top:1px solid rgba(212,176,94,.28);padding-top:1.3rem}
+.stat{padding-right:2.6rem;margin-right:2.6rem;border-right:1px solid rgba(212,176,94,.18)}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-family:var(--serif);font-style:italic;font-weight:400;font-size:2rem;color:var(--brass-light);line-height:1}
+.stat span{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(247,241,229,.6);font-weight:500}
+
+/* ---------- sticky nav ---------- */
+.bar{position:sticky;top:0;z-index:80;background:var(--bg);border-bottom:1px solid var(--border);box-shadow:var(--hair)}
+.bar .container{display:flex;gap:0;align-items:center;overflow-x:auto;scrollbar-width:none}
+.bar .container::-webkit-scrollbar{display:none}
+.bar a{color:var(--text-2);text-decoration:none;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;padding:16px 18px 14px;white-space:nowrap;border-bottom:2px solid transparent}
+.bar a:first-child{padding-left:0}
+.bar a:hover{color:var(--text)}
+.bar a.on{color:var(--navy);border-bottom-color:var(--brass)}
+:root[data-theme="dark"] .bar a.on{color:var(--brass-light)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .bar a.on{color:var(--brass-light)}}
+.bar .count{margin-left:auto;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--text-2);white-space:nowrap;padding-left:16px}
+
+/* ---------- controls ---------- */
+.controls{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:20px 0}
+.ctlrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.ctlrow+.ctlrow{margin-top:12px}
+.search{flex:1 1 260px;min-width:210px;display:flex;align-items:center;gap:9px;border:1px solid var(--border);background:var(--surface);padding:9px 15px;border-radius:100px}
+.search input{border:0;outline:0;background:transparent;color:var(--text);font-size:.95rem;width:100%;font-family:inherit}
+.pillbtn{border:1px solid var(--border);background:var(--surface);color:var(--text-2);font-size:.68rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:8px 15px;cursor:pointer;border-radius:100px;transition:.15s}
+.pillbtn:hover{border-color:var(--brass);color:var(--text)}
+.pillbtn.on{background:var(--navy);border-color:var(--navy);color:var(--cream)}
+:root[data-theme="dark"] .pillbtn.on{background:var(--brass);border-color:var(--brass);color:var(--navy-deep)}
+.tchip{border:1px solid var(--border);background:var(--surface);color:var(--text-2);font-size:.7rem;font-weight:600;letter-spacing:.08em;padding:7px 13px;cursor:pointer;border-radius:100px;display:inline-flex;align-items:center;gap:6px;transition:.15s}
+.tchip .dot{width:7px;height:7px;border-radius:50%;flex:0 0 auto}
+.tchip:hover{border-color:var(--brass);color:var(--text)}
+.tchip.on{background:var(--navy);border-color:var(--navy);color:var(--cream)}
+:root[data-theme="dark"] .tchip.on{background:var(--brass);border-color:var(--brass);color:var(--navy-deep)}
+.lbl{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--text-2);font-weight:600;margin-right:4px}
+.chips{display:flex;gap:7px;flex-wrap:wrap;align-items:center}
+
+/* ---------- sections ---------- */
+.block{padding:76px 0 12px;scroll-margin-top:58px}
+.block.alt{background:var(--bg-alt)}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:2.6rem}
+.sec-head .num{font-family:var(--serif);font-style:italic;font-weight:400;font-size:2.4rem;color:var(--brass-display);line-height:1;margin-bottom:.4rem}
+.tools{display:flex;gap:8px;flex-wrap:wrap}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(272px,1fr));gap:18px}
+.grid.big{grid-template-columns:repeat(auto-fill,minmax(345px,1fr))}
+.grid.wide{grid-template-columns:repeat(auto-fill,minmax(430px,1fr))}
+
+/* ---------- cards ---------- */
+.card{position:relative;background:var(--surface);border:1px solid var(--border);min-height:158px;cursor:pointer;display:flex;flex-direction:column;transition:box-shadow .22s,transform .22s;overflow:hidden}
+.card:hover{box-shadow:var(--lift);transform:translateY(-2px)}
+.card.hidden{display:none}
+.card .tag{position:absolute;left:0;top:0;bottom:0;width:3px}
+.card .inner{padding:20px 22px 16px;flex:1;display:flex;flex-direction:column;gap:9px}
+.card .tno{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass-ink);font-weight:600}
+.card .term{font-family:var(--serif);font-weight:500;font-size:1.3rem;letter-spacing:-.015em;line-height:1.18}
+.card .work{font-family:var(--serif);font-style:italic;font-size:.95rem;color:var(--text-2);margin-top:-3px}
+.card .def{font-size:.92rem;color:var(--text-2);line-height:1.6}
+.card .why{font-size:.88rem;color:var(--text-2);border-left:2px solid var(--brass);padding-left:12px;line-height:1.55}
+.card .why b{color:var(--text);font-weight:600}
+.card .hint{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--text-2);opacity:.85;margin-top:auto;padding-top:8px;font-weight:600}
+.card .front,.card .back{display:flex;flex-direction:column;gap:9px;flex:1}
+.card .back{display:none}
+.card.flipped .front{display:none}
+.card.flipped .back{display:flex}
+.badge{display:inline-block;font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;padding:4px 11px;border:1px solid currentColor;border-radius:100px;align-self:flex-start;font-weight:600}
+.badge.vid{color:var(--forest)}
+.badge.beyond{color:var(--plum)}
+
+.mark{display:none;gap:8px;padding:0 22px 16px}
+.quiz .mark{display:flex}
+.mark button{flex:1;border:1px solid var(--border);background:transparent;color:var(--text-2);font-size:.62rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:8px 4px;cursor:pointer;border-radius:100px}
+.card.got{border-color:var(--good)} .card.miss{border-color:var(--bad)}
+.card.got .mark .got{background:var(--good-soft);border-color:var(--good);color:var(--good)}
+.card.miss .mark .miss{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+.quiz.hide-fronts .card:not(.flipped) .front .term{filter:blur(9px)}
+.quiz.hide-fronts .card:not(.flipped) .front .hint::after{content:" · term hidden"}
+
+/* ---------- timeline ---------- */
+.railwrap{position:relative;padding-top:6px}
+.rail{list-style:none;margin:0;padding:0 0 26px;display:flex;overflow-x:auto;gap:0}
+.rail li{flex:0 0 auto;position:relative}
+.rail li.hidden{display:none}
+.rail button{background:transparent;border:0;border-top:1px solid var(--border);padding:22px 24px 0;cursor:pointer;text-align:left;min-width:196px;max-width:250px;color:var(--text);position:relative;display:block;font-family:inherit}
+.rail button::before{content:"";position:absolute;top:-5px;left:24px;width:9px;height:9px;border-radius:50%;background:var(--border);transition:.18s}
+.rail button:hover::before,.rail button.on::before{background:var(--brass);box-shadow:0 0 0 4px rgba(184,146,58,.18)}
+.rail .y{font-family:var(--serif);font-style:italic;font-weight:400;font-size:1.45rem;color:var(--brass-ink);display:block;line-height:1}
+.rail .e{font-size:.85rem;line-height:1.45;margin-top:7px;display:block;color:var(--text-2)}
+.rail button.on .e{color:var(--text)}
+.tlwhy{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--brass);padding:24px 26px;min-height:96px}
+.tlwhy .y{font-family:var(--serif);font-style:italic;font-size:1.9rem;color:var(--brass-display);line-height:1}
+.tlwhy .e{font-family:var(--serif);font-weight:500;font-size:1.15rem;margin:.4rem 0 .6rem}
+.tlwhy .w{color:var(--text-2);font-size:.98rem}
+
+/* ---------- developments ---------- */
+.los{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px;margin-bottom:2.6rem}
+.lo{background:var(--surface);border:1px solid var(--border);padding:20px 22px;display:flex;gap:16px;align-items:flex-start}
+.lo .ltr{font-family:var(--serif);font-style:italic;font-weight:400;font-size:2rem;color:var(--brass-display);line-height:1;flex:0 0 auto;min-width:26px}
+.lo .txt{font-size:.94rem;line-height:1.55}
+.lo .tp{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--text-2);opacity:.85;margin-top:8px;font-weight:600}
+.kc{background:var(--surface);border:1px solid var(--border);margin-bottom:14px}
+.kc>summary{cursor:pointer;padding:20px 24px;list-style:none;display:flex;gap:16px;align-items:baseline}
+.kc>summary::-webkit-details-marker{display:none}
+.kc>summary::after{content:"+";margin-left:auto;font-family:var(--serif);font-size:1.5rem;color:var(--brass-display);line-height:1}
+.kc[open]>summary::after{content:"–"}
+.kc .kcid{font-size:.65rem;letter-spacing:.18em;color:var(--brass-ink);font-weight:600;flex:0 0 auto;text-transform:uppercase}
+.kc .kctext{font-family:var(--serif);font-weight:500;font-size:1.08rem;line-height:1.4}
+.kc .body{padding:0 24px 22px 24px;border-top:1px solid var(--border);padding-top:18px}
+.sub{margin-top:18px;padding-left:16px;border-left:2px solid var(--border)}
+.sub:first-child{margin-top:0}
+.sub .sid{font-size:.62rem;letter-spacing:.18em;color:var(--navy-soft);font-weight:600;text-transform:uppercase}
+:root[data-theme="dark"] .sub .sid{color:var(--brass-light)}
+.sub p{margin:4px 0 0;font-size:.92rem;color:var(--text-2);line-height:1.6}
+.ex{margin:11px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px}
+.ex li{font-size:.75rem;background:var(--bg-alt);border:1px solid var(--border);padding:5px 12px;border-radius:100px;color:var(--text-2)}
+
+/* ---------- context ---------- */
+.ctx{background:var(--surface);border:1px solid var(--border);padding:24px 26px}
+.ctx .kind{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;padding:4px 12px;border:1px solid currentColor;border-radius:100px;display:inline-block;margin-bottom:14px;font-weight:600}
+.ctx .kind.before{color:var(--accent-red)} .ctx .kind.during{color:var(--navy-soft)} .ctx .kind.after{color:var(--forest)}
+:root[data-theme="dark"] .ctx .kind.during{color:var(--brass-light)}
+.ctx h3{font-family:var(--serif);font-weight:500;font-size:1.22rem;margin:0 0 .5rem;letter-spacing:-.01em;line-height:1.25}
+.ctx p{margin:0;font-size:.94rem;color:var(--text-2);line-height:1.62}
+
+/* ---------- stimulus ---------- */
+.stim{background:var(--surface);border:1px solid var(--border);display:flex;flex-direction:column;transition:box-shadow .22s}
+.stim:hover{box-shadow:var(--lift)}
+.stim .imgwrap{background:var(--bg-alt);border-bottom:1px solid var(--border);position:relative;aspect-ratio:4/3;overflow:hidden}
+.stim img{width:100%;height:100%;object-fit:contain;display:block}
+.stim .fallback{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;font-size:.85rem;color:var(--text-2);font-family:var(--serif);font-style:italic}
+.stim .body{padding:22px 26px 24px;display:flex;flex-direction:column;gap:12px}
+.stim h3{font-family:var(--serif);font-weight:500;font-size:1.32rem;margin:0;letter-spacing:-.015em;line-height:1.2}
+.stim .cred{font-family:var(--serif);font-style:italic;font-size:.95rem;color:var(--text-2)}
+.stim .look{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
+.stim .look li{font-size:.9rem;color:var(--text-2);padding-left:19px;position:relative;line-height:1.55}
+.stim .look li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:7px;border-radius:50%;background:var(--brass)}
+.stim .argues{font-size:.9rem;border-left:2px solid var(--accent-red);padding-left:13px;color:var(--text-2);line-height:1.55}
+.stim .argues b{color:var(--text);font-weight:600}
+.stim a.src{font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass-ink);text-decoration:none;font-weight:600;margin-top:auto}
+.stim a.src:hover{text-decoration:underline}
+
+.empty{padding:48px 0;text-align:center;color:var(--text-2);font-family:var(--serif);font-style:italic;font-size:1.05rem}
+footer{background:var(--navy-deep);color:var(--cream);padding:52px 0 44px;margin-top:80px}
+footer .ft{font-family:var(--serif);font-style:italic;color:var(--brass-light);font-size:1.15rem;margin-bottom:.9rem}
+footer .fm{font-size:.82rem;color:rgba(247,241,229,.6);line-height:1.7;max-width:70ch}
+.themeBtn{position:fixed;right:20px;bottom:20px;z-index:90;width:46px;height:46px;border-radius:50%;border:1px solid var(--border);background:var(--surface);color:var(--text);cursor:pointer;font-size:1.05rem;box-shadow:var(--lift)}
+@media(max-width:700px){
+  .container{padding:0 20px}
+  .grid,.grid.big,.grid.wide,.los{grid-template-columns:1fr}
+  .stat{padding-right:1.5rem;margin-right:1.5rem}
+  .block{padding:52px 0 12px}
+}
+</style>
+<style id="ms-phone-text">@media (max-width:640px){.eyebrow,.stat span,.bar a,.bar .count,.pillbtn,.tchip,.lbl,.card .tno,.card .hint,.badge,.mark button,.lo .tp,.kc .kcid,.sub .sid,.ctx .kind,.stim a.src{font-size:12px!important;line-height:1.35}}
+/* ios-no-zoom */@media (max-width:820px){input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]),textarea,select{font-size:16px !important}}
+</style></head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <div class="eyebrow" id="heroEyebrow"></div>
+    <h1 id="heroH1"></h1>
+    <p class="tag" id="heroTag"></p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<nav class="bar" aria-label="Sections">
+  <div class="container">
+    <a href="#vocab" data-s="vocab">Vocabulary</a>
+    <a href="#figures" data-s="figures">Figures &amp; Works</a>
+    <a href="#timeline" data-s="timeline">Timeline</a>
+    <a href="#developments" data-s="developments">Developments</a>
+    <a href="#context" data-s="context">Context</a>
+    <a href="#stimulus" data-s="stimulus">Art &amp; Stimulus</a>
+    <span class="count" id="cardCount"></span>
+  </div>
+</nav>
+
+<div class="controls">
+  <div class="container">
+    <div class="ctlrow">
+      <label class="search"><span aria-hidden="true" style="opacity:.5">⌕</span>
+        <input id="q" type="search" placeholder="Search terms, people, dates…" aria-label="Search">
+      </label>
+      <button class="pillbtn on" id="srcAll">All content</button>
+      <button class="pillbtn" id="srcVid">In the video</button>
+      <button class="pillbtn" id="srcBey">Beyond the video</button>
+    </div>
+    <div class="ctlrow">
+      <span class="lbl">Topic</span>
+      <div class="chips" id="topicChips"></div>
+    </div>
+  </div>
+</div>
+
+<main>
+  <section class="block" id="vocab">
+    <div class="container">
+      <div class="sec-head">
+        <div>
+          <div class="num">01</div>
+          <div class="eyebrow">Language of the period</div>
+          <h2 class="stitle">The <em>Vocabulary</em></h2>
+          <p class="slead">Tap a card to turn it over. The term is on the front; the definition and why it mattered are on the back.</p>
+        </div>
+        <div class="tools">
+          <button class="pillbtn" id="quizBtn">Quiz me</button>
+          <button class="pillbtn" id="shufBtn">Shuffle</button>
+          <button class="pillbtn" id="resetBtn">Reset marks</button>
+        </div>
+      </div>
+      <p class="ms-marks-note" style="margin:0 0 14px;font-size:.85rem;opacity:.8">Got it / Missed marks last only while this page is open; they reset when you reload or leave.</p><div class="grid" id="vocabGrid"></div>
+    </div>
+  </section>
+
+  <section class="block alt" id="figures">
+    <div class="container">
+      <div class="sec-head"><div>
+        <div class="num">02</div>
+        <div class="eyebrow">Who and what</div>
+        <h2 class="stitle">Figures &amp; <em>Works</em></h2>
+        <p class="slead">European history runs on named people and the specific things they wrote, painted, or decreed. Tap to turn over.</p>
+      </div></div>
+      <div class="grid big" id="figGrid"></div>
+    </div>
+  </section>
+
+  <section class="block" id="timeline">
+    <div class="container">
+      <div class="sec-head"><div>
+        <div class="num">03</div>
+        <div class="eyebrow" id="tlEyebrow"></div>
+        <h2 class="stitle">The <em>Timeline</em></h2>
+        <p class="slead">Scroll sideways. Choose any date to read why it earns its place.</p>
+      </div></div>
+      <div class="railwrap"><ul class="rail" id="rail"></ul></div>
+      <div class="tlwhy" id="tlwhy"><div class="w" style="font-family:var(--serif);font-style:italic">Choose a date above.</div></div>
+    </div>
+  </section>
+
+  <section class="block alt" id="developments">
+    <div class="container">
+      <div class="sec-head"><div>
+        <div class="num">04</div>
+        <div class="eyebrow">Straight from the College Board</div>
+        <h2 class="stitle">Historical <em>Developments</em></h2>
+        <p class="slead">The learning objectives and key concepts for this unit, quoted word for word from the CED.</p>
+      </div></div>
+      <div class="los" id="loGrid"></div>
+      <div id="kcList"></div>
+    </div>
+  </section>
+
+  <section class="block" id="context">
+    <div class="container">
+      <div class="sec-head"><div>
+        <div class="num">05</div>
+        <div class="eyebrow">Before, during, after</div>
+        <h2 class="stitle">The <em>Context</em> Bank</h2>
+        <p class="slead">What was already true before 1450, what was happening elsewhere, and what this unit sets up. Raw material for a contextualization sentence.</p>
+      </div></div>
+      <div class="grid wide" id="ctxGrid"></div>
+    </div>
+  </section>
+
+  <section class="block alt" id="stimulus">
+    <div class="container">
+      <div class="sec-head"><div>
+        <div class="num">06</div>
+        <div class="eyebrow">Reading the evidence</div>
+        <h2 class="stitle">Art &amp; <em>Stimulus</em></h2>
+        <p class="slead">European History leans on images harder than World does. For each one: what do you actually see, and what is it arguing?</p>
+      </div></div>
+      <div class="grid wide" id="stimGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="container">
+  <div class="ft">Euro Atlas</div>
+  <div class="fm">Panther Creek High School · Created by Scott Martin · APandAbroad@gmail.com<br>
+  Framework quoted from the AP® European History Course and Exam Description (Effective Fall 2026), © College Board, which was not involved in the production of and does not endorse this resource. Artwork in the public domain via Wikimedia Commons.<br>
+  AP® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this site.</div>
+</div></footer>
+<button class="themeBtn" id="themeBtn" title="Toggle light or dark" aria-label="Toggle light or dark">◐</button>
+
+<script>
+const DATA = {"unit":{"num":2,"title":"Age of Reformation","span":"c. 1450 to c. 1648","weight":"10–15%","periods":"~15 class periods","period":1,"heading":"Unit Two — Age of <em>Reformation</em>","tagline":"One church splits, and Europe spends a century learning that religion and state power cannot be separated."},"topics":[{"id":"2.1","title":"Contextualizing 16th- and 17th-Century Challenges and Developments","theme":"CID","themeFull":"Cultural and Intellectual Developments","reasoning":"Continuity and Change","review":true},{"id":"2.2","title":"Luther and the Protestant Reformation","theme":"CID","themeFull":"Cultural and Intellectual Developments","reasoning":"Causation","review":false},{"id":"2.3","title":"Protestant Reform Continues","theme":"CID","themeFull":"Cultural and Intellectual Developments","reasoning":"Comparison","review":false},{"id":"2.4","title":"Wars of Religion","theme":"SOP","themeFull":"States and Other Institutions of Power","reasoning":"Causation","review":false},{"id":"2.5","title":"The Catholic Reformation","theme":"CID","themeFull":"Cultural and Intellectual Developments","reasoning":"Continuity and Change","review":false},{"id":"2.6","title":"16th-Century Society and Politics","theme":"SCD","themeFull":"Social Organization and Development","reasoning":"Continuity and Change","review":false},{"id":"2.7","title":"Art of the 16th Century: Mannerism and Baroque Art","theme":"CID","themeFull":"Cultural and Intellectual Developments","reasoning":"Causation","review":false},{"id":"2.8","title":"Causation in the Age of Reformation and the Wars of Religion","theme":"CID","themeFull":"Cultural and Intellectual Developments","reasoning":"Causation","review":true}],"vocab":[{"t":"2.1","term":"Christendom","def":"The name medieval Europeans gave their own world: every land that answered to the pope in Rome and shared one Latin church, one clergy, and one set of rituals.","why":"Unit 2 is the story of that single religious world coming apart, so you have to know what there was to break before you can explain the break."},{"t":"2.1","term":"Religious pluralism","def":"More than one religion being legally allowed to exist inside the same country or region at the same time.","why":"The CED’s whole Unit 2 argument runs through this word — once a state admitted two churches, being Christian stopped deciding who belonged."},{"t":"2.1","term":"Clerical abuses","def":"Corrupt practices by churchmen: buying and selling church offices, collecting the pay from several posts while doing the work of none, and charging money for spiritual favors.","why":"These are the specific complaints reformers attacked first; the CED says Luther and Calvin “criticized Catholic abuses” before they built any new doctrine."},{"t":"2.1","term":"Theology","def":"The organized study of God — what a church officially teaches about sin, salvation, scripture, and how a person is saved.","why":"The CED says the reformations “fundamentally changed theology,” so arguments that sound abstract are really arguments about who holds authority."},{"t":"2.1","term":"Secular","def":"Belonging to the ordinary, worldly side of life — government, courts, business — rather than to the church.","why":"Watching the line between secular and religious authority move is the fastest way to follow Unit 2’s political story from Luther to Westphalia."},{"t":"2.2","term":"Indulgence","def":"A grant from the Catholic Church reducing the punishment a soul owed for sin; by 1500 they were routinely handed out in exchange for a cash donation.","why":"Selling them is the abuse that set Luther off, because it put a visible price tag on something the Church said only God could give."},{"t":"2.2","term":"Ninety-five Theses","def":"Luther’s list of arguments, written in Latin for scholars, attacking the sale of indulgences and inviting anyone to debate him about it.","why":"Translated and printed within weeks, it turned one professor’s academic complaint into a public movement he could no longer control."},{"t":"2.2","term":"Salvation by faith alone (sola fide)","def":"Luther’s claim that God saves a person because that person trusts Christ — not because of good works, pilgrimages, donations, or purchased indulgences.","why":"If works cannot save you, the Church’s entire machinery of rituals and payments loses its purpose, which is why this doctrine required a separate church."},{"t":"2.2","term":"Primacy of scripture (sola scriptura)","def":"The claim that the Bible alone is the final authority for a Christian, outranking popes, councils, and centuries of church tradition.","why":"It moved authority out of an institution and into a text, so anyone who could read the text could argue with the institution."},{"t":"2.2","term":"Priesthood of all believers","def":"Luther’s teaching that every baptized Christian stands before God directly, so a priest is not a required middleman between a person and salvation.","why":"It stripped the clergy of their special status and gave laypeople — princes very much included — a religious reason to take church business into their own hands."},{"t":"2.2","term":"Predestination","def":"Calvin’s teaching that God decided before the world began who would be saved and who would not, and no human action changes that decision.","why":"It removed the anxiety of earning salvation and produced disciplined, confident communities convinced they were carrying out God’s plan."},{"t":"2.2","term":"The elect","def":"The people Calvin believed God had already chosen for salvation, whether or not they or anyone else could tell who they were.","why":"Hoping you were among them pushed Calvinists toward hard work and strict conduct as evidence of God’s choice rather than a way to buy it."},{"t":"2.2","term":"Calvinism","def":"The Reformed Protestant tradition built on John Calvin’s teaching in Geneva: predestination, strict moral discipline, plain worship, and churches run by elected elders.","why":"Because it did not depend on one friendly prince, it travelled — into France, the Netherlands, Scotland, Poland, and England — better than any rival."},{"t":"2.2","term":"Lutheranism","def":"The Protestant tradition following Martin Luther: salvation by faith, scripture as the authority, worship in German, congregational hymn singing, and married clergy.","why":"It was the first Protestant church to win legal protection from rulers, which is how the Reformation survived past the lifetime of one monk."},{"t":"2.2","term":"Anabaptists","def":"Radical reformers who rejected the baptism of infants and insisted that people be baptized only as adults who had chosen the faith themselves.","why":"The CED names them as the response that went further than Luther; because they also refused to let any government run the church, Catholics and Protestants persecuted them alike."},{"t":"2.2","term":"German Peasants’ War","def":"A mass uprising in which German peasants borrowed Luther’s language about Christian freedom to demand relief from lords’ dues, rents, and labor services.","why":"It shows religious ideas escaping their author: Luther denounced the rebels, which permanently tied Lutheranism to princes rather than to the poor."},{"t":"2.2","term":"Wealth as a sign of God’s favor","def":"The idea, which the CED attaches to Calvinists, that prospering through disciplined hard work could be read as evidence God approved of you.","why":"The CED singles it out because it changed European attitudes toward profit — making money stopped looking spiritually suspicious and started looking like a blessing."},{"t":"2.2","term":"Diet of Worms","def":"The assembly of the Holy Roman Empire where Emperor Charles V ordered Luther to take back his writings, and Luther refused in front of the emperor.","why":"It made the split official and political: afterward Luther was an outlaw, and any prince who sheltered him was openly defying the emperor."},{"t":"2.2","term":"Excommunication","def":"Being formally cut off by the pope from the Catholic Church and denied its sacraments.","why":"It had once been a devastating weapon; that Luther survived it — protected by a German prince — proved to everyone watching that papal power now had limits."},{"t":"2.3","term":"Vernacular","def":"The everyday spoken language of a place — German, French, English — as opposed to Latin, the language of the clergy and the universities.","why":"Moving religion into the vernacular is what let ordinary people check religious claims for themselves instead of taking a priest’s word."},{"t":"2.3","term":"Vernacular Bible","def":"A translation of scripture into a common spoken language, printed cheaply enough that an ordinary household could own one.","why":"The CED names it as a key tool of reform, and it has to be: “scripture alone” means nothing unless people can actually read the scripture."},{"t":"2.3","term":"Pamphlet","def":"A short, cheap printed booklet — often only a few pages, usually with a woodcut picture — written fast for a general audience rather than for scholars.","why":"Pamphlets and their printed images made the Reformation the first mass-media event, letting reformers reach thousands, including the illiterate, before the Church could answer."},{"t":"2.3","term":"Huguenots","def":"French Protestants who followed Calvin’s teaching; a striking number were nobles, merchants, and skilled townspeople rather than peasants.","why":"The CED lists them as a group whose religion became a way of challenging the French crown’s control of the church — faith and noble rebellion running on the same rails."},{"t":"2.3","term":"Puritans","def":"English Protestants who believed the Church of England had kept too much Catholic ceremony and wanted it stripped down along Calvinist lines.","why":"The CED names them as challengers of the monarch’s control of religion, and the fight they picked eventually helped push England into civil war."},{"t":"2.3","term":"Szlachta","def":"The nobility of Poland-Lithuania — an unusually large, legally privileged class that elected the king and kept his power tightly limited.","why":"The CED lists “nobles in Poland” as challengers of royal control over religion; their strength is exactly why Poland tolerated several faiths while western Europe fought."},{"t":"2.3","term":"State control of the church","def":"An arrangement in which the ruler, not the pope, appoints bishops, sets church rules, and takes in church revenue.","why":"The CED says religious reform “increased state control of religious institutions” — for a lot of rulers, that, not theology, was the whole attraction."},{"t":"2.4","term":"French wars of religion","def":"A long series of civil wars in France between Catholic and Huguenot factions, tangled together with great noble families competing to control a weak crown.","why":"The CED uses them as the model case of religious reform making an existing fight between monarchy and nobility far worse."},{"t":"2.4","term":"St. Bartholomew’s Day massacre","def":"The killing of thousands of Huguenots in Paris and other French cities, beginning with an attack on Protestant nobles who had gathered for a royal wedding.","why":"It wiped out Huguenot leadership, hardened the wars, and became the image Protestants across Europe carried in their heads of what Catholic power meant."},{"t":"2.4","term":"War of the Three Henrys","def":"The last phase of the French wars of religion, fought among King Henry III, the Catholic League’s Henry of Guise, and the Protestant heir Henry of Navarre.","why":"It shows the wars finishing as a plain succession fight — by the end, religion and dynastic politics were the same problem."},{"t":"2.4","term":"Politique","def":"A ruler or adviser who put the survival and peace of the state ahead of forcing everyone into one religion.","why":"Henry IV is the CED’s example; the politique calculation is the reason a state could decide to tolerate a faith its own king disliked."},{"t":"2.4","term":"Edict of Nantes","def":"Henry IV’s law giving French Huguenots freedom of worship in named places, full civil rights, and control of a set of fortified towns.","why":"The CED makes it the leading case of a state allowing religious pluralism “in order to maintain domestic peace” — toleration as policy, not as principle."},{"t":"2.4","term":"Habsburgs","def":"The ruling family that held the Holy Roman Empire’s imperial title for centuries and, under Charles V, also ruled Spain, the Netherlands, Austria, and Spain’s American empire.","why":"The CED casts them as the failed defenders of Catholic unity; their failure is precisely what leaves Europe permanently divided."},{"t":"2.4","term":"Holy Roman Empire","def":"A loose collection of several hundred German principalities, church territories, and free cities under an elected emperor who had prestige but very limited power over them.","why":"Because princes were strong and the emperor weak, a reformer with one prince’s protection could not simply be crushed — the empire’s weakness kept Protestantism alive."},{"t":"2.4","term":"Peace of Augsburg","def":"The settlement that let each German prince choose whether his own territory would be Lutheran or Catholic, with subjects expected to follow their ruler’s choice.","why":"It made Protestantism legal inside the empire and handed rulers authority over their subjects’ faith — the “state control of religious institutions” the CED describes, written into law."},{"t":"2.4","term":"Ottoman Empire","def":"The large Muslim empire ruled from Constantinople that pushed deep into Hungary and across the Mediterranean during the 16th century.","why":"The CED says the Habsburgs confronted it while trying to restore Catholic unity; fighting on two fronts at once is a main reason they failed at both."},{"t":"2.4","term":"Thirty Years’ War","def":"A long, ruinous war fought mainly on German soil that began as a Catholic–Protestant conflict and ended as a general war against Habsburg power.","why":"It is the CED’s clearest case of states exploiting religious conflict: Catholic France paid for, and then joined, the Protestant side."},{"t":"2.4","term":"Peace of Westphalia","def":"The 1648 settlement that ended the Thirty Years’ War, confirmed each ruler’s authority over religion in his own lands, and recognized Dutch and Swiss independence.","why":"The CED says it “marked the effective end of the medieval ideal of universal Christendom” — after it, the state, not the church, is the unit that counts."},{"t":"2.4","term":"Sovereignty","def":"Supreme authority inside a defined territory, with no outside power — not an emperor, not a pope — able to overrule it.","why":"It is the idea Westphalia put into practice, and it is the foundation the absolute monarchs of Unit 3 build on."},{"t":"2.4","term":"Dutch Revolt","def":"The rebellion of the Netherlands’ provinces against Philip II of Spain, driven by new taxes, trampled local privileges, and the persecution of Calvinists.","why":"It produced a Protestant republic that quietly tolerated several faiths — the CED’s other named example of a state allowing religious pluralism."},{"t":"2.4","term":"Warsaw Confederation","def":"The agreement by which the nobles of Poland-Lithuania pledged to keep the peace among the different Christian faiths inside the kingdom.","why":"It made Poland the legal exception in an age of religious war, which is why the CED lists Poland alongside the Netherlands as a pluralist state."},{"t":"2.4","term":"Spanish Armada","def":"The great fleet Philip II sent to invade Elizabeth I’s England, which was scattered by English ships and storms and never landed an army.","why":"It is the CED’s Catholic-Spain-versus-Protestant-England case: a war advertised as a crusade that was equally about Atlantic trade and Spain’s war in the Netherlands."},{"t":"2.5","term":"Catholic Reformation","def":"The Catholic Church’s own program of renewal: correcting abuses, defining doctrine clearly, training priests properly, and going on the offensive against Protestantism.","why":"The CED’s exact point is that it “revived the church but cemented division” — it rescued Catholicism and made reunion impossible in the same stroke."},{"t":"2.5","term":"Council of Trent","def":"The long series of Catholic church meetings that restated Catholic doctrine against Protestant claims, banned the worst financial abuses, and ordered priest-training schools.","why":"It is the moment Catholicism decided not to compromise: tradition stays equal to scripture, good works still matter, and there are still seven sacraments."},{"t":"2.5","term":"Jesuits (Society of Jesus)","def":"A new Catholic order founded by Ignatius of Loyola, organized with military-style discipline, sworn directly to the pope, and built around schools and overseas missions.","why":"The CED names the Jesuit Order as the exemplar of Catholic revival, and their schools won back whole regions that Protestantism had taken."},{"t":"2.5","term":"Roman Inquisition","def":"A papal court created to hunt out, try, and punish heresy inside Catholic Europe.","why":"It is the enforcement half of the Catholic Reformation — proof that renewal also meant discipline, surveillance, and punishment."},{"t":"2.5","term":"Index of Prohibited Books","def":"An official Catholic list of books that Catholics were forbidden to print, sell, read, or own.","why":"It is the Church trying to answer the printing press with censorship, which tells you exactly how dangerous cheap print had become."},{"t":"2.5","term":"Ursulines","def":"A Catholic order of women, founded by Angela Merici, devoted to teaching girls.","why":"The CED lists them as part of the Catholic Reformation; they show reform opening one of the very few respected public roles available to women."},{"t":"2.5","term":"Sacrament","def":"A ritual that Catholics believe actually delivers God’s grace — baptism, communion, confession, marriage, and others.","why":"Counting a church’s sacraments is the fastest test of where it stands: Trent confirmed seven, while most Protestants kept only baptism and communion."},{"t":"2.5","term":"Mysticism","def":"A style of religious life built on direct, personal experience of God, often described afterward as visions or overwhelming feeling.","why":"Teresa of Ávila’s mysticism gave the Catholic revival an emotional force that could compete with Protestant preaching."},{"t":"2.5","term":"Seminary","def":"A school built for the single purpose of training priests.","why":"Trent’s order that every diocese run one is the practical fix for ignorant, untrained clergy — the complaint reformers had been making for a century."},{"t":"2.6","term":"Social hierarchy","def":"The ranked order of society, in which birth largely decided a person’s legal rights, work, marriage prospects, and standing.","why":"The CED insists hierarchies of class, religion, and gender “continued” — the Reformation rearranged belief far more than it rearranged rank."},{"t":"2.6","term":"Aristocratic privilege","def":"Legal advantages nobles held simply by birth: exemption from most taxes, fees owed to them for local services, and their own courts and legal protections.","why":"It is the concrete reason a religious quarrel could become a noble revolt — nobles already had a standing interest in keeping the crown weak."},{"t":"2.6","term":"Prestige of land ownership","def":"The belief that owning land, rather than earning money in trade, was the real mark of social standing.","why":"It explains why successful merchants bought country estates instead of expanding their businesses, which slowed the social change commerce might otherwise have caused."},{"t":"2.6","term":"La Querelle des Femmes","def":"The long-running written debate — French for “the quarrel about women” — over women’s intelligence, education, and proper place.","why":"The CED names it as the sign that Renaissance and Reformation ideas forced Europeans to argue about women’s roles in public and in print."},{"t":"2.6","term":"Women as preachers","def":"The disputed question of whether women could preach or hold religious authority, raised as soon as Protestants said every believer could read scripture.","why":"It shows the priesthood of all believers hitting a wall: nearly every reformer granted women spiritual equality and then denied them public authority."},{"t":"2.6","term":"Nuclear family","def":"A household made up of parents and their own children only, without grandparents, aunts, or cousins living under the same roof.","why":"The CED says the family stayed the primary social and economic institution and often took this form, so most economic life was organized at household scale."},{"t":"2.6","term":"Household economy","def":"A family working as one production unit, with men and women doing different but connected jobs on the farm, in the shop, or in the home.","why":"The CED’s phrase is “separate but complementary tasks” — women’s labor was essential and unending, which is not at all the same thing as being equal."},{"t":"2.6","term":"Regulating public morals","def":"City governments writing and enforcing laws about private behavior — drinking, sex, dress, begging, and how holidays could be celebrated.","why":"The CED ties this to social dislocation and the shifting authority of the church: as church courts weakened, town councils picked the job up."},{"t":"2.6","term":"Vagrancy and begging laws","def":"Rules separating the “deserving” local poor, who could receive relief, from wandering beggars, who were whipped, branded, or driven out of town.","why":"Population growth and rising prices pushed the poor into cities, and this is how nervous urban governments answered them."},{"t":"2.6","term":"Carnival","def":"The stretch of feasting, drinking, costumes, and deliberate role reversal in the days just before Lent began.","why":"The CED lists it twice — as communal leisure and as something authorities restricted — which makes it the perfect example of popular culture being fought over."},{"t":"2.6","term":"Lent","def":"The forty days of fasting, self-denial, and no meat that come before Easter in the Christian calendar.","why":"Leisure ran on the religious calendar, so knowing what Lent demanded is the only way to understand why Carnival existed at all."},{"t":"2.6","term":"Saint’s day festivities","def":"Local holidays honoring the patron saint of a town, parish, or trade, marked with processions, markets, games, and heavy drinking.","why":"The CED says leisure stayed communal and calendar-based; these are the days on which a village saw itself as a single body."},{"t":"2.6","term":"Blood sports","def":"Popular entertainments in which animals were baited, fought, or killed in front of a paying crowd — bear-baiting, cockfighting, bull-running.","why":"The CED lists them as communal leisure, and reformers’ disgust at them is a large part of why authorities began restricting popular amusements."},{"t":"2.6","term":"Charivari","def":"A noisy public shaming ritual in which neighbors surrounded someone’s house banging pots and jeering — aimed at a badly matched marriage, a beaten husband, or an adulterer.","why":"The CED names it as the community, not the state, enforcing its own norms: power running sideways between neighbors instead of down from a court."},{"t":"2.6","term":"Stocks","def":"A wooden frame in a public square that locked a person’s ankles or wrists in place so passersby could see, insult, and pelt them.","why":"Punishment was designed to be watched — the humiliation in front of people you knew was the actual penalty, not the discomfort."},{"t":"2.6","term":"Folk beliefs","def":"Long-standing popular ideas about magic, luck, healing, curses, and spirits that lived alongside official religion in most villages.","why":"The CED says witchcraft accusations reflected folk ideas, so the hunts are not simply superstition against religion — accuser, judge, and accused all believed magic worked."},{"t":"2.6","term":"Witchcraft accusations","def":"Formal charges that a neighbor had used harmful magic, usually filed after a death, an illness, a failed pregnancy, or a ruined crop.","why":"The CED dates their peak between 1580 and 1650 and ties it to social upheaval — the hunts track hard times, and they are not a medieval story."},{"t":"2.6","term":"Social dislocation","def":"The disruption caused when population growth, rising prices, migration, and war pull people out of settled communities and familiar roles.","why":"It is the CED’s stated cause for both morals regulation and witch accusations — the fear underneath the laws and the trials."},{"t":"2.7","term":"Mannerism","def":"An artistic style that followed the High Renaissance and broke its rules on purpose: stretched bodies, sour or acid colors, crowded and unstable space, no calm center.","why":"The CED calls this distortion, and a style built on imbalance fits an age of religious anxiety far better than serene Renaissance symmetry."},{"t":"2.7","term":"Baroque","def":"A dramatic, emotional style using violent light and shadow, motion, deep color, and enormous scale to overwhelm the viewer.","why":"The CED pairs it with drama and illusion; it is the visual weapon of the Catholic Reformation, built to move people who could never follow a theological argument."},{"t":"2.7","term":"Tenebrism","def":"Painting a scene almost entirely in darkness, with one harsh beam of light picking out only the figures that matter.","why":"It drags your eye exactly where the artist wants it and gives Baroque religious scenes the feel of something happening right now under a spotlight."},{"t":"2.7","term":"Illusionism","def":"Painting or carving so convincingly that a flat ceiling seems to open onto sky, or marble seems to be soft cloth, warm skin, or rising smoke.","why":"The CED names illusion outright — the point is to make a viewer feel that the miracle is taking place in the room with them."},{"t":"2.7","term":"Commission","def":"A paid order for a specific artwork, in which the person paying chooses the subject, the size, and the building it will hang in.","why":"The CED says monarchies, city-states, and the church commissioned this art to promote “their own stature and power,” so every work carries a sponsor’s agenda."},{"t":"2.7","term":"Art as propaganda","def":"Using images to persuade — to make a ruler look legitimate or a church look victorious — rather than only to decorate a wall.","why":"It is why AP Euro keeps asking you to source a painting: who paid for it, for what building, and aimed at which audience."}],"figures":[{"t":"2.2","name":"Martin Luther","work":"Ninety-five Theses","what":"German monk and university professor who attacked the sale of indulgences, then went further and argued that faith alone saves, scripture alone rules, and every believer is a priest.","why":"The CED names him first: he is the reformer who criticized Catholic abuses and then built a whole alternative theology out of the criticism."},{"t":"2.2","name":"Johann Tetzel","work":"—","what":"Dominican friar who ran the indulgence campaign in Germany that funded the rebuilding of St. Peter’s in Rome, reportedly with a jingle about coins and souls.","why":"He is the specific abuse Luther was reacting to — without a salesman working his region, the Ninety-five Theses have no occasion."},{"t":"2.2","name":"Pope Leo X","work":"Exsurge Domine","what":"Medici pope who condemned Luther’s writings, demanded he recant, and then excommunicated him when he refused.","why":"His response turned a debate about indulgences into a permanent break, and his building projects are why the indulgences were being sold in the first place."},{"t":"2.2","name":"Frederick the Wise","work":"—","what":"Elector of Saxony who founded Luther’s university, refused to hand him over, and hid him in a castle after he was outlawed.","why":"He is the proof that Reformation survival was political: a single powerful prince protecting one monk was enough to defeat both pope and emperor."},{"t":"2.2","name":"John Calvin","work":"Institutes of the Christian Religion","what":"French lawyer-turned-theologian who organized Protestant belief into a complete system centered on God’s absolute sovereignty and predestination, and built a disciplined church-run city in Geneva.","why":"The CED pairs him with Luther; his version travelled best, and his followers turn up in every later conflict in this unit."},{"t":"2.2","name":"Huldrych Zwingli","work":"Sixty-Seven Articles","what":"Swiss reformer in Zurich who stripped churches of images and music and insisted communion was only a symbolic memorial, not Christ’s real presence.","why":"His split with Luther over communion shows Protestants dividing among themselves almost immediately — pluralism inside Protestantism, not just against Rome."},{"t":"2.2","name":"Thomas Müntzer","work":"—","what":"Radical preacher who told German peasants that God was calling them to overturn their lords by force, and died with the rebel armies.","why":"He is the CED’s “German peasants” response made into a person, and the reason Luther recoiled and threw his weight behind the princes."},{"t":"2.2","name":"Menno Simons","work":"Foundation of Christian Doctrine","what":"Former priest who rebuilt scattered, hunted Anabaptist communities around adult baptism, pacifism, and total separation from government.","why":"He shows the Anabaptist strand surviving persecution by withdrawing from politics entirely rather than fighting for control of it."},{"t":"2.3","name":"William Tyndale","work":"English New Testament","what":"English scholar who translated the New Testament into English directly from Greek, printed it abroad, smuggled it home, and was executed for it.","why":"He is the CED’s “vernacular Bibles” in one life — and the fact that translating was a capital crime shows what authorities thought print could do."},{"t":"2.3","name":"Lucas Cranach the Elder","work":"Passional Christi und Antichristi","what":"Wittenberg painter and print-shop owner who produced Luther’s portraits and mass-produced woodcuts contrasting a humble Christ with a luxurious pope.","why":"He is how the Reformation reached people who could not read: the CED’s point about reformers using the press is as much about pictures as text."},{"t":"2.3","name":"John Knox","work":"First Book of Discipline","what":"Scottish preacher trained in Geneva who led the Calvinist reformation of Scotland against a Catholic queen.","why":"Scotland is a clean case of the CED’s claim that religious conflict became a way of challenging a monarch’s control of the church."},{"t":"2.4","name":"Charles V","work":"Edict of Worms","what":"Habsburg ruler of Spain, the Netherlands, Austria, the Spanish Americas, and the Holy Roman Empire, who outlawed Luther, fought the Ottomans and France, and finally abdicated and split his lands.","why":"He is the CED’s named Habsburg: the one man with enough territory to restore Catholic unity, and the proof that even he could not do it."},{"t":"2.4","name":"Suleiman the Magnificent","work":"—","what":"Ottoman sultan who conquered most of Hungary, besieged Vienna, and dominated the Mediterranean at the height of Ottoman power.","why":"The CED says Habsburg rulers confronted an expanded Ottoman Empire while trying to restore Catholic unity — he is that expansion."},{"t":"2.4","name":"Philip II","work":"—","what":"King of Spain who used American silver to fight Protestantism everywhere at once: crushing the Dutch revolt, backing French Catholics, and launching the Armada against England.","why":"He is the CED’s “Catholic Spain,” and his simultaneous wars show religious motives and imperial economics running together inseparably."},{"t":"2.4","name":"Elizabeth I","work":"—","what":"Queen of England who settled a moderate Protestant church, funded Dutch rebels and privateers against Spain, and survived the Armada.","why":"She is the CED’s “Protestant England” — and the Puritans’ complaints against her settlement are the CED’s example of challenging a monarch’s church."},{"t":"2.4","name":"William of Orange","work":"Apology","what":"Dutch nobleman, also called William the Silent, who led the provinces’ revolt against Philip II and argued for tolerating more than one faith.","why":"The Netherlands is one of the CED’s two named pluralist states, and he is the person who made that pluralism a war aim."},{"t":"2.4","name":"Catherine de’ Medici","work":"—","what":"Italian-born queen mother who governed France through three weak sons, alternating between tolerating Huguenots and destroying them.","why":"The CED names her as a key factor in the French wars of religion; her sudden reversals are what made those wars so long and so unpredictable."},{"t":"2.4","name":"Gaspard de Coligny","work":"—","what":"Admiral of France and the leading Huguenot noble, who gained influence over the young king and was the first man killed in the St. Bartholomew’s Day massacre.","why":"His rise and murder show the CED’s point exactly: religious reform sharpening a struggle between monarchy and nobility."},{"t":"2.4","name":"Henry of Guise","work":"—","what":"Head of the ultra-Catholic Guise family and of the Catholic League, financed partly by Spain, who tried to control the French crown and block a Protestant heir.","why":"He is the Catholic half of the War of the Three Henrys and the clearest case of a noble using religion to make a claim on royal power."},{"t":"2.4","name":"Henry III","work":"—","what":"Last Valois king of France, squeezed between the Catholic League and the Huguenots, who had Henry of Guise assassinated and was assassinated himself.","why":"His death ends a dynasty and hands the throne to a Protestant, which is what forces France to choose between endless war and toleration."},{"t":"2.4","name":"Henry IV","work":"Edict of Nantes","what":"Protestant heir who converted to Catholicism to be accepted as king of France, then guaranteed Huguenots freedom of worship and fortified towns.","why":"The CED names both him and his edict: he is the politique choice, putting a working state ahead of a uniform church."},{"t":"2.4","name":"Ferdinand II","work":"—","what":"Habsburg emperor whose drive to restore Catholicism in Bohemia and the empire helped touch off and prolong the Thirty Years’ War.","why":"He is the last serious Habsburg attempt at Catholic unity, and Westphalia is the settlement that formally ends the attempt."},{"t":"2.4","name":"Gustavus Adolphus","work":"—","what":"Lutheran king of Sweden who invaded the empire with a modernized army, won stunning victories against Habsburg forces, and died in battle.","why":"The CED lists Sweden among the states exploiting religious conflict; his campaign was about Baltic trade and power as much as about Lutheranism."},{"t":"2.5","name":"Pope Paul III","work":"—","what":"Pope who approved the Jesuits, re-established the Roman Inquisition, and finally called the Council of Trent into session.","why":"He is the hinge of the Catholic Reformation: nearly every institution the CED names for Topic 2.5 starts with a decision of his."},{"t":"2.5","name":"Ignatius of Loyola","work":"Spiritual Exercises","what":"Wounded Spanish soldier who turned to religion and founded the Society of Jesus, training members through a rigorous program of meditation and obedience.","why":"The CED names the Jesuit Order as the exemplar of Catholic revival; his military discipline is what made it effective in schools and missions."},{"t":"2.5","name":"St. Teresa of Ávila","work":"The Interior Castle","what":"Spanish nun and mystic who described her visions of union with God in plain, vivid prose and reformed the Carmelite order toward stricter poverty.","why":"The CED names her directly: she gives the Catholic revival a personal, emotional intensity, and a rare public voice for a woman."},{"t":"2.5","name":"Angela Merici","work":"—","what":"Italian laywoman who organized the Ursulines, a company of women committed to teaching poor girls in their own neighborhoods.","why":"The CED names the Ursulines; hers is the model of Catholic reform creating real institutional work for women outside the cloister."},{"t":"2.5","name":"Pope Paul IV","work":"Index of Prohibited Books","what":"Hard-line pope who issued the first Roman Index, expanded the Inquisition’s reach, and enforced doctrine with maximum severity.","why":"He shows the CED’s harder edge of Catholic reform: censorship and prosecution rather than persuasion."},{"t":"2.6","name":"Katharina von Bora","work":"—","what":"Former nun who escaped her convent, married Martin Luther, and ran a large household, farm, and boarding operation that supported his work.","why":"The Protestant parsonage replaced the convent as the model religious life for women — a real change in role that was still organized around a household."},{"t":"2.6","name":"Christine de Pizan","work":"The Book of the City of Ladies","what":"Writer at the French court, working before this unit opens, who answered claims about women’s inferiority by assembling a written record of women’s achievements.","why":"She is where La Querelle des Femmes begins, which is why the CED can treat the debate as already running when the Reformation intensifies it."},{"t":"2.6","name":"Marie de Gournay","work":"The Equality of Men and Women","what":"French writer and editor who argued that women were not naturally inferior and that the apparent gap came entirely from denying them education.","why":"She is the Querelle at full strength in this unit’s later years, and she names education — the CED’s exact term — as the whole issue."},{"t":"2.6","name":"Heinrich Kramer","work":"Malleus Maleficarum","what":"Dominican inquisitor whose printed handbook on identifying and prosecuting witches insisted that women were especially susceptible to the devil.","why":"Cheap printing spread his manual across Europe, which is a large part of why the CED can point to the prominence of women in later accusations."},{"t":"2.7","name":"El Greco","work":"The Burial of the Count of Orgaz","what":"Cretan-born painter working in Toledo whose figures stretch, flicker, and dissolve upward in cold silver and acid-yellow light.","why":"A CED-named artist for Topic 2.7 and the clearest case of Mannerist distortion serving Spanish Catholic devotion."},{"t":"2.7","name":"Artemisia Gentileschi","work":"Judith Beheading Holofernes","what":"Italian Baroque painter, trained by her father and one of the first women admitted to a European art academy, known for close-up violence and lighting.","why":"A CED-named artist for Topic 2.7; her career is also evidence for Topic 2.6’s debates about what women could actually do."},{"t":"2.7","name":"Gian Lorenzo Bernini","work":"The Ecstasy of Saint Teresa","what":"Roman sculptor and architect who designed St. Peter’s Square and carved marble into flying cloth, hot skin, and shafts of light.","why":"Listed by the CED as “Gian Bernini”; his work is the Catholic Reformation’s argument built into the fabric of Rome itself."},{"t":"2.7","name":"Peter Paul Rubens","work":"The Elevation of the Cross","what":"Flemish painter and diplomat who ran a huge Antwerp workshop producing muscular, churning altarpieces and glorifying portraits of rulers.","why":"A CED-named artist for Topic 2.7 who worked for both the Counter-Reformation church and Europe’s courts, which is the CED’s point about who commissioned this art."}],"timeline":[{"y":"c. 1450","e":"Unit 2 opens: western Europe is still one official church under the pope","t":"2.1","why":"The CED’s starting boundary, and the baseline every change in this unit is measured against."},{"y":"1450s","e":"Printing with movable type takes hold in Europe","t":"2.3","why":"The CED dates the press to this decade, and Topic 2.3 turns entirely on reformers having it."},{"y":"1517","e":"Martin Luther publishes the Ninety-five Theses against the sale of indulgences","t":"2.2","why":"The CED’s starting point for Protestant reform; the CED does not supply the exact year, so the decade is used."},{"y":"1521","e":"Luther is excommunicated by Leo X and outlawed by Charles V at the Diet of Worms","t":"2.2","why":"The moment the argument stops being internal: pope and emperor both rule against him and neither can enforce it."},{"y":"1524–25","e":"The German Peasants’ War: peasants use Luther’s language and Luther sides with the princes","t":"2.2","why":"The CED names German peasants as a response to Luther; his condemnation permanently allies Lutheranism with rulers."},{"y":"1520s","e":"Luther’s German pamphlets and Cranach’s woodcuts flood the Holy Roman Empire","t":"2.3","why":"This is KC-1.1.II.B in action — reform spreads because it is printed, illustrated, and cheap."},{"y":"1520s","e":"Anabaptists begin baptizing adults and refusing any state authority over the church","t":"2.3","why":"The CED’s named radicals, and the clearest case of Protestants rejecting the subordination of church to state."},{"y":"1534","e":"Luther’s complete German Bible is printed at Wittenberg","t":"2.3","why":"The CED lists vernacular Bibles as an illustrative example; this is the one that set the standard for written German."},{"y":"1535","e":"Angela Merici founds the Ursulines to educate girls","t":"2.5","why":"A CED illustrative example for the Catholic Reformation, and one of the few new public roles created for women."},{"y":"1540","e":"Ignatius of Loyola gathers the first Jesuits and wins papal approval","t":"2.5","why":"The CED names the Jesuit Order as the exemplar of Catholic revival; their schools become the counter-offensive."},{"y":"1541","e":"Calvin’s Geneva becomes the model Reformed city","t":"2.2","why":"Geneva is where predestination and church discipline stop being theory and become a working government."},{"y":"1542","e":"Pope Paul III re-establishes the Roman Inquisition and opens the Council of Trent","t":"2.5","why":"Two CED-named institutions begin in the same decade — the Catholic Reformation’s enforcement arm and its doctrine-defining arm."},{"y":"1555","e":"Peace of Augsburg: each German prince chooses Lutheran or Catholic for his own lands","t":"2.4","why":"The first legal recognition that Christendom is divided, and the first grant of religious authority to secular rulers."},{"y":"1559","e":"Rome issues the Index of Prohibited Books","t":"2.5","why":"A CED illustrative example, and the Church’s direct answer to the printing press."},{"y":"1562","e":"The French wars of religion begin","t":"2.4","why":"The CED’s model case of religious reform inflaming the fight between monarchy and nobility."},{"y":"1563","e":"The Council of Trent closes, restating Catholic doctrine without compromise","t":"2.5","why":"The CED says the Catholic Reformation revived the church but cemented division — Trent is where the cement sets."},{"y":"1566","e":"The Netherlands revolt against Philip II of Spain","t":"2.4","why":"It produces the CED’s second named pluralist state and drains Spanish silver for eighty years."},{"y":"1572","e":"St. Bartholomew’s Day massacre destroys Huguenot leadership in Paris","t":"2.4","why":"A CED illustrative example, and the event that convinced Protestants across Europe that coexistence was impossible."},{"y":"1573","e":"Poland-Lithuania’s nobles pledge peace among faiths in the Warsaw Confederation","t":"2.4","why":"Poland is one of the CED’s two states allowing religious pluralism, and the nobles are why."},{"y":"1580","e":"Witchcraft accusations enter their peak period","t":"2.6","why":"One of the very few precise years the CED supplies: it dates the peak from 1580 to 1650."},{"y":"1587–89","e":"The War of the Three Henrys is fought over the French succession","t":"2.4","why":"A CED illustrative example, and the point where the religious war becomes openly a dynastic one."},{"y":"1588","e":"Philip II’s Armada fails against Elizabeth I’s England","t":"2.4","why":"The CED’s Catholic-Spain-versus-Protestant-England case of a state exploiting religious conflict for political ends."},{"y":"1598","e":"Henry IV converts to Catholicism and issues the Edict of Nantes","t":"2.4","why":"The CED names both; it is the clearest instance of a state choosing pluralism to keep domestic peace."},{"y":"1600s","e":"Baroque art spreads from Rome across Catholic Europe","t":"2.7","why":"KC-1.1.III.C: drama and illusion commissioned by the church and by monarchs to advertise their own power."},{"y":"1618","e":"The Thirty Years’ War begins in Bohemia","t":"2.4","why":"It starts as a Habsburg attempt to re-Catholicize an imperial territory and ends as a general war over power."},{"y":"1630/1635","e":"Sweden, and then Catholic France, enter the war against the Habsburgs","t":"2.4","why":"The CED names France, Sweden, and Denmark: Catholic France funding and joining the Protestant side proves religion was not the whole motive."},{"y":"1648","e":"The Peace of Westphalia ends the Thirty Years’ War","t":"2.4","why":"The CED supplies this year and says it marked the effective end of the medieval ideal of universal Christendom."},{"y":"1650","e":"Witchcraft accusations fall off after seventy years of peak prosecution","t":"2.6","why":"The CED supplies this year as the close of the peak, which puts the hunts squarely inside the age of religious war."}],"objectives":[{"letter":"A","text":"Explain the context in which the religious, political, and cultural developments of the 16th and 17th centuries took place.","topics":["2.1"]},{"letter":"B","text":"Explain how and why religious belief and practices changed from 1450 to 1648.","topics":["2.2","2.3"]},{"letter":"C","text":"Explain how matters of religion influenced and were influenced by political factors from 1450 to 1648.","topics":["2.4"]},{"letter":"D","text":"Explain the continuities and changes in the role of the Catholic Church from 1450 to 1648.","topics":["2.5"]},{"letter":"E","text":"Explain how economic and intellectual developments from 1450 to 1648 affected social norms and hierarchies.","topics":["2.6"]},{"letter":"F","text":"Explain how and why artistic expression changed from 1450 to 1648.","topics":["2.7"]},{"letter":"G","text":"Explain how the religious, political, and cultural developments of the 16th and 17th centuries affected European society from 1450 to 1648.","topics":["2.8"]}],"keyConcepts":[{"kc":"KC-1.1","text":"The rediscovery of works from ancient Greece and Rome and observation of the natural world changed many Europeans’ view of their world.","subs":[{"kc":"KC-1.1.II","text":"The invention of printing promoted the dissemination of new ideas.","ex":[]},{"kc":"KC-1.1.II.B","text":"Protestant reformers used the printing press to disseminate their ideas, which spurred religious reform and helped it to become widely established.","ex":["Martin Luther","Vernacular Bibles"]},{"kc":"KC-1.1.III","text":"The visual arts incorporated the new ideas of the Renaissance and were used to promote personal, political, and religious goals.","ex":[]},{"kc":"KC-1.1.III.C","text":"Mannerist and Baroque artists employed distortion, drama, and illusion in their work. Monarchies, city-states, and the church commissioned these works as a means of promoting their own stature and power.","ex":["El Greco","Artemisia Gentileschi","Gian Bernini","Peter Paul Rubens"]}]},{"kc":"KC-1.2","text":"Religious pluralism challenged the concept of a unified Europe.","subs":[{"kc":"KC-1.2.I","text":"The Protestant and Catholic reformations fundamentally changed theology, religious institutions, culture, and attitudes toward wealth and prosperity.","ex":[]},{"kc":"KC-1.2.I.B","text":"Reformers Martin Luther and John Calvin criticized Catholic abuses and established new interpretations of Christian doctrine and practice. Responses to Luther and Calvin included religious radicals, including the Anabaptists, and other groups, such as German peasants.","ex":["Priesthood of all believers","Primacy of scripture","Predestination","Salvation by faith alone"]},{"kc":"KC-1.2.I.C","text":"Some Protestant groups sanctioned the notion that wealth accumulation was a sign of God’s favor and a reward for hard work.","ex":["Calvinists"]},{"kc":"KC-1.2.I.D","text":"The Catholic Reformation, exemplified by the Jesuit Order and the Council of Trent, revived the church but cemented division within Christianity.","ex":["St. Teresa of Avila","Ursulines","Roman Inquisition","Index of Prohibited Books"]},{"kc":"KC-1.2.II","text":"Religious reform both increased state control of religious institutions and provided justifications for challenging state authority.","ex":[]},{"kc":"KC-1.2.II.B","text":"Some Protestants, including Calvin and the Anabaptists, refused to recognize the subordination of the church to the secular state.","ex":[]},{"kc":"KC-1.2.II.C","text":"Religious conflicts became a basis for challenging the monarchs’ control of religious institutions.","ex":["Huguenots","Puritans","Nobles in Poland"]},{"kc":"KC-1.2.III","text":"Conflicts among religious groups overlapped with political and economic competition within and among states.","ex":[]},{"kc":"KC-1.2.III.A","text":"Issues of religious reform exacerbated conflicts between the monarchy and the nobility, as in the French wars of religion.","ex":["Catherine de’ Medici","St. Bartholomew’s Day massacre","War of the Three Henrys","Henry IV"]},{"kc":"KC-1.2.III.B","text":"Habsburg rulers confronted an expanded Ottoman Empire while attempting unsuccessfully to restore Catholic unity across Europe.","ex":["Charles V"]},{"kc":"KC-1.2.III.C","text":"States exploited religious conflicts to promote political and economic interests.","ex":["Catholic Spain and Protestant England","France, Sweden, and Denmark in the Thirty Years’ War"]},{"kc":"KC-1.2.III.D","text":"A few states, such as France with the Edict of Nantes, allowed religious pluralism in order to maintain domestic peace.","ex":["Poland","The Netherlands"]}]},{"kc":"KC-1.4","text":"European society and the experiences of everyday life were increasingly shaped by commercial and agricultural capitalism, notwithstanding the continued existence of medieval social and economic structures.","subs":[{"kc":"KC-1.4.I","text":"Economic change produced new social patterns, while traditions of hierarchy and status continued.","ex":[]},{"kc":"KC-1.4.I.C","text":"Established hierarchies of class, religion, and gender continued to define social status and perceptions in rural and urban settings.","ex":["Prestige of land ownership","Aristocratic privileges regarding taxes, fees for services, and legal protections","Political exclusion of women"]},{"kc":"KC-1.4.III","text":"Population shifts and growing commerce caused the expansion of cities, which often placed stress on their traditional political and social structures.","ex":[]},{"kc":"KC-1.4.III.C","text":"Social dislocation, coupled with the shifting authority of religious institutions during the Reformation, left city governments with the task of regulating public morals.","ex":["New secular laws regulating private life","Stricter codes on prostitution and begging","Abolishing or restricting Carnival"]},{"kc":"KC-1.4.IV","text":"The family remained the primary social and economic institution of early modern Europe and took several forms, including the nuclear family.","ex":[]},{"kc":"KC-1.4.IV.A","text":"Rural and urban households worked as units, with men and women engaged in separate but complementary tasks.","ex":[]},{"kc":"KC-1.4.IV.B","text":"The Renaissance and Reformation raised debates about female education and women’s roles in the family, church, and society.","ex":["Women’s intellect and education","Women as preachers","La Querelle des Femmes"]},{"kc":"KC-1.4.V","text":"Popular culture, leisure activities, and rituals reflecting the continued popularity of folk ideas reinforced and sometimes challenged communal ties and norms.","ex":[]},{"kc":"KC-1.4.V.A","text":"Leisure activities continued to be organized according to the religious calendar and the agricultural cycle, and remained communal in nature.","ex":["Saint’s day festivities","Carnival","Blood sports"]},{"kc":"KC-1.4.V.B","text":"Local and church authorities continued to enforce communal norms through rituals of public humiliation.","ex":["Charivari","Stocks","Public whipping and branding"]},{"kc":"KC-1.4.V.C","text":"Reflecting folk ideas and social and economic upheaval, accusations of witchcraft peaked between 1580 and 1650.","ex":["Prominence of women","Regional variation","Social upheaval"]}]},{"kc":"KC-1.5","text":"The struggle for sovereignty within and among states resulted in varying degrees of political centralization.","subs":[{"kc":"KC-1.5.I","text":"The new concept of the sovereign state and secular systems of law played a central role in the creation of new political institutions.","ex":[]},{"kc":"KC-1.5.I.B","text":"The Peace of Westphalia (1648), which marked the effective end of the medieval ideal of universal Christendom, accelerated the decline of the Holy Roman Empire by granting princes, bishops, and other local leaders control over religion.","ex":[]}]}],"context":[{"label":"There was only one church","kind":"before","text":"For a thousand years, western and central Europe had a single Christian church, headed by the pope, worshipping in Latin, and staffed by a clergy with its own courts and its own tax exemptions. The Church baptized you, married you, buried you, ran the schools, and decided what counted as truth. Being Christian was not a choice a person made; it was the water everybody swam in. When you write context for Unit 2, start here — you cannot explain a religious revolution to a reader who does not know how total the old arrangement was."},{"label":"The Church ran on money and offices","kind":"before","text":"By 1500 the papacy was also an Italian state with armies, palaces, and an enormous building program at St. Peter’s in Rome. Paying for it meant selling church offices, letting one man hold several bishoprics at once, charging fees for dispensations, and sending preachers across Germany to sell indulgences. Ordinary Christians could see the cash flowing south over the Alps and getting spent on art and war. The complaints Luther made were not new — what was new was that he made them in print, in German, and refused to back down."},{"label":"Earlier reformers had been burned","kind":"before","text":"John Wycliffe in England and Jan Hus in Bohemia had already attacked papal wealth and demanded scripture in the vernacular, and Hus was burned at the stake for it. On top of that, from 1378 to 1417 the Great Schism gave Europe two and then three rival popes, each excommunicating the others. Church councils had to be called to clean up the mess, which raised the dangerous question of whether a council outranked a pope. That memory of a papacy that could be wrong is the reason educated Europeans in 1517 were willing to hear Luther out."},{"label":"Christian humanism had already sharpened the knife","kind":"before","text":"Unit 1’s northern humanists, above all Erasmus, applied philology to the Bible itself and published a corrected Greek New Testament showing that the official Latin translation contained errors. They mocked lazy monks and ignorant priests in widely read satires and argued that Christianity should be about inward piety rather than ceremony. None of them wanted to split the Church. But they handed reformers the tools — better texts, sharper Latin, and a habit of checking authority against evidence — and the saying that Erasmus laid the egg Luther hatched has stuck for a reason."},{"label":"The press was already running","kind":"before","text":"Movable type arrived in Europe in the 1450s, and by 1500 print shops operated in most large towns. Books were cheaper, faster to produce, and impossible to recall once released. Print also encouraged writing in the vernacular, because that was where the mass market was. This is the single most important continuity from Unit 1 into Unit 2: the same technology that spread Renaissance learning was sitting ready when a German monk wanted to argue with the pope, and it was the press, not the pulpit, that made him unstoppable."},{"label":"The Holy Roman Empire was not a country","kind":"during","text":"The empire covered most of German-speaking Europe but was really several hundred principalities, church territories, and free cities. The emperor was elected by seven princes and had prestige, ceremony, and very little power to tax or command. That fragmentation is the whole reason Luther survived: Frederick the Wise of Saxony could shelter an outlawed monk and the emperor could not simply take him. Where monarchs were strong, as in Spain and France, reform was crushed or controlled. Where they were weak, it grew."},{"label":"The Habsburgs were fighting on two fronts","kind":"during","text":"Charles V inherited Spain, the Netherlands, Austria, the Spanish American empire, and the imperial title, which sounds like enough power to force Catholic unity. It was not. Suleiman the Magnificent’s Ottoman armies took most of Hungary and besieged Vienna, and Ottoman fleets raided the Mediterranean. Meanwhile Catholic France, terrified of encirclement, funded Charles’s Protestant enemies and even allied with the Ottomans. The CED’s claim that Habsburgs tried “unsuccessfully to restore Catholic unity” is really a claim about strategic overload."},{"label":"Prices rose and the poor multiplied","kind":"during","text":"Europe’s population recovered through the 16th century just as American silver poured in, and prices climbed steadily while wages lagged. Rural people who could not get land moved to cities looking for work, and cities filled with migrants, beggars, and unemployed young men. Town governments responded with poor relief for locals, punishment and expulsion for outsiders, and new laws about drinking, sex, and public order. This economic pressure is the CED’s “social dislocation,” and it stands behind both the morals laws and the witch trials."},{"label":"Life was still local, rural, and seasonal","kind":"during","text":"For all the pamphlets and wars, most Europeans lived in villages, worked land they did not own, and organized the year around planting, harvest, and the church calendar. Holidays were saints’ days; entertainment was communal and public; neighbors enforced behavior on each other through shaming rituals rather than through courts. The family household was the unit of production, with men and women doing different jobs that both had to get done. Change at the top of society did not automatically reach down here, and the CED wants you to say so."},{"label":"Hunger, plague, and someone to blame","kind":"during","text":"The later 16th and early 17th centuries brought colder summers, failed harvests, returning plague, and armies living off the countryside. When a cow died, a child sickened, or the milk soured, communities already primed by folk beliefs about magic looked for a person responsible — most often an older, poor, isolated woman. Printed manuals told judges how to identify and interrogate witches, and legal torture produced confessions and more names. The CED dates the peak of accusations from 1580 to 1650, which is exactly the stretch of worst hardship and religious war."},{"label":"What it sets up: the state wins","kind":"after","text":"Westphalia in 1648 left rulers, not the pope or the emperor, deciding religion inside their own borders, and it recognized Dutch and Swiss independence. The Holy Roman Empire kept existing on paper while real power sat with individual princes. That is the doorway into Unit 3: once sovereignty is the organizing idea, monarchs start building armies, bureaucracies, and tax systems that answer only to them. Louis XIV’s absolutism and England’s constitutional fight are both arguments about who holds the sovereignty this unit created."},{"label":"What it sets up: toleration is fragile, and doubt is permanent","kind":"after","text":"The Edict of Nantes proved a state could tolerate a minority faith, but France revoked it in the next century and drove Huguenots into exile across Protestant Europe. More lasting was the intellectual damage: after a century in which sincere Christians burned each other over doctrine, educated Europeans started asking whether anyone could be certain about anything. Montaigne’s skepticism, the Scientific Revolution’s demand for evidence, and the Enlightenment’s case for religious toleration all grow out of exhaustion with the wars of religion."}],"stimulus":[{"t":"2.2","title":"Portrait of Martin Luther","artist":"Lucas Cranach the Elder","year":"1528","pd":true,"commons":"File:Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg","see":["He is in a plain black gown and a wide black beret — a university doctor’s clothes, not a monk’s habit and not a bishop’s robes; the monastic tonsure is gone and his hair curls out from under the cap","There is not one religious object in the picture: no crucifix, no rosary, no open Bible, no halo, no saint’s attribute","The background is flat blue-green with no room, window, or landscape behind him, so nothing competes with the face","He is heavy-jawed, thick-necked, and well fed, and he looks off to his own right rather than meeting your eye","The date and Cranach’s winged-serpent workshop mark sit small at the left edge — the signature of a shop that printed images of Luther by the thousand"],"argues":"That Luther is a respectable, sober scholar, not the wild heretic Rome described. Cranach ran a print business as well as a painting studio, and versions of this face were reproduced constantly — the Reformation is the first movement whose leader had a recognizable, mass-produced portrait. Stripping out every religious prop is itself the argument: authority here comes from learning and scripture, not from sacred objects or office.","connect":"KC-1.2.I.B (Luther establishing new interpretations of doctrine) and KC-1.1.II.B (reformers using the press to disseminate their ideas)."},{"t":"2.2","title":"Law and Grace (Gesetz und Gnade)","artist":"Lucas Cranach the Elder and workshop","year":"c. 1535–1540","pd":true,"commons":"File:Lucas Cranach d. Ä. und Werkst. - Gesetz und Gnade - Klassik Stiftung Weimar.jpg","see":["A single tree splits the panel down the middle: its left half is bare and dead, its right half is green and leafed — the whole theology is in that one trunk","On the left a naked man is driven toward flames by a skeleton and a red demon while Moses and the prophets stand by holding the stone tablets and pointing at him; Adam and Eve and the serpent are on the hill behind","On the right the same naked man stands still while John the Baptist points him to the crucified Christ, and a jet of blood arcs from Christ’s side onto his chest — he is not doing anything, he is only being shown","Bottom right: Christ steps out of the tomb holding a banner and treads on the skeleton and the dragon, so Death loses on this side of the tree","German Bible verses run along the bottom in labeled panels and on banners at the top — the picture is captioned, so an unlettered viewer can have it read aloud"],"argues":"That the Law can only condemn you and faith in Christ alone can save you — salvation by faith alone, turned into a diagram anyone could follow. Cranach’s workshop repeated this composition in paintings, woodcuts, and Bible title pages so that the doctrine travelled as an image. It is a teaching tool disguised as an altarpiece, and it shows Protestants making art after rejecting most religious art.","connect":"KC-1.2.I.B — “salvation by faith alone” and “primacy of scripture,” both CED illustrative examples — plus KC-1.1.II.B on reformers using print to spread ideas."},{"t":"2.3","title":"Title page of Luther’s complete German Bible","artist":"Printed by Hans Lufft at Wittenberg","year":"1534","pd":true,"commons":"File:Title page of Luther's first edition of the entire Bible Wittenberg, 1534.png","see":["The title is in German, in heavy blackletter type: “Biblia, das ist, die gantze Heilige Schrifft Deudsch” — the whole Holy Scripture, in German","Luther’s own name appears on the title page as “Mart. Luth.,” directly under the words for Holy Scripture, and the city “Wittemberg” under that","A small banner across the top reads “Gottes wort bleibt ewig” — God’s word remains forever — the movement’s slogan printed above everything else","The elector of Saxony’s coats of arms hang on flags at the upper left and right, and the text notes the printing was done with the elector’s privilege: a prince is publicly sponsoring this book","The line at the bottom names the printer, Hans Lufft, and gives the year in Roman numerals — this is a manufactured product with a maker’s mark, not a hand-copied manuscript"],"argues":"That scripture belongs to German-speaking people in their own language, and that a prince stands behind it. Every element is doing political work: the vernacular title, the reformer’s name as author, the elector’s arms as protection, the printer’s name as guarantee. A page like this is the CED’s “vernacular Bibles” and “reformers using press” claims fused into one object, and Luther’s German here shaped the written language for centuries.","connect":"KC-1.1.II.B — Protestant reformers using the printing press, with “Martin Luther” and “Vernacular Bibles” as the CED’s own illustrative examples."},{"t":"2.4","title":"The St. Bartholomew’s Day Massacre","artist":"François Dubois","year":"c. 1572–1584","pd":true,"commons":"File:La masacre de San Bartolomé, por François Dubois.jpg","see":["It is broad daylight in an ordinary city square with fine Renaissance buildings — the killing is public, organized, and unhurried, not a night riot","Nearly every victim is stripped naked and pale while every killer is dressed; bodies are dragged by ropes in the foreground and stacked in rows along the left-hand wall","At the far left, corpses are being thrown off a bridge or wall into the river below; a cart waits to carry more","In the middle distance a body is dropped from an upper window of a townhouse while well-dressed men stand around it in the street — the murder of Admiral Coligny","Top right, a gallows on a hill already holds hanged bodies; two dogs nose through the corpses in the foreground while armored horsemen ride in from the right"],"argues":"That this was a coordinated slaughter carried out by the respectable, not a mob getting out of hand — the painter was a Huguenot, and he wants Protestant Europe to see method rather than chaos. The nakedness of the dead strips them of rank and makes them interchangeable, which is the point about what religious war did to a society that ran on rank. Ask who painted it and for whom before you take any detail as literal reporting.","connect":"KC-1.2.III.A — the CED’s illustrative example “St. Bartholomew’s Day massacre” inside the French wars of religion, where reform sharpened the fight between monarchy and nobility."},{"t":"2.4","title":"The Ratification of the Treaty of Münster","artist":"Gerard ter Borch","year":"1648","pd":true,"commons":"File:Westfaelischer Friede in Muenster (Gerard Terborch 1648).jpg","see":["The two sides swear differently and you can see it: the group on the left raises the right hand with two fingers extended, while the group on the right lays hands on a book held out in front of them","A round table covered in green velvet with gold fringe holds two red document caskets, a gold seal, and an open book — the treaty as physical objects","Two men in the center each hold up a sheet of parchment, one facing each delegation, so the ratified text is shown to both parties at once","A gilded chandelier crowned by a radiant statue of the Virgin hangs directly above the table — the ceremony is happening in a Catholic city’s town hall","There is no king, emperor, pope, or presiding priest anywhere in the room; there are about sixty individually portrayed negotiators, and an empty carved chair in the left foreground"],"argues":"That peace was made by states negotiating with each other, not granted from above by a universal authority. Ter Borch painted the actual delegates as individual portraits, which turns a treaty into a group portrait of a new kind of politics. The Virgin overhead and the differing oaths in the same room make the deeper point: two confessions can now be legally recognized in one settlement instead of one being destroyed.","connect":"KC-1.5.I.B — the Peace of Westphalia (1648) as the effective end of the medieval ideal of universal Christendom — and KC-1.2.III.C on states exploiting religious conflict for political ends."},{"t":"2.5","title":"The Council of Trent","artist":"Pasquale Cati","year":"1588","pd":true,"commons":"File:Council of Trent by Pasquale Cati.jpg","see":["The top half is a record: hundreds of clergy in black robes and birettas packed into steep curving rows, with a secretary writing at a green-covered table in the open floor","At the upper left, cardinals in red sit on a raised platform beneath a canopy and the papal arms, with the pope’s name lettered on the hanging behind them","A shaft of light with the dove of the Holy Spirit breaks into the hall from the upper left corner, so the assembly is shown receiving divine guidance","The bottom half switches to allegory: a woman wearing the papal tiara sits enthroned in white, holding a gold cross-staff, surrounded by female figures with a chalice, a cross, a book, and armor","Under her feet a sprawling figure with a serpent is being trampled and struck; a globe and shut red books lie discarded on the pavement at the lower left"],"argues":"That the Council was guided by God and that its result was the defeat of heresy. The two halves work together: documentary detail on top buys credibility for the claim underneath. Cati painted it a generation after Trent closed, on commission for a Roman church, which makes it evidence of how the Catholic Reformation wanted to be remembered rather than a snapshot of the meetings.","connect":"KC-1.2.I.D — the Catholic Reformation exemplified by the Council of Trent, reviving the church while cementing division within Christianity."},{"t":"2.6","title":"The Fight Between Carnival and Lent","artist":"Pieter Bruegel the Elder","year":"1559","pd":true,"commons":"File:Bruegel, Pieter (I) - The Fight Between Carnival and Lent - Kunsthistorisches Museum GG 1016.jpg","see":["The square splits diagonally: the tavern and its crowd fill the left side, the grey stone church with its rose window and open door fills the right","Front and center, a fat man in a paper crown rides a wine barrel on a sled and levels a spit loaded with a pig’s head and sausages like a lance","His opponent is a thin, pale figure on a low red cart pulled by a monk and a nun, wearing a beehive as a hat and holding out a baker’s paddle with two small herrings on it","Behind the church door, black-veiled figures file out carrying stools while townspeople hand bread and coins to cripples and beggars sitting on the pavement","Scattered across the ground: dice, playing cards, broken pots, and waffles on the Carnival side — and children spinning tops and a play being performed on a wagon in the background"],"argues":"That popular culture and church discipline were both fully alive and openly in tension, and that ordinary people lived by a calendar that swung between feast and fast. Bruegel does not pick a winner; he lays the whole town out from above and lets you count what each side offers. Painted in a Netherlands about to explode into religious revolt, it is also a picture of a community whose shared rituals were becoming a battleground.","connect":"KC-1.4.V.A (leisure organized by the religious calendar and remaining communal, with Carnival a CED example) and KC-1.4.III.C (city governments regulating public morals, including “abolishing or restricting Carnival”)."},{"t":"2.6","title":"The Witches’ Sabbath","artist":"Hans Baldung Grien","year":"1510","pd":true,"commons":"File:The Witches' Sabbath MET DP826749.jpg","see":["Three naked older women crouch on the ground around a covered pot; one has just lifted the lid and a plume of vapor and small objects streams up out of it in a hard diagonal","Above them a fourth witch rides backwards through the night sky on a goat, her hair streaming behind her, balancing a long forked pole with a covered dish on it","The bodies are deliberately aged and sagging — this is not flattering nudity, it is meant to be repellent","The foreground is littered with bones, jars, a bird, a comb, and a wooden platter with lettering on it; a goat crouches at the left and a cat at the right","It is printed in tone rather than plain line — dark ink with white highlights cut into it — so the whole scene reads as happening at night in a wood, with a small tablet carrying the artist’s monogram hung on a tree at the right"],"argues":"That witches are real, female, organized, and physically disgusting. What matters historically is that this is a print: it was cut on a block, run off in numbers, sold, and copied, which is how a standardized picture of what a witch looked like spread across Europe. Note the date — the imagery was already circulating decades before the CED’s 1580–1650 peak in accusations, so the pictures came first and the mass trials followed.","connect":"KC-1.4.V.C — witchcraft accusations reflecting folk ideas and social upheaval, with the CED’s illustrative example “prominence of women.”"},{"t":"2.7","title":"The Burial of the Count of Orgaz","artist":"El Greco","year":"1586–1588","pd":true,"commons":"File:El Greco - The Burial of the Count of Orgaz.JPG","see":["The canvas divides into two worlds along a hard horizontal line made by a row of about twenty black-clad Toledo gentlemen in stiff white ruffs, many staring straight out at you","Below, two saints in heavy gold vestments lower the count’s body into the grave; his black armor is polished to a mirror and reflects the light, and the young saint’s gold robe is embroidered with a scene of his own martyrdom","Bottom left, a boy in black points out of the picture with one hand and holds a torch with the other, aiming your eye at the miracle","In the gap between the two zones, an angel in yellow-green carries a small, cloudy, almost formless infant upward — the count’s soul being squeezed through the opening","Above, the proportions change completely: Christ in white at the apex, the Virgin and John the Baptist below him, and crowds of saints whose bodies stretch, twist, and dissolve in cold silver and acid yellow light"],"argues":"That good works, the intercession of saints, and prayers for the dead really do carry a soul to heaven — every single doctrine Protestants denied, painted for a parish church in Catholic Spain. The two styles are the message: the earthly half is portrait-real so you trust it, and the heavenly half is distorted and weightless so you feel it is a different order of reality. Note who is portrayed in that row of mourners — living local notables, inserted into a miracle.","connect":"KC-1.1.III.C — Mannerist distortion, with El Greco named by the CED, and church commissions used to promote the church’s stature and power."},{"t":"2.7","title":"Judith Beheading Holofernes","artist":"Artemisia Gentileschi","year":"c. 1611–1612","pd":true,"commons":"File:Artemisia Gentileschi - Judith Beheading Holofernes - WGA8563.jpg","see":["The background is pure blackness and a single hard light from the upper left picks out only three faces, four arms, and a white mattress","Judith, in a blue gown with her sleeves pushed up, braces her right arm straight against Holofernes’ head and grips his hair with her left, leaning her whole body away from the spray","The maidservant is not waiting outside the tent — she is up on the bed, pinning his chest and one arm down with both hands and her own weight","The sword is already partway through the neck, and blood runs in three long streaks down the white sheet and spurts in visible arcs","Holofernes is still alive and pushing back, his eyes and mouth open, one hand shoving at the servant’s shoulder — nothing about the killing is clean or quick"],"argues":"That a story usually painted as an elegant triumph was in fact butchery requiring strength, help, and nerve. Gentileschi keeps you close, at eye level, with no distance and no crowd, which is exactly what Baroque drama and tenebrism are for. She was one of the very few women admitted to a European art academy, which makes the painting evidence for two topics at once: how Baroque art works, and what a woman could and could not do in this society.","connect":"KC-1.1.III.C — Baroque drama, with Artemisia Gentileschi named by the CED — and KC-1.4.IV.B on debates about women’s roles and abilities."}]};
+const $=(s,r)=>(r||document).querySelector(s), $$=(s,r)=>[...(r||document).querySelectorAll(s)];
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const THEME_COLOR={CID:"var(--accent-red)",TSI:"var(--navy-soft)",SOP:"var(--brass)",ECD:"var(--forest)",INT:"var(--plum)",SCD:"var(--terra)",NEI:"var(--nei)"};
+const topicColor=id=>{const t=DATA.topics.find(x=>x.id===id);if(!t)return"var(--border)";return THEME_COLOR[(t.theme||"").split(",")[0].trim()]||"var(--border)";};
+const topicTitle=id=>{const t=DATA.topics.find(x=>x.id===id);return t?t.title:"";};
+
+let state={topic:"all",src:"all",q:"",quiz:false,marks:{}};
+try{state.marks=JSON.parse(localStorage.getItem("apeuro_u1_marks")||"{}")}catch(e){state.marks={}}
+const saveMarks=()=>{try{localStorage.setItem("apeuro_u1_marks",JSON.stringify(state.marks))}catch(e){}};
+/* Sites embeds inject <base target="_top"> and the iframe sandbox has no
+   allow-top-navigation, so plain <a href="#x"> jumps and plain links die
+   silently. Handle every click ourselves. */
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  if(h.charAt(0)==="#"){
+    e.preventDefault();
+    var el=document.getElementById(h.slice(1));
+    if(el)el.scrollIntoView({behavior:"smooth",block:"start"});
+    return;
+  }
+  if(/^https?:/i.test(h)){
+    e.preventDefault();
+    window.open(a.href,"_blank","noopener");
+  }
+},true);
+(function(){let s=null;try{s=localStorage.getItem("apeuro_theme")}catch(e){}
+ if(s)document.documentElement.setAttribute("data-theme",s);
+ $("#themeBtn").onclick=()=>{const c=document.documentElement.getAttribute("data-theme");
+  const dark=c?c==="dark":matchMedia("(prefers-color-scheme:dark)").matches;const n=dark?"light":"dark";
+  document.documentElement.setAttribute("data-theme",n);try{localStorage.setItem("apeuro_theme",n)}catch(e){}};})();
+
+$("#heroEyebrow").textContent="Euro Atlas · Period "+DATA.unit.period+" · "+DATA.unit.span;
+$("#heroTag").textContent=DATA.unit.tagline;
+$("#heroH1").innerHTML=DATA.unit.heading;
+$("#tlEyebrow").textContent=DATA.unit.span.replace(/^c\. /,"").replace(" to c. "," to ");
+$("#stats").innerHTML=[[DATA.topics.length,"Topics"],[DATA.vocab.length,"Terms"],[DATA.figures.length,"Figures"],
+  [DATA.timeline.length,"Dates"],[DATA.stimulus.length,"Artworks"],[DATA.unit.weight,"Of the exam"]]
+  .map(([n,l])=>`<div class="stat"><b>${esc(n)}</b><span>${esc(l)}</span></div>`).join("");
+
+$("#topicChips").innerHTML='<button class="tchip on" data-t="all">All topics</button>'+
+ DATA.topics.map(t=>`<button class="tchip" data-t="${t.id}" title="${esc(t.title)} — ${esc(t.themeFull||"")}"><span class="dot" style="background:${topicColor(t.id)}"></span>${t.id}</button>`).join("");
+
+function cardShell(o){
+  return `<div class="card" data-key="${o.key}" data-t="${o.t}" data-h="${o.h===null||o.h===undefined?'':(o.h?1:0)}" data-text="${esc(o.text.toLowerCase())}">
+    <span class="tag" style="background:${topicColor(o.t)}"></span>
+    <div class="inner">
+      <div class="front">
+        <div class="tno">${esc(o.t)} · ${esc(topicTitle(o.t))}</div>
+        <div class="term">${esc(o.title)}</div>${o.sub?`<div class="work">${esc(o.sub)}</div>`:""}
+        <div class="hint">Tap to turn over</div>
+      </div>
+      <div class="back">
+        <div class="tno">Topic ${esc(o.t)}</div>
+        <div class="term" style="font-size:1.05rem">${esc(o.title)}</div>${o.sub?`<div class="work">${esc(o.sub)}</div>`:""}
+        <div class="def">${esc(o.def)}</div>
+        ${o.why?`<div class="why"><b>${esc(o.whyLabel)}</b> ${esc(o.why)}</div>`:""}
+        ${o.h===null||o.h===undefined?"":`<span class="badge ${o.h?"vid":"beyond"}">${o.h?"In the video":"Beyond the video"}</span>`}
+      </div>
+    </div>
+    <div class="mark"><button class="got" data-m="got">Got it</button><button class="miss" data-m="miss">Missed</button></div>
+  </div>`;
+}
+$("#vocabGrid").innerHTML=DATA.vocab.map((v,i)=>cardShell({key:"v"+i,t:v.t,h:(v.heimler===undefined?null:v.heimler),title:v.term,sub:"",
+  def:v.def,why:v.why,whyLabel:"Why it matters.",text:v.term+" "+v.def+" "+(v.why||"")})).join("");
+$("#figGrid").innerHTML=DATA.figures.map((f,i)=>cardShell({key:"f"+i,t:f.t,h:(f.heimler===undefined?null:f.heimler),title:f.name,
+  sub:(f.work&&f.work!=="—")?f.work:"",def:f.what,why:f.why,whyLabel:"Why they matter.",
+  text:f.name+" "+(f.work||"")+" "+f.what+" "+(f.why||"")})).join("");
+
+$("#rail").innerHTML=DATA.timeline.map((d,i)=>
+ `<li data-t="${d.t}" data-h="${d.heimler?1:0}" data-text="${esc((d.y+" "+d.e+" "+(d.why||"")).toLowerCase())}">
+   <button data-i="${i}"><span class="y">${esc(d.y)}</span><span class="e">${esc(d.e)}</span></button></li>`).join("");
+$("#rail").addEventListener("click",e=>{const b=e.target.closest("button[data-i]");if(!b)return;
+ $$("#rail button").forEach(x=>x.classList.remove("on"));b.classList.add("on");
+ const d=DATA.timeline[+b.dataset.i];
+ $("#tlwhy").style.borderLeftColor=topicColor(d.t);
+ $("#tlwhy").innerHTML=`<div class="y">${esc(d.y)}</div><div class="e">${esc(d.e)}</div><div class="w">${esc(d.why||"")}</div>
+   <div class="tno" style="margin-top:14px;font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);font-weight:600">Topic ${esc(d.t)} · ${esc(topicTitle(d.t))}</div>`;});
+
+$("#loGrid").innerHTML=DATA.objectives.map(o=>
+ `<div class="lo"><div class="ltr">${esc(o.letter)}</div><div><div class="txt">${esc(o.text)}</div>
+   <div class="tp">Topic ${esc((o.topics||[]).join(", "))}</div></div></div>`).join("");
+$("#kcList").innerHTML=DATA.keyConcepts.map((k,i)=>
+ `<details class="kc"${i===0?" open":""}><summary><span class="kcid">${esc(k.kc)}</span><span class="kctext">${esc(k.text)}</span></summary>
+   <div class="body">${(k.subs||[]).map(s=>`<div class="sub"><div class="sid">${esc(s.kc)}</div><p>${esc(s.text)}</p>
+     ${(s.ex&&s.ex.length)?`<ul class="ex">${s.ex.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</div>`).join("")}
+   </div></details>`).join("");
+
+$("#ctxGrid").innerHTML=DATA.context.map(c=>
+ `<div class="ctx"><span class="kind ${esc(c.kind)}">${c.kind==="before"?"Before 1450":c.kind==="during"?"Meanwhile":"What it sets up"}</span>
+   <h3>${esc(c.label)}</h3><p>${esc(c.text)}</p></div>`).join("");
+
+const cThumb=f=>"https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(String(f).replace(/^File:/,""))+"?width=1000";
+const cPage=f=>"https://commons.wikimedia.org/wiki/"+encodeURIComponent(String(f).replace(/ /g,"_"));
+$("#stimGrid").innerHTML=DATA.stimulus.map(s=>
+ `<div class="stim" data-t="${s.t}" data-text="${esc((s.title+" "+s.artist+" "+(s.argues||"")).toLowerCase())}">
+   ${s.commons?`<div class="imgwrap"><div class="fallback">Loading — or open it on Wikimedia Commons below.</div>
+     <img loading="lazy" src="${esc(cThumb(s.commons))}" alt="${esc(s.title)} by ${esc(s.artist)}"
+       onload="this.previousElementSibling.style.display='none'" onerror="this.style.display='none'"></div>`:""}
+   <div class="body">
+     <h3>${esc(s.title)}</h3>
+     <div class="cred">${esc(s.artist)} · ${esc(s.year)}</div>
+     ${s.commons?"":'<div class="badge beyond" style="align-self:flex-start">Described — still in copyright</div>'}
+     <ul class="look">${(s.see||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+     ${s.argues?`<div class="argues"><b>What it argues.</b> ${esc(s.argues)}</div>`:""}
+     ${s.connect?`<div class="cred" style="font-size:.85rem">Connects to: ${esc(s.connect)}</div>`:""}
+     ${s.commons?`<a class="src" href="${esc(cPage(s.commons))}" target="_blank" rel="noopener">View on Wikimedia Commons →</a>`
+       :(s.source?`<a class="src" href="${esc(s.source)}" target="_blank" rel="noopener">${esc(s.sourceLabel||"View the source")} →</a>`:"")}
+   </div></div>`).join("");
+
+function applyFilter(){
+  const q=state.q.trim().toLowerCase();let shown=0;
+  $$(".card").forEach(c=>{
+    const ok=(state.topic==="all"||c.dataset.t===state.topic)
+      &&(state.src==="all"||(state.src==="vid"?c.dataset.h==="1":c.dataset.h==="0"))
+      &&(!q||(c.dataset.text||"").includes(q));
+    c.classList.toggle("hidden",!ok);if(ok)shown++;});
+  $$("#rail li").forEach(li=>{li.classList.toggle("hidden",
+    !((state.topic==="all"||li.dataset.t===state.topic)
+      &&(state.src==="all"||(state.src==="vid"?li.dataset.h==="1":li.dataset.h==="0"))
+      &&(!q||(li.dataset.text||"").includes(q))));});
+  $$(".stim").forEach(s=>{s.style.display=((state.topic==="all"||s.dataset.t===state.topic)&&(!q||(s.dataset.text||"").includes(q)))?"":"none";});
+  $("#cardCount").textContent=shown+" cards shown";
+  ["vocabGrid","figGrid"].forEach(id=>{const g=$("#"+id);const any=$$(".card:not(.hidden)",g).length;
+    let e=g.nextElementSibling;if(e&&e.classList.contains("empty"))e.remove();
+    if(!any)g.insertAdjacentHTML("afterend",'<div class="empty">Nothing matches that filter.</div>');});
+}
+function paintMarks(){$$(".card").forEach(c=>{const m=state.marks[c.dataset.key];
+  c.classList.toggle("got",m==="got");c.classList.toggle("miss",m==="miss");});}
+
+$("#topicChips").addEventListener("click",e=>{const b=e.target.closest(".tchip");if(!b)return;
+ $$("#topicChips .tchip").forEach(x=>x.classList.remove("on"));b.classList.add("on");state.topic=b.dataset.t;applyFilter();});
+$("#q").addEventListener("input",e=>{state.q=e.target.value;applyFilter();});
+const S={all:$("#srcAll"),vid:$("#srcVid"),bey:$("#srcBey")};
+Object.entries(S).forEach(([k,b])=>b.onclick=()=>{state.src=k;Object.values(S).forEach(x=>x.classList.remove("on"));b.classList.add("on");applyFilter();});
+document.addEventListener("click",e=>{
+  const mb=e.target.closest(".mark button");
+  if(mb){e.stopPropagation();const c=mb.closest(".card"),m=mb.dataset.m;
+    state.marks[c.dataset.key]=state.marks[c.dataset.key]===m?null:m;
+    if(!state.marks[c.dataset.key])delete state.marks[c.dataset.key];saveMarks();paintMarks();return;}
+  const c=e.target.closest(".card");if(c&&!e.target.closest("a"))c.classList.toggle("flipped");});
+$("#quizBtn").onclick=()=>{state.quiz=!state.quiz;
+ ["#vocabGrid","#figGrid"].forEach(s=>{$(s).classList.toggle("quiz",state.quiz);$(s).classList.toggle("hide-fronts",state.quiz);});
+ $("#quizBtn").classList.toggle("on",state.quiz);$("#quizBtn").textContent=state.quiz?"Exit quiz":"Quiz me";
+ if(!state.quiz)$$(".card").forEach(c=>c.classList.remove("flipped"));};
+$("#shufBtn").onclick=()=>{["#vocabGrid","#figGrid"].forEach(sel=>{const g=$(sel),k=$$(".card",g);
+ for(let i=k.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));g.appendChild(k[j]);k.splice(j,1);}});};
+$("#resetBtn").onclick=()=>{state.marks={};saveMarks();paintMarks();$$(".card").forEach(c=>c.classList.remove("flipped"));};
+
+const links=$$(".bar a");
+const obs=new IntersectionObserver(es=>{es.forEach(en=>{if(en.isIntersecting)
+  links.forEach(l=>l.classList.toggle("on",l.dataset.s===en.target.id));});},{rootMargin:"-15% 0px -75% 0px"});
+$$("main .block").forEach(s=>obs.observe(s));
+
+const HAS_TAGS=DATA.vocab.some(v=>v.heimler===true||v.heimler===false);
+if(!HAS_TAGS){[...Object.values(S)].forEach(b=>b.style.display="none");
+  const lb=$("#srcAll").previousElementSibling;}
+paintMarks();applyFilter();
+</script>
+<style id="dm-css">
+html.dm{color-scheme:dark;--paper:#0F1527;--cream:#151D33;--cream-warm:#1B243E;--navy-deep:#0A1020;--brass:#C9A54F;--brass-ink:#E2C782;--brass-display:#DDBB6A;--brass-light:#E8D394;--ink:#EDE8DC;--slate:#BBC1D1;--line:#2E3957;--accent-red:#E07A7A;--good:#7DBF92;--good-soft:#173125;--bad:#E07A7A;--bad-soft:#3A1F22;--lift:0 1px 2px rgba(0,0,0,.35),0 6px 18px -6px rgba(0,0,0,.55);--lift-2:0 2px 4px rgba(0,0,0,.35),0 18px 40px -14px rgba(0,0,0,.7);--hair:0 1px 0 rgba(255,255,255,.06);--dm-card:var(--cream);--dm-ink:var(--ink);--dm-line:var(--line);--dm-tg-bg:#151D33;--dm-tg-fg:#D4B05E;--dm-tg-b:#2E3957;--dm-tg-font:'DM Sans',system-ui,sans-serif}
+:where(html.dm) .hero{color:#F7F1E5}
+:where(html.dm) .bar a.on{color:#B9C8F0}
+:where(html.dm) .pillbtn.on{color:#F7F1E5}
+:where(html.dm) .tchip.on{color:#F7F1E5}
+:where(html.dm) .badge.vid{color:#8CCBA0}
+:where(html.dm) .badge.beyond{color:#D4A4C6}
+:where(html.dm) .card.got{border-color:#3E6B4F}
+:where(html.dm) .card.got .mark .got{border-color:#3E6B4F}
+:where(html.dm) .sub .sid{color:#A9B9E6}
+:where(html.dm) .ctx .kind.during{color:#A9B9E6}
+:where(html.dm) .ctx .kind.after{color:#8CCBA0}
+:where(html.dm) footer{color:#F7F1E5}
+:where(html.dm) .note.exam .k{color:#8CCBA0}
+/* dark-mode toggle (shared) */
+:root{--dm-tg-bg:#fff;--dm-tg-fg:#1F1B3A;--dm-tg-b:rgba(0,0,0,.18);--dm-tg-font:system-ui,sans-serif}
+.dm-tg{position:fixed;right:14px;bottom:14px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 10px;border-radius:999px;border:2px solid var(--dm-tg-b);background:var(--dm-tg-bg);color:var(--dm-tg-fg);font:600 13px/1 var(--dm-tg-font);letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.22);transition:transform .15s,box-shadow .15s,opacity .2s;-webkit-tap-highlight-color:transparent;opacity:.96}
+.dm-tg:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:1}
+.dm-tg:active{transform:translateY(0) scale(.97)}
+.dm-tg:focus-visible{outline:3px solid #FFC83D;outline-offset:3px}
+.dm-tg svg{width:18px;height:18px;display:block}
+.dm-tg .dm-sun{display:none}
+html.dm .dm-tg .dm-sun{display:block}
+html.dm .dm-tg .dm-moon{display:none}
+.dm-tg .dm-lbl{white-space:nowrap}
+@media (max-width:620px){.dm-tg{right:10px;bottom:10px;height:38px;padding:0 10px}.dm-tg .dm-lbl{display:none}}
+@media print{.dm-tg{display:none !important}}
+
+</style>
+<script id="dm">
+/* Dark mode add-on (GeoArcade / World Compass / Euro Atlas / Lang Studio). Follows the device setting, with a per-page toggle. */
+(function(){
+  if (window.__dmInit) return; window.__dmInit = 1;
+  var d = document.documentElement, KEY = 'dm:pref', pref = null;
+  try { pref = localStorage.getItem(KEY) || sessionStorage.getItem(KEY); } catch (e) {}
+  var mq = null; try { mq = window.matchMedia('(prefers-color-scheme: dark)'); } catch (e) {}
+  function sys() { return !!(mq && mq.matches); }
+  var on = pref ? pref === 'dark' : sys();
+  d.classList.toggle('dm', on);
+  var btn;
+  function paint() {
+    d.classList.toggle('dm', on);
+    if (btn) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.setAttribute('title', on ? 'Switch to light mode' : 'Switch to dark mode');
+      var l = btn.querySelector('.dm-lbl'); if (l) l.textContent = on ? 'Light' : 'Dark';
+    }
+    try { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.setAttribute('content', on ? '#0F0D22' : '#FFFFFF'); } catch (e) {}
+  }
+  function set(v, remember) {
+    on = v; paint();
+    if (remember) { try { localStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} try { sessionStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} }
+  }
+  function build() {
+    if (btn || !document.body) return;
+    btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'dm-tg'; btn.id = 'dmToggle';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
+    btn.innerHTML = '<svg class="dm-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 14.6A8.5 8.5 0 0 1 9.4 3a1 1 0 0 0-1.1-1.3A10.5 10.5 0 1 0 22.3 15.7 1 1 0 0 0 21 14.6z"/></svg>'
+      + '<svg class="dm-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>'
+      + '<span class="dm-lbl">Dark</span>';
+    btn.addEventListener('click', function () { set(!on, true); });
+    document.body.appendChild(btn);
+    paint();
+    // keep the button last in <body> so nothing re-renders over it
+    new MutationObserver(function () { if (btn && document.body && document.body.lastElementChild !== btn && btn.isConnected) document.body.appendChild(btn); if (btn && !btn.isConnected) document.body.appendChild(btn); }).observe(document.body, { childList: true });
+  }
+  if (mq && mq.addEventListener) mq.addEventListener('change', function (e) { if (!pref) set(e.matches, false); });
+  else if (mq && mq.addListener) mq.addListener(function (e) { if (!pref) set(e.matches, false); });
+  if (document.body) build(); else document.addEventListener('DOMContentLoaded', build);
+  window.__dm = { set: function (v) { set(!!v, true); }, get on() { return on; } };
+})();
+
+</script>
+</body>
+</html>

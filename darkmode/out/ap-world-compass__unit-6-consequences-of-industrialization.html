@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AP World Unit 6 — Consequences of Industrialization</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&display=swap">
+<style>
+:root{
+--navy:#1E2761; --navy-2:#2B3780; --title:#1E2761; --gold:#C9A227; --gold-2:#E3C464; --gold-soft:#F6EBC4;
+--accent:#9A5B1E; --accent-soft:#F6ECE0;
+--bg:#F4F5F9; --surface:#FFFFFF; --surface-2:#EEF0F6; --line:#D8DBE6;
+--ink:#1A1D2E; --ink-2:#4A4F68; --muted:#666B82;
+--on-navy:#FFFFFF; --on-navy-muted:#B9BFE0;
+--good:#1B7F3B; --good-soft:#E3F3E7; --bad:#B42318; --bad-soft:#FBE9E7;
+--shadow:0 1px 2px rgba(30,39,97,.06),0 6px 18px rgba(30,39,97,.08);
+--display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+--body:Arial,Helvetica,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+#app{height:100vh;overflow-y:auto;overflow-x:hidden;scroll-behavior:smooth;-webkit-overflow-scrolling:touch}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.hero{background:var(--navy);color:var(--on-navy);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:auto -10% -60% auto;width:520px;height:520px;border-radius:50%;
+background:radial-gradient(circle at 30% 30%,rgba(201,162,39,.28),rgba(201,162,39,0) 62%);pointer-events:none}
+.hero .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;padding:44px 24px 36px;position:relative}
+.eyebrow{font-size:12px;font-weight:bold;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.hero h1{font-family:var(--display);font-weight:700;font-size:clamp(44px,6vw,72px);line-height:.98;margin:10px 0 14px;text-wrap:balance;letter-spacing:-.01em}
+.hero .lede{max-width:56ch;color:var(--on-navy-muted);font-size:17px;margin:0 0 22px}
+.stats{display:flex;gap:28px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--display);font-size:34px;font-weight:700;line-height:1;color:var(--gold-2)}
+.stat span{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--on-navy-muted)}
+.topics{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:18px 18px 10px;align-self:start}
+.topics h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+.topic-row{display:flex;gap:12px;align-items:flex-start;padding:8px 0;border-top:1px solid rgba(255,255,255,.1);font-size:14px;line-height:1.35}
+.topic-row:first-of-type{border-top:0}
+.topic-row .num{font-family:var(--display);font-weight:700;font-size:20px;line-height:1;min-width:38px;color:var(--gold-2)}
+.topic-row .theme{margin-left:auto;white-space:nowrap;font-size:11px;letter-spacing:.08em;color:var(--on-navy-muted)}
+.bar{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 2px 10px rgba(30,39,97,.06)}
+.bar .wrap{display:flex;align-items:center;gap:6px;padding:8px 24px;overflow-x:auto;scrollbar-width:none}
+.bar .wrap::-webkit-scrollbar{display:none}
+.bar a{color:var(--ink-2);text-decoration:none;font-size:14px;font-weight:bold;padding:8px 12px;border-radius:8px;white-space:nowrap}
+.bar a:hover,.bar a.active{background:var(--surface-2);color:var(--title)}
+.bar .spacer{flex:1}
+.bar .count{font-size:12px;color:var(--muted);white-space:nowrap}
+.filter{background:var(--surface-2);border-bottom:1px solid var(--line)}
+.filter .wrap{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 24px}
+.filter .lbl{font-size:12px;font-weight:bold;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:6px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:bold;cursor:pointer}
+.chip:hover{border-color:var(--title);color:var(--title)}
+.chip.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.filter input{margin-left:auto;min-width:220px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;font-size:14px}
+section.block{padding:44px 0 12px;scroll-margin-top:56px}
+.sec-head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.sec-head h2{font-family:var(--display);font-weight:700;font-size:38px;line-height:1;margin:0;color:var(--title)}
+.sec-head p{margin:0;color:var(--muted);font-size:14px;max-width:60ch}
+.sec-head .tools{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--title);border-radius:8px;padding:8px 14px;font-size:13px;font-weight:bold;cursor:pointer}
+.btn:hover{border-color:var(--navy)}
+.btn.primary{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.btn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.grid.big{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{perspective:1200px;display:flex;flex-direction:column;gap:6px}
+.card-inner{position:relative;width:100%;flex:1;min-height:150px;transition:transform .55s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d;cursor:pointer;border:0;padding:0;background:none;text-align:left;display:block;color:inherit}
+.grid.big .card-inner{min-height:250px}
+.card.flipped .card-inner{transform:rotateY(180deg)}
+.face{backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:inherit}
+.front{position:absolute;inset:0;background:var(--surface);border:1px solid var(--line)}
+.front::before{content:"";position:absolute;left:18px;right:18px;top:0;height:3px;background:var(--accent);border-radius:0 0 3px 3px}
+.back{position:relative;background:var(--navy);color:var(--on-navy);transform:rotateY(180deg)}
+.tag{font-size:11px;font-weight:bold;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.back .tag{color:var(--gold)}
+.term{font-family:var(--display);font-weight:700;font-size:26px;line-height:1.05;margin:10px 0 6px;color:var(--title);text-wrap:balance}
+.grid.big .term{font-size:28px}
+.sub{font-size:13px;color:var(--ink-2)}
+.cue{margin-top:14px;font-size:13px;color:var(--muted);line-height:1.4;max-width:34ch}
+.cue b{color:var(--accent)}
+.front .hint{margin-top:auto;font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.back .term{color:#fff;font-size:20px;margin:6px 0 8px}
+.def{font-size:14px;line-height:1.45}
+.why{margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.18);font-size:13px;color:var(--on-navy-muted)}
+.why b{color:var(--gold-2)}
+.kv{font-size:13px;line-height:1.4;margin:4px 0}
+.kv b{color:var(--gold-2);font-weight:bold}
+.card.hidden{display:none}
+.card .mark{display:none;gap:6px}
+.quiz .card .mark{display:flex}
+.mark button{flex:1;border:1px solid var(--line);border-radius:8px;padding:6px 8px;font-size:12px;font-weight:bold;cursor:pointer;background:var(--surface);color:var(--ink-2)}
+.mark button.got{color:var(--good)} .mark button.miss{color:var(--bad)}
+.card.got .front{box-shadow:0 0 0 2px var(--good),var(--shadow)}
+.card.miss .front{box-shadow:0 0 0 2px var(--bad),var(--shadow)}
+.card.got .mark .got{background:var(--good-soft);border-color:var(--good)}
+.card.miss .mark .miss{background:var(--bad-soft);border-color:var(--bad)}
+.quiz .front .term{filter:blur(0)}
+.quiz.hide-fronts .card:not(.flipped) .front .term{filter:blur(7px)}
+.quiz.hide-fronts .card:not(.flipped) .front .hint::after{content:" · term hidden — flip to check"}
+.quizbar{display:none;align-items:center;gap:14px;flex-wrap:wrap;background:var(--accent-soft);border:1px solid var(--accent);border-radius:12px;padding:12px 16px;margin:0 0 16px;font-size:14px}
+.quiz .quizbar{display:flex}
+.quizbar b{color:var(--accent)}
+.quizbar .score{display:flex;gap:14px}
+.pill{border-radius:999px;padding:3px 10px;font-weight:bold;font-size:13px}
+.pill.good{background:var(--good-soft);color:var(--good)} .pill.bad{background:var(--bad-soft);color:var(--bad)}
+.rail{position:relative;overflow-x:auto;padding:24px 0 18px;scroll-snap-type:x proximity}
+.rail ol::before{content:"";position:absolute;left:0;right:0;top:36px;height:3px;z-index:0;background:linear-gradient(90deg,var(--gold),var(--gold-2),var(--gold))}
+.rail ol{list-style:none;margin:0;padding:0 8px;display:flex;gap:14px;min-width:max-content;position:relative}
+.rail li{scroll-snap-align:start;width:210px}
+.year{display:block;width:100%;border:0;background:none;cursor:pointer;text-align:left;padding:0;color:inherit}
+.year .dot{position:relative;z-index:1;width:14px;height:14px;border-radius:50%;background:var(--surface);border:3px solid var(--gold);margin:29px 0 0 0;transition:transform .2s}
+.year:hover .dot,.year.open .dot{background:var(--accent);border-color:var(--accent);transform:scale(1.25)}
+.year .y{font-family:var(--display);font-weight:700;font-size:30px;line-height:1;color:var(--title);margin:10px 0 4px}
+.year .e{font-size:14px;font-weight:bold;color:var(--ink);line-height:1.3}
+.year .reg{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.year .more{display:none;margin-top:8px;font-size:13px;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow)}
+.year.open .more{display:block}
+.rail li.hidden{display:none}
+.dev{border:1px solid var(--line);background:var(--surface);border-radius:14px;margin-bottom:12px;overflow:hidden;box-shadow:var(--shadow)}
+.dev summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center;padding:16px 18px}
+.dev summary::-webkit-details-marker{display:none}
+.dev .num{font-family:var(--display);font-weight:700;font-size:34px;line-height:1;color:var(--accent)}
+.dev .ttl{font-weight:bold;font-size:17px;color:var(--title)}
+.dev .themes{font-size:11px;letter-spacing:.08em;color:var(--muted);margin-top:2px}
+.dev .arrow{width:28px;height:28px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;color:var(--title);font-weight:bold;transition:transform .25s}
+.dev[open] .arrow{transform:rotate(45deg)}
+.dev .body{padding:0 18px 18px 96px;display:grid;gap:14px}
+.lo{font-size:14px;color:var(--ink-2)}
+.lo b{color:var(--title)}
+.kc{border-left:3px solid var(--gold);padding:6px 14px;background:var(--surface-2);border-radius:0 10px 10px 0}
+.kc .code{font-size:11px;letter-spacing:.08em;color:var(--muted);font-weight:bold}
+.kc .official{font-size:14px;margin:2px 0 6px;color:var(--ink)}
+.kc .plain{font-size:14px;color:var(--ink-2)}
+.kc .plain b{color:var(--accent)}
+.ex{display:flex;flex-wrap:wrap;gap:6px}
+.ex span{font-size:12px;font-weight:bold;background:var(--gold-soft);color:var(--title);border-radius:6px;padding:4px 8px}
+.dev.hidden{display:none}
+@media (max-width:700px){.dev summary{grid-template-columns:48px 1fr auto}.dev .body{padding-left:18px}}
+.ctx{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.ctx .c{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+.ctx h3{margin:0 0 8px;font-size:15px;color:var(--title)}
+.ctx p{margin:6px 0;font-size:14px;color:var(--ink-2)}
+.ctx p b{display:inline-block;min-width:64px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+footer{margin-top:40px;padding:22px 0 34px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center}
+footer b{color:var(--title)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.topics{order:2}}
+@media (prefers-reduced-motion: reduce){
+html{scroll-behavior:auto}
+#app{scroll-behavior:auto}
+.card-inner{transition:none}
+.card.flipped .card-inner{transform:none}
+.front{visibility:visible}
+.card.flipped .front{visibility:hidden}
+.back{transform:none;visibility:hidden}
+.card.flipped .back{visibility:visible}
+}
+.hero{display:none}
+</style>
+<style id="ms-phone-nav">@media (max-width:700px){.bar .wrap{flex-wrap:wrap;overflow-x:visible;row-gap:2px;padding:6px 12px}.bar a{padding:6px 9px;font-size:13px}.bar .spacer{display:none}}</style><style id="ms-phone-text">@media (max-width:640px){.topic-row .theme,.tag,.front .hint,.year .reg,.dev .themes,.kc .code,.ctx p b{font-size:12px!important;line-height:1.35}}
+/* ios-no-zoom */@media (max-width:820px){input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]),textarea,select{font-size:16px !important}}
+</style></head>
+<body>
+<div id="app">
+<header class="hero">
+<div class="wrap">
+<div>
+<div class="eyebrow">AP World History: Modern &nbsp;·&nbsp; Unit 6 &nbsp;·&nbsp; 1750 – 1900</div>
+<h1 id="unitTitle">Consequences of Industrialization</h1>
+<p class="lede" id="unitLede"></p>
+<div class="stats" id="unitStats"></div>
+</div>
+<aside class="topics" aria-label="Topics in this unit">
+<h2>Topics</h2>
+<div id="topicList"></div>
+</aside>
+</div>
+</header>
+<nav class="bar" aria-label="Sections">
+<div class="wrap">
+<a href="#vocab">Vocabulary</a>
+<a href="#states">Empires &amp; States</a>
+<a href="#timeline">Timeline</a>
+<a href="#developments">Historical Developments</a>
+<a href="#context">Context Bank</a>
+<span class="spacer"></span>
+<span class="count" id="cardCount"></span>
+</div>
+</nav>
+<div class="filter">
+<div class="wrap">
+<span class="lbl">Show</span>
+<div id="chips" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+<input id="search" type="search" placeholder="Search terms, cards, dates…" aria-label="Search">
+</div>
+</div>
+<main class="wrap">
+<section class="block" id="vocab">
+<div class="sec-head">
+<h2>Vocabulary</h2>
+<p>Tap a card to flip it. Term on the front, definition and why it matters on the back.</p>
+<div class="tools">
+<button class="btn" id="shuffleVocab">Shuffle</button>
+<button class="btn" id="flipAllVocab">Flip all</button>
+<button class="btn gold" id="quizBtn">Quiz me</button>
+</div>
+</div>
+<div class="quizbar" id="quizbar">
+<div><b>Quiz mode.</b> Flip a card, then mark it. Missed cards get a red ring so you can come back to them. Marks last only while this page is open; they reset when you reload or leave.</div>
+<div class="score"><span class="pill good" id="gotN">0 got it</span><span class="pill bad" id="missN">0 missed</span></div>
+<button class="btn" id="hideFronts">Hide terms</button>
+<button class="btn" id="onlyMissed">Show missed only</button>
+<button class="btn" id="resetQuiz">Reset</button>
+</div>
+<div class="grid" id="vocabGrid"></div>
+</section>
+<section class="block" id="states">
+<div class="sec-head">
+<h2 id="statesH">Empires &amp; States</h2>
+<p id="statesP">How each state gained power, kept it, and what it is known for. These are the LEQ evidence cards.</p>
+<div class="tools"><button class="btn" id="flipAllStates">Flip all</button></div>
+</div>
+<div class="grid big" id="stateGrid"></div>
+</section>
+<section class="block" id="timeline">
+<div class="sec-head">
+<h2>Timeline</h2>
+<p>Click a date to see why it is on the list. Scroll sideways.</p>
+</div>
+<div class="rail"><ol id="rail"></ol></div>
+</section>
+<section class="block" id="developments">
+<div class="sec-head">
+<h2>Historical Developments</h2>
+<p>The College Board statements the questions are written from — official wording, then plain English, then the examples they expect you to know.</p>
+<div class="tools"><button class="btn" id="openAllDev">Open all</button></div>
+</div>
+<div id="devList"></div>
+</section>
+<section class="block" id="context">
+<div class="sec-head">
+<h2>Context Bank</h2>
+<p>Ready-made LEQ contextualization: one sentence before the period, one sentence during.</p>
+</div>
+<div class="ctx" id="ctxList"></div>
+</section>
+</main>
+<footer><b>Panther Creek High School</b> &nbsp;•&nbsp; Created by Scott Martin &nbsp;•&nbsp; APandAbroad@gmail.com<br>AP® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this site.</footer>
+</div>
+<script>
+const UNIT = {
+number: 6, title: "Consequences of Industrialization", dates: "1750 – 1900",
+lede: "Factories need raw materials and markets, and industrial states had the steamships, rifles, and quinine to go get them. Unit 6 follows the new imperialism into Africa, Asia, and the Pacific; the ideologies used to excuse it; the export economies and economic imperialism it created; the people who fought back; and the largest migrations in human history.",
+stats: [["12–15%","of the AP exam"],["8","topics"],["17–20","class periods"]],
+statesLabel: "Empires & Resistance", countLabel: "cards",
+statesBlurb: "Imperial powers and the states and movements that resisted them: how each expanded or arose, how it ruled or fought, what it is known for, and what happened to it.",
+stateFields: { gained:"How it expanded / arose", kept:"How it ruled / fought", known:"Known for", end:"Outcome", cue:"Before you flip — how did it <b>expand</b> or arise, how did it <b>rule</b> or fight, and what is it <b>known for</b>?" },
+topics: [
+{id:"6.1", title:"Rationales for Imperialism", themes:"CDI"},
+{id:"6.2", title:"State Expansion", themes:"GOV"},
+{id:"6.3", title:"Indigenous Responses to State Expansion", themes:"GOV · SIO"},
+{id:"6.4", title:"Global Economic Development", themes:"ENV · ECN"},
+{id:"6.5", title:"Economic Imperialism", themes:"ECN"},
+{id:"6.6", title:"Causes of Migration", themes:"ENV · ECN"},
+{id:"6.7", title:"Effects of Migration", themes:"SIO"},
+{id:"6.8", title:"Causation in the Imperial Age", themes:"Argumentation", review:true},
+],
+vocab: [
+// 6.1 Rationales
+{t:"6.1", term:"Imperialism", def:"A policy of extending a nation's power by taking control of other lands, directly as colonies or indirectly through economic domination.", why:"The subject of the whole unit; 'new imperialism' = the 1870–1914 scramble."},
+{t:"6.1", term:"Social Darwinism", def:"Misapplication of Darwin's 'survival of the fittest' to nations and races, claiming stronger peoples naturally rule weaker ones.", why:"CED-named ideology used to justify imperialism."},
+{t:"6.1", term:"Civilizing mission", def:"The claim that Europeans had a duty to bring Christianity, law, and 'civilization' to colonized peoples (French: mission civilisatrice).", why:"CED-named rationale."},
+{t:"6.1", term:"'White Man's Burden'", def:"Rudyard Kipling's 1899 poem urging the U.S. to take up the 'burden' of ruling the Philippines.", why:"The most quoted expression of the civilizing mission — great DBQ sourcing practice."},
+{t:"6.1", term:"Nationalism (as imperial motive)", def:"Pride that made colonies a measure of national greatness — a 'place in the sun.'", why:"CED-named ideology; why Germany and Italy rushed to grab colonies."},
+{t:"6.1", term:"Missionaries", def:"Christian religious workers who founded schools and hospitals in colonies and often preceded or justified conquest.", why:"CED-named 'desire to religiously convert indigenous populations.'"},
+{t:"6.1", term:"Scientific racism", def:"Pseudo-science (phrenology, skull measuring) claiming to prove a hierarchy of races.", why:"Racial ideology behind Social Darwinism."},
+{t:"6.1", term:"Quinine", def:"Anti-malaria drug from cinchona bark that let Europeans survive in tropical Africa.", why:"The technology that made the Scramble for Africa physically possible."},
+{t:"6.1", term:"Maxim gun", def:"First fully automatic machine gun (1884), which gave small European forces overwhelming firepower.", why:"'Whatever happens, we have got / the Maxim gun, and they have not.'"},
+// 6.2 State expansion
+{t:"6.2", term:"Scramble for Africa", def:"The rush (1880–1914) in which European powers carved up nearly the whole continent.", why:"KC-5.2.I.C — warfare and diplomacy in Africa."},
+{t:"6.2", term:"Berlin Conference (1884–1885)", def:"Meeting where European powers set rules for claiming African territory — without a single African present.", why:"The 'diplomacy' side of KC-5.2.I.C."},
+{t:"6.2", term:"King Leopold II / Congo Free State", def:"Belgian king who owned the Congo personally (1885–1908) and ran a brutal rubber regime that killed millions.", why:"CED-named shift from private to Belgian government control."},
+{t:"6.2", term:"Dutch East India Company → Dutch state", def:"After the VOC's bankruptcy (1799) the Netherlands government took direct control of Indonesia.", why:"CED-named shift from non-state to state control."},
+{t:"6.2", term:"British East India Company → British Raj", def:"After the 1857 rebellion, Britain abolished Company rule and governed India directly (the Raj) from 1858.", why:"Another company-to-state shift; India as 'jewel in the crown.'"},
+{t:"6.2", term:"Settler colony", def:"A colony where large numbers of Europeans moved permanently, displacing indigenous peoples — Australia, New Zealand, South Africa, Algeria.", why:"KC-5.2.I.D; CED-named example: New Zealand."},
+{t:"6.2", term:"Direct rule", def:"Colonial system where Europeans replaced local rulers with their own officials (French model).", why:"Compare with indirect rule on a comparison SAQ."},
+{t:"6.2", term:"Indirect rule", def:"Colonial system that governed through existing local rulers (British model in Nigeria, princely India).", why:"Cheaper control; preserved and manipulated traditional elites."},
+{t:"6.2", term:"Sphere of influence", def:"A region where one foreign power has exclusive trading and investment rights without formally ruling it.", why:"How Europeans and Japan divided China."},
+{t:"6.2", term:"Spanish-American War (1898)", def:"War in which the U.S. took Puerto Rico, Guam, and the Philippines from Spain and made Cuba a protectorate.", why:"KC-5.2.I.B — U.S. gains in Asia and the Pacific as Spain declines."},
+{t:"6.2", term:"Manifest Destiny", def:"U.S. belief that it was destined to expand across North America.", why:"KC-5.2.II.B — U.S. conquering and settling neighboring territory."},
+{t:"6.2", term:"Russian expansion", def:"Tsarist conquest of Central Asia, Siberia, and the Caucasus in the 1800s.", why:"KC-5.2.II.B — Russia as a land empire."},
+{t:"6.2", term:"Japanese expansion", def:"Meiji Japan took Taiwan (1895), Korea (1910), and influence in Manchuria after beating China and Russia.", why:"KC-5.2.I.B and II.B — a non-Western imperial power."},
+{t:"6.2", term:"Sino-Japanese War (1894–1895)", def:"Japan's quick victory over Qing China that won Taiwan and showed Meiji reforms had worked.", why:"Turning point: Japan joins the imperialists."},
+{t:"6.2", term:"Australia and New Zealand", def:"British settler colonies that displaced Aboriginal Australians and Maori through disease, war, and land seizure.", why:"CED-named settler colony example."},
+{t:"6.2", term:"French West Africa", def:"Federation of French colonies (Senegal, Mali, Ivory Coast, etc.) under direct rule from Dakar.", why:"CED-named European expansion in Africa."},
+{t:"6.2", term:"British West Africa", def:"British colonies of Nigeria, Gold Coast, Sierra Leone, and Gambia, run largely by indirect rule.", why:"CED-named European expansion in Africa."},
+// 6.3 Indigenous responses
+{t:"6.3", term:"Anticolonial movement", def:"Organized resistance to foreign rule, increasingly fueled by nationalism.", why:"KC-5.3.III.D."},
+{t:"6.3", term:"Túpac Amaru II", def:"Indigenous leader who led a massive 1780–1781 rebellion against Spanish rule in Peru.", why:"CED-named direct resistance."},
+{t:"6.3", term:"Samory Touré", def:"Founder of the Wassoulou Empire in West Africa who fought the French for 16 years (1882–1898) with a modern army.", why:"CED-named direct resistance."},
+{t:"6.3", term:"Yaa Asantewaa War (1900)", def:"Asante queen mother who led the last Asante uprising against the British over the Golden Stool.", why:"CED-named direct resistance."},
+{t:"6.3", term:"Indian Rebellion of 1857 (Sepoy Mutiny)", def:"Revolt of Indian soldiers and princes against the British East India Company, sparked by greased cartridges and wider grievances.", why:"CED-named; led to direct British rule (the Raj)."},
+{t:"6.3", term:"Sepoys", def:"Indian soldiers serving in the British East India Company's army.", why:"Who started the 1857 rebellion."},
+{t:"6.3", term:"Sokoto Caliphate", def:"Islamic state founded by Usman dan Fodio's jihad (1804) in northern Nigeria — the largest African state of the 1800s.", why:"CED-named 'new state on the periphery.'"},
+{t:"6.3", term:"Zulu Kingdom", def:"Southern African state built by Shaka's military reforms (1816–1828); defeated the British at Isandlwana (1879) before conquest.", why:"CED-named new state."},
+{t:"6.3", term:"Cherokee Nation", def:"Native American nation that adopted a written constitution and language before being forced west on the Trail of Tears (1838).", why:"CED-named new state — and a warning about limits of adaptation."},
+{t:"6.3", term:"Balkan independence", def:"Greece, Serbia, Romania, Bulgaria, and Montenegro breaking from the Ottoman Empire during the 1800s.", why:"CED-named new states on the Ottoman periphery."},
+{t:"6.3", term:"Ghost Dance", def:"1890 Native American religious movement promising the return of ancestors and the buffalo; ended at Wounded Knee.", why:"CED-named religiously inspired rebellion."},
+{t:"6.3", term:"Xhosa Cattle-Killing (1856–1857)", def:"A prophecy led the Xhosa of South Africa to kill their cattle and destroy crops to drive out the British; famine followed.", why:"CED-named religiously inspired rebellion."},
+{t:"6.3", term:"Mahdist wars (1881–1898)", def:"Muhammad Ahmad, the 'Mahdi,' led a Sudanese jihad that took Khartoum (1885) before Britain's Omdurman victory.", why:"CED-named religiously inspired rebellion."},
+{t:"6.3", term:"Taiping Rebellion (1850–1864)", def:"Hong Xiuquan's quasi-Christian uprising against the Qing that killed 20–30 million.", why:"A religious rebellion against a weakened imperial state; Unit 6 context for China."},
+{t:"6.3", term:"Boxer Rebellion (1899–1901)", def:"Anti-foreign, anti-Christian uprising in China crushed by an eight-nation force.", why:"Resistance to economic imperialism and missionaries."},
+{t:"6.3", term:"Ethiopia / Battle of Adwa (1896)", def:"Menelik II's modern army defeated Italy, keeping Ethiopia independent.", why:"The great exception to the Scramble — useful LEQ evidence."},
+// 6.4 Global economic development
+{t:"6.4", term:"Export economy", def:"An economy organized around producing one or two raw materials or crops for sale to industrial countries.", why:"KC-5.1.II.A."},
+{t:"6.4", term:"Monoculture", def:"Dependence on a single crop, leaving a colony vulnerable to price drops and famine.", why:"The risk built into export economies."},
+{t:"6.4", term:"Cash crop / industrial crop", def:"Crops grown for sale and factory use — cotton, rubber, palm oil, jute — rather than food.", why:"CED language: 'production of food and industrial crops.'"},
+{t:"6.4", term:"Egyptian cotton", def:"Long-staple cotton that Egypt grew for British mills, especially during the U.S. Civil War.", why:"CED-named export economy."},
+{t:"6.4", term:"Rubber (Amazon and Congo)", def:"Latex for tires and belts, extracted by brutal forced labor in Brazil and Leopold's Congo.", why:"CED-named export economy."},
+{t:"6.4", term:"Palm oil", def:"West African product used for soap, candles, and machine lubricant — the 'legitimate trade' that replaced slaving.", why:"CED-named in both 6.4 and 6.5."},
+{t:"6.4", term:"Guano", def:"Seabird droppings mined in Peru and Chile as fertilizer for industrial agriculture.", why:"CED-named export economy."},
+{t:"6.4", term:"Argentine and Uruguayan beef", def:"Refrigerated ships carried meat from the pampas to European cities.", why:"CED-named; 'increased food supplies for... urban centers.'"},
+{t:"6.4", term:"South African diamonds and gold", def:"Kimberley (1867) and Witwatersrand (1886) discoveries that drew British investment and led to the Boer War.", why:"CED-named export economy."},
+{t:"6.4", term:"Raw materials", def:"Unprocessed inputs — cotton, ore, rubber — that colonies supplied and factories turned into finished goods.", why:"The core of the colony-to-factory relationship."},
+// 6.5 Economic imperialism
+{t:"6.5", term:"Economic imperialism", def:"Controlling a country's economy through trade, loans, and investment without formally ruling it.", why:"KC-5.2.I.E — 'primarily in Asia and Latin America.'"},
+{t:"6.5", term:"Opium Wars (1839–1842, 1856–1860)", def:"Wars Britain (and later France) fought to force China to accept opium imports and open ports.", why:"CED-named example of economic imperialism."},
+{t:"6.5", term:"Treaty of Nanjing (1842)", def:"First 'unequal treaty': China ceded Hong Kong, opened five ports, and lost tariff control.", why:"The template for unequal treaties across Asia."},
+{t:"6.5", term:"Unequal treaties", def:"Agreements forced on China, Japan, and others granting foreigners low tariffs and extraterritoriality (immunity from local law).", why:"How economic imperialism worked on paper."},
+{t:"6.5", term:"Opium", def:"Drug grown in British India and sold in China to balance Britain's tea purchases.", why:"CED-named commodity giving Europeans advantage."},
+{t:"6.5", term:"Port of Buenos Aires", def:"Modern port built in the 1880s–1890s with British capital and engineering, tying Argentina to British trade.", why:"CED-named economic imperialism in Latin America."},
+{t:"6.5", term:"Chilean copper", def:"Mines financed and increasingly owned by British and U.S. firms.", why:"CED-named commodity."},
+{t:"6.5", term:"Indian cotton", def:"Raw cotton shipped to Britain's mills, while Indian weavers lost their market.", why:"CED-named commodity; ties 5.4 and 6.5."},
+{t:"6.5", term:"Banana republic / United Fruit", def:"Central American states dominated by U.S. fruit companies that owned land, railroads, and politicians.", why:"Economic imperialism in Latin America."},
+{t:"6.5", term:"Suez Canal (1869)", def:"Canal linking the Mediterranean and Red Sea; Egypt's debts let Britain buy control and occupy Egypt in 1882.", why:"Loans → debt → occupation: economic imperialism turning formal."},
+// 6.6 Causes of migration
+{t:"6.6", term:"Push and pull factors", def:"Reasons people leave (famine, poverty, persecution) and reasons they go somewhere (jobs, land, freedom).", why:"Organizing tool for LOs F and G."},
+{t:"6.6", term:"Irish Potato Famine (1845–1852)", def:"Blight that killed a million and sent a million more, mainly to the U.S.", why:"CED-named migrants: Irish to the United States."},
+{t:"6.6", term:"Indentured servitude", def:"Contract labor for a fixed term (often 5 years) in exchange for passage, used after slavery's abolition.", why:"KC-5.4.II.B — Chinese and Indian indentured servitude."},
+{t:"6.6", term:"Chinese 'coolie' labor", def:"Indentured Chinese workers sent to Cuba, Peru, California, and Southeast Asia.", why:"CED-named semicoerced migration."},
+{t:"6.6", term:"Indian indentured labor", def:"Indians contracted to sugar plantations in Trinidad, Guyana, Fiji, Mauritius, and Natal.", why:"CED-named; why Indian communities exist across the former British Empire."},
+{t:"6.6", term:"Convict labor", def:"Prisoners transported to penal colonies — Britain to Australia, France to Guiana, Russia to Siberia.", why:"CED-named coerced migration."},
+{t:"6.6", term:"Return migration", def:"Migrants going home periodically or permanently, made possible by steamships.", why:"KC-5.4.I.B; CED examples: Japanese Pacific workers, Lebanese merchants, Italians in Argentina."},
+{t:"6.6", term:"Lebanese merchants", def:"Christians and others who left Ottoman Syria for the Americas and West Africa as traders.", why:"CED-named returning migrants."},
+{t:"6.6", term:"Italian workers in Argentina", def:"'Golondrinas' (swallows) who harvested in Argentina during Italy's winter and returned home.", why:"CED-named return migrants."},
+{t:"6.6", term:"British engineers abroad", def:"Engineers and geologists sent to build railroads and find minerals in South Asia and Africa.", why:"CED-named skilled migrants."},
+{t:"6.6", term:"Demographic change", def:"Population booms from better food and medicine that pushed people off crowded land.", why:"KC-5.4.I — migration driven by demographics."},
+// 6.7 Effects of migration
+{t:"6.7", term:"Ethnic enclave", def:"A neighborhood or region where one migrant group concentrates and keeps its language, food, and customs.", why:"KC-5.4.III.B; CED examples: Chinatowns, Little Italys, Indian communities in East Africa."},
+{t:"6.7", term:"Gendered migration", def:"Most migrants were men, so women at home took on farming, business, and family roles once held by men.", why:"KC-5.4.III.A."},
+{t:"6.7", term:"Chinese Exclusion Act (1882)", def:"U.S. law banning Chinese laborers — the first U.S. immigration restriction based on nationality.", why:"CED-named regulation of immigrants."},
+{t:"6.7", term:"White Australia policy", def:"Laws from 1901 restricting non-European immigration to Australia.", why:"CED-named regulation of immigrants."},
+{t:"6.7", term:"Nativism", def:"Hostility toward immigrants by native-born populations.", why:"KC-5.4.III.C — 'ethnic and racial prejudice.'"},
+{t:"6.7", term:"Indians in East and Southern Africa", def:"Laborers and merchants who built Uganda's railway and formed trading communities in Natal and Kenya.", why:"CED-named enclave."},
+{t:"6.7", term:"Chinese in Southeast Asia", def:"Merchant and labor communities in Singapore, Malaya, and Indonesia that dominated commerce.", why:"CED-named enclave."},
+{t:"6.7", term:"Cultural diffusion through migration", def:"Migrants transplanting religions, foods, and festivals — Hinduism in Trinidad, Italian food in Buenos Aires.", why:"The CDI side of migration's effects."},
+],
+states: [
+{t:"6.2", name:"British Empire (new imperialism)", region:"India, Africa, Southeast Asia, Pacific", dates:"1858–1914", gained:"Direct rule of India after 1857; Egypt (1882), Nigeria, Gold Coast, Kenya, South Africa, Burma, and Malaya through war, treaties, and chartered companies.", kept:"Indirect rule through local princes and chiefs; railroads, telegraphs, and export crops; a civil service and a racial hierarchy.", known:"The largest empire in history — a quarter of the world's land and people by 1914.", end:"Still growing in 1900; nationalism (Indian National Congress, 1885) is already stirring (Units 7–8)."},
+{t:"6.2", name:"French colonial empire", region:"Algeria, West and Central Africa, Indochina", dates:"1830–1914", gained:"Algeria conquered from 1830; West Africa by war against Samory Touré and others; Indochina taken 1858–1893.", kept:"Direct rule and assimilation: French law, French schools, French officials; a mission civilisatrice.", known:"The second-largest empire; the civilizing mission as official policy.", end:"Holdings kept until the 1950s–1960s wars of decolonization (Unit 8)."},
+{t:"6.2", name:"Congo Free State / Belgian Congo", region:"Central Africa", dates:"1885–1908 (Leopold) → 1908–1960 (Belgium)", gained:"King Leopold II convinced the Berlin Conference to recognize the Congo as his private property.", kept:"A rubber-and-ivory regime enforced by the Force Publique: quotas, hostages, hand-cutting. Millions died.", known:"The worst atrocity of the Scramble; CED-named shift from private to state control.", end:"International outcry (Casement, Morel) forced Belgium to take over in 1908."},
+{t:"6.2", name:"United States (continental and overseas)", region:"North America, Caribbean, Pacific", dates:"1803–1900", gained:"Purchase, war, and removal across the continent; then Hawaii (1898) and Spain's colonies after the Spanish-American War.", kept:"Settler expansion, reservations and the Dawes Act for Native Americans; the Philippine-American War (1899–1902) to hold the Philippines.", known:"CED-named expansion by 'conquering and settling neighboring territories' and a new Pacific empire.", end:"An imperial power with global ambitions by 1900."},
+{t:"6.2", name:"Russian Empire (Asian expansion)", region:"Central Asia, Siberia, Caucasus", dates:"1800–1900", gained:"Conquered Kazakh, Uzbek, and Turkmen lands; the Caucasus after long wars; reached the Pacific.", kept:"Russian settlers, cotton cultivation in Central Asia, the Trans-Siberian Railroad.", known:"The 'Great Game' rivalry with Britain over Central Asia.", end:"Collapsed in 1917 (Unit 7) but the territory passed to the USSR."},
+{t:"6.2", name:"Meiji Japan (as empire)", region:"Taiwan, Korea, Manchuria", dates:"1894–1910", gained:"Beat China (1895) for Taiwan; beat Russia (1905) for influence in Manchuria and Korea; annexed Korea in 1910.", kept:"Colonial administrations, Japanese settlers, and economic exploitation modeled on European empires.", known:"The first non-Western industrial empire — proof that imperialism followed industrialization.", end:"Expanded further into China in the 1930s (Unit 7)."},
+{t:"6.5", name:"Qing China (under economic imperialism)", region:"China", dates:"1839–1900", gained:"Lost the Opium Wars and the Sino-Japanese War.", kept:"Unequal treaties, treaty ports, extraterritoriality, spheres of influence for Britain, France, Germany, Russia, and Japan; the Open Door Policy.", known:"CED-named target of economic imperialism; the Boxer Rebellion (1900) against it.", end:"The dynasty fell in 1911 (Unit 7)."},
+{t:"6.3", name:"Sokoto Caliphate", region:"Northern Nigeria", dates:"1804–1903", gained:"Usman dan Fodio's jihad united Hausa lands under an Islamic state.", kept:"Emirs ruling provinces under a caliph; Islamic law, scholarship, and a plantation economy.", known:"CED-named new state; the largest state in 19th-century Africa.", end:"Conquered by Britain in 1903 and ruled indirectly through its emirs."},
+{t:"6.3", name:"Zulu Kingdom", region:"Southern Africa", dates:"1816–1879", gained:"Shaka's regimental system, short stabbing spear, and conquest of neighbors.", kept:"Age-regiments, centralized kingship, and a warrior culture that absorbed conquered peoples.", known:"CED-named new state; destroyed a British army at Isandlwana (1879).", end:"Defeated at Ulundi and partitioned by Britain in 1879."},
+{t:"6.3", name:"Wassoulou Empire (Samory Touré)", region:"West Africa (Guinea, Mali, Ivory Coast)", dates:"1878–1898", gained:"Samory built a state with a trained army armed with rifles his smiths could repair.", kept:"Mobile warfare and scorched earth against French columns for over a decade.", known:"CED-named direct resistance — the longest military resistance in West Africa.", end:"Captured by the French in 1898 and exiled."},
+{t:"6.3", name:"Mahdist State", region:"Sudan", dates:"1885–1898", gained:"Muhammad Ahmad declared himself the Mahdi and rallied Sudanese against Egyptian-British rule.", kept:"Took Khartoum (1885), killing General Gordon; ruled as an Islamic state under the Khalifa.", known:"CED-named religiously inspired rebellion.", end:"Destroyed by Kitchener's Maxim guns at Omdurman (1898)."},
+{t:"6.3", name:"Ethiopia", region:"Horn of Africa", dates:"1855–1913 (Tewodros to Menelik II)", gained:"Menelik II bought modern rifles and artillery and unified the highlands.", kept:"A Christian monarchy that played European rivals against each other.", known:"Defeated Italy at Adwa (1896) — the only African state to stay independent by force of arms.", end:"Remained independent until Mussolini's invasion in 1935."},
+{t:"6.3", name:"Cherokee Nation", region:"Southeastern United States", dates:"1820s–1838", gained:"Adopted a written constitution (1827), a syllabary, newspapers, and farms to be recognized as a 'civilized' nation.", kept:"Fought removal in U.S. courts and won (Worcester v. Georgia, 1832).", known:"CED-named new state on the periphery; adaptation that did not save it.", end:"Forced west on the Trail of Tears (1838–1839); about 4,000 died."},
+],
+timeline: [
+{y:"1780", e:"Túpac Amaru II's rebellion", reg:"Peru", t:"6.3", why:"Indigenous resistance to Spanish rule — CED-named."},
+{y:"1804", e:"Sokoto Caliphate founded", reg:"West Africa", t:"6.3", why:"A new Islamic state on the imperial periphery."},
+{y:"1830", e:"France invades Algeria", reg:"North Africa", t:"6.2", why:"The start of French settler colonialism in Africa."},
+{y:"1838", e:"Trail of Tears", reg:"United States", t:"6.3", why:"Settler expansion removes the Cherokee."},
+{y:"1839", e:"First Opium War begins", reg:"China", t:"6.5", why:"Economic imperialism by gunboat."},
+{y:"1842", e:"Treaty of Nanjing", reg:"China", t:"6.5", why:"The first unequal treaty; Hong Kong to Britain."},
+{y:"1845", e:"Irish Potato Famine begins", reg:"Ireland", t:"6.6", why:"Push factor for a million migrants to the U.S."},
+{y:"1857", e:"Indian Rebellion; Xhosa cattle-killing", reg:"India / South Africa", t:"6.3", why:"Direct and religious resistance in the same year."},
+{y:"1858", e:"British Raj replaces Company rule", reg:"India", t:"6.2", why:"Non-state to state colonial control."},
+{y:"1869", e:"Suez Canal opens", reg:"Egypt", t:"6.5", why:"Shortcut to India; Egypt's debt trap."},
+{y:"1882", e:"Chinese Exclusion Act; Britain occupies Egypt", reg:"U.S. / Egypt", t:"6.7", why:"Immigration restriction and economic imperialism turned formal."},
+{y:"1884–85", e:"Berlin Conference", reg:"Europe / Africa", t:"6.2", why:"Rules for the Scramble; Leopold gets the Congo."},
+{y:"1885", e:"Mahdists take Khartoum; Indian National Congress founded", reg:"Sudan / India", t:"6.3", why:"Armed and political resistance begin."},
+{y:"1895", e:"Japan defeats China", reg:"East Asia", t:"6.2", why:"Japan becomes an imperial power; China carved into spheres."},
+{y:"1896", e:"Battle of Adwa", reg:"Ethiopia", t:"6.3", why:"An African army defeats a European one."},
+{y:"1898", e:"Spanish-American War; Omdurman; Samory captured", reg:"Caribbean / Sudan / West Africa", t:"6.2", why:"The U.S. joins the imperialists; African resistance crushed."},
+{y:"1899", e:"Boxer Rebellion; Kipling's 'White Man's Burden'", reg:"China / U.S.", t:"6.1", why:"Resistance and rationale in the same year."},
+{y:"1900", e:"Yaa Asantewaa War", reg:"Gold Coast", t:"6.3", why:"The last Asante rising — CED-named."},
+{y:"1901", e:"White Australia policy", reg:"Australia", t:"6.7", why:"Settler colony restricts non-European immigration."},
+{y:"1908", e:"Belgium takes over the Congo", reg:"Central Africa", t:"6.2", why:"Private to state control after international outcry."},
+],
+developments: [
+{id:"6.1", title:"Rationales for Imperialism from 1750 to 1900", themes:"CDI",
+los:["A — Explain how ideologies contributed to the development of imperialism from 1750 to 1900."],
+kcs:[
+{code:"KC-5.2.III", official:"A range of cultural, religious, and racial ideologies were used to justify imperialism, including Social Darwinism, nationalism, the concept of the civilizing mission, and the desire to religiously convert indigenous populations.", plain:"Four excuses: we're fitter (Social Darwinism), we're proud (nationalism), we're helping (civilizing mission), we're saving souls (conversion)."},
+],
+ex:["Kipling's 'White Man's Burden'","Mission civilisatrice","Missionary schools and hospitals","Scientific racism"]},
+{id:"6.2", title:"State Expansion from 1750 to 1900", themes:"GOV",
+los:["B — Compare processes by which state power shifted in various parts of the world from 1750 to 1900."],
+kcs:[
+{code:"KC-5.2.I.A", official:"Some states with existing colonies strengthened their control over those colonies and in some cases assumed direct control over colonies previously held by non-state entities.", plain:"Governments took over from companies and kings-as-private-owners."},
+{code:"KC-5.2.I.B", official:"European states as well as the United States and Japan acquired territories throughout Asia and the Pacific, while Spanish and Portuguese influence declined.", plain:"New imperial players (U.S., Japan) in, old ones (Spain, Portugal) out."},
+{code:"KC-5.2.I.C", official:"Many European states used both warfare and diplomacy to expand their empires in Africa.", plain:"Guns and treaties: the Scramble for Africa."},
+{code:"KC-5.2.I.D", official:"Europeans established settler colonies in some parts of their empires.", plain:"Some colonies were for moving in, not just ruling."},
+{code:"KC-5.2.II.B", official:"The United States, Russia, and Japan expanded their land holdings by conquering and settling neighboring territories.", plain:"Three land empires grew by swallowing their neighbors."},
+],
+ex:["Leopold II's Congo → Belgian government","Dutch East India Company → Dutch government (Indonesia)","Britain in West Africa","Belgium in the Congo","France in West Africa","New Zealand (settler colony)"]},
+{id:"6.3", title:"Indigenous Responses to State Expansion from 1750 to 1900", themes:"GOV · SIO",
+los:["C — Explain how and why internal and external factors have influenced the process of state building from 1750 to 1900."],
+kcs:[
+{code:"KC-5.3.III.D", official:"Increasing questions about political authority and growing nationalism contributed to anticolonial movements.", plain:"Nationalism worked against empires too."},
+{code:"KC-5.2.II.C", official:"Anti-imperial resistance took various forms, including direct resistance within empires and the creation of new states on the peripheries.", plain:"Two responses: fight back, or build your own state on the edge."},
+{code:"KC-5.3.III.E", official:"Increasing discontent with imperial rule led to rebellions, some of which were influenced by religious ideas.", plain:"Some resistance was religious — prophets, jihads, dances."},
+],
+ex:["Direct: Túpac Amaru II, Samory Touré, Yaa Asantewaa War, 1857 rebellion in India","New states: Balkan states, Sokoto Caliphate, Cherokee Nation, Zulu Kingdom","Religious: Ghost Dance, Xhosa Cattle-Killing, Mahdist wars"]},
+{id:"6.4", title:"Global Economic Development from 1750 to 1900", themes:"ENV · ECN",
+los:["D — Explain how various environmental factors contributed to the development of the global economy from 1750 to 1900."],
+kcs:[
+{code:"KC-5.1.II.A", official:"The need for raw materials for factories and increased food supplies for the growing population in urban centers led to the growth of export economies around the world that specialized in commercial extraction of natural resources and the production of food and industrial crops. The profits from these raw materials were used to purchase finished goods.", plain:"Colonies grew raw materials and food for factories and cities, then bought the finished products back."},
+],
+ex:["Cotton in Egypt","Rubber in the Amazon and Congo","Palm oil in West Africa","Guano in Peru and Chile","Meat from Argentina and Uruguay","Diamonds from Africa"]},
+{id:"6.5", title:"Economic Imperialism from 1750 to 1900", themes:"ECN",
+los:["E — Explain how various economic factors contributed to the development of the global economy from 1750 to 1900."],
+kcs:[
+{code:"KC-5.2.I.E", official:"Industrialized states and businesses within those states practiced economic imperialism primarily in Asia and Latin America.", plain:"Control without colonies — through trade, loans, and companies."},
+{code:"KC-5.1.II.C", official:"Trade in some commodities was organized in a way that gave merchants and companies based in Europe and the U.S. a distinct economic advantage.", plain:"The rules of trade were rigged toward the industrial West."},
+],
+ex:["Britain and France in China through the Opium Wars","Port of Buenos Aires built with British firms","Opium (Middle East / South Asia → China)","Cotton (South Asia / Egypt → Britain)","Palm oil (Africa → Europe)","Copper (Chile)"]},
+{id:"6.6", title:"Causes of Migration in an Interconnected World", themes:"ENV · ECN",
+los:["F — Explain how various environmental factors contributed to the development of varied patterns of migration from 1750 to 1900.","G — Explain how various economic factors contributed to the development of varied patterns of migration from 1750 to 1900."],
+kcs:[
+{code:"KC-5.4.I", official:"Migration in many cases was influenced by changes in demographics in both industrialized and unindustrialized societies that presented challenges to existing patterns of living.", plain:"Population growth pushed people to move."},
+{code:"KC-5.4.I.B", official:"Because of the nature of new modes of transportation, both internal and external migrants increasingly relocated to cities. This pattern contributed to the significant global urbanization of the 19th century. The new methods of transportation also allowed for many migrants to return, periodically or permanently, to their home societies.", plain:"Trains and steamships moved people to cities — and let them go home again."},
+{code:"KC-5.4.II.A", official:"Many individuals chose freely to relocate, often in search of work.", plain:"Voluntary migration for jobs."},
+{code:"KC-5.4.II.B", official:"The new global capitalist economy continued to rely on coerced and semicoerced labor migration, including enslavement, Chinese and Indian indentured servitude, and convict labor.", plain:"Forced and semi-forced migration didn't end with slavery."},
+],
+ex:["Return migrants: Japanese workers in the Pacific, Lebanese merchants in the Americas, Italians in Argentina","Irish to the United States","British engineers and geologists to South Asia and Africa"]},
+{id:"6.7", title:"Effects of Migration", themes:"SIO",
+los:["H — Explain how and why new patterns of migration affected society from 1750 to 1900."],
+kcs:[
+{code:"KC-5.4.III.A", official:"Migrants tended to be male, leaving women to take on new roles in the home society that had been formerly occupied by men.", plain:"Men left; women ran things at home."},
+{code:"KC-5.4.III.B", official:"Migrants often created ethnic enclaves in different parts of the world that helped transplant their culture into new environments.", plain:"Chinatowns and Little Italys carried culture across oceans."},
+{code:"KC-5.4.III.C", official:"Receiving societies did not always embrace immigrants, as seen in the various degrees of ethnic and racial prejudice and the ways states attempted to regulate the increased flow of people across their borders.", plain:"Prejudice and immigration laws pushed back."},
+],
+ex:["Chinese in Southeast Asia, the Caribbean, the Americas","Indians in East and Southern Africa, the Caribbean, Southeast Asia","Irish in North America","Italians in North and South America","Chinese Exclusion Act","White Australia policy"]},
+{id:"6.8", title:"Causation in the Imperial Age", themes:"Argumentation (6.C)",
+los:["I — Explain the relative significance of the effects of imperialism from 1750 to 1900."],
+kcs:[
+{code:"KC-5.2", official:"As states industrialized, they also expanded existing overseas empires and established new colonies and transoceanic relationships.", plain:"The unit's thesis: industry → empire."},
+{code:"KC-5.4", official:"As a result of the emergence of transoceanic empires and a global capitalist economy, migration patterns changed dramatically, and the numbers of migrants increased significantly.", plain:"Empire + capitalism → the biggest migrations ever."},
+{code:"KC-5.3", official:"The 18th century marked the beginning of an intense period of revolution and rebellion against existing governments, leading to the establishment of new nation-states around the world.", plain:"Resistance and new states were part of the story too."},
+],
+ex:["Most significant effects to argue: export economies and dependency; racial hierarchies; resistance and nationalism; mass migration; environmental extraction"]},
+],
+context: [
+{topic:"New imperialism", before:"Before 1750, European presence in Africa and Asia was mostly coastal trading posts, and the Ottomans, Mughals, and Qing remained powerful.", during:"During 1750–1900, industrial states armed with steamships, Maxim guns, and quinine conquered nearly all of Africa and much of Asia, justified by Social Darwinism and the civilizing mission."},
+{topic:"Indigenous resistance", before:"Before 1750, African and Asian states like the Asante and Mughals dealt with Europeans as equals or superiors.", during:"During 1750–1900, peoples facing conquest fought back directly (Samory Touré, the 1857 rebellion), built new states (Sokoto, the Zulu), or rallied around religious movements (the Mahdi, the Ghost Dance)."},
+{topic:"Export economies", before:"Before 1750, most of the world's regions produced their own food and manufactures, and Asia made most of the world's goods.", during:"During 1750–1900, industrial demand turned Egypt into a cotton field, the Congo into a rubber camp, and Argentina into a ranch, each exporting raw materials and importing finished goods."},
+{topic:"Economic imperialism", before:"Before 1800, China dictated the terms of trade and Europeans paid in silver for tea, silk, and porcelain.", during:"During 1800–1900, Britain forced opium on China through war and unequal treaties while British capital built Argentina's ports and railroads, controlling economies without formal colonies."},
+{topic:"Migration", before:"Before 1750, long-distance migration was mostly the Atlantic slave trade and small numbers of European settlers.", during:"During 1750–1900, steamships and railroads carried tens of millions — Irish to America, Italians to Argentina, Chinese and Indian indentured laborers across the British Empire — creating enclaves and provoking restrictions like the Chinese Exclusion Act."},
+{topic:"Japan and the United States as imperial powers", before:"Before 1850, Japan was closed under the Tokugawa and the United States was a continental nation with no overseas colonies.", during:"During 1850–1900, Meiji Japan took Taiwan and the United States took the Philippines, proving that industrialization, not European identity, made an empire."},
+],
+};
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let activeTopic = "all", query = "";
+const state = { quiz:false, hideFronts:false, onlyMissed:false, marks:{} };
+try { Object.assign(state.marks, JSON.parse(localStorage.getItem("apwh-u"+UNIT.number+"-marks")||"{}")); } catch(e){}
+function saveMarks(){ try{ localStorage.setItem("apwh-u"+UNIT.number+"-marks", JSON.stringify(state.marks)); }catch(e){} }
+// hero
+$("#unitLede").textContent = UNIT.lede;
+$("#unitStats").innerHTML = UNIT.stats.map(([b,l]) => `<div class="stat"><b>${esc(b)}</b><span>${esc(l)}</span></div>`).join("");
+$("#topicList").innerHTML = UNIT.topics.map(t => `<div class="topic-row"><span class="num">${esc(t.id)}</span><span>${esc(t.title)}</span><span class="theme">${esc(t.themes)}</span></div>`).join("");
+// chips
+const chipsEl = $("#chips");
+chipsEl.innerHTML = [`<button class="chip on" data-t="all">All topics</button>`].concat(
+UNIT.topics.filter(t => !t.review).map(t => `<button class="chip" data-t="${t.id}">${t.id} ${esc(t.title.replace(/^(Developments in|State Building in) /,""))}</button>`)).join("");
+chipsEl.addEventListener("click", e => {
+const b = e.target.closest(".chip"); if(!b) return;
+$$(".chip").forEach(c => c.classList.toggle("on", c === b));
+activeTopic = b.dataset.t; applyFilter();
+});
+$("#search").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); applyFilter(); });
+// cards
+const topicName = id => (UNIT.topics.find(t => t.id === id) || {title:""}).title.replace(/^(Developments in|State Building in) /,"");
+function vocabCard(v, i){
+return `<div class="card" data-t="${v.t}" data-key="v${i}" data-text="${esc((v.term+" "+v.def).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(v.term)} — flip card">
+<div class="face front"><span class="tag">${v.t} · ${esc(topicName(v.t))}</span><div class="term">${esc(v.term)}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${v.t} · definition</span><div class="term">${esc(v.term)}</div><div class="def">${esc(v.def)}</div><div class="why"><b>Why it matters:</b> ${esc(v.why)}</div></div>
+</button>
+<div class="mark"><button class="got" data-m="got">✓ Got it</button><button class="miss" data-m="miss">✗ Missed</button></div></div>`;
+}
+const SF = Object.assign({gained:"Gained power", kept:"Kept power", known:"Known for", end:"End", cue:"Before you flip — how did it <b>gain</b> power, how did it <b>keep</b> it, and what is it <b>known for</b>?"}, UNIT.stateFields || {});
+if (UNIT.statesLabel) { $("#statesH").textContent = UNIT.statesLabel; $('.bar a[href="#states"]').textContent = UNIT.statesLabel; }
+if (UNIT.statesBlurb) $("#statesP").textContent = UNIT.statesBlurb;
+function stateCard(s, i){
+return `<div class="card" data-t="${s.t}" data-key="s${i}" data-text="${esc((s.name+" "+s.region+" "+s.known).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(s.name)} — flip card">
+<div class="face front"><span class="tag">${s.t} · ${esc(s.region)}</span><div class="term">${esc(s.name)}</div><div class="sub">${esc(s.dates)}</div><div class="cue">${SF.cue}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${esc(s.region)} · ${esc(s.dates)}</span><div class="term">${esc(s.name)}</div>
+<p class="kv"><b>${SF.gained}:</b> ${esc(s.gained)}</p><p class="kv"><b>${SF.kept}:</b> ${esc(s.kept)}</p><p class="kv"><b>${SF.known}:</b> ${esc(s.known)}</p><p class="kv"><b>${SF.end}:</b> ${esc(s.end)}</p></div>
+</button></div>`;
+}
+let vocabOrder = UNIT.vocab.map((v,i) => i);
+function renderVocab(){ $("#vocabGrid").innerHTML = vocabOrder.map(i => vocabCard(UNIT.vocab[i], i)).join(""); paintMarks(); applyFilter(); }
+renderVocab();
+$("#stateGrid").innerHTML = UNIT.states.map(stateCard).join("");
+document.addEventListener("click", e => {
+const m = e.target.closest(".mark button");
+if (m){ const card = m.closest(".card"); const k = card.dataset.key; state.marks[k] = (state.marks[k] === m.dataset.m) ? null : m.dataset.m; saveMarks(); paintMarks(); applyFilter(); return; }
+const inner = e.target.closest(".card-inner");
+if (inner){ const card = inner.closest(".card"); card.classList.toggle("flipped"); inner.setAttribute("aria-pressed", card.classList.contains("flipped")); }
+});
+function paintMarks(){
+let got = 0, miss = 0;
+$$("#vocabGrid .card").forEach(c => { const m = state.marks[c.dataset.key]; c.classList.toggle("got", m === "got"); c.classList.toggle("miss", m === "miss"); if (m === "got") got++; if (m === "miss") miss++; });
+$("#gotN").textContent = got + " got it"; $("#missN").textContent = miss + " missed";
+}
+$("#shuffleVocab").onclick = () => { for (let i = vocabOrder.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [vocabOrder[i], vocabOrder[j]] = [vocabOrder[j], vocabOrder[i]]; } renderVocab(); };
+function flipAll(sel){ const cards = $$(sel + " .card:not(.hidden)"); const anyUn = cards.some(c => !c.classList.contains("flipped")); cards.forEach(c => { c.classList.toggle("flipped", anyUn); c.querySelector(".card-inner").setAttribute("aria-pressed", anyUn); }); }
+$("#flipAllVocab").onclick = () => flipAll("#vocabGrid");
+$("#flipAllStates").onclick = () => flipAll("#stateGrid");
+$("#quizBtn").onclick = () => { state.quiz = !state.quiz; $("#vocab").classList.toggle("quiz", state.quiz); $("#quizBtn").classList.toggle("on", state.quiz); $("#quizBtn").textContent = state.quiz ? "Exit quiz" : "Quiz me"; if(!state.quiz){ state.onlyMissed=false; $("#onlyMissed").classList.remove("on"); state.hideFronts=false; $("#vocab").classList.remove("hide-fronts"); $("#hideFronts").classList.remove("on"); } applyFilter(); };
+$("#hideFronts").onclick = () => { state.hideFronts = !state.hideFronts; $("#vocab").classList.toggle("hide-fronts", state.hideFronts); $("#hideFronts").classList.toggle("on", state.hideFronts); $("#hideFronts").textContent = state.hideFronts ? "Show terms" : "Hide terms"; $$("#vocabGrid .card").forEach(c => c.classList.remove("flipped")); };
+$("#onlyMissed").onclick = () => { state.onlyMissed = !state.onlyMissed; $("#onlyMissed").classList.toggle("on", state.onlyMissed); applyFilter(); };
+$("#resetQuiz").onclick = () => { state.marks = {}; saveMarks(); paintMarks(); applyFilter(); };
+// timeline
+$("#rail").innerHTML = UNIT.timeline.map((d, i) => `<li data-t="${d.t}" data-text="${esc((d.y+" "+d.e+" "+d.reg).toLowerCase())}"><button class="year" aria-expanded="false"><div class="dot"></div><div class="y">${esc(d.y)}</div><div class="e">${esc(d.e)}</div><div class="reg">${esc(d.reg)} · ${d.t}</div><div class="more">${esc(d.why)}</div></button></li>`).join("");
+$("#rail").addEventListener("click", e => { const b = e.target.closest(".year"); if(!b) return; b.classList.toggle("open"); b.setAttribute("aria-expanded", b.classList.contains("open")); });
+// developments
+$("#devList").innerHTML = UNIT.developments.map(d => `<details class="dev" data-t="${d.id}" data-text="${esc((d.title+" "+d.kcs.map(k=>k.official+" "+k.plain).join(" ")+" "+d.ex.join(" ")).toLowerCase())}">
+<summary><span class="num">${d.id}</span><span><div class="ttl">${esc(d.title)}</div><div class="themes">${esc(d.themes)}</div></span><span class="arrow">+</span></summary>
+<div class="body">
+<div class="lo"><b>Learning objective${d.los.length>1?"s":""}:</b> ${d.los.map(esc).join(" &nbsp;·&nbsp; ")}</div>
+${d.kcs.map(k => `<div class="kc"><div class="code">${esc(k.code)}</div><div class="official">${esc(k.official)}</div><div class="plain"><b>In plain English:</b> ${esc(k.plain)}</div></div>`).join("")}
+<div><div class="tag" style="margin-bottom:6px">Illustrative examples</div><div class="ex">${d.ex.map(x => `<span>${esc(x)}</span>`).join("")}</div></div>
+</div></details>`).join("");
+$("#openAllDev").onclick = () => { const devs = $$(".dev:not(.hidden)"); const anyClosed = devs.some(d => !d.open); devs.forEach(d => d.open = anyClosed); $("#openAllDev").textContent = anyClosed ? "Close all" : "Open all"; };
+// context
+$("#ctxList").innerHTML = UNIT.context.map(c => `<div class="c"><h3>${esc(c.topic)}</h3><p><b>Before</b> ${esc(c.before)}</p><p><b>During</b> ${esc(c.during)}</p></div>`).join("");
+// filter
+function applyFilter(){
+const match = el => (activeTopic === "all" || el.dataset.t === activeTopic) && (!query || el.dataset.text.includes(query));
+$$("#vocabGrid .card").forEach(c => { let ok = match(c); if (state.quiz && state.onlyMissed) ok = ok && state.marks[c.dataset.key] === "miss"; c.classList.toggle("hidden", !ok); });
+$$("#stateGrid .card").forEach(c => c.classList.toggle("hidden", !match(c)));
+$$("#rail li").forEach(li => li.classList.toggle("hidden", !match(li)));
+$$(".dev").forEach(d => d.classList.toggle("hidden", !match(d)));
+const n = $$("#vocabGrid .card:not(.hidden)").length, s = $$("#stateGrid .card:not(.hidden)").length;
+$("#cardCount").textContent = `${n} terms · ${s} ${UNIT.countLabel || "states"}`;
+}
+applyFilter();
+// nav: scroll inside #app (Google Sites full-page embeds disable frame scrolling)
+$$(".bar a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); const el = $(a.getAttribute("href")); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }));
+// nav highlight
+const links = $$(".bar a"); const secs = links.map(a => $(a.getAttribute("href")));
+const io = new IntersectionObserver(entries => { entries.forEach(en => { if (en.isIntersecting){ links.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id)); } }); }, { rootMargin: "-40% 0px -55% 0px" });
+secs.forEach(s => io.observe(s));
+</script>
+<style id="dm-css">
+html.dm{color-scheme:dark;--bg:#0E1230;--bg-2:#141A3E;--surface:#171D47;--surface-2:#1F2656;--paper:#1A2050;--line:#2D3572;--line-2:#3C458C;--ink:#EEF0FA;--ink-2:#C6CBE8;--muted:#A3AACF;--title:#F1E4B8;--gold-ink:#E6CB73;--gold-deep:#E6CB73;--gold-soft:#3A3112;--accent:#E07C88;--accent-soft:#3D1E24;--asoft:#3D1E24;--good:#4CC777;--good-soft:#173A24;--bad:#F07167;--bad-soft:#44201C;--green:#4CC777;--green-l:#173A24;--green-b:#2B6A3F;--red:#F07167;--red-l:#44201C;--red-b:#7A3530;--yellow:#F2C94C;--yellow-l:#3B3110;--yellow-b:#7A6A24;--blue:#7FB3F0;--blue-l:#17304F;--plum:#C9A6F0;--plum-l:#2F2246;--tT:#7FB3F0;--tE:#F0A36A;--tA:#C9A6F0;--tO:#4CC777;--shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px -6px rgba(0,0,0,.55);--shadow-lift:0 2px 4px rgba(0,0,0,.35),0 18px 40px -14px rgba(0,0,0,.7);--dm-card:var(--surface);--dm-ink:var(--ink);--dm-line:var(--line);--dm-tg-bg:#171D47;--dm-tg-fg:#E3C464;--dm-tg-b:#3C458C;--dm-tg-font:Arial,Helvetica,sans-serif}
+:where(html.dm) .chip:hover{border-color:#1E2761}
+:where(html.dm) .card.got .mark .got{border-color:#1B7F3B}
+:where(html.dm) .period-head h2{color:#B9C4FF}
+:where(html.dm) .unit h3{color:#B9C4FF}
+:where(html.dm) .how p b{color:#B9C4FF}
+:where(html.dm) footer b{color:#B9C4FF}
+:where(html.dm) footer a{color:#B9C4FF}
+:where(html.dm) .hk{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .hk-i.g{background:#1B7F3B}
+:where(html.dm) .hk-i.p{background:#5B2C83}
+:where(html.dm) .hk-i.y{background:#8A6D12}
+:where(html.dm) .hk b{color:#B9C4FF}
+:where(html.dm) .sec-head h2{color:#B9C4FF}
+:where(html.dm) .flip.open .fq{color:#B9C4FF}
+:where(html.dm) .flip.open .fa b,:where(html.dm) .flip.open .bigans{color:#B9C4FF}
+:where(html.dm) .chip{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .chip:hover{color:#B9C4FF}
+:where(html.dm) .fcard{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fcard h3{color:#B9C4FF}
+:where(html.dm) .pill.navy{color:#B9C4FF}
+:where(html.dm) .bar i{background:linear-gradient(90deg,var(--navy),#1B7F3B)}
+:where(html.dm) .btn{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .btn.checkb{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .w-title h2{color:#B9C4FF}
+:where(html.dm) .namebox input{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .scorebar .dots button.y{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .promptbox .q{color:#B9C4FF}
+:where(html.dm) .stim{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .ptable{background:linear-gradient(135deg,var(--surface),var(--paper))}
+:where(html.dm) .ptable summary{color:#B9C4FF}
+:where(html.dm) .howto{background:linear-gradient(135deg,var(--surface),var(--gold-soft))}
+:where(html.dm) .ht-step strong{color:#B9C4FF}
+:where(html.dm) .kbd,:where(html.dm) .ht-step kbd{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .tea-key{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .lab.T{background:#0F4C81}
+:where(html.dm) .lab.E{background:#B4560F}
+:where(html.dm) .lab.A{background:#5B2C83}
+:where(html.dm) .lab.O{background:#1B7F3B}
+:where(html.dm) .lab.C{background:#1B7F3B}
+:where(html.dm) .lab.V{background:#B4560F}
+:where(html.dm) .lab.R{background:#9A6700}
+:where(html.dm) .lab.X{background:#5B2C83}
+:where(html.dm) .tk b{color:#B9C4FF}
+:where(html.dm) .tk-note b{color:#B9C4FF}
+:where(html.dm) .part{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .part.earned::before{background:#1B7F3B}
+:where(html.dm) .part.earned .part-l{background:#1B7F3B}
+:where(html.dm) .verb{background:var(--vc,#5B2C83)}
+:where(html.dm) .part-q{color:#B9C4FF}
+:where(html.dm) .part-dir b{color:#B9C4FF}
+:where(html.dm) .bx textarea{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb h4{color:#B9C4FF}
+:where(html.dm) .fb h4 .src{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .fbline .m.y{background:#1B7F3B}
+:where(html.dm) .fbline .m.i{background:#666B82}
+:where(html.dm) .fbline .m.w{background:#9A6700}
+:where(html.dm) .fbline b{color:#B9C4FF}
+:where(html.dm) .fbline q{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-guide,:where(html.dm) .fb-fix,:where(html.dm) .fb-look{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-hand{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb-hand p b{color:#B9C4FF}
+:where(html.dm) .verdict{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .verdict .vq{color:#B9C4FF}
+:where(html.dm) .verdict .btn.yes.on{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .acc div.hit{color:#CDF3DC}
+:where(html.dm) .acc div.hit b{background:#1B7F3B}
+:where(html.dm) .stuckpanel{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .stuckpanel h4,:where(html.dm) .expanel h4,:where(html.dm) .stempanel h4{color:#B9C4FF}
+:where(html.dm) .expanel{background:var(--surface);background-color:var(--surface);border-left:5px solid #5B2C83}
+:where(html.dm) .stm{background:var(--surface);background-color:var(--surface);color:#F9EBCD}
+:where(html.dm) .stm:hover{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .finish{background:linear-gradient(135deg,var(--surface),var(--plum-l))}
+:where(html.dm) .finish h3{color:#B9C4FF}
+:where(html.dm) .sample .sp{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .sample .sp-q{color:#B9C4FF}
+:where(html.dm) .aphead h4{color:#B9C4FF}
+:where(html.dm) .aptab.on{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .apwrap{border:1px solid #314C72;border-color:#314C72;border-top:1px solid #314C72;border-bottom:1px solid #314C72;border-left:1px solid #314C72;border-right:1px solid #314C72}
+:where(html.dm) .apbar{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .apbar b{color:var(--ink)}
+:where(html.dm) .apbar .r{color:var(--ink)}
+:where(html.dm) .apbody{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .apq .mk{color:var(--ink)}
+:where(html.dm) .apstem{color:var(--ink)}
+:where(html.dm) .apparts{color:var(--ink)}
+:where(html.dm) .aptool{background:var(--bg);background-color:var(--bg);color:var(--ink);border-color:var(--line) var(--line) currentcolor;border-top:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .apbox{color:var(--ink);border:1px solid var(--line);border-color:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .doc{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .doc.used{outline:2px solid #1B7F3B}
+:where(html.dm) .dstat{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .dstat.on{border-color:#1B7F3B}
+:where(html.dm) .dhelp .model{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess h4{color:#B9C4FF}
+:where(html.dm) .modal{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .modal h2{color:#B9C4FF}
+:where(html.dm) footer.foot b{color:#B9C4FF}
+:where(html.dm) .svwarn{background:#413618;background-color:#413618;color:#DFDCEF}
+:where(html.dm) .svwarn.dirty{background:#412B18;background-color:#412B18}
+:where(html.dm) .svwarn.safe{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .svw-copy b{color:#F8DBBD}
+:where(html.dm) .svwarn.safe .svw-copy b{color:#C2F2D4}
+:where(html.dm) .svw-copy span{color:#D1CEDF}
+:where(html.dm) .svbtn{background:var(--surface);background-color:var(--surface);color:#DFDCEF;border:1px solid #443A69;border-color:#443A69;border-top:1px solid #443A69;border-bottom:1px solid #443A69;border-left:1px solid #443A69;border-right:1px solid #443A69}
+:where(html.dm) .svw-rubric{color:#D1CEDF}
+/* World Compass manual fixes: per-unit inline accent tokens (--a / --asoft) */
+:where(html.dm) .unit .go{color:color-mix(in srgb,var(--a) 45%,#fff)}
+:where(html.dm) .unit .pct{background:color-mix(in srgb,var(--a) 28%,var(--surface));color:color-mix(in srgb,var(--a) 40%,#fff)}
+:where(html.dm) .unit .n{color:color-mix(in srgb,var(--a) 55%,#fff)}
+:where(html.dm) .btn.gold{color:#1E2761}
+:where(html.dm) .lab.T,:where(html.dm) .lab.E,:where(html.dm) .lab.A{color:#0E1230}
+
+/* dark-mode toggle (shared) */
+:root{--dm-tg-bg:#fff;--dm-tg-fg:#1F1B3A;--dm-tg-b:rgba(0,0,0,.18);--dm-tg-font:system-ui,sans-serif}
+.dm-tg{position:fixed;right:14px;bottom:14px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 10px;border-radius:999px;border:2px solid var(--dm-tg-b);background:var(--dm-tg-bg);color:var(--dm-tg-fg);font:600 13px/1 var(--dm-tg-font);letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.22);transition:transform .15s,box-shadow .15s,opacity .2s;-webkit-tap-highlight-color:transparent;opacity:.96}
+.dm-tg:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:1}
+.dm-tg:active{transform:translateY(0) scale(.97)}
+.dm-tg:focus-visible{outline:3px solid #FFC83D;outline-offset:3px}
+.dm-tg svg{width:18px;height:18px;display:block}
+.dm-tg .dm-sun{display:none}
+html.dm .dm-tg .dm-sun{display:block}
+html.dm .dm-tg .dm-moon{display:none}
+.dm-tg .dm-lbl{white-space:nowrap}
+@media (max-width:620px){.dm-tg{right:10px;bottom:10px;height:38px;padding:0 10px}.dm-tg .dm-lbl{display:none}}
+@media print{.dm-tg{display:none !important}}
+
+</style>
+<script id="dm">
+/* Dark mode add-on (GeoArcade / World Compass / Euro Atlas / Lang Studio). Follows the device setting, with a per-page toggle. */
+(function(){
+  if (window.__dmInit) return; window.__dmInit = 1;
+  var d = document.documentElement, KEY = 'dm:pref', pref = null;
+  try { pref = localStorage.getItem(KEY) || sessionStorage.getItem(KEY); } catch (e) {}
+  var mq = null; try { mq = window.matchMedia('(prefers-color-scheme: dark)'); } catch (e) {}
+  function sys() { return !!(mq && mq.matches); }
+  var on = pref ? pref === 'dark' : sys();
+  d.classList.toggle('dm', on);
+  var btn;
+  function paint() {
+    d.classList.toggle('dm', on);
+    if (btn) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.setAttribute('title', on ? 'Switch to light mode' : 'Switch to dark mode');
+      var l = btn.querySelector('.dm-lbl'); if (l) l.textContent = on ? 'Light' : 'Dark';
+    }
+    try { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.setAttribute('content', on ? '#0F0D22' : '#FFFFFF'); } catch (e) {}
+  }
+  function set(v, remember) {
+    on = v; paint();
+    if (remember) { try { localStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} try { sessionStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} }
+  }
+  function build() {
+    if (btn || !document.body) return;
+    btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'dm-tg'; btn.id = 'dmToggle';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
+    btn.innerHTML = '<svg class="dm-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 14.6A8.5 8.5 0 0 1 9.4 3a1 1 0 0 0-1.1-1.3A10.5 10.5 0 1 0 22.3 15.7 1 1 0 0 0 21 14.6z"/></svg>'
+      + '<svg class="dm-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>'
+      + '<span class="dm-lbl">Dark</span>';
+    btn.addEventListener('click', function () { set(!on, true); });
+    document.body.appendChild(btn);
+    paint();
+    // keep the button last in <body> so nothing re-renders over it
+    new MutationObserver(function () { if (btn && document.body && document.body.lastElementChild !== btn && btn.isConnected) document.body.appendChild(btn); if (btn && !btn.isConnected) document.body.appendChild(btn); }).observe(document.body, { childList: true });
+  }
+  if (mq && mq.addEventListener) mq.addEventListener('change', function (e) { if (!pref) set(e.matches, false); });
+  else if (mq && mq.addListener) mq.addListener(function (e) { if (!pref) set(e.matches, false); });
+  if (document.body) build(); else document.addEventListener('DOMContentLoaded', build);
+  window.__dm = { set: function (v) { set(!!v, true); }, get on() { return on; } };
+})();
+
+</script>
+</body>
+</html> 

@@ -1,0 +1,296 @@
+[
+ {
+  "slug": "ap-euro-atlas",
+  "ds": "ea",
+  "live_len": 34173,
+  "new_len": 39536,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__dbq-archive",
+  "ds": "eat",
+  "live_len": 178764,
+  "new_len": 191256,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__dbq-cafe",
+  "ds": "cafe",
+  "live_len": 163778,
+  "new_len": 173800,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__leq-atelier",
+  "ds": "eat",
+  "live_len": 79804,
+  "new_len": 92296,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__period-1-the-unmaking-of-christendom",
+  "ds": "ea",
+  "live_len": 30552,
+  "new_len": 35915,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__period-2-from-divine-right-to-the-rights-of-man",
+  "ds": "ea",
+  "live_len": 30929,
+  "new_len": 36292,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__period-3-the-machine-the-nation-and-the-world",
+  "ds": "ea",
+  "live_len": 31041,
+  "new_len": 36404,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__period-4-from-total-war-to-transnational-union",
+  "ds": "ea",
+  "live_len": 31924,
+  "new_len": 37287,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__saq-sketchbook",
+  "ds": "eat",
+  "live_len": 72118,
+  "new_len": 84610,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__the-isms-tracker",
+  "ds": "ea",
+  "live_len": 119583,
+  "new_len": 124946,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__unit-1-renaissance-and-exploration",
+  "ds": "ea",
+  "live_len": 113788,
+  "new_len": 119151,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__unit-2-age-of-reformation",
+  "ds": "ea",
+  "live_len": 111113,
+  "new_len": 116476,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__unit-3-absolutism-and-constitutionalism",
+  "ds": "ea",
+  "live_len": 110142,
+  "new_len": 115505,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__unit-4-scientific-philosophical-and-political-developments",
+  "ds": "ea",
+  "live_len": 119684,
+  "new_len": 125047,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__unit-5-conflict-crisis-and-reaction-in-the-late-18th-century",
+  "ds": "ea",
+  "live_len": 114280,
+  "new_len": 119643,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__unit-6-industrialization-and-its-effects",
+  "ds": "ea",
+  "live_len": 127591,
+  "new_len": 132954,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__unit-7-19th-century-perspectives-and-political-developments",
+  "ds": "ea",
+  "live_len": 125900,
+  "new_len": 131263,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__unit-8-20th-century-global-conflicts",
+  "ds": "ea",
+  "live_len": 124629,
+  "new_len": 129992,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-euro-atlas__unit-9-cold-war-and-contemporary-europe",
+  "ds": "ea",
+  "live_len": 142090,
+  "new_len": 147453,
+  "site": "ap-euro-atlas"
+ },
+ {
+  "slug": "ap-world-compass",
+  "ds": "wc",
+  "live_len": 13759,
+  "new_len": 26486,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "ap-world-compass__dbq-dossier",
+  "ds": "wc",
+  "live_len": 112645,
+  "new_len": 125372,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "ap-world-compass__leq-launchpad",
+  "ds": "wc",
+  "live_len": 99976,
+  "new_len": 112703,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "ap-world-compass__saq-checker",
+  "ds": "wc",
+  "live_len": 95517,
+  "new_len": 108244,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "ap-world-compass__unit-1-the-global-tapestry",
+  "ds": "wc",
+  "live_len": 67612,
+  "new_len": 80339,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "ap-world-compass__unit-2-networks-of-exchange",
+  "ds": "wc",
+  "live_len": 63829,
+  "new_len": 76556,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "ap-world-compass__unit-3-land-based-empires",
+  "ds": "wc",
+  "live_len": 53825,
+  "new_len": 66552,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "ap-world-compass__unit-4-transoceanic-interconnections",
+  "ds": "wc",
+  "live_len": 70460,
+  "new_len": 83187,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "ap-world-compass__unit-5-revolutions",
+  "ds": "wc",
+  "live_len": 75382,
+  "new_len": 88109,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "ap-world-compass__unit-6-consequences-of-industrialization",
+  "ds": "wc",
+  "live_len": 63937,
+  "new_len": 76664,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "ap-world-compass__unit-7-global-conflict",
+  "ds": "wc",
+  "live_len": 62086,
+  "new_len": 74813,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "ap-world-compass__unit-8-cold-war-and-decolonization",
+  "ds": "wc",
+  "live_len": 65552,
+  "new_len": 78279,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "ap-world-compass__unit-9-globalization",
+  "ds": "wc",
+  "live_len": 64457,
+  "new_len": 77184,
+  "site": "ap-world-compass"
+ },
+ {
+  "slug": "aplangstudio",
+  "ds": "lang",
+  "live_len": 401969,
+  "new_len": 409989,
+  "site": "aplangstudio"
+ },
+ {
+  "slug": "geoarcade",
+  "ds": "ga",
+  "live_len": 57088,
+  "new_len": 77920,
+  "site": "geoarcade"
+ },
+ {
+  "slug": "geoarcade__frq-exam-prep",
+  "ds": "ga",
+  "live_len": 204302,
+  "new_len": 225134,
+  "site": "geoarcade"
+ },
+ {
+  "slug": "geoarcade__unit-1",
+  "ds": "ga",
+  "live_len": 114679,
+  "new_len": 135511,
+  "site": "geoarcade"
+ },
+ {
+  "slug": "geoarcade__unit-2",
+  "ds": "ga",
+  "live_len": 116969,
+  "new_len": 137801,
+  "site": "geoarcade"
+ },
+ {
+  "slug": "geoarcade__unit-3",
+  "ds": "ga",
+  "live_len": 121335,
+  "new_len": 142167,
+  "site": "geoarcade"
+ },
+ {
+  "slug": "geoarcade__unit-4",
+  "ds": "ga",
+  "live_len": 126869,
+  "new_len": 147701,
+  "site": "geoarcade"
+ },
+ {
+  "slug": "geoarcade__unit-5",
+  "ds": "ga",
+  "live_len": 133913,
+  "new_len": 154745,
+  "site": "geoarcade"
+ },
+ {
+  "slug": "geoarcade__unit-6",
+  "ds": "ga",
+  "live_len": 133931,
+  "new_len": 154763,
+  "site": "geoarcade"
+ },
+ {
+  "slug": "geoarcade__unit-7",
+  "ds": "ga",
+  "live_len": 129807,
+  "new_len": 150639,
+  "site": "geoarcade"
+ }
+]

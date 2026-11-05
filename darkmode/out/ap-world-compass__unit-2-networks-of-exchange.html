@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AP World Unit 2 — Networks of Exchange</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&display=swap">
+<style>
+:root{
+--navy:#1E2761; --navy-2:#2B3780; --title:#1E2761; --gold:#C9A227; --gold-2:#E3C464; --gold-soft:#F6EBC4;
+--accent:#0F6E6A; --accent-soft:#E1F1F0;
+--bg:#F4F5F9; --surface:#FFFFFF; --surface-2:#EEF0F6; --line:#D8DBE6;
+--ink:#1A1D2E; --ink-2:#4A4F68; --muted:#666B82;
+--on-navy:#FFFFFF; --on-navy-muted:#B9BFE0;
+--good:#1B7F3B; --good-soft:#E3F3E7; --bad:#B42318; --bad-soft:#FBE9E7;
+--shadow:0 1px 2px rgba(30,39,97,.06),0 6px 18px rgba(30,39,97,.08);
+--display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+--body:Arial,Helvetica,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+#app{height:100vh;overflow-y:auto;overflow-x:hidden;scroll-behavior:smooth;-webkit-overflow-scrolling:touch}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.hero{background:var(--navy);color:var(--on-navy);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:auto -10% -60% auto;width:520px;height:520px;border-radius:50%;
+background:radial-gradient(circle at 30% 30%,rgba(201,162,39,.28),rgba(201,162,39,0) 62%);pointer-events:none}
+.hero .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;padding:44px 24px 36px;position:relative}
+.eyebrow{font-size:12px;font-weight:bold;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.hero h1{font-family:var(--display);font-weight:700;font-size:clamp(44px,6vw,72px);line-height:.98;margin:10px 0 14px;text-wrap:balance;letter-spacing:-.01em}
+.hero .lede{max-width:56ch;color:var(--on-navy-muted);font-size:17px;margin:0 0 22px}
+.stats{display:flex;gap:28px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--display);font-size:34px;font-weight:700;line-height:1;color:var(--gold-2)}
+.stat span{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--on-navy-muted)}
+.topics{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:18px 18px 10px;align-self:start}
+.topics h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+.topic-row{display:flex;gap:12px;align-items:flex-start;padding:8px 0;border-top:1px solid rgba(255,255,255,.1);font-size:14px;line-height:1.35}
+.topic-row:first-of-type{border-top:0}
+.topic-row .num{font-family:var(--display);font-weight:700;font-size:20px;line-height:1;min-width:38px;color:var(--gold-2)}
+.topic-row .theme{margin-left:auto;white-space:nowrap;font-size:11px;letter-spacing:.08em;color:var(--on-navy-muted)}
+.bar{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 2px 10px rgba(30,39,97,.06)}
+.bar .wrap{display:flex;align-items:center;gap:6px;padding:8px 24px;overflow-x:auto;scrollbar-width:none}
+.bar .wrap::-webkit-scrollbar{display:none}
+.bar a{color:var(--ink-2);text-decoration:none;font-size:14px;font-weight:bold;padding:8px 12px;border-radius:8px;white-space:nowrap}
+.bar a:hover,.bar a.active{background:var(--surface-2);color:var(--title)}
+.bar .spacer{flex:1}
+.bar .count{font-size:12px;color:var(--muted);white-space:nowrap}
+.filter{background:var(--surface-2);border-bottom:1px solid var(--line)}
+.filter .wrap{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 24px}
+.filter .lbl{font-size:12px;font-weight:bold;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:6px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:bold;cursor:pointer}
+.chip:hover{border-color:var(--title);color:var(--title)}
+.chip.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.filter input{margin-left:auto;min-width:220px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;font-size:14px}
+section.block{padding:44px 0 12px;scroll-margin-top:56px}
+.sec-head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.sec-head h2{font-family:var(--display);font-weight:700;font-size:38px;line-height:1;margin:0;color:var(--title)}
+.sec-head p{margin:0;color:var(--muted);font-size:14px;max-width:60ch}
+.sec-head .tools{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--title);border-radius:8px;padding:8px 14px;font-size:13px;font-weight:bold;cursor:pointer}
+.btn:hover{border-color:var(--navy)}
+.btn.primary{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.btn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.grid.big{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{perspective:1200px;display:flex;flex-direction:column;gap:6px}
+.card-inner{position:relative;width:100%;flex:1;min-height:150px;transition:transform .55s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d;cursor:pointer;border:0;padding:0;background:none;text-align:left;display:block;color:inherit}
+.grid.big .card-inner{min-height:250px}
+.card.flipped .card-inner{transform:rotateY(180deg)}
+.face{backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:inherit}
+.front{position:absolute;inset:0;background:var(--surface);border:1px solid var(--line)}
+.front::before{content:"";position:absolute;left:18px;right:18px;top:0;height:3px;background:var(--accent);border-radius:0 0 3px 3px}
+.back{position:relative;background:var(--navy);color:var(--on-navy);transform:rotateY(180deg)}
+.tag{font-size:11px;font-weight:bold;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.back .tag{color:var(--gold)}
+.term{font-family:var(--display);font-weight:700;font-size:26px;line-height:1.05;margin:10px 0 6px;color:var(--title);text-wrap:balance}
+.grid.big .term{font-size:28px}
+.sub{font-size:13px;color:var(--ink-2)}
+.cue{margin-top:14px;font-size:13px;color:var(--muted);line-height:1.4;max-width:34ch}
+.cue b{color:var(--accent)}
+.front .hint{margin-top:auto;font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.back .term{color:#fff;font-size:20px;margin:6px 0 8px}
+.def{font-size:14px;line-height:1.45}
+.why{margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.18);font-size:13px;color:var(--on-navy-muted)}
+.why b{color:var(--gold-2)}
+.kv{font-size:13px;line-height:1.4;margin:4px 0}
+.kv b{color:var(--gold-2);font-weight:bold}
+.card.hidden{display:none}
+.card .mark{display:none;gap:6px}
+.quiz .card .mark{display:flex}
+.mark button{flex:1;border:1px solid var(--line);border-radius:8px;padding:6px 8px;font-size:12px;font-weight:bold;cursor:pointer;background:var(--surface);color:var(--ink-2)}
+.mark button.got{color:var(--good)} .mark button.miss{color:var(--bad)}
+.card.got .front{box-shadow:0 0 0 2px var(--good),var(--shadow)}
+.card.miss .front{box-shadow:0 0 0 2px var(--bad),var(--shadow)}
+.card.got .mark .got{background:var(--good-soft);border-color:var(--good)}
+.card.miss .mark .miss{background:var(--bad-soft);border-color:var(--bad)}
+.quiz .front .term{filter:blur(0)}
+.quiz.hide-fronts .card:not(.flipped) .front .term{filter:blur(7px)}
+.quiz.hide-fronts .card:not(.flipped) .front .hint::after{content:" · term hidden — flip to check"}
+.quizbar{display:none;align-items:center;gap:14px;flex-wrap:wrap;background:var(--accent-soft);border:1px solid var(--accent);border-radius:12px;padding:12px 16px;margin:0 0 16px;font-size:14px}
+.quiz .quizbar{display:flex}
+.quizbar b{color:var(--accent)}
+.quizbar .score{display:flex;gap:14px}
+.pill{border-radius:999px;padding:3px 10px;font-weight:bold;font-size:13px}
+.pill.good{background:var(--good-soft);color:var(--good)} .pill.bad{background:var(--bad-soft);color:var(--bad)}
+.rail{position:relative;overflow-x:auto;padding:24px 0 18px;scroll-snap-type:x proximity}
+.rail ol::before{content:"";position:absolute;left:0;right:0;top:36px;height:3px;z-index:0;background:linear-gradient(90deg,var(--gold),var(--gold-2),var(--gold))}
+.rail ol{list-style:none;margin:0;padding:0 8px;display:flex;gap:14px;min-width:max-content;position:relative}
+.rail li{scroll-snap-align:start;width:210px}
+.year{display:block;width:100%;border:0;background:none;cursor:pointer;text-align:left;padding:0;color:inherit}
+.year .dot{position:relative;z-index:1;width:14px;height:14px;border-radius:50%;background:var(--surface);border:3px solid var(--gold);margin:29px 0 0 0;transition:transform .2s}
+.year:hover .dot,.year.open .dot{background:var(--accent);border-color:var(--accent);transform:scale(1.25)}
+.year .y{font-family:var(--display);font-weight:700;font-size:30px;line-height:1;color:var(--title);margin:10px 0 4px}
+.year .e{font-size:14px;font-weight:bold;color:var(--ink);line-height:1.3}
+.year .reg{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.year .more{display:none;margin-top:8px;font-size:13px;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow)}
+.year.open .more{display:block}
+.rail li.hidden{display:none}
+.dev{border:1px solid var(--line);background:var(--surface);border-radius:14px;margin-bottom:12px;overflow:hidden;box-shadow:var(--shadow)}
+.dev summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center;padding:16px 18px}
+.dev summary::-webkit-details-marker{display:none}
+.dev .num{font-family:var(--display);font-weight:700;font-size:34px;line-height:1;color:var(--accent)}
+.dev .ttl{font-weight:bold;font-size:17px;color:var(--title)}
+.dev .themes{font-size:11px;letter-spacing:.08em;color:var(--muted);margin-top:2px}
+.dev .arrow{width:28px;height:28px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;color:var(--title);font-weight:bold;transition:transform .25s}
+.dev[open] .arrow{transform:rotate(45deg)}
+.dev .body{padding:0 18px 18px 96px;display:grid;gap:14px}
+.lo{font-size:14px;color:var(--ink-2)}
+.lo b{color:var(--title)}
+.kc{border-left:3px solid var(--gold);padding:6px 14px;background:var(--surface-2);border-radius:0 10px 10px 0}
+.kc .code{font-size:11px;letter-spacing:.08em;color:var(--muted);font-weight:bold}
+.kc .official{font-size:14px;margin:2px 0 6px;color:var(--ink)}
+.kc .plain{font-size:14px;color:var(--ink-2)}
+.kc .plain b{color:var(--accent)}
+.ex{display:flex;flex-wrap:wrap;gap:6px}
+.ex span{font-size:12px;font-weight:bold;background:var(--gold-soft);color:var(--title);border-radius:6px;padding:4px 8px}
+.dev.hidden{display:none}
+@media (max-width:700px){.dev summary{grid-template-columns:48px 1fr auto}.dev .body{padding-left:18px}}
+.ctx{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.ctx .c{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+.ctx h3{margin:0 0 8px;font-size:15px;color:var(--title)}
+.ctx p{margin:6px 0;font-size:14px;color:var(--ink-2)}
+.ctx p b{display:inline-block;min-width:64px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+footer{margin-top:40px;padding:22px 0 34px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center}
+footer b{color:var(--title)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.topics{order:2}}
+@media (prefers-reduced-motion: reduce){
+html{scroll-behavior:auto}
+#app{scroll-behavior:auto}
+.card-inner{transition:none}
+.card.flipped .card-inner{transform:none}
+.front{visibility:visible}
+.card.flipped .front{visibility:hidden}
+.back{transform:none;visibility:hidden}
+.card.flipped .back{visibility:visible}
+}
+.hero{display:none}
+</style>
+<style id="ms-phone-nav">@media (max-width:700px){.bar .wrap{flex-wrap:wrap;overflow-x:visible;row-gap:2px;padding:6px 12px}.bar a{padding:6px 9px;font-size:13px}.bar .spacer{display:none}}</style><style id="ms-phone-text">@media (max-width:640px){.topic-row .theme,.tag,.front .hint,.year .reg,.dev .themes,.kc .code,.ctx p b{font-size:12px!important;line-height:1.35}}
+/* ios-no-zoom */@media (max-width:820px){input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]),textarea,select{font-size:16px !important}}
+</style></head>
+<body>
+<div id="app">
+<header class="hero">
+<div class="wrap">
+<div>
+<div class="eyebrow">AP World History: Modern &nbsp;·&nbsp; Unit 2 &nbsp;·&nbsp; c. 1200 – c. 1450</div>
+<h1 id="unitTitle">Networks of Exchange</h1>
+<p class="lede" id="unitLede"></p>
+<div class="stats" id="unitStats"></div>
+</div>
+<aside class="topics" aria-label="Topics in this unit">
+<h2>Topics</h2>
+<div id="topicList"></div>
+</aside>
+</div>
+</header>
+<nav class="bar" aria-label="Sections">
+<div class="wrap">
+<a href="#vocab">Vocabulary</a>
+<a href="#states">Empires &amp; States</a>
+<a href="#timeline">Timeline</a>
+<a href="#developments">Historical Developments</a>
+<a href="#context">Context Bank</a>
+<span class="spacer"></span>
+<span class="count" id="cardCount"></span>
+</div>
+</nav>
+<div class="filter">
+<div class="wrap">
+<span class="lbl">Show</span>
+<div id="chips" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+<input id="search" type="search" placeholder="Search terms, cards, dates…" aria-label="Search">
+</div>
+</div>
+<main class="wrap">
+<section class="block" id="vocab">
+<div class="sec-head">
+<h2>Vocabulary</h2>
+<p>Tap a card to flip it. Term on the front, definition and why it matters on the back.</p>
+<div class="tools">
+<button class="btn" id="shuffleVocab">Shuffle</button>
+<button class="btn" id="flipAllVocab">Flip all</button>
+<button class="btn gold" id="quizBtn">Quiz me</button>
+</div>
+</div>
+<div class="quizbar" id="quizbar">
+<div><b>Quiz mode.</b> Flip a card, then mark it. Missed cards get a red ring so you can come back to them. Marks last only while this page is open; they reset when you reload or leave.</div>
+<div class="score"><span class="pill good" id="gotN">0 got it</span><span class="pill bad" id="missN">0 missed</span></div>
+<button class="btn" id="hideFronts">Hide terms</button>
+<button class="btn" id="onlyMissed">Show missed only</button>
+<button class="btn" id="resetQuiz">Reset</button>
+</div>
+<div class="grid" id="vocabGrid"></div>
+</section>
+<section class="block" id="states">
+<div class="sec-head">
+<h2 id="statesH">Empires &amp; States</h2>
+<p id="statesP">How each state gained power, kept it, and what it is known for. These are the LEQ evidence cards.</p>
+<div class="tools"><button class="btn" id="flipAllStates">Flip all</button></div>
+</div>
+<div class="grid big" id="stateGrid"></div>
+</section>
+<section class="block" id="timeline">
+<div class="sec-head">
+<h2>Timeline</h2>
+<p>Click a date to see why it is on the list. Scroll sideways.</p>
+</div>
+<div class="rail"><ol id="rail"></ol></div>
+</section>
+<section class="block" id="developments">
+<div class="sec-head">
+<h2>Historical Developments</h2>
+<p>The College Board statements the questions are written from — official wording, then plain English, then the examples they expect you to know.</p>
+<div class="tools"><button class="btn" id="openAllDev">Open all</button></div>
+</div>
+<div id="devList"></div>
+</section>
+<section class="block" id="context">
+<div class="sec-head">
+<h2>Context Bank</h2>
+<p>Ready-made LEQ contextualization: one sentence before the period, one sentence during.</p>
+</div>
+<div class="ctx" id="ctxList"></div>
+</section>
+</main>
+<footer><b>Panther Creek High School</b> &nbsp;•&nbsp; Created by Scott Martin &nbsp;•&nbsp; APandAbroad@gmail.com<br>AP® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this site.</footer>
+</div>
+<script>
+const UNIT = {
+number: 2, title: "Networks of Exchange", dates: "c. 1200 – c. 1450",
+lede: "Unit 1 was the patches; Unit 2 is the thread. Three trade networks — the Silk Roads, the Indian Ocean, and the trans-Saharan routes — plus one Mongol Empire moved goods, religions, technology, and plague across the whole of Afro-Eurasia.",
+stats: [["8–10%","of the AP exam"],["7","topics"],["10–13","class periods"]],
+statesLabel: "Networks & Empires", countLabel: "cards",
+statesBlurb: "Each network or empire: how it grew, how it actually worked, what moved along it, and why it faded. These are the comparison-essay cards.",
+stateFields: { gained:"How it grew", kept:"How it worked", known:"What moved", end:"Decline", cue:"Before you flip — how did it <b>grow</b>, how did it <b>work</b>, and what <b>moved</b> along it?" },
+topics: [
+{id:"2.1", title:"The Silk Roads", themes:"ECN"},
+{id:"2.2", title:"The Mongol Empire and the Making of the Modern World", themes:"GOV · ECN · CDI"},
+{id:"2.3", title:"Exchange in the Indian Ocean", themes:"ECN · CDI · ENV"},
+{id:"2.4", title:"Trans-Saharan Trade Routes", themes:"TEC · GOV"},
+{id:"2.5", title:"Cultural Consequences of Connectivity", themes:"CDI"},
+{id:"2.6", title:"Environmental Consequences of Connectivity", themes:"ENV"},
+{id:"2.7", title:"Comparison of Economic Exchange", themes:"Argumentation", review:true},
+],
+vocab: [
+// 2.1 Silk Roads
+{t:"2.1", term:"Silk Roads", def:"The network of overland routes linking China to Central Asia, Persia, and the Mediterranean; carried luxury goods, ideas, and religions.", why:"The unit's first network. Know that it revived after 1200 because of the Mongols and better commercial practices."},
+{t:"2.1", term:"Luxury goods", def:"High-value, low-weight items — silk, porcelain, spices, gems — worth carrying across a continent by camel.", why:"Overland trade only paid for luxuries; bulk goods went by sea. Explains why the Silk Roads and the Indian Ocean carried different cargo."},
+{t:"2.1", term:"Caravanserai", def:"Roadside inns spaced a day's travel apart along the Silk Roads where merchants rested, traded, and swapped news.", why:"CED-named transportation innovation; also the place where ideas and religions changed hands."},
+{t:"2.1", term:"Kashgar", def:"Oasis city in western China where the northern and southern Silk Road branches met.", why:"CED-named trading city that grew rich as a crossroads."},
+{t:"2.1", term:"Samarkand", def:"Central Asian trading city (modern Uzbekistan) famous for its markets, scholars, and later Timur's monuments.", why:"CED-named trading city; shows trade producing powerful new urban centers."},
+{t:"2.1", term:"Bills of exchange", def:"Written promises to pay that let merchants move value across long distances without carrying coins.", why:"CED-named form of credit — paper replaced silver on the road, so more trade happened."},
+{t:"2.1", term:"Banking houses", def:"Businesses that held deposits, made loans, and exchanged currencies for traders.", why:"CED-named; finance is what scaled the Silk Roads up."},
+{t:"2.1", term:"Paper money", def:"Government-issued paper currency, first used in Song China and expanded under the Mongols (Yuan).", why:"CED-named money-economy innovation; made large transactions practical."},
+{t:"2.1", term:"Money economy", def:"An economy where goods are bought with currency rather than bartered.", why:"The shift the CED credits with increasing the volume of trade."},
+{t:"2.1", term:"Flying cash", def:"Tang and Song Chinese credit vouchers merchants could deposit in one city and redeem in another.", why:"The Chinese ancestor of the bill of exchange."},
+{t:"2.1", term:"Proto-industrialization", def:"Large-scale production of goods for distant markets by households and workshops, before factories.", why:"Why Chinese textiles, porcelain, iron, and steel could supply the whole network (KC-3.3.I.B)."},
+{t:"2.1", term:"Porcelain", def:"Hard, white ceramic perfected in China; prized from Persia to East Africa.", why:"The signature luxury export that drove demand across Afro-Eurasia."},
+{t:"2.1", term:"Sogdians", def:"Central Asian merchant people who ran much of Silk Road commerce and carried Buddhism, Manichaeism, and Christianity east.", why:"Example of merchants as cultural carriers."},
+// 2.2 Mongols
+{t:"2.2", term:"Mongol Empire", def:"The largest contiguous land empire in history (1206–1368), founded by Chinggis Khan and stretching from Korea to Eastern Europe.", why:"The single biggest cause of increased exchange in this period. Everything in 2.1–2.6 runs through it."},
+{t:"2.2", term:"Chinggis (Genghis) Khan", def:"Temüjin, who united the Mongol tribes in 1206 and launched the conquests of northern China, Central Asia, and Persia.", why:"Know the name, the date, and the method: mobile cavalry, terror, and meritocratic command."},
+{t:"2.2", term:"Khanates", def:"The four successor states of the Mongol Empire after 1260: Yuan (China), Ilkhanate (Persia), Golden Horde (Russia), Chagatai (Central Asia).", why:"CED-named — \"empires collapsed and were replaced by new imperial states, including the Mongol khanates.\""},
+{t:"2.2", term:"Pax Mongolica", def:"The \"Mongol Peace\" (c. 1250–1350) when one power controlled the Silk Roads, making travel safer and trade heavier than ever.", why:"The mechanism by which the Mongols \"facilitated Afro-Eurasian trade and communication.\""},
+{t:"2.2", term:"Yam system", def:"Mongol relay network of post stations with fresh horses and supplies that moved messengers and officials fast across the empire.", why:"Communication infrastructure — the Mongol answer to the Inca roads."},
+{t:"2.2", term:"Kublai Khan", def:"Chinggis's grandson who conquered the Song and founded the Yuan Dynasty in China (1271).", why:"The Mongol who became a Chinese emperor — a case of conquerors adopting the conquered's institutions."},
+{t:"2.2", term:"Yuan Dynasty", def:"Mongol-ruled Chinese dynasty (1271–1368) that kept Chinese bureaucracy but put Mongols and foreigners above Chinese in rank.", why:"Shows continuity (bureaucracy) and change (ethnic hierarchy, no civil service exam for decades)."},
+{t:"2.2", term:"Ilkhanate", def:"Mongol state in Persia and Iraq (1256–1335) whose rulers eventually converted to Islam.", why:"Example of Mongols adopting local religion; sacked Baghdad in 1258."},
+{t:"2.2", term:"Golden Horde", def:"Mongol khanate ruling Russia and the steppe (1240s–1500s) from a distance through tribute collected by Russian princes.", why:"Why Moscow rose — it collected the Mongols' taxes — and why Russia was cut off from Europe."},
+{t:"2.2", term:"Greco-Islamic medical knowledge", def:"Medical learning preserved and advanced in the Islamic world (Ibn Sina's Canon) that reached Western Europe through Mongol-era contact.", why:"CED-named technological/cultural transfer."},
+{t:"2.2", term:"Numbering system transfer", def:"The spread of Hindu-Arabic numerals (including zero) into Europe via the Islamic world.", why:"CED-named transfer — the numbers you use are a Unit 2 artifact."},
+{t:"2.2", term:"Uyghur script", def:"A Central Asian alphabet the Mongols adopted to write their own language and run their administration.", why:"CED-named example of the Mongols borrowing from the peoples they ruled."},
+{t:"2.2", term:"Mongol religious tolerance", def:"Mongol policy of allowing all faiths and exempting clergy from taxes, which kept conquered peoples calmer.", why:"A governing technique — and a reason religions spread under Mongol rule."},
+{t:"2.2", term:"Marco Polo", def:"Venetian merchant who traveled to Yuan China (1271–1295) and served Kublai Khan; his account fascinated Europe.", why:"CED-named traveler; evidence of how far the Pax Mongolica let people go."},
+// 2.3 Indian Ocean
+{t:"2.3", term:"Indian Ocean trade network", def:"The sea-lane system connecting East Africa, Arabia, India, Southeast Asia, and China — the largest trade network in the world before 1500.", why:"The unit's sea network; bulk goods, diasporic communities, and Islam all traveled on it."},
+{t:"2.3", term:"Monsoon winds", def:"Seasonal winds that blow toward Asia in summer and away in winter, letting sailors time reliable round trips.", why:"CED-named environmental knowledge — the Indian Ocean only works if you understand the winds."},
+{t:"2.3", term:"Dhow", def:"Arab and Indian sailing ship with triangular lateen sails, built for Indian Ocean trade.", why:"Part of \"larger ship designs\" and lateen technology in the CED."},
+{t:"2.3", term:"Junk", def:"Large Chinese ship with multiple masts, watertight compartments, and a stern rudder; could carry huge cargoes.", why:"CED \"larger ship designs\"; Zheng He's fleet used giant junks."},
+{t:"2.3", term:"Lateen sail", def:"Triangular sail that lets a ship sail against the wind.", why:"Technology that spread from the Indian Ocean to Europe's caravels (Unit 4 link)."},
+{t:"2.3", term:"Astrolabe", def:"Instrument for finding latitude from the sun or stars, refined by Muslim scholars.", why:"CED-named navigation technology."},
+{t:"2.3", term:"Magnetic compass", def:"Chinese invention that shows direction without sun or stars.", why:"CED-named; made open-ocean sailing possible."},
+{t:"2.3", term:"Diasporic communities", def:"Settlements of foreign merchants living permanently in a trading port, keeping their own culture while mixing with locals.", why:"KC-3.1.III.B — the CED's main cultural effect of Indian Ocean trade."},
+{t:"2.3", term:"Swahili Coast city-states", def:"East African ports (Kilwa, Mombasa, Zanzibar) that grew rich exporting gold and ivory and adopted Islam and Arabic loanwords.", why:"CED-named state growth caused by the Indian Ocean network."},
+{t:"2.3", term:"Gujarat", def:"Region of western India whose ports (Cambay, Surat) were the Indian Ocean's great cotton-textile and middleman hub.", why:"CED-named state that grew from trade."},
+{t:"2.3", term:"Sultanate of Malacca", def:"Muslim trading state (c. 1400–1511) on the strait between Sumatra and Malaya that taxed every ship passing between India and China.", why:"CED-named; a state built entirely on a chokepoint."},
+{t:"2.3", term:"Zheng He", def:"Ming Chinese Muslim admiral who led seven huge treasure-fleet voyages (1405–1433) to Southeast Asia, India, Arabia, and East Africa.", why:"CED-named; shows Chinese maritime power — and the Ming decision to stop."},
+{t:"2.3", term:"Arab and Persian communities in East Africa", def:"Muslim merchant settlements on the Swahili coast that intermarried with Africans and created Swahili culture.", why:"CED-named diasporic community."},
+{t:"2.3", term:"Chinese merchant communities in Southeast Asia", def:"Settlements of Chinese traders in ports like Malacca and Java that linked the region to China's markets.", why:"CED-named diasporic community."},
+{t:"2.3", term:"Malay communities", def:"Malay sailors and merchants settled across the Indian Ocean basin who spread their language and trade ties.", why:"CED-named diasporic community."},
+{t:"2.3", term:"Calicut", def:"Spice-trade port on India's southwest coast that welcomed merchants of every faith; Zheng He and later Vasco da Gama both landed there.", why:"Go-to example of a cosmopolitan Indian Ocean port."},
+// 2.4 Trans-Saharan
+{t:"2.4", term:"Trans-Saharan trade", def:"Caravan routes across the Sahara linking West African gold and enslaved people to North African salt, horses, and manufactured goods.", why:"The unit's third network; built Mali and spread Islam south."},
+{t:"2.4", term:"Camel saddle", def:"Saddle designs (Arabian, Tuareg) that let camels carry heavy loads and riders across the desert.", why:"CED-named transportation technology that made the Sahara crossable."},
+{t:"2.4", term:"Caravan", def:"A large group of merchants and pack animals traveling together for safety across deserts or steppe.", why:"CED-named; the organizational technology of overland trade."},
+{t:"2.4", term:"Gold-salt trade", def:"The core exchange of the Sahara: West African gold moving north, Saharan salt moving south.", why:"Why West African empires were rich and why North Africa wanted them."},
+{t:"2.4", term:"Mali Empire", def:"West African empire (c. 1235–1600) that controlled the goldfields and the desert routes and adopted Islam.", why:"CED-named: the expansion of Mali \"facilitated Afro-Eurasian trade and communication.\""},
+{t:"2.4", term:"Mansa Musa", def:"Ruler of Mali whose 1324 hajj to Mecca spent so much gold that prices in Cairo fell.", why:"Classic evidence of trans-Saharan wealth and of Islam connecting Africa to the wider world."},
+{t:"2.4", term:"Timbuktu", def:"Mali trading city on the Niger bend that became a center of Islamic scholarship, with mosques, libraries, and the Sankore university.", why:"Trade → wealth → learning. The West African parallel to Samarkand."},
+{t:"2.4", term:"Tuareg", def:"Nomadic Berber peoples of the Sahara who guided, guarded, and taxed the caravans.", why:"The people who made the network function day to day."},
+{t:"2.4", term:"Sundiata", def:"Founder of the Mali Empire (c. 1235), hero of the Epic of Sundiata.", why:"Name behind the empire; shows oral tradition as a historical source."},
+// 2.5 Cultural consequences
+{t:"2.5", term:"Cultural diffusion", def:"The spread of ideas, beliefs, art, and technology from one society to another through contact.", why:"The CED's umbrella term for what 2.5 is about."},
+{t:"2.5", term:"Spread of Islam", def:"Islam's expansion into sub-Saharan Africa and Southeast Asia along trade routes, carried by merchants and Sufis rather than armies.", why:"CED-named diffusion of a cultural tradition."},
+{t:"2.5", term:"Spread of Buddhism in East Asia", def:"Buddhism's continued influence in China, Korea, and Japan, including Chan/Zen and Pure Land schools.", why:"CED-named diffusion example."},
+{t:"2.5", term:"Hinduism and Buddhism in Southeast Asia", def:"The spread of Indian religions to Southeast Asian states like the Khmer Empire and Majapahit via Indian Ocean trade.", why:"CED-named diffusion example; Angkor Wat is the monument."},
+{t:"2.5", term:"Gunpowder", def:"Chinese invention that spread west along the Silk Roads under the Mongols, reaching the Islamic world and Europe.", why:"CED-named technological diffusion — and the seed of Unit 3's gunpowder empires."},
+{t:"2.5", term:"Paper", def:"Chinese invention that spread through the Islamic world to Europe, making books and bureaucracy cheaper.", why:"CED-named technological diffusion."},
+{t:"2.5", term:"Ibn Battuta", def:"Moroccan legal scholar who traveled about 75,000 miles across Dar al-Islam (1325–1354) and wrote the Rihla.", why:"CED-named traveler; his account is a favorite DBQ and SAQ source."},
+{t:"2.5", term:"Margery Kempe", def:"English Christian mystic who went on pilgrimages to Jerusalem, Rome, and Santiago and dictated the first autobiography in English.", why:"CED-named traveler; shows women and religious travel."},
+{t:"2.5", term:"Rise and fall of cities", def:"Some cities boomed with trade (Hangzhou, Samarkand, Timbuktu) while others declined from invasion, disease, or shifting routes (Baghdad, Constantinople).", why:"KC-3.3.II — the fate of cities varied."},
+{t:"2.5", term:"Hangzhou", def:"Song and Yuan Chinese city on the Grand Canal, possibly the largest city in the world c. 1300; Marco Polo called it the finest.", why:"Example of urbanization driven by trade and productivity."},
+{t:"2.5", term:"Travel literature", def:"Accounts written by travelers — Ibn Battuta, Marco Polo, Kempe — that spread knowledge of distant places.", why:"KC-3.1.III.C: more travelers wrote as networks intensified."},
+// 2.6 Environmental consequences
+{t:"2.6", term:"Bubonic plague (Black Death)", def:"Pandemic carried by fleas on rats that spread along Mongol trade routes from Central Asia, killing perhaps a third of Europe and devastating the Middle East in the 1340s.", why:"KC-3.1.IV — the biggest environmental consequence of connectivity."},
+{t:"2.6", term:"Pathogen diffusion", def:"The spread of disease-causing microbes along trade routes as people and animals moved.", why:"The CED's general term; plague is the example."},
+{t:"2.6", term:"Bananas in Africa", def:"Southeast Asian crop carried across the Indian Ocean that let Bantu farmers expand into wetter regions.", why:"CED-named crop diffusion."},
+{t:"2.6", term:"Champa rice", def:"Fast-ripening rice from Vietnam that spread to China and allowed two or three harvests a year.", why:"CED-named \"new rice varieties in East Asia\"; population boom."},
+{t:"2.6", term:"Citrus in the Mediterranean", def:"Oranges, lemons, and limes spread from Asia through the Islamic world to Spain and Italy.", why:"CED-named crop diffusion."},
+{t:"2.6", term:"Little Ice Age", def:"Period of cooler climate beginning around 1300 that cut harvests and contributed to famine before the plague.", why:"Environmental context for why the Black Death hit a weakened population."},
+{t:"2.6", term:"Labor shortage after the plague", def:"With a third of Europe dead, surviving workers demanded higher wages and serfdom weakened.", why:"The social effect you cite when asked about plague consequences."},
+],
+states: [
+{t:"2.1", name:"The Silk Roads", region:"China ↔ Central Asia ↔ Mediterranean", dates:"revived c. 1200–1350", gained:"Mongol unification made the routes safe; caravanserai, credit, and paper money lowered the cost of trade.", kept:"Relay trade: goods passed merchant to merchant through oasis cities like Kashgar and Samarkand; camels and caravans carried luxury cargo.", known:"Silk, porcelain, and Chinese steel west; horses, silver, and glass east; Buddhism, Islam, gunpowder, paper, and plague in both directions.", end:"Fragmentation of the khanates after 1350, the Black Death, and the rise of sea routes drained the overland trade."},
+{t:"2.3", name:"Indian Ocean network", region:"East Africa ↔ Arabia ↔ India ↔ Southeast Asia ↔ China", dates:"peak c. 1200–1450", gained:"Monsoon knowledge, compass and astrolabe, and bigger ships (dhows, junks) let merchants carry bulk goods cheaply.", kept:"Decentralized — no empire ran it. Port states taxed ships; merchant diasporas (Arab, Persian, Chinese, Malay) handled trust and credit.", known:"Gold and ivory from Africa, cotton and pepper from India, spices from the islands, porcelain and silk from China; Islam spread to every port.", end:"Never really ended — Portuguese warships disrupted it after 1498, but Asian merchants kept trading (Unit 4)."},
+{t:"2.4", name:"Trans-Saharan network", region:"West Africa ↔ North Africa", dates:"peak c. 1200–1450", gained:"Camel saddles and organized caravans made the desert crossable; Mali's empire protected the routes.", kept:"Tuareg guides and desert oases; Muslim merchants; gold traded for salt at fixed points on the desert's edge.", known:"Gold, enslaved people, ivory, and kola north; salt, horses, textiles, and books south; Islam and Arabic literacy into West Africa.", end:"Portuguese ships on the Atlantic coast after the 1440s pulled gold trade to the sea."},
+{t:"2.2", name:"Mongol Empire", region:"Korea to Eastern Europe", dates:"1206–1368", gained:"Chinggis Khan united the tribes; mounted archers, siege engineers borrowed from China, and terror-and-mercy tactics conquered Asia.", kept:"Promotion by merit, the yam relay system, religious tolerance, local bureaucrats left in place, and heavy taxes on trade.", known:"The Pax Mongolica: safest Silk Roads in history; transfer of gunpowder, paper, medicine, and numerals; also the plague.", end:"Split into four khanates after 1260; Yuan expelled by the Ming in 1368; the Ilkhanate collapsed in 1335."},
+{t:"2.2", name:"Yuan Dynasty", region:"China", dates:"1271–1368", gained:"Kublai Khan finished the conquest of the Song.", kept:"Kept the Chinese bureaucracy but ranked Mongols first, foreigners (like Marco Polo) second, Chinese last; expanded paper money and the Grand Canal.", known:"Foreign experts in Chinese government; a cosmopolitan Beijing; the Chinese resentment that fueled the Ming revolt.", end:"Overthrown by the Red Turban rebellion; the Ming founded in 1368."},
+{t:"2.2", name:"Ilkhanate", region:"Persia, Iraq, Anatolia", dates:"1256–1335", gained:"Hülegü's armies sacked Baghdad (1258) and ended the Abbasid Caliphate.", kept:"Mongol rulers governed through Persian administrators; rulers converted to Islam by 1295.", known:"Patronage of Persian culture and science (al-Tusi's observatory); Greco-Islamic medicine passed to Europe.", end:"Collapsed into rival states after 1335."},
+{t:"2.2", name:"Golden Horde", region:"Russia and the western steppe", dates:"1240s–1502", gained:"Batu's conquest of Kievan Rus.", kept:"Ruled from the steppe, taxing Russian princes who collected tribute on the Mongols' behalf — Moscow grew rich doing it.", known:"Converted to Islam; kept Russia isolated from Western Europe for two centuries.", end:"Moscow stopped paying tribute in 1480; the Horde broke apart."},
+{t:"2.4", name:"Mali Empire", region:"West Africa", dates:"c. 1235–1600", gained:"Sundiata united the Mande and seized the goldfields and the desert routes.", kept:"Islam linked rulers to Muslim merchants and scholars; provincial governors and a large cavalry guarded the trade.", known:"Mansa Musa's hajj; Timbuktu's mosques and university; gold that funded Europe's coins.", end:"Lost the trade cities to Songhai in the 1400s."},
+{t:"2.3", name:"Swahili city-states", region:"East African coast", dates:"c. 1000–1500", gained:"Sat at the African end of the monsoon trade.", kept:"Independent cities ruled by Muslim merchant elites; Swahili language (Bantu + Arabic) for doing business.", known:"Kilwa's coral-stone mosques; gold from Great Zimbabwe, ivory, and enslaved people out; porcelain and Indian cloth in.", end:"Portuguese bombardment after 1505 broke their monopoly."},
+{t:"2.3", name:"Sultanate of Malacca", region:"Strait of Malacca", dates:"c. 1400–1511", gained:"A Hindu prince turned Muslim sultan founded a port at the narrowest point between the Indian Ocean and the South China Sea.", kept:"Low tolls, safe harbor, and officials for each foreign merchant community made it the favorite stop.", known:"The spread of Islam through the Indonesian islands; the hub of the spice trade.", end:"Captured by the Portuguese in 1511."},
+{t:"2.3", name:"Gujarat", region:"Western India", dates:"sultanate 1407–1573", gained:"Ports at the meeting point of Arab, Persian, and Southeast Asian shipping.", kept:"Muslim sultans protected a Hindu and Jain merchant class famous for cotton cloth and finance.", known:"Textiles that every Indian Ocean market wanted; Gujarati merchants from Malacca to Mombasa.", end:"Absorbed by the Mughals in 1573 (Unit 3)."},
+{t:"2.3", name:"Ming China (Zheng He era)", region:"China", dates:"1368–1644 (voyages 1405–1433)", gained:"Overthrew the Mongols and rebuilt Chinese imperial power.", kept:"Confucian bureaucracy restored; the Yongle Emperor sent Zheng He's treasure fleets to display Chinese might and collect tribute.", known:"Giant junks reaching East Africa; then a turn inward — the voyages ended and the fleet was scrapped.", end:"Ming lasted to 1644; the maritime moment ended in 1433."},
+{t:"2.1", name:"Venice and Genoa", region:"Italy / Mediterranean", dates:"peak c. 1200–1450", gained:"Italian city-states that controlled the Mediterranean end of the Silk Roads and Indian Ocean trade.", kept:"Merchant republics with banking houses, bills of exchange, and colonies from the Black Sea to Egypt.", known:"Marco Polo was Venetian; Genoese ships carried the plague to Europe in 1347.", end:"Ottoman control of the eastern Mediterranean after 1453 pushed Europeans to seek sea routes (Unit 4)."},
+],
+timeline: [
+{y:"1206", e:"Chinggis Khan unites the Mongols", reg:"Central Asia", t:"2.2", why:"The starting gun for the conquests that connect the whole of Eurasia."},
+{y:"1235", e:"Mali Empire founded by Sundiata", reg:"West Africa", t:"2.4", why:"The trans-Saharan network gets a powerful protector."},
+{y:"1258", e:"Mongols sack Baghdad", reg:"Middle East", t:"2.2", why:"End of the Abbasid Caliphate; the Ilkhanate takes over Persia."},
+{y:"1260", e:"Mamluks defeat the Mongols at Ain Jalut", reg:"Palestine", t:"2.2", why:"The Mongol advance stops; the empire begins splitting into khanates."},
+{y:"1271", e:"Marco Polo sets out for China", reg:"Venice → Yuan China", t:"2.5", why:"Proof that a European could cross Eurasia in safety under the Pax Mongolica."},
+{y:"1279", e:"Kublai Khan completes the conquest of the Song", reg:"East Asia", t:"2.2", why:"All of China under the Yuan; Chinese goods flow west with Mongol protection."},
+{y:"1295", e:"Ilkhan Ghazan converts to Islam", reg:"Persia", t:"2.2", why:"Mongol rulers adopt the religion of the ruled — cultural exchange runs both ways."},
+{y:"1324", e:"Mansa Musa's hajj", reg:"Mali → Cairo → Mecca", t:"2.4", why:"Trans-Saharan gold on display; Mali appears on European maps."},
+{y:"1325", e:"Ibn Battuta begins his travels", reg:"Morocco → Dar al-Islam", t:"2.5", why:"Thirty years and 75,000 miles of travel made possible by Islamic law and trade networks."},
+{y:"1335", e:"Ilkhanate collapses", reg:"Persia", t:"2.2", why:"First khanate to fall; the Pax Mongolica begins to fray."},
+{y:"1347", e:"Black Death reaches Europe", reg:"Afro-Eurasia", t:"2.6", why:"The plague rides the trade routes from Central Asia to the Mediterranean."},
+{y:"1368", e:"Ming overthrow the Yuan", reg:"East Asia", t:"2.2", why:"Mongol rule in China ends; the Silk Roads lose their eastern anchor."},
+{y:"1400", e:"Malacca founded", reg:"Southeast Asia", t:"2.3", why:"A chokepoint state rises as the Indian Ocean's new hub."},
+{y:"1405", e:"Zheng He's first voyage", reg:"Indian Ocean", t:"2.3", why:"Chinese treasure fleets show state power can reach across the ocean."},
+{y:"1433", e:"Ming end the treasure voyages", reg:"East Asia", t:"2.3", why:"China turns inward just as Europe prepares to sail — the pivot to Unit 4."},
+{y:"1453", e:"Ottomans take Constantinople", reg:"Eastern Mediterranean", t:"2.1", why:"Overland access to Asia gets harder for Europeans; they start looking for sea routes."},
+],
+developments: [
+{id:"2.1", title:"The Silk Roads", themes:"ECN",
+los:["A — Explain the causes and effects of growth of networks of exchange after 1200."],
+kcs:[
+{code:"KC-3.1.I.A.i", official:"Improved commercial practices led to an increased volume of trade and expanded the geographical range of existing trade routes — including the Silk Roads — promoting the growth of powerful new trading cities.", plain:"Better ways of doing business (credit, money, inns) meant more trade, over longer distances, and rich new cities like Kashgar and Samarkand."},
+{code:"KC-3.1.I.C.i", official:"The growth of interregional trade in luxury goods was encouraged by innovations in previously existing transportation and commercial technologies, including the caravanserai, forms of credit, and the development of money economies.", plain:"Caravanserai gave merchants safe stops; bills of exchange and paper money meant they didn't have to haul silver."},
+{code:"KC-3.3.I.B", official:"Demand for luxury goods increased in Afro-Eurasia. Chinese, Persian, and Indian artisans and merchants expanded their production of textiles and porcelains for export; manufacture of iron and steel expanded in China.", plain:"Everybody wanted silk, porcelain, and steel, so Asian workshops made more of it for export."},
+],
+ex:["Kashgar","Samarkand","Bills of exchange","Banking houses","Use of paper money"]},
+{id:"2.2", title:"The Mongol Empire and the Making of the Modern World", themes:"GOV · ECN · CDI",
+los:["B — Explain the process of state building and decline in Eurasia over time.","C — Explain how the expansion of empires influenced trade and communication over time.","D — Explain the significance of the Mongol Empire in larger patterns of continuity and change."],
+kcs:[
+{code:"KC-3.2.I.B.iii", official:"Empires collapsed in different regions of the world and in some areas were replaced by new imperial states, including the Mongol khanates.", plain:"The Abbasids, Song, and Kievan Rus fell; Mongol khanates took their place."},
+{code:"KC-3.1.I.E.i", official:"The expansion of empires — including the Mongols — facilitated Afro-Eurasian trade and communication as new people were drawn into their conquerors' economies and trade networks.", plain:"One empire controlling the whole road meant safe travel, and conquered peoples got pulled into Mongol trade."},
+{code:"KC-3.2.II.A.ii", official:"Interregional contacts and conflicts between states and empires, including the Mongols, encouraged significant technological and cultural transfers.", plain:"War and contact moved technology: gunpowder west, medicine and numerals to Europe, a new script for the Mongols themselves."},
+],
+ex:["Greco-Islamic medical knowledge to Western Europe","Numbering systems to Europe","Adoption of Uyghur script"]},
+{id:"2.3", title:"Exchange in the Indian Ocean", themes:"ECN · CDI · ENV",
+los:["E — Explain the causes of the growth of networks of exchange after 1200.","F — Explain the effects of the growth of networks of exchange after 1200.","G — Explain the role of environmental factors in the development of networks of exchange from c. 1200 to c. 1450."],
+kcs:[
+{code:"KC-3.1.I.A.ii", official:"Improved transportation technologies and commercial practices led to an increased volume of trade and expanded the geographical range of existing trade routes, including the Indian Ocean, promoting the growth of powerful new trading cities.", plain:"Better ships and business practices meant more sea trade and richer port cities."},
+{code:"KC-3.1.I.C.ii", official:"The growth of interregional trade in luxury goods was encouraged by significant innovations in previously existing transportation and commercial technologies, including the use of the compass, the astrolabe, and larger ship designs.", plain:"Compass, astrolabe, dhows, and junks made long open-water voyages routine."},
+{code:"KC-3.1.I.A.iii", official:"The Indian Ocean trading network fostered the growth of states.", plain:"Ports that taxed the trade became states: Swahili cities, Gujarat, Malacca."},
+{code:"KC-3.1.III.B", official:"In key places along important trade routes, merchants set up diasporic communities where they introduced their own cultural traditions into the indigenous cultures and, in turn, indigenous cultures influenced merchant cultures.", plain:"Foreign merchants settled in port towns; cultures mixed both ways (Swahili is the proof)."},
+{code:"KC-3.2.II.A.iii", official:"Interregional contacts and conflicts between states and empires encouraged significant technological and cultural transfers, including during Chinese maritime activity led by Ming Admiral Zheng He.", plain:"Zheng He's voyages carried Chinese goods, tribute, and prestige across the ocean."},
+{code:"KC-3.1.II.A.i", official:"The expansion and intensification of long-distance trade routes often depended on environmental knowledge, including advanced knowledge of the monsoon winds.", plain:"No monsoon knowledge, no Indian Ocean trade."},
+],
+ex:["Arab and Persian communities in East Africa","Chinese merchant communities in Southeast Asia","Malay communities in the Indian Ocean basin","City-states of the Swahili Coast","Gujarat","Sultanate of Malacca"]},
+{id:"2.4", title:"Trans-Saharan Trade Routes", themes:"TEC · GOV",
+los:["H — Explain the causes and effects of the growth of trans-Saharan trade.","I — Explain how the expansion of empires influenced trade and communication over time."],
+kcs:[
+{code:"KC-3.1.II.A.ii", official:"The growth of interregional trade was encouraged by innovations in existing transportation technologies.", plain:"Camel saddles and caravans turned the Sahara from a wall into a road."},
+{code:"KC-3.1.I.A.iv", official:"Improved transportation technologies and commercial practices led to an increased volume of trade and expanded the geographical range of existing trade routes, including the trans-Saharan trade network.", plain:"More caravans, reaching farther, carrying more gold and salt."},
+{code:"KC-3.1.I.E.ii", official:"The expansion of empires — including Mali in West Africa — facilitated Afro-Eurasian trade and communication as new people were drawn into the economies and trade networks.", plain:"Mali protected the routes and plugged West Africa into the Islamic world."},
+],
+ex:["Camel saddle","Caravans"]},
+{id:"2.5", title:"Cultural Consequences of Connectivity", themes:"CDI",
+los:["J — Explain the intellectual and cultural effects of the various networks of exchange in Afro-Eurasia from c. 1200 to c. 1450."],
+kcs:[
+{code:"KC-3.1.III.D", official:"Increased cross-cultural interactions resulted in the diffusion of literary, artistic, and cultural traditions, as well as scientific and technological innovations.", plain:"Religions, art, stories, gunpowder, and paper all traveled with the traders."},
+{code:"KC-3.3.II", official:"The fate of cities varied greatly, with periods of significant decline and periods of increased urbanization, buoyed by rising productivity and expanding trade networks.", plain:"Trade made some cities boom (Hangzhou, Timbuktu) while war and plague shrank others (Baghdad)."},
+{code:"KC-3.1.III.C", official:"As exchange networks intensified, an increasing number of travelers within Afro-Eurasia wrote about their travels.", plain:"Ibn Battuta, Marco Polo, and Margery Kempe wrote it down — which is why we have sources."},
+],
+ex:["Buddhism in East Asia","Hinduism and Buddhism into Southeast Asia","Islam in sub-Saharan Africa and Asia","Gunpowder from China","Paper from China","Ibn Battuta","Margery Kempe","Marco Polo"]},
+{id:"2.6", title:"Environmental Consequences of Connectivity", themes:"ENV",
+los:["K — Explain the environmental effects of the various networks of exchange in Afro-Eurasia from c. 1200 to c. 1450."],
+kcs:[
+{code:"KC-3.1.IV", official:"There was continued diffusion of crops and pathogens, with epidemic diseases, including the bubonic plague, along trade routes.", plain:"The same routes that carried bananas, rice, and citrus also carried the Black Death."},
+],
+ex:["Bananas in Africa","New rice varieties in East Asia","Spread of citrus in the Mediterranean"]},
+{id:"2.7", title:"Comparison of Economic Exchange", themes:"Argumentation (6.B)",
+los:["L — Explain the similarities and differences among the various networks of exchange in the period from c. 1200 to c. 1450."],
+kcs:[
+{code:"KC-3.1", official:"A deepening and widening of networks of human interaction within and across regions contributed to cultural, technological, and biological diffusion within and between various societies.", plain:"The unit's thesis: more connection meant more sharing — of ideas, tools, crops, and germs."},
+{code:"KC-3.3", official:"Changes in trade networks resulted from and stimulated increasing productive capacity, with important implications for social and gender structures and environmental processes.", plain:"Trade and production fed each other, and that reshaped societies and environments."},
+],
+ex:["Silk Roads vs. Indian Ocean: luxury overland vs. bulk by sea","All three networks spread Islam","Mongols vs. Mali as empires that protected trade","Technology: caravanserai and credit vs. compass and dhow vs. camel saddle"]},
+],
+context: [
+{topic:"Networks of exchange (any)", before:"Before 1200, the Silk Roads, Indian Ocean, and trans-Saharan routes already existed, but political instability and limited technology kept trade small and dangerous.", during:"During 1200–1450, the Mongol conquests, new ships and navigation tools, and commercial innovations like credit and paper money made these networks safer and far busier than ever before."},
+{topic:"The Mongols", before:"Before 1200, the steppe nomads of Central Asia raided settled empires but had never united under one leader.", during:"During the 13th century, Chinggis Khan united the Mongols and built the largest land empire in history, whose Pax Mongolica linked China to Europe in a single trading zone."},
+{topic:"Indian Ocean trade", before:"Before 1200, Arab, Persian, and Indian sailors had used the monsoon winds for centuries, and Islam had already reached East Africa's coast.", during:"During 1200–1450, larger ships, the compass and astrolabe, and merchant diasporas made the Indian Ocean the world's richest trade network and raised new states like Malacca and the Swahili cities."},
+{topic:"Trans-Saharan trade and Mali", before:"Before 1200, the Ghana Empire had controlled the gold-salt trade and Muslim merchants had begun crossing the desert by camel.", during:"During 1200–1450, the Mali Empire protected and expanded the routes, and rulers like Mansa Musa used Islam to tie West Africa to the wider Muslim world."},
+{topic:"Cultural and technological diffusion", before:"Before 1200, Buddhism, Islam, and Chinese inventions such as paper had already begun moving along trade routes.", during:"During 1200–1450, the intensified networks spread Islam into Africa and Southeast Asia, carried gunpowder and paper west, and produced travelers like Ibn Battuta and Marco Polo who wrote about a connected world."},
+{topic:"The Black Death", before:"Before the 1340s, Eurasia's population had grown on the strength of new crops and expanding trade.", during:"During the mid-14th century, the bubonic plague traveled the Mongol trade routes from Central Asia to the Mediterranean, killing roughly a third of Europe and weakening the networks that had carried it."},
+],
+};
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let activeTopic = "all", query = "";
+const state = { quiz:false, hideFronts:false, onlyMissed:false, marks:{} };
+try { Object.assign(state.marks, JSON.parse(localStorage.getItem("apwh-u"+UNIT.number+"-marks")||"{}")); } catch(e){}
+function saveMarks(){ try{ localStorage.setItem("apwh-u"+UNIT.number+"-marks", JSON.stringify(state.marks)); }catch(e){} }
+// hero
+$("#unitLede").textContent = UNIT.lede;
+$("#unitStats").innerHTML = UNIT.stats.map(([b,l]) => `<div class="stat"><b>${esc(b)}</b><span>${esc(l)}</span></div>`).join("");
+$("#topicList").innerHTML = UNIT.topics.map(t => `<div class="topic-row"><span class="num">${esc(t.id)}</span><span>${esc(t.title)}</span><span class="theme">${esc(t.themes)}</span></div>`).join("");
+// chips
+const chipsEl = $("#chips");
+chipsEl.innerHTML = [`<button class="chip on" data-t="all">All topics</button>`].concat(
+UNIT.topics.filter(t => !t.review).map(t => `<button class="chip" data-t="${t.id}">${t.id} ${esc(t.title.replace(/^(Developments in|State Building in) /,""))}</button>`)).join("");
+chipsEl.addEventListener("click", e => {
+const b = e.target.closest(".chip"); if(!b) return;
+$$(".chip").forEach(c => c.classList.toggle("on", c === b));
+activeTopic = b.dataset.t; applyFilter();
+});
+$("#search").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); applyFilter(); });
+// cards
+const topicName = id => (UNIT.topics.find(t => t.id === id) || {title:""}).title.replace(/^(Developments in|State Building in) /,"");
+function vocabCard(v, i){
+return `<div class="card" data-t="${v.t}" data-key="v${i}" data-text="${esc((v.term+" "+v.def).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(v.term)} — flip card">
+<div class="face front"><span class="tag">${v.t} · ${esc(topicName(v.t))}</span><div class="term">${esc(v.term)}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${v.t} · definition</span><div class="term">${esc(v.term)}</div><div class="def">${esc(v.def)}</div><div class="why"><b>Why it matters:</b> ${esc(v.why)}</div></div>
+</button>
+<div class="mark"><button class="got" data-m="got">✓ Got it</button><button class="miss" data-m="miss">✗ Missed</button></div></div>`;
+}
+const SF = Object.assign({gained:"Gained power", kept:"Kept power", known:"Known for", end:"End", cue:"Before you flip — how did it <b>gain</b> power, how did it <b>keep</b> it, and what is it <b>known for</b>?"}, UNIT.stateFields || {});
+if (UNIT.statesLabel) { $("#statesH").textContent = UNIT.statesLabel; $('.bar a[href="#states"]').textContent = UNIT.statesLabel; }
+if (UNIT.statesBlurb) $("#statesP").textContent = UNIT.statesBlurb;
+function stateCard(s, i){
+return `<div class="card" data-t="${s.t}" data-key="s${i}" data-text="${esc((s.name+" "+s.region+" "+s.known).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(s.name)} — flip card">
+<div class="face front"><span class="tag">${s.t} · ${esc(s.region)}</span><div class="term">${esc(s.name)}</div><div class="sub">${esc(s.dates)}</div><div class="cue">${SF.cue}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${esc(s.region)} · ${esc(s.dates)}</span><div class="term">${esc(s.name)}</div>
+<p class="kv"><b>${SF.gained}:</b> ${esc(s.gained)}</p><p class="kv"><b>${SF.kept}:</b> ${esc(s.kept)}</p><p class="kv"><b>${SF.known}:</b> ${esc(s.known)}</p><p class="kv"><b>${SF.end}:</b> ${esc(s.end)}</p></div>
+</button></div>`;
+}
+let vocabOrder = UNIT.vocab.map((v,i) => i);
+function renderVocab(){ $("#vocabGrid").innerHTML = vocabOrder.map(i => vocabCard(UNIT.vocab[i], i)).join(""); paintMarks(); applyFilter(); }
+renderVocab();
+$("#stateGrid").innerHTML = UNIT.states.map(stateCard).join("");
+document.addEventListener("click", e => {
+const m = e.target.closest(".mark button");
+if (m){ const card = m.closest(".card"); const k = card.dataset.key; state.marks[k] = (state.marks[k] === m.dataset.m) ? null : m.dataset.m; saveMarks(); paintMarks(); applyFilter(); return; }
+const inner = e.target.closest(".card-inner");
+if (inner){ const card = inner.closest(".card"); card.classList.toggle("flipped"); inner.setAttribute("aria-pressed", card.classList.contains("flipped")); }
+});
+function paintMarks(){
+let got = 0, miss = 0;
+$$("#vocabGrid .card").forEach(c => { const m = state.marks[c.dataset.key]; c.classList.toggle("got", m === "got"); c.classList.toggle("miss", m === "miss"); if (m === "got") got++; if (m === "miss") miss++; });
+$("#gotN").textContent = got + " got it"; $("#missN").textContent = miss + " missed";
+}
+$("#shuffleVocab").onclick = () => { for (let i = vocabOrder.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [vocabOrder[i], vocabOrder[j]] = [vocabOrder[j], vocabOrder[i]]; } renderVocab(); };
+function flipAll(sel){ const cards = $$(sel + " .card:not(.hidden)"); const anyUn = cards.some(c => !c.classList.contains("flipped")); cards.forEach(c => { c.classList.toggle("flipped", anyUn); c.querySelector(".card-inner").setAttribute("aria-pressed", anyUn); }); }
+$("#flipAllVocab").onclick = () => flipAll("#vocabGrid");
+$("#flipAllStates").onclick = () => flipAll("#stateGrid");
+$("#quizBtn").onclick = () => { state.quiz = !state.quiz; $("#vocab").classList.toggle("quiz", state.quiz); $("#quizBtn").classList.toggle("on", state.quiz); $("#quizBtn").textContent = state.quiz ? "Exit quiz" : "Quiz me"; if(!state.quiz){ state.onlyMissed=false; $("#onlyMissed").classList.remove("on"); state.hideFronts=false; $("#vocab").classList.remove("hide-fronts"); $("#hideFronts").classList.remove("on"); } applyFilter(); };
+$("#hideFronts").onclick = () => { state.hideFronts = !state.hideFronts; $("#vocab").classList.toggle("hide-fronts", state.hideFronts); $("#hideFronts").classList.toggle("on", state.hideFronts); $("#hideFronts").textContent = state.hideFronts ? "Show terms" : "Hide terms"; $$("#vocabGrid .card").forEach(c => c.classList.remove("flipped")); };
+$("#onlyMissed").onclick = () => { state.onlyMissed = !state.onlyMissed; $("#onlyMissed").classList.toggle("on", state.onlyMissed); applyFilter(); };
+$("#resetQuiz").onclick = () => { state.marks = {}; saveMarks(); paintMarks(); applyFilter(); };
+// timeline
+$("#rail").innerHTML = UNIT.timeline.map((d, i) => `<li data-t="${d.t}" data-text="${esc((d.y+" "+d.e+" "+d.reg).toLowerCase())}"><button class="year" aria-expanded="false"><div class="dot"></div><div class="y">${esc(d.y)}</div><div class="e">${esc(d.e)}</div><div class="reg">${esc(d.reg)} · ${d.t}</div><div class="more">${esc(d.why)}</div></button></li>`).join("");
+$("#rail").addEventListener("click", e => { const b = e.target.closest(".year"); if(!b) return; b.classList.toggle("open"); b.setAttribute("aria-expanded", b.classList.contains("open")); });
+// developments
+$("#devList").innerHTML = UNIT.developments.map(d => `<details class="dev" data-t="${d.id}" data-text="${esc((d.title+" "+d.kcs.map(k=>k.official+" "+k.plain).join(" ")+" "+d.ex.join(" ")).toLowerCase())}">
+<summary><span class="num">${d.id}</span><span><div class="ttl">${esc(d.title)}</div><div class="themes">${esc(d.themes)}</div></span><span class="arrow">+</span></summary>
+<div class="body">
+<div class="lo"><b>Learning objective${d.los.length>1?"s":""}:</b> ${d.los.map(esc).join(" &nbsp;·&nbsp; ")}</div>
+${d.kcs.map(k => `<div class="kc"><div class="code">${esc(k.code)}</div><div class="official">${esc(k.official)}</div><div class="plain"><b>In plain English:</b> ${esc(k.plain)}</div></div>`).join("")}
+<div><div class="tag" style="margin-bottom:6px">Illustrative examples</div><div class="ex">${d.ex.map(x => `<span>${esc(x)}</span>`).join("")}</div></div>
+</div></details>`).join("");
+$("#openAllDev").onclick = () => { const devs = $$(".dev:not(.hidden)"); const anyClosed = devs.some(d => !d.open); devs.forEach(d => d.open = anyClosed); $("#openAllDev").textContent = anyClosed ? "Close all" : "Open all"; };
+// context
+$("#ctxList").innerHTML = UNIT.context.map(c => `<div class="c"><h3>${esc(c.topic)}</h3><p><b>Before</b> ${esc(c.before)}</p><p><b>During</b> ${esc(c.during)}</p></div>`).join("");
+// filter
+function applyFilter(){
+const match = el => (activeTopic === "all" || el.dataset.t === activeTopic) && (!query || el.dataset.text.includes(query));
+$$("#vocabGrid .card").forEach(c => { let ok = match(c); if (state.quiz && state.onlyMissed) ok = ok && state.marks[c.dataset.key] === "miss"; c.classList.toggle("hidden", !ok); });
+$$("#stateGrid .card").forEach(c => c.classList.toggle("hidden", !match(c)));
+$$("#rail li").forEach(li => li.classList.toggle("hidden", !match(li)));
+$$(".dev").forEach(d => d.classList.toggle("hidden", !match(d)));
+const n = $$("#vocabGrid .card:not(.hidden)").length, s = $$("#stateGrid .card:not(.hidden)").length;
+$("#cardCount").textContent = `${n} terms · ${s} ${UNIT.countLabel || "states"}`;
+}
+applyFilter();
+// nav: scroll inside #app (Google Sites full-page embeds disable frame scrolling)
+$$(".bar a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); const el = $(a.getAttribute("href")); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }));
+// nav highlight
+const links = $$(".bar a"); const secs = links.map(a => $(a.getAttribute("href")));
+const io = new IntersectionObserver(entries => { entries.forEach(en => { if (en.isIntersecting){ links.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id)); } }); }, { rootMargin: "-40% 0px -55% 0px" });
+secs.forEach(s => io.observe(s));
+</script>
+<style id="dm-css">
+html.dm{color-scheme:dark;--bg:#0E1230;--bg-2:#141A3E;--surface:#171D47;--surface-2:#1F2656;--paper:#1A2050;--line:#2D3572;--line-2:#3C458C;--ink:#EEF0FA;--ink-2:#C6CBE8;--muted:#A3AACF;--title:#F1E4B8;--gold-ink:#E6CB73;--gold-deep:#E6CB73;--gold-soft:#3A3112;--accent:#E07C88;--accent-soft:#3D1E24;--asoft:#3D1E24;--good:#4CC777;--good-soft:#173A24;--bad:#F07167;--bad-soft:#44201C;--green:#4CC777;--green-l:#173A24;--green-b:#2B6A3F;--red:#F07167;--red-l:#44201C;--red-b:#7A3530;--yellow:#F2C94C;--yellow-l:#3B3110;--yellow-b:#7A6A24;--blue:#7FB3F0;--blue-l:#17304F;--plum:#C9A6F0;--plum-l:#2F2246;--tT:#7FB3F0;--tE:#F0A36A;--tA:#C9A6F0;--tO:#4CC777;--shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px -6px rgba(0,0,0,.55);--shadow-lift:0 2px 4px rgba(0,0,0,.35),0 18px 40px -14px rgba(0,0,0,.7);--dm-card:var(--surface);--dm-ink:var(--ink);--dm-line:var(--line);--dm-tg-bg:#171D47;--dm-tg-fg:#E3C464;--dm-tg-b:#3C458C;--dm-tg-font:Arial,Helvetica,sans-serif}
+:where(html.dm) .chip:hover{border-color:#1E2761}
+:where(html.dm) .card.got .mark .got{border-color:#1B7F3B}
+:where(html.dm) .period-head h2{color:#B9C4FF}
+:where(html.dm) .unit h3{color:#B9C4FF}
+:where(html.dm) .how p b{color:#B9C4FF}
+:where(html.dm) footer b{color:#B9C4FF}
+:where(html.dm) footer a{color:#B9C4FF}
+:where(html.dm) .hk{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .hk-i.g{background:#1B7F3B}
+:where(html.dm) .hk-i.p{background:#5B2C83}
+:where(html.dm) .hk-i.y{background:#8A6D12}
+:where(html.dm) .hk b{color:#B9C4FF}
+:where(html.dm) .sec-head h2{color:#B9C4FF}
+:where(html.dm) .flip.open .fq{color:#B9C4FF}
+:where(html.dm) .flip.open .fa b,:where(html.dm) .flip.open .bigans{color:#B9C4FF}
+:where(html.dm) .chip{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .chip:hover{color:#B9C4FF}
+:where(html.dm) .fcard{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fcard h3{color:#B9C4FF}
+:where(html.dm) .pill.navy{color:#B9C4FF}
+:where(html.dm) .bar i{background:linear-gradient(90deg,var(--navy),#1B7F3B)}
+:where(html.dm) .btn{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .btn.checkb{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .w-title h2{color:#B9C4FF}
+:where(html.dm) .namebox input{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .scorebar .dots button.y{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .promptbox .q{color:#B9C4FF}
+:where(html.dm) .stim{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .ptable{background:linear-gradient(135deg,var(--surface),var(--paper))}
+:where(html.dm) .ptable summary{color:#B9C4FF}
+:where(html.dm) .howto{background:linear-gradient(135deg,var(--surface),var(--gold-soft))}
+:where(html.dm) .ht-step strong{color:#B9C4FF}
+:where(html.dm) .kbd,:where(html.dm) .ht-step kbd{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .tea-key{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .lab.T{background:#0F4C81}
+:where(html.dm) .lab.E{background:#B4560F}
+:where(html.dm) .lab.A{background:#5B2C83}
+:where(html.dm) .lab.O{background:#1B7F3B}
+:where(html.dm) .lab.C{background:#1B7F3B}
+:where(html.dm) .lab.V{background:#B4560F}
+:where(html.dm) .lab.R{background:#9A6700}
+:where(html.dm) .lab.X{background:#5B2C83}
+:where(html.dm) .tk b{color:#B9C4FF}
+:where(html.dm) .tk-note b{color:#B9C4FF}
+:where(html.dm) .part{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .part.earned::before{background:#1B7F3B}
+:where(html.dm) .part.earned .part-l{background:#1B7F3B}
+:where(html.dm) .verb{background:var(--vc,#5B2C83)}
+:where(html.dm) .part-q{color:#B9C4FF}
+:where(html.dm) .part-dir b{color:#B9C4FF}
+:where(html.dm) .bx textarea{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb h4{color:#B9C4FF}
+:where(html.dm) .fb h4 .src{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .fbline .m.y{background:#1B7F3B}
+:where(html.dm) .fbline .m.i{background:#666B82}
+:where(html.dm) .fbline .m.w{background:#9A6700}
+:where(html.dm) .fbline b{color:#B9C4FF}
+:where(html.dm) .fbline q{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-guide,:where(html.dm) .fb-fix,:where(html.dm) .fb-look{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-hand{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb-hand p b{color:#B9C4FF}
+:where(html.dm) .verdict{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .verdict .vq{color:#B9C4FF}
+:where(html.dm) .verdict .btn.yes.on{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .acc div.hit{color:#CDF3DC}
+:where(html.dm) .acc div.hit b{background:#1B7F3B}
+:where(html.dm) .stuckpanel{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .stuckpanel h4,:where(html.dm) .expanel h4,:where(html.dm) .stempanel h4{color:#B9C4FF}
+:where(html.dm) .expanel{background:var(--surface);background-color:var(--surface);border-left:5px solid #5B2C83}
+:where(html.dm) .stm{background:var(--surface);background-color:var(--surface);color:#F9EBCD}
+:where(html.dm) .stm:hover{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .finish{background:linear-gradient(135deg,var(--surface),var(--plum-l))}
+:where(html.dm) .finish h3{color:#B9C4FF}
+:where(html.dm) .sample .sp{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .sample .sp-q{color:#B9C4FF}
+:where(html.dm) .aphead h4{color:#B9C4FF}
+:where(html.dm) .aptab.on{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .apwrap{border:1px solid #314C72;border-color:#314C72;border-top:1px solid #314C72;border-bottom:1px solid #314C72;border-left:1px solid #314C72;border-right:1px solid #314C72}
+:where(html.dm) .apbar{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .apbar b{color:var(--ink)}
+:where(html.dm) .apbar .r{color:var(--ink)}
+:where(html.dm) .apbody{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .apq .mk{color:var(--ink)}
+:where(html.dm) .apstem{color:var(--ink)}
+:where(html.dm) .apparts{color:var(--ink)}
+:where(html.dm) .aptool{background:var(--bg);background-color:var(--bg);color:var(--ink);border-color:var(--line) var(--line) currentcolor;border-top:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .apbox{color:var(--ink);border:1px solid var(--line);border-color:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .doc{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .doc.used{outline:2px solid #1B7F3B}
+:where(html.dm) .dstat{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .dstat.on{border-color:#1B7F3B}
+:where(html.dm) .dhelp .model{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess h4{color:#B9C4FF}
+:where(html.dm) .modal{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .modal h2{color:#B9C4FF}
+:where(html.dm) footer.foot b{color:#B9C4FF}
+:where(html.dm) .svwarn{background:#413618;background-color:#413618;color:#DFDCEF}
+:where(html.dm) .svwarn.dirty{background:#412B18;background-color:#412B18}
+:where(html.dm) .svwarn.safe{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .svw-copy b{color:#F8DBBD}
+:where(html.dm) .svwarn.safe .svw-copy b{color:#C2F2D4}
+:where(html.dm) .svw-copy span{color:#D1CEDF}
+:where(html.dm) .svbtn{background:var(--surface);background-color:var(--surface);color:#DFDCEF;border:1px solid #443A69;border-color:#443A69;border-top:1px solid #443A69;border-bottom:1px solid #443A69;border-left:1px solid #443A69;border-right:1px solid #443A69}
+:where(html.dm) .svw-rubric{color:#D1CEDF}
+/* World Compass manual fixes: per-unit inline accent tokens (--a / --asoft) */
+:where(html.dm) .unit .go{color:color-mix(in srgb,var(--a) 45%,#fff)}
+:where(html.dm) .unit .pct{background:color-mix(in srgb,var(--a) 28%,var(--surface));color:color-mix(in srgb,var(--a) 40%,#fff)}
+:where(html.dm) .unit .n{color:color-mix(in srgb,var(--a) 55%,#fff)}
+:where(html.dm) .btn.gold{color:#1E2761}
+:where(html.dm) .lab.T,:where(html.dm) .lab.E,:where(html.dm) .lab.A{color:#0E1230}
+
+/* dark-mode toggle (shared) */
+:root{--dm-tg-bg:#fff;--dm-tg-fg:#1F1B3A;--dm-tg-b:rgba(0,0,0,.18);--dm-tg-font:system-ui,sans-serif}
+.dm-tg{position:fixed;right:14px;bottom:14px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 10px;border-radius:999px;border:2px solid var(--dm-tg-b);background:var(--dm-tg-bg);color:var(--dm-tg-fg);font:600 13px/1 var(--dm-tg-font);letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.22);transition:transform .15s,box-shadow .15s,opacity .2s;-webkit-tap-highlight-color:transparent;opacity:.96}
+.dm-tg:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:1}
+.dm-tg:active{transform:translateY(0) scale(.97)}
+.dm-tg:focus-visible{outline:3px solid #FFC83D;outline-offset:3px}
+.dm-tg svg{width:18px;height:18px;display:block}
+.dm-tg .dm-sun{display:none}
+html.dm .dm-tg .dm-sun{display:block}
+html.dm .dm-tg .dm-moon{display:none}
+.dm-tg .dm-lbl{white-space:nowrap}
+@media (max-width:620px){.dm-tg{right:10px;bottom:10px;height:38px;padding:0 10px}.dm-tg .dm-lbl{display:none}}
+@media print{.dm-tg{display:none !important}}
+
+</style>
+<script id="dm">
+/* Dark mode add-on (GeoArcade / World Compass / Euro Atlas / Lang Studio). Follows the device setting, with a per-page toggle. */
+(function(){
+  if (window.__dmInit) return; window.__dmInit = 1;
+  var d = document.documentElement, KEY = 'dm:pref', pref = null;
+  try { pref = localStorage.getItem(KEY) || sessionStorage.getItem(KEY); } catch (e) {}
+  var mq = null; try { mq = window.matchMedia('(prefers-color-scheme: dark)'); } catch (e) {}
+  function sys() { return !!(mq && mq.matches); }
+  var on = pref ? pref === 'dark' : sys();
+  d.classList.toggle('dm', on);
+  var btn;
+  function paint() {
+    d.classList.toggle('dm', on);
+    if (btn) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.setAttribute('title', on ? 'Switch to light mode' : 'Switch to dark mode');
+      var l = btn.querySelector('.dm-lbl'); if (l) l.textContent = on ? 'Light' : 'Dark';
+    }
+    try { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.setAttribute('content', on ? '#0F0D22' : '#FFFFFF'); } catch (e) {}
+  }
+  function set(v, remember) {
+    on = v; paint();
+    if (remember) { try { localStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} try { sessionStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} }
+  }
+  function build() {
+    if (btn || !document.body) return;
+    btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'dm-tg'; btn.id = 'dmToggle';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
+    btn.innerHTML = '<svg class="dm-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 14.6A8.5 8.5 0 0 1 9.4 3a1 1 0 0 0-1.1-1.3A10.5 10.5 0 1 0 22.3 15.7 1 1 0 0 0 21 14.6z"/></svg>'
+      + '<svg class="dm-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>'
+      + '<span class="dm-lbl">Dark</span>';
+    btn.addEventListener('click', function () { set(!on, true); });
+    document.body.appendChild(btn);
+    paint();
+    // keep the button last in <body> so nothing re-renders over it
+    new MutationObserver(function () { if (btn && document.body && document.body.lastElementChild !== btn && btn.isConnected) document.body.appendChild(btn); if (btn && !btn.isConnected) document.body.appendChild(btn); }).observe(document.body, { childList: true });
+  }
+  if (mq && mq.addEventListener) mq.addEventListener('change', function (e) { if (!pref) set(e.matches, false); });
+  else if (mq && mq.addListener) mq.addListener(function (e) { if (!pref) set(e.matches, false); });
+  if (document.body) build(); else document.addEventListener('DOMContentLoaded', build);
+  window.__dm = { set: function (v) { set(!!v, true); }, get on() { return on; } };
+})();
+
+</script>
+</body>
+</html>

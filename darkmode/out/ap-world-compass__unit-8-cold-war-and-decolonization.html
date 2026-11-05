@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AP World Unit 8 — Cold War and Decolonization</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&display=swap">
+<style>
+:root{
+--navy:#1E2761; --navy-2:#2B3780; --title:#1E2761; --gold:#C9A227; --gold-2:#E3C464; --gold-soft:#F6EBC4;
+--accent:#5B2C83; --accent-soft:#EEE6F5;
+--bg:#F4F5F9; --surface:#FFFFFF; --surface-2:#EEF0F6; --line:#D8DBE6;
+--ink:#1A1D2E; --ink-2:#4A4F68; --muted:#666B82;
+--on-navy:#FFFFFF; --on-navy-muted:#B9BFE0;
+--good:#1B7F3B; --good-soft:#E3F3E7; --bad:#B42318; --bad-soft:#FBE9E7;
+--shadow:0 1px 2px rgba(30,39,97,.06),0 6px 18px rgba(30,39,97,.08);
+--display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+--body:Arial,Helvetica,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+#app{height:100vh;overflow-y:auto;overflow-x:hidden;scroll-behavior:smooth;-webkit-overflow-scrolling:touch}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.hero{background:var(--navy);color:var(--on-navy);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:auto -10% -60% auto;width:520px;height:520px;border-radius:50%;
+background:radial-gradient(circle at 30% 30%,rgba(201,162,39,.28),rgba(201,162,39,0) 62%);pointer-events:none}
+.hero .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;padding:44px 24px 36px;position:relative}
+.eyebrow{font-size:12px;font-weight:bold;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.hero h1{font-family:var(--display);font-weight:700;font-size:clamp(44px,6vw,72px);line-height:.98;margin:10px 0 14px;text-wrap:balance;letter-spacing:-.01em}
+.hero .lede{max-width:56ch;color:var(--on-navy-muted);font-size:17px;margin:0 0 22px}
+.stats{display:flex;gap:28px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--display);font-size:34px;font-weight:700;line-height:1;color:var(--gold-2)}
+.stat span{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--on-navy-muted)}
+.topics{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:18px 18px 10px;align-self:start}
+.topics h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+.topic-row{display:flex;gap:12px;align-items:flex-start;padding:8px 0;border-top:1px solid rgba(255,255,255,.1);font-size:14px;line-height:1.35}
+.topic-row:first-of-type{border-top:0}
+.topic-row .num{font-family:var(--display);font-weight:700;font-size:20px;line-height:1;min-width:38px;color:var(--gold-2)}
+.topic-row .theme{margin-left:auto;white-space:nowrap;font-size:11px;letter-spacing:.08em;color:var(--on-navy-muted)}
+.bar{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 2px 10px rgba(30,39,97,.06)}
+.bar .wrap{display:flex;align-items:center;gap:6px;padding:8px 24px;overflow-x:auto;scrollbar-width:none}
+.bar .wrap::-webkit-scrollbar{display:none}
+.bar a{color:var(--ink-2);text-decoration:none;font-size:14px;font-weight:bold;padding:8px 12px;border-radius:8px;white-space:nowrap}
+.bar a:hover,.bar a.active{background:var(--surface-2);color:var(--title)}
+.bar .spacer{flex:1}
+.bar .count{font-size:12px;color:var(--muted);white-space:nowrap}
+.filter{background:var(--surface-2);border-bottom:1px solid var(--line)}
+.filter .wrap{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 24px}
+.filter .lbl{font-size:12px;font-weight:bold;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:6px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:bold;cursor:pointer}
+.chip:hover{border-color:var(--title);color:var(--title)}
+.chip.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.filter input{margin-left:auto;min-width:220px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;font-size:14px}
+section.block{padding:44px 0 12px;scroll-margin-top:56px}
+.sec-head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.sec-head h2{font-family:var(--display);font-weight:700;font-size:38px;line-height:1;margin:0;color:var(--title)}
+.sec-head p{margin:0;color:var(--muted);font-size:14px;max-width:60ch}
+.sec-head .tools{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--title);border-radius:8px;padding:8px 14px;font-size:13px;font-weight:bold;cursor:pointer}
+.btn:hover{border-color:var(--navy)}
+.btn.primary{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.btn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.grid.big{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{perspective:1200px;display:flex;flex-direction:column;gap:6px}
+.card-inner{position:relative;width:100%;flex:1;min-height:150px;transition:transform .55s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d;cursor:pointer;border:0;padding:0;background:none;text-align:left;display:block;color:inherit}
+.grid.big .card-inner{min-height:250px}
+.card.flipped .card-inner{transform:rotateY(180deg)}
+.face{backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:inherit}
+.front{position:absolute;inset:0;background:var(--surface);border:1px solid var(--line)}
+.front::before{content:"";position:absolute;left:18px;right:18px;top:0;height:3px;background:var(--accent);border-radius:0 0 3px 3px}
+.back{position:relative;background:var(--navy);color:var(--on-navy);transform:rotateY(180deg)}
+.tag{font-size:11px;font-weight:bold;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.back .tag{color:var(--gold)}
+.term{font-family:var(--display);font-weight:700;font-size:26px;line-height:1.05;margin:10px 0 6px;color:var(--title);text-wrap:balance}
+.grid.big .term{font-size:28px}
+.sub{font-size:13px;color:var(--ink-2)}
+.cue{margin-top:14px;font-size:13px;color:var(--muted);line-height:1.4;max-width:34ch}
+.cue b{color:var(--accent)}
+.front .hint{margin-top:auto;font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.back .term{color:#fff;font-size:20px;margin:6px 0 8px}
+.def{font-size:14px;line-height:1.45}
+.why{margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.18);font-size:13px;color:var(--on-navy-muted)}
+.why b{color:var(--gold-2)}
+.kv{font-size:13px;line-height:1.4;margin:4px 0}
+.kv b{color:var(--gold-2);font-weight:bold}
+.card.hidden{display:none}
+.card .mark{display:none;gap:6px}
+.quiz .card .mark{display:flex}
+.mark button{flex:1;border:1px solid var(--line);border-radius:8px;padding:6px 8px;font-size:12px;font-weight:bold;cursor:pointer;background:var(--surface);color:var(--ink-2)}
+.mark button.got{color:var(--good)} .mark button.miss{color:var(--bad)}
+.card.got .front{box-shadow:0 0 0 2px var(--good),var(--shadow)}
+.card.miss .front{box-shadow:0 0 0 2px var(--bad),var(--shadow)}
+.card.got .mark .got{background:var(--good-soft);border-color:var(--good)}
+.card.miss .mark .miss{background:var(--bad-soft);border-color:var(--bad)}
+.quiz .front .term{filter:blur(0)}
+.quiz.hide-fronts .card:not(.flipped) .front .term{filter:blur(7px)}
+.quiz.hide-fronts .card:not(.flipped) .front .hint::after{content:" · term hidden — flip to check"}
+.quizbar{display:none;align-items:center;gap:14px;flex-wrap:wrap;background:var(--accent-soft);border:1px solid var(--accent);border-radius:12px;padding:12px 16px;margin:0 0 16px;font-size:14px}
+.quiz .quizbar{display:flex}
+.quizbar b{color:var(--accent)}
+.quizbar .score{display:flex;gap:14px}
+.pill{border-radius:999px;padding:3px 10px;font-weight:bold;font-size:13px}
+.pill.good{background:var(--good-soft);color:var(--good)} .pill.bad{background:var(--bad-soft);color:var(--bad)}
+.rail{position:relative;overflow-x:auto;padding:24px 0 18px;scroll-snap-type:x proximity}
+.rail ol::before{content:"";position:absolute;left:0;right:0;top:36px;height:3px;z-index:0;background:linear-gradient(90deg,var(--gold),var(--gold-2),var(--gold))}
+.rail ol{list-style:none;margin:0;padding:0 8px;display:flex;gap:14px;min-width:max-content;position:relative}
+.rail li{scroll-snap-align:start;width:210px}
+.year{display:block;width:100%;border:0;background:none;cursor:pointer;text-align:left;padding:0;color:inherit}
+.year .dot{position:relative;z-index:1;width:14px;height:14px;border-radius:50%;background:var(--surface);border:3px solid var(--gold);margin:29px 0 0 0;transition:transform .2s}
+.year:hover .dot,.year.open .dot{background:var(--accent);border-color:var(--accent);transform:scale(1.25)}
+.year .y{font-family:var(--display);font-weight:700;font-size:30px;line-height:1;color:var(--title);margin:10px 0 4px}
+.year .e{font-size:14px;font-weight:bold;color:var(--ink);line-height:1.3}
+.year .reg{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.year .more{display:none;margin-top:8px;font-size:13px;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow)}
+.year.open .more{display:block}
+.rail li.hidden{display:none}
+.dev{border:1px solid var(--line);background:var(--surface);border-radius:14px;margin-bottom:12px;overflow:hidden;box-shadow:var(--shadow)}
+.dev summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center;padding:16px 18px}
+.dev summary::-webkit-details-marker{display:none}
+.dev .num{font-family:var(--display);font-weight:700;font-size:34px;line-height:1;color:var(--accent)}
+.dev .ttl{font-weight:bold;font-size:17px;color:var(--title)}
+.dev .themes{font-size:11px;letter-spacing:.08em;color:var(--muted);margin-top:2px}
+.dev .arrow{width:28px;height:28px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;color:var(--title);font-weight:bold;transition:transform .25s}
+.dev[open] .arrow{transform:rotate(45deg)}
+.dev .body{padding:0 18px 18px 96px;display:grid;gap:14px}
+.lo{font-size:14px;color:var(--ink-2)}
+.lo b{color:var(--title)}
+.kc{border-left:3px solid var(--gold);padding:6px 14px;background:var(--surface-2);border-radius:0 10px 10px 0}
+.kc .code{font-size:11px;letter-spacing:.08em;color:var(--muted);font-weight:bold}
+.kc .official{font-size:14px;margin:2px 0 6px;color:var(--ink)}
+.kc .plain{font-size:14px;color:var(--ink-2)}
+.kc .plain b{color:var(--accent)}
+.ex{display:flex;flex-wrap:wrap;gap:6px}
+.ex span{font-size:12px;font-weight:bold;background:var(--gold-soft);color:var(--title);border-radius:6px;padding:4px 8px}
+.dev.hidden{display:none}
+@media (max-width:700px){.dev summary{grid-template-columns:48px 1fr auto}.dev .body{padding-left:18px}}
+.ctx{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.ctx .c{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+.ctx h3{margin:0 0 8px;font-size:15px;color:var(--title)}
+.ctx p{margin:6px 0;font-size:14px;color:var(--ink-2)}
+.ctx p b{display:inline-block;min-width:64px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+footer{margin-top:40px;padding:22px 0 34px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center}
+footer b{color:var(--title)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.topics{order:2}}
+@media (prefers-reduced-motion: reduce){
+html{scroll-behavior:auto}
+#app{scroll-behavior:auto}
+.card-inner{transition:none}
+.card.flipped .card-inner{transform:none}
+.front{visibility:visible}
+.card.flipped .front{visibility:hidden}
+.back{transform:none;visibility:hidden}
+.card.flipped .back{visibility:visible}
+}
+.hero{display:none}
+</style>
+<style id="ms-phone-nav">@media (max-width:700px){.bar .wrap{flex-wrap:wrap;overflow-x:visible;row-gap:2px;padding:6px 12px}.bar a{padding:6px 9px;font-size:13px}.bar .spacer{display:none}}</style><style id="ms-phone-text">@media (max-width:640px){.topic-row .theme,.tag,.front .hint,.year .reg,.dev .themes,.kc .code,.ctx p b{font-size:12px!important;line-height:1.35}}
+/* ios-no-zoom */@media (max-width:820px){input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]),textarea,select{font-size:16px !important}}
+</style></head>
+<body>
+<div id="app">
+<header class="hero">
+<div class="wrap">
+<div>
+<div class="eyebrow">AP World History: Modern &nbsp;·&nbsp; Unit 8 &nbsp;·&nbsp; 1900 – present</div>
+<h1 id="unitTitle">Cold War and Decolonization</h1>
+<p class="lede" id="unitLede"></p>
+<div class="stats" id="unitStats"></div>
+</div>
+<aside class="topics" aria-label="Topics in this unit">
+<h2>Topics</h2>
+<div id="topicList"></div>
+</aside>
+</div>
+</header>
+<nav class="bar" aria-label="Sections">
+<div class="wrap">
+<a href="#vocab">Vocabulary</a>
+<a href="#states">Empires &amp; States</a>
+<a href="#timeline">Timeline</a>
+<a href="#developments">Historical Developments</a>
+<a href="#context">Context Bank</a>
+<span class="spacer"></span>
+<span class="count" id="cardCount"></span>
+</div>
+</nav>
+<div class="filter">
+<div class="wrap">
+<span class="lbl">Show</span>
+<div id="chips" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+<input id="search" type="search" placeholder="Search terms, cards, dates…" aria-label="Search">
+</div>
+</div>
+<main class="wrap">
+<section class="block" id="vocab">
+<div class="sec-head">
+<h2>Vocabulary</h2>
+<p>Tap a card to flip it. Term on the front, definition and why it matters on the back.</p>
+<div class="tools">
+<button class="btn" id="shuffleVocab">Shuffle</button>
+<button class="btn" id="flipAllVocab">Flip all</button>
+<button class="btn gold" id="quizBtn">Quiz me</button>
+</div>
+</div>
+<div class="quizbar" id="quizbar">
+<div><b>Quiz mode.</b> Flip a card, then mark it. Missed cards get a red ring so you can come back to them. Marks last only while this page is open; they reset when you reload or leave.</div>
+<div class="score"><span class="pill good" id="gotN">0 got it</span><span class="pill bad" id="missN">0 missed</span></div>
+<button class="btn" id="hideFronts">Hide terms</button>
+<button class="btn" id="onlyMissed">Show missed only</button>
+<button class="btn" id="resetQuiz">Reset</button>
+</div>
+<div class="grid" id="vocabGrid"></div>
+</section>
+<section class="block" id="states">
+<div class="sec-head">
+<h2 id="statesH">Empires &amp; States</h2>
+<p id="statesP">How each state gained power, kept it, and what it is known for. These are the LEQ evidence cards.</p>
+<div class="tools"><button class="btn" id="flipAllStates">Flip all</button></div>
+</div>
+<div class="grid big" id="stateGrid"></div>
+</section>
+<section class="block" id="timeline">
+<div class="sec-head">
+<h2>Timeline</h2>
+<p>Click a date to see why it is on the list. Scroll sideways.</p>
+</div>
+<div class="rail"><ol id="rail"></ol></div>
+</section>
+<section class="block" id="developments">
+<div class="sec-head">
+<h2>Historical Developments</h2>
+<p>The College Board statements the questions are written from — official wording, then plain English, then the examples they expect you to know.</p>
+<div class="tools"><button class="btn" id="openAllDev">Open all</button></div>
+</div>
+<div id="devList"></div>
+</section>
+<section class="block" id="context">
+<div class="sec-head">
+<h2>Context Bank</h2>
+<p>Ready-made LEQ contextualization: one sentence before the period, one sentence during.</p>
+</div>
+<div class="ctx" id="ctxList"></div>
+</section>
+</main>
+<footer><b>Panther Creek High School</b> &nbsp;•&nbsp; Created by Scott Martin &nbsp;•&nbsp; APandAbroad@gmail.com<br>AP® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this site.</footer>
+</div>
+<script>
+const UNIT = {
+number: 8, title: "Cold War and Decolonization", dates: "1900 – present",
+lede: "Two stories run side by side after 1945. Superpowers armed with nuclear weapons fight a Cold War through alliances, proxy wars, and ideology — while dozens of colonies become nations, by negotiation or by war, and then have to decide what kind of economy and society to build. Unit 8 follows both, and the people who tried to stand outside or against them.",
+stats: [["8–10%","of the AP exam"],["9","topics"],["14–17","class periods"]],
+statesLabel: "Superpowers, New Nations & Regimes", countLabel: "cards",
+statesBlurb: "Cold War superpowers, newly independent states, and the regimes that shaped them: how each rose, how it governed or fought, what it is known for, and where it ended up.",
+stateFields: { gained:"How it rose / won independence", kept:"How it governed / fought", known:"Known for", end:"Outcome", cue:"Before you flip — how did it <b>rise</b> or win independence, how did it <b>govern</b>, and what is it <b>known for</b>?" },
+topics: [
+{id:"8.1", title:"Setting the Stage for the Cold War and Decolonization", themes:"GOV"},
+{id:"8.2", title:"The Cold War", themes:"GOV · CDI"},
+{id:"8.3", title:"Effects of the Cold War", themes:"GOV · TEC"},
+{id:"8.4", title:"Spread of Communism", themes:"GOV · ECN"},
+{id:"8.5", title:"Decolonization", themes:"GOV"},
+{id:"8.6", title:"Newly Independent States", themes:"GOV · ECN · SIO"},
+{id:"8.7", title:"Global Resistance to Established Power Structures", themes:"SIO · GOV"},
+{id:"8.8", title:"End of the Cold War", themes:"GOV · TEC"},
+{id:"8.9", title:"Causation in the Age of the Cold War and Decolonization", themes:"Argumentation", review:true},
+],
+vocab: [
+// 8.1 Setting the stage
+{t:"8.1", term:"Superpower", def:"A state with global military, economic, and political reach — after 1945, only the U.S. and USSR.", why:"KC-6.2.IV.C.i — WWII 'shifted the global balance of power.'"},
+{t:"8.1", term:"Yalta and Potsdam Conferences (1945)", def:"Allied meetings that divided Germany and set the postwar order; disagreements over Eastern Europe began the Cold War.", why:"Where the wartime alliance started to crack."},
+{t:"8.1", term:"United Nations (1945)", def:"International organization replacing the League, with a Security Council of five permanent veto powers.", why:"The postwar framework for diplomacy and decolonization."},
+{t:"8.1", term:"Atlantic Charter (1941)", def:"Roosevelt-Churchill statement of war aims including self-determination, which colonized peoples took seriously.", why:"KC-6.2.II — why anti-imperial hopes rose after WWII."},
+{t:"8.1", term:"Anti-imperialist sentiment", def:"The postwar belief, at home and abroad, that empires were unjust and unaffordable.", why:"KC-6.2.II — 'contributed to the dissolution of empires.'"},
+{t:"8.1", term:"Bretton Woods system (1944)", def:"U.S.-led postwar economic order: the IMF, World Bank, and dollar-based exchange rates.", why:"The economic side of the U.S. superpower."},
+// 8.2 Cold War
+{t:"8.2", term:"Cold War", def:"The 1945–1991 global rivalry between the capitalist U.S. and communist USSR, fought without direct war between them.", why:"KC-6.2.IV.C.ii."},
+{t:"8.2", term:"Capitalism vs. communism", def:"Private property and markets vs. state ownership and planning — the ideological core of the Cold War.", why:"CED: 'ideological conflict and a power struggle.'"},
+{t:"8.2", term:"Iron Curtain", def:"Churchill's 1946 phrase for the line dividing Soviet-controlled Eastern Europe from the West.", why:"The Cold War's map."},
+{t:"8.2", term:"Containment", def:"U.S. strategy (George Kennan) of stopping communism from spreading beyond where it already existed.", why:"Why the U.S. fought in Korea and Vietnam."},
+{t:"8.2", term:"Truman Doctrine (1947)", def:"U.S. pledge to support nations resisting communism, starting with Greece and Turkey.", why:"Containment declared."},
+{t:"8.2", term:"Marshall Plan (1948)", def:"$13 billion in U.S. aid to rebuild Western Europe and keep it capitalist.", why:"Economic weapon of the Cold War."},
+{t:"8.2", term:"Berlin Blockade and Airlift (1948–1949)", def:"Stalin cut off West Berlin; the Allies flew in supplies for 11 months.", why:"First Cold War crisis."},
+{t:"8.2", term:"Non-Aligned Movement", def:"States, led by India, Indonesia, Egypt, Yugoslavia, and Ghana, that refused to join either Cold War bloc (Bandung 1955, Belgrade 1961).", why:"KC-6.2.V.B — CED-named alternative to the bipolar order."},
+{t:"8.2", term:"Sukarno", def:"Indonesia's first president, host of the 1955 Bandung Conference of Asian and African states.", why:"CED-named Non-Aligned leader."},
+{t:"8.2", term:"Kwame Nkrumah", def:"Led Ghana to independence (1957) and championed pan-Africanism and non-alignment.", why:"CED-named in 8.2 and 8.5."},
+{t:"8.2", term:"Jawaharlal Nehru", def:"India's first prime minister, a founder of non-alignment and state-led development.", why:"Key Non-Aligned leader."},
+{t:"8.2", term:"Third World", def:"Cold War term for nations aligned with neither the capitalist First World nor the communist Second World.", why:"Where most proxy wars were fought."},
+// 8.3 Effects
+{t:"8.3", term:"NATO (1949)", def:"North Atlantic Treaty Organization — U.S.-led military alliance of Western nations.", why:"CED-named alliance."},
+{t:"8.3", term:"Warsaw Pact (1955)", def:"Soviet-led military alliance of Eastern European communist states.", why:"CED-named alliance."},
+{t:"8.3", term:"Nuclear proliferation", def:"The spread of nuclear weapons — USSR (1949), Britain, France, China (1964), and others.", why:"KC-6.2.IV.D."},
+{t:"8.3", term:"Arms race", def:"U.S.-Soviet competition to build more and bigger nuclear weapons and missiles.", why:"Drove proliferation and the 'military-industrial complex.'"},
+{t:"8.3", term:"Mutually assured destruction (MAD)", def:"Deterrence logic: neither side attacks because both would be destroyed.", why:"Why the Cold War stayed cold between superpowers."},
+{t:"8.3", term:"Proxy war", def:"A conflict where superpowers back opposing sides rather than fighting each other directly.", why:"KC-6.2.IV.D; CED examples: Korea, Angola, Nicaragua."},
+{t:"8.3", term:"Korean War (1950–1953)", def:"North Korea (backed by China and the USSR) vs. South Korea (backed by the U.S. and UN); ended in stalemate at the 38th parallel.", why:"CED-named proxy war."},
+{t:"8.3", term:"Angolan Civil War (1975–2002)", def:"MPLA (Soviet and Cuban support) vs. UNITA (U.S. and South African support) after Portuguese withdrawal.", why:"CED-named proxy war in Africa."},
+{t:"8.3", term:"Sandinistas and Contras", def:"Nicaragua's leftist Sandinista government (1979) vs. U.S.-funded Contra rebels.", why:"CED-named proxy war in Latin America."},
+{t:"8.3", term:"Vietnam War (1955–1975)", def:"Communist North Vietnam and Viet Cong vs. South Vietnam and the U.S.; ended in communist victory.", why:"The largest proxy war; also decolonization."},
+{t:"8.3", term:"Cuban Missile Crisis (1962)", def:"Thirteen days when Soviet missiles in Cuba brought the superpowers to the edge of nuclear war.", why:"Closest call of the Cold War."},
+{t:"8.3", term:"Space race", def:"Sputnik (1957) to the Moon landing (1969) — technological rivalry as Cold War propaganda.", why:"Technology as a Cold War weapon."},
+{t:"8.3", term:"Berlin Wall (1961–1989)", def:"Barrier East Germany built to stop flight to the West; the Cold War's most visible symbol.", why:"Its fall marked the end."},
+// 8.4 Spread of communism
+{t:"8.4", term:"Chinese Civil War (1927–1949)", def:"Guomindang (Chiang Kai-shek) vs. Communists (Mao), interrupted by the war with Japan; Communists won in 1949.", why:"KC-6.2.I — 'internal tension and Japanese aggression.'"},
+{t:"8.4", term:"Mao Zedong", def:"Leader of the Chinese Communist Party who founded the People's Republic of China (1949) on peasant revolution.", why:"Adapted Marxism to a peasant society."},
+{t:"8.4", term:"Long March (1934–1935)", def:"Communist retreat of 6,000 miles that made Mao the party's leader and a legend.", why:"Survival that set up the 1949 victory."},
+{t:"8.4", term:"Great Leap Forward (1958–1962)", def:"Mao's crash program of communes and backyard steel furnaces that caused a famine killing 30–45 million.", why:"KC-6.3.I.A.ii — 'repressive policies, with negative repercussions.'"},
+{t:"8.4", term:"Cultural Revolution (1966–1976)", def:"Mao's campaign using Red Guards to purge 'old' ideas and rivals; schools closed, millions persecuted.", why:"Totalitarian control of culture."},
+{t:"8.4", term:"Land redistribution", def:"Taking land from large owners and giving it to peasants — a goal of communist, socialist, and reformist movements.", why:"KC-6.2.II.D.i."},
+{t:"8.4", term:"Ho Chi Minh", def:"Vietnamese communist who fought Japan, France, and the U.S. for an independent, communist Vietnam.", why:"CED-named: 'Communist Revolution for Vietnamese independence.'"},
+{t:"8.4", term:"Mengistu Haile Mariam", def:"Ethiopian military ruler (1974–1991) who overthrew Haile Selassie and imposed Marxist land nationalization and the Red Terror.", why:"CED-named redistribution movement."},
+{t:"8.4", term:"Kerala land reform", def:"Indian state where elected communists redistributed land to tenants from 1957 on.", why:"CED-named: democratic, not revolutionary, redistribution."},
+{t:"8.4", term:"White Revolution (Iran, 1963)", def:"The Shah's top-down land reform and modernization meant to prevent a 'red' revolution — it angered clerics and landlords.", why:"CED-named; a non-communist redistribution that backfired (1979)."},
+{t:"8.4", term:"Cuban Revolution (1959)", def:"Fidel Castro overthrew Batista and built a communist state 90 miles from Florida.", why:"Communism in the Western Hemisphere."},
+// 8.5 Decolonization
+{t:"8.5", term:"Decolonization", def:"The process by which colonies became independent states, mostly 1945–1975.", why:"KC-6.2.I.C."},
+{t:"8.5", term:"Negotiated independence", def:"Freedom won through talks, elections, and pressure rather than war — India, Ghana, French West Africa.", why:"CED-named process."},
+{t:"8.5", term:"Independence through armed struggle", def:"Freedom won by war — Algeria, Angola, Vietnam.", why:"CED-named process; compare for LO F."},
+{t:"8.5", term:"Indian independence and Partition (1947)", def:"Britain left; India and Pakistan were created along religious lines; a million died and 15 million moved.", why:"CED-named negotiated independence and boundary conflict."},
+{t:"8.5", term:"Muslim League", def:"Party led by Muhammad Ali Jinnah that demanded a separate Muslim state — Pakistan.", why:"CED-named religious movement challenging inherited boundaries."},
+{t:"8.5", term:"Ghana (Gold Coast) independence (1957)", def:"First sub-Saharan African colony to win independence, under Nkrumah's nonviolent 'Positive Action.'", why:"CED-named negotiated independence."},
+{t:"8.5", term:"French West Africa independence (1960)", def:"Most French African colonies became independent by vote and negotiation in the 'Year of Africa.'", why:"CED-named negotiated independence."},
+{t:"8.5", term:"Algerian War (1954–1962)", def:"FLN guerrilla war against France, which had a million settlers in Algeria; torture and terror on both sides.", why:"CED-named armed struggle."},
+{t:"8.5", term:"Angolan independence (1975)", def:"Won by guerrilla war after Portugal's own revolution; slid straight into civil war.", why:"CED-named armed struggle."},
+{t:"8.5", term:"Dien Bien Phu (1954)", def:"Viet Minh victory that ended French rule in Indochina.", why:"CED-named armed struggle: Vietnam from France."},
+{t:"8.5", term:"Gamal Abdel Nasser", def:"Egyptian leader who overthrew the monarchy (1952), nationalized the Suez Canal (1956), and championed Arab nationalism.", why:"CED-named nationalist leader (8.5) and economic guide (8.6)."},
+{t:"8.5", term:"Québécois separatism", def:"Movement for French-speaking Quebec's independence from Canada; referendums failed in 1980 and 1995.", why:"CED-named regional movement."},
+{t:"8.5", term:"Biafra (1967–1970)", def:"Igbo secession from Nigeria that ended in a famine-ridden civil war.", why:"CED-named ethnic movement challenging inherited boundaries."},
+{t:"8.5", term:"Mau Mau uprising (1952–1960)", def:"Kikuyu revolt against British settlers in Kenya; brutally suppressed but hastened independence (1963).", why:"Another armed struggle for comparison."},
+// 8.6 Newly independent states
+{t:"8.6", term:"Partition of India", def:"The 1947 division into India and Pakistan that displaced 15 million and killed up to a million.", why:"KC-6.2.III.A.ii — CED-named."},
+{t:"8.6", term:"Creation of Israel (1948)", def:"UN partition of Palestine; Israel's founding and the first Arab-Israeli war displaced 700,000 Palestinians.", why:"KC-6.2.III.A.ii — CED-named."},
+{t:"8.6", term:"Pakistan", def:"Muslim state created from British India in 1947; East Pakistan became Bangladesh in 1971.", why:"CED-named new state."},
+{t:"8.6", term:"Cambodia", def:"Gained independence from France (1953); later suffered the Khmer Rouge genocide.", why:"CED-named new state."},
+{t:"8.6", term:"State-led development", def:"Governments of new nations running industries, dams, and planning to modernize fast.", why:"KC-6.3.I.C."},
+{t:"8.6", term:"Aswan High Dam", def:"Nasser's Soviet-funded dam (1970) for electricity and irrigation — state-led development in Egypt.", why:"CED-named: Nasser's promotion of economic development."},
+{t:"8.6", term:"Indira Gandhi", def:"Indian prime minister who nationalized banks, pushed the Green Revolution, and declared Emergency rule (1975–1977).", why:"CED-named economic policies in India."},
+{t:"8.6", term:"Julius Nyerere / ujamaa", def:"Tanzania's leader whose 'ujamaa' (familyhood) villagization was African socialism — well-meant but economically a failure.", why:"CED-named modernization in Tanzania."},
+{t:"8.6", term:"Sirimavo Bandaranaike", def:"Sri Lanka's prime minister (the world's first woman PM, 1960) who nationalized industries and promoted Sinhala.", why:"CED-named economic policies in Sri Lanka."},
+{t:"8.6", term:"Metropole", def:"The former colonizing country, to which ex-colonial subjects migrated.", why:"KC-6.2.III.B vocabulary."},
+{t:"8.6", term:"South Asians to Britain", def:"Indians, Pakistanis, and Bangladeshis who moved to British cities after 1947.", why:"CED-named migration to the metropole."},
+{t:"8.6", term:"Algerians to France", def:"Workers and families who moved to France during and after the Algerian War.", why:"CED-named migration."},
+{t:"8.6", term:"Filipinos to the United States", def:"Nurses, workers, and families migrating from the former U.S. colony.", why:"CED-named migration."},
+// 8.7 Resistance
+{t:"8.7", term:"Nonviolence", def:"Political change through civil disobedience and moral pressure rather than force.", why:"KC-6.2.V.A — Gandhi, King, Mandela."},
+{t:"8.7", term:"Martin Luther King Jr.", def:"U.S. civil rights leader who used Gandhian nonviolence against segregation.", why:"CED-named."},
+{t:"8.7", term:"Nelson Mandela", def:"Anti-apartheid leader jailed 27 years who became South Africa's first Black president (1994).", why:"CED-named; apartheid ended without civil war."},
+{t:"8.7", term:"Apartheid", def:"South Africa's legal system of racial segregation (1948–1994).", why:"What Mandela and the ANC fought."},
+{t:"8.7", term:"Anti-war movements", def:"Protests against nuclear weapons and the Vietnam War in the 1960s–1980s.", why:"KC-6.2.V.A — challenging 'the many wars of the century.'"},
+{t:"8.7", term:"Augusto Pinochet", def:"Chilean general who overthrew Allende (1973) and ran a U.S.-backed dictatorship that tortured and killed thousands.", why:"CED-named militarized response that intensified conflict."},
+{t:"8.7", term:"Francisco Franco", def:"Spanish dictator (1939–1975) after the civil war; suppressed opposition and regional identities.", why:"CED-named."},
+{t:"8.7", term:"Idi Amin", def:"Ugandan dictator (1971–1979) whose regime killed hundreds of thousands and expelled Asians.", why:"CED-named."},
+{t:"8.7", term:"Military-industrial complex", def:"Eisenhower's warning about the alliance of armed forces and arms makers that profits from conflict.", why:"CED-named response that intensified conflict."},
+{t:"8.7", term:"Shining Path", def:"Peruvian Maoist guerrillas whose 1980s–1990s war killed about 70,000.", why:"CED-named movement using violence against civilians."},
+{t:"8.7", term:"Al-Qaeda", def:"Islamist terror network led by Osama bin Laden responsible for the 9/11 attacks (2001).", why:"CED-named movement using violence against civilians."},
+{t:"8.7", term:"1968 protests", def:"Student and worker uprisings from Paris to Prague to Mexico City against war, authoritarianism, and the establishment.", why:"Global resistance to power structures."},
+// 8.8 End of Cold War
+{t:"8.8", term:"Détente", def:"1970s easing of U.S.-Soviet tensions through arms treaties (SALT).", why:"Before the final confrontation."},
+{t:"8.8", term:"Soviet-Afghan War (1979–1989)", def:"The USSR's costly failed war against U.S.-backed mujahideen.", why:"KC-6.2.IV.E — CED-named cause of Soviet collapse."},
+{t:"8.8", term:"Ronald Reagan", def:"U.S. president whose military buildup and 'Star Wars' (SDI) outspent the USSR.", why:"KC-6.2.IV.E — 'advances in U.S. military and technological development.'"},
+{t:"8.8", term:"Mikhail Gorbachev", def:"Soviet leader (1985–1991) whose reforms tried to save communism and instead ended it.", why:"The reformer who let the bloc go."},
+{t:"8.8", term:"Glasnost and perestroika", def:"'Openness' (free speech) and 'restructuring' (economic reform) — Gorbachev's programs.", why:"Unleashed the 'public discontent' the CED names."},
+{t:"8.8", term:"Solidarity", def:"Polish independent trade union (1980) led by Lech Wałęsa that won free elections in 1989.", why:"Public discontent in a communist country."},
+{t:"8.8", term:"Fall of the Berlin Wall (1989)", def:"East Germany opened the wall; communist governments fell across Eastern Europe within months.", why:"The Cold War's end made visible."},
+{t:"8.8", term:"Collapse of the USSR (1991)", def:"After a failed coup, the Soviet republics declared independence; the USSR dissolved on December 25, 1991.", why:"KC-6.2.IV.E."},
+{t:"8.8", term:"Economic stagnation", def:"Soviet planning could not match Western growth or consumer goods by the 1980s.", why:"CED: 'economic weakness in communist countries.'"},
+],
+states: [
+{t:"8.2", name:"United States (Cold War superpower)", region:"North America / global", dates:"1945–1991", gained:"Came out of WWII with half the world's industry, the atomic bomb, and an undamaged homeland.", kept:"Containment: Marshall Plan, NATO, wars in Korea and Vietnam, CIA coups (Iran 1953, Guatemala 1954, Chile 1973), the arms and space races.", known:"Leader of the capitalist bloc; the 'democracy' pole of the CED's ideological struggle.", end:"The lone superpower after 1991."},
+{t:"8.2", name:"Soviet Union (Cold War superpower)", region:"Eurasia / global", dates:"1945–1991", gained:"The Red Army's victory put Eastern Europe under Soviet control; the bomb by 1949.", kept:"Warsaw Pact, satellite states crushed when they rebelled (Hungary 1956, Prague 1968), support for communist movements worldwide, central planning.", known:"The 'authoritarian communist' pole; Sputnik; the Berlin Wall.", end:"Afghanistan, economic stagnation, and Gorbachev's reforms brought collapse in 1991."},
+{t:"8.4", name:"People's Republic of China", region:"China", dates:"1949–present", gained:"Mao's Communists won the civil war after Japan's invasion discredited the Guomindang.", kept:"Land reform, the Great Leap Forward famine, the Cultural Revolution; split with the USSR; Deng's market reforms after 1978.", known:"CED-named communist seizure of power and Great Leap Forward 'with negative repercussions.'", end:"Still communist in politics, capitalist in economics — a rising superpower (Unit 9)."},
+{t:"8.5", name:"India", region:"South Asia", dates:"1947–present", gained:"Congress's decades of nonviolent mass pressure under Gandhi and Nehru; Britain, exhausted by WWII, negotiated withdrawal.", kept:"Secular democracy, non-alignment, state-led Five-Year Plans, Indira Gandhi's bank nationalization and Green Revolution.", known:"CED-named negotiated independence; the Partition; the world's largest democracy.", end:"Wars with Pakistan (1947, 1965, 1971); economic liberalization after 1991."},
+{t:"8.5", name:"Pakistan", region:"South Asia", dates:"1947–present", gained:"The Muslim League's demand for a separate Muslim homeland, accepted at Partition.", kept:"Alternating civilian and military rule; Islam as national identity; Cold War alliance with the U.S.", known:"CED-named state created by redrawing boundaries; Bangladesh split away in 1971.", end:"A nuclear power (1998) in ongoing conflict with India over Kashmir."},
+{t:"8.5", name:"Ghana", region:"West Africa", dates:"1957–present", gained:"Nkrumah's Convention People's Party used strikes and elections ('Positive Action') to win negotiated independence.", kept:"Nkrumah's pan-Africanism, non-alignment, and state projects like the Akosombo Dam; one-party rule by 1964.", known:"CED-named first sub-Saharan colony to win independence.", end:"Nkrumah overthrown by a coup in 1966; democracy restored in the 1990s."},
+{t:"8.5", name:"Vietnam", region:"Southeast Asia", dates:"1945–present", gained:"Ho Chi Minh's Viet Minh fought Japan, then beat France at Dien Bien Phu (1954).", kept:"Communist North vs. U.S.-backed South; guerrilla war, Tet Offensive, U.S. withdrawal (1973), unification (1975); land redistribution.", known:"CED-named armed struggle and communist revolution for independence; the Cold War's biggest proxy war.", end:"Unified communist state that opened its economy (Doi Moi) after 1986."},
+{t:"8.5", name:"Algeria", region:"North Africa", dates:"1962–present", gained:"The FLN's eight-year war against France and its million settlers.", kept:"One-party socialist state under Ben Bella and Boumediene; oil and gas nationalized.", known:"CED-named armed struggle; Algerian migration to France.", end:"Civil war with Islamists in the 1990s."},
+{t:"8.6", name:"Egypt under Nasser", region:"North Africa / Middle East", dates:"1952–1970", gained:"Free Officers' coup ended the British-backed monarchy.", kept:"Nationalized the Suez Canal (1956), built the Aswan High Dam with Soviet help, land reform, Arab socialism, non-alignment.", known:"CED-named nationalist leader and state-guided economy; the Suez Crisis humiliated Britain and France.", end:"Defeat by Israel in 1967 deflated Arab nationalism; Sadat turned to the U.S."},
+{t:"8.6", name:"Israel", region:"Middle East", dates:"1948–present", gained:"Zionist settlement, the Holocaust, and the 1947 UN partition plan; declared independence as Britain left.", kept:"Won wars in 1948, 1967, and 1973; absorbed Jewish immigrants; occupied the West Bank and Gaza after 1967.", known:"CED-named state created by redrawing boundaries, with 'population displacement' — the Palestinian refugees.", end:"Conflict with Palestinians and neighbors continues."},
+{t:"8.6", name:"Tanzania under Nyerere", region:"East Africa", dates:"1961–1985", gained:"Negotiated independence from Britain; union of Tanganyika and Zanzibar (1964).", kept:"Ujamaa villages, nationalized industry, free schooling, one-party state — African socialism.", known:"CED-named modernization effort; high literacy but a collapsing economy.", end:"Nyerere stepped down in 1985; Tanzania turned to market reforms."},
+{t:"8.7", name:"South Africa (apartheid to democracy)", region:"Southern Africa", dates:"1948–1994", gained:"The National Party built apartheid after 1948.", kept:"Pass laws, Bantustans, Sharpeville (1960), Soweto (1976); ANC resistance, Mandela's imprisonment, international sanctions.", known:"Mandela's CED-named nonviolent path to a negotiated end of apartheid.", end:"Free elections in 1994 made Mandela president."},
+{t:"8.7", name:"Chile under Pinochet", region:"South America", dates:"1973–1990", gained:"U.S.-backed coup against socialist president Salvador Allende.", kept:"Military junta, disappearances and torture of thousands, free-market 'Chicago Boys' economics.", known:"CED-named militarized response that 'further intensified conflict.'", end:"Lost a 1988 plebiscite; democracy returned in 1990."},
+],
+timeline: [
+{y:"1945", e:"Yalta, Potsdam, UN founded, WWII ends", reg:"Global", t:"8.1", why:"The stage is set: two superpowers, weakened empires."},
+{y:"1947", e:"Truman Doctrine; India and Pakistan independent", reg:"U.S. / South Asia", t:"8.2", why:"Containment begins; the biggest decolonization."},
+{y:"1948", e:"Marshall Plan; Israel founded; apartheid begins; Berlin Blockade", reg:"Europe / Middle East / South Africa", t:"8.2", why:"Cold War and postcolonial fault lines open at once."},
+{y:"1949", e:"NATO; Soviet bomb; People's Republic of China", reg:"Global", t:"8.4", why:"The Cold War goes nuclear and Asian."},
+{y:"1950", e:"Korean War begins", reg:"Korea", t:"8.3", why:"First CED-named proxy war."},
+{y:"1954", e:"Dien Bien Phu; Algerian War begins", reg:"Vietnam / Algeria", t:"8.5", why:"Armed struggle defeats France in one colony, begins in another."},
+{y:"1955", e:"Warsaw Pact; Bandung Conference", reg:"Europe / Indonesia", t:"8.2", why:"The Soviet bloc forms; the Non-Aligned answer."},
+{y:"1956", e:"Suez Crisis; Hungarian uprising crushed", reg:"Egypt / Hungary", t:"8.6", why:"Nasser humbles old empires; the USSR disciplines its own."},
+{y:"1957", e:"Ghana independent; Sputnik", reg:"West Africa / USSR", t:"8.5", why:"Decolonization reaches sub-Saharan Africa; the space race begins."},
+{y:"1958", e:"Great Leap Forward begins", reg:"China", t:"8.4", why:"State control with catastrophic famine."},
+{y:"1960", e:"'Year of Africa' — 17 nations independent", reg:"Africa", t:"8.5", why:"French West Africa's negotiated independence."},
+{y:"1961", e:"Berlin Wall; Non-Aligned Movement founded", reg:"Germany / Belgrade", t:"8.3", why:"The divide hardens; the third way organizes."},
+{y:"1962", e:"Cuban Missile Crisis; Algeria independent", reg:"Caribbean / Algeria", t:"8.3", why:"The nuclear brink; the end of French Algeria."},
+{y:"1966", e:"Cultural Revolution begins", reg:"China", t:"8.4", why:"Mao's assault on his own society."},
+{y:"1967", e:"Six-Day War; Biafra secedes", reg:"Middle East / Nigeria", t:"8.6", why:"Boundary conflicts of the postcolonial world."},
+{y:"1973", e:"Pinochet coup in Chile; U.S. leaves Vietnam", reg:"Chile / Vietnam", t:"8.7", why:"Militarized response; proxy war winds down."},
+{y:"1975", e:"Vietnam unified; Angola independent and at war", reg:"Southeast Asia / Africa", t:"8.3", why:"Decolonization feeds new proxy wars."},
+{y:"1979", e:"USSR invades Afghanistan; Sandinistas win; Iranian Revolution", reg:"Afghanistan / Nicaragua / Iran", t:"8.8", why:"The war that broke the USSR; new proxy and Islamist fronts."},
+{y:"1985", e:"Gorbachev takes power", reg:"USSR", t:"8.8", why:"Glasnost and perestroika begin."},
+{y:"1989", e:"Berlin Wall falls; Tiananmen Square", reg:"Europe / China", t:"8.8", why:"Communism collapses in Europe, survives by force in China."},
+{y:"1991", e:"Soviet Union dissolves", reg:"Eurasia", t:"8.8", why:"The Cold War ends."},
+{y:"1994", e:"Mandela elected; apartheid ends", reg:"South Africa", t:"8.7", why:"Nonviolent resistance wins."},
+],
+developments: [
+{id:"8.1", title:"Setting the Stage for the Cold War and Decolonization", themes:"GOV",
+los:["A — Explain the historical context of the Cold War after 1945."],
+kcs:[
+{code:"KC-6.2.II", official:"Hopes for greater self-government were largely unfulfilled following World War I; however, in the years following World War II, increasing anti-imperialist sentiment contributed to the dissolution of empires and the restructuring of states.", plain:"After WWI empires stayed; after WWII they fell."},
+{code:"KC-6.2.IV.C.i", official:"Technological and economic gains experienced during World War II by the victorious nations shifted the global balance of power.", plain:"WWII made the U.S. and USSR superpowers and broke Britain and France."},
+],
+ex:["Yalta and Potsdam","United Nations","Atlantic Charter","Bretton Woods","Europe in ruins, U.S. booming"]},
+{id:"8.2", title:"The Cold War", themes:"GOV · CDI",
+los:["B — Explain the causes and effects of the ideological struggle of the Cold War."],
+kcs:[
+{code:"KC-6.2.IV.C.ii", official:"The global balance of economic and political power shifted during and after World War II and rapidly evolved into the Cold War. The democracy of the United States and the authoritarian communist Soviet Union emerged as superpowers, which led to ideological conflict and a power struggle between capitalism and communism across the globe.", plain:"Two superpowers, two systems, one world to fight over."},
+{code:"KC-6.2.V.B", official:"Groups and individuals, including the Non-Aligned Movement, opposed and promoted alternatives to the existing economic, political, and social orders.", plain:"Some nations refused to pick a side."},
+],
+ex:["Truman Doctrine and Marshall Plan","Iron Curtain","Non-Aligned Movement: Sukarno (Indonesia), Nkrumah (Ghana)","Bandung Conference"]},
+{id:"8.3", title:"Effects of the Cold War", themes:"GOV · TEC",
+los:["C — Compare the ways in which the United States and the Soviet Union sought to maintain influence over the course of the Cold War."],
+kcs:[
+{code:"KC-6.2.IV.D", official:"The Cold War produced new military alliances, including NATO and the Warsaw Pact, and led to nuclear proliferation and proxy wars between and within postcolonial states in Latin America, Africa, and Asia.", plain:"Alliances, nukes, and wars fought through other people."},
+],
+ex:["NATO and the Warsaw Pact","Arms race and MAD","Proxy wars: Korean War, Angolan Civil War, Sandinistas vs. Contras","Cuban Missile Crisis","Space race"]},
+{id:"8.4", title:"Spread of Communism After 1900", themes:"GOV · ECN",
+los:["D — Explain the causes and consequences of China's adoption of communism.","E — Explain the causes and effects of movements to redistribute economic resources."],
+kcs:[
+{code:"KC-6.2.I.i", official:"As a result of internal tension and Japanese aggression, Chinese communists seized power. These changes in China eventually led to communist revolution.", plain:"Civil war plus Japanese invasion handed China to Mao."},
+{code:"KC-6.3.I.A.ii", official:"In communist China, the government controlled the national economy through the Great Leap Forward, often implementing repressive policies, with negative repercussions for the population.", plain:"Mao's planned economy caused the worst famine in history."},
+{code:"KC-6.2.II.D.i", official:"Movements to redistribute land and resources developed within states in Africa, Asia, and Latin America, sometimes advocating communism or socialism.", plain:"Land reform everywhere — sometimes communist, sometimes not."},
+],
+ex:["Communist Revolution for Vietnamese independence","Mengistu Haile Mariam in Ethiopia","Land reform in Kerala and other Indian states","White Revolution in Iran"]},
+{id:"8.5", title:"Decolonization After 1900", themes:"GOV",
+los:["F — Compare the processes by which various peoples pursued independence after 1900."],
+kcs:[
+{code:"KC-6.2.II.A", official:"Nationalist leaders and parties in Asia and Africa sought varying degrees of autonomy within or independence from imperial rule.", plain:"Nationalist parties led the way."},
+{code:"KC-6.2.I.C", official:"After the end of World War II, some colonies negotiated their independence, while others achieved independence through armed struggle.", plain:"Two roads: the conference table or the battlefield."},
+{code:"KC-6.2.II.B", official:"Regional, religious, and ethnic movements challenged colonial rule and inherited imperial boundaries. Some of these movements advocated for autonomy.", plain:"Colonial borders didn't match peoples — so some groups wanted out of the new states too."},
+],
+ex:["Leaders: Indian National Congress, Ho Chi Minh, Nkrumah, Nasser","Negotiated: India, Gold Coast, French West Africa","Armed: Algeria, Angola, Vietnam","Movements: Muslim League, Québécois separatism, Biafra"]},
+{id:"8.6", title:"Newly Independent States", themes:"GOV · ECN · SIO",
+los:["G — Explain how political changes in the period from c. 1900 to the present led to territorial, demographic, and nationalist developments.","H — Explain the economic changes and continuities resulting from the process of decolonization."],
+kcs:[
+{code:"KC-6.2.III.A.i", official:"The redrawing of political boundaries after the withdrawal of former colonial authorities led to the creation of new states.", plain:"New lines on the map, new countries."},
+{code:"KC-6.2.III.A.ii", official:"The redrawing of political boundaries in some cases led to conflict as well as population displacement and/or resettlements, including those related to the Partition of India and the creation of the state of Israel.", plain:"New borders forced millions to move and sparked wars."},
+{code:"KC-6.3.I.C", official:"In newly independent states after World War II, governments often took on a strong role in guiding economic life to promote development.", plain:"New nations ran their economies from the top."},
+{code:"KC-6.2.III.B", official:"The migration of former colonial subjects to imperial metropoles (the former colonizing country), usually in the major cities, maintained cultural and economic ties between the colony and the metropole even after the dissolution of empires.", plain:"The empire came home: ex-colonial peoples moved to London, Paris, and Los Angeles."},
+],
+ex:["New states: Israel, Cambodia, Pakistan","Economies: Nasser (Egypt), Indira Gandhi (India), Nyerere (Tanzania), Bandaranaike (Sri Lanka)","Migrations: South Asians to Britain, Algerians to France, Filipinos to the U.S."]},
+{id:"8.7", title:"Global Resistance to Established Power Structures After 1900", themes:"SIO · GOV",
+los:["I — Explain various reactions to existing power structures in the period after 1900."],
+kcs:[
+{code:"KC-6.2.V", official:"Although conflict dominated much of the 20th century, many individuals and groups — including states — opposed this trend. Some individuals and groups, however, intensified the conflicts.", plain:"Some people fought conflict; some made it worse."},
+{code:"KC-6.2.V.A", official:"Groups and individuals challenged the many wars of the century, and some, such as Mohandas Gandhi, Martin Luther King Jr., and Nelson Mandela, promoted the practice of nonviolence as a way to bring about political change.", plain:"Nonviolence as a weapon."},
+{code:"KC-6.2.V.C", official:"Militaries and militarized states often responded to the proliferation of conflicts in ways that further intensified conflict.", plain:"Dictators and arms dealers poured fuel on fires."},
+{code:"KC-6.2.V.D", official:"Some movements used violence against civilians in an effort to achieve political aims.", plain:"Terrorism as politics."},
+],
+ex:["Nonviolence: Gandhi, King, Mandela","Intensified: Chile under Pinochet, Spain under Franco, Uganda under Idi Amin, the military-industrial complex","Violence against civilians: Shining Path, Al-Qaeda"]},
+{id:"8.8", title:"End of the Cold War", themes:"GOV · TEC",
+los:["J — Explain the causes of the end of the Cold War."],
+kcs:[
+{code:"KC-6.2.IV.E", official:"Advances in U.S. military and technological development, the Soviet Union's costly and ultimately failed invasion of Afghanistan, and public discontent and economic weakness in communist countries led to the end of the Cold War and the collapse of the Soviet Union.", plain:"Four causes: U.S. tech and spending, Afghanistan, popular anger, a broken economy."},
+],
+ex:["Reagan's buildup and SDI","Soviet-Afghan War","Solidarity in Poland","Glasnost and perestroika","Fall of the Berlin Wall","Dissolution of the USSR"]},
+{id:"8.9", title:"Causation in the Age of the Cold War and Decolonization", themes:"Argumentation (6.C)",
+los:["K — Explain the extent to which the effects of the Cold War were similar in the Eastern and Western Hemispheres."],
+kcs:[
+{code:"KC-6.2.IV.C", official:"The Cold War conflict extended beyond its basic ideological origins to have profound effects on economic, political, social, and cultural aspects of global events.", plain:"The Cold War touched everything, everywhere."},
+{code:"KC-6.3", official:"The role of the state in the domestic economy varied, and new institutions of global association emerged and continued to develop throughout the century.", plain:"Governments chose how much to run their economies; global institutions grew."},
+{code:"KC-6.2.II", official:"Hopes for greater self-government were largely unfulfilled following World War I; however, in the years following World War II, increasing anti-imperialist sentiment contributed to the dissolution of empires and the restructuring of states.", plain:"Decolonization is the other half of the story."},
+],
+ex:["Compare: proxy wars in Asia/Africa vs. Latin America; U.S. coups in the Western Hemisphere vs. Soviet interventions in the East; non-alignment as a shared response"]},
+],
+context: [
+{topic:"Cold War origins", before:"Before 1945, the United States and Soviet Union were wartime allies against Hitler, and Europe's empires still ruled most of Africa and Asia.", during:"During 1945–1991, disagreement over Eastern Europe hardened into a global rivalry between American capitalism and Soviet communism fought through alliances, nuclear arms races, and proxy wars."},
+{topic:"Decolonization", before:"Before 1945, Wilson's self-determination had been denied to colonies, and nationalist movements like the Indian National Congress had been growing for decades.", during:"During 1945–1975, exhausted empires and anti-imperialist pressure freed dozens of nations, some through negotiation like India and Ghana and others through war like Algeria and Vietnam."},
+{topic:"Communism in Asia", before:"Before 1949, China had endured warlords, Guomindang rule, and Japanese invasion.", during:"During 1949–1976, Mao's Communists built a one-party state whose Great Leap Forward and Cultural Revolution killed tens of millions while communism also spread to North Korea and Vietnam."},
+{topic:"New nations' economies", before:"Before independence, colonial economies had been built to export raw materials to the metropole.", during:"During the 1950s–1970s, leaders like Nasser, Nehru, and Nyerere used state planning, nationalization, and land reform to promote development, often with mixed results."},
+{topic:"Resistance and repression", before:"Before 1945, Gandhi had shown that nonviolent mass resistance could challenge an empire.", during:"During 1945–1994, King and Mandela applied nonviolence to segregation and apartheid while dictators like Pinochet and Franco and groups like Shining Path and Al-Qaeda intensified violence."},
+{topic:"End of the Cold War", before:"Before 1985, the Soviet Union had stagnated under aging leaders and bogged down in Afghanistan.", during:"During 1985–1991, Gorbachev's glasnost and perestroika released public discontent, Eastern European regimes collapsed in 1989, and the USSR dissolved in 1991."},
+],
+};
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let activeTopic = "all", query = "";
+const state = { quiz:false, hideFronts:false, onlyMissed:false, marks:{} };
+try { Object.assign(state.marks, JSON.parse(localStorage.getItem("apwh-u"+UNIT.number+"-marks")||"{}")); } catch(e){}
+function saveMarks(){ try{ localStorage.setItem("apwh-u"+UNIT.number+"-marks", JSON.stringify(state.marks)); }catch(e){} }
+// hero
+$("#unitLede").textContent = UNIT.lede;
+$("#unitStats").innerHTML = UNIT.stats.map(([b,l]) => `<div class="stat"><b>${esc(b)}</b><span>${esc(l)}</span></div>`).join("");
+$("#topicList").innerHTML = UNIT.topics.map(t => `<div class="topic-row"><span class="num">${esc(t.id)}</span><span>${esc(t.title)}</span><span class="theme">${esc(t.themes)}</span></div>`).join("");
+// chips
+const chipsEl = $("#chips");
+chipsEl.innerHTML = [`<button class="chip on" data-t="all">All topics</button>`].concat(
+UNIT.topics.filter(t => !t.review).map(t => `<button class="chip" data-t="${t.id}">${t.id} ${esc(t.title.replace(/^(Developments in|State Building in) /,""))}</button>`)).join("");
+chipsEl.addEventListener("click", e => {
+const b = e.target.closest(".chip"); if(!b) return;
+$$(".chip").forEach(c => c.classList.toggle("on", c === b));
+activeTopic = b.dataset.t; applyFilter();
+});
+$("#search").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); applyFilter(); });
+// cards
+const topicName = id => (UNIT.topics.find(t => t.id === id) || {title:""}).title.replace(/^(Developments in|State Building in) /,"");
+function vocabCard(v, i){
+return `<div class="card" data-t="${v.t}" data-key="v${i}" data-text="${esc((v.term+" "+v.def).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(v.term)} — flip card">
+<div class="face front"><span class="tag">${v.t} · ${esc(topicName(v.t))}</span><div class="term">${esc(v.term)}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${v.t} · definition</span><div class="term">${esc(v.term)}</div><div class="def">${esc(v.def)}</div><div class="why"><b>Why it matters:</b> ${esc(v.why)}</div></div>
+</button>
+<div class="mark"><button class="got" data-m="got">✓ Got it</button><button class="miss" data-m="miss">✗ Missed</button></div></div>`;
+}
+const SF = Object.assign({gained:"Gained power", kept:"Kept power", known:"Known for", end:"End", cue:"Before you flip — how did it <b>gain</b> power, how did it <b>keep</b> it, and what is it <b>known for</b>?"}, UNIT.stateFields || {});
+if (UNIT.statesLabel) { $("#statesH").textContent = UNIT.statesLabel; $('.bar a[href="#states"]').textContent = UNIT.statesLabel; }
+if (UNIT.statesBlurb) $("#statesP").textContent = UNIT.statesBlurb;
+function stateCard(s, i){
+return `<div class="card" data-t="${s.t}" data-key="s${i}" data-text="${esc((s.name+" "+s.region+" "+s.known).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(s.name)} — flip card">
+<div class="face front"><span class="tag">${s.t} · ${esc(s.region)}</span><div class="term">${esc(s.name)}</div><div class="sub">${esc(s.dates)}</div><div class="cue">${SF.cue}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${esc(s.region)} · ${esc(s.dates)}</span><div class="term">${esc(s.name)}</div>
+<p class="kv"><b>${SF.gained}:</b> ${esc(s.gained)}</p><p class="kv"><b>${SF.kept}:</b> ${esc(s.kept)}</p><p class="kv"><b>${SF.known}:</b> ${esc(s.known)}</p><p class="kv"><b>${SF.end}:</b> ${esc(s.end)}</p></div>
+</button></div>`;
+}
+let vocabOrder = UNIT.vocab.map((v,i) => i);
+function renderVocab(){ $("#vocabGrid").innerHTML = vocabOrder.map(i => vocabCard(UNIT.vocab[i], i)).join(""); paintMarks(); applyFilter(); }
+renderVocab();
+$("#stateGrid").innerHTML = UNIT.states.map(stateCard).join("");
+document.addEventListener("click", e => {
+const m = e.target.closest(".mark button");
+if (m){ const card = m.closest(".card"); const k = card.dataset.key; state.marks[k] = (state.marks[k] === m.dataset.m) ? null : m.dataset.m; saveMarks(); paintMarks(); applyFilter(); return; }
+const inner = e.target.closest(".card-inner");
+if (inner){ const card = inner.closest(".card"); card.classList.toggle("flipped"); inner.setAttribute("aria-pressed", card.classList.contains("flipped")); }
+});
+function paintMarks(){
+let got = 0, miss = 0;
+$$("#vocabGrid .card").forEach(c => { const m = state.marks[c.dataset.key]; c.classList.toggle("got", m === "got"); c.classList.toggle("miss", m === "miss"); if (m === "got") got++; if (m === "miss") miss++; });
+$("#gotN").textContent = got + " got it"; $("#missN").textContent = miss + " missed";
+}
+$("#shuffleVocab").onclick = () => { for (let i = vocabOrder.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [vocabOrder[i], vocabOrder[j]] = [vocabOrder[j], vocabOrder[i]]; } renderVocab(); };
+function flipAll(sel){ const cards = $$(sel + " .card:not(.hidden)"); const anyUn = cards.some(c => !c.classList.contains("flipped")); cards.forEach(c => { c.classList.toggle("flipped", anyUn); c.querySelector(".card-inner").setAttribute("aria-pressed", anyUn); }); }
+$("#flipAllVocab").onclick = () => flipAll("#vocabGrid");
+$("#flipAllStates").onclick = () => flipAll("#stateGrid");
+$("#quizBtn").onclick = () => { state.quiz = !state.quiz; $("#vocab").classList.toggle("quiz", state.quiz); $("#quizBtn").classList.toggle("on", state.quiz); $("#quizBtn").textContent = state.quiz ? "Exit quiz" : "Quiz me"; if(!state.quiz){ state.onlyMissed=false; $("#onlyMissed").classList.remove("on"); state.hideFronts=false; $("#vocab").classList.remove("hide-fronts"); $("#hideFronts").classList.remove("on"); } applyFilter(); };
+$("#hideFronts").onclick = () => { state.hideFronts = !state.hideFronts; $("#vocab").classList.toggle("hide-fronts", state.hideFronts); $("#hideFronts").classList.toggle("on", state.hideFronts); $("#hideFronts").textContent = state.hideFronts ? "Show terms" : "Hide terms"; $$("#vocabGrid .card").forEach(c => c.classList.remove("flipped")); };
+$("#onlyMissed").onclick = () => { state.onlyMissed = !state.onlyMissed; $("#onlyMissed").classList.toggle("on", state.onlyMissed); applyFilter(); };
+$("#resetQuiz").onclick = () => { state.marks = {}; saveMarks(); paintMarks(); applyFilter(); };
+// timeline
+$("#rail").innerHTML = UNIT.timeline.map((d, i) => `<li data-t="${d.t}" data-text="${esc((d.y+" "+d.e+" "+d.reg).toLowerCase())}"><button class="year" aria-expanded="false"><div class="dot"></div><div class="y">${esc(d.y)}</div><div class="e">${esc(d.e)}</div><div class="reg">${esc(d.reg)} · ${d.t}</div><div class="more">${esc(d.why)}</div></button></li>`).join("");
+$("#rail").addEventListener("click", e => { const b = e.target.closest(".year"); if(!b) return; b.classList.toggle("open"); b.setAttribute("aria-expanded", b.classList.contains("open")); });
+// developments
+$("#devList").innerHTML = UNIT.developments.map(d => `<details class="dev" data-t="${d.id}" data-text="${esc((d.title+" "+d.kcs.map(k=>k.official+" "+k.plain).join(" ")+" "+d.ex.join(" ")).toLowerCase())}">
+<summary><span class="num">${d.id}</span><span><div class="ttl">${esc(d.title)}</div><div class="themes">${esc(d.themes)}</div></span><span class="arrow">+</span></summary>
+<div class="body">
+<div class="lo"><b>Learning objective${d.los.length>1?"s":""}:</b> ${d.los.map(esc).join(" &nbsp;·&nbsp; ")}</div>
+${d.kcs.map(k => `<div class="kc"><div class="code">${esc(k.code)}</div><div class="official">${esc(k.official)}</div><div class="plain"><b>In plain English:</b> ${esc(k.plain)}</div></div>`).join("")}
+<div><div class="tag" style="margin-bottom:6px">Illustrative examples</div><div class="ex">${d.ex.map(x => `<span>${esc(x)}</span>`).join("")}</div></div>
+</div></details>`).join("");
+$("#openAllDev").onclick = () => { const devs = $$(".dev:not(.hidden)"); const anyClosed = devs.some(d => !d.open); devs.forEach(d => d.open = anyClosed); $("#openAllDev").textContent = anyClosed ? "Close all" : "Open all"; };
+// context
+$("#ctxList").innerHTML = UNIT.context.map(c => `<div class="c"><h3>${esc(c.topic)}</h3><p><b>Before</b> ${esc(c.before)}</p><p><b>During</b> ${esc(c.during)}</p></div>`).join("");
+// filter
+function applyFilter(){
+const match = el => (activeTopic === "all" || el.dataset.t === activeTopic) && (!query || el.dataset.text.includes(query));
+$$("#vocabGrid .card").forEach(c => { let ok = match(c); if (state.quiz && state.onlyMissed) ok = ok && state.marks[c.dataset.key] === "miss"; c.classList.toggle("hidden", !ok); });
+$$("#stateGrid .card").forEach(c => c.classList.toggle("hidden", !match(c)));
+$$("#rail li").forEach(li => li.classList.toggle("hidden", !match(li)));
+$$(".dev").forEach(d => d.classList.toggle("hidden", !match(d)));
+const n = $$("#vocabGrid .card:not(.hidden)").length, s = $$("#stateGrid .card:not(.hidden)").length;
+$("#cardCount").textContent = `${n} terms · ${s} ${UNIT.countLabel || "states"}`;
+}
+applyFilter();
+// nav: scroll inside #app (Google Sites full-page embeds disable frame scrolling)
+$$(".bar a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); const el = $(a.getAttribute("href")); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }));
+// nav highlight
+const links = $$(".bar a"); const secs = links.map(a => $(a.getAttribute("href")));
+const io = new IntersectionObserver(entries => { entries.forEach(en => { if (en.isIntersecting){ links.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id)); } }); }, { rootMargin: "-40% 0px -55% 0px" });
+secs.forEach(s => io.observe(s)) ;
+</script>
+<style id="dm-css">
+html.dm{color-scheme:dark;--bg:#0E1230;--bg-2:#141A3E;--surface:#171D47;--surface-2:#1F2656;--paper:#1A2050;--line:#2D3572;--line-2:#3C458C;--ink:#EEF0FA;--ink-2:#C6CBE8;--muted:#A3AACF;--title:#F1E4B8;--gold-ink:#E6CB73;--gold-deep:#E6CB73;--gold-soft:#3A3112;--accent:#E07C88;--accent-soft:#3D1E24;--asoft:#3D1E24;--good:#4CC777;--good-soft:#173A24;--bad:#F07167;--bad-soft:#44201C;--green:#4CC777;--green-l:#173A24;--green-b:#2B6A3F;--red:#F07167;--red-l:#44201C;--red-b:#7A3530;--yellow:#F2C94C;--yellow-l:#3B3110;--yellow-b:#7A6A24;--blue:#7FB3F0;--blue-l:#17304F;--plum:#C9A6F0;--plum-l:#2F2246;--tT:#7FB3F0;--tE:#F0A36A;--tA:#C9A6F0;--tO:#4CC777;--shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px -6px rgba(0,0,0,.55);--shadow-lift:0 2px 4px rgba(0,0,0,.35),0 18px 40px -14px rgba(0,0,0,.7);--dm-card:var(--surface);--dm-ink:var(--ink);--dm-line:var(--line);--dm-tg-bg:#171D47;--dm-tg-fg:#E3C464;--dm-tg-b:#3C458C;--dm-tg-font:Arial,Helvetica,sans-serif}
+:where(html.dm) .chip:hover{border-color:#1E2761}
+:where(html.dm) .card.got .mark .got{border-color:#1B7F3B}
+:where(html.dm) .period-head h2{color:#B9C4FF}
+:where(html.dm) .unit h3{color:#B9C4FF}
+:where(html.dm) .how p b{color:#B9C4FF}
+:where(html.dm) footer b{color:#B9C4FF}
+:where(html.dm) footer a{color:#B9C4FF}
+:where(html.dm) .hk{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .hk-i.g{background:#1B7F3B}
+:where(html.dm) .hk-i.p{background:#5B2C83}
+:where(html.dm) .hk-i.y{background:#8A6D12}
+:where(html.dm) .hk b{color:#B9C4FF}
+:where(html.dm) .sec-head h2{color:#B9C4FF}
+:where(html.dm) .flip.open .fq{color:#B9C4FF}
+:where(html.dm) .flip.open .fa b,:where(html.dm) .flip.open .bigans{color:#B9C4FF}
+:where(html.dm) .chip{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .chip:hover{color:#B9C4FF}
+:where(html.dm) .fcard{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fcard h3{color:#B9C4FF}
+:where(html.dm) .pill.navy{color:#B9C4FF}
+:where(html.dm) .bar i{background:linear-gradient(90deg,var(--navy),#1B7F3B)}
+:where(html.dm) .btn{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .btn.checkb{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .w-title h2{color:#B9C4FF}
+:where(html.dm) .namebox input{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .scorebar .dots button.y{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .promptbox .q{color:#B9C4FF}
+:where(html.dm) .stim{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .ptable{background:linear-gradient(135deg,var(--surface),var(--paper))}
+:where(html.dm) .ptable summary{color:#B9C4FF}
+:where(html.dm) .howto{background:linear-gradient(135deg,var(--surface),var(--gold-soft))}
+:where(html.dm) .ht-step strong{color:#B9C4FF}
+:where(html.dm) .kbd,:where(html.dm) .ht-step kbd{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .tea-key{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .lab.T{background:#0F4C81}
+:where(html.dm) .lab.E{background:#B4560F}
+:where(html.dm) .lab.A{background:#5B2C83}
+:where(html.dm) .lab.O{background:#1B7F3B}
+:where(html.dm) .lab.C{background:#1B7F3B}
+:where(html.dm) .lab.V{background:#B4560F}
+:where(html.dm) .lab.R{background:#9A6700}
+:where(html.dm) .lab.X{background:#5B2C83}
+:where(html.dm) .tk b{color:#B9C4FF}
+:where(html.dm) .tk-note b{color:#B9C4FF}
+:where(html.dm) .part{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .part.earned::before{background:#1B7F3B}
+:where(html.dm) .part.earned .part-l{background:#1B7F3B}
+:where(html.dm) .verb{background:var(--vc,#5B2C83)}
+:where(html.dm) .part-q{color:#B9C4FF}
+:where(html.dm) .part-dir b{color:#B9C4FF}
+:where(html.dm) .bx textarea{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb h4{color:#B9C4FF}
+:where(html.dm) .fb h4 .src{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .fbline .m.y{background:#1B7F3B}
+:where(html.dm) .fbline .m.i{background:#666B82}
+:where(html.dm) .fbline .m.w{background:#9A6700}
+:where(html.dm) .fbline b{color:#B9C4FF}
+:where(html.dm) .fbline q{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-guide,:where(html.dm) .fb-fix,:where(html.dm) .fb-look{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-hand{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb-hand p b{color:#B9C4FF}
+:where(html.dm) .verdict{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .verdict .vq{color:#B9C4FF}
+:where(html.dm) .verdict .btn.yes.on{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .acc div.hit{color:#CDF3DC}
+:where(html.dm) .acc div.hit b{background:#1B7F3B}
+:where(html.dm) .stuckpanel{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .stuckpanel h4,:where(html.dm) .expanel h4,:where(html.dm) .stempanel h4{color:#B9C4FF}
+:where(html.dm) .expanel{background:var(--surface);background-color:var(--surface);border-left:5px solid #5B2C83}
+:where(html.dm) .stm{background:var(--surface);background-color:var(--surface);color:#F9EBCD}
+:where(html.dm) .stm:hover{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .finish{background:linear-gradient(135deg,var(--surface),var(--plum-l))}
+:where(html.dm) .finish h3{color:#B9C4FF}
+:where(html.dm) .sample .sp{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .sample .sp-q{color:#B9C4FF}
+:where(html.dm) .aphead h4{color:#B9C4FF}
+:where(html.dm) .aptab.on{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .apwrap{border:1px solid #314C72;border-color:#314C72;border-top:1px solid #314C72;border-bottom:1px solid #314C72;border-left:1px solid #314C72;border-right:1px solid #314C72}
+:where(html.dm) .apbar{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .apbar b{color:var(--ink)}
+:where(html.dm) .apbar .r{color:var(--ink)}
+:where(html.dm) .apbody{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .apq .mk{color:var(--ink)}
+:where(html.dm) .apstem{color:var(--ink)}
+:where(html.dm) .apparts{color:var(--ink)}
+:where(html.dm) .aptool{background:var(--bg);background-color:var(--bg);color:var(--ink);border-color:var(--line) var(--line) currentcolor;border-top:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .apbox{color:var(--ink);border:1px solid var(--line);border-color:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .doc{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .doc.used{outline:2px solid #1B7F3B}
+:where(html.dm) .dstat{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .dstat.on{border-color:#1B7F3B}
+:where(html.dm) .dhelp .model{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess h4{color:#B9C4FF}
+:where(html.dm) .modal{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .modal h2{color:#B9C4FF}
+:where(html.dm) footer.foot b{color:#B9C4FF}
+:where(html.dm) .svwarn{background:#413618;background-color:#413618;color:#DFDCEF}
+:where(html.dm) .svwarn.dirty{background:#412B18;background-color:#412B18}
+:where(html.dm) .svwarn.safe{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .svw-copy b{color:#F8DBBD}
+:where(html.dm) .svwarn.safe .svw-copy b{color:#C2F2D4}
+:where(html.dm) .svw-copy span{color:#D1CEDF}
+:where(html.dm) .svbtn{background:var(--surface);background-color:var(--surface);color:#DFDCEF;border:1px solid #443A69;border-color:#443A69;border-top:1px solid #443A69;border-bottom:1px solid #443A69;border-left:1px solid #443A69;border-right:1px solid #443A69}
+:where(html.dm) .svw-rubric{color:#D1CEDF}
+/* World Compass manual fixes: per-unit inline accent tokens (--a / --asoft) */
+:where(html.dm) .unit .go{color:color-mix(in srgb,var(--a) 45%,#fff)}
+:where(html.dm) .unit .pct{background:color-mix(in srgb,var(--a) 28%,var(--surface));color:color-mix(in srgb,var(--a) 40%,#fff)}
+:where(html.dm) .unit .n{color:color-mix(in srgb,var(--a) 55%,#fff)}
+:where(html.dm) .btn.gold{color:#1E2761}
+:where(html.dm) .lab.T,:where(html.dm) .lab.E,:where(html.dm) .lab.A{color:#0E1230}
+
+/* dark-mode toggle (shared) */
+:root{--dm-tg-bg:#fff;--dm-tg-fg:#1F1B3A;--dm-tg-b:rgba(0,0,0,.18);--dm-tg-font:system-ui,sans-serif}
+.dm-tg{position:fixed;right:14px;bottom:14px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 10px;border-radius:999px;border:2px solid var(--dm-tg-b);background:var(--dm-tg-bg);color:var(--dm-tg-fg);font:600 13px/1 var(--dm-tg-font);letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.22);transition:transform .15s,box-shadow .15s,opacity .2s;-webkit-tap-highlight-color:transparent;opacity:.96}
+.dm-tg:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:1}
+.dm-tg:active{transform:translateY(0) scale(.97)}
+.dm-tg:focus-visible{outline:3px solid #FFC83D;outline-offset:3px}
+.dm-tg svg{width:18px;height:18px;display:block}
+.dm-tg .dm-sun{display:none}
+html.dm .dm-tg .dm-sun{display:block}
+html.dm .dm-tg .dm-moon{display:none}
+.dm-tg .dm-lbl{white-space:nowrap}
+@media (max-width:620px){.dm-tg{right:10px;bottom:10px;height:38px;padding:0 10px}.dm-tg .dm-lbl{display:none}}
+@media print{.dm-tg{display:none !important}}
+
+</style>
+<script id="dm">
+/* Dark mode add-on (GeoArcade / World Compass / Euro Atlas / Lang Studio). Follows the device setting, with a per-page toggle. */
+(function(){
+  if (window.__dmInit) return; window.__dmInit = 1;
+  var d = document.documentElement, KEY = 'dm:pref', pref = null;
+  try { pref = localStorage.getItem(KEY) || sessionStorage.getItem(KEY); } catch (e) {}
+  var mq = null; try { mq = window.matchMedia('(prefers-color-scheme: dark)'); } catch (e) {}
+  function sys() { return !!(mq && mq.matches); }
+  var on = pref ? pref === 'dark' : sys();
+  d.classList.toggle('dm', on);
+  var btn;
+  function paint() {
+    d.classList.toggle('dm', on);
+    if (btn) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.setAttribute('title', on ? 'Switch to light mode' : 'Switch to dark mode');
+      var l = btn.querySelector('.dm-lbl'); if (l) l.textContent = on ? 'Light' : 'Dark';
+    }
+    try { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.setAttribute('content', on ? '#0F0D22' : '#FFFFFF'); } catch (e) {}
+  }
+  function set(v, remember) {
+    on = v; paint();
+    if (remember) { try { localStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} try { sessionStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} }
+  }
+  function build() {
+    if (btn || !document.body) return;
+    btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'dm-tg'; btn.id = 'dmToggle';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
+    btn.innerHTML = '<svg class="dm-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 14.6A8.5 8.5 0 0 1 9.4 3a1 1 0 0 0-1.1-1.3A10.5 10.5 0 1 0 22.3 15.7 1 1 0 0 0 21 14.6z"/></svg>'
+      + '<svg class="dm-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>'
+      + '<span class="dm-lbl">Dark</span>';
+    btn.addEventListener('click', function () { set(!on, true); });
+    document.body.appendChild(btn);
+    paint();
+    // keep the button last in <body> so nothing re-renders over it
+    new MutationObserver(function () { if (btn && document.body && document.body.lastElementChild !== btn && btn.isConnected) document.body.appendChild(btn); if (btn && !btn.isConnected) document.body.appendChild(btn); }).observe(document.body, { childList: true });
+  }
+  if (mq && mq.addEventListener) mq.addEventListener('change', function (e) { if (!pref) set(e.matches, false); });
+  else if (mq && mq.addListener) mq.addListener(function (e) { if (!pref) set(e.matches, false); });
+  if (document.body) build(); else document.addEventListener('DOMContentLoaded', build);
+  window.__dm = { set: function (v) { set(!!v, true); }, get on() { return on; } };
+})();
+
+</script>
+</body>
+</html>

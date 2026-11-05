@@ -1,0 +1,605 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Euro Atlas — Unit 1: Renaissance and Exploration</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#1A2D52; --navy-deep:#0F1B33; --navy-soft:#2E4373;
+  --cream:#F7F1E5; --cream-warm:#EFE6D2; --paper:#FBF7EE;
+  --brass:#B8923A; --brass-ink:#7C6327; --brass-display:#9E7D32; --brass-light:#D4B05E;
+  --ink:#1A1A1A; --slate:#4F5562; --line:#DDD3BD; --accent-red:#8B2A2A;
+  --forest:#3E6B4F; --plum:#6B3A5B; --terra:#A8582F; --nei:#2C6E6B;
+  --good:#3E6B4F; --good-soft:#E6EFE7; --bad:#8B2A2A; --bad-soft:#F4E5E3;
+  --bg:var(--paper); --bg-alt:var(--cream-warm); --surface:var(--paper);
+  --text:var(--ink); --text-2:var(--slate); --border:var(--line);
+  --lift:0 14px 32px rgba(26,45,82,.10); --lift-2:0 24px 64px rgba(26,45,82,.12); --hair:0 1px 0 rgba(26,45,82,.08);
+  --serif:'Fraunces',Georgia,serif; --sans:'DM Sans',system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0F1B33; --bg-alt:#152442; --surface:#18294A;
+  --text:#F2ECE0; --text-2:#B6BECC; --border:#2C3F65;
+  --line:#2C3F65; --cream:#F2ECE0; --paper:#18294A; --cream-warm:#152442;
+  --brass:#D4B05E; --brass-ink:#D4B05E; --brass-display:#D4B05E; --brass-light:#E2C782; --slate:#B6BECC; --ink:#F2ECE0;
+  --accent-red:#D4756E; --forest:#6FA882; --plum:#B183A2; --terra:#DB9066; --nei:#5FB3AE;
+  --good:#6FA882; --good-soft:#1B3327; --bad:#D4756E; --bad-soft:#3A211F;
+  --lift:0 14px 32px rgba(0,0,0,.35); --lift-2:0 24px 64px rgba(0,0,0,.45); --hair:0 1px 0 rgba(0,0,0,.3);
+}}
+:root[data-theme="dark"]{
+  --bg:#0F1B33; --bg-alt:#152442; --surface:#18294A;
+  --text:#F2ECE0; --text-2:#B6BECC; --border:#2C3F65;
+  --line:#2C3F65; --cream:#F2ECE0; --paper:#18294A; --cream-warm:#152442;
+  --brass:#D4B05E; --brass-ink:#D4B05E; --brass-display:#D4B05E; --brass-light:#E2C782; --slate:#B6BECC; --ink:#F2ECE0;
+  --accent-red:#D4756E; --forest:#6FA882; --plum:#B183A2; --terra:#DB9066; --nei:#5FB3AE;
+  --good:#6FA882; --good-soft:#1B3327; --bad:#D4756E; --bad-soft:#3A211F;
+  --lift:0 14px 32px rgba(0,0,0,.35); --lift-2:0 24px 64px rgba(0,0,0,.45); --hair:0 1px 0 rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.container{max-width:1200px;margin:0 auto;padding:0 32px}
+.narrow{max-width:780px}
+button{font-family:inherit}
+a{color:inherit}
+
+.eyebrow{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--brass-ink);font-weight:600;font-family:var(--sans)}
+.stitle{font-family:var(--serif);font-weight:500;font-size:clamp(1.9rem,3.4vw,2.9rem);letter-spacing:-.02em;line-height:1.08;margin:.55rem 0 0}
+.stitle em{font-style:italic;font-weight:400}
+.slead{font-size:1.05rem;line-height:1.65;color:var(--text-2);max-width:640px;margin:.9rem 0 0}
+
+/* ---------- hero ---------- */
+.hero{background:var(--navy-deep);color:var(--cream);padding:64px 0 54px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border:1px solid rgba(212,176,94,.20);border-radius:50%}
+.hero::before{content:"";position:absolute;right:-40px;top:40px;width:260px;height:260px;border:1px solid rgba(212,176,94,.13);border-radius:50%}
+.hero .container{position:relative;z-index:2}
+.hero .eyebrow{color:var(--brass-light)}
+.hero h1{font-family:var(--serif);font-weight:500;font-size:clamp(2.3rem,5.4vw,4rem);line-height:1.03;letter-spacing:-.025em;margin:.7rem 0 0;max-width:16ch}
+.hero h1 em{font-style:italic;font-weight:400;color:var(--brass-light)}
+.hero .tag{font-family:var(--serif);font-style:italic;font-size:1.15rem;color:rgba(247,241,229,.82);margin:1.1rem 0 0;max-width:52ch}
+.stats{display:flex;gap:0;flex-wrap:wrap;margin-top:2.4rem;border-top:1px solid rgba(212,176,94,.28);padding-top:1.3rem}
+.stat{padding-right:2.6rem;margin-right:2.6rem;border-right:1px solid rgba(212,176,94,.18)}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-family:var(--serif);font-style:italic;font-weight:400;font-size:2rem;color:var(--brass-light);line-height:1}
+.stat span{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(247,241,229,.6);font-weight:500}
+
+/* ---------- sticky nav ---------- */
+.bar{position:sticky;top:0;z-index:80;background:var(--bg);border-bottom:1px solid var(--border);box-shadow:var(--hair)}
+.bar .container{display:flex;gap:0;align-items:center;overflow-x:auto;scrollbar-width:none}
+.bar .container::-webkit-scrollbar{display:none}
+.bar a{color:var(--text-2);text-decoration:none;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;padding:16px 18px 14px;white-space:nowrap;border-bottom:2px solid transparent}
+.bar a:first-child{padding-left:0}
+.bar a:hover{color:var(--text)}
+.bar a.on{color:var(--navy);border-bottom-color:var(--brass)}
+:root[data-theme="dark"] .bar a.on{color:var(--brass-light)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .bar a.on{color:var(--brass-light)}}
+.bar .count{margin-left:auto;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--text-2);white-space:nowrap;padding-left:16px}
+
+/* ---------- controls ---------- */
+.controls{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:20px 0}
+.ctlrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.ctlrow+.ctlrow{margin-top:12px}
+.search{flex:1 1 260px;min-width:210px;display:flex;align-items:center;gap:9px;border:1px solid var(--border);background:var(--surface);padding:9px 15px;border-radius:100px}
+.search input{border:0;outline:0;background:transparent;color:var(--text);font-size:.95rem;width:100%;font-family:inherit}
+.pillbtn{border:1px solid var(--border);background:var(--surface);color:var(--text-2);font-size:.68rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:8px 15px;cursor:pointer;border-radius:100px;transition:.15s}
+.pillbtn:hover{border-color:var(--brass);color:var(--text)}
+.pillbtn.on{background:var(--navy);border-color:var(--navy);color:var(--cream)}
+:root[data-theme="dark"] .pillbtn.on{background:var(--brass);border-color:var(--brass);color:var(--navy-deep)}
+.tchip{border:1px solid var(--border);background:var(--surface);color:var(--text-2);font-size:.7rem;font-weight:600;letter-spacing:.08em;padding:7px 13px;cursor:pointer;border-radius:100px;display:inline-flex;align-items:center;gap:6px;transition:.15s}
+.tchip .dot{width:7px;height:7px;border-radius:50%;flex:0 0 auto}
+.tchip:hover{border-color:var(--brass);color:var(--text)}
+.tchip.on{background:var(--navy);border-color:var(--navy);color:var(--cream)}
+:root[data-theme="dark"] .tchip.on{background:var(--brass);border-color:var(--brass);color:var(--navy-deep)}
+.lbl{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--text-2);font-weight:600;margin-right:4px}
+.chips{display:flex;gap:7px;flex-wrap:wrap;align-items:center}
+
+/* ---------- sections ---------- */
+.block{padding:76px 0 12px;scroll-margin-top:58px}
+.block.alt{background:var(--bg-alt)}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:2.6rem}
+.sec-head .num{font-family:var(--serif);font-style:italic;font-weight:400;font-size:2.4rem;color:var(--brass-display);line-height:1;margin-bottom:.4rem}
+.tools{display:flex;gap:8px;flex-wrap:wrap}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(272px,1fr));gap:18px}
+.grid.big{grid-template-columns:repeat(auto-fill,minmax(345px,1fr))}
+.grid.wide{grid-template-columns:repeat(auto-fill,minmax(430px,1fr))}
+
+/* ---------- cards ---------- */
+.card{position:relative;background:var(--surface);border:1px solid var(--border);min-height:158px;cursor:pointer;display:flex;flex-direction:column;transition:box-shadow .22s,transform .22s;overflow:hidden}
+.card:hover{box-shadow:var(--lift);transform:translateY(-2px)}
+.card.hidden{display:none}
+.card .tag{position:absolute;left:0;top:0;bottom:0;width:3px}
+.card .inner{padding:20px 22px 16px;flex:1;display:flex;flex-direction:column;gap:9px}
+.card .tno{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass-ink);font-weight:600}
+.card .term{font-family:var(--serif);font-weight:500;font-size:1.3rem;letter-spacing:-.015em;line-height:1.18}
+.card .work{font-family:var(--serif);font-style:italic;font-size:.95rem;color:var(--text-2);margin-top:-3px}
+.card .def{font-size:.92rem;color:var(--text-2);line-height:1.6}
+.card .why{font-size:.88rem;color:var(--text-2);border-left:2px solid var(--brass);padding-left:12px;line-height:1.55}
+.card .why b{color:var(--text);font-weight:600}
+.card .hint{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--text-2);opacity:.85;margin-top:auto;padding-top:8px;font-weight:600}
+.card .front,.card .back{display:flex;flex-direction:column;gap:9px;flex:1}
+.card .back{display:none}
+.card.flipped .front{display:none}
+.card.flipped .back{display:flex}
+.badge{display:inline-block;font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;padding:4px 11px;border:1px solid currentColor;border-radius:100px;align-self:flex-start;font-weight:600}
+.badge.vid{color:var(--forest)}
+.badge.beyond{color:var(--plum)}
+
+.mark{display:none;gap:8px;padding:0 22px 16px}
+.quiz .mark{display:flex}
+.mark button{flex:1;border:1px solid var(--border);background:transparent;color:var(--text-2);font-size:.62rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:8px 4px;cursor:pointer;border-radius:100px}
+.card.got{border-color:var(--good)} .card.miss{border-color:var(--bad)}
+.card.got .mark .got{background:var(--good-soft);border-color:var(--good);color:var(--good)}
+.card.miss .mark .miss{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+.card [hidden]{display:none!important}
+.card .study-face,.card .quiz-prompt{display:flex;flex-direction:column;gap:9px}
+.card .inner:focus-visible{outline:3px solid var(--brass);outline-offset:-4px}
+.card .quiz-prompt .prompt-label{font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:var(--brass-ink);font-weight:600}
+
+/* ---------- timeline ---------- */
+.railwrap{position:relative;padding-top:6px}
+.rail{list-style:none;margin:0;padding:0 0 26px;display:flex;overflow-x:auto;gap:0}
+.rail li{flex:0 0 auto;position:relative}
+.rail li.hidden{display:none}
+.rail button{background:transparent;border:0;border-top:1px solid var(--border);padding:22px 24px 0;cursor:pointer;text-align:left;min-width:196px;max-width:250px;color:var(--text);position:relative;display:block;font-family:inherit}
+.rail button::before{content:"";position:absolute;top:-5px;left:24px;width:9px;height:9px;border-radius:50%;background:var(--border);transition:.18s}
+.rail button:hover::before,.rail button.on::before{background:var(--brass);box-shadow:0 0 0 4px rgba(184,146,58,.18)}
+.rail .y{font-family:var(--serif);font-style:italic;font-weight:400;font-size:1.45rem;color:var(--brass-ink);display:block;line-height:1}
+.rail .e{font-size:.85rem;line-height:1.45;margin-top:7px;display:block;color:var(--text-2)}
+.rail button.on .e{color:var(--text)}
+.tlwhy{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--brass);padding:24px 26px;min-height:96px}
+.tlwhy .y{font-family:var(--serif);font-style:italic;font-size:1.9rem;color:var(--brass-display);line-height:1}
+.tlwhy .e{font-family:var(--serif);font-weight:500;font-size:1.15rem;margin:.4rem 0 .6rem}
+.tlwhy .w{color:var(--text-2);font-size:.98rem}
+
+/* ---------- developments ---------- */
+.los{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px;margin-bottom:2.6rem}
+.lo{background:var(--surface);border:1px solid var(--border);padding:20px 22px;display:flex;gap:16px;align-items:flex-start}
+.lo .ltr{font-family:var(--serif);font-style:italic;font-weight:400;font-size:2rem;color:var(--brass-display);line-height:1;flex:0 0 auto;min-width:26px}
+.lo .txt{font-size:.94rem;line-height:1.55}
+.lo .tp{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--text-2);opacity:.85;margin-top:8px;font-weight:600}
+.kc{background:var(--surface);border:1px solid var(--border);margin-bottom:14px}
+.kc>summary{cursor:pointer;padding:20px 24px;list-style:none;display:flex;gap:16px;align-items:baseline}
+.kc>summary::-webkit-details-marker{display:none}
+.kc>summary::after{content:"+";margin-left:auto;font-family:var(--serif);font-size:1.5rem;color:var(--brass-display);line-height:1}
+.kc[open]>summary::after{content:"–"}
+.kc .kcid{font-size:.65rem;letter-spacing:.18em;color:var(--brass-ink);font-weight:600;flex:0 0 auto;text-transform:uppercase}
+.kc .kctext{font-family:var(--serif);font-weight:500;font-size:1.08rem;line-height:1.4}
+.kc .body{padding:0 24px 22px 24px;border-top:1px solid var(--border);padding-top:18px}
+.sub{margin-top:18px;padding-left:16px;border-left:2px solid var(--border)}
+.sub:first-child{margin-top:0}
+.sub .sid{font-size:.62rem;letter-spacing:.18em;color:var(--navy-soft);font-weight:600;text-transform:uppercase}
+:root[data-theme="dark"] .sub .sid{color:var(--brass-light)}
+.sub p{margin:4px 0 0;font-size:.92rem;color:var(--text-2);line-height:1.6}
+.ex{margin:11px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px}
+.ex li{font-size:.75rem;background:var(--bg-alt);border:1px solid var(--border);padding:5px 12px;border-radius:100px;color:var(--text-2)}
+
+/* ---------- context ---------- */
+.ctx{background:var(--surface);border:1px solid var(--border);padding:24px 26px}
+.ctx .kind{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;padding:4px 12px;border:1px solid currentColor;border-radius:100px;display:inline-block;margin-bottom:14px;font-weight:600}
+.ctx .kind.before{color:var(--accent-red)} .ctx .kind.during{color:var(--navy-soft)} .ctx .kind.after{color:var(--forest)}
+:root[data-theme="dark"] .ctx .kind.during{color:var(--brass-light)}
+.ctx h3{font-family:var(--serif);font-weight:500;font-size:1.22rem;margin:0 0 .5rem;letter-spacing:-.01em;line-height:1.25}
+.ctx p{margin:0;font-size:.94rem;color:var(--text-2);line-height:1.62}
+
+/* ---------- stimulus ---------- */
+.stim{background:var(--surface);border:1px solid var(--border);display:flex;flex-direction:column;transition:box-shadow .22s}
+.stim:hover{box-shadow:var(--lift)}
+.stim .imgwrap{background:var(--bg-alt);border-bottom:1px solid var(--border);position:relative;aspect-ratio:4/3;overflow:hidden}
+.stim img{width:100%;height:100%;object-fit:contain;display:block}
+.stim .fallback{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;font-size:.85rem;color:var(--text-2);font-family:var(--serif);font-style:italic}
+.stim .body{padding:22px 26px 24px;display:flex;flex-direction:column;gap:12px}
+.stim h3{font-family:var(--serif);font-weight:500;font-size:1.32rem;margin:0;letter-spacing:-.015em;line-height:1.2}
+.stim .cred{font-family:var(--serif);font-style:italic;font-size:.95rem;color:var(--text-2)}
+.stim .look{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
+.stim .look li{font-size:.9rem;color:var(--text-2);padding-left:19px;position:relative;line-height:1.55}
+.stim .look li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:7px;border-radius:50%;background:var(--brass)}
+.stim .argues{font-size:.9rem;border-left:2px solid var(--accent-red);padding-left:13px;color:var(--text-2);line-height:1.55}
+.stim .argues b{color:var(--text);font-weight:600}
+.stim a.src{font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass-ink);text-decoration:none;font-weight:600;margin-top:auto}
+.stim a.src:hover{text-decoration:underline}
+
+.empty{padding:48px 0;text-align:center;color:var(--text-2);font-family:var(--serif);font-style:italic;font-size:1.05rem}
+footer{background:var(--navy-deep);color:var(--cream);padding:52px 0 44px;margin-top:80px}
+footer .ft{font-family:var(--serif);font-style:italic;color:var(--brass-light);font-size:1.15rem;margin-bottom:.9rem}
+footer .fm{font-size:.82rem;color:rgba(247,241,229,.6);line-height:1.7;max-width:70ch}
+.themeBtn{position:fixed;right:20px;bottom:20px;z-index:90;width:46px;height:46px;border-radius:50%;border:1px solid var(--border);background:var(--surface);color:var(--text);cursor:pointer;font-size:1.05rem;box-shadow:var(--lift)}
+@media(max-width:700px){
+  .container{padding:0 20px}
+  .grid,.grid.big,.grid.wide,.los{grid-template-columns:1fr}
+  .stat{padding-right:1.5rem;margin-right:1.5rem}
+  .block{padding:52px 0 12px}
+}
+</style>
+<style id="ms-phone-text">@media (max-width:640px){.eyebrow,.stat span,.bar a,.bar .count,.pillbtn,.tchip,.lbl,.card .tno,.card .hint,.badge,.mark button,.card .quiz-prompt .prompt-label,.lo .tp,.kc .kcid,.sub .sid,.ctx .kind,.stim a.src{font-size:12px!important;line-height:1.35}}
+/* ios-no-zoom */@media (max-width:820px){input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]),textarea,select{font-size:16px !important}}
+</style></head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <div class="eyebrow" id="heroEyebrow"></div>
+    <h1 id="heroH1"></h1>
+    <p class="tag" id="heroTag"></p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<nav class="bar" aria-label="Sections">
+  <div class="container">
+    <a href="#vocab" data-s="vocab">Vocabulary</a>
+    <a href="#figures" data-s="figures">Figures &amp; Works</a>
+    <a href="#timeline" data-s="timeline">Timeline</a>
+    <a href="#developments" data-s="developments">Developments</a>
+    <a href="#context" data-s="context">Context</a>
+    <a href="#stimulus" data-s="stimulus">Art &amp; Stimulus</a>
+    <span class="count" id="cardCount"></span>
+  </div>
+</nav>
+
+<div class="controls">
+  <div class="container">
+    <div class="ctlrow">
+      <label class="search"><span aria-hidden="true" style="opacity:.5">⌕</span>
+        <input id="q" type="search" placeholder="Search terms, people, dates…" aria-label="Search">
+      </label>
+      <button class="pillbtn on" id="srcAll">All content</button>
+      <button class="pillbtn" id="srcVid">In the video</button>
+      <button class="pillbtn" id="srcBey">Beyond the video</button>
+    </div>
+    <div class="ctlrow">
+      <span class="lbl">Topic</span>
+      <div class="chips" id="topicChips"></div>
+    </div>
+  </div>
+</div>
+
+<main>
+  <section class="block" id="vocab">
+    <div class="container">
+      <div class="sec-head">
+        <div>
+          <div class="num">01</div>
+          <div class="eyebrow">Language of the period</div>
+          <h2 class="stitle">The <em>Vocabulary</em></h2>
+          <p class="slead">Tap a card, or focus it and press Enter or Space, to turn it over. In Quiz me, read the definition first, recall the term, then reveal and mark your answer.</p>
+        </div>
+        <div class="tools">
+          <button class="pillbtn" id="quizBtn" aria-pressed="false">Quiz me</button>
+          <button class="pillbtn" id="shufBtn">Shuffle</button>
+          <button class="pillbtn" id="resetBtn">Reset marks</button>
+        </div>
+      </div>
+      <p class="ms-marks-note" style="margin:0 0 14px;font-size:.85rem;opacity:.8">Got it / Missed marks last only while this page is open; they reset when you reload or leave.</p><div class="grid" id="vocabGrid"></div>
+    </div>
+  </section>
+
+  <section class="block alt" id="figures">
+    <div class="container">
+      <div class="sec-head"><div>
+        <div class="num">02</div>
+        <div class="eyebrow">Who and what</div>
+        <h2 class="stitle">Figures &amp; <em>Works</em></h2>
+        <p class="slead">European history runs on named people and the specific things they wrote, painted, or decreed. Tap to turn over.</p>
+      </div></div>
+      <div class="grid big" id="figGrid"></div>
+    </div>
+  </section>
+
+  <section class="block" id="timeline">
+    <div class="container">
+      <div class="sec-head"><div>
+        <div class="num">03</div>
+        <div class="eyebrow" id="tlEyebrow"></div>
+        <h2 class="stitle">The <em>Timeline</em></h2>
+        <p class="slead">Scroll sideways. Choose any date to read why it earns its place.</p>
+      </div></div>
+      <div class="railwrap"><ul class="rail" id="rail"></ul></div>
+      <div class="tlwhy" id="tlwhy"><div class="w" style="font-family:var(--serif);font-style:italic">Choose a date above.</div></div>
+    </div>
+  </section>
+
+  <section class="block alt" id="developments">
+    <div class="container">
+      <div class="sec-head"><div>
+        <div class="num">04</div>
+        <div class="eyebrow">Straight from the College Board</div>
+        <h2 class="stitle">Historical <em>Developments</em></h2>
+        <p class="slead">The learning objectives and key concepts for this unit, quoted word for word from the CED.</p>
+      </div></div>
+      <div class="los" id="loGrid"></div>
+      <div id="kcList"></div>
+    </div>
+  </section>
+
+  <section class="block" id="context">
+    <div class="container">
+      <div class="sec-head"><div>
+        <div class="num">05</div>
+        <div class="eyebrow">Before, during, after</div>
+        <h2 class="stitle">The <em>Context</em> Bank</h2>
+        <p class="slead">What was already true before 1450, what was happening elsewhere, and what this unit sets up. Raw material for a contextualization sentence.</p>
+      </div></div>
+      <div class="grid wide" id="ctxGrid"></div>
+    </div>
+  </section>
+
+  <section class="block alt" id="stimulus">
+    <div class="container">
+      <div class="sec-head"><div>
+        <div class="num">06</div>
+        <div class="eyebrow">Reading the evidence</div>
+        <h2 class="stitle">Art &amp; <em>Stimulus</em></h2>
+        <p class="slead">European History leans on images harder than World does. For each one: what do you actually see, and what is it arguing?</p>
+      </div></div>
+      <div class="grid wide" id="stimGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="container">
+  <div class="ft">Euro Atlas</div>
+  <div class="fm">Panther Creek High School · Created by Scott Martin · APandAbroad@gmail.com<br>
+  Framework quoted from the AP® European History Course and Exam Description (Effective Fall 2026), © College Board, which was not involved in the production of and does not endorse this resource. Artwork in the public domain via Wikimedia Commons.<br>
+  AP® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this site.</div>
+</div></footer>
+<button class="themeBtn" id="themeBtn" title="Toggle light or dark" aria-label="Toggle light or dark">◐</button>
+
+<script>
+const DATA = {"unit":{"num":1,"title":"Renaissance and Exploration","span":"c. 1450 to c. 1648","weight":"10–15%","periods":"~15 class periods","period":1,"heading":"Unit One — <em>Renaissance</em> and Exploration","tagline":"Europe stops looking backward at heaven and starts looking outward at the world — and at itself."},"topics":[{"id":"1.1","title":"Contextualizing Renaissance and Discovery","theme":"CID","themeFull":"Cultural and Intellectual Developments","reasoning":"Causation","review":true},{"id":"1.2","title":"Italian Renaissance","theme":"CID","themeFull":"Cultural and Intellectual Developments","reasoning":"Causation","review":false},{"id":"1.3","title":"Northern Renaissance","theme":"CID","themeFull":"Cultural and Intellectual Developments","reasoning":"Comparison","review":false},{"id":"1.4","title":"Printing","theme":"TSI","themeFull":"Technological and Scientific Innovation","reasoning":"Causation","review":false},{"id":"1.5","title":"New Monarchies","theme":"SOP","themeFull":"States and Other Institutions of Power","reasoning":"Causation","review":false},{"id":"1.6","title":"Technological Advances and the Age of Exploration","theme":"TSI, INT","themeFull":"Technological and Scientific Innovation; Interaction of Europe and the World","reasoning":"Causation","review":false},{"id":"1.7","title":"Rivals on the World Stage","theme":"ECD","themeFull":"Economic and Commercial Developments","reasoning":"Causation","review":false},{"id":"1.8","title":"Colonial Expansion and Columbian Exchange","theme":"ECD, INT","themeFull":"Economic and Commercial Developments; Interaction of Europe and the World","reasoning":"Causation","review":false},{"id":"1.9","title":"The Slave Trade","theme":"INT","themeFull":"Interaction of Europe and the World","reasoning":"Causation","review":false},{"id":"1.10","title":"The Commercial Revolution","theme":"ECD, SCD","themeFull":"Economic and Commercial Developments; Social Organization and Development","reasoning":"Causation","review":false},{"id":"1.11","title":"Causation in the Renaissance and Age of Discovery","theme":"CID","themeFull":"Cultural and Intellectual Developments","reasoning":"Causation","review":true}],"vocab":[{"t":"1.2","term":"Renaissance","def":"A roughly two-century burst of art and learning that began in Italy around 1400; the word means “rebirth,” and what was reborn was the study of ancient Greek and Roman writing.","why":"It moved European learning off of theology and onto human beings, and it stayed a movement of the wealthy elite — ordinary Europeans’ lives changed very little.","heimler":true},{"t":"1.2","term":"Humanism","def":"A program of study and a way of thinking that treats human writing, human achievement, and human potential as worth serious attention on their own terms.","why":"Petrarch’s claim that people have unlimited potential shifted the point of education from saving your soul to developing your abilities in this life.","heimler":true},{"t":"1.2","term":"Philology","def":"The study of how a language changes over time — precise enough that a scholar can date a document by the style of its Latin.","why":"It turned scholarship into a weapon: Lorenzo Valla used philology to prove that documents the Church treated as authoritative were forgeries, so evidence could now beat authority.","heimler":true},{"t":"1.2","term":"Secularism","def":"Separating religious belief from public life, so that politics, art, and learning get judged by worldly standards instead of by church teaching.","why":"It let writers and artists treat power, beauty, and nature as subjects in their own right without first asking what the Church would say.","heimler":true},{"t":"1.2","term":"Individualism","def":"The belief that one person’s talent, ambition, and reputation matter more than that person’s assigned place in a community or social order.","why":"It explains why the Renaissance produces signed artworks, personal portraits, and autobiographies — the individual becomes worth recording.","heimler":true},{"t":"1.2","term":"Liberal studies (studia humanitatis)","def":"The humanist school curriculum: rhetoric, grammar, logic, history, and moral philosophy, all taught out of classical texts.","why":"It trained a governing class in persuasion and judgment rather than in theology, pulling education away from the universities and the Church.","heimler":true},{"t":"1.2","term":"Civic humanism","def":"The idea that an educated person owes his talents to his city or state — humanism applied to public life rather than kept in a private study.","why":"It gave the Italian city-states, especially republican Florence, a classical argument for public service and a secular model for political behavior.","heimler":true},{"t":"1.2","term":"Patronage","def":"Wealthy families, rulers, and popes paying artists and scholars to produce work, usually with the patron’s name or face attached to the result.","why":"Renaissance art exists because someone funded it, and patrons like the Medici used commissions to advertise their own prestige and political power.","heimler":true},{"t":"1.2","term":"Naturalism","def":"An artistic style that shows bodies, faces, and landscapes the way they actually look, instead of as flat symbols standing for religious ideas.","why":"It is the visible proof of the new interest in the observable world — the same instinct that produces new methods of scientific inquiry.","heimler":true},{"t":"1.2","term":"Geometric perspective","def":"A newly invented drawing technique that uses lines converging on a vanishing point to make a flat surface look like it has real depth.","why":"It let painters place the viewer inside a believable three-dimensional space, and it shows mathematics being applied to art.","heimler":true},{"t":"1.3","term":"Northern Renaissance","def":"The spread of Renaissance learning and art north of the Alps — into the Low Countries, France, Germany, and England — in the late 1400s and 1500s.","why":"The north borrowed Italy’s classical revival and naturalism but kept a far more religious framework, which is the central comparison for this topic.","heimler":true},{"t":"1.3","term":"Christian humanism","def":"The blending of humanist scholarship with Christian tradition: using classical study tools on the Bible and the earliest Christian writers.","why":"What northern scholars found in those early writings looked simpler and purer than the church hierarchy of their own day, which produced a demand for reform.","heimler":true},{"t":"1.3","term":"Philosophy of Christ","def":"Erasmus’s phrase for a Christianity built on individual morality and inner spirituality rather than on ritual, hierarchy, and outward observance.","why":"It is the specific reform program of Christian humanism, and it is the critique of the Church that Unit 2 will act on.","heimler":true},{"t":"1.3","term":"Human-centered naturalism","def":"The northern version of realistic painting, which treats ordinary individuals and everyday life — peasants, weddings, kitchens — as fit subjects for serious art.","why":"It shows the Renaissance changing as it travels: same realism, but pointed at common people rather than at classical gods and princes.","heimler":true},{"t":"1.4","term":"Printing press","def":"A machine developed in Europe in the 1450s that presses inked, reusable metal letters onto paper, producing hundreds of identical copies of a page.","why":"It is the single technology that decides how far an idea can travel; without it the Renaissance stays an Italian elite hobby.","heimler":true},{"t":"1.4","term":"Movable type","def":"Gutenberg’s method: individual reusable metal letters set into a frame, so a printer can rearrange them for the next page instead of carving a whole page.","why":"Reusability is what made printing cheap, and cheapness is what made mass circulation of ideas possible.","heimler":true},{"t":"1.4","term":"Vernacular literature","def":"Books written in the everyday spoken language of a region — German, French, English, Italian — rather than in scholarly Latin.","why":"Reading in your own language let people work out who they were and how they differed from every other group, which is the seed of national identity.","heimler":true},{"t":"1.4","term":"Literacy","def":"The ability to read and write, which rose steadily once cheap printed books gave people something to practice on.","why":"Books created readers and readers created demand for more books, so printing and literacy pushed each other upward.","heimler":true},{"t":"1.4","term":"National cultures","def":"Shared languages, literatures, and identities that formed as printed vernacular books standardized how a region wrote and spoke.","why":"The CED names this as printing’s long-term consequence — the road from a printed German Bible to a German nation runs through this idea.","heimler":true},{"t":"1.5","term":"New monarchies","def":"Rulers from roughly 1450 onward who pulled power away from the Church and the nobility and concentrated it in the crown.","why":"They laid the foundation of the modern centralized state by monopolizing tax collection, military force, justice, and religion.","heimler":true},{"t":"1.5","term":"Sovereignty","def":"The claim that one authority holds final, undivided power inside a fixed territory, answering to no pope, emperor, or rival noble.","why":"This new concept is what makes a “state” different from a medieval patchwork of overlapping loyalties, and it drives the century of conflict that follows.","heimler":false},{"t":"1.5","term":"Secular state","def":"A state in which the church has little or no political influence over how the government makes decisions.","why":"Fragmented Renaissance Italy, where no church or emperor could impose order, is where thinkers first described politics in purely worldly terms.","heimler":true},{"t":"1.5","term":"Divine right","def":"The theory that a monarch’s authority comes directly from God, so resisting the king is disobeying God.","why":"Jean Bodin used it to argue for absolute royal power — the opposite pole from Machiavelli’s republicanism in the same debate about sovereignty.","heimler":true},{"t":"1.5","term":"Church of England (Anglicanism)","def":"The national church created when Henry VIII declared himself its head, taking English religious authority and revenue away from the pope.","why":"It is the clearest case of top-down religious reform: a monarch reorganizing religion mainly to increase his own control.","heimler":true},{"t":"1.5","term":"Act of Uniformity","def":"Elizabeth I’s law requiring English subjects to attend Anglican services once a week or pay a fine.","why":"It shows a state enforcing religious conformity as a tool of political control, not just of belief.","heimler":true},{"t":"1.5","term":"Treason Act","def":"Henry VIII’s law making it a capital crime — punishable by death — to refuse to recognize the Church of England as the official state church.","why":"It measures how far a new monarch would go to make religious loyalty and political loyalty the same thing.","heimler":true},{"t":"1.5","term":"Concordat of Bologna","def":"An agreement between King Francis I of France and Pope Leo X settling who controlled church appointments and church taxation in France.","why":"France got royal control of its own church without breaking from Rome — a monarch gaining religious power by deal rather than by rupture.","heimler":true},{"t":"1.5","term":"Peace of Augsburg","def":"A settlement giving each ruler within the Holy Roman Empire the right to decide whether his subjects would be Catholic or Lutheran.","why":"It writes the new-monarch principle into law: the ruler, not the pope and not the individual, chooses the religion of a territory.","heimler":true},{"t":"1.5","term":"Spanish Inquisition","def":"A royal court run by Ferdinand and Isabella that investigated and punished suspected heretics, conversos, and Muslims in Spain.","why":"It is a state institution using religion to enforce unity — the monarchy controlling belief and morality directly.","heimler":false},{"t":"1.5","term":"Star Chamber","def":"An English royal court that tried powerful people without a jury, using the king’s authority rather than ordinary common-law procedure.","why":"It let English monarchs discipline nobles who were too strong for regular courts, which is exactly how new monarchies broke aristocratic power.","heimler":false},{"t":"1.5","term":"Edict of Nantes","def":"A French royal decree granting Protestants (Huguenots) limited religious toleration and the right to fortify certain towns.","why":"It shows a monarch buying political stability by managing religion from the throne — toleration granted as state policy, not as principle.","heimler":false},{"t":"1.6","term":"Gold, God, and Glory","def":"The three-part shorthand for why Europeans sailed: wealth and luxury goods, spreading Christianity, and competing with rival states for prestige.","why":"Every exploration document you will read argues from one of these three, so it is the fastest sorting tool for a DBQ on motives.","heimler":true},{"t":"1.6","term":"Mercantilism","def":"An economic system that treats the world’s wealth as a fixed pie measured in gold and silver, so one state gains only when another loses.","why":"It made colonies a state project: a colony supplies raw materials and buys finished goods, keeping bullion at home.","heimler":true},{"t":"1.6","term":"Favorable balance of trade","def":"Selling more abroad than you buy from abroad, so that gold and silver flow into your country rather than out of it.","why":"It is the target every mercantilist policy aims at, and the reason states imposed steep tariffs on imports.","heimler":true},{"t":"1.6","term":"Reconquista","def":"The centuries-long campaign by Christian kingdoms to take the Iberian Peninsula from Muslim rule, completed by Spain in 1492.","why":"It left Spain with a crusading habit, an experienced military, and a religious justification it carried straight into the Americas.","heimler":true},{"t":"1.6","term":"Jesuits (Society of Jesus)","def":"A Catholic religious order whose members served as missionaries and teachers across the Americas, Asia, and Africa.","why":"They are the concrete example of Christianity as a stimulus for exploration — and, for some Europeans, as a justification for subjugating others.","heimler":true},{"t":"1.6","term":"Cartography","def":"Mapmaking — including practical sailing charts such as portolani, which recorded coastlines, ports, and compass bearings.","why":"Better maps turned a voyage from a gamble into a repeatable route, which is what makes sustained empire possible.","heimler":true},{"t":"1.6","term":"Caravel","def":"A small, fast, highly maneuverable Spanish and Portuguese ship designed for exploring unknown coasts and open ocean.","why":"It could sail closer to the wind and into shallow water, which is why Iberian crews could probe the African coast and cross the Atlantic.","heimler":true},{"t":"1.6","term":"Lateen rig","def":"A triangular sail that can catch wind coming from the side, not just from behind.","why":"It let ships sail against the prevailing wind, which is the difference between a one-way voyage and a return trip.","heimler":true},{"t":"1.6","term":"Sternpost rudder","def":"A rudder mounted on the ship’s centerline at the stern, steered from the deck, replacing side-mounted steering oars.","why":"It gave large ships reliable steering in heavy seas — unglamorous, but a precondition for ocean crossings.","heimler":false},{"t":"1.6","term":"Magnetic compass","def":"A magnetized needle that points north, borrowed from Chinese and Muslim navigators.","why":"It let sailors hold a true heading out of sight of land, on cloudy days when the stars were useless.","heimler":true},{"t":"1.6","term":"Astrolabe and quadrant","def":"Instruments that measure the angle between the horizon and the sun or a star, which converts into your latitude.","why":"Knowing latitude turned dead reckoning into real navigation, so a captain could find the same island twice.","heimler":true},{"t":"1.6","term":"Guns and gunpowder","def":"Cannon mounted on ships and firearms carried ashore, giving small European forces disproportionate firepower.","why":"Military technology, not numbers, is how tiny expeditions seized ports and toppled far larger states.","heimler":false},{"t":"1.7","term":"Trading post empire","def":"An empire built on a chain of fortified coastal ports used to tax, control, and protect trade rather than to settle and farm territory.","why":"Portugal’s model needed local partners and small garrisons, which is why it produced negotiation as often as conquest.","heimler":true},{"t":"1.7","term":"Settler colony","def":"A colony where large numbers of Europeans moved in permanently to live, farm, and build a new society on the land.","why":"England’s model needed land rather than trading partners, which is why its relations with indigenous peoples turned out so differently from France’s.","heimler":true},{"t":"1.7","term":"Treaty of Tordesillas","def":"A papal-brokered agreement drawing a north–south line through the Atlantic and dividing newly encountered lands between Spain and Portugal.","why":"It settled the first colonial rivalry by diplomacy instead of war — and it is why Brazil speaks Portuguese.","heimler":true},{"t":"1.7","term":"Asiento","def":"A license, granted by the Spanish crown, giving another country’s merchants the right to sell enslaved Africans in Spanish America.","why":"It made the slave trade itself a prize that European states fought and bargained over.","heimler":false},{"t":"1.7","term":"Colonial rivalry wars","def":"Conflicts fought partly over overseas trade and territory, above all the War of the Spanish Succession and the Seven Years’ War.","why":"They show competition for trade feeding back into European politics: empire abroad becomes war at home.","heimler":true},{"t":"1.8","term":"Columbian Exchange","def":"The transfer of plants, animals, people, cultural practices, and diseases between the Old World and the New World after 1492.","why":"It reorganized diets, populations, and economies on both sides of the Atlantic — the largest biological event in the course.","heimler":true},{"t":"1.8","term":"Great Dying","def":"The collapse of indigenous American populations — up to ninety percent in some places — after exposure to Old World diseases like smallpox and measles.","why":"Disease, not weaponry, is the main reason small Spanish forces could topple the Aztec and Inca empires.","heimler":true},{"t":"1.8","term":"Encomienda","def":"A Spanish system that legally allowed a colonist to extract tribute and forced labor from a group of indigenous people in exchange for “protecting” and Christianizing them.","why":"It degenerated into something close to slavery, and its collapse is one reason Spain turned to enslaved African labor.","heimler":true},{"t":"1.8","term":"Casta system","def":"The Spanish colonial social hierarchy that ranked people by race and place of birth, with peninsular-born Spaniards at the top.","why":"It shows colonization producing a whole new social order, not just an economic one.","heimler":true},{"t":"1.8","term":"Atlantic port cities","def":"Ports such as Antwerp, Amsterdam, London, and Bristol that grew rich handling transatlantic and Asian trade.","why":"Their rise marks the shift of Europe’s economic center from the Mediterranean to the Atlantic seaboard.","heimler":true},{"t":"1.9","term":"Plantation economy","def":"A colonial economy built on large estates that grow one or two export crops using large amounts of coerced labor.","why":"Once planters found that export crops beat mineral extraction for profit, the demand for enslaved labor became permanent and enormous.","heimler":true},{"t":"1.9","term":"Cash crop","def":"A crop grown not to feed the people who raise it but to be sold abroad for profit — above all sugarcane, coffee, and tobacco.","why":"Cash crops are what tie European consumer appetite directly to forced labor in the Americas.","heimler":true},{"t":"1.9","term":"Middle Passage","def":"The two-to-six-week Atlantic crossing on which enslaved Africans were shipped to the Americas in inhuman, overcrowded conditions.","why":"It names the human cost of the plantation system and is the single most common document set for this topic.","heimler":true},{"t":"1.9","term":"Planter society","def":"The social world of the colonial plantation zone: a small, wealthy landowning class ruling over a large enslaved majority.","why":"It shows the slave trade producing not just an economy but a rigid, racially ordered society that outlasts the trade itself.","heimler":false},{"t":"1.10","term":"Commercial Revolution","def":"The sixteenth-century shift in which money, rather than land, became the most desirable form of wealth in Europe.","why":"It is the hinge between a feudal economy and a capitalist one, and it reshuffles who holds social and political power.","heimler":true},{"t":"1.10","term":"Money economy","def":"An economy in which goods, services, and wages are paid for in cash rather than in labor service, crops, or barter.","why":"Cash made banks necessary, and bankers who lent to kings converted their loans into real political influence.","heimler":true},{"t":"1.10","term":"Double-entry bookkeeping","def":"An accounting method that records every transaction twice — debits in one column, credits in another — so the books must balance.","why":"It let merchants track profit accurately across long-distance ventures, which is what made large-scale investment safe enough to attempt.","heimler":true},{"t":"1.10","term":"Bank of Amsterdam","def":"A public bank founded in Amsterdam that held deposits, settled payments between merchants, and standardized coinage.","why":"It made Amsterdam the financial capital of Europe and is the clearest example of a new urban financial center.","heimler":true},{"t":"1.10","term":"Joint-stock company","def":"A private company funded by many investors who buy shares, split the profits, and share the losses — the Dutch and British East India Companies are the models.","why":"Spreading risk across many investors is what made voyages nobody could afford alone into routine business.","heimler":true},{"t":"1.10","term":"Dutch East India Company","def":"A joint-stock company chartered by Dutch investors to run trade, forts, and shipping in the Indian Ocean and East Indies.","why":"A private corporation with an army and treaty power shows commerce, not just the crown, driving empire.","heimler":true},{"t":"1.10","term":"Price Revolution","def":"A steady rise in prices lasting roughly a century and a half, driven largely by American silver from mines such as Potosí pouring into Europe.","why":"Prices rose faster than wages, so it enriched landowners and merchants while cutting living standards for wage earners.","heimler":true},{"t":"1.10","term":"Capitalism","def":"An economic system in which the means of production are owned by private individuals rather than by the state, and goods trade freely between owners.","why":"It is what replaces feudalism as the organizing logic of European economic life during this period.","heimler":true},{"t":"1.10","term":"Commercialization of agriculture","def":"Treating farmland as an investment meant to generate profit rather than as a way for a household to feed itself.","why":"It is the moment land stops being about subsistence and starts being a business, which pushes peasants off it.","heimler":true},{"t":"1.10","term":"Enclosure movement","def":"English legislation letting investors buy up and fence common land, ending village rights to graze and gather on it.","why":"Yields and profits rose for large landowners while peasants lost the village common and often fell into poverty and migration.","heimler":true},{"t":"1.10","term":"Subsistence agriculture","def":"Farming that produces only what a household needs to survive, with little or nothing left to sell.","why":"This was still how most Europeans lived, which is the counterweight to every story about Renaissance wealth.","heimler":true},{"t":"1.10","term":"Three-field and two-field rotation","def":"Leaving part of the farmland unplanted, or fallow, each season to restore the soil — two fields in the Mediterranean, three in the north.","why":"It was the standard answer to soil exhaustion, and the northern three-field version fed more people, which matters for population growth.","heimler":true},{"t":"1.10","term":"Serfdom","def":"A legal condition binding peasants to a lord’s estate, owing rent and labor service and unable to leave without permission.","why":"Western Europe moved toward a free peasantry while eastern nobles codified serfdom — the sharpest east–west contrast in the unit.","heimler":true},{"t":"1.10","term":"Peasant revolt","def":"An armed uprising by rural people against landlords who restricted or abolished their traditional rights.","why":"It is the predictable result when lords squeeze peasants to raise revenue, and it shows ordinary people acting on the economic changes above them.","heimler":true},{"t":"1.10","term":"Nobles of the robe","def":"French officials who were not born noble but bought their way into the nobility by purchasing government offices.","why":"They are the new economic elite in visible form: money converting directly into legal status and political power.","heimler":true},{"t":"1.10","term":"European marriage pattern","def":"The habit, from the late sixteenth century on, of marrying later and having fewer children in response to hard economic and environmental conditions.","why":"Later marriage restrained population growth and eventually improved family finances, but it also meant more miscarriages and higher infant mortality.","heimler":true},{"t":"1.10","term":"Little Ice Age","def":"A long stretch of colder-than-usual weather that shortened growing seasons and caused repeated harvest failures across Europe.","why":"Climate is a cause here: scarcity and malnutrition are what pushed Europeans toward smaller families and later marriage.","heimler":true},{"t":"1.10","term":"Urban migration","def":"The movement of rural people into cities looking for work as commercial agriculture pushed them off the land.","why":"Newcomers strained housing, sanitation, and jobs, and challenged the merchant elites and craft guilds who governed the towns.","heimler":true}],"figures":[{"t":"1.2","name":"Petrarch","work":"—","what":"Italian poet and scholar who hunted down forgotten classical manuscripts and built the philosophy of humanism, taking Cicero as his model for elegant Latin.","why":"Called the father of the Renaissance; the CED dates him before 1450, so he is the context the whole unit grows out of.","heimler":true},{"t":"1.2","name":"Cicero","work":"—","what":"Roman orator and statesman whose speeches and letters became the humanists’ standard for good Latin prose and for public service.","why":"He is the specific ancient model humanists copied, which is why the classical revival produced civic, political writing rather than only religious writing.","heimler":true},{"t":"1.2","name":"Lorenzo Valla","work":"—","what":"Humanist who applied philology to famous documents and demonstrated that texts the Church treated as authoritative were forgeries.","why":"He proved that evidence could overturn institutional authority — the intellectual move that later reformers and scientists reuse.","heimler":true},{"t":"1.2","name":"Marsilio Ficino","work":"Latin translations of Plato","what":"Florentine scholar, funded by the Medici, who translated Plato’s complete works into Latin and led a circle devoted to them.","why":"He made Greek philosophy directly readable in the West, broadening humanism beyond Latin literature.","heimler":false},{"t":"1.2","name":"Pico della Mirandola","work":"Oration on the Dignity of Man","what":"Humanist who argued that human beings occupy a unique place in creation because they can choose what to become.","why":"The clearest single statement of Renaissance individualism and human potential.","heimler":false},{"t":"1.2","name":"Leonardo Bruni","work":"The New Cicero","what":"Florentine humanist and chancellor who argued that an educated man is duty-bound to use his learning in service to the state.","why":"He is the definition of civic humanism in one career: scholarship turned into public office.","heimler":true},{"t":"1.2","name":"Leon Battista Alberti","work":"On Painting","what":"Humanist, architect, and theorist who wrote the first systematic explanation of geometric perspective and designed buildings on classical models.","why":"He links the two halves of the Renaissance — the revival of ancient texts and the new technical realism in art.","heimler":false},{"t":"1.2","name":"Niccolò Machiavelli","work":"The Prince","what":"Florentine official who described how rulers actually seize and hold power, arguing that a ruler’s goal is to maintain power at all costs.","why":"The first major secular model of political behavior; he also appears in Topic 1.5 as a theorist of the secular state and a champion of republicanism.","heimler":true},{"t":"1.2","name":"Baldassare Castiglione","work":"The Book of the Courtier","what":"Diplomat who described the ideal Renaissance man: skilled in every humanistic discipline, eloquent, physically strong, and mentally sharp.","why":"It set the behavioral standard for European elites for two centuries — humanism turned into manners and self-presentation.","heimler":true},{"t":"1.2","name":"Francesco Guicciardini","work":"History of Italy","what":"Florentine statesman and historian who explained politics through evidence, self-interest, and cause and effect rather than divine will.","why":"He shows humanist method applied to history writing, producing a recognizably modern kind of political analysis.","heimler":false},{"t":"1.2","name":"Michelangelo","work":"David; Sistine Chapel ceiling","what":"Sculptor and painter whose work combined classical anatomy with religious subject matter on an enormous scale.","why":"Commissioned by popes and Florentine leaders, his work is the model case of art used to enhance a patron’s prestige.","heimler":true},{"t":"1.2","name":"Donatello","work":"David (bronze)","what":"Sculptor who revived the free-standing nude figure, a form not attempted since antiquity.","why":"His work is the earliest clear proof that classical models were being copied in three dimensions, not just read about.","heimler":false},{"t":"1.2","name":"Raphael","work":"The School of Athens","what":"Painter whose work is the textbook display of geometric perspective, balance, and classical subject matter.","why":"Painted inside the Vatican, it shows popes commissioning openly classical, philosophical art for their own prestige.","heimler":true},{"t":"1.2","name":"Filippo Brunelleschi","work":"Dome of the Florence Cathedral","what":"Architect and engineer who solved the problem of roofing Florence’s cathedral and is credited with working out linear perspective.","why":"His dome is the Renaissance advertising itself: classical engineering rediscovered and paid for by a city’s pride.","heimler":true},{"t":"1.2","name":"Andrea Palladio","work":"The Four Books of Architecture","what":"Architect who designed villas on strict classical proportions and published the rules so anyone could copy them.","why":"Printing plus his handbook exported Renaissance architecture across Europe and later to America.","heimler":false},{"t":"1.2","name":"Leonardo da Vinci","work":"The Last Supper; Mona Lisa; notebooks","what":"Painter, engineer, and anatomist who studied the natural world directly and recorded it in thousands of pages of notes and drawings.","why":"He is the standing example of Renaissance naturalism and observation — art and scientific inquiry treated as the same activity.","heimler":false},{"t":"1.2","name":"The Medici family","work":"—","what":"The banking family that effectively ran Florence and paid for artists, architects, and scholars on a massive scale.","why":"No patrons, no Renaissance; they also show commercial wealth converting straight into political power (Topic 1.5).","heimler":true},{"t":"1.3","name":"Erasmus","work":"The Praise of Folly; the Philosophy of Christ","what":"Dutch scholar who edited the Greek New Testament and argued that education in the classics and the Bible was the first step to reforming society.","why":"The most important Christian humanist; his critique of church corruption is what Unit 2 builds on — hence “Erasmus laid the egg that Luther hatched.”","heimler":true},{"t":"1.3","name":"Pieter Bruegel the Elder","work":"Peasant Wedding; Hunters in the Snow","what":"Flemish painter who made peasants, harvests, and village festivals the main subject of large, serious paintings.","why":"He is the proof that the Northern Renaissance treated everyday life as worth painting, unlike Italy’s gods and princes.","heimler":true},{"t":"1.3","name":"Rembrandt","work":"The Night Watch","what":"Dutch painter known for dramatic light and unflinching, deeply human portraits, including of ordinary citizens.","why":"His work shows northern naturalism at its peak and a market where merchants, not popes, commissioned the art.","heimler":true},{"t":"1.4","name":"Johannes Gutenberg","work":"Gutenberg Bible (1456)","what":"German printer who developed movable-type printing in Europe in the 1450s and used it to produce the first major printed book.","why":"Every later mass movement in this course — the Reformation included — depends on the technology he made practical.","heimler":true},{"t":"1.5","name":"Henry VIII","work":"Treason Act; Church of England","what":"King of England who broke with Rome, made himself head of the English church, and made denying that a capital crime.","why":"The textbook new monarch: religious reform imposed from the top to seize authority and revenue.","heimler":true},{"t":"1.5","name":"Mary Tudor","work":"—","what":"Queen of England who tried to force the country back to Catholicism and persecuted Anglican clergy.","why":"Her reign shows how personal a state religion had become — change the monarch, change the official faith.","heimler":true},{"t":"1.5","name":"Elizabeth I","work":"Act of Uniformity","what":"Queen of England who ended the persecution of Anglican bishops, steered England back to Anglicanism, and required weekly attendance at Anglican services.","why":"She stabilized top-down religious reform by enforcing outward conformity rather than policing private belief.","heimler":true},{"t":"1.5","name":"Ferdinand and Isabella","work":"Spanish Inquisition","what":"Monarchs whose marriage united Spain; they built a national tax system and bureaucracy, took control of the military, and completed the Reconquista.","why":"They assembled every tool of the new monarchy at once, which is why Spain could fund and dominate early overseas expansion.","heimler":true},{"t":"1.5","name":"Francis I","work":"Concordat of Bologna","what":"King of France who negotiated with the pope for royal control over French church appointments and revenue.","why":"He shows a monarch gaining religious power by agreement rather than by breaking with Rome.","heimler":true},{"t":"1.5","name":"Pope Leo X","work":"Concordat of Bologna","what":"Pope who conceded French royal control over church appointments in exchange for French recognition of papal authority.","why":"The papacy trading institutional power for political security is a running theme of this period.","heimler":true},{"t":"1.5","name":"Jean Bodin","work":"Six Books of the Commonwealth","what":"French jurist who defined sovereignty as absolute, undivided authority and argued kings rule by divine right.","why":"He supplies the theoretical case for absolutism that later French monarchs will act on.","heimler":true},{"t":"1.5","name":"Hugo Grotius","work":"On the Law of War and Peace","what":"Dutch jurist who argued that relations between states are governed by natural law binding on everyone, Christian or not.","why":"He founds international law — a secular legal system for a Europe of sovereign states.","heimler":false},{"t":"1.5","name":"The Fugger family","work":"—","what":"Banking dynasty of Augsburg that financed emperors and kings, including imperial elections.","why":"Along with the Medici, they show commercial and professional groups converting credit into real political influence.","heimler":true},{"t":"1.6","name":"Jean-Baptiste Colbert","work":"French mercantilist policy","what":"France’s controller general, who abolished domestic tariffs, taxed imports heavily to protect French industry, and pushed French claims in Quebec and Louisiana.","why":"The clearest single example of mercantilism as deliberate state policy rather than a vague economic mood.","heimler":true},{"t":"1.6","name":"Bartolomé de las Casas","work":"—","what":"Dominican priest and former colonist who documented Spanish brutality and argued publicly for the rights of indigenous Americans.","why":"He shows that European justifications for conquest were contested at the time, which makes him a standard sourcing document.","heimler":true},{"t":"1.7","name":"Prince Henry the Navigator","work":"—","what":"Portuguese prince who sponsored and organized voyages steadily further down the West African coast.","why":"State-funded, systematic exploration starts with him — Portugal’s head start is deliberate policy, not luck.","heimler":true},{"t":"1.7","name":"Vasco da Gama","work":"—","what":"Portuguese explorer who rounded the southern tip of Africa and reached the Indian Ocean by sea.","why":"He cut the Ottoman-controlled land routes out of the spice trade, which is the whole economic point of exploration.","heimler":true},{"t":"1.7","name":"Christopher Columbus","work":"—","what":"Genoese captain hired by Spain to reach Indian Ocean trade by sailing west; he reached the Caribbean instead.","why":"His voyages open the Americas to Spanish colonization and start the Columbian Exchange.","heimler":true},{"t":"1.7","name":"Samuel de Champlain","work":"—","what":"French explorer who founded Quebec in 1608 as France’s first permanent North American settlement.","why":"France built a trade-and-alliance empire, working with groups such as the Huron Confederacy rather than displacing them.","heimler":true}],"timeline":[{"y":"pre-1450","e":"Petrarch revives classical literature and defines humanism","t":"1.2","why":"The CED places Petrarch before the unit even opens, which is why the Renaissance is already under way at 1450.","heimler":true},{"y":"c. 1450","e":"Unit 1 opens: Renaissance ideas are spreading through the wealthy Italian city-states","t":"1.1","why":"The CED’s starting boundary; everything in this unit is measured against the medieval world it grew out of.","heimler":false},{"y":"1450s","e":"Johannes Gutenberg develops printing with movable type in Europe","t":"1.4","why":"The CED dates the invention to this decade and credits it with carrying the Renaissance beyond Italy.","heimler":true},{"y":"1456","e":"Gutenberg prints the Gutenberg Bible","t":"1.4","why":"The first major printed book — proof the technology worked at scale, and the start of cheap mass circulation of ideas.","heimler":true},{"y":"15th c.","e":"Portuguese ships push down the African coast under Prince Henry the Navigator","t":"1.7","why":"Portugal’s state-sponsored voyages are the beginning of European maritime empire building.","heimler":true},{"y":"1492","e":"Spain completes the Reconquista, expelling Jews and Muslims","t":"1.6","why":"Heimler supplies this date; it leaves Spain with a crusading motive and a veteran military just as it turns to the Atlantic.","heimler":true},{"y":"1492","e":"Columbus sails west for Spain and reaches the Caribbean","t":"1.7","why":"The voyage that opens the Americas to Spain and sets the Columbian Exchange in motion.","heimler":true},{"y":"1494","e":"Treaty of Tordesillas divides newly encountered lands between Spain and Portugal","t":"1.7","why":"The first colonial rivalry settled by diplomacy rather than war; neither the CED nor Heimler gives the exact year.","heimler":true},{"y":"1498","e":"Vasco da Gama rounds Africa and reaches the Indian Ocean","t":"1.7","why":"A sea route to Asia bypasses the Ottoman-controlled land routes and breaks the Mediterranean monopoly on spices.","heimler":true},{"y":"late 15th–16th c.","e":"Portugal builds a trading-post empire along Africa, South and East Asia, and South America","t":"1.8","why":"The CED dates this network to the late 1400s and across the 1500s; it is the model rival empires copy.","heimler":true},{"y":"1516","e":"Concordat of Bologna: Francis I and Pope Leo X settle church control in France","t":"1.5","why":"A new monarch gains authority over his national church by negotiation instead of rupture.","heimler":true},{"y":"1519–33","e":"Spanish conquest of the Aztec and Inca empires sends gold and silver to Spain","t":"1.8","why":"Bullion from the Americas is what makes Spain the dominant European state of the sixteenth century.","heimler":true},{"y":"16th c.","e":"The Columbian Exchange and the Great Dying reshape both hemispheres","t":"1.8","why":"Disease kills up to ninety percent of some indigenous populations, creating the labor shortage that drives the slave trade.","heimler":true},{"y":"16th c.","e":"Population recovers to its pre-plague level; food prices rise faster than wages","t":"1.10","why":"The CED ties population pressure directly to uneven price increases and falling living standards for wage earners.","heimler":false},{"y":"1534","e":"Henry VIII makes himself head of the Church of England; the Treason Act follows","t":"1.5","why":"Top-down religious reform used to seize both spiritual authority and church revenue for the crown.","heimler":true},{"y":"mid-1500s","e":"Silver from Potosí floods Europe and touches off the Price Revolution","t":"1.10","why":"A century and a half of rising prices that enriched landowners and merchants while wages fell behind.","heimler":true},{"y":"mid-1500s","e":"Bartolomé de las Casas argues publicly for the rights of indigenous Americans","t":"1.6","why":"Proof that Europeans debated the morality of conquest while it was happening — useful for sourcing and for complexity.","heimler":true},{"y":"1555","e":"Peace of Augsburg lets each Holy Roman ruler choose Catholic or Lutheran for his subjects","t":"1.5","why":"Written proof that the right to determine a territory’s religion now belongs to the ruler.","heimler":true},{"y":"1559","e":"Elizabeth I restores Anglicanism and enforces the Act of Uniformity","t":"1.5","why":"Religious conformity enforced by fine rather than by fire — stability through state management of religion.","heimler":true},{"y":"1598","e":"Edict of Nantes grants French Protestants limited toleration","t":"1.5","why":"Toleration granted as royal policy to buy political stability, not as a principle of conscience.","heimler":false},{"y":"late 16th c. on","e":"Europeans respond to the Little Ice Age by marrying later and having fewer children","t":"1.10","why":"The CED dates the European marriage pattern from here; climate and scarcity reshape family life across the continent.","heimler":true},{"y":"late 16th–17th c.","e":"Serfdom is codified in eastern Europe while western peasants move toward freedom","t":"1.10","why":"The single sharpest east–west contrast in the unit, and a favorite comparison prompt.","heimler":true},{"y":"1600–02","e":"Dutch and English merchants charter joint-stock East India companies","t":"1.10","why":"Private investors, not just crowns, now fund and govern overseas empire.","heimler":true},{"y":"1608","e":"Samuel de Champlain founds Quebec","t":"1.7","why":"France’s first permanent North American settlement and the base of a trade-and-alliance empire.","heimler":true},{"y":"1609","e":"The Bank of Amsterdam opens and double-entry bookkeeping spreads through Amsterdam, Genoa, and London","t":"1.10","why":"Urban financial centers replace Mediterranean ports as the engine of the European economy.","heimler":true},{"y":"17th c.","e":"France, England, and the Netherlands plant colonies to challenge Spain and Portugal","t":"1.7","why":"The CED marks this century as the moment the Atlantic states break Iberian dominance.","heimler":true},{"y":"17th–18th c.","e":"Competition for trade erupts into war: the War of the Spanish Succession and the Seven Years’ War","t":"1.7","why":"The CED explicitly extends this topic past 1648 to show where colonial rivalry ends up.","heimler":true},{"y":"c. 1648","e":"Unit 1 closes; Europe of sovereign, competing states is in place","t":"1.11","why":"The CED’s ending boundary and the setup for the causation argument students must build in Topic 1.11.","heimler":false}],"objectives":[{"letter":"A","text":"Explain the context in which the Renaissance and Age of Discovery developed.","topics":["1.1"]},{"letter":"B","text":"Explain how the revival of classical texts contributed to the development of the Renaissance in Italy.","topics":["1.2"]},{"letter":"C","text":"Explain the political, intellectual, and cultural effects of the Italian Renaissance.","topics":["1.2"]},{"letter":"D","text":"Explain how Renaissance ideas were developed, maintained, and changed as the Renaissance spread to northern Europe.","topics":["1.3"]},{"letter":"E","text":"Explain the influence of the printing press on cultural and intellectual developments in modern European history.","topics":["1.4"]},{"letter":"F","text":"Explain the causes and effects of the development of political institutions from 1450 to 1648.","topics":["1.5"]},{"letter":"G","text":"Explain the technological factors that facilitated European exploration and expansion from 1450 to 1648.","topics":["1.6"]},{"letter":"H","text":"Explain the motivations for and effects of European exploration and expansion from 1450 to 1648.","topics":["1.6"]},{"letter":"I","text":"Explain how and why trading networks and colonial expansion affected relations between and among European states.","topics":["1.7"]},{"letter":"J","text":"Explain the economic impact of European colonial expansion and development of trade networks.","topics":["1.8"]},{"letter":"K","text":"Explain the social and cultural impact of European colonial expansion and development of trade networks.","topics":["1.8"]},{"letter":"L","text":"Explain the causes for and the development of the slave trade.","topics":["1.9"]},{"letter":"M","text":"Explain European commercial and agricultural developments and their economic effects from 1450 to 1648.","topics":["1.10"]},{"letter":"N","text":"Explain European commercial and agricultural developments and their social effects from 1450 to 1648.","topics":["1.10"]},{"letter":"O","text":"Explain the causes and consequences of the Renaissance and Age of Discovery.","topics":["1.11"]}],"keyConcepts":[{"kc":"KC-1.1","text":"The rediscovery of works from ancient Greece and Rome and observation of the natural world changed many Europeans’ view of their world.","subs":[{"kc":"KC-1.1.I","text":"A revival of classical texts led to new methods of scholarship and new values in both society and religion.","ex":[]},{"kc":"KC-1.1.I.A","text":"Italian Renaissance humanists, including Petrarch, promoted a revival in classical literature and created new philological approaches to ancient texts. Some Renaissance humanists furthered the values of secularism and individualism.","ex":["Petrarch (pre-1450)","Lorenzo Valla","Marsilio Ficino","Pico della Mirandola"]},{"kc":"KC-1.1.I.B","text":"Humanist revival of Greek and Roman texts, spread by the printing press, challenged the institutional power of universities and the Catholic Church. This shifted education away from a primary focus on theological writings toward classical texts and new methods of scientific inquiry.","ex":["Leonardo Bruni","Leon Battista Alberti","Niccolò Machiavelli"]},{"kc":"KC-1.1.I.C","text":"Admiration for Greek and Roman political institutions supported a revival of civic humanist culture in the Italian city-states and produced secular models for individual and political behavior.","ex":["Niccolò Machiavelli","Baldassare Castiglione","Francesco Guicciardini"]},{"kc":"KC-1.1.II","text":"The invention of printing promoted the dissemination of new ideas.","ex":[]},{"kc":"KC-1.1.II.A","text":"The invention of the printing press in the 1450s helped spread the Renaissance beyond Italy and encouraged the growth of vernacular literature, which would eventually contribute to the development of national cultures.","ex":[]},{"kc":"KC-1.1.III","text":"The visual arts incorporated the new ideas of the Renaissance and were used to promote personal, political, and religious goals.","ex":[]},{"kc":"KC-1.1.III.A","text":"In the Italian Renaissance, rulers and popes concerned with enhancing their prestige commissioned paintings and architectural works based on classical styles, the developing “naturalism” in the artistic world, and often the newly invented technique of geometric perspective.","ex":["Michelangelo","Donatello","Raphael","Andrea Palladio","Leon Battista Alberti","Filippo Brunelleschi"]},{"kc":"KC-1.1.III.B","text":"The Northern Renaissance retained a more religious focus, which resulted in more human-centered naturalism that considered individuals and everyday life appropriate objects of artistic representation.","ex":["Pieter Bruegel the Elder","Rembrandt"]}]},{"kc":"KC-1.2","text":"Religious pluralism challenged the concept of a unified Europe.","subs":[{"kc":"KC-1.2.I","text":"The Protestant and Catholic reformations fundamentally changed theology, religious institutions, culture, and attitudes toward wealth and prosperity.","ex":[]},{"kc":"KC-1.2.I.A","text":"Christian humanism, embodied in the writings of Erasmus, employed Renaissance learning in the service of religious reform.","ex":[]},{"kc":"KC-1.2.II","text":"Religious reform both increased state control of religious institutions and provided justifications for challenging state authority.","ex":[]},{"kc":"KC-1.2.II.A","text":"Monarchs and princes, including the English rulers Henry VIII and Elizabeth I, initiated religious reform from the top down in an effort to exercise greater control over religious life and morality.","ex":["Spanish Inquisition","Concordat of Bologna","Book of Common Prayer","Peace of Augsburg"]}]},{"kc":"KC-1.3","text":"Europeans explored and settled overseas territories, encountering and interacting with indigenous populations.","subs":[{"kc":"KC-1.3.I","text":"European nations were driven by commercial and religious motives to explore overseas territories and establish colonies.","ex":[]},{"kc":"KC-1.3.I.A","text":"European states sought direct access to gold, spices, and luxury goods to enhance personal wealth and state power.","ex":["Spanish in the New World","Portuguese in the Indian Ocean World","Dutch in the East Indies/Asia"]},{"kc":"KC-1.3.I.B","text":"The rise of mercantilism gave the state a new role in promoting commercial development and the acquisition of colonies overseas.","ex":["Jean-Baptiste Colbert"]},{"kc":"KC-1.3.I.C","text":"Christianity was a stimulus for exploration as governments and religious authorities sought to spread the faith, and for some it served as a justification for the subjugation of indigenous civilizations.","ex":["Jesuit activities"]},{"kc":"KC-1.3.II","text":"Advances in navigation, cartography, and military technology enabled Europeans to establish overseas colonies and empires.","ex":["Compass","Sternpost rudder","Portolani","Quadrant and astrolabe","Lateen rig","Guns and gunpowder"]},{"kc":"KC-1.3.III","text":"Europeans established overseas empires and trade networks through coercion and negotiation.","ex":[]},{"kc":"KC-1.3.III.A","text":"The Portuguese established a commercial network along the African coast, in South and East Asia, and in South America in the late 15th and throughout the 16th centuries.","ex":[]},{"kc":"KC-1.3.III.B","text":"The Spanish established colonies across the Americas, the Caribbean, and the Pacific, which made Spain a dominant state in Europe in the 16th century.","ex":[]},{"kc":"KC-1.3.III.C","text":"The Atlantic nations of France, England, and the Netherlands followed by establishing their own colonies and trading networks to compete with Portuguese and Spanish dominance in the 17th century.","ex":[]},{"kc":"KC-1.3.III.D","text":"The competition for trade led to conflicts and rivalries among European powers in the 17th and 18th centuries.","ex":["Asiento","War of the Spanish Succession","Seven Years’ War","Treaty of Tordesillas"]},{"kc":"KC-1.3.IV.i","text":"Europe’s colonial expansion led to a global exchange of goods, flora, and fauna; a shift toward European dominance; and the expansion of the trade in enslaved persons.","ex":[]},{"kc":"KC-1.3.IV.ii","text":"Europe’s colonial expansion led to a global exchange of goods, flora, fauna, cultural practices, and diseases, resulting in the destruction of some indigenous civilizations, a shift toward European dominance, and the expansion of the trade in enslaved persons.","ex":[]},{"kc":"KC-1.3.IV.A","text":"The exchange of goods shifted the center of economic power in Europe from the Mediterranean to the Atlantic states and brought the latter into an expanding world economy.","ex":["London","Bristol","Amsterdam","Antwerp"]},{"kc":"KC-1.3.IV.B.i","text":"The exchange of new plants, animals, and diseases—the Columbian Exchange—created economic opportunities for Europeans.","ex":["Tomatoes (Americas to Europe)","Potatoes (Americas to Europe)","Squash (Americas to Europe)","Corn (Americas to Europe)","Tobacco (Americas to Europe)","Turkeys (Americas to Europe)"]},{"kc":"KC-1.3.IV.B.ii","text":"The exchange of new plants, animals, and diseases—the Columbian Exchange—in some cases facilitated European subjugation and destruction of indigenous peoples, particularly in the Americas.","ex":["Wheat (Europe to the Americas)","Cattle (Europe to the Americas)","Horses (Europe to the Americas)","Pigs (Europe to the Americas)","Sheep (Europe to the Americas)","Smallpox (Europe to the Americas)","Measles (Europe to the Americas)"]},{"kc":"KC-1.3.IV.C","text":"Europeans expanded the trade of enslaved Africans in response to the establishment of a plantation economy in the Americas and demographic catastrophes among indigenous peoples.","ex":["Middle Passage","Planter society"]}]},{"kc":"KC-1.4","text":"European society and the experiences of everyday life were increasingly shaped by commercial and agricultural capitalism, notwithstanding the continued existence of medieval social and economic structures.","subs":[{"kc":"KC-1.4.I","text":"Economic change produced new social patterns, while traditions of hierarchy and status continued.","ex":[]},{"kc":"KC-1.4.I.A","text":"Innovations in banking and finance promoted the growth of urban financial centers and a money economy.","ex":["Double-entry bookkeeping","Bank of Amsterdam","The Dutch East India Company","The British East India Company"]},{"kc":"KC-1.4.I.B","text":"The growth of commerce produced a new economic elite, which related to traditional land-holding elites in different ways in Europe’s various geographic regions.","ex":["Italian merchant princes","Nobles of the robe in France"]},{"kc":"KC-1.4.II","text":"Most Europeans derived their livelihood from agriculture and oriented their lives around the seasons, the village, or the manor, although economic changes began to alter rural production and power.","ex":[]},{"kc":"KC-1.4.II.A","text":"Subsistence agriculture was the rule in most areas, with three-crop field rotation in the north and two-crop rotation in the Mediterranean; in many cases, farmers paid rent and labor services for their lands.","ex":[]},{"kc":"KC-1.4.II.B","text":"The price revolution contributed to the accumulation of capital and the expansion of the market economy through the commercialization of agriculture, which benefited large landowners in western Europe.","ex":["Enclosure movement","Restricted use of the village common","Freehold tenure"]},{"kc":"KC-1.4.II.C","text":"As western Europe moved toward a free peasantry and commercial agriculture, serfdom was codified in the east, where nobles continued to dominate economic life on large estates.","ex":[]},{"kc":"KC-1.4.II.D","text":"The attempts of landlords to increase their revenues by restricting or abolishing the traditional rights of peasants led to revolt.","ex":[]},{"kc":"KC-1.4.III","text":"Population shifts and growing commerce caused the expansion of cities, which often placed stress on their traditional political and social structures.","ex":[]},{"kc":"KC-1.4.III.A","text":"Population recovered to its pre-Great Plague level in the 16th century, and continuing population pressures contributed to uneven price increases; agricultural commodities increased more sharply than wages, reducing living standards for some.","ex":[]},{"kc":"KC-1.4.III.B","text":"Migrants to the cities challenged the ability of merchant elites and craft guilds to govern, and strained resources.","ex":["Sanitation problems caused by overpopulation","Employment","Poverty","Crime"]},{"kc":"KC-1.4.IV","text":"The family remained the primary social and economic institution of early modern Europe and took several forms, including the nuclear family.","ex":[]},{"kc":"KC-1.4.IV.C","text":"From the late 16th century on, Europeans responded to economic and environmental challenges, such as the Little Ice Age, by delaying marriage and childbearing. This European marriage pattern restrained population growth and ultimately improved the economic condition of families.","ex":[]}]},{"kc":"KC-1.5","text":"The struggle for sovereignty within and among states resulted in varying degrees of political centralization.","subs":[{"kc":"KC-1.5.I","text":"The new concept of the sovereign state and secular systems of law played a central role in the creation of new political institutions.","ex":[]},{"kc":"KC-1.5.I.A","text":"New monarchies laid the foundation for the centralized modern state by establishing monopolies on tax collection, employing military force, dispensing justice, and gaining the right to determine the religion of their subjects.","ex":["Ferdinand and Isabella of Spain consolidating control of the military","Star Chamber","Concordat of Bologna","Peace of Augsburg","Edict of Nantes"]},{"kc":"KC-1.5.I.C","text":"Across Europe, commercial and professional groups gained in power and played a greater role in political affairs.","ex":["Merchants and financiers in Renaissance Italy and northern Europe","Nobles of the robe in France"]},{"kc":"KC-1.5.I.D","text":"Continued political fragmentation in Renaissance Italy provided a background for the development of new concepts of the secular state.","ex":["Jean Bodin","Hugo Grotius","Niccolò Machiavelli"]}]}],"context":[{"label":"The Black Death emptied Europe","kind":"before","text":"Between 1347 and 1351 plague killed roughly a third of Europe’s people, and outbreaks kept returning for a century. So many workers died that survivors could demand higher wages and better terms, which weakened the grip lords had over peasants. Land sat empty and rents fell, so nobles lost income while ordinary people gained bargaining power. When you write context for Unit 1, this is the shock that loosened medieval society before anything new could grow in it."},{"label":"The Church lost its aura of authority","kind":"before","text":"From 1378 to 1417 the Great Schism split the Catholic Church between rival popes, each one excommunicating the other. Ordinary Christians watched churchmen fight over power and money, and many concluded the institution needed reform. Councils of bishops tried to fix the papacy, which raised a dangerous question: is a council higher than a pope? That damaged trust is why humanist scholars felt free to check the Church’s documents — and why Christian humanists like Erasmus called for reform."},{"label":"Feudalism and the manor ran daily life","kind":"before","text":"Medieval Europe was organized by land and loyalty: kings granted land to nobles, nobles owed military service, and peasants worked the land in exchange for protection. Under manorialism, most peasants lived on a manor — a large estate controlled by a lord — farming strips in open fields and owing rent and labor. Kings were often weaker than the great nobles who supplied their soldiers. Long wars like the Hundred Years’ War (1337–1453) pushed rulers to build taxes and standing armies of their own, which is exactly what the New Monarchies would do."},{"label":"The Church was the center of everything","kind":"before","text":"Before 1450 the Catholic Church was the largest landowner in Europe, ran the courts that handled marriage and wills, collected its own taxes, and supplied nearly all education. Salvation came through the sacraments, and life was measured by the Church calendar. Art existed mostly to teach religion, using gold backgrounds and symbols rather than realistic space. Every “new” idea in Unit 1 — secularism, individualism, printing, sovereign states — is new precisely because it pushed against this."},{"label":"Scholasticism and the medieval university","kind":"before","text":"Medieval learning was dominated by scholasticism, a method that used logic to reconcile Christian theology with Aristotle. Universities like Paris and Bologna trained clergy, lawyers, and doctors, and Latin theology sat at the top of the ladder. Books were copied by hand, so a scholar might see only the texts his university owned. Humanists attacked this system by going back to the original Greek and Roman sources — that is what KC-1.1.I.B means when it says humanism “challenged the institutional power of universities and the Catholic Church.”"},{"label":"Italian city-states were already rich","kind":"before","text":"Venice, Florence, Genoa, and Milan had grown wealthy for centuries as middlemen in Mediterranean trade, moving spices and silk from Muslim merchants into Europe. That money built banking families like the Medici, who ran Florence without being kings. Italy was not one country but a set of competing city-states, republics, and papal lands. Wealth plus competition plus no strong monarchy is why the Renaissance started there and why patronage — rich men paying artists — mattered so much."},{"label":"Constantinople falls, 1453","kind":"during","text":"The Ottoman Empire captured Constantinople in 1453, ending the Byzantine Empire and putting a powerful Muslim state astride the land routes between Europe and Asia. Greek-speaking scholars fled west carrying manuscripts, which fed the Italian revival of classical texts. At the same time, Ottoman control over eastern trade made European rulers want a sea route to Asian spices and silks. The same event pushes both halves of Unit 1: the Renaissance and the Age of Discovery."},{"label":"The Indian Ocean was already the world’s marketplace","kind":"during","text":"Long before Europeans arrived, Muslim, Indian, Chinese, and Southeast Asian merchants moved spices, cotton, porcelain, and gold across the Indian Ocean using monsoon winds. Ming China had sent Zheng He’s huge treasure fleets as far as East Africa and then stopped by the 1430s. When the Portuguese sailed into that ocean, they were not discovering a trade network — they were forcing their way into an old and profitable one, mostly by using cannon on ships. That is why the Portuguese empire became a chain of forts and trading posts rather than settlements."},{"label":"West African kingdoms and the gold trade","kind":"during","text":"Mali and then Songhai controlled the flow of West African gold and salt across the Sahara, and cities like Timbuktu were centers of Islamic learning. European gold coins depended partly on this trade, which is one reason the Portuguese sailed down the African coast — to reach the gold without paying Saharan middlemen. Slavery already existed within Africa and in Mediterranean trade, but it was not yet the plantation system of the Atlantic. Portuguese forts on the African coast turned into the first links of that later system."},{"label":"Large empires ruled the Americas","kind":"during","text":"In 1450 the Americas held major states, including the Mexica (Aztec) empire centered on Tenochtitlan and the Inca empire running thousands of miles along the Andes, plus many smaller societies. These were cities, roads, tribute systems, and armies — not empty land. What Europeans lacked in numbers they made up for with steel, horses, gunpowder, local allies who hated Aztec tribute, and above all diseases these populations had never met. Keep this in mind so “encounter” in KC-1.3 does not turn into “discovery.”"},{"label":"What it sets up: Europe splits over religion","kind":"after","text":"Christian humanism, cheap printed books, and rulers hungry for control over their own churches all point straight at the Protestant Reformation after 1517. Unit 2 picks up there, running through Luther, Calvin, the Catholic Reformation, and more than a century of religious warfare. The unit ends at 1648 because the Peace of Westphalia closed the Thirty Years’ War and locked in the idea that each sovereign state settles its own religion. Unit 1 builds the pieces; Unit 2 sets them on fire."},{"label":"What it sets up: an Atlantic economy built on enslaved labor","kind":"after","text":"The shift of wealth from the Mediterranean to Atlantic ports, the plantation economy, and the trade in enslaved Africans do not end in 1648 — they scale up. Profits from sugar, tobacco, and silver funded the armies and navies of the absolutist monarchs in Unit 3 and later the factories of industrial Britain. The joint-stock companies of this unit grow into the machinery of empire. When you write consequences for LO O, follow the money forward, not just the ideas."}],"stimulus":[{"t":"1.2","title":"The School of Athens","artist":"Raphael (Raffaello Sanzio)","year":"1509–1511","pd":true,"commons":"File:\"The School of Athens\" by Raffaello Sanzio da Urbino.jpg","see":["Plato in the center-left points one finger straight up (toward ideas); Aristotle beside him holds his palm down toward the earth (toward observation) — the whole argument of the painting is in those two hands","Follow the floor tiles and the arches: every line runs back to a single vanishing point right between Plato’s and Aristotle’s heads, so geometry itself points at the two philosophers","The building is Roman — giant barrel vaults and coffered ceilings, not Gothic pointed arches","Statues in the niches are pagan gods, not saints: Apollo with a lyre on the left, Athena/Minerva in armor on the right","Nobody has a halo, and everyone is busy — arguing, writing, measuring, teaching"],"argues":"That the pagan Greek and Roman past is not a threat to be avoided but a treasure to be recovered. Raphael painted it on a wall of the pope’s own library, directly facing a fresco about Christian theology — the message is that classical reason and Christian faith belong in the same room. It also shows a pope spending enormous money on art to make himself look magnificent.","connect":"KC-1.1.I.A and KC-1.1.I.C (revival of classical texts, civic humanism) and KC-1.1.III.A (popes commissioning classical-style art using geometric perspective)."},{"t":"1.2","title":"The Last Supper","artist":"Leonardo da Vinci","year":"1495–1498","pd":true,"commons":"File:Leonardo da Vinci (1452-1519) - The Last Supper (1495-1498).jpg","see":["Trace the ceiling beams and the tops of the wall hangings on both sides — all of them converge on one point at Christ’s right temple, so the room is built to aim your eye at him","Christ’s arms spread into a wide triangle, calm and still, while everyone else leans and gestures","Judas, fourth from the left, pulls back into shadow, clutches a small bag of money, and has knocked over the salt","Three windows open behind Christ onto a landscape — real daylight, not a gold background","No halos, no gold, no symbols floating in the air: the miracle happens in an ordinary room"],"argues":"That a religious story gains power, not loses it, when it is painted as something that could really happen to real bodies in a real room. Leonardo studied anatomy and optics to get there, which is what “naturalism” means in practice.","connect":"KC-1.1.III.A — naturalism and “the newly invented technique of geometric perspective” used in a work commissioned by a ruler (Ludovico Sforza of Milan)."},{"t":"1.3","title":"The Harvesters","artist":"Pieter Bruegel the Elder","year":"1565","pd":true,"commons":"File:Pieter Bruegel the Elder- The Harvesters - Google Art Project.jpg","see":["The wheat is cut in a stair-step pattern, and you can see the exact line where cut stubble meets standing grain","Under the pear tree in the middle, peasants eat bread and porridge on their break; one man has flopped on his back with his legs apart and his shirt open, dead asleep","Women bend to bind sheaves while men swing scythes — the labor is divided and it is clearly hard","Look deep into the background: a village with a church steeple, a pond, and ships out in a bay — the farm and the trading world share one landscape","The horizon sits high and no saint, angel, or Bible figure appears anywhere"],"argues":"That ordinary working people on an ordinary August day are a subject worth a large, serious painting. Bruegel is not mocking peasants and not romanticizing them — he shows the year’s food being brought in by exhausted bodies.","connect":"KC-1.1.III.B (Northern Renaissance human-centered naturalism, everyday life as a proper subject; Bruegel is a named CED example) and KC-1.4.II (lives oriented around the seasons, the village, or the manor)."},{"t":"1.3","title":"The Ambassadors","artist":"Hans Holbein the Younger","year":"1533","pd":true,"commons":"File:Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg","see":["Two young men in fur and silk stand on either side of a two-shelf table — a French diplomat on the left, a bishop on the right","Top shelf: a celestial globe, sundials, a quadrant, and a torquetum — the exact instrument family used to fix latitude at sea","Bottom shelf: a terrestrial globe of the newly mapped world, a merchant’s arithmetic book held open with a set square, a lute with one string clearly snapped, and an open Lutheran hymnbook","The gray smear stretched across the floor is a skull — step to the right side of the picture and it snaps into shape","Top left, a small silver crucifix is almost hidden behind the green curtain"],"argues":"That wealth, learning, global knowledge, and diplomacy all sit on top of death. The broken lute string and the Lutheran hymnal point at the religious split tearing Europe apart in 1533, the year Henry VIII broke with Rome.","connect":"KC-1.1.III.B (Northern naturalism, everyday objects rendered exactly) plus KC-1.3.II (navigation instruments and cartography) and KC-1.2.I.A (religious reform pressing on Renaissance learning)."},{"t":"1.4","title":"The Printer (from Das Ständebuch, The Book of Trades)","artist":"Jost Amman","year":"1568","pd":true,"commons":"File:Printer in 1568-ce.png","see":["On the left a worker lifts the hinged frame off the press and peels away a freshly printed sheet — he is the “puller”","Beside him a second worker presses two round leather ink balls onto the flat block of set type — he is the “beater”","At the right stands the wooden screw press itself, with a long horizontal bar the puller yanks to press paper onto type","In the front, thick stacks of paper and finished sheets sit on the bench — count how many, then imagine copying that by hand","In the background two compositors stand at slanted cases picking out individual metal letters"],"argues":"That making books had become an industry. Four people and one machine could produce in a day what a scribe needed months to copy, which is why the price of a book collapsed and ideas started moving faster than any bishop or king could chase them.","connect":"KC-1.1.II and KC-1.1.II.A — printing spread the Renaissance beyond Italy and grew vernacular literature; also KC-1.1.I.B, where the press carries humanist texts past the universities and the Church."},{"t":"1.5","title":"Elizabeth I (the Armada Portrait)","artist":"Formerly attributed to George Gower","year":"c. 1588","pd":true,"commons":"File:Elizabeth I (Armada Portrait).jpg","see":["Her right hand rests flat on a globe, fingers spread across the Atlantic and the Americas — she is literally holding the New World","Through the window on the left, the English fleet sails in calm, orderly water under red St George’s cross flags","Through the window on the right, ships are being smashed against a dark rocky coast in a storm","An imperial crown sits on the table at the upper left, close to her but not on her head","Ropes and ropes of pearls, plus pearls sewn all over the sleeves — pearls signaled virginity, and her unmarried status was a political asset"],"argues":"That God and the sea made England a great power and that the queen personally embodies the state. The two windows tell the story as cause and effect: our discipline, their destruction. It is government propaganda, painted to be copied and displayed.","connect":"KC-1.5.I.A (new monarchies building centralized states) and KC-1.2.II.A (Elizabeth I directing religious life from the top down); the globe also ties to KC-1.3.III.C, the Atlantic nations challenging Spanish dominance."},{"t":"1.6","title":"The Cantino Planisphere","artist":"Unknown Portuguese cartographer (obtained by Alberto Cantino)","year":"1502","pd":true,"commons":"File:Cantino planisphere (1502).jpg","see":["One straight vertical line runs from top to bottom in the Atlantic with red text along it — that is the Treaty of Tordesillas boundary splitting the world between Portugal and Castile","The Brazilian coast at the lower left is painted with green trees and bright red-orange parrots — an advertisement for what is there","Portuguese flags and a walled fort labeled “Castello da Mina” dot the West African coast, marking claimed trading posts","Webs of thin straight lines radiate out of compass roses all over the sheet — rhumb lines a pilot used to hold a compass heading","The Indian Ocean is drawn as open water you can sail into around Africa, and coastlines are crammed with tiny place-names while the interiors are left blank"],"argues":"That map-making was strategic intelligence, not decoration. The blank interiors show exactly how Europeans knew this world — from a ship’s deck. Cantino had this chart smuggled out of Lisbon to an Italian duke, which tells you what it was worth.","connect":"KC-1.3.II (advances in navigation and cartography) and KC-1.3.III.A and KC-1.3.III.D (Portuguese trading network; the Treaty of Tordesillas as a CED illustrative example of rivalry managed by treaty)."},{"t":"1.8","title":"Columbus Landing on Hispaniola","artist":"Theodor de Bry","year":"1594","pd":true,"commons":"File:Columbus landing on Hispaniola adj.jpg","see":["On the far left, two Europeans heave a tall wooden cross upright while a third steadies its base — claiming the land happens the moment they land","In the center Columbus stands in a plumed hat and doublet gripping a tall staff, with armored soldiers and pikes right behind him","On the right, a line of Taino men, drawn nude, carry gold cups, a chest, and strings of ornaments toward the Spaniards","Three ships ride at anchor in the bay, one with a boat of men rowing ashore","Every European is clothed, armed, and upright; every islander is unclothed and carrying something to give"],"argues":"That the encounter was a peaceful, willing handover of wealth blessed by the cross. It is not eyewitness evidence — de Bry engraved it in Frankfurt a full century later and never crossed the Atlantic. Ask who paid for the print and which European audience it was meant to convince.","connect":"KC-1.3.I.A and KC-1.3.I.C (gold and Christianity as motives, and religion as a justification for subjugation), KC-1.3.III.B (Spanish colonies in the Americas), and KC-1.3.IV.ii (the exchange and the destruction of indigenous societies)."},{"t":"1.10","title":"The Moneylender and His Wife","artist":"Quentin Matsys (Massys)","year":"1514","pd":true,"commons":"File:Massysm Quentin — The Moneylender and his Wife — 1514.jpg","see":["The man holds a tiny balance scale and weighs gold coins and a pearl — in a world of many currencies, coins had to be checked by weight","His wife turns the page of an illuminated prayer book showing the Virgin and Child, but her eyes have slid sideways to the money","On the table a small convex mirror reflects a window, a man reading, and a church steeple outside — the world beyond this room, watching","The shelf behind them holds a snuffed-out candle, a glass carafe, a scroll, and fruit — objects that say time is passing","The paint is smooth enough to show individual hairs, the grain of the wood, and the shine on each coin"],"argues":"That money had become the thing people actually looked at. Matsys painted this in Antwerp, then the busiest port in Europe, and the original frame carried a line from Leviticus: “Let the balance be just and the weights equal.” The picture both celebrates the money economy and warns about it.","connect":"KC-1.4.I.A (banking, finance, and the growth of a money economy) and KC-1.3.IV.A (Antwerp and the shift of economic power from the Mediterranean to Atlantic ports)."}]};
+const $=(s,r)=>(r||document).querySelector(s), $$=(s,r)=>[...(r||document).querySelectorAll(s)];
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const THEME_COLOR={CID:"var(--accent-red)",TSI:"var(--navy-soft)",SOP:"var(--brass)",ECD:"var(--forest)",INT:"var(--plum)",SCD:"var(--terra)",NEI:"var(--nei)"};
+const topicColor=id=>{const t=DATA.topics.find(x=>x.id===id);if(!t)return"var(--border)";return THEME_COLOR[(t.theme||"").split(",")[0].trim()]||"var(--border)";};
+const topicTitle=id=>{const t=DATA.topics.find(x=>x.id===id);return t?t.title:"";};
+
+let state={topic:"all",src:"all",q:"",quiz:false,marks:{}};
+try{state.marks=JSON.parse(localStorage.getItem("apeuro_u1_marks")||"{}")}catch(e){state.marks={}}
+const saveMarks=()=>{try{localStorage.setItem("apeuro_u1_marks",JSON.stringify(state.marks))}catch(e){}};
+/* Sites embeds inject <base target="_top"> and the iframe sandbox has no
+   allow-top-navigation, so plain <a href="#x"> jumps and plain links die
+   silently. Handle every click ourselves. */
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  if(h.charAt(0)==="#"){
+    e.preventDefault();
+    var el=document.getElementById(h.slice(1));
+    if(el)el.scrollIntoView({behavior:"smooth",block:"start"});
+    return;
+  }
+  if(/^https?:/i.test(h)){
+    e.preventDefault();
+    window.open(a.href,"_blank","noopener");
+  }
+},true);
+(function(){let s=null;try{s=localStorage.getItem("apeuro_theme")}catch(e){}
+ if(s)document.documentElement.setAttribute("data-theme",s);
+ $("#themeBtn").onclick=()=>{const c=document.documentElement.getAttribute("data-theme");
+  const dark=c?c==="dark":matchMedia("(prefers-color-scheme:dark)").matches;const n=dark?"light":"dark";
+  document.documentElement.setAttribute("data-theme",n);try{localStorage.setItem("apeuro_theme",n)}catch(e){}};})();
+
+$("#heroEyebrow").textContent="Euro Atlas · Period "+DATA.unit.period+" · "+DATA.unit.span;
+$("#heroTag").textContent=DATA.unit.tagline;
+$("#heroH1").innerHTML=DATA.unit.heading;
+$("#tlEyebrow").textContent=DATA.unit.span.replace(/^c\. /,"").replace(" to c. "," to ");
+$("#stats").innerHTML=[[DATA.topics.length,"Topics"],[DATA.vocab.length,"Terms"],[DATA.figures.length,"Figures"],
+  [DATA.timeline.length,"Dates"],[DATA.stimulus.length,"Artworks"],[DATA.unit.weight,"Of the exam"]]
+  .map(([n,l])=>`<div class="stat"><b>${esc(n)}</b><span>${esc(l)}</span></div>`).join("");
+
+$("#topicChips").innerHTML='<button class="tchip on" data-t="all">All topics</button>'+
+ DATA.topics.map(t=>`<button class="tchip" data-t="${t.id}" title="${esc(t.title)} — ${esc(t.themeFull||"")}"><span class="dot" style="background:${topicColor(t.id)}"></span>${t.id}</button>`).join("");
+
+function cardShell(o){
+  return `<div class="card" data-key="${o.key}" data-t="${o.t}" data-h="${o.h===null||o.h===undefined?'':(o.h?1:0)}" data-text="${esc(o.text.toLowerCase())}">
+    <span class="tag" style="background:${topicColor(o.t)}"></span>
+    <div class="inner" role="button" tabindex="0" aria-expanded="false" aria-label="Show definition" aria-describedby="${o.key}-front">
+      <div class="front" id="${o.key}-front">
+        <div class="tno">${esc(o.t)} · ${esc(topicTitle(o.t))}</div>
+        <div class="study-face"><div class="term">${esc(o.title)}</div>${o.sub?`<div class="work">${esc(o.sub)}</div>`:""}</div>
+        <div class="quiz-prompt" hidden><div class="prompt-label">${o.key.startsWith("f")?"Who or what is described?":"Which term is described?"}</div><div class="def">${esc(o.def)}</div></div>
+        <div class="hint">Tap, Enter or Space to turn over</div>
+      </div>
+      <div class="back" id="${o.key}-back" aria-hidden="true">
+        <div class="tno">Topic ${esc(o.t)}</div>
+        <div class="term" style="font-size:1.05rem">${esc(o.title)}</div>${o.sub?`<div class="work">${esc(o.sub)}</div>`:""}
+        <div class="def">${esc(o.def)}</div>
+        ${o.why?`<div class="why"><b>${esc(o.whyLabel)}</b> ${esc(o.why)}</div>`:""}
+        ${o.h===null||o.h===undefined?"":`<span class="badge ${o.h?"vid":"beyond"}">${o.h?"In the video":"Beyond the video"}</span>`}
+      </div>
+    </div>
+    <div class="mark"><button class="got" data-m="got">Got it</button><button class="miss" data-m="miss">Missed</button></div>
+  </div>`;
+}
+$("#vocabGrid").innerHTML=DATA.vocab.map((v,i)=>cardShell({key:"v"+i,t:v.t,h:(v.heimler===undefined?null:v.heimler),title:v.term,sub:"",
+  def:v.def,why:v.why,whyLabel:"Why it matters.",text:v.term+" "+v.def+" "+(v.why||"")})).join("");
+$("#figGrid").innerHTML=DATA.figures.map((f,i)=>cardShell({key:"f"+i,t:f.t,h:(f.heimler===undefined?null:f.heimler),title:f.name,
+  sub:(f.work&&f.work!=="—")?f.work:"",def:f.what,why:f.why,whyLabel:"Why they matter.",
+  text:f.name+" "+(f.work||"")+" "+f.what+" "+(f.why||"")})).join("");
+
+$("#rail").innerHTML=DATA.timeline.map((d,i)=>
+ `<li data-t="${d.t}" data-h="${d.heimler?1:0}" data-text="${esc((d.y+" "+d.e+" "+(d.why||"")).toLowerCase())}">
+   <button data-i="${i}"><span class="y">${esc(d.y)}</span><span class="e">${esc(d.e)}</span></button></li>`).join("");
+$("#rail").addEventListener("click",e=>{const b=e.target.closest("button[data-i]");if(!b)return;
+ $$("#rail button").forEach(x=>x.classList.remove("on"));b.classList.add("on");
+ const d=DATA.timeline[+b.dataset.i];
+ $("#tlwhy").style.borderLeftColor=topicColor(d.t);
+ $("#tlwhy").innerHTML=`<div class="y">${esc(d.y)}</div><div class="e">${esc(d.e)}</div><div class="w">${esc(d.why||"")}</div>
+   <div class="tno" style="margin-top:14px;font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);font-weight:600">Topic ${esc(d.t)} · ${esc(topicTitle(d.t))}</div>`;});
+
+$("#loGrid").innerHTML=DATA.objectives.map(o=>
+ `<div class="lo"><div class="ltr">${esc(o.letter)}</div><div><div class="txt">${esc(o.text)}</div>
+   <div class="tp">Topic ${esc((o.topics||[]).join(", "))}</div></div></div>`).join("");
+$("#kcList").innerHTML=DATA.keyConcepts.map((k,i)=>
+ `<details class="kc"${i===0?" open":""}><summary><span class="kcid">${esc(k.kc)}</span><span class="kctext">${esc(k.text)}</span></summary>
+   <div class="body">${(k.subs||[]).map(s=>`<div class="sub"><div class="sid">${esc(s.kc)}</div><p>${esc(s.text)}</p>
+     ${(s.ex&&s.ex.length)?`<ul class="ex">${s.ex.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</div>`).join("")}
+   </div></details>`).join("");
+
+$("#ctxGrid").innerHTML=DATA.context.map(c=>
+ `<div class="ctx"><span class="kind ${esc(c.kind)}">${c.kind==="before"?"Before 1450":c.kind==="during"?"Meanwhile":"What it sets up"}</span>
+   <h3>${esc(c.label)}</h3><p>${esc(c.text)}</p></div>`).join("");
+
+const cThumb=f=>"https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(String(f).replace(/^File:/,""))+"?width=1000";
+const cPage=f=>"https://commons.wikimedia.org/wiki/"+encodeURIComponent(String(f).replace(/ /g,"_"));
+$("#stimGrid").innerHTML=DATA.stimulus.map(s=>
+ `<div class="stim" data-t="${s.t}" data-text="${esc((s.title+" "+s.artist+" "+(s.argues||"")).toLowerCase())}">
+   ${s.commons?`<div class="imgwrap"><div class="fallback">Loading — or open it on Wikimedia Commons below.</div>
+     <img loading="lazy" src="${esc(cThumb(s.commons))}" alt="${esc(s.title)} by ${esc(s.artist)}"
+       onload="this.previousElementSibling.style.display='none'" onerror="this.style.display='none'"></div>`:""}
+   <div class="body">
+     <h3>${esc(s.title)}</h3>
+     <div class="cred">${esc(s.artist)} · ${esc(s.year)}</div>
+     ${s.commons?"":'<div class="badge beyond" style="align-self:flex-start">Described — still in copyright</div>'}
+     <ul class="look">${(s.see||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+     ${s.argues?`<div class="argues"><b>What it argues.</b> ${esc(s.argues)}</div>`:""}
+     ${s.connect?`<div class="cred" style="font-size:.85rem">Connects to: ${esc(s.connect)}</div>`:""}
+     ${s.commons?`<a class="src" href="${esc(cPage(s.commons))}" target="_blank" rel="noopener">View on Wikimedia Commons →</a>`
+       :(s.source?`<a class="src" href="${esc(s.source)}" target="_blank" rel="noopener">${esc(s.sourceLabel||"View the source")} →</a>`:"")}
+   </div></div>`).join("");
+
+function applyFilter(){
+  const q=state.q.trim().toLowerCase();let shown=0;
+  $$(".card").forEach(c=>{
+    const ok=(state.topic==="all"||c.dataset.t===state.topic)
+      &&(state.src==="all"||(state.src==="vid"?c.dataset.h==="1":c.dataset.h==="0"))
+      &&(!q||(c.dataset.text||"").includes(q));
+    c.classList.toggle("hidden",!ok);if(ok)shown++;});
+  $$("#rail li").forEach(li=>{li.classList.toggle("hidden",
+    !((state.topic==="all"||li.dataset.t===state.topic)
+      &&(state.src==="all"||(state.src==="vid"?li.dataset.h==="1":li.dataset.h==="0"))
+      &&(!q||(li.dataset.text||"").includes(q))));});
+  $$(".stim").forEach(s=>{s.style.display=((state.topic==="all"||s.dataset.t===state.topic)&&(!q||(s.dataset.text||"").includes(q)))?"":"none";});
+  $("#cardCount").textContent=shown+" cards shown";
+  ["vocabGrid","figGrid"].forEach(id=>{const g=$("#"+id);const any=$$(".card:not(.hidden)",g).length;
+    let e=g.nextElementSibling;if(e&&e.classList.contains("empty"))e.remove();
+    if(!any)g.insertAdjacentHTML("afterend",'<div class="empty">Nothing matches that filter.</div>');});
+}
+function paintMarks(){$$(".card").forEach(c=>{const m=state.marks[c.dataset.key];
+ c.classList.toggle("got",m==="got");c.classList.toggle("miss",m==="miss");
+ $$(".mark button",c).forEach(b=>b.setAttribute("aria-pressed",String(m===b.dataset.m)));});}
+function syncCard(c){
+ const flipped=c.classList.contains("flipped"),inner=$(".inner",c),front=$(".front",c),back=$(".back",c);
+ $(".study-face",c).hidden=state.quiz;$(".quiz-prompt",c).hidden=!state.quiz;
+ front.setAttribute("aria-hidden",String(flipped));back.setAttribute("aria-hidden",String(!flipped));
+ inner.setAttribute("aria-expanded",String(flipped));inner.setAttribute("aria-describedby",(flipped?back:front).id);
+ inner.setAttribute("aria-label",flipped?(state.quiz?"Return to the description":"Show the term or name"):(state.quiz?"Reveal the term or name":"Show definition"));
+ $(".front .hint",c).textContent=state.quiz?"Recall first · tap, Enter or Space to reveal":"Tap, Enter or Space to turn over";
+}
+function flipCard(c){c.classList.toggle("flipped");syncCard(c);}
+function syncCards(){$$(".card").forEach(syncCard);}
+
+$("#topicChips").addEventListener("click",e=>{const b=e.target.closest(".tchip");if(!b)return;
+ $$("#topicChips .tchip").forEach(x=>x.classList.remove("on"));b.classList.add("on");state.topic=b.dataset.t;applyFilter();});
+$("#q").addEventListener("input",e=>{state.q=e.target.value;applyFilter();});
+const S={all:$("#srcAll"),vid:$("#srcVid"),bey:$("#srcBey")};
+Object.entries(S).forEach(([k,b])=>b.onclick=()=>{state.src=k;Object.values(S).forEach(x=>x.classList.remove("on"));b.classList.add("on");applyFilter();});
+document.addEventListener("click",e=>{
+  const mb=e.target.closest(".mark button");
+  if(mb){e.stopPropagation();const c=mb.closest(".card"),m=mb.dataset.m;
+    state.marks[c.dataset.key]=state.marks[c.dataset.key]===m?null:m;
+    if(!state.marks[c.dataset.key])delete state.marks[c.dataset.key];saveMarks();paintMarks();return;}
+  const c=e.target.closest(".card");if(c&&!e.target.closest("a"))flipCard(c);});
+document.addEventListener("keydown",e=>{
+ const inner=e.target.closest('.card .inner[role="button"]');
+ if(inner&&(e.key==="Enter"||e.key===" ")&&!e.repeat){e.preventDefault();flipCard(inner.closest(".card"));}
+});
+$("#quizBtn").onclick=()=>{state.quiz=!state.quiz;
+ ["#vocabGrid","#figGrid"].forEach(s=>$(s).classList.toggle("quiz",state.quiz));
+ $("#quizBtn").classList.toggle("on",state.quiz);$("#quizBtn").textContent=state.quiz?"Exit quiz":"Quiz me";
+ $("#quizBtn").setAttribute("aria-pressed",String(state.quiz));
+ $$(".card").forEach(c=>c.classList.remove("flipped"));syncCards();};
+$("#shufBtn").onclick=()=>{["#vocabGrid","#figGrid"].forEach(sel=>{const g=$(sel),k=$$(".card",g);
+ for(let i=k.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));g.appendChild(k[j]);k.splice(j,1);}});};
+$("#resetBtn").onclick=()=>{state.marks={};saveMarks();paintMarks();$$(".card").forEach(c=>c.classList.remove("flipped"));syncCards();};
+
+const links=$$(".bar a");
+const obs=new IntersectionObserver(es=>{es.forEach(en=>{if(en.isIntersecting)
+  links.forEach(l=>l.classList.toggle("on",l.dataset.s===en.target.id));});},{rootMargin:"-15% 0px -75% 0px"});
+$$("main .block").forEach(s=>obs.observe(s));
+
+const HAS_TAGS=DATA.vocab.some(v=>v.heimler===true||v.heimler===false);
+if(!HAS_TAGS){[...Object.values(S)].forEach(b=>b.style.display="none");
+  const lb=$("#srcAll").previousElementSibling;}
+paintMarks();syncCards();applyFilter();
+</script>
+<style id="dm-css">
+html.dm{color-scheme:dark;--paper:#0F1527;--cream:#151D33;--cream-warm:#1B243E;--navy-deep:#0A1020;--brass:#C9A54F;--brass-ink:#E2C782;--brass-display:#DDBB6A;--brass-light:#E8D394;--ink:#EDE8DC;--slate:#BBC1D1;--line:#2E3957;--accent-red:#E07A7A;--good:#7DBF92;--good-soft:#173125;--bad:#E07A7A;--bad-soft:#3A1F22;--lift:0 1px 2px rgba(0,0,0,.35),0 6px 18px -6px rgba(0,0,0,.55);--lift-2:0 2px 4px rgba(0,0,0,.35),0 18px 40px -14px rgba(0,0,0,.7);--hair:0 1px 0 rgba(255,255,255,.06);--dm-card:var(--cream);--dm-ink:var(--ink);--dm-line:var(--line);--dm-tg-bg:#151D33;--dm-tg-fg:#D4B05E;--dm-tg-b:#2E3957;--dm-tg-font:'DM Sans',system-ui,sans-serif}
+:where(html.dm) .hero{color:#F7F1E5}
+:where(html.dm) .bar a.on{color:#B9C8F0}
+:where(html.dm) .pillbtn.on{color:#F7F1E5}
+:where(html.dm) .tchip.on{color:#F7F1E5}
+:where(html.dm) .badge.vid{color:#8CCBA0}
+:where(html.dm) .badge.beyond{color:#D4A4C6}
+:where(html.dm) .card.got{border-color:#3E6B4F}
+:where(html.dm) .card.got .mark .got{border-color:#3E6B4F}
+:where(html.dm) .sub .sid{color:#A9B9E6}
+:where(html.dm) .ctx .kind.during{color:#A9B9E6}
+:where(html.dm) .ctx .kind.after{color:#8CCBA0}
+:where(html.dm) footer{color:#F7F1E5}
+:where(html.dm) .note.exam .k{color:#8CCBA0}
+/* dark-mode toggle (shared) */
+:root{--dm-tg-bg:#fff;--dm-tg-fg:#1F1B3A;--dm-tg-b:rgba(0,0,0,.18);--dm-tg-font:system-ui,sans-serif}
+.dm-tg{position:fixed;right:14px;bottom:14px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 10px;border-radius:999px;border:2px solid var(--dm-tg-b);background:var(--dm-tg-bg);color:var(--dm-tg-fg);font:600 13px/1 var(--dm-tg-font);letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.22);transition:transform .15s,box-shadow .15s,opacity .2s;-webkit-tap-highlight-color:transparent;opacity:.96}
+.dm-tg:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:1}
+.dm-tg:active{transform:translateY(0) scale(.97)}
+.dm-tg:focus-visible{outline:3px solid #FFC83D;outline-offset:3px}
+.dm-tg svg{width:18px;height:18px;display:block}
+.dm-tg .dm-sun{display:none}
+html.dm .dm-tg .dm-sun{display:block}
+html.dm .dm-tg .dm-moon{display:none}
+.dm-tg .dm-lbl{white-space:nowrap}
+@media (max-width:620px){.dm-tg{right:10px;bottom:10px;height:38px;padding:0 10px}.dm-tg .dm-lbl{display:none}}
+@media print{.dm-tg{display:none !important}}
+
+</style>
+<script id="dm">
+/* Dark mode add-on (GeoArcade / World Compass / Euro Atlas / Lang Studio). Follows the device setting, with a per-page toggle. */
+(function(){
+  if (window.__dmInit) return; window.__dmInit = 1;
+  var d = document.documentElement, KEY = 'dm:pref', pref = null;
+  try { pref = localStorage.getItem(KEY) || sessionStorage.getItem(KEY); } catch (e) {}
+  var mq = null; try { mq = window.matchMedia('(prefers-color-scheme: dark)'); } catch (e) {}
+  function sys() { return !!(mq && mq.matches); }
+  var on = pref ? pref === 'dark' : sys();
+  d.classList.toggle('dm', on);
+  var btn;
+  function paint() {
+    d.classList.toggle('dm', on);
+    if (btn) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.setAttribute('title', on ? 'Switch to light mode' : 'Switch to dark mode');
+      var l = btn.querySelector('.dm-lbl'); if (l) l.textContent = on ? 'Light' : 'Dark';
+    }
+    try { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.setAttribute('content', on ? '#0F0D22' : '#FFFFFF'); } catch (e) {}
+  }
+  function set(v, remember) {
+    on = v; paint();
+    if (remember) { try { localStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} try { sessionStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} }
+  }
+  function build() {
+    if (btn || !document.body) return;
+    btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'dm-tg'; btn.id = 'dmToggle';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
+    btn.innerHTML = '<svg class="dm-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 14.6A8.5 8.5 0 0 1 9.4 3a1 1 0 0 0-1.1-1.3A10.5 10.5 0 1 0 22.3 15.7 1 1 0 0 0 21 14.6z"/></svg>'
+      + '<svg class="dm-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>'
+      + '<span class="dm-lbl">Dark</span>';
+    btn.addEventListener('click', function () { set(!on, true); });
+    document.body.appendChild(btn);
+    paint();
+    // keep the button last in <body> so nothing re-renders over it
+    new MutationObserver(function () { if (btn && document.body && document.body.lastElementChild !== btn && btn.isConnected) document.body.appendChild(btn); if (btn && !btn.isConnected) document.body.appendChild(btn); }).observe(document.body, { childList: true });
+  }
+  if (mq && mq.addEventListener) mq.addEventListener('change', function (e) { if (!pref) set(e.matches, false); });
+  else if (mq && mq.addListener) mq.addListener(function (e) { if (!pref) set(e.matches, false); });
+  if (document.body) build(); else document.addEventListener('DOMContentLoaded', build);
+  window.__dm = { set: function (v) { set(!!v, true); }, get on() { return on; } };
+})();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<style id="dm-css">
+html.dm{color-scheme:dark;--creme:#1C1612;--craie:#2A221C;--marbre:#211A15;--vein:#3E342C;--esp:#F3EAE0;--esp-2:#D8CBBE;--esp-3:#B5A799;--laiton-d:#E2BC6E;--laiton-s:#3A2E14;--vert:#7FC094;--vert-s:#173125;--warn:#F0B35A;--warn-s:#3F2F10;--bad:#F08A8F;--bad-s:#42201F;--dm-card:var(--marbre);--dm-ink:var(--esp);--dm-line:var(--vein);--dm-tg-bg:#211A15;--dm-tg-fg:#E2BC6E;--dm-tg-b:#3E342C;--dm-tg-font:'Lexend',system-ui,sans-serif}
+:where(html.dm) body{background:var(--creme);background-color:var(--creme);color:#F4EAE5}
+:where(html.dm) .valance{color:#ECE7DA}
+:where(html.dm) .board{color:#ECE7DA}
+:where(html.dm) .note{background:var(--creme);background-color:var(--creme);border:1px solid #745E2F;border-color:#745E2F;border-top:1px solid #745E2F;border-bottom:1px solid #745E2F;border-left:1px solid #745E2F;border-right:1px solid #745E2F}
+:where(html.dm) .note .hand{color:#CAC7E6}
+:where(html.dm) .note .sig{color:#CAC7E6}
+:where(html.dm) .courses li{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .courses li::before{color:#ECE7DA}
+:where(html.dm) .why a,:where(html.dm) .lobby a{color:#F08A8F}
+:where(html.dm) .foot a{color:#F08A8F}
+:where(html.dm) .bar{color:#ECE7DA}
+:where(html.dm) .bar button{color:#ECE7DA}
+:where(html.dm) .bar .stars{color:var(--esp)}
+:where(html.dm) .receipt{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .bubble{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .bubble::before{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .bubble .who{color:#F08A8F}
+:where(html.dm) .plate{background:var(--marbre);background-color:var(--marbre);box-shadow:var(--marbre) 0px 1px 0px inset, rgba(43, 26, 18, 0.55) 0px 22px 40px -30px, rgba(28,22,18,0.70) 0px 0px 0px 8px}
+:where(html.dm) .bd b{color:#F08A8F}
+:where(html.dm) .quiz button{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .quiz button.right{border-color:#3F6E4E}
+:where(html.dm) .quiz button.wrong{border-color:#A3242B}
+:where(html.dm) .doc{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .doc .dn{color:#ECE7DA}
+:where(html.dm) .dots7 button{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .dots7 button.done{border-color:#3F6E4E}
+:where(html.dm) .tag{background:#5A4237}
+:where(html.dm) .tag.e{background:#8C6524}
+:where(html.dm) textarea:focus,:where(html.dm) input[type="text"]:focus,:where(html.dm) select:focus{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .choice button{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .choice button[aria-pressed="true"]{color:#ECE7DA}
+:where(html.dm) .chips button{border:1px solid #7A6029;border-color:#7A6029;border-top:1px solid #7A6029;border-bottom:1px solid #7A6029;border-left:1px solid #7A6029;border-right:1px solid #7A6029}
+:where(html.dm) .slot{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .btn{background:var(--marbre);background-color:var(--marbre);border:1.5px solid #2B1A12}
+:where(html.dm) .btn.ok{background:#3F6E4E;border-color:#3F6E4E}
+:where(html.dm) .fb.good{border:1px solid #3A6948;border-color:#3A6948;border-top:1px solid #3A6948;border-bottom:1px solid #3A6948;border-left:1px solid #3A6948;border-right:1px solid #3A6948}
+:where(html.dm) .fb.close{border:1px solid #7A5B29;border-color:#7A5B29;border-top:1px solid #7A5B29;border-bottom:1px solid #7A5B29;border-left:1px solid #7A5B29;border-right:1px solid #7A5B29}
+:where(html.dm) .chefv{background:var(--creme);background-color:var(--creme)}
+:where(html.dm) .assembled .lab{background:#5A4237}
+:where(html.dm) .mm{background:var(--creme);background-color:var(--creme);border:1px solid #745E2F;border-color:#745E2F;border-top:1px solid #745E2F;border-bottom:1px solid #745E2F;border-left:1px solid #745E2F;border-right:1px solid #745E2F}
+:where(html.dm) .mm .hand{color:#CAC7E6}
+:where(html.dm) .drawer header{color:#ECE7DA}
+:where(html.dm) .drawer header button{color:#ECE7DA}
+:where(html.dm) .drawer .tabs{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .drawer .tabs button{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .drawer .mynote{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .toast{color:#ECE7DA}
+:where(html.dm) .pip i{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .pip.done i{background:#3F6E4E;border-color:#3F6E4E}
+:where(html.dm) .pip.now{background:var(--marbre);background-color:var(--marbre)}
+:where(html.dm) .card1{background:linear-gradient(var(--marbre), var(--marbre));background-image:linear-gradient(var(--marbre), var(--marbre))}
+:where(html.dm) .plate-preview{background:repeating-linear-gradient(transparent 0px, transparent 27px, rgba(185, 138, 62, 0.12) 27px, rgba(185, 138, 62, 0.12) 28px) var(--creme);background-color:var(--creme);border:1px solid #745E2F;border-color:#745E2F;border-top:1px solid #745E2F;border-bottom:1px solid #745E2F;border-left:1px solid #745E2F;border-right:1px solid #745E2F}
+:where(html.dm) .pv-d{color:#E6EDEA}
+:where(html.dm) .pv-lab{background:#5A4237}
+:where(html.dm) .dusk{background:linear-gradient(rgb(46, 53, 82) 0%, rgb(109, 90, 126) 34%, rgb(212, 154, 142) 70%, #49331C 100%);background-image:linear-gradient(rgb(46, 53, 82) 0%, rgb(109, 90, 126) 34%, rgb(212, 154, 142) 70%, #49331C 100%)}
+:where(html.dm) .stamp{color:#F08A8F}
+:where(html.dm) textarea,:where(html.dm) input[type="text"],:where(html.dm) select{background:var(--creme);background-color:var(--creme)}
+:where(html.dm) .btn.copied{background:#3F6E4E;border-color:#3F6E4E}
+:where(html.dm) .doc .more{background:linear-gradient(rgba(255, 254, 251, 0), var(--marbre) 60%);background-image:linear-gradient(rgba(255, 254, 251, 0), var(--marbre) 60%)}
+:where(html.dm) .special{color:#2B1A12}
+
+/* dark-mode toggle (shared) */
+:root{--dm-tg-bg:#fff;--dm-tg-fg:#1F1B3A;--dm-tg-b:rgba(0,0,0,.18);--dm-tg-font:system-ui,sans-serif}
+.dm-tg{position:fixed;right:14px;bottom:14px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 10px;border-radius:999px;border:2px solid var(--dm-tg-b);background:var(--dm-tg-bg);color:var(--dm-tg-fg);font:600 13px/1 var(--dm-tg-font);letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.22);transition:transform .15s,box-shadow .15s,opacity .2s;-webkit-tap-highlight-color:transparent;opacity:.96}
+.dm-tg:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:1}
+.dm-tg:active{transform:translateY(0) scale(.97)}
+.dm-tg:focus-visible{outline:3px solid #FFC83D;outline-offset:3px}
+.dm-tg svg{width:18px;height:18px;display:block}
+.dm-tg .dm-sun{display:none}
+html.dm .dm-tg .dm-sun{display:block}
+html.dm .dm-tg .dm-moon{display:none}
+.dm-tg .dm-lbl{white-space:nowrap}
+@media (max-width:620px){.dm-tg{right:10px;bottom:10px;height:38px;padding:0 10px}.dm-tg .dm-lbl{display:none}}
+@media print{.dm-tg{display:none !important}}
+
+</style>
+<script id="dm">
+/* Dark mode add-on (GeoArcade / World Compass / Euro Atlas / Lang Studio). Follows the device setting, with a per-page toggle. */
+(function(){
+  if (window.__dmInit) return; window.__dmInit = 1;
+  var d = document.documentElement, KEY = 'dm:pref', pref = null;
+  try { pref = localStorage.getItem(KEY) || sessionStorage.getItem(KEY); } catch (e) {}
+  var mq = null; try { mq = window.matchMedia('(prefers-color-scheme: dark)'); } catch (e) {}
+  function sys() { return !!(mq && mq.matches); }
+  var on = pref ? pref === 'dark' : sys();
+  d.classList.toggle('dm', on);
+  var btn;
+  function paint() {
+    d.classList.toggle('dm', on);
+    if (btn) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.setAttribute('title', on ? 'Switch to light mode' : 'Switch to dark mode');
+      var l = btn.querySelector('.dm-lbl'); if (l) l.textContent = on ? 'Light' : 'Dark';
+    }
+    try { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.setAttribute('content', on ? '#0F0D22' : '#FFFFFF'); } catch (e) {}
+  }
+  function set(v, remember) {
+    on = v; paint();
+    if (remember) { try { localStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} try { sessionStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} }
+  }
+  function build() {
+    if (btn || !document.body) return;
+    btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'dm-tg'; btn.id = 'dmToggle';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
+    btn.innerHTML = '<svg class="dm-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 14.6A8.5 8.5 0 0 1 9.4 3a1 1 0 0 0-1.1-1.3A10.5 10.5 0 1 0 22.3 15.7 1 1 0 0 0 21 14.6z"/></svg>'
+      + '<svg class="dm-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>'
+      + '<span class="dm-lbl">Dark</span>';
+    btn.addEventListener('click', function () { set(!on, true); });
+    document.body.appendChild(btn);
+    paint();
+    // keep the button last in <body> so nothing re-renders over it
+    new MutationObserver(function () { if (btn && document.body && document.body.lastElementChild !== btn && btn.isConnected) document.body.appendChild(btn); if (btn && !btn.isConnected) document.body.appendChild(btn); }).observe(document.body, { childList: true });
+  }
+  if (mq && mq.addEventListener) mq.addEventListener('change', function (e) { if (!pref) set(e.matches, false); });
+  else if (mq && mq.addListener) mq.addListener(function (e) { if (!pref) set(e.matches, false); });
+  if (document.body) build(); else document.addEventListener('DOMContentLoaded', build);
+  window.__dm = { set: function (v) { set(!!v, true); }, get on() { return on; } };
+})();
+
+</script>

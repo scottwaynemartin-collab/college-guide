@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AP World Unit 7 — Global Conflict</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&display=swap">
+<style>
+:root{
+--navy:#1E2761; --navy-2:#2B3780; --title:#1E2761; --gold:#C9A227; --gold-2:#E3C464; --gold-soft:#F6EBC4;
+--accent:#3F4A5C; --accent-soft:#E8EAEE;
+--bg:#F4F5F9; --surface:#FFFFFF; --surface-2:#EEF0F6; --line:#D8DBE6;
+--ink:#1A1D2E; --ink-2:#4A4F68; --muted:#666B82;
+--on-navy:#FFFFFF; --on-navy-muted:#B9BFE0;
+--good:#1B7F3B; --good-soft:#E3F3E7; --bad:#B42318; --bad-soft:#FBE9E7;
+--shadow:0 1px 2px rgba(30,39,97,.06),0 6px 18px rgba(30,39,97,.08);
+--display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+--body:Arial,Helvetica,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+#app{height:100vh;overflow-y:auto;overflow-x:hidden;scroll-behavior:smooth;-webkit-overflow-scrolling:touch}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.hero{background:var(--navy);color:var(--on-navy);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:auto -10% -60% auto;width:520px;height:520px;border-radius:50%;
+background:radial-gradient(circle at 30% 30%,rgba(201,162,39,.28),rgba(201,162,39,0) 62%);pointer-events:none}
+.hero .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;padding:44px 24px 36px;position:relative}
+.eyebrow{font-size:12px;font-weight:bold;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.hero h1{font-family:var(--display);font-weight:700;font-size:clamp(44px,6vw,72px);line-height:.98;margin:10px 0 14px;text-wrap:balance;letter-spacing:-.01em}
+.hero .lede{max-width:56ch;color:var(--on-navy-muted);font-size:17px;margin:0 0 22px}
+.stats{display:flex;gap:28px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--display);font-size:34px;font-weight:700;line-height:1;color:var(--gold-2)}
+.stat span{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--on-navy-muted)}
+.topics{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:18px 18px 10px;align-self:start}
+.topics h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+.topic-row{display:flex;gap:12px;align-items:flex-start;padding:8px 0;border-top:1px solid rgba(255,255,255,.1);font-size:14px;line-height:1.35}
+.topic-row:first-of-type{border-top:0}
+.topic-row .num{font-family:var(--display);font-weight:700;font-size:20px;line-height:1;min-width:38px;color:var(--gold-2)}
+.topic-row .theme{margin-left:auto;white-space:nowrap;font-size:11px;letter-spacing:.08em;color:var(--on-navy-muted)}
+.bar{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 2px 10px rgba(30,39,97,.06)}
+.bar .wrap{display:flex;align-items:center;gap:6px;padding:8px 24px;overflow-x:auto;scrollbar-width:none}
+.bar .wrap::-webkit-scrollbar{display:none}
+.bar a{color:var(--ink-2);text-decoration:none;font-size:14px;font-weight:bold;padding:8px 12px;border-radius:8px;white-space:nowrap}
+.bar a:hover,.bar a.active{background:var(--surface-2);color:var(--title)}
+.bar .spacer{flex:1}
+.bar .count{font-size:12px;color:var(--muted);white-space:nowrap}
+.filter{background:var(--surface-2);border-bottom:1px solid var(--line)}
+.filter .wrap{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 24px}
+.filter .lbl{font-size:12px;font-weight:bold;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:6px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:bold;cursor:pointer}
+.chip:hover{border-color:var(--title);color:var(--title)}
+.chip.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.filter input{margin-left:auto;min-width:220px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;font-size:14px}
+section.block{padding:44px 0 12px;scroll-margin-top:56px}
+.sec-head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.sec-head h2{font-family:var(--display);font-weight:700;font-size:38px;line-height:1;margin:0;color:var(--title)}
+.sec-head p{margin:0;color:var(--muted);font-size:14px;max-width:60ch}
+.sec-head .tools{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--title);border-radius:8px;padding:8px 14px;font-size:13px;font-weight:bold;cursor:pointer}
+.btn:hover{border-color:var(--navy)}
+.btn.primary{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.btn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.grid.big{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{perspective:1200px;display:flex;flex-direction:column;gap:6px}
+.card-inner{position:relative;width:100%;flex:1;min-height:150px;transition:transform .55s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d;cursor:pointer;border:0;padding:0;background:none;text-align:left;display:block;color:inherit}
+.grid.big .card-inner{min-height:250px}
+.card.flipped .card-inner{transform:rotateY(180deg)}
+.face{backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:inherit}
+.front{position:absolute;inset:0;background:var(--surface);border:1px solid var(--line)}
+.front::before{content:"";position:absolute;left:18px;right:18px;top:0;height:3px;background:var(--accent);border-radius:0 0 3px 3px}
+.back{position:relative;background:var(--navy);color:var(--on-navy);transform:rotateY(180deg)}
+.tag{font-size:11px;font-weight:bold;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.back .tag{color:var(--gold)}
+.term{font-family:var(--display);font-weight:700;font-size:26px;line-height:1.05;margin:10px 0 6px;color:var(--title);text-wrap:balance}
+.grid.big .term{font-size:28px}
+.sub{font-size:13px;color:var(--ink-2)}
+.cue{margin-top:14px;font-size:13px;color:var(--muted);line-height:1.4;max-width:34ch}
+.cue b{color:var(--accent)}
+.front .hint{margin-top:auto;font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.back .term{color:#fff;font-size:20px;margin:6px 0 8px}
+.def{font-size:14px;line-height:1.45}
+.why{margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.18);font-size:13px;color:var(--on-navy-muted)}
+.why b{color:var(--gold-2)}
+.kv{font-size:13px;line-height:1.4;margin:4px 0}
+.kv b{color:var(--gold-2);font-weight:bold}
+.card.hidden{display:none}
+.card .mark{display:none;gap:6px}
+.quiz .card .mark{display:flex}
+.mark button{flex:1;border:1px solid var(--line);border-radius:8px;padding:6px 8px;font-size:12px;font-weight:bold;cursor:pointer;background:var(--surface);color:var(--ink-2)}
+.mark button.got{color:var(--good)} .mark button.miss{color:var(--bad)}
+.card.got .front{box-shadow:0 0 0 2px var(--good),var(--shadow)}
+.card.miss .front{box-shadow:0 0 0 2px var(--bad),var(--shadow)}
+.card.got .mark .got{background:var(--good-soft);border-color:var(--good)}
+.card.miss .mark .miss{background:var(--bad-soft);border-color:var(--bad)}
+.quiz .front .term{filter:blur(0)}
+.quiz.hide-fronts .card:not(.flipped) .front .term{filter:blur(7px)}
+.quiz.hide-fronts .card:not(.flipped) .front .hint::after{content:" · term hidden — flip to check"}
+.quizbar{display:none;align-items:center;gap:14px;flex-wrap:wrap;background:var(--accent-soft);border:1px solid var(--accent);border-radius:12px;padding:12px 16px;margin:0 0 16px;font-size:14px}
+.quiz .quizbar{display:flex}
+.quizbar b{color:var(--accent)}
+.quizbar .score{display:flex;gap:14px}
+.pill{border-radius:999px;padding:3px 10px;font-weight:bold;font-size:13px}
+.pill.good{background:var(--good-soft);color:var(--good)} .pill.bad{background:var(--bad-soft);color:var(--bad)}
+.rail{position:relative;overflow-x:auto;padding:24px 0 18px;scroll-snap-type:x proximity}
+.rail ol::before{content:"";position:absolute;left:0;right:0;top:36px;height:3px;z-index:0;background:linear-gradient(90deg,var(--gold),var(--gold-2),var(--gold))}
+.rail ol{list-style:none;margin:0;padding:0 8px;display:flex;gap:14px;min-width:max-content;position:relative}
+.rail li{scroll-snap-align:start;width:210px}
+.year{display:block;width:100%;border:0;background:none;cursor:pointer;text-align:left;padding:0;color:inherit}
+.year .dot{position:relative;z-index:1;width:14px;height:14px;border-radius:50%;background:var(--surface);border:3px solid var(--gold);margin:29px 0 0 0;transition:transform .2s}
+.year:hover .dot,.year.open .dot{background:var(--accent);border-color:var(--accent);transform:scale(1.25)}
+.year .y{font-family:var(--display);font-weight:700;font-size:30px;line-height:1;color:var(--title);margin:10px 0 4px}
+.year .e{font-size:14px;font-weight:bold;color:var(--ink);line-height:1.3}
+.year .reg{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.year .more{display:none;margin-top:8px;font-size:13px;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow)}
+.year.open .more{display:block}
+.rail li.hidden{display:none}
+.dev{border:1px solid var(--line);background:var(--surface);border-radius:14px;margin-bottom:12px;overflow:hidden;box-shadow:var(--shadow)}
+.dev summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center;padding:16px 18px}
+.dev summary::-webkit-details-marker{display:none}
+.dev .num{font-family:var(--display);font-weight:700;font-size:34px;line-height:1;color:var(--accent)}
+.dev .ttl{font-weight:bold;font-size:17px;color:var(--title)}
+.dev .themes{font-size:11px;letter-spacing:.08em;color:var(--muted);margin-top:2px}
+.dev .arrow{width:28px;height:28px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;color:var(--title);font-weight:bold;transition:transform .25s}
+.dev[open] .arrow{transform:rotate(45deg)}
+.dev .body{padding:0 18px 18px 96px;display:grid;gap:14px}
+.lo{font-size:14px;color:var(--ink-2)}
+.lo b{color:var(--title)}
+.kc{border-left:3px solid var(--gold);padding:6px 14px;background:var(--surface-2);border-radius:0 10px 10px 0}
+.kc .code{font-size:11px;letter-spacing:.08em;color:var(--muted);font-weight:bold}
+.kc .official{font-size:14px;margin:2px 0 6px;color:var(--ink)}
+.kc .plain{font-size:14px;color:var(--ink-2)}
+.kc .plain b{color:var(--accent)}
+.ex{display:flex;flex-wrap:wrap;gap:6px}
+.ex span{font-size:12px;font-weight:bold;background:var(--gold-soft);color:var(--title);border-radius:6px;padding:4px 8px}
+.dev.hidden{display:none}
+@media (max-width:700px){.dev summary{grid-template-columns:48px 1fr auto}.dev .body{padding-left:18px}}
+.ctx{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.ctx .c{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+.ctx h3{margin:0 0 8px;font-size:15px;color:var(--title)}
+.ctx p{margin:6px 0;font-size:14px;color:var(--ink-2)}
+.ctx p b{display:inline-block;min-width:64px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+footer{margin-top:40px;padding:22px 0 34px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center}
+footer b{color:var(--title)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.topics{order:2}}
+@media (prefers-reduced-motion: reduce){
+html{scroll-behavior:auto}
+#app{scroll-behavior:auto}
+.card-inner{transition:none}
+.card.flipped .card-inner{transform:none}
+.front{visibility:visible}
+.card.flipped .front{visibility:hidden}
+.back{transform:none;visibility:hidden}
+.card.flipped .back{visibility:visible}
+}
+.hero{display:none}
+</style>
+<style id="ms-phone-nav">@media (max-width:700px){.bar .wrap{flex-wrap:wrap;overflow-x:visible;row-gap:2px;padding:6px 12px}.bar a{padding:6px 9px;font-size:13px}.bar .spacer{display:none}}</style><style id="ms-phone-text">@media (max-width:640px){.topic-row .theme,.tag,.front .hint,.year .reg,.dev .themes,.kc .code,.ctx p b{font-size:12px!important;line-height:1.35}}
+/* ios-no-zoom */@media (max-width:820px){input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]),textarea,select{font-size:16px !important}}
+</style></head>
+<body>
+<div id="app">
+<header class="hero">
+<div class="wrap">
+<div>
+<div class="eyebrow">AP World History: Modern &nbsp;·&nbsp; Unit 7 &nbsp;·&nbsp; 1900 – present</div>
+<h1 id="unitTitle">Global Conflict</h1>
+<p class="lede" id="unitLede"></p>
+<div class="stats" id="unitStats"></div>
+</div>
+<aside class="topics" aria-label="Topics in this unit">
+<h2>Topics</h2>
+<div id="topicList"></div>
+</aside>
+</div>
+</header>
+<nav class="bar" aria-label="Sections">
+<div class="wrap">
+<a href="#vocab">Vocabulary</a>
+<a href="#states">Empires &amp; States</a>
+<a href="#timeline">Timeline</a>
+<a href="#developments">Historical Developments</a>
+<a href="#context">Context Bank</a>
+<span class="spacer"></span>
+<span class="count" id="cardCount"></span>
+</div>
+</nav>
+<div class="filter">
+<div class="wrap">
+<span class="lbl">Show</span>
+<div id="chips" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+<input id="search" type="search" placeholder="Search terms, cards, dates…" aria-label="Search">
+</div>
+</div>
+<main class="wrap">
+<section class="block" id="vocab">
+<div class="sec-head">
+<h2>Vocabulary</h2>
+<p>Tap a card to flip it. Term on the front, definition and why it matters on the back.</p>
+<div class="tools">
+<button class="btn" id="shuffleVocab">Shuffle</button>
+<button class="btn" id="flipAllVocab">Flip all</button>
+<button class="btn gold" id="quizBtn">Quiz me</button>
+</div>
+</div>
+<div class="quizbar" id="quizbar">
+<div><b>Quiz mode.</b> Flip a card, then mark it. Missed cards get a red ring so you can come back to them. Marks last only while this page is open; they reset when you reload or leave.</div>
+<div class="score"><span class="pill good" id="gotN">0 got it</span><span class="pill bad" id="missN">0 missed</span></div>
+<button class="btn" id="hideFronts">Hide terms</button>
+<button class="btn" id="onlyMissed">Show missed only</button>
+<button class="btn" id="resetQuiz">Reset</button>
+</div>
+<div class="grid" id="vocabGrid"></div>
+</section>
+<section class="block" id="states">
+<div class="sec-head">
+<h2 id="statesH">Empires &amp; States</h2>
+<p id="statesP">How each state gained power, kept it, and what it is known for. These are the LEQ evidence cards.</p>
+<div class="tools"><button class="btn" id="flipAllStates">Flip all</button></div>
+</div>
+<div class="grid big" id="stateGrid"></div>
+</section>
+<section class="block" id="timeline">
+<div class="sec-head">
+<h2>Timeline</h2>
+<p>Click a date to see why it is on the list. Scroll sideways.</p>
+</div>
+<div class="rail"><ol id="rail"></ol></div>
+</section>
+<section class="block" id="developments">
+<div class="sec-head">
+<h2>Historical Developments</h2>
+<p>The College Board statements the questions are written from — official wording, then plain English, then the examples they expect you to know.</p>
+<div class="tools"><button class="btn" id="openAllDev">Open all</button></div>
+</div>
+<div id="devList"></div>
+</section>
+<section class="block" id="context">
+<div class="sec-head">
+<h2>Context Bank</h2>
+<p>Ready-made LEQ contextualization: one sentence before the period, one sentence during.</p>
+</div>
+<div class="ctx" id="ctxList"></div>
+</section>
+</main>
+<footer><b>Panther Creek High School</b> &nbsp;•&nbsp; Created by Scott Martin &nbsp;•&nbsp; APandAbroad@gmail.com<br>AP® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this site.</footer>
+</div>
+<script>
+const UNIT = {
+number: 7, title: "Global Conflict", dates: "1900 – present",
+lede: "The century begins with Western empires on top and three old land empires about to fall. Unit 7 follows the collapse of the Ottomans, Romanovs, and Qing; the Mexican Revolution; the causes and conduct of two total wars; the Great Depression and the rise of fascism and communism in between; and the mass atrocities that defined the age.",
+stats: [["8–10%","of the AP exam"],["9","topics"],["12–15","class periods"]],
+statesLabel: "States, Regimes & Wars", countLabel: "cards",
+statesBlurb: "Collapsing empires, revolutionary regimes, and the world wars: what set each in motion, how it was run or fought, what it is known for, and how it ended.",
+stateFields: { gained:"Spark / rise", kept:"How it ran / fought", known:"Known for", end:"Outcome", cue:"Before you flip — what <b>set it in motion</b>, how was it <b>run or fought</b>, and what is it <b>known for</b>?" },
+topics: [
+{id:"7.1", title:"Shifting Power After 1900", themes:"GOV"},
+{id:"7.2", title:"Causes of World War I", themes:"GOV"},
+{id:"7.3", title:"Conducting World War I", themes:"TEC · GOV"},
+{id:"7.4", title:"Economy in the Interwar Period", themes:"ECN · GOV"},
+{id:"7.5", title:"Unresolved Tensions After World War I", themes:"GOV"},
+{id:"7.6", title:"Causes of World War II", themes:"GOV"},
+{id:"7.7", title:"Conducting World War II", themes:"TEC · GOV · CDI"},
+{id:"7.8", title:"Mass Atrocities After 1900", themes:"SIO · GOV"},
+{id:"7.9", title:"Causation in Global Conflict", themes:"Argumentation", review:true},
+],
+vocab: [
+// 7.1 Shifting power
+{t:"7.1", term:"Young Turks", def:"Ottoman nationalist reformers who seized power in 1908 and pushed Turkification, alienating Arabs and Armenians.", why:"Internal factor in Ottoman collapse."},
+{t:"7.1", term:"Sick Man of Europe", def:"Nickname for the declining Ottoman Empire, losing the Balkans and North Africa to nationalists and European powers.", why:"External factors: European encroachment, Balkan independence."},
+{t:"7.1", term:"Mustafa Kemal Atatürk", def:"General who led Turkey's war of independence and founded the secular Republic of Turkey (1923), replacing the Ottoman sultanate.", why:"The new state that rose from the Ottoman collapse."},
+{t:"7.1", term:"Russo-Japanese War (1904–1905)", def:"Japan's defeat of Russia, the first modern Asian victory over a European power; triggered Russia's 1905 Revolution.", why:"External shock that exposed Romanov weakness."},
+{t:"7.1", term:"Revolution of 1905", def:"Strikes and uprisings after Bloody Sunday forced Tsar Nicholas II to create a Duma (parliament), which he then ignored.", why:"Dress rehearsal for 1917."},
+{t:"7.1", term:"Russian Revolution (1917)", def:"February: strikes and mutinies ended the tsar; October: Lenin's Bolsheviks seized power promising 'Peace, Land, and Bread.'", why:"KC-6.2.I.A — 'changes in Russia eventually led to communist revolution.'"},
+{t:"7.1", term:"Vladimir Lenin", def:"Bolshevik leader who adapted Marx to Russia, led the October Revolution, and founded the Soviet state.", why:"The man who made communism a government."},
+{t:"7.1", term:"Bolsheviks", def:"Lenin's radical Marxist party that became the Communist Party of the Soviet Union.", why:"Who took power in October 1917."},
+{t:"7.1", term:"Qing collapse / 1911 Revolution", def:"Provincial revolts toppled the last dynasty; Sun Yat-sen's republic was declared in 1912 but warlords soon divided China.", why:"KC-6.2.I.A — the Qing fell to internal rot and external humiliation."},
+{t:"7.1", term:"Sun Yat-sen", def:"Founder of the Chinese republic and the Guomindang; 'Three Principles of the People' — nationalism, democracy, livelihood.", why:"Leader of the 1911 Revolution."},
+{t:"7.1", term:"Warlord era", def:"Period (1916–1928) when regional military bosses ruled China after the republic failed.", why:"What came after the Qing collapse."},
+{t:"7.1", term:"Mexican Revolution (1910–1920)", def:"Uprising against dictator Porfirio Díaz that became a decade of civil war and produced the reformist Constitution of 1917.", why:"KC-6.2.II.D — CED-named challenge to the political order 'as a result of political crisis.'"},
+{t:"7.1", term:"Porfirio Díaz", def:"Mexican dictator (1876–1911) whose foreign-friendly modernization enriched elites and sparked the revolution.", why:"The 'political crisis' that started the Mexican Revolution."},
+{t:"7.1", term:"Emiliano Zapata / Pancho Villa", def:"Peasant revolutionary leaders who demanded land reform ('Tierra y Libertad') in the south and north.", why:"The popular side of the Mexican Revolution."},
+{t:"7.1", term:"Constitution of 1917 (Mexico)", def:"Charter promising land reform, labor rights, and limits on the Church and foreign ownership.", why:"The lasting outcome of the Mexican Revolution."},
+// 7.2 Causes of WWI
+{t:"7.2", term:"MAIN causes", def:"Militarism, Alliances, Imperialism, Nationalism — the four long-term causes of World War I.", why:"Matches KC-6.2.IV.B exactly."},
+{t:"7.2", term:"Militarism", def:"Glorifying military power and building huge armies and navies, such as the Anglo-German naval race.", why:"Long-term cause."},
+{t:"7.2", term:"Alliance system", def:"Triple Alliance (Germany, Austria-Hungary, Italy) vs. Triple Entente (France, Russia, Britain) — a 'flawed alliance system' that turned a regional war global.", why:"CED language: 'flawed alliance system.'"},
+{t:"7.2", term:"Imperial rivalry", def:"Competition for colonies and resources, including crises over Morocco and the Balkans.", why:"CED: 'imperialist expansion and competition for resources.'"},
+{t:"7.2", term:"Balkan nationalism / 'powder keg'", def:"Serbia's ambitions and Austria's fears in the ex-Ottoman Balkans, the most unstable region in Europe.", why:"CED: 'territorial and regional conflicts.'"},
+{t:"7.2", term:"Assassination of Franz Ferdinand", def:"June 28, 1914: a Bosnian Serb nationalist shot the Austrian heir in Sarajevo, triggering the July Crisis.", why:"The spark."},
+{t:"7.2", term:"Schlieffen Plan", def:"Germany's plan to knock out France through Belgium before turning on Russia — which brought Britain into the war.", why:"Why a Balkan quarrel became a western front."},
+// 7.3 Conducting WWI
+{t:"7.3", term:"Total war", def:"War that mobilizes a nation's entire economy, population, and culture, erasing the line between soldier and civilian.", why:"KC-6.2.IV.A — 'World War I was the first total war.'"},
+{t:"7.3", term:"Propaganda", def:"Posters, films, and press campaigns used to recruit, demonize the enemy, and sustain morale.", why:"CED-named mobilization strategy."},
+{t:"7.3", term:"Trench warfare", def:"Stalemate on the Western Front where armies dug in behind barbed wire and machine guns.", why:"Why new technology caused mass casualties."},
+{t:"7.3", term:"Machine guns, poison gas, tanks, aircraft, submarines", def:"New weapons of WWI that turned attacks into slaughter and war into industry.", why:"KC-6.1.III.C — 'new military technology led to increased... casualties.'"},
+{t:"7.3", term:"Colonial troops", def:"Soldiers and laborers from India, Africa, and Indochina mobilized by Britain and France.", why:"CED: mobilizing populations 'in the colonies.'"},
+{t:"7.3", term:"Home front", def:"Civilian war effort: rationing, women in factories, war bonds, censorship.", why:"Total war at home."},
+{t:"7.3", term:"Conscription", def:"Mandatory military service used by all major powers to field armies of millions.", why:"How states mobilized populations."},
+{t:"7.3", term:"Armenian Genocide (1915–1917)", def:"Ottoman deportation and murder of roughly a million Armenians during WWI.", why:"CED-named mass atrocity (7.8) that happened during WWI."},
+// 7.4 Interwar economy
+{t:"7.4", term:"Great Depression", def:"Worldwide economic collapse after the 1929 U.S. stock crash: banks failed, trade fell, unemployment soared.", why:"KC-6.3.I.B — the crisis that made governments intervene."},
+{t:"7.4", term:"New Deal", def:"Franklin Roosevelt's U.S. programs of relief, jobs, and regulation to fight the Depression.", why:"CED-named government intervention."},
+{t:"7.4", term:"John Maynard Keynes", def:"British economist who argued governments should spend during downturns to restore demand.", why:"The theory behind New Deal-style intervention."},
+{t:"7.4", term:"Five-Year Plans", def:"Stalin's state-directed drives (from 1928) to build heavy industry and collectivize farms.", why:"KC-6.3.I.A — Soviet control of the economy."},
+{t:"7.4", term:"Collectivization", def:"Forcing peasants onto state-run collective farms; resistance and grain seizures caused famine.", why:"The 'repressive policies, with negative repercussions' of the Five-Year Plans."},
+{t:"7.4", term:"Fascist corporatist economy", def:"Mussolini's system organizing employers and workers into state-controlled 'corporations' by industry.", why:"CED-named government intervention."},
+{t:"7.4", term:"Getúlio Vargas (Brazil)", def:"Populist leader (1930–1945) who used state power to industrialize Brazil and win worker support.", why:"CED-named: 'governments with strong popular support in Brazil.'"},
+{t:"7.4", term:"Lázaro Cárdenas (Mexico)", def:"President (1934–1940) who redistributed land and nationalized foreign oil companies (1938).", why:"CED-named: popular government intervention in Mexico."},
+{t:"7.4", term:"Tariffs / Smoot-Hawley", def:"Protective taxes on imports that deepened the Depression by strangling world trade.", why:"Government intervention that backfired."},
+// 7.5 Unresolved tensions
+{t:"7.5", term:"Treaty of Versailles (1919)", def:"Peace treaty that blamed Germany, imposed reparations, stripped territory, and limited its army.", why:"The 'unsustainable peace settlement.'"},
+{t:"7.5", term:"League of Nations", def:"International body created to prevent war; lacked the U.S. and any real power.", why:"Failed to stop aggression in the 1930s."},
+{t:"7.5", term:"Mandate system", def:"League arrangement giving former German and Ottoman territories to Britain and France to 'prepare' for independence.", why:"CED-named territorial gain — empire under a new name."},
+{t:"7.5", term:"Self-determination", def:"Wilson's principle that peoples should choose their own governments — applied in Europe, denied in the colonies.", why:"Raised anticolonial expectations."},
+{t:"7.5", term:"Indian National Congress", def:"Founded 1885; under Gandhi became a mass movement for Indian independence through nonviolent resistance.", why:"CED-named anti-imperial resistance between the wars."},
+{t:"7.5", term:"Mohandas Gandhi", def:"Leader of Indian nationalism who used satyagraha (nonviolent civil disobedience) — the Salt March (1930).", why:"Face of interwar anti-imperialism."},
+{t:"7.5", term:"West African resistance", def:"Strikes, newspapers, and congresses (e.g., in Senegal and Dahomey) against French colonial rule.", why:"CED-named anti-imperial resistance."},
+{t:"7.5", term:"Manchukuo", def:"Japan's puppet state in Manchuria after the 1931 invasion.", why:"CED-named Japanese territorial gain."},
+{t:"7.5", term:"Greater East Asia Co-Prosperity Sphere", def:"Japan's slogan for its empire in Asia, promising liberation from Europe but delivering conquest.", why:"CED-named."},
+{t:"7.5", term:"Balfour Declaration (1917)", def:"British promise of a 'national home' for Jews in Palestine, conflicting with promises to Arabs.", why:"An unresolved tension still alive today."},
+// 7.6 Causes of WWII
+{t:"7.6", term:"Fascism", def:"Ultra-nationalist, anti-democratic, anti-communist ideology glorifying the state, the leader, and war.", why:"KC-6.2.IV.B.ii — 'the rise to power of fascist and totalitarian regimes.'"},
+{t:"7.6", term:"Totalitarianism", def:"A state that seeks total control over politics, economy, culture, and private life through terror and propaganda.", why:"Nazi Germany and Stalin's USSR."},
+{t:"7.6", term:"Benito Mussolini", def:"Founder of fascism; ruled Italy from 1922; invaded Ethiopia in 1935.", why:"The first fascist dictator."},
+{t:"7.6", term:"Adolf Hitler", def:"Nazi leader who took power in 1933, rearmed Germany, and launched WWII by invading Poland.", why:"CED-named: 'aggressive militarism of Nazi Germany under Adolf Hitler.'"},
+{t:"7.6", term:"Nazism", def:"Hitler's version of fascism with racial antisemitism and the demand for Lebensraum (living space) at its core.", why:"Ideology behind the Holocaust and the war in the East."},
+{t:"7.6", term:"Appeasement", def:"Britain and France giving in to Hitler's demands (Munich, 1938) to avoid war.", why:"Why aggression went unchecked."},
+{t:"7.6", term:"Munich Agreement (1938)", def:"Britain and France let Germany take the Sudetenland from Czechoslovakia.", why:"The symbol of appeasement."},
+{t:"7.6", term:"Japanese militarism", def:"Army-dominated government that invaded Manchuria (1931) and China (1937) for resources and empire.", why:"CED: 'continued imperialist aspirations.'"},
+{t:"7.6", term:"Nazi-Soviet Pact (1939)", def:"Hitler and Stalin's nonaggression pact secretly dividing Poland.", why:"Cleared the way for the invasion of Poland."},
+{t:"7.6", term:"Spanish Civil War (1936–1939)", def:"Franco's fascist-backed nationalists defeated the republic; a testing ground for German and Italian weapons.", why:"Prelude to WWII."},
+// 7.7 Conducting WWII
+{t:"7.7", term:"Winston Churchill", def:"British prime minister who rallied the nation through the Blitz with speeches and propaganda.", why:"CED-named Western democracy mobilizing for war."},
+{t:"7.7", term:"Franklin Roosevelt", def:"U.S. president who turned America into the 'arsenal of democracy' and led it through the war.", why:"CED-named."},
+{t:"7.7", term:"Joseph Stalin", def:"Soviet dictator who mobilized the USSR's entire population and industry, at enormous human cost, to defeat Germany.", why:"CED-named totalitarian state mobilizing for war."},
+{t:"7.7", term:"Blitzkrieg", def:"'Lightning war' — fast, combined tank and air attacks that conquered Poland and France.", why:"New tactics of WWII."},
+{t:"7.7", term:"Firebombing", def:"Mass incendiary raids on cities — Dresden, Tokyo — that killed tens of thousands of civilians in a night.", why:"CED-named new tactic increasing casualties."},
+{t:"7.7", term:"Atomic bomb", def:"Nuclear weapons dropped on Hiroshima and Nagasaki (August 1945), ending the war with Japan.", why:"CED-named; opens the nuclear age (Unit 8)."},
+{t:"7.7", term:"Rosie the Riveter", def:"U.S. propaganda figure recruiting women into war factories.", why:"Home-front mobilization and gender roles."},
+{t:"7.7", term:"Japanese American internment", def:"Forced relocation of 120,000 Japanese Americans to camps after Pearl Harbor.", why:"Repression of freedoms even in a democracy at war."},
+{t:"7.7", term:"Colonial soldiers in WWII", def:"Millions from India, Africa, and the Caribbean fought for Britain and France; expectations of freedom followed.", why:"CED: mobilizing 'the colonies or former colonies.'"},
+{t:"7.7", term:"Gulag", def:"Soviet forced-labor camp system used to terrorize and exploit millions under Stalin.", why:"Totalitarian repression 'during... and beyond' the conflicts."},
+// 7.8 Mass atrocities
+{t:"7.8", term:"Genocide", def:"The deliberate attempt to destroy a national, ethnic, racial, or religious group.", why:"Term coined in 1944 by Raphael Lemkin; KC-6.2.III.C."},
+{t:"7.8", term:"Holocaust", def:"Nazi murder of six million Jews and millions of others (Roma, disabled people, Slavs, political prisoners) in ghettos, shootings, and death camps.", why:"CED-named: 'the Nazi killing of the Jews.'"},
+{t:"7.8", term:"Final Solution", def:"Nazi plan (1942) to exterminate all European Jews using camps like Auschwitz.", why:"The industrialized phase of the Holocaust."},
+{t:"7.8", term:"Armenian Genocide", def:"Ottoman deportations and massacres of Armenians (1915–1917), about a million dead.", why:"CED-named atrocity 'during and after World War I.'"},
+{t:"7.8", term:"Holodomor", def:"Famine in Soviet Ukraine (1932–1933) caused by Stalin's grain seizures and collectivization; millions died.", why:"CED-named: 'Ukraine in the Soviet Union in the 1920s and 1930s.'"},
+{t:"7.8", term:"Cambodian genocide", def:"Pol Pot's Khmer Rouge killed about two million (1975–1979) trying to build an agrarian communist utopia.", why:"CED-named: 'Cambodia during the late 1970s.'"},
+{t:"7.8", term:"Rwandan genocide (1994)", def:"Hutu extremists killed about 800,000 Tutsi and moderate Hutu in 100 days.", why:"CED-named: 'Tutsi in Rwanda in the 1990s.'"},
+{t:"7.8", term:"Nuremberg Trials", def:"Allied tribunals (1945–1946) that prosecuted Nazi leaders for war crimes and crimes against humanity.", why:"Consequence: international law on atrocities."},
+{t:"7.8", term:"Bosnian genocide / Srebrenica (1995)", def:"Bosnian Serb forces murdered 8,000 Muslim men and boys during the Yugoslav wars.", why:"Ethnic violence after the Cold War."},
+],
+states: [
+{t:"7.1", name:"Ottoman Empire → Republic of Turkey", region:"Anatolia, Middle East, Balkans", dates:"1908–1923", gained:"Balkan losses, European debt, and the Young Turk revolution (1908) — then defeat in WWI.", kept:"Young Turks pushed Turkish nationalism and joined Germany in WWI; the Armenian Genocide; Sèvres partition resisted by Atatürk's army.", known:"CED-named land empire that collapsed from internal and external factors.", end:"Sultanate abolished 1922; secular Turkish Republic under Atatürk (1923); Arab lands became mandates."},
+{t:"7.1", name:"Russian Empire → Soviet Union", region:"Russia", dates:"1905–1922", gained:"Defeat by Japan (1905), Bloody Sunday, and WWI's catastrophic losses destroyed the tsar's legitimacy.", kept:"February 1917 provisional government kept fighting; Lenin's Bolsheviks seized power in October, won a civil war (1918–1921), and built a one-party state.", known:"CED-named: 'these changes in Russia eventually led to communist revolution.'", end:"The USSR (1922) — the world's first communist state; Stalin's Five-Year Plans followed."},
+{t:"7.1", name:"Qing China → Republic → warlords", region:"China", dates:"1911–1928", gained:"Opium Wars, Taiping, defeat by Japan, the Boxer fiasco, and failed reform left the dynasty hollow.", kept:"The 1911 Revolution declared a republic under Sun Yat-sen, but General Yuan Shikai took over and then warlords carved up the country.", known:"CED-named collapse of the last land-based empire in Asia.", end:"Guomindang and Communists fought for China from 1927 (Unit 8)."},
+{t:"7.1", name:"Mexican Revolution", region:"Mexico", dates:"1910–1920", gained:"Díaz's 35-year dictatorship, foreign ownership of land and resources, and landless peasants.", kept:"Madero, Zapata, Villa, and Carranza fought a shifting civil war; the 1917 Constitution promised land, labor rights, and national control of resources.", known:"CED-named revolution 'as a result of political crisis'; Cárdenas's oil nationalization (1938) fulfilled it.", end:"The PRI ruled Mexico for 71 years under the revolution's banner."},
+{t:"7.2", name:"World War I", region:"Europe, Middle East, Africa, Atlantic", dates:"1914–1918", gained:"Militarism, alliances, imperialism, and nationalism, ignited by the Sarajevo assassination.", kept:"Trench stalemate in the west, Russian collapse in the east, total-war mobilization with propaganda, conscription, and colonial troops; U.S. entry in 1917.", known:"The first total war; roughly 20 million dead; three empires destroyed.", end:"Armistice November 1918; Versailles blamed Germany and planted the seeds of WWII."},
+{t:"7.4", name:"Stalin's Soviet Union", region:"USSR", dates:"1928–1953", gained:"Stalin outmaneuvered rivals after Lenin's death (1924).", kept:"Five-Year Plans built steel and tractors; collectivization starved Ukraine; purges and the Gulag terrorized the population; total mobilization defeated Hitler.", known:"CED-named state economy 'with negative repercussions for the population'; the Holodomor.", end:"A superpower by 1945 — and the Cold War's other pole (Unit 8)."},
+{t:"7.6", name:"Fascist Italy", region:"Italy, Libya, Ethiopia", dates:"1922–1943", gained:"Postwar chaos, fear of communism, and resentment over the 'mutilated victory' of 1919.", kept:"Mussolini's one-party state, corporatist economy, propaganda, and invasion of Ethiopia (1935).", known:"The first fascist regime; the CED-named 'fascist corporatist economy.'", end:"Mussolini overthrown in 1943 and executed in 1945."},
+{t:"7.6", name:"Nazi Germany", region:"Germany and occupied Europe", dates:"1933–1945", gained:"Versailles humiliation, hyperinflation, the Depression, and Hitler's propaganda brought the Nazis to power in 1933.", kept:"Totalitarian control, rearmament, Lebensraum conquest, and the Holocaust; blitzkrieg across Europe.", known:"CED-named 'aggressive militarism of Nazi Germany under Adolf Hitler'; the Holocaust.", end:"Unconditional surrender May 1945; Nuremberg Trials; Germany divided."},
+{t:"7.6", name:"Imperial Japan", region:"Japan, Korea, Manchuria, China, Southeast Asia", dates:"1931–1945", gained:"Depression, resource hunger, and militarists who overrode civilian government.", kept:"Manchukuo (1932), invasion of China (1937, Nanjing massacre), the Co-Prosperity Sphere, Pearl Harbor (1941).", known:"CED-named Manchukuo and Greater East Asia Co-Prosperity Sphere.", end:"Firebombing and atomic bombs forced surrender in August 1945; U.S. occupation."},
+{t:"7.6", name:"World War II", region:"Global", dates:"1939–1945", gained:"Versailles, the Depression, imperial ambitions, and fascist aggression left unchecked by appeasement.", kept:"Blitzkrieg, the Eastern Front, the Pacific island war, strategic bombing, total mobilization of democracies (Churchill, FDR) and dictatorships (Hitler, Stalin).", known:"The deadliest war in history — 60–80 million dead; the Holocaust; the atomic bomb.", end:"Axis defeated 1945; the United Nations, the Cold War, and decolonization followed (Unit 8)."},
+{t:"7.5", name:"British Raj under pressure", region:"India", dates:"1919–1947", gained:"WWI service without self-rule, the Amritsar massacre (1919), and Gandhi's leadership turned Congress into a mass movement.", kept:"Noncooperation, the Salt March (1930), Quit India (1942) against a Britain that granted partial reforms but not freedom.", known:"CED-named anti-imperial resistance: the Indian National Congress.", end:"Independence and partition in 1947 (Unit 8)."},
+{t:"7.4", name:"Vargas's Brazil and Cárdenas's Mexico", region:"Latin America", dates:"1930–1945", gained:"The Depression collapsed coffee and export prices, discrediting the old elites.", kept:"Vargas's Estado Novo built state industries and courted workers; Cárdenas redistributed land and nationalized oil (1938).", known:"CED-named 'governments with strong popular support in Brazil and Mexico' intervening in the economy.", end:"State-led development became the Latin American model for decades."},
+],
+timeline: [
+{y:"1905", e:"Russo-Japanese War ends; Russian Revolution of 1905", reg:"Russia / Japan", t:"7.1", why:"Asian victory over Europe; the tsar's first warning."},
+{y:"1908", e:"Young Turk Revolution", reg:"Ottoman Empire", t:"7.1", why:"Nationalist reform that hastened imperial collapse."},
+{y:"1910", e:"Mexican Revolution begins", reg:"Mexico", t:"7.1", why:"CED-named revolution from political crisis."},
+{y:"1911", e:"Qing Dynasty falls", reg:"China", t:"7.1", why:"End of 2,000 years of imperial rule."},
+{y:"1914", e:"Franz Ferdinand assassinated; WWI begins", reg:"Sarajevo / Europe", t:"7.2", why:"The spark meets MAIN."},
+{y:"1915", e:"Armenian Genocide begins", reg:"Ottoman Empire", t:"7.8", why:"CED-named atrocity during WWI."},
+{y:"1917", e:"U.S. enters war; Bolshevik Revolution; Mexican Constitution", reg:"U.S. / Russia / Mexico", t:"7.1", why:"The year that reshaped three nations."},
+{y:"1919", e:"Treaty of Versailles; League of Nations; Amritsar", reg:"Paris / India", t:"7.5", why:"An unsustainable peace and colonial anger."},
+{y:"1922", e:"Mussolini takes power; USSR founded", reg:"Italy / Russia", t:"7.6", why:"Fascism and communism get their states."},
+{y:"1928", e:"First Five-Year Plan", reg:"USSR", t:"7.4", why:"State-controlled industrialization."},
+{y:"1929", e:"Stock market crash; Great Depression begins", reg:"U.S. / global", t:"7.4", why:"Economic crisis that empowered extremists."},
+{y:"1931", e:"Japan invades Manchuria", reg:"East Asia", t:"7.5", why:"Manchukuo; the League does nothing."},
+{y:"1932–33", e:"Holodomor; Hitler becomes chancellor; New Deal begins", reg:"Ukraine / Germany / U.S.", t:"7.8", why:"Three responses to crisis: terror, fascism, reform."},
+{y:"1935", e:"Italy invades Ethiopia", reg:"Ethiopia", t:"7.6", why:"Fascist imperialism; the League fails again."},
+{y:"1938", e:"Munich Agreement; Mexico nationalizes oil", reg:"Europe / Mexico", t:"7.6", why:"Appeasement; popular government intervention."},
+{y:"1939", e:"Nazi-Soviet Pact; Germany invades Poland", reg:"Europe", t:"7.6", why:"WWII begins."},
+{y:"1941", e:"Germany invades USSR; Pearl Harbor", reg:"Eastern Europe / Pacific", t:"7.7", why:"The war goes truly global."},
+{y:"1942", e:"Wannsee Conference — the Final Solution", reg:"Germany", t:"7.8", why:"The Holocaust becomes industrial."},
+{y:"1945", e:"Germany surrenders; Hiroshima and Nagasaki; Japan surrenders", reg:"Global", t:"7.7", why:"Total war ends with the atomic bomb."},
+{y:"1975–79", e:"Cambodian genocide", reg:"Cambodia", t:"7.8", why:"CED-named atrocity after WWII."},
+{y:"1994", e:"Rwandan genocide", reg:"Rwanda", t:"7.8", why:"CED-named atrocity in the 1990s."},
+],
+developments: [
+{id:"7.1", title:"Shifting Power After 1900", themes:"GOV",
+los:["A — Explain how internal and external factors contributed to change in various states after 1900."],
+kcs:[
+{code:"KC-6.2.I", official:"The West dominated the global political order at the beginning of the 20th century, but both land-based and maritime empires gave way to new states by the century's end.", plain:"1900: empires everywhere. 2000: nation-states everywhere."},
+{code:"KC-6.2.I.A", official:"The older, land-based Ottoman, Russian, and Qing empires collapsed due to a combination of internal and external factors. These changes in Russia eventually led to communist revolution.", plain:"Three old empires fell — Russia's became communist."},
+{code:"KC-6.2.II.D", official:"States around the world challenged the existing political and social order, including the Mexican Revolution that arose as a result of political crisis.", plain:"Mexico's revolution came from a political crisis, not a war."},
+],
+ex:["Young Turks and Atatürk","1905 and 1917 Russian Revolutions","1911 Revolution and the warlord era","Díaz, Zapata, Villa, the 1917 Constitution"]},
+{id:"7.2", title:"Causes of World War I", themes:"GOV",
+los:["B — Explain the causes and consequences of World War I."],
+kcs:[
+{code:"KC-6.2.IV.B.i", official:"The causes of World War I included imperialist expansion and competition for resources. In addition, territorial and regional conflicts combined with a flawed alliance system and intense nationalism to escalate the tensions into global conflict.", plain:"Imperialism + Balkan conflicts + alliances + nationalism = world war."},
+],
+ex:["Anglo-German naval race","Triple Alliance vs. Triple Entente","Moroccan crises","Balkan Wars (1912–1913)","Sarajevo, June 1914"]},
+{id:"7.3", title:"Conducting World War I", themes:"TEC · GOV",
+los:["C — Explain how governments used a variety of methods to conduct war."],
+kcs:[
+{code:"KC-6.2.IV.A.i", official:"World War I was the first total war. Governments used a variety of strategies, including political propaganda, art, media, and intensified forms of nationalism, to mobilize populations (both in the home countries and the colonies) for the purpose of waging war.", plain:"Everyone — at home and in the colonies — was pulled into the war."},
+{code:"KC-6.1.III.C.i", official:"New military technology led to increased levels of wartime casualties.", plain:"Industrial weapons against 19th-century tactics = slaughter."},
+],
+ex:["Recruitment posters","Conscription","Indian and Senegalese troops","Machine guns, gas, tanks, U-boats","Rationing and women in factories"]},
+{id:"7.4", title:"Economy in the Interwar Period", themes:"ECN · GOV",
+los:["D — Explain how different governments responded to economic crisis after 1900."],
+kcs:[
+{code:"KC-6.3.I.B", official:"Following World War I and the onset of the Great Depression, governments began to take a more active role in economic life.", plain:"Laissez-faire died in the Depression."},
+{code:"KC-6.3.I.A.i", official:"In the Soviet Union, the government controlled the national economy through the Five Year Plans, often implementing repressive policies, with negative repercussions for the population.", plain:"The USSR ran the whole economy — and starved millions doing it."},
+],
+ex:["The New Deal","The fascist corporatist economy","Governments with strong popular support in Brazil (Vargas) and Mexico (Cárdenas)"]},
+{id:"7.5", title:"Unresolved Tensions After World War I", themes:"GOV",
+los:["E — Explain the continuities and changes in territorial holdings from 1900 to the present."],
+kcs:[
+{code:"KC-6.2.I.B", official:"Between the two world wars, Western and Japanese imperial states predominantly maintained control over colonial holdings; in some cases, they gained additional territories through conquest or treaty settlement and in other cases faced anti-imperial resistance.", plain:"Empires kept their colonies, grabbed some more, and faced growing resistance."},
+],
+ex:["League of Nations mandates (ex-German colonies to Britain and France)","Manchukuo / Greater East Asia Co-Prosperity Sphere","Indian National Congress","West African strikes and congresses against French rule"]},
+{id:"7.6", title:"Causes of World War II", themes:"GOV",
+los:["F — Explain the causes and consequences of World War II."],
+kcs:[
+{code:"KC-6.2.IV.B.ii", official:"The causes of World War II included the unsustainable peace settlement after World War I, the global economic crisis engendered by the Great Depression, continued imperialist aspirations, and especially the rise to power of fascist and totalitarian regimes that resulted in the aggressive militarism of Nazi Germany under Adolf Hitler.", plain:"Versailles + Depression + imperial ambitions + fascism (especially Hitler) = WWII."},
+],
+ex:["Versailles reparations and 'war guilt'","Hyperinflation and unemployment in Germany","Japan in Manchuria, Italy in Ethiopia","Appeasement at Munich","Nazi-Soviet Pact"]},
+{id:"7.7", title:"Conducting World War II", themes:"TEC · GOV · CDI",
+los:["G — Explain similarities and differences in how governments used a variety of methods to conduct war."],
+kcs:[
+{code:"KC-6.2.IV.A.ii", official:"World War II was a total war. Governments used a variety of strategies, including political propaganda, art, media, and intensified forms of nationalism, to mobilize populations (both in the home countries and the colonies or former colonies) for the purpose of waging war. Governments used ideologies, including fascism and communism, to mobilize all of their state's resources for war and, in the case of totalitarian states, to repress basic freedoms and dominate many aspects of daily life during the course of the conflicts and beyond.", plain:"Democracies and dictatorships both mobilized everything — dictatorships also crushed freedom."},
+{code:"KC-6.1.III.C.ii", official:"New military technology and new tactics, including the atomic bomb, fire-bombing, and the waging of 'total war' led to increased levels of wartime casualties.", plain:"Bombing cities made civilians the main casualties."},
+],
+ex:["Democracies: Britain under Churchill, U.S. under Roosevelt","Totalitarian: Germany under Hitler, USSR under Stalin","Firebombing of Dresden and Tokyo","Hiroshima and Nagasaki"]},
+{id:"7.8", title:"Mass Atrocities After 1900", themes:"SIO · GOV",
+los:["H — Explain the various causes and consequences of mass atrocities in the period from 1900 to the present."],
+kcs:[
+{code:"KC-6.2.III.C", official:"The rise of extremist groups in power led to the attempted destruction of specific populations, notably the Nazi killing of the Jews in the Holocaust during World War II, and to other atrocities, acts of genocide, or ethnic violence.", plain:"Extremists in power tried to wipe out whole peoples."},
+],
+ex:["Armenians in the Ottoman Empire (WWI and after)","Ukraine in the Soviet Union (1920s–1930s)","The Holocaust","Cambodia (late 1970s)","Tutsi in Rwanda (1990s)"]},
+{id:"7.9", title:"Causation in Global Conflict", themes:"Argumentation (6.C)",
+los:["I — Explain the relative significance of the causes of global conflict in the period 1900 to the present."],
+kcs:[
+{code:"KC-6.2", official:"Peoples and states around the world challenged the existing political and social order in varying ways, leading to unprecedented worldwide conflicts.", plain:"The unit's thesis: challenges to the old order → world wars."},
+{code:"KC-6.1", official:"Rapid advances in science and technology altered the understanding of the universe and the natural world and led to advances in communication, transportation, industry, agriculture, and medicine.", plain:"Technology cut both ways — it saved lives and killed millions."},
+{code:"KC-6.2.I", official:"The West dominated the global political order at the beginning of the 20th century, but both land-based and maritime empires gave way to new states by the century's end.", plain:"Empires out, nation-states in — the century's through-line."},
+],
+ex:["Rank the causes: nationalism, imperialism, economic crisis, ideology, technology, failed peace","Compare causes of WWI and WWII — which mattered more?"]},
+],
+context: [
+{topic:"Collapse of land empires", before:"Before 1900, the Ottoman, Russian, and Qing empires had survived for centuries but had failed to fully modernize during the 1800s.", during:"During 1900–1925, defeat in war, nationalist revolts, and economic weakness toppled all three, producing Atatürk's Turkey, Lenin's Soviet Union, and a Chinese republic that dissolved into warlordism."},
+{topic:"World War I", before:"Before 1914, European powers competed for colonies, built huge armies, and locked themselves into rival alliances.", during:"During 1914–1918, the Sarajevo assassination triggered a total war in which machine guns, gas, and propaganda mobilized whole societies and killed roughly twenty million."},
+{topic:"Interwar economy", before:"Before 1929, governments mostly followed laissez-faire and the 1920s boomed on credit.", during:"During 1929–1939, the Great Depression pushed the U.S. toward the New Deal, Italy toward corporatism, the USSR deeper into Five-Year Plans, and Brazil and Mexico toward populist state intervention."},
+{topic:"Rise of fascism and WWII", before:"Before 1919, Germany was a monarchy and Italy a parliamentary kingdom; both felt cheated by the peace.", during:"During 1919–1939, the Versailles settlement, the Depression, and fear of communism lifted Mussolini and Hitler to power, and appeasement let their aggression grow into a second world war."},
+{topic:"Total war", before:"Before 1914, wars were fought mainly by professional armies with limited civilian involvement.", during:"During 1914–1945, states used conscription, propaganda, rationing, colonial troops, and finally strategic bombing and atomic weapons to mobilize entire populations and target civilians."},
+{topic:"Mass atrocities", before:"Before 1900, massacres occurred but states lacked the bureaucracy and technology to destroy whole peoples systematically.", during:"During 1900–present, extremist regimes used modern states to carry out the Armenian Genocide, the Holodomor, the Holocaust, and later genocides in Cambodia and Rwanda."},
+],
+};
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let activeTopic = "all", query = "";
+const state = { quiz:false, hideFronts:false, onlyMissed:false, marks:{} };
+try { Object.assign(state.marks, JSON.parse(localStorage.getItem("apwh-u"+UNIT.number+"-marks")||"{}")); } catch(e){}
+function saveMarks(){ try{ localStorage.setItem("apwh-u"+UNIT.number+"-marks", JSON.stringify(state.marks)); }catch(e){} }
+// hero
+$("#unitLede").textContent = UNIT.lede;
+$("#unitStats").innerHTML = UNIT.stats.map(([b,l]) => `<div class="stat"><b>${esc(b)}</b><span>${esc(l)}</span></div>`).join("");
+$("#topicList").innerHTML = UNIT.topics.map(t => `<div class="topic-row"><span class="num">${esc(t.id)}</span><span>${esc(t.title)}</span><span class="theme">${esc(t.themes)}</span></div>`).join("");
+// chips
+const chipsEl = $("#chips");
+chipsEl.innerHTML = [`<button class="chip on" data-t="all">All topics</button>`].concat(
+UNIT.topics.filter(t => !t.review).map(t => `<button class="chip" data-t="${t.id}">${t.id} ${esc(t.title.replace(/^(Developments in|State Building in) /,""))}</button>`)).join("");
+chipsEl.addEventListener("click", e => {
+const b = e.target.closest(".chip"); if(!b) return;
+$$(".chip").forEach(c => c.classList.toggle("on", c === b));
+activeTopic = b.dataset.t; applyFilter();
+});
+$("#search").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); applyFilter(); });
+// cards
+const topicName = id => (UNIT.topics.find(t => t.id === id) || {title:""}).title.replace(/^(Developments in|State Building in) /,"");
+function vocabCard(v, i){
+return `<div class="card" data-t="${v.t}" data-key="v${i}" data-text="${esc((v.term+" "+v.def).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(v.term)} — flip card">
+<div class="face front"><span class="tag">${v.t} · ${esc(topicName(v.t))}</span><div class="term">${esc(v.term)}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${v.t} · definition</span><div class="term">${esc(v.term)}</div><div class="def">${esc(v.def)}</div><div class="why"><b>Why it matters:</b> ${esc(v.why)}</div></div>
+</button>
+<div class="mark"><button class="got" data-m="got">✓ Got it</button><button class="miss" data-m="miss">✗ Missed</button></div></div>`;
+}
+const SF = Object.assign({gained:"Gained power", kept:"Kept power", known:"Known for", end:"End", cue:"Before you flip — how did it <b>gain</b> power, how did it <b>keep</b> it, and what is it <b>known for</b>?"}, UNIT.stateFields || {});
+if (UNIT.statesLabel) { $("#statesH").textContent = UNIT.statesLabel; $('.bar a[href="#states"]').textContent = UNIT.statesLabel; }
+if (UNIT.statesBlurb) $("#statesP").textContent = UNIT.statesBlurb;
+function stateCard(s, i){
+return `<div class="card" data-t="${s.t}" data-key="s${i}" data-text="${esc((s.name+" "+s.region+" "+s.known).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(s.name)} — flip card">
+<div class="face front"><span class="tag">${s.t} · ${esc(s.region)}</span><div class="term">${esc(s.name)}</div><div class="sub">${esc(s.dates)}</div><div class="cue">${SF.cue}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${esc(s.region)} · ${esc(s.dates)}</span><div class="term">${esc(s.name)}</div>
+<p class="kv"><b>${SF.gained}:</b> ${esc(s.gained)}</p><p class="kv"><b>${SF.kept}:</b> ${esc(s.kept)}</p><p class="kv"><b>${SF.known}:</b> ${esc(s.known)}</p><p class="kv"><b>${SF.end}:</b> ${esc(s.end)}</p></div>
+</button></div>`;
+}
+let vocabOrder = UNIT.vocab.map((v,i) => i);
+function renderVocab(){ $("#vocabGrid").innerHTML = vocabOrder.map(i => vocabCard(UNIT.vocab[i], i)).join(""); paintMarks(); applyFilter(); }
+renderVocab();
+$("#stateGrid").innerHTML = UNIT.states.map(stateCard).join("");
+document.addEventListener("click", e => {
+const m = e.target.closest(".mark button");
+if (m){ const card = m.closest(".card"); const k = card.dataset.key; state.marks[k] = (state.marks[k] === m.dataset.m) ? null : m.dataset.m; saveMarks(); paintMarks(); applyFilter(); return; }
+const inner = e.target.closest(".card-inner");
+if (inner){ const card = inner.closest(".card"); card.classList.toggle("flipped"); inner.setAttribute("aria-pressed", card.classList.contains("flipped")); }
+});
+function paintMarks(){
+let got = 0, miss = 0;
+$$("#vocabGrid .card").forEach(c => { const m = state.marks[c.dataset.key]; c.classList.toggle("got", m === "got"); c.classList.toggle("miss", m === "miss"); if (m === "got") got++; if (m === "miss") miss++; });
+$("#gotN").textContent = got + " got it"; $("#missN").textContent = miss + " missed";
+}
+$("#shuffleVocab").onclick = () => { for (let i = vocabOrder.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [vocabOrder[i], vocabOrder[j]] = [vocabOrder[j], vocabOrder[i]]; } renderVocab(); };
+function flipAll(sel){ const cards = $$(sel + " .card:not(.hidden)"); const anyUn = cards.some(c => !c.classList.contains("flipped")); cards.forEach(c => { c.classList.toggle("flipped", anyUn); c.querySelector(".card-inner").setAttribute("aria-pressed", anyUn); }); }
+$("#flipAllVocab").onclick = () => flipAll("#vocabGrid");
+$("#flipAllStates").onclick = () => flipAll("#stateGrid");
+$("#quizBtn").onclick = () => { state.quiz = !state.quiz; $("#vocab").classList.toggle("quiz", state.quiz); $("#quizBtn").classList.toggle("on", state.quiz); $("#quizBtn").textContent = state.quiz ? "Exit quiz" : "Quiz me"; if(!state.quiz){ state.onlyMissed=false; $("#onlyMissed").classList.remove("on"); state.hideFronts=false; $("#vocab").classList.remove("hide-fronts"); $("#hideFronts").classList.remove("on"); } applyFilter(); };
+$("#hideFronts").onclick = () => { state.hideFronts = !state.hideFronts; $("#vocab").classList.toggle("hide-fronts", state.hideFronts); $("#hideFronts").classList.toggle("on", state.hideFronts); $("#hideFronts").textContent = state.hideFronts ? "Show terms" : "Hide terms"; $$("#vocabGrid .card").forEach(c => c.classList.remove("flipped")); };
+$("#onlyMissed").onclick = () => { state.onlyMissed = !state.onlyMissed; $("#onlyMissed").classList.toggle("on", state.onlyMissed); applyFilter(); };
+$("#resetQuiz").onclick = () => { state.marks = {}; saveMarks(); paintMarks(); applyFilter(); };
+// timeline
+$("#rail").innerHTML = UNIT.timeline.map((d, i) => `<li data-t="${d.t}" data-text="${esc((d.y+" "+d.e+" "+d.reg).toLowerCase())}"><button class="year" aria-expanded="false"><div class="dot"></div><div class="y">${esc(d.y)}</div><div class="e">${esc(d.e)}</div><div class="reg">${esc(d.reg)} · ${d.t}</div><div class="more">${esc(d.why)}</div></button></li>`).join("");
+$("#rail").addEventListener("click", e => { const b = e.target.closest(".year"); if(!b) return; b.classList.toggle("open"); b.setAttribute("aria-expanded", b.classList.contains("open")); });
+// developments
+$("#devList").innerHTML = UNIT.developments.map(d => `<details class="dev" data-t="${d.id}" data-text="${esc((d.title+" "+d.kcs.map(k=>k.official+" "+k.plain).join(" ")+" "+d.ex.join(" ")).toLowerCase())}">
+<summary><span class="num">${d.id}</span><span><div class="ttl">${esc(d.title)}</div><div class="themes">${esc(d.themes)}</div></span><span class="arrow">+</span></summary>
+<div class="body">
+<div class="lo"><b>Learning objective${d.los.length>1?"s":""}:</b> ${d.los.map(esc).join(" &nbsp;·&nbsp; ")}</div>
+${d.kcs.map(k => `<div class="kc"><div class="code">${esc(k.code)}</div><div class="official">${esc(k.official)}</div><div class="plain"><b>In plain English:</b> ${esc(k.plain)}</div></div>`).join("")}
+<div><div class="tag" style="margin-bottom:6px">Illustrative examples</div><div class="ex">${d.ex.map(x => `<span>${esc(x)}</span>`).join("")}</div></div>
+</div></details>`).join("");
+$("#openAllDev").onclick = () => { const devs = $$(".dev:not(.hidden)"); const anyClosed = devs.some(d => !d.open); devs.forEach(d => d.open = anyClosed); $("#openAllDev").textContent = anyClosed ? "Close all" : "Open all"; };
+// context
+$("#ctxList").innerHTML = UNIT.context.map(c => `<div class="c"><h3>${esc(c.topic)}</h3><p><b>Before</b> ${esc(c.before)}</p><p><b>During</b> ${esc(c.during)}</p></div>`).join("");
+// filter
+function applyFilter(){
+const match = el => (activeTopic === "all" || el.dataset.t === activeTopic) && (!query || el.dataset.text.includes(query));
+$$("#vocabGrid .card").forEach(c => { let ok = match(c); if (state.quiz && state.onlyMissed) ok = ok && state.marks[c.dataset.key] === "miss"; c.classList.toggle("hidden", !ok); });
+$$("#stateGrid .card").forEach(c => c.classList.toggle("hidden", !match(c)));
+$$("#rail li").forEach(li => li.classList.toggle("hidden", !match(li)));
+$$(".dev").forEach(d => d.classList.toggle("hidden", !match(d)));
+const n = $$("#vocabGrid .card:not(.hidden)").length, s = $$("#stateGrid .card:not(.hidden)").length;
+$("#cardCount").textContent = `${n} terms · ${s} ${UNIT.countLabel || "states"}`;
+}
+applyFilter();
+// nav: scroll inside #app (Google Sites full-page embeds disable frame scrolling)
+$$(".bar a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); const el = $(a.getAttribute("href")); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }));
+// nav highlight
+const links = $$(".bar a"); const secs = links.map(a => $(a.getAttribute("href")));
+const io = new IntersectionObserver(entries => { entries.forEach(en => { if (en.isIntersecting){ links.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id)); } }); }, { rootMargin: "-40% 0px -55% 0px" });
+secs.forEach(s => io.observe(s));
+</script>
+<style id="dm-css">
+html.dm{color-scheme:dark;--bg:#0E1230;--bg-2:#141A3E;--surface:#171D47;--surface-2:#1F2656;--paper:#1A2050;--line:#2D3572;--line-2:#3C458C;--ink:#EEF0FA;--ink-2:#C6CBE8;--muted:#A3AACF;--title:#F1E4B8;--gold-ink:#E6CB73;--gold-deep:#E6CB73;--gold-soft:#3A3112;--accent:#E07C88;--accent-soft:#3D1E24;--asoft:#3D1E24;--good:#4CC777;--good-soft:#173A24;--bad:#F07167;--bad-soft:#44201C;--green:#4CC777;--green-l:#173A24;--green-b:#2B6A3F;--red:#F07167;--red-l:#44201C;--red-b:#7A3530;--yellow:#F2C94C;--yellow-l:#3B3110;--yellow-b:#7A6A24;--blue:#7FB3F0;--blue-l:#17304F;--plum:#C9A6F0;--plum-l:#2F2246;--tT:#7FB3F0;--tE:#F0A36A;--tA:#C9A6F0;--tO:#4CC777;--shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px -6px rgba(0,0,0,.55);--shadow-lift:0 2px 4px rgba(0,0,0,.35),0 18px 40px -14px rgba(0,0,0,.7);--dm-card:var(--surface);--dm-ink:var(--ink);--dm-line:var(--line);--dm-tg-bg:#171D47;--dm-tg-fg:#E3C464;--dm-tg-b:#3C458C;--dm-tg-font:Arial,Helvetica,sans-serif}
+:where(html.dm) .chip:hover{border-color:#1E2761}
+:where(html.dm) .card.got .mark .got{border-color:#1B7F3B}
+:where(html.dm) .period-head h2{color:#B9C4FF}
+:where(html.dm) .unit h3{color:#B9C4FF}
+:where(html.dm) .how p b{color:#B9C4FF}
+:where(html.dm) footer b{color:#B9C4FF}
+:where(html.dm) footer a{color:#B9C4FF}
+:where(html.dm) .hk{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .hk-i.g{background:#1B7F3B}
+:where(html.dm) .hk-i.p{background:#5B2C83}
+:where(html.dm) .hk-i.y{background:#8A6D12}
+:where(html.dm) .hk b{color:#B9C4FF}
+:where(html.dm) .sec-head h2{color:#B9C4FF}
+:where(html.dm) .flip.open .fq{color:#B9C4FF}
+:where(html.dm) .flip.open .fa b,:where(html.dm) .flip.open .bigans{color:#B9C4FF}
+:where(html.dm) .chip{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .chip:hover{color:#B9C4FF}
+:where(html.dm) .fcard{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fcard h3{color:#B9C4FF}
+:where(html.dm) .pill.navy{color:#B9C4FF}
+:where(html.dm) .bar i{background:linear-gradient(90deg,var(--navy),#1B7F3B)}
+:where(html.dm) .btn{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .btn.checkb{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .w-title h2{color:#B9C4FF}
+:where(html.dm) .namebox input{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .scorebar .dots button.y{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .promptbox .q{color:#B9C4FF}
+:where(html.dm) .stim{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .ptable{background:linear-gradient(135deg,var(--surface),var(--paper))}
+:where(html.dm) .ptable summary{color:#B9C4FF}
+:where(html.dm) .howto{background:linear-gradient(135deg,var(--surface),var(--gold-soft))}
+:where(html.dm) .ht-step strong{color:#B9C4FF}
+:where(html.dm) .kbd,:where(html.dm) .ht-step kbd{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .tea-key{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .lab.T{background:#0F4C81}
+:where(html.dm) .lab.E{background:#B4560F}
+:where(html.dm) .lab.A{background:#5B2C83}
+:where(html.dm) .lab.O{background:#1B7F3B}
+:where(html.dm) .lab.C{background:#1B7F3B}
+:where(html.dm) .lab.V{background:#B4560F}
+:where(html.dm) .lab.R{background:#9A6700}
+:where(html.dm) .lab.X{background:#5B2C83}
+:where(html.dm) .tk b{color:#B9C4FF}
+:where(html.dm) .tk-note b{color:#B9C4FF}
+:where(html.dm) .part{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .part.earned::before{background:#1B7F3B}
+:where(html.dm) .part.earned .part-l{background:#1B7F3B}
+:where(html.dm) .verb{background:var(--vc,#5B2C83)}
+:where(html.dm) .part-q{color:#B9C4FF}
+:where(html.dm) .part-dir b{color:#B9C4FF}
+:where(html.dm) .bx textarea{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb h4{color:#B9C4FF}
+:where(html.dm) .fb h4 .src{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .fbline .m.y{background:#1B7F3B}
+:where(html.dm) .fbline .m.i{background:#666B82}
+:where(html.dm) .fbline .m.w{background:#9A6700}
+:where(html.dm) .fbline b{color:#B9C4FF}
+:where(html.dm) .fbline q{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-guide,:where(html.dm) .fb-fix,:where(html.dm) .fb-look{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-hand{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb-hand p b{color:#B9C4FF}
+:where(html.dm) .verdict{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .verdict .vq{color:#B9C4FF}
+:where(html.dm) .verdict .btn.yes.on{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .acc div.hit{color:#CDF3DC}
+:where(html.dm) .acc div.hit b{background:#1B7F3B}
+:where(html.dm) .stuckpanel{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .stuckpanel h4,:where(html.dm) .expanel h4,:where(html.dm) .stempanel h4{color:#B9C4FF}
+:where(html.dm) .expanel{background:var(--surface);background-color:var(--surface);border-left:5px solid #5B2C83}
+:where(html.dm) .stm{background:var(--surface);background-color:var(--surface);color:#F9EBCD}
+:where(html.dm) .stm:hover{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .finish{background:linear-gradient(135deg,var(--surface),var(--plum-l))}
+:where(html.dm) .finish h3{color:#B9C4FF}
+:where(html.dm) .sample .sp{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .sample .sp-q{color:#B9C4FF}
+:where(html.dm) .aphead h4{color:#B9C4FF}
+:where(html.dm) .aptab.on{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .apwrap{border:1px solid #314C72;border-color:#314C72;border-top:1px solid #314C72;border-bottom:1px solid #314C72;border-left:1px solid #314C72;border-right:1px solid #314C72}
+:where(html.dm) .apbar{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .apbar b{color:var(--ink)}
+:where(html.dm) .apbar .r{color:var(--ink)}
+:where(html.dm) .apbody{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .apq .mk{color:var(--ink)}
+:where(html.dm) .apstem{color:var(--ink)}
+:where(html.dm) .apparts{color:var(--ink)}
+:where(html.dm) .aptool{background:var(--bg);background-color:var(--bg);color:var(--ink);border-color:var(--line) var(--line) currentcolor;border-top:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .apbox{color:var(--ink);border:1px solid var(--line);border-color:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .doc{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .doc.used{outline:2px solid #1B7F3B}
+:where(html.dm) .dstat{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .dstat.on{border-color:#1B7F3B}
+:where(html.dm) .dhelp .model{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess h4{color:#B9C4FF}
+:where(html.dm) .modal{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .modal h2{color:#B9C4FF}
+:where(html.dm) footer.foot b{color:#B9C4FF}
+:where(html.dm) .svwarn{background:#413618;background-color:#413618;color:#DFDCEF}
+:where(html.dm) .svwarn.dirty{background:#412B18;background-color:#412B18}
+:where(html.dm) .svwarn.safe{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .svw-copy b{color:#F8DBBD}
+:where(html.dm) .svwarn.safe .svw-copy b{color:#C2F2D4}
+:where(html.dm) .svw-copy span{color:#D1CEDF}
+:where(html.dm) .svbtn{background:var(--surface);background-color:var(--surface);color:#DFDCEF;border:1px solid #443A69;border-color:#443A69;border-top:1px solid #443A69;border-bottom:1px solid #443A69;border-left:1px solid #443A69;border-right:1px solid #443A69}
+:where(html.dm) .svw-rubric{color:#D1CEDF}
+/* World Compass manual fixes: per-unit inline accent tokens (--a / --asoft) */
+:where(html.dm) .unit .go{color:color-mix(in srgb,var(--a) 45%,#fff)}
+:where(html.dm) .unit .pct{background:color-mix(in srgb,var(--a) 28%,var(--surface));color:color-mix(in srgb,var(--a) 40%,#fff)}
+:where(html.dm) .unit .n{color:color-mix(in srgb,var(--a) 55%,#fff)}
+:where(html.dm) .btn.gold{color:#1E2761}
+:where(html.dm) .lab.T,:where(html.dm) .lab.E,:where(html.dm) .lab.A{color:#0E1230}
+
+/* dark-mode toggle (shared) */
+:root{--dm-tg-bg:#fff;--dm-tg-fg:#1F1B3A;--dm-tg-b:rgba(0,0,0,.18);--dm-tg-font:system-ui,sans-serif}
+.dm-tg{position:fixed;right:14px;bottom:14px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 10px;border-radius:999px;border:2px solid var(--dm-tg-b);background:var(--dm-tg-bg);color:var(--dm-tg-fg);font:600 13px/1 var(--dm-tg-font);letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.22);transition:transform .15s,box-shadow .15s,opacity .2s;-webkit-tap-highlight-color:transparent;opacity:.96}
+.dm-tg:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:1}
+.dm-tg:active{transform:translateY(0) scale(.97)}
+.dm-tg:focus-visible{outline:3px solid #FFC83D;outline-offset:3px}
+.dm-tg svg{width:18px;height:18px;display:block}
+.dm-tg .dm-sun{display:none}
+html.dm .dm-tg .dm-sun{display:block}
+html.dm .dm-tg .dm-moon{display:none}
+.dm-tg .dm-lbl{white-space:nowrap}
+@media (max-width:620px){.dm-tg{right:10px;bottom:10px;height:38px;padding:0 10px}.dm-tg .dm-lbl{display:none}}
+@media print{.dm-tg{display:none !important}}
+
+</style>
+<script id="dm">
+/* Dark mode add-on (GeoArcade / World Compass / Euro Atlas / Lang Studio). Follows the device setting, with a per-page toggle. */
+(function(){
+  if (window.__dmInit) return; window.__dmInit = 1;
+  var d = document.documentElement, KEY = 'dm:pref', pref = null;
+  try { pref = localStorage.getItem(KEY) || sessionStorage.getItem(KEY); } catch (e) {}
+  var mq = null; try { mq = window.matchMedia('(prefers-color-scheme: dark)'); } catch (e) {}
+  function sys() { return !!(mq && mq.matches); }
+  var on = pref ? pref === 'dark' : sys();
+  d.classList.toggle('dm', on);
+  var btn;
+  function paint() {
+    d.classList.toggle('dm', on);
+    if (btn) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.setAttribute('title', on ? 'Switch to light mode' : 'Switch to dark mode');
+      var l = btn.querySelector('.dm-lbl'); if (l) l.textContent = on ? 'Light' : 'Dark';
+    }
+    try { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.setAttribute('content', on ? '#0F0D22' : '#FFFFFF'); } catch (e) {}
+  }
+  function set(v, remember) {
+    on = v; paint();
+    if (remember) { try { localStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} try { sessionStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} }
+  }
+  function build() {
+    if (btn || !document.body) return;
+    btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'dm-tg'; btn.id = 'dmToggle';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
+    btn.innerHTML = '<svg class="dm-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 14.6A8.5 8.5 0 0 1 9.4 3a1 1 0 0 0-1.1-1.3A10.5 10.5 0 1 0 22.3 15.7 1 1 0 0 0 21 14.6z"/></svg>'
+      + '<svg class="dm-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>'
+      + '<span class="dm-lbl">Dark</span>';
+    btn.addEventListener('click', function () { set(!on, true); });
+    document.body.appendChild(btn);
+    paint();
+    // keep the button last in <body> so nothing re-renders over it
+    new MutationObserver(function () { if (btn && document.body && document.body.lastElementChild !== btn && btn.isConnected) document.body.appendChild(btn); if (btn && !btn.isConnected) document.body.appendChild(btn); }).observe(document.body, { childList: true });
+  }
+  if (mq && mq.addEventListener) mq.addEventListener('change', function (e) { if (!pref) set(e.matches, false); });
+  else if (mq && mq.addListener) mq.addListener(function (e) { if (!pref) set(e.matches, false); });
+  if (document.body) build(); else document.addEventListener('DOMContentLoaded', build);
+  window.__dm = { set: function (v) { set(!!v, true); }, get on() { return on; } };
+})();
+
+</script>
+</body>
+</html> 

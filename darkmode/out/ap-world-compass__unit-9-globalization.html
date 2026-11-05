@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AP World Unit 9 — Globalization</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&display=swap">
+<style>
+:root{
+--navy:#1E2761; --navy-2:#2B3780; --title:#1E2761; --gold:#C9A227; --gold-2:#E3C464; --gold-soft:#F6EBC4;
+--accent:#C2410C; --accent-soft:#FBE9DF;
+--bg:#F4F5F9; --surface:#FFFFFF; --surface-2:#EEF0F6; --line:#D8DBE6;
+--ink:#1A1D2E; --ink-2:#4A4F68; --muted:#666B82;
+--on-navy:#FFFFFF; --on-navy-muted:#B9BFE0;
+--good:#1B7F3B; --good-soft:#E3F3E7; --bad:#B42318; --bad-soft:#FBE9E7;
+--shadow:0 1px 2px rgba(30,39,97,.06),0 6px 18px rgba(30,39,97,.08);
+--display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+--body:Arial,Helvetica,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+#app{height:100vh;overflow-y:auto;overflow-x:hidden;scroll-behavior:smooth;-webkit-overflow-scrolling:touch}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.hero{background:var(--navy);color:var(--on-navy);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:auto -10% -60% auto;width:520px;height:520px;border-radius:50%;
+background:radial-gradient(circle at 30% 30%,rgba(201,162,39,.28),rgba(201,162,39,0) 62%);pointer-events:none}
+.hero .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;padding:44px 24px 36px;position:relative}
+.eyebrow{font-size:12px;font-weight:bold;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.hero h1{font-family:var(--display);font-weight:700;font-size:clamp(44px,6vw,72px);line-height:.98;margin:10px 0 14px;text-wrap:balance;letter-spacing:-.01em}
+.hero .lede{max-width:56ch;color:var(--on-navy-muted);font-size:17px;margin:0 0 22px}
+.stats{display:flex;gap:28px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--display);font-size:34px;font-weight:700;line-height:1;color:var(--gold-2)}
+.stat span{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--on-navy-muted)}
+.topics{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:18px 18px 10px;align-self:start}
+.topics h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+.topic-row{display:flex;gap:12px;align-items:flex-start;padding:8px 0;border-top:1px solid rgba(255,255,255,.1);font-size:14px;line-height:1.35}
+.topic-row:first-of-type{border-top:0}
+.topic-row .num{font-family:var(--display);font-weight:700;font-size:20px;line-height:1;min-width:38px;color:var(--gold-2)}
+.topic-row .theme{margin-left:auto;white-space:nowrap;font-size:11px;letter-spacing:.08em;color:var(--on-navy-muted)}
+.bar{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 2px 10px rgba(30,39,97,.06)}
+.bar .wrap{display:flex;align-items:center;gap:6px;padding:8px 24px;overflow-x:auto;scrollbar-width:none}
+.bar .wrap::-webkit-scrollbar{display:none}
+.bar a{color:var(--ink-2);text-decoration:none;font-size:14px;font-weight:bold;padding:8px 12px;border-radius:8px;white-space:nowrap}
+.bar a:hover,.bar a.active{background:var(--surface-2);color:var(--title)}
+.bar .spacer{flex:1}
+.bar .count{font-size:12px;color:var(--muted);white-space:nowrap}
+.filter{background:var(--surface-2);border-bottom:1px solid var(--line)}
+.filter .wrap{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 24px}
+.filter .lbl{font-size:12px;font-weight:bold;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:6px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:bold;cursor:pointer}
+.chip:hover{border-color:var(--title);color:var(--title)}
+.chip.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.filter input{margin-left:auto;min-width:220px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;font-size:14px}
+section.block{padding:44px 0 12px;scroll-margin-top:56px}
+.sec-head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.sec-head h2{font-family:var(--display);font-weight:700;font-size:38px;line-height:1;margin:0;color:var(--title)}
+.sec-head p{margin:0;color:var(--muted);font-size:14px;max-width:60ch}
+.sec-head .tools{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--title);border-radius:8px;padding:8px 14px;font-size:13px;font-weight:bold;cursor:pointer}
+.btn:hover{border-color:var(--navy)}
+.btn.primary{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.btn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.grid.big{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{perspective:1200px;display:flex;flex-direction:column;gap:6px}
+.card-inner{position:relative;width:100%;flex:1;min-height:150px;transition:transform .55s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d;cursor:pointer;border:0;padding:0;background:none;text-align:left;display:block;color:inherit}
+.grid.big .card-inner{min-height:250px}
+.card.flipped .card-inner{transform:rotateY(180deg)}
+.face{backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:inherit}
+.front{position:absolute;inset:0;background:var(--surface);border:1px solid var(--line)}
+.front::before{content:"";position:absolute;left:18px;right:18px;top:0;height:3px;background:var(--accent);border-radius:0 0 3px 3px}
+.back{position:relative;background:var(--navy);color:var(--on-navy);transform:rotateY(180deg)}
+.tag{font-size:11px;font-weight:bold;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.back .tag{color:var(--gold)}
+.term{font-family:var(--display);font-weight:700;font-size:26px;line-height:1.05;margin:10px 0 6px;color:var(--title);text-wrap:balance}
+.grid.big .term{font-size:28px}
+.sub{font-size:13px;color:var(--ink-2)}
+.cue{margin-top:14px;font-size:13px;color:var(--muted);line-height:1.4;max-width:34ch}
+.cue b{color:var(--accent)}
+.front .hint{margin-top:auto;font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.back .term{color:#fff;font-size:20px;margin:6px 0 8px}
+.def{font-size:14px;line-height:1.45}
+.why{margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.18);font-size:13px;color:var(--on-navy-muted)}
+.why b{color:var(--gold-2)}
+.kv{font-size:13px;line-height:1.4;margin:4px 0}
+.kv b{color:var(--gold-2);font-weight:bold}
+.card.hidden{display:none}
+.card .mark{display:none;gap:6px}
+.quiz .card .mark{display:flex}
+.mark button{flex:1;border:1px solid var(--line);border-radius:8px;padding:6px 8px;font-size:12px;font-weight:bold;cursor:pointer;background:var(--surface);color:var(--ink-2)}
+.mark button.got{color:var(--good)} .mark button.miss{color:var(--bad)}
+.card.got .front{box-shadow:0 0 0 2px var(--good),var(--shadow)}
+.card.miss .front{box-shadow:0 0 0 2px var(--bad),var(--shadow)}
+.card.got .mark .got{background:var(--good-soft);border-color:var(--good)}
+.card.miss .mark .miss{background:var(--bad-soft);border-color:var(--bad)}
+.quiz .front .term{filter:blur(0)}
+.quiz.hide-fronts .card:not(.flipped) .front .term{filter:blur(7px)}
+.quiz.hide-fronts .card:not(.flipped) .front .hint::after{content:" · term hidden — flip to check"}
+.quizbar{display:none;align-items:center;gap:14px;flex-wrap:wrap;background:var(--accent-soft);border:1px solid var(--accent);border-radius:12px;padding:12px 16px;margin:0 0 16px;font-size:14px}
+.quiz .quizbar{display:flex}
+.quizbar b{color:var(--accent)}
+.quizbar .score{display:flex;gap:14px}
+.pill{border-radius:999px;padding:3px 10px;font-weight:bold;font-size:13px}
+.pill.good{background:var(--good-soft);color:var(--good)} .pill.bad{background:var(--bad-soft);color:var(--bad)}
+.rail{position:relative;overflow-x:auto;padding:24px 0 18px;scroll-snap-type:x proximity}
+.rail ol::before{content:"";position:absolute;left:0;right:0;top:36px;height:3px;z-index:0;background:linear-gradient(90deg,var(--gold),var(--gold-2),var(--gold))}
+.rail ol{list-style:none;margin:0;padding:0 8px;display:flex;gap:14px;min-width:max-content;position:relative}
+.rail li{scroll-snap-align:start;width:210px}
+.year{display:block;width:100%;border:0;background:none;cursor:pointer;text-align:left;padding:0;color:inherit}
+.year .dot{position:relative;z-index:1;width:14px;height:14px;border-radius:50%;background:var(--surface);border:3px solid var(--gold);margin:29px 0 0 0;transition:transform .2s}
+.year:hover .dot,.year.open .dot{background:var(--accent);border-color:var(--accent);transform:scale(1.25)}
+.year .y{font-family:var(--display);font-weight:700;font-size:30px;line-height:1;color:var(--title);margin:10px 0 4px}
+.year .e{font-size:14px;font-weight:bold;color:var(--ink);line-height:1.3}
+.year .reg{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.year .more{display:none;margin-top:8px;font-size:13px;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow)}
+.year.open .more{display:block}
+.rail li.hidden{display:none}
+.dev{border:1px solid var(--line);background:var(--surface);border-radius:14px;margin-bottom:12px;overflow:hidden;box-shadow:var(--shadow)}
+.dev summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center;padding:16px 18px}
+.dev summary::-webkit-details-marker{display:none}
+.dev .num{font-family:var(--display);font-weight:700;font-size:34px;line-height:1;color:var(--accent)}
+.dev .ttl{font-weight:bold;font-size:17px;color:var(--title)}
+.dev .themes{font-size:11px;letter-spacing:.08em;color:var(--muted);margin-top:2px}
+.dev .arrow{width:28px;height:28px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;color:var(--title);font-weight:bold;transition:transform .25s}
+.dev[open] .arrow{transform:rotate(45deg)}
+.dev .body{padding:0 18px 18px 96px;display:grid;gap:14px}
+.lo{font-size:14px;color:var(--ink-2)}
+.lo b{color:var(--title)}
+.kc{border-left:3px solid var(--gold);padding:6px 14px;background:var(--surface-2);border-radius:0 10px 10px 0}
+.kc .code{font-size:11px;letter-spacing:.08em;color:var(--muted);font-weight:bold}
+.kc .official{font-size:14px;margin:2px 0 6px;color:var(--ink)}
+.kc .plain{font-size:14px;color:var(--ink-2)}
+.kc .plain b{color:var(--accent)}
+.ex{display:flex;flex-wrap:wrap;gap:6px}
+.ex span{font-size:12px;font-weight:bold;background:var(--gold-soft);color:var(--title);border-radius:6px;padding:4px 8px}
+.dev.hidden{display:none}
+@media (max-width:700px){.dev summary{grid-template-columns:48px 1fr auto}.dev .body{padding-left:18px}}
+.ctx{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.ctx .c{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+.ctx h3{margin:0 0 8px;font-size:15px;color:var(--title)}
+.ctx p{margin:6px 0;font-size:14px;color:var(--ink-2)}
+.ctx p b{display:inline-block;min-width:64px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+footer{margin-top:40px;padding:22px 0 34px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center}
+footer b{color:var(--title)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.topics{order:2}}
+@media (prefers-reduced-motion: reduce){
+html{scroll-behavior:auto}
+#app{scroll-behavior:auto}
+.card-inner{transition:none}
+.card.flipped .card-inner{transform:none}
+.front{visibility:visible}
+.card.flipped .front{visibility:hidden}
+.back{transform:none;visibility:hidden}
+.card.flipped .back{visibility:visible}
+}
+.hero{display:none}
+</style>
+<style id="ms-phone-nav">@media (max-width:700px){.bar .wrap{flex-wrap:wrap;overflow-x:visible;row-gap:2px;padding:6px 12px}.bar a{padding:6px 9px;font-size:13px}.bar .spacer{display:none}}</style><style id="ms-phone-text">@media (max-width:640px){.topic-row .theme,.tag,.front .hint,.year .reg,.dev .themes,.kc .code,.ctx p b{font-size:12px!important;line-height:1.35}}
+/* ios-no-zoom */@media (max-width:820px){input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]),textarea,select{font-size:16px !important}}
+</style></head>
+<body>
+<div id="app">
+<header class="hero">
+<div class="wrap">
+<div>
+<div class="eyebrow">AP World History: Modern &nbsp;·&nbsp; Unit 9 &nbsp;·&nbsp; 1900 – present</div>
+<h1 id="unitTitle">Globalization</h1>
+<p class="lede" id="unitLede"></p>
+<div class="stats" id="unitStats"></div>
+</div>
+<aside class="topics" aria-label="Topics in this unit">
+<h2>Topics</h2>
+<div id="topicList"></div>
+</aside>
+</div>
+</header>
+<nav class="bar" aria-label="Sections">
+<div class="wrap">
+<a href="#vocab">Vocabulary</a>
+<a href="#states">Empires &amp; States</a>
+<a href="#timeline">Timeline</a>
+<a href="#developments">Historical Developments</a>
+<a href="#context">Context Bank</a>
+<span class="spacer"></span>
+<span class="count" id="cardCount"></span>
+</div>
+</nav>
+<div class="filter">
+<div class="wrap">
+<span class="lbl">Show</span>
+<div id="chips" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+<input id="search" type="search" placeholder="Search terms, cards, dates…" aria-label="Search">
+</div>
+</div>
+<main class="wrap">
+<section class="block" id="vocab">
+<div class="sec-head">
+<h2>Vocabulary</h2>
+<p>Tap a card to flip it. Term on the front, definition and why it matters on the back.</p>
+<div class="tools">
+<button class="btn" id="shuffleVocab">Shuffle</button>
+<button class="btn" id="flipAllVocab">Flip all</button>
+<button class="btn gold" id="quizBtn">Quiz me</button>
+</div>
+</div>
+<div class="quizbar" id="quizbar">
+<div><b>Quiz mode.</b> Flip a card, then mark it. Missed cards get a red ring so you can come back to them. Marks last only while this page is open; they reset when you reload or leave.</div>
+<div class="score"><span class="pill good" id="gotN">0 got it</span><span class="pill bad" id="missN">0 missed</span></div>
+<button class="btn" id="hideFronts">Hide terms</button>
+<button class="btn" id="onlyMissed">Show missed only</button>
+<button class="btn" id="resetQuiz">Reset</button>
+</div>
+<div class="grid" id="vocabGrid"></div>
+</section>
+<section class="block" id="states">
+<div class="sec-head">
+<h2 id="statesH">Empires &amp; States</h2>
+<p id="statesP">How each state gained power, kept it, and what it is known for. These are the LEQ evidence cards.</p>
+<div class="tools"><button class="btn" id="flipAllStates">Flip all</button></div>
+</div>
+<div class="grid big" id="stateGrid"></div>
+</section>
+<section class="block" id="timeline">
+<div class="sec-head">
+<h2>Timeline</h2>
+<p>Click a date to see why it is on the list. Scroll sideways.</p>
+</div>
+<div class="rail"><ol id="rail"></ol></div>
+</section>
+<section class="block" id="developments">
+<div class="sec-head">
+<h2>Historical Developments</h2>
+<p>The College Board statements the questions are written from — official wording, then plain English, then the examples they expect you to know.</p>
+<div class="tools"><button class="btn" id="openAllDev">Open all</button></div>
+</div>
+<div id="devList"></div>
+</section>
+<section class="block" id="context">
+<div class="sec-head">
+<h2>Context Bank</h2>
+<p>Ready-made LEQ contextualization: one sentence before the period, one sentence during.</p>
+</div>
+<div class="ctx" id="ctxList"></div>
+</section>
+</main>
+<footer><b>Panther Creek High School</b> &nbsp;•&nbsp; Created by Scott Martin &nbsp;•&nbsp; APandAbroad@gmail.com<br>AP® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this site.</footer>
+</div>
+<script>
+const UNIT = {
+number: 9, title: "Globalization", dates: "1900 – present",
+lede: "Distance stops mattering. Unit 9 follows the technologies that shrank the planet — radio to the internet, vaccines to the Green Revolution — and what they brought: longer lives and new diseases, climate debates, a free-market global economy, worldwide rights movements, a shared pop culture, pushback against all of it, and the institutions built to manage a connected world.",
+stats: [["8–10%","of the AP exam"],["9","topics"],["8–11","class periods"]],
+statesLabel: "Institutions & Economies", countLabel: "cards",
+statesBlurb: "The organizations, economic models, and corporations that run a globalized world: where each came from, how it works, what it is known for, and where it stands today.",
+stateFields: { gained:"Origin", kept:"How it works", known:"Known for", end:"Today / critics", cue:"Before you flip — where did it <b>come from</b>, how does it <b>work</b>, and what is it <b>known for</b>?" },
+topics: [
+{id:"9.1", title:"Advances in Technology and Exchange", themes:"TEC"},
+{id:"9.2", title:"Technological Advances and Limitations: Disease", themes:"ENV · TEC"},
+{id:"9.3", title:"Debates About the Environment", themes:"ENV"},
+{id:"9.4", title:"Economics in the Global Age", themes:"ECN"},
+{id:"9.5", title:"Calls for Reform and Responses", themes:"SIO"},
+{id:"9.6", title:"Globalized Culture", themes:"CDI"},
+{id:"9.7", title:"Resistance to Globalization", themes:"CDI · ECN"},
+{id:"9.8", title:"Institutions Developing in a Globalized World", themes:"GOV"},
+{id:"9.9", title:"Continuity and Change in a Globalized World", themes:"Argumentation", review:true},
+],
+vocab: [
+{t:"9.1", term:"Globalization", def:"The growing interconnection of the world's economies, cultures, and populations through trade, technology, and migration.", why:"The unit's title and the CED's framing for 1900–present."},
+{t:"9.1", term:"Radio", def:"Wireless broadcasting (1920s) that carried news, music, and propaganda to mass audiences instantly.", why:"CED-named communication technology."},
+{t:"9.1", term:"Cellular communication", def:"Mobile phone networks that, by the 2000s, gave billions — including in poor regions without landlines — instant contact.", why:"CED-named."},
+{t:"9.1", term:"Internet", def:"Global computer network (public from the 1990s) that made information, commerce, and communication nearly free and instant.", why:"CED-named; 'reduced the problem of geographic distance.'"},
+{t:"9.1", term:"Air travel", def:"Commercial jets (1950s onward) that cut intercontinental trips from weeks to hours.", why:"CED-named transportation technology."},
+{t:"9.1", term:"Shipping containers", def:"Standardized steel boxes (1956) that slashed shipping costs and made global supply chains possible.", why:"CED-named; the unglamorous engine of globalization."},
+{t:"9.1", term:"Petroleum", def:"Oil as the 20th century's dominant fuel for cars, planes, plastics, and fertilizer.", why:"KC-6.1.I.D — CED-named energy technology."},
+{t:"9.1", term:"Nuclear power", def:"Electricity from controlled fission (from the 1950s), carbon-free but with accident and waste risks (Chernobyl 1986, Fukushima 2011).", why:"CED-named energy technology."},
+{t:"9.1", term:"Birth control", def:"Effective contraception, especially the pill (1960), that let women control fertility and lowered birth rates worldwide.", why:"KC-6.1.III.B."},
+{t:"9.1", term:"Demographic transition", def:"The shift from high birth and death rates to low ones as societies develop — why population growth is slowing.", why:"Context for the CED's 'declining rates of fertility.'"},
+{t:"9.1", term:"Green Revolution", def:"1940s–1970s spread of high-yield wheat and rice, chemical fertilizers, pesticides, and irrigation that doubled food output in Mexico, India, and beyond.", why:"KC-6.1.I.B — fed a growing population; environmental costs."},
+{t:"9.1", term:"Norman Borlaug", def:"American agronomist whose dwarf wheat launched the Green Revolution; Nobel Peace Prize 1970.", why:"Face of the Green Revolution."},
+{t:"9.1", term:"Genetically modified crops (GMOs)", def:"Plants engineered for yield, pest resistance, or nutrition (Bt cotton, golden rice) — praised and protested.", why:"CED: 'chemically and genetically modified forms of agriculture.'"},
+{t:"9.1", term:"Commercial agriculture", def:"Large-scale, mechanized, market-oriented farming replacing subsistence plots.", why:"CED-named alongside the Green Revolution."},
+{t:"9.1", term:"Vaccines", def:"Preventive immunizations that eradicated smallpox (1980) and nearly eliminated polio.", why:"KC-6.1.I.C — CED-named medical innovation."},
+{t:"9.1", term:"Antibiotics", def:"Drugs like penicillin (1928, mass-produced in WWII) that cure bacterial infections.", why:"CED-named medical innovation; major driver of longer lives."},
+{t:"9.2", term:"Diseases of poverty", def:"Illnesses that persist where sanitation, nutrition, and health care are poor — malaria, tuberculosis, cholera.", why:"KC-6.1.III.A — CED-named category."},
+{t:"9.2", term:"Malaria", def:"Mosquito-borne disease still killing hundreds of thousands a year, mostly African children.", why:"CED-named disease of poverty."},
+{t:"9.2", term:"Tuberculosis", def:"Bacterial lung disease tied to crowding and poverty; drug-resistant strains are a new threat.", why:"CED-named disease of poverty."},
+{t:"9.2", term:"Cholera", def:"Waterborne disease that returns wherever clean water fails (Haiti 2010, Yemen 2017).", why:"CED-named disease of poverty."},
+{t:"9.2", term:"1918 influenza pandemic", def:"Flu that killed 50 million or more worldwide at the end of WWI, spread by troop movements.", why:"CED-named emergent epidemic."},
+{t:"9.2", term:"HIV/AIDS", def:"Virus identified in 1981 that has killed about 40 million, hitting sub-Saharan Africa hardest; antiretroviral drugs now control it.", why:"CED-named emergent epidemic; 'social disruption' and medical advances."},
+{t:"9.2", term:"Ebola", def:"Deadly hemorrhagic virus; the 2014–2016 West African outbreak killed 11,000.", why:"CED-named emergent epidemic."},
+{t:"9.2", term:"COVID-19", def:"Coronavirus pandemic (2020–) that killed millions, shut down the global economy, and produced vaccines in under a year.", why:"The most recent example of an epidemic spurring medical advance."},
+{t:"9.2", term:"Diseases of longevity", def:"Conditions common because people live longer — heart disease, Alzheimer's disease, cancers.", why:"KC-6.1.III.A — CED-named category."},
+{t:"9.2", term:"Life expectancy", def:"Average lifespan, which roughly doubled worldwide in the 20th century (about 31 to over 70 years).", why:"The bottom line of medical advances."},
+{t:"9.2", term:"World Health Organization (WHO)", def:"UN agency (1948) coordinating global disease control, including smallpox eradication.", why:"Institution behind medical globalization."},
+{t:"9.3", term:"Deforestation", def:"Clearing forests for farms, ranches, and timber — the Amazon and Indonesia are key cases.", why:"KC-6.1.II.A — CED-named."},
+{t:"9.3", term:"Desertification", def:"Fertile land turning to desert from overgrazing, drought, and deforestation, as in the Sahel.", why:"CED-named."},
+{t:"9.3", term:"Air quality decline", def:"Smog and particulate pollution in industrial cities from Los Angeles to Beijing and Delhi.", why:"CED-named."},
+{t:"9.3", term:"Fresh water consumption", def:"Rising demand for irrigation, industry, and cities draining rivers and aquifers — the Aral Sea shrank 90%.", why:"CED-named; 'humans competed over these... resources.'"},
+{t:"9.3", term:"Greenhouse gases", def:"Carbon dioxide, methane, and others that trap heat; emissions rose with fossil-fuel use.", why:"KC-6.1.II.B."},
+{t:"9.3", term:"Climate change", def:"Warming of the global climate linked to greenhouse gases, producing rising seas, extreme weather, and political debate.", why:"KC-6.1.II.B — 'debates about the nature and causes.'"},
+{t:"9.3", term:"Kyoto Protocol (1997) / Paris Agreement (2015)", def:"International treaties committing nations to cut greenhouse gas emissions.", why:"Global responses to climate change."},
+{t:"9.3", term:"Earth Day (1970)", def:"First mass environmental demonstration; launched modern environmentalism and the U.S. EPA.", why:"Start of the environmental movement."},
+{t:"9.3", term:"Resource competition", def:"Conflicts over oil, water, and minerals — the Gulf Wars, Nile dam disputes, rare-earth mining.", why:"CED: 'competed over these and other resources more intensely than ever.'"},
+{t:"9.3", term:"Anthropocene", def:"Proposed name for the current geological age, defined by human impact on the planet.", why:"Useful framing term for ENV essays."},
+{t:"9.4", term:"Free-market economics / neoliberalism", def:"Policies of deregulation, privatization, lower taxes, and free trade that spread from the 1980s.", why:"KC-6.3.I.D."},
+{t:"9.4", term:"Economic liberalization", def:"Opening an economy to private business and foreign trade, as in China after 1978 and India after 1991.", why:"CED language."},
+{t:"9.4", term:"Ronald Reagan", def:"U.S. president (1981–1989) who cut taxes and regulation — 'Reaganomics.'", why:"CED-named free-market government."},
+{t:"9.4", term:"Margaret Thatcher", def:"British prime minister (1979–1990) who privatized state industries and broke union power.", why:"CED-named."},
+{t:"9.4", term:"Deng Xiaoping", def:"Chinese leader who opened China to markets and foreign investment after 1978 — 'socialism with Chinese characteristics.'", why:"CED-named; the most consequential liberalization."},
+{t:"9.4", term:"Special Economic Zones", def:"Coastal areas like Shenzhen where Deng allowed foreign factories and market rules.", why:"How China became the world's factory."},
+{t:"9.4", term:"Pinochet's Chile (economics)", def:"'Chicago Boys' free-market reforms under a dictatorship — privatization and open trade.", why:"CED-named free-market government."},
+{t:"9.4", term:"Knowledge economy", def:"An economy based on information, research, software, and services rather than manufacturing.", why:"KC-6.3.I.E; CED examples: Finland, Japan, U.S."},
+{t:"9.4", term:"Offshoring / outsourcing", def:"Moving manufacturing to lower-wage countries in Asia and Latin America.", why:"KC-6.3.I.E — production 'increasingly situated in Asia and Latin America.'"},
+{t:"9.4", term:"Vietnam and Bangladesh (manufacturing)", def:"Export economies built on garments and electronics assembly for global brands.", why:"CED-named Asian production economies."},
+{t:"9.4", term:"Mexico and Honduras (manufacturing)", def:"Maquiladoras and factories assembling goods for the U.S. market under free-trade rules.", why:"CED-named Latin American production economies."},
+{t:"9.4", term:"Multinational corporation", def:"A company operating in many countries — Nestlé (Swiss food), Nissan (Japanese cars), Mahindra and Mahindra (Indian vehicles).", why:"KC-6.3.II.B; CED-named examples."},
+{t:"9.4", term:"World Trade Organization (WTO)", def:"Body (1995) that sets global trade rules and settles disputes among 160+ members.", why:"CED-named economic institution."},
+{t:"9.4", term:"NAFTA (1994)", def:"North American Free Trade Agreement removing tariffs among the U.S., Canada, and Mexico (replaced by USMCA in 2020).", why:"CED-named regional trade agreement."},
+{t:"9.4", term:"ASEAN", def:"Association of Southeast Asian Nations (1967), a regional bloc for trade and cooperation.", why:"CED-named regional trade agreement."},
+{t:"9.4", term:"European Union", def:"Political and economic union of European states with a single market and (for most) a common currency, the euro.", why:"The deepest regional integration."},
+{t:"9.4", term:"IMF and World Bank", def:"Bretton Woods institutions that lend to struggling countries, often requiring free-market reforms.", why:"Targets of anti-globalization protest (9.7)."},
+{t:"9.4", term:"Structural adjustment", def:"Austerity and privatization conditions attached to IMF/World Bank loans in the 1980s–1990s.", why:"Why the IMF is protested."},
+{t:"9.5", term:"Rights-based discourse", def:"Framing political demands as universal human rights rather than favors or traditions.", why:"KC-6.3.III.i."},
+{t:"9.5", term:"Universal Declaration of Human Rights (1948)", def:"UN statement of rights for all people, with special concern for children, women, and refugees.", why:"CED-named."},
+{t:"9.5", term:"Global feminism", def:"Worldwide movements for women's equality — suffrage, education, reproductive rights, the 1995 Beijing conference.", why:"CED-named."},
+{t:"9.5", term:"Women's suffrage dates", def:"U.S. 1920, Brazil 1932, Turkey 1934, Japan 1945, India 1947, Morocco 1963.", why:"CED-named list — memorize for evidence."},
+{t:"9.5", term:"Negritude", def:"1930s literary movement by Black francophone writers (Senghor, Césaire) celebrating African identity against colonial racism.", why:"CED-named challenge to assumptions about race."},
+{t:"9.5", term:"Liberation theology", def:"Latin American Catholic movement (1960s–) reading the Gospel as a call to fight poverty and oppression.", why:"CED-named challenge to assumptions about class and religion."},
+{t:"9.5", term:"Civil Rights Act (1964/1965)", def:"U.S. laws ending legal segregation and protecting voting rights.", why:"CED-named (listed as 1965) increased access to political roles."},
+{t:"9.5", term:"End of apartheid (1994)", def:"South Africa's first all-race elections after decades of protest and sanctions.", why:"CED-named increased inclusion."},
+{t:"9.5", term:"Caste reservation (India)", def:"Quotas in education and government jobs for Dalits and other disadvantaged castes.", why:"CED-named increased access."},
+{t:"9.5", term:"Female literacy and higher education", def:"Rising rates of girls in school and women in universities nearly everywhere since 1950.", why:"CED-named trend."},
+{t:"9.5", term:"Greenpeace", def:"International environmental group (1971) known for direct action against whaling, nuclear testing, and pollution.", why:"CED-named environmental movement."},
+{t:"9.5", term:"Wangari Maathai / Green Belt Movement", def:"Kenyan activist whose movement planted millions of trees with rural women; Nobel Peace Prize 2004.", why:"CED-named environmental movement."},
+{t:"9.5", term:"World Fair Trade Organization", def:"Network promoting fair prices and conditions for producers in poor countries.", why:"CED-named economic movement."},
+{t:"9.5", term:"Refugee rights", def:"Protections under the 1951 Refugee Convention for people fleeing persecution.", why:"The UDHR's concern for refugees, made law."},
+{t:"9.6", term:"Global popular culture", def:"Music, film, sports, and brands consumed across borders.", why:"KC-6.3.IV."},
+{t:"9.6", term:"Reggae", def:"Jamaican music (Bob Marley) that spread messages of resistance and Rastafari worldwide.", why:"CED-named global music."},
+{t:"9.6", term:"Bollywood", def:"India's Hindi-language film industry, the world's largest by output, with audiences across Asia and Africa.", why:"CED-named global movies."},
+{t:"9.6", term:"Social media", def:"Platforms like Facebook and Twitter (X) that connect billions and shape politics.", why:"CED-named."},
+{t:"9.6", term:"BBC", def:"British Broadcasting Corporation, a global news source since the 1930s World Service.", why:"CED-named global television."},
+{t:"9.6", term:"World Cup and Olympics", def:"Global sporting events watched by billions that mix nationalism with shared culture.", why:"CED-named global sports."},
+{t:"9.6", term:"Consumer culture", def:"Identity built around buying global brands — Coca-Cola, Toyota, McDonald's.", why:"KC-6.3.IV.iii; CED-named brands."},
+{t:"9.6", term:"Online commerce", def:"Alibaba and eBay — buying and selling across borders with a click.", why:"CED-named."},
+{t:"9.6", term:"Americanization / cultural homogenization", def:"The worry that global culture means U.S. culture everywhere.", why:"Sets up the resistance in 9.7."},
+{t:"9.6", term:"Hybridization", def:"Blending of cultures — K-pop, Afrobeats, Tex-Mex — rather than pure replacement.", why:"Counterpoint to homogenization for a nuanced argument."},
+{t:"9.6", term:"Modern art movements", def:"Cubism, surrealism, abstract expressionism — art responding to war, technology, and psychology.", why:"KC-6.3.IV.i — 'changes in the arts.'"},
+{t:"9.7", term:"Anti-globalization movement", def:"Protests (Seattle WTO 1999, anti-IMF/World Bank) against corporate power, inequality, and environmental harm.", why:"KC-6.3.IV.iv; CED-named anti-IMF/World Bank activism."},
+{t:"9.7", term:"Weibo", def:"Chinese microblogging platform developed locally because Twitter is blocked — a response to cultural globalization.", why:"CED-named 'locally developed social media.'"},
+{t:"9.7", term:"Great Firewall", def:"China's internet censorship system controlling global information flows.", why:"State resistance to globalization."},
+{t:"9.7", term:"Religious fundamentalism", def:"Movements (Islamist, Hindu nationalist, Christian) reacting against secular global culture.", why:"Cultural resistance to globalization."},
+{t:"9.7", term:"Economic nationalism / protectionism", def:"Tariffs and 'buy local' policies to shield domestic industries — Brexit (2016), U.S.-China trade war.", why:"Recent political backlash."},
+{t:"9.7", term:"Cultural preservation", def:"Efforts to protect local languages, foods, and traditions — France's film quotas, UNESCO heritage lists.", why:"Softer resistance to homogenization."},
+{t:"9.8", term:"United Nations", def:"Organization founded 1945 'to maintain international peace and security'; General Assembly, Security Council, and agencies like UNICEF and WHO.", why:"KC-6.3.II.A — CED-named."},
+{t:"9.8", term:"UN Security Council", def:"Fifteen-member body (five permanent veto powers: U.S., Russia, China, UK, France) that can authorize force.", why:"Where UN power — and paralysis — lives."},
+{t:"9.8", term:"UN peacekeeping", def:"Blue-helmeted forces sent to monitor ceasefires — successes and failures (Rwanda, Srebrenica).", why:"The UN's 'maintaining world peace' in practice."},
+{t:"9.8", term:"International Criminal Court (2002)", def:"Permanent court in The Hague prosecuting genocide and war crimes.", why:"International cooperation on atrocities."},
+{t:"9.8", term:"NGOs", def:"Non-governmental organizations — Red Cross, Doctors Without Borders, Amnesty International — acting across borders.", why:"Non-state actors in global governance."},
+{t:"9.8", term:"Sustainable Development Goals", def:"UN's 2015 targets on poverty, health, education, and climate for 2030.", why:"International cooperation beyond peacekeeping."},
+],
+states: [
+{t:"9.8", name:"United Nations", region:"Global (New York, Geneva)", dates:"1945–present", gained:"Founded by 51 nations after WWII to replace the failed League of Nations.", kept:"General Assembly (one nation, one vote), Security Council with five vetoes, peacekeeping missions, agencies for health, children, refugees, and culture.", known:"CED-named institution 'with the stated goal of maintaining world peace'; the Universal Declaration of Human Rights.", end:"193 members; criticized for veto paralysis and failures in Rwanda and Bosnia."},
+{t:"9.4", name:"Deng Xiaoping's China", region:"China", dates:"1978–present", gained:"After Mao's death, Deng declared 'to get rich is glorious' and opened the economy.", kept:"Special Economic Zones, foreign investment, private farming, state control of politics (Tiananmen 1989), WTO entry in 2001.", known:"CED-named liberalization; the largest poverty reduction in history and the world's factory.", end:"The second-largest economy; a rival to the U.S.; still one-party rule."},
+{t:"9.4", name:"Reagan-Thatcher free-market turn", region:"United States and Britain", dates:"1979–1990", gained:"1970s stagflation discredited Keynesian management; voters chose leaders promising smaller government.", kept:"Tax cuts, deregulation, privatization of British industries, confrontations with unions (PATCO, the miners' strike).", known:"CED-named free-market governments; the model exported through the IMF and World Bank.", end:"Growth and inequality both rose; the 2008 crisis reopened the debate."},
+{t:"9.4", name:"World Trade Organization", region:"Global (Geneva)", dates:"1995–present", gained:"Grew out of GATT (1947) to enforce trade rules after the Cold War.", kept:"Members lower tariffs, follow common rules, and settle disputes through WTO panels.", known:"CED-named economic institution; the Seattle 1999 protests against it.", end:"Stalled negotiations and U.S.-China tensions have weakened it."},
+{t:"9.4", name:"NAFTA / USMCA", region:"North America", dates:"1994–present", gained:"U.S., Canada, and Mexico agreed to remove tariffs to compete with Europe and Asia.", kept:"Free movement of goods; U.S. factories moved to Mexican maquiladoras; farm exports flowed south.", known:"CED-named regional trade agreement; the debate over lost U.S. jobs.", end:"Renegotiated as USMCA in 2020."},
+{t:"9.4", name:"ASEAN", region:"Southeast Asia", dates:"1967–present", gained:"Five anti-communist states formed a bloc during the Vietnam War; expanded to ten including Vietnam.", kept:"Consensus decision-making, a free trade area, and non-interference in members' politics.", known:"CED-named regional trade agreement; a 650-million-person market.", end:"Growing but criticized for inaction on Myanmar."},
+{t:"9.4", name:"European Union", region:"Europe", dates:"1957 (EEC) → 1993 (EU) → present", gained:"France and Germany tied their economies together after WWII to make war impossible; expanded east after 1989.", kept:"A single market, the euro, open borders (Schengen), a parliament and court with real power over members.", known:"The world's deepest regional integration.", end:"27 members after Britain's exit (2020); debates over migration and sovereignty."},
+{t:"9.4", name:"IMF and World Bank", region:"Global (Washington)", dates:"1944–present", gained:"Created at Bretton Woods to stabilize currencies and finance reconstruction.", kept:"Emergency loans with conditions (structural adjustment); development loans for dams, roads, and schools.", known:"CED-named target of anti-globalization activism.", end:"Still central in debt crises; reforms after criticism of austerity."},
+{t:"9.4", name:"Multinational corporations", region:"Global", dates:"1950s–present", gained:"Cheaper transport and communication let companies produce and sell everywhere.", kept:"Global supply chains, brands, and subsidiaries — Nestlé (Switzerland), Nissan (Japan), Mahindra and Mahindra (India), Coca-Cola, Toyota.", known:"CED-named examples; some have revenues larger than many countries.", end:"Praised for jobs and goods; criticized for sweatshops, tax avoidance, and pollution."},
+{t:"9.4", name:"Knowledge economies (Finland, Japan, U.S.)", region:"Developed world", dates:"1980s–present", gained:"The information revolution shifted value from factories to software, research, and services.", kept:"High education spending, tech firms (Nokia, Sony, Silicon Valley), patents, and design.", known:"CED-named knowledge economies.", end:"Manufacturing shifted to Asia and Latin America; inequality between skilled and unskilled grew."},
+{t:"9.4", name:"Manufacturing economies (Vietnam, Bangladesh, Mexico, Honduras)", region:"Asia and Latin America", dates:"1980s–present", gained:"Low wages, free-trade zones, and container shipping drew factories from the West.", kept:"Garment and electronics assembly for global brands; export-led growth.", known:"CED-named production economies; Rana Plaza (2013) exposed the costs.", end:"Rising incomes alongside labor and environmental concerns."},
+{t:"9.7", name:"China's internet (Weibo, Great Firewall)", region:"China", dates:"2000s–present", gained:"The state blocked Google, Facebook, and Twitter and fostered domestic platforms.", kept:"Weibo, WeChat, and Alibaba serve a billion users inside a censored, state-monitored network.", known:"CED-named 'locally developed social media' as a response to globalization.", end:"A parallel digital world — globalization on China's terms."},
+],
+timeline: [
+{y:"1918", e:"Influenza pandemic", reg:"Global", t:"9.2", why:"CED-named emergent epidemic; 50+ million dead."},
+{y:"1928", e:"Penicillin discovered", reg:"Britain", t:"9.1", why:"The antibiotic age begins."},
+{y:"1945", e:"United Nations founded", reg:"San Francisco", t:"9.8", why:"CED-named institution for peace and cooperation."},
+{y:"1948", e:"Universal Declaration of Human Rights; WHO founded", reg:"UN", t:"9.5", why:"Rights-based discourse goes global."},
+{y:"1956", e:"First container ship", reg:"U.S.", t:"9.1", why:"Shipping costs collapse; supply chains go global."},
+{y:"1960", e:"Birth control pill approved", reg:"U.S.", t:"9.1", why:"Women gain control over fertility."},
+{y:"1965", e:"Green Revolution wheat reaches India; U.S. Voting Rights Act", reg:"India / U.S.", t:"9.1", why:"Food and rights expand."},
+{y:"1967", e:"ASEAN founded", reg:"Southeast Asia", t:"9.4", why:"CED-named regional bloc."},
+{y:"1970", e:"First Earth Day", reg:"U.S.", t:"9.3", why:"Environmentalism becomes a mass movement."},
+{y:"1971", e:"Greenpeace founded", reg:"Canada", t:"9.5", why:"CED-named environmental movement."},
+{y:"1977", e:"Green Belt Movement; smallpox's last natural case", reg:"Kenya / Somalia", t:"9.5", why:"Tree-planting activism; a disease eradicated."},
+{y:"1978", e:"Deng Xiaoping opens China", reg:"China", t:"9.4", why:"CED-named liberalization begins."},
+{y:"1979", e:"Thatcher elected; Reagan follows in 1980", reg:"Britain / U.S.", t:"9.4", why:"The free-market turn."},
+{y:"1981", e:"HIV/AIDS identified", reg:"U.S. / global", t:"9.2", why:"CED-named emergent epidemic."},
+{y:"1991", e:"World Wide Web goes public; India liberalizes", reg:"Global / India", t:"9.1", why:"The internet and a billion-person market open."},
+{y:"1994", e:"NAFTA; apartheid ends", reg:"North America / South Africa", t:"9.4", why:"Free trade and inclusion in the same year."},
+{y:"1995", e:"WTO founded; Beijing women's conference", reg:"Geneva / Beijing", t:"9.4", why:"Trade rules and global feminism."},
+{y:"1997", e:"Kyoto Protocol", reg:"Japan", t:"9.3", why:"First binding climate treaty."},
+{y:"1999", e:"Seattle WTO protests", reg:"U.S.", t:"9.7", why:"Anti-globalization movement goes mainstream."},
+{y:"2001", e:"China joins WTO; 9/11 attacks", reg:"China / U.S.", t:"9.4", why:"Globalization's biggest entrant; Al-Qaeda's violent response to it."},
+{y:"2009", e:"Weibo launches", reg:"China", t:"9.7", why:"CED-named locally developed social media."},
+{y:"2015", e:"Paris Agreement; Sustainable Development Goals", reg:"Global", t:"9.3", why:"Global cooperation on climate and development."},
+{y:"2020", e:"COVID-19 pandemic", reg:"Global", t:"9.2", why:"Disease and technology in a connected world."},
+],
+developments: [
+{id:"9.1", title:"Advances in Technology and Exchange After 1900", themes:"TEC",
+los:["A — Explain how the development of new technologies changed the world from 1900 to present."],
+kcs:[
+{code:"KC-6.1.I.A", official:"New modes of communication — including radio communication, cellular communication, and the internet — as well as transportation, including air travel and shipping containers, reduced the problem of geographic distance.", plain:"Distance stopped being a barrier."},
+{code:"KC-6.1.I.D", official:"Energy technologies, including the use of petroleum and nuclear power, raised productivity and increased the production of material goods.", plain:"Oil and atoms powered more stuff."},
+{code:"KC-6.1.III.B", official:"More effective forms of birth control gave women greater control over fertility, transformed reproductive practices, and contributed to declining rates of fertility in much of the world.", plain:"The pill changed families and population growth."},
+{code:"KC-6.1.I.B", official:"The Green Revolution and commercial agriculture increased productivity and sustained the earth's growing population as it spread chemically and genetically modified forms of agriculture.", plain:"New seeds and chemicals fed billions."},
+{code:"KC-6.1.I.C", official:"Medical innovations, including vaccines and antibiotics, increased the ability of humans to survive and live longer lives.", plain:"People stopped dying of things that used to kill them."},
+],
+ex:["Radio, cell phones, the internet","Jets and container ships","Petroleum and nuclear power","The pill","Borlaug's wheat and IR8 rice","Smallpox eradication, penicillin"]},
+{id:"9.2", title:"Technological Advances and Limitations After 1900: Disease", themes:"ENV · TEC",
+los:["B — Explain how environmental factors affected human populations over time."],
+kcs:[
+{code:"KC-6.1.III", official:"Diseases, as well as medical and scientific developments, had significant effects on populations around the world.", plain:"Disease and medicine both reshaped populations."},
+{code:"KC-6.1.III.A", official:"Diseases associated with poverty persisted while other diseases emerged as new epidemics and threats to human populations, in some cases leading to social disruption. These outbreaks spurred technological and medical advances. Some diseases occurred at higher incidence merely because of increased longevity.", plain:"Three kinds: old diseases of poverty, new epidemics, and diseases of living longer."},
+],
+ex:["Poverty: malaria, tuberculosis, cholera","Emergent: 1918 influenza, Ebola, HIV/AIDS","Longevity: heart disease, Alzheimer's disease"]},
+{id:"9.3", title:"Technological Advances: Debates About the Environment After 1900", themes:"ENV",
+los:["C — Explain the causes and effects of environmental changes in the period from 1900 to present."],
+kcs:[
+{code:"KC-6.1.II.A", official:"As human activity contributed to deforestation, desertification, a decline in air quality, and increased consumption of the world's supply of fresh water, humans competed over these and other resources more intensely than ever before.", plain:"More people using more resources → more damage and more conflict."},
+{code:"KC-6.1.II.B", official:"The release of greenhouse gases and pollutants into the atmosphere contributed to debates about the nature and causes of climate change.", plain:"Emissions warmed the planet and heated up politics."},
+],
+ex:["Amazon deforestation","Sahel desertification","Aral Sea","Beijing and Delhi smog","Kyoto and Paris agreements"]},
+{id:"9.4", title:"Economics in the Global Age", themes:"ECN",
+los:["D — Explain the continuities and changes in the global economy from 1900 to present."],
+kcs:[
+{code:"KC-6.3.I.D", official:"In a trend accelerated by the end of the Cold War, many governments encouraged free-market economic policies and promoted economic liberalization in the late 20th century.", plain:"After communism fell, markets won almost everywhere."},
+{code:"KC-6.3.I.E", official:"In the late 20th century, revolutions in information and communications technology led to the growth of knowledge economies in some regions, while industrial production and manufacturing were increasingly situated in Asia and Latin America.", plain:"Rich countries think; Asia and Latin America make."},
+{code:"KC-6.3.II.B", official:"Changing economic institutions, multinational corporations, and regional trade agreements reflected the spread of principles and practices associated with free-market economics throughout the world.", plain:"New rules, big companies, and trade blocs spread free markets."},
+],
+ex:["Free-market governments: Reagan, Thatcher, Deng Xiaoping, Pinochet","Knowledge economies: Finland, Japan, U.S.","Manufacturing: Vietnam, Bangladesh, Mexico, Honduras","Institutions: WTO, NAFTA, ASEAN","Multinationals: Nestlé, Nissan, Mahindra and Mahindra"]},
+{id:"9.5", title:"Calls for Reform and Responses After 1900", themes:"SIO",
+los:["E — Explain how social categories, roles, and practices have been maintained and challenged over time."],
+kcs:[
+{code:"KC-6.3.III.i", official:"Rights-based discourses challenged old assumptions about race, class, gender, and religion.", plain:"People demanded rights as humans, not favors."},
+{code:"KC-6.3.III.ii", official:"In much of the world, access to education as well as participation in new political and professional roles became more inclusive in terms of race, class, gender, and religion.", plain:"Schools, voting, and jobs opened up."},
+{code:"KC-6.3.II.C", official:"Movements throughout the world protested the inequality of the environmental and economic consequences of global integration.", plain:"Globalization's losers organized."},
+],
+ex:["UN Universal Declaration of Human Rights","Global feminism","Negritude","Liberation theology","Women's suffrage: U.S. 1920, Brazil 1932, Turkey 1934, Japan 1945, India 1947, Morocco 1963","U.S. Civil Rights Act","End of apartheid","Caste reservation in India","Greenpeace","Green Belt Movement","World Fair Trade Organization"]},
+{id:"9.6", title:"Globalized Culture After 1900", themes:"CDI",
+los:["F — Explain how and why globalization changed culture over time."],
+kcs:[
+{code:"KC-6.3.IV.i", official:"Political and social changes of the 20th century led to changes in the arts and in the second half of the century, popular and consumer culture became more global.", plain:"Art reacted to the century's shocks; pop culture went worldwide."},
+{code:"KC-6.3.IV.ii", official:"Arts, entertainment, and popular culture increasingly reflected the influence of a globalized society.", plain:"What you watch and hear comes from everywhere."},
+{code:"KC-6.3.IV.iii", official:"Consumer culture became globalized and transcended national borders.", plain:"Same brands in every airport."},
+],
+ex:["Reggae","Bollywood","Facebook, Twitter","BBC","World Cup, Olympics","Alibaba, eBay","Toyota, Coca-Cola"]},
+{id:"9.7", title:"Resistance to Globalization After 1900", themes:"CDI · ECN",
+los:["G — Explain the various responses to increasing globalization from 1900 to present."],
+kcs:[
+{code:"KC-6.3.IV.iv", official:"Responses to rising cultural and economic globalization took a variety of forms.", plain:"Not everyone wanted in — protests, censorship, local alternatives, nationalism."},
+],
+ex:["Anti-IMF and anti-World Bank activism","Seattle WTO protests","Weibo as locally developed social media","Religious fundamentalism","Brexit and protectionism"]},
+{id:"9.8", title:"Institutions Developing in a Globalized World", themes:"GOV",
+los:["H — Explain how and why globalization changed international interactions among states."],
+kcs:[
+{code:"KC-6.3.II.A", official:"New international organizations, including the United Nations, formed with the stated goal of maintaining world peace and facilitating international cooperation.", plain:"States built bodies to talk instead of fight."},
+],
+ex:["United Nations and Security Council","UN peacekeeping","WHO, UNICEF, UNHCR","International Criminal Court","NGOs like the Red Cross and Amnesty International"]},
+{id:"9.9", title:"Continuity and Change in a Globalized World", themes:"Argumentation (6.C)",
+los:["I — Explain the extent to which science and technology brought change in the period from 1900 to the present."],
+kcs:[
+{code:"KC-6.1", official:"Rapid advances in science and technology altered the understanding of the universe and the natural world and led to advances in communication, transportation, industry, agriculture, and medicine.", plain:"The unit's thesis: science and technology changed everything — but how much, and for whom?"},
+{code:"KC-6.3.I", official:"States responded in a variety of ways to the economic challenges of the 20th century.", plain:"Governments chose different paths — planning, welfare, free markets."},
+{code:"KC-6.3.IV.iii", official:"Consumer culture became globalized and transcended national borders.", plain:"Culture crossed every border."},
+],
+ex:["Change: life expectancy doubled, instant communication, global brands, women's rights","Continuity: diseases of poverty, inequality between regions, nationalism, religious identity","Extent: uneven — a knowledge economy in Finland and cholera in Yemen in the same decade"]},
+],
+context: [
+{topic:"Technology and exchange", before:"Before 1900, the telegraph, steamship, and railroad had already begun shrinking distance during the industrial age.", during:"During 1900–present, radio, air travel, container shipping, cell phones, and the internet reduced geographic distance to almost nothing while oil and nuclear power multiplied production."},
+{topic:"Disease and medicine", before:"Before 1900, germ theory had been accepted but few cures existed and life expectancy was around thirty years worldwide.", during:"During 1900–present, vaccines and antibiotics doubled life expectancy and eradicated smallpox, even as the 1918 flu, HIV/AIDS, and Ebola emerged and malaria and cholera persisted in poor regions."},
+{topic:"Environment", before:"Before 1900, industrialization had already polluted cities like Manchester, but human impact on the global climate was small.", during:"During 1900–present, fossil fuels, deforestation, and population growth raised greenhouse gas levels, shrank forests and fresh water, and sparked debates over climate change from Kyoto to Paris."},
+{topic:"Global economy", before:"Before 1980, many governments ran large parts of their economies, from Soviet planning to state-led development in new nations.", during:"During 1980–present, Reagan, Thatcher, and Deng Xiaoping pushed free markets, the WTO and regional blocs lowered trade barriers, and manufacturing shifted to Asia and Latin America while the West built knowledge economies."},
+{topic:"Rights and reform", before:"Before 1945, most of the world's women could not vote and colonial subjects and racial minorities were denied equal rights.", during:"During 1945–present, the Universal Declaration of Human Rights, global feminism, the civil rights movement, and the end of apartheid expanded rights, education, and political participation across race, class, gender, and religion."},
+{topic:"Global culture and resistance", before:"Before 1950, popular culture was mostly national, spread by radio and film within borders.", during:"During 1950–present, reggae, Bollywood, the World Cup, Coca-Cola, and social media created a shared global culture, while anti-WTO protests, religious fundamentalism, and China's Weibo pushed back."},
+],
+};
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let activeTopic = "all", query = "";
+const state = { quiz:false, hideFronts:false, onlyMissed:false, marks:{} };
+try { Object.assign(state.marks, JSON.parse(localStorage.getItem("apwh-u"+UNIT.number+"-marks")||"{}")); } catch(e){}
+function saveMarks(){ try{ localStorage.setItem("apwh-u"+UNIT.number+"-marks", JSON.stringify(state.marks)); }catch(e){} }
+$("#unitLede").textContent = UNIT.lede;
+$("#unitStats").innerHTML = UNIT.stats.map(([b,l]) => `<div class="stat"><b>${esc(b)}</b><span>${esc(l)}</span></div>`).join("");
+$("#topicList").innerHTML = UNIT.topics.map(t => `<div class="topic-row"><span class="num">${esc(t.id)}</span><span>${esc(t.title)}</span><span class="theme">${esc(t.themes)}</span></div>`).join("");
+const chipsEl = $("#chips");
+chipsEl.innerHTML = [`<button class="chip on" data-t="all">All topics</button>`].concat(
+UNIT.topics.filter(t => !t.review).map(t => `<button class="chip" data-t="${t.id}">${t.id} ${esc(t.title.replace(/^(Developments in|State Building in) /,""))}</button>`)).join("");
+chipsEl.addEventListener("click", e => {
+const b = e.target.closest(".chip"); if(!b) return;
+$$(".chip").forEach(c => c.classList.toggle("on", c === b));
+activeTopic = b.dataset.t; applyFilter();
+});
+$("#search").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); applyFilter(); });
+const topicName = id => (UNIT.topics.find(t => t.id === id) || {title:""}).title.replace(/^(Developments in|State Building in) /,"");
+function vocabCard(v, i){
+return `<div class="card" data-t="${v.t}" data-key="v${i}" data-text="${esc((v.term+" "+v.def).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(v.term)} — flip card">
+<div class="face front"><span class="tag">${v.t} · ${esc(topicName(v.t))}</span><div class="term">${esc(v.term)}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${v.t} · definition</span><div class="term">${esc(v.term)}</div><div class="def">${esc(v.def)}</div><div class="why"><b>Why it matters:</b> ${esc(v.why)}</div></div>
+</button>
+<div class="mark"><button class="got" data-m="got">✓ Got it</button><button class="miss" data-m="miss">✗ Missed</button></div></div>`;
+}
+const SF = Object.assign({gained:"Gained power", kept:"Kept power", known:"Known for", end:"End", cue:"Before you flip — how did it <b>gain</b> power, how did it <b>keep</b> it, and what is it <b>known for</b>?"}, UNIT.stateFields || {});
+if (UNIT.statesLabel) { $("#statesH").textContent = UNIT.statesLabel; $('.bar a[href="#states"]').textContent = UNIT.statesLabel; }
+if (UNIT.statesBlurb) $("#statesP").textContent = UNIT.statesBlurb;
+function stateCard(s, i){
+return `<div class="card" data-t="${s.t}" data-key="s${i}" data-text="${esc((s.name+" "+s.region+" "+s.known).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(s.name)} — flip card">
+<div class="face front"><span class="tag">${s.t} · ${esc(s.region)}</span><div class="term">${esc(s.name)}</div><div class="sub">${esc(s.dates)}</div><div class="cue">${SF.cue}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${esc(s.region)} · ${esc(s.dates)}</span><div class="term">${esc(s.name)}</div>
+<p class="kv"><b>${SF.gained}:</b> ${esc(s.gained)}</p><p class="kv"><b>${SF.kept}:</b> ${esc(s.kept)}</p><p class="kv"><b>${SF.known}:</b> ${esc(s.known)}</p><p class="kv"><b>${SF.end}:</b> ${esc(s.end)}</p></div>
+</button></div>`;
+}
+let vocabOrder = UNIT.vocab.map((v,i) => i);
+function renderVocab(){ $("#vocabGrid").innerHTML = vocabOrder.map(i => vocabCard(UNIT.vocab[i], i)).join(""); paintMarks(); applyFilter(); }
+renderVocab();
+$("#stateGrid").innerHTML = UNIT.states.map(stateCard).join("");
+document.addEventListener("click", e => {
+const m = e.target.closest(".mark button");
+if (m){ const card = m.closest(".card"); const k = card.dataset.key; state.marks[k] = (state.marks[k] === m.dataset.m) ? null : m.dataset.m; saveMarks(); paintMarks(); applyFilter(); return; }
+const inner = e.target.closest(".card-inner");
+if (inner){ const card = inner.closest(".card"); card.classList.toggle("flipped"); inner.setAttribute("aria-pressed", card.classList.contains("flipped")); }
+});
+function paintMarks(){
+let got = 0, miss = 0;
+$$("#vocabGrid .card").forEach(c => { const m = state.marks[c.dataset.key]; c.classList.toggle("got", m === "got"); c.classList.toggle("miss", m === "miss"); if (m === "got") got++; if (m === "miss") miss++; });
+$("#gotN").textContent = got + " got it"; $("#missN").textContent = miss + " missed";
+}
+$("#shuffleVocab").onclick = () => { for (let i = vocabOrder.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [vocabOrder[i], vocabOrder[j]] = [vocabOrder[j], vocabOrder[i]]; } renderVocab(); };
+function flipAll(sel){ const cards = $$(sel + " .card:not(.hidden)"); const anyUn = cards.some(c => !c.classList.contains("flipped")); cards.forEach(c => { c.classList.toggle("flipped", anyUn); c.querySelector(".card-inner").setAttribute("aria-pressed", anyUn); }); }
+$("#flipAllVocab").onclick = () => flipAll("#vocabGrid");
+$("#flipAllStates").onclick = () => flipAll("#stateGrid");
+$("#quizBtn").onclick = () => { state.quiz = !state.quiz; $("#vocab").classList.toggle("quiz", state.quiz); $("#quizBtn").classList.toggle("on", state.quiz); $("#quizBtn").textContent = state.quiz ? "Exit quiz" : "Quiz me"; if(!state.quiz){ state.onlyMissed=false; $("#onlyMissed").classList.remove("on"); state.hideFronts=false; $("#vocab").classList.remove("hide-fronts"); $("#hideFronts").classList.remove("on"); } applyFilter(); };
+$("#hideFronts").onclick = () => { state.hideFronts = !state.hideFronts; $("#vocab").classList.toggle("hide-fronts", state.hideFronts); $("#hideFronts").classList.toggle("on", state.hideFronts); $("#hideFronts").textContent = state.hideFronts ? "Show terms" : "Hide terms"; $$("#vocabGrid .card").forEach(c => c.classList.remove("flipped")); };
+$("#onlyMissed").onclick = () => { state.onlyMissed = !state.onlyMissed; $("#onlyMissed").classList.toggle("on", state.onlyMissed); applyFilter(); };
+$("#resetQuiz").onclick = () => { state.marks = {}; saveMarks(); paintMarks(); applyFilter(); };
+$("#rail").innerHTML = UNIT.timeline.map((d, i) => `<li data-t="${d.t}" data-text="${esc((d.y+" "+d.e+" "+d.reg).toLowerCase())}"><button class="year" aria-expanded="false"><div class="dot"></div><div class="y">${esc(d.y)}</div><div class="e">${esc(d.e)}</div><div class="reg">${esc(d.reg)} · ${d.t}</div><div class="more">${esc(d.why)}</div></button></li>`).join("");
+$("#rail").addEventListener("click", e => { const b = e.target.closest(".year"); if(!b) return; b.classList.toggle("open"); b.setAttribute("aria-expanded", b.classList.contains("open")); });
+$("#devList").innerHTML = UNIT.developments.map(d => `<details class="dev" data-t="${d.id}" data-text="${esc((d.title+" "+d.kcs.map(k=>k.official+" "+k.plain).join(" ")+" "+d.ex.join(" ")).toLowerCase())}">
+<summary><span class="num">${d.id}</span><span><div class="ttl">${esc(d.title)}</div><div class="themes">${esc(d.themes)}</div></span><span class="arrow">+</span></summary>
+<div class="body">
+<div class="lo"><b>Learning objective${d.los.length>1?"s":""}:</b> ${d.los.map(esc).join(" &nbsp;·&nbsp; ")}</div>
+${d.kcs.map(k => `<div class="kc"><div class="code">${esc(k.code)}</div><div class="official">${esc(k.official)}</div><div class="plain"><b>In plain English:</b> ${esc(k.plain)}</div></div>`).join("")}
+<div><div class="tag" style="margin-bottom:6px">Illustrative examples</div><div class="ex">${d.ex.map(x => `<span>${esc(x)}</span>`).join("")}</div></div>
+</div></details>`).join("");
+$("#openAllDev").onclick = () => { const devs = $$(".dev:not(.hidden)"); const anyClosed = devs.some(d => !d.open); devs.forEach(d => d.open = anyClosed); $("#openAllDev").textContent = anyClosed ? "Close all" : "Open all"; };
+$("#ctxList").innerHTML = UNIT.context.map(c => `<div class="c"><h3>${esc(c.topic)}</h3><p><b>Before</b> ${esc(c.before)}</p><p><b>During</b> ${esc(c.during)}</p></div>`).join("");
+function applyFilter(){
+const match = el => (activeTopic === "all" || el.dataset.t === activeTopic) && (!query || el.dataset.text.includes(query));
+$$("#vocabGrid .card").forEach(c => { let ok = match(c); if (state.quiz && state.onlyMissed) ok = ok && state.marks[c.dataset.key] === "miss"; c.classList.toggle("hidden", !ok); });
+$$("#stateGrid .card").forEach(c => c.classList.toggle("hidden", !match(c)));
+$$("#rail li").forEach(li => li.classList.toggle("hidden", !match(li)));
+$$(".dev").forEach(d => d.classList.toggle("hidden", !match(d)));
+const n = $$("#vocabGrid .card:not(.hidden)").length, s = $$("#stateGrid .card:not(.hidden)").length;
+$("#cardCount").textContent = `${n} terms · ${s} ${UNIT.countLabel || "states"}`;
+}
+applyFilter();
+$$(".bar a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); const el = $(a.getAttribute("href")); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }));
+const links = $$(".bar a"); const secs = links.map(a => $(a.getAttribute("href")));
+const io = new IntersectionObserver(entries => { entries.forEach(en => { if (en.isIntersecting){ links.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id)); } }); }, { rootMargin: "-40% 0px -55% 0px" });
+secs.forEach(s => io.observe(s));
+</script>
+<style id="dm-css">
+html.dm{color-scheme:dark;--bg:#0E1230;--bg-2:#141A3E;--surface:#171D47;--surface-2:#1F2656;--paper:#1A2050;--line:#2D3572;--line-2:#3C458C;--ink:#EEF0FA;--ink-2:#C6CBE8;--muted:#A3AACF;--title:#F1E4B8;--gold-ink:#E6CB73;--gold-deep:#E6CB73;--gold-soft:#3A3112;--accent:#E07C88;--accent-soft:#3D1E24;--asoft:#3D1E24;--good:#4CC777;--good-soft:#173A24;--bad:#F07167;--bad-soft:#44201C;--green:#4CC777;--green-l:#173A24;--green-b:#2B6A3F;--red:#F07167;--red-l:#44201C;--red-b:#7A3530;--yellow:#F2C94C;--yellow-l:#3B3110;--yellow-b:#7A6A24;--blue:#7FB3F0;--blue-l:#17304F;--plum:#C9A6F0;--plum-l:#2F2246;--tT:#7FB3F0;--tE:#F0A36A;--tA:#C9A6F0;--tO:#4CC777;--shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px -6px rgba(0,0,0,.55);--shadow-lift:0 2px 4px rgba(0,0,0,.35),0 18px 40px -14px rgba(0,0,0,.7);--dm-card:var(--surface);--dm-ink:var(--ink);--dm-line:var(--line);--dm-tg-bg:#171D47;--dm-tg-fg:#E3C464;--dm-tg-b:#3C458C;--dm-tg-font:Arial,Helvetica,sans-serif}
+:where(html.dm) .chip:hover{border-color:#1E2761}
+:where(html.dm) .card.got .mark .got{border-color:#1B7F3B}
+:where(html.dm) .period-head h2{color:#B9C4FF}
+:where(html.dm) .unit h3{color:#B9C4FF}
+:where(html.dm) .how p b{color:#B9C4FF}
+:where(html.dm) footer b{color:#B9C4FF}
+:where(html.dm) footer a{color:#B9C4FF}
+:where(html.dm) .hk{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .hk-i.g{background:#1B7F3B}
+:where(html.dm) .hk-i.p{background:#5B2C83}
+:where(html.dm) .hk-i.y{background:#8A6D12}
+:where(html.dm) .hk b{color:#B9C4FF}
+:where(html.dm) .sec-head h2{color:#B9C4FF}
+:where(html.dm) .flip.open .fq{color:#B9C4FF}
+:where(html.dm) .flip.open .fa b,:where(html.dm) .flip.open .bigans{color:#B9C4FF}
+:where(html.dm) .chip{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .chip:hover{color:#B9C4FF}
+:where(html.dm) .fcard{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fcard h3{color:#B9C4FF}
+:where(html.dm) .pill.navy{color:#B9C4FF}
+:where(html.dm) .bar i{background:linear-gradient(90deg,var(--navy),#1B7F3B)}
+:where(html.dm) .btn{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .btn.checkb{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .w-title h2{color:#B9C4FF}
+:where(html.dm) .namebox input{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .scorebar .dots button.y{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .promptbox .q{color:#B9C4FF}
+:where(html.dm) .stim{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .ptable{background:linear-gradient(135deg,var(--surface),var(--paper))}
+:where(html.dm) .ptable summary{color:#B9C4FF}
+:where(html.dm) .howto{background:linear-gradient(135deg,var(--surface),var(--gold-soft))}
+:where(html.dm) .ht-step strong{color:#B9C4FF}
+:where(html.dm) .kbd,:where(html.dm) .ht-step kbd{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .tea-key{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .lab.T{background:#0F4C81}
+:where(html.dm) .lab.E{background:#B4560F}
+:where(html.dm) .lab.A{background:#5B2C83}
+:where(html.dm) .lab.O{background:#1B7F3B}
+:where(html.dm) .lab.C{background:#1B7F3B}
+:where(html.dm) .lab.V{background:#B4560F}
+:where(html.dm) .lab.R{background:#9A6700}
+:where(html.dm) .lab.X{background:#5B2C83}
+:where(html.dm) .tk b{color:#B9C4FF}
+:where(html.dm) .tk-note b{color:#B9C4FF}
+:where(html.dm) .part{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .part.earned::before{background:#1B7F3B}
+:where(html.dm) .part.earned .part-l{background:#1B7F3B}
+:where(html.dm) .verb{background:var(--vc,#5B2C83)}
+:where(html.dm) .part-q{color:#B9C4FF}
+:where(html.dm) .part-dir b{color:#B9C4FF}
+:where(html.dm) .bx textarea{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb h4{color:#B9C4FF}
+:where(html.dm) .fb h4 .src{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .fbline .m.y{background:#1B7F3B}
+:where(html.dm) .fbline .m.i{background:#666B82}
+:where(html.dm) .fbline .m.w{background:#9A6700}
+:where(html.dm) .fbline b{color:#B9C4FF}
+:where(html.dm) .fbline q{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-guide,:where(html.dm) .fb-fix,:where(html.dm) .fb-look{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-hand{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb-hand p b{color:#B9C4FF}
+:where(html.dm) .verdict{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .verdict .vq{color:#B9C4FF}
+:where(html.dm) .verdict .btn.yes.on{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .acc div.hit{color:#CDF3DC}
+:where(html.dm) .acc div.hit b{background:#1B7F3B}
+:where(html.dm) .stuckpanel{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .stuckpanel h4,:where(html.dm) .expanel h4,:where(html.dm) .stempanel h4{color:#B9C4FF}
+:where(html.dm) .expanel{background:var(--surface);background-color:var(--surface);border-left:5px solid #5B2C83}
+:where(html.dm) .stm{background:var(--surface);background-color:var(--surface);color:#F9EBCD}
+:where(html.dm) .stm:hover{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .finish{background:linear-gradient(135deg,var(--surface),var(--plum-l))}
+:where(html.dm) .finish h3{color:#B9C4FF}
+:where(html.dm) .sample .sp{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .sample .sp-q{color:#B9C4FF}
+:where(html.dm) .aphead h4{color:#B9C4FF}
+:where(html.dm) .aptab.on{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .apwrap{border:1px solid #314C72;border-color:#314C72;border-top:1px solid #314C72;border-bottom:1px solid #314C72;border-left:1px solid #314C72;border-right:1px solid #314C72}
+:where(html.dm) .apbar{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .apbar b{color:var(--ink)}
+:where(html.dm) .apbar .r{color:var(--ink)}
+:where(html.dm) .apbody{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .apq .mk{color:var(--ink)}
+:where(html.dm) .apstem{color:var(--ink)}
+:where(html.dm) .apparts{color:var(--ink)}
+:where(html.dm) .aptool{background:var(--bg);background-color:var(--bg);color:var(--ink);border-color:var(--line) var(--line) currentcolor;border-top:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .apbox{color:var(--ink);border:1px solid var(--line);border-color:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .doc{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .doc.used{outline:2px solid #1B7F3B}
+:where(html.dm) .dstat{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .dstat.on{border-color:#1B7F3B}
+:where(html.dm) .dhelp .model{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess h4{color:#B9C4FF}
+:where(html.dm) .modal{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .modal h2{color:#B9C4FF}
+:where(html.dm) footer.foot b{color:#B9C4FF}
+:where(html.dm) .svwarn{background:#413618;background-color:#413618;color:#DFDCEF}
+:where(html.dm) .svwarn.dirty{background:#412B18;background-color:#412B18}
+:where(html.dm) .svwarn.safe{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .svw-copy b{color:#F8DBBD}
+:where(html.dm) .svwarn.safe .svw-copy b{color:#C2F2D4}
+:where(html.dm) .svw-copy span{color:#D1CEDF}
+:where(html.dm) .svbtn{background:var(--surface);background-color:var(--surface);color:#DFDCEF;border:1px solid #443A69;border-color:#443A69;border-top:1px solid #443A69;border-bottom:1px solid #443A69;border-left:1px solid #443A69;border-right:1px solid #443A69}
+:where(html.dm) .svw-rubric{color:#D1CEDF}
+/* World Compass manual fixes: per-unit inline accent tokens (--a / --asoft) */
+:where(html.dm) .unit .go{color:color-mix(in srgb,var(--a) 45%,#fff)}
+:where(html.dm) .unit .pct{background:color-mix(in srgb,var(--a) 28%,var(--surface));color:color-mix(in srgb,var(--a) 40%,#fff)}
+:where(html.dm) .unit .n{color:color-mix(in srgb,var(--a) 55%,#fff)}
+:where(html.dm) .btn.gold{color:#1E2761}
+:where(html.dm) .lab.T,:where(html.dm) .lab.E,:where(html.dm) .lab.A{color:#0E1230}
+
+/* dark-mode toggle (shared) */
+:root{--dm-tg-bg:#fff;--dm-tg-fg:#1F1B3A;--dm-tg-b:rgba(0,0,0,.18);--dm-tg-font:system-ui,sans-serif}
+.dm-tg{position:fixed;right:14px;bottom:14px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 10px;border-radius:999px;border:2px solid var(--dm-tg-b);background:var(--dm-tg-bg);color:var(--dm-tg-fg);font:600 13px/1 var(--dm-tg-font);letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.22);transition:transform .15s,box-shadow .15s,opacity .2s;-webkit-tap-highlight-color:transparent;opacity:.96}
+.dm-tg:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:1}
+.dm-tg:active{transform:translateY(0) scale(.97)}
+.dm-tg:focus-visible{outline:3px solid #FFC83D;outline-offset:3px}
+.dm-tg svg{width:18px;height:18px;display:block}
+.dm-tg .dm-sun{display:none}
+html.dm .dm-tg .dm-sun{display:block}
+html.dm .dm-tg .dm-moon{display:none}
+.dm-tg .dm-lbl{white-space:nowrap}
+@media (max-width:620px){.dm-tg{right:10px;bottom:10px;height:38px;padding:0 10px}.dm-tg .dm-lbl{display:none}}
+@media print{.dm-tg{display:none !important}}
+
+</style>
+<script id="dm">
+/* Dark mode add-on (GeoArcade / World Compass / Euro Atlas / Lang Studio). Follows the device setting, with a per-page toggle. */
+(function(){
+  if (window.__dmInit) return; window.__dmInit = 1;
+  var d = document.documentElement, KEY = 'dm:pref', pref = null;
+  try { pref = localStorage.getItem(KEY) || sessionStorage.getItem(KEY); } catch (e) {}
+  var mq = null; try { mq = window.matchMedia('(prefers-color-scheme: dark)'); } catch (e) {}
+  function sys() { return !!(mq && mq.matches); }
+  var on = pref ? pref === 'dark' : sys();
+  d.classList.toggle('dm', on);
+  var btn;
+  function paint() {
+    d.classList.toggle('dm', on);
+    if (btn) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.setAttribute('title', on ? 'Switch to light mode' : 'Switch to dark mode');
+      var l = btn.querySelector('.dm-lbl'); if (l) l.textContent = on ? 'Light' : 'Dark';
+    }
+    try { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.setAttribute('content', on ? '#0F0D22' : '#FFFFFF'); } catch (e) {}
+  }
+  function set(v, remember) {
+    on = v; paint();
+    if (remember) { try { localStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} try { sessionStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} }
+  }
+  function build() {
+    if (btn || !document.body) return;
+    btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'dm-tg'; btn.id = 'dmToggle';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
+    btn.innerHTML = '<svg class="dm-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 14.6A8.5 8.5 0 0 1 9.4 3a1 1 0 0 0-1.1-1.3A10.5 10.5 0 1 0 22.3 15.7 1 1 0 0 0 21 14.6z"/></svg>'
+      + '<svg class="dm-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>'
+      + '<span class="dm-lbl">Dark</span>';
+    btn.addEventListener('click', function () { set(!on, true); });
+    document.body.appendChild(btn);
+    paint();
+    // keep the button last in <body> so nothing re-renders over it
+    new MutationObserver(function () { if (btn && document.body && document.body.lastElementChild !== btn && btn.isConnected) document.body.appendChild(btn); if (btn && !btn.isConnected) document.body.appendChild(btn); }).observe(document.body, { childList: true });
+  }
+  if (mq && mq.addEventListener) mq.addEventListener('change', function (e) { if (!pref) set(e.matches, false); });
+  else if (mq && mq.addListener) mq.addListener(function (e) { if (!pref) set(e.matches, false); });
+  if (document.body) build(); else document.addEventListener('DOMContentLoaded', build);
+  window.__dm = { set: function (v) { set(!!v, true); }, get on() { return on; } };
+})();
+
+</script>
+</body>
+</html>

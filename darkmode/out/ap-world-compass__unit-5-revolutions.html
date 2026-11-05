@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AP World Unit 5 — Revolutions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&display=swap">
+<style>
+:root{
+--navy:#1E2761; --navy-2:#2B3780; --title:#1E2761; --gold:#C9A227; --gold-2:#E3C464; --gold-soft:#F6EBC4;
+--accent:#A4262C; --accent-soft:#F9E6E7;
+--bg:#F4F5F9; --surface:#FFFFFF; --surface-2:#EEF0F6; --line:#D8DBE6;
+--ink:#1A1D2E; --ink-2:#4A4F68; --muted:#666B82;
+--on-navy:#FFFFFF; --on-navy-muted:#B9BFE0;
+--good:#1B7F3B; --good-soft:#E3F3E7; --bad:#B42318; --bad-soft:#FBE9E7;
+--shadow:0 1px 2px rgba(30,39,97,.06),0 6px 18px rgba(30,39,97,.08);
+--display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+--body:Arial,Helvetica,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+#app{height:100vh;overflow-y:auto;overflow-x:hidden;scroll-behavior:smooth;-webkit-overflow-scrolling:touch}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.hero{background:var(--navy);color:var(--on-navy);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:auto -10% -60% auto;width:520px;height:520px;border-radius:50%;
+background:radial-gradient(circle at 30% 30%,rgba(201,162,39,.28),rgba(201,162,39,0) 62%);pointer-events:none}
+.hero .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;padding:44px 24px 36px;position:relative}
+.eyebrow{font-size:12px;font-weight:bold;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.hero h1{font-family:var(--display);font-weight:700;font-size:clamp(44px,6vw,72px);line-height:.98;margin:10px 0 14px;text-wrap:balance;letter-spacing:-.01em}
+.hero .lede{max-width:56ch;color:var(--on-navy-muted);font-size:17px;margin:0 0 22px}
+.stats{display:flex;gap:28px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--display);font-size:34px;font-weight:700;line-height:1;color:var(--gold-2)}
+.stat span{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--on-navy-muted)}
+.topics{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:18px 18px 10px;align-self:start}
+.topics h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+.topic-row{display:flex;gap:12px;align-items:flex-start;padding:8px 0;border-top:1px solid rgba(255,255,255,.1);font-size:14px;line-height:1.35}
+.topic-row:first-of-type{border-top:0}
+.topic-row .num{font-family:var(--display);font-weight:700;font-size:20px;line-height:1;min-width:38px;color:var(--gold-2)}
+.topic-row .theme{margin-left:auto;white-space:nowrap;font-size:11px;letter-spacing:.08em;color:var(--on-navy-muted)}
+.bar{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 2px 10px rgba(30,39,97,.06)}
+.bar .wrap{display:flex;align-items:center;gap:6px;padding:8px 24px;overflow-x:auto;scrollbar-width:none}
+.bar .wrap::-webkit-scrollbar{display:none}
+.bar a{color:var(--ink-2);text-decoration:none;font-size:14px;font-weight:bold;padding:8px 12px;border-radius:8px;white-space:nowrap}
+.bar a:hover,.bar a.active{background:var(--surface-2);color:var(--title)}
+.bar .spacer{flex:1}
+.bar .count{font-size:12px;color:var(--muted);white-space:nowrap}
+.filter{background:var(--surface-2);border-bottom:1px solid var(--line)}
+.filter .wrap{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 24px}
+.filter .lbl{font-size:12px;font-weight:bold;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:6px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:bold;cursor:pointer}
+.chip:hover{border-color:var(--title);color:var(--title)}
+.chip.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.filter input{margin-left:auto;min-width:220px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;font-size:14px}
+section.block{padding:44px 0 12px;scroll-margin-top:56px}
+.sec-head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.sec-head h2{font-family:var(--display);font-weight:700;font-size:38px;line-height:1;margin:0;color:var(--title)}
+.sec-head p{margin:0;color:var(--muted);font-size:14px;max-width:60ch}
+.sec-head .tools{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--title);border-radius:8px;padding:8px 14px;font-size:13px;font-weight:bold;cursor:pointer}
+.btn:hover{border-color:var(--navy)}
+.btn.primary{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.btn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.grid.big{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{perspective:1200px;display:flex;flex-direction:column;gap:6px}
+.card-inner{position:relative;width:100%;flex:1;min-height:150px;transition:transform .55s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d;cursor:pointer;border:0;padding:0;background:none;text-align:left;display:block;color:inherit}
+.grid.big .card-inner{min-height:250px}
+.card.flipped .card-inner{transform:rotateY(180deg)}
+.face{backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:inherit}
+.front{position:absolute;inset:0;background:var(--surface);border:1px solid var(--line)}
+.front::before{content:"";position:absolute;left:18px;right:18px;top:0;height:3px;background:var(--accent);border-radius:0 0 3px 3px}
+.back{position:relative;background:var(--navy);color:var(--on-navy);transform:rotateY(180deg)}
+.tag{font-size:11px;font-weight:bold;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.back .tag{color:var(--gold)}
+.term{font-family:var(--display);font-weight:700;font-size:26px;line-height:1.05;margin:10px 0 6px;color:var(--title);text-wrap:balance}
+.grid.big .term{font-size:28px}
+.sub{font-size:13px;color:var(--ink-2)}
+.cue{margin-top:14px;font-size:13px;color:var(--muted);line-height:1.4;max-width:34ch}
+.cue b{color:var(--accent)}
+.front .hint{margin-top:auto;font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.back .term{color:#fff;font-size:20px;margin:6px 0 8px}
+.def{font-size:14px;line-height:1.45}
+.why{margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.18);font-size:13px;color:var(--on-navy-muted)}
+.why b{color:var(--gold-2)}
+.kv{font-size:13px;line-height:1.4;margin:4px 0}
+.kv b{color:var(--gold-2);font-weight:bold}
+.card.hidden{display:none}
+.card .mark{display:none;gap:6px}
+.quiz .card .mark{display:flex}
+.mark button{flex:1;border:1px solid var(--line);border-radius:8px;padding:6px 8px;font-size:12px;font-weight:bold;cursor:pointer;background:var(--surface);color:var(--ink-2)}
+.mark button.got{color:var(--good)} .mark button.miss{color:var(--bad)}
+.card.got .front{box-shadow:0 0 0 2px var(--good),var(--shadow)}
+.card.miss .front{box-shadow:0 0 0 2px var(--bad),var(--shadow)}
+.card.got .mark .got{background:var(--good-soft);border-color:var(--good)}
+.card.miss .mark .miss{background:var(--bad-soft);border-color:var(--bad)}
+.quiz .front .term{filter:blur(0)}
+.quiz.hide-fronts .card:not(.flipped) .front .term{filter:blur(7px)}
+.quiz.hide-fronts .card:not(.flipped) .front .hint::after{content:" · term hidden — flip to check"}
+.quizbar{display:none;align-items:center;gap:14px;flex-wrap:wrap;background:var(--accent-soft);border:1px solid var(--accent);border-radius:12px;padding:12px 16px;margin:0 0 16px;font-size:14px}
+.quiz .quizbar{display:flex}
+.quizbar b{color:var(--accent)}
+.quizbar .score{display:flex;gap:14px}
+.pill{border-radius:999px;padding:3px 10px;font-weight:bold;font-size:13px}
+.pill.good{background:var(--good-soft);color:var(--good)} .pill.bad{background:var(--bad-soft);color:var(--bad)}
+.rail{position:relative;overflow-x:auto;padding:24px 0 18px;scroll-snap-type:x proximity}
+.rail ol::before{content:"";position:absolute;left:0;right:0;top:36px;height:3px;z-index:0;background:linear-gradient(90deg,var(--gold),var(--gold-2),var(--gold))}
+.rail ol{list-style:none;margin:0;padding:0 8px;display:flex;gap:14px;min-width:max-content;position:relative}
+.rail li{scroll-snap-align:start;width:210px}
+.year{display:block;width:100%;border:0;background:none;cursor:pointer;text-align:left;padding:0;color:inherit}
+.year .dot{position:relative;z-index:1;width:14px;height:14px;border-radius:50%;background:var(--surface);border:3px solid var(--gold);margin:29px 0 0 0;transition:transform .2s}
+.year:hover .dot,.year.open .dot{background:var(--accent);border-color:var(--accent);transform:scale(1.25)}
+.year .y{font-family:var(--display);font-weight:700;font-size:30px;line-height:1;color:var(--title);margin:10px 0 4px}
+.year .e{font-size:14px;font-weight:bold;color:var(--ink);line-height:1.3}
+.year .reg{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.year .more{display:none;margin-top:8px;font-size:13px;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow)}
+.year.open .more{display:block}
+.rail li.hidden{display:none}
+.dev{border:1px solid var(--line);background:var(--surface);border-radius:14px;margin-bottom:12px;overflow:hidden;box-shadow:var(--shadow)}
+.dev summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center;padding:16px 18px}
+.dev summary::-webkit-details-marker{display:none}
+.dev .num{font-family:var(--display);font-weight:700;font-size:34px;line-height:1;color:var(--accent)}
+.dev .ttl{font-weight:bold;font-size:17px;color:var(--title)}
+.dev .themes{font-size:11px;letter-spacing:.08em;color:var(--muted);margin-top:2px}
+.dev .arrow{width:28px;height:28px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;color:var(--title);font-weight:bold;transition:transform .25s}
+.dev[open] .arrow{transform:rotate(45deg)}
+.dev .body{padding:0 18px 18px 96px;display:grid;gap:14px}
+.lo{font-size:14px;color:var(--ink-2)}
+.lo b{color:var(--title)}
+.kc{border-left:3px solid var(--gold);padding:6px 14px;background:var(--surface-2);border-radius:0 10px 10px 0}
+.kc .code{font-size:11px;letter-spacing:.08em;color:var(--muted);font-weight:bold}
+.kc .official{font-size:14px;margin:2px 0 6px;color:var(--ink)}
+.kc .plain{font-size:14px;color:var(--ink-2)}
+.kc .plain b{color:var(--accent)}
+.ex{display:flex;flex-wrap:wrap;gap:6px}
+.ex span{font-size:12px;font-weight:bold;background:var(--gold-soft);color:var(--title);border-radius:6px;padding:4px 8px}
+.dev.hidden{display:none}
+@media (max-width:700px){.dev summary{grid-template-columns:48px 1fr auto}.dev .body{padding-left:18px}}
+.ctx{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.ctx .c{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+.ctx h3{margin:0 0 8px;font-size:15px;color:var(--title)}
+.ctx p{margin:6px 0;font-size:14px;color:var(--ink-2)}
+.ctx p b{display:inline-block;min-width:64px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+footer{margin-top:40px;padding:22px 0 34px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center}
+footer b{color:var(--title)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.topics{order:2}}
+@media (prefers-reduced-motion: reduce){
+html{scroll-behavior:auto}
+#app{scroll-behavior:auto}
+.card-inner{transition:none}
+.card.flipped .card-inner{transform:none}
+.front{visibility:visible}
+.card.flipped .front{visibility:hidden}
+.back{transform:none;visibility:hidden}
+.card.flipped .back{visibility:visible}
+}
+.hero{display:none}
+</style>
+<style id="ms-phone-nav">@media (max-width:700px){.bar .wrap{flex-wrap:wrap;overflow-x:visible;row-gap:2px;padding:6px 12px}.bar a{padding:6px 9px;font-size:13px}.bar .spacer{display:none}}</style><style id="ms-phone-text">@media (max-width:640px){.topic-row .theme,.tag,.front .hint,.year .reg,.dev .themes,.kc .code,.ctx p b{font-size:12px!important;line-height:1.35}}
+/* ios-no-zoom */@media (max-width:820px){input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]),textarea,select{font-size:16px !important}}
+</style></head>
+<body>
+<div id="app">
+<header class="hero">
+<div class="wrap">
+<div>
+<div class="eyebrow">AP World History: Modern &nbsp;·&nbsp; Unit 5 &nbsp;·&nbsp; 1750 – 1900</div>
+<h1 id="unitTitle">Revolutions</h1>
+<p class="lede" id="unitLede"></p>
+<div class="stats" id="unitStats"></div>
+</div>
+<aside class="topics" aria-label="Topics in this unit">
+<h2>Topics</h2>
+<div id="topicList"></div>
+</aside>
+</div>
+</header>
+<nav class="bar" aria-label="Sections">
+<div class="wrap">
+<a href="#vocab">Vocabulary</a>
+<a href="#states">Empires &amp; States</a>
+<a href="#timeline">Timeline</a>
+<a href="#developments">Historical Developments</a>
+<a href="#context">Context Bank</a>
+<span class="spacer"></span>
+<span class="count" id="cardCount"></span>
+</div>
+</nav>
+<div class="filter">
+<div class="wrap">
+<span class="lbl">Show</span>
+<div id="chips" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+<input id="search" type="search" placeholder="Search terms, cards, dates…" aria-label="Search">
+</div>
+</div>
+<main class="wrap">
+<section class="block" id="vocab">
+<div class="sec-head">
+<h2>Vocabulary</h2>
+<p>Tap a card to flip it. Term on the front, definition and why it matters on the back.</p>
+<div class="tools">
+<button class="btn" id="shuffleVocab">Shuffle</button>
+<button class="btn" id="flipAllVocab">Flip all</button>
+<button class="btn gold" id="quizBtn">Quiz me</button>
+</div>
+</div>
+<div class="quizbar" id="quizbar">
+<div><b>Quiz mode.</b> Flip a card, then mark it. Missed cards get a red ring so you can come back to them. Marks last only while this page is open; they reset when you reload or leave.</div>
+<div class="score"><span class="pill good" id="gotN">0 got it</span><span class="pill bad" id="missN">0 missed</span></div>
+<button class="btn" id="hideFronts">Hide terms</button>
+<button class="btn" id="onlyMissed">Show missed only</button>
+<button class="btn" id="resetQuiz">Reset</button>
+</div>
+<div class="grid" id="vocabGrid"></div>
+</section>
+<section class="block" id="states">
+<div class="sec-head">
+<h2 id="statesH">Empires &amp; States</h2>
+<p id="statesP">How each state gained power, kept it, and what it is known for. These are the LEQ evidence cards.</p>
+<div class="tools"><button class="btn" id="flipAllStates">Flip all</button></div>
+</div>
+<div class="grid big" id="stateGrid"></div>
+</section>
+<section class="block" id="timeline">
+<div class="sec-head">
+<h2>Timeline</h2>
+<p>Click a date to see why it is on the list. Scroll sideways.</p>
+</div>
+<div class="rail"><ol id="rail"></ol></div>
+</section>
+<section class="block" id="developments">
+<div class="sec-head">
+<h2>Historical Developments</h2>
+<p>The College Board statements the questions are written from — official wording, then plain English, then the examples they expect you to know.</p>
+<div class="tools"><button class="btn" id="openAllDev">Open all</button></div>
+</div>
+<div id="devList"></div>
+</section>
+<section class="block" id="context">
+<div class="sec-head">
+<h2>Context Bank</h2>
+<p>Ready-made LEQ contextualization: one sentence before the period, one sentence during.</p>
+</div>
+<div class="ctx" id="ctxList"></div>
+</section>
+</main>
+<footer><b>Panther Creek High School</b> &nbsp;•&nbsp; Created by Scott Martin &nbsp;•&nbsp; APandAbroad@gmail.com<br>AP® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this site.</footer>
+</div>
+<script>
+const UNIT = {
+number: 5, title: "Revolutions", dates: "1750 – 1900",
+lede: "Two revolutions at once. Unit 5 follows Enlightenment ideas into the political revolutions of the Atlantic world and the rise of nationalism — and, at the same time, the Industrial Revolution that moved work from farms to factories, put coal and steam at the center of the economy, and made a handful of states powerful enough to reshape the planet.",
+stats: [["12–15%","of the AP exam"],["10","topics"],["20–23","class periods"]],
+statesLabel: "Revolutions & Industrial Powers", countLabel: "cards",
+statesBlurb: "Each revolution or industrializing state on one card: what sparked it, how it unfolded, what it is known for, and how it turned out.",
+stateFields: { gained:"Spark / causes", kept:"How it unfolded", known:"Known for", end:"Outcome", cue:"Before you flip — what <b>sparked</b> it, how did it <b>unfold</b>, and what is it <b>known for</b>?" },
+topics: [
+{id:"5.1", title:"The Enlightenment", themes:"CDI · SIO"},
+{id:"5.2", title:"Nationalism and Revolutions", themes:"GOV"},
+{id:"5.3", title:"Industrial Revolution Begins", themes:"ENV"},
+{id:"5.4", title:"Industrialization Spreads", themes:"TEC"},
+{id:"5.5", title:"Technology of the Industrial Age", themes:"TEC"},
+{id:"5.6", title:"Industrialization: Government's Role", themes:"GOV"},
+{id:"5.7", title:"Economic Developments and Innovations", themes:"ECN"},
+{id:"5.8", title:"Reactions to the Industrial Economy", themes:"SIO"},
+{id:"5.9", title:"Society and the Industrial Age", themes:"SIO"},
+{id:"5.10", title:"Continuity and Change in the Industrial Age", themes:"Argumentation", review:true},
+],
+vocab: [
+// 5.1 Enlightenment
+{t:"5.1", term:"Enlightenment", def:"An 18th-century intellectual movement that applied reason and empirical (observation-based) thinking to government, religion, and society.", why:"KC-5.3.I — the ideas that 'often preceded revolutions.'"},
+{t:"5.1", term:"Empiricism", def:"The idea that knowledge comes from observation and experiment, not tradition or authority.", why:"CED-named approach applied 'to both the natural world and human relationships.'"},
+{t:"5.1", term:"Natural rights", def:"Rights every person is born with — John Locke's life, liberty, and property — that government cannot take away.", why:"The core claim of the Declaration of Independence and the Rights of Man."},
+{t:"5.1", term:"Social contract", def:"The idea (Hobbes, Locke, Rousseau) that governments get their power from the consent of the governed, who may replace a ruler who breaks the deal.", why:"CED-named political idea; the justification for revolution."},
+{t:"5.1", term:"John Locke", def:"English philosopher who argued people have natural rights and may overthrow governments that violate them.", why:"Jefferson borrowed his language almost word for word."},
+{t:"5.1", term:"Jean-Jacques Rousseau", def:"French thinker whose The Social Contract argued that legitimate government expresses the 'general will' of the people.", why:"Inspired the French Revolution's more radical phase."},
+{t:"5.1", term:"Voltaire", def:"French writer who championed free speech and religious toleration and attacked the Catholic Church's power.", why:"The Enlightenment's reexamination of 'the role that religion played in public life.'"},
+{t:"5.1", term:"Montesquieu", def:"French thinker who proposed separating government into executive, legislative, and judicial branches.", why:"Built into the U.S. Constitution."},
+{t:"5.1", term:"Adam Smith", def:"Scottish economist whose The Wealth of Nations (1776) argued that free markets guided by an 'invisible hand' create wealth.", why:"CED-named in 5.7; the Enlightenment applied to economics."},
+{t:"5.1", term:"Deism", def:"Belief that God created the universe like a clockmaker and then let natural laws run it, without miracles or revelation.", why:"How many Enlightenment thinkers reconciled reason and religion."},
+{t:"5.1", term:"Liberalism (19th-century)", def:"Political ideology favoring individual rights, constitutions, representative government, and free markets.", why:"KC-5.3.IV.A — the ideology that grew from discontent with monarchy."},
+{t:"5.1", term:"Conservatism", def:"Ideology favoring tradition, monarchy, and the established church against revolutionary change.", why:"The reaction to liberalism after 1815 (Congress of Vienna)."},
+{t:"5.1", term:"Abolitionism", def:"Movement to end slavery and the slave trade, driven by Enlightenment ideas and evangelical Christianity.", why:"KC-5.3.I.C — Britain ended the trade in 1807 and slavery in 1833."},
+{t:"5.1", term:"Emancipation of the serfs (1861)", def:"Tsar Alexander II's decree freeing Russia's serfs, who still had to pay for their land.", why:"CED-named 'end of serfdom' as an outcome of reform movements."},
+{t:"5.1", term:"Mary Wollstonecraft", def:"English writer whose A Vindication of the Rights of Woman (1792) argued women deserved the same education and rights as men.", why:"CED-named feminist demand."},
+{t:"5.1", term:"Olympe de Gouges", def:"French playwright whose Declaration of the Rights of Woman and of the Female Citizen (1791) rewrote the Rights of Man to include women; she was guillotined.", why:"CED-named; shows the revolution's limits on gender."},
+{t:"5.1", term:"Seneca Falls Convention (1848)", def:"First U.S. women's rights meeting, organized by Elizabeth Cady Stanton and Lucretia Mott, demanding suffrage in a 'Declaration of Sentiments.'", why:"CED-named; the start of organized women's suffrage in the U.S."},
+{t:"5.1", term:"Suffrage", def:"The right to vote; expanded in stages to more men and, by 1900, to women in New Zealand (1893).", why:"CED-named 'expanded suffrage' as an Enlightenment-driven reform."},
+// 5.2 Nationalism & revolutions
+{t:"5.2", term:"Nationalism", def:"A sense of shared identity based on common language, religion, customs, and territory, and the belief that such a people deserves its own state.", why:"KC-5.3.II — the century's most powerful political force."},
+{t:"5.2", term:"Nation-state", def:"A state whose borders match a single national people, such as unified Germany or Italy.", why:"KC-5.3 — revolutions led to 'new nation-states.'"},
+{t:"5.2", term:"American Revolution (1775–1783)", def:"Colonists' war for independence from Britain that created a republic based on Enlightenment ideas.", why:"KC-5.3.III.B — the 'model and inspiration' for later revolutions."},
+{t:"5.2", term:"Declaration of Independence (1776)", def:"Jefferson's statement that all men are created equal with unalienable rights and that government rests on consent.", why:"CED-named revolutionary document."},
+{t:"5.2", term:"French Revolution (1789–1799)", def:"Overthrow of the Bourbon monarchy, driven by debt, inequality, and Enlightenment ideas; moved from constitutional monarchy to republic to the Terror to Napoleon.", why:"The revolution that spread nationalism and liberalism across Europe."},
+{t:"5.2", term:"Declaration of the Rights of Man and of the Citizen (1789)", def:"French revolutionary statement that men are born free and equal and that sovereignty lies in the nation.", why:"CED-named revolutionary document."},
+{t:"5.2", term:"Estates-General / Three Estates", def:"France's old assembly of clergy, nobles, and everyone else (the Third Estate), whose unfair voting triggered the revolution.", why:"The inequality the revolution attacked."},
+{t:"5.2", term:"Reign of Terror", def:"1793–1794 phase of the French Revolution when Robespierre's Committee of Public Safety executed thousands of 'enemies of the revolution.'", why:"Shows how revolutions can turn radical."},
+{t:"5.2", term:"Napoleon Bonaparte", def:"General who took power in France in 1799, spread revolutionary law codes across Europe, and provoked nationalism in the lands he conquered.", why:"Exported the revolution — and nationalism — by conquest."},
+{t:"5.2", term:"Haitian Revolution (1791–1804)", def:"Uprising of enslaved people in French Saint-Domingue, led by Toussaint L'Ouverture, that created the first Black republic and the only successful slave revolution.", why:"KC-5.3.III.B — a revolution that applied the Rights of Man to enslaved people."},
+{t:"5.2", term:"Toussaint L'Ouverture", def:"Formerly enslaved general who led Haiti's revolution and wrote its first constitution before Napoleon's forces captured him.", why:"Leader of the CED-named Haitian Revolution."},
+{t:"5.2", term:"Simón Bolívar", def:"Venezuelan creole who led independence wars across northern South America and wrote the 'Letter from Jamaica' (1815).", why:"CED-named; the 'Liberator' of Latin America."},
+{t:"5.2", term:"Letter from Jamaica (1815)", def:"Bolívar's letter explaining why Spanish America must be independent and imagining a union of new republics.", why:"CED-named revolutionary document."},
+{t:"5.2", term:"Creoles", def:"People of European descent born in the Americas, who resented peninsulares' monopoly on top jobs and led Latin American independence.", why:"Who led (and who benefited from) Latin American revolutions."},
+{t:"5.2", term:"Miguel Hidalgo", def:"Mexican priest whose 1810 'Grito de Dolores' launched Mexico's independence war with mestizo and indigenous followers.", why:"Shows a popular, not just creole, strand of Latin American revolution."},
+{t:"5.2", term:"Latin American independence movements", def:"Wars (1808–1825) led by Bolívar, San Martín, and Hidalgo that freed most of Spanish America from Spain; Brazil left Portugal peacefully in 1822.", why:"KC-5.3.III.B — 'the emergence of independent states in the Americas.'"},
+{t:"5.2", term:"German unification (1871)", def:"Prussia's Otto von Bismarck united the German states through wars with Denmark, Austria, and France and 'blood and iron.'", why:"CED-named example of nationalist unification."},
+{t:"5.2", term:"Italian unification (1861–1870)", def:"Cavour's diplomacy and Garibaldi's volunteers joined Italy's kingdoms into one nation under Piedmont-Sardinia.", why:"CED-named example of nationalist unification."},
+{t:"5.2", term:"Otto von Bismarck", def:"Prussian chancellor who engineered German unification through realpolitik (power politics) and war.", why:"The architect of the CED-named German unification."},
+{t:"5.2", term:"Giuseppe Garibaldi", def:"Italian nationalist whose 'Red Shirts' conquered southern Italy for unification in 1860.", why:"The popular hero of Italian unification."},
+{t:"5.2", term:"Balkan nationalisms", def:"Movements by Greeks, Serbs, Bulgarians, and Romanians to break away from the Ottoman Empire in the 1800s.", why:"CED-named; nationalism as a solvent of empires."},
+{t:"5.2", term:"Greek War of Independence (1821–1830)", def:"Revolt that, with British, French, and Russian help, made Greece the first nation to leave the Ottoman Empire.", why:"First Balkan nationalist success."},
+{t:"5.2", term:"Ottomanism", def:"Ottoman attempt to create a shared imperial identity for all subjects regardless of religion to hold the empire together.", why:"CED-named; nationalism used to preserve, not break, a state."},
+{t:"5.2", term:"Propaganda Movement (Philippines)", def:"Filipino writers like José Rizal who, in the 1880s–1890s, demanded reform and equality from Spain and inspired the 1896 revolution.", why:"CED-named call for national liberation."},
+{t:"5.2", term:"Maori nationalism / New Zealand Wars", def:"Maori resistance (1845–1872), including the King Movement, to British land seizures and sovereignty.", why:"CED-named nationalism outside Europe."},
+{t:"5.2", term:"Lola Rodríguez de Tió", def:"Puerto Rican poet whose revolutionary verse ('La Borinqueña') called for independence from Spain.", why:"CED-named; nationalism in the Caribbean."},
+// 5.3 Industrial Revolution begins
+{t:"5.3", term:"Industrial Revolution", def:"The shift, beginning in Britain around 1750, from hand production at home to machine production in factories powered by water and steam.", why:"The second 'revolution' of Unit 5 and the engine of Units 6–9."},
+{t:"5.3", term:"Agricultural Revolution", def:"Improvements like crop rotation, seed drills, and enclosure that raised food output and freed workers to leave farms.", why:"CED factor: 'improved agricultural productivity.'"},
+{t:"5.3", term:"Enclosure movement", def:"Fencing off common lands into private farms, which pushed peasants off the land and toward cities.", why:"Links 'legal protection of private property' and 'urbanization.'"},
+{t:"5.3", term:"Coal, iron, and timber", def:"Britain's geographic luck: coal and iron close to waterways, the raw materials of the first factories.", why:"CED factor: 'geographical distribution of coal, iron, and timber.'"},
+{t:"5.3", term:"Proximity to waterways", def:"Rivers, canals, and a coastline that made moving heavy goods cheap before railroads.", why:"CED factor; also powered early water-frame mills."},
+{t:"5.3", term:"Accumulation of capital", def:"Money from trade and empire available to invest in mines and factories.", why:"CED factor; links Unit 4's profits to Unit 5's machines."},
+{t:"5.3", term:"Access to foreign resources", def:"Colonies and trade that supplied cotton, and markets that bought finished cloth.", why:"CED factor; the empire fed the factory."},
+{t:"5.3", term:"Cottage industry (putting-out system)", def:"Pre-factory system where merchants paid rural families to spin and weave at home.", why:"The 'before' the factory system replaced."},
+{t:"5.3", term:"Factory system", def:"Concentrating machines and workers in one building under one owner, with each worker doing one specialized task.", why:"KC-5.1.I.C — 'specialization of labor.'"},
+{t:"5.3", term:"Spinning jenny / water frame", def:"1760s–1770s machines that let one worker spin many threads, launching the textile boom.", why:"Textiles were the first industrialized product."},
+// 5.4 Spread
+{t:"5.4", term:"Spread of industrialization", def:"Factory production moved from Britain to Belgium, France, Germany, the U.S., then Russia and Japan.", why:"KC-5.1.I.D."},
+{t:"5.4", term:"Share of global manufacturing", def:"Europe's and the U.S.'s portion of world manufacturing rose while India's, China's, and the Middle East's fell.", why:"KC-5.1.II.B — a key 'change' for the LEQ."},
+{t:"5.4", term:"Deindustrialization of India", def:"Cheap British machine-made cloth undercut Indian hand weavers, and British rule dismantled Indian shipbuilding and iron works.", why:"CED-named examples: Indian textiles, shipbuilding, iron works."},
+{t:"5.4", term:"Egyptian textile decline", def:"Muhammad Ali's state factories could not compete once Britain forced Egypt to open its markets in the 1840s.", why:"CED-named 'textile production in Egypt.'"},
+// 5.5 Technology
+{t:"5.5", term:"Steam engine", def:"James Watt's improved engine (1770s) that burned coal to drive machines, trains, and ships anywhere, not just by rivers.", why:"KC-5.1.I.B — unlocked fossil-fuel energy."},
+{t:"5.5", term:"Fossil fuels", def:"Coal and later oil, whose stored energy 'greatly increased the energy available to human societies.'", why:"KC-5.1.I.B vocabulary."},
+{t:"5.5", term:"Internal combustion engine", def:"Late-1800s engine that burns gasoline inside cylinders, making cars and later airplanes possible.", why:"CED-named; the oil-age engine."},
+{t:"5.5", term:"Second Industrial Revolution", def:"Late-19th-century wave based on steel, chemicals, electricity, and precision machinery.", why:"KC-5.1.I.E."},
+{t:"5.5", term:"Bessemer process", def:"1856 method of blowing air through molten iron to make cheap steel in bulk.", why:"Steel for rails, bridges, skyscrapers, and battleships."},
+{t:"5.5", term:"Railroads", def:"Steam-powered rail networks that moved goods and people inland cheaply and fast.", why:"KC-5.1.IV — opened 'interior regions globally.'"},
+{t:"5.5", term:"Steamships", def:"Ocean ships powered by steam, independent of wind, that cut crossing times and freight costs.", why:"KC-5.1.IV — drove trade and migration."},
+{t:"5.5", term:"Telegraph", def:"Electric wires (and the 1866 transatlantic cable) carrying messages in minutes instead of weeks.", why:"KC-5.1.IV — communication across interiors and oceans."},
+{t:"5.5", term:"Electricity", def:"Power for lights, motors, and streetcars by the 1880s, the signature energy of the second industrial revolution.", why:"CED-named second-wave technology."},
+// 5.6 Government's role
+{t:"5.6", term:"State-sponsored industrialization", def:"Governments directly building railroads, factories, and schools to catch up with Britain.", why:"KC-5.1.V.C."},
+{t:"5.6", term:"Meiji Restoration (1868)", def:"Overthrow of the Tokugawa shogunate that returned power to the emperor and launched rapid, state-led modernization of Japan.", why:"KC-5.2.II.A — Japan's reaction to Western pressure."},
+{t:"5.6", term:"Commodore Matthew Perry", def:"U.S. naval officer whose 1853 warships forced Japan to open its ports.", why:"The 'expansion of U.S. influence' that triggered Meiji reform."},
+{t:"5.6", term:"Zaibatsu", def:"Large family-run Japanese industrial conglomerates (Mitsubishi, Mitsui) that the Meiji government sold state factories to.", why:"Japan's state-to-private model of industry."},
+{t:"5.6", term:"Muhammad Ali of Egypt", def:"Ottoman governor who built state cotton factories, a modern army, and a conscripted workforce in the early 1800s.", why:"Example of state-sponsored industrialization outside Europe."},
+{t:"5.6", term:"Trans-Siberian Railroad", def:"Russian state railway (begun 1891) linking Moscow to the Pacific, the centerpiece of Witte's industrialization.", why:"State-sponsored industrialization in Russia."},
+{t:"5.6", term:"Sergei Witte", def:"Russian finance minister who used foreign loans, tariffs, and state railroads to industrialize Russia in the 1890s.", why:"Russia's state-led model."},
+// 5.7 Economic developments
+{t:"5.7", term:"Laissez-faire capitalism", def:"'Let it be' — Adam Smith's idea that governments should not interfere in markets.", why:"KC-5.1.III.A."},
+{t:"5.7", term:"Free trade", def:"Trade without tariffs; Britain repealed its Corn Laws in 1846 and pushed others to open markets.", why:"KC-5.1.III.A — replaces mercantilism."},
+{t:"5.7", term:"Industrial capitalism", def:"An economy where private owners invest in factories and machinery and profit from wage labor.", why:"KC-5.1 — raised living standards 'for some.'"},
+{t:"5.7", term:"Transnational business", def:"Companies operating across many countries, like HSBC and Unilever.", why:"KC-5.1.III.B; CED-named examples."},
+{t:"5.7", term:"HSBC", def:"Hong Kong and Shanghai Banking Corporation, founded 1865 to finance British trade in China.", why:"CED-named transnational bank."},
+{t:"5.7", term:"Unilever", def:"Anglo-Dutch soap and margarine company sourcing palm oil from British West Africa and the Belgian Congo.", why:"CED-named; links industry to imperialism (Unit 6)."},
+{t:"5.7", term:"Stock market", def:"Exchange where shares of companies are bought and sold, raising capital for railroads and factories.", why:"CED-named financial instrument."},
+{t:"5.7", term:"Limited-liability corporation", def:"Business form in which investors can lose only what they put in, encouraging investment in risky ventures.", why:"CED-named financial instrument."},
+{t:"5.7", term:"Consumer goods", def:"Mass-produced items — cloth, soap, bicycles, canned food — that became cheaper and more varied.", why:"KC-5.1 — 'availability, affordability, and variety.'"},
+// 5.8 Reactions
+{t:"5.8", term:"Labor union", def:"Organization of workers who bargain together for shorter hours, higher wages, and safer conditions.", why:"KC-5.1.V.A."},
+{t:"5.8", term:"Karl Marx", def:"German thinker whose Communist Manifesto (1848) argued that class struggle between workers and capitalists would end in a workers' revolution.", why:"KC-5.3.IV.A.ii — CED-named."},
+{t:"5.8", term:"Socialism", def:"Ideology calling for the community or state to own major industries and share wealth more equally.", why:"CED-named alternative vision of society."},
+{t:"5.8", term:"Communism", def:"Marx's goal: a classless society where workers own the means of production.", why:"CED-named; becomes real in Unit 7 (Russia 1917)."},
+{t:"5.8", term:"Proletariat / bourgeoisie", def:"Marx's terms for the industrial working class and the factory-owning middle class.", why:"The two classes in Marx's class struggle."},
+{t:"5.8", term:"Luddites", def:"English textile workers (1811–1816) who smashed machines that took their jobs.", why:"Earliest worker reaction to industrialization."},
+{t:"5.8", term:"Factory Acts", def:"British laws (1833 onward) limiting child labor and working hours.", why:"KC-5.1.V.D — government reform."},
+{t:"5.8", term:"Public education and urban reform", def:"Free schools, sewers, police, parks, and public health boards built by 19th-century governments.", why:"CED-named 'political, social, educational, and urban reforms.'"},
+{t:"5.8", term:"Tanzimat reforms (1839–1876)", def:"Ottoman 'reorganization': legal equality for all subjects, secular schools, new law codes, and a modernized army.", why:"KC-5.1.V.B — Ottoman modernization."},
+{t:"5.8", term:"Young Ottomans / Young Turks", def:"Reformers who demanded a constitution (1876) and later seized power (1908) to modernize and Turkify the empire.", why:"Reform pushed from below and resisted by sultans."},
+{t:"5.8", term:"Self-Strengthening Movement", def:"Qing effort (1861–1895) to adopt Western weapons and factories while keeping Confucian government — 'Chinese learning as the base, Western learning for use.'", why:"KC-5.1.V.B — Qing modernization 'resisted by... established elite groups.'"},
+{t:"5.8", term:"Hundred Days' Reform (1898)", def:"Emperor Guangxu's sweeping modernization decrees, crushed after 100 days by Empress Dowager Cixi.", why:"Example of reform resisted by conservative elites."},
+{t:"5.8", term:"Utopian socialism", def:"Early socialists like Robert Owen who built model communities to show cooperation could replace competition.", why:"An 'alternative vision of society' before Marx."},
+// 5.9 Society
+{t:"5.9", term:"Middle class", def:"New class of factory owners, managers, professionals, and clerks who grew wealthy from industry.", why:"KC-5.1.VI.A."},
+{t:"5.9", term:"Industrial working class", def:"Wage laborers in factories and mines, including women and children, living in crowded cities.", why:"KC-5.1.VI.A."},
+{t:"5.9", term:"Cult of domesticity", def:"Middle-class ideal that a woman's place was the home, raising children and managing the household.", why:"KC-5.1.VI.B — middle-class women 'limited to roles in the household.'"},
+{t:"5.9", term:"Child labor", def:"Working-class children employed in mills and mines for low wages to supplement family income.", why:"KC-5.1.VI.B."},
+{t:"5.9", term:"Urbanization", def:"Rapid growth of cities like Manchester as workers moved to factories.", why:"KC-5.1.VI.C."},
+{t:"5.9", term:"Tenements and slums", def:"Overcrowded, unsanitary housing for workers that bred disease and crime.", why:"CED-named urban challenges: housing shortages, public health crises."},
+{t:"5.9", term:"Pollution", def:"Coal smoke, river waste, and chemical runoff that blackened industrial cities.", why:"CED-named urban challenge; an ENV theme example."},
+{t:"5.9", term:"Standard of living", def:"Overall quality of life measured by wages, food, housing, and health; rose for the middle class, slowly and unevenly for workers.", why:"KC-5.1 — 'increased standards of living for some.'"},
+],
+states: [
+{t:"5.2", name:"American Revolution", region:"British North America", dates:"1775–1783", gained:"Taxes without representation after the Seven Years' War, plus Locke's ideas of natural rights and consent.", kept:"Declaration of Independence (1776), war with French help, Treaty of Paris (1783), then a Constitution (1787) with separated powers.", known:"The first successful colonial revolution and a republic built on Enlightenment ideas — the 'model' for later revolutions.", end:"An independent United States; slavery and limited suffrage remained."},
+{t:"5.2", name:"French Revolution", region:"France", dates:"1789–1799", gained:"Royal bankruptcy, an unfair three-estate system, food shortages, and Enlightenment critiques of privilege.", kept:"Estates-General → National Assembly → Rights of Man → execution of Louis XVI → Reign of Terror → Napoleon's coup (1799).", known:"Ending feudal privilege, spreading liberty-equality-fraternity and nationalism across Europe.", end:"Napoleon's empire exported revolutionary law codes but fell in 1815; the Congress of Vienna restored monarchs."},
+{t:"5.2", name:"Haitian Revolution", region:"Saint-Domingue (Haiti)", dates:"1791–1804", gained:"The most brutal slave colony in the world, a free-people-of-color elite denied rights, and the Rights of Man heard across the Atlantic.", kept:"Mass slave uprising (1791), Toussaint L'Ouverture's army defeated French, Spanish, and British forces; Dessalines declared independence in 1804.", known:"The only successful slave revolution and the first Black republic; terrified slaveholders everywhere.", end:"Independent Haiti, isolated by France's indemnity demand and U.S. refusal to recognize it."},
+{t:"5.2", name:"Latin American independence", region:"Spanish America and Brazil", dates:"1808–1825", gained:"Creole resentment of peninsulares, Enlightenment ideas, and Napoleon's capture of the Spanish king (1808).", kept:"Hidalgo's popular revolt in Mexico (1810); Bolívar's and San Martín's armies freed Venezuela, Colombia, Peru, and Chile; Brazil's prince declared independence peacefully (1822).", known:"Bolívar's 'Letter from Jamaica'; a dozen new republics led by creole elites.", end:"Independence achieved, but Bolívar's dream of union failed; social hierarchies largely survived."},
+{t:"5.2", name:"German unification", region:"Central Europe", dates:"1864–1871", gained:"Nationalist longing after Napoleon, the Zollverein customs union, and Prussia's industrial and military strength.", kept:"Bismarck's wars against Denmark (1864), Austria (1866), and France (1870–71) rallied the German states behind Prussia.", known:"'Blood and iron' realpolitik; the German Empire proclaimed at Versailles (1871).", end:"A powerful new industrial empire that upset Europe's balance of power (Unit 7)."},
+{t:"5.2", name:"Italian unification", region:"Italian peninsula", dates:"1848–1870", gained:"Nationalism (Mazzini's 'Young Italy') against Austrian and papal control of a fragmented peninsula.", kept:"Cavour's alliance with France expelled Austria from the north; Garibaldi's Red Shirts took the south (1860); Rome added in 1870.", known:"A nation built from diplomacy (Cavour) plus popular war (Garibaldi).", end:"Kingdom of Italy under Victor Emmanuel II; a poor south and a rich north."},
+{t:"5.3", name:"Industrial Britain", region:"Great Britain", dates:"1750–1900", gained:"Coal and iron near waterways, enclosure and farm improvements, colonial cotton and markets, capital from trade, and secure property law.", kept:"Textile mills, Watt's steam engine, railways (1825 onward), free trade after 1846, and Factory Acts to manage the social fallout.", known:"The 'workshop of the world' — the first and for decades the only industrial superpower.", end:"Overtaken in steel and chemicals by Germany and the U.S. by 1900, but still ruling the largest empire."},
+{t:"5.6", name:"Meiji Japan", region:"Japan", dates:"1868–1912", gained:"Perry's 'black ships' (1853) and unequal treaties convinced samurai reformers that Japan must modernize or be colonized.", kept:"Ended feudalism, sent missions abroad, built state railroads and factories later sold as zaibatsu, created a conscript army, a constitution (1889), and universal schooling.", known:"The fastest non-Western industrialization — CED-named state-sponsored model.", end:"Defeated China (1895) and Russia (1905); became an imperial power itself (Unit 6)."},
+{t:"5.6", name:"Imperial Russia (state industrialization)", region:"Russia", dates:"1861–1905", gained:"Humiliation in the Crimean War (1856) showed Russia's backwardness.", kept:"Alexander II freed the serfs (1861); Witte's tariffs, foreign loans, and the Trans-Siberian Railroad (1891) built heavy industry.", known:"Top-down industrialization by an autocracy that refused political reform.", end:"Rapid growth but angry workers and peasants — the 1905 Revolution and then 1917 (Unit 7)."},
+{t:"5.8", name:"Ottoman Empire (Tanzimat)", region:"Southwest Asia, Balkans, North Africa", dates:"1839–1876", gained:"Balkan revolts, European pressure, and military defeats showed the need to modernize.", kept:"Tanzimat decrees promised equality for all subjects, secular schools, a new army, and, in 1876, a constitution that Sultan Abdul Hamid II soon suspended.", known:"CED-named Ottoman reform effort 'resisted by some members of government or established elite groups.'", end:"Reforms slowed; the Young Turks seized power in 1908 (Unit 7)."},
+{t:"5.8", name:"Qing China (Self-Strengthening)", region:"China", dates:"1861–1895", gained:"Defeat in the Opium Wars and the Taiping Rebellion exposed military weakness.", kept:"Provincial leaders built arsenals, shipyards, and telegraphs while keeping Confucian government; Cixi and conservative officials limited reform.", known:"CED-named Qing modernization effort — 'Western learning for use' only.", end:"Japan crushed China in 1895; the Hundred Days' Reform was strangled in 1898 (Unit 6)."},
+{t:"5.6", name:"Muhammad Ali's Egypt", region:"Egypt", dates:"1805–1848", gained:"Took power after Napoleon's invasion exposed Ottoman weakness.", kept:"Built a conscript army, state cotton farms, and textile factories; sent students to Europe.", known:"The earliest non-Western state-sponsored industrialization.", end:"Britain forced Egypt to drop tariffs in 1838–1841; the factories collapsed — CED-named 'textile production in Egypt' decline."},
+{t:"5.2", name:"Philippine Propaganda Movement & Revolution", region:"Philippines", dates:"1880–1898", gained:"Spanish colonial racism and friar power angered educated Filipinos (ilustrados).", kept:"José Rizal's novels and the Propaganda Movement demanded reform; after Rizal's execution (1896) the Katipunan launched armed revolution.", known:"CED-named call for national liberation in Asia.", end:"Spain lost in 1898 — but the U.S. took over, fighting Filipinos until 1902 (Unit 6)."},
+],
+timeline: [
+{y:"1762", e:"Rousseau's The Social Contract", reg:"France", t:"5.1", why:"'General will' — the Enlightenment's most radical political idea."},
+{y:"1776", e:"Declaration of Independence; Wealth of Nations published", reg:"America / Britain", t:"5.2", why:"Political and economic liberalism arrive in the same year."},
+{y:"1789", e:"French Revolution begins; Rights of Man", reg:"France", t:"5.2", why:"Sovereignty moves from king to nation."},
+{y:"1791", e:"Haitian Revolution begins", reg:"Saint-Domingue", t:"5.2", why:"Enslaved people claim the Rights of Man."},
+{y:"1804", e:"Haiti declares independence", reg:"Haiti", t:"5.2", why:"First Black republic; the only successful slave revolt."},
+{y:"1810", e:"Hidalgo's Grito de Dolores", reg:"Mexico", t:"5.2", why:"Latin American independence wars begin."},
+{y:"1815", e:"Bolívar's Letter from Jamaica; Congress of Vienna", reg:"Caribbean / Europe", t:"5.2", why:"Revolution plans in one place, conservative restoration in another."},
+{y:"1825", e:"First public steam railway (Stockton–Darlington)", reg:"Britain", t:"5.5", why:"Steam on rails — the interior opens."},
+{y:"1833", e:"Britain abolishes slavery; first Factory Act", reg:"Britain", t:"5.1", why:"Enlightenment-driven reform: abolition and labor law."},
+{y:"1839", e:"Tanzimat reforms begin", reg:"Ottoman Empire", t:"5.8", why:"A non-Western empire tries to modernize."},
+{y:"1848", e:"Communist Manifesto; revolutions across Europe; Seneca Falls", reg:"Europe / U.S.", t:"5.8", why:"Marx, nationalism, and women's suffrage all erupt in one year."},
+{y:"1853", e:"Perry arrives in Japan", reg:"Japan", t:"5.6", why:"Western pressure that triggers the Meiji Restoration."},
+{y:"1856", e:"Bessemer process", reg:"Britain", t:"5.5", why:"Cheap steel — the second industrial revolution begins."},
+{y:"1861", e:"Russian serfs emancipated; Self-Strengthening begins; Italy unified", reg:"Russia / China / Italy", t:"5.8", why:"Reform and nationalism across three empires."},
+{y:"1868", e:"Meiji Restoration", reg:"Japan", t:"5.6", why:"State-led industrialization at top speed."},
+{y:"1871", e:"German Empire proclaimed", reg:"Germany", t:"5.2", why:"Bismarck's unification reshapes Europe."},
+{y:"1886", e:"Haymarket affair; Unilever's Lever Brothers founded", reg:"U.S. / Britain", t:"5.7", why:"Labor unrest and transnational business in the same decade."},
+{y:"1893", e:"New Zealand grants women the vote", reg:"New Zealand", t:"5.1", why:"First nation with women's suffrage."},
+{y:"1898", e:"Hundred Days' Reform crushed; Philippine Revolution", reg:"China / Philippines", t:"5.8", why:"Reform blocked in one empire, revolution in another colony."},
+],
+developments: [
+{id:"5.1", title:"The Enlightenment", themes:"CDI · SIO",
+los:["A — Explain the intellectual and ideological context in which revolutions swept the Atlantic world from 1750 to 1900.","B — Explain how the Enlightenment affected societies over time."],
+kcs:[
+{code:"KC-5.3.I", official:"The rise and diffusion of Enlightenment thought that questioned established traditions in all areas of life often preceded revolutions and rebellions against existing governments.", plain:"Ideas came first, revolutions followed."},
+{code:"KC-5.3.I.A", official:"Enlightenment philosophies applied new ways of understanding and empiricist approaches to both the natural world and human relationships; they also reexamined the role that religion played in public life and emphasized the importance of reason. Philosophers developed new political ideas about the individual, natural rights, and the social contract.", plain:"Use reason and evidence on everything — including kings and churches. Individuals have rights; governments are a contract."},
+{code:"KC-5.3.I.C", official:"Enlightenment ideas and religious ideals influenced various reform movements. These reform movements contributed to the expansion of rights, as seen in expanded suffrage, the abolition of slavery, and the end of serfdom.", plain:"The same ideas ended slavery and serfdom and widened the vote."},
+{code:"KC-5.3.IV.B", official:"Demands for women's suffrage and an emergent feminism challenged political and gender hierarchies.", plain:"Women asked why 'rights of man' didn't include them."},
+],
+ex:["Wollstonecraft's Vindication of the Rights of Woman","De Gouges's Declaration of the Rights of Woman","Seneca Falls (1848) — Stanton and Mott"]},
+{id:"5.2", title:"Nationalism and Revolutions in the Period from 1750 to 1900", themes:"GOV",
+los:["C — Explain causes and effects of the various revolutions in the period from 1750 to 1900."],
+kcs:[
+{code:"KC-5.3", official:"The 18th century marked the beginning of an intense period of revolution and rebellion against existing governments, leading to the establishment of new nation-states around the world.", plain:"The big idea of the unit's first half."},
+{code:"KC-5.3.II", official:"People around the world developed a new sense of commonality based on language, religion, social customs, and territory. This was sometimes harnessed by governments to foster a sense of unity. Newly imagined national communities often linked this new national identity with borders of the state, and in some cases, nationalists challenged boundaries or sought unification of fragmented regions.", plain:"Nationalism: 'we' are a people, so 'we' deserve our own state — which can unite (Germany) or break up (Balkans)."},
+{code:"KC-5.3.I.B", official:"The ideas of Enlightenment philosophers, as reflected in revolutionary documents — including the American Declaration of Independence, the French 'Declaration of the Rights of Man and of the Citizen,' and Bolívar's 'Letter from Jamaica' — influenced resistance to existing political authority, often in pursuit of independence and democratic ideals.", plain:"Three documents, three revolutions, one set of ideas."},
+{code:"KC-5.3.III.B", official:"Colonial subjects in the Americas led a series of rebellions inspired by democratic ideals. The American Revolution, and its successful establishment of a republic, was a model and inspiration for a number of the revolutions that followed. The American, Haitian, and Latin American revolutions facilitated the emergence of independent states in the Americas.", plain:"America went first; Haiti and Latin America followed."},
+{code:"KC-5.3.IV.A", official:"Discontent with monarchist and imperial rule encouraged the development of systems of government and various ideologies, including democracy and 19th-century liberalism.", plain:"Anger at kings produced new '-isms.'"},
+],
+ex:["Propaganda Movement (Philippines)","Maori nationalism and the New Zealand Wars","Lola Rodríguez de Tió (Puerto Rico)","German and Italian unifications","Balkan nationalisms","Ottomanism"]},
+{id:"5.3", title:"Industrial Revolution Begins", themes:"ENV",
+los:["D — Explain how environmental factors contributed to industrialization from 1750 to 1900."],
+kcs:[
+{code:"KC-5.1.I.A", official:"A variety of factors contributed to the growth of industrial production and eventually resulted in the Industrial Revolution, including: proximity to waterways; geographical distribution of coal, iron, and timber; urbanization; improved agricultural productivity; legal protection of private property; access to foreign resources; accumulation of capital.", plain:"Seven ingredients — Britain had all of them first. Memorize the list."},
+{code:"KC-5.1.I.C", official:"The development of the factory system concentrated production in a single location and led to an increasing degree of specialization of labor.", plain:"One building, one owner, each worker does one task."},
+],
+ex:["Coal and iron fields of the English Midlands","Enclosure and the Agricultural Revolution","Textile mills in Manchester","Capital from Atlantic trade"]},
+{id:"5.4", title:"Industrialization Spreads in the Period from 1750 to 1900", themes:"TEC",
+los:["E — Explain how different modes and locations of production have developed and changed over time."],
+kcs:[
+{code:"KC-5.1.I.D", official:"As new methods of industrial production became more common in parts of northwestern Europe, they spread to other parts of Europe and the United States, Russia, and Japan.", plain:"Britain → Belgium/France/Germany → U.S. → Russia and Japan."},
+{code:"KC-5.1.II.B", official:"The rapid development of steam-powered industrial production in European countries and the U.S. contributed to the increase in these regions' share of global manufacturing during the first Industrial Revolution. While Middle Eastern and Asian countries continued to produce manufactured goods, these regions' share in global manufacturing declined.", plain:"The West's slice of world manufacturing grew; India's and China's shrank."},
+],
+ex:["Shipbuilding in India and Southeast Asia","Iron works in India","Textile production in India and Egypt"]},
+{id:"5.5", title:"Technology of the Industrial Age", themes:"TEC",
+los:["F — Explain how technology shaped economic production over time."],
+kcs:[
+{code:"KC-5.1.I.B", official:"The development of machines, including steam engines and the internal combustion engine, made it possible to take advantage of both existing and vast newly discovered resources of energy stored in fossil fuels, specifically coal and oil. The fossil fuels revolution greatly increased the energy available to human societies.", plain:"Engines turned buried coal and oil into power — more energy than muscles, wind, or water ever gave."},
+{code:"KC-5.1.I.E", official:"The 'second industrial revolution' led to new methods in the production of steel, chemicals, electricity, and precision machinery during the second half of the 19th century.", plain:"Round two: steel, chemicals, electricity."},
+{code:"KC-5.1.IV", official:"Railroads, steamships, and the telegraph made exploration, development, and communication possible in interior regions globally, which led to increased trade and migration.", plain:"Three technologies that shrank the world and moved people."},
+],
+ex:["Watt's steam engine","Bessemer steel","Transcontinental and Trans-Siberian railroads","Transatlantic telegraph cable (1866)"]},
+{id:"5.6", title:"Industrialization: Government's Role from 1750 to 1900", themes:"GOV",
+los:["G — Explain the causes and effects of economic strategies of different states and empires."],
+kcs:[
+{code:"KC-5.1.V.C", official:"As the influence of the Industrial Revolution grew, a small number of states and governments promoted their own state-sponsored visions of industrialization.", plain:"Some governments didn't wait for businessmen — they built the factories themselves."},
+{code:"KC-5.2.II.A", official:"The expansion of U.S. and European influence in Asia led to internal reform in Japan that supported industrialization and led to the growing regional power of Japan in the Meiji Era.", plain:"Perry's ships → Meiji reform → Japan as a regional power."},
+],
+ex:["Meiji Japan","Muhammad Ali's Egypt","Witte's Russia and the Trans-Siberian Railroad"]},
+{id:"5.7", title:"Economic Developments and Innovations in the Industrial Age", themes:"ECN",
+los:["H — Explain the development of economic systems, ideologies, and institutions and how they contributed to change in the period from 1750 to 1900."],
+kcs:[
+{code:"KC-5.1.III.A", official:"Western European countries began abandoning mercantilism and adopting free trade policies, partly in response to the growing acceptance of Adam Smith's theories of laissez-faire capitalism and free markets.", plain:"Mercantilism out, free trade in."},
+{code:"KC-5.1.III.B", official:"The global nature of trade and production contributed to the proliferation of large-scale transnational businesses that relied on new practices in banking and finance.", plain:"Big companies went global and needed banks, stock markets, and limited liability."},
+{code:"KC-5.1", official:"The development of industrial capitalism led to increased standards of living for some, and to continued improvement in manufacturing methods that increased the availability, affordability, and variety of consumer goods.", plain:"More stuff, cheaper — for some."},
+],
+ex:["HSBC","Unilever (British West Africa, Belgian Congo)","Stock markets","Limited-liability corporations"]},
+{id:"5.8", title:"Reactions to the Industrial Economy from 1750 to 1900", themes:"SIO",
+los:["I — Explain the causes and effects of calls for changes in industrial societies from 1750 to 1900."],
+kcs:[
+{code:"KC-5.1.V.A", official:"In industrialized states, many workers organized themselves, often in labor unions, to improve working conditions, limit hours, and gain higher wages. Workers' movements and political parties emerged in different areas, promoting alternative visions of society.", plain:"Workers organized — unions and labor parties."},
+{code:"KC-5.3.IV.A", official:"Discontent with established power structures encouraged the development of various ideologies, including those espoused by Karl Marx, and the ideas of socialism and communism.", plain:"Marx: class struggle will end capitalism."},
+{code:"KC-5.1.V.D", official:"In response to the social and economic changes brought about by industrial capitalism, some governments, organizations, and individuals promoted various types of political, social, educational, and urban reforms.", plain:"Governments passed factory laws, built schools and sewers."},
+{code:"KC-5.1.V.B", official:"In response to the expansion of industrializing states, some governments in Asia and Africa, including the Ottoman Empire and Qing China, sought to reform and modernize their economies and militaries. Reform efforts were often resisted by some members of government or established elite groups.", plain:"Ottomans and Qing tried to catch up; conservatives fought them."},
+],
+ex:["Luddites","Factory Acts","Communist Manifesto (1848)","Tanzimat","Self-Strengthening Movement","Hundred Days' Reform"]},
+{id:"5.9", title:"Society and the Industrial Age", themes:"SIO",
+los:["J — Explain how industrialization caused change in existing social hierarchies and standards of living."],
+kcs:[
+{code:"KC-5.1.VI.A", official:"New social classes, including the middle class and the industrial working class, developed.", plain:"Two new classes replaced the old lord-and-peasant order."},
+{code:"KC-5.1.VI.B", official:"While women and often children in working class families typically held wage-earning jobs to supplement their families' income, middle-class women who did not have the same economic demands to satisfy were increasingly limited to roles in the household or roles focused on child development.", plain:"Poor women worked in mills; middle-class women were pushed into the home."},
+{code:"KC-5.1.VI.C", official:"The rapid urbanization that accompanied global capitalism at times led to a variety of challenges, including pollution, poverty, increased crime, public health crises, housing shortages, and insufficient infrastructure to accommodate urban growth.", plain:"Cities grew faster than sewers, houses, and police."},
+],
+ex:["Manchester's mills and slums","Cult of domesticity","Child labor in mines","Cholera epidemics and public health boards"]},
+{id:"5.10", title:"Continuity and Change in the Industrial Age", themes:"Argumentation (6.C)",
+los:["K — Explain the extent to which industrialization brought change from 1750 to 1900."],
+kcs:[
+{code:"KC-5.1", official:"The development of industrial capitalism led to increased standards of living for some, and to continued improvement in manufacturing methods that increased the availability, affordability, and variety of consumer goods.", plain:"Change: how goods were made and who could afford them."},
+{code:"KC-5.1.IV", official:"Railroads, steamships, and the telegraph made exploration, development, and communication possible in interior regions globally, which led to increased trade and migration.", plain:"Change: distance stopped mattering as much."},
+{code:"KC-5.3", official:"The 18th century marked the beginning of an intense period of revolution and rebellion against existing governments, leading to the establishment of new nation-states around the world.", plain:"Change: nation-states replaced monarchies and empires — sometimes."},
+],
+ex:["Change: factories, fossil fuels, new classes, nation-states","Continuity: agriculture still employed most people; elites kept power in Latin America; women's legal status; empires survived in Asia","Extent: huge in Britain and Japan, limited in India and the Ottoman lands"]},
+],
+context: [
+{topic:"Enlightenment and Atlantic revolutions", before:"Before 1750, absolute monarchs claimed divine right and the Scientific Revolution had begun applying reason and observation to nature.", during:"During 1750–1900, Enlightenment thinkers applied that reason to government, and their ideas of natural rights and the social contract fueled the American, French, Haitian, and Latin American revolutions."},
+{topic:"Nationalism", before:"Before 1750, people identified with a king, a religion, or a village rather than a nation, and multiethnic empires like the Ottomans and Habsburgs ruled much of Europe.", during:"During 1750–1900, the French Revolution and Napoleon's conquests spread the idea that a people sharing a language and culture deserved its own state, uniting Germany and Italy and tearing at the Ottoman Balkans."},
+{topic:"Industrial Revolution", before:"Before 1750, goods were made by hand at home or in small workshops and energy came from muscles, wind, water, and wood.", during:"During 1750–1900, Britain's coal, capital, and colonies launched factory production powered by steam, which spread to Europe, the United States, Russia, and Japan."},
+{topic:"Industrial society", before:"Before 1750, most people were peasants, lived in the countryside, and ranked in society by birth.", during:"During 1750–1900, factories created a new middle class and industrial working class, cities like Manchester exploded, and workers formed unions while Marx and other socialists offered alternatives to capitalism."},
+{topic:"Non-Western reform", before:"Before 1800, the Ottoman Empire and Qing China were among the world's strongest states and saw little reason to copy Europe.", during:"During 1800–1900, European military and economic pressure pushed the Ottomans (Tanzimat), the Qing (Self-Strengthening), and Japan (Meiji) to modernize, with Japan alone succeeding fully."},
+{topic:"Economic ideology", before:"Before 1776, European states practiced mercantilism, hoarding gold and controlling colonial trade.", during:"During 1776–1900, Adam Smith's free-market ideas replaced mercantilism in Western Europe while transnational companies, stock markets, and limited-liability corporations financed a global industrial economy."},
+],
+};
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let activeTopic = "all", query = "";
+const state = { quiz:false, hideFronts:false, onlyMissed:false, marks:{} };
+try { Object.assign(state.marks, JSON.parse(localStorage.getItem("apwh-u"+UNIT.number+"-marks")||"{}")); } catch(e){}
+function saveMarks(){ try{ localStorage.setItem("apwh-u"+UNIT.number+"-marks", JSON.stringify(state.marks)); }catch(e){} }
+// hero
+$("#unitLede").textContent = UNIT.lede;
+$("#unitStats").innerHTML = UNIT.stats.map(([b,l]) => `<div class="stat"><b>${esc(b)}</b><span>${esc(l)}</span></div>`).join("");
+$("#topicList").innerHTML = UNIT.topics.map(t => `<div class="topic-row"><span class="num">${esc(t.id)}</span><span>${esc(t.title)}</span><span class="theme">${esc(t.themes)}</span></div>`).join("");
+// chips
+const chipsEl = $("#chips");
+chipsEl.innerHTML = [`<button class="chip on" data-t="all">All topics</button>`].concat(
+UNIT.topics.filter(t => !t.review).map(t => `<button class="chip" data-t="${t.id}">${t.id} ${esc(t.title.replace(/^(Developments in|State Building in) /,""))}</button>`)).join("");
+chipsEl.addEventListener("click", e => {
+const b = e.target.closest(".chip"); if(!b) return;
+$$(".chip").forEach(c => c.classList.toggle("on", c === b));
+activeTopic = b.dataset.t; applyFilter();
+});
+$("#search").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); applyFilter(); });
+// cards
+const topicName = id => (UNIT.topics.find(t => t.id === id) || {title:""}).title.replace(/^(Developments in|State Building in) /,"");
+function vocabCard(v, i){
+return `<div class="card" data-t="${v.t}" data-key="v${i}" data-text="${esc((v.term+" "+v.def).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(v.term)} — flip card">
+<div class="face front"><span class="tag">${v.t} · ${esc(topicName(v.t))}</span><div class="term">${esc(v.term)}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${v.t} · definition</span><div class="term">${esc(v.term)}</div><div class="def">${esc(v.def)}</div><div class="why"><b>Why it matters:</b> ${esc(v.why)}</div></div>
+</button>
+<div class="mark"><button class="got" data-m="got">✓ Got it</button><button class="miss" data-m="miss">✗ Missed</button></div></div>`;
+}
+const SF = Object.assign({gained:"Gained power", kept:"Kept power", known:"Known for", end:"End", cue:"Before you flip — how did it <b>gain</b> power, how did it <b>keep</b> it, and what is it <b>known for</b>?"}, UNIT.stateFields || {});
+if (UNIT.statesLabel) { $("#statesH").textContent = UNIT.statesLabel; $('.bar a[href="#states"]').textContent = UNIT.statesLabel; }
+if (UNIT.statesBlurb) $("#statesP").textContent = UNIT.statesBlurb;
+function stateCard(s, i){
+return `<div class="card" data-t="${s.t}" data-key="s${i}" data-text="${esc((s.name+" "+s.region+" "+s.known).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(s.name)} — flip card">
+<div class="face front"><span class="tag">${s.t} · ${esc(s.region)}</span><div class="term">${esc(s.name)}</div><div class="sub">${esc(s.dates)}</div><div class="cue">${SF.cue}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${esc(s.region)} · ${esc(s.dates)}</span><div class="term">${esc(s.name)}</div>
+<p class="kv"><b>${SF.gained}:</b> ${esc(s.gained)}</p><p class="kv"><b>${SF.kept}:</b> ${esc(s.kept)}</p><p class="kv"><b>${SF.known}:</b> ${esc(s.known)}</p><p class="kv"><b>${SF.end}:</b> ${esc(s.end)}</p></div>
+</button></div>`;
+}
+let vocabOrder = UNIT.vocab.map((v,i) => i);
+function renderVocab(){ $("#vocabGrid").innerHTML = vocabOrder.map(i => vocabCard(UNIT.vocab[i], i)).join(""); paintMarks(); applyFilter(); }
+renderVocab();
+$("#stateGrid").innerHTML = UNIT.states.map(stateCard).join("");
+document.addEventListener("click", e => {
+const m = e.target.closest(".mark button");
+if (m){ const card = m.closest(".card"); const k = card.dataset.key; state.marks[k] = (state.marks[k] === m.dataset.m) ? null : m.dataset.m; saveMarks(); paintMarks(); applyFilter(); return; }
+const inner = e.target.closest(".card-inner");
+if (inner){ const card = inner.closest(".card"); card.classList.toggle("flipped"); inner.setAttribute("aria-pressed", card.classList.contains("flipped")); }
+});
+function paintMarks(){
+let got = 0, miss = 0;
+$$("#vocabGrid .card").forEach(c => { const m = state.marks[c.dataset.key]; c.classList.toggle("got", m === "got"); c.classList.toggle("miss", m === "miss"); if (m === "got") got++; if (m === "miss") miss++; });
+$("#gotN").textContent = got + " got it"; $("#missN").textContent = miss + " missed";
+}
+$("#shuffleVocab").onclick = () => { for (let i = vocabOrder.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [vocabOrder[i], vocabOrder[j]] = [vocabOrder[j], vocabOrder[i]]; } renderVocab(); };
+function flipAll(sel){ const cards = $$(sel + " .card:not(.hidden)"); const anyUn = cards.some(c => !c.classList.contains("flipped")); cards.forEach(c => { c.classList.toggle("flipped", anyUn); c.querySelector(".card-inner").setAttribute("aria-pressed", anyUn); }); }
+$("#flipAllVocab").onclick = () => flipAll("#vocabGrid");
+$("#flipAllStates").onclick = () => flipAll("#stateGrid");
+$("#quizBtn").onclick = () => { state.quiz = !state.quiz; $("#vocab").classList.toggle("quiz", state.quiz); $("#quizBtn").classList.toggle("on", state.quiz); $("#quizBtn").textContent = state.quiz ? "Exit quiz" : "Quiz me"; if(!state.quiz){ state.onlyMissed=false; $("#onlyMissed").classList.remove("on"); state.hideFronts=false; $("#vocab").classList.remove("hide-fronts"); $("#hideFronts").classList.remove("on"); } applyFilter(); };
+$("#hideFronts").onclick = () => { state.hideFronts = !state.hideFronts; $("#vocab").classList.toggle("hide-fronts", state.hideFronts); $("#hideFronts").classList.toggle("on", state.hideFronts); $("#hideFronts").textContent = state.hideFronts ? "Show terms" : "Hide terms"; $$("#vocabGrid .card").forEach(c => c.classList.remove("flipped")); };
+$("#onlyMissed").onclick = () => { state.onlyMissed = !state.onlyMissed; $("#onlyMissed").classList.toggle("on", state.onlyMissed); applyFilter(); };
+$("#resetQuiz").onclick = () => { state.marks = {}; saveMarks(); paintMarks(); applyFilter(); };
+// timeline
+$("#rail").innerHTML = UNIT.timeline.map((d, i) => `<li data-t="${d.t}" data-text="${esc((d.y+" "+d.e+" "+d.reg).toLowerCase())}"><button class="year" aria-expanded="false"><div class="dot"></div><div class="y">${esc(d.y)}</div><div class="e">${esc(d.e)}</div><div class="reg">${esc(d.reg)} · ${d.t}</div><div class="more">${esc(d.why)}</div></button></li>`).join("");
+$("#rail").addEventListener("click", e => { const b = e.target.closest(".year"); if(!b) return; b.classList.toggle("open"); b.setAttribute("aria-expanded", b.classList.contains("open")); });
+// developments
+$("#devList").innerHTML = UNIT.developments.map(d => `<details class="dev" data-t="${d.id}" data-text="${esc((d.title+" "+d.kcs.map(k=>k.official+" "+k.plain).join(" ")+" "+d.ex.join(" ")).toLowerCase())}">
+<summary><span class="num">${d.id}</span><span><div class="ttl">${esc(d.title)}</div><div class="themes">${esc(d.themes)}</div></span><span class="arrow">+</span></summary>
+<div class="body">
+<div class="lo"><b>Learning objective${d.los.length>1?"s":""}:</b> ${d.los.map(esc).join(" &nbsp;·&nbsp; ")}</div>
+${d.kcs.map(k => `<div class="kc"><div class="code">${esc(k.code)}</div><div class="official">${esc(k.official)}</div><div class="plain"><b>In plain English:</b> ${esc(k.plain)}</div></div>`).join("")}
+<div><div class="tag" style="margin-bottom:6px">Illustrative examples</div><div class="ex">${d.ex.map(x => `<span>${esc(x)}</span>`).join("")}</div></div>
+</div></details>`).join("");
+$("#openAllDev").onclick = () => { const devs = $$(".dev:not(.hidden)"); const anyClosed = devs.some(d => !d.open); devs.forEach(d => d.open = anyClosed); $("#openAllDev").textContent = anyClosed ? "Close all" : "Open all"; };
+// context
+$("#ctxList").innerHTML = UNIT.context.map(c => `<div class="c"><h3>${esc(c.topic)}</h3><p><b>Before</b> ${esc(c.before)}</p><p><b>During</b> ${esc(c.during)}</p></div>`).join("");
+// filter
+function applyFilter(){
+const match = el => (activeTopic === "all" || el.dataset.t === activeTopic) && (!query || el.dataset.text.includes(query));
+$$("#vocabGrid .card").forEach(c => { let ok = match(c); if (state.quiz && state.onlyMissed) ok = ok && state.marks[c.dataset.key] === "miss"; c.classList.toggle("hidden", !ok); });
+$$("#stateGrid .card").forEach(c => c.classList.toggle("hidden", !match(c)));
+$$("#rail li").forEach(li => li.classList.toggle("hidden", !match(li)));
+$$(".dev").forEach(d => d.classList.toggle("hidden", !match(d)));
+const n = $$("#vocabGrid .card:not(.hidden)").length, s = $$("#stateGrid .card:not(.hidden)").length;
+$("#cardCount").textContent = `${n} terms · ${s} ${UNIT.countLabel || "states"}`;
+}
+applyFilter();
+// nav: scroll inside #app (Google Sites full-page embeds disable frame scrolling)
+$$(".bar a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); const el = $(a.getAttribute("href")); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }));
+// nav highlight
+const links = $$(".bar a"); const secs = links.map(a => $(a.getAttribute("href")));
+const io = new IntersectionObserver(entries => { entries.forEach(en => { if (en.isIntersecting){ links.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id)); } }); }, { rootMargin: "-40% 0px -55% 0px" });
+secs.forEach(s => io.observe(s));
+</script>
+<style id="dm-css">
+html.dm{color-scheme:dark;--bg:#0E1230;--bg-2:#141A3E;--surface:#171D47;--surface-2:#1F2656;--paper:#1A2050;--line:#2D3572;--line-2:#3C458C;--ink:#EEF0FA;--ink-2:#C6CBE8;--muted:#A3AACF;--title:#F1E4B8;--gold-ink:#E6CB73;--gold-deep:#E6CB73;--gold-soft:#3A3112;--accent:#E07C88;--accent-soft:#3D1E24;--asoft:#3D1E24;--good:#4CC777;--good-soft:#173A24;--bad:#F07167;--bad-soft:#44201C;--green:#4CC777;--green-l:#173A24;--green-b:#2B6A3F;--red:#F07167;--red-l:#44201C;--red-b:#7A3530;--yellow:#F2C94C;--yellow-l:#3B3110;--yellow-b:#7A6A24;--blue:#7FB3F0;--blue-l:#17304F;--plum:#C9A6F0;--plum-l:#2F2246;--tT:#7FB3F0;--tE:#F0A36A;--tA:#C9A6F0;--tO:#4CC777;--shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px -6px rgba(0,0,0,.55);--shadow-lift:0 2px 4px rgba(0,0,0,.35),0 18px 40px -14px rgba(0,0,0,.7);--dm-card:var(--surface);--dm-ink:var(--ink);--dm-line:var(--line);--dm-tg-bg:#171D47;--dm-tg-fg:#E3C464;--dm-tg-b:#3C458C;--dm-tg-font:Arial,Helvetica,sans-serif}
+:where(html.dm) .chip:hover{border-color:#1E2761}
+:where(html.dm) .card.got .mark .got{border-color:#1B7F3B}
+:where(html.dm) .period-head h2{color:#B9C4FF}
+:where(html.dm) .unit h3{color:#B9C4FF}
+:where(html.dm) .how p b{color:#B9C4FF}
+:where(html.dm) footer b{color:#B9C4FF}
+:where(html.dm) footer a{color:#B9C4FF}
+:where(html.dm) .hk{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .hk-i.g{background:#1B7F3B}
+:where(html.dm) .hk-i.p{background:#5B2C83}
+:where(html.dm) .hk-i.y{background:#8A6D12}
+:where(html.dm) .hk b{color:#B9C4FF}
+:where(html.dm) .sec-head h2{color:#B9C4FF}
+:where(html.dm) .flip.open .fq{color:#B9C4FF}
+:where(html.dm) .flip.open .fa b,:where(html.dm) .flip.open .bigans{color:#B9C4FF}
+:where(html.dm) .chip{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .chip:hover{color:#B9C4FF}
+:where(html.dm) .fcard{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fcard h3{color:#B9C4FF}
+:where(html.dm) .pill.navy{color:#B9C4FF}
+:where(html.dm) .bar i{background:linear-gradient(90deg,var(--navy),#1B7F3B)}
+:where(html.dm) .btn{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .btn.checkb{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .w-title h2{color:#B9C4FF}
+:where(html.dm) .namebox input{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .scorebar .dots button.y{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .promptbox .q{color:#B9C4FF}
+:where(html.dm) .stim{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .ptable{background:linear-gradient(135deg,var(--surface),var(--paper))}
+:where(html.dm) .ptable summary{color:#B9C4FF}
+:where(html.dm) .howto{background:linear-gradient(135deg,var(--surface),var(--gold-soft))}
+:where(html.dm) .ht-step strong{color:#B9C4FF}
+:where(html.dm) .kbd,:where(html.dm) .ht-step kbd{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .tea-key{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .lab.T{background:#0F4C81}
+:where(html.dm) .lab.E{background:#B4560F}
+:where(html.dm) .lab.A{background:#5B2C83}
+:where(html.dm) .lab.O{background:#1B7F3B}
+:where(html.dm) .lab.C{background:#1B7F3B}
+:where(html.dm) .lab.V{background:#B4560F}
+:where(html.dm) .lab.R{background:#9A6700}
+:where(html.dm) .lab.X{background:#5B2C83}
+:where(html.dm) .tk b{color:#B9C4FF}
+:where(html.dm) .tk-note b{color:#B9C4FF}
+:where(html.dm) .part{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .part.earned::before{background:#1B7F3B}
+:where(html.dm) .part.earned .part-l{background:#1B7F3B}
+:where(html.dm) .verb{background:var(--vc,#5B2C83)}
+:where(html.dm) .part-q{color:#B9C4FF}
+:where(html.dm) .part-dir b{color:#B9C4FF}
+:where(html.dm) .bx textarea{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb h4{color:#B9C4FF}
+:where(html.dm) .fb h4 .src{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .fbline .m.y{background:#1B7F3B}
+:where(html.dm) .fbline .m.i{background:#666B82}
+:where(html.dm) .fbline .m.w{background:#9A6700}
+:where(html.dm) .fbline b{color:#B9C4FF}
+:where(html.dm) .fbline q{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-guide,:where(html.dm) .fb-fix,:where(html.dm) .fb-look{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-hand{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb-hand p b{color:#B9C4FF}
+:where(html.dm) .verdict{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .verdict .vq{color:#B9C4FF}
+:where(html.dm) .verdict .btn.yes.on{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .acc div.hit{color:#CDF3DC}
+:where(html.dm) .acc div.hit b{background:#1B7F3B}
+:where(html.dm) .stuckpanel{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .stuckpanel h4,:where(html.dm) .expanel h4,:where(html.dm) .stempanel h4{color:#B9C4FF}
+:where(html.dm) .expanel{background:var(--surface);background-color:var(--surface);border-left:5px solid #5B2C83}
+:where(html.dm) .stm{background:var(--surface);background-color:var(--surface);color:#F9EBCD}
+:where(html.dm) .stm:hover{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .finish{background:linear-gradient(135deg,var(--surface),var(--plum-l))}
+:where(html.dm) .finish h3{color:#B9C4FF}
+:where(html.dm) .sample .sp{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .sample .sp-q{color:#B9C4FF}
+:where(html.dm) .aphead h4{color:#B9C4FF}
+:where(html.dm) .aptab.on{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .apwrap{border:1px solid #314C72;border-color:#314C72;border-top:1px solid #314C72;border-bottom:1px solid #314C72;border-left:1px solid #314C72;border-right:1px solid #314C72}
+:where(html.dm) .apbar{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .apbar b{color:var(--ink)}
+:where(html.dm) .apbar .r{color:var(--ink)}
+:where(html.dm) .apbody{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .apq .mk{color:var(--ink)}
+:where(html.dm) .apstem{color:var(--ink)}
+:where(html.dm) .apparts{color:var(--ink)}
+:where(html.dm) .aptool{background:var(--bg);background-color:var(--bg);color:var(--ink);border-color:var(--line) var(--line) currentcolor;border-top:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .apbox{color:var(--ink);border:1px solid var(--line);border-color:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .doc{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .doc.used{outline:2px solid #1B7F3B}
+:where(html.dm) .dstat{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .dstat.on{border-color:#1B7F3B}
+:where(html.dm) .dhelp .model{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess h4{color:#B9C4FF}
+:where(html.dm) .modal{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .modal h2{color:#B9C4FF}
+:where(html.dm) footer.foot b{color:#B9C4FF}
+:where(html.dm) .svwarn{background:#413618;background-color:#413618;color:#DFDCEF}
+:where(html.dm) .svwarn.dirty{background:#412B18;background-color:#412B18}
+:where(html.dm) .svwarn.safe{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .svw-copy b{color:#F8DBBD}
+:where(html.dm) .svwarn.safe .svw-copy b{color:#C2F2D4}
+:where(html.dm) .svw-copy span{color:#D1CEDF}
+:where(html.dm) .svbtn{background:var(--surface);background-color:var(--surface);color:#DFDCEF;border:1px solid #443A69;border-color:#443A69;border-top:1px solid #443A69;border-bottom:1px solid #443A69;border-left:1px solid #443A69;border-right:1px solid #443A69}
+:where(html.dm) .svw-rubric{color:#D1CEDF}
+/* World Compass manual fixes: per-unit inline accent tokens (--a / --asoft) */
+:where(html.dm) .unit .go{color:color-mix(in srgb,var(--a) 45%,#fff)}
+:where(html.dm) .unit .pct{background:color-mix(in srgb,var(--a) 28%,var(--surface));color:color-mix(in srgb,var(--a) 40%,#fff)}
+:where(html.dm) .unit .n{color:color-mix(in srgb,var(--a) 55%,#fff)}
+:where(html.dm) .btn.gold{color:#1E2761}
+:where(html.dm) .lab.T,:where(html.dm) .lab.E,:where(html.dm) .lab.A{color:#0E1230}
+
+/* dark-mode toggle (shared) */
+:root{--dm-tg-bg:#fff;--dm-tg-fg:#1F1B3A;--dm-tg-b:rgba(0,0,0,.18);--dm-tg-font:system-ui,sans-serif}
+.dm-tg{position:fixed;right:14px;bottom:14px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 10px;border-radius:999px;border:2px solid var(--dm-tg-b);background:var(--dm-tg-bg);color:var(--dm-tg-fg);font:600 13px/1 var(--dm-tg-font);letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.22);transition:transform .15s,box-shadow .15s,opacity .2s;-webkit-tap-highlight-color:transparent;opacity:.96}
+.dm-tg:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:1}
+.dm-tg:active{transform:translateY(0) scale(.97)}
+.dm-tg:focus-visible{outline:3px solid #FFC83D;outline-offset:3px}
+.dm-tg svg{width:18px;height:18px;display:block}
+.dm-tg .dm-sun{display:none}
+html.dm .dm-tg .dm-sun{display:block}
+html.dm .dm-tg .dm-moon{display:none}
+.dm-tg .dm-lbl{white-space:nowrap}
+@media (max-width:620px){.dm-tg{right:10px;bottom:10px;height:38px;padding:0 10px}.dm-tg .dm-lbl{display:none}}
+@media print{.dm-tg{display:none !important}}
+
+</style>
+<script id="dm">
+/* Dark mode add-on (GeoArcade / World Compass / Euro Atlas / Lang Studio). Follows the device setting, with a per-page toggle. */
+(function(){
+  if (window.__dmInit) return; window.__dmInit = 1;
+  var d = document.documentElement, KEY = 'dm:pref', pref = null;
+  try { pref = localStorage.getItem(KEY) || sessionStorage.getItem(KEY); } catch (e) {}
+  var mq = null; try { mq = window.matchMedia('(prefers-color-scheme: dark)'); } catch (e) {}
+  function sys() { return !!(mq && mq.matches); }
+  var on = pref ? pref === 'dark' : sys();
+  d.classList.toggle('dm', on);
+  var btn;
+  function paint() {
+    d.classList.toggle('dm', on);
+    if (btn) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.setAttribute('title', on ? 'Switch to light mode' : 'Switch to dark mode');
+      var l = btn.querySelector('.dm-lbl'); if (l) l.textContent = on ? 'Light' : 'Dark';
+    }
+    try { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.setAttribute('content', on ? '#0F0D22' : '#FFFFFF'); } catch (e) {}
+  }
+  function set(v, remember) {
+    on = v; paint();
+    if (remember) { try { localStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} try { sessionStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} }
+  }
+  function build() {
+    if (btn || !document.body) return;
+    btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'dm-tg'; btn.id = 'dmToggle';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
+    btn.innerHTML = '<svg class="dm-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 14.6A8.5 8.5 0 0 1 9.4 3a1 1 0 0 0-1.1-1.3A10.5 10.5 0 1 0 22.3 15.7 1 1 0 0 0 21 14.6z"/></svg>'
+      + '<svg class="dm-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>'
+      + '<span class="dm-lbl">Dark</span>';
+    btn.addEventListener('click', function () { set(!on, true); });
+    document.body.appendChild(btn);
+    paint();
+    // keep the button last in <body> so nothing re-renders over it
+    new MutationObserver(function () { if (btn && document.body && document.body.lastElementChild !== btn && btn.isConnected) document.body.appendChild(btn); if (btn && !btn.isConnected) document.body.appendChild(btn); }).observe(document.body, { childList: true });
+  }
+  if (mq && mq.addEventListener) mq.addEventListener('change', function (e) { if (!pref) set(e.matches, false); });
+  else if (mq && mq.addListener) mq.addListener(function (e) { if (!pref) set(e.matches, false); });
+  if (document.body) build(); else document.addEventListener('DOMContentLoaded', build);
+  window.__dm = { set: function (v) { set(!!v, true); }, get on() { return on; } };
+})();
+
+</script>
+</body>
+</html>

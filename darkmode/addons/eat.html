@@ -1,0 +1,152 @@
+<style id="dm-css">
+html.dm{color-scheme:dark;--paper:#0F1527;--paper-2:#161E36;--card:#1B2440;--ink:#EDE8DC;--ink-2:#C4CBDD;--ink-3:#A3ACC4;--line:#2F3A5A;--line-2:#3E4B72;--navy-soft:#223457;--brass:#C9A54F;--brass-deep:#E6CB7A;--brass-soft:#3A3014;--brass-light:#E8D394;--wine-deep:#F0A0AE;--wine-soft:#3E2229;--forest-deep:#8CD1A6;--forest-soft:#163125;--plum-deep:#CDB2F2;--plum-soft:#2C2247;--sky-deep:#9CC2F2;--sky-soft:#17304F;--gold-soft:#3B3110;--red-soft:#4B1D1D;--green-soft:#163125;--sh:0 1px 2px rgba(0,0,0,.35),0 6px 18px -6px rgba(0,0,0,.55);--sh-lg:0 2px 4px rgba(0,0,0,.35),0 18px 40px -14px rgba(0,0,0,.7);--dm-card:var(--card);--dm-ink:var(--ink);--dm-line:var(--line);--dm-tg-bg:#1B2440;--dm-tg-fg:#D4B05E;--dm-tg-b:#3E4B72;--dm-tg-font:'DM Sans',system-ui,sans-serif}
+:where(html.dm) body{background:var(--paper);background-color:var(--paper);color:#E0E8F6}
+:where(html.dm) h1 em,:where(html.dm) h2 em,:where(html.dm) .stitle em{color:#E6CB7A}
+:where(html.dm) .er-title .un{background:linear-gradient(135deg,#A8822F,var(--brass-light))}
+:where(html.dm) .btn{background:var(--card);background-color:var(--card)}
+:where(html.dm) .chip{background:var(--card);background-color:var(--card)}
+:where(html.dm) .pill.navy{color:#B9C8F0}
+:where(html.dm) .pill.red{color:#ECB6B6}
+:where(html.dm) .modal{background:var(--card);background-color:var(--card)}
+:where(html.dm) .er-hero h1{color:#C7D2F2}
+:where(html.dm) .hk{background:var(--card);background-color:var(--card)}
+:where(html.dm) .pv{background:var(--card);background-color:var(--card)}
+:where(html.dm) .pv3 .pl{background:#7F6120}
+:where(html.dm) .pv-stamp{color:#8CD1A6}
+:where(html.dm) .fcard .fstrip{background:linear-gradient(90deg,var(--navy),#A8822F,var(--wine))}
+:where(html.dm) .fcard.soon p{color:#B1B5C5}
+:where(html.dm) .namebox input{background:var(--card);background-color:var(--card)}
+:where(html.dm) .scorebar{background:var(--card);background-color:var(--card)}
+:where(html.dm) .scorebar .sb-big{color:#B9C8F0}
+:where(html.dm) .scorebar .dots button:hover{color:#B9C8F0}
+:where(html.dm) .scorebar .dots button.w{border-color:#7A6629}
+:where(html.dm) .stem{border-left:6px solid #A8822F}
+:where(html.dm) .doc{background:var(--card);background-color:var(--card)}
+:where(html.dm) .doc .dnote{background:var(--paper);background-color:var(--paper)}
+:where(html.dm) .pdoc{background:linear-gradient(135deg,var(--card),var(--forest-soft));border:1px solid #40634F;border-color:#40634F;border-top:1px solid #40634F;border-bottom:1px solid #40634F;border-left:1px solid #40634F;border-right:1px solid #40634F}
+:where(html.dm) .pdoc summary:hover{background:rgba(15,21,39,0.70);background-color:rgba(15,21,39,0.70)}
+:where(html.dm) .pdoc.must{background:linear-gradient(135deg,var(--card),var(--brass-soft));border-color:#7A6629}
+:where(html.dm) .pdoc.must summary .ptk{background:#A8822F}
+:where(html.dm) .howto{background:linear-gradient(135deg,var(--card),var(--brass-soft))}
+:where(html.dm) kbd,:where(html.dm) .ht-step kbd{background:var(--card);background-color:var(--card)}
+:where(html.dm) .tea-key{background:linear-gradient(135deg,var(--card),var(--navy-soft))}
+:where(html.dm) .lab.A,:where(html.dm) .lab.A3{background:#A8822F}
+:where(html.dm) .usestable{border:1px solid #7A6629;border-color:#7A6629;border-top:1px solid #7A6629;border-bottom:1px solid #7A6629;border-left:1px solid #7A6629;border-right:1px solid #7A6629}
+:where(html.dm) .bx textarea{background:var(--card);background-color:var(--card)}
+:where(html.dm) .catrow input{background:var(--card);background-color:var(--card)}
+:where(html.dm) .fb.good{border-color:#3A6A4D}
+:where(html.dm) .fb.close{border-color:#7A6629}
+:where(html.dm) .fb h4 .src{background:rgba(15,21,39,0.80);background-color:rgba(15,21,39,0.80)}
+:where(html.dm) .fb .ptv .pv-row{background:rgba(15,21,39,0.75);background-color:rgba(15,21,39,0.75)}
+:where(html.dm) .fbline .m.i{background:#6B7390}
+:where(html.dm) .fbline .m.w{background:#A8822F}
+:where(html.dm) .fbline q{background:rgba(15,21,39,0.90);background-color:rgba(15,21,39,0.90)}
+:where(html.dm) .fb-guide{background:rgba(15,21,39,0.85);background-color:rgba(15,21,39,0.85)}
+:where(html.dm) .fb-guide .acc div{background:var(--card);background-color:var(--card)}
+:where(html.dm) .fb-hand{background:var(--card);background-color:var(--card)}
+:where(html.dm) .verdict{background:rgba(15,21,39,0.80);background-color:rgba(15,21,39,0.80)}
+:where(html.dm) .spin{border-color:var(--line) rgba(255, 255, 255, 0.45) rgba(255, 255, 255, 0.45);border-top:3px solid var(--line)}
+:where(html.dm) .stuckpanel{background:var(--card);background-color:var(--card)}
+:where(html.dm) .acc div.hit{color:#D1ECE0;border-color:#3A6A4D}
+:where(html.dm) .acc div.row-r b{background:#A8822F}
+:where(html.dm) .vault li.hit{color:#D1ECE0}
+:where(html.dm) .vault li.hit::before{color:#8CD1A6}
+:where(html.dm) .expanel{background:var(--card);background-color:var(--card)}
+:where(html.dm) .tl.one{border-color:#3A6A4D}
+:where(html.dm) .mark.ev{color:#B9C8F0}
+:where(html.dm) .spwhy b{color:#CDB2F2}
+:where(html.dm) .stempanel{border:1px solid #7A6629;border-color:#7A6629;border-top:1px solid #7A6629;border-bottom:1px solid #7A6629;border-left:1px solid #7A6629;border-right:1px solid #7A6629}
+:where(html.dm) .stm{background:var(--card);background-color:var(--card);border:1px solid #7A6629;border-color:#7A6629;border-top:1px solid #7A6629;border-bottom:1px solid #7A6629;border-left:1px solid #7A6629;border-right:1px solid #7A6629}
+:where(html.dm) .stm:hover{border-color:#A8822F}
+:where(html.dm) .finish{background:linear-gradient(135deg,var(--card),var(--navy-soft))}
+:where(html.dm) .aptab.on{background:var(--card);background-color:var(--card);color:#B9C8F0}
+:where(html.dm) .apwrap{border:1px solid #314C72;border-color:#314C72;border-top:1px solid #314C72;border-bottom:1px solid #314C72;border-left:1px solid #314C72;border-right:1px solid #314C72}
+:where(html.dm) .apbar{background:var(--paper);background-color:var(--paper)}
+:where(html.dm) .apbar b{color:var(--ink)}
+:where(html.dm) .apbar .r{color:var(--ink)}
+:where(html.dm) .apbody{background:var(--card);background-color:var(--card)}
+:where(html.dm) .apq .mk{color:var(--ink)}
+:where(html.dm) .apstem{color:var(--ink)}
+:where(html.dm) .apparts{color:var(--ink)}
+:where(html.dm) .aptool{background:var(--paper);background-color:var(--paper);color:var(--ink);border-color:var(--line) var(--line) currentcolor;border-top:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .apbox{color:var(--ink);border:1px solid var(--line);border-color:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .apnote{border:1px solid #7A6629;border-color:#7A6629;border-top:1px solid #7A6629;border-bottom:1px solid #7A6629;border-left:1px solid #7A6629;border-right:1px solid #7A6629}
+:where(html.dm) .sample .sp{background:var(--card);background-color:var(--card)}
+:where(html.dm) .timer .t{color:#B9C8F0}
+:where(html.dm) .svwarn{background:#413618;background-color:#413618;color:#DFDCEF}
+:where(html.dm) .svwarn.dirty{background:#412B18;background-color:#412B18}
+:where(html.dm) .svwarn.safe{background:var(--paper);background-color:var(--paper)}
+:where(html.dm) .svw-copy b{color:#F8DBBD}
+:where(html.dm) .svwarn.safe .svw-copy b{color:#C2F2D4}
+:where(html.dm) .svw-copy span{color:#D1CEDF}
+:where(html.dm) .svbtn{background:var(--card);background-color:var(--card);color:#DFDCEF;border:1px solid #443A69;border-color:#443A69;border-top:1px solid #443A69;border-bottom:1px solid #443A69;border-left:1px solid #443A69;border-right:1px solid #443A69}
+:where(html.dm) .svw-rubric{color:#D1CEDF}
+:where(html.dm) .pv3 .pl{background:#A8822F}
+:where(html.dm) .cx-bar{background:rgba(15,21,39,0.97);background-color:rgba(15,21,39,0.97)}
+:where(html.dm) .cx-bar button{background:var(--card);background-color:var(--card)}
+:where(html.dm) .cx-bar button:hover{border-color:#A8822F}
+:where(html.dm) .cx-sec .cx-mini button{background:var(--card);background-color:var(--card)}
+:where(html.dm) .part .part-head::after{background:var(--card);background-color:var(--card)}
+:where(html.dm) .dimg img{background:var(--card);background-color:var(--card)}
+:where(html.dm) b.un,:where(html.dm) .brand .un{color:#0F1B33}
+
+/* dark-mode toggle (shared) */
+:root{--dm-tg-bg:#fff;--dm-tg-fg:#1F1B3A;--dm-tg-b:rgba(0,0,0,.18);--dm-tg-font:system-ui,sans-serif}
+.dm-tg{position:fixed;right:14px;bottom:14px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 10px;border-radius:999px;border:2px solid var(--dm-tg-b);background:var(--dm-tg-bg);color:var(--dm-tg-fg);font:600 13px/1 var(--dm-tg-font);letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.22);transition:transform .15s,box-shadow .15s,opacity .2s;-webkit-tap-highlight-color:transparent;opacity:.96}
+.dm-tg:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:1}
+.dm-tg:active{transform:translateY(0) scale(.97)}
+.dm-tg:focus-visible{outline:3px solid #FFC83D;outline-offset:3px}
+.dm-tg svg{width:18px;height:18px;display:block}
+.dm-tg .dm-sun{display:none}
+html.dm .dm-tg .dm-sun{display:block}
+html.dm .dm-tg .dm-moon{display:none}
+.dm-tg .dm-lbl{white-space:nowrap}
+@media (max-width:620px){.dm-tg{right:10px;bottom:10px;height:38px;padding:0 10px}.dm-tg .dm-lbl{display:none}}
+@media print{.dm-tg{display:none !important}}
+
+</style>
+<script id="dm">
+/* Dark mode add-on (GeoArcade / World Compass / Euro Atlas / Lang Studio). Follows the device setting, with a per-page toggle. */
+(function(){
+  if (window.__dmInit) return; window.__dmInit = 1;
+  var d = document.documentElement, KEY = 'dm:pref', pref = null;
+  try { pref = localStorage.getItem(KEY) || sessionStorage.getItem(KEY); } catch (e) {}
+  var mq = null; try { mq = window.matchMedia('(prefers-color-scheme: dark)'); } catch (e) {}
+  function sys() { return !!(mq && mq.matches); }
+  var on = pref ? pref === 'dark' : sys();
+  d.classList.toggle('dm', on);
+  var btn;
+  function paint() {
+    d.classList.toggle('dm', on);
+    if (btn) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.setAttribute('title', on ? 'Switch to light mode' : 'Switch to dark mode');
+      var l = btn.querySelector('.dm-lbl'); if (l) l.textContent = on ? 'Light' : 'Dark';
+    }
+    try { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.setAttribute('content', on ? '#0F0D22' : '#FFFFFF'); } catch (e) {}
+  }
+  function set(v, remember) {
+    on = v; paint();
+    if (remember) { try { localStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} try { sessionStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} }
+  }
+  function build() {
+    if (btn || !document.body) return;
+    btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'dm-tg'; btn.id = 'dmToggle';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
+    btn.innerHTML = '<svg class="dm-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 14.6A8.5 8.5 0 0 1 9.4 3a1 1 0 0 0-1.1-1.3A10.5 10.5 0 1 0 22.3 15.7 1 1 0 0 0 21 14.6z"/></svg>'
+      + '<svg class="dm-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>'
+      + '<span class="dm-lbl">Dark</span>';
+    btn.addEventListener('click', function () { set(!on, true); });
+    document.body.appendChild(btn);
+    paint();
+    // keep the button last in <body> so nothing re-renders over it
+    new MutationObserver(function () { if (btn && document.body && document.body.lastElementChild !== btn && btn.isConnected) document.body.appendChild(btn); if (btn && !btn.isConnected) document.body.appendChild(btn); }).observe(document.body, { childList: true });
+  }
+  if (mq && mq.addEventListener) mq.addEventListener('change', function (e) { if (!pref) set(e.matches, false); });
+  else if (mq && mq.addListener) mq.addListener(function (e) { if (!pref) set(e.matches, false); });
+  if (document.body) build(); else document.addEventListener('DOMContentLoaded', build);
+  window.__dm = { set: function (v) { set(!!v, true); }, get on() { return on; } };
+})();
+
+</script>

@@ -1,0 +1,27 @@
+html.dm{color-scheme:dark;--paper:#0F1527;--cream:#151D33;--cream-warm:#1B243E;--navy-deep:#0A1020;--brass:#C9A54F;--brass-ink:#E2C782;--brass-display:#DDBB6A;--brass-light:#E8D394;--ink:#EDE8DC;--slate:#BBC1D1;--line:#2E3957;--accent-red:#E07A7A;--good:#7DBF92;--good-soft:#173125;--bad:#E07A7A;--bad-soft:#3A1F22;--lift:0 1px 2px rgba(0,0,0,.35),0 6px 18px -6px rgba(0,0,0,.55);--lift-2:0 2px 4px rgba(0,0,0,.35),0 18px 40px -14px rgba(0,0,0,.7);--hair:0 1px 0 rgba(255,255,255,.06);--dm-card:var(--cream);--dm-ink:var(--ink);--dm-line:var(--line);--dm-tg-bg:#151D33;--dm-tg-fg:#D4B05E;--dm-tg-b:#2E3957;--dm-tg-font:'DM Sans',system-ui,sans-serif}
+:where(html.dm) .hero{color:#F7F1E5}
+:where(html.dm) .bar a.on{color:#B9C8F0}
+:where(html.dm) .pillbtn.on{color:#F7F1E5}
+:where(html.dm) .tchip.on{color:#F7F1E5}
+:where(html.dm) .badge.vid{color:#8CCBA0}
+:where(html.dm) .badge.beyond{color:#D4A4C6}
+:where(html.dm) .card.got{border-color:#3E6B4F}
+:where(html.dm) .card.got .mark .got{border-color:#3E6B4F}
+:where(html.dm) .sub .sid{color:#A9B9E6}
+:where(html.dm) .ctx .kind.during{color:#A9B9E6}
+:where(html.dm) .ctx .kind.after{color:#8CCBA0}
+:where(html.dm) footer{color:#F7F1E5}
+:where(html.dm) .note.exam .k{color:#8CCBA0}
+/* dark-mode toggle (shared) */
+:root{--dm-tg-bg:#fff;--dm-tg-fg:#1F1B3A;--dm-tg-b:rgba(0,0,0,.18);--dm-tg-font:system-ui,sans-serif}
+.dm-tg{position:fixed;right:14px;bottom:14px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 10px;border-radius:999px;border:2px solid var(--dm-tg-b);background:var(--dm-tg-bg);color:var(--dm-tg-fg);font:600 13px/1 var(--dm-tg-font);letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.22);transition:transform .15s,box-shadow .15s,opacity .2s;-webkit-tap-highlight-color:transparent;opacity:.96}
+.dm-tg:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:1}
+.dm-tg:active{transform:translateY(0) scale(.97)}
+.dm-tg:focus-visible{outline:3px solid #FFC83D;outline-offset:3px}
+.dm-tg svg{width:18px;height:18px;display:block}
+.dm-tg .dm-sun{display:none}
+html.dm .dm-tg .dm-sun{display:block}
+html.dm .dm-tg .dm-moon{display:none}
+.dm-tg .dm-lbl{white-space:nowrap}
+@media (max-width:620px){.dm-tg{right:10px;bottom:10px;height:38px;padding:0 10px}.dm-tg .dm-lbl{display:none}}
+@media print{.dm-tg{display:none !important}}

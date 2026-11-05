@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AP World Unit 1 — The Global Tapestry</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&display=swap">
+<style>
+:root{
+--navy:#1E2761; --navy-2:#2B3780; --title:#1E2761; --gold:#C9A227; --gold-2:#E3C464; --gold-soft:#F6EBC4;
+--accent:#7E2433; --accent-soft:#F6E7E9;
+--bg:#F4F5F9; --surface:#FFFFFF; --surface-2:#EEF0F6; --line:#D8DBE6;
+--ink:#1A1D2E; --ink-2:#4A4F68; --muted:#666B82;
+--on-navy:#FFFFFF; --on-navy-muted:#B9BFE0;
+--good:#1B7F3B; --good-soft:#E3F3E7; --bad:#B42318; --bad-soft:#FBE9E7;
+--shadow:0 1px 2px rgba(30,39,97,.06),0 6px 18px rgba(30,39,97,.08);
+--display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+--body:Arial,Helvetica,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+#app{height:100vh;overflow-y:auto;overflow-x:hidden;scroll-behavior:smooth;-webkit-overflow-scrolling:touch}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.hero{background:var(--navy);color:var(--on-navy);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:auto -10% -60% auto;width:520px;height:520px;border-radius:50%;
+background:radial-gradient(circle at 30% 30%,rgba(201,162,39,.28),rgba(201,162,39,0) 62%);pointer-events:none}
+.hero .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;padding:44px 24px 36px;position:relative}
+.eyebrow{font-size:12px;font-weight:bold;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.hero h1{font-family:var(--display);font-weight:700;font-size:clamp(44px,6vw,72px);line-height:.98;margin:10px 0 14px;text-wrap:balance;letter-spacing:-.01em}
+.hero .lede{max-width:56ch;color:var(--on-navy-muted);font-size:17px;margin:0 0 22px}
+.stats{display:flex;gap:28px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--display);font-size:34px;font-weight:700;line-height:1;color:var(--gold-2)}
+.stat span{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--on-navy-muted)}
+.topics{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:18px 18px 10px;align-self:start}
+.topics h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+.topic-row{display:flex;gap:12px;align-items:flex-start;padding:8px 0;border-top:1px solid rgba(255,255,255,.1);font-size:14px;line-height:1.35}
+.topic-row:first-of-type{border-top:0}
+.topic-row .num{font-family:var(--display);font-weight:700;font-size:20px;line-height:1;min-width:38px;color:var(--gold-2)}
+.topic-row .theme{margin-left:auto;white-space:nowrap;font-size:11px;letter-spacing:.08em;color:var(--on-navy-muted)}
+.bar{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 2px 10px rgba(30,39,97,.06)}
+.bar .wrap{display:flex;align-items:center;gap:6px;padding:8px 24px;overflow-x:auto;scrollbar-width:none}
+.bar .wrap::-webkit-scrollbar{display:none}
+.bar a{color:var(--ink-2);text-decoration:none;font-size:14px;font-weight:bold;padding:8px 12px;border-radius:8px;white-space:nowrap}
+.bar a:hover,.bar a.active{background:var(--surface-2);color:var(--title)}
+.bar .spacer{flex:1}
+.bar .count{font-size:12px;color:var(--muted);white-space:nowrap}
+.filter{background:var(--surface-2);border-bottom:1px solid var(--line)}
+.filter .wrap{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 24px}
+.filter .lbl{font-size:12px;font-weight:bold;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:6px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:bold;cursor:pointer}
+.chip:hover{border-color:var(--title);color:var(--title)}
+.chip.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.filter input{margin-left:auto;min-width:220px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;font-size:14px}
+section.block{padding:44px 0 12px;scroll-margin-top:56px}
+.sec-head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.sec-head h2{font-family:var(--display);font-weight:700;font-size:38px;line-height:1;margin:0;color:var(--title)}
+.sec-head p{margin:0;color:var(--muted);font-size:14px;max-width:60ch}
+.sec-head .tools{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--title);border-radius:8px;padding:8px 14px;font-size:13px;font-weight:bold;cursor:pointer}
+.btn:hover{border-color:var(--navy)}
+.btn.primary{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.btn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.grid.big{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{perspective:1200px;display:flex;flex-direction:column;gap:6px}
+.card-inner{position:relative;width:100%;flex:1;min-height:150px;transition:transform .55s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d;cursor:pointer;border:0;padding:0;background:none;text-align:left;display:block;color:inherit}
+.grid.big .card-inner{min-height:250px}
+.card.flipped .card-inner{transform:rotateY(180deg)}
+.face{backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:inherit}
+.front{position:absolute;inset:0;background:var(--surface);border:1px solid var(--line)}
+.front::before{content:"";position:absolute;left:18px;right:18px;top:0;height:3px;background:var(--accent);border-radius:0 0 3px 3px}
+.back{position:relative;background:var(--navy);color:var(--on-navy);transform:rotateY(180deg)}
+.tag{font-size:11px;font-weight:bold;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.back .tag{color:var(--gold)}
+.term{font-family:var(--display);font-weight:700;font-size:26px;line-height:1.05;margin:10px 0 6px;color:var(--title);text-wrap:balance}
+.grid.big .term{font-size:28px}
+.sub{font-size:13px;color:var(--ink-2)}
+.cue{margin-top:14px;font-size:13px;color:var(--muted);line-height:1.4;max-width:34ch}
+.cue b{color:var(--accent)}
+.front .hint{margin-top:auto;font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.back .term{color:#fff;font-size:20px;margin:6px 0 8px}
+.def{font-size:14px;line-height:1.45}
+.why{margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.18);font-size:13px;color:var(--on-navy-muted)}
+.why b{color:var(--gold-2)}
+.kv{font-size:13px;line-height:1.4;margin:4px 0}
+.kv b{color:var(--gold-2);font-weight:bold}
+.card.hidden{display:none}
+.card .mark{display:none;gap:6px}
+.quiz .card .mark{display:flex}
+.mark button{flex:1;border:1px solid var(--line);border-radius:8px;padding:6px 8px;font-size:12px;font-weight:bold;cursor:pointer;background:var(--surface);color:var(--ink-2)}
+.mark button.got{color:var(--good)} .mark button.miss{color:var(--bad)}
+.card.got .front{box-shadow:0 0 0 2px var(--good),var(--shadow)}
+.card.miss .front{box-shadow:0 0 0 2px var(--bad),var(--shadow)}
+.card.got .mark .got{background:var(--good-soft);border-color:var(--good)}
+.card.miss .mark .miss{background:var(--bad-soft);border-color:var(--bad)}
+.quiz .front .term{filter:blur(0)}
+.quiz.hide-fronts .card:not(.flipped) .front .term{filter:blur(7px)}
+.quiz.hide-fronts .card:not(.flipped) .front .hint::after{content:" · term hidden — flip to check"}
+.quizbar{display:none;align-items:center;gap:14px;flex-wrap:wrap;background:var(--accent-soft);border:1px solid var(--accent);border-radius:12px;padding:12px 16px;margin:0 0 16px;font-size:14px}
+.quiz .quizbar{display:flex}
+.quizbar b{color:var(--accent)}
+.quizbar .score{display:flex;gap:14px}
+.pill{border-radius:999px;padding:3px 10px;font-weight:bold;font-size:13px}
+.pill.good{background:var(--good-soft);color:var(--good)} .pill.bad{background:var(--bad-soft);color:var(--bad)}
+.rail{position:relative;overflow-x:auto;padding:24px 0 18px;scroll-snap-type:x proximity}
+.rail ol::before{content:"";position:absolute;left:0;right:0;top:36px;height:3px;z-index:0;background:linear-gradient(90deg,var(--gold),var(--gold-2),var(--gold))}
+.rail ol{list-style:none;margin:0;padding:0 8px;display:flex;gap:14px;min-width:max-content;position:relative}
+.rail li{scroll-snap-align:start;width:210px}
+.year{display:block;width:100%;border:0;background:none;cursor:pointer;text-align:left;padding:0;color:inherit}
+.year .dot{position:relative;z-index:1;width:14px;height:14px;border-radius:50%;background:var(--surface);border:3px solid var(--gold);margin:29px 0 0 0;transition:transform .2s}
+.year:hover .dot,.year.open .dot{background:var(--accent);border-color:var(--accent);transform:scale(1.25)}
+.year .y{font-family:var(--display);font-weight:700;font-size:30px;line-height:1;color:var(--title);margin:10px 0 4px}
+.year .e{font-size:14px;font-weight:bold;color:var(--ink);line-height:1.3}
+.year .reg{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.year .more{display:none;margin-top:8px;font-size:13px;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow)}
+.year.open .more{display:block}
+.rail li.hidden{display:none}
+.dev{border:1px solid var(--line);background:var(--surface);border-radius:14px;margin-bottom:12px;overflow:hidden;box-shadow:var(--shadow)}
+.dev summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center;padding:16px 18px}
+.dev summary::-webkit-details-marker{display:none}
+.dev .num{font-family:var(--display);font-weight:700;font-size:34px;line-height:1;color:var(--accent)}
+.dev .ttl{font-weight:bold;font-size:17px;color:var(--title)}
+.dev .themes{font-size:11px;letter-spacing:.08em;color:var(--muted);margin-top:2px}
+.dev .arrow{width:28px;height:28px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;color:var(--title);font-weight:bold;transition:transform .25s}
+.dev[open] .arrow{transform:rotate(45deg)}
+.dev .body{padding:0 18px 18px 96px;display:grid;gap:14px}
+.lo{font-size:14px;color:var(--ink-2)}
+.lo b{color:var(--title)}
+.kc{border-left:3px solid var(--gold);padding:6px 14px;background:var(--surface-2);border-radius:0 10px 10px 0}
+.kc .code{font-size:11px;letter-spacing:.08em;color:var(--muted);font-weight:bold}
+.kc .official{font-size:14px;margin:2px 0 6px;color:var(--ink)}
+.kc .plain{font-size:14px;color:var(--ink-2)}
+.kc .plain b{color:var(--accent)}
+.ex{display:flex;flex-wrap:wrap;gap:6px}
+.ex span{font-size:12px;font-weight:bold;background:var(--gold-soft);color:var(--title);border-radius:6px;padding:4px 8px}
+.dev.hidden{display:none}
+@media (max-width:700px){.dev summary{grid-template-columns:48px 1fr auto}.dev .body{padding-left:18px}}
+.ctx{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.ctx .c{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+.ctx h3{margin:0 0 8px;font-size:15px;color:var(--title)}
+.ctx p{margin:6px 0;font-size:14px;color:var(--ink-2)}
+.ctx p b{display:inline-block;min-width:64px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+footer{margin-top:40px;padding:22px 0 34px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center}
+footer b{color:var(--title)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.topics{order:2}}
+@media (prefers-reduced-motion: reduce){
+html{scroll-behavior:auto}
+#app{scroll-behavior:auto}
+.card-inner{transition:none}
+.card.flipped .card-inner{transform:none}
+.front{visibility:visible}
+.card.flipped .front{visibility:hidden}
+.back{transform:none;visibility:hidden}
+.card.flipped .back{visibility:visible}
+}
+.hero{display:none}
+</style>
+<style id="ms-phone-nav">@media (max-width:700px){.bar .wrap{flex-wrap:wrap;overflow-x:visible;row-gap:2px;padding:6px 12px}.bar a{padding:6px 9px;font-size:13px}.bar .spacer{display:none}}</style><style id="ms-phone-text">@media (max-width:640px){.topic-row .theme,.tag,.front .hint,.year .reg,.dev .themes,.kc .code,.ctx p b{font-size:12px!important;line-height:1.35}}
+/* ios-no-zoom */@media (max-width:820px){input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]),textarea,select{font-size:16px !important}}
+</style></head>
+<body>
+<div id="app">
+<header class="hero">
+<div class="wrap">
+<div>
+<div class="eyebrow">AP World History: Modern &nbsp;·&nbsp; Unit 1 &nbsp;·&nbsp; c. 1200 – c. 1450</div>
+<h1 id="unitTitle">The Global Tapestry</h1>
+<p class="lede" id="unitLede"></p>
+<div class="stats" id="unitStats"></div>
+</div>
+<aside class="topics" aria-label="Topics in this unit">
+<h2>Topics</h2>
+<div id="topicList"></div>
+</aside>
+</div>
+</header>
+<nav class="bar" aria-label="Sections">
+<div class="wrap">
+<a href="#vocab">Vocabulary</a>
+<a href="#states">Empires &amp; States</a>
+<a href="#timeline">Timeline</a>
+<a href="#developments">Historical Developments</a>
+<a href="#context">Context Bank</a>
+<span class="spacer"></span>
+<span class="count" id="cardCount"></span>
+</div>
+</nav>
+<div class="filter">
+<div class="wrap">
+<span class="lbl">Show</span>
+<div id="chips" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+<input id="search" type="search" placeholder="Search terms, cards, dates…" aria-label="Search">
+</div>
+</div>
+<main class="wrap">
+<section class="block" id="vocab">
+<div class="sec-head">
+<h2>Vocabulary</h2>
+<p>Tap a card to flip it. Term on the front, definition and why it matters on the back.</p>
+<div class="tools">
+<button class="btn" id="shuffleVocab">Shuffle</button>
+<button class="btn" id="flipAllVocab">Flip all</button>
+<button class="btn gold" id="quizBtn">Quiz me</button>
+</div>
+</div>
+<div class="quizbar" id="quizbar">
+<div><b>Quiz mode.</b> Flip a card, then mark it. Missed cards get a red ring so you can come back to them. Marks last only while this page is open; they reset when you reload or leave.</div>
+<div class="score"><span class="pill good" id="gotN">0 got it</span><span class="pill bad" id="missN">0 missed</span></div>
+<button class="btn" id="hideFronts">Hide terms</button>
+<button class="btn" id="onlyMissed">Show missed only</button>
+<button class="btn" id="resetQuiz">Reset</button>
+</div>
+<div class="grid" id="vocabGrid"></div>
+</section>
+<section class="block" id="states">
+<div class="sec-head">
+<h2 id="statesH">Empires &amp; States</h2>
+<p id="statesP">How each state gained power, kept it, and what it is known for. These are the LEQ evidence cards.</p>
+<div class="tools"><button class="btn" id="flipAllStates">Flip all</button></div>
+</div>
+<div class="grid big" id="stateGrid"></div>
+</section>
+<section class="block" id="timeline">
+<div class="sec-head">
+<h2>Timeline</h2>
+<p>Click a date to see why it is on the list. Scroll sideways.</p>
+</div>
+<div class="rail"><ol id="rail"></ol></div>
+</section>
+<section class="block" id="developments">
+<div class="sec-head">
+<h2>Historical Developments</h2>
+<p>The College Board statements the questions are written from — official wording, then plain English, then the examples they expect you to know.</p>
+<div class="tools"><button class="btn" id="openAllDev">Open all</button></div>
+</div>
+<div id="devList"></div>
+</section>
+<section class="block" id="context">
+<div class="sec-head">
+<h2>Context Bank</h2>
+<p>Ready-made LEQ contextualization: one sentence before the period, one sentence during.</p>
+</div>
+<div class="ctx" id="ctxList"></div>
+</section>
+</main>
+<footer><b>Panther Creek High School</b> &nbsp;•&nbsp; Created by Scott Martin &nbsp;•&nbsp; APandAbroad@gmail.com<br>AP® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this site.</footer>
+</div>
+<script>
+const UNIT = {
+number: 1, title: "The Global Tapestry", dates: "c. 1200 – c. 1450",
+lede: "Before the world was connected, it was a patchwork. Unit 1 is a tour of the major states of 1200–1450 — how each one got power, kept it, and what held its society together.",
+stats: [["8–10%","of the AP exam"],["7","topics"],["10–13","class periods"]],
+topics: [
+{id:"1.1", title:"Developments in East Asia", themes:"GOV · CDI · ECN"},
+{id:"1.2", title:"Developments in Dar al-Islam", themes:"CDI · GOV · TEC"},
+{id:"1.3", title:"Developments in South & Southeast Asia", themes:"CDI · GOV"},
+{id:"1.4", title:"State Building in the Americas", themes:"GOV"},
+{id:"1.5", title:"State Building in Africa", themes:"GOV"},
+{id:"1.6", title:"Developments in Europe", themes:"CDI · GOV · SIO"},
+{id:"1.7", title:"Comparison in the Period", themes:"Argumentation", review:true},
+],
+vocab: [
+// 1.1 East Asia
+{t:"1.1", term:"Song Dynasty", def:"Chinese dynasty (960–1279) that ruled through a Confucian scholar bureaucracy and presided over a commercial and technological boom.", why:"The CED's model of a state that used tradition (Confucianism, bureaucracy) to justify and maintain rule."},
+{t:"1.1", term:"Neo-Confucianism", def:"A Song-era revival of Confucian thought that absorbed Buddhist and Daoist ideas about the self and the cosmos while reasserting social order and duty.", why:"Became the official ideology of the state and the exam system; spread to Korea, Japan, and Vietnam."},
+{t:"1.1", term:"Filial piety", def:"The Confucian duty to honor, obey, and care for one's parents and ancestors.", why:"The glue of the Chinese social order: the family mirrors the state, the son obeys the father as the subject obeys the emperor."},
+{t:"1.1", term:"Civil service examination", def:"Tests on the Confucian classics used to select government officials on merit rather than birth.", why:"Created the scholar-gentry, limited aristocratic power, and was copied by Korea and Vietnam."},
+{t:"1.1", term:"Scholar-gentry", def:"The educated, land-owning class of exam graduates who staffed the Song bureaucracy.", why:"Even as merchants got rich, scholars — not traders — stayed on top. Classic continuity question."},
+{t:"1.1", term:"Imperial bureaucracy", def:"A large, hierarchical body of appointed officials that carried out the emperor's policies across the empire.", why:"How a state of 100 million people was actually governed; the key \"method of rule\" in KC-3.2.I.A."},
+{t:"1.1", term:"Champa rice", def:"Fast-ripening, drought-resistant rice from Vietnam (Champa) that allowed two harvests a year in southern China.", why:"Food surplus → population roughly doubled → more workers, more cities, more trade."},
+{t:"1.1", term:"Grand Canal", def:"A 1,100-mile inland waterway linking the Yellow and Yangzi rivers, expanded under the Song.", why:"Moved rice north and goods south cheaply; the transportation backbone of the Song economy."},
+{t:"1.1", term:"Proto-industrialization", def:"Producing more goods than a society needs, using home-based artisans rather than factories, for sale in distant markets.", why:"Song China made iron, steel, porcelain, and silk on a scale the world would not see again until 1700s Britain."},
+{t:"1.1", term:"Porcelain", def:"Fine, hard, white ceramic perfected in China and exported across Afro-Eurasia (\"china\").", why:"Luxury export that pulled silver and goods into China along the Silk Roads and Indian Ocean."},
+{t:"1.1", term:"Foot binding", def:"The practice of tightly binding elite girls' feet to keep them small, spreading during the Song.", why:"Shows how Neo-Confucian ideas about female deference shaped women's lives; status symbol that limited mobility."},
+{t:"1.1", term:"Tribute system", def:"Diplomatic arrangement in which neighboring states sent gifts and acknowledged Chinese superiority in exchange for trade rights and recognition.", why:"How China managed Korea, Vietnam, and Japan without conquering them."},
+{t:"1.1", term:"Goryeo (Korea)", def:"Korean kingdom (918–1392) that adopted the Chinese civil service exam, Confucianism, Buddhism, and Chinese writing while staying independent.", why:"The cleanest example of Chinese cultural influence on a neighbor."},
+{t:"1.1", term:"Heian Japan", def:"Period (794–1185) when Japan's court borrowed Chinese writing, Buddhism, and art but never adopted the exam system; power later shifted to warrior families.", why:"Selective borrowing: Japan took Chinese culture, not Chinese government."},
+{t:"1.1", term:"Dai Viet (Vietnam)", def:"Independent Vietnamese state that used a Confucian bureaucracy and exams while keeping its own language and more rights for women.", why:"Borrowed from China and resisted China at the same time."},
+{t:"1.1", term:"Theravada Buddhism", def:"\"Way of the Elders\" — branch emphasizing monastic life and individual enlightenment; dominant in Sri Lanka and mainland Southeast Asia.", why:"One of the three branches the CED names; tied to Buddhist monasticism in Topic 1.3."},
+{t:"1.1", term:"Mahayana Buddhism", def:"\"Great Vehicle\" — branch open to laypeople, with bodhisattvas who delay nirvana to help others; dominant in China, Korea, Japan.", why:"The form of Buddhism that blended with Chinese culture and spread east."},
+{t:"1.1", term:"Tibetan Buddhism", def:"Branch blending Mahayana with local Tibetan practices; led by lamas, later including the Dalai Lama.", why:"Third CED branch; shows Buddhism adapting to each region it entered."},
+{t:"1.1", term:"Chan (Zen) Buddhism", def:"Chinese school of Buddhism stressing meditation and sudden insight; became Zen in Japan.", why:"Example of a Buddhist \"school\" — the CED says branches, schools, and practices varied."},
+// 1.2 Dar al-Islam
+{t:"1.2", term:"Dar al-Islam", def:"\"House of Islam\" — all the lands where Islam was practiced and Islamic law shaped society, from Spain to India.", why:"A cultural and legal zone, not one state. That's the point of Topic 1.2."},
+{t:"1.2", term:"Abbasid Caliphate", def:"Arab Islamic empire (750–1258) based in Baghdad whose political power fragmented long before the Mongols destroyed it.", why:"Its breakup is the cause; the new Turkic states are the effect."},
+{t:"1.2", term:"Seljuk Empire", def:"Turkic Muslim state (11th–13th c.) that took real power from the Abbasid caliphs while leaving them as figureheads; sultans ruled.", why:"First of the CED's \"new Islamic political entities dominated by Turkic peoples.\""},
+{t:"1.2", term:"Mamluk Sultanate", def:"Egyptian state (1250–1517) ruled by former enslaved Turkic soldiers who overthrew their masters, then stopped the Mongols in 1260.", why:"Shows innovation: slave soldiers became the ruling class."},
+{t:"1.2", term:"Delhi Sultanate", def:"Turkic Muslim state (1206–1526) ruling northern India; Islam became the religion of the rulers while most subjects stayed Hindu.", why:"Brings Islam into South Asia by conquest; sets up Hindu–Muslim comparisons for 1.3."},
+{t:"1.2", term:"Sultan", def:"A Muslim political ruler who held real power, as opposed to a caliph's religious authority.", why:"Vocabulary of the split between religious and political power after the Abbasids."},
+{t:"1.2", term:"Sufism", def:"Mystical branch of Islam seeking a direct, personal experience of God through prayer, music, and devotion.", why:"Sufi missionaries were flexible about local customs, which is why Islam spread so well in Africa and Asia."},
+{t:"1.2", term:"Sharia", def:"Islamic law derived from the Qur'an and the sayings of Muhammad, covering everything from prayer to trade.", why:"One legal system across Dar al-Islam made long-distance trade and travel (Ibn Battuta) possible."},
+{t:"1.2", term:"House of Wisdom", def:"Library and translation center in Abbasid Baghdad where scholars preserved Greek texts and advanced math, astronomy, and medicine.", why:"CED example of \"transfers\" — how Greek learning survived and reached Europe."},
+{t:"1.2", term:"Nasir al-Din al-Tusi", def:"Persian scholar (d. 1274) who advanced trigonometry and astronomy and built an observatory under Mongol rule.", why:"CED-named example of Islamic mathematical innovation."},
+{t:"1.2", term:"'A'ishah al-Ba'uniyyah", def:"Syrian Sufi poet and scholar (d. 1517), one of the most prolific female writers in the Islamic world.", why:"CED-named example of literary innovation — and a rare named woman on the exam."},
+{t:"1.2", term:"Al-Andalus", def:"Muslim-ruled Spain, where Muslim, Jewish, and Christian scholars exchanged texts and ideas.", why:"CED example of scholarly transfers between Muslim and Christian Spain."},
+{t:"1.2", term:"Merchants, missionaries, and Sufis", def:"The three groups the CED credits with spreading Islam after the age of conquest ended.", why:"Expansion by military force first; then by trade and persuasion. Know both phases."},
+// 1.3 South & Southeast Asia
+{t:"1.3", term:"Bhakti movement", def:"Hindu devotional movement focused on loving worship of a single god, open to all castes and to women.", why:"Like Sufism, it made religion personal and popular — and it blurred lines with Islam."},
+{t:"1.3", term:"Caste system", def:"Hereditary Hindu social hierarchy (varna and jati) determining occupation, marriage, and status.", why:"The social structure every South Asian state worked with or around."},
+{t:"1.3", term:"Buddhist monasticism", def:"Communities of monks and nuns living by religious rules; centers of learning, art, and charity in Southeast Asia and Sri Lanka.", why:"CED example of a religious practice shaping society."},
+{t:"1.3", term:"Vijayanagara Empire", def:"Hindu kingdom (1336–1646) in southern India founded by two brothers sent by the Delhi Sultanate, who returned to Hinduism and built a rival state.", why:"A Hindu state rising in response to Muslim expansion — classic comparison."},
+{t:"1.3", term:"Rajput kingdoms", def:"Hindu warrior clans ruling rival kingdoms in northern India that resisted the Delhi Sultanate.", why:"Shows decentralization: India was never one state in this period."},
+{t:"1.3", term:"Srivijaya", def:"Buddhist maritime empire on Sumatra (c. 670–1025) that grew rich taxing ships through the Strait of Malacca.", why:"Power came from controlling a trade chokepoint, not land."},
+{t:"1.3", term:"Majapahit", def:"Hindu-Buddhist kingdom on Java (1293–1527) that dominated island Southeast Asia through trade and tribute.", why:"Last great Hindu-Buddhist state before Islam spread through the islands."},
+{t:"1.3", term:"Khmer Empire", def:"Hindu, later Buddhist, kingdom (802–1431) in Cambodia that built Angkor Wat and vast irrigation works.", why:"Angkor Wat is the go-to example of religion expressed in state architecture."},
+{t:"1.3", term:"Sukhothai kingdom", def:"Early Thai kingdom (13th–15th c.) that adopted Theravada Buddhism and developed the Thai script.", why:"CED-named Buddhist state; shows Theravada's reach on the mainland."},
+{t:"1.3", term:"Sinhala dynasties", def:"Buddhist kingdoms of Sri Lanka that preserved Theravada Buddhism and its monasteries.", why:"CED-named; Sri Lanka was the Theravada heartland."},
+// 1.4 Americas
+{t:"1.4", term:"Maya city-states", def:"Independent Mesoamerican cities sharing a culture, writing, and calendar but never a single empire; classic period ended c. 900 but cities continued.", why:"CED's example of decentralized state-building in the Americas."},
+{t:"1.4", term:"Mexica (Aztec)", def:"People who founded Tenochtitlan (1325) and built an empire through alliance, conquest, and tribute.", why:"The CED uses the name Mexica. Expect it on the exam."},
+{t:"1.4", term:"Tenochtitlan", def:"Mexica capital on an island in Lake Texcoco; one of the largest cities in the world by 1500.", why:"Evidence of a sophisticated state: causeways, aqueducts, markets, temples."},
+{t:"1.4", term:"Chinampas", def:"Artificial farming islands built in shallow lake water around Tenochtitlan.", why:"Environmental innovation that fed a huge urban population."},
+{t:"1.4", term:"Aztec tribute system", def:"Conquered peoples paid goods, food, and captives to the Mexica rather than being directly governed.", why:"How the Mexica expanded \"in scope and reach\" without a bureaucracy."},
+{t:"1.4", term:"Inca Empire", def:"Andean empire (c. 1438–1533) that united 12 million people under a centralized state with a road network and state-run economy.", why:"The Americas' most centralized state — the contrast to Mexica tribute rule."},
+{t:"1.4", term:"Mit'a", def:"Inca labor tax requiring communities to contribute work to state projects — roads, terraces, mines, armies.", why:"A state that ran on labor instead of money."},
+{t:"1.4", term:"Quipu", def:"Knotted-cord record-keeping system used by the Inca to track census data, tribute, and supplies.", why:"Administration without writing — innovation on the CED's list."},
+{t:"1.4", term:"Inca road system", def:"Roughly 25,000 miles of roads with way-stations and relay runners connecting the empire across the Andes.", why:"Infrastructure is how the Inca kept power over huge distances."},
+{t:"1.4", term:"Chaco", def:"Ancestral Puebloan society in the U.S. Southwest (c. 850–1150) with massive multi-story great houses and road networks.", why:"CED-named North American state system."},
+{t:"1.4", term:"Mesa Verde", def:"Ancestral Puebloan cliff-dwelling communities in Colorado (c. 600–1300).", why:"CED-named; shows adaptation to a dry environment."},
+{t:"1.4", term:"Cahokia", def:"Largest Mississippian city (peak c. 1050–1200) near modern St. Louis, with huge earthen mounds and a trade network.", why:"CED-named; proof of complex states north of Mexico."},
+// 1.5 Africa
+{t:"1.5", term:"Swahili city-states", def:"Independent Muslim trading cities on the East African coast (Kilwa, Mombasa, Zanzibar) that blended Bantu and Arab culture.", why:"Power from trade, not territory; Swahili language = Bantu grammar + Arabic words."},
+{t:"1.5", term:"Great Zimbabwe", def:"Southern African kingdom (11th–15th c.) that controlled gold trade to the coast and built the largest stone structures in sub-Saharan Africa.", why:"CED-named; inland state that got rich from Indian Ocean trade."},
+{t:"1.5", term:"Ethiopia", def:"Christian kingdom in East Africa that stayed independent, carved churches from solid rock at Lalibela, and traded salt and goods.", why:"CED-named; the exception — Christian, not Muslim — in an Islamic trading world."},
+{t:"1.5", term:"Hausa kingdoms", def:"Independent city-states in northern Nigeria, each with its own king, that grew rich as trans-Saharan trade middlemen and adopted Islam.", why:"CED-named; decentralized like the Swahili coast."},
+{t:"1.5", term:"Mali Empire", def:"West African empire (c. 1235–1600) that controlled the gold-salt trade; Mansa Musa's 1324 hajj made its wealth famous.", why:"The big centralized African state; Timbuktu became a center of Islamic learning."},
+{t:"1.5", term:"Mansa Musa", def:"Ruler of Mali (r. 1312–1337) whose pilgrimage to Mecca spread so much gold it disrupted Egypt's economy.", why:"Shows how rulers used Islam to gain legitimacy and ties to the wider Muslim world."},
+{t:"1.5", term:"Kin-based networks", def:"Societies organized by family and clan ties rather than formal governments, common in much of Africa.", why:"Not every society was a \"state\" — a point the exam likes to test."},
+{t:"1.5", term:"Bantu", def:"Language family and migrating peoples whose spread over centuries carried farming, iron, and common culture across sub-Saharan Africa.", why:"Background for why Swahili and many African societies share roots."},
+// 1.6 Europe
+{t:"1.6", term:"Feudalism", def:"Political system in which lords granted land (fiefs) to vassals in exchange for military service and loyalty.", why:"Why Europe had no strong central states: power was traded for land, piece by piece."},
+{t:"1.6", term:"Manorialism", def:"Economic system in which a lord's self-sufficient estate (manor) was worked by peasants and serfs in return for protection.", why:"The economic side of feudalism — and the opposite of commercial Song China."},
+{t:"1.6", term:"Serfdom", def:"Condition of peasants legally bound to the land they farmed; not enslaved, but not free to leave.", why:"The coerced labor the CED names for Europe (KC-3.3.III.C)."},
+{t:"1.6", term:"Decentralized monarchy", def:"A king who ruled in name but shared real power with nobles who controlled their own lands and armies.", why:"The CED's phrase for European government before 1450."},
+{t:"1.6", term:"Roman Catholic Church", def:"The dominant institution of Western Europe — the one authority that crossed every kingdom, with its own courts, taxes, and Latin learning.", why:"Unity came from religion, not from kings."},
+{t:"1.6", term:"Eastern Orthodox Christianity", def:"The branch of Christianity centered on Constantinople and the Byzantine Empire, separate from Rome after the 1054 schism.", why:"Explains the religious map of Eastern Europe and Russia."},
+{t:"1.6", term:"Byzantine Empire", def:"The surviving eastern half of the Roman Empire, centralized under an emperor, Orthodox Christian, until 1453.", why:"Europe's one centralized state in this period — and a Unit 3 bridge when it falls."},
+{t:"1.6", term:"Crusades", def:"Series of Christian military campaigns (1095–1291) to take the Holy Land from Muslim rule.", why:"Brought Europeans into contact with Islamic learning and luxury goods — a cause of later exploration."},
+{t:"1.6", term:"Three-field system", def:"Rotating crops across three fields, leaving one fallow, to raise yields.", why:"Agricultural innovation behind Europe's population growth before the plague."},
+{t:"1.6", term:"Antisemitism in medieval Europe", def:"Hostility toward Jews, including legal restrictions, violence, and expulsions (England 1290, France 1306, Spain 1492).", why:"The CED says Christianity, Judaism, and Islam shaped Europe — including through conflict."},
+],
+states: [
+{t:"1.1", name:"Song Dynasty", region:"China", dates:"960–1279", gained:"Reunified China after the Tang collapse; ruled through Confucian legitimacy and the Mandate of Heaven.", kept:"Massive imperial bureaucracy staffed by exam-selected scholars; Neo-Confucian ideology; a professional army.", known:"Commercial revolution — Champa rice, Grand Canal, paper money, iron and steel, porcelain and silk exports.", end:"Conquered by the Mongols (Yuan Dynasty) in 1279."},
+{t:"1.2", name:"Abbasid Caliphate", region:"Middle East (Baghdad)", dates:"750–1258", gained:"Overthrew the Umayyads; claimed religious authority as caliphs.", kept:"Persian-style bureaucracy; patronage of learning (House of Wisdom); Islamic law.", known:"Golden age of science and translation; political power drained away to Turkic sultans long before 1258.", end:"Baghdad sacked by the Mongols, 1258."},
+{t:"1.2", name:"Seljuk Empire", region:"Persia & Anatolia", dates:"c. 1037–1194", gained:"Turkic nomads converted to Islam, then conquered Persia and took Baghdad as the caliph's \"protectors.\"", kept:"Sultan held military and political power; caliph kept religious title; Persian administrators ran the state.", known:"Defeated the Byzantines at Manzikert (1071), opening Anatolia to Turks and provoking the Crusades.", end:"Fragmented into smaller sultanates; later displaced by Mongols and Ottomans."},
+{t:"1.2", name:"Mamluk Sultanate", region:"Egypt & Syria", dates:"1250–1517", gained:"Enslaved Turkic soldiers (mamluks) seized power from their Ayyubid masters.", kept:"Military elite recruited from new enslaved boys each generation; control of Red Sea trade.", known:"Stopped the Mongol advance at Ain Jalut (1260); protected Mecca and Medina.", end:"Conquered by the Ottomans in 1517."},
+{t:"1.2", name:"Delhi Sultanate", region:"Northern India", dates:"1206–1526", gained:"Turkic and Afghan Muslim warriors conquered the Hindu kingdoms of the north.", kept:"Islamic state with a Persian-style court; taxed the Hindu majority (jizya) rather than converting it; repelled Mongol invasions.", known:"Brought Islam to South Asia; Indo-Islamic architecture; constant conflict with Rajputs and Vijayanagara.", end:"Defeated by Babur at Panipat (1526) — the Mughals replaced it."},
+{t:"1.3", name:"Vijayanagara Empire", region:"Southern India", dates:"1336–1646", gained:"Two brothers sent by Delhi to govern the south converted back to Hinduism and founded their own kingdom.", kept:"Hindu kingship and temple patronage; strong military; control of the south's trade ports.", known:"The \"City of Victory\" capital with its huge temples; the Hindu counterweight to the Delhi Sultanate.", end:"Crushed by an alliance of Deccan sultanates at Talikota (1565); declined after."},
+{t:"1.3", name:"Rajput kingdoms", region:"Northwest India", dates:"c. 7th–16th c.", gained:"Hindu warrior clans claiming kshatriya status carved out rival kingdoms.", kept:"Clan loyalty, fortress cities, a warrior code of honor.", known:"Held out against the Delhi Sultanate for centuries; never united with each other.", end:"Many were eventually absorbed by the Mughals."},
+{t:"1.3", name:"Srivijaya", region:"Sumatra (Indonesia)", dates:"c. 670–1025", gained:"Controlled the Strait of Malacca — every ship between India and China paid.", kept:"Naval power and tribute from ports; Buddhist patronage gave rulers prestige.", known:"Center of Buddhist learning; a sea-based (thalassocratic) empire.", end:"Weakened by Chola naval raids from India (1025)."},
+{t:"1.3", name:"Khmer Empire", region:"Cambodia", dates:"802–1431", gained:"Kings claimed divine status (devaraja) in the Hindu tradition.", kept:"Enormous irrigation and reservoir system fed rice to a large population; temple-building displayed royal power.", known:"Angkor Wat — built as a Hindu temple, later Buddhist — the largest religious monument on Earth.", end:"Sacked by the Thai (Ayutthaya) in 1431; capital abandoned."},
+{t:"1.3", name:"Majapahit", region:"Java (Indonesia)", dates:"1293–1527", gained:"Defeated a Mongol expedition and rival Javanese states.", kept:"Tribute from ports across the islands; Hindu-Buddhist royal culture.", known:"Last great Hindu-Buddhist empire of Southeast Asia before Islam spread through the islands.", end:"Declined as Muslim sultanates (Malacca, Demak) took over trade."},
+{t:"1.3", name:"Sukhothai kingdom", region:"Thailand", dates:"1238–1438", gained:"Thai peoples broke from Khmer control.", kept:"Theravada Buddhism as state religion; a paternal, accessible style of kingship.", known:"Thai script; Theravada's mainland base.", end:"Absorbed by the Ayutthaya kingdom."},
+{t:"1.4", name:"Maya city-states", region:"Mesoamerica (Yucatán, Guatemala)", dates:"c. 250–1500s (classic peak to c. 900)", gained:"Independent kings ruled individual cities; no single empire.", kept:"Religious authority of rulers; warfare and tribute between cities; shared writing, calendar, and astronomy.", known:"Writing, the zero, pyramids; cities like Chichén Itzá still active when the Spanish arrived.", end:"Classic cities collapsed c. 900 (drought, war); northern cities lasted until Spanish conquest."},
+{t:"1.4", name:"Mexica (Aztec) Empire", region:"Central Mexico", dates:"1325–1521", gained:"Founded Tenochtitlan on Lake Texcoco; built the Triple Alliance and conquered neighbors.", kept:"Tribute system — conquered peoples paid goods and captives; human sacrifice tied religion to war; local rulers left in place.", known:"Tenochtitlan's causeways, chinampas, and markets; a loosely controlled empire that bred resentment.", end:"Conquered by Cortés and indigenous allies, 1521."},
+{t:"1.4", name:"Inca Empire", region:"Andes (Peru to Chile)", dates:"c. 1438–1533", gained:"Pachacuti's conquests expanded a small kingdom into the largest empire in the Americas.", kept:"Highly centralized: mit'a labor tax, quipu records, a state religion of the sun, 25,000 miles of roads, forced resettlement of conquered peoples.", known:"Machu Picchu, terrace farming, no money and no writing — and still ran 12 million people.", end:"Civil war plus smallpox, then Pizarro's conquest, 1532–1533."},
+{t:"1.4", name:"Cahokia, Chaco & Mesa Verde", region:"North America", dates:"c. 850–1350", gained:"Farming surpluses (maize) supported large settlements with ruling elites.", kept:"Religious ceremony, trade networks, and monumental building — mounds at Cahokia, great houses at Chaco, cliff dwellings at Mesa Verde.", known:"Proof of complex societies north of Mexico; Cahokia was larger than London in 1100.", end:"All declined by c. 1350, likely from drought and resource strain."},
+{t:"1.5", name:"Mali Empire", region:"West Africa", dates:"c. 1235–1600", gained:"Sundiata united the Mande peoples and took over Ghana's gold-salt trade.", kept:"Control of trans-Saharan trade; Islam as a link to Muslim merchants and legitimacy; provincial governors.", known:"Mansa Musa's hajj (1324); Timbuktu's mosques and scholars.", end:"Lost territory to Songhai in the 1400s."},
+{t:"1.5", name:"Swahili city-states", region:"East African coast", dates:"c. 1000–1500", gained:"Location — the African end of Indian Ocean trade.", kept:"Each city independent under its own merchant elite; Islam and Arabic connected them to trading partners.", known:"Kilwa's stone city; gold, ivory, and enslaved people out, porcelain and cloth in; the Swahili language.", end:"Portuguese attacks after 1498 broke their trade monopoly."},
+{t:"1.5", name:"Great Zimbabwe", region:"Southern Africa", dates:"c. 1100–1450", gained:"Controlled the gold fields and cattle of the interior and the routes to the Swahili coast.", kept:"A king in a massive stone enclosure — the largest pre-colonial structure in sub-Saharan Africa.", known:"Inland state made rich by a trade network it never sailed on.", end:"Abandoned c. 1450, probably from overgrazing and shifting trade routes."},
+{t:"1.5", name:"Ethiopia", region:"East Africa (highlands)", dates:"c. 1270–modern", gained:"The Solomonic dynasty claimed descent from King Solomon and the Queen of Sheba.", kept:"Christian monarchy backed by the church; rock-hewn churches at Lalibela as displays of royal piety.", known:"A Christian kingdom surrounded by Muslim states; traded salt and goods across the Red Sea.", end:"Survived — one of the few African states never colonized in the long run."},
+{t:"1.5", name:"Hausa kingdoms", region:"Northern Nigeria", dates:"c. 1000–1800", gained:"Walled city-states grew at the southern end of trans-Saharan routes.", kept:"Each had its own king; Islam adopted by rulers for trade ties and administration.", known:"Middlemen in the gold and salt trade; textiles and leather.", end:"Conquered by the Sokoto Caliphate in the early 1800s."},
+{t:"1.6", name:"Byzantine Empire", region:"Eastern Mediterranean", dates:"330–1453", gained:"Inherited the eastern Roman Empire with its capital at Constantinople.", kept:"Centralized emperor, Roman law, Orthodox Church tied to the state, strong walls and navy.", known:"Preserved Greek and Roman learning; spread Orthodox Christianity to Russia.", end:"Constantinople fell to the Ottomans in 1453 — the end of the period."},
+{t:"1.6", name:"Feudal kingdoms of Western Europe", region:"France, England, Holy Roman Empire", dates:"c. 900–1450", gained:"Kings relied on nobles who held land in exchange for military service.", kept:"Feudal loyalty, manorial economy, and the Catholic Church's authority; kings slowly strengthened royal courts and taxes.", known:"Decentralized monarchies; Magna Carta (1215) limited the English king; constant wars between nobles and crowns.", end:"By 1450 kings in France and England were centralizing power — the start of Unit 3's state-building."},
+],
+timeline: [
+{y:"1054", e:"Great Schism splits Christianity", reg:"Europe", t:"1.6", why:"Roman Catholic (west) vs. Eastern Orthodox (east). Explains Europe's religious map for the rest of the course."},
+{y:"1071", e:"Seljuks defeat Byzantines at Manzikert", reg:"Anatolia", t:"1.2", why:"Opened Anatolia to Turkic settlement and triggered the Byzantine call for help that became the Crusades."},
+{y:"1095", e:"First Crusade launched", reg:"Europe / Middle East", t:"1.6", why:"Two centuries of Christian–Muslim contact that brought Islamic learning and goods into Europe."},
+{y:"1206", e:"Delhi Sultanate founded", reg:"South Asia", t:"1.2", why:"Turkic Muslim rule begins in northern India — Islam arrives in South Asia as a ruling religion."},
+{y:"1215", e:"Magna Carta", reg:"England", t:"1.6", why:"Nobles force the king to accept limits — a snapshot of how decentralized European monarchy was."},
+{y:"1235", e:"Sundiata founds the Mali Empire", reg:"West Africa", t:"1.5", why:"A centralized African state built on trans-Saharan gold."},
+{y:"1250", e:"Mamluk Sultanate takes Egypt", reg:"Egypt", t:"1.2", why:"Enslaved soldiers become rulers — innovation in Islamic state-building."},
+{y:"1258", e:"Mongols sack Baghdad; Abbasid Caliphate ends", reg:"Middle East", t:"1.2", why:"The symbolic end of Arab political leadership in Dar al-Islam; Turkic and Mongol states take over."},
+{y:"1279", e:"Song Dynasty falls to the Mongols", reg:"East Asia", t:"1.1", why:"End of the Song commercial golden age; China becomes part of the Mongol world (Unit 2)."},
+{y:"1293", e:"Majapahit founded on Java", reg:"Southeast Asia", t:"1.3", why:"The last great Hindu-Buddhist sea empire before Islam spreads through the islands."},
+{y:"1324", e:"Mansa Musa's hajj to Mecca", reg:"West Africa / Egypt", t:"1.5", why:"Put Mali's wealth on the world's maps — literally (the 1375 Catalan Atlas)."},
+{y:"1325", e:"Tenochtitlan founded", reg:"Mesoamerica", t:"1.4", why:"Start of the Mexica rise from island settlement to tribute empire."},
+{y:"1336", e:"Vijayanagara Empire founded", reg:"South Asia", t:"1.3", why:"A Hindu state rises in the south as a direct response to the Delhi Sultanate."},
+{y:"1347", e:"Black Death reaches Europe", reg:"Afro-Eurasia", t:"1.6", why:"Kills a third of Europe; labor shortages weaken serfdom and manorialism (Unit 2 link)."},
+{y:"1368", e:"Ming Dynasty founded", reg:"East Asia", t:"1.1", why:"Chinese rule restored after the Mongols; Confucian exams and bureaucracy come back stronger."},
+{y:"1438", e:"Pachacuti begins Inca expansion", reg:"Andes", t:"1.4", why:"A small highland kingdom becomes the largest empire in the Americas in one generation."},
+{y:"1453", e:"Ottomans capture Constantinople", reg:"Eastern Mediterranean", t:"1.6", why:"End of the Byzantine Empire and the end of this period — Unit 3 begins."},
+],
+developments: [
+{id:"1.1", title:"Developments in East Asia", themes:"GOV · CDI · ECN",
+los:["A — Explain the systems of government employed by Chinese dynasties and how they developed over time.","B — Explain the effects of Chinese cultural traditions on East Asia over time.","C — Explain the effects of innovation on the Chinese economy over time."],
+kcs:[
+{code:"KC-3.2.I.A", official:"Empires and states in Afro-Eurasia and the Americas demonstrated continuity, innovation, and diversity in the 13th century. This included the Song Dynasty of China, which utilized traditional methods of Confucianism and an imperial bureaucracy to maintain and justify its rule.", plain:"The Song kept power the old way: Confucian ideas said the emperor deserved to rule, and a huge exam-selected bureaucracy did the ruling."},
+{code:"KC-3.1.III.D.i", official:"Chinese cultural traditions continued, and they influenced neighboring regions.", plain:"Confucianism, Chinese writing, and Buddhism spread to Korea, Japan, and Vietnam — each took what it wanted."},
+{code:"KC-3.1.III.D.ii", official:"Buddhism and its core beliefs continued to shape societies in Asia and included a variety of branches, schools, and practices.", plain:"Buddhism wasn't one thing: Theravada, Mahayana, Tibetan, and schools like Chan/Zen each shaped a different region."},
+{code:"KC-3.3.III.A.i", official:"The economy of Song China became increasingly commercialized while continuing to depend on free peasant and artisanal labor.", plain:"More buying, selling, and money — but the work was still done by free farmers and craftspeople, not enslaved people or serfs."},
+{code:"KC-3.1.I.D", official:"The economy of Song China flourished as a result of increased productive capacity, expanding trade networks, and innovations in agriculture and manufacturing.", plain:"Champa rice, the Grand Canal, iron and steel, porcelain and silk — more food, more goods, more trade, more people."},
+],
+ex:["Filial piety","Neo-Confucianism","Confucian deference of women","Chinese scholarship in Heian Japan and Korea","Theravada","Mahayana","Tibetan Buddhism","Champa rice","Grand Canal expansion","Steel and iron","Textiles and porcelain for export"]},
+{id:"1.2", title:"Developments in Dar al-Islam", themes:"CDI · GOV · TEC",
+los:["D — Explain how systems of belief and their practices affected society in the period from c. 1200 to c. 1450.","E — Explain the causes and effects of the rise of Islamic states over time.","F — Explain the effects of intellectual innovation in Dar al-Islam."],
+kcs:[
+{code:"KC-3.1.III.D.iii", official:"Islam, Judaism, Christianity, and the core beliefs and practices of these religions continued to shape societies in Africa and Asia.", plain:"All three Abrahamic faiths lived inside Dar al-Islam and shaped daily life, law, and learning."},
+{code:"KC-3.2.I", official:"As the Abbasid Caliphate fragmented, new Islamic political entities emerged, most of which were dominated by Turkic peoples. These states demonstrated continuity, innovation, and diversity.", plain:"The Arab caliphate broke apart; Turkic-led states (Seljuks, Mamluks, Delhi) took its place — same religion and law, new rulers and methods."},
+{code:"KC-3.1.III.A", official:"Muslim rule continued to expand to many parts of Afro-Eurasia due to military expansion, and Islam subsequently expanded through the activities of merchants, missionaries, and Sufis.", plain:"First conquest spread Muslim rule; then trade and Sufi missionaries spread the faith itself, peacefully, into Africa and Asia."},
+{code:"KC-3.2.II.A.i", official:"Muslim states and empires encouraged significant intellectual innovations and transfers.", plain:"Muslim rulers paid for science, math, medicine, and literature — and preserved Greek learning that Europe later re-imported."},
+],
+ex:["Seljuk Empire","Mamluk sultanate of Egypt","Delhi sultanates","Nasir al-Din al-Tusi (mathematics)","'A'ishah al-Ba'uniyyah (literature)","Advances in medicine","Greek philosophy preserved","House of Wisdom","Muslim and Christian Spain"]},
+{id:"1.3", title:"Developments in South & Southeast Asia", themes:"CDI · GOV",
+los:["G — Explain how the various belief systems and practices of South and Southeast Asia affected society over time.","H — Explain how and why various states of South and Southeast Asia developed and maintained power over time."],
+kcs:[
+{code:"KC-3.1.III.D.iv", official:"Hinduism, Islam, and Buddhism, and their core beliefs and practices, continued to shape societies in South and Southeast Asia.", plain:"Three religions, often in the same place: Hindu caste and Bhakti devotion, Muslim rulers in the north, Buddhist monasteries on the mainland and islands."},
+{code:"KC-3.2.I.B.i", official:"State formation and development demonstrated continuity, innovation, and diversity, including the new Hindu and Buddhist states that emerged in South and Southeast Asia.", plain:"Lots of states, lots of ways to rule: sea empires taxing trade (Srivijaya, Majapahit), temple kingdoms (Khmer), Hindu resistance states (Vijayanagara, Rajputs)."},
+],
+ex:["Bhakti movement","Sufism","Buddhist monasticism","Vijayanagara Empire","Srivijaya Empire","Rajput kingdoms","Khmer Empire","Majapahit","Sukhothai kingdom","Sinhala dynasties"]},
+{id:"1.4", title:"State Building in the Americas", themes:"GOV",
+los:["I — Explain how and why states in the Americas developed and changed over time."],
+kcs:[
+{code:"KC-3.2.I.D.i", official:"In the Americas, as in Afro-Eurasia, state systems demonstrated continuity, innovation, and diversity, and expanded in scope and reach.", plain:"American states were as varied as anywhere: Maya city-states, the Mexica tribute empire, the centralized Inca, and the mound and cliff societies of North America — and they were growing."},
+],
+ex:["Maya city-states","Mexica","Inca","Chaco","Mesa Verde","Cahokia"]},
+{id:"1.5", title:"State Building in Africa", themes:"GOV",
+los:["J — Explain how and why states in Africa developed and changed over time."],
+kcs:[
+{code:"KC-3.2.I.D.ii", official:"In Africa, as in Eurasia and the Americas, state systems demonstrated continuity, innovation, and diversity and expanded in scope and reach.", plain:"Trade built African states: Swahili cities and Great Zimbabwe on Indian Ocean gold, Mali and the Hausa on trans-Saharan gold and salt — plus Christian Ethiopia as the exception."},
+],
+ex:["Great Zimbabwe","Ethiopia","Hausa kingdoms"]},
+{id:"1.6", title:"Developments in Europe", themes:"CDI · GOV · SIO",
+los:["K — Explain how the beliefs and practices of the predominant religions in Europe affected European society.","L — Explain the causes and consequences of political decentralization in Europe from c. 1200 to c. 1450.","M — Explain the effects of agriculture on social organization in Europe from c. 1200 to c. 1450."],
+kcs:[
+{code:"KC-3.1.III.D.v", official:"Christianity, Judaism, Islam, and the core beliefs and practices of these religions continued to shape societies in Europe.", plain:"The Catholic Church was the one institution every European shared; Jews and Muslims lived in Europe too, often under restriction."},
+{code:"KC-3.2.I.B.ii", official:"Europe was politically fragmented and characterized by decentralized monarchies, feudalism, and the manorial system.", plain:"No strong central governments: kings shared power with nobles, who held land in exchange for soldiers."},
+{code:"KC-3.3.III.C", official:"Europe was largely an agricultural society dependent on free and coerced labor, including serfdom.", plain:"Most Europeans farmed a lord's land; serfs were tied to it. Compare that to Song China's free peasants."},
+],
+ex:["Feudalism","Manorialism","Serfdom","Decentralized monarchies","Roman Catholic Church"]},
+{id:"1.7", title:"Comparison in the Period", themes:"Argumentation (6.A)",
+los:["N — Explain the similarities and differences in the processes of state formation from c. 1200 to c. 1450."],
+kcs:[
+{code:"KC-3.2", official:"State formation and development demonstrated continuity, innovation, and diversity in various regions.", plain:"The unit's thesis: every region built states, but they used different tools — religion, bureaucracy, trade, tribute, or feudal loyalty. Your LEQ job is to compare those tools."},
+],
+ex:["Song bureaucracy vs. feudal Europe","Mexica tribute vs. Inca centralization","Trade states (Swahili, Srivijaya) vs. land empires","Islam as a state-building tool in Mali and Delhi"]},
+],
+context: [
+{topic:"State building (any region)", before:"Before 1200, classical empires such as Han China, Gupta India, Rome, and the Abbasid Caliphate had shown how a centralized state with a bureaucracy and a shared religion could hold a large territory.", during:"During 1200–1450, new and surviving states across Afro-Eurasia and the Americas used a mix of those old tools and new ones — Confucian exams in Song China, Islam in Mali and Delhi, tribute in the Mexica Empire — to gain and keep power."},
+{topic:"Song China and the economy", before:"Before the Song, the Tang Dynasty had reunified China and restored the Confucian exam system after centuries of division.", during:"During the Song period, Champa rice, the Grand Canal, and iron and porcelain production created a commercial revolution that doubled China's population and made it the richest economy in the world."},
+{topic:"Dar al-Islam", before:"Before 1200, the Abbasid Caliphate had unified much of the Islamic world politically and sponsored a golden age of science and learning in Baghdad.", during:"During 1200–1450, as the Abbasids fragmented and fell to the Mongols, Turkic-led states such as the Seljuks, Mamluks, and Delhi Sultanate took power while Islam kept spreading through merchants, missionaries, and Sufis."},
+{topic:"Religion shaping society", before:"Before 1200, Buddhism, Hinduism, Christianity, and Islam had each spread far beyond their birthplaces through trade, conquest, and missionaries.", during:"During 1200–1450, these religions continued to shape law, learning, and daily life — from Neo-Confucian China and Bhakti India to the Catholic Church in feudal Europe."},
+{topic:"Europe's decentralization", before:"Before 1200, the collapse of the Western Roman Empire had left Europe without a strong central authority, and feudal lords filled the gap.", during:"During 1200–1450, Europe remained a patchwork of decentralized monarchies bound together mainly by the Roman Catholic Church and a manorial economy worked by serfs."},
+{topic:"The Americas", before:"Before 1200, Mesoamerican and Andean societies such as the Maya and earlier Andean states had developed cities, writing or record-keeping, and intensive agriculture.", during:"During 1200–1450, the Mexica built a tribute empire from Tenochtitlan and the Inca created the most centralized state in the Americas, while North American societies like Cahokia declined."},
+],
+};
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let activeTopic = "all", query = "";
+const state = { quiz:false, hideFronts:false, onlyMissed:false, marks:{} };
+try { Object.assign(state.marks, JSON.parse(localStorage.getItem("apwh-u"+UNIT.number+"-marks")||"{}")); } catch(e){}
+function saveMarks(){ try{ localStorage.setItem("apwh-u"+UNIT.number+"-marks", JSON.stringify(state.marks)); }catch(e){} }
+// hero
+$("#unitLede").textContent = UNIT.lede;
+$("#unitStats").innerHTML = UNIT.stats.map(([b,l]) => `<div class="stat"><b>${esc(b)}</b><span>${esc(l)}</span></div>`).join("");
+$("#topicList").innerHTML = UNIT.topics.map(t => `<div class="topic-row"><span class="num">${esc(t.id)}</span><span>${esc(t.title)}</span><span class="theme">${esc(t.themes)}</span></div>`).join("");
+// chips
+const chipsEl = $("#chips");
+chipsEl.innerHTML = [`<button class="chip on" data-t="all">All topics</button>`].concat(
+UNIT.topics.filter(t => !t.review).map(t => `<button class="chip" data-t="${t.id}">${t.id} ${esc(t.title.replace(/^(Developments in|State Building in) /,""))}</button>`)).join("");
+chipsEl.addEventListener("click", e => {
+const b = e.target.closest(".chip"); if(!b) return;
+$$(".chip").forEach(c => c.classList.toggle("on", c === b));
+activeTopic = b.dataset.t; applyFilter();
+});
+$("#search").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); applyFilter(); });
+// cards
+const topicName = id => (UNIT.topics.find(t => t.id === id) || {title:""}).title.replace(/^(Developments in|State Building in) /,"");
+function vocabCard(v, i){
+return `<div class="card" data-t="${v.t}" data-key="v${i}" data-text="${esc((v.term+" "+v.def).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(v.term)} — flip card">
+<div class="face front"><span class="tag">${v.t} · ${esc(topicName(v.t))}</span><div class="term">${esc(v.term)}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${v.t} · definition</span><div class="term">${esc(v.term)}</div><div class="def">${esc(v.def)}</div><div class="why"><b>Why it matters:</b> ${esc(v.why)}</div></div>
+</button>
+<div class="mark"><button class="got" data-m="got">✓ Got it</button><button class="miss" data-m="miss">✗ Missed</button></div></div>`;
+}
+const SF = Object.assign({gained:"Gained power", kept:"Kept power", known:"Known for", end:"End", cue:"Before you flip — how did it <b>gain</b> power, how did it <b>keep</b> it, and what is it <b>known for</b>?"}, UNIT.stateFields || {});
+if (UNIT.statesLabel) { $("#statesH").textContent = UNIT.statesLabel; $('.bar a[href="#states"]').textContent = UNIT.statesLabel; }
+if (UNIT.statesBlurb) $("#statesP").textContent = UNIT.statesBlurb;
+function stateCard(s, i){
+return `<div class="card" data-t="${s.t}" data-key="s${i}" data-text="${esc((s.name+" "+s.region+" "+s.known).toLowerCase())}">
+<button class="card-inner" aria-pressed="false" aria-label="${esc(s.name)} — flip card">
+<div class="face front"><span class="tag">${s.t} · ${esc(s.region)}</span><div class="term">${esc(s.name)}</div><div class="sub">${esc(s.dates)}</div><div class="cue">${SF.cue}</div><span class="hint">Tap to flip</span></div>
+<div class="face back"><span class="tag">${esc(s.region)} · ${esc(s.dates)}</span><div class="term">${esc(s.name)}</div>
+<p class="kv"><b>${SF.gained}:</b> ${esc(s.gained)}</p><p class="kv"><b>${SF.kept}:</b> ${esc(s.kept)}</p><p class="kv"><b>${SF.known}:</b> ${esc(s.known)}</p><p class="kv"><b>${SF.end}:</b> ${esc(s.end)}</p></div>
+</button></div>`;
+}
+let vocabOrder = UNIT.vocab.map((v,i) => i);
+function renderVocab(){ $("#vocabGrid").innerHTML = vocabOrder.map(i => vocabCard(UNIT.vocab[i], i)).join(""); paintMarks(); applyFilter(); }
+renderVocab();
+$("#stateGrid").innerHTML = UNIT.states.map(stateCard).join("");
+document.addEventListener("click", e => {
+const m = e.target.closest(".mark button");
+if (m){ const card = m.closest(".card"); const k = card.dataset.key; state.marks[k] = (state.marks[k] === m.dataset.m) ? null : m.dataset.m; saveMarks(); paintMarks(); applyFilter(); return; }
+const inner = e.target.closest(".card-inner");
+if (inner){ const card = inner.closest(".card"); card.classList.toggle("flipped"); inner.setAttribute("aria-pressed", card.classList.contains("flipped")); }
+});
+function paintMarks(){
+let got = 0, miss = 0;
+$$("#vocabGrid .card").forEach(c => { const m = state.marks[c.dataset.key]; c.classList.toggle("got", m === "got"); c.classList.toggle("miss", m === "miss"); if (m === "got") got++; if (m === "miss") miss++; });
+$("#gotN").textContent = got + " got it"; $("#missN").textContent = miss + " missed";
+}
+$("#shuffleVocab").onclick = () => { for (let i = vocabOrder.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [vocabOrder[i], vocabOrder[j]] = [vocabOrder[j], vocabOrder[i]]; } renderVocab(); };
+function flipAll(sel){ const cards = $$(sel + " .card:not(.hidden)"); const anyUn = cards.some(c => !c.classList.contains("flipped")); cards.forEach(c => { c.classList.toggle("flipped", anyUn); c.querySelector(".card-inner").setAttribute("aria-pressed", anyUn); }); }
+$("#flipAllVocab").onclick = () => flipAll("#vocabGrid");
+$("#flipAllStates").onclick = () => flipAll("#stateGrid");
+$("#quizBtn").onclick = () => { state.quiz = !state.quiz; $("#vocab").classList.toggle("quiz", state.quiz); $("#quizBtn").classList.toggle("on", state.quiz); $("#quizBtn").textContent = state.quiz ? "Exit quiz" : "Quiz me"; if(!state.quiz){ state.onlyMissed=false; $("#onlyMissed").classList.remove("on"); state.hideFronts=false; $("#vocab").classList.remove("hide-fronts"); $("#hideFronts").classList.remove("on"); } applyFilter(); };
+$("#hideFronts").onclick = () => { state.hideFronts = !state.hideFronts; $("#vocab").classList.toggle("hide-fronts", state.hideFronts); $("#hideFronts").classList.toggle("on", state.hideFronts); $("#hideFronts").textContent = state.hideFronts ? "Show terms" : "Hide terms"; $$("#vocabGrid .card").forEach(c => c.classList.remove("flipped")); };
+$("#onlyMissed").onclick = () => { state.onlyMissed = !state.onlyMissed; $("#onlyMissed").classList.toggle("on", state.onlyMissed); applyFilter(); };
+$("#resetQuiz").onclick = () => { state.marks = {}; saveMarks(); paintMarks(); applyFilter(); };
+// timeline
+$("#rail").innerHTML = UNIT.timeline.map((d, i) => `<li data-t="${d.t}" data-text="${esc((d.y+" "+d.e+" "+d.reg).toLowerCase())}"><button class="year" aria-expanded="false"><div class="dot"></div><div class="y">${esc(d.y)}</div><div class="e">${esc(d.e)}</div><div class="reg">${esc(d.reg)} · ${d.t}</div><div class="more">${esc(d.why)}</div></button></li>`).join("");
+$("#rail").addEventListener("click", e => { const b = e.target.closest(".year"); if(!b) return; b.classList.toggle("open"); b.setAttribute("aria-expanded", b.classList.contains("open")); });
+// developments
+$("#devList").innerHTML = UNIT.developments.map(d => `<details class="dev" data-t="${d.id}" data-text="${esc((d.title+" "+d.kcs.map(k=>k.official+" "+k.plain).join(" ")+" "+d.ex.join(" ")).toLowerCase())}">
+<summary><span class="num">${d.id}</span><span><div class="ttl">${esc(d.title)}</div><div class="themes">${esc(d.themes)}</div></span><span class="arrow">+</span></summary>
+<div class="body">
+<div class="lo"><b>Learning objective${d.los.length>1?"s":""}:</b> ${d.los.map(esc).join(" &nbsp;·&nbsp; ")}</div>
+${d.kcs.map(k => `<div class="kc"><div class="code">${esc(k.code)}</div><div class="official">${esc(k.official)}</div><div class="plain"><b>In plain English:</b> ${esc(k.plain)}</div></div>`).join("")}
+<div><div class="tag" style="margin-bottom:6px">Illustrative examples</div><div class="ex">${d.ex.map(x => `<span>${esc(x)}</span>`).join("")}</div></div>
+</div></details>`).join("");
+$("#openAllDev").onclick = () => { const devs = $$(".dev:not(.hidden)"); const anyClosed = devs.some(d => !d.open); devs.forEach(d => d.open = anyClosed); $("#openAllDev").textContent = anyClosed ? "Close all" : "Open all"; };
+// context
+$("#ctxList").innerHTML = UNIT.context.map(c => `<div class="c"><h3>${esc(c.topic)}</h3><p><b>Before</b> ${esc(c.before)}</p><p><b>During</b> ${esc(c.during)}</p></div>`).join("");
+// filter
+function applyFilter(){
+const match = el => (activeTopic === "all" || el.dataset.t === activeTopic) && (!query || el.dataset.text.includes(query));
+$$("#vocabGrid .card").forEach(c => { let ok = match(c); if (state.quiz && state.onlyMissed) ok = ok && state.marks[c.dataset.key] === "miss"; c.classList.toggle("hidden", !ok); });
+$$("#stateGrid .card").forEach(c => c.classList.toggle("hidden", !match(c)));
+$$("#rail li").forEach(li => li.classList.toggle("hidden", !match(li)));
+$$(".dev").forEach(d => d.classList.toggle("hidden", !match(d)));
+const n = $$("#vocabGrid .card:not(.hidden)").length, s = $$("#stateGrid .card:not(.hidden)").length;
+$("#cardCount").textContent = `${n} terms · ${s} ${UNIT.countLabel || "states"}`;
+}
+applyFilter();
+// nav: scroll inside #app (Google Sites full-page embeds disable frame scrolling)
+$$(".bar a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); const el = $(a.getAttribute("href")); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }));
+// nav highlight
+const links = $$(".bar a"); const secs = links.map(a => $(a.getAttribute("href")));
+const io = new IntersectionObserver(entries => { entries.forEach(en => { if (en.isIntersecting){ links.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id)); } }); }, { rootMargin: "-40% 0px -55% 0px" });
+secs.forEach(s => io.observe(s));
+</script>
+<style id="dm-css">
+html.dm{color-scheme:dark;--bg:#0E1230;--bg-2:#141A3E;--surface:#171D47;--surface-2:#1F2656;--paper:#1A2050;--line:#2D3572;--line-2:#3C458C;--ink:#EEF0FA;--ink-2:#C6CBE8;--muted:#A3AACF;--title:#F1E4B8;--gold-ink:#E6CB73;--gold-deep:#E6CB73;--gold-soft:#3A3112;--accent:#E07C88;--accent-soft:#3D1E24;--asoft:#3D1E24;--good:#4CC777;--good-soft:#173A24;--bad:#F07167;--bad-soft:#44201C;--green:#4CC777;--green-l:#173A24;--green-b:#2B6A3F;--red:#F07167;--red-l:#44201C;--red-b:#7A3530;--yellow:#F2C94C;--yellow-l:#3B3110;--yellow-b:#7A6A24;--blue:#7FB3F0;--blue-l:#17304F;--plum:#C9A6F0;--plum-l:#2F2246;--tT:#7FB3F0;--tE:#F0A36A;--tA:#C9A6F0;--tO:#4CC777;--shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px -6px rgba(0,0,0,.55);--shadow-lift:0 2px 4px rgba(0,0,0,.35),0 18px 40px -14px rgba(0,0,0,.7);--dm-card:var(--surface);--dm-ink:var(--ink);--dm-line:var(--line);--dm-tg-bg:#171D47;--dm-tg-fg:#E3C464;--dm-tg-b:#3C458C;--dm-tg-font:Arial,Helvetica,sans-serif}
+:where(html.dm) .chip:hover{border-color:#1E2761}
+:where(html.dm) .card.got .mark .got{border-color:#1B7F3B}
+:where(html.dm) .period-head h2{color:#B9C4FF}
+:where(html.dm) .unit h3{color:#B9C4FF}
+:where(html.dm) .how p b{color:#B9C4FF}
+:where(html.dm) footer b{color:#B9C4FF}
+:where(html.dm) footer a{color:#B9C4FF}
+:where(html.dm) .hk{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .hk-i.g{background:#1B7F3B}
+:where(html.dm) .hk-i.p{background:#5B2C83}
+:where(html.dm) .hk-i.y{background:#8A6D12}
+:where(html.dm) .hk b{color:#B9C4FF}
+:where(html.dm) .sec-head h2{color:#B9C4FF}
+:where(html.dm) .flip.open .fq{color:#B9C4FF}
+:where(html.dm) .flip.open .fa b,:where(html.dm) .flip.open .bigans{color:#B9C4FF}
+:where(html.dm) .chip{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .chip:hover{color:#B9C4FF}
+:where(html.dm) .fcard{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fcard h3{color:#B9C4FF}
+:where(html.dm) .pill.navy{color:#B9C4FF}
+:where(html.dm) .bar i{background:linear-gradient(90deg,var(--navy),#1B7F3B)}
+:where(html.dm) .btn{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .btn.checkb{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .w-title h2{color:#B9C4FF}
+:where(html.dm) .namebox input{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .scorebar .dots button.y{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .promptbox .q{color:#B9C4FF}
+:where(html.dm) .stim{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .ptable{background:linear-gradient(135deg,var(--surface),var(--paper))}
+:where(html.dm) .ptable summary{color:#B9C4FF}
+:where(html.dm) .howto{background:linear-gradient(135deg,var(--surface),var(--gold-soft))}
+:where(html.dm) .ht-step strong{color:#B9C4FF}
+:where(html.dm) .kbd,:where(html.dm) .ht-step kbd{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .tea-key{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .lab.T{background:#0F4C81}
+:where(html.dm) .lab.E{background:#B4560F}
+:where(html.dm) .lab.A{background:#5B2C83}
+:where(html.dm) .lab.O{background:#1B7F3B}
+:where(html.dm) .lab.C{background:#1B7F3B}
+:where(html.dm) .lab.V{background:#B4560F}
+:where(html.dm) .lab.R{background:#9A6700}
+:where(html.dm) .lab.X{background:#5B2C83}
+:where(html.dm) .tk b{color:#B9C4FF}
+:where(html.dm) .tk-note b{color:#B9C4FF}
+:where(html.dm) .part{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .part.earned::before{background:#1B7F3B}
+:where(html.dm) .part.earned .part-l{background:#1B7F3B}
+:where(html.dm) .verb{background:var(--vc,#5B2C83)}
+:where(html.dm) .part-q{color:#B9C4FF}
+:where(html.dm) .part-dir b{color:#B9C4FF}
+:where(html.dm) .bx textarea{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb h4{color:#B9C4FF}
+:where(html.dm) .fb h4 .src{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .fbline .m.y{background:#1B7F3B}
+:where(html.dm) .fbline .m.i{background:#666B82}
+:where(html.dm) .fbline .m.w{background:#9A6700}
+:where(html.dm) .fbline b{color:#B9C4FF}
+:where(html.dm) .fbline q{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-guide,:where(html.dm) .fb-fix,:where(html.dm) .fb-look{background:rgba(14,18,48,0.90);background-color:rgba(14,18,48,0.90)}
+:where(html.dm) .fb-hand{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .fb-hand p b{color:#B9C4FF}
+:where(html.dm) .verdict{background:rgba(14,18,48,0.85);background-color:rgba(14,18,48,0.85)}
+:where(html.dm) .verdict .vq{color:#B9C4FF}
+:where(html.dm) .verdict .btn.yes.on{background:#1B7F3B;border-color:#1B7F3B}
+:where(html.dm) .acc div.hit{color:#CDF3DC}
+:where(html.dm) .acc div.hit b{background:#1B7F3B}
+:where(html.dm) .stuckpanel{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .stuckpanel h4,:where(html.dm) .expanel h4,:where(html.dm) .stempanel h4{color:#B9C4FF}
+:where(html.dm) .expanel{background:var(--surface);background-color:var(--surface);border-left:5px solid #5B2C83}
+:where(html.dm) .stm{background:var(--surface);background-color:var(--surface);color:#F9EBCD}
+:where(html.dm) .stm:hover{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .finish{background:linear-gradient(135deg,var(--surface),var(--plum-l))}
+:where(html.dm) .finish h3{color:#B9C4FF}
+:where(html.dm) .sample .sp{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .sample .sp-q{color:#B9C4FF}
+:where(html.dm) .aphead h4{color:#B9C4FF}
+:where(html.dm) .aptab.on{background:var(--surface);background-color:var(--surface);color:#B9C4FF}
+:where(html.dm) .apwrap{border:1px solid #314C72;border-color:#314C72;border-top:1px solid #314C72;border-bottom:1px solid #314C72;border-left:1px solid #314C72;border-right:1px solid #314C72}
+:where(html.dm) .apbar{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .apbar b{color:var(--ink)}
+:where(html.dm) .apbar .r{color:var(--ink)}
+:where(html.dm) .apbody{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .apq .mk{color:var(--ink)}
+:where(html.dm) .apstem{color:var(--ink)}
+:where(html.dm) .apparts{color:var(--ink)}
+:where(html.dm) .aptool{background:var(--bg);background-color:var(--bg);color:var(--ink);border-color:var(--line) var(--line) currentcolor;border-top:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .apbox{color:var(--ink);border:1px solid var(--line);border-color:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+:where(html.dm) .doc{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .doc.used{outline:2px solid #1B7F3B}
+:where(html.dm) .dstat{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .dstat.on{border-color:#1B7F3B}
+:where(html.dm) .dhelp .model{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .mess h4{color:#B9C4FF}
+:where(html.dm) .modal{background:var(--surface);background-color:var(--surface)}
+:where(html.dm) .modal h2{color:#B9C4FF}
+:where(html.dm) footer.foot b{color:#B9C4FF}
+:where(html.dm) .svwarn{background:#413618;background-color:#413618;color:#DFDCEF}
+:where(html.dm) .svwarn.dirty{background:#412B18;background-color:#412B18}
+:where(html.dm) .svwarn.safe{background:var(--bg);background-color:var(--bg)}
+:where(html.dm) .svw-copy b{color:#F8DBBD}
+:where(html.dm) .svwarn.safe .svw-copy b{color:#C2F2D4}
+:where(html.dm) .svw-copy span{color:#D1CEDF}
+:where(html.dm) .svbtn{background:var(--surface);background-color:var(--surface);color:#DFDCEF;border:1px solid #443A69;border-color:#443A69;border-top:1px solid #443A69;border-bottom:1px solid #443A69;border-left:1px solid #443A69;border-right:1px solid #443A69}
+:where(html.dm) .svw-rubric{color:#D1CEDF}
+/* World Compass manual fixes: per-unit inline accent tokens (--a / --asoft) */
+:where(html.dm) .unit .go{color:color-mix(in srgb,var(--a) 45%,#fff)}
+:where(html.dm) .unit .pct{background:color-mix(in srgb,var(--a) 28%,var(--surface));color:color-mix(in srgb,var(--a) 40%,#fff)}
+:where(html.dm) .unit .n{color:color-mix(in srgb,var(--a) 55%,#fff)}
+:where(html.dm) .btn.gold{color:#1E2761}
+:where(html.dm) .lab.T,:where(html.dm) .lab.E,:where(html.dm) .lab.A{color:#0E1230}
+
+/* dark-mode toggle (shared) */
+:root{--dm-tg-bg:#fff;--dm-tg-fg:#1F1B3A;--dm-tg-b:rgba(0,0,0,.18);--dm-tg-font:system-ui,sans-serif}
+.dm-tg{position:fixed;right:14px;bottom:14px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px 0 10px;border-radius:999px;border:2px solid var(--dm-tg-b);background:var(--dm-tg-bg);color:var(--dm-tg-fg);font:600 13px/1 var(--dm-tg-font);letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.22);transition:transform .15s,box-shadow .15s,opacity .2s;-webkit-tap-highlight-color:transparent;opacity:.96}
+.dm-tg:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.28);opacity:1}
+.dm-tg:active{transform:translateY(0) scale(.97)}
+.dm-tg:focus-visible{outline:3px solid #FFC83D;outline-offset:3px}
+.dm-tg svg{width:18px;height:18px;display:block}
+.dm-tg .dm-sun{display:none}
+html.dm .dm-tg .dm-sun{display:block}
+html.dm .dm-tg .dm-moon{display:none}
+.dm-tg .dm-lbl{white-space:nowrap}
+@media (max-width:620px){.dm-tg{right:10px;bottom:10px;height:38px;padding:0 10px}.dm-tg .dm-lbl{display:none}}
+@media print{.dm-tg{display:none !important}}
+
+</style>
+<script id="dm">
+/* Dark mode add-on (GeoArcade / World Compass / Euro Atlas / Lang Studio). Follows the device setting, with a per-page toggle. */
+(function(){
+  if (window.__dmInit) return; window.__dmInit = 1;
+  var d = document.documentElement, KEY = 'dm:pref', pref = null;
+  try { pref = localStorage.getItem(KEY) || sessionStorage.getItem(KEY); } catch (e) {}
+  var mq = null; try { mq = window.matchMedia('(prefers-color-scheme: dark)'); } catch (e) {}
+  function sys() { return !!(mq && mq.matches); }
+  var on = pref ? pref === 'dark' : sys();
+  d.classList.toggle('dm', on);
+  var btn;
+  function paint() {
+    d.classList.toggle('dm', on);
+    if (btn) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.setAttribute('title', on ? 'Switch to light mode' : 'Switch to dark mode');
+      var l = btn.querySelector('.dm-lbl'); if (l) l.textContent = on ? 'Light' : 'Dark';
+    }
+    try { var m = document.querySelector('meta[name="theme-color"]'); if (m) m.setAttribute('content', on ? '#0F0D22' : '#FFFFFF'); } catch (e) {}
+  }
+  function set(v, remember) {
+    on = v; paint();
+    if (remember) { try { localStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} try { sessionStorage.setItem(KEY, v ? 'dark' : 'light'); } catch (e) {} }
+  }
+  function build() {
+    if (btn || !document.body) return;
+    btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'dm-tg'; btn.id = 'dmToggle';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
+    btn.innerHTML = '<svg class="dm-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 14.6A8.5 8.5 0 0 1 9.4 3a1 1 0 0 0-1.1-1.3A10.5 10.5 0 1 0 22.3 15.7 1 1 0 0 0 21 14.6z"/></svg>'
+      + '<svg class="dm-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>'
+      + '<span class="dm-lbl">Dark</span>';
+    btn.addEventListener('click', function () { set(!on, true); });
+    document.body.appendChild(btn);
+    paint();
+    // keep the button last in <body> so nothing re-renders over it
+    new MutationObserver(function () { if (btn && document.body && document.body.lastElementChild !== btn && btn.isConnected) document.body.appendChild(btn); if (btn && !btn.isConnected) document.body.appendChild(btn); }).observe(document.body, { childList: true });
+  }
+  if (mq && mq.addEventListener) mq.addEventListener('change', function (e) { if (!pref) set(e.matches, false); });
+  else if (mq && mq.addListener) mq.addListener(function (e) { if (!pref) set(e.matches, false); });
+  if (document.body) build(); else document.addEventListener('DOMContentLoaded', build);
+  window.__dm = { set: function (v) { set(!!v, true); }, get on() { return on; } };
+})();
+
+</script>
+</body>
+</html>
