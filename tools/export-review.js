@@ -1,0 +1,9 @@
+// Exports FRQ content as plain text for outside review (e.g. pasting into ChatGPT).
+// Usage: node tools/export-review.js [frq-name,frq-name,...] [output-file]
+const fs=require('fs');const strip=h=>h.replace(/<style[\s\S]*?<\/style>/g,'').replace(/<svg[\s\S]*?<\/svg>/g,m=>'[DIAGRAM: '+(m.match(/aria-label="([^"]*)"/)||['',''])[1]+']').replace(/<\/(tr|p|div|li|h\d)>/g,'\n').replace(/<\/t[hd]>/g,' | ').replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/\n{3,}/g,'\n\n').trim();
+let out='AP HUMAN GEOGRAPHY FRQ TUTOR — CONTENT FOR FACT-CHECK\nPlease check every statement below for factual errors, non-standard AP Human Geography terminology, or model answers a College Board reader would not award the point. Fictional countries/cities are intentional.\n\n';
+const ONLY=(process.argv[2]||'').split(',').filter(Boolean);for(const f of fs.readdirSync('src/frqs').sort().filter(n=>!ONLY.length||ONLY.includes(n.replace('.js','')))){const BG={},FRQ=[];new Function('addBG','addFRQ',fs.readFileSync('src/frqs/'+f,'utf8'))(o=>Object.assign(BG,o),x=>FRQ.push(x));const q=FRQ[0];
+ out+=`\n${'='.repeat(70)}\n${q.u} · ${q.t} (${q.k})\n${'='.repeat(70)}\nSTIMULUS: ${q.st||'(no stimulus)'}\n${q.intro}\n${strip(q.stim)}\n`;
+ q.p.forEach((p,i)=>{out+=`\n--- Part ${String.fromCharCode(65+i)} (${p.v}) ---\nQ: ${p.q}\nMODEL ANSWER: ${p.mo}\nRUBRIC: ${p.r.i.map(r=>r[0]).join(' / ')}\nMINI-LESSON (${p.ml[0]}):\n${p.ml[1].map(s=>' - '+s).join('\n')}\nKEY WORDS: ${p.ml[2].map(v=>v[0]+' = '+v[1]).join('; ')}\nQUICK CHECK: ${p.qc[0]} → ${p.qc[1][0]} (${p.qc[3]})\n`});
+ out+=`\nBACKGROUND POP-OUTS:\n`+Object.values(BG).map(b=>`• ${b.t}\n${b.s.map(s=>'   - '+s).join('\n')}`).join('\n')+'\n';}
+fs.writeFileSync(process.argv[3]||'review/frq-content-for-review.txt',out);console.log(out.length,'chars');
