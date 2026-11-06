@@ -36,7 +36,7 @@ p = rep(p, 'b("Write your answer first, then check its wording.")', 'b("Write yo
 # 5. the Check card itself
 a = p.index('function Le(e,t){')
 b = p.index('const Se=(e,t)=>', a)
-LE = r'''function Le(e,t,silent){const fields={};_(e.verb).forEach(k=>fields[k]=I(e.l,k));const r=window.GAQuick.grade(j,e,fields);if(!silent){Ce(e.l,r.point,true);r.point?y.ok():y.meh()}const hitT=r.hits.length?r.hits.map(h=>h.t):r.near?[r.near.t]:[];t.innerHTML=`<div class="fb ${r.cls}"><h4>${r.head}<span class="src">Likely score · quick check</span></h4><p class="fbl">${r.blurb}</p>${r.lines.map(l=>`<div class="fbline"><span class="m ${l.ok?"y":"n"}">${l.ok?"✓":"!"}</span><span>${l.quote&&!l.ok?`<q>${s(window.GAQuick.snip(l.quote))}</q>`:""}${l.html}</span></div>`).join("")}<p class="fb-disc">Likely score = a practice estimate from a quick pattern check, not an official AP score. A correct answer in different words can be missed — Gemini or your AP Human Geography teacher can confirm it. Your teacher has the final word.</p><div class="fb-hand"><p><b>Want a second opinion?</b> This copies the question, the official scoring guide, and your answer. Paste it into Gemini and it tells you whether you likely earn the point and exactly what to change.</p><button class="btn gem" data-hand="${e.l}">🤖 Grade it in Gemini</button></div><div class="fb-guide"><h5>These are the options from the College Board scoring guide — any ONE earns the point</h5><div class="acc">${e.accept.map((a,n)=>{const h=hitT.indexOf(a.t)>=0;return`<div class="${h?"hit":""}"><b>${h?"✓":n+1}</b><span>${s(a.t)}</span></div>`}).join("")}</div></div><div class="fb-look"><h5>What a scorer is looking for</h5>${e.check.map(c=>`<div class="fbline"><span class="m i">?</span><span>${s(c)}</span></div>`).join("")}</div>${Se(e.l,!0)}</div>`;Re(t,e)}'''
+LE = r'''function Le(e,t,silent){const fields={};_(e.verb).forEach(k=>fields[k]=I(e.l,k));const r=window.GAQuick.grade(j,e,fields);if(!silent){Ce(e.l,r.point,true);r.point?y.ok():y.meh()}const hitT=r.hits.length?r.hits.map(h=>h.t):r.near?[r.near.t]:[];t.innerHTML=`<div class="fb ${r.cls}"><h4>${r.head}<span class="src">Likely score · quick check</span></h4><p class="fbl">${r.blurb}</p>${r.lines.map(l=>`<div class="fbline"><span class="m ${l.ok?"y":"n"}">${l.ok?"✓":"!"}</span><span>${l.quote&&!l.ok?`<q>${s(window.GAQuick.snip(l.quote))}</q>`:""}${l.html}</span></div>`).join("")}<p class="fb-disc">Likely score = a practice estimate from a quick pattern check, not an official AP score. A correct answer in different words can be missed — Gemini or your AP Human Geography teacher can confirm it. Your teacher has the final word.</p><div class="fb-hand"><p><b>Want a second opinion?</b> This copies the question, the official scoring guide, and your answer. Paste it into Gemini and it tells you whether you likely earn the point and exactly what to change.</p><button class="btn gem" data-hand="${e.l}">🤖 Grade it in Gemini</button></div><div class="fb-guide"><h5>Options from the College Board scoring guide — any ONE earns the point (other correct answers can too)</h5><div class="acc">${e.accept.map((a,n)=>{const h=hitT.indexOf(a.t)>=0;return`<div class="${h?"hit":""}"><b>${h?"✓":n+1}</b><span>${s(a.t)}</span></div>`}).join("")}</div></div><div class="fb-look"><h5>What a scorer is looking for</h5>${e.check.map(c=>`<div class="fbline"><span class="m i">?</span><span>${s(c)}</span></div>`).join("")}</div>${Se(e.l,!0)}</div>`;Re(t,e)}'''
 p = p[:a] + LE + p[b:]
 p = rep(p, '${t?"Agree? You get the final say.":"Self-assess after checking the source — did you earn the point?"}',
         '${t?"That is the likely call. Disagree? You can change it:":"Your call — did you earn the point?"}', label='Se')
@@ -49,7 +49,7 @@ p = rep(p, '<span class="muted">Write something first — Check reports limited 
 
 # 7. score bar
 p = rep(p, 'n("#scoreBar").innerHTML=`<div class="sb-big">${e} / ${t}</div>\\n    <div class="sb-mid"><b>${s<t?`${t-s} part${t-s===1?"":"s"} left to score`:"Self-assessed. Confirm uncertain credit with your teacher."}</b>\\n      <div class="bar" style="margin-top:6px"><i style="width:${e/t*100}%;background:linear-gradient(90deg,var(--l4),var(--green))"></i></div></div>',
-        'n("#scoreBar").innerHTML=`<div class="sb-big"><small class="sb-k">Likely score</small>${e} / ${t}</div>\\n    <div class="sb-mid"><b>${s<t?`${t-s} part${t-s===1?"":"s"} left to check`:e>=6?"That is a 5-level FRQ. 🏆":e>=4?"Solid. Redo the misses and this is a 6 or 7.":"Go back through the misses — that is where the points are."}</b>\\n      <div class="bar" style="margin-top:6px"><i style="width:${e/t*100}%;background:linear-gradient(90deg,var(--l4),var(--green))"></i></div><span class="sb-disc">Practice estimate, not an official AP score. Your AP Human Geography teacher has the final word.</span></div>',
+        'n("#scoreBar").innerHTML=`<div class="sb-big"><small class="sb-k">Likely score</small>${e} / ${t}</div>\\n    <div class="sb-mid"><b>${s<t?`${t-s} part${t-s===1?"":"s"} left to check`:e>=6?"Most parts likely earn the point. 🏆 Review any shaky ones.":"Revise the parts that likely missed the point, then check again."}</b>\\n      <div class="bar" style="margin-top:6px"><i style="width:${e/t*100}%;background:linear-gradient(90deg,var(--l4),var(--green))"></i></div><span class="sb-disc">Practice estimate, not an official AP score. Your AP Human Geography teacher has the final word.</span></div>',
         label='scorebar')
 
 # 8. finish card
@@ -65,6 +65,8 @@ p = rep(p, '<h1>🤖 Writing feedback on ${s(t)} in Gemini</h1>\\n  <p>Only your
         label='hand p')
 p = rep(p, '<b>3</b>Read the suggestions, come back to GeoArcade, fix your lines, and Check again.',
         '<b>3</b>Read your likely score, come back to GeoArcade, fix your lines, and Check again.', label='hand step3')
+
+p = rep(p, "g.classList.toggle('done',ok);window.open(", "g.classList.toggle('done',ok);if(ok)window.open(", label='copy guard')
 
 # 10. Stuck panel
 p = rep(p, '<h5>Answer list for comparison — other defensible answers may be possible</h5>',
@@ -94,13 +96,11 @@ p = rep(p, 'const EXTRA_T = \'Teacher-added answer ideas — ask your teacher to
 # 13. last add-on: the score label now lives in the score bar; add the small styles
 p = rep(p, "if(score&&!score.querySelector('.practice-self')){",
         "if(false&&score&&!score.querySelector('.practice-self')){", label='practice-self')
+p = rep(p, "n.textContent='Your self-assessment'", "n.textContent='Likely score'", label='practice-self text')
 p = rep(p, ".fb-stale{padding:9px;background:#fff4ce;border:1px solid #bc9124;margin-bottom:10px;font-size:14px}';",
         ".fb-stale{padding:9px;background:#fff4ce;border:1px solid #bc9124;margin-bottom:10px;font-size:14px}.fb-disc{font-size:12.5px;font-weight:700;color:var(--ink-3);line-height:1.45;margin:10px 0 0}.sb-k{display:block;font-family:var(--body);font-size:10.5px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}.sb-disc{display:block;font-size:11.5px;font-weight:700;color:var(--ink-3);margin-top:6px;line-height:1.35}';",
         label='css')
 
-for bad in ['Writing check — no score', 'Optional AI writing', 'Self-check next', 'Self-assess after']:
-    if bad in p and bad != 'Writing check — no score':
-        sys.exit('LEFTOVER: ' + bad)
 
 # ---------------- page HTML ----------------
 h = page
@@ -109,7 +109,7 @@ h = rep(h, '<p class="lede">Practice with released free-response questions. Chec
 h = rep(h, '<i>Review text features and self-check meaning. Optional AI writing feedback can be wrong and is not a grade.</i>',
         '<i>Likely point or not, and what to fix. Then tap <b>Grade it in Gemini</b>, paste, Enter &mdash; a likely score on your actual sentences.</i>', label='hk1')
 h = rep(h, '<i>An answer list to study and discuss; other defensible answers may be possible.</i>',
-        '<i>Every answer the scoring guide will accept, right there.</i>', label='hk2')
+        '<i>Accepted examples from the College Board scoring guide. Other correct answers can also earn the point.</i>', label='hk2')
 h = rep(h, '<i>Your answers, your feedback, your self-assessment &mdash; ready to turn in.</i>',
         '<i>Your answers, your feedback, your likely score &mdash; ready to turn in.</i>', label='hk4')
 h = rep(h, '<strong>✓ Check my answer</strong>Review writing observations, then check meaning with the source.',
@@ -118,6 +118,14 @@ h = rep(h, '<strong>🤖 Optional AI writing feedback</strong>Tap it, then in Ge
         '<strong>🤖 Grade it in Gemini</strong>Tap it, then in Gemini press <kbd>Ctrl</kbd>+<kbd>V</kbd> (Mac: <kbd>⌘</kbd>+<kbd>V</kbd>) and Enter. Gemini gives a likely score on your actual sentences.', label='ht3')
 h = rep(h, '<div class="practice-note"><b>Practice check, not a grade.</b> This tool can count entered text and notice wording. It cannot verify facts, meaning, contradictions, or AP credit. T1-/E2-/A3- and placing specifics in E2- are classroom writing strategies, not universal AP requirements. Use the exact prompt and answer list, then ask your teacher about credit.</div>',
         '<div class="practice-note"><b>Likely score, not an official AP score.</b> Check and Gemini estimate whether each part would likely earn the point using the College Board scoring guide. They can miss a correct answer worded differently &mdash; your AP Human Geography teacher has the final word.</div>', label='practice-note')
+
+# ---------------- leftover audit (student-visible strings) ----------------
+core = p[p.index('window.GA_SITE='):]   # the old PracticeFeedback module above is no longer called
+for bad in ['no score', 'No score', 'Optional AI writing', 'Self-check next', 'Self-assess', 'self-assessment', 'Self-assessment', 'Mr. Martin', 'Writing check']:
+    if bad in core or bad in h:
+        sys.exit('LEFTOVER: ' + bad)
+if 'PracticeFeedback.inspect' in core or 'PracticeFeedback.coaching' in core:
+    sys.exit('LEFTOVER: PracticeFeedback still wired')
 
 # ---------------- repack ----------------
 raw = p.encode('utf-8')

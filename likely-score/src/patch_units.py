@@ -24,6 +24,9 @@ for u in range(1, 8):
     p = rep(p, 'Type first · reveal second · score yourself', 'Type first · check it · mark the likely point', 'reps pill')
     p = rep(p, 'e("[data-verdict]",b).forEach(t=>t.addEventListener("click",()=>{',
             'e("[data-gem]",b).forEach(q9=>q9.addEventListener("click",()=>{const m9=window.GALab.gem(q9.dataset.gem,x[q9.dataset.gem]||"",u);m9&&n(m9,4200)})),e("[data-verdict]",b).forEach(t=>t.addEventListener("click",()=>{', 'wire')
+    p = rep(p, '<div class="boss-score" id="bossScore"></div>', '<div class="boss-score" id="bossScore"></div>\n    <div class="row" style="margin:0 0 16px"><button class="btn gemb" id="bossGem">🤖 Get my likely score on the whole Boss FRQ in Gemini</button></div>', 'boss gem btn')
+    p = rep(p, '"boss"===S&&(F(),v("#bossReset")', '"boss"===S&&(v("#bossGem").addEventListener("click",()=>{const m9=window.GALab.gemAll(u,x);m9&&n(m9,4200)}),F(),v("#bossReset")', 'boss gem wire')
+    p = rep(p, 'a>=6?"That is a 5-level FRQ. 🏆":a>=4?"Solid — redo the misses and it’s a 6 or 7.":"Go back through the topics, then run it again."', 'a>=6?"Most parts likely earn the point. 🏆":"Revise the parts that likely missed, then check again."', 'boss msg')
     p = rep(p, 'x[e.dataset.draft]=e.value,a.set(`lab:${g}:drafts`,x)', 'x[e.dataset.draft]=e.value,GA.store.set(`lab:${g}:drafts`,x)', 'draft save fix')
     raw = p.encode('utf-8')
     co = zlib.compressobj(9, zlib.DEFLATED, -15)

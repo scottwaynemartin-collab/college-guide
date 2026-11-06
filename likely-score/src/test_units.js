@@ -30,6 +30,10 @@ const { chromium } = require('playwright');
     await fr.click(`[data-reveal="${bk}"]`); await pg.waitForTimeout(200);
     await fr.click(`[data-verdict="${bk}"][data-val="1"]`); await pg.waitForTimeout(200);
     const bs = await fr.innerText('#bossScore');
+    const pop4 = ctx.waitForEvent('page', { timeout: 8000 });
+    await fr.click('#bossGem');
+    let t4 = ''; try { const p4 = await pop4; await p4.waitForLoadState('domcontentloaded'); await pg.waitForTimeout(300); t4 = await p4.$eval('#t', t => t.value); await p4.close(); } catch (e) { t4 = 'ERR ' + e; }
+    ok(`unit ${u}: whole-Boss prompt has LIKELY SCORE X / 7 + STUDENT_DATA + 7 parts`, /LIKELY SCORE: X \/ 7/.test(t4) && /STUDENT_DATA/.test(t4) && (t4.match(/======== PART/g) || []).length === 7 && /long enough/.test(t4), t4.slice(0, 60));
     ok(`unit ${u}: boss score says Likely score`, /likely score/i.test(bs) && /1 \/ 7/.test(bs), bs.replace(/\n/g, ' '));
     if (u === 3) { await fr.evaluate(k => document.querySelector(`[data-key="${k}"]`).scrollIntoView(), bk); await pg.screenshot({ path: 'u3.png' }); }
     ok(`unit ${u}: no page errors`, !errs.length, errs[0] || '');

@@ -19,6 +19,9 @@ const C = [
  ['E', "A company moves its call center because workers are cheaper there.", "American companies put call centers in the Philippines where wages are lower.", "The reason this matters is that paying workers less saves the company money so it makes more profit.", true],
  ['E', "A company moves its call center to be nice.", "Companies like to help other countries.", "The reason this matters is that it helps people.", false],
  ['F', "The table is old.", "It is from 2018.", "So it is not right.", false],
+ ['A', "India has English speakers, but it was not because of the British Empire or colonization.", "Many people there just like the language a lot today.", "The reason this matters is that people choose to learn it for fun.", false],
+ ['B', "People in China and India learn English because it gets them ___ with companies.", "Call centers in Bengaluru hire English speakers.", "The reason this matters is that English pays more so families want it.", false],
+ ['B', "People in China and India learn English because it helps them get jobs with international companies.", "Call centers in Bengaluru hire thousands of English speakers.", "", false],
  ['B', "People in China and India learn English to study in other countries.", "Many Chinese students go to universities in the United States and the UK.", "The reason this matters is that you need English to pass classes there so students learn it first.", true],
 ];
 (async () => {
@@ -54,7 +57,7 @@ const C = [
   ok('Stuck panel greens a matching option', await fr.locator('[data-stuckpanel="A"] .acc div.hit').count() >= 1, '');
   // Gemini prompts
   const pp = await fr.evaluate(() => window.__ER.handoffPart(window.__ER.cur.parts[0]));
-  ok('part prompt: question + guide + answer + LIKELY POINT', /OFFICIAL SCORING GUIDE/.test(pp) && /LIKELY POINT: Yes or No/.test(pp) && /British Empire/.test(pp) && /Ethnologue/i.test(pp) && /final word/.test(pp), pp.length);
+  ok('part prompt: question + guide + answer + LIKELY POINT', /OFFICIAL SCORING GUIDE/.test(pp) && /STUDENT_DATA/.test(pp) && /LIKELY POINT: Yes or No/.test(pp) && /British Empire/.test(pp) && /Ethnologue/i.test(pp) && /final word/.test(pp), pp.length);
   const pa = await fr.evaluate(() => window.__ER.handoffAll());
   ok('whole-FRQ prompt: 7 parts + LIKELY SCORE: X / 7', (pa.match(/======== PART/g) || []).length === 7 && /LIKELY SCORE: X \/ 7/.test(pa), pa.length);
   const pop = ctx.waitForEvent('page', { timeout: 8000 });

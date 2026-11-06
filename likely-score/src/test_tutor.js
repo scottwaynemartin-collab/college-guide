@@ -35,9 +35,16 @@ const { chromium } = require('playwright');
   const pop = ctx.waitForEvent('page', { timeout: 8000 });
   await fr.click('[data-a="gem"]');
   let txt = ''; try { const p2 = await pop; await p2.waitForLoadState('domcontentloaded'); await pg.waitForTimeout(300); txt = await p2.$eval('#t', t => t.value); await p2.screenshot({ path: 'gem.png' }); await p2.close(); } catch (e) { txt = 'ERR ' + e; }
-  ok('Gemini copy page opens with the prompt', /LIKELY POINT/.test(txt) && /Kestria is in Stage 2/.test(txt), txt.slice(0, 120));
-  console.log(txt.slice(0, 1800));
+  ok('Gemini copy page opens with the prompt', /LIKELY POINT/.test(txt) && /STUDENT_DATA/.test(txt) && /Kestria is in Stage 2/.test(txt), txt.slice(0, 120));
+  
   await fr.evaluate(() => document.querySelector('.verdict').scrollIntoView({ block: 'center' })); await pg.screenshot({ path: 'check.png' });
+  await fr.evaluate(() => { S.k = S.f.p.length + 1; render(1); }); await pg.waitForTimeout(300);
+  const pop5 = ctx.waitForEvent('page', { timeout: 8000 });
+  await fr.click('[data-a="gemall"]');
+  let t5 = ''; try { const p5 = await pop5; await p5.waitForLoadState('domcontentloaded'); await pg.waitForTimeout(300); t5 = await p5.$eval('#t', t => t.value); await p5.close(); } catch (e) { t5 = 'ERR ' + e; }
+  const np = await fr.evaluate(() => S.f.p.length);
+  ok('whole-FRQ prompt: LIKELY SCORE + every part + STUDENT_DATA', new RegExp('LIKELY SCORE: X / ' + np).test(t5) && (t5.match(/======== PART/g) || []).length === np && /STUDENT_DATA/.test(t5) && /Kestria is in Stage 2/.test(t5), t5.slice(0, 200));
+  await pg.screenshot({ path: 'done.png' });
   ok('no page errors', !errs.length, errs[0] || '');
   await b.close(); console.log(fails ? fails + ' FAILED' : 'ALL PASS');
 })();
