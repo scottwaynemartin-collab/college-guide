@@ -45,3 +45,7 @@ Full rules are in `tools/FRQ-AUTHORING.md`. Short version:
 5. Run `node tools/printables.js <file>` to make its handout and key.
 
 Only use FRQs that are original or publicly released (CED, released exams, post-exam releases).
+
+## AP Practice Exam
+
+`practice-exam.html` is the GeoArcade **AP Practice Exam** page (practice by topic + a timed, AP Classroom-style exam per unit), built as one self-contained full-page embed. Source, question banks and build script live in `practice-exam/` (see its README). Rebuild with `python3 practice-exam/build.py`.
