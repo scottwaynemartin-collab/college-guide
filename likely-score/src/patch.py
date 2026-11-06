@@ -107,7 +107,7 @@ h = page
 h = rep(h, '<p class="lede">Practice with released free-response questions. Check reports entered text and wording; it cannot verify geography or predict AP credit. Compare the complete meaning with the prompt, source, and answer list, then ask your teacher about uncertain credit.</p>',
         '<p class="lede">Real free-response questions with the real College Board scoring guide. Write it, hit <b>Check</b>, and find out whether your answer <b>likely</b> earns the point &mdash; and exactly what to change if it doesn\'t. A likely score is practice feedback, not an official AP score: your AP Human Geography teacher has the final word.</p>', label='lede')
 h = rep(h, '<i>Review text features and self-check meaning. Optional AI writing feedback can be wrong and is not a grade.</i>',
-        '<i>Likely point or not, and what to fix. Then tap <b>Grade it in Gemini</b>, paste, Enter &mdash; a likely score on your actual sentences.</i>', label='hk1')
+        '<i>Likely point or not, and what to fix. Then tap &ldquo;Grade it in Gemini,&rdquo; paste, Enter &mdash; a likely score on your actual sentences.</i>', label='hk1')
 h = rep(h, '<i>An answer list to study and discuss; other defensible answers may be possible.</i>',
         '<i>Accepted examples from the College Board scoring guide. Other correct answers can also earn the point.</i>', label='hk2')
 h = rep(h, '<i>Your answers, your feedback, your self-assessment &mdash; ready to turn in.</i>',
