@@ -136,7 +136,7 @@ html.dm .act.blue{color:#fff}
 .kpi .v{font-family:var(--display);font-weight:600;font-size:28px;line-height:1;color:var(--ink)}
 .kpi .k{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin-top:6px}
 .ugrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:22px}
-.ucd{position:relative;display:flex;flex-direction:column;gap:12px;padding:20px 20px 18px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden;transition:transform .18s ease,box-shadow .18s ease}
+.ucd{position:relative;min-width:0;display:flex;flex-direction:column;gap:12px;padding:20px 20px 18px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden;transition:transform .18s ease,box-shadow .18s ease}
 .ucd::before{content:"";position:absolute;inset:0 0 auto 0;height:6px;background:var(--uc)}
 .ucd.live:hover{transform:translateY(-3px);box-shadow:var(--sh-lg)}
 .ucd .uh{display:flex;align-items:center;gap:10px;justify-content:space-between}
@@ -145,8 +145,8 @@ html.dm .act.blue{color:#fff}
 .ucd .best{font-size:12.5px;font-weight:800;color:var(--ink-3);display:flex;gap:6px;align-items:center}
 .ucd .best .ok{color:var(--green-deep)}
 .ucd .ubtns{display:grid;gap:8px;margin-top:auto}
-.ucd .ubtns .act{justify-content:space-between;padding:10px 14px}
-.ucd .ubtns .act small{font-weight:600;font-size:12.5px;opacity:.85}
+.ucd .ubtns .act{justify-content:space-between;padding:10px 14px;min-width:0;white-space:normal;flex-wrap:wrap;text-align:left;row-gap:2px}
+.ucd .ubtns .act small{font-weight:600;font-size:12.5px;opacity:.85;white-space:nowrap}
 .ucd.soon{background:var(--paper-2);border-style:dashed;box-shadow:none;opacity:.78}
 .ucd.soon::before{opacity:.5}
 .ucd.soon .soonpill{align-self:flex-start;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:999px;background:var(--card);border:1px solid var(--line-2);color:var(--ink-3)}
