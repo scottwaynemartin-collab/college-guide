@@ -22,6 +22,36 @@ for f in ("fixes.py",):
         for fn in ns.get("FIXERS", []):
             fn(STIM, PRACTICE, EXAM)
 
+import random
+def rekey(q, to):
+    """Move the key to letter `to`; wrong choices keep their relative order. Remaps whyNot/rationales."""
+    L = "ABCD"
+    if q["answer"] == to: return
+    key = q["answer"]; others = [x for x in L if x != key]
+    order = {}
+    rest = iter(others)
+    for x in L:
+        order[x] = key if x == to else next(rest)
+    q["options"] = {x: q["options"][order[x]] for x in L}
+    if "whyNot" in q: q["whyNot"] = {x: q["whyNot"][order[x]] for x in L if order[x] != key}
+    if "rationales" in q: q["rationales"] = {x: q["rationales"][order[x]] for x in L}
+    q["answer"] = to
+
+def balanced_letters(n, seed):
+    rng = random.Random(seed)
+    while True:
+        base = list("ABCD" * (n // 4 + 1))[:n]
+        rng.shuffle(base)
+        runs_ok = all(not (base[i] == base[i-1] == base[i-2]) for i in range(2, n))
+        if runs_ok:
+            # no exact repeat of any 4-letter window pattern three times
+            return base
+
+for items, seed in ((PRACTICE, 4401), (EXAM, 4402)):
+    letters = balanced_letters(len(items), seed)
+    for q, t in zip(items, letters):
+        rekey(q, t)
+
 TOPICS = [
     {"id": "4.1", "name": "Technological Innovations", "lo": ["A"]},
     {"id": "4.2", "name": "Exploration: Causes and Events", "lo": ["B", "C"]},

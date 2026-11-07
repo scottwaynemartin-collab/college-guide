@@ -700,3 +700,15 @@ main{padding-bottom:96px}
 .icap{margin:0;font-size:14.5px;line-height:1.55;color:var(--ink-2)}
 .simg .imgbox{max-height:72vh}
 .simg .imgbox img{max-height:72vh}
+
+/* Bluebook-style tools: highlighter + hide timer */
+mark.hl{background:#FCE68A;color:inherit;border-radius:2px;padding:0 1px;cursor:pointer;box-shadow:0 0 0 1px rgba(201,162,39,.35)}
+html.dm mark.hl{background:#7A6224;color:#FFF7DA}
+.hlbtn{position:fixed;z-index:80;min-height:40px;padding:8px 14px;border-radius:999px;background:var(--navy);color:#fff;font:700 14px/1 var(--body);box-shadow:var(--sh-lg);border:2px solid var(--gold)}
+html.dm .hlbtn{background:var(--gold);color:#0E1126;border-color:var(--gold-2)}
+.hl-tip{margin:8px 2px 0;font-size:12.5px;color:var(--ink-3)}
+@media (pointer:coarse){.hl-tip{display:none}}
+.timer.hid .digits{display:none}
+.timer.hid::after{content:"Timer hidden";font:700 13px/1 var(--body);letter-spacing:0}
+.tmr-tg{min-height:36px;padding:6px 10px;font-size:13px}
+@media (max-width:640px){.tmr-tg{display:none}}

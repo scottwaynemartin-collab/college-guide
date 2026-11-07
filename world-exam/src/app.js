@@ -112,8 +112,8 @@
     return { correct, total: qs.length, pct: pctOf(correct, qs.length), byTopic, bySkill, missed };
   }
   const apEstimate = pct => (AP_BANDS.find(b => pct >= b[0]) || [0, 1])[1];
-  function stimColumn(label, stimHTML, off, act) {
-    return `<aside class="scol ${off ? 'off' : ''}" aria-label="Source"><div class="sticky"><div class="scol-head"><div class="setlabel">${esc(label)}</div><button class="act ghost sm stoggle" data-act="${act}" aria-expanded="${!off}">${off ? 'Show source' : 'Hide source'}</button></div><div class="stimwrap">${stimHTML}</div></div></aside>`;
+  function stimColumn(label, stimHTML, off, act, setId) {
+    return `<aside class="scol ${off ? 'off' : ''}" aria-label="Source"><div class="sticky"><div class="scol-head"><div class="setlabel">${esc(label)}</div><button class="act ghost sm stoggle" data-act="${act}" aria-expanded="${!off}">${off ? 'Show source' : 'Hide source'}</button></div><div class="stimwrap" data-set="${esc(setId || '')}">${stimHTML}</div><p class="hl-tip">Tip: select words in a passage to highlight them. Tap a highlight to remove it.</p></div></aside>`;
   }
 
   /* =================================================================
@@ -162,6 +162,7 @@
     const d = DATA[unit];
     const list = qs || (topic === 'all' ? d.practice.slice() : d.practice.filter(q => q.topic === topic));
     if (!list.length) return;
+    [...stimCache.keys()].forEach(k => { if (k.startsWith('practice:')) stimCache.delete(k); });
     P = { unit, topic, qs: list, i: 0, answers: {}, hints: {}, stimOff: false, label: topic === 'all' ? 'All topics' : (((d.topics || []).find(t => t.id === topic) || {}).name || topic) };
     S.screen = 'practice'; render(); focusQ();
   }
@@ -185,7 +186,7 @@
         <div class="pnext"><div class="hint">${pick ? '<span class="kbd">Enter</span> or <span class="kbd">→</span> for next' : ''}</div><button class="act primary" data-act="p-next" id="pnext">${P.i + 1 < n ? (P.qs[P.i + 1].set === q.set ? 'Next question (same source) →' : 'Next question →') : 'See my summary →'}</button></div>`;
     }
     const hint = !pick && q.hint ? `<details class="phint" ${P.hints[q.id] ? 'open' : ''} data-hint="${esc(q.id)}"><summary>💡 Need a hint?</summary><p>${esc(q.hint)}</p></details>` : '';
-    const stimCol = stim ? stimColumn(setLabel(P.qs, q, stim), STIM.render(stim, { glossary: true }), P.stimOff, 'p-stim') : '';
+    const stimCol = stim ? stimColumn(setLabel(P.qs, q, stim), STIM.render(stim, { glossary: true }), P.stimOff, 'p-stim', q.set) : '';
     return topbar(`${upill(unit)}<span class="ellip">Practice · ${esc(P.label)}</span>`, `<button class="act quiet sm" data-act="p-topics">Topics</button><button class="act quiet sm" data-act="home">Units</button>`) + `<main id="main" class="pmain" style="${unitVars(unit)}">
       <div class="phead"><div class="prog-row"><span>Question ${P.i + 1} of ${n}</span><div class="prog" role="progressbar" aria-valuemin="0" aria-valuemax="${n}" aria-valuenow="${done}" aria-label="Answered ${done} of ${n}"><span style="width:${(done / n) * 100}%"></span></div><span>${done} answered</span></div></div>
       <div class="xwrap ${stim ? 'has-stim' : ''}">${stimCol}<article class="qcard" id="qcard"><h2 class="qn" id="qhead" tabindex="-1">Question ${P.i + 1}<span class="sr-only"> of ${n}</span></h2><p class="stem">${esc(q.stem)}</p>
@@ -252,6 +253,7 @@
     const d = DATA[unit], x = d.exam;
     const saved = resume ? store.get('exam:' + unit) : null;
     const now = Date.now();
+    [...stimCache.keys()].forEach(k => { if (k.startsWith('exam:')) stimCache.delete(k); });
     E = { unit, qs: x.questions.slice(), answers: {}, flags: {}, elim: {}, i: 0, startedAt: now, endsAt: now + (x.timeMinutes || 25) * 60000, navOpen: false, confirm: false, stimOff: false, submitted: false, announced: {} };
     if (saved && saved.endsAt) Object.assign(E, { answers: saved.answers || {}, flags: saved.flags || {}, elim: saved.elim || {}, i: Math.min(saved.i || 0, E.qs.length - 1), startedAt: saved.startedAt || now, endsAt: saved.endsAt });
     S.screen = 'exam'; S.unit = unit; persistExam(); render(); window.scrollTo(0, 0); startTimer();
@@ -260,14 +262,15 @@
   const persistExam = () => { if (!E || E.submitted) return; store.set('exam:' + E.unit, { answers: E.answers, flags: E.flags, elim: E.elim, i: E.i, startedAt: E.startedAt, endsAt: E.endsAt }); };
   function timerHTML() {
     const rem = Math.max(0, E.endsAt - Date.now());
-    return `<div class="timer ${rem <= 60000 ? 'crit' : rem <= 300000 ? 'warn' : ''}" id="tmr" role="timer" aria-live="polite" aria-atomic="true"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="digits" aria-hidden="true">${mmss(rem)}</span><span class="sr-only" id="tmrsr">${mmss(rem)} remaining</span></div>`;
+    const hid = E.hideTimer && rem > 300000;
+    return `<div class="timer ${rem <= 60000 ? 'crit' : rem <= 300000 ? 'warn' : ''} ${hid ? 'hid' : ''}" id="tmr" role="timer" aria-live="polite" aria-atomic="true"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="digits" aria-hidden="true">${mmss(rem)}</span><span class="sr-only" id="tmrsr">${mmss(rem)} remaining</span></div><button class="act quiet sm tmr-tg" data-act="x-timer" aria-pressed="${!!E.hideTimer}">${E.hideTimer ? 'Show' : 'Hide'}</button>`;
   }
   function viewExam() {
     const q = E.qs[E.i], n = E.qs.length, pick = E.answers[q.id], stim = stimOf(E.unit, q), flagged = !!E.flags[q.id];
     const answered = Object.keys(E.answers).length;
     const el = E.elim[q.id] || {};
     const opts = LETTERS.map(L => `<div class="xrow ${el[L] ? 'out' : ''}"><button class="xopt" role="radio" aria-checked="${pick === L}" data-act="x-pick" data-arg="${L}"><span class="ltr" aria-hidden="true">${L}</span><span class="txt"><span class="sr-only">${L}. </span>${esc(q.options[L])}${el[L] ? '<span class="sr-only"> (crossed out)</span>' : ''}</span></button><button class="elim" data-act="x-elim" data-arg="${L}" aria-pressed="${!!el[L]}" aria-label="${el[L] ? 'Undo cross out' : 'Cross out'} choice ${L}" title="${el[L] ? 'Undo' : 'Cross out this choice'}">${el[L] ? 'Undo' : '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 18 18 6" stroke="currentColor" stroke-width="2"/></svg>'}</button></div>`).join('');
-    const stimCol = stim ? stimColumn(setLabel(E.qs, q, stim), STIM.render(stim), E.stimOff, 'x-stim') : '';
+    const stimCol = stim ? stimColumn(setLabel(E.qs, q, stim), STIM.render(stim, { glossary: true }), E.stimOff, 'x-stim', q.set) : '';
     const nav = E.navOpen ? `<div class="veil" data-act="x-nav-close"><div class="drawer" role="dialog" aria-modal="true" aria-label="Question navigator" data-stop="1"><h3>Questions <button class="act quiet sm" data-act="x-nav-close" aria-label="Close navigator">✕</button></h3>
         <div class="navgrid">${E.qs.map((o, i) => `<button class="navq ${E.answers[o.id] ? 'ans' : ''} ${E.flags[o.id] ? 'flag' : ''} ${i === E.i ? 'cur' : ''}" data-act="x-goto" data-arg="${i}" aria-label="Question ${i + 1}, ${E.answers[o.id] ? 'answered' : 'unanswered'}${E.flags[o.id] ? ', flagged' : ''}${i === E.i ? ', current' : ''}" ${i === E.i ? 'aria-current="true"' : ''}>${i + 1}</button>`).join('')}</div>
         <div class="navkey"><span><i class="ans"></i>Answered (${answered})</span><span><i></i>Unanswered (${n - answered})</span><span><i class="flag"></i>Flagged (${Object.keys(E.flags).length})</span></div>
@@ -317,6 +320,7 @@
     if (el) {
       const d = el.querySelector('.digits'); if (d) d.textContent = mmss(rem);
       el.classList.toggle('warn', rem <= 300000 && rem > 60000); el.classList.toggle('crit', rem <= 60000);
+      el.classList.toggle('hid', !!E.hideTimer && rem > 300000);
       const mins = Math.ceil(rem / 60000);
       [10, 5, 2, 1].forEach(m => { if (mins <= m && !E.announced[m]) { E.announced[m] = true; const sr = el.querySelector('#tmrsr'); if (sr) sr.textContent = `${m} minute${m === 1 ? '' : 's'} remaining`; } });
     }
@@ -424,12 +428,57 @@
     document.body.classList.toggle('exam', /^x|^exam$/.test(S.screen));
     document.body.classList.toggle('practice', /^p/.test(S.screen));
     app.innerHTML = view();
+    keepStim();
     markScrollables();
     if (S.screen === 'exam') {
       if (E.navOpen) { const f = app.querySelector('.drawer .navq.cur') || app.querySelector('.drawer button'); if (f) f.focus(); }
       else if (E.confirm) { const f = document.getElementById('cfback'); if (f) f.focus(); }
     }
   }
+  // Keep the same source element while moving between questions of one set, so highlights stay put.
+  const stimCache = new Map();
+  function keepStim() {
+    if (S.screen !== 'exam' && S.screen !== 'practice') return;
+    const w = app.querySelector('.stimwrap[data-set]'); if (!w || !w.dataset.set) return;
+    const key = S.screen + ':' + w.dataset.set, old = stimCache.get(key);
+    if (old && old !== w) w.replaceWith(old); else stimCache.set(key, w);
+  }
+  /* ---- highlighter (passages only), like Bluebook's highlight tool ---- */
+  let hlBtn = null;
+  function hlRange() {
+    const sel = window.getSelection && window.getSelection();
+    if (!sel || sel.rangeCount === 0 || sel.isCollapsed) return null;
+    const r = sel.getRangeAt(0);
+    const p1 = r.startContainer.parentElement && r.startContainer.parentElement.closest('.psg-text p');
+    const p2 = r.endContainer.parentElement && r.endContainer.parentElement.closest('.psg-text p');
+    if (!p1 || p1 !== p2 || !app.contains(p1) || !p1.closest('.scol')) return null;
+    if (!r.toString().trim()) return null;
+    return r;
+  }
+  function placeHl() {
+    const r = hlRange();
+    if (!r) { if (hlBtn) hlBtn.hidden = true; return; }
+    if (!hlBtn) {
+      hlBtn = document.createElement('button'); hlBtn.type = 'button'; hlBtn.className = 'hlbtn'; hlBtn.textContent = '🖍 Highlight';
+      hlBtn.addEventListener('mousedown', e => e.preventDefault());
+      hlBtn.addEventListener('click', () => { const rr = hlRange(); if (rr) { const m = document.createElement('mark'); m.className = 'hl'; m.title = 'Tap to remove highlight'; m.appendChild(rr.extractContents()); rr.insertNode(m); window.getSelection().removeAllRanges(); announce('Highlighted'); } hlBtn.hidden = true; });
+      document.body.appendChild(hlBtn);
+    }
+    const b = r.getBoundingClientRect();
+    hlBtn.hidden = false;
+    hlBtn.style.left = Math.max(8, Math.min(innerWidth - 130, b.left + b.width / 2 - 60)) + 'px';
+    hlBtn.style.top = Math.max(8, b.top - 46) + 'px';
+  }
+  document.addEventListener('mouseup', () => setTimeout(placeHl, 0));
+  document.addEventListener('touchend', () => setTimeout(placeHl, 250));
+  document.addEventListener('selectionchange', () => { if (hlBtn && !hlBtn.hidden && !hlRange()) hlBtn.hidden = true; });
+  window.addEventListener('scroll', () => { if (hlBtn) hlBtn.hidden = true; }, true);
+  app.addEventListener('click', ev => {
+    const m = ev.target.closest && ev.target.closest('mark.hl'); if (!m) return;
+    const sel = window.getSelection(); if (sel && !sel.isCollapsed) return;
+    const par = m.parentNode; while (m.firstChild) par.insertBefore(m.firstChild, m); m.remove(); par.normalize(); announce('Highlight removed');
+  });
+
   // Charts and tables keep a minimum width so labels stay legible; on phones they scroll sideways.
   function markScrollables() {
     app.querySelectorAll('.scrollhint').forEach(h => h.remove());
@@ -461,6 +510,7 @@
     'x-next': () => xGoto(E.i + 1),
     'x-goto': arg => xGoto(+arg),
     'x-flag': () => xFlag(),
+    'x-timer': () => { E.hideTimer = !E.hideTimer; const el = document.getElementById('tmr'); if (el) el.classList.toggle('hid', E.hideTimer && E.endsAt - Date.now() > 300000); const b = document.querySelector('.tmr-tg'); if (b) { b.textContent = E.hideTimer ? 'Show' : 'Hide'; b.setAttribute('aria-pressed', String(E.hideTimer)); } },
     'x-stim': () => { E.stimOff = !E.stimOff; render(); const b = document.querySelector('.stoggle'); if (b) b.focus(); },
     'x-nav': () => { E.navOpen = true; E.confirm = false; render(); },
     'x-nav-close': (arg, el, ev) => { if (ev && ev.target.closest('[data-stop]') && !ev.target.closest('[data-act="x-nav-close"]')) return; E.navOpen = false; render(); const b = document.getElementById('navbtn'); if (b) b.focus(); },

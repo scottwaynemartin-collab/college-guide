@@ -74,7 +74,7 @@
   "X1": {
    "type": "passage",
    "paragraphs": [
-    "… He had also a wish to know the land that lay beyond the isles of Canary and that Cape called Bojador, for up to his time … neither by writings, nor by the memory of man, was known with any certainty the nature of the land beyond that Cape. … And this was the first reason of his action.",
+    "… [Prince Henry] had also a wish to know the land that lay beyond the isles of Canary and that Cape called Bojador, for up to his time … neither by writings, nor by the memory of man, was known with any certainty the nature of the land beyond that Cape. … And this was the first reason of his action.",
     "The second reason was that if there chanced to be in those lands some population of Christians, or some havens into which it would be possible to sail without peril, many kinds of merchandise might be brought to this realm, which would find a ready market … because no other people of these parts traded with them … and also the products of this realm might be taken there, which traffic would bring great profit to our countrymen.",
     "The third reason was that, as it was said that the power of the Moors in that land of Africa was very much greater than was commonly supposed … the said Lord Infant* exerted himself to cause this to be fully discovered, and to make it known how far the power of those infidels extended.",
     "The fourth reason was because during the one and thirty years that he had warred against the Moors, he had never found a Christian king, nor a lord outside this land, who for the love of our Lord Jesus Christ would aid him in the said war. Therefore he sought to know if there were in those parts any Christian princes … who would aid him against those enemies of the faith.",
@@ -104,6 +104,10 @@
     {
      "t": "realm",
      "d": "kingdom (here, Portugal)"
+    },
+    {
+     "t": "traffic",
+     "d": "trade"
     }
    ]
   },
@@ -115,7 +119,7 @@
      "paragraphs": [
       "… Of three millions of persons which lived in Hispaniola itself, there is at present but the inconsiderable remnant of scarce three hundred. …",
       "Now the ultimate end and scope that incited the Spaniards to … the desolation of this people was gold only, that thereby growing rich in a short time, they might arrive at once at such degrees and dignities as were in no ways consistent with their persons. …",
-      "[The Spanish governors] divided among themselves the young men, women, and children … one obtained thirty, another forty, to this man one hundred were given … upon this pretense, and with this condition, that he should see them instructed in the Catholic religion. … They sent the men to the mines to dig and bring away the gold, which is an intolerable labor; but the women they made use of to till the ground. … The men died in mines, hunger-starved and oppressed with labor, and the women perished in the fields … Thus an infinite number of inhabitants that formerly peopled this island … dwindled away to nothing."
+      "[The Spaniards] divided among themselves the young men, women, and children … one obtained thirty, another forty, to this man one hundred were given … upon this pretense, and with this condition, that he should see them instructed in the Catholic religion. … They sent the men to the mines to dig and bring away the gold, which is an intolerable labor; but the women they made use of to till the ground. … The men died in mines, hunger-starved and oppressed with labor, and the women perished in the fields … Thus an infinite number of inhabitants that formerly peopled this island … dwindled away to nothing."
      ],
      "attribution": "Bartolomé de las Casas, Spanish Dominican friar, A Brief Account of the Destruction of the Indies, written 1542 for King Charles I of Spain",
      "translation": "From an English translation published in London in 1689 under the title Popery* Truly Displayed in Its Bloody Colours; spelling modernized and adapted",
@@ -144,10 +148,16 @@
      "label": "Source 2",
      "paragraphs": [
       "The rapid melting away of the population of the West Indies during the first quarter of a century of the Spanish rule … is the most familiar instance of the kind, through the impassioned descriptions of Las Casas, which were translated into the principal languages of Europe; and, as a consequence, it is generally believed that the Spaniards were cruel and destructive above all other colonists. … That the wars of subjugation were very destructive of life is only too clear; that famine followed war to prolong its ravages is equally certain; that the average Spaniard recklessly and cruelly overworked the Indians there is no doubt.",
-      "Nevertheless, there were other and more subtle causes in operation. Diseases were imported by the whites, which were mitigated for them by some degree of acquired immunity, but which raged irresistibly through a population without that defence. Of these new diseases small-pox was one of the most destructive. In the epidemic of small-pox in 1518 the natives … died like sheep. … Small-pox appeared in Mexico at the beginning of the conquest … sweeping off in some provinces half the population."
+      "Nevertheless, there were other and more subtle causes in operation. Diseases were imported by the whites, which were mitigated for them by some degree of acquired immunity, but which raged irresistibly through a population without that defence. Of these new diseases small-pox was one of the most destructive. In the epidemic of small-pox in 1518 the natives, Peter Martyr* reports, died like sheep. … Small-pox appeared in Mexico at the beginning of the conquest … sweeping off in some provinces half the population."
      ],
      "attribution": "Edward Gaylord Bourne, historian at Yale University, Spain in America, 1450–1580, published in 1904",
      "translation": "Adapted",
+     "footnotes": [
+      {
+       "mark": "*",
+       "text": "Peter Martyr, an Italian scholar at the Spanish court who wrote about the Americas in the early 1500s. Bourne, writing in 1904, uses older terms: \"the whites\" for Europeans and \"natives\" for Indigenous people."
+      }
+     ],
      "glossary": [
       {
        "t": "subjugation",
@@ -202,7 +212,7 @@
    "paragraphs": [
     "1. No Japanese ships shall ever be sent to foreign lands.",
     "2. No Japanese shall be permitted to go abroad, and if there be discovered anyone who has a secret intention to go abroad he shall be put to death. …",
-    "3. If any Japanese residing abroad comes back to Japan, he shall be put to death.",
+    "3. If any Japanese residing abroad comes back to Japan, even for a short time, he shall be put to death.",
     "4. Rewards are to be given to those who report to the authorities about the Christians: those who give information about the foreign missionaries shall be given 200 to 300 silver coins according to their merits. …",
     "5. Children and grandchildren of the foreign Christian missionaries shall not be permitted to remain in Japan, and anyone secretly giving shelter to such persons shall be put to death. …"
    ],
@@ -229,7 +239,7 @@
    "width": 960,
    "height": 1353,
    "alt": "A painting divided into sixteen panels, each showing a mother, a father, and a child, with a written label under each family.",
-   "caption": "Each panel shows a family. The label names the categories of the parents and the child. The first row reads, from left to right: \"Spaniard with Indian woman: Mestizo\"; \"Mestizo with Spanish woman: Castizo\"; \"Castizo with Spanish woman: Spaniard\"; \"Spaniard with Black woman: Mulatto.\" Families in the top rows wear fine European-style clothing. Families in the lower rows wear plainer clothes, carry goods or tools, and some are barefoot.",
+   "caption": "Each panel shows a family. The label names the categories of the parents and the child. The first row reads, from left to right: \"Spaniard with Indian woman: Mestizo\"; \"Mestizo with Spanish woman: Castizo\"; \"Castizo with Spanish woman: Spaniard\"; \"Spaniard with Black woman: Mulatto.\" Families in the top rows wear fine European-style clothing. Families in the lower rows wear plainer clothes, carry goods or tools, and some are barefoot. The labels use colonial terms: \"Indian\" meant an Indigenous person, and \"Mulatto,\" a term now considered offensive, meant a person of mixed Spanish and African ancestry.",
    "attribution": "Unknown artist, Las Castas (The Castes), oil painting made in New Spain (colonial Mexico), eighteenth century",
    "credit": "Museo Nacional del Virreinato, Tepotzotlán, Mexico. Public domain image via Wikimedia Commons.",
    "description": "Sixteen small family portraits arranged in four rows of four. In each, a man and a woman stand with a child, and a label below names the mixture of Spanish, Indigenous, and African ancestry the painter assigned to each person. The couples in the first row are dressed in rich cloaks, lace, and fine fabrics. Moving down the rows, the clothing becomes simpler, people carry baskets, fruit, or tools, and several figures in the bottom rows are barefoot.",
@@ -253,7 +263,7 @@
    "paragraphs": [
     "Under the later Hapsburgs*, with the increasing demands of the colonies on the one hand, and the utter ruin of Spanish industry on the other, the dependence of the Seville export commerce upon foreign manufactures was complete. They supplied five sixths of the cargoes of the outbound fleets. …",
     "The most serious and widespread development of contraband trade, however, was in merchandise introduced into the colonies directly from foreign markets. Portuguese, French, Dutch and other interlopers smuggled their cargoes into the West Indies, through the closed port of Buenos Aires, or even to the Pacific shores of Spanish America. The illicit trader was eagerly welcomed by the colonists, for he supplied their needs at reasonable prices. …",
-    "A flood of restrictions, a jealous monopoly, on the one hand—on the other, a flourishing contraband trade of outsiders—such is the story of Spanish-American commerce in the sixteenth and the seventeenth centuries. The Crown of Castile sought to extend Spanish power, and monopolize all the treasure of the Indies, by means of a rigid and complicated commercial system. Yet in the end, it saw the trade of the New World pass into the hands of its rivals … and its riches diverted at their very source."
+    "A flood of restrictions, a jealous monopoly, on the one hand—on the other, a flourishing contraband trade of outsiders …—such is the story of Spanish-American commerce in the sixteenth and the seventeenth centuries. The Crown of Castile sought to extend Spanish power, and monopolize all the treasure of the Indies, by means of a rigid and complicated commercial system. Yet in the end, it saw the trade of the New World pass into the hands of its rivals … and its riches diverted at their very source."
    ],
    "attribution": "Clarence H. Haring, historian at Harvard University, Trade and Navigation between Spain and the Indies in the Time of the Hapsburgs, published in 1918",
    "translation": "Adapted",
@@ -291,7 +301,7 @@
    "paragraphs": [
     "They said they had been the first in doing good to the English, and the English the first in doing wrong. They said when the English first came, their king's father* was as a great man and the English as a little child. He kept other Indians from wronging the English, and gave them corn and showed them how to plant, and was free to do them any good, and had let them have a hundred times more land than now the king had for his own people. …",
     "Another grievance was if twenty of their honest Indians testified that an Englishman had done them wrong, it was as nothing, and if but one of their worst Indians testified against any Indian or their king when it pleased the English, that was sufficient. Another grievance was when their kings sold land, the English would say it was more than they agreed to. … Now whom the English had owned for king or queen they would disinherit, and make another king that would give or sell them their land, so that now they had no hopes left to keep any land.",
-    "Another grievance: the English cattle and horses still increased, so that when they removed thirty miles from where the English had anything to do, they could not keep their corn from being spoiled, they never being used to fence."
+    "Another grievance: the English cattle and horses still increased, so that when they removed thirty miles from where the English had anything to do, they could not keep their corn from being spoiled, they never being used to fence. …"
    ],
    "attribution": "John Easton, deputy governor of the English colony of Rhode Island, report of a meeting with Metacom (called King Philip by the English), leader of the Wampanoag people, June 1675",
    "translation": "Spelling modernized; adapted",
@@ -312,14 +322,26 @@
     },
     {
      "t": "disinherit",
-     "d": "remove from a position that should pass down in a family"
+     "d": "remove from power"
+    },
+    {
+     "t": "owned",
+     "d": "recognized"
+    },
+    {
+     "t": "removed",
+     "d": "moved"
+    },
+    {
+     "t": "they never being used to fence",
+     "d": "they had never needed fences"
     }
    ]
   },
   "X8": {
    "type": "passage",
    "paragraphs": [
-    "From what I can recollect of these battles, they appear to have been raids of one little state or district on the other, to obtain prisoners or booty. Perhaps they were incited to this by those traders who brought the European goods I mentioned amongst us. Such a mode of obtaining slaves in Africa is common; and I believe more are procured this way, and by kidnapping, than any other. When a trader wants slaves, he applies to a chief for them, and tempts him with his wares. …",
+    "From what I can recollect of these battles, they appear to have been raids of one little state or district on the other, to obtain prisoners or booty. Perhaps they were incited to this by those traders who brought the European goods I mentioned amongst us. Such a mode of obtaining slaves in Africa is common; and I believe more are procured this way, and by kidnapping, than any other. When a trader wants slaves, he applies to a chief for them, and tempts him with his wares. … Accordingly he falls on his neighbours, and a desperate battle ensues. If he prevails and takes prisoners, he gratifies his avarice by selling them. …",
     "… Those prisoners which were not sold or redeemed we kept as slaves: but how different was their condition from that of the slaves in the West Indies! With us they do no more work than other members of the community, even their masters; their food, clothing and lodging were nearly the same as theirs, (except that they were not permitted to eat with those who were free-born); and there was scarce any other difference between them, than a superior degree of importance which the head of a family possesses in our state. … Some of these slaves have even slaves under them as their own property."
    ],
    "attribution": "Olaudah Equiano, formerly enslaved African, describing his childhood in West Africa in the 1750s, The Interesting Narrative of the Life of Olaudah Equiano, published in London in 1789",
@@ -445,11 +467,11 @@
   "P4": {
    "type": "passage",
    "paragraphs": [
-    "… There is a river on the hither side of which stands a Muslim town named Rander, wherein are very fair houses and open places. It is a very pleasant and wealthy place, for the Muslim inhabitants thereof trade in their own ships with Malacca, Bengal, Pegu, Martaban and Sumatra, in spices of divers sorts and drugs and silks in great abundance, musk, benzoin, porcelain and many other wares. Those who dwell here have many great and fair vessels, which carry on this trade, and whosoever would have at his disposal things from Malacca and China, let him go to this place, where he will find them in greater perfection than in any other place soever. …",
+    "… There is a river on the hither side of which stands a Muslim town named Rander, wherein are very fair houses and open places. It is a very pleasant and wealthy place, for the Muslim inhabitants thereof trade in their own ships with Malacca, Bengal, Tenasserim, Pegu, Martaban and Sumatra, in spices of divers sorts and drugs and silks in great abundance, musk, benzoin, porcelain and many other wares. Those who dwell here have many great and fair vessels, which carry on this trade, and whosoever would have at his disposal things from Malacca and China, let him go to this place, where he will find them in greater perfection than in any other place soever. …",
     "[In Malacca] dwell up to now great wholesale merchants of every kind, both Muslims and Hindus, many of them from Coromandel, men of great estates and owning many great ships which they call junks. They trade everywhere in goods of all kinds. … They go to Tenasserim, Pegu, Bengal, Pulicat, Coromandel, Malabar and Cambay, so much so that this city of Malacca is the richest seaport with the greatest number of wholesale merchants and abundance of shipping and trade that can be found in the whole world."
    ],
    "attribution": "Duarte Barbosa, Portuguese official who worked in India from about 1500 to 1516, The Book of Duarte Barbosa, completed about 1518",
-   "translation": "Translated by M. Longworth Dames (1918–1921); place names modernized; adapted",
+   "translation": "Translated by M. Longworth Dames (1918–1921); place names and terms modernized (\"Moorish\" to Muslim, \"Heathen\" to Hindu); adapted",
    "glossary": [
     {
      "t": "Rander",
@@ -476,11 +498,15 @@
   "P5": {
    "type": "passage",
    "paragraphs": [
-    "The following day, Xicotencatl, Captain General of this province*, came to see me … with about fifty of its chiefs, praying me … that I would admit them to the royal service of Your Majesty and to my friendship, and would pardon them the past errors, because they had not understood who we were. He said that they had exerted all their forces … to escape being subjected to anyone, since at no time had this province ever been so … on the contrary, they had always lived free and independent, since immemorial times, and had always defended themselves against the great power of Moctezuma, of his father, and grandfather, who held that country subjected, but had never been able to hold them in subjection, though they had them surrounded on all sides, so that no one could go out of the country. He said also that they ate no salt, since there was none in their country, nor were they allowed to go to buy it anywhere else. … They had endured it, and held it as better thus to be free, rather than be subjected to anyone."
+    "The following day, Xicotencatl, Captain General of this province*, came to see me … with about fifty of its chiefs, praying me … that I would admit them to the royal service of Your Majesty and to my friendship, and would pardon them the past errors, because they had not understood who we were. He said that they had exerted all their forces … to escape being subjected to anyone, since at no time had this province ever been so … on the contrary, they had always lived free and independent, since immemorial times, and had always defended themselves against the great power of Moctezuma, of his father, and grandfather, who held that country subjected, but had never been able to hold them in subjection, though they had them surrounded on all sides, so that no one could go out of the country. He said also that they ate no salt, since there was none in their country, nor were they allowed to go to buy it anywhere else. … They had endured it, and held it as better thus to be free, rather than be subjected to anyone. They had wanted to do the same with me, but seeing clearly that neither their forces nor their tricks could help them, they had decided that, rather than die, … they would become vassals** of Your Highness."
    ],
    "attribution": "Hernán Cortés, Spanish conquistador, letter to King Charles I of Spain (Holy Roman Emperor Charles V), 1520, describing events of September 1519",
-   "translation": "Translated by F. A. MacNutt (1908); adapted",
+   "translation": "Translated by F. A. MacNutt (1908); names modernized; adapted",
    "footnotes": [
+    {
+     "mark": "**",
+     "text": "subjects who owe loyalty and service to a ruler"
+    },
     {
      "mark": "*",
      "text": "Tlaxcala, an independent state east of Tenochtitlan, the Mexica (Aztec) capital"
@@ -513,7 +539,7 @@
    "footnotes": [
     {
      "mark": "*",
-     "text": "the royal fifth, a 20 percent tax on all silver mined in Spanish America"
+     "text": "the royal fifth, a 20 percent tax the Spanish king collected on silver"
     },
     {
      "mark": "**",
@@ -542,7 +568,7 @@
   "P7": {
    "type": "passage",
    "paragraphs": [
-    "… Though formerly ruled by a governor under the King of Kongo, this governor [of Angola] has, since the king became a Christian, made himself absolute ruler. … He is now a great and rich prince, and hardly less powerful than the King of Kongo, to whom he pays tribute or not, according as he chooses.",
+    "… Though formerly ruled by a governor under the King of Kongo, this governor [of Angola**] has, since the king became a Christian, made himself absolute ruler. Having seized all the lands he ruled, and in time conquered some of the surrounding provinces, he is now a great and rich prince, and hardly less powerful than the King of Kongo, to whom he pays tribute or not, according as he chooses.",
     "It came to pass that after Dom João II of Portugal planted the faith of Christ in the Kingdom of Kongo, and the king became a Christian, the Lord of Angola was always friendly towards him, being to some extent a vassal, and their people trading together. He sent tribute every year to the King of Kongo, and trade was carried on at the port of Luanda between the Portuguese and the people of Angola by permission of the King of Kongo. Slaves were bought and exchanged for other merchandise, all being sent to the island of São Tomé*. … Trade becoming successful, they began to send vessels themselves from Lisbon to Angola, and also a governor, Paulo Dias de Novais by name. … To this Paulo Dias, Dom Sebastião, King of Portugal, granted the power of conquering thirty-three leagues of country … where he was to take all he could gain for himself and his heirs."
    ],
    "attribution": "Filippo Pigafetta, Italian writer, A Report of the Kingdom of Kongo, 1591, based on the accounts of Duarte Lopes, a Portuguese merchant who lived in Kongo in the 1570s and 1580s",
@@ -550,7 +576,11 @@
    "footnotes": [
     {
      "mark": "*",
-     "text": "a Portuguese island colony off the coast of Central Africa with sugar plantations worked by enslaved Africans"
+     "text": "a Portuguese island colony in the Gulf of Guinea, off the coast of Central Africa"
+    },
+    {
+     "mark": "**",
+     "text": "here, the kingdom of Ndongo, south of Kongo; the Portuguese named it after its ruler's title, ngola"
     }
    ],
    "glossary": [
@@ -564,7 +594,7 @@
     },
     {
      "t": "leagues",
-     "d": "a distance unit; 33 leagues is about 115 miles"
+     "d": "an old distance unit; 33 leagues is roughly 100 miles"
     }
    ]
   },
@@ -608,7 +638,7 @@
     "The series of instructions to the Governors General … bade the chief executive in Asia never to make war unless forced. … It seems to have been morally impossible for the Dutch officials to obey these directions in the face of all the temptations to break them. Men of vigor, like Governor General Coen*, who did much to shape the Company's military policy in its early period, came to the conclusion that trade and war were inseparable. … Coen wrote to the directors in 1614 \"that trade in Asia must be conducted and maintained under protection and favor of your own weapons, and that the weapons must be supplied from the profits enjoyed by the trade, so that trade cannot be maintained without war or war without trade.\""
    ],
    "attribution": "Clive Day, historian at Yale University, The Policy and Administration of the Dutch in Java, published in 1904",
-   "translation": "Coen's letter translated from Dutch by Clive Day; \"India\" changed to \"Asia\" to match its meaning; adapted",
+   "translation": "Coen's letter translated from Dutch by Clive Day; \"India\" changed to \"Asia\" in Day's text and Coen's letter, to match its meaning; adapted",
    "footnotes": [
     {
      "mark": "*",
@@ -616,6 +646,10 @@
     }
    ],
    "glossary": [
+    {
+     "t": "bade",
+     "d": "ordered"
+    },
     {
      "t": "the Company",
      "d": "the Dutch East India Company (VOC), a joint-stock company chartered in 1602"
@@ -638,7 +672,7 @@
     "The teaching of the Western Ocean, which honors Tianzhu*, ranks also among those that are corrupt; but because these men understand mathematics, therefore the government employs them: of this you ought to be aware. To walk in these by-roads and deceive the people is what the law will not excuse. …",
     "Soldiers and people! act according to the sacred instructions of the late emperor**; and stop the progress of these strange sects as you would that of floods, fires, robbers, and thieves. Indeed the injury of floods, fires, robbers, and thieves ends with the body; but that of false religions reaches the human heart."
    ],
-   "attribution": "The Yongzheng Emperor of Qing China, Amplified Instructions on the Sacred Edict, 1724; these instructions were read aloud to the public twice a month across the empire",
+   "attribution": "The Yongzheng Emperor of Qing China, Amplified Instructions on the Sacred Edict, 1724, explaining its seventh rule, \"Degrade strange religions, in order to exalt the orthodox [Confucian] teaching\"; these instructions were read aloud to the public twice a month across the empire",
    "translation": "Translated by William Milne (1817); names modernized; adapted",
    "footnotes": [
     {
@@ -668,11 +702,17 @@
   "P11": {
    "type": "passage",
    "paragraphs": [
-    "In the first place, the efforts of the Spaniards to suppress not only the religious beliefs but also the ancient habits and customs of the Indians in other respects, and to make them conform to European methods of living, created friction between the two races. The Indians, however, continued well grounded in their native religious beliefs and practices, and the Spaniards found it practically impossible to suppress them either by the number of missionaries brought in, or by the severity of the punishments inflicted. In 1675 these \"superstitious practices\" reached such alarming extremes that Governor Treviño determined to stamp them out for good. Having captured forty-seven medicine men, who were alleged to be guilty of sorcery and witchcraft, he hanged three of them … and inflicted severe punishment upon the others, among whom was a certain native named Popé. …",
+    "In the first place, the efforts of the Spaniards to suppress not only the religious beliefs but also the ancient habits and customs of the Indians in other respects, and to make them conform to European methods of living, created friction between the two races*. The Indians, however, continued well grounded in their native religious beliefs and practices, and the Spaniards found it practically impossible to suppress them either by the number of missionaries brought in, or by the severity of the punishments inflicted. In 1675 these \"superstitious practices\" reached such alarming extremes that Governor Treviño determined to stamp them out for good. Having captured forty-seven medicine men, who were alleged to be guilty of sorcery and witchcraft, he hanged three of them … and inflicted severe punishment upon the others, among whom was a certain native named Popé. …",
     "On being released from captivity in 1675, he returned to his pueblo, full of resentment for the Spaniards. He at once began making preparations for a general revolt. … Other influences, such as the belief that the Spaniards could all be driven out of the country, and the almost universal desire to return to their ancient customs, all operated to make the revolt of the Indians general."
    ],
    "attribution": "Charles W. Hackett, historian, \"The Revolt of the Pueblo Indians of New Mexico in 1680,\" published in 1911, based on Spanish colonial records",
    "translation": "Adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "Hackett, writing in 1911, uses \"Indians\" for the Pueblo peoples and \"two races\" for Pueblos and Spaniards. \"Superstitious practices\" was the Spanish officials' label for Pueblo religion."
+    }
+   ],
    "glossary": [
     {
      "t": "pueblo",
@@ -699,7 +739,7 @@
    "footnotes": [
     {
      "mark": "*",
-     "text": "elite Ottoman infantry soldiers; many were recruited as boys through the devshirme, a levy of Christian boys from the Balkans who were converted to Islam and trained to serve the sultan"
+     "text": "elite Ottoman infantry soldiers who served the sultan"
     }
    ],
    "glossary": [
@@ -721,7 +761,7 @@
    "type": "passage",
    "paragraphs": [
     "One of the great gifts which His Majesty the Shahanshah* made at the beginning of this year was the remission of the jizya** throughout India. … In spite of the disapproval of statesmen, and of the great revenue, and of much chatter on the part of the ignorant, this sublime decree was issued. …",
-    "When this tax was imposed in former times … the reason for it was that they [earlier rulers], on account of heart-rooted hatred, were set on the contempt and destruction of those of other faiths. … At the present day, when … those who belong to other religions have, like those of one mind and one religion, bound up the waist of devotion and service, and exert themselves for the advancement of the empire, how should they be classed with that old faction which cherished mortal hatred, and be the subjects of contempt? Moreover the main cause of levying the tax in old times was the neediness of the rulers. At this day, when there are thousands of treasures in the storehouses of the world-wide government … why should a just and wise mind apply itself to collecting this tax?"
+    "When this tax was imposed in former times … the reason for it was that they [earlier rulers], on account of heart-rooted hatred, were set on the contempt and destruction of those of other faiths. … At the present day, when … those who belong to other religions have, like those of one mind and one religion, bound up the waist of devotion and service, and exert themselves for the advancement of the empire, how should they be classed with that old faction [non-Muslims seen as enemies in earlier times] and be the subjects of contempt? Moreover the main cause of levying the tax in old times was the neediness of the rulers. At this day, when there are thousands of treasures in the storehouses of the world-wide government … why should a just and wise mind apply itself to collecting this tax?"
    ],
    "attribution": "Abu'l-Fazl, adviser and official historian of the Mughal emperor Akbar, the Akbarnama, written in the 1590s, describing a decree of 1564",
    "translation": "Translated by Henry Beveridge (1907–1912); adapted",
@@ -741,6 +781,10 @@
      "d": "canceling a tax or debt"
     },
     {
+     "t": "bound up the waist of devotion and service",
+     "d": "worked loyally"
+    },
+    {
      "t": "decree",
      "d": "an official order from a ruler"
     },
@@ -756,9 +800,9 @@
    "width": 1280,
    "height": 554,
    "alt": "A wide Japanese folding screen painted on gold showing a large European sailing ship, a crowd of Portuguese merchants with servants carrying goods, and priests in dark robes greeting them near Japanese shops.",
-   "caption": "On the left, a large Portuguese carrack (a three-masted ocean-going ship) lies at anchor while small boats bring people and cargo ashore. In the center, Portuguese merchants in tall hats and baggy trousers walk in a procession; servants, several of them African, carry chests and goods. On the right, Catholic priests in black and gray robes come out to greet them beside Japanese shops and a building used as a church.",
+   "caption": "On the left, a large Portuguese carrack (a three-masted ocean-going ship) lies at anchor while small boats bring people and cargo ashore. In the center, Portuguese merchants in tall hats and baggy trousers walk in a procession; attendants, several of them African (servants or enslaved people), carry chests and goods. On the right, Catholic priests in black and gray robes come out to greet them beside Japanese shops and a building used as a church.",
    "attribution": "Kanō Naizen, Japanese painter, Arrival of the Southern Barbarians*, folding screen (ink, color, and gold leaf on paper), c. 1600",
-   "credit": "Kobe City Museum, Japan. Public domain image via Wikimedia Commons. *\"Southern Barbarians\" (Nanban) was the Japanese name for the Portuguese, who arrived from the south.",
+   "credit": "Kobe City Museum, Japan. Public domain image via Wikimedia Commons. *\"Southern Barbarians\" (Nanban) was the Japanese name for the Portuguese and Spanish, who came to Japan from the south.",
    "description": "A very wide painting on a gold background. A dark three-masted European ship with flags sits in the water at left, with sailors in its rigging. Along the beach in the middle, a parade of Portuguese merchants wearing hats and puffed trousers is led by a richly dressed man under a parasol; attendants carry boxes, bundles, and a covered chair, and a white horse is led along. At right, Jesuit priests in black robes and friars in gray meet the arrivals near a row of Japanese shops, while Japanese people look on.",
    "glossary": [
     {
@@ -773,7 +817,7 @@
   },
   "P16": {
    "type": "bar",
-   "title": "Estimated Number of Enslaved Africans Who Arrived in the Americas, by Region",
+   "title": "Estimated Number of Enslaved Africans Who Arrived in the Americas, Selected Regions",
    "categories": [
     "Brazil",
     "British\nCaribbean",
@@ -835,10 +879,10 @@
      "label": "Source 2",
      "paragraphs": [
       "The discovery of gold and silver in America, the extirpation, enslavement and entombment in mines of the native population, the beginning of the conquest and looting of the East Indies, the turning of Africa into a [hunting ground for enslaved people], signalled the rosy dawn of the era of capitalist production. … On their heels treads the commercial war of the European nations, with the globe for a theatre. …",
-      "These methods depend in part on brute force, for example, the colonial system. But they all employ the power of the State, the concentrated and organized force of society, to hasten … the process of transformation of the feudal mode of production into the capitalist mode."
+      "These methods [colonies, national debt, taxes, and tariffs] depend in part on brute force, for example, the colonial system. But they all employ the power of the State, the concentrated and organized force of society, to hasten … the process of transformation of the feudal mode of production into the capitalist mode. … Force is the midwife of every old society pregnant with a new one."
      ],
      "attribution": "Karl Marx, German philosopher and critic of capitalism, Capital, Volume 1, 1867",
-     "translation": "Translated by Samuel Moore and Edward Aveling (1887); adapted",
+     "translation": "Translated by Samuel Moore and Edward Aveling (1887); offensive 1887 wording replaced in brackets; adapted",
      "glossary": [
       {
        "t": "extirpation",
@@ -855,6 +899,10 @@
       {
        "t": "capitalist production",
        "d": "an economy in which private owners invest money to make profit"
+      },
+      {
+       "t": "feudal mode of production",
+       "d": "an older economy of lords and peasants"
       }
      ]
     }
@@ -866,7 +914,7 @@
    "id": "U4-P01",
    "set": "P1",
    "topic": "4.2",
-   "lo": "B",
+   "lo": "C",
    "skill": "3.A",
    "difficulty": "easy",
    "stem": "The answer \"in search of Christians and of spices\" in the first paragraph best reflects which motives for Portuguese exploration?",
@@ -894,16 +942,16 @@
    "difficulty": "medium",
    "stem": "The reaction to the Portuguese gifts in the second paragraph best shows that",
    "options": {
-    "A": "the people of Calicut had never before met merchants from foreign lands",
-    "B": "the Portuguese were welcomed as the most powerful traders in the Indian Ocean",
-    "C": "Calicut was part of a rich trade network in which Portuguese goods had little value",
+    "A": "Calicut was part of a rich trade network in which Portuguese goods had little value",
+    "B": "the people of Calicut had never before met merchants from foreign lands",
+    "C": "the Portuguese were welcomed as the most powerful traders in the Indian Ocean",
     "D": "Indian rulers would accept only Christian merchants in their ports"
    },
-   "answer": "C",
+   "answer": "A",
    "explanation": "The king's officials laughed at the cheap gifts and said even poor merchants from Mecca gave more. Calicut was already rich and connected to a huge trade network, and the Portuguese had little it wanted.",
    "whyNot": {
-    "A": "The first paragraph shows merchants from Tunis already in Calicut, and the officials compare the gifts to those of merchants from Mecca, so they knew foreign traders well.",
-    "B": "The officials laughed at the gifts, which is not how you treat the most powerful traders.",
+    "B": "Merchants from Tunis were already in Calicut, and the officials compared the gifts with those from Mecca. The people of Calicut knew foreign traders well.",
+    "C": "The officials laughed at the gifts, which is not how you treat the most powerful traders.",
     "D": "Muslim merchants were already trading in Calicut, so the port was not limited to Christians."
    },
    "hint": "Why would officials laugh at hats, cloth, and honey? What were they used to getting?"
@@ -913,21 +961,21 @@
    "set": "P1",
    "topic": "4.1",
    "lo": "A",
-   "skill": "4.B",
+   "skill": "4.A",
    "difficulty": "medium",
    "stem": "Vasco da Gama's ability to sail from East Africa to Calicut was most directly aided by",
    "options": {
     "A": "steam-powered ships that could sail against the monsoon winds",
-    "B": "a local pilot hired in East Africa who knew the monsoon wind patterns",
-    "C": "maps that the Ming admiral Zheng He had given to the king of Portugal years earlier",
-    "D": "a canal that connected the Mediterranean Sea to the Red Sea"
+    "B": "maps that the Ming admiral Zheng He had given to the king of Portugal years earlier",
+    "C": "a canal that connected the Mediterranean Sea to the Red Sea",
+    "D": "a local pilot hired in East Africa who knew the monsoon wind patterns"
    },
-   "answer": "B",
+   "answer": "D",
    "explanation": "At Malindi in East Africa, da Gama hired a pilot who knew how to use the monsoon winds to cross the Indian Ocean. Europeans' ocean travel depended on knowledge from other peoples.",
    "whyNot": {
-    "A": "Steam-powered ships were not used until the 1800s.",
-    "C": "Zheng He did not give maps to Portugal; his voyages had ended decades earlier.",
-    "D": "The Suez Canal was not built until 1869, and da Gama sailed around Africa."
+    "A": "Steam-powered ships did not appear until the late 1700s and early 1800s.",
+    "B": "Zheng He did not give maps to Portugal; his voyages had ended decades earlier.",
+    "C": "The Suez Canal was not built until 1869, and da Gama sailed around Africa."
    },
    "hint": "Da Gama sailed around Africa. Who in the Indian Ocean already knew how to cross it?"
   },
@@ -942,7 +990,7 @@
    "options": {
     "A": "warn other European rulers to keep their ships away from the Caribbean",
     "B": "persuade the Taíno to trade their gold for Spanish goods",
-    "C": "show that he had reached the Spice Islands of Southeast Asia",
+    "C": "show that the islands' people were already Christians",
     "D": "convince the Spanish monarchs to keep paying for his voyages"
    },
    "answer": "D",
@@ -950,7 +998,7 @@
    "whyNot": {
     "A": "The letter was printed and shared across Europe; it advertises riches instead of warning others away.",
     "B": "The letter is written to a Spanish official, not to the Taíno.",
-    "C": "Columbus did think he was near Asia, but the passage stresses riches \"their Highnesses\" could gain, which is about winning more support."
+    "C": "Columbus hopes the islanders \"might be led to become Christians,\" so they were not Christians yet."
    },
    "hint": "Who was paying for the voyages? What would make them want to pay again?"
   },
@@ -963,15 +1011,15 @@
    "difficulty": "easy",
    "stem": "Based on the third paragraph, Columbus hoped that his voyage would lead to",
    "options": {
-    "A": "converts to Christianity and new wealth for Spain from the islands",
-    "B": "a peaceful partnership in which the islands' people kept their land",
+    "A": "a peaceful partnership in which the islands' people kept their land",
+    "B": "converts to Christianity and new wealth for Spain from the islands",
     "C": "the end of Spain's wars with the Muslim states of North Africa",
     "D": "a trade treaty between Spain and the emperor of China"
    },
-   "answer": "A",
+   "answer": "B",
    "explanation": "Columbus promised \"all the gold they require\" and talked about \"turning so many nations to our holy faith.\" He mixed religious goals with the hope of riches.",
    "whyNot": {
-    "B": "Columbus offers to ship the islanders as slaves, so he did not plan for them to keep control of their land.",
+    "A": "Columbus offers to ship the islanders as slaves, so he did not plan for them to keep control of their land.",
     "C": "The paragraph does not mention North Africa.",
     "D": "The paragraph talks about gold, spices, cotton, slaves, and converts, not a treaty with China."
    },
@@ -1010,15 +1058,15 @@
    "difficulty": "easy",
    "stem": "The most important cause of the trend shown in the table was",
    "options": {
-    "A": "large-scale migration of Indigenous people from Mexico to the Caribbean",
-    "B": "diseases such as smallpox and measles, to which Indigenous people had no immunity",
+    "A": "diseases such as smallpox and measles, to which Indigenous people had no immunity",
+    "B": "large-scale migration of Indigenous people from Mexico to the Caribbean",
     "C": "a series of volcanic eruptions that destroyed farmland in central Mexico",
     "D": "the Spanish practice of shipping large numbers of Indigenous workers to labor in Spain"
    },
-   "answer": "B",
+   "answer": "A",
    "explanation": "The biggest killer was disease. Smallpox, measles, and other illnesses from Europe and Africa spread through people who had never been exposed to them. War, famine, and forced labor made the epidemics even deadlier.",
    "whyNot": {
-    "A": "The Caribbean's Indigenous population was also collapsing; people were not moving there.",
+    "B": "The Caribbean's Indigenous population was also collapsing; people were not moving there.",
     "C": "Volcanoes did not cause this decline.",
     "D": "Spain did not ship large numbers of Indigenous workers to Europe."
    },
@@ -1036,15 +1084,15 @@
    "options": {
     "A": "the end of all Spanish silver mining in central Mexico",
     "B": "a shift by Indigenous survivors from farming to herding",
-    "C": "large-scale migration of free workers from China to Mexico",
-    "D": "greater use of enslaved Africans and other forced labor"
+    "C": "greater use of enslaved Africans and other forced labor",
+    "D": "large-scale migration of free workers from China to Mexico"
    },
-   "answer": "D",
+   "answer": "C",
    "explanation": "With so many Indigenous people dead, colonists needed workers. They turned more and more to enslaved Africans and other forced-labor systems.",
    "whyNot": {
     "A": "Silver mining in Mexico kept growing in the late 1500s and 1600s.",
     "B": "Most surviving Indigenous people kept farming.",
-    "C": "Free Chinese workers did not migrate to Mexico in large numbers."
+    "D": "Free Chinese workers did not migrate to Mexico in large numbers."
    },
    "hint": "If most of the workers die, how do colonists keep the mines and fields running?",
    "reasoning": "Causation"
@@ -1060,14 +1108,14 @@
    "options": {
     "A": "The figures are estimates from partial records, and other historians dispute them.",
     "B": "The table shows only the population of the Caribbean islands, not Mexico.",
-    "C": "The table leaves out the years in which the Spanish conquest began.",
+    "C": "The table begins after the Spanish conquest was already over.",
     "D": "The figures come from Aztec census takers who greatly exaggerated how many people died."
    },
    "answer": "A",
    "explanation": "The note says these are estimates and that some historians think the starting number is too high. No one counted everyone in 1518, so historians argue about the exact numbers, even though all agree the drop was enormous.",
    "whyNot": {
     "B": "The title says central Mexico.",
-    "C": "The table starts in 1518, right at the start of the conquest (1519–1521).",
+    "C": "The table starts in 1518, before the conquest began in 1519.",
     "D": "The note says the figures come from historians using Spanish tax and tribute records."
    },
    "hint": "Read the note under the table. Are these exact counts?"
@@ -1081,15 +1129,15 @@
    "difficulty": "medium",
    "stem": "Barbosa's description of Rander and Malacca best supports which of the following claims?",
    "options": {
-    "A": "The Portuguese had already taken over nearly all Indian Ocean trade by the early 1500s.",
-    "B": "Asian merchants still traded widely across the Indian Ocean after the Portuguese came.",
+    "A": "Asian merchants still traded widely across the Indian Ocean after the Portuguese came.",
+    "B": "The Portuguese had already taken over nearly all Indian Ocean trade by the early 1500s.",
     "C": "Indian Ocean trade was carried on mainly by Christian merchants from Europe.",
     "D": "Trade between India and China had largely stopped by the early 1500s."
    },
-   "answer": "B",
+   "answer": "A",
    "explanation": "Barbosa, a Portuguese official, describes rich Muslim and Hindu merchants with their own big ships trading all over Asia. The Portuguese arrived, but Asian merchants kept trading.",
    "whyNot": {
-    "A": "Barbosa describes Muslim and Hindu merchants with their own ships trading widely, so the Portuguese had not taken over.",
+    "B": "Barbosa describes Muslim and Hindu merchants with their own ships trading widely, so the Portuguese had not taken over.",
     "C": "The merchants Barbosa describes are Muslim and Hindu, not European Christians.",
     "D": "Barbosa says goods from China could be found at Rander, so that trade continued."
    },
@@ -1100,7 +1148,7 @@
    "set": "P4",
    "topic": "4.4",
    "lo": "F",
-   "skill": "4.A",
+   "skill": "5.B",
    "difficulty": "easy",
    "stem": "The trading activity described in the passage was most directly a continuation of",
    "options": {
@@ -1130,17 +1178,17 @@
    "options": {
     "A": "China's Ming dynasty had recently conquered Malacca and closed it to foreign merchants",
     "B": "an earthquake had recently destroyed most of Malacca's harbor",
-    "C": "Portugal had recently captured Malacca and was trying to control trade through it",
+    "C": "Asian merchants stayed even after Portugal captured the city in 1511",
     "D": "the Dutch East India Company had taken over Malacca's trade"
    },
    "answer": "C",
-   "explanation": "Portugal captured Malacca in 1511, a few years before Barbosa finished his book. \"Up to now\" hints that things were changing under Portuguese control.",
+   "explanation": "Portugal captured Malacca in 1511, a few years before Barbosa finished his book. \"Up to now\" means \"still, even today.\" Asian merchants kept living and trading there under Portuguese rule.",
    "whyNot": {
     "A": "China did not conquer Malacca.",
     "B": "Malacca's harbor kept operating.",
     "D": "The Dutch did not take Malacca until 1641, long after Barbosa wrote."
    },
-   "hint": "Barbosa finished his book around 1518. What happened to Malacca in 1511?"
+   "hint": "Barbosa finished his book around 1518. What happened to Malacca in 1511? Did the merchants leave?"
   },
   {
    "id": "U4-P13",
@@ -1149,7 +1197,7 @@
    "lo": "E",
    "skill": "3.A",
    "difficulty": "easy",
-   "stem": "Based on the passage, the Tlaxcalans were willing to ally with Cortés mainly because",
+   "stem": "The passage suggests that an alliance with the Spaniards appealed to the Tlaxcalans mainly because",
    "options": {
     "A": "they had long resisted the Mexica Empire and wanted to stay independent of it",
     "B": "they had converted to Christianity and wished to serve the Spanish king",
@@ -1174,19 +1222,19 @@
    "difficulty": "easy",
    "stem": "The alliance described in the passage most directly contributed to",
    "options": {
-    "A": "the Inca Empire's victory over the Spanish in 1532",
-    "B": "the founding of a Mexica colony in the Caribbean",
-    "C": "the Spanish decision to abandon Mexico for Peru",
-    "D": "the Spanish defeat of the Mexica Empire in 1521"
+    "A": "the Spanish defeat of the Mexica Empire in 1521",
+    "B": "the Inca Empire's victory over the Spanish in 1532",
+    "C": "the founding of a Mexica colony in the Caribbean",
+    "D": "the Spanish decision to abandon Mexico for Peru"
    },
-   "answer": "D",
-   "explanation": "Tens of thousands of Tlaxcalan and other Indigenous allies fought beside a few hundred Spaniards. Along with smallpox, these alliances helped the Spanish conquer Tenochtitlan in 1521.",
+   "answer": "A",
+   "explanation": "Tens of thousands of Tlaxcalan and other Indigenous allies fought beside fewer than a thousand Spaniards. Along with smallpox, these alliances helped the Spanish conquer Tenochtitlan in 1521.",
    "whyNot": {
-    "A": "The Inca were defeated by Spanish forces in the 1530s.",
-    "B": "The Mexica did not found colonies in the Caribbean.",
-    "C": "Spain kept Mexico; it became the center of New Spain."
+    "B": "The Inca were defeated by Spanish forces in the 1530s.",
+    "C": "The Mexica did not found colonies in the Caribbean.",
+    "D": "Spain kept Mexico; it became the center of New Spain."
    },
-   "hint": "A few hundred Spaniards could not defeat a huge empire alone. Who helped them?",
+   "hint": "A small Spanish force could not defeat a huge empire alone. Who helped them?",
    "reasoning": "Causation"
   },
   {
@@ -1223,15 +1271,15 @@
    "options": {
     "A": "pay high wages to keep Indigenous miners working at Potosí",
     "B": "make coins that could be spent only inside Spanish America",
-    "C": "buy silk, porcelain, and spices from Asian merchants, especially in China",
-    "D": "pay tribute to the Ottoman sultan in exchange for use of Mediterranean ports"
+    "C": "pay tribute to the Ottoman sultan in exchange for use of Mediterranean ports",
+    "D": "buy silk, porcelain, and spices from Asian merchants, especially in China"
    },
-   "answer": "C",
+   "answer": "D",
    "explanation": "Europeans had few goods that Asians wanted, but they had American silver. They used it to buy Chinese silk and porcelain and Asian spices. China's demand for silver was huge.",
    "whyNot": {
-    "A": "Most mine labor was forced; workers were not paid high wages.",
+    "A": "Mita workers were drafted and paid very little; the Spanish did not pay high wages to keep miners.",
     "B": "Spanish silver coins spread around the world, not only in Spanish America.",
-    "D": "Spain did not pay tribute to the Ottomans."
+    "C": "Spain did not pay tribute to the Ottomans."
    },
    "hint": "Europeans wanted Asian goods. What could they pay with?",
    "reasoning": "Causation"
@@ -1241,20 +1289,20 @@
    "set": "P6",
    "topic": "4.4",
    "lo": "F",
-   "skill": "4.A",
+   "skill": "1.B",
    "difficulty": "medium",
    "stem": "Much of the labor described in the third paragraph was supplied through the mita, a system that",
    "options": {
-    "A": "adapted the Inca labor tax to force Indigenous men to work in the mines in turns",
-    "B": "brought indentured servants from Spain who worked in exchange for free passage",
-    "C": "paid free Indigenous workers wages set by supply and demand in the market",
+    "A": "brought indentured servants from Spain who worked in exchange for free passage",
+    "B": "paid free Indigenous workers wages set by supply and demand in the market",
+    "C": "adapted the Inca labor tax to force Indigenous men to work in the mines in turns",
     "D": "relied on enslaved people captured in Africa as the main source of labor in the mines"
    },
-   "answer": "A",
+   "answer": "C",
    "explanation": "The Inca had a labor tax called the mit'a. The Spanish changed it into the mita, which forced Indigenous villages to send men to work in the silver mines for set periods. This is an example of continuity and change.",
    "whyNot": {
-    "B": "The mita drafted Indigenous Andeans, not Spanish servants.",
-    "C": "The mita was forced labor, not free wage work.",
+    "A": "The mita drafted Indigenous Andeans, not Spanish servants.",
+    "B": "The mita was forced labor, not free wage work.",
     "D": "The Potosí mines relied mostly on Indigenous Andean workers, not enslaved Africans."
    },
    "hint": "This system existed before the Spanish arrived. Which empire ruled the Andes before Spain?",
@@ -1263,23 +1311,23 @@
   {
    "id": "U4-P18",
    "set": "P6",
-   "topic": "4.5",
-   "lo": "I",
+   "topic": "4.4",
+   "lo": "E",
    "skill": "2.A",
    "difficulty": "medium",
    "stem": "Acosta's statement that heaven gave the Kings of Spain power \"environing the whole world\" most likely reflects",
    "options": {
-    "A": "his criticism of the Spanish crown for spending too much on wars in Europe",
-    "B": "his belief that Spain should share its American silver with Portugal",
-    "C": "his support for Indigenous rebels who wanted to end Spanish rule",
-    "D": "his view, as a Spanish Jesuit, that Spain's empire showed God's favor"
+    "A": "his view, as a Spanish Jesuit, that Spain's empire showed God's favor",
+    "B": "his criticism of the Spanish crown for spending too much on wars in Europe",
+    "C": "his belief that Spain should share its American silver with Portugal",
+    "D": "his support for Indigenous rebels who wanted to end Spanish rule"
    },
-   "answer": "D",
+   "answer": "A",
    "explanation": "Acosta was a Spanish Catholic priest. He saw Spain's huge, silver-rich empire as a sign that God favored the Spanish kings.",
    "whyNot": {
-    "A": "Acosta praises the kings' power here; he does not criticize their spending.",
-    "B": "Nothing in the passage suggests sharing silver with Portugal.",
-    "C": "Acosta describes Spain's power as a gift from heaven, not something to overthrow."
+    "B": "Acosta praises the kings' power here; he does not criticize their spending.",
+    "C": "Nothing in the passage suggests sharing silver with Portugal.",
+    "D": "Acosta describes Spain's power as a gift from heaven, not something to overthrow."
    },
    "hint": "Think about who Acosta was and who he served."
   },
@@ -1292,19 +1340,19 @@
    "difficulty": "medium",
    "stem": "The passage best supports which claim about Kongo and Angola in the 1500s?",
    "options": {
-    "A": "Kongo's rulers stopped all trade with the Portuguese as soon as the king became a Christian.",
-    "B": "The Portuguese had conquered all of Kongo and Angola by the early 1500s.",
-    "C": "Kongo and Angola traded mainly with Muslim merchants from the Indian Ocean coast.",
-    "D": "Trade with the Portuguese, including the slave trade, increased the power of local rulers."
+    "A": "Kongo's rulers stopped trading with the Portuguese once the king became a Christian.",
+    "B": "Kongo's rulers controlled early trade with the Portuguese, including the slave trade.",
+    "C": "The Portuguese had conquered Kongo and Angola by the early 1500s.",
+    "D": "Kongo and Angola traded mainly with Muslim merchants from the Indian Ocean coast."
    },
-   "answer": "D",
-   "explanation": "The governor of Angola grew into a \"great and rich prince\" while trading with the Portuguese, including selling enslaved people. Atlantic trade made some African rulers richer and more powerful.",
+   "answer": "B",
+   "explanation": "Trade at Luanda happened \"by permission of the King of Kongo.\" At first, African rulers, not the Portuguese, decided who could trade. Portugal tried to conquer land only later.",
    "whyNot": {
-    "A": "The passage says trade with the Portuguese continued after the king's conversion.",
-    "B": "The passage describes Kongo and Angola as having their own powerful rulers.",
-    "C": "The passage describes trade with the Portuguese at Luanda and São Tomé, an Atlantic trade."
+    "A": "The passage says the Lord of Angola kept trading with the Portuguese after Kongo's king became a Christian.",
+    "C": "The passage says Portugal began trying to conquer land only later, under Paulo Dias de Novais.",
+    "D": "The trade in the passage ran through Luanda and São Tomé, an Atlantic trade with the Portuguese."
    },
-   "hint": "How does the passage describe the ruler of Angola by the 1580s?"
+   "hint": "Who gave permission for trade at the port of Luanda?"
   },
   {
    "id": "U4-P20",
@@ -1318,7 +1366,7 @@
     "A": "the spread of Islam into Central Africa through trans-Saharan caravan trade",
     "B": "the spread of Christianity by sea, often adopted by rulers seeking trade and allies",
     "C": "the decline of Christianity across Africa after Ethiopia was conquered",
-    "D": "the rejection of European religious teachings by nearly all African states"
+    "D": "the rejection of European religious teachings by most African rulers"
    },
    "answer": "B",
    "explanation": "Portuguese ships brought Christian missionaries along with trade. Kongo's rulers became Christian, which also helped them build ties with Portugal.",
@@ -1334,24 +1382,23 @@
    "set": "P7",
    "topic": "4.4",
    "lo": "G",
-   "skill": "5.B",
+   "skill": "1.B",
    "difficulty": "easy",
    "stem": "The enslaved people sent to São Tomé, as described in the passage, were most often forced to work",
    "options": {
-    "A": "in silver mines in the Andes run by Spanish colonial officials",
-    "B": "in cotton textile workshops in the Indian region of Gujarat",
-    "C": "on sugar plantations on Atlantic islands and later in Brazil",
+    "A": "on sugar plantations on Atlantic islands and later in Brazil",
+    "B": "in silver mines in the Andes run by Spanish colonial officials",
+    "C": "in cotton textile workshops in the Indian region of Gujarat",
     "D": "on rice farms in southern China owned by Portuguese merchants"
    },
-   "answer": "C",
+   "answer": "A",
    "explanation": "São Tomé was an early sugar colony worked by enslaved Africans. The same plantation system then spread to Brazil and the Caribbean.",
    "whyNot": {
-    "A": "The Andean mines relied mostly on Indigenous Andean workers drafted through the mita.",
-    "B": "Gujarat's textile workers were local Indian artisans.",
+    "B": "The Andean mines relied mostly on Indigenous Andean workers drafted through the mita.",
+    "C": "Gujarat's textile workers were local Indian artisans.",
     "D": "Portuguese merchants did not run rice farms in China."
    },
-   "hint": "Read the footnote about São Tomé.",
-   "reasoning": "Causation"
+   "hint": "What crop did the Portuguese grow with enslaved labor on Atlantic islands?"
   },
   {
    "id": "U4-P22",
@@ -1362,16 +1409,16 @@
    "difficulty": "easy",
    "stem": "Mun's main argument is that a kingdom becomes wealthy by",
    "options": {
-    "A": "selling more abroad than it buys, so the difference comes in as gold and silver",
-    "B": "buying as many foreign goods as it can so that prices at home stay low",
-    "C": "collecting gifts and tribute from weaker nations instead of trading",
+    "A": "buying as many foreign goods as it can so that prices at home stay low",
+    "B": "collecting gifts and tribute from weaker nations instead of trading",
+    "C": "selling more abroad than it buys, so the difference comes in as gold and silver",
     "D": "lending its gold and silver to foreign rulers in return for high rates of interest"
    },
-   "answer": "A",
+   "answer": "C",
    "explanation": "Mun's rule is to sell more to foreigners than you buy from them. The extra comes back as gold and silver. This idea is called mercantilism.",
    "whyNot": {
-    "B": "Mun says to sell more to foreigners than we buy from them, the opposite of buying as much as possible.",
-    "C": "Mun says gifts and purchases from other nations are \"uncertain and of small consideration.\"",
+    "A": "Mun says to sell more to foreigners than we buy from them, the opposite of buying as much as possible.",
+    "B": "Mun says gifts and purchases from other nations are \"uncertain and of small consideration.\"",
     "D": "Mun does not discuss lending money to foreign rulers."
    },
    "hint": "Look for the word \"rule\" in the first paragraph."
@@ -1381,20 +1428,20 @@
    "set": "P8",
    "topic": "4.5",
    "lo": "H",
-   "skill": "4.A",
+   "skill": "5.B",
    "difficulty": "medium",
    "stem": "Ideas like Mun's most directly encouraged European states to",
    "options": {
-    "A": "remove all tariffs and other limits so they could trade freely with every foreign nation",
-    "B": "end their competition with one another for colonies overseas",
-    "C": "charter trading companies and seek colonies for raw materials and markets",
+    "A": "remove tariffs and other limits so they could trade freely with foreign nations",
+    "B": "charter trading companies and seek colonies for raw materials and markets",
+    "C": "end their competition with one another for colonies overseas",
     "D": "forbid the sale of manufactured goods to their own colonies"
    },
-   "answer": "C",
+   "answer": "B",
    "explanation": "If wealth comes from selling more than you buy, colonies help: they supply cheap raw materials and buy finished goods. States chartered companies like the English and Dutch East India Companies to win this trade.",
    "whyNot": {
     "A": "Mercantilists wanted to limit imports, not remove all tariffs.",
-    "B": "Mercantilism made competition for colonies stronger.",
+    "C": "Mercantilism made competition for colonies stronger.",
     "D": "Mercantilists wanted colonies to buy the home country's goods."
    },
    "hint": "How could colonies help a country sell more than it buys?",
@@ -1409,15 +1456,15 @@
    "difficulty": "hard",
    "stem": "Which of the following writers would most likely have disagreed with Mun's view of how nations grow rich?",
    "options": {
-    "A": "Jean-Baptiste Colbert, the French minister who built up French industry and trading companies",
-    "B": "Adam Smith, who argued in 1776 that free trade and the division of labor create wealth",
+    "A": "Adam Smith, who argued in 1776 that free trade and the division of labor create wealth",
+    "B": "Jean-Baptiste Colbert, the French minister who built up French industry and trading companies",
     "C": "Prince Henry of Portugal, who sponsored voyages to win gold and trade in Africa",
     "D": "Jan Pieterszoon Coen, who used force to protect the Dutch East India Company's trade"
    },
-   "answer": "B",
+   "answer": "A",
    "explanation": "Adam Smith criticized mercantilism. He argued that wealth comes from producing goods and trading freely, not from piling up gold and silver.",
    "whyNot": {
-    "A": "Colbert was a leading mercantilist, so he would mostly agree with Mun.",
+    "B": "Colbert was a leading mercantilist, so he would mostly agree with Mun.",
     "C": "Prince Henry wanted gold and trade for Portugal, which fits mercantilist goals.",
     "D": "Coen fought to win trade for the Dutch company, which fits mercantilist competition."
    },
@@ -1433,17 +1480,17 @@
    "difficulty": "medium",
    "stem": "Day's main argument in the passage is that",
    "options": {
-    "A": "the Dutch directors at home planned from the start to conquer all of Java",
+    "A": "the Dutch directors at home planned from the start to conquer Java",
     "B": "the Dutch carefully avoided war in Asia because their trade depended on peace with local rulers",
-    "C": "Javanese rulers forced the Dutch to leave the island by the middle of the 1600s",
-    "D": "Dutch officials in Asia came to see military force as necessary to protect the Company's trade"
+    "C": "Dutch officials in Asia came to see military force as necessary to protect the Company's trade",
+    "D": "Javanese rulers forced the Dutch to leave the island by the middle of the 1600s"
    },
-   "answer": "D",
+   "answer": "C",
    "explanation": "Day argues the Dutch came only to trade, but officials like Coen decided they had to use force to protect that trade. Coen said trade and war could not be separated.",
    "whyNot": {
     "A": "Day says the directors' orders were to avoid war; expansion came from officials on the spot.",
     "B": "Day says officials found it \"morally impossible\" to obey orders to avoid war.",
-    "C": "The Dutch stayed and expanded on Java."
+    "D": "The Dutch stayed and expanded on Java."
    },
    "hint": "Read Coen's quotation at the end. What two things did he say go together?"
   },
@@ -1456,15 +1503,15 @@
    "difficulty": "easy",
    "stem": "The Dutch East India Company was a joint-stock company, which means that it",
    "options": {
-    "A": "raised money by selling shares to investors who shared its profits and risks",
-    "B": "was owned and run directly by the government of the Netherlands",
+    "A": "was owned and run directly by the government of the Netherlands",
+    "B": "raised money by selling shares to investors who shared its profits and risks",
     "C": "was a loose group of merchants who shared ships but each kept their own separate profits",
     "D": "was a religious order that paid for missions with profits from trade"
    },
-   "answer": "A",
+   "answer": "B",
    "explanation": "A joint-stock company sells shares (stock) to many investors. They pool their money, share the risks, and split the profits. This let companies like the VOC pay for expensive voyages.",
    "whyNot": {
-    "B": "The VOC got powers from the government, but private investors owned it.",
+    "A": "The VOC got powers from the government, but private investors owned it.",
     "C": "In a joint-stock company, investors pool money and share the profits.",
     "D": "The VOC was a business, not a religious order."
    },
@@ -1481,15 +1528,15 @@
    "options": {
     "A": "the Tokugawa shogunate, which strictly limited contact with European merchants",
     "B": "the Ming dynasty, which ended Zheng He's great naval voyages in the 1430s",
-    "C": "the Portuguese, who used warships and forts to control Indian Ocean ports",
-    "D": "the Mughal emperor Akbar, who ended the jizya tax on non-Muslim subjects"
+    "C": "the Mughal emperor Akbar, who ended the jizya tax on non-Muslim subjects",
+    "D": "the Portuguese, who used warships and forts to control Indian Ocean ports"
    },
-   "answer": "C",
+   "answer": "D",
    "explanation": "Like Coen, the Portuguese used armed ships and forts to control ports and sea lanes in the Indian Ocean. Both mixed trade with military force.",
    "whyNot": {
     "A": "The Tokugawa limited trade; they did not use force to win it overseas.",
     "B": "The Ming ended their voyages instead of using them to win trade by force.",
-    "D": "Akbar's tax policy was about religion and loyalty, not using force to control trade."
+    "C": "Akbar's tax policy was about religion and loyalty, not using force to control trade."
    },
    "hint": "Which group also used cannons and forts to control trade at sea?",
    "reasoning": "Comparison"
@@ -1504,15 +1551,15 @@
    "stem": "The passage shows that the Qing government viewed Christianity as",
    "options": {
     "A": "a valuable teaching that should replace the ideas of Confucius",
-    "B": "a dangerous teaching, though its missionaries' math skills were useful",
-    "C": "the new official religion of the Qing emperor and his court",
+    "B": "the new official religion of the Qing emperor and his court",
+    "C": "a dangerous teaching, though its missionaries' math skills were useful",
     "D": "a harmless teaching that ordinary people should be free to follow if they wished"
    },
-   "answer": "B",
+   "answer": "C",
    "explanation": "The edict calls Christianity \"corrupt\" and says the law will not excuse spreading it. But it admits the government employs the missionaries because they know mathematics.",
    "whyNot": {
     "A": "The passage calls Christianity \"corrupt\" and praises Confucian teaching.",
-    "C": "Christianity is called corrupt; the emperors supported Confucian ideas.",
+    "B": "Christianity is called corrupt; the emperors supported Confucian ideas.",
     "D": "The passage warns people to stop \"strange sects\" like floods and fires."
    },
    "hint": "Find the word \"but\" in the third paragraph."
@@ -1548,17 +1595,17 @@
    "lo": "M",
    "skill": "4.B",
    "difficulty": "hard",
-   "stem": "The edict's praise for \"the teaching of the learned\" reflects the Qing emperors' effort to",
+   "stem": "The edict's support for \"the teaching of the learned\" (Confucianism) reflects the Qing emperors' effort to",
    "options": {
-    "A": "present themselves, as Manchu rulers, as protectors of Confucian tradition",
-    "B": "replace Confucianism with Buddhism as the main belief of the empire",
+    "A": "replace Confucianism with Buddhism as the main belief of the empire",
+    "B": "present themselves, as Manchu rulers, as protectors of Confucian tradition",
     "C": "adopt European science and mathematics in place of traditional Chinese learning",
-    "D": "convince Manchu nobles to give up their own culture completely"
+    "D": "convince Manchu nobles to give up their own culture"
    },
-   "answer": "A",
+   "answer": "B",
    "explanation": "The Qing were Manchus, a minority from outside China, ruling a mostly Han Chinese population. By defending Confucian tradition, they showed they were proper rulers of China.",
    "whyNot": {
-    "B": "The edict lists Buddhism among other teachings but praises the \"teaching of the learned\" (Confucianism).",
+    "A": "The edict lists Buddhism among other teachings but praises the \"teaching of the learned\" (Confucianism).",
     "C": "The edict uses missionaries for math but rejects their teaching.",
     "D": "The Qing kept Manchu privileges and identity while supporting Confucian ideas."
    },
@@ -1574,15 +1621,15 @@
    "stem": "Hackett's main argument is that the Pueblo Revolt was caused primarily by",
    "options": {
     "A": "a drought that forced the Pueblo people to move south",
-    "B": "Pueblo anger over the arrival of English settlers",
-    "C": "Spanish efforts to suppress Pueblo religion and customs",
+    "B": "Spanish efforts to suppress Pueblo religion and customs",
+    "C": "Pueblo anger over the arrival of English settlers",
     "D": "competition between Pueblo towns over trade with Spain"
    },
-   "answer": "C",
+   "answer": "B",
    "explanation": "Hackett says the Spanish tried to wipe out Pueblo religion and customs, even punishing religious leaders like Popé. That anger led to the revolt.",
    "whyNot": {
     "A": "Hackett does not mention drought in this passage.",
-    "B": "The colonists in New Mexico were Spanish, not English.",
+    "C": "The colonists in New Mexico were Spanish, not English.",
     "D": "Hackett describes Pueblo towns uniting, not competing."
    },
    "hint": "What were the Spanish trying to stop the Pueblo from doing?",
@@ -1598,16 +1645,16 @@
    "stem": "The Pueblo Revolt was most similar to which of the following?",
    "options": {
     "A": "the Spanish conquest of the Mexica with Tlaxcalan allies",
-    "B": "Metacom's War against English colonists in New England",
-    "C": "the Japanese government's expulsion of Portuguese merchants",
-    "D": "Akbar's alliances with Hindu Rajput nobles in Mughal India"
+    "B": "the Japanese government's expulsion of Portuguese merchants",
+    "C": "Akbar's alliances with Hindu Rajput nobles in Mughal India",
+    "D": "Metacom's War against English colonists in New England"
    },
-   "answer": "B",
+   "answer": "D",
    "explanation": "Both were uprisings by Indigenous peoples against European colonists who threatened their land, religion, and way of life.",
    "whyNot": {
     "A": "The conquest of the Mexica was a colonial conquest, not resistance to it.",
-    "C": "Japan's expulsion was a strong state's policy, not an uprising against colonizers.",
-    "D": "Akbar's alliances brought groups into his empire; they were not a revolt."
+    "B": "Japan's expulsion was a strong state's policy, not an uprising against colonists.",
+    "C": "Akbar's alliances brought groups into his empire; they were not a revolt."
    },
    "hint": "Look for another Indigenous uprising against colonists.",
    "reasoning": "Comparison"
@@ -1623,15 +1670,15 @@
    "options": {
     "A": "Hackett was a Pueblo religious leader who had a personal reason to exaggerate.",
     "B": "Hackett wrote his account many years before the Pueblo Revolt took place.",
-    "C": "Hackett based his account only on Pueblo oral stories that were told centuries later.",
-    "D": "Hackett relied on Spanish colonial records that may not show Pueblo points of view."
+    "C": "Hackett relied on Spanish colonial records that may not show Pueblo points of view.",
+    "D": "Hackett based his account only on Pueblo oral stories that were told centuries later."
    },
-   "answer": "D",
+   "answer": "C",
    "explanation": "Hackett used records written by Spanish officials. Those records show the Spanish view, so Pueblo reasons may be missing or twisted.",
    "whyNot": {
     "A": "Hackett was an American historian, not a Pueblo leader.",
     "B": "Hackett wrote in 1911, long after the revolt of 1680.",
-    "C": "The attribution says Hackett used Spanish colonial records."
+    "D": "The attribution says Hackett used Spanish colonial records."
    },
    "hint": "Check the attribution. Whose records did Hackett read?"
   },
@@ -1663,23 +1710,23 @@
    "set": "P12",
    "topic": "4.7",
    "lo": "M",
-   "skill": "4.A",
+   "skill": "1.B",
    "difficulty": "medium",
    "stem": "The system Busbecq describes was based in part on the devshirme, which",
    "options": {
     "A": "gave land and high office only to the sons of old Turkish noble families",
     "B": "let Christian nobles in the Balkans keep their lands in exchange for taxes",
-    "C": "took Christian boys from the Balkans and trained them to serve the sultan",
-    "D": "chose officials through written exams on Islamic law and the Quran"
+    "C": "chose officials through written exams on Islamic law and the Quran",
+    "D": "took Christian boys from the Balkans and trained them to serve the sultan"
    },
-   "answer": "C",
-   "explanation": "Through the devshirme, the Ottomans took boys from Christian families in the Balkans, converted them to Islam, and trained them as soldiers (Janissaries) and officials. They owed everything to the sultan, not to a noble family.",
+   "answer": "D",
+   "explanation": "Through the devshirme, the Ottomans took boys from Christian families in the Balkans. The boys became Muslims and trained as soldiers (Janissaries) and officials. They owed everything to the sultan, not to a noble family.",
    "whyNot": {
     "A": "The devshirme drew from Christian village families, not Turkish nobles.",
     "B": "The devshirme took boys for the sultan's service; it was not a tax deal with nobles.",
-    "D": "The devshirme did not work through written exams."
+    "C": "The devshirme did not work through written exams."
    },
-   "hint": "Read the footnote about the Janissaries."
+   "hint": "Where did the Ottomans get the boys who became Janissaries?"
   },
   {
    "id": "U4-P36",
@@ -1691,16 +1738,16 @@
    "stem": "Busbecq's comparison in the second paragraph was most likely meant to",
    "options": {
     "A": "persuade the sultan to adopt the European way of choosing officials by noble birth",
-    "B": "convince Habsburg rulers to give the Ottomans more territory",
-    "C": "praise European nobles for their loyalty to their kings",
-    "D": "criticize European societies in which birth, not ability, decided who held power"
+    "B": "criticize European societies in which birth, not ability, decided who held power",
+    "C": "convince Habsburg rulers to give the Ottomans more territory",
+    "D": "praise European nobles for their loyalty to their kings"
    },
-   "answer": "D",
+   "answer": "B",
    "explanation": "Busbecq was a European diplomat writing a private letter. By praising the Ottomans, he criticized Europe, where noble birth decided who got power.",
    "whyNot": {
     "A": "Busbecq praises the Ottoman system over Europe's, not the reverse.",
-    "B": "He is admiring Ottoman methods, not asking for land to be given up.",
-    "C": "He says Europe gives \"no opening\" for merit, which is a criticism."
+    "C": "He is admiring Ottoman methods, not asking for land to be given up.",
+    "D": "He says Europe gives \"no opening\" for merit, which is a criticism."
    },
    "hint": "Is Busbecq praising or criticizing \"us\" (Europeans)?"
   },
@@ -1713,15 +1760,15 @@
    "difficulty": "easy",
    "stem": "According to the passage, Akbar removed the jizya mainly because",
    "options": {
-    "A": "non-Muslims now served the empire loyally and the treasury was already rich",
-    "B": "Muslim religious scholars at court demanded that the tax be ended",
+    "A": "Muslim religious scholars at court demanded that the tax be ended",
+    "B": "non-Muslims now served the empire loyally and the treasury was already rich",
     "C": "Hindu Rajput armies had defeated the Mughals and forced him to end it",
     "D": "the tax was too hard to collect in the empire's far-off provinces"
    },
-   "answer": "A",
+   "answer": "B",
    "explanation": "Abu'l-Fazl gives two reasons: people of other religions now served the empire loyally, and the treasury had plenty of money.",
    "whyNot": {
-    "B": "The passage says the decree was issued in spite of disapproval, not because of a demand.",
+    "A": "The passage says the decree was issued in spite of disapproval, not because of a demand.",
     "C": "The passage presents the decree as a gift, not a forced surrender.",
     "D": "The passage does not mention problems collecting the tax."
    },
@@ -1736,13 +1783,13 @@
    "difficulty": "medium",
    "stem": "Akbar's policy toward non-Muslims was most similar to which of the following?",
    "options": {
-    "A": "Spain's expulsion of its Jewish and Muslim subjects in the late 1400s and 1500s",
+    "A": "Spain's expulsion of its Jewish subjects in 1492 and later of Muslim converts",
     "B": "the Tokugawa shogunate's persecution of Japanese Christians",
     "C": "the Ottoman Empire's acceptance of Jews expelled from Spain and Portugal",
     "D": "Qing China's restrictions on Christian missionaries"
    },
    "answer": "C",
-   "explanation": "Both Akbar and the Ottoman sultans accommodated people of other religions to strengthen their empires. The Ottomans welcomed Jews who were forced out of Spain and Portugal.",
+   "explanation": "Both Akbar and the Ottoman sultans made room for people of other religions to strengthen their empires. The Ottomans welcomed Jews who were forced out of Spain and Portugal.",
    "whyNot": {
     "A": "Spain pushed out religious minorities; Akbar included them.",
     "B": "The Tokugawa persecuted a religious minority; Akbar welcomed his.",
@@ -1761,16 +1808,16 @@
    "stem": "Emperor Aurangzeb later brought back the jizya in 1679. This reversal most directly contributed to",
    "options": {
     "A": "the rapid conversion of most of India's Hindus to Islam",
-    "B": "growing resistance from groups such as the Marathas that weakened Mughal rule",
-    "C": "a long era of peace and unity across the Mughal Empire",
-    "D": "a successful Mughal conquest of the neighboring Safavid Empire in Persia"
+    "B": "a long era of peace and unity across the Mughal Empire",
+    "C": "a successful Mughal conquest of the neighboring Safavid Empire in Persia",
+    "D": "growing Rajput and Maratha resistance that weakened Mughal rule"
    },
-   "answer": "B",
-   "explanation": "When Aurangzeb brought back the tax and favored Muslims, many Hindu groups, such as the Marathas and Rajputs, resisted. Those conflicts weakened Mughal power.",
+   "answer": "D",
+   "explanation": "When Aurangzeb brought back the tax and favored Muslims, many Hindus felt pushed out. Rajput nobles rebelled, and the Marathas, who were already fighting the Mughals, grew stronger. These wars weakened Mughal power.",
    "whyNot": {
     "A": "Most Hindus did not convert; Hindus remained the majority in India.",
-    "C": "Aurangzeb's reign was full of wars and revolts.",
-    "D": "The Mughals did not conquer Safavid Persia."
+    "B": "Aurangzeb's reign was full of wars and revolts.",
+    "C": "The Mughals did not conquer Safavid Persia."
    },
    "hint": "If Akbar's tolerance helped win loyalty, what might happen when it ended?",
    "reasoning": "Causation"
@@ -1786,15 +1833,15 @@
    "options": {
     "A": "Both say the voyages helped Indigenous peoples more than they helped Europe.",
     "B": "Both say the voyages had little lasting effect on the economies of Europe.",
-    "C": "Both say the natives' misfortunes happened mainly by accident.",
-    "D": "Both say Europeans used force against the peoples of the Americas and Asia."
+    "C": "Both say Europeans used force against the peoples of the Americas and Asia.",
+    "D": "Both say the natives' misfortunes happened mainly by accident."
    },
-   "answer": "D",
+   "answer": "C",
    "explanation": "Smith says Europeans used their \"superiority of force\" to commit injustice. Marx lists enslavement, looting, and conquest. Both agree force was used.",
    "whyNot": {
     "A": "Smith says the natives suffered \"dreadful misfortunes,\" and Marx describes enslavement and looting.",
     "B": "Both writers describe major effects; Marx says they began capitalism.",
-    "C": "Only Smith blames accident; Marx says force was the method."
+    "D": "Only Smith blames accident; Marx says force was the method."
    },
    "hint": "Find what each writer says happened to the native peoples.",
    "reasoning": "Comparison"
@@ -1808,7 +1855,7 @@
    "difficulty": "hard",
    "stem": "Which of the following best describes a difference between the two sources?",
    "options": {
-    "A": "Smith calls the harm to natives an accident; Marx sees force as central to capitalism.",
+    "A": "Smith blames chance timing for the harm; Marx sees force as central to capitalism.",
     "B": "Smith praises the mercantile system; Marx praises free trade among nations.",
     "C": "Smith says the voyages hurt Europe; Marx says they mostly helped the natives.",
     "D": "Smith writes only about the Americas, while Marx writes only about events in Asia and Africa."
@@ -1834,15 +1881,15 @@
    "options": {
     "A": "the Mughal emperor Akbar's decision to remove the jizya tax",
     "B": "the Tokugawa ban on Japanese ships sailing to foreign lands",
-    "C": "forced labor in silver mines and on sugar plantations producing for Europe",
-    "D": "the spread of the potato from the Andes as a new food crop across northern Europe"
+    "C": "the spread of the potato from the Andes as a new food crop across northern Europe",
+    "D": "forced labor in silver mines and on sugar plantations producing for Europe"
    },
-   "answer": "C",
+   "answer": "D",
    "explanation": "Marx argues that capitalism began with force: enslavement and forced labor in mines and on plantations. Silver and sugar produced by forced labor fit his argument.",
    "whyNot": {
     "A": "Akbar's tax policy is about religion and loyalty, not plunder that built capitalism.",
     "B": "Japan limiting trade does not show Europeans gaining wealth by force.",
-    "D": "The potato's spread was a benefit of exchange, not an example of force."
+    "C": "The potato's spread was a benefit of exchange, not an example of force."
    },
    "hint": "Marx talks about \"enslavement and entombment in mines.\" What fits that?"
   },
@@ -1851,20 +1898,20 @@
    "set": "P15",
    "topic": "4.1",
    "lo": "A",
-   "skill": "4.A",
+   "skill": "1.B",
    "difficulty": "easy",
    "stem": "The large ship on the left side of the screen is best understood as evidence of",
    "options": {
     "A": "Japanese shipbuilding methods that European sailors later copied for their own ocean voyages",
-    "B": "European ship designs, like the carrack, built to carry big cargoes across oceans",
-    "C": "steam-powered ships that allowed Europeans to reach Asia much faster",
+    "B": "steam-powered ships that allowed Europeans to reach Asia much faster",
+    "C": "European ship designs, like the carrack, built to carry big cargoes across oceans",
     "D": "Chinese treasure ships that carried the Portuguese merchants to Japan"
    },
-   "answer": "B",
+   "answer": "C",
    "explanation": "The carrack was a big, three-masted ship that could carry lots of cargo on long ocean trips. New ship designs like this made trade between Europe and Asia possible.",
    "whyNot": {
     "A": "The ship is the Portuguese ship, painted by a Japanese artist; Europeans did not copy Japanese designs.",
-    "C": "Steam power for ships came in the 1800s; this ship has sails and masts.",
+    "B": "Steam-powered ships did not appear until the late 1700s and early 1800s; this ship has sails and masts.",
     "D": "The caption says it is a Portuguese carrack, not a Chinese ship."
    },
    "hint": "Read the caption. What kind of ship is it?"
@@ -1878,17 +1925,17 @@
    "difficulty": "easy",
    "stem": "The priests shown greeting the merchants best illustrate which development in the period 1450–1750?",
    "options": {
-    "A": "Buddhist monks from Japan traveling to Europe to spread their teachings",
-    "B": "the Japanese government's success in keeping all foreigners out of Japan",
-    "C": "Protestant merchants refusing to let Catholic priests board their ships",
-    "D": "Catholic missionaries traveling with European traders to spread Christianity"
+    "A": "Catholic missionaries traveling with European traders to spread Christianity",
+    "B": "Buddhist monks from Japan traveling to Europe to spread their teachings",
+    "C": "the Japanese government's success in keeping all foreigners out of Japan",
+    "D": "Protestant merchants refusing to let Catholic priests board their ships"
    },
-   "answer": "D",
+   "answer": "A",
    "explanation": "European ships carried missionaries along with merchants. Jesuits and other Catholic priests converted many people in Japan in the late 1500s.",
    "whyNot": {
-    "A": "The priests in the scene are Catholic Jesuits and friars, not Buddhist monks.",
-    "B": "The screen shows foreigners arriving and being greeted, not kept out.",
-    "C": "The priests are greeting Portuguese (Catholic) merchants, not being refused."
+    "B": "The priests in the scene are Catholic Jesuits and friars, not Buddhist monks.",
+    "C": "The screen shows foreigners arriving and being greeted, not kept out.",
+    "D": "The priests are greeting Portuguese (Catholic) merchants, not being refused."
    },
    "hint": "Who are the people in black and gray robes?"
   },
@@ -1903,14 +1950,14 @@
    "options": {
     "A": "invited Spanish settlers to build a colony around the port of Nagasaki",
     "B": "made Catholic Christianity the official religion of all Japan",
-    "C": "expelled the Portuguese and banned Christianity, allowing only limited trade",
+    "C": "expelled the Portuguese, crushed Christianity, and limited foreign trade",
     "D": "sent Japanese fleets to capture the Portuguese ports in India"
    },
    "answer": "C",
-   "explanation": "By 1639 the Tokugawa had banned Christianity and expelled the Portuguese. Only Dutch and Chinese merchants could trade, and only at Nagasaki under strict rules.",
+   "explanation": "Christianity had been banned since 1614. In the 1630s the Tokugawa enforced the ban harshly, and in 1639 they expelled the Portuguese. Dutch and Chinese merchants could still trade at Nagasaki under strict rules.",
    "whyNot": {
     "A": "The Tokugawa did not invite Spanish colonists; they expelled the Spanish in 1624.",
-    "B": "The Tokugawa banned Christianity.",
+    "B": "The Tokugawa banned and persecuted Christianity.",
     "D": "Japan banned its own ships from sailing abroad."
    },
    "hint": "Think about the Tokugawa rules about Christians and foreign ships.",
@@ -1919,21 +1966,21 @@
   {
    "id": "U4-P46",
    "set": "P16",
-   "topic": "4.5",
-   "lo": "I",
+   "topic": "4.4",
+   "lo": "G",
    "skill": "5.B",
    "difficulty": "medium",
    "stem": "The overall increase shown in the chart from the 1600s to the 1700s was most directly caused by",
    "options": {
-    "A": "the growth of sugar and other cash-crop plantations in Brazil and the Caribbean",
-    "B": "the growth of factories in mainland North America that needed workers",
+    "A": "the growth of factories in mainland North America that needed workers",
+    "B": "the growth of sugar and other cash-crop plantations in Brazil and the Caribbean",
     "C": "a decline in Africa's population caused by diseases from the Americas",
     "D": "new Spanish laws requiring colonists to use enslaved Africans in their silver mines"
    },
-   "answer": "A",
+   "answer": "B",
    "explanation": "Sugar, tobacco, coffee, and other cash crops grew on huge plantations. Planters in Brazil and the Caribbean bought more and more enslaved Africans to do the work.",
    "whyNot": {
-    "B": "Factories were not a major reason; enslaved people were sent mostly to plantations.",
+    "A": "Factories were not a major reason; enslaved people were sent mostly to plantations.",
     "C": "Diseases from Europe hit the Americas hardest; this did not cause the slave trade to grow.",
     "D": "The Spanish Americas actually received fewer enslaved Africans in the 1700s, and mines relied mostly on Indigenous labor."
    },
@@ -1950,7 +1997,7 @@
    "stem": "Which of the following claims is best supported by the chart?",
    "options": {
     "A": "Mainland North America received more enslaved Africans than any other region.",
-    "B": "The number of enslaved Africans arriving rose in every single region from the 1600s to the 1700s.",
+    "B": "The number of enslaved Africans arriving rose in every region from the 1600s to the 1700s.",
     "C": "The Spanish Americas received the most enslaved Africans in both centuries.",
     "D": "Brazil and the Caribbean received far more enslaved Africans than mainland North America."
    },
@@ -1972,17 +2019,17 @@
    "difficulty": "hard",
    "stem": "The trade shown in the chart most directly affected societies in West and Central Africa by",
    "options": {
-    "A": "ending slavery inside Africa, since European traders shipped all of the captives abroad",
-    "B": "leaving more women than men, because traders took more men across the Atlantic",
-    "C": "leading African states to stop trading with Europeans entirely",
-    "D": "spreading Christianity across most of West Africa by 1750"
+    "A": "ending slavery inside Africa, since European traders shipped the captives abroad",
+    "B": "leading most African states to stop trading with Europeans",
+    "C": "spreading Christianity across most of West Africa by 1750",
+    "D": "leaving more women than men, because traders took more men across the Atlantic"
    },
-   "answer": "B",
+   "answer": "D",
    "explanation": "European traders bought more enslaved men than women. Many African communities were left with more women than men, which changed families and work.",
    "whyNot": {
     "A": "Slavery inside Africa continued; not all captives were sold abroad.",
-    "C": "Many African states kept trading with Europeans throughout this period.",
-    "D": "Christianity spread in a few places like Kongo, not across most of West Africa."
+    "B": "Many African states kept trading with Europeans throughout this period.",
+    "C": "Christianity spread in a few places like Kongo, not across most of West Africa."
    },
    "hint": "Were men and women taken in equal numbers?",
    "reasoning": "Causation"
@@ -2003,19 +2050,19 @@
     "difficulty": "medium",
     "stem": "Zurara's purpose in describing Prince Henry's reasons was most likely to",
     "options": {
-     "A": "present Prince Henry's voyages as both religiously and financially worthwhile to Portugal",
-     "B": "persuade other European rulers to join Portugal in a crusade against the Ottoman Empire",
+     "A": "persuade other European rulers to join Portugal in a crusade against the Ottoman Empire",
+     "B": "present Prince Henry's voyages as both religiously and financially worthwhile to Portugal",
      "C": "warn Portuguese merchants about the dangers of sailing beyond Cape Bojador",
      "D": "criticize the Portuguese crown for spending too much on voyages of exploration"
     },
-    "answer": "A",
+    "answer": "B",
     "rationales": {
-     "A": "Correct. Zurara was the royal chronicler. He lists trade profits and spreading the faith as Henry's goals, which makes the voyages look noble and useful.",
-     "B": "Incorrect. The passage never asks other rulers for help, and the Ottomans are not mentioned. Henry complains that no Christian ruler helped him, but that is not a plea for a crusade.",
+     "A": "Incorrect. The passage never asks other rulers for help, and the Ottomans are not mentioned. Henry complains that no Christian ruler helped him, but that is not a plea for a crusade.",
+     "B": "Correct. Zurara was the royal chronicler. He lists trade profits and spreading the faith as Henry's goals, which makes the voyages look noble and useful.",
      "C": "Incorrect. Zurara presents sailing past Cape Bojador as a goal worth reaching, not as a warning.",
      "D": "Incorrect. A royal chronicler praising a prince is not criticizing royal spending."
     },
-    "explanation": "Zurara worked for the Portuguese crown. He describes Henry's reasons in a way that makes the voyages sound good for both God and Portugal's wallet: new trade, new allies, and new converts."
+    "explanation": "Zurara worked for the Portuguese crown. He makes the voyages sound good for God and for Portugal's money: new trade, new allies, and new converts."
    },
    {
     "id": "U4-E02",
@@ -2027,18 +2074,18 @@
     "stem": "The voyages that Prince Henry sponsored were made possible in part by Portuguese use of",
     "options": {
      "A": "steam-powered engines that let ships sail directly against the strongest winds",
-     "B": "treasure ships copied from the fleets of the Ming admiral Zheng He",
-     "C": "lateen sails and compasses adopted through contact with other regions",
+     "B": "lateen sails and compasses adopted through contact with other regions",
+     "C": "treasure ships copied from the fleets of the Ming admiral Zheng He",
      "D": "detailed coastal maps bought from the rulers of the Mali Empire"
     },
-    "answer": "C",
+    "answer": "B",
     "rationales": {
-     "A": "Incorrect. Steam engines did not exist until the 1700s and were not used on ships until the 1800s.",
-     "B": "Incorrect. Zheng He's voyages ended in the 1430s, and the Portuguese did not copy his giant treasure ships.",
-     "C": "Correct. The lateen sail and the magnetic compass came to Europeans through contact with the Islamic world and Asia. Together with new ship designs like the caravel, they made long ocean voyages possible.",
+     "A": "Incorrect. Steam-powered ships did not appear until the late 1700s and early 1800s.",
+     "B": "Correct. The lateen sail and the magnetic compass came to Europeans through contact with the Islamic world and Asia. Together with new ship designs like the caravel, they made long ocean voyages possible.",
+     "C": "Incorrect. Zheng He's voyages ended in the 1430s, and the Portuguese did not copy his giant treasure ships.",
      "D": "Incorrect. The Portuguese had to explore the African coast themselves; they did not buy finished maps from Mali."
     },
-    "explanation": "Portuguese sailors used tools and ideas that came from other cultures: the triangular lateen sail (from the Indian Ocean and Mediterranean world), the compass (from China), and star charts and astrolabes improved by Muslim scholars."
+    "explanation": "Portuguese sailors used tools from other cultures. The lateen sail came from the Indian Ocean and Mediterranean world. The compass came from China. Muslim scholars improved star charts and astrolabes."
    },
    {
     "id": "U4-E03",
@@ -2050,15 +2097,15 @@
     "stem": "The second reason described in the passage most directly contributed to which of the following developments in the period 1450–1750?",
     "options": {
      "A": "The Portuguese conquest of large inland territories in West Africa by the early 1500s",
-     "B": "The building of a Portuguese trading-post empire along the coasts of Africa and Asia",
-     "C": "The end of Muslim merchants' role in Indian Ocean trade after the Portuguese arrived",
-     "D": "A decision by Portuguese kings to forbid all trade with non-Christian peoples"
+     "B": "The end of Muslim merchants' role in Indian Ocean trade after the Portuguese arrived",
+     "C": "The building of a Portuguese trading-post empire along the coasts of Africa and Asia",
+     "D": "A decision by Portuguese kings to forbid trade with non-Christian peoples"
     },
-    "answer": "B",
+    "answer": "C",
     "rationales": {
      "A": "Incorrect. Portugal mostly held coastal forts and ports in Africa; it did not conquer large inland West African states in the early 1500s.",
-     "B": "Correct. The hope of profitable trade led Portugal to build forts and trading posts, such as Elmina in West Africa and Goa and Malacca in Asia, instead of conquering large inland areas.",
-     "C": "Incorrect. Muslim, Gujarati, and other Asian merchants kept trading in the Indian Ocean after the Portuguese arrived.",
+     "B": "Incorrect. Muslim, Gujarati, and other Asian merchants kept trading in the Indian Ocean after the Portuguese arrived.",
+     "C": "Correct. Hoping for trade profits, Portugal built forts and trading posts instead of conquering large inland areas. Examples are Elmina in West Africa and Goa and Malacca in Asia.",
      "D": "Incorrect. Portugal traded with many non-Christian peoples in Africa and Asia; profit was one of its main goals."
     },
     "explanation": "The second reason is about trade and profit. That goal led the Portuguese to set up a chain of trading posts and forts along the coasts of Africa and Asia: a trading-post empire.",
@@ -2097,17 +2144,17 @@
     "difficulty": "easy",
     "stem": "The labor system described in the third paragraph of Source 1 is best understood as an example of",
     "options": {
-     "A": "the encomienda system, which gave colonists Indigenous people's labor if they taught them Christianity",
-     "B": "indentured servitude, in which European migrants worked for years in exchange for their passage",
-     "C": "chattel slavery, in which enslaved Africans were bought and sold as property on large sugar plantations",
-     "D": "the hacienda system, in which landowners paid free Indigenous workers wages to raise cattle"
+     "A": "indentured servitude, in which European migrants worked for years in exchange for their passage",
+     "B": "chattel slavery, in which enslaved Africans were bought and sold as property on large sugar plantations",
+     "C": "the hacienda system, in which landowners paid free Indigenous workers wages to raise cattle",
+     "D": "the encomienda system, which gave colonists Indigenous people's labor if they taught them Christianity"
     },
-    "answer": "A",
+    "answer": "D",
     "rationales": {
-     "A": "Correct. Las Casas describes Indigenous people being \"divided\" among Spaniards on the condition that they be taught the Catholic religion. That is the encomienda system.",
-     "B": "Incorrect. Indentured servants were mostly Europeans who agreed to work for a set time; the passage describes Indigenous people forced to work.",
-     "C": "Incorrect. The workers in the passage are Indigenous people of Hispaniola, not enslaved Africans bought and sold as property.",
-     "D": "Incorrect. The passage describes forced labor in mines and fields, not wage work on cattle ranches."
+     "A": "Incorrect. Indentured servants were mostly Europeans who agreed to work for a set time; the passage describes Indigenous people forced to work.",
+     "B": "Incorrect. The workers in the passage are Indigenous people of Hispaniola, not enslaved Africans bought and sold as property.",
+     "C": "Incorrect. The passage describes forced labor in mines and fields, not wage work on cattle ranches.",
+     "D": "Correct. Las Casas describes Indigenous people being \"divided\" among Spaniards on the condition that they be taught the Catholic religion. That is the encomienda system."
     },
     "explanation": "Spanish colonists were \"given\" groups of Indigenous people to work for them. In return, the colonists were supposed to teach them Christianity. This was the encomienda system."
    },
@@ -2120,16 +2167,16 @@
     "difficulty": "hard",
     "stem": "The 1689 English edition of Source 1 was most likely published in order to",
     "options": {
-     "A": "encourage English colonists to copy Spanish ways of governing Indigenous peoples",
-     "B": "persuade the Spanish king to pass new laws protecting Indigenous people",
-     "C": "support English Protestant claims that Catholic Spain was especially cruel",
+     "A": "support English Protestant claims that Catholic Spain was especially cruel",
+     "B": "encourage English colonists to copy Spanish ways of governing Indigenous peoples",
+     "C": "persuade the Spanish king to pass new laws protecting Indigenous people",
      "D": "recruit English missionaries to convert the Indigenous people of the Caribbean"
     },
-    "answer": "C",
+    "answer": "A",
     "rationales": {
-     "A": "Incorrect. The book shows Spanish rule as destructive, so it would not encourage the English to copy it.",
-     "B": "Incorrect. Las Casas wrote to the Spanish king in 1542, but this English edition was published in London over a century later for English readers.",
-     "C": "Correct. The title uses \"Popery,\" an insult for Catholicism. England and Spain were Protestant and Catholic rivals, so publishers used Las Casas's book to make Catholic Spain look cruel.",
+     "A": "Correct. The title uses \"Popery,\" an insult for Catholicism. England and Spain were Protestant and Catholic rivals, so publishers used Las Casas's book to make Catholic Spain look cruel.",
+     "B": "Incorrect. The book shows Spanish rule as destructive, so it would not encourage the English to copy it.",
+     "C": "Incorrect. Las Casas wrote to the Spanish king in 1542. This English edition came out in London more than 100 years later, for English readers.",
      "D": "Incorrect. Nothing in the edition's title or purpose is about recruiting missionaries."
     },
     "explanation": "The English title calls the book proof of \"Popery,\" an insult for the Catholic Church. Protestant England was a rival of Catholic Spain, so the publishers used Las Casas's account to make Spain look cruel."
@@ -2144,16 +2191,16 @@
     "stem": "Which of the following, if true, would best support the argument in the second paragraph of Source 2?",
     "options": {
      "A": "Spanish colonists in the Caribbean brought in enslaved Africans to replace their Indigenous workers.",
-     "B": "Indigenous populations also fell sharply in regions where Spaniards had little direct control.",
-     "C": "Spanish missionaries baptized hundreds of thousands of Indigenous people in the 1500s.",
+     "B": "Spanish missionaries baptized hundreds of thousands of Indigenous people in the 1500s.",
+     "C": "Indigenous populations also fell sharply in regions where Spaniards had little direct control.",
      "D": "Spanish laws such as the New Laws of 1542 tried to limit the encomienda system."
     },
-    "answer": "B",
+    "answer": "C",
     "rationales": {
      "A": "Incorrect. This shows a result of the population decline, not its cause.",
-     "B": "Correct. If people died even where few Spaniards were present, something other than Spanish cruelty, such as disease, must have been killing them. Epidemics often spread ahead of the Spanish themselves.",
-     "C": "Incorrect. Baptisms say nothing about why the population fell.",
-     "D": "Incorrect. This is about Spanish laws, which Bourne discusses elsewhere; it does not show that disease caused the decline."
+     "B": "Incorrect. Baptisms say nothing about why the population fell.",
+     "C": "Correct. If people died even where few Spaniards were present, something other than Spanish cruelty, such as disease, must have been killing them. Epidemics often spread ahead of the Spanish themselves.",
+     "D": "Incorrect. This is about Spanish laws; it does not show that disease caused the decline."
     },
     "explanation": "Bourne argues that disease was a major cause of the decline. Evidence that people died even in places with few Spaniards would support him, because disease can spread without soldiers or masters present.",
     "reasoning": "Causation"
@@ -2170,16 +2217,16 @@
      "A": "the Spanish conquest of gold-producing kingdoms in West Africa",
      "B": "a rise in Chinese silver exports to Spain by way of Manila",
      "C": "new Spanish laws that finally ended smuggling throughout the Caribbean islands",
-     "D": "the opening of huge silver mines that relied on coerced Indigenous labor"
+     "D": "the opening of huge silver mines, such as Potosí, worked mostly by Indigenous laborers"
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. Spain did not conquer West African gold kingdoms; its treasure came from the Americas.",
      "B": "Incorrect. Silver flowed the other way: from the Americas to China, because China had high demand for it.",
      "C": "Incorrect. Spain never ended smuggling, and stopping smuggling would not create this much new treasure.",
-     "D": "Correct. Potosí (opened 1545) and the Mexican mines at Zacatecas made silver flow in huge amounts. They depended on forced Indigenous labor such as the mita."
+     "D": "Correct. Potosí (opened 1545) and Mexican mines such as Zacatecas (1546) produced huge amounts of silver. Potosí relied on forced Indigenous labor through the mita; Mexican mines used paid, forced, and enslaved workers."
     },
-    "explanation": "Treasure imports shot up after the 1540s because Spain opened giant silver mines at Potosí in the Andes and in Mexico. Indigenous people were forced to work in them.",
+    "explanation": "Treasure imports shot up after the 1540s because Spain opened giant silver mines at Potosí in the Andes and at Zacatecas in Mexico. Indigenous people did most of the work, much of it forced.",
     "reasoning": "Causation"
    },
    {
@@ -2191,17 +2238,17 @@
     "difficulty": "medium",
     "stem": "Much of the silver represented in the chart eventually ended up in which of the following places?",
     "options": {
-     "A": "China, where the Ming state collected taxes in silver",
-     "B": "West Africa, where Spanish merchants traded it for gold and ivory",
-     "C": "The Ottoman Empire, which collected it as tribute from Spain's rulers",
-     "D": "The Americas, where it was sent back to pay Indigenous miners' wages"
+     "A": "West Africa, where Spanish merchants traded it for gold and ivory",
+     "B": "The Ottoman Empire, which collected it as tribute from Spain's rulers",
+     "C": "The Americas, where it was sent back to pay Indigenous miners' wages",
+     "D": "China, where the Ming state collected taxes in silver"
     },
-    "answer": "A",
+    "answer": "D",
     "rationales": {
-     "A": "Correct. China's huge economy wanted silver, partly because the Ming government required taxes to be paid in silver. Europeans used American silver to buy Chinese silk and porcelain.",
-     "B": "Incorrect. Spain did not trade silver to West Africa for gold; West African gold had flowed north for centuries.",
-     "C": "Incorrect. Spain's rulers did not pay tribute to the Ottomans; they were rivals.",
-     "D": "Incorrect. Silver was not shipped back across the Atlantic to pay miners; much of the mine labor was forced."
+     "A": "Incorrect. Spain did not trade silver to West Africa for gold; West African gold had flowed north for centuries.",
+     "B": "Incorrect. Spain's rulers did not pay tribute to the Ottomans; they were rivals.",
+     "C": "Incorrect. Silver was not shipped back across the Atlantic to pay miners; much of the mine labor was forced.",
+     "D": "Correct. China's huge economy wanted silver, partly because the Ming government required taxes to be paid in silver. Europeans used American silver to buy Chinese silk and porcelain."
     },
     "explanation": "American silver went around the world. A large share ended up in China, which had a giant economy and demanded silver for taxes and trade. Europeans used it to buy Chinese goods.",
     "reasoning": "Continuity and Change"
@@ -2215,16 +2262,16 @@
     "difficulty": "easy",
     "stem": "Which of the following is a limitation of the chart for measuring how much American gold and silver reached Europe?",
     "options": {
-     "A": "It shows only gold, so the much larger flow of silver is left out of the totals.",
-     "B": "It begins only after the Spanish conquest of the Inca Empire had been completed.",
-     "C": "It counts only registered treasure, so gold and silver that was smuggled is left out.",
+     "A": "It counts only registered treasure, so gold and silver that was smuggled is left out.",
+     "B": "It shows only gold, so the much larger flow of silver is left out of the totals.",
+     "C": "It begins only after the Spanish conquest of the Inca Empire had been completed.",
      "D": "It measures all of the treasure in British pounds sterling instead of in Spanish silver pesos."
     },
-    "answer": "C",
+    "answer": "A",
     "rationales": {
-     "A": "Incorrect. The chart covers both gold and silver.",
-     "B": "Incorrect. The chart starts in 1503, decades before the conquest of the Inca Empire (1530s).",
-     "C": "Correct. The note under the chart says it includes only treasure that was officially registered and taxed. Smuggling was common, so the real amount was larger.",
+     "A": "Correct. The note under the chart says it includes only treasure that was officially registered and taxed. Smuggling was common, so the real amount was larger.",
+     "B": "Incorrect. The chart covers both gold and silver.",
+     "C": "Incorrect. The chart starts in 1503, decades before the conquest of the Inca Empire (1530s).",
      "D": "Incorrect. The chart measures the treasure in pesos, not British pounds."
     },
     "explanation": "The chart only counts treasure that was officially recorded. Lots of silver was smuggled to avoid taxes, so the chart shows less than what really arrived."
@@ -2239,18 +2286,18 @@
     "stem": "The ordinance was most likely issued in response to",
     "options": {
      "A": "the arrival of British warships demanding that Japan open its ports to trade",
-     "B": "the spread of Christianity, which Tokugawa rulers saw as a threat to their power",
-     "C": "a Ming Chinese invasion of Japan launched from the Korean peninsula",
-     "D": "a decline in Japanese silver mining that forced Japan to end all trade"
+     "B": "a Ming Chinese invasion of Japan launched from the Korean peninsula",
+     "C": "the spread of Christianity, which Tokugawa rulers saw as a threat to their power",
+     "D": "a decline in Japanese silver mining that forced Japan to stop trading"
     },
-    "answer": "B",
+    "answer": "C",
     "rationales": {
      "A": "Incorrect. British warships forcing Asian ports open happened in the 1800s, not the 1630s.",
-     "B": "Correct. Portuguese and Spanish missionaries had converted many Japanese. The Tokugawa feared Christians might be loyal to foreigners, so the ordinance rewards people who report Christians and missionaries.",
-     "C": "Incorrect. Ming China did not invade Japan in this period.",
-     "D": "Incorrect. Japan was a major silver producer in this period, and it did not end all trade."
+     "B": "Incorrect. Ming China did not invade Japan in this period.",
+     "C": "Correct. Portuguese and Spanish missionaries had converted many Japanese. The Tokugawa feared Christians might be loyal to foreigners, so the ordinance rewards people who report Christians and missionaries.",
+     "D": "Incorrect. Japan was a major silver producer in this period, and it kept trading with the Dutch and Chinese."
     },
-    "explanation": "Four of the five rules are about stopping travel abroad or catching Christians. The Tokugawa saw Christianity, brought by European missionaries, as a danger to their control."
+    "explanation": "All five rules aim to stop travel abroad or to root out Christians. The Tokugawa saw Christianity, brought by European missionaries, as a danger to their control."
    },
    {
     "id": "U4-E12",
@@ -2261,19 +2308,19 @@
     "difficulty": "medium",
     "stem": "The policy described in the passage was most similar to which of the following?",
     "options": {
-     "A": "The Mughal emperor Akbar's welcoming of scholars from many religions to his court",
+     "A": "The Spanish crown's use of the encomienda system in the Caribbean",
      "B": "The Portuguese crown's support for Christian missionaries in Africa and Asia",
      "C": "The Ottoman use of Christian boys from the Balkans as soldiers and officials",
-     "D": "Qing China's restrictions on Christian missionaries and on European merchants"
+     "D": "Ming China's bans on private overseas trade and limits on foreign contact"
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. Akbar welcomed many religions; the Tokugawa ordinance does the opposite.",
+     "A": "Incorrect. The encomienda forced Indigenous people to work for Spanish colonists; it did not limit contact with foreigners.",
      "B": "Incorrect. Portugal spread Christianity; the ordinance tries to stop it.",
      "C": "Incorrect. The devshirme used people of other backgrounds in government; it was not a policy of shutting out foreign influence.",
-     "D": "Correct. Like the Tokugawa, Qing emperors limited Christian missionaries and later kept European traders to the port of Canton. Both were trying to limit European influence."
+     "D": "Correct. Like the Tokugawa, Ming China tried to control contact with outsiders by banning private sea trade."
     },
-    "explanation": "Both Tokugawa Japan and Qing China were Asian states that restricted European missionaries and trade to protect their power.",
+    "explanation": "Both Tokugawa Japan and Ming China tried to protect their power by tightly controlling contact and trade with outsiders.",
     "reasoning": "Comparison"
    },
    {
@@ -2285,15 +2332,15 @@
     "difficulty": "medium",
     "stem": "Despite policies like the one in the passage, Japan after 1640 continued to",
     "options": {
-     "A": "trade on a limited scale with Dutch and Chinese merchants at Nagasaki",
-     "B": "allow Portuguese Jesuits to open schools in Japan's major cities",
+     "A": "allow Portuguese Jesuits to open schools in Japan's major cities",
+     "B": "trade on a limited scale with Dutch and Chinese merchants at Nagasaki",
      "C": "send Japanese merchant ships to trade throughout Southeast Asia",
      "D": "depend on silver from Spanish America to pay its samurai officials"
     },
-    "answer": "A",
+    "answer": "B",
     "rationales": {
-     "A": "Correct. Japan did not cut off all trade. Dutch merchants traded from the small island of Dejima at Nagasaki, and Chinese merchants also traded there under strict control.",
-     "B": "Incorrect. The Portuguese were expelled in 1639, and Jesuits were banned.",
+     "A": "Incorrect. The Portuguese were expelled in 1639, and Jesuits were banned.",
+     "B": "Correct. Japan did not cut off all trade. Dutch merchants traded from the small island of Dejima at Nagasaki, and Chinese merchants also traded there under strict control.",
      "C": "Incorrect. The ordinance banned Japanese ships from going abroad.",
      "D": "Incorrect. Japan produced plenty of its own silver; it did not depend on American silver."
     },
@@ -2310,15 +2357,15 @@
     "stem": "The painting most directly reflects which of the following developments in the Spanish Americas?",
     "options": {
      "A": "The end of social differences between Spaniards and Indigenous people after the conquest",
-     "B": "Social categories based on a person's mix of Spanish, Indigenous, and African ancestry",
-     "C": "The arrival of Asian immigrants who became the colony's wealthiest elite",
+     "B": "The arrival of Asian immigrants who became the colony's wealthiest elite",
+     "C": "Social categories based on a person's mix of Spanish, Indigenous, and African ancestry",
      "D": "A law that only people born in Spain could marry or own land in the colonies"
     },
-    "answer": "B",
+    "answer": "C",
     "rationales": {
      "A": "Incorrect. The painting shows differences between groups, not the end of them.",
-     "B": "Correct. Each panel labels a family by its mix of Spanish, Indigenous, and African ancestry. This shows the casta system that grew in Spanish America.",
-     "C": "Incorrect. The painting is about Spanish, Indigenous, and African ancestry; Asian immigrants were not the colony's elite.",
+     "B": "Incorrect. The painting is about Spanish, Indigenous, and African ancestry; Asian immigrants were not the colony's elite.",
+     "C": "Correct. Each panel labels a family by its mix of Spanish, Indigenous, and African ancestry. This shows the casta system that grew in Spanish America.",
      "D": "Incorrect. The painting shows people of many backgrounds married with children, so it does not show such a law."
     },
     "explanation": "Every panel names a family's mix of Spanish, Indigenous, and African ancestry. This is the casta system, a set of social categories that grew out of mixing in Spanish America."
@@ -2332,16 +2379,16 @@
     "difficulty": "hard",
     "stem": "Paintings such as this one were most likely made in order to",
     "options": {
-     "A": "protest the treatment of enslaved Africans on Caribbean sugar plantations",
-     "B": "record the religious ceremonies of Indigenous peoples before the conquest",
-     "C": "show colonial society as orderly, with people of Spanish descent at the top",
+     "A": "show colonial society as orderly, with people of Spanish descent at the top",
+     "B": "protest the treatment of enslaved Africans on Caribbean sugar plantations",
+     "C": "record the religious ceremonies of Indigenous peoples before the conquest",
      "D": "encourage Spanish settlers in the colonies to move back to Spain"
     },
-    "answer": "C",
+    "answer": "A",
     "rationales": {
-     "A": "Incorrect. The painting shows family groups and labels, not plantation work or a protest.",
-     "B": "Incorrect. It shows colonial families, not religious ceremonies from before the conquest.",
-     "C": "Correct. The top rows show richly dressed families with Spanish ancestry, and the lower rows show plainer, working families. The painting presents a neat ranking with Spaniards on top. Historians note real life was messier than these paintings show.",
+     "A": "Correct. The top rows show richly dressed families with Spanish ancestry, and the lower rows show plainer, working families. The painting presents a neat ranking with Spaniards on top. Historians note real life was messier than these paintings show.",
+     "B": "Incorrect. The painting shows family groups and labels, not plantation work or a protest.",
+     "C": "Incorrect. It shows colonial families, not religious ceremonies from before the conquest.",
      "D": "Incorrect. Nothing in the painting encourages anyone to leave the colonies."
     },
     "explanation": "The paintings put families in neat rows, with fine clothes for those of Spanish descent at the top and simpler clothes and work below. They show the elite's view of an orderly society with Spaniards on top."
@@ -2355,19 +2402,19 @@
     "difficulty": "hard",
     "stem": "The social hierarchy shown in the painting was most similar to which of the following in the period 1450–1750?",
     "options": {
-     "A": "The Mughal emperor Akbar's decision to end the jizya tax on non-Muslims",
-     "B": "The Ottoman practice of promoting officials based on their skill and merit",
-     "C": "The Tokugawa shogunate's ban on Japanese people traveling abroad",
-     "D": "Qing China's rules that favored Manchus over the Han Chinese majority"
+     "A": "Qing China's rules that favored Manchus over the Han Chinese majority",
+     "B": "The Mughal emperor Akbar's decision to end the jizya tax on non-Muslims",
+     "C": "The Ottoman practice of promoting officials based on their skill and merit",
+     "D": "The Tokugawa shogunate's ban on Japanese people traveling abroad"
     },
-    "answer": "D",
+    "answer": "A",
     "rationales": {
-     "A": "Incorrect. Akbar's policy reduced differences between religious groups instead of ranking them.",
-     "B": "Incorrect. Promotion by merit is the opposite of ranking people by ancestry.",
-     "C": "Incorrect. A travel ban does not rank people into social groups by birth.",
-     "D": "Correct. The Qing gave the Manchu minority special privileges over the Han majority. Like the casta system, people's place in society depended partly on which group they were born into."
+     "A": "Correct. The Qing gave the Manchu minority special privileges over the Han majority. Like the casta system, people's place in society depended partly on which group they were born into.",
+     "B": "Incorrect. Akbar's policy reduced differences between religious groups instead of ranking them.",
+     "C": "Incorrect. Promotion by merit is the opposite of ranking people by ancestry.",
+     "D": "Incorrect. A travel ban does not rank people into social groups by birth."
     },
-    "explanation": "Both the casta system and Qing rule ranked people partly by the group they were born into: Spaniards on top in New Spain, Manchus on top in Qing China.",
+    "explanation": "Both systems ranked people partly by the group they were born into. Spaniards were on top in New Spain. Manchus were on top in Qing China.",
     "reasoning": "Comparison"
    },
    {
@@ -2381,15 +2428,15 @@
     "options": {
      "A": "Spain's monopoly worked because the yearly fleets kept silver safe from pirates and rivals.",
      "B": "Spain's own factories supplied most of the goods that colonists in the Americas bought.",
-     "C": "Spain's strict trade monopoly failed as foreign goods and smugglers took over its colonial trade.",
-     "D": "Spanish colonists strongly supported the monopoly because it kept the prices of imported goods low."
+     "C": "Spanish colonists strongly supported the monopoly because it kept the prices of imported goods low.",
+     "D": "Spain's strict trade monopoly failed as foreign goods and smugglers took over its colonial trade."
     },
-    "answer": "C",
+    "answer": "D",
     "rationales": {
      "A": "Incorrect. Haring calls the system a failure, not a success.",
-     "B": "Incorrect. Haring says the opposite: Spanish industry was ruined, and foreign goods filled the fleets.",
-     "C": "Correct. Haring says foreign goods filled five-sixths of the fleets and smugglers sold directly to colonists, so Spain's rivals got the trade.",
-     "D": "Incorrect. Haring says colonists welcomed smugglers because they sold goods at reasonable prices, which suggests the monopoly kept prices high."
+     "B": "Incorrect. Haring says the opposite: Spanish industry was ruined, and foreign goods made up five-sixths of the fleets' cargoes.",
+     "C": "Incorrect. Haring says colonists welcomed smugglers because they sold goods at reasonable prices, which suggests the monopoly kept prices high.",
+     "D": "Correct. Haring says foreign goods made up five-sixths of the fleets' cargoes and smugglers sold directly to colonists, so Spain's rivals got the trade."
     },
     "explanation": "Haring argues that Spain's tight control backfired. Spain could not make enough goods, so foreign goods filled its fleets and smugglers sold to colonists. Spain's rivals ended up with the trade."
    },
@@ -2398,7 +2445,7 @@
     "set": "X6",
     "topic": "4.5",
     "lo": "H",
-    "skill": "4.A",
+    "skill": "1.B",
     "difficulty": "easy",
     "stem": "The \"rigid and complicated commercial system\" described in the third paragraph is best understood as an example of",
     "options": {
@@ -2425,17 +2472,17 @@
     "difficulty": "medium",
     "stem": "The smuggling described by Haring most directly contributed to which of the following?",
     "options": {
-     "A": "The end of all Spanish rule in the Americas by the late 1600s",
+     "A": "The end of Spanish rule in most of the Americas by the late 1600s",
      "B": "A sharp drop in colonial demand for European manufactured goods",
-     "C": "The replacement of silver coins with paper money across the Spanish empire",
-     "D": "Growing rivalry and conflict among European states over trade in the Americas"
+     "C": "Growing rivalry and conflict among European states over trade in the Americas",
+     "D": "The replacement of silver coins with paper money across the Spanish empire"
     },
-    "answer": "D",
+    "answer": "C",
     "rationales": {
      "A": "Incorrect. Spain kept most of its American empire until the early 1800s.",
      "B": "Incorrect. Smuggling grew because colonists wanted more European goods, not fewer.",
-     "C": "Incorrect. Silver remained the main money of the Spanish empire.",
-     "D": "Correct. Dutch, English, French, and Portuguese traders pushing into Spanish markets fed the economic rivalries and wars among European states in this period."
+     "C": "Correct. Dutch, English, French, and Portuguese traders pushing into Spanish markets fed the economic rivalries and wars among European states in this period.",
+     "D": "Incorrect. Silver remained the main money of the Spanish empire."
     },
     "explanation": "Rival European traders broke into Spain's markets. Fights over trade like this helped cause rivalries and wars between European states.",
     "reasoning": "Causation"
@@ -2449,16 +2496,16 @@
     "difficulty": "easy",
     "stem": "The Wampanoag grievances described in the passage most directly reflect conflict over",
     "options": {
-     "A": "English expansion onto Native lands and English control of courts and leaders",
-     "B": "English efforts to force the Wampanoag to work in silver mines",
-     "C": "Wampanoag demands for a larger share of the profits from the Atlantic slave trade",
+     "A": "English efforts to force the Wampanoag to work in silver mines",
+     "B": "Wampanoag demands for a larger share of the profits from the Atlantic slave trade",
+     "C": "English expansion onto Native lands and English control of courts and leaders",
      "D": "disputes between Catholic and Protestant missionaries in New England"
     },
-    "answer": "A",
+    "answer": "C",
     "rationales": {
-     "A": "Correct. The complaints are about land sales, English cattle ruining Wampanoag corn, unfair courts, and the English choosing new Wampanoag leaders.",
-     "B": "Incorrect. There were no silver mines in New England, and the passage does not mention mining.",
-     "C": "Incorrect. The passage does not mention the slave trade.",
+     "A": "Incorrect. There were no silver mines in New England, and the passage does not mention mining.",
+     "B": "Incorrect. The passage does not mention the slave trade.",
+     "C": "Correct. The complaints are about land sales, English cattle ruining Wampanoag corn, unfair courts, and the English choosing new Wampanoag leaders.",
      "D": "Incorrect. The passage does not mention missionaries or religious disputes."
     },
     "explanation": "Every complaint in the passage is about English colonists taking land, letting cattle wreck Native farms, using unfair courts, and picking Native leaders. These were fights over land and power."
@@ -2473,18 +2520,18 @@
     "stem": "The war that began soon after this meeting (Metacom's War, 1675–1676) was most similar to which of the following?",
     "options": {
      "A": "The Fronde, a revolt by French nobles against the growing power of the king",
-     "B": "The Pueblo Revolt of 1680 against Spanish colonial rule in New Mexico",
+     "B": "Queen Nzinga's resistance to Portuguese expansion in Ndongo and Matamba",
      "C": "Japan's expulsion of Portuguese merchants and missionaries in the 1630s",
      "D": "The Dutch Revolt by Protestant provinces against their Spanish Habsburg king"
     },
     "answer": "B",
     "rationales": {
      "A": "Incorrect. The Fronde was a revolt by French nobles, not Indigenous people resisting colonists.",
-     "B": "Correct. Both were armed uprisings by Indigenous peoples against colonists who were taking their land and limiting their way of life.",
-     "C": "Incorrect. Japan's expulsion was a government policy by a strong state, not an uprising against colonizers.",
+     "B": "Correct. Both were armed resistance by local peoples against Europeans who wanted their land and power. Nzinga fought Portuguese expansion in Central Africa for decades.",
+     "C": "Incorrect. Japan's expulsion was a government policy by a strong state, not an uprising against colonists.",
      "D": "Incorrect. The Dutch Revolt was Europeans resisting their own king, not Indigenous people resisting colonists."
     },
-    "explanation": "Metacom's War and the Pueblo Revolt were both uprisings by Indigenous peoples against European colonists who were taking their land and controlling their lives.",
+    "explanation": "Metacom's War and Nzinga's wars were both armed resistance by local peoples against European colonists who wanted their land and power.",
     "reasoning": "Comparison"
    },
    {
@@ -2497,15 +2544,15 @@
     "stem": "Which of the following best explains why historians must be careful when using the passage as evidence of Wampanoag views?",
     "options": {
      "A": "Easton wrote the report several decades after King Philip's War had already ended.",
-     "B": "Easton was himself a Wampanoag leader who hoped to justify a war on the colonists.",
-     "C": "Easton was an English official retelling, in his own words, what Wampanoag leaders said.",
+     "B": "Easton was an English official retelling, in his own words, what Wampanoag leaders said.",
+     "C": "Easton was himself a Wampanoag leader who hoped to justify a war on the colonists.",
      "D": "Easton wrote the report to convince the Spanish crown to send its soldiers to New England."
     },
-    "answer": "C",
+    "answer": "B",
     "rationales": {
      "A": "Incorrect. The report was written in 1675, the year the war began.",
-     "B": "Incorrect. Easton was the deputy governor of Rhode Island, an English colony.",
-     "C": "Correct. The Wampanoag views come to us only through an English colonist's summary, so some of their meaning may be lost or changed.",
+     "B": "Correct. The Wampanoag views come to us only through an English colonist's summary, so some of their meaning may be lost or changed.",
+     "C": "Incorrect. Easton was the deputy governor of Rhode Island, an English colony.",
      "D": "Incorrect. Easton wrote about an English colony's relations with its neighbors; he was not writing to Spain."
     },
     "explanation": "We only hear the Wampanoag through Easton, an English colonist. He summarized their words in his own language, so the report may not show their views exactly."
@@ -2519,40 +2566,40 @@
     "difficulty": "easy",
     "stem": "Which of the following claims does Equiano support with the evidence in the second paragraph?",
     "options": {
-     "A": "Slavery in West Africa had ended before European merchants arrived on the coast.",
-     "B": "Slavery in his homeland was very different from plantation slavery in the Americas.",
+     "A": "Slavery in his homeland was very different from plantation slavery in the Americas.",
+     "B": "Slavery in West Africa had ended before European merchants arrived on the coast.",
      "C": "Enslaved people in Africa usually worked in gold mines owned by European traders.",
      "D": "African societies did not practice slavery before European traders arrived."
     },
-    "answer": "B",
+    "answer": "A",
     "rationales": {
-     "A": "Incorrect. Equiano describes slavery still existing in his homeland in the 1750s.",
-     "B": "Correct. Equiano says enslaved people in his homeland did the same work, ate similar food, and lived in similar homes as free people, unlike enslaved people in the West Indies.",
+     "A": "Correct. Equiano says enslaved people in his homeland did the same work as free people. They ate similar food and lived in similar homes. Enslaved people in the West Indies did not.",
+     "B": "Incorrect. Equiano describes slavery still existing in his homeland in the 1750s.",
      "C": "Incorrect. He describes enslaved people working in households, not in European-owned mines.",
      "D": "Incorrect. Equiano says his own people kept war captives as slaves, so slavery existed there."
     },
-    "explanation": "Equiano compares two kinds of slavery. In his homeland, enslaved people lived much like free family members. In the West Indies, plantation slavery was far harsher.",
+    "explanation": "Equiano compares two kinds of slavery. He says that in his homeland, enslaved people lived much like free family members, while plantation slavery in the West Indies was far harsher.",
     "reasoning": "Comparison"
    },
    {
     "id": "U4-E24",
     "set": "X8",
-    "topic": "4.8",
-    "lo": "N",
+    "topic": "4.5",
+    "lo": "J",
     "skill": "5.B",
     "difficulty": "medium",
     "stem": "The first paragraph suggests that the Atlantic slave trade affected West African societies by",
     "options": {
-     "A": "ending warfare between West African states as rulers turned to peaceful trade",
-     "B": "causing West African rulers to reject European goods in favor of local products",
-     "C": "encouraging raids and wars between states to capture people who could be sold",
+     "A": "encouraging raids and wars between states to capture people who could be sold",
+     "B": "ending warfare between West African states as rulers turned to peaceful trade",
+     "C": "causing West African rulers to reject European goods in favor of local products",
      "D": "leading most West African states to ban the sale of captives to Europeans"
     },
-    "answer": "C",
+    "answer": "A",
     "rationales": {
-     "A": "Incorrect. Equiano describes more raiding, not less.",
-     "B": "Incorrect. He says chiefs were tempted by European wares, not that they rejected them.",
-     "C": "Correct. Equiano says traders tempted chiefs with European goods, and chiefs then attacked neighbors to take prisoners to sell.",
+     "A": "Correct. Equiano says a trader \"tempts\" a chief \"with his wares,\" and the chief then attacks his neighbors to take prisoners to sell.",
+     "B": "Incorrect. Equiano describes more raiding, not less.",
+     "C": "Incorrect. He says chiefs were tempted by European wares, not that they rejected them.",
      "D": "Incorrect. The passage describes chiefs selling captives, not banning the sale."
     },
     "explanation": "Equiano says European goods tempted chiefs to raid their neighbors for captives to sell. Demand for enslaved people led to more violence between African states.",
@@ -2568,16 +2615,16 @@
     "stem": "Equiano most likely included the comparison in the second paragraph in order to",
     "options": {
      "A": "persuade African rulers to stop selling war captives to European merchants",
-     "B": "encourage British planters to copy the labor practices used in West Africa",
-     "C": "defend the West Indian plantation system against the attacks of its many British critics",
-     "D": "persuade British readers that plantation slavery was uniquely harsh and should end"
+     "B": "persuade British readers that plantation slavery was uniquely harsh and should end",
+     "C": "encourage British planters to copy the labor practices used in West Africa",
+     "D": "defend the West Indian plantation system against the attacks of its many British critics"
     },
-    "answer": "D",
+    "answer": "B",
     "rationales": {
      "A": "Incorrect. His book was written in English and published in London for British readers, not African rulers.",
-     "B": "Incorrect. His point is to condemn plantation slavery, not to give planters advice.",
-     "C": "Incorrect. He contrasts the gentler slavery of his homeland with the West Indies to criticize plantations, not defend them.",
-     "D": "Correct. Equiano published his book in London in 1789 during the campaign to end the British slave trade. Showing how cruel plantation slavery was compared with his homeland supported that campaign."
+     "B": "Correct. Equiano published his book in London in 1789 during the campaign to end the British slave trade. Showing how cruel plantation slavery was compared with his homeland supported that campaign.",
+     "C": "Incorrect. His point is to condemn plantation slavery, not to give planters advice.",
+     "D": "Incorrect. He contrasts the gentler slavery of his homeland with the West Indies to criticize plantations, not defend them."
     },
     "explanation": "Equiano wrote in Britain while people were fighting to end the slave trade. By showing how much worse plantation slavery was, he tried to convince British readers to end it."
    }
