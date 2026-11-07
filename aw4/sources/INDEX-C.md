@@ -1,0 +1,24 @@
+# INDEX-C: AP World Unit 4 source excerpts (set C)
+
+Every excerpt was copied from raw text downloaded with curl, and saved in sources/raw/; files over 1 MB are gzipped. Each excerpt was then machine-checked against that raw text, and against a second scan or the page image wherever the OCR was doubtful. Every translation or edition used was published in 1930 or earlier. Word counts are for the excerpt text only, not labels or supplements.
+
+| ID | Status | Words | Content |
+|---|---|---|---|
+| C41 | found | 344 | Zurara, Chronicle of Guinea (1453; Beazley & Prestage, Hakluyt 1896), ch. VII: Prince Henry's five reasons for sending ships beyond Cape Bojador (knowledge, trade with Christians, the strength of the Moors, a Christian ally, spreading the faith). |
+| C42 | found | 329 | Velho, Journal of the First Voyage of Vasco da Gama (Ravenstein, Hakluyt 1898): the arrival at Calicut, "in search of Christians and of spices," and the Zamorin's men laughing at the cheap Portuguese gifts. |
+| C43 | found | 298 | Barbosa (c. 1518; Dames, Hakluyt 1918/1921): Muslim merchants of Rander in Gujarat trading in their own ships with Malacca, Bengal, Pegu, Sumatra and China; Malacca as "the richest seaport ... in the whole world." |
+| C44 | found (different source from the one suggested) | 350 + supplement | Tokugawa ordinance of 1636 to the Nagasaki magistrates, articles 1-6, plus a 1920 Japanese historian's reading of its motive. From Takekoshi, Economic Aspects of the History of the Civilization of Japan (English ed. 1930). Supplement: Murdoch's 1903 summary of the 1639 edict expelling the Portuguese. Murdoch Vol. III (1926) does not cover this period, and his Vol. II has no numbered articles. |
+| C45 | substitute (optional target) | 221 | Kangxi's Sacred Edict, maxim 7, as amplified by Yongzheng in 1724 (Milne trans., 1817): Catholicism ("the sect of the Western Ocean") is ranked "corrupt," but missionaries are employed for their mathematics. I found no English text of Kangxi's 1721 comment from 1930 or earlier. |
+| C46 | found | 339 | Busbecq, Turkish Letters (Letter I, 1555; Forster & Daniell 1881): Ottoman officials rise "by merit," not birth; Busbecq contrasts this with Europe, where "birth is the standard for everything." |
+| C47 | found | 343 | Abu'l-Fazl, Akbarnama Vol. II (Beveridge, 1907-1912): Akbar's remission of the jizya in 1564 and the court's justification, citing the loyal service of people "who belong to other religions." |
+| C48 | found | 321 | Adam Smith, Wealth of Nations (1776) IV.vii pt. 3: America and the Cape route are "the two greatest and most important events recorded in the history of mankind"; benefits overall, "dreadful misfortunes" for the natives; the passage ends on the boost to the mercantile system. |
+| C49 | found | 341 | Thomas Mun, England's Treasure by Forraign Trade (1664; 1895 Ashley reprint), ch. 2: the rule "to sell more to strangers yearly than wee consume of theirs in value," with the £2.2 million / £2 million worked example and the household analogy. |
+| C410 | found | 232 | Marx, Capital Vol. I ch. XXXI (Moore & Aveling, 1887; checked against the page images): the "discovery of gold and silver in America" paragraph and the next one ending "Force is the midwife of every old society pregnant with a new one." The context notes flag an offensive 1887 phrase. |
+| C411 | found | 321 | Coen (VOC), letter of 1614, quoted in Clive Day's own translation in The Policy and Administration of the Dutch in Java (1904): "trade cannot be maintained without war or war without trade"; also his 1619 line and Day's interpretation. |
+| C412 | found | 261 + table | Earl J. Hamilton, QJE May 1929: Table A of average annual treasure imports into Spain by decade, 1503-1660 (public, private and total pesos; checked against the page scan, which corrected an OCR error in the 1503-10 total). Also his causes of the decline after 1600, and a footnote on 500,000 pesos a year going to China through Acapulco. |
+| IMAGES-C | found | n/a | (a) Kanō Naizen Nanban screen, c. 1600 (Kobe City Museum), with an alternate Kanō Dōmi screen (MNAA Lisbon); (b) Cantino planisphere, 1502 (Biblioteca Estense, Modena), showing the Tordesillas line. 1280 px Wikimedia thumbnails; licenses PD-Art / PD-Scan. |
+
+Notes for question writers:
+- **Secondary or interpretive sources:** C48, C410 and C412, plus Part B of C44 and the framing text of C411.
+- **Possible misreadings:** each file's CONTEXT NOTES flags them. Examples: "Christians" at Calicut were actually Hindus; "India" in Coen means Asia generally; "dissenters" in C47 means non-Muslims.
+- **Graphic passages:** none of the excerpts contains one. Violent passages next to some excerpts (Zurara's Lagos slave sale, Marx's Howitt/Macassar paragraph, the 1640 Macao envoys) were deliberately left out.
