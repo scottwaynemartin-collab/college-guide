@@ -1,0 +1,378 @@
+# AP World Unit 1 sources. Texts follow the public-domain translations saved in aw1/sources/*.md,
+# lightly adapted (cuts marked with ellipses, clarifications in square brackets). Keep in sync.
+VERSION = "2026-11-07a"
+
+def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
+    d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
+    if translation: d["translation"] = translation
+    if footnotes: d["footnotes"] = footnotes
+    if glossary: d["glossary"] = glossary
+    d.update(kw)
+    return d
+
+def item(label, paragraphs, attribution, translation="", footnotes=None, glossary=None):
+    d = {"label": label, "paragraphs": paragraphs, "attribution": attribution}
+    if translation: d["translation"] = translation
+    if footnotes: d["footnotes"] = footnotes
+    if glossary: d["glossary"] = glossary
+    return d
+
+STIM = {
+# ============================== EXAM ==============================
+"X1": P([
+    "[Srivijaya] lies between [Cambodia] and [Java]. Its rule extends over fifteen chou (provinces, or towns). It lies due south of [Quanzhou]. …",
+    "They are skilled at fighting on land or water. … In facing the enemy and braving death they have not their equal among other nations. …",
+    "Exclusive of the native products, which include tortoise-shell, camphor, … cloves, sandal-wood and cardamoms, there are also pearls, frankincense, rose-water, … myrrh, … elephants' tusks, … amber, foreign cotton stuffs and sword blades. All these (latter) are products of the Arab … foreigners. The foreign traders … who gather together in this country give in exchange gold, silver, porcelain-ware, silk brocades, skeins of silk, silk gauzes, sugar, iron, … rice, … rhubarb and camphor.",
+    "This country, lying in the ocean and controlling the straits … through which the foreigners' sea and land … traffic in either direction must pass, in olden times used an iron chain as a barrier to keep the pirates of other countries in check. … If a merchant ship passes by without entering, their boats go forth to make a combined attack, and all are ready to die (in the attempt). This is the reason why this country is a great shipping centre. …",
+    "During the … period of the present dynasty (960–963) it sent tribute three times. … In … (1003) it reported to the Throne that a Buddhist temple had been erected in the country, there to pray for the Emperor's life, and a wish was expressed that a name and a bell be bestowed upon it. … Down to … (1004–1022) and … (1078–1094) this country sent a number of tribute missions, when Imperial messages with cordial assurances were conveyed to it."],
+    "Zhao Rugua, Song dynasty official in charge of foreign trade at the port of Quanzhou, China, Records of Foreign Peoples, 1225",
+    "Translated by Friedrich Hirth and W. W. Rockhill (1911); place names modernized; adapted",
+    footnotes=[{"mark": "*", "text": "Srivijaya was a trading kingdom based on the island of Sumatra (in today's Indonesia), beside the Strait of Malacca. \"The present dynasty\" is the Song dynasty of China (960–1279)."}],
+    glossary=[{"t": "chou", "d": "a Chinese word for a province or district"},
+              {"t": "camphor, cloves, sandal-wood, cardamoms", "d": "spices, medicines, and sweet-smelling woods"},
+              {"t": "frankincense, myrrh", "d": "sweet-smelling tree resins burned as incense"},
+              {"t": "brocades, gauzes", "d": "kinds of fine silk cloth"},
+              {"t": "the Throne", "d": "the Chinese emperor"},
+              {"t": "cordial assurances", "d": "friendly promises"}]),
+
+"X2": P([
+    "What we call Moral Law is not something out of the ordinary which has to be sought. … It is no more than the ordinary principles of everyday life, by which we know that this is right and that is wrong. … In the present day the Buddhists talk of a Tao which is to be apprehended suddenly. But Tao is not a thing which can be felt and handled.",
+    "The Moral Law is the Law followed by all in the past and in the present. The kindness of the father, the filial obedience of the son, the benevolence of the sovereign, and the loyalty of the minister, are one principle common to all people. Virtue is the reception of this Law in one's own person; just as, when the sovereign cannot but be benevolent and the minister loyal, it is because they have received this Moral Law within themselves, and therefore manifest this disposition. …",
+    "… the Buddhists and Taoists discard human relationships, and yet they pay reverence to their teacher as to a father, they regard their younger brethren as sons, their seniors as elder brother teachers, and their juniors as younger brother teachers. The only thing is that they are all imitations."],
+    "Zhu Xi (1130–1200), Chinese scholar and teacher, sayings recorded by his students in the late 1100s and later collected in The Complete Works of Zhu Xi",
+    "Translated by J. Percy Bruce, The Philosophy of Human Nature (1922); adapted",
+    glossary=[{"t": "Moral Law / Tao", "d": "the Way: the right way for people to live"},
+              {"t": "apprehended", "d": "grasped or understood"},
+              {"t": "filial obedience", "d": "the respect and obedience children owe their parents"},
+              {"t": "sovereign", "d": "ruler"}, {"t": "minister", "d": "an official who serves the ruler"},
+              {"t": "disposition", "d": "way of acting"},
+              {"t": "brethren", "d": "fellow members of a religious community, such as monks"}]),
+
+"X3": P([
+    "… Marco Polo, who spent five months on the north coast of Sumatra in 1292, speaks of all the inhabitants being idolaters, except in the petty kingdom of Parlak on the north-east corner of the island, where, too, only the townspeople were Muhammadans, for \"this kingdom, you must know, is so much frequented by the Saracen merchants that they have converted the natives to the Law of Mahomet,\" but the hill-people were all idolaters …",
+    "In the beginning of the fourteenth century, the Sharif of Mecca sent a mission to convert the people of Sumatra. … [The ruler of Samudra] was persuaded by Shaykh Isma'il to embrace Islam, and took the name of Maliku-s Salih. … When Ibn Batutah visited the island in 1345, he found … Maliku-z Zahir, reigning at Samudra. This prince displayed all the state of Muhammadan royalty … he was a zealous and orthodox Muslim, fond of holding discussions with jurisconsults and theologians, and his court was frequented by poets and men of learning. Ibn Batutah gives us the names of two jurisconsults who had come thither from Persia and also of a noble who had gone on an embassy to Delhi on behalf of the king—which shows that Sumatra was already in touch with several parts of the Muhammadan world.",
+    "… The marvellous success that has been achieved has been largely the work of traders, who won their way to the hearts of the natives, by learning their language, adopting their manners and customs, and began quietly and gradually to spread the knowledge of their religion by first converting the native women they married and the persons associated with them in their business relations. Instead of holding themselves apart in proud isolation, they gradually melted into the mass of the population, … making such skilful compromises in the doctrines and practices of their faith as were needed to recommend it to the people they wished to attract."],
+    "Thomas W. Arnold, British historian who taught at a Muslim college in India, The Preaching of Islam: A History of the Propagation of the Muslim Faith, published in 1896",
+    "Adapted",
+    footnotes=[{"mark": "*", "text": "Arnold, writing in 1896, uses older terms: \"Muhammadans\" and \"Saracens\" for Muslims, \"the Law of Mahomet\" for Islam, \"idolaters\" for followers of local religions, and \"natives\" for the local people."}],
+    glossary=[{"t": "Sumatra", "d": "a large island in today's Indonesia, along the Strait of Malacca"},
+              {"t": "Samudra", "d": "a port kingdom on the north coast of Sumatra"},
+              {"t": "Sharif of Mecca", "d": "the ruler of the holy city of Mecca"},
+              {"t": "orthodox", "d": "following the accepted teachings"},
+              {"t": "jurisconsults", "d": "experts in Islamic law"},
+              {"t": "embassy", "d": "an official visit by a representative of one ruler to another"}]),
+
+"X4": P([
+    "O servant, where dost thou seek Me? Lo! I am beside thee. I am neither in temple nor in mosque: I am neither in Kaaba nor in Kailash: Neither am I in rites and ceremonies, nor in Yoga and renunciation. If thou art a true seeker, thou shalt at once see Me … Kabîr says, \"O Sadhu! God is the breath of all breath.\"",
+    "It is needless to ask of a saint the caste to which he belongs; For the priest, the warrior, the tradesman, and all the thirty-six castes, alike are seeking for God. … The barber has sought God, the washerwoman, and the carpenter … Hindus and Moslems alike have achieved that End, where remains no mark of distinction.",
+    "If God be within the mosque, then to whom does this world belong? If Ram be within the image which you find upon your pilgrimage, then who is there to know what happens without? Hari is in the East: Allah is in the West. Look within your heart, for there you will find both Karim and Ram … Kabîr is the child of Allah and of Ram: He is my Guru, He is my Pir."],
+    "Kabir (c. 1440–1518), poet and religious teacher from the city of Banaras in northern India, three songs passed down by his followers",
+    "Translated by Rabindranath Tagore, Songs of Kabir (1915); adapted",
+    glossary=[{"t": "dost thou / thou shalt", "d": "do you / you will"},
+              {"t": "Kaaba", "d": "the holy shrine in Mecca toward which Muslims pray"},
+              {"t": "Kailash", "d": "a Himalayan mountain sacred to Hindus as the home of the god Shiva"},
+              {"t": "renunciation", "d": "giving up the comforts of ordinary life for religion"},
+              {"t": "Sadhu", "d": "a Hindu holy man"},
+              {"t": "Ram, Hari", "d": "Hindu names for God"}, {"t": "Allah, Karim", "d": "Muslim names for God"},
+              {"t": "Guru / Pir", "d": "a Hindu religious teacher / a Muslim religious teacher"}]),
+
+"X5": P([
+    "Mitimaes is the name of those who are transported from one land to another. The first kind of mitimaes, as instituted by the Incas, were those who were moved to other countries, after a new province had been conquered. A certain number of the conquered people were ordered to people another land of the same climate and conditions as their original country. … At the same time, an equal number of settlers was taken from a part which had been peaceful and civilized for a long time, and sent into the newly conquered province … Among the colonists there were spies, who took note of the conversations and schemes of the natives, and supplied the information to the governors, who sent it to Cuzco without delay, to be submitted to the Inca.",
+    "… Selecting the best language, the Incas ordered, on pain of serious punishment, that all the natives of the empire should understand the tongue that was spoken at Cuzco, as well the men as the women. … So completely was this policy enforced, that in a few years the language was understood and used over an extent of more than twelve hundred leagues. Yet although this language was used, all the tribes also spoke their own …",
+    "… The system of the Peruvians was by quipus. These were long ropes made of knotted cords … Each ruler of a province was provided with accountants who were called quipucamayos, and by these knots they kept account of what tribute was to be paid in the district, with respect to silver, gold, cloth, flocks, down to fire-wood and other minute details. … I was incredulous respecting this system of counting … But when I was at Marcavillca, in the province of Xauxa, I asked the lord Guacarapora to explain it … He ordered his servants to bring the quipus … Thus I saw the accounts for the gold, the silver, the clothes, the corn, sheep, and other things; so that in truth I was quite astonished."],
+    "Pedro de Cieza de León, Spanish soldier who traveled in Peru from 1547 to 1550, The Second Part of the Chronicle of Peru, written about 1550 from interviews with Inca nobles in Cuzco",
+    "Translated by Clements R. Markham (1883); adapted",
+    footnotes=[{"mark": "*", "text": "Cieza uses \"natives\" for the Andean peoples the Incas conquered."}],
+    glossary=[{"t": "Cuzco", "d": "the capital of the Inca Empire"},
+              {"t": "leagues", "d": "an old unit of distance, about 3 miles each"},
+              {"t": "accountants / quipucamayos", "d": "record keepers"},
+              {"t": "incredulous", "d": "unwilling to believe"},
+              {"t": "Xauxa", "d": "a valley in the central Andes (today's Jauja, Peru)"},
+              {"t": "corn, sheep", "d": "here, maize and llamas"}]),
+
+"X6": P([
+    "On certain days the sultan holds audiences in the palace yard, where there is a platform under a tree, with three steps; this they call the pempi. … The sultan comes out of a door in a corner of the palace, carrying a bow in his hand and a quiver on his back. On his head he has a golden skull-cap … The sultan is preceded by his musicians, who carry gold and silver guimbris [two-stringed guitars], and behind him come three hundred armed slaves. …",
+    "… [The poets] stand in front of the sultan … and recite their poems. I was told that their poetry is a kind of sermonizing in which they say to the sultan: \"This pempi which you occupy was that whereon sat this king and that king, and such and such were this one's noble actions and such and such the other's. So do you too do good deeds whose memory will outlive you.\" … I was told that this practice is a very old custom amongst them, prior to the introduction of Islam, and that they have kept it up.",
+    "The negroes* possess some admirable qualities. They are seldom unjust, and have a greater abhorrence of injustice than any other people. … There is complete security in their country. Neither traveller nor inhabitant in it has anything to fear from robbers or men of violence. … On Fridays, if a man does not go early to the mosque, he cannot find a corner to pray in, on account of the crowd. … Yet another is their zeal for learning the Koran by heart.",
+    "Among their bad qualities are the following. The women servants, slave-girls, and young girls go about in front of everyone naked … Then there is their custom of putting dust and ashes on their heads, as a mark of respect …"],
+    "Ibn Battuta, Muslim scholar and judge from Morocco, describing his stay in the capital of the Mali Empire in 1352–1353, from his book of travels, written down in 1355",
+    "Translated by H. A. R. Gibb (1929); adapted",
+    footnotes=[{"mark": "*", "text": "Gibb's 1929 translation uses \"negroes,\" a word now considered offensive, for Black Africans."}],
+    glossary=[{"t": "sultan / mansa", "d": "king; the ruler of Mali was called the mansa"},
+              {"t": "audiences", "d": "formal meetings where a ruler receives visitors"},
+              {"t": "sermonizing", "d": "preaching a moral lesson"},
+              {"t": "abhorrence", "d": "strong hatred"},
+              {"t": "Koran", "d": "the Quran, the holy book of Islam"}]),
+
+"X7": {"type": "pair", "items": [
+    item("Source 1", [
+        "12. No scutage or aid shall be imposed in our realm unless by the common counsel of our realm; except for redeeming our body, and knighting our eldest son, and marrying once our eldest daughter. …",
+        "39. No freeman shall be taken, or imprisoned, or disseized, or outlawed, or exiled, or in any way harmed—nor will we go upon or send upon him—save by the lawful judgment of his peers or by the law of the land.",
+        "61. … the barons, namely, may elect at their pleasure twenty five barons from the realm, who ought, with all their strength, to observe, maintain and cause to be observed, the peace and privileges which we have granted to them … And if we do not amend that error … those twenty five barons, with the whole land in common, shall distrain and oppress us in every way in their power,—namely, by taking our castles, lands and possessions …"],
+        "Magna Carta (Great Charter), agreement that King John of England was forced to accept by his rebellious barons, 1215",
+        "Translated by Ernest F. Henderson, Select Historical Documents of the Middle Ages (1896); adapted",
+        glossary=[{"t": "scutage / aid", "d": "payments that vassals owed the king"},
+                  {"t": "common counsel", "d": "advice and agreement"},
+                  {"t": "redeeming our body", "d": "paying a ransom if the king were captured"},
+                  {"t": "disseized", "d": "having one's land taken away"},
+                  {"t": "peers", "d": "equals; people of the same rank"},
+                  {"t": "distrain", "d": "seize property to force someone to act"}]),
+    item("Source 2", [
+        "… they [the electors*] shall not disperse from the said city of Frankfort until the majority of them shall have elected a temporal head for the world and for the Christian people; a king, namely, of the Romans and prospective emperor. …",
+        "… our successors the kings of Bohemia, also each and all future prince electors, ecclesiastical and secular, may justly hold and lawfully possess … all the gold and silver mines and mines of tin, copper, lead, iron and any other kind of metal, and also of salt … And they may also have the Jew taxes and enjoy the tolls which have been decreed and assigned to them in the past …"],
+        "The Golden Bull, decree issued by Holy Roman Emperor Charles IV with the agreement of the leading German princes, 1356",
+        "Translated by Ernest F. Henderson, Select Historical Documents of the Middle Ages (1896); adapted",
+        footnotes=[{"mark": "*", "text": "the seven prince electors: the archbishops of Mainz, Trier, and Cologne, the king of Bohemia, and the rulers of the Palatinate, Saxony, and Brandenburg"}],
+        glossary=[{"t": "temporal", "d": "worldly; having to do with government rather than religion"},
+                  {"t": "king of the Romans", "d": "the title of the elected German king before he was crowned emperor"},
+                  {"t": "ecclesiastical and secular", "d": "church leaders and non-church rulers"},
+                  {"t": "tolls", "d": "fees for using roads, rivers, or bridges"},
+                  {"t": "Jew taxes", "d": "special taxes collected from Jewish communities"}])]},
+
+"X8": {"type": "image",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_mars.jpg/960px-Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_mars.jpg",
+    "width": 960, "height": 1550,
+    "alt": "A painted page showing peasants plowing, pruning vines, and herding sheep in fields below a large walled castle, with a half-circle calendar of the sky at the top.",
+    "caption": "This page shows the month of March. In the front, a peasant guides a plow pulled by two oxen. On the left, workers prune grapevines inside a walled field. On the right, a man takes seed from a sack. Farther back, a shepherd and his dog watch a flock of sheep. Behind them rises the Château (castle) de Lusignan, which belonged to the Duke of Berry. The half-circle at the top is a calendar showing the days of the month and the star signs for March.",
+    "attribution": "The Limbourg brothers, Dutch painters working for the Duke of Berry, a French royal prince, \"March,\" from the Très Riches Heures (Very Rich Hours), a hand-painted prayer book, begun c. 1412–1416 and finished by a later painter",
+    "credit": "Musée Condé, Chantilly, France. Public domain image via Wikimedia Commons.",
+    "description": "A tall painted page. At the bottom, a peasant in a gray tunic steers a wooden plow pulled by two oxen across a brown field. In the middle, three or four workers bend over grapevines in a walled vineyard on the left, and on the right a man scoops seed from a white sack. Farther up, a shepherd with a dog walks beside a flock of sheep. At the top of the landscape stands a large castle with white walls, round towers, and blue roofs. Above it, a blue half-circle with gold stars shows a calendar, the signs of the fish and the ram, and the sun in a chariot.",
+    "glossary": [{"t": "prayer book (book of hours)", "d": "a book of daily prayers with a calendar, made by hand for very rich owners"},
+                 {"t": "peasant", "d": "a poor farmer or farm worker"},
+                 {"t": "prune", "d": "cut back plants so they grow better"}]},
+
+# ============================== PRACTICE ==============================
+"P1": P([
+    "… you arrive at the most noble city of Kinsay, a name which is as much as to say in our tongue \"The City of Heaven\" … for the city is beyond dispute the finest and the noblest in the world. In this we shall speak according to the written statement which the Queen of this Realm* sent to Bayan the conqueror of the country for transmission to the Great Kaan**, in order that he might be aware of the surpassing grandeur of the city and might be moved to save it from destruction or injury. …",
+    "The document aforesaid also went on to state that there were in this city twelve guilds of the different crafts, and that each guild had 12,000 houses in the occupation of its workmen. … And yet all these craftsmen had full occupation, for many other cities of the kingdom are supplied from this city with what they require. The document aforesaid also stated that the number and wealth of the merchants, and the amount of goods that passed through their hands, was so enormous that no man could form a just estimate thereof. …",
+    "… The waters of the latter [the river] fill a number of canals of all sizes which run through the different quarters of the city … Both streets and canals are so wide and spacious that carts on the one and boats on the other can readily pass to and fro, conveying necessary supplies to the inhabitants. … In each of the squares is held a market three days in the week, frequented by 40,000 or 50,000 persons, who bring thither for sale every possible necessary of life …"],
+    "Marco Polo, Venetian merchant who lived in China under Mongol rule from 1275 to 1292, describing Hangzhou, which had been the capital of the Song dynasty; his book was written down by the author Rustichello of Pisa in 1298",
+    "Translated by Henry Yule, revised by Henri Cordier (1903); adapted",
+    footnotes=[{"mark": "*", "text": "the grandmother of the last Song emperor, who surrendered the city to the Mongol general Bayan in 1276"},
+               {"mark": "**", "text": "Khubilai Khan, the Mongol ruler of China"}],
+    glossary=[{"t": "Kinsay", "d": "Hangzhou, a city in southern China"},
+              {"t": "grandeur", "d": "greatness and beauty"},
+              {"t": "guilds", "d": "associations of craftsmen who work in the same trade"},
+              {"t": "just estimate", "d": "accurate count"}]),
+
+"P2": P([
+    "May it please your Majesty, I am informed that in consequence of the recent birth of a princess, a demand has been made on the Treasury for no less than 8,000 pieces of silk. Now the rigour of winter is just at its height, and the wretched workmen of the Dyeing Department, forced to break ice before they can get water, will suffer unspeakable hardships in supplying the amount required. And judging by your Majesty's known sentiments of humanity and thrift, I cannot believe that this wasteful corvée is to be imposed …",
+    "I have also noticed that the relatives of the Lady Chang* have of late participated too frequently in the Imperial bounty. I am, it is true, but a poor Censor; yet whenever I see anything calculated to impair the prestige of the Son of Heaven, it becomes my duty to speak, that the divine wrath may be averted in time. …",
+    "… The fact is that the Imperial bounty is too lavishly bestowed, and that extravagance is rife in the palace. Your Majesty suffers thereby: the State suffers thereby; and it is my duty to speak, trusting that your Majesty will take immediate steps to rectify these abuses."],
+    "Ouyang Xiu (1007–1072), Chinese scholar-official who passed the highest civil service examination, memorial (formal letter of advice) to the Song emperor, written while he served as a censor in the mid-1000s",
+    "Translated by Herbert A. Giles, Gems of Chinese Literature (1923); adapted",
+    footnotes=[{"mark": "*", "text": "the emperor's favorite consort (a wife ranked below the empress)"}],
+    glossary=[{"t": "Censor", "d": "an official whose job was to point out the mistakes of the emperor and other officials"},
+              {"t": "rigour", "d": "harshness"}, {"t": "thrift", "d": "careful use of money"},
+              {"t": "corvée", "d": "unpaid labor that people were forced to do for the government"},
+              {"t": "bounty", "d": "gifts"}, {"t": "Son of Heaven", "d": "a title of the Chinese emperor"},
+              {"t": "prestige", "d": "respect"}, {"t": "rife", "d": "common; widespread"},
+              {"t": "rectify", "d": "fix"}]),
+
+"P3": {"type": "image",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Along_the_River_During_the_Qingming_Festival_%28detail_of_original%29.jpg/960px-Along_the_River_During_the_Qingming_Festival_%28detail_of_original%29.jpg",
+    "width": 960, "height": 480,
+    "alt": "A crowded arched wooden bridge over a river, lined with vendors under umbrellas, with a large boat passing beneath it and shops along both banks.",
+    "caption": "This section of a long painted scroll shows a busy arched wooden bridge over a river. Crowds cross the bridge, and vendors sell goods from stalls and under umbrellas on and beside it. A large cargo boat is passing under the bridge while its crew works the mast and ropes and people lean over the railing to watch. Along the banks are shops, restaurants, and inns. Porters carry loads on poles over their shoulders, and carts and donkeys move goods along the road.",
+    "attribution": "Zhang Zeduan (attributed), Chinese court painter, Along the River During the Qingming Festival, hand scroll (ink and color on silk), Song dynasty, early 1100s (detail)",
+    "credit": "Palace Museum, Beijing. Public domain image via Wikimedia Commons.",
+    "description": "A brownish painting on silk. In the center an arched wooden bridge crosses a wide river. Dozens of people crowd the bridge, and small stalls with umbrellas line its sides. To the right, a large wooden boat with a crew of men is passing under the bridge. Smaller boats are tied up along the far bank. In the foreground and on the far bank are tiled-roof buildings: shops, an inn, and restaurants with tables. On the road at the lower left, people walk beside carts, an ox, and donkeys, and porters carry baskets hung from poles.",
+    "glossary": [{"t": "hand scroll", "d": "a very long painting on silk or paper that is unrolled one section at a time"},
+                 {"t": "Qingming Festival", "d": "a spring festival when Chinese families visit and clean their ancestors' graves"},
+                 {"t": "porters", "d": "workers who carry loads"}]},
+
+"P4": P([
+    "… I applied myself to the study of Sufism. … The aim which the Sufis set before them is as follows: To free the soul from the tyrannical yoke of the passions, to deliver it from its wrong inclinations and evil instincts, in order that in the purified heart there should only remain room for God and for the invocation of His holy name. …",
+    "… I saw that Sufism consists in experiences rather than in definitions, and that what I was lacking belonged to the domain, not of instruction, but of ecstasy and initiation. …",
+    "… Examining my actions, the most fair-seeming of which were my lecturing and professorial occupations, I found to my surprise that I was engrossed in several studies of little value, and profitless as regards my salvation. I probed the motives of my teaching and found that, in place of being sincerely consecrated to God, it was only actuated by a vain desire of honour and reputation. … At last I left Bagdad, giving up all my fortune. …",
+    "… I learnt from a sure source that the Sufis are the true pioneers on the path of God; that there is nothing more beautiful than their life, nor more praiseworthy than their rule of conduct, nor purer than their morality. The intelligence of thinkers, the wisdom of philosophers, the knowledge of the most learned doctors of the law would in vain combine their efforts in order to modify or improve their doctrine and morals; it would be impossible."],
+    "Abu Hamid al-Ghazali (1058–1111), Muslim scholar who taught at the leading college in Baghdad, Deliverance from Error, an account of his own religious search written in the early 1100s",
+    "Translated by Claud Field, The Confessions of Al Ghazzali (1909); adapted",
+    glossary=[{"t": "Sufism", "d": "Islamic mysticism: seeking a direct, personal experience of God"},
+              {"t": "yoke of the passions", "d": "control by strong desires"},
+              {"t": "invocation", "d": "calling on"},
+              {"t": "ecstasy", "d": "an overwhelming feeling of joy and closeness to God"},
+              {"t": "initiation", "d": "being accepted and trained by a teacher"},
+              {"t": "consecrated / actuated", "d": "devoted / moved to act"},
+              {"t": "doctors of the law", "d": "experts in Islamic law"}]),
+
+"P5": {"type": "pair", "items": [
+    item("Source 1", [
+        "We maintain that the business of philosophy is nothing other than to look into creation and to ponder over it in order to be guided to the Creator … The Law* encourages and exhorts us to observe creation. … But the Law urges us to observe creation by means of reason and demands the knowledge thereof through reason. …",
+        "… if before us, somebody has enquired into it, we should derive help from what he has said. It is quite immaterial whether that man is our co-religionist or not … By these latter we mean those Ancients who investigated these things before the advent of Islam. … All that is required of us is that we should go back to their books and see what they have said in this connection. If all that they say be true, we should accept it and if there be something wrong, we should be warned by it."],
+        "Ibn Rushd (known in Europe as Averroes, 1126–1198), Muslim judge and philosopher in al-Andalus (Muslim-ruled Spain), The Decisive Treatise, about 1180",
+        "Translated by Mohammad Jamil-ur-Rehman, The Philosophy and Theology of Averroes (1921); adapted",
+        footnotes=[{"mark": "*", "text": "the Sharia, the religious law of Islam, based on the Quran"}],
+        glossary=[{"t": "exhorts", "d": "strongly urges"}, {"t": "immaterial", "d": "not important"},
+                  {"t": "co-religionist", "d": "a person of the same religion"},
+                  {"t": "the Ancients", "d": "here, the philosophers of ancient Greece"},
+                  {"t": "advent", "d": "arrival"}]),
+    item("Source 2", [
+        "… It was necessary for man's salvation that there should be a knowledge revealed by God, besides philosophical science built up by human reason. … it was necessary for the salvation of man that certain truths which exceed human reason should be made known to him by divine revelation. …",
+        "… sacred doctrine makes use even of human reason, not, indeed, to prove faith … but to make clear other things that are put forward in this doctrine. Since therefore grace does not destroy nature, but perfects it, natural reason should minister to faith … Hence sacred doctrine makes use also of the authority of philosophers in those questions in which they were able to know the truth by natural reason …"],
+        "Thomas Aquinas (1225–1274), Italian Catholic priest and teacher at the University of Paris, Summa Theologica (Summary of Theology), written 1265–1274",
+        "Translated by the Fathers of the English Dominican Province (2nd ed., 1920); adapted",
+        glossary=[{"t": "salvation", "d": "being saved from sin and its results"},
+                  {"t": "divine revelation", "d": "truth made known by God, as in the Bible"},
+                  {"t": "sacred doctrine", "d": "Christian theology, based on the Bible"},
+                  {"t": "grace", "d": "God's free gift to humans"},
+                  {"t": "minister to", "d": "serve"}])]},
+
+"P6": P([
+    "… we arrived at the city of Dihli [Delhi], the metropolis of India, a vast and magnificent city, uniting beauty with strength. It is surrounded by a wall that has no equal in the world, and is the largest city in India, nay rather the largest city in the entire Muslim Orient. …",
+    "… [In the great mosque,] at the eastern gate there are two enormous idols of brass prostrate on the ground and held by stones, and everyone entering or leaving the mosque treads on them. The site was formerly occupied by an idol temple*, and was converted into a mosque on the conquest of the city. …",
+    "… The king of India, Sultan Muhammad Shah**, makes a practice of honouring strangers and distinguishing them by governorships or high dignities of State. The majority of his courtiers, palace officials, ministers of State, judges, and relatives by marriage are foreigners, and he has issued a decree that foreigners are to be given in his country the title of 'Aziz [Honourable], so that this has become a proper name for them. …",
+    "This king is of all men the fondest of making gifts and of shedding blood. His gate is never without some poor man enriched or some living man executed … The ceremonies of religion are strictly complied with at his court, and he is severe in the matter of attendance at prayer and in punishing those who neglect it."],
+    "Ibn Battuta, Muslim scholar from Morocco who served as a judge in Delhi from 1334 to 1342, from his book of travels, written down in 1355",
+    "Translated by H. A. R. Gibb (1929); adapted",
+    footnotes=[{"mark": "*", "text": "Ibn Battuta's words for Hindu statues of gods (\"idols\") and a Hindu temple (\"idol temple\")"},
+               {"mark": "**", "text": "Muhammad bin Tughluq, sultan of Delhi from 1325 to 1351"}],
+    glossary=[{"t": "metropolis", "d": "a very large and important city"},
+              {"t": "Muslim Orient", "d": "the Muslim lands of the East"},
+              {"t": "prostrate", "d": "lying face down"},
+              {"t": "dignities of State", "d": "high government offices"}]),
+
+"P7": P([
+    "… [Abd al-Razzaq] saw a place extremely large and thickly peopled, and a king possessing greatness and sovereignty to the highest degree, whose dominion extends from the frontier of [Sri Lanka] to the extremities of the country of [Gulbarga]*. … The country is for the most part well cultivated, very fertile, and contains about three hundred harbours. One sees there more than a thousand elephants … The troops amount in number to eleven lak (1,100,000).",
+    "One might seek in vain throughout the whole of [India] to find a more absolute rai (king) … Next to him the Brahmins hold a rank superior to that of all other men. …",
+    "The city of [Vijayanagara] is such that the pupil of the eye has never seen a place like it, and the ear of intelligence has never been informed that there existed anything to equal it in the world. It is built in such a manner that seven citadels and the same number of walls enclose each other. … In the space from the third to the seventh one meets a numberless crowd of people, many shops, and a bazaar. … the jewellers sell publicly in the bazaar pearls, rubies, emeralds, and diamonds."],
+    "Abd al-Razzaq Samarqandi, Persian official sent as an ambassador to India by Shah Rukh, the Timurid ruler of Herat, describing Vijayanagara, capital of a Hindu kingdom in southern India, which he visited in 1443",
+    "Translated from Persian into French by Étienne Quatremère, and into English by R. H. Major, India in the Fifteenth Century (1857); place names modernized; adapted",
+    footnotes=[{"mark": "*", "text": "a city to the north, in the Deccan region of central India"}],
+    glossary=[{"t": "sovereignty", "d": "supreme power to rule"}, {"t": "dominion", "d": "the lands a ruler controls"},
+              {"t": "lak", "d": "100,000"}, {"t": "Brahmins", "d": "Hindu priests"},
+              {"t": "citadels", "d": "fortresses"}, {"t": "bazaar", "d": "a market"}]),
+
+"P8": {"type": "table",
+    "title": "Tribute Owed to the Rulers of Tenochtitlan by Two Provinces of the Mexica (Aztec) Empire (selected items)",
+    "columns": ["Item", "Quauhnahuac province: 16 towns near the Valley of Mexico", "Xoconochco province: 8 towns on the Pacific coast, far to the south"],
+    "rows": [["Large woven cloaks", "1,200 loads, twice a year", "—"],
+             ["Paper", "8,000 sheets, twice a year", "—"],
+             ["Cups", "2,000, twice a year", "800 cups for drinking cacao, every six months"],
+             ["Warrior costumes and shields decorated with feathers", "8 of each, once a year", "—"],
+             ["Maize, beans, chia, and amaranth", "4 large wooden bins, once a year", "—"],
+             ["Cacao beans", "—", "200 loads, every six months"],
+             ["Feathers", "—", "800 handfuls of yellow feathers and 800 handfuls of green quetzal feathers, every six months"],
+             ["Jaguar skins", "—", "40, every six months"],
+             ["Jade stones", "—", "2 strings, every six months"]],
+    "source": "Codex Mendoza, a book painted by Indigenous artists, with notes in Spanish, in Mexico City about 1541, twenty years after the Spanish conquest. It was probably ordered by the first Spanish viceroy (governor) to send to the king of Spain, and historians believe its tribute pages were based on older Mexica tribute records. The notes say the Mexica rulers placed tax collectors and a governor from Tenochtitlan in the towns of Quauhnahuac \"that they should not rebell.\" English translation of the Spanish notes published by Samuel Purchas in Purchas His Pilgrimes (1625; reprinted 1906, Vol. XV)."},
+
+"P9": P([
+    "… When we arrived at the great market place, called Tlaltelolco, we were astounded at the number of people and the quantity of merchandise that it contained, and at the good order and control that was maintained, for we had never seen such a thing before. … Each kind of merchandise was kept by itself and had its fixed place marked out. Let us begin with the dealers in gold, silver, and precious stones, feathers, mantles, and embroidered goods. … there were cacahuateros who sold cacao. In this way one could see every sort of merchandise that is to be found in the whole of New Spain, placed in arrangement in the same manner as they do in my own country, which is Medina del Campo, where they hold the fairs …",
+    "… There are also buildings where three magistrates sit in judgment, and there are executive officers like Alguacils who inspect the merchandise. …",
+    "… there were many more merchants, who, as I was told, brought gold for sale in grains, just as it is taken from the mines. The gold is placed in thin quills of the geese of the country … and according to the length and thickness of the quills they arrange their accounts with one another, how much so many mantles or so many gourds full of cacao were worth, or how many slaves, or whatever other thing they were exchanging."],
+    "Bernal Díaz del Castillo, Spanish soldier who marched with Hernán Cortés, describing the market at Tlatelolco, the twin city of the Mexica (Aztec) capital Tenochtitlan, in November 1519; he finished writing his account about 1568",
+    "Translated by Alfred P. Maudslay, The True History of the Conquest of New Spain (1910); adapted",
+    glossary=[{"t": "mantles", "d": "cotton cloaks; they were also used like money"},
+              {"t": "cacahuateros / cacao", "d": "cacao sellers / cacao beans, used to make chocolate and also used like money"},
+              {"t": "New Spain", "d": "the Spanish name for Mexico"},
+              {"t": "Medina del Campo", "d": "a Spanish town famous for its large trade fairs"},
+              {"t": "magistrates", "d": "judges"}, {"t": "Alguacils", "d": "Spanish police officers"},
+              {"t": "quills", "d": "the hollow stems of large feathers"}]),
+
+"P10": P([
+    "… Very different was the policy pursued by the two races* in their military career. The Aztecs, animated by the most ferocious spirit, carried on a war of extermination, signalizing their triumphs by the sacrifice of hecatombs of captives; while the Incas, although they pursued the game of conquest with equal pertinacity, preferred a milder policy, substituting negotiation and intrigue for violence, and dealt with their antagonists so that their future resources should not be crippled, and that they should come as friends, not as foes, into the bosom of the empire.",
+    "Their policy toward the conquered forms a contrast no less striking to that pursued by the Aztecs. The Mexican vassals were ground by excessive imposts and military conscriptions. … They were over-awed by fortresses and armed garrisons, and were made to feel every hour that they were not part and parcel of the nation, but held only in subjugation as a conquered people. The Incas, on the other hand, admitted their new subjects at once to all the rights enjoyed by the rest of the community; and, though they made them conform to the established laws and usages of the empire, they watched over their personal security and comfort with a sort of parental solicitude. … The policy of the two nations displayed the principle of fear as contrasted with the principle of love."],
+    "William H. Prescott, United States historian, History of the Conquest of Peru, published in 1847",
+    "Adapted",
+    footnotes=[{"mark": "*", "text": "Prescott, writing in 1847, uses \"races\" to mean peoples or nations, and \"Mexican\" for the Mexica (Aztecs)."}],
+    glossary=[{"t": "extermination", "d": "killing off completely"},
+              {"t": "hecatombs", "d": "very large numbers (of people killed in sacrifice)"},
+              {"t": "pertinacity", "d": "stubborn determination"},
+              {"t": "vassals", "d": "conquered peoples who had to obey and pay the rulers"},
+              {"t": "imposts / conscriptions", "d": "taxes / forced military service"},
+              {"t": "subjugation", "d": "being ruled by force"},
+              {"t": "solicitude", "d": "care and concern"}]),
+
+"P11": P([
+    "… [We] came to Maqdashaw [Mogadishu], which is an enormous town. Its inhabitants are merchants and have many camels, of which they slaughter hundreds every day [for food]. When a vessel reaches the port, it is met by sumbuqs, which are small boats, in each of which are a number of young men, each carrying a covered dish containing food. He presents this to one of the merchants on the ship saying \"This is my guest,\" and all the others do the same. … The host then sells his goods for him and buys for him, and if anyone buys anything from him at too low a price, or sells to him in the absence of his host, the sale is regarded by them as invalid. …",
+    "… [We] pursued our journey to Kulwa [Kilwa], which is a large town on the coast. The majority of its inhabitants are Zanj*, jet-black in colour, and with tattoo marks on their faces. I was told by a merchant that the town of Sufala** lies a fortnight's journey [south] from Kulwa and that gold dust is brought to Sufala from Yufi in the country of the Limis, which is a month's journey distant from it. …",
+    "The sultan at the time of my visit was Abu'l-Muzaffar Hasan, who was noted for his gifts and generosity. He used to devote the fifth part of the booty made on his expeditions to pious and charitable purposes, as is prescribed in the Koran …"],
+    "Ibn Battuta, Muslim scholar from Morocco, describing his voyage along the East African coast in about 1331, from his book of travels, written down in 1355",
+    "Translated by H. A. R. Gibb (1929); adapted",
+    footnotes=[{"mark": "*", "text": "the Arabic name for the Bantu-speaking peoples of the East African coast"},
+               {"mark": "**", "text": "Sofala, a port far to the south, in today's Mozambique; Yufi was an inland region that produced gold"}],
+    glossary=[{"t": "sumbuqs", "d": "small boats"}, {"t": "invalid", "d": "not legal; it does not count"},
+              {"t": "fortnight", "d": "two weeks"}, {"t": "booty", "d": "goods captured in war"},
+              {"t": "pious", "d": "religious"}, {"t": "Koran", "d": "the Quran, the holy book of Islam"}]),
+
+"P12": P([
+    "… Before there was sufficient evidence on which to base any suggestions whatsoever as to origin or date, popular opinion had confidently settled the question to its own great satisfaction. It had decided that the Rhodesian* ruins must be of immense antiquity, and, following the mediaeval chroniclers with an uncritical credulity …, had pronounced Zimbabwe and all similar buildings to be the work of an ancient people from the East. …",
+    "… nothing had then been obtained from the ruins which an archaeologist could recognise as more than a few centuries old; and … the objects, when not immediately recognisable as medieval imports, were of characteristically African type. …",
+    "… It is impossible, therefore, to resist the conclusion that the people who inhabited the \"Elliptical Temple\"** when it was built belonged to tribes whose arts and manufactures were indistinguishable from those of the modern Makalanga***. … [In its lowest foundations were found] mediaeval Arabic glass and Nankin china. … The date of the Elliptical Temple, then, is not earlier than the fourteenth or fifteenth century.",
+    "… In the valley, then, no doubt, lived those wealthy traders who received the gold brought in from neighbouring districts and bartered it with Arab merchants from the east coast. … Zimbabwe itself was simply the distributing centre."],
+    "David Randall-MacIver, British archaeologist, Mediaeval Rhodesia, a report on his 1905 excavations at Great Zimbabwe and other stone ruins in southern Africa, published in 1906",
+    "Adapted",
+    footnotes=[{"mark": "*", "text": "Rhodesia was the British colonial name for the region that includes today's Zimbabwe."},
+               {"mark": "**", "text": "the large oval stone enclosure at Great Zimbabwe, today called the Great Enclosure"},
+               {"mark": "***", "text": "a Shona-speaking people who lived in the region in Randall-MacIver's time"}],
+    glossary=[{"t": "immense antiquity", "d": "very great age"},
+              {"t": "uncritical credulity", "d": "believing things without checking them"},
+              {"t": "Nankin china", "d": "Chinese porcelain"},
+              {"t": "bartered", "d": "traded goods for other goods"}]),
+
+"P13": P([
+    "Now there was a law in the country of Ethiopia that [only] a woman should reign … but the Queen* said [unto Solomon], \"Henceforward a man who is of thy seed shall reign, and a woman shall nevermore reign; only seed of thine shall reign and his seed after him from generation to generation. …\"",
+    "… And moreover, the dominion of the King of Ethiopia belongeth to him and to his seed for ever.",
+    "… the Kings of Ethiopia have become glorious and great through Zion** …",
+    "[From the scribe's closing note:] \"… It went out in the days of Zagua***, and they did not translate it because this book says: Those who reign not being Israelites are transgressors of the Law. … For I have toiled much for the glory of the country of Ethiopia, and for the going forth of the heavenly Zion, and for the glory of the King of Ethiopia.\""],
+    "Kebra Nagast (The Glory of Kings), a book of Ethiopian royal history and legend, put into the Ethiopian language Ge'ez by Isaac, a Christian scribe, in the early 1300s",
+    "Translated by E. A. Wallis Budge, The Queen of Sheba and Her Only Son Menyelek (1922); adapted",
+    footnotes=[{"mark": "*", "text": "the Queen of Sheba (called Makeda in Ethiopia), who in the story visits King Solomon of ancient Israel and has a son, Menyelek, the first king of Ethiopia's royal line"},
+               {"mark": "**", "text": "the Ark of the Covenant, which the book says Menyelek brought from Jerusalem to Ethiopia"},
+               {"mark": "***", "text": "the Zagwe dynasty, an earlier line of Ethiopian kings"}],
+    glossary=[{"t": "seed", "d": "descendants (children, grandchildren, and so on)"},
+              {"t": "dominion", "d": "the right to rule"},
+              {"t": "transgressors of the Law", "d": "people who break God's law"},
+              {"t": "toiled", "d": "worked hard"}]),
+
+"P14": P([
+    "The abbot of Peterborough holds the manor of Alwalton … from the lord king directly … Of these hides the said abbot has in demesne 1 hide and a half of land …",
+    "Free Tenants. Thomas le Boteler holds a messuage with a court yard … and 3 acres of land, by charter, paying thence yearly to the said abbot 14s. …",
+    "Villeins. Hugh Miller holds 1 virgate of land in villenage … Likewise the same Hugh works through the whole year except 1 week at Christmas, 1 week at Easter, and 1 at Whitsuntide, that is in each week 3 days, each day with 1 man, and in autumn each day with 2 men, performing the said works at the will of the said abbot as in plowing and other work. … Likewise he gives 3 hens and 1 cock yearly and 5 eggs at Easter. … He gives also merchet and heriot, and is tallaged at the feast of St. Michael, at the will of the said abbot. There are also there 17 other villeins … each of whom holds 1 virgate of land in villenage, paying and doing in all things … just as the said Hugh Miller.",
+    "Cotters. Henry, son of the miller, holds a cottage with a croft which contains 1 rood, paying thence yearly to the said abbot 2s. Likewise he works for 3 days in carrying hay and in other works at the will of the said abbot …"],
+    "Survey of the manor of Alwalton, England, held by the abbot of Peterborough Abbey, recorded for King Edward I's royal inquiry (the Hundred Rolls), 1279",
+    "Translated from Latin in Edward P. Cheyney, ed., English Manorial Documents (1896); adapted",
+    glossary=[{"t": "abbot", "d": "the head of a monastery"},
+              {"t": "manor", "d": "a lord's estate, with his land and the peasants who worked it"},
+              {"t": "hide / virgate", "d": "units of farmland; this survey says a virgate was 25 acres and a hide was 5 virgates"},
+              {"t": "demesne", "d": "land the lord kept and farmed for himself"},
+              {"t": "messuage / charter", "d": "a house and its yard / a written grant"},
+              {"t": "14s. / 2s.", "d": "14 shillings / 2 shillings (English money)"},
+              {"t": "villeins / villenage", "d": "unfree peasants / the status of an unfree peasant"},
+              {"t": "Whitsuntide, feast of St. Michael", "d": "church holidays in spring and in late September"},
+              {"t": "merchet / heriot", "d": "a fee paid to the lord when a daughter married / a payment, often the best animal, owed when a tenant died"},
+              {"t": "tallaged", "d": "taxed by the lord"},
+              {"t": "cotters / croft / rood", "d": "peasants with only a cottage and a little land / a small field / a quarter of an acre"}]),
+
+"P15": P([
+    "… By the words of the gospel we are taught that the two swords*, namely, the spiritual authority and the temporal are in the power of the church. … Both swords, therefore, the spiritual and the temporal, are in the power of the church. The former is to be used by the church, the latter for the church; the one by the hand of the priest, the other by the hand of kings and knights, but at the command and permission of the priest. Moreover, it is necessary for one sword to be under the other, and the temporal authority to be subjected to the spiritual …",
+    "… Therefore if the temporal power errs, it will be judged by the spiritual power, and if the lower spiritual power errs, it will be judged by its superior. But if the highest spiritual power errs, it can not be judged by men, but by God alone. …",
+    "… We therefore declare, say, and affirm that submission on the part of every man to the bishop of Rome is altogether necessary for his salvation."],
+    "Pope Boniface VIII, Unam Sanctam (One Holy), a papal bull (official decree) issued in 1302",
+    "Translated in Oliver J. Thatcher and Edgar H. McNeal, A Source Book for Mediæval History (1905); adapted",
+    footnotes=[{"mark": "*", "text": "a symbol of two kinds of power, taken from a Bible passage (Luke 22:38)"}],
+    glossary=[{"t": "spiritual", "d": "religious"}, {"t": "temporal", "d": "worldly; having to do with government"},
+              {"t": "errs", "d": "makes a mistake"}, {"t": "bishop of Rome", "d": "the pope"},
+              {"t": "salvation", "d": "being saved from sin and going to heaven"}]),
+
+"P16": {"type": "pair", "items": [
+    item("Source 1", [
+        "… We decree that no Christian shall use violence to compel the Jews to accept baptism. … No Christian shall do the Jews any personal injury, except in executing the judgments of a judge, or deprive them of their possessions, or change the rights and privileges which they have been accustomed to have. During the celebration of their festivals, no one shall disturb them by beating them with clubs or by throwing stones at them. … we forbid anyone to deface or damage their cemeteries or to extort money from them by threatening to exhume the bodies of their dead. …"],
+        "Pope Innocent III, decree on the treatment of Jews, 1199",
+        "Translated in Oliver J. Thatcher and Edgar H. McNeal, A Source Book for Mediæval History (1905); adapted",
+        glossary=[{"t": "baptism", "d": "the ritual of becoming a Christian"},
+                  {"t": "extort", "d": "get by threats"}, {"t": "exhume", "d": "dig up"}]),
+    item("Source 2", [
+        "If any of those who go on the crusade are bound by oath to pay interest, their creditors, under threat of ecclesiastical censure, shall be compelled to free them from their oath and from the payment of the interest. … We order the secular authorities to compel the Jews to remit the interest to all crusaders, and until they do remit it they shall have no intercourse with Christians. …"],
+        "Pope Innocent III and the Fourth Lateran Council (a meeting of Church leaders), decree calling for a new crusade, 1215",
+        "Translated in Oliver J. Thatcher and Edgar H. McNeal, A Source Book for Mediæval History (1905); adapted",
+        glossary=[{"t": "crusade", "d": "a holy war called by the pope"},
+                  {"t": "creditors", "d": "people who are owed money"},
+                  {"t": "ecclesiastical censure", "d": "punishment by the Church"},
+                  {"t": "secular authorities", "d": "kings and other non-church rulers"},
+                  {"t": "remit", "d": "cancel"},
+                  {"t": "intercourse", "d": "here, business or social dealings"}])]},
+}
+
+STIM = {k: v for k, v in STIM.items() if v is not None}

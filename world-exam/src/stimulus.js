@@ -78,7 +78,7 @@ window.PE_STIM = (function () {
     return `<div class="tscroll"><table class="stab"${caption ? ` aria-label="${esc(caption)}"` : ''}><thead><tr>${cols.map(c => `<th scope="col">${esc(c)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map((c, i) => i === 0 ? `<th scope="row">${esc(c)}</th>` : `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
   }
   function table(s) {
-    return `<figure class="stim stim-table">${title(s.title)}${tableHTML(s, s.title)}${source(s.source)}</figure>`;
+    return `<figure class="stim stim-table">${title(s.title)}${tableHTML(s, s.title)}${s.text ? `<p class="stim-text">${esc(s.text)}</p>` : ''}${s.note ? `<p class="stim-note">${esc(s.note)}</p>` : ''}${source(s.source)}</figure>`;
   }
 
   /* ---------- grouped bar chart (inline SVG) ---------- */
