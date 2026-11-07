@@ -466,3 +466,19 @@ html.dm .toastmsg{background:#F2EFFF;color:#100D24}
   .burst{display:none}
 }
 @media print{.bar,.xtop,.act,.dm-tg{display:none!important}}
+
+/* ---------- Unit 5: ring diagram + house/road symbols ---------- */
+.smap .house{fill:var(--ink);stroke:var(--card);stroke-width:1.2}
+.legend svg .house{fill:var(--ink)}
+.smap.rings svg{min-width:0;max-width:560px;margin:0 auto}
+.smap.rings .rbg{fill:var(--paper)}
+.smap.rings .ring{stroke:#8E85B0;stroke-width:1.6}
+.smap.rings .ring.r0{fill:#DDF2E3}.smap.rings .ring.r1{fill:#E3EEDB}.smap.rings .ring.r2{fill:#F6EDCC}.smap.rings .ring.r3{fill:#F3E3D3}
+.smap.rings .rline{fill:none;stroke:#8E85B0;stroke-width:1.6;stroke-dasharray:6 5}
+.smap.rings .rcity{fill:var(--ink);stroke:var(--card);stroke-width:2}
+.smap.rings .rcl{fill:var(--card);font-family:var(--display);font-weight:600;font-size:13px;text-anchor:middle}
+.smap.rings .rlbl{fill:var(--ink);font-family:var(--display);font-weight:700;font-size:19px;text-anchor:middle;paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round}
+.smap.rings .rout{fill:var(--ink-3);font-weight:700;font-size:13px;font-style:italic}
+html.dm .smap.rings .ring.r0{fill:#1F3A33}html.dm .smap.rings .ring.r1{fill:#26392B}html.dm .smap.rings .ring.r2{fill:#3A3524}html.dm .smap.rings .ring.r3{fill:#3B2C27}
+html.dm .smap.rings .rcity{fill:#E9E5FF;stroke:#100D24}html.dm .smap.rings .rcl{fill:#100D24}
+html.dm .smap.rings .rlbl{stroke:#100D24}

@@ -18,6 +18,7 @@ window.PE_STIM = (function () {
         case 'bar': return bar(stim);
         case 'districtMap': return districtMap(stim);
         case 'schematicMap': return schematicMap(stim);
+        case 'rings': return rings(stim);
         default: return unavailable(stim.type);
       }
     } catch (e) {
@@ -194,6 +195,7 @@ window.PE_STIM = (function () {
           const x = r1(num(p[0])), y = r1(num(p[1]));
           if (f.symbol === 'conflict') L.markers += `<path class="conflict" d="${star(x, y, 11, 5, 8)}"><title>${esc(f.name || 'Conflict')}</title></path>`;
           else if (f.symbol === 'baseN' || f.symbol === 'baseS') L.markers += `<rect class="${f.symbol}" x="${x - 7}" y="${y - 7}" width="14" height="14" rx="2"><title>${esc(f.name || 'Base')}</title></rect>`;
+          else if (f.symbol === 'house') L.markers += `<path class="house" d="M${x - 7},${y + 6} V${y - 1} L${x},${y - 7} L${x + 7},${y - 1} V${y + 6} Z"><title>${esc(f.name || 'House')}</title></path>`;
           else L.markers += `<circle class="baseN" cx="${x}" cy="${y}" r="6"><title>${esc(f.name || 'Marker')}</title></circle>`;
         });
         descBits.push(`${f.name || 'markers'} at ${f.points.length} location${f.points.length === 1 ? '' : 's'}`);
@@ -216,6 +218,30 @@ window.PE_STIM = (function () {
     const svg = `<div class="smap"><svg viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="${tid} ${did}"><title id="${tid}">${esc(s.title || 'Map')}</title><desc id="${did}">${esc(desc)}</desc><defs><pattern id="${id}zh" patternUnits="userSpaceOnUse" width="9" height="9" patternTransform="rotate(45)"><line class="hatchline" x1="0" y1="0" x2="0" y2="9"/></pattern><pattern id="${id}ch" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(-45)"><line class="claim-hatch" x1="0" y1="0" x2="0" y2="10"/></pattern><marker id="${id}ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path class="arrowhead" d="M0,0 L10,5 L0,10 z"/></marker></defs><rect class="water" x="0" y="0" width="${W}" height="${H}"/>${L.zones}${L.hatchZones}${L.claims}${L.land}${L.lines}${L.brackets}${L.markers}${L.arrows}${L.labels}${L.scale}</svg></div>`;
     return `<figure class="stim stim-smap">${title(s.title)}${svg}${legend}${s.description ? `<p class="stim-desc">${esc(s.description)}</p>` : ''}${s.note ? `<p class="stim-note">${esc(s.note)}</p>` : ''}${source(s.source)}</figure>`;
   }
+  /* ---------- von Thünen-style concentric ring diagram ---------- */
+  function rings(s) {
+    const rs = Array.isArray(s.rings) ? s.rings : [];
+    const W = 640, H = 420, cx = 320, cy = 210, r0 = 46, step = Math.max(28, Math.floor((190 - r0) / Math.max(1, rs.length)));
+    const id = nid(), tid = id + 't', did = id + 'd';
+    let body = '', labels = '';
+    for (let i = rs.length - 1; i >= 0; i--) {
+      const R = r0 + step * (i + 1);
+      body += `<circle class="ring r${i % 4}" cx="${cx}" cy="${cy}" r="${R}"><title>${esc('Ring ' + (rs[i].label || i + 1))}</title></circle>`;
+    }
+    rs.forEach((rg, i) => {
+      const mid = r0 + step * i + step / 2;
+      [[cx + mid, cy], [cx - mid, cy], [cx, cy - mid], [cx, cy + mid]].forEach(([x, y]) => {
+        labels += `<text class="rlbl" x="${r1(x)}" y="${r1(y + 6)}">${esc(rg.label || String(i + 1))}</text>`;
+      });
+    });
+    const outerR = r0 + step * rs.length;
+    const outer = s.outer ? `<text class="rout" x="${W - 14}" y="${H - 14}" text-anchor="end">${esc(s.outer)}</text><text class="rout" x="14" y="26" text-anchor="start">${esc(s.outer)}</text>` : '';
+    const center = `<circle class="rcity" cx="${cx}" cy="${cy}" r="${r0}"/>` + wrap(s.center || 'Market', 10).map((ln, i, a) => `<text class="rcl" x="${cx}" y="${r1(cy + 5 - (a.length - 1) * 8 + i * 16)}">${esc(ln)}</text>`).join('');
+    const desc = (s.description ? s.description + ' ' : '') + `Rings from the center outward: ${rs.map((rg, i) => rg.label || i + 1).join(', ')}.`;
+    const svg = `<div class="smap rings"><svg viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="${tid} ${did}"><title id="${tid}">${esc(s.title || 'Ring diagram')}</title><desc id="${did}">${esc(desc)}</desc><rect class="rbg" x="0" y="0" width="${W}" height="${H}"/>${body}${center}${labels}${outer}<circle class="rline" cx="${cx}" cy="${cy}" r="${outerR}"/></svg></div>`;
+    return `<figure class="stim stim-rings">${title(s.title)}${svg}${s.description ? `<p class="stim-desc">${esc(s.description)}</p>` : ''}${s.note ? `<p class="stim-note">${esc(s.note)}</p>` : ''}${source(s.source)}</figure>`;
+  }
+
   function swatch(key) {
     switch (key) {
       case 'power': case 'small': case 'land': return `<i class="sw ${key}"></i>`;
@@ -226,6 +252,9 @@ window.PE_STIM = (function () {
       case 'territorialSeaB': return `<svg viewBox="0 0 22 16" aria-hidden="true"><rect width="22" height="16" rx="3" style="fill:var(--stim-water)"/><rect width="22" height="16" rx="3" style="fill:var(--claim-b);opacity:.34"/><path d="M-2,8 L8,-2 M4,18 L18,2 M12,18 L24,6" style="stroke:var(--claim-b);stroke-width:2.2"/></svg>`;
       case 'overlap': return `<svg viewBox="0 0 22 16" aria-hidden="true"><rect width="22" height="16" rx="3" style="fill:var(--stim-water)"/><rect width="22" height="16" rx="3" style="fill:var(--claim-a);opacity:.38"/><rect width="22" height="16" rx="3" style="fill:var(--claim-b);opacity:.34"/><path d="M-2,8 L8,-2 M4,18 L18,2 M12,18 L24,6" style="stroke:var(--claim-b);stroke-width:2.2"/></svg>`;
       case 'lane': return `<svg viewBox="0 0 22 16" aria-hidden="true"><line x1="1" y1="8" x2="21" y2="8" style="stroke:var(--lane);stroke-width:3" stroke-dasharray="6 4"/></svg>`;
+      case 'water': return `<svg viewBox="0 0 22 16" aria-hidden="true"><rect width="22" height="16" rx="3" style="fill:var(--stim-water);stroke:var(--stim-land-stroke);stroke-width:1"/></svg>`;
+      case 'house': return `<svg viewBox="0 0 22 16" aria-hidden="true"><path class="house" d="M4,15 V8 L11,2 L18,8 V15 Z"/></svg>`;
+      case 'road': return `<svg viewBox="0 0 22 16" aria-hidden="true"><line x1="1" y1="8" x2="21" y2="8" style="stroke:var(--ink);stroke-width:2" stroke-dasharray="5 4"/></svg>`;
       default: return `<i class="sw generic"></i>`;
     }
   }
