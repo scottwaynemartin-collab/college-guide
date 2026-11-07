@@ -30,9 +30,57 @@ for qid, opts in nsf["FIX"].items():
     for L, txt in opts.items():
         assert L in byid[qid]["options"], (qid, L)
         byid[qid]["options"][L] = txt
+# review pass 1 patches (original letters)
+ns3 = {}
+exec((H / "fixes3.py").read_text(encoding="utf-8"), ns3)
+for qid, pt in ns3["PATCH"].items():
+    q = byid[qid]
+    for k, v in pt.items():
+        if isinstance(v, dict):
+            for L, txt in v.items():
+                assert L in q[k], (qid, k, L)
+                q[k][L] = txt
+        else:
+            assert k in q, (qid, k)
+            q[k] = v
+ns4 = {}
+exec((H / "fixes4.py").read_text(encoding="utf-8"), ns4)
+for qid, pt in ns4["PATCH"].items():
+    q = byid[qid]
+    for k, v in pt.items():
+        if isinstance(v, dict):
+            for L, txt in v.items():
+                assert L in q[k], (qid, k, L)
+                q[k][L] = txt
+        else:
+            assert k in q, (qid, k)
+            q[k] = v
+for qid, field, old, new in ns4["REPLACE"]:
+    assert old in byid[qid][field], (qid, old); byid[qid][field] = byid[qid][field].replace(old, new)
+
 # answer-letter balancing (option order only; text unchanged)
 for qid, a, b in [("U5-P05", "A", "E"), ("U5-P11", "A", "E"), ("U5-P13", "C", "E"), ("U5-P17", "C", "B"), ("U5-E25", "C", "D")]:
     swap(byid[qid], a, b)
+
+def reorder(qq, texts):
+    old = qq["options"]; inv = {v: k for k, v in old.items()}
+    newmap = {inv[t]: L for L, t in zip("ABCDE", texts)}   # old letter -> new letter
+    qq["options"] = {L: t for L, t in zip("ABCDE", texts)}
+    for k in ("whyNot", "rationales"):
+        if k in qq: qq[k] = {newmap[L]: v for L, v in sorted(qq[k].items(), key=lambda kv: newmap[kv[0]])}
+    qq["answer"] = newmap[qq["answer"]]
+for qid, texts in ns3["REORDER"].items():
+    reorder(byid[qid], texts)
+for qid, a, b in ns3["SWAPS2"]:
+    swap(byid[qid], a, b)
+
+# kid-facing wording: 9th graders don't know "CED"
+for q in practice:
+    q["explanation"] = q["explanation"].replace("The CED", "Your AP course guide").replace("the CED", "your AP course guide")
+    for L in q["whyNot"]: q["whyNot"][L] = q["whyNot"][L].replace("The CED", "Your AP course guide").replace("the CED", "your AP course guide")
+for q in exam:
+    q["explanation"] = q["explanation"].replace("The CED", "Your AP course guide").replace("the CED", "your AP course guide")
+    for L in q["rationales"]: q["rationales"][L] = q["rationales"][L].replace("The CED", "The AP course framework").replace("the CED", "the AP course framework")
 
 TOPICS = [
   ("5.1", "Introduction to Agriculture", "PSO-5.A"),
@@ -56,9 +104,9 @@ out = {
   "unit": 5,
   "title": "Agriculture and Rural Land-Use Patterns and Processes",
   "examWeighting": "12–17% of the AP Exam multiple-choice section",
-  "version": "2026-11-07a",
+  "version": "2026-11-07c",
   "calibration": "Modeled on the format of the College Board 2020 AP Human Geography Practice Exam and the Course and Exam Description (5 answer choices, set-based stimulus questions, skills 1–5). All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced.",
-  "checked": "Draft v2026-11-07a: automated checks (answer balance, option-length tells, field completeness).",
+  "checked": "Nov 7, 2026: automated checks (answer balance, option-length tells, field completeness); independent Claude checker agent (all 61 keys confirmed independently, arithmetic verified by script, CED LO tags verified; fixes applied for length/absolute-word tells, P02 citrus, P27 Ukraine ports, E08 D defensibility, E25 duplicate option, skill tags, reading level); ChatGPT Pro full review (21 min): data-claim precision on P12, P21, P26, P35, E09, E14, E17; enclosure, fair trade, food-desert and intensity wording; E23 rewritten as a scenario; skill tags.",
   "schemaNotes": {
     "stimulus.type": "table | bar | districtMap | schematicMap | rings (rings = von Thünen-style concentric ring diagram: center, rings[].label, outer, description)",
     "practice[].explanation": "6th-grade-level reason the answer is right (show this first)",

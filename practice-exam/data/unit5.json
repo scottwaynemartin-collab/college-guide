@@ -2,9 +2,9 @@
  "unit": 5,
  "title": "Agriculture and Rural Land-Use Patterns and Processes",
  "examWeighting": "12–17% of the AP Exam multiple-choice section",
- "version": "2026-11-07a",
+ "version": "2026-11-07c",
  "calibration": "Modeled on the format of the College Board 2020 AP Human Geography Practice Exam and the Course and Exam Description (5 answer choices, set-based stimulus questions, skills 1–5). All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced.",
- "checked": "Draft v2026-11-07a: automated checks (answer balance, option-length tells, field completeness).",
+ "checked": "Nov 7, 2026: automated checks (answer balance, option-length tells, field completeness); independent Claude checker agent (all 61 keys confirmed independently, arithmetic verified by script, CED LO tags verified; fixes applied for length/absolute-word tells, P02 citrus, P27 Ukraine ports, E08 D defensibility, E25 duplicate option, skill tags, reading level); ChatGPT Pro full review (21 min): data-claim precision on P12, P21, P26, P35, E09, E14, E17; enclosure, fair trade, food-desert and intensity wording; E23 rewritten as a scenario; skill tags.",
  "schemaNotes": {
   "stimulus.type": "table | bar | districtMap | schematicMap | rings (rings = von Thünen-style concentric ring diagram: center, rings[].label, outer, description)",
   "practice[].explanation": "6th-grade-level reason the answer is right (show this first)",
@@ -91,12 +91,12 @@
     "E": "Growing sugarcane on a tropical plantation that employs hundreds of workers"
    },
    "answer": "C",
-   "explanation": "Extensive agriculture uses a LOT of land but puts in very little work, money, or machinery per acre. Ranching is the classic example: a few cowboys and a herd of cattle spread out over thousands of acres of dry grassland. Shifting cultivation and nomadic herding are the other two extensive types to know.",
+   "explanation": "Extensive agriculture puts very little work, money, or machinery into each acre, so it usually spreads over a lot of land. (The test is the inputs per acre, not the farm's size.) Ranching is the classic example: a few ranch hands and a herd of cattle spread out over thousands of acres of dry grassland. Shifting cultivation and nomadic herding are the other two extensive types to know.",
    "whyNot": {
     "A": "Market gardening squeezes lots of labor and money into small plots. That is intensive.",
     "B": "Wet-rice paddies take huge amounts of hand labor on small fields. That is intensive.",
     "D": "A barn dairy with bought feed puts lots of capital into a small area. That is intensive.",
-    "E": "A plantation puts large numbers of workers and lots of money into the crop. The CED lists plantation agriculture as intensive."
+    "E": "A plantation puts large numbers of workers and lots of money into the crop. Your AP course guide lists plantation agriculture as intensive."
    },
    "vocab": [
     "extensive agriculture",
@@ -119,7 +119,7 @@
     "E": "All three regions sit at high elevations where frost is common in summer."
    },
    "answer": "A",
-   "explanation": "These three places share a Mediterranean climate: hot, dry summers and mild, wet winters. Olive trees, grapevines, and citrus trees have deep roots and tough leaves that handle the dry summer, so farmers in all three places grow the same kinds of crops even though they are on different continents.",
+   "explanation": "All three places have a Mediterranean climate: hot, dry summers and mild, rainy winters. The long, warm growing season and mild winters suit olives, grapes, and citrus. Olive trees and grapevines handle the dry summer well, and farmers water citrus trees in summer. Similar climates lead to similar crops, even on different continents.",
    "whyNot": {
     "B": "Rain in every month describes a wet tropical or marine climate, not a Mediterranean one.",
     "C": "Long, cold winters would kill citrus trees. These regions have mild winters.",
@@ -189,18 +189,18 @@
    "stem": "Based on the table, which farm best represents intensive agriculture?",
    "options": {
     "A": "Farm 1",
-    "B": "Farm 4",
-    "C": "Farm 2",
-    "D": "Farm 3",
+    "B": "Farm 2",
+    "C": "Farm 3",
+    "D": "Farm 4",
     "E": "Farm 5"
    },
-   "answer": "C",
-   "explanation": "Intensive farming means putting a LOT of labor and money into a SMALL piece of land to get a high output from every hectare. Farm 2 farms only 3 hectares but spends $9,500 per hectare and earns $28,000 per hectare. That is market gardening, one of the intensive types in the CED.",
+   "answer": "B",
+   "explanation": "Intensive farming means putting a LOT of labor and money into each hectare to get a high output from every hectare, whether the farm is big or small. Farm 2 farms only 3 hectares but spends $9,500 per hectare and earns $28,000 per hectare. That is market gardening, one of the intensive types in your AP course guide.",
    "whyNot": {
     "A": "Farm 1 is ranching: huge land, tiny spending per hectare. That is extensive.",
-    "B": "Farm 4 is nomadic herding: the most land and the least spending per hectare. Extensive.",
-    "D": "Farm 3 spends more per hectare than the herders, but far less than Farm 2. It is the middle case, not the best example of intensive.",
-    "E": "Farm 5 is shifting cultivation, which the CED lists as extensive."
+    "C": "Farm 3 spends more per hectare than the herders, but far less than Farm 2. It is the middle case, not the best example of intensive.",
+    "D": "Farm 4 is nomadic herding: the most land and the least spending per hectare. Extensive.",
+    "E": "Farm 5 is shifting cultivation, which your AP course guide lists as extensive."
    },
    "vocab": [
     "intensive agriculture",
@@ -246,9 +246,9 @@
    "stem": "Farmland in parts of Quebec and Louisiana is divided into long, narrow parcels that run back from a river, with farmhouses lined up along the riverbank. Which statement best explains this pattern?",
    "options": {
     "A": "Railroad companies sold land in square sections along their tracks to attract settlers.",
-    "B": "The U.S. government applied the township and range grid, which always produces long, narrow lots.",
+    "B": "The U.S. government applied the township and range grid, which produces long, narrow lots.",
     "C": "Early settlers clustered their homes in a central village for defense and walked out to fields in all directions.",
-    "D": "Farmers used metes and bounds, which required every boundary to run in a straight north-south line.",
+    "D": "Farmers used metes and bounds, which set boundaries along straight north-south lines.",
     "E": "French settlers used the long-lot system so that each farm had access to the river for water and transportation."
    },
    "answer": "E",
@@ -268,7 +268,7 @@
    "id": "U5-P06",
    "topic": "5.2",
    "lo": "PSO-5.B",
-   "skill": "4.D",
+   "skill": "4.B",
    "difficulty": "medium",
    "stimulus": {
     "type": "schematicMap",
@@ -684,7 +684,7 @@
     "E": "The interior of Australia"
    },
    "answer": "B",
-   "explanation": "The Fertile Crescent is an arc of good farmland in Southwest Asia, around the Tigris and Euphrates Rivers and the eastern Mediterranean coast. About 10,000 years ago, people there began planting wheat and barley and taming sheep and goats. The CED also names the Indus River Valley, Southeast Asia, and Central America as early hearths.",
+   "explanation": "The Fertile Crescent is an arc of good farmland in Southwest Asia, around the Tigris and Euphrates Rivers and the eastern Mediterranean coast. About 10,000 years ago, people there began planting wheat and barley and taming sheep and goats. Your AP course guide also names the Indus River Valley, Southeast Asia, and Central America as early hearths.",
    "whyNot": {
     "A": "Plains peoples farmed in river valleys, but the Great Plains was not a hearth for wheat, barley, sheep, or goats. Those reached the Americas after 1492.",
     "C": "Some Amazonian peoples domesticated crops such as cassava, but not wheat, barley, sheep, or goats.",
@@ -712,7 +712,7 @@
     "E": "Genetically modified soybeans spreading across South America in the 2000s"
    },
    "answer": "D",
-   "explanation": "The Columbian Exchange was the swap of plants, animals, people, and diseases between the Americas and the rest of the world that began after Columbus's voyages in 1492. Maize (corn) and potatoes from the Americas became major foods in Europe, Africa, and Asia, while wheat, cattle, and horses moved the other way.",
+   "explanation": "The Columbian Exchange was a giant swap between the Americas and the rest of the world. It started after Columbus sailed in 1492. Plants, animals, people, and diseases moved both ways. Maize (corn) and potatoes from the Americas became big foods in Europe, Africa, and Asia. Wheat, cattle, and horses went the other way.",
    "whyNot": {
     "A": "That is diffusion from the first agricultural hearths, thousands of years before 1492.",
     "B": "That is ancient diffusion within Asia, not an exchange between the Americas and the rest of the world.",
@@ -732,7 +732,7 @@
    "difficulty": "hard",
    "stem": "Cassava, a root crop first domesticated in South America, became a staple food across much of tropical Africa after the 1500s. Which statement best explains this?",
    "options": {
-    "A": "Cassava was carried to Africa by Portuguese traders as part of the Columbian Exchange and grows well in poor soils and during dry spells.",
+    "A": "Portuguese traders brought it from the Americas, and it grows well in poor soil and during dry spells.",
     "B": "Cassava was domesticated a second time in the Nile River valley, so African farmers already had it before the 1500s.",
     "C": "Cassava spread to Africa during the Green Revolution, when scientists bred it for irrigated farms.",
     "D": "Cassava requires cold winters to produce roots, so it grew best in the cooler parts of Africa.",
@@ -766,7 +766,7 @@
     "E": "The seed drill and four-field crop rotation"
    },
    "answer": "E",
-   "explanation": "The Second Agricultural Revolution started in Britain in the 1700s, alongside the Industrial Revolution. The seed drill planted seeds in neat rows instead of tossing them by hand, and four-field crop rotation (wheat, turnips, barley, clover) kept soil fertile without leaving fields empty. Later came steel plows, mechanical reapers, and tractors.",
+   "explanation": "The Second Agricultural Revolution started in Britain in the 1700s, at the same time as the Industrial Revolution. The seed drill planted seeds in neat rows instead of tossing them by hand. Four-field crop rotation (wheat, turnips, barley, clover) kept the soil healthy, so no field had to sit empty. Later came steel plows, reapers, and tractors.",
    "whyNot": {
     "A": "That is the First Agricultural Revolution (the Neolithic Revolution), thousands of years earlier.",
     "B": "That is the Green Revolution of the 1960s and 1970s.",
@@ -794,7 +794,7 @@
     "E": "Fewer farmworkers were needed, so many rural people moved to cities to work in factories."
    },
    "answer": "E",
-   "explanation": "New tools and methods let each farmer grow much more food. So farms needed fewer workers, and many rural families moved to cities to work in the new factories. The extra food also meant better diets and longer lives. The CED says it led to better diets, longer life expectancies, and more people available to work in factories.",
+   "explanation": "New tools and methods let each farmer grow much more food. Farms needed fewer workers, so many rural families moved to cities to work in factories. More food also meant better diets and longer lives.",
    "whyNot": {
     "B": "Food production rose, and life expectancy improved.",
     "C": "Farming became more commercial, with more food sold to growing cities.",
@@ -853,18 +853,18 @@
    "stem": "Which conclusion about Country X is best supported by the data in the table?",
    "options": {
     "A": "Falling wheat yields forced farmworkers to leave the countryside.",
-    "B": "Rising farm productivity let a shrinking share of workers feed a growing urban population.",
+    "B": "Wheat yields increased while agriculture's share of workers fell and the share of people living in cities rose.",
     "C": "The share of people living in cities fell as farms became more productive.",
     "D": "Agriculture employed a larger share of workers in 1900 than in 1750.",
     "E": "Wheat yields rose fastest between 1850 and 1900, the same period when farm employment was rising."
    },
    "answer": "B",
-   "explanation": "Read the columns together. Wheat yields go UP (16 to 31). The share of workers on farms goes DOWN (55% to 9%). The share of people in cities goes UP (20% to 75%). So each farmer is producing more, fewer people need to farm, and more people can live and work in cities. That is the Second Agricultural Revolution working alongside the Industrial Revolution.",
+   "explanation": "Read the columns together. Wheat yields go UP (16 to 31 bushels per acre). The share of workers on farms goes DOWN (55% to 9%). The share of people living in cities goes UP (20% to 75%). That pattern fits the Second Agricultural Revolution happening alongside the Industrial Revolution. (The table shows shares, not total numbers of farmworkers or city residents.)",
    "whyNot": {
     "A": "Yields rose in every period, so they were not falling.",
     "C": "The urban share rose from 20% to 75%.",
     "D": "The farm share of workers fell from 55% to 9%.",
-    "E": "Yields grew by only 3 bushels from 1850 to 1900 (the smallest gain), and farm employment was falling."
+    "E": "Yield rose by only 3 bushels per acre from 1850 to 1900, the smallest gain shown, and the farm share of workers fell from 22% to 9%."
    },
    "vocab": [
     "Second Agricultural Revolution",
@@ -884,10 +884,10 @@
     "B": "The first domestication of plants and animals in river valleys of Southwest and South Asia",
     "C": "The return of eroded farmland to native grasses to reduce soil erosion and dust storms",
     "D": "The conversion of tropical forests in developing countries into protected national parks",
-    "E": "The spread of high-yield seeds, fertilizers, pesticides, and irrigation in developing countries after the mid-1900s"
+    "E": "The spread of high-yield seeds, chemicals, and irrigation in poorer countries in the mid-1900s"
    },
    "answer": "E",
-   "explanation": "The Green Revolution began in the 1940s through 1960s, when scientists such as Norman Borlaug bred high-yield varieties (HYVs) of wheat and rice. Farmers in places like Mexico, India, and the Philippines planted these seeds and added chemical fertilizer, pesticides, irrigation, and machines. Harvests grew a lot. The CED lists high-yield seeds, more chemicals, and mechanized farming.",
+   "explanation": "The Green Revolution began in Mexico in the 1940s and spread to Asia in the 1960s. Scientists such as Norman Borlaug bred high-yield varieties (HYVs) of wheat and rice. Farmers in places like Mexico, India, and the Philippines planted these seeds and added chemical fertilizer, pesticides, irrigation, and machines. Harvests grew a lot. Your AP course guide lists high-yield seeds, more chemicals, and mechanized farming.",
    "whyNot": {
     "A": "That describes organic farming, which uses fewer chemicals. The Green Revolution used more.",
     "B": "That is the First Agricultural Revolution.",
@@ -903,7 +903,7 @@
    "id": "U5-P14",
    "topic": "5.5",
    "lo": "SPS-5.D",
-   "skill": "2.D",
+   "skill": "2.C",
    "difficulty": "medium",
    "stem": "In the Indian state of Punjab, Green Revolution wheat and rice farming raised harvests sharply. Which of the following is a negative environmental consequence of these practices in Punjab?",
    "options": {
@@ -970,11 +970,11 @@
     "E": "Green Revolution seeds and inputs were designed mainly for irrigated wheat and rice, so Region P gained far more."
    },
    "answer": "E",
-   "explanation": "Region P more than doubled its yield (1.0 to 2.3 tonnes per hectare), while Region Q barely changed (0.8 to 1.0). The Green Revolution's high-yield seeds were mostly wheat, rice, and maize, and they work best with irrigation and fertilizer. Region P had those crops and inputs. Region Q's crops and lack of roads and irrigation meant the Green Revolution helped it much less. This is a big reason the Green Revolution had a smaller effect in much of Sub-Saharan Africa than in South Asia.",
+   "explanation": "Region P's yield more than doubled (1.0 to 2.3 tonnes per hectare, up 130%). Region Q's rose only 25% (0.8 to 1.0). The Green Revolution's high-yield seeds were mostly wheat, rice, and maize, and they work best with irrigation and fertilizer. Region P had those crops and inputs. Region Q's crops, and its lack of irrigation, fertilizer dealers, and roads, meant it gained much less.",
    "whyNot": {
     "A": "The text says Region Q's farmers can't easily get fertilizer. Nothing says they chose to stop.",
     "B": "Region Q does grow cereals (sorghum and millet), and the chart shows a yield there.",
-    "C": "Shifting cultivation is extensive and low-yield. It would not more than double yields.",
+    "C": "The text says Region P grows mostly irrigated wheat and rice. Nothing describes a switch to shifting cultivation.",
     "D": "Nothing in the chart or text describes Region P's population."
    },
    "vocab": [
@@ -998,7 +998,7 @@
     "E": "Mixed crop and livestock farming"
    },
    "answer": "B",
-   "explanation": "Commercial farming grows crops to SELL, not to feed the farm family. Monocropping means growing the same single crop on the same land year after year. A huge soybean farm selling everything for export is both. The CED says production regions are defined by whether they are subsistence or commercial, including monocropping or monoculture.",
+   "explanation": "Commercial farming grows crops to SELL, not to feed the farm family. Monocropping means growing the same single crop on the same land year after year. A huge soybean farm selling everything for export is both. Your AP course guide says production regions are defined by whether they are subsistence or commercial, including monocropping or monoculture.",
    "whyNot": {
     "A": "Subsistence farmers grow food mainly to feed their own families. This farm sells everything.",
     "C": "Shifting cultivation moves to new forest clearings every few years. This farm stays put.",
@@ -1020,13 +1020,13 @@
    "stem": "According to bid-rent theory, why is farmland closest to a large city usually farmed more intensively than land farther away?",
    "options": {
     "A": "Soil is always more fertile near cities than in rural areas.",
-    "B": "Land near the city costs more, so farmers must earn a high output per acre to afford it.",
+    "B": "Land near the city costs more, so farmers must earn a lot from each acre to afford it.",
     "C": "Governments ban extensive farming within city limits.",
     "D": "Farmers near cities have fewer customers, so they must grow more food.",
     "E": "Transportation costs are higher for land close to the city than for land far away."
    },
    "answer": "B",
-   "explanation": "Bid-rent theory says people bid more for land that is close to the market, because being close saves money on transportation. Higher land prices mean a farmer near the city has to squeeze a lot of value out of every acre, like vegetables or dairy. Farther out, land is cheap, so low-value uses that need lots of land, like grazing, make sense. The CED says intensive and extensive practices are decided partly by land costs (bid-rent).",
+   "explanation": "Bid-rent theory says people bid more for land that is close to the market, because being close saves money on transportation. Higher land prices mean a farmer near the city has to squeeze a lot of value out of every acre, like vegetables or dairy. Farther out, land is cheap, so low-value uses that need lots of land, like grazing, make sense. Your AP course guide says intensive and extensive practices are decided partly by land costs (bid-rent).",
    "whyNot": {
     "A": "Soil quality is not what the theory is about, and it is not always better near cities.",
     "D": "Farmers near cities have MORE nearby customers, not fewer.",
@@ -1138,18 +1138,18 @@
    "stem": "Which development best illustrates technology increasing the carrying capacity of farmland?",
    "options": {
     "A": "Farmers abandon fields after the soil loses its fertility.",
-    "B": "Center-pivot irrigation and improved seeds let the same acreage feed more people.",
-    "C": "A region converts farmland into new housing subdivisions.",
+    "B": "A region converts farmland into new housing subdivisions.",
+    "C": "Center-pivot irrigation and improved seeds let the same acreage feed more people.",
     "D": "Herders move their animals to new pastures each season.",
     "E": "A farm stops using tractors and other machinery and returns to plowing its fields with animals."
    },
-   "answer": "B",
-   "explanation": "Carrying capacity is how many people the land can support. If the same acres produce more food, the land can feed more people. Irrigation brings water to dry fields, and better seeds grow bigger harvests. The CED says technology has increased economies of scale in agriculture and the carrying capacity of the land.",
+   "answer": "C",
+   "explanation": "Carrying capacity is how many people the land can support. If the same acres produce more food, the land can feed more people. Irrigation brings water to dry fields, and better seeds grow bigger harvests. Your AP course guide says technology has increased economies of scale in agriculture and the carrying capacity of the land.",
    "whyNot": {
     "A": "Abandoning worn-out fields lowers how many people the land supports.",
-    "C": "Turning farms into housing removes farmland. It does not raise its output.",
     "D": "Seasonal herding is a traditional practice, not new technology raising output.",
-    "E": "Going back to animal plowing usually lowers output per acre and per worker."
+    "E": "Plowing with animals takes more labor, and it does not show more food coming from the same land.",
+    "B": "Turning farms into housing removes farmland. It does not raise its output."
    },
    "vocab": [
     "carrying capacity",
@@ -1196,19 +1196,19 @@
    },
    "stem": "The trend in the table best illustrates which of the following?",
    "options": {
-    "A": "Large-scale commercial operations replacing small family farms",
+    "A": "Farm consolidation into fewer operations with a larger average size",
     "B": "A shift from commercial farming to subsistence farming",
     "C": "A rapid increase in the total amount of land being farmed",
     "D": "The breakup of large estates into many small peasant farms owned by individual families",
     "E": "A return to shifting cultivation as farmers move to new land"
    },
    "answer": "A",
-   "explanation": "The number of farms fell by more than half (5.4 million to 2.0 million) while the average farm doubled in size (215 to 445 acres). That means small farms were bought up or combined into bigger ones. Big operations can buy machines and supplies in bulk and spread the cost over more acres (economies of scale). The CED says large-scale commercial operations are replacing small family farms.",
+   "explanation": "The number of farms fell from 5.4 million to 2.0 million, while the average farm grew from 215 to 445 acres. Fewer but bigger farms is called consolidation. Your AP course guide says large-scale commercial operations are replacing small family farms; this table fits that pattern, but it does not show who owns the farms or exactly how the change happened.",
    "whyNot": {
-    "B": "Bigger farms with fewer owners point to MORE commercial farming, not subsistence.",
+    "B": "The table shows farm numbers and size, not whether farms grow food mainly for sale or for the household.",
     "C": "Total farmland FELL, from 1,161 to 890 million acres.",
     "D": "Farms got bigger and fewer, the opposite of breaking up estates.",
-    "E": "Nothing in the table suggests shifting cultivation, and farm counts would not fall that way."
+    "E": "The table gives no evidence that farmers clear new plots and leave older plots to rest."
    },
    "vocab": [
     "agribusiness",
@@ -1248,7 +1248,7 @@
    "id": "U5-P23",
    "topic": "5.8",
    "lo": "PSO-5.D",
-   "skill": "5.B",
+   "skill": "4.C",
    "difficulty": "medium",
    "stimulus": {
     "type": "rings",
@@ -1272,7 +1272,7 @@
     "description": "Four rings surround a single market city on a flat, uniform plain. Ring 1 touches the city; ring 4 is farthest away. Farmers haul their own goods to the city, so transportation cost rises with distance.",
     "source": "Simplified from von Thünen, The Isolated State (1826)"
    },
-   "stem": "In von Thünen's original model, shown in the diagram, which land use occupied ring 2, and why?",
+   "stem": "In von Thünen's model, simplified in the diagram, which land use occupied ring 2, and why?",
    "options": {
     "A": "Ranching, because cattle can walk to the city on their own",
     "B": "Grain, because wheat spoils quickly and must be sold within a day",
@@ -1308,7 +1308,7 @@
     "E": "Many farmers still consider transportation cost when they decide which crops to grow."
    },
    "answer": "C",
-   "explanation": "Von Thünen's model depends on transportation cost rising steeply with distance, so perishable foods must be grown close to the market. Refrigeration and fast, cheap shipping break that rule: fresh grapes can travel thousands of miles from Chile and still beat local fruit in winter. The CED notes that specialty farming regions do not always fit the rings.",
+   "explanation": "Von Thünen's model depends on transportation cost rising steeply with distance, so perishable foods must be grown close to the market. Refrigeration and fast, cheap shipping break that rule: fresh grapes can travel thousands of miles from Chile and reach stores during the Northern Hemisphere's winter, when local grapes are out of season. Your AP course guide notes that specialty farming regions do not always fit the rings.",
    "whyNot": {
     "A": "Dairying near cities fits the model.",
     "B": "Higher land prices near the market match bid-rent and the model.",
@@ -1336,7 +1336,7 @@
     "E": "an increase in the number of manufacturing jobs"
    },
    "answer": "D",
-   "explanation": "If most of a country's money from exports comes from one crop, its whole economy rides on that crop's price. When world cocoa or coffee prices fall, the country earns much less, and farmers, workers, and the government all have less money. The CED says some countries have become highly dependent on one or more export commodities.",
+   "explanation": "If most of a country's money from exports comes from one crop, its whole economy rides on that crop's price. When world cocoa or coffee prices fall, the country earns much less, and farmers, workers, and the government all have less money. Your AP course guide says some countries have become highly dependent on one or more export commodities.",
    "whyNot": {
     "A": "Birth rates are not tied to dependence on one crop export.",
     "B": "Tourism is a separate part of the economy.",
@@ -1398,7 +1398,7 @@
     ],
     "source": "Hypothetical data"
    },
-   "stem": "Based on the table, which country's food supply would be most threatened by a sharp rise in world grain prices?",
+   "stem": "All other things being equal, which country's food supply is most exposed to a sharp rise in the price of imported food?",
    "options": {
     "A": "Country A",
     "B": "Country B",
@@ -1407,11 +1407,11 @@
     "E": "Country E"
    },
    "answer": "C",
-   "explanation": "Look at the last column: how much of each country's food comes from other countries. Country C imports 85% of its food, so when world grain prices jump, it has to pay much more to feed its people. Country D exports wheat and imports only 5% of its food, so it might even gain from higher grain prices. This shows how food links countries together in a global system.",
+   "explanation": "Look at the last column: how much of each country's food comes from other countries. Country C imports 85% of its food, the most in the table, so a rise in the price of imported food would hit the biggest part of its food supply. (Real food security also depends on things the table does not show, like income and food reserves.) This shows how food links countries together in a global system.",
    "whyNot": {
     "A": "Country A imports only 15% of its food.",
     "B": "Country B depends on cocoa EXPORTS, which is a different risk. It imports only 20% of its food.",
-    "D": "Country D is a wheat exporter that imports just 5% of its food.",
+    "D": "Country D imports only 5% of its food, the smallest share in the table.",
     "E": "Country E imports 40% of its food. That is a real risk, but less than Country C's 85%."
    },
    "vocab": [
@@ -1424,9 +1424,9 @@
    "id": "U5-P27",
    "topic": "5.9",
    "lo": "PSO-5.E",
-   "skill": "5.D",
+   "skill": "2.B",
    "difficulty": "hard",
-   "stem": "In 2022, the war in Ukraine blocked grain shipments from Black Sea ports, and bread and flour prices rose in wheat-importing countries such as Egypt and Lebanon. This example best illustrates which concept?",
+   "stem": "In 2022, the war in Ukraine blocked grain shipments from Ukraine's Black Sea ports, and bread and flour prices rose in wheat-importing countries such as Egypt and Lebanon. This example best illustrates which concept?",
    "options": {
     "A": "Global food distribution networks are affected by political relationships and trade routes.",
     "B": "Von Thünen's model predicts where wheat farming will be located within a single country such as Egypt.",
@@ -1435,7 +1435,7 @@
     "E": "Food prices are set only by local weather in the country where food is eaten."
    },
    "answer": "A",
-   "explanation": "Egypt and Lebanon buy a lot of wheat from abroad, much of it from Ukraine and Russia. When war blocked the ships leaving Black Sea ports, those countries could not get the grain as easily, so prices rose. A conflict in one place hurt food prices in another. The CED says global food distribution is shaped by political relationships, infrastructure, and patterns of world trade.",
+   "explanation": "Egypt and Lebanon buy a lot of wheat from abroad, much of it from Ukraine and Russia. When the war blocked ships from leaving Ukraine's Black Sea ports, those countries could not get the grain as easily, so prices rose. A conflict in one place hurt food prices in another. Your AP course guide says global food distribution is shaped by political relationships, infrastructure, and patterns of world trade.",
    "whyNot": {
     "B": "Von Thünen explains land use around one market, not a war disrupting global trade.",
     "C": "These countries still import large amounts of wheat. That is why prices rose.",
@@ -1460,7 +1460,7 @@
     "B": "The planting of a different crop in a field each year to restore soil nutrients",
     "C": "The clearing of forest land for farming by cutting and then burning the vegetation",
     "D": "The spread of desert-like conditions into dry grasslands after vegetation is lost",
-    "E": "The buildup of salts in soil, often from irrigation in dry climates where water evaporates quickly"
+    "E": "The buildup of salts in soil, often from irrigating fields in dry climates"
    },
    "answer": "E",
    "explanation": "All water carries a little bit of salt. When farmers irrigate in a hot, dry place, the water evaporates and leaves the salt behind. Year after year the salt builds up until crops can't grow well. This has happened in parts of Pakistan, Iraq, Australia, and California's Central Valley.",
@@ -1479,7 +1479,7 @@
    "id": "U5-P29",
    "topic": "5.10",
    "lo": "IMP-5.A",
-   "skill": "2.E",
+   "skill": "1.D",
    "difficulty": "medium",
    "stem": "Rice terraces carved into steep hillsides in the Philippines and on the Indonesian island of Bali best illustrate which of the following?",
    "options": {
@@ -1490,7 +1490,7 @@
     "E": "Shifting cultivation, in which farmers move from one hillside to another every few years as the soil wears out"
    },
    "answer": "B",
-   "explanation": "Rice paddies need flat, flooded fields. Farmers on steep mountains built terraces, like giant stairs, so each step holds water and soil. Terraces slow down rain running downhill, which cuts erosion. The CED lists terraces as an agricultural practice that alters the landscape.",
+   "explanation": "Rice paddies need flat, flooded fields. Farmers on steep mountains built terraces, like giant stairs, so each step holds water and soil. Terraces slow down rain running downhill, which cuts erosion. Your AP course guide lists terraces as an agricultural practice that alters the landscape.",
    "whyNot": {
     "A": "Terraces are for crops, and they fight erosion. They are not caused by overgrazing.",
     "C": "The hills ARE farmed. That is the whole point of terraces.",
@@ -1548,7 +1548,7 @@
     "E": "Land cover in the region stayed about the same over the 30 years shown in the table."
    },
    "answer": "C",
-   "explanation": "Forest fell from 82% to 61% of the region, a loss of 21 percentage points. Over the same time, pasture rose 15 points and cropland rose 9 points. So the forest was cut down and turned into ranches and soybean farms. This is land cover change, an environmental effect of agriculture listed in the CED, and it matches what has happened in parts of the Amazon.",
+   "explanation": "Forest fell from 82% to 61% of the region, a loss of 21 percentage points. Over the same time, pasture rose 15 points and cropland rose 9 points. So the forest was cut down and turned into ranches and soybean farms. This is land cover change, an environmental effect of agriculture listed in your AP course guide, and it matches what has happened in parts of the Amazon.",
    "whyNot": {
     "A": "Forest SHRANK, from 82% to 61%.",
     "B": "Cropland grew, from 2% to 11%.",
@@ -1575,7 +1575,7 @@
     "E": "Land that has been damaged by overgrazing and gradually turned into desert"
    },
    "answer": "A",
-   "explanation": "A food desert has nothing to do with sand. It is a neighborhood, often a low-income city area or an isolated rural area, where there is no full-service grocery store nearby, so people mostly buy food at gas stations or fast-food places. The CED lists food deserts as a challenge to feeding people.",
+   "explanation": "A food desert has nothing to do with sand. It is an area where getting affordable, healthy food is hard: the nearest full-service grocery store may be far away, and some people may not have a car or good bus service. Food deserts happen in both city neighborhoods and rural areas. Your AP course guide lists food deserts as a challenge to feeding people.",
    "whyNot": {
     "B": "That describes a dry farming region, not a food desert.",
     "C": "That is a food surplus region.",
@@ -1602,7 +1602,7 @@
     "E": "the Green Revolution"
    },
    "answer": "D",
-   "explanation": "In community-supported agriculture (CSA), customers buy a \"share\" of a local farm's harvest ahead of time. The farmer gets money up front, and the families get fresh, local food each week. It is part of the local-food movement listed in the CED.",
+   "explanation": "In community-supported agriculture (CSA), customers buy a \"share\" of a local farm's harvest ahead of time. The farmer gets money up front, and the families get fresh, local food each week. It is part of the local-food movement listed in your AP course guide.",
    "whyNot": {
     "A": "Plantations grow cash crops on large estates, usually for export.",
     "B": "Vertical integration is one big company controlling many steps of food production.",
@@ -1664,11 +1664,11 @@
     "E": "Food deserts forming in remote rural counties"
    },
    "answer": "A",
-   "explanation": "The county closest to the city grew the fastest (+140%) and lost the most farmland (100,000 acres, almost half). The far county barely grew and kept almost all its farms. As the city spreads, houses, roads, and shopping centers are built on farmland. The CED lists land lost to suburbanization as a challenge to feeding a growing population.",
+   "explanation": "The county closest to the city grew the fastest (+140%) and lost the most farmland (100,000 acres, almost half). The far county barely grew and kept almost all its farmland. As the city spreads, houses, roads, and shopping centers are built on farmland. Your AP course guide lists land lost to suburbanization as a challenge to feeding a growing population.",
    "whyNot": {
     "B": "The table shows nothing about irrigation or salt.",
     "C": "The table shows nothing about crop types or biodiversity.",
-    "D": "Shifting cultivation is not practiced in this setting, and farmland is disappearing, not moving.",
+    "D": "The table gives no evidence that farmers clear new plots and leave older plots to rest.",
     "E": "The table measures farmland and population, not access to grocery stores."
    },
    "vocab": [
@@ -1685,16 +1685,16 @@
    "difficulty": "medium",
    "stem": "In many rural regions where men migrate to cities or other countries for wage work, the role of women in agriculture tends to",
    "options": {
-    "A": "disappear, because farms are abandoned when men leave",
+    "A": "decline, because most women migrate to the cities along with the men",
     "B": "grow, because women take on more of the farm work and decision-making",
-    "C": "shift entirely to factory work in the same rural region",
+    "C": "shift mainly to factory work in nearby towns",
     "D": "stay exactly the same, because migration by men has little effect on who does farm labor",
     "E": "become limited to large mechanized wheat farms"
    },
    "answer": "B",
-   "explanation": "When men leave to earn wages somewhere else, someone still has to grow the family's food. In much of South Asia, Sub-Saharan Africa, and Central America, women pick up more of the farm work and start making more of the farm decisions. Researchers call this the \"feminization of agriculture.\" The CED says women's roles in food production vary from place to place depending on the type of production.",
+   "explanation": "When men leave to work in cities or other countries, the family still needs food. So women do more of the farm work. They also make more of the farm decisions. This happens in parts of South Asia, Africa south of the Sahara, and Central America. Experts call it the \"feminization of agriculture.\" Women's farm roles change from place to place, depending on the kind of farming.",
    "whyNot": {
-    "A": "Farms usually keep running, with women doing more of the work.",
+    "A": "Women usually stay and take over more of the farm work; farms are rarely abandoned.",
     "C": "The farm work still needs doing, and rural regions often have few factory jobs.",
     "D": "Migration changes who does the farm work.",
     "E": "Families affected by this migration are mostly small farms, not large mechanized wheat farms."
@@ -1745,16 +1745,16 @@
    },
    "stem": "Which conclusion is best supported by the chart?",
    "options": {
-    "A": "In every country, women hold a larger share of farmland than men do.",
-    "B": "Country 4 has the largest share of women working in agriculture.",
-    "C": "In every country, women's share of farm work is greater than their share of landholding.",
-    "D": "In Country 3, women hold a larger share of farmland than they do of farm work.",
+    "A": "In every country, women make up more than half of agricultural landholders.",
+    "B": "Country 4 has the highest percentage of agricultural workers who are women.",
+    "C": "In every country, women make up a larger percentage of agricultural workers than of agricultural landholders.",
+    "D": "In Country 3, women's percentage of agricultural landholders is greater than their percentage of agricultural workers.",
     "E": "Women make up more than half of agricultural workers in every country."
    },
    "answer": "C",
-   "explanation": "Compare the two bars for each country. The first bar (share of workers) is always taller than the second (share of landholders): 48 vs. 15, 42 vs. 12, 30 vs. 20, 25 vs. 18. So women do a big part of the farm work but hold a much smaller part of the land. This gap is real in many countries, and it matters because people without land titles often can't get loans, seed, or fertilizer.",
+   "explanation": "Compare the two bars for each country. Women's percentage of farm workers is always bigger than their percentage of landholders: 48 vs. 15, 42 vs. 12, 30 vs. 20, and 25 vs. 18. (The chart counts people. It does not show hours worked or how much land each person holds.) This gap matters because people who do not hold land often have a harder time getting loans, seed, and fertilizer.",
    "whyNot": {
-    "A": "Women hold 12% to 20% of landholdings. Men hold the rest, so men hold more everywhere.",
+    "A": "Women make up 12% to 20% of agricultural landholders, below half in every country.",
     "B": "Country 4 has the SMALLEST share (25%). Country 1 has the largest (48%).",
     "D": "In Country 3, women are 30% of workers but only 20% of landholders.",
     "E": "No country reaches 50%. The highest is 48%."
@@ -1772,19 +1772,19 @@
    "difficulty": "hard",
    "stem": "Which statement best explains why women's roles in food production differ between small-scale subsistence farming regions and highly mechanized commercial farming regions?",
    "options": {
-    "A": "Women take no part in food production in commercial farming regions, so the comparison applies only to subsistence regions.",
+    "A": "Women do most of the work on mechanized farms, while men do most of the hand labor on subsistence farms.",
     "B": "Subsistence farming uses so much heavy machinery that women's hand labor is rarely needed in the fields.",
-    "C": "Women's roles in food production depend only on a region's climate, not on the type of farming practiced.",
+    "C": "Women's roles in food production depend mainly on a region's climate rather than on the type of farming.",
     "D": "Subsistence farms rely on hand labor, often done by women, while mechanized farms need few workers and are more often run by men.",
-    "E": "Mechanized commercial farms always employ more women than subsistence farms do, because machines need many operators."
+    "E": "Mechanized commercial farms employ more women than subsistence farms do, because machines need many operators."
    },
    "answer": "D",
-   "explanation": "On small subsistence farms, growing food takes lots of hand work, and in many regions women do much of the planting, weeding, harvesting, and food processing for the family. On big mechanized farms, machines do most of the work, so far fewer workers are needed, and owners and operators have more often been men. Women's roles change with the TYPE of farming, which is exactly what the CED says.",
+   "explanation": "On small subsistence farms, growing food takes lots of hand work, and in many regions women do much of the planting, weeding, harvesting, and food processing for the family. On big mechanized farms, machines do most of the work, so far fewer workers are needed, and owners and operators have more often been men. Women's roles change with the TYPE of farming, which is exactly what your AP course guide says.",
    "whyNot": {
-    "A": "Women work and run farms and food businesses in commercial regions too. The roles just differ.",
+    "A": "This reverses the pattern: women often do much of the hand labor on subsistence farms, and mechanized farms are more often run by men.",
     "B": "Subsistence farming uses very LITTLE machinery and lots of hand labor.",
-    "C": "The CED says roles depend on the type of production, not only on climate.",
-    "E": "\"Always\" is wrong, and mechanized farms employ far fewer people of any gender."
+    "C": "Your AP course guide says roles depend on the type of production, not mainly on climate.",
+    "E": "Mechanized farms need far fewer workers of any gender, not more."
    },
    "vocab": [
     "women in agriculture",
@@ -1809,10 +1809,10 @@
     "difficulty": "easy",
     "stem": "Which of the following best describes the difference between intensive and extensive agriculture?",
     "options": {
-     "A": "Intensive agriculture is always subsistence farming, whereas extensive agriculture is always commercial farming.",
-     "B": "Intensive agriculture is found only in developed countries, whereas extensive agriculture is found only in developing countries.",
-     "C": "Intensive agriculture grows only grains, whereas extensive agriculture raises only animals.",
-     "D": "Intensive agriculture uses large inputs of labor or capital per unit of land, whereas extensive agriculture uses few inputs spread over large areas.",
+     "A": "Intensive agriculture produces food for the farm family, whereas extensive agriculture produces food for sale.",
+     "B": "Intensive agriculture is practiced in developed countries, whereas extensive agriculture is practiced in developing countries.",
+     "C": "Intensive agriculture grows crops, whereas extensive agriculture raises livestock.",
+     "D": "Intensive agriculture uses many inputs per unit of land, whereas extensive agriculture uses few inputs per unit of land.",
      "E": "Intensive agriculture relies on rainfall, whereas extensive agriculture relies on irrigation."
     },
     "answer": "D",
@@ -1820,10 +1820,10 @@
      "A": "Incorrect. Both kinds can be subsistence or commercial. Wet-rice farming is intensive subsistence; a large market garden is intensive commercial; nomadic herding is extensive subsistence; ranching is extensive commercial.",
      "B": "Incorrect. Both are found in developed and developing countries, for example ranching in the United States and Argentina and intensive rice farming in Japan and Bangladesh.",
      "C": "Incorrect. The distinction is about inputs per unit of land, not crop versus livestock. Dairying is intensive livestock farming; shifting cultivation is extensive crop farming.",
-     "D": "Correct. Intensive agriculture concentrates labor, capital, fertilizer, or machinery on relatively small areas to get high output per unit of land. Extensive agriculture uses relatively few inputs per unit of land over large areas, as in ranching, nomadic herding, and shifting cultivation.",
+     "D": "Correct. Intensive agriculture uses high inputs of labor or capital per unit of land to produce a high output from that land. Extensive agriculture uses relatively few inputs per unit of land, often over large areas, as in ranching, nomadic herding, and shifting cultivation.",
      "E": "Incorrect. Water source does not define the two categories; many intensive and extensive systems are rain-fed, and some of each are irrigated."
     },
-    "explanation": "Intensive = lots of work and money on a small piece of land (vegetable farms, rice paddies, dairies). Extensive = little work and money spread over a huge area (ranching, nomadic herding, shifting cultivation). It is about inputs per acre, not about rich or poor countries or crops versus animals."
+    "explanation": "Intensive farming puts more labor or money into each acre (vegetable farms, rice paddies, dairies). Extensive farming puts fewer inputs into each acre and often covers a large area (ranching, nomadic herding, shifting cultivation). The test is inputs per acre, not the farm's total size, rich or poor countries, or crops versus animals."
    },
    {
     "id": "U5-E02",
@@ -1856,7 +1856,7 @@
     "set": "vonthunen",
     "topic": "5.8",
     "lo": "PSO-5.D",
-    "skill": "4.A",
+    "skill": "4.E",
     "difficulty": "easy",
     "stimulus": {
      "type": "rings",
@@ -1930,7 +1930,7 @@
     "set": "vonthunen",
     "topic": "5.8",
     "lo": "PSO-5.D",
-    "skill": "5.B",
+    "skill": "2.C",
     "difficulty": "hard",
     "stem": "Suppose a navigable canal were built from the market city straight out through rings W, X, Y, and Z. Based on von Thünen's reasoning, which change would most likely occur?",
     "options": {
@@ -1959,7 +1959,7 @@
     "difficulty": "easy",
     "stem": "Which of the following correctly pairs an early hearth of domestication with crops first domesticated there?",
     "options": {
-     "A": "Mesoamerica (Central America) — rice and soybeans",
+     "A": "Mesoamerica (Central America) — rice, soybeans, and green tea",
      "B": "Southeast Asia — maize and potatoes",
      "C": "Fertile Crescent — cassava and sweet potatoes",
      "D": "Northern Europe — coffee and cacao",
@@ -1967,11 +1967,11 @@
     },
     "answer": "E",
     "rationales": {
-     "A": "Incorrect. Rice and soybeans were domesticated in East and Southeast Asia, not Mesoamerica.",
+     "A": "Incorrect. Rice, soybeans, and tea were first domesticated in East and Southeast Asia, not Mesoamerica.",
      "B": "Incorrect. Maize comes from Mesoamerica and potatoes from the Andes of South America.",
      "C": "Incorrect. The Fertile Crescent is known for wheat, barley, lentils, sheep, and goats. Cassava and sweet potatoes come from the Americas.",
      "D": "Incorrect. Northern Europe was not an early hearth. Coffee was first cultivated in the Ethiopia-Yemen region, and cacao in the Americas.",
-     "E": "Correct. Mesoamerica (Central America and southern Mexico), one of the hearths named in the CED, domesticated maize, beans, and squash, often grown together as the \"three sisters.\""
+     "E": "Correct. Mesoamerica (Central America and southern Mexico), one of the hearths named in the AP course framework, domesticated maize, beans, and squash, often grown together as the \"three sisters.\""
     },
     "explanation": "Mesoamerica gave the world maize (corn), beans, and squash, often grown together as the \"three sisters.\" The Fertile Crescent gave wheat, barley, sheep, and goats. Southeast and East Asia gave rice."
    },
@@ -1984,9 +1984,9 @@
     "difficulty": "medium",
     "stem": "After the potato arrived in Europe from the Americas, it contributed to population growth in places such as Ireland and northern Europe in the 1700s and 1800s mainly because it",
     "options": {
-     "A": "could be grown only on large commercial plantations",
+     "A": "was grown mostly on large commercial plantations for export",
      "B": "produced many calories per acre and grew well in cool, wet climates",
-     "C": "required no labor to plant or harvest",
+     "C": "could be stored for several years without spoiling",
      "D": "was first domesticated in Ireland, so farmers already knew how to grow it",
      "E": "replaced all other foods in the European diet within a few years"
     },
@@ -1994,7 +1994,7 @@
     "rationales": {
      "A": "Incorrect. Potatoes were grown widely on small family plots, which is one reason they fed so many poor households.",
      "B": "Correct. As part of the Columbian Exchange, the Andean potato reached Europe, where it produced more food energy per acre than grains and thrived in cool, damp climates. More food from small plots supported population growth.",
-     "C": "Incorrect. Potatoes still require planting, weeding, and digging.",
+     "C": "Incorrect. Potatoes keep for months, not years; their advantage was high calories per acre in cool, wet climates.",
      "D": "Incorrect. Potatoes were domesticated in the Andes of South America.",
      "E": "Incorrect. Potatoes became very important, especially in Ireland, but they did not replace all other foods across Europe."
     },
@@ -2009,21 +2009,21 @@
     "difficulty": "medium",
     "stem": "The enclosure movement in Britain during the Second Agricultural Revolution most directly resulted in",
     "options": {
-     "A": "the division of large estates into many small plots that were given to landless peasant families",
+     "A": "the division of large estates into many small plots that were then handed out to poor, landless peasant families",
      "B": "the return of large areas of farmland to forest in order to protect wildlife habitat",
      "C": "a decline in national food production as the newly enclosed farms became less efficient",
-     "D": "a large increase in the number of people working as hired laborers on British farms",
-     "E": "the merging of open fields and common land into larger private farms, pushing many rural people to cities"
+     "D": "a shift from commercial farming back to subsistence farming on most British farms",
+     "E": "the consolidation of scattered strips and common land into enclosed farms under individual ownership or tenancy"
     },
     "answer": "E",
     "rationales": {
      "A": "Incorrect. Enclosure did the opposite, combining small strips and common land into larger private holdings.",
      "B": "Incorrect. Enclosed land was used for more efficient crops and pasture, not returned to forest.",
      "C": "Incorrect. Consolidated farms adopted new methods such as crop rotation and selective breeding, and output rose.",
-     "D": "Incorrect. Larger, more efficient farms needed fewer laborers per unit of output, and many rural families lost access to common land.",
-     "E": "Correct. Enclosure fenced off open fields and common land into larger private farms. More efficient farms needed fewer workers, and families who lost access to the commons moved to growing industrial cities, supplying factory labor."
+     "D": "Incorrect. Enclosed farms grew more crops and livestock for sale to growing towns and cities, so farming became more commercial, not less.",
+     "E": "Correct. Enclosure consolidated scattered strips and common land into individually controlled farms, often reducing rural households' access to shared resources. Larger enclosed farms adopted new methods such as crop rotation and selective breeding."
     },
-    "explanation": "Enclosure means landowners fenced in the open fields and shared \"common\" land and made them into bigger private farms. Bigger farms could use new methods and needed fewer workers. Many poor rural families lost the land they had used and moved to cities, where they worked in factories."
+    "explanation": "Enclosure combined scattered farm strips and shared \"common\" land into fenced fields controlled by one owner or tenant. Bigger farms could use new methods. Families who lost the common land often had to find other ways to earn a living, such as wage work on farms or in towns."
    },
    {
     "id": "U5-E09",
@@ -2071,20 +2071,20 @@
     "stem": "Which conclusion is best supported by the data in the table?",
     "options": {
      "A": "Wheat yields rose as irrigation and fertilizer use increased, consistent with the Green Revolution.",
-     "B": "Wheat yields fell as the population grew, just as Thomas Malthus had predicted they would.",
-     "C": "Irrigation decreased over time because the new wheat varieties needed much less water.",
+     "B": "Wheat yield increased by a smaller percentage than population did between 1960 and 1990.",
+     "C": "Irrigation decreased steadily over time because the new high-yield wheat varieties needed much less water.",
      "D": "Fertilizer use stayed about the same from 1960 to 1990 while wheat yields rose.",
      "E": "Population growth stopped soon after wheat yields began to rise in the 1960s."
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Yield nearly tripled (0.8 to 2.3 tonnes per hectare) while irrigated cropland rose from 18 to 32 percent and fertilizer use rose from 3 to 70 kg per hectare. That combination of inputs and high-yield seeds is the Green Revolution package.",
-     "B": "Incorrect. Yields rose in each period; food production outpaced the Malthusian prediction.",
+     "A": "Correct. Yield nearly tripled (0.8 to 2.3 tonnes per hectare) while irrigated cropland rose from 18 to 32 percent and fertilizer use rose from 3 to 70 kg per hectare. This pattern is consistent with the Green Revolution, although the table does not identify the seed varieties used.",
+     "B": "Incorrect. Wheat yield increased by about 188 percent, while population increased by about 89 percent.",
      "C": "Incorrect. The irrigated share rose in each period.",
      "D": "Incorrect. Fertilizer use rose more than twentyfold.",
      "E": "Incorrect. Population kept growing, from 450 to 850 million."
     },
-    "explanation": "Every column goes up. Yields almost tripled, more land was irrigated, and fertilizer use jumped from 3 to 70 kilograms per hectare. High-yield seeds plus water plus fertilizer is the Green Revolution recipe."
+    "explanation": "Wheat yield almost tripled. The irrigated share of cropland rose from 18% to 32%, and fertilizer use jumped from 3 to 70 kilograms per hectare. More water and fertilizer with rising yields is the pattern the Green Revolution produced."
    },
    {
     "id": "U5-E10",
@@ -2092,7 +2092,7 @@
     "set": "greenrev",
     "topic": "5.5",
     "lo": "SPS-5.D",
-    "skill": "2.D",
+    "skill": "2.C",
     "difficulty": "hard",
     "stem": "Which of the following is a likely negative consequence of the changes shown in the table?",
     "options": {
@@ -2106,23 +2106,23 @@
     "rationales": {
      "A": "Incorrect. The table shows irrigation expanding and yields rising.",
      "B": "Incorrect. Fertilizer use rose sharply; nothing suggests a shortage.",
-     "C": "Correct. Expanding irrigation often means heavy pumping of groundwater, lowering water tables, and much heavier fertilizer use can wash into rivers and wells. These environmental costs accompanied the Green Revolution in places such as Punjab.",
-     "D": "Incorrect. Fields were farmed more intensively, not abandoned.",
+     "C": "Correct. Irrigation can lower groundwater levels if pumping exceeds recharge, and much heavier fertilizer use can pollute surface water through runoff and groundwater through seepage. These environmental costs accompanied the Green Revolution in places such as Punjab.",
+     "D": "Incorrect. The table provides no evidence that wheat fields were abandoned or that forests expanded.",
      "E": "Incorrect. The table shows rising wheat yields, not a switch to vegetables."
     },
-    "explanation": "More irrigation means pumping more water out of the ground, so water tables fall. Way more fertilizer means some of it washes into rivers and wells and pollutes them. Bigger harvests came with environmental costs."
+    "explanation": "If farmers pump groundwater faster than rain and rivers refill it, water levels fall. Fertilizer can also wash into rivers or seep into wells. These are possible environmental costs of growing more food."
    },
    {
     "id": "U5-E11",
     "n": 11,
     "topic": "5.4",
     "lo": "SPS-5.C",
-    "skill": "2.D",
+    "skill": "1.B",
     "difficulty": "medium",
     "stem": "The Second Agricultural Revolution was closely linked to the Industrial Revolution because",
     "options": {
      "A": "factories replaced farms as the main source of the food eaten in growing industrial cities",
-     "B": "efficient farms freed workers for factories, while factory-made tools such as steel plows raised farm output",
+     "B": "efficient farms freed workers for factories, while factories made better farm tools",
      "C": "governments banned the use of machinery on farms in order to protect new factory jobs in cities",
      "D": "industrial cities grew most of their own food on rooftops, so rural farms were no longer needed",
      "E": "the Industrial Revolution began in rural farming areas and only later spread into cities"
@@ -2133,7 +2133,7 @@
      "B": "Correct. The two revolutions reinforced each other. Productive farms needed fewer workers and fed growing cities, supplying labor and food for industry, while industrial products such as steel plows, reapers, and later tractors and fertilizer made farms more productive still.",
      "C": "Incorrect. Farms adopted more machinery, not less.",
      "D": "Incorrect. Cities depended on farms in the countryside for food.",
-     "E": "Incorrect. Industrialization was centered in growing cities and mill towns, drawing workers away from rural areas."
+     "E": "Incorrect. Some early mills were built in the countryside near water power, but that does not explain the link: farms supplied workers and food to industry, and industry supplied tools to farms."
     },
     "explanation": "The two revolutions helped each other. Better farming meant fewer farmers could feed everyone, so extra people could work in factories. And factories built new farm tools like steel plows and reapers, which made farms even more productive."
    },
@@ -2144,7 +2144,7 @@
     "lo": "PSO-5.C",
     "skill": "1.D",
     "difficulty": "medium",
-    "stem": "Large estates in tropical regions that grow a single cash crop, such as bananas, sugarcane, or palm oil, mainly for export to distant markets are an example of",
+    "stem": "Large estates in tropical regions that grow a single cash crop, such as bananas, sugarcane, or oil palms, mainly for export to distant markets are an example of",
     "options": {
      "A": "shifting cultivation",
      "B": "pastoral nomadism",
@@ -2157,7 +2157,7 @@
      "A": "Incorrect. Shifting cultivation clears small forest plots for a few years of food crops, then moves on; it is mostly subsistence.",
      "B": "Incorrect. Pastoral nomadism is moving herds to find pasture.",
      "C": "Incorrect. Subsistence agriculture grows food mainly for the farm family's own use, not for export.",
-     "D": "Correct. Plantations are large commercial estates, often in tropical regions, that specialize in one export crop (monoculture). Many began with colonial investment, and the CED classifies plantation agriculture as intensive.",
+     "D": "Correct. Plantations are large commercial estates, often in tropical regions, that specialize in one export crop (monoculture). Many began with colonial investment, and the AP course framework classifies plantation agriculture as intensive.",
      "E": "Incorrect. Market gardening grows a variety of fruits and vegetables for nearby city markets."
     },
     "explanation": "A plantation is a big farm in a warm, tropical place that grows one crop to sell to faraway countries: bananas, sugarcane, coffee, or palm oil. It is commercial (for sale), monoculture (one crop), and intensive (lots of workers and money)."
@@ -2167,7 +2167,7 @@
     "n": 13,
     "topic": "5.6",
     "lo": "PSO-5.C",
-    "skill": "2.E",
+    "skill": "1.D",
     "difficulty": "hard",
     "stem": "Dairy farms historically surrounded large cities such as New York and Chicago in zones known as \"milksheds.\" Bid-rent theory best explains this pattern because",
     "options": {
@@ -2175,7 +2175,7 @@
      "B": "milk keeps fresh for months, so it can be shipped very long distances at very low cost",
      "C": "land near large cities was usually much cheaper than land in remote rural areas",
      "D": "city governments required all milk sold in the city to be produced inside city limits",
-     "E": "fresh milk spoiled quickly and was costly to ship, so dairying near the market could outbid other land uses"
+     "E": "fresh milk spoiled fast and was costly to ship, so dairies could pay high rents near the city"
     },
     "answer": "E",
     "rationales": {
@@ -2244,23 +2244,23 @@
      ],
      "source": "Hypothetical data"
     },
-    "stem": "Based on the table, which country's export earnings would be most harmed by a 40 percent drop in the world price of coffee?",
+    "stem": "Assuming export quantities and all other prices stay the same, which country would have the largest percentage drop in its total export earnings if the world price of coffee fell by 40 percent?",
     "options": {
-     "A": "Country Q",
-     "B": "Country R",
-     "C": "Country T",
+     "A": "Country P",
+     "B": "Country Q",
+     "C": "Country R",
      "D": "Country S",
-     "E": "Country P"
+     "E": "Country T"
     },
-    "answer": "E",
+    "answer": "A",
     "rationales": {
-     "A": "Incorrect. Coffee is only 3 percent of Country Q's export earnings.",
-     "B": "Incorrect. Coffee is 11 percent of Country R's earnings; its larger exposure is to copper prices.",
-     "C": "Incorrect. Coffee is only 6 percent of Country T's export earnings.",
+     "A": "Correct. Coffee provides 62 percent of Country P's export earnings. With export quantities and other prices unchanged, a 40 percent coffee-price decline reduces its total export earnings by 24.8 percent (0.62 × 0.40), the largest percentage decrease shown.",
+     "B": "Incorrect. Coffee is only 3 percent of Country Q's export earnings.",
+     "C": "Incorrect. Coffee is 11 percent of Country R's earnings; its larger exposure is to copper prices.",
      "D": "Incorrect. Coffee is Country S's largest export, but at 21 percent its earnings are more diversified than Country P's.",
-     "E": "Correct. Coffee provides 62 percent of Country P's export earnings, so a large fall in coffee prices would cut its total export income far more than any other country's."
+     "E": "Incorrect. Coffee is only 6 percent of Country T's export earnings."
     },
-    "explanation": "Find the country that gets the biggest share of its export money from coffee. Country P gets 62% from coffee, way more than anyone else, so a coffee price crash would hurt it the most."
+    "explanation": "Find the country that gets the biggest share of its export money from coffee: Country P, at 62%. If coffee prices fall 40%, Country P loses 0.62 × 0.40 = 0.248, about a quarter (24.8%) of all its export earnings. Country S, next highest, would lose only 8.4% (0.21 × 0.40)."
    },
    {
     "id": "U5-E15",
@@ -2268,7 +2268,7 @@
     "set": "exports",
     "topic": "5.9",
     "lo": "PSO-5.E",
-    "skill": "5.D",
+    "skill": "3.E",
     "difficulty": "hard",
     "stem": "The table best illustrates which aspect of the global system of agriculture?",
     "options": {
@@ -2280,11 +2280,11 @@
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. Every country in the table earns money from exports.",
-     "B": "Correct. Countries P and R earn about half or more of their export income from a single primary commodity, so global market prices, shaped by consumers and traders in other countries, drive their national income. The CED notes that some countries are highly dependent on one or more export commodities.",
+     "A": "Incorrect. Every country in the table exports coffee, so these countries do sell agricultural goods abroad.",
+     "B": "Correct. Countries P and R receive about half or more of their export earnings from one primary commodity, so their export earnings are sensitive to that commodity's world price. The table does not show how much exports contribute to total national income. The AP course framework notes that some countries are highly dependent on one or more export commodities.",
      "C": "Incorrect. Commodity prices are set on world markets and can change sharply.",
      "D": "Incorrect. Coffee is a tropical crop, and the largest consumer markets include the United States and Europe.",
-     "E": "Incorrect. Diversified economies, such as Country Q's, are less affected by a single crop's price."
+     "E": "Incorrect. A more diversified export mix reduces the direct effect of a single crop's price change on total export earnings, all other factors being equal."
     },
     "explanation": "Some countries make most of their export money from one product, like coffee or copper. The price is set by buyers and traders all over the world, so a price drop somewhere else can hurt that whole country's economy. That is what it means to be part of a global system."
    },
@@ -2335,7 +2335,7 @@
      "A": "Men spend more time than women on every one of the four types of food-related work shown.",
      "B": "Women spend more hours per week than men growing cash crops that are sold for income.",
      "C": "Women and men spend about the same number of hours processing and preparing food.",
-     "D": "Women spend more time on household food crops and food processing, while men spend more on cash crops.",
+     "D": "Women spend more time on household food crops and processing; men, on cash crops.",
      "E": "Neither women nor men in the region spend any time selling food at local markets."
     },
     "answer": "D",
@@ -2356,11 +2356,11 @@
     "lo": "IMP-5.A",
     "skill": "2.B",
     "difficulty": "hard",
-    "stem": "Which of the following best explains the pattern shown in the chart?",
+    "stem": "Which factor could help explain the division of work shown in the chart and the note?",
     "options": {
      "A": "Women in the region are not allowed to work outdoors.",
      "B": "Cash crops require no labor, so most of the work goes into household food crops.",
-     "C": "A gendered division of labor in which men control most land and cash income while women are mainly responsible for household food",
+     "C": "Gender roles and unequal access to land and farm loans influence how farm and household work is divided.",
      "D": "Food processing in the region is fully mechanized, so most of women's processing hours are spent operating and repairing machines.",
      "E": "Men in the region have left farming entirely for jobs in distant cities."
     },
@@ -2368,11 +2368,11 @@
     "rationales": {
      "A": "Incorrect. Women spend more hours than men on field work for household food crops.",
      "B": "Incorrect. Men spend 16 hours per week on cash crops, so they do require labor.",
-     "C": "Correct. The chart and note show a common gendered division of labor: men hold most land titles and credit and focus on income-earning cash crops, while women carry most of the work of feeding the household. The CED lists the role of women in agricultural production as a societal effect of agricultural practices.",
-     "D": "Incorrect. Nothing in the chart indicates mechanization, and 14 hours per week of processing suggests largely manual work.",
+     "C": "Correct. Gender roles and access to farming resources can shape work assignments. The chart and note are consistent with this explanation, but they do not establish who controls cash income. The AP course framework lists the role of women in agricultural production as a societal effect of agricultural practices.",
+     "D": "Incorrect. The chart reports processing time but gives no information about machinery or how that time is used.",
      "E": "Incorrect. Men still spend many hours on farm work, especially cash crops."
     },
-    "explanation": "The note says men hold most of the land and loans. That helps explain why men do more of the farming for money (cash crops), while women do more of the farming and cooking that feeds the family. This kind of split is called a gendered division of labor."
+    "explanation": "Women and men spend their time on different tasks, and the note says men hold most land titles and farm loans. Gender roles and unequal access to land and loans can help explain who does which work. But the chart cannot tell us who controls the money."
    },
    {
     "id": "U5-E18",
@@ -2413,7 +2413,7 @@
      "B": "Government programs divided large farms into many small plots for new farm families.",
      "C": "Shifting cultivation became the main farming method across most of the Midwest.",
      "D": "Most of the nation's farmland was converted back into forest after about 1950.",
-     "E": "Mechanization and economies of scale favored large operations, which absorbed many smaller farms."
+     "E": "Mechanization and economies of scale helped large farms expand as many smaller ones closed."
     },
     "answer": "E",
     "rationales": {
@@ -2421,9 +2421,9 @@
      "B": "Incorrect. Farms consolidated into fewer, larger units.",
      "C": "Incorrect. Shifting cultivation is not practiced in the U.S. Midwest.",
      "D": "Incorrect. Most farmland stayed in production; the change was in how many operations controlled it.",
-     "E": "Correct. Expensive machinery, seed, and chemical inputs are cheaper per acre for large farms (economies of scale). Large commercial operations and agribusinesses expanded while many smaller family farms sold out. The CED says large-scale commercial operations are replacing small family farms."
+     "E": "Correct. Mechanization lets fewer workers farm more land, and spreading machinery and other fixed costs over more acres lowers average costs (economies of scale). These advantages encouraged consolidation. The AP course framework says large-scale commercial operations are replacing small family farms."
     },
-    "explanation": "Big farms can spread the cost of a $500,000 combine over thousands of acres, so they make more per acre. Small farms can't compete as well and often sell to bigger ones. So there are fewer farms, but each one is bigger."
+    "explanation": "A big farm can spread the cost of a $500,000 combine over thousands of acres, so the machine costs less per acre. That advantage helped big farms grow while many smaller farms closed or sold their land. So there are fewer farms, and the average farm is bigger."
    },
    {
     "id": "U5-E20",
@@ -2434,19 +2434,19 @@
     "difficulty": "medium",
     "stem": "Coffee beans grown on small farms in Colombia are sold to an exporter, roasted in a plant in New Jersey, packaged, shipped to a distribution center, and sold in a café in Chicago. This sequence best illustrates",
     "options": {
-     "A": "a commodity chain linking places of agricultural production and consumption",
+     "A": "a food desert in the city of Chicago",
      "B": "the von Thünen model of land use in concentric rings around a single market city",
      "C": "subsistence agriculture practiced by the coffee farmers",
      "D": "the Second Agricultural Revolution in Colombia",
-     "E": "a food desert in the city of Chicago"
+     "E": "a commodity chain linking places of agricultural production and consumption"
     },
-    "answer": "A",
+    "answer": "E",
     "rationales": {
-     "A": "Correct. A commodity chain is the linked series of steps (growing, buying, processing, packaging, distributing, and selling) that connects a product's producers to its consumers, often across several countries. The CED says complex commodity chains link production and consumption of agricultural products.",
      "B": "Incorrect. Von Thünen's model explains land use around one local market; this example crosses countries and involves processing and distribution steps.",
      "C": "Incorrect. The coffee is grown for sale, not for the farmers' own consumption.",
      "D": "Incorrect. The example describes a modern global supply chain, not the 1700s–1800s agricultural changes in Europe.",
-     "E": "Incorrect. A café selling coffee says nothing about residents' access to affordable, healthy food."
+     "E": "Correct. A commodity chain is the linked series of steps (growing, buying, processing, packaging, distributing, and selling) that connects a product's producers to its consumers, often across several countries. The AP course framework says complex commodity chains link production and consumption of agricultural products.",
+     "A": "Incorrect. A café selling coffee says nothing about residents' access to affordable, healthy food."
     },
     "explanation": "Follow the coffee from farm to cup: grown in Colombia, sold, roasted in New Jersey, packed, shipped, and sold in Chicago. That chain of steps connecting the farmer to the customer is a commodity chain."
    },
@@ -2455,13 +2455,13 @@
     "n": 21,
     "topic": "5.10",
     "lo": "IMP-5.A",
-    "skill": "2.E",
+    "skill": "2.B",
     "difficulty": "medium",
     "stem": "In parts of the Sahel region of Africa, which human activity has most contributed to desertification during periods of drought?",
     "options": {
      "A": "Overgrazing and cutting trees and shrubs, which leaves dry soil exposed to wind erosion",
      "B": "Building terraces on steep hillsides in order to grow flooded rice paddies",
-     "C": "Converting large areas of desert into irrigated rice paddies along major rivers",
+     "C": "Converting large areas of desert into irrigated rice paddies along the region's major rivers",
      "D": "Planting long belts of trees across the region to block the dry winds",
      "E": "Rotating crops each season in order to restore nutrients to the soil"
     },
@@ -2469,7 +2469,7 @@
     "rationales": {
      "A": "Correct. When too many animals graze, or trees and shrubs are cut for fuel and farmland, the protective plant cover is lost. During droughts, bare soil dries out and blows away, and the land becomes desert-like. Climate variability plays a large role, but these land uses make the damage worse.",
      "B": "Incorrect. Terracing is a conservation practice that reduces erosion, and the Sahel is not a hillside rice region.",
-     "C": "Incorrect. Irrigated paddies are rare in the Sahel; irrigation can cause salinization, but it is not the main driver of Sahel desertification.",
+     "C": "Incorrect. Irrigated rice covers only small areas of the Sahel, mainly along the Niger and Senegal Rivers; irrigation can cause salinization, but it is not the main driver of desertification there.",
      "D": "Incorrect. Tree belts, such as the Great Green Wall effort, are meant to fight desertification.",
      "E": "Incorrect. Crop rotation protects soil fertility; it does not cause desertification."
     },
@@ -2480,13 +2480,13 @@
     "n": 22,
     "topic": "5.1",
     "lo": "PSO-5.A",
-    "skill": "2.D",
+    "skill": "2.B",
     "difficulty": "medium",
-    "stem": "Pastoral nomadism is most common in dry grasslands and deserts, such as parts of Central Asia, the Sahel, and the Arabian Peninsula, because",
+    "stem": "Pastoral nomadism is most common in dry grasslands and deserts, such as parts of Central Asia, the Sahel, and the Horn of Africa, because",
     "options": {
      "A": "these regions have some of the most fertile soils in the world for growing grain crops",
      "B": "rainfall is too low and unreliable for most crops, so herders move animals to find water and grass",
-     "C": "governments in these regions require most rural families to raise animals instead of crops",
+     "C": "governments in these regions require most rural families to raise farm animals instead of growing crops",
      "D": "these regions are close to large cities whose residents buy fresh milk every day",
      "E": "heavy rainfall throughout the year makes it impossible to keep animals in one place"
     },
@@ -2505,25 +2505,25 @@
     "n": 23,
     "topic": "5.11",
     "lo": "IMP-5.B",
-    "skill": "1.C",
+    "skill": "1.D",
     "difficulty": "medium",
-    "stem": "Supporters of genetically modified (GM) crops argue that they can raise yields and resist pests. Which of the following is a concern raised by critics of GM crops?",
+    "stem": "A farming region replaces many locally saved crop varieties with a few genetically modified varieties sold under patents. Which concern is most directly associated with this change?",
     "options": {
-     "A": "GM crops always produce smaller harvests than traditional seeds.",
-     "B": "GM crops can be grown only by subsistence farmers.",
-     "C": "GM crops cannot be sold in any country.",
-     "D": "Reduced crop biodiversity and farmers' dependence on seed companies that hold patents",
-     "E": "GM crops require farmers to stop using all chemical fertilizers and pesticides on their fields."
+     "A": "Greater soil erosion caused by plowing steep slopes",
+     "B": "Reduced food access caused by neighborhood grocery stores closing in nearby cities",
+     "C": "Higher transport costs caused by longer routes to export markets",
+     "D": "Reduced crop diversity and greater reliance on commercial seed suppliers",
+     "E": "Higher soil salinity caused by irrigation in an arid climate"
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. Many GM varieties raise yields or reduce crop losses; critics' concerns center elsewhere.",
-     "B": "Incorrect. GM crops are planted mostly on large commercial farms, for example soybeans and maize in the Americas.",
-     "C": "Incorrect. GM crops are widely traded, though some countries restrict them.",
-     "D": "Correct. Critics worry that planting a few patented varieties over huge areas reduces biodiversity and that farmers must buy new seed from a few large companies each season. The CED lists debates over reduced biodiversity and fertilizer and pesticide use.",
-     "E": "Incorrect. Some GM crops are bred to tolerate herbicides, and critics argue this can increase, not end, chemical use."
+     "A": "Incorrect. The change concerns seed varieties and patents, not cultivation of steep slopes.",
+     "B": "Incorrect. The change described does not involve access to grocery stores.",
+     "C": "Incorrect. No change in transportation routes or distance to markets is described.",
+     "D": "Correct. Replacing many local varieties with a few commercial varieties reduces crop diversity, and patent restrictions can increase growers' dependence on seed suppliers. The AP course framework lists debates over reductions in biodiversity among the controversies surrounding biotechnology and GMOs.",
+     "E": "Incorrect. Soil salinization is salt buildup, usually from irrigation in dry climates; no change in irrigation is described."
     },
-    "explanation": "Critics say that when farmers everywhere plant the same few GM varieties, there is less variety in crops (less biodiversity). They also worry that farmers have to buy patented seeds from a few big companies every year."
+    "explanation": "Planting a few varieties instead of many means less crop diversity. Patents can also limit how farmers save or share seed, so they depend more on the companies that sell it."
    },
    {
     "id": "U5-E24",
@@ -2536,7 +2536,7 @@
     "options": {
      "A": "A trade agreement that removes all tariffs and quotas on goods traded between countries",
      "B": "A government program that pays farmers to leave some of their cropland unplanted",
-     "C": "A certification system that sets minimum prices and labor and environmental standards for producers",
+     "C": "A movement that seeks better trading terms and labor and environmental standards for producers",
      "D": "A plan to replace imported food with food grown in each consumer's own backyard garden",
      "E": "A treaty that requires every country to grow its own coffee instead of importing it"
     },
@@ -2544,11 +2544,11 @@
     "rationales": {
      "A": "Incorrect. That describes free trade, not fair trade.",
      "B": "Incorrect. That describes some conservation or price-support programs.",
-     "C": "Correct. Fair trade certification guarantees producers, such as coffee, cocoa, and banana growers, a minimum price and sets standards for working conditions and environmental practices. The CED lists fair trade among movements influencing food production and consumption.",
+     "C": "Correct. Fair trade programs seek better trading terms through standards, premiums, and, for many products, minimum prices. They also set labor and environmental standards. The AP course framework lists fair trade among movements influencing food production and consumption.",
      "D": "Incorrect. That is closer to urban farming or the local-food movement.",
      "E": "Incorrect. Coffee grows only in suitable tropical climates; no such treaty exists."
     },
-    "explanation": "Fair trade labels (like the one on some coffee and chocolate) promise that the farmers were paid at least a minimum price and that workers were treated fairly. Shoppers pay a little more so more money gets back to the growers."
+    "explanation": "Fair trade programs try to give farmers better deals and to protect workers and the environment. For many products, such as coffee and cocoa, buyers must pay at least a minimum price plus an extra amount that farmer groups can spend on their communities."
    },
    {
     "id": "U5-E25",
@@ -2561,7 +2561,7 @@
     "options": {
      "A": "township and range",
      "B": "the long-lot system",
-     "C": "the Public Land Survey System",
+     "C": "the open-field system",
      "D": "metes and bounds",
      "E": "enclosure"
     },
@@ -2571,7 +2571,7 @@
      "B": "Incorrect. Long lots are narrow strips running back from a river, used in French settlement areas.",
      "E": "Incorrect. Enclosure is the British consolidation of open fields and common land, not a surveying method.",
      "D": "Correct. Metes and bounds describes boundaries by distances and directions between landmarks such as streams, trees, and stones, producing irregular parcels. It was widely used in the colonial East and came from British practice.",
-     "C": "Incorrect. The Public Land Survey System is another name for township and range."
+     "C": "Incorrect. The open-field system was the medieval European pattern of scattered strips farmed around a village, not a way of describing property lines."
     },
     "explanation": "Metes and bounds uses landmarks to mark property lines: \"from the big oak tree, 200 feet to the creek, then along the creek to the stone wall.\" Because nature is not in straight lines, the parcels have odd, irregular shapes. You see it in the eastern U.S."
    }
