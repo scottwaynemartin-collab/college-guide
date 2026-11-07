@@ -31,6 +31,9 @@ def _ham20():
         vals.append(round(avg / 1e6, 1))
     return cats, vals
 _HC, _HV = _ham20()
+# Hamilton's 1929 Table A is uniformly about twice his revised 1934 series (1503-1660 total: 895.6M vs. the standard 447.8M pesos of 450 maravedis).
+# Use the 1934 series (American Treasure and the Price Revolution in Spain, p. 34), 20-year annual averages, rounded to 0.1M.
+_HV = [0.2, 0.3, 1.4, 2.7, 6.1, 5.5, 4.3, 1.8]
 _HC = ["1503–20", "1521–40", "1541–60", "1561–80", "1581–1600", "1601–20", "1621–40", "1641–60"]
 
 STIM = {
@@ -69,12 +72,12 @@ STIM = {
                   {"t": "acquired immunity", "d": "protection from a disease built up by earlier exposure to it"}])]},
 
 "X3": {"type": "bar",
-    "title": "Registered Imports of American Gold and Silver into Spain, 1503–1660",
+    "title": "Average Annual Registered Imports of American Gold and Silver into Spain, 1503–1660",
     "categories": _HC,
     "series": [{"name": "Average imports per year (millions of pesos)", "values": _HV}],
     "yLabel": "Millions of pesos per year",
-    "text": "Figures count only treasure that was officially registered and taxed when it arrived at Seville; smuggled treasure is not included. Most of the silver came from mines at Potosí (in the Andes) and Zacatecas (in Mexico).",
-    "source": "Calculated from Earl J. Hamilton, \"Imports of American Gold and Silver into Spain, 1503–1660,\" Quarterly Journal of Economics, 1929"},
+    "text": "Gold and silver are combined by their money value (1 peso = 450 maravedís, a Spanish unit of account). Most of the silver came from mines at Potosí (in the Andes) and Zacatecas (in Mexico).",
+    "source": "Calculated from Earl J. Hamilton, American Treasure and the Price Revolution in Spain, 1501–1650 (1934), p. 34; yearly averages for each 20-year period (first period 18 years), rounded"},
 
 "X4": P([
     "1. No Japanese ships shall ever be sent to foreign lands.",
@@ -91,7 +94,7 @@ STIM = {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Casta_painting_all.jpg/960px-Casta_painting_all.jpg",
     "width": 960, "height": 1353,
     "alt": "A painting divided into sixteen panels, each showing a mother, a father, and a child, with a written label under each family.",
-    "caption": "Each panel shows a family. The label names the categories of the parents and the child. The first row reads, from left to right: \"Spaniard with Indian woman: Mestizo\"; \"Mestizo with Spanish woman: Castizo\"; \"Castizo with Spanish woman: Spaniard\"; \"Spaniard with Black woman: Mulatto.\" Families in the top rows wear fine European-style clothing. Families in the lower rows wear plainer clothes, carry goods or tools, and some are barefoot. The labels use colonial terms: \"Indian\" meant an Indigenous person, and \"Mulatto,\" a term now considered offensive, meant a person of mixed Spanish and African ancestry.",
+    "caption": "Each panel shows a family. The label assigns colonial social categories to the parents and the child. The first three labels in the top row read: \"Spaniard with Indian woman: Mestizo\"; \"Mestizo with Spanish woman: Castizo\"; \"Castizo with Spanish woman: Spaniard.\" Families in the top rows wear fine European-style clothing. Families in the lower rows wear plainer clothes, carry goods or tools, and some are barefoot. The labels use colonial terms: \"Indian\" meant an Indigenous person, and \"Mulatto,\" a term now considered offensive, meant a person of mixed Spanish and African ancestry.",
     "attribution": "Unknown artist, Las Castas (The Castes), oil painting made in New Spain (colonial Mexico), eighteenth century",
     "credit": "Museo Nacional del Virreinato, Tepotzotlán, Mexico. Public domain image via Wikimedia Commons.",
     "description": "Sixteen small family portraits arranged in four rows of four. In each, a man and a woman stand with a child, and a label below names the mixture of Spanish, Indigenous, and African ancestry the painter assigned to each person. The couples in the first row are dressed in rich cloaks, lace, and fine fabrics. Moving down the rows, the clothing becomes simpler, people carry baskets, fruit, or tools, and several figures in the bottom rows are barefoot.",
@@ -103,7 +106,7 @@ STIM = {
     "Under the later Hapsburgs*, with the increasing demands of the colonies on the one hand, and the utter ruin of Spanish industry on the other, the dependence of the Seville export commerce upon foreign manufactures was complete. They supplied five sixths of the cargoes of the outbound fleets. …",
     "The most serious and widespread development of contraband trade, however, was in merchandise introduced into the colonies directly from foreign markets. Portuguese, French, Dutch and other interlopers smuggled their cargoes into the West Indies, through the closed port of Buenos Aires, or even to the Pacific shores of Spanish America. The illicit trader was eagerly welcomed by the colonists, for he supplied their needs at reasonable prices. …",
     "A flood of restrictions, a jealous monopoly, on the one hand—on the other, a flourishing contraband trade of outsiders …—such is the story of Spanish-American commerce in the sixteenth and the seventeenth centuries. The Crown of Castile sought to extend Spanish power, and monopolize all the treasure of the Indies, by means of a rigid and complicated commercial system. Yet in the end, it saw the trade of the New World pass into the hands of its rivals … and its riches diverted at their very source."],
-    "Clarence H. Haring, historian at Harvard University, Trade and Navigation between Spain and the Indies in the Time of the Hapsburgs, published in 1918",
+    "Clarence H. Haring, American historian, Trade and Navigation between Spain and the Indies in the Time of the Hapsburgs, published in 1918",
     "Adapted",
     footnotes=[{"mark": "*", "text": "the ruling family of Spain from 1516 to 1700; \"later Hapsburgs\" refers to the 1600s"}],
     glossary=[{"t": "contraband", "d": "smuggled goods"}, {"t": "interlopers", "d": "traders who were not allowed to trade there"},
@@ -135,7 +138,7 @@ STIM = {
     "On Tuesday the captain got ready the following things to be sent to the king, namely, twelve pieces of striped cloth, four scarlet hoods, six hats, four strings of coral, a case containing six wash-hand basins, a case of sugar, two casks of oil, and two of honey. … [The king's officials] came, and when they saw the present they laughed at it, saying that it was not a thing to offer to a king, that the poorest merchant from Mecca, or any other part of India, gave more, and that if he wanted to make a present it should be in gold. … When they had gone there came certain Moorish merchants, and they all made fun of the present which the captain desired to be sent to the king."],
     "Journal of a member of Vasco da Gama's crew, describing the Portuguese fleet's arrival at Calicut, India, May 1498",
     "Translated by E. G. Ravenstein (1898); adapted",
-    footnotes=[{"mark": "*", "text": "Castilian = Spanish; Genoese = the Italian spoken in the city of Genoa"}],
+    footnotes=[{"mark": "*", "text": "Castilian = Spanish; Genoese = the language of the city of Genoa, in present-day Italy"}],
     glossary=[{"t": "Calicut", "d": "a wealthy port city on the southwest coast of India, ruled by a Hindu king"},
               {"t": "Moors", "d": "the journal's word for Muslims"}, {"t": "convicts", "d": "prisoners the Portuguese brought along to do dangerous jobs"}]),
 
@@ -171,7 +174,7 @@ STIM = {
     "The following day, Xicotencatl, Captain General of this province*, came to see me … with about fifty of its chiefs, praying me … that I would admit them to the royal service of Your Majesty and to my friendship, and would pardon them the past errors, because they had not understood who we were. He said that they had exerted all their forces … to escape being subjected to anyone, since at no time had this province ever been so … on the contrary, they had always lived free and independent, since immemorial times, and had always defended themselves against the great power of Moctezuma, of his father, and grandfather, who held that country subjected, but had never been able to hold them in subjection, though they had them surrounded on all sides, so that no one could go out of the country. He said also that they ate no salt, since there was none in their country, nor were they allowed to go to buy it anywhere else. … They had endured it, and held it as better thus to be free, rather than be subjected to anyone. They had wanted to do the same with me, but seeing clearly that neither their forces nor their tricks could help them, they had decided that, rather than die, … they would become vassals** of Your Highness."],
     "Hernán Cortés, Spanish conquistador, letter to King Charles I of Spain (Holy Roman Emperor Charles V), 1520, describing events of September 1519",
     "Translated by F. A. MacNutt (1908); names modernized; adapted",
-    footnotes=[{"mark": "**", "text": "subjects who owe loyalty and service to a ruler"}, {"mark": "*", "text": "Tlaxcala, an independent state east of Tenochtitlan, the Mexica (Aztec) capital"}],
+    footnotes=[{"mark": "*", "text": "Tlaxcala, an independent state east of Tenochtitlan, the Mexica (Aztec) capital"}, {"mark": "**", "text": "subjects who owe loyalty and service to a ruler"}],
     glossary=[{"t": "Moctezuma", "d": "Moctezuma II, ruler of the Mexica (Aztec) Empire"},
               {"t": "subjected", "d": "ruled by someone else"}, {"t": "immemorial", "d": "so long ago no one remembers"}]),
 
@@ -181,7 +184,7 @@ STIM = {
     "They labor in these mines in continual darkness … without knowledge of day or night. … They carry up this metal upon their shoulders, by ladders. A man carries ordinarily the weight of two arrobas** of metal upon his shoulders … and so go they up the ladder holding it with both their hands … a fearful thing, and which breeds an amazement to think upon it, so great is the desire of silver, that for the gain thereof men endure any pains."],
     "José de Acosta, Spanish Jesuit priest who lived in Peru from 1572 to 1586, The Natural and Moral History of the Indies, 1590",
     "Translated by Edward Grimston (1604); spelling modernized; adapted",
-    footnotes=[{"mark": "*", "text": "the royal fifth, a 20 percent tax the Spanish king collected on silver"},
+    footnotes=[{"mark": "*", "text": "the royal fifth: the king's one-fifth share of the silver mined at Potosí at this time"},
                {"mark": "**", "text": "about 50 pounds (23 kilograms)"}],
     glossary=[{"t": "Potosí", "d": "a huge silver mountain and mining city in the Andes (in today's Bolivia)"},
               {"t": "a million / eleven millions", "d": "pesos, Spanish silver coins"},
@@ -203,7 +206,7 @@ STIM = {
     "Thomas Mun, English merchant and director of the English East India Company, England's Treasure by Foreign Trade, written about 1630 and published in 1664",
     "Spelling modernized; adapted",
     footnotes=[{"mark": "*", "text": "pounds sterling, English money"}],
-    glossary=[{"t": "strangers", "d": "foreigners"}, {"t": "treasure", "d": "gold and silver"},
+    glossary=[{"t": "purchase", "d": "here, wealth seized from others (loot), not buying"}, {"t": "strangers", "d": "foreigners"}, {"t": "treasure", "d": "gold and silver"}, {"t": "wares", "d": "goods for sale"},
               {"t": "overplus", "d": "the extra goods left after the kingdom's own needs are met"},
               {"t": "stock", "d": "the nation's total wealth"}]),
 
@@ -268,12 +271,12 @@ STIM = {
                  {"t": "Jesuits", "d": "an order of Catholic priests known for missionary work and education"}]},
 
 "P16": {"type": "bar",
-    "title": "Estimated Number of Enslaved Africans Who Arrived in the Americas, Selected Regions",
+    "title": "Estimated Arrivals of Enslaved Africans Carried Directly from Africa, Selected Regions of the Americas",
     "categories": ["Brazil", "British\nCaribbean", "French\nCaribbean", "Spanish\nAmericas", "Dutch\nAmericas", "Mainland\nN. America"],
     "series": [{"name": "1601–1700 (thousands)", "values": [784, 310, 39, 226, 124, 15]},
                {"name": "1701–1800 (thousands)", "values": [1989, 1813, 995, 146, 295, 295]}],
     "yLabel": "Thousands of people",
-    "text": "Numbers count people who survived the voyage and arrived. Mainland North America is the region that later became the United States and Canada.",
+    "text": "Estimates count people who survived the voyage from Africa and landed in each region. They do not count later voyages between ports in the Americas. Regions follow the database's categories; mainland North America is the area that later became the United States and Canada. The second period extends past 1750.",
     "source": "Trans-Atlantic Slave Trade Database estimates, Slave Voyages (slavevoyages.org), Emory University"},
 
 "P14": {"type": "pair", "items": [

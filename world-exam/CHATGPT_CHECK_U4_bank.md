@@ -5,7 +5,7 @@
 ### Source P1 (questions U4-P01–U4-P03)
 > [Vasco da Gama] sent one of the convicts to Calicut, and those with whom he went took him to two Moors from Tunis, who could speak Castilian and Genoese*. The first greeting that he received was in these words: "May the Devil take thee! What brought you hither?" They asked what he sought so far away from home, and he told them that we came in search of Christians and of spices. …
 > On Tuesday the captain got ready the following things to be sent to the king, namely, twelve pieces of striped cloth, four scarlet hoods, six hats, four strings of coral, a case containing six wash-hand basins, a case of sugar, two casks of oil, and two of honey. … [The king's officials] came, and when they saw the present they laughed at it, saying that it was not a thing to offer to a king, that the poorest merchant from Mecca, or any other part of India, gave more, and that if he wanted to make a present it should be in gold. … When they had gone there came certain Moorish merchants, and they all made fun of the present which the captain desired to be sent to the king.
-> * Castilian = Spanish; Genoese = the Italian spoken in the city of Genoa
+> * Castilian = Spanish; Genoese = the language of the city of Genoa, in present-day Italy
 — Journal of a member of Vasco da Gama's crew, describing the Portuguese fleet's arrival at Calicut, India, May 1498 (Translated by E. G. Ravenstein (1898); adapted)
 
 **U4-P01** [Topic 4.2 · LO C · Skill 3.A]  The answer "in search of Christians and of spices" in the first paragraph best reflects which motives for Portuguese exploration?
@@ -19,26 +19,26 @@ KEY: A. Explanation: "Christians" points to religion: the Portuguese hoped to fi
   - why not D: The crew says they came for Christians and spices, not to study nature.
   - hint: Split the phrase in two. What does "Christians" tell you? What does "spices" tell you?
 
-**U4-P02** [Topic 4.4 · LO F · Skill 3.B]  The reaction to the Portuguese gifts in the second paragraph best shows that
-- (A) Calicut was part of a rich trade network in which Portuguese goods had little value
-- (B) the people of Calicut had never before met merchants from foreign lands
-- (C) the Portuguese were welcomed as the most powerful traders in the Indian Ocean
-- (D) Indian rulers would accept only Christian merchants in their ports
-KEY: A. Explanation: The king's officials laughed at the cheap gifts and said even poor merchants from Mecca gave more. Calicut was already rich and connected to a huge trade network, and the Portuguese had little it wanted.
+**U4-P02** [Topic 4.4 · LO F · Skill 3.A]  The reaction to the Portuguese gifts in the second paragraph best shows that
+- (A) Calicut was a rich trading center whose officials found the Portuguese gifts too poor
+- (B) the people of Calicut had never before met or traded with merchants from foreign lands
+- (C) the Portuguese were welcomed as the most powerful traders in the Indian Ocean world
+- (D) Indian rulers preferred to trade with Christian merchants rather than Muslim ones
+KEY: A. Explanation: The officials compared these gifts with richer gifts from other merchants. Their reaction shows how wealthy Calicut was, and that the Portuguese did not meet the court's expectations.
   - why not B: Merchants from Tunis were already in Calicut, and the officials compared the gifts with those from Mecca. The people of Calicut knew foreign traders well.
-  - why not C: The officials laughed at the gifts, which is not how you treat the most powerful traders.
-  - why not D: Muslim merchants were already trading in Calicut, so the port was not limited to Christians.
+  - why not C: The passage does not show Portuguese power in Indian Ocean trade. It shows local officials judging their gifts too poor.
+  - why not D: Muslim merchants were already trading in Calicut, and the officials compared the gifts with those from Mecca.
   - hint: Why would officials laugh at hats, cloth, and honey? What were they used to getting?
 
 **U4-P03** [Topic 4.1 · LO A · Skill 4.A]  Vasco da Gama's ability to sail from East Africa to Calicut was most directly aided by
-- (A) steam-powered ships that could sail against the monsoon winds
-- (B) maps that the Ming admiral Zheng He had given to the king of Portugal years earlier
-- (C) a canal that connected the Mediterranean Sea to the Red Sea
+- (A) a treaty in which Ming China opened the Indian Ocean to European ships
+- (B) Ming Chinese warships that escorted the Portuguese fleet across the ocean
+- (C) sea charts given to the Portuguese by the ruler of Calicut
 - (D) a local pilot hired in East Africa who knew the monsoon wind patterns
 KEY: D. Explanation: At Malindi in East Africa, da Gama hired a pilot who knew how to use the monsoon winds to cross the Indian Ocean. Europeans' ocean travel depended on knowledge from other peoples.
-  - why not A: Steam-powered ships did not appear until the late 1700s and early 1800s.
-  - why not B: Zheng He did not give maps to Portugal; his voyages had ended decades earlier.
-  - why not C: The Suez Canal was not built until 1869, and da Gama sailed around Africa.
+  - why not A: Ming China made no such treaty, and China did not control the Indian Ocean.
+  - why not B: Ming China's treasure fleets had stopped sailing by the 1430s, and they never escorted Portuguese ships.
+  - why not C: Calicut was da Gama's destination. Its ruler did not help him get there.
   - hint: Da Gama sailed around Africa. Who in the Indian Ocean already knew how to cross it?
 
 
@@ -76,11 +76,11 @@ KEY: B. Explanation: Columbus promised "all the gold they require" and talked ab
 - (B) Spain gave up its Caribbean claims to focus on trade with Asia
 - (C) The Taíno population collapsed because of disease and forced labor
 - (D) European crops failed to grow in the Americas, so colonists starved
-KEY: C. Explanation: After 1492, new diseases like smallpox and harsh forced labor killed most of the Taíno people of the Caribbean.
-  - why not A: Within a few decades very few Taíno survived; they did not form an empire.
+KEY: C. Explanation: Disease, violence, hunger, and forced labor caused a steep drop in the Taíno population. Taíno people survived, and their descendants and cultures continue today.
+  - why not A: Taíno communities suffered severe population losses. They did not form an empire that resisted Spain.
   - why not B: Spain kept and expanded its Caribbean colonies.
   - why not D: European crops and animals spread widely in the Americas as part of the Columbian Exchange.
-  - hint: Think about what happened to the people Columbus calls "timid."
+  - hint: What effects did disease and Spanish rule have on Taíno communities after 1492?
 
 
 ### Source P3 (questions U4-P07–U4-P09)
@@ -98,26 +98,26 @@ These are estimates by historians Sherburne F. Cook and Woodrow Borah, based mai
 Source: Sherburne F. Cook and Woodrow Borah, studies of the population of central Mexico, 1960s
 
 **U4-P07** [Topic 4.3 · LO D · Skill 5.B · Causation]  The most important cause of the trend shown in the table was
-- (A) diseases such as smallpox and measles, to which Indigenous people had no immunity
+- (A) epidemics of smallpox, measles, and other diseases new to the Americas
 - (B) large-scale migration of Indigenous people from Mexico to the Caribbean
 - (C) a series of volcanic eruptions that destroyed farmland in central Mexico
 - (D) the Spanish practice of shipping large numbers of Indigenous workers to labor in Spain
 KEY: A. Explanation: The biggest killer was disease. Smallpox, measles, and other illnesses from Europe and Africa spread through people who had never been exposed to them. War, famine, and forced labor made the epidemics even deadlier.
-  - why not B: The Caribbean's Indigenous population was also collapsing; people were not moving there.
+  - why not B: Migration to the Caribbean does not explain a population loss this large. Epidemics, violence, hunger, and forced labor caused far greater losses.
   - why not C: Volcanoes did not cause this decline.
-  - why not D: Spain did not ship large numbers of Indigenous workers to Europe.
+  - why not D: Some Indigenous people were taken to Europe, but that does not explain the population loss shown here.
   - hint: This is part of the Columbian Exchange. What invisible things crossed the ocean with Europeans?
 
 **U4-P08** [Topic 4.4 · LO F · Skill 5.B · Causation]  The trend shown in the table most directly contributed to which of the following in the Americas?
-- (A) the end of all Spanish silver mining in central Mexico
+- (A) the end of Spanish silver mining in central Mexico
 - (B) a shift by Indigenous survivors from farming to herding
 - (C) greater use of enslaved Africans and other forced labor
 - (D) large-scale migration of free workers from China to Mexico
-KEY: C. Explanation: With so many Indigenous people dead, colonists needed workers. They turned more and more to enslaved Africans and other forced-labor systems.
-  - why not A: Silver mining in Mexico kept growing in the late 1500s and 1600s.
+KEY: C. Explanation: As Indigenous populations fell, colonists looked for more workers for mines and farms. They brought in more enslaved Africans and kept forcing Indigenous people to work.
+  - why not A: Silver mining continued despite the population decline.
   - why not B: Most surviving Indigenous people kept farming.
   - why not D: Free Chinese workers did not migrate to Mexico in large numbers.
-  - hint: If most of the workers die, how do colonists keep the mines and fields running?
+  - hint: How did colonists respond to these population losses?
 
 **U4-P09** [Topic 4.3 · LO D · Skill 2.C]  Which of the following is a limitation of the table as evidence?
 - (A) The figures are estimates from partial records, and other historians dispute them.
@@ -158,7 +158,7 @@ KEY: D. Explanation: Merchants had used the monsoon winds to trade across the In
   - why not C: The Hanseatic League traded in northern Europe.
   - hint: Look at the place names. Which ocean are they in?
 
-**U4-P12** [Topic 4.4 · LO E · Skill 2.A]  Barbosa says merchants lived in Malacca "up to now." This phrase most likely refers to the fact that
+**U4-P12** [Topic 4.4 · LO E · Skill 4.A]  Barbosa says merchants lived in Malacca "up to now." This phrase most likely refers to the fact that
 - (A) China's Ming dynasty had recently conquered Malacca and closed it to foreign merchants
 - (B) an earthquake had recently destroyed most of Malacca's harbor
 - (C) Asian merchants stayed even after Portugal captured the city in 1511
@@ -172,8 +172,8 @@ KEY: C. Explanation: Portugal captured Malacca in 1511, a few years before Barbo
 
 ### Source P5 (questions U4-P13–U4-P15)
 > The following day, Xicotencatl, Captain General of this province*, came to see me … with about fifty of its chiefs, praying me … that I would admit them to the royal service of Your Majesty and to my friendship, and would pardon them the past errors, because they had not understood who we were. He said that they had exerted all their forces … to escape being subjected to anyone, since at no time had this province ever been so … on the contrary, they had always lived free and independent, since immemorial times, and had always defended themselves against the great power of Moctezuma, of his father, and grandfather, who held that country subjected, but had never been able to hold them in subjection, though they had them surrounded on all sides, so that no one could go out of the country. He said also that they ate no salt, since there was none in their country, nor were they allowed to go to buy it anywhere else. … They had endured it, and held it as better thus to be free, rather than be subjected to anyone. They had wanted to do the same with me, but seeing clearly that neither their forces nor their tricks could help them, they had decided that, rather than die, … they would become vassals** of Your Highness.
-> ** subjects who owe loyalty and service to a ruler
 > * Tlaxcala, an independent state east of Tenochtitlan, the Mexica (Aztec) capital
+> ** subjects who owe loyalty and service to a ruler
 — Hernán Cortés, Spanish conquistador, letter to King Charles I of Spain (Holy Roman Emperor Charles V), 1520, describing events of September 1519 (Translated by F. A. MacNutt (1908); names modernized; adapted)
 
 **U4-P13** [Topic 4.4 · LO E · Skill 3.A]  The passage suggests that an alliance with the Spaniards appealed to the Tlaxcalans mainly because
@@ -189,14 +189,14 @@ KEY: A. Explanation: The Tlaxcalans say they had always fought to stay free of M
 
 **U4-P14** [Topic 4.4 · LO E · Skill 5.B · Causation]  The alliance described in the passage most directly contributed to
 - (A) the Spanish defeat of the Mexica Empire in 1521
-- (B) the Inca Empire's victory over the Spanish in 1532
-- (C) the founding of a Mexica colony in the Caribbean
-- (D) the Spanish decision to abandon Mexico for Peru
-KEY: A. Explanation: Tens of thousands of Tlaxcalan and other Indigenous allies fought beside fewer than a thousand Spaniards. Along with smallpox, these alliances helped the Spanish conquer Tenochtitlan in 1521.
-  - why not B: The Inca were defeated by Spanish forces in the 1530s.
-  - why not C: The Mexica did not found colonies in the Caribbean.
-  - why not D: Spain kept Mexico; it became the center of New Spain.
-  - hint: A small Spanish force could not defeat a huge empire alone. Who helped them?
+- (B) the Spanish conquest of the Inca Empire in the 1530s
+- (C) a Mexica and Tlaxcalan alliance against the Spanish
+- (D) the crown's decision to make Tlaxcala independent of New Spain
+KEY: A. Explanation: Thousands of Tlaxcalan and other Indigenous allies fought alongside the Spaniards. These alliances, along with disease and the siege, helped bring down Tenochtitlan in 1521.
+  - why not B: The Inca were conquered by a different Spanish force in Peru; the Tlaxcalans fought in Mexico.
+  - why not C: The Tlaxcalans joined the Spanish against the Mexica, their longtime enemy.
+  - why not D: Tlaxcala received some special privileges, but it stayed part of New Spain.
+  - hint: Which empire did the Tlaxcalans want to be free of, and what happened to it?
 
 **U4-P15** [Topic 4.4 · LO E · Skill 2.B]  Cortés's purpose in writing to the king most likely led him to
 - (A) play down the size and power of Moctezuma's empire
@@ -207,25 +207,25 @@ KEY: B. Explanation: Cortés had gone to Mexico without full permission, so he w
   - why not A: Cortés stresses Moctezuma's "great power," which makes his own success look bigger.
   - why not C: The Tlaxcalans say they had to defend themselves against the Mexica, who surrounded them, so they were not stronger.
   - why not D: Cortés openly says the Tlaxcalans asked pardon for their "past errors" of fighting him.
-  - hint: Cortés was writing to his boss. What would he want the king to think of him?
+  - hint: Cortés wanted royal support. How might that goal shape his account?
 
 
 ### Source P6 (questions U4-P16–U4-P18)
 > The force of silver, which draws unto it the desire of all things, has peopled this mountain more than any other place in all these kingdoms. …
 > At this day the King receives for his fifth* yearly, from the mines of Potosí, a million of silver. … In the fleet in which I came in the year 1587, there were eleven millions transported in the two fleets of Peru and Mexico, whereof two thirds were in that of Peru, and almost one half for the King. I thought good to set this down … to show the power which His heavenly Majesty has given to the Kings of Spain … who (by the especial favor of heaven) have joined the East with the West Indies, environing the whole world with their power.
 > They labor in these mines in continual darkness … without knowledge of day or night. … They carry up this metal upon their shoulders, by ladders. A man carries ordinarily the weight of two arrobas** of metal upon his shoulders … and so go they up the ladder holding it with both their hands … a fearful thing, and which breeds an amazement to think upon it, so great is the desire of silver, that for the gain thereof men endure any pains.
-> * the royal fifth, a 20 percent tax the Spanish king collected on silver
+> * the royal fifth: the king's one-fifth share of the silver mined at Potosí at this time
 > ** about 50 pounds (23 kilograms)
 — José de Acosta, Spanish Jesuit priest who lived in Peru from 1572 to 1586, The Natural and Moral History of the Indies, 1590 (Translated by Edward Grimston (1604); spelling modernized; adapted)
 
-**U4-P16** [Topic 4.5 · LO I · Skill 5.B · Causation]  The silver described in the second paragraph was most often used by Europeans to
-- (A) pay high wages to keep Indigenous miners working at Potosí
-- (B) make coins that could be spent only inside Spanish America
+**U4-P16** [Topic 4.5 · LO I · Skill 5.B · Causation]  In trade with Asia, much of the silver described in the second paragraph was used by Europeans to
+- (A) repay loans from Chinese bankers who had paid for Spain's voyages
+- (B) buy enslaved workers in Asia to send to the silver mines of Potosí
 - (C) pay tribute to the Ottoman sultan in exchange for use of Mediterranean ports
-- (D) buy silk, porcelain, and spices from Asian merchants, especially in China
-KEY: D. Explanation: Europeans had few goods that Asians wanted, but they had American silver. They used it to buy Chinese silk and porcelain and Asian spices. China's demand for silver was huge.
-  - why not A: Mita workers were drafted and paid very little; the Spanish did not pay high wages to keep miners.
-  - why not B: Spanish silver coins spread around the world, not only in Spanish America.
+- (D) buy silk and porcelain from Chinese merchants
+KEY: D. Explanation: Asian merchants wanted silver. Europeans used silver from the Americas to buy silk, porcelain, spices, and other goods. China's demand for silver was huge.
+  - why not A: Chinese bankers did not pay for Spain's voyages. Spain borrowed mostly from European bankers, such as those in Genoa.
+  - why not B: Potosí's workers were mostly Indigenous Andeans. Asian captives did not supply the mines.
   - why not C: Spain did not pay tribute to the Ottomans.
   - hint: Europeans wanted Asian goods. What could they pay with?
 
@@ -236,7 +236,7 @@ KEY: D. Explanation: Europeans had few goods that Asians wanted, but they had Am
 - (D) relied on enslaved people captured in Africa as the main source of labor in the mines
 KEY: C. Explanation: The Inca had a labor tax called the mit'a. The Spanish changed it into the mita, which forced Indigenous villages to send men to work in the silver mines for set periods. This is an example of continuity and change.
   - why not A: The mita drafted Indigenous Andeans, not Spanish servants.
-  - why not B: The mita was forced labor, not free wage work.
+  - why not B: The mita required men to serve. Getting some pay did not make that service voluntary.
   - why not D: The Potosí mines relied mostly on Indigenous Andean workers, not enslaved Africans.
   - hint: This system existed before the Spanish arrived. Which empire ruled the Andes before Spain?
 
@@ -271,13 +271,13 @@ KEY: B. Explanation: Trade at Luanda happened "by permission of the King of Kong
   - hint: Who gave permission for trade at the port of Luanda?
 
 **U4-P20** [Topic 4.5 · LO K · Skill 1.B]  The conversion of Kongo's king described in the passage is an example of which broader development?
-- (A) the spread of Islam into Central Africa through trans-Saharan caravan trade
+- (A) the spread of Islam into Central Africa through the trans-Saharan caravan trade routes
 - (B) the spread of Christianity by sea, often adopted by rulers seeking trade and allies
 - (C) the decline of Christianity across Africa after Ethiopia was conquered
 - (D) the rejection of European religious teachings by most African rulers
 KEY: B. Explanation: Portuguese ships brought Christian missionaries along with trade. Kongo's rulers became Christian, which also helped them build ties with Portugal.
   - why not A: Kongo's king became Christian, not Muslim, and the contact came by sea from Portugal.
-  - why not C: Ethiopia was not conquered in this period, and Christianity was spreading in Kongo.
+  - why not C: Christian rule survived in Ethiopia despite major wars, and the passage describes Christianity spreading in Kongo.
   - why not D: Kongo's king accepted Christianity, so this is not a rejection.
   - hint: What religion did the Portuguese bring, and how did they arrive?
 
@@ -306,7 +306,7 @@ KEY: A. Explanation: São Tomé was an early sugar colony worked by enslaved Afr
 - (D) lending its gold and silver to foreign rulers in return for high rates of interest
 KEY: C. Explanation: Mun's rule is to sell more to foreigners than you buy from them. The extra comes back as gold and silver. This idea is called mercantilism.
   - why not A: Mun says to sell more to foreigners than we buy from them, the opposite of buying as much as possible.
-  - why not B: Mun says gifts and purchases from other nations are "uncertain and of small consideration."
+  - why not B: Mun says gifts and wealth taken from other nations are "uncertain and of small consideration."
   - why not D: Mun does not discuss lending money to foreign rulers.
   - hint: Look for the word "rule" in the first paragraph.
 
@@ -321,16 +321,16 @@ KEY: B. Explanation: If wealth comes from selling more than you buy, colonies he
   - why not D: Mercantilists wanted colonies to buy the home country's goods.
   - hint: How could colonies help a country sell more than it buys?
 
-**U4-P24** [Topic 4.5 · LO H · Skill 5.A · Comparison]  Which of the following writers would most likely have disagreed with Mun's view of how nations grow rich?
-- (A) Adam Smith, who argued in 1776 that free trade and the division of labor create wealth
-- (B) Jean-Baptiste Colbert, the French minister who built up French industry and trading companies
-- (C) Prince Henry of Portugal, who sponsored voyages to win gold and trade in Africa
-- (D) Jan Pieterszoon Coen, who used force to protect the Dutch East India Company's trade
-KEY: A. Explanation: Adam Smith criticized mercantilism. He argued that wealth comes from producing goods and trading freely, not from piling up gold and silver.
-  - why not B: Colbert was a leading mercantilist, so he would mostly agree with Mun.
-  - why not C: Prince Henry wanted gold and trade for Portugal, which fits mercantilist goals.
-  - why not D: Coen fought to win trade for the Dutch company, which fits mercantilist competition.
-  - hint: Which person on the list is famous for criticizing the "mercantile system"?
+**U4-P24** [Topic 4.5 · LO H · Skill 3.D]  Which of the following views most directly challenges Mun's argument?
+- (A) A country's wealth depends on the goods its people make and use, not on stored gold and silver.
+- (B) A state should protect its farmers and craftsmen from foreign competition by taxing imports.
+- (C) A state should give selected trading companies the sole right to trade in a region.
+- (D) Colonies should supply raw materials to industries in the home country and buy its goods.
+KEY: A. Explanation: Mun measures a nation's wealth by the treasure (gold and silver) it brings home. The correct choice uses a different measure: the goods people make and use. Adam Smith made this argument in 1776.
+  - why not B: Taxing imports to protect home producers fits Mun's mercantilist goals; it does not challenge them.
+  - why not C: Trading companies with special rights, like the East India Company Mun worked for, fit mercantilism.
+  - why not D: Using colonies to supply raw materials and buy finished goods was a mercantilist idea.
+  - hint: Which choice changes the way a country's wealth is measured?
 
 
 ### Source P9 (questions U4-P25–U4-P27)
@@ -399,7 +399,7 @@ KEY: C. Explanation: The edict calls Christianity "corrupt" and says the law wil
 - (C) the Kongo king's adoption of Christianity as the royal religion
 - (D) the Tokugawa shogunate's ban on Christianity and limits on contact with Europeans
 KEY: D. Explanation: Both the Qing and the Tokugawa saw Christianity as a threat and limited European influence in their lands.
-  - why not A: Akbar welcomed other religions; the Qing passage warns against them.
+  - why not A: Akbar welcomed discussion among people of different faiths. This Qing passage restricts Christianity.
   - why not B: Spain spread Christianity; the Qing tried to stop it.
   - why not C: Kongo's king adopted Christianity; the Qing rejected it.
   - hint: Which other Asian state restricted Christians and Europeans?
@@ -409,7 +409,7 @@ KEY: D. Explanation: Both the Qing and the Tokugawa saw Christianity as a threat
 - (B) present themselves, as Manchu rulers, as protectors of Confucian tradition
 - (C) adopt European science and mathematics in place of traditional Chinese learning
 - (D) convince Manchu nobles to give up their own culture
-KEY: B. Explanation: The Qing were Manchus, a minority from outside China, ruling a mostly Han Chinese population. By defending Confucian tradition, they showed they were proper rulers of China.
+KEY: B. Explanation: Qing rulers were Manchus from northeast Asia. Most of their subjects were Han Chinese. Supporting Confucian traditions helped the Qing claim the right to rule China.
   - why not A: The edict lists Buddhism among other teachings but praises the "teaching of the learned" (Confucianism).
   - why not C: The edict uses missionaries for math but rejects their teaching.
   - why not D: The Qing kept Manchu privileges and identity while supporting Confucian ideas.
@@ -447,9 +447,9 @@ KEY: D. Explanation: Both were uprisings by Indigenous peoples against European 
 **U4-P33** [Topic 4.6 · LO L · Skill 2.C]  A historian studying the Pueblo Revolt would most likely point out which limitation of the passage?
 - (A) Hackett was a Pueblo religious leader who had a personal reason to exaggerate.
 - (B) Hackett wrote his account many years before the Pueblo Revolt took place.
-- (C) Hackett relied on Spanish colonial records that may not show Pueblo points of view.
+- (C) Hackett relied on Spanish colonial records that may leave out or distort Pueblo views.
 - (D) Hackett based his account only on Pueblo oral stories that were told centuries later.
-KEY: C. Explanation: Hackett used records written by Spanish officials. Those records show the Spanish view, so Pueblo reasons may be missing or twisted.
+KEY: C. Explanation: Hackett used records made by Spanish officials. Some include Pueblo testimony, but Spanish questioning and translation could shape what was written. Pueblo views may be missing or twisted.
   - why not A: Hackett was an American historian, not a Pueblo leader.
   - why not B: Hackett wrote in 1911, long after the revolt of 1680.
   - why not D: The attribution says Hackett used Spanish colonial records.
@@ -489,7 +489,7 @@ KEY: D. Explanation: Through the devshirme, the Ottomans took boys from Christia
 - (B) criticize European societies in which birth, not ability, decided who held power
 - (C) convince Habsburg rulers to give the Ottomans more territory
 - (D) praise European nobles for their loyalty to their kings
-KEY: B. Explanation: Busbecq was a European diplomat writing a private letter. By praising the Ottomans, he criticized Europe, where noble birth decided who got power.
+KEY: B. Explanation: Busbecq was a European diplomat writing a private letter. He contrasts Ottoman promotion by merit with what he describes as Europe's focus on noble birth. The comparison criticizes European leaders.
   - why not A: Busbecq praises the Ottoman system over Europe's, not the reverse.
   - why not C: He is admiring Ottoman methods, not asking for land to be given up.
   - why not D: He says Europe gives "no opening" for merit, which is a criticism.
@@ -529,12 +529,12 @@ KEY: C. Explanation: Both Akbar and the Ottoman sultans made room for people of 
 - (A) the rapid conversion of most of India's Hindus to Islam
 - (B) a long era of peace and unity across the Mughal Empire
 - (C) a successful Mughal conquest of the neighboring Safavid Empire in Persia
-- (D) growing Rajput and Maratha resistance that weakened Mughal rule
-KEY: D. Explanation: When Aurangzeb brought back the tax and favored Muslims, many Hindus felt pushed out. Rajput nobles rebelled, and the Marathas, who were already fighting the Mughals, grew stronger. These wars weakened Mughal power.
+- (D) greater resentment among many non-Muslim subjects of Mughal rule
+KEY: D. Explanation: The tax was a separate burden on non-Muslim subjects. It added to anger toward Aurangzeb's rule. Maratha resistance had begun earlier and was also about land and political power.
   - why not A: Most Hindus did not convert; Hindus remained the majority in India.
   - why not B: Aurangzeb's reign was full of wars and revolts.
   - why not C: The Mughals did not conquer Safavid Persia.
-  - hint: If Akbar's tolerance helped win loyalty, what might happen when it ended?
+  - hint: How might people react to a tax charged to members of certain religions?
 
 
 ### Source P14 (questions U4-P40–U4-P42)
@@ -554,19 +554,19 @@ KEY: D. Explanation: When Aurangzeb brought back the tax and favored Muslims, ma
 KEY: C. Explanation: Smith says Europeans used their "superiority of force" to commit injustice. Marx lists enslavement, looting, and conquest. Both agree force was used.
   - why not A: Smith says the natives suffered "dreadful misfortunes," and Marx describes enslavement and looting.
   - why not B: Both writers describe major effects; Marx says they began capitalism.
-  - why not D: Only Smith blames accident; Marx says force was the method.
+  - why not D: Both writers describe deliberate uses of force. Smith treats Europe's greater power at that time as a chance circumstance of history.
   - hint: Find what each writer says happened to the native peoples.
 
 **U4-P41** [Topic 4.8 · LO N · Skill 3.C · Comparison]  Which of the following best describes a difference between the two sources?
-- (A) Smith blames chance timing for the harm; Marx sees force as central to capitalism.
+- (A) Smith blames a temporary imbalance of power; Marx sees force as built into capitalism's rise.
 - (B) Smith praises the mercantile system; Marx praises free trade among nations.
 - (C) Smith says the voyages hurt Europe; Marx says they mostly helped the natives.
-- (D) Smith writes only about the Americas, while Marx writes only about events in Asia and Africa.
-KEY: A. Explanation: Smith thinks the harm happened by "accident" of timing, and that trade is good overall. Marx thinks force and plunder were the very start of capitalism.
-  - why not B: Smith actually criticized mercantilism, and Marx did not praise free trade.
+- (D) Smith writes mainly about the Americas, while Marx focuses mostly on events in Asia and Africa.
+KEY: A. Explanation: Smith says trade can bring benefits. He blames European abuses on Europe's greater military power at that time. Marx describes force and plunder as central to capitalism's growth.
+  - why not B: Neither excerpt makes this claim. Smith does not defend mercantilism here, and Marx describes how colonial force helped capitalism grow.
   - why not C: Neither writer says the voyages mostly helped the natives.
   - why not D: Smith mentions both the East and West Indies, and Marx mentions America too.
-  - hint: Look for the word "accident" in Source 1. Would Marx agree?
+  - hint: Compare what each writer says about the role of force in overseas trade.
 
 **U4-P42** [Topic 4.5 · LO I · Skill 3.D]  Which of the following developments from 1450 to 1750 would Marx most likely use as evidence for his argument?
 - (A) the Mughal emperor Akbar's decision to remove the jizya tax
@@ -587,12 +587,12 @@ Description: A very wide painting on a gold background. A dark three-masted Euro
 
 **U4-P43** [Topic 4.1 · LO A · Skill 1.B]  The large ship on the left side of the screen is best understood as evidence of
 - (A) Japanese shipbuilding methods that European sailors later copied for their own ocean voyages
-- (B) steam-powered ships that allowed Europeans to reach Asia much faster
+- (B) oared galleys that let European crews travel without depending on the winds
 - (C) European ship designs, like the carrack, built to carry big cargoes across oceans
 - (D) Chinese treasure ships that carried the Portuguese merchants to Japan
-KEY: C. Explanation: The carrack was a big, three-masted ship that could carry lots of cargo on long ocean trips. New ship designs like this made trade between Europe and Asia possible.
+KEY: C. Explanation: Carracks carried large cargoes on long sea voyages. They helped Europeans sail directly to Asia around Africa. Europe and Asia had been linked by trade long before these voyages.
   - why not A: The ship is the Portuguese ship, painted by a Japanese artist; Europeans did not copy Japanese designs.
-  - why not B: Steam-powered ships did not appear until the late 1700s and early 1800s; this ship has sails and masts.
+  - why not B: The ship has tall masts and sails; it is not an oared galley.
   - why not D: The caption says it is a Portuguese carrack, not a Chinese ship.
   - hint: Read the caption. What kind of ship is it?
 
@@ -608,11 +608,11 @@ KEY: A. Explanation: European ships carried missionaries along with merchants. J
   - hint: Who are the people in black and gray robes?
 
 **U4-P45** [Topic 4.4 · LO E · Skill 5.B · Continuity and Change]  The kind of contact shown in the screen changed in the 1630s when the Tokugawa shogunate
-- (A) invited Spanish settlers to build a colony around the port of Nagasaki
+- (A) invited Spanish settlers to build a large colony around the port of Nagasaki
 - (B) made Catholic Christianity the official religion of all Japan
-- (C) expelled the Portuguese, crushed Christianity, and limited foreign trade
+- (C) expelled the Portuguese and tightened limits on Christians and foreign trade
 - (D) sent Japanese fleets to capture the Portuguese ports in India
-KEY: C. Explanation: Christianity had been banned since 1614. In the 1630s the Tokugawa enforced the ban harshly, and in 1639 they expelled the Portuguese. Dutch and Chinese merchants could still trade at Nagasaki under strict rules.
+KEY: C. Explanation: Christianity had been banned since 1614, and the Tokugawa enforced the ban harshly in the 1630s. Portuguese merchants were expelled in 1639. From 1641, Dutch and Chinese merchants traded at Nagasaki under strict rules, and Japan kept some regional trade, such as with Korea.
   - why not A: The Tokugawa did not invite Spanish colonists; they expelled the Spanish in 1624.
   - why not B: The Tokugawa banned and persecuted Christianity.
   - why not D: Japan banned its own ships from sailing abroad.
@@ -620,10 +620,10 @@ KEY: C. Explanation: Christianity had been banned since 1614. In the 1630s the T
 
 
 ### Source P16 (questions U4-P46–U4-P48)
-**Estimated Number of Enslaved Africans Who Arrived in the Americas, Selected Regions** (bar chart; y = Thousands of people)
+**Estimated Arrivals of Enslaved Africans Carried Directly from Africa, Selected Regions of the Americas** (bar chart; y = Thousands of people)
 - 1601–1700 (thousands): Brazil = 784, British Caribbean = 310, French Caribbean = 39, Spanish Americas = 226, Dutch Americas = 124, Mainland N. America = 15
 - 1701–1800 (thousands): Brazil = 1989, British Caribbean = 1813, French Caribbean = 995, Spanish Americas = 146, Dutch Americas = 295, Mainland N. America = 295
-Numbers count people who survived the voyage and arrived. Mainland North America is the region that later became the United States and Canada.
+Estimates count people who survived the voyage from Africa and landed in each region. They do not count later voyages between ports in the Americas. Regions follow the database's categories; mainland North America is the area that later became the United States and Canada. The second period extends past 1750.
 Source: Trans-Atlantic Slave Trade Database estimates, Slave Voyages (slavevoyages.org), Emory University
 
 **U4-P46** [Topic 4.4 · LO G · Skill 5.B · Causation]  The overall increase shown in the chart from the 1600s to the 1700s was most directly caused by
@@ -633,8 +633,8 @@ Source: Trans-Atlantic Slave Trade Database estimates, Slave Voyages (slavevoyag
 - (D) new Spanish laws requiring colonists to use enslaved Africans in their silver mines
 KEY: B. Explanation: Sugar, tobacco, coffee, and other cash crops grew on huge plantations. Planters in Brazil and the Caribbean bought more and more enslaved Africans to do the work.
   - why not A: Factories were not a major reason; enslaved people were sent mostly to plantations.
-  - why not C: Diseases from Europe hit the Americas hardest; this did not cause the slave trade to grow.
-  - why not D: The Spanish Americas actually received fewer enslaved Africans in the 1700s, and mines relied mostly on Indigenous labor.
+  - why not C: This option places the disease deaths in Africa. Disease among Indigenous Americans was a different factor, and it raised colonists' demand for enslaved workers.
+  - why not D: The chart shows fewer arrivals from Africa in the Spanish Americas in the 1700s, and the mines relied mostly on Indigenous workers.
   - hint: Which regions grew the most? What crop were they famous for?
 
 **U4-P47** [Topic 4.4 · LO G · Skill 3.B]  Which of the following claims is best supported by the chart?
@@ -644,7 +644,7 @@ KEY: B. Explanation: Sugar, tobacco, coffee, and other cash crops grew on huge p
 - (D) Brazil and the Caribbean received far more enslaved Africans than mainland North America.
 KEY: D. Explanation: Brazil and the Caribbean received millions of enslaved Africans. Mainland North America received far fewer.
   - why not A: Mainland North America had the smallest numbers in the 1600s and was far behind Brazil and the British Caribbean in the 1700s.
-  - why not B: Arrivals in the Spanish Americas went down, from about 226,000 to 146,000.
+  - why not B: Direct arrivals from Africa to the Spanish Americas fell from about 226,000 to 146,000.
   - why not C: Brazil received the most in both centuries.
   - hint: Compare the tallest bars with the bars for mainland North America.
 
@@ -652,7 +652,7 @@ KEY: D. Explanation: Brazil and the Caribbean received millions of enslaved Afri
 - (A) ending slavery inside Africa, since European traders shipped the captives abroad
 - (B) leading most African states to stop trading with Europeans
 - (C) spreading Christianity across most of West Africa by 1750
-- (D) leaving more women than men, because traders took more men across the Atlantic
+- (D) leaving some communities with more women than men, since more men were taken
 KEY: D. Explanation: European traders bought more enslaved men than women. Many African communities were left with more women than men, which changed families and work.
   - why not A: Slavery inside Africa continued; not all captives were sold abroad.
   - why not B: Many African states kept trading with Europeans throughout this period.
@@ -682,15 +682,15 @@ KEY: B. Explanation: Zurara worked for the Portuguese crown. He makes the voyage
   - D: Incorrect. A royal chronicler praising a prince is not criticizing royal spending.
 
 **U4-E02** [Topic 4.1 · LO A · Skill 4.A]  The voyages that Prince Henry sponsored were made possible in part by Portuguese use of
-- (A) steam-powered engines that let ships sail directly against the strongest winds
+- (A) large oared galleys like those used in Mediterranean sea battles
 - (B) lateen sails and compasses adopted through contact with other regions
 - (C) treasure ships copied from the fleets of the Ming admiral Zheng He
 - (D) detailed coastal maps bought from the rulers of the Mali Empire
 KEY: B. Explanation: Portuguese sailors used tools from other cultures. The lateen sail came from the Indian Ocean and Mediterranean world. The compass came from China. Muslim scholars improved star charts and astrolabes.
-  - A: Incorrect. Steam-powered ships did not appear until the late 1700s and early 1800s.
+  - A: Incorrect. Oared galleys worked in the calm Mediterranean but could not make long ocean voyages. The Portuguese used sailing ships such as the caravel.
   - B: Correct. The lateen sail and the magnetic compass came to Europeans through contact with the Islamic world and Asia. Together with new ship designs like the caravel, they made long ocean voyages possible.
   - C: Incorrect. Zheng He's voyages ended in the 1430s, and the Portuguese did not copy his giant treasure ships.
-  - D: Incorrect. The Portuguese had to explore the African coast themselves; they did not buy finished maps from Mali.
+  - D: Incorrect. There is no evidence that these voyages depended on coastal maps bought from Mali's rulers.
 
 **U4-E03** [Topic 4.2 · LO C · Skill 5.B · Causation]  The second reason described in the passage most directly contributed to which of the following developments in the period 1450–1750?
 - (A) The Portuguese conquest of large inland territories in West Africa by the early 1500s
@@ -722,21 +722,21 @@ KEY: C. Explanation: The second reason is about trade and profit. That goal led 
 - (B) Source 1 says Hispaniola had few people before 1492, while Source 2 says the islands were very crowded.
 - (C) Source 1 praises the encomienda for spreading Christianity, while Source 2 calls the system cruel.
 - (D) Source 1 blames the decline on Spanish greed and forced labor, while Source 2 also stresses disease.
-KEY: D. Explanation: Las Casas (Source 1) blames Spanish greed and forced labor. Bourne (Source 2) admits the cruelty but says diseases the Spanish brought, like smallpox, were a big hidden cause.
-  - A: Incorrect. This reverses the sources. Las Casas does not mention disease, and Bourne is the one who stresses it.
-  - B: Incorrect. Las Casas says Hispaniola once had three million people, so he describes a crowded island, not an empty one.
+KEY: D. Explanation: Las Casas (Source 1) blames Spanish greed and forced labor. Bourne (Source 2) agrees there was cruelty but argues that new diseases, like smallpox, were another major cause.
+  - A: Incorrect. This reverses the excerpts. Las Casas does not mention disease in this excerpt; Bourne does.
+  - B: Incorrect. Las Casas says Hispaniola once had three million people (his own estimate), so he describes a crowded island, not an empty one.
   - C: Incorrect. Las Casas says the duty to teach Christianity was only a pretense, so he does not praise the encomienda.
-  - D: Correct. Las Casas blames greed for gold and deadly work in mines and fields. Bourne agrees there was cruelty but argues that new diseases like smallpox were a deeper cause.
+  - D: Correct. Las Casas blames greed for gold and deadly work in mines and fields. Bourne agrees there was cruelty but argues that new diseases, such as smallpox, were another major cause.
 
 **U4-E05** [Topic 4.4 · LO F · Skill 1.B]  The labor system described in the third paragraph of Source 1 is best understood as an example of
 - (A) indentured servitude, in which European migrants worked for years in exchange for their passage
-- (B) chattel slavery, in which enslaved Africans were bought and sold as property on large sugar plantations
-- (C) the hacienda system, in which landowners paid free Indigenous workers wages to raise cattle
-- (D) the encomienda system, which gave colonists Indigenous people's labor if they taught them Christianity
-KEY: D. Explanation: Spanish colonists were "given" groups of Indigenous people to work for them. In return, the colonists were supposed to teach them Christianity. This was the encomienda system.
+- (B) chattel slavery, in which enslaved people were treated as property that could be bought and sold
+- (C) the hacienda system, in which large private estates produced crops or livestock using several kinds of labor
+- (D) the encomienda system, which granted colonists Indigenous labor or tribute in return for Christian teaching
+KEY: D. Explanation: Under encomienda, colonists received the right to collect tribute or labor from Indigenous communities. In return they were supposed to protect them and teach them Christianity. Las Casas describes how colonists abused this system.
   - A: Incorrect. Indentured servants were mostly Europeans who agreed to work for a set time; the passage describes Indigenous people forced to work.
-  - B: Incorrect. The workers in the passage are Indigenous people of Hispaniola, not enslaved Africans bought and sold as property.
-  - C: Incorrect. The passage describes forced labor in mines and fields, not wage work on cattle ranches.
+  - B: Incorrect. Encomienda granted claims to tribute or labor. It did not legally make colonists the owners of those people, though workers were often badly abused.
+  - C: Incorrect. A hacienda was a large estate. This passage is about grants of Indigenous labor to colonists.
   - D: Correct. Las Casas describes Indigenous people being "divided" among Spaniards on the condition that they be taught the Catholic religion. That is the encomienda system.
 
 **U4-E06** [Topic 4.4 · LO E · Skill 2.B]  The 1689 English edition of Source 1 was most likely published in order to
@@ -744,7 +744,7 @@ KEY: D. Explanation: Spanish colonists were "given" groups of Indigenous people 
 - (B) encourage English colonists to copy Spanish ways of governing Indigenous peoples
 - (C) persuade the Spanish king to pass new laws protecting Indigenous people
 - (D) recruit English missionaries to convert the Indigenous people of the Caribbean
-KEY: A. Explanation: The English title calls the book proof of "Popery," an insult for the Catholic Church. Protestant England was a rival of Catholic Spain, so the publishers used Las Casas's account to make Spain look cruel.
+KEY: A. Explanation: The English title calls the book proof of "Popery," an insult for the Catholic Church. This wording points to an English Protestant purpose: using Spanish violence as evidence against Catholic rule.
   - A: Correct. The title uses "Popery," an insult for Catholicism. England and Spain were Protestant and Catholic rivals, so publishers used Las Casas's book to make Catholic Spain look cruel.
   - B: Incorrect. The book shows Spanish rule as destructive, so it would not encourage the English to copy it.
   - C: Incorrect. Las Casas wrote to the Spanish king in 1542. This English edition came out in London more than 100 years later, for English readers.
@@ -758,28 +758,28 @@ KEY: A. Explanation: The English title calls the book proof of "Popery," an insu
 KEY: C. Explanation: Bourne argues that disease was a major cause of the decline. Evidence that people died even in places with few Spaniards would support him, because disease can spread without soldiers or masters present.
   - A: Incorrect. This shows a result of the population decline, not its cause.
   - B: Incorrect. Baptisms say nothing about why the population fell.
-  - C: Correct. If people died even where few Spaniards were present, something other than Spanish cruelty, such as disease, must have been killing them. Epidemics often spread ahead of the Spanish themselves.
-  - D: Incorrect. This is about Spanish laws; it does not show that disease caused the decline.
+  - C: Correct. If people died even where few Spaniards were present, disease is a likely cause, because infections could spread beyond Spanish rule. This supports Bourne's argument that disease was a major cause.
+  - D: Incorrect. Laws against abuse would show official policy, but they would not show why the population declined.
 
 
 ### Source X3 (questions U4-E08–U4-E10)
-**Registered Imports of American Gold and Silver into Spain, 1503–1660** (bar chart; y = Millions of pesos per year)
-- Average imports per year (millions of pesos): 1503–20 = 0.4, 1521–40 = 0.7, 1541–60 = 2.8, 1561–80 = 5.5, 1581–1600 = 12.3, 1601–20 = 11.0, 1621–40 = 8.5, 1641–60 = 3.6
-Figures count only treasure that was officially registered and taxed when it arrived at Seville; smuggled treasure is not included. Most of the silver came from mines at Potosí (in the Andes) and Zacatecas (in Mexico).
-Source: Calculated from Earl J. Hamilton, "Imports of American Gold and Silver into Spain, 1503–1660," Quarterly Journal of Economics, 1929
+**Average Annual Registered Imports of American Gold and Silver into Spain, 1503–1660** (bar chart; y = Millions of pesos per year)
+- Average imports per year (millions of pesos): 1503–20 = 0.2, 1521–40 = 0.3, 1541–60 = 1.4, 1561–80 = 2.7, 1581–1600 = 6.1, 1601–20 = 5.5, 1621–40 = 4.3, 1641–60 = 1.8
+Gold and silver are combined by their money value (1 peso = 450 maravedís, a Spanish unit of account). Most of the silver came from mines at Potosí (in the Andes) and Zacatecas (in Mexico).
+Source: Calculated from Earl J. Hamilton, American Treasure and the Price Revolution in Spain, 1501–1650 (1934), p. 34; yearly averages for each 20-year period (first period 18 years), rounded
 
 **U4-E08** [Topic 4.5 · LO I · Skill 5.B · Causation]  The increase shown in the chart between 1541 and 1600 was most directly caused by
-- (A) the Spanish conquest of gold-producing kingdoms in West Africa
+- (A) the Spanish conquest of gold-producing kingdoms along the coast of West Africa
 - (B) a rise in Chinese silver exports to Spain by way of Manila
-- (C) new Spanish laws that finally ended smuggling throughout the Caribbean islands
-- (D) the opening of huge silver mines, such as Potosí, worked mostly by Indigenous laborers
-KEY: D. Explanation: Treasure imports shot up after the 1540s because Spain opened giant silver mines at Potosí in the Andes and at Zacatecas in Mexico. Indigenous people did most of the work, much of it forced.
+- (C) new Spanish laws that finally ended the smuggling of treasure throughout the Caribbean islands
+- (D) the opening of huge silver mines, such as Potosí, worked largely by Indigenous people
+KEY: D. Explanation: Silver output grew as mining expanded at Potosí in the Andes and Zacatecas in Mexico after the 1540s. Potosí used drafted workers as well as paid workers. Wage labor was especially important at Zacatecas.
   - A: Incorrect. Spain did not conquer West African gold kingdoms; its treasure came from the Americas.
   - B: Incorrect. Silver flowed the other way: from the Americas to China, because China had high demand for it.
   - C: Incorrect. Spain never ended smuggling, and stopping smuggling would not create this much new treasure.
   - D: Correct. Potosí (opened 1545) and Mexican mines such as Zacatecas (1546) produced huge amounts of silver. Potosí relied on forced Indigenous labor through the mita; Mexican mines used paid, forced, and enslaved workers.
 
-**U4-E09** [Topic 4.5 · LO I · Skill 5.B · Continuity and Change]  Much of the silver represented in the chart eventually ended up in which of the following places?
+**U4-E09** [Topic 4.5 · LO I · Skill 5.B]  Much of the silver represented in the chart eventually ended up in which of the following places?
 - (A) West Africa, where Spanish merchants traded it for gold and ivory
 - (B) The Ottoman Empire, which collected it as tribute from Spain's rulers
 - (C) The Americas, where it was sent back to pay Indigenous miners' wages
@@ -787,7 +787,7 @@ KEY: D. Explanation: Treasure imports shot up after the 1540s because Spain open
 KEY: D. Explanation: American silver went around the world. A large share ended up in China, which had a giant economy and demanded silver for taxes and trade. Europeans used it to buy Chinese goods.
   - A: Incorrect. Spain did not trade silver to West Africa for gold; West African gold had flowed north for centuries.
   - B: Incorrect. Spain's rulers did not pay tribute to the Ottomans; they were rivals.
-  - C: Incorrect. Silver was not shipped back across the Atlantic to pay miners; much of the mine labor was forced.
+  - C: Incorrect. Miners were paid, if at all, in the Americas. Spain did not ship silver back across the Atlantic to pay them.
   - D: Correct. China's huge economy wanted silver, partly because the Ming government required taxes to be paid in silver. Europeans used American silver to buy Chinese silk and porcelain.
 
 **U4-E10** [Topic 4.5 · LO I · Skill 2.C]  Which of the following is a limitation of the chart for measuring how much American gold and silver reached Europe?
@@ -796,7 +796,7 @@ KEY: D. Explanation: American silver went around the world. A large share ended 
 - (C) It begins only after the Spanish conquest of the Inca Empire had been completed.
 - (D) It measures all of the treasure in British pounds sterling instead of in Spanish silver pesos.
 KEY: A. Explanation: The chart only counts treasure that was officially recorded. Lots of silver was smuggled to avoid taxes, so the chart shows less than what really arrived.
-  - A: Correct. The note under the chart says it includes only treasure that was officially registered and taxed. Smuggling was common, so the real amount was larger.
+  - A: Correct. The title says the chart shows registered imports: treasure that was officially recorded and taxed. Smuggling was common, so the real amount was larger.
   - B: Incorrect. The chart covers both gold and silver.
   - C: Incorrect. The chart starts in 1503, decades before the conquest of the Inca Empire (1530s).
   - D: Incorrect. The chart measures the treasure in pesos, not British pounds.
@@ -815,7 +815,7 @@ KEY: A. Explanation: The chart only counts treasure that was officially recorded
 - (B) a Ming Chinese invasion of Japan launched from the Korean peninsula
 - (C) the spread of Christianity, which Tokugawa rulers saw as a threat to their power
 - (D) a decline in Japanese silver mining that forced Japan to stop trading
-KEY: C. Explanation: All five rules aim to stop travel abroad or to root out Christians. The Tokugawa saw Christianity, brought by European missionaries, as a danger to their control.
+KEY: C. Explanation: The ordinance restricts overseas travel and punishes Christian activity. The Tokugawa saw Christianity, brought by European missionaries, as a danger to their control.
   - A: Incorrect. British warships forcing Asian ports open happened in the 1800s, not the 1630s.
   - B: Incorrect. Ming China did not invade Japan in this period.
   - C: Correct. Portuguese and Spanish missionaries had converted many Japanese. The Tokugawa feared Christians might be loyal to foreigners, so the ordinance rewards people who report Christians and missionaries.
@@ -846,7 +846,7 @@ KEY: B. Explanation: Japan's "closed country" policy was really controlled trade
 
 ### Source X5 (questions U4-E14–U4-E16)
 [IMAGE] Unknown artist, Las Castas (The Castes), oil painting made in New Spain (colonial Mexico), eighteenth century. Museo Nacional del Virreinato, Tepotzotlán, Mexico. Public domain image via Wikimedia Commons.
-Caption shown to students: Each panel shows a family. The label names the categories of the parents and the child. The first row reads, from left to right: "Spaniard with Indian woman: Mestizo"; "Mestizo with Spanish woman: Castizo"; "Castizo with Spanish woman: Spaniard"; "Spaniard with Black woman: Mulatto." Families in the top rows wear fine European-style clothing. Families in the lower rows wear plainer clothes, carry goods or tools, and some are barefoot. The labels use colonial terms: "Indian" meant an Indigenous person, and "Mulatto," a term now considered offensive, meant a person of mixed Spanish and African ancestry.
+Caption shown to students: Each panel shows a family. The label assigns colonial social categories to the parents and the child. The first three labels in the top row read: "Spaniard with Indian woman: Mestizo"; "Mestizo with Spanish woman: Castizo"; "Castizo with Spanish woman: Spaniard." Families in the top rows wear fine European-style clothing. Families in the lower rows wear plainer clothes, carry goods or tools, and some are barefoot. The labels use colonial terms: "Indian" meant an Indigenous person, and "Mulatto," a term now considered offensive, meant a person of mixed Spanish and African ancestry.
 Description: Sixteen small family portraits arranged in four rows of four. In each, a man and a woman stand with a child, and a label below names the mixture of Spanish, Indigenous, and African ancestry the painter assigned to each person. The couples in the first row are dressed in rich cloaks, lace, and fine fabrics. Moving down the rows, the clothing becomes simpler, people carry baskets, fruit, or tools, and several figures in the bottom rows are barefoot.
 
 **U4-E14** [Topic 4.7 · LO M · Skill 1.B]  The painting most directly reflects which of the following developments in the Spanish Americas?
@@ -858,15 +858,15 @@ KEY: C. Explanation: Every panel names a family's mix of Spanish, Indigenous, an
   - A: Incorrect. The painting shows differences between groups, not the end of them.
   - B: Incorrect. The painting is about Spanish, Indigenous, and African ancestry; Asian immigrants were not the colony's elite.
   - C: Correct. Each panel labels a family by its mix of Spanish, Indigenous, and African ancestry. This shows the casta system that grew in Spanish America.
-  - D: Incorrect. The painting shows people of many backgrounds married with children, so it does not show such a law.
+  - D: Incorrect. Colonial law did not limit marriage or landholding to people born in Spain, and a painted family group does not show a law.
 
 **U4-E15** [Topic 4.7 · LO M · Skill 2.B]  Paintings such as this one were most likely made in order to
-- (A) show colonial society as orderly, with people of Spanish descent at the top
-- (B) protest the treatment of enslaved Africans on Caribbean sugar plantations
+- (A) show colonial society as an orderly ranking that favored people classified as Spanish
+- (B) protest the cruel treatment of enslaved Africans on the sugar plantations of the Caribbean
 - (C) record the religious ceremonies of Indigenous peoples before the conquest
 - (D) encourage Spanish settlers in the colonies to move back to Spain
-KEY: A. Explanation: The paintings put families in neat rows, with fine clothes for those of Spanish descent at the top and simpler clothes and work below. They show the elite's view of an orderly society with Spaniards on top.
-  - A: Correct. The top rows show richly dressed families with Spanish ancestry, and the lower rows show plainer, working families. The painting presents a neat ranking with Spaniards on top. Historians note real life was messier than these paintings show.
+KEY: A. Explanation: The painting presents colonial society as an ordered ranking. People classified as Spanish get the favored places. These were social labels, not fixed groups, and real lives were more complex than the painting suggests.
+  - A: Correct. The top rows show richly dressed families, and the lower rows show plainer, working families. The painting presents a neat ranking with people classified as Spanish on top. These were social labels, and real life was messier than the paintings show.
   - B: Incorrect. The painting shows family groups and labels, not plantation work or a protest.
   - C: Incorrect. It shows colonial families, not religious ceremonies from before the conquest.
   - D: Incorrect. Nothing in the painting encourages anyone to leave the colonies.
@@ -888,7 +888,7 @@ KEY: A. Explanation: Both systems ranked people partly by the group they were bo
 > The most serious and widespread development of contraband trade, however, was in merchandise introduced into the colonies directly from foreign markets. Portuguese, French, Dutch and other interlopers smuggled their cargoes into the West Indies, through the closed port of Buenos Aires, or even to the Pacific shores of Spanish America. The illicit trader was eagerly welcomed by the colonists, for he supplied their needs at reasonable prices. …
 > A flood of restrictions, a jealous monopoly, on the one hand—on the other, a flourishing contraband trade of outsiders …—such is the story of Spanish-American commerce in the sixteenth and the seventeenth centuries. The Crown of Castile sought to extend Spanish power, and monopolize all the treasure of the Indies, by means of a rigid and complicated commercial system. Yet in the end, it saw the trade of the New World pass into the hands of its rivals … and its riches diverted at their very source.
 > * the ruling family of Spain from 1516 to 1700; "later Hapsburgs" refers to the 1600s
-— Clarence H. Haring, historian at Harvard University, Trade and Navigation between Spain and the Indies in the Time of the Hapsburgs, published in 1918 (Adapted)
+— Clarence H. Haring, American historian, Trade and Navigation between Spain and the Indies in the Time of the Hapsburgs, published in 1918 (Adapted)
 
 **U4-E17** [Topic 4.5 · LO H · Skill 3.A]  Which of the following best describes Haring's argument?
 - (A) Spain's monopoly worked because the yearly fleets kept silver safe from pirates and rivals.
@@ -906,22 +906,22 @@ KEY: D. Explanation: Haring argues that Spain's tight control backfired. Spain c
 - (B) free-trade policies that let merchants of all nations use Spanish ports freely
 - (C) the tribute system that Ming China used to manage its foreign trade
 - (D) the trading-post empire that the Portuguese built along Asian coasts
-KEY: A. Explanation: Spain tried to keep all colonial trade and treasure for itself, using one port and official fleets. Controlling trade to build national wealth is called mercantilism.
+KEY: A. Explanation: Spain tried to control colonial trade through approved ports and official fleets. Using trade rules to build the state's wealth was part of mercantilism.
   - A: Correct. Mercantilism meant a state tried to control trade with its colonies to gain gold and silver and keep rivals out. Spain's monopoly through Seville is a clear example.
   - B: Incorrect. Spain's system was the opposite of free trade; it tried to shut foreigners out.
   - C: Incorrect. The tribute system was China's way of managing foreign relations, not Spain's.
   - D: Incorrect. The passage is about Spain's control of trade with the Americas, not Portuguese posts in Asia.
 
-**U4-E19** [Topic 4.5 · LO H · Skill 5.B · Causation]  The smuggling described by Haring most directly contributed to which of the following?
-- (A) The end of Spanish rule in most of the Americas by the late 1600s
-- (B) A sharp drop in colonial demand for European manufactured goods
-- (C) Growing rivalry and conflict among European states over trade in the Americas
-- (D) The replacement of silver coins with paper money across the Spanish empire
-KEY: C. Explanation: Rival European traders broke into Spain's markets. Fights over trade like this helped cause rivalries and wars between European states.
-  - A: Incorrect. Spain kept most of its American empire until the early 1800s.
-  - B: Incorrect. Smuggling grew because colonists wanted more European goods, not fewer.
-  - C: Correct. Dutch, English, French, and Portuguese traders pushing into Spanish markets fed the economic rivalries and wars among European states in this period.
-  - D: Incorrect. Silver remained the main money of the Spanish empire.
+**U4-E19** [Topic 4.5 · LO H · Skill 3.D]  Which of the following additional findings would most directly qualify Haring's conclusion that Spain's commercial system failed?
+- (A) Colonists often paid lower prices for smuggled goods than for legally imported goods.
+- (B) Foreign-made goods filled a growing share of the fleets sailing from Seville.
+- (C) The crown kept collecting large revenues from the regulated trade with the colonies.
+- (D) Spanish officials repeatedly issued new rules against unlicensed foreign trade.
+KEY: C. Explanation: A system could fail to keep out foreign goods and still raise a lot of money for the crown. That finding would limit Haring's conclusion without proving his evidence wrong.
+  - A: Incorrect. This helps explain why smuggling grew, so it supports Haring's argument.
+  - B: Incorrect. This supports Haring's point that Spain depended on foreign goods.
+  - C: Correct. If the crown still earned large revenues, the system did not fail in every way. This finding limits (qualifies) Haring's conclusion without disproving his evidence.
+  - D: Incorrect. Repeated new rules show the problem kept happening; they do not show the system worked.
 
 
 ### Source X7 (questions U4-E20–U4-E22)
@@ -958,7 +958,7 @@ KEY: B. Explanation: Metacom's War and Nzinga's wars were both armed resistance 
 - (B) Easton was an English official retelling, in his own words, what Wampanoag leaders said.
 - (C) Easton was himself a Wampanoag leader who hoped to justify a war on the colonists.
 - (D) Easton wrote the report to convince the Spanish crown to send its soldiers to New England.
-KEY: B. Explanation: We only hear the Wampanoag through Easton, an English colonist. He summarized their words in his own language, so the report may not show their views exactly.
+KEY: B. Explanation: In this report, we hear Wampanoag leaders only through Easton's account. His word choices and details may not fully show their views.
   - A: Incorrect. The report was written in 1675, the year the war began.
   - B: Correct. The Wampanoag views come to us only through an English colonist's summary, so some of their meaning may be lost or changed.
   - C: Incorrect. Easton was the deputy governor of Rhode Island, an English colony.
@@ -970,12 +970,12 @@ KEY: B. Explanation: We only hear the Wampanoag through Easton, an English colon
 > … Those prisoners which were not sold or redeemed we kept as slaves: but how different was their condition from that of the slaves in the West Indies! With us they do no more work than other members of the community, even their masters; their food, clothing and lodging were nearly the same as theirs, (except that they were not permitted to eat with those who were free-born); and there was scarce any other difference between them, than a superior degree of importance which the head of a family possesses in our state. … Some of these slaves have even slaves under them as their own property.
 — Olaudah Equiano, formerly enslaved African, describing his childhood in West Africa in the 1750s, The Interesting Narrative of the Life of Olaudah Equiano, published in London in 1789 (Adapted)
 
-**U4-E23** [Topic 4.4 · LO G · Skill 3.B · Comparison]  Which of the following claims does Equiano support with the evidence in the second paragraph?
+**U4-E23** [Topic 4.4 · LO G · Skill 3.A · Comparison]  Which of the following claims does Equiano support with the evidence in the second paragraph?
 - (A) Slavery in his homeland was very different from plantation slavery in the Americas.
 - (B) Slavery in West Africa had ended before European merchants arrived on the coast.
 - (C) Enslaved people in Africa usually worked in gold mines owned by European traders.
 - (D) African societies did not practice slavery before European traders arrived.
-KEY: A. Explanation: Equiano compares two kinds of slavery. He says that in his homeland, enslaved people lived much like free family members, while plantation slavery in the West Indies was far harsher.
+KEY: A. Explanation: Equiano compares two kinds of slavery. He says enslaved people in his homeland shared many living and working conditions with free people, unlike enslaved people in the West Indies. They still were not free and could be sold.
   - A: Correct. Equiano says enslaved people in his homeland did the same work as free people. They ate similar food and lived in similar homes. Enslaved people in the West Indies did not.
   - B: Incorrect. Equiano describes slavery still existing in his homeland in the 1750s.
   - C: Incorrect. He describes enslaved people working in households, not in European-owned mines.
@@ -986,20 +986,20 @@ KEY: A. Explanation: Equiano compares two kinds of slavery. He says that in his 
 - (B) ending warfare between West African states as rulers turned to peaceful trade
 - (C) causing West African rulers to reject European goods in favor of local products
 - (D) leading most West African states to ban the sale of captives to Europeans
-KEY: A. Explanation: Equiano says European goods tempted chiefs to raid their neighbors for captives to sell. Demand for enslaved people led to more violence between African states.
+KEY: A. Explanation: Equiano says traders tempted chiefs with European goods, and chiefs raided their neighbors for captives to sell. His words "perhaps" and "I believe" show this is his own explanation, but historians agree the slave trade increased raiding and war.
   - A: Correct. Equiano says a trader "tempts" a chief "with his wares," and the chief then attacks his neighbors to take prisoners to sell.
   - B: Incorrect. Equiano describes more raiding, not less.
   - C: Incorrect. He says chiefs were tempted by European wares, not that they rejected them.
   - D: Incorrect. The passage describes chiefs selling captives, not banning the sale.
 
 **U4-E25** [Topic 4.4 · LO G · Skill 2.B]  Equiano most likely included the comparison in the second paragraph in order to
-- (A) persuade African rulers to stop selling war captives to European merchants
-- (B) persuade British readers that plantation slavery was uniquely harsh and should end
+- (A) persuade African rulers to stop selling the captives they took in war to European merchants
+- (B) build British opposition to the slave trade by showing how harsh plantation slavery was
 - (C) encourage British planters to copy the labor practices used in West Africa
 - (D) defend the West Indian plantation system against the attacks of its many British critics
-KEY: B. Explanation: Equiano wrote in Britain while people were fighting to end the slave trade. By showing how much worse plantation slavery was, he tried to convince British readers to end it.
+KEY: B. Explanation: Equiano published his book during the British campaign against the slave trade. His comparison presents West Indian slavery as especially cruel and supports that campaign.
   - A: Incorrect. His book was written in English and published in London for British readers, not African rulers.
-  - B: Correct. Equiano published his book in London in 1789 during the campaign to end the British slave trade. Showing how cruel plantation slavery was compared with his homeland supported that campaign.
+  - B: Correct. Equiano published his book in London in 1789, during the British campaign against the slave trade. His comparison presents West Indian slavery as especially cruel, which supported that campaign.
   - C: Incorrect. His point is to condemn plantation slavery, not to give planters advice.
-  - D: Incorrect. He contrasts the gentler slavery of his homeland with the West Indies to criticize plantations, not defend them.
+  - D: Incorrect. Equiano uses the comparison to criticize plantation slavery. He is not defending it.
 

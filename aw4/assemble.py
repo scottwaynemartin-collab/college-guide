@@ -170,7 +170,7 @@ out = {
         "title": "Unit 4 Practice Exam: Transoceanic Interconnections",
         "timeMinutes": 25,
         "questionCount": len(EXAM),
-        "directions": "Each set of questions refers to a source: a primary source, a historian's writing, an image, or data. For each question, choose the best answer. Use the source and your knowledge of world history from c. 1450 to c. 1750. There is no penalty for guessing.",
+        "directions": "Each set of questions refers to a source: a primary source, a historian's writing, an image, or data. For each question, choose the best answer. Use the source and your knowledge of world history from c. 1450 to c. 1750. There is no penalty for guessing. Some sources use historical labels or insulting descriptions of other peoples and religions; these words show the writers' views.",
         "questions": EXAM,
     },
 }
