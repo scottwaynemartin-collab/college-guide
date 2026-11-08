@@ -1,0 +1,840 @@
+AP European History Course and Exam Description (Fall 2026), Unit 4 excerpt
+Source: /tmp/ced/euro.txt (CED pp. 91-106; skills pp. 15-17; exam format pp. 235-237)
+
+===== EXAM FORMAT (CED p. 237, Section I Part A) =====
+framework. The exam is 3 hours and 15 minutes long and students are
+required to answer 55 multiple-choice questions, 3 short-answer questions,
+1 document-based question, and 1 long essay question. The details of the
+exam, including exam weighting and timing can be found below:
+
+                                                  Number of    Exam
+ Section      Question Type                       Questions   Weighting           Timing
+              Part A: Multiple-choice questions      55         40%               55 minutes
+      I
+              Part B: Short-answer questions          3         20%               40 minutes
+
+Section I
+PART A: MULTIPLE-CHOICE
+The first part of Section I of the AP European History Exam includes 55 multiple-choice
+questions typically appearing in sets of three to four questions, each with one or more
+stimuli, including primary texts, secondary texts, images (artwork, photos, posters,
+cartoons, etc.), charts, or other quantitative data, and maps. Additionally, there will be
+at least one set of paired text-based stimuli. Multiple-choice questions require analysis
+of the provided stimulus sources and the historical developments and processes
+described in the sources.
+
+PART B: SHORT-ANSWER
+
+===== UNIT 4 AT A GLANCE =====
+                                          UNIT 4
+                                          Scientific,
+                                          Philosophical,
+                                          and Political
+                                          Developments
+                                            c. 1648 to c. 1815
+
+
+
+
+                                                   10–15%
+                                                   AP EXAM WEIGHTING
+
+
+
+                                                   ~15
+                                                   CLASS PERIODS
+
+                                            Reasoning
+           Topic                            Process          Suggested Skill                            ~15 CLASS PERIODS
+
+           4.1 Contextualizing the          Causation        4.A Identify and describe a historical
+              Scientific Revolution and                      context for a specific historical
+              the Enlightenment                              development or process.
+
+
+           4.2 The Scientific               Causation        3.D Explain how claims or evidence
+ TSI
+
+
+
+
+              Revolution                                     support, modify, or refute a
+                                                             source’s argument.
+
+
+           4.3 The Enlightenment            Causation         5.B Explain how a historical
+                                                             development or process relates
+SCD,
+CID
+
+
+
+
+                                                             to another historical development
+                                                             or process.
+
+
+           4.4 18th-Century Society         Continuity and   4.B Explain how a specific historical
+ SCD
+
+
+
+
+              and Demographics              Change           development or process is situated
+                                                             within a broader historical context.
+
+
+           4.5 18th-Century Culture         Continuity and   4.A Identify and describe a historical
+ CID
+
+
+
+
+              and Arts                      Change           context for a specific historical
+                                                             development or process.
+
+
+           4.6 Enlightened and Other        Causation        2.B Explain the point of view,
+SOP,
+NEI
+
+
+
+
+              Approaches to Power                            purpose, historical situation, and/or
+                                                             audience of a source.
+
+
+           4.7 Causation in the Age of      Causation        6.C Use historical reasoning to
+              the Scientific Revolution                      explain relationships among pieces
+              and the Enlightenment                          of historical evidence.
+
+
+
+           Go to AP Classroom to assign the Progress Check for Unit 4.
+           Review the results in class to identify and address any student misunderstandings.
+
+
+===== UNIT 4 TOPICS, LEARNING OBJECTIVES, HISTORICAL DEVELOPMENTS =====
+TOPIC 4.1                                                                                        SUGGESTED SKILL
+                                                                                                        Contextualization
+
+
+Contextualizing the                                                                               4.A
+                                                                                                 Identify and describe
+                                                                                                 a historical context for
+
+Scientific Revolution                                                                            a specific historical
+                                                                                                 development or process.
+
+
+
+and the Enlightenment
+Spend a class period helping students understand some contexts for this unit. Considering
+this unit’s key concepts (previewed below), select one or two for which your students will
+most need context.
+To understand context, your students could examine:
+§ Change from and/or continuity with preceding historical developments.
+§ Similarities and/or differences with contemporaneous historical developments in different
+  regions or geographical areas.
+Whenever possible, draw upon students’ relevant prior knowledge, and anchor this
+contextualization lesson in historical source material of varying formats such as visuals,
+data, or written texts, or conduct an activity that engages students in exploring context.
+
+
+Required Course Content
+
+   LEARNING OBJECTIVE                    PREVIEW: UNIT 4 KEY CONCEPTS
+    Unit 4: Learning Objective A         KC-1.1
+   Explain the context in which          The rediscovery of works from ancient Greece
+   the Scientific Revolution and         and Rome and observation of the natural world
+   Enlightenment developed               changed many Europeans’ view of their world.
+   in Europe.                               KC-1.1.IV
+                                            New ideas in science based on observation,
+                                            experimentation, and mathematics
+                                            challenged classical views of the cosmos,
+                                            nature, and the human body, although
+                                            existing traditions of knowledge and the
+                                            universe continued.
+
+
+                                                                      continued on next page
+
+
+
+
+         UNIT
+
+          4                     Scientific, Philosophical, and Political Developments
+
+
+
+                                   LEARNING OBJECTIVE              PREVIEW: UNIT 4 KEY CONCEPTS
+                                    Unit 4: Learning Objective A   KC-2.3
+                                   Explain the context in which    The spread of Scientific Revolution concepts
+                                   the Scientific Revolution and   and practices and the Enlightenment’s
+                                   Enlightenment developed         application of these concepts and practices
+                                   in Europe.                      to political, social, and ethical issues led to an
+                                                                   increased but not unchallenged emphasis on
+                                                                   reason in European culture.
+                                                                       KC-2.3.I
+                                                                       Enlightenment thought, which focused on
+                                                                       concepts such as empiricism, skepticism,
+                                                                       human reason, rationalism, and classical
+                                                                       sources of knowledge, challenged the
+                                                                       prevailing patterns of thought with respect
+                                                                       to social order, institutions of government,
+                                                                       and the role of faith.
+                                                                       KC-2.3.II
+                                                                       New public venues and print media
+                                                                       popularized Enlightenment ideas.
+                                                                       KC-2.3.III
+                                                                       New political and economic theories
+                                                                       challenged absolutism and mercantilism.
+                                                                       KC-2.3.IV
+                                                                       During the Enlightenment, the rational
+                                                                       analysis of religious practices led to
+                                                                       natural religion and the demand for
+                                                                       religious toleration.
+
+                                                                   KC-2.4
+                                                                   The experiences of everyday life were shaped
+                                                                   by demographic, environmental, medical, and
+                                                                   technological changes.
+                                                                       KC-2.4.III
+                                                                       By the 18th century, family and private life
+                                                                       reflected new demographic patterns and
+                                                                       the effects of the commercial revolution.
+
+
+
+
+                                                                                                       UNIT
+Scientific, Philosophical, and Political Developments
+                                                                                                        4
+TOPIC 4.2                                                                                    SUGGESTED SKILL
+                                                                                                    Claims and Evidence
+
+
+The Scientific
+                                                                                                    in Sources
+                                                                                              3.D
+                                                                                             Explain how claims
+
+Revolution                                                                                   or evidence support,
+                                                                                             modify, or refute a
+                                                                                             source’s argument.
+
+
+
+
+Required Course Content                                                                      ILLUSTRATIVE EXAMPLES
+                                                                                             Additional physicians who
+                                                                                             challenged Galen:
+                                                                                              § Paracelsus
+                                                                                              § Andreas Vesalius
+   THEMATIC FOCUS
+                                                                                             Natural philosophers
+   Technological and Scientific Innovation TSI                                               who continued to hold
+   Scientific and technological innovations have increased efficiency, improved daily        traditional views of
+   life, and shaped human development and interactions, having both intended and             alchemy and astrology:
+   unintended consequences.                                                                   § Paracelsus
+                                                                                              § Johannes Kepler
+                                                                                              § Sir Isaac Newton
+   LEARNING OBJECTIVE                    HISTORICAL DEVELOPMENTS
+                                                                                             AVAILABLE RESOURCE
+    Unit 4: Learning Objective B         KC-1.1.IV.A                                          §§ Classroom Resource >
+   Explain how understanding of          New ideas and methods in astronomy led                  Thematic Approaches:
+   the natural world developed           individuals, including Copernicus, Galileo,             “Full and Plain Evidence:
+   and changed during the                and Newton, to question the authority of the            Science, Tradition and
+   Scientific Revolution                 ancients and traditional knowledge, and to              Religion in Early Modern
+                                                                                                 Europe”
+   and Enlightenment.                    develop a heliocentric view of the cosmos.
+                                         KC-1.1.IV.B
+                                         Anatomical and medical discoveries by
+                                         physicians, including William Harvey, presented
+                                         the body as an integrated system, challenging
+                                         the traditional humoral theory of the body and
+                                         of disease espoused by Galen.
+                                         KC-1.1.IV.C
+                                         Francis Bacon and René Descartes defined
+                                         inductive and deductive reasoning and
+                                         promoted experimentation and the use of
+                                         mathematics, which would ultimately shape
+                                         the scientific method.
+                                         KC-1.1.IV.D
+                                         Alchemy and astrology continued to appeal to
+                                         elites and some natural philosophers, in part
+                                         because they shared with the new science the
+                                         notion of a predictable and knowable universe.
+                                         At the same time, many people continued
+                                         to believe that the cosmos was governed by
+                                         spiritual forces.
+
+
+
+
+            UNIT
+
+             4                  Scientific, Philosophical, and Political Developments
+
+
+SUGGESTED SKILL
+      Making Connections
+                                TOPIC 4.3
+5.B
+Explain how a historical
+development or process
+                                The Enlightenment
+relates to another historical
+development or process.
+
+
+
+
+ILLUSTRATIVE EXAMPLES
+Works applying scientific
+                                Required Course Content
+principles to society:
+ § Montesquieu’s
+   The Spirit of the Laws
+                                   THEMATIC FOCUS
+ § Cesare Beccaria’s On
+   Crimes and Punishments          Social Organization and Development SCD
+Individuals who challenged         Economic, political, and cultural factors have influenced the form and status of
+Rousseau’s position                family, class, and social groups in European history, which has, in turn, affected both
+on women:                          the individual and society.
+ § Mary Wollstonecraft
+ § Marquis de Condorcet
+Institutions that broadened        LEARNING OBJECTIVE                    HISTORICAL DEVELOPMENTS
+the audience for new ideas:
+                                    Unit 4: Learning Objective C          KC-2.3.I.A
+ § Coffeehouses                    Explain the causes                    Intellectuals, including Voltaire and Diderot,
+ § Academies                       and consequences of                   began to apply the principles of the Scientific
+ § Lending libraries               Enlightenment thought                 Revolution to society and human institutions.
+ § Masonic lodges                  on European society                    KC-2.3.I.B
+                                   from 1648 to 1815.
+Proponents of new                                                        Locke and Rousseau developed new political
+economic ideas:                                                          models based on the concept of natural rights
+ § Physiocrats                                                           and the social contract.
+ § Francois Quesnay                                                       KC-2.3.I.C
+ § Anne Robert Jacques                                                   Despite the principles of equality espoused by
+   Turgot                                                                the Enlightenment and the French Revolution,
+Intellectuals:                                                           intellectuals such as Rousseau offered
+ §§ David Hume                                                           controversial arguments for the exclusion of
+ § Baron d’Holbach                                                       women from political life.
+Religious developments:
+ § Revival of German                                                                                    continued on next page
+   Pietism
+AVAILABLE RESOURCE
+ § Classroom Resource >
+   Three Lesson
+   Plans: France in
+   the Late-18th and
+   Early-19th Centuries
+   (Lesson Plan 1:
+   Re-creating an
+   Enlightenment Salon)
+
+
+
+
+                                                                                                        UNIT
+Scientific, Philosophical, and Political Developments
+                                                                                                         4
+   THEMATIC FOCUS
+   Cultural and Intellectual Developments CID
+   The creation and transmission of knowledge, including the relationship between
+   traditional sources of authority and the development of differing world views, had
+   significant political, intellectual, economic, cultural, and social effects on European
+   and world societies.
+
+
+
+   LEARNING OBJECTIVE                     HISTORICAL DEVELOPMENTS
+    Unit 4: Learning Objective D          KC-2.3.II.A
+   Explain the influence of               A variety of institutions, including salons,
+   Enlightenment thought                  explored and disseminated Enlightenment
+   on European intellectual               culture.
+   development from                       KC-2.3.III.A
+   1648 to 1815.
+                                          Political theories, including John Locke’s,
+                                          conceived of society as composed of
+                                          individuals driven by self-interest and argued
+                                          that the state originated in the consent of
+                                          the governed (i.e., a social contract) rather
+                                          than in divine right or tradition.
+                                          KC-2.3.III.B
+                                          Mercantilist theory and practice were
+                                          challenged by new economic ideas, including
+                                          Adam Smith’s, which espoused free trade
+                                          and a free market.
+                                          KC-2.3.I
+                                          Enlightenment thought, which focused on
+                                          concepts such as empiricism, skepticism,
+                                          human reason, rationalism, and classical
+                                          sources of knowledge, challenged the
+                                          prevailing patterns of thought with respect to
+                                          social order, institutions of government, and
+                                          the role of faith.
+                                          KC-2.3.IV.A
+                                          Intellectuals, including Voltaire and Diderot,
+                                          developed new philosophies of deism,
+                                          skepticism, and atheism.
+                                          KC-2.3.IV.B
+                                          Religion was viewed increasingly as a matter
+                                          of private rather than public concern.
+
+
+
+
+            UNIT
+
+             4                  Scientific, Philosophical, and Political Developments
+
+
+SUGGESTED SKILL
+      Contextualization
+                                TOPIC 4.4
+4.B
+Explain how a specific
+historical development or
+                                18th-Century Society
+process is situated within a
+broader historical context.     and Demographics
+
+ILLUSTRATIVE EXAMPLES
+Inoculation and disease
+                                Required Course Content
+control:
+ § Lady Mary Wortley
+   Montagu
+                                   THEMATIC FOCUS
+Increased emphasis
+on childhood:                      Social Organization and Development SCD
+ §§ Jean-Jacques Rousseau          Economic, political, and cultural factors have influenced the form and status of
+ § Education in Napoleonic         family, class, and social groups in European history, which has, in turn, affected both
+   France and Austria              the individual and society.
+ § Painting and portraiture
+AVAILABLE RESOURCES
+ § Classroom Resource >
+                                   LEARNING OBJECTIVE                    HISTORICAL DEVELOPMENTS
+   Whose History Is It?:            Unit 4: Learning Objective E          KC-2.4.I
+   “Using Primary                  Explain the factors                   In the 17th century, small landholdings,
+   Documents to
+                                   contributing to and                   low-productivity agricultural practices, poor
+   Teach Point of View
+                                   the consequences of                   transportation, and adverse weather limited
+   Attitudes Toward
+   Bourgeois Arrivistes
+                                   demographic changes                   and disrupted the food supply, causing periodic
+   in Eighteenth-Century           from 1648 to 1815.                    famines. By the 18th century, the balance
+   France: Class, Gender,                                                between population and the food supply
+   and Vocation”                                                         stabilized, resulting in steady population growth.
+ § Classroom Resource >                                                       KC-2.4.I.A
+   Whose History Is It?:                                                      By the middle of the 18th century, higher
+   “Using Primary                                                             agricultural productivity and improved
+   Documents to                                                               transportation increased the food supply,
+   Teach Point of View
+                                                                              allowing populations to grow and reducing
+   Women and Attitudes
+                                                                              the number of demographic crises (a process
+   Toward Marriage in
+   Eighteenth-Century                                                         known as the Agricultural Revolution).
+   France: Class, Gender,                                                     KC-2.4.I.B
+   Age and Vocation”
+                                                                              In the 18th century, plague disappeared as
+ §                                                                            a major epidemic disease, and inoculation
+     Whose History Is It?:
+                                                                              reduced smallpox mortality.
+     “Art as a Window to the
+     European World: The                                                  KC-2.4.III.A
+     Poor from the Fifteenth
+                                                                         Although the rate of illegitimate births
+     to the Nineteenth
+     Centuries: Class and
+                                                                         increased in the 18th century, population
+     Point of View”                                                      growth was limited by the European
+                                                                         marriage pattern, and in some areas by
+                                                                         various birth control methods.
+
+
+                                                                                                        continued on next page
+
+
+                                                                                                        UNIT
+Scientific, Philosophical, and Political Developments
+                                                                                                         4
+                                                                                                AVAILABLE RESOURCES
+                                                                                                (CONT’D)
+   LEARNING OBJECTIVE                    HISTORICAL DEVELOPMENTS                                 § Classroom Resource >
+    Unit 4: Learning Objective E         KC-2.4.III.B                                              Whose History Is It?:
+                                                                                                   “A Thematic Unit for
+   Explain the factors                   As infant and child mortality decreased,
+                                                                                                   the Intersection of
+   contributing to and                   and commercial wealth increased, families                 Gender and Class in
+   the consequences of                   dedicated more space and resources to                     AP European History”
+   demographic changes                   children and child-rearing, as well as private            (Lesson Two: The
+   from 1648 to 1815.                    life and comfort.                                         Harlot’s Progress—
+                                         KC-2.4.IV
+                                                                                                   ‘Working Women’ in
+                                                                                                   Eighteenth-Century
+                                         Cities offered economic opportunities, which
+                                                                                                   London)
+                                         attracted increasing migration from rural areas,
+                                         transforming urban life and creating challenges
+                                         for the new urbanites and their families.
+                                             KC-2.4.IV.A
+                                             The Agricultural Revolution produced
+                                             more food using fewer workers; as a result,
+                                             people migrated from rural areas to the
+                                             cities in search of work.
+                                             KC-2.4.IV.B
+                                             The growth of cities eroded traditional
+                                             communal values, and city governments
+                                             strained to provide protection and a
+                                             healthy environment.
+                                             KC-2.4.IV.C
+                                             The concentration of the poor in cities led
+                                             to a greater awareness of poverty, crime,
+                                             and prostitution as social problems, and
+                                             prompted increased efforts to police
+                                             marginal groups.
+
+
+
+
+           UNIT
+
+            4                   Scientific, Philosophical, and Political Developments
+
+
+SUGGESTED SKILL
+      Contextualization
+                                TOPIC 4.5
+4.A
+Identify and describe
+a historical context for
+                                18th-Century
+a specific historical
+development or process.         Culture and Arts
+
+ILLUSTRATIVE EXAMPLES
+Printed materials:
+                                Required Course Content
+ § Newspapers
+ § Periodicals
+ § Books                           THEMATIC FOCUS
+ § Pamphlets                       Cultural and Intellectual Developments CID
+ § The Encyclopédie                The creation and transmission of knowledge, including the relationship between
+Baroque artists and                traditional sources of authority and the development of differing world views, had
+musicians who promoted             significant political, intellectual, economic, cultural, and social effects on European
+religion or glorified              and world societies.
+monarchy:
+ § Diego Velásquez
+ § Gian Bernini
+                                   LEARNING OBJECTIVE                     HISTORICAL DEVELOPMENTS
+ § George Frideric Handel
+                                    Unit 4: Learning Objective F          KC-2.3.II.B
+ § J. S. Bach
+                                   Explain how European                   Despite censorship, increasingly numerous
+Artistic movements that            cultural and intellectual life         and varied printed materials served a growing
+reflected commercial
+                                   was maintained and changed             literate public and led to the development of
+society or Enlightenment
+                                   throughout the period from             public opinion.
+ideals:
+                                   1648 to 1815.                          KC-2.3.II.C
+ § Dutch painting
+ § Rembrandt                                                              Natural sciences, literature, and popular
+                                                                          culture increasingly exposed Europeans to
+ § Jan Vermeer
+                                                                          representations of peoples outside Europe
+ § Jacques-Louis David
+                                                                          and, on occasion, challenges to accepted
+ § Pantheon in Paris                                                      social norms.
+Literature that reflected
+commercial society or
+Enlightenment ideals:                                                                                    continued on next page
+ § Daniel Defoe
+ § Samuel Richardson
+ § Henry Fielding
+ § Johann Wolfgang
+   von Goethe
+ § Jane Austen
+
+
+
+
+                                                                                                              UNIT
+Scientific, Philosophical, and Political Developments
+                                                                                                                 4
+                                                                                                     ILLUSTRATIVE EXAMPLES
+                                                                                                     (CONT’D)
+   LEARNING OBJECTIVE                    HISTORICAL DEVELOPMENTS                                     A new concern for privacy:
+    Unit 4: Learning Objective F         KC-2.3.V                                                     § Homes built to include
+   Explain how European                  The arts moved from the celebration of religious               private retreats, such as
+   cultural and intellectual life        themes and royal power to an emphasis on                       the boudoir
+   was maintained and changed            private life and the public good.                            §§ Novels that encouraged
+   throughout the period from                                                                            a reflection on private
+                                            KC-2.3.V.A
+   1648 to 1815.                                                                                         emotion
+                                            Until about 1750, Baroque art and music
+                                                                                                     New consumer goods
+                                            promoted religious feeling and was employed              for homes:
+                                            by monarchs to illustrate state power.
+                                                                                                      §§ Porcelain dishes
+                                            KC-2.3.V.B                                                § Cotton and linens for
+                                            18th-century art and literature increasingly                home décor
+                                            reflected the outlook and values of                       §§ Mirrors
+                                            commercial and bourgeois society.                         § Prints
+                                            Neoclassicism expressed new Enlightenment
+                                                                                                     New leisure venues:
+                                            ideals of citizenship and political participation.
+                                                                                                      §§ Coffeehouses
+                                         KC-2.4.II                                                    §§ Taverns
+                                         The consumer revolution of the 18th century                  §§ Theaters and opera
+                                         was shaped by a new concern for privacy,                        houses
+                                         encouraged the purchase of new goods
+                                                                                                     AVAILABLE RESOURCES
+                                         for homes, and created new venues for
+                                                                                                      § Classroom Resource >
+                                         leisure activities.
+                                                                                                        Using Works of Art in
+                                                                                                        the AP Classroom: “Of
+                                                                                                        Palaces and Princes:
+                                                                                                        Understanding
+                                                                                                        Politics, Society, and
+                                                                                                        Architecture”
+                                                                                                      § Classroom Resource >
+                                                                                                        Whose History Is It?:
+                                                                                                        “Art as a Window to the
+                                                                                                        European World: The
+                                                                                                        Poor from the Fifteenth
+                                                                                                        to the Nineteenth
+                                                                                                        Centuries: Class and
+                                                                                                        Point of View”
+
+
+
+
+           UNIT
+
+            4                    Scientific, Philosophical, and Political Developments
+
+
+SUGGESTED SKILL
+      Sourcing and
+                                 TOPIC 4.6
+                                 Enlightened and Other
+      Situation
+2.B
+Explain the point of view,
+purpose, historical situation,
+and/or audience of a source.     Approaches to Power
+
+ILLUSTRATIVE EXAMPLES
+Enlightened monarchs:
+                                 Required Course Content
+ §§ Frederick II of Prussia
+ §§ Joseph II of Austria
+Prussian and Habsburg              THEMATIC FOCUS
+rulers:
+                                   States and Other Institutions of Power SOP
+ § Maria Theresa of Austria
+                                   European states and nations developed governmental and civil institutions from
+ § Frederick William I             1450 to the present to organize society and consolidate political power, with a
+   of Prussia
+                                   variety of social, cultural, and economic effects.
+ § Frederick II of Prussia
+AVAILABLE RESOURCE
+ §§                                LEARNING OBJECTIVE                    HISTORICAL DEVELOPMENTS
+  Using Works of Art in
+  the AP Classroom: “Of             Unit 4: Learning Objective G         KC-2.1.I.C
+  Palaces and Princes:             Explain how different forms           In the 18th century, a number of states in
+  Understanding                    of political power were               eastern and central Europe experimented
+  Politics, Society, and           influenced by Enlightenment           with enlightened absolutism.
+  Architecture”                    thought from 1648 to 1815.            KC-2.3.IV.C
+                                                                         By 1800, most governments in western and
+                                                                         central Europe had extended toleration to
+                                                                         Christian minorities and, in some states, civil
+                                                                         equality to Jews.
+
+
+
+
+                                   THEMATIC FOCUS
+                                   National and European Identity NEI
+                                   Definitions and perceptions of regional, cultural, national, and European identity have
+                                   developed and been challenged over time, with varied and often profound effects on
+                                   the political, social, and cultural order in Europe.
+
+
+
+                                   LEARNING OBJECTIVE                    HISTORICAL DEVELOPMENTS
+                                    Unit 4: Learning Objective H         KC-2.1.III.A
+                                   Explain how and why political         As a result of the Holy Roman Empire’s
+                                   and religious developments            limitation of sovereignty in the Peace of
+                                   challenged or reinforced the          Westphalia, Prussia rose to power, and the
+                                   idea of a unified Europe from         Habsburgs, centered in Austria, shifted
+                                   1648 to 1815.                         their empire eastward.
+
+
+
+                                                                                                              UNIT
+Scientific, Philosophical, and Political Developments
+                                                                                                               4
+TOPIC 4.7                                                                                            SUGGESTED SKILL
+                                                                                                           Argumentation
+
+
+Causation in the Age of                                                                              6.C
+                                                                                                     Use historical reasoning
+                                                                                                     to explain relationships
+
+the Scientific Revolution                                                                            among pieces of
+                                                                                                     historical evidence.
+
+
+
+and the Enlightenment
+The final topic in this unit focuses on the skill of argumentation and so provides an
+opportunity for your students to draw upon the key concepts and historical developments
+they have studied in this unit. Using evidence relevant to this unit’s key concepts, students
+should practice the suggested skill for this topic.
+
+
+Required Course Content
+
+   LEARNING OBJECTIVE                     REVIEW: UNIT 4 KEY CONCEPTS
+    Unit 4: Learning Objective I          KC-1.1
+   Explain how and why the                The rediscovery of works from ancient Greece
+   Scientific Revolution and              and Rome and observation of the natural world
+   Enlightenment challenged               changed many Europeans’ view of their world.
+   the existing European                      KC-1.1.IV
+   order and understanding
+                                              New ideas in science based on observation,
+   of the world.
+                                              experimentation, and mathematics
+                                              challenged classical views of the cosmos,
+                                              nature, and the human body, although
+                                              existing traditions of knowledge and the
+                                              universe continued.
+
+
+                                                                        continued on next page
+
+
+
+
+         UNIT
+
+          4                     Scientific, Philosophical, and Political Developments
+
+
+
+                                   LEARNING OBJECTIVE              REVIEW: UNIT 4 KEY CONCEPTS
+                                    Unit 4: Learning Objective I   KC-2.3
+                                   Explain how and why the         The spread of Scientific Revolution concepts
+                                   Scientific Revolution and       and practices and the Enlightenment’s
+                                   Enlightenment challenged        application of these concepts and practices
+                                   the existing European           to political, social, and ethical issues led to an
+                                   order and understanding         increased but not unchallenged emphasis on
+                                   of the world.                   reason in European culture.
+                                                                       KC-2.3.I
+                                                                       Enlightenment thought, which focused on
+                                                                       concepts such as empiricism, skepticism,
+                                                                       human reason, rationalism, and classical
+                                                                       sources of knowledge, challenged the
+                                                                       prevailing patterns of thought with respect
+                                                                       to social order, institutions of government,
+                                                                       and the role of faith.
+                                                                       KC-2.3.II
+                                                                       New public venues and print media
+                                                                       popularized Enlightenment ideas.
+                                                                       KC-2.3.III
+                                                                       New political and economic theories
+                                                                       challenged absolutism and mercantilism.
+                                                                       KC-2.3.IV
+                                                                       During the Enlightenment, the rational
+                                                                       analysis of religious practices led to
+                                                                       natural religion and the demand for
+                                                                       religious toleration.
+
+                                                                   KC-2.4
+                                                                   The experiences of everyday life were shaped
+                                                                   by demographic, environmental, medical, and
+                                                                   technological changes.
+                                                                       KC-2.4.III
+                                                                       By the 18th century, family and private life
+                                                                       reflected new demographic patterns and
+                                                                       the effects of the commercial revolution.
+
+
+
+
+===== HISTORICAL THINKING SKILLS (CED p. 16) =====
+1.A Identify a historical concept, development, or process.
+1.B Explain a historical concept, development, or process.
+2.A Identify a source's point of view, purpose, historical situation, and/or audience.
+2.B Explain the point of view, purpose, historical situation, and/or audience of a source.
+2.C Explain the significance of a source's point of view, purpose, historical situation, and/or audience, including how these might limit the use(s) of a source.
+3.A Identify and describe a claim and/or argument in a text-based or non-text-based source.
+3.B Identify the evidence used in a source to support an argument.
+3.C Compare the arguments or main ideas of two sources.
+3.D Explain how claims or evidence support, modify, or refute a source's argument.
+4.A Identify and describe a historical context for a specific historical development or process.
+4.B Explain how a specific historical development or process is situated within a broader historical context.
+5.A Identify patterns among or connections between historical developments and processes.
+5.B Explain how a historical development or process relates to another historical development or process.
+6.A-6.D Argumentation (assessed in free-response questions).
+Reasoning processes: Comparison, Causation, Continuity and Change.
+              Reasoning Processes
+Reasoning processes describe the cognitive operations that students will be required to apply when engaging with the
+historical thinking skills on the AP Exam. The reasoning processes ultimately represent the way practitioners think in the
+discipline. Specific aspects of the cognitive process are defined under each reasoning process.
+
+
+
+
+ Reasoning Process 1                         Reasoning Process 2                        Reasoning Process 3
+ Comparison                                  Causation                                  Continuity and Change
+
+  § 1.i: Describe similarities and/or        § 2.i: Describe causes and/or effects      § 3.i: Describe patterns of continuity
+    differences between different              of a specific historical development       and/or change over time.
+    historical developments                    or process.
+                                                                                        § 3.ii: Explain patterns of continuity
+    or processes.
+                                             § 2.ii: Explain the relationship between     and/or change over time.
+  § 1.ii: Explain relevant similarities        causes and effects of a specific
+                                                                                        § 3.iii: Explain the relative historical
+    and/or differences between                 historical development or process.
+                                                                                          significance of specific historical
+    specific historical developments
+                                             § 2.iii: Explain the difference              developments in relation to a larger
+    and processes.
+                                               between primary and secondary              pattern of continuity and/or change.
+  § 1.iii: Explain the relative historical     causes and between short- and
+    significance of similarities               long-term effects.
+    and/or differences between
+                                             § 2.iv: Explain how a relevant context
+    different historical developments
+                                               influenced a specific historical
+    or processes.
+                                               development or process.
+
+                                             § 2.v: Explain the relative historical
+                                               significance of different causes and/
+                                               or effects.
+
+
+
+
+AP European History Course and Exam Description                                                      Course Framework V.1 | 17
+                                                                                                       Return to Table of Contents
+                                                                                                                   © 2026 College Board
+THIS PAGE IS INTENTIONALLY LEFT BLANK.
+                            2             AP EUROPEAN HISTORY
+
+
+                                          Course

@@ -1,0 +1,393 @@
+# AP European History Unit 4 sources. Texts follow the public-domain editions saved in ae4/sources/raw/ and
+# documented in ae4/sources/*.md. Cuts are marked with ellipses; bracketed words are clarifications.
+# OCR slips in the scans were corrected against a second scan or the printed page where one exists (see the .md files).
+VERSION = "2026-11-08a"
+
+def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
+    d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
+    if translation: d["translation"] = translation
+    if footnotes: d["footnotes"] = footnotes
+    if glossary: d["glossary"] = glossary
+    d.update(kw)
+    return d
+
+def item(label, paragraphs, attribution, translation="", footnotes=None, glossary=None):
+    d = {"label": label, "paragraphs": paragraphs, "attribution": attribution}
+    if translation: d["translation"] = translation
+    if footnotes: d["footnotes"] = footnotes
+    if glossary: d["glossary"] = glossary
+    return d
+
+STIM = {
+# ============================== EXAM ==============================
+"X1": P([
+    "As therefore the Holy Scriptures in many places not only admit but actually require a different explanation from what seems to be the literal one, it seems to me that they ought to be reserved for the last place in mathematical discussions. For they, like nature, owe their origin to the Divine Word; … it was necessary, however, in Holy Scripture, in order to accommodate itself to the understanding of the majority, to say many things which apparently differ from the precise meaning. Nature, on the contrary, is inexorable and unchangeable, and cares not whether her hidden causes and modes of working are intelligible to the human understanding or not, and never deviates on that account from her prescribed laws. It appears to me therefore that no effect of nature, which experience places before our eyes, or is the necessary conclusion derived from evidence, should be rendered doubtful by passages of Scripture which contain thousands of words admitting of various interpretations …",
+    "Since two truths can obviously never contradict each other, it is the part of wise interpreters of Holy Scripture to take the pains to find out the real meaning of its statements, in accordance with the conclusions regarding nature which are quite certain, either from the clear evidence of sense or from necessary demonstration. … Who will set bounds to man's understanding? Who can assure us that everything that can be known in the world is known already? …",
+    "I am inclined to think that the authority of Holy Scripture is intended to convince men of those truths which are necessary for their salvation, and which being far above man's understanding cannot be made credible by any learning, or any other means than revelation by the Holy Spirit. But that the same God who has endowed us with senses, reason, and understanding, does not permit us to use them, and desires to acquaint us in any other way with such knowledge as we are in a position to acquire for ourselves by means of those faculties, that it seems to me I am not bound to believe, especially concerning those sciences about which the Holy Scriptures contain only small fragments and varying conclusions; and this is precisely the case with astronomy, of which there is so little that the planets are not even all enumerated."],
+    "Galileo Galilei, Italian mathematician and astronomer, letter to Benedetto Castelli, a Benedictine monk who taught mathematics at the University of Pisa, December 21, 1613",
+    "Translated in Karl von Gebler, Galileo Galilei and the Roman Curia, translated by Mrs. George Sturge (London, 1879); adapted",
+    glossary=[{"t": "Holy Scriptures", "d": "the Bible"},
+              {"t": "accommodate itself to", "d": "fit itself to"},
+              {"t": "inexorable", "d": "unable to be changed or moved by anyone"},
+              {"t": "demonstration", "d": "a step-by-step proof, as in mathematics"},
+              {"t": "revelation", "d": "truth made known directly by God"},
+              {"t": "faculties", "d": "powers of the mind and body"},
+              {"t": "enumerated", "d": "listed one by one"}]),
+
+"X2": {"type": "pair", "items": [
+    item("Source 1", [
+        "If woman is made to please and to be in subjection to man, she ought to make herself pleasing in his eyes and not provoke him to anger … A man has no one but himself to consider, and so long as he does right he may defy public opinion; but when a woman does right her task is only half finished, and what people think of her matters as much as what she really is. …",
+        "The children's health depends in the first place on the mother's, and the early education of man is also in a woman's hands; his morals, his passions, his tastes, his pleasures, his happiness itself, depend on her. A woman's education must therefore be planned in relation to man. To be pleasing in his sight, to win his respect and love, to train him in childhood, to tend him in manhood, to counsel and console, to make his life pleasant and happy, these are the duties of woman for all time, and this is what she should be taught while she is young."],
+        "Jean-Jacques Rousseau, philosopher born in Geneva who lived mostly in France, Emile, a book in the form of a novel about the education of a boy named Emile, 1762. This passage comes from Book V, about the education of the young woman Emile will marry.",
+        "Translated by Barbara Foxley (1911); adapted",
+        glossary=[{"t": "in subjection to", "d": "under the control of"},
+                  {"t": "defy", "d": "ignore or go against"},
+                  {"t": "tend", "d": "take care of"}]),
+    item("Source 2", [
+        "Custom may familiarise mankind with the violation of their natural rights to such an extent, that even among those who have lost or been deprived of these rights, no one thinks of reclaiming them, or is even conscious that they have suffered any injustice. …",
+        "Certain of these violations (of natural right) have escaped the notice of philosophers and legislators, even while concerning themselves zealously to establish the common rights of individuals of the human race, and in this way to lay the foundation of political institutions. For example, have they not all violated the principle of the equality of rights in tranquilly depriving one-half of the human race of the right of taking part in the formation of laws by the exclusion of women from the rights of citizenship? …",
+        "But the rights of men result simply from the fact that they are rational, sentient beings, susceptible of acquiring ideas of morality, and of reasoning concerning those ideas. Women having, then, the same qualities, have necessarily the same rights. Either no individual of the human species has any true rights, or all have the same; and he or she who votes against the rights of another, whatever may be his or her religion, colour, or sex, has by that fact abjured his own."],
+        "Marquis de Condorcet, French mathematician and philosopher, \"On the Admission of Women to the Rights of Citizenship,\" essay published in a Paris journal, July 1790",
+        "Translated by Alice Drysdale Vickery (1912); adapted",
+        glossary=[{"t": "familiarise", "d": "make used to"},
+                  {"t": "tranquilly", "d": "calmly"},
+                  {"t": "sentient", "d": "able to feel"},
+                  {"t": "susceptible of", "d": "able to take in"},
+                  {"t": "abjured", "d": "given up"}])]},
+
+"X3": {"type": "image",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/An_Experiment_on_a_Bird_in_an_Air_Pump_by_Joseph_Wright_of_Derby%2C_1768.jpg/960px-An_Experiment_on_a_Bird_in_an_Air_Pump_by_Joseph_Wright_of_Derby%2C_1768.jpg",
+    "width": 960, "height": 719,
+    "alt": "A dark room lit by one candle. A gray-haired man in a red robe stands behind a table with his hand on top of a glass globe that holds a white bird. A pump stands under the globe. Men, women, and children gather around the table; some watch closely and two girls look upset.",
+    "caption": "A gray-haired man in a red robe stands at a table in a private home at night. His hand rests on a valve at the top of a large glass globe, and a white bird lies at the bottom of the globe. Below the globe is a pump that can draw air out of it. Around the table, a family and their guests watch by the light of one candle. An older man points upward as he speaks to two girls, one of whom covers her eyes. A young couple looks at each other, a boy watches closely, and a man at right sits staring at the candle. At the window, a boy reaches up to an empty birdcage, and the moon shines outside.",
+    "attribution": "Joseph Wright of Derby, English painter, An Experiment on a Bird in the Air Pump, oil painting, 1768",
+    "credit": "National Gallery, London. Public domain image via Wikimedia Commons.",
+    "description": "An oil painting of a dark room lit only by a candle on a table. In the center, a gray-haired man with long hair, wearing a red robe, looks straight out at the viewer. His raised hand rests on the top of a large glass globe, and inside the globe a white cockatoo lies on its side at the bottom. Under the globe is a brass pump on a wooden stand. On the table in front is a glass bowl of liquid. At left, a young man and woman look at each other, a seated man watches the globe, and a small boy leans in to see. At right, an older man points upward as he speaks to two young girls; the younger girl looks up at the globe with worry, and the older one hides her face with her hand. A man at the far right rests his chin on his hand and stares at the candle. In the back right, a boy at a window reaches up to a hanging birdcage. A full moon shines through the window."},
+
+"X4": {"type": "bar",
+    "title": "Newspaper Copies Stamped or Sold in Britain, Selected Years, 1753–1792",
+    "categories": ["1753", "1760", "1775", "1782", "1792"],
+    "series": [{"name": "Copies sold (millions)", "values": [7.41, 9.46, 12.68, 15.27, 15.01]}],
+    "yLabel": "Millions of copies",
+    "text": "By law, each copy of a newspaper sold in Britain had to carry a government tax stamp. Andrews's figures for 1753, 1760, and 1775 are the numbers of stamps the government's Stamp Office issued to newspapers. His figures for 1782 and 1792 are yearly newspaper sales that he took from two encyclopedias. Andrews gives all the figures for the whole kingdom. Values are rounded to the nearest hundredth of a million.",
+    "source": "Alexander Andrews, The History of British Journalism, vol. 1 (London, 1859), pp. 211 and 236"},
+
+"X5": P([
+    "6. Russia is an European State. …",
+    "9. The Sovereign is absolute; for there is no other Authority but that which centers in his single Person, that can act with a Vigour proportionate to the Extent of such a vast Dominion. …",
+    "11. Every other Form of Government whatsoever would not only have been prejudicial to Russia, but would even have proved its entire Ruin. …",
+    "13. What is the true End of Monarchy? Not to deprive People of their natural Liberty; but to correct their Actions, in order to attain the supreme Good. …",
+    "34. The Equality of the Citizens consists in this; that they should all be subject to the same Laws. …",
+    "123. The Usage of Torture is contrary to all the Dictates of Nature and Reason; even Mankind itself cries out against it, and demands loudly the total Abolition of it. …",
+    "494. In such a State as Ours, which extends its Sovereignty over so many different Nations, to forbid, or not to allow them to profess different Modes of Religion, would greatly indanger the Peace and Security of its Citizens."],
+    "Catherine II, empress of Russia, Instruction to the commission she called together in 1767 to write a new code of laws for the Russian Empire. The numbers are the Instruction's own article numbers.",
+    "Translated by Michael Tatischeff (London, 1768); adapted",
+    glossary=[{"t": "Vigour", "d": "strength and energy"},
+              {"t": "Dominion", "d": "lands under one ruler"},
+              {"t": "prejudicial", "d": "harmful"},
+              {"t": "End", "d": "goal or purpose"},
+              {"t": "indanger", "d": "an old spelling of \"endanger\""}]),
+
+"X6": P([
+    "Population, when unchecked, increases in a geometrical ratio. Subsistence increases only in an arithmetical ratio. … By that law of our nature which makes food necessary to the life of man, the effects of these two unequal powers must be kept equal. …",
+    "The preventive check appears to operate in some degree through all the ranks of society in England. … The sons of tradesmen and farmers are exhorted not to marry, and generally find it necessary to pursue this advice till they are settled in some business or farm that may enable them to support a family. These events may not, perhaps, occur till they are far advanced in life. …",
+    "The labourer who earns eighteen pence a day and lives with some degree of comfort as a single man, will hesitate a little before he divides that pittance among four or five, which seems to be but just sufficient for one. … he must feel conscious, if he thinks at all, that should he have a large family, and any ill luck whatever, no degree of frugality, no possible exertion of his manual strength could preserve him from the heart-rending sensation of seeing his children starve, or of forfeiting his independence, and being obliged to the parish* for their support."],
+    "Thomas Robert Malthus, English clergyman and economist, An Essay on the Principle of Population, first edition, 1798",
+    "Adapted",
+    footnotes=[{"mark": "*", "text": "In England each parish, or local church district, collected a tax to pay for food, money, or housing for its poor."}],
+    glossary=[{"t": "geometrical ratio", "d": "growth by multiplying (1, 2, 4, 8, 16 …)"},
+              {"t": "arithmetical ratio", "d": "growth by adding (1, 2, 3, 4, 5 …)"},
+              {"t": "subsistence", "d": "the food people need to live"},
+              {"t": "exhorted", "d": "strongly urged"},
+              {"t": "pittance", "d": "a very small amount of money"},
+              {"t": "frugality", "d": "careful saving"}]),
+
+"X7": P([
+    "When we began this enterprise we looked forward only to those difficulties to which its extent and the variety of the subjects to be treated would give rise; but this proved to be a momentary illusion and we soon beheld the multitude of material obstacles which we had foreseen reenforced by an infinite number of intellectual hindrances for which we were in no way prepared. …",
+    "Among all the various forms of persecution inflicted, in all times and among all peoples, upon those who have yielded to the dangerous temptation of endeavoring to inscribe their names on the list of benefactors of the human race, there are almost none which have not been directed against us. … During twenty consecutive years we can look back to hardly a moment of rest. … How often have we risen uncertain whether, yielding to the cries of slander, we should not tear ourselves away from our relatives, friends, and fellow-citizens to seek the necessary peace and protection tendered us beneath a foreign sky. …",
+    "May general education advance with such rapidity during the coming twenty years that there will be in a thousand of our pages scarce a line that will not then be known to everybody! It is the duty of the masters of the world to hasten this happy consummation. It is they who extend or contract the horizon of knowledge. Happy the time when they come to understand that their safety lies in ruling over educated men! Attacks on the lives of sovereigns have always been made by blind fanatics. How can we complain of our difficulties and regret our years of labor if we can flatter ourselves that we have done even a little to weaken this mad spirit which is so hostile to social peace, and have encouraged our fellow-beings to love one another, tolerate one another, and recognize the superiority of universal reason over all individual systems which can only inspire hate, animosity, and disorder …"],
+    "Denis Diderot, French writer and chief editor of the Encyclopédie, preface to the last ten volumes of articles, which were issued together in 1765",
+    "Translated in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (1908); adapted",
+    glossary=[{"t": "enterprise", "d": "a large project"},
+              {"t": "benefactors", "d": "people who do good for others"},
+              {"t": "slander", "d": "false statements that hurt someone's name"},
+              {"t": "tendered", "d": "offered"},
+              {"t": "the masters of the world", "d": "those who rule nations"},
+              {"t": "consummation", "d": "completion"},
+              {"t": "individual systems", "d": "separate sets of beliefs held by rival groups"}]),
+
+"X8": P([
+    "France had long been the most literary of all the nations of Europe; although her literary men had never exhibited such intellectual powers as they displayed about the middle of the eighteenth century, or occupied such a position as that which they then assumed. … They were invested with no authority whatever, and filled no public offices in a society crowded with public officers; yet they did not, like the greater part of their brethren in Germany, keep entirely aloof from the arena of politics and retire into the regions of pure philosophy and polite literature. They busied themselves incessantly with matters appertaining to government, and this was, in truth, their special occupation. …",
+    "They all agreed that it was expedient to substitute simple and elementary rules, deduced from reason and natural law, for the complicated traditional customs which governed the society of their time. …",
+    "The sight of so many unjust or absurd privileges, the burden of which was more and more felt whilst their cause was less and less understood, urged, or rather precipitated, the minds of one and all towards the idea of the natural equality of man's condition. …",
+    "They had no idea of the perils which always accompany the most needful revolutions; they had not even a presentiment of them, for the complete absence of all political liberty had the effect of rendering the transaction of public affairs not only unknown to them, but even invisible. … Thus they became far more bold in innovation, more fond of generalising and of systems, more disdainful of the wisdom of antiquity, and still more confident in their individual reason, than is commonly to be seen in authors who write speculative books on politics.",
+    "The same state of ignorance opened to them the ears and hearts of the people. …"],
+    "Alexis de Tocqueville, French historian and politician, The Old Regime and the Revolution, 1856",
+    "Translated by Henry Reeve as The State of Society in France before the Revolution of 1789, 3rd edition (London, 1888); adapted",
+    glossary=[{"t": "literary men", "d": "writers"},
+              {"t": "aloof from", "d": "apart from"},
+              {"t": "appertaining to", "d": "having to do with"},
+              {"t": "expedient", "d": "useful; wise to do"},
+              {"t": "precipitated", "d": "pushed suddenly"},
+              {"t": "presentiment", "d": "feeling that something will happen"},
+              {"t": "speculative", "d": "based on theory rather than experience"}]),
+
+# ============================== PRACTICE ==============================
+"P1": {"type": "pair", "items": [
+    item("Source 1", [
+        "There are and can exist but two ways of investigating and discovering truth. The one hurries on rapidly from the senses and particulars to the most general axioms, and from them, as principles and their supposed indisputable truth, derives and discovers the intermediate axioms. This is the way now in use. The other constructs its axioms from the senses and particulars, by ascending continually and gradually, till it finally arrives at the most general axioms, which is the true but unattempted way. …",
+        "Those who have treated of the sciences have been either empirics or dogmatical. The former like ants only heap up and use their store, the latter like spiders spin out their own webs. The bee, a mean between both, extracts matter from the flowers of the garden and the field, but works and fashions it by its own efforts. The true labor of philosophy resembles hers …"],
+        "Francis Bacon, English philosopher and government official, Novum Organum (The New Instrument), written in Latin, 1620",
+        "English translation in the edition by Joseph Devey (New York, 1902); adapted",
+        glossary=[{"t": "particulars", "d": "single facts or cases"},
+                  {"t": "axioms", "d": "general rules or principles"},
+                  {"t": "empirics", "d": "people who only collect facts and experiences"},
+                  {"t": "dogmatical", "d": "people who reason only from fixed beliefs"},
+                  {"t": "a mean", "d": "a middle way"}]),
+    item("Source 2", [
+        "The first was never to accept anything for true which I did not clearly know to be such; that is to say, carefully to avoid precipitancy and prejudice, and to comprise nothing more in my judgement than what was presented to my mind so clearly and distinctly as to exclude all ground of doubt.",
+        "The second, to divide each of the difficulties under examination into as many parts as possible, and as might be necessary for its adequate solution.",
+        "The third, to conduct my thoughts in such order that, by commencing with objects the simplest and easiest to know, I might ascend by little and little, and, as it were, step by step, to the knowledge of the more complex …",
+        "The long chains of simple and easy reasonings by means of which geometers are accustomed to reach the conclusions of their most difficult demonstrations, had led me to imagine that all things, to the knowledge of which man is competent, are mutually connected in the same way …"],
+        "René Descartes, French philosopher and mathematician, Discourse on Method, written in French and published in the Dutch Republic, 1637. Descartes is listing rules he set for his own thinking.",
+        "Translated by John Veitch (1850); adapted",
+        glossary=[{"t": "precipitancy", "d": "rushing to a conclusion"},
+                  {"t": "geometers", "d": "mathematicians who study geometry"},
+                  {"t": "demonstrations", "d": "step-by-step proofs"}])]},
+
+"P2": P([
+    "… I profess both to learn and to teach anatomy, not from books but from dissections; not from the positions of philosophers but from the fabric of nature …",
+    "But what remains to be said upon the quantity and source of the blood which thus passes, is of so novel and unheard-of character, that I not only fear injury to myself from the envy of a few, but I tremble lest I have mankind at large for my enemies, so much doth wont and custom, that become as another nature, and doctrine once sown and that hath struck deep root, and respect for antiquity influence all men … I frequently and seriously bethought me, and long revolved in my mind, what might be the quantity of blood which was transmitted, in how short a time its passage might be effected, and the like; and not finding it possible that this could be supplied by the juices of the ingested aliment without the veins on the one hand becoming drained, and the arteries on the other getting ruptured through the excessive charge of blood, unless the blood should somehow find its way from the arteries into the veins, and so return to the right side of the heart; I began to think whether there might not be a MOTION, AS IT WERE, IN A CIRCLE. Now this I afterwards found to be true …"],
+    "William Harvey, English physician to King Charles I, On the Motion of the Heart and Blood in Animals, written in Latin, 1628. The first paragraph comes from the book's dedication to the president and members of the College of Physicians in London.",
+    "Translated by Robert Willis (1847), as printed in Everyman's Library (London: J. M. Dent, early 1900s); adapted",
+    glossary=[{"t": "dissections", "d": "cutting open bodies to study their parts"},
+              {"t": "the fabric of nature", "d": "how nature is actually built"},
+              {"t": "wont", "d": "habit"},
+              {"t": "antiquity", "d": "ancient times, and the writers of ancient Greece and Rome"},
+              {"t": "bethought me", "d": "thought"},
+              {"t": "ingested aliment", "d": "food that has been eaten"}]),
+
+"P3": P([
+    "A Frenchman who arrives in London, will find philosophy, like everything else, very much changed there. He had left the world a plenum, and he now finds it a vacuum. At Paris the universe is seen composed of vortices of subtile matter; but nothing like it is seen in London. In France, it is the pressure of the moon that causes the tides; but in England it is the sea that gravitates towards the moon … According to your Cartesians*, everything is performed by an impulsion, of which we have very little notion; and according to Sir Isaac Newton, it is by an attraction, the cause of which is as much unknown to us. …",
+    "This famous Newton, this destroyer of the Cartesian system, died in March, anno 1727. His countrymen honoured him in his lifetime, and interred him as though he had been a king who had made his people happy. …",
+    "Descartes was injuriously accused of being an atheist, the last refuge of religious scandal: and he who had employed all the sagacity and penetration of his genius, in searching for new proofs of the existence of a God, was suspected to believe there was no such Being. …",
+    "It was his** peculiar felicity, not only to be born in a country of liberty, but in an age when all scholastic impertinences were banished from the world. Reason alone was cultivated, and mankind could only be his pupil, not his enemy."],
+    "Voltaire (François-Marie Arouet), French writer, Letters on the English, Letter XIV, \"On Descartes and Sir Isaac Newton.\" Voltaire wrote the letters after living in England from 1726 to 1728. They were published in English in London in 1733 and in French in 1734.",
+    "English translation of 1733, as reprinted by Cassell and Company (London, 1894); adapted",
+    footnotes=[{"mark": "*", "text": "followers of René Descartes"},
+               {"mark": "**", "text": "Newton's"}],
+    glossary=[{"t": "plenum", "d": "space completely filled with matter"},
+              {"t": "vacuum", "d": "empty space"},
+              {"t": "vortices of subtile matter", "d": "whirlpools of an invisible fluid that Descartes said carried the planets around"},
+              {"t": "gravitates towards", "d": "is pulled toward"},
+              {"t": "impulsion", "d": "a push"},
+              {"t": "interred", "d": "buried"},
+              {"t": "injuriously", "d": "unfairly"},
+              {"t": "sagacity", "d": "wisdom"},
+              {"t": "felicity", "d": "good luck"},
+              {"t": "scholastic impertinences", "d": "the pointless arguments of old-fashioned university teachers"}]),
+
+"P4": P([
+    "The state of nature has a law of nature to govern it, which obliges every one: and reason, which is that law, teaches all mankind, who will but consult it, that being all equal and independent, no one ought to harm another in his life, health, liberty, or possessions …",
+    "MEN being, as has been said, by nature, all free, equal, and independent, no one can be put out of this estate, and subjected to the political power of another, without his own consent. …",
+    "… whenever the legislators endeavour to take away, and destroy the property of the people, or to reduce them to slavery under arbitrary power, they put themselves into a state of war with the people, who are thereupon absolved from any farther obedience … by this breach of trust they forfeit the power the people had put into their hands for quite contrary ends, and it devolves to the people, who have a right to resume their original liberty, and, by the establishment of a new legislative, (such as they shall think fit) provide for their own safety and security, which is the end for which they are in society."],
+    "John Locke, English philosopher, Two Treatises of Government, from the Second Treatise, published in London in 1690",
+    "Adapted",
+    glossary=[{"t": "state of nature", "d": "the condition of people before any government exists"},
+              {"t": "estate", "d": "condition"},
+              {"t": "legislators / legislative", "d": "lawmakers; the lawmaking body"},
+              {"t": "arbitrary", "d": "based on one person's will, not on law"},
+              {"t": "absolved from", "d": "freed from"},
+              {"t": "breach of trust", "d": "breaking of a promise"},
+              {"t": "forfeit", "d": "lose"},
+              {"t": "devolves", "d": "passes down"},
+              {"t": "end", "d": "purpose"}]),
+
+"P5": P([
+    "In every government there are three sorts of powers. … By virtue of the first, the prince, or magistrate, enacts temporary or perpetual laws, and amends or abrogates those that have been already enacted. By the second, he makes peace or war, sends or receives embassies, establishes the public security, and provides against invasions. By the third, he punishes criminals, or determines the disputes that arise between individuals. …",
+    "When the legislative and executive powers are united in the same person, or in the same body of magistrates, there can be no liberty, because apprehensions may arise lest the same monarch or senate should enact tyrannical laws, and then execute them in a tyrannical manner.",
+    "Again, there is no liberty if the judiciary power be not separated from the legislative and executive. …",
+    "There would be an end of everything, were the same man, or the same body, whether of the nobles or of the people, to exercise those three powers, — that of enacting laws, that of executing the public resolutions, and that of trying the suits of individuals.",
+    "Most kingdoms in Europe enjoy a moderate government, because the prince who is invested with the two first powers leaves the third to his subjects. In Turkey*, where these three powers are united in the sultan's person, the subjects groan under the most dreadful oppression."],
+    "Montesquieu (Charles-Louis de Secondat, baron de Montesquieu), French noble and former judge, The Spirit of the Laws, Book XI, 1748",
+    "English translation as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (1908); adapted",
+    footnotes=[{"mark": "*", "text": "the Ottoman Empire"}],
+    glossary=[{"t": "magistrate", "d": "government official"},
+              {"t": "abrogates", "d": "cancels"},
+              {"t": "embassies", "d": "official messengers to other rulers"},
+              {"t": "apprehensions", "d": "fears"},
+              {"t": "trying the suits", "d": "judging the court cases"}]),
+
+"P6": P([
+    "It is evident that the intent of punishments is not to torment a sensitive being nor to undo a crime already committed. … Can the groans of a tortured wretch recall the time past or reverse the crime he has committed?",
+    "The end of punishment therefore is no other than to prevent others from committing the like offense. …",
+    "No man can be judged a criminal until he be found guilty; nor can society take from him the public protection until it has been proved that he has violated the conditions on which it was granted. …",
+    "The punishment of death is pernicious to society from the examples of barbarity it affords. … Is it not absurd that the laws which detect and punish homicide should, in order to prevent murder, publicly commit murder themselves? …",
+    "How happy were mankind if laws were now to be first formed, now that we see on the thrones of Europe benevolent monarchs, friends to the virtues of peace, to the arts and sciences, fathers of their people, though crowned, yet citizens …"],
+    "Cesare Beccaria, Italian legal reformer from Milan, then ruled by the Habsburgs of Austria, On Crimes and Punishments, 1764",
+    "English translation published in Edinburgh in 1788, as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (1908); adapted",
+    glossary=[{"t": "torment", "d": "cause great pain to"},
+              {"t": "wretch", "d": "an unhappy or unlucky person"},
+              {"t": "end", "d": "purpose"},
+              {"t": "pernicious", "d": "harmful"},
+              {"t": "benevolent", "d": "kind; wishing to do good"}]),
+
+"P7": P([
+    "She was rich enough to make her house the rendezvous of literature and the arts; and seeing that this would afford her old age an amusing society and a respectable character in the world, Madame Geoffrin* had established at her house two weekly dinners, one on Monday for artists, another on Wednesday for men of letters. It is very remarkable that, though this woman had no knowledge either of the arts or of literature, and had never learned anything thoroughly in her life, yet, when placed in the midst of these two societies, she did not seem out of place. …",
+    "But her great art consisted in presiding, in watching, in keeping up her authority over two classes of men who are naturally fond of freedom. She set bounds, however, to this liberty, and by a word or a gesture, as by an invisible thread, could recall any one who attempted to escape. …",
+    "Nothing flattered her more than her intercourse with the great. She seldom visited them at their own houses (there she was not at her ease), but she had the art of drawing them to hers by a secret and imperceptible flattery."],
+    "Jean-François Marmontel, French writer and a regular guest at Madame Geoffrin's house in Paris in the 1750s and 1760s, Memoirs, written in the 1790s and published in 1804",
+    "English translation in Memoirs of Marmontel, vol. 1 (Paris, London, and New York: Société des Bibliophiles, 1900); adapted",
+    footnotes=[{"mark": "*", "text": "Marie-Thérèse Geoffrin (1699–1777), the widow of a rich Paris businessman"}],
+    glossary=[{"t": "rendezvous", "d": "meeting place"},
+              {"t": "men of letters", "d": "writers and scholars"},
+              {"t": "presiding", "d": "being in charge of a meeting"},
+              {"t": "intercourse with the great", "d": "friendship and contact with powerful nobles"},
+              {"t": "imperceptible", "d": "too small to notice"}]),
+
+"P8": P([
+    "The coffee house must not be dismissed with a cursory mention. It might indeed at that time have been not improperly called a most important political institution. No Parliament had sat for years. The municipal council of the City had ceased to speak the sense of the citizens. Public meetings, harangues, resolutions, and the rest of the modern machinery of agitation had not yet come into fashion. Nothing resembling the modern newspaper existed. In such circumstances the coffee houses were the chief organs through which the public opinion of the metropolis vented itself.",
+    "The first of these establishments had been set up by a Turkey merchant, who had acquired among the Mahometans* a taste for their favourite beverage. … Every man of the upper or middle class went daily to his coffee house to learn the news and to discuss it. … The Court had long seen with uneasiness the growth of this new power in the state. An attempt had been made, during Danby's administration, to close the coffee houses. But men of all parties missed their usual places of resort so much that there was an universal outcry. … Nobody was excluded from these places who laid down his penny at the bar. Yet every rank and profession, and every shade of religious and political opinion, had its own headquarters."],
+    "Thomas Babington Macaulay, British historian and politician, The History of England from the Accession of James II, vol. 1, 1848. Macaulay is describing London in 1685.",
+    "Adapted",
+    footnotes=[{"mark": "*", "text": "Macaulay's word for Muslims, which is no longer used"}],
+    glossary=[{"t": "cursory", "d": "quick and careless"},
+              {"t": "harangues", "d": "loud, angry speeches"},
+              {"t": "agitation", "d": "public campaigning for a cause"},
+              {"t": "the metropolis", "d": "London"},
+              {"t": "Turkey merchant", "d": "an English merchant who traded in the Ottoman Empire"},
+              {"t": "Danby's administration", "d": "the years 1674–1679, when the Earl of Danby was King Charles II's chief minister"},
+              {"t": "resort", "d": "meeting place"}]),
+
+"P9": P([
+    "In times when industry and the arts flourish, men are kept in perpetual occupation, and enjoy, as their reward, the occupation itself, as well as those pleasures which are the fruit of their labour. …",
+    "Another advantage of industry and of refinements in the mechanical arts, is, that they commonly produce some refinements in the liberal … The same age which produces great philosophers and politicians, renowned generals and poets, usually abounds with skilful weavers, and ship-carpenters. …",
+    "The more these refined arts advance, the more sociable men become … They flock into cities; love to receive and communicate knowledge; to show their wit or their breeding; their taste in conversation or living, in clothes or furniture. Curiosity allures the wise; vanity the foolish; and pleasure both. Particular clubs and societies are everywhere formed: both sexes meet in an easy and sociable manner; and the tempers of men, as well as their behaviour, refine apace. … Thus industry, knowledge, and humanity, are linked together, by an indissoluble chain, and are found, from experience as well as reason, to be peculiar to the more polished, and, what are commonly denominated, the more luxurious ages.",
+    "Nor are these advantages attended with disadvantages that bear any proportion to them. The more men refine upon pleasure, the less will they indulge in excesses of any kind; because nothing is more destructive to true pleasure than such excesses."],
+    "David Hume, Scottish philosopher and historian, \"Of Refinement in the Arts,\" essay first published in 1752 under the title \"Of Luxury\"",
+    "Text from Hume's Essays Moral, Political and Literary (London: Oxford University Press, World's Classics, 1904); adapted",
+    glossary=[{"t": "industry", "d": "hard work and making things"},
+              {"t": "the arts", "d": "here, skills and crafts of every kind"},
+              {"t": "mechanical arts", "d": "practical crafts, such as weaving"},
+              {"t": "the liberal", "d": "the liberal arts: learning, science, and literature"},
+              {"t": "allures", "d": "attracts"},
+              {"t": "apace", "d": "quickly"},
+              {"t": "humanity", "d": "kindness and good manners"},
+              {"t": "indissoluble", "d": "unbreakable"},
+              {"t": "attended with", "d": "followed by"},
+              {"t": "bear any proportion to", "d": "come close in size to"}]),
+
+"P10": {"type": "image",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Jacques-Louis_David%2C_Le_Serment_des_Horaces.jpg/960px-Jacques-Louis_David%2C_Le_Serment_des_Horaces.jpg",
+    "width": 960, "height": 740,
+    "alt": "A painting of three young men in ancient Roman armor stretching out their arms toward three swords held up by an older man, while women and children sit grieving at the right, in a stone hall with three arches.",
+    "caption": "In a plain stone hall with three arches, three brothers in ancient Roman helmets and armor stand side by side and stretch out their arms toward three swords. Their father holds the swords up in the center. At the right, the women of the family sit slumped together, weeping, while a woman in the back holds two small children close.",
+    "attribution": "Jacques-Louis David, French painter, The Oath of the Horatii, oil painting, 1784, first shown in Paris in 1785. The painting shows a scene from early Roman history",
+    "credit": "Musée du Louvre, Paris. Public domain image via Wikimedia Commons.",
+    "description": "A large oil painting with a sharp, clear style. The background is a simple stone hall with three round arches held up by plain columns. On the left, three young men in helmets with crests, short tunics, and cloaks stand close together in a line, one behind another. Each stretches an arm out straight toward the center; the man in front holds a spear in his other hand. In the center, an older bearded man in a red cloak raises three swords in one hand and lifts his other hand toward them. On the right, separate from the men, two young women sit slumped against each other with their heads bowed. Behind them, an older woman in a dark blue robe holds two small children."},
+
+"P11": P([
+    "A propos of distempers, I am going to tell you a thing that will make you wish yourself here. The small-pox, so fatal, and so general amongst us, is here entirely harmless, by the invention of ingrafting, which is the term they give it. There is a set of old women, who make it their business to perform the operation, every autumn, in the month of September, when the great heat is abated. … the old woman comes with a nutshell full of the matter of the best sort of small-pox, and asks what vein you please to have opened. She immediately rips open that you offer to her, with a large needle, (which gives you no more pain than a common scratch) and puts into the vein as much matter as can ly upon the head of her needle …",
+    "The children or young patients play together all the rest of the day, and are in perfect health to the eighth. Then the fever begins to seize them, and they keep their beds two days, very seldom three. … Every year thousands undergo this operation … There is no example of any one that has died in it; and you may believe I am well satisfied of the safety of this experiment, since I intend to try it on my dear little son.",
+    "I am patriot enough to take pains to bring this useful invention into fashion in England; and I should not fail to write to some of our doctors very particularly about it, if I knew any one of them that I thought had virtue enough to destroy such a considerable branch of their revenue, for the good of mankind."],
+    "Lady Mary Wortley Montagu, English writer and wife of the British ambassador to the Ottoman Empire, letter to a friend in England, written from the Ottoman city of Adrianople (Edirne), April 1, 1717; first published in 1763",
+    "Text from Letters of the Right Honourable Lady M—y W—y M—e (London, 1790); adapted",
+    glossary=[{"t": "A propos of distempers", "d": "speaking of diseases"},
+              {"t": "abated", "d": "lessened"},
+              {"t": "matter", "d": "pus taken from a sore"},
+              {"t": "ly", "d": "an old spelling of \"lie\""},
+              {"t": "to the eighth", "d": "until the eighth day"},
+              {"t": "revenue", "d": "income"}]),
+
+"P12": P([
+    "Yet the change between 1700 and 1800 was astonishing. England not only produced food for a population that had doubled itself, as well as grain for treble the number of horses, but during the first part of the period became, as M. de Lavergne* has said, the granary of Europe. … The standard of living improved. Instead of the salted carcases of half-starved and aged oxen, fresh meat began to be eaten by the peasantry. …",
+    "The great changes which English agriculture witnessed as the eighteenth century advanced, and particularly after the accession of George III. (1760), are, broadly speaking, identified with Jethro Tull, Lord Townshend, Bakewell of Dishley, Arthur Young, and Coke of Norfolk. With their names are associated the chief characteristics in the farming progress of the period, which may be summed up in the adoption of improved methods of cultivation, the introduction of new crops, the reduction of stock-breeding to a science, the provision of increased facilities of communication and of transport, and the enterprise and outlay of capitalist landlords and tenant-farmers. … Without the substitution of separate occupation for the ancient system of common cultivation, this agricultural progress was impossible. But in carrying out the necessary changes, rural society was convulsed, and its general conditions revolutionised. The divorce of the peasantry from the soil, and the extinction of commoners, open-field farmers, and eventually of small freeholders, were the heavy price which the nation ultimately paid for the supply of bread and meat to its manufacturing population."],
+    "Rowland E. Prothero (later Lord Ernle), British historian and politician, English Farming, Past and Present, 1912",
+    "Adapted",
+    footnotes=[{"mark": "*", "text": "Léonce de Lavergne, a French writer on farming in the 1800s"}],
+    glossary=[{"t": "treble", "d": "three times"},
+              {"t": "granary", "d": "storehouse for grain"},
+              {"t": "stock-breeding", "d": "raising farm animals"},
+              {"t": "outlay", "d": "money spent"},
+              {"t": "separate occupation", "d": "farms held and worked by a single owner or tenant"},
+              {"t": "common cultivation", "d": "the old village system in which each family farmed scattered strips of land side by side with its neighbors"},
+              {"t": "convulsed", "d": "shaken violently"},
+              {"t": "commoners", "d": "villagers with rights to graze animals and gather wood on village land"},
+              {"t": "freeholders", "d": "farmers who owned their own land"}]),
+
+"P13": {"type": "image",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/William_Hogarth%2C_Gin_Lane%2C_1751%2C_NGA_30433.jpg/960px-William_Hogarth%2C_Gin_Lane%2C_1751%2C_NGA_30433.jpg",
+    "width": 960, "height": 1150,
+    "alt": "A crowded black-and-white engraving of a London street with ruined buildings. In front, a drunken woman sitting on steps lets her baby fall over a railing. Around her, people drink, fight, pawn their goods, and lie ill.",
+    "caption": "A crowded street in a poor part of London. In front, a woman with sores on her legs sits on a stairway, smiling and too drunk to notice that her baby is falling over the railing. Below her, a very thin man slumps against the wall with a cup in his hand. At the upper left, people hand over tools and a kettle at a pawnbroker's shop. Behind, a crowd drinks and fights outside a shop with a sign shaped like a mug, buildings fall apart, and a body is laid in a coffin in the street. A sign over a cellar door at lower left reads \"Drunk for a Penny, Dead drunk for two pence, Clean Straw for Nothing.\" A church steeple rises in the distance. Lines of verse under the picture begin \"Gin, cursed Fiend, with Fury fraught, / Makes human Race a Prey.\"",
+    "attribution": "William Hogarth, English painter and engraver, Gin Lane, engraving sold as a print in London, 1751",
+    "credit": "National Gallery of Art, Washington. Public domain image via Wikimedia Commons.",
+    "description": "A detailed black-and-white engraving of a London street. In the front center, a half-dressed woman with sores on her legs sits on a staircase, grinning, as her baby slips out of her arms and falls over the stair railing. At the bottom right, a skeleton-thin man sits slumped with a cup and a basket. At the bottom left, a man and a dog gnaw on the same bone, and a large mug labeled \"Gin Royal\" hangs over a cellar door with a sign about being drunk for a penny. At the upper left, a carpenter and a woman hand a saw and a kettle to a pawnbroker. In the middle of the street, crowds drink and fight, and a woman's body is laid in a coffin. On the right, houses are falling down, and in an upper room of a ruined house a body hangs from a beam. In the distance, a church steeple stands above the rooftops. Verses are printed under the picture."},
+
+"P14": P([
+    "We have remarked that men have granted preeminence to one of their equals, in expectation that he should do them certain services. These services consist in the maintenance of the laws, a strict execution of justice, an employment of his whole powers to prevent any corruption of manners, and defending the State against its enemies. It is the duty of this magistrate to pay attention to agriculture; it should be his care that provisions for the nation should be in abundance, and that commerce and industry should be encouraged. He is a perpetual sentinel, who must watch the acts and the conduct of the enemies of the State. …",
+    "Princes and monarchs, therefore, are not invested with supreme authority that they may, with impunity, riot in debauchery and voluptuousness. …",
+    "But neither politics nor the army can prosper if the finances are not kept in the greatest order, and if the prince himself be not a prudent economist. …",
+    "The monarch is only the first servant of the State, who is obliged to act with probity and prudence, and to remain as totally disinterested as if he were each moment liable to render an account of his administration to his fellow-citizens."],
+    "Frederick II, king of Prussia from 1740 to 1786, \"Essay on the Forms of Government and on the Duties of Sovereigns,\" written in French in 1777",
+    "Translated by Thomas Holcroft in Posthumous Works of Frederic II, King of Prussia, vol. 5 (London, 1789), as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (1908); adapted",
+    glossary=[{"t": "preeminence", "d": "the highest rank"},
+              {"t": "corruption of manners", "d": "bad behavior and loss of good morals"},
+              {"t": "magistrate", "d": "here, the ruler"},
+              {"t": "sentinel", "d": "guard"},
+              {"t": "with impunity", "d": "without being punished"},
+              {"t": "debauchery and voluptuousness", "d": "wild living and a love of pleasure"},
+              {"t": "probity", "d": "honesty"},
+              {"t": "disinterested", "d": "not acting for his own gain"}]),
+
+"P15": P([
+    "A great many foreigners, from various causes, cannot have a just notion of the authority that is exercised in France by public opinion. They cannot comprehend the nature of an invisible power which, destitute of treasury, of guards and armies, dictates its laws in the capital, in the court, and even in the king's palace. Nevertheless nothing is more true nor more remarkable …",
+    "I will go still farther: it is the ascendency of public opinion that opposes more obstacles in France to the abuse of power than any other consideration whatsoever. Yes, it is entirely by that opinion, and the esteem in which it is still held, that the nation has a kind of influence, by having it in its power to reward with praise, or punish with contempt. If ever that opinion is entirely despised, or if it ever grows too weak, then liberty will lose its principal support, and there will be a greater necessity than ever that the sovereign should be virtuous and his ministers moderate."],
+    "Jacques Necker, banker from Geneva who served as director-general of finances for King Louis XVI of France from 1777 to 1781, On the Administration of the Finances of France, 1784",
+    "English translation as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (1908); adapted",
+    glossary=[{"t": "a just notion", "d": "a correct idea"},
+              {"t": "comprehend", "d": "understand"},
+              {"t": "destitute of", "d": "without"},
+              {"t": "ascendency", "d": "power or control"},
+              {"t": "contempt", "d": "scorn"}]),
+
+"P16": P([
+    "There are some who say that, if we treated with paternal indulgence those erring brethren who pray to God in bad French [instead of bad Latin], we should be putting weapons in their hands, and would once more witness the battles of Jarnac, Moncontour, Coutras, Dreux, and St. Denis*. I do not know anything about this, as I am not a prophet; but it seems to me an illogical piece of reasoning to say: \"These men rebelled when I treated them ill, therefore they will rebel when I treat them well.\" …",
+    "The Huguenots, it is true, have been as inebriated with fanaticism and stained with blood as we. But are this generation as barbaric as their fathers? Have not time, the progress of reason, good books, and the humanising influence of society had an effect on the leaders of these people? And do we not perceive that the aspect of nearly the whole of Europe has been changed within the last fifty years? …",
+    "The rage that is inspired by the dogmatic spirit and the abuse of the Christian religion, wrongly conceived, has shed as much blood and led to as many disasters in Germany, England, and even Holland, as in France. Yet religious difference causes no trouble to-day in those States. The Jew, the Catholic, the Greek, the Lutheran, the Calvinist, the Anabaptist, the Socinian, the Memnonist, the Moravian, and so many others, live like brothers in these countries, and contribute alike to the good of the social body. …"],
+    "Voltaire, French writer, Treatise on Toleration, 1763",
+    "Translated by Joseph McCabe in Voltaire, Toleration and Other Essays (New York, 1912); the words in brackets are McCabe's; adapted",
+    footnotes=[{"mark": "*", "text": "battles of the French Wars of Religion, fought between Catholics and Huguenots (French Calvinists) from 1562 to 1587"}],
+    glossary=[{"t": "paternal indulgence", "d": "the gentle patience of a father"},
+              {"t": "erring brethren", "d": "brothers who have gone wrong"},
+              {"t": "inebriated", "d": "drunk"},
+              {"t": "fanaticism", "d": "wild, extreme belief that does not listen to reason"},
+              {"t": "the Greek", "d": "a member of the Greek Orthodox Church"},
+              {"t": "Socinian, Memnonist, Moravian", "d": "members of small Protestant groups (the Memnonists are now called Mennonites)"}]),
+}
+
+# Raw files used by the excerpt checker (not part of the bank).
+RAWMAP = {
+    "X1": ["gebler1879_cu31924012301754.txt"],
+    "X2.1": ["gut_pg5427.txt"], "X2.2": ["gut_pg31550.txt"],
+    "X5": ["catherine1768_nakaz_tatischeff.txt", "alt/fordham_18catherine_nakaz.txt"],
+    "X6": ["gut_pg4239.txt"],
+    "X7": ["rb1908v1_cu31924088053818.txt"],
+    "X8": ["gut_pg54187.txt", "tocqueville_reeve1888_stateofsocietyin00tocquoft.txt"],
+    "P1.1": ["gut_pg45988.txt"], "P1.2": ["gut_pg59.txt"],
+    "P2": ["gut_pg67065.txt"],
+    "P3": ["gut_pg2445.txt"],
+    "P4": ["gut_pg7370.txt"],
+    "P5": ["rb1908v1_cu31924088053818.txt"],
+    "P6": ["rb1908v1_cu31924088053818.txt"],
+    "P7": ["marmontel1900v1_memoirsofmarmont01marmiala.txt"],
+    "P8": ["gut_pg1468.txt"],
+    "P9": ["hume1904_essaysmoralpolit00humeuoft.txt"],
+    "P11": ["gut_pg17520.txt"],
+    "P12": ["prothero1912_cu31924074276464.txt"],
+    "P14": ["rb1908v1_cu31924088053818.txt"],
+    "P15": ["rb1908v1_cu31924088053818.txt"],
+    "P16": ["gut_pg64858.txt"],
+}
+
+STIM = {k: v for k, v in STIM.items() if v is not None}
