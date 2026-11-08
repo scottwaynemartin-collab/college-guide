@@ -7,7 +7,7 @@
 # (PRC: Copyright Law art. 5; Vietnam: Law on Intellectual Property art. 15; Russia: Civil Code
 # art. 1259(6)); (d) official records and documents of the United Nations and other intergovernmental
 # bodies; (e) UK legislation under the Open Government Licence v3.0. Images are U.S. military photographs.
-VERSION = "2026-11-08c"
+VERSION = "2026-11-08f"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -35,7 +35,7 @@ STIM = {
     "I believe that it must be the policy of the United States to support free peoples who are resisting attempted subjugation by armed minorities or by outside pressures. … I believe that our help should be primarily through economic and financial aid which is essential to economic stability and orderly political processes. …",
     "I therefore ask the Congress to provide authority for assistance to Greece and Turkey in the amount of $400,000,000 for the period ending June 30, 1948."],
     "Harry S. Truman, president of the United States, address to a joint session of the U.S. Congress, March 12, 1947",
-    "Adapted",
+    "From Public Papers of the Presidents of the United States: Harry S. Truman, 1947; adapted",
     glossary=[{"t": "liquidating", "d": "ending; getting rid of"},
               {"t": "commitments", "d": "promises of help and duties a country has taken on"},
               {"t": "institutions", "d": "organized parts of a society, such as courts, parliaments, and newspapers"},
@@ -43,23 +43,21 @@ STIM = {
 
 "X2": {"type": "pair", "items": [
     item("Source 1", [
-        "I understand your concern for the security of the United States, Mr. President, because this is the primary duty of a President. But we too are disturbed about these same questions; I bear these same obligations as Chairman of the Council of Ministers of the U.S.S.R. You have been alarmed by the fact that we have aided Cuba with weapons, in order to strengthen its defense capability—precisely defense capability—because whatever weapons it may possess, Cuba cannot be equated with you since the difference in magnitude is so great, particularly in view of modern means of destruction. Our aim has been and is to help Cuba, and no one can dispute the humanity of our motives, which are oriented toward enabling Cuba to live peacefully and develop in the way its people desire.",
-        "You wish to ensure the security of your country, and this is understandable. But Cuba, too, wants the same thing; all countries want to maintain their security. But how are we, the Soviet Union, our Government, to assess your actions which are expressed in the fact that you have surrounded the Soviet Union with military bases; surrounded our allies with military bases; placed military bases literally around our country; and stationed your missile armaments there? … Your missiles are located in Britain, are located in Italy, and are aimed against us. Your missiles are located in Turkey.",
+        "… You have been alarmed by the fact that we have aided Cuba with weapons, in order to strengthen its defense capability—precisely defense capability—because whatever weapons it may possess, Cuba cannot be equated with you since the difference in magnitude is so great, particularly in view of modern means of destruction. Our aim has been and is to help Cuba, and no one can dispute the humanity of our motives, which are oriented toward enabling Cuba to live peacefully and develop in the way its people desire.",
+        "… Your missiles are located in Britain, are located in Italy, and are aimed against us. Your missiles are located in Turkey.",
         "You are disturbed over Cuba. You say that this disturbs you because it is 90 miles by sea from the coast of the United States of America. But Turkey adjoins us; our sentries patrol back and forth and see each other. … I therefore make this proposal: We are willing to remove from Cuba the means which you regard as offensive. We are willing to carry this out and to make this pledge in the United Nations. Your representatives will make a declaration to the effect that the United States, for its part, considering the uneasiness and anxiety of the Soviet State, will remove its analogous means from Turkey. …"],
         "Letter from Nikita Khrushchev, leader of the Soviet Union, to President John F. Kennedy of the United States, Moscow, October 27, 1962. The letter was also broadcast on Moscow radio.",
         "Official translation prepared by the U.S. Department of State, printed in Foreign Relations of the United States, 1961–1963, vol. VI (Washington, D.C., 1996); adapted",
-        glossary=[{"t": "Chairman of the Council of Ministers", "d": "head of the Soviet government"},
-                  {"t": "equated with", "d": "treated as equal to"},
+        glossary=[{"t": "equated with", "d": "treated as equal to"},
                   {"t": "magnitude", "d": "size"},
                   {"t": "adjoins", "d": "is next to; borders"},
                   {"t": "analogous means", "d": "similar weapons"}]),
     item("Source 2", [
-        "I have read your letter of October 26th with great care and welcomed the statement of your desire to seek a prompt solution to the problem. The first thing that needs to be done, however, is for work to cease on offensive missile bases in Cuba and for all weapons systems in Cuba capable of offensive use to be rendered inoperable, under effective United Nations arrangements. …",
         "As I read your letter, the key elements of your proposals—which seem generally acceptable as I understand them—are as follows: 1) You would agree to remove these weapons systems from Cuba under appropriate United Nations observation and supervision; and undertake, with suitable safeguards, to halt the further introduction of such weapons systems into Cuba. 2) We, on our part, would agree … (a) to remove promptly the quarantine measures now in effect and (b) to give assurances against an invasion of Cuba. …",
         "But the first ingredient, let me emphasize, is the cessation of work on missile sites in Cuba and measures to render such weapons inoperable, under effective international guarantees. The continuation of this threat, or a prolonging of this discussion concerning Cuba by linking these problems to the broader questions of European and world security, would surely lead to an intensification of the Cuban crisis and a grave risk to the peace of the world."],
         "Letter from President John F. Kennedy to Nikita Khrushchev, Washington, D.C., October 27, 1962, answering an earlier private letter from Khrushchev dated October 26. The White House released the letter to the press.",
         "Printed in Foreign Relations of the United States, 1961–1963, vol. VI (Washington, D.C., 1996); adapted",
-        glossary=[{"t": "rendered inoperable", "d": "made unable to work"},
+        glossary=[{"t": "inoperable", "d": "unable to work"},
                   {"t": "quarantine measures", "d": "the U.S. Navy's blockade that stopped ships carrying weapons to Cuba"},
                   {"t": "assurances", "d": "promises"},
                   {"t": "cessation", "d": "stopping"}])]},
@@ -120,17 +118,13 @@ STIM = {
               {"t": "rich-peasant economy", "d": "farming by peasants who owned extra land and hired others to work it"}]),
 
 "X7": P([
-    "The Asian-African Conference considered problems of common interest and concern to countries of Asia and Africa and discussed ways and means by which their people could achieve fuller economic, cultural and political co-operation.",
-    "[A. Economic co-operation] 1. The Asian-African Conference recognized the urgency of promoting economic development in the Asian-African region. … The proposals with regard to economic co-operation within the participating countries do not preclude either the desirability or the need for co-operation with countries outside the region, including the investment of foreign capital. …",
-    "5. The Asian-African Conference recommended that collective action be taken by participating countries for stabilizing international prices of and demand for primary commodities through bilateral and multilateral arrangements, … 6. The Asian-African Conference further recommended that: Asian-African countries should diversify their export trade by processing their raw material, wherever economically feasible, before export; …",
+    "[A. Economic co-operation] … 5. The Asian-African Conference recommended that collective action be taken by participating countries for stabilizing international prices of and demand for primary commodities through bilateral and multilateral arrangements, …",
     "[D. Problems of dependent peoples] … 2. In view of the unsettled situation in North Africa and of the persisting denial to the peoples of North Africa of their right to self-determination, the Asian-African Conference declared its support of the rights of the people of Algeria, Morocco and Tunisia to self-determination and independence and urged the French Government to bring about a peaceful settlement of the issue without delay.",
     "[G. Declaration on promotion of world peace and co-operation] … nations should practise tolerance and live together in peace with one another as good neighbours and develop friendly co-operation on the basis of the following principles: … 4. Abstention from intervention or interference in the internal affairs of another country. 5. Respect for the right of each nation to defend itself singly or collectively, in conformity with the Charter of the United Nations. 6. (A) Abstention from the use of arrangements of collective defence to serve the particular interests of any of the big powers. (B) Abstention by any country from exerting pressures on other countries. …"],
     "Final Communiqué of the Asian-African Conference, adopted by the governments of 29 Asian and African countries that met at Bandung, Indonesia, April 24, 1955: from sections A, D, and G",
     "Issued in English. Text as printed in China and the Asian-African Conference (Documents) (Peking: Foreign Languages Press, 1955); adapted",
-    glossary=[{"t": "preclude", "d": "rule out"},
-              {"t": "primary commodities", "d": "raw materials and farm crops sold to other countries, such as rubber, copper, and coffee"},
+    glossary=[{"t": "primary commodities", "d": "raw materials and farm crops sold to other countries, such as rubber, copper, and coffee"},
               {"t": "bilateral and multilateral arrangements", "d": "agreements between two countries, or among many"},
-              {"t": "diversify", "d": "add more kinds of products"},
               {"t": "self-determination", "d": "a people's right to choose its own government"},
               {"t": "Abstention", "d": "holding back from doing something"},
               {"t": "collective defence", "d": "an agreement in which countries promise to defend one another"},
@@ -253,9 +247,9 @@ STIM = {
     "width": 960, "height": 928,
     "alt": "A black-and-white aerial photograph of cleared, rutted ground among palm trees and fields, with a title box and white labels connected by lines to objects on the ground.",
     "caption": "An aerial photograph of cleared, rutted ground among palm trees and fields. A box at the top reads \"MRBM LAUNCH SITE 2, SAN CRISTOBAL, 1 NOVEMBER 1962.\" Lines drawn on the photograph point to labels that read \"MISSILE-READY TENT,\" \"FORMER LAUNCH POSITIONS,\" \"FUEL TRAILERS,\" and \"FORMER LOCATION OF MISSILE-READY TENTS.\"",
-    "attribution": "U.S. military reconnaissance photograph taken from a low-flying plane over San Cristóbal, Cuba, November 1, 1962, with labels added by U.S. intelligence analysts",
+    "attribution": "U.S. military aerial reconnaissance photograph of a missile site near San Cristóbal, Cuba, November 1, 1962, with labels added by U.S. intelligence analysts",
     "credit": "Public domain image (U.S. military photograph, U.S. National Archives) via Wikimedia Commons.",
-    "description": "A black-and-white photograph taken from a low-flying airplane, looking down at an angle. Tall palm trees and patches of dark trees surround a large area of bare, rutted ground crossed by a straight dirt road. A white title box at the upper left reads \"MRBM LAUNCH SITE 2, SAN CRISTOBAL, 1 NOVEMBER 1962.\" Thin white lines connect small white labels to spots on the ground: a single standing tent (\"MISSILE-READY TENT\"), two bare patches (\"FORMER LAUNCH POSITIONS\"), a group of parked tanker trucks (\"FUEL TRAILERS\"), and two places with only marks left on the ground (\"FORMER LOCATION OF MISSILE-READY TENTS\").",
+    "description": "A black-and-white photograph taken from an airplane, looking down at an angle. Tall palm trees and patches of dark trees surround a large area of bare, rutted ground crossed by a straight dirt road. A white title box at the upper left reads \"MRBM LAUNCH SITE 2, SAN CRISTOBAL, 1 NOVEMBER 1962.\" Thin white lines connect small white labels to spots on the ground: a single standing tent (\"MISSILE-READY TENT\"), two bare patches (\"FORMER LAUNCH POSITIONS\"), a group of parked tanker trucks (\"FUEL TRAILERS\"), and two places with only marks left on the ground (\"FORMER LOCATION OF MISSILE-READY TENTS\").",
     "glossary": [{"t": "reconnaissance", "d": "flying over or watching an area to gather military information"},
                  {"t": "MRBM", "d": "medium-range ballistic missile"},
                  {"t": "missile-ready tent", "d": "a tent where missiles were kept ready to be raised for launch"}]},
@@ -360,7 +354,7 @@ STIM = {
         "3. … With the exception of Transjordan, … the Arab states are reluctant to accept refugees for permanent resettlement for political as well as economic reasons. They take the position that Israel, and to a lesser extent the United Nations and the United States, created the problem and are responsible for its solution. They feel that this should be through repatriation, in accordance with Article 11 of the General Assembly Resolution of December 11, 1948.* The Israelis, on the other hand, are reluctant to repatriate any large number of refugees because of economic and security considerations, and because of the need for land to carry out their planned Jewish immigration program. The Israelis take the position that the problem was created by the invasion of the Arab states, and must be solved by resettlement."],
         "Paper prepared in the office of George McGhee, the U.S. State Department's coordinator on Palestine refugee matters, attached to his memorandum to the secretary of state of April 22, 1949, Washington, D.C. (this version of the paper is dated April 27, 1949)",
         "Printed in Foreign Relations of the United States, 1949, vol. VI (Washington, D.C., 1977); adapted",
-        footnotes=[{"mark": "*", "text": "United Nations General Assembly Resolution 194. Its Article (paragraph) 11 said that refugees who wished to return to their homes and live at peace with their neighbors should be allowed to do so, and that those who chose not to return should be paid for their property."}],
+        footnotes=[{"mark": "*", "text": "United Nations General Assembly Resolution 194, paragraph 11, said that refugees wishing to return home and live at peace with their neighbors should be permitted to do so at the earliest practicable date. It also called for compensation for the property of those choosing not to return and for certain property losses or damage."}],
         glossary=[{"t": "destitute", "d": "having no money or home"},
                   {"t": "bonafide", "d": "real; genuine"},
                   {"t": "repatriated", "d": "sent back to their homeland"},

@@ -1,0 +1,2951 @@
+{
+ "unit": 8,
+ "title": "Cold War and Decolonization",
+ "period": "c. 1900–present",
+ "examWeighting": "8–10%",
+ "blurb": "The Cold War and its proxy wars, the spread of communism, decolonization and the new states that followed, resistance movements, and the end of the Cold War.",
+ "version": "2026-11-08f",
+ "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP World CED (Unit 8: Learning Objectives A-K).",
+ "topics": [
+  {
+   "id": "8.1",
+   "name": "Setting the Stage for the Cold War and Decolonization",
+   "lo": [
+    "A"
+   ]
+  },
+  {
+   "id": "8.2",
+   "name": "The Cold War",
+   "lo": [
+    "B"
+   ]
+  },
+  {
+   "id": "8.3",
+   "name": "Effects of the Cold War",
+   "lo": [
+    "C"
+   ]
+  },
+  {
+   "id": "8.4",
+   "name": "Spread of Communism After 1900",
+   "lo": [
+    "D",
+    "E"
+   ]
+  },
+  {
+   "id": "8.5",
+   "name": "Decolonization After 1900",
+   "lo": [
+    "F"
+   ]
+  },
+  {
+   "id": "8.6",
+   "name": "Newly Independent States",
+   "lo": [
+    "G",
+    "H"
+   ]
+  },
+  {
+   "id": "8.7",
+   "name": "Global Resistance to Established Power Structures After 1900",
+   "lo": [
+    "I"
+   ]
+  },
+  {
+   "id": "8.8",
+   "name": "End of the Cold War",
+   "lo": [
+    "J"
+   ]
+  },
+  {
+   "id": "8.9",
+   "name": "Causation in the Age of the Cold War and Decolonization",
+   "lo": [
+    "K"
+   ]
+  }
+ ],
+ "stimuli": {
+  "X1": {
+   "type": "passage",
+   "paragraphs": [
+    "The very existence of the Greek state is today threatened by the terrorist activities of several thousand armed men, led by Communists, who defy the government's authority at a number of points, particularly along the northern boundaries. …",
+    "The British Government, which has been helping Greece, can give no further financial or economic aid after March 31. Great Britain finds itself under the necessity of reducing or liquidating its commitments in several parts of the world, including Greece. …",
+    "At the present moment in world history nearly every nation must choose between alternative ways of life. The choice is too often not a free one.",
+    "One way of life is based upon the will of the majority, and is distinguished by free institutions, representative government, free elections, guarantees of individual liberty, freedom of speech and religion, and freedom from political oppression.",
+    "The second way of life is based upon the will of a minority forcibly imposed upon the majority. It relies upon terror and oppression, a controlled press and radio; fixed elections, and the suppression of personal freedoms.",
+    "I believe that it must be the policy of the United States to support free peoples who are resisting attempted subjugation by armed minorities or by outside pressures. … I believe that our help should be primarily through economic and financial aid which is essential to economic stability and orderly political processes. …",
+    "I therefore ask the Congress to provide authority for assistance to Greece and Turkey in the amount of $400,000,000 for the period ending June 30, 1948."
+   ],
+   "attribution": "Harry S. Truman, president of the United States, address to a joint session of the U.S. Congress, March 12, 1947",
+   "translation": "From Public Papers of the Presidents of the United States: Harry S. Truman, 1947; adapted",
+   "glossary": [
+    {
+     "t": "liquidating",
+     "d": "ending; getting rid of"
+    },
+    {
+     "t": "commitments",
+     "d": "promises of help and duties a country has taken on"
+    },
+    {
+     "t": "institutions",
+     "d": "organized parts of a society, such as courts, parliaments, and newspapers"
+    },
+    {
+     "t": "subjugation",
+     "d": "being brought under someone else's control"
+    }
+   ]
+  },
+  "X2": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "… You have been alarmed by the fact that we have aided Cuba with weapons, in order to strengthen its defense capability—precisely defense capability—because whatever weapons it may possess, Cuba cannot be equated with you since the difference in magnitude is so great, particularly in view of modern means of destruction. Our aim has been and is to help Cuba, and no one can dispute the humanity of our motives, which are oriented toward enabling Cuba to live peacefully and develop in the way its people desire.",
+      "… Your missiles are located in Britain, are located in Italy, and are aimed against us. Your missiles are located in Turkey.",
+      "You are disturbed over Cuba. You say that this disturbs you because it is 90 miles by sea from the coast of the United States of America. But Turkey adjoins us; our sentries patrol back and forth and see each other. … I therefore make this proposal: We are willing to remove from Cuba the means which you regard as offensive. We are willing to carry this out and to make this pledge in the United Nations. Your representatives will make a declaration to the effect that the United States, for its part, considering the uneasiness and anxiety of the Soviet State, will remove its analogous means from Turkey. …"
+     ],
+     "attribution": "Letter from Nikita Khrushchev, leader of the Soviet Union, to President John F. Kennedy of the United States, Moscow, October 27, 1962. The letter was also broadcast on Moscow radio.",
+     "translation": "Official translation prepared by the U.S. Department of State, printed in Foreign Relations of the United States, 1961–1963, vol. VI (Washington, D.C., 1996); adapted",
+     "glossary": [
+      {
+       "t": "equated with",
+       "d": "treated as equal to"
+      },
+      {
+       "t": "magnitude",
+       "d": "size"
+      },
+      {
+       "t": "adjoins",
+       "d": "is next to; borders"
+      },
+      {
+       "t": "analogous means",
+       "d": "similar weapons"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "As I read your letter, the key elements of your proposals—which seem generally acceptable as I understand them—are as follows: 1) You would agree to remove these weapons systems from Cuba under appropriate United Nations observation and supervision; and undertake, with suitable safeguards, to halt the further introduction of such weapons systems into Cuba. 2) We, on our part, would agree … (a) to remove promptly the quarantine measures now in effect and (b) to give assurances against an invasion of Cuba. …",
+      "But the first ingredient, let me emphasize, is the cessation of work on missile sites in Cuba and measures to render such weapons inoperable, under effective international guarantees. The continuation of this threat, or a prolonging of this discussion concerning Cuba by linking these problems to the broader questions of European and world security, would surely lead to an intensification of the Cuban crisis and a grave risk to the peace of the world."
+     ],
+     "attribution": "Letter from President John F. Kennedy to Nikita Khrushchev, Washington, D.C., October 27, 1962, answering an earlier private letter from Khrushchev dated October 26. The White House released the letter to the press.",
+     "translation": "Printed in Foreign Relations of the United States, 1961–1963, vol. VI (Washington, D.C., 1996); adapted",
+     "glossary": [
+      {
+       "t": "inoperable",
+       "d": "unable to work"
+      },
+      {
+       "t": "quarantine measures",
+       "d": "the U.S. Navy's blockade that stopped ships carrying weapons to Cuba"
+      },
+      {
+       "t": "assurances",
+       "d": "promises"
+      },
+      {
+       "t": "cessation",
+       "d": "stopping"
+      }
+     ]
+    }
+   ]
+  },
+  "X3": {
+   "type": "image",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/C-47s_at_Tempelhof_Airport_Berlin_1948.jpg/960px-C-47s_at_Tempelhof_Airport_Berlin_1948.jpg",
+   "width": 960,
+   "height": 767,
+   "alt": "A black-and-white photograph of a row of twin-engine propeller cargo planes with star markings on a wide airfield, with trucks loaded with crates backed up to their doors and a long airport building behind.",
+   "caption": "Twin-engine cargo planes with U.S. star markings are parked in a row on a wide airfield. Trucks piled with wooden crates are backed up to the open doors of the nearest planes. A very long airport building stands in the background.",
+   "attribution": "U.S. Air Force photograph of American cargo planes being unloaded at Tempelhof Airport, in the American sector of Berlin, Germany, 1948–1949",
+   "credit": "Public domain image (U.S. Air Force photograph) via Wikimedia Commons.",
+   "description": "A black-and-white photograph taken from a high point. In the lower right, a twin-engine propeller cargo plane with a white star on its wing and the number 52 on its nose has its side door open; a truck loaded with wooden crates is backed up to it, and a worker stands in the doorway. Five more planes of the same kind are parked in a diagonal row behind it, with another loaded truck beside one of them. Small groups of people stand at the left. The wide paved airfield stretches to a very long, low airport building with hangar openings across the back of the picture.",
+   "glossary": [
+    {
+     "t": "sector",
+     "d": "one of the four zones of Berlin run by the United States, Britain, France, and the Soviet Union after World War II"
+    }
+   ]
+  },
+  "X4": {
+   "type": "bar",
+   "title": "Average Yearly Growth of the Economy, Soviet Union, Eastern Europe, and United States, 1961–1985",
+   "categories": [
+    "1961–65",
+    "1966–70",
+    "1971–75",
+    "1976–80",
+    "1981–85"
+   ],
+   "series": [
+    {
+     "name": "Soviet Union",
+     "values": [
+      4.9,
+      5.1,
+      3.1,
+      2.2,
+      1.8
+     ]
+    },
+    {
+     "name": "Eastern Europe",
+     "values": [
+      3.9,
+      3.8,
+      4.9,
+      1.9,
+      1.2
+     ]
+    },
+    {
+     "name": "United States",
+     "values": [
+      4.8,
+      2.8,
+      2.3,
+      3.3,
+      3.0
+     ]
+    }
+   ],
+   "yLabel": "Average growth per year (percent)",
+   "text": "Each bar shows how fast a country's total output of goods and services grew per year, on average, over five years, after rising prices are taken into account. The figures are estimates made by the U.S. Central Intelligence Agency (CIA). For the Soviet Union and Eastern Europe the CIA measured gross national product (GNP); for the United States it measured gross domestic product (GDP), a very similar measure. \"Eastern Europe\" means Bulgaria, Czechoslovakia, East Germany, Hungary, Poland, and Romania taken together.",
+   "source": "U.S. Central Intelligence Agency, Directorate of Intelligence, Handbook of Economic Statistics, 1988 (Washington, D.C., 1988), Table 9"
+  },
+  "X5": {
+   "type": "passage",
+   "paragraphs": [
+    "In August 1945, the Japanese surrendered to the Allies. The popular forces of Vietnam which, since 1940, had made incessant attacks on the Japanese forces, … went down to conquer the capital-city and the governing rule. … On September 2, 1945, the Democratic Republic of Vietnam was solemnly proclaimed. … The new Republic of Vietnam, thus legally instituted, is in the reconstruction of the world a factor of peace and progress. She is entitled for her safeguard to refer to the most sacred principles of SAN FRANCISCO and ATLANTIC Charters*. She is based on and draws her strength from, the first of SUN YAT SEN's Three Principles and the second, fourth, sixth points of President TRUMAN's twelve-point declaration.",
+    "But, on September 23, 1945, the French troops attacked Saigon, starting an invasion which is now in its fifth month. That invasion is menacing North Vietnam … . That aggression, carried on by an experienced and numerous army, fully equipped with the most recent inventions of modern warfare, has brought about the destruction of our towns and villages, the assassination of our civilian population, the starving of a great part of our country. …",
+    "First of all, democracy has been established on solid foundations. On January 6 last, general elections were organized with the greatest success. … A new administrative organization has replaced the old mandarinate system. The most unpopular taxes have been abolished. The anti-illiteracy campaign organized along efficient lines, has yielded unexpectedly optimistic results. …",
+    "For those reasons, we think it our duty to send this note to the Great Powers—which had led the anti-fascist crusade to final victory … . While waiting with confidence for a positive measure from the Governments of WASHINGTON, MOSCOW, LONDON, and CHUNGKING, we have determined to fight to our last drop of blood against the reestablishment of French imperialism. … We only ask full independence, independence that is so far a fact, and that will enable us to cooperate with the other nations in the building-up of a better world and lasting peace."
+   ],
+   "attribution": "Note from the Ministry of Foreign Affairs of the Democratic Republic of Vietnam, the government led by Ho Chi Minh, to the governments of China, the United States, the Soviet Union, and Great Britain, Hanoi, February 18, 1946. Ho Chi Minh handed copies to an American official in Hanoi.",
+   "translation": "English text as printed in United States–Vietnam Relations, 1945–1967 (the \"Pentagon Papers\"), Part I (Washington, D.C.: U.S. Government Printing Office, 1971); adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "The United Nations Charter, signed at San Francisco in 1945, and the Atlantic Charter of 1941. The \"twelve-point declaration\" was a 1945 speech in which Truman listed twelve aims of American foreign policy."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "incessant",
+     "d": "never stopping"
+    },
+    {
+     "t": "solemnly proclaimed",
+     "d": "formally announced"
+    },
+    {
+     "t": "instituted",
+     "d": "set up"
+    },
+    {
+     "t": "Sun Yat Sen's Three Principles",
+     "d": "nationalism, democracy, and the people's livelihood: the ideas of Sun Yat-sen, founder of the Republic of China"
+    },
+    {
+     "t": "mandarinate system",
+     "d": "government by appointed officials called mandarins"
+    },
+    {
+     "t": "Chungking",
+     "d": "Chongqing, the wartime capital of China's Nationalist government"
+    }
+   ]
+  },
+  "X6": {
+   "type": "passage",
+   "paragraphs": [
+    "In the year 1949, after more than a century of heroic struggle, the Chinese people, led by the Communist Party of China, finally achieved their great victory in the people's revolution against imperialism, feudalism and bureaucrat-capitalism; and so brought to an end a long history of oppression and enslavement and founded the People's Republic of China, a people's democratic dictatorship. …",
+    "From the founding of the People's Republic of China to the attainment of a socialist society is a period of transition. During the transition the fundamental task of the state is, step by step, to bring about the socialist industrialization of the country and, step by step, to accomplish the socialist transformation of agriculture, handicrafts and capitalist industry and commerce. In the last few years our people have successfully carried out a series of large-scale struggles: the reform of the agrarian system, resistance to American aggression and aid to Korea, the suppression of counter-revolutionaries and the rehabilitation of the national economy. …",
+    "China has already built an indestructible friendship with the great Union of Soviet Socialist Republics and the People's Democracies; and the friendship between our people and peace-loving people in all other countries is growing day by day. …",
+    "Article 6: The state sector of the economy is a socialist sector, owned by the whole people. It is the leading force in the national economy and the material basis on which the state carries out socialist transformation. …",
+    "Article 8: The state protects the right of peasants to own land and other means of production according to law. The state guides and helps individual peasants to increase production and encourages them to organize producers', supply and marketing, and credit co-operatives voluntarily. The policy of the state towards rich-peasant economy is to restrict and gradually eliminate it."
+   ],
+   "attribution": "Constitution of the People's Republic of China, adopted by the First National People's Congress, Beijing, September 20, 1954: from the Preamble and Articles 6 and 8",
+   "translation": "Official English translation published by the Foreign Languages Press, Peking (Beijing), 1954; adapted",
+   "glossary": [
+    {
+     "t": "feudalism",
+     "d": "here, a system in which landlords held power over the peasants who farmed their land"
+    },
+    {
+     "t": "bureaucrat-capitalism",
+     "d": "the Communists' name for big businesses run by officials of the old Nationalist government and their families"
+    },
+    {
+     "t": "people's democratic dictatorship",
+     "d": "the Communists' name for rule by the Communist Party on behalf of workers and peasants"
+    },
+    {
+     "t": "socialist transformation",
+     "d": "turning privately owned farms and businesses into ones owned by the state or by groups of workers"
+    },
+    {
+     "t": "handicrafts",
+     "d": "goods made by hand in small workshops"
+    },
+    {
+     "t": "resistance to American aggression and aid to Korea",
+     "d": "the Chinese name for China's part in the Korean War (1950–1953)"
+    },
+    {
+     "t": "counter-revolutionaries",
+     "d": "people the government accused of working against the revolution"
+    },
+    {
+     "t": "rehabilitation",
+     "d": "rebuilding"
+    },
+    {
+     "t": "People's Democracies",
+     "d": "the Communists' name for the other communist-ruled states"
+    },
+    {
+     "t": "co-operatives",
+     "d": "groups whose members pool their land, tools, or money and share the work and the earnings"
+    },
+    {
+     "t": "rich-peasant economy",
+     "d": "farming by peasants who owned extra land and hired others to work it"
+    }
+   ]
+  },
+  "X7": {
+   "type": "passage",
+   "paragraphs": [
+    "[A. Economic co-operation] … 5. The Asian-African Conference recommended that collective action be taken by participating countries for stabilizing international prices of and demand for primary commodities through bilateral and multilateral arrangements, …",
+    "[D. Problems of dependent peoples] … 2. In view of the unsettled situation in North Africa and of the persisting denial to the peoples of North Africa of their right to self-determination, the Asian-African Conference declared its support of the rights of the people of Algeria, Morocco and Tunisia to self-determination and independence and urged the French Government to bring about a peaceful settlement of the issue without delay.",
+    "[G. Declaration on promotion of world peace and co-operation] … nations should practise tolerance and live together in peace with one another as good neighbours and develop friendly co-operation on the basis of the following principles: … 4. Abstention from intervention or interference in the internal affairs of another country. 5. Respect for the right of each nation to defend itself singly or collectively, in conformity with the Charter of the United Nations. 6. (A) Abstention from the use of arrangements of collective defence to serve the particular interests of any of the big powers. (B) Abstention by any country from exerting pressures on other countries. …"
+   ],
+   "attribution": "Final Communiqué of the Asian-African Conference, adopted by the governments of 29 Asian and African countries that met at Bandung, Indonesia, April 24, 1955: from sections A, D, and G",
+   "translation": "Issued in English. Text as printed in China and the Asian-African Conference (Documents) (Peking: Foreign Languages Press, 1955); adapted",
+   "glossary": [
+    {
+     "t": "primary commodities",
+     "d": "raw materials and farm crops sold to other countries, such as rubber, copper, and coffee"
+    },
+    {
+     "t": "bilateral and multilateral arrangements",
+     "d": "agreements between two countries, or among many"
+    },
+    {
+     "t": "self-determination",
+     "d": "a people's right to choose its own government"
+    },
+    {
+     "t": "Abstention",
+     "d": "holding back from doing something"
+    },
+    {
+     "t": "collective defence",
+     "d": "an agreement in which countries promise to defend one another"
+    },
+    {
+     "t": "big powers",
+     "d": "the strongest countries in the world"
+    }
+   ]
+  },
+  "X8": {
+   "type": "passage",
+   "paragraphs": [
+    "We face a hostile ideology—global in scope, atheistic in character, ruthless in purpose, and insidious in method. Unhappily the danger it poses promises to be of indefinite duration. …",
+    "Until the latest of our world conflicts, the United States had no armaments industry. American makers of plowshares could, with time and as required, make swords as well. But now we can no longer risk emergency improvisation of national defense; we have been compelled to create a permanent armaments industry of vast proportions. Added to this, three and a half million men and women are directly engaged in the defense establishment. We annually spend on military security more than the net income of all United States corporations.",
+    "This conjunction of an immense military establishment and a large arms industry is new in the American experience. The total influence—economic, political, even spiritual—is felt in every city, every State house, every office of the Federal government. … In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex. The potential for the disastrous rise of misplaced power exists and will persist. …",
+    "Disarmament, with mutual honor and confidence, is a continuing imperative. … I confess that I lay down my official responsibilities in this field with a definite sense of disappointment."
+   ],
+   "attribution": "Dwight D. Eisenhower, president of the United States, farewell address to the nation on radio and television, January 17, 1961, three days before he left office",
+   "translation": "From Public Papers of the Presidents of the United States: Dwight D. Eisenhower, 1960–61; adapted",
+   "glossary": [
+    {
+     "t": "ideology",
+     "d": "a set of political ideas and beliefs"
+    },
+    {
+     "t": "insidious",
+     "d": "working secretly and slowly to do harm"
+    },
+    {
+     "t": "improvisation",
+     "d": "making something up quickly, without planning"
+    },
+    {
+     "t": "conjunction",
+     "d": "joining together"
+    },
+    {
+     "t": "unwarranted",
+     "d": "not justified"
+    },
+    {
+     "t": "imperative",
+     "d": "something that must be done"
+    }
+   ]
+  },
+  "P1": {
+   "type": "passage",
+   "paragraphs": [
+    "The absolute equality of races,—physical, political and social—is the founding stone of world peace and human advancement. …",
+    "The beginning of wisdom in interracial contact is the establishment of political institutions among suppressed peoples. The habit of democracy must be made to encircle the earth. … Local self-government with a minimum of help and oversight can be established tomorrow in Asia, in Africa, in America and in the Isles of the Sea. …",
+    "England, with her Pax Britannica, her courts of justice, established commerce and a certain apparent recognition of native law and customs, has nevertheless systematically fostered ignorance among the natives, … has usually declined even to try to train black and brown men in real self-government, to recognize civilized black folks as civilized, or to grant to colored colonies those rights of self-government which it freely gives to white men. …",
+    "The Negro* race through its thinking intelligentsia is demanding:",
+    "I—The recognition of civilized men as civilized despite their race or color\nII—Local self government for backward groups, deliberately rising as experience and knowledge grow to complete self government under the limitations of a self governed world\n… VI—The ancient common ownership of the land and its natural fruits and defence against the unrestrained greed of invested capital\nVII—The establishment under the League of Nations of an international institution for the study of Negro problems"
+   ],
+   "attribution": "Manifesto adopted at the London session of the Second Pan-African Congress, a meeting of leaders from Africa, the Caribbean, the United States, and Europe that also met in Brussels and Paris, 1921",
+   "translation": "As printed in The Crisis, the magazine of the National Association for the Advancement of Colored People (NAACP), November 1921; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "The source uses historical racial terms. \"Negro\" and \"colored\" are outdated terms. \"Backward\" and \"civilized\" reflect judgments that ranked peoples unequally; they are not neutral descriptions."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "manifesto",
+     "d": "a public statement of goals"
+    },
+    {
+     "t": "Pax Britannica",
+     "d": "Latin for \"British peace\"; the order Britain claimed its empire kept"
+    },
+    {
+     "t": "intelligentsia",
+     "d": "educated people who lead a group's thinking"
+    },
+    {
+     "t": "invested capital",
+     "d": "money put into businesses to earn profits"
+    }
+   ]
+  },
+  "P2": {
+   "type": "passage",
+   "paragraphs": [
+    "At bottom of Kremlin's neurotic view of world affairs is traditional and instinctive Russian sense of insecurity. … Russian rulers have invariably sensed that their rule was relatively archaic in form, fragile and artificial in its psychological foundation, unable to stand comparison or contact with political systems of Western countries. For this reason they have always feared foreign penetration … . And they have learned to seek security only in patient but deadly struggle for total destruction of rival power, never in compacts and compromises with it. …",
+    "(1) Soviet power, unlike that of Hitlerite Germany, is neither schematic nor adventuristic. It does not work by fixed plans. It does not take unnecessary risks. Impervious to logic of reason, and it is highly sensitive to logic of force. For this reason it can easily withdraw—and usually does—when strong resistance is encountered at any point. …",
+    "(2) Gauged against Western World as a whole, Soviets are still by far the weaker force. Thus, their success will really depend on degree of cohesion, firmness and vigor which Western World can muster. …",
+    "… World communism is like malignant parasite which feeds only on diseased tissue. This is point at which domestic and foreign policies meet. …"
+   ],
+   "attribution": "George F. Kennan, a senior American diplomat at the U.S. embassy in Moscow, telegram to the U.S. secretary of state, February 22, 1946, later called the \"Long Telegram.\" Kennan wrote in the short style of a telegram, leaving out small words such as \"the.\"",
+   "translation": "Printed in Foreign Relations of the United States, 1946, vol. VI (Washington, D.C., 1969); adapted",
+   "glossary": [
+    {
+     "t": "Kremlin",
+     "d": "the Soviet government (named for its headquarters in Moscow)"
+    },
+    {
+     "t": "neurotic",
+     "d": "fearful in a way that is not reasonable"
+    },
+    {
+     "t": "archaic",
+     "d": "old-fashioned; out of date"
+    },
+    {
+     "t": "compacts",
+     "d": "agreements"
+    },
+    {
+     "t": "schematic nor adventuristic",
+     "d": "neither following a fixed plan nor taking wild chances"
+    },
+    {
+     "t": "impervious",
+     "d": "not affected by"
+    },
+    {
+     "t": "cohesion",
+     "d": "sticking together; unity"
+    },
+    {
+     "t": "malignant",
+     "d": "harmful and spreading"
+    }
+   ]
+  },
+  "P3": {
+   "type": "passage",
+   "paragraphs": [
+    "In considering the requirements for the rehabilitation of Europe, the physical loss of life, the visible destruction of cities, factories, mines, and railroads was correctly estimated, but it has become obvious during recent months that this visible destruction was probably less serious than the dislocation of the entire fabric of European economy. …",
+    "The truth of the matter is that Europe's requirements for the next three or four years of foreign food and other essential products—principally from America—are so much greater than her present ability to pay that she must have substantial additional help or face economic, social, and political deterioration of a very grave character. …",
+    "Our policy is directed not against any country or doctrine but against hunger, poverty, desperation, and chaos. Its purpose should be the revival of a working economy in the world so as to permit the emergence of political and social conditions in which free institutions can exist. … Any government which maneuvers to block the recovery of other countries cannot expect help from us. Furthermore, governments, political parties, or groups which seek to perpetuate human misery in order to profit therefrom politically or otherwise will encounter the opposition of the United States.",
+    "… The initiative, I think, must come from Europe. … The program should be a joint one, agreed to by a number, if not all, European nations."
+   ],
+   "attribution": "George C. Marshall, U.S. secretary of state, speech at Harvard University, Cambridge, Massachusetts, June 5, 1947",
+   "translation": "As printed in the Department of State Bulletin, June 15, 1947; adapted",
+   "glossary": [
+    {
+     "t": "rehabilitation",
+     "d": "restoring to good condition"
+    },
+    {
+     "t": "dislocation",
+     "d": "breakdown; being thrown out of place"
+    },
+    {
+     "t": "fabric",
+     "d": "here, the whole structure"
+    },
+    {
+     "t": "deterioration",
+     "d": "getting worse"
+    },
+    {
+     "t": "doctrine",
+     "d": "a set of beliefs"
+    },
+    {
+     "t": "perpetuate",
+     "d": "make something continue"
+    }
+   ]
+  },
+  "P4": {
+   "type": "passage",
+   "paragraphs": [
+    "The Contracting Parties, … Taking into consideration, at the same time, the situation that has come about in Europe as a result of the ratification of the Paris Agreements, which provide for the constitution of a new military group in the form of a \"West European Union\", with the participation of a remilitarized West Germany and its inclusion in the North Atlantic bloc, thereby increasing the danger of a new war and creating a threat to the national security of peace-loving States; …",
+    "Article 4: In the event of an armed attack in Europe on one or more of the States Parties to the Treaty by any State or group of States, each State Party to the Treaty shall, in the exercise of the right of individual or collective self-defence, in accordance with Article 51 of the United Nations Charter, afford the State or States so attacked immediate assistance, individually and in agreement with the other States Parties to the Treaty, by all the means it considers necessary, including the use of armed force. …",
+    "Article 5: The Contracting Parties have agreed to establish a Unified Command, to which certain elements of their armed forces shall be allocated by agreement between the Parties, and which shall act in accordance with jointly established principles. …",
+    "Article 8: The Contracting Parties declare that they will act in a spirit of friendship and co-operation to promote the further development and strengthening of the economic and cultural ties among them, in accordance with the principles of respect for each other's independence and sovereignty and of non-intervention in each other's domestic affairs."
+   ],
+   "attribution": "Treaty of Friendship, Co-operation and Mutual Assistance (the \"Warsaw Pact\"), signed by Albania, Bulgaria, Czechoslovakia, East Germany, Hungary, Poland, Romania, and the Soviet Union, Warsaw, Poland, May 14, 1955",
+   "translation": "Translated from the Russian by the United Nations Secretariat and printed in the United Nations Treaty Series, vol. 219 (1955); adapted",
+   "glossary": [
+    {
+     "t": "Contracting Parties",
+     "d": "the countries that signed the treaty"
+    },
+    {
+     "t": "Paris Agreements",
+     "d": "agreements signed by Western countries in 1954 about West Germany's future"
+    },
+    {
+     "t": "remilitarized",
+     "d": "allowed to have an army again"
+    },
+    {
+     "t": "North Atlantic bloc",
+     "d": "NATO, the alliance of the United States, Canada, and Western European countries"
+    },
+    {
+     "t": "Article 51 of the United Nations Charter",
+     "d": "the part of the UN Charter that lets countries defend themselves if attacked"
+    },
+    {
+     "t": "Unified Command",
+     "d": "one headquarters in charge of forces from all the member countries"
+    },
+    {
+     "t": "sovereignty",
+     "d": "a country's right to govern itself"
+    },
+    {
+     "t": "non-intervention",
+     "d": "not interfering"
+    }
+   ]
+  },
+  "P5": {
+   "type": "passage",
+   "paragraphs": [
+    "Article 1: The land ownership system of feudal exploitation by the landlord class shall be abolished and the system of peasant land ownership shall be introduced in order to set free the rural productive forces, develop agricultural production and thus pave the way for New China's industrialisation.",
+    "Article 2: The land, draught animals, farm implements and surplus grain of the landlords, and their surplus houses in the countryside shall be confiscated, but their other properties shall not be confiscated.",
+    "Article 6: Land owned by rich peasants and cultivated by themselves or by hired labour, and their other properties, shall be protected from infringement. …",
+    "Article 10: All land and other means of production thus confiscated and requisitioned, … shall be taken over by the hsiang peasants' association for unified, equitable and rational distribution to poor peasants who have little or no land and who have no other means of production. Landlords shall be given an equal share so that they can make their living by their own labour and thus reform themselves through labour.",
+    "Article 32: In the course of agrarian reform a people's tribunal shall be set up in every county to ensure that it is carried out. The tribunal shall travel to different places, to try and punish, according to law, hated despotic elements who have committed heinous crimes, whom the masses of the people demand to be brought to justice, … Indiscriminate arrest, beating or killing of people, corporal punishment and the like are strictly forbidden."
+   ],
+   "attribution": "The Agrarian Reform Law of the People's Republic of China, issued by the Central People's Government, Beijing, June 30, 1950",
+   "translation": "Official English translation published by the Foreign Languages Press, Peking (Beijing), 1950; adapted",
+   "glossary": [
+    {
+     "t": "feudal exploitation",
+     "d": "the Communists' term for a system in which landlords rented land to peasants and took much of their harvest"
+    },
+    {
+     "t": "productive forces",
+     "d": "the ability to produce goods"
+    },
+    {
+     "t": "draught animals",
+     "d": "animals, such as oxen, used to pull plows"
+    },
+    {
+     "t": "implements",
+     "d": "tools"
+    },
+    {
+     "t": "confiscated",
+     "d": "taken away by the government"
+    },
+    {
+     "t": "rich peasants",
+     "d": "farmers who owned more land than their families could work and hired others to help"
+    },
+    {
+     "t": "infringement",
+     "d": "being taken or harmed"
+    },
+    {
+     "t": "requisitioned",
+     "d": "taken over for public use"
+    },
+    {
+     "t": "hsiang",
+     "d": "an area made up of several villages"
+    },
+    {
+     "t": "equitable",
+     "d": "fair"
+    },
+    {
+     "t": "tribunal",
+     "d": "a court"
+    },
+    {
+     "t": "despotic elements",
+     "d": "people accused of cruelly abusing their power"
+    },
+    {
+     "t": "heinous",
+     "d": "very evil"
+    },
+    {
+     "t": "corporal punishment",
+     "d": "punishment by beating"
+    }
+   ]
+  },
+  "P6": {
+   "type": "passage",
+   "paragraphs": [
+    "On June 17, 1952, a comprehensive agrarian reform program became law in Guatemala. Its professed objective is the development of a capitalistic agricultural economy through the abolition of semi-feudal owner-worker relationships, the redistribution of land, and the improvement with state assistance of cultivation methods. The implications of the legislation, however, go beyond agrarian reform inasmuch as its provisions furnish a basis for the strengthening of political and Communist control over the rural population.",
+    "Full implementation of the law would free thousands of agrarian workers from a centuries-old dependence upon the privileged landholding class, but would subject the majority, in all probability, to close control by the state. …",
+    "Administration forces undoubtedly envisage political benefits from the legislation. They are presumably anxious to break the control of the conservative anti-administration large landholders over the farm labor force in order to organize it behind the government. Advantages to the Communists are likely to be enhanced by the opportunity to extend the influence in farm areas … and through greater opportunities to attack the United Fruit Company. …",
+    "… The extent to which land controlled by foreign agriculture corporations may be made available for redistribution is largely a matter of speculation. Largest of these enterprises is the United Fruit Company which owns or leases some 450,000 acres possibly subject to expropriation."
+   ],
+   "attribution": "Intelligence report by the Office of Intelligence Research, U.S. Department of State, Washington, D.C., March 5, 1953, about a land law passed under Guatemala's elected president, Jacobo Árbenz",
+   "translation": "Printed in Foreign Relations of the United States, 1952–1954, Guatemala (Washington, D.C., 2003); adapted",
+   "glossary": [
+    {
+     "t": "professed objective",
+     "d": "stated goal"
+    },
+    {
+     "t": "abolition",
+     "d": "ending"
+    },
+    {
+     "t": "semi-feudal",
+     "d": "partly like the old system in which peasants worked for landlords in return for the right to farm"
+    },
+    {
+     "t": "envisage",
+     "d": "expect"
+    },
+    {
+     "t": "United Fruit Company",
+     "d": "a large U.S. company that grew bananas in Central America"
+    },
+    {
+     "t": "expropriation",
+     "d": "the taking of private property by a government"
+    }
+   ]
+  },
+  "P7": {
+   "type": "image",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cuban_missiles.jpg/960px-Cuban_missiles.jpg",
+   "width": 960,
+   "height": 928,
+   "alt": "A black-and-white aerial photograph of cleared, rutted ground among palm trees and fields, with a title box and white labels connected by lines to objects on the ground.",
+   "caption": "An aerial photograph of cleared, rutted ground among palm trees and fields. A box at the top reads \"MRBM LAUNCH SITE 2, SAN CRISTOBAL, 1 NOVEMBER 1962.\" Lines drawn on the photograph point to labels that read \"MISSILE-READY TENT,\" \"FORMER LAUNCH POSITIONS,\" \"FUEL TRAILERS,\" and \"FORMER LOCATION OF MISSILE-READY TENTS.\"",
+   "attribution": "U.S. military aerial reconnaissance photograph of a missile site near San Cristóbal, Cuba, November 1, 1962, with labels added by U.S. intelligence analysts",
+   "credit": "Public domain image (U.S. military photograph, U.S. National Archives) via Wikimedia Commons.",
+   "description": "A black-and-white photograph taken from an airplane, looking down at an angle. Tall palm trees and patches of dark trees surround a large area of bare, rutted ground crossed by a straight dirt road. A white title box at the upper left reads \"MRBM LAUNCH SITE 2, SAN CRISTOBAL, 1 NOVEMBER 1962.\" Thin white lines connect small white labels to spots on the ground: a single standing tent (\"MISSILE-READY TENT\"), two bare patches (\"FORMER LAUNCH POSITIONS\"), a group of parked tanker trucks (\"FUEL TRAILERS\"), and two places with only marks left on the ground (\"FORMER LOCATION OF MISSILE-READY TENTS\").",
+   "glossary": [
+    {
+     "t": "reconnaissance",
+     "d": "flying over or watching an area to gather military information"
+    },
+    {
+     "t": "MRBM",
+     "d": "medium-range ballistic missile"
+    },
+    {
+     "t": "missile-ready tent",
+     "d": "a tent where missiles were kept ready to be raised for launch"
+    }
+   ]
+  },
+  "P8": {
+   "type": "passage",
+   "paragraphs": [
+    "… I wanted to avoid violence, I want to avoid violence. Non-violence is the first article of my faith. It is also the last article of my creed. …",
+    "The first shock came in the shape of the Rowlatt Act, a law designed to rob the people of all real freedom. I felt called upon to lead an intensive agitation against it. Then followed the Punjab horrors beginning with the massacre at Jallianwala Bagh and culminating in crawling orders, public flogging and other indescribable humiliations. …",
+    "I came reluctantly to the conclusion that the British connection had made India more helpless than she ever was before, politically and economically. … Before the British advent, India spun and wove in her millions of cottages just the supplement she needed for adding to her meagre agricultural resources. This cottage industry, so vital for India's existence, has been ruined by incredibly heartless and inhuman processes as described by English witnesses. …",
+    "In my humble opinion, Non-co-operation with evil is as much a duty as is co-operation with good. But in the past, Non-co-operation has been deliberately expressed in violence to the evil doer. I am endeavouring to show to my countrymen that violent Non-co-operation only multiplies evil and that as evil can only be sustained by violence, withdrawal of support of evil requires complete abstention from violence. Non-violence implies voluntary submission to the penalty for Non-co-operation with evil. I am here, therefore, to invite and submit cheerfully to the highest penalty that can be inflicted upon me for what in law is a deliberate crime and what appears to me to be the highest duty of a citizen."
+   ],
+   "attribution": "Mohandas K. Gandhi, statement to the court at his trial for sedition, Ahmedabad, India, March 18, 1922",
+   "translation": "As printed in Young India, 1919–1922, by Mahatma Gandhi, second edition (Madras: S. Ganesan, 1924); adapted",
+   "glossary": [
+    {
+     "t": "creed",
+     "d": "set of beliefs"
+    },
+    {
+     "t": "agitation",
+     "d": "public campaign of protest"
+    },
+    {
+     "t": "crawling orders",
+     "d": "an order by a British general forcing Indians to crawl on their bellies along one street in Amritsar"
+    },
+    {
+     "t": "advent",
+     "d": "arrival"
+    },
+    {
+     "t": "meagre",
+     "d": "small; not enough"
+    },
+    {
+     "t": "abstention",
+     "d": "holding back from"
+    },
+    {
+     "t": "sedition",
+     "d": "words or acts that urge people to rebel against a government"
+    }
+   ]
+  },
+  "P9": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "An Act to make provision for, and in connection with, the attainment by the Gold Coast of fully responsible status within the British Commonwealth of Nations. …",
+      "1. The territories included immediately before the appointed day in the Gold Coast … shall as from that day together form part of Her Majesty's dominions under the name of Ghana, and— (a) no Act of the Parliament of the United Kingdom passed on or after the appointed day shall extend, or be deemed to extend, to Ghana as part of the law of Ghana, unless it is expressly declared in that Act that the Parliament of Ghana has requested, and consented to, the enactment thereof; (b) as from the appointed day, Her Majesty's Government in the United Kingdom shall have no responsibility for the government of Ghana or any part thereof; …"
+     ],
+     "attribution": "Ghana Independence Act, 1957, passed by the Parliament of the United Kingdom, London, February 7, 1957",
+     "translation": "Contains public sector information licensed under the Open Government Licence v3.0 (legislation.gov.uk, The National Archives); adapted",
+     "glossary": [
+      {
+       "t": "attainment",
+       "d": "reaching"
+      },
+      {
+       "t": "fully responsible status",
+       "d": "full self-government"
+      },
+      {
+       "t": "British Commonwealth of Nations",
+       "d": "a group made up of Britain and former British colonies that chose to keep ties with it"
+      },
+      {
+       "t": "appointed day",
+       "d": "the day set for the change, which the Act fixed as March 6, 1957"
+      },
+      {
+       "t": "Her Majesty's dominions",
+       "d": "lands that recognized the British queen as their monarch"
+      },
+      {
+       "t": "be deemed to",
+       "d": "be treated as if it did"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "The General Assembly, … Believing that the process of liberation is irresistible and irreversible and that, in order to avoid serious crises, an end must be put to colonialism and all practices of segregation and discrimination associated therewith,",
+      "Welcoming the emergence in recent years of a large number of dependent territories into freedom and independence, …",
+      "Solemnly proclaims the necessity of bringing to a speedy and unconditional end colonialism in all its forms and manifestations; … Declares that:",
+      "1. The subjection of peoples to alien subjugation, domination and exploitation constitutes a denial of fundamental human rights, is contrary to the Charter of the United Nations and is an impediment to the promotion of world peace and co-operation. …",
+      "3. Inadequacy of political, economic, social or educational preparedness should never serve as a pretext for delaying independence. …"
+     ],
+     "attribution": "United Nations General Assembly, Resolution 1514, \"Declaration on the Granting of Independence to Colonial Countries and Peoples,\" New York, December 14, 1960",
+     "translation": "From the Official Records of the General Assembly, Fifteenth Session (United Nations); adapted",
+     "glossary": [
+      {
+       "t": "irresistible",
+       "d": "impossible to stop"
+      },
+      {
+       "t": "irreversible",
+       "d": "impossible to undo"
+      },
+      {
+       "t": "segregation",
+       "d": "keeping groups of people apart by law, usually by race"
+      },
+      {
+       "t": "dependent territories",
+       "d": "colonies and other lands ruled by another country"
+      },
+      {
+       "t": "inadequacy",
+       "d": "lack"
+      },
+      {
+       "t": "preparedness",
+       "d": "readiness"
+      },
+      {
+       "t": "pretext",
+       "d": "an excuse"
+      }
+     ]
+    }
+   ]
+  },
+  "P10": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "[Resolution 82, June 25, 1950] The Security Council, … Noting with grave concern the armed attack on the Republic of Korea by forces from North Korea, Determines that this action constitutes a breach of the peace; and … Calls upon the authorities in North Korea to withdraw forthwith their armed forces to the 38th parallel; …",
+      "[Resolution 83, June 27, 1950] The Security Council, … Having noted from the report of the United Nations Commission on Korea that the authorities in North Korea have neither ceased hostilities nor withdrawn their armed forces to the 38th parallel, and that urgent military measures are required to restore international peace and security, … Recommends that the Members of the United Nations furnish such assistance to the Republic of Korea as may be necessary to repel the armed attack and to restore international peace and security in the area.",
+      "[Note on the vote on Resolution 83] Adopted … by 7 votes to 1 (Yugoslavia). … Two members (Egypt, India) did not participate in the voting; one member (Union of Soviet Socialist Republics) was absent."
+     ],
+     "attribution": "United Nations Security Council, Resolutions 82 and 83, adopted at Lake Success, New York, June 25 and June 27, 1950, with the note on the vote from the Council's official record",
+     "translation": "From Resolutions and Decisions of the Security Council, 1950, Official Records (United Nations); adapted",
+     "glossary": [
+      {
+       "t": "Republic of Korea",
+       "d": "South Korea"
+      },
+      {
+       "t": "breach of the peace",
+       "d": "an act that breaks the peace between countries"
+      },
+      {
+       "t": "forthwith",
+       "d": "at once"
+      },
+      {
+       "t": "38th parallel",
+       "d": "the line of latitude dividing North Korea from South Korea"
+      },
+      {
+       "t": "United Nations Commission on Korea",
+       "d": "a group of officials the UN had sent to watch events in Korea"
+      },
+      {
+       "t": "hostilities",
+       "d": "fighting"
+      },
+      {
+       "t": "repel",
+       "d": "drive back"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "I'm speaking of Nicaragua, a Soviet ally on the American mainland only 2 hours' flying time from our own borders. With over a billion dollars in Soviet-bloc aid, the Communist government of Nicaragua has launched a campaign to subvert and topple its democratic neighbors. …",
+      "The United States Congress has before it a proposal to help stop this threat. The legislation is an aid package of $100 million for the more than 20,000 freedom fighters struggling to bring democracy to their country and eliminate this Communist menace at its source. …",
+      "… But let me make one thing plain: I'm not talking about American troops. They are not needed; they have not been requested. The democratic resistance fighting in Nicaragua is only asking America for the supplies and support to save their own country from communism. …",
+      "Forty years ago Republicans and Democrats joined together behind the Truman doctrine. It must be our policy, Harry Truman declared, to support peoples struggling to preserve their freedom."
+     ],
+     "attribution": "Ronald Reagan, president of the United States, address to the nation on the situation in Nicaragua, broadcast on radio and television, March 16, 1986",
+     "translation": "From Public Papers of the Presidents of the United States: Ronald Reagan, 1986; adapted",
+     "glossary": [
+      {
+       "t": "Soviet-bloc",
+       "d": "the Soviet Union and the countries allied with it"
+      },
+      {
+       "t": "subvert",
+       "d": "weaken or overthrow in secret"
+      },
+      {
+       "t": "freedom fighters",
+       "d": "Reagan's name for the armed groups fighting Nicaragua's government"
+      },
+      {
+       "t": "menace",
+       "d": "threat"
+      }
+     ]
+    }
+   ]
+  },
+  "P11": {
+   "type": "table",
+   "title": "Foreign-Born U.S. Residents by Selected Place of Birth, 1960–2000",
+   "columns": [
+    "Country of birth",
+    "1960",
+    "1970",
+    "1980",
+    "1990",
+    "2000"
+   ],
+   "rows": [
+    [
+     "Philippines",
+     "104,843",
+     "184,842",
+     "501,440",
+     "912,674",
+     "1,369,070"
+    ],
+    [
+     "Cuba",
+     "79,150",
+     "439,048",
+     "607,814",
+     "736,971",
+     "872,716"
+    ],
+    [
+     "Korea",
+     "11,171",
+     "38,711",
+     "289,885",
+     "568,397",
+     "864,125"
+    ],
+    [
+     "Vietnam",
+     "not available",
+     "not available",
+     "231,120",
+     "543,262",
+     "988,174"
+    ]
+   ],
+   "text": "Figures come from the U.S. census, which is taken every ten years. \"Foreign-born\" means people who were not U.S. citizens at birth. The figures count residents at each census, not people arriving during that decade; they include naturalized citizens and leave out U.S.-born children. \"Korea\" includes North and South Korea. This table gives no separate Vietnam figure for 1960 or 1970; those cells do not mean zero.",
+   "source": "Campbell Gibson and Kay Jung, Historical Census Statistics on the Foreign-Born Population of the United States: 1850 to 2000, Population Division Working Paper No. 81 (Washington, D.C.: U.S. Census Bureau, 2006), Table 3"
+  },
+  "P12": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "Bajpai told me last night that a non-Muslim caravan of 500 moving on October 3 under guard from NWFP toward East Punjab was attacked by Muslims* and that about 400 killed and remainder including women and children wounded. These 500 were part of the concentration of about 50,000 non-Muslims who have during recent weeks fled from West Punjab into NWFP for safety.",
+      "Prime Minister through Bajpai makes formal request that US make available ten army transport planes to fly these 50,000 refugees from a concentration point, say at Peshawar, to Amritsar. These refugees are in bad shape, are starving, and in immediate peril. They cannot be sent by caravan because of the physical weakness of so many and certainty of attack. … GOI has available sixteen BOAC Dakotas only a few of which in condition to fly. … When news gets out a new outburst against Muslims in Delhi is almost certain and if the 50,000 perish from hunger and/or attack communal war will reach proportions beyond anything yet seen. …"
+     ],
+     "attribution": "Telegram from Henry F. Grady, U.S. ambassador to India, to the U.S. secretary of state, New Delhi, October 5, 1947. Grady wrote in the short style of a telegram.",
+     "translation": "Printed in Foreign Relations of the United States, 1947, vol. III (Washington, D.C., 1972); adapted",
+     "footnotes": [
+      {
+       "mark": "*",
+       "text": "Editor's note: Armed groups and individuals from Hindu, Muslim, and Sikh communities attacked civilians from other communities. Members of all three communities also fled violence. This telegram reports one attack; it does not describe all Partition violence."
+      }
+     ],
+     "glossary": [
+      {
+       "t": "Bajpai",
+       "d": "Girja Shankar Bajpai, the top official in India's foreign ministry"
+      },
+      {
+       "t": "NWFP",
+       "d": "the North-West Frontier Province, next to the Punjab; it became part of Pakistan in 1947"
+      },
+      {
+       "t": "Prime Minister",
+       "d": "Jawaharlal Nehru"
+      },
+      {
+       "t": "Peshawar",
+       "d": "a city in the NWFP"
+      },
+      {
+       "t": "Amritsar",
+       "d": "a city in East Punjab, in India"
+      },
+      {
+       "t": "GOI",
+       "d": "the Government of India"
+      },
+      {
+       "t": "BOAC Dakotas",
+       "d": "cargo and passenger planes of a British airline"
+      },
+      {
+       "t": "communal",
+       "d": "between religious communities"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "1. Although the total number of Palestine refugees and destitute persons now receiving relief is 950,000, it is assumed that the maximum number of bonafide displaced persons who must eventually be repatriated or resettled will not exceed 700,000. …",
+      "2. The disposition of the refugees is now a political issue of the highest order between Israel and the Arab States, neither of which will consider it as a refugee problem. …",
+      "3. … With the exception of Transjordan, … the Arab states are reluctant to accept refugees for permanent resettlement for political as well as economic reasons. They take the position that Israel, and to a lesser extent the United Nations and the United States, created the problem and are responsible for its solution. They feel that this should be through repatriation, in accordance with Article 11 of the General Assembly Resolution of December 11, 1948.* The Israelis, on the other hand, are reluctant to repatriate any large number of refugees because of economic and security considerations, and because of the need for land to carry out their planned Jewish immigration program. The Israelis take the position that the problem was created by the invasion of the Arab states, and must be solved by resettlement."
+     ],
+     "attribution": "Paper prepared in the office of George McGhee, the U.S. State Department's coordinator on Palestine refugee matters, attached to his memorandum to the secretary of state of April 22, 1949, Washington, D.C. (this version of the paper is dated April 27, 1949)",
+     "translation": "Printed in Foreign Relations of the United States, 1949, vol. VI (Washington, D.C., 1977); adapted",
+     "footnotes": [
+      {
+       "mark": "*",
+       "text": "United Nations General Assembly Resolution 194, paragraph 11, said that refugees wishing to return home and live at peace with their neighbors should be permitted to do so at the earliest practicable date. It also called for compensation for the property of those choosing not to return and for certain property losses or damage."
+      }
+     ],
+     "glossary": [
+      {
+       "t": "destitute",
+       "d": "having no money or home"
+      },
+      {
+       "t": "bonafide",
+       "d": "real; genuine"
+      },
+      {
+       "t": "repatriated",
+       "d": "sent back to their homeland"
+      },
+      {
+       "t": "resettled",
+       "d": "given a new permanent home somewhere else"
+      },
+      {
+       "t": "disposition",
+       "d": "what will be done with"
+      },
+      {
+       "t": "Transjordan",
+       "d": "the Arab kingdom east of the Jordan River, later called Jordan"
+      }
+     ]
+    }
+   ]
+  },
+  "P13": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "A decade of conflict in Afghanistan, from 1979 to 1989, gave Islamist extremists a rallying point and training field. A Communist government in Afghanistan gained power in 1978 but was unable to establish enduring control. At the end of 1979, the Soviet government sent in military units to ensure that the country would remain securely under Moscow's influence. The response was an Afghan national resistance movement that defeated Soviet forces.",
+      "Young Muslims from around the world flocked to Afghanistan to join as volunteers in what was seen as a \"holy war\"—jihad—against an invader. The largest numbers came from the Middle East. Some were Saudis, and among them was Usama Bin Ladin. …",
+      "The international environment for Bin Ladin's efforts was ideal. Saudi Arabia and the United States supplied billions of dollars worth of secret assistance to rebel groups in Afghanistan fighting the Soviet occupation. This assistance was funneled through Pakistan … . But Bin Ladin and his comrades had their own sources of support and training, and they received little or no assistance from the United States.",
+      "April 1988 brought victory for the Afghan jihad. Moscow declared it would pull its military forces out of Afghanistan within the next nine months. … Bin Ladin and Azzam* agreed that the organization successfully created for Afghanistan should not be allowed to dissolve. They established what they called a base or foundation (al Qaeda) as a potential general headquarters for future jihad."
+     ],
+     "attribution": "National Commission on Terrorist Attacks upon the United States (the \"9/11 Commission\"), a panel created by the U.S. Congress and the president to study the attacks of September 11, 2001, The 9/11 Commission Report, 2004",
+     "translation": "Washington, D.C.: U.S. Government Printing Office, 2004; adapted",
+     "footnotes": [
+      {
+       "mark": "*",
+       "text": "Abdullah Azzam, a Palestinian preacher who had recruited Muslim volunteers for the war in Afghanistan."
+      }
+     ],
+     "glossary": [
+      {
+       "t": "Islamist extremists",
+       "d": "people with extreme views who want governments run by their own version of Islamic law"
+      },
+      {
+       "t": "enduring",
+       "d": "lasting"
+      },
+      {
+       "t": "funneled",
+       "d": "passed along"
+      },
+      {
+       "t": "dissolve",
+       "d": "break up; come to an end"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "The Security Council, … Deploring the fact that the Taliban continues to provide safe haven to Usama bin Laden and to allow him and others associated with him to operate a network of terrorist training camps from Taliban-controlled territory and to use Afghanistan as a base from which to sponsor international terrorist operations,",
+      "Noting the indictment of Usama bin Laden and his associates by the United States of America for, inter alia, the 7 August 1998 bombings of the United States embassies in Nairobi, Kenya, and Dar es Salaam, Tanzania … ,",
+      "… 2. Demands that the Taliban turn over Usama bin Laden without further delay to appropriate authorities in a country where he has been indicted, … or to appropriate authorities in a country where he will be arrested and effectively brought to justice; …"
+     ],
+     "attribution": "United Nations Security Council, Resolution 1267, New York, October 15, 1999",
+     "translation": "From the United Nations' official document S/RES/1267 (1999); adapted",
+     "glossary": [
+      {
+       "t": "Taliban",
+       "d": "an Islamist group that ruled most of Afghanistan from 1996 to 2001"
+      },
+      {
+       "t": "safe haven",
+       "d": "a safe place to stay or hide"
+      },
+      {
+       "t": "sponsor",
+       "d": "support and pay for"
+      },
+      {
+       "t": "indictment",
+       "d": "a formal charge of a crime"
+      },
+      {
+       "t": "inter alia",
+       "d": "Latin for \"among other things\""
+      }
+     ]
+    }
+   ]
+  },
+  "P14": {
+   "type": "passage",
+   "paragraphs": [
+    "Efforts by the United States to support anti-Communist forces in Chile date back to the late 1950s and reflect the rivalry between the United States and the Soviet Union for influence throughout the Third World. The growing strength of the Chilean left, along with continuing fragmentation by conservative and moderate political forces, became increasing concerns … to the United States, which wanted to avoid the emergence of \"another Cuba\" in the Western Hemisphere.",
+    "According to the Church Committee report, in their meeting with CIA Director Richard Helms and Attorney General John Mitchell on 15 September 1970 President Nixon and his National Security Advisor, Henry Kissinger, directed the CIA to prevent Allende from taking power. … In addition to political action, Nixon and Kissinger, according to Helms's notes, ordered steps to \"make the economy scream.\"",
+    "These Cold War attitudes persisted into the Pinochet era. After Pinochet came to power, senior policymakers appeared reluctant to criticize human rights violations, taking to task US diplomats urging greater attention to the problem. US military assistance and sales grew significantly during the years of greatest human rights abuses. …",
+    "Many of Pinochet's officers were involved in systematic and widespread human rights abuses following Allende's ouster. Some of these were contacts or agents of the CIA or US military."
+   ],
+   "attribution": "U.S. Central Intelligence Agency, \"CIA Activities in Chile,\" a report to the U.S. Congress, released September 2000",
+   "translation": "Adapted; the last paragraph comes from the report's summary of findings, which appears before the other paragraphs",
+   "glossary": [
+    {
+     "t": "Third World",
+     "d": "a Cold War term for the poorer countries of Asia, Africa, and Latin America, where the United States and the Soviet Union competed for influence"
+    },
+    {
+     "t": "fragmentation",
+     "d": "breaking into small groups"
+    },
+    {
+     "t": "Church Committee",
+     "d": "a U.S. Senate committee that investigated the CIA in 1975"
+    },
+    {
+     "t": "Allende",
+     "d": "Salvador Allende, a Marxist socialist elected president of Chile in 1970"
+    },
+    {
+     "t": "Pinochet",
+     "d": "Augusto Pinochet, Chile's ruler from 1973 to 1990"
+    },
+    {
+     "t": "ouster",
+     "d": "removal from power"
+    }
+   ]
+  },
+  "P15": {
+   "type": "passage",
+   "paragraphs": [
+    "Behind me stands a wall that encircles the free sectors of this city, part of a vast system of barriers that divides the entire continent of Europe. …",
+    "In the 1950's, Khrushchev predicted: \"We will bury you.\" But in the West today, we see a free world that has achieved a level of prosperity and well-being unprecedented in all human history. In the Communist world, we see failure, technological backwardness, declining standards of health, even want of the most basic kind—too little food. Even today, the Soviet Union still cannot feed itself. …",
+    "And now the Soviets themselves may, in a limited way, be coming to understand the importance of freedom. We hear much from Moscow about a new policy of reform and openness. Some political prisoners have been released. Certain foreign news broadcasts are no longer being jammed. … General Secretary Gorbachev, if you seek peace, if you seek prosperity for the Soviet Union and Eastern Europe, if you seek liberalization: Come here to this gate! Mr. Gorbachev, open this gate! Mr. Gorbachev, tear down this wall! …",
+    "… And in cooperation with many of our allies, the United States is pursuing the Strategic Defense Initiative—research to base deterrence not on the threat of offensive retaliation, but on defenses that truly defend; on systems, in short, that will not target populations, but shield them."
+   ],
+   "attribution": "Ronald Reagan, president of the United States, speech at the Brandenburg Gate, West Berlin, June 12, 1987. The speech was broadcast in Western Europe and could also be heard in East Germany.",
+   "translation": "From Public Papers of the Presidents of the United States: Ronald Reagan, 1987; adapted",
+   "glossary": [
+    {
+     "t": "unprecedented",
+     "d": "never seen before"
+    },
+    {
+     "t": "jammed",
+     "d": "blocked with radio noise so that people cannot hear"
+    },
+    {
+     "t": "General Secretary",
+     "d": "the title of the leader of the Soviet Communist Party"
+    },
+    {
+     "t": "deterrence",
+     "d": "preventing an attack by making the enemy afraid of what would happen"
+    },
+    {
+     "t": "retaliation",
+     "d": "striking back"
+    }
+   ]
+  },
+  "P16": {
+   "type": "passage",
+   "paragraphs": [
+    "It is obvious, for instance, that the use or threat of force can no longer, and must no longer, be an instrument of foreign policy. … After all, it is now quite clear that building-up military power makes no country omnipotent. …",
+    "It is also quite clear to us that the principle of freedom of choice is mandatory. … Denying that right to peoples, under whatever pretext or rhetorical guise, jeopardizes even the fragile balance that has been attained. Freedom of choice is a universal principle that should allow of no exceptions. …",
+    "… Under the sign of democratization, perestroika has now spread to politics, the economy, intellectual life and ideology. We have initiated a radical economic reform. … Undertaking such bold revolutionary transformations, we realized that there would be mistakes, and also opposition, that new approaches would generate new problems. … But the guarantee that the overall process of perestroika will steadily move forward and gain strength lies in a profound democratic reform of the entire system of power and administration. …",
+    "Without pausing, we have begun the second stage of this process with the main task of improving the relationship between the centre and the republics, harmonizing inter-ethnic relations … . What is most important is that all our peoples and all generations of citizens of our great country support perestroika. …",
+    "Today I can report to the General Assembly that the Soviet Union has taken a decision to reduce its armed forces. Within the next two years their numerical strength will be reduced by 500,000 men. … By agreement with our Warsaw Treaty allies we have decided to withdraw, by 1991, six tank divisions from the German Democratic Republic, Czechoslovakia and Hungary and to disband them. …"
+   ],
+   "attribution": "Mikhail Gorbachev, leader of the Soviet Union, speech to the United Nations General Assembly, New York, December 7, 1988",
+   "translation": "Gorbachev spoke in Russian. English interpretation as printed in the United Nations' official record of the meeting (document A/43/PV.72); adapted",
+   "glossary": [
+    {
+     "t": "omnipotent",
+     "d": "all-powerful"
+    },
+    {
+     "t": "mandatory",
+     "d": "required"
+    },
+    {
+     "t": "pretext or rhetorical guise",
+     "d": "excuse or clever wording"
+    },
+    {
+     "t": "jeopardizes",
+     "d": "puts in danger"
+    },
+    {
+     "t": "perestroika",
+     "d": "Russian for \"rebuilding\"; Gorbachev's program to reform the Soviet economy and government"
+    },
+    {
+     "t": "the centre and the republics",
+     "d": "the central government in Moscow and the Soviet Union's republics, such as Ukraine and Lithuania"
+    },
+    {
+     "t": "inter-ethnic",
+     "d": "between different ethnic groups"
+    },
+    {
+     "t": "Warsaw Treaty allies",
+     "d": "the Soviet Union's partners in the Warsaw Pact alliance"
+    },
+    {
+     "t": "German Democratic Republic",
+     "d": "East Germany"
+    },
+    {
+     "t": "disband",
+     "d": "break up"
+    }
+   ]
+  }
+ },
+ "practice": [
+  {
+   "id": "U8-P01",
+   "set": "P1",
+   "topic": "8.1",
+   "lo": "A",
+   "skill": "4.A",
+   "difficulty": "medium",
+   "stem": "The manifesto was most likely written in response to which of the following?",
+   "options": {
+    "A": "the Atlantic Charter's promise that peoples could choose their own form of government",
+    "B": "the May Fourth Movement, in which Chinese students protested the transfer of Germany's rights in Shandong to Japan",
+    "C": "Italy's conquest of Ethiopia, one of Africa's last independent states",
+    "D": "a peace settlement after the First World War that maintained European colonial rule over most of Africa"
+   },
+   "answer": "D",
+   "explanation": "After the First World War, the peace treaties handed Germany's colonies to Britain, France, and others as mandates. Africans and Asians who had hoped for more self-rule were let down. Meetings like the Pan-African Congress spoke out against this.",
+   "whyNot": {
+    "A": "Roosevelt and Churchill issued the Atlantic Charter in 1941, twenty years after this manifesto.",
+    "B": "The May Fourth protests of 1919 answered the same peace treaty, but they were about China. The manifesto speaks for Africans and people of African descent.",
+    "C": "Italy invaded Ethiopia in 1935, more than ten years after this manifesto."
+   },
+   "hint": "What had happened in world politics just a few years before 1921?"
+  },
+  {
+   "id": "U8-P02",
+   "set": "P1",
+   "topic": "8.1",
+   "lo": "A",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Point II of the manifesto argues for",
+   "options": {
+    "A": "a path that would lead colonized peoples step by step toward full self-government",
+    "B": "an armed revolt that would drive the colonial powers out of Africa as soon as possible",
+    "C": "the return of people of African descent in the Americas to a homeland in Africa",
+    "D": "League of Nations rule over Africa in place of rule by the colonial powers"
+   },
+   "answer": "A",
+   "explanation": "Point II asks for local self-government that would grow \"as experience and knowledge grow\" until it became complete. Many early leaders hoped to reach self-rule through reform, a little at a time.",
+   "whyNot": {
+    "B": "The manifesto asks for self-government that keeps \"rising\" over time. It does not call for revolt.",
+    "C": "Marcus Garvey called for a return to Africa in these years, but the manifesto does not.",
+    "D": "Point VII asks the League to set up a body to study problems, not to govern Africa."
+   },
+   "hint": "Reread point II slowly. What would come first, and what would come later?"
+  },
+  {
+   "id": "U8-P03",
+   "set": "P1",
+   "topic": "8.1",
+   "lo": "A",
+   "skill": "3.B",
+   "difficulty": "medium",
+   "stem": "Which statement in the manifesto most directly supports its criticism that British colonial policy treated racial groups unequally?",
+   "options": {
+    "A": "Britain brought courts of justice and trade to its colonies.",
+    "B": "Britain gave some recognition to native law and customs.",
+    "C": "The League of Nations should set up an institution to study problems facing people of African descent.",
+    "D": "Britain denied colonized peoples rights of self-government that it granted to white populations."
+   },
+   "answer": "D",
+   "explanation": "Choice D directly compares how Britain treated colonized peoples with how it treated white populations. The manifesto says Britain refused \"to grant to colored colonies those rights of self-government which it freely gives to white men.\" The other statements are concessions the manifesto makes about British rule or a recommendation, not evidence of unequal treatment.",
+   "whyNot": {
+    "A": "The manifesto grants that Britain set up courts and trade, but says it \"nevertheless\" kept colonized peoples from self-government. This is a concession, not evidence of unequal treatment.",
+    "B": "The manifesto calls this recognition only \"apparent.\" It is a concession, not evidence that Britain treated racial groups unequally.",
+    "C": "This is a recommendation for the League of Nations, not evidence about Britain's treatment of racial groups."
+   },
+   "hint": "Separate evidence that supports a claim from a goal or a recommendation."
+  },
+  {
+   "id": "U8-P04",
+   "set": "P2",
+   "topic": "8.2",
+   "lo": "B",
+   "skill": "2.B",
+   "difficulty": "easy",
+   "stem": "Kennan's main purpose in writing the telegram was most likely to",
+   "options": {
+    "A": "explain Soviet behavior to U.S. leaders and urge firm resistance to it",
+    "B": "propose that the United States and the Soviet Union share control of atomic weapons",
+    "C": "warn U.S. leaders that the Soviet Union was about to attack Western Europe",
+    "D": "argue that the West should pull its forces out of Europe and trust the Soviets to keep the peace"
+   },
+   "answer": "A",
+   "explanation": "Kennan wanted Washington to understand why Soviet leaders acted as they did. He argued that the Soviets would back down when they met strong resistance. His ideas became the basis of containment.",
+   "whyNot": {
+    "B": "Kennan says the Soviets respond to the \"logic of force.\" He does not suggest sharing weapons.",
+    "C": "Kennan says Soviet power \"does not take unnecessary risks\" and can be checked without war.",
+    "D": "Kennan says Soviet success depends on the West's \"cohesion, firmness and vigor.\" He does not want the West to pull back."
+   },
+   "hint": "Who received the telegram, and what does Kennan say will make the Soviets back down?"
+  },
+  {
+   "id": "U8-P05",
+   "set": "P2",
+   "topic": "8.2",
+   "lo": "B",
+   "skill": "5.B",
+   "difficulty": "easy",
+   "stem": "Ideas like Kennan's contributed most directly to which U.S. policy?",
+   "options": {
+    "A": "détente, which aimed to ease tensions through arms control and trade with the Soviets",
+    "B": "isolationism, which aimed to keep the United States out of European affairs",
+    "C": "containment, which aimed to stop the spread of Soviet power and communism",
+    "D": "appeasement, which aimed to keep the peace by giving in to a rival's demands"
+   },
+   "answer": "C",
+   "explanation": "In 1947 Kennan published his ideas in a magazine article. The Truman Doctrine and the Marshall Plan put containment into action. It guided U.S. policy for the rest of the Cold War.",
+   "whyNot": {
+    "A": "Détente, an effort to ease Cold War tensions, came mainly in the late 1960s and 1970s. Kennan's telegram called for firmness.",
+    "B": "Kennan argues that the United States must stay involved and resist Soviet power abroad.",
+    "D": "Appeasement was the 1930s policy toward Hitler. Kennan says the Soviets respond to strength."
+   },
+   "hint": "Think about when each policy was used and whom it was aimed at.",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "U8-P06",
+   "set": "P2",
+   "topic": "8.2",
+   "lo": "B",
+   "skill": "3.D",
+   "difficulty": "medium",
+   "stem": "Which of the following events would best support Kennan's claim that Soviet power \"can easily withdraw … when strong resistance is encountered\"?",
+   "options": {
+    "A": "Soviet tanks crushed an uprising against communist rule in Hungary.",
+    "B": "The Soviet Union tested its first atomic bomb in 1949, years before American experts had expected.",
+    "C": "The Soviets lifted their blockade of West Berlin after a Western airlift supplied the city.",
+    "D": "North Korea, backed by the Soviet Union, invaded South Korea."
+   },
+   "answer": "C",
+   "explanation": "The Soviets cut the roads and railways into West Berlin in 1948. The United States and Britain flew in food and fuel for almost a year. In May 1949 the Soviets gave up the blockade.",
+   "whyNot": {
+    "A": "In Hungary the Soviets used force and did not back down. The West did not send troops to stop them.",
+    "B": "The bomb test showed growing Soviet strength. It does not show a Soviet retreat.",
+    "D": "The invasion was a push forward, not a withdrawal."
+   },
+   "hint": "Look for an event in which the Soviets met resistance and then backed down."
+  },
+  {
+   "id": "U8-P07",
+   "set": "P3",
+   "topic": "8.1",
+   "lo": "A",
+   "skill": "4.B",
+   "difficulty": "easy",
+   "stem": "Marshall's description of Europe's economy is best understood in the context of",
+   "options": {
+    "A": "the Great Depression, which had left Europe's farmers and factories unable to sell their goods in the 1930s",
+    "B": "the damage done by the Second World War, which left the United States the strongest economy",
+    "C": "the founding of the European Economic Community, which had removed trade barriers in Europe",
+    "D": "the Allied occupation of Germany, during which the Soviets took factories and machines from their zone"
+   },
+   "answer": "B",
+   "explanation": "The war wrecked Europe's cities, factories, and trade. Most U.S. factories came through the war intact, and the United States had the largest economy in the world. That is why Marshall says Europe needed goods \"principally from America.\"",
+   "whyNot": {
+    "A": "The Depression began in 1929. Marshall describes destroyed cities, factories, and railroads, which point to the war that had ended in 1945.",
+    "C": "The European Economic Community was founded in 1957, ten years after this speech.",
+    "D": "The Soviets took machines mainly from their own zone of Germany and received some from the western zones. Reparations alone do not explain the wider damage and broken trade that Marshall describes."
+   },
+   "hint": "Check the date of each choice against June 1947. Which one explains both Europe's broken economy and its need for goods 'principally from America'?"
+  },
+  {
+   "id": "U8-P08",
+   "set": "P3",
+   "topic": "8.2",
+   "lo": "B",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Marshall's warning about \"political parties … which seek to perpetuate human misery\" most likely referred to",
+   "options": {
+    "A": "fascist parties in Germany and Italy that were planning to return to power",
+    "B": "Communist parties in Western Europe, such as those in France and Italy",
+    "C": "nationalist parties in Asia and Africa that wanted to end European rule",
+    "D": "Britain's Labour Party, which wanted the government to run key industries"
+   },
+   "answer": "B",
+   "explanation": "Communist parties won large shares of the vote in France and Italy after the war. U.S. leaders feared that hunger and unemployment would help them take power. Aid was meant to remove that danger.",
+   "whyNot": {
+    "A": "Marshall's warning reflected U.S. concern about strong Communist parties in postwar Europe. The defeated wartime fascist regimes were not the main target of this warning.",
+    "C": "Marshall is speaking about Europe's recovery, not about colonies in Asia and Africa.",
+    "D": "Britain's Labour government welcomed Marshall's offer and received more aid than any other country."
+   },
+   "hint": "Check each choice: was that party strong in Western Europe in 1947, and did U.S. leaders oppose it?"
+  },
+  {
+   "id": "U8-P09",
+   "set": "P3",
+   "topic": "8.3",
+   "lo": "C",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The Soviet Union responded to the program Marshall proposed by",
+   "options": {
+    "A": "joining the International Monetary Fund and the World Bank to get Western loans for rebuilding",
+    "B": "offering loans and experts to newly independent states such as India and Egypt",
+    "C": "forming the Warsaw Pact, a military alliance with the communist states of Eastern Europe",
+    "D": "refusing the aid, keeping Eastern Europe out of it, and setting up its own economic council"
+   },
+   "answer": "D",
+   "explanation": "Stalin saw the Marshall Plan as a way for the United States to gain influence in Europe. He made Poland and Czechoslovakia turn it down. In 1949 the Soviets set up the Council for Mutual Economic Assistance (Comecon) to tie Eastern Europe's economies to their own.",
+   "whyNot": {
+    "A": "The Soviets helped plan these institutions in 1944, but they did not join them.",
+    "B": "Soviet aid to India and Egypt began in the mid-1950s. It was not an answer to aid for Europe.",
+    "C": "The Warsaw Pact came in 1955, after West Germany joined NATO. It was a military alliance, not an answer to economic aid."
+   },
+   "hint": "Check the date of each choice. Which one came soon after 1947 and dealt with Europe's economy?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "U8-P10",
+   "set": "P4",
+   "topic": "8.1",
+   "lo": "A",
+   "skill": "4.A",
+   "difficulty": "medium",
+   "stem": "The treaty's concern about a \"remilitarized West Germany\" is best understood in the context of",
+   "options": {
+    "A": "the Treaty of Versailles, which had limited the size of Germany's army after the First World War",
+    "B": "Germany's invasion of the Soviet Union in the Second World War, in which more than 20 million Soviet people died",
+    "C": "the Marshall Plan, which sent American aid to rebuild West Germany's factories and cities",
+    "D": "the Berlin Wall, which East Germany built to stop its people from fleeing to the West"
+   },
+   "answer": "B",
+   "explanation": "In 1941 Germany invaded the Soviet Union. More than 20 million Soviet people died, and Poland and other Eastern European lands were also devastated. Ten years after the war, the Soviets and their allies feared a rearmed Germany. West Germany joined NATO in May 1955, and the Soviet bloc signed this treaty about a week later.",
+   "whyNot": {
+    "A": "Versailles limited Germany's army in 1919. It does not explain why Germany's eastern neighbors feared a new German army in 1955.",
+    "C": "The Marshall Plan was economic aid. The treaty worries about German soldiers, not German factories.",
+    "D": "The Berlin Wall was built in 1961, six years after this treaty."
+   },
+   "hint": "Ask why the Soviet Union and Poland in particular would fear a German army in 1955."
+  },
+  {
+   "id": "U8-P11",
+   "set": "P4",
+   "topic": "8.3",
+   "lo": "C",
+   "skill": "3.D",
+   "difficulty": "medium",
+   "stem": "Which of the following later developments would most directly challenge the treaty's promise of \"non-intervention in each other's domestic affairs\"?",
+   "options": {
+    "A": "In the 1960s Romania traded more with Western Europe and took its own positions on foreign affairs.",
+    "B": "In 1968 troops from the Soviet Union and several other member states invaded Czechoslovakia to end its reforms.",
+    "C": "In 1979 Soviet troops invaded Afghanistan to support its communist government.",
+    "D": "In 1984 the Soviet Union and most of its allies kept their athletes home from the Olympic Games in Los Angeles."
+   },
+   "answer": "B",
+   "explanation": "In 1968 Czechoslovakia's Communist leader, Alexander Dubček, allowed more free speech in the \"Prague Spring.\" Soviet leaders feared the reforms would spread. Troops from the Soviet Union, Poland, Hungary, and Bulgaria invaded and ended them. Afterward the Soviets claimed a right to step in wherever communist rule was \"threatened,\" an idea called the Brezhnev Doctrine.",
+   "whyNot": {
+    "A": "Romania's moves show a member acting on its own. They do not show other members interfering in its affairs.",
+    "C": "Afghanistan did not belong to the Warsaw Pact, so this promise among members did not cover it.",
+    "D": "The boycott was a joint protest against the United States. It was not an invasion of a member country."
+   },
+   "hint": "Check each choice: was the country involved a member of the treaty, and did other countries step into its affairs?"
+  },
+  {
+   "id": "U8-P12",
+   "set": "P4",
+   "topic": "8.2",
+   "lo": "B",
+   "skill": "2.C",
+   "difficulty": "medium",
+   "stem": "A historian investigating how much independence the Eastern European member governments had in practice would find the treaty limited chiefly because",
+   "options": {
+    "A": "it states the members' official promises but cannot show whether those promises were kept",
+    "B": "it presents West Germany's rearmament and entry into NATO as a threat to the security of the member states",
+    "C": "it provides for military coordination among countries with different national histories",
+    "D": "it connects military cooperation with promises of economic and cultural cooperation"
+   },
+   "answer": "A",
+   "explanation": "The treaty records the alliance's public commitments, including respect for each member's independence. It cannot by itself show how much freedom member governments had in practice. Records of Soviet pressure, talks among member governments, and military interventions would help a historian test those commitments.",
+   "whyNot": {
+    "B": "This shows the alliance's stated security concern. It does not show whether members respected one another's independence.",
+    "C": "Military coordination can happen under different relationships among governments. It does not show how freely each government made decisions.",
+    "D": "Promises of cooperation do not show whether members kept their independence in making decisions."
+   },
+   "hint": "Ask what kind of document a treaty is. What can it show, and what can it not show?"
+  },
+  {
+   "id": "U8-P13",
+   "set": "P5",
+   "topic": "8.4",
+   "lo": "D",
+   "skill": "4.A",
+   "difficulty": "easy",
+   "stem": "The law was issued in the context of",
+   "options": {
+    "A": "the Communist Party's victory over the Nationalists in China's civil war",
+    "B": "the Long March, when Communist forces retreated across China to escape the Nationalist army",
+    "C": "the Hundred Flowers campaign, when the party briefly invited people to criticize its rule",
+    "D": "Japan's invasion of China, when the Communists and Nationalists formed a united front"
+   },
+   "answer": "A",
+   "explanation": "After Japan's defeat in 1945, full-scale civil war resumed between Mao's Communists and Chiang Kai-shek's Nationalists. The Communists won and founded the People's Republic of China in October 1949, and the Nationalists fled to Taiwan. This land law was one of the new government's first big laws.",
+   "whyNot": {
+    "B": "The Long March took place in 1934–1935, when the Communists held only small areas of China.",
+    "C": "The Hundred Flowers campaign came in 1956–1957, six years after this law.",
+    "D": "Japan's full-scale war against China began in 1937, after its seizure of Manchuria in 1931. Japan's defeat in 1945 came before this law, and Communist-Nationalist cooperation had already collapsed."
+   },
+   "hint": "Look at the date of the law. Which choice describes events in China at that time?"
+  },
+  {
+   "id": "U8-P14",
+   "set": "P5",
+   "topic": "8.4",
+   "lo": "D",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "Land reform under this law most directly helped the new Communist government by",
+   "options": {
+    "A": "paying landlords for their land with bonds and shares in state companies, as the Nationalists did on Taiwan",
+    "B": "forcing peasant families to pool their land and labor in collective farms, as the Soviet Union had done",
+    "C": "winning the support of poor peasants and breaking the power of landlords in the villages",
+    "D": "gaining help from the United States, which wanted China's peasants to own their own land"
+   },
+   "answer": "C",
+   "explanation": "Most Chinese were poor farmers. Giving them landlords' land won the new government their support, and village meetings broke the landlords' power. Although Article 32 forbids \"indiscriminate … killing,\" land reform campaigns included public humiliation, beatings, and executions of people identified as landlords.",
+   "whyNot": {
+    "A": "Article 2 says the landlords' land was confiscated, not bought. The Nationalists' land reform on Taiwan in 1953 did pay landlords.",
+    "B": "Article 1 introduces peasant landownership, and Article 10 gives confiscated land to peasants. China's drive to organize farming into collective farms came later in the 1950s.",
+    "D": "The United States backed land reform in Japan and Taiwan, but it did not aid Communist China, which it saw as an enemy."
+   },
+   "hint": "Test each choice against Articles 1, 2, and 10. Which one matches what the law actually did?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "U8-P15",
+   "set": "P5",
+   "topic": "8.4",
+   "lo": "E",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "The law's plan to give confiscated land to \"poor peasants who have little or no land\" is most similar to which other twentieth-century development?",
+   "options": {
+    "A": "land reform after the Mexican Revolution, which broke up large estates and gave land to peasant villages",
+    "B": "the Green Revolution, which spread new high-yield seeds and chemical fertilizers to farmers in India and Mexico",
+    "C": "Stalin's collectivization, which forced Soviet peasants to give up their own plots and join large farms",
+    "D": "laws in South Africa that set aside most of the country's land for white farmers"
+   },
+   "answer": "A",
+   "explanation": "After the Mexican Revolution, the 1917 constitution let the government break up large estates, called haciendas. In the 1930s President Lázaro Cárdenas gave millions of acres to peasant villages. Like the Chinese law, Mexico's reform took land from big owners and gave it to the poor.",
+   "whyNot": {
+    "B": "The Green Revolution raised harvests with new seeds and fertilizer. It did not take land from big owners.",
+    "C": "Collectivization took land away from peasant families. This law gave land to them.",
+    "D": "These laws took land from the Black majority for a white minority. This law gave land to the poor majority."
+   },
+   "hint": "Reread what should happen to the landlords' property. Then ask what each choice did to who owned the land.",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "U8-P16",
+   "set": "P6",
+   "topic": "8.4",
+   "lo": "E",
+   "skill": "1.A",
+   "difficulty": "easy",
+   "stem": "The law described in the report is an example of",
+   "options": {
+    "A": "liberal reforms of the 1800s that sold church and village lands to private buyers",
+    "B": "the encomienda system, under which Spanish colonists were given the labor of Native Americans",
+    "C": "a land plan required by the Alliance for Progress to build farm cooperatives",
+    "D": "movements in Latin America to redistribute land, sometimes with socialist support"
+   },
+   "answer": "D",
+   "explanation": "In much of Latin America, a few families and companies owned most of the good land. Árbenz's government set out to break up large estates and give unused land to peasants. Guatemala's small Communist Party supported the reform, but land redistribution did not by itself make Guatemala a Communist state.",
+   "whyNot": {
+    "A": "Those reforms moved land into private hands, often big estates. This law takes land from big estates.",
+    "B": "The encomienda system belonged to Spain's colonial rule in the 1500s. This law aimed to end \"semi-feudal\" ties between landowners and workers.",
+    "C": "The Alliance for Progress began in 1961, nine years after this law."
+   },
+   "hint": "What does the law do with land owned by large estates?"
+  },
+  {
+   "id": "U8-P17",
+   "set": "P6",
+   "topic": "8.2",
+   "lo": "B",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "The report's concern that the law could strengthen \"Communist control\" most likely reflects",
+   "options": {
+    "A": "a hope among U.S. officials that breaking up large estates would make Guatemala more democratic and stable",
+    "B": "the Good Neighbor Policy's stated commitment to avoid military intervention in Latin America",
+    "C": "U.S. support for land reform in Japan, which American occupation officials carried out after the war",
+    "D": "a Cold War fear among U.S. officials that reforms nearby could open the door to Soviet influence"
+   },
+   "answer": "D",
+   "explanation": "In the early 1950s, U.S. leaders saw communism as a worldwide threat. When Guatemala's government passed a land law backed by its small Communist Party, U.S. officials saw a danger close to home.",
+   "whyNot": {
+    "A": "The report worries that the law puts workers under \"close control by the state.\"",
+    "B": "The Good Neighbor Policy stressed nonintervention. This report shows how Cold War fears could conflict with that promise.",
+    "C": "The United States did back land reform in occupied Japan, but this report worries that Guatemala's reform would help Communists."
+   },
+   "hint": "Check each choice against the words of the report and the year it was written."
+  },
+  {
+   "id": "U8-P18",
+   "set": "P6",
+   "topic": "8.3",
+   "lo": "C",
+   "skill": "5.B",
+   "difficulty": "easy",
+   "stem": "Which later U.S. action most directly addressed the concerns about Guatemala expressed in the report?",
+   "options": {
+    "A": "the Bay of Pigs invasion, in which Cuban exiles trained by the CIA landed in Cuba",
+    "B": "the Roosevelt Corollary, under which the United States claimed the right to act as a police power in Latin America",
+    "C": "a CIA-backed overthrow of the Árbenz government",
+    "D": "the founding of the Organization of American States to settle disputes among countries in the Americas"
+   },
+   "answer": "C",
+   "explanation": "In 1954 the CIA armed and trained Guatemalan exiles led by Carlos Castillo Armas, ran a propaganda radio station, and supplied planes that bombed targets in Guatemala. Árbenz resigned, Castillo Armas took power, and his government gave land back to United Fruit. A civil war followed from 1960 to 1996, in which about 200,000 people were killed or disappeared, most of them Maya.",
+   "whyNot": {
+    "A": "The Bay of Pigs invasion targeted Castro's government in Cuba in 1961. The intervention in Guatemala in choice C is the more direct connection to the government and concerns in this report.",
+    "B": "The Roosevelt Corollary dates from 1904, long before this 1953 report.",
+    "D": "The OAS was founded in 1948, five years before this report."
+   },
+   "hint": "Check the date of each choice against March 1953. Then ask which one was a response to the land law the report describes.",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "U8-P19",
+   "set": "P7",
+   "topic": "8.3",
+   "lo": "C",
+   "skill": "4.A",
+   "difficulty": "easy",
+   "stem": "The photograph was taken in the context of",
+   "options": {
+    "A": "the Bay of Pigs invasion, when Cuban exiles trained by the CIA landed in Cuba",
+    "B": "the U-2 incident, when the Soviets shot down an American spy plane over the Soviet Union",
+    "C": "a crisis that began when U.S. spy planes photographed new launch sites under construction in Cuba",
+    "D": "the Cuban Revolution, when Castro's rebels overthrew the dictator Fulgencio Batista"
+   },
+   "answer": "C",
+   "explanation": "In October 1962, U.S. spy planes photographed Soviet missile sites in Cuba. Kennedy demanded that the missiles be removed and used the navy to stop new weapons shipments. The standoff brought the superpowers closer to nuclear war than at any other time in the Cold War.",
+   "whyNot": {
+    "A": "The Bay of Pigs invasion was in April 1961. The labels point to missile launch sites, not an invasion.",
+    "B": "The U-2 was shot down over the Soviet Union in 1960. This photograph shows Cuba in 1962.",
+    "D": "Castro's rebels won in January 1959. Cuba's Soviet nuclear missile sites were built later."
+   },
+   "hint": "Look at the date and the labels. Which choice fits both?"
+  },
+  {
+   "id": "U8-P20",
+   "set": "P7",
+   "topic": "8.3",
+   "lo": "C",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Labels on the photograph such as \"former launch positions\" were most likely added in order to",
+   "options": {
+    "A": "prove to the United Nations that the Soviets had secretly placed missiles in Cuba",
+    "B": "record the damage that U.S. air strikes had done to the missile site during the crisis",
+    "C": "help plan U.S. air strikes against the missiles, which some of Kennedy's advisers had urged",
+    "D": "help U.S. leaders check that the Soviets were taking the missile site apart"
+   },
+   "answer": "D",
+   "explanation": "On October 28 Khrushchev agreed to remove the missiles. Castro would not let UN inspectors into Cuba, so U.S. planes kept taking pictures. Labels such as \"former launch positions\" helped leaders see that the missiles were being removed.",
+   "whyNot": {
+    "A": "U.S. officials did show photos at the UN in October 1962 to prove the missiles were there. But this photo is dated November 1 and labels \"former\" launch positions, so it shows the missiles leaving.",
+    "B": "The United States did not carry out the proposed air strikes. Taken after the October 28 agreement, this photograph was used to check the removal of Soviet missiles.",
+    "C": "Some advisers urged air strikes in October. By November 1 Khrushchev had agreed to remove the missiles, and the labels show where missiles used to be."
+   },
+   "hint": "Compare the date in the title box with what happened during the crisis in October 1962. Which purpose fits a photograph taken on that date?"
+  },
+  {
+   "id": "U8-P21",
+   "set": "P7",
+   "topic": "8.3",
+   "lo": "C",
+   "skill": "1.B",
+   "difficulty": "easy",
+   "stem": "The missile site in the photograph is evidence of which effect of the Cold War?",
+   "options": {
+    "A": "the deployment of Soviet nuclear weapons in the Caribbean as part of the superpower arms race",
+    "B": "the founding of NATO and the Warsaw Pact as rival alliances in Europe",
+    "C": "the use of local fighters, such as Cuban exiles, to fight the superpowers' battles in Latin America",
+    "D": "a thaw in relations between the superpowers after Stalin's death in 1953"
+   },
+   "answer": "A",
+   "explanation": "In 1962 the Soviet Union placed nuclear missiles in Cuba, close to the United States. This brought the arms race to the Caribbean and created one of the most dangerous crises of the Cold War.",
+   "whyNot": {
+    "B": "These alliances were real, but they were in Europe. The photograph shows missiles in Cuba.",
+    "C": "The CIA did use Cuban exiles at the Bay of Pigs in 1961, but this photo shows a Soviet missile site, not exile fighters.",
+    "D": "There was a short thaw after Stalin died, but this missile site shows a dangerous crisis, not a thaw."
+   },
+   "hint": "Look at the place named in the title box and the kind of site it labels. Which choice does the photograph itself show?"
+  },
+  {
+   "id": "U8-P22",
+   "set": "P8",
+   "topic": "8.5",
+   "lo": "F",
+   "skill": "4.A",
+   "difficulty": "easy",
+   "stem": "Gandhi made this statement in the context of",
+   "options": {
+    "A": "the Quit India movement, when Congress demanded that Britain leave India at once during the Second World War",
+    "B": "the partition of British India into the separate states of India and Pakistan",
+    "C": "the Sepoy Rebellion, when Indian soldiers rose up against the East India Company",
+    "D": "a mass campaign in which Indians boycotted British courts, schools, and cloth to protest British rule"
+   },
+   "answer": "D",
+   "explanation": "After the Amritsar massacre of 1919, Gandhi and the Congress asked Indians to stop using British courts, schools, and cloth. In 1922 a crowd killed policemen in the village of Chauri Chaura. Gandhi stopped the campaign, and soon after he was arrested.",
+   "whyNot": {
+    "A": "The Quit India movement began in 1942, twenty years after this trial.",
+    "B": "Partition took place in 1947, twenty-five years later.",
+    "C": "The Sepoy Rebellion took place in 1857, long before Gandhi's public life began."
+   },
+   "hint": "Look at the date of the trial. Which choice describes events in India in the early 1920s?"
+  },
+  {
+   "id": "U8-P23",
+   "set": "P8",
+   "topic": "8.7",
+   "lo": "I",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Which of the following best states Gandhi's main argument in the last paragraph?",
+   "options": {
+    "A": "People should refuse to support unjust rule, but without violence and while accepting punishment.",
+    "B": "Indians should support the British Empire in wartime in return for self-rule later.",
+    "C": "Violence against officials is justified when a government breaks its promises.",
+    "D": "Indians should rebuild their cottage industries and spinning wheels instead of taking part in politics."
+   },
+   "answer": "A",
+   "explanation": "Gandhi says non-cooperation with evil is a duty. But he says it requires \"complete abstention from violence,\" and those who disobey must accept the penalty.",
+   "whyNot": {
+    "B": "Gandhi says he has lost faith in British rule. He does not offer to support the empire.",
+    "C": "Gandhi says violent non-cooperation \"only multiplies evil.\"",
+    "D": "Gandhi mentions cottage industry as a sign of harm done by British rule, but his argument is about non-cooperation."
+   },
+   "hint": "Reread the last paragraph. What two conditions does Gandhi place on non-cooperation?"
+  },
+  {
+   "id": "U8-P24",
+   "set": "P8",
+   "topic": "8.7",
+   "lo": "I",
+   "skill": "5.A",
+   "difficulty": "easy",
+   "stem": "Gandhi's methods are most similar to those of",
+   "options": {
+    "A": "Ho Chi Minh's Viet Minh in the war against French rule in Vietnam",
+    "B": "Martin Luther King Jr. in the civil rights movement in the United States",
+    "C": "the Mau Mau fighters who rose up against British rule in Kenya in the 1950s",
+    "D": "the National Liberation Front (FLN) in Algeria's fight against France"
+   },
+   "answer": "B",
+   "explanation": "King studied Gandhi's ideas. Like Gandhi, he led boycotts and marches, refused to use violence, and was willing to go to jail. For many years Nelson Mandela's African National Congress also used nonviolent protest.",
+   "whyNot": {
+    "A": "The Viet Minh fought a guerrilla war against the French from 1946 to 1954.",
+    "C": "The Mau Mau used armed attacks in the 1950s, and the British answered with harsh force.",
+    "D": "The FLN fought an eight-year war against France."
+   },
+   "hint": "Think about how each leader or group fought for change. Which one matches what Gandhi says about violence?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "U8-P25",
+   "set": "P9",
+   "topic": "8.5",
+   "lo": "F",
+   "skill": "4.A",
+   "difficulty": "easy",
+   "stem": "Source 1 was passed in the context of",
+   "options": {
+    "A": "the Mau Mau uprising, in which Kikuyu fighters attacked British settlers and officials in Kenya",
+    "B": "a war in Algeria, where nationalists fought to drive out French rule and French settlers",
+    "C": "a nationalist campaign led by Kwame Nkrumah, whose party won elections in the Gold Coast in the 1950s",
+    "D": "the Berlin Conference, at which European powers agreed on rules for dividing up Africa"
+   },
+   "answer": "C",
+   "explanation": "In 1949 Kwame Nkrumah founded the Convention People's Party, which led strikes and boycotts against British rule. His party won elections in 1951, 1954, and 1956, and Britain agreed to independence. On March 6, 1957, the Gold Coast became Ghana, one of the first African colonies south of the Sahara to win independence.",
+   "whyNot": {
+    "A": "The Mau Mau uprising took place in Kenya, in East Africa. Source 1 is about the Gold Coast, in West Africa.",
+    "B": "The war in Algeria was fought against France. Source 1 is a British law about the Gold Coast.",
+    "D": "The Berlin Conference met in 1884–1885, when Europeans were taking over Africa, not giving it up."
+   },
+   "hint": "Check the date of each choice against 1957. Then ask which one helped bring about this British law."
+  },
+  {
+   "id": "U8-P26",
+   "set": "P9",
+   "topic": "8.5",
+   "lo": "F",
+   "skill": "3.C",
+   "difficulty": "medium",
+   "stem": "Which of the following best describes a difference between the two sources?",
+   "options": {
+    "A": "Source 1 was adopted by an international organization, while Source 2 was passed by a national parliament.",
+    "B": "Source 1 calls colonial rule a denial of human rights, while Source 2 praises colonial powers for preparing their colonies.",
+    "C": "Source 1 gives independence to one colony through a law of the ruling power, while Source 2 demands it for colonial peoples everywhere.",
+    "D": "Source 1 describes an armed revolt against Britain, while Source 2 describes a peaceful transfer of power in Ghana."
+   },
+   "answer": "C",
+   "explanation": "The Act records the legal side of a negotiated transfer shaped by nationalist organizing and election victories in the Gold Coast. The UN declaration calls for independence across the colonial world and rejects lack of \"preparedness\" as a reason for delay.",
+   "whyNot": {
+    "A": "This reverses them. Britain's Parliament passed Source 1, and the UN General Assembly adopted Source 2.",
+    "B": "Source 1 says nothing about human rights. It is Source 2 that calls colonial rule \"a denial of fundamental human rights.\"",
+    "D": "Source 1 describes no revolt; it is a law about handing over power. Source 2 does not mention Ghana."
+   },
+   "hint": "Check each choice against both sources. Who passed each one, and how many places does each cover?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "U8-P27",
+   "set": "P9",
+   "topic": "8.5",
+   "lo": "F",
+   "skill": "3.D",
+   "difficulty": "medium",
+   "stem": "Which of the following developments would best support Source 2's belief that \"the process of liberation is irresistible\"?",
+   "options": {
+    "A": "In 1974–1975, after long wars, Portugal gave up Angola, Mozambique, and its other African colonies.",
+    "B": "In 1965 the white-minority government of Rhodesia broke away from Britain to keep the Black majority out of power.",
+    "C": "In 1966, South Africa rejected the United Nations decision to end its mandate over South West Africa (now Namibia) and continued to govern the territory.",
+    "D": "Britain kept Bermuda, whose voters turned down independence in a 1995 vote."
+   },
+   "answer": "A",
+   "explanation": "Portugal fought long wars against independence movements in its African colonies during the 1960s and early 1970s. These wars helped bring down Portugal's dictatorship in 1974. The new government recognized Guinea-Bissau's independence in 1974, and Mozambique and Angola became independent in 1975. These events support the declaration's belief that colonial rule would end.",
+   "whyNot": {
+    "B": "Rhodesia's unilateral declaration was meant to preserve white-minority power. It did not establish majority rule.",
+    "C": "This describes resistance to decolonization in 1966. It does not describe colonial rule ending.",
+    "D": "Bermuda's people chose to stay tied to Britain. That does not show colonial rule being swept away."
+   },
+   "hint": "For each choice, decide whether colonial rule is ending or holding on."
+  },
+  {
+   "id": "U8-P28",
+   "set": "P10",
+   "topic": "8.9",
+   "lo": "K",
+   "skill": "3.C",
+   "difficulty": "medium",
+   "stem": "Which of the following best describes a similarity between the two sources?",
+   "options": {
+    "A": "Both describe the fighting as part of a worldwide struggle against communism.",
+    "B": "Both were approved by a vote of the members of an international organization.",
+    "C": "Both ask outsiders to help one side in a conflict to protect the peace of the region around it.",
+    "D": "Both ask the U.S. Congress to send money to fighters who oppose their own government."
+   },
+   "answer": "C",
+   "explanation": "The Security Council asked UN members to help South Korea \"repel the armed attack\" and restore peace \"in the area.\" Reagan asked Congress to help rebels stop a government that, he said, threatened \"its democratic neighbors.\" One conflict was in Asia and one in the Americas, but in both, outside powers backed one side in a local war.",
+   "whyNot": {
+    "A": "Reagan calls Nicaragua's government a \"Communist menace,\" but the resolutions do not mention communism.",
+    "B": "The resolutions were adopted by votes in the Security Council. Reagan's speech was his own appeal to Americans.",
+    "D": "Reagan asks Congress for $100 million for the rebels. The resolutions ask UN members to help South Korea's government."
+   },
+   "hint": "Check each choice against both sources. A similarity must be true of Source 1 and of Source 2.",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "U8-P29",
+   "set": "P10",
+   "topic": "8.2",
+   "lo": "B",
+   "skill": "4.A",
+   "difficulty": "hard",
+   "stem": "The absence of the Soviet Union noted at the end of Source 1 is best explained by",
+   "options": {
+    "A": "the \"Uniting for Peace\" resolution, which let the General Assembly act when the Security Council was blocked",
+    "B": "a Soviet boycott of the Security Council to protest that Nationalist China, not Communist China, held China's seat",
+    "C": "the Soviet Union's decision to leave the United Nations, as Germany and Japan had left the League of Nations",
+    "D": "Stalin's death, which left Soviet diplomats without orders from Moscow"
+   },
+   "answer": "B",
+   "explanation": "In January 1950 the Soviet delegate walked out of the Security Council. The Soviets demanded that Mao's new government take China's seat, which Chiang Kai-shek's Nationalist government still held. Because the Soviets were absent, they could not veto the resolutions on Korea. They returned in August 1950.",
+   "whyNot": {
+    "A": "The General Assembly passed \"Uniting for Peace\" in November 1950, months after these votes, after the Soviets had come back to the Council.",
+    "C": "Germany and Japan did leave the League in 1933, but the Soviet Union stayed in the United Nations throughout the Cold War.",
+    "D": "Stalin died in 1953, three years after these resolutions."
+   },
+   "hint": "Check the date of each choice against June 1950."
+  },
+  {
+   "id": "U8-P30",
+   "set": "P10",
+   "topic": "8.3",
+   "lo": "C",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "Reagan's statement \"I'm not talking about American troops\" is best understood in the context of",
+   "options": {
+    "A": "debates in Congress over the cost of keeping U.S. forces stationed in Western Europe",
+    "B": "widespread concern about another prolonged overseas ground war after the Vietnam War",
+    "C": "efforts to negotiate limits on nuclear weapons deployed in Europe",
+    "D": "efforts to expand trade and diplomatic ties with Communist China"
+   },
+   "answer": "B",
+   "explanation": "The Vietnam War caused heavy losses and deep divisions in the United States. More than 58,000 Americans died. Afterward, many Americans feared another long ground war, so Reagan stressed aid to local fighters instead of U.S. troops.",
+   "whyNot": {
+    "A": "Debates over troops in Europe were about NATO's costs, not about sending soldiers to fight in Central America.",
+    "C": "Arms talks in Europe concerned nuclear missiles, not ground troops in Nicaragua.",
+    "D": "Ties with China grew from the 1970s, but they do not explain Reagan's promise about troops in Central America."
+   },
+   "hint": "Reagan says troops \"are not needed.\" Which choice explains why Americans in 1986 might worry that they would be?"
+  },
+  {
+   "id": "U8-P31",
+   "set": "P11",
+   "topic": "8.6",
+   "lo": "H",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Which of the following conclusions is best supported by the table?",
+   "options": {
+    "A": "Korean-born people were the largest of the four groups in the table in 1980 and in 1990.",
+    "B": "The Cuban-born population grew faster during the 1980s than it had during the 1960s.",
+    "C": "The number of Vietnam-born people in the United States fell between 1980 and 2000.",
+    "D": "The Philippine-born population grew more than tenfold between 1960 and 2000."
+   },
+   "answer": "D",
+   "explanation": "Ten times 104,843 is about 1 million. By 2000 there were 1,369,070 Philippine-born people, so the group grew more than ten times.",
+   "whyNot": {
+    "A": "In both 1980 and 1990 the Korean-born group was smaller than the Cuban-born and Philippine-born groups.",
+    "B": "The Cuban-born group grew by about 360,000 in the 1960s and by about 130,000 in the 1980s.",
+    "C": "It rose from about 231,000 to about 988,000."
+   },
+   "hint": "Test each choice against the numbers in the table, one row at a time."
+  },
+  {
+   "id": "U8-P32",
+   "set": "P11",
+   "topic": "8.6",
+   "lo": "H",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The growth of the Philippine-born population shown in the table is best explained by",
+   "options": {
+    "A": "the Green Revolution, which raised rice harvests in the Philippines in the 1960s and 1970s",
+    "B": "changes in U.S. immigration law combined with family, work, and school ties from the colonial period",
+    "C": "the Japanese occupation of the Philippines during the Second World War",
+    "D": "the Vietnam War, which sent large numbers of refugees from Southeast Asia to the United States"
+   },
+   "answer": "B",
+   "explanation": "The United States ruled the Philippines from 1898 to 1946. That created ties through English, schools, military service, and work. A 1965 U.S. law ended rules that had kept out most Asian immigrants, and family ties and demand for workers helped Filipino migration grow. Like Algerians who moved to France and South Asians who moved to Britain, they moved to the country that had once ruled them.",
+   "whyNot": {
+    "A": "Bigger harvests gave people more food at home. They do not explain why Filipinos moved to the United States.",
+    "C": "The occupation ended in 1945, long before most of the growth shown in the table.",
+    "D": "Refugees from the Vietnam War came mainly from Vietnam, Laos, and Cambodia, not the Philippines."
+   },
+   "hint": "Ask of each choice: would it make people move to the United States in particular? Check the dates, too.",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "U8-P33",
+   "set": "P11",
+   "topic": "8.3",
+   "lo": "C",
+   "skill": "5.B",
+   "difficulty": "easy",
+   "stem": "Which development best explains the largest decade-to-decade increase in the Cuban-born population shown in the table?",
+   "options": {
+    "A": "the Bracero Program, which brought workers from Mexico to farms in the United States",
+    "B": "the Mariel boatlift, when Castro let more than 100,000 Cubans leave by boat",
+    "C": "the Spanish-American War, after which Cuba came under U.S. control",
+    "D": "the Cuban Revolution, after which many Cubans who opposed Castro's government left"
+   },
+   "answer": "D",
+   "explanation": "The largest increase shown came between 1960 and 1970, when the Cuban-born population rose from 79,150 to 439,048. Castro took power in 1959 and built a communist state allied with the Soviet Union. Hundreds of thousands of Cubans, many from the middle and upper classes, left for the United States in the 1960s.",
+   "whyNot": {
+    "A": "The Bracero Program brought Mexican farm workers, not Cubans, to the United States.",
+    "B": "The Mariel boatlift took place in 1980, after the years in question.",
+    "C": "The Spanish-American War was fought in 1898, long before 1960."
+   },
+   "hint": "Check the date of each choice against the decade when the big jump happened.",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "U8-P34",
+   "set": "P12",
+   "topic": "8.6",
+   "lo": "G",
+   "skill": "3.C",
+   "difficulty": "easy",
+   "stem": "Both sources describe",
+   "options": {
+    "A": "refugees fleeing communist governments in Eastern Europe that had been set up with Soviet help",
+    "B": "migrants moving from former colonies to Britain in search of factory work",
+    "C": "people driven from their homes by the Korean War",
+    "D": "mass displacement tied to the end of British rule and fights over new states and borders"
+   },
+   "answer": "D",
+   "explanation": "Britain left India in 1947 and Palestine in 1948. In South Asia, about 10 to 15 million people crossed the new border between India and Pakistan. In Palestine, about 700,000 Palestinian Arabs fled or were expelled during the conflict of 1947–1949. That displacement began before Israel declared independence in May 1948 and continued afterward.",
+   "whyNot": {
+    "A": "Neither source mentions communism or the Soviet Union.",
+    "B": "Both sources describe people fleeing violence within the region, not moving to Britain for work.",
+    "C": "The Korean War did drive millions from their homes, but in Korea. These sources describe South Asia and Palestine."
+   },
+   "hint": "Ask what the people in both sources have in common: who is moving, when, and why?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "U8-P35",
+   "set": "P12",
+   "topic": "8.6",
+   "lo": "G",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "The Indian government's request for U.S. planes in Source 1 most likely reflects",
+   "options": {
+    "A": "the decision of India's new government to join the U.S. side in the Cold War in return for military aid",
+    "B": "the struggle of a newly independent government to protect and move huge numbers of refugees with few resources of its own",
+    "C": "Pakistan's appeal for outside help in its war with India over Kashmir",
+    "D": "the Indian National Congress's demand, made during the Quit India movement, that Britain leave India at once"
+   },
+   "answer": "B",
+   "explanation": "Britain left India only seven weeks before this telegram. The new Indian government had to protect millions of people crossing the new border, but it had few working planes. Estimates of the dead in the Partition violence range from about 200,000 to 2 million.",
+   "whyNot": {
+    "A": "India stayed out of the Cold War blocs. Nehru later became a leader of the Non-Aligned Movement.",
+    "C": "The telegram concerns India's request to move refugees out of the North-West Frontier Province, not a Pakistani request about Kashmir.",
+    "D": "The Quit India movement began in 1942. By October 1947 Britain had already left."
+   },
+   "hint": "Look at what the Prime Minister asks for, and why the refugees cannot travel on their own."
+  },
+  {
+   "id": "U8-P36",
+   "set": "P12",
+   "topic": "8.6",
+   "lo": "G",
+   "skill": "3.A",
+   "difficulty": "medium",
+   "stem": "According to Source 2, Israel and the Arab states disagreed mainly about",
+   "options": {
+    "A": "who had caused the refugee problem and whether refugees should return home or be resettled",
+    "B": "whether the city of Jerusalem should be placed under international control",
+    "C": "whether the United Nations should take over the government of Palestine for a period of years",
+    "D": "whether Palestinian Arabs should have their own state, as the UN partition plan of 1947 had proposed"
+   },
+   "answer": "A",
+   "explanation": "The paper reports disputes over who was responsible and over return versus resettlement. Most Arab states refused to resettle the refugees for good (Transjordan was the exception) and wanted them allowed to go home, as the UN had resolved in December 1948. Israel blamed the Arab invasion and wanted resettlement. The paper gives U.S. officials' account of the governments' positions. It does not present the refugees' own views.",
+   "whyNot": {
+    "B": "Jerusalem's future was argued over in these years, but point 3 does not mention it.",
+    "C": "The paper does not discuss a UN government for Palestine.",
+    "D": "The UN plan of 1947 did call for an Arab state, but point 3 is about the refugees, not about a state."
+   },
+   "hint": "Reread point 3. Which choice does that paragraph actually discuss?"
+  },
+  {
+   "id": "U8-P37",
+   "set": "P13",
+   "topic": "8.8",
+   "lo": "J",
+   "skill": "5.B",
+   "difficulty": "easy",
+   "stem": "The Soviet war in Afghanistan contributed to the end of the Cold War mainly by",
+   "options": {
+    "A": "leading the United States and many of its allies to boycott the 1980 Olympic Games in Moscow",
+    "B": "leading the Soviet Union to sign the SALT I agreements limiting certain strategic weapons systems",
+    "C": "costing the Soviet Union money and lives at a time when its economy was already weak",
+    "D": "giving the Soviet Union a warm-water port on the Indian Ocean"
+   },
+   "answer": "C",
+   "explanation": "About 15,000 Soviet soldiers died in Afghanistan, and the war cost huge sums. Many Soviet citizens turned against it. Gorbachev decided to bring the troops home, and they left in 1988–1989.",
+   "whyNot": {
+    "A": "The United States did boycott the 1980 Olympics, but the boycott did not weaken the Soviet Union the way the long, costly war did.",
+    "B": "The SALT I agreements were signed in 1972, seven years before the invasion.",
+    "D": "Afghanistan has no coastline, and the Soviets gained no port there."
+   },
+   "hint": "Check the date of each choice against the war (1979–1989). Then ask which one weakened the Soviet Union itself.",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "U8-P38",
+   "set": "P13",
+   "topic": "8.3",
+   "lo": "C",
+   "skill": "1.A",
+   "difficulty": "easy",
+   "stem": "U.S. aid to the Afghan rebels described in Source 1 is an example of",
+   "options": {
+    "A": "collective security, in which the United Nations sent troops from many countries to stop an invasion",
+    "B": "détente, in which the superpowers worked together to reduce tensions",
+    "C": "proxy warfare, in which a power supports local forces fighting a rival or that rival's allies",
+    "D": "nonalignment, in which a country refused to take sides in the Cold War"
+   },
+   "answer": "C",
+   "explanation": "The Soviet Union sent its own troops and supported Afghanistan's government. The United States supported Afghan groups fighting that government and Soviet forces, without sending its own army. The conflict combined direct Soviet intervention with proxy competition. Angola and Nicaragua also saw proxy wars.",
+   "whyNot": {
+    "A": "The UN did not send troops to Afghanistan. Aid went secretly through Pakistan.",
+    "B": "The invasion further weakened détente, the effort to ease Cold War tensions.",
+    "D": "The United States, Saudi Arabia, and Pakistan clearly took a side against the Soviets."
+   },
+   "hint": "Who did the fighting, and who supplied the weapons and money?"
+  },
+  {
+   "id": "U8-P39",
+   "set": "P13",
+   "topic": "8.7",
+   "lo": "I",
+   "skill": "1.A",
+   "difficulty": "medium",
+   "stem": "Al Qaeda, as described in the two sources, is an example of",
+   "options": {
+    "A": "a movement that used violence against civilians to pursue political goals",
+    "B": "a nationalist movement that fought to win independence from a European colonial power",
+    "C": "a political party that won elections and then ruled as a one-party state",
+    "D": "an alliance of oil-producing countries that raised prices to gain political power"
+   },
+   "answer": "A",
+   "explanation": "Source 1 shows al Qaeda's founding at the end of the Soviet-Afghan war. Source 2 shows what it did next: the bombings of two U.S. embassies in Kenya and Tanzania in 1998 killed more than 200 people, most of them Africans. In 2001 al Qaeda carried out the September 11 attacks. Other movements of the period, such as the Shining Path in Peru, also used violence against civilians.",
+   "whyNot": {
+    "B": "Al Qaeda's founders were not fighting for one country's independence. Source 1 says they planned a base for \"future jihad\" in many places.",
+    "C": "Al Qaeda did not run in elections or govern a country. It was a secret network that, Source 2 says, the Taliban sheltered.",
+    "D": "That describes OPEC, a group of governments. Al Qaeda was a private network of fighters."
+   },
+   "hint": "Reread the end of Source 1 and the first two paragraphs of Source 2. What did al Qaeda plan, and what did it do?"
+  },
+  {
+   "id": "U8-P40",
+   "set": "P14",
+   "topic": "8.7",
+   "lo": "I",
+   "skill": "1.A",
+   "difficulty": "easy",
+   "stem": "Pinochet's rule in Chile, as described in the report, is an example of",
+   "options": {
+    "A": "a democratic government that came to power through free and fair elections in 1973",
+    "B": "a military government that met opposition with harsh force, deepening conflict",
+    "C": "a communist government that the Soviet Union helped bring to power",
+    "D": "a socialist government that took over foreign-owned copper mines for the nation"
+   },
+   "answer": "B",
+   "explanation": "Pinochet's forces arrested tens of thousands of people. More than 3,000 people were killed or forcibly disappeared under Pinochet's dictatorship. Like Franco in Spain and Idi Amin in Uganda, Pinochet met opposition with force.",
+   "whyNot": {
+    "A": "Pinochet's army overthrew Allende, who had been elected.",
+    "C": "Pinochet was anti-communist, and the United States supported his government.",
+    "D": "Allende's government nationalized the major copper mines in 1971. They stayed state-owned under Pinochet, although his government promoted free-market policies in many other areas."
+   },
+   "hint": "How did Pinochet come to power, and how did his officers treat opponents?"
+  },
+  {
+   "id": "U8-P41",
+   "set": "P14",
+   "topic": "8.9",
+   "lo": "K",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "U.S. actions in Chile described in the report were most similar to U.S. actions in which of the following?",
+   "options": {
+    "A": "Iran, where the CIA helped overthrow Prime Minister Mohammad Mosaddegh",
+    "B": "West Germany, where the United States paid for rebuilding through the Marshall Plan",
+    "C": "Japan, where U.S. officials wrote a democratic constitution after the war",
+    "D": "Korea, where U.S. troops fought under the United Nations flag"
+   },
+   "answer": "A",
+   "explanation": "In Iran in 1953, the CIA and Britain helped overthrow Mosaddegh, who had taken over Iran's oil industry; he had been chosen by Iran's elected parliament. In Chile the CIA funded Allende's opponents and tried to block him from taking office in 1970. Both were secret U.S. actions against leaders seen as threats. This report alone does not show that the CIA directed Chile's 1973 coup.",
+   "whyNot": {
+    "B": "Marshall Plan aid was open economic help, not a secret effort to remove a government.",
+    "C": "In Japan the United States openly occupied a defeated country. It did not secretly work against an elected leader.",
+    "D": "In Korea, U.S. troops fought openly in a war. In Chile the CIA acted in secret."
+   },
+   "hint": "Reread the report. What kind of action did the United States take in Chile, and against whom? Then compare each choice.",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "U8-P42",
+   "set": "P14",
+   "topic": "8.7",
+   "lo": "I",
+   "skill": "2.C",
+   "difficulty": "medium",
+   "stem": "A historian could use this report most directly to investigate which question?",
+   "options": {
+    "A": "Which hardships most affected Chilean families during military rule?",
+    "B": "How did the CIA describe its contacts with Chile's military government?",
+    "C": "How did rural and urban Chileans differ in their responses to Pinochet?",
+    "D": "What did Chilean political prisoners consider the lasting effects of imprisonment?"
+   },
+   "answer": "B",
+   "explanation": "The report was prepared to explain CIA activities to Congress. It directly addresses the agency's contacts, including the officers who were \"contacts or agents of the CIA.\" To study Chileans' experiences, historians would also need Chilean testimony, local records, and truth commission reports.",
+   "whyNot": {
+    "A": "The report says little about Chilean families' daily lives. That question needs Chilean testimony and records.",
+    "C": "The report does not compare groups of Chileans. That question needs local records and Chilean voices.",
+    "D": "The report does not include prisoners' own accounts. That question needs their testimony and truth commission reports."
+   },
+   "hint": "Think about who wrote the report and for whom. Which question could it answer from its own evidence?"
+  },
+  {
+   "id": "U8-P43",
+   "set": "P15",
+   "topic": "8.8",
+   "lo": "J",
+   "skill": "1.A",
+   "difficulty": "easy",
+   "stem": "The \"new policy of reform and openness\" that Reagan mentions refers to",
+   "options": {
+    "A": "Khrushchev's de-Stalinization, which freed many prisoners from labor camps",
+    "B": "Brezhnev's détente, which led to arms-control treaties with the West",
+    "C": "Gorbachev's reforms known as perestroika and glasnost",
+    "D": "Deng Xiaoping's market reforms in the People's Republic of China"
+   },
+   "answer": "C",
+   "explanation": "Gorbachev became the Soviet leader in 1985. Glasnost (\"openness\") let people speak and write more freely. Perestroika (\"rebuilding\") tried to fix the economy by loosening state control.",
+   "whyNot": {
+    "A": "Khrushchev's reforms came in the 1950s. Reagan speaks of what Moscow is doing \"now,\" in 1987.",
+    "B": "Détente focused on relations between states. Reagan is referring to Gorbachev's reforms within the Soviet Union.",
+    "D": "Deng's reforms took place in China. Reagan is talking about Moscow."
+   },
+   "hint": "Reread the sentence with \"new policy.\" Where is the policy coming from, and in what year is Reagan speaking?"
+  },
+  {
+   "id": "U8-P44",
+   "set": "P15",
+   "topic": "8.8",
+   "lo": "J",
+   "skill": "2.B",
+   "difficulty": "easy",
+   "stem": "Reagan's purpose in contrasting the West's prosperity with \"failure\" in the Communist world was most likely to",
+   "options": {
+    "A": "announce that the United States would send food aid to the Soviet Union",
+    "B": "persuade West Germans to accept more American nuclear missiles aimed at the Soviet Union",
+    "C": "praise East Germany's government for letting more of its citizens visit the West",
+    "D": "argue that freedom brings prosperity and push Soviet leaders to go further with reform"
+   },
+   "answer": "D",
+   "explanation": "Reagan spoke to people on both sides of the Wall. He said the West's wealth proved that freedom worked. He challenged Gorbachev to show that his reforms were real by opening the Wall.",
+   "whyNot": {
+    "A": "Reagan says the Soviet Union \"cannot feed itself,\" but he offers no food aid in this speech.",
+    "B": "American missiles had been placed in West Germany in 1983. In this part of the speech Reagan compares how people live under freedom and under communism.",
+    "C": "Reagan does not praise East Germany's rulers. He calls for the Wall to be torn down."
+   },
+   "hint": "Whom does Reagan address at the end of the third paragraph, and what does he ask for?"
+  },
+  {
+   "id": "U8-P45",
+   "set": "P15",
+   "topic": "8.8",
+   "lo": "J",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The Strategic Defense Initiative is most closely associated with which pressure on Soviet leaders during the 1980s?",
+   "options": {
+    "A": "the cost of the war in Afghanistan, where Soviet troops fought rebels armed partly by the United States",
+    "B": "the perceived cost of keeping up with U.S. military research while Soviet economic growth slowed",
+    "C": "a 1987 treaty in which both superpowers agreed to remove their intermediate-range nuclear missiles",
+    "D": "a rise in world oil prices that brought the Soviet Union large profits from its oil exports"
+   },
+   "answer": "B",
+   "explanation": "SDI paid for research on ways to shoot down missiles. The proposed shield was never built as planned. But Soviet leaders worried about U.S. technology and the cost of competing with it while their economy grew slowly. Military costs were one of several pressures on the Soviet system.",
+   "whyNot": {
+    "A": "The Afghan war also strained Soviet resources, but it does not explain the pressure created by the military research program named in the question.",
+    "C": "The 1987 INF Treaty required both sides to eliminate ground-launched missiles with ranges of 500 to 5,500 kilometers. It removed missiles; SDI was about building new defenses.",
+    "D": "High oil prices in the 1970s helped the Soviet economy, but prices fell in the 1980s. SDI was about weapons, not oil."
+   },
+   "hint": "Reread the sentence about the Strategic Defense Initiative. What kind of program was it, and what would it cost a rival to match?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "U8-P46",
+   "set": "P16",
+   "topic": "8.8",
+   "lo": "J",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "Gorbachev's statement that \"freedom of choice is a universal principle that should allow of no exceptions\" contributed most directly to which development?",
+   "options": {
+    "A": "the Soviet invasion of Czechoslovakia in 1968 to end the reforms of the Prague Spring",
+    "B": "the Chernobyl nuclear disaster, which made many Soviet citizens distrust their government",
+    "C": "the Chinese government's use of troops to end the Tiananmen Square protests in 1989",
+    "D": "the fall of communist governments in Eastern Europe in 1989, when Soviet troops did not step in to save them"
+   },
+   "answer": "D",
+   "explanation": "Earlier Soviet leaders had sent tanks to keep communist governments in power, as in Hungary in 1956 and Czechoslovakia in 1968. Gorbachev said each people could choose its own path. In 1989 Poles, Hungarians, East Germans, Czechs, and others pushed out their communist rulers, and the Soviet army stayed in its bases. The Berlin Wall opened in November 1989.",
+   "whyNot": {
+    "A": "This happened twenty years earlier and did the opposite: Soviet troops ended a country's free choice.",
+    "B": "Chernobyl happened in 1986, two years before this speech. It was an accident, not a people's choice.",
+    "C": "China's government acted on its own, and it crushed the protests. The Soviet Union did not control China."
+   },
+   "hint": "Check the date of each choice. Then ask which one fits the idea of letting each people choose.",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "U8-P47",
+   "set": "P16",
+   "topic": "8.8",
+   "lo": "J",
+   "skill": "2.C",
+   "difficulty": "medium",
+   "stem": "A historian studying how ordinary Soviet citizens felt about perestroika would find this speech limited mainly because",
+   "options": {
+    "A": "it gives the Soviet leader's own claims, made to a world audience, about what his people thought",
+    "B": "it describes radical economic reforms without giving any measurements of changes in production",
+    "C": "it announces military reductions without reporting how NATO governments responded",
+    "D": "it discusses relations among the Soviet republics without tracing their earlier history"
+   },
+   "answer": "A",
+   "explanation": "Gorbachev says that \"all our peoples and all generations of citizens\" support perestroika. A leader speaking to the world wants his reforms to look popular. To learn what ordinary people thought, a historian would look at letters, surveys, protests, and elections, such as the 1989 vote in which many party officials lost.",
+   "whyNot": {
+    "B": "Missing production data limits a study of the reforms' economic results, but it does not explain why the speech is weak evidence of citizens' opinions.",
+    "C": "NATO governments' reactions would show foreign responses, not Soviet citizens' views.",
+    "D": "The republics' earlier history would add context, but it would not show how citizens felt about the reforms in 1988."
+   },
+   "hint": "Ask what kinds of evidence would show how ordinary people felt. Is a leader's speech to the world that kind of evidence?"
+  },
+  {
+   "id": "U8-P48",
+   "set": "P16",
+   "topic": "8.8",
+   "lo": "J",
+   "skill": "3.D",
+   "difficulty": "medium",
+   "stem": "Which subsequent development most directly challenged Gorbachev's expectation that perestroika would improve relations between the Soviet central government and the republics?",
+   "options": {
+    "A": "Gorbachev received the Nobel Peace Prize in 1990 for his part in easing Cold War tensions.",
+    "B": "Soviet voters chose many members of a new Congress of People's Deputies in partly free elections in 1989.",
+    "C": "The Soviet Union broke apart into fifteen separate countries at the end of 1991, about three years later.",
+    "D": "The last Soviet troops left Afghanistan in February 1989."
+   },
+   "answer": "C",
+   "explanation": "Gorbachev described reform as a way to improve relations between the center and the republics within the Soviet Union. Instead, independence movements grew, from the Baltic states to Ukraine, and the Union dissolved in December 1991, showing that those relationships had broken down.",
+   "whyNot": {
+    "A": "The prize honored Gorbachev's foreign policy. It does not show trouble between Moscow and the republics.",
+    "B": "These elections were part of the \"democratic reform\" Gorbachev describes. They do not by themselves show relations between Moscow and the republics breaking down.",
+    "D": "Bringing the troops home was Gorbachev's own decision. It does not show his reforms losing strength."
+   },
+   "hint": "Reread Gorbachev's claim. Then check the date and the result of each choice."
+  }
+ ],
+ "exam": {
+  "title": "Unit 8 Practice Exam: Cold War and Decolonization",
+  "timeMinutes": 25,
+  "questionCount": 25,
+  "directions": "Each set of questions refers to a source: a primary source, a historian's writing, an image, or data. For each question, choose the best answer. Use the source and your knowledge of world history from c. 1900 to the present. There is no penalty for guessing. Some sources use historical labels or insulting descriptions of other peoples and religions; these words show the writers' views.",
+  "questions": [
+   {
+    "id": "U8-E01",
+    "set": "X1",
+    "topic": "8.1",
+    "lo": "A",
+    "skill": "4.A",
+    "difficulty": "medium",
+    "stem": "Truman's statement that Great Britain was \"reducing or liquidating its commitments in several parts of the world\" is best understood in the context of",
+    "options": {
+     "A": "Britain's defeat in the Suez crisis, which showed that it could no longer act alone as a great power",
+     "B": "the economic strain of the Second World War, which also led Britain to give up its rule over India",
+     "C": "the Berlin Blockade, which forced Britain to spend heavily on an airlift to supply West Berlin",
+     "D": "Britain's decision to join the European Economic Community and focus on trade in Europe"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. The Suez crisis came in 1956, nine years after this speech.",
+     "B": "Correct. Britain came out of the war deeply in debt. In 1947 it pulled back from Greece and Turkey and gave up India, and in 1948 it left Palestine.",
+     "C": "Incorrect. The Berlin Blockade began in June 1948, more than a year after this speech.",
+     "D": "Incorrect. Britain joined the European Economic Community in 1973."
+    },
+    "explanation": "The war left Britain with huge debts and a weak economy. It could no longer pay to defend its interests around the world. The United States stepped in to take Britain's place in Greece and Turkey."
+   },
+   {
+    "id": "U8-E02",
+    "set": "X1",
+    "topic": "8.2",
+    "lo": "B",
+    "skill": "2.B",
+    "difficulty": "easy",
+    "stem": "Truman's description of two \"alternative ways of life\" was most likely meant to",
+    "options": {
+     "A": "warn Americans that the Soviet army was about to invade Greece and Turkey across their northern borders",
+     "B": "persuade Congress that aiding Greece and Turkey was part of a global fight against communism",
+     "C": "ask the United Nations to send peacekeeping troops to Greece's northern border",
+     "D": "explain why the United States would stay neutral in the fighting inside Greece"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Truman speaks of armed Communist fighters inside Greece and of \"outside pressures,\" not of an invasion by the Soviet army.",
+     "B": "Correct. Truman spoke to Congress to win $400 million in aid. Framing the choice as freedom against oppression made the aid seem necessary.",
+     "C": "Incorrect. Truman asks Congress for U.S. aid. He does not ask the UN for troops.",
+     "D": "Incorrect. Truman asks for aid to the Greek government against armed Communists, which is taking a side."
+    },
+    "explanation": "Truman wanted Americans to accept a new role in the world. He described a contest between free societies and societies run by a minority through terror. This idea, called the Truman Doctrine, guided U.S. policy for decades."
+   },
+   {
+    "id": "U8-E03",
+    "set": "X1",
+    "topic": "8.3",
+    "lo": "C",
+    "skill": "5.B",
+    "difficulty": "easy",
+    "stem": "The policy Truman announced was most directly carried further by which of the following?",
+    "options": {
+     "A": "the Marshall Plan's aid to Western Europe and the founding of NATO",
+     "B": "the Baruch Plan, which proposed that an international agency control atomic energy",
+     "C": "U.S. recognition of the new People's Republic of China as China's government",
+     "D": "the Good Neighbor Policy, which promised that the United States would not send troops into Latin America"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. The Marshall Plan (1948) gave Western Europe about $13 billion, and NATO (1949) joined the United States and Western Europe in a military alliance. Both aimed to contain Soviet power.",
+     "B": "Incorrect. The Baruch Plan was offered in June 1946, before this speech, and the Soviets turned it down.",
+     "C": "Incorrect. The United States refused to recognize Communist China until 1979.",
+     "D": "Incorrect. The Good Neighbor Policy dates from 1933, before the Cold War. It did not carry Truman's policy further."
+    },
+    "explanation": "Truman's promise to \"support free peoples\" became the policy of containment. Aid to Greece and Turkey came first. The United States then expanded containment through Marshall Plan aid beginning in 1948 and NATO's creation in 1949.",
+    "reasoning": "Continuity and Change"
+   },
+   {
+    "id": "U8-E04",
+    "set": "X2",
+    "topic": "8.3",
+    "lo": "C",
+    "skill": "3.C",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes a difference between the two sources?",
+    "options": {
+     "A": "Khrushchev offers to remove the missiles from Cuba, while Kennedy rejects his offer and calls for an invasion of the island.",
+     "B": "Khrushchev links the missiles in Cuba to U.S. missiles in Turkey, while Kennedy wants Cuba settled separately.",
+     "C": "Khrushchev calls the weapons in Cuba offensive, while Kennedy calls them defensive.",
+     "D": "Khrushchev wants the two leaders to settle the crisis alone, while Kennedy turns to the United Nations."
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Kennedy says the key parts of Khrushchev's proposals \"seem generally acceptable,\" and he offers \"assurances against an invasion of Cuba.\"",
+     "B": "Correct. Khrushchev asks the United States to remove its \"analogous means from Turkey.\" Kennedy warns that \"linking these problems to the broader questions of European and world security\" would make the crisis worse.",
+     "C": "Incorrect. This reverses them. Khrushchev insists the weapons are for \"defense\" and calls them the means Kennedy regards \"as offensive.\"",
+     "D": "Incorrect. Khrushchev offers to make his pledge \"in the United Nations.\" Both leaders give the UN a role."
+    },
+    "explanation": "Khrushchev tried to trade the missiles in Cuba for the U.S. missiles in Turkey. In public, Kennedy answered only the offer about Cuba. He did not want it to look as if the United States was giving up an ally's defenses under pressure.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "U8-E05",
+    "set": "X2",
+    "topic": "8.2",
+    "lo": "B",
+    "skill": "4.A",
+    "difficulty": "medium",
+    "stem": "Which development provides the most immediate historical context for Khrushchev's statement that Cuba should be able to \"develop in the way its people desire\"?",
+    "options": {
+     "A": "the Platt Amendment, which had let the United States step into Cuba's affairs",
+     "B": "Mexico's takeover of foreign-owned oil companies, which had angered the United States",
+     "C": "Castro's revolution and a failed invasion of Cuba by exiles trained by the CIA",
+     "D": "the Bolshevik Revolution's call for workers everywhere to overthrow capitalism"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. The Platt Amendment set up an earlier framework for U.S. intervention in Cuba and helps explain Cuban distrust. Castro's revolution and the failed invasion of 1961 are the more immediate context for Khrushchev's statement in 1962.",
+     "B": "Incorrect. Mexico took over foreign oil companies in 1938. Khrushchev is writing about Cuba in 1962.",
+     "C": "Correct. Castro took power in 1959 and moved closer to the Soviet Union. After the Bay of Pigs invasion of April 1961, Castro and Khrushchev feared another U.S. attack.",
+     "D": "Incorrect. The Bolshevik Revolution took place in 1917. Khrushchev speaks of defending Cuba, not of starting revolutions."
+    },
+    "explanation": "Khrushchev said the missiles were there to protect a small country that had just had a revolution. The Bay of Pigs invasion had given Cuba reason to fear the United States. The Soviets wanted to protect their new ally in the Americas."
+   },
+   {
+    "id": "U8-E06",
+    "set": "X2",
+    "topic": "8.3",
+    "lo": "C",
+    "skill": "3.D",
+    "difficulty": "hard",
+    "stem": "Which of the following later developments would best support the claim that the crisis was settled partly on terms that Khrushchev asked for in Source 1?",
+    "options": {
+     "A": "Castro refused to let United Nations inspectors into Cuba to check that the sites were taken apart.",
+     "B": "The United States and the Soviet Union set up a direct teletype \"hotline\" between their capitals.",
+     "C": "The United States quietly removed its missiles from Turkey in the months after the crisis.",
+     "D": "The Soviet Union also removed its IL-28 bombers from Cuba in late 1962."
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. This really happened, but it shows Castro blocking inspections, not the United States meeting Khrushchev's terms.",
+     "B": "Incorrect. The link helped the two governments communicate during later crises. It does not show that the United States accepted Khrushchev's proposal about missiles in Turkey.",
+     "C": "Correct. Khrushchev asked for the removal of the U.S. missiles in Turkey. Kennedy secretly agreed, and the missiles were gone by April 1963.",
+     "D": "Incorrect. Kennedy demanded that the bombers go too. Their removal was a U.S. demand, not a term Khrushchev asked for."
+    },
+    "explanation": "The public deal was that the Soviets would remove their missiles and the United States would promise not to invade Cuba. A secret part, kept quiet for years, was that the U.S. missiles in Turkey would also be removed."
+   },
+   {
+    "id": "U8-E07",
+    "set": "X2",
+    "topic": "8.9",
+    "lo": "K",
+    "skill": "5.A",
+    "difficulty": "medium",
+    "stem": "Khrushchev's comparison of Cuba and Turkey best illustrates which effect of the Cold War that was similar in both hemispheres?",
+    "options": {
+     "A": "Both superpowers sent their own soldiers to fight long wars in Asia.",
+     "B": "Both superpowers gave aid to newly independent states to win their friendship.",
+     "C": "Both superpowers raced to launch satellites and send people into space.",
+     "D": "The superpowers placed military bases and missiles in allied countries near each other's borders."
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. This happened, in Vietnam and Afghanistan, but Khrushchev compares missile bases near borders, not wars.",
+     "B": "Incorrect. Both sides did give aid, but Khrushchev's comparison is about weapons placed near an enemy's border.",
+     "C": "Incorrect. The space race was real, but Khrushchev does not mention it. He compares missiles in Cuba and Turkey.",
+     "D": "Correct. The United States had missiles in Turkey, which bordered the Soviet Union, and in Italy and Britain, within range of it. The Soviets tried to do the same in Cuba, near the United States."
+    },
+    "explanation": "Alliances such as NATO and the Warsaw Pact, and the bases that came with them, spread the Cold War around the world. The crisis over Cuba showed the same kind of contest in the Americas as in Europe and Asia.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "U8-E08",
+    "set": "X3",
+    "topic": "8.2",
+    "lo": "B",
+    "skill": "4.A",
+    "difficulty": "easy",
+    "stem": "The scene in the photograph took place in the context of",
+    "options": {
+     "A": "a Soviet blockade that cut off the road, rail, and canal routes into West Berlin",
+     "B": "the building of the Berlin Wall, which stopped East Germans from fleeing to the West",
+     "C": "Allied bombing raids that destroyed much of Berlin near the end of the Second World War",
+     "D": "the uprising of East German workers that Soviet tanks crushed"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. The Soviet blockade began in June 1948 and ended in May 1949. U.S. and British planes kept delivering supplies until September 1949 to build up reserves.",
+     "B": "Incorrect. The Berlin Wall was built in 1961, more than ten years later.",
+     "C": "Incorrect. The photograph dates from 1948–1949, after the war. The planes are being unloaded, not used for bombing.",
+     "D": "Incorrect. The East German uprising took place in June 1953, four years after the airlift ended."
+    },
+    "explanation": "After the war, Berlin was split into four sectors deep inside the Soviet zone of Germany. When the Western powers brought a new currency into their zones, Stalin blocked the routes into West Berlin. The airlift kept more than 2 million people supplied."
+   },
+   {
+    "id": "U8-E09",
+    "set": "X3",
+    "topic": "8.3",
+    "lo": "C",
+    "skill": "5.B",
+    "difficulty": "easy",
+    "stem": "The crisis shown in the photograph contributed most directly to",
+    "options": {
+     "A": "the reunification of Germany under a single democratic government",
+     "B": "the founding of NATO and the division of Germany into two separate states",
+     "C": "the Marshall Plan's program of aid to rebuild Western Europe",
+     "D": "the Korean War, in which United Nations forces fought a communist invasion"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Germany was not reunited until 1990.",
+     "B": "Correct. In April 1949 the United States, Canada, and Western European states formed NATO. In May, West Germany was founded, and East Germany followed in October.",
+     "C": "Incorrect. Congress approved the Marshall Plan in April 1948, before the blockade began in June 1948.",
+     "D": "Incorrect. The Korean War began in 1950 when North Korea invaded South Korea. It did not grow out of the Berlin crisis."
+    },
+    "explanation": "The blockade strengthened support for a Western military alliance and deepened Germany's division. NATO and separate West and East German states were set up in 1949. Germany stayed divided until 1990.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "U8-E10",
+    "set": "X3",
+    "topic": "8.1",
+    "lo": "A",
+    "skill": "1.B",
+    "difficulty": "medium",
+    "stem": "The airlift shown in the photograph best illustrates which development after the Second World War?",
+    "options": {
+     "A": "The United States came out of the war with the economic and technical power to act worldwide.",
+     "B": "The United Nations was founded to help settle disputes between countries peacefully.",
+     "C": "European empires began to lose their colonies in Asia and Africa.",
+     "D": "Air transport replaced trains and ships as the main way of moving goods across Europe."
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. The operation needed large numbers of planes, trained crews, fuel, and supplies over about fifteen months.",
+     "B": "Incorrect. The UN was founded in 1945, but the airlift was carried out by the United States and Britain, not the UN.",
+     "C": "Incorrect. This was happening, but the photograph shows American planes supplying Berlin, not a colony winning freedom.",
+     "D": "Incorrect. Trains, ships, and trucks still carried most goods in Europe. The airlift was a special answer to a blockade."
+    },
+    "explanation": "The winners of the war did not come out of it equally. The United States came out with the largest economy in the world and most of its factories intact, so it could support a huge operation far from home. Britain also made a large contribution to the airlift."
+   },
+   {
+    "id": "U8-E11",
+    "set": "X4",
+    "topic": "8.8",
+    "lo": "J",
+    "skill": "3.A",
+    "difficulty": "easy",
+    "stem": "Which of the following conclusions is best supported by the chart?",
+    "options": {
+     "A": "The Soviet economy grew faster than the U.S. economy in the early 1980s.",
+     "B": "Eastern Europe's economies grew faster than the Soviet economy in most of the periods shown.",
+     "C": "U.S. growth fell steadily from the early 1960s to the early 1980s.",
+     "D": "Soviet growth slowed after the late 1960s and fell below U.S. growth by the late 1970s."
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. In 1981–85 the Soviet figure was 1.8 percent, lower than the U.S. figure of 3.0 percent.",
+     "B": "Incorrect. Eastern Europe grew faster than the Soviet Union in just one period, 1971–75.",
+     "C": "Incorrect. The U.S. average was higher in 1976–80 than in 1971–75, so it did not fall in every period.",
+     "D": "Correct. Soviet growth fell from 5.1 percent in 1966–70 to 2.2 percent in 1976–80, below the U.S. figure of 3.3 percent."
+    },
+    "explanation": "The Soviet economy kept growing, but its average growth rate slowed after 1966–70. In 1976–80 and 1981–85 the Soviet average was below the U.S. average. A slower growth rate does not mean an economy is shrinking."
+   },
+   {
+    "id": "U8-E12",
+    "set": "X4",
+    "topic": "8.8",
+    "lo": "J",
+    "skill": "5.B",
+    "difficulty": "easy",
+    "stem": "The trend shown for the Soviet Union contributed most directly to",
+    "options": {
+     "A": "the Soviet invasion of Afghanistan in 1979 to keep a communist government in power",
+     "B": "the removal of Khrushchev from power by other Communist Party leaders",
+     "C": "the Soviet boycott of the 1984 Olympic Games in Los Angeles",
+     "D": "Gorbachev's attempts to reform the Soviet economy and government"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. The invasion aimed to keep Afghanistan in Moscow's camp. It was not a response to slow growth, and it made the economy's problems worse.",
+     "B": "Incorrect. Khrushchev was removed in 1964, before the slowdown shown in the chart.",
+     "C": "Incorrect. The boycott answered the U.S. boycott of the 1980 Moscow Games. It was not a response to slow growth.",
+     "D": "Correct. Gorbachev took power in 1985. He said the economy had stopped growing fast enough. He started perestroika (\"rebuilding\") to fix the economy and glasnost (\"openness\") to let people speak more freely."
+    },
+    "explanation": "By the early 1980s Soviet leaders could see that their economy was falling behind. Gorbachev hoped reforms would fix it. Instead, the reforms helped bring down the communist system.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "U8-E13",
+    "set": "X4",
+    "topic": "8.8",
+    "lo": "J",
+    "skill": "2.C",
+    "difficulty": "medium",
+    "stem": "A historian using the chart to compare the Soviet and U.S. economies would find it limited mainly because",
+    "options": {
+     "A": "the figures stop in 1985, before Soviet growth began to slow",
+     "B": "the figures were reported by the Soviet government, which wanted its economy to look strong to the world",
+     "C": "the figures are estimates by an agency of the Soviets' rival, based on incomplete Soviet data",
+     "D": "the figures are not adjusted for rising prices, so they make growth look faster than it was"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. The chart shows Soviet growth slowing from 1971 on, long before 1985.",
+     "B": "Incorrect. The note under the chart says the figures are CIA estimates, not Soviet government figures.",
+     "C": "Correct. The CIA studied the Soviet economy for the U.S. government. It could not check Soviet numbers directly, so it had to estimate.",
+     "D": "Incorrect. The note says the figures are adjusted for rising prices."
+    },
+    "explanation": "These figures are estimates, not exact measurements. The CIA could not check Soviet numbers directly, so it built its own estimates from incomplete information. Historians should look at how the CIA made them and compare them with other evidence. The CIA's role as the Soviets' rival does not by itself prove that the figures were wrong."
+   },
+   {
+    "id": "U8-E14",
+    "set": "X5",
+    "topic": "8.5",
+    "lo": "F",
+    "skill": "4.A",
+    "difficulty": "easy",
+    "stem": "The note was written in the context of",
+    "options": {
+     "A": "France's attempt to regain control of its colony in Indochina after Japan's defeat",
+     "B": "the Geneva agreements' temporary military division of Vietnam into northern and southern zones",
+     "C": "the arrival of large numbers of U.S. combat troops in South Vietnam",
+     "D": "Japan's occupation of French Indochina early in the Second World War"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. The note says French troops attacked Saigon on September 23, 1945, after Japan surrendered. France wanted its empire back.",
+     "B": "Incorrect. The Geneva agreements came in 1954, after France lost its war. Their dividing line was meant to be temporary.",
+     "C": "Incorrect. Large numbers of U.S. combat troops arrived in 1965.",
+     "D": "Incorrect. Japan moved into Indochina in 1940–1941. The note describes events after Japan's surrender in 1945."
+    },
+    "explanation": "During the war Japan occupied Indochina. When Japan surrendered, Ho Chi Minh declared Vietnam independent. France sent troops to take back control, and full-scale war between France and the Viet Minh began in late 1946."
+   },
+   {
+    "id": "U8-E15",
+    "set": "X5",
+    "topic": "8.5",
+    "lo": "F",
+    "skill": "2.B",
+    "difficulty": "medium",
+    "stem": "The note's appeal to the Atlantic and San Francisco Charters and to Truman's declaration was most likely meant to",
+    "options": {
+     "A": "win the Great Powers' support by using the principles they themselves had announced",
+     "B": "show that Vietnam planned to adopt the Soviet system of state control of farms and factories",
+     "C": "ask the Great Powers to place Vietnam under a United Nations trusteeship for several years",
+     "D": "ask the Great Powers to bring back the rule of the Nguyen emperor Bao Dai over Vietnam"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. These charters and Truman's speech spoke of self-government and of each people's right to choose its government. The note uses the powers' own words to argue for independence.",
+     "B": "Incorrect. The note does not mention Soviet-style planning. It speaks of democracy and elections.",
+     "C": "Incorrect. Roosevelt had once suggested a trusteeship for Indochina, but the note asks for \"full independence.\"",
+     "D": "Incorrect. The note calls Vietnam a democratic republic. Emperor Bao Dai had already given up his throne in August 1945."
+    },
+    "explanation": "During the war, the Allies promised that peoples could choose their own rulers. Colonized peoples asked that this promise apply to them too. Ho Chi Minh even began Vietnam's declaration of independence with words from the American one."
+   },
+   {
+    "id": "U8-E16",
+    "set": "X5",
+    "topic": "8.5",
+    "lo": "F",
+    "skill": "5.A",
+    "difficulty": "medium",
+    "stem": "Compared with Britain's transfer of power in India in 1947, the end of French colonial rule in Vietnam in 1954 resulted more directly from",
+    "options": {
+     "A": "a United Nations referendum on independence",
+     "B": "a negotiated transfer following a mainly nonviolent mass campaign",
+     "C": "a sustained war against the colonial power",
+     "D": "a transfer of authority to a monarch backed by the colonial power"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. No UN vote decided Vietnam's independence. Elections planned at Geneva for 1956 were never held.",
+     "B": "Incorrect. That describes India more than Vietnam. India's independence came through negotiations after years of mostly nonviolent mass protest.",
+     "C": "Correct. Ho Chi Minh declared independence in 1945, but France fought to restore its rule. The Viet Minh's victory at Dien Bien Phu in 1954 ended French colonial rule.",
+     "D": "Incorrect. France gave the former emperor Bao Dai a limited role in 1949, but French rule ended only after France lost the war."
+    },
+    "explanation": "Ho Chi Minh declared independence in 1945, but France tried to restore its rule. The Viet Minh's military victory helped end French colonial rule in 1954. Britain transferred power in India through negotiations in 1947, although Partition brought mass violence and displacement.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "U8-E17",
+    "set": "X6",
+    "topic": "8.4",
+    "lo": "D",
+    "skill": "4.A",
+    "difficulty": "medium",
+    "stem": "The constitution's description of an \"indestructible friendship\" with the Soviet Union is best understood in the context of",
+    "options": {
+     "A": "the Sino-Soviet split, when the two countries quarreled over leadership of the communist world",
+     "B": "a 1950 alliance accompanied by Soviet loans and technical assistance to China",
+     "C": "the Soviet Union's entry into the war against Japan in 1945, when Soviet troops occupied Manchuria",
+     "D": "President Nixon's visit to China, which opened talks between China and the United States"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. The split came later. By 1960 Soviet experts were leaving China, and in 1969 the two countries fought along their border.",
+     "B": "Correct. China and the Soviet Union concluded a treaty of alliance in February 1950. Soviet loans, industrial projects, and advisers supported China's First Five-Year Plan (1953–1957).",
+     "C": "Incorrect. Soviet troops entered Manchuria in August 1945, before the People's Republic existed. They also carried off many of its factory machines.",
+     "D": "Incorrect. Nixon visited China in 1972, during the Sino-Soviet split."
+    },
+    "explanation": "After 1949 China \"leaned to one side,\" as Mao put it, toward the Soviet Union. The new constitution was modeled partly on the Soviet one, and Soviet help shaped China's first plans for heavy industry. The friendship did not last. By the 1960s the two communist giants were rivals."
+   },
+   {
+    "id": "U8-E18",
+    "set": "X6",
+    "topic": "8.4",
+    "lo": "D",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "Which later development most clearly departed from the voluntary approach to agricultural cooperation stated in Article 8?",
+    "options": {
+     "A": "the return to family farming under Deng Xiaoping's reforms after 1978",
+     "B": "the Hundred Flowers campaign, in which the party briefly invited intellectuals to criticize it",
+     "C": "the pressure on peasants to join large communes during the Great Leap Forward",
+     "D": "the land reform of 1950, which gave land taken from landlords to peasant families"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. Deng's reforms shifted farm work from communes to household contracts, while rural land generally stayed collectively owned. They reduced communal control rather than forcing peasants together.",
+     "B": "Incorrect. The Hundred Flowers campaign of 1956–1957 was about free speech, not farming.",
+     "C": "Correct. The Great Leap Forward placed farming under huge communes through strong official pressure, departing from the constitution's voluntary approach. Impossible targets and false harvest reports then led to a famine in 1959–1961 in which tens of millions of people died.",
+     "D": "Incorrect. The land reform came before this constitution. The preamble lists \"the reform of the agrarian system\" as already done."
+    },
+    "explanation": "Article 8 presents agricultural cooperation as voluntary and protects individual peasants' landownership. During the Great Leap Forward, officials pressed rural communities into large communes, which sharply limited households' control over what they grew and how it was shared.",
+    "reasoning": "Continuity and Change"
+   },
+   {
+    "id": "U8-E19",
+    "set": "X6",
+    "topic": "8.4",
+    "lo": "D",
+    "skill": "2.C",
+    "difficulty": "medium",
+    "stem": "Which research question could a historian answer most directly using this constitution?",
+    "options": {
+     "A": "How much did each province's grain output grow after 1954?",
+     "B": "How did peasant households respond when officials asked them to join co-operatives?",
+     "C": "How many private businesses in China's cities were transferred to state ownership between 1954 and 1957?",
+     "D": "What roles did the government publicly assign to state ownership and agricultural co-operatives?"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. Answering this requires production statistics, which the constitution does not give.",
+     "B": "Incorrect. Answering this requires evidence of peasants' experiences and responses.",
+     "C": "Incorrect. Answering this requires records of actual changes in business ownership.",
+     "D": "Correct. Articles 6 and 8 directly state the intended roles of state ownership and agricultural co-operatives."
+    },
+    "explanation": "A constitution states a government's goals and promises. Articles 6 and 8 describe the government's economic policies, but they do not give production figures, peasants' responses, or counts of businesses taken over. To learn what really happened, historians use other sources, such as village and factory records and memoirs."
+   },
+   {
+    "id": "U8-E20",
+    "set": "X7",
+    "topic": "8.2",
+    "lo": "B",
+    "skill": "1.A",
+    "difficulty": "easy",
+    "stem": "Principle 6(A) in section G best reflects the goals of which of the following?",
+    "options": {
+     "A": "the Commonwealth, which kept trade and cultural ties between Britain and its former colonies",
+     "B": "the Warsaw Pact, a military alliance of the Soviet Union and the communist states of Eastern Europe",
+     "C": "SEATO, an alliance that the United States formed with Pakistan, Thailand, and other states to contain communism",
+     "D": "the Non-Aligned Movement, in which many new states refused to join either side in the Cold War"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. Some Bandung states, such as India and Pakistan, belonged to the Commonwealth, but it was not a side in the Cold War. Principle 6(A) is about military alliances.",
+     "B": "Incorrect. The Warsaw Pact was the Soviet bloc's alliance. No state at Bandung joined it, and principle 6(A) warns against such alliances.",
+     "C": "Incorrect. SEATO was a U.S.-backed defense organization. It was an arrangement to which principle 6(A)'s warning could apply, not a group that shared its goal. Pakistan and Thailand belonged to SEATO but still signed the communiqué.",
+     "D": "Correct. Principle 6(A) warns against defense alliances that serve \"the particular interests of any of the big powers.\" In 1961 Nehru, Sukarno, Nasser, Nkrumah, and Tito helped found the Non-Aligned Movement."
+    },
+    "explanation": "The Non-Aligned Movement, founded in 1961, sought to keep its members free to make foreign-policy decisions without joining the major Cold War blocs. That goal fit Bandung's warning against defense arrangements that served the big powers' interests. Principle 5 still allowed collective self-defense, and nonalignment did not require members to refuse all foreign aid."
+   },
+   {
+    "id": "U8-E21",
+    "set": "X7",
+    "topic": "8.6",
+    "lo": "H",
+    "skill": "3.D",
+    "difficulty": "medium",
+    "stem": "Which of the following would best support the concern behind section A's call for \"stabilizing international prices of and demand for primary commodities\"?",
+    "options": {
+     "A": "Falling world cocoa prices in the early 1960s cut Ghana's government revenue from cocoa and strained its development budget.",
+     "B": "India's government built state-owned steel mills as part of its five-year plans.",
+     "C": "Indonesian nationalists fought Dutch troops from 1945 to 1949 to win independence.",
+     "D": "Many new Asian and African states joined the United Nations in the 1950s and voted together on colonial questions."
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. Ghana depended heavily on cocoa for export earnings and government revenue. Falling world prices cut government cocoa revenue and made development spending harder to keep up.",
+     "B": "Incorrect. State steel mills show a new state building its own industry. They do not show harm from falling prices for raw materials.",
+     "C": "Incorrect. This was a war against colonial rule. It does not show a problem with the prices of exports.",
+     "D": "Incorrect. Voting together in the UN shows political cooperation. It does not show a problem with the prices of exports."
+    },
+    "explanation": "Many new states depended on selling one or two raw materials, such as cocoa, rubber, or copper. In Ghana, falling cocoa prices cut government revenue and made development spending harder to keep up, even as larger harvests helped support export earnings. Leaders such as Kwame Nkrumah of Ghana warned that this kind of dependence was a new form of outside control, which he called \"neocolonialism.\""
+   },
+   {
+    "id": "U8-E22",
+    "set": "X7",
+    "topic": "8.5",
+    "lo": "F",
+    "skill": "4.A",
+    "difficulty": "easy",
+    "stem": "Section D's support for \"the people of Algeria, Morocco and Tunisia\" is best understood in the context of",
+    "options": {
+     "A": "uprisings against French rule in North Africa, including a war for independence that began in Algeria in 1954",
+     "B": "the Suez crisis, when Britain, France, and Israel invaded Egypt after it took over the Suez Canal",
+     "C": "the League of Nations mandates, under which France ruled Syria and Lebanon after the First World War",
+     "D": "Italy's invasion of Ethiopia, which the League of Nations failed to stop"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. After the Second World War, nationalists in all three lands demanded independence, with protests, strikes, and armed attacks. In November 1954 Algeria's National Liberation Front (FLN) began a war for independence.",
+     "B": "Incorrect. The Suez crisis came in 1956, the year after the Bandung Conference.",
+     "C": "Incorrect. The mandates were in the Middle East, not North Africa, and Syria and Lebanon were independent by 1946.",
+     "D": "Incorrect. Italy invaded Ethiopia in 1935, and Ethiopia was free again by 1941. Section D is about French rule in North Africa."
+    },
+    "explanation": "France ruled Algeria from 1830 and Tunisia and Morocco from 1881 and 1912. Morocco and Tunisia became independent in 1956 through negotiated settlements, after protests, armed resistance, and colonial repression. Algeria, where about a million European settlers lived, won independence only in 1962 after a long war."
+   },
+   {
+    "id": "U8-E23",
+    "set": "X8",
+    "topic": "8.7",
+    "lo": "I",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "Eisenhower's warning about the \"military-industrial complex\" is best understood in the context of",
+    "options": {
+     "A": "the cuts after the Second World War, when the U.S. Army shrank from about 8 million soldiers to under 1 million",
+     "B": "the end of the military draft and the creation of a volunteer army",
+     "C": "the Limited Test Ban Treaty, which banned nuclear tests in the air, in space, and under water",
+     "D": "an arms race in which the superpowers built nuclear weapons and long-range missiles"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. The army shrank right after 1945, but the Cold War reversed that. By 1961 Eisenhower calls the arms industry \"permanent.\"",
+     "B": "Incorrect. The draft ended in 1973, twelve years later.",
+     "C": "Incorrect. The Limited Test Ban Treaty was signed in 1963, after this speech. It limited certain nuclear tests; it did not end all testing.",
+     "D": "Correct. After the Soviets launched Sputnik in 1957, many Americans feared a \"missile gap.\" Both sides spent heavily on bombers, missiles, and nuclear weapons."
+    },
+    "explanation": "The Cold War supported a much larger permanent military and arms industry than the United States had kept before the Second World War. Defense contracts created jobs and profits, which could give military leaders and weapons makers political influence."
+   },
+   {
+    "id": "U8-E24",
+    "set": "X8",
+    "topic": "8.7",
+    "lo": "I",
+    "skill": "2.B",
+    "difficulty": "easy",
+    "stem": "Eisenhower's warning against \"unwarranted influence\" was most likely meant to",
+    "options": {
+     "A": "urge Congress to close U.S. bases in Europe and bring the troops home",
+     "B": "caution Americans that the permanent buildup for the Cold War could endanger democracy",
+     "C": "prepare Americans to accept a war against the Soviet Union in the near future",
+     "D": "argue that the federal government should take over the weapons industry from private companies"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Eisenhower says the country was \"compelled\" to build its armaments industry. He warns about its influence, not its existence.",
+     "B": "Correct. Eisenhower warns that a huge army and a big weapons industry working together could gain too much power. He asks citizens to keep watch.",
+     "C": "Incorrect. Eisenhower calls disarmament \"a continuing imperative.\" He does not call for war.",
+     "D": "Incorrect. Eisenhower warns about the arms industry's influence. He does not propose that the government take it over."
+    },
+    "explanation": "Eisenhower was a former general who had led the Allied armies in Europe in the Second World War. His warning carried weight because he knew the military so well. He feared that defense spending could grow beyond what security needed."
+   },
+   {
+    "id": "U8-E25",
+    "set": "X8",
+    "topic": "8.7",
+    "lo": "I",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "Which later development most clearly illustrates the continued importance of the permanent arms industry described by Eisenhower?",
+    "options": {
+     "A": "The United States and the Soviet Union concluded the SALT I agreements in 1972 to limit certain strategic weapons systems.",
+     "B": "The Non-Proliferation Treaty of 1968 tried to stop the spread of nuclear weapons to more countries.",
+     "C": "In the 1980s U.S. military spending rose sharply for new bombers, missiles, and warships, and both superpowers armed allies in regional wars.",
+     "D": "Many Americans protested against the Vietnam War and the draft in the late 1960s."
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. SALT I limited certain strategic weapons systems. The agreements do not directly show continued arms production and sales, although new weapons and more warheads kept coming.",
+     "B": "Incorrect. The Non-Proliferation Treaty sought to limit the spread of nuclear weapons to more states. It does not directly show continued arms production and sales.",
+     "C": "Correct. U.S. military spending rose sharply in the early 1980s, and both superpowers armed allies and the sides in proxy wars, from the Middle East to Africa and Latin America.",
+     "D": "Incorrect. The protests opposed a war. They do not show the growth of the arms industry continuing."
+    },
+    "explanation": "Eisenhower described a large, permanent military industry. The military buildup of the 1980s and continued arms supplies to allies in later Cold War conflicts show that the industry he described lasted.",
+    "reasoning": "Continuity and Change"
+   }
+  ]
+ }
+}

@@ -44,7 +44,7 @@ def load_units():
             assert set(q["options"]) == LETTERS, f"{f.name}: {q['id']} needs options A-D"
             assert q["answer"] in LETTERS, f"{f.name}: {q['id']} answer not A-D"
             assert q.get("set") in stim, f"{f.name}: {q['id']} set {q.get('set')} has no stimulus"
-        units[n] = d
+        units[n] = {k: v for k, v in d.items() if k != "schemaNotes"}  # internal notes, not shown
         print(f"  unit {n}: {len(d['practice'])} practice · {len(d['exam']['questions'])} exam · "
               f"{len(stim)} sources · v{d.get('version','?')}")
     return units

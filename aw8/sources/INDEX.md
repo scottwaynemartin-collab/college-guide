@@ -1,6 +1,6 @@
 # INDEX: AP World Unit 8 (Cold War and Decolonization, c. 1900–present) sources
 
-Revision of Nov 8, 2026 (bank version 2026-11-08b).
+Revision of Nov 8, 2026 (bank version 2026-11-08e).
 
 Copyright rule for this unit: there is no blanket claim. Each source has its own license basis, given in the table and argued in its own file. The bases used are:
 - (a) a work of the U.S. government (17 U.S.C. § 105);
@@ -9,7 +9,9 @@ Copyright rule for this unit: there is no blanket claim. Each source has its own
 - (d) an official record or document of the United Nations or another intergovernmental body (UN: ST/AI/189/Add.9/Rev.2, Commons template PD-UN-doc);
 - (e) an open license (UK legislation under the Open Government Licence v3.0).
 
-Printing in a U.S. government publication is never used as a basis by itself. No copyrighted post-1930 non-government text is quoted, and nothing is paraphrased as a quotation.
+Printing in a U.S. government publication is never used as a basis by itself.
+
+Rights are recorded separately for each underlying text, translation, image, and dataset. Publication in a government collection is not, by itself, a public-domain determination. The applicable public-domain basis, official-document exception, license, or permission is identified for each source. (X2.1, X5, and X7 also carry a structured "Rights record" in their files, and P7 and X3 an "Image record.") No copyrighted post-1930 non-government text is quoted, and nothing is paraphrased as a quotation.
 
 Every text excerpt was copied from raw text saved in sources/raw/ and machine-checked against it: every stretch between ellipses, brackets, or footnote marks had to occur in the raw text once both were reduced to letters and digits. Where the raw OCR is broken, the passages used were read by eye from the page images and transcribed in a separate file (raw/un_a43pv72_transcribed.txt, raw/un_sres82_83_1950_en.txt, raw/prc_ocr_corrections.txt). Seven stretches still differ from the raw text; each is a known case read by hand: an OCR slip (X5, two stretches; P1's decorated capital), a page header inside a sentence (P3, P8), a typo in the Avalon transcription corrected from the Public Papers (X8 "it poses"), and a FRUS editors' bracketed correction (P12.1 "Amritsar").
 
