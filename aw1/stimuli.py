@@ -66,7 +66,7 @@ STIM = {
     "O servant, where dost thou seek Me? Lo! I am beside thee. I am neither in temple nor in mosque: I am neither in Kaaba nor in Kailash: Neither am I in rites and ceremonies, nor in Yoga and renunciation. If thou art a true seeker, thou shalt at once see Me … Kabîr says, \"O Sadhu! God is the breath of all breath.\"",
     "It is needless to ask of a saint the caste to which he belongs; For the priest, the warrior, the tradesman, and all the thirty-six castes, alike are seeking for God. … The barber has sought God, the washerwoman, and the carpenter … Hindus and Moslems alike have achieved that End, where remains no mark of distinction.",
     "If God be within the mosque, then to whom does this world belong? If Ram be within the image which you find upon your pilgrimage, then who is there to know what happens without? Hari is in the East: Allah is in the West. Look within your heart, for there you will find both Karim and Ram … Kabîr is the child of Allah and of Ram: He is my Guru, He is my Pir."],
-    "Kabir (c. 1440–1518), poet and religious teacher from the city of Banaras in northern India, three songs passed down by his followers",
+    "Kabir (c. 1440–1518), poet and religious teacher from the city of Banaras in northern India, three songs credited to him and passed down by his followers",
     "Translated by Rabindranath Tagore, Songs of Kabir (1915); adapted",
     glossary=[{"t": "dost thou / thou shalt", "d": "do you / you will"},
               {"t": "Kaaba", "d": "the holy shrine in Mecca toward which Muslims pray"},
@@ -79,7 +79,7 @@ STIM = {
 "X5": P([
     "Mitimaes is the name of those who are transported from one land to another. The first kind of mitimaes, as instituted by the Incas, were those who were moved to other countries, after a new province had been conquered. A certain number of the conquered people were ordered to people another land of the same climate and conditions as their original country. … At the same time, an equal number of settlers was taken from a part which had been peaceful and civilized for a long time, and sent into the newly conquered province … Among the colonists there were spies, who took note of the conversations and schemes of the natives, and supplied the information to the governors, who sent it to Cuzco without delay, to be submitted to the Inca.",
     "… Selecting the best language, the Incas ordered, on pain of serious punishment, that all the natives of the empire should understand the tongue that was spoken at Cuzco, as well the men as the women. … So completely was this policy enforced, that in a few years the language was understood and used over an extent of more than twelve hundred leagues. Yet although this language was used, all the tribes also spoke their own …",
-    "… The system of the Peruvians was by quipus. These were long ropes made of knotted cords … Each ruler of a province was provided with accountants who were called quipucamayos, and by these knots they kept account of what tribute was to be paid in the district, with respect to silver, gold, cloth, flocks, down to fire-wood and other minute details. … I was incredulous respecting this system of counting … But when I was at Marcavillca, in the province of Xauxa, I asked the lord Guacarapora to explain it … He ordered his servants to bring the quipus … Thus I saw the accounts for the gold, the silver, the clothes, the corn, sheep, and other things; so that in truth I was quite astonished."],
+    "… The system of the Peruvians was by quipus. These were long ropes made of knotted cords … Each ruler of a province was provided with accountants who were called quipucamayos, and by these knots they kept account of what tribute was to be paid in the district, with respect to silver, gold, cloth, flocks, down to fire-wood and other minute details. … I was incredulous respecting this system of counting … But when I was at Marcavillca, in the province of Xauxa, I asked the lord Guacarapora to explain it in such a way as that my mind might be satisfied, and that I might be assured that it was true and accurate. He ordered his servants to bring the quipus … He told me to observe that all that he, for his part, had delivered to the Spaniards from the time that the Governor Don Francisco Pizarro arrived in the valley, was duly noted down without any fault or omission. Thus I saw the accounts for the gold, the silver, the clothes, the corn, sheep, and other things; so that in truth I was quite astonished."],
     "Pedro de Cieza de León, Spanish soldier who traveled in Peru from 1547 to 1550, The Second Part of the Chronicle of Peru, written about 1550 from interviews with Inca nobles in Cuzco",
     "Translated by Clements R. Markham (1883); adapted",
     footnotes=[{"mark": "*", "text": "Cieza uses \"natives\" for the Andean peoples the Incas conquered."}],
@@ -88,7 +88,8 @@ STIM = {
               {"t": "accountants / quipucamayos", "d": "record keepers"},
               {"t": "incredulous", "d": "unwilling to believe"},
               {"t": "Xauxa", "d": "a valley in the central Andes (today's Jauja, Peru)"},
-              {"t": "corn, sheep", "d": "here, maize and llamas"}]),
+              {"t": "corn, sheep", "d": "here, maize and llamas"},
+              {"t": "Francisco Pizarro", "d": "the Spanish leader who began the conquest of the Inca Empire in 1532"}]),
 
 "X6": P([
     "On certain days the sultan holds audiences in the palace yard, where there is a platform under a tree, with three steps; this they call the pempi. … The sultan comes out of a door in a corner of the palace, carrying a bow in his hand and a quiver on his back. On his head he has a golden skull-cap … The sultan is preceded by his musicians, who carry gold and silver guimbris [two-stringed guitars], and behind him come three hundred armed slaves. …",
@@ -137,7 +138,7 @@ STIM = {
     "attribution": "The Limbourg brothers, Dutch painters working for the Duke of Berry, a French royal prince, \"March,\" from the Très Riches Heures (Very Rich Hours), a hand-painted prayer book, begun c. 1412–1416 and finished by a later painter",
     "credit": "Musée Condé, Chantilly, France. Public domain image via Wikimedia Commons.",
     "description": "A tall painted page. At the bottom, a peasant in a gray tunic steers a wooden plow pulled by two oxen across a brown field. In the middle, three or four workers bend over grapevines in a walled vineyard on the left, and on the right a man scoops seed from a white sack. Farther up, a shepherd with a dog walks beside a flock of sheep. At the top of the landscape stands a large castle with white walls, round towers, and blue roofs. Above it, a blue half-circle with gold stars shows a calendar, the signs of the fish and the ram, and the sun in a chariot.",
-    "glossary": [{"t": "prayer book (book of hours)", "d": "a book of daily prayers with a calendar, made by hand for very rich owners"},
+    "glossary": [{"t": "prayer book (book of hours)", "d": "a book of daily prayers with a calendar, written and painted by hand"},
                  {"t": "peasant", "d": "a poor farmer or farm worker"},
                  {"t": "prune", "d": "cut back plants so they grow better"}]},
 
@@ -148,7 +149,7 @@ STIM = {
     "… The waters of the latter [the river] fill a number of canals of all sizes which run through the different quarters of the city … Both streets and canals are so wide and spacious that carts on the one and boats on the other can readily pass to and fro, conveying necessary supplies to the inhabitants. … In each of the squares is held a market three days in the week, frequented by 40,000 or 50,000 persons, who bring thither for sale every possible necessary of life …"],
     "Marco Polo, Venetian merchant who lived in China under Mongol rule from 1275 to 1292, describing Hangzhou, which had been the capital of the Song dynasty; his book was written down by the author Rustichello of Pisa in 1298",
     "Translated by Henry Yule, revised by Henri Cordier (1903); adapted",
-    footnotes=[{"mark": "*", "text": "the grandmother of the last Song emperor, who surrendered the city to the Mongol general Bayan in 1276"},
+    footnotes=[{"mark": "*", "text": "the Song empress dowager, grandmother of the boy emperor; she surrendered the city to the Mongol general Bayan in 1276"},
                {"mark": "**", "text": "Khubilai Khan, the Mongol ruler of China"}],
     glossary=[{"t": "Kinsay", "d": "Hangzhou, a city in southern China"},
               {"t": "grandeur", "d": "greatness and beauty"},
@@ -159,10 +160,10 @@ STIM = {
     "May it please your Majesty, I am informed that in consequence of the recent birth of a princess, a demand has been made on the Treasury for no less than 8,000 pieces of silk. Now the rigour of winter is just at its height, and the wretched workmen of the Dyeing Department, forced to break ice before they can get water, will suffer unspeakable hardships in supplying the amount required. And judging by your Majesty's known sentiments of humanity and thrift, I cannot believe that this wasteful corvée is to be imposed …",
     "I have also noticed that the relatives of the Lady Chang* have of late participated too frequently in the Imperial bounty. I am, it is true, but a poor Censor; yet whenever I see anything calculated to impair the prestige of the Son of Heaven, it becomes my duty to speak, that the divine wrath may be averted in time. …",
     "… The fact is that the Imperial bounty is too lavishly bestowed, and that extravagance is rife in the palace. Your Majesty suffers thereby: the State suffers thereby; and it is my duty to speak, trusting that your Majesty will take immediate steps to rectify these abuses."],
-    "Ouyang Xiu (1007–1072), Chinese scholar-official who passed the highest civil service examination, memorial (formal letter of advice) to the Song emperor, written while he served as a censor in the mid-1000s",
+    "Ouyang Xiu (1007–1072), Chinese scholar-official who passed the highest civil service examination, memorial (formal letter of advice) to the Song emperor, written in the mid-1000s while he held a post that Giles translates as \"Censor\"",
     "Translated by Herbert A. Giles, Gems of Chinese Literature (1923); adapted",
     footnotes=[{"mark": "*", "text": "the emperor's favorite consort (a wife ranked below the empress)"}],
-    glossary=[{"t": "Censor", "d": "an official whose job was to point out the mistakes of the emperor and other officials"},
+    glossary=[{"t": "Censor", "d": "a government official whose job was to watch for and report wrongdoing"},
               {"t": "rigour", "d": "harshness"}, {"t": "thrift", "d": "careful use of money"},
               {"t": "corvée", "d": "unpaid labor that people were forced to do for the government"},
               {"t": "bounty", "d": "gifts"}, {"t": "Son of Heaven", "d": "a title of the Chinese emperor"},
@@ -188,7 +189,7 @@ STIM = {
     "… I learnt from a sure source that the Sufis are the true pioneers on the path of God; that there is nothing more beautiful than their life, nor more praiseworthy than their rule of conduct, nor purer than their morality. The intelligence of thinkers, the wisdom of philosophers, the knowledge of the most learned doctors of the law would in vain combine their efforts in order to modify or improve their doctrine and morals; it would be impossible."],
     "Abu Hamid al-Ghazali (1058–1111), Muslim scholar who taught at the leading college in Baghdad, Deliverance from Error, an account of his own religious search written in the early 1100s",
     "Translated by Claud Field, The Confessions of Al Ghazzali (1909); adapted",
-    glossary=[{"t": "Sufism", "d": "Islamic mysticism: seeking a direct, personal experience of God"},
+    glossary=[{"t": "Sufism", "d": "a form of Islam whose followers, called Sufis, used prayer, chanting, and self-discipline in their search for God"},
               {"t": "yoke of the passions", "d": "control by strong desires"},
               {"t": "invocation", "d": "calling on"},
               {"t": "ecstasy", "d": "an overwhelming feeling of joy and closeness to God"},
@@ -240,7 +241,7 @@ STIM = {
     "Translated from Persian into French by Étienne Quatremère, and into English by R. H. Major, India in the Fifteenth Century (1857); place names modernized; adapted",
     footnotes=[{"mark": "*", "text": "a city to the north, in the Deccan region of central India"}],
     glossary=[{"t": "sovereignty", "d": "supreme power to rule"}, {"t": "dominion", "d": "the lands a ruler controls"},
-              {"t": "lak", "d": "100,000"}, {"t": "Brahmins", "d": "Hindu priests"},
+              {"t": "lak", "d": "100,000"}, {"t": "Brahmins", "d": "members of the priestly class"},
               {"t": "citadels", "d": "fortresses"}, {"t": "bazaar", "d": "a market"}]),
 
 "P8": {"type": "table",
@@ -255,7 +256,8 @@ STIM = {
              ["Feathers", "—", "800 handfuls of yellow feathers and 800 handfuls of green quetzal feathers, every six months"],
              ["Jaguar skins", "—", "40, every six months"],
              ["Jade stones", "—", "2 strings, every six months"]],
-    "source": "Codex Mendoza, a book painted by Indigenous artists, with notes in Spanish, in Mexico City about 1541, twenty years after the Spanish conquest. It was probably ordered by the first Spanish viceroy (governor) to send to the king of Spain, and historians believe its tribute pages were based on older Mexica tribute records. The notes say the Mexica rulers placed tax collectors and a governor from Tenochtitlan in the towns of Quauhnahuac \"that they should not rebell.\" English translation of the Spanish notes published by Samuel Purchas in Purchas His Pilgrimes (1625; reprinted 1906, Vol. XV)."},
+    "text": "The codex was painted by Indigenous artists, with notes in Spanish, in Mexico City about 1541, twenty years after the Spanish conquest. It was probably ordered by the first Spanish viceroy (governor) to send to the king of Spain. Historians believe its tribute pages were based on older Mexica tribute records. The notes say the Mexica rulers placed tax collectors and a governor from Tenochtitlan in the towns of Quauhnahuac \"that they should not rebell.\"",
+    "source": "Codex Mendoza, about 1541, tribute section; English translation of the Spanish notes published by Samuel Purchas in Purchas His Pilgrimes (1625; reprinted 1906, Vol. XV)"},
 
 "P9": P([
     "… When we arrived at the great market place, called Tlaltelolco, we were astounded at the number of people and the quantity of merchandise that it contained, and at the good order and control that was maintained, for we had never seen such a thing before. … Each kind of merchandise was kept by itself and had its fixed place marked out. Let us begin with the dealers in gold, silver, and precious stones, feathers, mantles, and embroidered goods. … there were cacahuateros who sold cacao. In this way one could see every sort of merchandise that is to be found in the whole of New Spain, placed in arrangement in the same manner as they do in my own country, which is Medina del Campo, where they hold the fairs …",
@@ -272,7 +274,7 @@ STIM = {
 
 "P10": P([
     "… Very different was the policy pursued by the two races* in their military career. The Aztecs, animated by the most ferocious spirit, carried on a war of extermination, signalizing their triumphs by the sacrifice of hecatombs of captives; while the Incas, although they pursued the game of conquest with equal pertinacity, preferred a milder policy, substituting negotiation and intrigue for violence, and dealt with their antagonists so that their future resources should not be crippled, and that they should come as friends, not as foes, into the bosom of the empire.",
-    "Their policy toward the conquered forms a contrast no less striking to that pursued by the Aztecs. The Mexican vassals were ground by excessive imposts and military conscriptions. … They were over-awed by fortresses and armed garrisons, and were made to feel every hour that they were not part and parcel of the nation, but held only in subjugation as a conquered people. The Incas, on the other hand, admitted their new subjects at once to all the rights enjoyed by the rest of the community; and, though they made them conform to the established laws and usages of the empire, they watched over their personal security and comfort with a sort of parental solicitude. … The policy of the two nations displayed the principle of fear as contrasted with the principle of love."],
+    "Their policy toward the conquered forms a contrast no less striking to that pursued by the Aztecs. The Mexican vassals were ground by excessive imposts and military conscriptions. … They were over-awed by fortresses and armed garrisons, and were made to feel every hour that they were not part and parcel of the nation, but held only in subjugation as a conquered people. The Incas, on the other hand, admitted their new subjects at once to all the rights enjoyed by the rest of the community; and, though they made them conform to the established laws and usages of the empire, they watched over their personal security and comfort with a sort of parental solicitude. The motley population, thus bound together by common interest, was animated by a common feeling of loyalty, which gave greater strength and stability to the empire, as it became more and more widely extended; while the various tribes who successively came under the Mexican sceptre, being held together only by the pressure of external force, were ready to fall asunder the moment that that force was withdrawn. The policy of the two nations displayed the principle of fear as contrasted with the principle of love."],
     "William H. Prescott, United States historian, History of the Conquest of Peru, published in 1847",
     "Adapted",
     footnotes=[{"mark": "*", "text": "Prescott, writing in 1847, uses \"races\" to mean peoples or nations, and \"Mexican\" for the Mexica (Aztecs)."}],
@@ -282,7 +284,10 @@ STIM = {
               {"t": "vassals", "d": "conquered peoples who had to obey and pay the rulers"},
               {"t": "imposts / conscriptions", "d": "taxes / forced military service"},
               {"t": "subjugation", "d": "being ruled by force"},
-              {"t": "solicitude", "d": "care and concern"}]),
+              {"t": "solicitude", "d": "care and concern"},
+              {"t": "motley", "d": "mixed; made up of many different groups"},
+              {"t": "sceptre", "d": "rule (a sceptre is the rod a king carries)"},
+              {"t": "fall asunder", "d": "fall apart"}]),
 
 "P11": P([
     "… [We] came to Maqdashaw [Mogadishu], which is an enormous town. Its inhabitants are merchants and have many camels, of which they slaughter hundreds every day [for food]. When a vessel reaches the port, it is met by sumbuqs, which are small boats, in each of which are a number of young men, each carrying a covered dish containing food. He presents this to one of the merchants on the ship saying \"This is my guest,\" and all the others do the same. … The host then sells his goods for him and buys for him, and if anyone buys anything from him at too low a price, or sells to him in the absence of his host, the sale is regarded by them as invalid. …",
@@ -290,8 +295,8 @@ STIM = {
     "The sultan at the time of my visit was Abu'l-Muzaffar Hasan, who was noted for his gifts and generosity. He used to devote the fifth part of the booty made on his expeditions to pious and charitable purposes, as is prescribed in the Koran …"],
     "Ibn Battuta, Muslim scholar from Morocco, describing his voyage along the East African coast in about 1331, from his book of travels, written down in 1355",
     "Translated by H. A. R. Gibb (1929); adapted",
-    footnotes=[{"mark": "*", "text": "the Arabic name for the Bantu-speaking peoples of the East African coast"},
-               {"mark": "**", "text": "Sofala, a port far to the south, in today's Mozambique; Yufi was an inland region that produced gold"}],
+    footnotes=[{"mark": "*", "text": "the Arabic name for the Bantu-speaking peoples of the East African coast; the description of their skin color is Ibn Battuta's"},
+               {"mark": "**", "text": "Sofala, a port far to the south, in today's Mozambique. Historians are not sure what place Ibn Battuta meant by \"Yufi\"; he was repeating what a merchant told him."}],
     glossary=[{"t": "sumbuqs", "d": "small boats"}, {"t": "invalid", "d": "not legal; it does not count"},
               {"t": "fortnight", "d": "two weeks"}, {"t": "booty", "d": "goods captured in war"},
               {"t": "pious", "d": "religious"}, {"t": "Koran", "d": "the Quran, the holy book of Islam"}]),

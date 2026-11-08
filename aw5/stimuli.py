@@ -46,7 +46,7 @@ STIM = {
     footnotes=[{"mark": "*", "text": "Dessalines's word for the French"}],
     glossary=[{"t": "factions", "d": "rival groups"}, {"t": "torpitude", "d": "a dull, numb state (an old form of \"torpor\")"},
               {"t": "proselytism", "d": "trying to win other people over to your cause"},
-              {"t": "fire-brands", "d": "people who stir up revolts"},
+              {"t": "fire-brands", "d": "troublemakers; people who start fights, the way a burning stick starts a fire"},
               {"t": "the Antilles", "d": "the islands of the Caribbean"}]),
 
 "X3": {"type": "bar",
@@ -85,7 +85,7 @@ STIM = {
     glossary=[{"t": "inauguration of a new regime", "d": "the start of a new government"},
               {"t": "usages", "d": "customs"}, {"t": "silk reeling", "d": "unwinding silk thread from cocoons"},
               {"t": "filature", "d": "a silk-reeling factory"},
-              {"t": "the Restoration", "d": "the Meiji Restoration of 1868, when the emperor's rule was restored and the shogunate ended"}]),
+              {"t": "the Restoration", "d": "the Meiji Restoration of 1868, when a new government took power in the emperor's name"}]),
 
 "X6": P([
     "All the world knows that in the first days of the Ottoman Monarchy, the glorious precepts of the Koran and the Laws of the Empire were always honoured. The Empire in consequence increased in strength and greatness. … In the last 150 years a succession of accidents and divers causes have arisen which have brought about a disregard for the sacred code of Laws, … and the former strength and prosperity have changed into weakness and poverty. …",
@@ -115,10 +115,10 @@ STIM = {
     "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Dore_London.jpg",
     "width": 650, "height": 550,
     "alt": "An engraving seen through a dark brick railway arch, looking down on long rows of crowded brick houses with small walled yards full of people and hanging laundry, while a steam train crosses a viaduct in the distance.",
-    "caption": "A dark brick arch frames the scene, as if seen from a train passing over London on a viaduct. Below, long rows of brick row houses stand close together, each with a tiny walled yard. The yards are crowded with people, and laundry hangs on lines. Chimneys crowd the rooftops. At the upper right, a steam train crosses another viaduct, trailing smoke.",
+    "caption": "A dark brick arch frames the scene, as if seen from a train passing over London on a viaduct. Below, long rows of brick row houses stand close together, each with a tiny walled yard. The yards are crowded with people, and laundry hangs on lines. Chimneys crowd the rooftops. In the distance at the top, a train crosses another arched viaduct, and smoke drifts across the sky.",
     "attribution": "Gustave Doré, French artist, Over London—by Rail, wood engraving from the book London: A Pilgrimage, by Doré and the English journalist Blanchard Jerrold, published in London in 1872",
     "credit": "Public domain image via Wikimedia Commons.",
-    "description": "The scene is seen from high up, framed by a dark brick arch. Below, long rows of nearly identical brick houses stretch into the distance. Each house has a small yard closed in by walls. The yards are crowded with women, men, and children, and laundry hangs between them. Dozens of chimneys rise from the roofs. At the top right, a train trailing smoke crosses a viaduct held up by arches.",
+    "description": "The scene is seen from high up, framed by a dark brick arch. Below, long rows of nearly identical brick houses stretch into the distance. Each house has a small yard closed in by walls. The yards are crowded with women, men, and children, and laundry hangs between them. Dozens of chimneys rise from the roofs. In the distance at the top, another viaduct held up by arches crosses the scene, with a train and smoke drifting across the sky.",
     "glossary": [{"t": "viaduct", "d": "a long bridge made of arches that carries a railway over a valley or a crowded area"}]},
 
 # ============================== PRACTICE ==============================
@@ -137,7 +137,7 @@ STIM = {
     item("Source 1", [
         "Consider, I address you as a legislator, whether, when men contend for their freedom, and to be allowed to judge for themselves, respecting their own happiness, it be not inconsistent and unjust to subjugate women, even though you firmly believe that you are acting in the manner best calculated to promote their happiness? Who made man the exclusive judge, if woman partake with him the gift of reason?",
         "In this style, argue tyrants of every denomination from the weak king to the weak father of a family; they are all eager to crush reason. … Do you not act a similar part, when you force all women, by denying them civil and political rights, to remain immured in their families groping in the dark?"],
-        "Mary Wollstonecraft, English writer, A Vindication of the Rights of Woman, 1792, from the dedication to Charles-Maurice de Talleyrand, a member of France's revolutionary National Assembly",
+        "Mary Wollstonecraft, English writer, A Vindication of the Rights of Woman, 1792, from the book's dedication to Charles-Maurice de Talleyrand, a French politician and former bishop",
         "Adapted",
         glossary=[{"t": "contend", "d": "fight or argue"}, {"t": "subjugate", "d": "keep under control by force"},
                   {"t": "partake", "d": "share"}, {"t": "of every denomination", "d": "of every kind"},
@@ -156,13 +156,15 @@ STIM = {
 "P3": P([
     "As we consider the various classes of which the State is composed, we are convinced that the laws of our empire which have wisely provided for the upper and middle classes, and have fixed with precision their rights and obligations, have not reached the same degree of success in relation to the peasants bound to the soil, who, either through ancient laws or custom, have been hereditarily subjected to the authority of the landlords. …",
     "It was to the nobility themselves that, in conformity to their own wishes, we reserved the right of formulating the provisions for the new organization of the peasants. … Our confidence has not been deceived. We have found the nobility … ready to make … the voluntary sacrifices of their rights so far as the personal servitude of the peasants is concerned. …",
-    "The peasants now bound to the soil shall, within the term fixed by the law, be vested with the full rights of freemen. The landed proprietors, while they shall retain all the rights of ownership over all the lands now belonging to them, shall transfer to the peasants, in return for a rent fixed by law, the full enjoyment of their cottages, farm buildings, and gardens. … In return for these allotments the peasant families shall be required to pay rent to the landlords, as fixed by the provisions of the law."],
+    "The peasants now bound to the soil shall, within the term fixed by the law, be vested with the full rights of freemen. The landed proprietors, while they shall retain all the rights of ownership over all the lands now belonging to them, shall transfer to the peasants, in return for a rent fixed by law, the full enjoyment of their cottages, farm buildings, and gardens. Furthermore, in order to assure to the peasants their subsistence and enable them to meet their obligations toward the State, the landlords shall turn over to the peasants a quantity of arable and other land provided for in the regulations above mentioned. In return for these allotments the peasant families shall be required to pay rent to the landlords, as fixed by the provisions of the law."],
     "Tsar Alexander II of Russia, manifesto freeing the serfs, March 1861",
     "Translation printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (1908); adapted",
     glossary=[{"t": "peasants bound to the soil", "d": "serfs: farmers who could not leave the land and owed labor or payments to a landlord"},
               {"t": "hereditarily", "d": "passed down from parents to children"},
               {"t": "in conformity to", "d": "following"},
               {"t": "personal servitude", "d": "the serfs' duty to serve their landlord"},
+              {"t": "arable", "d": "good for growing crops"},
+              {"t": "subsistence", "d": "enough food and goods to stay alive"},
               {"t": "allotments", "d": "plots of land given out"}]),
 
 "P4": P([
@@ -174,7 +176,7 @@ STIM = {
     footnotes=[{"mark": "*", "text": "The Helots were enslaved farm workers in ancient Sparta; Spartacus led a revolt of enslaved people against ancient Rome."}],
     glossary=[{"t": "vestiges", "d": "traces"}, {"t": "Indians / aborigines / natives", "d": "Bolívar's words for the Indigenous peoples of the Americas"},
               {"t": "titles of possession", "d": "legal claims to own the land"},
-              {"t": "the invaders", "d": "here, the Spanish armies fighting the independence movement"},
+              {"t": "the invaders", "d": "here, the Spanish, whom Bolívar treats as outsiders"},
               {"t": "yoke", "d": "a heavy burden, like the wooden bar placed on oxen"},
               {"t": "sable mantle", "d": "black cloak"}, {"t": "superfluous", "d": "not needed"}]),
 
@@ -205,7 +207,7 @@ STIM = {
     "Arnold Toynbee, English historian*, lectures given at Oxford University in 1880–1881, published as Lectures on the Industrial Revolution in England, 1884",
     "Adapted",
     footnotes=[{"mark": "*", "text": "This Arnold Toynbee (1852–1883) helped make the phrase \"Industrial Revolution\" popular. He was the uncle of a later, better-known historian with the same name."}],
-    glossary=[{"t": "domestic system", "d": "making goods by hand at home, often for a merchant who supplied the materials"},
+    glossary=[{"t": "domestic system", "d": "the older way of making cloth, in which spinners and weavers worked for merchants who supplied the materials"},
               {"t": "mule", "d": "a spinning machine"}, {"t": "smelting by pit-coal", "d": "using coal (coke) instead of charcoal to melt iron out of its ore"},
               {"t": "blast furnaces", "d": "very hot furnaces for making iron"},
               {"t": "means of communication", "d": "here, ways to move goods, such as roads and canals"}]),
@@ -226,12 +228,12 @@ STIM = {
     "David A. Wells, American economist, Recent Economic Changes, 1889",
     "Adapted",
     glossary=[{"t": "steamer", "d": "a steamship"}, {"t": "freight", "d": "goods carried for sale"},
-              {"t": "compound engines", "d": "improved steam engines that reuse the steam, so they burn less coal"},
+              {"t": "compound engines", "d": "an improved kind of steam engine that uses its steam more than once"},
               {"t": "6d.", "d": "six pence, British money"}, {"t": "bushel", "d": "a unit for measuring grain (about 60 pounds of wheat)"}]),
 
 "P10": P([
     "… Mohammed Ali, in 1819, was led by the advice of Europeans to attempt the introduction of the manufacturing system. … Being persuaded that, with the aid of certain French and Swiss adventurers, it was possible to render Cairo a second Manchester*, he commenced operations with his usual rapidity. French, Italian, Maltese, and Savoyard manufacturers and artisans were employed. … No expense was spared in procuring every description of machinery from Europe. …",
-    "… Mohammed Ali was still desirous of rendering Egypt a manufacturing country. … The cultivation of the cotton-plant already promised to become a fertile source of revenue. He now, therefore, determined to manufacture from the raw material. … On the first introduction of European manufactories into Egypt, the Turks in office, and even the people in general, openly evinced their disapprobation. … The Pasha, therefore, despised their representations … and his will necessarily prevailed. …",
+    "… Mohammed Ali was still desirous of rendering Egypt a manufacturing country. … The cultivation of the cotton-plant already promised to become a fertile source of revenue. He now, therefore, determined to manufacture from the raw material. … On the first introduction of European manufactories into Egypt, the Turks in office, and even the people in general, openly evinced their disapprobation. … The Pasha … despised their representations, which arose out of no superior degree of foresight, but from a puerile aversion to every thing new; and his will necessarily prevailed. …",
     "The fellahs employed in the various manipulations have an extreme dislike to the business; being pressed into the mills, they labour only because they are compelled. … Of the twenty-three or twenty-four cotton-mills existing in Egypt, there is not one which has not, at various periods, been accidentally or designedly set on fire."],
     "James Augustus St. John, British writer who traveled in Egypt in 1832–1833, Egypt and Mohammed Ali; or, Travels in the Valley of the Nile, vol. 2, published in London in 1834",
     "Adapted",
@@ -241,6 +243,7 @@ STIM = {
               {"t": "revenue", "d": "money coming in to the government"},
               {"t": "the Turks in office", "d": "Turkish-speaking officials who ran Egypt's government"},
               {"t": "evinced their disapprobation", "d": "showed that they disapproved"},
+              {"t": "representations", "d": "complaints or objections"}, {"t": "puerile", "d": "childish"},
               {"t": "fellahs", "d": "Egyptian peasant farmers"}, {"t": "pressed", "d": "forced"}]),
 
 "P11": {"type": "image",
@@ -306,9 +309,9 @@ STIM = {
                   {"t": "infant school", "d": "a school for young children"}])]},
 
 "P16": {"type": "bar",
-    "title": "Percentage of the Population Living in Cities of 10,000 or More People, England and Scotland, 1801–1891",
+    "title": "Percentage of the Population Living in Cities of 10,000 or More People, England and Wales and Scotland, 1801–1891",
     "categories": ["1801", "1851", "1891"],
-    "series": [{"name": "England", "values": [21.3, 39.5, 61.7]},
+    "series": [{"name": "England and Wales", "values": [21.3, 39.5, 61.7]},
                {"name": "Scotland", "values": [17.0, 32.2, 49.9]}],
     "yLabel": "Percent of population",
     "text": "The figures were calculated from British census counts, which were taken every ten years.",
