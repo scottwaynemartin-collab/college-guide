@@ -1,6 +1,6 @@
 # INDEX: AP World Unit 2 (Networks of Exchange, c. 1200–1450) sources
 
-Every text excerpt was copied from raw text downloaded with curl and saved in sources/raw/ (second scans in raw/alt/; texts already downloaded for Unit 1 were copied in and named in each file). A throwaway script checked every stretch between ellipses or brackets against the raw text after normalizing whitespace, case, punctuation and line-end hyphens; every stretch that did not match exactly was read by hand, and each mismatch is an OCR slip or a page or footnote break, listed in that set's file. Every edition or translation used was published in 1930 or earlier. Unit 1's passages were checked so that none is reused (Unit 1 uses Ibn Battuta on Delhi, Kilwa/Mogadishu and the Mali court, Zhao Rugua on Srivijaya, and Polo on Hangzhou; Unit 2 uses other passages from those books). Images: see IMAGES.md. Data: X6 from Rogers 1884, checked in two editions; P2 from Pegolotti's itinerary.
+Every text excerpt was copied from raw text downloaded with curl and saved in sources/raw/ (second scans in raw/alt/; texts already downloaded for Unit 1 were copied in and named in each file). A throwaway script checked every stretch between ellipses or brackets against the raw text after normalizing whitespace, case, punctuation and line-end hyphens; every stretch that did not match exactly was read by hand, and each mismatch is an OCR slip or a page or footnote break, listed in that set's file. Every edition or translation used was published in 1930 or earlier. Unit 1's passages were checked so that none is reused (Unit 1 uses Ibn Battuta on Delhi, Kilwa/Mogadishu and the Mali court, Zhao Rugua on Srivijaya, Abd al-Razzaq on Vijayanagara, and Polo on Hangzhou; Unit 2 uses other passages from those books). Images: see IMAGES.md. Data: X6 from Rogers 1884, checked in two editions; P2 from Pegolotti's itinerary.
 
 | Set | Type | Author / source | Edition (year) |
 |---|---|---|---|
@@ -8,7 +8,7 @@ Every text excerpt was copied from raw text downloaded with curl and saved in so
 | X2.1 | pair | Ibn al-Athir (1160–1233), al-Kamil fi'l-ta'rikh (The Complete History), entry for A.H. 617 (A.D. 1220–21) | Edward G. Browne, A Literary History of Persia, vol. II, From Firdawsi to Sa'di (London: T. Fisher Unwin, 1906), translation by Browne |
 | X2.2 | pair | Thomas Francis Carter (1882–1925), American historian of China (secondary source) | The Invention of Printing in China and Its Spread Westward (New York: Columbia University Press, 1925) |
 | X3 | passage | Ma Huan (c. 1380–c. 1460), Muslim interpreter on Zheng He's fleets | W. P. Groeneveldt, Notes on the Malay Archipelago and Malacca, Compiled from Chinese Sources |
-| X5 | passage | Ibn Battuta (1304–1368/69) | H. A. R. Gibb, tr., Ibn Battuta: Travels in Asia and Africa, 1325–1354 (London: Routledge & Kegan Paul, Broadway Travellers, 1929) |
+| X5 | passage | Kamal al-Din Abd al-Razzaq Samarqandi (1413–1482), envoy of the Timurid Shah Rukh | Translated from the Persian into French by Étienne Quatremère, and into English by R. H. Major, India in the Fifteenth Century |
 | X6 | bar | James E. Thorold Rogers (1823–1890), economic historian (published data) | Six Centuries of Work and Wages: The History of English Labour (London: Swan Sonnenschein, 1884); checked against the 1894 edition |
 | X7 | passage | David Eugene Smith (1860–1944) and Louis Charles Karpinski (1878–1956), historians of mathematics (secondary source) | The Hindu-Arabic Numerals (Boston and London: Ginn and Company, 1911) |
 | X8 | passage | Ruy González de Clavijo (d. 1412), ambassador of Henry III of Castile | Guy Le Strange, tr., Clavijo: Embassy to Tamerlane, 1403–1406 |
@@ -32,7 +32,7 @@ Every text excerpt was copied from raw text downloaded with curl and saved in so
 | P15 | image | Catalan Atlas (1375), caravan detail | Wikimedia Commons, public domain |
 
 Secondary sources: X2 Source 2 (Carter 1925), X7 (Smith & Karpinski 1911), P5 (Yule 1866/1915), P14 (de Candolle 1886), P16 (Gasquet 1893). Paired texts: X2 (exam), P13 (practice).
-Offensive or dated wording kept verbatim with a note: X5 and X8 ("infidel"), P3 ("Saracens," "idol temples"), P10 ("Negrolands," "negroes"), P11 ("Blacks"), P9 ("barbarian"), X3 ("Mahomedans"), P6 ("Muhammadan").
-Left out on purpose: Ibn al-Athir's account of killing women and unborn children (X2), Ibn Battuta's remarks on slave-girls and concubines (X5, P6), Rubruck's list of Mongol drinks beyond what the questions use.
+Offensive or dated wording kept verbatim with a note: X5 ("Infidels," "Mussulmauns"), P3 ("Saracens," "idol temples"), P11 ("Blacks"), P9 ("barbarian"), X3 ("Mahomedans"), P6 ("Muhammadan"). P10's offensive words were replaced with bracketed words, with a footnote saying so.
+Left out on purpose: Ibn al-Athir's account of killing women and unborn children (X2), Ibn Battuta's remarks on slave-girls and concubines (P6), Rubruck's list of Mongol drinks beyond what the questions use.
 Not used: al-'Umari on Mansa Musa (no English translation of 1930 or earlier was found; Gaudefroy-Demombynes 1927 is in French); Gabriele de' Mussi's Latin in full (used only through Gasquet's 1893 English); the Liujiagang/Changle inscription (Duyvendak 1938 is too late).
 CED: Fall 2026 AP World CED, Unit 2 topics 2.1–2.7 and Learning Objectives A–L (see ../ced_unit2_excerpt.txt).
