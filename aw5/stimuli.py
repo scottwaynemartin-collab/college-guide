@@ -43,7 +43,7 @@ STIM = {
     "Swear then to live free and independent, and to prefer death to every thing that would lead to replace you under the yoke."],
     "Jean-Jacques Dessalines, general in chief of the army that drove the French out of Saint-Domingue, proclamation declaring the independence of Haiti, Gonaïves, January 1, 1804",
     "English translation printed in Marcus Rainsford, An Historical Account of the Black Empire of Hayti (London, 1805); adapted",
-    footnotes=[{"mark": "*", "text": "Dessalines's word for the French"}],
+    footnotes=[{"mark": "*", "text": "\"Barbarians\" is the translated term Dessalines uses here for the French colonizers."}],
     glossary=[{"t": "factions", "d": "rival groups"}, {"t": "torpitude", "d": "a dull, numb state (an old form of \"torpor\")"},
               {"t": "proselytism", "d": "trying to win other people over to your cause"},
               {"t": "fire-brands", "d": "troublemakers; people who start fights, the way a burning stick starts a fire"},
@@ -51,12 +51,12 @@ STIM = {
 
 "X3": {"type": "bar",
     "title": "Estimated Shares of World Manufacturing Output, 1750 and 1900",
-    "categories": ["China", "South Asia", "Japan", "Russia", "United\nKingdom", "United\nStates"],
+    "categories": ["China", "India–\nPakistan", "Japan", "Russia", "United\nKingdom", "United\nStates"],
     "series": [{"name": "1750 (percent of world total)", "values": [32.8, 24.5, 3.8, 5.0, 1.9, 0.1]},
                {"name": "1900 (percent of world total)", "values": [6.2, 1.7, 2.4, 8.8, 18.5, 23.6]}],
     "yLabel": "Percent of world manufacturing",
-    "text": "The figures are an economic historian's estimates of each country's or region's share of all the manufactured goods made in the world. South Asia means the lands of today's India and Pakistan.",
-    "source": "Paul Bairoch, \"International Industrialization Levels from 1750 to 1980,\" Journal of European Economic History, 1982"},
+    "text": "The figures are an economic historian's estimates of each country's or region's share of all the manufactured goods made in the world, including goods made by hand. \"India–Pakistan\" is the historian's label for the lands that are now India, Pakistan, and Bangladesh. Only some countries are shown.",
+    "source": "Paul Bairoch, \"International Industrialization Levels from 1750 to 1980,\" Journal of European Economic History 11 (1982)"},
 
 "X4": {"type": "pair", "items": [
     item("Source 1", [
@@ -115,10 +115,10 @@ STIM = {
     "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Dore_London.jpg",
     "width": 650, "height": 550,
     "alt": "An engraving seen through a dark brick railway arch, looking down on long rows of crowded brick houses with small walled yards full of people and hanging laundry, while a steam train crosses a viaduct in the distance.",
-    "caption": "A dark brick arch frames the scene, as if seen from a train passing over London on a viaduct. Below, long rows of brick row houses stand close together, each with a tiny walled yard. The yards are crowded with people, and laundry hangs on lines. Chimneys crowd the rooftops. In the distance at the top, a train crosses another arched viaduct, and smoke drifts across the sky.",
-    "attribution": "Gustave Doré, French artist, Over London—by Rail, wood engraving from the book London: A Pilgrimage, by Doré and the English journalist Blanchard Jerrold, published in London in 1872",
+    "caption": "A dark brick arch frames the scene. Below, long rows of brick row houses stand close together, each with a tiny walled yard. The yards are crowded with people, and laundry hangs on lines. Chimneys crowd the rooftops. In the distance at the top, a steam train crosses a viaduct held up by arches, and smoke drifts across the sky.",
+    "attribution": "Over London—by Rail, wood engraving by Adolphe François Pannemaker, French engraver, after a drawing by Gustave Doré, French artist, from the book London: A Pilgrimage, by Doré and the English journalist Blanchard Jerrold, published in London in 1872",
     "credit": "Public domain image via Wikimedia Commons.",
-    "description": "The scene is seen from high up, framed by a dark brick arch. Below, long rows of nearly identical brick houses stretch into the distance. Each house has a small yard closed in by walls. The yards are crowded with women, men, and children, and laundry hangs between them. Dozens of chimneys rise from the roofs. In the distance at the top, another viaduct held up by arches crosses the scene, with a train and smoke drifting across the sky.",
+    "description": "The scene is seen from high up, framed by a dark brick arch. Below, long rows of nearly identical brick houses stretch into the distance. Each house has a small yard closed in by walls. The yards are crowded with women, men, and children, and laundry hangs between them. Dozens of chimneys rise from the roofs. In the distance at the top, a railway viaduct held up by arches crosses the scene, with a train and smoke drifting across the sky.",
     "glossary": [{"t": "viaduct", "d": "a long bridge made of arches that carries a railway over a valley or a crowded area"}]},
 
 # ============================== PRACTICE ==============================
@@ -137,7 +137,7 @@ STIM = {
     item("Source 1", [
         "Consider, I address you as a legislator, whether, when men contend for their freedom, and to be allowed to judge for themselves, respecting their own happiness, it be not inconsistent and unjust to subjugate women, even though you firmly believe that you are acting in the manner best calculated to promote their happiness? Who made man the exclusive judge, if woman partake with him the gift of reason?",
         "In this style, argue tyrants of every denomination from the weak king to the weak father of a family; they are all eager to crush reason. … Do you not act a similar part, when you force all women, by denying them civil and political rights, to remain immured in their families groping in the dark?"],
-        "Mary Wollstonecraft, English writer, A Vindication of the Rights of Woman, 1792, from the book's dedication to Charles-Maurice de Talleyrand, a French politician and former bishop",
+        "Mary Wollstonecraft, English writer, A Vindication of the Rights of Woman, 1792, from the book's dedication to Charles-Maurice de Talleyrand, a French politician and former bishop who had presented a plan for national education to France's revolutionary assembly in 1791",
         "Adapted",
         glossary=[{"t": "contend", "d": "fight or argue"}, {"t": "subjugate", "d": "keep under control by force"},
                   {"t": "partake", "d": "share"}, {"t": "of every denomination", "d": "of every kind"},
@@ -202,7 +202,7 @@ STIM = {
               {"t": "augmented", "d": "made larger"}, {"t": "declivity", "d": "downward slope"}]),
 
 "P7": P([
-    "Passing to manufactures, we find here the all-prominent fact to be the substitution of the factory for the domestic system, the consequence of the mechanical discoveries of the time. Four great inventions altered the character of the cotton manufacture; the spinning-jenny, patented by Hargreaves in 1770; the water-frame, invented by Arkwright the year before; Crompton's mule introduced in 1779, and the self-acting mule. … None of these by themselves would have revolutionised the industry. But in 1769 … James Watt took out his patent for the steam-engine. Sixteen years later it was applied to the cotton manufacture. … Meanwhile, the iron industry had been equally revolutionised by the invention of smelting by pit-coal … and by the application in 1788 of the steam-engine to blast furnaces. …",
+    "Passing to manufactures, we find here the all-prominent fact to be the substitution of the factory for the domestic system, the consequence of the mechanical discoveries of the time. Four great inventions altered the character of the cotton manufacture; the spinning-jenny, patented by Hargreaves in 1770; the water-frame, invented by Arkwright the year before; Crompton's mule introduced in 1779, and the self-acting mule. … None of these by themselves would have revolutionised the industry. But in 1769 … James Watt took out his patent for the steam-engine. Sixteen years later it was applied to the cotton manufacture. … Meanwhile, the iron industry had been equally revolutionised by the invention of smelting by pit-coal … and by the application … of the steam-engine to blast furnaces. …",
     "A further growth of the factory system took place independent of machinery, and owed its origin to the expansion of trade, an expansion which was itself due to the great advance made at this time in the means of communication. The canal system was being rapidly developed throughout the country. … These improved means of communication caused an extraordinary increase in commerce, and to secure a sufficient supply of goods it became the interest of the merchants to collect weavers around them in great numbers, to get looms together in a workshop. … To these latter [the workers] this system meant a change from independence to dependence."],
     "Arnold Toynbee, English historian*, lectures given at Oxford University in 1880–1881, published as Lectures on the Industrial Revolution in England, 1884",
     "Adapted",
@@ -267,7 +267,7 @@ STIM = {
               {"t": "hitherto", "d": "until then"}]),
 
 "P13": P([
-    "The history of all hitherto existing societies is the history of class struggles. … Society as a whole is more and more splitting up into two great hostile camps, into two great classes, directly facing each other: Bourgeoisie and Proletariat. …",
+    "The history of all hitherto existing society is the history of class struggles. … Society as a whole is more and more splitting up into two great hostile camps, into two great classes, directly facing each other: Bourgeoisie and Proletariat. …",
     "Owing to the extensive use of machinery and to division of labour, the work of the proletarians has lost all individual character, and consequently, all charm for the workman. He becomes an appendage of the machine. … Modern industry has converted the little workshop of the patriarchal master into the great factory of the industrial capitalist. Masses of labourers, crowded into the factory, are organised like soldiers. …",
     "… The proletarians have nothing to lose but their chains. They have a world to win.\nWORKING MEN OF ALL COUNTRIES, UNITE!"],
     "Karl Marx and Friedrich Engels, German socialist writers, The Communist Manifesto, 1848",
@@ -309,13 +309,13 @@ STIM = {
                   {"t": "infant school", "d": "a school for young children"}])]},
 
 "P16": {"type": "bar",
-    "title": "Percentage of the Population Living in Cities of 10,000 or More People, England and Wales and Scotland, 1801–1891",
+    "title": "Percentage of the Population Living in Towns and Cities of 10,000 or More People, England and Wales and Scotland, 1801–1891",
     "categories": ["1801", "1851", "1891"],
     "series": [{"name": "England and Wales", "values": [21.3, 39.5, 61.7]},
                {"name": "Scotland", "values": [17.0, 32.2, 49.9]}],
     "yLabel": "Percent of population",
-    "text": "The figures were calculated from British census counts, which were taken every ten years.",
-    "source": "Adna Ferrin Weber, The Growth of Cities in the Nineteenth Century: A Study in Statistics, 1899, Table XXV"},
+    "text": "The figures were calculated from British census counts, which were taken every ten years. Weber's table uses the label \"England\" for England and Wales.",
+    "source": "Adna Ferrin Weber, The Growth of Cities in the Nineteenth Century: A Study in Statistics, 1899, Table XXV(a), p. 59"},
 }
 
 # Raw files used by the excerpt checker (not part of the bank).
@@ -338,7 +338,7 @@ RAWMAP = {
     "P9": ["wells1889_recenteconchange00welliala.txt", "alt/wells1889_recenteconomicc00wellgoog.txt"],
     "P10": ["stjohn1834_egyptandmohamme01johngoog.txt", "alt/stjohn1834_egyptandmohamme00algoog.txt"],
     "P12": ["okuma1909v1_fiftyyearsofnew01okumuoft.txt"],
-    "P13": ["gut_pg61.txt"],
+    "P13": ["gut_pg61.txt", "alt/marx1898_manifestoofcommu00marx_1.txt"],
     "P14": ["zhang_woodbridge1900_cu31924107178109.txt"],
     "P15.1": ["robinsonbeard1908v2_readingsmodern02robi.txt", "alt/robinsonbeard1908v2_readingsinmoder02beargoog.txt"],
     "P15.2": ["robinsonbeard1908v2_readingsmodern02robi.txt", "alt/robinsonbeard1908v2_readingsinmoder02beargoog.txt"],

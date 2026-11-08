@@ -1,6 +1,6 @@
 # AP World Unit 1 sources. Texts follow the public-domain translations saved in aw1/sources/*.md,
 # lightly adapted (cuts marked with ellipses, clarifications in square brackets). Keep in sync.
-VERSION = "2026-11-07a"
+VERSION = "2026-11-07b"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -20,7 +20,7 @@ def item(label, paragraphs, attribution, translation="", footnotes=None, glossar
 STIM = {
 # ============================== EXAM ==============================
 "X1": P([
-    "[Srivijaya] lies between [Cambodia] and [Java]. Its rule extends over fifteen chou (provinces, or towns). It lies due south of [Quanzhou]. …",
+    "[Srivijaya]* lies between [Cambodia] and [Java]. Its rule extends over fifteen chou (provinces, or towns). It lies due south of [Quanzhou]. …",
     "They are skilled at fighting on land or water. … In facing the enemy and braving death they have not their equal among other nations. …",
     "Exclusive of the native products, which include tortoise-shell, camphor, … cloves, sandal-wood and cardamoms, there are also pearls, frankincense, rose-water, … myrrh, … elephants' tusks, … amber, foreign cotton stuffs and sword blades. All these (latter) are products of the Arab … foreigners. The foreign traders … who gather together in this country give in exchange gold, silver, porcelain-ware, silk brocades, skeins of silk, silk gauzes, sugar, iron, … rice, … rhubarb and camphor.",
     "This country, lying in the ocean and controlling the straits … through which the foreigners' sea and land … traffic in either direction must pass, in olden times used an iron chain as a barrier to keep the pirates of other countries in check. … If a merchant ship passes by without entering, their boats go forth to make a combined attack, and all are ready to die (in the attempt). This is the reason why this country is a great shipping centre. …",
@@ -49,13 +49,15 @@ STIM = {
               {"t": "brethren", "d": "fellow members of a religious community, such as monks"}]),
 
 "X3": P([
-    "… Marco Polo, who spent five months on the north coast of Sumatra in 1292, speaks of all the inhabitants being idolaters, except in the petty kingdom of Parlak on the north-east corner of the island, where, too, only the townspeople were Muhammadans, for \"this kingdom, you must know, is so much frequented by the Saracen merchants that they have converted the natives to the Law of Mahomet,\" but the hill-people were all idolaters …",
-    "In the beginning of the fourteenth century, the Sharif of Mecca sent a mission to convert the people of Sumatra. … [The ruler of Samudra] was persuaded by Shaykh Isma'il to embrace Islam, and took the name of Maliku-s Salih. … When Ibn Batutah visited the island in 1345, he found … Maliku-z Zahir, reigning at Samudra. This prince displayed all the state of Muhammadan royalty … he was a zealous and orthodox Muslim, fond of holding discussions with jurisconsults and theologians, and his court was frequented by poets and men of learning. Ibn Batutah gives us the names of two jurisconsults who had come thither from Persia and also of a noble who had gone on an embassy to Delhi on behalf of the king—which shows that Sumatra was already in touch with several parts of the Muhammadan world.",
-    "… The marvellous success that has been achieved has been largely the work of traders, who won their way to the hearts of the natives, by learning their language, adopting their manners and customs, and began quietly and gradually to spread the knowledge of their religion by first converting the native women they married and the persons associated with them in their business relations. Instead of holding themselves apart in proud isolation, they gradually melted into the mass of the population, … making such skilful compromises in the doctrines and practices of their faith as were needed to recommend it to the people they wished to attract."],
+    "… Marco Polo, who spent five months on the north coast of Sumatra in 1292, speaks of all the inhabitants being idolaters, except in the petty kingdom of Parlak on the north-east corner of the island, where, too, only the townspeople were Muhammadans*, for \"this kingdom, you must know, is so much frequented by the Saracen merchants that they have converted the natives to the Law of Mahomet,\" but the hill-people were all idolaters …",
+    "In the beginning of the fourteenth century,** the Sharif of Mecca sent a mission to convert the people of Sumatra. … [The ruler of Samudra] was persuaded by Shaykh Isma'il to embrace Islam, and took the name of Maliku-s Salih. … When Ibn Batutah visited the island in 1345, he found … Maliku-z Zahir, reigning at Samudra. This prince displayed all the state of Muhammadan royalty … he was a zealous and orthodox Muslim, fond of holding discussions with jurisconsults and theologians, and his court was frequented by poets and men of learning. Ibn Batutah gives us the names of two jurisconsults who had come thither from Persia and also of a noble who had gone on an embassy to Delhi on behalf of the king—which shows that Sumatra was already in touch with several parts of the Muhammadan world.",
+    "… But there is evidence enough to show the existence of peaceful missionary efforts to spread the faith of Islam [in the Malay Archipelago] during the last six hundred years: sometimes indeed the sword has been drawn in support of the cause of religion, but preaching and persuasion rather than force and violence have been the main characteristics of this missionary movement. The marvellous success that has been achieved has been largely the work of traders, who won their way to the hearts of the natives, by learning their language, adopting their manners and customs, and began quietly and gradually to spread the knowledge of their religion by first converting the native women they married and the persons associated with them in their business relations. Instead of holding themselves apart in proud isolation, they gradually melted into the mass of the population, … making such skilful compromises in the doctrines and practices of their faith as were needed to recommend it to the people they wished to attract."],
     "Thomas W. Arnold, British historian who taught at a Muslim college in India, The Preaching of Islam: A History of the Propagation of the Muslim Faith, published in 1896",
     "Adapted",
-    footnotes=[{"mark": "*", "text": "Arnold, writing in 1896, uses older terms: \"Muhammadans\" and \"Saracens\" for Muslims, \"the Law of Mahomet\" for Islam, \"idolaters\" for followers of local religions, and \"natives\" for the local people."}],
+    footnotes=[{"mark": "*", "text": "Arnold, writing in 1896, uses older terms: \"Muhammadans\" and \"Saracens\" for Muslims, \"the Law of Mahomet\" for Islam, \"idolaters\" for followers of local religions, and \"natives\" for the local people."},
+               {"mark": "**", "text": "Arnold follows a later tradition here. The tombstone of Maliku-s Salih (Malik al-Salih) gives his death as 1297, so his conversion came before 1300."}],
     glossary=[{"t": "Sumatra", "d": "a large island in today's Indonesia, along the Strait of Malacca"},
+              {"t": "Malay Archipelago", "d": "the islands of today's Indonesia, Malaysia, and the Philippines"},
               {"t": "Samudra", "d": "a port kingdom on the north coast of Sumatra"},
               {"t": "Sharif of Mecca", "d": "the ruler of the holy city of Mecca"},
               {"t": "orthodox", "d": "following the accepted teachings"},
@@ -77,10 +79,10 @@ STIM = {
               {"t": "Guru / Pir", "d": "a Hindu religious teacher / a Muslim religious teacher"}]),
 
 "X5": P([
-    "Mitimaes is the name of those who are transported from one land to another. The first kind of mitimaes, as instituted by the Incas, were those who were moved to other countries, after a new province had been conquered. A certain number of the conquered people were ordered to people another land of the same climate and conditions as their original country. … At the same time, an equal number of settlers was taken from a part which had been peaceful and civilized for a long time, and sent into the newly conquered province … Among the colonists there were spies, who took note of the conversations and schemes of the natives, and supplied the information to the governors, who sent it to Cuzco without delay, to be submitted to the Inca.",
+    "Mitimaes is the name of those who are transported from one land to another. The first kind of mitimaes, as instituted by the Incas, were those who were moved to other countries, after a new province had been conquered. A certain number of the conquered people were ordered to people another land of the same climate and conditions as their original country. … At the same time, an equal number of settlers was taken from a part which had been peaceful and civilized for a long time, and sent into the newly conquered province … Among the colonists there were spies, who took note of the conversations and schemes of the natives*, and supplied the information to the governors, who sent it to Cuzco without delay, to be submitted to the Inca.",
     "… Selecting the best language, the Incas ordered, on pain of serious punishment, that all the natives of the empire should understand the tongue that was spoken at Cuzco, as well the men as the women. … So completely was this policy enforced, that in a few years the language was understood and used over an extent of more than twelve hundred leagues. Yet although this language was used, all the tribes also spoke their own …",
     "… The system of the Peruvians was by quipus. These were long ropes made of knotted cords … Each ruler of a province was provided with accountants who were called quipucamayos, and by these knots they kept account of what tribute was to be paid in the district, with respect to silver, gold, cloth, flocks, down to fire-wood and other minute details. … I was incredulous respecting this system of counting … But when I was at Marcavillca, in the province of Xauxa, I asked the lord Guacarapora to explain it in such a way as that my mind might be satisfied, and that I might be assured that it was true and accurate. He ordered his servants to bring the quipus … He told me to observe that all that he, for his part, had delivered to the Spaniards from the time that the Governor Don Francisco Pizarro arrived in the valley, was duly noted down without any fault or omission. Thus I saw the accounts for the gold, the silver, the clothes, the corn, sheep, and other things; so that in truth I was quite astonished."],
-    "Pedro de Cieza de León, Spanish soldier who traveled in Peru from 1547 to 1550, The Second Part of the Chronicle of Peru, written about 1550 from interviews with Inca nobles in Cuzco",
+    "Pedro de Cieza de León, Spanish soldier who traveled in Peru from 1547 to 1550, The Second Part of the Chronicle of Peru, written about 1550 from his travels and from interviews with Inca nobles and other Andean informants",
     "Translated by Clements R. Markham (1883); adapted",
     footnotes=[{"mark": "*", "text": "Cieza uses \"natives\" for the Andean peoples the Incas conquered."}],
     glossary=[{"t": "Cuzco", "d": "the capital of the Inca Empire"},
@@ -168,7 +170,7 @@ STIM = {
               {"t": "corvée", "d": "unpaid labor that people were forced to do for the government"},
               {"t": "bounty", "d": "gifts"}, {"t": "Son of Heaven", "d": "a title of the Chinese emperor"},
               {"t": "prestige", "d": "respect"}, {"t": "rife", "d": "common; widespread"},
-              {"t": "rectify", "d": "fix"}]),
+              {"t": "rectify", "d": "fix"}, {"t": "wrath", "d": "great anger"}]),
 
 "P3": {"type": "image",
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Along_the_River_During_the_Qingming_Festival_%28detail_of_original%29.jpg/960px-Along_the_River_During_the_Qingming_Festival_%28detail_of_original%29.jpg",
@@ -203,7 +205,7 @@ STIM = {
         "… if before us, somebody has enquired into it, we should derive help from what he has said. It is quite immaterial whether that man is our co-religionist or not … By these latter we mean those Ancients who investigated these things before the advent of Islam. … All that is required of us is that we should go back to their books and see what they have said in this connection. If all that they say be true, we should accept it and if there be something wrong, we should be warned by it."],
         "Ibn Rushd (known in Europe as Averroes, 1126–1198), Muslim judge and philosopher in al-Andalus (Muslim-ruled Spain), The Decisive Treatise, about 1180",
         "Translated by Mohammad Jamil-ur-Rehman, The Philosophy and Theology of Averroes (1921); adapted",
-        footnotes=[{"mark": "*", "text": "the Sharia, the religious law of Islam, based on the Quran"}],
+        footnotes=[{"mark": "*", "text": "the Sharia, the religious law of Islam, based on the Quran and the Sunnah (the Prophet Muhammad's teachings and example)"}],
         glossary=[{"t": "exhorts", "d": "strongly urges"}, {"t": "immaterial", "d": "not important"},
                   {"t": "co-religionist", "d": "a person of the same religion"},
                   {"t": "the Ancients", "d": "here, the philosophers of ancient Greece"},
@@ -226,7 +228,7 @@ STIM = {
     "This king is of all men the fondest of making gifts and of shedding blood. His gate is never without some poor man enriched or some living man executed … The ceremonies of religion are strictly complied with at his court, and he is severe in the matter of attendance at prayer and in punishing those who neglect it."],
     "Ibn Battuta, Muslim scholar from Morocco who served as a judge in Delhi from 1334 to 1342, from his book of travels, written down in 1355",
     "Translated by H. A. R. Gibb (1929); adapted",
-    footnotes=[{"mark": "*", "text": "Ibn Battuta's words for Hindu statues of gods (\"idols\") and a Hindu temple (\"idol temple\")"},
+    footnotes=[{"mark": "*", "text": "\"Idols\" and \"idol temple\" are this translation's words for sacred statues and a non-Muslim temple. The mosque was built partly with stone from earlier Hindu and Jain temples."},
                {"mark": "**", "text": "Muhammad bin Tughluq, sultan of Delhi from 1325 to 1351"}],
     glossary=[{"t": "metropolis", "d": "a very large and important city"},
               {"t": "Muslim Orient", "d": "the Muslim lands of the East"},
@@ -256,7 +258,7 @@ STIM = {
              ["Feathers", "—", "800 handfuls of yellow feathers and 800 handfuls of green quetzal feathers, every six months"],
              ["Jaguar skins", "—", "40, every six months"],
              ["Jade stones", "—", "2 strings, every six months"]],
-    "text": "The codex was painted by Indigenous artists, with notes in Spanish, in Mexico City about 1541, twenty years after the Spanish conquest. It was probably ordered by the first Spanish viceroy (governor) to send to the king of Spain. Historians believe its tribute pages were based on older Mexica tribute records. The notes say the Mexica rulers placed tax collectors and a governor from Tenochtitlan in the towns of Quauhnahuac \"that they should not rebell.\"",
+    "text": "The codex was painted by Indigenous artists, with notes in Spanish, in Mexico City about 1541, twenty years after the Spanish conquest. It was probably ordered by the first Spanish viceroy (governor) to send to the king of Spain. Historians believe its tribute pages were based on older Mexica tribute records. The notes say the Mexica rulers placed tax collectors and a governor from Tenochtitlan in the towns of Quauhnahuac \"that they should not rebell.\" The table lists what the codex says was owed, not proof of what was delivered. A dash (—) means the item is not among the entries chosen for this table.",
     "source": "Codex Mendoza, about 1541, tribute section; English translation of the Spanish notes published by Samuel Purchas in Purchas His Pilgrimes (1625; reprinted 1906, Vol. XV)"},
 
 "P9": P([
@@ -277,7 +279,7 @@ STIM = {
     "Their policy toward the conquered forms a contrast no less striking to that pursued by the Aztecs. The Mexican vassals were ground by excessive imposts and military conscriptions. … They were over-awed by fortresses and armed garrisons, and were made to feel every hour that they were not part and parcel of the nation, but held only in subjugation as a conquered people. The Incas, on the other hand, admitted their new subjects at once to all the rights enjoyed by the rest of the community; and, though they made them conform to the established laws and usages of the empire, they watched over their personal security and comfort with a sort of parental solicitude. The motley population, thus bound together by common interest, was animated by a common feeling of loyalty, which gave greater strength and stability to the empire, as it became more and more widely extended; while the various tribes who successively came under the Mexican sceptre, being held together only by the pressure of external force, were ready to fall asunder the moment that that force was withdrawn. The policy of the two nations displayed the principle of fear as contrasted with the principle of love."],
     "William H. Prescott, United States historian, History of the Conquest of Peru, published in 1847",
     "Adapted",
-    footnotes=[{"mark": "*", "text": "Prescott, writing in 1847, uses \"races\" to mean peoples or nations, and \"Mexican\" for the Mexica (Aztecs)."}],
+    footnotes=[{"mark": "*", "text": "Prescott, writing in 1847, uses \"races\" for peoples, an old usage historians no longer follow, and \"Mexican\" for the Mexica (Aztecs)."}],
     glossary=[{"t": "extermination", "d": "killing off completely"},
               {"t": "hecatombs", "d": "very large numbers (of people killed in sacrifice)"},
               {"t": "pertinacity", "d": "stubborn determination"},
@@ -291,12 +293,11 @@ STIM = {
 
 "P11": P([
     "… [We] came to Maqdashaw [Mogadishu], which is an enormous town. Its inhabitants are merchants and have many camels, of which they slaughter hundreds every day [for food]. When a vessel reaches the port, it is met by sumbuqs, which are small boats, in each of which are a number of young men, each carrying a covered dish containing food. He presents this to one of the merchants on the ship saying \"This is my guest,\" and all the others do the same. … The host then sells his goods for him and buys for him, and if anyone buys anything from him at too low a price, or sells to him in the absence of his host, the sale is regarded by them as invalid. …",
-    "… [We] pursued our journey to Kulwa [Kilwa], which is a large town on the coast. The majority of its inhabitants are Zanj*, jet-black in colour, and with tattoo marks on their faces. I was told by a merchant that the town of Sufala** lies a fortnight's journey [south] from Kulwa and that gold dust is brought to Sufala from Yufi in the country of the Limis, which is a month's journey distant from it. …",
+    "… [We] pursued our journey to Kulwa [Kilwa], which is a large town on the coast. … I was told by a merchant that the town of Sufala* lies a fortnight's journey [south] from Kulwa and that gold dust is brought to Sufala from Yufi in the country of the Limis, which is a month's journey distant from it. …",
     "The sultan at the time of my visit was Abu'l-Muzaffar Hasan, who was noted for his gifts and generosity. He used to devote the fifth part of the booty made on his expeditions to pious and charitable purposes, as is prescribed in the Koran …"],
     "Ibn Battuta, Muslim scholar from Morocco, describing his voyage along the East African coast in about 1331, from his book of travels, written down in 1355",
     "Translated by H. A. R. Gibb (1929); adapted",
-    footnotes=[{"mark": "*", "text": "the Arabic name for the Bantu-speaking peoples of the East African coast; the description of their skin color is Ibn Battuta's"},
-               {"mark": "**", "text": "Sofala, a port far to the south, in today's Mozambique. Historians are not sure what place Ibn Battuta meant by \"Yufi\"; he was repeating what a merchant told him."}],
+    footnotes=[{"mark": "*", "text": "Sofala, a port far to the south, in today's Mozambique. Historians are not sure what place Ibn Battuta meant by \"Yufi\"; he was repeating what a merchant told him."}],
     glossary=[{"t": "sumbuqs", "d": "small boats"}, {"t": "invalid", "d": "not legal; it does not count"},
               {"t": "fortnight", "d": "two weeks"}, {"t": "booty", "d": "goods captured in war"},
               {"t": "pious", "d": "religious"}, {"t": "Koran", "d": "the Quran, the holy book of Islam"}]),
@@ -304,7 +305,7 @@ STIM = {
 "P12": P([
     "… Before there was sufficient evidence on which to base any suggestions whatsoever as to origin or date, popular opinion had confidently settled the question to its own great satisfaction. It had decided that the Rhodesian* ruins must be of immense antiquity, and, following the mediaeval chroniclers with an uncritical credulity …, had pronounced Zimbabwe and all similar buildings to be the work of an ancient people from the East. …",
     "… nothing had then been obtained from the ruins which an archaeologist could recognise as more than a few centuries old; and … the objects, when not immediately recognisable as medieval imports, were of characteristically African type. …",
-    "… It is impossible, therefore, to resist the conclusion that the people who inhabited the \"Elliptical Temple\"** when it was built belonged to tribes whose arts and manufactures were indistinguishable from those of the modern Makalanga***. … [In its lowest foundations were found] mediaeval Arabic glass and Nankin china. … The date of the Elliptical Temple, then, is not earlier than the fourteenth or fifteenth century.",
+    "… It is impossible, therefore, to resist the conclusion that the people who inhabited the \"Elliptical Temple\"** when it was built belonged to tribes whose arts and manufactures were indistinguishable from those of the modern Makalanga***. … Mr. Hall [who dug at the site before the author] states … that he found in Enclosure 15 (and therefore necessarily within the same cement mass that I dug …) mediaeval Arabic glass and Nankin china. … The date of the Elliptical Temple, then, is not earlier than the fourteenth or fifteenth century.",
     "… In the valley, then, no doubt, lived those wealthy traders who received the gold brought in from neighbouring districts and bartered it with Arab merchants from the east coast. … Zimbabwe itself was simply the distributing centre."],
     "David Randall-MacIver, British archaeologist, Mediaeval Rhodesia, a report on his 1905 excavations at Great Zimbabwe and other stone ruins in southern Africa, published in 1906",
     "Adapted",
@@ -314,6 +315,7 @@ STIM = {
     glossary=[{"t": "immense antiquity", "d": "very great age"},
               {"t": "uncritical credulity", "d": "believing things without checking them"},
               {"t": "Nankin china", "d": "Chinese porcelain"},
+              {"t": "cement mass", "d": "the hard platform of cement and stone under the building"},
               {"t": "bartered", "d": "traded goods for other goods"}]),
 
 "P13": P([
@@ -321,7 +323,7 @@ STIM = {
     "… And moreover, the dominion of the King of Ethiopia belongeth to him and to his seed for ever.",
     "… the Kings of Ethiopia have become glorious and great through Zion** …",
     "[From the scribe's closing note:] \"… It went out in the days of Zagua***, and they did not translate it because this book says: Those who reign not being Israelites are transgressors of the Law. … For I have toiled much for the glory of the country of Ethiopia, and for the going forth of the heavenly Zion, and for the glory of the King of Ethiopia.\""],
-    "Kebra Nagast (The Glory of Kings), a book of Ethiopian royal history and legend, put into the Ethiopian language Ge'ez by Isaac, a Christian scribe, in the early 1300s",
+    "Kebra Nagast (The Glory of Kings), an Ethiopian Christian book of royal history and legend, put into the Ethiopian language Ge'ez in the early 1300s; its closing note names a Christian scribe, Isaac, as a translator",
     "Translated by E. A. Wallis Budge, The Queen of Sheba and Her Only Son Menyelek (1922); adapted",
     footnotes=[{"mark": "*", "text": "the Queen of Sheba (called Makeda in Ethiopia), who in the story visits King Solomon of ancient Israel and has a son, Menyelek, the first king of Ethiopia's royal line"},
                {"mark": "**", "text": "the Ark of the Covenant, which the book says Menyelek brought from Jerusalem to Ethiopia"},

@@ -43,7 +43,9 @@ def balanced_letters(n, seed):
         base = list("ABCD" * (n // 4 + 1))[:n]
         rng.shuffle(base)
         runs_ok = all(not (base[i] == base[i-1] == base[i-2]) for i in range(2, n))
-        if runs_ok:
+        # no long stretch that uses only one or two letters (e.g., an all-A/B run)
+        spread_ok = all(len(set(base[i:i+8])) >= 3 for i in range(0, max(1, n - 7)))
+        if runs_ok and spread_ok:
             # no exact repeat of any 4-letter window pattern three times
             return base
 
