@@ -1,4 +1,4 @@
-# AP World History: Modern — Unit 9 practice bank (v2026-11-08a)
+# AP World History: Modern — Unit 9 practice bank (v2026-11-08b)
 
 ## PRACTICE (48)
 
@@ -10,32 +10,32 @@
 > Of those "principally involved" the Soviet Union must, of course, be one.
 — Dwight D. Eisenhower, president of the United States, speech to the General Assembly of the United Nations, New York City, December 8, 1953 (Adapted)
 
-**U9-P01** [Topic 9.1 · LO A · Skill 4.B]  Eisenhower's proposal was made most directly in response to
-- (A) a shortage of uranium that had forced the United States to stop making weapons
-- (B) a decision by the United Nations to ban the building of nuclear weapons
-- (C) public pressure in the United States to replace coal with nuclear power at home
+**U9-P01** [Topic 9.1 · LO A · Skill 4.A]  Eisenhower's proposal was made most directly in response to
+- (A) the end of the Korean War, which left Korea divided between communist and noncommunist governments
+- (B) a shortage of coal and oil that slowed Western Europe's recovery after the Second World War
+- (C) the spread of nuclear power plants to many newly independent countries in Asia and Africa
 - (D) a growing nuclear arms race after the Soviet Union tested its own atomic bombs
 KEY: D. Explanation: The Soviet Union tested its first atomic bomb in 1949. Both superpowers then built hydrogen bombs, which were far more powerful. Eisenhower hoped to turn some of this dangerous knowledge to peaceful uses and to show that the United States wanted peace.
-  - why not A: The United States was building more nuclear weapons in 1953, not fewer. It had enough uranium to offer some for peaceful uses.
-  - why not B: The UN had not banned nuclear weapons. Eisenhower is proposing a new step, not following a ban.
-  - why not C: Eisenhower is speaking to the whole world about weapons and about power for "power-starved areas," not about coal in America.
-  - hint: Eisenhower speaks of a "fearful trend of atomic military buildup." What had changed since 1945 to make that trend so fearful?
+  - why not A: The Korean War ended in July 1953, but Eisenhower's speech is about atomic weapons, not Korea.
+  - why not B: Europe did need more energy, but Eisenhower is speaking to the whole world about the "fearful trend of atomic military buildup."
+  - why not C: In 1953 no country in Asia or Africa had a nuclear power plant. Eisenhower hoped to bring power to these "power-starved areas" in the future.
+  - hint: Reread the first sentence. What trend worried Eisenhower, and what had caused it?
 
-**U9-P02** [Topic 9.8 · LO H · Skill 5.B · Causation]  The proposal in the third paragraph led most directly to
-- (A) an agreement in the 1950s by the United States and the Soviet Union to stop testing nuclear weapons
-- (B) the founding of the International Atomic Energy Agency, which promotes peaceful nuclear energy
-- (C) a United Nations rule that kept developing countries from building nuclear power plants
-- (D) the creation of a United Nations force that took over the nuclear weapons of the great powers
-KEY: B. Explanation: The International Atomic Energy Agency (IAEA) works with the United Nations. It helps countries use nuclear energy for electricity, farming, and medicine. It also inspects nuclear sites to check that they are not being used to make bombs.
-  - why not A: Testing went on through the 1950s. A treaty ending tests in the air, in space, and underwater came only in 1963.
-  - why not C: No such rule was made. Eisenhower wanted to bring electricity to "power-starved areas."
-  - why not D: No UN force ever controlled nuclear weapons. Each nuclear power kept its own.
-  - hint: Check each choice against what actually happened to nuclear weapons and nuclear power in the 1950s and 1960s.
+**U9-P02** [Topic 9.8 · LO H · Skill 4.B]  The proposal in the third paragraph most directly reflects which broader development after 1945?
+- (A) The division of Europe into rival military alliances led by the United States and the Soviet Union
+- (B) The creation of international organizations to deal with problems that crossed national borders
+- (C) The spread of import substitution policies in newly independent countries
+- (D) The independence of India, Pakistan, and other colonies in South Asia after the Second World War
+KEY: B. Explanation: Eisenhower asked for a new agency "under the aegis of the United Nations" to share nuclear materials for peaceful uses. The International Atomic Energy Agency was founded in 1957. It was one of many international groups formed after 1945, along with the UN, the World Bank, and the World Health Organization, to handle problems no single country could solve.
+  - why not A: NATO and the Warsaw Pact were military alliances on opposite sides. Eisenhower wants an agency that includes both the United States and the Soviet Union.
+  - why not C: Import substitution (making goods at home instead of buying them from other countries) was an economic policy of single countries. It was not an international agency.
+  - why not D: Independence in South Asia was part of decolonization. Eisenhower's proposal is about sharing atomic materials through the UN.
+  - hint: Decide what kind of body Eisenhower is proposing. Is it an alliance, one country's policy, or something else?
 
 **U9-P03** [Topic 9.3 · LO C · Skill 3.D]  Which of the following later developments would most directly challenge Eisenhower's hope that atomic energy would "serve the needs rather than the fears of mankind"?
-- (A) France came to produce most of its electricity in nuclear power plants.
-- (B) Doctors began using radioactive materials to find and treat cancer.
-- (C) Accidents at nuclear power plants, such as the one at Chernobyl in 1986, spread radiation over large areas.
+- (A) France came to produce most of its electricity in nuclear power plants built after the oil crises.
+- (B) Doctors expanded the use of radioactive materials to find and treat cancer.
+- (C) The 1986 accident at the Chernobyl nuclear plant spread radiation over large areas.
 - (D) Inspectors from an international agency checked nuclear plants for signs of secret weapons work.
 KEY: C. Explanation: The Chernobyl disaster in the Soviet Union forced more than 100,000 people from their homes and spread radiation across Europe. Accidents like it, and the one at Fukushima in Japan in 2011, made many people fear nuclear power.
   - why not A: Electricity from nuclear plants is the kind of peaceful use Eisenhower hoped for. This supports his hope.
@@ -48,58 +48,58 @@ KEY: C. Explanation: The Chernobyl disaster in the Soviet Union forced more than
 **Total Fertility Rate in Selected Countries, 1970 and 2023 (average births per woman)** (bar chart; y = Births per woman)
 - 1970: Nigeria = 6.5, Bangladesh = 6.8, Iran = 6.8, Mexico = 6.5, India = 5.6, China = 6.1, Brazil = 4.9, United States = 2.5, South Korea = 4.5
 - 2023: Nigeria = 4.5, Bangladesh = 2.2, Iran = 1.7, Mexico = 1.9, India = 2.0, China = 1.0, Brazil = 1.6, United States = 1.6, South Korea = 0.7
-The total fertility rate is the average number of children a woman would have in her lifetime if she had children at the rates of that year. A rate of about 2.1 keeps a population the same size over time, not counting migration. The figures are estimates made by the United Nations Population Division and reported by the World Bank. The world average was 4.8 in 1970 and 2.2 in 2023.
-Source: World Bank, World Development Indicators, "Fertility rate, total (births per woman)" (indicator SP.DYN.TFRT.IN), from United Nations, World Population Prospects; data updated October 2026; CC BY 4.0
+The total fertility rate is the average number of children a woman would have in her lifetime if she had children at the rates of that year. Where few children die, a rate of about 2.1 births per woman replaces one generation with the next; a population can still grow or shrink for years because of its age mix and migration. These World Bank figures draw on United Nations estimates and other official population statistics. The world average was 4.8 in 1970 and 2.2 in 2023.
+Source: World Bank, World Development Indicators, "Fertility rate, total (births per woman)" (indicator SP.DYN.TFRT.IN), from United Nations, World Population Prospects, and national statistical offices; data updated October 2026; CC BY 4.0
 
 **U9-P04** [Topic 9.1 · LO A · Skill 5.A · Continuity and Change]  Which of the following best describes a pattern shown in the chart?
-- (A) Birth rates fell the most in the countries that were already wealthy in 1970.
-- (B) Birth rates in the Asian countries shown stayed higher than in the African country shown.
-- (C) Birth rates rose in countries with large farm populations, such as India and Bangladesh.
-- (D) Birth rates fell in every country shown, most to about two children per woman or fewer.
-KEY: D. Explanation: In 1970 women in most of these countries had five or six children on average. By 2023 most had about two or fewer. This was one of the biggest social changes of the period.
+- (A) Fertility rates fell the most in the countries that were already wealthy in 1970.
+- (B) Fertility rates in the Asian countries shown stayed higher than in the African country shown.
+- (C) Fertility rates rose in countries with large farm populations, such as India and Bangladesh.
+- (D) Fertility rates fell in every country shown, most to about two children per woman or fewer.
+KEY: D. Explanation: In 1970 most of these countries had fertility rates of five or more births per woman. By 2023, eight of the nine had rates of 2.2 or lower. This was one of the biggest social changes of the period.
   - why not A: The United States fell by less than one child per woman. Iran, Mexico, and China fell by more than four.
   - why not B: Nigeria, in Africa, had the highest rate in 2023 (4.5). Each Asian country shown was lower.
   - why not C: India fell from 5.6 to 2.0, and Bangladesh from 6.8 to 2.2.
   - hint: Compare the two bars for each country. Did they go up or down, and by how much?
 
 **U9-P05** [Topic 9.1 · LO A · Skill 5.B · Causation]  Which of the following most directly contributed to the changes shown for most countries?
-- (A) The Green Revolution, which reduced food supplies and pushed families to have fewer children
-- (B) The movement of families from cities back to farms, where children were needed less
-- (C) Laws passed in most of these countries that limited families to one child each
-- (D) Wider use of modern birth control, along with more schooling for girls and fewer deaths of young children
-KEY: D. Explanation: New birth control pills and devices spread after the 1960s and gave women more control over having children. More girls went to school, and more women worked for pay. As fewer babies died, parents also chose to have fewer children.
-  - why not A: The Green Revolution increased food supplies. The new seeds made harvests much bigger.
-  - why not B: People moved the other way, from farms to cities. City families usually have fewer children.
-  - why not C: Only China had a one-child policy. Iran, Brazil, and Mexico lowered their birth rates without such a law.
-  - hint: Test each choice: did that change really happen in most of these countries?
+- (A) The Green Revolution, which let farm families grow enough food to feed more children
+- (B) A rise in deaths of young children from new diseases such as HIV/AIDS
+- (C) China's one-child policy, which limited most urban families to a single child
+- (D) Wider use of modern birth control and more schooling for girls
+KEY: D. Explanation: New birth control pills and devices spread after the 1960s and gave women more control over having children. More girls went to school, and more women worked outside the home. As fewer babies died, parents also chose to have fewer children.
+  - why not A: The Green Revolution did grow more food. But more food would make it easier to raise big families, not lead to smaller ones.
+  - why not B: Deaths of young children fell in most countries. When fewer children die, parents tend to have fewer children.
+  - why not C: China did limit births by law starting in 1980. But Iran, Brazil, Mexico, and Bangladesh lowered their rates without such a law.
+  - hint: The question asks about most of the countries, not just one. Which choice could explain a change that happened in so many places?
 
 **U9-P06** [Topic 9.9 · LO I · Skill 3.D]  The data in the chart would best support which of the following arguments about the period after 1970?
-- (A) Families got smaller in many different regions and cultures, not just industrial ones.
-- (B) Religious traditions kept birth rates high in the countries shown where most people are Muslim.
-- (C) Birth rates fell mainly in the countries that were ruled by communist parties.
-- (D) Birth rates fell faster in Africa than in Asia or Latin America.
-KEY: A. Explanation: Falling birth rates spread across Asia, Latin America, and the Middle East. Iran's rate fell from 6.8 to 1.7, helped by a government family planning program begun in 1989. Families were shrinking in many very different societies.
+- (A) Fertility fell in countries with different religions, governments, and levels of wealth.
+- (B) Religious traditions kept fertility rates high in the countries shown where most people are Muslim.
+- (C) Fertility rates fell mainly in the countries that were ruled by communist parties at the time.
+- (D) Fertility rates fell faster in Africa than in Asia or Latin America.
+KEY: A. Explanation: Falling fertility rates spread across Asia, Latin America, and the Middle East. Iran's rate fell from 6.8 to 1.7, helped by a government family planning program restarted in 1989. Fertility fell in many very different societies.
   - why not B: Iran and Bangladesh, where most people are Muslim, had some of the biggest drops.
   - why not C: Brazil, Mexico, Iran, and South Korea were not communist, yet their rates fell sharply.
-  - why not D: Nigeria fell the least of any country shown.
+  - why not D: Nigeria, the only African country shown, fell by 2.0 births per woman, less than any Asian or Latin American country shown. One country also cannot show a pattern for a whole continent.
   - hint: Look at where the countries with the biggest drops are, and what kinds of governments and religions they have.
 
 
 ### Source P3 (questions U9-P07–U9-P09)
 [IMAGE] Photograph of an emergency hospital set up at Camp Funston, a U.S. Army training camp in Kansas, during the influenza epidemic, about 1918. Otis Historical Archives, National Museum of Health and Medicine (U.S. Army), photograph NCP 1603. Public domain image via Wikimedia Commons.
 Caption shown to students: Rows of cots fill a huge wooden hall. Sick men lie or sit on the cots, many wrapped in blankets. Workers in long white gowns care for them, and some of the workers wear cloth masks over their noses and mouths. A man in an army uniform stands in the center aisle.
-Description: A wide black-and-white photograph taken from one end of a long wooden building with a high roof of crossed beams and hanging light bulbs. Dozens of metal cots stand in rows on both sides of a center aisle and stretch to the far wall. Men lie in the beds under blankets or sit up on them. In the front, a worker in a white gown sits on a cot beside a man lying down. In the middle, another worker in a white gown wears a cloth mask over his nose and mouth. A woman in a white cap sits farther back. A man in a dark army uniform stands in the aisle. Two large fans hang on the far wall.
+Description: A wide black-and-white photograph taken from one end of a long wooden building with a high roof of crossed beams and hanging light bulbs. Dozens of metal cots stand in rows on both sides of a center aisle and stretch to the far wall. Men lie in the beds under blankets or sit up on them. In the front, a worker in a white gown sits on a cot beside a man lying down. In the middle, another worker in a white gown wears a cloth mask over his nose and mouth. A woman in a white cap sits farther back. A man in a dark army uniform stands in the aisle. Two large round decorations and draped bunting hang on the far wall.
 
 **U9-P07** [Topic 9.2 · LO B · Skill 4.B]  The scene in the photograph is best understood in the context of
-- (A) the Great Migration of African Americans from the rural South to jobs in northern cities
-- (B) the Mexican Revolution, which sent thousands of refugees north across the border into the United States
-- (C) the First World War, when crowded army camps and troopships helped spread disease around the world
-- (D) the campaign for women's suffrage, which brought large crowds to marches and meetings
+- (A) the U.S. Army's campaigns against yellow fever during the building of the Panama Canal
+- (B) the U.S. Army's expedition into Mexico in 1916 to chase the rebel leader Pancho Villa
+- (C) the First World War, when crowded army camps and troopships spread disease around the world
+- (D) the Russian Revolution, which led the United States to send soldiers to northern Russia and Siberia
 KEY: C. Explanation: In 1918 the United States was training millions of men for the war in Europe. Influenza spread through crowded camps and on the ships that carried soldiers overseas. Camp Funston had one of the first large outbreaks recorded in the United States, in March 1918.
-  - why not A: The Great Migration did move many people in these years, but the photograph shows an army hospital.
-  - why not B: The Mexican Revolution did send refugees north, but this hospital was at an army camp in Kansas.
-  - why not D: Suffrage marches were large in the 1910s, but they did not fill army hospitals with patients.
-  - hint: Who was training at army camps in 1918, and where were they going next?
+  - why not A: Army doctors fought yellow fever in Panama between 1904 and 1914. This photograph shows a camp in Kansas during the 1918 flu epidemic.
+  - why not B: U.S. troops did go into Mexico in 1916, but they came home early in 1917. Camps like this one trained men for the war in Europe.
+  - why not D: About 13,000 U.S. soldiers did go to Russia in 1918. But camps like this one trained millions of men for the war in France.
+  - hint: Use the attribution. Where and when was the photo taken, and what was happening in the world that year?
 
 **U9-P08** [Topic 9.2 · LO B · Skill 5.A · Comparison]  Doctors facing the epidemic in 1918 differed most from doctors facing epidemics after 1950 in that the doctors of 1918
 - (A) did not believe that diseases could pass from one sick person to another
@@ -125,170 +125,178 @@ KEY: B. Explanation: A photograph shows what one place looked like at one moment
 
 
 ### Source P4 (questions U9-P10–U9-P12)
-> Today, on the continent of Africa, nearly 30 million people have the AIDS virus, including 3 million children under the age 15. There are whole countries in Africa where more than one-third of the adult population carries the infection. More than 4 million require immediate drug treatment. Yet across that continent, only 50,000 AIDS victims—only 50,000—are receiving the medicine they need. Because the AIDS diagnosis is considered a death sentence, many do not seek treatment. Almost all who do are turned away. …
-> AIDS can be prevented. Antiretroviral drugs can extend life for many years. And the cost of those drugs has dropped from $12,000 a year to under $300 a year, which places a tremendous possibility within our grasp. …
-> … To meet a severe and urgent crisis abroad, tonight I propose the Emergency Plan for AIDS Relief, a work of mercy beyond all current international efforts to help the people of Africa. This comprehensive plan will prevent 7 million new AIDS infections, treat at least 2 million people with life-extending drugs, and provide humane care for millions of people suffering from AIDS and for children orphaned by AIDS. I ask the Congress to commit $15 billion over the next 5 years … to turn the tide against AIDS in the most afflicted nations of Africa and the Caribbean.
-— George W. Bush, president of the United States, State of the Union address to Congress, Washington, D.C., January 28, 2003 (Adapted)
+> 3. Noting with profound concern that by the end of 2000, 36.1 million people worldwide were living with HIV/AIDS, 90 per cent in developing countries and 75 per cent in sub-Saharan Africa; …
+> 8. Noting with grave concern that Africa, in particular sub-Saharan Africa, is currently the worst-affected region, where HIV/AIDS is considered a state of emergency which threatens development, social cohesion, political stability, food security and life expectancy and imposes a devastating economic burden … ;
+> 11. Recognizing that poverty, underdevelopment and illiteracy are among the principal contributing factors to the spread of HIV/AIDS, and noting with grave concern that HIV/AIDS is compounding poverty and is now reversing or impeding development in many countries … ;
+> 13. Noting further that stigma, silence, discrimination and denial, as well as a lack of confidentiality, undermine prevention, care and treatment efforts … ;
+> 25. Acknowledging that the lack of affordable pharmaceuticals and of feasible supply structures and health systems continues to hinder an effective response to HIV/AIDS in many countries, especially for the poorest people, and recalling efforts to make drugs available at low prices for those in need; …
+— Declaration of Commitment on HIV/AIDS, adopted by the United Nations General Assembly at a special session on HIV/AIDS, New York, June 27, 2001 (Adapted)
 
-**U9-P10** [Topic 9.2 · LO B · Skill 4.B]  The crisis described in the first paragraph is best understood in the context of
-- (A) the return of an influenza like the one that killed tens of millions of people in 1918 and 1919
-- (B) a disease carried by mosquitoes that spread when spraying with the insecticide DDT stopped
-- (C) a disease first identified in the early 1980s that spread fastest in regions with weak health systems
-- (D) an epidemic spread by polluted drinking water in the fast-growing cities of developing countries
-KEY: C. Explanation: Doctors first described AIDS in 1981. By 2003 tens of millions of people had HIV, most of them in Africa south of the Sahara. Poor countries could not afford the drugs, so few patients got treatment.
-  - why not A: Bush is describing AIDS, which is caused by HIV, not influenza.
-  - why not B: Malaria is carried by mosquitoes and remained a major killer, but Bush is talking about AIDS.
-  - why not D: Cholera spreads through dirty water. HIV spreads through blood and sexual contact.
-  - hint: When was the disease Bush describes first recognized, and why did it hit poor countries hardest?
+**U9-P10** [Topic 9.2 · LO B · Skill 4.B]  The concerns expressed in the declaration are best understood in the context of
+- (A) a disease that had been nearly wiped out by vaccines but came back when vaccination programs ended
+- (B) a disease that struck mostly older people as life expectancy in Africa rose
+- (C) a new disease of the 1980s, with wide gaps between countries in access to prevention and treatment
+- (D) a disease spread mainly by spoiled food and dirty water in the fast-growing cities of poor countries
+KEY: C. Explanation: Doctors first reported AIDS in 1981. HIV is the virus that can cause it. By 2000 more than 36 million people were living with HIV, most of them in Africa south of the Sahara. High drug prices and few clinics left many people there without treatment. This 2001 meeting was the first special session of the UN General Assembly about a health problem.
+  - why not A: There has never been a vaccine for HIV. AIDS was a new disease, not an old one that came back.
+  - why not B: AIDS killed mostly young adults, not old people. That is why it lowered life expectancy.
+  - why not D: HIV spreads through blood, through sex, and from mother to baby, not through food.
+  - hint: Find the name of the disease in the first paragraph. Then check which choice really describes that disease.
 
-**U9-P11** [Topic 9.8 · LO H · Skill 4.B]  The plan Bush proposes is best understood as part of which broader trend after 1990?
-- (A) Wealthy governments and international groups spending more to fight disease in poor countries
-- (B) A shift of health care in Africa from governments to traditional healers
-- (C) The closing of national borders by many countries to stop the spread of disease
-- (D) The replacement of the World Health Organization by health programs run by single wealthy countries
-KEY: A. Explanation: Around 2000, new groups such as the Global Fund to Fight AIDS, Tuberculosis and Malaria were created. Governments, foundations, and charities spent billions of dollars on health in poor countries. PEPFAR went on to help pay for treatment for millions of people.
-  - why not B: Bush's plan pays for modern drugs and care, not traditional healing.
-  - why not C: Bush's plan sends help across borders. It does not close them.
-  - why not D: The WHO kept working. Bush's plan and the Global Fund, founded in 2002, added to its work.
-  - hint: Who would pay for the plan, and who would it help?
+**U9-P11** [Topic 9.2 · LO B · Skill 5.B · Causation]  Which of the following developments in the 2000s most directly addressed the problem described in paragraph 25?
+- (A) Cheaper copies of AIDS drugs, and new funds such as the Global Fund that paid for treatment
+- (B) The worldwide campaign that wiped out smallpox through vaccination
+- (C) Programs in which the IMF and World Bank required poor countries to cut government spending
+- (D) The founding of the World Health Organization to lead the fight against disease
+KEY: A. Explanation: In 2001 an Indian drug company offered AIDS drugs for about a dollar a day per patient, far below the price of brand-name drugs. The Global Fund (2002) and the U.S. PEPFAR program (2003) paid for treatment. By 2010 millions of people in Africa were taking the drugs.
+  - why not B: Smallpox was wiped out by 1980, before AIDS spread widely. There is still no vaccine for HIV.
+  - why not C: These programs, called structural adjustment, often led poor countries to spend less on health. That made the problem worse.
+  - why not D: The WHO was founded in 1948. It existed long before the AIDS crisis, so its founding was not a response to it.
+  - hint: Paragraph 25 names two problems: what drugs cost and how they reach patients. When was each choice, and did it deal with either problem?
 
-**U9-P12** [Topic 9.2 · LO B · Skill 5.A · Comparison]  Bush's plan is most similar to which earlier effort?
-- (A) The quarantine of army camps in the United States during the influenza epidemic of 1918
-- (B) The British colonial government's searches of Indian homes during the plague of the 1890s
-- (C) Louis Pasteur's laboratory work that produced a vaccine against rabies in France
-- (D) The World Health Organization's campaign that wiped out smallpox by 1980
-KEY: D. Explanation: From 1967 to 1980 the WHO and many countries worked together to vaccinate people around the world. Smallpox became the first human disease ever wiped out. Bush's plan was also a huge effort to fight one disease across many countries.
-  - why not A: Quarantining camps was a local step at home. Bush's plan sends money and medicine to other countries.
-  - why not B: The British plague searches were forced on people and were widely resented. Bush's plan offers treatment and care.
-  - why not C: Pasteur's work was research in one laboratory, not a large program to bring treatment to people in other countries.
-  - hint: Think about how big Bush's plan is and where the help goes. Which choice is most like that?
+**U9-P12** [Topic 9.9 · LO I · Skill 3.D]  The declaration's claim that HIV/AIDS was "reversing or impeding development in many countries" is best supported by which of the following?
+- (A) Life expectancy in China and India rose steadily from 1970 to 2020.
+- (B) Deaths of children from measles fell sharply as vaccines spread after the 1980s.
+- (C) Many East Asian economies grew quickly in the 1990s by making goods for export.
+- (D) Life expectancy in several southern African countries fell by years between 1990 and 2005.
+KEY: D. Explanation: In Botswana, Zimbabwe, South Africa, and other countries, AIDS killed many young adults. Life expectancy fell, families lost workers and parents, and millions of children became orphans. Years of progress were undone.
+  - why not A: This shows progress, not a reversal. China and India were not hit as hard by AIDS.
+  - why not B: This shows health getting better. The claim is about AIDS undoing progress.
+  - why not C: Fast growth in East Asia shows development going forward. AIDS was not the main health problem there.
+  - hint: Which choice gives evidence about the places and kind of harm the declaration describes?
 
 
 ### Source P5 (questions U9-P13–U9-P15)
-> The great question of the seventies is, shall we surrender to our surroundings, or shall we make our peace with nature and begin to make reparations for the damage we have done to our air, to our land, and to our water?
-> Restoring nature to its natural state is a cause beyond party and beyond factions. It has become a common cause of all the people of this country. It is a cause of particular concern to young Americans, because they more than we will reap the grim consequences of our failure to act on programs which are needed now if we are to prevent disaster later. …
-> We still think of air as free. But clean air is not free, and neither is clean water. The price tag on pollution control is high. Through our years of past carelessness we incurred a debt to nature, and now that debt is being called. …
-> The automobile is our worst polluter of the air. … We can no longer afford to consider air and water common property, free to be abused by anyone without regard to the consequences. …
-> Now, I realize that the argument is often made that there is a fundamental contradiction between economic growth and the quality of life, so that to have one we must forsake the other. The answer is not to abandon growth, but to redirect it. …
-— Richard Nixon, president of the United States, State of the Union address to Congress, Washington, D.C., January 22, 1970 (Adapted)
+> Acknowledging that change in the Earth's climate and its adverse effects are a common concern of humankind,
+> Concerned that human activities have been substantially increasing the atmospheric concentrations of greenhouse gases, that these increases enhance the natural greenhouse effect, and that this will result on average in an additional warming of the Earth's surface and atmosphere … ,
+> Noting that the largest share of historical and current global emissions of greenhouse gases has originated in developed countries, that per capita emissions in developing countries are still relatively low and that the share of global emissions originating in developing countries will grow to meet their social and development needs, …
+> Article 3 … 1. The Parties should protect the climate system for the benefit of present and future generations of humankind, on the basis of equity and in accordance with their common but differentiated responsibilities and respective capabilities. Accordingly, the developed country Parties should take the lead in combating climate change and the adverse effects thereof. …
+> Article 4 … 7. The extent to which developing country Parties will effectively implement their commitments under the Convention will depend on the effective implementation by developed country Parties of their commitments under the Convention related to financial resources and transfer of technology and will take fully into account that economic and social development and poverty eradication are the first and overriding priorities of the developing country Parties.
+— United Nations Framework Convention on Climate Change, a treaty adopted at the United Nations in New York in May 1992 and signed by more than 150 countries at the UN "Earth Summit" in Rio de Janeiro, Brazil, in June 1992 (Official English text; adapted)
 
-**U9-P13** [Topic 9.3 · LO C · Skill 5.B · Causation]  The concerns Nixon expresses led most directly to which of the following in the early 1970s?
-- (A) A U.S. ban on selling gasoline-powered cars in large cities
-- (B) The U.S. withdrawal from international talks on the environment
-- (C) New U.S. laws and a new federal agency to limit pollution of the air and water
-- (D) The closing of most coal mines in the United States to cut air pollution from power plants
-KEY: C. Explanation: In 1970 Nixon created the Environmental Protection Agency. Congress passed the Clean Air Act of 1970 and the Clean Water Act of 1972. The first Earth Day, in April 1970, showed how many Americans cared about the issue.
-  - why not A: Cars were not banned. New rules required cleaner engines and fuels.
-  - why not B: The United States took part in the first UN conference on the environment, in Stockholm in 1972.
-  - why not D: Coal mining went on. Coal was still a main source of U.S. electricity.
-  - hint: Nixon talks about the price of pollution control. What did the government actually do in the next few years?
+**U9-P13** [Topic 9.3 · LO C · Skill 4.A]  The concern expressed in the second paragraph is best understood in the context of
+- (A) the discovery in the 1980s of a hole in the ozone layer over Antarctica
+- (B) acid rain from factory smoke, which damaged forests and lakes in Europe
+- (C) scientific research since the 1950s showing that carbon dioxide in the air was rising
+- (D) the oil crises of the 1970s, which raised fuel prices around the world
+KEY: C. Explanation: From 1958, scientists measured carbon dioxide on a mountain in Hawaii and found it rising every year. In 1988 the UN helped set up a panel of scientists to study climate change. Its 1990 report helped lead to this treaty.
+  - why not A: The ozone hole was caused by chemicals called CFCs, used in spray cans and refrigerators. The convention is about gases that trap heat.
+  - why not B: Acid rain was a real problem, but it came from sulfur pollution. The convention is about warming of the Earth's surface.
+  - why not D: The oil crises raised prices. They were about the supply and cost of oil, not about warming.
+  - hint: The second paragraph says human activities are raising certain gases. How would anyone have known that?
 
-**U9-P14** [Topic 9.3 · LO C · Skill 3.A]  In the last paragraph, Nixon argues that
-- (A) the country can have both economic growth and a cleaner environment
-- (B) the country must slow its economic growth in order to protect nature
-- (C) pollution should be controlled by private companies rather than by government
-- (D) protecting nature matters less than bringing down the high cost of living
-KEY: A. Explanation: Nixon was answering people who said that clean air and water would cost jobs. He argued that growth could continue if it was steered in a new direction. This debate over growth and the environment is still going on.
-  - why not B: Nixon rejects this. He says "the answer is not to abandon growth, but to redirect it."
-  - why not C: Nixon speaks of a "price tag on pollution control" and a "debt to nature" that the nation must pay. He does not leave the job to companies.
-  - why not D: Nixon calls the environment "the great question of the seventies." He does not rank it below prices.
-  - hint: Reread the last two sentences. What does "redirect" mean?
+**U9-P14** [Topic 9.3 · LO C · Skill 5.B · Causation]  The convention led most directly to which of the following?
+- (A) The Kyoto Protocol, which set targets for richer countries to cut greenhouse gases
+- (B) The Montreal Protocol, which phased out chemicals that harm the ozone layer
+- (C) The founding of Greenpeace, which used direct protests to defend the environment
+- (D) The Green Belt Movement in Kenya, which planted millions of trees
+KEY: A. Explanation: In 1997 the countries that had joined the convention met in Kyoto, Japan. The Kyoto Protocol set targets for developed countries to cut their emissions. It set no targets for developing countries such as China and India, following the idea of "common but differentiated responsibilities."
+  - why not B: The Montreal Protocol was signed in 1987, five years before this convention.
+  - why not C: Greenpeace was founded in 1971, long before this convention.
+  - why not D: Wangari Maathai started the Green Belt Movement in 1977. It was a local movement, not a result of this treaty.
+  - hint: For each choice, ask whether it could have been shaped by a treaty signed in 1992.
 
-**U9-P15** [Topic 9.3 · LO C · Skill 5.A · Comparison]  Nixon's view that "the answer is not to abandon growth, but to redirect it" is most similar to which of the following ideas?
-- (A) Gandhi's call for India to turn away from modern machinery and return to village crafts
-- (B) Sustainable development, which leaders backed at the 1992 United Nations Earth Summit in Rio de Janeiro
-- (C) The Soviet five-year plans, which built heavy industry as fast as possible
-- (D) China's Great Leap Forward, which pushed peasants to make steel in backyard furnaces
-KEY: B. Explanation: Sustainable development means meeting people's needs today without harming the ability of future generations to meet theirs. Leaders at the 1992 Earth Summit backed this idea. They also signed a treaty on climate change there.
-  - why not A: Gandhi wanted to turn away from industrial growth. Nixon wants growth to continue.
-  - why not C: The five-year plans put growth first and paid little attention to harm to nature.
-  - why not D: The Great Leap Forward pushed for fast growth and caused famine and damage to the land. It was not about protecting nature.
-  - hint: Decide what each choice says about economic growth and what it says about nature. Then compare with Nixon's sentence.
+**U9-P15** [Topic 9.3 · LO C · Skill 3.D]  Which of the following later developments would most directly challenge the way the convention divides the world into "developed" and "developing" countries?
+- (A) Emissions per person stayed far higher in the United States than in India.
+- (B) By 2006 China, still counted as a developing country, emitted more CO2 than the United States.
+- (C) Millions of people in many developing countries still lived without electricity in their homes in 2020.
+- (D) Rich countries pledged billions of dollars to help poor countries cope with floods, droughts, and rising seas.
+KEY: B. Explanation: The convention put China and India with the developing countries, which had no targets under the Kyoto Protocol. But China's economy grew so fast that by 2006 it was the largest emitter in the world. Critics in the United States argued that a treaty without limits for China could not work. The 2015 Paris Agreement asked every country to set its own targets.
+  - why not A: This supports the convention. It says that emissions per person in developing countries are "still relatively low."
+  - why not C: This supports Article 4, which says that ending poverty is the first priority of developing countries.
+  - why not D: This follows the convention, which asks developed countries to provide "financial resources."
+  - hint: The convention treats two groups of countries differently. Which choice blurs the line between them?
 
 
 ### Source P6 (questions U9-P16–U9-P18)
-**Carbon Dioxide Emissions from Fossil Fuels and Industry, Selected Countries, 1970–2024 (billions of tonnes per year)** (bar chart; y = Billions of tonnes of CO2)
+**Carbon Dioxide Emissions from Fossil Fuels and Industry, Selected Countries and the European Union, 1970–2024 (billions of tonnes per year)** (bar chart; y = Billions of tonnes of CO2)
 - 1970: China = 0.8, United States = 4.3, European Union = 3.3, India = 0.2, Russia = 1.4, Japan = 0.8
 - 1990: China = 2.5, United States = 5.1, European Union = 3.9, India = 0.6, Russia = 2.5, Japan = 1.2
 - 2010: China = 8.6, United States = 5.7, European Union = 3.4, India = 1.7, Russia = 1.6, Japan = 1.2
 - 2024: China = 12.3, United States = 4.9, European Union = 2.4, India = 3.2, Russia = 1.8, Japan = 1.0
-The figures count carbon dioxide (CO2) released by burning coal, oil, and natural gas and by making cement and some other products. They do not count emissions from cutting down forests. "European Union" means the 27 countries that belonged to it in 2024, counted together for every year shown. "Russia" means the land of today's Russia, which was part of the Soviet Union until 1991. A tonne (metric ton) is 1,000 kilograms, about 2,200 pounds.
+The figures count carbon dioxide (CO2) released by burning coal, oil, and natural gas and by making cement and some other products. They do not count emissions from cutting down forests. "European Union" means the 27 countries that belonged to it in 2024, counted together for every year shown. "Russia" means the land within today's borders of Russia, counted the same way for every year shown. A tonne (metric ton) is 1,000 kilograms, about 2,200 pounds.
 Source: Global Carbon Project, Global Carbon Budget 2025, as compiled by Our World in Data (owid-co2-data, column "co2"); downloaded November 2026; CC BY 4.0
 
 **U9-P16** [Topic 9.4 · LO D · Skill 5.B · Causation]  The change in China's emissions from 1990 to 2024 is best explained by
-- (A) China's switch from coal to nuclear power for most of its electricity during the 1990s
+- (A) heavy industry that Mao's government had built in the 1950s and 1960s
 - (B) the growth of China's population to more than twice its 1990 size
-- (C) government orders that closed most of China's factories to fight pollution
-- (D) rapid industrial growth as manufacturing for world markets moved to China after its economic reforms
-KEY: D. Explanation: After Deng Xiaoping's reforms, and especially after China joined the World Trade Organization in 2001, factories making goods for the world moved to China. Most of their energy came from burning coal. By the late 2000s China had passed the United States as the largest emitter.
-  - why not A: Coal stayed China's main fuel, which is a big reason its emissions rose so much.
+- (C) the spread of chemical fertilizers to Chinese farms during the Green Revolution
+- (D) factories making goods for world markets after China's economic reforms
+KEY: D. Explanation: After Deng Xiaoping's reforms, and especially after China joined the World Trade Organization in 2001, factories making goods for the world moved to China. Most of their energy came from burning coal. By 2006 China had passed the United States as the largest emitter.
+  - why not A: Mao's factories were built long before 1990. They cannot explain why emissions grew about five times after 1990.
   - why not B: China's population grew from about 1.1 billion to about 1.4 billion. Its emissions grew about five times.
-  - why not C: Closing factories would lower emissions. China's emissions rose about five times.
-  - hint: Think about what China began making and selling to the world after 1980.
+  - why not C: Making fertilizer uses energy, but farming was a small part of China's emissions. Most came from coal burned in factories and power plants.
+  - hint: Compare China's bars for 1990 and 2024. Which choice could make emissions grow that much?
 
 **U9-P17** [Topic 9.3 · LO C · Skill 5.B · Causation]  The drop in Russia's emissions between 1990 and 2010 most likely resulted from
-- (A) Russia's switch from coal, oil, and gas to solar and wind power
-- (B) a treaty that required Russia to cut its emissions to half of what they had been in 1970
+- (A) Russia's Kyoto Protocol promise to cut its emissions far below its 1990 level
+- (B) Russia's switch from coal to nuclear power after the Chernobyl accident
 - (C) the collapse of much of Soviet industry after the Soviet Union broke apart in 1991
-- (D) Russia's decision to stop selling oil and gas to Europe in the 1990s
+- (D) a fall in Russia's population to about half of what it had been in Soviet times
 KEY: C. Explanation: When the Soviet Union broke up, many factories closed or made much less. Russia's economy shrank by about 40 percent in the 1990s. Emissions fell because of this collapse, not because of new environmental rules.
-  - why not A: Russia still burns large amounts of coal, oil, and gas. Solar and wind power stayed small.
-  - why not B: No treaty set that target. Under the Kyoto Protocol, Russia only had to stay at or below its 1990 level.
-  - why not D: Russia sold more oil and gas to Europe in these years, not less. Fuel burned in Europe also counts toward Europe's emissions, not Russia's.
-  - hint: What happened to Russia's economy right after 1991?
+  - why not A: Under the Kyoto Protocol, Russia only had to stay at or below its 1990 level. Its emissions had already fallen far below that before it joined in 2004.
+  - why not B: Few new nuclear plants were built after Chernobyl in 1986. Russia still burns large amounts of coal, oil, and gas.
+  - why not D: Russia's population fell only a little, from about 149 million to about 144 million.
+  - hint: Find the years when Russia's bar drops. What big political change happened in between?
 
-**U9-P18** [Topic 9.9 · LO I · Skill 2.C]  Which of the following is a limitation of the chart for comparing how much CO2 an average person in each country produces?
-- (A) It uses the same source and the same method of counting for each of the countries shown.
-- (B) It shows four years, so changes over several decades can be compared.
+**U9-P18** [Topic 9.9 · LO I · Skill 2.C]  Which of the following is a limitation of the chart for comparing CO2 emissions per person in the places shown?
+- (A) It does not show which fuels, such as coal, oil, or natural gas, each country burned.
+- (B) It begins in 1970, so it leaves out the early years of industrialization.
 - (C) It shows each country's total, though the countries' populations differ greatly.
-- (D) It includes both wealthy industrial countries and developing countries.
-KEY: C. Explanation: China and India each have more than a billion people, so their totals are large even when each person uses less energy. In 2024 an average American produced about 14 tonnes of CO2 and an average Indian about 2. To compare people, you need emissions per person.
-  - why not A: Using one method for each country makes comparisons fair. That is a strength.
-  - why not B: Several years let you see change over time. That is a strength.
-  - why not D: Including different kinds of countries helps show global patterns. That is a strength.
-  - hint: Think about what you would need to know to compare one American with one Indian.
+- (D) It does not show other greenhouse gases, such as methane from farms and gas wells.
+KEY: C. Explanation: China and India each have more than a billion people, so their totals are large even when emissions per person are lower. In 2024, U.S. emissions were about 14 tonnes per person and India's about 2. To find emissions per person, divide each total by the population. This average counts factories, power plants, and transport, not just what each person does.
+  - why not A: The kind of fuel helps explain the totals. But to compare one person with another, you need to know how many people live in each country.
+  - why not B: Earlier years matter for history. They do not help you compare people in the years the chart shows.
+  - why not D: The question asks only about CO2, so leaving out other gases does not get in the way.
+  - hint: Think about what you would need to know to compare emissions per person, not per country.
 
 
 ### Source P7 (questions U9-P19–U9-P21)
-> These United States are confronted with an economic affliction of great proportions. We suffer from the longest and one of the worst sustained inflations in our national history. … Idle industries have cast workers into unemployment, human misery, and personal indignity. Those who do work are denied a fair return for their labor by a tax system which penalizes successful achievement and keeps us from maintaining full productivity.
-> But great as our tax burden is, it has not kept pace with public spending. For decades we have piled deficit upon deficit, mortgaging our future and our children's future for the temporary convenience of the present. …
-> In this present crisis, government is not the solution to our problem; government is the problem. …
-> … It is time to check and reverse the growth of government, which shows signs of having grown beyond the consent of the governed.
-> It is my intention to curb the size and influence of the Federal establishment … .
-— Ronald Reagan, president of the United States, inaugural address, Washington, D.C., January 20, 1981 (Adapted)
+**Source 1**
+> … The benefits of technological progress are not shared equitably by all members of the international community. The developing countries, which constitute 70 per cent of the world's population, account for only 30 per cent of the world's income. It has proved impossible to achieve an even and balanced development of the international community under the existing international economic order. The gap between the developed and the developing countries continues to widen in a system which was established at a time when most of the developing countries did not even exist as independent States and which perpetuates inequality. …
+> 4. The new international economic order should be founded on full respect for the following principles: … (e) Full permanent sovereignty of every State over its natural resources and all economic activities. In order to safeguard these resources, each State is entitled to exercise effective control over them and their exploitation with means suitable to its own situation, including the right to nationalization or transfer of ownership to its nationals … ;
+> (g) Regulation and supervision of the activities of transnational corporations by taking measures in the interest of the national economies of the countries where such transnational corporations operate on the basis of the full sovereignty of those countries; …
+> (j) Just and equitable relationship between the prices of raw materials, primary commodities, manufactured and semi-manufactured goods exported by developing countries and the prices of raw materials, primary commodities, manufactures, capital goods and equipment imported by them … .
+— Declaration on the Establishment of a New International Economic Order, adopted by the United Nations General Assembly at a special session on raw materials and development, New York, May 1, 1974 (Adapted)
+**Source 2**
+> … no matter where you look today, you will see that development depends upon economic freedom. A mere handful of industrialized countries that have historically coupled personal initiative with economic reward now produce more than one-half the wealth of the world. The developing countries now growing the fastest in Asia, Africa, and Latin America are the very ones providing more economic freedom for their people—freedom to choose, to own property, to work at a job of their choice, and to invest in a dream for the future. …
+> … There is a propaganda campaign in wide circulation that would have the world believe that capitalist United States is the cause of world hunger and poverty. …
+> … The United States buys approximately one-half of all the manufactured goods that non-OPEC developing countries export to the industrialized world, even though our market is only one-third of the size of the total industrialized world's. …
+> The barriers to trade in our markets are among the lowest in the world. … American capital markets are also more accessible to the developing countries than capital markets anywhere else in the world.
+— Ronald Reagan, president of the United States, speech to the World Affairs Council of Philadelphia, one week before a meeting of leaders of rich and poor nations at Cancún, Mexico, October 15, 1981 (Adapted)
 
-**U9-P19** [Topic 9.4 · LO D · Skill 4.B · Causation]  The economic problems Reagan describes in the first paragraph were caused in part by
-- (A) the stock market crash of 1929 and the waves of bank failures that followed it
-- (B) oil price shocks in the 1970s that raised costs and slowed growth in many industrial countries
-- (C) a sharp fall in world oil prices that drove many American oil companies out of business
-- (D) the high cost to the United States of rebuilding Western Europe's economies under the Marshall Plan
-KEY: B. Explanation: Arab oil producers cut supplies in 1973, and the Iranian Revolution disrupted oil again in 1979. Oil prices soared. Many countries suffered "stagflation," a mix of high inflation and high unemployment.
-  - why not A: The crash of 1929 led to the Great Depression of the 1930s, fifty years earlier. Its problem was falling prices, not inflation.
-  - why not C: Oil prices were very high in 1981, after jumping in 1973 and 1979. They fell later in the 1980s.
-  - why not D: The Marshall Plan ended in the early 1950s. It did not cause inflation in 1981.
-  - hint: Reagan blames rising prices and idle factories. What events of the 1970s raised prices around the world?
+**U9-P19** [Topic 9.4 · LO D · Skill 3.C · Comparison]  Which of the following best describes a difference between the two sources?
+- (A) Source 1 praises the world's existing economic order, while Source 2 calls for a new one.
+- (B) Source 1 calls for more state control of the economy, while Source 2 calls for less.
+- (C) Source 1 speaks mainly for the industrial countries, while Source 2 speaks for the developing countries.
+- (D) Source 1 blames poverty on corrupt governments in developing countries, while Source 2 blames the industrial countries.
+KEY: B. Explanation: In the 1970s many newly independent countries, working through the UN, asked for a "New International Economic Order." They wanted the right to take over foreign companies and to get better prices for their raw materials. By 1981 Reagan and other leaders, such as Margaret Thatcher in Britain, argued instead that free markets and trade were the path to growth.
+  - why not A: Source 1 says it is "impossible" to achieve balanced development "under the existing international economic order." It wants a new order.
+  - why not C: This reverses the sources. Source 1 speaks for the developing countries, which it says have "70 per cent of the world's population." Reagan was president of the United States.
+  - why not D: Source 1 blames the "existing international economic order," not corrupt governments. Reagan rejects the claim that the "capitalist United States is the cause of world hunger and poverty."
+  - hint: Sum up each source in one sentence. Then compare your two sentences with each choice.
 
-**U9-P20** [Topic 9.4 · LO D · Skill 5.A · Comparison]  Reagan's view of the role of government is most similar to the policies of
-- (A) Lázaro Cárdenas, who took over foreign oil companies and made them part of the Mexican state
-- (B) Jawaharlal Nehru, whose five-year plans built state-owned steel mills and dams in India
-- (C) Franklin Roosevelt, whose New Deal created government jobs programs during the Depression
-- (D) Margaret Thatcher, who sold state-owned industries and weakened labor unions in Britain
-KEY: D. Explanation: Thatcher led Britain from 1979 to 1990. Like Reagan, she cut taxes, reduced the government's role in the economy, and sold companies the state owned. Their ideas spread to many other countries in the 1980s and 1990s.
-  - why not A: Cárdenas made the government bigger by taking over the oil industry. Reagan wanted a smaller government.
-  - why not B: Nehru used the government to build industry. Reagan wanted to "curb the size and influence" of government.
-  - why not C: The New Deal greatly expanded the national government. Reagan wanted to "reverse the growth of government."
-  - hint: Did each leader make the government's role in the economy bigger or smaller?
+**U9-P20** [Topic 9.4 · LO D · Skill 4.B]  The demands in Source 1 are best understood in the context of
+- (A) the founding of the World Trade Organization, which set new rules for trade among its members
+- (B) the debt crisis of the 1980s, when many developing countries could not repay foreign loans
+- (C) the Marshall Plan, through which the United States gave aid to rebuild Western Europe
+- (D) decolonization, which created many new states that together held a majority in the UN
+KEY: D. Explanation: Between 1945 and 1975, dozens of colonies in Asia and Africa became independent. Each new country got a vote in the UN General Assembly. Together, the developing countries used their votes to pass this declaration in 1974, a few months after the Arab oil embargo showed how much power raw-material exporters could have.
+  - why not A: The WTO was founded in 1995, more than 20 years after this declaration.
+  - why not B: The debt crisis began in 1982, after this declaration. It later weakened the bargaining power of developing countries.
+  - why not C: The Marshall Plan rebuilt Western Europe after 1948. Source 1 is about the problems of developing countries.
+  - hint: Source 1 complains about a system set up long before 1974. What had changed in the world since then?
 
-**U9-P21** [Topic 9.4 · LO D · Skill 5.B · Causation]  Policies like those Reagan describes contributed most directly to which global trend in the late twentieth century?
-- (A) The spread of free-market reforms, such as tax cuts and the sale of state-owned companies
-- (B) The growth of state ownership of banks, railways, and major industries in Western Europe
-- (C) The adoption of import substitution, using high tariffs to build up each nation's own industry
-- (D) The creation of central planning agencies in many newly independent countries
-KEY: A. Explanation: In the 1980s and 1990s, governments from Britain to Chile to India cut regulations, sold state companies, and lowered trade barriers. The end of the Cold War in 1991 sped up this trend.
-  - why not B: Western European governments sold many state companies in the 1980s and 1990s rather than buying more.
-  - why not C: Import substitution was popular in Latin America from the 1930s to the 1970s. In the 1980s many countries dropped it in favor of freer trade.
-  - why not D: Central planning was common in the 1950s and 1960s. By the 1990s many countries were moving away from it.
-  - hint: Reagan wants a smaller government. Which trend moved in the same direction?
+**U9-P21** [Topic 9.4 · LO D · Skill 5.B · Causation]  Ideas like those in Source 2 contributed most directly to which of the following in the 1980s and 1990s?
+- (A) IMF loans that required countries to cut spending and open their markets
+- (B) The founding of OPEC by oil-exporting countries to gain more control over oil prices
+- (C) The takeover of foreign-owned oil and copper companies by governments in Latin America
+- (D) The founding of the Non-Aligned Movement by leaders of newly independent countries
+KEY: A. Explanation: In the 1980s many developing countries could not repay their debts. To get new loans from the IMF and the World Bank, they had to follow "structural adjustment" plans: cut government spending, sell state companies, and open their markets. Critics said these plans hurt the poor, and protests against the IMF and the World Bank spread.
+  - why not B: OPEC was founded in 1960. It gave governments more control over oil, which is closer to the ideas in Source 1.
+  - why not C: Taking over foreign companies matches Source 1's "right to nationalization," not Reagan's ideas. Most of these takeovers came in the 1960s and 1970s.
+  - why not D: The Non-Aligned Movement began in 1961. It was about staying out of the Cold War, not about free markets.
+  - hint: For each choice, ask: did it make the government's role in the economy bigger or smaller? Then compare with Reagan's view.
 
 
 ### Source P8 (questions U9-P22–U9-P24)
@@ -299,15 +307,15 @@ KEY: A. Explanation: In the 1980s and 1990s, governments from Britain to Chile t
 — W. Michael Blumenthal, U.S. secretary of the treasury, confidential memorandum to President Jimmy Carter after Blumenthal's visit to China, March 5, 1979 (From Foreign Relations of the United States, 1977–1980, vol. 13, China (U.S. Department of State, 2013); adapted)
 
 **U9-P22** [Topic 9.4 · LO D · Skill 4.B]  The "new policy" described in the second paragraph was a change from
-- (A) the Nationalist government's free-market reforms of the 1960s on the Chinese mainland
-- (B) China's earlier policy of welcoming Japanese factories and investment during the 1960s
+- (A) the Nationalist government's land reforms and export factories on Taiwan in the 1960s
+- (B) the Soviet Union's New Economic Policy, which allowed some private trade in the 1920s
 - (C) Mao Zedong's policies of self-reliance and tight state control over the economy
-- (D) the Qing dynasty's Self-Strengthening Movement, which had kept China closed to foreign trade
-KEY: C. Explanation: Under Mao, China tried to develop on its own, with farms and factories run by the state. After Mao died in 1976, Deng Xiaoping began a policy of "reform and opening" in 1978. China welcomed foreign trade, investment, and technology.
-  - why not A: The Nationalists lost the civil war and left the mainland for Taiwan in 1949.
-  - why not B: China did not welcome Japanese factories in the 1960s. It had little trade with Japan or the West then.
-  - why not D: The Self-Strengthening Movement of the late 1800s borrowed Western technology. Blumenthal means the communist "ideology of the past."
-  - hint: Who led China before Deng, and how did he run the economy?
+- (D) the Qing dynasty's Self-Strengthening Movement, which borrowed Western military technology in the late 1800s
+KEY: C. Explanation: Under Mao, China tried to develop on its own. Most industry was owned by the state, and most farming was done by large collectives. After Mao died in 1976, Deng Xiaoping began a policy of "reform and opening" in 1978. China welcomed foreign trade, investment, and technology.
+  - why not A: Those reforms happened on Taiwan, not in the People's Republic. Blumenthal is describing a change made by the leaders in Beijing.
+  - why not B: That was a Soviet policy of the 1920s. Blumenthal is describing a change in China's own policies.
+  - why not D: The Self-Strengthening Movement was a Qing policy of the 1800s. Blumenthal means the communist "policies and ideology of the past."
+  - hint: Blumenthal says the new policy is "contrary to the policies and ideology of the past." Whose past policies does he mean?
 
 **U9-P23** [Topic 9.4 · LO D · Skill 2.B]  Blumenthal's purpose in writing the memorandum was most likely to
 - (A) urge the president to cut off contact with China because its leaders could not be trusted
@@ -320,20 +328,20 @@ KEY: D. Explanation: Officials often write to the president after trips abroad. 
   - why not C: The memo is about trade and economic relations, not weapons sales.
   - hint: Look at what the memo spends most of its time discussing.
 
-**U9-P24** [Topic 9.4 · LO D · Skill 5.B · Causation]  Which of the following developments of the 1980s best fits the conditions for success that Blumenthal describes in the last paragraph?
-- (A) The opening of Special Economic Zones where foreign companies could build factories in China
-- (B) China's return to collective farming after private family plots failed
-- (C) The end of China's trade with the West after the Tiananmen Square protests
-- (D) A new campaign against managers and experts like the attacks of the Cultural Revolution of the 1960s
-KEY: A. Explanation: In 1980 China opened its first Special Economic Zones, such as Shenzhen near Hong Kong. Foreign companies could build factories there and keep profits. Shenzhen grew from a small town into one of the world's biggest cities.
-  - why not B: China did the opposite. Families were allowed to farm their own plots and sell their extra crops.
-  - why not C: Some Western countries placed limits on China after 1989, but trade kept growing.
-  - why not D: Deng rejected the Cultural Revolution. He welcomed managers, experts, and foreign know-how.
-  - hint: Decide whether each choice moved China toward the West or away from it.
+**U9-P24** [Topic 9.4 · LO D · Skill 3.B]  Which of the following does Blumenthal use as evidence of the "inherent weaknesses" of China's economy?
+- (A) A bicycle factory with a poor layout that relied on huge numbers of workers
+- (B) The determination of Deng Xiaoping's government to modernize at a rapid pace
+- (C) China's interest in close trade and economic relations with the United States
+- (D) The huge size and hard work of China's labor force
+KEY: A. Explanation: Blumenthal uses a visit to one factory as evidence. The factory made 1.7 million bicycles a year, but only by using 3,900 workers and old methods. He thought China would need foreign know-how to modernize. In 1980 China opened Special Economic Zones, where foreign companies could build modern factories.
+  - why not B: Blumenthal sees the leaders' drive to modernize as a reason for hope, not as a weakness.
+  - why not C: Close trade with the United States is what China's leaders want. Blumenthal does not call it a weakness.
+  - why not D: Blumenthal calls China's huge, hard-working labor force one of its "strengths."
+  - hint: Evidence is a specific fact or example. Find where Blumenthal discusses weaknesses, then check which choice he uses there.
 
 
 ### Source P9 (questions U9-P25–U9-P27)
-**Women in the Labor Force in Selected Countries, 1990 and 2024 (percent of women ages 15 and older)**
+**Labor Force Participation of Women in Selected Countries, 1990 and 2024 (percent of all women ages 15 and older who are in the labor force)**
 | Country | 1990 | 2024 |
 |---|---|---|
 | World | 51.2 | 49.1 |
@@ -346,37 +354,37 @@ KEY: A. Explanation: In 1980 China opened its first Special Economic Zones, such
 | Saudi Arabia | 15.0 | 33.3 |
 | India | 30.3 | 32.4 |
 | Egypt | 22.2 | 18.5 |
-The labor force is everyone who has a paid job or is looking for one, including people who work on a family farm or in a family business. Unpaid work caring for one's own home and family is not counted. The figures are estimates made by the International Labour Organization (ILO), a United Nations agency, from national surveys, and are reported by the World Bank.
+The labor force is everyone who has a job or is looking for one. It includes people who work, even without pay, on a family farm or in a family business. Unpaid work caring for one's own home and family is not counted. The figures are estimates made by the International Labour Organization (ILO), a United Nations agency, from national surveys, and are reported by the World Bank.
 Source: World Bank, World Development Indicators, "Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)" (indicator SL.TLF.CACT.FE.ZS); data updated October 2026; CC BY 4.0
 
 **U9-P25** [Topic 9.5 · LO E · Skill 5.A · Continuity and Change]  Which of the following best describes a pattern in the table?
-- (A) Women's share in the labor force fell in most of the countries shown after 1990.
-- (B) The largest increases came in East Asian countries such as China and Japan.
+- (A) The percentage of women in the labor force fell in most of the countries shown after 1990.
+- (B) The largest increases came in East Asian countries with fast-growing economies, such as China and Japan.
 - (C) The countries with the lowest rates in 1990 had the highest rates by 2024.
-- (D) The share rose in most countries shown, but the levels still varied widely.
-KEY: D. Explanation: After 1990 more women in many countries took paid jobs, helped by more schooling and new kinds of work. But culture, laws, and the kinds of jobs available kept the rates very different from place to place.
+- (D) The percentage rose in most countries shown, but the levels still varied widely.
+KEY: D. Explanation: After 1990 more women in many countries joined the labor force, helped by more schooling and new kinds of work. But culture, laws, and the kinds of jobs available kept the rates very different from place to place.
   - why not A: It rose in seven of the nine countries listed. It fell in China and Egypt.
   - why not B: China's rate fell from 73.1 to 59.4. Saudi Arabia and Bangladesh gained the most.
   - why not C: Saudi Arabia rose a lot, but at 33.3 it was still far below Brazil or the United States.
   - hint: Count how many countries went up and how many went down.
 
 **U9-P26** [Topic 9.5 · LO E · Skill 5.B · Causation]  The change for Saudi Arabia shown in the table is best explained by
-- (A) the end of Saudi oil exports, which forced most families to depend on two incomes
-- (B) a revolution that replaced the Saudi monarchy with an elected government and a new constitution
+- (A) new oil discoveries in the 2010s that doubled Saudi Arabia's oil exports
+- (B) a religious revival that urged Saudi women to leave paid work and stay at home
 - (C) the arrival of garment factories making clothes for export, as in Bangladesh
 - (D) reforms in the 2010s that opened more jobs to women and ended the ban on women driving
-KEY: D. Explanation: Saudi Arabia had strict limits on women's work and travel. In 2017 the government announced that women could drive starting in 2018, and it opened many more jobs to women. The share of women working rose sharply after that.
-  - why not A: Saudi Arabia is still one of the world's largest oil exporters.
-  - why not B: The Saudi royal family still rules. There was no revolution.
+KEY: D. Explanation: Saudi Arabia had strict limits on women's work and travel. In 2017 the government announced that women could drive starting in 2018, and it opened many more jobs to women. The percentage of Saudi women in the labor force rose sharply after that.
+  - why not A: Saudi oil exports did not double. More oil money would also not explain why more women took jobs.
+  - why not B: This would have lowered the figure. The table shows that it more than doubled.
   - why not C: Saudi Arabia's economy depends on oil, not on garment factories. Bangladesh's rise came partly from such factories.
-  - hint: What changed for women in Saudi Arabia in the late 2010s?
+  - hint: Check each choice against what you know about Saudi Arabia's government and economy.
 
 **U9-P27** [Topic 9.9 · LO I · Skill 3.D]  The data in the table would most directly challenge which of the following claims?
-- (A) Rapid economic growth brought more women into paid work in East Asia.
-- (B) Women in South Asia worked for pay at lower rates than women in the Americas.
-- (C) Women's share in the labor force of the United States changed little after 1990.
-- (D) Women's work outside the home grew in parts of the Middle East after 1990.
-KEY: A. Explanation: China's economy grew faster than almost any other after 1990, yet the share of Chinese women in the labor force fell. More young women stayed in school longer, and many state jobs disappeared. So fast growth does not by itself bring more women into paid work.
+- (A) China's rapid economic growth after 1990 raised the percentage of Chinese women in the labor force.
+- (B) In both years, women in South Asia were in the labor force at lower rates than women in the Americas.
+- (C) The percentage of women in the U.S. labor force changed little after 1990.
+- (D) The percentage of women in the labor force rose in parts of the Middle East after 1990.
+KEY: A. Explanation: China's economy grew faster than almost any other after 1990, yet the percentage of Chinese women in the labor force fell. More young women stayed in school longer, and many state jobs disappeared. So fast growth does not by itself raise the percentage of women in the labor force.
   - why not B: India (32.4) and Bangladesh (38.7) are below Brazil, Mexico, and the United States. The table supports this claim.
   - why not C: The U.S. figure went from 56.0 to 56.6, almost no change. The table supports this claim.
   - why not D: Saudi Arabia's figure more than doubled. The table supports this claim, even though Egypt's fell.
@@ -389,37 +397,37 @@ KEY: A. Explanation: China's economy grew faster than almost any other after 199
 > There, long-suffering men and women peacefully protested the denial of their rights as Americans. Many were brutally assaulted. One good man, a man of God, was killed. …
 > Every device of which human ingenuity is capable has been used to deny this right [to vote]. The Negro* citizen may go to register only to be told that the day is wrong, or the hour is late, or the official in charge is absent. … For the fact is that the only way to pass these barriers is to show a white skin. …
 > But even if we pass this bill, the battle will not be over. What happened in Selma is part of a far larger movement which reaches into every section and State of America. It is the effort of American Negroes to secure for themselves the full blessings of American life. Their cause must be our cause too. Because it is not just Negroes, but really it is all of us, who must overcome the crippling legacy of bigotry and injustice. And we shall overcome.
-> * "Negro" was a common word for African Americans in the 1960s. It is not used today.
+> * "Negro" was a common term for Black Americans in the 1960s. Today it is generally considered outdated and offensive. It is kept here because it is Johnson's own word.
 — Lyndon B. Johnson, president of the United States, televised speech to a joint session of Congress, Washington, D.C., March 15, 1965 (Adapted)
 
 **U9-P28** [Topic 9.5 · LO E · Skill 4.B]  The protests in Selma that Johnson describes are best understood as part of which broader development?
 - (A) A labor movement in which factory workers in Northern cities went on strike for higher wages and benefits
 - (B) An antiwar movement that opposed sending American soldiers to fight in Vietnam
-- (C) A civil rights movement that used nonviolent protest, inspired in part by Gandhi's campaigns in India
-- (D) A Black nationalist movement that called for a separate state for African Americans
+- (C) A civil rights movement that used nonviolent protest, inspired partly by Gandhi in India
+- (D) A Black nationalist movement that called for a separate state for African Americans in the South
 KEY: C. Explanation: Martin Luther King Jr. and other leaders studied Gandhi's methods of nonviolent resistance. In March 1965, state police beat marchers who tried to walk from Selma to Montgomery. Johnson gave this speech eight days later.
   - why not A: The Selma marchers wanted the right to vote, not higher wages.
   - why not B: Protests against the Vietnam War were just beginning in 1965, but the Selma marches were about voting rights.
   - why not D: The Selma marchers wanted equal rights as Americans. Johnson says they protested "the denial of their rights as Americans."
-  - hint: What methods did the Selma marchers use, and where did those methods come from?
+  - hint: Johnson says the marchers "peacefully protested the denial of their rights as Americans." Which movement had that goal and that method?
 
 **U9-P29** [Topic 9.5 · LO E · Skill 5.B · Causation]  Johnson's speech contributed most directly to
 - (A) the Nineteenth Amendment, which gave American women the right to vote
-- (B) the Voting Rights Act, which ended literacy tests and sent federal officials to register voters
+- (B) the Voting Rights Act, which suspended literacy tests in many Southern states
 - (C) the Supreme Court's ruling in Brown v. Board of Education against segregated schools
 - (D) the Civil Rights Act, which banned segregation in hotels, restaurants, theaters, and other public places
-KEY: B. Explanation: Congress passed the Voting Rights Act in August 1965. Federal officials went to Southern counties to register Black voters. Within a few years, the share of Black adults registered to vote in the South rose sharply.
+KEY: B. Explanation: Congress passed the Voting Rights Act in August 1965. It stopped literacy tests in states with a history of keeping Black citizens from voting, and federal officials went to Southern counties to register Black voters. Within a few years, the share of Black adults registered to vote in the South rose sharply.
   - why not A: The Nineteenth Amendment was ratified in 1920, decades earlier.
   - why not C: The Brown decision came in 1954, eleven years before this speech.
   - why not D: The Civil Rights Act became law in 1964, the year before this speech.
   - hint: Johnson is asking Congress to pass a bill. What was the bill about?
 
 **U9-P30** [Topic 9.5 · LO E · Skill 5.A · Comparison]  The movement Johnson describes is most similar to which other movement of the second half of the twentieth century?
-- (A) The struggle against apartheid in South Africa, which demanded equal political rights regardless of race
+- (A) The struggle against apartheid in South Africa, which demanded equal rights regardless of race
 - (B) The Cultural Revolution in China, in which young Red Guards attacked teachers and party officials
 - (C) The Iranian Revolution, which replaced the shah with a government led by religious leaders
 - (D) The movement for Quebec's independence, which sought a separate French-speaking country
-KEY: A. Explanation: Both the U.S. civil rights movement and the anti-apartheid movement fought laws that kept people from voting because of their race. Both used protests, boycotts, and international attention. South Africans of all races won the vote in 1994.
+KEY: A. Explanation: Both the U.S. civil rights movement and the anti-apartheid movement fought laws that kept people from voting because of their race. Both used protests, boycotts, and international attention. In 1994 all adult South African citizens, regardless of race, could vote in a national election.
   - why not B: Mao launched the Cultural Revolution to attack his rivals. It was not a movement for equal voting rights.
   - why not C: The Iranian Revolution set up a religious government. It was not a struggle for equal rights across races.
   - why not D: Quebec separatists wanted to leave Canada. The Selma marchers wanted equal rights within the United States.
@@ -428,48 +436,50 @@ KEY: A. Explanation: Both the U.S. civil rights movement and the anti-apartheid 
 
 ### Source P11 (questions U9-P31–U9-P33)
 **Source 1**
-> … Some say the answer is to try to just hunker down within our borders. That is clearly not an option. No country can escape the global economy, and the greatest, largest, most powerful country in the world cannot escape the global economy. We must lead it in a direction that is consistent with our values, consistent with our interests … . That's really what GATT is all about. …
-> But no matter what we do, unless we can expand the markets for America's products and services, we will ultimately fail in our economic mission.
-> Yes, it is true that one of the reasons for stagnant wages in the United States is intense competition in our own markets and in other markets from people who work for wages our folks couldn't live on. That will happen if there is never another trade agreement in the history of the United States. …
-— Bill Clinton, president of the United States, remarks at the signing of a law approving a new world trade agreement, Washington, D.C., December 8, 1994 (Adapted)
-**Source 2**
 > I do not believe there is any more pressing issue regarding human rights in the world today than the exploitive and abusive use of child labor, whether it is in manufacturing, mining, textiles, rugmaking, shoes, et cetera. I have a bill pending in the Senate … which basically would cut off the importation into this country of any items that are made by child labor. …
 > The documentation is irrefutable—millions of children 8 to 14 years of age, bonded labor, working 10 to 12 hours a day 6 to 7 days a week for mere pennies. The facts are clear that as international corporations seek low-wage workers they push down the cost of labor to the lowest level. …
 > … We do not allow the products of prison labor to come in but we do of children. So we protect criminals but we do not protect the kids. … Again, what is happening is that so many of these products are now produced overseas.
-— Tom Harkin, U.S. senator from Iowa, speech in the Senate during the debate on the same trade agreement, December 1, 1994 (From the Congressional Record, vol. 140, no. 149 (December 1, 1994); adapted)
+— Tom Harkin, U.S. senator from Iowa, speech in the Senate during the debate on approving a new world trade agreement, December 1, 1994 (From the Congressional Record, vol. 140, no. 149 (December 1, 1994); adapted)
+**Source 2**
+> … As the international community painstakingly assembled a new order amidst the devastation of a war fought for universal principles of freedom, there were just two countries of Africa that signed the original GATT agreement. They were Southern Rhodesia and the Union of South Africa, now Zimbabwe and the Republic of South Africa. … We do know that the peoples of Africa were not consulted. I and the vast majority of South Africans had no vote and were completely excluded from any such decisions. …
+> It is time for us to be frank in our assessment of the outcome of the Uruguay Round. The developing countries were not able to ensure that the rules accommodated their realities. For understandable reasons it was mainly the pre-occupations and problems of the industrial economies [that] shaped the agreement. …
+> … Powerful economies cannot apply unilateral sanction on the basis that it is in their national interest even when the bulk of the trading world says it is not for the common good. Rules which seem to be expediently used by the strong soon fall into disrespect. …
+> There can be no refusal to discuss matters such as labour standards, but equally all must be prepared to listen carefully before judgements are made. If developing countries feel that there is nothing to gain but further burdens, then it will prove difficult to talk about these crucial social matters. …
+> … Few would have imagined that the exploitation of the world's abundant resources and a prodigious growth in world trade would have seen the gap between rich and poor widening. And few could have anticipated the burden of debt on many poor nations.
+— Nelson Mandela, president of South Africa, speech in Geneva, Switzerland, at a celebration of the 50th anniversary of the GATT, May 19, 1998 (Text issued by the Office of the President of South Africa; adapted)
 
-**U9-P31** [Topic 9.7 · LO G · Skill 3.C · Comparison]  Which of the following best describes a difference between the two sources?
-- (A) Clinton treats competition from low-wage workers abroad as unavoidable, while Harkin wants to block goods made by child labor.
-- (B) Clinton calls for higher taxes on imported goods, while Harkin calls for lower taxes on imported goods.
-- (C) Clinton focuses on children working in factories overseas, while Harkin focuses on the U.S. budget deficit.
-- (D) Clinton opposes the new trade agreement, while Harkin praises the agreement as good for American workers.
-KEY: A. Explanation: Clinton argued that no country could escape the global economy, so the United States should lead it. Harkin argued that trade rules should protect children's rights. The debate over linking trade to labor and human rights went on for years.
-  - why not B: Clinton wants to "expand the markets" for American goods. Harkin wants to keep out goods made by children, not lower taxes on imports.
-  - why not C: This mixes up the sources. Harkin is the one who talks about child labor.
-  - why not D: Clinton is signing the agreement into law. Harkin warns about what happens as production moves overseas.
-  - hint: Find what each speaker says about workers in other countries.
+**U9-P31** [Topic 9.7 · LO G · Skill 3.C · Comparison]  Based on Source 2, Mandela would most likely respond to the bill Harkin describes in Source 1 by arguing that
+- (A) labor standards can be discussed, but rich countries should not ban imports on their own
+- (B) child labor is a matter for each country alone and has no place in trade talks
+- (C) the United States should ban the goods at once, since the Uruguay Round was fair to poor countries
+- (D) poor countries should form their own trade bloc instead of joining the GATT's rules
+KEY: A. Explanation: Many leaders of developing countries feared that rich countries would use labor rules as an excuse to block their exports. Mandela agreed that labor matters were important. But he insisted that rules be agreed on by all countries, not imposed by powerful ones such as the United States.
+  - why not B: Mandela says "there can be no refusal to discuss matters such as labour standards." He does not want the topic left out.
+  - why not C: Mandela says the Uruguay Round's rules did not fit the "realities" of developing countries. He also rejects bans that one country imposes on its own.
+  - why not D: Mandela wants to change the trading system from inside. He calls for listening and shared rules, not a separate bloc.
+  - hint: First decide what Harkin wants to do. Then find the parts of Source 2 that talk about that kind of action.
 
-**U9-P32** [Topic 9.4 · LO D · Skill 4.B]  Both sources are best understood in the context of
-- (A) the rise of Japanese car companies, which closed their factories in the United States in the 1980s
-- (B) the movement of manufacturing from wealthy countries to lower-wage countries in Asia and Latin America
-- (C) the breakup of the Soviet Union, which cut off most American trade with the countries of Eastern Europe and Russia
-- (D) a sharp rise in U.S. tariffs on imports from Asian countries during the early 1990s
-KEY: B. Explanation: From the 1970s on, companies moved factories to places where wages were lower, such as Mexico, China, and Southeast Asia. Clinton speaks of people "who work for wages our folks couldn't live on." Harkin says "so many of these products are now produced overseas."
-  - why not A: Japanese carmakers opened factories in the United States in the 1980s. They did not close them.
-  - why not C: The end of the Soviet Union opened Eastern Europe to more trade with the West, not less. Neither speaker mentions it.
-  - why not D: U.S. tariffs were falling in these years. The agreement Clinton signed cut them further.
-  - hint: Both speakers mention work being done in other countries. Why was work moving there?
+**U9-P32** [Topic 9.8 · LO H · Skill 5.B · Causation]  Concerns like those Mandela expresses in the second paragraph of Source 2 led most directly to
+- (A) the creation of the euro as a shared currency for many European Union members
+- (B) the Doha Round of WTO talks, which promised to focus on poor countries' needs
+- (C) the signing of NAFTA, which lowered trade barriers among Canada, Mexico, and the United States
+- (D) the Bretton Woods conference, which set up the IMF and the World Bank
+KEY: B. Explanation: Developing countries argued that the Uruguay Round helped rich countries most. In 2001 the members of the World Trade Organization began new talks in Doha, Qatar, which they called a "development" round. The talks stalled for years, mostly over the payments rich countries made to their own farmers.
+  - why not A: The euro was a European plan to share one currency. It was not about how the GATT treated poor countries.
+  - why not C: NAFTA was signed in 1992, before this speech. It linked three countries in North America.
+  - why not D: The Bretton Woods conference was held in 1944, long before this speech.
+  - hint: Check the date of each choice. Then ask which one was meant to answer the complaints Mandela makes.
 
-**U9-P33** [Topic 9.7 · LO G · Skill 5.B · Causation]  Concerns like those Harkin raises contributed most directly to
-- (A) the decision of the United States to leave the World Trade Organization soon after it began work
-- (B) a steep fall in the share of clothing and shoes sold in the United States that were made overseas
-- (C) World Trade Organization rules allowing any member country to block imports made by low-wage workers
-- (D) large protests at the World Trade Organization's 1999 meeting in Seattle by unions and other activist groups
-KEY: D. Explanation: In 1999 tens of thousands of protesters gathered at a WTO meeting in Seattle. Unions, environmental groups, and human rights activists said that global trade rules helped corporations but hurt workers and the planet. Protests like these became known as the anti-globalization movement.
-  - why not A: The United States stayed in the WTO and is still a member.
-  - why not B: The share made overseas kept rising. By 2000 most clothing and shoes sold in the United States were imported.
-  - why not C: The WTO did not adopt rules on labor. Many developing countries opposed such rules as a hidden way to block their exports.
-  - hint: Who else shared Harkin's worries about global trade, and how did they make themselves heard?
+**U9-P33** [Topic 9.7 · LO G · Skill 5.B · Causation]  The debates reflected in both sources contributed most directly to which of the following?
+- (A) The Arab Spring, in which protesters in North Africa demanded new governments
+- (B) The anti-apartheid boycotts of South African goods in the 1980s
+- (C) World Trade Organization rules that required members to protect workers' right to form unions
+- (D) Large protests against the World Trade Organization's meeting in Seattle in 1999
+KEY: D. Explanation: In 1999 tens of thousands of people protested at a WTO meeting in Seattle. They included labor unions worried about jobs and child labor, environmental groups, and activists from poor countries. The meeting ended without an agreement. Protests followed at later meetings of the WTO, the IMF, and the World Bank.
+  - why not A: The Arab Spring of 2010–2011 was a revolt against dictators. It was not about trade rules.
+  - why not B: Boycotts of South African goods came before these debates. They aimed to end apartheid, not to change trade rules.
+  - why not C: WTO members never agreed to rules requiring union rights. Many developing countries opposed such rules as a hidden way to block their exports.
+  - hint: Check each choice. Did it really happen, and was it a way for people who shared these worries to make themselves heard?
 
 
 ### Source P12 (questions U9-P34–U9-P36)
@@ -482,204 +492,203 @@ KEY: D. Explanation: In 1999 tens of thousands of protesters gathered at a WTO m
 > Article 26. Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. …
 — Universal Declaration of Human Rights, adopted by the United Nations General Assembly, Paris, December 10, 1948 (Adapted)
 
-**U9-P34** [Topic 9.8 · LO H · Skill 4.B]  The phrase "barbarous acts which have outraged the conscience of mankind" refers most directly to
+**U9-P34** [Topic 9.8 · LO H · Skill 4.A]  The phrase "barbarous acts which have outraged the conscience of mankind" refers most directly to
 - (A) the Soviet blockade of West Berlin, which cut off food, coal, and other supplies to the city's people
 - (B) the mass killings and other crimes of the Second World War, including the Holocaust
 - (C) the civil war between China's Nationalists and Communists
 - (D) the mass unemployment and hunger of the Great Depression
 KEY: B. Explanation: The Universal Declaration was written just three years after the Second World War. The Nazis had murdered six million Jews and millions of others. The UN wanted to set standards so that such crimes would not happen again.
   - why not A: The Berlin blockade was a Cold War standoff. The Western Allies flew in supplies, and it did not involve mass killing.
-  - why not C: China's civil war was still being fought in 1948. The Declaration points back to crimes that had already outraged the world.
+  - why not C: The preamble mainly responds to the crimes of the Second World War, not to China's civil war, which was still being fought in 1948.
   - why not D: The Depression caused great suffering, but it was an economic crisis, not "barbarous acts."
-  - hint: What had the world just lived through when this was written in 1948?
+  - hint: "Barbarous acts" means deliberate cruelty. Which events of the 1930s and 1940s most shocked the nations that wrote the Declaration?
 
-**U9-P35** [Topic 9.5 · LO E · Skill 5.B]  Which of the following later developments most directly reflected the principles in Article 2?
+**U9-P35** [Topic 9.5 · LO E · Skill 5.B · Causation]  Ideas like those in Article 2 contributed most directly to which of the following later developments?
 - (A) The apartheid laws that separated South Africans by race in homes, schools, and jobs after 1948
 - (B) Laws that gave voting and other rights to groups once shut out because of their race or sex
-- (C) The growth of colonial armies to hold on to European colonies in Africa during the 1950s
-- (D) Soviet limits on worship and religious teaching in the Soviet Union during the Cold War
-KEY: B. Explanation: After 1948 many countries extended rights to people who had been left out. For example, women won the right to vote in Morocco in 1963 and in Switzerland in 1971, and the U.S. Voting Rights Act of 1965 protected Black voters. Activists often pointed to the Declaration to support their causes.
+- (C) The growth of colonial armies to hold on to European colonies in Africa and Asia during the 1950s
+- (D) Laws that guaranteed workers a minimum wage and paid vacations
+KEY: B. Explanation: After 1948 many countries extended rights to people who had been left out. For example, women won the right to vote in Morocco in 1963 and in Swiss federal elections in 1971, and the U.S. Voting Rights Act of 1965 protected Black voters. Activists often pointed to the Declaration to support their causes.
   - why not A: Apartheid made "distinction" by race the basis of the law, which Article 2 forbids.
-  - why not C: Colonial rule denied rights to colonized peoples. Article 2 says rights belong to people of every "national or social origin."
-  - why not D: Limiting religion goes against Article 2, which forbids distinction by "religion."
-  - hint: Decide whether each choice follows Article 2 or goes against it.
+  - why not C: Colonial rule kept rights from the people who were ruled. Article 2 says everyone has the same rights, no matter what country or group they come from.
+  - why not D: Fair pay and paid vacations are rights named in other articles of the Declaration. Article 2 is about giving rights to everyone "without distinction of any kind."
+  - hint: Article 2 is about who gets rights. Which choice is about who gets rights, and does it follow Article 2 or go against it?
 
 **U9-P36** [Topic 9.8 · LO H · Skill 2.C]  Which of the following is a limitation of the Declaration as evidence of how people were actually treated around the world after 1948?
-- (A) It was adopted by the UN General Assembly, where many nations were represented.
-- (B) It lists specific rights, such as the right to education and to vote.
-- (C) It sets out goals that governments approved but were not required to obey.
-- (D) It was written soon after the Second World War, when rights were widely debated.
-KEY: C. Explanation: The Declaration was a statement of ideals, not a treaty that governments had to follow. Many governments that voted for it still denied these rights at home. To learn how people were treated, historians need other sources, such as court records and reports.
-  - why not A: Approval by many nations shows broad agreement on the goals. That is a strength.
-  - why not B: Clear, specific rights make it easy to see what was promised. That is a strength.
-  - why not D: Being written right after the war helps explain its purpose. That is a strength.
+- (A) It does not say which countries voted for it and which did not.
+- (B) It was adopted before most African colonies became independent nations.
+- (C) It states rights people should have rather than showing whether governments protected them.
+- (D) It uses broad words, such as "dignity," that people in different cultures might understand in different ways.
+KEY: C. Explanation: The Declaration states a standard. It does not report how governments actually treated people, and many governments that voted for it still denied these rights at home. To learn how people were treated, historians need other sources, such as laws, court records, and eyewitness accounts.
+  - why not A: The vote matters if you are studying how the Declaration was adopted. It does not tell you how people were treated.
+  - why not B: This tells you who took part in writing it. It does not tell you how governments treated people later.
+  - why not D: Broad words can make the meaning harder to pin down. But even very clear words would not show whether governments obeyed them.
   - hint: A limitation is a reason to be careful. Which choice could make the Declaration misleading as evidence of real life?
 
 
 ### Source P13 (questions U9-P37–U9-P39)
-> The People's Republic of China (PRC) has the world's largest number of Internet users, estimated at 500 million people. Despite government efforts to limit the flow of online news, Chinese Internet users are able to access unprecedented amounts of information, and political activists have utilized the web as a vital communications tool. In recent years, Twitter-like microblogging has surged, resulting in dramatic cases of dissident communication and public comment on sensitive political issues. However, the web has proven to be less of a democratic catalyst in China than many observers had hoped. …
-> … Blocked websites, social networking sites, and file sharing sites include Radio Free Asia, Voice of America (Chinese language), international human rights websites, many Taiwanese news sites, Facebook, Twitter, and YouTube. … Commonly barred Internet searches and microblog postings include those with direct and indirect or disguised references to Tibet; the Tiananmen suppression of 1989; … democracy; highly charged foreign affairs issues … .
-> … In order to maintain their business licenses and operate in China, domestic and foreign Internet companies are required to abide by a rough set of guidelines issued by central and local government agencies—and thus encouraged to practice self-censorship. Companies that have learned how to prosper in this environment include Baidu, China's largest search engine, Sina Weibo, which offers a Twitter-like microblogging platform, and Tencent, which provides instant messaging services.
-— Congressional Research Service, an office of the Library of Congress that writes reports for members of the U.S. Congress, China, Internet Freedom, and U.S. Policy, July 13, 2012 (Adapted)
+> … The Chinese government fully understands the Internet's irreplaceable role in accelerating the development of the national economy, pushing forward scientific and technological advancement, and expediting the informational transformation of social services, and places emphasis on and actively supports Internet development and application. …
+> … In China, there are over a million BBSs and some 220 million bloggers. … The newly-emerging online services, including blog, microblog, video-sharing and social networking websites, are developing rapidly in China, and provide greater convenience for Chinese citizens to communicate online. …
+> … Within Chinese territory the Internet is under the jurisdiction of Chinese sovereignty. The Internet sovereignty of China should be respected and protected. Citizens of the People's Republic of China and foreign citizens, legal persons and other organizations within Chinese territory have the right and freedom to use the Internet; at the same time, they must obey the laws and regulations of China and conscientiously protect Internet security. …
+> … [Chinese laws and regulations] stipulate that no organization or individual may produce, duplicate, announce or disseminate information having the following contents: being against the cardinal principles set forth in the Constitution; endangering state security, divulging state secrets, subverting state power and jeopardizing national unification; damaging state honor and interests; … spreading rumors, disrupting social order and stability … .
+> China would like to share with other countries the opportunities brought by the development of the Chinese Internet industry. It will unswervingly stick to its opening-up policy, open the Chinese Internet market in accordance with the law, welcome enterprises from other countries to enter the Chinese Internet market in accordance with the Provisions on the Administration of Foreign-funded Telecommunication Enterprises … .
+— Information Office of the State Council of the People's Republic of China, The Internet in China, a government white paper (official report), Beijing, June 2010 (Official English text published by the Chinese government; adapted)
 
-**U9-P37** [Topic 9.7 · LO G · Skill 3.A]  Which of the following best states the main argument of the first paragraph?
-- (A) The internet led directly to democratic reforms in the way China's government was chosen.
-- (B) The internet gave Chinese users more information but changed politics less than many expected.
-- (C) Chinese internet users relied mainly on American websites rather than Chinese ones for their news.
-- (D) China's government had stopped trying to control what people could read online.
-KEY: B. Explanation: Many people in the 1990s and 2000s believed the internet would spread democracy. China showed that a government could let the internet grow while still controlling what people said on it.
-  - why not A: The report says the web was "less of a democratic catalyst in China than many observers had hoped."
-  - why not C: The report says American sites such as Facebook, Twitter, and YouTube were blocked.
-  - why not D: The report describes "government efforts to limit the flow of online news."
-  - hint: Look for the turning point in the paragraph, where the report shifts from what the internet did to what it did not do.
+**U9-P37** [Topic 9.7 · LO G · Skill 3.A]  Which of the following best describes the main argument of the white paper?
+- (A) China plans to close its internet market to foreign companies in order to protect its own firms.
+- (B) China welcomes the internet's growth but claims the right to control it within its borders.
+- (C) China's citizens should be free to post whatever they wish as long as it is true.
+- (D) The internet threatens China's economy and should be limited to government offices.
+KEY: B. Explanation: The Chinese government wanted the economic benefits of the internet. But it also claimed "Internet sovereignty," the right to decide what could be posted inside China. Its system of filters and blocked foreign websites is often called the "Great Firewall."
+  - why not A: The paper says China will "open the Chinese Internet market in accordance with the law" and "welcome enterprises from other countries."
+  - why not C: The paper lists many kinds of information that no one may spread, such as anything "endangering state security." Truth is not the only test.
+  - why not D: The paper praises the internet's "irreplaceable role" in the economy and describes hundreds of millions of users.
+  - hint: Read the first and third paragraphs together. How does the paper balance them?
 
-**U9-P38** [Topic 9.6 · LO F · Skill 4.B]  The growth of companies such as Sina Weibo and Baidu is best understood as an example of
-- (A) American corporations expanding into Asian markets after China joined the World Trade Organization
-- (B) state-owned enterprises that the Chinese government set up to run the country's internet directly
-- (C) multinational companies that moved their headquarters out of China to escape government rules
-- (D) global internet services, such as microblogging and search, being adapted by local companies under national rules
-KEY: D. Explanation: With Facebook, Twitter, and Google blocked or limited, Chinese companies built their own versions of these services. They grew huge partly because they followed the government's rules on content. This is one way a state shaped global culture to fit its own goals.
-  - why not A: Baidu, Sina Weibo, and Tencent are Chinese companies, not American ones.
-  - why not B: The report describes businesses that must follow government rules to keep their licenses. The government did not set them up to run the internet itself.
-  - why not C: The report says these companies "learned how to prosper" by following China's rules, not by leaving.
-  - hint: Where are these companies from, and whose rules do they follow?
+**U9-P38** [Topic 9.7 · LO G · Skill 4.B]  The policies described in the white paper are best understood in the context of
+- (A) movements in Europe to protect local farmers from cheaper food imports
+- (B) religious movements that rejected Western popular culture as a threat to traditional values
+- (C) protests against IMF and World Bank programs that required cuts in government spending
+- (D) state efforts to profit from global networks while limiting their political effects
+KEY: D. Explanation: As the internet spread, China blocked many foreign websites, such as Facebook and Twitter. Chinese companies such as Baidu and Sina offered search and social media services while following state rules on content. Sina Weibo, a microblog launched in 2009, became hugely popular but had to remove posts the government banned. Other states, such as Iran, also built systems to control the internet.
+  - why not A: Farm protests were a response to trade in food. The white paper is about controlling information online.
+  - why not B: The white paper comes from a government, not a religious movement. Its limits are mostly about politics, such as "subverting state power."
+  - why not C: These protests were against economic rules set by global lenders. The paper is about a government controlling the internet.
+  - hint: Decide what the paper wants to gain from the internet and what it wants to avoid. Then find the broader pattern.
 
-**U9-P39** [Topic 9.7 · LO G · Skill 2.C]  The fact that the report was written for members of the U.S. Congress most likely shaped it in which way?
-- (A) It was written mainly to persuade Chinese officials to end their censorship of the internet.
-- (B) It focuses on issues that could shape U.S. laws and policies toward China and U.S. companies.
-- (C) It leaves out foreign companies and looks just at internet businesses owned by Chinese citizens.
-- (D) It relies mainly on the Chinese government's own official descriptions of what it censors online.
-KEY: B. Explanation: The Congressional Research Service writes background reports so that members of Congress can make decisions. A report like this one explains a problem and the choices Congress might make, such as laws on what American companies may do in China.
-  - why not A: The report was written for Congress, not for Chinese officials.
-  - why not C: The report mentions "domestic and foreign Internet companies" that must follow China's rules.
-  - why not D: The report describes blocking and censorship that a government would be unlikely to describe fully itself.
-  - hint: Think about what members of Congress do. What would they need to know?
+**U9-P39** [Topic 9.7 · LO G · Skill 2.C]  Which of the following is a limitation of the white paper as evidence of how freely people in China could use the internet in 2010?
+- (A) It gives figures for 2009 rather than for 2010.
+- (B) It was written by the government that set and enforced the rules it describes.
+- (C) It does not compare China's internet with that of other Asian countries.
+- (D) It does not explain how the internet was first invented in the United States.
+KEY: B. Explanation: A government report shows how that government wants its policies to be seen. It may not show how its rules worked in practice, such as which posts were deleted or who was punished. Historians would compare it with other sources, such as reports by journalists and human rights groups, and posts saved by users.
+  - why not A: Figures from 2009 are close enough to show how many people were online. The bigger question is whether the paper tells the whole story.
+  - why not C: A comparison would show how many people were online elsewhere. It would not show how freely people in China could use the internet.
+  - why not D: The internet's early history does not affect how freely people in China could use it in 2010.
+  - hint: A limitation is a reason to be careful. Which choice could make the paper misleading as evidence of how people actually used the internet?
 
 
 ### Source P14 (questions U9-P40–U9-P42)
-> During the past few days, elements of the Chinese Army have been brutally suppressing popular and peaceful demonstrations in China. There has been widespread and continuing violence, many casualties, and many deaths. …
-> The demonstrators in Tiananmen Square were advocating basic human rights, including the freedom of expression, freedom of the press, freedom of association. These are goals we support around the world. …
-> … This is not the time for an emotional response, but for a reasoned, careful action that takes into account both our long-term interests and recognition of a complex internal situation in China. …
-> … It would be a tragedy for all if China were to pull back to its pre-1972 era of isolation and repression.
-> … I am ordering the following actions: suspension of all government-to-government sales and commercial exports of weapons, suspension of visits between U.S. and Chinese military leaders, sympathetic review of requests by Chinese students in the United States to extend their stay, and the offer of humanitarian and medical assistance through the Red Cross to those injured during the assault … .
-> The process of democratization of Communist societies will not be a smooth one, and we must react to setbacks in a way which stimulates rather than stifles progress toward open and representative systems.
-— George H. W. Bush, president of the United States, opening statement at a news conference, Washington, D.C., June 5, 1989 (Adapted)
+> The closing paragraphs of this book were written in the late summer of 1914, when the armies of every great power in Europe were being mobilised for savage, unsparing, barbarous warfare … . How mild, by comparison with the despatches in the daily newspapers, will seem this chronicle of women's militant struggle against political and social injustice in one small corner of Europe. …
+> … The militancy of men, through all the centuries, has drenched the world with blood, and for these deeds of horror and destruction men have been rewarded with monuments, with great songs and epics. The militancy of women has harmed no human life save the lives of those who fought the battle of righteousness. …
+> This we know, that in the black hour that has just struck in Europe, the men are turning to their women and calling on them to take up the work of keeping civilisation alive. Through all the harvest fields, in orchards and vineyards, women are garnering food for the men who fight, as well as for the children left fatherless by war. In the cities the women are keeping open the shops, they are driving trucks and trams, and are altogether attending to a multitude of business.
+> When the remnants of the armies return, when the commerce of Europe is resumed by men, will they forget the part the women so nobly played? …
+> … the struggle for the full enfranchisement of women has not been abandoned; it has simply, for the moment, been placed in abeyance. When the clash of arms ceases, when normal, peaceful, rational society resumes its functions, the demand will again be made. If it is not quickly granted, then once more the women will take up the arms they to-day generously lay down. There can be no real peace in the world until woman, the mother half of the human family, is given liberty in the councils of the world.
+— Emmeline Pankhurst, founder of the Women's Social and Political Union, a British women's organization, foreword to her memoir, My Own Story, published in London and New York in 1914 (Adapted)
 
-**U9-P40** [Topic 9.5 · LO E · Skill 4.B]  The demonstrations Bush describes are best understood in the context of
-- (A) economic reforms under Deng Xiaoping that opened China to markets without opening its politics
-- (B) the Cultural Revolution, in which Mao encouraged students to attack party officials
-- (C) a famine caused by the failure of collective farms during the Great Leap Forward
-- (D) China's border war with Vietnam, which began after Vietnam invaded Cambodia and overthrew its government
-KEY: A. Explanation: In the 1980s Deng's reforms made many Chinese people richer, but they also brought rising prices and corruption. Students and workers began calling for free speech and democracy. In June 1989 the army cleared Tiananmen Square, killing hundreds of people or more.
-  - why not B: The Cultural Revolution ended with Mao's death in 1976. The 1989 protesters called for freedom of expression and of the press.
-  - why not C: The Great Leap famine happened from 1959 to 1961. China's economy was growing fast in the 1980s.
-  - why not D: China's brief war with Vietnam was in 1979. The 1989 protests were about rights and corruption at home.
-  - hint: What was changing in China in the 1980s, and what was not changing?
+**U9-P40** [Topic 9.5 · LO E · Skill 5.B · Causation]  Which of the following developments in the decade after the First World War most directly reflected the hopes Pankhurst expresses in the last paragraph?
+- (A) Laws in Britain, the United States, and other countries that gave women the right to vote
+- (B) The Treaty of Versailles, which made Germany pay reparations to the Allies
+- (C) The return of many women to work in their homes after soldiers came back from the war
+- (D) Treaties that limited the size of the navies of the great powers
+KEY: A. Explanation: Women's war work strengthened the case for votes for women. Britain gave the vote to many women over 30 in 1918 and to all women on the same terms as men in 1928. Germany (1918), the United States (1920), and other countries also gave women the vote.
+  - why not B: The treaty set the terms of peace with Germany. It said nothing about women's right to vote.
+  - why not C: Many women did lose their wartime jobs when soldiers returned. That was the opposite of what Pankhurst hoped for.
+  - why not D: Naval treaties limited warships. Pankhurst's demand is "enfranchisement," the right to vote.
+  - hint: Reread the last paragraph. What exactly does Pankhurst want after the war ends?
 
-**U9-P41** [Topic 9.5 · LO E · Skill 2.B]  Bush's warning against "an emotional response" and his mention of the "pre-1972 era" suggest that he wanted to
-- (A) condemn the crackdown but keep the relationship with China that began with Nixon's visit
-- (B) break off diplomatic relations with China until its government agreed to hold free elections
-- (C) support the Chinese government's use of force to restore order in Beijing
-- (D) warn China that American troops would be sent to protect the protesters in Beijing
-KEY: A. Explanation: Nixon's visit in 1972 had opened relations between the United States and communist China. Bush, who had once been the top American diplomat in Beijing, wanted to punish the crackdown without losing that relationship. Critics said his response was too weak.
-  - why not B: Bush says it would be "a tragedy for all" if China went back to isolation. He wants to keep relations going.
-  - why not C: Bush says the army was "brutally suppressing" peaceful demonstrations. He does not support it.
-  - why not D: The steps Bush lists are limits on weapons sales and military visits, not military action.
-  - hint: What happened in 1972, and why would Bush want to protect it?
+**U9-P41** [Topic 9.5 · LO E · Skill 2.B]  Pankhurst's purpose in the last two paragraphs is most likely to
+- (A) warn that the campaign for women's votes would start again after the war
+- (B) announce that the women's movement had given up militant protest
+- (C) urge women to refuse war work until they were given the vote
+- (D) persuade British men to end the war by negotiating with Germany
+KEY: A. Explanation: When the war began in August 1914, Pankhurst's group stopped its militant campaign and supported Britain's war effort. In this foreword she makes clear that the demand for the vote was only on hold. She also points to women's war work as proof that women deserved equal rights.
+  - why not B: Pankhurst says the struggle "has not been abandoned" but only "placed in abeyance," or paused.
+  - why not C: Pankhurst praises women for "keeping civilisation alive" with their war work. She does not ask them to stop.
+  - why not D: Pankhurst does not call for peace talks. She says the women's demand will return "when the clash of arms ceases."
+  - hint: Purpose means what the author wants readers to think or do. What does Pankhurst want readers to expect after the war?
 
-**U9-P42** [Topic 9.5 · LO E · Skill 5.A · Comparison]  The events Bush describes differed most from events in Eastern Europe later in 1989 in that
-- (A) Chinese protesters wanted closer ties with the Soviet Union, while Eastern Europeans did not
-- (B) Eastern European governments used tanks against protesters in most countries, while China did not
-- (C) China held free elections soon after, while Eastern European countries did not
-- (D) China's Communist Party kept power, while communist governments in Eastern Europe fell
-KEY: D. Explanation: In 1989 communist governments fell in Poland, Hungary, East Germany, Czechoslovakia, Bulgaria, and Romania. China's leaders used force, kept one-party rule, and went on with their economic reforms.
-  - why not A: Chinese protesters asked for freedom of speech and of the press, not closer ties with the Soviet Union.
-  - why not B: China used its army against the protesters. In most of Eastern Europe communist rule ended with little violence, though Romania was an exception.
-  - why not C: China did not hold free elections. Poland, Hungary, and other Eastern European countries did.
-  - hint: Compare what happened to the communist governments in each place by the end of 1989.
+**U9-P42** [Topic 9.5 · LO E · Skill 5.A · Comparison]  Pankhurst's argument that women's war work should be rewarded is most similar to arguments made after the war by
+- (A) anti-apartheid activists who called for sanctions against South Africa in the 1980s
+- (B) environmental activists in the 1970s who warned that the Earth's resources could run out
+- (C) free-market reformers who argued that lower taxes would speed economic growth
+- (D) Indian nationalists who said India's service in the war had earned it self-rule
+KEY: D. Explanation: About 1.3 million Indians served overseas in the First World War. Indian leaders expected self-government as a reward. When Britain offered only small reforms and passed harsh new laws in 1919, Gandhi led nationwide protests.
+  - why not A: Anti-apartheid activists wanted equal rights, but they did not claim that war service had earned them. Their method was outside pressure through sanctions.
+  - why not B: Environmental warnings were about protecting nature, not about rewards for service.
+  - why not C: Tax debates were about the economy, not about rights earned by service in war.
+  - hint: Focus on the kind of argument, not the topic. Pankhurst links service to a reward. Which choice uses the same kind of link?
 
 
 ### Source P15 (questions U9-P43–U9-P45)
-> Science and technology have progressed to such a degree that communication through the use of space satellites has become possible. Through this country's leadership, this competence should be developed for global benefit at the earliest practicable time. …
-> I again invite all nations to participate in a communication satellite system, in the interest of world peace and closer brotherhood among peoples throughout the world. …
-> Private ownership and operation of the U.S. portion of the system is favored, provided that such ownership and operation meet the following policy requirements: … 2. Make the system global in coverage so as to provide efficient communication service throughout the whole world as soon as technically feasible, including service where individual portions of the coverage are not profitable; 3. Provide opportunities for foreign participation through ownership or otherwise, in the communications satellite system; …
-> … In addition to its regulatory responsibilities, the U.S. Government will: … 7. Provide technical assistance to newly developing countries in order to help attain an effective global system as soon as practicable; 8. Examine with other countries the most constructive role for the United Nations … in international space communications.
-— John F. Kennedy, president of the United States, statement on communication satellite policy, Washington, D.C., July 24, 1961 (Adapted)
+> … It is based on a realisation that the cinema is to-day the most universal means through which national ideas and national atmosphere can be spread, and, even if those be intangible things, surely they are among the most important influences in civilisation. … To-day films are shown to millions of people throughout the Empire and must unconsciously influence the ideas and outlook of British peoples of all races. But only a fraction, something like 5 per cent., of the films which are at present shown in the British Empire are of British origin. That, as I submit and as the Imperial Conference held, is a position which is intolerable if we can do anything effective to remedy it.
+> From the trade point of view, the influence of the cinema is no less important. It is the greatest advertising power in the world. Just let the House imagine the effect upon trade of millions of people in every country, day after day, seeing the fashions, the styles, and the products of a particular country. It inevitably influences them in their trade purchases. …
+> … Our Trade Commissioner in New Zealand, in his most recent report, writes: "Even in New Zealand, with its staunch British traditions, one finds evidences that customs and the demand for goods are being largely influenced by changes in ideas and fashions other than those associated with British habits and tastes. … there seems little doubt that American films have played a part in moulding public tastes in many directions." …
+> If that be at all true of the importance of this matter from a trade point of view, I submit that the need for the development of the British film, from a national point of view and from a trade point of view, is firmly established; and if it cannot be developed without Government intervention, then, I submit, the case for Government intervention is made out.
+— Sir Philip Cunliffe-Lister, Britain's minister for trade, speech in the House of Commons introducing a bill that required cinemas in Britain to show a minimum share of British-made films, London, March 16, 1927 (From Hansard, the official record of debates in the British Parliament, vol. 203 (1927); adapted)
 
-**U9-P43** [Topic 9.1 · LO A · Skill 4.B]  Kennedy's wish for satellite communication developed "through this country's leadership" is best understood in the context of
-- (A) an agreement between the United States and the Soviet Union to run a single space program together
-- (B) the success of undersea telephone cables, which had made satellites unnecessary for calls abroad
-- (C) Cold War competition that grew after the Soviet Union launched Sputnik, the first artificial satellite, in 1957
-- (D) a decision by the United Nations to take control of the satellites launched by its members
-KEY: C. Explanation: Sputnik shocked Americans and started the Space Race. In 1961 Kennedy also set the goal of landing a man on the Moon. Leading in space technology, including communication satellites, was a way to show the strength of the American system.
-  - why not A: The two countries were rivals in space in 1961. Kennedy wanted the United States to lead.
-  - why not B: Cables carried only a few dozen calls at a time and could not carry television. Satellites offered much more.
-  - why not D: The UN did not take over satellites. Kennedy only asks to "examine" a role for the UN.
-  - hint: What happened in space in 1957 that worried many Americans?
+**U9-P43** [Topic 9.6 · LO F · Skill 4.B]  The situation Cunliffe-Lister describes in the first paragraph is best understood in the context of
+- (A) the spread of radio broadcasting, which let governments speak directly to millions of people
+- (B) the rise of Bollywood films, which drew huge audiences across Asia and Africa
+- (C) the rise of Hollywood studios, which dominated world film markets after the First World War
+- (D) the growth of television, which drew audiences away from cinemas in Britain
+KEY: C. Explanation: During the First World War, Europe's film studios shut down or shrank, while Hollywood grew. By the 1920s American films filled most of the world's cinema screens. Many governments worried that these films spread American tastes and products. Britain's law of 1927 required cinemas to show a rising share of British films.
+  - why not A: Radio did spread in the 1920s, but Cunliffe-Lister is talking about films shown in cinemas.
+  - why not B: Indian films did not fill the Empire's screens in 1927. Most films shown there came from the United States.
+  - why not D: Regular television broadcasts did not begin in Britain until 1936, and TV did not compete with cinemas until after the Second World War.
+  - hint: If only 5 percent of the films were British, where did most of the others come from?
 
-**U9-P44** [Topic 9.6 · LO F · Skill 5.B · Causation]  Systems like the one Kennedy proposed contributed most directly to which development later in the twentieth century?
-- (A) A decline in international telephone calls as people switched back to writing letters to send news
-- (B) U.S. government control over the programs and news shown on American television networks
-- (C) Live television broadcasts of events such as the Olympic Games to viewers around the world
-- (D) The end of radio broadcasting in most developing countries as television took its place
-KEY: C. Explanation: In 1964 a satellite carried pictures of the Tokyo Olympics across the Pacific. By the 1970s and 1980s hundreds of millions of people could watch the same events live. Sports, music, and news became part of a shared global culture.
-  - why not A: Satellites made calls abroad easier and cheaper, so the number of calls grew.
-  - why not B: Kennedy favors "private ownership and operation." American television stayed in private hands.
-  - why not D: Radio stayed important, especially in poorer countries. Satellites helped broadcasts reach farther.
-  - hint: What could a satellite system that covers "the whole world" carry besides phone calls?
+**U9-P44** [Topic 9.7 · LO G · Skill 5.A · Comparison]  The bill Cunliffe-Lister introduced is most similar to which later policy?
+- (A) The Voice of America, a U.S. government radio service that broadcast news to other countries
+- (B) The sale of worldwide television rights to the Olympic Games and the World Cup
+- (C) Quotas in South Korea and France that required cinemas or TV channels to show a set share of films made at home
+- (D) The spread of reggae music from Jamaica to audiences in Britain and around the world
+KEY: C. Explanation: Many countries later used quotas to protect their films and TV from Hollywood. South Korea required cinemas to show Korean films on a set number of days each year, starting in the 1960s. France required TV channels to show mostly European works. Both countries argued that culture should not be treated like other trade goods.
+  - why not A: The Voice of America spread one country's views abroad. Cunliffe-Lister wanted to protect Britain's own films at home and in the Empire.
+  - why not B: Selling TV rights spread sports to world audiences. It did not protect national culture.
+  - why not D: The spread of reggae is an example of cultural globalization, not a policy to limit it.
+  - hint: First decide what kind of policy the bill is. Then look for a later policy of the same kind.
 
-**U9-P45** [Topic 9.1 · LO A · Skill 3.A]  Kennedy's rule that the system must serve places "where individual portions of the coverage are not profitable" shows that he believed
-- (A) the government should make private companies serve the public, not just make a profit
-- (B) satellite communication should be run mainly by the military to protect national security
-- (C) private companies should not be allowed to own any part of the satellite system
-- (D) developing countries should pay the full cost of their own satellite service
-KEY: A. Explanation: Kennedy wanted private companies to run the system, but under rules that protected the public. In 1962 Congress created COMSAT, a private company under government rules. In 1964 COMSAT helped found Intelsat, an international group that ran satellites for many countries.
-  - why not B: Kennedy wants a global system "in the interest of world peace," run mostly by private owners.
-  - why not C: Kennedy says "private ownership and operation of the U.S. portion of the system is favored."
-  - why not D: Kennedy promises "technical assistance to newly developing countries."
-  - hint: A company might skip places where a service loses money. What does Kennedy require instead, and why?
+**U9-P45** [Topic 9.6 · LO F · Skill 2.B]  Cunliffe-Lister most likely mentions the report from New Zealand in order to
+- (A) show that American films were changing what people in the Empire wanted to buy
+- (B) argue that New Zealand should make more of the films shown in Britain and the Empire
+- (C) prove that New Zealanders preferred British films to American ones
+- (D) praise the people of New Zealand for keeping their "staunch British traditions"
+KEY: A. Explanation: Cunliffe-Lister was speaking to the House of Commons, and he knew that many members cared about trade. By quoting an official in New Zealand, a loyal part of the Empire, he showed that American films were also selling American goods. This made his bill an economic issue as well as a cultural one.
+  - why not B: He wants more British-made films. He does not ask New Zealand to make films.
+  - why not C: The report says the opposite: tastes are moving away from "British habits and tastes."
+  - why not D: The report says that "even in New Zealand," with its British traditions, tastes were changing. It is a warning, not praise.
+  - hint: Look at the paragraph just before the quotation. What point is the quotation meant to prove?
 
 
 ### Source P16 (questions U9-P46–U9-P48)
-> The Charter of the United Nations which you have just signed is a solid structure upon which we can build a better world. History will honor you for it. Between the victory in Europe and the final victory in Japan, in this most destructive of all wars, you have won a victory against war itself. …
-> If we had had this Charter a few years ago—and above all, the will to use it—millions now dead would be alive. …
-> The United Nations have also had experience, even while the fighting was still going on, in reaching economic agreements for times of peace. What was done on the subject of relief at Atlantic City, food at Hot Springs, finance at Bretton Woods, aviation at Chicago, was a fair test of what can be done by nations determined to live cooperatively in a world where they cannot live peacefully any other way. …
-> … Experience has shown how deeply the seeds of war are planted by economic rivalry and by social injustice. … Artificial and uneconomic trade barriers should be removed—to the end that the standard of living of as many people as possible throughout the world may be raised. …
-> Under this document we have good reason to expect the framing of an international bill of rights, acceptable to all the nations involved. … Unless we can attain those objectives for all men and women everywhere—without regard to race, language or religion—we cannot have permanent peace and security.
-— Harry S. Truman, president of the United States, speech at the closing session of the conference that wrote the Charter of the United Nations, San Francisco, June 26, 1945 (Adapted)
+> 5. We believe that the central challenge we face today is to ensure that globalization becomes a positive force for all the world's people. For while globalization offers great opportunities, at present its benefits are very unevenly shared, while its costs are unevenly distributed. We recognize that developing countries and countries with economies in transition face special difficulties in responding to this central challenge. … These efforts must include policies and measures, at the global level, which correspond to the needs of developing countries and economies in transition and are formulated and implemented with their effective participation.
+> 6. … Shared responsibility. Responsibility for managing worldwide economic and social development, as well as threats to international peace and security, must be shared among the nations of the world and should be exercised multilaterally. As the most universal and most representative organization in the world, the United Nations must play the central role. …
+> 19. We resolve further: To halve, by the year 2015, the proportion of the world's people whose income is less than one dollar a day and the proportion of people who suffer from hunger … . To ensure that, by the same date, children everywhere, boys and girls alike, will be able to complete a full course of primary schooling … . To have, by then, halted, and begun to reverse, the spread of HIV/AIDS, the scourge of malaria and other major diseases that afflict humanity. …
+— United Nations Millennium Declaration, adopted by the UN General Assembly at a summit of world leaders, New York, September 8, 2000 (Adapted)
 
-**U9-P46** [Topic 9.8 · LO H · Skill 4.B]  Truman's claim that "if we had had this Charter a few years ago … millions now dead would be alive" implies criticism of
-- (A) the Bretton Woods agreements, which had set up new international money and banking institutions in 1944
-- (B) the League of Nations, which had failed to stop aggression by Germany, Italy, and Japan in the 1930s
-- (C) the Atlantic Charter, in which Roosevelt and Churchill set out their goals for the world after the war
-- (D) the Lend-Lease program, through which the United States sent weapons and supplies to its allies
-KEY: B. Explanation: The League of Nations was created after the First World War, but the United States never joined it, and it could not stop Japan, Italy, or Germany in the 1930s. The UN was designed to be stronger, with a Security Council that could take action.
-  - why not A: Truman praises the Bretton Woods meeting as "a fair test" of cooperation. He does not criticize it.
-  - why not C: The Atlantic Charter of 1941 helped lead to the United Nations. Truman is not criticizing it.
-  - why not D: Lend-Lease helped the Allies win the war. Truman would not blame it for the deaths.
-  - hint: Truman says "a few years ago." What effort to keep the peace had failed in the years before the war?
+**U9-P46** [Topic 9.8 · LO H · Skill 4.B]  The concerns about globalization in paragraph 5 are best understood in the context of
+- (A) the Great Depression, when world trade collapsed and unemployment spread across the globe
+- (B) financial crises in Asia, Russia, and Latin America in the late 1990s
+- (C) the end of the Bretton Woods system of fixed exchange rates in the early 1970s
+- (D) the oil embargo of 1973–1974, which raised fuel prices around the world
+KEY: B. Explanation: In 1997 investors suddenly pulled money out of Thailand, Indonesia, and South Korea. Their currencies crashed, and millions of people lost their jobs. Crises followed in Russia in 1998 and in Brazil in 1999. Many people asked whether global markets moved too fast for poorer countries to keep up.
+  - why not A: The Great Depression was a worldwide crisis, but it came 70 years earlier. The declaration is about globalization "at present."
+  - why not C: The Bretton Woods system ended in the early 1970s, long before this declaration.
+  - why not D: The oil embargo was a crisis of the 1970s. The declaration speaks of the challenge "we face today."
+  - hint: Which choice shows the costs of globalization falling on developing countries and "economies in transition"?
 
-**U9-P47** [Topic 9.8 · LO H · Skill 5.B · Causation]  Truman's view that "artificial and uneconomic trade barriers should be removed" contributed most directly to
-- (A) the General Agreement on Tariffs and Trade of 1947, which later grew into the World Trade Organization
-- (B) the Smoot-Hawley Tariff, which raised U.S. taxes on thousands of kinds of imported goods
-- (C) the founding of OPEC by oil-producing countries in order to raise the price of oil
-- (D) the Council for Mutual Economic Assistance, which tied Eastern Europe's trade to the Soviet Union
-KEY: A. Explanation: After the war the United States led talks to lower tariffs. Twenty-three countries signed the GATT in 1947. Trade barriers fell over the next decades, and in 1995 the GATT was folded into the new World Trade Organization.
-  - why not B: The Smoot-Hawley Tariff was passed in 1930. It raised trade barriers, the opposite of Truman's goal.
-  - why not C: OPEC was formed in 1960 to control oil prices, not to lower trade barriers.
-  - why not D: The Soviet bloc set up its own trade group in 1949 as a rival to Western plans, not to follow them.
-  - hint: Decide whether each choice raised or lowered barriers to trade among many countries.
+**U9-P47** [Topic 9.8 · LO H · Skill 5.B · Causation]  The goals in paragraph 19 led most directly to
+- (A) eight Millennium Development Goals for 2015 that the UN tracked and later replaced with new goals for 2030
+- (B) the founding of the World Bank to lend money to help rebuild countries after the Second World War
+- (C) the Green Revolution, which used new seeds and fertilizer to raise grain harvests in Asia and Latin America
+- (D) the creation of the WHO to fight diseases such as malaria and smallpox
+KEY: A. Explanation: The goals in paragraph 19 became part of the eight Millennium Development Goals, which set targets for 2015. The UN tracked progress every year. By 2015 the share of people in extreme poverty had been cut by more than half, though many other targets were missed. In 2015 the UN adopted 17 Sustainable Development Goals for 2030.
+  - why not B: The World Bank was founded in 1944, long before this declaration.
+  - why not C: The Green Revolution began in the 1960s. It helped reduce hunger, but it came long before these goals.
+  - why not D: The WHO was founded in 1948. It worked on these diseases, but it was not created because of this declaration.
+  - hint: For each choice, ask whether it grew out of the promises in paragraph 19 or had other causes.
 
-**U9-P48** [Topic 9.8 · LO H · Skill 5.B · Causation]  The "international bill of rights" that Truman expected was most directly realized in
-- (A) the Nuremberg trials, in which Nazi leaders were tried for war crimes
-- (B) the Geneva Conventions on the treatment of wounded soldiers and prisoners of war
-- (C) the Universal Declaration of Human Rights, adopted by the UN General Assembly in 1948
-- (D) the Helsinki Accords, in which the Cold War rivals agreed to respect human rights in Europe
-KEY: C. Explanation: Eleanor Roosevelt led the UN committee that wrote the Universal Declaration. It was adopted in December 1948, about three and a half years after Truman's speech. It became the best-known statement of human rights in the world.
-  - why not A: The Nuremberg trials punished crimes of the war. They did not set out rights for everyone.
-  - why not B: The Geneva Conventions set rules for war. They are not a general list of everyone's rights.
-  - why not D: The Helsinki Accords came in 1975, thirty years later, and were signed by countries of Europe and North America.
-  - hint: Decide what kind of document or event each choice was: a list of rights, rules for war, or a trial.
+**U9-P48** [Topic 9.9 · LO I · Skill 3.D]  Which of the following would best support the declaration's claim that the benefits of globalization were "very unevenly shared"?
+- (A) World trade grew faster than world output during the 1990s as many countries lowered their tariffs.
+- (B) The number of people using the internet rose from a few million to hundreds of millions in the 1990s.
+- (C) In the late 1990s the fifth of the world's people in the richest countries had 86 percent of world output.
+- (D) Several East Asian countries, such as South Korea and Taiwan, grew rich by exporting goods to world markets.
+KEY: C. Explanation: A 1999 UN report found that the fifth of the world's people in the richest countries had 86 percent of world output, while the poorest fifth had just 1 percent. Evidence about who gained, and how much, is what "unevenly shared" is about.
+  - why not A: Faster trade shows that globalization was growing. It does not show who got the benefits.
+  - why not B: This shows how fast the internet spread. It does not show whether its benefits were shared evenly.
+  - why not D: This shows that some countries gained from globalization. By itself it does not show that others were left behind.
+  - hint: Ask what kind of evidence would show that some people gained much more than others.
 
 ## TIMED EXAM (25 questions, 25 minutes)
 
@@ -689,22 +698,22 @@ KEY: C. Explanation: Eleanor Roosevelt led the UN committee that wrote the Unive
 > This new revolution can be as significant and as beneficial to mankind as the industrial revolution of a century and a half ago. … Good luck—good monsoons—helped bring in the recent record harvests. But hard work, good management, and sound agricultural policies in the developing countries and foreign aid were also very much involved. …
 > [A new rice variety called] IR-8 has a stiff, strong, short straw. It does not fall over, or lodge, when the plant is heavily fertilized or when it is buffeted by wind and rain. It matures quickly, allowing for two—sometimes three—crops in a single year. …
 > But the developing nations—their governments, their institutions, and their farmers—cannot sustain the Green Revolution without outside support. They lack the skills to do the necessary adaptive research. They lack the capital to build fertilizer plants. They lack the facilities and the technicians needed to train their people in the new ways. …
-> To the farmer, the new seeds and fertilizer represent an untried and expensive investment. The high yields of IR-8 depend on a combination of intensive labor and materials which makes it four times as costly to [grow] as ordinary rice.
+> To the farmer, the new seeds and fertilizer represent an untried and expensive investment. The high yields of IR-8 depend on a combination of intensive labor and materials which makes it four times as costly to [grow] as ordinary rice. Only when the farmer sees that the added investment will increase his profit will he give them a try. …
 — William S. Gaud, head of the U.S. Agency for International Development (USAID), the government office that ran U.S. foreign aid, speech to the Society for International Development, Washington, D.C., March 8, 1968 (Adapted)
 
 **U9-E01** [Topic 9.1 · LO A · Skill 4.B]  Gaud's contrast between the Green Revolution and a "Red Revolution like that of the Soviets" (second paragraph) is best understood in the context of
 - (A) the rise of communist parties to power in most of Western Europe after the Second World War
-- (B) the success of collective farming in the Soviet Union, which had ended food shortages there
-- (C) an agreement between the two superpowers to end their rivalry and jointly share farm technology with Asia
+- (B) the spread of import substitution policies, which used high tariffs to build up national industries in Latin America
+- (C) the split between the Soviet Union and China, which divided the communist world in the 1960s and 1970s
 - (D) competition between the United States and the Soviet Union for influence in newly independent nations
 KEY: D. Explanation: During the Cold War, both superpowers tried to win over countries in Asia, Africa, and Latin America. American leaders hoped that more food would make poor countries less likely to have communist revolutions. Gaud chose the word "Green" to set his revolution apart from a "Red" one.
   - A: Incorrect. Communist parties were strong in France and Italy, but they did not take power in Western Europe. Gaud is talking about farming in Asia.
-  - B: Incorrect. Soviet collective farms did not end food shortages. In the 1960s the Soviet Union had to buy grain from abroad. Gaud praises new seeds, fertilizer, and private farmers.
-  - C: Incorrect. The superpowers did not end their rivalry in 1968, and they did not share farm technology. The Cold War went on until about 1991.
+  - B: Incorrect. Import substitution was about building factories, not farming. Gaud's contrast is about which side poor nations would follow.
+  - C: Incorrect. The split between the Soviet Union and China was real. But Gaud contrasts the Green Revolution with Soviet-style revolution in general. His point is about winning over poor nations.
   - D: Correct. In the 1960s the United States used food aid and farm help to win friends among new and poor nations. It hoped they would not turn to the Soviet model.
 
 **U9-E02** [Topic 9.1 · LO A · Skill 5.B · Causation]  The developments Gaud describes contributed most directly to which of the following in the 1970s and 1980s?
-- (A) A shift of most Asian farmland from food grains to export crops such as cotton, tea, and rubber
+- (A) A shift of most Asian farmland from food grains to export crops such as cotton, tea, jute, and rubber
 - (B) Land reforms that broke up large estates and gave the land to poor farmers across India and Pakistan
 - (C) Large gains in grain harvests in South and Southeast Asia that helped feed fast-growing populations
 - (D) The replacement of rice by wheat as the main food crop in most of Southeast Asia
@@ -715,22 +724,23 @@ KEY: C. Explanation: With new seeds, fertilizer, and irrigation, countries such 
   - D: Incorrect. Rice stayed the main food in Southeast Asia. New kinds of rice, such as IR-8, made rice harvests bigger.
 
 **U9-E03** [Topic 9.9 · LO I · Skill 3.D]  Which of the following, if true, would most directly qualify Gaud's argument that the Green Revolution was "beneficial to mankind"?
-- (A) Richer farmers gained the most from the new seeds, while many poor farmers could not afford the fertilizer and water the seeds needed.
+- (A) Larger farmers gained the most, since many small farmers could not afford the fertilizer and water the seeds needed.
 - (B) Wheat harvests in India and Pakistan rose to record levels in the late 1960s, soon after farmers began planting the new seeds.
-- (C) Scientists in Mexico and the Philippines went on developing new high-yielding crop varieties for Asian farmers through the 1970s.
+- (C) The Soviet Union's collective farms also raised their grain harvests in the late 1960s.
 - (D) Governments in South Asia lent farmers money to buy seeds and fertilizer, and they built new irrigation canals and wells.
 KEY: A. Explanation: The Green Revolution did grow much more food. But in some places it widened the gap between rich and poor farmers. It also used large amounts of fertilizer, pesticides, and water. Evidence like this qualifies Gaud's very hopeful view.
   - A: Correct. Gaud admits the new rice cost four times as much to grow. If poor farmers could not pay, the benefits were uneven. That limits, or qualifies, his claim.
   - B: Incorrect. Record harvests support Gaud's argument. They do not limit it.
-  - C: Incorrect. More research would help the Green Revolution keep going. That supports Gaud.
+  - C: Incorrect. This might weaken Gaud's contrast with a "Red Revolution," but it says nothing about whether the Green Revolution helped or hurt people.
   - D: Incorrect. Loans and irrigation are the kind of "sound agricultural policies" Gaud praises. This supports his argument.
 
 
 ### Source X2 (questions U9-E04–U9-E06)
 > There is ample evidence during the first epidemic of the introduction of infection into a locality from another infected locality. The railway played a prominent part as was inevitable. During the panic caused by the epidemic the trains were filled with emigrants from infected centres, many of them being ill. The Post office also was an important agency in disseminating infection, also very largely through the Railway Postal Service. … Marwari traders, shopkeepers and even doctors, in fact all who travelled by water, road or rail, were potential factors in distributing infection.
-> There is no method by which the deaths actually due to influenza can be calculated. If it be assumed that the excess in the deaths in 1918 over the mean of the previous 5 years was the result—direct or indirect—of influenza, the figure would come to 7,718,307. This is an overestimate owing to the disturbing factor of other epidemic diseases, such as plague, cholera, malaria and relapsing fever … . Without any claim to accuracy it is suggested that the mortality directly and indirectly due to influenza was in the neighbourhood of … 7,089,694.
+> There is no method by which the deaths actually due to influenza can be calculated. If it be assumed that the excess in the deaths in 1918 over the mean of the previous 5 years was the result—direct or indirect—of influenza, the figure would come to 7,718,307. This is an overestimate owing to the disturbing factor of other epidemic diseases, such as plague, cholera, malaria and relapsing fever … . Without any claim to accuracy it is suggested that the mortality directly and indirectly due to influenza was in the neighbourhood of … 7,089,694.*
 > When it is remembered that the epidemic struck India suddenly and almost universally it will be realised to what extent the medical organization already thinned by military needs was taxed. … The failure to meet the demand [for doctors] was due to two causes: (a) the necessity for supplying medical officers for the war. A similar need depleted the civil medical practitioners in all countries taking part in the late struggle, (b) the Medical Colleges and Schools in India cannot turn out a sufficient number of medical men to meet the normal demand. …
 > Rural areas depend for their medical aid on dispensaries, and these dispensaries are, speaking for India as a whole, too widely separated to be of general utility in a wide spread epidemic.
+> * This figure is the average of three estimates in the report. It covers the provinces of British India listed in the report, which then included Burma (today Myanmar), but not the states ruled by Indian princes.
 — Annual Report of the Sanitary Commissioner with the Government of India for 1918, a yearly report on disease and deaths by the chief public health official of British India, printed in Calcutta, India, in 1920 (Adapted)
 
 **U9-E04** [Topic 9.2 · LO B · Skill 5.B · Causation]  The report's account of how influenza spread across India (first paragraph) best illustrates which broader development of the early twentieth century?
@@ -738,7 +748,7 @@ KEY: A. Explanation: The Green Revolution did grow much more food. But in some p
 - (B) Networks of railways, ships, and mail that linked regions also carried disease quickly from place to place.
 - (C) Indian nationalists used the railways and the post to organize boycotts of British goods during the epidemic.
 - (D) Indentured workers leaving India for plantations abroad carried the disease mainly to the Caribbean.
-KEY: B. Explanation: In 1918 the flu traveled along the busiest routes in the world: railways, shipping lanes, and the routes of armies. India may have lost more people than any other country. Later historians think India's deaths were even higher than the report's estimate, perhaps 12 million or more.
+KEY: B. Explanation: In 1918 the flu traveled along the busiest routes in the world: railways, shipping lanes, and the routes of armies. The report shows how these networks carried infection from place to place in the provinces it covered.
   - A: Incorrect. There was no working flu vaccine in 1918. Scientists did not identify the flu virus until the 1930s.
   - B: Correct. The report says that trains full of people fleeing the cities, the post, and travelers spread the infection. The networks that moved people and goods around the world in 1918 also moved the flu.
   - C: Incorrect. Gandhi's first nationwide boycott campaign began in 1920, after the epidemic. The report says the trains and the post spread infection, not protest.
@@ -747,24 +757,24 @@ KEY: B. Explanation: In 1918 the flu traveled along the busiest routes in the wo
 **U9-E05** [Topic 9.2 · LO B · Skill 5.B · Causation]  The report's statement that "a similar need depleted the civil medical practitioners in all countries taking part in the late struggle" best supports which conclusion?
 - (A) Doctors trained in India had been sent to Europe to fight the influenza epidemic there.
 - (B) The First World War weakened the ability of many societies to care for the sick during the pandemic.
-- (C) Colonial India suffered fewer deaths from the disease than the countries that fought in the war.
+- (C) Colonial India suffered fewer deaths from the disease than the European countries that fought in the war.
 - (D) Governments in the warring countries trained many new doctors during the war to meet the needs of civilians.
 KEY: B. Explanation: The pandemic struck in the last months of the First World War. Doctors and nurses were serving with armies, and crowded camps and troopships helped the disease spread. India alone sent more than a million soldiers and workers overseas during the war.
   - A: Incorrect. The report says doctors were supplied "for the war," not to fight influenza in Europe.
   - B: Correct. Armies took doctors away from ordinary people just as the flu struck. The report says this happened "in all countries taking part" in the war, not only in India.
-  - C: Incorrect. India had one of the worst death tolls in the world. The report estimates about 7 million deaths.
+  - C: Incorrect. The report describes a huge death toll, about 7 million, and a shortage of doctors. It does not show that India suffered fewer deaths than other places.
   - D: Incorrect. The report says the war "depleted" civilian doctors. That means there were fewer of them, not more.
 
-**U9-E06** [Topic 9.2 · LO B · Skill 2.C]  Which of the following is a limitation of the report as evidence for the number of people in India who died of influenza in 1918?
-- (A) The author was the colonial government's chief public health official, with access to official records of deaths.
-- (B) The report was written soon after the epidemic, using death records collected during 1918.
-- (C) The report gives more than one figure and explains why it rejects the higher one.
-- (D) The author says the death toll is an estimate based on how many more people died than in earlier years.
-KEY: D. Explanation: Death records in India in 1918 were incomplete. Many deaths were never recorded, or were listed under "fever." So the report could only estimate. Later historians, using other methods, think the real number was higher.
-  - A: Incorrect. Being the top health official with access to records is a strength. It gave the author a wide view.
-  - B: Incorrect. Writing soon after the events, from records of the time, is a strength.
-  - C: Incorrect. Comparing figures and explaining the choice is a careful approach. That is a strength.
-  - D: Correct. The report says "there is no method" to count flu deaths exactly. It estimates by comparing 1918 with earlier years, and it admits that other diseases were mixed in.
+**U9-E06** [Topic 9.2 · LO B · Skill 2.C]  Which of the following is a limitation of the report as evidence for the number of people who died of influenza in 1918 in the areas it covers?
+- (A) The passage does not say which medicines worked best against the disease.
+- (B) The report was printed in English, which most people in India could not read.
+- (C) The passage does not describe how people in India felt about the British government's response to the epidemic.
+- (D) The author could only estimate flu deaths, since the records mixed them with deaths from other diseases.
+KEY: D. Explanation: Death records in India in 1918 were incomplete. Many deaths were never recorded, or were listed under "fever." So the report could only estimate. Later historians, using other methods and covering more of South Asia, have estimated much higher totals.
+  - A: Incorrect. Medicines are a different question. Leaving them out does not make the death count less reliable.
+  - B: Incorrect. The language of the report affects who could read it, not whether its count of deaths is right.
+  - C: Incorrect. People's feelings about the government are a different topic. They do not change how many people died.
+  - D: Correct. The report says "there is no method" to count flu deaths exactly. It admits that deaths from plague, cholera, malaria, and other diseases were mixed into the records, so it gives an average of several estimates.
 
 
 ### Source X3 (questions U9-E07–U9-E09)
@@ -773,8 +783,8 @@ KEY: D. Explanation: Death records in India in 1918 were incomplete. Many deaths
 - 1990: World = 65.1, Japan = 78.8, China = 68.2, Brazil = 65.9, India = 58.6, South Africa = 62.9, Botswana = 60.1, Nigeria = 45.7
 - 2005: World = 69.1, Japan = 82.0, China = 74.1, Brazil = 71.8, India = 64.9, South Africa = 53.9, Botswana = 54.4, Nigeria = 49.5
 - 2023: World = 73.3, Japan = 84.0, China = 78.0, Brazil = 75.8, India = 72.0, South Africa = 66.1, Botswana = 69.2, Nigeria = 54.5
-Life expectancy at birth is the number of years a newborn baby would live, on average, if the death rates of the year of its birth stayed the same all through its life. The figures are estimates made by the United Nations Population Division and reported by the World Bank. Estimates for the earlier years rest on incomplete records in some countries.
-Source: World Bank, World Development Indicators, "Life expectancy at birth, total (years)" (indicator SP.DYN.LE00.IN), from United Nations, World Population Prospects; data updated October 2026; CC BY 4.0
+Life expectancy at birth is the number of years a newborn baby would live, on average, if the death rates of the year of its birth stayed the same all through its life. These World Bank figures draw on United Nations estimates and other official population statistics. Estimates for the earlier years rest on incomplete records in some countries.
+Source: World Bank, World Development Indicators, "Life expectancy at birth, total (years)" (indicator SP.DYN.LE00.IN), from United Nations, World Population Prospects, and national statistical offices; data updated October 2026; CC BY 4.0
 
 **U9-E07** [Topic 9.9 · LO I · Skill 5.A · Continuity and Change]  Which of the following best describes a pattern shown in the chart?
 - (A) Life expectancy rose faster in Japan than in any other country shown in the years after 1970.
@@ -784,69 +794,69 @@ Source: World Bank, World Development Indicators, "Life expectancy at birth, tot
 KEY: C. Explanation: After 1950, vaccines, antibiotics, clean water, and more food helped people live longer almost everywhere. But poorer countries with weak health systems, such as Nigeria, still lag far behind richer ones.
   - A: Incorrect. China rose about 21 years (56.8 to 78.0). Japan rose about 12. China's gain was bigger.
   - B: Incorrect. Most countries kept rising from 1990 to 2005. Only South Africa and Botswana fell.
-  - C: Correct. Each country's figure for 2023 is higher than for 1970. But people in Japan (84.0) still lived about 30 years longer than people in Nigeria (54.5).
+  - C: Correct. Each country's figure for 2023 is higher than for 1970. But life expectancy in Japan (84.0) was still about 30 years higher than in Nigeria (54.5).
   - D: Incorrect. India reached 72.0 in 2023. That is still below China's 78.0.
 
 **U9-E08** [Topic 9.2 · LO B · Skill 5.B · Causation]  The change for South Africa and Botswana between 1990 and 2005 was most likely caused by
 - (A) an Ebola epidemic that spread from West Africa to the southern part of the continent
 - (B) the return of a deadly influenza like that of 1918 to Africa's crowded cities
-- (C) the spread of HIV/AIDS, which infected a large share of adults in southern Africa
+- (C) the spread of HIV, which infected a large share of adults in southern Africa
 - (D) a famine that followed the collapse of farming in South Africa's apartheid-era homelands
-KEY: C. Explanation: HIV/AIDS was first identified in the early 1980s. It spread fastest in southern Africa. Antiretroviral drugs, paid for in part by programs such as the U.S. PEPFAR plan begun in 2003, helped life expectancy recover after 2005.
+KEY: C. Explanation: HIV is the virus that can lead to AIDS. Before good treatment was widely available, AIDS caused many early deaths, and southern Africa was hit especially hard. Medicines that stop HIV from multiplying, paid for in part by the Global Fund and the U.S. PEPFAR plan, helped life expectancy rise again after 2005.
   - A: Incorrect. The largest Ebola outbreak hit West Africa in 2014–2016, after 2005. It did not reach southern Africa.
   - B: Incorrect. No influenza outbreak like that of 1918 hit Africa in these years.
   - C: Correct. By the early 2000s about one in four adults in Botswana had HIV. Before treatment was available, AIDS killed many young adults, which pulled life expectancy down.
-  - D: Incorrect. South Africa did not have a famine in these years. Also, the drop was just as large in Botswana, which never had apartheid.
+  - D: Incorrect. South Africa did not have a famine in these years. Also, life expectancy fell in Botswana too (from 60.1 to 54.4), and Botswana never had apartheid.
 
-**U9-E09** [Topic 9.1 · LO A · Skill 3.D]  The data in the chart would best support which of the following arguments?
-- (A) Gains in life expectancy after 1970 took place mainly in the countries that were already wealthy then.
-- (B) Life expectancy rose mainly because birth rates fell in the poorer countries shown in the chart.
-- (C) Countries in Africa gained more years of life than the countries in Asia did after 1970.
-- (D) Medical and public health advances raised life spans in most of the world, though new diseases could undo gains.
-KEY: D. Explanation: Vaccines, antibiotics, and better food and water spread across the world after 1950, and the Green Revolution helped feed growing populations. But HIV/AIDS showed that a new disease could still undo years of progress.
+**U9-E09** [Topic 9.1 · LO A · Skill 5.B · Causation]  Which of the following best explains both the overall gains and the setbacks shown in the chart?
+- (A) Economic growth in the countries that were already wealthy in 1970 raised life spans mainly in those countries.
+- (B) Falling fertility rates in poorer countries raised life spans there and caused the drops in southern Africa.
+- (C) The end of colonial rule in Africa raised life spans there faster than in the countries of Asia.
+- (D) Wider access to medicine, clean water, and food raised life spans, but major epidemics could reverse gains.
+KEY: D. Explanation: Vaccines, antibiotics, and better food and water spread across the world after 1950, and the Green Revolution helped feed growing populations. But HIV showed that a new epidemic could still undo years of progress.
   - A: Incorrect. Some of the biggest gains came in China and India, which were poor in 1970.
-  - B: Incorrect. The chart shows life expectancy only. It says nothing about birth rates.
+  - B: Incorrect. Lower fertility alone does not explain longer lives, and it cannot explain the sharp drops in South Africa and Botswana between 1990 and 2005.
   - C: Incorrect. India gained about 23 years and China about 21. Nigeria gained about 15, less than either.
   - D: Correct. Most countries rose steadily, and India gained more than 23 years. But South Africa and Botswana fell between 1990 and 2005 before rising again.
 
 
 ### Source X4 (questions U9-E10–U9-E12)
 [IMAGE] William Anders, U.S. astronaut, photograph taken from the Apollo 8 spacecraft while it orbited the Moon, December 24, 1968. NASA photograph AS08-14-2383. Public domain image via Wikimedia Commons.
-Caption shown to students: The Earth, half lit by the Sun and half in shadow, appears above the gray, cratered horizon of the Moon. White clouds swirl over blue oceans. The rest of the sky is black.
-Description: A square color photograph. The bottom quarter shows the surface of the Moon: a gray, curving horizon covered with small craters and ridges. Above it is a black sky with no stars. A little to the right of center, the Earth hangs above the horizon. Only part of it is lit, so it looks like a half circle. The lit part is blue, with white swirls of cloud and a patch of brown land near the shadow line.
+Caption shown to students: The Earth, partly lit by the Sun and partly in shadow, appears above the gray, cratered horizon of the Moon. White clouds swirl over blue oceans. The rest of the sky is black.
+Description: A square color photograph. The bottom quarter shows the surface of the Moon: a gray, curving horizon covered with small craters and ridges. Above it is a black sky with no stars. A little to the right of center, the Earth hangs above the horizon. Only part of it is lit. The lit part is blue, with white swirls of cloud and a patch of brown land near the shadow line.
 
-**U9-E10** [Topic 9.1 · LO A · Skill 4.B]  The photograph was made possible most directly by
+**U9-E10** [Topic 9.1 · LO A · Skill 4.A]  The photograph was made possible most directly by
 - (A) a joint space program that the United States and the Soviet Union ran together through the United Nations
-- (B) government spending on rockets and space travel during the rivalry between the United States and the Soviet Union
-- (C) private companies that launched spacecraft in order to sell pictures of the Earth to newspapers
-- (D) computer networks that let NASA send pictures instantly from space to scientists around the world
-KEY: B. Explanation: Apollo 8 was the first crewed spacecraft to orbit the Moon. It was part of the Space Race, which pushed fast advances in rockets, computers, and communication.
+- (B) government spending on rockets during the Space Race between the two superpowers
+- (C) the invention of color film, which first became available to photographers in the 1960s
+- (D) communication satellites that carried live television pictures between continents
+KEY: B. Explanation: Apollo 8 was the first spacecraft with a crew to orbit the Moon. It was part of the Space Race, which pushed fast advances in rockets, computers, and communication.
   - A: Incorrect. The two superpowers competed in space in the 1960s. Their first joint mission came in 1975.
   - B: Correct. The Space Race grew out of the Cold War. After the Soviet Union launched Sputnik in 1957, the United States poured money into NASA and the Apollo program.
-  - C: Incorrect. NASA, a government agency, ran Apollo 8. No private company sent people to the Moon.
-  - D: Incorrect. The astronauts used film cameras, and the film was developed after they returned to Earth. Computer networks like the internet came later.
+  - C: Incorrect. Color film had been sold since the 1930s. Apollo 8 could reach the Moon only because the government spent billions on the space program.
+  - D: Incorrect. Satellites did carry live television, and Apollo 8 sent TV pictures home. But this photograph was taken on film and developed after the astronauts returned to Earth.
 
 **U9-E11** [Topic 9.3 · LO C · Skill 5.B · Causation]  Images such as this one contributed most directly to which of the following in the 1970s?
-- (A) International agreements that divided the surface of the Moon among the nations able to reach it
-- (B) A decision by both superpowers to stop the arms race and spend the money on space travel instead
+- (A) The Outer Space Treaty, which banned nuclear weapons in orbit and on the Moon
+- (B) Arms control agreements, such as SALT I, that limited the number of nuclear missiles
 - (C) The growth of environmental movements that urged people to protect the Earth as a shared home
-- (D) A ban on satellite television broadcasts between countries with different political systems
+- (D) The oil crises of 1973 and 1979, which raised fuel prices around the world
 KEY: C. Explanation: Photographs like this one were printed in magazines and shown on television around the world. They became symbols for the environmental movement, which grew quickly in the 1970s.
-  - A: Incorrect. The Outer Space Treaty of 1967 said that no nation could claim the Moon.
-  - B: Incorrect. The arms race went on through the 1970s and 1980s. Treaties set some limits but did not end it.
+  - A: Incorrect. The Outer Space Treaty was signed in 1967, before this photograph was taken.
+  - B: Incorrect. SALT I came out of talks between the superpowers about their weapons, not out of pictures of Earth.
   - C: Correct. Seeing the whole Earth, small and alone in space, helped people think of it as fragile. The first Earth Day was held in 1970, and groups such as Greenpeace began soon after.
-  - D: Incorrect. Satellite television grew in these years and carried programs and events across borders.
+  - D: Incorrect. The oil crises were caused by war and revolution in the Middle East, not by photographs.
 
-**U9-E12** [Topic 9.6 · LO F · Skill 4.B]  The photograph's fame around the world is best understood as part of which broader development after 1945?
-- (A) The spread of the internet, which let people in different countries send pictures to one another at no cost
+**U9-E12** [Topic 9.6 · LO F · Skill 4.B]  The photograph's rapid spread around the world in the late 1960s is best understood as part of which broader development?
+- (A) The worldwide spread of consumer brands such as Coca-Cola and Toyota
 - (B) The growth of tourism as jet airliners let more people travel to other countries
 - (C) The growth of mass media, such as television and magazines, that let people everywhere share events
-- (D) The decline of newspapers and magazines as people turned to radio for their news
-KEY: C. Explanation: After the Second World War, television spread around the world, and by the mid-1960s communication satellites carried live broadcasts between continents. Events such as the Moon missions and the Olympic Games became shared global experiences.
-  - A: Incorrect. The internet did not come into wide use until the 1990s, long after 1968.
-  - B: Incorrect. Jet travel did grow in the 1960s, but travelers did not spread this photograph. Magazines, newspapers, and television did.
+- (D) The spread of rock and roll and other American popular music to Europe and Asia
+KEY: C. Explanation: After the Second World War, television spread around the world. By the mid-1960s, satellites could send live TV from one continent to another. Events such as the Moon missions and the Olympic Games became things people everywhere watched together.
+  - A: Incorrect. Global brands spread in these years too, but brands did not make this photograph famous. Television, magazines, and newspapers did.
+  - B: Incorrect. Jet travel did grow in the 1960s, but mass media, not travelers, carried this photograph to huge audiences.
   - C: Correct. Television and magazines carried space images to huge audiences. Many millions of people around the world watched Apollo 8's broadcast from orbit around the Moon on Christmas Eve 1968.
-  - D: Incorrect. Newspapers and magazines were still widely read. Television, not radio, was the medium that was growing in the 1960s.
+  - D: Incorrect. American music did spread around the world, but it has nothing to do with how people saw this photograph.
 
 
 ### Source X5 (questions U9-E13–U9-E16)
@@ -859,96 +869,95 @@ KEY: C. Explanation: After the Second World War, television spread around the wo
 — F. W. de Klerk, state president of South Africa and leader of the National Party, speech at the opening of Parliament, Cape Town, February 2, 1990 (As broadcast by South African radio and recorded by the U.S. Foreign Broadcast Information Service (FBIS), a U.S. government agency; parts of the speech given in Afrikaans were translated by FBIS; adapted)
 **Source 2**
 > Today, the majority of South Africans, black and white, recognize that apartheid has no future. It has to be ended by our own decisive mass action in order to build peace and security. …
-> Our resort to the armed struggle in 1960, with the formation of the military wing of the ANC [African National Congress], Umkonto we Sizwe [Spear of the Nation] … was a purely defensive action against the violence of apartheid. … We have no option but to continue. …
+> Our resort to the armed struggle … with the formation of the military wing of the ANC [African National Congress], Umkonto we Sizwe [Spear of the Nation] … was a purely defensive action against the violence of apartheid. … We have no option but to continue [the armed struggle]. …
 > Mr. de Klerk has gone further than any other Nationalist president in taking real steps to normalize the situation. However, there are further steps … that have to be met before negotiation on the basic demands of our people can begin. I reiterate our call for, inter alia, the immediate ending of the state of emergency and the freeing of all, and not only some, political prisoners. …
 > We call on the international community to continue the campaign to isolate the apartheid regime. To lift sanctions now would be to run the risk of aborting the process toward the complete eradication of apartheid. … Universal suffrage on a common voters' roll in a united democratic and nonracial South Africa is the only way to peace and racial harmony.
 — Nelson Mandela, leader of the African National Congress (ANC), speech to a crowd in Cape Town on the day he was released after 27 years in prison, February 11, 1990 (As broadcast by South African television and recorded by the U.S. Foreign Broadcast Information Service (FBIS); adapted)
 
 **U9-E13** [Topic 9.5 · LO E · Skill 3.C · Comparison]  Which of the following best describes a difference between the two speeches?
 - (A) De Klerk asks other nations to keep their sanctions on South Africa, while Mandela asks them to lift sanctions.
-- (B) De Klerk presents lifting the bans as a reason to begin talks now, while Mandela says further steps must come first.
+- (B) De Klerk says talks should begin now, while Mandela says further steps must come first.
 - (C) De Klerk rejects voting rights for Black South Africans, while Mandela calls for universal suffrage.
 - (D) De Klerk speaks mainly to foreign governments, while Mandela speaks mainly to white South African voters.
 KEY: B. Explanation: In February 1990 both leaders said they wanted to end apartheid through talks. But they disagreed about the pace. De Klerk wanted talks to start at once, while Mandela and the ANC wanted pressure kept on the government until more of their demands were met.
   - A: Incorrect. This reverses the speakers. Mandela is the one who asks the world "to continue the campaign to isolate the apartheid regime."
-  - B: Correct. De Klerk says "the time for talking has arrived." Mandela praises him but says the state of emergency must end and all political prisoners must go free before real negotiation can begin.
-  - C: Incorrect. De Klerk lists "universal franchise" among his aims. On voting, the two speeches agree.
+  - B: Correct. De Klerk says "the time for talking has arrived." Mandela praises him. But Mandela says two things must happen before real talks can start: the state of emergency must end, and all political prisoners must go free.
+  - C: Incorrect. De Klerk lists "universal franchise" among his aims, so he does not reject voting rights for Black South Africans. The two leaders still disagreed about other details.
   - D: Incorrect. De Klerk spoke to Parliament, and Mandela spoke to a crowd of supporters. Mandela speaks of "our people" and "our own decisive mass action."
 
-**U9-E14** [Topic 9.5 · LO E · Skill 4.B]  De Klerk's claim that 1989 was "the year in which Stalinist communism expired" (Source 1) refers most directly to
+**U9-E14** [Topic 9.5 · LO E · Skill 4.A]  De Klerk's claim that 1989 was "the year in which Stalinist communism expired" (Source 1) refers most directly to
 - (A) the victory of communist parties in elections in several countries of southern Africa
 - (B) China's decision to hold free elections for a new government after the protests in Tiananmen Square
 - (C) the withdrawal of the Soviet army from Afghanistan after ten years of fighting there
 - (D) the fall of communist governments in Poland, East Germany, and other Eastern European countries
-KEY: D. Explanation: As the Cold War ended, the South African government could no longer claim that the ANC was a tool of the Soviet Union. This made it easier for de Klerk to lift the bans. He also hoped to end the sanctions that were hurting South Africa's economy.
+KEY: D. Explanation: The fall of communist governments in Eastern Europe weakened the South African government's argument that ending apartheid would bring a Soviet-backed takeover. This made it easier for de Klerk to lift the bans. He also hoped to end the sanctions that were hurting South Africa's economy.
   - A: Incorrect. Communist parties did not win power in southern Africa in 1989. De Klerk is saying that communism had failed.
   - B: Incorrect. China's government crushed the Tiananmen protests in June 1989 and kept one-party rule.
   - C: Incorrect. The Soviet army did leave Afghanistan early in 1989, but the communist government there held power until 1992. De Klerk points to the collapse of communism in Eastern Europe.
-  - D: Correct. In 1989 communist rule collapsed across Eastern Europe, and the Berlin Wall was opened in November. De Klerk says this collapse "served as a warning" to communists in Africa.
+  - D: Correct. In 1989 communist rule began to collapse across Eastern Europe, and the Berlin Wall was opened in November. De Klerk says this collapse "served as a warning" to communists in Africa.
 
 **U9-E15** [Topic 9.8 · LO H · Skill 4.B]  Mandela's call for the international community "to continue the campaign to isolate the apartheid regime" (Source 2) refers most directly to
-- (A) economic sanctions and boycotts used against South Africa by many governments and the United Nations
-- (B) a military alliance of African countries that had invaded South Africa to force an end to apartheid
-- (C) a United Nations trusteeship that placed South Africa under the rule of an international council of nations
-- (D) the decision of the Non-Aligned Movement to send its own peacekeeping troops into South Africa
-KEY: A. Explanation: International pressure on South Africa grew in the 1980s. Sanctions cut foreign investment and hurt its economy. Mandela feared that lifting them too early would take away the pressure on the government.
+- (A) economic sanctions and boycotts by many governments and groups
+- (B) the Cold War policy of containment, which aimed to stop the spread of Soviet influence in Africa
+- (C) the armed struggle carried out by the ANC's military wing inside South Africa
+- (D) the Non-Aligned Movement's refusal to take sides in the Cold War
+KEY: A. Explanation: International pressure on South Africa grew in the 1980s. Sanctions (limits on trade and other ties, used to pressure a government) cut foreign investment and hurt its economy. Mandela feared that lifting them too early would take away the pressure on the government.
   - A: Correct. Many countries limited trade with and investment in South Africa in the 1980s, and the UN banned the sale of weapons to it. Sports teams and musicians also boycotted the country.
-  - B: Incorrect. No African army invaded South Africa. Neighboring states helped the ANC, but South Africa had the strongest army in the region.
-  - C: Incorrect. South Africa was never placed under UN rule. The UN did oversee the independence of Namibia, which South Africa had ruled, in 1989–1990.
-  - D: Incorrect. No foreign troops were sent in to end apartheid. It ended through negotiations.
+  - B: Incorrect. Containment was a U.S. policy aimed at the Soviet Union. Some Western leaders even treated South Africa's government as an anti-communist ally.
+  - C: Incorrect. The armed struggle was the ANC's own action inside South Africa. Mandela is asking the "international community" to act.
+  - D: Incorrect. Staying out of the Cold War is a different issue. Mandela is talking about cutting South Africa off from the world.
 
 **U9-E16** [Topic 9.5 · LO E · Skill 5.B · Causation]  The developments described in the two speeches led most directly to
-- (A) the creation of separate "homelands" in which Black South Africans were required to live
+- (A) the creation of separate "homelands" in which Black South Africans were required to live and hold citizenship
 - (B) a civil war that split South Africa into a white-ruled state and a Black-ruled state
-- (C) South Africa's first election in which people of all races could vote, held in 1994
+- (C) South Africa's first national election in which all adult citizens could vote, held in 1994
 - (D) the return of the ban on the ANC after the National Party won the next election held for white voters
 KEY: C. Explanation: De Klerk's reforms and Mandela's release began years of hard bargaining. In 1993 Mandela and de Klerk shared the Nobel Peace Prize. In 1994 Mandela became South Africa's first Black president.
   - A: Incorrect. The homelands were set up under apartheid, years before 1990. The talks of the 1990s ended them.
   - B: Incorrect. There was violence during the years of talks, but no civil war split the country. South Africa stayed one country.
-  - C: Correct. After four years of talks, South Africa held its first election open to all races in April 1994. The ANC won, and Mandela became president.
-  - D: Incorrect. The ban on the ANC was never brought back. In the last whites-only vote, in 1992, voters approved continuing the talks.
+  - C: Correct. After four years of talks, South Africa held its first national election open to all adult citizens, regardless of race, in April 1994. The ANC won, and Mandela became president.
+  - D: Incorrect. The ban on the ANC was never brought back. In 1992 white voters approved continuing the talks in a referendum.
 
 
 ### Source X6 (questions U9-E17–U9-E19)
-> With the ratification of the North American Free Trade Agreement [NAFTA] by the U.S. House of Representatives today, one more step has been taken for the creation of the world's largest free trade market between sovereign countries. The agreement provides clear and permanent rules for commerce and investment, which will create jobs and opportunities in our country.
-> In view of this, I wish to say that Mexicans regard the agreement as an additional instrument in our foreign strategy, to be added to the fundamental changes we have already initiated and are consolidating. These changes had been taking place before NAFTA … . We will fully fulfill NAFTA's pledges. In addition, we will not spare efforts to diversify our relations, particularly with Latin America, the EC, and the Pacific Basin. …
-> I reiterate that we should not expect immediate effects from NAFTA. The agreement was negotiated in such a manner that it will be gradually enacted over the course of 15 years. The neediest sectors will be given time to rejuvenate their competitive capabilities and forge ahead. …
-> Today's result can be seen not only as the final step toward the approval of the agreement negotiated and signed by the governments of the three countries, but also as a rejection of protectionist propositions—those that promote fear for competition and those that are closed to long-term perceptions and to the future.
-> On the march toward free trade, voices have been earnestly raised in the three countries. Some people spoke in favor and others against the agreement. Some people tried, with arguments, to shun the greatness of the Mexican people. … In Mexico, the trust and the great character of our people cannot be subjected to any passing of judgment abroad. We know what we are worth and we are working to build our own future.
-— Carlos Salinas de Gortari, president of Mexico, statement on Mexican television after the U.S. House of Representatives voted to approve NAFTA, Mexico City, November 17, 1993 (Translated from Spanish by the U.S. Foreign Broadcast Information Service (FBIS), a U.S. government agency; adapted)
+> Article 101: Establishment of the Free Trade Area. The Parties to this Agreement, consistent with Article XXIV of the General Agreement on Tariffs and Trade, hereby establish a free trade area.
+> Article 102: Objectives. 1. The objectives of this Agreement, as elaborated more specifically through its principles and rules, including national treatment, most-favored-nation treatment and transparency, are to: a) eliminate barriers to trade in, and facilitate the cross-border movement of, goods and services between the territories of the Parties; b) promote conditions of fair competition in the free trade area; c) increase substantially investment opportunities in the territories of the Parties; d) provide adequate and effective protection and enforcement of intellectual property rights in each Party's territory; … f) establish a framework for further trilateral, regional and multilateral cooperation to expand and enhance the benefits of this Agreement. …
+> Article 104: Relation to Environmental and Conservation Agreements. 1. In the event of any inconsistency between this Agreement and the specific trade obligations set out in: a) the Convention on International Trade in Endangered Species of Wild Fauna and Flora … , b) the Montreal Protocol on Substances that Deplete the Ozone Layer … , c) the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal … , such obligations shall prevail to the extent of the inconsistency … .
+> Article 105: Extent of Obligations. The Parties shall ensure that all necessary measures are taken in order to give effect to the provisions of this Agreement … by state and provincial governments.
+— North American Free Trade Agreement (NAFTA) among the governments of Canada, Mexico, and the United States, Chapter One, signed in December 1992 and in force from January 1, 1994 (Official English text of the treaty (the treaty is equally official in English, French, and Spanish); adapted)
 
-**U9-E17** [Topic 9.4 · LO D · Skill 4.B]  The "fundamental changes we have already initiated" (second paragraph) most likely refers to
-- (A) the sale of state-owned companies and the lowering of tariffs in Mexico during the 1980s and early 1990s
-- (B) the takeover of foreign-owned oil companies by the Mexican government to build up national industry
-- (C) the land reform that divided large estates among peasant villages after the Mexican Revolution
-- (D) the creation of new state-run factories to make goods that Mexico had once bought from other countries
-KEY: A. Explanation: Like many countries in the 1980s and 1990s, Mexico turned toward free-market policies. Salinas sold state companies and opened Mexico to foreign trade and investment. NAFTA locked these changes in.
-  - A: Correct. After a debt crisis in 1982, Mexico's leaders sold hundreds of state companies, joined the GATT trade agreement in 1986, and cut taxes on imports. Salinas says these changes came "before NAFTA."
-  - B: Incorrect. Mexico took over the foreign oil companies in 1938. Salinas was moving the other way, toward more trade and foreign investment.
-  - C: Incorrect. Land reform followed the revolution of 1910–1920. In 1992 Salinas actually changed the constitution to let villagers sell or rent their shared lands.
-  - D: Incorrect. Building state factories to replace imports was Mexico's older policy. Salinas praises free trade and rejects "protectionist propositions."
+**U9-E17** [Topic 9.4 · LO D · Skill 4.B]  The agreement is best understood as part of which broader trend of the late twentieth century?
+- (A) A move by many governments toward free-market policies that lowered barriers to trade and investment
+- (B) Calls by developing countries for a New International Economic Order that would raise the prices of raw materials
+- (C) The use of import substitution, in which high tariffs protected new national industries from foreign goods
+- (D) The growth of state-run industries, such as the oil companies taken over by Mexico and Venezuela
+KEY: A. Explanation: After the debt crisis of the 1980s, many governments moved away from state control of the economy. Mexico sold hundreds of state companies and joined the GATT in 1986. NAFTA, which took effect in 1994, removed most tariffs among Canada, Mexico, and the United States.
+  - A: Correct. NAFTA aimed to "eliminate barriers to trade" and "increase substantially investment opportunities." In the 1980s and 1990s many countries, including Mexico, cut tariffs, sold state companies, and welcomed foreign investment.
+  - B: Incorrect. The New International Economic Order of the 1970s asked for more state control over trade and foreign companies. NAFTA did the opposite: it opened markets.
+  - C: Incorrect. Import substitution used high tariffs to keep foreign goods out. NAFTA's goal was to remove such barriers.
+  - D: Incorrect. Government takeovers of industries were common from the 1930s to the 1970s. NAFTA protects investors and "intellectual property rights," which points the other way.
 
-**U9-E18** [Topic 9.4 · LO D · Skill 2.B]  Salinas's statement that the character of the Mexican people "cannot be subjected to any passing of judgment abroad" was most likely meant to
-- (A) warn the U.S. Senate that Mexico would pull out of NAFTA if senators tried to change the agreement
-- (B) persuade Canadian voters to support Canada's entry into the trade agreement
-- (C) tell Mexican farmers that NAFTA would protect them from competition with American farms
-- (D) answer critics in the United States who had spoken badly of Mexico during the NAFTA debate
-KEY: D. Explanation: During the NAFTA debate, some opponents in the United States warned that jobs would flow to low-wage Mexico, and some described Mexico in insulting terms. Salinas spoke to his own people to defend Mexico's dignity and to present NAFTA as Mexico's own choice.
-  - A: Incorrect. Salinas does not threaten to leave. He says Mexico "will fully fulfill NAFTA's pledges."
-  - B: Incorrect. Canada had already signed the agreement, and Salinas was speaking on Mexican television to Mexicans.
-  - C: Incorrect. Salinas does not promise protection. He says the neediest sectors will be given time to become more competitive.
-  - D: Correct. Salinas says some people "tried, with arguments, to shun the greatness of the Mexican people." He is speaking to Mexicans and defending their pride against critics abroad.
+**U9-E18** [Topic 9.3 · LO C · Skill 2.B]  The authors of the agreement most likely included Article 104 in order to
+- (A) let Mexico keep foreign companies out of its national oil industry
+- (B) show that the free trade area followed the rules of the GATT, the main treaty on world trade
+- (C) make sure that state and provincial governments would obey the agreement
+- (D) answer critics who feared that freer trade would weaken protections for the environment
+KEY: D. Explanation: Many environmental and labor groups opposed NAFTA. They feared that factories would move to places with weaker rules. To win support, the three governments also signed side agreements on the environment and on labor in 1993.
+  - A: Incorrect. Mexico did keep its oil industry under state control, but other parts of the agreement dealt with that. Article 104 is about environmental treaties.
+  - B: Incorrect. That is the purpose of Article 101, which names the GATT. Article 104 names environmental treaties.
+  - C: Incorrect. That is the purpose of Article 105. Article 104 is about what happens when NAFTA conflicts with environmental treaties.
+  - D: Correct. Article 104 says that if NAFTA conflicts with three environmental treaties, those treaties "shall prevail." During the debate, environmental groups warned that trade rules could override laws protecting wildlife, the ozone layer, and the safe disposal of waste.
 
-**U9-E19** [Topic 9.7 · LO G · Skill 5.B · Causation]  Which of the following was most directly a response to the agreement Salinas describes?
-- (A) An uprising by the Zapatista National Liberation Army in Chiapas on the day NAFTA took effect
-- (B) The founding of OPEC by oil-producing countries to control the price of oil
-- (C) Mexico's government takeover of its private banks to protect them from competition with U.S. banks
-- (D) The U.S. Senate's rejection of NAFTA, which ended the agreement before it began
-KEY: A. Explanation: The Zapatistas named themselves after Emiliano Zapata, a hero of the Mexican Revolution. Their revolt was one of the first widely known protests against economic globalization, and supporters spread their messages around the world by fax and over early internet networks.
-  - A: Correct. On January 1, 1994, mostly Maya rebels in the southern state of Chiapas rose up. They said NAFTA would ruin poor Indigenous farmers, who could not compete with cheap corn from the United States.
-  - B: Incorrect. OPEC was founded in 1960, more than 30 years earlier, and Mexico was not a member.
-  - C: Incorrect. Mexico's government took over the banks in 1982. Salinas sold them back to private owners in 1991–1992.
-  - D: Incorrect. The Senate approved NAFTA three days after the House vote, and the agreement took effect on January 1, 1994.
+**U9-E19** [Topic 9.7 · LO G · Skill 5.B · Causation]  Which of the following was a response to the agreement when it took effect?
+- (A) An armed uprising by the Zapatistas, a mostly Indigenous group in the Mexican state of Chiapas
+- (B) The founding of Mercosur, a trade bloc of Argentina, Brazil, Paraguay, and Uruguay
+- (C) The Mexican government's takeover of the country's private banks during a debt crisis
+- (D) The signing of the Maastricht Treaty, which created the European Union
+KEY: A. Explanation: The Zapatistas took their name from Emiliano Zapata, a hero of the Mexican Revolution. Their revolt was one of the first well-known protests against global trade. Their supporters used fax machines and the early internet to spread their message around the world.
+  - A: Correct. The Zapatistas rose up on January 1, 1994, the day NAFTA took effect. They said that free trade, along with a 1992 change in Mexico's land laws, would ruin poor Indigenous farmers.
+  - B: Incorrect. Mercosur was founded in 1991, before NAFTA was signed. It was a South American trade bloc, not a response to NAFTA.
+  - C: Incorrect. Mexico's government took over the banks in 1982, during the debt crisis. It sold them again in the early 1990s.
+  - D: Incorrect. The Maastricht Treaty was signed in 1992, before NAFTA took effect. It was a European plan, not a response to NAFTA.
 
 
 ### Source X7 (questions U9-E20–U9-E22)
@@ -970,13 +979,13 @@ KEY: A. Explanation: As the internet spread after 2000, some governments built f
   - C: Incorrect. The governments Clinton describes were watching and limiting what people saw online, not protecting them.
   - D: Incorrect. Clinton describes barriers between people and the world's networks, not the sharing of equipment.
 
-**U9-E21** [Topic 9.9 · LO I · Skill 5.A · Comparison]  Clinton's phrase "a new information curtain is descending" compares internet censorship with
-- (A) the division of Africa among European powers at the Berlin Conference of 1884–1885
+**U9-E21** [Topic 9.7 · LO G · Skill 5.A · Comparison]  Clinton's phrase "a new information curtain is descending" compares internet censorship with
+- (A) the rules for European colonial claims in Africa set at the Berlin Conference of 1884–1885
 - (B) the division of Europe between communist and noncommunist states after World War II
 - (C) the partition of British India into the separate countries of India and Pakistan in 1947
-- (D) the long walls that the Ming dynasty built along China's northern frontier
+- (D) the long walls that the Ming dynasty built along China's northern frontier against invaders
 KEY: B. Explanation: Clinton suggests that the struggle over the free flow of information is like the Cold War. During the Cold War, communist governments jammed Western radio and banned many books and newspapers. Some governments today try to block parts of the internet.
-  - A: Incorrect. The Berlin Conference split Africa into colonies. It was not about blocking the flow of information.
+  - A: Incorrect. The Berlin Conference set rules for claiming colonies in Africa. It was not about blocking the flow of information.
   - B: Correct. In 1946 Winston Churchill said that an "iron curtain" had descended across Europe, cutting the communist East off from the West. Clinton echoes his words.
   - C: Incorrect. The partition of India divided land and people by religion. Clinton's "curtain" is about blocking information, like the Cold War barrier.
   - D: Incorrect. The Ming walls were built to keep out invaders from the north. Clinton's words echo a phrase from the twentieth century.
@@ -989,48 +998,48 @@ KEY: B. Explanation: Clinton suggests that the struggle over the free flow of in
 KEY: A. Explanation: By 2010, mobile phones were spreading fast in Africa and South Asia. Farmers could check prices and send money by phone. Clinton hoped this would help poor countries join the global economy.
   - A: Correct. The Green Revolution is often praised for growing far more food. Clinton hopes the internet and mobile phones will do something similar for economic growth in poor countries.
   - B: Incorrect. Clinton presents these technologies as a help to poor people, not a threat.
-  - C: Incorrect. Clinton says there are already "more ways to spread more ideas to more people than at any moment in history."
+  - C: Incorrect. Clinton says these technologies "can do for economic growth what the Green Revolution did for agriculture." She expects them to help poor countries soon, not decades later.
   - D: Incorrect. Clinton does not say that aid should stop. She compares the internet to the Green Revolution, which foreign aid helped pay for.
 
 
 ### Source X8 (questions U9-E23–U9-E25)
 **People Using the Internet in Selected Countries, 2000–2022 (percent of population)** (bar chart; y = Percent of population)
 - 2000: United States = 43.1, South Korea = 44.7, Finland = 37.2, China = 1.8, Brazil = 2.9, Mexico = 5.1, India = 0.5, Nigeria = 0.1
-- 2010: United States = 71.7, South Korea = 83.7, Finland = 86.9, China = 34.3, Brazil = 40.6, Mexico = 31.1, India = 7.5, Nigeria = 11.5
+- 2010: United States = 71.7, South Korea = 83.7, Finland = 86.9, China = 34.3, Brazil = 40.7, Mexico = 31.1, India = 7.5, Nigeria = 11.5
 - 2022: United States = 92.7, South Korea = 97.2, Finland = 93.0, China = 75.6, Brazil = 80.5, Mexico = 78.6, India = 55.9, Nigeria = 39.1
 An internet user is a person who used the internet from any place, on any device, in the past three months. The figures come from national surveys and from estimates by the International Telecommunication Union (ITU), a United Nations agency, and are reported by the World Bank.
 Source: World Bank, World Development Indicators, "Individuals using the Internet (% of population)" (indicator IT.NET.USER.ZS), from the ITU World Telecommunication/ICT Indicators Database; data updated October 2026; CC BY 4.0
 
-**U9-E23** [Topic 9.6 · LO F · Skill 5.A · Continuity and Change]  Which of the following best describes a pattern shown in the chart?
+**U9-E23** [Topic 9.1 · LO A · Skill 5.A · Continuity and Change]  Which of the following best describes a pattern shown in the chart?
 - (A) Internet use grew more slowly in China than in Nigeria between 2000 and 2022, so Nigeria caught up with China.
 - (B) Internet use in the United States fell after 2010 as Americans switched from home computers to mobile phones.
-- (C) Internet use in South Korea and Finland fell below the levels of the poorer countries shown by 2022.
-- (D) Internet use spread fastest after 2010 in countries such as China, Brazil, and Mexico, narrowing the gap with richer countries.
+- (C) Internet use grew faster in Nigeria than in India between 2010 and 2022.
+- (D) From 2010 to 2022, India, Mexico, and China closed much of their internet-use gap with richer countries.
 KEY: D. Explanation: Cheap smartphones and mobile networks spread the internet quickly after 2010, and with it social media, online video, and shopping. Still, in 2022 about two in five Nigerians used the internet, compared with nearly all South Koreans.
   - A: Incorrect. China rose from 1.8 to 75.6 percent. Nigeria rose from 0.1 to 39.1 percent.
   - B: Incorrect. The U.S. figure rose from 71.7 to 92.7 percent. Use on mobile phones counts as internet use.
-  - C: Incorrect. South Korea (97.2) and Finland (93.0) had two of the highest figures in 2022.
-  - D: Correct. From 2010 to 2022, Mexico rose from 31.1 to 78.6 percent and China from 34.3 to 75.6 percent. The richer countries were already near the top.
+  - C: Incorrect. India rose from 7.5 to 55.9 percent, a gain of about 48 points. Nigeria rose from 11.5 to 39.1, a gain of about 28.
+  - D: Correct. From 2010 to 2022, India rose from 7.5 to 55.9 percent, Mexico from 31.1 to 78.6, and China from 34.3 to 75.6. The United States, South Korea, and Finland rose by much less, since they were already near the top.
 
 **U9-E24** [Topic 9.4 · LO D · Skill 5.B · Causation]  The high rates of internet use in South Korea, Finland, and the United States by 2010 are best explained by
-- (A) the movement of factory jobs into these countries from Asia and Latin America
+- (A) industrialization based mainly on making goods at home instead of importing them
 - (B) the growth of knowledge economies built on information technology, research, and services
-- (C) laws in these countries that banned mobile phones and required people to use home computers
-- (D) a World Trade Organization rule that wealthy member countries must provide free internet service
-KEY: B. Explanation: In the late twentieth century, some countries' economies came to depend more on knowledge, technology, and services than on factories. Finland, Japan, South Korea, and the United States are examples. Fast internet was an important part of these economies.
-  - A: Incorrect. Factory jobs moved the other way, from richer countries toward Asia and Latin America.
+- (C) the spread of container shipping, which lowered the cost of trade between continents
+- (D) the growth of factory economies in Asian countries such as Vietnam and Bangladesh
+KEY: B. Explanation: In the late twentieth century, research, high-technology industries, and services became central to the economies of countries such as Finland, Japan, South Korea, and the United States. High incomes and fast networks helped internet use spread there early.
+  - A: Incorrect. This strategy, called import substitution, was used mostly in Latin America and other developing regions in the mid-1900s. It does not explain high internet use in these countries.
   - B: Correct. These countries spent heavily on education, research, and computer networks. Companies such as Samsung in South Korea and Nokia in Finland made phones and network equipment.
-  - C: Incorrect. None of these countries banned mobile phones. Phones became one of the main ways people went online.
-  - D: Incorrect. The WTO sets trade rules. It does not require countries to provide internet service.
+  - C: Incorrect. Container ships carry goods, not information. They do not explain internet use.
+  - D: Incorrect. Factories in Vietnam and Bangladesh do not explain high internet use in South Korea, Finland, and the United States.
 
 **U9-E25** [Topic 9.9 · LO I · Skill 2.C]  Which of the following is a limitation of the chart for a historian studying how freely people could share information online?
 - (A) It counts internet users but does not show whether governments blocked what they could see.
-- (B) It uses the same measure for each country, gathered by a single international agency of the UN.
-- (C) It shows three different years, so that changes over time in each country can be compared.
-- (D) It includes countries from several world regions and at different income levels.
-KEY: A. Explanation: Counting users measures access, not freedom. To study freedom online, a historian would also need evidence about censorship, such as government rules and reports by journalists and human rights groups.
+- (B) It does not show how many people in each country owned a computer at home.
+- (C) It leaves out the years before 2000, when the internet was first spreading.
+- (D) It does not include any country in Europe except Finland.
+KEY: A. Explanation: The chart counts how many people went online. It does not show whether they could read or say what they wanted. To study that, a historian would need other evidence, such as government rules and reports by journalists and human rights groups.
   - A: Correct. A high number of users does not mean a free internet. Three in four Chinese people were online in 2022, but China's government blocks many foreign websites.
-  - B: Incorrect. Using one measure for each country makes comparisons fair. That is a strength.
-  - C: Incorrect. Several years let a historian see change over time. That is a strength.
-  - D: Incorrect. A wide mix of countries is a strength for studying patterns around the world.
+  - B: Incorrect. Owning a computer is about access. People can go online in other ways, and access does not show freedom.
+  - C: Incorrect. Earlier years would help a study of how the internet began, not of how freely people could share information.
+  - D: Incorrect. Adding more European countries would not show whether governments blocked what people could see.
 
