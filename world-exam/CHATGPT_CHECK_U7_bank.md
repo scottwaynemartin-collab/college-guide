@@ -1,4 +1,4 @@
-# AP World History: Modern — Unit 7 practice bank (v2026-11-08a)
+# AP World History: Modern — Unit 7 practice bank (v2026-11-08c)
 
 ## PRACTICE (48)
 
@@ -9,38 +9,38 @@
 > I—Only Mexicans by birth or naturalization and Mexican companies have the right to acquire ownership in lands, waters and their appurtenances, or to obtain concessions to develop mines, waters or mineral fuels in the Republic of Mexico. The Nation may grant the same right to foreigners, provided they agree before the Department of Foreign Affairs to be considered Mexicans in respect to such property, and accordingly not to invoke the protection of their Governments in respect to the same … .
 — Constitution of Mexico, Article 27, written by a constitutional convention at Querétaro, Mexico, during the revolution and adopted in 1917 (Translated by H. N. Branch, The Mexican Review (Washington, D.C., March 1917); adapted)
 
-**U7-P01** [Topic 7.1 · LO A · Skill 4.B · Continuity and Change]  The rules on land in the second paragraph were most directly a response to
+**U7-P01** [Topic 7.1 · LO A · Skill 4.B · Causation]  The rules on land in the second paragraph were most directly a response to
 - (A) requests by foreign oil companies for secure ownership of the oil under their land
-- (B) a call by the Catholic Church for its large estates to be divided among the poor
+- (B) demands by factory workers in Mexico City for an eight-hour day and the right to strike
 - (C) demands by peasant leaders such as Emiliano Zapata to give land back to villages
 - (D) pressure from the United States after its troops occupied the port of Veracruz in 1914
-KEY: C. Explanation: Under Porfirio Díaz, a few rich families and foreign companies came to own most of Mexico's farmland. Zapata's rebels demanded "land and liberty" for the villages. The 1917 constitution promised to break up large estates and give land to villages.
+KEY: C. Explanation: Under Porfirio Díaz, many Mexican villages lost their land to big estates. Leaders such as Emiliano Zapata demanded "land and liberty" for the villages. Article 27 let the government break up big estates and give land back to villages.
   - why not A: Article 27 limits foreign companies. It says the oil belongs to the nation, which is the opposite of what the oil companies wanted.
-  - why not B: The Church did not call for this. Clause II of Article 27 takes property away from the churches.
+  - why not B: Workers' demands led to Article 123, which dealt with labor. The land rules answered the demands of peasants.
   - why not D: The United States did occupy Veracruz in 1914, but it did not push Mexico to break up its large estates.
   - hint: Who fought in the Mexican Revolution because they had lost their land?
 
 **U7-P02** [Topic 7.4 · LO D · Skill 5.B · Causation]  The statement that the nation owns "petroleum and all hydrocarbons" was used most directly to justify which later action?
-- (A) President Lázaro Cárdenas's takeover of foreign-owned oil companies in 1938
-- (B) Mexico's sale of its northern oil fields to American companies in the 1920s
-- (C) Mexico's decision to enter the First World War to protect its oil exports
-- (D) a German offer in the Zimmermann telegram to help Mexico win back Texas
+- (A) President Lázaro Cárdenas's takeover of the foreign-owned oil companies in 1938
+- (B) Mexico's agreement to send farm workers to the United States during the Second World War
+- (C) the government's limits on the Catholic Church that led to the Cristero War in the 1920s
+- (D) Mexico's 1923 deal letting U.S. companies keep oil land bought before 1917
 KEY: A. Explanation: In 1938 Cárdenas took over the property of the foreign oil companies and created a state oil company, Pemex. He pointed to Article 27, which says the nation owns what lies under the ground. Many Mexicans celebrated it as a victory over foreign control.
-  - why not B: Mexico did not sell its oil fields. Foreign companies already operated there, and Article 27 claimed the oil for the nation.
-  - why not C: Mexico stayed neutral in the First World War. It joined the Second World War in 1942.
-  - why not D: Germany sent the Zimmermann telegram in January 1917. It was a wartime plot, not a use of Article 27.
-  - hint: What did Cárdenas do in 1938 that made foreign oil companies angry?
+  - why not B: The Bracero Program of 1942 sent Mexican farm workers north. It had nothing to do with who owned the oil.
+  - why not C: The fight with the Church came from other articles of the constitution about religion. It was not about oil.
+  - why not D: In the Bucareli Agreements of 1923, Mexico agreed not to use the oil rule against land that foreign companies had bought before 1917. That held Article 27 back instead of using it.
+  - hint: Look at the part about oil. Which later action put that claim into practice?
 
 **U7-P03** [Topic 7.1 · LO A · Skill 5.A · Comparison]  The plan to divide large estates is most similar to which other change of the period 1900–1930?
 - (A) Japan's Twenty-One Demands for the right to own land and run mines in parts of China
 - (B) the British government's plan to settle British farmers on land in Kenya and Rhodesia
 - (C) the Ottoman sultan's grants of land to foreign railway companies before the First World War
-- (D) the Bolshevik decree that took land from Russian nobles and gave it to peasant committees
+- (D) the Bolshevik decree that seized large estates for local peasant committees
 KEY: D. Explanation: Both the Mexican and the Russian Revolutions were driven in part by peasants who wanted land. In November 1917 the Bolsheviks' Decree on Land seized the nobles' estates. In Mexico, land reform moved more slowly but sped up under Cárdenas in the 1930s.
   - why not A: Japan's demands added to foreign control of land and mines. Article 27 limits foreign control.
   - why not B: Settling British farmers on African land took land away from Africans. Article 27 aims to give land to rural villages.
   - why not C: Grants to foreign companies are the kind of deal Article 27 tries to limit, not a way to give land to peasants.
-  - hint: Which other revolution of these years was driven by peasants who wanted land?
+  - hint: Article 27 takes land from big estates and gives it to villages. Which choice moves land in the same direction?
 
 
 ### Source P2 (questions U7-P04–U7-P06)
@@ -63,27 +63,27 @@ KEY: D. Explanation: The tsar gave up his throne in March 1917. A Provisional Go
   - why not C: The Brusilov Offensive was in 1916, while the tsar still ruled. Lenin attacks the new government that replaced him.
   - hint: Who was running Russia in April 1917, and what did that government decide about the war?
 
-**U7-P05** [Topic 7.1 · LO A · Skill 5.B · Causation]  The program in the theses contributed most directly to which of the following?
-- (A) the Bolshevik seizure of power in November 1917 and Russia's exit from the war in 1918
-- (B) the restoration of the monarchy under the tsar's brother with the support of army officers
-- (C) a land reform by the Provisional Government that gave farms to most peasants in 1917
-- (D) Russia's victory over Germany and its gain of new lands at the Paris Peace Conference
-KEY: A. Explanation: Lenin's slogans, such as "peace, land, and bread" and "all power to the Soviets," won support from soldiers and workers. In November 1917 the Bolsheviks overthrew the Provisional Government. They then signed the Treaty of Brest-Litovsk with Germany.
-  - why not B: The monarchy was not restored. The tsar and his family were killed by the Bolsheviks in 1918.
-  - why not C: The Provisional Government put off land reform until a future assembly. Peasants seized land on their own.
-  - why not D: Russia did not win. It made a separate peace with Germany in 1918 and was not invited to Paris.
-  - hint: What did the Bolsheviks do in November 1917?
+**U7-P05** [Topic 7.1 · LO A · Skill 5.B · Causation]  Which later development most directly carried out the policies Lenin urged in the passage?
+- (A) Bolshevik leaders overthrew the Provisional Government and later took Russia out of the war.
+- (B) The Provisional Government launched a new attack on the Central Powers in the summer of 1917.
+- (C) Moderate socialists joined a coalition cabinet with liberal leaders in May 1917.
+- (D) Russian voters elected a Constituent Assembly in which another socialist party won the most seats.
+KEY: A. Explanation: Lenin called for "no support to the Provisional Government" and an end to the war. His slogans, such as "peace, land, and bread," won support from soldiers and workers. In November 1917 the Bolsheviks overthrew the Provisional Government. In March 1918 they signed the Treaty of Brest-Litovsk with Germany.
+  - why not B: The summer attack kept Russia in the war. Lenin wanted to end the war, not fight on.
+  - why not C: Lenin wanted "no support to the Provisional Government." Socialists who joined its cabinet did the opposite.
+  - why not D: The Socialist Revolutionaries won the most seats in November 1917. Lenin wanted power for the Soviets, and the Bolsheviks shut the Assembly down in January 1918.
+  - hint: Find Lenin's demands about the Provisional Government and about the war. Which choice carries out both?
 
 **U7-P06** [Topic 7.4 · LO D · Skill 5.B · Continuity and Change]  Which later Soviet policy departed most from thesis 6's call for land to be managed by "local Soviets" of peasants?
-- (A) Lenin's New Economic Policy, which banned private trade and made peasants hand their grain to the state
-- (B) the return of farmland to noble landowners after the Bolsheviks won the Russian Civil War
-- (C) Stalin's forced collectivization, which put farms under central control in the late 1920s and 1930s
-- (D) a law of the 1930s that split the large state farms into small family plots for each household
+- (A) Lenin's New Economic Policy, which let peasants sell their extra grain at market prices
+- (B) a 1935 rule that let collective-farm families keep small garden plots of their own
+- (C) Stalin's forced collectivization, which put farms under the central government's control
+- (D) the 1922 Land Code, which let village communes decide how their members would farm the land
 KEY: C. Explanation: Under Stalin's Five-Year Plans, the state forced peasants into collective farms and took their grain to pay for industry. Peasants who resisted were arrested or deported. Millions died in the famine of 1932–1933, especially in Ukraine.
-  - why not A: The New Economic Policy did the opposite. It let peasants sell their extra grain and allowed small private businesses.
-  - why not B: The nobles never got their land back. The Bolsheviks had seized it.
-  - why not D: Stalin did the opposite. He forced family farms into large collective farms.
-  - hint: Who controlled Soviet farms under Stalin's Five-Year Plans?
+  - why not A: The NEP let peasants farm their own land and sell their extra grain. It did not take land out of local hands.
+  - why not B: Small family plots gave households a little more control, not less. Most land stayed in the collective farms.
+  - why not D: The 1922 Land Code kept land decisions in local hands. Village communes chose how their members would farm, which fits thesis 6.
+  - hint: Who makes decisions about land in thesis 6? Which policy moved those decisions far away from the village?
 
 
 ### Source P3 (questions U7-P07–U7-P09)
@@ -93,22 +93,22 @@ KEY: C. Explanation: Under Stalin's Five-Year Plans, the state forced peasants i
 — Mustafa Kemal, Turkish army commander and political leader, from a speech to a congress of his political party in Ankara, October 1927, describing the situation in May 1919 (English translation published as A Speech Delivered by Ghazi Mustapha Kemal (Leipzig, 1929); adapted)
 
 **U7-P07** [Topic 7.1 · LO A · Skill 3.A]  Kemal's description of the Ottoman Empire in 1919 emphasizes which combination of problems?
-- (A) rising economic competition from Japanese and American factories
-- (B) revolts by Arab nationalists backed by the sultan and his cabinet
+- (A) competition from Japanese and American factories together with falling trade
+- (B) an Arab revolt in the south together with a Russian invasion in the east
 - (C) defeat and foreign occupation together with weak leaders at home
-- (D) a communist revolution that had taken over the capital
-KEY: C. Explanation: Kemal names problems from outside the empire: a lost war and foreign troops. He also names problems inside it: a sultan who cared only for his throne and a weak cabinet. Historians use both kinds of causes to explain why the empire fell.
-  - why not A: Kemal says nothing about competition from factories in Japan or the United States.
-  - why not B: The Arab Revolt was against the Ottomans, and the sultan did not back it. Kemal does not mention it.
+- (D) a communist revolution in the capital together with a revolt by army officers
+KEY: C. Explanation: Kemal names problems from outside the empire: a lost war and foreign troops. He also blames problems inside it: a sultan he says cared only for his throne, and a weak cabinet. His speech shows how a Turkish nationalist explained the empire's collapse.
+  - why not A: Kemal says nothing about factories or trade.
+  - why not B: Kemal does not mention an Arab revolt, and Russia had left the war in 1918.
   - why not D: No communist revolution took place in Constantinople. Foreign warships and troops held the city.
   - hint: Look for problems coming from outside the empire and problems coming from inside it.
 
-**U7-P08** [Topic 7.1 · LO A · Skill 4.B · Continuity and Change]  The occupation of Ottoman lands described in the last paragraph is best understood as part of
+**U7-P08** [Topic 7.1 · LO A · Skill 4.B]  The occupation of Ottoman lands described in the last paragraph is best understood as part of
 - (A) a League of Nations decision to place Anatolia under the United States as a mandate
 - (B) Allied plans to divide the empire's lands, later written into the Treaty of Sèvres
 - (C) the Ottoman government's request for foreign troops to defend it against a Russian invasion
 - (D) Germany's plan to finish building a railway from Berlin to Baghdad after the war
-KEY: B. Explanation: During and after the war, the Allies made secret plans to split up the Ottoman Empire. The Treaty of Sèvres (1920) gave land to Greece, Italy, France, and Britain. Kemal's nationalists fought back and won better terms in the Treaty of Lausanne (1923).
+KEY: B. Explanation: During and after the war, the Allies made secret plans to split up the Ottoman Empire. The Treaty of Sèvres (1920) planned to give land or zones of control to Greece, Italy, France, and Britain, but it never took effect. Kemal's nationalists rejected it, won the war, and got better terms in the Treaty of Lausanne (1923).
   - why not A: The United States was asked about a mandate for Armenia but refused. The League never gave it Anatolia.
   - why not C: Russia had already left the war in 1918, and the sultan did not invite these armies in.
   - why not D: Germany lost the war and had no power in the region in 1919. The troops Kemal lists are French, British, Italian, and Greek.
@@ -119,11 +119,11 @@ KEY: B. Explanation: During and after the war, the Allies made secret plans to s
 - (B) the return of the sultan's full powers with the help of British troops
 - (C) the division of Anatolia into separate British and French mandates under the League
 - (D) a union of Turkey and the Arab lands under a new caliph in Mecca
-KEY: A. Explanation: Kemal led a national army that defeated the Greek forces by 1922. The Treaty of Lausanne recognized Turkey's borders in 1923, and Turkey became a republic that year. Kemal then made Turkey a secular state.
+KEY: A. Explanation: Kemal led a national army that defeated the Greek forces by 1922. The Treaty of Lausanne recognized Turkey's borders in 1923, and Turkey became a republic that year. In the years that followed, Kemal's government made Turkey a secular state.
   - why not B: The British did not save the sultan. The Turkish nationalists ended the sultanate in 1922, and the last sultan fled on a British ship.
   - why not C: Mandates were set up in the Arab lands, not in Anatolia. Anatolia became the core of the new Turkey.
-  - why not D: Turkey did not unite with the Arab lands. The Arab lands became British and French mandates.
-  - hint: What new kind of state did Kemal create in 1923?
+  - why not D: Turkey did not unite with the Arab lands. Many of them became British and French mandates.
+  - hint: Kemal blames both the sultan and the foreign armies. What would a winning nationalist army do about each of them?
 
 
 ### Source P4 (questions U7-P10–U7-P12)
@@ -131,12 +131,12 @@ KEY: A. Explanation: Kemal led a national army that defeated the Greek forces by
 > … War is a biological necessity of the first importance, a regulative element in the life of mankind which cannot be dispensed with, since without it an unhealthy development will follow, which excludes every advancement of the race, and therefore all real civilization. … The struggle for existence is, in the life of Nature, the basis of all healthy development. … The law of the stronger holds good everywhere. Those forms survive which are able to procure themselves the most favourable conditions of life … . The weaker succumb. …
 > … a consolidation and expansion of our position among the Great Powers of Europe, and an extension of our colonial possessions, must be the basis of our future development. … We must not aim at the impossible. … But we must aspire to the possible, even at the risk of war. This policy we have seen to be both our right and our duty. The longer we look at things with folded hands, the harder it will be to make up the start which the other Powers have gained on us. …
 > We see the European Great Powers divided into two great camps.
-— Friedrich von Bernhardi, retired German army general and military writer, Germany and the Next War, published in German in 1911 (Translated by Allen H. Powles (1912); adapted)
+— Friedrich von Bernhardi, retired German army general and military writer, Germany and the Next War, written in 1911 and translated into English by Allen H. Powles in 1912 (Translated by Allen H. Powles (1912); adapted)
 
 **U7-P10** [Topic 7.2 · LO B · Skill 1.B]  Bernhardi's claim that "war is a biological necessity" most directly reflects which set of ideas that was popular in the late 1800s and early 1900s?
 - (A) Social Darwinism, which applied ideas about natural selection to nations
 - (B) Marxism, which explained history as a struggle between social classes
-- (C) liberalism, which held that free trade would make wars too costly to fight
+- (C) liberalism, which held that free trade would make wars too costly
 - (D) the peace movement behind the Hague Conferences of 1899 and 1907
 KEY: A. Explanation: Social Darwinists took Darwin's idea of "survival of the fittest" and used it for nations and races. Writers like Bernhardi said strong nations should grow and that war was natural.
   - why not B: Marxists did talk about struggle, but between classes. Bernhardi writes about struggle between nations and "the race."
@@ -146,25 +146,25 @@ KEY: A. Explanation: Social Darwinists took Darwin's idea of "survival of the fi
 
 **U7-P11** [Topic 7.2 · LO B · Skill 5.B · Causation]  The passage best illustrates which of the following causes of the First World War?
 - (A) the hope of Serbian nationalists to unite the South Slavs in one independent state
-- (B) Russia's support for Pan-Slavism and its promise to protect Slavic peoples in the Balkans
+- (B) Russia's support for Pan-Slavism and its promise to protect Slavs in the Balkans
 - (C) German workers' demands for a socialist revolution against the German emperor
 - (D) a willingness among leaders to risk war in order to gain colonies and great-power status
 KEY: D. Explanation: Bernhardi wanted more colonies and a bigger role for Germany. He was ready to risk war to get them. Ideas like his help explain the arms race and the Morocco crises before 1914.
   - why not A: Serbian nationalism was a real cause of the war, but Bernhardi writes about Germany's goals, not Serbia's.
   - why not B: Pan-Slavism was a real cause too, but the passage is about Germany's position and colonies.
-  - why not C: Bernhardi writes about national power, not about workers or a socialist revolution.
+  - why not C: Bernhardi writes about the power of nations. He says nothing about workers or a revolution.
   - hint: Find the sentence that says what Germany should do "even at the risk of war."
 
 **U7-P12** [Topic 7.9 · LO I · Skill 3.D · Causation]  A historian could best use the passage to support which of the following arguments about the years before 1914?
 - (A) Public opinion in Germany turned against colonial expansion after the Morocco crisis.
-- (B) Many Europeans saw war as a normal and even healthy tool of national policy.
+- (B) Some German military writers saw war as a natural and useful tool of national policy.
 - (C) The European powers had formed one alliance that made a general war unlikely.
 - (D) German military leaders saw colonies as too costly to be worth a war.
-KEY: B. Explanation: Bernhardi's book was widely read in Germany and was translated into English in 1912. Writers in many countries before 1914 praised war as a test of a nation's strength. Ideas like these made leaders more willing to fight.
+KEY: B. Explanation: Bernhardi says war is natural and useful. His book shows how one German military writer defended war. One passage cannot show how many people agreed with him. Still, writers in several countries before 1914 praised war as a test of a nation's strength.
   - why not A: Bernhardi says the "patriotic sections" of the German people felt that "the honour and future of the German nation were at stake."
   - why not C: Bernhardi says the powers were "divided into two great camps," not joined in one alliance.
   - why not D: Bernhardi calls for "an extension of our colonial possessions" even at the risk of war.
-  - hint: What does Bernhardi think about war itself? Is he alone in his view?
+  - hint: Which claim can one writer's words support without assuming that others agreed?
 
 
 ### Source P5 (questions U7-P13–U7-P15)
@@ -198,14 +198,14 @@ KEY: D. Explanation: Germany's Schlieffen Plan assumed that Russia would be slow
   - why not C: The plan was the opposite of waiting. Germany wanted to strike first in the west.
   - hint: Germany expected to fight both France and Russia. Which enemy did it plan to defeat first, and why would speed matter?
 
-**U7-P15** [Topic 7.2 · LO B · Skill 2.C]  The German government most likely published these telegrams in August 1914 in order to
+**U7-P15** [Topic 7.2 · LO B · Skill 2.B]  The German government most likely published these telegrams in August 1914 in order to
 - (A) convince Germans and people in neutral countries that Russia was to blame for the war
-- (B) persuade the tsar to cancel the mobilization of the Russian army before fighting began
-- (C) show the German public that Austria-Hungary had made the decision for war alone
+- (B) persuade the tsar to cancel Russia's army mobilization before the fighting began
+- (C) show Austria-Hungary that Germany would stand by it in a war against Russia
 - (D) reveal that the tsar had privately supported Austria-Hungary's war against Serbia
 KEY: A. Explanation: In 1914 each of the main warring countries printed a book of its own papers. Each book tried to show that the other side started the war. Germany's White Book chose telegrams that made the Kaiser look peaceful and Russia look to blame.
   - why not B: Once the war had begun, publishing the telegrams could not stop Russia's mobilization. That was the aim of the telegram itself, not of publishing it.
-  - why not C: Wilhelm's telegram defends Austria-Hungary as Germany's ally. Publishing it would not distance Germany from the decision.
+  - why not C: Germany had already promised Austria-Hungary its support in early July. The White Book was printed for the public at home and abroad, not as a message to an ally.
   - why not D: The tsar's telegram shows the opposite. He calls Austria-Hungary's war "ignominious."
   - hint: Who was the audience for the White Book, and what did Germany want them to believe?
 
@@ -225,19 +225,21 @@ But someone still was yelling out and stumbling
 And flound'ring like a man in fire or lime.—
 Dim through the misty panes and thick green light,
 As under a green sea, I saw him drowning.
-> … My friend, you would not tell with such high zest
+> … If in some smothering dreams, you too could pace
+Behind the wagon that we flung him in, …
+My friend, you would not tell with such high zest
 To children ardent for some desperate glory,
 The old Lie: Dulce et decorum est
 Pro patria mori.*
 > * Latin words from the ancient Roman poet Horace: "It is sweet and fitting to die for one's country."
 — Wilfred Owen, British infantry officer and poet, "Dulce et Decorum Est," written in 1917–1918 and published in his Poems in 1920; Owen was killed in battle in France one week before the war ended (Adapted)
 
-**U7-P16** [Topic 7.3 · LO C · Skill 3.B]  The poem provides the best evidence for which of the following features of the First World War?
+**U7-P16** [Topic 7.3 · LO C · Skill 1.B]  The poem provides the best evidence for which of the following features of the First World War?
 - (A) Governments brought in soldiers from their colonies in Africa and Asia.
 - (B) Women at home took jobs in factories that made shells and weapons.
 - (C) New weapons such as poison gas made trench warfare more deadly.
-- (D) Submarines sank merchant ships to cut off the enemy's supplies.
-KEY: C. Explanation: Both sides used poison gas, starting in 1915. Soldiers wore masks, but anyone who was too slow could choke to death. Gas, machine guns, and artillery made the Western Front a place of mud and constant danger.
+- (D) Submarines sank merchant ships to cut off the enemy's food and supplies.
+KEY: C. Explanation: Large attacks with deadly poison gas began in 1915, and both sides then used it. Soldiers wore masks, but anyone who was too slow could choke to death. Gas, machine guns, and artillery made the Western Front a place of mud and constant danger.
   - why not A: Colonial soldiers did fight in Europe, but the poem says nothing about where the soldiers came from.
   - why not B: Women did take factory jobs during the war, but the poem is about soldiers at the front, not the home front.
   - why not D: Submarine warfare was real, but Owen writes about men on land, not about ships at sea.
@@ -247,7 +249,7 @@ KEY: C. Explanation: Both sides used poison gas, starting in 1915. Soldiers wore
 - (A) encourage young men to enlist and serve their country
 - (B) criticize the army for failing to supply gas masks
 - (C) challenge the patriotic message that dying in war is glorious
-- (D) call for revenge against the enemy soldiers who fired the gas
+- (D) call for revenge against the enemy soldiers who used gas
 KEY: C. Explanation: During the war, governments used posters, newspapers, and schools to tell young men that fighting was noble. Owen, who fought on the Western Front, wanted readers to see the truth of war.
   - why not A: Owen calls the old saying "the old Lie." He is warning people not to tell it to children.
   - why not B: The men do have gas masks. Owen says they fit "the clumsy helmets just in time."
@@ -255,15 +257,15 @@ KEY: C. Explanation: During the war, governments used posters, newspapers, and s
   - hint: What does Owen call "the old Lie"? Who is he talking to?
 
 **U7-P18** [Topic 7.6 · LO F · Skill 5.B · Causation]  Writing like Owen's helped shape which development in Britain and France between the world wars?
-- (A) public demands to build up huge armies to take revenge on Germany
-- (B) wide support for fascist parties that praised war and military life
-- (C) calls to send large armies to fight in the Russian Civil War
-- (D) a strong wish to avoid war, which helped lead to appeasing Hitler
-KEY: D. Explanation: Poems, memoirs, and novels about the trenches made many people in Britain and France hate the idea of war. When Hitler made demands in the 1930s, their leaders tried to satisfy him, as at Munich in 1938, instead of risking war.
-  - why not A: After 1919 most British and French voters wanted smaller armies, not bigger ones.
-  - why not B: Fascist parties existed in Britain and France, but they won little support.
-  - why not C: Britain and France sent small forces to Russia in 1918–1920 but soon pulled them out. Owen's poem is about the horror of war.
-  - hint: After so many deaths in the trenches, what did British and French voters want to avoid?
+- (A) a decision by Britain and France to stay out of the new League of Nations in 1920
+- (B) an agreement to give the League of Nations its own army to stop aggressor nations
+- (C) a decision by Britain and France to cancel Germany's reparations in 1919
+- (D) a strong public wish to avoid another war, which helped lead to appeasing Hitler
+KEY: D. Explanation: Poems, memoirs, and novels about the trenches made many people in Britain and France hate the idea of war. When Hitler made demands in the 1930s, their leaders tried to satisfy him, as at Munich in 1938, instead of risking war. Fear of war was one reason for appeasement. Leaders also worried about money and about how ready their armies were.
+  - why not A: Britain and France were founding members of the League. It was the United States that stayed out.
+  - why not B: The League never had an army of its own. It could only ask its members to act.
+  - why not C: The amount Germany owed was set in 1921, and the payments were not ended until 1932.
+  - hint: Owen calls the glory of war "the old Lie." How might readers who agreed with him feel about fighting another war?
 
 
 ### Source P7 (questions U7-P19–U7-P21)
@@ -271,12 +273,12 @@ KEY: D. Explanation: Poems, memoirs, and novels about the trenches made many peo
 Caption shown to students: A young woman in work overalls, a cap, and a blouse with rolled-up sleeves stands in front of a large blue triangle. She holds up a small airplane in one hand and an artillery shell in the other. The words read: "For every fighter a woman worker. United War Work Campaign. Care for her through the YWCA."
 Description: A tall poster with a cream background. A young woman stands in the center, facing the viewer. She wears a brown cap, a white blouse with the sleeves rolled up, brown overalls, and white shoes. In her raised right hand she holds a small model of a biplane; in her raised left hand she holds an artillery shell. Behind her is a large blue triangle pointing down. Red letters at the right read "For every fighter a woman worker," with "United War Work Campaign" in smaller black letters. Gray letters at the bottom read "Care for her through the YWCA." The artist's name, Adolph Treidler, is printed near her feet.
 
-**U7-P19** [Topic 7.3 · LO C · Skill 3.B]  The poster provides evidence for which of the following features of the First World War?
+**U7-P19** [Topic 7.3 · LO C · Skill 1.B]  The poster provides evidence for which of the following features of the First World War?
 - (A) Governments rationed food and asked families to eat less meat and wheat.
 - (B) Newspapers were censored so that people at home would not learn of defeats.
-- (C) Women took jobs in war industries, such as making shells and airplanes.
+- (C) Women took jobs in factories that made weapons and other war goods.
 - (D) Armies used tanks for the first time to try to break through the trenches.
-KEY: C. Explanation: In a total war, the whole economy is turned to fighting. With millions of men in uniform, women in Britain, France, Germany, Russia, and the United States took jobs in factories, offices, and farms.
+KEY: C. Explanation: In a total war, a country puts much of its economy into the fighting. With millions of men in the army, women in Britain, France, Germany, Russia, and the United States took jobs in factories, offices, and farms.
   - why not A: Food saving was real, but the poster shows nothing about food.
   - why not B: Censorship was real, but the poster says nothing about the news.
   - why not D: Tanks first appeared in 1916, but the poster shows a factory worker, not a battlefield.
@@ -293,53 +295,53 @@ KEY: B. Explanation: Posters like this one told Americans that the home front ma
   - why not D: Equal pay was a real issue, but the poster does not mention wages.
   - hint: The poster pairs each "fighter" with a "worker." What does that say about the worker's role?
 
-**U7-P21** [Topic 7.2 · LO B · Skill 5.B · Causation]  Women's war work like that shown in the poster contributed most directly to which development in several countries soon after the war?
+**U7-P21** [Topic 7.2 · LO B · Skill 5.B · Causation]  Women's war work like that shown in the poster contributed most directly to which development in several countries near the end of the war and soon after?
 - (A) Women won the right to vote in France in 1919, and other countries followed its example.
-- (B) Women won the right to vote in Britain, Germany, and the United States between 1918 and 1920.
+- (B) Many women won the right to vote in Britain, Germany, and the United States in 1918–1920.
 - (C) Britain and the United States passed laws in 1919 giving women equal pay for equal work.
-- (D) Most women kept their factory jobs, because returning soldiers chose to work on farms.
-KEY: B. Explanation: Women's work in the war weakened the argument that they did not deserve a voice in government. Britain gave the vote to many women in 1918, Germany's new republic did in 1918–1919, and the United States did in 1920.
+- (D) Most women who took factory jobs in the war kept them through the 1920s.
+KEY: B. Explanation: Women's war work helped the case that suffrage groups had made for years. Britain gave the vote to many women aged 30 and older in 1918. Germany's new republic did in 1918–1919, and the United States did in 1920. Even so, unfair laws kept many Black women in the United States from voting.
   - why not A: French women did not win the vote until 1944, near the end of the Second World War.
   - why not C: Equal pay laws came much later, in the 1960s and 1970s.
   - why not D: Many women lost their factory jobs when soldiers came home and war orders ended.
-  - hint: What political right did many women win soon after the war?
+  - hint: How could wartime work strengthen women's claim to a voice in government?
 
 
 ### Source P8 (questions U7-P22–U7-P24)
 > I recognise that in the hour of its danger we must give, as we have decided to give, ungrudging and unequivocal support to the Empire of which we aspire in the near future to be partners in the same sense as the Dominions overseas. But it is the simple truth that our response is due to the expectation that our goal will be reached all the more speedily. …
-> … I would make India offer all her able-bodied sons as a sacrifice to the Empire at its critical moment, and I know that India, by this very act, would become the most favoured partner in the Empire, and racial distinctions would become a thing of the past. …
+> If I could make my countrymen retrace their steps, I would make them withdraw all the Congress resolutions, and not whisper "Home Rule" or "Responsible Government" during the pendency of the War. I would make India offer all her able-bodied sons as a sacrifice to the Empire at its critical moment, and I know that India, by this very act, would become the most favoured partner in the Empire, and racial distinctions would become a thing of the past. …
 > Whilst, therefore, it is clear to me that we should give to the Empire every available man for its defence, I fear that I cannot say the same thing about financial assistance. My intimate intercourse with the ryots convinces me, that India has already donated to the Imperial Exchequer beyond her capacity. …
 > … We are today outside the partnership. Ours is a consecration based on hope of better future. I should be untrue to you and to my country if I did not clearly and unequivocally tell you what that hope is. I do not bargain for its fulfilment, but you should know, that disappointment of hope means disillusion.
 — Mohandas K. Gandhi, Indian lawyer and political leader, letter to Lord Chelmsford, the British viceroy of India, after a war conference that the viceroy called in Delhi, April 1918 (Gandhi's English letter as printed in his autobiography, The Story of My Experiments with Truth, vol. 2, translated by Mahadev Desai and Pyarelal Nair (Ahmedabad, 1929); adapted)
 
 **U7-P22** [Topic 7.3 · LO C · Skill 1.B]  The letter best illustrates which of the following features of the First World War?
-- (A) Imperial powers relied on soldiers and money from their colonies.
+- (A) Imperial powers relied on soldiers and money from the colonies they ruled.
 - (B) Colonized peoples were kept out of the fighting so they could not learn military skills.
 - (C) Britain fought the war mainly with soldiers from Canada and Australia.
 - (D) India's leaders refused to support the war until India became independent.
 KEY: A. Explanation: About 1.3 million Indians served in Britain's forces in the war. They fought in France, Iraq, East Africa, and other places. France also brought in hundreds of thousands of soldiers from its African colonies.
   - why not B: Britain recruited more than a million Indian soldiers. Gandhi offers "every available man."
   - why not C: Soldiers from Canada and Australia did fight, but most of the British Empire's soldiers came from Britain and India.
-  - why not D: Gandhi pledges "ungrudging and unequivocal support" while hoping for self-rule later.
+  - why not D: Gandhi promises full support for the war now. He only hopes for self-rule later.
   - hint: What is Gandhi offering to give the Empire?
 
 **U7-P23** [Topic 7.3 · LO C · Skill 2.B]  Gandhi's main purpose in the letter was to
 - (A) demand that India become independent before any more Indian soldiers were sent overseas
 - (B) ask the viceroy to stop recruiting Indian soldiers because the war went against nonviolence
-- (C) pledge India's support in the war while saying Indians expected self-rule in return
+- (C) pledge India's support in the war while saying Indians hoped it would bring self-rule
 - (D) offer to raise taxes in India so that it could pay a larger share of the war's costs
-KEY: C. Explanation: Gandhi hoped India's help in the war would win it self-rule, like Canada or Australia had. He warned the viceroy that Indians would turn against Britain if that hope failed.
+KEY: C. Explanation: Gandhi hoped India's help would lead to self-government, like Canada or Australia had. He did not make that a condition for helping. He warned that broken hopes would turn Indians against the Empire.
   - why not A: Gandhi does not make independence a condition. He says, "I do not bargain for its fulfilment."
-  - why not B: Gandhi supports recruiting. He wants India to "offer all her able-bodied sons."
+  - why not B: Gandhi supports recruiting. He says India should give the Empire "every available man."
   - why not D: Gandhi says the opposite about money. India "has already donated ... beyond her capacity."
   - hint: What does Gandhi offer, and what does he say Indians hope to get?
 
 **U7-P24** [Topic 7.5 · LO E · Skill 5.B · Causation]  Gandhi's warning that "disappointment of hope means disillusion" was most directly borne out by which development after the war?
 - (A) the noncooperation movement led by Gandhi and the Indian National Congress in 1920–1922
 - (B) Britain's grant of full dominion status to India in 1919, equal to that of Canada
-- (C) a decline in Indian nationalism as returning soldiers brought home new loyalty to Britain
+- (C) a decline in Indian nationalism as returning soldiers brought home loyalty to Britain
 - (D) Gandhi's campaign to recruit Indian soldiers for Britain in the Second World War
-KEY: A. Explanation: After the war, Britain passed the Rowlatt Acts, which let police jail people without a trial. In 1919 British troops shot hundreds of unarmed people at Amritsar. Gandhi then led millions of Indians in peaceful refusal to work with British rule.
+KEY: A. Explanation: After the war, Britain passed the Rowlatt Acts, which let police jail people without a trial. In 1919 soldiers under a British general shot hundreds of unarmed people at Amritsar. Gandhi then led millions of Indians in peaceful refusal to work with British rule.
   - why not B: Britain's reforms of 1919 gave Indians only a small role in government. India did not become a dominion.
   - why not C: Indian nationalism grew stronger after the war, not weaker.
   - why not D: In the Second World War, Gandhi led the Quit India movement against British rule instead.
@@ -352,13 +354,13 @@ KEY: A. Explanation: After the war, Britain passed the Rowlatt Acts, which let p
 > … If we aim deliberately at the impoverishment of Central Europe, vengeance, I dare predict, will not limp. Nothing can then delay for very long that final civil war between the forces of Reaction and the despairing convulsions of Revolution, before which the horrors of the late German war will fade into nothing, and which will destroy, whoever is victor, the civilization and the progress of our generation.
 — John Maynard Keynes, British economist who advised the British Treasury at the Paris Peace Conference until he resigned in June 1919, The Economic Consequences of the Peace, 1919 (Adapted)
 
-**U7-P25** [Topic 7.5 · LO E · Skill 3.A]  Keynes's main argument in the passage is that the peace treaty
-- (A) was too gentle with Germany because it asked Germany for no payments for war damage
+**U7-P25** [Topic 7.6 · LO F · Skill 3.A]  Keynes's main argument in the passage is that the peace treaty
+- (A) was too gentle with Germany because the Allies did not make it pay enough for war damage
 - (B) would bring lasting peace because President Wilson had made sure it was fair
 - (C) ignored Europe's recovery and punished Germany in ways that would cause new trouble
 - (D) should have given Russia a larger share of the territory taken from Germany
 KEY: C. Explanation: Keynes believed that Europe's economies were linked. If Germany was kept poor, all of Europe would suffer, and angry, desperate people might turn to extreme leaders.
-  - why not A: Keynes complains that "reparation" was the leaders' main economic concern, so Germany was asked to pay.
+  - why not A: Keynes argues the opposite. He says the leaders cared most about making Germany pay, and he warns that this will leave Central Europe poor.
   - why not B: Keynes does not think the treaty will bring peace. He predicts that "vengeance … will not limp."
   - why not D: Keynes says the treaty did "nothing to reclaim Russia," but he does not ask for more land for Russia.
   - hint: What does Keynes say the treaty left out, and what does he predict?
@@ -369,7 +371,7 @@ KEY: C. Explanation: Keynes believed that Europe's economies were linked. If Ger
 - (C) Economic crises in Germany helped the Nazi Party win votes by attacking the peace treaty.
 - (D) Britain and France agreed in 1932 to end most of Germany's remaining payments.
 KEY: C. Explanation: Germany's money became worthless in 1923, and the Great Depression threw millions out of work after 1929. Hitler blamed the treaty and promised to make Germany strong again. Many historians see the treaty and the economic crisis as causes of the Second World War.
-  - why not A: Joining the League and accepting its borders suggest that Germany was making peace, not seeking revenge.
+  - why not A: Joining the League and accepting its borders show Germany making peace, not taking revenge.
   - why not B: American loans helped Germany's economy recover in the late 1920s. That weakens Keynes's warning.
   - why not D: Ending the payments shows the winners changing course. It does not show the "vengeance" Keynes predicted.
   - hint: Keynes says that if Germany is kept poor, "vengeance" will follow. Which choice shows that happening?
@@ -378,52 +380,52 @@ KEY: C. Explanation: Germany's money became worthless in 1923, and the Great Dep
 - (A) a stock market crash that began in Berlin and spread to New York
 - (B) hyperinflation, which made the German mark almost worthless by 1923
 - (C) a Five-Year Plan that put German factories under state control
-- (D) a boom in German exports that drove British factories out of business
-KEY: B. Explanation: To pay its debts and its workers, the German government printed huge amounts of money. Prices rose so fast that a loaf of bread cost billions of marks in late 1923. Families lost their savings, and many Germans blamed the treaty.
+- (D) a sharp fall in prices that ruined German farmers and shopkeepers
+KEY: B. Explanation: War debts and budget deficits had already weakened the German mark. In 1923, after Germany fell behind on reparations, France and Belgium occupied the Ruhr, and the government printed money to pay striking workers there. Prices rose so fast that a loaf of bread cost billions of marks by late 1923. Families lost their savings, and many Germans blamed the treaty.
   - why not A: The 1929 crash began in New York, not Berlin, and it came later in the decade.
   - why not C: Five-Year Plans were a Soviet policy. Germany's factories stayed in private hands.
-  - why not D: Germany's economy was weak in the early 1920s. Its exports did not drive Britain's factories out of business.
-  - hint: What happens when a government prints too much money to pay its bills?
+  - why not D: Prices in Germany rose, not fell, in the early 1920s. Falling prices hurt Germany later, during the Great Depression.
+  - hint: Look for a German economic crisis soon after the peace treaty. What happened to the value of German money?
 
 
 ### Source P10 (questions U7-P28–U7-P30)
 **Unemployment in the United States, 1929–1943** (bar chart; y = Percent unemployed)
 - Unemployed (percent of the civilian labor force): 1929 = 3.2, 1930 = 8.7, 1931 = 15.9, 1932 = 23.6, 1933 = 24.9, 1934 = 21.7, 1935 = 20.1, 1936 = 16.9, 1937 = 14.3, 1938 = 19.0, 1939 = 17.2, 1940 = 14.6, 1941 = 9.9, 1942 = 4.7, 1943 = 1.9
-Yearly averages. The civilian labor force is everyone working or looking for work, not counting people in the armed forces. Figures before 1940 are later government estimates, because unemployment was not counted every year at the time.
+Yearly averages. The civilian labor force is everyone age 14 and older who is working or looking for work, not counting people in the armed forces. People in government work-relief jobs, such as the WPA and the CCC, are counted as unemployed. Figures before 1940 are later government estimates, because unemployment was not counted every year at the time.
 Source: U.S. Bureau of the Census, Historical Statistics of the United States, Colonial Times to 1970 (Washington, D.C., 1975), Series D 86, based on U.S. Bureau of Labor Statistics figures
 
 **U7-P28** [Topic 7.4 · LO D · Skill 4.B · Causation]  The change in unemployment from 1929 to 1933 is best explained by
 - (A) the end of the First World War and the return of soldiers looking for jobs
-- (B) government programs that hired millions of people to build roads and dams
-- (C) the drafting of young men into the army as the country prepared for war
+- (B) the arrival of millions of new immigrants who competed for factory jobs
+- (C) a wave of strikes by labor unions that shut down most American factories
 - (D) the stock market crash, bank failures, and a sharp fall in world trade
 KEY: D. Explanation: After the crash of October 1929, banks failed, businesses closed, and countries raised tariffs. World trade shrank. By 1933 about one American worker in four had no job.
   - why not A: The First World War ended in 1918, more than ten years before this rise.
-  - why not B: Government hiring would push unemployment down. Large programs like these began after 1933.
-  - why not C: The peacetime draft began in 1940, and it lowered unemployment rather than raising it.
-  - hint: Unemployment climbs from 3.2 to 24.9 percent. What began in October 1929?
+  - why not B: Laws passed in the 1920s had sharply cut immigration. In the early 1930s more people left the United States than arrived.
+  - why not C: Strikes did not cause the collapse. Union membership fell in the early 1930s, and the big strike waves came later, in 1934 and 1937.
+  - hint: Look at how fast the bars rise after 1929. What kind of event could make so many people lose their jobs so quickly?
 
 **U7-P29** [Topic 7.4 · LO D · Skill 5.B · Causation]  The trend from 1933 to 1937 most likely reflects
 - (A) the United States' entry into the Second World War after Pearl Harbor
-- (B) the Smoot-Hawley Tariff, which opened American markets to foreign goods
-- (C) a return to the gold standard and to balanced government budgets
-- (D) New Deal programs that gave people government jobs and made banks safer
-KEY: D. Explanation: Programs such as the Civilian Conservation Corps and the Works Progress Administration hired millions of people. New laws insured bank deposits. Unemployment fell, but it stayed high until war orders arrived.
+- (B) the Smoot-Hawley Tariff, which raised taxes on goods brought into the country
+- (C) a quick return to the gold standard and to balanced government budgets
+- (D) New Deal spending and new laws that made banks and savings safer
+KEY: D. Explanation: After Roosevelt took office in 1933, the government insured bank deposits, left the gold standard, and spent money on relief and public works. Businesses began to recover and hire again. These figures count people in work-relief jobs, such as the WPA, as unemployed, so the drop mostly shows private jobs coming back. Unemployment stayed high until war orders arrived.
   - why not A: The United States entered the war in December 1941, after this period.
-  - why not B: The Smoot-Hawley Tariff of 1930 raised taxes on imports. It cut trade instead of opening markets.
+  - why not B: The Smoot-Hawley Tariff of 1930 raised taxes on imports. Other countries struck back, and world trade shrank, which made the Depression worse.
   - why not C: Roosevelt took the country off the gold standard in 1933, and the government ran budget deficits.
-  - hint: Who became president in March 1933, and what did his government do?
+  - hint: Unemployment falls after 1933. How did the national government's role in the economy change that year?
 
 **U7-P30** [Topic 7.7 · LO G · Skill 5.B · Causation]  The drop in unemployment from 1940 to 1943 is best explained by
 - (A) war mobilization, as millions joined the military and factories made weapons
 - (B) the end of New Deal programs and the removal of government controls on business
 - (C) a large wave of immigration that filled factory jobs in American cities
 - (D) the return of many factory workers to farms in the countryside
-KEY: A. Explanation: In a total war, the government directs the whole economy. The United States drafted millions of soldiers and paid factories to build planes, tanks, and ships. Women and African Americans took many of the new jobs.
+KEY: A. Explanation: In a total war, the government directs much of the economy toward the fighting. The United States drafted millions of soldiers and paid factories to build planes, tanks, and ships. Women and African Americans took many of the new jobs.
   - why not B: The government took more control of the economy during the war, not less.
   - why not C: Immigration stayed low in these years because of laws passed in the 1920s and the war.
   - why not D: Workers moved from farms to cities during the war to take factory jobs, not the other way around.
-  - hint: What happened to the United States in December 1941?
+  - hint: The chart does not count people in the armed forces. Why might millions leave civilian jobs, and who would fill the jobs left open?
 
 
 ### Source P11 (questions U7-P31–U7-P33)
@@ -432,13 +434,13 @@ KEY: A. Explanation: In a total war, the government directs the whole economy. T
 — Alfredo Rocco, minister of justice in Benito Mussolini's government, speech "The Political Doctrine of Fascism," Perugia, Italy, August 30, 1925 (Translated by Dino Bigongiari, International Conciliation, no. 223 (New York, October 1926); adapted)
 
 **U7-P31** [Topic 7.4 · LO D · Skill 3.A]  According to Rocco, fascists believe that economic freedom
-- (A) is a natural right that the government should protect before other goals
+- (A) is a natural right that the government should protect first
 - (B) is acceptable as long as it serves the needs of the state and society
 - (C) should be ended by putting businesses under government ownership
 - (D) matters less than the struggle between workers and owners for power
 KEY: B. Explanation: Fascists said the nation and the state come first. Private businesses could keep running, but only to serve national power. Unions and employers were organized into groups controlled by the state.
   - why not A: Rocco says this is the view of the "Liberals," who "see in liberty a principle."
-  - why not C: Rocco says fascists will usually "entrust to individual initiative" the economy. That keeps private business.
+  - why not C: Rocco says fascists will usually let private people run the economy. So businesses stay in private hands.
   - why not D: Rocco says class struggle must be "replaced by state justice."
   - hint: Rocco says fascists accept liberty "as a method." What does that mean they would do if it stopped working?
 
@@ -447,22 +449,22 @@ KEY: B. Explanation: Fascists said the nation and the state come first. Private 
 - (B) allowed independent labor unions to organize strikes against employers
 - (C) kept private businesses but put the state in charge of workers and employers
 - (D) let wages and prices be set by a free market without government control
-KEY: C. Explanation: In fascist Italy, owners kept their businesses. But the state grouped workers and owners into groups it controlled, and strikes were against the law. In the Soviet Union, the state owned the factories and farms.
-  - why not A: Abolishing private property and Five-Year Plans describe the Soviet Union, not Italy.
+KEY: C. Explanation: In fascist Italy, many owners kept their businesses, though state control grew. The state grouped workers and owners into groups it controlled, and strikes were against the law. In the Soviet Union, the state owned most industry, and farms were collective or state farms under tight government control.
+  - why not A: The Soviet state owned most industry, and Stalin forced peasants into collective farms. Italy kept more private business.
   - why not B: Rocco says class organization must be "controlled, disciplined, and subordinated by the state." Strikes were banned.
   - why not D: Rocco rejects "economic liberty" as "an absolute dogma." The state stepped in whenever it chose.
   - hint: Who owned the factories in fascist Italy? Who owned them in Stalin's Soviet Union?
 
 **U7-P33** [Topic 7.6 · LO F · Skill 5.B · Causation]  Fascist ideas like those in the passage contributed to the Second World War mainly because fascist governments
-- (A) supported the League of Nations' efforts to settle disputes through talks and treaties
-- (B) glorified national power, which led to conquests such as Italy's invasion of Ethiopia
-- (C) favored free trade and close ties with the democracies of Britain and France
+- (A) wanted to bring back the kings and nobles who had ruled Europe before 1914
+- (B) glorified national power, leading to conquests such as Italy's attack on Ethiopia
+- (C) wanted to spread a worldwide revolution of workers against their employers
 - (D) relied on alliances with communist parties to win power in Europe
 KEY: B. Explanation: Fascism taught that a nation shows its strength by taking land. Mussolini invaded Ethiopia in 1935 and later joined Hitler. Nazi Germany and Japan's military leaders also built empires by force.
-  - why not A: Italy left the League of Nations in 1937 after the League condemned its war in Ethiopia.
-  - why not C: Fascist Italy raised tariffs and moved closer to Nazi Germany, not to Britain and France.
+  - why not A: Fascists did not aim to restore the old ruling families. Italy kept its king, but Mussolini held the real power.
+  - why not C: Spreading a workers' revolution was the goal of communism. Fascists crushed workers' revolts and banned strikes.
   - why not D: Fascists saw communists as their main enemies and crushed them.
-  - hint: How did Mussolini try to build a new Roman Empire in the 1930s?
+  - hint: Rocco says each person is a tool to make society and the state stronger. How might a government with that view treat weaker neighbors?
 
 
 ### Source P12 (questions U7-P34–U7-P36)
@@ -472,27 +474,27 @@ KEY: B. Explanation: Fascism taught that a nation shows its strength by taking l
 — Arthur James Balfour, British foreign secretary, letter to Lord Rothschild, a leader of Britain's Jewish community, November 2, 1917, known as the Balfour Declaration (Adapted)
 **Source 2**
 > V. A free, open-minded, and absolutely impartial adjustment of all colonial claims, based upon a strict observance of the principle that in determining all such questions of sovereignty the interests of the populations concerned must have equal weight with the equitable claims of the government whose title is to be determined. …
-> XII. The turkish portion of the present Ottoman Empire should be assured a secure sovereignty, but the other nationalities which are now under Turkish rule should be assured an undoubted security of life and an absolutely unmolested opportunity of autonomous development … .
+> XII. The Turkish portion of the present Ottoman Empire should be assured a secure sovereignty, but the other nationalities which are now under Turkish rule should be assured an undoubted security of life and an absolutely unmolested opportunity of autonomous development … .
 > XIV. A general association of nations must be formed under specific covenants for the purpose of affording mutual guarantees of political independence and territorial integrity to great and small states alike.
 — Woodrow Wilson, president of the United States, from the Fourteen Points, an address to the U.S. Congress on war aims and peace terms, January 8, 1918 (Adapted)
 
 **U7-P34** [Topic 7.5 · LO E · Skill 3.C · Comparison]  Which of the following best describes a tension between the two sources?
-- (A) Source 1 promises to protect the rights of Jews alone, while Source 2 protects the rights of many nationalities.
-- (B) Source 1 backs a Jewish homeland in Palestine, while Source 2 offers self-rule to Ottoman peoples.
+- (A) Source 1 promises the Jewish people an independent state, while Source 2 does not deal with the Middle East.
+- (B) Source 1 does not offer self-rule to Palestine's Arabs, while Source 2 backs self-development for Ottoman peoples.
 - (C) Source 1 wants the League of Nations to govern Palestine, while Source 2 wants Britain to govern it.
-- (D) Source 1 deals with colonies in Africa, while Source 2 deals with the borders of European states.
-KEY: B. Explanation: Palestine was home mostly to Arabs in 1917. Britain promised a Jewish homeland there, while Wilson spoke of self-rule for the Ottoman Empire's peoples. Britain had also made promises of independence to Arab leaders. These promises clashed after the war.
-  - why not A: Source 1 also promises to protect the "civil and religious rights of existing non-Jewish communities in Palestine."
+- (D) Source 1 deals with colonies in Africa, while Source 2 deals with the new borders of European states.
+KEY: B. Explanation: Most people in Palestine in 1917 were Arabs. Balfour backed a Jewish "national home" there. He promised to protect the rights of non-Jewish groups, but not to give them self-rule. Wilson backed "autonomous development" for the Ottoman Empire's peoples. Groups disagreed about what these promises meant, and they clashed after the war.
+  - why not A: Source 1 promises a "national home," not an independent state. Source 2's Point XII is about the Ottoman Empire, which ruled Palestine.
   - why not C: Neither source says who should govern Palestine. Source 2 calls for "a general association of nations" but does not mention Palestine.
-  - why not D: Source 1 is about Palestine, and Source 2 also covers colonies and the Ottoman Empire.
+  - why not D: Source 1 is about Palestine. Source 2 is about colonies and the Ottoman Empire, not just Europe.
   - hint: Who lived in Palestine in 1917? What does Point XII promise them?
 
-**U7-P35** [Topic 7.5 · LO E · Skill 4.B]  Britain issued the declaration in Source 1 most likely in order to
+**U7-P35** [Topic 7.5 · LO E · Skill 2.B]  Britain issued the declaration in Source 1 most likely in order to
 - (A) reward the Ottoman Empire for leaving the war and making peace with Britain
-- (B) carry out a decision the League of Nations had made about the Middle East
+- (B) carry out a decision that the League of Nations had made about the Middle East
 - (C) end a revolt by Jewish settlers against the British government of Palestine
-- (D) gain Jewish support for the Allies and a claim to Palestine after the war
-KEY: D. Explanation: In 1917 Britain was fighting the Ottoman Empire in the Middle East. Leaders hoped the declaration would win support from Jewish communities in the United States and Russia. It also gave Britain a reason to stay in Palestine after the war.
+- (D) win support for the Allied war and strengthen Britain's hold on Palestine
+KEY: D. Explanation: In 1917 Britain was fighting the Ottoman Empire in the Middle East. British leaders hoped the declaration would win support for the Allies, especially among Jews in the United States and Russia. Jewish communities did not all agree about it. The declaration also made Britain's hold on Palestine stronger after the war.
   - why not A: The Ottoman Empire did not leave the war until October 1918, almost a year later.
   - why not B: The League of Nations did not exist until 1920.
   - why not C: Britain did not yet govern Palestine. British troops took Jerusalem in December 1917.
@@ -503,11 +505,11 @@ KEY: D. Explanation: In 1917 Britain was fighting the Ottoman Empire in the Midd
 - (B) the creation of an independent Arab kingdom in Palestine with its capital at Jerusalem
 - (C) the return of Palestine to Ottoman rule after the peace conference
 - (D) the U.S. Senate's vote to join the League of Nations and help govern Palestine
-KEY: A. Explanation: Britain ruled Palestine as a League mandate from 1920. Jewish immigration grew, especially after the Nazis took power in Germany. Arabs feared losing their land and protested, and violence broke out in 1929 and in the Arab Revolt of 1936–1939.
+KEY: A. Explanation: British rule in Palestine began in 1920, and the League approved Britain's mandate in 1922. Jewish immigration grew, especially as Jews fled the Nazis. Palestinian Arabs wanted independence. They feared losing their land and rights. Violence broke out in 1929 and in the Arab Revolt of 1936–1939.
   - why not B: No independent state was created in Palestine. Britain ruled it as a mandate.
   - why not C: The Ottoman Empire lost Palestine for good and was broken up after the war.
   - why not D: The U.S. Senate voted against joining the League of Nations.
-  - hint: What happened between Arabs and Jews in Palestine under British rule?
+  - hint: Source 1 promised one group a homeland. Source 2 promised self-rule to the peoples already living there. What happens when two groups are promised the same land?
 
 
 ### Source P13 (questions U7-P37–U7-P39)
@@ -524,11 +526,11 @@ KEY: A. Explanation: Britain ruled Palestine as a League mandate from 1920. Jewi
 - (B) Russia had given Japan its rights in China after the Bolshevik Revolution
 - (C) the European powers were busy fighting the First World War in Europe
 - (D) the Qing dynasty had asked Japan for help in crushing the 1911 revolution
-KEY: C. Explanation: Japan joined the Allies in 1914 and quickly took Germany's base at Qingdao in Shandong. With Europe at war, no great power could stop Japan from pressing China. China accepted a reduced set of the demands in May 1915.
-  - why not A: Japan defeated China in 1894–1895 and took control of Korea. China did not win.
+KEY: C. Explanation: Japan joined the Allies in 1914 and quickly took Germany's base at Qingdao in Shandong. With Europe at war, the European powers could do little to check Japan. China accepted a reduced set of the demands in May 1915.
+  - why not A: China did not win. Japan defeated China in 1894–1895, which ended China's power over Korea. Japan took over Korea in 1910.
   - why not B: The Bolshevik Revolution came in 1917, two years after these demands.
   - why not D: The Qing fell in 1912. In 1915 China was a republic led by Yuan Shikai.
-  - hint: What were Britain, France, Germany, and Russia busy with in 1915?
+  - hint: Japan made these demands in January 1915. Why could the European powers not step in to protect China?
 
 **U7-P38** [Topic 7.5 · LO E · Skill 5.B · Causation]  The demands about Shantung in Group I contributed most directly to which of the following?
 - (A) China's decision to join the Central Powers in the First World War
@@ -539,18 +541,18 @@ KEY: B. Explanation: At the peace conference in 1919, the Allies gave Germany's 
   - why not A: China joined the Allies in 1917, not the Central Powers.
   - why not C: Japan ruled Korea until 1945. Chinese boycotts did not change that.
   - why not D: The peace conference did the opposite. It gave Germany's rights in Shantung to Japan.
-  - hint: What did the peace conference decide about Shantung in 1919, and how did Chinese students react?
+  - hint: Group I says China must accept whatever Japan decides about Shantung. How might Chinese people react if the peace conference gave Shantung to Japan?
 
 **U7-P39** [Topic 7.6 · LO F · Skill 5.B · Continuity and Change]  Group II's reference to Japan's "special position" in South Manchuria is most directly connected to which later event?
 - (A) Japan's return of Manchuria to China at the Washington Conference of 1921–1922
 - (B) Japan's seizure of Manchuria in 1931 and creation of Manchukuo
 - (C) the Soviet Union's takeover of Manchuria during the Russo-Japanese War
-- (D) Japan's attack on the U.S. naval base at Pearl Harbor in 1941
+- (D) Japan's surprise attack on the U.S. naval base at Pearl Harbor in 1941
 KEY: B. Explanation: Japan had won rights in southern Manchuria from Russia in 1905. In 1931 Japanese army officers staged an explosion on the railway and used it as an excuse to take over all of Manchuria. Japan set up Manchukuo, a state it controlled, in 1932.
   - why not A: At the Washington Conference Japan agreed to return Shandong, not Manchuria. It kept its rights in Manchuria.
   - why not C: The Russo-Japanese War (1904–1905) was fought by the Russian Empire, before the Soviet Union existed.
-  - why not D: Pearl Harbor was an attack on the United States, far from Manchuria. It was not about Japan's rights there.
-  - hint: Where did Japan's army set up a new state in the early 1930s?
+  - why not D: Pearl Harbor came in 1941, during Japan's wider war with the United States. Taking Manchuria in 1931 was a more direct use of the rights named in this source.
+  - hint: "Special position" means Japan claimed special rights there. What might Japan's army later do to turn those rights into full control?
 
 
 ### Source P14 (questions U7-P40–U7-P42)
@@ -558,23 +560,23 @@ KEY: B. Explanation: Japan had won rights in southern Manchuria from Russia in 1
 > The Fuehrer then stated: The aim of German policy is the security and the preservation of the nation, and its propagation. This is, consequently, a problem of space. … The German future is therefore dependent exclusively on the solution of the need for living space. …
 > … Should the security of our food position be our foremost thought, then the space required for this can only be sought in Europe, but we will not copy liberal capitalist policies which rely on exploiting colonies. It is NOT a case of conquering people, but of conquering agriculturally useful space. It would also be more to the purpose to seek raw material producing territory in Europe directly adjoining the Reich and not overseas … .
 > … The German question can be solved only by way of force, and this is never without risk.
-— Notes by Colonel Friedrich Hossbach, Adolf Hitler's military aide, on a secret meeting of Hitler with his war minister, his army, navy, and air force commanders, and his foreign minister, Berlin, November 5, 1937 (Translation by the U.S. prosecution staff, document 386-PS, in Nazi Conspiracy and Aggression, vol. 3 (Washington, D.C.: U.S. Government Printing Office, 1946); adapted)
+— Notes written on November 10, 1937, by Colonel Friedrich Hossbach, Adolf Hitler's military aide, on a secret meeting of Hitler with his war minister, his army, navy, and air force commanders, and his foreign minister, Berlin, November 5, 1937 (Translation by the U.S. prosecution staff, document 386-PS, in Nazi Conspiracy and Aggression, vol. 3 (Washington, D.C.: U.S. Government Printing Office, 1946); adapted)
 
 **U7-P40** [Topic 7.6 · LO F · Skill 2.C]  The fact that Hitler presented these ideas at a secret meeting, not in a public speech, makes the document especially useful to historians because it
-- (A) shows plans that Hitler hid from the German public and from other countries
-- (B) proves that most Germans in 1937 supported a war to conquer land in Europe
+- (A) records what Hitler told his top officials in private about using force
+- (B) records Hitler's exact words, because it was written down word for word as he spoke
 - (C) records the date that Hitler and his generals had agreed on for invading Poland
-- (D) gives the official explanation of German policy that was sent to Britain and France
-KEY: A. Explanation: In public, Hitler said he wanted peace and only fair treatment for Germany. The Hossbach notes show him telling his top leaders that Germany needed "living space" and would have to use force. The notes were used as evidence at the Nuremberg trials.
-  - why not B: Because the meeting was secret, it tells us little about what ordinary Germans thought.
+- (D) shows that the Reich Cabinet had voted to approve Hitler's plans for using force
+KEY: A. Explanation: In public speeches, Hitler often said he wanted peace. These notes record what he told his top commanders behind closed doors: that Germany needed "living space" and would have to use force. The private setting does not prove that every aim was secret, and the notes were written five days later. The notes were used as evidence at the Nuremberg trials.
+  - why not B: Hossbach wrote up his notes five days after the meeting, so they are not a word-for-word record.
   - why not C: The notes do not set a date for invading Poland. Hitler talks about possible cases and times.
-  - why not D: A secret meeting is the opposite of an official message to other countries.
-  - hint: Hitler did not discuss this "in the larger circle" of his cabinet. What does that suggest about how open he was?
+  - why not D: Hitler says he had decided not to discuss this matter "in the larger circle of the Reich Cabinet."
+  - hint: Think about the difference between what a leader says in public and what he tells his top officials in secret.
 
 **U7-P41** [Topic 7.6 · LO F · Skill 5.B · Causation]  Hitler's goals in the passage were carried out most directly when Germany
 - (A) signed the Locarno treaties accepting its border with France and Belgium
 - (B) built an overseas empire of colonies in Africa and the Pacific
-- (C) took over Austria and Czechoslovakia and invaded Poland in 1938–1939
+- (C) annexed Austria, took over the Czech lands, and invaded Poland in 1938–1939
 - (D) joined the League of Nations to settle disputes with its neighbors
 KEY: C. Explanation: Germany took over Austria in March 1938 and the Sudetenland after the Munich Agreement. In March 1939 it seized the rest of the Czech lands. Its invasion of Poland in September 1939 started the Second World War in Europe.
   - why not A: Germany signed the Locarno treaties in 1925, before Hitler came to power. They were a peaceful step.
@@ -587,11 +589,11 @@ KEY: C. Explanation: Germany took over Austria in March 1938 and the Sudetenland
 - (B) Hitler's main goal was to win back the overseas colonies Germany had lost in 1919.
 - (C) German military leaders pushed Hitler into a war that he hoped to avoid.
 - (D) Nazi leaders planned to seize land by force, not just to undo the 1919 treaty.
-KEY: D. Explanation: Many Germans wanted to undo the Versailles treaty. But Hitler wanted much more: land in Eastern Europe for German settlers. That is why many historians call Nazi aggression the most important cause of the war.
-  - why not A: Hitler speaks of the limits of world trade, but he does not blame Britain and France for refusing to trade.
-  - why not B: Hitler says Germany will "not copy liberal capitalist policies which rely on exploiting colonies."
+KEY: D. Explanation: Many Germans wanted to undo the Versailles treaty. Here Hitler argues that Germany needs new land in Europe and must use force to get it. This supports the view that Nazi goals went far beyond changing the 1919 settlement.
+  - why not A: The passage says nothing about Britain and France refusing to trade. Hitler says Germany needs more "living space" in Europe.
+  - why not B: Hitler says Germany will not copy countries that get rich from colonies. He wants land in Europe instead.
   - why not C: Hitler is the one who says "the German question can be solved only by way of force."
-  - hint: Is Hitler only trying to get back what Germany lost in 1919? Look at how much land he says Germany needs.
+  - hint: What goal does Hitler connect to the use of force?
 
 
 ### Source P15 (questions U7-P43–U7-P45)
@@ -600,37 +602,37 @@ KEY: D. Explanation: Many Germans wanted to undo the Versailles treaty. But Hitl
 > On 6 August and 9 August 1945, the first two atomic bombs to be used for military purposes were dropped on Hiroshima and Nagasaki respectively. One hundred thousand people were killed, 6 square miles or over 50 percent of the built-up areas of the two cities were destroyed. …
 — United States Strategic Bombing Survey, Summary Report (Pacific War), Washington, D.C., July 1, 1946. The survey was a team of civilian experts and military officers set up by the U.S. government; its staff worked in Japan after the surrender. (Adapted)
 
-**U7-P43** [Topic 7.7 · LO G · Skill 3.B]  The passage provides evidence for which of the following features of the Second World War?
+**U7-P43** [Topic 7.7 · LO G · Skill 1.B]  The passage provides evidence for which of the following features of the Second World War?
 - (A) Bombers mainly struck military bases that were far from where people lived.
 - (B) Japan's air defenses stopped most of the American raids before they reached their targets.
 - (C) The two atomic bombs killed more people than the fire raids on Japan's cities put together.
-- (D) Bombing raids on cities killed civilians in numbers close to the losses of whole armies.
-KEY: D. Explanation: In total war, both sides bombed cities to destroy industry and break people's will to fight. New tactics and weapons, such as fire bombs and the atomic bomb, killed huge numbers of civilians.
+- (D) Bombing raids caused civilian casualties on the scale of a whole army's losses.
+KEY: D. Explanation: In total war, both sides bombed cities to destroy industry and break people's will to fight. New tactics and weapons, such as fire bombs and the atomic bomb, killed and injured huge numbers of civilians. The survey's 806,000 civilian casualties include both deaths and injuries; about 330,000 people were killed. Later studies give higher death counts than this 1946 survey, especially for Hiroshima and Nagasaki.
   - why not A: The survey says the bombers targeted "Tokyo's most densely populated area."
   - why not B: The survey says the raids burned 15 square miles of Tokyo, so the defenses did not stop them.
   - why not C: The survey counts about 100,000 killed by the atomic bombs out of about 330,000 civilian deaths from all the bombing.
-  - hint: Compare the civilian casualties with Japan's combat casualties.
+  - hint: Is the number of civilians killed or hurt by bombing bigger or smaller than the number of soldiers Japan lost?
 
 **U7-P44** [Topic 7.7 · LO G · Skill 5.A · Comparison]  The bombing campaign described in the passage is most similar to which of the following?
 - (A) Germany's use of submarines to sink ships carrying supplies to Britain
 - (B) British and American bombing of cities such as Hamburg and Dresden
 - (C) the trench warfare along the Western Front during the First World War
 - (D) Japan's attack on the U.S. fleet at Pearl Harbor in 1941
-KEY: B. Explanation: In 1943 a fire raid on Hamburg killed about 40,000 people, and in 1945 the bombing of Dresden killed about 25,000. Like the raids on Tokyo, these attacks used fire bombs on crowded city centers.
+KEY: B. Explanation: In 1943 Allied raids on Hamburg killed about 40,000 people, and in February 1945 the raids on Dresden killed up to about 25,000. Like the raids on Tokyo, these attacks used fire bombs on crowded city centers.
   - why not A: Submarine warfare targeted ships at sea, not cities full of civilians.
   - why not C: Trench warfare was fought between armies at the front, not from the air against cities.
   - why not D: Pearl Harbor was an attack on a naval base and its ships, not on a city's population.
-  - hint: How did the bombers attack Tokyo? Where else in the war did air forces attack cities that way?
+  - hint: What kind of target and what kind of bomb did the B-29s use over Tokyo? Find the choice with the same target and method.
 
 **U7-P45** [Topic 7.7 · LO G · Skill 2.C]  A historian studying what Japanese civilians lived through in the raids would find this source limited because it
-- (A) gives exact dates, places, and amounts of bombs for the most important attacks on Japan
-- (B) was written by a team whose staff worked in Japan after the surrender
-- (C) compares the deaths of Japanese civilians with the deaths of Japanese soldiers
-- (D) measures the damage in numbers for U.S. planners rather than in survivors' own words
-KEY: D. Explanation: The survey was written to judge how well bombing worked as a weapon. It measures tons, square miles, and casualties. To learn what the raids felt like, historians also read diaries, memoirs, and interviews of Japanese survivors.
-  - why not A: Exact dates and figures make the source more useful, not less.
-  - why not B: Working in Japan after the war let the team gather records and visit the cities. That is a strength.
-  - why not C: Comparing civilian and military losses helps a historian judge the scale of the raids. That is a strength.
+- (A) does not say how many B-29 bombers took part in each of the raids on Japan's cities
+- (B) was published in 1946, about a year after the war in the Pacific had ended
+- (C) relies on Japan's own estimate of how many of its soldiers were lost in the war
+- (D) measures the damage in numbers for U.S. planners, not in survivors' own words
+KEY: D. Explanation: The survey was written to judge how well bombing worked as a weapon. This summary counts tons, square miles, and casualties. The survey team also interviewed Japanese civilians for other reports. To learn what the raids felt like, historians read diaries, memoirs, and interviews of survivors.
+  - why not A: The number of planes matters to military planners. Leaving it out does not hide what people on the ground went through.
+  - why not B: Writing soon after the war is not the problem. The problem is the kind of evidence the survey collected.
+  - why not C: Japan's count of its soldiers does not limit what the source tells us about civilians.
   - hint: Who wrote the report, and why? What kinds of evidence would show what the raids were like for the people below?
 
 
@@ -640,40 +642,40 @@ KEY: D. Explanation: The survey was written to judge how well bombing worked as 
 > All through the spring and summer of 1915 the deportations took place. … Scarcely a single Armenian, whatever his education or wealth, or whatever the social class to which he belonged, was exempted from the order. …
 > … Undoubtedly religious fanaticism was an impelling motive with the Turkish and Kurdish rabble who slew Armenians … but the men who really conceived the crime had no such motive. … with them the one motive was cold-blooded, calculating state policy. The Armenians are not the only subject people in Turkey which have suffered from this policy of making Turkey exclusively the country of the Turks.
 > * the Syrian desert and the valley of the Euphrates River, in the south of the Ottoman Empire
-— Henry Morgenthau, United States ambassador to the Ottoman Empire from 1913 to 1916, Ambassador Morgenthau's Story, published in New York in 1918 (Adapted)
+— Henry Morgenthau, United States ambassador to the Ottoman Empire from 1913 to 1916, Ambassador Morgenthau's Story, written with the journalist Burton J. Hendrick and published in New York in 1918 (Adapted)
 
-**U7-P46** [Topic 7.8 · LO H · Skill 4.A]  The deportations Morgenthau describes took place in the context of
+**U7-P46** [Topic 7.8 · LO H · Skill 4.A]  The Armenian Genocide, including the deportations Morgenthau describes, took place in the context of
 - (A) the Balkan Wars, when the Ottoman Empire lost most of its remaining land in Europe
 - (B) the First World War, when Ottoman leaders accused Armenians of helping Russia
 - (C) the Russian Civil War, when Red and White armies fought for control of the Caucasus
 - (D) the Greek-Turkish War that followed the Greek army's landing at Smyrna
-KEY: B. Explanation: The Ottoman Empire entered the war on Germany's side in 1914. After a heavy defeat by Russia in the Caucasus, the Young Turk leaders blamed Armenians. In 1915 they ordered Armenians deported to the Syrian desert. Historians estimate that about a million Armenians were killed or died of hunger and disease.
+KEY: B. Explanation: The Ottoman Empire entered the war on Germany's side in 1914. After a heavy defeat by Russia in the Caucasus, the Young Turk leaders accused Armenians as a group of helping Russia. In 1915 the government organized mass killings and forced marches to the Syrian desert. Many people were murdered, and many more died of hunger, disease, and abuse. Historians estimate that from about 600,000 to more than one million Armenians died in this genocide.
   - why not A: The Balkan Wars were fought in 1912–1913. Morgenthau says the deportations took place in "the spring and summer of 1915."
   - why not C: The Russian Civil War began in 1918, after the deportations of 1915.
   - why not D: The Greek army landed at Smyrna in May 1919, four years later.
-  - hint: Look at the year Morgenthau gives. What war was the Ottoman Empire fighting then?
+  - hint: Morgenthau gives the year. Which choice describes a war that was being fought in that year?
 
 **U7-P47** [Topic 7.8 · LO H · Skill 5.B · Causation]  Morgenthau's statement about "making Turkey exclusively the country of the Turks" suggests that a major cause of the killings was
 - (A) a Turkish nationalism that wanted a state for one ethnic group
-- (B) a plan by the sultan to spread Islam to new lands across the empire
-- (C) Germany's plan to bring German farmers to settle in eastern Anatolia
-- (D) a need for workers to farm the lands of the Syrian desert
-KEY: A. Explanation: The Young Turk leaders wanted a nation of Turks instead of an empire of many peoples. During the war they saw Armenians and other Christian groups as a threat. Historians call the killing of the Armenians a genocide.
+- (B) a Pan-Islamic plan to unite the world's Muslims under the Ottoman sultan
+- (C) a plan to bring back the absolute rule of Sultan Abdul Hamid II
+- (D) an official plan to move Armenians away from the war zone for their own safety
+KEY: A. Explanation: Leaders of the Committee of Union and Progress wanted a nation of Turks instead of an empire of many peoples. During the war they treated Armenians as a threat and used their power to carry out genocide. The blame belongs to those leaders and the people who carried out their orders, not to all Turks or Muslims.
   - why not B: Morgenthau says the planners were not moved by religion. Their motive was "calculating state policy."
-  - why not C: Germany was the Ottomans' ally, but it did not plan to settle farmers in Anatolia.
-  - why not D: Morgenthau says the move to the desert was a lie: "a new method of massacre."
+  - why not C: Morgenthau calls Abdul Hamid the Young Turks' "predecessor." They had removed him in 1909 and did not try to bring back his rule.
+  - why not D: That was the government's excuse. Morgenthau says "the real purpose of the deportation was robbery and destruction."
   - hint: Morgenthau rejects religion as the leaders' motive. What does "the country of the Turks" suggest instead?
 
-**U7-P48** [Topic 7.8 · LO H · Skill 2.C]  Which of the following is a limitation of the source for a historian studying the deportations?
-- (A) Morgenthau met with Ottoman leaders in person and heard them talk about the deportations.
-- (B) Morgenthau received reports from American consuls who worked in many parts of the empire.
-- (C) Morgenthau was living in Constantinople during the spring and summer of 1915.
+**U7-P48** [Topic 7.8 · LO H · Skill 2.C]  Which of the following is a limitation of the source for a historian studying the Armenian Genocide?
+- (A) Morgenthau did not speak with the Ottoman leaders who gave the orders for the deportations.
+- (B) Morgenthau stayed in Constantinople and got no reports from other parts of the empire.
+- (C) Morgenthau was a close friend of the Young Turk leaders and wanted to protect them.
 - (D) Morgenthau wrote it during the war, partly to turn Americans against the Central Powers.
 KEY: D. Explanation: Morgenthau's book is strong evidence because he talked with the leaders who gave the orders. But he wrote it during the war for Americans, and it often blames Germany. Historians compare it with other records, such as reports from consuls and survivors.
-  - why not A: Talking with the Ottoman leaders gave Morgenthau firsthand evidence. That is a strength.
-  - why not B: Reports from consuls across the empire gave him a wider view. That is a strength.
-  - why not C: Being in Constantinople at the time made him an eyewitness to the government's actions. That is a strength.
-  - hint: A limitation is a reason to be careful. Which choice could make the book one-sided?
+  - why not A: Morgenthau says the leaders talked about the plan "in their conversations with me."
+  - why not B: American consuls in many parts of the empire sent him reports. He writes about Armenians in "the several sections of the empire."
+  - why not C: Morgenthau blames the Young Turk leaders directly. He calls their plan "a new method of massacre."
+  - hint: A limitation is a reason to be careful. Think about when Morgenthau wrote the book and who he wrote it for.
 
 ## TIMED EXAM (25 questions, 25 minutes)
 
@@ -681,10 +683,10 @@ KEY: D. Explanation: Morgenthau's book is strong evidence because he talked with
 > As a consequence of the uprising by the Republican Army, to which the different provinces immediately responded, the Empire seethed like a boiling caldron and the people were plunged into utter misery. … Separated as the South from the North are by great distances, the unwillingness of either side to yield to the other can result only in the continued interruption of trade and the prolongation of hostilities, for, so long as the form of government is undecided, the nation can have no peace.
 > It is now evident that the hearts of the majority of the people are in favour of a republican form of government; the provinces of the South were the first to espouse the cause, and the Generals of the North have since pledged their support. From the preference of the people's hearts, the Will of Heaven can be discerned. How could We then bear to oppose the will of the millions for the glory of one Family? Therefore, observing the tendencies of the age on the one hand and studying the opinions of the people on the other, We and his Majesty the Emperor hereby vest the sovereignty in the people and decide in favour of a republican form of constitutional government. …
 > During this period of transference of government from the old to the new there should be some means of uniting the South and the North. Let Yuan Shih K'ai organise, with full powers, a provisional republican government, consulting with the representatives of the Republican Army as to the methods of union, thus assuring peace to the people and tranquillity to the Empire, and forming the one great Republic of China by the union, as heretofore, of the five peoples—namely, Manchus, Chinese, Mongols, Mohammedans*, and Tibetans, together with their territory in its integrity.
-> * "Mohammedans" is an old English word for Muslims. Here it means the Muslim peoples of China's northwest.
+> * "Mohammedans" is an old English word for Muslims. Here it means the Muslim peoples of China's northwest. In the same list, "Chinese" means the Han Chinese.
 — Edict issued in the name of the Empress Dowager Longyu and the six-year-old Xuantong Emperor (Puyi), the last ruler of the Qing dynasty, Beijing, February 12, 1912 (English translation printed in Percy Horace Braund Kent, The Passing of the Manchus (London, 1912); adapted)
 
-**U7-E01** [Topic 7.1 · LO A · Skill 4.A · Continuity and Change]  The edict was issued most directly in response to
+**U7-E01** [Topic 7.1 · LO A · Skill 4.A · Causation]  The edict was issued most directly in response to
 - (A) a revolt that began among army units at Wuchang in 1911 and spread to other provinces
 - (B) the Boxer Uprising, in which the Qing court backed attacks on foreigners and Chinese Christians
 - (C) Japan's Twenty-One Demands for special rights in Shandong, Manchuria, and other parts of China
@@ -707,15 +709,15 @@ KEY: D. Explanation: The Mandate of Heaven was a very old idea in China. A ruler
   - D: Correct. For centuries Chinese rulers said they held the Mandate of Heaven. Losing the people's support was a sign that Heaven had withdrawn it.
 
 **U7-E03** [Topic 7.1 · LO A · Skill 5.B · Causation]  In the years after 1912, the edict's hope of "uniting the South and the North" under one government was most directly undermined by
-- (A) Yuan Shikai's success in creating a strong elected parliament that kept the army under its control
+- (A) the May Fourth protests of 1919 against giving Germany's rights in Shandong to Japan
 - (B) the rise of regional warlords and, later, civil war between the Nationalists and the Communists
 - (C) the Qing court's move to Manchuria, where it went on governing the northern provinces in the 1910s
-- (D) a peace treaty in which Japan and the Western powers divided China into two separate states
+- (D) the Boxer Protocol, which made China pay large sums of money to foreign powers
 KEY: B. Explanation: Yuan Shikai became president, but he ruled as a dictator. After his death, China broke into regions run by warlords. The Nationalist Party later fought both the warlords and the Communists, so China was not truly united for decades.
-  - A: Incorrect. Yuan Shikai shut down the parliament and tried to make himself emperor in 1915–1916.
-  - B: Correct. After Yuan Shikai died in 1916, generals ran their own regions. The Nationalists reunited much of China by 1928 but then fought the Communists.
+  - A: Incorrect. The May Fourth protests spread a shared Chinese nationalism. They did not split the North from the South.
+  - B: Correct. After Yuan Shikai died in 1916, generals ran their own regions. The Nationalists turned on the Communists in 1927 and brought much of China under their rule by 1928, but fighting and divisions went on.
   - C: Incorrect. The Qing court did not govern after 1912, apart from a failed 12-day restoration in 1917. The young former emperor lived in the Forbidden City with no real power until 1924.
-  - D: Incorrect. No treaty split China in two. Foreign powers kept special rights in parts of China, but China stayed one country on paper.
+  - D: Incorrect. The Boxer Protocol was signed in 1901, before the edict. Its payments weakened China, but they did not split the North from the South.
 
 
 ### Source X2 (questions U7-E04–U7-E07)
@@ -738,23 +740,23 @@ KEY: B. Explanation: Yuan Shikai became president, but he ruled as a dictator. A
 - (C) Du Bois sees a fight between workers and owners, while Fay sees a fight between nations.
 - (D) Du Bois traces the war mainly to rivalry for colonies, while Fay puts the alliance system first.
 KEY: D. Explanation: Historians still debate which causes of the First World War mattered most. Du Bois points to empire in Africa and Asia. Fay points to the two armed alliances that divided Europe.
-  - A: Incorrect. This reverses the two authors. Du Bois says the Balkans are only "convenient for occasions," and Fay puts alliances first.
+  - A: Incorrect. Neither half fits. Du Bois says the Balkans are only "convenient for occasions," and Fay puts alliances first, not colonies.
   - B: Incorrect. Du Bois does not mention newspapers. Fay lists the press and militarism, but he puts the alliance system first.
-  - C: Incorrect. Du Bois says labor and capital are united inside each nation, in "national associations of labor and capital."
+  - C: Incorrect. Du Bois says workers and owners work together inside each nation. He calls them "national associations of labor and capital."
   - D: Correct. Du Bois calls "the ownership of materials and men in the darker world" the "real prize." Fay calls the alliances "the greatest single underlying cause."
 
 **U7-E05** [Topic 7.2 · LO B · Skill 3.D · Causation]  Which of the following, if true, would most directly challenge Du Bois's argument in Source 1?
 - (A) Germany sent a warship to the Moroccan port of Agadir in 1911 to press its claims against France in North Africa.
 - (B) European powers divided most of Africa among themselves in the decades after the Berlin Conference of 1884–1885.
 - (C) British, French, and German colonial troops fought one another in Africa during the war.
-- (D) Britain and France settled their disputes over Africa in 1904 and fought as allies in 1914.
-KEY: D. Explanation: In the Entente Cordiale of 1904, Britain accepted French control of Morocco, and France accepted British control of Egypt. The two rivals of Fashoda became partners. That makes it harder to argue that fights over Africa decided the sides in 1914.
+- (D) Records of July 1914 show that leaders' decisions for war turned on the Balkans and on alliances, not colonies.
+KEY: D. Explanation: To challenge an argument, look for evidence that points to a different cause. Many historians, such as Fay, stress European causes: the Balkan crisis, the alliance system, and military plans. Others, like Du Bois, stress empire.
   - A: Incorrect. This crisis fits Du Bois's argument. He names Agadir as one of the sparks of colonial rivalry.
   - B: Incorrect. The race to claim Africa supports Du Bois. It shows how much the powers wanted colonies there.
-  - C: Incorrect. Fighting in Africa shows that colonies mattered in the war. It does not weaken Du Bois's claim.
-  - D: Correct. If old colonial rivals could settle their quarrels and then fight side by side, rivalry for colonies may not explain who fought whom.
+  - C: Incorrect. Fighting in Africa fits Du Bois's argument, but where battles took place does not by itself show what caused the war.
+  - D: Correct. Du Bois says the "real prize" was colonies. Evidence that leaders went to war over the Balkans and their alliances would weaken the weight he gives to colonial rivalry.
 
-**U7-E06** [Topic 7.9 · LO I · Skill 3.D · Causation]  Which of the following events of July and August 1914 would Fay most likely use as evidence for his claim that the alliance system was the "greatest single underlying cause" of the war?
+**U7-E06** [Topic 7.9 · LO I · Skill 3.D · Causation]  Which of the following developments in the crisis of 1914 would Fay most likely use as evidence for his claim that the alliance system was the "greatest single underlying cause" of the war?
 - (A) A young Bosnian Serb nationalist shot and killed the heir to the throne of Austria-Hungary in Sarajevo.
 - (B) Italy stayed out of the war at first, even though it had long been allied with Germany and Austria-Hungary.
 - (C) Russia mobilized its army to back Serbia, and Germany then declared war on Russia and its ally France.
@@ -779,50 +781,50 @@ KEY: D. Explanation: Du Bois was a leading African American scholar and civil ri
 
 ### Source X3 (questions U7-E08–U7-E10)
 [IMAGE] Fritz Erler, German painter and poster artist, Helft uns siegen! zeichnet die Kriegsanleihe, color lithograph poster printed in Munich, Germany, 1917. Public domain image via Wikimedia Commons.
-Caption shown to students: A German soldier in a steel helmet stares straight ahead. A gas mask hangs on his chest, and his hand grips a wooden post wrapped in barbed wire; more barbed wire stands behind him. The words at the top say "Helft uns siegen!" ("Help us win!"). The words at the bottom say "zeichnet die Kriegsanleihe" ("subscribe to the war loan").
-Description: A tall poster. Large black letters at the top read "Helft uns siegen!" In a framed picture below, a German soldier is shown from the chest up. He wears a gray steel helmet with a chin strap and a gray uniform. His face is shadowed and looks tired, and his eyes stare straight at the viewer. A round gas mask hangs on his chest. His hand grips a wooden post wrapped with barbed wire, and more barbed wire sticks up at the left. At the bottom, large letters read "zeichnet die Kriegsanleihe." Small print names the artist, Fritz Erler, and the printer, Fritz Maison of Munich.
+Caption shown to students: A German soldier in a steel helmet looks off into the distance. A gas mask hangs on his chest, and his hand grips a wooden post wrapped in barbed wire; more barbed wire stands behind him. The words at the top say "Helft uns siegen!" ("Help us win!"). The words at the bottom say "zeichnet die Kriegsanleihe" ("subscribe to the war loan").
+Description: A tall poster. Large black letters at the top read "Helft uns siegen!" In a framed picture below, a German soldier is shown from the chest up. He wears a gray steel helmet with a chin strap and a gray uniform. His face is shadowed and looks tired, and his eyes look off into the distance, past the viewer. A round gas mask hangs on his chest. His hand grips a wooden post wrapped with barbed wire, and more barbed wire sticks up at the left. At the bottom, large letters read "zeichnet die Kriegsanleihe." Small print names the artist, Fritz Erler, and the printer, Fritz Maison of Munich.
 
 **U7-E08** [Topic 7.3 · LO C · Skill 1.B]  The poster is best understood as evidence of which feature of the First World War?
 - (A) In a total war, governments asked civilians at home to help pay for the fighting.
-- (B) Most of the soldiers on both sides were volunteers rather than men drafted by law.
-- (C) Governments allowed newspapers to report freely on the battles and the losses.
-- (D) Armies fought mostly short, fast battles in open country rather than long sieges.
+- (B) Governments drafted millions of men into their armies by law.
+- (C) Governments censored the news to hide defeats and heavy losses.
+- (D) Imperial powers brought soldiers from their colonies to fight in Europe.
 KEY: A. Explanation: The First World War cost far more than any war before it. Governments raised taxes, printed money, and sold war bonds to their own people. Posters like this one asked families to see lending money as their part in winning.
   - A: Correct. The poster asks people at home to lend their savings to the government. Governments used posters, schools, and newspapers to get whole societies behind the war.
-  - B: Incorrect. Germany, France, Russia, and Austria-Hungary drafted their soldiers by law. Britain began a draft in 1916.
-  - C: Incorrect. Governments on both sides censored the news, especially reports of defeats and heavy losses.
-  - D: Incorrect. On the Western Front, armies were stuck in trenches for years. The barbed wire in the poster is a sign of that kind of war.
+  - B: Incorrect. The draft was real, but the poster asks people at home to lend money. It says nothing about drafting soldiers.
+  - C: Incorrect. Censorship was real, but the poster is about raising money, not about the news.
+  - D: Incorrect. Britain and France did bring colonial soldiers to Europe, but this poster shows a German soldier and asks for money.
 
 **U7-E09** [Topic 7.3 · LO C · Skill 5.B · Causation]  The soldier's steel helmet and gas mask reflect which development of the war?
-- (A) New weapons such as poison gas and artillery shells led armies to give soldiers protective gear.
-- (B) German soldiers needed gas masks because the Allies had poison gas and Germany did not.
-- (C) Most of the fighting took place inside cities, where soldiers had to guard against falling buildings.
-- (D) Armies had replaced rifles and machine guns with poison gas as their main weapon.
+- (A) Poison gas and artillery shells led armies to give soldiers protective gear.
+- (B) Airplanes were used more and more to spy on enemy trenches from above.
+- (C) Tanks were built to break through barbed wire and trench lines.
+- (D) Submarines attacked ships that carried food and supplies across the sea.
 KEY: A. Explanation: Industrial nations used their factories to make new and deadlier weapons. Artillery caused most of the wounds in the trenches, and gas attacks added a new terror. Armies answered with helmets, masks, and deeper trenches.
-  - A: Correct. Steel helmets came into use in 1915–1916 to protect soldiers from shell fragments. Gas masks were issued after both sides began using poison gas in 1915.
-  - B: Incorrect. Germany was the first to use poison gas on a large scale, at Ypres in 1915. After that, both sides used it.
-  - C: Incorrect. The war in the trenches was fought mostly in open country. Large battles inside cities were more typical of the Second World War.
-  - D: Incorrect. Gas was frightening but caused a small share of the deaths. Artillery and machine guns killed far more soldiers.
+  - A: Correct. Steel helmets came into use in 1915–1916 to protect soldiers from shell fragments. Gas masks were issued after the armies began large poison gas attacks in 1915.
+  - B: Incorrect. Airplanes did scout the trenches, but helmets and masks protected soldiers from shells and gas, not from being seen.
+  - C: Incorrect. Tanks were a new weapon too, but they do not explain why soldiers needed helmets and gas masks.
+  - D: Incorrect. Submarine warfare was real, but it was fought at sea, not in the trenches.
 
 **U7-E10** [Topic 7.3 · LO C · Skill 5.B · Causation]  By 1918, the growing burden of the war on German civilians contributed most directly to which of the following?
-- (A) a German victory in the spring offensive of 1918 that won the war on the Western Front
-- (B) a rise in support for the Kaiser that kept him in power until the mid-1920s
+- (A) Germany's invasion of neutral Belgium as part of its plan to defeat France quickly
+- (B) Germany's treaty with Russia at Brest-Litovsk, which ended the fighting in the east
 - (C) strikes, navy mutinies, and a revolution that forced the Kaiser to give up his throne
 - (D) Germany's decision to break with Austria-Hungary and make peace with Britain and France
 KEY: C. Explanation: A British blockade cut off food imports, and many German families went hungry in the turnip winter of 1916–1917. As defeat came near in 1918, revolution spread through German cities. The new republic signed the armistice on November 11.
-  - A: Incorrect. The spring offensive of 1918 gained ground at first but failed. By the fall, Germany's armies were retreating.
-  - B: Incorrect. The Kaiser fled to the Netherlands in November 1918, and Germany became a republic.
-  - C: Correct. By late 1918, food shortages, losses, and defeat turned many Germans against the war. Sailors mutinied, workers struck, and the Kaiser gave up his throne on November 9.
+  - A: Incorrect. Germany invaded Belgium in August 1914, at the start of the war, before the burden on civilians grew.
+  - B: Incorrect. Germany made this treaty in March 1918 because revolution had knocked Russia out of the war, not because of hunger in Germany.
+  - C: Correct. By late 1918, food shortages, losses, and defeat turned many Germans against the war. Sailors mutinied, workers struck, and on November 9 the government announced that the Kaiser had given up his throne.
   - D: Incorrect. Germany and Austria-Hungary stayed allies until both were defeated in the fall of 1918.
 
 
 ### Source X4 (questions U7-E11–U7-E13)
 **Estimated Battle Deaths in the Armies of Selected Countries, 1914–1918** (bar chart; y = Battle deaths (thousands))
 - Battle deaths (thousands): Russia = 1700, Germany = 1600, France = 1385.3, Great Britain = 900, Austria- Hungary = 800, Italy = 364, Ottoman Empire = 250, United States = 50.3
-Battle deaths are soldiers killed in action or who died of their wounds. The estimates were made in 1919 by the statistics office of the U.S. Army General Staff, which wrote that "the final records are not yet wholly complete" and that the figures are "approximate in some cases." The source lists Austria-Hungary as "Austria" and the Ottoman Empire as "Turkey." Six smaller countries in the source's table are not shown.
+Battle deaths are soldiers killed in action or who died of their wounds. The estimates were made in 1919 by the statistics office of the U.S. Army General Staff, which wrote that "the final records are not yet wholly complete" and that the figures are "approximate in some cases." The source lists Austria-Hungary as "Austria" and the Ottoman Empire as "Turkey." Seven smaller countries in the source's table are not shown. (The table lists Serbia and Montenegro together in one row.)
 Source: Leonard P. Ayres, The War with Germany: A Statistical Summary, second edition (Washington, D.C.: U.S. War Department, General Staff, 1919), Table 9
 
-**U7-E11** [Topic 7.3 · LO C · Skill 5.B · Comparison]  The difference between the losses of the United States and those of the European powers shown in the chart is best explained by the fact that the United States
+**U7-E11** [Topic 7.3 · LO C · Skill 5.B · Causation]  The difference between the losses of the United States and those of the European powers shown in the chart is best explained by the fact that the United States
 - (A) sent most of its soldiers to fight against Japan in Asia rather than in Europe
 - (B) kept its soldiers out of the major Allied attacks of the last year of the war
 - (C) made a separate peace with Germany early in 1918 and withdrew its army
@@ -836,24 +838,24 @@ KEY: D. Explanation: The United States declared war on Germany in April 1917, af
 **U7-E12** [Topic 7.1 · LO A · Skill 5.B · Causation]  The losses shown for Russia contributed most directly to
 - (A) Russia's gain of Polish and Baltic lands from Germany in the Treaty of Brest-Litovsk
 - (B) the fall of the tsar in March 1917 and the Bolshevik takeover of the government in November
-- (C) Russia's decision in 1917 to leave the Allies and fight on the side of the Central Powers
-- (D) a peace treaty in which the Ottoman Empire handed its Arab provinces over to Russia
+- (C) Russia's decision to mobilize its army in support of Serbia in July 1914
+- (D) the success of Russia's Brusilov Offensive against Austria-Hungary in 1916
 KEY: B. Explanation: Russia lost more soldiers in battle than any other country in the chart. The defeats and hardships turned soldiers, workers, and peasants against the tsar. The Bolsheviks promised "peace, land, and bread" and took Russia out of the war.
   - A: Incorrect. Russia lost these lands in the Treaty of Brest-Litovsk in 1918. It did not gain them.
   - B: Correct. Huge losses, food shortages, and anger at the war helped bring down Tsar Nicholas II in March 1917. The Bolsheviks seized power in November.
-  - C: Incorrect. Russia made peace with the Central Powers in 1918, but it did not join their side.
-  - D: Incorrect. Russia never received Ottoman Arab lands. After the war, Britain and France took control of them.
+  - C: Incorrect. Russia mobilized at the very start of the war, before these losses.
+  - D: Incorrect. The Brusilov Offensive was Russia's greatest success of the war. It added to the losses but did not result from them.
 
 **U7-E13** [Topic 7.3 · LO C · Skill 2.C]  Which of the following is a limitation of the chart for a historian studying the full human cost of the war?
 - (A) It counts battle deaths but leaves out civilians and soldiers who died of disease.
-- (B) It uses the same measure, battle deaths, for each of the countries it shows.
-- (C) It includes the armies of both the Allied Powers and the Central Powers.
-- (D) It is based on military records that the warring governments kept during the war.
+- (B) It does not give figures for the countries that stayed neutral during the war.
+- (C) It does not separate soldiers killed in action from those who died of their wounds.
+- (D) It shows the United States next to countries that fought for about four years.
 KEY: A. Explanation: Battle deaths are only part of the war's cost. Civilians died in Belgium, Serbia, the Ottoman Empire, and elsewhere. The 1918 influenza pandemic also killed millions of soldiers and civilians as the war ended.
   - A: Correct. Millions of civilians died from hunger, disease, and fighting, and many soldiers died of illness. The chart does not count them.
-  - B: Incorrect. Using one measure for every country makes the numbers easier to compare. That is a strength.
-  - C: Incorrect. Showing countries on both sides gives a fuller picture. That is a strength, not a limitation.
-  - D: Incorrect. Records kept by the armies are a useful base for estimates. That is a strength of the source.
+  - B: Incorrect. Neutral countries had no armies in the fighting, so leaving them out does not hide any battle deaths.
+  - C: Incorrect. Both kinds of deaths are counted together. Splitting them would not show the war's full cost.
+  - D: Incorrect. Showing the United States leaves out no deaths. It just shows a country that fought for a shorter time.
 
 
 ### Source X5 (questions U7-E14–U7-E16)
@@ -865,22 +867,22 @@ KEY: A. Explanation: Battle deaths are only part of the war's cost. Civilians di
 — Franklin D. Roosevelt, president of the United States, first inaugural address, Washington, D.C., March 4, 1933 (Adapted)
 
 **U7-E14** [Topic 7.4 · LO D · Skill 1.B · Comparison]  Roosevelt's plan for the government to hire unemployed people directly is an example of which broader development in the 1930s?
-- (A) Governments cut their spending and left markets to recover by themselves.
+- (A) Governments returned to the gold standard and cut the supply of money.
 - (B) Governments lowered their tariffs to open their markets to more foreign goods.
-- (C) Governments took a much larger role in their economies during the Depression.
-- (D) Governments gave the League of Nations control over their trade and money.
+- (C) Governments took a much larger role in their economies.
+- (D) Governments paid off their war debts to the United States to restore trade.
 KEY: C. Explanation: The Great Depression threw tens of millions of people out of work. In many countries, governments began to spend money, create jobs, and control banks. This was a big change from the idea that governments should stay out of business.
-  - A: Incorrect. Some leaders tried this at first, but it made the Depression worse. Roosevelt proposed the opposite.
+  - A: Incorrect. Most countries left the gold standard in the 1930s, Britain in 1931 and the United States in 1933, so they could spend more freely.
   - B: Incorrect. Tariffs rose during the Depression. Countries tried to protect their own industries.
-  - C: Correct. Roosevelt's New Deal, the Soviet Five-Year Plans, fascist Italy's corporate state, and governments in Brazil and Mexico all used the state to manage the economy.
-  - D: Incorrect. The League of Nations never controlled countries' trade or money.
+  - C: Correct. Roosevelt's New Deal, Mussolini's Italy, and leaders in Brazil and Mexico all used the government to steer the economy. Stalin's Five-Year Plans, begun in 1928, also put the state in charge.
+  - D: Incorrect. Most European countries stopped paying their war debts to the United States in the early 1930s.
 
-**U7-E15** [Topic 7.4 · LO D · Skill 2.C]  Roosevelt's statement that "we do not distrust the future of essential democracy" is best understood in the context of
+**U7-E15** [Topic 7.4 · LO D · Skill 4.B]  Roosevelt's statement that "we do not distrust the future of essential democracy" is best understood in the context of
 - (A) the spread of democracy across Europe after the fall of the fascist governments in Italy and Germany
 - (B) the rise of dictators in Europe who claimed that democracy could not solve the economic crisis
 - (C) the League of Nations' success in using its power to stop Japan's conquest of Manchuria
 - (D) Britain's and France's decision to free their colonies so that they could focus on recovery
-KEY: B. Explanation: In the early 1930s, many people doubted that democracies could act fast in a crisis. Mussolini in Italy and Hitler's Nazis in Germany said one-party rule worked better. Roosevelt promised bold action under the Constitution.
+KEY: B. Explanation: In the early 1930s, many people wondered if democracies could act fast enough in a crisis. Mussolini and Hitler said rule by one party worked better. Roosevelt promised bold action that followed the Constitution.
   - A: Incorrect. Fascist rule in Italy and Germany did not end until 1943–1945, during the Second World War.
   - B: Correct. Mussolini had ruled Italy since 1922, and Hitler became Germany's chancellor in January 1933, five weeks before this speech.
   - C: Incorrect. The League condemned Japan's takeover of Manchuria but did not stop it. Japan left the League in 1933.
@@ -889,12 +891,12 @@ KEY: B. Explanation: In the early 1930s, many people doubted that democracies co
 **U7-E16** [Topic 7.4 · LO D · Skill 2.B]  Roosevelt's comparisons of the economic crisis to "the emergency of a war" and to an invasion "by a foreign foe" were most likely meant to
 - (A) prepare Americans to accept unusual government power to fight the economic crisis
 - (B) warn Americans that Japan or Germany was planning an attack on the United States
-- (C) ask Congress to declare war on the countries that he blamed for causing the Depression
+- (C) warn that he would use the army to stop protests by unemployed workers
 - (D) argue that building up the army and navy was the best way to create new jobs
 KEY: A. Explanation: Roosevelt spoke to a frightened country. About one worker in four had no job, and banks were closing. By treating the Depression like a war, he asked Americans to pull together and to accept a bigger role for the national government.
   - A: Correct. Roosevelt says he may ask for "broad Executive power" like a wartime president's. The war comparison makes such power seem necessary.
   - B: Incorrect. Roosevelt does not mention any foreign threat. He uses war as a comparison for the economic emergency.
-  - C: Incorrect. Roosevelt does not blame other countries for the crisis, and he says the emergency at home comes before trade with them.
+  - C: Incorrect. Roosevelt does not threaten anyone at home. He compares the crisis to a war to win support for strong action against it.
   - D: Incorrect. The jobs Roosevelt describes are "greatly needed projects" to improve the use of natural resources, not military jobs.
 
 
@@ -908,37 +910,37 @@ KEY: A. Explanation: Roosevelt spoke to a frightened country. About one worker i
 — Covenant of the League of Nations, Article 22, part of the Treaty of Versailles, signed June 28, 1919 (Adapted)
 
 **U7-E17** [Topic 7.5 · LO E · Skill 2.B]  The description of some peoples as "not yet able to stand by themselves" most directly reflects
-- (A) a belief among the victorious powers that colonized peoples needed guidance from Europeans
+- (A) a belief among the victorious powers that colonized peoples needed guidance from imperial powers
 - (B) Japan's proposal to add a statement of racial equality among nations to the Covenant
 - (C) Woodrow Wilson's call for colonies to become independent as soon as the war ended
-- (D) the Bolsheviks' call for the peoples of Asia and Africa to overthrow their colonial rulers
-KEY: A. Explanation: The mandate system was a new name for an old idea. Britain, France, and other powers said they would guide peoples they saw as less developed. In practice, the mandates often worked much like colonies.
-  - A: Correct. The wording echoes the old idea of a civilizing mission: that Europeans had a duty to rule and teach other peoples.
-  - B: Incorrect. Japan did propose a racial equality clause in 1919, but the other powers rejected it. The article reflects the opposite view.
+- (D) the Bolsheviks' call for peoples in Asia and Africa to overthrow their colonial rulers
+KEY: A. Explanation: The mandate system was a new name for an old idea. Britain, France, Japan, and other powers said they would guide peoples they saw as less developed. In practice, the mandates often worked much like colonies.
+  - A: Correct. The wording echoes the old idea of a civilizing mission: that imperial powers had a duty to rule and teach other peoples.
+  - B: Incorrect. Japan did propose a racial equality clause in 1919. Most members of the committee voted for it, but Britain, pushed by Australia, opposed it, and Wilson, as chair, ruled that it needed a unanimous vote. The article reflects the opposite view.
   - C: Incorrect. Wilson's Fourteen Points called for a fair adjustment of colonial claims, not for every colony to become free at once.
   - D: Incorrect. The Bolsheviks attacked empire, but they did not write the Covenant. The article keeps outside powers in control.
 
-**U7-E18** [Topic 7.5 · LO E · Skill 5.B · Continuity and Change]  In practice, the system described in the passage led to
+**U7-E18** [Topic 7.5 · LO E · Skill 5.B · Continuity and Change]  In the 1920s and 1930s, the system described in the passage led to
 - (A) the return of Germany's former African colonies after Germany joined the League in 1926
 - (B) Britain and France governing Germany's former colonies, such as Tanganyika and Cameroon
 - (C) the United States governing Germany's former islands in the Pacific Ocean north of the equator
 - (D) self-government under League officials for the people of South-West Africa
-KEY: B. Explanation: The mandates gave the winners land taken from the losers. Belgium, South Africa, Australia, New Zealand, and Japan got mandates too. Arab leaders had hoped to be free. Instead they got British and French rule, and revolts broke out in Iraq in 1920 and Syria in 1925.
+KEY: B. Explanation: The League put Germany's colonies and the Ottoman Arab lands under the rule of winning powers, called mandates. Belgium, South Africa, Australia, New Zealand, and Japan got mandates too. Arab leaders had hoped to be free. Instead they got British and French rule, and revolts broke out in Iraq in 1920 and Syria in 1925.
   - A: Incorrect. Germany did join the League in 1926, but it never got its colonies back.
-  - B: Correct. Germany's African colonies were split up as mandates, mostly between Britain and France. Britain and France also took the former Ottoman Arab lands.
-  - C: Incorrect. Japan, not the United States, received these islands as a mandate. The United States never joined the League.
+  - B: Correct. Germany's African colonies were split up as mandates, mostly between Britain and France. Britain and France also received mandates over former Ottoman Arab lands.
+  - C: Incorrect. Japan, not the United States, received these islands as a League mandate. The United States never joined the League. Only after the Second World War did the United States govern them, as a United Nations trust territory.
   - D: Incorrect. South Africa ruled South-West Africa (today Namibia) as part of its own territory, as the passage allowed.
 
 **U7-E19** [Topic 7.5 · LO E · Skill 2.C]  A historian studying how people in the mandate territories viewed the system would find the passage limited because it
-- (A) describes several kinds of territories and explains how each kind was supposed to be governed
+- (A) is about the former Ottoman lands and leaves out lands in Africa and the Pacific
 - (B) was written by the victors and does not record the views of the peoples under mandates
-- (C) was an official part of the peace treaty that the Allies signed with Germany in 1919
-- (D) required each country that held a mandate to send a yearly report to the League's Council
+- (C) does not name the country that would govern each of the mandate territories
+- (D) was written before the Ottoman Empire had signed an armistice with the Allies
 KEY: B. Explanation: Official papers show what governments planned. To learn how people under the mandates felt, a historian would read their own petitions and newspapers. Their revolts, such as the Syrian revolt of 1925–1927, also show how they felt.
-  - A: Incorrect. This detail makes the passage useful for learning how the system was planned. It is a strength.
+  - A: Incorrect. The passage describes former Turkish lands, Central Africa, South-West Africa, and South Pacific islands.
   - B: Correct. The Covenant states the powers' plans. It does not tell us how Arabs, Africans, or Pacific Islanders saw them.
-  - C: Incorrect. Being part of the treaty shows that the passage is an official record. That is a strength.
-  - D: Incorrect. The yearly reports would give historians more records to study. That is a strength.
+  - C: Incorrect. This is true, but the names of the governing countries would not tell us how the people living there felt.
+  - D: Incorrect. The Ottoman Empire signed an armistice in October 1918, months before the treaty was signed in June 1919.
 
 
 ### Source X7 (questions U7-E20–U7-E22)
@@ -949,37 +951,37 @@ KEY: B. Explanation: Official papers show what governments planned. To learn how
 > Fourth, they will endeavor, with due respect for their existing obligations, to further the enjoyment by all States, great or small, victor or vanquished, of access, on equal terms, to the trade and to the raw materials of the world which are needed for their economic prosperity; …
 > Sixth, after the final destruction of the Nazi tyranny, they hope to see established a peace which will afford to all nations the means of dwelling in safety within their own boundaries, and which will afford assurance that all the men in all lands may live out their lives in freedom from fear and want; …
 > Eighth, they believe that all of the nations of the world, for realistic as well as spiritual reasons must come to the abandonment of the use of force. Since no future peace can be maintained if land, sea or air armaments continue to be employed by nations which threaten, or may threaten, aggression outside of their frontiers, they believe, pending the establishment of a wider and permanent system of general security, that the disarmament of such nations is essential. …
-— Joint declaration by Franklin D. Roosevelt, president of the United States, and Winston Churchill, prime minister of Great Britain, after their meeting on warships off the coast of Newfoundland, August 14, 1941, known as the Atlantic Charter (Adapted)
+— Joint declaration by Franklin D. Roosevelt, president of the United States, and Winston Churchill, prime minister of the United Kingdom, after their meeting on warships off the coast of Newfoundland, August 14, 1941, known as the Atlantic Charter (Adapted)
 
 **U7-E20** [Topic 7.7 · LO G · Skill 4.A]  The Atlantic Charter was issued at a time when
 - (A) the United States had just entered the war after Japan's surprise attack on Pearl Harbor in Hawaii
 - (B) Britain and France were trying to satisfy Hitler by accepting his demands at the Munich Conference
 - (C) Germany ruled much of Europe, and the United States was sending aid to Britain but was not at war
 - (D) British and American armies had landed in France and were pushing German forces back toward Germany
-KEY: C. Explanation: Roosevelt and Churchill met in secret in August 1941. Roosevelt could not yet declare war, but he wanted Americans to see the war as a fight for freedom. The Charter set out shared goals for the world after the defeat of Nazi Germany.
+KEY: C. Explanation: Roosevelt and Churchill met in secret in August 1941. Roosevelt could not take the United States into the war without Congress, and many Americans still wanted to stay out. But he wanted Americans to see the war as a fight for freedom. The Charter set out shared goals for the world after the defeat of Nazi Germany.
   - A: Incorrect. Pearl Harbor was attacked in December 1941, four months after the Charter.
   - B: Incorrect. The Munich Conference was in 1938. By 1941 Britain had been at war with Germany for two years.
   - C: Correct. By August 1941, Germany had conquered most of Europe and invaded the Soviet Union. The United States was sending Britain weapons under the Lend-Lease Act.
   - D: Incorrect. The Allied landings in France came in June 1944, almost three years later.
 
 **U7-E21** [Topic 7.6 · LO F · Skill 5.B · Causation]  The hope expressed in the eighth point for "a wider and permanent system of general security" was most directly carried out by
-- (A) the division of Germany into four occupation zones run by the Allies
+- (A) the division of Germany into four occupation zones run by the Allied powers
 - (B) the founding of the United Nations, with a Security Council, in 1945
-- (C) the trials of Nazi leaders for war crimes at Nuremberg in 1945–1946
+- (C) the trials of Nazi leaders for their war crimes at Nuremberg in 1945–1946
 - (D) the Marshall Plan's aid for rebuilding the economies of Western Europe
 KEY: B. Explanation: The Allies called themselves the "United Nations" during the war. In 1945, fifty countries signed the United Nations Charter in San Francisco. It was meant to do better than the League of Nations had done.
   - A: Incorrect. The occupation zones were meant to control Germany, not to protect all nations from attack.
-  - B: Correct. The United Nations was set up to keep the peace through collective security, with a Security Council of the major powers.
+  - B: Correct. The United Nations was set up to keep the peace through collective security: countries working together against an attacker. In 1945 its Security Council had five permanent members, the major Allied powers, and six elected members.
   - C: Incorrect. The trials punished Nazi leaders. They did not create a lasting system for keeping the peace.
   - D: Incorrect. The Marshall Plan gave money to rebuild economies. It was not a system of collective security.
 
 **U7-E22** [Topic 7.5 · LO E · Skill 3.D · Continuity and Change]  Which of the following would best support the claim that the third point of the Charter was applied unevenly?
-- (A) Roosevelt and Churchill met in person on warships to agree on the words of the Charter.
+- (A) The eighth point called for disarming nations that threatened aggression while others kept their weapons.
 - (B) The Soviet Union and other Allied governments soon declared their support for the Charter's principles.
 - (C) Germany had taken away the self-government of conquered countries such as Poland and France.
 - (D) Churchill said the point was meant for Nazi-occupied Europe, not for British colonies such as Burma.
 KEY: D. Explanation: Leaders in India, Burma, and Africa read the Charter's promise of self-government and asked why it should not apply to them. After the war, many of them used its words in their own fights for independence.
-  - A: Incorrect. How the leaders met tells us nothing about how the point was applied.
+  - A: Incorrect. This is about disarmament in the eighth point, not about self-government in the third point.
   - B: Incorrect. Wide support for the Charter does not show that its promises were kept for some peoples and not others.
   - C: Incorrect. This explains why the point was written. It does not show that the point was applied unevenly.
   - D: Correct. In September 1941, Churchill told Parliament that the declaration did not change British policy for India, Burma, and other parts of the British Empire.
@@ -993,35 +995,35 @@ KEY: D. Explanation: Leaders in India, Burma, and Africa read the Charter's prom
 — Robert H. Jackson, justice of the U.S. Supreme Court serving as chief prosecutor for the United States, opening address at the trial of Nazi leaders before the International Military Tribunal, Nuremberg, Germany, November 21, 1945 (From Nazi Conspiracy and Aggression, vol. 1 (Washington, D.C.: U.S. Government Printing Office, 1946); adapted)
 
 **U7-E23** [Topic 7.8 · LO H · Skill 1.B]  Which of the following is an example of the "non-violent measures" that Jackson says the persecution began with?
-- (A) Kristallnacht in 1938, when Nazi mobs burned synagogues and wrecked Jewish shops and homes
-- (B) the forcing of Jews in occupied Poland into closed-off ghettos in the cities
-- (C) the Nuremberg Laws of 1935, which took away the citizenship rights of German Jews
-- (D) the shooting of Jews by mobile killing units after Germany invaded the Soviet Union
-KEY: C. Explanation: Nazi persecution got worse step by step. It began with laws that took away Jews' rights and jobs. Then came mob violence, ghettos, and deportation. It ended in mass murder in killing centers such as Auschwitz.
-  - A: Incorrect. Kristallnacht was "organized mass violence," the next stage Jackson describes.
-  - B: Incorrect. Ghettos were part of the later stage of "physical isolation" and deportation.
-  - C: Correct. The Nuremberg Laws stripped German Jews of citizenship and banned marriages between Jews and other Germans. They were laws, not physical attacks.
-  - D: Incorrect. These mass shootings, starting in 1941, were part of the stage of extermination.
+- (A) Kristallnacht in 1938, when Nazi storm troopers burned synagogues and Jewish shops
+- (B) the Évian Conference of 1938, where most nations refused to admit more Jewish refugees
+- (C) the Nuremberg Laws of 1935, which took away the rights of German Jews as citizens
+- (D) the Wannsee Conference of 1942, where Nazi officials met to plan the "Final Solution"
+KEY: C. Explanation: Jackson describes the persecution in stages. In fact, Nazi laws and physical attacks were used together from 1933 on. The Holocaust later included mass shootings as well as murder in killing centers such as Auschwitz.
+  - A: Incorrect. Kristallnacht was "organized mass violence," which Jackson lists after the first measures. The Nazi Party planned it and its storm troopers carried it out.
+  - B: Incorrect. The Évian Conference was a meeting of other countries, not a Nazi measure. Its failure left Jews with few places to escape to.
+  - C: Correct. The Nuremberg Laws stripped German Jews of citizenship and banned marriages between Jews and non-Jewish Germans. They were laws, not physical attacks.
+  - D: Incorrect. The Wannsee Conference came in 1942, at the last stage Jackson lists. There, officials organized the deportation and murder of Europe's Jews.
 
 **U7-E24** [Topic 7.8 · LO H · Skill 2.B]  Jackson's emphasis on "a plan and design" and on "written orders" was most likely meant to
 - (A) argue that the killings had been the work of local mobs acting without orders from above
-- (B) prove that the persecution grew out of old religious quarrels rather than government policy
+- (B) show that the persecution grew out of old religious quarrels rather than government policy
 - (C) show that Nazi leaders were personally responsible for crimes carried out by the state
-- (D) convince the Allied governments to keep fighting until Germany agreed to surrender
-KEY: C. Explanation: At Nuremberg, the leaders of a defeated country were tried in an international court for the first time. They were charged with planning war and mass murder. The prosecutors used the Nazis' own papers as proof.
+- (D) persuade the court that the German people as a whole were guilty of the crimes
+KEY: C. Explanation: In 1945–1946, an international court at Nuremberg tried top Nazi leaders. They were charged with starting wars, war crimes, and crimes against humanity. The prosecutors used the Nazis' own records to tie each man to the crimes.
   - A: Incorrect. Jackson argues the opposite. He says the crimes were "organized and promoted by the Party Leadership."
-  - B: Incorrect. Jackson says the persecution was not about "personal bad citizenship or unpopularity" but a deliberate policy.
+  - B: Incorrect. Jackson cites state orders to show that Nazi leaders planned the crimes. He is not describing an old religious quarrel.
   - C: Correct. As a prosecutor, Jackson had to link the men on trial to the crimes. Written orders and an official plan made that link.
-  - D: Incorrect. Germany had already surrendered in May 1945. Jackson spoke at a trial held after the war.
+  - D: Incorrect. Jackson points to plans and orders by leaders. In this speech he said he did not mean to blame the whole German people.
 
 **U7-E25** [Topic 7.8 · LO H · Skill 5.A · Comparison]  The persecution Jackson describes differed from earlier attacks on Jews in the Russian Empire, such as the pogroms of the 1880s and early 1900s, mainly because it
 - (A) was an official plan, carried out by state agencies, to destroy the Jewish people as a whole
 - (B) was carried out mostly by local crowds while government officials tried to stop them
 - (C) was based on religious differences between Christians and Jews rather than on ideas about race
 - (D) took place mainly in small farming villages and spared the Jews who lived in large cities
-KEY: A. Explanation: Russian pogroms were outbreaks of mob violence, often in towns and cities. Officials sometimes allowed them, but there was no plan to kill every Jew. The Holocaust was planned and run by a modern state with laws, police, railways, and camps.
+KEY: A. Explanation: Russian pogroms were outbreaks of mob violence, often in towns and cities. Some officials encouraged or took part in them, but there was no plan to kill every Jew. The Holocaust was a genocide planned and run by a modern state, with help from its allies and collaborators. It used laws, police, railways, mass shootings, and killing centers.
   - A: Correct. Jackson describes a plan run by the Party Leadership, Nazi officials, and the Secret State Police, with "the destruction of the Jewish people as a whole" as its goal.
   - B: Incorrect. This does not fit Jackson's account. He says Nazi officials "executed and protected" the crimes.
-  - C: Incorrect. Nazi hatred of Jews was based mainly on racist theories, not on religion. Even Jews who had become Christians were persecuted.
+  - C: Incorrect. Nazi hatred of Jews was based mainly on racist ideas about ancestry, though it drew on older religious hatred too. Jews who had become Christians were still persecuted.
   - D: Incorrect. The Nazis deported Jews from cities and villages alike across Europe.
 

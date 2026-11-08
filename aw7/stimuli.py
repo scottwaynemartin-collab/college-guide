@@ -2,7 +2,7 @@
 # documented in aw7/sources/*.md. Cuts are marked with ellipses; bracketed words are clarifications.
 # Every text was published by 1930 or is a work of the U.S. government. OCR slips in the scans were
 # corrected against a second scan where one exists (see the .md files).
-VERSION = "2026-11-08a"
+VERSION = "2026-11-08c"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -27,7 +27,7 @@ STIM = {
     "During this period of transference of government from the old to the new there should be some means of uniting the South and the North. Let Yuan Shih K'ai organise, with full powers, a provisional republican government, consulting with the representatives of the Republican Army as to the methods of union, thus assuring peace to the people and tranquillity to the Empire, and forming the one great Republic of China by the union, as heretofore, of the five peoples—namely, Manchus, Chinese, Mongols, Mohammedans*, and Tibetans, together with their territory in its integrity."],
     "Edict issued in the name of the Empress Dowager Longyu and the six-year-old Xuantong Emperor (Puyi), the last ruler of the Qing dynasty, Beijing, February 12, 1912",
     "English translation printed in Percy Horace Braund Kent, The Passing of the Manchus (London, 1912); adapted",
-    footnotes=[{"mark": "*", "text": "\"Mohammedans\" is an old English word for Muslims. Here it means the Muslim peoples of China's northwest."}],
+    footnotes=[{"mark": "*", "text": "\"Mohammedans\" is an old English word for Muslims. Here it means the Muslim peoples of China's northwest. In the same list, \"Chinese\" means the Han Chinese."}],
     glossary=[{"t": "seethed", "d": "boiled over; was in turmoil"},
               {"t": "espouse the cause", "d": "take up the cause; support it"},
               {"t": "discerned", "d": "seen; recognized"},
@@ -47,7 +47,7 @@ STIM = {
         footnotes=[{"mark": "*", "text": "Fashoda (1898) and Agadir (1911) were places in Africa where crises between European powers nearly led to war. \"Dark Continent\" and \"darker world\" are phrases of Du Bois's time; he uses color terms for the peoples of Africa and Asia."}],
         glossary=[{"t": "magazine", "d": "a storehouse for gunpowder and shells"},
                   {"t": "conflagration", "d": "a huge fire"},
-                  {"t": "occasions", "d": "here, the events that set off a war, not its real causes"},
+                  {"t": "occasions", "d": "events that set something off; triggers"},
                   {"t": "engendered", "d": "caused; created"},
                   {"t": "spoils", "d": "goods taken by the winners"}]),
     item("Source 2", [
@@ -65,18 +65,18 @@ STIM = {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Helft_uns_siegen.jpg/960px-Helft_uns_siegen.jpg",
     "width": 960, "height": 1252,
     "alt": "A poster of a German soldier in a steel helmet with a gas mask on his chest, gripping a post wrapped in barbed wire, with German words above and below the picture.",
-    "caption": "A German soldier in a steel helmet stares straight ahead. A gas mask hangs on his chest, and his hand grips a wooden post wrapped in barbed wire; more barbed wire stands behind him. The words at the top say \"Helft uns siegen!\" (\"Help us win!\"). The words at the bottom say \"zeichnet die Kriegsanleihe\" (\"subscribe to the war loan\").",
+    "caption": "A German soldier in a steel helmet looks off into the distance. A gas mask hangs on his chest, and his hand grips a wooden post wrapped in barbed wire; more barbed wire stands behind him. The words at the top say \"Helft uns siegen!\" (\"Help us win!\"). The words at the bottom say \"zeichnet die Kriegsanleihe\" (\"subscribe to the war loan\").",
     "attribution": "Fritz Erler, German painter and poster artist, Helft uns siegen! zeichnet die Kriegsanleihe, color lithograph poster printed in Munich, Germany, 1917",
     "credit": "Public domain image via Wikimedia Commons.",
-    "description": "A tall poster. Large black letters at the top read \"Helft uns siegen!\" In a framed picture below, a German soldier is shown from the chest up. He wears a gray steel helmet with a chin strap and a gray uniform. His face is shadowed and looks tired, and his eyes stare straight at the viewer. A round gas mask hangs on his chest. His hand grips a wooden post wrapped with barbed wire, and more barbed wire sticks up at the left. At the bottom, large letters read \"zeichnet die Kriegsanleihe.\" Small print names the artist, Fritz Erler, and the printer, Fritz Maison of Munich.",
-    "glossary": [{"t": "war loan", "d": "money that people lent to their government by buying war bonds, to be paid back later with interest"}]},
+    "description": "A tall poster. Large black letters at the top read \"Helft uns siegen!\" In a framed picture below, a German soldier is shown from the chest up. He wears a gray steel helmet with a chin strap and a gray uniform. His face is shadowed and looks tired, and his eyes look off into the distance, past the viewer. A round gas mask hangs on his chest. His hand grips a wooden post wrapped with barbed wire, and more barbed wire sticks up at the left. At the bottom, large letters read \"zeichnet die Kriegsanleihe.\" Small print names the artist, Fritz Erler, and the printer, Fritz Maison of Munich.",
+    "glossary": [{"t": "war loan", "d": "bonds that a government sold to its people during the war"}]},
 
 "X4": {"type": "bar",
     "title": "Estimated Battle Deaths in the Armies of Selected Countries, 1914–1918",
     "categories": ["Russia", "Germany", "France", "Great\nBritain", "Austria-\nHungary", "Italy", "Ottoman\nEmpire", "United\nStates"],
     "series": [{"name": "Battle deaths (thousands)", "values": [1700, 1600, 1385.3, 900, 800, 364, 250, 50.3]}],
     "yLabel": "Battle deaths (thousands)",
-    "text": "Battle deaths are soldiers killed in action or who died of their wounds. The estimates were made in 1919 by the statistics office of the U.S. Army General Staff, which wrote that \"the final records are not yet wholly complete\" and that the figures are \"approximate in some cases.\" The source lists Austria-Hungary as \"Austria\" and the Ottoman Empire as \"Turkey.\" Six smaller countries in the source's table are not shown.",
+    "text": "Battle deaths are soldiers killed in action or who died of their wounds. The estimates were made in 1919 by the statistics office of the U.S. Army General Staff, which wrote that \"the final records are not yet wholly complete\" and that the figures are \"approximate in some cases.\" The source lists Austria-Hungary as \"Austria\" and the Ottoman Empire as \"Turkey.\" Seven smaller countries in the source's table are not shown. (The table lists Serbia and Montenegro together in one row.)",
     "source": "Leonard P. Ayres, The War with Germany: A Statistical Summary, second edition (Washington, D.C.: U.S. War Department, General Staff, 1919), Table 9"},
 
 "X5": P([
@@ -118,14 +118,14 @@ STIM = {
     "Fourth, they will endeavor, with due respect for their existing obligations, to further the enjoyment by all States, great or small, victor or vanquished, of access, on equal terms, to the trade and to the raw materials of the world which are needed for their economic prosperity; …",
     "Sixth, after the final destruction of the Nazi tyranny, they hope to see established a peace which will afford to all nations the means of dwelling in safety within their own boundaries, and which will afford assurance that all the men in all lands may live out their lives in freedom from fear and want; …",
     "Eighth, they believe that all of the nations of the world, for realistic as well as spiritual reasons must come to the abandonment of the use of force. Since no future peace can be maintained if land, sea or air armaments continue to be employed by nations which threaten, or may threaten, aggression outside of their frontiers, they believe, pending the establishment of a wider and permanent system of general security, that the disarmament of such nations is essential. …"],
-    "Joint declaration by Franklin D. Roosevelt, president of the United States, and Winston Churchill, prime minister of Great Britain, after their meeting on warships off the coast of Newfoundland, August 14, 1941, known as the Atlantic Charter",
+    "Joint declaration by Franklin D. Roosevelt, president of the United States, and Winston Churchill, prime minister of the United Kingdom, after their meeting on warships off the coast of Newfoundland, August 14, 1941, known as the Atlantic Charter",
     "Adapted",
     glossary=[{"t": "aggrandizement", "d": "making oneself bigger or more powerful"},
               {"t": "accord with", "d": "agree with"},
               {"t": "vanquished", "d": "defeated"},
               {"t": "tyranny", "d": "cruel and unjust rule"},
               {"t": "pending", "d": "until"},
-              {"t": "general security", "d": "an arrangement in which nations protect one another from attack"}]),
+              {"t": "general security", "d": "safety for all nations"}]),
 
 "X8": P([
     "The most savage and numerous crimes planned and committed by the Nazis were those against the Jews. These in Germany, in 1933, numbered about 500,000. … They were few enough to be helpless and numerous enough to be held up as a menace.",
@@ -136,7 +136,7 @@ STIM = {
     "From Nazi Conspiracy and Aggression, vol. 1 (Washington, D.C.: U.S. Government Printing Office, 1946); adapted",
     glossary=[{"t": "annihilate", "d": "destroy completely"},
               {"t": "Secret State Police", "d": "the Gestapo, the Nazi secret police"},
-              {"t": "disfranchisement", "d": "taking away the right to vote and other rights of citizens"},
+              {"t": "disfranchisement", "d": "taking away the right to vote"},
               {"t": "impediments", "d": "barriers"},
               {"t": "avowed", "d": "openly stated"},
               {"t": "perpetrated", "d": "carried out (a crime)"}]),
@@ -200,7 +200,7 @@ STIM = {
     "… War is a biological necessity of the first importance, a regulative element in the life of mankind which cannot be dispensed with, since without it an unhealthy development will follow, which excludes every advancement of the race, and therefore all real civilization. … The struggle for existence is, in the life of Nature, the basis of all healthy development. … The law of the stronger holds good everywhere. Those forms survive which are able to procure themselves the most favourable conditions of life … . The weaker succumb. …",
     "… a consolidation and expansion of our position among the Great Powers of Europe, and an extension of our colonial possessions, must be the basis of our future development. … We must not aim at the impossible. … But we must aspire to the possible, even at the risk of war. This policy we have seen to be both our right and our duty. The longer we look at things with folded hands, the harder it will be to make up the start which the other Powers have gained on us. …",
     "We see the European Great Powers divided into two great camps."],
-    "Friedrich von Bernhardi, retired German army general and military writer, Germany and the Next War, published in German in 1911",
+    "Friedrich von Bernhardi, retired German army general and military writer, Germany and the Next War, written in 1911 and translated into English by Allen H. Powles in 1912",
     "Translated by Allen H. Powles (1912); adapted",
     glossary=[{"t": "the Morocco dispute", "d": "a 1911 crisis in which Germany sent a warship to the Moroccan port of Agadir to challenge France's growing control of Morocco"},
               {"t": "regulative", "d": "keeping things in order or balance"},
@@ -227,7 +227,7 @@ STIM = {
 "P6": P([
     "Bent double, like old beggars under sacks,\nKnock-kneed, coughing like hags, we cursed through sludge,\nTill on the haunting flares we turned our backs,\nAnd towards our distant rest began to trudge.\nMen marched asleep. Many had lost their boots,\nBut limped on, blood-shod. All went lame, all blind;\nDrunk with fatigue; deaf even to the hoots\nOf gas-shells dropping softly behind.",
     "Gas! GAS! Quick, boys!—An ecstasy of fumbling\nFitting the clumsy helmets just in time,\nBut someone still was yelling out and stumbling\nAnd flound'ring like a man in fire or lime.—\nDim through the misty panes and thick green light,\nAs under a green sea, I saw him drowning.",
-    "… My friend, you would not tell with such high zest\nTo children ardent for some desperate glory,\nThe old Lie: Dulce et decorum est\nPro patria mori.*"],
+    "… If in some smothering dreams, you too could pace\nBehind the wagon that we flung him in, …\nMy friend, you would not tell with such high zest\nTo children ardent for some desperate glory,\nThe old Lie: Dulce et decorum est\nPro patria mori.*"],
     "Wilfred Owen, British infantry officer and poet, \"Dulce et Decorum Est,\" written in 1917–1918 and published in his Poems in 1920; Owen was killed in battle in France one week before the war ended",
     "Adapted",
     footnotes=[{"mark": "*", "text": "Latin words from the ancient Roman poet Horace: \"It is sweet and fitting to die for one's country.\""}],
@@ -237,7 +237,7 @@ STIM = {
               {"t": "helmets", "d": "here, gas masks"},
               {"t": "lime", "d": "quicklime, a chemical that burns skin"},
               {"t": "misty panes", "d": "the fogged-up glass eyepieces of a gas mask"},
-              {"t": "zest", "d": "eagerness"}, {"t": "ardent", "d": "eager"}],
+              {"t": "smothering", "d": "choking; hard to breathe in"}, {"t": "zest", "d": "eagerness"}, {"t": "ardent", "d": "eager"}],
     verse=True),
 
 "P7": {"type": "image",
@@ -253,12 +253,12 @@ STIM = {
 
 "P8": P([
     "I recognise that in the hour of its danger we must give, as we have decided to give, ungrudging and unequivocal support to the Empire of which we aspire in the near future to be partners in the same sense as the Dominions overseas. But it is the simple truth that our response is due to the expectation that our goal will be reached all the more speedily. …",
-    "… I would make India offer all her able-bodied sons as a sacrifice to the Empire at its critical moment, and I know that India, by this very act, would become the most favoured partner in the Empire, and racial distinctions would become a thing of the past. …",
+    "If I could make my countrymen retrace their steps, I would make them withdraw all the Congress resolutions, and not whisper \"Home Rule\" or \"Responsible Government\" during the pendency of the War. I would make India offer all her able-bodied sons as a sacrifice to the Empire at its critical moment, and I know that India, by this very act, would become the most favoured partner in the Empire, and racial distinctions would become a thing of the past. …",
     "Whilst, therefore, it is clear to me that we should give to the Empire every available man for its defence, I fear that I cannot say the same thing about financial assistance. My intimate intercourse with the ryots convinces me, that India has already donated to the Imperial Exchequer beyond her capacity. …",
     "… We are today outside the partnership. Ours is a consecration based on hope of better future. I should be untrue to you and to my country if I did not clearly and unequivocally tell you what that hope is. I do not bargain for its fulfilment, but you should know, that disappointment of hope means disillusion."],
     "Mohandas K. Gandhi, Indian lawyer and political leader, letter to Lord Chelmsford, the British viceroy of India, after a war conference that the viceroy called in Delhi, April 1918",
     "Gandhi's English letter as printed in his autobiography, The Story of My Experiments with Truth, vol. 2, translated by Mahadev Desai and Pyarelal Nair (Ahmedabad, 1929); adapted",
-    glossary=[{"t": "unequivocal", "d": "clear, with no doubt"},
+    glossary=[{"t": "unequivocal", "d": "clear, with no doubt"}, {"t": "Congress resolutions", "d": "demands passed by the Indian National Congress, India's leading nationalist party"}, {"t": "Home Rule; Responsible Government", "d": "self-government for India inside the British Empire"}, {"t": "pendency", "d": "the time while something is still going on"},
               {"t": "aspire", "d": "hope and aim"},
               {"t": "Dominions overseas", "d": "self-governing parts of the British Empire, such as Canada and Australia"},
               {"t": "ryots", "d": "Indian peasant farmers"},
@@ -286,7 +286,7 @@ STIM = {
     "categories": ["1929", "1930", "1931", "1932", "1933", "1934", "1935", "1936", "1937", "1938", "1939", "1940", "1941", "1942", "1943"],
     "series": [{"name": "Unemployed (percent of the civilian labor force)", "values": [3.2, 8.7, 15.9, 23.6, 24.9, 21.7, 20.1, 16.9, 14.3, 19.0, 17.2, 14.6, 9.9, 4.7, 1.9]}],
     "yLabel": "Percent unemployed",
-    "text": "Yearly averages. The civilian labor force is everyone working or looking for work, not counting people in the armed forces. Figures before 1940 are later government estimates, because unemployment was not counted every year at the time.",
+    "text": "Yearly averages. The civilian labor force is everyone age 14 and older who is working or looking for work, not counting people in the armed forces. People in government work-relief jobs, such as the WPA and the CCC, are counted as unemployed. Figures before 1940 are later government estimates, because unemployment was not counted every year at the time.",
     "source": "U.S. Bureau of the Census, Historical Statistics of the United States, Colonial Times to 1970 (Washington, D.C., 1975), Series D 86, based on U.S. Bureau of Labor Statistics figures"},
 
 "P11": P([
@@ -299,7 +299,7 @@ STIM = {
               {"t": "Liberals", "d": "people who believe in individual rights and in keeping government out of the economy"},
               {"t": "subordinate", "d": "place under someone else's control"},
               {"t": "class self-defense", "d": "workers or employers fighting for their own side, as with strikes or lockouts"},
-              {"t": "syndicalism", "d": "a system of syndicates: organizations of workers and of employers in each trade"},
+              {"t": "syndicalism", "d": "a system of syndicates: organizations of workers and of employers in each trade; Rocco uses the word for the fascist system he supports"},
               {"t": "inalienable", "d": "cannot be taken away"}]),
 
 "P12": {"type": "pair", "items": [
@@ -313,13 +313,13 @@ STIM = {
                   {"t": "prejudice", "d": "here, harm"}]),
     item("Source 2", [
         "V. A free, open-minded, and absolutely impartial adjustment of all colonial claims, based upon a strict observance of the principle that in determining all such questions of sovereignty the interests of the populations concerned must have equal weight with the equitable claims of the government whose title is to be determined. …",
-        "XII. The turkish portion of the present Ottoman Empire should be assured a secure sovereignty, but the other nationalities which are now under Turkish rule should be assured an undoubted security of life and an absolutely unmolested opportunity of autonomous development … .",
+        "XII. The Turkish portion of the present Ottoman Empire should be assured a secure sovereignty, but the other nationalities which are now under Turkish rule should be assured an undoubted security of life and an absolutely unmolested opportunity of autonomous development … .",
         "XIV. A general association of nations must be formed under specific covenants for the purpose of affording mutual guarantees of political independence and territorial integrity to great and small states alike."],
         "Woodrow Wilson, president of the United States, from the Fourteen Points, an address to the U.S. Congress on war aims and peace terms, January 8, 1918",
         "Adapted",
         glossary=[{"t": "impartial", "d": "fair to all sides"}, {"t": "sovereignty", "d": "the highest power to rule"},
                   {"t": "equitable", "d": "fair"}, {"t": "unmolested", "d": "not interfered with"},
-                  {"t": "autonomous development", "d": "growing toward self-rule"},
+                  {"t": "autonomous development", "d": "growing on their own, without outside control"},
                   {"t": "covenants", "d": "formal agreements"}])]},
 
 "P13": P([
@@ -333,7 +333,7 @@ STIM = {
     "English text as published by the Chinese government, printed in John V. A. MacMurray, ed., Treaties and Agreements with and concerning China, 1894–1919, vol. 2 (New York, 1921); adapted",
     glossary=[{"t": "engages", "d": "promises"}, {"t": "assent", "d": "agreement"},
               {"t": "concessions", "d": "special rights granted to foreigners, such as to run railways or mines"},
-              {"t": "Shantung", "d": "Shandong, a province on China's northeast coast"},
+              {"t": "Shantung", "d": "Shandong, a province on China's east coast"},
               {"t": "Port Arthur and Dalny", "d": "two ports in southern Manchuria (today Lüshun and Dalian)"},
               {"t": "lease", "d": "an agreement to rent land for a set number of years"},
               {"t": "munitions of war", "d": "weapons and ammunition"},
@@ -344,7 +344,7 @@ STIM = {
     "The Fuehrer then stated: The aim of German policy is the security and the preservation of the nation, and its propagation. This is, consequently, a problem of space. … The German future is therefore dependent exclusively on the solution of the need for living space. …",
     "… Should the security of our food position be our foremost thought, then the space required for this can only be sought in Europe, but we will not copy liberal capitalist policies which rely on exploiting colonies. It is NOT a case of conquering people, but of conquering agriculturally useful space. It would also be more to the purpose to seek raw material producing territory in Europe directly adjoining the Reich and not overseas … .",
     "… The German question can be solved only by way of force, and this is never without risk."],
-    "Notes by Colonel Friedrich Hossbach, Adolf Hitler's military aide, on a secret meeting of Hitler with his war minister, his army, navy, and air force commanders, and his foreign minister, Berlin, November 5, 1937",
+    "Notes written on November 10, 1937, by Colonel Friedrich Hossbach, Adolf Hitler's military aide, on a secret meeting of Hitler with his war minister, his army, navy, and air force commanders, and his foreign minister, Berlin, November 5, 1937",
     "Translation by the U.S. prosecution staff, document 386-PS, in Nazi Conspiracy and Aggression, vol. 3 (Washington, D.C.: U.S. Government Printing Office, 1946); adapted",
     glossary=[{"t": "Fuehrer", "d": "\"leader,\" Hitler's title"},
               {"t": "Reich", "d": "the German state"},
@@ -370,13 +370,13 @@ STIM = {
     "The Central Government now announced its intention of gathering the two million or more Armenians living in the several sections of the empire and transporting them to this desolate and inhospitable region*. … The real purpose of the deportation was robbery and destruction; it really represented a new method of massacre. When the Turkish authorities gave the orders for these deportations, they were merely giving the death warrant to a whole race; they understood this well, and, in their conversations with me, they made no particular attempt to conceal the fact.",
     "All through the spring and summer of 1915 the deportations took place. … Scarcely a single Armenian, whatever his education or wealth, or whatever the social class to which he belonged, was exempted from the order. …",
     "… Undoubtedly religious fanaticism was an impelling motive with the Turkish and Kurdish rabble who slew Armenians … but the men who really conceived the crime had no such motive. … with them the one motive was cold-blooded, calculating state policy. The Armenians are not the only subject people in Turkey which have suffered from this policy of making Turkey exclusively the country of the Turks."],
-    "Henry Morgenthau, United States ambassador to the Ottoman Empire from 1913 to 1916, Ambassador Morgenthau's Story, published in New York in 1918",
+    "Henry Morgenthau, United States ambassador to the Ottoman Empire from 1913 to 1916, Ambassador Morgenthau's Story, written with the journalist Burton J. Hendrick and published in New York in 1918",
     "Adapted",
     footnotes=[{"mark": "*", "text": "the Syrian desert and the valley of the Euphrates River, in the south of the Ottoman Empire"}],
-    glossary=[{"t": "Young Turks", "d": "members of the Committee of Union and Progress, the party that led the Ottoman government in the 1910s"},
+    glossary=[{"t": "race", "d": "here, a people or ethnic group"}, {"t": "Young Turks", "d": "members of the Committee of Union and Progress, the party that led the Ottoman government in the 1910s"},
               {"t": "ingenuity", "d": "clever planning"},
               {"t": "injunction", "d": "order"},
-              {"t": "Abdul Hamid", "d": "Abdülhamid II, Ottoman sultan from 1876 to 1909, removed from power in 1909"},
+              {"t": "Abdul Hamid", "d": "Abdülhamid II, Ottoman sultan from 1876 to 1909, whose government carried out massacres of Armenians in the 1890s"},
               {"t": "\"Turkish democracy\"", "d": "Morgenthau's mocking name for the Young Turk government"},
               {"t": "inhospitable", "d": "harsh; hard to live in"},
               {"t": "exempted", "d": "excused"},
