@@ -1,4 +1,4 @@
-# AP World History: Modern — Unit 8 practice bank (v2026-11-08a)
+# AP World History: Modern — Unit 8 practice bank (v2026-11-08c)
 
 ## PRACTICE (48)
 
@@ -11,23 +11,23 @@
 II—Local self government for backward groups, deliberately rising as experience and knowledge grow to complete self government under the limitations of a self governed world
 … VI—The ancient common ownership of the land and its natural fruits and defence against the unrestrained greed of invested capital
 VII—The establishment under the League of Nations of an international institution for the study of Negro problems
-> * "Negro," "colored," and "backward groups" were common terms in the 1920s. The Congress used them for Africans and people of African descent and for colonized peoples.
+> * The source uses historical racial terms. "Negro" and "colored" are outdated terms. "Backward" and "civilized" reflect judgments that ranked peoples unequally; they are not neutral descriptions.
 — Manifesto adopted at the London session of the Second Pan-African Congress, a meeting of leaders from Africa, the Caribbean, the United States, and Europe that also met in Brussels and Paris, 1921 (As printed in The Crisis, the magazine of the National Association for the Advancement of Colored People (NAACP), November 1921; adapted)
 
 **U8-P01** [Topic 8.1 · LO A · Skill 4.A]  The manifesto was most likely written in response to which of the following?
 - (A) the Atlantic Charter's promise that peoples could choose their own form of government
-- (B) a League of Nations decision to end the mandates and free Germany's former colonies
+- (B) the May Fourth Movement, in which Chinese students protested the peace treaty's handover of Chinese land to Japan
 - (C) Italy's conquest of Ethiopia, which ended one of Africa's last independent states
-- (D) a peace settlement after the First World War that kept Africa under colonial rule
+- (D) a peace settlement after the First World War that maintained European colonial rule over most of Africa
 KEY: D. Explanation: After the First World War, the peace treaties handed Germany's colonies to Britain, France, and others as mandates. Africans and Asians who had hoped for more self-rule were let down. Meetings like the Pan-African Congress spoke out against this.
   - why not A: Roosevelt and Churchill issued the Atlantic Charter in 1941, twenty years after this manifesto.
-  - why not B: The League did not end the mandates. Britain, France, and others kept ruling them until after the Second World War.
+  - why not B: The May Fourth protests of 1919 answered the same peace treaty, but they were about China. The manifesto speaks for Africans and people of African descent.
   - why not C: Italy invaded Ethiopia in 1935, more than ten years after this manifesto.
   - hint: What had happened in world politics just a few years before 1921?
 
 **U8-P02** [Topic 8.1 · LO A · Skill 3.A]  Point II of the manifesto argues for
 - (A) a path that would lead colonized peoples step by step toward full self-government
-- (B) an armed revolt that would end colonial rule in Africa as soon as possible
+- (B) an armed revolt that would drive the colonial powers out of Africa as soon as possible
 - (C) the return of people of African descent in the Americas to a homeland in Africa
 - (D) League of Nations rule over Africa in place of rule by the colonial powers
 KEY: A. Explanation: Point II asks for local self-government that would grow "as experience and knowledge grow" until it became complete. Many early leaders hoped to reach self-rule through reform, a little at a time.
@@ -36,16 +36,16 @@ KEY: A. Explanation: Point II asks for local self-government that would grow "as
   - why not D: Point VII asks the League to set up a body to study problems, not to govern Africa.
   - hint: Reread point II slowly. What would come first, and what would come later?
 
-**U8-P03** [Topic 8.1 · LO A · Skill 5.B · Continuity and Change]  Hopes like those in the manifesto were most fully met in which period?
-- (A) the 1920s, when the League of Nations turned its mandates into independent states
-- (B) the Great Depression, when Britain and France could no longer afford their colonies and let them go
-- (C) the 1930s, when the League of Nations made the colonial powers hold elections in their African colonies
+**U8-P03** [Topic 8.1 · LO A · Skill 5.B · Continuity and Change]  The manifesto's demand for complete self-government was most widely realized in Africa during which period?
+- (A) the 1920s, when the League of Nations placed Germany's former colonies under British and French mandates
+- (B) the Great Depression, when falling prices for crops and minerals led to strikes in colonies in Africa and the Caribbean
+- (C) the 1930s, when the Négritude movement of African and Caribbean writers in Paris celebrated Black culture
 - (D) the decades after the Second World War, when most African colonies won independence
 KEY: D. Explanation: Hopes for self-rule were mostly let down after the First World War. After the Second World War, Britain and France were weaker, and movements against colonial rule grew. Ghana won independence in 1957, and 17 African countries became independent in 1960 alone.
-  - why not A: Few mandates became independent between the wars. Iraq, in 1932, was the main exception.
-  - why not B: Britain and France held on to their empires during the Depression and relied on them even more.
-  - why not C: The League had no power to make colonial powers hold elections, and few Africans could vote in the 1930s.
-  - hint: Check each choice against what you know about when Africa's colonies actually gained self-rule.
+  - why not A: The mandates kept these lands under outside rule, the opposite of what the manifesto wanted.
+  - why not B: The strikes showed anger at colonial rule, but they did not bring self-government.
+  - why not C: Négritude writers such as Léopold Senghor praised African culture, but no African colony won self-rule in the 1930s.
+  - hint: Check each choice: did colonies actually gain self-rule in that period?
 
 
 ### Source P2 (questions U8-P04–U8-P06)
@@ -72,10 +72,10 @@ KEY: A. Explanation: Kennan wanted Washington to understand why Soviet leaders a
 - (C) containment, which aimed to stop the spread of Soviet power and communism
 - (D) appeasement, which aimed to keep the peace by giving in to a rival's demands
 KEY: C. Explanation: In 1947 Kennan published his ideas in a magazine article. The Truman Doctrine and the Marshall Plan put containment into action. It guided U.S. policy for the rest of the Cold War.
-  - why not A: Détente came in the 1970s. Kennan's telegram called for firmness, not for easing tensions.
+  - why not A: Détente, an effort to ease Cold War tensions, came mainly in the late 1960s and 1970s. Kennan's telegram called for firmness.
   - why not B: Kennan argues that the United States must stay involved and resist Soviet power abroad.
   - why not D: Appeasement was the 1930s policy toward Hitler. Kennan says the Soviets respond to strength.
-  - hint: What did the United States try to do to Soviet power after 1947?
+  - hint: Think about when each policy was used and whom it was aimed at.
 
 **U8-P06** [Topic 8.2 · LO B · Skill 3.D]  Which of the following events would best support Kennan's claim that Soviet power "can easily withdraw … when strong resistance is encountered"?
 - (A) Soviet tanks crushed an uprising against communist rule in Hungary.
@@ -96,16 +96,16 @@ KEY: C. Explanation: The Soviets cut the roads and railways into West Berlin in 
 > … The initiative, I think, must come from Europe. … The program should be a joint one, agreed to by a number, if not all, European nations.
 — George C. Marshall, U.S. secretary of state, speech at Harvard University, Cambridge, Massachusetts, June 5, 1947 (As printed in the Department of State Bulletin, June 15, 1947; adapted)
 
-**U8-P07** [Topic 8.1 · LO A · Skill 4.B · Continuity and Change]  Marshall's description of Europe's economy is best understood in the context of
+**U8-P07** [Topic 8.1 · LO A · Skill 4.B]  Marshall's description of Europe's economy is best understood in the context of
 - (A) the Great Depression, which had left Europe's farmers and factories unable to sell their goods in the 1930s
 - (B) the damage done by the Second World War, which left the United States the strongest economy
 - (C) the founding of the European Economic Community, which had removed trade barriers in Europe
-- (D) Soviet reparations from Western Europe, which had stripped its factories of their machines
-KEY: B. Explanation: The war wrecked Europe's cities, factories, and trade. The United States came out of the war with its factories unharmed and the largest economy in the world. That is why Marshall says Europe needed goods "principally from America."
+- (D) the Allied occupation of Germany, during which the Soviets took factories and machines from their zone
+KEY: B. Explanation: The war wrecked Europe's cities, factories, and trade. Most U.S. factories came through the war intact, and the United States had the largest economy in the world. That is why Marshall says Europe needed goods "principally from America."
   - why not A: The Depression began in 1929. Marshall describes destroyed cities, factories, and railroads, which point to the war that had ended in 1945.
   - why not C: The European Economic Community was founded in 1957, ten years after this speech.
-  - why not D: The Soviets took factories and machines from their own zone of Germany, not from Western Europe.
-  - hint: What had ended two years before this speech?
+  - why not D: The Soviets took machines mainly from their own zone of Germany and received some from the western zones. Reparations alone do not explain the wider damage and broken trade that Marshall describes.
+  - hint: Which choice explains the destroyed cities, factories, and railroads that Marshall describes?
 
 **U8-P08** [Topic 8.2 · LO B · Skill 2.B]  Marshall's warning about "political parties … which seek to perpetuate human misery" most likely referred to
 - (A) fascist parties in Germany and Italy that were planning to return to power
@@ -113,143 +113,145 @@ KEY: B. Explanation: The war wrecked Europe's cities, factories, and trade. The 
 - (C) nationalist parties in Asia and Africa that wanted to end European rule
 - (D) Britain's Labour Party, which wanted the government to run key industries
 KEY: B. Explanation: Communist parties won large shares of the vote in France and Italy after the war. U.S. leaders feared that hunger and unemployment would help them take power. Aid was meant to remove that danger.
-  - why not A: Fascist parties had been defeated in the war and banned in Germany and Italy.
+  - why not A: Marshall's warning reflected U.S. concern about strong Communist parties in postwar Europe. The defeated wartime fascist regimes were not the main target of this warning.
   - why not C: Marshall is speaking about Europe's recovery, not about colonies in Asia and Africa.
   - why not D: Britain's Labour government welcomed Marshall's offer and received more aid than any other country.
-  - hint: Which political parties in Western Europe did U.S. leaders fear most in 1947?
+  - hint: Check each choice: was that party strong in Western Europe in 1947, and did U.S. leaders oppose it?
 
 **U8-P09** [Topic 8.3 · LO C · Skill 5.B · Causation]  The Soviet Union responded to the program Marshall proposed by
-- (A) accepting the aid for its own rebuilding while trying to block aid to Germany
-- (B) offering Western Europe a larger aid program of its own, paid for with Soviet oil and gold sales
-- (C) asking the United Nations to run the program so that more countries could share in it
+- (A) joining the International Monetary Fund and the World Bank to get Western loans for rebuilding
+- (B) offering loans and experts to newly independent states such as India and Egypt
+- (C) forming the Warsaw Pact, a military alliance with the communist states of Eastern Europe
 - (D) refusing the aid, keeping Eastern Europe out of it, and setting up its own economic council
 KEY: D. Explanation: Stalin saw the Marshall Plan as a way for the United States to gain influence in Europe. He made Poland and Czechoslovakia turn it down. In 1949 the Soviets set up the Council for Mutual Economic Assistance (Comecon) to tie Eastern Europe's economies to their own.
-  - why not A: Soviet leaders walked out of the planning talks in Paris in 1947 and took no aid.
-  - why not B: The Soviet Union was still rebuilding from the war. It gave no aid to Western Europe.
-  - why not C: The Soviets did not ask the UN to run the program. They called it a U.S. plan to control Europe.
-  - hint: Think about how Europe's economy came to be split between East and West after 1947.
+  - why not A: The Soviets helped plan these institutions in 1944, but they did not join them.
+  - why not B: Soviet aid to India and Egypt began in the mid-1950s. It was not an answer to aid for Europe.
+  - why not C: The Warsaw Pact came in 1955, after West Germany joined NATO. It was a military alliance, not an answer to economic aid.
+  - hint: Check the date of each choice. Which one came soon after 1947 and dealt with Europe's economy?
 
 
 ### Source P4 (questions U8-P10–U8-P12)
-> Two complex sets of factors have now basically altered this historical distribution of power. First, the defeat of Germany and Japan and the decline of the British and French Empires have interacted with the development of the United States and the Soviet Union in such a way that power has increasingly gravitated to these two centers. Second, the Soviet Union, unlike previous aspirants to hegemony, is animated by a new fanatic faith, antithetical to our own, and seeks to impose its absolute authority over the rest of the world. …
-> The assault on free institutions is world-wide now, and in the context of the present polarization of power a defeat of free institutions anywhere is a defeat everywhere. …
-> As for the policy of "containment", it is one which seeks by all means short of war to (1) block further expansion of Soviet power, (2) expose the falsities of Soviet pretensions, (3) induce a retraction of the Kremlin's control and influence and (4) in general, so foster the seeds of destruction within the Soviet system that the Kremlin is brought at least to the point of modifying its behavior to conform to generally accepted international standards. …
-> Without superior aggregate military strength, in being and readily mobilizable, a policy of "containment"—which is in effect a policy of calculated and gradual coercion—is no more than a policy of bluff.
-— "United States Objectives and Programs for National Security," a secret report by officials of the U.S. State and Defense Departments to the National Security Council, April 1950, known as NSC-68 (Printed in Foreign Relations of the United States, 1950, vol. I (Washington, D.C., 1977); adapted)
+> The Contracting Parties, … Taking into consideration, at the same time, the situation that has come about in Europe as a result of the ratification of the Paris Agreements, which provide for the constitution of a new military group in the form of a "West European Union", with the participation of a remilitarized West Germany and its inclusion in the North Atlantic bloc, thereby increasing the danger of a new war and creating a threat to the national security of peace-loving States; …
+> Article 4: In the event of an armed attack in Europe on one or more of the States Parties to the Treaty by any State or group of States, each State Party to the Treaty shall, in the exercise of the right of individual or collective self-defence, in accordance with Article 51 of the United Nations Charter, afford the State or States so attacked immediate assistance, individually and in agreement with the other States Parties to the Treaty, by all the means it considers necessary, including the use of armed force. …
+> Article 5: The Contracting Parties have agreed to establish a Unified Command, to which certain elements of their armed forces shall be allocated by agreement between the Parties, and which shall act in accordance with jointly established principles. …
+> Article 8: The Contracting Parties declare that they will act in a spirit of friendship and co-operation to promote the further development and strengthening of the economic and cultural ties among them, in accordance with the principles of respect for each other's independence and sovereignty and of non-intervention in each other's domestic affairs.
+— Treaty of Friendship, Co-operation and Mutual Assistance (the "Warsaw Pact"), signed by Albania, Bulgaria, Czechoslovakia, East Germany, Hungary, Poland, Romania, and the Soviet Union, Warsaw, Poland, May 14, 1955 (Translated from the Russian by the United Nations Secretariat and printed in the United Nations Treaty Series, vol. 219 (1955); adapted)
 
-**U8-P10** [Topic 8.2 · LO B · Skill 4.A]  NSC-68 was written in the context of
-- (A) the Soviet launch of Sputnik, the first satellite to orbit Earth
-- (B) the Soviet Union's first atomic bomb test and the Communist victory in China
-- (C) the Cuban Revolution, which put a communist government in power near the United States
-- (D) the building of the Berlin Wall, which closed the border between East and West Berlin
-KEY: B. Explanation: In 1949 the Soviets tested an atomic bomb, and Mao's Communists won the civil war in China. U.S. leaders felt the Cold War was going badly. NSC-68 called for a large buildup of American strength.
-  - why not A: Sputnik was launched in 1957, seven years after this report.
-  - why not C: Castro came to power in 1959.
-  - why not D: The Berlin Wall went up in 1961.
-  - hint: Which events of the year before the report made U.S. leaders feel the Cold War was going badly?
+**U8-P10** [Topic 8.1 · LO A · Skill 4.A]  The treaty's concern about a "remilitarized West Germany" is best understood in the context of
+- (A) the Treaty of Versailles, which had limited the size of Germany's army after the First World War
+- (B) Germany's invasion of the Soviet Union in the Second World War, in which more than 20 million Soviet people died
+- (C) the Marshall Plan, which sent American aid to rebuild West Germany's factories and cities
+- (D) the Berlin Wall, which East Germany built to stop its people from fleeing to the West
+KEY: B. Explanation: In 1941 Germany invaded the Soviet Union. More than 20 million Soviet people died, and Poland and other Eastern European lands were also devastated. Ten years after the war, the Soviets and their allies feared a rearmed Germany. West Germany joined NATO in May 1955, and the Soviet bloc signed this treaty about a week later.
+  - why not A: Versailles limited Germany's army in 1919. It does not explain why Germany's eastern neighbors feared a new German army in 1955.
+  - why not C: The Marshall Plan was economic aid. The treaty worries about German soldiers, not German factories.
+  - why not D: The Berlin Wall was built in 1961, six years after this treaty.
+  - hint: Ask why the Soviet Union and Poland in particular would fear a German army in 1955.
 
-**U8-P11** [Topic 8.3 · LO C · Skill 5.B · Causation]  The recommendations of NSC-68 led most directly to
-- (A) a cut in U.S. forces in Europe as the United States came to rely on the United Nations
-- (B) a large rise in U.S. military spending, especially after the Korean War began
-- (C) an agreement with the Soviet Union to limit the number of nuclear missiles on each side
-- (D) the end of U.S. economic aid to Western Europe in favor of aid to Latin America
-KEY: B. Explanation: Truman did not approve the plan at first because it was so costly. After North Korea invaded South Korea in June 1950, U.S. defense spending more than tripled.
-  - why not A: The report says containment without military strength is "a policy of bluff." U.S. forces in Europe grew.
-  - why not C: The first treaty limiting nuclear missiles came in 1972.
-  - why not D: Marshall Plan aid to Europe went on until 1952.
-  - hint: What does the report say containment needs so that it is not "a policy of bluff"?
+**U8-P11** [Topic 8.3 · LO C · Skill 3.D]  Which of the following later developments would most directly challenge the treaty's promise of "non-intervention in each other's domestic affairs"?
+- (A) In the 1960s Romania traded more with Western Europe and took its own positions on foreign affairs.
+- (B) In 1968 troops from the Soviet Union and several other member states invaded Czechoslovakia to end its reforms.
+- (C) In 1979 Soviet troops invaded Afghanistan to support its communist government.
+- (D) In 1984 the Soviet Union and most of its allies kept their athletes home from the Olympic Games in Los Angeles.
+KEY: B. Explanation: In 1968 Czechoslovakia's Communist leader, Alexander Dubček, allowed more free speech in the "Prague Spring." Soviet leaders feared the reforms would spread. Troops from the Soviet Union, Poland, Hungary, and Bulgaria invaded and ended them. Afterward the Soviets claimed a right to step in wherever communist rule was "threatened," an idea called the Brezhnev Doctrine.
+  - why not A: Romania's moves show a member acting on its own. They do not show other members interfering in its affairs.
+  - why not C: Afghanistan did not belong to the Warsaw Pact, so this promise among members did not cover it.
+  - why not D: The boycott was a joint protest against the United States. It was not an invasion of a member country.
+  - hint: Check each choice: was the country involved a member of the treaty, and did other countries step into its affairs?
 
-**U8-P12** [Topic 8.2 · LO B · Skill 2.C]  A historian studying the Soviet Union's real goals in 1950 would find NSC-68 limited because
-- (A) its authors were U.S. officials seeking a buildup, who may have made Soviet aims sound more alarming
-- (B) its authors had access to secret U.S. intelligence reports and diplomatic cables about the Soviet Union
-- (C) it was written in 1950, while the policies of the Cold War were still taking shape
-- (D) it explains in detail the reasoning behind U.S. plans for containment
-KEY: A. Explanation: NSC-68 shows how U.S. leaders saw the Soviet Union. It is weaker evidence of what Soviet leaders actually wanted. Its authors hoped to persuade Truman to spend much more on defense.
-  - why not B: Access to secret information is a strength of the source.
-  - why not C: Being written at the time helps show how U.S. leaders thought then. That is a strength.
-  - why not D: Detailed reasoning makes the source more useful for studying U.S. policy. That is a strength.
-  - hint: A limitation is a reason to be careful with a source. Which choice is a weakness rather than a strength?
+**U8-P12** [Topic 8.2 · LO B · Skill 2.C]  A historian studying how much freedom the Eastern European governments really had would find the treaty limited mainly because
+- (A) it calls the members equal partners and does not show the Soviet Union's control over them
+- (B) it was written by Western diplomats who wanted to make the Soviet bloc look aggressive and dangerous
+- (C) it was kept secret from the people of Eastern Europe, so it could not shape what they believed
+- (D) it was signed in 1991, after the alliance and the Soviet Union had already broken apart
+KEY: A. Explanation: A treaty states what governments promise in public. This one promises "respect for each other's independence." In fact, Soviet troops were based in several member states, and Moscow approved their leaders. The treaty's words cannot show that control. Records of what leaders did, such as the invasions of Hungary in 1956 and Czechoslovakia in 1968, tell that side.
+  - why not B: The attribution shows that the eight communist governments signed the treaty themselves.
+  - why not C: The treaty was published, and Poland registered it with the United Nations, which printed it.
+  - why not D: The attribution dates the treaty to May 1955. The alliance ended in 1991.
+  - hint: Think about who signed the treaty and what a treaty is meant to say in public.
 
 
 ### Source P5 (questions U8-P13–U8-P15)
-> Jen Pi-shih. During the past year or two, too many individuals during the agrarian reform have been purged and too many have been incorrectly classified. … The elimination of the feudal classes is a ruthless struggle. The backbone of the Communist movement is the poor peasants and the farm laborers. It is, however, necessary to unite with the middle peasants lest the poor be isolated and the revolution fail. …
-> It is necessary to eliminate rich peasants and landlords and to confiscate their surplus. It is also necessary to confiscate all property belonging to the landlords. But even landlords vary. Those landlords who voluntarily give up their property should not be subject to the judgment of mass meetings and should be given enough to maintain peasant status. Those who do not give up their property voluntarily should be ruthlessly destroyed. …
-> Mao Tze-tung. … Party work during the anti-Japanese war was basically correct, but its mistakes must now be corrected. The main objective now must be to increase production by renewed agrarian reform and purification of the Party. … The enemies to be overthrown are imperialism, feudalism, and bureaucratic capitalism. All three can be summed up in Chiang Kai-shek's Kuomintang. The demands of the masses must be satisfied. …
-— Summary by the U.S. embassy in Nanjing, China, of speeches by Ren Bishi (Jen Pi-shih), a top leader of the Chinese Communist Party, and by Mao Zedong (Mao Tze-tung), the party's chairman, as broadcast by the Communists' radio station in northern China in April and May 1948; sent by Ambassador John Leighton Stuart to the U.S. secretary of state, June 9, 1948 (Printed in Foreign Relations of the United States, 1948, vol. VII (Washington, D.C., 1973); adapted)
+> Article 1: The land ownership system of feudal exploitation by the landlord class shall be abolished and the system of peasant land ownership shall be introduced in order to set free the rural productive forces, develop agricultural production and thus pave the way for New China's industrialisation.
+> Article 2: The land, draught animals, farm implements and surplus grain of the landlords, and their surplus houses in the countryside shall be confiscated, but their other properties shall not be confiscated.
+> Article 6: Land owned by rich peasants and cultivated by themselves or by hired labour, and their other properties, shall be protected from infringement. …
+> Article 10: All land and other means of production thus confiscated and requisitioned, … shall be taken over by the hsiang peasants' association for unified, equitable and rational distribution to poor peasants who have little or no land and who have no other means of production. Landlords shall be given an equal share so that they can make their living by their own labour and thus reform themselves through labour.
+> Article 32: In the course of agrarian reform a people's tribunal shall be set up in every county to ensure that it is carried out. The tribunal shall travel to different places, to try and punish, according to law, hated despotic elements who have committed heinous crimes, whom the masses of the people demand to be brought to justice, … Indiscriminate arrest, beating or killing of people, corporal punishment and the like are strictly forbidden.
+— The Agrarian Reform Law of the People's Republic of China, issued by the Central People's Government, Beijing, June 30, 1950 (Official English translation published by the Foreign Languages Press, Peking (Beijing), 1950; adapted)
 
-**U8-P13** [Topic 8.4 · LO D · Skill 4.A]  The speeches summarized in the passage were given in the context of
-- (A) a civil war between the Communists and the Nationalists that resumed after Japan's defeat
-- (B) the Great Leap Forward, when the Communists organized peasants into large communes
-- (C) Japan's invasion of China, when the Communists and Nationalists formed a united front
-- (D) the Cultural Revolution, when Red Guards attacked teachers and party officials
-KEY: A. Explanation: After Japan gave up in 1945, Mao's Communists and Chiang Kai-shek's Nationalists went back to war. By 1948 the Communists were winning. They took power in 1949.
-  - why not B: The Great Leap Forward began in 1958, ten years after these speeches.
-  - why not C: Mao speaks of the anti-Japanese war as over. By 1948 the Communists were fighting Chiang's Nationalists.
-  - why not D: The Cultural Revolution began in 1966.
-  - hint: Reread Mao's part. What war does he say is over, and whom does he name as the enemy now?
+**U8-P13** [Topic 8.4 · LO D · Skill 4.A]  The law was issued in the context of
+- (A) the Communist Party's victory over the Nationalists in China's civil war
+- (B) the Long March, when Communist forces retreated across China to escape the Nationalist army
+- (C) the Hundred Flowers campaign, when the party briefly invited people to criticize its rule
+- (D) Japan's invasion of China, when the Communists and Nationalists formed a united front
+KEY: A. Explanation: After Japan's defeat in 1945, Mao's Communists and Chiang Kai-shek's Nationalists fought a civil war. The Communists won and founded the People's Republic of China in October 1949, and the Nationalists fled to Taiwan. This land law was one of the new government's first big laws.
+  - why not B: The Long March took place in 1934–1935, when the Communists held only small areas of China.
+  - why not C: The Hundred Flowers campaign came in 1956–1957, six years after this law.
+  - why not D: Japan invaded China in 1937. The war ended in 1945, five years before this law, and the united front had already broken down.
+  - hint: Look at the date of the law. Which choice describes events in China at that time?
 
-**U8-P14** [Topic 8.4 · LO E · Skill 5.B · Causation]  The land policy described helped the Communists come to power mainly by
-- (A) gaining the backing of landlords who wanted protection from Japanese troops
-- (B) persuading the United States to stop sending aid to the Nationalists
-- (C) winning the support of poor peasants, who made up most of China's people
-- (D) attracting foreign investors who hoped to buy farmland in northern China
-KEY: C. Explanation: Most Chinese were poor farmers. By giving them land taken from landlords, the Communists won recruits and support. The passage calls poor peasants "the backbone of the Communist movement."
-  - why not A: The passage says the Communists planned to take the landlords' property. Landlords were among their main enemies.
-  - why not B: The United States kept aiding the Nationalists, though its aid could not save them.
-  - why not D: The Communists opposed foreign investors and what they called "imperialism."
-  - hint: Which group in the countryside would gain the most from this policy?
+**U8-P14** [Topic 8.4 · LO D · Skill 5.B · Causation]  Land reform under this law most directly helped the new Communist government by
+- (A) paying landlords for their land with shares in state companies, as the Nationalists did on Taiwan
+- (B) creating large state-run farms like the collective farms of the Soviet Union
+- (C) winning the support of poor peasants and breaking the power of landlords in the villages
+- (D) gaining help from the United States, which wanted China's peasants to own their own land
+KEY: C. Explanation: Most Chinese were poor farmers. Giving them landlords' land won the new government their support, and village meetings broke the landlords' power. Although Article 32 forbids "indiscriminate … killing," land reform was often violent: at mass meetings many landlords were beaten or killed. Historians estimate that at least one million people died.
+  - why not A: Article 2 says the landlords' land was confiscated, not bought. The Nationalists' land reform on Taiwan in 1953 did pay landlords.
+  - why not B: Article 1 sets up "peasant land ownership," with land for each family. Collective farms came later in the 1950s.
+  - why not D: The United States backed land reform in Japan and Taiwan, but it did not aid Communist China, which it saw as an enemy.
+  - hint: Test each choice against Articles 1, 2, and 10. Which one matches what the law actually did?
 
-**U8-P15** [Topic 8.4 · LO E · Skill 5.A · Comparison]  The land policy described is most similar to which other development of the twentieth century?
-- (A) the seizure of land from large owners by Ethiopia's military government in the 1970s
-- (B) the enclosure of common lands by wealthy landowners in Britain
-- (C) the sale of state farms to private companies in Russia after the Soviet Union fell
-- (D) the purchase of plantation land by U.S. fruit companies in Central America
-KEY: A. Explanation: In 1975 Ethiopia's military government took over all farmland and ended the power of landlords. Mengistu Haile Mariam soon became its leader. Like the Chinese Communists, it took land from big owners in the name of the poor.
-  - why not B: Enclosure took place mainly in the 1700s and 1800s, and it put land into fewer hands.
-  - why not C: Selling state farms to private owners moved land out of state control, the opposite direction.
-  - why not D: Fruit companies gathered large amounts of land into a few hands. The Chinese Communists took land from big owners.
-  - hint: Look for another government that took land away from large owners.
+**U8-P15** [Topic 8.4 · LO E · Skill 5.A · Comparison]  The law's plan to give confiscated land to "poor peasants who have little or no land" is most similar to which other twentieth-century development?
+- (A) land reform after the Mexican Revolution, which broke up large estates and gave land to peasant villages
+- (B) the Green Revolution, which spread new high-yield seeds and chemical fertilizers to farmers in India and Mexico
+- (C) Stalin's collectivization, which forced Soviet peasants to give up their own plots and join large farms
+- (D) laws in South Africa that set aside most of the country's land for white farmers
+KEY: A. Explanation: After the Mexican Revolution, the 1917 constitution let the government break up large estates, called haciendas. In the 1930s President Lázaro Cárdenas gave millions of acres to peasant villages. Like the Chinese law, Mexico's reform took land from big owners and gave it to the poor.
+  - why not B: The Green Revolution raised harvests with new seeds and fertilizer. It did not take land from big owners.
+  - why not C: Collectivization took land away from peasant families. This law gave land to them.
+  - why not D: These laws took land from the Black majority for a white minority. This law gave land to the poor majority.
+  - hint: Reread what should happen to the landlords' property. Then ask what each choice did to who owned the land.
 
 
 ### Source P6 (questions U8-P16–U8-P18)
 > On June 17, 1952, a comprehensive agrarian reform program became law in Guatemala. Its professed objective is the development of a capitalistic agricultural economy through the abolition of semi-feudal owner-worker relationships, the redistribution of land, and the improvement with state assistance of cultivation methods. The implications of the legislation, however, go beyond agrarian reform inasmuch as its provisions furnish a basis for the strengthening of political and Communist control over the rural population.
 > Full implementation of the law would free thousands of agrarian workers from a centuries-old dependence upon the privileged landholding class, but would subject the majority, in all probability, to close control by the state. …
 > Administration forces undoubtedly envisage political benefits from the legislation. They are presumably anxious to break the control of the conservative anti-administration large landholders over the farm labor force in order to organize it behind the government. Advantages to the Communists are likely to be enhanced by the opportunity to extend the influence in farm areas … and through greater opportunities to attack the United Fruit Company. …
-> … Largest of these enterprises is the United Fruit Company which owns or leases some 450,000 acres possibly subject to expropriation.
+> … The extent to which land controlled by foreign agriculture corporations may be made available for redistribution is largely a matter of speculation. Largest of these enterprises is the United Fruit Company which owns or leases some 450,000 acres possibly subject to expropriation.
 — Intelligence report by the Office of Intelligence Research, U.S. Department of State, Washington, D.C., March 5, 1953, about a land law passed under Guatemala's elected president, Jacobo Árbenz (Printed in Foreign Relations of the United States, 1952–1954, Guatemala (Washington, D.C., 2003); adapted)
 
 **U8-P16** [Topic 8.4 · LO E · Skill 1.B]  The law described in the report is an example of
-- (A) efforts by Latin American governments to sell public land to foreign companies
-- (B) an attempt to bring back the hacienda system of Spain's colonial rule
+- (A) liberal reforms of the 1800s that sold church and village lands to private buyers
+- (B) the encomienda system, under which Spanish colonists were given the labor of Native Americans
 - (C) a land plan required by the Alliance for Progress to build farm cooperatives
 - (D) movements in Latin America to redistribute land, sometimes with socialist support
-KEY: D. Explanation: In much of Latin America, a few families and companies owned most of the good land. Leaders such as Árbenz in Guatemala, and later Castro in Cuba, took land from large estates and gave it to peasants.
-  - why not A: The law could take land from the United Fruit Company. It did not sell land to foreign firms.
-  - why not B: The law aimed to end "semi-feudal" ties between landowners and workers.
+KEY: D. Explanation: In much of Latin America, a few families and companies owned most of the good land. Árbenz's government set out to break up large estates and give unused land to peasants. Guatemala's small Communist Party supported the reform, but land redistribution did not by itself make Guatemala a Communist state.
+  - why not A: Those reforms moved land into private hands, often big estates. This law takes land from big estates.
+  - why not B: The encomienda system belonged to Spain's colonial rule in the 1500s. This law aimed to end "semi-feudal" ties between landowners and workers.
   - why not C: The Alliance for Progress began in 1961, nine years after this law.
   - hint: What does the law do with land owned by large estates?
 
-**U8-P17** [Topic 8.4 · LO E · Skill 2.B]  The report's concern that the law could strengthen "Communist control" most likely reflects
+**U8-P17** [Topic 8.2 · LO B · Skill 2.B]  The report's concern that the law could strengthen "Communist control" most likely reflects
 - (A) a hope among U.S. officials that breaking up large estates would make Guatemala more democratic and stable
-- (B) the Good Neighbor Policy, which led U.S. officials to avoid judging Latin American governments
-- (C) the views of Guatemala's peasants, who opposed the plan to redistribute land
+- (B) the Good Neighbor Policy's stated commitment to avoid military intervention in Latin America
+- (C) U.S. support for land reform in Japan, which American occupation officials carried out after the war
 - (D) a Cold War fear among U.S. officials that reforms nearby could open the door to Soviet influence
 KEY: D. Explanation: In the early 1950s, U.S. leaders saw communism as a worldwide threat. When Guatemala's government passed a land law backed by its small Communist Party, U.S. officials saw a danger close to home.
   - why not A: The report worries that the law puts workers under "close control by the state."
-  - why not B: The Good Neighbor Policy of the 1930s promised not to interfere in Latin America. By 1953, Cold War fears had taken its place.
-  - why not C: The report says the law would free workers from landlords. It does not report peasant opposition.
-  - hint: Think about who wrote the report and what worried that government most in 1953.
+  - why not B: The Good Neighbor Policy stressed nonintervention. This report shows how Cold War fears could conflict with that promise.
+  - why not C: The United States did back land reform in occupied Japan, but this report worries that Guatemala's reform would help Communists.
+  - hint: Check each choice against the words of the report and the year it was written.
 
 **U8-P18** [Topic 8.3 · LO C · Skill 5.B · Causation]  Concerns like those in the report contributed most directly to
-- (A) a U.S. invasion that made Guatemala a U.S. territory
-- (B) Soviet missile bases in Guatemala that led to a crisis with the United States
+- (A) the Bay of Pigs invasion, in which Cuban exiles trained by the CIA landed in Cuba
+- (B) the Roosevelt Corollary, under which the United States claimed the right to act as a police power in Latin America
 - (C) a CIA-backed overthrow of the Árbenz government
-- (D) a U.S. law requiring the United Fruit Company to give its land to Guatemalan peasants
-KEY: C. Explanation: In 1954 the CIA armed Guatemalan exiles led by Carlos Castillo Armas and ran a radio campaign against Árbenz. Árbenz resigned, and the new government gave land back to United Fruit. A long civil war later followed in Guatemala.
-  - why not A: U.S. troops did not invade. The CIA trained and armed a small force of exiles instead.
-  - why not B: The Soviets placed missiles in Cuba in 1962, not in Guatemala.
-  - why not D: The U.S. government backed the United Fruit Company's complaints. It did not force the company to give up land.
-  - hint: What did the United States do about governments it believed were leaning toward communism in the 1950s?
+- (D) the founding of the Organization of American States to settle disputes among countries in the Americas
+KEY: C. Explanation: In 1954 the CIA armed and trained Guatemalan exiles led by Carlos Castillo Armas, ran a propaganda radio station, and supplied planes that bombed targets in Guatemala. Árbenz resigned, Castillo Armas took power, and his government gave land back to United Fruit. A civil war followed from 1960 to 1996, in which about 200,000 people were killed or disappeared, most of them Maya.
+  - why not A: The Bay of Pigs invasion took place in Cuba in 1961. It did not grow out of a 1953 report on Guatemala.
+  - why not B: The Roosevelt Corollary dates from 1904, long before this 1953 report.
+  - why not D: The OAS was founded in 1948, five years before this report.
+  - hint: Check each choice: did it happen in Guatemala, and did it come after 1953?
 
 
 ### Source P7 (questions U8-P19–U8-P21)
@@ -259,36 +261,36 @@ Description: A black-and-white photograph taken from a low-flying airplane, look
 
 **U8-P19** [Topic 8.3 · LO C · Skill 4.A]  The photograph was taken in the context of
 - (A) the Bay of Pigs invasion, when Cuban exiles trained by the CIA landed in Cuba
-- (B) a U.S. search for the camps of Castro's rebels fighting the Batista dictatorship
+- (B) the U-2 incident, when the Soviets shot down an American spy plane over the Soviet Union
 - (C) a crisis that began when U.S. planes found Soviet nuclear missile bases being built in Cuba
-- (D) an inspection of Cuba's military bases by United Nations teams that Castro had invited
+- (D) the Cuban Revolution, when Castro's rebels overthrew the dictator Fulgencio Batista
 KEY: C. Explanation: In October 1962, U.S. spy planes photographed Soviet missile sites in Cuba. Kennedy demanded that the missiles be removed and used the navy to stop new weapons shipments. Flights like this one later checked that the sites were being taken apart.
   - why not A: The Bay of Pigs invasion was in April 1961. The labels point to missile launch sites, not an invasion.
-  - why not B: Castro's rebels won in January 1959. They had no missile launch positions or fuel trailers.
-  - why not D: Castro refused to let UN inspectors into Cuba, so the United States checked the sites from the air.
-  - hint: Look at the date and the labels. What were U.S. analysts looking for in Cuba in late 1962?
+  - why not B: The U-2 was shot down over the Soviet Union in 1960. This photograph shows Cuba in 1962.
+  - why not D: Castro's rebels won in January 1959. Cuba's Soviet nuclear missile sites were built later.
+  - hint: Look at the date and the labels. Which choice fits both?
 
 **U8-P20** [Topic 8.3 · LO C · Skill 2.B]  Labels on the photograph such as "former launch positions" were most likely added in order to
-- (A) show the United Nations that Cuba had let its inspectors visit the missile site
+- (A) prove to the United Nations that the Soviets had secretly placed missiles in Cuba
 - (B) record the damage that U.S. air strikes had done to the missile site during the crisis
-- (C) teach U.S. soldiers how to build missile launch sites of their own
+- (C) help plan U.S. air strikes against the missiles, which some of Kennedy's advisers had urged
 - (D) help U.S. leaders check that the Soviets were taking the missile site apart
 KEY: D. Explanation: On October 28 Khrushchev agreed to remove the missiles. Castro would not let UN inspectors into Cuba, so U.S. planes kept taking pictures. Labels such as "former launch positions" helped leaders see that the missiles were being removed.
-  - why not A: Castro refused to let UN inspectors visit. The photograph was taken from a U.S. plane.
-  - why not B: The United States did not bomb the sites. The word "former" shows that the Soviets themselves were removing the equipment.
-  - why not C: The United States already had its own missiles. The labels point out Soviet equipment in Cuba.
-  - hint: Look at the date on the photograph. What had Khrushchev agreed to a few days earlier?
+  - why not A: U.S. officials did show photos at the UN in October 1962 to prove the missiles were there. But this photo is dated November 1 and labels "former" launch positions, so it shows the missiles leaving.
+  - why not B: The United States did not carry out the proposed air strikes. Taken after the October 28 agreement, this photograph was used to check the removal of Soviet missiles.
+  - why not C: Some advisers urged air strikes in October. By November 1 Khrushchev had agreed to remove the missiles, and the labels show where missiles used to be.
+  - hint: Look closely at the word "former" in the labels and at the date. What was happening to the site?
 
 **U8-P21** [Topic 8.3 · LO C · Skill 1.B]  The missile site in the photograph is evidence of which effect of the Cold War?
-- (A) the spread of nuclear weapons and superpower rivalry into the Western Hemisphere
-- (B) the end of the arms race between the superpowers after the Korean War
-- (C) a shift in Soviet aid away from Cuba toward the countries of Western Europe
-- (D) a lasting drop in tensions between the superpowers after Stalin's death
-KEY: A. Explanation: The Cold War spread far from Europe. By putting missiles in Cuba, the Soviets brought nuclear weapons about 90 miles from the United States. The crisis was the closest the superpowers came to nuclear war.
-  - why not B: The arms race went on for decades after the Korean War ended in 1953.
-  - why not C: The Soviet Union aided Cuba for decades. It did not aid Western Europe, which was allied with the United States.
-  - why not D: After Stalin died there were short thaws, but crises like this one show that tensions stayed high.
-  - hint: Where is Cuba, and what kind of weapons were these sites built for?
+- (A) the deployment of Soviet nuclear weapons in the Caribbean as part of the superpower arms race
+- (B) the founding of NATO and the Warsaw Pact as rival alliances in Europe
+- (C) the use of local fighters, such as Cuban exiles, to fight the superpowers' battles in Latin America
+- (D) a thaw in relations between the superpowers after Stalin's death in 1953
+KEY: A. Explanation: In 1962 the Soviet Union placed nuclear missiles in Cuba, close to the United States. This brought the arms race to the Caribbean and created one of the most dangerous crises of the Cold War.
+  - why not B: These alliances were real, but they were in Europe. The photograph shows missiles in Cuba.
+  - why not C: The CIA did use Cuban exiles at the Bay of Pigs in 1961, but this photo shows a Soviet missile site, not exile fighters.
+  - why not D: There was a short thaw after Stalin died, but this missile site shows a dangerous crisis, not a thaw.
+  - hint: Think about where Cuba is and what the labels say was kept at the site.
 
 
 ### Source P8 (questions U8-P22–U8-P24)
@@ -299,15 +301,15 @@ KEY: A. Explanation: The Cold War spread far from Europe. By putting missiles in
 — Mohandas K. Gandhi, statement to the court at his trial for sedition, Ahmedabad, India, March 18, 1922 (As printed in Young India, 1919–1922, by Mahatma Gandhi, second edition (Madras: S. Ganesan, 1924); adapted)
 
 **U8-P22** [Topic 8.5 · LO F · Skill 4.A]  Gandhi made this statement in the context of
-- (A) the Quit India movement, when Congress demanded that Britain leave India during the Second World War
+- (A) the Quit India movement, when Congress demanded that Britain leave India at once during the Second World War
 - (B) the partition of British India into the separate states of India and Pakistan
 - (C) the Sepoy Rebellion, when Indian soldiers rose up against the East India Company
-- (D) a campaign of non-cooperation that the Indian National Congress led against British rule
+- (D) a mass campaign in which Indians boycotted British courts, schools, and cloth to protest British rule
 KEY: D. Explanation: After the Amritsar massacre of 1919, Gandhi and the Congress asked Indians to stop using British courts, schools, and cloth. In 1922 a crowd killed policemen in the village of Chauri Chaura. Gandhi stopped the campaign, and soon after he was arrested.
   - why not A: The Quit India movement began in 1942, twenty years after this trial.
   - why not B: Partition took place in 1947, twenty-five years later.
   - why not C: The Sepoy Rebellion took place in 1857, long before Gandhi's public life began.
-  - hint: Gandhi uses the word "Non-co-operation." What was he leading Indians to do in the early 1920s?
+  - hint: Look at the date of the trial. Which choice describes events in India in the early 1920s?
 
 **U8-P23** [Topic 8.7 · LO I · Skill 3.A]  Which of the following best states Gandhi's main argument in the last paragraph?
 - (A) People should refuse to support unjust rule, but without violence and while accepting punishment.
@@ -323,64 +325,68 @@ KEY: A. Explanation: Gandhi says non-cooperation with evil is a duty. But he say
 **U8-P24** [Topic 8.7 · LO I · Skill 5.A · Comparison]  Gandhi's methods are most similar to those of
 - (A) Ho Chi Minh's Viet Minh in the war against French rule in Vietnam
 - (B) Martin Luther King Jr. in the civil rights movement in the United States
-- (C) the Mau Mau fighters in the uprising against British rule in Kenya
+- (C) the Mau Mau fighters who rose up against British rule in Kenya in the 1950s
 - (D) the National Liberation Front (FLN) in Algeria's fight against France
 KEY: B. Explanation: King studied Gandhi's ideas. Like Gandhi, he led boycotts and marches, refused to use violence, and was willing to go to jail. For many years Nelson Mandela's African National Congress also used nonviolent protest.
   - why not A: The Viet Minh fought a guerrilla war against the French from 1946 to 1954.
   - why not C: The Mau Mau used armed attacks in the 1950s, and the British answered with harsh force.
   - why not D: The FLN fought an eight-year war against France.
-  - hint: Look for a leader who used marches and boycotts and refused to fight back.
+  - hint: Think about how each leader or group fought for change. Which one matches what Gandhi says about violence?
 
 
 ### Source P9 (questions U8-P25–U8-P27)
-> French prestige and influence in North Africa are decreasing at an alarming rate. This is due to a number of causes:
-> A. The perpetuation of the Algerian war which is poisoning the atmosphere of all of North Africa from Morocco to Libya and is now beginning to reach down into Mauretania in French West Africa.
-> B. French failure to behave in their relations with Morocco and Tunisia in accordance with the requirements of the independence of those countries. …
-> C. The growing belief of many in North Africa that France cannot over a long period marshall sufficient strength to win a military victory in North Africa and that they can therefore afford to hold out for a solution of the Algerian problem which will assure either immediate independence or independence within the foreseeable future. …
-> [Recommendation:] That the United States Government move as rapidly as possible to assure the continued pro-Western orientation and moderate nature of the Governments of North Africa by cementing our own relations with those countries. To this end, the United States should: … Avoid any identification with repressive features of French policies in Algeria … .
-> … We should be sensitive to the fact that new states will be emerging from among the present dependent territories in Africa. … We must look most carefully at our information output which, I suspect, is by no means as effective as that being disseminated by the Communists.
-— Richard Nixon, vice president of the United States, report to President Dwight D. Eisenhower on his trip to Africa, February 28–March 21, 1957, dated April 5, 1957 (Printed in Foreign Relations of the United States, 1955–1957, vol. XVIII (Washington, D.C., 1989); adapted)
+**Source 1**
+> An Act to make provision for, and in connection with, the attainment by the Gold Coast of fully responsible status within the British Commonwealth of Nations. …
+> 1. The territories included immediately before the appointed day in the Gold Coast … shall as from that day together form part of Her Majesty's dominions under the name of Ghana, and— (a) no Act of the Parliament of the United Kingdom passed on or after the appointed day shall extend, or be deemed to extend, to Ghana as part of the law of Ghana, unless it is expressly declared in that Act that the Parliament of Ghana has requested, and consented to, the enactment thereof; (b) as from the appointed day, Her Majesty's Government in the United Kingdom shall have no responsibility for the government of Ghana or any part thereof; …
+— Ghana Independence Act, 1957, passed by the Parliament of the United Kingdom, London, February 7, 1957 (Contains public sector information licensed under the Open Government Licence v3.0 (legislation.gov.uk, The National Archives); adapted)
+**Source 2**
+> The General Assembly, … Believing that the process of liberation is irresistible and irreversible and that, in order to avoid serious crises, an end must be put to colonialism and all practices of segregation and discrimination associated therewith,
+> Welcoming the emergence in recent years of a large number of dependent territories into freedom and independence, …
+> Solemnly proclaims the necessity of bringing to a speedy and unconditional end colonialism in all its forms and manifestations; … Declares that:
+> 1. The subjection of peoples to alien subjugation, domination and exploitation constitutes a denial of fundamental human rights, is contrary to the Charter of the United Nations and is an impediment to the promotion of world peace and co-operation. …
+> 3. Inadequacy of political, economic, social or educational preparedness should never serve as a pretext for delaying independence. …
+— United Nations General Assembly, Resolution 1514, "Declaration on the Granting of Independence to Colonial Countries and Peoples," New York, December 14, 1960 (From the Official Records of the General Assembly, Fifteenth Session (United Nations); adapted)
 
-**U8-P25** [Topic 8.5 · LO F · Skill 1.B]  The "Algerian war" in the report refers to
-- (A) a war between Algeria and Morocco over the border between them
-- (B) a French war to stop an Egyptian invasion of North Africa
-- (C) the armed struggle of Algerian nationalists for independence from France
-- (D) a civil war between Algeria's Communist and anti-Communist parties
-KEY: C. Explanation: In 1954 Algeria's National Liberation Front (FLN) began a war for independence. France had ruled Algeria since 1830, and about a million European settlers lived there. The war lasted until 1962.
-  - why not A: Algeria and Morocco did fight a short border war, but in 1963, after Algeria won independence.
-  - why not B: Egypt did not invade North Africa. Nasser backed the Algerian rebels with weapons and radio broadcasts.
-  - why not D: The war was fought between Algerian nationalists and France.
-  - hint: Who ruled Algeria in 1957, and who was fighting them?
+**U8-P25** [Topic 8.5 · LO F · Skill 4.A]  Source 1 was passed in the context of
+- (A) the Mau Mau uprising, in which Kikuyu fighters attacked British settlers and officials in Kenya
+- (B) a war in Algeria, where nationalists fought to drive out French rule and French settlers
+- (C) a nationalist campaign led by Kwame Nkrumah, whose party won elections in the Gold Coast in the 1950s
+- (D) the Berlin Conference, at which European powers agreed on rules for dividing up Africa
+KEY: C. Explanation: In 1949 Kwame Nkrumah founded the Convention People's Party, which led strikes and boycotts against British rule. His party won elections in 1951, 1954, and 1956, and Britain agreed to independence. On March 6, 1957, the Gold Coast became Ghana, one of the first African colonies south of the Sahara to win independence.
+  - why not A: The Mau Mau uprising took place in Kenya, in East Africa. Source 1 is about the Gold Coast, in West Africa.
+  - why not B: The war in Algeria was fought against France. Source 1 is a British law about the Gold Coast.
+  - why not D: The Berlin Conference met in 1884–1885, when Europeans were taking over Africa, not giving it up.
+  - hint: Look at the colony named in Source 1 and the date. Which choice describes events in that colony?
 
-**U8-P26** [Topic 8.5 · LO F · Skill 5.A · Comparison]  Compared with Algeria, Morocco and Tunisia
-- (A) won independence after their armies defeated French forces in several large battles
-- (B) won independence with the help of Soviet troops and weapons
-- (C) gained independence mainly through negotiations with France, without a long war
-- (D) joined Egypt in a single North African state after independence
-KEY: C. Explanation: France gave up its rule in Morocco and Tunisia in 1956 after talks and some unrest. Algeria was different. Many French people saw it as part of France itself, so France fought a long war to keep it.
-  - why not A: There were no large battles. France agreed to their independence in 1956.
-  - why not B: No Soviet troops took part. Both countries leaned toward the West.
-  - why not D: Egypt and Syria formed a union in 1958, but Morocco and Tunisia did not join any union.
-  - hint: Algeria won independence through war. How did its neighbors get theirs?
+**U8-P26** [Topic 8.5 · LO F · Skill 3.C · Comparison]  Which of the following best describes a difference between the two sources?
+- (A) Source 1 was adopted by an international organization, while Source 2 was passed by a national parliament.
+- (B) Source 1 calls colonial rule a denial of human rights, while Source 2 praises colonial powers for preparing their colonies.
+- (C) Source 1 gives independence to one colony through a law of the ruling power, while Source 2 demands it for colonial peoples everywhere.
+- (D) Source 1 describes an armed revolt against Britain, while Source 2 describes a peaceful transfer of power in Ghana.
+KEY: C. Explanation: Britain decided when and how the Gold Coast became Ghana, through an act of its own Parliament. By 1960 many Asian and African states in the UN wanted faster change everywhere. Source 2 says that a colony's lack of "preparedness" should not be used as an excuse to delay independence.
+  - why not A: This reverses them. Britain's Parliament passed Source 1, and the UN General Assembly adopted Source 2.
+  - why not B: Source 1 says nothing about human rights. It is Source 2 that calls colonial rule "a denial of fundamental human rights."
+  - why not D: Source 1 describes no revolt; it is a law about handing over power. Source 2 does not mention Ghana.
+  - hint: Check each choice against both sources. Who passed each one, and how many places does each cover?
 
-**U8-P27** [Topic 8.2 · LO B · Skill 2.B]  Nixon's advice that the United States "avoid any identification with repressive features of French policies in Algeria" most likely reflects
-- (A) a worry that backing colonial rule would push new nations toward communism
-- (B) a U.S. plan to take France's place as the main foreign power ruling Algeria
-- (C) a U.S. decision to leave NATO because of France's war in Algeria
-- (D) a belief among U.S. leaders that France would quickly win the war
-KEY: A. Explanation: U.S. leaders were caught between two goals. France was a NATO ally, but backing its harsh war could anger Africans and Arabs. Nixon worried that the Communists' message was reaching Africans better than America's.
-  - why not B: The United States did not seek colonies in Africa. Nixon wanted friendly ties with new states.
-  - why not C: The United States stayed in NATO, and France remained its ally.
-  - why not D: The report warns that many North Africans believe France cannot win.
-  - hint: Nixon mentions the Communists at the end. How does that connect to his advice about France?
+**U8-P27** [Topic 8.5 · LO F · Skill 3.D]  Which of the following developments would best support Source 2's belief that "the process of liberation is irresistible"?
+- (A) In 1974–1975, after long wars, Portugal gave up Angola, Mozambique, and its other African colonies.
+- (B) In 1965 the white-minority government of Rhodesia broke away from Britain to keep the Black majority out of power.
+- (C) South Africa kept control of Namibia until 1990, long after the United Nations ended its right to rule there.
+- (D) Britain kept Bermuda, whose voters turned down independence in a 1995 vote.
+KEY: A. Explanation: Portugal fought independence movements in Angola, Guinea-Bissau, and Mozambique from 1961 to 1974. The wars helped cause a revolution in Portugal in 1974, and the new government gave up the colonies. Even the European power that held on longest could not stop independence, which fits Source 2's belief.
+  - why not B: Rhodesia's white government held on until 1980. That shows resistance to majority rule, not liberation sweeping forward.
+  - why not C: South Africa held on to Namibia for more than twenty years after the UN ended its mandate in 1966. That shows liberation could be resisted.
+  - why not D: Bermuda's people chose to stay tied to Britain. That does not show colonial rule being swept away.
+  - hint: For each choice, decide whether colonial rule is ending or holding on.
 
 
 ### Source P10 (questions U8-P28–U8-P30)
 **Source 1**
-> In Korea the Government forces, which were armed to prevent border raids and to preserve internal security, were attacked by invading forces from North Korea. The Security Council of the United Nations called upon the invading troops to cease hostilities and to withdraw to the 38th parallel. This they have not done, but on the contrary have pressed the attack. … In these circumstances I have ordered United States air and sea forces to give the Korean Government troops cover and support.
-> The attack upon Korea makes it plain beyond all doubt that communism has passed beyond the use of subversion to conquer independent nations and will now use armed invasion and war. …
-> I have similarly directed acceleration in the furnishing of military assistance to the forces of France and the Associated States in Indochina and the dispatch of a military mission to provide close working relations with those forces.
-— Harry S. Truman, president of the United States, statement on the situation in Korea, June 27, 1950 (From Public Papers of the Presidents of the United States: Harry S. Truman, 1950; adapted)
+> [Resolution 82, June 25, 1950] The Security Council, … Noting with grave concern the armed attack on the Republic of Korea by forces from North Korea, Determines that this action constitutes a breach of the peace; and … Calls upon the authorities in North Korea to withdraw forthwith their armed forces to the 38th parallel; …
+> [Resolution 83, June 27, 1950] The Security Council, … Having noted from the report of the United Nations Commission on Korea that the authorities in North Korea have neither ceased hostilities nor withdrawn their armed forces to the 38th parallel, and that urgent military measures are required to restore international peace and security, … Recommends that the Members of the United Nations furnish such assistance to the Republic of Korea as may be necessary to repel the armed attack and to restore international peace and security in the area.
+> [Note on the vote on Resolution 83] Adopted … by 7 votes to 1 (Yugoslavia). … Two members (Egypt, India) did not participate in the voting; one member (Union of Soviet Socialist Republics) was absent.
+— United Nations Security Council, Resolutions 82 and 83, adopted at Lake Success, New York, June 25 and June 27, 1950, with the note on the vote from the Council's official record (From Resolutions and Decisions of the Security Council, 1950, Official Records (United Nations); adapted)
 **Source 2**
 > I'm speaking of Nicaragua, a Soviet ally on the American mainland only 2 hours' flying time from our own borders. With over a billion dollars in Soviet-bloc aid, the Communist government of Nicaragua has launched a campaign to subvert and topple its democratic neighbors. …
 > The United States Congress has before it a proposal to help stop this threat. The legislation is an aid package of $100 million for the more than 20,000 freedom fighters struggling to bring democracy to their country and eliminate this Communist menace at its source. …
@@ -389,48 +395,48 @@ KEY: A. Explanation: U.S. leaders were caught between two goals. France was a NA
 — Ronald Reagan, president of the United States, address to the nation on the situation in Nicaragua, broadcast on radio and television, March 16, 1986 (From Public Papers of the Presidents of the United States: Ronald Reagan, 1986; adapted)
 
 **U8-P28** [Topic 8.9 · LO K · Skill 3.C · Comparison]  Which of the following best describes a similarity between the two sources?
-- (A) Both ask Congress to declare war on the Soviet Union and its allies in Asia and Latin America.
-- (B) Both describe conflicts that began when Soviet troops invaded a neighboring country.
-- (C) Both treat a conflict in a small country as part of a global struggle against communism.
-- (D) Both call on the United Nations to send peacekeepers to end the fighting.
-KEY: C. Explanation: Truman says the attack shows that communism will now "use armed invasion and war." Reagan calls Nicaragua "a Soviet ally." Both linked a local fight to the global contest with the Soviet Union, one in Asia and one in the Americas.
-  - why not A: Neither president asks for a declaration of war. Truman sends air and sea forces; Reagan asks for aid.
-  - why not B: Truman describes an invasion by North Korea. Reagan says Nicaragua receives Soviet-bloc aid, not Soviet troops.
-  - why not D: Truman mentions the Security Council's call to stop fighting, but neither president asks for peacekeepers.
-  - hint: What larger danger does each president say the local conflict is part of?
+- (A) Both describe the fighting as part of a worldwide struggle against communism.
+- (B) Both were approved by a vote of the members of an international organization.
+- (C) Both ask outsiders to help one side in a conflict to protect the peace of the region around it.
+- (D) Both ask the U.S. Congress to send money to fighters who oppose their own government.
+KEY: C. Explanation: The Security Council asked UN members to help South Korea "repel the armed attack" and restore peace "in the area." Reagan asked Congress to help rebels stop a government that, he said, threatened "its democratic neighbors." One conflict was in Asia and one in the Americas, but in both, outside powers backed one side in a local war.
+  - why not A: Reagan calls Nicaragua's government a "Communist menace," but the resolutions do not mention communism.
+  - why not B: The resolutions were adopted by votes in the Security Council. Reagan's speech was his own appeal to Americans.
+  - why not D: Reagan asks Congress for $100 million for the rebels. The resolutions ask UN members to help South Korea's government.
+  - hint: Check each choice against both sources. A similarity must be true of Source 1 and of Source 2.
 
-**U8-P29** [Topic 8.3 · LO C · Skill 3.C · Comparison]  Which of the following best describes a difference between the two sources?
-- (A) Truman acts without the United Nations, while Reagan relies on a vote of the Security Council.
-- (B) Truman sends U.S. forces to fight, while Reagan seeks aid for local fighters and rules out U.S. troops.
-- (C) Truman opposes communism in Asia, while Reagan is willing to accept a communist government in Central America.
-- (D) Truman asks Congress for money, while Reagan orders the navy to blockade Nicaragua.
-KEY: B. Explanation: In Korea, U.S. forces fought for three years. In Nicaragua, the United States armed the rebels known as the Contras but did not send troops. Supporting local fighters was one way the superpowers avoided fighting each other directly.
-  - why not A: Truman points to the Security Council's call. Reagan asks Congress, not the UN.
-  - why not C: Reagan opposes Nicaragua's Communist government.
-  - why not D: It is Reagan who asks Congress for $100 million. Truman orders air and sea forces into action.
-  - hint: Who would do the fighting in each case?
+**U8-P29** [Topic 8.2 · LO B · Skill 4.A]  The absence of the Soviet Union noted at the end of Source 1 is best explained by
+- (A) the "Uniting for Peace" resolution, which let the General Assembly act when the Security Council was blocked
+- (B) a Soviet boycott of the Security Council to protest that Nationalist China, not Communist China, held China's seat
+- (C) the Soviet Union's decision to leave the United Nations, as Germany and Japan had left the League of Nations
+- (D) Stalin's death, which left Soviet diplomats without orders from Moscow
+KEY: B. Explanation: In January 1950 the Soviet delegate walked out of the Security Council. The Soviets demanded that Mao's new government take China's seat, which Chiang Kai-shek's Nationalist government still held. Because the Soviets were absent, they could not veto the resolutions on Korea. They returned in August 1950.
+  - why not A: The General Assembly passed "Uniting for Peace" in November 1950, months after these votes, after the Soviets had come back to the Council.
+  - why not C: Germany and Japan did leave the League in 1933, but the Soviet Union stayed in the United Nations throughout the Cold War.
+  - why not D: Stalin died in 1953, three years after these resolutions.
+  - hint: Check the date of each choice against June 1950.
 
-**U8-P30** [Topic 8.3 · LO C · Skill 4.B · Continuity and Change]  Reagan's statement "I'm not talking about American troops" is best understood in the context of
-- (A) a law passed after the Korean War that banned U.S. troops from the Western Hemisphere
+**U8-P30** [Topic 8.3 · LO C · Skill 4.B]  Reagan's statement "I'm not talking about American troops" is best understood in the context of
+- (A) debates in Congress over the cost of keeping U.S. forces stationed in Western Europe
 - (B) Americans' unwillingness to send troops abroad after the long war in Vietnam
-- (C) a Soviet promise to pull its own forces out of Nicaragua
-- (D) the end of the Cold War, which made U.S. troops unnecessary in Latin America
-KEY: B. Explanation: More than 58,000 Americans died in Vietnam, and the war divided the country. Afterward, many Americans opposed sending troops into faraway civil wars. Leaders often sent money and weapons instead.
-  - why not A: No such law existed. U.S. troops entered Grenada in 1983 and Panama in 1989.
-  - why not C: Reagan says Soviet-bloc aid was still flowing to Nicaragua.
-  - why not D: In 1986 the Cold War had not yet ended. Reagan calls Nicaragua a Soviet ally.
-  - hint: Think about what happened the last time the United States sent a large army to fight communism in a civil war.
+- (C) efforts to negotiate limits on nuclear weapons deployed in Europe
+- (D) efforts to expand trade and diplomatic ties with Communist China
+KEY: B. Explanation: The Vietnam War caused heavy losses and deep divisions in the United States. More than 58,000 Americans died. Afterward, many Americans feared another long ground war, so Reagan stressed aid to local fighters instead of U.S. troops.
+  - why not A: Debates over troops in Europe were about NATO's costs, not about sending soldiers to fight in Central America.
+  - why not C: Arms talks in Europe concerned nuclear missiles, not ground troops in Nicaragua.
+  - why not D: Ties with China grew from the 1970s, but they had nothing to do with sending troops to Central America.
+  - hint: Look at the date of the speech. What had Americans lived through in the 1960s and 1970s that shaped how they felt about sending troops?
 
 
 ### Source P11 (questions U8-P31–U8-P33)
-**People Living in the United States Who Were Born in Selected Countries, 1960–2000**
+**Foreign-Born U.S. Residents by Selected Place of Birth, 1960–2000**
 | Country of birth | 1960 | 1970 | 1980 | 1990 | 2000 |
 |---|---|---|---|---|---|
 | Philippines | 104,843 | 184,842 | 501,440 | 912,674 | 1,369,070 |
 | Cuba | 79,150 | 439,048 | 607,814 | 736,971 | 872,716 |
 | Korea | 11,171 | 38,711 | 289,885 | 568,397 | 864,125 |
 | Vietnam | not available | not available | 231,120 | 543,262 | 988,174 |
-Figures come from the U.S. census, which is taken every ten years. "Korea" includes North and South Korea. The census tables do not give a separate count of people born in Vietnam for 1960 and 1970.
+Figures come from the U.S. census, which is taken every ten years. "Foreign-born" means people who were not U.S. citizens at birth. The figures count residents at each census, not people arriving during that decade; they include naturalized citizens and leave out U.S.-born children. "Korea" includes North and South Korea. This table gives no separate Vietnam figure for 1960 or 1970; those cells do not mean zero.
 Source: Campbell Gibson and Kay Jung, Historical Census Statistics on the Foreign-Born Population of the United States: 1850 to 2000, Population Division Working Paper No. 81 (Washington, D.C.: U.S. Census Bureau, 2006), Table 3
 
 **U8-P31** [Topic 8.6 · LO H · Skill 3.A]  Which of the following conclusions is best supported by the table?
@@ -442,117 +448,124 @@ KEY: D. Explanation: Ten times 104,843 is about 1 million. By 2000 there were 1,
   - why not A: In both 1980 and 1990 the Korean-born group was smaller than the Cuban-born and Philippine-born groups.
   - why not B: The Cuban-born group grew by about 360,000 in the 1960s and by about 130,000 in the 1980s.
   - why not C: It rose from about 231,000 to about 988,000.
-  - hint: Test each choice against the numbers. For "tenfold," multiply the first number by ten.
+  - hint: Test each choice against the numbers in the table, one row at a time.
 
 **U8-P32** [Topic 8.6 · LO H · Skill 5.B · Causation]  The growth of the Philippine-born population shown in the table is best explained by
-- (A) the Philippines' decision to join the communist bloc, which led many Filipinos to flee to the United States
-- (B) ties from the years when the Philippines was a U.S. colony, which drew Filipinos to the United States
-- (C) a war between the Philippines and Japan that drove people from their homes in the 1970s
-- (D) the end of English as a language of government and schools in the Philippines
-KEY: B. Explanation: The United States ruled the Philippines from 1898 to 1946. Many Filipinos learned English and served in the U.S. military. Like Algerians who moved to France and South Asians who moved to Britain, many Filipinos moved to the country that had once ruled them.
-  - why not A: The Philippines was a U.S. ally during the Cold War, not part of the communist bloc.
-  - why not C: Japan and the Philippines were not at war in the 1970s. Japan had occupied the Philippines during the Second World War.
-  - why not D: English stayed an official language in the Philippines, which made moving to the United States easier.
-  - hint: Who ruled the Philippines in the first half of the 1900s?
+- (A) the Green Revolution, which raised rice harvests in the Philippines in the 1960s and 1970s
+- (B) changes in U.S. immigration law combined with family, work, and school ties from the colonial period
+- (C) the Japanese occupation of the Philippines during the Second World War
+- (D) the Vietnam War, which sent large numbers of refugees from Southeast Asia to the United States
+KEY: B. Explanation: The United States ruled the Philippines from 1898 to 1946. That created ties through English, schools, military service, and work. A 1965 U.S. law ended rules that had kept out most Asian immigrants, and family ties and demand for workers helped Filipino migration grow. Like Algerians who moved to France and South Asians who moved to Britain, they moved to the country that had once ruled them.
+  - why not A: Bigger harvests gave people more food at home. They do not explain why Filipinos moved to the United States.
+  - why not C: The occupation ended in 1945, long before most of the growth shown in the table.
+  - why not D: Refugees from the Vietnam War came mainly from Vietnam, Laos, and Cambodia, not the Philippines.
+  - hint: Ask of each choice: would it make people move to the United States in particular? Check the dates, too.
 
 **U8-P33** [Topic 8.3 · LO C · Skill 5.B · Causation]  The rise in the number of Cuban-born people in the United States between 1960 and 1970 most directly resulted from
-- (A) a U.S. program that recruited Cuban workers for factories during the Korean War
+- (A) the Bracero Program, which brought workers from Mexico to farms in the United States
 - (B) the Mariel boatlift, when Castro let more than 100,000 Cubans leave by boat
 - (C) the Spanish-American War, after which Cuba came under U.S. control
 - (D) the Cuban Revolution, after which many Cubans who opposed Castro's government left
 KEY: D. Explanation: Castro took power in 1959 and built a communist state allied with the Soviet Union. Hundreds of thousands of Cubans, many from the middle and upper classes, left for the United States in the 1960s.
-  - why not A: The Korean War was fought from 1950 to 1953, before this rise, and no such program existed.
+  - why not A: The Bracero Program brought Mexican farm workers, not Cubans, to the United States.
   - why not B: The Mariel boatlift took place in 1980, after the years in question.
   - why not C: The Spanish-American War was fought in 1898, long before 1960.
-  - hint: Look at when the big jump happened. What changed in Cuba just before it?
+  - hint: Check the date of each choice against the decade when the big jump happened.
 
 
 ### Source P12 (questions U8-P34–U8-P36)
 **Source 1**
 > Bajpai told me last night that a non-Muslim caravan of 500 moving on October 3 under guard from NWFP toward East Punjab was attacked by Muslims* and that about 400 killed and remainder including women and children wounded. These 500 were part of the concentration of about 50,000 non-Muslims who have during recent weeks fled from West Punjab into NWFP for safety.
-> Prime Minister through Bajpai makes formal request that US make available ten army transport planes to fly these 50,000 refugees from a concentration point, say at Peshawar, to Amritsar. These refugees are in bad shape, are starving, and in immediate peril. … When news gets out a new outburst against Muslims in Delhi is almost certain and if the 50,000 perish from hunger and/or attack communal war will reach proportions beyond anything yet seen. …
-> * In 1947 Hindus, Sikhs, and Muslims in the Punjab all carried out attacks on members of other religious communities.
+> Prime Minister through Bajpai makes formal request that US make available ten army transport planes to fly these 50,000 refugees from a concentration point, say at Peshawar, to Amritsar. These refugees are in bad shape, are starving, and in immediate peril. They cannot be sent by caravan because of the physical weakness of so many and certainty of attack. … GOI has available sixteen BOAC Dakotas only a few of which in condition to fly. … When news gets out a new outburst against Muslims in Delhi is almost certain and if the 50,000 perish from hunger and/or attack communal war will reach proportions beyond anything yet seen. …
+> * Editor's note: Armed groups and individuals from Hindu, Muslim, and Sikh communities attacked civilians from other communities. Members of all three communities also fled violence. This telegram reports one attack; it does not describe all Partition violence.
 — Telegram from Henry F. Grady, U.S. ambassador to India, to the U.S. secretary of state, New Delhi, October 5, 1947. Grady wrote in the short style of a telegram. (Printed in Foreign Relations of the United States, 1947, vol. III (Washington, D.C., 1972); adapted)
 **Source 2**
 > 1. Although the total number of Palestine refugees and destitute persons now receiving relief is 950,000, it is assumed that the maximum number of bonafide displaced persons who must eventually be repatriated or resettled will not exceed 700,000. …
 > 2. The disposition of the refugees is now a political issue of the highest order between Israel and the Arab States, neither of which will consider it as a refugee problem. …
-> 3. … the Arab states are reluctant to accept refugees for permanent resettlement for political as well as economic reasons. They take the position that Israel, and to a lesser extent the United Nations and the United States, created the problem and are responsible for its solution. … The Israelis, on the other hand, are reluctant to repatriate any large number of refugees because of economic and security considerations, and because of the need for land to carry out their planned Jewish immigration program. The Israelis take the position that the problem was created by the invasion of the Arab states, and must be solved by resettlement.
-— Paper prepared in the office of George McGhee, the U.S. State Department's coordinator on Palestine refugee matters, attached to his memorandum to the secretary of state, Washington, D.C., April 1949 (Printed in Foreign Relations of the United States, 1949, vol. VI (Washington, D.C., 1977); adapted)
+> 3. … With the exception of Transjordan, … the Arab states are reluctant to accept refugees for permanent resettlement for political as well as economic reasons. They take the position that Israel, and to a lesser extent the United Nations and the United States, created the problem and are responsible for its solution. They feel that this should be through repatriation, in accordance with Article 11 of the General Assembly Resolution of December 11, 1948.* The Israelis, on the other hand, are reluctant to repatriate any large number of refugees because of economic and security considerations, and because of the need for land to carry out their planned Jewish immigration program. The Israelis take the position that the problem was created by the invasion of the Arab states, and must be solved by resettlement.
+> * United Nations General Assembly Resolution 194. Its Article (paragraph) 11 said that refugees who wished to return to their homes and live at peace with their neighbors should be allowed to do so, and that those who chose not to return should be paid for their property.
+— Paper prepared in the office of George McGhee, the U.S. State Department's coordinator on Palestine refugee matters, attached to his memorandum to the secretary of state of April 22, 1949, Washington, D.C. (this version of the paper is dated April 27, 1949) (Printed in Foreign Relations of the United States, 1949, vol. VI (Washington, D.C., 1977); adapted)
 
 **U8-P34** [Topic 8.6 · LO G · Skill 3.C · Comparison]  Both sources describe
 - (A) refugees fleeing communist governments that had been set up with Soviet help
 - (B) migrants moving from former colonies to Britain in search of factory work
-- (C) people forced from their homes by fighting between the United States and the Soviet Union
-- (D) large flows of refugees that followed the drawing of new borders as British rule ended
-KEY: D. Explanation: Britain left India in 1947 and Palestine in 1948. In South Asia, about 10 to 15 million people crossed the new border between India and Pakistan. In Palestine, about 700,000 Arabs became refugees during the war that followed the creation of Israel.
+- (C) people driven from their homes by the Korean War
+- (D) mass displacement tied to the end of British rule and fights over new states and borders
+KEY: D. Explanation: Britain left India in 1947 and Palestine in 1948. In South Asia, about 10 to 15 million people crossed the new border between India and Pakistan. In Palestine, about 700,000 Palestinian Arabs fled or were expelled during the conflict of 1947–1949. That displacement began before Israel declared independence in May 1948 and continued afterward.
   - why not A: Neither source mentions communism or the Soviet Union.
   - why not B: Both sources describe people fleeing violence within the region, not moving to Britain for work.
-  - why not C: Neither source describes fighting between the superpowers.
-  - hint: Who had ruled both India and Palestine before 1947–1948?
+  - why not C: The Korean War did drive millions from their homes, but in Korea. These sources describe South Asia and Palestine.
+  - hint: Ask what the people in both sources have in common: who is moving, when, and why?
 
-**U8-P35** [Topic 8.6 · LO G · Skill 4.A]  The events in Source 1 are best understood in the context of
-- (A) a war between India and China over their mountain border
-- (B) the division of British India into the separate states of India and Pakistan
-- (C) Britain's crushing of the Quit India movement during the Second World War
-- (D) fighting between India and Pakistan over the independence of Bangladesh
-KEY: B. Explanation: When Britain left in August 1947, British India was split in two. India had a Hindu majority, and Pakistan had a Muslim majority. The Punjab was cut in half. Millions fled across the new border, and hundreds of thousands were killed.
-  - why not A: India and China fought their border war in 1962.
-  - why not C: The Quit India movement began in 1942. Grady writes in October 1947, after British rule ended.
-  - why not D: Bangladesh became independent in 1971.
-  - hint: What happened to British India in August 1947?
+**U8-P35** [Topic 8.6 · LO G · Skill 2.B]  The Indian government's request for U.S. planes in Source 1 most likely reflects
+- (A) the decision of India's new government to join the U.S. side in the Cold War in return for military aid
+- (B) the struggle of a newly independent government to protect and move huge numbers of refugees with few resources of its own
+- (C) Pakistan's appeal for outside help in its war with India over Kashmir
+- (D) the Indian National Congress's demand, made during the Quit India movement, that Britain leave India at once
+KEY: B. Explanation: Britain left India only seven weeks before this telegram. The new Indian government had to protect millions of people crossing the new border, but it had few working planes. Estimates of the dead in the Partition violence range from about 200,000 to 2 million.
+  - why not A: India stayed out of the Cold War blocs. Nehru later became a leader of the Non-Aligned Movement.
+  - why not C: Source 1 is India's request about refugees, not Pakistan's. The fighting over Kashmir began later in October 1947.
+  - why not D: The Quit India movement began in 1942. By October 1947 Britain had already left.
+  - hint: Look at what the Prime Minister asks for, and why the refugees cannot travel on their own.
 
 **U8-P36** [Topic 8.6 · LO G · Skill 3.A]  According to Source 2, Israel and the Arab states disagreed mainly about
 - (A) who had caused the refugee problem and whether refugees should return home or be resettled
-- (B) how much money the United States should give Israel to build new settlements
+- (B) whether the city of Jerusalem should be placed under international control
 - (C) whether the United Nations should take over the government of Palestine for a period of years
-- (D) how many refugees there were, since Israel claimed there were far more than 950,000
-KEY: A. Explanation: The Arab states said Israel created the problem and that the refugees should be allowed to go home. Israel said the Arab invasion caused it and that the refugees should be resettled in Arab countries. Because each side blamed the other, the problem lasted for decades.
-  - why not B: The paper does not discuss U.S. aid to Israel.
+- (D) whether Palestinian Arabs should have their own state, as the UN partition plan of 1947 had proposed
+KEY: A. Explanation: The paper reports disputes over who was responsible and over return versus resettlement. Most Arab states wanted the refugees allowed to go home, as the UN had resolved in December 1948; Transjordan was the exception. Israel blamed the Arab invasion and wanted resettlement. The paper gives U.S. officials' account of the governments' positions. It does not present the refugees' own views.
+  - why not B: Jerusalem's future was argued over in these years, but point 3 does not mention it.
   - why not C: The paper does not discuss a UN government for Palestine.
-  - why not D: The 950,000 figure counts people receiving relief. The paper does not say Israel claimed a larger number.
+  - why not D: The UN plan of 1947 did call for an Arab state, but point 3 is about the refugees, not about a state.
   - hint: Reread point 3. What does each side say about the cause and the solution?
 
 
 ### Source P13 (questions U8-P37–U8-P39)
+**Source 1**
 > A decade of conflict in Afghanistan, from 1979 to 1989, gave Islamist extremists a rallying point and training field. A Communist government in Afghanistan gained power in 1978 but was unable to establish enduring control. At the end of 1979, the Soviet government sent in military units to ensure that the country would remain securely under Moscow's influence. The response was an Afghan national resistance movement that defeated Soviet forces.
 > Young Muslims from around the world flocked to Afghanistan to join as volunteers in what was seen as a "holy war"—jihad—against an invader. The largest numbers came from the Middle East. Some were Saudis, and among them was Usama Bin Ladin. …
 > The international environment for Bin Ladin's efforts was ideal. Saudi Arabia and the United States supplied billions of dollars worth of secret assistance to rebel groups in Afghanistan fighting the Soviet occupation. This assistance was funneled through Pakistan … . But Bin Ladin and his comrades had their own sources of support and training, and they received little or no assistance from the United States.
 > April 1988 brought victory for the Afghan jihad. Moscow declared it would pull its military forces out of Afghanistan within the next nine months. … Bin Ladin and Azzam* agreed that the organization successfully created for Afghanistan should not be allowed to dissolve. They established what they called a base or foundation (al Qaeda) as a potential general headquarters for future jihad.
 > * Abdullah Azzam, a Palestinian preacher who had recruited Muslim volunteers for the war in Afghanistan.
 — National Commission on Terrorist Attacks upon the United States (the "9/11 Commission"), a panel created by the U.S. Congress and the president to study the attacks of September 11, 2001, The 9/11 Commission Report, 2004 (Washington, D.C.: U.S. Government Printing Office, 2004; adapted)
+**Source 2**
+> The Security Council, … Deploring the fact that the Taliban continues to provide safe haven to Usama bin Laden and to allow him and others associated with him to operate a network of terrorist training camps from Taliban-controlled territory and to use Afghanistan as a base from which to sponsor international terrorist operations,
+> Noting the indictment of Usama bin Laden and his associates by the United States of America for, inter alia, the 7 August 1998 bombings of the United States embassies in Nairobi, Kenya, and Dar es Salaam, Tanzania … ,
+> … 2. Demands that the Taliban turn over Usama bin Laden without further delay to appropriate authorities in a country where he has been indicted, … or to appropriate authorities in a country where he will be arrested and effectively brought to justice; …
+— United Nations Security Council, Resolution 1267, New York, October 15, 1999 (From the United Nations' official document S/RES/1267 (1999); adapted)
 
 **U8-P37** [Topic 8.8 · LO J · Skill 5.B · Causation]  The Soviet war in Afghanistan contributed to the end of the Cold War mainly by
-- (A) giving the Soviet Union control of Afghanistan's oil, which it then sold to the West
-- (B) uniting the Muslim republics of the Soviet Union behind the Communist Party
+- (A) leading the United States and many of its allies to boycott the 1980 Olympic Games in Moscow
+- (B) leading the Soviet Union to sign the SALT I treaty limiting nuclear missiles
 - (C) costing the Soviet Union money and lives at a time when its economy was already weak
-- (D) leading NATO to send troops to push Soviet forces out of Afghanistan
+- (D) giving the Soviet Union a warm-water port on the Indian Ocean
 KEY: C. Explanation: About 15,000 Soviet soldiers died in Afghanistan, and the war cost huge sums. Many Soviet citizens turned against it. Gorbachev decided to bring the troops home, and they left in 1988–1989.
-  - why not A: Afghanistan had little oil, and the war drained Soviet resources.
-  - why not B: The war was unpopular and added to discontent inside the Soviet Union.
-  - why not D: NATO did not fight the Soviets in Afghanistan. Afghan rebels, armed partly by the United States, fought them.
-  - hint: What does a long war far from home do to a country's money and morale?
+  - why not A: The United States did boycott the 1980 Olympics, but the boycott did not weaken the Soviet Union the way the long, costly war did.
+  - why not B: SALT I was signed in 1972, seven years before the invasion.
+  - why not D: Afghanistan has no coastline, and the Soviets gained no port there.
+  - hint: Reread what Source 1 says happened to the Soviet forces in Afghanistan. What would that cost a country?
 
-**U8-P38** [Topic 8.3 · LO C · Skill 1.B]  U.S. aid to the Afghan rebels described in the passage is an example of
+**U8-P38** [Topic 8.3 · LO C · Skill 1.B]  U.S. aid to the Afghan rebels described in Source 1 is an example of
 - (A) collective security, in which the United Nations sent troops from many countries to stop an invasion
 - (B) détente, in which the superpowers worked together to reduce tensions
 - (C) a proxy war, in which a superpower backed local fighters rather than fighting its rival
 - (D) nonalignment, in which a country refused to take sides in the Cold War
-KEY: C. Explanation: In a proxy war, the superpowers fought through others. The Soviets backed Afghanistan's Communist government. The United States helped the rebels who fought it. Korea, Angola, and Nicaragua also saw proxy wars.
+KEY: C. Explanation: The Soviet Union sent its own troops and supported Afghanistan's government. The United States supported Afghan groups fighting that government and Soviet forces, without sending its own army. The conflict combined direct Soviet intervention with proxy competition. Angola and Nicaragua also saw proxy wars.
   - why not A: The UN did not send troops to Afghanistan. Aid went secretly through Pakistan.
-  - why not B: The Soviet invasion ended détente, and tensions rose sharply.
+  - why not B: The invasion further weakened détente, the effort to ease Cold War tensions.
   - why not D: The United States, Saudi Arabia, and Pakistan clearly took a side against the Soviets.
   - hint: Who did the fighting, and who supplied the weapons and money?
 
-**U8-P39** [Topic 8.7 · LO I · Skill 5.B · Causation]  The founding of al Qaeda described in the last paragraph is an example of
-- (A) a movement that would later use violence against civilians to pursue political goals
-- (B) a nonviolent movement that challenged governments through protests and boycotts
-- (C) an organization of newly independent states that refused to join either Cold War bloc
-- (D) a regional alliance created by the United States to contain Soviet power
-KEY: A. Explanation: Al Qaeda later carried out attacks on civilians, including the bombings of two U.S. embassies in Africa in 1998 and the attacks of September 11, 2001. Other movements of the period, such as the Shining Path in Peru, also used violence against civilians.
-  - why not B: Al Qaeda was set up as a headquarters for "future jihad," or holy war, not for peaceful protest.
-  - why not C: The Non-Aligned Movement was a group of states. Al Qaeda was a secret network, not a state.
-  - why not D: Al Qaeda was not a U.S. alliance. The passage says its founders got "little or no assistance" from the United States.
-  - hint: Think about what the 9/11 Commission was set up to study.
+**U8-P39** [Topic 8.7 · LO I · Skill 1.B]  Al Qaeda, as described in the two sources, is an example of
+- (A) a movement that used violence against civilians to pursue political goals
+- (B) a nationalist movement that fought to win independence from a European colonial power
+- (C) a political party that won elections and then ruled as a one-party state
+- (D) an alliance of oil-producing countries that raised prices to gain political power
+KEY: A. Explanation: Source 1 shows al Qaeda's founding at the end of the Soviet-Afghan war. Source 2 shows what it did next: the bombings of two U.S. embassies in Kenya and Tanzania in 1998 killed more than 200 people, most of them Africans. In 2001 al Qaeda carried out the September 11 attacks. Other movements of the period, such as the Shining Path in Peru, also used violence against civilians.
+  - why not B: Al Qaeda's founders were not fighting for one country's independence. Source 1 says they planned a base for "future jihad" in many places.
+  - why not C: Al Qaeda did not run in elections or govern a country. It was a secret network that, Source 2 says, the Taliban sheltered.
+  - why not D: That describes OPEC, a group of governments. Al Qaeda was a private network of fighters.
+  - hint: Reread the end of Source 1 and the first two paragraphs of Source 2. What did al Qaeda plan, and what did it do?
 
 
 ### Source P14 (questions U8-P40–U8-P42)
@@ -567,10 +580,10 @@ KEY: A. Explanation: Al Qaeda later carried out attacks on civilians, including 
 - (B) a military government that met opposition with harsh force, deepening conflict
 - (C) a communist government that the Soviet Union helped bring to power
 - (D) a socialist government that took over foreign-owned copper mines for the nation
-KEY: B. Explanation: Pinochet's forces arrested tens of thousands of people. More than 3,000 were killed or were never seen again. Like Franco in Spain and Idi Amin in Uganda, Pinochet met opposition with force.
+KEY: B. Explanation: Pinochet's forces arrested tens of thousands of people. More than 3,000 were killed or forcibly disappeared, taken by security forces and never accounted for. Like Franco in Spain and Idi Amin in Uganda, Pinochet met opposition with force.
   - why not A: Pinochet's army overthrew Allende, who had been elected.
   - why not C: Pinochet was anti-communist, and the United States supported his government.
-  - why not D: Allende's government took over the copper mines in 1971. Pinochet's government was anti-socialist and favored free markets.
+  - why not D: Allende's government nationalized the major copper mines in 1971. They stayed state-owned under Pinochet, although his government promoted free-market policies in many other areas.
   - hint: How did Pinochet come to power, and how did his officers treat opponents?
 
 **U8-P41** [Topic 8.9 · LO K · Skill 5.A · Comparison]  U.S. actions in Chile described in the report were most similar to U.S. actions in which of the following?
@@ -578,22 +591,22 @@ KEY: B. Explanation: Pinochet's forces arrested tens of thousands of people. Mor
 - (B) West Germany, where the United States paid for rebuilding through the Marshall Plan
 - (C) Japan, where U.S. officials wrote a democratic constitution after the war
 - (D) Korea, where U.S. troops fought under the United Nations flag
-KEY: A. Explanation: In Iran in 1953, the CIA and Britain helped remove Mosaddegh, who had taken over Iran's oil industry. In Chile the CIA worked against Allende. In both places, the United States acted in secret against leaders it feared.
+KEY: A. Explanation: In Iran in 1953, the CIA and Britain helped overthrow Mosaddegh, who had taken over Iran's oil industry; he had been chosen by Iran's elected parliament. In Chile the CIA funded Allende's opponents and tried to block him from taking office in 1970. Both were secret U.S. actions against leaders seen as threats. This report alone does not show that the CIA directed Chile's 1973 coup.
   - why not B: Marshall Plan aid was open economic help, not a secret effort to remove a government.
   - why not C: In Japan the United States openly occupied a defeated country. It did not secretly work against an elected leader.
   - why not D: In Korea, U.S. troops fought openly in a war. In Chile the CIA acted in secret.
-  - hint: Look for another place where the CIA worked in secret against an elected leader.
+  - hint: Reread the report. Did the United States act openly or in secret in Chile? Look for the choice that matches.
 
-**U8-P42** [Topic 8.3 · LO C · Skill 2.C]  A historian studying how Chileans experienced the Pinochet years would find the report limited because it
-- (A) draws on the CIA's own records and reports from the 1960s and 1970s
-- (B) focuses on what the U.S. government did rather than on what Chileans lived through
-- (C) was released after the Cold War had ended, when more secret records could be shared openly
-- (D) admits that some of Pinochet's officers had been contacts or agents of the CIA
-KEY: B. Explanation: The report was written to answer Congress's questions about what U.S. agencies did. It says little about how ordinary Chileans lived under military rule. Testimony from Chileans and the reports of Chile's own truth commissions tell that side.
-  - why not A: Using the agency's own records makes the report useful. That is a strength.
-  - why not C: Release after the Cold War let more of the story be told. That is a strength.
-  - why not D: This admission adds important facts. It is a strength.
-  - hint: What question was the report written to answer?
+**U8-P42** [Topic 8.7 · LO I · Skill 2.C]  A historian could use this report most directly to investigate which question?
+- (A) Which hardships most affected Chilean families during military rule?
+- (B) How did the CIA describe its contacts with Chile's military government?
+- (C) How did rural and urban Chileans differ in their responses to Pinochet?
+- (D) What did Chilean political prisoners consider the lasting effects of imprisonment?
+KEY: B. Explanation: The report was prepared to explain CIA activities to Congress. It directly addresses the agency's contacts, including the officers who were "contacts or agents of the CIA." To study Chileans' experiences, historians would also need Chilean testimony, local records, and truth commission reports.
+  - why not A: The report says little about Chilean families' daily lives. That question needs Chilean testimony and records.
+  - why not C: The report does not compare groups of Chileans. That question needs local records and Chilean voices.
+  - why not D: The report does not include prisoners' own accounts. That question needs their testimony and truth commission reports.
+  - hint: Think about who wrote the report and for whom. Which question could it answer from its own evidence?
 
 
 ### Source P15 (questions U8-P43–U8-P45)
@@ -601,81 +614,82 @@ KEY: B. Explanation: The report was written to answer Congress's questions about
 > In the 1950's, Khrushchev predicted: "We will bury you." But in the West today, we see a free world that has achieved a level of prosperity and well-being unprecedented in all human history. In the Communist world, we see failure, technological backwardness, declining standards of health, even want of the most basic kind—too little food. Even today, the Soviet Union still cannot feed itself. …
 > And now the Soviets themselves may, in a limited way, be coming to understand the importance of freedom. We hear much from Moscow about a new policy of reform and openness. Some political prisoners have been released. Certain foreign news broadcasts are no longer being jammed. … General Secretary Gorbachev, if you seek peace, if you seek prosperity for the Soviet Union and Eastern Europe, if you seek liberalization: Come here to this gate! Mr. Gorbachev, open this gate! Mr. Gorbachev, tear down this wall! …
 > … And in cooperation with many of our allies, the United States is pursuing the Strategic Defense Initiative—research to base deterrence not on the threat of offensive retaliation, but on defenses that truly defend; on systems, in short, that will not target populations, but shield them.
-— Ronald Reagan, president of the United States, speech at the Brandenburg Gate, West Berlin, West Germany, June 12, 1987. The speech was broadcast in Western Europe and could also be heard in East Germany. (From Public Papers of the Presidents of the United States: Ronald Reagan, 1987; adapted)
+— Ronald Reagan, president of the United States, speech at the Brandenburg Gate, West Berlin, June 12, 1987. The speech was broadcast in Western Europe and could also be heard in East Germany. (From Public Papers of the Presidents of the United States: Ronald Reagan, 1987; adapted)
 
-**U8-P43** [Topic 8.8 · LO J · Skill 4.A]  The "new policy of reform and openness" that Reagan mentions refers to
+**U8-P43** [Topic 8.8 · LO J · Skill 1.A]  The "new policy of reform and openness" that Reagan mentions refers to
 - (A) Khrushchev's de-Stalinization, which freed many prisoners from labor camps
 - (B) Brezhnev's détente, which led to arms-control treaties with the West
 - (C) Gorbachev's reforms known as perestroika and glasnost
 - (D) Deng Xiaoping's market reforms in the People's Republic of China
 KEY: C. Explanation: Gorbachev became the Soviet leader in 1985. Glasnost ("openness") let people speak and write more freely. Perestroika ("rebuilding") tried to fix the economy by loosening state control.
   - why not A: Khrushchev's reforms came in the 1950s. Reagan speaks of what Moscow is doing "now," in 1987.
-  - why not B: Détente was a 1970s policy, and it did not open up Soviet society.
+  - why not B: Détente focused on relations between states. Reagan is referring to Gorbachev's reforms within the Soviet Union.
   - why not D: Deng's reforms took place in China. Reagan is talking about Moscow.
-  - hint: Reagan says this policy is coming from Moscow now, in 1987. Who led the Soviet Union then?
+  - hint: Reread the sentence with "new policy." Where is the policy coming from, and in what year is Reagan speaking?
 
 **U8-P44** [Topic 8.8 · LO J · Skill 2.B]  Reagan's purpose in contrasting the West's prosperity with "failure" in the Communist world was most likely to
 - (A) announce that the United States would send food aid to the Soviet Union
-- (B) persuade West Germans to leave NATO and become a neutral country standing between East and West
-- (C) announce that U.S. troops would leave West Berlin as a sign of trust in the Soviets
+- (B) persuade West Germans to accept more American nuclear missiles aimed at the Soviet Union
+- (C) praise East Germany's government for letting more of its citizens visit the West
 - (D) argue that freedom brings prosperity and push Soviet leaders to go further with reform
 KEY: D. Explanation: Reagan spoke to people on both sides of the Wall. He said the West's wealth proved that freedom worked. He challenged Gorbachev to show that his reforms were real by opening the Wall.
   - why not A: Reagan says the Soviet Union "cannot feed itself," but he offers no food aid in this speech.
-  - why not B: Reagan praises the Western alliance and its strength.
-  - why not C: Reagan says the West must stay strong. U.S. troops stayed in Berlin until 1994.
+  - why not B: American missiles had been placed in West Germany in 1983. In this part of the speech Reagan compares how people live under freedom and under communism.
+  - why not C: Reagan does not praise East Germany's rulers. He calls for the Wall to be torn down.
   - hint: Whom does Reagan address at the end of the third paragraph, and what does he ask for?
 
-**U8-P45** [Topic 8.8 · LO J · Skill 5.B · Causation]  Reagan's mention of the Strategic Defense Initiative reflects which cause of the end of the Cold War?
-- (A) the Soviet Union's lead in the space race, which gave it an edge in missile technology
-- (B) advances in U.S. military technology that the slowing Soviet economy could not match
-- (C) a treaty in which both superpowers gave up their nuclear weapons
-- (D) a U.S. decision to cut military spending in order to lower its debts
-KEY: B. Explanation: SDI was a plan to use satellites and lasers to shoot down missiles. It was never built, but Soviet leaders feared they could not afford to compete. The arms race strained a Soviet economy that was already growing slowly.
-  - why not A: By the 1980s the United States led in computers, satellites, and missile-defense research.
-  - why not C: No treaty ended nuclear weapons. The 1987 INF Treaty removed one type of missile.
-  - why not D: Military spending rose sharply under Reagan.
-  - hint: Which side had the stronger economy and technology by the 1980s?
+**U8-P45** [Topic 8.8 · LO J · Skill 5.B · Causation]  The Strategic Defense Initiative is most closely associated with which pressure on Soviet leaders during the 1980s?
+- (A) the cost of the war in Afghanistan, where Soviet troops fought rebels armed partly by the United States
+- (B) the perceived cost of keeping up with U.S. military research while Soviet economic growth slowed
+- (C) a 1987 treaty in which both superpowers agreed to remove their intermediate-range nuclear missiles
+- (D) a rise in world oil prices that brought the Soviet Union large profits from its oil exports
+KEY: B. Explanation: SDI paid for research on ways to shoot down missiles. The proposed shield was never built as planned. But Soviet leaders worried about U.S. technology and the cost of competing with it while their economy grew slowly. Military costs were one of several pressures on the Soviet system.
+  - why not A: The Afghan war was a real pressure on Soviet leaders, but it had nothing to do with SDI, a program of missile-defense research.
+  - why not C: The 1987 INF Treaty required both sides to eliminate ground-launched missiles with ranges of 500 to 5,500 kilometers. It removed missiles; SDI was about building new defenses.
+  - why not D: High oil prices in the 1970s helped the Soviet economy, but prices fell in the 1980s. SDI was about weapons, not oil.
+  - hint: Reread the sentence about the Strategic Defense Initiative. What kind of program was it, and what would it cost a rival to match?
 
 
 ### Source P16 (questions U8-P46–U8-P48)
-> Chairman Gorbachev asked whether the President was also undertaking reforms? … The Chairman then said that he had heard that the new President was getting advice from both the right and the left in the United States. Experts on the right were saying that with the Soviet Union so involved in reform, with its economy so weak, with its ethnic strife so severe, the moment had clearly come to create an upheaval and perhaps destroy the country forever. … It was unrealistic for either side to hope or expect that the other could not function at home or abroad. Let us be realistic, and base our policies on realism.
-> Perestroika is our business, Chairman Gorbachev continued, whether anyone likes it or not. It is what we need. As to the question of whether the Soviet Union would emerge stronger or weaker from current policies, the Chairman said he always replies that if he did not expect his country to be stronger—politically, economically, and socially—he would not have embarked on reforms. …
-> … Concerning Armenia and Azerbaijan, it is always easy to talk about ethnic problems. They are certainly present. Some Armenians ask for greater autonomy because of an accumulation of problems. …
-> … the process of perestroika was expanding, and its strong side was that democratization would be introduced in all areas of Soviet life. But demagogic and extremist elements were taking advantage of existing difficulties. …
-— Memorandum of a conversation at a lunch of Soviet leader Mikhail Gorbachev with President Ronald Reagan and Vice President George H. W. Bush, who had just been elected president, Governors Island, New York, December 7, 1988, written by U.S. notetakers (Printed in Foreign Relations of the United States, 1981–1988, vol. VI (Washington, D.C., 2016); adapted)
+> It is obvious, for instance, that the use or threat of force can no longer, and must no longer, be an instrument of foreign policy. … After all, it is now quite clear that building-up military power makes no country omnipotent. …
+> It is also quite clear to us that the principle of freedom of choice is mandatory. … Denying that right to peoples, under whatever pretext or rhetorical guise, jeopardizes even the fragile balance that has been attained. Freedom of choice is a universal principle that should allow of no exceptions. …
+> … Under the sign of democratization, perestroika has now spread to politics, the economy, intellectual life and ideology. We have initiated a radical economic reform. … Undertaking such bold revolutionary transformations, we realized that there would be mistakes, and also opposition, that new approaches would generate new problems. … But the guarantee that the overall process of perestroika will steadily move forward and gain strength lies in a profound democratic reform of the entire system of power and administration. …
+> Without pausing, we have begun the second stage of this process with the main task of improving the relationship between the centre and the republics, harmonizing inter-ethnic relations … . What is most important is that all our peoples and all generations of citizens of our great country support perestroika. …
+> Today I can report to the General Assembly that the Soviet Union has taken a decision to reduce its armed forces. Within the next two years their numerical strength will be reduced by 500,000 men. … By agreement with our Warsaw Treaty allies we have decided to withdraw, by 1991, six tank divisions from the German Democratic Republic, Czechoslovakia and Hungary and to disband them. …
+— Mikhail Gorbachev, leader of the Soviet Union, speech to the United Nations General Assembly, New York, December 7, 1988 (Gorbachev spoke in Russian. English interpretation as printed in the United Nations' official record of the meeting (document A/43/PV.72); adapted)
 
-**U8-P46** [Topic 8.8 · LO J · Skill 1.B]  Gorbachev's comments about Armenia and Azerbaijan point to which development of the late 1980s?
-- (A) a war between the Soviet Union and Turkey over the lands where Armenians had once lived
-- (B) a Soviet plan to move Armenians and Azerbaijanis by force to Siberia
-- (C) efforts by Eastern European states to join the Soviet Union as new republics
-- (D) nationalist movements inside the Soviet Union that grew as controls were loosened
-KEY: D. Explanation: In 1988 Armenians living in one part of Azerbaijan asked to join Armenia, and fighting broke out. In the Baltic republics and other places, people also called for self-rule. These movements helped pull the Soviet Union apart.
-  - why not A: No Soviet-Turkish war took place. The conflict was between Armenians and Azerbaijanis inside the Soviet Union.
-  - why not B: Stalin deported several peoples in the 1940s. Gorbachev's government did not.
-  - why not C: In 1989 Eastern European states broke away from Soviet control instead.
-  - hint: As people were allowed to speak more freely, what did many non-Russian peoples begin to demand?
+**U8-P46** [Topic 8.8 · LO J · Skill 5.B · Causation]  Gorbachev's statement that "freedom of choice is a universal principle that should allow of no exceptions" contributed most directly to which development?
+- (A) the Soviet invasion of Czechoslovakia in 1968 to end the reforms of the Prague Spring
+- (B) the Chernobyl nuclear disaster, which made many Soviet citizens distrust their government
+- (C) the Chinese government's use of troops to end the Tiananmen Square protests in 1989
+- (D) the fall of communist governments in Eastern Europe in 1989, when Soviet troops did not step in to save them
+KEY: D. Explanation: Earlier Soviet leaders had sent tanks to keep communist governments in power, as in Hungary in 1956 and Czechoslovakia in 1968. Gorbachev said each people could choose its own path. In 1989 Poles, Hungarians, East Germans, Czechs, and others pushed out their communist rulers, and the Soviet army stayed in its bases. The Berlin Wall opened in November 1989.
+  - why not A: This happened twenty years earlier and did the opposite: Soviet troops ended a country's free choice.
+  - why not B: Chernobyl happened in 1986, two years before this speech. It was an accident, not a people's choice.
+  - why not C: China's government acted on its own, and it crushed the protests. The Soviet Union did not control China.
+  - hint: Check the date of each choice. Then ask which one fits the idea of letting each people choose.
 
-**U8-P47** [Topic 8.8 · LO J · Skill 2.C]  A historian using this source to study Gorbachev's views should keep in mind that it
-- (A) was written by U.S. notetakers, who give Gorbachev's words in their own summary
-- (B) was made by people who were present at the meeting and heard what was said
-- (C) includes Gorbachev's comments on both economic problems and ethnic problems
-- (D) records a private conversation among leaders rather than a public speech to a crowd
-KEY: A. Explanation: Gorbachev spoke in Russian. American notetakers heard him through interpreters and wrote down a summary. A historian would want to check it against Soviet notes of the same meeting.
-  - why not B: Being present makes the notetakers good witnesses. That is a strength.
-  - why not C: Covering several topics makes the source more useful. That is a strength.
-  - why not D: A private talk may be more frank than a speech. That is a strength.
-  - hint: A limitation is a reason to be careful with a source. Which choice describes a weakness rather than a strength?
+**U8-P47** [Topic 8.8 · LO J · Skill 2.C]  A historian studying how ordinary Soviet citizens felt about perestroika would find this speech limited mainly because
+- (A) it gives the Soviet leader's own claims, made to a world audience, about what his people thought
+- (B) it is a private conversation that was recorded in notes taken by American officials
+- (C) it was given in 1992, after the Soviet Union had broken apart, when Gorbachev wanted to defend his record
+- (D) it was written by Gorbachev's opponents in the Communist Party, who wanted his reforms to fail
+KEY: A. Explanation: Gorbachev says that "all our peoples and all generations of citizens" support perestroika. A leader speaking to the world wants his reforms to look popular. To learn what ordinary people thought, a historian would look at letters, surveys, protests, and elections, such as the 1989 vote in which many party officials lost.
+  - why not B: The attribution shows that this is a public speech to the UN General Assembly, printed in the UN's official record.
+  - why not C: The attribution dates the speech to December 1988, three years before the Soviet Union broke apart.
+  - why not D: Gorbachev himself gave the speech, and he speaks in favor of perestroika.
+  - hint: Read the attribution: who is speaking, where, and when? Then reread the sentence about "all our peoples."
 
-**U8-P48** [Topic 8.8 · LO J · Skill 3.D]  Which of the following would most directly challenge Gorbachev's claim that his reforms would make his country "stronger"?
-- (A) Gorbachev and Reagan signed a treaty in 1987 that removed intermediate-range nuclear missiles.
-- (B) Gorbachev received the Nobel Peace Prize in 1990.
-- (C) The Soviet Union broke apart into separate countries in 1991, less than three years later.
-- (D) Soviet citizens elected many members of a new national congress in 1989.
-KEY: C. Explanation: Gorbachev said his reforms would make the country stronger. Instead, the economy got worse. One republic after another broke away. In December 1991 the Soviet Union came to an end.
-  - why not A: The treaty was a step Gorbachev wanted. It does not show his country growing weaker.
-  - why not B: The prize honored Gorbachev's role in ending the Cold War. It says nothing about his country's strength.
-  - why not D: These elections fit Gorbachev's plan for "democratization." They do not challenge his claim.
-  - hint: Look for something that happened to the Soviet Union soon after 1988.
+**U8-P48** [Topic 8.8 · LO J · Skill 3.D]  Which of the following would most directly challenge Gorbachev's claim that perestroika would "steadily move forward and gain strength"?
+- (A) The Soviet Union and the United States had signed the INF Treaty in 1987 to remove a whole class of nuclear missiles.
+- (B) Soviet voters chose many members of a new Congress of People's Deputies in partly free elections in 1989.
+- (C) The Soviet Union broke apart into fifteen separate countries at the end of 1991, about three years later.
+- (D) The last Soviet troops left Afghanistan in February 1989.
+KEY: C. Explanation: Gorbachev said his reforms would grow stronger. Instead, the economy got worse, and the republics he mentions, from the Baltic states to Ukraine, demanded independence. After hard-liners failed to overthrow him in August 1991, the Soviet Union broke apart in December 1991.
+  - why not A: The treaty was a step Gorbachev wanted. It does not show his reforms failing at home.
+  - why not B: These elections were part of the "democratic reform" Gorbachev describes. They do not challenge his claim.
+  - why not D: Bringing the troops home was Gorbachev's own decision. It does not show his reforms losing strength.
+  - hint: For each choice, ask: does it show the reforms moving forward, or something going wrong?
 
 ## TIMED EXAM (25 questions, 25 minutes)
 
@@ -689,15 +703,15 @@ KEY: C. Explanation: Gorbachev said his reforms would make the country stronger.
 > I therefore ask the Congress to provide authority for assistance to Greece and Turkey in the amount of $400,000,000 for the period ending June 30, 1948.
 — Harry S. Truman, president of the United States, address to a joint session of the U.S. Congress, March 12, 1947 (Adapted)
 
-**U8-E01** [Topic 8.1 · LO A · Skill 4.A · Continuity and Change]  Truman's statement that Great Britain was "reducing or liquidating its commitments in several parts of the world" is best understood in the context of
+**U8-E01** [Topic 8.1 · LO A · Skill 4.A]  Truman's statement that Great Britain was "reducing or liquidating its commitments in several parts of the world" is best understood in the context of
 - (A) Britain's defeat in the Suez crisis, which showed that it could no longer act alone as a great power
 - (B) the economic strain of the Second World War, which also led Britain to give up its rule over India
-- (C) a Soviet blockade of British ports that cut Britain's trade with its colonies
+- (C) the Berlin Blockade, which forced Britain to spend heavily on an airlift to supply West Berlin
 - (D) Britain's decision to join the European Economic Community and focus on trade in Europe
 KEY: B. Explanation: The war left Britain with huge debts and a weak economy. It could no longer pay to defend its interests around the world. The United States stepped in to take Britain's place in Greece and Turkey.
   - A: Incorrect. The Suez crisis came in 1956, nine years after this speech.
   - B: Correct. Britain came out of the war deeply in debt. In 1947 it pulled back from Greece and Turkey and gave up India, and in 1948 it left Palestine.
-  - C: Incorrect. The Soviets never blockaded British ports. They blockaded West Berlin in 1948–1949.
+  - C: Incorrect. The Berlin Blockade began in June 1948, more than a year after this speech.
   - D: Incorrect. Britain joined the European Economic Community in 1973.
 
 **U8-E02** [Topic 8.2 · LO B · Skill 2.B]  Truman's description of two "alternative ways of life" was most likely meant to
@@ -713,14 +727,14 @@ KEY: B. Explanation: Truman wanted Americans to accept a new role in the world. 
 
 **U8-E03** [Topic 8.3 · LO C · Skill 5.B · Causation]  The policy Truman announced was most directly carried further by which of the following?
 - (A) the Marshall Plan's aid to Western Europe and the founding of NATO
-- (B) a U.S. decision to share the secrets of the atomic bomb with the Soviet Union
+- (B) the Baruch Plan, which proposed that an international agency control atomic energy
 - (C) U.S. recognition of the new People's Republic of China as China's government
-- (D) the withdrawal of U.S. troops from West Germany after the occupation ended
-KEY: A. Explanation: Truman's promise to "support free peoples" became the policy of containment. Economic aid came first, through the Marshall Plan. A military alliance, NATO, followed in 1949.
+- (D) the Good Neighbor Policy, which promised that the United States would not send troops into Latin America
+KEY: A. Explanation: Truman's promise to "support free peoples" became the policy of containment. Aid to Greece and Turkey came first. The United States then expanded containment through Marshall Plan aid beginning in 1948 and NATO's creation in 1949.
   - A: Correct. The Marshall Plan (1948) gave Western Europe about $13 billion, and NATO (1949) joined the United States and Western Europe in a military alliance. Both aimed to contain Soviet power.
-  - B: Incorrect. The United States kept its atomic secrets. The Soviets built their own bomb in 1949, helped partly by spies.
+  - B: Incorrect. The Baruch Plan was offered in June 1946, before this speech, and the Soviets turned it down.
   - C: Incorrect. The United States refused to recognize Communist China until 1979.
-  - D: Incorrect. U.S. troops stayed in West Germany for the rest of the Cold War.
+  - D: Incorrect. The Good Neighbor Policy dates from 1933, before the Cold War. It did not carry Truman's policy further.
 
 
 ### Source X2 (questions U8-E04–U8-E07)
@@ -747,36 +761,36 @@ KEY: B. Explanation: Khrushchev tried to trade the missiles in Cuba for the U.S.
   - D: Incorrect. Khrushchev offers to make his pledge "in the United Nations." Both leaders give the UN a role.
 
 **U8-E05** [Topic 8.2 · LO B · Skill 4.A]  Khrushchev's claim that Soviet aid would let Cuba "develop in the way its people desire" is best understood in the context of
-- (A) a U.S. naval base at Guantánamo that Castro had invited the United States to build
-- (B) Cuba's war of independence from Spain, which the Soviet Union had supported
+- (A) the Platt Amendment, which had let the United States step into Cuba's affairs
+- (B) Mexico's takeover of foreign-owned oil companies, which had angered the United States
 - (C) Castro's revolution and a failed invasion of Cuba by exiles trained by the CIA
-- (D) Cuba's full membership in the Organization of American States after Castro took power
+- (D) the Bolshevik Revolution's call for workers everywhere to overthrow capitalism
 KEY: C. Explanation: Khrushchev said the missiles were there to protect a small country that had just had a revolution. The Bay of Pigs invasion had given Cuba reason to fear the United States. The Soviets wanted to protect their new ally in the Americas.
-  - A: Incorrect. The United States had held Guantánamo since 1903. Castro demanded that it leave.
-  - B: Incorrect. Cuba's war against Spain ended in 1898, before the Soviet Union existed.
+  - A: Incorrect. The Platt Amendment ended in 1934, long before Soviet aid to Cuba.
+  - B: Incorrect. Mexico took over foreign oil companies in 1938. Khrushchev is writing about Cuba in 1962.
   - C: Correct. Castro took power in 1959 and moved closer to the Soviet Union. After the Bay of Pigs invasion of April 1961, Castro and Khrushchev feared another U.S. attack.
-  - D: Incorrect. The Organization of American States shut Castro's government out in January 1962.
+  - D: Incorrect. The Bolshevik Revolution took place in 1917. Khrushchev speaks of defending Cuba, not of starting revolutions.
 
 **U8-E06** [Topic 8.3 · LO C · Skill 3.D]  Which of the following later developments would best support the claim that the crisis was settled partly on terms that Khrushchev asked for in Source 1?
-- (A) Cuba let United Nations inspectors check that the missile sites had been taken apart.
-- (B) The United States and the Soviet Union set up a direct telephone "hotline" between their capitals.
+- (A) Castro refused to let United Nations inspectors into Cuba to check that the sites were taken apart.
+- (B) The United States and the Soviet Union set up a direct teletype "hotline" between their capitals.
 - (C) The United States quietly removed its missiles from Turkey in the months after the crisis.
-- (D) Kennedy publicly promised to place more missiles in Italy and Britain.
+- (D) The Soviet Union also removed its IL-28 bombers from Cuba in late 1962.
 KEY: C. Explanation: The public deal was that the Soviets would remove their missiles and the United States would promise not to invade Cuba. A secret part, kept quiet for years, was that the U.S. missiles in Turkey would also be removed.
-  - A: Incorrect. Castro refused to allow UN inspectors into Cuba. U.S. planes checked the sites from the air instead.
-  - B: Incorrect. The hotline helped prevent future crises, but it says nothing about the terms Khrushchev asked for.
+  - A: Incorrect. This really happened, but it shows Castro blocking inspections, not the United States meeting Khrushchev's terms.
+  - B: Incorrect. The link helped the two governments communicate during later crises. It does not show that the United States accepted Khrushchev's proposal about missiles in Turkey.
   - C: Correct. Khrushchev asked for the removal of the U.S. missiles in Turkey. Kennedy secretly agreed, and the missiles were gone by April 1963.
-  - D: Incorrect. Kennedy made no such promise. The U.S. missiles in Italy were also removed in 1963.
+  - D: Incorrect. Kennedy demanded that the bombers go too. Their removal was a U.S. demand, not a term Khrushchev asked for.
 
 **U8-E07** [Topic 8.9 · LO K · Skill 5.A · Comparison]  Khrushchev's comparison of Cuba and Turkey best illustrates which effect of the Cold War that was similar in both hemispheres?
-- (A) The superpowers pulled their forces out of Europe and Asia in order to focus on the Americas.
-- (B) Newly independent states in Asia and Latin America joined the Warsaw Pact for protection.
-- (C) The arms race between the superpowers slowed down after the Korean War ended.
+- (A) Both superpowers sent their own soldiers to fight long wars in Asia.
+- (B) Both superpowers gave aid to newly independent states to win their friendship.
+- (C) Both superpowers raced to launch satellites and send people into space.
 - (D) The superpowers placed military bases and missiles in allied countries near each other's borders.
 KEY: D. Explanation: Alliances such as NATO and the Warsaw Pact, and the bases that came with them, spread the Cold War around the world. The crisis over Cuba showed the same kind of contest in the Americas as in Europe and Asia.
-  - A: Incorrect. Both superpowers kept large forces in Europe and Asia throughout the Cold War.
-  - B: Incorrect. The Warsaw Pact was made up of the Soviet Union and Eastern European states. Cuba did not join it.
-  - C: Incorrect. The arms race sped up in the 1950s and 1960s, as both sides built thousands of nuclear weapons.
+  - A: Incorrect. This happened, in Vietnam and Afghanistan, but Khrushchev compares missile bases near borders, not wars.
+  - B: Incorrect. Both sides did give aid, but Khrushchev's comparison is about weapons placed near an enemy's border.
+  - C: Incorrect. The space race was real, but Khrushchev does not mention it. He compares missiles in Cuba and Turkey.
   - D: Correct. The United States had bases and missiles in Turkey, Italy, and Britain, near the Soviet Union. The Soviets tried to do the same in Cuba, near the United States.
 
 
@@ -785,37 +799,37 @@ KEY: D. Explanation: Alliances such as NATO and the Warsaw Pact, and the bases t
 Caption shown to students: Twin-engine cargo planes with U.S. star markings are parked in a row on a wide airfield. Trucks piled with wooden crates are backed up to the open doors of the nearest planes. A very long airport building stands in the background.
 Description: A black-and-white photograph taken from a high point. In the lower right, a twin-engine propeller cargo plane with a white star on its wing and the number 52 on its nose has its side door open; a truck loaded with wooden crates is backed up to it, and a worker stands in the doorway. Five more planes of the same kind are parked in a diagonal row behind it, with another loaded truck beside one of them. Small groups of people stand at the left. The wide paved airfield stretches to a very long, low airport building with hangar openings across the back of the picture.
 
-**U8-E08** [Topic 8.2 · LO B · Skill 4.B]  The scene in the photograph took place in the context of
+**U8-E08** [Topic 8.2 · LO B · Skill 4.A]  The scene in the photograph took place in the context of
 - (A) a Soviet blockade that cut off the road, rail, and canal routes into West Berlin
 - (B) the building of the Berlin Wall, which stopped East Germans from fleeing to the West
 - (C) Allied bombing raids that destroyed much of Berlin near the end of the Second World War
-- (D) a Soviet offer to unite Germany as a neutral country, which the Western powers had accepted
+- (D) the uprising of East German workers that Soviet tanks crushed
 KEY: A. Explanation: After the war, Berlin was split into four sectors deep inside the Soviet zone of Germany. When the Western powers brought a new currency into their zones, Stalin blocked the routes into West Berlin. The airlift kept more than 2 million people supplied.
-  - A: Correct. In June 1948 the Soviets closed the land and water routes into West Berlin. The United States and Britain flew in food, coal, and other supplies until the blockade ended in May 1949.
+  - A: Correct. The Soviet blockade began in June 1948 and ended in May 1949. U.S. and British planes kept delivering supplies until September 1949 to build up reserves.
   - B: Incorrect. The Berlin Wall was built in 1961, more than ten years later.
   - C: Incorrect. The photograph dates from 1948–1949, after the war. The planes are being unloaded, not used for bombing.
-  - D: Incorrect. Stalin made such an offer in 1952, and the Western powers turned it down.
+  - D: Incorrect. The East German uprising took place in June 1953, four years after the airlift ended.
 
 **U8-E09** [Topic 8.3 · LO C · Skill 5.B · Causation]  The crisis shown in the photograph contributed most directly to
 - (A) the reunification of Germany under a single democratic government
 - (B) the founding of NATO and the division of Germany into two separate states
-- (C) the end of the U.S. military presence in Western Europe
-- (D) the Soviet Union's decision to accept aid from the Marshall Plan
-KEY: B. Explanation: The blockade convinced Western leaders that they needed a military alliance. It also ended hopes for a united Germany. Germany stayed divided for 40 years.
+- (C) the Marshall Plan's program of aid to rebuild Western Europe
+- (D) the Korean War, in which United Nations forces fought a communist invasion
+KEY: B. Explanation: The blockade strengthened support for a Western military alliance and deepened Germany's division. NATO and separate West and East German states were set up in 1949. Germany stayed divided until 1990.
   - A: Incorrect. Germany was not reunited until 1990.
   - B: Correct. In April 1949 the United States, Canada, and Western European states formed NATO. In May, West Germany was founded, and East Germany followed in October.
-  - C: Incorrect. U.S. forces stayed in Europe, and NATO tied them to Western Europe's defense.
-  - D: Incorrect. The Soviet Union turned down Marshall Plan aid in 1947 and kept Eastern Europe out of it.
+  - C: Incorrect. Congress approved the Marshall Plan in April 1948, before the blockade began in June 1948.
+  - D: Incorrect. The Korean War began in 1950 when North Korea invaded South Korea. It did not grow out of the Berlin crisis.
 
 **U8-E10** [Topic 8.1 · LO A · Skill 1.B]  The airlift shown in the photograph best illustrates which development after the Second World War?
 - (A) The United States came out of the war with the economic and technical power to act worldwide.
-- (B) Britain and France remained the leading world powers, with the United States in a supporting role.
-- (C) The Soviet air force controlled the skies over Germany and decided which planes could land.
+- (B) The United Nations was founded to help settle disputes between countries peacefully.
+- (C) European empires began to lose their colonies in Asia and Africa.
 - (D) Air transport replaced trains and ships as the main way of moving goods across Europe.
-KEY: A. Explanation: The winners of the war did not come out of it equally. The United States had suffered no damage at home and had the largest economy and air force in the world. The airlift showed off this new power.
-  - A: Correct. Only a rich country with many planes, pilots, and fuel could fly in thousands of tons of supplies every day for almost a year.
-  - B: Incorrect. The war weakened Britain and France. The United States led the airlift, and Britain helped.
-  - C: Incorrect. The Soviets did not stop the flights, and Western planes flew in and out of Berlin every day.
+KEY: A. Explanation: The winners of the war did not come out of it equally. The United States came out with the largest economy in the world and most of its factories intact, so it could support a huge operation far from home. Britain also made a large contribution to the airlift.
+  - A: Correct. The operation needed large numbers of planes, trained crews, fuel, and supplies over about fifteen months.
+  - B: Incorrect. The UN was founded in 1945, but the airlift was carried out by the United States and Britain, not the UN.
+  - C: Incorrect. This was happening, but the photograph shows American planes supplying Berlin, not a colony winning freedom.
   - D: Incorrect. Trains, ships, and trucks still carried most goods in Europe. The airlift was a special answer to a blockade.
 
 
@@ -829,36 +843,36 @@ Source: U.S. Central Intelligence Agency, Directorate of Intelligence, Handbook 
 
 **U8-E11** [Topic 8.8 · LO J · Skill 3.A]  Which of the following conclusions is best supported by the chart?
 - (A) The Soviet economy grew faster than the U.S. economy in the early 1980s.
-- (B) Eastern Europe grew faster than the Soviet Union in most of the periods shown.
+- (B) Eastern Europe's economies grew faster than the Soviet economy in most of the periods shown.
 - (C) U.S. growth fell steadily from the early 1960s to the early 1980s.
 - (D) Soviet growth slowed after the late 1960s and fell below U.S. growth by the late 1970s.
-KEY: D. Explanation: In the 1950s and 1960s the Soviet economy grew fast as it built heavy industry. By the 1970s growth had slowed. Central planning could not keep up with new technology, and a large share of the economy went to the military.
+KEY: D. Explanation: The Soviet economy kept growing, but its average growth rate slowed after 1966–70. In 1976–80 and 1981–85 the Soviet average was below the U.S. average. A slower growth rate does not mean an economy is shrinking.
   - A: Incorrect. In 1981–85 the Soviet figure was 1.8 percent, lower than the U.S. figure of 3.0 percent.
   - B: Incorrect. Eastern Europe grew faster than the Soviet Union in just one period, 1971–75.
-  - C: Incorrect. U.S. growth fell in the late 1960s and early 1970s, but it rose again after 1976.
+  - C: Incorrect. The U.S. average was higher in 1976–80 than in 1971–75, so it did not fall in every period.
   - D: Correct. Soviet growth fell from 5.1 percent in 1966–70 to 2.2 percent in 1976–80, below the U.S. figure of 3.3 percent.
 
 **U8-E12** [Topic 8.8 · LO J · Skill 5.B · Causation]  The trend shown for the Soviet Union contributed most directly to
-- (A) Stalin's Five-Year Plans to build up heavy industry quickly
+- (A) the Soviet invasion of Afghanistan in 1979 to keep a communist government in power
 - (B) the removal of Khrushchev from power by other Communist Party leaders
-- (C) the sending of Soviet troops into Hungary to crush a revolt
+- (C) the Soviet boycott of the 1984 Olympic Games in Los Angeles
 - (D) Gorbachev's attempts to reform the Soviet economy and government
 KEY: D. Explanation: By the early 1980s Soviet leaders could see that their economy was falling behind. Gorbachev hoped reforms would fix it. Instead, the reforms helped bring down the communist system.
-  - A: Incorrect. Stalin's Five-Year Plans began in 1928, decades before the years on this chart.
+  - A: Incorrect. The invasion aimed to keep Afghanistan in Moscow's camp. It was not a response to slow growth, and it made the economy's problems worse.
   - B: Incorrect. Khrushchev was removed in 1964, before the slowdown shown in the chart.
-  - C: Incorrect. Soviet troops crushed the Hungarian revolt in 1956.
-  - D: Correct. Gorbachev took power in 1985 and said the economy was stagnating. He began perestroika to restructure it and glasnost to allow more open debate.
+  - C: Incorrect. The boycott answered the U.S. boycott of the 1980 Moscow Games. It was not a response to slow growth.
+  - D: Correct. Gorbachev took power in 1985. He said the economy had stopped growing fast enough. He started perestroika ("rebuilding") to fix the economy and glasnost ("openness") to let people speak more freely.
 
-**U8-E13** [Topic 8.8 · LO J · Skill 2.C]  A historian using the chart to compare the Soviet and U.S. economies should keep in mind that
-- (A) the figures cover the same five-year periods, from 1961 to 1985, for each of the countries shown
-- (B) the figures are adjusted for rising prices, so they measure real growth in output
+**U8-E13** [Topic 8.8 · LO J · Skill 2.C]  A historian using the chart to compare the Soviet and U.S. economies would find it limited mainly because
+- (A) the figures stop in 1985, before Soviet growth began to slow
+- (B) the figures were reported by the Soviet government, which wanted its economy to look strong to the world
 - (C) the figures are estimates by an agency of the Soviets' rival, based on incomplete Soviet data
-- (D) the figures include both communist and noncommunist countries
-KEY: C. Explanation: Soviet officials often reported numbers that were too high, and outsiders could not check them. So the CIA had to make careful guesses. After 1991, some experts decided that the CIA had guessed the Soviet economy was bigger than it really was.
-  - A: Incorrect. Using the same periods makes comparison easier. That is a strength.
-  - B: Incorrect. Adjusting for prices makes the figures more accurate. That is a strength.
-  - C: Correct. The CIA studied the Soviet economy for the U.S. government. Soviet official numbers were secret and unreliable, so the CIA had to make estimates.
-  - D: Incorrect. Including both kinds of countries allows comparison. That is a strength.
+- (D) the figures are not adjusted for rising prices, so they make growth look faster than it was
+KEY: C. Explanation: These figures are estimates, not exact measurements. The CIA could not check Soviet numbers directly, so it built its own estimates from incomplete information. Historians should look at how the CIA made them and compare them with other evidence. The CIA's role as the Soviets' rival does not by itself prove that the figures were wrong.
+  - A: Incorrect. The chart shows Soviet growth slowing from 1971 on, long before 1985.
+  - B: Incorrect. The note under the chart says the figures are CIA estimates, not Soviet government figures.
+  - C: Correct. The CIA studied the Soviet economy for the U.S. government. It could not check Soviet numbers directly, so it had to estimate.
+  - D: Incorrect. The note says the figures are adjusted for rising prices.
 
 
 ### Source X5 (questions U8-E14–U8-E16)
@@ -871,119 +885,120 @@ KEY: C. Explanation: Soviet officials often reported numbers that were too high,
 
 **U8-E14** [Topic 8.5 · LO F · Skill 4.A]  The note was written in the context of
 - (A) France's attempt to regain control of its colony in Indochina after Japan's defeat
-- (B) the Geneva Conference's division of Vietnam into northern and southern states
+- (B) the Geneva agreements' temporary military division of Vietnam into northern and southern zones
 - (C) the arrival of large numbers of U.S. combat troops in South Vietnam
 - (D) Japan's takeover of French Indochina at the start of the war in the Pacific
 KEY: A. Explanation: During the war Japan occupied Indochina. When Japan surrendered, Ho Chi Minh declared Vietnam independent. France sent troops to take back control, and full-scale war between France and the Viet Minh began in late 1946.
   - A: Correct. The note says French troops attacked Saigon on September 23, 1945, after Japan surrendered. France wanted its empire back.
-  - B: Incorrect. The Geneva Conference met in 1954, after France lost its war in Vietnam.
+  - B: Incorrect. The Geneva agreements came in 1954, after France lost its war. Their dividing line was meant to be temporary.
   - C: Incorrect. Large numbers of U.S. combat troops arrived in 1965.
   - D: Incorrect. Japan moved into Indochina in 1940–1941. The note describes events after Japan's surrender in 1945.
 
-**U8-E15** [Topic 8.1 · LO A · Skill 2.B]  The note's appeal to the Atlantic and San Francisco Charters and to Truman's declaration was most likely meant to
+**U8-E15** [Topic 8.5 · LO F · Skill 2.B]  The note's appeal to the Atlantic and San Francisco Charters and to Truman's declaration was most likely meant to
 - (A) win the Great Powers' support by using the principles they themselves had announced
 - (B) show that Vietnam planned to adopt the Soviet system of state control of farms and factories
-- (C) ask the United States to take Vietnam as a colony, as it had taken the Philippines
+- (C) ask the Great Powers to place Vietnam under a United Nations trusteeship for several years
 - (D) ask the Great Powers to bring back the rule of the Nguyen emperor Bao Dai over Vietnam
 KEY: A. Explanation: During the war, the Allies promised that peoples could choose their own rulers. Colonized peoples asked that this promise apply to them too. Ho Chi Minh even began Vietnam's declaration of independence with words from the American one.
   - A: Correct. These charters and Truman's speech spoke of self-government and of each people's right to choose its government. The note uses the powers' own words to argue for independence.
   - B: Incorrect. The note does not mention Soviet-style planning. It speaks of democracy and elections.
-  - C: Incorrect. The note says, "We only ask full independence."
+  - C: Incorrect. Roosevelt had once suggested a trusteeship for Indochina, but the note asks for "full independence."
   - D: Incorrect. The note calls Vietnam a democratic republic. Emperor Bao Dai had already given up his throne in August 1945.
 
-**U8-E16** [Topic 8.5 · LO F · Skill 5.A · Comparison]  Vietnam's path to independence differed from India's mainly because Vietnam
-- (A) was divided along religious lines at independence, while India stayed united
-- (B) won independence before the Second World War, while India won it after the war
-- (C) won independence through a long armed struggle, while India's was won through negotiation
-- (D) was led by a nonviolent movement, while India's independence movement relied on guerrilla war
-KEY: C. Explanation: Some colonies won independence through talks, such as India and Ghana. Others fought wars, such as Vietnam, Algeria, and Angola. France was determined to keep Indochina, so Vietnam's independence came only after eight years of war.
-  - A: Incorrect. India was the one split along religious lines, into India and Pakistan. Vietnam was split in 1954 between communist and noncommunist governments.
-  - B: Incorrect. Both won independence after the war: India in 1947 and Vietnam in 1954.
-  - C: Correct. The Viet Minh fought France from 1946 until its victory at Dien Bien Phu in 1954. India won independence from Britain in 1947 after years of mostly nonviolent protest and talks.
-  - D: Incorrect. This reverses them. India's movement was mostly nonviolent, and Vietnam's was armed.
+**U8-E16** [Topic 8.5 · LO F · Skill 5.A · Comparison]  Compared with Britain's transfer of power in India in 1947, the end of French colonial rule in Vietnam in 1954 resulted more directly from
+- (A) a United Nations referendum on independence
+- (B) a negotiated transfer following a mainly nonviolent mass campaign
+- (C) a sustained war against the colonial power
+- (D) a transfer of authority to a monarch backed by the colonial power
+KEY: C. Explanation: Ho Chi Minh declared independence in 1945, but France tried to restore its rule. The Viet Minh's military victory helped end French colonial rule in 1954. Britain transferred power in India through negotiations in 1947, although Partition brought mass violence and displacement.
+  - A: Incorrect. No UN vote decided Vietnam's independence. Elections planned at Geneva for 1956 were never held.
+  - B: Incorrect. That describes India more than Vietnam. India's independence came through negotiations after years of mostly nonviolent mass protest.
+  - C: Correct. Ho Chi Minh declared independence in 1945, but France fought to restore its rule. The Viet Minh's victory at Dien Bien Phu in 1954 ended French colonial rule.
+  - D: Incorrect. France gave the former emperor Bao Dai a limited role in 1949, but French rule ended only after France lost the war.
 
 
 ### Source X6 (questions U8-E17–U8-E19)
-> After one year's effort, a great leap forward situation has unfolded. Is this something temporary? Will there be a leap forward every year for the next several years? With a nation like ours, large population, vast area, and resources, and the Soviet Union's experience, it is possible. … I am inclined toward leaping forward.
-> … When discussing the defects of last year, some people dwell on the defects. With dozens of defects in their mind, they fail to see any achievement at all. It is the question of nine fingers and one finger. … Several hundred millions of laboring people and several millions or tens of millions of cadres cannot be doing only bad things. This I believe. …
-> … Is agriculture actually placed on a solid foundation? X X* catties of grain, X X piculs of cotton, hemp, oil, large cattle, small domestic fowl—are their quota on a solid foundation? Or are they exaggerations? Can they be fulfilled? One must not resort to false reporting in order to get through. … I am concerned over fertilizers this year. Dropsy in humans is due to lack of meat and vegetables. When the crops get no fertilizer, they also suffer from dropsy. …
-> * The Chinese collection printed "X X" in place of the figures.
-— Mao Zedong, chairman of the Chinese Communist Party, speech at a conference of the party's leaders of China's provinces and large cities, February 2, 1959. The speech was not published at the time; it was printed in a collection of Mao's talks during the Cultural Revolution in the late 1960s. (Translated by the U.S. Joint Publications Research Service, Miscellany of Mao Tse-tung Thought (1949–1968), Part I (Arlington, Va., 1974); adapted)
+> In the year 1949, after more than a century of heroic struggle, the Chinese people, led by the Communist Party of China, finally achieved their great victory in the people's revolution against imperialism, feudalism and bureaucrat-capitalism; and so brought to an end a long history of oppression and enslavement and founded the People's Republic of China, a people's democratic dictatorship. …
+> From the founding of the People's Republic of China to the attainment of a socialist society is a period of transition. During the transition the fundamental task of the state is, step by step, to bring about the socialist industrialization of the country and, step by step, to accomplish the socialist transformation of agriculture, handicrafts and capitalist industry and commerce. In the last few years our people have successfully carried out a series of large-scale struggles: the reform of the agrarian system, resistance to American aggression and aid to Korea, the suppression of counter-revolutionaries and the rehabilitation of the national economy. …
+> China has already built an indestructible friendship with the great Union of Soviet Socialist Republics and the People's Democracies; and the friendship between our people and peace-loving people in all other countries is growing day by day. …
+> Article 6: The state sector of the economy is a socialist sector, owned by the whole people. It is the leading force in the national economy and the material basis on which the state carries out socialist transformation. …
+> Article 8: The state protects the right of peasants to own land and other means of production according to law. The state guides and helps individual peasants to increase production and encourages them to organize producers', supply and marketing, and credit co-operatives voluntarily. The policy of the state towards rich-peasant economy is to restrict and gradually eliminate it.
+— Constitution of the People's Republic of China, adopted by the First National People's Congress, Beijing, September 20, 1954: from the Preamble and Articles 6 and 8 (Official English translation published by the Foreign Languages Press, Peking (Beijing), 1954; adapted)
 
-**U8-E17** [Topic 8.4 · LO D · Skill 1.B]  The "great leap forward" that Mao describes was a campaign that
-- (A) allowed peasants to sell their extra grain in private markets for a profit
-- (B) organized peasants into huge communes and pushed for fast gains in grain and steel
-- (C) gave land taken from landlords to individual peasant families to farm
-- (D) invited foreign companies to build factories in special economic zones along the coast
-KEY: B. Explanation: Mao wanted China to catch up with industrial countries in a few years. He believed mass effort could make up for a lack of machines and money. The campaign set targets that could not be met.
-  - A: Incorrect. Selling grain in private markets came with Deng Xiaoping's reforms after 1978.
-  - B: Correct. Starting in 1958, the party merged farms into communes of thousands of families and set very high targets. Millions of people made steel in small backyard furnaces.
-  - C: Incorrect. Land was given to families in the land reform of the early 1950s. The Great Leap pulled it into large communes.
-  - D: Incorrect. Special economic zones were set up in 1980, under Deng Xiaoping.
+**U8-E17** [Topic 8.4 · LO D · Skill 4.A]  The constitution's description of an "indestructible friendship" with the Soviet Union is best understood in the context of
+- (A) the Sino-Soviet split, when the two countries quarreled over leadership of the communist world
+- (B) a 1950 treaty of alliance under which the Soviet Union sent loans and experts to help China build industry
+- (C) the Soviet Union's entry into the war against Japan in 1945, when Soviet troops occupied Manchuria
+- (D) President Nixon's visit to China, which opened talks between China and the United States
+KEY: B. Explanation: After 1949 China "leaned to one side," as Mao put it, toward the Soviet Union. The new constitution was modeled partly on the Soviet one, and Soviet help shaped China's first plans for heavy industry. The friendship did not last. By the 1960s the two communist giants were rivals.
+  - A: Incorrect. The split came later. By 1960 Soviet experts were leaving China, and in 1969 the two countries fought along their border.
+  - B: Correct. In February 1950 Mao and Stalin signed a treaty of alliance. Soviet loans, factories, and thousands of advisers helped China's First Five-Year Plan (1953–1957).
+  - C: Incorrect. Soviet troops entered Manchuria in August 1945, before the People's Republic existed. They also carried off many of its factory machines.
+  - D: Incorrect. Nixon visited China in 1972, during the Sino-Soviet split.
 
-**U8-E18** [Topic 8.4 · LO D · Skill 5.B · Causation]  The problems Mao hints at, such as "false reporting" and "dropsy," were part of a crisis that led to
-- (A) the Communist victory over the Nationalists in China's civil war
-- (B) a closer alliance between China and the Soviet Union in the 1960s
-- (C) a famine in which tens of millions of people died in the years 1959–1961
-- (D) the end of the communes and a return to family farming by 1962
-KEY: C. Explanation: Because officials were afraid to report bad news, leaders in Beijing believed the harvests were huge. Grain was taken from the countryside and even sold abroad. The famine of 1959–1961 was one of the deadliest in history.
-  - A: Incorrect. The civil war ended in 1949, ten years before this speech.
-  - B: Incorrect. China and the Soviet Union split in 1960, and Soviet experts left China that year.
-  - C: Correct. Local officials reported huge harvests to meet targets. The state took grain based on those reports, and peasants starved. Most estimates put the deaths at 15 million to 45 million.
-  - D: Incorrect. The party scaled back the communes in the early 1960s, but they lasted until the early 1980s.
+**U8-E18** [Topic 8.4 · LO E · Skill 5.B · Continuity and Change]  The constitution's plan to encourage peasants to join co-operatives (Article 8) was carried furthest in which later development?
+- (A) the return to family farming under Deng Xiaoping's reforms after 1978
+- (B) the Hundred Flowers campaign, in which the party briefly invited intellectuals to criticize it
+- (C) the merging of farms into huge communes during the Great Leap Forward, which was followed by a famine
+- (D) the land reform of 1950, which gave land taken from landlords to peasant families
+KEY: C. Explanation: Article 8 promises to protect peasants' land and says joining co-operatives is voluntary. Within a few years, nearly all peasants had been pushed into collective farms. The Great Leap Forward (1958–1962) carried collectivization to its extreme.
+  - A: Incorrect. Deng's reforms let families farm their own plots again, which reversed collective farming.
+  - B: Incorrect. The Hundred Flowers campaign of 1956–1957 was about free speech, not farming.
+  - C: Correct. From 1955 the party pushed peasants into co-operatives, and in 1958 it merged them into communes of thousands of families. Impossible targets and false harvest reports led to a famine in 1959–1961 in which tens of millions of people died.
+  - D: Incorrect. The land reform came before this constitution. The preamble lists "the reform of the agrarian system" as already done.
 
-**U8-E19** [Topic 8.4 · LO D · Skill 2.C]  A historian studying conditions in China's villages in 1959 would find the speech limited mainly because
-- (A) it was given in February 1959, while the campaign was still going on across the countryside
-- (B) it records what Mao said in private to party leaders rather than in public
-- (C) it mentions specific problems, such as a lack of fertilizer and food
-- (D) Mao was defending his own campaign, and he admits the reports reaching him may be false
-KEY: D. Explanation: The speech shows what China's top leader believed and wanted officials to do. To learn what life was like in the villages, historians use other sources, such as local records and the memories of peasants who survived.
-  - A: Incorrect. Being given at the time makes the speech useful for knowing what Mao thought then. That is a strength.
-  - B: Incorrect. A private talk may show Mao's real thinking. That is a strength.
-  - C: Incorrect. Specific details make a source more useful. That is a strength.
-  - D: Correct. Mao is the leader who started the campaign, and he insists that most cadres do good. He also asks whether the figures are "exaggerations." So the speech is weak evidence of real conditions.
+**U8-E19** [Topic 8.4 · LO D · Skill 2.C]  A historian studying how China's economy actually worked in the 1950s would find the constitution limited mainly because
+- (A) it was written by the Nationalist government of Chiang Kai-shek before it fled to Taiwan in 1949
+- (B) it was published in Chinese alone, so few people outside China could read it
+- (C) it was written in 1962, after the Great Leap Forward had already failed
+- (D) it states the government's goals and promises, which may differ from what really happened
+KEY: D. Explanation: Laws and constitutions are good evidence of a government's goals. To see how the economy really worked, historians also use other sources, such as factory and village records, memoirs, and later government statistics.
+  - A: Incorrect. The attribution shows that the Communist government's National People's Congress adopted it in 1954.
+  - B: Incorrect. The note under the source shows that an official English translation was published in 1954.
+  - C: Incorrect. The attribution dates the constitution to September 1954.
+  - D: Correct. A constitution says what a government plans and promises. Article 8, for example, says joining co-operatives will be voluntary, but within a few years peasants were pushed into them.
 
 
 ### Source X7 (questions U8-E20–U8-E22)
-> [Nkrumah] said that his main preoccupation, now that Ghana is about to attain political independence, is to assure the country's economic independence. History has shown that political and economic independence must proceed pari passu and that the former cannot be effective without the latter. He pointed out that Ghana's economy is primarily agricultural and heavily dependent on cocoa. This means that the health of its economy is directly related to the price of cocoa which has fluctuated widely. … The Prime Minister said that he was concerned about the unhealthy situation created by such heavy reliance on one crop and was therefore anxious to diversify the economy both by general agricultural development and by exploiting the country's mineral resources—particularly bauxite. …
-> Reverting to the Volta River Project*, he said that the Preparatory Commission's report had shown the project to be eminently sound from an engineering point of view. Unfortunately, however, there is the matter of financing. … This project, he felt, would go far towards realizing Ghana's goal of economic independence. …
-> Dr. Nkrumah went on to say that Ghana has been aware of the desirability of attracting private investment. While the Government believes that certain economic facilities should properly be state-owned, it nevertheless has taken steps to encourage private investment through measures for tax relief, land tenure, etc. …
-> The Vice President said that he had read and heard much about the foreign policy which Ghana would follow after independence. He asked whether he would be correct in describing Ghana's policy as "nationalist". He said he disliked the term "neutralist" … . The Prime Minister said that the Vice President had accurately expressed Ghana's position. Ghana's policy, he said, will be one of non-involvement and non-alignment in the East-West struggle. "But", he said, "Ghana can never be neutral". It will jealously safeguard its independence and resist all efforts at domination.
-> * A plan to build a large dam on the Volta River to make electricity, partly to power a plant that would turn bauxite into aluminum.
-— Memorandum of a conversation between Kwame Nkrumah, prime minister of Ghana, and Richard Nixon, vice president of the United States, Accra, Ghana, March 4, 1957, prepared by the U.S. side and attached to Nixon's report to President Eisenhower. Ghana, formerly the British colony of the Gold Coast, became independent two days later. (Printed in Foreign Relations of the United States, 1955–1957, vol. XVIII (Washington, D.C., 1989); adapted)
+> The Asian-African Conference considered problems of common interest and concern to countries of Asia and Africa and discussed ways and means by which their people could achieve fuller economic, cultural and political co-operation.
+> [A. Economic co-operation] 1. The Asian-African Conference recognized the urgency of promoting economic development in the Asian-African region. … The proposals with regard to economic co-operation within the participating countries do not preclude either the desirability or the need for co-operation with countries outside the region, including the investment of foreign capital. …
+> 5. The Asian-African Conference recommended that collective action be taken by participating countries for stabilizing international prices of and demand for primary commodities through bilateral and multilateral arrangements, … 6. The Asian-African Conference further recommended that: Asian-African countries should diversify their export trade by processing their raw material, wherever economically feasible, before export; …
+> [D. Problems of dependent peoples] … 2. In view of the unsettled situation in North Africa and of the persisting denial to the peoples of North Africa of their right to self-determination, the Asian-African Conference declared its support of the rights of the people of Algeria, Morocco and Tunisia to self-determination and independence and urged the French Government to bring about a peaceful settlement of the issue without delay.
+> [G. Declaration on promotion of world peace and co-operation] … nations should practise tolerance and live together in peace with one another as good neighbours and develop friendly co-operation on the basis of the following principles: … 4. Abstention from intervention or interference in the internal affairs of another country. 5. Respect for the right of each nation to defend itself singly or collectively, in conformity with the Charter of the United Nations. 6. (A) Abstention from the use of arrangements of collective defence to serve the particular interests of any of the big powers. (B) Abstention by any country from exerting pressures on other countries. …
+— Final Communiqué of the Asian-African Conference, adopted by the governments of 29 Asian and African countries that met at Bandung, Indonesia, April 24, 1955: from sections A, D, and G (Issued in English. Text as printed in China and the Asian-African Conference (Documents) (Peking: Foreign Languages Press, 1955); adapted)
 
-**U8-E20** [Topic 8.2 · LO B · Skill 2.B]  Nkrumah's statement that Ghana's policy would be "non-alignment in the East-West struggle" is best understood as part of
-- (A) a British plan to keep its former colonies inside the NATO alliance
-- (B) a Soviet campaign to bring newly independent African states into the Warsaw Pact alliance
-- (C) a U.S. rule that countries receiving American aid must join a military alliance
-- (D) efforts by new states such as India and Indonesia to stay out of both Cold War blocs
-KEY: D. Explanation: Leaders of newly independent states wanted to protect their freedom. Joining a bloc could mean a new kind of outside control. By staying non-aligned, they could also seek aid from both sides.
-  - A: Incorrect. Ghana joined the British Commonwealth, but not NATO, which is a military alliance.
-  - B: Incorrect. The Warsaw Pact was made up of the Soviet Union and Eastern European states. No African state joined it.
-  - C: Incorrect. The United States gave aid to non-aligned countries such as Ghana and India.
-  - D: Correct. At the Bandung Conference in 1955, leaders from Asia and Africa met to plan their own course. In 1961 Nkrumah, Nehru, Sukarno, Nasser, and Tito helped found the Non-Aligned Movement.
+**U8-E20** [Topic 8.2 · LO B · Skill 1.B]  Principle 6(A) in section G is most closely associated with which development?
+- (A) the Commonwealth, which kept trade and cultural ties between Britain and its former colonies
+- (B) the Warsaw Pact, a military alliance of the Soviet Union and the communist states of Eastern Europe
+- (C) SEATO, an alliance that the United States formed with Pakistan, Thailand, and other states to contain communism
+- (D) the Non-Aligned Movement, in which many new states refused to join either side in the Cold War
+KEY: D. Explanation: Leaders of new nations wanted to keep their freedom. Joining one side could mean a new kind of outside control. By not joining either side, they could also ask both sides for aid.
+  - A: Incorrect. Some Bandung states, such as India and Pakistan, belonged to the Commonwealth, but it was not a side in the Cold War. Principle 6(A) is about military alliances.
+  - B: Incorrect. The Warsaw Pact was the Soviet bloc's alliance. No state at Bandung joined it, and principle 6(A) warns against such alliances.
+  - C: Incorrect. SEATO was an alliance on the U.S. side, the kind of arrangement that principle 6(A) warns against. Pakistan and Thailand belonged to SEATO but still signed the communiqué.
+  - D: Correct. Principle 6(A) warns against defense alliances that serve "the particular interests of any of the big powers." In 1961 Nehru, Sukarno, Nasser, Nkrumah, and Tito helped found the Non-Aligned Movement.
 
-**U8-E21** [Topic 8.6 · LO H · Skill 5.A · Comparison]  Nkrumah's plan for the Volta River Project is most similar to which of the following?
-- (A) Gamal Abdel Nasser's building of the Aswan High Dam to supply Egypt with power and water
-- (B) the Marshall Plan's loans to rebuild factories in war-damaged Western Europe
-- (C) Britain's building of railways to carry cocoa from the Gold Coast's farms to its ports
-- (D) Japan's postwar growth, led by private companies such as Toyota and Sony
-KEY: A. Explanation: Many newly independent governments took a strong role in the economy. They built dams, steel mills, and factories to end their dependence on one crop or on their former rulers. Nasser's dam, Nehru's five-year plans, and Nkrumah's Volta Dam are examples.
-  - A: Correct. Like the Volta Dam, the Aswan High Dam was a huge government project to make electricity and expand farming. Both leaders saw it as a key to economic independence.
-  - B: Incorrect. The Marshall Plan was U.S. aid to rebuild war-damaged countries, not a project of a newly independent state.
-  - C: Incorrect. These railways were built under colonial rule to export raw materials, which kept the economy dependent on cocoa.
-  - D: Incorrect. Japan's growth was led largely by private companies, not by one giant state project.
+**U8-E21** [Topic 8.6 · LO H · Skill 3.D]  Which of the following would best support the concern behind section A's call for "stabilizing international prices of and demand for primary commodities"?
+- (A) After independence, falling world cocoa prices in the 1960s cut Ghana's income and its plans for development.
+- (B) India's government built state-owned steel mills as part of its five-year plans.
+- (C) Indonesian nationalists fought Dutch troops from 1945 to 1949 to win independence.
+- (D) Many new Asian and African states joined the United Nations and voted together on colonial questions.
+KEY: A. Explanation: Many new states earned most of their money by selling one or two raw materials, such as cocoa, rubber, or copper. When world prices fell, their plans for development suffered. Leaders such as Kwame Nkrumah of Ghana warned that this kind of dependence was a new form of outside control, which he called "neocolonialism."
+  - A: Correct. Ghana earned most of its money from cocoa. When world prices fell, the government ran short of money for schools, roads, and factories. A country that sells one crop can be hurt by prices set far away.
+  - B: Incorrect. State steel mills show a new state building its own industry. They do not show harm from falling prices for raw materials.
+  - C: Incorrect. This was a war against colonial rule. It does not show a problem with the prices of exports.
+  - D: Incorrect. Voting together in the UN shows political cooperation. It does not show a problem with the prices of exports.
 
-**U8-E22** [Topic 8.6 · LO H · Skill 3.D · Continuity and Change]  Which of the following would best support Nkrumah's claim that political independence "cannot be effective" without economic independence?
-- (A) After independence, falling world cocoa prices cut Ghana's income and its ability to pay for development.
-- (B) Ghana's 1956 elections gave Nkrumah's party a clear majority of the seats in the legislature.
-- (C) Ghana opened embassies in Washington, London, and Paris soon after it became independent.
-- (D) Nkrumah's government built many new schools, clinics, and roads across the country in the 1950s and 1960s.
-KEY: A. Explanation: Nkrumah feared that new states would stay tied to their old rulers through trade. He called this neocolonialism. Ghana's heavy dependence on cocoa made it easy to hurt when prices dropped.
-  - A: Correct. When cocoa prices fell in the 1960s, Ghana's government ran short of money. A country that depends on one export can be hurt by prices set elsewhere, even after it gains its freedom.
-  - B: Incorrect. This shows political success, not economic weakness.
-  - C: Incorrect. Opening embassies is a sign of political independence. It does not show economic dependence.
-  - D: Incorrect. Building schools shows what the new government could do. It does not show that its freedom was limited by the economy.
+**U8-E22** [Topic 8.5 · LO F · Skill 4.A]  Section D's support for "the people of Algeria, Morocco and Tunisia" is best understood in the context of
+- (A) uprisings against French rule in North Africa, including a war for independence that began in Algeria in 1954
+- (B) the Suez crisis, when Britain, France, and Israel invaded Egypt after it took over the Suez Canal
+- (C) the League of Nations mandates, under which France ruled Syria and Lebanon after the First World War
+- (D) Italy's invasion of Ethiopia, which the League of Nations failed to stop
+KEY: A. Explanation: France ruled Algeria from 1830 and Tunisia and Morocco from 1881 and 1912. Morocco and Tunisia became independent in 1956 through negotiated settlements, after protests, armed resistance, and colonial repression. Algeria, where about a million European settlers lived, won independence only in 1962 after a long war.
+  - A: Correct. After the Second World War, nationalists in all three lands demanded independence, with protests, strikes, and armed attacks. In November 1954 Algeria's National Liberation Front (FLN) began a war for independence.
+  - B: Incorrect. The Suez crisis came in 1956, the year after the Bandung Conference.
+  - C: Incorrect. The mandates were in the Middle East, not North Africa, and Syria and Lebanon were independent by 1946.
+  - D: Incorrect. Italy invaded Ethiopia in 1935, and Ethiopia was free again by 1941. Section D is about French rule in North Africa.
 
 
 ### Source X8 (questions U8-E23–U8-E25)
@@ -993,15 +1008,15 @@ KEY: A. Explanation: Nkrumah feared that new states would stay tied to their old
 > Disarmament, with mutual honor and confidence, is a continuing imperative. … I confess that I lay down my official responsibilities in this field with a definite sense of disappointment.
 — Dwight D. Eisenhower, president of the United States, farewell address to the nation on radio and television, January 17, 1961, three days before he left office (From Public Papers of the Presidents of the United States: Dwight D. Eisenhower, 1960–61; adapted)
 
-**U8-E23** [Topic 8.7 · LO I · Skill 4.B · Continuity and Change]  Eisenhower's warning about the "military-industrial complex" is best understood in the context of
-- (A) the closing of most U.S. defense factories after the Korean War ended in a truce in 1953
+**U8-E23** [Topic 8.7 · LO I · Skill 4.B]  Eisenhower's warning about the "military-industrial complex" is best understood in the context of
+- (A) the cuts after the Second World War, when the U.S. Army shrank from about 8 million soldiers to under 1 million
 - (B) the end of the military draft and the creation of a volunteer army
-- (C) a treaty with the Soviet Union that had just ended U.S. nuclear testing
+- (C) the Limited Test Ban Treaty, which banned nuclear tests in the air, in space, and under water
 - (D) an arms race in which the superpowers built nuclear weapons and long-range missiles
-KEY: D. Explanation: For the first time, the United States stayed ready for war in peacetime. Huge defense budgets created jobs and profits. That gave weapons makers and the armed forces a lot of political power.
-  - A: Incorrect. Defense spending stayed high after the Korean War. Eisenhower calls the arms industry "permanent."
+KEY: D. Explanation: The Cold War supported a much larger permanent military and arms industry than the United States had kept before the Second World War. Defense contracts created jobs and profits, which could give military leaders and weapons makers political influence.
+  - A: Incorrect. The army shrank right after 1945, but the Cold War reversed that. By 1961 Eisenhower calls the arms industry "permanent."
   - B: Incorrect. The draft ended in 1973, twelve years later.
-  - C: Incorrect. The first treaty limiting nuclear tests came in 1963. Eisenhower says he leaves office disappointed about disarmament.
+  - C: Incorrect. The Limited Test Ban Treaty was signed in 1963, after this speech. It limited certain nuclear tests; it did not end all testing.
   - D: Correct. After the Soviets launched Sputnik in 1957, many Americans feared a "missile gap." Both sides spent heavily on bombers, missiles, and nuclear weapons.
 
 **U8-E24** [Topic 8.7 · LO I · Skill 2.B]  Eisenhower's warning against "unwarranted influence" was most likely meant to
@@ -1011,18 +1026,18 @@ KEY: D. Explanation: For the first time, the United States stayed ready for war 
 - (D) argue that the federal government should take over the weapons industry from private companies
 KEY: B. Explanation: Eisenhower was a former general who had led the Allied armies in Europe in the Second World War. His warning carried weight because he knew the military so well. He feared that defense spending could grow beyond what security needed.
   - A: Incorrect. Eisenhower says the country was "compelled" to build its armaments industry. He warns about its influence, not its existence.
-  - B: Correct. Eisenhower says the joining of "an immense military establishment and a large arms industry" could bring a "disastrous rise of misplaced power." He asks citizens to stay alert.
+  - B: Correct. Eisenhower warns that a huge army and a big weapons industry working together could gain too much power. He asks citizens to keep watch.
   - C: Incorrect. Eisenhower calls disarmament "a continuing imperative." He does not call for war.
   - D: Incorrect. Eisenhower warns about the arms industry's influence. He does not propose that the government take it over.
 
 **U8-E25** [Topic 8.7 · LO I · Skill 5.B · Continuity and Change]  The trend Eisenhower describes continued during the Cold War in which of the following ways?
-- (A) American defense factories were turned into car and appliance plants after the Vietnam War ended.
-- (B) The superpowers agreed in 1963 to stop building new nuclear weapons.
+- (A) The United States and the Soviet Union signed the SALT I treaty in 1972 to limit some nuclear missiles.
+- (B) The Non-Proliferation Treaty of 1968 tried to stop the spread of nuclear weapons to more countries.
 - (C) The superpowers sold or gave large amounts of weapons to allies and to sides in proxy wars.
-- (D) Soviet military spending fell steadily from the 1960s to the 1980s.
+- (D) Many Americans protested against the Vietnam War and the draft in the late 1960s.
 KEY: C. Explanation: The arms race did not stop after Eisenhower's warning. Both superpowers built more weapons. They also armed friends in Asia, Africa, and Latin America, which made many local wars deadlier.
-  - A: Incorrect. Defense factories kept running after Vietnam, and spending rose again in the 1980s.
-  - B: Incorrect. The 1963 treaty banned nuclear tests in the air, in space, and under water. It did not stop either side from building weapons.
+  - A: Incorrect. SALT I set limits on some weapons. It slowed the buildup rather than continuing it.
+  - B: Incorrect. The treaty tried to limit nuclear weapons, which worked against the trend Eisenhower describes.
   - C: Correct. Both superpowers armed allies and the sides in proxy wars, from the Middle East to Africa and Latin America. Selling weapons became a huge business.
-  - D: Incorrect. Soviet military spending grew and took a large share of the economy.
+  - D: Incorrect. The protests opposed a war. They did not continue the growth of the arms industry.
 
