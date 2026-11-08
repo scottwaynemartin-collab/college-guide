@@ -182,7 +182,7 @@ out = {
         "title": "Unit 4 Practice Exam: Scientific, Philosophical, and Political Developments",
         "timeMinutes": 25,
         "questionCount": len(EXAM),
-        "directions": "Each set of questions refers to a source: a primary source, a historian's writing, an image, or data. For each question, choose the best answer. Use the source and your knowledge of European history from c. 1648 to c. 1815. There is no penalty for guessing. Some sources use historical labels or words for groups of people that are no longer used; these words show the language of their time.",
+        "directions": "Each set of questions refers to a source: a primary source, a historian's writing, an image, or data. For each question, choose the best answer. Use each source and your knowledge of the Scientific Revolution, the Enlightenment, and related European developments. There is no penalty for guessing. Some sources use historical labels or words for groups of people that are no longer used; these words show the language of their time.",
         "questions": EXAM,
     },
 }

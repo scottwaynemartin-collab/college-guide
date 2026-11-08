@@ -166,14 +166,14 @@
    "width": 960,
    "height": 719,
    "alt": "A dark room lit by one candle. A gray-haired man in a red robe stands behind a table with his hand on top of a glass globe that holds a white bird. A pump stands under the globe. Men, women, and children gather around the table; some watch closely and two girls look upset.",
-   "caption": "A gray-haired man in a red robe stands at a table in a private home at night. His hand rests on a valve at the top of a large glass globe, and a white bird lies at the bottom of the globe. Below the globe is a pump that can draw air out of it. Around the table, a family and their guests watch by the light of one candle. An older man points upward as he speaks to two girls, one of whom covers her eyes. A young couple looks at each other, a boy watches closely, and a man at right sits staring at the candle. At the window, a boy reaches up to an empty birdcage, and the moon shines outside.",
+   "caption": "A gray-haired man in a red robe stands at a table in a private home at night. His hand rests on a valve at the top of a large glass globe, and a white bird lies at the bottom of the globe. Below the globe is a pump that can draw air out of it. Around the table, a family and their guests watch by the light of one candle. An older man points upward as he speaks to two girls, one of whom covers her eyes. A young couple looks at each other, and a boy watches closely. At the far right, a seated man rests his chin on his hand and looks toward a glass vessel containing a skull, with a candle behind it. At the window, a boy reaches up to an empty birdcage, and the moon shines outside.",
    "attribution": "Joseph Wright of Derby, English painter, An Experiment on a Bird in the Air Pump, oil painting, 1768",
    "credit": "National Gallery, London. Public domain image via Wikimedia Commons.",
-   "description": "An oil painting of a dark room lit only by a candle on a table. In the center, a gray-haired man with long hair, wearing a red robe, looks straight out at the viewer. His raised hand rests on the top of a large glass globe, and inside the globe a white cockatoo lies on its side at the bottom. Under the globe is a brass pump on a wooden stand. On the table in front is a glass bowl of liquid. At left, a young man and woman look at each other, a seated man watches the globe, and a small boy leans in to see. At right, an older man points upward as he speaks to two young girls; the younger girl looks up at the globe with worry, and the older one hides her face with her hand. A man at the far right rests his chin on his hand and stares at the candle. In the back right, a boy at a window reaches up to a hanging birdcage. A full moon shines through the window."
+   "description": "An oil painting of a dark room lit only by a candle on a table. In the center, a gray-haired man with long hair, wearing a red robe, looks straight out at the viewer. His raised hand rests on the top of a large glass globe, and inside the globe a white cockatoo lies on its side at the bottom. Under the globe is a brass pump on a wooden stand. On the table in front is a large glass vessel of liquid with a skull inside, and a candle stands behind it. At left, a young man and woman look at each other, a seated man watches the globe, and a small boy leans in to see. At right, an older man points upward as he speaks to two young girls; the younger girl looks up at the globe with worry, and the older one hides her face with her hand. A man at the far right rests his chin on his hand and looks toward the glass vessel with the skull. In the back right, a boy at a window reaches up to a hanging birdcage. A full moon shines through the window."
   },
   "X4": {
    "type": "bar",
-   "title": "Newspaper Copies Stamped or Sold in Britain, Selected Years, 1753–1792",
+   "title": "Newspaper Stamps and Circulation in Britain, Selected Years, 1753–1792",
    "categories": [
     "1753",
     "1760",
@@ -183,7 +183,7 @@
    ],
    "series": [
     {
-     "name": "Copies sold (millions)",
+     "name": "Reported yearly total, in millions",
      "values": [
       7.41,
       9.46,
@@ -193,8 +193,8 @@
      ]
     }
    ],
-   "yLabel": "Millions of copies",
-   "text": "By law, each copy of a newspaper sold in Britain had to carry a government tax stamp. Andrews's figures for 1753, 1760, and 1775 are the numbers of stamps the government's Stamp Office issued to newspapers. His figures for 1782 and 1792 are yearly newspaper sales that he took from two encyclopedias. Andrews gives all the figures for the whole kingdom. Values are rounded to the nearest hundredth of a million.",
+   "yLabel": "Millions",
+   "text": "By law, each copy of a newspaper sold in Britain had to carry a government tax stamp. Andrews reports the number of newspaper stamps issued for 1753, 1760, and 1775, and yearly circulation figures, which he took from two encyclopedias, for 1782 and 1792. These are related measures of how many newspaper copies went out each year. They are not direct counts of readers. Andrews gives all the figures for the whole kingdom. Values are rounded to the nearest hundredth of a million.",
    "source": "Alexander Andrews, The History of British Journalism, vol. 1 (London, 1859), pp. 211 and 236"
   },
   "X5": {
@@ -422,10 +422,10 @@
    "type": "passage",
    "paragraphs": [
     "… I profess both to learn and to teach anatomy, not from books but from dissections; not from the positions of philosophers but from the fabric of nature …",
-    "But what remains to be said upon the quantity and source of the blood which thus passes, is of so novel and unheard-of character, that I not only fear injury to myself from the envy of a few, but I tremble lest I have mankind at large for my enemies, so much doth wont and custom, that become as another nature, and doctrine once sown and that hath struck deep root, and respect for antiquity influence all men … I frequently and seriously bethought me, and long revolved in my mind, what might be the quantity of blood which was transmitted, in how short a time its passage might be effected, and the like; and not finding it possible that this could be supplied by the juices of the ingested aliment without the veins on the one hand becoming drained, and the arteries on the other getting ruptured through the excessive charge of blood, unless the blood should somehow find its way from the arteries into the veins, and so return to the right side of the heart; I began to think whether there might not be a MOTION, AS IT WERE, IN A CIRCLE. Now this I afterwards found to be true …"
+    "But what remains to be said upon the quantity and source of the blood which thus passes, is of so novel and unheard-of character, that I not only fear injury to myself from the envy of a few, but I tremble lest I have mankind at large for my enemies, so much doth wont and custom, that become as another nature, and doctrine once sown and that hath struck deep root, and respect for antiquity influence all men … I frequently and seriously bethought me, and long revolved in my mind, what might be the quantity of blood which was transmitted, in how short a time its passage might be effected, and the like; and not finding it possible that this could be supplied by the juices of the ingested aliment without the veins on the one hand becoming drained, and the arteries on the other getting ruptured through the excessive charge of blood, unless the blood should somehow find its way from the arteries into the veins, and so return to the right side of the heart; I began to think whether there might not be A MOTION, AS IT WERE, IN A CIRCLE. Now this I afterwards found to be true …"
    ],
    "attribution": "William Harvey, English physician to King Charles I, On the Motion of the Heart and Blood in Animals, written in Latin, 1628. The first paragraph comes from the book's dedication to the president and members of the College of Physicians in London.",
-   "translation": "Translated by Robert Willis (1847), as printed in Everyman's Library (London: J. M. Dent, early 1900s); adapted",
+   "translation": "Translated by Robert Willis, in The Works of William Harvey (London: Sydenham Society, 1847); adapted",
    "glossary": [
     {
      "t": "dissections",
@@ -523,8 +523,8 @@
     "MEN being, as has been said, by nature, all free, equal, and independent, no one can be put out of this estate, and subjected to the political power of another, without his own consent. …",
     "… whenever the legislators endeavour to take away, and destroy the property of the people, or to reduce them to slavery under arbitrary power, they put themselves into a state of war with the people, who are thereupon absolved from any farther obedience … by this breach of trust they forfeit the power the people had put into their hands for quite contrary ends, and it devolves to the people, who have a right to resume their original liberty, and, by the establishment of a new legislative, (such as they shall think fit) provide for their own safety and security, which is the end for which they are in society."
    ],
-   "attribution": "John Locke, English philosopher, Two Treatises of Government, from the Second Treatise, published in London in 1690",
-   "translation": "Adapted",
+   "attribution": "John Locke, English philosopher, Two Treatises of Government, from the Second Treatise, first published in London in 1690",
+   "translation": "Text from Two Treatises of Government, 6th edition (London: A. Millar and others, 1764), with the long s modernized; adapted",
    "glossary": [
     {
      "t": "state of nature",
@@ -646,7 +646,7 @@
     "Nothing flattered her more than her intercourse with the great. She seldom visited them at their own houses (there she was not at her ease), but she had the art of drawing them to hers by a secret and imperceptible flattery."
    ],
    "attribution": "Jean-François Marmontel, French writer and a regular guest at Madame Geoffrin's house in Paris in the 1750s and 1760s, Memoirs, written in the 1790s and published in 1804",
-   "translation": "English translation in Memoirs of Marmontel, vol. 1 (Paris, London, and New York: Société des Bibliophiles, 1900); adapted",
+   "translation": "English translation in Memoirs of Marmontel, vol. 1 (Paris: Société des Bibliophiles; London and New York: Merrill and Baker, c. 1900); adapted",
    "footnotes": [
     {
      "mark": "*",
@@ -682,8 +682,8 @@
     "The coffee house must not be dismissed with a cursory mention. It might indeed at that time have been not improperly called a most important political institution. No Parliament had sat for years. The municipal council of the City had ceased to speak the sense of the citizens. Public meetings, harangues, resolutions, and the rest of the modern machinery of agitation had not yet come into fashion. Nothing resembling the modern newspaper existed. In such circumstances the coffee houses were the chief organs through which the public opinion of the metropolis vented itself.",
     "The first of these establishments had been set up by a Turkey merchant, who had acquired among the Mahometans* a taste for their favourite beverage. … Every man of the upper or middle class went daily to his coffee house to learn the news and to discuss it. … The Court had long seen with uneasiness the growth of this new power in the state. An attempt had been made, during Danby's administration, to close the coffee houses. But men of all parties missed their usual places of resort so much that there was an universal outcry. … Nobody was excluded from these places who laid down his penny at the bar. Yet every rank and profession, and every shade of religious and political opinion, had its own headquarters."
    ],
-   "attribution": "Thomas Babington Macaulay, British historian and politician, The History of England from the Accession of James II, vol. 1, 1848. Macaulay is describing London in 1685.",
-   "translation": "Adapted",
+   "attribution": "Thomas Babington Macaulay, British historian and politician, The History of England from the Accession of James II, vol. 1, 1848. Macaulay is describing London around the beginning of King James II's reign in 1685.",
+   "translation": "Adapted; a period missing from the e-text is restored",
    "footnotes": [
     {
      "mark": "*",
@@ -713,7 +713,7 @@
     },
     {
      "t": "Danby's administration",
-     "d": "the years 1674–1679, when the Earl of Danby was King Charles II's chief minister"
+     "d": "the years 1673–1679, when the Earl of Danby was King Charles II's chief minister"
     },
     {
      "t": "resort",
@@ -781,7 +781,7 @@
    "height": 740,
    "alt": "A painting of three young men in ancient Roman armor stretching out their arms toward three swords held up by an older man, while women and children sit grieving at the right, in a stone hall with three arches.",
    "caption": "In a plain stone hall with three arches, three brothers in ancient Roman helmets and armor stand side by side and stretch out their arms toward three swords. Their father holds the swords up in the center. At the right, the women of the family sit slumped together, weeping, while a woman in the back holds two small children close.",
-   "attribution": "Jacques-Louis David, French painter, The Oath of the Horatii, oil painting, 1784, first shown in Paris in 1785. The painting shows a scene from early Roman history",
+   "attribution": "Jacques-Louis David, French painter, The Oath of the Horatii, oil painting, dated 1784; completed and shown in Paris in 1785. The painting shows a scene from early Roman history",
    "credit": "Musée du Louvre, Paris. Public domain image via Wikimedia Commons.",
    "description": "A large oil painting with a sharp, clear style. The background is a simple stone hall with three round arches held up by plain columns. On the left, three young men in helmets with crests, short tunics, and cloaks stand close together in a line, one behind another. Each stretches an arm out straight toward the center; the man in front holds a spear in his other hand. In the center, an older bearded man in a red cloak raises three swords in one hand and lifts his other hand toward them. On the right, separate from the men, two young women sit slumped against each other with their heads bowed. Behind them, an older woman in a dark blue robe holds two small children."
   },
@@ -792,7 +792,7 @@
     "The children or young patients play together all the rest of the day, and are in perfect health to the eighth. Then the fever begins to seize them, and they keep their beds two days, very seldom three. … Every year thousands undergo this operation … There is no example of any one that has died in it; and you may believe I am well satisfied of the safety of this experiment, since I intend to try it on my dear little son.",
     "I am patriot enough to take pains to bring this useful invention into fashion in England; and I should not fail to write to some of our doctors very particularly about it, if I knew any one of them that I thought had virtue enough to destroy such a considerable branch of their revenue, for the good of mankind."
    ],
-   "attribution": "Lady Mary Wortley Montagu, English writer and wife of the British ambassador to the Ottoman Empire, letter to a friend in England, written from the Ottoman city of Adrianople (Edirne), April 1, 1717; first published in 1763",
+   "attribution": "Lady Mary Wortley Montagu, English writer and wife of the British ambassador to the Ottoman Empire, letter to a friend in England, written from the Ottoman city of Adrianople (Edirne), April 1, 1717 (Old Style); first published in 1763",
    "translation": "Text from Letters of the Right Honourable Lady M—y W—y M—e (London, 1790); adapted",
    "glossary": [
     {
@@ -880,10 +880,10 @@
    "width": 960,
    "height": 1150,
    "alt": "A crowded black-and-white engraving of a London street with ruined buildings. In front, a drunken woman sitting on steps lets her baby fall over a railing. Around her, people drink, fight, pawn their goods, and lie ill.",
-   "caption": "A crowded street in a poor part of London. In front, a woman with sores on her legs sits on a stairway, smiling and too drunk to notice that her baby is falling over the railing. Below her, a very thin man slumps against the wall with a cup in his hand. At the upper left, people hand over tools and a kettle at a pawnbroker's shop. Behind, a crowd drinks and fights outside a shop with a sign shaped like a mug, buildings fall apart, and a body is laid in a coffin in the street. A sign over a cellar door at lower left reads \"Drunk for a Penny, Dead drunk for two pence, Clean Straw for Nothing.\" A church steeple rises in the distance. Lines of verse under the picture begin \"Gin, cursed Fiend, with Fury fraught, / Makes human Race a Prey.\"",
-   "attribution": "William Hogarth, English painter and engraver, Gin Lane, engraving sold as a print in London, 1751",
+   "caption": "A crowded street in a poor part of London. In front, a woman with sores on her legs sits on a stairway, taking snuff as her baby falls over the railing. Below her, a very thin man slumps against the wall with a cup in his hand. At the upper left, people hand over tools and a kettle at a pawnbroker's shop. Behind, a crowd drinks and fights outside a shop with a sign shaped like a mug, buildings fall apart, and a body is laid in a coffin in the street. A sign over a cellar door at lower left reads \"Drunk for a Penny, Dead drunk for two pence, Clean Straw for Nothing.\" A church steeple rises in the distance. Lines of verse under the picture begin \"Gin, cursed Fiend, with Fury fraught, / Makes human Race a Prey.\"",
+   "attribution": "William Hogarth, English painter and printmaker, Gin Lane, etching and engraving published in London, 1751",
    "credit": "National Gallery of Art, Washington. Public domain image via Wikimedia Commons.",
-   "description": "A detailed black-and-white engraving of a London street. In the front center, a half-dressed woman with sores on her legs sits on a staircase, grinning, as her baby slips out of her arms and falls over the stair railing. At the bottom right, a skeleton-thin man sits slumped with a cup and a basket. At the bottom left, a man and a dog gnaw on the same bone, and a large mug labeled \"Gin Royal\" hangs over a cellar door with a sign about being drunk for a penny. At the upper left, a carpenter and a woman hand a saw and a kettle to a pawnbroker. In the middle of the street, crowds drink and fight, and a woman's body is laid in a coffin. On the right, houses are falling down, and in an upper room of a ruined house a body hangs from a beam. In the distance, a church steeple stands above the rooftops. Verses are printed under the picture."
+   "description": "A detailed black-and-white engraving of a London street. In the front center, a half-dressed woman with sores on her legs sits on a staircase taking snuff as her baby slips out of her arms and falls over the stair railing. At the bottom right, a skeleton-thin man sits slumped with a cup and a basket. At the bottom left, a man and a dog gnaw on the same bone, and a large mug labeled \"Gin Royal\" hangs over a cellar door with a sign about being drunk for a penny. At the upper left, a carpenter and a woman hand a saw and a kettle to a pawnbroker. In the middle of the street, crowds drink and fight, and a woman's body is laid in a coffin. On the right, houses are falling down, and in an upper room of a ruined house a body hangs from a beam. In the distance, a church steeple stands above the rooftops. Verses are printed under the picture."
   },
   "P14": {
    "type": "passage",
@@ -933,31 +933,44 @@
   "P15": {
    "type": "passage",
    "paragraphs": [
-    "A great many foreigners, from various causes, cannot have a just notion of the authority that is exercised in France by public opinion. They cannot comprehend the nature of an invisible power which, destitute of treasury, of guards and armies, dictates its laws in the capital, in the court, and even in the king's palace. Nevertheless nothing is more true nor more remarkable …",
-    "I will go still farther: it is the ascendency of public opinion that opposes more obstacles in France to the abuse of power than any other consideration whatsoever. Yes, it is entirely by that opinion, and the esteem in which it is still held, that the nation has a kind of influence, by having it in its power to reward with praise, or punish with contempt. If ever that opinion is entirely despised, or if it ever grows too weak, then liberty will lose its principal support, and there will be a greater necessity than ever that the sovereign should be virtuous and his ministers moderate."
+    "In almost all the towns the exercise of the different arts and trades is concentrated in the hands of a small number of masters, united in corporations, who alone can, to the exclusion of all other citizens, make or sell the articles belonging to their particular industry. Any person who, by inclination or necessity, intends following an art or trade can only do so by acquiring the mastership … after a probation as long and vexatious as it is superfluous. By having to satisfy repeated exactions, the money he had so much need of in order to start his trade or open his workshop has been consumed in mere waste. …",
+    "Citizens of all classes are deprived both of the right to choose the workmen they would employ, and of the advantages they would enjoy from competition operating toward improvements in manufacture and reduction in price. …",
+    "Thus the effects of these establishments are, first, as regards the state, a vast tyranny over trade and industrial work; second, as regards the great body of the people, a loss of wages and the means of subsistence; third, in respect to the inhabitants of towns in general, a slavery to exclusive privileges equivalent to a real monopoly …"
    ],
-   "attribution": "Jacques Necker, banker from Geneva who served as director-general of finances for King Louis XVI of France from 1777 to 1781, On the Administration of the Finances of France, 1784",
-   "translation": "English translation as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (1908); adapted",
+   "attribution": "Anne-Robert-Jacques Turgot, controller general of finances for King Louis XVI of France, preamble to the royal edict abolishing the guilds, February 1776",
+   "translation": "Translated in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (1908); adapted",
    "glossary": [
     {
-     "t": "a just notion",
-     "d": "a correct idea"
+     "t": "arts and trades",
+     "d": "crafts and businesses"
     },
     {
-     "t": "comprehend",
-     "d": "understand"
+     "t": "corporations",
+     "d": "guilds: groups of master craftsmen who controlled a trade in a town"
     },
     {
-     "t": "destitute of",
-     "d": "without"
+     "t": "mastership",
+     "d": "the rank of master in a guild"
     },
     {
-     "t": "ascendency",
-     "d": "power or control"
+     "t": "probation",
+     "d": "a period of testing"
     },
     {
-     "t": "contempt",
-     "d": "scorn"
+     "t": "vexatious",
+     "d": "annoying and troublesome"
+    },
+    {
+     "t": "superfluous",
+     "d": "not needed"
+    },
+    {
+     "t": "exactions",
+     "d": "fees that are demanded"
+    },
+    {
+     "t": "subsistence",
+     "d": "the things people need to live"
     }
    ]
   },
@@ -973,7 +986,7 @@
    "footnotes": [
     {
      "mark": "*",
-     "text": "battles of the French Wars of Religion, fought between Catholics and Huguenots (French Calvinists) from 1562 to 1587"
+     "text": "battles fought between Catholics and Huguenots (French Calvinists) from 1562 to 1587, during the French Wars of Religion, which lasted until 1598"
     }
    ],
    "glossary": [
@@ -999,7 +1012,7 @@
     },
     {
      "t": "Socinian, Memnonist, Moravian",
-     "d": "members of small Protestant groups (the Memnonists are now called Mennonites)"
+     "d": "members of small Protestant groups; \"Memnonist\" is a variant spelling referring to a Mennonite"
     }
    ]
   }
@@ -1031,8 +1044,8 @@
   {
    "id": "E4-P02",
    "set": "P1",
-   "topic": "4.1",
-   "lo": "A",
+   "topic": "4.2",
+   "lo": "B",
    "skill": "3.C",
    "difficulty": "medium",
    "stem": "Both authors would most likely agree that",
@@ -1083,19 +1096,19 @@
    "lo": "B",
    "skill": "3.B",
    "difficulty": "easy",
-   "stem": "Which evidence does Harvey use to support his idea that the blood moves in a circle?",
+   "stem": "In the passage, which evidence does Harvey use to support his idea that the blood moves in a circle?",
    "options": {
     "A": "Galen's writings describe the heart as a pump that moves blood through the whole body.",
-    "B": "The amount of blood the heart sends out is too great to be made from the food a person eats.",
+    "B": "The heart sends out more blood in a short time than the food a person eats could make.",
     "C": "Patients who had been bled by doctors reported that their pulse grew stronger afterward.",
     "D": "Ancient texts teach that blood, like water and air, follows the circular motion of the heavens."
    },
    "answer": "B",
    "explanation": "Harvey thought about how much blood passes through the heart and how fast. Food could not make that much new blood. So he decided that the same blood must return to the heart again and again.",
    "whyNot": {
-    "A": "Harvey writes against the \"respect for antiquity.\" He does not use Galen to support his idea.",
+    "A": "Galen did not describe the heart as a pump; Harvey's own studies showed that it works like one. In the passage, Harvey does not use Galen to support his idea.",
     "C": "Harvey does not mention patients or bleeding. He reasons about how much blood the heart moves.",
-    "D": "Harvey says his idea is \"novel and unheard-of.\" He does not claim ancient texts support it."
+    "D": "In the passage, Harvey supports his idea with his own reasoning about the amount of blood, not with ancient texts. He calls his idea \"novel and unheard-of.\""
    },
    "hint": "Reread the long sentence in the second paragraph. What did Harvey think about \"the quantity of blood\"?"
   },
@@ -1104,7 +1117,7 @@
    "set": "P2",
    "topic": "4.2",
    "lo": "B",
-   "skill": "5.B",
+   "skill": "5.A",
    "difficulty": "medium",
    "stem": "Harvey's conclusion most directly challenged which earlier idea?",
    "options": {
@@ -1121,7 +1134,7 @@
     "D": "Copernicus wrote about the heavens, not the body. Harvey's \"circle\" is the path of the blood."
    },
    "hint": "Harvey says food could not supply all that blood. Whose idea about where blood comes from does that go against?",
-   "reasoning": "Causation"
+   "reasoning": "Comparison"
   },
   {
    "id": "E4-P06",
@@ -1141,7 +1154,7 @@
    "explanation": "In Harvey's time, doctors still learned medicine mostly from Galen and other ancient writers. Harvey says \"wont and custom\" and \"respect for antiquity\" shape what people believe. So he expected doctors to reject a new idea.",
    "whyNot": {
     "A": "Anatomists cut open human bodies in public lessons in this period. Vesalius had done so in Padua in the 1530s and 1540s.",
-    "B": "Harvey published his book in Frankfurt, in Latin. Parliament did not control what physicians printed.",
+    "B": "In Harvey's time, the Crown and Church officials, not Parliament, licensed books in England, and Harvey had this book printed in Frankfurt, Germany. His stated worry is respect for ancient teachings.",
     "D": "No such law existed. In his book, Harvey describes his own experiments on living animals."
    },
    "hint": "Reread the words Harvey uses for why people will resist him: \"wont,\" \"custom,\" and \"antiquity.\""
@@ -1157,14 +1170,14 @@
    "options": {
     "A": "criticize France by praising the freedom that English thinkers enjoyed",
     "B": "prove that Descartes's ideas about the universe were better than Newton's",
-    "C": "warn English readers not to trust scientific ideas that came from France",
+    "C": "urge the French king to found a scientific academy like England's Royal Society",
     "D": "persuade scientists to stay out of arguments about religion"
    },
    "answer": "A",
    "explanation": "Voltaire shows that England buried Newton like a king, while Descartes was falsely called an atheist. He says Newton was lucky to live \"in a country of liberty.\" Readers in France would see the contrast with their own country.",
    "whyNot": {
     "B": "Voltaire calls Newton the \"destroyer of the Cartesian system.\" He sides with Newton's ideas.",
-    "C": "Voltaire was French and was writing mainly for French readers. He praises England, not France.",
+    "C": "France already had a royal Academy of Sciences, founded in 1666. Voltaire compares how freely each country let its thinkers work and how it honored them.",
     "D": "Voltaire does not tell scientists to avoid religion. He says Descartes was unfairly attacked by religious critics."
    },
    "hint": "Voltaire was a French writer. How would his French readers feel when he praised England?"
@@ -1186,11 +1199,11 @@
    "answer": "D",
    "explanation": "Voltaire explained Newton's science in lively, easy language. He used it to show that reason could replace old beliefs. Writing like his helped carry the Scientific Revolution into the Enlightenment.",
    "whyNot": {
-    "A": "Voltaire was a writer, not an experimenter. Newton and other scientists tested his laws.",
+    "A": "Voltaire did carry out some scientific experiments, but the contribution shown here is his explaining and promoting Newton's ideas for readers.",
     "B": "The Royal Society was founded in 1660, before Voltaire was born.",
-    "C": "The Church did not adopt Newton's physics in the 1730s. Voltaire's Letters were banned and burned in Paris in 1734."
+    "C": "The passage shows ideas spreading through writing, not a change in what Catholic schools taught. In fact, Voltaire's Letters were banned and burned in Paris in 1734."
    },
-   "hint": "Voltaire did not do science himself. What did he do with Newton's ideas?",
+   "hint": "How could a writer help scientific ideas reach people who did not do scientific research themselves?",
    "reasoning": "Causation"
   },
   {
@@ -1198,7 +1211,7 @@
    "set": "P3",
    "topic": "4.2",
    "lo": "B",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "The \"attraction\" that Voltaire says Newton used to explain nature refers to",
    "options": {
@@ -1214,7 +1227,7 @@
     "B": "Inertia is one of Newton's ideas, but it is not a pull between bodies. It does not explain the tides.",
     "D": "Crystal spheres were part of the old picture of the heavens that Newton's work replaced."
    },
-   "hint": "Think of Newton's most famous law. What does it say about the Moon and the Earth?"
+   "hint": "Voltaire links Newton's \"attraction\" to the Moon and the tides. Which of Newton's ideas explains how the Moon can pull on the sea?"
   },
   {
    "id": "E4-P10",
@@ -1254,11 +1267,11 @@
     "D": "the revolt of the Dutch provinces against the rule of the Spanish king in the 1500s"
    },
    "answer": "C",
-   "explanation": "England fought a civil war in the 1640s over the king's power. In the Glorious Revolution of 1688, Parliament replaced James II with William and Mary. Locke's book, published in 1690, was used to defend that change.",
+   "explanation": "England fought a civil war in the 1640s over the king's power. During the Glorious Revolution of 1688–1689, James II fled England, and Parliament offered the crown to William and Mary in 1689. Locke's book, published in 1690, was used to defend that change.",
    "whyNot": {
     "A": "The Thirty Years' War ended in 1648. Locke's arguments respond to quarrels between English kings and Parliament.",
     "B": "Louis XIV built strong royal power in France. Locke is answering a question that divided England.",
-    "D": "The Dutch Revolt began a century before Locke wrote. English events in the 1600s mattered far more to him."
+    "D": "The Dutch Revolt began in the 1560s, more than a century before Locke wrote. English events of the 1600s mattered far more to him."
    },
    "hint": "Locke was English, and his book came out in 1690. What had just happened to England's king?",
    "reasoning": "Causation"
@@ -1284,7 +1297,7 @@
     "C": "Louis XIV took rights away from Protestants in 1685. That is the kind of rule Locke opposed.",
     "D": "Catherine kept absolute power for herself. Locke argued that rulers who abuse their power can be replaced."
    },
-   "hint": "Locke says the people may set up \"a new legislative.\" When did people in the late 1700s do that?",
+   "hint": "Locke says the people may set up \"a new legislative.\" Which later events did people defend with that idea?",
    "reasoning": "Causation"
   },
   {
@@ -1305,7 +1318,7 @@
    "explanation": "Montesquieu describes three powers: making laws, carrying them out, and judging cases. He says that when one person or group holds them all, tyranny follows. This idea is called the separation of powers.",
    "whyNot": {
     "A": "Montesquieu warns against giving the three powers to one body, \"whether of the nobles or of the people.\"",
-    "B": "He says liberty is lost if the judge becomes the lawmaker.",
+    "B": "He says there is \"no liberty if the judiciary power be not separated from the legislative and executive.\" Judges who made laws would join two powers.",
     "D": "He says there is \"no liberty\" when one person holds both the lawmaking and the executive powers."
    },
    "hint": "What does Montesquieu say happens when the powers are \"united\"?"
@@ -1313,25 +1326,25 @@
   {
    "id": "E4-P14",
    "set": "P5",
-   "topic": "4.5",
-   "lo": "F",
+   "topic": "4.3",
+   "lo": "C",
    "skill": "2.B",
    "difficulty": "medium",
-   "stem": "Montesquieu's description of \"Turkey\" most directly reflects",
+   "stem": "Montesquieu most likely uses the example of \"Turkey\" in order to",
    "options": {
-    "A": "a European tendency to picture Asian empires as examples of tyranny",
-    "B": "what Montesquieu learned while serving as France's ambassador in Istanbul",
-    "C": "the Ottoman sultan's recent decision to share power with an elected parliament",
-    "D": "the Ottoman Empire's defeat of the Habsburg army outside Vienna in 1683"
+    "A": "warn European readers that concentrating power could threaten their own liberty",
+    "B": "show that liberty depended on a ruler's Christian rather than Muslim faith",
+    "C": "justify rulers' control of the courts as a safeguard against tyranny",
+    "D": "demonstrate that large, expanding empires required stronger central governments than small states"
    },
    "answer": "A",
-   "explanation": "European writers often used Asian empires as a picture of what they feared at home. Montesquieu calls the Ottoman sultan a ruler whose subjects \"groan\" under oppression. He knew the empire only from books and travelers' reports.",
+   "explanation": "Montesquieu uses the sultan as an example of a ruler who holds all three powers. The example supports his warning that liberty is in danger whenever making, carrying out, and judging laws are combined. Many European writers of his time pictured Asian empires this way.",
    "whyNot": {
-    "B": "Montesquieu never served as an ambassador and never went to the Ottoman Empire. He knew it only from books and travelers' reports.",
-    "C": "The Ottoman Empire did not have an elected parliament until 1876.",
-    "D": "The Ottomans lost the battle at Vienna in 1683. Their defeat does not explain Montesquieu's description."
+    "B": "Montesquieu ties oppression to how power is combined, not to the ruler's religion.",
+    "C": "Montesquieu says the opposite: there is \"no liberty\" when the judging power is joined to the other powers.",
+    "D": "In this passage, Montesquieu does not discuss the size of empires. He blames the sultan's oppression on joining all three powers in one person."
    },
-   "hint": "Think about how European writers of the 1700s often described rulers in Asia."
+   "hint": "Montesquieu writes for European readers. What lesson did he want them to draw from the sultan's power?"
   },
   {
    "id": "E4-P15",
@@ -1375,7 +1388,7 @@
    "explanation": "Beccaria asks what punishment is for. He says its purpose is to prevent crime, not to cause pain. He uses reason to show that torture and the death penalty do more harm than good.",
    "whyNot": {
     "A": "Beccaria does not judge crimes as sins. He asks what punishment is useful for society.",
-    "B": "Beccaria says that custom has kept cruel practices like torture alive. He wants to test laws by reason.",
+    "B": "Beccaria judges punishments by whether they prevent crime, not by how old they are. He asks whether it is not \"absurd\" for the law to put people to death.",
     "C": "Beccaria says nothing about who should sit on the courts. He writes about the purpose of punishment."
    },
    "hint": "Beccaria asks whether punishments are useful. What does that tell you about how he tests a law?"
@@ -1390,7 +1403,7 @@
    "stem": "Beccaria's praise of the \"benevolent monarchs\" on Europe's thrones suggests that he hoped",
    "options": {
     "A": "the people would overthrow kings who refused to change the laws",
-    "B": "the Catholic Church would take control of the criminal courts",
+    "B": "judges would be free to choose punishments case by case, using their own sense of justice",
     "C": "powerful rulers would use their power to make his reforms",
     "D": "elected assemblies would soon replace kings as the lawmakers of Europe's states"
    },
@@ -1398,10 +1411,10 @@
    "explanation": "Many Enlightenment writers hoped that strong rulers would make reforms from the top. Beccaria calls Europe's kings \"fathers of their people.\" He wanted them to rewrite the laws.",
    "whyNot": {
     "A": "Beccaria praises Europe's monarchs. He does not call for revolution.",
-    "B": "Beccaria wants laws based on reason, not control by the Church.",
+    "B": "Beccaria wanted clear, fixed laws made by lawmakers. He did not want judges to decide punishments by their own opinions.",
     "D": "Beccaria praises the monarchs themselves. He does not ask for assemblies to take their place."
    },
-   "hint": "Beccaria calls the monarchs \"benevolent.\" What did he want them to do with their power?"
+   "hint": "Reread the last paragraph. What does Beccaria say would make mankind \"happy,\" and whom does he see on Europe's thrones?"
   },
   {
    "id": "E4-P18",
@@ -1432,11 +1445,11 @@
    "set": "P7",
    "topic": "4.3",
    "lo": "D",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "The gatherings Marmontel describes are best understood as an example of",
    "options": {
-    "A": "academies of science, which monarchs set up to pay for research",
+    "A": "scientific academies, whose members met formally to discuss research",
     "B": "Masonic lodges, where members swore to keep their meetings secret",
     "C": "salons, where hosts brought writers, artists, and nobles together to talk",
     "D": "lending libraries, which let readers borrow books for a small fee"
@@ -1444,8 +1457,8 @@
    "answer": "C",
    "explanation": "In Paris, wealthy women hosted salons in their homes. Writers, artists, and nobles met there to share and debate ideas. Madame Geoffrin's salon was one of the most famous.",
    "whyNot": {
-    "A": "Royal academies were official bodies. Madame Geoffrin's dinners took place in her own home.",
-    "B": "Masonic lodges were clubs with secret rituals. Marmontel describes open dinners hosted by a woman.",
+    "A": "Academies were formal bodies with elected members and rules. Madame Geoffrin's dinners were private gatherings in her own home.",
+    "B": "Marmontel describes private dinners hosted by Madame Geoffrin, not a lodge with formal membership and secret rituals.",
     "D": "A library lends books. Marmontel describes dinners where guests talked."
    },
    "hint": "Who is the host, and where do the guests meet?"
@@ -1484,17 +1497,17 @@
    "options": {
     "A": "giving some wealthy women a leading role in sharing new ideas",
     "B": "replacing printed books and journals as the main way new ideas reached readers",
-    "C": "keeping talk about new ideas inside the king's court at Versailles",
+    "C": "letting artisans and shopkeepers debate new ideas as equals with nobles and writers",
     "D": "ending the French government's censorship of books and newspapers"
    },
    "answer": "A",
-   "explanation": "Salon hostesses chose the guests and guided the talk. Through their salons, women such as Madame Geoffrin helped spread new ideas, even though they were shut out of universities and politics.",
+   "explanation": "Salon hostesses chose the guests and guided the talk. Women such as Madame Geoffrin helped spread new ideas this way. At the time, French women could not attend universities or hold government offices.",
    "whyNot": {
     "B": "Salon guests discussed books and journals. Salons added to print; they did not replace it.",
-    "C": "Salons met in private homes in Paris. Marmontel says Madame Geoffrin drew the great to her own house.",
+    "C": "Salons were private, invitation-only gatherings of writers, artists, and nobles. Artisans and shopkeepers met in taverns, clubs, and coffeehouses instead.",
     "D": "France still censored books. The Encyclopédie was banned in 1759."
    },
-   "hint": "Who ran these gatherings, and what part did she play?",
+   "hint": "Who came to these dinners, and who did not? How could talk at such dinners spread new ideas?",
    "reasoning": "Causation"
   },
   {
@@ -1506,15 +1519,15 @@
    "difficulty": "easy",
    "stem": "Macaulay's main claim about the coffee houses is that they",
    "options": {
-    "A": "were set up by the king's government to spread official news among the people of London and Westminster",
+    "A": "took over Parliament's job of making laws for London while no Parliament was sitting",
     "B": "were meant for nobles and great merchants who could pay high prices for coffee",
-    "C": "were places where public opinion was formed and voiced at a time when other outlets were missing",
+    "C": "were places where public opinion took shape when other ways to voice it were limited",
     "D": "served mainly as offices where merchants arranged trade with the Ottoman Empire"
    },
    "answer": "C",
-   "explanation": "Macaulay says that in 1685 there was no Parliament meeting and no real newspaper. So Londoners met in coffee houses to share news and argue about politics. He calls them \"the chief organs\" of public opinion.",
+   "explanation": "Macaulay argues that coffee houses gave Londoners key places to share news and voice political opinions when other outlets were limited. His mention of \"the modern newspaper\" compares the 1680s with the press of his own time, the 1800s. Newspapers such as the official London Gazette already existed in England.",
    "whyNot": {
-    "A": "Macaulay says the Court was uneasy about the coffee houses and once tried to close them.",
+    "A": "Macaulay says the coffee houses voiced public opinion, not that they made laws. The Court even tried to close them.",
     "B": "Macaulay says anyone who paid \"his penny at the bar\" could come in.",
     "D": "The first coffee house was started by a Turkey merchant, but Macaulay says people came to discuss the news."
    },
@@ -1532,14 +1545,14 @@
     "A": "the Agricultural Revolution, which had freed most English workers from farm labor by the 1680s",
     "B": "the growth of European trade with Asia, Africa, and the Americas, which brought new goods",
     "C": "the repeal of the Navigation Acts, which had limited the goods that could enter England",
-    "D": "Charles II's laws encouraging his subjects to debate politics in public places"
+    "D": "the restoration of Charles II in 1660, which ended a Puritan ban on coffee drinking"
    },
    "answer": "B",
    "explanation": "Coffee came to Europe through trade with the Ottoman Empire, and later from colonies in Asia and the Americas. Growing trade made coffee, tea, sugar, and tobacco cheap enough for many people. That helped coffee houses spread.",
    "whyNot": {
     "A": "In the 1680s most English people still worked on farms. The big changes in farming came later.",
     "C": "The Navigation Acts stayed in force until 1849.",
-    "D": "Macaulay says the Court tried to close the coffee houses, not encourage them."
+    "D": "There was no Puritan ban on coffee. London's first coffee houses opened in the 1650s, when England was a Puritan-led republic."
    },
    "hint": "Where did the coffee come from? How did it get to London?"
   },
@@ -1616,45 +1629,45 @@
   {
    "id": "E4-P27",
    "set": "P9",
-   "topic": "4.4",
-   "lo": "E",
+   "topic": "4.5",
+   "lo": "F",
    "skill": "3.D",
    "difficulty": "medium",
    "stem": "Which of the following, if true, would most challenge Hume's claim that refinement leads people to \"indulge\" less in excess?",
    "options": {
-    "A": "Reading clubs and debating societies spread to many British towns during the 1700s.",
-    "B": "Britain fought several wars against France for colonies and trade during the 1700s.",
-    "C": "Potters such as Josiah Wedgwood made fine plates and vases for middle-class buyers.",
-    "D": "Gin drinking and crime rose sharply among London's poor in the 1730s and 1740s."
+    "A": "Reading clubs and debating societies spread to many British towns and cities during the 1700s.",
+    "B": "Britain fought several costly wars against France for colonies and trade during the 1700s.",
+    "C": "Potters such as Josiah Wedgwood made fine plates and vases for middle-class buyers across Britain.",
+    "D": "Wealthy Londoners who bought fine goods and joined fashionable clubs often drank and gambled heavily."
    },
    "answer": "D",
-   "explanation": "Hume says that the more people refine their pleasures, \"the less will they indulge in excesses of any kind.\" But in London in the 1730s and 1740s, cheap gin caused drunkenness, crime, and many deaths. That evidence goes against his claim.",
+   "explanation": "Hume says that the more people refine their pleasures, \"the less will they indulge in excesses of any kind.\" If the very people who enjoyed fine goods and polite clubs also drank and gambled heavily, that would go against the link he describes.",
    "whyNot": {
     "A": "Reading clubs fit Hume's claim that \"clubs and societies are everywhere formed.\"",
-    "B": "These wars are true, but they do not show whether city people grew more or less excessive in their habits.",
+    "B": "These wars are true, but they do not show whether refined people grew more or less excessive in their habits.",
     "C": "Fine pottery for middle-class buyers fits Hume's picture of refined taste spreading."
    },
-   "hint": "First decide what Hume predicts about how people behave in cities. Then test each choice against that prediction."
+   "hint": "Identify the link Hume predicts. Which choice would show the opposite link among the people he describes?"
   },
   {
    "id": "E4-P28",
    "set": "P10",
    "topic": "4.5",
    "lo": "F",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "The painting is an example of which artistic style?",
    "options": {
-    "A": "Baroque art, which used drama, motion, and rich color to glorify the Church and kings",
-    "B": "Neoclassicism, which used stories from ancient Greece and Rome to teach civic virtue",
-    "C": "Romanticism, which celebrated strong feeling, wild nature, and the individual",
-    "D": "Rococo art, which showed playful scenes of nobles enjoying love and leisure"
+    "A": "Baroque",
+    "B": "Neoclassicism",
+    "C": "Romanticism",
+    "D": "Rococo"
    },
    "answer": "B",
    "explanation": "Neoclassical artists copied the clean lines and plain settings of ancient art. David chose a story from early Rome. The brothers' oath shows citizens putting their country first.",
    "whyNot": {
-    "A": "Baroque artists, such as Bernini and Rubens, filled scenes with swirling motion and showed saints or kings. David's scene is calm, plain, and taken from Roman history.",
-    "C": "Romantic painters came later, in the early 1800s, and often showed wild nature. David shows a planned, orderly scene of duty.",
+    "A": "Baroque art of the 1600s used swirling motion, rich color, and dramatic light, often to glorify the Church and kings. David's figures stand still in a plain, orderly space.",
+    "C": "Romantic painters came later, in the early 1800s, and stressed strong feeling, wild nature, and the individual. David shows a planned, orderly scene of duty.",
     "D": "Rococo paintings show light, playful scenes of aristocrats. David's painting is serious and stern."
    },
    "hint": "Look at the clothing, the setting, and the story in the title. What time period do they come from?"
@@ -1664,23 +1677,23 @@
    "set": "P10",
    "topic": "4.5",
    "lo": "F",
-   "skill": "4.A",
+   "skill": "3.A",
    "difficulty": "medium",
-   "stem": "In the 1780s, paintings like this one most directly expressed which idea?",
+   "stem": "The contrast between the brothers and the grieving women most directly supports which message?",
    "options": {
-    "A": "celebrating the private comforts of family life inside the home",
-    "B": "loyalty to the king as the father of the nation and its protector",
-    "C": "admiration for the simple, natural life of peasants far from cities",
-    "D": "praising citizens who put duty to their country ahead of their own lives"
+    "A": "The comforts of private family life matter more than public affairs and politics.",
+    "B": "Women should take part in public life as equals of men.",
+    "C": "Religious faith gives people the courage to face death in battle.",
+    "D": "Duty to one's country can demand sacrifices that bring suffering to families."
    },
    "answer": "D",
-   "explanation": "Enlightenment writers talked about citizenship and the public good. Neoclassical artists showed heroes from Greece and Rome who served their country. David's brothers swear to fight to the death for Rome.",
+   "explanation": "The brothers' firm, straight arms contrast with the women's slumped bodies and tears. The contrast shows the personal cost of serving the state. The French royal government paid for the painting, so its message about civic duty did not mean that David opposed the monarchy.",
    "whyNot": {
-    "A": "The weeping women show family life, but the painting praises the men who leave it for their country.",
-    "B": "No king appears in the painting. The brothers swear loyalty to Rome itself, not to a ruler.",
-    "C": "The painting shows Roman warriors taking an oath in a stone hall, not peasants in the countryside."
+    "A": "The painting shows the women's grief, but the men turn away from the family to take their oath.",
+    "B": "The painting sets the women apart in private grief while the men act for the state. Like many works of its time, it treats public duty as men's role.",
+    "C": "The brothers swear on swords held by their father, not on a cross or holy book. Neoclassical art stressed duty to the state, not religious faith."
    },
-   "hint": "What are the brothers promising? Who are they promising it for?"
+   "hint": "Compare the two groups. What are the men doing, and how do the women react?"
   },
   {
    "id": "E4-P30",
@@ -1689,21 +1702,21 @@
    "lo": "F",
    "skill": "5.B",
    "difficulty": "medium",
-   "stem": "Compared with much European art of the 1600s, the painting shows a shift toward",
+   "stem": "Compared with Baroque paintings of the 1600s, this painting places greater emphasis on",
    "options": {
-    "A": "scenes of the everyday lives of peasants and workers rather than stories about ancient heroes",
-    "B": "the use of religious symbols to support the Catholic Church against Protestants",
-    "C": "large paintings made for church altars rather than for public exhibitions",
-    "D": "calm, orderly scenes of public virtue instead of religious glory and royal splendor"
+    "A": "the glory of the French king, shown through ancient heroes who stood for the monarch himself",
+    "B": "rich color and dramatic contrasts of light and shadow",
+    "C": "intense emotion, shown through the weeping women at the right",
+    "D": "civic duty, shown through a plain setting and an orderly classical composition"
    },
    "answer": "D",
-   "explanation": "Much art of the 1600s was Baroque: dramatic, crowded, and made to glorify the Church or kings. By the 1780s, Neoclassical painters used calm, simple scenes. Their subject was the duty of citizens.",
+   "explanation": "David uses an ancient Roman story and a strongly ordered design to stress public duty and sacrifice. This change did not end religious art, royal commissions, or strong emotion in painting.",
    "whyNot": {
-    "A": "David's painting shows ancient Roman heroes, not peasants.",
-    "B": "The painting has no religious symbols. Supporting the Church was a goal of Baroque art in the 1600s.",
-    "C": "The painting was shown in a public exhibition in Paris, not placed on a church altar."
+    "A": "Baroque artists often showed kings as gods or ancient heroes. David's brothers swear an oath to their country, not to a king, so the painting stresses royal glory less, not more.",
+    "B": "Baroque painters such as Caravaggio and Rubens used even stronger contrasts of light and dark and richer color. David's color and light are controlled and serve a clear, orderly design.",
+    "C": "Baroque artists such as Bernini and Rubens stressed intense emotion and movement even more. David sets the women's grief off to one side of a strictly ordered scene."
    },
-   "hint": "Think about what Baroque art showed. What is different about David's subject and style?",
+   "hint": "Think about what many Baroque works celebrated. What does David's painting celebrate instead, and how is it arranged?",
    "reasoning": "Continuity and Change"
   },
   {
@@ -1716,15 +1729,15 @@
    "stem": "The practice Montagu describes is most directly connected to which 18th-century development?",
    "options": {
     "A": "the disappearance of the plague as a major epidemic disease in western Europe",
-    "B": "the germ theory, which showed that tiny living things cause disease",
+    "B": "the use of quarantine to keep ships away from ports where smallpox had broken out",
     "C": "the spread of inoculation, which lowered the number of deaths from smallpox",
     "D": "Harvey's discovery that the heart pumps blood around the body"
    },
    "answer": "C",
-   "explanation": "The old women put a little matter from a mild smallpox sore into a cut. The person caught a mild case and was then safe from the deadly kind. This is called inoculation. Montagu helped bring it to England in the 1720s.",
+   "explanation": "The practice was smallpox inoculation, also called variolation. Matter from a smallpox sore was put into a small cut. People who survived were usually protected from catching smallpox again. It was less dangerous than catching smallpox naturally, but it could still cause serious illness or death and could spread the disease. It was different from Jenner's later vaccination with cowpox. Montagu helped bring it to England in the 1720s.",
    "whyNot": {
     "A": "Plague did fade in the 1700s, but Montagu is writing about smallpox.",
-    "B": "Germ theory came in the late 1800s, long after this letter.",
+    "B": "Montagu describes giving people a mild case on purpose, not keeping the sick away from others.",
     "D": "Harvey's work on the blood came about 90 years earlier and is not about smallpox."
    },
    "hint": "What does the old woman put into the cut? What happens to the patients afterward?"
@@ -1734,7 +1747,7 @@
    "set": "P11",
    "topic": "4.4",
    "lo": "E",
-   "skill": "2.B",
+   "skill": "3.A",
    "difficulty": "medium",
    "stem": "Montagu's comment about English doctors suggests that she expected them to",
    "options": {
@@ -1761,15 +1774,15 @@
    "difficulty": "medium",
    "stem": "Montagu's letter is an example of how, in the 1700s,",
    "options": {
-    "A": "European rulers sent doctors to study medicine at universities in Asia and Africa",
-    "B": "travel writing exposed Europeans to the practices and customs of peoples outside Europe",
-    "C": "European scientists rejected any practice that did not appear in ancient Greek texts",
-    "D": "Ottoman sultans spread new medical practices to Europe through official treaties"
+    "A": "European rulers sent doctors to study medicine at universities in Asia and North Africa",
+    "B": "travel writing showed British readers Ottoman customs and could challenge ideas of European superiority",
+    "C": "European scientists rejected any medical practice that did not appear in ancient Greek texts",
+    "D": "Ottoman sultans spread new medical practices to Europe through official treaties with Britain"
    },
    "answer": "B",
-   "explanation": "Letters and travel books by Europeans abroad were popular in the 1700s. They showed readers how people in other places lived. Some of these writings, like Montagu's, challenged European ideas.",
+   "explanation": "Montagu describes a practice she saw in Ottoman society and urges the English to adopt it. Her letter shows how travel writing could question the idea that European ways were always better.",
    "whyNot": {
-    "A": "Montagu learned about the practice while she lived in the Ottoman Empire. No doctors were sent there to study it.",
+    "A": "The letter does not describe any mission sent by a government to study at foreign universities.",
     "C": "Many Europeans were curious about practices from other places. Inoculation spread in Britain in the 1720s.",
     "D": "Montagu learned of the practice from local people, not from the sultan or any treaty."
    },
@@ -1803,23 +1816,23 @@
    "set": "P12",
    "topic": "4.4",
    "lo": "E",
-   "skill": "1.B",
-   "difficulty": "medium",
+   "skill": "1.A",
+   "difficulty": "easy",
    "stem": "The change from \"common cultivation\" to \"separate occupation\" that Prothero describes refers to",
    "options": {
-    "A": "enclosure, in which open fields and common lands were fenced into private farms",
-    "B": "the end of serfdom, which freed English peasants from forced labor for their lords",
-    "C": "the putting-out system, in which merchants paid rural families to make cloth at home",
-    "D": "crop rotation, in which farmers planted turnips and clover instead of leaving fields empty"
+    "A": "enclosure",
+    "B": "the end of serfdom in England",
+    "C": "the putting-out system",
+    "D": "the Norfolk four-course crop rotation"
    },
    "answer": "A",
-   "explanation": "Under the old system, villagers farmed strips in big open fields and shared the commons. Enclosure replaced these with fenced farms held by one owner or tenant. Landowners often got Parliament to pass enclosure acts.",
+   "explanation": "Enclosure reorganized who held the land. It limited or ended villagers' shared rights to open fields and commons, and it often joined scattered strips into separate farms. Fences were part of it, but fencing alone does not define it. Landowners often got Parliament to pass enclosure acts.",
    "whyNot": {
     "B": "Serfdom had faded in England centuries earlier, by about 1500.",
     "C": "The putting-out system was about making cloth, not about who farmed the land.",
     "D": "Crop rotation was one of the new methods, but it is not a change in who held and worked the land."
    },
-   "hint": "Compare the two glossary entries. What changed about who controlled the land?"
+   "hint": "Is the passage describing a change in land rights, in farming methods, or in making goods?"
   },
   {
    "id": "E4-P36",
@@ -1830,7 +1843,7 @@
    "difficulty": "medium",
    "stem": "The \"divorce of the peasantry from the soil\" that Prothero describes contributed most directly to",
    "options": {
-    "A": "a fall in England's population during the second half of the 1700s",
+    "A": "the emigration of most displaced villagers to Britain's colonies in North America",
     "B": "the creation of England's first poor laws to help people who had no work",
     "C": "the spread of serfdom to farm workers in Britain and other parts of western Europe",
     "D": "the movement of rural people into towns and cities in search of work"
@@ -1838,7 +1851,7 @@
    "answer": "D",
    "explanation": "When villagers lost their land and common rights, many had to work for wages. Farms now needed fewer workers. So many people moved to towns and cities, where new industries needed workers.",
    "whyNot": {
-    "A": "England's population grew quickly in the late 1700s.",
+    "A": "Some people did emigrate, but most rural people who lost land moved to English towns and industrial areas to find wage work.",
     "B": "England's main poor law was passed in 1601, and earlier ones date from the 1500s, long before these changes.",
     "C": "Serfdom spread in eastern Europe, not western Europe, and it had grown there earlier."
    },
@@ -1854,7 +1867,7 @@
    "difficulty": "easy",
    "stem": "Hogarth most likely made this print in order to",
    "options": {
-    "A": "advertise the gin sold by London's distillers and gin shops",
+    "A": "argue that beer was as harmful to London's poor as gin",
     "B": "support efforts to limit the sale of cheap gin to London's poor",
     "C": "argue that the poor should be moved out of London to farms",
     "D": "criticize the Church of England for ignoring the city's poor"
@@ -1862,7 +1875,7 @@
    "answer": "B",
    "explanation": "Hogarth shows gin causing neglect, poverty, and death. He made the print in 1751, the year Parliament passed a law to raise taxes on gin and limit who could sell it. He wanted his print to push people to support that law.",
    "whyNot": {
-    "A": "Every scene shows harm from gin, so the print is not an advertisement.",
+    "A": "Hogarth published Gin Lane with a companion print, Beer Street, which shows beer drinkers as healthy and busy. He blamed gin, not beer.",
     "C": "The print shows the harm of drinking. It does not suggest moving people to farms.",
     "D": "A church steeple appears in the distance, but the print blames gin for the ruin in the street."
    },
@@ -1920,7 +1933,7 @@
    "set": "P14",
    "topic": "4.6",
    "lo": "G",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "Frederick's description of a ruler's duties best reflects",
    "options": {
@@ -1948,14 +1961,14 @@
    "stem": "Frederick's idea that rulers were first chosen by \"their equals\" differs from older defenses of royal power in that it",
    "options": {
     "A": "says that the nobles should elect each new king when the old king dies",
-    "B": "explains royal power as a duty owed to the people rather than a gift from God",
+    "B": "bases royal power on an agreement among people rather than on God's choice",
     "C": "denies that a king has any right to collect taxes from his subjects",
     "D": "argues that the Church must approve each new king before he can rule"
    },
    "answer": "B",
-   "explanation": "Older writers, such as Bishop Bossuet, said kings got their power from God. Frederick says people gave power to one ruler so he would serve them. He calls the king \"the first servant of the State.\"",
+   "explanation": "Older writers, such as Bishop Bossuet, said kings got their power from God, though they also said kings had duties. Frederick says people agreed to give power to one ruler so he would serve them. He calls the king \"the first servant of the State.\"",
    "whyNot": {
-    "A": "Frederick says nothing about electing kings. He was a hereditary king.",
+    "A": "Frederick describes how rulers first gained power long ago. He does not say nobles should choose each new king; he himself inherited the throne.",
     "C": "Frederick says the army and government need money. He wants taxes used wisely, not ended.",
     "D": "Frederick does not mention the Church. His argument is based on service to the state."
    },
@@ -1971,7 +1984,7 @@
    "difficulty": "medium",
    "stem": "Frederick's focus on the army, finances, and the \"enemies of the State\" is best understood in the context of",
    "options": {
-    "A": "Prussia's growth into a great power in a Holy Roman Empire weakened after 1648",
+    "A": "Prussia's rise as a military rival to Austria in a divided Holy Roman Empire",
     "B": "Prussia's loss of its eastern lands to Russia at the end of the Great Northern War in 1721",
     "C": "the Habsburgs' loss of Hungary to the Ottoman Empire after the siege of Vienna in 1683",
     "D": "the Diplomatic Revolution of 1756, in which Prussia joined France against Britain"
@@ -1980,7 +1993,7 @@
    "explanation": "After 1648, the princes of the Holy Roman Empire ran their own states. Prussia's kings built a large army and a careful tax system. Frederick seized Silesia from Austria in 1740 and kept it, which made Prussia a great power.",
    "whyNot": {
     "B": "Prussia did not lose its eastern lands to Russia. It gained land in the 1700s.",
-    "C": "The Habsburgs defeated the Ottomans at Vienna in 1683 and took Hungary from them by 1699.",
+    "C": "After the Ottoman defeat at Vienna in 1683, the Habsburgs brought most of Hungary under their rule by 1699.",
     "D": "In 1756 Prussia allied with Britain, while Austria allied with its old enemy, France."
    },
    "hint": "Prussia was small but had a very large army. Who did Frederick fight, and why did he need money?"
@@ -1988,71 +2001,71 @@
   {
    "id": "E4-P43",
    "set": "P15",
-   "topic": "4.5",
-   "lo": "F",
+   "topic": "4.3",
+   "lo": "D",
    "skill": "3.A",
    "difficulty": "medium",
-   "stem": "Necker's main claim is that public opinion in France",
+   "stem": "Turgot's main criticism of the guilds is that they",
    "options": {
-    "A": "was controlled by the king through his guards, his armies, and the royal treasury",
-    "B": "acted as a check on the abuse of power even though it had no legal authority",
-    "C": "had less power in France than in other countries of Europe",
-    "D": "should be replaced by an elected assembly that would make France's laws"
+    "A": "trained so many new workers that wages fell for skilled craftsmen in France's towns and cities",
+    "B": "shut most people out of the trades and denied buyers the lower prices that competition brings",
+    "C": "allowed foreign merchants to take control of the trades in France's largest cities",
+    "D": "let the king tax craftsmen more heavily than he taxed nobles and clergy"
    },
    "answer": "B",
-   "explanation": "Necker calls public opinion \"an invisible power.\" It had no army or money, yet even the king's court paid attention to it. Necker says it did more than anything else to stop the abuse of power.",
+   "explanation": "Turgot says guild masters alone could make or sell goods in their trade. Everyone else was shut out, and buyers lost the benefits of competition. He calls this \"a real monopoly.\"",
    "whyNot": {
-    "A": "Necker says public opinion is \"destitute of treasury, of guards and armies.\" The king did not control it.",
-    "C": "Necker says foreigners cannot understand how strong public opinion is in France.",
-    "D": "Necker does not call for an elected assembly. He praises public opinion as it is."
+    "A": "Turgot says the opposite. Guilds limited who could enter a trade, after a probation \"as long and vexatious as it is superfluous.\"",
+    "C": "The preamble does not mention foreign merchants. It says guilds kept out \"citizens\" who were not masters.",
+    "D": "The preamble does not discuss royal taxes on craftsmen. It discusses the guilds' own fees and rules."
    },
-   "hint": "Necker calls public opinion a kind of power. What does it do, and what does it lack?"
+   "hint": "Turgot names harms to the state, to working people, and to town dwellers. What do they have in common?"
   },
   {
    "id": "E4-P44",
    "set": "P15",
-   "topic": "4.5",
-   "lo": "F",
-   "skill": "2.B",
+   "topic": "4.3",
+   "lo": "D",
+   "skill": "1.B",
    "difficulty": "medium",
-   "stem": "Necker's view of public opinion was most likely shaped by his experience as",
+   "stem": "Turgot's arguments in the preamble most closely reflect the ideas of",
    "options": {
-    "A": "a minister who had won the Parlement's approval for new taxes on nobles",
-    "B": "a banker who had grown rich collecting the king's taxes as a tax farmer",
-    "C": "a minister who had governed France while the young king was a child",
-    "D": "a royal minister who had published a report on the king's finances"
+    "A": "mercantilists such as Colbert, who used regulations to build up a nation's industries",
+    "B": "German cameralists, who wanted rulers to manage their states' economies closely",
+    "C": "utopian socialists, who wanted workers to own and run workshops together",
+    "D": "the Physiocrats and Adam Smith, who wanted trade freed from government limits"
    },
    "answer": "D",
-   "explanation": "In 1781, Necker published a report on the king's finances for the public to read. It sold many copies. He knew that his power as a minister depended on the public's trust.",
+   "explanation": "Turgot was a friend of the Physiocrats, French economists who argued that trade should be free of government limits. Adam Smith, whose Wealth of Nations also appeared in 1776, made similar arguments against guilds and monopolies. Both challenged mercantilist controls.",
    "whyNot": {
-    "A": "Necker avoided new taxes and paid for France's costs with loans. Later ministers who tried to tax the nobles were blocked.",
-    "B": "Necker made his fortune as a private banker. Tax farmers were a separate group of financiers whom many people hated.",
-    "C": "Louis XVI was 19 when he became king in 1774. A regent ruled for Louis XV, not Louis XVI."
+    "A": "Colbert used state rules and strengthened the guilds to build French industry. Turgot attacks those rules.",
+    "B": "Cameralists wanted officials to direct the economy. Turgot wants to remove controls on trades.",
+    "C": "Utopian socialists wrote in the early 1800s, after this edict. Turgot defends free competition, not shared ownership."
    },
-   "hint": "Read the attribution. What job did Necker have, and what would he need from the public?"
+   "hint": "Turgot praises competition and attacks monopoly. Which choice names thinkers with the same goals, and which name their opponents?"
   },
   {
    "id": "E4-P45",
    "set": "P15",
-   "topic": "4.5",
-   "lo": "F",
+   "topic": "4.6",
+   "lo": "G",
    "skill": "5.B",
    "difficulty": "medium",
-   "stem": "The power of public opinion that Necker describes grew most directly out of",
+   "stem": "Which of the following best explains why the reform described in the passage was reversed within a few months?",
    "options": {
-    "A": "the regular meetings of the Estates General throughout the 1700s",
-    "B": "Louis XV's creation of an elected national assembly in the 1760s",
-    "C": "the French government's decision to end the censorship of books in the 1750s",
-    "D": "the spread of newspapers and pamphlets and of places to discuss them"
+    "A": "The Estates General met in 1776 and voted to bring the guilds back.",
+    "B": "Philosophes such as Voltaire attacked the edict as a threat to skilled work.",
+    "C": "France's entry into the American War of Independence left the king no money to pay guild masters for their losses.",
+    "D": "Privileged groups, such as guild masters and the Parlement of Paris, fought reforms that cut their rights."
    },
    "answer": "D",
-   "explanation": "In the 1700s, more French people could read. Newspapers, pamphlets, and books spread. People talked about them in cafés and salons. This created a public that judged the king's government.",
+   "explanation": "The Parlement of Paris resisted Turgot's edicts, and Louis XVI had to force it to register them. Guild masters, nobles, and courtiers turned against Turgot. The king dismissed him in May 1776, and the guilds were restored that August. Enlightened reform from above had clear limits in France.",
    "whyNot": {
-    "A": "The Estates General did not meet from 1614 to 1789.",
-    "B": "No French king created an elected assembly before 1789.",
-    "C": "France kept censoring books until the Revolution. The Encyclopédie was banned in 1759."
+    "A": "The Estates General did not meet between 1614 and 1789.",
+    "B": "Voltaire and many other philosophes supported Turgot's reforms.",
+    "C": "France did not enter that war until 1778, two years after the guilds were restored."
    },
-   "hint": "Necker says public opinion had no army or treasury. Where did its power come from?",
+   "hint": "Who lost privileges under the edict? How could they fight back?",
    "reasoning": "Causation"
   },
   {
@@ -2065,16 +2078,16 @@
    "stem": "Voltaire's main argument in the passage is that",
    "options": {
     "A": "Protestants should be forced to become Catholics so that France would have one religion",
-    "B": "France could now safely tolerate its Protestants",
+    "B": "France could safely tolerate its Protestants, because Europe had changed since the religious wars",
     "C": "tolerating Protestants would bring back civil wars like those of the 1500s",
-    "D": "churches should be closed and replaced by the study of science"
+    "D": "French Protestants should leave France and settle in Holland or England, where they would be safe from persecution"
    },
    "answer": "B",
    "explanation": "Some French people feared that Protestants would rebel if treated well. Voltaire says times have changed. He points to countries where people of many faiths live in peace.",
    "whyNot": {
     "A": "Voltaire wants the opposite. He asks for \"paternal indulgence,\" or patience, toward Protestants.",
     "C": "Voltaire calls this fear \"an illogical piece of reasoning.\"",
-    "D": "Voltaire does not want to close churches. He wants people of many faiths to \"live like brothers.\""
+    "D": "Voltaire praises Holland and England as examples. He wants Protestants tolerated in France, not forced to flee, as many had been after 1685."
    },
    "hint": "What do some people fear, and how does Voltaire answer them?"
   },
@@ -2085,21 +2098,21 @@
    "lo": "D",
    "skill": "3.D",
    "difficulty": "medium",
-   "stem": "Which of the following best supports Voltaire's claim that people of many faiths \"live like brothers\" in Holland and England?",
+   "stem": "Which of the following best supports Voltaire's claim that people of different faiths could live together peacefully in Holland and England?",
    "options": {
     "A": "Louis XIV ended the toleration of Protestants in France when he revoked the Edict of Nantes in 1685.",
-    "B": "The Dutch Republic allowed many religious groups to worship, and England passed a Toleration Act in 1689.",
-    "C": "The Peace of Augsburg in 1555 let each German prince choose the religion of his own lands.",
+    "B": "The Dutch Republic tolerated several faiths, and England's 1689 Toleration Act let many Protestant dissenters worship.",
+    "C": "The Peace of Augsburg in 1555 let each German prince choose whether his lands would be Catholic or Lutheran.",
     "D": "Spanish rulers used the Inquisition to punish Protestants in the Spanish Netherlands in the 1500s."
    },
    "answer": "B",
-   "explanation": "The Dutch Republic let Jews, Catholics, and many Protestant groups live and work there. England's Toleration Act let most Protestants outside the Church of England worship freely. These facts back up Voltaire's claim.",
+   "explanation": "These developments show that religious variety could exist alongside peace and order. They did not give equal rights to every group: England's Toleration Act left out Catholics, for example. So they support Voltaire's general point more than his sweeping description.",
    "whyNot": {
     "A": "This is about France, and it shows less toleration, not more.",
-    "C": "The Peace of Augsburg let princes choose a faith for everyone in their lands. It did not let many faiths live side by side.",
+    "C": "The Peace of Augsburg settled relations between Catholic and Lutheran rulers in the Holy Roman Empire. It did not create the broad toleration Voltaire describes in Holland and England.",
     "D": "This shows persecution, and it happened long before Voltaire wrote."
    },
-   "hint": "Supporting evidence must show many faiths living side by side in peace. Check where and when each choice took place."
+   "hint": "Supporting evidence must show different faiths living side by side in peace. Check where and when each choice took place."
   },
   {
    "id": "E4-P48",
@@ -2116,11 +2129,11 @@
     "D": "Edicts in Austria and France granting rights to religious minorities"
    },
    "answer": "D",
-   "explanation": "In 1781, Joseph II let Protestants and Orthodox Christians in his lands worship and hold jobs. In 1787, Louis XVI gave French Protestants legal rights. By 1800, most of western Europe tolerated Christian minorities.",
+   "explanation": "In 1781, Joseph II's Patent of Toleration let Lutherans, Calvinists, and Orthodox Christians in Austria hold private church services. It also let them take more jobs. In 1787, Louis XVI let French Protestants record their births, marriages, and deaths by law. These laws gave minorities more rights, but not full equality.",
    "whyNot": {
     "A": "The Peace of Westphalia was signed in 1648, more than 100 years before Voltaire wrote.",
     "B": "The Catholic Church did not recognize Protestant churches as equals in this period.",
-    "C": "Maria Theresa expelled Prague's Jews in 1744, before Voltaire wrote. Her son Joseph II later gave Jews more rights."
+    "C": "Maria Theresa ordered the expulsion of Prague's Jews in 1744, before Voltaire wrote. That policy limited a religious minority rather than extending its rights."
    },
    "hint": "Think about laws that enlightened rulers passed about religion in the 1780s.",
    "reasoning": "Causation"
@@ -2130,7 +2143,7 @@
   "title": "Unit 4 Practice Exam: Scientific, Philosophical, and Political Developments",
   "timeMinutes": 25,
   "questionCount": 25,
-  "directions": "Each set of questions refers to a source: a primary source, a historian's writing, an image, or data. For each question, choose the best answer. Use the source and your knowledge of European history from c. 1648 to c. 1815. There is no penalty for guessing. Some sources use historical labels or words for groups of people that are no longer used; these words show the language of their time.",
+  "directions": "Each set of questions refers to a source: a primary source, a historian's writing, an image, or data. For each question, choose the best answer. Use each source and your knowledge of the Scientific Revolution, the Enlightenment, and related European developments. There is no penalty for guessing. Some sources use historical labels or words for groups of people that are no longer used; these words show the language of their time.",
   "questions": [
    {
     "id": "E4-E01",
@@ -2171,7 +2184,7 @@
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. The Council of Trent (1545–1563) did not do this. It made the Latin Bible the official text and said only the Church could interpret Scripture.",
+     "A": "Incorrect. The Council of Trent affirmed the authority of the Latin Vulgate Bible and forbade interpretations on matters of faith and morals that went against the Church's judgment. It did not make the decision in this choice.",
      "B": "Incorrect. Luther and other reformers did not support Copernicus. Many quoted the Bible against the idea that the Earth moves.",
      "C": "Correct. After 1609, Galileo's telescope showed moons circling Jupiter and the phases of Venus. These findings backed Copernicus and set off arguments over whether the Bible says the Sun moves.",
      "D": "Incorrect. Jesuit scholars, such as Christopher Clavius, taught mathematics and astronomy in their schools."
@@ -2184,22 +2197,22 @@
     "topic": "4.7",
     "lo": "I",
     "skill": "5.B",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Galileo's letter contributed most directly to which of the following?",
     "options": {
      "A": "Kepler's discovery that the planets move around the Sun in oval paths rather than in perfect circles",
      "B": "The Council of Trent's ruling that the Church had the final say over the meaning of Scripture",
      "C": "The founding of the Royal Society of London, which supported experiments and published papers by scientists from many countries",
-     "D": "Complaints to the Inquisition, which led the Church to condemn Copernican ideas in 1616 and to try Galileo in 1633"
+     "D": "Complaints to the Inquisition that helped bring Copernican teaching under official scrutiny in 1615–1616"
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. Kepler published his first two laws of planetary motion in 1609, before this letter, and he worked from Tycho Brahe's observations, not from Galileo's letter.",
      "B": "Incorrect. The Council of Trent made that ruling in 1546, long before Galileo wrote.",
      "C": "Incorrect. The Royal Society was founded in England in 1660. It grew out of English interest in Bacon's ideas, not this letter.",
-     "D": "Correct. Copies of the letter reached the Inquisition in 1615. In 1616 the Church ruled that the Sun-centered idea went against Scripture, and in 1633 Galileo was tried and forced to take back his views."
+     "D": "Correct. Copies of the letter reached the Inquisition in 1615. In 1616 Church authorities ruled that the Sun-centered idea went against Scripture."
     },
-    "explanation": "Galileo's letter was copied and passed around. Some churchmen sent it to the Inquisition. They said Galileo was claiming the right to explain the Bible. This helped lead to the 1616 ban on teaching that the Earth moves and to his trial in 1633.",
+    "explanation": "Galileo's letter was copied and passed around, and in 1615 copies reached the Inquisition. It became evidence in the fight over Copernican teaching, which Church authorities condemned in 1616. Galileo's later trial in 1633 followed the publication of his Dialogue in 1632.",
     "reasoning": "Causation"
    },
    {
@@ -2208,7 +2221,7 @@
     "topic": "4.2",
     "lo": "B",
     "skill": "3.D",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "Which of the following later developments would best support Galileo's claim that not \"everything that can be known in the world is known already\"?",
     "options": {
      "A": "The Church's decision in 1616 to place Copernicus's book about the Earth's motion on its list of forbidden books",
@@ -2258,17 +2271,17 @@
     "difficulty": "medium",
     "stem": "Condorcet's essay is best understood in the context of",
     "options": {
-     "A": "Catholic Church efforts to open the universities of France to women students",
+     "A": "the Physiocrats' campaign to free the grain trade from royal controls",
      "B": "French revolutionary debates over who should have the rights of citizens",
      "C": "Napoleon's Civil Code, which gave wives the same property rights as their husbands",
-     "D": "laws in Prussia and Austria that let women vote for members of local assemblies"
+     "D": "Joseph II's edicts granting toleration to Protestants and Jews in the Habsburg lands"
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. The Church did not do this. French universities did not admit women in this period.",
+     "A": "Incorrect. The Physiocrats wrote about trade and farming. Condorcet's essay is about women's political rights.",
      "B": "Correct. Condorcet wrote in 1790, after the Declaration of the Rights of Man. He asked why rights given to men were denied to women.",
      "C": "Incorrect. Napoleon's Civil Code came in 1804, after this essay, and it put wives under their husbands' control.",
-     "D": "Incorrect. No such laws existed. Women could not vote in Prussia or Austria."
+     "D": "Incorrect. Joseph II's edicts were about religious minorities in Austria. Condorcet writes about women's citizenship in France."
     },
     "explanation": "In 1789 France's National Assembly declared that men are born free and equal in rights. Condorcet asked why those rights did not apply to women. The Assembly gave the vote only to some men."
    },
@@ -2278,23 +2291,23 @@
     "topic": "4.3",
     "lo": "C",
     "skill": "5.B",
-    "difficulty": "hard",
-    "stem": "Which of the following best describes how debates like the one in the two sources turned out in France in the 1790s and early 1800s?",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes how French revolutionary governments responded to arguments for women's formal political rights in the 1790s?",
     "options": {
      "A": "The National Assembly gave adult women the right to vote in the Constitution of 1791.",
      "B": "The Convention adopted Olympe de Gouges's Declaration of the Rights of Woman as part of French law.",
-     "C": "Napoleon's Civil Code gave married women the same legal rights over family property as their husbands had.",
-     "D": "Revolutionary leaders kept women from voting or holding office and closed women's political clubs in 1793."
+     "C": "The Constitution of 1793 gave women the vote, but it was not put into effect.",
+     "D": "They denied women the vote and closed women's political clubs in 1793."
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. The Constitution of 1791 gave the vote only to men who paid a certain amount in taxes.",
-     "B": "Incorrect. De Gouges's declaration was not adopted. She was executed in 1793.",
-     "C": "Incorrect. The Civil Code of 1804 required wives to obey their husbands and gave husbands control of family property.",
+     "B": "Incorrect. Lawmakers never adopted de Gouges's declaration as law.",
+     "C": "Incorrect. The Constitution of 1793 gave the vote to all adult men, not to women.",
      "D": "Correct. Women did not gain the vote. In October 1793 the Convention banned women's political clubs. Ideas like Rousseau's were often used to justify this."
     },
-    "explanation": "Enlightenment writers and revolutionaries talked about equal rights. But most leaders agreed with Rousseau that women belonged at home. Women were shut out of politics, and Napoleon's laws kept wives under their husbands' control.",
-    "reasoning": "Causation"
+    "explanation": "Women took an active part in revolutionary politics. They marched, petitioned, and formed clubs. But revolutionary governments denied them the vote and closed women's political clubs in 1793.",
+    "reasoning": "Continuity and Change"
    },
    {
     "id": "E4-E08",
@@ -2328,7 +2341,7 @@
     "difficulty": "medium",
     "stem": "The experiment shown in the painting most directly grew out of which earlier development?",
     "options": {
-     "A": "The experimental method, which used instruments like the air pump to test nature",
+     "A": "The work of Robert Boyle and others who used instruments to test ideas about nature",
      "B": "Galen's theory that good health depended on a balance among the four humors of the body",
      "C": "The alchemists' search for a way to change lead and other metals into gold",
      "D": "Descartes's argument that knowledge must start from ideas that cannot be doubted"
@@ -2337,8 +2350,8 @@
     "rationales": {
      "A": "Correct. Robert Boyle and others built air pumps in the 1650s and 1660s to test what happens without air. They followed Bacon's call for experiments.",
      "B": "Incorrect. Galen's ideas about the humors were being challenged in this period. The air pump tests the air, not the humors.",
-     "C": "Incorrect. Alchemists tried to change metals. The air pump tests what happens to a living thing when air is removed.",
-     "D": "Incorrect. Descartes started from clear ideas, not experiments. The painting shows an experiment with an instrument."
+     "C": "Incorrect. This choice is about changing one metal into another. The painting shows a test of what happens when air is removed. Experiments and interest in alchemy could exist side by side.",
+     "D": "Incorrect. Descartes stressed clear principles and step-by-step reasoning, though he also did experiments. He also taught that empty space could not exist, and empty space is what the air pump tried to create."
     },
     "explanation": "Scientists of the 1600s, following Bacon, used new instruments to test nature. Boyle's air pump showed that living things need air. A century later, lecturers repeated his experiment for audiences, as in this painting.",
     "reasoning": "Causation"
@@ -2350,21 +2363,21 @@
     "lo": "F",
     "skill": "4.B",
     "difficulty": "medium",
-    "stem": "Wright's choice to paint a family watching an experiment by candlelight at home is best understood in the context of",
+    "stem": "Wright's choice of subject in this painting is best understood in the context of",
     "options": {
      "A": "Baroque art that glorified kings and the Catholic Church with grand, dramatic, and richly colored scenes",
-     "B": "art that reflected the private lives and interests of commercial and professional families",
-     "C": "Neoclassical art that used scenes from ancient Rome to teach the duties of citizens",
-     "D": "religious art of the Catholic Reformation that showed the suffering of saints"
+     "B": "art that reflected the outlook and values of a growing commercial and professional middle class",
+     "C": "art paid for by the Church of England to warn that science threatened religious faith",
+     "D": "Rococo art that showed aristocrats enjoying games, flirtation, and leisure in elegant rooms"
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. The painting is set in a private home and shows no king or church.",
-     "B": "Correct. In the 1700s, more paintings showed the homes, interests, and private lives of well-off families. Wright painted for buyers in England's growing commercial towns.",
-     "C": "Incorrect. Wright shows a scene from his own time, not one from ancient Rome.",
-     "D": "Incorrect. There are no saints or religious figures in the painting."
+     "A": "Incorrect. Dramatic lighting appears in many kinds of art. Here the subject is a science demonstration in a home, not a celebration of royal or Catholic power.",
+     "B": "Correct. In the 1700s, more paintings reflected the outlook and interests of merchants, manufacturers, and professionals. Wright painted for buyers in England's growing commercial towns.",
+     "C": "Incorrect. The skull and candle may hint at death, but Wright painted for private buyers, not the Church. His subject is a science lesson for a family at home.",
+     "D": "Incorrect. Rococo art showed playful aristocratic leisure. Wright shows a serious scientific demonstration that frightens some of the watchers, painted for buyers in England's commercial towns."
     },
-    "explanation": "During the 1700s, art moved away from showing the glory of kings and the Church. More paintings showed private life and the outlook of merchants, doctors, and other middle-class families. Wright's painting is an example."
+    "explanation": "The painting reflects interest in home life, polite company, and science among well-off families. Such subjects grew more important in the 1700s, alongside the religious and royal works that artists still made."
    },
    {
     "id": "E4-E11",
@@ -2387,7 +2400,7 @@
      "C": "Incorrect. Steam-powered presses were not used to print newspapers until 1814, after the years in the chart.",
      "D": "Correct. More British people could read, and many met in coffeehouses and clubs where newspapers were kept. The demand for news grew."
     },
-    "explanation": "The number of newspaper copies sold in Britain doubled between 1753 and 1782. More people could read, and newspapers were shared and discussed in coffeehouses and clubs."
+    "explanation": "The yearly total more than doubled between 1753 and 1782. That fits a growing market for news, read and discussed in coffeehouses and clubs. The chart does not directly measure how many people could read or how many different people read the news."
    },
    {
     "id": "E4-E12",
@@ -2395,7 +2408,7 @@
     "topic": "4.5",
     "lo": "F",
     "skill": "5.B",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "The trend shown in the chart most directly contributed to which of the following in Britain?",
     "options": {
      "A": "The decline of London's coffeehouses as places where people read and discussed the news",
@@ -2405,12 +2418,12 @@
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. Coffeehouses stayed important. They kept newspapers for their customers to read.",
+     "A": "Incorrect. Coffeehouses kept newspapers for customers, so more papers gave people more reasons to visit them. When some coffeehouses later declined, rising newspaper sales were not the main reason.",
      "B": "Correct. Wilkes was arrested in 1763 for an article that attacked the king's speech. Newspapers spread the story, and crowds rallied behind Wilkes as a hero of free speech.",
      "C": "Incorrect. It went the other way. After a fight with London printers in 1771, Parliament stopped punishing papers that reported its debates.",
      "D": "Incorrect. The Church of England did not gain control over newspapers."
     },
-    "explanation": "As more newspapers were sold, more people followed politics. Readers took sides in public quarrels, such as the fight over John Wilkes. Government leaders had to pay attention to what the public thought.",
+    "explanation": "As more newspapers circulated, more people followed politics. Readers took sides in public quarrels, such as the fight over John Wilkes. Government leaders had to pay attention to what the public thought.",
     "reasoning": "Causation"
    },
    {
@@ -2420,21 +2433,21 @@
     "lo": "F",
     "skill": "2.C",
     "difficulty": "hard",
-    "stem": "Which of the following is a limitation of the chart for a historian studying how many people read newspapers?",
+    "stem": "Even if the yearly totals in the chart are accurate, why can they not be treated as counts of the number of different people who read newspapers?",
     "options": {
-     "A": "Some of the figures come from government tax records rather than from newspaper owners.",
+     "A": "Some of the figures come from government tax records rather than from the newspaper owners.",
      "B": "The chart does not show the price that readers paid for each newspaper.",
-     "C": "A single copy of a newspaper was often read aloud to or passed among many people.",
+     "C": "One person could read many copies, while a single copy could be read by several people.",
      "D": "The chart begins in 1753, after London's first daily newspapers had appeared."
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. Official tax counts are a strength here. Every copy for sale had to be stamped, so those counts are fairly complete.",
-     "B": "Incorrect. Prices would be useful to know, but leaving them out does not change how many people read each copy.",
-     "C": "Correct. Each figure counts copies, not readers. In coffeehouses and taverns, one copy might be read by many people, so the chart undercounts readers.",
+     "A": "Incorrect. Government records can be useful evidence, but where they came from does not change the difference between counting copies and counting people.",
+     "B": "Incorrect. Prices could help explain demand, but they do not turn yearly copy totals into counts of different readers.",
+     "C": "Correct. Each figure counts copies over a year, not people. Some readers bought many issues, and some copies were read aloud or passed around.",
      "D": "Incorrect. The start date does not affect what the numbers show about readers."
     },
-    "explanation": "The chart counts copies sold. But many copies were shared in coffeehouses, clubs, and families. So the number of readers was much larger than the number of copies."
+    "explanation": "The chart counts copies in a year, not different people. Some people read many issues, and some copies reached several readers or listeners. Without knowing how often people reread and shared papers, the totals cannot tell us how many different people read the news."
    },
    {
     "id": "E4-E14",
@@ -2445,19 +2458,19 @@
     "difficulty": "medium",
     "stem": "Catherine's purpose in issuing the Instruction was most likely to",
     "options": {
-     "A": "appear to be an enlightened ruler while keeping absolute power",
+     "A": "justify her absolute power while proposing reforms inspired by Enlightenment ideas",
      "B": "persuade the Russian nobles to share power with an elected parliament like England's",
      "C": "announce that the serfs of the Russian Empire would soon be set free",
      "D": "convince Orthodox Church leaders to end the official status of their church"
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Catherine borrows ideas such as legal equality and the end of torture. She also says \"The Sovereign is absolute.\"",
+     "A": "Correct. Catherine proposes ideas such as legal equality, toleration, and the end of torture. She also says \"The Sovereign is absolute.\"",
      "B": "Incorrect. Catherine says that \"every other Form of Government\" would have ruined Russia.",
      "C": "Incorrect. The Instruction does not free the serfs. Russia did not end serfdom until 1861.",
      "D": "Incorrect. The Instruction asks for toleration of other religions, not an end to the Orthodox Church's official role."
     },
-    "explanation": "Catherine wrote to Voltaire and other philosophes and wanted to be seen as an enlightened ruler. The Instruction uses Enlightenment language about liberty and equal laws. But it also insists on her absolute power."
+    "explanation": "Catherine combines plans for legal reform and religious toleration with a clear defense of her absolute power. The passage shows that combination. It does not, by itself, show whether she meant her reforms sincerely."
    },
    {
     "id": "E4-E15",
@@ -2468,15 +2481,15 @@
     "difficulty": "easy",
     "stem": "Catherine's view of torture in article 123 is most similar to the ideas of",
     "options": {
-     "A": "Cesare Beccaria, who argued that punishments should prevent crime rather than cause pain",
-     "B": "Thomas Hobbes, who argued that subjects must accept whatever punishments their ruler chooses",
+     "A": "Cesare Beccaria, who argued that punishments should prevent crime with no needless suffering",
+     "B": "Thomas Hobbes, who argued that a powerful sovereign was needed to keep society out of civil war",
      "C": "Bishop Bossuet, who argued that kings are responsible to God, not to their subjects",
      "D": "Niccolò Machiavelli, who advised rulers that it is safer to be feared than loved"
     },
     "answer": "A",
     "rationales": {
      "A": "Correct. Beccaria's On Crimes and Punishments (1764) attacked torture. Catherine read it and borrowed from it.",
-     "B": "Incorrect. Hobbes stressed obedience to the ruler. He did not argue against torture as against \"Nature and Reason.\"",
+     "B": "Incorrect. This is about the power needed to keep order. It does not express Catherine's argument for ending torture.",
      "C": "Incorrect. Bossuet defended divine-right monarchy. He did not write against torture.",
      "D": "Incorrect. Machiavelli advised rulers on keeping power. He did not argue that torture goes against reason."
     },
@@ -2492,32 +2505,32 @@
     "difficulty": "hard",
     "stem": "Which of the following, if true, would most directly challenge the view that Catherine ruled according to the principles in the passage?",
     "options": {
-     "A": "She wrote letters to Voltaire and Diderot for many years and bought Diderot's library.",
-     "B": "In 1767 she issued a decree forbidding serfs to bring complaints against their landlords.",
+     "A": "She wrote letters to Voltaire and Diderot for many years and bought Diderot's library for a high price.",
+     "B": "She threatened serfs who petitioned her against their landlords with flogging and forced labor.",
      "C": "Her armies won lands on the Black Sea coast from the Ottoman Empire.",
      "D": "She allowed Muslims in her empire to build mosques and religious schools."
     },
     "answer": "B",
     "rationales": {
      "A": "Incorrect. This fits her picture of herself as a friend of the Enlightenment.",
-     "B": "Correct. Article 34 says all citizens should be \"subject to the same Laws,\" but serfs could not even complain about their masters.",
+     "B": "Correct. Article 34 says all citizens should be \"subject to the same Laws,\" but serfs who appealed to her against their masters faced harsh punishment.",
      "C": "Incorrect. This is true, but winning wars does not show whether she followed the ideas in the Instruction.",
      "D": "Incorrect. This fits article 494, which says forbidding other religions would endanger the peace."
     },
-    "explanation": "Catherine praised equal laws, but she gave nobles more power over their serfs. Serfs who complained about their masters could be punished. This gap between her words and her actions is why historians debate how enlightened she really was."
+    "explanation": "A decree of 1767 shows the limits of Catherine's reform language. Landlords kept great power over their serfs, and serfs who appealed directly to the empress against them could be flogged and sent to forced labor. This gap between words and actions is why historians debate how enlightened she was."
    },
    {
     "id": "E4-E17",
     "set": "X6",
     "topic": "4.4",
     "lo": "E",
-    "skill": "1.B",
+    "skill": "1.A",
     "difficulty": "easy",
     "stem": "The \"preventive check\" that Malthus describes is best understood as an example of",
     "options": {
      "A": "the disappearance of the plague as a major cause of death in western Europe after 1720",
      "B": "the rise in the number of children born to unmarried parents in the 1700s",
-     "C": "the European marriage pattern, in which many people married late or never married",
+     "C": "the European marriage pattern, common in western Europe, in which many people married late or never",
      "D": "the use of smallpox inoculation to lower the death rate among children"
     },
     "answer": "C",
@@ -2559,28 +2572,28 @@
     "lo": "E",
     "skill": "3.D",
     "difficulty": "hard",
-    "stem": "Which of the following developments in the 1800s would most directly challenge Malthus's argument?",
+    "stem": "Which finding, if true, would most directly challenge Malthus's claim that \"Subsistence increases only in an arithmetical ratio\"?",
     "options": {
      "A": "The Irish famine of the 1840s killed about one million people after the potato crop failed.",
      "B": "Many poor families in Britain's growing cities lived in crowded and unhealthy housing.",
-     "C": "Farm output in Europe grew faster than population because of new crops, fertilizers, and machines.",
+     "C": "Farm improvements let food production double in each of several 25-year periods in a row.",
      "D": "Britain's Poor Law of 1834 made it harder for poor people who could work to get help from their parish."
     },
     "answer": "C",
     "rationales": {
      "A": "Incorrect. This fits Malthus's warning that hunger would check population.",
      "B": "Incorrect. Crowded, unhealthy cities fit Malthus's picture of the poor suffering when population grows.",
-     "C": "Correct. Malthus said food could grow only slowly, by addition. Food that grew faster than population goes against his claim.",
-     "D": "Incorrect. This law reflected ideas like Malthus's. It does not test whether his argument about food was right."
+     "C": "Correct. Malthus says food grows by adding the same amount each period. Food that doubled again and again would be growth by multiplying, which goes against his claim.",
+     "D": "Incorrect. This law reflected ideas like Malthus's. It does not test how fast food production can grow."
     },
-    "explanation": "Malthus thought food production could not keep up with population. In the 1800s, new methods and machines made farms much more productive. Europe's population grew, yet most people ate better than before."
+    "explanation": "Malthus says food grows by addition (1, 2, 3, 4) while population grows by multiplication (1, 2, 4, 8). Food that kept doubling would grow by multiplication too. That finding would directly challenge his claim about food."
    },
    {
     "id": "E4-E20",
     "set": "X7",
     "topic": "4.5",
     "lo": "F",
-    "skill": "2.B",
+    "skill": "4.A",
     "difficulty": "medium",
     "stem": "Diderot's description of the \"persecution\" he and his fellow writers faced most likely refers to",
     "options": {
@@ -2594,7 +2607,7 @@
      "A": "Incorrect. Diderot visited Catherine II in 1773, after this preface, and she treated him as an honored guest.",
      "B": "Incorrect. The Encyclopédie was printed in Paris, not Geneva. Its main enemies were French officials and churchmen.",
      "C": "Incorrect. That was Galileo's trial, more than 100 years earlier. Diderot was never tried by the Inquisition.",
-     "D": "Correct. The French government took away the Encyclopédie's permission to publish in 1759, and the pope condemned it the same year. Diderot also spent months in prison in 1749 for his writings."
+     "D": "Correct. The French government took away the Encyclopédie's permission to publish in 1759, and the pope condemned it the same year. Diderot's imprisonment in 1749 was for earlier writings and came before the Encyclopédie was published."
     },
     "explanation": "The Encyclopédie questioned old beliefs and praised reason. French censors and Church leaders tried to stop it. Diderot kept working in secret, and the last volumes came out together in 1765."
    },
@@ -2615,7 +2628,7 @@
     "answer": "A",
     "rationales": {
      "A": "Correct. Diderot hopes rulers will spread education. Some rulers did support philosophes and reforms. Catherine II even invited Diderot to Russia.",
-     "B": "Incorrect. The partitions of 1772–1795 were land grabs by strong states. They had nothing to do with spreading education or reason.",
+     "B": "Incorrect. The partitions added land to the states that took part. They do not show the spread of education that Diderot hopes for.",
      "C": "Incorrect. Mercantilism is a plan for trade and money. Diderot is writing about learning and reason.",
      "D": "Incorrect. Methodism was a movement of preachers and believers, not of rulers. Diderot looks to \"the masters of the world.\""
     },
@@ -2640,7 +2653,7 @@
     "rationales": {
      "A": "Correct. Diderot wants people to \"tolerate one another\" and to trust \"universal reason\" over beliefs that \"inspire hate.\"",
      "B": "Incorrect. This is Montesquieu's idea. Diderot does not discuss how government is divided.",
-     "C": "Incorrect. This is close to Rousseau's view. Diderot praises the spread of knowledge.",
+     "C": "Incorrect. This choice criticizes the corrupting effects of society. Diderot instead argues that spreading knowledge can improve society.",
      "D": "Incorrect. This is Adam Smith's idea. Diderot is not writing about trade."
     },
     "explanation": "Diderot blames \"blind fanatics\" for violence. He hopes the Encyclopédie will teach people to tolerate one another and to trust reason. Toleration and reason were central Enlightenment goals."
@@ -2666,30 +2679,30 @@
      "C": "Incorrect. Tocqueville says this was true of writers in Germany, not France.",
      "D": "Incorrect. Tocqueville says the writers wanted to replace \"traditional customs\" with rules \"deduced from reason.\""
     },
-    "explanation": "Tocqueville says French writers talked about government all the time but had never run anything. With no practice in politics, they trusted reason and grand plans. He thought this made them reckless."
+    "explanation": "Tocqueville says French writers had no part in running the government. Because they had never governed, they did not see how hard real change could be. So they made bold plans based on reason. This is Tocqueville's view, written in 1856."
    },
    {
     "id": "E4-E24",
     "set": "X8",
-    "topic": "4.3",
-    "lo": "D",
+    "topic": "4.5",
+    "lo": "F",
     "skill": "3.D",
     "difficulty": "medium",
     "stem": "Which of the following, if true, would best support Tocqueville's claim that the writers' ideas reached \"the ears and hearts of the people\"?",
     "options": {
      "A": "The French government ordered copies of the Encyclopédie to be seized after it banned the work in 1759.",
      "B": "Fewer than half of French brides and grooms could sign their names in marriage records in the 1780s.",
-     "C": "Cheap pamphlets and banned books mocking the king and the clergy sold widely in France in the 1780s.",
+     "C": "Cheap pamphlets explaining natural rights and attacking inherited privileges were widely read beyond elite circles.",
      "D": "Philosophes such as Voltaire exchanged letters with rulers such as Frederick II and Catherine II."
     },
     "answer": "C",
     "rationales": {
      "A": "Incorrect. Seizing books shows that the government feared the ideas. It does not show how far they spread.",
-     "B": "Incorrect. This shows that many French people could not read, which would limit how far the writers' ideas spread.",
-     "C": "Correct. Wide sales of banned and cheap works show that new ideas were reaching readers far beyond a few philosophers.",
+     "B": "Incorrect. Signing a name is only a rough sign of whether someone could read. Ideas could also spread through reading aloud and talk, so this does not support the claim.",
+     "C": "Correct. Wide reading of works about natural rights and privilege would show the writers' kind of ideas reaching people far beyond a few philosophers.",
      "D": "Incorrect. Letters to kings show that rulers paid attention, not that ordinary people did."
     },
-    "explanation": "Tocqueville says the writers' ideas reached \"the ears and hearts of the people.\" Historians have found that cheap pamphlets and forbidden books that mocked the king and the clergy were bestsellers before 1789. That supports his claim."
+    "explanation": "Tocqueville says the writers' ideas reached \"the ears and hearts of the people.\" Cheap works about natural rights and privilege, read widely beyond the elite, would show that ideas like the ones he describes spread. Both what the works said and how widely they were read matter."
    },
    {
     "id": "E4-E25",

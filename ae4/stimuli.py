@@ -1,5 +1,6 @@
 # AP European History Unit 4 sources. Texts follow the public-domain editions saved in ae4/sources/raw/ and
-# documented in ae4/sources/*.md. Cuts are marked with ellipses; bracketed words are clarifications.
+# documented in ae4/sources/*.md. Cuts are marked with ellipses only; the bank adds no brackets inside quotations
+# (the one bracket, in P16, is McCabe's own and is credited). Glosses go in footnotes or the glossary.
 # OCR slips in the scans were corrected against a second scan or the printed page where one exists (see the .md files).
 VERSION = "2026-11-08a"
 
@@ -59,17 +60,17 @@ STIM = {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/An_Experiment_on_a_Bird_in_an_Air_Pump_by_Joseph_Wright_of_Derby%2C_1768.jpg/960px-An_Experiment_on_a_Bird_in_an_Air_Pump_by_Joseph_Wright_of_Derby%2C_1768.jpg",
     "width": 960, "height": 719,
     "alt": "A dark room lit by one candle. A gray-haired man in a red robe stands behind a table with his hand on top of a glass globe that holds a white bird. A pump stands under the globe. Men, women, and children gather around the table; some watch closely and two girls look upset.",
-    "caption": "A gray-haired man in a red robe stands at a table in a private home at night. His hand rests on a valve at the top of a large glass globe, and a white bird lies at the bottom of the globe. Below the globe is a pump that can draw air out of it. Around the table, a family and their guests watch by the light of one candle. An older man points upward as he speaks to two girls, one of whom covers her eyes. A young couple looks at each other, a boy watches closely, and a man at right sits staring at the candle. At the window, a boy reaches up to an empty birdcage, and the moon shines outside.",
+    "caption": "A gray-haired man in a red robe stands at a table in a private home at night. His hand rests on a valve at the top of a large glass globe, and a white bird lies at the bottom of the globe. Below the globe is a pump that can draw air out of it. Around the table, a family and their guests watch by the light of one candle. An older man points upward as he speaks to two girls, one of whom covers her eyes. A young couple looks at each other, and a boy watches closely. At the far right, a seated man rests his chin on his hand and looks toward a glass vessel containing a skull, with a candle behind it. At the window, a boy reaches up to an empty birdcage, and the moon shines outside.",
     "attribution": "Joseph Wright of Derby, English painter, An Experiment on a Bird in the Air Pump, oil painting, 1768",
     "credit": "National Gallery, London. Public domain image via Wikimedia Commons.",
-    "description": "An oil painting of a dark room lit only by a candle on a table. In the center, a gray-haired man with long hair, wearing a red robe, looks straight out at the viewer. His raised hand rests on the top of a large glass globe, and inside the globe a white cockatoo lies on its side at the bottom. Under the globe is a brass pump on a wooden stand. On the table in front is a glass bowl of liquid. At left, a young man and woman look at each other, a seated man watches the globe, and a small boy leans in to see. At right, an older man points upward as he speaks to two young girls; the younger girl looks up at the globe with worry, and the older one hides her face with her hand. A man at the far right rests his chin on his hand and stares at the candle. In the back right, a boy at a window reaches up to a hanging birdcage. A full moon shines through the window."},
+    "description": "An oil painting of a dark room lit only by a candle on a table. In the center, a gray-haired man with long hair, wearing a red robe, looks straight out at the viewer. His raised hand rests on the top of a large glass globe, and inside the globe a white cockatoo lies on its side at the bottom. Under the globe is a brass pump on a wooden stand. On the table in front is a large glass vessel of liquid with a skull inside, and a candle stands behind it. At left, a young man and woman look at each other, a seated man watches the globe, and a small boy leans in to see. At right, an older man points upward as he speaks to two young girls; the younger girl looks up at the globe with worry, and the older one hides her face with her hand. A man at the far right rests his chin on his hand and looks toward the glass vessel with the skull. In the back right, a boy at a window reaches up to a hanging birdcage. A full moon shines through the window."},
 
 "X4": {"type": "bar",
-    "title": "Newspaper Copies Stamped or Sold in Britain, Selected Years, 1753–1792",
+    "title": "Newspaper Stamps and Circulation in Britain, Selected Years, 1753–1792",
     "categories": ["1753", "1760", "1775", "1782", "1792"],
-    "series": [{"name": "Copies sold (millions)", "values": [7.41, 9.46, 12.68, 15.27, 15.01]}],
-    "yLabel": "Millions of copies",
-    "text": "By law, each copy of a newspaper sold in Britain had to carry a government tax stamp. Andrews's figures for 1753, 1760, and 1775 are the numbers of stamps the government's Stamp Office issued to newspapers. His figures for 1782 and 1792 are yearly newspaper sales that he took from two encyclopedias. Andrews gives all the figures for the whole kingdom. Values are rounded to the nearest hundredth of a million.",
+    "series": [{"name": "Reported yearly total, in millions", "values": [7.41, 9.46, 12.68, 15.27, 15.01]}],
+    "yLabel": "Millions",
+    "text": "By law, each copy of a newspaper sold in Britain had to carry a government tax stamp. Andrews reports the number of newspaper stamps issued for 1753, 1760, and 1775, and yearly circulation figures, which he took from two encyclopedias, for 1782 and 1792. These are related measures of how many newspaper copies went out each year. They are not direct counts of readers. Andrews gives all the figures for the whole kingdom. Values are rounded to the nearest hundredth of a million.",
     "source": "Alexander Andrews, The History of British Journalism, vol. 1 (London, 1859), pp. 211 and 236"},
 
 "X5": P([
@@ -157,9 +158,9 @@ STIM = {
 
 "P2": P([
     "… I profess both to learn and to teach anatomy, not from books but from dissections; not from the positions of philosophers but from the fabric of nature …",
-    "But what remains to be said upon the quantity and source of the blood which thus passes, is of so novel and unheard-of character, that I not only fear injury to myself from the envy of a few, but I tremble lest I have mankind at large for my enemies, so much doth wont and custom, that become as another nature, and doctrine once sown and that hath struck deep root, and respect for antiquity influence all men … I frequently and seriously bethought me, and long revolved in my mind, what might be the quantity of blood which was transmitted, in how short a time its passage might be effected, and the like; and not finding it possible that this could be supplied by the juices of the ingested aliment without the veins on the one hand becoming drained, and the arteries on the other getting ruptured through the excessive charge of blood, unless the blood should somehow find its way from the arteries into the veins, and so return to the right side of the heart; I began to think whether there might not be a MOTION, AS IT WERE, IN A CIRCLE. Now this I afterwards found to be true …"],
+    "But what remains to be said upon the quantity and source of the blood which thus passes, is of so novel and unheard-of character, that I not only fear injury to myself from the envy of a few, but I tremble lest I have mankind at large for my enemies, so much doth wont and custom, that become as another nature, and doctrine once sown and that hath struck deep root, and respect for antiquity influence all men … I frequently and seriously bethought me, and long revolved in my mind, what might be the quantity of blood which was transmitted, in how short a time its passage might be effected, and the like; and not finding it possible that this could be supplied by the juices of the ingested aliment without the veins on the one hand becoming drained, and the arteries on the other getting ruptured through the excessive charge of blood, unless the blood should somehow find its way from the arteries into the veins, and so return to the right side of the heart; I began to think whether there might not be A MOTION, AS IT WERE, IN A CIRCLE. Now this I afterwards found to be true …"],
     "William Harvey, English physician to King Charles I, On the Motion of the Heart and Blood in Animals, written in Latin, 1628. The first paragraph comes from the book's dedication to the president and members of the College of Physicians in London.",
-    "Translated by Robert Willis (1847), as printed in Everyman's Library (London: J. M. Dent, early 1900s); adapted",
+    "Translated by Robert Willis, in The Works of William Harvey (London: Sydenham Society, 1847); adapted",
     glossary=[{"t": "dissections", "d": "cutting open bodies to study their parts"},
               {"t": "the fabric of nature", "d": "how nature is actually built"},
               {"t": "wont", "d": "habit"},
@@ -191,8 +192,8 @@ STIM = {
     "The state of nature has a law of nature to govern it, which obliges every one: and reason, which is that law, teaches all mankind, who will but consult it, that being all equal and independent, no one ought to harm another in his life, health, liberty, or possessions …",
     "MEN being, as has been said, by nature, all free, equal, and independent, no one can be put out of this estate, and subjected to the political power of another, without his own consent. …",
     "… whenever the legislators endeavour to take away, and destroy the property of the people, or to reduce them to slavery under arbitrary power, they put themselves into a state of war with the people, who are thereupon absolved from any farther obedience … by this breach of trust they forfeit the power the people had put into their hands for quite contrary ends, and it devolves to the people, who have a right to resume their original liberty, and, by the establishment of a new legislative, (such as they shall think fit) provide for their own safety and security, which is the end for which they are in society."],
-    "John Locke, English philosopher, Two Treatises of Government, from the Second Treatise, published in London in 1690",
-    "Adapted",
+    "John Locke, English philosopher, Two Treatises of Government, from the Second Treatise, first published in London in 1690",
+    "Text from Two Treatises of Government, 6th edition (London: A. Millar and others, 1764), with the long s modernized; adapted",
     glossary=[{"t": "state of nature", "d": "the condition of people before any government exists"},
               {"t": "estate", "d": "condition"},
               {"t": "legislators / legislative", "d": "lawmakers; the lawmaking body"},
@@ -237,7 +238,7 @@ STIM = {
     "But her great art consisted in presiding, in watching, in keeping up her authority over two classes of men who are naturally fond of freedom. She set bounds, however, to this liberty, and by a word or a gesture, as by an invisible thread, could recall any one who attempted to escape. …",
     "Nothing flattered her more than her intercourse with the great. She seldom visited them at their own houses (there she was not at her ease), but she had the art of drawing them to hers by a secret and imperceptible flattery."],
     "Jean-François Marmontel, French writer and a regular guest at Madame Geoffrin's house in Paris in the 1750s and 1760s, Memoirs, written in the 1790s and published in 1804",
-    "English translation in Memoirs of Marmontel, vol. 1 (Paris, London, and New York: Société des Bibliophiles, 1900); adapted",
+    "English translation in Memoirs of Marmontel, vol. 1 (Paris: Société des Bibliophiles; London and New York: Merrill and Baker, c. 1900); adapted",
     footnotes=[{"mark": "*", "text": "Marie-Thérèse Geoffrin (1699–1777), the widow of a rich Paris businessman"}],
     glossary=[{"t": "rendezvous", "d": "meeting place"},
               {"t": "men of letters", "d": "writers and scholars"},
@@ -248,15 +249,15 @@ STIM = {
 "P8": P([
     "The coffee house must not be dismissed with a cursory mention. It might indeed at that time have been not improperly called a most important political institution. No Parliament had sat for years. The municipal council of the City had ceased to speak the sense of the citizens. Public meetings, harangues, resolutions, and the rest of the modern machinery of agitation had not yet come into fashion. Nothing resembling the modern newspaper existed. In such circumstances the coffee houses were the chief organs through which the public opinion of the metropolis vented itself.",
     "The first of these establishments had been set up by a Turkey merchant, who had acquired among the Mahometans* a taste for their favourite beverage. … Every man of the upper or middle class went daily to his coffee house to learn the news and to discuss it. … The Court had long seen with uneasiness the growth of this new power in the state. An attempt had been made, during Danby's administration, to close the coffee houses. But men of all parties missed their usual places of resort so much that there was an universal outcry. … Nobody was excluded from these places who laid down his penny at the bar. Yet every rank and profession, and every shade of religious and political opinion, had its own headquarters."],
-    "Thomas Babington Macaulay, British historian and politician, The History of England from the Accession of James II, vol. 1, 1848. Macaulay is describing London in 1685.",
-    "Adapted",
+    "Thomas Babington Macaulay, British historian and politician, The History of England from the Accession of James II, vol. 1, 1848. Macaulay is describing London around the beginning of King James II's reign in 1685.",
+    "Adapted; a period missing from the e-text is restored",
     footnotes=[{"mark": "*", "text": "Macaulay's word for Muslims, which is no longer used"}],
     glossary=[{"t": "cursory", "d": "quick and careless"},
               {"t": "harangues", "d": "loud, angry speeches"},
               {"t": "agitation", "d": "public campaigning for a cause"},
               {"t": "the metropolis", "d": "London"},
               {"t": "Turkey merchant", "d": "an English merchant who traded in the Ottoman Empire"},
-              {"t": "Danby's administration", "d": "the years 1674–1679, when the Earl of Danby was King Charles II's chief minister"},
+              {"t": "Danby's administration", "d": "the years 1673–1679, when the Earl of Danby was King Charles II's chief minister"},
               {"t": "resort", "d": "meeting place"}]),
 
 "P9": P([
@@ -282,7 +283,7 @@ STIM = {
     "width": 960, "height": 740,
     "alt": "A painting of three young men in ancient Roman armor stretching out their arms toward three swords held up by an older man, while women and children sit grieving at the right, in a stone hall with three arches.",
     "caption": "In a plain stone hall with three arches, three brothers in ancient Roman helmets and armor stand side by side and stretch out their arms toward three swords. Their father holds the swords up in the center. At the right, the women of the family sit slumped together, weeping, while a woman in the back holds two small children close.",
-    "attribution": "Jacques-Louis David, French painter, The Oath of the Horatii, oil painting, 1784, first shown in Paris in 1785. The painting shows a scene from early Roman history",
+    "attribution": "Jacques-Louis David, French painter, The Oath of the Horatii, oil painting, dated 1784; completed and shown in Paris in 1785. The painting shows a scene from early Roman history",
     "credit": "Musée du Louvre, Paris. Public domain image via Wikimedia Commons.",
     "description": "A large oil painting with a sharp, clear style. The background is a simple stone hall with three round arches held up by plain columns. On the left, three young men in helmets with crests, short tunics, and cloaks stand close together in a line, one behind another. Each stretches an arm out straight toward the center; the man in front holds a spear in his other hand. In the center, an older bearded man in a red cloak raises three swords in one hand and lifts his other hand toward them. On the right, separate from the men, two young women sit slumped against each other with their heads bowed. Behind them, an older woman in a dark blue robe holds two small children."},
 
@@ -290,7 +291,7 @@ STIM = {
     "A propos of distempers, I am going to tell you a thing that will make you wish yourself here. The small-pox, so fatal, and so general amongst us, is here entirely harmless, by the invention of ingrafting, which is the term they give it. There is a set of old women, who make it their business to perform the operation, every autumn, in the month of September, when the great heat is abated. … the old woman comes with a nutshell full of the matter of the best sort of small-pox, and asks what vein you please to have opened. She immediately rips open that you offer to her, with a large needle, (which gives you no more pain than a common scratch) and puts into the vein as much matter as can ly upon the head of her needle …",
     "The children or young patients play together all the rest of the day, and are in perfect health to the eighth. Then the fever begins to seize them, and they keep their beds two days, very seldom three. … Every year thousands undergo this operation … There is no example of any one that has died in it; and you may believe I am well satisfied of the safety of this experiment, since I intend to try it on my dear little son.",
     "I am patriot enough to take pains to bring this useful invention into fashion in England; and I should not fail to write to some of our doctors very particularly about it, if I knew any one of them that I thought had virtue enough to destroy such a considerable branch of their revenue, for the good of mankind."],
-    "Lady Mary Wortley Montagu, English writer and wife of the British ambassador to the Ottoman Empire, letter to a friend in England, written from the Ottoman city of Adrianople (Edirne), April 1, 1717; first published in 1763",
+    "Lady Mary Wortley Montagu, English writer and wife of the British ambassador to the Ottoman Empire, letter to a friend in England, written from the Ottoman city of Adrianople (Edirne), April 1, 1717 (Old Style); first published in 1763",
     "Text from Letters of the Right Honourable Lady M—y W—y M—e (London, 1790); adapted",
     glossary=[{"t": "A propos of distempers", "d": "speaking of diseases"},
               {"t": "abated", "d": "lessened"},
@@ -319,10 +320,10 @@ STIM = {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/William_Hogarth%2C_Gin_Lane%2C_1751%2C_NGA_30433.jpg/960px-William_Hogarth%2C_Gin_Lane%2C_1751%2C_NGA_30433.jpg",
     "width": 960, "height": 1150,
     "alt": "A crowded black-and-white engraving of a London street with ruined buildings. In front, a drunken woman sitting on steps lets her baby fall over a railing. Around her, people drink, fight, pawn their goods, and lie ill.",
-    "caption": "A crowded street in a poor part of London. In front, a woman with sores on her legs sits on a stairway, smiling and too drunk to notice that her baby is falling over the railing. Below her, a very thin man slumps against the wall with a cup in his hand. At the upper left, people hand over tools and a kettle at a pawnbroker's shop. Behind, a crowd drinks and fights outside a shop with a sign shaped like a mug, buildings fall apart, and a body is laid in a coffin in the street. A sign over a cellar door at lower left reads \"Drunk for a Penny, Dead drunk for two pence, Clean Straw for Nothing.\" A church steeple rises in the distance. Lines of verse under the picture begin \"Gin, cursed Fiend, with Fury fraught, / Makes human Race a Prey.\"",
-    "attribution": "William Hogarth, English painter and engraver, Gin Lane, engraving sold as a print in London, 1751",
+    "caption": "A crowded street in a poor part of London. In front, a woman with sores on her legs sits on a stairway, taking snuff as her baby falls over the railing. Below her, a very thin man slumps against the wall with a cup in his hand. At the upper left, people hand over tools and a kettle at a pawnbroker's shop. Behind, a crowd drinks and fights outside a shop with a sign shaped like a mug, buildings fall apart, and a body is laid in a coffin in the street. A sign over a cellar door at lower left reads \"Drunk for a Penny, Dead drunk for two pence, Clean Straw for Nothing.\" A church steeple rises in the distance. Lines of verse under the picture begin \"Gin, cursed Fiend, with Fury fraught, / Makes human Race a Prey.\"",
+    "attribution": "William Hogarth, English painter and printmaker, Gin Lane, etching and engraving published in London, 1751",
     "credit": "National Gallery of Art, Washington. Public domain image via Wikimedia Commons.",
-    "description": "A detailed black-and-white engraving of a London street. In the front center, a half-dressed woman with sores on her legs sits on a staircase, grinning, as her baby slips out of her arms and falls over the stair railing. At the bottom right, a skeleton-thin man sits slumped with a cup and a basket. At the bottom left, a man and a dog gnaw on the same bone, and a large mug labeled \"Gin Royal\" hangs over a cellar door with a sign about being drunk for a penny. At the upper left, a carpenter and a woman hand a saw and a kettle to a pawnbroker. In the middle of the street, crowds drink and fight, and a woman's body is laid in a coffin. On the right, houses are falling down, and in an upper room of a ruined house a body hangs from a beam. In the distance, a church steeple stands above the rooftops. Verses are printed under the picture."},
+    "description": "A detailed black-and-white engraving of a London street. In the front center, a half-dressed woman with sores on her legs sits on a staircase taking snuff as her baby slips out of her arms and falls over the stair railing. At the bottom right, a skeleton-thin man sits slumped with a cup and a basket. At the bottom left, a man and a dog gnaw on the same bone, and a large mug labeled \"Gin Royal\" hangs over a cellar door with a sign about being drunk for a penny. At the upper left, a carpenter and a woman hand a saw and a kettle to a pawnbroker. In the middle of the street, crowds drink and fight, and a woman's body is laid in a coffin. On the right, houses are falling down, and in an upper room of a ruined house a body hangs from a beam. In the distance, a church steeple stands above the rooftops. Verses are printed under the picture."},
 
 "P14": P([
     "We have remarked that men have granted preeminence to one of their equals, in expectation that he should do them certain services. These services consist in the maintenance of the laws, a strict execution of justice, an employment of his whole powers to prevent any corruption of manners, and defending the State against its enemies. It is the duty of this magistrate to pay attention to agriculture; it should be his care that provisions for the nation should be in abundance, and that commerce and industry should be encouraged. He is a perpetual sentinel, who must watch the acts and the conduct of the enemies of the State. …",
@@ -341,15 +342,19 @@ STIM = {
               {"t": "disinterested", "d": "not acting for his own gain"}]),
 
 "P15": P([
-    "A great many foreigners, from various causes, cannot have a just notion of the authority that is exercised in France by public opinion. They cannot comprehend the nature of an invisible power which, destitute of treasury, of guards and armies, dictates its laws in the capital, in the court, and even in the king's palace. Nevertheless nothing is more true nor more remarkable …",
-    "I will go still farther: it is the ascendency of public opinion that opposes more obstacles in France to the abuse of power than any other consideration whatsoever. Yes, it is entirely by that opinion, and the esteem in which it is still held, that the nation has a kind of influence, by having it in its power to reward with praise, or punish with contempt. If ever that opinion is entirely despised, or if it ever grows too weak, then liberty will lose its principal support, and there will be a greater necessity than ever that the sovereign should be virtuous and his ministers moderate."],
-    "Jacques Necker, banker from Geneva who served as director-general of finances for King Louis XVI of France from 1777 to 1781, On the Administration of the Finances of France, 1784",
-    "English translation as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (1908); adapted",
-    glossary=[{"t": "a just notion", "d": "a correct idea"},
-              {"t": "comprehend", "d": "understand"},
-              {"t": "destitute of", "d": "without"},
-              {"t": "ascendency", "d": "power or control"},
-              {"t": "contempt", "d": "scorn"}]),
+    "In almost all the towns the exercise of the different arts and trades is concentrated in the hands of a small number of masters, united in corporations, who alone can, to the exclusion of all other citizens, make or sell the articles belonging to their particular industry. Any person who, by inclination or necessity, intends following an art or trade can only do so by acquiring the mastership … after a probation as long and vexatious as it is superfluous. By having to satisfy repeated exactions, the money he had so much need of in order to start his trade or open his workshop has been consumed in mere waste. …",
+    "Citizens of all classes are deprived both of the right to choose the workmen they would employ, and of the advantages they would enjoy from competition operating toward improvements in manufacture and reduction in price. …",
+    "Thus the effects of these establishments are, first, as regards the state, a vast tyranny over trade and industrial work; second, as regards the great body of the people, a loss of wages and the means of subsistence; third, in respect to the inhabitants of towns in general, a slavery to exclusive privileges equivalent to a real monopoly …"],
+    "Anne-Robert-Jacques Turgot, controller general of finances for King Louis XVI of France, preamble to the royal edict abolishing the guilds, February 1776",
+    "Translated in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (1908); adapted",
+    glossary=[{"t": "arts and trades", "d": "crafts and businesses"},
+              {"t": "corporations", "d": "guilds: groups of master craftsmen who controlled a trade in a town"},
+              {"t": "mastership", "d": "the rank of master in a guild"},
+              {"t": "probation", "d": "a period of testing"},
+              {"t": "vexatious", "d": "annoying and troublesome"},
+              {"t": "superfluous", "d": "not needed"},
+              {"t": "exactions", "d": "fees that are demanded"},
+              {"t": "subsistence", "d": "the things people need to live"}]),
 
 "P16": P([
     "There are some who say that, if we treated with paternal indulgence those erring brethren who pray to God in bad French [instead of bad Latin], we should be putting weapons in their hands, and would once more witness the battles of Jarnac, Moncontour, Coutras, Dreux, and St. Denis*. I do not know anything about this, as I am not a prophet; but it seems to me an illogical piece of reasoning to say: \"These men rebelled when I treated them ill, therefore they will rebel when I treat them well.\" …",
@@ -357,13 +362,13 @@ STIM = {
     "The rage that is inspired by the dogmatic spirit and the abuse of the Christian religion, wrongly conceived, has shed as much blood and led to as many disasters in Germany, England, and even Holland, as in France. Yet religious difference causes no trouble to-day in those States. The Jew, the Catholic, the Greek, the Lutheran, the Calvinist, the Anabaptist, the Socinian, the Memnonist, the Moravian, and so many others, live like brothers in these countries, and contribute alike to the good of the social body. …"],
     "Voltaire, French writer, Treatise on Toleration, 1763",
     "Translated by Joseph McCabe in Voltaire, Toleration and Other Essays (New York, 1912); the words in brackets are McCabe's; adapted",
-    footnotes=[{"mark": "*", "text": "battles of the French Wars of Religion, fought between Catholics and Huguenots (French Calvinists) from 1562 to 1587"}],
+    footnotes=[{"mark": "*", "text": "battles fought between Catholics and Huguenots (French Calvinists) from 1562 to 1587, during the French Wars of Religion, which lasted until 1598"}],
     glossary=[{"t": "paternal indulgence", "d": "the gentle patience of a father"},
               {"t": "erring brethren", "d": "brothers who have gone wrong"},
               {"t": "inebriated", "d": "drunk"},
               {"t": "fanaticism", "d": "wild, extreme belief that does not listen to reason"},
               {"t": "the Greek", "d": "a member of the Greek Orthodox Church"},
-              {"t": "Socinian, Memnonist, Moravian", "d": "members of small Protestant groups (the Memnonists are now called Mennonites)"}]),
+              {"t": "Socinian, Memnonist, Moravian", "d": "members of small Protestant groups; \"Memnonist\" is a variant spelling referring to a Mennonite"}]),
 }
 
 # Raw files used by the excerpt checker (not part of the bank).
@@ -375,9 +380,9 @@ RAWMAP = {
     "X7": ["rb1908v1_cu31924088053818.txt"],
     "X8": ["gut_pg54187.txt", "tocqueville_reeve1888_stateofsocietyin00tocquoft.txt"],
     "P1.1": ["gut_pg45988.txt"], "P1.2": ["gut_pg59.txt"],
-    "P2": ["gut_pg67065.txt"],
+    "P2": ["gut_pg58857.txt", "gut_pg67065.txt"],
     "P3": ["gut_pg2445.txt"],
-    "P4": ["gut_pg7370.txt"],
+    "P4": ["gut_pg7370.txt", "alt/locke1764_ytwotreatisesofg00lockuoft.txt"],
     "P5": ["rb1908v1_cu31924088053818.txt"],
     "P6": ["rb1908v1_cu31924088053818.txt"],
     "P7": ["marmontel1900v1_memoirsofmarmont01marmiala.txt"],
