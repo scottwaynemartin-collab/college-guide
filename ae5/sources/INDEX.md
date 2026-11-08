@@ -12,7 +12,7 @@ Every text excerpt was copied from raw text downloaded with curl and saved in so
 | X6 | passage | Metternich, 'Political Confession of Faith' (1820) | Memoirs, vol. 3 (1881) via Robinson & Beard, vol. 1 (1908) |
 | X7 | passage | Wordsworth, Preface to Lyrical Ballads (1800) | 1800 text (Gutenberg #8905) |
 | X8 | passage (historian) | J. R. Seeley, The Expansion of England (1883) | Macmillan, 1883 |
-| P1 | passage (historian) | A. T. Mahan, Influence of Sea Power upon History (1890) | Little, Brown 1890 text (Gutenberg #13529) |
+| P1 | passage (historian) | A. T. Mahan, Influence of Sea Power upon History (1890) | Little, Brown, 1st ed. 1890, pp. 326–329 (archive.org seanpowerinf00maha) |
 | P2 | passage | Cahier of the Third Estate of Carcassonne (1789) | Robinson & Beard, vol. 1 (1908) |
 | P3 | passage | Civil Constitution of the Clergy (1790) | Robinson, vol. 2 (1906) |
 | P4 | pair | Michelet, Women of the French Revolution (1854) / Napoleonic Code arts. 8, 213–217 (1804) | tr. M. R. P. (1855); tr. 'a barrister of the Inner Temple' (1824) |

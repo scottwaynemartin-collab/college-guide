@@ -4,7 +4,7 @@
  "period": "c. 1648–1815",
  "examWeighting": "10–15%",
  "blurb": "Britain's rise in the wars with France, the French Revolution and its effects, Napoleon's empire and the reactions to it, the Congress of Vienna, and Romanticism.",
- "version": "2026-11-08b",
+ "version": "2026-11-08c",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 5: Learning Objectives A-J).",
  "topics": [
   {
@@ -154,7 +154,7 @@
       },
       {
        "t": "peerage",
-       "d": "the nobles who sit in the House of Lords"
+       "d": "the titled nobility"
       },
       {
        "t": "franchises",
@@ -217,11 +217,11 @@
    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg/1280px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg",
    "width": 1280,
    "height": 989,
-   "alt": "A dark night scene painted in oil. On the right, a tight line of soldiers with their backs to the viewer aim rifles at close range at a group of men on the left. A man in a white shirt kneels with his arms raised. Bodies lie bleeding on the ground, and a large lantern lights the scene. A town with a church tower stands in the background.",
-   "caption": "On the right, a line of soldiers in long coats and tall hats stand shoulder to shoulder and aim their rifles. Their faces cannot be seen. On the left, a group of men faces them. In the center, a man in a white shirt and yellow trousers kneels with his arms spread wide. Others cover their faces or pray. Dead men lie in pools of blood in the foreground, and more men wait in line behind them. A large square lantern on the ground lights the scene. A town with a church tower sits in the dark background.",
+   "alt": "A dark night scene painted in oil. On the right, a tight line of soldiers with their backs to the viewer aim guns at close range at a group of men on the left. A man in a white shirt kneels with his arms raised. Bodies lie bleeding on the ground, and a large lantern lights the scene. A town with a church tower stands in the background.",
+   "caption": "On the right, a line of soldiers in long coats and tall hats stand shoulder to shoulder and aim their guns. Their faces cannot be seen. On the left, a group of men faces them. In the center, a man in a white shirt and yellow trousers kneels with his arms spread wide. Others cover their faces or pray. Dead men lie in pools of blood in the foreground, and more men wait in line behind them. A large square lantern on the ground lights the scene. A town with a church tower sits in the dark background.",
    "attribution": "Francisco de Goya, Spanish painter, The Third of May 1808 in Madrid, oil painting completed in 1814",
-   "credit": "Museo del Prado, Madrid. Public domain image via Wikimedia Commons.",
-   "description": "A large oil painting of a night scene on a bare hillside outside a city. On the right side, about six soldiers stand in a tight line, leaning forward with rifles raised to their shoulders and fixed bayonets pointing at the men in front of them. Their backs are to the viewer, and swords hang at their sides. A large box-shaped lantern sits on the ground between the soldiers and their targets and throws strong light on the left half of the picture. On the left, the men facing the rifles are dressed in ordinary clothes. The brightest figure, a man in a white shirt and yellow trousers, kneels with both arms raised wide. Beside him a man in a dark cap stares at the rifles, a monk kneels and prays, and another man clenches his fists. In the foreground, several bodies lie twisted on the ground in red pools of blood. Behind the group, more men walk up the slope, some covering their faces with their hands. In the dark background are the walls of a town, a church tower, and a few dim figures.",
+   "credit": "Museo del Prado, Madrid. Public domain image via Wikimedia Commons (file: El Tres de Mayo, by Francisco de Goya, from Prado thin black margin.jpg).",
+   "description": "A large oil painting of a night scene on a bare hillside outside a city. On the right side, about six soldiers stand in a tight line, leaning forward with guns raised to their shoulders and fixed bayonets pointing at the men in front of them. Their backs are to the viewer, and swords hang at their sides. A large box-shaped lantern sits on the ground between the soldiers and their targets and throws strong light on the left half of the picture. On the left, the men facing the guns are dressed in ordinary clothes. The brightest figure, a man in a white shirt and yellow trousers, kneels with both arms raised wide. Beside him a man in a dark cap stares at the guns, a monk kneels and prays, and another man clenches his fists. In the foreground, several bodies lie twisted on the ground in red pools of blood. Behind the group, more men walk up the slope, some covering their faces with their hands. In the dark background are the walls of a town, a church tower, and a few dim figures.",
    "glossary": [
     {
      "t": "1808 in Madrid",
@@ -260,7 +260,7 @@
     }
    ],
    "yLabel": "Millions of British pounds",
-   "text": "The figures count all money the British government owed (funded and unfunded debt), rounded to the nearest hundred thousand pounds. The source gives the debt in 1689, when William III became king; in 1702, 1714, and 1727, when Anne, George I, and George II took the throne; in 1763, 1775, 1784, and 1793; and on February 1, 1817, when the British and Irish treasuries were merged.",
+   "text": "The figures are the total debt the government owed (funded and unfunded), rounded to the nearest £0.1 million. The source gives the debt in 1689, when William III became king; in 1702, 1714, and 1727, when Anne, George I, and George II took the throne; and in 1763, 1775, 1784, and 1793. Earlier figures are for England and then Great Britain. The 1817 figure includes Ireland's debt: the British and Irish treasuries were merged in January 1817, and the source gives the debt on February 1, 1817.",
    "source": "The Statesman's Year-Book, 1871 (London: Macmillan, 1871), table of the British national debt, p. 224"
   },
   "X5": {
@@ -342,7 +342,7 @@
     },
     {
      "t": "sectarians",
-     "d": "members of small groups with extreme beliefs"
+     "d": "people strongly attached to a religious or political group; used critically here"
     },
     {
      "t": "gangrene",
@@ -413,16 +413,16 @@
   "X8": {
    "type": "passage",
    "paragraphs": [
-    "… The truth is these wars [England's wars with France from 1689 to 1815] group themselves very symmetrically, and the whole period stands out as an age of gigantic rivalry between England and France, a kind of second Hundred Years' War.* …",
-    "… The explanation of that second Hundred Years' War between England and France which fills the eighteenth century is this, that they were rival candidates for the possession of the New World, and the triple war** which fills the middle of the century is, as it were, the decisive campaign in that great world-struggle. …",
-    "But now it is most important to observe further that not only in America, but in Asia also, France and England in that age advanced side by side. … In India indeed they [the French] had the start of us much more decidedly than in North America … And I find, when I study the English conquest of India, that we were actuated neither by ambition nor yet by mere desire to advance our trade, but that from first to last, that is, from the first efforts of Clive to the time when Lord Wellesley, Lord Minto and Lord Hastings established our authority over the whole vast peninsula, we were actuated by fear of the French."
+    "… The truth is these wars* group themselves very symmetrically, and the whole period stands out as an age of gigantic rivalry between England and France, a kind of second Hundred Years' War. …",
+    "… the explanation of that second Hundred Years' War between England and France which fills the eighteenth century is this, that they were rival candidates for the possession of the New World, and the triple war** which fills the middle of the century is, as it were, the decisive campaign in that great world-struggle. …",
+    "But now it is most important to observe further that not only in America, but in Asia also, France and England in that age advanced side by side. … And I find, when I study the English conquest of India, that we were actuated neither by ambition nor yet by mere desire to advance our trade, but that from first to last, that is, from the first efforts of Clive to the time when Lord Wellesley, Lord Minto and Lord Hastings established our authority over the whole vast peninsula, we were actuated by fear of the French."
    ],
    "attribution": "John Robert Seeley, British historian at the University of Cambridge, The Expansion of England, a book of lectures, 1883",
    "translation": "Text from the first edition (London: Macmillan, 1883); adapted",
    "footnotes": [
     {
      "mark": "*",
-     "text": "The first Hundred Years' War was a series of wars between England and France from 1337 to 1453."
+     "text": "Seeley means England's wars with France from 1689 to 1815, which he lists just before this sentence. The first Hundred Years' War was a series of wars between England and France from 1337 to 1453."
     },
     {
      "mark": "**",
@@ -461,7 +461,7 @@
     "The one nation that gained in this war** was that which used the sea in peace to earn its wealth, and ruled it in war by the extent of its navy, by the number of its subjects who lived on the sea or by the sea, and by its numerous bases of operations scattered over the globe. …"
    ],
    "attribution": "Alfred Thayer Mahan, United States naval officer and historian, The Influence of Sea Power upon History, 1660–1783, 1890",
-   "translation": "Adapted",
+   "translation": "Text from the first edition (Boston: Little, Brown, 1890), pp. 326–329; adapted, with one misprint corrected as in later printings",
    "footnotes": [
     {
      "mark": "*",
@@ -513,11 +513,11 @@
     "Cahier of the grievances, complaints, and protests of the electoral district of Carcassonne, drawn up by the commissioners named by the general assembly of the third estate …",
     "The third estate of the electoral district of Carcassonne, desiring to give to a beloved monarch, and one so worthy of our affection, the most unmistakable proof of its love and respect, of its gratitude and fidelity … declares that the happiness of the nation must, in their opinion, depend upon that of its king, upon the stability of the monarchy, and upon the preservation of the orders which compose it and of the fundamental laws which govern it …",
     "1. Public worship should be confined to the Roman Catholic apostolic religion, to the exclusion of all other forms of worship …",
-    "8. … The nation should hereafter be subject only to such laws and taxes as it shall itself freely ratify.",
+    "8. … the nation should hereafter be subject only to such laws and taxes as it shall itself freely ratify.",
     "9. The meetings of the Estates General of the kingdom should be fixed for definite periods …",
     "10. In order to assure to the third estate the influence to which it is entitled in view of the number of its members, the amount of its contributions to the public treasury, and the manifold interests which it has to defend or promote in the national assemblies, its votes in the assembly should be taken and counted by head.",
     "11. No order, corporation, or individual citizen may lay claim to any pecuniary exemptions. … All taxes should be assessed on the same system throughout the nation.",
-    "12. … The general or particular regulations which exclude members of the third estate from certain positions, offices, and ranks which have hitherto been bestowed on nobles either for life or hereditarily [should be abolished]. A law should be passed declaring members of the third estate qualified to fill all such offices for which they are judged to be personally fitted."
+    "12. The due exacted from commoners holding fiefs should be abolished, and also the general or particular regulations which exclude members of the third estate from certain positions, offices, and ranks which have hitherto been bestowed on nobles either for life or hereditarily. A law should be passed declaring members of the third estate qualified to fill all such offices for which they are judged to be personally fitted."
    ],
    "attribution": "Cahier (list of grievances) of the Third Estate of the district of Carcassonne, in southern France, written in the spring of 1789 for the meeting of the Estates-General",
    "translation": "English translation in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (Boston, 1908); adapted",
@@ -553,6 +553,10 @@
     {
      "t": "pecuniary exemptions",
      "d": "freedom from paying money, such as taxes"
+    },
+    {
+     "t": "due exacted from commoners holding fiefs",
+     "d": "a fee charged to commoners who owned land that came with feudal rights"
     },
     {
      "t": "hereditarily",
@@ -650,19 +654,19 @@
       },
       {
        "t": "the baker, the baker's wife, and the little journeyman",
-       "d": "the crowd's nicknames for King Louis XVI, Queen Marie Antoinette, and their young son (a journeyman is a young worker learning a trade)"
+       "d": "the crowd's nicknames for King Louis XVI, Queen Marie Antoinette, and their young son (a journeyman is a trained worker who has finished an apprenticeship)"
       }
      ]
     },
     {
      "label": "Source 2",
      "paragraphs": [
-      "[Article] 8. Every Frenchman shall enjoy civil rights. …",
-      "[Article] 213. The husband owes protection to his wife, the wife obedience to her husband.",
-      "[Article] 214. The wife is obliged to live with her husband, and to follow him to every place where he may judge it convenient to reside: the husband is obliged to receive her, and to furnish her with every thing necessary for the wants of life, according to his means and station. …",
-      "[Article] 217. A wife, although non-communicant or separate in property, cannot give, alienate, pledge, or acquire by free or chargeable title, without the concurrence of her husband in the act, or his consent in writing."
+      "8. Every Frenchman shall enjoy civil rights. …",
+      "213. The husband owes protection to his wife, the wife obedience to her husband.",
+      "214. The wife is obliged to live with her husband, and to follow him to every place where he may judge it convenient to reside: the husband is obliged to receive her, and to furnish her with every thing necessary for the wants of life, according to his means and station. …",
+      "217. A wife, although non-communicant or separate in property, cannot give, alienate, pledge, or acquire by free or chargeable title, without the concurrence of her husband in the act, or his consent in writing."
      ],
-     "attribution": "Civil Code of the French (the Napoleonic Code), law code issued in France in 1804",
+     "attribution": "Civil Code of the French (the Napoleonic Code), law code issued in France in 1804, articles 8, 213, 214, and 217",
      "translation": "Translated by a barrister of the Inner Temple, The Code Napoleon; or, The French Civil Code (London, 1824); adapted",
      "glossary": [
       {
@@ -694,63 +698,77 @@
    ]
   },
   "P5": {
-   "type": "passage",
-   "paragraphs": [
-    "The French people to the people of ——; brothers and friends:",
-    "We have conquered our liberty and we shall maintain it. We offer to bring this inestimable blessing to you, for it has always been rightly ours, and only by a crime have our oppressors robbed us of it. We have driven out your tyrants. Show yourselves free men and we will protect you from their vengeance, their machinations, or their return.",
-    "From this moment the French nation proclaims the sovereignty of the people, the suppression of all civil and military authorities which have hitherto governed you and of all the taxes which you bear, under whatever form, the abolition of the tithe, of feudalism, of seigniorial rights and monopolies of every kind, of serfdom, whether real or personal, of hunting and fishing privileges, of the corvée, the salt tax, the tolls and local imposts, and, in general, of all the various kinds of taxes with which you have been loaded by your usurpers; it also proclaims the abolition among you of all noble and ecclesiastical corporations and of all prerogatives and privileges opposed to equality. You are, from this moment, brothers and friends; all are citizens, equal in rights, and all are alike called to govern, to serve, and to defend your country.",
-    "[From Article 11 of the decree to which the proclamation was attached:] The French nation declares that it will treat as enemies every people who, refusing liberty and equality or renouncing them, may wish to maintain, recall, or treat with the prince and the privileged classes …"
-   ],
-   "attribution": "Proclamation of the National Convention of France, to be published in lands occupied by French armies, December 15, 1792",
-   "translation": "English translation in James Harvey Robinson, Readings in European History, vol. 2 (Boston, 1906); adapted",
-   "glossary": [
+   "type": "pair",
+   "items": [
     {
-     "t": "inestimable",
-     "d": "too great to be measured"
+     "label": "Source 1",
+     "paragraphs": [
+      "The French people to the people of ——; brothers and friends:",
+      "We have conquered our liberty and we shall maintain it. We offer to bring this inestimable blessing to you, for it has always been rightly ours, and only by a crime have our oppressors robbed us of it. We have driven out your tyrants. Show yourselves free men and we will protect you from their vengeance, their machinations, or their return.",
+      "From this moment the French nation proclaims the sovereignty of the people, the suppression of all civil and military authorities which have hitherto governed you and of all the taxes which you bear, under whatever form, the abolition of the tithe, of feudalism, of seigniorial rights and monopolies of every kind, of serfdom, whether real or personal, of hunting and fishing privileges, of the corvée, the salt tax, the tolls and local imposts, and, in general, of all the various kinds of taxes with which you have been loaded by your usurpers; it also proclaims the abolition among you of all noble and ecclesiastical corporations and of all prerogatives and privileges opposed to equality. You are, from this moment, brothers and friends; all are citizens, equal in rights, and all are alike called to govern, to serve, and to defend your country."
+     ],
+     "attribution": "Proclamation of the National Convention of France, to be published in lands occupied by French armies, December 15, 1792",
+     "translation": "English translation in James Harvey Robinson, Readings in European History, vol. 2 (Boston, 1906); adapted",
+     "glossary": [
+      {
+       "t": "inestimable",
+       "d": "too great to be measured"
+      },
+      {
+       "t": "machinations",
+       "d": "secret plots"
+      },
+      {
+       "t": "sovereignty",
+       "d": "the highest power to rule"
+      },
+      {
+       "t": "hitherto",
+       "d": "until now"
+      },
+      {
+       "t": "tithe",
+       "d": "a tax of one-tenth of a harvest or income, paid to the Church"
+      },
+      {
+       "t": "seigniorial rights",
+       "d": "payments and services that peasants owed to their lords"
+      },
+      {
+       "t": "corvée",
+       "d": "unpaid labor that peasants were forced to do, such as road work"
+      },
+      {
+       "t": "imposts",
+       "d": "taxes"
+      },
+      {
+       "t": "usurpers",
+       "d": "people who take power they have no right to"
+      },
+      {
+       "t": "ecclesiastical corporations",
+       "d": "church organizations such as monasteries"
+      },
+      {
+       "t": "prerogatives",
+       "d": "special rights"
+      }
+     ]
     },
     {
-     "t": "machinations",
-     "d": "secret plots"
-    },
-    {
-     "t": "sovereignty",
-     "d": "the highest power to rule"
-    },
-    {
-     "t": "hitherto",
-     "d": "until now"
-    },
-    {
-     "t": "tithe",
-     "d": "a tax of one-tenth of a harvest or income, paid to the Church"
-    },
-    {
-     "t": "seigniorial rights",
-     "d": "payments and services that peasants owed to their lords"
-    },
-    {
-     "t": "corvée",
-     "d": "unpaid labor that peasants were forced to do, such as road work"
-    },
-    {
-     "t": "imposts",
-     "d": "taxes"
-    },
-    {
-     "t": "usurpers",
-     "d": "people who take power they have no right to"
-    },
-    {
-     "t": "ecclesiastical corporations",
-     "d": "church organizations such as monasteries"
-    },
-    {
-     "t": "prerogatives",
-     "d": "special rights"
-    },
-    {
-     "t": "treat with",
-     "d": "make agreements with"
+     "label": "Source 2",
+     "paragraphs": [
+      "The French nation declares that it will treat as enemies every people who, refusing liberty and equality or renouncing them, may wish to maintain, recall, or treat with the prince and the privileged classes …"
+     ],
+     "attribution": "Article 11 of the decree of the National Convention to which the proclamation in Source 1 was attached, December 15, 1792",
+     "translation": "English translation quoted in a note in James Harvey Robinson, Readings in European History, vol. 2 (Boston, 1906); adapted",
+     "glossary": [
+      {
+       "t": "treat with",
+       "d": "make agreements with"
+      }
+     ]
     }
    ]
   },
@@ -768,7 +786,7 @@
    "glossary": [
     {
      "t": "in permanent requisition",
-     "d": "ordered to serve until further notice"
+     "d": "required to serve until enemy forces had been driven from France"
     },
     {
      "t": "provisions",
@@ -788,7 +806,7 @@
     },
     {
      "t": "get himself replaced",
-     "d": "pay someone else to serve in his place"
+     "d": "arrange for someone else to do his assigned service"
     },
     {
      "t": "public functionaries",
@@ -828,7 +846,7 @@
     },
     {
      "t": "on the order of the day",
-     "d": "as the government's official policy"
+     "d": "as a current priority or course of action"
     },
     {
      "t": "clemency",
@@ -887,7 +905,7 @@
       },
       {
        "t": "the trade in the blacks",
-       "d": "the 1908 translation's words for the Atlantic slave trade"
+       "d": "the translation's words for the trade in enslaved Africans to the colonies, in both the Atlantic and the Indian Ocean"
       },
       {
        "t": "notwithstanding",
@@ -903,9 +921,9 @@
    "width": 1280,
    "height": 916,
    "alt": "A hand-colored cartoon of two men in military uniforms seated at a table, each slicing into a large globe on a platter. The man on the left uses a carving knife and fork; the man on the right, in an enormous feathered hat, uses a sword and fork.",
-   "caption": "Two men sit across a table from each other and carve a large steaming globe on a gold platter. On the left, British prime minister William Pitt, tall and thin, uses a carving knife and fork to cut a wide slice from the side of the globe marked \"Ocean.\" On the right, Napoleon Bonaparte, short and in a huge feathered hat, uses a sword to cut off a smaller piece marked \"Europe,\" with places such as France, Holland, and Spain written on it. The title at the top reads \"The Plumb-pudding in Danger; or, State Epicures Taking un Petit Souper,\" followed by the line \"the great Globe itself and all which it inherit, is too small to satisfy such insatiable appetites.\"",
+   "caption": "Two men sit across a table from each other and carve a large steaming globe on a gold platter. On the left, British prime minister William Pitt, tall and thin, uses a carving knife and fork to cut a wide slice from the side of the globe marked \"Ocean.\" On the right, Napoleon Bonaparte, drawn as a much smaller figure and wearing a huge feathered hat, uses a sword to cut off a smaller piece marked \"Europe,\" with places such as France, Holland, and Spain written on it. The title at the top reads \"The Plumb-pudding in Danger; or, State Epicures Taking un Petit Souper,\" followed by the line \"the great Globe itself and all which it inherit, is too small to satisfy such insatiable appetites.\"",
    "attribution": "James Gillray, British cartoonist, The Plumb-pudding in Danger, hand-colored etching published in London, February 26, 1805",
-   "credit": "Library of Congress. Public domain image via Wikimedia Commons.",
+   "credit": "Library of Congress, Prints and Photographs Division (digital ID cph.3g08791). Public domain image via Wikimedia Commons (file: Caricature gillray plumpudding.jpg).",
    "description": "A hand-colored etching. A round table with a white cloth stands in the middle. On it is a gold platter holding a large globe drawn like a steaming Christmas pudding, with lines of latitude and longitude. On the left, a thin man in a red coat with gold shoulder pieces and a tall black hat sits on a chair decorated with a lion and a red cross. He leans forward and slices off a large curved section of the globe with a long carving knife, holding it steady with a fork. The section reads \"Ocean.\" On the right, a small man in a blue and red uniform and a very large hat with red and blue feathers sits on a chair with a crown on its back. He uses a sword to cut away a smaller piece marked \"Europe,\" where France, Holland, Spain, and other names appear. Each man has an empty gold plate in front of him. Steam rises from the globe into the sky. The title and a quotation run across the top, and the date and publisher appear in the upper left corner.",
    "glossary": [
     {
@@ -947,7 +965,7 @@
     },
     {
      "t": "blockade",
-     "d": "using warships to stop ships from entering or leaving an enemy's ports"
+     "d": "an attempt to cut off an enemy's trade; a naval blockade uses warships, while this decree orders ports under French control to shut out British trade"
     },
     {
      "t": "commerce",
@@ -968,54 +986,68 @@
    ]
   },
   "P11": {
-   "type": "passage",
-   "paragraphs": [
-    "Spaniards, you have been seduced by perfidious men. They have involved you in a mad conflict and induced you to rush to arms. … In a few months you have been subjected to all the horrors of popular faction. The defeat of your armies was the affair of a few marches. I have entered Madrid. The right of war authorizes me to make a terrible example and to wash out with blood the outrages committed against me and my nation. But my only thought is of clemency. … I will speedily expel from the peninsula that English army which has been dispatched to Spain, not to aid you, but to inspire in you a false confidence and to deceive you. …",
-    "Spaniards, your destiny is in my hands. … I have destroyed everything which stands in the way of your prosperity and greatness. I have broken the fetters which hampered the people. I have given you a liberal constitution, and, in the place of an absolute, I have given you a limited and constitutional monarchy. … But if all my efforts should prove useless and if you do not respond to my confidence, nothing will remain for me except to treat you as conquered provinces and to place my brother upon another throne.* …",
-    "[From decrees issued by Napoleon at Madrid, December 4, 1808:] To date from the publication of the present decree, feudal rights are abolished in Spain. …",
-    "The tribunal of the Inquisition is abolished, as inconsistent with the civil sovereignty and authority. …",
-    "To date from January 1 next, the barriers existing between the provinces shall be suppressed. The custom houses shall be removed to the frontiers and there established."
-   ],
-   "attribution": "Napoleon Bonaparte, emperor of the French, proclamation to the people of Spain issued at Madrid, December 7, 1808",
-   "translation": "English translation in James Harvey Robinson, Readings in European History, vol. 2 (Boston, 1906); adapted",
-   "footnotes": [
+   "type": "pair",
+   "items": [
     {
-     "mark": "*",
-     "text": "In 1808 Napoleon removed Spain's royal family and made his brother Joseph king of Spain."
-    }
-   ],
-   "glossary": [
-    {
-     "t": "perfidious",
-     "d": "untrustworthy"
+     "label": "Source 1",
+     "paragraphs": [
+      "Spaniards, you have been seduced by perfidious men. They have involved you in a mad conflict and induced you to rush to arms. … In a few months you have been subjected to all the horrors of popular faction. The defeat of your armies was the affair of a few marches. I have entered Madrid. The right of war authorizes me to make a terrible example and to wash out with blood the outrages committed against me and my nation. But my only thought is of clemency. … I will speedily expel from the peninsula that English army which has been dispatched to Spain, not to aid you, but to inspire in you a false confidence and to deceive you. …",
+      "Spaniards, your destiny is in my hands. … I have destroyed everything which stands in the way of your prosperity and greatness. I have broken the fetters which hampered the people. I have given you a liberal constitution, and, in the place of an absolute, I have given you a limited and constitutional monarchy. … But if all my efforts should prove useless and if you do not respond to my confidence, nothing will remain for me except to treat you as conquered provinces and to place my brother upon another throne.* …"
+     ],
+     "attribution": "Napoleon Bonaparte, emperor of the French, proclamation to the people of Spain issued at Madrid, December 7, 1808",
+     "translation": "English translation in James Harvey Robinson, Readings in European History, vol. 2 (Boston, 1906); adapted",
+     "footnotes": [
+      {
+       "mark": "*",
+       "text": "In 1808 Napoleon removed Spain's royal family and made his brother Joseph king of Spain."
+      }
+     ],
+     "glossary": [
+      {
+       "t": "perfidious",
+       "d": "untrustworthy"
+      },
+      {
+       "t": "popular faction",
+       "d": "political divisions and conflict among the people"
+      },
+      {
+       "t": "clemency",
+       "d": "mercy"
+      },
+      {
+       "t": "the peninsula",
+       "d": "Spain and Portugal"
+      },
+      {
+       "t": "fetters",
+       "d": "chains"
+      }
+     ]
     },
     {
-     "t": "popular faction",
-     "d": "fighting among groups of common people"
-    },
-    {
-     "t": "clemency",
-     "d": "mercy"
-    },
-    {
-     "t": "the peninsula",
-     "d": "Spain and Portugal"
-    },
-    {
-     "t": "fetters",
-     "d": "chains"
-    },
-    {
-     "t": "the Inquisition",
-     "d": "a church court that tried people accused of heresy (beliefs against Church teaching)"
-    },
-    {
-     "t": "civil sovereignty",
-     "d": "the government's power to rule"
-    },
-    {
-     "t": "custom houses",
-     "d": "offices where taxes on traded goods are collected"
+     "label": "Source 2",
+     "paragraphs": [
+      "To date from the publication of the present decree, feudal rights are abolished in Spain. …",
+      "The tribunal of the Inquisition is abolished, as inconsistent with the civil sovereignty and authority. …",
+      "To date from January 1 next, the barriers existing between the provinces shall be suppressed. The custom houses shall be removed to the frontiers and there established."
+     ],
+     "attribution": "Decrees issued by Napoleon at Madrid, December 4, 1808",
+     "translation": "English translation in James Harvey Robinson, Readings in European History, vol. 2 (Boston, 1906); adapted",
+     "glossary": [
+      {
+       "t": "the Inquisition",
+       "d": "a church court that tried people accused of heresy (beliefs against Church teaching)"
+      },
+      {
+       "t": "civil sovereignty",
+       "d": "the government's power to rule"
+      },
+      {
+       "t": "custom houses",
+       "d": "offices where taxes on traded goods are collected"
+      }
+     ]
     }
    ]
   },
@@ -1123,11 +1155,11 @@
   "P14": {
    "type": "passage",
    "paragraphs": [
-    "[May 24, 1738.] In the evening I went very unwillingly to a society in Aldersgate-street,* where one was reading Luther's preface to the Epistle to the Romans. About a quarter before nine, while he was describing the change which God works in the heart through faith in Christ, I felt my heart strangely warmed. I felt I did trust in Christ, Christ alone, for salvation: and an assurance was given me, that he had taken away my sins, even mine, and saved me from the law of sin and death. …",
-    "[March 31, 1739.] In the evening I reached Bristol, and met Mr. Whitefield** there. I could scarce reconcile myself at first to this strange way of preaching in the fields, of which he set me an example on Sunday; having been all my life (till very lately) so tenacious of every point relating to decency and order, that I should have thought the saving of souls almost a sin, if it had not been done in a church. …",
-    "[April 2, 1739.] At four in the afternoon, I submitted to be more vile, and proclaimed in the highways the glad tidings of salvation, speaking from a little eminence in a ground adjoining to the city, to about three thousand people."
+    "In the evening I went very unwillingly to a society in Aldersgate-street,* where one was reading Luther's preface to the Epistle to the Romans. About a quarter before nine, while he was describing the change which God works in the heart through faith in Christ, I felt my heart strangely warmed. I felt I did trust in Christ, Christ alone, for salvation: and an assurance was given me, that he had taken away my sins, even mine, and saved me from the law of sin and death. …",
+    "In the evening I reached Bristol, and met Mr. Whitefield** there. I could scarce reconcile myself at first to this strange way of preaching in the fields, of which he set me an example on Sunday; having been all my life (till very lately) so tenacious of every point relating to decency and order, that I should have thought the saving of souls almost a sin, if it had not been done in a church. …",
+    "At four in the afternoon, I submitted to be more vile, and proclaimed in the highways the glad tidings of salvation, speaking from a little eminence in a ground adjoining to the city, to about three thousand people."
    ],
-   "attribution": "John Wesley, English priest of the Church of England, journal entries, 1738–1739",
+   "attribution": "John Wesley, English priest of the Church of England, journal entries for May 24, 1738 (first paragraph), March 31, 1739 (second paragraph), and April 2, 1739 (third paragraph)",
    "translation": "Text from The Journal of the Rev. John Wesley, vol. 1 (London: Wesleyan Conference Office, 1903); adapted",
    "footnotes": [
     {
@@ -1173,11 +1205,17 @@
   "P15": {
    "type": "passage",
    "paragraphs": [
-    "Their object [that of earlier defenders of Christianity] should have been to reconcile to religion, not the sophists, but those whom they were leading astray. They had been seduced by being told that Christianity was the offspring of barbarism, an enemy of the arts and sciences, of reason and refinement; a religion whose only tendency was to encourage bloodshed, to enslave mankind, to diminish their happiness, and to retard the progress of the human understanding.",
+    "Their* object should have been to reconcile to religion, not the sophists, but those whom they were leading astray. They had been seduced by being told that Christianity was the offspring of barbarism, an enemy of the arts and sciences, of reason and refinement; a religion whose only tendency was to encourage bloodshed, to enslave mankind, to diminish their happiness, and to retard the progress of the human understanding.",
     "It was, therefore, necessary to prove that, on the contrary, the Christian religion, of all the religions that ever existed, is the most humane, the most favorable to liberty and to the arts and sciences; that the modern world is indebted to it for every improvement, from agriculture to the abstract sciences—from the hospitals for the reception of the unfortunate to the temples reared by the Michael Angelos and embellished by the Raphaels. It was necessary to prove that nothing is more divine than its morality—nothing more lovely and more sublime than its tenets, its doctrine, and its worship; that it encourages genius, corrects the taste, develops the virtuous passions, imparts energy to the ideas, presents noble images to the writer, and perfect models to the artist … In a word, it was necessary to summon all the charms of the imagination, and all the interests of the heart, to the assistance of that religion against which they had been set in array."
    ],
    "attribution": "François-René de Chateaubriand, French writer, The Genius of Christianity, published in Paris in April 1802",
    "translation": "Translated by Charles I. White (Philadelphia and Baltimore, 1856); adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "\"Their\" refers to earlier writers who had defended Christianity."
+    }
+   ],
    "glossary": [
     {
      "t": "reconcile to",
@@ -1185,7 +1223,7 @@
     },
     {
      "t": "sophists",
-     "d": "clever arguers who use reasoning to mislead"
+     "d": "Chateaubriand's critical label for writers he believed used misleading arguments"
     },
     {
      "t": "seduced",
@@ -1218,14 +1256,14 @@
    "paragraphs": [
     "I once heard an orator, in the days when we had political assemblies,* call administrative centralization \"that noble conquest of the Revolution which Europe envies us.\" I am willing to admit that centralization was a noble conquest, and that Europe envies us its possession; but I deny that it was a conquest of the Revolution. It was, on the contrary, a feature of the old regime, and, I may add, the only one which outlived the Revolution, because it was the only one that was suited to the new condition of society created by the Revolution. …",
     "Let no one again express surprise at the wonderful ease with which centralization was re-established in France at the beginning of this century. It had been overthrown by the men of 1789; but its foundations were deep in the minds of its very destroyers, and upon these it was rebuilt anew stronger than ever. …",
-    "When … the bewildered nation began to grope around for a master, immense facilities were offered for the restoration of absolute government; and it was easy for the genius of him who was destined both to continue and to destroy the Revolution to discover them. … Centralization was raised from its tomb and restored to its place; whence it happened that, all the checks which had formerly served to limit its power being destroyed, and not revived, there sprang out of the bosom of a nation which had just overthrown royalty a power more extensive, more detailed, more absolute than any of our monarchs had ever wielded."
+    "But when … the bewildered nation began to grope around for a master, immense facilities were offered for the restoration of absolute government; and it was easy for the genius of him who was destined both to continue and to destroy the Revolution to discover them. … Centralization was raised from its tomb and restored to its place; whence it happened that, all the checks which had formerly served to limit its power being destroyed, and not revived, there sprang out of the bosom of a nation which had just overthrown royalty a power more extensive, more detailed, more absolute than any of our monarchs had ever wielded."
    ],
-   "attribution": "Alexis de Tocqueville (born 1805), French writer and former government minister, The Old Regime and the Revolution, 1856",
+   "attribution": "Alexis de Tocqueville, French writer and former government minister, The Old Regime and the Revolution, 1856",
    "translation": "Translated by John Bonner (New York: Harper, 1856); adapted",
    "footnotes": [
     {
      "mark": "*",
-     "text": "Tocqueville published this book in 1856, under Emperor Napoleon III, who had taken power in 1851."
+     "text": "Tocqueville published this book in 1856, during the Second Empire of Napoleon III, after Louis-Napoleon's coup of 1851."
     }
    ],
    "glossary": [
@@ -1287,21 +1325,21 @@
    "lo": "C",
    "skill": "2.C",
    "difficulty": "hard",
-   "stem": "Which of the following is a reason a historian might be cautious about Mahan's interpretation?",
+   "stem": "Which limitation should a historian consider when using this passage as a complete explanation of Britain's victory?",
    "options": {
     "A": "Mahan quotes a French historian, so his account mainly reflects how the French saw the war.",
-    "B": "Mahan was a naval officer, so he could not have read the records of the Seven Years' War.",
-    "C": "Mahan hoped to persuade Americans to build a strong navy, so he may overstate the role of sea power.",
+    "B": "Mahan wrote over a century after the war, when few written records from the 1750s and 1760s survived.",
+    "C": "Mahan's naval background may have led him to stress sea power more than other military or diplomatic factors.",
     "D": "Mahan relies on claims made by Prussia and Hanover, which wanted credit for the victory."
    },
    "answer": "C",
-   "explanation": "Mahan wrote in 1890 as a U.S. naval officer. He wanted his own country to see the value of a large navy, so he had a reason to stress sea power above other causes, such as Prussia's fighting in Europe.",
+   "explanation": "Mahan's career as a naval officer may help explain why he puts sea power first. To judge why Britain won, a historian should also look at evidence about land war, money, and Britain's allies, such as Prussia.",
    "whyNot": {
-    "A": "Mahan quotes the French historian only to add his own view. And a French writer who admits Britain's superiority is hardly biased toward Britain.",
-    "B": "Naval officers could read published histories and records. Mahan's book cites many of them.",
+    "A": "Quoting Henri Martin does not make Mahan's account a French view. Mahan answers Martin with his own argument about sea power.",
+    "B": "Many records of the war survived. Historians in 1890 could use printed letters, reports, and earlier histories, and Mahan even quotes Henri Martin's history.",
     "D": "Mahan does not rely on Prussia or Hanover. He mentions them only as Britain's helpers."
    },
-   "hint": "Look at who Mahan was and when he wrote. What might a writer like that want his readers to believe?"
+   "hint": "Which choice describes something that is actually true of Mahan or of the passage, and that would also leave the explanation incomplete?"
   },
   {
    "id": "E5-P03",
@@ -1335,16 +1373,16 @@
    "difficulty": "easy",
    "stem": "Which of the following best describes the demands in the cahier?",
    "options": {
-    "A": "The Third Estate wants equal taxes and more say in government, under the king.",
-    "B": "The Third Estate wants to replace the monarchy with a republic run by elected officials.",
-    "C": "The Third Estate wants freedom of worship for Protestants and a smaller role for the Church.",
+    "A": "The Third Estate wants no tax exemptions and more say in government, under the king.",
+    "B": "The Third Estate wants the Estates-General to replace the king as the maker of France's laws.",
+    "C": "The Third Estate wants the Church's lands sold to pay off the king's debts.",
     "D": "The Third Estate wants the nobles to keep their offices in return for paying higher taxes."
    },
    "answer": "A",
    "explanation": "The cahier asks that no group be free from taxes, that votes be counted by head, and that offices be open to talent. It also shows loyalty to the king and the Catholic Church.",
    "whyNot": {
-    "B": "The cahier praises \"a beloved monarch\" and \"the stability of the monarchy.\" It does not call for a republic.",
-    "C": "Article 1 says worship should be \"confined to the Roman Catholic apostolic religion.\"",
+    "B": "Article 8 asks that laws and taxes be ratified by the nation, but the cahier still praises \"a beloved monarch\" and wants \"the stability of the monarchy.\"",
+    "C": "The cahier does not mention Church lands, and Article 1 asks that Catholic worship be protected. The National Assembly, not this cahier, took over Church lands in November 1789.",
     "D": "Article 12 asks that offices held by nobles be opened to members of the Third Estate."
    },
    "hint": "Look for what the cahier asks to change and what it wants to keep."
@@ -1367,8 +1405,8 @@
    "explanation": "If each estate voted as one body, the clergy and nobles could outvote the Third Estate two to one. Counting votes by head would give the Third Estate, with half the deputies, a real chance to win.",
    "whyNot": {
     "A": "Louis XVI had already agreed to call the Estates-General. The cahiers were written for that meeting.",
-    "C": "Many nobles opposed doubling. The king's minister Necker doubled the Third Estate's deputies in December 1788, but that meant little unless votes were counted by head.",
-    "D": "The king did not give this order until late June 1789, after the Third Estate had declared itself the National Assembly."
+    "C": "In December 1788 Louis XVI's government, on Necker's advice, doubled the Third Estate's deputies. Doubling did not settle whether votes would be counted by order or by head.",
+    "D": "On June 27, 1789, the king told the remaining clergy and nobles to join the National Assembly. This came after the cahiers had been written."
    },
    "hint": "Article 10 talks about how votes \"should be taken and counted.\" Why would the Third Estate care how votes were counted?"
   },
@@ -1387,7 +1425,7 @@
     "D": "The National Assembly opened government offices to men of talent, whatever their birth."
    },
    "answer": "C",
-   "explanation": "In early 1789 the Third Estate of Carcassonne praised the king and wanted to keep the monarchy. Within three years the Revolution had removed the king and created a republic, a change far beyond these demands.",
+   "explanation": "In spring 1789 the Third Estate of Carcassonne praised the king and wanted to keep the monarchy. In September 1792 the National Convention abolished the monarchy and set up a republic, going far beyond these demands.",
    "whyNot": {
     "A": "Equal taxes were exactly what article 11 asked for.",
     "B": "The meeting of the Estates-General was what the cahier was written for, and article 9 asks for more meetings.",
@@ -1411,7 +1449,7 @@
     "D": "return to the Church the lands the National Assembly had taken in 1789"
    },
    "answer": "C",
-   "explanation": "The decree made bishops and priests elected officials paid by the state. It fit dioceses to the new departments and required clergy to swear loyalty to the nation.",
+   "explanation": "The decree made bishops and priests elected officials supported by the nation, fit dioceses to the new departments, and required newly elected bishops to swear loyalty. These rules put the Church in France under much greater state control.",
    "whyNot": {
     "A": "The decree makes the clergy swear loyalty to the nation and takes their pay from the nation. It ties them to the government.",
     "B": "Article XIX says a new bishop \"may not apply to the pope\" for approval. The decree cuts the pope's power.",
@@ -1434,7 +1472,7 @@
     "D": "the nobles' promise to pay priests' salaries in return for keeping their privileges"
    },
    "answer": "A",
-   "explanation": "In November 1789 the Assembly took over the Church's vast lands and sold them to pay France's debts. Since the Church had lost its income, the state now had to pay priests' salaries.",
+   "explanation": "In November 1789 the Assembly put the Church's lands at the nation's disposal, and sales began in 1790 to help with the debt crisis. The state then took on the job of paying the clergy.",
    "whyNot": {
     "B": "The pope made no such offer. He condemned the decree in 1791.",
     "C": "The Assembly abolished the tithe in August 1789. It did not create a new one.",
@@ -1449,7 +1487,7 @@
    "lo": "D",
    "skill": "5.B",
    "difficulty": "medium",
-   "stem": "The decree contributed most directly to which of the following?",
+   "stem": "The carrying out of this decree, including a later rule that serving clergy take an oath, contributed most directly to which of the following?",
    "options": {
     "A": "strong support for the Revolution among Catholic peasants in western France",
     "B": "the pope's approval of the election of French bishops by voters",
@@ -1457,13 +1495,13 @@
     "D": "a split among the clergy, as many priests refused to swear the required oath"
    },
    "answer": "D",
-   "explanation": "About half of the parish priests and nearly all bishops refused the oath. The French clergy split in two, and many faithful Catholics turned against the Revolution.",
+   "explanation": "In November 1790 the Assembly required serving clergy to swear an oath to the new system. About half of the parish priests and nearly all bishops refused. The clergy split, and many Catholics turned against the Revolution.",
    "whyNot": {
     "A": "Many peasants in the west stood by priests who refused the oath. In 1793 the Vendée region rose in revolt against the Revolution.",
     "B": "Pope Pius VI condemned the Civil Constitution in 1791.",
-    "C": "More nobles left France after 1790, not fewer. Many Catholics now saw the Revolution as an enemy of their faith."
+    "C": "More nobles left France after 1790, not fewer, and many priests who refused the oath went into exile too."
    },
-   "hint": "Article XXI requires an oath. What would happen if many priests would not take it?",
+   "hint": "Look at Articles XIX and XXI. How would Catholics who stayed loyal to the pope view a Church run this way?",
    "reasoning": "Causation"
   },
   {
@@ -1504,11 +1542,11 @@
     "D": "the rise of a new class of factory workers in French cities"
    },
    "answer": "B",
-   "explanation": "Bad harvests made bread very expensive in 1788–1789, and Parisians spent most of their pay on it. The women hoped that with the king in Paris, the city would have bread.",
+   "explanation": "Poor harvests and high bread prices strained many Paris households. The women hoped that bringing the king to Paris would help secure the city's food supply.",
    "whyNot": {
     "A": "The old belief in the royal touch was about curing disease, not about bread.",
     "C": "Selling grain abroad would have made bread even scarcer. The crowd wanted grain kept in Paris.",
-    "D": "Large factories came to France later in the 1800s. The women were seamstresses, market sellers, and other workers."
+    "D": "The march was driven by worries about bread and about the king's response to the Revolution, not by the rise of a large industrial working class."
    },
    "hint": "What are the women carrying, and what do they hope to be \"safe from\"?"
   },
@@ -1527,11 +1565,11 @@
     "D": "Women's role in the October march led the National Assembly to fix low bread prices by law in 1789."
    },
    "answer": "B",
-   "explanation": "Source 1 shows women acting in public politics in 1789. Source 2 gives \"Every Frenchman\" civil rights but tells wives to obey their husbands. The Revolution's promise of equality did not reach women in the law.",
+   "explanation": "Source 1 stresses women's part in revolutionary action. Source 2 shows that the Civil Code kept husbands' authority in marriage: wives owed obedience and needed their husbands' consent for many property dealings.",
    "whyNot": {
     "A": "The Code allowed divorce, though it made divorce harder for wives than for husbands. France did not ban divorce until 1816, after Napoleon fell.",
     "C": "The Code drew on French and Roman law, not English law. English law also gave a husband control of his wife's property.",
-    "D": "The march brought the king to Paris, but bread prices were not fixed by law until the Maximum of 1793."
+    "D": "The march brought the king to Paris, but the National Assembly passed no such law. Price limits on grain across France came only with the Convention's Maximum laws of 1793."
    },
    "hint": "Compare what women do in Source 1 with what the law allows wives to do in Source 2.",
    "reasoning": "Continuity and Change"
@@ -1543,19 +1581,19 @@
    "lo": "D",
    "skill": "2.B",
    "difficulty": "medium",
-   "stem": "The proclamation was most likely intended to",
+   "stem": "The proclamation in Source 1 was most likely intended to",
    "options": {
     "A": "assure the rulers of nearby countries that France would not spread its revolution",
     "B": "persuade the nobles of other countries to give up their privileges on their own",
     "C": "win the support of common people in lands that French armies had entered",
-    "D": "explain to the French why Louis XVI had been allowed to keep his throne"
+    "D": "call on French nobles who had fled abroad to come home and serve the Republic"
    },
    "answer": "C",
    "explanation": "The Convention promised to end feudal dues, tithes, and hated taxes wherever French troops went. It hoped ordinary people would welcome the French as liberators.",
    "whyNot": {
     "A": "The proclamation says France has \"driven out your tyrants.\" It does the opposite of reassuring kings.",
     "B": "The proclamation itself abolishes privileges. It does not ask nobles to act.",
-    "D": "France had abolished the monarchy in September 1792. The proclamation speaks to foreign peoples, not to the French."
+    "D": "The Convention treated the émigrés as traitors. A law of October 1792 banished them for life and ordered death for any who returned."
    },
    "hint": "Who is the proclamation addressed to, and what does it promise them?"
   },
@@ -1566,7 +1604,7 @@
    "lo": "D",
    "skill": "5.B",
    "difficulty": "medium",
-   "stem": "Policies like those in the proclamation contributed most directly to",
+   "stem": "Policies like those in the two sources contributed most directly to",
    "options": {
     "A": "the restoration of the Bourbon monarchy in France in 1793",
     "B": "a long period of peace between France and the Austrian Habsburgs",
@@ -1580,7 +1618,7 @@
     "B": "France and Austria fought on and off from 1792 until 1815.",
     "D": "Britain joined the war against France in 1793 and was France's most constant enemy."
    },
-   "hint": "Article 11 says France will treat as enemies any people who keep their prince. How would kings react?",
+   "hint": "Source 2 says France will treat as enemies any people who keep their prince. How would kings react?",
    "reasoning": "Causation"
   },
   {
@@ -1590,7 +1628,7 @@
    "lo": "F",
    "skill": "5.A",
    "difficulty": "medium",
-   "stem": "The policies in the proclamation are most similar to which later action?",
+   "stem": "The policies in Source 1 are most similar to which later action?",
    "options": {
     "A": "Napoleon's spread of his Civil Code and legal equality to lands he conquered",
     "B": "the Congress of Vienna's return of many lands to the families that had ruled them before 1789",
@@ -1600,7 +1638,7 @@
    "answer": "A",
    "explanation": "Like the Convention, Napoleon brought revolutionary changes to conquered lands. He ended feudal dues and introduced his Code in places such as the Rhineland and northern Italy.",
    "whyNot": {
-    "B": "The Congress of Vienna restored old rulers. That undid French reforms instead of spreading them.",
+    "B": "Restoring old ruling families did not share the proclamation's goal of replacing privileged institutions, though some Napoleonic reforms survived after 1815.",
     "C": "A naval blockade was a weapon of war. It did not reform the laws of other lands.",
     "D": "The Holy Alliance aimed to protect monarchs, not to abolish their privileges."
    },
@@ -1639,7 +1677,7 @@
    "difficulty": "medium",
    "stem": "The decree's call for the aged to \"preach the hatred of kings and the unity of the Republic\" best illustrates",
    "options": {
-    "A": "the Enlightenment view that wars should be fought by small armies of professionals",
+    "A": "the old monarchies' reliance on small professional armies and limited warfare",
     "B": "a return to the religious motives that had driven Europe's wars in the 1500s",
     "C": "the Catholic Church's growing influence on the government's war policy",
     "D": "the use of strong emotion and national loyalty to rally a whole people for war"
@@ -1647,7 +1685,7 @@
    "answer": "D",
    "explanation": "The Revolution turned war into a cause for the whole nation. Speeches, songs, and decrees like this one stirred feelings of patriotism and hatred of kings. This showed the emotional power of mass politics and nationalism.",
    "whyNot": {
-    "A": "The decree calls up every French person, not a small professional army.",
+    "A": "The decree calls up the whole nation, not a small professional army fighting a limited war.",
     "B": "The decree asks people to fight for the Republic, not for a religion.",
     "C": "In 1793 the Revolution was attacking the Church, not following its lead."
    },
@@ -1672,7 +1710,7 @@
    "whyNot": {
     "A": "The army grew, not collapsed. By 1794 France had about 750,000 men under arms.",
     "C": "The Convention did not end the draft in 1794. Later French governments kept drafting soldiers.",
-    "D": "Britain and France were at war from 1793 to 1802 and again from 1803 to 1814."
+    "D": "Britain and France fought one another through the Revolutionary and Napoleonic Wars, apart from brief periods of peace."
    },
    "hint": "Think about how big an army the decree would create. What could France do with it?",
    "reasoning": "Causation"
@@ -1694,7 +1732,7 @@
    "answer": "D",
    "explanation": "Desmoulins wants the suspects set free and a \"Committee of Clemency\" set up. He thinks mercy, not terror, would make the Republic stronger.",
    "whyNot": {
-    "A": "Desmoulins calls the use of the guillotine \"madness.\" He wants fewer trials and executions, not faster ones.",
+    "A": "Desmoulins calls mass executions \"madness\" and asks that suspects be released. He argues for legal protections and mercy, not faster punishment.",
     "B": "Desmoulins calls mercy \"a Revolutionary measure\" that \"will complete the Revolution.\" He does not want a king.",
     "C": "Desmoulins uses the Declaration of Rights to argue for freeing the suspects."
    },
@@ -1715,7 +1753,7 @@
     "D": "the Brunswick Manifesto, which threatened Paris with destruction"
    },
    "answer": "C",
-   "explanation": "The Law of Suspects (September 1793) let committees arrest people for their words, friendships, or family ties, not for proven crimes. Prisons filled with hundreds of thousands of people.",
+   "explanation": "The Law of Suspects of September 1793 let local committees arrest people seen as enemies of the Revolution because of their conduct, words, connections, or social rank. Desmoulins attacks holding people on suspicion instead of for a proven offense.",
    "whyNot": {
     "A": "The Le Chapelier Law banned workers' groups, but it did not fill the prisons with suspects.",
     "B": "The Concordat was signed in 1801, long after 1793.",
@@ -1732,16 +1770,16 @@
    "difficulty": "hard",
    "stem": "Desmoulins's views in the passage most closely match those of",
    "options": {
-    "A": "Georges Danton and his allies, who urged an end to the Terror",
-    "B": "Jacques Hébert and his followers, who demanded harsher action against suspects",
-    "C": "the Committee of Public Safety, which kept terror as official policy",
-    "D": "Edmund Burke and other foreign critics, who condemned the whole Revolution"
+    "A": "Georges Danton and his allies",
+    "B": "Jacques Hébert and his followers",
+    "C": "Saint-Just and the Committee of Public Safety",
+    "D": "Edmund Burke and other British critics"
    },
    "answer": "A",
-   "explanation": "Danton and Desmoulins were called the \"Indulgents\" because they wanted mercy. Robespierre turned against them, and both were executed in April 1794.",
+   "explanation": "Danton and Desmoulins were known as the Indulgents because they wanted mercy. Robespierre turned against them, and both were executed in April 1794.",
    "whyNot": {
     "B": "Hébert's group wanted more arrests and executions, the opposite of Desmoulins.",
-    "C": "Desmoulins argues against those who \"leave Terror on the order of the day,\" which was the Committee's policy.",
+    "C": "Saint-Just, Robespierre's close ally on the Committee of Public Safety, defended the Terror and helped bring Danton and Desmoulins to trial.",
     "D": "Desmoulins supports the Revolution and the Republic. Burke opposed them."
    },
    "hint": "Desmoulins wants clemency but still supports the Republic. Which group fits both of those views?",
@@ -1764,9 +1802,9 @@
    "answer": "B",
    "explanation": "In 1791 enslaved people in Saint-Domingue rose up. To keep the colony and win the rebels to their side, French officials freed the enslaved there in 1793, and the Convention ended slavery in all French colonies in 1794.",
    "whyNot": {
-    "A": "Britain did not end slavery in its colonies until 1833.",
+    "A": "Parliament passed Britain's Slavery Abolition Act in 1833. It took effect in 1834, and forced \"apprenticeship\" lasted in the Caribbean until 1838.",
     "C": "Britain did not end its slave trade until 1807, thirteen years after this decree.",
-    "D": "The Declaration of 1789 said nothing about slavery. For five years the assemblies avoided the question."
+    "D": "The Declaration of 1789 did not abolish slavery. The assemblies debated slavery and the rights of free people of color before the Convention ended slavery in 1794."
    },
    "hint": "What had been happening in France's richest Caribbean colony since 1791?"
   },
@@ -1781,11 +1819,11 @@
    "options": {
     "A": "win the support of free Black leaders in Saint-Domingue",
     "B": "obey the terms of the Treaty of Amiens, which required the return of slavery",
-    "C": "restore the profits of France's sugar colonies in the Caribbean",
+    "C": "protect France's plantation colonies by keeping enslaved labor",
     "D": "reward Toussaint Louverture for keeping Saint-Domingue loyal to France"
    },
    "answer": "C",
-   "explanation": "Before 1789 the sugar and coffee of the Caribbean colonies made France rich. Napoleon wanted to rebuild that colonial empire, and he believed it needed enslaved labor.",
+   "explanation": "Napoleon wanted to protect and rebuild France's colonial economy. The law kept slavery in colonies where the 1794 abolition had not taken effect and allowed the slave trade to supply them, including colonies in the Indian Ocean.",
    "whyNot": {
     "A": "Bringing back slavery turned free Black leaders against France.",
     "B": "The treaty returned islands to France, but it did not require France to bring back slavery. That was France's own choice.",
@@ -1800,7 +1838,7 @@
    "lo": "E",
    "skill": "5.B",
    "difficulty": "medium",
-   "stem": "The policy in Source 2 contributed most directly to which of the following?",
+   "stem": "Napoleon's wider effort to keep or restore colonial slavery, shown in Source 2, contributed most directly to which of the following?",
    "options": {
     "A": "the defeat of French forces in Saint-Domingue and the independence of Haiti in 1804",
     "B": "the end of the French slave trade by order of Napoleon in 1803",
@@ -1808,7 +1846,7 @@
     "D": "a successful revolt by enslaved people in Britain's colony of Jamaica in 1803"
    },
    "answer": "A",
-   "explanation": "The law covered islands such as Martinique, and in 1802 French troops also brought back slavery in Guadeloupe. When the news reached Saint-Domingue, Black and mixed-race leaders united against the French army. Fever and hard fighting destroyed that army. Napoleon gave up his plans for America and sold Louisiana to the United States in 1803. Haiti declared independence on January 1, 1804.",
+   "explanation": "The May 1802 law kept slavery in colonies where the 1794 abolition had not taken effect, such as Martinique. French forces also restored slavery in Guadeloupe in 1802. News of that strengthened resistance in Saint-Domingue, where people feared losing their freedom. Fighting and yellow fever destroyed the French army. Napoleon gave up his plans for America and sold Louisiana to the United States in 1803. Haiti declared independence on January 1, 1804.",
    "whyNot": {
     "B": "Source 2 brings the slave trade back. Napoleon did not ban it until 1815, during his brief return to power.",
     "C": "Toussaint named himself governor for life in 1801. Napoleon rejected this and sent an army against him.",
@@ -1855,7 +1893,7 @@
     "D": "the renewed war between Britain and France after the Peace of Amiens"
    },
    "answer": "D",
-   "explanation": "Britain and France made peace at Amiens in 1802, but war began again in 1803. In early 1805 Napoleon, now emperor, was planning to invade Britain, and Pitt was building a new coalition against him.",
+   "explanation": "Britain and France made peace at Amiens in 1802, but war began again in 1803. In early 1805 Napoleon, now emperor, was planning to invade Britain, and Pitt was building a new coalition against him. In January 1805 Napoleon also wrote to George III offering peace, and the cartoon mocks both sides' appetite for power.",
    "whyNot": {
     "A": "The Congress of Vienna met in 1814–1815, ten years after this cartoon.",
     "B": "Britain and France were enemies in the Seven Years' War. Russia fought against Britain's ally, Prussia, for most of that war.",
@@ -1868,9 +1906,9 @@
    "set": "P9",
    "topic": "5.6",
    "lo": "F",
-   "skill": "5.B",
+   "skill": "3.D",
    "difficulty": "medium",
-   "stem": "Which events later in 1805 most clearly confirmed the division of power shown in the cartoon?",
+   "stem": "Which developments in 1805 most directly support the contrast between British and French power suggested by the cartoon?",
    "options": {
     "A": "Britain's naval victory at Trafalgar and Napoleon's victory on land at Austerlitz",
     "B": "Napoleon's landing in southern England after his fleet won control of the English Channel",
@@ -1878,14 +1916,13 @@
     "D": "Russia's entry into the war on France's side against Britain"
    },
    "answer": "A",
-   "explanation": "At Trafalgar in October 1805, Nelson destroyed the French and Spanish fleets, and Britain ruled the seas. At Austerlitz in December, Napoleon crushed Austria and Russia, and France ruled much of Europe on land.",
+   "explanation": "At Trafalgar in October 1805, the British navy decisively defeated the combined French and Spanish fleet. At Austerlitz in December, Napoleon defeated Austrian and Russian forces. These victories fit the cartoon's contrast between British power at sea and French power on land.",
    "whyNot": {
     "B": "Napoleon gave up his plan to invade Britain in 1805. His fleet never controlled the Channel.",
     "C": "The British fought the French in Spain and Portugal from 1808 to 1814, not in 1805.",
     "D": "In 1805 Russia fought against France. It made peace with Napoleon only in 1807."
    },
-   "hint": "Pitt carves the ocean and Napoleon carves Europe. Which events showed each country winning in its own part of the world?",
-   "reasoning": "Causation"
+   "hint": "Pitt carves the ocean and Napoleon carves Europe. Which events showed each country winning in its own part of the world?"
   },
   {
    "id": "E5-P28",
@@ -1905,7 +1942,7 @@
    "explanation": "Napoleon could not beat Britain at sea, so he tried to ruin its trade. If Britain could not sell its goods in Europe, he hoped it would run short of money and make peace.",
    "whyNot": {
     "A": "Napoleon complains about Britain's blockade, but Article VII shuts out any ship that has visited Britain, so neutral ships were hurt too.",
-    "C": "Napoleon dropped his invasion plan in 1805, and the loss of his fleet at Trafalgar that October ended any hope of it. He turned to economic war instead.",
+    "C": "The decree aims to cut Britain off economically. Its articles ban trade and shipping; they do not order an invasion.",
     "D": "The decree targets British trade in Europe. It does not demand Britain's colonies."
    },
    "hint": "Read Articles II, V, and VII. What do they forbid, and whom would that hurt most?"
@@ -1919,19 +1956,19 @@
    "difficulty": "medium",
    "stem": "The decree failed to defeat Britain mainly because",
    "options": {
-    "A": "Britain's factories depended on cloth and machines imported from France",
-    "B": "the United States joined France in closing its ports to British ships",
-    "C": "European merchants preferred French goods, which were cheaper than British goods",
+    "A": "Prussia and Austria refused to join the system and kept their ports open to British ships",
+    "B": "Britain made peace with France in 1807 and won back the right to trade in European ports",
+    "C": "Napoleon canceled the decree in 1808 after French merchants complained that it hurt their own trade",
     "D": "Britain's navy controlled the seas, and smuggling of British goods was widespread"
    },
    "answer": "D",
-   "explanation": "Britain kept trading with the rest of the world, including Latin America. On the continent, merchants and even officials smuggled British goods. The system hurt European trade more than it hurt Britain.",
+   "explanation": "Britain kept trading with the rest of the world, including Latin America. On the continent, merchants and even officials smuggled British goods. Smuggling, overseas markets, and uneven enforcement kept the system from forcing Britain to make peace.",
    "whyNot": {
-    "A": "Britain's factories led the world in making cloth. They did not depend on France.",
-    "B": "The United States did not join Napoleon's system. Its own trade ban of 1807 hurt American merchants more than Britain.",
-    "C": "British factory goods were often cheaper than French ones, which is why people smuggled them."
+    "A": "Prussia was forced to close its ports to British goods by the Treaty of Tilsit in 1807, and Austria was also pressed into the system.",
+    "B": "Britain stayed at war with Napoleon from 1803 until 1814. It never made peace to reopen European trade.",
+    "C": "Napoleon tightened the system with new decrees in 1807 and 1810 and kept it until his empire fell. He sold some trading licenses but never canceled the decree."
    },
-   "hint": "Napoleon controlled most of Europe's ports from the land side. What did he not control?",
+   "hint": "Check each choice against what actually happened between 1806 and 1814. Did Prussia, Austria, Britain, and Napoleon really act the way the choices say?",
    "reasoning": "Causation"
   },
   {
@@ -1949,11 +1986,11 @@
     "D": "Spain's request for French troops to defend its coasts against British raids"
    },
    "answer": "C",
-   "explanation": "The ban on British trade hurt Russia's economy, and at the end of 1810 the tsar opened his ports to neutral ships. Napoleon invaded Russia in 1812 to force him back into line, and the campaign destroyed the Grande Armée.",
+   "explanation": "Limits on British trade hurt Russia's economy. In late 1810 the tsar relaxed enforcement and let in neutral ships. This dispute raised tensions with Napoleon and helped lead to his invasion of Russia in 1812.",
    "whyNot": {
     "A": "Britain's trade did not collapse, and Britain stayed at war with Napoleon until 1814 and again in 1815.",
     "B": "The Holy Roman Empire ended and the Confederation of the Rhine was formed in the summer of 1806, before the Berlin Decree.",
-    "D": "Spain did not ask for French troops. Napoleon sent troops into Spain partly to close its ports and Portugal's to British trade."
+    "D": "In 1807 Spain let French troops cross its land for a joint invasion of Portugal. Napoleon then widened the occupation and removed Spain's royal family in 1808. Spain never asked France to defend its coasts."
    },
    "hint": "Which large country found that the ban on British trade hurt its own economy? What did Napoleon do about it?",
    "reasoning": "Causation"
@@ -1965,7 +2002,7 @@
    "lo": "F",
    "skill": "3.B",
    "difficulty": "easy",
-   "stem": "Which of the following does Napoleon use as evidence that Spaniards should accept his rule?",
+   "stem": "In Source 1, which of the following does Napoleon use as evidence that Spaniards should accept his rule?",
    "options": {
     "A": "He says he has brought reforms that free the people and limit royal power.",
     "B": "He claims that Spain's bishops have asked him to protect the Church from the English army.",
@@ -1973,13 +2010,13 @@
     "D": "He promises to return the old Spanish royal family to the throne."
    },
    "answer": "A",
-   "explanation": "Napoleon says he has freed the Spanish people and given them a limited monarchy. He points to his new laws as proof. They ended feudal rights and the Inquisition.",
+   "explanation": "Napoleon presents his constitution and decrees as proof that his rule will free Spaniards from old restrictions. His claim must be read alongside his threat to treat Spain as conquered land.",
    "whyNot": {
-    "B": "Napoleon does not mention any request from the bishops. In fact, his decree abolishes the Inquisition.",
+    "B": "Napoleon does not mention any request from the bishops. In fact, the decrees in Source 2 abolish the Inquisition.",
     "C": "Napoleon says nothing about the colonies in the passage.",
     "D": "Napoleon had removed the old royal family. He threatens to treat Spain as \"conquered provinces\" and put his brother on \"another throne.\""
    },
-   "hint": "Look at the second paragraph. What does Napoleon say he has already done for Spain?"
+   "hint": "Look at the second paragraph of Source 1. What does Napoleon say he has already done for Spain?"
   },
   {
    "id": "E5-P32",
@@ -1988,7 +2025,7 @@
    "lo": "F",
    "skill": "5.A",
    "difficulty": "medium",
-   "stem": "The decrees abolishing feudal rights and the Inquisition are most similar to",
+   "stem": "The decrees in Source 2 are most similar to",
    "options": {
     "A": "the return of Church lands and privileges under the Concordat of 1801",
     "B": "the reforms of Spain's Bourbon kings, who relied on the Inquisition",
@@ -1996,7 +2033,7 @@
     "D": "reforms that the National Assembly made in France in 1789–1790"
    },
    "answer": "D",
-   "explanation": "In August 1789 the National Assembly ended feudal rights in France, and in November 1789 it took over the Church's lands. Napoleon brought the same kinds of changes to Spain in 1808.",
+   "explanation": "The National Assembly attacked legal privileges in August 1789 and took over Church lands in November 1789. Some feudal dues had to be bought out until 1793. Napoleon's decrees in Spain likewise attacked inherited privileges and Church institutions.",
    "whyNot": {
     "A": "The Concordat did not return the Church's lands, which had been sold during the Revolution. Napoleon's Spanish decrees attack old Church privileges, such as the Inquisition.",
     "B": "Spain's Bourbon kings kept the Inquisition. Napoleon abolished it.",
@@ -2015,18 +2052,18 @@
    "stem": "Many Spaniards rejected Napoleon's proclamation mainly because they",
    "options": {
     "A": "saw his reforms as foreign rule forced on them by a conqueror",
-    "B": "wanted a constitution, which Napoleon had refused to give them",
-    "C": "believed the British army had already driven the French out of Madrid",
+    "B": "preferred the constitution that a Spanish assembly had already written at Cádiz",
+    "C": "expected Russia to send an army to restore Spain's royal family",
     "D": "hoped to join the Holy Roman Empire under the Austrian Habsburgs"
    },
    "answer": "A",
    "explanation": "Many Spaniards, led by priests and local leaders, fought a guerrilla war against the French. They fought for their king, their Church, and their country against a foreign conqueror, even when he offered reforms.",
    "whyNot": {
-    "B": "Napoleon had given Spain a constitution in 1808, as he says. Many Spaniards rejected it because a foreign ruler imposed it.",
-    "C": "Napoleon himself had just entered Madrid. The British did not reach Madrid until 1812.",
+    "B": "The Cortes of Cádiz wrote Spain's own liberal constitution in 1812, more than three years after this proclamation.",
+    "C": "In 1808 Russia was Napoleon's ally under the Treaty of Tilsit. It did not go to war with France again until 1812.",
     "D": "The Holy Roman Empire had ended in 1806, and Spain had never been part of it."
    },
-   "hint": "Napoleon says Spaniards \"rush to arms\" and calls them \"conquered provinces.\" How might people react to reforms brought by a conqueror?",
+   "hint": "The proclamation is dated December 1808. Check each choice against what had and had not happened in Europe by then.",
    "reasoning": "Causation"
   },
   {
@@ -2064,14 +2101,14 @@
     "A": "the unification of the German states into one empire led by Prussia",
     "B": "Prussia's defeat by Napoleon and the French occupation of Berlin",
     "C": "Austria's victory over Napoleon's army at Austerlitz",
-    "D": "the revolutions that broke out across the German states in 1848"
+    "D": "Prussia's leadership of the Confederation of the Rhine against France"
    },
    "answer": "B",
-   "explanation": "Napoleon crushed Prussia at Jena in 1806 and occupied Berlin. Fichte gave these lectures in the occupied city, urging Germans to see themselves as one nation.",
+   "explanation": "Napoleon's forces defeated Prussia at Jena and Auerstedt in 1806 and occupied Berlin. Fichte gave these lectures in the occupied city, urging Germans to see themselves as one nation.",
    "whyNot": {
     "A": "Germany was unified under Prussia in 1871, long after Fichte.",
     "C": "Austria lost at Austerlitz in 1805. Napoleon won.",
-    "D": "The revolutions of 1848 came forty years after these lectures."
+    "D": "Napoleon created the Confederation of the Rhine in 1806 as a league of German states under his own protection. Prussia never joined it."
    },
    "hint": "Fichte warns of \"the scorn and arrogance of the conqueror.\" Who was the conqueror, and what had he just done?"
   },
@@ -2094,7 +2131,7 @@
    "whyNot": {
     "A": "The Congress of Vienna created a loose German Confederation of 39 states, not a nation-state.",
     "B": "Prussia sent troops in 1812 because Napoleon forced it to, not because of German nationalism.",
-    "C": "Prussia and Austria did not adopt Napoleon's Code."
+    "C": "Prussia and Austria did not replace their legal systems with Napoleon's Code, and the Code's spread under French rule had nothing to do with Fichte's call for national resistance."
    },
    "hint": "Fichte calls on Germans to \"rouse\" themselves. What might Germans who took his message to heart do in the years that followed?",
    "reasoning": "Causation"
@@ -2118,7 +2155,7 @@
    "whyNot": {
     "A": "The rulers promise to follow Christian \"precepts.\" They do not join the churches together.",
     "B": "Each ruler keeps his own state. The treaty speaks of \"their respective States\" and calls the rulers \"fellow-countrymen\" joined by \"fraternity,\" not one empire.",
-    "C": "The signers were enemies of the Revolution's ideas, which they had just fought for years."
+    "C": "The treaty supports kings and cooperation based on religion. It does not proclaim the sovereignty of the people or revolutionary equality."
    },
    "hint": "Who signed the treaty, and what had they just finished fighting against?"
   },
@@ -2132,7 +2169,7 @@
    "stem": "The \"great events which have marked the course of the three last years in Europe\" most likely refers to",
    "options": {
     "A": "the outbreak of the French Revolution and the fall of the Bastille",
-    "B": "the division of Poland among Russia, Prussia, and Austria",
+    "B": "the Peace of Amiens, which ended the war between Britain and France",
     "C": "Napoleon's defeat and the peace settlement of 1814–1815",
     "D": "the war between Britain and the United States that ended in 1815"
    },
@@ -2140,7 +2177,7 @@
    "explanation": "Between 1812 and 1815, Napoleon's invasion of Russia failed, the allies took Paris, and the Congress of Vienna redrew the map of Europe. The signers saw their victory as a blessing from God.",
    "whyNot": {
     "A": "The Revolution began in 1789, more than twenty-five years before the treaty.",
-    "B": "Poland was divided in 1772, 1793, and 1795, long before 1815.",
+    "B": "The Peace of Amiens was signed in 1802 and broke down in 1803, more than a decade before the treaty. None of the three signers was a party to it.",
     "D": "That war was fought in North America and at sea, and none of the three signers took part in it. The treaty speaks of events \"in Europe.\""
    },
    "hint": "The treaty was signed in 1815. What happened in Europe from 1812 to 1815?"
@@ -2150,23 +2187,23 @@
    "set": "P13",
    "topic": "5.7",
    "lo": "H",
-   "skill": "3.D",
-   "difficulty": "medium",
-   "stem": "Which of the following later actions best shows the signers putting their promise to \"lend each other aid and assistance\" into practice?",
+   "skill": "2.C",
+   "difficulty": "hard",
+   "stem": "Which conclusion about cooperation among the monarchs is best supported by the treaty as a historical source?",
    "options": {
-    "A": "The signers kept their armies out of revolts in other states and let each people choose its own government.",
-    "B": "Prussia and Austria merged their lands into one German state in 1815.",
-    "C": "Austria crushed revolts in Italy in 1821, and Russia helped Austria crush a revolt in Hungary in 1849.",
-    "D": "Russia gave the Kingdom of Poland full independence in 1830."
+    "A": "It records an acceptance of elected governments, but it does not say who would be allowed to vote.",
+    "B": "It records an agreement to form a joint army, but it does not name the army's permanent commander.",
+    "C": "It records a promise of cooperation, but it does not prove that the rulers kept that promise.",
+    "D": "It records a plan to unite their three states, but it does not give the new state's borders."
    },
    "answer": "C",
-   "explanation": "Austria put down revolts in Naples and Piedmont in 1821, and Russia helped Austria crush the Hungarian revolt in 1849. Each time, monarchs helped one another against revolution.",
+   "explanation": "An official treaty is good evidence of what rulers promised. To learn whether they kept those promises, a historian needs other evidence about what they later did.",
    "whyNot": {
-    "A": "The treaty promises to \"lend each other aid and assistance\" \"on all occasions and in all places.\" Staying out of revolts would break that promise.",
-    "B": "Prussia and Austria stayed separate states. They joined the loose German Confederation.",
-    "D": "Russia crushed a Polish revolt in 1830–1831 instead of granting independence."
+    "A": "The treaty never mentions elections or elected governments. It speaks of rulers who act as \"fathers of families.\"",
+    "B": "The treaty promises \"aid and assistance\" but sets up no joint army.",
+    "D": "The treaty keeps \"their respective States\" separate. It joins the rulers in \"fraternity,\" not their lands."
    },
-   "hint": "Think about what the signers feared most after 1815. When did they use their armies to help one another, and against whom?"
+   "hint": "First check each choice against the treaty's actual words. Then ask what kind of evidence a single treaty can and cannot give."
   },
   {
    "id": "E5-P40",
@@ -2187,7 +2224,7 @@
    "whyNot": {
     "A": "Wesley's change comes at a small meeting in a house, not during a church ceremony.",
     "C": "Wesley says nothing about proof. He says he \"felt\" his \"heart strangely warmed.\"",
-    "D": "Wesley stayed a priest of the Church of England his whole life. Methodists formed a separate church after he died."
+    "D": "Wesley remained a Church of England priest all his life, and this entry does not announce a new church."
    },
    "hint": "Find the words Wesley uses to describe what happened inside him."
   },
@@ -2206,13 +2243,13 @@
     "D": "a religious revival that challenged the Enlightenment's stress on reason"
    },
    "answer": "D",
-   "explanation": "In the 1700s, Methodists and other revival groups stressed feeling and personal faith, and they preached to ordinary people. This pushed back against the cool, reasoned religion of many Enlightenment thinkers.",
+   "explanation": "The Methodist revival stressed personal religious experience and the feeling of being saved. This challenged the idea that a religion based mainly on reason was enough, without rejecting reason itself.",
    "whyNot": {
     "A": "Wesley was a Protestant priest of the Church of England, not a Catholic.",
     "B": "Deists kept God at a distance. Wesley feels God at work in his own heart.",
     "C": "The Puritan revolution took place in the 1640s, almost a century before Wesley."
    },
-   "hint": "Is Wesley's faith based on careful reasoning or on feeling? Which movement of his time fits that?"
+   "hint": "Which words show Wesley treating an inward experience as evidence of his faith?"
   },
   {
    "id": "E5-P42",
@@ -2224,14 +2261,14 @@
    "stem": "Wesley's decision to preach outdoors most likely allowed him to",
    "options": {
     "A": "avoid government officials who had made Methodist meetings illegal",
-    "B": "reach large numbers of poor and working people who seldom went to church",
+    "B": "address large crowds beyond the usual reach of parish services",
     "C": "follow the orders of bishops who wanted more services held outdoors",
     "D": "raise money from the crowds to build Methodist churches in the American colonies"
    },
    "answer": "B",
    "explanation": "Field preaching brought crowds of thousands, including coal miners and other workers who had little contact with the Church. Methodism grew quickly among working people.",
    "whyNot": {
-    "A": "Methodist meetings were not illegal. Wesley was a priest of the official church.",
+    "A": "The passage presents field preaching as a way to reach a large audience. Methodist meetings were not banned, and Wesley was a priest of the official church.",
     "C": "Many bishops disliked field preaching. Wesley himself first thought it was nearly \"a sin.\"",
     "D": "Wesley says he \"proclaimed … the glad tidings of salvation.\" He was preaching, not raising money for buildings overseas."
    },
@@ -2248,14 +2285,14 @@
    "stem": "Chateaubriand's main purpose in the passage is to",
    "options": {
     "A": "defend Christianity by appealing to beauty, imagination, and feeling",
-    "B": "prove Christianity true through logical arguments about its history",
+    "B": "prove Christianity true mainly by checking the historical accuracy of biblical events",
     "C": "argue that the Church should give up its political power in France",
     "D": "call for a return to the Civil Constitution of the Clergy"
    },
    "answer": "A",
-   "explanation": "Chateaubriand says Christianity gave the world its finest art, kindness, and learning. He wanted to win people back to the faith by showing its beauty and its appeal to the heart.",
+   "explanation": "Chateaubriand answers Christianity's critics by stressing its kind teachings, its gifts to art and learning, its beauty, and its appeal to the imagination and the heart.",
    "whyNot": {
-    "B": "Chateaubriand wants to \"summon all the charms of the imagination, and all the interests of the heart.\" He is not building a logical proof.",
+    "B": "The passage praises Christianity's cultural and moral effects. It does not test whether biblical events actually happened.",
     "C": "Chateaubriand does not discuss the Church's political power in the passage.",
     "D": "Chateaubriand defends the Christian religion itself. He does not mention the Civil Constitution."
    },
@@ -2276,7 +2313,7 @@
     "D": "the spread of deism as the official religion of Napoleon's France"
    },
    "answer": "A",
-   "explanation": "During the Revolution, churches were closed and Christianity was attacked. By 1800 many French people wanted their faith back. Chateaubriand's book appeared just as Napoleon's agreement with the pope restored public Catholic worship.",
+   "explanation": "The book came out as Napoleon put the Concordat of 1801 into effect. It belongs to the revival of public Catholic life after the Revolution's attacks on the Church. The Concordat made peace between the French state and the pope and set the Church's place in France.",
    "whyNot": {
     "B": "The Terror closed churches and attacked priests. The bishops did not support it.",
     "C": "The pope did not condemn Chateaubriand. The book was welcomed by Catholics.",
@@ -2303,7 +2340,7 @@
    "whyNot": {
     "A": "Priests who refused the oath stayed loyal to the pope. Chateaubriand would see them as defenders of the faith.",
     "B": "Chateaubriand shared the Romantics' love of feeling and beauty. He was not attacking them.",
-    "D": "Luther and Calvin were Christians who lived two centuries earlier. They did not call Christianity an enemy of reason."
+    "D": "Luther and Calvin were Christians who lived in the 1500s, more than two centuries before this book. They did not call Christianity an enemy of reason."
    },
    "hint": "What did the \"sophists\" say about Christianity? Which group in the choices would have said that?"
   },
@@ -2319,16 +2356,16 @@
     "A": "the Revolution created a centralized government in France for the first time in its history",
     "B": "Napoleon restored the local liberties that the Revolution had destroyed",
     "C": "the provinces of the old regime governed themselves without royal officials",
-    "D": "Napoleon's strong central government grew out of the old regime, not the Revolution"
+    "D": "Napoleon rebuilt the old regime's central government after the Revolution swept away its limits"
    },
    "answer": "D",
-   "explanation": "Tocqueville says the kings had already made the government strong at the center before 1789. The Revolution broke that system for a short time. Napoleon rebuilt it even stronger, without the old limits.",
+   "explanation": "Tocqueville says strong central government began under the kings before 1789. The Revolution swept away the things that had held it in check. So Napoleon could rebuild it even stronger.",
    "whyNot": {
     "A": "Tocqueville says the opposite: centralization was \"a feature of the old regime.\"",
     "B": "Tocqueville says Napoleon built a power \"more absolute than any of our monarchs had ever wielded.\"",
     "C": "Tocqueville says centralization was already part of the old regime, so the provinces were run from the center."
    },
-   "hint": "Find the sentence where Tocqueville says what he \"denies.\"",
+   "hint": "Find what Tocqueville will \"deny\" about centralization. Then see what he says happened to it after the Revolution.",
    "reasoning": "Continuity and Change"
   },
   {
@@ -2343,16 +2380,16 @@
     "A": "giving back the nobility's tax exemptions while keeping elected local councils",
     "B": "returning the Church's lands while ending state salaries for priests",
     "C": "dividing France into self-governing provinces while giving up the title of emperor",
-    "D": "keeping legal equality while ending free elections and a free press"
+    "D": "keeping the end of tax privileges while ending free elections and a free press"
    },
    "answer": "D",
-   "explanation": "Napoleon kept some gains of the Revolution, such as equality before the law. But he ruled as a dictator. He controlled the press, and elections meant little.",
+   "explanation": "Napoleon kept important legal changes from the Revolution, such as the end of inherited tax privileges. But he strengthened his own power and silenced opposition and the press. His Civil Code also kept wives unequal to husbands.",
    "whyNot": {
     "A": "Napoleon kept equal taxation, and his prefects ran local government instead of elected councils.",
     "B": "Napoleon did not return the Church's lands, and under the Concordat the state paid priests.",
     "C": "Napoleon ran France through prefects appointed in Paris, and he crowned himself emperor in 1804."
    },
-   "hint": "Napoleon both \"continued\" and \"destroyed\" the Revolution. Find the choice that keeps one part of it and ends another.",
+   "hint": "Tocqueville calls Napoleon the man \"destined both to continue and to destroy the Revolution.\" Find the choice that keeps one part of the Revolution and ends another.",
    "reasoning": "Continuity and Change"
   },
   {
@@ -2360,23 +2397,23 @@
    "set": "P16",
    "topic": "5.9",
    "lo": "J",
-   "skill": "2.B",
+   "skill": "2.C",
    "difficulty": "hard",
-   "stem": "Tocqueville's view of Napoleon's government was most likely shaped by",
+   "stem": "How might the political situation described in the footnote have influenced Tocqueville's interpretation?",
    "options": {
-    "A": "his service as an officer in Napoleon I's armies during the wars in Spain",
-    "B": "his own experience under Napoleon III, who had limited France's assembly and press",
-    "C": "his wish to see the Bourbon kings restored with absolute power",
-    "D": "his memories of serving in the National Convention during the Terror"
+    "A": "He may have stressed centralization to argue that France needed a more powerful emperor.",
+    "B": "He may have stressed centralization to explain why one-man rule kept returning in France.",
+    "C": "He may have stressed centralization to show that revolutionary assemblies first created it after 1789.",
+    "D": "He may have stressed centralization to argue that France should bring back the absolute monarchy of the old regime."
    },
    "answer": "B",
-   "explanation": "Tocqueville was a liberal politician. He was pushed out of public life when Napoleon III seized power in 1851. Living under a second Napoleon made him ask why France kept falling back into strong one-man rule.",
+   "explanation": "Living under a second Napoleon could explain Tocqueville's interest in why strong central power kept coming back. That context helps explain his emphasis. It does not by itself prove or disprove his argument.",
    "whyNot": {
-    "A": "Tocqueville was born in 1805. He was a child when Napoleon I's wars ended.",
-    "C": "Tocqueville criticizes absolute power, whether held by kings or by Napoleon.",
-    "D": "Tocqueville was born in 1805, years after the Terror."
+    "A": "Tocqueville warns that Napoleon's state had a power \"more absolute than any of our monarchs had ever wielded.\" He is not calling for more of it.",
+    "C": "Tocqueville says centralization was \"a feature of the old regime,\" not something the Revolution invented.",
+    "D": "Tocqueville blames the old regime's centralization for making despotism easy. As a liberal, he wanted checks on central power, not a return to absolute kings."
    },
-   "hint": "Think about when Tocqueville was born and when he wrote. What had he lived through himself?"
+   "hint": "Read the footnote. What kind of government ruled France when Tocqueville wrote, and how might that shape his questions?"
   }
  ],
  "exam": {
@@ -2394,14 +2431,14 @@
     "difficulty": "medium",
     "stem": "The scene Young describes is best understood in the context of",
     "options": {
-     "A": "the bread riots that broke out after a record wheat harvest in the summer of 1788",
+     "A": "food shortages and rural unrest following the poor harvest of 1788",
      "B": "the end of the crown's money troubles after the nobles agreed to pay new taxes",
      "C": "the fear of foreign invasion that followed France's declaration of war on Austria",
      "D": "the public debate that followed the opening of the Estates-General in May 1789"
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. The harvest of 1788 was very poor, not a record. High bread prices added to the anger, but Young is describing a flood of political writing.",
+     "A": "Incorrect. Poor harvests and high bread prices did add to the anger of 1789, but Young describes political pamphlets and speeches in Paris, not food shortages or unrest in the countryside.",
      "B": "Incorrect. In 1787 the nobles in the Assembly of Notables refused to accept new taxes. The money crisis was still not solved in 1789.",
      "C": "Incorrect. France declared war on Austria in April 1792, almost three years after Young's visit.",
      "D": "Correct. Louis XVI called the Estates-General because the crown was nearly out of money. Once it met, Parisians argued over how much power the Third Estate should have."
@@ -2418,18 +2455,18 @@
     "stem": "Young's account would be most useful to a historian studying",
     "options": {
      "A": "how the royal court planned to respond to the demands of the Third Estate",
-     "B": "how political writing and debate spread in Paris before the Revolution",
+     "B": "how political pamphlets and public debate circulated in Paris in June 1789",
      "C": "how peasants in the provinces felt about the taxes and dues they paid to lords",
      "D": "how the clergy and nobility defended their privileges in pamphlets and speeches"
     },
     "answer": "B",
     "rationales": {
      "A": "Incorrect. Young was a visitor who stood in the crowds. He says the court took \"not the least step,\" and he had no view of its private plans.",
-     "B": "Correct. Young saw the pamphlet shops and coffee-houses himself and counted the new pamphlets day by day.",
+     "B": "Correct. Young visited the pamphlet shops and coffee-houses himself and reports how many new pamphlets were appearing.",
      "C": "Incorrect. Young is in Paris. He mentions the provinces only in passing, with the words \"they say.\"",
      "D": "Incorrect. Young says he could find only \"two or three\" works on that side worth knowing. His account tells us little about how the privileged orders made their case."
     },
-    "explanation": "Young counts the new pamphlets, describes crowds at the café doors, and notes the cheers for speakers. This makes his journal strong evidence of the political excitement in Paris in June 1789."
+    "explanation": "Young reports how many new pamphlets were appearing and describes crowds listening to political speakers in Paris. His journal is strong evidence of political print and debate in the city, but it does not measure the views of all French people."
    },
    {
     "id": "E5-E03",
@@ -2438,7 +2475,7 @@
     "lo": "D",
     "skill": "5.B",
     "difficulty": "medium",
-    "stem": "The \"spirit\" that Young says was being \"raised among the people\" contributed most directly to which of the following in July 1789?",
+    "stem": "The \"spirit\" that Young says was being \"raised among the people\" contributed most directly to which of the following?",
     "options": {
      "A": "the Tennis Court Oath sworn by deputies of the Third Estate",
      "B": "Louis XVI's dismissal of his popular finance minister, Necker",
@@ -2447,10 +2484,10 @@
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. The deputies took the Tennis Court Oath at Versailles on June 20, before July. It came from a quarrel inside the Estates-General, not from crowds in Paris.",
+     "A": "Incorrect. The deputies took the Tennis Court Oath at Versailles on June 20 after being locked out of their hall. It grew out of their struggle inside the Estates-General, while Young describes crowds in Paris.",
      "B": "Incorrect. The king chose to dismiss Necker on July 11. The news set off protests in Paris, so it was a cause of the unrest, not a result of it.",
      "C": "Correct. Parisians who had been stirred up by speeches at the Palais Royal seized weapons and attacked the royal fortress on July 14.",
-     "D": "Incorrect. The Assembly voted to take over Church lands in November 1789, not in July."
+     "D": "Incorrect. The Assembly took over Church lands in November 1789 to deal with the government's debts. It was a lawmakers' decision about money, not a direct result of crowds in Paris."
     },
     "explanation": "On July 12, 1789, speakers at the Palais Royal called on Parisians to arm themselves after the king dismissed Necker. Two days later, crowds stormed the Bastille, a royal prison.",
     "reasoning": "Causation"
@@ -2472,7 +2509,7 @@
     "answer": "A",
     "rationales": {
      "A": "Correct. Burke calls English liberties \"an entailed inheritance\" from \"our forefathers.\" Paine says \"Every age and generation must be as free to act for itself\" as the ones before it.",
-     "B": "Incorrect. Burke praises a crown that shares power with Parliament. Paine wanted no king at all.",
+     "B": "Incorrect. Burke defends a monarchy limited by Parliament, not an absolute king. Paine's passage argues that each generation may choose its own government; it does not defend any particular form of government.",
      "C": "Incorrect. Burke writes, \"Society is, indeed, a contract,\" though he describes it as a contract between generations.",
      "D": "Incorrect. Burke attacked the National Assembly's reforms, and Paine defended them."
     },
@@ -2490,7 +2527,7 @@
     "options": {
      "A": "persuade Louis XVI to give up his throne and leave France for his own safety",
      "B": "urge Parliament to give the vote to many more British men, as France had just done",
-     "C": "warn British readers against following the example of the French revolutionaries",
+     "C": "warn British readers against following the example set by the French revolutionaries",
      "D": "call on Britain to go to war to restore the power of Louis XVI"
     },
     "answer": "C",
@@ -2498,7 +2535,7 @@
      "A": "Incorrect. Burke defended the French monarchy. He did not want Louis XVI to give up the throne.",
      "B": "Incorrect. Burke warns against \"innovation.\" He did not call for more British men to vote.",
      "C": "Correct. Burke wrote after some British radicals praised the French Revolution. He argues that Britain's liberties come from tradition, not from new theories.",
-     "D": "Incorrect. Britain did not go to war with France until 1793. In 1790 Burke was arguing about ideas, not calling for war."
+     "D": "Incorrect. Burke's passage defends Britain's inherited constitution. It says nothing about sending British forces to restore Louis XVI."
     },
     "explanation": "Burke wrote in 1790, after a London minister named Richard Price praised the French Revolution in a sermon. Burke wanted Britons to value their old constitution. He warned that tearing down old institutions was dangerous."
    },
@@ -2509,21 +2546,21 @@
     "lo": "E",
     "skill": "3.D",
     "difficulty": "medium",
-    "stem": "Which of the following developments in France would Burke most likely have pointed to as support for his argument?",
+    "stem": "Which later development in France would Burke's supporters most likely have pointed to as evidence that overturning inherited institutions was dangerous?",
     "options": {
-     "A": "the French army's victory at Valmy, which turned back an invading Prussian army",
-     "B": "the adoption of the metric system, which later spread across much of the world",
+     "A": "the French army's defeat at Valmy, which let the Prussian army march on to Paris",
+     "B": "a civil war that broke out in 1790 after Louis XVI refused to accept the Declaration of the Rights of Man",
      "C": "the execution of the king and the mass arrests and killings of the Reign of Terror",
-     "D": "the fall of Robespierre in 1794, which ended the Terror and freed many prisoners"
+     "D": "the National Assembly's seizure of private land, which it divided equally among the peasants"
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. A French victory showed the strength of the Revolution. It did not show the dangers Burke warned about.",
-     "B": "Incorrect. The metric system was a new idea that worked and spread. It would not show that breaking with the past leads to disaster.",
+     "A": "Incorrect. The French won at Valmy in September 1792, and the Prussians retreated. Paris was not taken until 1814.",
+     "B": "Incorrect. Louis XVI accepted the Declaration in October 1789, and no civil war broke out in 1790. The great revolts, such as the Vendée, began in 1793.",
      "C": "Correct. Burke warned that throwing away tradition would lead to disorder and tyranny. Bloodshed in 1793–1794 seemed to prove him right.",
-     "D": "Incorrect. The end of the Terror was a step back from violence, so it would not support Burke's warnings."
+     "D": "Incorrect. The Declaration of 1789 protected property as a sacred right. The National Assembly took and sold the Church's lands, but it did not seize private land. Later governments sold émigrés' lands, but they never divided land equally among the peasants."
     },
-    "explanation": "Burke said that a people who ignore their ancestors and build a state from theories will fall into chaos. Many readers later saw the Terror as proof that his warning had come true."
+    "explanation": "Burke warned that tearing down inherited institutions and rebuilding the state from theories would lead to disorder. Conservative critics later pointed to the king's execution and the Terror as proof that he was right."
    },
    {
     "id": "E5-E07",
@@ -2577,23 +2614,23 @@
     "set": "X3",
     "topic": "5.8",
     "lo": "I",
-    "skill": "1.B",
+    "skill": "1.A",
     "difficulty": "medium",
     "stem": "The style and subject of the painting most clearly reflect which artistic movement?",
     "options": {
-     "A": "Neoclassicism, which showed calm, balanced scenes modeled on ancient Greece and Rome",
-     "B": "Romanticism, which stressed strong emotion and the suffering of ordinary people",
-     "C": "the Baroque style, which used grand scenes to glorify Catholic kings and saints",
-     "D": "Realism, which showed the daily work of peasants and laborers in a plain way"
+     "A": "Neoclassicism",
+     "B": "Romanticism",
+     "C": "Baroque",
+     "D": "Realism"
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. Neoclassical painters such as Jacques-Louis David used calm, orderly scenes. This painting is dark and full of fear.",
-     "B": "Correct. Goya fills the scene with darkness, blood, and terror. The man in white, with arms spread wide, draws the viewer's feelings toward the victims.",
-     "C": "Incorrect. Baroque art was at its height in the 1600s and often honored rulers and saints. Goya shows unknown men being shot, not a glorious ruler.",
-     "D": "Incorrect. Goya shows a terrible, dramatic moment, not everyday work. Realism grew later, in the middle of the 1800s."
+     "A": "Incorrect. Neoclassical painters such as Jacques-Louis David modeled their work on ancient Greece and Rome and often showed heroes acting from duty. Goya shows unnamed victims of a recent massacre.",
+     "B": "Correct. Goya uses dramatic light, a man with arms spread wide, and sympathy for ordinary victims to stir the viewer's emotions. These features fit Romanticism.",
+     "C": "Incorrect. The Baroque style was at its height in the 1600s, long before Goya painted this scene in 1814.",
+     "D": "Incorrect. Realism grew in the middle of the 1800s, decades after Goya painted this scene in 1814."
     },
-    "explanation": "Romantic artists wanted to stir the viewer's emotions. Goya uses strong light and dark, horror, and sympathy for unnamed victims rather than heroes."
+    "explanation": "Goya uses dramatic light, expressive gestures, and sympathy for ordinary victims to heighten emotion. These features support calling the painting Romantic, although dramatic light and emotional subjects are not found only in Romantic art."
    },
    {
     "id": "E5-E10",
@@ -2624,13 +2661,13 @@
     "set": "X4",
     "topic": "5.3",
     "lo": "C",
-    "skill": "3.A",
+    "skill": "5.A",
     "difficulty": "medium",
-    "stem": "Which of the following conclusions is best supported by the data in the chart?",
+    "stem": "Based on the chart and your knowledge of Britain's wars, which statement best describes the link between war and the government's debt?",
     "options": {
      "A": "Britain paid back most of what it had borrowed within a few years after each war ended.",
      "B": "Britain's debt grew at a fairly steady rate from the 1690s to the 1810s.",
-     "C": "Britain's debt rose most sharply in years of war and fell only a little in years of peace.",
+     "C": "The debt grew across periods that included major wars and dipped only a little across periods of peace.",
      "D": "Britain borrowed more during the reign of Queen Anne than in any later period."
     },
     "answer": "C",
@@ -2640,7 +2677,8 @@
      "C": "Correct. The big jumps come in periods that included wars, such as 1727–1763, 1775–1784, and 1793–1817. In peacetime, such as 1763–1775, the debt fell only slightly.",
      "D": "Incorrect. The debt grew by about 38 million pounds under Anne, but by about 600 million pounds from 1793 to 1817."
     },
-    "explanation": "Britain paid for its wars by borrowing. The debt rose with each war against France and dipped a little in peacetime. The wars with revolutionary and Napoleonic France added the most."
+    "explanation": "Britain paid for its wars by borrowing. The debt rose with each war against France and dipped a little in peacetime. The debt grew most during the long wars with revolutionary and Napoleonic France.",
+    "reasoning": "Causation"
    },
    {
     "id": "E5-E12",
@@ -2651,19 +2689,19 @@
     "difficulty": "medium",
     "stem": "Britain's ability to borrow such large sums is best explained by",
     "options": {
-     "A": "lenders' trust in debts backed by Parliament and the Bank of England",
+     "A": "Parliament's steady taxes and the Bank of England's credit system",
      "B": "large shipments of silver from mines in Britain's colonies in South America",
      "C": "the king's power to collect taxes without needing the consent of Parliament",
      "D": "the sale of lands taken from the Church of England during the 1700s"
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. After 1689, Parliament approved taxes to pay interest on loans, and the Bank of England (1694) handled the debt. Lenders trusted that they would be repaid.",
+     "A": "Correct. After 1689, Parliament approved taxes to pay the interest on government loans, and the Bank of England (1694) helped manage the debt. Lenders trusted that they would be paid.",
      "B": "Incorrect. Britain had no silver-mining colonies in South America. Spain held the great silver mines.",
      "C": "Incorrect. After 1689, British kings could not tax without Parliament. Parliament's control made lenders trust the debt.",
      "D": "Incorrect. The Church of England kept its lands in the 1700s. Its monasteries had been closed in the 1530s."
     },
-    "explanation": "Because Parliament stood behind the debt, investors were willing to lend to Britain at low interest. This let Britain spend far more on its navy and wars than its income alone allowed."
+    "explanation": "Parliament's taxes and new institutions for managing the debt gave lenders confidence that Britain would pay the interest on its loans. This let Britain keep borrowing heavily during its wars."
    },
    {
     "id": "E5-E13",
@@ -2681,12 +2719,12 @@
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Britain's debt kept growing without a collapse. France's debts from wars, including its help to the Americans, helped force Louis XVI to call the Estates-General in 1789.",
+     "A": "Correct. Britain's debt kept growing without a collapse. France's debts from wars, including its help to the Americans, helped force Louis XVI to call the Estates-General, which met in 1789.",
      "B": "Incorrect. Britain and France fought each other again from 1778 to 1783, and the chart shows Britain's debt rising in those years.",
      "C": "Incorrect. Britons actually paid more in taxes per person than the French. Parliament's taxes helped make British debt safe for lenders.",
      "D": "Incorrect. In 1783 Britain lost thirteen American colonies but kept Canada and nearly all its Caribbean islands. France did not win back Canada."
     },
-    "explanation": "Both countries borrowed heavily for war. Britain's lenders trusted Parliament, so it could keep borrowing. The French crown could not raise enough money, and its debt crisis helped start the Revolution.",
+    "explanation": "The chart shows how much Britain borrowed. It has no French figures, so the comparison also needs outside knowledge: Britain's tax and banking system let it keep borrowing, while the French crown's money crisis helped start the Revolution.",
     "reasoning": "Comparison"
    },
    {
@@ -2698,15 +2736,15 @@
     "difficulty": "medium",
     "stem": "The catechism was most likely intended to",
     "options": {
-     "A": "prepare French Catholics to elect their own parish priests and bishops",
-     "B": "persuade French Protestants and Jews to convert to the Catholic faith",
-     "C": "teach French children that the Church should stay out of the state's affairs",
+     "A": "prepare French Catholics to elect their own priests and bishops under Napoleon's new church laws",
+     "B": "persuade Protestants and Jews in Napoleon's empire to convert to the Catholic faith",
+     "C": "teach French children that Emperor Napoleon would keep the Church out of the state's affairs",
      "D": "use the restored Catholic Church to teach loyalty and obedience to Napoleon"
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. Electing priests was part of the Civil Constitution of 1790. Under Napoleon's agreement with the pope, bishops were named by the government and approved by the pope.",
-     "B": "Incorrect. Napoleon allowed Protestants and Jews to worship freely. The catechism is about duties to the emperor, not about converting others.",
+     "B": "Incorrect. The catechism is written for Catholics and ties obedience to Napoleon to religious duty. It does not call on Protestants or Jews to convert.",
      "C": "Incorrect. The catechism joins church and state. It says serving the emperor is serving God.",
      "D": "Correct. The catechism tells Catholics they owe the emperor \"love, respect, obedience\" and taxes, and that failing him is a sin."
     },
@@ -2721,16 +2759,16 @@
     "difficulty": "medium",
     "stem": "The catechism's claim that Napoleon acted \"to reestablish the public worship of the holy religion of our fathers\" most directly refers to",
     "options": {
-     "A": "the Civil Constitution of the Clergy passed by the National Assembly",
-     "B": "the festival of the Supreme Being led by Robespierre in 1794",
-     "C": "the agreement Napoleon made with Pope Pius VII in 1801",
+     "A": "the Civil Constitution of the Clergy of 1790",
+     "B": "the Cult of the Supreme Being of 1794",
+     "C": "the Concordat signed with Pope Pius VII in 1801",
      "D": "the Revocation of the Edict of Nantes, which outlawed Protestant worship"
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. The Civil Constitution of 1790 split the clergy and angered the pope. It did not restore peace with the Church.",
-     "B": "Incorrect. Robespierre's festival honored a \"Supreme Being,\" not the Catholic faith. It was part of the Revolution's break with the Church.",
-     "C": "Correct. In the Concordat of 1801, the government recognized Catholicism as the religion of most French people, and churches reopened for public worship.",
+     "A": "Incorrect. The National Assembly passed the Civil Constitution in 1790, before Napoleon came to power. It split the clergy and angered the pope.",
+     "B": "Incorrect. Robespierre's Cult of the Supreme Being was a new civic religion, not the Catholic faith, and it came before Napoleon took power.",
+     "C": "Correct. The Concordat, agreed in 1801 and put into effect in 1802, made peace between the French state and the pope. It allowed public Catholic worship under rules set by the government.",
      "D": "Incorrect. Louis XIV revoked the Edict of Nantes in 1685, more than a century before Napoleon."
     },
     "explanation": "During the Revolution many churches were closed and priests were attacked. Napoleon made peace with the pope in the Concordat, which helped him win the support of French Catholics."
@@ -2768,19 +2806,19 @@
     "difficulty": "medium",
     "stem": "Metternich's main argument in the passage is that",
     "options": {
-     "A": "Europe's rulers should grant constitutions so that reformers will be satisfied",
+     "A": "Europe's rulers should undo the changes made since 1789 and bring back the old regime",
      "B": "Europe's rulers should stand together to resist demands for political change",
-     "C": "the great powers should end their alliance and each act on its own interests",
-     "D": "religion should be kept out of politics so that the faith can stay pure"
+     "C": "the great powers should take over smaller states whose rulers are too weak to keep order",
+     "D": "the Church, rather than governments, should lead the fight against secret societies"
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. Metternich warns that concessions will \"only further embolden\" reformers.",
+     "A": "Incorrect. Metternich tells governments to keep their institutions \"both ancient and modern\" and warns that it is \"dangerous to touch them.\" He does not ask them to undo the changes made since 1789.",
      "B": "Correct. Metternich wants governments to keep their institutions, silence reformers, and \"strengthen their union.\"",
-     "C": "Incorrect. Metternich wants the great monarchs to \"strengthen their union,\" not end it.",
-     "D": "Incorrect. Metternich wants rulers to defend religion against attack. He sees it as a support for order."
+     "C": "Incorrect. Metternich wants each government to rule its own state firmly (\"let the governments govern\"). He asks the monarchs to work together, not to take over other states.",
+     "D": "Incorrect. Metternich tells the governments to \"suppress secret societies.\" He wants rulers to protect religion, not hand the job of keeping order to the Church."
     },
-    "explanation": "Metternich believed that stability mattered more than change. He urged rulers to defend the old order together and to crush groups that wanted reform."
+    "explanation": "Metternich wanted kings to work together against revolution and to keep their power. Elsewhere in the memo he said governments should be very careful about making even real improvements. What he would not do was give in to revolutionary groups."
    },
    {
     "id": "E5-E18",
@@ -2799,7 +2837,7 @@
     "answer": "A",
     "rationales": {
      "A": "Correct. After 1815 the victors restored many old rulers. Metternich feared that liberal and nationalist groups, inspired by the French Revolution, would overthrow them.",
-     "B": "Incorrect. Napoleon escaped from Elba in 1815 and was then sent to St. Helena, where he died in 1821. In 1820 he was no threat.",
+     "B": "Incorrect. Napoleon escaped from Elba and was finally defeated in 1815. By 1820 he was held on the island of St. Helena.",
      "C": "Incorrect. Metternich is writing to the tsar to strengthen their alliance. He is worried about revolution, not about Russia.",
      "D": "Incorrect. Large socialist workers' movements came later in the 1800s. In 1820 Metternich feared liberals, nationalists, and secret societies."
     },
@@ -2810,23 +2848,23 @@
     "set": "X6",
     "topic": "5.7",
     "lo": "H",
-    "skill": "3.D",
+    "skill": "5.A",
     "difficulty": "medium",
-    "stem": "Which of the following later developments would most directly challenge Metternich's claim that the union of the great monarchs \"insures the political peace of Europe\"?",
+    "stem": "Which decision made at the Congress of Vienna (1814–1815) most directly supported the goal Metternich states in his last paragraph?",
     "options": {
-     "A": "the absence of a war among the great powers from 1815 until the 1850s",
-     "B": "Austria's use of its army to put down a revolt in Naples in 1821",
-     "C": "the Carlsbad Decrees, which put German universities under censorship",
-     "D": "waves of revolution that spread across much of Europe in 1830 and 1848"
+     "A": "requiring restored rulers to grant constitutions with ministers answerable to elected assemblies",
+     "B": "creating unified German and Italian nation-states to replace their many separate rulers",
+     "C": "leaving France the strongest power on the continent in return for accepting British rule of the seas",
+     "D": "redrawing borders and strengthening France's neighbors to restore a balance of power"
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. A long peace among the great powers would support Metternich's claim, not challenge it.",
-     "B": "Incorrect. Crushing the Naples revolt is the kind of joint action Metternich wanted. It shows the system working as he planned.",
-     "C": "Incorrect. The Carlsbad Decrees silenced reformers, as Metternich urged. They fit his program.",
-     "D": "Correct. Revolutions broke out in many countries in 1830 and again in 1848, showing that the alliance could not keep the peace inside Europe's states."
+     "A": "Incorrect. The Congress did not require restored rulers to grant constitutions. Metternich warns governments not to make \"concessions\" to reformers.",
+     "B": "Incorrect. The Congress kept Germany and Italy divided. It set up a loose German Confederation of separate states and gave Austria lands in northern Italy.",
+     "C": "Incorrect. The Congress aimed to keep France from dominating Europe again. It did not leave France the strongest power on the continent.",
+     "D": "Correct. The peacemakers enlarged states around France, such as the Netherlands and Prussia's lands on the Rhine, so that no one power could dominate Europe again. A stable balance served Metternich's goal of keeping \"the political peace of Europe.\""
     },
-    "explanation": "Metternich's system kept the great powers from fighting one another for decades. But it could not stop liberal and nationalist revolts, which broke out across Europe in 1830 and 1848."
+    "explanation": "The Congress of Vienna redrew the map of Europe to restore a balance of power, so that no single country could dominate the continent as Napoleon had. Metternich hoped that this balance and the union of the great monarchs would keep the peace and protect the old order."
    },
    {
     "id": "E5-E20",
@@ -2849,7 +2887,7 @@
      "C": "Incorrect. Wordsworth is writing about poetry and feeling, not about experiments.",
      "D": "Correct. Wordsworth calls poetry \"the spontaneous overflow of powerful feelings\" and chooses \"Low and rustic life\" close to nature."
     },
-    "explanation": "Romantic writers turned away from the Enlightenment's stress on reason. Wordsworth looks for truth in feeling, nature, and the speech of ordinary country people."
+    "explanation": "Wordsworth presents poetry as joining powerful feeling with long, deep thought, and he looks to ordinary country life and nature. This fits Romanticism's challenge to relying on reason alone."
    },
    {
     "id": "E5-E21",
@@ -2858,21 +2896,21 @@
     "lo": "I",
     "skill": "4.A",
     "difficulty": "medium",
-    "stem": "Wordsworth's reference to \"the great national events which are daily taking place\" most likely refers to",
+    "stem": "Wordsworth's concern about readers' \"craving for extraordinary incident\" is best explained by which development?",
     "options": {
      "A": "the Act of Union that joined Great Britain and Ireland as one kingdom",
-     "B": "Britain's long war against revolutionary France, which began in 1793",
+     "B": "the upheaval and wars that followed the French Revolution",
      "C": "Parliament's long debate over ending the British slave trade",
      "D": "the spread of Methodist preaching in English villages and towns"
     },
     "answer": "B",
     "rationales": {
      "A": "Incorrect. The Act of Union was passed in 1800, but it was one law. Wordsworth means a steady stream of events that fed a hunger for exciting news.",
-     "B": "Correct. In 1800 Britain had been at war with France for seven years. News of battles arrived constantly and was eagerly read.",
+     "B": "Correct. By 1800 Europe had seen a decade of revolution in France and war between France and its neighbors, including Britain. News of these events arrived constantly and was eagerly read.",
      "C": "Incorrect. The slave trade debate lasted for years, but it did not bring \"daily\" news that created a \"craving for extraordinary incident.\"",
      "D": "Incorrect. Methodist preaching was a religious movement, not a series of \"great national events.\""
     },
-    "explanation": "Britain fought France almost without a break from 1793 to 1815. Wordsworth worried that constant war news and crowded cities were dulling people's minds and feelings."
+    "explanation": "Revolution and war supplied a steady stream of dramatic news. Wordsworth worried that this news, along with crowded cities, was dulling people's minds and feelings."
    },
    {
     "id": "E5-E22",
@@ -2883,17 +2921,17 @@
     "difficulty": "medium",
     "stem": "Wordsworth's view of feeling and nature is most similar to the ideas of",
     "options": {
-     "A": "Rousseau, who praised natural feeling over the polished manners of society",
-     "B": "Voltaire, who used reason and wit to attack religious enthusiasm",
-     "C": "Newton, who described nature as a system run by mathematical laws",
-     "D": "Adam Smith, who argued that free markets turn self-interest into public good"
+     "A": "Jean-Jacques Rousseau, author of Émile",
+     "B": "Voltaire, author of Candide",
+     "C": "Isaac Newton, author of the Principia",
+     "D": "Adam Smith, author of The Wealth of Nations"
     },
     "answer": "A",
     "rationales": {
      "A": "Correct. Rousseau taught that feeling and a simple life close to nature were better guides than refined society. Wordsworth praises rural life for the same reasons.",
-     "B": "Incorrect. Voltaire trusted reason and mocked strong religious feeling. Wordsworth puts feeling first.",
-     "C": "Incorrect. Newton saw nature as a machine that follows mathematical laws. Wordsworth sees nature as beautiful and a source of feeling.",
-     "D": "Incorrect. Smith wrote about markets and trade. Wordsworth is writing about poetry, feeling, and nature."
+     "B": "Incorrect. Voltaire is best known for using reason and wit to attack intolerance. That does not match the passage's stress on country life, feeling, and poetry.",
+     "C": "Incorrect. Newton described physical nature with mathematical laws. Wordsworth stresses human feeling and life in the countryside.",
+     "D": "Incorrect. Smith's case for free markets does not deal with country life, feeling, and poetry, which are the passage's focus."
     },
     "explanation": "Rousseau said reason was not enough and praised feeling and nature. Romantic poets like Wordsworth took these ideas further.",
     "reasoning": "Comparison"
@@ -2916,7 +2954,7 @@
     "rationales": {
      "A": "Incorrect. Seeley explains the wars by the contest for the New World and India, not by religion.",
      "B": "Incorrect. Seeley says the English were moved \"neither by ambition nor yet by mere desire to advance our trade,\" but by fear of the French.",
-     "C": "Incorrect. Seeley says France had \"the start\" of Britain in India, but the wars he describes ended with Britain in control.",
+     "C": "Incorrect. Seeley does not say France pulled ahead. He calls the wars in the middle of the century \"the decisive campaign\" of the struggle, and the Seven Years' War ended in 1763 with Britain taking Canada and gaining the upper hand in India.",
      "D": "Correct. Seeley says Britain and France were \"rival candidates for the possession of the New World\" and competed in Asia too."
     },
     "explanation": "Seeley sees the wars of the 1700s as one long fight, a \"second Hundred Years' War.\" He says the real prize was empire in America and Asia."
@@ -2931,18 +2969,18 @@
     "stem": "The rivalry Seeley describes led most directly to which outcome in 1763?",
     "options": {
      "A": "France's gain of Louisiana and the Mississippi valley from the British",
-     "B": "France's loss of Canada to Britain and of its power in India",
+     "B": "France's loss of Canada to Britain and its weaker position in India",
      "C": "the division of the Dutch trading empire in Asia between Britain and France",
      "D": "Spain's loss of its colonies in South America to the British navy"
     },
     "answer": "B",
     "rationales": {
      "A": "Incorrect. France gave up Louisiana in 1762–1763. The land west of the Mississippi went to Spain.",
-     "B": "Correct. In the Treaty of Paris (1763), France gave up Canada to Britain. In India, France kept a few trading posts but lost its military power.",
+     "B": "Correct. In the Treaty of Paris (1763), France gave up Canada to Britain. France got back its trading posts in India, but British power there was now much stronger.",
      "C": "Incorrect. The Dutch kept their trading empire in the East Indies. It was not divided in 1763.",
      "D": "Incorrect. Spain kept its South American colonies. It gave Florida to Britain but received Louisiana from France."
     },
-    "explanation": "The Seven Years' War ended in 1763 with Britain the leading colonial and naval power. France lost most of its empire in North America and its chance to control India."
+    "explanation": "The Seven Years' War ended in 1763 with Britain stronger in North America and India. France gave up Canada and got back its trading posts in India, but it could no longer keep troops or forts in Bengal. The treaty did not give Britain control of all of India."
    },
    {
     "id": "E5-E25",
@@ -2960,12 +2998,12 @@
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. Big profits from taxes would point to a desire for wealth, a motive Seeley plays down.",
+     "A": "Incorrect. Tax profits show what the conquest gained, but they do not show what caused the wars. Seeley's claim is about motive: fear of the French.",
      "B": "Incorrect. Wars that went on after the French threat was gone would weaken the claim that fear of France drove the conquest.",
      "C": "Correct. If the Company fought rulers because they were allied with France, that would fit Seeley's claim that the English acted out of \"fear of the French.\"",
      "D": "Incorrect. This battle mattered in Europe and the Atlantic. It says nothing about why the English fought in India."
     },
-    "explanation": "Seeley claims the English were driven by \"fear of the French.\" Evidence that British wars in India were aimed at France's Indian allies would back him up. Evidence of profit or of wars after the French were gone would cut against him."
+    "explanation": "Seeley claims the English were driven by \"fear of the French.\" Evidence that British wars in India were aimed at France's Indian allies would back him up. Profits show what the conquest gained, not why it began, and wars after the French were gone would cut against his claim."
    }
   ]
  }
