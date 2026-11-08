@@ -39,7 +39,8 @@ window.PE_STIM = (function () {
   /* ---------- table ---------- */
   function tableHTML(t, caption) {
     const cols = t.columns || [], rows = t.rows || [];
-    return `<div class="tscroll"><table class="stab"${caption ? ` aria-label="${esc(caption)}"` : ''}><thead><tr>${cols.map(c => `<th scope="col">${esc(c)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map((c, i) => i === 0 ? `<th scope="row">${esc(c)}</th>` : `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+    // 6+ columns: compact cells and hyphenated headers so the table fits the desktop exam column
+    return `<div class="tscroll"><table class="stab${cols.length >= 6 ? ' dense' : ''}"${caption ? ` aria-label="${esc(caption)}"` : ''}><thead><tr>${cols.map(c => `<th scope="col">${esc(c)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map((c, i) => i === 0 ? `<th scope="row">${esc(c)}</th>` : `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
   }
   function table(s) {
     return `<figure class="stim stim-table">${title(s.title)}${tableHTML(s, s.title)}${s.text ? `<p class="stim-text">${esc(s.text)}</p>` : ''}${s.note ? `<p class="stim-note">${esc(s.note)}</p>` : ''}${source(s.source)}</figure>`;
@@ -56,11 +57,17 @@ window.PE_STIM = (function () {
     const cats = s.categories || [], series = s.series || [];
     const maxV = Math.max(1, ...series.flatMap(sr => (sr.values || []).map(num)));
     const yMax = num(s.yMax) > 0 ? num(s.yMax) : niceStep(maxV / 5) * 5;
-    const W = 640, H = 380, m = { t: 20, r: 18, b: 56, l: 70 };
-    const pw = W - m.l - m.r, ph = H - m.t - m.b;
+    const W = 640, m = { t: 20, r: 18, b: 56, l: 70 };
+    const pw = W - m.l - m.r, gw = pw / Math.max(1, cats.length), n = Math.max(1, series.length);
+    // category labels wider than their group wrap (breaking after spaces or hyphens); the chart grows taller by one
+    // line per extra line, so the plot area of short-label charts is unchanged
+    const per = Math.max(1, Math.floor((gw - 8) / 7.4));
+    const catLines = cats.map(c => String(c).length > per ? wrapLabel(c, per) : [String(c)]);
+    const extra = (Math.max(1, ...catLines.map(l => l.length)) - 1) * 15;
+    m.b += extra;
+    const H = 380 + extra, ph = H - m.t - m.b;
     const step = niceStep(yMax / 5);
     const y = v => m.t + ph - (v / yMax) * ph;
-    const gw = pw / Math.max(1, cats.length), n = Math.max(1, series.length);
     const bw = Math.min(58, (gw * 0.72) / n), groupW = bw * n;
     const id = nid(), tid = id + 't', did = id + 'd';
     let grid = '';
@@ -77,7 +84,7 @@ window.PE_STIM = (function () {
         if (si === 1) bars += `<rect x="${r1(x + 3)}" y="${r1(y(v))}" width="${r1(bw - 6)}" height="${r1(h)}" rx="3" fill="url(#${id}h)" pointer-events="none"/>`;
         bars += `<text class="val" x="${r1(x + bw / 2)}" y="${r1(y(v) - 6)}" text-anchor="middle">${fmt(v)}</text>`;
       });
-      bars += `<text class="cat" x="${r1(m.l + ci * gw + gw / 2)}" y="${H - m.b + 22}" text-anchor="middle">${esc(c)}</text>`;
+      catLines[ci].forEach((ln, li) => { bars += `<text class="cat" x="${r1(m.l + ci * gw + gw / 2)}" y="${H - m.b + 22 + li * 15}" text-anchor="middle">${esc(ln)}</text>`; });
     });
     const axes = `<line class="axis" x1="${m.l}" x2="${m.l}" y1="${m.t}" y2="${m.t + ph}"/><line class="axis" x1="${m.l}" x2="${W - m.r}" y1="${m.t + ph}" y2="${m.t + ph}"/>`;
     const ylab = s.yLabel ? `<text class="ylab" transform="translate(16 ${r1(m.t + ph / 2)}) rotate(-90)" text-anchor="middle">${esc(s.yLabel)}</text>` : '';
@@ -89,9 +96,17 @@ window.PE_STIM = (function () {
 
   /* ---------- shared helpers for line + pyramid ---------- */
   // Pick a "nice" axis from lo up to at least hi with at most maxTicks steps (steps of 1/2/5 x 10^n first,
-  // 2.5 only if nothing else works). If fixedHi is given (author's yMax / xMax) it is kept and the step must land
-  // on it. fits(step, k), if given, rejects steps whose tick labels would collide.
+  // 2.5 only if nothing else works). If fixedHi is given (author's yMax / xMax) it is kept when a nice step lands on
+  // it (up to maxTicks + 2 steps); otherwise the axis rounds up from it, so the axis never runs past its top label.
+  // fits(step, k), if given, rejects steps whose tick labels would collide.
   function axisFor(lo, hi, maxTicks, fixedHi, fits) {
+    if (fixedHi != null) {
+      const ax = axisFor0(lo, hi, maxTicks + 2, fixedHi, fits, maxTicks);
+      return ax || axisFor(lo, Math.max(hi, fixedHi), maxTicks, null, fits);
+    }
+    return axisFor0(lo, hi, maxTicks, null, fits);
+  }
+  function axisFor0(lo, hi, maxTicks, fixedHi, fits, soft) {
     const span = Math.max(1e-9, (fixedHi != null ? fixedHi : hi) - lo);
     const p0 = Math.pow(10, Math.floor(Math.log10(span / maxTicks)) - 1);
     for (const ms of [[1, 2, 5], [1, 2, 2.5, 5]]) {
@@ -99,7 +114,9 @@ window.PE_STIM = (function () {
       for (let p = p0; p <= p0 * 1e5; p *= 10) ms.forEach(m => cands.push(+(m * p).toPrecision(6)));
       if (fixedHi != null) {
         const ok = cands.filter(st => { const k = span / st; return k >= 2 - 1e-9 && k <= maxTicks + 1e-9 && Math.abs(k - Math.round(k)) < 1e-6 && (!fits || fits(st, Math.round(k))); });
-        if (ok.length) return { lo, hi: fixedHi, step: ok[0] };              // smallest step = most ticks that fit
+        // most ticks up to `soft`; more (up to soft + 2) only when nothing else lands on fixedHi
+        ok.sort((a, b) => { const ka = span / a, kb = span / b, oa = ka > soft + 1e-9, ob = kb > soft + 1e-9; return oa !== ob ? (oa ? 1 : -1) : (oa ? ka - kb : kb - ka); });
+        if (ok.length) return { lo, hi: fixedHi, step: ok[0] };
         continue;
       }
       let best = null;
@@ -110,8 +127,9 @@ window.PE_STIM = (function () {
       });
       if (best) return best;
     }
+    if (fixedHi != null) return null;
     const st = niceStep(span / maxTicks);
-    return { lo, hi: fixedHi != null ? fixedHi : lo + Math.ceil(span / st) * st, step: st };
+    return { lo, hi: lo + Math.ceil(span / st) * st, step: st };
   }
   const decOf = st => { const t = String(+(+st).toPrecision(6)); const i = t.indexOf('.'); return i < 0 ? 0 : Math.min(3, t.length - i - 1); };
   const fmtD = (v, d) => (+v).toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
@@ -398,10 +416,11 @@ window.PE_STIM = (function () {
     const svg = `<div class="smap"><svg viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="${tid} ${did}"><title id="${tid}">${esc(s.title || 'Map')}</title><desc id="${did}">${esc(desc)}</desc><defs><pattern id="${id}zh" patternUnits="userSpaceOnUse" width="9" height="9" patternTransform="rotate(45)"><line class="hatchline" x1="0" y1="0" x2="0" y2="9"/></pattern><pattern id="${id}ch" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(-45)"><line class="claim-hatch" x1="0" y1="0" x2="0" y2="10"/></pattern><marker id="${id}ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path class="arrowhead" d="M0,0 L10,5 L0,10 z"/></marker></defs><rect class="water" x="0" y="0" width="${W}" height="${H}"/>${L.zones}${L.hatchZones}${L.claims}${L.land}${L.lines}${L.brackets}${L.markers}${L.arrows}${L.labels}${L.scale}</svg></div>`;
     return `<figure class="stim stim-smap">${title(s.title)}${svg}${legend}${s.description ? `<p class="stim-desc">${esc(s.description)}</p>` : ''}${s.note ? `<p class="stim-note">${esc(s.note)}</p>` : ''}${source(s.source)}</figure>`;
   }
-  /* ---------- von Thünen-style concentric ring diagram ---------- */
-  function rings(s) {
-    const rs = Array.isArray(s.rings) ? s.rings : [];
-    const W = 640, H = 420, cx = 320, cy = 210, r0 = 46, step = Math.max(28, Math.floor((190 - r0) / Math.max(1, rs.length)));
+  /* ---------- von Thünen-style concentric ring diagram ----------
+     Two layouts: the original wide one (640 x 420) and a square narrow one (320 x 320) for phones, picked by a
+     container query on the figure, so ring and center labels stay readable at 390 px. */
+  function ringsSVG(s, rs, o) {
+    const W = o.W, H = o.H, cx = W / 2, cy = H / 2, r0 = o.r0, step = Math.max(o.minStep, Math.floor((o.maxR - r0) / Math.max(1, rs.length)));
     const id = nid(), tid = id + 't', did = id + 'd';
     let body = '', labels = '';
     for (let i = rs.length - 1; i >= 0; i--) {
@@ -411,15 +430,28 @@ window.PE_STIM = (function () {
     rs.forEach((rg, i) => {
       const mid = r0 + step * i + step / 2;
       [[cx + mid, cy], [cx - mid, cy], [cx, cy - mid], [cx, cy + mid]].forEach(([x, y]) => {
-        labels += `<text class="rlbl" x="${r1(x)}" y="${r1(y + 6)}">${esc(rg.label || String(i + 1))}</text>`;
+        labels += `<text class="rlbl" x="${r1(x)}" y="${r1(y + o.lblDy)}">${esc(rg.label || String(i + 1))}</text>`;
       });
     });
     const outerR = r0 + step * rs.length;
-    const outer = s.outer ? `<text class="rout" x="${W - 14}" y="${H - 14}" text-anchor="end">${esc(s.outer)}</text><text class="rout" x="14" y="26" text-anchor="start">${esc(s.outer)}</text>` : '';
-    const center = `<circle class="rcity" cx="${cx}" cy="${cy}" r="${r0}"/>` + wrap(s.center || 'Market', 10).map((ln, i, a) => `<text class="rcl" x="${cx}" y="${r1(cy + 5 - (a.length - 1) * 8 + i * 16)}">${esc(ln)}</text>`).join('');
+    let outer = '';
+    if (s.outer) {
+      if (o.narrow) {
+        // corners of the square: top-left (lines run down) and bottom-right (lines run up), at most 2 lines each
+        const ls = wrap(s.outer, 11).slice(0, 2);
+        ls.forEach((ln, i) => { outer += `<text class="rout" x="10" y="${20 + i * 15}" text-anchor="start">${esc(ln)}</text><text class="rout" x="${W - 10}" y="${H - 10 - (ls.length - 1 - i) * 15}" text-anchor="end">${esc(ln)}</text>`; });
+      } else outer = `<text class="rout" x="${W - 14}" y="${H - 14}" text-anchor="end">${esc(s.outer)}</text><text class="rout" x="14" y="26" text-anchor="start">${esc(s.outer)}</text>`;
+    }
+    const cl = wrap(s.center || 'Market', o.centerChars), lh = o.narrow ? 14 : 16;
+    const center = `<circle class="rcity" cx="${cx}" cy="${cy}" r="${r0}"/>` + cl.map((ln, i, a) => `<text class="rcl" x="${cx}" y="${r1(cy + (o.narrow ? 4.5 : 5) - (a.length - 1) * lh / 2 + i * lh)}">${esc(ln)}</text>`).join('');
+    return `<svg class="${o.narrow ? 'nar' : 'wid'}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="${tid} ${did}"><title id="${tid}">${esc(s.title || 'Ring diagram')}</title><desc id="${did}">${esc(o.desc)}</desc><rect class="rbg" x="0" y="0" width="${W}" height="${H}"/>${body}${center}${labels}${outer}<circle class="rline" cx="${cx}" cy="${cy}" r="${outerR}"/></svg>`;
+  }
+  function rings(s) {
+    const rs = Array.isArray(s.rings) ? s.rings : [];
     const desc = (s.description ? s.description + ' ' : '') + `Rings from the center outward: ${rs.map((rg, i) => rg.label || i + 1).join(', ')}.`;
-    const svg = `<div class="smap rings"><svg viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="${tid} ${did}"><title id="${tid}">${esc(s.title || 'Ring diagram')}</title><desc id="${did}">${esc(desc)}</desc><rect class="rbg" x="0" y="0" width="${W}" height="${H}"/>${body}${center}${labels}${outer}<circle class="rline" cx="${cx}" cy="${cy}" r="${outerR}"/></svg></div>`;
-    return `<figure class="stim stim-rings">${title(s.title)}${svg}${s.description ? `<p class="stim-desc">${esc(s.description)}</p>` : ''}${s.note ? `<p class="stim-note">${esc(s.note)}</p>` : ''}${source(s.source)}</figure>`;
+    const wide = ringsSVG(s, rs, { W: 640, H: 420, r0: 46, maxR: 190, minStep: 28, lblDy: 6, centerChars: 10, desc });
+    const nar = ringsSVG(s, rs, { W: 320, H: 320, r0: 36, maxR: 144, minStep: 20, lblDy: 5.5, centerChars: 8, narrow: true, desc });
+    return `<figure class="stim stim-rings">${title(s.title)}<div class="smap rings rg-w">${wide}</div><div class="smap rings rg-n">${nar}</div>${s.description ? `<p class="stim-desc">${esc(s.description)}</p>` : ''}${s.note ? `<p class="stim-note">${esc(s.note)}</p>` : ''}${source(s.source)}</figure>`;
   }
 
   function swatch(key) {

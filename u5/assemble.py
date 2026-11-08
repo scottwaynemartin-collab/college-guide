@@ -58,6 +58,13 @@ for qid, pt in ns4["PATCH"].items():
 for qid, field, old, new in ns4["REPLACE"]:
     assert old in byid[qid][field], (qid, old); byid[qid][field] = byid[qid][field].replace(old, new)
 
+# exam set labels ("Questions 3–5 refer to …"), Unit 4 style
+nsl = {}
+exec((H / "setlabels.py").read_text(encoding="utf-8"), nsl)
+for qid, lab in nsl["SETLABEL"].items():
+    assert byid[qid].get("set") and "stimulus" in byid[qid], qid
+    byid[qid]["setLabel"] = lab
+
 # answer-letter balancing (option order only; text unchanged)
 for qid, a, b in [("U5-P05", "A", "E"), ("U5-P11", "A", "E"), ("U5-P13", "C", "E"), ("U5-P17", "C", "B"), ("U5-E25", "C", "D")]:
     swap(byid[qid], a, b)
@@ -97,7 +104,7 @@ TOPICS = [
   ("5.12", "Women in Agriculture", "IMP-5.C")]
 
 key_order_p = ["id", "topic", "lo", "skill", "difficulty", "stimulus", "stem", "options", "answer", "explanation", "whyNot", "vocab"]
-key_order_e = ["id", "n", "set", "topic", "lo", "skill", "difficulty", "stimulus", "stem", "options", "answer", "rationales", "explanation"]
+key_order_e = ["id", "n", "set", "setLabel", "topic", "lo", "skill", "difficulty", "stimulus", "stem", "options", "answer", "rationales", "explanation"]
 def order(q, ko): return {k: q[k] for k in ko if k in q}
 
 out = {

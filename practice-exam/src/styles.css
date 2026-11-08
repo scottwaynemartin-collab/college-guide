@@ -522,3 +522,20 @@ html.dm{--ln-3:#2EC4B0;--ln-5:#E879F9}
 .pyr .agehdr{fill:var(--ink-3);font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;text-anchor:middle}
 .pyr .hdr{fill:var(--ink);font-family:var(--display);font-weight:600;font-size:15px}
 .pyr .hrow:hover .hit{fill:var(--ink);fill-opacity:.06}
+
+/* ---------- QA fixes (Nov 8): map column fit, phone-size ring diagrams, dense tables ---------- */
+/* schematic maps keep their 560 px floor on phones (they scroll with a hint there); in the desktop exam column
+   (~556 px at 1280) a 520 px floor lets them fit without a 4 px sideways scroll */
+@media (min-width:900px){.smap svg{min-width:520px}}
+/* ring diagrams: square narrow layout under 500 px of figure width */
+.stim-rings{container-type:inline-size}
+.smap.rings.rg-n{display:none}
+@container (max-width:499px){.smap.rings.rg-w{display:none}.smap.rings.rg-n{display:block}}
+.smap.rings.rg-n svg{max-width:400px}
+.smap.rings .nar .rlbl{font-size:17px;stroke-width:3.5px}
+.smap.rings .nar .rcl{font-size:12.5px}
+.smap.rings .nar .rout{font-size:12.5px}
+/* tables with 6+ columns */
+.stab.dense{font-size:13.5px}
+.stab.dense th,.stab.dense td{padding:7px 6px}
+.stab.dense thead th{font-size:12px;line-height:1.3;-webkit-hyphens:auto;hyphens:auto;overflow-wrap:break-word}
