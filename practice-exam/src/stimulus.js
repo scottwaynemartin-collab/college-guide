@@ -1,6 +1,7 @@
 /* GeoArcade · AP Practice Exam · stimulus renderer
    Everything here is driven by the JSON stimulus object; nothing is hard-coded per question.
-   Supported stimulus.type: table | bar | districtMap | schematicMap. Anything else -> "stimulus unavailable" card. */
+   Supported stimulus.type: table | bar | line | pyramid | districtMap | schematicMap | rings.
+   Anything else -> "stimulus unavailable" card. */
 window.PE_STIM = (function () {
   'use strict';
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -16,6 +17,8 @@ window.PE_STIM = (function () {
       switch (stim.type) {
         case 'table': return table(stim);
         case 'bar': return bar(stim);
+        case 'line': return line(stim);
+        case 'pyramid': return pyramid(stim);
         case 'districtMap': return districtMap(stim);
         case 'schematicMap': return schematicMap(stim);
         case 'rings': return rings(stim);
@@ -39,7 +42,7 @@ window.PE_STIM = (function () {
     return `<div class="tscroll"><table class="stab"${caption ? ` aria-label="${esc(caption)}"` : ''}><thead><tr>${cols.map(c => `<th scope="col">${esc(c)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map((c, i) => i === 0 ? `<th scope="row">${esc(c)}</th>` : `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
   }
   function table(s) {
-    return `<figure class="stim stim-table">${title(s.title)}${tableHTML(s, s.title)}${source(s.source)}</figure>`;
+    return `<figure class="stim stim-table">${title(s.title)}${tableHTML(s, s.title)}${s.text ? `<p class="stim-text">${esc(s.text)}</p>` : ''}${s.note ? `<p class="stim-note">${esc(s.note)}</p>` : ''}${source(s.source)}</figure>`;
   }
 
   /* ---------- grouped bar chart (inline SVG) ---------- */
@@ -82,6 +85,183 @@ window.PE_STIM = (function () {
     const desc = `Grouped bar chart with ${cats.length} categories and ${series.length} series. ` + cats.map((c, ci) => `${c}: ` + series.map(sr => `${sr.name} ${fmt(num((sr.values || [])[ci]))}`).join(', ')).join('. ') + '.';
     const srTable = `<div class="sr-only"><table><caption>${esc(s.title || 'Chart data')}</caption><thead><tr><th scope="col">Category</th>${series.map(sr => `<th scope="col">${esc(sr.name)}</th>`).join('')}</tr></thead><tbody>${cats.map((c, ci) => `<tr><th scope="row">${esc(c)}</th>${series.map(sr => `<td>${fmt(num((sr.values || [])[ci]))}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
     return `<figure class="stim stim-bar">${title(s.title)}${legend}<div class="chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="${tid} ${did}"><title id="${tid}">${esc(s.title || 'Bar chart')}</title><desc id="${did}">${esc(desc)}</desc><defs><pattern id="${id}h" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="rgba(255,255,255,.55)" stroke-width="2"/></pattern></defs>${grid}${axes}${bars}${ylab}</svg></div>${srTable}${s.text ? `<p class="stim-text">${esc(s.text)}</p>` : ''}${source(s.source)}</figure>`;
+  }
+
+  /* ---------- shared helpers for line + pyramid ---------- */
+  // Pick a "nice" axis from lo up to at least hi with at most maxTicks steps (steps of 1/2/5 x 10^n first,
+  // 2.5 only if nothing else works). If fixedHi is given (author's yMax / xMax) it is kept and the step must land
+  // on it. fits(step, k), if given, rejects steps whose tick labels would collide.
+  function axisFor(lo, hi, maxTicks, fixedHi, fits) {
+    const span = Math.max(1e-9, (fixedHi != null ? fixedHi : hi) - lo);
+    const p0 = Math.pow(10, Math.floor(Math.log10(span / maxTicks)) - 1);
+    for (const ms of [[1, 2, 5], [1, 2, 2.5, 5]]) {
+      const cands = [];
+      for (let p = p0; p <= p0 * 1e5; p *= 10) ms.forEach(m => cands.push(+(m * p).toPrecision(6)));
+      if (fixedHi != null) {
+        const ok = cands.filter(st => { const k = span / st; return k >= 2 - 1e-9 && k <= maxTicks + 1e-9 && Math.abs(k - Math.round(k)) < 1e-6 && (!fits || fits(st, Math.round(k))); });
+        if (ok.length) return { lo, hi: fixedHi, step: ok[0] };              // smallest step = most ticks that fit
+        continue;
+      }
+      let best = null;
+      cands.forEach(st => {
+        const k = Math.ceil((hi - lo) / st - 1e-9); if (k < 1 || k > maxTicks || (fits && !fits(st, k))) return;
+        const top = +(lo + k * st).toPrecision(10);
+        if (!best || top < best.hi - 1e-9 || (Math.abs(top - best.hi) < 1e-9 && k > best.k)) best = { lo, hi: top, step: st, k };
+      });
+      if (best) return best;
+    }
+    const st = niceStep(span / maxTicks);
+    return { lo, hi: fixedHi != null ? fixedHi : lo + Math.ceil(span / st) * st, step: st };
+  }
+  const decOf = st => { const t = String(+(+st).toPrecision(6)); const i = t.indexOf('.'); return i < 0 ? 0 : Math.min(3, t.length - i - 1); };
+  const fmtD = (v, d) => (+v).toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
+  const fmt2 = v => (+v).toLocaleString('en-US', { maximumFractionDigits: 2 });
+  const ticksOf = ax => { const out = []; for (let k = 0; k < 60; k++) { const v = +(ax.lo + k * ax.step).toPrecision(10); if (v > ax.hi + ax.step * 1e-6) break; out.push(v); } return out; };
+  const valOrNull = v => (v == null || v === '' || !isFinite(+v)) ? null : +v;
+  const tail = s => `${s.description ? `<p class="stim-desc">${esc(s.description)}</p>` : ''}${s.text ? `<p class="stim-text">${esc(s.text)}</p>` : ''}${s.note ? `<p class="stim-note">${esc(s.note)}</p>` : ''}${source(s.source)}`;
+
+  /* ---------- multi-series line chart (inline SVG) ----------
+     Series stay distinguishable without color: each has its own marker shape AND dash pattern
+     (blue solid ●, orange dashed ■, teal dotted ▲, ink dash-dot ◆, magenta long-dash ▼).
+     Three SVG layouts are emitted (wide 640, medium 480, narrow 360 user units); a container query on the
+     figure shows the one that keeps labels legible, so the chart never needs a sideways scroll. */
+  const DASH = ['', '9 5', '2.5 4', '12 4 2.5 4', '18 6'];
+  function mkPath(k, x, y, r) {
+    switch (k % 5) {
+      case 1: { const a = r * 0.9; return `M${r1(x - a)},${r1(y - a)}h${r1(2 * a)}v${r1(2 * a)}h${r1(-2 * a)}Z`; }
+      case 2: { const a = r * 1.22; return `M${r1(x)},${r1(y - a)}L${r1(x + a * 0.95)},${r1(y + a * 0.62)}L${r1(x - a * 0.95)},${r1(y + a * 0.62)}Z`; }
+      case 3: { const a = r * 1.25; return `M${r1(x)},${r1(y - a)}L${r1(x + a)},${r1(y)}L${r1(x)},${r1(y + a)}L${r1(x - a)},${r1(y)}Z`; }
+      case 4: { const a = r * 1.22; return `M${r1(x)},${r1(y + a)}L${r1(x + a * 0.95)},${r1(y - a * 0.62)}L${r1(x - a * 0.95)},${r1(y - a * 0.62)}Z`; }
+      default: return `M${r1(x - r)},${r1(y)}a${r},${r} 0 1,0 ${2 * r},0a${r},${r} 0 1,0 ${-2 * r},0Z`;
+    }
+  }
+  // wrap that may also break after hyphens ("Lower-middle-income" -> "Lower-middle-" / "income"); no regex lookbehind (old Safari)
+  function wrapLabel(text, max) {
+    const toks = String(text || '').replace(/-/g, '-\u0001').split(/\s+|\u0001/).filter(Boolean), lines = []; let cur = '';
+    toks.forEach(t => { const j = cur ? (cur.endsWith('-') ? cur + t : cur + ' ' + t) : t; if (j.length > max && cur) { lines.push(cur); cur = t; } else cur = j; });
+    if (cur) lines.push(cur);
+    return lines;
+  }
+  const dashAttr = si => DASH[si % 5] ? ` stroke-dasharray="${DASH[si % 5]}"` : '';
+  function lineSVG(s, cats, series, vals, ax, o) {
+    const W = o.W, H = o.H, narrow = o.size === 'nar', id = nid(), tid = id + 't', did = id + 'd';
+    const dec = decOf(ax.step), ticks = ticksOf(ax), tl = v => fmtD(v, dec);
+    const cw = o.size === 'wid' ? 7.4 : 7.6;                         // rough user units per character at the tick font size
+    const maxTL = Math.max(1, ...ticks.map(v => tl(v).length));
+    const yTop = narrow && s.yLabel ? wrap(s.yLabel, Math.floor((W - 8) / 7)) : [];
+    const m = { t: narrow ? (yTop.length ? 10 + yTop.length * 15 + 8 : 14) : 18, r: narrow ? 16 : 24, l: Math.round((s.yLabel && !narrow ? 30 : 4) + 10 + maxTL * cw), b: 0 };
+    const n = cats.length, pad = narrow ? 12 : 18, pw = W - m.l - m.r;
+    const X = i => n > 1 ? m.l + pad + i * (pw - 2 * pad) / (n - 1) : m.l + pw / 2;
+    const spacing = n > 1 ? (pw - 2 * pad) / (n - 1) : W;
+    // room for label i: half the gap to each neighbour, or (at either end) everything out to the chart edge
+    const avail = i => (i === 0 ? X(0) - 2 : spacing / 2 - 3) + (i === n - 1 ? W - 2 - X(n - 1) : spacing / 2 - 3);
+    let xl = cats.map(c => [c]), every = 1;
+    if (cats.some((c, i) => c.length * cw > avail(i))) {
+      // long names wrap (up to 3 lines, 4 on phones); years and other unbreakable labels are thinned instead
+      const wr = cats.map((c, i) => { const per = Math.max(1, Math.floor(avail(i) / cw)); return { per, w: wrapLabel(c, per) }; });
+      if (wr.every(o => o.w.length <= (narrow ? 4 : 3) && o.w.every(l => l.length <= o.per))) xl = wr.map(o => o.w);
+      else every = Math.max(1, Math.ceil((Math.max(...cats.map(c => c.length)) * cw + 10) / spacing));
+    }
+    const xLines = Math.max(1, ...xl.map(a => a.length));
+    const xLab = s.xLabel ? wrap(s.xLabel, Math.floor((W - 20) / 7)) : [];
+    m.b = 18 + xLines * 15 + (xLab.length ? 6 + xLab.length * 16 : 0);
+    const ph = H - m.t - m.b;
+    const Y = v => m.t + ph - ((v - ax.lo) / ((ax.hi - ax.lo) || 1)) * ph;
+    let g = '';
+    ticks.forEach(v => { g += `<line class="grid" x1="${m.l}" x2="${W - m.r}" y1="${r1(Y(v))}" y2="${r1(Y(v))}"/><text class="tick" x="${m.l - 8}" y="${r1(Y(v) + 4.5)}" text-anchor="end">${tl(v)}</text>`; });
+    const base = r1(Y(ax.lo));
+    g += `<line class="axis" x1="${m.l}" x2="${m.l}" y1="${m.t}" y2="${base}"/><line class="axis" x1="${m.l}" x2="${W - m.r}" y1="${base}" y2="${base}"/>`;
+    if (ax.lo < 0 && ax.hi > 0) g += `<line class="axis zero" x1="${m.l}" x2="${W - m.r}" y1="${r1(Y(0))}" y2="${r1(Y(0))}"/>`;
+    cats.forEach((c, i) => {
+      g += `<line class="axis" x1="${r1(X(i))}" x2="${r1(X(i))}" y1="${base}" y2="${base + 5}"/>`;
+      if (i % every !== 0) return;
+      const hw = Math.max(...xl[i].map(l => l.length)) * cw / 2, lx = Math.min(Math.max(X(i), hw + 2), W - hw - 2);   // keep edge labels inside the chart
+      xl[i].forEach((ln, li) => { g += `<text class="cat" x="${r1(lx)}" y="${r1(base + 21 + li * 15)}" text-anchor="middle">${esc(ln)}</text>`; });
+    });
+    let lines = '', marks = '';
+    series.forEach((sr, si) => {
+      const v = vals[si]; let seg = [];
+      const flush = () => { if (seg.length > 1) lines += `<polyline class="ln s${si % 5}" points="${seg.join(' ')}"${dashAttr(si)}/>`; seg = []; };
+      v.forEach((y, i) => { if (y == null) flush(); else seg.push(`${r1(X(i))},${r1(Y(y))}`); });
+      flush();
+      v.forEach((y, i) => {
+        if (y == null) return;
+        marks += `<g class="pt"><title>${esc(cats[i])} · ${esc(sr.name)}: ${fmt2(y)}</title><circle class="hit" cx="${r1(X(i))}" cy="${r1(Y(y))}" r="11"/><path class="mk s${si % 5}" d="${mkPath(si, X(i), Y(y), 5)}"/></g>`;
+      });
+    });
+    let labs = '';
+    if (s.yLabel && !narrow) labs += `<text class="ylab" transform="translate(16 ${r1(m.t + ph / 2)}) rotate(-90)" text-anchor="middle">${esc(s.yLabel)}</text>`;
+    yTop.forEach((ln, i) => { labs += `<text class="ylab" x="4" y="${14 + i * 15}">${esc(ln)}</text>`; });
+    xLab.forEach((ln, i) => { labs += `<text class="xlab" x="${r1(m.l + pw / 2)}" y="${r1(base + 18 + xLines * 15 + 8 + i * 16)}" text-anchor="middle">${esc(ln)}</text>`; });
+    return `<svg class="${o.size}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="${tid} ${did}"><title id="${tid}">${esc(s.title || 'Line chart')}</title><desc id="${did}">${esc(o.desc)}</desc>${g}${lines}${marks}${labs}</svg>`;
+  }
+  function line(s) {
+    const cats = (s.categories || []).map(String), series = (s.series || []).filter(sr => sr && typeof sr === 'object');
+    const vals = series.map(sr => cats.map((_, i) => valOrNull((sr.values || [])[i])));
+    const flat = vals.flat().filter(v => v != null);
+    const dMax = flat.length ? Math.max(...flat) : 1, dMin = flat.length ? Math.min(...flat) : 0;
+    const yMinSet = valOrNull(s.yMin) != null;
+    let lo = yMinSet ? +s.yMin : Math.min(0, dMin);
+    if (!yMinSet && lo < 0) { const st = niceStep((dMax - lo) / 5); lo = Math.floor(lo / st) * st; }
+    const yMaxSet = valOrNull(s.yMax) != null && +s.yMax > lo && +s.yMax >= dMax;   // a yMax below the data is ignored
+    const ax = axisFor(lo, Math.max(dMax, lo + 1e-6), 6, yMaxSet ? +s.yMax : null);
+    const v2s = v => v == null ? 'no data' : fmt2(v);
+    const desc = (s.description ? s.description + ' ' : '') + `Line chart with ${series.length} series${cats.length ? ` from ${cats[0]} to ${cats[cats.length - 1]}` : ''}.${s.yLabel ? ` Vertical axis: ${s.yLabel}, ${fmt2(ax.lo)} to ${fmt2(ax.hi)}.` : ''}${s.xLabel ? ` Horizontal axis: ${s.xLabel}.` : ''} ` + series.map((sr, si) => `${sr.name}: ` + cats.map((c, i) => `${c} ${v2s(vals[si][i])}`).join(', ')).join('. ') + '.';
+    const key = si => `<svg class="lkey" viewBox="0 0 36 14" aria-hidden="true"><line class="ln s${si % 5}" x1="2" y1="7" x2="34" y2="7"${dashAttr(si)}/><path class="mk s${si % 5}" d="${mkPath(si, 18, 7, 4.5)}"/></svg>`;
+    const legend = `<div class="legend" aria-hidden="true">${series.map((sr, si) => `<span class="lg">${key(si)}${esc(sr.name)}</span>`).join('')}</div>`;
+    const srTable = `<div class="sr-only"><table><caption>${esc(s.title || 'Chart data')}</caption><thead><tr><th scope="col">${esc(s.xLabel || 'Category')}</th>${series.map(sr => `<th scope="col">${esc(sr.name)}</th>`).join('')}</tr></thead><tbody>${cats.map((c, i) => `<tr><th scope="row">${esc(c)}</th>${series.map((sr, si) => `<td>${v2s(vals[si][i])}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+    const svg = (size, W, H) => `<div class="lc-${size[0]}">${lineSVG(s, cats, series, vals, ax, { W, H, size, desc })}</div>`;
+    return `<figure class="stim stim-line">${title(s.title)}${series.length > 1 ? legend : ''}<div class="chart lc">${svg('wid', 640, 360)}${svg('med', 480, 330)}${svg('nar', 360, 310)}</div>${srTable}${tail(s)}</figure>`;
+  }
+
+  /* ---------- population pyramid (back-to-back horizontal bars, inline SVG) ----------
+     ageGroups are listed youngest first and drawn youngest at the bottom. Male bars run left, female right
+     (orange + hatch, the same look as the bar chart's second series), so sex is never color-alone. */
+  function pyramid(s) {
+    const ages = (s.ageGroups || []).map(String), n = Math.max(1, ages.length);
+    const pick = arr => ages.map((_, i) => { const v = valOrNull((arr || [])[i]); return v == null ? null : Math.max(0, v); });
+    const male = pick(s.male), female = pick(s.female), pv = v => v == null ? 'no data' : fmt2(v);
+    const dMax = Math.max(0.1, ...male.filter(v => v != null), ...female.filter(v => v != null));
+    const maxLen = Math.max(3, ...ages.map(a => a.length));
+    const W = 340, padX = 16, cw = Math.max(46, Math.round(maxLen * 7.6 + 12));
+    const sw = (W - 2 * padX - cw) / 2, L0 = padX + sw, R0 = W - padX - sw;
+    // tick labels are plain numbers (the axis title says "Percent of total population"); keep ~2 characters of air between them
+    const tlab = v => fmt2(v);
+    const fits = (st, k) => { let w = 0; for (let j = 1; j <= k; j++) w = Math.max(w, tlab(st * j).length); return sw / k >= w * 7.8 + 14; };
+    const ax = axisFor(0, dMax, 5, num(s.xMax) >= dMax ? num(s.xMax) : null, fits), xMax = ax.hi;   // an xMax below the data is ignored
+    const rh = Math.max(16, Math.min(30, 330 / n)), top = 40, ph = rh * ages.length, H = Math.round(top + ph + 52);
+    const bh = r1(rh * 0.8), xlen = v => v == null ? 0 : Math.min(sw, (v / xMax) * sw);
+    const id = nid(), tid = id + 't', did = id + 'd';
+    const rbar = (x, y, w, h, left) => {
+      if (w <= 0.05) return '';
+      const r = Math.min(3, w / 2, h / 2);
+      return left
+        ? `M${r1(x + w)},${r1(y)}H${r1(x + r)}Q${r1(x)},${r1(y)} ${r1(x)},${r1(y + r)}V${r1(y + h - r)}Q${r1(x)},${r1(y + h)} ${r1(x + r)},${r1(y + h)}H${r1(x + w)}Z`
+        : `M${r1(x)},${r1(y)}H${r1(x + w - r)}Q${r1(x + w)},${r1(y)} ${r1(x + w)},${r1(y + r)}V${r1(y + h - r)}Q${r1(x + w)},${r1(y + h)} ${r1(x + w - r)},${r1(y + h)}H${r1(x)}Z`;
+    };
+    const unit = '% of total population';
+    let g = '', rows = '';
+    ticksOf(ax).forEach(v => {
+      const a = r1(L0 - xlen(v)), b = r1(R0 + xlen(v)), lab = tlab(v);
+      g += `<line class="grid" x1="${a}" x2="${a}" y1="${top}" y2="${top + ph}"/><line class="grid" x1="${b}" x2="${b}" y1="${top}" y2="${top + ph}"/>`;
+      g += `<text class="tick" x="${a}" y="${r1(top + ph + 17)}" text-anchor="middle">${lab}</text><text class="tick" x="${b}" y="${r1(top + ph + 17)}" text-anchor="middle">${lab}</text>`;
+    });
+    g += `<line class="axis" x1="${padX}" x2="${L0}" y1="${top + ph}" y2="${top + ph}"/><line class="axis" x1="${R0}" x2="${W - padX}" y1="${top + ph}" y2="${top + ph}"/>`;
+    ages.forEach((a, i) => {
+      const y = top + (ages.length - 1 - i) * rh, yb = y + (rh - bh) / 2, wm = xlen(male[i]), wf = xlen(female[i]);
+      rows += `<g class="hrow"><title>Male, ages ${esc(a)}: ${male[i] == null ? 'no data' : fmt2(male[i]) + unit}</title><rect class="hit" x="${padX}" y="${r1(y)}" width="${r1(sw)}" height="${r1(rh)}"/><path class="bar s0" d="${rbar(L0 - wm, yb, wm, bh, true)}"/></g>`;
+      const fp = rbar(R0, yb, wf, bh, false);
+      rows += `<g class="hrow"><title>Female, ages ${esc(a)}: ${female[i] == null ? 'no data' : fmt2(female[i]) + unit}</title><rect class="hit" x="${r1(R0)}" y="${r1(y)}" width="${r1(sw)}" height="${r1(rh)}"/><path class="bar s1" d="${fp}"/>${fp ? `<path d="${fp}" fill="url(#${id}h)" pointer-events="none"/>` : ''}</g>`;
+      rows += `<text class="age" x="${r1(W / 2)}" y="${r1(y + rh / 2 + 4.5)}">${esc(a)}</text>`;
+    });
+    g += `<line class="axis" x1="${r1(L0)}" x2="${r1(L0)}" y1="${top}" y2="${top + ph}"/><line class="axis" x1="${r1(R0)}" x2="${r1(R0)}" y1="${top}" y2="${top + ph}"/>`;
+    const hdr = (label, cx, cls) => { const w = 15 + label.length * 8.6, x0 = r1(cx - w / 2); return `<rect class="bar ${cls}" x="${x0}" y="${top - 26}" width="11" height="11" rx="2.5"/>${cls === 's1' ? `<rect x="${x0}" y="${top - 26}" width="11" height="11" rx="2.5" fill="url(#${id}h)"/>` : ''}<text class="hdr" x="${r1(x0 + 16)}" y="${top - 16}">${label}</text>`; };
+    const heads = hdr('Male', padX + sw / 2, 's0') + hdr('Female', R0 + sw / 2, 's1') + `<text class="agehdr" x="${r1(W / 2)}" y="${top - 16}">Age</text>`;
+    const xl = `<text class="xlab" x="${r1(W / 2)}" y="${H - 8}" text-anchor="middle">${esc(s.xLabel || 'Percent of total population')}</text>`;
+    const desc = (s.description ? s.description + ' ' : '') + `Population pyramid. Age groups run from ${ages[0] || ''} at the bottom to ${ages[ages.length - 1] || ''} at the top. Male bars extend left and female bars extend right, in percent of total population. ` + ages.map((a, i) => `${a}: male ${pv(male[i])}${male[i] == null ? '' : '%'}, female ${pv(female[i])}${female[i] == null ? '' : '%'}`).join('; ') + '.';
+    const srTable = `<div class="sr-only"><table><caption>${esc(s.title || 'Population pyramid')} (percent of total population)</caption><thead><tr><th scope="col">Age group</th><th scope="col">Male (%)</th><th scope="col">Female (%)</th></tr></thead><tbody>${ages.map((a, i) => `<tr><th scope="row">${esc(a)}</th><td>${pv(male[i])}</td><td>${pv(female[i])}</td></tr>`).join('')}</tbody></table></div>`;
+    const svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="${tid} ${did}"><title id="${tid}">${esc(s.title || 'Population pyramid')}</title><desc id="${did}">${esc(desc)}</desc><defs><pattern id="${id}h" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="rgba(255,255,255,.55)" stroke-width="2"/></pattern></defs>${g}${rows}${heads}${xl}</svg>`;
+    return `<figure class="stim stim-pyr">${title(s.title)}<div class="chart pyr">${svg}</div>${srTable}${tail(s)}</figure>`;
   }
 
   /* ---------- district maps ---------- */

@@ -5,7 +5,7 @@ Inputs (all under practice-exam/):
   src/index.html        page shell with @@ placeholders
   src/fonts/fredoka.css Fredoka subset as a base64 @font-face (same subset as the live GeoArcade pages)
   src/styles.css        design tokens + components (light and dark)
-  src/stimulus.js       table / bar / districtMap / schematicMap renderers
+  src/stimulus.js       table / bar / line / pyramid / districtMap / schematicMap / rings renderers
   src/app.js            screens, state, timer, scoring, storage
   data/unit*.json       one question bank per unit (Unit 4 today; drop in unit1.json ... unit7.json later)
   ../darkmode/addons/ga.html  GeoArcade dark-mode add-on, appended before </body>
