@@ -1,7 +1,7 @@
 # AP World Unit 6 sources. Texts follow the public-domain editions saved in aw6/sources/raw/ and
 # documented in aw6/sources/*.md. Cuts are marked with ellipses; bracketed words are clarifications.
 # OCR slips in the scans were corrected against a second scan or copy where one exists (see the .md files).
-VERSION = "2026-11-08a"
+VERSION = "2026-11-08c"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -61,9 +61,9 @@ STIM = {
     "width": 960, "height": 1244,
     "alt": "A black-and-white cartoon of a giant man with a mustache standing with his legs spread wide across a map of Africa, one foot at the southern tip and one in the far north, his arms stretched out, a rifle slung on his shoulder, and a thin line like a wire running from his hands down to the ground.",
     "caption": "A giant man stands with his legs spread wide over a map of Africa. One foot rests at the southern tip of the continent and the other in the far north. He wears a jacket, straps, and tall boots, and a rifle hangs from his shoulder. He holds a hat high in one hand and stretches out his other arm. A thin line, like a wire, runs from his hands down toward the ground near each foot. The island of Madagascar appears at lower right.",
-    "attribution": "Edward Linley Sambourne, British cartoonist, \"The Rhodes Colossus: Striding from Cape Town to Cairo,\" cartoon of Cecil Rhodes, British businessman and prime minister of the Cape Colony, in Punch, a London humor magazine, December 10, 1892",
+    "attribution": "Edward Linley Sambourne, British cartoonist, \"The Rhodes Colossus: Striding from Cape Town to Cairo,\" cartoon of Cecil Rhodes, prime minister of the Cape Colony in southern Africa, in Punch, a London humor magazine, December 10, 1892",
     "credit": "Public domain image via Wikimedia Commons.",
-    "description": "A pen drawing seen from slightly below. A huge man with a mustache stands over Africa, which is drawn like a map seen from above, with clouds around his chest. His left boot is planted at the southern tip of the continent and his right foot in the far north. He wears a jacket buttoned to the neck, a belt with a pouch, shoulder straps, and laced boots that reach his knees. A rifle is slung over his shoulder and hangs down by his leg. His right arm is raised high, holding a hat, and his left arm points out to the side. A thin line runs from each hand down to the ground near each foot, like a wire strung between the two ends of the continent. Madagascar is drawn at the lower right. The artist's signature is at the bottom right.",
+    "description": "A pen drawing seen from slightly below. A huge man with a mustache stands over Africa, which is drawn like a map seen from above, with clouds around his chest. His right boot is planted at the southern tip of the continent and his left foot in the far north. He wears a jacket, a belt with a pouch, shoulder straps, and laced boots that reach his knees. A rifle is slung over his shoulder and hangs down by his leg. His right arm is raised high, holding a hat, and his left arm points out to the side. A thin line runs from each hand down to the ground near each foot, like a wire strung between the two ends of the continent. Madagascar is drawn at the lower right. The artist's signature is at the bottom right.",
     "glossary": [{"t": "colossus", "d": "a gigantic statue; the Colossus of Rhodes was a huge ancient statue said to have stood over the harbor of the Greek island of Rhodes"}]},
 
 "X4": {"type": "pair", "items": [
@@ -80,10 +80,10 @@ STIM = {
     item("Source 2", [
         "In accepting responsibility for the control of these new lands, England obeyed the tradition of her race. British Africa was acquired not by groups of financiers, nor yet … by the efforts of her statesmen, but in spite of them. It was the instinct of the British democracy which compelled us to take our share. …",
         "Let it be admitted at the outset that European brains, capital, and energy have not been, and never will be, expended in developing the resources of Africa from motives of pure philanthropy; that Europe is in Africa for the mutual benefit of her own industrial classes, and of the native races in their progress to a higher plane; that the benefit can be made reciprocal, and that it is the aim and desire of civilised administration to fulfil this dual mandate.",
-        "By railways and roads, by reclamation of swamps and irrigation of deserts, and by a system of fair trade and competition, we have added to the prosperity and wealth of these lands, and checked famine and disease. We have put an end to the awful misery of the slave-trade and inter-tribal war, to human sacrifice and the ordeals of the witch-doctor.* … We are endeavouring to teach the native races to conduct their own affairs with justice and humanity, and to educate them alike in letters and in industry."],
-        "Frederick Lugard, British colonial official who governed Nigeria in the early 1900s, The Dual Mandate in British Tropical Africa, 1922",
+        "By railways and roads, by reclamation of swamps and irrigation of deserts, and by a system of fair trade and competition, we have added to the prosperity and wealth of these lands, and checked famine and disease. We have put an end to the awful misery of the slave-trade and inter-tribal war, to human sacrifice and the ordeals of the witch-doctor.* Where these things survive they are severely suppressed. We are endeavouring to teach the native races to conduct their own affairs with justice and humanity, and to educate them alike in letters and in industry."],
+        "Frederick Lugard, British soldier and colonial official who governed Nigeria in the early 1900s, The Dual Mandate in British Tropical Africa, 1922",
         "Adapted",
-        footnotes=[{"mark": "*", "text": "Lugard's phrases \"native races\" and \"witch-doctor\" are his own and reflect the views of British officials of his time."}],
+        footnotes=[{"mark": "*", "text": "Lugard's phrases \"native races\" and \"witch-doctor\" are his own. They reflect the low opinion of African peoples and beliefs held by many British officials of his time."}],
         glossary=[{"t": "financiers", "d": "bankers and investors"},
                   {"t": "British democracy", "d": "here, the British voting public"},
                   {"t": "philanthropy", "d": "giving help to others with no gain for oneself"},
@@ -93,12 +93,12 @@ STIM = {
                   {"t": "ordeals", "d": "painful tests used to decide whether a person was guilty"}])]},
 
 "X5": {"type": "bar",
-    "title": "Raw Cotton Brought into Europe, by Source, 1860 and 1864",
+    "title": "Raw Cotton Brought into Europe from Four Sources, 1860 and 1864",
     "categories": ["United\nStates", "India", "Egypt", "Brazil"],
     "series": [{"name": "1860 (thousands of bales)", "values": [4058, 552, 135, 48]},
                {"name": "1864 (thousands of bales)", "values": [241, 1374, 427, 127]}],
     "yLabel": "Thousands of bales (400 pounds each)",
-    "text": "The figures count raw cotton brought into all of Europe each year, in thousands of bales of 400 pounds each. Ellison's column \"East Indies\" is shown here as \"India.\" Smaller sources, such as Turkey and the West Indies, are not shown.",
+    "text": "The figures count raw cotton brought into all of Europe each year, in thousands of bales of 400 pounds each. Ellison's column \"East Indies\" is shown here as \"India.\" Other sources, such as Turkey, the West Indies, and China and Japan, are not shown. Together they sent about 44,000 bales in 1860 and 466,000 bales in 1864.",
     "source": "Thomas Ellison, The Cotton Trade of Great Britain (London, 1886), table of cotton imports into Europe, 1860–1883, p. 91"},
 
 "X6": P([
@@ -110,8 +110,8 @@ STIM = {
     "… The lowest computation fixes the number of those who perished on both sides of the Kei at twenty-five thousand, ordinary calculations give double that number."],
     "George McCall Theal, Canadian-born historian who became keeper of the government archives of the Cape Colony, History of South Africa since September 1795, vol. 3, 1908",
     "Adapted",
-    footnotes=[{"mark": "*", "text": "British Kaffraria was a colony that Britain set up in 1847 on Xhosa land east of the Cape Colony. Its name comes from an old term for the Xhosa that is now considered a slur."},
-               {"mark": "**", "text": "Kreli (Sarhili) was the paramount (highest) chief of the Xhosa."}],
+    footnotes=[{"mark": "*", "text": "British Kaffraria was a colony that Britain set up in 1847 on Xhosa land east of the Cape Colony. Its name comes from an old word that Europeans used for Black southern Africans, especially the Xhosa. The word is now considered a slur."},
+               {"mark": "**", "text": "Kreli (Sarhili) was the king of the Gcaleka Xhosa and the highest-ranking Xhosa chief."}],
     glossary=[{"t": "lung sickness", "d": "a deadly disease of cattle"},
               {"t": "disposition", "d": "readiness"},
               {"t": "Xosas", "d": "Theal's spelling of Xhosa, a Bantu-speaking people of southern Africa"},
@@ -123,11 +123,12 @@ STIM = {
 
 "X7": P([
     "I have more than once referred to the unfavourable circumstances under which the vast majority of the Irish arrived in America, and the difficulties with which, in a special degree, they had to contend; but the picture would be most imperfect were not some reference made to the disastrous emigration of the years 1847 and 1848—to that blind and desperate rush across the Atlantic known and described, and to be recognised for time to come, as the Irish Exodus. …",
-    "It is difficult to realise to the mind the magnitude of the pecuniary sacrifices made by the Irish in America, either to bring out their relatives to their adopted country, or to relieve the necessities and improve the circumstances of those who could not leave or who desired to remain in the old country. … As a mere fact, more than 24,000,000l. have been sent by the Irish to pay for passages and outfits and fares to distant places; to enable those 'at home' to pay a high rent, perhaps in a time of scarcity; to support parents too old, or too feeble, or too prejudiced, to venture across the sea …",
+    "It is difficult to realise to the mind the magnitude of the pecuniary sacrifices made by the Irish in America, either to bring out their relatives to their adopted country, or to relieve the necessities and improve the circumstances of those who could not leave or who desired to remain in the old country. … As a mere fact, more than 24,000,000l.* have been sent by the Irish to pay for passages and outfits and fares to distant places; to enable those 'at home' to pay a high rent, perhaps in a time of scarcity; to support parents too old, or too feeble, or too prejudiced, to venture across the sea …",
     "The great ambition of the Irish girl is to send 'something' to her people as soon as possible after she has landed in America; and in innumerable instances the first tidings of her arrival in the New World are accompanied with a remittance, the fruits of her first earnings in her first place. …",
     "With all banks and offices through which money is sent to Ireland the months of December and March are the busiest portions of the year. The largest amount is then sent; then the offices are full of bustling, eager, indeed clamorous applicants … who are mostly females, and chiefly 'girls in place.'"],
     "John Francis Maguire, Irish journalist and member of the British Parliament, The Irish in America, 1868, written after a tour of the United States and Canada",
     "Adapted",
+    footnotes=[{"mark": "*", "text": "Maguire's estimate of all the money sent home over about 25 years, up to 1868. It includes money from Irish emigrants in Australia as well as in North America."}],
     glossary=[{"t": "Exodus", "d": "a mass departure"},
               {"t": "pecuniary", "d": "having to do with money"},
               {"t": "24,000,000l.", "d": "24 million British pounds"},
@@ -138,7 +139,7 @@ STIM = {
 
 "X8": P([
     "… The English settlers could not get on at all with their plantations in the absence of a stable labour force. They therefore opened negotiations with the Government of India and requested their help for the supply of labour. That Government complied with their request, and the first batch of indentured labourers from India reached Natal on 16th November 1860 …",
-    "When the news that indentured labourers had gone to Natal reached Mauritius, Indian traders having connection with such labourers were induced to follow them there. … Other Memans consequently reached Natal. Borahs from Surat followed them. These traders needed accountants, and Hindu accountants from Gujarat and Kathiawad accompanied them.",
+    "When the news that indentured labourers had gone to Natal reached Mauritius, Indian traders having connection with such labourers were induced to follow them there. … An Indian trader in Mauritius, the late Sheth Abubakar Amod, thought of opening a shop in Natal. … Abubakar Sheth carried on trade and purchased land, and the story of his prosperity reached Porbandar, his native place, and the country around. Other Memans consequently reached Natal. Borahs from Surat followed them. These traders needed accountants, and Hindu accountants from Gujarat and Kathiawad accompanied them.",
     "… The labourers went to Natal under indenture for a period of five years. They were under no obligation to labour after the expiry of that period, and were entitled to work as free labourers or trade in Natal, and settle there, if they wished. … They found that if they grew only vegetables in Natal, they could earn good incomes, and that their earnings would be still better if they owned a small piece of land. … But the European planters did not relish this new development. They felt they now had competitors in a field in which they believed they had a monopoly. …",
     "… while on the one hand the Europeans demanded more and more labourers and easily took in as many of them as went from India, on the other hand they started an agitation to harass ex-indentured labourers in a variety of ways. … One set of agitators demanded that the labourers who completed their indentures should be sent back to India … A second set advocated the imposition of a heavy annual capitation tax on the labourers who did not re-indenture themselves at the end of the first period of five years."],
     "Mohandas K. Gandhi, Indian lawyer who lived in South Africa from 1893 to 1914, Satyagraha in South Africa, first published in Gujarati in the 1920s",
@@ -146,6 +147,8 @@ STIM = {
     glossary=[{"t": "indenture / indentured labourers", "d": "a labor contract that bound a worker to one employer for a set number of years; workers under such a contract"},
               {"t": "Natal", "d": "a British colony in southeastern Africa"},
               {"t": "Mauritius", "d": "a British island colony in the Indian Ocean"},
+              {"t": "Sheth", "d": "a title of respect for a merchant"},
+              {"t": "Porbandar", "d": "a port town in western India"},
               {"t": "Memans, Borahs", "d": "Muslim merchant communities from western India"},
               {"t": "Gujarat, Kathiawad", "d": "regions of western India"},
               {"t": "agitation", "d": "a public campaign"},
@@ -169,10 +172,11 @@ STIM = {
               {"t": "hecatombs", "d": "mass killings"}]),
 
 "P2": P([
-    "In going back to that country [Central Africa] my object is to open up traffic along the banks of the Zambesi, and also to preach the Gospel. The natives of Central Africa are very desirous of trading, but their only traffic is at present in slaves, of which the poorer people have an unmitigated horror: it is therefore most desirable to encourage the former principle, and thus open a way for the consumption of free productions, and the introduction of Christianity and commerce. By encouraging the native propensity for trade, the advantages that might be derived in a commercial point of view are incalculable; nor should we lose sight of the inestimable blessings it is in our power to bestow upon the unenlightened African, by giving him the light of Christianity. Those two pioneers of civilization—Christianity and commerce—should ever be inseparable; and Englishmen should be warned by the fruits of neglecting that principle as exemplified in the result of the management of Indian affairs. By trading with Africa, also, we should at length be independent of slave-labour, and thus discountenance practices so obnoxious to every Englishman. …",
+    "In going back to that country [Central Africa] my object is to open up traffic along the banks of the Zambesi, and also to preach the Gospel. The natives of Central Africa are very desirous of trading, but their only traffic is at present in slaves, of which the poorer people have an unmitigated horror: it is therefore most desirable to encourage the former principle, and thus open a way for the consumption of free productions, and the introduction of Christianity and commerce. By encouraging the native propensity for trade, the advantages that might be derived in a commercial point of view are incalculable; nor should we lose sight of the inestimable blessings it is in our power to bestow upon the unenlightened African,* by giving him the light of Christianity. Those two pioneers of civilization—Christianity and commerce—should ever be inseparable; and Englishmen should be warned by the fruits of neglecting that principle as exemplified in the result of the management of Indian affairs. By trading with Africa, also, we should at length be independent of slave-labour, and thus discountenance practices so obnoxious to every Englishman. …",
     "I beg to direct your attention to Africa;—I know that in a few years I shall be cut off in that country, which is now open; do not let it be shut again! I go back to Africa to try to make an open path for commerce and Christianity; do you carry out the work which I have begun."],
     "David Livingstone, Scottish missionary and explorer, lecture to students and teachers at Cambridge University, England, December 4, 1857",
     "From Dr. Livingstone's Cambridge Lectures, edited by William Monk (Cambridge, 1858); adapted",
+    footnotes=[{"mark": "*", "text": "Livingstone's phrase \"the unenlightened African\" reflects the European belief of his time that African cultures were inferior, a view historians reject."}],
     glossary=[{"t": "traffic", "d": "trade"},
               {"t": "Zambesi", "d": "the Zambezi River in southern Central Africa"},
               {"t": "the Gospel", "d": "the Christian message"},
@@ -181,11 +185,11 @@ STIM = {
               {"t": "propensity", "d": "natural liking"},
               {"t": "discountenance", "d": "discourage"},
               {"t": "obnoxious", "d": "offensive"},
-              {"t": "cut off", "d": "here, killed"}]),
+              {"t": "cut off", "d": "here, die"}]),
 
 "P3": P([
     "[The heads of state of Britain, Germany, Austria-Hungary, Belgium, Denmark, Spain, the United States, France, Italy, the Netherlands, Portugal, Russia, Sweden-Norway, and the Ottoman Empire,] wishing, in a spirit of good and mutual accord, to regulate the conditions most favourable to the development of trade and civilization in certain regions of Africa, and to assure to all nations the advantages of free navigation on the two chief rivers of Africa flowing into the Atlantic Ocean; being desirous, on the other hand, to obviate the misunderstanding and disputes which might in future arise from new acts of occupation … on the coast of Africa; and concerned, at the same time, as to the means of furthering the moral and material well-being of the native populations, have resolved … to meet for those purposes in Conference at Berlin …",
-    "Article VI. All the Powers exercising sovereign rights or influence in the aforesaid territories* bind themselves to watch over the preservation of the native tribes, and to care for the improvement of the conditions of their moral and material well-being, and to help in suppressing slavery, and especially the slave trade. They shall, without distinction of creed or nation, protect and favour all religions, scientific, or charitable institutions, and undertakings created and organized for the above ends, or which aim at instructing the natives and bringing home to them the blessings of civilization. … Christian missionaries, scientists and explorers, with their followers, property, and collections, shall likewise be the objects of especial protection. …",
+    "Article VI. All the Powers exercising sovereign rights or influence in the aforesaid territories* bind themselves to watch over the preservation of the native tribes, and to care for the improvement of the conditions of their moral and material well-being, and to help in suppressing slavery, and especially the slave trade. They shall, without distinction of creed or nation, protect and favour all religious, scientific, or charitable institutions, and undertakings created and organized for the above ends, or which aim at instructing the natives and bringing home to them the blessings of civilization. … Christian missionaries, scientists and explorers, with their followers, property, and collections, shall likewise be the objects of especial protection. …",
     "Article XXXIV. Any Power which henceforth takes possession of a tract of land on the coasts of the African Continent outside of its present possessions, or which, being hitherto without such possessions, shall acquire them, as well as the Power which assumes a Protectorate there, shall accompany the respective act with a notification thereof, addressed to the other Signatory Powers of the present Act, in order to enable them, if need be, to make good any claims of their own.",
     "Article XXXV. The Signatory Powers of the present Act recognize the obligation to insure the establishment of authority in regions occupied by them on the coasts of the African Continent sufficient to protect existing rights, and, as the case may be, freedom of trade and of transit under the conditions agreed upon."],
     "General Act of the Berlin Conference, signed by representatives of fourteen states, February 26, 1885",
@@ -237,9 +241,10 @@ STIM = {
     "We conceive that the empire belongs to the Chinese, and not to the Tartars; the food and raiment found therein belong to the Chinese, and not to the Tartars; the men and women inhabiting this region are subjects and children of the Chinese, and not of the Tartars. But, alas! ever since the Ming dynasty lost its influence, the Manchoos availed themselves of the opportunity to throw China into confusion, and deprive the Chinese of their empire …",
     "… China is the head, Tartary is the feet; China is the land of spirits, Tartary the land of demons. Why may China be deemed the land of spirits? Because the true Spirit, the great God, our heavenly Father, made heaven and earth, the land and the sea (and the Chinese honour him); therefore from of old China has been termed the land of spirits. …",
     "… The Chinese have a form peculiarly their own; but these Manchoos have commanded them to shave the hair round their heads, and wear a long tail behind, thus causing the Chinese to assume the appearance of brute animals. The Chinese have a dress peculiar to themselves, but these Manchoos have caused them to wear knobs on their caps, with Tartar clothes … thus causing the Chinese to forget their origin. … Whenever drought and inundations occur, the government manifests no compassion; but quietly sees our people scattered abroad or dying of hunger … Offices are to be obtained by bribes, crimes are to be bought off with money, rich fellows engross all authority …",
-    "… According to our calculations, the Manchoos cannot be above a hundred thousand, and we Chinese amount to more than fifty millions; but for fifty millions to be ruled over by a hundred thousand is disgraceful."],
+    "… According to our calculations, the Manchoos cannot be above a hundred thousand, and we Chinese amount to more than fifty millions;* but for fifty millions to be ruled over by a hundred thousand is disgraceful."],
     "Yang Xiuqing, called the \"Eastern King,\" a top leader of the Taiping Rebellion in China, proclamation issued in 1852 as the Taiping army marched north",
     "English translation printed in Augustus F. Lindley, Ti-Ping Tien-Kwoh: The History of the Ti-Ping Revolution, vol. 1 (London, 1866); adapted",
+    footnotes=[{"mark": "*", "text": "Both numbers are far too low. China had more than 400 million people at the time, and the Manchus numbered a few million."}],
     glossary=[{"t": "conceive", "d": "believe"},
               {"t": "Tartars / Manchoos", "d": "the proclamation's words for the Manchus, the people from northeast of China whose rulers founded the Qing dynasty"},
               {"t": "raiment", "d": "clothing"},
@@ -266,7 +271,7 @@ STIM = {
     "Article the First. The chiefs of the Confederation of the United tribes of New Zealand, and the separate and independent chiefs who have not become members of the Confederation, cede to Her Majesty the Queen of England, absolutely and without reservation, all the rights and powers of sovereignty which the said confederation or individual chiefs respectively exercise or possess …",
     "Article the Second. Her Majesty, the Queen of England, confirms and guarantees to the chiefs and tribes of New Zealand, and to the respective families and individuals thereof the full, exclusive, and undisturbed possession of their lands and estates, forests, fisheries, and other properties which they may collectively or individually possess, so long as it is their wish and desire to retain the same in their possession; but the chiefs of the United tribes and the individual chiefs yield to Her Majesty the exclusive right of pre-emption over such lands as the proprietors thereof may be disposed to alienate, at such prices as may be agreed upon …",
     "Article the Third. In consideration thereof Her Majesty, the Queen of England, extends to the natives of New Zealand her Royal protection, and imparts to them all the rights and privileges of British subjects."],
-    "Treaty of Waitangi, English-language text, signed at Waitangi, New Zealand, on February 6, 1840, by William Hobson for the British Crown and by Māori chiefs",
+    "Treaty of Waitangi, English-language text prepared for the British Crown by William Hobson, the Crown's representative, February 1840; Māori chiefs began signing the treaty at Waitangi, New Zealand, on February 6, 1840",
     "As printed in T. Lindsay Buick, The Treaty of Waitangi (Wellington, 1914); adapted",
     glossary=[{"t": "Native chiefs / aborigines / natives", "d": "the treaty's words for the Māori, the Polynesian people who lived in New Zealand before Europeans arrived"},
               {"t": "functionary", "d": "an official"},
@@ -274,7 +279,7 @@ STIM = {
               {"t": "sovereign authority / sovereignty", "d": "the highest power to rule"},
               {"t": "Confederation of the United tribes", "d": "an alliance of Māori chiefs in northern New Zealand"},
               {"t": "cede", "d": "give up"},
-              {"t": "pre-emption", "d": "the right to buy something before anyone else may"},
+              {"t": "pre-emption", "d": "the right to buy something before anyone else may; here, the Crown's right to be the only buyer of any land the Māori chose to sell"},
               {"t": "alienate", "d": "sell or give away"}]),
 
 "P8": P([
@@ -294,9 +299,9 @@ STIM = {
               {"t": "Batavia, Samarang, Soorabaya", "d": "port cities on Java"}]),
 
 "P9": P([
-    "[The La Lulanga Company] … employs a considerable number of armed men equally termed \"forest guards.\" These men are quartered throughout the lower course of the Lulongo River, and I found that, as with the A.B.I.R., the sole duty they performed was to compel by force the collection of india-rubber or the supplies which each factory needed. As the district in which the La Lulanga Society carries on these operations is one that had already been subjected to still more comprehensive handling by two of the large Concession Companies, who only abandoned it when, as one of their agents informed me, it was nearly exhausted, the stock of rubber vines in it to-day is drawing to an end, and it is only with great difficulty that the natives are able to produce the quantity sufficient to satisfy their local masters. … Murder and mutilation were charged against several of them by name by the natives of certain townships close to the head-quarters of this Company, who sought me in the hope that I might help them. These people in several cases said that they had not complained elsewhere because they had felt that it was useless. As long as the rubber tax imposed upon them endured in its present compulsory form with the sanction of the authorities, they said it was idle to draw attention to acts which were but incidental to its collection. …",
+    "[The La Lulanga Company] … employs a considerable number of armed men equally termed \"forest guards.\" These men are quartered throughout the lower course of the Lulongo River, and I found that, as with the A.B.I.R., the sole duty they performed was to compel by force the collection of india-rubber or the supplies which each factory needed. As the district in which the La Lulanga Society carries on these operations is one that had already been subjected to still more comprehensive handling by two of the large Concession Companies, who only abandoned it when, as one of their agents informed me, it was nearly exhausted, the stock of rubber vines in it to-day is drawing to an end, and it is only with great difficulty that the natives are able to produce the quantity sufficient to satisfy their local masters. … Murder and mutilation were charged against several of them [the guards] by name by the natives of certain townships close to the head-quarters of this Company, who sought me in the hope that I might help them. These people in several cases said that they had not complained elsewhere because they had felt that it was useless. As long as the rubber tax imposed upon them endured in its present compulsory form with the sanction of the authorities, they said it was idle to draw attention to acts which were but incidental to its collection. …",
     "In the case of the A.B.I.R. Society, it is said that a portion of the profits are paid into the public revenues of the Congo Government (who hold certain shares in the undertaking), and that these figure annually in the Budget as \"produit de porte-feuille.\" In making this explanation to me, an agent of one of the Upper Congo trading Companies said the term should more correctly be \"produit de porte-fusil,\" and to judge from the large numbers of armed men I saw employed, the correction was not inapposite.",
-    "… The population of the Lower Congo has been gradually reduced by the unchecked ravages of this, as yet, undiagnosed and incurable disease [sleeping sickness] … The natives certainly attribute their alarming death-rate to this as one of the inducing causes, although they attribute, and I think principally, their rapid decrease in numbers to other causes as well."],
+    "… The population of the Lower Congo has been gradually reduced by the unchecked ravages of this, as yet, undiagnosed and incurable disease [sleeping sickness], and as one cause of the seemingly wholesale diminution of human life which I everywhere observed in the regions revisited, a prominent place must be assigned to this malady. The natives certainly attribute their alarming death-rate to this as one of the inducing causes, although they attribute, and I think principally, their rapid decrease in numbers to other causes as well."],
     "Roger Casement, British consul (diplomat) in the Congo Free State, report to the British government on a journey up the Congo River in 1903, published by the British Parliament in 1904",
     "Adapted",
     glossary=[{"t": "quartered", "d": "housed; stationed"},
@@ -307,18 +312,23 @@ STIM = {
               {"t": "sanction", "d": "approval"},
               {"t": "produit de porte-feuille", "d": "French for \"income from shares\""},
               {"t": "produit de porte-fusil", "d": "French for \"income from the rifle-carrier\""},
-              {"t": "not inapposite", "d": "fitting"}]),
+              {"t": "not inapposite", "d": "fitting"},
+              {"t": "diminution", "d": "shrinking"},
+              {"t": "malady", "d": "disease"},
+              {"t": "inducing causes", "d": "causes"}]),
 
 "P10": P([
-    "Most of the railways in this continent have been constructed by English or American engineers, with British capital, some for account of joint-stock companies in London; others for Government account, in which case also the money came from England, in the shape of loans. … The first in the Argentine Republic was from B. Ayres [Buenos Aires] to the suburb of Flores, constructed by Mr. Bragg, in 1853, for account of the B. Ayres Government. …",
+    "Most of the railways in this continent have been constructed by English or American engineers, with British capital, some for account of joint-stock companies in London; others for Government account, in which case also the money came from England, in the shape of loans. …",
     "Great Southern of Buenos Ayres built by Peto and Betts in 1865, has since been prolonged, and represents with the branches a total outlay of 2,000,000l. sterling, for 270 miles. It is managed by Mr. Cooper and owned by an English company …",
-    "[In Peru] No interest was paid from 1825 till after the fortunate discovery of guano at the Chincha Islands (1842). … In 1852 Gen. Mendiburu was sent to London to effect a Guano loan … all secured by guano … The Chincha Islands on being measured were reported to contain … guano, worth 76 millions sterling … In 1870 a railway loan for 12 millions sterling was launched by Schroders … The coupons are two years unpaid, and the stock of guano is running very low. The bonds are at one-tenth of their written value."],
+    "[In Peru] Between 1822 and 1825 three 6 per cent loans were contracted in London … No interest was paid from 1825 till after the fortunate discovery of guano at the Chincha Islands (1842).* … In 1852 Gen. Mendiburu was sent to London to effect a Guano loan … all secured by guano … The Chincha Islands on being measured were reported to contain … guano, worth 76 millions sterling … In 1870 a railway loan for 12 millions sterling was launched by Schroders … The coupons are two years unpaid, and the stock of guano is running very low. The bonds are at one-tenth of their written value."],
     "Michael G. Mulhall, Irish-born journalist who ran an English-language newspaper in Buenos Aires, The English in South America, 1878",
     "Adapted",
+    footnotes=[{"mark": "*", "text": "Peruvians had used guano as fertilizer for centuries. What was new around 1840 was selling it to Europe."}],
     glossary=[{"t": "capital", "d": "money invested in a business"},
               {"t": "joint-stock companies", "d": "businesses owned by many investors who buy shares"},
               {"t": "for Government account", "d": "paid for by a South American government"},
               {"t": "outlay", "d": "money spent"},
+              {"t": "contracted", "d": "arranged"},
               {"t": "l. / sterling", "d": "British pounds"},
               {"t": "guano", "d": "seabird droppings, used as fertilizer, that piled up on dry islands off Peru"},
               {"t": "coupons", "d": "interest payments owed to people who bought a government's bonds"},
@@ -344,20 +354,20 @@ STIM = {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/China_imperialism_cartoon.jpg/960px-China_imperialism_cartoon.jpg",
     "width": 960, "height": 1314,
     "alt": "A color cartoon of five figures with knives seated around a large round pie labeled CHINE, while a man in Qing official dress stands behind them with his hands thrown up.",
-    "caption": "Five figures sit around a large pie labeled \"Chine\" (French for China). From left to right they are Queen Victoria of Britain, Kaiser Wilhelm II of Germany, Tsar Nicholas II of Russia, a woman representing France, and a man representing Japan. Victoria, Wilhelm, and Nicholas hold knives, and Wilhelm stabs his into the pie. Two slices are labeled \"Kiao-Tchéou\" and \"Port-Arthur.\" Behind them, a man in the dress of a Qing official throws up his hands. The official is drawn as an ugly stereotype, which reflects European attitudes toward the Chinese at the time.",
-    "attribution": "Henri Meyer, French illustrator, \"En Chine: Le gâteau des Rois et… des Empereurs\" (\"In China: The Cake of Kings and… of Emperors\"), front-page cartoon in Le Petit Journal, a Paris newspaper, January 16, 1898",
+    "caption": "Five figures gather around a large pie labeled \"Chine\" (French for China). From left to right they are Queen Victoria of Britain, Kaiser Wilhelm II of Germany, Tsar Nicholas II of Russia, a woman representing France, and a man representing Japan. Victoria, Wilhelm, and Nicholas hold knives, and Wilhelm stabs his into the pie. Two slices are labeled \"Kiao-Tchéou\" and \"Port-Arthur.\" Behind them, a man in the dress of a Qing official throws up his hands. He is drawn with exaggerated features and long fingernails, an insulting stereotype of Chinese people that was common in European cartoons of the time.",
+    "attribution": "Henri Meyer, French illustrator, \"En Chine: Le gâteau des Rois et… des Empereurs\" (\"In China: The Cake of Kings and… of Emperors\"), cartoon on the front page of the illustrated supplement of Le Petit Journal, a Paris newspaper, January 16, 1898",
     "credit": "Bibliothèque nationale de France. Public domain image via Wikimedia Commons.",
     "description": "A brightly colored drawing. In front, a huge round pie or cake with \"CHINE\" written across it sits on a table, already marked into slices. On the left, an old queen with a small crown and a lace veil holds a knife and rests her ringed hand on the pie. Next to her, a scowling man in a spiked German helmet drives a knife straight down into the slice labeled \"Kiao-Tchéou.\" Beside him, a bearded man in a white cap holds a knife near the slice labeled \"Port-Arthur.\" Behind him, a young woman in a red cap with a red, white, and blue ribbon rests her hand on his shoulder and looks down at the pie. On the right, a man with a topknot rests his chin on his hand and studies the pie; a sword lies on the table in front of him. Standing behind them all, a man in a Qing official's hat and robe, with a long braid, raises both hands with long fingernails in alarm.",
     "glossary": [{"t": "gâteau des Rois", "d": "a \"kings' cake,\" a French pastry eaten in January"},
-                 {"t": "Kiao-Tchéou", "d": "Jiaozhou Bay, on China's northeast coast"},
+                 {"t": "Kiao-Tchéou", "d": "Jiaozhou Bay, on the coast of Shandong in northern China"},
                  {"t": "Port-Arthur", "d": "a port in northeast China, today called Lüshun"}]},
 
 "P13": P([
-    "The principals in the contract system of emigration were foreigners. During the nineteenth century the African slave system was terminated after having proved not only socially unsatisfactory but economically unsound. As a result of slave emancipation or in anticipation of it, an attempt was made by the exploiters of the sparsely populated \"New World\" to replace the African slave by the Asiatic indentured labourer—Indian or Chinese. In China the system was established after 1845. Since that date foreigners have at different periods gone to China to engage the services of Chinese under written contract to work for a number of years in lands beyond the seas—the terms of the original contract having penal sanctions in the country into which the coolies* have been introduced. … The coolies have not infrequently been subjected to serious wrongs …",
+    "The principals in the contract system of emigration were foreigners. … As a result of slave emancipation or in anticipation of it, an attempt was made by the exploiters of the sparsely populated \"New World\" to replace the African slave by the Asiatic indentured labourer—Indian or Chinese. In China the system was established after 1845. Since that date foreigners have at different periods gone to China to engage the services of Chinese under written contract to work for a number of years in lands beyond the seas—the terms of the original contract having penal sanctions in the country into which the coolies* have been introduced. … The coolies have not infrequently been subjected to serious wrongs …",
     "… By the credit-ticket system also was made possible the large emigration of Southern Chinese to U.S.A., Canada and Australasia which commenced during the fifties of last century and continued until it was gradually restricted or prohibited by the legislatures of these English-speaking states. …",
     "… The majority of the Chinese emigrants have been natives of the Kwangtung Province, so that although their numbers are insignificant when compared with the total population of China the effects on the social institutions of the south of this almost exclusively male emigration may have been considerable."],
     "Persia Crawford Campbell, Australian historian, Chinese Coolie Emigration to Countries within the British Empire, 1923",
-    "Adapted",
+    "Adapted; the second paragraph comes from a page earlier in the book",
     footnotes=[{"mark": "*", "text": "\"Coolie\" was a term used in the 1800s and early 1900s for Asian laborers, especially contract laborers. It is now considered offensive."}],
     glossary=[{"t": "principals", "d": "the people in charge"},
               {"t": "emancipation", "d": "freeing"},
@@ -373,7 +383,7 @@ STIM = {
     "categories": ["1841–\n45", "1846–\n50", "1851–\n55", "1856–\n60", "1861–\n65", "1866–\n70", "1871–\n75", "1876–\n80", "1881–\n85", "1886–\n90", "1891–\n95", "1896–\n1900"],
     "series": [{"name": "Immigrants per year (average for each five-year period)", "values": [138453, 298660, 397348, 212898, 207017, 405324, 410442, 259913, 652425, 709036, 650057, 528032]}],
     "yLabel": "Immigrants per year",
-    "text": "The figures add up the port records of 7 to 11 countries and colonies in the Americas, including the United States, Canada, Brazil, Uruguay, and, from 1857, Argentina. The compilers warned that the records have gaps and give only a rough picture.",
+    "text": "The figures add up the port records of 7 to 11 countries and colonies in the Americas, including the United States, Canada, Brazil, Uruguay, and, from 1857, Argentina. The places counted change over time, and only immigrants who were not citizens of the country they entered are counted. The compilers warned that the records have gaps and give only a rough picture.",
     "source": "Imre Ferenczi and Walter F. Willcox, International Migrations, vol. 1, Statistics (New York: National Bureau of Economic Research, 1929), Text Table 1, p. 168"},
 
 "P15": {"type": "pair", "items": [
@@ -403,16 +413,15 @@ STIM = {
 "P16": P([
     "The present advanced humanitarian civilisation of Britain could not but exercise its humane influence to abolish the customs of sati and infanticide, earning the everlasting blessings of the thousands who have been and will be saved thereby. The introduction of English education, with its great, noble, elevating, and civilising literature and advanced science, will for ever remain a monument of good work done in India and a claim to gratitude upon the Indian people. … Britain may well claim credit for law and order, which, however, is as much necessary for the existence of British rule in India as for the good of the Indian people; for freedom of speech and press, and for other benefits flowing therefrom. …",
     "I now come to the faults of the present un-British system of Government, which unfortunately \"more than counterbalances the benefits.\" … These evils have ever since gone on increasing, and more and more counterbalancing the increased produce of the country, making now the evil of the \"bleeding\" and impoverishing drain by the foreign dominion nearly or above £30,000,000 a year in a variety of subtle ways and shapes …",
-    "… all experience and knowledge of statesmanship, of administration or legislation, of high scientific or learned professions, are drained away to England when the persons possessing them give up their service and retire to England. … For every European employed beyond absolute necessity, each native capable of filling the same position is displaced in his own country. … There is, thus, a triple evil—loss of wealth, wisdom, and work to India—under the present system of administration."],
+    "… For every European employed beyond absolute necessity, each native capable of filling the same position is displaced in his own country. … There is, thus, a triple evil—loss of wealth, wisdom, and work to India—under the present system of administration."],
     "Dadabhai Naoroji, Indian merchant and political leader who served in the British Parliament from 1892 to 1895, Poverty and Un-British Rule in India, 1901",
     "Adapted",
     glossary=[{"t": "humane", "d": "kind"},
-              {"t": "sati", "d": "the custom of a widow burning herself on her husband's funeral fire"},
+              {"t": "sati", "d": "the custom in which a widow was burned, or burned herself, on her husband's funeral fire"},
               {"t": "infanticide", "d": "the killing of babies"},
               {"t": "counterbalances", "d": "outweighs"},
               {"t": "impoverishing", "d": "making poor"},
               {"t": "foreign dominion", "d": "rule by a foreign power"},
-              {"t": "statesmanship", "d": "the skill of leading a government"},
               {"t": "native", "d": "here, an Indian"}]),
 }
 

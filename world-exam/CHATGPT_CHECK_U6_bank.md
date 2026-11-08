@@ -1,4 +1,4 @@
-# AP World History: Modern — Unit 6 practice bank (v2026-11-08a)
+# AP World History: Modern — Unit 6 practice bank (v2026-11-08c)
 
 ## PRACTICE (48)
 
@@ -22,30 +22,31 @@ KEY: C. Explanation: Social Darwinists used Darwin's ideas about nature to expla
 
 **U6-P02** [Topic 6.1 · LO A · Skill 5.B · Causation]  In the late 1800s, ideas like Pearson's were most often used to
 - (A) argue that colonies should be prepared for self-government under European guidance
-- (B) argue that Britain should give up colonies to avoid costly wars
+- (B) promote Christian missions that aimed to convert colonized peoples
 - (C) justify European conquest of lands in Africa and Asia
 - (D) persuade European workers to join international socialist groups
 KEY: C. Explanation: Supporters of empire claimed that races they called "inferior" could rightly be ruled or pushed aside by stronger ones. This helped them defend taking land in Africa and Asia in the late 1800s.
-  - why not A: Pearson ranks races as unequal and says colonies are held by "power." Ideas like his were used to justify conquest and lasting rule, not self-government.
-  - why not B: Pearson says the opposite. He claims Britain's strength "depends on" its colonies.
+  - why not A: Pearson says some races are better than others and that colonies are held by "power." People used ideas like his to defend conquest and lasting rule, not self-rule.
+  - why not B: Missions were defended with religious arguments. Pearson's ideas are about racial struggle, not religion.
   - why not D: Pearson wants Britain's workers to back their nation's contest for trade and colonies, not to join workers from other countries.
   - hint: Reread the second paragraph. What does Pearson think Britain must keep doing to stay strong?
 
 **U6-P03** [Topic 6.1 · LO A · Skill 3.B]  In the second paragraph, Pearson argues that Britain must compete for colonies and trade routes mainly because
-- (A) its farms grow more food than its people are able to eat
+- (A) its navy needs coaling stations to protect the sea route to India
 - (B) Christian missionaries working in Africa and Asia need the protection of British forces
-- (C) other European powers had agreed to stay out of Africa
+- (C) British investors need safe places abroad to lend their money
 - (D) its industrial workers depend on overseas markets and imported food
 KEY: D. Explanation: Pearson asks if Britain's "millions of workers" could get their "daily bread" without trade and colonies. He links empire to Britain's factories and food supply.
-  - why not A: Pearson says the opposite. Without trade and colonies, Britain would "give up our food-supply."
+  - why not A: Coaling stations were a real reason for some colonies, but Pearson's second paragraph is about workers' "daily bread" and markets.
   - why not B: Pearson does not mention religion or missionaries. His reasons are about race and the economy.
-  - why not C: Pearson says colonies are held "against equal races" by power. That means rivals were competing, not staying out.
+  - why not C: Pearson's second paragraph says nothing about investors or loans. It is about workers' jobs and food.
   - hint: Look at the questions Pearson asks about Britain's "millions of workers."
 
 
 ### Source P2 (questions U6-P04–U6-P06)
-> In going back to that country [Central Africa] my object is to open up traffic along the banks of the Zambesi, and also to preach the Gospel. The natives of Central Africa are very desirous of trading, but their only traffic is at present in slaves, of which the poorer people have an unmitigated horror: it is therefore most desirable to encourage the former principle, and thus open a way for the consumption of free productions, and the introduction of Christianity and commerce. By encouraging the native propensity for trade, the advantages that might be derived in a commercial point of view are incalculable; nor should we lose sight of the inestimable blessings it is in our power to bestow upon the unenlightened African, by giving him the light of Christianity. Those two pioneers of civilization—Christianity and commerce—should ever be inseparable; and Englishmen should be warned by the fruits of neglecting that principle as exemplified in the result of the management of Indian affairs. By trading with Africa, also, we should at length be independent of slave-labour, and thus discountenance practices so obnoxious to every Englishman. …
+> In going back to that country [Central Africa] my object is to open up traffic along the banks of the Zambesi, and also to preach the Gospel. The natives of Central Africa are very desirous of trading, but their only traffic is at present in slaves, of which the poorer people have an unmitigated horror: it is therefore most desirable to encourage the former principle, and thus open a way for the consumption of free productions, and the introduction of Christianity and commerce. By encouraging the native propensity for trade, the advantages that might be derived in a commercial point of view are incalculable; nor should we lose sight of the inestimable blessings it is in our power to bestow upon the unenlightened African,* by giving him the light of Christianity. Those two pioneers of civilization—Christianity and commerce—should ever be inseparable; and Englishmen should be warned by the fruits of neglecting that principle as exemplified in the result of the management of Indian affairs. By trading with Africa, also, we should at length be independent of slave-labour, and thus discountenance practices so obnoxious to every Englishman. …
 > I beg to direct your attention to Africa;—I know that in a few years I shall be cut off in that country, which is now open; do not let it be shut again! I go back to Africa to try to make an open path for commerce and Christianity; do you carry out the work which I have begun.
+> * Livingstone's phrase "the unenlightened African" reflects the European belief of his time that African cultures were inferior, a view historians reject.
 — David Livingstone, Scottish missionary and explorer, lecture to students and teachers at Cambridge University, England, December 4, 1857 (From Dr. Livingstone's Cambridge Lectures, edited by William Monk (Cambridge, 1858); adapted)
 
 **U6-P04** [Topic 6.1 · LO A · Skill 3.A]  Livingstone's main argument in the passage is that
@@ -53,38 +54,38 @@ KEY: D. Explanation: Pearson asks if Britain's "millions of workers" could get t
 - (B) Africans had little interest in trade and would have to be forced to work for European merchants
 - (C) spreading Christianity and trade together would weaken the slave trade and benefit Africans and Britain
 - (D) missionaries should keep away from trade so that the pursuit of profit would not corrupt their religious work
-KEY: C. Explanation: Livingstone calls Christianity and trade "two pioneers of civilization." He hoped that honest trade in goods would replace the slave trade. He wanted Christianity to spread along with it.
+KEY: C. Explanation: Livingstone calls Christianity and trade "two pioneers of civilization." He wanted trade in goods made by free people to replace the slave trade. He argued that Christianity and this trade should spread together.
   - why not A: Livingstone calls for "commerce and Christianity," not conquest.
   - why not B: Livingstone says the opposite: Africans are "very desirous of trading."
   - why not D: Livingstone says the opposite: Christianity and commerce "should ever be inseparable."
-  - hint: Find the two things Livingstone says "should ever be inseparable."
+  - hint: What two goals does Livingstone name, and how does he think they are connected?
 
-**U6-P05** [Topic 6.3 · LO C · Skill 4.A · Causation]  Livingstone's warning about "the management of Indian affairs" most likely refers to
-- (A) the Company's decision in 1813 to let Christian missionaries work in India
+**U6-P05** [Topic 6.3 · LO C · Skill 4.A]  Livingstone's warning about "the management of Indian affairs" most likely refers to
+- (A) Parliament's law of 1813 that made the East India Company let Christian missionaries work in India
 - (B) Britain's two wars against the Sikh kingdom of the Punjab in the 1840s, which added it to British India
-- (C) Britain's war with China over opium that was grown in India
+- (C) the East India Company's defeat of the Maratha states in 1818, which made it the strongest power in India
 - (D) the recent uprising of Indian soldiers and civilians against the East India Company
-KEY: D. Explanation: In May 1857, Indian soldiers in the Company's army rebelled. The revolt spread across northern India. Livingstone spoke that December. He blamed a company that cared about trade but not about Christianity.
+KEY: D. Explanation: In May 1857, Indian soldiers in the Company's army rebelled, and the revolt spread across northern India. Livingstone spoke that December. He blamed what he saw as a company that cared about trade but not about Christianity. Many rebels, though, feared that the British were attacking their religions.
   - why not A: Letting missionaries in would fit Livingstone's principle. He is warning about what happened when that principle was neglected.
   - why not B: The Sikh wars added land to British India. They were not a sign that Britain had separated trade from religion.
-  - why not C: The Opium War was fought in China, not India.
+  - why not C: Defeating the Marathas was a British success. Livingstone points to a bad "result" that should serve as a warning.
   - hint: Livingstone says trade and Christianity should go together. Where had a British company put trade first, and what had just gone wrong there?
 
 **U6-P06** [Topic 6.2 · LO B · Skill 5.B · Causation]  Livingstone's call to "carry out the work which I have begun" contributed most directly to which of the following later in the 1800s?
 - (A) more missionary and trading activity in Central Africa that helped open the way for colonial rule
-- (B) a decline in European interest in Central Africa that lasted until the early 1900s
+- (B) regular steamship trade on the Zambezi River beginning in the 1860s
 - (C) the end of the slave trade inside Africa by the 1860s because of missionary pressure
 - (D) Britain's decision to leave Central Africa to Portugal, which already held the nearby coasts of Angola and Mozambique
-KEY: A. Explanation: Livingstone died in 1873. Scottish missions and traders then followed his routes to Lake Nyasa. Their work gave Britain a claim to the area. Britain made it a protectorate in 1891.
-  - why not B: European interest in Africa grew sharply. By the 1880s European powers were racing to claim African land.
+KEY: A. Explanation: Livingstone's speech led to a new mission, the Universities' Mission to Central Africa. After he died in 1873, Scottish missionaries and traders followed his routes to Lake Nyasa. British officials later pointed to their work to back Britain's claim to the area. In 1891 Britain made it a protectorate, a land under British control.
+  - why not B: Livingstone's own Zambezi expedition of 1858–1864 found rapids that blocked steamships. The river did not become a steady trade route.
   - why not C: The slave trade inside Africa continued long after the 1860s. The slave market at Zanzibar did not close until 1873.
-  - why not D: In 1890 Britain blocked Portugal's plan to link Angola and Mozambique, and in 1891 it made the lands near Lake Nyasa a British protectorate.
+  - why not D: Britain did not leave the area to Portugal. In 1890 it stopped Portugal's plan to join Angola and Mozambique. In 1891 it took the lands near Lake Nyasa for itself.
   - hint: Livingstone wanted Africa to stay "open" to Europeans. What happened in Africa in the 1880s and 1890s?
 
 
 ### Source P3 (questions U6-P07–U6-P09)
 > [The heads of state of Britain, Germany, Austria-Hungary, Belgium, Denmark, Spain, the United States, France, Italy, the Netherlands, Portugal, Russia, Sweden-Norway, and the Ottoman Empire,] wishing, in a spirit of good and mutual accord, to regulate the conditions most favourable to the development of trade and civilization in certain regions of Africa, and to assure to all nations the advantages of free navigation on the two chief rivers of Africa flowing into the Atlantic Ocean; being desirous, on the other hand, to obviate the misunderstanding and disputes which might in future arise from new acts of occupation … on the coast of Africa; and concerned, at the same time, as to the means of furthering the moral and material well-being of the native populations, have resolved … to meet for those purposes in Conference at Berlin …
-> Article VI. All the Powers exercising sovereign rights or influence in the aforesaid territories* bind themselves to watch over the preservation of the native tribes, and to care for the improvement of the conditions of their moral and material well-being, and to help in suppressing slavery, and especially the slave trade. They shall, without distinction of creed or nation, protect and favour all religions, scientific, or charitable institutions, and undertakings created and organized for the above ends, or which aim at instructing the natives and bringing home to them the blessings of civilization. … Christian missionaries, scientists and explorers, with their followers, property, and collections, shall likewise be the objects of especial protection. …
+> Article VI. All the Powers exercising sovereign rights or influence in the aforesaid territories* bind themselves to watch over the preservation of the native tribes, and to care for the improvement of the conditions of their moral and material well-being, and to help in suppressing slavery, and especially the slave trade. They shall, without distinction of creed or nation, protect and favour all religious, scientific, or charitable institutions, and undertakings created and organized for the above ends, or which aim at instructing the natives and bringing home to them the blessings of civilization. … Christian missionaries, scientists and explorers, with their followers, property, and collections, shall likewise be the objects of especial protection. …
 > Article XXXIV. Any Power which henceforth takes possession of a tract of land on the coasts of the African Continent outside of its present possessions, or which, being hitherto without such possessions, shall acquire them, as well as the Power which assumes a Protectorate there, shall accompany the respective act with a notification thereof, addressed to the other Signatory Powers of the present Act, in order to enable them, if need be, to make good any claims of their own.
 > Article XXXV. The Signatory Powers of the present Act recognize the obligation to insure the establishment of authority in regions occupied by them on the coasts of the African Continent sufficient to protect existing rights, and, as the case may be, freedom of trade and of transit under the conditions agreed upon.
 > * Article VI applied to the Congo River basin and the nearby lands named earlier in the treaty.
@@ -103,13 +104,13 @@ KEY: C. Explanation: The powers wanted to avoid "disputes" over new land claims.
 
 **U6-P08** [Topic 6.2 · LO B · Skill 2.C]  A historian studying how Africans experienced the partition of Africa would find the General Act limited mainly because
 - (A) no African states took part in making the agreement
-- (B) it was written before any European power held land in Africa
+- (B) it was a secret agreement that was not published until long after the partition
 - (C) it ignores the slave trade, which many Africans wanted ended
-- (D) it was drawn up by Britain and France without German participation
-KEY: A. Explanation: The first paragraph lists the states at the conference. It names European powers, the United States, and the Ottoman Empire. No African state is on the list. So the act shows what outsiders wanted, not what Africans wanted.
-  - why not B: Britain, France, and Portugal already held colonies in Africa in 1885. The act speaks of powers' "present possessions."
+- (D) it deals with the Congo River basin but not with any other part of Africa
+KEY: A. Explanation: The first paragraph lists the states at the conference. It names European powers, the United States, and the Ottoman Empire. No African state is on the list. So the act records the plans of outside powers. It does not record African views.
+  - why not B: The act was published and printed in official collections such as this one. Its problem is who made it, not secrecy.
   - why not C: Article VI says the powers will "help in suppressing slavery, and especially the slave trade."
-  - why not D: The preamble says the conference met at the invitation of Germany's government, in Berlin.
+  - why not D: Article VI covers the Congo basin, but Articles XXXIV and XXXV set rules for claims on "the coasts of the African Continent."
   - hint: Reread the first paragraph. Whose plans does the document record?
 
 **U6-P09** [Topic 6.2 · LO B · Skill 3.D]  Article VI's promise to watch over "the preservation of the native tribes" was most directly contradicted by which development in the decades after 1885?
@@ -117,11 +118,11 @@ KEY: A. Explanation: The first paragraph lists the states at the conference. It 
 - (B) forced labor and violence used to collect rubber in King Leopold II's Congo Free State
 - (C) British naval patrols that stopped slave ships off the coast of East Africa
 - (D) European explorers' mapping of the Congo River and its main branches
-KEY: B. Explanation: The Berlin Conference accepted Leopold II's claim to the Congo. His agents and companies did not protect the Congolese. They forced people to gather rubber. They took hostages, beat people, and killed them.
+KEY: B. Explanation: Around the time of the Berlin Conference, the European powers recognized King Leopold II's control of the Congo. His agents and companies forced people to gather rubber. They took hostages, beat people, and killed them. These acts went against the act's promise to protect "the native tribes."
   - why not A: Mission schools fit Article VI, which promises to protect groups "instructing the natives."
   - why not C: Stopping slave ships fits Article VI's promise to "help in suppressing slavery."
   - why not D: Article VI promises to protect explorers. Mapping rivers does not go against it.
-  - hint: Which choice shows Europeans harming the people that Article VI promised to protect?
+  - hint: Three choices describe things Article VI promised to protect or support. Find those three first.
 
 
 ### Source P4 (questions U6-P10–U6-P12)
@@ -151,7 +152,7 @@ KEY: A. Explanation: The proclamation lists missionary books, laws about widows 
 
 **U6-P11** [Topic 6.3 · LO C · Skill 3.C · Comparison]  Which of the following best describes how Source 2 responds to the complaints in Source 1?
 - (A) It promises not to interfere with religion and to respect the princes' rights.
-- (B) It agrees to repeal the laws against sati and widow remarriage and to bring back the old customs.
+- (B) It agrees to repeal the laws that banned sati and allowed widows to remarry.
 - (C) It admits that the army's cartridges had been greased with animal fat.
 - (D) It announces that the East India Company will continue to govern India.
 KEY: A. Explanation: Source 1 says the British were attacking Indians' religion and taking princes' lands. Source 2 answers both points. Officials must not interfere with religion. The Crown wants "no extension" of its lands.
@@ -165,7 +166,7 @@ KEY: A. Explanation: Source 1 says the British were attacking Indians' religion 
 - (B) European governments taking direct control of colonies that private companies had governed
 - (C) European powers dividing Africa among themselves at the Berlin Conference
 - (D) a decline in British power in South Asia after the uprising of 1857
-KEY: B. Explanation: In 1858 the British Crown took India from the East India Company. Other governments did the same. The Dutch government took over the Dutch East India Company's lands. Belgium later took the Congo from King Leopold II.
+KEY: B. Explanation: In 1858 the British Crown took India from the East India Company. Other governments did the same. In 1800 the Dutch government took over the Dutch East India Company's lands in Indonesia. Germany took German East Africa from a private company in 1891, and Britain took the Royal Niger Company's lands in 1900.
   - why not A: India gained no self-government. The Crown appointed a viceroy to rule in its name.
   - why not C: Source 2 is about India, and it came decades before the Berlin Conference. It describes a change in who ruled an existing colony.
   - why not D: British power in India grew stronger after 1858. The Crown now ruled directly.
@@ -176,15 +177,16 @@ KEY: B. Explanation: In 1858 the British Crown took India from the East India Co
 > We conceive that the empire belongs to the Chinese, and not to the Tartars; the food and raiment found therein belong to the Chinese, and not to the Tartars; the men and women inhabiting this region are subjects and children of the Chinese, and not of the Tartars. But, alas! ever since the Ming dynasty lost its influence, the Manchoos availed themselves of the opportunity to throw China into confusion, and deprive the Chinese of their empire …
 > … China is the head, Tartary is the feet; China is the land of spirits, Tartary the land of demons. Why may China be deemed the land of spirits? Because the true Spirit, the great God, our heavenly Father, made heaven and earth, the land and the sea (and the Chinese honour him); therefore from of old China has been termed the land of spirits. …
 > … The Chinese have a form peculiarly their own; but these Manchoos have commanded them to shave the hair round their heads, and wear a long tail behind, thus causing the Chinese to assume the appearance of brute animals. The Chinese have a dress peculiar to themselves, but these Manchoos have caused them to wear knobs on their caps, with Tartar clothes … thus causing the Chinese to forget their origin. … Whenever drought and inundations occur, the government manifests no compassion; but quietly sees our people scattered abroad or dying of hunger … Offices are to be obtained by bribes, crimes are to be bought off with money, rich fellows engross all authority …
-> … According to our calculations, the Manchoos cannot be above a hundred thousand, and we Chinese amount to more than fifty millions; but for fifty millions to be ruled over by a hundred thousand is disgraceful.
+> … According to our calculations, the Manchoos cannot be above a hundred thousand, and we Chinese amount to more than fifty millions;* but for fifty millions to be ruled over by a hundred thousand is disgraceful.
+> * Both numbers are far too low. China had more than 400 million people at the time, and the Manchus numbered a few million.
 — Yang Xiuqing, called the "Eastern King," a top leader of the Taiping Rebellion in China, proclamation issued in 1852 as the Taiping army marched north (English translation printed in Augustus F. Lindley, Ti-Ping Tien-Kwoh: The History of the Ti-Ping Revolution, vol. 1 (London, 1866); adapted)
 
 **U6-P13** [Topic 6.3 · LO C · Skill 3.A]  The proclamation's main argument is that
 - (A) China should adopt Western machines and weapons to resist the British
 - (B) the Qing emperor was a good ruler who had been misled by bad officials
-- (C) the Manchus were foreign rulers who had no right to govern the Chinese
+- (C) the Manchus were foreign rulers who had no right to govern the Chinese people
 - (D) land should be divided equally among China's peasant families
-KEY: C. Explanation: The proclamation says the empire "belongs to the Chinese, and not to the Tartars." The Tartars are the Manchus. It points to Manchu rules on hair and clothing. It also says a few Manchus rule many Chinese.
+KEY: C. Explanation: The proclamation says the empire "belongs to the Chinese, and not to the Tartars." By "Tartars" it means the Manchus. It points to Manchu rules on hair and clothing. It also says a few Manchus rule many Chinese.
   - why not A: The proclamation says nothing about Western machines or the British. Its target is the Manchus.
   - why not B: The proclamation attacks the whole Manchu government, not only a few officials.
   - why not D: The Taiping did later issue plans for sharing land, but this proclamation is about Manchu rule.
@@ -193,22 +195,22 @@ KEY: C. Explanation: The proclamation says the empire "belongs to the Chinese, a
 **U6-P14** [Topic 6.3 · LO C · Skill 4.B · Causation]  The Taiping Rebellion grew in the context of
 - (A) Qing weakness after defeat in the Opium War, along with poverty and natural disasters
 - (B) Japan's invasion of northern China soon after the Meiji Restoration
-- (C) famines caused by the spread of new crops from the Americas, such as maize and sweet potatoes
+- (C) a sharp rise in rice prices after the Qing began selling grain to Britain
 - (D) a Qing decision to stop collecting land taxes from peasants in the south
 KEY: A. Explanation: After losing the Opium War (1839–1842), the Qing looked weak. Southern China also suffered from crowding, floods, and hunger. Hong Xiuquan's Taiping movement drew on this anger and on Christian ideas he had read in missionary pamphlets.
   - why not B: Japan did not go to war with China until 1894, decades after the rebellion began in 1850.
-  - why not C: Crops from the Americas, such as maize and sweet potatoes, added to China's food supply. They helped the population grow.
+  - why not C: China did not ship grain to Britain. Its main exports were tea and silk, and silver was flowing out to pay for opium.
   - why not D: Peasants in the south complained of heavy taxes and greedy officials, as the proclamation says.
   - hint: The proclamation complains about how the government handled "drought and inundations." What else had weakened the Qing by 1850?
 
 **U6-P15** [Topic 6.3 · LO C · Skill 5.B · Causation]  Which of the following was a result of the Qing government's fight against the Taiping?
-- (A) The Qing government asked Japan to send troops to defeat the rebel armies
-- (B) The rebels' victory brought the Qing dynasty to an end by the late 1860s
+- (A) Western powers pulled their merchants out of China's ports until the fighting ended
+- (B) The Qing gave peasants in the south ownership of the lands they farmed
 - (C) The Qing ended the civil service exams in order to win back the support of the scholar-gentry
 - (D) Regional armies led by Chinese officials gained power at the court's expense
 KEY: D. Explanation: The court needed new armies to beat the Taiping. Chinese officials such as Zeng Guofan and Li Hongzhang raised them in the provinces. The rebels were crushed by 1864. But power moved from the court to these regional leaders.
-  - why not A: The Qing did not ask Japan for help. They relied on Chinese provincial armies and some Western-trained forces.
-  - why not B: The Qing defeated the Taiping in 1864 and ruled until 1912.
+  - why not A: Western merchants stayed in the treaty ports. Some Western officers even led troops for the Qing, such as the "Ever Victorious Army."
+  - why not B: The Qing did not give land to peasants. Taiping plans for sharing land were never carried out either.
   - why not C: The exams were not ended until 1905. The Taiping held their own exams, but the Qing kept theirs.
   - hint: The Qing won, but who did most of the fighting for them?
 
@@ -226,31 +228,31 @@ KEY: D. Explanation: The court needed new armies to beat the Taiping. Chinese of
 - (C) if they became farmers and gave up their old ways, white settlers would leave
 - (D) if they danced and lived peacefully, the dead would return and a new world would come
 KEY: D. Explanation: Wovoka tells his followers to dance, not to fight, and to keep working for the whites for now. He promises that "the dead are all alive again" and that a new world will bring "no more sickness."
-  - why not A: Wovoka says "You must not fight." Some Lakota later believed that special shirts would stop bullets, but that idea is not in this message.
+  - why not A: Wovoka says "You must not fight." In 1890, before this message, some Lakota believed that special "ghost shirts" would stop bullets. That idea is not in this message.
   - why not B: The message says nothing about moving or about new land from the government.
   - why not C: Wovoka tells his followers to dance and bathe, not to give up their ways.
   - hint: What does Wovoka say will happen "when the time comes"?
 
-**U6-P17** [Topic 6.3 · LO C · Skill 5.A · Comparison]  The religious movement described in the message was most similar to which of the following?
+**U6-P17** [Topic 6.3 · LO C · Skill 5.A · Comparison]  Wovoka's promise that the dead would return and the world would be made new was most similar to the promise of which movement?
 - (A) the 1857 uprising in India, which began when soldiers refused cartridges they believed broke religious rules
-- (B) the Xhosa cattle-killing movement, which promised that ancestors would rise and the British would be driven out
+- (B) the Xhosa cattle-killing movement in southern Africa in 1856–1857
 - (C) the Taiping Rebellion, whose leader mixed Christian ideas with Chinese traditions in a plan to overthrow the Qing dynasty
 - (D) Samori Touré's long war against the French in West Africa, fought with modern firearms
 KEY: B. Explanation: Both movements arose after outsiders had taken land and herds. In both, a prophet promised that the dead would return and the world would be made new if people obeyed sacred commands.
-  - why not A: The uprising in India was an armed revolt by soldiers. Wovoka tells his followers not to fight.
-  - why not C: The Taiping also used Christian ideas, but they raised huge armies to conquer China. Wovoka's followers were told to dance, not fight.
-  - why not D: Samori fought a military campaign. Wovoka's movement relied on prayer and dance.
-  - hint: Look for the movement that, like Wovoka's, relied on a prophet's promise instead of armies.
+  - why not A: The 1857 uprising began over cartridges and religious rules. It was an armed revolt, not a promise that the dead would return.
+  - why not C: The Taiping also used Christian ideas, but their leader promised a new kingdom won by armies, not the return of the dead.
+  - why not D: Samori fought a long military campaign. He did not promise that the dead would return.
+  - hint: Think about which movements were led by prophets, and what each prophet promised.
 
 **U6-P18** [Topic 6.2 · LO B · Skill 4.B · Causation]  The message was written in the context of
-- (A) the Indian Removal Act, which first forced the Plains nations to move west of the Mississippi River
-- (B) a slowdown in westward settlement in the decades after the U.S. Civil War
+- (A) the Indian Removal Act of 1830, which forced the Cherokee and other Southeastern nations to move west of the Mississippi River
+- (B) the Little Bighorn battle of 1876, which ended the Plains wars with a victory for Native nations
 - (C) U.S. expansion that had confined many Plains peoples to reservations and destroyed the buffalo herds
-- (D) the U.S. government's decision to stop sending agents and soldiers to reservations
+- (D) the Dawes Act of 1887, which returned the buffalo-hunting lands to the Plains nations
 KEY: C. Explanation: By the 1880s, settlers, railroads, and the U.S. Army had pushed Plains peoples onto reservations, and hunters had killed almost all the buffalo. Many people found hope in Wovoka's promise of a renewed world.
-  - why not A: The Removal Act of 1830 forced the Cherokee and other Southeastern nations west. By 1890 the Plains peoples faced reservations and the loss of the buffalo.
-  - why not B: Settlement sped up after the Civil War, helped by railroads and the Homestead Act.
-  - why not D: The government kept agents and soldiers on reservations. In 1890 it sent more troops to stop the Ghost Dance among the Lakota.
+  - why not A: The Removal Act came 60 years earlier and moved Southeastern nations, not Plains peoples. By 1890 the Plains peoples faced reservations and the loss of the buffalo.
+  - why not B: Lakota and Cheyenne warriors won at the Little Bighorn in 1876, but the army soon forced them onto reservations.
+  - why not D: The Dawes Act broke up reservation land into family plots and opened the rest to settlers. It took land away.
   - hint: Wovoka promises a new world. What had gone wrong in the old one for Native peoples by 1890?
 
 
@@ -259,7 +261,7 @@ KEY: C. Explanation: By the 1880s, settlers, railroads, and the U.S. Army had pu
 > Article the First. The chiefs of the Confederation of the United tribes of New Zealand, and the separate and independent chiefs who have not become members of the Confederation, cede to Her Majesty the Queen of England, absolutely and without reservation, all the rights and powers of sovereignty which the said confederation or individual chiefs respectively exercise or possess …
 > Article the Second. Her Majesty, the Queen of England, confirms and guarantees to the chiefs and tribes of New Zealand, and to the respective families and individuals thereof the full, exclusive, and undisturbed possession of their lands and estates, forests, fisheries, and other properties which they may collectively or individually possess, so long as it is their wish and desire to retain the same in their possession; but the chiefs of the United tribes and the individual chiefs yield to Her Majesty the exclusive right of pre-emption over such lands as the proprietors thereof may be disposed to alienate, at such prices as may be agreed upon …
 > Article the Third. In consideration thereof Her Majesty, the Queen of England, extends to the natives of New Zealand her Royal protection, and imparts to them all the rights and privileges of British subjects.
-— Treaty of Waitangi, English-language text, signed at Waitangi, New Zealand, on February 6, 1840, by William Hobson for the British Crown and by Māori chiefs (As printed in T. Lindsay Buick, The Treaty of Waitangi (Wellington, 1914); adapted)
+— Treaty of Waitangi, English-language text prepared for the British Crown by William Hobson, the Crown's representative, February 1840; Māori chiefs began signing the treaty at Waitangi, New Zealand, on February 6, 1840 (As printed in T. Lindsay Buick, The Treaty of Waitangi (Wellington, 1914); adapted)
 
 **U6-P19** [Topic 6.2 · LO B · Skill 2.B]  According to the preamble, Britain sought the treaty mainly because
 - (A) a growing number of British subjects had settled in New Zealand
@@ -268,27 +270,27 @@ KEY: C. Explanation: By the 1880s, settlers, railroads, and the U.S. Army had pu
 - (D) Britain needed a naval base to protect its trade with China
 KEY: A. Explanation: The preamble gives the reason. Many British subjects "have already settled in New Zealand." More settlers were still coming from Europe and Australia.
   - why not B: Some chiefs had asked the British king for protection years earlier, but the preamble gives settlement as the reason.
-  - why not C: New Zealand's gold rushes began in the 1860s, and the preamble does not mention gold.
+  - why not C: The preamble does not mention gold. New Zealand's first small gold rush came in 1852, years after the treaty.
   - why not D: The preamble says nothing about ships, bases, or China.
-  - hint: Find the words "in consequence of" in the first paragraph.
+  - hint: What reason does the preamble give for making this treaty?
 
 **U6-P20** [Topic 6.2 · LO B · Skill 2.C]  A historian studying what the Māori chiefs believed they were agreeing to would find this English text limited because
 - (A) most chiefs signed a Māori-language version that used different words for what they gave up
 - (B) the English text was written many years after the chiefs signed the treaty, by settlers who wanted land
 - (C) the treaty does not say anything about who would own Māori land
 - (D) Hobson had no authority to make an agreement for the British Crown
-KEY: A. Explanation: More than 500 chiefs signed a copy written in Māori, and only about 40 signed the English copy. The Māori copy gave Britain the right to govern but promised the chiefs their full chiefly authority. So many chiefs did not believe they had given up their power.
+KEY: A. Explanation: More than 500 chiefs signed copies written in the Māori language. Only 39 signed the English copy. The Māori copy gave Britain the right to govern, but it also promised the chiefs they would keep their full power as chiefs. So many chiefs did not think they had given up their power.
   - why not B: The English text was written in 1840, when the treaty was signed.
   - why not C: Article the Second deals directly with Māori lands, forests, and fisheries.
-  - why not D: The preamble says the Queen had empowered Hobson to make the treaty.
+  - why not D: The preamble says the Queen appointed an official "properly authorised" to make the treaty. Hobson was that official.
   - hint: A limitation is a reason to be careful. Think about the language of this text and the language most chiefs read.
 
-**U6-P21** [Topic 6.3 · LO C · Skill 5.B · Causation]  The right of "pre-emption" in Article the Second most directly contributed to which development in New Zealand?
+**U6-P21** [Topic 6.3 · LO C · Skill 5.B · Causation]  The treaty's terms on land, including the Crown's right of "pre-emption," most directly contributed to which development in New Zealand?
 - (A) a rapid rise in the Māori population as settlers brought new crops, livestock, and Western medicine
 - (B) disputes over land sales that led to wars between Māori and British forces in the mid-1800s
 - (C) a ban on European settlement on the North Island to protect Māori farms
 - (D) Māori chiefs' freedom to sell land to French and American settlers
-KEY: B. Explanation: Under pre-emption, only the Crown could buy Māori land, and settlers kept wanting more of it. Disputes over land sales led to the New Zealand Wars (1845–1872), after which the government seized millions of acres.
+KEY: B. Explanation: Under pre-emption, only the Crown could buy Māori land, and settlers kept wanting more of it. Disputes over land sales led to the New Zealand Wars (1845–1872), during which the government seized millions of acres.
   - why not A: The Māori population fell sharply in the 1800s because of disease, war, and loss of land.
   - why not C: Settlers poured into the North Island, and conflict over land grew there.
   - why not D: Pre-emption meant only the Crown could buy Māori land. Chiefs could not sell freely to others.
@@ -316,51 +318,51 @@ KEY: D. Explanation: Multatuli says the government forces the farmer to grow cer
 - (A) criticism of colonial rule inside the Netherlands in the mid-1800s
 - (B) the views of Javanese farmers, given in their own words
 - (C) the exact amounts of coffee, sugar, and indigo that Java exported to Europe each year
-- (D) how the Dutch East India Company governed Java in the 1600s
+- (D) the reasons the Dutch government first set up the system in 1830
 KEY: A. Explanation: Multatuli had been a Dutch official. His novel caused an uproar in the Netherlands. It shows how some Dutch people criticized colonial rule. It does not give the farmers' own words or exact numbers.
   - why not B: The farmers do not speak in the passage. A former Dutch official speaks for them.
   - why not C: The passage gives no export figures. It is a novel that makes a moral argument.
-  - why not D: The passage describes the system of the 1800s, not the 1600s.
+  - why not D: Multatuli describes how the system worked and why it was unjust, not why the government started it.
   - hint: Who wrote the novel, and who were its first readers?
 
 **U6-P24** [Topic 6.2 · LO B · Skill 3.A · Causation]  According to the passage, the Dutch were able to control Java's farmers with few European officials because they
-- (A) brought large numbers of Dutch settler families to Java to farm the land themselves
-- (B) converted most of the Javanese to Christianity so that they would obey
+- (A) brought in Chinese and Indian contract workers to replace Javanese farmers
+- (B) posted Dutch soldiers in the villages to make farmers grow the export crops on time
 - (C) let the Dutch East India Company keep its own army on the island
 - (D) paid Javanese nobles a share of the profits to make their people grow the crops
-KEY: D. Explanation: Multatuli says "the Javanese obeys his chiefs," so the Dutch gave the chiefs "a part of the gain." Ruling through local nobles like this was common in colonies with few Europeans.
-  - why not A: Few Dutch people settled in Java. Multatuli says the Dutch worked through Javanese chiefs.
-  - why not B: Most Javanese were Muslims and stayed Muslim. The passage says nothing about religion.
+KEY: D. Explanation: Multatuli says "the Javanese obeys his chiefs." So the Dutch gave the chiefs "a part of the gain." The chiefs then made their people grow the crops. Many colonies with few Europeans were ruled through local leaders like this.
+  - why not A: Multatuli describes Javanese farmers growing the crops themselves, under orders passed down through their chiefs.
+  - why not B: Multatuli says the Dutch worked through the chiefs, whom "the Javanese obeys," not through soldiers in the fields.
   - why not C: The Dutch East India Company was shut down in 1799. By the 1800s the Dutch government ruled Java.
-  - hint: Reread the end of the first paragraph. How did the foreigners "win the chiefs"?
+  - hint: Reread the end of the first paragraph. Whom do the Javanese obey?
 
 
 ### Source P9 (questions U6-P25–U6-P27)
-> [The La Lulanga Company] … employs a considerable number of armed men equally termed "forest guards." These men are quartered throughout the lower course of the Lulongo River, and I found that, as with the A.B.I.R., the sole duty they performed was to compel by force the collection of india-rubber or the supplies which each factory needed. As the district in which the La Lulanga Society carries on these operations is one that had already been subjected to still more comprehensive handling by two of the large Concession Companies, who only abandoned it when, as one of their agents informed me, it was nearly exhausted, the stock of rubber vines in it to-day is drawing to an end, and it is only with great difficulty that the natives are able to produce the quantity sufficient to satisfy their local masters. … Murder and mutilation were charged against several of them by name by the natives of certain townships close to the head-quarters of this Company, who sought me in the hope that I might help them. These people in several cases said that they had not complained elsewhere because they had felt that it was useless. As long as the rubber tax imposed upon them endured in its present compulsory form with the sanction of the authorities, they said it was idle to draw attention to acts which were but incidental to its collection. …
+> [The La Lulanga Company] … employs a considerable number of armed men equally termed "forest guards." These men are quartered throughout the lower course of the Lulongo River, and I found that, as with the A.B.I.R., the sole duty they performed was to compel by force the collection of india-rubber or the supplies which each factory needed. As the district in which the La Lulanga Society carries on these operations is one that had already been subjected to still more comprehensive handling by two of the large Concession Companies, who only abandoned it when, as one of their agents informed me, it was nearly exhausted, the stock of rubber vines in it to-day is drawing to an end, and it is only with great difficulty that the natives are able to produce the quantity sufficient to satisfy their local masters. … Murder and mutilation were charged against several of them [the guards] by name by the natives of certain townships close to the head-quarters of this Company, who sought me in the hope that I might help them. These people in several cases said that they had not complained elsewhere because they had felt that it was useless. As long as the rubber tax imposed upon them endured in its present compulsory form with the sanction of the authorities, they said it was idle to draw attention to acts which were but incidental to its collection. …
 > In the case of the A.B.I.R. Society, it is said that a portion of the profits are paid into the public revenues of the Congo Government (who hold certain shares in the undertaking), and that these figure annually in the Budget as "produit de porte-feuille." In making this explanation to me, an agent of one of the Upper Congo trading Companies said the term should more correctly be "produit de porte-fusil," and to judge from the large numbers of armed men I saw employed, the correction was not inapposite.
-> … The population of the Lower Congo has been gradually reduced by the unchecked ravages of this, as yet, undiagnosed and incurable disease [sleeping sickness] … The natives certainly attribute their alarming death-rate to this as one of the inducing causes, although they attribute, and I think principally, their rapid decrease in numbers to other causes as well.
+> … The population of the Lower Congo has been gradually reduced by the unchecked ravages of this, as yet, undiagnosed and incurable disease [sleeping sickness], and as one cause of the seemingly wholesale diminution of human life which I everywhere observed in the regions revisited, a prominent place must be assigned to this malady. The natives certainly attribute their alarming death-rate to this as one of the inducing causes, although they attribute, and I think principally, their rapid decrease in numbers to other causes as well.
 — Roger Casement, British consul (diplomat) in the Congo Free State, report to the British government on a journey up the Congo River in 1903, published by the British Parliament in 1904 (Adapted)
 
-**U6-P25** [Topic 6.4 · LO D · Skill 3.D]  Casement's comments on sleeping sickness in the last paragraph most directly qualify which claim?
-- (A) that rubber companies paid part of their profits into the Congo Government's budget
+**U6-P25** [Topic 6.8 · LO I · Skill 3.D]  Casement's comments on sleeping sickness in the last paragraph most directly qualify which claim?
+- (A) that the Congo's population was falling in the regions Casement visited
 - (B) that the forest guards' main duty was to force people to collect rubber
-- (C) that the rubber vines in some districts were nearly used up
-- (D) that violence by company guards was the only cause of the Congo's falling population
-KEY: D. Explanation: Casement says disease also reduced the population, though he and the Congolese think other causes mattered more. So more than one cause was at work. That qualifies, or limits, a claim that violence alone was to blame.
-  - why not A: Casement reports this himself in the second paragraph. The disease evidence does not limit it.
+- (C) that the Congolese saw sleeping sickness as one cause of their high death rate
+- (D) that forced rubber collection alone explains the Congo's falling population
+KEY: D. Explanation: Casement says sleeping sickness was an important cause of the Congo's population loss. He adds that the Congolese blamed other causes even more. So the population fell for more than one reason. That qualifies, or limits, a claim that violence alone was to blame.
+  - why not A: The disease evidence supports this claim. Casement says the population was "gradually reduced."
   - why not B: Casement says this was the guards' "sole duty." The disease evidence does not limit it.
-  - why not C: Casement reports this in the first paragraph. The disease evidence does not limit it.
+  - why not C: Casement supports this claim. He says the natives see the disease as "one of the inducing causes."
   - hint: To qualify a claim means to limit it. Which claim does the evidence about disease limit?
 
 **U6-P26** [Topic 6.4 · LO D · Skill 4.A · Causation]  The demand for rubber that drove events in the Congo came mainly from
-- (A) textile mills in Britain that used rubber as a substitute for cotton during the shortages of the 1860s
-- (B) industries in Europe and the United States that used rubber for tires, belts, and electric wires
+- (A) European navies that used rubber to waterproof the wooden hulls of their warships and supply boats
+- (B) factories in Europe and the United States that made tires, belts, and wire coverings
 - (C) Chinese merchants who resold rubber goods to buyers across East Asia
-- (D) plantations in Southeast Asia that bought wild rubber to plant new trees
+- (D) Arab and Swahili merchants who shipped rubber to markets around the Indian Ocean
 KEY: B. Explanation: Factories needed rubber for bicycle and car tires, machine belts, and the covering on electric wires. At first, wild rubber from the Amazon and the Congo filled this need. Later, plantations in Asia took over.
-  - why not A: Rubber did not replace cotton in cloth making. Its main uses were in tires, hoses, and insulation.
+  - why not A: By the 1890s navies built steel ships. Rubber's main buyers made tires, belts, hoses, and wire coverings.
   - why not C: Most Congo rubber went to Antwerp and on to European and American factories.
-  - why not D: Southeast Asian plantations grew trees from Brazilian seeds. Their rubber later competed with wild rubber from the Congo.
+  - why not D: Arab and Swahili traders in the eastern Congo dealt mainly in ivory and enslaved people. Congo rubber went west to Antwerp, for European and American factories.
   - hint: Think about new industrial products of the late 1800s. Which ones needed rubber?
 
 **U6-P27** [Topic 6.2 · LO B · Skill 5.B · Causation]  Reports such as Casement's contributed most directly to
@@ -371,47 +373,48 @@ KEY: B. Explanation: Factories needed rubber for bicycle and car tires, machine 
 KEY: A. Explanation: Casement's report and campaigns by E. D. Morel and others caused an outcry in Europe and the United States. In 1908 Belgium took the Congo away from Leopold II and made it a Belgian colony.
   - why not B: The Congo did not become independent until 1960.
   - why not C: France had the right to buy the Congo if Leopold ever sold it, but Belgium took it over instead.
-  - why not D: Forced labor continued in many colonies. An international agreement against it did not come until 1930.
+  - why not D: Forced labor went on in many colonies for decades. No treaty banned it by 1910.
   - hint: Public anger can push a government to act. Which choice shows a government stepping in?
 
 
 ### Source P10 (questions U6-P28–U6-P30)
-> Most of the railways in this continent have been constructed by English or American engineers, with British capital, some for account of joint-stock companies in London; others for Government account, in which case also the money came from England, in the shape of loans. … The first in the Argentine Republic was from B. Ayres [Buenos Aires] to the suburb of Flores, constructed by Mr. Bragg, in 1853, for account of the B. Ayres Government. …
+> Most of the railways in this continent have been constructed by English or American engineers, with British capital, some for account of joint-stock companies in London; others for Government account, in which case also the money came from England, in the shape of loans. …
 > Great Southern of Buenos Ayres built by Peto and Betts in 1865, has since been prolonged, and represents with the branches a total outlay of 2,000,000l. sterling, for 270 miles. It is managed by Mr. Cooper and owned by an English company …
-> [In Peru] No interest was paid from 1825 till after the fortunate discovery of guano at the Chincha Islands (1842). … In 1852 Gen. Mendiburu was sent to London to effect a Guano loan … all secured by guano … The Chincha Islands on being measured were reported to contain … guano, worth 76 millions sterling … In 1870 a railway loan for 12 millions sterling was launched by Schroders … The coupons are two years unpaid, and the stock of guano is running very low. The bonds are at one-tenth of their written value.
+> [In Peru] Between 1822 and 1825 three 6 per cent loans were contracted in London … No interest was paid from 1825 till after the fortunate discovery of guano at the Chincha Islands (1842).* … In 1852 Gen. Mendiburu was sent to London to effect a Guano loan … all secured by guano … The Chincha Islands on being measured were reported to contain … guano, worth 76 millions sterling … In 1870 a railway loan for 12 millions sterling was launched by Schroders … The coupons are two years unpaid, and the stock of guano is running very low. The bonds are at one-tenth of their written value.
+> * Peruvians had used guano as fertilizer for centuries. What was new around 1840 was selling it to Europe.
 — Michael G. Mulhall, Irish-born journalist who ran an English-language newspaper in Buenos Aires, The English in South America, 1878 (Adapted)
 
 **U6-P28** [Topic 6.5 · LO E · Skill 3.A]  The passage best supports which claim about South America in the 1800s?
 - (A) British investors paid for many of its railways, often through loans to governments.
-- (B) South American governments built their railways without any foreign money.
+- (B) South American governments paid for most of their railways with their own tax money.
 - (C) Spanish and Portuguese companies built and owned most of its railways.
-- (D) British investors refused to lend to South American governments because of the risk of default.
+- (D) American investors put up most of the money, while British firms sent the engineers.
 KEY: A. Explanation: Mulhall says most railways were built "with British capital." Some were built by companies in London. Others were built by governments with loans from England.
-  - why not B: Mulhall says most railways were built "with British capital."
+  - why not B: Mulhall says that even government railways were paid for "in the shape of loans" from England.
   - why not C: Mulhall names "English or American engineers" and an "English company," not Spanish or Portuguese firms.
-  - why not D: Mulhall describes British loans to Peru and other governments.
+  - why not D: Mulhall says the money was "British capital." He names "English or American engineers."
   - hint: Where does Mulhall say the money for South America's railways came from?
 
 **U6-P29** [Topic 6.4 · LO D · Skill 1.B]  Peru's guano trade, described in the last paragraph, is best understood as an example of
-- (A) a plantation economy that depended on enslaved Africans to grow sugar for export
+- (A) a free-trade treaty in which Peru and Britain ended taxes on each other's goods
 - (B) an export economy built on one natural resource that was sold to industrializing countries
 - (C) a mercantilist system in which Spain controlled the trade of its American colonies through licensed ports
 - (D) a government plan to build factories that would replace goods imported from Europe
 KEY: B. Explanation: Guano was a rich fertilizer. Farmers in Britain and other countries bought huge amounts of it. Peru's government came to depend on guano sales. It also borrowed money against them.
-  - why not A: Peru ended slavery in 1854. Much of the guano was dug by Chinese contract workers.
+  - why not A: Mulhall describes loans backed by guano sales, not a trade treaty.
   - why not C: Peru had won independence from Spain in the 1820s.
-  - why not D: Peru exported raw guano and used the money to borrow and buy goods. It did not build factories to replace imports.
+  - why not D: The passage describes loans backed by guano exports. It does not describe a plan to build factories to replace imported goods.
   - hint: Who bought Peru's guano, and how did Peru's government use the money it earned?
 
 **U6-P30** [Topic 6.5 · LO E · Skill 5.A · Comparison]  The situation Mulhall describes in Peru in the 1870s was most similar to
-- (A) Japan's use of large foreign loans to build railways and industry, which turned it into a British colony
-- (B) the Ottoman Empire's success in paying off its foreign loans in the 1870s
-- (C) China's tribute system, in which neighboring rulers sent gifts to the emperor
+- (A) Japan's industrial growth, which its government paid for mainly with taxes on its own farmers
+- (B) the Ottoman Tanzimat reforms, which reorganized the empire's laws, courts, and schools
+- (C) China's Self-Strengthening Movement, in which Qing officials built arsenals and shipyards
 - (D) Egypt's heavy debts to European lenders, which led to British control of Egypt in 1882
 KEY: D. Explanation: Like Peru, Egypt borrowed from European lenders against its exports. In Egypt's case, the export was cotton. When Egypt could not pay, Britain and France took over its money matters. Britain then occupied Egypt in 1882.
-  - why not A: Japan was never a colony. It built industry under its own government.
-  - why not B: The Ottoman government stopped paying its debts in 1875, and European lenders took over part of its tax collection in 1881.
-  - why not C: Tribute was a show of respect to the emperor. It was not borrowing from foreign banks.
+  - why not A: Japan paid for growth mostly with its own taxes and avoided heavy foreign debt, so it kept control of its affairs.
+  - why not B: The Tanzimat were reforms of Ottoman law and government. They were not loans backed by an export, as in Peru.
+  - why not C: Self-strengthening was a reform program run by Qing officials. It did not lead to foreign control through debt.
   - hint: Look for another country that borrowed against its exports and then could not repay.
 
 
@@ -428,7 +431,7 @@ KEY: D. Explanation: Like Peru, Egypt borrowed from European lenders against its
 - (C) Qing officials seized and destroyed British merchants' opium at Guangzhou
 - (D) the Qing government raised its taxes on British cotton cloth sold in China
 KEY: C. Explanation: In 1839 Lin Zexu seized and destroyed more than 20,000 chests of British opium at Guangzhou. Britain sent warships, and the First Opium War lasted until this treaty in 1842.
-  - why not A: British ambassadors were turned away in 1793 and 1816, but no war followed. The war came after the opium was destroyed in 1839.
+  - why not A: In 1793 the emperor met Britain's ambassador but turned down his requests. In 1816 another ambassador was sent away without meeting the emperor. No war followed either time. The war came after the opium was destroyed in 1839.
   - why not B: Rights for missionaries came in later treaties, such as the Treaty of Tianjin in 1858.
   - why not D: The war was about opium, not taxes on cloth.
   - hint: Which product were British merchants smuggling into China in the 1830s?
@@ -436,29 +439,29 @@ KEY: C. Explanation: In 1839 Lin Zexu seized and destroyed more than 20,000 ches
 **U6-P32** [Topic 6.5 · LO E · Skill 3.A]  Article V shows that Britain wanted to
 - (A) give a small group of licensed Chinese merchants control of trade with Britain
 - (B) limit British merchants to trading at the single port of Guangzhou
-- (C) end the Qing rule limiting foreigners to trade with licensed Chinese firms
+- (C) end the rule that British merchants must trade through licensed Chinese firms
 - (D) make the Hong Merchants pay for the opium that Qing officials destroyed
-KEY: C. Explanation: Under the old Canton System, foreigners could trade only at Guangzhou. They could deal only with a few licensed firms, the Cohong. Article V ended that rule. British merchants could now trade with anyone.
+KEY: C. Explanation: Under the old Canton System, foreigners could trade only at Guangzhou. They could deal only with a few licensed firms, the Cohong. Article V ended that rule for British merchants. They could now trade with "whatever persons they please" at the open ports.
   - why not A: That describes the old system that Article V ended.
   - why not B: Article II opens five ports to British merchants, not one.
-  - why not D: Article V says China's government must pay the Hong Merchants' debts to British merchants. It does not deal with the opium.
+  - why not D: Article V is about whom British merchants may trade with. It says nothing about opium. (Payment for the destroyed opium came in Article IV, which is not shown.)
   - hint: What were British merchants "compelled" to do before the treaty?
 
 **U6-P33** [Topic 6.5 · LO E · Skill 5.A · Comparison]  The terms of the treaty were most similar to those of
 - (A) the Berlin Conference's rules, which set out how European powers could claim African coasts
 - (B) the Treaty of Paris of 1783, in which Britain recognized the independence of the United States
 - (C) the Ottoman decree of 1839, which promised safety of life and property to the sultan's Christian and Muslim subjects alike
-- (D) the treaties Western powers forced on Japan in the 1850s, which opened ports and set low tariffs
-KEY: D. Explanation: Western powers forced treaties on Japan after Commodore Perry's visit in 1853–1854. Like the Treaty of Nanjing, they opened ports and set low tariffs. They also gave foreigners special rights. People in Asia called them "unequal treaties."
+- (D) the treaties Western powers forced on Japan in the 1850s, which opened ports and fixed its tariffs
+KEY: D. Explanation: Western powers forced treaties on Japan after Commodore Perry's visit in 1853–1854. Like the Treaty of Nanjing, they opened ports to foreign trade and took away some control over tariffs. Later treaties with both countries gave foreigners special legal rights. People in Asia called them "unequal treaties."
   - why not A: The Berlin rules were agreed among outside powers about Africa. The Treaty of Nanjing was forced on China after it lost a war.
   - why not B: That treaty recognized a new nation. The Treaty of Nanjing took land and trade rights from China.
-  - why not C: The Ottoman decree was a reform issued by the sultan for his own subjects, not a treaty forced on him by a foreign power.
+  - why not C: The sultan made this decree himself, for his own people. No foreign power forced it on him after a war.
   - hint: What made the Treaty of Nanjing "unequal"? Look for a choice with the same features.
 
 
 ### Source P12 (questions U6-P34–U6-P36)
-[IMAGE] Henri Meyer, French illustrator, "En Chine: Le gâteau des Rois et… des Empereurs" ("In China: The Cake of Kings and… of Emperors"), front-page cartoon in Le Petit Journal, a Paris newspaper, January 16, 1898. Bibliothèque nationale de France. Public domain image via Wikimedia Commons.
-Caption shown to students: Five figures sit around a large pie labeled "Chine" (French for China). From left to right they are Queen Victoria of Britain, Kaiser Wilhelm II of Germany, Tsar Nicholas II of Russia, a woman representing France, and a man representing Japan. Victoria, Wilhelm, and Nicholas hold knives, and Wilhelm stabs his into the pie. Two slices are labeled "Kiao-Tchéou" and "Port-Arthur." Behind them, a man in the dress of a Qing official throws up his hands. The official is drawn as an ugly stereotype, which reflects European attitudes toward the Chinese at the time.
+[IMAGE] Henri Meyer, French illustrator, "En Chine: Le gâteau des Rois et… des Empereurs" ("In China: The Cake of Kings and… of Emperors"), cartoon on the front page of the illustrated supplement of Le Petit Journal, a Paris newspaper, January 16, 1898. Bibliothèque nationale de France. Public domain image via Wikimedia Commons.
+Caption shown to students: Five figures gather around a large pie labeled "Chine" (French for China). From left to right they are Queen Victoria of Britain, Kaiser Wilhelm II of Germany, Tsar Nicholas II of Russia, a woman representing France, and a man representing Japan. Victoria, Wilhelm, and Nicholas hold knives, and Wilhelm stabs his into the pie. Two slices are labeled "Kiao-Tchéou" and "Port-Arthur." Behind them, a man in the dress of a Qing official throws up his hands. He is drawn with exaggerated features and long fingernails, an insulting stereotype of Chinese people that was common in European cartoons of the time.
 Description: A brightly colored drawing. In front, a huge round pie or cake with "CHINE" written across it sits on a table, already marked into slices. On the left, an old queen with a small crown and a lace veil holds a knife and rests her ringed hand on the pie. Next to her, a scowling man in a spiked German helmet drives a knife straight down into the slice labeled "Kiao-Tchéou." Beside him, a bearded man in a white cap holds a knife near the slice labeled "Port-Arthur." Behind him, a young woman in a red cap with a red, white, and blue ribbon rests her hand on his shoulder and looks down at the pie. On the right, a man with a topknot rests his chin on his hand and studies the pie; a sword lies on the table in front of him. Standing behind them all, a man in a Qing official's hat and robe, with a long braid, raises both hands with long fingernails in alarm.
 
 **U6-P34** [Topic 6.5 · LO E · Skill 2.B]  The cartoonist most likely intended to show that
@@ -469,7 +472,7 @@ Description: A brightly colored drawing. In front, a huge round pie or cake with
 KEY: A. Explanation: The pie is China. The rulers of Britain, Germany, and Russia hold knives over it. The figure for Japan studies its share. The Qing official can only throw up his hands.
   - why not B: The Qing official throws up his hands in alarm. The pie is being cut by foreign rulers, not handed out by China.
   - why not C: Russia's Tsar Nicholas II sits at the table with a knife, cutting along with the others.
-  - why not D: The figure for France holds no knife. The French cartoonist shows Germany and Britain as the most aggressive.
+  - why not D: The figure for France holds no knife. The French cartoonist shows Germany, stabbing the pie, as the most aggressive.
   - hint: What are the people at the table doing to the pie, and how does the man behind them react?
 
 **U6-P35** [Topic 6.5 · LO E · Skill 4.B · Causation]  The cartoon was drawn in response to
@@ -478,7 +481,7 @@ KEY: A. Explanation: The pie is China. The rulers of Britain, Germany, and Russi
 - (C) foreign powers' seizure of Chinese ports after China's defeat by Japan in 1895
 - (D) a Qing decision to sell parts of China to foreign powers to pay for railways
 KEY: C. Explanation: Japan beat China in 1895. Then other powers rushed to grab Chinese ports. Germany seized Jiaozhou Bay in 1897. Russian warships moved into Port Arthur that December, and Russia leased it in 1898.
-  - why not A: The first treaty ports opened in 1842. The labels Kiao-Tchéou and Port-Arthur refer to ports taken in 1897 and 1898.
+  - why not A: The first treaty ports opened in 1842. The labels Kiao-Tchéou and Port-Arthur refer to ports that Germany and Russia moved into in late 1897.
   - why not B: France won control of Vietnam in 1885. The cartoon shows rulers taking pieces of China itself.
   - why not D: The Qing did not sell territory. Foreign powers forced China to lease ports to them.
   - hint: The labels on the pie name two ports. When and how did foreign powers get them?
@@ -491,47 +494,47 @@ KEY: C. Explanation: Japan beat China in 1895. Then other powers rushed to grab 
 KEY: B. Explanation: Many Chinese were angry about foreign ports, railways, and missionaries. The Boxers attacked foreigners and Chinese Christians. In 1900, troops from eight foreign nations marched into Beijing to crush them.
   - why not A: Reformers in 1898 proposed many changes, but the empress dowager Cixi stopped them after about 100 days. China had no parliament then.
   - why not C: Opium shipments from India continued until an agreement in 1907 began to phase them out.
-  - why not D: The Qing did not ally with any power. In 1900 the court backed the Boxers against foreigners.
+  - why not D: The Qing court did not ally with Britain. In 1900 it backed the Boxers against the foreign powers.
   - hint: How might ordinary Chinese react to foreigners taking ports and building railways in China?
 
 
 ### Source P13 (questions U6-P37–U6-P39)
-> The principals in the contract system of emigration were foreigners. During the nineteenth century the African slave system was terminated after having proved not only socially unsatisfactory but economically unsound. As a result of slave emancipation or in anticipation of it, an attempt was made by the exploiters of the sparsely populated "New World" to replace the African slave by the Asiatic indentured labourer—Indian or Chinese. In China the system was established after 1845. Since that date foreigners have at different periods gone to China to engage the services of Chinese under written contract to work for a number of years in lands beyond the seas—the terms of the original contract having penal sanctions in the country into which the coolies* have been introduced. … The coolies have not infrequently been subjected to serious wrongs …
+> The principals in the contract system of emigration were foreigners. … As a result of slave emancipation or in anticipation of it, an attempt was made by the exploiters of the sparsely populated "New World" to replace the African slave by the Asiatic indentured labourer—Indian or Chinese. In China the system was established after 1845. Since that date foreigners have at different periods gone to China to engage the services of Chinese under written contract to work for a number of years in lands beyond the seas—the terms of the original contract having penal sanctions in the country into which the coolies* have been introduced. … The coolies have not infrequently been subjected to serious wrongs …
 > … By the credit-ticket system also was made possible the large emigration of Southern Chinese to U.S.A., Canada and Australasia which commenced during the fifties of last century and continued until it was gradually restricted or prohibited by the legislatures of these English-speaking states. …
 > … The majority of the Chinese emigrants have been natives of the Kwangtung Province, so that although their numbers are insignificant when compared with the total population of China the effects on the social institutions of the south of this almost exclusively male emigration may have been considerable.
 > * "Coolie" was a term used in the 1800s and early 1900s for Asian laborers, especially contract laborers. It is now considered offensive.
-— Persia Crawford Campbell, Australian historian, Chinese Coolie Emigration to Countries within the British Empire, 1923 (Adapted)
+— Persia Crawford Campbell, Australian historian, Chinese Coolie Emigration to Countries within the British Empire, 1923 (Adapted; the second paragraph comes from a page earlier in the book)
 
-**U6-P37** [Topic 6.6 · LO G · Skill 3.B · Causation]  According to Campbell, the contract system of Chinese emigration arose mainly because
+**U6-P37** [Topic 6.6 · LO G · Skill 3.A · Causation]  According to Campbell, the contract system of Chinese emigration arose mainly because
 - (A) the Qing government sent its subjects abroad to earn wages and pay taxes for the empire
-- (B) Chinese farmers wanted to learn new farming methods in the Americas
+- (B) Chinese merchants in Southeast Asia sent for relatives to help run family businesses
 - (C) plantation owners in the Americas sought new workers as slavery came to an end
 - (D) factory owners in Britain needed more workers for their textile mills
-KEY: C. Explanation: Campbell says slavery was ending. So owners in the "New World" tried to replace enslaved Africans with Asian contract workers. Chinese and Indian workers went to places such as Cuba, Peru, and Trinidad.
+KEY: C. Explanation: Campbell says slavery was ending. So owners in the "New World" tried to replace enslaved Africans with Asian contract workers. Chinese workers went to places such as Cuba and Peru. Indian workers went to British colonies such as Trinidad.
   - why not A: Campbell says "the principals" in the system "were foreigners," not the Qing government.
-  - why not B: Campbell describes contracts to work, not trips to learn.
+  - why not B: Campbell says the contract system was run by foreigners who hired workers for "lands beyond the seas," not by Chinese merchant families.
   - why not D: Campbell points to the "New World," not to British factories.
-  - hint: Find the sentence that begins "As a result of slave emancipation."
+  - hint: Reread the first paragraph. What was ending in the "New World," and who needed workers?
 
 **U6-P38** [Topic 6.7 · LO H · Skill 5.B · Causation]  Campbell's statement that the emigration was "almost exclusively male" suggests which effect on the communities that migrants left behind?
-- (A) Whole families left together, so many villages in southern China were emptied.
+- (A) Clan elders in southern China forbade young men to go overseas.
 - (B) Women took on more work and responsibility in families whose men were overseas.
 - (C) Southern China's cities grew quickly as village women moved there to replace the men.
-- (D) Most villages lost contact with the men who had gone abroad.
+- (D) Village leaders in southern China took over the farms of men who went overseas.
 KEY: B. Explanation: When men went abroad, wives and mothers often ran the farm and the household. Many families also came to depend on the money that the men sent home.
-  - why not A: If almost all migrants were men, families did not leave together.
-  - why not C: Most families stayed in their villages, where women ran farms and homes. Money from abroad often paid for new village houses and schools.
-  - why not D: Many migrants sent letters and money home, and some returned.
-  - hint: If most migrants were men, who was left in charge at home?
+  - why not A: Campbell describes a large emigration of men from Kwangtung, so young men were not kept at home.
+  - why not C: Campbell says nothing about women moving to cities. Wives and mothers usually stayed and took on more work at home.
+  - why not D: Families usually kept their land. Wives and parents worked it, often with money the men sent home.
+  - hint: If most migrants were men, how would daily life change in their home villages?
 
-**U6-P39** [Topic 6.7 · LO H · Skill 4.B · Causation]  The limits on Chinese migration that Campbell mentions in the second paragraph are best illustrated by
+**U6-P39** [Topic 6.7 · LO H · Skill 1.B]  The limits on Chinese migration that Campbell mentions in the second paragraph are best illustrated by
 - (A) Britain's ban on Chinese workers in its Southeast Asian colonies
 - (B) the Chinese Exclusion Act, passed by the United States in 1882
 - (C) the Qing government's encouragement of emigration to the Americas
 - (D) Peru's grant of citizenship to Chinese contract workers in the 1850s
 KEY: B. Explanation: Several English-speaking countries limited Chinese migration. The United States banned Chinese laborers in 1882. Canada made Chinese immigrants pay a head tax from 1885. Australian colonies passed similar laws.
   - why not A: Britain welcomed Chinese workers and merchants in colonies such as Singapore and Malaya.
-  - why not C: The Qing officially banned emigration until 1893.
+  - why not C: Campbell describes limits set by the countries that received Chinese migrants. Choice C is about China's own policy, not a limit set by those countries.
   - why not D: Chinese contract workers in Peru had few rights and were often badly abused.
   - hint: Campbell names three English-speaking places. Which choice describes one of them?
 
@@ -539,7 +542,7 @@ KEY: B. Explanation: Several English-speaking countries limited Chinese migratio
 ### Source P14 (questions U6-P40–U6-P42)
 **Average Yearly Number of Immigrants Arriving in the Americas from Other Continents, 1841–1900** (bar chart; y = Immigrants per year)
 - Immigrants per year (average for each five-year period): 1841– 45 = 138453, 1846– 50 = 298660, 1851– 55 = 397348, 1856– 60 = 212898, 1861– 65 = 207017, 1866– 70 = 405324, 1871– 75 = 410442, 1876– 80 = 259913, 1881– 85 = 652425, 1886– 90 = 709036, 1891– 95 = 650057, 1896– 1900 = 528032
-The figures add up the port records of 7 to 11 countries and colonies in the Americas, including the United States, Canada, Brazil, Uruguay, and, from 1857, Argentina. The compilers warned that the records have gaps and give only a rough picture.
+The figures add up the port records of 7 to 11 countries and colonies in the Americas, including the United States, Canada, Brazil, Uruguay, and, from 1857, Argentina. The places counted change over time, and only immigrants who were not citizens of the country they entered are counted. The compilers warned that the records have gaps and give only a rough picture.
 Source: Imre Ferenczi and Walter F. Willcox, International Migrations, vol. 1, Statistics (New York: National Bureau of Economic Research, 1929), Text Table 1, p. 168
 
 **U6-P40** [Topic 6.6 · LO F · Skill 3.A]  Which of the following is best supported by the chart?
@@ -556,23 +559,23 @@ KEY: C. Explanation: In 1841–1845 about 138,000 immigrants arrived each year. 
 **U6-P41** [Topic 6.6 · LO F · Skill 5.B · Causation]  The rise in immigration to the Americas after 1880 shown in the chart was caused mainly by
 - (A) the end of the U.S. Civil War, which reopened the American South to immigrants
 - (B) the arrival of large numbers of Chinese contract workers in the United States
-- (C) laws in several Latin American countries that banned immigration from Asia and recruited Europeans
+- (C) the opening of the Panama Canal, which made the voyage to South America faster
 - (D) population growth and rural poverty in Europe, combined with cheaper steamship travel
 KEY: D. Explanation: Europe's population was growing fast. Many peasants lost land or work as farming changed. Steamships made the trip faster and cheaper. So millions left for jobs in the United States, Argentina, Brazil, and Canada.
   - why not A: The Civil War ended in 1865. That helps explain the rise in 1866–70, not the bigger jump after 1880.
   - why not B: The United States banned Chinese laborers in 1882. Most of the rise came from European migrants.
-  - why not C: Latin American countries did recruit Europeans, but they also took in Asian contract workers. Asian bans were not the main cause.
+  - why not C: The Panama Canal did not open until 1914, long after this rise.
   - hint: Think about both sides of the ocean. What pushed people out of Europe, and what made the trip easier?
 
 **U6-P42** [Topic 6.7 · LO H · Skill 5.B · Causation]  Which of the following was a common result of the migration shown in the chart?
-- (A) European governments forced emigrants to return home after a few years abroad.
-- (B) Immigrants formed ethnic neighborhoods in cities such as New York and Buenos Aires.
-- (C) Immigrants seldom kept in touch with the villages they had left behind.
-- (D) Cities in the Americas grew more slowly than rural areas because of immigration.
+- (A) Immigrants to the Americas came mostly from Asia rather than from Europe.
+- (B) Many immigrants formed ethnic neighborhoods in cities such as New York and Buenos Aires.
+- (C) Immigrants gave up their home languages and customs within a few years of arriving.
+- (D) Nativist movements in the United States faded as more immigrants arrived.
 KEY: B. Explanation: Newcomers often settled near people from their home country or region. Neighborhoods like Little Italy in New York and La Boca in Buenos Aires had their own churches, newspapers, and shops.
-  - why not A: Many migrants did go home, but by choice. Governments did not force them.
-  - why not C: Many immigrants sent letters and money home and helped relatives come later.
-  - why not D: Immigration helped cities such as New York, Chicago, and Buenos Aires grow very fast.
+  - why not A: Most immigrants to the Americas in these years came from Europe, especially Italy, Germany, Ireland, and eastern Europe.
+  - why not C: Many immigrants kept their languages, religions, and customs, often in their own neighborhoods.
+  - why not D: Nativist groups grew stronger. Some pushed for limits on immigrants, such as the Chinese Exclusion Act of 1882.
   - hint: Where did many newcomers choose to live, and why?
 
 
@@ -592,10 +595,10 @@ KEY: B. Explanation: Newcomers often settled near people from their home country
 
 **U6-P43** [Topic 6.7 · LO H · Skill 3.C · Comparison]  In Source 2, the example of the young man who wants to become a lawyer refers to which part of Source 1?
 - (A) the ten-year halt on the entry of Chinese laborers
-- (B) the ban on Chinese becoming citizens in Section 14
+- (B) Section 14's ban on Chinese immigrants becoming citizens
 - (C) the definition of "Chinese laborers" in Section 15
-- (D) the claim that Chinese laborers endanger "good order"
-KEY: B. Explanation: Section 14 says no court "shall admit Chinese to citizenship." So a Chinese man cannot become a citizen. The writer says that is why he cannot become a lawyer, even after an American education.
+- (D) the preamble's claim that Chinese laborers endanger "good order"
+KEY: B. Explanation: Section 14 says no court "shall admit Chinese to citizenship." Courts were where immigrants became citizens. So a Chinese immigrant could not become a citizen. The writer says that is why he cannot become a lawyer, even after an American education.
   - why not A: The young man came "when a lad" and already lives in the United States. The entry ban is not his problem.
   - why not C: Section 15 defines laborers. The young man's problem is that he cannot become a citizen.
   - why not D: The writer does not answer the preamble's claim in this example.
@@ -618,7 +621,7 @@ KEY: D. Explanation: Times were hard in the 1870s. White workers' groups in Cali
 - (C) laws in Australian colonies that restricted immigration from China
 - (D) Japan's agreement to send contract farm workers to Hawaii
 KEY: C. Explanation: Australian colonies also passed laws in the 1880s to keep out Chinese immigrants. After 1901, the new nation of Australia kept this "White Australia" policy.
-  - why not A: Indenture brought Asian workers into a colony. Source 1 kept them out.
+  - why not A: Indenture brought Asian workers into a colony. Source 1 kept Chinese laborers out.
   - why not B: Argentina tried to attract immigrants, while Source 1 shut a group out.
   - why not D: Japan helped its people go abroad to work. Source 1 blocked people from coming in.
   - hint: Focus on the purpose of Source 1. Then check the purpose of each choice.
@@ -627,10 +630,10 @@ KEY: C. Explanation: Australian colonies also passed laws in the 1880s to keep o
 ### Source P16 (questions U6-P46–U6-P48)
 > The present advanced humanitarian civilisation of Britain could not but exercise its humane influence to abolish the customs of sati and infanticide, earning the everlasting blessings of the thousands who have been and will be saved thereby. The introduction of English education, with its great, noble, elevating, and civilising literature and advanced science, will for ever remain a monument of good work done in India and a claim to gratitude upon the Indian people. … Britain may well claim credit for law and order, which, however, is as much necessary for the existence of British rule in India as for the good of the Indian people; for freedom of speech and press, and for other benefits flowing therefrom. …
 > I now come to the faults of the present un-British system of Government, which unfortunately "more than counterbalances the benefits." … These evils have ever since gone on increasing, and more and more counterbalancing the increased produce of the country, making now the evil of the "bleeding" and impoverishing drain by the foreign dominion nearly or above £30,000,000 a year in a variety of subtle ways and shapes …
-> … all experience and knowledge of statesmanship, of administration or legislation, of high scientific or learned professions, are drained away to England when the persons possessing them give up their service and retire to England. … For every European employed beyond absolute necessity, each native capable of filling the same position is displaced in his own country. … There is, thus, a triple evil—loss of wealth, wisdom, and work to India—under the present system of administration.
+> … For every European employed beyond absolute necessity, each native capable of filling the same position is displaced in his own country. … There is, thus, a triple evil—loss of wealth, wisdom, and work to India—under the present system of administration.
 — Dadabhai Naoroji, Indian merchant and political leader who served in the British Parliament from 1892 to 1895, Poverty and Un-British Rule in India, 1901 (Adapted)
 
-**U6-P46** [Topic 6.8 · LO I · Skill 3.B]  Naoroji's main argument in the passage is that
+**U6-P46** [Topic 6.8 · LO I · Skill 3.A]  Naoroji's main argument in the passage is that
 - (A) British rule harmed India mainly by ending traditional customs such as sati
 - (B) India would be better off if Britain sent more British officials to govern it
 - (C) India's poverty came mainly from the customs and rulers it had before 1750
@@ -643,25 +646,25 @@ KEY: D. Explanation: Naoroji first lists benefits. These include the end of sati
 
 **U6-P47** [Topic 6.8 · LO I · Skill 2.B]  Naoroji's praise of British education and law in the first paragraph was most likely meant to
 - (A) show British readers that he judged fairly before criticizing their rule
-- (B) persuade Indians to take up arms against British rule
-- (C) convince the British Parliament to end English-language education in Indian schools
+- (B) show Indian readers that protest against British rule was no longer needed
+- (C) argue that British reforms had already ended poverty in India
 - (D) persuade Indian princes to support British rule in return for honors
 KEY: A. Explanation: Naoroji wrote in English and had served in Parliament. He was speaking to British readers. By admitting the benefits first, he seemed fair. That made his charge that British rule was "un-British" harder to brush aside.
-  - why not B: Naoroji asks for fair treatment under British rule. He does not call for revolt.
-  - why not C: Naoroji calls English education a "monument of good work." He wants it kept.
+  - why not B: Naoroji goes on to protest the "drain" and the loss of jobs. He clearly thought protest was still needed.
+  - why not C: Naoroji's book is about India's poverty. He calls the drain "impoverishing," which means it was making India poorer.
   - why not D: Naoroji writes about the Indian people as a whole and the costs of British rule, not about rewards for princes.
   - hint: Who was Naoroji trying to convince? Why might a writer start with praise?
 
 **U6-P48** [Topic 6.8 · LO I · Skill 3.D]  Which of the following, if true, would most directly support Naoroji's argument about the "drain"?
 - (A) New universities opened in Bombay, Calcutta, and Madras in 1857, teaching in the English language.
-- (B) Taxes paid by Indians covered the salaries and pensions of British officials living in Britain.
+- (B) Taxes collected from Indians covered the salaries and pensions of British officials living in Britain.
 - (C) British courts in India followed written codes of law that applied across the colony.
 - (D) Indian merchants traded with East Africa and Southeast Asia across the Indian Ocean.
 KEY: B. Explanation: Naoroji's "drain" meant wealth leaving India and not coming back. Payments to Britain for officials' pay, pensions, and other costs were a big part of it. They were called the "Home Charges."
   - why not A: New universities fit Naoroji's list of benefits. They do not show wealth leaving India.
   - why not C: Written law codes fit his praise of "law and order." They do not show wealth leaving India.
   - why not D: Indian Ocean trade by Indian merchants does not show wealth being drained to Britain.
-  - hint: A drain takes something out. Which choice shows money leaving India?
+  - hint: Naoroji's "drain" means wealth leaving India and not coming back. Test each choice: does it show that?
 
 ## TIMED EXAM (25 questions, 25 minutes)
 
@@ -707,7 +710,7 @@ Our loved Egyptian night?'
 - (B) Western nations had a duty to govern and improve peoples they considered less civilized.
 - (C) Industrial nations needed colonies as markets for their extra factory goods.
 - (D) Colonies were needed as naval bases and coaling stations to protect sea trade.
-KEY: B. Explanation: Kipling calls empire a "burden" that colonizers carry for others. They end famine, cure sickness, and lead people "toward the light." This idea is often called the civilizing mission.
+KEY: B. Explanation: Kipling calls empire a "burden" that colonizers carry for others. He claims they end famine, cure sickness, and lead people "toward the light." This idea is called the civilizing mission.
   - A: Incorrect. That is Social Darwinism. Kipling describes thankless service, not a struggle in which weaker peoples die out.
   - B: Correct. The poem calls empire a hard duty to "serve your captives' need."
   - C: Incorrect. Kipling says colonizers work "to seek another's profit," not their own.
@@ -717,12 +720,12 @@ KEY: B. Explanation: Kipling calls empire a "burden" that colonizers carry for o
 - (A) Americans debating whether to rule the Philippines after the Spanish-American War
 - (B) British leaders deciding whether to take over India from the East India Company
 - (C) German leaders preparing to claim colonies in Africa after the Berlin Conference
-- (D) Japanese leaders planning how to govern Taiwan after defeating China in 1895
+- (D) British leaders deciding whether to go to war with the Boer republics in South Africa
 KEY: A. Explanation: Filipinos fought against U.S. rule from 1899 to about 1902. Kipling's poem urged Americans to keep the islands and rule their "new-caught" peoples. Its subtitle was "The United States and the Philippine Islands."
   - A: Correct. The United States took the Philippines from Spain in 1898, and Americans were arguing over whether to keep them.
   - B: Incorrect. The British Crown took over India in 1858, about 40 years before the poem.
   - C: Incorrect. Germany claimed its African colonies in the 1880s. The poem speaks of "new-caught" peoples in 1899.
-  - D: Incorrect. Japan did take Taiwan in 1895, but Kipling addresses "the White Man."
+  - D: Incorrect. The poem is about ruling newly conquered peoples, not a war against other white settlers. The Boer War also began later, in October 1899.
 
 **U6-E03** [Topic 6.1 · LO A · Skill 3.D]  Which of the following, if true, would most directly challenge Kipling's claim that colonizers worked "To seek another's profit, / And work another's gain"?
 - (A) Missionaries in many colonies opened schools and hospitals that served local people free of charge.
@@ -748,8 +751,8 @@ KEY: B. Explanation: Kipling says colonizers worked for other people's good. Evi
 - (B) ask Britain to pay China for the opium that Qing officials had destroyed
 - (C) persuade the British ruler to stop British merchants from selling opium in China
 - (D) invite British merchants to trade at more Chinese ports in exchange for peace
-KEY: C. Explanation: Lin argues that Britain bans opium at home, so it should not let its merchants sell this "poisonous drug" in China. He asks the queen to have the opium plant "plucked up by the very root."
-  - A: Incorrect. Lin praises China for letting foreigners buy tea and silk. He wants the opium trade stopped, not trade in general.
+KEY: C. Explanation: Lin asks the queen to stop British merchants from selling this "poisonous drug" in China. He also asks her to have the opium plant in India "plucked up by the very root."
+  - A: Incorrect. Lin hints that China could hold back its tea and rhubarb, but he does not announce a cutoff. His main request is that the queen stop the opium trade.
   - B: Incorrect. It was Britain that later made China pay for the destroyed opium, in the Treaty of Nanjing.
   - C: Correct. Lin asks the queen to stop the trade and to have the opium plant pulled up in her Indian lands.
   - D: Incorrect. Lin wants foreigners to obey Chinese law. He does not offer them more ports.
@@ -757,61 +760,61 @@ KEY: C. Explanation: Lin argues that Britain bans opium at home, so it should no
 **U6-E05** [Topic 6.5 · LO E · Skill 4.B · Causation]  The trade Lin describes is best understood in the context of
 - (A) a growing flow of silver from Britain into China that was making the Qing rich
 - (B) Britain's ban on Chinese tea to protect tea grown on plantations in India
-- (C) British efforts to pay for Chinese tea with opium grown in British-ruled India
+- (C) British efforts to pay for Chinese tea with opium that was grown in British-ruled India
 - (D) a Qing policy of trading tea for large amounts of British factory goods
-KEY: C. Explanation: Britain bought huge amounts of Chinese tea. But China wanted few British goods. So the East India Company grew opium in India. Traders smuggled it into China, and silver flowed out of China to pay for it.
+KEY: C. Explanation: Britain bought huge amounts of Chinese tea, but China bought few British goods. Indian farmers grew opium under an East India Company monopoly. Private traders smuggled it into China. Silver from opium sales then helped pay for tea, and silver flowed out of China.
   - A: Incorrect. Before about 1820, silver flowed into China to pay for tea. By the 1830s opium sales had reversed the flow, and silver was leaving China.
   - B: Incorrect. Britain kept buying huge amounts of Chinese tea. Tea from India did not compete seriously until later in the 1800s.
-  - C: Correct. Opium from India, as Lin notes, let British traders buy tea without paying in silver.
-  - D: Incorrect. Lin says China has little need for British goods. That is why British traders turned to opium.
+  - C: Correct. Lin notes that the opium came from British-ruled India. Money from selling it in China helped British traders pay for tea, so they shipped less silver from Britain.
+  - D: Incorrect. China bought few British factory goods in the 1830s. That is why British traders turned to opium.
 
 **U6-E06** [Topic 6.5 · LO E · Skill 3.B]  In the second paragraph, Lin supports his argument mainly by
 - (A) repeating the proposal of some Qing officials to make opium legal and tax it
 - (B) arguing that China needs British goods as much as Britain needs Chinese tea
 - (C) offering lower taxes on British cotton cloth if the opium trade comes to an end
-- (D) pointing out that Britain bans opium at home while its merchants sell it abroad
-KEY: D. Explanation: Lin says that because opium "is prohibited with the utmost strictness" in Britain, the British must know it is harmful. So, he argues, they should not send it to China.
+- (D) claiming that Britain bans opium at home while its own merchants sell it in China
+KEY: D. Explanation: Lin claims that opium "is prohibited with the utmost strictness" in Britain. In fact, opium was legal and sold openly in Britain at the time. Lin uses his claim to argue that the British know opium is harmful and should not send it to China.
   - A: Incorrect. Some Qing officials had suggested making opium legal, but Lin wants it banned.
-  - B: Incorrect. Lin says the opposite. China does not need foreign goods, but foreigners could not "exist a single day" without China's tea and rhubarb.
+  - B: Incorrect. Lin says foreign countries could not "exist a single day" without China's tea and rhubarb. He presents Britain as depending on China, not the reverse.
   - C: Incorrect. Lin offers no deal on taxes. He appeals to the queen's sense of fairness.
-  - D: Correct. Lin uses Britain's own ban to show that the British know opium is harmful.
+  - D: Correct. Lin says opium is "prohibited with the utmost strictness" in Britain and uses this claim to show that the British know it is harmful.
 
 
 ### Source X3 (questions U6-E07–U6-E09)
-[IMAGE] Edward Linley Sambourne, British cartoonist, "The Rhodes Colossus: Striding from Cape Town to Cairo," cartoon of Cecil Rhodes, British businessman and prime minister of the Cape Colony, in Punch, a London humor magazine, December 10, 1892. Public domain image via Wikimedia Commons.
+[IMAGE] Edward Linley Sambourne, British cartoonist, "The Rhodes Colossus: Striding from Cape Town to Cairo," cartoon of Cecil Rhodes, prime minister of the Cape Colony in southern Africa, in Punch, a London humor magazine, December 10, 1892. Public domain image via Wikimedia Commons.
 Caption shown to students: A giant man stands with his legs spread wide over a map of Africa. One foot rests at the southern tip of the continent and the other in the far north. He wears a jacket, straps, and tall boots, and a rifle hangs from his shoulder. He holds a hat high in one hand and stretches out his other arm. A thin line, like a wire, runs from his hands down toward the ground near each foot. The island of Madagascar appears at lower right.
-Description: A pen drawing seen from slightly below. A huge man with a mustache stands over Africa, which is drawn like a map seen from above, with clouds around his chest. His left boot is planted at the southern tip of the continent and his right foot in the far north. He wears a jacket buttoned to the neck, a belt with a pouch, shoulder straps, and laced boots that reach his knees. A rifle is slung over his shoulder and hangs down by his leg. His right arm is raised high, holding a hat, and his left arm points out to the side. A thin line runs from each hand down to the ground near each foot, like a wire strung between the two ends of the continent. Madagascar is drawn at the lower right. The artist's signature is at the bottom right.
+Description: A pen drawing seen from slightly below. A huge man with a mustache stands over Africa, which is drawn like a map seen from above, with clouds around his chest. His right boot is planted at the southern tip of the continent and his left foot in the far north. He wears a jacket, a belt with a pouch, shoulder straps, and laced boots that reach his knees. A rifle is slung over his shoulder and hangs down by his leg. His right arm is raised high, holding a hat, and his left arm points out to the side. A thin line runs from each hand down to the ground near each foot, like a wire strung between the two ends of the continent. Madagascar is drawn at the lower right. The artist's signature is at the bottom right.
 
 **U6-E07** [Topic 6.2 · LO B · Skill 4.B · Causation]  The cartoon best reflects which development of the late 1800s?
 - (A) the rapid partition of Africa among European powers
-- (B) a decline in British interest in Africa after the Suez Canal opened
-- (C) the rise of African kingdoms that united to block European trade
+- (B) the abolition of slavery across the British Empire in the 1830s
+- (C) the opening of the Suez Canal, which shortened the sea route from Britain to India
 - (D) Portugal's success in building a colony that stretched across southern Africa
 KEY: A. Explanation: From the 1880s to 1914, European powers took over almost all of Africa. The cartoon shows Rhodes stretched from Africa's southern tip to its far north. It is as if Britain could claim the whole length of the continent.
   - A: Correct. Rhodes's giant body spanning Africa from south to north reflects the scramble for African land.
-  - B: Incorrect. The Suez Canal, opened in 1869, made Africa more important to Britain, and Britain occupied Egypt in 1882.
-  - C: Incorrect. Many African states resisted, but they did not unite to stop European expansion.
+  - B: Incorrect. Britain ended slavery in its empire in the 1830s, decades before this 1892 cartoon. The cartoon shows a man claiming land across a map.
+  - C: Incorrect. The Suez Canal opened in 1869 and mattered for the sea route to India. The cartoon shows a man claiming the whole length of Africa by land.
   - D: Incorrect. Portugal hoped to link Angola and Mozambique, but Britain blocked the plan in 1890.
 
 **U6-E08** [Topic 6.2 · LO B · Skill 1.B]  The cartoon most directly illustrates which feature of British expansion in Africa?
 - (A) Businessmen and chartered companies often led the way in taking land.
-- (B) Britain gained most of its African lands through treaties with the Ottoman sultan.
-- (C) Missionaries, rather than businessmen, decided where Britain would expand.
+- (B) British officials in London planned new colonies first, and traders and settlers followed later.
+- (C) Britain kept to coastal trading posts and left the interior to African rulers.
 - (D) British settlers in southern Africa tried to stop expansion to the north.
 KEY: A. Explanation: Rhodes made a fortune in diamonds. His British South Africa Company got a royal charter in 1889. It conquered the lands later called Rhodesia. Rhodes was also prime minister of the Cape Colony, so he held business and government power at once.
   - A: Correct. Rhodes was a mining businessman whose chartered company conquered land in Africa.
-  - B: Incorrect. Ottoman power in Africa reached only parts of North Africa. Britain gained land mainly by conquest, treaties with local rulers, and company charters.
-  - C: Incorrect. Missionaries played a role, but the cartoon shows a businessman and politician carrying a rifle, not a missionary.
+  - B: Incorrect. Britain often followed its traders, companies, and settlers. Rhodes acted first, and the government backed him later.
+  - C: Incorrect. The cartoon shows Rhodes striding over the whole continent, not just the coast. His company conquered lands far inland.
   - D: Incorrect. Settler leaders such as Rhodes pushed hardest for expansion to the north.
 
-**U6-E09** [Topic 6.3 · LO C · Skill 5.B · Causation]  Expansion led by Rhodes and his company most directly contributed to
+**U6-E09** [Topic 6.3 · LO C · Skill 5.B · Causation]  Expansion led by Rhodes in the 1890s most directly contributed to
 - (A) a decline in mining in southern Africa as investors moved their money north
 - (B) wars with African peoples, such as the Ndebele, in the lands later called Rhodesia
 - (C) the end of British rule in Egypt, which blocked the Cape-to-Cairo plan
-- (D) an alliance between Britain and the Boer republics to divide the lands that Rhodes's company had taken
+- (D) an alliance between Britain and the Boer republics to divide the lands north of the Limpopo River
 KEY: B. Explanation: In 1890 the company sent armed settlers into Shona lands. Its troops used machine guns against the Ndebele in 1893. The 1896–1897 rising is often called the First Chimurenga, a Shona word for "struggle." The conquered lands were named Rhodesia after Rhodes.
   - A: Incorrect. Diamond and gold mining in southern Africa grew quickly in the 1880s and 1890s.
-  - B: Correct. Rhodes's company fought the Ndebele in 1893 and crushed Ndebele and Shona risings in 1896–1897.
+  - B: Correct. Rhodes's company fought the Ndebele in 1893. It fought Ndebele and Shona risings again in 1896–1897.
   - C: Incorrect. Britain kept control of Egypt into the 1900s.
   - D: Incorrect. Relations with the Boers grew worse. Rhodes backed a failed raid on the Transvaal in 1895, and war followed in 1899.
 
@@ -825,15 +828,15 @@ KEY: B. Explanation: In 1890 the company sent armed settlers into Shona lands. I
 **Source 2**
 > In accepting responsibility for the control of these new lands, England obeyed the tradition of her race. British Africa was acquired not by groups of financiers, nor yet … by the efforts of her statesmen, but in spite of them. It was the instinct of the British democracy which compelled us to take our share. …
 > Let it be admitted at the outset that European brains, capital, and energy have not been, and never will be, expended in developing the resources of Africa from motives of pure philanthropy; that Europe is in Africa for the mutual benefit of her own industrial classes, and of the native races in their progress to a higher plane; that the benefit can be made reciprocal, and that it is the aim and desire of civilised administration to fulfil this dual mandate.
-> By railways and roads, by reclamation of swamps and irrigation of deserts, and by a system of fair trade and competition, we have added to the prosperity and wealth of these lands, and checked famine and disease. We have put an end to the awful misery of the slave-trade and inter-tribal war, to human sacrifice and the ordeals of the witch-doctor.* … We are endeavouring to teach the native races to conduct their own affairs with justice and humanity, and to educate them alike in letters and in industry.
-> * Lugard's phrases "native races" and "witch-doctor" are his own and reflect the views of British officials of his time.
-— Frederick Lugard, British colonial official who governed Nigeria in the early 1900s, The Dual Mandate in British Tropical Africa, 1922 (Adapted)
+> By railways and roads, by reclamation of swamps and irrigation of deserts, and by a system of fair trade and competition, we have added to the prosperity and wealth of these lands, and checked famine and disease. We have put an end to the awful misery of the slave-trade and inter-tribal war, to human sacrifice and the ordeals of the witch-doctor.* Where these things survive they are severely suppressed. We are endeavouring to teach the native races to conduct their own affairs with justice and humanity, and to educate them alike in letters and in industry.
+> * Lugard's phrases "native races" and "witch-doctor" are his own. They reflect the low opinion of African peoples and beliefs held by many British officials of his time.
+— Frederick Lugard, British soldier and colonial official who governed Nigeria in the early 1900s, The Dual Mandate in British Tropical Africa, 1922 (Adapted)
 
 **U6-E10** [Topic 6.8 · LO I · Skill 3.C · Comparison]  Which of the following best describes a difference between the two sources?
 - (A) Hobson says imperialism helps British workers, while Lugard says it harms them.
 - (B) Hobson blames politicians' ambitions for imperialism, while Lugard blames groups of financiers.
 - (C) Hobson writes about British families settling abroad, while Lugard writes about trade.
-- (D) Hobson says empire mainly enriches investors; Lugard says it benefits Europeans and Africans.
+- (D) Hobson says empire mainly enriches investors, while Lugard says it benefits both Europeans and Africans.
 KEY: D. Explanation: Hobson asks "Cui bono?" ("Who benefits?") and answers "The investor." Lugard says Europe is in Africa "for the mutual benefit" of its own industries and of Africans.
   - A: Incorrect. Hobson says imperialism costs "the tax-payer" and the nation. Lugard says Europe's "industrial classes" benefit.
   - B: Incorrect. Lugard says British Africa was not acquired "by groups of financiers." It is Hobson who points to investors.
@@ -841,44 +844,44 @@ KEY: D. Explanation: Hobson asks "Cui bono?" ("Who benefits?") and answers "The 
   - D: Correct. Hobson points to investors, while Lugard describes a "dual mandate" that helps both sides.
 
 **U6-E11** [Topic 6.8 · LO I · Skill 2.C]  Lugard's argument in Source 2 is most likely shaped by
-- (A) his background as a missionary who hoped to convert Africans
-- (B) his career as an official whose work in Africa the book defends
-- (C) his training as an economist who studied trade figures from a distance
-- (D) his hope of winning African readers over to the cause of independence
+- (A) his belief, shared by many missionaries, that the main purpose of empire was to spread Christianity
+- (B) his career as a colonial governor whose work in Africa the book defends
+- (C) his agreement with economists such as Hobson that empire mainly served investors
+- (D) his years as a soldier, which led him to present conquest as the main source of progress
 KEY: B. Explanation: Lugard had helped build British rule in Uganda and Nigeria. Writing in 1922, he had reasons to show that this rule was fair and helpful, so he stresses railways, trade, and the end of the slave trade.
-  - A: Incorrect. Lugard was a soldier and colonial governor, not a missionary.
+  - A: Incorrect. Lugard's excerpt does not mention religion. He stresses railways, trade, and government.
   - B: Correct. As a former governor, Lugard had a personal stake in showing that British rule did good.
-  - C: Incorrect. Lugard was a soldier and governor who worked in Africa for many years, not an economist.
-  - D: Incorrect. Lugard defends British rule. He does not argue for African independence.
+  - C: Incorrect. Lugard says British Africa was not acquired "by groups of financiers." That is the opposite of Hobson's view.
+  - D: Incorrect. Lugard was a soldier, but this excerpt praises railways, trade, and the end of the slave trade, not conquest.
 
-**U6-E12** [Topic 6.5 · LO E · Skill 5.B · Causation]  Hobson's argument in Source 1 is best illustrated by which development?
+**U6-E12** [Topic 6.5 · LO E · Skill 3.D]  Hobson's argument in Source 1 is best illustrated by which development?
 - (A) Britain's occupation of Egypt in 1882 after Egypt fell behind on its debts to European lenders
 - (B) Britain's abolition of slavery in its colonies in 1833 after a long public campaign by reformers
 - (C) the settlement of British farmers in New Zealand after the Treaty of Waitangi in 1840
 - (D) Japan's government-led effort to build modern industries in the 1870s and 1880s
 KEY: A. Explanation: Egypt borrowed heavily from European lenders. When it could not repay, Britain and France took over its money matters. In 1882 Britain occupied Egypt. Hobson saw this as a government protecting investors.
   - A: Correct. Hobson argues that investors push governments to protect their money abroad, as happened in Egypt.
-  - B: Incorrect. Ending slavery was a humanitarian reform, not a case of investors seeking protection abroad.
-  - C: Incorrect. Settlement is about migrants and land, not investors pushing a government to protect loans.
+  - B: Incorrect. Ending slavery came from a campaign to help enslaved people. It was not about investors asking the government to protect their money.
+  - C: Incorrect. Settlement could involve investors, but this choice does not show a government acting to protect money lent abroad.
   - D: Incorrect. Japan's industrial growth was led by its own government, not by foreign investors.
 
-**U6-E13** [Topic 6.8 · LO I · Skill 3.D]  Which of the following, if true, would most directly challenge Lugard's claim that British rule "added to the prosperity and wealth of these lands"?
+**U6-E13** [Topic 6.8 · LO I · Skill 3.D]  Which of the following, if true, would most directly challenge Lugard's claim that British rule in Africa served the "mutual benefit" of Europeans and Africans?
 - (A) British engineers built railways linking the ports of Nigeria and the Gold Coast to farming areas inland.
 - (B) British laws in its African colonies banned the buying and selling of enslaved people.
 - (C) Cash taxes pushed many Africans to work for low wages or to grow export crops instead of food.
 - (D) Exports of cotton and cocoa from Britain's African colonies grew in the early 1900s.
-KEY: C. Explanation: Lugard says British rule made Africa richer. Evidence that colonial rule made many Africans poorer would challenge him. So would evidence that it forced them to work for European businesses.
+KEY: C. Explanation: Lugard says British rule brought "mutual benefit" to Europeans and Africans. If taxes pushed many Africans into low-paid work, or into growing export crops instead of food, much of the gain went to Europeans. That would challenge his claim.
   - A: Incorrect. New railways support Lugard's claim about "railways and roads."
   - B: Incorrect. Laws against the slave trade support Lugard's claim that Britain ended "the slave-trade."
-  - C: Correct. Taxes that pushed Africans into low-paid work or export farming suggest that much of the new wealth went to Europeans.
-  - D: Incorrect. Growing exports support Lugard's claim that the lands grew richer.
+  - C: Correct. If taxes pushed Africans into low-paid work, or into growing export crops instead of food, much of the gain went to Europeans rather than to Africans.
+  - D: Incorrect. Growing exports fit Lugard's claim that trade grew. They do not show whether Africans shared in the gains.
 
 
 ### Source X5 (questions U6-E14–U6-E16)
-**Raw Cotton Brought into Europe, by Source, 1860 and 1864** (bar chart; y = Thousands of bales (400 pounds each))
+**Raw Cotton Brought into Europe from Four Sources, 1860 and 1864** (bar chart; y = Thousands of bales (400 pounds each))
 - 1860 (thousands of bales): United States = 4058, India = 552, Egypt = 135, Brazil = 48
 - 1864 (thousands of bales): United States = 241, India = 1374, Egypt = 427, Brazil = 127
-The figures count raw cotton brought into all of Europe each year, in thousands of bales of 400 pounds each. Ellison's column "East Indies" is shown here as "India." Smaller sources, such as Turkey and the West Indies, are not shown.
+The figures count raw cotton brought into all of Europe each year, in thousands of bales of 400 pounds each. Ellison's column "East Indies" is shown here as "India." Other sources, such as Turkey, the West Indies, and China and Japan, are not shown. Together they sent about 44,000 bales in 1860 and 466,000 bales in 1864.
 Source: Thomas Ellison, The Cotton Trade of Great Britain (London, 1886), table of cotton imports into Europe, 1860–1883, p. 91
 
 **U6-E14** [Topic 6.4 · LO D · Skill 3.A]  Which of the following is best supported by the chart?
@@ -899,19 +902,19 @@ KEY: B. Explanation: Cotton from the United States fell from about 4.1 million b
 - (D) the spread of the boll weevil, an insect that ate Southern cotton
 KEY: C. Explanation: During the U.S. Civil War (1861–1865), the Union blockaded Southern ports, and the Confederacy at first held back cotton to pressure Britain. Shipments to Europe almost stopped.
   - A: Incorrect. European mills wanted cotton badly, and prices soared. The problem was supply, not demand.
-  - B: Incorrect. Britain never banned slave-grown cotton. Its mills used it until the war cut off supply.
+  - B: Incorrect. Britain did not ban slave-grown cotton. Its mills used it until the war cut off supply.
   - C: Correct. The war and the blockade cut off most cotton shipments from the South.
   - D: Incorrect. The boll weevil did not reach the United States until the 1890s.
 
 **U6-E16** [Topic 6.4 · LO D · Skill 1.B · Continuity and Change]  The changes in Europe's sources of cotton shown in the chart best illustrate which feature of the global economy in the 1800s?
 - (A) Colonies in Asia and Africa built their own cotton mills to compete with Britain.
-- (B) Britain grew most of the raw cotton its mills needed on farms in Britain.
-- (C) Trade in cotton between Europe and the Americas came to an end as Europe's trade with Asia grew.
+- (B) European mills stopped using cotton and switched to wool and linen when U.S. cotton was cut off.
+- (C) European countries refused to buy cotton from lands that they did not rule as colonies.
 - (D) Industrial countries depended on several regions of the world for factory raw materials.
-KEY: D. Explanation: The American Civil War (1861–1865) cut off cotton from the U.S. South. That is why American cotton fell so much by 1864. Farmers in India and Egypt planted more cotton to meet the demand.
-  - A: Incorrect. India and Egypt mainly sent raw cotton abroad and bought finished cloth.
-  - B: Incorrect. Cotton does not grow in Britain's climate. Its mills depended on imports.
-  - C: Incorrect. Cotton from the United States came back after 1865. By 1870 it was again Europe's largest source.
+KEY: D. Explanation: Europe's mills could not grow their own cotton. When the U.S. Civil War cut off American cotton, the mills bought more from India and Egypt. This shows that industrial countries depended on raw materials from many parts of the world.
+  - A: Incorrect. The chart shows raw cotton arriving in Europe. It gives no figures for cotton mills in India or Egypt.
+  - B: Incorrect. Europe still brought in about 2.2 million bales from these four sources in 1864. The mills kept using cotton and changed suppliers.
+  - C: Incorrect. In 1864 Europe still bought cotton from places it did not rule, such as Egypt, Brazil, and the United States.
   - D: Correct. European mills needed raw cotton from abroad and switched suppliers when one source failed.
 
 
@@ -922,8 +925,8 @@ KEY: D. Explanation: The American Civil War (1861–1865) cut off cotton from th
 > … Not a goat, ox, or cow out of all their herds must be left living, every grain of corn in their granaries must be destroyed, no garden must be planted … On a certain day countless herds of cattle, not subject to disease and more beautiful than any they were called upon to kill, should issue from the earth and cover the pastures far and wide. …
 > … It is certain that most of them acted under the influence of superstition alone, though there is no doubt that some of the leaders viewed the entire proceeding as calculated solely for purposes of war. To throw the whole Xosa tribe with its Tembu allies, fully armed and in a famishing state, upon the colony, was the end kept steadily in view by these. …
 > … The lowest computation fixes the number of those who perished on both sides of the Kei at twenty-five thousand, ordinary calculations give double that number.
-> * British Kaffraria was a colony that Britain set up in 1847 on Xhosa land east of the Cape Colony. Its name comes from an old term for the Xhosa that is now considered a slur.
-> ** Kreli (Sarhili) was the paramount (highest) chief of the Xhosa.
+> * British Kaffraria was a colony that Britain set up in 1847 on Xhosa land east of the Cape Colony. Its name comes from an old word that Europeans used for Black southern Africans, especially the Xhosa. The word is now considered a slur.
+> ** Kreli (Sarhili) was the king of the Gcaleka Xhosa and the highest-ranking Xhosa chief.
 — George McCall Theal, Canadian-born historian who became keeper of the government archives of the Cape Colony, History of South Africa since September 1795, vol. 3, 1908 (Adapted)
 
 **U6-E17** [Topic 6.3 · LO C · Skill 4.B · Causation]  The cattle-killing movement described in the passage arose most directly in the context of
@@ -938,33 +941,34 @@ KEY: A. Explanation: Britain had fought several wars against the Xhosa. In 1847 
   - D: Incorrect. Diamonds were first found in 1867, far to the northwest, about ten years after these events.
 
 **U6-E18** [Topic 6.3 · LO C · Skill 2.C]  Theal's claim that some leaders planned the movement "solely for purposes of war" is best explained by
-- (A) the fact that he saw the events himself as a young soldier on the frontier in 1856 and 1857
+- (A) his interviews with Xhosa survivors who described the leaders' war plans
 - (B) his point of view, which sided with the colonists against the Xhosa chiefs
 - (C) his sympathy for the Xhosa chiefs, whom he wanted to defend against British critics
 - (D) his use of written war plans that the Xhosa chief Kreli had signed
-KEY: B. Explanation: Theal worked for the Cape government's archives and wrote from the colonists' side. Later historians found little evidence of a plot by the chiefs. They see the movement as a response to conquest, cattle disease, and despair.
-  - A: Incorrect. Theal was born in Canada in 1837 and did not arrive in southern Africa until 1861.
+KEY: B. Explanation: Theal worked for the Cape Colony's government and took the colonists' side. Historians today have found little proof that the chiefs planned a war. They think the movement grew out of lost land, cattle disease, and despair.
+  - A: Incorrect. Theal names no Xhosa witnesses. He repeats what "many of the colonists suspected."
   - B: Correct. Theal took the colonists' side. He repeats what "many of the colonists suspected" and calls the believers' actions "superstition."
   - C: Incorrect. Theal's words, such as "superstition" and "instigator," show little sympathy for the chiefs.
   - D: Incorrect. Theal points to no written plans. He relies on what colonists suspected.
 
 **U6-E19** [Topic 6.3 · LO C · Skill 5.B · Causation]  Which of the following was a result of the events described in the passage?
-- (A) The Xhosa won back the lands they had lost to British settlers in earlier wars.
+- (A) Xhosa chiefs signed a treaty that made the Kei River a permanent border closed to settlers.
 - (B) Britain gave up British Kaffraria and pulled its troops back from the eastern frontier of the Cape.
 - (C) Xhosa chiefs gained new power by leading a successful war against the colony.
-- (D) Starving Xhosa went to work in the Cape Colony, and settlers took more Xhosa land.
+- (D) Famine pushed many Xhosa survivors into work in the Cape Colony, and settlers took Xhosa land.
 KEY: D. Explanation: Tens of thousands of Xhosa died. Survivors fled into the colony looking for food, and many were sent to work for white farmers. The colonial government then settled Europeans on Xhosa land.
-  - A: Incorrect. The Xhosa lost more land. The government settled Europeans on land the famine had emptied.
+  - A: Incorrect. No such treaty was made. Colonial officials took more Xhosa land after the famine and gave it to settlers.
   - B: Incorrect. Britain kept British Kaffraria and joined it to the Cape Colony in 1866.
-  - C: Incorrect. The famine left the Xhosa too weak to fight, and the chiefs lost much of their power.
-  - D: Correct. The famine broke Xhosa independence, pushed survivors into colonial labor, and opened their land to settlers.
+  - C: Incorrect. The famine weakened many chiefdoms, and no successful war followed. Xhosa resistance to the colony went on later, as in the war of 1877–1878.
+  - D: Correct. The famine weakened Xhosa communities. Colonial officials pushed survivors into colonial labor and gave their land to settlers.
 
 
 ### Source X7 (questions U6-E20–U6-E22)
 > I have more than once referred to the unfavourable circumstances under which the vast majority of the Irish arrived in America, and the difficulties with which, in a special degree, they had to contend; but the picture would be most imperfect were not some reference made to the disastrous emigration of the years 1847 and 1848—to that blind and desperate rush across the Atlantic known and described, and to be recognised for time to come, as the Irish Exodus. …
-> It is difficult to realise to the mind the magnitude of the pecuniary sacrifices made by the Irish in America, either to bring out their relatives to their adopted country, or to relieve the necessities and improve the circumstances of those who could not leave or who desired to remain in the old country. … As a mere fact, more than 24,000,000l. have been sent by the Irish to pay for passages and outfits and fares to distant places; to enable those 'at home' to pay a high rent, perhaps in a time of scarcity; to support parents too old, or too feeble, or too prejudiced, to venture across the sea …
+> It is difficult to realise to the mind the magnitude of the pecuniary sacrifices made by the Irish in America, either to bring out their relatives to their adopted country, or to relieve the necessities and improve the circumstances of those who could not leave or who desired to remain in the old country. … As a mere fact, more than 24,000,000l.* have been sent by the Irish to pay for passages and outfits and fares to distant places; to enable those 'at home' to pay a high rent, perhaps in a time of scarcity; to support parents too old, or too feeble, or too prejudiced, to venture across the sea …
 > The great ambition of the Irish girl is to send 'something' to her people as soon as possible after she has landed in America; and in innumerable instances the first tidings of her arrival in the New World are accompanied with a remittance, the fruits of her first earnings in her first place. …
 > With all banks and offices through which money is sent to Ireland the months of December and March are the busiest portions of the year. The largest amount is then sent; then the offices are full of bustling, eager, indeed clamorous applicants … who are mostly females, and chiefly 'girls in place.'
+> * Maguire's estimate of all the money sent home over about 25 years, up to 1868. It includes money from Irish emigrants in Australia as well as in North America.
 — John Francis Maguire, Irish journalist and member of the British Parliament, The Irish in America, 1868, written after a tour of the United States and Canada (Adapted)
 
 **U6-E20** [Topic 6.6 · LO F · Skill 5.B · Causation]  The "Irish Exodus" of 1847 and 1848 was caused most directly by
@@ -983,7 +987,7 @@ KEY: D. Explanation: From 1845 to 1852, a plant disease ruined Ireland's potato 
 - (B) Many migrants kept close ties with their families in their homelands.
 - (C) Migrants often paid for relatives to join them in their new countries.
 - (D) Migrants usually settled in cities rather than on farms in their new countries.
-KEY: A. Explanation: Many migrant streams of the 1800s were mostly male. Maguire shows that young Irish women also migrated in large numbers, worked as servants, and sent money home. That qualifies, or limits, the general claim.
+KEY: A. Explanation: Many migrant streams of the 1800s were mostly male. Maguire shows that many Irish women also migrated, worked as servants, and sent money home. That qualifies, or limits, the general claim.
   - A: Correct. Maguire says the senders were "mostly females," which shows an important exception to this pattern.
   - B: Incorrect. Maguire supports this claim. He does not qualify it.
   - C: Incorrect. Maguire supports this claim when he describes money sent "to bring out their relatives."
@@ -994,16 +998,16 @@ KEY: A. Explanation: Many migrant streams of the 1800s were mostly male. Maguire
 - (B) a drop in emigration from Ireland after the 1850s as Irish families grew richer
 - (C) the end of tenant farming in Ireland by the 1860s
 - (D) the funding of a successful Irish independence movement by the 1870s
-KEY: A. Explanation: Maguire says the Irish in America sent money "to bring out their relatives" and "to pay for passages." Each migrant who settled helped the next one come, a pattern called chain migration.
+KEY: A. Explanation: Maguire says Irish people in America sent money "to bring out their relatives" and "to pay for passages." Some new arrivals then helped the next relative come. This pattern is called chain migration.
   - A: Correct. Money sent home paid for passages, so one migrant brought another.
   - B: Incorrect. Emigration from Ireland stayed high for the rest of the century.
   - C: Incorrect. Many Irish families stayed tenant farmers until land reforms in the late 1800s and early 1900s. Maguire says the money helped people "pay a high rent."
-  - D: Incorrect. Irish Americans did give money to Irish nationalist groups, but Ireland stayed part of the United Kingdom until 1922.
+  - D: Incorrect. Irish Americans did give money to Irish nationalist groups, but most of Ireland stayed part of the United Kingdom until 1922.
 
 
 ### Source X8 (questions U6-E23–U6-E25)
 > … The English settlers could not get on at all with their plantations in the absence of a stable labour force. They therefore opened negotiations with the Government of India and requested their help for the supply of labour. That Government complied with their request, and the first batch of indentured labourers from India reached Natal on 16th November 1860 …
-> When the news that indentured labourers had gone to Natal reached Mauritius, Indian traders having connection with such labourers were induced to follow them there. … Other Memans consequently reached Natal. Borahs from Surat followed them. These traders needed accountants, and Hindu accountants from Gujarat and Kathiawad accompanied them.
+> When the news that indentured labourers had gone to Natal reached Mauritius, Indian traders having connection with such labourers were induced to follow them there. … An Indian trader in Mauritius, the late Sheth Abubakar Amod, thought of opening a shop in Natal. … Abubakar Sheth carried on trade and purchased land, and the story of his prosperity reached Porbandar, his native place, and the country around. Other Memans consequently reached Natal. Borahs from Surat followed them. These traders needed accountants, and Hindu accountants from Gujarat and Kathiawad accompanied them.
 > … The labourers went to Natal under indenture for a period of five years. They were under no obligation to labour after the expiry of that period, and were entitled to work as free labourers or trade in Natal, and settle there, if they wished. … They found that if they grew only vegetables in Natal, they could earn good incomes, and that their earnings would be still better if they owned a small piece of land. … But the European planters did not relish this new development. They felt they now had competitors in a field in which they believed they had a monopoly. …
 > … while on the one hand the Europeans demanded more and more labourers and easily took in as many of them as went from India, on the other hand they started an agitation to harass ex-indentured labourers in a variety of ways. … One set of agitators demanded that the labourers who completed their indentures should be sent back to India … A second set advocated the imposition of a heavy annual capitation tax on the labourers who did not re-indenture themselves at the end of the first period of five years.
 — Mohandas K. Gandhi, Indian lawyer who lived in South Africa from 1893 to 1914, Satyagraha in South Africa, first published in Gujarati in the 1920s (Translated by Valji Govindji Desai (Madras, 1928); adapted)
@@ -1024,20 +1028,20 @@ KEY: D. Explanation: Natal's settlers grew sugarcane and other crops that needed
 - (B) Argentina's program to attract Italian farm workers with paid passages
 - (C) Canada's head tax on Chinese immigrants, first charged in 1885
 - (D) the Government of India's rules to protect emigrants on their voyages
-KEY: C. Explanation: Natal's settlers wanted a tax to push out free Indians. Canada's head tax of 1885 made Chinese immigrants pay a fee to come. Both show receiving societies trying to limit Asian migrants. Natal did pass a yearly tax on former indentured Indians in 1895.
-  - A: Incorrect. Ending slavery freed workers. The settlers' campaign tried to push free Indians out.
-  - B: Incorrect. Argentina tried to attract migrants. The settlers wanted to drive them away.
-  - C: Correct. Both used taxes to push out or keep out Asian migrants whom many white residents saw as competitors.
-  - D: Incorrect. Those rules protected migrants. The settlers wanted to get rid of them.
+KEY: C. Explanation: Natal's settlers wanted a yearly tax that would push Indians who finished their contracts to sign new ones or leave. Canada's head tax of 1885 made Chinese immigrants pay a fee to enter. Both used special taxes to limit Asian migrants. Natal passed such a tax in 1895.
+  - A: Incorrect. Ending slavery freed workers. The settlers' campaign tried to force former contract workers to sign new contracts or leave.
+  - B: Incorrect. Argentina paid to attract migrants. Natal's settlers wanted Indian workers but tried to limit their freedom once their contracts ended.
+  - C: Correct. Both used a special tax to limit Asian migrants. Natal's tax targeted Indians who had finished their contracts; Canada's targeted new Chinese arrivals.
+  - D: Incorrect. Those rules protected migrants. The settlers' campaign tried to make former contract workers sign new contracts or leave.
 
-**U6-E25** [Topic 6.7 · LO H · Skill 1.B · Continuity and Change]  The arrival of traders and accountants described in the second paragraph best illustrates which pattern of migration in the 1800s?
-- (A) Most migrants were forced to move by their own governments, which wanted to remove them.
-- (B) Migrants usually lost contact with their home societies once they settled.
-- (C) Migrants often followed others from their home region and formed communities abroad.
-- (D) Migrants from Asia worked mainly in factories in industrial cities.
+**U6-E25** [Topic 6.7 · LO H · Skill 1.B]  The arrival of traders and accountants described in the second paragraph best illustrates which pattern of migration in the 1800s?
+- (A) Migrants often moved because colonial governments recruited them to work in new mines.
+- (B) Migrants often cut their ties with home once they settled abroad.
+- (C) Migrants often followed others from their home region and formed new communities abroad.
+- (D) Migrants from Asia often settled in places where no other Asians had gone before.
 KEY: C. Explanation: Indian merchants followed the indentured workers to Natal. Accountants from Gujarat then followed the merchants. In this way, Indian communities grew in southern and eastern Africa and around the Indian Ocean.
-  - A: Incorrect. Gandhi says the traders were "induced to follow," meaning they chose to come for business.
-  - B: Incorrect. Gandhi shows news traveling between Natal, Mauritius, and India, which drew more people from the same regions.
+  - A: Incorrect. Gandhi says the traders were "induced to follow" the laborers. They came on their own for business.
+  - B: Incorrect. Gandhi says the story of one trader's success "reached Porbandar, his native place," and more traders and accountants from western India followed.
   - C: Correct. Traders followed the laborers, and accountants from Gujarat followed the traders, building an Indian community in Natal.
-  - D: Incorrect. Gandhi describes plantation workers and traders, not factory workers.
+  - D: Incorrect. Gandhi shows the opposite. Traders went where indentured Indians had already gone, and others followed them.
 
