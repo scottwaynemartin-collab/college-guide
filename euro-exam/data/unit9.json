@@ -4,7 +4,7 @@
  "period": "c. 1914–present",
  "examWeighting": "10–15%",
  "blurb": "The Cold War division of Europe and its end, rebuilding and the welfare state, the revolts in the Soviet bloc, decolonization, European integration, migration, feminism, technology, globalization, and culture from 1914 to the present.",
- "version": "2026-11-09e",
+ "version": "2026-11-09f",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 9: Learning Objectives A-P).",
  "topics": [
   {
@@ -966,7 +966,7 @@
     },
     {
      "t": "embryos",
-     "d": "fertilized eggs in the earliest stage of growth"
+     "d": "fertilised eggs in the earliest stage of growth"
     },
     {
      "t": "surrogacy",
@@ -1261,14 +1261,14 @@
     "A": "the Hungarian Revolution of 1956",
     "B": "the oil price shocks of 1973 and 1979",
     "C": "long-term Soviet economic stagnation",
-    "D": "the fall of the Berlin Wall in 1989"
+    "D": "demands for reform from the communist leaders of Eastern Europe"
    },
    "answer": "C",
    "explanation": "By the late 1970s the Soviet economy grew very slowly. Factories were out of date, and stores often ran short of goods. Gorbachev became leader in 1985. He began perestroika (\"restructuring\") and glasnost (\"openness\") to make the system work better.",
    "whyNot": {
     "A": "The Hungarian Revolution came in 1956, more than thirty years before this speech, and Soviet troops crushed it. Gorbachev's reforms answered problems inside the Soviet Union in the 1970s and 1980s.",
     "B": "The oil price rises of 1973 and 1979 hurt Western Europe. The Soviet Union sold oil abroad, so for a time it earned more money.",
-    "D": "The Berlin Wall fell in November 1989, almost a year after this speech."
+    "D": "Most communist leaders in Eastern Europe, such as East Germany's Erich Honecker, disliked Gorbachev's reforms. The reforms answered problems inside the Soviet Union itself."
    },
    "hint": "Gorbachev took power in 1985. What had been happening to the Soviet economy in the years before that?"
   },
@@ -1542,14 +1542,14 @@
     "A": "Soviet efforts to rebuild East Berlin as a model communist city",
     "B": "U.S. aid to rebuild Western Europe after the war",
     "C": "West German payments to the victims of the Holocaust",
-    "D": "British aid to rebuild the British sector of Berlin"
+    "D": "U.S. loans to Germany under the Dawes Plan"
    },
    "answer": "B",
    "explanation": "The Marshall Plan (1948–1952) sent billions of dollars in American aid to Western Europe. West Berlin got some of it. The money helped rebuild industry, housing, and businesses after the war.",
    "whyNot": {
     "A": "The Kurfürstendamm is in West Berlin, and the sign names the Marshall Plan, an American program. The Soviet Union refused Marshall Plan aid.",
     "C": "In 1952 West Germany did agree to pay Israel and Jewish groups. But that money did not build hotels in Berlin.",
-    "D": "The Kurfürstendamm was in the British sector of West Berlin, but the sign names the Marshall Plan, an American program. Britain itself received Marshall Plan aid."
+    "D": "The Dawes Plan of 1924 lent American money to Germany so it could pay reparations after World War I. The sign names the Marshall Plan, which began in 1948."
    },
    "hint": "Look at the date of the photograph and the program named on the sign."
   },
@@ -2016,7 +2016,7 @@
    "explanation": "In 1968 students protested in France, West Germany, Italy, and other countries. Many attacked the consumer society and old-fashioned authority. Like the passage, they asked whether making and buying more goods really made life better.",
    "whyNot": {
     "B": "In France the students protested against President de Gaulle's strong rule. Strong leadership and national prestige were de Gaulle's goals, not theirs.",
-    "C": "The passage does say polluters should pay. But this rule came from governments in the early 1970s; for example, a group of rich countries called the OECD adopted it in 1972. It was not a main demand of the student protesters of 1968.",
+    "C": "The passage does say polluters should pay. But this rule came from governments in the early 1970s; for example, a group of mostly wealthy countries called the OECD adopted it in 1972. It was not a main demand of the student protesters of 1968.",
     "D": "This makes faster growth the main goal. The passage warns against judging growth \"from purely quantitative aspects.\""
    },
    "hint": "What did the young protesters of 1968 criticize about the societies built after the war?",
@@ -2505,14 +2505,14 @@
     "stem": "The ties between Britain and the new Dominions that Attlee hoped would continue contributed most directly to which later development?",
     "options": {
      "A": "India's leading role in the Non-Aligned Movement",
-     "B": "Britain's entry into the European Community in 1973",
+     "B": "Indian and Pakistani support for Britain in the Suez Crisis of 1956",
      "C": "the wars between India and Pakistan over Kashmir",
      "D": "migration from India and Pakistan to Britain"
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. India stayed in the Commonwealth, but it refused to join either side in the Cold War. Non-alignment came from India's own foreign policy, not from its ties with Britain.",
-     "B": "Incorrect. Joining the European Community pulled Britain's trade toward Europe and away from the Commonwealth. It did not grow out of Britain's ties with India and Pakistan.",
+     "B": "Incorrect. When Britain and France attacked Egypt in 1956, India and Pakistan both voted at the United Nations for a ceasefire. The crisis divided the Commonwealth.",
      "C": "Incorrect. The fighting over Kashmir began in 1947. It grew out of partition and the dispute over which new country Kashmir would join, not out of ties with Britain.",
      "D": "Correct. The British Nationality Act of 1948 let citizens of Commonwealth countries, including India and Pakistan, enter Britain freely. Many came to fill jobs. The Commonwealth Immigrants Act of 1962 began to limit entry."
     },

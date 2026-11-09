@@ -1,4 +1,4 @@
-# AP European History — Unit 9 practice bank (v2026-11-09e)
+# AP European History — Unit 9 practice bank (v2026-11-09f)
 
 Unit 9: Cold War and Contemporary Europe, c. 1914–present (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 9.1 Contextualizing Cold War and Contemporary Europe (LO A)
@@ -38,11 +38,11 @@ Each source shows its attribution and translation line as students see them, plu
 - (A) the Hungarian Revolution of 1956
 - (B) the oil price shocks of 1973 and 1979
 - (C) long-term Soviet economic stagnation
-- (D) the fall of the Berlin Wall in 1989
+- (D) demands for reform from the communist leaders of Eastern Europe
 KEY: C. Explanation: By the late 1970s the Soviet economy grew very slowly. Factories were out of date, and stores often ran short of goods. Gorbachev became leader in 1985. He began perestroika ("restructuring") and glasnost ("openness") to make the system work better.
   - why not A: The Hungarian Revolution came in 1956, more than thirty years before this speech, and Soviet troops crushed it. Gorbachev's reforms answered problems inside the Soviet Union in the 1970s and 1980s.
   - why not B: The oil price rises of 1973 and 1979 hurt Western Europe. The Soviet Union sold oil abroad, so for a time it earned more money.
-  - why not D: The Berlin Wall fell in November 1989, almost a year after this speech.
+  - why not D: Most communist leaders in Eastern Europe, such as East Germany's Erich Honecker, disliked Gorbachev's reforms. The reforms answered problems inside the Soviet Union itself.
   - hint: Gorbachev took power in 1985. What had been happening to the Soviet economy in the years before that?
 
 **E9-P02** [Topic 9.4 · LO D · Skill 3.D · medium]  Which of the following later developments would best support the argument that Gorbachev put his principle of "freedom of choice" into practice?
@@ -219,11 +219,11 @@ Description: A black-and-white photograph of a construction site. Behind a fores
 - (A) Soviet efforts to rebuild East Berlin as a model communist city
 - (B) U.S. aid to rebuild Western Europe after the war
 - (C) West German payments to the victims of the Holocaust
-- (D) British aid to rebuild the British sector of Berlin
+- (D) U.S. loans to Germany under the Dawes Plan
 KEY: B. Explanation: The Marshall Plan (1948–1952) sent billions of dollars in American aid to Western Europe. West Berlin got some of it. The money helped rebuild industry, housing, and businesses after the war.
   - why not A: The Kurfürstendamm is in West Berlin, and the sign names the Marshall Plan, an American program. The Soviet Union refused Marshall Plan aid.
   - why not C: In 1952 West Germany did agree to pay Israel and Jewish groups. But that money did not build hotels in Berlin.
-  - why not D: The Kurfürstendamm was in the British sector of West Berlin, but the sign names the Marshall Plan, an American program. Britain itself received Marshall Plan aid.
+  - why not D: The Dawes Plan of 1924 lent American money to Germany so it could pay reparations after World War I. The sign names the Marshall Plan, which began in 1948.
   - hint: Look at the date of the photograph and the program named on the sign.
 
 **E9-P14** [Topic 9.3 · LO C · Skill 2.B · medium]  Given its context, Zentralbild most likely released the photograph and its caption in order to
@@ -393,7 +393,7 @@ KEY: B. Explanation: The Court said workers could use Article 119 in their own n
 > There is no doubt that many of the issues in this report will arouse strong and widely differing opinions. Indeed, among the public at large they are already doing so. There will not be a consensus view on all recommendations. The members of the committee were divided in their view on certain aspects of research and on surrogacy.
 > * Louise Brown, born in England in July 1978, was the first baby conceived by in vitro fertilisation (IVF): an egg was fertilised in a laboratory dish and then placed in the mother's womb.
 — Lord Glenarthur, junior health minister in Margaret Thatcher's Conservative government, speech in the House of Lords opening a debate on the report of a government inquiry into human fertilisation and embryology (the Warnock Report), October 31, 1984 (Text from Hansard, House of Lords Debates, 5th series, vol. 456, cols. 524–525 (October 31, 1984); the online text's "in this county" is corrected to "in this country". Contains Parliamentary information licensed under the Open Parliament Licence v3.0; adapted)
-> Words to know: genetically their own = born from the couple's own egg and sperm; disquiet = worry; medical ethics = rules of right and wrong for doctors; scrutiny = close examination; lay = not professional; ordinary citizens; statutory body = an official organization set up by law; embryos = fertilized eggs in the earliest stage of growth; surrogacy = an arrangement in which a woman carries a baby for another couple
+> Words to know: genetically their own = born from the couple's own egg and sperm; disquiet = worry; medical ethics = rules of right and wrong for doctors; scrutiny = close examination; lay = not professional; ordinary citizens; statutory body = an official organization set up by law; embryos = fertilised eggs in the earliest stage of growth; surrogacy = an arrangement in which a woman carries a baby for another couple
 
 **E9-P25** [Topic 9.12 · LO M · Skill 3.A · easy]  Which of the following best describes Glenarthur's main point?
 - (A) Doctors, not Parliament, should decide how new fertility treatments are used.
@@ -511,7 +511,7 @@ KEY: B. Explanation: Green parties began to form in the 1970s and grew stronger 
 - (D) faster economic growth through closer European trade ties
 KEY: A. Explanation: In 1968 students protested in France, West Germany, Italy, and other countries. Many attacked the consumer society and old-fashioned authority. Like the passage, they asked whether making and buying more goods really made life better.
   - why not B: In France the students protested against President de Gaulle's strong rule. Strong leadership and national prestige were de Gaulle's goals, not theirs.
-  - why not C: The passage does say polluters should pay. But this rule came from governments in the early 1970s; for example, a group of rich countries called the OECD adopted it in 1972. It was not a main demand of the student protesters of 1968.
+  - why not C: The passage does say polluters should pay. But this rule came from governments in the early 1970s; for example, a group of mostly wealthy countries called the OECD adopted it in 1972. It was not a main demand of the student protesters of 1968.
   - why not D: This makes faster growth the main goal. The passage warns against judging growth "from purely quantitative aspects."
   - hint: What did the young protesters of 1968 criticize about the societies built after the war?
 
@@ -812,12 +812,12 @@ KEY: B. Explanation: Attlee says that Britain chose to leave. Many historians di
 
 **E9-E06** [Topic 9.11 · LO L · Skill 5.B · Causation · medium]  The ties between Britain and the new Dominions that Attlee hoped would continue contributed most directly to which later development?
 - (A) India's leading role in the Non-Aligned Movement
-- (B) Britain's entry into the European Community in 1973
+- (B) Indian and Pakistani support for Britain in the Suez Crisis of 1956
 - (C) the wars between India and Pakistan over Kashmir
 - (D) migration from India and Pakistan to Britain
 KEY: D. Explanation: India and Pakistan stayed in the Commonwealth. Under a 1948 law, their citizens could move to Britain freely. Many came to work in factories, in hospitals, and on buses and trains. Large South Asian communities grew in British cities.
   - A: Incorrect. India stayed in the Commonwealth, but it refused to join either side in the Cold War. Non-alignment came from India's own foreign policy, not from its ties with Britain.
-  - B: Incorrect. Joining the European Community pulled Britain's trade toward Europe and away from the Commonwealth. It did not grow out of Britain's ties with India and Pakistan.
+  - B: Incorrect. When Britain and France attacked Egypt in 1956, India and Pakistan both voted at the United Nations for a ceasefire. The crisis divided the Commonwealth.
   - C: Incorrect. The fighting over Kashmir began in 1947. It grew out of partition and the dispute over which new country Kashmir would join, not out of ties with Britain.
   - D: Correct. The British Nationality Act of 1948 let citizens of Commonwealth countries, including India and Pakistan, enter Britain freely. Many came to fill jobs. The Commonwealth Immigrants Act of 1962 began to limit entry.
 
@@ -1165,6 +1165,7 @@ Not used (with the reason):
 - David Steel's 1966 abortion bill speech (Hansard) was downloaded but not used; the Warnock debate (P9) covers medical technology and moral debate.
 
 Notes:
+- Changes in v2026-11-09f (final blind key check of the v2026-11-09e changes, ae-final9-report.md: 11/11 agreement, no MUST-FIX; the five optional SHOULD-FIXes applied). Sources: only the P9 glossary entry "embryos" changed, to the spelling "fertilised" used in the footnote written for this exam; no excerpt, attribution, credit line or footnote changed. Items: distractors replaced in E9-P01 (the fall of the Berlin Wall, which came after the December 1988 speech, is now reform demands from Eastern Europe's communist leaders; why-not names Honecker), E9-P13 (British aid to the British sector is now U.S. loans under the 1924 Dawes Plan) and E9-E06 (Britain's entry into the EC in 1973 is now Indian and Pakistani support for Britain at Suez in 1956: in UN General Assembly resolution 997 (ES-I) of 2 Nov. 1956, adopted 64–5–6, India and Pakistan voted Yes and the UK, France, Israel, Australia and New Zealand voted No; checked on un-project.org, record of A/PV.562); E9-P33 why-not C now says "mostly wealthy countries" (the 1972 OECD included Greece, Portugal, Spain and Turkey). No key letter changed.
 - Changes in v2026-11-09e (final independent check, check_report_final.md: 73/73 blind agreement, no MUST-FIX; all twelve SHOULD-FIXes applied after each fact was checked). Sources: only the P9 glossary entry "embryos" changed (now "fertilized eggs in the earliest stage of growth"). No excerpt, attribution, credit line or footnote changed; no source was added or replaced. Items: distractors replaced in E9-E06 (non-alignment, Britain's entry into the EC in 1973, the Kashmir wars), E9-P33 C (polluter pays; OECD Council Recommendation adopted 26 May 1972, checked on legalinstruments.oecd.org), E9-P13 D (British aid to the British sector; the Kurfürstendamm/Fasanenstraße site is in Charlottenburg), E9-E11 B (unemployment just after the war: about 11% in 1950), E9-E15 A (Brezhnev's death and Andropov, November 1982) and E9-P26 B (a 1985 embryo-research ban: Enoch Powell's Unborn Children (Protection) Bill was read a second time 238–66 on 15 Feb. 1985, HC Deb vol. 73; its Report stage was never completed and the time motion was talked out on 7 June 1985, HC Deb vol. 80 cols. 608–611, so it never became law); the E9-E24 key is shortened to "campaigns by Green parties"; wording fixes in the E9-P01 hint, the E9-P45 and E9-P46 explanations and E9-E18 rationale C.
 - Changes in v2026-11-09d (ChatGPT Pro review, saved as ae9/chatgpt_review.txt; every finding was checked before it was applied). Sources: P5's attribution, caption and glossary now call Zentralbild "an East German photo agency" (it joined ADN only in January 1956; Bundesarchiv and ZZF pages saved in raw/web/); X5 Source 1 gets a footnote that East German combat troops were held back and did not enter Czechoslovakia (Bundesarchiv page saved in raw/web/); P4 gets a footnote that NATO's nuclear protection covered its members and that some Western European states stayed neutral; P7's title is now "Total Fertility Rates ... (births per woman)" and its replacement-level sentence is more exact; X6's title is now "GDP per Person ..." and its note says GDP per person is not what each person earned; glossaries changed for X2 ("allegiance to the Sovereign": no "head of the Commonwealth" in 1947), X3 Source 1 ("the House": a chamber of Parliament) and P9 ("embryos": neutral wording); P11's locator now names Part I, Introduction and Title II. No excerpt's words changed (the only additions are two footnote asterisks, which the checker strips; check_excerpts.py still reports the same five documented misses). No source was added or replaced. Items: E9-P33 was rewritten to assess the revolts of 1968 (KC-4.4.III.C; now 9.14, LO O), so topic counts are now 9.14: 4 and 9.15: 4; distractors were replaced in E9-P11, P17, P20, P24, P27, P39, P45, P48, E01, E06, E20, E22, E24; skill tags follow the review (1.A for E9-P10, P29, E03, E14; 3.A for P22; 5.A for P32, P42, E10; 5.B for E16).
 - Changes in v2026-11-09c (coverage gaps named in check_report.md, "Coverage of core Cold War content"): two practice sets were replaced; set IDs and item IDs (E9-P01 to E9-P06) are kept, so nothing else shifts. The two sets chosen were the weakest fits to the Unit 9 CED: P1 (Marinetti, 1909) predates the unit's c. 1914 start, and Learning Objective O concerns culture after the Second World War; P2 (Zaghlul, 1919) duplicated the only decolonization angle the bank already had (British, peaceful, before 1947), while KC-4.1.VI.C (delayed independence after 1945, Cold War alignments, the FLN) had no source. New P1: Gorbachev's address to the UN General Assembly, 7 Dec. 1988 (A/43/PV.72), items on perestroika and economic stagnation (9.7), the Polish elections of 1989 (9.4), and the purpose of unilateral troop cuts (9.1). New P2: UN General Assembly resolution 1514 (XV), 14 Dec. 1960, items linking self-determination back to Wilson (KC-4.1.VI.A, which the Zaghlul letter used to cover), the Algerian War and the FLN, and Portugal's colonies and the 1974 revolution (all 9.9). Trade-off: Futurism and Dada are no longer tested; 9.14 keeps three items (P7 fertility data and E9-E23). Topic counts are now 9.1: 4, 9.4: 7, 9.7: 8, 9.9: 5, 9.14: 3 (others unchanged). tools/write_sources.py has the new P1/P2 metadata and can now write selected files only (python3 ae9/tools/write_sources.py P1 P2).
@@ -1704,6 +1705,7 @@ NOTES ON MISMATCHES, CUTS AND CORRECTIONS:
 The online text reads '1978 saw the birth in this county of a child'; corrected to 'country' (disclosed in the credit line; an apparent slip). The quotations from the Warnock Report's foreword (Crown copyright) are not used. Cuts as marked.
 v2026-11-09d (ChatGPT review): the glossary entry "embryos" ("unborn humans at the earliest stage of development") took a side in the moral debate the passage describes; it now reads "the earliest stage of development after an egg is fertilized." The excerpt is unchanged.
 v2026-11-09e (final check): the glossary entry "embryos" now reads "fertilized eggs in the earliest stage of growth" (the old wording defined a thing as a stage). The excerpt is unchanged.
+v2026-11-09f (final blind key check, SHOULD-FIX 1): the glossary entry "embryos" now spells "fertilised", to match the footnote written for this exam ("in vitro fertilisation", "an egg was fertilised"), so the panel uses one spelling. The quoted Hansard text is unchanged.
 
 ### P10
 ID: P10
