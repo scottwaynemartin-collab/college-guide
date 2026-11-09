@@ -1,0 +1,40 @@
+ChatGPT Pro review of the Nov 9 source swap (AP European History Units 8 and 9)
+Conversation: https://chatgpt.com/c/6af195d8-e8b0-83e9-b54e-d9a40b7137b0 (Pro, max thinking effort; worked 7m 18s)
+Input: euro-exam/CHATGPT_CHECK_swap_nov9.md at commit e417ec5 (10 items, 3 new sources)
+
+Reviewer's verdict: all 10 keys are the single best answers; no item has two defensible answers; no key change needed.
+Attributions confirmed: Duff Cooper, 3 Oct. 1938, Hansard cols. 32–39 (speech cols. 29–40); Hitler, Directive No. 16, 16 July 1940,
+NCA vol. 3, 442-PS, pp. 399–400; Potsdam Protocol, 1 Aug. 1945, signed by Stalin, Truman and Attlee; Chamberlain, cols. 41–50.
+
+Findings and what was done (each checked before it was applied):
+
+MUST-FIX
+1. X6 Source 2: Duff Cooper's "That was less than six months ago" is a slip in the speech itself (Austria: 12 March 1938;
+   speech: 3 October 1938). APPLIED: paragraph 4 now ends after "…would not interfere with Czechoslovakia. …"; the
+   sentence and the colonies questions after it are cut (this also removes the "[his promises]" bracket); "bluster"
+   glossary entry removed ("henchmen" added).
+2. X1 page range: "further expulsions" is on p. 1496. APPLIED: pp. 1491–1496 (the independent check found the same).
+
+SHOULD-FIX
+3. E8-E15: "only force" overstates Duff Cooper ("more open to the language of the mailed fist"). APPLIED (independent
+   check's wording): "…while Duff Cooper says Hitler responds better to the threat of force."; explanation now says
+   "more open to the threat of force."
+4. E8-E16: "Germany's defeat by the Spanish Republic" is an invented event. APPLIED: replaced by "confidence that the
+   League of Nations could stop German aggression", with a rationale naming Manchuria and Ethiopia.
+5. E8-E18: explanation should say why Britain and France declared war. APPLIED, but keeping the blitzkrieg link that
+   ties the item to 8.8 (the CED lists the Polish campaign of 1939 as an 8.8 example). Suggested retag to 8.7/J NOT
+   applied for that reason (it would also leave the exam with no 8.8 item).
+6. E8-P43: Dunkirk/"almost alone" sentence and the guerrilla why-not. APPLIED with our wording ("More than 300,000
+   British and French troops escaped from Dunkirk, but Britain had lost its main ally in Europe."; guerrilla forces
+   "use small groups to make surprise attacks and then pull back").
+7. E8-P44 hint: "surrendered" -> "signed an armistice". APPLIED.
+8. E8-P45: dated distractors gave the answer away; explanation implied Soviet planning began after September.
+   APPLIED: new stem ("most directly prevented Germany from launching the planned invasion of Britain in 1940"),
+   undated choices, explanation "Plans for an attack on the Soviet Union were already being studied that summer."
+   The Stalingrad why-not was also corrected (independent check): the Soviet victory came in early 1943.
+9. E9-E01 ECSC rationale: signed 1951, in force 1952. APPLIED.
+10. E9-E02 Finland rationale overclaimed. APPLIED (narrowed).
+11. E9-E03: "ethnic cleansing after 1945" -> "postwar ethnic cleansing"; rationale dates the flight from late 1944 and
+    defines ethnic cleansing by ethnicity, not nationality. APPLIED.
+12. Glossaries: appeasement, Treaty of Locarno (add the Rhineland), Polish Provisional Government (Government of
+    National Unity, June 1945). APPLIED.

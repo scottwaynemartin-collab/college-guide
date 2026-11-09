@@ -124,7 +124,7 @@
     "… The Czechoslovak Government, the Polish Provisional Government and the Control Council in Hungary are at the same time being informed of the above and are being requested meanwhile to suspend further expulsions …"
    ],
    "attribution": "Protocol of the Potsdam Conference, agreed by the leaders of the Soviet Union (Joseph Stalin), the United States (Harry Truman), and Britain (Clement Attlee), August 1, 1945",
-   "translation": "Text from Foreign Relations of the United States: The Conference of Berlin (The Potsdam Conference), 1945, vol. II (Washington: U.S. Government Printing Office, 1960), document 1383, pp. 1491–1495 (U.S. government work, public domain); adapted",
+   "translation": "Text from Foreign Relations of the United States: The Conference of Berlin (The Potsdam Conference), 1945, vol. II (Washington: U.S. Government Printing Office, 1960), document 1383, pp. 1491–1496 (U.S. government work, public domain); adapted",
    "footnotes": [
     {
      "mark": "*",
@@ -138,7 +138,7 @@
     },
     {
      "t": "Polish Provisional Government",
-     "d": "the temporary government of Poland, set up in 1945 to rule until elections were held"
+     "d": "the temporary Polish Government of National Unity, formed in June 1945 and expected to hold free elections"
     },
     {
      "t": "unfettered",
@@ -2391,7 +2391,7 @@
     "topic": "9.1",
     "lo": "A",
     "skill": "4.B",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "The agreements in the passage are best understood in the context of which of the following?",
     "options": {
      "A": "the Soviet blockade of West Berlin and the Western airlift that followed",
@@ -2404,9 +2404,9 @@
      "A": "Incorrect. The Berlin blockade began in 1948, three years after this agreement.",
      "B": "Incorrect. The passage is about Poland, Germany, and other states in Europe, not about colonies overseas.",
      "C": "Correct. In July and August 1945, the leaders of the Soviet Union, the United States, and Britain met at Potsdam, near Berlin, to decide the future of Germany and Eastern Europe.",
-     "D": "Incorrect. Six Western European states founded the European Coal and Steel Community in 1951. It was not part of the Potsdam agreements."
+     "D": "Incorrect. Six Western European states signed the treaty creating the European Coal and Steel Community in 1951. It took effect in 1952, years after Potsdam."
     },
-    "explanation": "Germany surrendered in May 1945. At Potsdam, Stalin, Truman, and Attlee tried to settle the postwar order. Soviet armies already held most of Eastern Europe. The Western leaders asked for promises of free elections and a free press there, but they had little power to enforce them."
+    "explanation": "Germany surrendered in May 1945. At Potsdam, Stalin, Truman, and Britain's leaders (first Churchill, then Attlee) tried to settle the postwar order. Soviet armies already held most of Eastern Europe. The Western leaders asked for promises of free elections and a free press there, but they had little power to enforce them."
    },
    {
     "id": "E9-E02",
@@ -2419,14 +2419,14 @@
     "options": {
      "A": "Communist parties took over Bulgaria, Romania, Hungary, and Poland by 1949.",
      "B": "Finland kept a democratic government after the war.",
-     "C": "Austria regained full independence as a neutral state in 1955.",
+     "C": "The Soviet Union tested its first atomic bomb in 1949.",
      "D": "Greece's government defeated communist rebels in a civil war that ended in 1949."
     },
     "answer": "A",
     "rationales": {
      "A": "Correct. Poland's communists won rigged elections in 1947. Bulgaria's communists executed the opposition leader Nikola Petkov that year. Romania's king was forced to give up his throne that December. Hungary's communists pushed out their rivals by 1949.",
-     "B": "Incorrect. Finland is named in the passage, but it stayed a democracy. That shows a hope that was met, not one that failed.",
-     "C": "Incorrect. Austria regained full independence in 1955 and stayed a democracy. It is not one of the countries named in the passage.",
+     "B": "Incorrect. Finland remained a parliamentary democracy after the war. That does not show that the freedoms promised in the passage were denied.",
+     "C": "Incorrect. The Soviet atomic bomb test in 1949 started a nuclear arms race. It had nothing to do with elections or a free press in the countries named in the passage.",
      "D": "Incorrect. Greece is not named in the passage, and its government defeated the communist rebels. Greece stayed out of the Soviet bloc."
     },
     "explanation": "From 1945 to 1949, communist parties backed by the Soviet Union took power in Poland, Hungary, Romania, and Bulgaria. They used rigged elections, arrests, censorship, and threats. The promises made at Yalta and Potsdam were not kept."
@@ -2440,14 +2440,14 @@
     "difficulty": "medium",
     "stem": "The \"transfer to Germany of German populations\" described in the passage best illustrates which postwar development?",
     "options": {
-     "A": "ethnic cleansing after 1945",
+     "A": "postwar ethnic cleansing",
      "B": "the return of Holocaust survivors",
      "C": "guest-worker recruitment",
      "D": "the flight of East Germans before 1961"
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Between 1945 and 1950, about 12 million Germans fled or were driven out of Poland, Czechoslovakia, and other states. Many died on the way. Driving out a people because of its nationality is called ethnic cleansing.",
+     "A": "Correct. Near the end of World War II and in the years after it, about 12 million Germans fled or were forced from their homes in Central and Eastern Europe. Many died. The expulsions targeted people because they were German. Driving out an ethnic group by force or threats is called ethnic cleansing.",
      "B": "Incorrect. The passage describes Germans being moved out of Poland, Czechoslovakia, and Hungary, not Jewish survivors going home. Many survivors who tried to return home met hostility, and many left Eastern Europe.",
      "C": "Incorrect. Guest workers came to West Germany in the 1950s and 1960s to fill jobs. The passage describes Germans being forced out in 1945.",
      "D": "Incorrect. Millions of East Germans moved west before the Berlin Wall went up in 1961. The passage describes something else: Germans driven out of Poland, Czechoslovakia, and Hungary."

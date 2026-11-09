@@ -332,7 +332,7 @@
       },
       {
        "t": "appeasement",
-       "d": "keeping the peace by meeting the demands of a rival"
+       "d": "trying to prevent war by giving in to some demands of an aggressive country"
       },
       {
        "t": "bristles with",
@@ -346,7 +346,7 @@
       "… It was not for Serbia that we fought in 1914. It was not even for Belgium, although it occasionally suited some people to say so. We were fighting then, as we should have been fighting last week, in order that one great Power should not be allowed, in disregard of treaty obligations, of the laws of nations and the decrees of morality to dominate by brutal force the Continent of Europe. …",
       "… That is the deep difference between the Prime Minister and myself throughout these days. The Prime Minister has believed in addressing Herr Hitler through the language of sweet reasonableness. I have believed that he was more open to the language of the mailed fist. …",
       "… We are left with the additional serious commitment that we are guaranteeing a frontier that we have at the same time destroyed. We have taken away the defences of Czechoslovakia in the same breath as we have guaranteed them, as though you were to deal a man a mortal blow and at the same time insure his life. …",
-      "… The Prime Minister has confidence in the good will and in the word of Herr Hitler, although when Herr Hitler broke the Treaty of Versailles he undertook to keep the Treaty of Locarno, and when he broke the Treaty of Locarno he undertook not to interfere further, or to have further territorial aims, in Europe. When he entered Austria by force he authorised his henchmen to give an authoritative assurance that he would not interfere with Czechoslovakia. That was less than six months ago. … Do [his promises] mean that Herr Hitler will take \"No\" for an answer? He has never taken it yet. Or do they mean that he believes that he will get away with this, as he has got away with everything else, without fighting, by well-timed bluff, bluster and blackmail? …"
+      "… The Prime Minister has confidence in the good will and in the word of Herr Hitler, although when Herr Hitler broke the Treaty of Versailles he undertook to keep the Treaty of Locarno, and when he broke the Treaty of Locarno he undertook not to interfere further, or to have further territorial aims, in Europe. When he entered Austria by force he authorised his henchmen to give an authoritative assurance that he would not interfere with Czechoslovakia. …"
      ],
      "attribution": "Duff Cooper, member of Parliament from Chamberlain's Conservative Party, explaining to the House of Commons why he had resigned from the cabinet, October 3, 1938",
      "translation": "Text from Hansard, House of Commons Debates, 5th series, vol. 339, cols. 32–39 (October 3, 1938), UK Parliament, Open Parliament Licence v3.0; adapted",
@@ -377,11 +377,11 @@
       },
       {
        "t": "the Treaty of Locarno",
-       "d": "a 1925 treaty in which Germany accepted its borders with France and Belgium"
+       "d": "a 1925 treaty in which Germany accepted its borders with France and Belgium and agreed to keep its troops out of the Rhineland"
       },
       {
-       "t": "bluster",
-       "d": "loud, threatening talk"
+       "t": "henchmen",
+       "d": "loyal followers who carry out a leader's orders"
       }
      ]
     }
@@ -2252,11 +2252,11 @@
     "D": "Guerrilla warfare"
    },
    "answer": "B",
-   "explanation": "Blitzkrieg means \"lightning war.\" Masses of tanks and planes broke through the enemy's lines and moved fast. In May and June 1940 Germany used it to defeat the Netherlands, Belgium, and France in about six weeks. British troops escaped from Dunkirk, but Britain now stood almost alone.",
+   "explanation": "Blitzkrieg means \"lightning war.\" Masses of tanks and planes broke through the enemy's lines and moved fast. In May and June 1940 Germany used it to defeat the Netherlands, Belgium, and France in about six weeks. More than 300,000 British and French troops escaped from Dunkirk, but Britain had lost its main ally in Europe.",
    "whyNot": {
     "A": "Trench warfare was slow fighting from fixed lines, as in the First World War. In 1940 the German army moved fast.",
     "C": "A naval blockade cuts off supplies by sea. Germany defeated France in a land campaign led by tanks and planes.",
-    "D": "Guerrilla warfare is fought by small bands, often hiding among civilians. The German attacks were made by huge regular armies."
+    "D": "Guerrilla forces use small groups to make surprise attacks and then pull back. The German attacks were made by huge regular armies with tanks and planes."
    },
    "hint": "Think about how Germany defeated France in only about six weeks in 1940. What was that fast-moving kind of attack called?"
   },
@@ -2281,7 +2281,7 @@
     "C": "The United States entered the war in December 1941, after Japan attacked Pearl Harbor. In 1940 it sold Britain supplies but stayed out of the fighting.",
     "D": "At Munich in 1938 Britain gave in to Hitler. In 1940 Britain did the opposite and refused to make peace."
    },
-   "hint": "The order is dated July 16, 1940. France had just surrendered. What did Britain's new government decide to do?"
+   "hint": "The order is dated July 16, 1940. France had just signed an armistice with Germany. What did Britain's new government decide to do?"
   },
   {
    "id": "E8-P45",
@@ -2290,18 +2290,18 @@
    "lo": "K",
    "skill": "5.B",
    "difficulty": "medium",
-   "stem": "Which of the following best explains why Germany never carried out the landing operation ordered in the directive?",
+   "stem": "Which of the following most directly prevented Germany from launching the planned invasion of Britain in 1940?",
    "options": {
-    "A": "The United States entered the war against Germany in December 1941.",
-    "B": "The Soviet army defeated a German army at Stalingrad in early 1943.",
-    "C": "German troops were sent to help Italy in North Africa in early 1941.",
-    "D": "The German air force failed to defeat the Royal Air Force in the Battle of Britain."
+    "A": "The United States entered the war against Germany.",
+    "B": "The Soviet army defeated a German army at Stalingrad.",
+    "C": "German troops were sent to help Italy in North Africa.",
+    "D": "The German air force failed to defeat the Royal Air Force."
    },
    "answer": "D",
-   "explanation": "Point 2a says the invasion depended on beating the British air force first. From July to October 1940, the German air force tried to destroy the Royal Air Force. British fighter pilots, helped by radar, held on. In September 1940 Hitler put off the invasion, and he soon turned his plans toward the Soviet Union.",
+   "explanation": "Point 2a says the invasion depended on beating the British air force first. From July to October 1940, the German air force tried to destroy the Royal Air Force. British fighter pilots, helped by radar, held on. In September 1940 Hitler put off the invasion. Plans for an attack on the Soviet Union were already being studied that summer.",
    "whyNot": {
-    "A": "The United States entered the war more than a year after Hitler had put off the invasion of Britain in September 1940.",
-    "B": "The battle of Stalingrad came more than two years after Hitler had put off the invasion of Britain.",
+    "A": "The United States entered the war in December 1941, more than a year after Hitler had put off the invasion of Britain in September 1940.",
+    "B": "The Soviet victory at Stalingrad in early 1943 came more than two years after Hitler had put off the invasion of Britain.",
     "C": "German troops went to North Africa in February 1941, months after Hitler had put off the invasion of Britain."
    },
    "hint": "Point 2a names a condition that had to come first. Did Germany ever achieve it?",
@@ -2726,7 +2726,7 @@
     "stem": "Which of the following best describes a difference between the two sources?",
     "options": {
      "A": "Chamberlain wants Britain to stop building weapons, while Duff Cooper wants Britain to rearm.",
-     "B": "Chamberlain praises settling the crisis by discussion, while Duff Cooper says Hitler respects only force.",
+     "B": "Chamberlain praises settling the crisis by discussion, while Duff Cooper says Hitler responds better to the threat of force.",
      "C": "Chamberlain trusts the League of Nations to protect Czechoslovakia, while Duff Cooper trusts Germany's written promises.",
      "D": "Chamberlain blames France for the crisis, while Duff Cooper blames Czechoslovakia."
     },
@@ -2737,7 +2737,7 @@
      "C": "Incorrect. Neither speaker relies on the League. Duff Cooper distrusts Hitler's word and lists promises Hitler had broken.",
      "D": "Incorrect. Neither speaker blames France or Czechoslovakia. Duff Cooper says Britain has \"taken away the defences of Czechoslovakia.\""
     },
-    "explanation": "Chamberlain says the Munich meeting solved a hard problem \"by discussion instead of by force of arms.\" Duff Cooper resigned from the cabinet in protest. He says Hitler gives way only to force, and he points to the promises Hitler had already broken.",
+    "explanation": "Chamberlain says the Munich meeting solved a hard problem \"by discussion instead of by force of arms.\" Duff Cooper resigned from the cabinet in protest. He says Hitler was more open to the threat of force, and he points to the promises Hitler had already broken.",
     "reasoning": "Comparison"
    },
    {
@@ -2751,14 +2751,14 @@
     "options": {
      "A": "a British military alliance with the Soviet Union that protected Czechoslovakia",
      "B": "American promises to send an army to Europe if Germany attacked its neighbors",
-     "C": "Germany's defeat by the Spanish Republic in the Spanish Civil War",
+     "C": "confidence that the League of Nations could stop German aggression",
      "D": "widespread fear in Britain and France of another war like the First World War"
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. Britain had no alliance with the Soviet Union in 1938. The Soviet Union was not invited to the Munich conference.",
      "B": "Incorrect. The United States followed a policy of isolation in the 1930s and made no such promise.",
-     "C": "Incorrect. Germany helped Franco's Nationalists, who won the Spanish Civil War in 1939.",
+     "C": "Incorrect. The League had already failed to stop Japan in Manchuria and Italy in Ethiopia. Chamberlain settled the crisis through talks among four powers, not through the League.",
      "D": "Correct. Memories of the millions killed in 1914–1918, and fear of bombing raids on cities, made many Britons and French people eager to avoid war."
     },
     "explanation": "Chamberlain says war \"in a form more stark and terrible than ever before\" had seemed close. Many people in Britain and France feared another great war. Distrust of the Soviet Union and American isolationism also pushed them toward appeasement.",
@@ -2785,8 +2785,7 @@
      "C": "Incorrect. Italy, not Germany, invaded Albania. That did not affect Czechoslovakia.",
      "D": "Incorrect. Germany forced Lithuania to give up Memel. Memel was not part of Czechoslovakia."
     },
-    "explanation": "Duff Cooper lists promises Hitler had broken, including an assurance that he \"would not interfere with Czechoslovakia.\" In March 1939 Hitler broke the Munich Agreement and took Prague. Britain and France then promised to defend Poland.",
-    "reasoning": "Causation"
+    "explanation": "Duff Cooper lists promises Hitler had broken, including an assurance that he \"would not interfere with Czechoslovakia.\" In March 1939 Hitler broke the Munich Agreement and took Prague. Britain and France then promised to defend Poland."
    },
    {
     "id": "E8-E18",
@@ -2809,7 +2808,7 @@
      "C": "Incorrect. Germany invaded France in May 1940, after Britain and France had already been at war with Germany for eight months.",
      "D": "Correct. Germany invaded Poland on September 1, 1939, and Britain and France declared war two days later."
     },
-    "explanation": "Germany's attack on Poland was its first blitzkrieg. Tanks and planes crushed the Polish army in a few weeks. The Soviet Union invaded Poland from the east on September 17.",
+    "explanation": "Germany invaded Poland on September 1, 1939, in a fast blitzkrieg campaign of tanks and planes. Britain and France had promised to help Poland if its independence was threatened, so they declared war on Germany on September 3. The Soviet Union invaded eastern Poland on September 17.",
     "reasoning": "Causation"
    },
    {

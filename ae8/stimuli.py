@@ -111,13 +111,13 @@ STIM = {
                   {"t": "averted", "d": "prevented"},
                   {"t": "pacification", "d": "bringing peace"},
                   {"t": "animosities", "d": "feelings of strong dislike"},
-                  {"t": "appeasement", "d": "keeping the peace by meeting the demands of a rival"},
+                  {"t": "appeasement", "d": "trying to prevent war by giving in to some demands of an aggressive country"},
                   {"t": "bristles with", "d": "is full of"}]),
     item("Source 2", [
         "… It was not for Serbia that we fought in 1914. It was not even for Belgium, although it occasionally suited some people to say so. We were fighting then, as we should have been fighting last week, in order that one great Power should not be allowed, in disregard of treaty obligations, of the laws of nations and the decrees of morality to dominate by brutal force the Continent of Europe. …",
         "… That is the deep difference between the Prime Minister and myself throughout these days. The Prime Minister has believed in addressing Herr Hitler through the language of sweet reasonableness. I have believed that he was more open to the language of the mailed fist. …",
         "… We are left with the additional serious commitment that we are guaranteeing a frontier that we have at the same time destroyed. We have taken away the defences of Czechoslovakia in the same breath as we have guaranteed them, as though you were to deal a man a mortal blow and at the same time insure his life. …",
-        "… The Prime Minister has confidence in the good will and in the word of Herr Hitler, although when Herr Hitler broke the Treaty of Versailles he undertook to keep the Treaty of Locarno, and when he broke the Treaty of Locarno he undertook not to interfere further, or to have further territorial aims, in Europe. When he entered Austria by force he authorised his henchmen to give an authoritative assurance that he would not interfere with Czechoslovakia. That was less than six months ago. … Do [his promises] mean that Herr Hitler will take \"No\" for an answer? He has never taken it yet. Or do they mean that he believes that he will get away with this, as he has got away with everything else, without fighting, by well-timed bluff, bluster and blackmail? …"],
+        "… The Prime Minister has confidence in the good will and in the word of Herr Hitler, although when Herr Hitler broke the Treaty of Versailles he undertook to keep the Treaty of Locarno, and when he broke the Treaty of Locarno he undertook not to interfere further, or to have further territorial aims, in Europe. When he entered Austria by force he authorised his henchmen to give an authoritative assurance that he would not interfere with Czechoslovakia. …"],
         "Duff Cooper, member of Parliament from Chamberlain's Conservative Party, explaining to the House of Commons why he had resigned from the cabinet, October 3, 1938",
         "Text from Hansard, House of Commons Debates, 5th series, vol. 339, cols. 32–39 (October 3, 1938), UK Parliament, Open Parliament Licence v3.0; adapted",
         glossary=[{"t": "Serbia", "d": "the Balkan kingdom that Austria-Hungary attacked in 1914, starting World War I"},
@@ -126,8 +126,8 @@ STIM = {
                   {"t": "sweet reasonableness", "d": "calm, polite argument"},
                   {"t": "the mailed fist", "d": "the threat of force (a mailed fist is a fist in an armored glove)"},
                   {"t": "guaranteeing a frontier", "d": "promising to defend a border; at Munich, Britain offered to guarantee Czechoslovakia's new borders"},
-                  {"t": "the Treaty of Locarno", "d": "a 1925 treaty in which Germany accepted its borders with France and Belgium"},
-                  {"t": "bluster", "d": "loud, threatening talk"}])]},
+                  {"t": "the Treaty of Locarno", "d": "a 1925 treaty in which Germany accepted its borders with France and Belgium and agreed to keep its troops out of the Rhineland"},
+                  {"t": "henchmen", "d": "loyal followers who carry out a leader's orders"}])]},
 
 "X7": P([
     "Yes, Sir, I regret to have to inform the House that reliable reports have recently reached His Majesty's Government regarding the barbarous and inhuman treatment to which Jews are being subjected in German-occupied Europe. They have in particular received a note from the Polish Government, which was also communicated to other United Nations* and which has received wide publicity in the Press. …",
