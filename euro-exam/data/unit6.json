@@ -1,0 +1,3080 @@
+{
+ "unit": 6,
+ "title": "Industrialization and Its Effects",
+ "period": "c. 1815–1914",
+ "examWeighting": "10–15%",
+ "blurb": "The Industrial Revolution's spread from Britain to the continent, the second industrial revolution, industry's social effects, conservatism and the Concert of Europe, the revolutions of 1830 and 1848, new ideologies, and the reforms that answered industrial problems.",
+ "version": "2026-11-09b",
+ "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 6: Learning Objectives A-K).",
+ "topics": [
+  {
+   "id": "6.1",
+   "name": "Contextualizing Industrialization and Its Origins and Effects",
+   "lo": [
+    "A"
+   ]
+  },
+  {
+   "id": "6.2",
+   "name": "The Spread of Industry Throughout Europe",
+   "lo": [
+    "B"
+   ]
+  },
+  {
+   "id": "6.3",
+   "name": "Second Wave Industrialization and Its Effects",
+   "lo": [
+    "C",
+    "D"
+   ]
+  },
+  {
+   "id": "6.4",
+   "name": "Social Effects of Industrialization",
+   "lo": [
+    "E"
+   ]
+  },
+  {
+   "id": "6.5",
+   "name": "The Concert of Europe and European Conservatism",
+   "lo": [
+    "F"
+   ]
+  },
+  {
+   "id": "6.6",
+   "name": "Reactions and Revolutions",
+   "lo": [
+    "G"
+   ]
+  },
+  {
+   "id": "6.7",
+   "name": "Ideologies of Change and Reform Movements",
+   "lo": [
+    "H"
+   ]
+  },
+  {
+   "id": "6.8",
+   "name": "19th-Century Social Reform",
+   "lo": [
+    "I"
+   ]
+  },
+  {
+   "id": "6.9",
+   "name": "Institutional Responses and Reform",
+   "lo": [
+    "J"
+   ]
+  },
+  {
+   "id": "6.10",
+   "name": "Causation in the Age of Industrialization",
+   "lo": [
+    "K"
+   ]
+  }
+ ],
+ "stimuli": {
+  "X1": {
+   "type": "passage",
+   "paragraphs": [
+    "We now enter the coal and iron country; everywhere are marks of manufacturing life; the cinder heaps form mountains; the earth is seamed with excavations; tall furnaces belch forth flames. We are nearing Manchester. In the bronzed sky at sunset a strangely-shaped cloud hangs over the plain; under this motionless covering are hundreds of bristling chimneys, as tall as obelisks; a huge and black mass is next distinguishable, then endless rows of buildings, and we enter the Babel of bricks.",
+    "Walked through the city; seen close at hand, it is still more dismal. The air and the soil appear charged with fog and soot. Manufactories with their blackened bricks, their naked fronts, their windows destitute of shutters, and resembling huge and cheap penitentiaries, succeed each other in rows. … One of these buildings is a rectangle of six stories, in each of which are forty windows; it is there that, lit up by gas, amid the deafening noise of looms, thousands of workpeople, cabined, classified, immovable, mechanically drive their machines every day from morning to night; can any form of existence be more opposed to, and at variance with, the natural instincts of man? About six o'clock a bustling, noisy crowd pours from the mills into the streets; men, women, and children flock along in the open air; their clothes are filthy; many of the children are bare-footed, the faces of all are pinched and gloomy; several halt at the gin-palaces; the others scatter and hasten towards their hovels. …",
+    "They are powerful, that is their compensation. The life of one of the heads of these manufacturing or commercial houses may be likened to that of a minor prince. … they have to control and satisfy a host of workpeople; they have the power to become the benefactors of thousands of men; they are the generals and governors of human industry. … They despatch agents to examine particular districts of the globe; they discover outlets for commerce and markets for purchases in Japan, China, Australia, Egypt, and New Zealand …"
+   ],
+   "attribution": "Hippolyte Taine, French historian and critic, Notes on England, based on notes from visits he made to England over about ten years, published in 1872",
+   "translation": "English translation by W. F. Rae, Notes on England (New York: Holt & Williams, 1872), pp. 273–276; adapted",
+   "glossary": [
+    {
+     "t": "cinder heaps",
+     "d": "piles of ash and waste from furnaces"
+    },
+    {
+     "t": "seamed with excavations",
+     "d": "cut up by mines and pits"
+    },
+    {
+     "t": "obelisks",
+     "d": "tall, narrow stone towers"
+    },
+    {
+     "t": "Babel",
+     "d": "a huge, noisy, crowded place (from the Bible story of the Tower of Babel)"
+    },
+    {
+     "t": "manufactories",
+     "d": "factories"
+    },
+    {
+     "t": "destitute of",
+     "d": "without"
+    },
+    {
+     "t": "penitentiaries",
+     "d": "prisons"
+    },
+    {
+     "t": "cabined",
+     "d": "shut in"
+    },
+    {
+     "t": "gin-palaces",
+     "d": "large, brightly lit bars that sold gin"
+    },
+    {
+     "t": "hovels",
+     "d": "small, dirty, run-down homes"
+    },
+    {
+     "t": "commercial houses",
+     "d": "trading companies"
+    },
+    {
+     "t": "despatch",
+     "d": "send"
+    }
+   ]
+  },
+  "X2": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "It has been said that the people of England are not sincere in seeking for a total repeal of the food tax.* With all sincerity, I declare that I am for the total repeal of those taxes which affect the price of bread and provisions of every description … What are those taxes upon food? They are taxes levied upon the great body of the people … I have heard them called protections; but taxes they are, and taxes they shall be in my mouth, as long as I have the honour of a seat in this House. The bread-tax is a tax primarily levied upon the poorer classes …",
+      "… the nobleman, or millionaire, with an income of 200,000l. a year, and whose family consumes no more bread than that of the agricultural labourer, pays less than one halfpenny in every 100l. … I maintain that the bread-tax is such a tax, and is levied not for the purposes of the State, but for the benefit of the richest portion of the community."
+     ],
+     "attribution": "Richard Cobden, cotton manufacturer, leader of the Anti-Corn Law League, and new member of Parliament, speech in the House of Commons, August 25, 1841",
+     "translation": "Text from Speeches on Questions of Public Policy by Richard Cobden, M.P., edited by John Bright and J. E. Thorold Rogers, vol. 1 (London: Macmillan, 1878), pp. 2–3; adapted",
+     "footnotes": [
+      {
+       "mark": "*",
+       "text": "The Corn Laws were British laws that taxed grain brought into the country from abroad. Supporters called them \"protection\" for British farmers."
+      }
+     ],
+     "glossary": [
+      {
+       "t": "repeal",
+       "d": "the canceling of a law"
+      },
+      {
+       "t": "provisions",
+       "d": "food supplies"
+      },
+      {
+       "t": "levied",
+       "d": "charged"
+      },
+      {
+       "t": "l.",
+       "d": "pounds (British money)"
+      },
+      {
+       "t": "halfpenny",
+       "d": "a very small British coin, worth half of one penny"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "… this is not a question of rent, but it is a question of displacing the labour of England that produces corn, in order, on an extensive and even universal scale, to permit the entrance into this country of foreign corn produced by foreign labour. Will that displaced labour find new employment? The Secretary of State says, that England is no longer an agricultural but a commercial and manufacturing country …",
+      "… You have no doubt now a gigantic development of manufacturing skill in a particular county which is unprecedented. … But, generally speaking, it is confined to one county; and now Ministers tells us we must change our whole system, because, forsooth, England has ceased to be an agricultural country, and has become a commercial and manufacturing one. … Assume that the workshop of the world principle is carried into effect … you would only find increased employment for 300,000 of your population. … What must be the consequence? I think we have pretty good grounds for anticipating social misery and political disaster."
+     ],
+     "attribution": "Benjamin Disraeli, Conservative member of Parliament, speech in the House of Commons against the bill to repeal the Corn Laws, May 15, 1846",
+     "translation": "Text from Hansard's Parliamentary Debates, 3rd series, vol. 86, House of Commons, May 15, 1846 (UK Parliament, Historic Hansard); adapted",
+     "glossary": [
+      {
+       "t": "rent",
+       "d": "money that landowners received from the farmers who rented their land"
+      },
+      {
+       "t": "corn",
+       "d": "in Britain, grain such as wheat"
+      },
+      {
+       "t": "displacing",
+       "d": "pushing out of work"
+      },
+      {
+       "t": "a particular county",
+       "d": "Lancashire, the center of the cotton industry"
+      },
+      {
+       "t": "Ministers tells us",
+       "d": "the government's ministers tell us (the official record of the debate prints \"tells\")"
+      },
+      {
+       "t": "forsooth",
+       "d": "an old word used to mock a claim (\"so they say\")"
+      },
+      {
+       "t": "workshop of the world",
+       "d": "a nickname for industrial Britain"
+      }
+     ]
+    }
+   ]
+  },
+  "X3": {
+   "type": "image",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Adolph_Menzel_-_Eisenwalzwerk_-_Google_Art_Project.jpg/1280px-Adolph_Menzel_-_Eisenwalzwerk_-_Google_Art_Project.jpg",
+   "width": 1280,
+   "height": 794,
+   "alt": "A dark, crowded factory hall painted in oil. In the center, workers in aprons use long tongs to guide a glowing piece of red-hot iron on a cart toward a set of rollers. Machines, belts, and a giant wheel fill the background. On the left, men wash; on the right, tired men eat while a young woman holds a basket.",
+   "caption": "Inside a huge, smoky factory hall, dozens of workers labor among heavy machines. In the center, men in leather aprons strain to push a cart carrying a glowing, white-hot piece of iron toward a set of rollers, while others grip it with long tongs. Sparks light their faces. Overhead are iron beams, shafts, and belts, and a giant wheel turns in the background. At the far left, workers who have finished their shift bend over to wash. At the lower right, tired workers sit and eat a meal, and a young woman bends over the basket of food she brought.",
+   "attribution": "Adolph Menzel, German painter, The Iron Rolling Mill, oil painting, 1872–1875, based on sketches he made at a large ironworks at Königshütte in Upper Silesia, Prussia (now Chorzów, Poland)",
+   "credit": "Alte Nationalgalerie, Berlin. Public domain image via Wikimedia Commons (file: Adolph Menzel - Eisenwalzwerk - Google Art Project.jpg).",
+   "description": "A large oil painting of the inside of an iron rolling mill. The hall is dark and filled with smoke, lit mainly by the glow of hot metal and furnaces. In the center, a group of workers in caps and leather aprons pushes a small iron cart that carries a glowing, white-hot block of iron toward a pair of heavy rollers, which press iron into rails or bars. Other workers hold long tongs and hooks. Behind them, overhead iron beams carry long shafts and belts that drive the machines, and a huge flywheel stands in the background. On the left side, several shirtless workers bend over to wash at the end of their shift. On the right side, in the foreground, workers sit by a machine and eat and drink from bowls and bottles; a young woman bends over a basket of food. The painter's signature at the lower left reads \"Adolph Menzel Berlin 1875.\"",
+   "glossary": [
+    {
+     "t": "rolling mill",
+     "d": "a factory where hot iron or steel is pressed between heavy rollers to make rails, bars, or sheets"
+    },
+    {
+     "t": "Upper Silesia",
+     "d": "a coal-mining and iron-making region in the east of the Kingdom of Prussia"
+    }
+   ]
+  },
+  "X4": {
+   "type": "table",
+   "title": "Miles of Railway in Operation in Selected European Countries, 1840–1888",
+   "columns": [
+    "Country",
+    "1840",
+    "1850",
+    "1860",
+    "1870",
+    "1880",
+    "1888"
+   ],
+   "rows": [
+    [
+     "United Kingdom",
+     "838",
+     "6,620",
+     "10,430",
+     "15,540",
+     "17,930",
+     "19,810"
+    ],
+    [
+     "Belgium",
+     "210",
+     "550",
+     "1,070",
+     "1,800",
+     "2,400",
+     "2,760"
+    ],
+    [
+     "France",
+     "360",
+     "1,890",
+     "5,880",
+     "9,770",
+     "14,500",
+     "20,900"
+    ],
+    [
+     "Germany",
+     "341",
+     "3,640",
+     "6,980",
+     "11,730",
+     "20,690",
+     "24,270"
+    ],
+    [
+     "Austria",
+     "90",
+     "960",
+     "2,810",
+     "5,950",
+     "11,500",
+     "15,610"
+    ],
+    [
+     "Italy",
+     "13",
+     "270",
+     "1,120",
+     "3,830",
+     "5,340",
+     "7,830"
+    ],
+    [
+     "Spain",
+     "none listed",
+     "80",
+     "1,190",
+     "3,200",
+     "4,550",
+     "5,930"
+    ],
+    [
+     "Russia",
+     "16",
+     "310",
+     "990",
+     "7,100",
+     "14,020",
+     "17,700"
+    ]
+   ],
+   "text": "Germany was not united until 1871 and Italy until 1861; the source gives figures for those lands for the earlier years as well. \"Austria\" means the lands of the Austrian emperor (Austria-Hungary after 1867). For 1840 the source shows no figure for Spain.",
+   "source": "Michael G. Mulhall, The Dictionary of Statistics (London: George Routledge and Sons, 1892), \"Railways,\" p. 495"
+  },
+  "X5": {
+   "type": "passage",
+   "paragraphs": [
+    "1. A special representative of the ruler of each state shall be appointed for each university, with appropriate instructions and extended powers, and shall reside in the place where the university is situated. …",
+    "The function of this agent shall be to see to the strictest enforcement of existing laws and disciplinary regulations; to observe carefully the spirit which is shown by the instructors in the university in their public lectures and regular courses …",
+    "2. The confederated governments* mutually pledge themselves to remove from the universities or other public educational institutions all teachers who, by obvious deviation from their duty, or by exceeding the limits of their functions, or by the abuse of their legitimate influence over the youthful minds, or by propagating harmful doctrines hostile to public order or subversive of existing governmental institutions, shall have unmistakably proved their unfitness for the important office intrusted to them. …",
+    "3. Those laws which have for a long period been directed against secret and unauthorized societies in the universities shall be strictly enforced. These laws apply especially to that association established some years since under the name Universal Students' Union …",
+    "[Press law] 1. So long as this decree shall remain in force no publication which appears in the form of daily issues, or as a serial not exceeding twenty sheets of printed matter, shall go to press in any state of the union without the previous knowledge and approval of the state officials. …",
+    "[Commission of investigation] 2. The object of the commission shall be a joint investigation, as thorough and extensive as possible, of the facts relating to the origin and manifold ramifications of the revolutionary plots and demagogical associations directed against the existing constitution and the internal peace both of the union and of the individual states …"
+   ],
+   "attribution": "Carlsbad Resolutions, drawn up at a meeting of ministers from the larger German states called by Austria's foreign minister at Carlsbad, Bohemia, in August 1819, and approved by the Diet of the German Confederation, September 20, 1819",
+   "translation": "English translation in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (Boston: Ginn, 1909), pp. 20–22; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "The German Confederation was a league of 39 German states, including Austria and Prussia, set up by the Congress of Vienna in 1815. Its Diet was a meeting of representatives of the member states."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "propagating",
+     "d": "spreading"
+    },
+    {
+     "t": "subversive of",
+     "d": "working to overthrow"
+    },
+    {
+     "t": "Universal Students' Union",
+     "d": "the Burschenschaft, a league of student clubs at German universities"
+    },
+    {
+     "t": "serial",
+     "d": "a magazine or pamphlet published in parts"
+    },
+    {
+     "t": "ramifications",
+     "d": "branches"
+    },
+    {
+     "t": "demagogical",
+     "d": "stirring up the people with emotional appeals"
+    }
+   ]
+  },
+  "X6": {
+   "type": "passage",
+   "paragraphs": [
+    "The Utopians' mode of thought has for a long time governed the socialist ideas of the nineteenth century, and still governs some of them. … To all these Socialism is the expression of absolute truth, reason, and justice, and has only to be discovered to conquer all the world by virtue of its own power. And as absolute truth is independent of time, space, and of the historical development of man, it is a mere accident when and where it is discovered. …",
+    "These two great discoveries, the materialistic conception of history and the revelation of the secret of capitalistic production through surplus-value, we owe to Marx. With these discoveries Socialism became a science. …",
+    "The materialist conception of history starts from the proposition that the production of the means to support human life and, next to production, the exchange of things produced, is the basis of all social structure; that in every society that has appeared in history, the manner in which wealth is distributed and society divided into classes or orders, is dependent upon what is produced, how it is produced, and how the products are exchanged. From this point of view the final causes of all social changes and political revolutions are to be sought, not in men's brains, not in man's better insight into eternal truth and justice, but in changes in the modes of production and exchange. They are to be sought, not in the philosophy, but in the economics of each particular epoch."
+   ],
+   "attribution": "Friedrich Engels, German socialist writer who worked closely with Karl Marx for nearly forty years, Socialism: Utopian and Scientific, a pamphlet first published in French in 1880",
+   "translation": "English translation by Edward Aveling, Socialism: Utopian and Scientific (London: Swan Sonnenschein, 1892), pp. 26–27, 44–46; adapted",
+   "glossary": [
+    {
+     "t": "mode of thought",
+     "d": "way of thinking"
+    },
+    {
+     "t": "by virtue of",
+     "d": "because of"
+    },
+    {
+     "t": "materialistic conception of history",
+     "d": "the idea that economic life shapes everything else in history"
+    },
+    {
+     "t": "surplus-value",
+     "d": "Marx's term for the value workers produce beyond what they are paid, which the owner keeps as profit"
+    },
+    {
+     "t": "final causes",
+     "d": "deepest causes"
+    },
+    {
+     "t": "modes of production and exchange",
+     "d": "the ways goods are made and traded"
+    },
+    {
+     "t": "epoch",
+     "d": "period of history"
+    }
+   ]
+  },
+  "X7": {
+   "type": "passage",
+   "paragraphs": [
+    "… I beg leave to recapitulate the chief conclusions which that evidence appears to me to establish. …",
+    "That the various forms of epidemic, endemic, and other disease caused, or aggravated, or propagated chiefly amongst the labouring classes by atmospheric impurities produced by decomposing animal and vegetable substances, by damp and filth, and close and overcrowded dwellings prevail amongst the population in every part of the kingdom … as they have been found to prevail in the lowest districts of the metropolis. …",
+    "That high prosperity in respect to employment and wages, and various and abundant food, have afforded to the labouring classes no exemptions from attacks of epidemic disease, which have been as frequent and as fatal in periods of commercial and manufacturing prosperity as in any others.",
+    "That the formation of all habits of cleanliness is obstructed by defective supplies of water.",
+    "That the annual loss of life from filth and bad ventilation are greater than the loss from death or wounds in any wars in which the country has been engaged in modern times. …",
+    "The primary and most important measures, and at the same time the most practicable, and within the recognized province of public administration, are drainage, the removal of all refuse of habitations, streets, and roads, and the improvement of the supplies of water. …",
+    "That the expense of public drainage, of supplies of water laid on in houses, and of means of improved cleansing would be a pecuniary gain, by diminishing the existing charges attendant on sickness and premature mortality. …"
+   ],
+   "attribution": "Edwin Chadwick, secretary of the Poor Law Commission of England and Wales, Report on the Sanitary Condition of the Labouring Population of Great Britain, 1842",
+   "translation": "Text from Report to Her Majesty's Principal Secretary of State for the Home Department, from the Poor Law Commissioners, on an Inquiry into the Sanitary Condition of the Labouring Population of Great Britain (London: printed by W. Clowes and Sons for Her Majesty's Stationery Office, 1842), pp. 369–371; adapted",
+   "glossary": [
+    {
+     "t": "recapitulate",
+     "d": "sum up"
+    },
+    {
+     "t": "epidemic, endemic",
+     "d": "diseases that break out and spread widely, and diseases that are always present in a place"
+    },
+    {
+     "t": "aggravated",
+     "d": "made worse"
+    },
+    {
+     "t": "propagated",
+     "d": "spread"
+    },
+    {
+     "t": "atmospheric impurities",
+     "d": "bad or polluted air"
+    },
+    {
+     "t": "the metropolis",
+     "d": "London"
+    },
+    {
+     "t": "exemptions",
+     "d": "protection"
+    },
+    {
+     "t": "obstructed",
+     "d": "blocked"
+    },
+    {
+     "t": "within the recognized province of public administration",
+     "d": "part of what government is accepted as responsible for"
+    },
+    {
+     "t": "refuse",
+     "d": "garbage and waste"
+    },
+    {
+     "t": "habitations",
+     "d": "homes"
+    },
+    {
+     "t": "laid on in houses",
+     "d": "piped into homes"
+    },
+    {
+     "t": "pecuniary gain",
+     "d": "a saving of money"
+    },
+    {
+     "t": "premature mortality",
+     "d": "dying too young"
+    }
+   ]
+  },
+  "X8": {
+   "type": "passage",
+   "paragraphs": [
+    "Revolutions of 1848.—Revolutions had begun in Switzerland as early as 1847, in Sicily in January, 1848. The French revolution was not the first, but by its example it incited a general movement of democratic and nationalist insurrections. The governments, as yet inexperienced in the art of repression, seized with a mystical fear of revolution, a mysterious and incalculable force, lost heart and hardly resisted. Except in the extreme West (England, Spain, and Portugal), Sweden, Norway, and Russia, the movement was produced all over Europe. In Belgium, Holland, and Denmark it took the peaceful form of an electoral or constitutional reform. It was an internal revolution in France (February), in Austria and Prussia (March), in Germany, and in central Italy. It took the form of a nationalist movement, resulting in war, in northern Italy, Schleswig-Holstein, and Hungary. …",
+    "The Restorations (1849).—Austria, the power most shaken by the revolution of '48, set the example of military reaction. … The restoration was begun by Austria in October, 1848; the King of Prussia followed the example in Prussia in December. …",
+    "In Germany the conflict between the democrats and the governments turned into insurrection. The King of Prussia accomplished the restoration by means of his armies in Baden and in Saxony; the Frankfort Parliament dispersed. … Austria, threatened with a renewed invasion by the Hungarians, appealed to the Tsar; and it was a Russian army that conquered Hungary."
+   ],
+   "attribution": "Charles Seignobos, French historian at the University of Paris, A Political History of Europe since 1814, first published in French in 1897",
+   "translation": "English translation edited by S. M. Macvane, A Political History of Europe since 1814 (New York: Henry Holt, 1899; printing of 1907), pp. 778–781; adapted",
+   "glossary": [
+    {
+     "t": "incited",
+     "d": "stirred up"
+    },
+    {
+     "t": "insurrections",
+     "d": "armed uprisings"
+    },
+    {
+     "t": "repression",
+     "d": "crushing opposition by force"
+    },
+    {
+     "t": "incalculable",
+     "d": "impossible to measure or predict"
+    },
+    {
+     "t": "Schleswig-Holstein",
+     "d": "two duchies ruled by the king of Denmark, where many people spoke German"
+    },
+    {
+     "t": "restoration",
+     "d": "the return of the old rulers to full power"
+    },
+    {
+     "t": "Frankfort Parliament",
+     "d": "an assembly elected in 1848 to write a constitution for a united Germany"
+    }
+   ]
+  },
+  "P1": {
+   "type": "passage",
+   "paragraphs": [
+    "The natural and physical advantages of England for manufacturing industry are probably superior to those of every other country on the globe. …",
+    "Three things may be regarded as of primary importance for the successful prosecution of manufactures, namely, water-power, fuel, and iron. Wherever these exist in combination, and where they are abundant and cheap, machinery may be manufactured and put in motion at small cost …",
+    "Not less important for manufactures than the copious supply of good water, is the great abundance of coal found in the very same district. … It is superfluous to remark that this mineral fuel animates the thousand arms of the steam-engine, and furnishes the most powerful agent in all chemical and mechanical operations. …",
+    "To the above natural advantages, we must add, the acquired advantage of a canal communication, which ramifies itself through all the populous parts of this county* … The canals, having been accomplished by individual enterprise, not by national funds, were constructed to supply a want already existing … The recent introduction of railways will have a great effect in making the operations of trade more intensely active, and perfecting the division of labour, already carried to so high a point. …",
+    "The political and moral advantages of this country, as a seat of manufactures, are not less remarkable than its physical advantages. The arts are the daughters of peace and liberty. In no country have these blessings been enjoyed in so high a degree, or for so long a continuance, as in England. Under the reign of just laws, personal liberty and property have been secure; mercantile enterprise has been allowed to reap its reward; capital has accumulated in safety …"
+   ],
+   "attribution": "Edward Baines Jr., editor of the Leeds Mercury, a newspaper in the industrial town of Leeds, History of the Cotton Manufacture in Great Britain, 1835",
+   "translation": "Text from Edward Baines Jr., History of the Cotton Manufacture in Great Britain (London: H. Fisher, R. Fisher, and P. Jackson, 1835), pp. 85–88; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "\"This county\" is Lancashire, in northwest England, the center of the cotton industry."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "prosecution",
+     "d": "carrying on"
+    },
+    {
+     "t": "copious",
+     "d": "large, plentiful"
+    },
+    {
+     "t": "superfluous",
+     "d": "not needed"
+    },
+    {
+     "t": "animates",
+     "d": "brings to life, powers"
+    },
+    {
+     "t": "ramifies itself",
+     "d": "branches out"
+    },
+    {
+     "t": "individual enterprise",
+     "d": "private businesspeople"
+    },
+    {
+     "t": "national funds",
+     "d": "government money"
+    },
+    {
+     "t": "division of labour",
+     "d": "splitting work into many small, separate tasks"
+    },
+    {
+     "t": "the arts",
+     "d": "here, skilled trades and industries"
+    },
+    {
+     "t": "mercantile enterprise",
+     "d": "business and trade"
+    },
+    {
+     "t": "capital",
+     "d": "money used to start or grow a business"
+    }
+   ]
+  },
+  "P2": {
+   "type": "passage",
+   "paragraphs": [
+    "… under the existing conditions of the world, the result of general free trade would not be a universal republic, but, on the contrary, a universal subjection of the less advanced nations to the supremacy of the predominant manufacturing, commercial, and naval power … The system of protection, inasmuch as it forms the only means of placing those nations which are far behind in civilisation on equal terms with the one predominating nation (which, however, never received at the hands of Nature a perpetual right to a monopoly of manufacture, but which merely gained an advance over others in point of time), the system of protection regarded from this point of view appears to be the most efficient means of furthering the final union of nations, and hence also of promoting true freedom of trade. …",
+    "The advance which England has made in manufactures, navigation, and commerce, need therefore not discourage any other nation which is fitted for manufacturing production … But above all things we must have enough national spirit at once to plant and protect the tree, which will yield its first richest fruits only to future generations. We must first gain possession of the home market of our own nation, at least as respects articles of general necessity … This is especially the task which the German commercial union has to solve, if the German nation is not to remain far behind the French and North Americans, nay, far behind even the Russians. …",
+    "It is a very common clever device that when anyone has attained the summit of greatness, he kicks away the ladder by which he has climbed up, in order to deprive others of the means of climbing up after him. In this lies the secret of the cosmopolitical doctrine of Adam Smith …"
+   ],
+   "attribution": "Friedrich List, German economist who had lived in the United States, The National System of Political Economy, 1841",
+   "translation": "English translation by Sampson S. Lloyd (1885), in Friedrich List, The National System of Political Economy, new edition (London: Longmans, Green, 1904; impression of 1909), pp. 102–103, 162, 295; adapted",
+   "glossary": [
+    {
+     "t": "subjection",
+     "d": "being put under someone else's control"
+    },
+    {
+     "t": "supremacy",
+     "d": "highest power"
+    },
+    {
+     "t": "protection",
+     "d": "a policy of taxing imported goods to help a country's own industries"
+    },
+    {
+     "t": "inasmuch as",
+     "d": "because"
+    },
+    {
+     "t": "predominating nation",
+     "d": "the most powerful nation (here, Britain)"
+    },
+    {
+     "t": "perpetual",
+     "d": "lasting forever"
+    },
+    {
+     "t": "monopoly",
+     "d": "complete control of a market by one seller"
+    },
+    {
+     "t": "German commercial union",
+     "d": "the Zollverein, a customs union of German states"
+    },
+    {
+     "t": "cosmopolitical doctrine",
+     "d": "an economic theory that looks only at the good of the whole world, not of single nations"
+    }
+   ]
+  },
+  "P3": {
+   "type": "passage",
+   "paragraphs": [
+    "The Industrial Supremacy of Great Britain has been long an axiomatic commonplace; and it is fast turning into a myth … The industrial glory of England is departing, and England does not know it. …",
+    "… it is no exaggeration to say that Germany is a more formidable rival, and has already given us a sounder beating in Chemicals than in any other field of Trade, not even excepting Iron and Steel. The treatment of chemical products is becoming one of the mainstays of industrial Germany, as those huge factories—at Elberfeld, at Frankfort, at Leipzig, and elsewhere: factories paying dividends up to 28 per cent.—exist to show. …",
+    "… The German Soldier established the political Empire; the German Chemist of the early Seventies went far to do the same for the industrial State. …",
+    "The attention paid by the State in Germany to Education—and particularly to Scientific and Technical Education—is matter of common knowledge the world over … It is severely practical. The Technical Education to be obtained in Germany is thorough, and thoroughly scientific; but it is meant for application. … German Elementary Education up to the age of fourteen years is compulsory and free …"
+   ],
+   "attribution": "Ernest Edwin Williams, British journalist, \"Made in Germany,\" a book dedicated to the manufacturers and merchants of the United Kingdom, 1896",
+   "translation": "Text from Ernest Edwin Williams, \"Made in Germany,\" 4th edition (London: William Heinemann, 1896), pp. 1, 90–91, 151–152; adapted",
+   "glossary": [
+    {
+     "t": "axiomatic commonplace",
+     "d": "something everyone takes for granted"
+    },
+    {
+     "t": "formidable",
+     "d": "strong and hard to beat"
+    },
+    {
+     "t": "mainstays",
+     "d": "main supports"
+    },
+    {
+     "t": "dividends",
+     "d": "shares of a company's profits paid to its owners"
+    },
+    {
+     "t": "application",
+     "d": "practical use"
+    },
+    {
+     "t": "compulsory",
+     "d": "required by law"
+    }
+   ]
+  },
+  "P4": {
+   "type": "passage",
+   "paragraphs": [
+    "The Census of Ireland, in 1841, gave a population of 8,175,125. At the usual rate of increase, there must have been, in 1846, when the Famine commenced, at least eight and a half millions; at the same rate of increase, there ought to have been, in 1851 (according to the estimate of the Census Commissioners), 9,018,799. But in that year, after five seasons of artificial famine, there were found alive only 6,552,385—a deficit of about two millions and a half. …",
+    "Further, I have called it an artificial famine: that is to say, it was a famine which desolated a rich and fertile island, that produced every year abundance and superabundance to sustain all her people and many more. The English,* indeed, call that famine a \"dispensation of Providence;\" and ascribe it entirely to the blight of the potatoes. But potatoes failed in like manner all over Europe; yet there was no famine save in Ireland. The British account of the matter, then, is first, a fraud—second, a blasphemy. The Almighty, indeed, sent the potato blight, but the English created the famine. …",
+    "… the benevolent contributions of Americans and other foreigners were turned aside from their destined objects—not, let us say, in order that none should be saved alive, but that no interference should be made with the principles of political economy."
+   ],
+   "attribution": "John Mitchel, Irish nationalist journalist who was convicted in 1848 of urging rebellion against British rule and sent to a British penal colony, The Last Conquest of Ireland (Perhaps), written in exile in the United States in the late 1850s and published as a book in Dublin in 1861",
+   "translation": "Text from John Mitchel, The Crusade of the Period: and Last Conquest of Ireland (Perhaps) (New York: Lynch, Cole & Meehan, 1873), pp. 323–324; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "Ireland was part of the United Kingdom of Great Britain and Ireland from 1801 and was governed from London."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "census",
+     "d": "an official count of the population"
+    },
+    {
+     "t": "deficit",
+     "d": "shortfall"
+    },
+    {
+     "t": "desolated",
+     "d": "ruined and emptied"
+    },
+    {
+     "t": "dispensation of Providence",
+     "d": "an event sent by God"
+    },
+    {
+     "t": "ascribe",
+     "d": "give as the cause"
+    },
+    {
+     "t": "save",
+     "d": "except"
+    },
+    {
+     "t": "blasphemy",
+     "d": "an insult to God"
+    },
+    {
+     "t": "benevolent contributions",
+     "d": "gifts of charity"
+    },
+    {
+     "t": "political economy",
+     "d": "the study of how wealth is produced and traded; economics"
+    }
+   ]
+  },
+  "P5": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "Perhaps the best way to describe the new towns and their form of government would be to say that so far from breaking or checking the power of circumstances over men's lives, they symbolised the absolute dependence and helplessness of the mass of the people living in them. They were not so much towns as barracks: not the refuge of a civilisation but the barracks of an industry. … these towns reflected the violent enterprise of an hour, the single passion that had thrown street on street in a frantic monotony of disorder. … they represented nothing but the avarice of the jerry-builder catering for the avarice of the capitalist. …",
+      "And these towns were precisely what they looked. They were settlements of great masses of people collected in a particular place because their fingers or their muscles were needed on the brink of a stream here or at the mouth of a furnace there. These people were not citizens of this or that town, but hands of this or that master. Often the houses where they lived, and the shops where they bought their food, were supplied by their employers."
+     ],
+     "attribution": "J. L. Hammond and Barbara Hammond, British historians, The Town Labourer, 1760–1832, 1917",
+     "translation": "Text from J. L. Hammond and Barbara Hammond, The Town Labourer, 1760–1832: The New Civilisation (London: Longmans, Green, 1917), pp. 39–40; adapted",
+     "glossary": [
+      {
+       "t": "symbolised",
+       "d": "stood for"
+      },
+      {
+       "t": "barracks",
+       "d": "plain buildings where soldiers are housed"
+      },
+      {
+       "t": "avarice",
+       "d": "greed"
+      },
+      {
+       "t": "jerry-builder",
+       "d": "a builder who puts up cheap, poorly made houses"
+      },
+      {
+       "t": "hands",
+       "d": "workers"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "Secondly, stories assumed to be familiar are apt to become good nesting places for legend. … Again, the legend that everything was getting worse for the working man, down to some unspecified date between the drafting of the People's Charter* and the Great Exhibition, dies hard. The fact that, after the price fall of 1820–1, the purchasing power of wages in general—not, of course, of everyone's wages—was definitely greater than it had been just before the revolutionary and Napoleonic wars, fits so ill with the tradition that it is very seldom mentioned, the work of statisticians on wages and prices being constantly ignored by social historians. …",
+      "Thirdly, it is possible, all along the line, to make the story more nearly quantitative than it has yet been made."
+     ],
+     "attribution": "J. H. Clapham, British economic historian at the University of Cambridge, preface to An Economic History of Modern Britain: The Early Railway Age, 1820–1850, 1926",
+     "translation": "Text from J. H. Clapham, An Economic History of Modern Britain: The Early Railway Age, 1820–1850 (Cambridge: Cambridge University Press, 1926), pp. vii–viii; adapted",
+     "footnotes": [
+      {
+       "mark": "*",
+       "text": "The People's Charter was drafted in 1838. The Great Exhibition was held in London in 1851."
+      }
+     ],
+     "glossary": [
+      {
+       "t": "apt to",
+       "d": "likely to"
+      },
+      {
+       "t": "legend",
+       "d": "a story many people believe that is not fully true"
+      },
+      {
+       "t": "purchasing power of wages",
+       "d": "how much workers could buy with their pay"
+      },
+      {
+       "t": "fits so ill with",
+       "d": "goes so badly with"
+      },
+      {
+       "t": "statisticians",
+       "d": "people who collect and study numbers"
+      },
+      {
+       "t": "quantitative",
+       "d": "based on numbers and measurement"
+      }
+     ]
+    }
+   ]
+  },
+  "P6": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "To men belongs the potent—(I had almost said the omnipotent) consideration of worldly aggrandisement; and it is constantly misleading their steps, closing their ears against the voice of conscience … This may be an extreme, but it is scarcely an exaggerated picture of the engagements of men of business in the present day. …",
+      "How often has man returned to his home with a mind confused by the many voices, which in the mart, the exchange, or the public assembly, have addressed themselves to his inborn selfishness or his worldly pride; … he has thought of the humble monitress who sat alone, guarding the fireside comforts of his distant home; and the remembrance of her character, clothed in moral beauty, has scattered the clouds before his mental vision, and sent him back to that beloved home, a wiser and a better man. …",
+      "The sphere of their* direct personal influence is central, and consequently small; but its extreme operations are as widely extended as the range of human feeling."
+     ],
+     "attribution": "Sarah Stickney Ellis, English writer of advice books, The Women of England: Their Social Duties and Domestic Habits, 1839",
+     "translation": "Text from Mrs. Ellis, The Women of England: Their Social Duties and Domestic Habits (New York: D. Appleton, 1839), pp. 45–47; adapted",
+     "footnotes": [
+      {
+       "mark": "*",
+       "text": "\"Their\" in the last paragraph means the women of England."
+      }
+     ],
+     "glossary": [
+      {
+       "t": "potent",
+       "d": "powerful"
+      },
+      {
+       "t": "omnipotent",
+       "d": "all-powerful"
+      },
+      {
+       "t": "worldly aggrandisement",
+       "d": "getting more wealth and power"
+      },
+      {
+       "t": "engagements",
+       "d": "activities"
+      },
+      {
+       "t": "the mart, the exchange",
+       "d": "the market and the stock exchange"
+      },
+      {
+       "t": "monitress",
+       "d": "a woman who gives warnings and guidance"
+      },
+      {
+       "t": "sphere",
+       "d": "area of life"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "A single woman has the same rights to property, to protection from the law, and has to pay the same taxes to the State, as a man. Yet a woman of the age of twenty-one, having the requisite property-qualifications, cannot vote in elections for members of Parliament. …",
+      "A man and wife are one person in law; the wife loses all her rights as a single woman, and her existence is entirely absorbed in that of her husband. … Money earned by a married woman belongs absolutely to her husband … The legal custody of children belongs to the father. …",
+      "There is now a large and increasing class of women who gain their own livelihood, and the abolition of the laws which give husbands this unjust power is most urgently needed. … Upon women of the labouring classes the difficulty of keeping and using their own earnings presses most hardly. In that rank of life where the support of the family depends often on the joint earnings of husband and wife, it is indeed cruel that the earnings of both should be in the hands of one …"
+     ],
+     "attribution": "Barbara Leigh Smith (later Barbara Bodichon), English artist and campaigner for women's rights, A Brief Summary, in Plain Language, of the Most Important Laws Concerning Women, first published 1854",
+     "translation": "Text from Barbara Leigh Smith, A Brief Summary, in Plain Language, of the Most Important Laws Concerning Women, 2nd edition, revised (London: Holyoake, 1856), pp. 2, 4–5, 9; adapted",
+     "glossary": [
+      {
+       "t": "requisite property-qualifications",
+       "d": "enough property to meet the rule for voting"
+      },
+      {
+       "t": "absorbed in",
+       "d": "swallowed up by"
+      },
+      {
+       "t": "custody",
+       "d": "the legal right to care for and control children"
+      },
+      {
+       "t": "gain their own livelihood",
+       "d": "earn their own living"
+      },
+      {
+       "t": "abolition",
+       "d": "ending"
+      },
+      {
+       "t": "presses most hardly",
+       "d": "is hardest"
+      }
+     ]
+    }
+   ]
+  },
+  "P7": {
+   "type": "passage",
+   "paragraphs": [
+    "… it is not possible for any man, whatever be his station, if he have but a heart within his bosom, to read the details of this awful document without a combined feeling of shame, terror, and indignation. … An enormous mischief is discovered, and an immediate remedy is proposed; and sure I am that if those who have the power will be as ready to abate oppression as those who have suffered will be to forgive the sense of it, we may hope to see the revival of such a good understanding between master and man, between wealth and poverty, between ruler and ruled, as will, under God's good providence, conduce to the restoration of social comfort, and to the permanent security of the empire. …",
+    "… In Derbyshire many begin at five, many between five and six years, many at seven. In the West Riding of Yorkshire, at the same early ages: it is not uncommon for infants even of five years old to be sent to the pit. …",
+    "Robert North says, \"I went into the pit at seven years of age. When I drew by the girdle and chain, the skin was broken, and the blood ran down. If we said anything, they would beat us. I have seen many draw at six. They must do it or be beat. They cannot straighten their backs during the day.\" …",
+    "Mr. Wood, the sub-commissioner says: \"The result of my inquiries is in every case to show, that the employment of female children and young persons in such labour, shuts them out entirely from all useful and necessary knowledge; the wives are so little capable of rendering a house comfortable, that the husband is constantly driven to the alehouse, whence arise all the evils of drunkenness to themselves and to their families.\""
+   ],
+   "attribution": "Lord Ashley (Anthony Ashley-Cooper, later Earl of Shaftesbury), Conservative member of Parliament and evangelical Christian reformer, speech in the House of Commons on the report of the Children's Employment Commission on mines, June 7, 1842",
+   "translation": "Text from Hansard's Parliamentary Debates, 3rd series, vol. 63, House of Commons, June 7, 1842 (UK Parliament, Historic Hansard); adapted",
+   "glossary": [
+    {
+     "t": "station",
+     "d": "rank in society"
+    },
+    {
+     "t": "indignation",
+     "d": "anger at something unfair"
+    },
+    {
+     "t": "mischief",
+     "d": "harm"
+    },
+    {
+     "t": "abate",
+     "d": "reduce"
+    },
+    {
+     "t": "conduce to",
+     "d": "lead to"
+    },
+    {
+     "t": "the pit",
+     "d": "the coal mine"
+    },
+    {
+     "t": "drew by the girdle and chain",
+     "d": "pulled carts of coal with a chain fastened to a belt around the waist"
+    },
+    {
+     "t": "sub-commissioner",
+     "d": "an official who gathered evidence for the commission"
+    },
+    {
+     "t": "alehouse",
+     "d": "a bar"
+    }
+   ]
+  },
+  "P8": {
+   "type": "passage",
+   "paragraphs": [
+    "1. No constitution results from deliberation; the rights of the people are never written, or never except as simple declarations of pre-existing rights not written, of which nothing more can be said, than that they exist because they exist.* …",
+    "3. The rights of the people, properly so called, proceed almost always from the concessions of sovereigns, and then it is possible to trace them historically; but the rights of the sovereign and of the aristocracy … have neither date nor known authors. …",
+    "6. The more is written, the weaker the constitution. …",
+    "7. No nation can give liberty to itself, if it has it not. … Human influence does not extend beyond the development of existing rights …",
+    "10. Liberty, in a sense, is the gift of kings; for all nations were constituted free by kings. …",
+    "12. No assembly of men can give existence to a nation. An attempt of this kind ought even to be ranked among the most memorable acts of folly …"
+   ],
+   "attribution": "Joseph de Maistre, Catholic writer and diplomat for the king of Sardinia, Essay on the Generative Principle of Political Constitutions, written in 1809 and published in 1814",
+   "translation": "English translation, Essay on the Generative Principle of Political Constitutions (Boston: Little and Brown, 1847), preface, pp. xi–xvii; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "In this part of the essay, de Maistre lists principles he first set out in 1796."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "deliberation",
+     "d": "careful discussion and planning"
+    },
+    {
+     "t": "pre-existing",
+     "d": "already there before"
+    },
+    {
+     "t": "concessions",
+     "d": "things granted or given up"
+    },
+    {
+     "t": "sovereigns",
+     "d": "kings and other rulers"
+    },
+    {
+     "t": "constituted",
+     "d": "set up, founded"
+    },
+    {
+     "t": "folly",
+     "d": "foolishness"
+    }
+   ]
+  },
+  "P9": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "The legal regime is interrupted, that of force is begun. The government has violated legality, we are absolved from obedience. We shall attempt to publish our papers without asking for the authorisation which is imposed upon us. The government has to-day lost the character which commands obedience. We are resisting it in that which concerns us; it is for France to decide how far its own resistance must extend."
+     ],
+     "attribution": "Protest of the journalists of Paris newspapers, July 26, 1830",
+     "translation": "English translation in Frank Maloy Anderson, The Constitutions and Other Select Documents Illustrative of the History of France, 1789–1907, 2nd edition (Minneapolis: H. W. Wilson, 1908), p. 501"
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "Frenchmen, France is free. The absolute power was raising its flag; the heroic population of Paris overthrew it. … A power, the usurper of our rights and the disturber of our repose, was threatening at the same time order and liberty; we re-enter into possession of order and liberty. …",
+      "… while awaiting the regular action of the chambers, they have invited a Frenchman who has never fought except for France, Monsieur, the Duke of Orleans, to exercise the functions of lieutenant-general of the kingdom. …",
+      "The Duke of Orleans is devoted to the national and constitutional cause; he has always defended its interests and professed its principles. He will respect our rights, for he will hold his from us. We shall assure ourselves by laws all the necessary guarantees in order to render liberty strong and durable: … The jury for press offences; Legally organized responsibility of ministers …"
+     ],
+     "attribution": "Proclamation of the members of the Chamber of Deputies who were in Paris, July 31, 1830",
+     "translation": "English translation in Frank Maloy Anderson, The Constitutions and Other Select Documents Illustrative of the History of France, 1789–1907, 2nd edition (Minneapolis: H. W. Wilson, 1908), pp. 502–503; adapted",
+     "glossary": [
+      {
+       "t": "absolute power",
+       "d": "rule by a king with no limits on his power"
+      },
+      {
+       "t": "usurper",
+       "d": "one who takes what is not rightfully his"
+      },
+      {
+       "t": "repose",
+       "d": "peace and quiet"
+      },
+      {
+       "t": "the chambers",
+       "d": "the two houses of France's legislature"
+      },
+      {
+       "t": "lieutenant-general of the kingdom",
+       "d": "acting head of the government"
+      },
+      {
+       "t": "jury for press offences",
+       "d": "trial by jury for people accused of breaking the press laws"
+      }
+     ]
+    }
+   ]
+  },
+  "P10": {
+   "type": "passage",
+   "paragraphs": [
+    "Sire,— We working men of St. Petersburg, our wives and children, and our parents, helpless, aged men and women, have come to you, O Tsar, in quest of justice and protection. We have been beggared, oppressed, over-burdened with excessive toil, treated with contumely. … Therefore, we have left work, and informed our employers that we shall not resume it until they have fulfilled our demands. …",
+    "… O Emperor, there are more than three hundred thousand of us here, yet we are all of us human beings only in appearance and outwardly, while in reality we are deemed devoid of a single human right, even that of speaking, thinking, and meeting to talk over our needs, and of taking measures to better our condition. …",
+    "… Deliver them from the intolerable oppression of the bureaucracy. Demolish the wall between yourself and the people, and let them govern the country in conjunction with yourself. … Let all be free to elect whom they will, and for this purpose let the elections to the Constituent Assembly be organized on the principle of universal suffrage. This is our principal request, on which everything else depends. …",
+    "… In the first section are those which are directed against the ignorance and disfranchisement of the Russian people. They include—(1) Freedom and inviolability of the person, liberty of speech, of the press, of association, of conscience in matters of religion, and separation of Church and State. (2) General and obligatory education by the State. … The third section comprises measures against the crushing of labour by capital. … (3) An eight-hours working day and the limitation of overtime. …"
+   ],
+   "attribution": "Petition of the workers of St. Petersburg, written by Father Georgy Gapon, a Russian Orthodox priest who led a workers' association, and carried in a march to the Winter Palace on January 22, 1905",
+   "translation": "English translation in Father George Gapon, The Story of My Life (New York: E. P. Dutton, 1906), appendix, pp. 257–261; adapted",
+   "glossary": [
+    {
+     "t": "Sire",
+     "d": "a respectful way of addressing a king or emperor"
+    },
+    {
+     "t": "beggared",
+     "d": "made very poor"
+    },
+    {
+     "t": "contumely",
+     "d": "insulting treatment"
+    },
+    {
+     "t": "deemed devoid of",
+     "d": "considered to be without"
+    },
+    {
+     "t": "bureaucracy",
+     "d": "government officials"
+    },
+    {
+     "t": "in conjunction with",
+     "d": "together with"
+    },
+    {
+     "t": "Constituent Assembly",
+     "d": "an elected body to write a constitution"
+    },
+    {
+     "t": "universal suffrage",
+     "d": "the right of all adults to vote"
+    },
+    {
+     "t": "disfranchisement",
+     "d": "being denied the right to vote and other rights"
+    },
+    {
+     "t": "inviolability of the person",
+     "d": "protection from arrest or harm without legal cause"
+    },
+    {
+     "t": "obligatory",
+     "d": "required"
+    }
+   ]
+  },
+  "P11": {
+   "type": "passage",
+   "paragraphs": [
+    "That your honourable House, as at present constituted, has not been elected by, and acts irresponsibly of, the people; and hitherto has only represented parties, and benefitted the few, regardless of the miseries, grievances, and petitions of the many. …",
+    "That your petitioners instance, in proof of their assertion, that your honourable House has not been elected by the people; that the population of Great Britain and Ireland is at the present time about twenty-six millions of persons; and that yet, out of this number, little more than nine hundred thousand have been permitted to vote in the recent election of representatives to make laws to govern the whole. …",
+    "That your petitioners complain that the hours of labour, particularly of the factory workers, are protracted beyond the limits of human endurance, and that the wages earned, after unnatural application to toil in heated and unhealthy workshops, are inadequate to sustain the bodily strength …",
+    "That your petitioners, deeply deplore the existence of any kind of monopoly in this nation, and whilst they unequivocally condemn the levying of any tax upon the necessaries of life, and upon those articles principally required by the labouring classes, they are also sensible that the abolition of any one monopoly will never unshackle labour from its misery until the people possess that power under which all monopoly and oppression must cease …",
+    "That your petitioners, therefore, … demand that your honourable House … do immediately, without alteration, deduction, or addition, pass into a law the document entitled 'The People's Charter,' which embraces the representation of male adults, vote by ballot, annual Parliaments, no property qualification, payment of Members, and equal electoral districts."
+   ],
+   "attribution": "National petition of the Chartists to the House of Commons, presented May 2, 1842, with more than three million signatures",
+   "translation": "Text from Hansard's Parliamentary Debates, 3rd series, vol. 62, House of Commons, May 2, 1842 (UK Parliament, Historic Hansard); adapted",
+   "glossary": [
+    {
+     "t": "your honourable House",
+     "d": "the House of Commons"
+    },
+    {
+     "t": "acts irresponsibly of",
+     "d": "acts without answering to"
+    },
+    {
+     "t": "hitherto",
+     "d": "until now"
+    },
+    {
+     "t": "instance",
+     "d": "give as an example"
+    },
+    {
+     "t": "protracted",
+     "d": "stretched out"
+    },
+    {
+     "t": "deplore",
+     "d": "strongly condemn"
+    },
+    {
+     "t": "monopoly",
+     "d": "control of something by one group"
+    },
+    {
+     "t": "necessaries of life",
+     "d": "basic needs, such as food"
+    },
+    {
+     "t": "sensible",
+     "d": "aware"
+    },
+    {
+     "t": "unshackle",
+     "d": "free"
+    },
+    {
+     "t": "annual Parliaments",
+     "d": "a new election every year"
+    },
+    {
+     "t": "property qualification",
+     "d": "a rule that members of Parliament must own a certain amount of property"
+    }
+   ]
+  },
+  "P12": {
+   "type": "passage",
+   "paragraphs": [
+    "… it is a personal injustice to withhold from any one, unless for the prevention of greater evils, the ordinary privilege of having his voice reckoned in the disposal of affairs in which he has the same interest as other people. If he is compelled to pay, if he may be compelled to fight, if he is required implicitly to obey, he should be legally entitled to be told what for; to have his consent asked, and his opinion counted at its worth, though not at more than its worth. There ought to be no pariahs in a full-grown and civilized nation; no persons disqualified, except through their own default. …",
+    "There are, however, certain exclusions, required by positive reasons, which do not conflict with this principle … I regard it as wholly inadmissible that any person should participate in the suffrage, without being able to read, write, and, I will add, perform the common operations of arithmetic. …",
+    "In the preceding argument for universal, but graduated suffrage, I have taken no account of difference of sex. I consider it to be as entirely irrelevant to political rights, as difference in height, or in the colour of the hair. All human beings have the same interest in good government; the welfare of all is alike affected by it, and they have equal need of a voice in it to secure their share of its benefits."
+   ],
+   "attribution": "John Stuart Mill, English philosopher and economist, Considerations on Representative Government, 1861",
+   "translation": "Text from John Stuart Mill, Considerations on Representative Government (London: Parker, Son, and Bourn, 1861), pp. 166–167, 182–183; adapted",
+   "glossary": [
+    {
+     "t": "withhold",
+     "d": "keep back"
+    },
+    {
+     "t": "reckoned",
+     "d": "counted"
+    },
+    {
+     "t": "disposal of affairs",
+     "d": "making of decisions"
+    },
+    {
+     "t": "implicitly",
+     "d": "without question"
+    },
+    {
+     "t": "pariahs",
+     "d": "outcasts"
+    },
+    {
+     "t": "default",
+     "d": "failure"
+    },
+    {
+     "t": "wholly inadmissible",
+     "d": "completely unacceptable"
+    },
+    {
+     "t": "suffrage",
+     "d": "the right to vote"
+    },
+    {
+     "t": "graduated suffrage",
+     "d": "a system in which some voters, such as the well educated, get extra votes"
+    }
+   ]
+  },
+  "P13": {
+   "type": "passage",
+   "paragraphs": [
+    "It is the characteristic of privilege and of every privileged position to kill the mind and heart of men. The privileged man, whether politically or economically, is a man depraved in mind and heart. …",
+    "But that which is true of scientific academies is also true of all constituent and legislative assemblies, even those chosen by universal suffrage. In the latter case they may renew their composition, it is true, but this does not prevent the formation in a few years' time of a body of politicians, privileged in fact though not in law, who, devoting themselves exclusively to the direction of the public affairs of a country, finally form a sort of political aristocracy or oligarchy. …",
+    "Does it follow that I reject all authority? Far from me such a thought. In the matter of boots I refer to the authority of the bootmakers; concerning houses, canals, or railroads I consult that of the architect or engineer. … But I allow neither the bootmaker nor the architect nor the savant to impose his authority upon me. …",
+    "… Each directs and is directed in his turn. Therefore there is no fixed and constant authority, but a continual exchange of mutual, temporary, and, above all, voluntary authority and subordination."
+   ],
+   "attribution": "Mikhail Bakunin, Russian revolutionary who lived in exile in western Europe, God and the State, written in 1871 and published after his death in 1882",
+   "translation": "English translation by Benjamin R. Tucker, God and the State, 8th edition (New York: Benj. R. Tucker, 1895), pp. 19–20; adapted",
+   "glossary": [
+    {
+     "t": "depraved",
+     "d": "morally corrupted"
+    },
+    {
+     "t": "constituent and legislative assemblies",
+     "d": "elected bodies that write constitutions and make laws"
+    },
+    {
+     "t": "universal suffrage",
+     "d": "the right of all adults to vote"
+    },
+    {
+     "t": "oligarchy",
+     "d": "rule by a small group"
+    },
+    {
+     "t": "savant",
+     "d": "scholar or expert"
+    },
+    {
+     "t": "subordination",
+     "d": "following someone else's lead"
+    }
+   ]
+  },
+  "P14": {
+   "type": "passage",
+   "paragraphs": [
+    "… The militancy of men, through all the centuries, has drenched the world with blood, and for these deeds of horror and destruction men have been rewarded with monuments, with great songs and epics. The militancy of women has harmed no human life save the lives of those who fought the battle of righteousness. …",
+    "By this time the Labour Party, of which I was still a member, had returned Mr. Keir Hardie to Parliament, and we decided that the first step in a campaign of action was to make the Labour Party responsible for a new suffrage bill. …",
+    "It was in October, 1903, that I invited a number of women to my house in Nelson street, Manchester, for purposes of organisation. We voted to call our new society the Women's Social and Political Union, partly to emphasise its democracy, and partly to define its object as political rather than propagandist. We resolved to limit our membership exclusively to women, to keep ourselves absolutely free from any party affiliation, and to be satisfied with nothing but action on our question. Deeds, not words, was to be our permanent motto.",
+    "To such a pass had the women's suffrage cause come in my country that the old leaders, who had done such fine educational work in the past, were now seemingly content with expressions of sympathy and regret on the part of hypocritical politicians. …"
+   ],
+   "attribution": "Emmeline Pankhurst, English campaigner for women's right to vote, My Own Story, 1914",
+   "translation": "Text from Emmeline Pankhurst, My Own Story (London: Eveleigh Nash, 1914), foreword and pp. 37–38; adapted",
+   "glossary": [
+    {
+     "t": "returned … to Parliament",
+     "d": "elected to Parliament"
+    },
+    {
+     "t": "propagandist",
+     "d": "only spreading ideas, without taking action"
+    },
+    {
+     "t": "party affiliation",
+     "d": "ties to a political party"
+    },
+    {
+     "t": "suffrage",
+     "d": "the right to vote"
+    },
+    {
+     "t": "to such a pass",
+     "d": "to such a bad state"
+    },
+    {
+     "t": "militancy",
+     "d": "fighting or aggressive action for a cause"
+    },
+    {
+     "t": "epics",
+     "d": "long poems about heroes"
+    },
+    {
+     "t": "save",
+     "d": "except"
+    }
+   ]
+  },
+  "P15": {
+   "type": "passage",
+   "paragraphs": [
+    "… We must not delay. Upon the speedy provision of elementary education depends our industrial prosperity. It is of no use trying to give technical teaching to our artizans without elementary education; uneducated labourers—and many of our labourers are utterly uneducated—are, for the most part, unskilled labourers, and if we leave our work-folk any longer unskilled, notwithstanding their strong sinews and determined energy, they will become overmatched in the competition of the world.",
+    "Upon this speedy provision depends also, I fully believe, the good, the safe working of our constitutional system. To its honour, Parliament has lately decided that England shall in future be governed by popular government. I am one of those who would not wait until the people were educated before I would trust them with political power. If we had thus waited we might have waited long for education; but now that we have given them political power we must not wait any longer to give them education. There are questions demanding answers, problems which must be solved, which ignorant constituencies are ill-fitted to solve.",
+    "Upon this speedy provision of education depends also our national power. … if we are to hold our position among … the nations of the world we must make up the smallness of our numbers by increasing the intellectual force of the individual."
+   ],
+   "attribution": "William E. Forster, Liberal government minister in charge of education, speech in the House of Commons introducing the Elementary Education Bill, February 17, 1870",
+   "translation": "Text from Hansard's Parliamentary Debates, 3rd series, vol. 199, House of Commons, February 17, 1870 (UK Parliament, Historic Hansard); adapted",
+   "glossary": [
+    {
+     "t": "speedy provision",
+     "d": "quick supply"
+    },
+    {
+     "t": "elementary education",
+     "d": "schooling for young children in reading, writing, and arithmetic"
+    },
+    {
+     "t": "artizans",
+     "d": "skilled workers"
+    },
+    {
+     "t": "sinews",
+     "d": "muscles"
+    },
+    {
+     "t": "overmatched",
+     "d": "beaten by stronger rivals"
+    },
+    {
+     "t": "constituencies",
+     "d": "groups of voters"
+    },
+    {
+     "t": "ill-fitted",
+     "d": "not prepared"
+    }
+   ]
+  },
+  "P16": {
+   "type": "image",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Gustave_Caillebotte_-_Paris_Street%3B_Rainy_Day_-_Google_Art_Project.jpg/1280px-Gustave_Caillebotte_-_Paris_Street%3B_Rainy_Day_-_Google_Art_Project.jpg",
+   "width": 1280,
+   "height": 970,
+   "alt": "A painting of a wide, rain-wet street corner in Paris. A well-dressed man in a top hat and a woman in a fur-trimmed dress walk under one umbrella in the right foreground. Behind them, other people with umbrellas cross a broad cobblestone square lined with tall, matching stone apartment buildings. A green gas lamppost stands near the center.",
+   "caption": "In the right foreground, a man in a top hat and long coat and a woman in a dark dress with fur trim and pearl earrings walk arm in arm under one umbrella. Behind them is a wide, open intersection paved with wet cobblestones, where other people in dark coats cross with umbrellas and a carriage stands at the left. Tall stone apartment buildings, all about six stories high with matching windows and iron balconies, line the straight streets. A tall green gas lamppost stands on the sidewalk in the middle of the scene.",
+   "attribution": "Gustave Caillebotte, French painter, Paris Street; Rainy Day, oil painting, 1877, showing an intersection near the Saint-Lazare railway station in Paris",
+   "credit": "Art Institute of Chicago. Public domain image via Wikimedia Commons (file: Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg).",
+   "description": "A large oil painting of a Paris intersection on a gray, rainy day. In the right foreground, nearly life-size, a man and a woman walk toward the viewer under a shared umbrella. He wears a black top hat, a long dark coat, a vest, and a bow tie; she wears a dark dress with fur trim, a small hat with a veil, and pearl earrings, and holds his arm. At the far right edge, another man in a top hat and coat, seen from behind, holds an umbrella. A tall green gas lamppost divides the picture near the center. On the left, a broad, open square of wet gray cobblestones spreads toward the back. People in dark clothing cross it under umbrellas, and a carriage with large spoked wheels stands at the left; a horse-drawn cab crosses farther back. In the background, a long, wedge-shaped apartment building rises six stories, with rows of identical windows, iron balconies, and a shop at street level; other similar buildings line the straight streets that meet at the intersection. The painter's signature and the date 1877 appear at the lower left.",
+   "glossary": [
+    {
+     "t": "Saint-Lazare railway station",
+     "d": "one of the main railway stations of Paris"
+    },
+    {
+     "t": "intersection",
+     "d": "a place where streets meet"
+    }
+   ]
+  }
+ },
+ "practice": [
+  {
+   "id": "E6-P01",
+   "set": "P1",
+   "topic": "6.1",
+   "lo": "A",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Which of the following best describes Baines's main argument?",
+   "options": {
+    "A": "England led in manufacturing because of its resources, its transport, and its secure laws.",
+    "B": "England led in manufacturing because its government owned the mines, canals, and mills.",
+    "C": "England led in manufacturing because its guilds trained more skilled workers than other countries.",
+    "D": "England led in manufacturing because it was the first country in the world to make cotton cloth."
+   },
+   "answer": "A",
+   "explanation": "Baines names three kinds of advantages. Some came from nature: water power, coal, and iron close together. Some were built: canals and new railways. Some came from government: \"just laws,\" secure property, and safe money for business. Together, he says, they explain England's lead.",
+   "whyNot": {
+    "B": "Baines says the canals were built \"by individual enterprise, not by national funds.\" British mines and mills were private businesses too.",
+    "C": "Guilds had lost most of their power in England by the 1700s. Baines credits water, coal, iron, canals, railways, and secure property instead.",
+    "D": "Cotton cloth had been made for centuries in India and other lands before it was made in England. Baines credits England's resources, transport, and laws for its lead."
+   },
+   "hint": "Baines sorts England's advantages into a few kinds. What are they?"
+  },
+  {
+   "id": "E6-P02",
+   "set": "P1",
+   "topic": "6.1",
+   "lo": "A",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "Baines notes that England's canals were built \"by individual enterprise, not by national funds.\" In contrast, industrialization in many continental European states after 1815 was more often",
+   "options": {
+    "A": "backed by governments that built or helped pay for railways",
+    "B": "slowed by laws that banned private companies from building railways",
+    "C": "led by craft guilds that owned and ran the new factories",
+    "D": "led by peasant cooperatives that pooled village savings to build factories"
+   },
+   "answer": "A",
+   "explanation": "In Britain, private businessmen did most of the work of industrializing. In France, Belgium, and the German states, governments did more. They built or backed railways, set tariffs, and supported banks and technical schools.",
+   "whyNot": {
+    "B": "Governments on the continent built their own lines, but they also helped private railway companies. France's railway law of 1842, for example, joined state and private building.",
+    "C": "Guilds had little to do with the new factories, and many states weakened or abolished them in the 1800s. Factories were owned by private businessmen, sometimes with state help.",
+    "D": "Farm cooperatives spread later in the 1800s. They mostly ran dairies and village credit banks, not railways or factories. On the continent, states, banks, and private investors paid for industry."
+   },
+   "hint": "Who paid for transport in Britain, according to Baines? Was it the same on the continent?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E6-P03",
+   "set": "P1",
+   "topic": "6.2",
+   "lo": "B",
+   "skill": "3.D",
+   "difficulty": "medium",
+   "stem": "Baines's claim about England's \"political and moral advantages\" is best supported by which of the following?",
+   "options": {
+    "A": "Britain's kings ruled without Parliament for most of the 1700s, which kept taxes low for manufacturers.",
+    "B": "Britain's Parliament, which included merchants and manufacturers, passed laws protecting property.",
+    "C": "Britain's Parliament took over the cotton mills and ran them for the nation.",
+    "D": "Britain's government ended private ownership of land so that factories could be built anywhere."
+   },
+   "answer": "B",
+   "explanation": "Baines says that in England \"personal liberty and property have been secure\" and \"capital has accumulated in safety.\" Britain's Parliament included men who made money from trade and industry. It passed laws that protected property and helped trade grow.",
+   "whyNot": {
+    "A": "Parliament met every year after 1689. Britain's kings did not rule without it.",
+    "C": "Britain's mills were private businesses. Parliament did not take over or run industries.",
+    "D": "Land in Britain stayed in private hands, much of it owned by great landlords."
+   },
+   "hint": "Baines praises \"just laws.\" Which choice describes British government accurately?"
+  },
+  {
+   "id": "E6-P04",
+   "set": "P2",
+   "topic": "6.3",
+   "lo": "D",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Which of the following best describes List's main argument?",
+   "options": {
+    "A": "Nations should adopt free trade right away so that a peaceful union of nations can form.",
+    "B": "Germany should win colonies overseas before it tries to build its own industries.",
+    "C": "Less developed nations should protect their industries with tariffs until they can compete.",
+    "D": "Britain's lead in manufacturing is a permanent gift of nature that other nations cannot hope to match."
+   },
+   "answer": "C",
+   "explanation": "List says free trade helps the nation that is already ahead. Nations that are behind, such as Germany, should tax imports to \"plant and protect the tree\" of their own industry.",
+   "whyNot": {
+    "A": "List says free trade can come only after nations reach the same level. Until then, he calls protection \"the only means\" for nations that are \"far behind.\"",
+    "B": "List says Germany must \"first gain possession of the home market of our own nation.\" Colonies are not his first step.",
+    "D": "List says Britain \"never received at the hands of Nature a perpetual right to a monopoly of manufacture.\" It only got there first."
+   },
+   "hint": "What does List want Germany to do with its \"home market\"?"
+  },
+  {
+   "id": "E6-P05",
+   "set": "P2",
+   "topic": "6.2",
+   "lo": "B",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Members of which group would have most strongly disagreed with List's argument?",
+   "options": {
+    "A": "German manufacturers facing British competition",
+    "B": "British free traders such as Richard Cobden",
+    "C": "Prussian officials who led the Zollverein",
+    "D": "American supporters of protective tariffs"
+   },
+   "answer": "B",
+   "explanation": "Cobden and the Anti-Corn Law League believed free trade made every nation richer and more peaceful. List made fun of that view. He said Britain preached free trade only after protection had made it strong. It was like someone who \"kicks away the ladder\" after climbing up.",
+   "whyNot": {
+    "A": "German manufacturers wanted protection from cheaper British goods. They would have welcomed List's ideas.",
+    "C": "List hoped the Zollverein, the \"German commercial union,\" would protect Germany's home market. Some Prussian officials wanted lower tariffs than List did. But they did not reject all protection, as Cobden did.",
+    "D": "List had lived in the United States and admired American tariffs that protected new industries. Their supporters agreed with him."
+   },
+   "hint": "List attacks the \"cosmopolitical doctrine of Adam Smith.\" Who in the 1840s followed Smith's ideas on trade?"
+  },
+  {
+   "id": "E6-P06",
+   "set": "P2",
+   "topic": "6.3",
+   "lo": "D",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "List's ideas were most directly reflected in which of the following later developments?",
+   "options": {
+    "A": "Britain's repeal of the Corn Laws in 1846",
+    "B": "Britain's repeal of the Navigation Acts in 1849",
+    "C": "The Anglo-French free-trade treaty of 1860",
+    "D": "The German Empire's protective tariff law of 1879"
+   },
+   "answer": "D",
+   "explanation": "List's book helped convince Germans that new industries needed protection. In 1879, during a long economic slump, Bismarck's German Empire put tariffs on imported factory goods and grain.",
+   "whyNot": {
+    "A": "The repeal of the Corn Laws ended taxes on imported grain. It was a step toward free trade, the policy List opposed.",
+    "B": "Ending the Navigation Acts let foreign ships carry British trade. It was another step toward free trade.",
+    "C": "The Cobden-Chevalier Treaty of 1860 cut tariffs between Britain and France. It moved away from protection, not toward it."
+   },
+   "hint": "Three of these choices lowered trade barriers. Which one raised them?",
+   "reasoning": "Continuity and Change"
+  },
+  {
+   "id": "E6-P07",
+   "set": "P3",
+   "topic": "6.3",
+   "lo": "C",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "Williams's concerns are best understood in the context of which of the following?",
+   "options": {
+    "A": "The first industrial revolution, when cotton spinning was mechanized in British mills",
+    "B": "The Continental System, when Napoleon tried to close European markets to British goods",
+    "C": "Germany's economic decline after its defeat in a war against France",
+    "D": "The second industrial revolution's new, science-based industries"
+   },
+   "answer": "D",
+   "explanation": "After about 1870, new industries such as chemicals, electricity, and steel grew. They depended on science and trained engineers. Germany had strong technical schools and research labs. It became a leader in these industries and challenged Britain.",
+   "whyNot": {
+    "A": "The mechanization of cotton spinning came in the late 1700s and early 1800s, and Britain led it. Williams writes in 1896 about chemicals, where Germany led.",
+    "B": "The Continental System lasted from 1806 to 1814. Williams describes German competition in the 1890s.",
+    "C": "Germany defeated France in 1870–1871 and grew rapidly afterward. Williams links the new German Empire to its industrial rise."
+   },
+   "hint": "When did chemicals become a major industry, and which country led it?"
+  },
+  {
+   "id": "E6-P08",
+   "set": "P3",
+   "topic": "6.3",
+   "lo": "D",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Williams most likely wrote the book in order to",
+   "options": {
+    "A": "warn British leaders to improve technical education to meet German competition",
+    "B": "persuade German manufacturers to sell more of their chemicals and steel in British markets",
+    "C": "argue that Britain should adopt socialism so that its industries could compete with Germany's",
+    "D": "show that Britain's lead in chemicals and steel was safe from German and American rivals"
+   },
+   "answer": "A",
+   "explanation": "Williams dedicated his book to British factory owners and merchants. He warns them that Britain is losing its lead. He points to Germany's science and technical schools as one reason for German success.",
+   "whyNot": {
+    "B": "Williams is British and calls Germany \"a more formidable rival.\" He wants British firms to win back markets from German ones, not help them.",
+    "C": "Williams praises German schools, but he does not call for socialism. He wants Britain's own factory owners to compete better.",
+    "D": "Williams says the opposite. He writes, \"The industrial glory of England is departing.\" He adds that Germany has \"given us a sounder beating in Chemicals.\""
+   },
+   "hint": "Who was the book written for, and what does Williams want them to notice?"
+  },
+  {
+   "id": "E6-P09",
+   "set": "P3",
+   "topic": "6.10",
+   "lo": "K",
+   "skill": "3.D",
+   "difficulty": "hard",
+   "stem": "Williams's claim that \"the German Chemist of the early Seventies went far to do the same for the industrial State\" is best supported by which of the following?",
+   "options": {
+    "A": "Britain's invention of the Bessemer process for steel",
+    "B": "Belgium's early lead in coal mining and railways",
+    "C": "German firms' world lead in making synthetic dyes and drugs",
+    "D": "The Krupp family's steel and arms works at Essen"
+   },
+   "answer": "C",
+   "explanation": "German companies such as BASF, Bayer, and Hoechst hired chemists trained at universities. These chemists invented new man-made dyes and drugs. By 1900 Germany made most of the world's synthetic dyes.",
+   "whyNot": {
+    "A": "Henry Bessemer, an Englishman, invented his steel process in the 1850s. It is evidence about British steel, not German chemistry.",
+    "B": "Belgium was the first country on the continent to build industry. But its early lead was in coal, iron, and railways, not chemicals.",
+    "D": "Krupp's works were a great German success, but in steel and weapons, not chemicals. They do not support a claim about chemists."
+   },
+   "hint": "The claim is about chemists. Which choice is about the chemical industry in Germany?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P10",
+   "set": "P4",
+   "topic": "6.2",
+   "lo": "B",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "Mitchel's argument is best understood in the context of which of the following?",
+   "options": {
+    "A": "A British ban on emigration that kept starving Irish families from leaving the island",
+    "B": "A war between Britain and France that cut off food shipments to Ireland",
+    "C": "The Irish Parliament's decision to keep exporting grain to pay its war debts",
+    "D": "Britain's reluctance to interfere with free markets during the Irish famine"
+   },
+   "answer": "D",
+   "explanation": "Many British officials believed in laissez-faire, the idea that government should stay out of markets. Help for the hungry was slow and limited, and food was still shipped out of Ireland. Mitchel blames \"the principles of political economy\" for the deaths.",
+   "whyNot": {
+    "A": "Britain did not ban emigration. More than a million people left Ireland during and after the famine.",
+    "B": "Britain was at peace with France in the 1840s. The famine was caused by potato blight and made worse by policy, not by war.",
+    "C": "Ireland had no parliament of its own after the Act of Union of 1801. It was governed from London, as the footnote says."
+   },
+   "hint": "Mitchel blames \"the principles of political economy.\" What economic idea guided the British government in the 1840s?"
+  },
+  {
+   "id": "E6-P11",
+   "set": "P4",
+   "topic": "6.2",
+   "lo": "B",
+   "skill": "3.D",
+   "difficulty": "hard",
+   "stem": "A historian would most likely challenge which of the following claims in the passage?",
+   "options": {
+    "A": "That Ireland's population in 1851 was far lower than it had been ten years before, in 1841",
+    "B": "That potato blight was the immediate cause of the crop failures",
+    "C": "That Americans and other foreigners sent aid to Ireland during the famine",
+    "D": "That potatoes failed in other parts of Europe without causing famine there"
+   },
+   "answer": "D",
+   "explanation": "Potato blight also struck the Scottish Highlands, Belgium, the Netherlands, and parts of the German states in the 1840s. This decade is known as the Hungry Forties. People went hungry and death rates rose there too. But no other place suffered as Ireland did.",
+   "whyNot": {
+    "A": "The census figures Mitchel cites are real: about 8.2 million people in 1841 and about 6.6 million in 1851.",
+    "B": "Mitchel himself says \"The Almighty, indeed, sent the potato blight.\" Historians agree that blight destroyed the crops.",
+    "C": "People in the United States and other countries did send money and food to Ireland, as Mitchel says."
+   },
+   "hint": "Three choices are facts most historians accept. Which claim goes too far?"
+  },
+  {
+   "id": "E6-P12",
+   "set": "P4",
+   "topic": "6.2",
+   "lo": "B",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The population change Mitchel describes most directly contributed to which of the following?",
+   "options": {
+    "A": "The rapid growth of new factory towns in the west of Ireland",
+    "B": "Mass emigration from Ireland to Britain and North America",
+    "C": "The end of British rule over Ireland in the decade after 1851",
+    "D": "Britain's repeal of the Corn Laws in 1846"
+   },
+   "answer": "B",
+   "explanation": "About a million people died during the famine years, and more than a million left Ireland. People kept leaving for decades, so Ireland's population kept falling. Irish communities grew in Liverpool, Glasgow, New York, Boston, and other cities.",
+   "whyNot": {
+    "A": "Western Ireland stayed rural and poor. Ireland's main industrial area was around Belfast in the northeast.",
+    "C": "Ireland stayed part of the United Kingdom until most of it became the Irish Free State in 1922.",
+    "D": "The famine helped convince Parliament to end the Corn Laws in 1846. But that came before most of the population loss Mitchel counts."
+   },
+   "hint": "Where did many of the missing millions go?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P13",
+   "set": "P5",
+   "topic": "6.4",
+   "lo": "E",
+   "skill": "3.C",
+   "difficulty": "medium",
+   "stem": "Which of the following best describes a difference between the two sources?",
+   "options": {
+    "A": "The Hammonds rely on statistics about wages and prices, while Clapham relies on descriptions of how towns looked.",
+    "B": "The Hammonds praise employers for providing housing, while Clapham blames employers for crowded towns.",
+    "C": "The Hammonds argue that workers' lives improved after 1820, while Clapham argues that they grew steadily worse.",
+    "D": "The Hammonds stress the misery of life in the towns, while Clapham stresses that wages bought more over time."
+   },
+   "answer": "D",
+   "explanation": "The Hammonds judge the new towns by how people lived. They show ugly, crowded \"barracks of an industry,\" where workers depended on their masters. Clapham judges by facts that can be measured, such as how much wages could buy. Historians call this the standard-of-living debate.",
+   "whyNot": {
+    "A": "This reverses the sources. Clapham calls for numbers and complains that social historians ignore \"the work of statisticians on wages and prices.\"",
+    "B": "The Hammonds say employers supplied houses and shops. But they say it to show that workers were \"hands of this or that master,\" not to praise employers.",
+    "C": "This reverses the sources. Clapham says that after 1820–1821, what wages could buy was \"definitely greater.\" He calls the idea that \"everything was getting worse\" a \"legend.\""
+   },
+   "hint": "One source judges by how life felt and looked, the other by numbers. Which is which?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E6-P14",
+   "set": "P5",
+   "topic": "6.4",
+   "lo": "E",
+   "skill": "2.C",
+   "difficulty": "hard",
+   "stem": "Clapham would most likely criticize the approach of the Hammonds in Source 1 because it",
+   "options": {
+    "A": "relies on descriptions rather than on wage and price figures",
+    "B": "depends too heavily on government statistics about wages and hours",
+    "C": "ignores the role of factory owners in building houses in the new towns",
+    "D": "focuses on the 1840s instead of on the years before the Reform Act of 1832"
+   },
+   "answer": "A",
+   "explanation": "Clapham complains that \"the work of statisticians on wages and prices\" is \"constantly ignored by social historians.\" He says they repeat a \"tradition\" that life got worse. The Hammonds' passage makes its case with vivid description, not numbers.",
+   "whyNot": {
+    "B": "The Hammonds' passage gives no statistics at all. Clapham's complaint is that social historians ignore the numbers.",
+    "C": "The Hammonds do mention employers. Employers \"supplied\" houses and shops and stood behind the \"jerry-builder.\"",
+    "D": "The Hammonds' book covers 1760–1832, as its title shows. Clapham's own book covers 1820–1850."
+   },
+   "hint": "What kind of evidence does Clapham say social historians leave out?"
+  },
+  {
+   "id": "E6-P15",
+   "set": "P5",
+   "topic": "6.10",
+   "lo": "K",
+   "skill": "3.D",
+   "difficulty": "medium",
+   "stem": "Which of the following pieces of evidence would best support Clapham's argument?",
+   "options": {
+    "A": "Reports of crowded cellars and frequent fever in Manchester in the 1840s",
+    "B": "Testimony that young children worked long hours in coal mines in 1842",
+    "C": "Records showing that factory-made cotton cloth became much cheaper after 1820",
+    "D": "Accounts of hunger in the countryside during the \"Hungry '40s\""
+   },
+   "answer": "C",
+   "explanation": "If machines made cloth, pottery, and other goods cheaper while wages held steady or rose, workers could buy more. That is what Clapham means by the greater \"purchasing power of wages.\"",
+   "whyNot": {
+    "A": "Reports of crowded, unhealthy housing fit the Hammonds' picture of the new towns. They do not support Clapham's claim about wages.",
+    "B": "Evidence of child labor in the mines shows hard working conditions. It does not show what wages could buy.",
+    "D": "Hunger in the 1840s would weaken, not strengthen, a claim that workers could buy more."
+   },
+   "hint": "Clapham's argument is about what wages could buy. Which choice is about prices?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P16",
+   "set": "P6",
+   "topic": "6.4",
+   "lo": "E",
+   "skill": "4.B",
+   "difficulty": "easy",
+   "stem": "Source 1 is best understood in the context of which of the following?",
+   "options": {
+    "A": "The entry of large numbers of middle-class wives into factory work",
+    "B": "New laws that gave married women control over their own property and wages",
+    "C": "The middle-class ideal of separate spheres for men and women",
+    "D": "The Catholic Church's campaign to limit women's work outside the home"
+   },
+   "answer": "C",
+   "explanation": "Work moved out of homes into offices and factories. So middle-class families came to see the home as a separate, moral \"sphere\" run by women. Ellis says men face a \"worldly\" struggle in business. They come home \"a wiser and a better man\" because of their wives.",
+   "whyNot": {
+    "A": "Most factory women were working-class girls and young women. Middle-class wives were expected to stay at home.",
+    "B": "The Married Women's Property Acts came in 1870 and 1882, decades after Ellis wrote. Source 2 shows that married women had no such control in the 1850s.",
+    "D": "Ellis was an English Protestant writer. Her ideas came from middle-class English culture, not from Catholic teaching."
+   },
+   "hint": "Where does Ellis place men's work, and where does she place women's influence?"
+  },
+  {
+   "id": "E6-P17",
+   "set": "P6",
+   "topic": "6.4",
+   "lo": "E",
+   "skill": "3.C",
+   "difficulty": "medium",
+   "stem": "Which of the following best describes a difference between the two sources?",
+   "options": {
+    "A": "Ellis calls for married women to control their own wages, while Smith argues that women's place is in the home.",
+    "B": "Ellis wants women to vote for members of Parliament, while Smith thinks women should stay out of politics.",
+    "C": "Ellis describes the lives of working-class women, while Smith writes about the wives of rich landowners.",
+    "D": "Ellis praises women's influence in the home, while Smith attacks laws that strip married women of their rights."
+   },
+   "answer": "D",
+   "explanation": "Ellis accepts women's limited \"sphere\" and praises their moral power at home. Smith shows how the law of coverture made a wife part of her husband. It gave him her money and her children, and it kept single women from voting.",
+   "whyNot": {
+    "A": "This reverses the sources. Smith is the one who wants married women to keep \"their own earnings.\"",
+    "B": "Ellis does not mention voting. Smith points out that a woman \"cannot vote\" even if she has property, which she presents as unfair.",
+    "C": "Ellis writes about the wives of \"men of business.\" Smith mentions \"women of the labouring classes\" whose earnings are taken."
+   },
+   "hint": "Does each author accept or challenge women's position in her time?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E6-P18",
+   "set": "P6",
+   "topic": "6.8",
+   "lo": "I",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The changes Smith calls for in Source 2 were most directly achieved by which of the following?",
+   "options": {
+    "A": "The Married Women's Property Acts",
+    "B": "The Ten Hours Act",
+    "C": "The Mines and Collieries Act",
+    "D": "The Second Reform Act"
+   },
+   "answer": "A",
+   "explanation": "Campaigns that Barbara Leigh Smith helped start led to the Married Women's Property Acts. The act of 1870 let wives keep their own earnings, and the act of 1882 let them own property in their own names.",
+   "whyNot": {
+    "B": "The Ten Hours Act of 1847 limited the working day of women and young people in textile mills. It did not change property law.",
+    "C": "The Mines Act of 1842 barred women and girls from working underground. It did not let wives keep their earnings.",
+    "D": "The Second Reform Act of 1867 gave the vote to many working men. Women still could not vote in parliamentary elections."
+   },
+   "hint": "Smith complains that \"money earned by a married woman belongs absolutely to her husband.\" Which law dealt with that?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P19",
+   "set": "P7",
+   "topic": "6.9",
+   "lo": "J",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Ashley's hope for \"a good understanding between master and man, between wealth and poverty\" was most likely intended to",
+   "options": {
+    "A": "assure Parliament that reform would strengthen social order",
+    "B": "call on miners to form unions and strike for higher pay",
+    "C": "urge the government to take over ownership of the coal mines",
+    "D": "argue that working men should be given the right to vote"
+   },
+   "answer": "A",
+   "explanation": "Ashley is speaking to landowners and other men of property in Parliament. He says that ending \"oppression\" would bring back good feeling between classes. It would also protect \"the permanent security of the empire.\"",
+   "whyNot": {
+    "B": "Ashley speaks to Parliament and asks \"those who have the power\" to act. He does not call on miners to strike.",
+    "C": "Ashley asks for a law to stop abuses. He does not propose that the state own the mines.",
+    "D": "Ashley was a Conservative who sought laws to protect workers, not votes for them. His goal here is a law about mines."
+   },
+   "hint": "Who was Ashley speaking to, and what might worry them?"
+  },
+  {
+   "id": "E6-P20",
+   "set": "P7",
+   "topic": "6.4",
+   "lo": "E",
+   "skill": "5.A",
+   "difficulty": "easy",
+   "stem": "The testimony of Mr. Wood in the last paragraph most directly reflects which of the following beliefs common among reformers?",
+   "options": {
+    "A": "Women should have the same right as men to work underground.",
+    "B": "Children learned useful skills by working beside their parents in the mines.",
+    "C": "Women's proper role was to keep a comfortable home for their families.",
+    "D": "Mining families should move to factory towns where wages were higher."
+   },
+   "answer": "C",
+   "explanation": "Wood blames women's mine work for homes that are not \"comfortable\" and for husbands \"driven to the alehouse.\" Like many middle-class reformers, he believed a woman's job was to keep the home.",
+   "whyNot": {
+    "A": "Wood argues that mine work harms women. He does not defend their right to do it.",
+    "B": "Wood says this work \"shuts them out entirely from all useful and necessary knowledge.\"",
+    "D": "Wood does not mention factory towns. His concern is what mine work does to women's ability to run a home."
+   },
+   "hint": "What does Wood say goes wrong at home when girls work in mines?"
+  },
+  {
+   "id": "E6-P21",
+   "set": "P7",
+   "topic": "6.4",
+   "lo": "E",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The law passed soon after this speech most directly",
+   "options": {
+    "A": "banned children under thirteen from working in textile factories",
+    "B": "gave miners the right to form trade unions for the first time",
+    "C": "limited the working day of adult miners to eight hours",
+    "D": "barred women, girls, and young boys from underground work"
+   },
+   "answer": "D",
+   "explanation": "The Mines Act of 1842 banned all women and girls, and boys under ten, from working underground. It was one of the first laws to limit the labor of women as well as children.",
+   "whyNot": {
+    "A": "The Factory Act of 1833 dealt with textile mills. It limited children's hours but did not ban all work under age thirteen.",
+    "B": "Trade unions became legal in 1824–1825, when the Combination Acts were repealed. That was long before 1842.",
+    "C": "An eight-hour day for coal miners came only in 1908."
+   },
+   "hint": "The speech focuses on young children and on women and girls underground. What did the new law do about them?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P22",
+   "set": "P8",
+   "topic": "6.5",
+   "lo": "F",
+   "skill": "1.B",
+   "difficulty": "easy",
+   "stem": "The ideas in the passage most directly express which of the following ideologies?",
+   "options": {
+    "A": "Liberalism",
+    "B": "Utopian socialism",
+    "C": "Anarchism",
+    "D": "Conservatism"
+   },
+   "answer": "D",
+   "explanation": "De Maistre was a leading conservative. He believed that lasting governments and customs grow slowly out of history, religion, and the rule of kings. Reason and assemblies, he said, cannot invent a nation or a constitution.",
+   "whyNot": {
+    "A": "Liberals wanted elected assemblies to write constitutions and declare rights. De Maistre says, \"The more is written, the weaker the constitution.\"",
+    "B": "Utopian socialists such as Robert Owen and Charles Fourier planned new communities from scratch. De Maistre says careful planning cannot create a lasting constitution.",
+    "C": "Anarchists wanted to abolish all government. De Maistre calls liberty \"the gift of kings.\""
+   },
+   "hint": "Does de Maistre trust kings and tradition, or written plans and assemblies?"
+  },
+  {
+   "id": "E6-P23",
+   "set": "P8",
+   "topic": "6.5",
+   "lo": "F",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "De Maistre's claim that \"No assembly of men can give existence to a nation\" is best understood as a reaction against",
+   "options": {
+    "A": "the Congress of Vienna's plan to restore Europe's old ruling families",
+    "B": "the Protestant reformers' challenge to the authority of the pope",
+    "C": "French revolutionaries' efforts to remake France by written constitutions",
+    "D": "Napoleon's agreement with the pope that restored the Catholic Church in France"
+   },
+   "answer": "C",
+   "explanation": "Between 1789 and 1799, French assemblies wrote several constitutions and declared new rights. De Maistre called such paper plans \"folly.\" True constitutions, he said, come from God, history, and kings.",
+   "whyNot": {
+    "A": "De Maistre supported the return of legitimate kings, which the Congress of Vienna carried out in 1814–1815.",
+    "B": "The Reformation took place in the 1500s. De Maistre is answering the assemblies of the French Revolution, in his own lifetime.",
+    "D": "The Concordat of 1801 was an agreement between Napoleon and the pope, not a plan written by an assembly. De Maistre attacks assemblies that write constitutions."
+   },
+   "hint": "What did French assemblies do again and again after 1789?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P24",
+   "set": "P8",
+   "topic": "6.5",
+   "lo": "F",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "Which of the following figures acted most in keeping with de Maistre's ideas?",
+   "options": {
+    "A": "John Stuart Mill",
+    "B": "Prince Metternich",
+    "C": "Pierre-Joseph Proudhon",
+    "D": "Lajos Kossuth"
+   },
+   "answer": "B",
+   "explanation": "Metternich was Austria's foreign minister from 1809 and its chancellor until 1848. He defended kings and the order set up in 1815. Through the Concert of Europe, he worked to crush liberal and nationalist revolutions.",
+   "whyNot": {
+    "A": "Mill was a liberal. He wanted more people to vote, and he wanted elected government to protect each person's freedom.",
+    "C": "Proudhon was a French anarchist. He wanted free groups of workers to take the place of government.",
+    "D": "Kossuth led Hungary's revolt against Austria's Habsburg rulers in 1848–1849. He was a liberal and a nationalist."
+   },
+   "hint": "Which figure spent his career defending kings against revolution?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E6-P25",
+   "set": "P9",
+   "topic": "6.6",
+   "lo": "G",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "The journalists in Source 1 were most directly protesting against which of the following?",
+   "options": {
+    "A": "The German Confederation's press law",
+    "B": "Britain's Six Acts against radicals",
+    "C": "The Troppau Protocol",
+    "D": "Charles X's July Ordinances"
+   },
+   "answer": "D",
+   "explanation": "On July 25, 1830, King Charles X issued the July Ordinances. They stopped freedom of the press, broke up the newly elected Chamber of Deputies, and changed the election rules. Paris journalists refused to obey, and three days of street fighting followed.",
+   "whyNot": {
+    "A": "The German Confederation's press law came from the Carlsbad Decrees of 1819. It applied in the German states, not in France.",
+    "B": "The Six Acts of 1819 limited meetings and the press in Britain, not in France.",
+    "C": "The Troppau Protocol of 1820 was an agreement among Austria, Prussia, and Russia to act against revolutions. It did not set French press rules."
+   },
+   "hint": "The protest is dated July 1830, in Paris. Which measure was French?"
+  },
+  {
+   "id": "E6-P26",
+   "set": "P9",
+   "topic": "6.6",
+   "lo": "G",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The government that grew out of the events described in Source 2 is best described as",
+   "options": {
+    "A": "a democratic republic with universal male suffrage",
+    "B": "a constitutional monarchy with the vote limited to the wealthy",
+    "C": "an absolute monarchy restored with the help of foreign armies",
+    "D": "an empire ruled by Napoleon's nephew, Louis Napoleon"
+   },
+   "answer": "B",
+   "explanation": "The deputies made the Duke of Orleans king, as Louis-Philippe. His July Monarchy had a revised charter and a freer press. But only men who paid high taxes could vote, and they were a small share of the country's men.",
+   "whyNot": {
+    "A": "France did not become a republic where all men could vote until the revolution of 1848.",
+    "C": "Foreign armies helped restore the Bourbon kings in 1814–1815. In 1830 Parisians overthrew the Bourbon king.",
+    "D": "Napoleon's nephew, Louis Napoleon, did not make himself emperor until 1852."
+   },
+   "hint": "The deputies chose a duke to lead France. Who could vote under the king he became?",
+   "reasoning": "Continuity and Change"
+  },
+  {
+   "id": "E6-P27",
+   "set": "P9",
+   "topic": "6.6",
+   "lo": "G",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The events described in the sources most directly inspired which of the following in 1830?",
+   "options": {
+    "A": "The Belgian revolt against Dutch rule",
+    "B": "The Decembrist revolt of army officers in Russia",
+    "C": "The Greek war for independence from the Ottomans",
+    "D": "The Frankfurt Parliament"
+   },
+   "answer": "A",
+   "explanation": "News of the July Revolution set off a revolt in Brussels in August 1830. The Belgians broke away from the Kingdom of the Netherlands, which the Congress of Vienna had created. Later the great powers recognized Belgium as an independent country.",
+   "whyNot": {
+    "B": "The Decembrist revolt took place in December 1825, five years earlier.",
+    "C": "The Greek war for independence began in 1821. By 1830 the great powers had recognized Greek independence.",
+    "D": "The Frankfurt Parliament met in 1848–1849."
+   },
+   "hint": "Which of these events happened in 1830?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P28",
+   "set": "P10",
+   "topic": "6.6",
+   "lo": "G",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "The petition is best understood in the context of which of the following?",
+   "options": {
+    "A": "State-backed industrial growth that created a large, powerless factory workforce",
+    "B": "The emancipation of the serfs, which Tsar Alexander II had just announced to the empire",
+    "C": "Russia's victories over Japan, which had strengthened the tsar's government at home",
+    "D": "The Bolshevik takeover of the Russian government in the capital, Petrograd"
+   },
+   "answer": "A",
+   "explanation": "In the 1890s, finance minister Sergei Witte pushed Russian industry ahead with state railways, tariffs, and foreign loans. Factories grew in cities like St. Petersburg. But workers could not legally strike or form unions, and they had no say in government.",
+   "whyNot": {
+    "B": "Alexander II freed the serfs in 1861, more than forty years before this petition.",
+    "C": "Russia was losing its war with Japan (1904–1905). The defeats weakened the tsar's government.",
+    "D": "The Bolsheviks took power in 1917, twelve years later."
+   },
+   "hint": "Who were the petitioners, and how had Russia's economy been changing?"
+  },
+  {
+   "id": "E6-P29",
+   "set": "P10",
+   "topic": "6.6",
+   "lo": "G",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The events that followed this petition led most directly to which of the following later in 1905?",
+   "options": {
+    "A": "The emancipation of the serfs",
+    "B": "The abdication of Nicholas II",
+    "C": "The assassination of Alexander II",
+    "D": "The October Manifesto"
+   },
+   "answer": "D",
+   "explanation": "Troops fired on the marchers on Bloody Sunday, January 22, 1905. Strikes and revolts spread across Russia. In October, Nicholas II issued the October Manifesto. It promised basic freedoms and an elected lawmaking body, the Duma.",
+   "whyNot": {
+    "A": "The serfs were freed in 1861.",
+    "B": "Nicholas II gave up the throne in March 1917, during the First World War.",
+    "C": "A bomb thrown by revolutionaries killed Alexander II in 1881. That was 24 years earlier."
+   },
+   "hint": "Only one choice happened in 1905. What did the tsar promise that year?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P30",
+   "set": "P10",
+   "topic": "6.7",
+   "lo": "H",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "The demands in the petition are most similar to those of which earlier movement?",
+   "options": {
+    "A": "The Burschenschaften in the German states",
+    "B": "The Anti-Corn Law League in Britain",
+    "C": "The Chartists in Britain",
+    "D": "The utopian socialist communities of Robert Owen"
+   },
+   "answer": "C",
+   "explanation": "Like the Gapon petition, the Chartist petitions came from working people. They blamed their hard lives on their lack of political power. Both asked for elections by universal suffrage (for the Chartists, all men) as the key reform.",
+   "whyNot": {
+    "A": "The Burschenschaften were university student clubs that worked for German unity. They were not workers asking for the vote.",
+    "B": "The Anti-Corn Law League was led by manufacturers and asked for free trade in grain, not for votes for all.",
+    "D": "Owen tried to change society by building model communities. He did not petition for elections or for the vote for all."
+   },
+   "hint": "Find the movement in which workers petitioned for the vote as the answer to their hardships.",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E6-P31",
+   "set": "P11",
+   "topic": "6.7",
+   "lo": "H",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Which of the following best describes the main argument of the petition?",
+   "options": {
+    "A": "Working people suffer because factory owners have too little influence in the House of Commons.",
+    "B": "Working people suffer because they lack political power, which the Charter would give them.",
+    "C": "Working people suffer because Parliament has grown too strong and the monarch should rule alone.",
+    "D": "Working people suffer because of new machines, which the House of Commons should ban."
+   },
+   "answer": "B",
+   "explanation": "The Chartists blamed long hours, low wages, and high taxes on laws made by a Parliament that only \"little more than nine hundred thousand\" men had elected. Their remedy was the six points of the People's Charter.",
+   "whyNot": {
+    "A": "The petition says the House has \"benefitted the few.\" It wants working men represented, not more power for factory owners.",
+    "C": "The petition asks the House to pass the People's Charter. It does not ask for rule by the monarch.",
+    "D": "The petition attacks \"monopoly\" and laws made by \"the few,\" not machines. It demands the Charter, not a ban on machines."
+   },
+   "hint": "What do the petitioners want Parliament to pass?"
+  },
+  {
+   "id": "E6-P32",
+   "set": "P11",
+   "topic": "6.7",
+   "lo": "H",
+   "skill": "5.A",
+   "difficulty": "hard",
+   "stem": "The petitioners' statement that \"the abolition of any one monopoly will never unshackle labour\" was most likely aimed at the arguments of which of the following?",
+   "options": {
+    "A": "Supporters of the New Poor Law",
+    "B": "The Anti-Corn Law League",
+    "C": "Robert Owen's cooperative movement",
+    "D": "Opponents of the Factory Acts"
+   },
+   "answer": "B",
+   "explanation": "The Anti-Corn Law League called the tax on grain a monopoly. It told workers that ending the tax would bring cheap bread and better times. The Chartists answered that only political power for working people would end their misery.",
+   "whyNot": {
+    "A": "Supporters of the New Poor Law of 1834 defended workhouses. They did not claim that ending one monopoly would free labor.",
+    "C": "Owen's followers wanted workers to share ownership in cooperatives. They did not ask for the repeal of a single tax.",
+    "D": "Opponents of the Factory Acts wanted to keep hours unregulated. They did not promise that ending a monopoly would help workers."
+   },
+   "hint": "Which group called the Corn Laws a \"monopoly\" and promised that repeal would help workers?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E6-P33",
+   "set": "P11",
+   "topic": "6.4",
+   "lo": "E",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The complaint in the third paragraph was most directly addressed by which of the following later laws?",
+   "options": {
+    "A": "The Second Reform Act",
+    "B": "The Public Health Act",
+    "C": "The Ten Hours Act",
+    "D": "The Married Women's Property Act"
+   },
+   "answer": "C",
+   "explanation": "The Ten Hours Act of 1847 limited women and young people in textile mills to ten hours of work a day. Reformers expected men's hours to fall too, because mills needed these workers. Some owners got around the law by using shifts. So an act of 1850 set fixed hours for women and young workers. In practice, this set the working day in most mills.",
+   "whyNot": {
+    "A": "The Second Reform Act of 1867 widened the vote. It did not limit working hours.",
+    "B": "The Public Health Act of 1848 dealt with drains, water, and sanitation in towns, not factory hours.",
+    "D": "The Married Women's Property Act of 1870 let wives keep their earnings. It did not shorten the working day."
+   },
+   "hint": "The third paragraph is about \"the hours of labour\" in factories. Which law dealt with hours?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P34",
+   "set": "P12",
+   "topic": "6.7",
+   "lo": "H",
+   "skill": "3.A",
+   "difficulty": "medium",
+   "stem": "Mill's argument is best described as support for",
+   "options": {
+    "A": "a broad vote for both sexes, limited to people who can read, write, and count",
+    "B": "universal male suffrage without any test of literacy or property",
+    "C": "a vote limited to men who own land, since landowners have the most at stake",
+    "D": "replacing elected assemblies with government by a council of trained scientific experts"
+   },
+   "answer": "A",
+   "explanation": "Mill believed nearly everyone, including women, deserved a voice in government. But he wanted voters to be able to read, write, and do arithmetic. He also favored \"graduated\" suffrage, which would give extra votes to the well educated.",
+   "whyNot": {
+    "B": "Mill says it is \"wholly inadmissible\" for someone who cannot read, write, and do arithmetic to vote. He also includes women.",
+    "C": "Mill says there \"ought to be no pariahs\" and calls exclusion \"a personal injustice.\" He does not tie the vote to land.",
+    "D": "Mill is writing about how to set up \"representative government.\" He wants more people to vote, not fewer elections."
+   },
+   "hint": "Look for the choice that matches both Mill's \"no pariahs\" and his literacy rule."
+  },
+  {
+   "id": "E6-P35",
+   "set": "P12",
+   "topic": "6.7",
+   "lo": "H",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "Mill's views most clearly illustrate which of the following?",
+   "options": {
+    "A": "Conservatives defended monarchy as a gift of God and tradition.",
+    "B": "Socialists called for the state to own land and factories.",
+    "C": "Anarchists rejected elected assemblies as a new aristocracy.",
+    "D": "Liberals disagreed about how far the right to vote should be extended."
+   },
+   "answer": "D",
+   "explanation": "In the 1800s, liberals agreed on rights and representative government. But they disagreed about who should vote. Mill wanted a broad vote that included women. He also wanted a reading and writing test and extra votes for the educated.",
+   "whyNot": {
+    "A": "De Maistre and other conservatives defended kings and tradition. Mill argues for elected, representative government.",
+    "B": "Mill does not call for state ownership. His topic is who should vote.",
+    "C": "Bakunin and other anarchists distrusted all assemblies. Mill wants assemblies elected by a wide body of voters."
+   },
+   "hint": "Mill supports representative government but sets conditions on voting. Which group argued about such conditions?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E6-P36",
+   "set": "P12",
+   "topic": "6.8",
+   "lo": "I",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The ideas in Mill's last paragraph were most directly advanced later by which of the following?",
+   "options": {
+    "A": "The Anti-Corn Law League of Manchester",
+    "B": "The Women's Social and Political Union",
+    "C": "The Chartist movement for the People's Charter",
+    "D": "The Ten Hours movement for factory reform"
+   },
+   "answer": "B",
+   "explanation": "Mill argued that sex is as \"irrelevant to political rights\" as height. In 1867 he asked Parliament to give women the vote and lost. Later groups such as the Women's Social and Political Union, founded in 1903, kept up the fight.",
+   "whyNot": {
+    "A": "The Anti-Corn Law League campaigned for free trade in grain from 1838 to 1846, before Mill's book.",
+    "C": "The Chartists campaigned from 1838 to about 1848, and they asked for votes for men only.",
+    "D": "The Ten Hours movement won its law in 1847. It sought shorter working hours, not votes for women."
+   },
+   "hint": "Which group came after 1861 and worked for women's votes?",
+   "reasoning": "Continuity and Change"
+  },
+  {
+   "id": "E6-P37",
+   "set": "P13",
+   "topic": "6.7",
+   "lo": "H",
+   "skill": "1.B",
+   "difficulty": "easy",
+   "stem": "The ideas in the passage are most closely associated with which of the following?",
+   "options": {
+    "A": "Marxian socialism",
+    "B": "Liberalism",
+    "C": "Anarchism",
+    "D": "Conservatism"
+   },
+   "answer": "C",
+   "explanation": "Anarchists such as Bakunin thought all government was harmful. They wanted to replace it with \"voluntary\" cooperation, so that no one would hold power over others for long.",
+   "whyNot": {
+    "A": "Marx's followers wanted workers to win power through parties and elections, or through revolution. Bakunin distrusts every fixed authority, even elected ones.",
+    "B": "Liberals trusted elected assemblies to protect rights. Bakunin says even assemblies that everyone votes for become \"a sort of political aristocracy.\"",
+    "D": "Conservatives defended kings, nobles, and the Church. Bakunin attacks privilege of every kind."
+   },
+   "hint": "Bakunin accepts only one kind of authority. What kind is it?"
+  },
+  {
+   "id": "E6-P38",
+   "set": "P13",
+   "topic": "6.7",
+   "lo": "H",
+   "skill": "5.A",
+   "difficulty": "hard",
+   "stem": "Bakunin's view of assemblies \"chosen by universal suffrage\" contrasts most strongly with the views of which of the following?",
+   "options": {
+    "A": "Georges Sorel",
+    "B": "Pierre-Joseph Proudhon",
+    "C": "The Chartists",
+    "D": "Joseph de Maistre"
+   },
+   "answer": "C",
+   "explanation": "The Chartists believed that a Parliament elected by all men would stop serving only the rich. Bakunin said that even such an assembly would turn into a new group of privileged politicians.",
+   "whyNot": {
+    "A": "Sorel, a French syndicalist, also distrusted parliaments. He urged workers to act directly through strikes.",
+    "B": "Proudhon, a French anarchist, also opposed government power. He wanted people to form free groups instead.",
+    "D": "De Maistre also distrusted elected assemblies, though for the opposite reason: he wanted rule by kings."
+   },
+   "hint": "Three choices also distrusted parliaments. Which group put its hope in elections?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E6-P39",
+   "set": "P13",
+   "topic": "6.6",
+   "lo": "G",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "Ideas like Bakunin's contributed most directly to which development in Russia?",
+   "options": {
+    "A": "Alexander II's decision to free the serfs from their lords in 1861",
+    "B": "Revolutionary groups, one of which killed Tsar Alexander II in 1881",
+    "C": "Nicholas II's creation of an elected assembly, the Duma, in 1905",
+    "D": "Sergei Witte's program of state-funded railways and factories in the 1890s"
+   },
+   "answer": "B",
+   "explanation": "Russian radicals, inspired by Bakunin and others, formed secret groups. One of them, the People's Will, killed Alexander II with a bomb in 1881. His son, the next tsar, answered with harsh crackdowns.",
+   "whyNot": {
+    "A": "The emancipation was a reform from above by the tsar, meant to head off revolt from below.",
+    "C": "Nicholas II set up the Duma to calm the revolution of 1905. Bakunin's followers distrusted assemblies like it.",
+    "D": "Witte's program was a state plan to make Russia strong. Anarchists opposed the state."
+   },
+   "hint": "Which choice describes people working against the tsar's government?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P40",
+   "set": "P14",
+   "topic": "6.8",
+   "lo": "I",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Pankhurst most likely wrote the first paragraph in order to",
+   "options": {
+    "A": "praise the soldiers of 1914 for the glory they would soon win in the war",
+    "B": "defend militant tactics by comparing them with men's far deadlier violence",
+    "C": "argue that women should stay out of the nation's public life",
+    "D": "explain why the women's union had decided to join the Labour Party"
+   },
+   "answer": "B",
+   "explanation": "Suffragettes broke windows, set fires, and went on hunger strikes. Critics called them violent. Pankhurst answers that women's militancy \"has harmed no human life\" except their own. Men's wars, by contrast, have killed millions.",
+   "whyNot": {
+    "A": "Pankhurst says men's militancy has \"drenched the world with blood.\" She is not praising it.",
+    "C": "Pankhurst founded a political union to win the vote for women. She wanted women in public life.",
+    "D": "The union decided \"to keep ourselves absolutely free from any party affiliation.\""
+   },
+   "hint": "Pankhurst contrasts two kinds of \"militancy.\" Why?"
+  },
+  {
+   "id": "E6-P41",
+   "set": "P14",
+   "topic": "6.8",
+   "lo": "I",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "The founding of the Women's Social and Political Union is best understood in the context of which of the following?",
+   "options": {
+    "A": "Decades of failed petitions and bills for women's suffrage",
+    "B": "A recent law granting universal male suffrage in Britain",
+    "C": "A recent law that allowed women to sit in the House of Commons",
+    "D": "A recent law that took away married women's right to keep their own earnings"
+   },
+   "answer": "A",
+   "explanation": "British women had sent petitions for the vote since the 1860s, and bills for women's suffrage kept failing. Pankhurst says the old leaders were \"content with expressions of sympathy\" from politicians. In 1903 she founded the WSPU with the motto \"Deeds, not words.\"",
+   "whyNot": {
+    "B": "Britain did not give the vote to nearly all adult men until 1918. In 1903 many working men still could not vote.",
+    "C": "Women could not sit in the House of Commons until 1918.",
+    "D": "Parliament did not take that right away. The Married Women's Property Act of 1882 gave wives even more control of their property than the act of 1870. It was still in force in 1903."
+   },
+   "hint": "Pankhurst complains about \"the old leaders.\" What had they been doing, and how well had it worked?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P42",
+   "set": "P14",
+   "topic": "6.8",
+   "lo": "I",
+   "skill": "1.B",
+   "difficulty": "medium",
+   "stem": "The Labour Party mentioned in the second paragraph is best described as a party that",
+   "options": {
+    "A": "was formed by landowners who wanted to bring back the Corn Laws",
+    "B": "was formed by free-trade liberals who wanted to limit the role of government",
+    "C": "refused to take part in elections and called for a general strike instead",
+    "D": "was formed by trade unions and socialist groups to represent workers"
+   },
+   "answer": "D",
+   "explanation": "Trade unions and socialist groups formed the Labour Representation Committee in 1900. It took the name Labour Party in 1906. It became one of the large parties that spoke for workers.",
+   "whyNot": {
+    "A": "Landowners who wanted tariffs on grain were mostly Conservatives. Labour grew out of the workers' movement.",
+    "B": "Free-trade liberals made up the Liberal Party. Labour wanted laws to help workers, not a smaller government.",
+    "C": "Labour ran candidates in elections. Pankhurst says it had \"returned Mr. Keir Hardie to Parliament.\""
+   },
+   "hint": "Keir Hardie was a former miner and union organizer. What kind of party would elect him?"
+  },
+  {
+   "id": "E6-P43",
+   "set": "P15",
+   "topic": "6.9",
+   "lo": "J",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "Forster's statement that \"Parliament has lately decided that England shall in future be governed by popular government\" refers to which of the following?",
+   "options": {
+    "A": "The Reform Act that gave the vote to many working men in towns",
+    "B": "The Reform Act that gave the vote to middle-class men in industrial towns",
+    "C": "A law that gave women the right to vote",
+    "D": "The repeal of the Corn Laws"
+   },
+   "answer": "A",
+   "explanation": "The Second Reform Act of 1867 roughly doubled the number of voters and gave the vote to many working men in towns. Forster argues that these new voters must now be educated.",
+   "whyNot": {
+    "B": "The First Reform Act of 1832 gave the vote to many middle-class men. Forster speaks of a decision made \"lately,\" and it gave power to working men.",
+    "C": "Some women won the vote in 1918, and all adult women in 1928, long after Forster spoke.",
+    "D": "The repeal of the Corn Laws in 1846 was about the grain trade, not about who could vote."
+   },
+   "hint": "Forster says Parliament has \"given them political power.\" Who are \"them\"?"
+  },
+  {
+   "id": "E6-P44",
+   "set": "P15",
+   "topic": "6.9",
+   "lo": "J",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Which of the following best summarizes Forster's reasons for public education?",
+   "options": {
+    "A": "Religious unity, loyalty to the Church, and moral reform",
+    "B": "Protecting children from dangerous work in factories and mines",
+    "C": "Economic success, safe self-government, and national power",
+    "D": "Preparing young men to serve as soldiers overseas"
+   },
+   "answer": "C",
+   "explanation": "Forster gives three reasons. Schools would help \"our industrial prosperity,\" \"the safe working of our constitutional system,\" and \"our national power.\" Many governments at this time backed public schools for the same reasons.",
+   "whyNot": {
+    "A": "Forster's reasons in this passage are about industry, voting, and national strength. He does not mention the Church.",
+    "B": "Forster wants schooling so workers become skilled, not to keep children out of work.",
+    "D": "Forster speaks of \"national power\" and \"intellectual force,\" not of training soldiers."
+   },
+   "hint": "Forster starts three sentences with \"Upon … depends.\" What depends on education?"
+  },
+  {
+   "id": "E6-P45",
+   "set": "P15",
+   "topic": "6.10",
+   "lo": "K",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "Forster's concern that unskilled workers \"will become overmatched in the competition of the world\" most likely reflected",
+   "options": {
+    "A": "Britain's loss of most of its colonies in Asia and Africa to rivals",
+    "B": "a fall in British trade after the repeal of the Corn Laws in 1846",
+    "C": "growing industrial competition from Germany and the United States",
+    "D": "competition from the factories built in Russia under Sergei Witte"
+   },
+   "answer": "C",
+   "explanation": "By 1870 Germany and the United States were building industry fast, and Prussia was known for its schools. British leaders worried that foreign workers trained in science and technical skills would beat their own.",
+   "whyNot": {
+    "A": "Britain kept and enlarged its empire in Asia and Africa in the late 1800s.",
+    "B": "British trade grew quickly after the repeal of the Corn Laws in 1846.",
+    "D": "Witte's push to industrialize Russia came in the 1890s, two decades after this speech."
+   },
+   "hint": "Which rivals were catching up with Britain's industries around 1870?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P46",
+   "set": "P16",
+   "topic": "6.9",
+   "lo": "J",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "The street scene in the painting is best understood as a result of which of the following?",
+   "options": {
+    "A": "The Paris Commune's rule over the city",
+    "B": "Baron Haussmann's rebuilding of central Paris",
+    "C": "Napoleon I's Continental System",
+    "D": "The revolution of 1848 in Paris"
+   },
+   "answer": "B",
+   "explanation": "Under Napoleon III, Baron Georges Haussmann tore down crowded old neighborhoods. In their place he built wide, straight boulevards lined with matching stone apartment buildings. He also added new sewers, water pipes, parks, and gas lamps.",
+   "whyNot": {
+    "A": "The Paris Commune held the city for about two months in 1871 and was crushed. It did not build new streets.",
+    "C": "The Continental System (1806–1814) was Napoleon's attempt to block British trade. It was not a building plan.",
+    "D": "In 1848 Parisians built barricades in the narrow old streets. Haussmann's wide boulevards came afterward, in the 1850s and 1860s."
+   },
+   "hint": "Look at the wide streets and matching buildings. Who planned Paris to look like this?"
+  },
+  {
+   "id": "E6-P47",
+   "set": "P16",
+   "topic": "6.9",
+   "lo": "J",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "Wide, straight streets like the ones in the painting were built partly to",
+   "options": {
+    "A": "improve traffic and air and make barricades harder to build",
+    "B": "give each neighborhood its own walls and gates for defense against invaders",
+    "C": "make room for large factories in the center of the city",
+    "D": "bring back the narrow streets of the Middle Ages"
+   },
+   "answer": "A",
+   "explanation": "The new boulevards let traffic, light, and fresh air into the city. They also let troops move quickly. And they made it harder for rebels to build barricades, as Parisians had done in 1830 and 1848.",
+   "whyNot": {
+    "B": "Paris was protected by forts around the city. The new boulevards opened neighborhoods up rather than walling them off.",
+    "C": "Haussmann's projects moved factories and poorer workers toward the edges of the city.",
+    "D": "Haussmann tore down many narrow medieval streets to build the boulevards."
+   },
+   "hint": "Think about what had happened in Paris streets in 1830 and 1848.",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E6-P48",
+   "set": "P16",
+   "topic": "6.4",
+   "lo": "E",
+   "skill": "1.B",
+   "difficulty": "easy",
+   "stem": "The couple in the foreground most likely belonged to which of the following groups?",
+   "options": {
+    "A": "Factory workers from the suburbs",
+    "B": "The urban bourgeoisie",
+    "C": "Skilled artisans in workshops",
+    "D": "Peasant migrants from the provinces"
+   },
+   "answer": "B",
+   "explanation": "The man's top hat and the woman's fur-trimmed dress and pearl earrings show that the couple is well off. They belong to the middle class, or bourgeoisie. Many such families lived in the new apartment buildings along Haussmann's boulevards.",
+   "whyNot": {
+    "A": "Factory workers could not afford top hats, fur trim, and pearl earrings. Most lived in poorer areas at the edge of Paris.",
+    "C": "Artisans worked with their hands in workshops and dressed more plainly than the couple shown.",
+    "D": "Peasants who moved to Paris usually found low-paid jobs and lived in crowded housing."
+   },
+   "hint": "Look at the clothing and jewelry. Who could afford them?"
+  }
+ ],
+ "exam": {
+  "title": "Unit 6 Practice Exam: Industrialization and Its Effects",
+  "timeMinutes": 25,
+  "questionCount": 25,
+  "directions": "Each set of questions refers to a source: a primary source, a historian's writing, an image, or data. For each question, choose the best answer. Use the source and your knowledge of European history from c. 1815 to c. 1914. There is no penalty for guessing. Some sources use historical labels or words for groups of people that are no longer used; these words show the language of their time.",
+  "questions": [
+   {
+    "id": "E6-E01",
+    "set": "X1",
+    "topic": "6.1",
+    "lo": "A",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "The conditions Taine describes are best understood in the context of which of the following?",
+    "options": {
+     "A": "The growth of state-sponsored heavy industry in Russia in the 1890s",
+     "B": "The spread of the putting-out system, in which rural families spun and wove at home",
+     "C": "Britain's early lead in mechanized textile production powered by coal and steam",
+     "D": "The rise of the electrical and chemical industries of the second industrial revolution"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. Taine is in England, not Russia. Russia's big state-led industrial push under Sergei Witte came in the 1890s.",
+     "B": "Incorrect. Taine describes huge mills with thousands of workers. Factories like these replaced the older putting-out system of home spinning and weaving.",
+     "C": "Correct. Manchester was the world center of cotton manufacturing. Taine sees coal country, chimneys, and mills full of looms.",
+     "D": "Incorrect. Looms, coal, and cotton mills belong to the first industrial revolution. The electrical and chemical industries grew mainly after 1870. Germany led in them."
+    },
+    "explanation": "Manchester grew up around cotton mills run by steam engines that burned nearby coal. Britain led the world in this kind of factory work and became the first industrial nation. Taine describes the crowded, smoky city that resulted."
+   },
+   {
+    "id": "E6-E02",
+    "set": "X1",
+    "topic": "6.4",
+    "lo": "E",
+    "skill": "5.A",
+    "difficulty": "medium",
+    "stem": "Taine's descriptions of the mill workers and the factory owners most directly illustrate which of the following?",
+    "options": {
+     "A": "The decline of the factory owners' power as landowners took over industry",
+     "B": "The growth of an industrial working class and a wealthy owning class",
+     "C": "The replacement of privately owned mills by state-run factories in Britain",
+     "D": "The end of child labor in Britain's textile mills by the 1860s"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Taine calls the owners \"the generals and governors of human industry.\" Factory owners grew richer and more powerful in this period, not weaker.",
+     "B": "Correct. Taine shows thousands of workers who live in \"hovels\" and owners who live like \"a minor prince.\" Industry created these two classes.",
+     "C": "Incorrect. Britain's mills were privately owned, as the \"heads of these manufacturing or commercial houses\" show.",
+     "D": "Incorrect. Taine sees \"men, women, and children\" leaving the mills. Laws limited children's hours, but child labor did not end."
+    },
+    "explanation": "Industry split society into two new classes. The working class, or proletariat, ran the machines. The middle class, or bourgeoisie, owned the factories and trading firms. Taine contrasts the workers' \"pinched and gloomy\" faces with the owners' princely power.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "E6-E03",
+    "set": "X1",
+    "topic": "6.9",
+    "lo": "J",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "Conditions like those Taine describes in the workers' districts contributed most directly to which of the following later in the 1800s?",
+    "options": {
+     "A": "The repeal of the Corn Laws to lower the price of bread",
+     "B": "The closing of the workhouses set up under the New Poor Law",
+     "C": "Public health laws and projects that built sewers and supplied clean water",
+     "D": "Britain's adoption of protective tariffs to shield its mills from foreign rivals"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. The Corn Laws were repealed in 1846, before Taine's visits, as a result of the free-trade campaign.",
+     "B": "Incorrect. The workhouses stayed open into the 1900s. Their system was not abolished until 1930.",
+     "C": "Correct. Crowded, dirty housing spread disease. Later in the century Britain passed public health and housing laws, and cities built sewers and water systems.",
+     "D": "Incorrect. Britain kept free trade until the 1930s. It did not protect its mills with tariffs."
+    },
+    "explanation": "Disease and crowding in factory towns pushed Parliament and city governments to act. Laws such as the Public Health Act of 1875 made towns provide drains and clean water. Other laws let cities tear down slums.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E6-E04",
+    "set": "X2",
+    "topic": "6.2",
+    "lo": "B",
+    "skill": "3.C",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes a difference between the two sources?",
+    "options": {
+     "A": "Cobden says the laws favor the rich over the poor, while Disraeli warns that repeal would cost farm jobs.",
+     "B": "Cobden says the Corn Laws protect factory jobs, while Disraeli says they make bread too costly for workers.",
+     "C": "Cobden wants higher taxes on foreign grain, while Disraeli wants Britain to buy grain from its colonies instead.",
+     "D": "Cobden speaks for the great landowners, while Disraeli speaks for the cotton manufacturers of Lancashire."
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. Cobden calls the duty on grain a \"bread-tax\" levied \"for the benefit of the richest portion of the community.\" Disraeli worries about \"displacing the labour of England that produces corn.\"",
+     "B": "Incorrect. This reverses the sources. Cobden attacks the Corn Laws as a tax on the poor, and Disraeli defends them.",
+     "C": "Incorrect. Cobden wants the \"total repeal\" of the taxes on food. Disraeli does not mention colonies.",
+     "D": "Incorrect. This reverses the sources. Cobden was a cotton manufacturer. Disraeli defended farming against the factories of \"a particular county.\""
+    },
+    "explanation": "Cobden, a manufacturer, argued that the Corn Laws kept bread costly to protect landlords' rents. Disraeli spoke for the landowners. He argued that cheap foreign grain would ruin British farming and put farm workers out of work.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "E6-E05",
+    "set": "X2",
+    "topic": "6.2",
+    "lo": "B",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "The debate in the two sources is best understood in the context of which of the following?",
+    "options": {
+     "A": "Manufacturers' growing power in Parliament after the 1832 Reform Act",
+     "B": "Napoleon's efforts to keep British goods out of continental Europe",
+     "C": "The rise of socialist parties that demanded public ownership of land",
+     "D": "The British government's decision to build and run the nation's railways"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. The Reform Act of 1832 gave seats to industrial towns. Manufacturers such as Cobden used their new voice to challenge the landowners who had long controlled Parliament.",
+     "B": "Incorrect. Napoleon's Continental System ended when he was defeated in 1814–1815. That was decades before this debate.",
+     "C": "Incorrect. Mass socialist parties appeared in the 1870s and later. The debate in the 1840s was between free-trade liberals and protectionist landowners.",
+     "D": "Incorrect. Private companies built Britain's railways. The state did not build or run them."
+    },
+    "explanation": "By the 1840s, men of trade and industry had a voice in Parliament. They clashed with the landowning aristocracy. The repeal of the Corn Laws in 1846 showed how much power manufacturers had gained."
+   },
+   {
+    "id": "E6-E06",
+    "set": "X2",
+    "topic": "6.7",
+    "lo": "H",
+    "skill": "1.B",
+    "difficulty": "medium",
+    "stem": "Cobden's argument in Source 1 most directly reflects which of the following ideologies?",
+    "options": {
+     "A": "Conservatism",
+     "B": "Utopian socialism",
+     "C": "Liberalism",
+     "D": "Anarchism"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. Conservatives defended tradition and the landed interest. That was Disraeli's side of the debate.",
+     "B": "Incorrect. Utopian socialists such as Robert Owen wanted communities where people shared property. Cobden defended private business.",
+     "C": "Correct. Liberals such as Cobden believed in free trade and free markets and attacked special privileges, such as taxes that raised landlords' incomes.",
+     "D": "Incorrect. Anarchists rejected all government. Cobden worked through Parliament to change the law."
+    },
+    "explanation": "Cobden led the Anti-Corn Law League, a liberal campaign for free trade. Liberals argued that ending tariffs would lower prices and help manufacturers and workers. It would also weaken the special privileges of rich landowners."
+   },
+   {
+    "id": "E6-E07",
+    "set": "X2",
+    "topic": "6.10",
+    "lo": "K",
+    "skill": "5.B",
+    "difficulty": "hard",
+    "stem": "By the late 1800s, which of the following developments contrasted most with the policy that Cobden urged?",
+    "options": {
+     "A": "Germany and France raised tariffs on grain and industrial goods.",
+     "B": "Britain restored high Corn Law duties to protect its farmers.",
+     "C": "Britain and France signed a treaty that lowered the tariffs between them.",
+     "D": "Russia freed its serfs so that they could move to factory towns."
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. When railways and steamships brought cheap grain from the Americas and Russia, Germany (1879) and France (1892) raised protective tariffs. Cobden had urged free trade.",
+     "B": "Incorrect. Britain did not restore the Corn Laws. It kept free trade in grain even when cheap American and Russian grain hurt British farmers in the late 1800s.",
+     "C": "Incorrect. The Cobden-Chevalier Treaty of 1860 lowered tariffs. Cobden himself negotiated it, so it fit his policy.",
+     "D": "Incorrect. Freeing the serfs in 1861 was about land and labor, not trade. Most freed serfs stayed bound to their village communes for years."
+    },
+    "explanation": "Railways and steamships made it cheap to ship grain across oceans. During the long slump after 1873, Germany and France protected their farmers and industries with tariffs. Britain stayed with free trade.",
+    "reasoning": "Continuity and Change"
+   },
+   {
+    "id": "E6-E08",
+    "set": "X3",
+    "topic": "6.3",
+    "lo": "D",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "The painting is best understood in the context of which of the following?",
+    "options": {
+     "A": "Prussia's withdrawal from the Zollverein, which cut its factories off from German markets",
+     "B": "The Continental System's encouragement of factories in Napoleon's empire",
+     "C": "The emancipation of the serfs, which created a factory labor force in Russia",
+     "D": "Prussia's rapid industrial growth, which helped it lead the unification of Germany"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. Prussia founded and led the Zollverein and never left it. Austria was the great German state that stayed outside it.",
+     "B": "Incorrect. The Continental System lasted from 1806 to 1814. Menzel painted this mill in the 1870s.",
+     "C": "Incorrect. Russia freed its serfs in 1861, but the painting shows an ironworks in Prussia, not Russia.",
+     "D": "Correct. Prussia's coal, iron, and railways made it the strongest German state. Menzel painted a huge ironworks in Prussian Silesia just after Germany was united under Prussia in 1871."
+    },
+    "explanation": "Industry in Prussia grew fast after 1850. The Zollverein, state money for railways, and rich coal fields in the Ruhr and Silesia all helped. This strength helped Prussia unite Germany, and industry in the new German Empire kept growing fast."
+   },
+   {
+    "id": "E6-E09",
+    "set": "X3",
+    "topic": "6.8",
+    "lo": "I",
+    "skill": "5.A",
+    "difficulty": "medium",
+    "stem": "Workers like those shown in the painting were most likely to join which of the following in the late 1800s?",
+    "options": {
+     "A": "Burschenschaften",
+     "B": "Trade unions",
+     "C": "The Anti-Corn Law League",
+     "D": "Peasant village communes"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. The Burschenschaften were student clubs at universities. They were formed after 1815 to work for German unity.",
+     "B": "Correct. German industrial workers joined trade unions in large numbers to bargain for higher wages, shorter hours, and safer work. Many also voted for the Social Democratic Party.",
+     "C": "Incorrect. The Anti-Corn Law League was a British free-trade campaign that ended in 1846.",
+     "D": "Incorrect. Village communes, such as the Russian mir, organized peasant farming, not factory work."
+    },
+    "explanation": "As factories grew, workers formed trade unions and mutual aid societies. They also joined workers' parties. In Germany, unions linked to the Social Democrats had more than two million members by 1912.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E6-E10",
+    "set": "X4",
+    "topic": "6.2",
+    "lo": "B",
+    "skill": "5.A",
+    "difficulty": "medium",
+    "stem": "Which conclusion about the period 1840–1860 is best supported by the data?",
+    "options": {
+     "A": "Railways spread first in the northwest, while the south and east lagged behind.",
+     "B": "Russia's huge size let it build more miles of railway than any other country.",
+     "C": "France built railways faster than the United Kingdom because its government built and ran the lines.",
+     "D": "Spain and Italy began building railways as early as the United Kingdom did."
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. In 1840 the United Kingdom had 838 miles and tiny Belgium had 210, while Italy had 13, Russia 16, and Spain none listed. By 1860 the United Kingdom had 10,430 miles, Germany 6,980, and France 5,880. Russia, Spain, and Italy each had only about 1,000.",
+     "B": "Incorrect. Russia had only 990 miles in 1860, less than one-tenth of the United Kingdom's 10,430.",
+     "C": "Incorrect. The United Kingdom added far more miles than France (about 9,600 compared with about 5,500). France also relied on private companies working with the state.",
+     "D": "Incorrect. In 1840 Italy had only 13 miles and Spain none listed, compared with 838 in the United Kingdom."
+    },
+    "explanation": "The table shows railways spreading unevenly. Britain, Belgium, France, and the German states started early. Russia, Spain, and Italy had few railways until after 1860.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "E6-E11",
+    "set": "X4",
+    "topic": "6.2",
+    "lo": "B",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "Which of the following best explains Russia's figures for 1850 and 1860?",
+    "options": {
+     "A": "Russia's tsars banned the building of railways until the serfs were freed.",
+     "B": "Serf agriculture dominated Russia's economy, leaving little capital for industry.",
+     "C": "Russia had already built a thick network of canals and paved roads.",
+     "D": "The Crimean War, fought on Russian soil, destroyed most of Russia's rail lines."
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. The tsars allowed railways: a line from St. Petersburg to Moscow opened in 1851, ten years before the serfs were freed.",
+     "B": "Correct. Serfdom tied most Russians to the land, landed nobles dominated, and there was little private capital or demand for transport. These factors held back industry in eastern Europe.",
+     "C": "Incorrect. Russia's roads were poor and its distances huge. That lack of transport was one reason it fell behind.",
+     "D": "Incorrect. The Crimean War was fought mainly in Crimea, far from Russia's few railways. The lack of railways helped cause Russia's defeat."
+    },
+    "explanation": "Serfdom, powerful landowners, huge distances, and little state support slowed industry in eastern Europe. After losing the Crimean War, Russia freed its serfs in 1861. Then it began building railways much faster.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E6-E12",
+    "set": "X4",
+    "topic": "6.3",
+    "lo": "D",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "The change in the figures for Germany between 1850 and 1880 is best explained by which of the following?",
+    "options": {
+     "A": "The end of the Zollverein, which freed each German state to build its own railways",
+     "B": "Germany's need for railways in its colonies in Africa and the Pacific",
+     "C": "French control of the Ruhr coal fields, which forced Germans to import coal by rail",
+     "D": "Investment by German states in railways linking coal fields, ports, and cities"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. The Zollverein was never ended. It grew until the German Empire took it over in 1871, and its free trade among the states encouraged railway building.",
+     "B": "Incorrect. Germany's first colonies came in 1884, after most of this growth. The table counts railways in Europe.",
+     "C": "Incorrect. France occupied the Ruhr only in 1923, long after this period.",
+     "D": "Correct. German states built and backed railways, and Prussia took over most private lines after 1879. By 1880 Germany had more miles of railway than the United Kingdom."
+    },
+    "explanation": "Railways tied the German states into one market. They carried coal from the Ruhr and Silesia to iron works, and they served Prussia's army. With state support, Germany passed the United Kingdom in miles of track by 1880.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E6-E13",
+    "set": "X5",
+    "topic": "6.5",
+    "lo": "F",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "The resolutions are best understood in the context of which of the following?",
+    "options": {
+     "A": "Prussia's drive to unite the German states under the Prussian king and army",
+     "B": "The spread of socialist ideas among German factory workers and miners",
+     "C": "Metternich's efforts to suppress liberal and nationalist ideas after 1815",
+     "D": "Napoleon's efforts to control the press in the German lands he had conquered"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. Prussia joined Austria in passing the resolutions. Its push to unite Germany under its king came in the 1860s.",
+     "B": "Incorrect. Socialist ideas spread among German workers later in the 1800s. The resolutions of 1819 target universities and the press.",
+     "C": "Correct. Metternich called the meeting at Carlsbad after a student killed a conservative writer in 1819. The resolutions went after professors, student clubs, and the press. Those were the places where liberal and nationalist ideas spread.",
+     "D": "Incorrect. Napoleon was defeated in 1815. These resolutions were passed by the German Confederation that replaced his system."
+    },
+    "explanation": "After the Congress of Vienna, conservative rulers were afraid of students and professors who wanted a united Germany with a constitution. The rulers feared these Germans would start a revolution. The Carlsbad Decrees put universities under watch, censored the press, and banned student clubs."
+   },
+   {
+    "id": "E6-E14",
+    "set": "X5",
+    "topic": "6.5",
+    "lo": "F",
+    "skill": "2.B",
+    "difficulty": "medium",
+    "stem": "Members of which of the following groups would have most strongly opposed the resolutions?",
+    "options": {
+     "A": "Supporters of the Holy Alliance",
+     "B": "Prussian Junker landowners",
+     "C": "Austrian Catholic bishops",
+     "D": "Liberal nationalist students"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. The Holy Alliance of Austria, Prussia, and Russia stood for monarchy and order. Its supporters favored measures like these.",
+     "B": "Incorrect. The Junkers were conservative nobles. They supported the Prussian king and feared revolution.",
+     "C": "Incorrect. Austria's Catholic bishops supported the Habsburg rulers and the old order.",
+     "D": "Correct. Student clubs such as the Burschenschaft wanted a united Germany with a constitution and freedom of the press. The resolutions banned their union and watched their teachers."
+    },
+    "explanation": "The resolutions went after universities, student clubs, and newspapers. After 1815 these were the places where Germans who wanted a free, united Germany met and spread their ideas."
+   },
+   {
+    "id": "E6-E15",
+    "set": "X5",
+    "topic": "6.6",
+    "lo": "G",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "Which of the following later developments most directly reversed the policies in the resolutions?",
+    "options": {
+     "A": "The Congress of Vienna's creation of the German Confederation",
+     "B": "The revolutions of 1848 and the election of the Frankfurt Parliament",
+     "C": "The July Revolution of 1830, which ended press censorship across the German states",
+     "D": "The founding of the Zollverein, which replaced the German Confederation"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. The Congress of Vienna created the German Confederation in 1815. That body passed the resolutions, so it did not reverse them.",
+     "B": "Correct. In March 1848 revolts forced German rulers to grant freedom of the press. The Confederation repealed the Carlsbad Decrees, and Germans elected the Frankfurt Parliament.",
+     "C": "Incorrect. The July Revolution led to some new constitutions in German states. But the Confederation answered with even more controls on the press and on meetings.",
+     "D": "Incorrect. The Zollverein of 1834 was a customs union. It lowered tariffs but did not replace the German Confederation."
+    },
+    "explanation": "Censorship lasted in the German states until 1848. The revolutions of that year swept away the Carlsbad system for a time. But conservatives took back control in 1849.",
+    "reasoning": "Continuity and Change"
+   },
+   {
+    "id": "E6-E16",
+    "set": "X6",
+    "topic": "6.7",
+    "lo": "H",
+    "skill": "3.A",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes Engels's main argument?",
+    "options": {
+     "A": "Socialism became a science once it was based on economics rather than on ideals of justice.",
+     "B": "Socialism will spread because it expresses eternal truth, reason, and justice, which conquer by their own power.",
+     "C": "Political revolutions are caused mainly by new philosophical ideas about human rights.",
+     "D": "Capitalism is likely to last because it rests on the natural laws of economics."
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. Engels says Marx's discoveries made socialism \"a science.\" He says the causes of change lie \"not in the philosophy, but in the economics of each particular epoch.\"",
+     "B": "Incorrect. That is the view of the Utopians, which Engels criticizes.",
+     "C": "Incorrect. Engels says the causes of revolutions are \"not in men's brains\" but in \"changes in the modes of production and exchange.\"",
+     "D": "Incorrect. Engels says \"all social changes and political revolutions\" come from \"changes in the modes of production and exchange.\" So no economic system lasts forever. Marxists expected capitalism to be replaced."
+    },
+    "explanation": "Engels says the earlier \"Utopians\" hoped good ideas would win people over. Marx, he says, made socialism \"a science\" by explaining history through the way goods are made and traded and through the struggle between classes."
+   },
+   {
+    "id": "E6-E17",
+    "set": "X6",
+    "topic": "6.7",
+    "lo": "H",
+    "skill": "1.B",
+    "difficulty": "medium",
+    "stem": "Which of the following thinkers would Engels most likely have classified among the \"Utopians\"?",
+    "options": {
+     "A": "Charles Fourier",
+     "B": "Mikhail Bakunin",
+     "C": "John Stuart Mill",
+     "D": "Friedrich List"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. Fourier, like Henri de Saint-Simon and Robert Owen, designed ideal communities based on reason and justice. In this pamphlet Engels discusses these three as the leading Utopians.",
+     "B": "Incorrect. Bakunin was an anarchist who opposed all government. Marx and Engels fought with him in the First International around 1870, but over the state, not over plans for ideal communities.",
+     "C": "Incorrect. Mill was a liberal thinker. He was not a socialist who planned ideal communities.",
+     "D": "Incorrect. List was an economist. He wanted tariffs to protect and build German industry."
+    },
+    "explanation": "In the early 1800s, utopian socialists such as Saint-Simon, Fourier, and Owen criticized industrial society. They designed model communities. Engels argued that they did not understand history and class in a scientific way."
+   },
+   {
+    "id": "E6-E18",
+    "set": "X6",
+    "topic": "6.7",
+    "lo": "H",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "Engels's ideas are best understood in the context of which of the following?",
+    "options": {
+     "A": "The restoration of absolute monarchies by the Congress of Vienna",
+     "B": "The Romantic movement's emphasis on emotion and the beauty of nature",
+     "C": "The growth of an industrial working class and of socialist movements",
+     "D": "The breakdown of the Concert of Europe during the Crimean War of 1853–1856"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. The Congress of Vienna met in 1814–1815. Engels writes about the economic causes of social change in the late 1800s.",
+     "B": "Incorrect. Romanticism stressed feeling and nature. Engels stresses economics and science.",
+     "C": "Correct. By 1880 factories had created a large working class, and socialist parties and unions were growing. Engels wanted to give their movement a scientific theory.",
+     "D": "Incorrect. The Crimean War (1853–1856) concerned the great powers and the Ottoman Empire, not class and production."
+    },
+    "explanation": "Capitalist industry created a large working class, or proletariat, and sharp divisions between classes. Socialists such as Marx and Engels said they could explain these changes scientifically. They predicted that workers would replace capitalism.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E6-E19",
+    "set": "X6",
+    "topic": "6.8",
+    "lo": "I",
+    "skill": "5.A",
+    "difficulty": "medium",
+    "stem": "Members of which of the following groups would most likely have agreed with Engels's criticism of the Utopians?",
+    "options": {
+     "A": "The Anti-Corn Law League",
+     "B": "Owen's cooperative societies",
+     "C": "The German Social Democratic Party",
+     "D": "The Chartist movement"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. The Anti-Corn Law League was a liberal free-trade campaign of the 1840s, not a socialist group.",
+     "B": "Incorrect. Owen was one of the Utopians Engels criticized, so his followers would have defended his ideas.",
+     "C": "Correct. In 1891 the German Social Democrats adopted the Erfurt Program, which was based on Marx's ideas. It became Europe's largest workers' party.",
+     "D": "Incorrect. The Chartists of 1838–1848 sought political rights for workers through the People's Charter. Their movement grew before Marx's ideas were widely known."
+    },
+    "explanation": "Marx's ideas shaped the large socialist parties of the late 1800s. Engels advised the German Social Democratic Party. It built its program on the \"scientific\" socialism he describes.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E6-E20",
+    "set": "X7",
+    "topic": "6.9",
+    "lo": "J",
+    "skill": "2.B",
+    "difficulty": "medium",
+    "stem": "Chadwick's argument that public works \"would be a pecuniary gain\" was most likely intended to",
+    "options": {
+     "A": "convince doctors that disease was spread by germs carried in water",
+     "B": "argue that the generous poor relief of the old Poor Law should be restored",
+     "C": "persuade Parliament to raise wages for workers in unhealthy trades",
+     "D": "persuade lawmakers worried about cost that sanitation would save money"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. Chadwick blames \"atmospheric impurities\" from filth. The germ theory of disease was developed later, by Louis Pasteur and others.",
+     "B": "Incorrect. Chadwick helped write the New Poor Law of 1834, which made relief harder to get. He did not want the old system back.",
+     "C": "Incorrect. Chadwick says prosperity and good wages did not protect workers from disease. He asks for drains and water, not higher wages.",
+     "D": "Correct. Many officials disliked new spending. Chadwick argues that drains and clean water would cut the cost of sickness and early death."
+    },
+    "explanation": "Chadwick knew that Parliament and taxpayers worried about cost. He argued that drains, garbage removal, and clean water would pay for themselves. They would cut the costs of sickness and of caring for widows and orphans."
+   },
+   {
+    "id": "E6-E21",
+    "set": "X7",
+    "topic": "6.9",
+    "lo": "J",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "Chadwick's report most directly contributed to which of the following?",
+    "options": {
+     "A": "A Public Health Act creating a General Board of Health",
+     "B": "A Factory Act limiting children's hours in textile mills",
+     "C": "A New Poor Law that set up workhouses for the poor",
+     "D": "A Reform Act that gave the vote to more middle-class men"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. The Public Health Act of 1848 followed Chadwick's report. Chadwick sat on the General Board of Health it created.",
+     "B": "Incorrect. The Factory Act of 1833 came before the report and dealt with working hours, not drains and water.",
+     "C": "Incorrect. The New Poor Law of 1834 came before the report. Chadwick helped design it, but it dealt with poor relief.",
+     "D": "Incorrect. The Reform Act of 1832 came before the report and changed voting, not public health."
+    },
+    "explanation": "The report showed how filth and bad water killed thousands. It led to the Public Health Act of 1848, which let towns set up local boards of health to build drains and water supplies.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E6-E22",
+    "set": "X7",
+    "topic": "6.4",
+    "lo": "E",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "The conditions described in the report were most directly caused by",
+    "options": {
+     "A": "enclosure, which forced landowners to move into towns",
+     "B": "the end of poor relief, which left the poor without any help",
+     "C": "the Irish potato famine, which spread disease to British cities",
+     "D": "the rapid growth of towns as people left the countryside for work"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. Enclosure pushed many poor rural laborers off the land, not landowners into towns.",
+     "B": "Incorrect. Poor relief continued under the New Poor Law of 1834, though it became harsher.",
+     "C": "Incorrect. The famine began in 1845, three years after this report.",
+     "D": "Correct. Industrial towns grew faster than anyone built drains, water supplies, or decent housing, so many people crowded into \"close and overcrowded dwellings.\""
+    },
+    "explanation": "As factories grew, people poured into towns from the countryside. Cities could not keep up. Crowding, poor drains, and dirty water spread disease.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E6-E23",
+    "set": "X8",
+    "topic": "6.6",
+    "lo": "G",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "In addition to the French example described in the passage, which of the following contributed most to the outbreak of the revolutions of 1848?",
+    "options": {
+     "A": "The defeat of Austria and Prussia in a war against France in 1847",
+     "B": "Bad harvests and an economic slump in 1846–1847",
+     "C": "Marxist parties that had won seats in most European parliaments",
+     "D": "The freeing of the Russian serfs, which inspired peasants elsewhere"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. There was no war between France and the German powers in 1847. France, Austria, and Prussia had not fought one another since 1815.",
+     "B": "Correct. Potato blight, poor grain harvests, and a business slump left many people hungry and out of work. Hardship joined discontent with the political order.",
+     "C": "Incorrect. Marx and Engels published The Communist Manifesto in February 1848. No Marxist party yet held seats in any parliament.",
+     "D": "Incorrect. Russia freed its serfs in 1861, after the revolutions of 1848."
+    },
+    "explanation": "Two things set off the revolutions of 1848. Bad harvests and lost jobs left many people hungry, and liberals and nationalists were angry at the old rulers.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E6-E24",
+    "set": "X8",
+    "topic": "6.6",
+    "lo": "G",
+    "skill": "3.D",
+    "difficulty": "medium",
+    "stem": "Which of the following best supports Seignobos's claim that in some places the revolutions \"took the form of a nationalist movement\"?",
+    "options": {
+     "A": "Paris workers rose against the government in the June Days after the national workshops closed.",
+     "B": "Hungarians led by Lajos Kossuth demanded self-rule and fought the Austrian army.",
+     "C": "Chartists in London presented a final petition for universal male suffrage.",
+     "D": "Louis Napoleon was elected president of the French Republic in December 1848."
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. The June Days were a fight between Paris workers and the republic's government. It was a class conflict, not a nationalist movement.",
+     "B": "Correct. Hungarian nationalists wanted their own government within, and later outside, the Habsburg empire. They fought until Russian troops helped Austria defeat them in 1849.",
+     "C": "Incorrect. The Chartists wanted democratic reform in Britain. Seignobos says the movement of 1848 did not reach England.",
+     "D": "Incorrect. Louis Napoleon was elected in France. His election was not a nationalist uprising."
+    },
+    "explanation": "In 1848 Hungarians, Italians, Czechs, and Germans wanted to rule themselves or to unite their nations. Kossuth led the Hungarian revolt against the Habsburgs, who ruled Austria."
+   },
+   {
+    "id": "E6-E25",
+    "set": "X8",
+    "topic": "6.5",
+    "lo": "F",
+    "skill": "5.A",
+    "difficulty": "medium",
+    "stem": "The events described in the last two paragraphs most directly show that by 1849",
+    "options": {
+     "A": "the revolutions had united Germany under a liberal constitution",
+     "B": "Russia had joined the liberal powers in supporting national independence",
+     "C": "Metternich had restored the Concert of Europe to its full strength",
+     "D": "conservative monarchs could still crush revolutions with their armies and allies"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. The Frankfurt Parliament \"dispersed.\" Germany was not united until 1871.",
+     "B": "Incorrect. The Russian tsar sent his army to crush the Hungarian revolution.",
+     "C": "Incorrect. Metternich was driven from power in March 1848 and fled Austria. The Concert of Europe never recovered its old strength.",
+     "D": "Correct. Prussian armies crushed the German democrats, and a Russian army conquered Hungary for Austria. The old rulers regained control."
+    },
+    "explanation": "By 1849 the revolutions had failed almost everywhere. Conservative rulers used their armies, sometimes with foreign help, to restore order. The Concert of Europe had broken down, and Metternich was gone.",
+    "reasoning": "Continuity and Change"
+   }
+  ]
+ }
+}
