@@ -1,0 +1,3061 @@
+{
+ "unit": 7,
+ "title": "19th-Century Perspectives and Political Developments",
+ "period": "c. 1815–c. 1914",
+ "examWeighting": "10–15%",
+ "blurb": "Nationalism and the unification of Italy and Germany, the alliances and Balkan crises that strained Europe, Darwin and Social Darwinism, new ideas from positivism to Nietzsche and Freud, the New Imperialism and its effects, and art from Romanticism to modernism.",
+ "version": "2026-11-09b",
+ "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 7: Learning Objectives A-K).",
+ "topics": [
+  {
+   "id": "7.1",
+   "name": "Contextualizing 19th-Century Perspectives and Political Developments",
+   "lo": [
+    "A"
+   ]
+  },
+  {
+   "id": "7.2",
+   "name": "Nationalism",
+   "lo": [
+    "B"
+   ]
+  },
+  {
+   "id": "7.3",
+   "name": "National Unification and Diplomatic Tensions",
+   "lo": [
+    "C",
+    "D"
+   ]
+  },
+  {
+   "id": "7.4",
+   "name": "Darwinism, Social Darwinism",
+   "lo": [
+    "E"
+   ]
+  },
+  {
+   "id": "7.5",
+   "name": "The Age of Progress and Modernity",
+   "lo": [
+    "F"
+   ]
+  },
+  {
+   "id": "7.6",
+   "name": "New Imperialism: Motivations and Methods",
+   "lo": [
+    "G",
+    "H"
+   ]
+  },
+  {
+   "id": "7.7",
+   "name": "Imperialism's Global Effects",
+   "lo": [
+    "I"
+   ]
+  },
+  {
+   "id": "7.8",
+   "name": "19th-Century Culture and Arts",
+   "lo": [
+    "J"
+   ]
+  },
+  {
+   "id": "7.9",
+   "name": "Causation in 19th-Century Perspectives and Political Developments",
+   "lo": [
+    "K"
+   ]
+  }
+ ],
+ "stimuli": {
+  "X1": {
+   "type": "passage",
+   "paragraphs": [
+    "But God gave you this means [of multiplying your strength] when he gave you a Country, when, like a wise overseer of labour, who distributes the different parts of the work according to the capacity of the workmen, he divided Humanity into distinct groups upon the face of our globe, and thus planted the seeds of nations. Bad governments have disfigured the design of God, which you may see clearly marked out, as far, at least, as regards Europe, by the courses of the great rivers, by the lines of the lofty mountains, and by other geographical conditions; they have disfigured it by conquest, by greed, by jealousy of the just sovereignty of others … They did not, and they do not, recognise any country except their own families and dynasties, the egoism of caste. But the divine design will infallibly be fulfilled. … The map of Europe will be re-made. The Countries of the People will rise, defined by the voice of the free, upon the ruins of the Countries of Kings and privileged castes. Between these Countries there will be harmony and brotherhood.",
+    "… Do not be led away by the idea of improving your material conditions without first solving the national question. You cannot do it. Your industrial associations and mutual help societies are useful as a means of educating and disciplining yourselves; as an economic fact they will remain barren until you have an Italy. …",
+    "O my Brothers! love your Country. Our Country is our home, the home which God has given us … In labouring according to true principles for our Country we are labouring for Humanity; our Country is the fulcrum of the lever which we have to wield for the common good. …",
+    "Your Country is one and indivisible. As the members of a family cannot rejoice at the common table if one of their number is far away, snatched from the affection of his brothers, so you should have no joy or repose as long as a portion of the territory upon which your language is spoken is separated from the Nation."
+   ],
+   "attribution": "Giuseppe Mazzini, Italian nationalist and revolutionary, The Duties of Man, a book addressed to Italian workers, published in full in 1860",
+   "translation": "Text from The Duties of Man and Other Essays, translated by Ella Noyes, Everyman's Library (London: J. M. Dent, 1907; 1910 printing), pp. 52–55; adapted",
+   "glossary": [
+    {
+     "t": "overseer",
+     "d": "a boss who directs workers"
+    },
+    {
+     "t": "disfigured",
+     "d": "spoiled the shape of"
+    },
+    {
+     "t": "sovereignty",
+     "d": "the right to govern itself"
+    },
+    {
+     "t": "the egoism of caste",
+     "d": "the selfishness of a privileged class"
+    },
+    {
+     "t": "infallibly",
+     "d": "certainly, without fail"
+    },
+    {
+     "t": "mutual help societies",
+     "d": "clubs in which workers paid in money to help members who were sick or out of work"
+    },
+    {
+     "t": "barren",
+     "d": "producing nothing"
+    },
+    {
+     "t": "fulcrum",
+     "d": "the point on which a lever rests and turns"
+    },
+    {
+     "t": "indivisible",
+     "d": "not able to be split up"
+    }
+   ]
+  },
+  "X2": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "In view of our obligation to secure the peace of the world, who will venture to object that the people of Alsace and Lorraine* do not want to belong to us? The doctrine of the right of all the branches of the German race to decide on their own destinies, the plausible solution of demagogues without a fatherland, shiver to pieces in presence of the sacred necessity of these great days. These territories are ours by the right of the sword, and we shall dispose of them in virtue of a higher right—the right of the German nation which will not permit its lost children to remain strangers to the German Empire. We Germans, who know Germany and France, know better than these unfortunates themselves what is good for the people of Alsace, who have remained under the misleading influence of their French connection outside the sympathies of new Germany. Against their will we shall restore them to their true selves. …",
+      "We appeal from the mistaken wishes of the men who are there to-day to the wishes of those who were there before them. We appeal to all those strong German men who once stamped the seal of our German nature on the language and manners, the art and the social life of the Upper Rhine."
+     ],
+     "attribution": "Heinrich von Treitschke, German historian at the University of Heidelberg, \"What We Demand from France,\" an essay published in a Prussian magazine, 1870",
+     "translation": "Text from Germany, France, Russia, and Islam (New York and London: G. P. Putnam's Sons, 1915), pp. 103–104, which closely follows the anonymous translation What We Demand from France (London: Macmillan, 1870); adapted",
+     "footnotes": [
+      {
+       "mark": "*",
+       "text": "Alsace and Lorraine were provinces in the northeast of France, west of the Rhine River. Many of their people spoke German dialects."
+      }
+     ],
+     "glossary": [
+      {
+       "t": "venture",
+       "d": "dare"
+      },
+      {
+       "t": "doctrine",
+       "d": "a set of beliefs"
+      },
+      {
+       "t": "plausible",
+       "d": "sounding reasonable but possibly false"
+      },
+      {
+       "t": "demagogues",
+       "d": "leaders who stir up crowds with emotional appeals"
+      },
+      {
+       "t": "fatherland",
+       "d": "homeland"
+      },
+      {
+       "t": "dispose of them",
+       "d": "decide what to do with them"
+      },
+      {
+       "t": "in virtue of",
+       "d": "because of"
+      },
+      {
+       "t": "Upper Rhine",
+       "d": "the region along the upper Rhine River, including Alsace"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "… we have no right to go about the world feeling the heads of people, then taking them by the throat, and saying, \"You are of our blood; you belong to us!\" …",
+      "Language invites re-union; it does not force it. The United States and England, Spanish America and Spain, speak the same languages, and do not form single nations. On the contrary, Switzerland, which owes her stability to the fact that she was founded by the assent of her several parts, counts three or four languages. In man there is something superior to language,—will. …",
+      "A nation's existence is—if you will pardon the metaphor—a daily plebiscite, as the individual's existence is a perpetual affirmation of life. I know very well that this is less metaphysical than divine right, less brutal than pseudo-historic right. In the order of ideas that I submit to you, a nation has no more right than a king to say to a province, \"Thou art mine; I take thee unto myself.\" For us, a province means its inhabitants; and if any one has a right to be consulted in such an affair, it is the inhabitants. A nation never favours its true interests when it annexes or retains a country, regardless of the latter's wishes."
+     ],
+     "attribution": "Ernest Renan, French historian and writer, \"What Is a Nation?\", a lecture given at the Sorbonne in Paris, 1882",
+     "translation": "Text from The Poetry of the Celtic Races, and Other Studies, translated by William G. Hutchison (London: Walter Scott, 1896), pp. 74–82; adapted",
+     "glossary": [
+      {
+       "t": "assent",
+       "d": "agreement"
+      },
+      {
+       "t": "metaphor",
+       "d": "a comparison that describes one thing as another"
+      },
+      {
+       "t": "plebiscite",
+       "d": "a vote by all the people on a single question"
+      },
+      {
+       "t": "perpetual affirmation",
+       "d": "a never-ending \"yes\""
+      },
+      {
+       "t": "metaphysical",
+       "d": "based on abstract ideas rather than facts"
+      },
+      {
+       "t": "pseudo-historic",
+       "d": "falsely claiming to be based on history"
+      },
+      {
+       "t": "annexes",
+       "d": "takes over and makes part of its own territory"
+      }
+     ]
+    }
+   ]
+  },
+  "X3": {
+   "type": "image",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_%283._Fassung_1885%29.jpg/1280px-A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_%283._Fassung_1885%29.jpg",
+   "width": 1280,
+   "height": 947,
+   "alt": "An oil painting of a crowded ceremony in a palace hall lined with tall arched windows, marble walls, and gold decoration. On a raised platform at the left, an old bearded man in uniform stands among princes. A crowd of officers on the floor raises swords and helmets in a cheer. In the center, a man in a white uniform holds a paper.",
+   "caption": "A large ceremony takes place in a long palace hall with tall arched windows, red marble pillars, and gold decoration. On the left, the elderly King William I of Prussia stands on a raised platform with German princes behind and beside him, under a cluster of regimental flags. Below the platform, a crowd of army officers in dress uniforms and spiked or plumed helmets fills the hall. Many of them raise their swords and helmets and cheer. In the center foreground, Otto von Bismarck stands out in a bright white uniform, holding a document. Everyone in the hall is in military uniform.",
+   "attribution": "Anton von Werner, German painter, The Proclamation of the German Empire (January 18, 1871), oil painting completed in 1885 as a gift from the Prussian royal family to Otto von Bismarck for his seventieth birthday",
+   "credit": "Bismarck Museum, Friedrichsruh, Germany. Public domain image via Wikimedia Commons (file: A v Werner - Kaiserproklamation am 18 Januar 1871 (3. Fassung 1885).jpg).",
+   "description": "A wide oil painting of an indoor ceremony. The setting is a long hall in a palace, with tall arched windows along the right, walls of reddish marble, and gilded carvings near the ceiling. On the left, on a carpeted platform reached by a few steps, an old man with white side-whiskers in a dark uniform with an orange sash stands facing the crowd; other men in uniform stand near him on the platform, and above them a mass of military flags and banners leans in from the upper left. On the floor of the hall, dozens of officers in dark blue, black, and white uniforms with red trim crowd together. Many hold swords high or lift their helmets, some with spikes or white plumes, in a cheer. In the center foreground, a tall man in a pure white uniform with an orange sash and tall black boots stands apart from the others, holding a sheet of paper and a helmet; he is the brightest figure in the picture. No women and no men in civilian clothes appear.",
+   "glossary": [
+    {
+     "t": "proclamation",
+     "d": "an official public announcement"
+    },
+    {
+     "t": "Prussian royal family",
+     "d": "the Hohenzollern family, kings of Prussia"
+    }
+   ]
+  },
+  "X4": {
+   "type": "bar",
+   "title": "Share of Each Region's Land Area Held as Colonies by European Powers and the United States, 1876 and 1900",
+   "categories": [
+    "Africa",
+    "Polynesia\n(Pacific islands)",
+    "Asia",
+    "Australia",
+    "The Americas"
+   ],
+   "series": [
+    {
+     "name": "1876",
+     "values": [
+      10.8,
+      56.8,
+      51.5,
+      100,
+      27.5
+     ]
+    },
+    {
+     "name": "1900",
+     "values": [
+      90.4,
+      98.9,
+      56.6,
+      100,
+      27.2
+     ]
+    }
+   ],
+   "yLabel": "Percent of land area",
+   "yMax": 100,
+   "text": "Each bar shows the percent of a region's land area held as colonies by European powers or by the United States. The author counted the United States as a colonial power and Alaska as a United States colony. Independent countries, such as the nations of Latin America, are not counted as colonies.",
+   "source": "Alexander Supan, German geographer, Die territoriale Entwicklung der europäischen Kolonien (The Territorial Growth of the European Colonies) (Gotha: Justus Perthes, 1906), p. 254"
+  },
+  "X5": {
+   "type": "passage",
+   "paragraphs": [
+    "As many more individuals of each species are born than can possibly survive; and as, consequently, there is a frequently recurring struggle for existence, it follows that any being, if it vary however slightly in any manner profitable to itself, under the complex and sometimes varying conditions of life, will have a better chance of surviving, and thus be naturally selected. From the strong principle of inheritance, any selected variety will tend to propagate its new and modified form. …",
+    "In the distant future I see open fields for far more important researches. Psychology will be based on a new foundation, that of the necessary acquirement of each mental power and capacity by gradation. Light will be thrown on the origin of man and his history.",
+    "Authors of the highest eminence seem to be fully satisfied with the view that each species has been independently created. To my mind it accords better with what we know of the laws impressed on matter by the Creator, that the production and extinction of the past and present inhabitants of the world should have been due to secondary causes, like those determining the birth and death of the individual. …",
+    "… Thus, from the war of nature, from famine and death, the most exalted object which we are capable of conceiving, namely, the production of the higher animals, directly follows. There is grandeur in this view of life, with its several powers, having been originally breathed into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved."
+   ],
+   "attribution": "Charles Darwin, English naturalist, On the Origin of Species by Means of Natural Selection, 1859",
+   "translation": "Text from the first edition (London: John Murray, 1859), pp. 5, 488–490; adapted",
+   "glossary": [
+    {
+     "t": "species",
+     "d": "a group of living things of the same kind that can breed together"
+    },
+    {
+     "t": "vary",
+     "d": "differ a little from others of its kind"
+    },
+    {
+     "t": "propagate",
+     "d": "spread by having offspring"
+    },
+    {
+     "t": "by gradation",
+     "d": "step by step, in small stages"
+    },
+    {
+     "t": "eminence",
+     "d": "fame and importance"
+    },
+    {
+     "t": "accords better with",
+     "d": "fits better with"
+    },
+    {
+     "t": "secondary causes",
+     "d": "natural causes, as opposed to direct acts of God"
+    },
+    {
+     "t": "exalted",
+     "d": "highest, most noble"
+    }
+   ]
+  },
+  "X6": {
+   "type": "passage",
+   "paragraphs": [
+    "Have you ever heard of the madman who on a bright morning lighted a lantern and ran to the market-place calling out unceasingly: \"I seek God! I seek God!\"—As there were many people standing about who did not believe in God, he caused a great deal of amusement. … The insane man jumped into their midst and transfixed them with his glances. \"Where is God gone?\" he called out. \"I mean to tell you! We have killed him,—you and I! We are all his murderers! But how have we done it? How were we able to drink up the sea? Who gave us the sponge to wipe away the whole horizon? What did we do when we loosened this earth from its sun? Whither does it now move? Whither do we move? … Is there still an above and below? Do we not stray, as through infinite nothingness? … God is dead! God remains dead! And we have killed him! How shall we console ourselves, the most murderous of all murderers? … Is not the magnitude of this deed too great for us? Shall we not ourselves have to become Gods, merely to seem worthy of it?\" …",
+    "Here the madman was silent and looked again at his hearers; they also were silent and looked at him in surprise. At last he threw his lantern on the ground, so that it broke in pieces and was extinguished. \"I come too early,\" he then said, \"I am not yet at the right time. This prodigious event is still on its way, and is travelling,—it has not yet reached men's ears. …\"—It is further stated that the madman made his way into different churches on the same day … When led out and called to account, he always gave the reply: \"What are these churches now, if they are not the tombs and monuments of God?\""
+   ],
+   "attribution": "Friedrich Nietzsche, German philosopher, The Joyful Wisdom (also translated as The Gay Science), section 125, \"The Madman,\" 1882",
+   "translation": "Text from The Joyful Wisdom, translated by Thomas Common, The Complete Works of Friedrich Nietzsche, vol. 10, edited by Oscar Levy (Edinburgh and London: T. N. Foulis, 1910), pp. 167–169; adapted",
+   "glossary": [
+    {
+     "t": "unceasingly",
+     "d": "without stopping"
+    },
+    {
+     "t": "transfixed",
+     "d": "held still, as if pinned in place"
+    },
+    {
+     "t": "whither",
+     "d": "where; to what place"
+    },
+    {
+     "t": "console",
+     "d": "comfort"
+    },
+    {
+     "t": "magnitude",
+     "d": "great size or importance"
+    },
+    {
+     "t": "extinguished",
+     "d": "put out"
+    },
+    {
+     "t": "prodigious",
+     "d": "enormous"
+    }
+   ]
+  },
+  "X7": {
+   "type": "passage",
+   "paragraphs": [
+    "One thing is granted, viz., that this Government does not suit us. As has been said by an eminent statesman—the government of one country by another can never be a successful, and therefore, a permanent Government. … In the beginning, all of us were taken by surprise. We were almost dazed. We thought that everything that the rulers did was for our good … We believed in the benevolent intentions of the Government, but in politics there is no benevolence. Benevolence is used to sugar-coat the declarations of self-interest … But soon a change came over us. English education, growing poverty, and better familiarity with our rulers, opened our eyes …",
+    "… We are not armed, and there is no necessity for arms either. We have a stronger weapon, a political weapon, in boycott. We have perceived one fact, that the whole of this administration, which is carried on by a handful of Englishmen, is carried on with our assistance. … The point is to have the entire control in our hands. I want to have the key of my house, and not merely one stranger turned out of it. Self-Government is our goal; we want a control over our administrative machinery. …",
+    "What the New Party wants you to do is to realise the fact that your future rests entirely in your own hands. … if you have not the power of active resistance, have you not the power of self-denial and self-abstinence in such a way as not to assist this foreign Government to rule over you? This is boycott and this is what is meant when we say, boycott is a political weapon. We shall not give them assistance to collect revenue and keep peace. …"
+   ],
+   "attribution": "Bal Gangadhar Tilak, Indian nationalist leader in the Indian National Congress, speech \"Tenets of the New Party,\" given in Calcutta, January 2, 1907",
+   "translation": "Text from Bal Gangadhar Tilak: His Writings and Speeches, 3rd edition (Madras: Ganesh & Co., 1922), pp. 55–64; adapted",
+   "glossary": [
+    {
+     "t": "tenets",
+     "d": "main beliefs"
+    },
+    {
+     "t": "viz.",
+     "d": "namely"
+    },
+    {
+     "t": "eminent",
+     "d": "famous and respected"
+    },
+    {
+     "t": "benevolent",
+     "d": "kind and well-meaning"
+    },
+    {
+     "t": "boycott",
+     "d": "refusing to buy from, use, or work with someone as a protest"
+    },
+    {
+     "t": "administration",
+     "d": "the work of running the government"
+    },
+    {
+     "t": "self-abstinence",
+     "d": "holding back from doing something"
+    },
+    {
+     "t": "revenue",
+     "d": "tax money"
+    }
+   ]
+  },
+  "X8": {
+   "type": "passage",
+   "paragraphs": [
+    "Light becomes the sole subject of the picture; the interest of the object upon which it plays is secondary. Painting thus conceived becomes a purely optic art, a search for harmonies, a sort of natural poem, quite distinct from expression, style and design, which were the principal aims of former painting. … It is only natural that, fascinated by this study, the Impressionists have almost remained strangers to the painting of expression, and altogether hostile to historical and symbolist painting. It is therefore principally in landscape painting that they have achieved the greatness that is theirs.",
+    "… From the outset it must not be forgotten that Impressionism has been propagated by men who had all been Realists; that means by a reactionary movement against classic and romantic painting. This movement, of which Courbet will always remain the most famous representative, has been anti-intellectual. …",
+    "… This fact of the substitution of character for beauty is the essential feature of the movement. … The Realist-Impressionists painted scenes in the ball-room, on the river, in the field, the street, the foundry, modern interiors, and found in the life of the humble immense scope for studying the gestures, the costumes, the expressions of the nineteenth century."
+   ],
+   "attribution": "Camille Mauclair, French art critic, The French Impressionists (1860–1900), 1903",
+   "translation": "Text from the English translation by P. G. Konody (London: Duckworth, 1903), chapter 2; adapted",
+   "glossary": [
+    {
+     "t": "optic",
+     "d": "having to do with seeing and light"
+    },
+    {
+     "t": "harmonies",
+     "d": "pleasing combinations, here of colors"
+    },
+    {
+     "t": "symbolist painting",
+     "d": "painting that uses figures and objects to stand for ideas"
+    },
+    {
+     "t": "propagated",
+     "d": "spread"
+    },
+    {
+     "t": "Realists",
+     "d": "artists of the mid-1800s who painted everyday life as it really looked"
+    },
+    {
+     "t": "reactionary movement against",
+     "d": "a movement that pushed back against"
+    },
+    {
+     "t": "classic",
+     "d": "following the rules of ancient Greek and Roman art"
+    },
+    {
+     "t": "anti-intellectual",
+     "d": "against using ideas and stories as the point of art"
+    },
+    {
+     "t": "foundry",
+     "d": "a factory where metal is melted and cast"
+    },
+    {
+     "t": "the humble",
+     "d": "ordinary, poor people"
+    }
+   ]
+  },
+  "P1": {
+   "type": "passage",
+   "paragraphs": [
+    "This conflict has been viewed too tragically, and taken too seriously by the press; the government seeks no conflict. Could the crisis be avoided with honor, the government would gladly welcome it. … But Prussia must keep her strength intact for the favorable moment, which is too often missed. Prussia's boundaries are not favorable to the development of a strong body politic. Not through fine speeches and majority resolutions will the questions of the hour be decided—that was the mistake of 1848 and 1849—but by Iron and Blood. …",
+    "You know that the Prussian ministry in this respect stands in a different position from the English ministry. An English ministry, whatever it may be called, is a parliamentary one, a ministry of a majority of Parliament. We, however, are ministers of his Majesty the king. …",
+    "… The necessity that the State shall exist is enough for me; necessity alone is authoritative … The Prussian monarchy has not yet fulfilled its mission; it is not yet ready to form a mere ornament for your constitutional structure,—to be no more than a useless wheel in the mechanism of parliamentary government."
+   ],
+   "attribution": "Otto von Bismarck, head of the Prussian government, speeches to the budget committee of the Prussian House of Deputies, September 30, 1862 (first paragraph), and to the full House of Deputies, January 27, 1863 (second and third paragraphs), during a dispute over money for the army",
+   "translation": "English translation, condensed by the editors, in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (Boston: Ginn, 1909), pp. 142–144; adapted",
+   "glossary": [
+    {
+     "t": "intact",
+     "d": "whole, not weakened"
+    },
+    {
+     "t": "body politic",
+     "d": "a state and its people"
+    },
+    {
+     "t": "resolutions",
+     "d": "formal decisions passed by a vote"
+    },
+    {
+     "t": "ministry",
+     "d": "the group of officials who run the government"
+    },
+    {
+     "t": "authoritative",
+     "d": "having the power to decide"
+    },
+    {
+     "t": "mechanism",
+     "d": "the working parts of a machine"
+    }
+   ]
+  },
+  "P2": {
+   "type": "passage",
+   "paragraphs": [
+    "All these considerations, conscious and unconscious, strengthened my opinion that war could be avoided only at the cost of the honour of Prussia and of the national confidence in it. Under this conviction I made use of the royal authorisation communicated to me through Abeken,* to publish the contents of the telegram; and in the presence of my two guests** I reduced the telegram by striking out words, but without adding or altering, to the following form: 'After the news of the renunciation of the hereditary Prince of Hohenzollern had been officially communicated to the imperial government of France by the royal government of Spain, the French ambassador at Ems further demanded of his Majesty the King that he would authorise him to telegraph to Paris that his Majesty the King bound himself for all future time never again to give his consent if the Hohenzollerns should renew their candidature. His Majesty the King thereupon decided not to receive the French ambassador again, and sent to tell him through the aide-de-camp on duty that his Majesty had nothing further to communicate to the ambassador.' …",
+    "After I had read out the concentrated edition to my two guests, Moltke remarked: 'Now it has a different ring; it sounded before like a parley; now it is like a flourish in answer to a challenge.' I went on to explain: 'If in execution of his Majesty's order I at once communicate this text, which contains no alteration in or addition to the telegram, not only to the newspapers, but also by telegraph to all our embassies, it will be known in Paris before midnight, and not only on account of its contents, but also on account of the manner of its distribution, will have the effect of a red rag upon the Gallic bull. Fight we must if we do not want to act the part of the vanquished without a battle. Success, however, essentially depends upon the impression which the origination of the war makes upon us and others; it is important that we should be the party attacked …'"
+   ],
+   "attribution": "Otto von Bismarck, former chancellor of Germany, describing his actions on July 13, 1870, in his memoirs, written in the 1890s after he left office and published in 1898",
+   "translation": "Text from Bismarck, the Man and the Statesman: Being the Reflections and Reminiscences of Otto, Prince von Bismarck, translated under the supervision of A. J. Butler, vol. 2 (New York: Harper & Brothers, 1898), pp. 99–101; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "Heinrich Abeken, an official with King William I at the town of Ems, sent Bismarck a telegram reporting the king's talks with the French ambassador."
+    },
+    {
+     "mark": "**",
+     "text": "General Helmuth von Moltke, chief of the Prussian general staff, and Albrecht von Roon, the Prussian minister of war."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "authorisation",
+     "d": "permission"
+    },
+    {
+     "t": "renunciation",
+     "d": "giving up a claim"
+    },
+    {
+     "t": "hereditary Prince of Hohenzollern",
+     "d": "Prince Leopold, a relative of the Prussian king, who had been offered the throne of Spain"
+    },
+    {
+     "t": "candidature",
+     "d": "being a candidate, here for the Spanish throne"
+    },
+    {
+     "t": "aide-de-camp",
+     "d": "an officer who assists a king or general"
+    },
+    {
+     "t": "parley",
+     "d": "a discussion between enemies to settle a dispute"
+    },
+    {
+     "t": "Gallic",
+     "d": "French"
+    },
+    {
+     "t": "vanquished",
+     "d": "defeated"
+    },
+    {
+     "t": "origination",
+     "d": "the way something starts"
+    }
+   ]
+  },
+  "P3": {
+   "type": "passage",
+   "paragraphs": [
+    "… Cavour's aim was to push actively and strenuously on the lines which D'Azeglio* had indicated; to court the good-will of France, that perchance some day the French would pour their armies over the Alps to drive Austria from Lombardy and Venetia. He had convinced himself that Piedmont alone could never hope for victory in an offensive war, and he had little faith in a popular rising. … A finer conscience would have hesitated to ask the help of Louis Napoleon. But Cavour was no man to shrink from dubious means, so long as they led to the great goal. He had chosen to travel by diplomatic and not by revolutionary roads, and, the choice once made, he was impelled onwards by a fatal necessity. The war in the East forced him to make his decision. …",
+    "… It seemed quixotic for Piedmont to waste in another's quarrel the strength, which she needed to husband for her own ambitions. … But all the country felt vaguely the danger of isolation, the possibility of territorial gain, the moral certainty that it would force the Powers to consider the condition of Italy. To give Piedmont a voice in the councils of Europe, to make her the honoured ally of the Western Powers and the acknowledged mouthpiece of Italy seemed worth a heavy sacrifice. …",
+    "… It was partly true that \"the Crimea was the road to Lombardy,\" and the instinct of the nationalists told them, that the sacrifice of men and money … was a cheap price to pay for the recovery of martial prestige."
+   ],
+   "attribution": "Bolton King, British historian, A History of Italian Unity, vol. 2, 1899",
+   "translation": "Text from the first edition (London: James Nisbet, 1899), pp. 5–9; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "Massimo d'Azeglio, Cavour's predecessor as head of the government of Piedmont-Sardinia, 1849–1852."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "strenuously",
+     "d": "with great effort"
+    },
+    {
+     "t": "court the good-will of",
+     "d": "try to win the friendship of"
+    },
+    {
+     "t": "perchance",
+     "d": "perhaps"
+    },
+    {
+     "t": "Lombardy and Venetia",
+     "d": "regions of northern Italy then ruled by Austria"
+    },
+    {
+     "t": "Piedmont",
+     "d": "the Kingdom of Piedmont-Sardinia in northwestern Italy, ruled by King Victor Emmanuel II"
+    },
+    {
+     "t": "popular rising",
+     "d": "a revolt by ordinary people"
+    },
+    {
+     "t": "Louis Napoleon",
+     "d": "Napoleon III, emperor of the French"
+    },
+    {
+     "t": "dubious means",
+     "d": "methods that are not quite honest"
+    },
+    {
+     "t": "impelled",
+     "d": "pushed"
+    },
+    {
+     "t": "quixotic",
+     "d": "hopelessly idealistic and impractical"
+    },
+    {
+     "t": "husband",
+     "d": "here, save carefully"
+    },
+    {
+     "t": "the Western Powers",
+     "d": "Britain and France"
+    },
+    {
+     "t": "martial prestige",
+     "d": "respect won in war"
+    }
+   ]
+  },
+  "P4": {
+   "type": "image",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Dropping_the_Pilot.jpg/960px-Dropping_the_Pilot.jpg",
+   "width": 960,
+   "height": 1504,
+   "alt": "A black-and-white engraved cartoon. An old man in a ship pilot's cap and heavy coat walks down a ladder on the side of a large ship. High above, a young man wearing a crown and a military uniform leans on the ship's rail with folded arms and watches him go. The title at the bottom reads \"Dropping the Pilot.\"",
+   "caption": "An old, heavy-set man with a large white moustache, dressed in a pilot's cap and a thick double-breasted coat, steps down a ladder hung over the side of a large ship. His face is calm and serious. High above him, a young man with an upturned moustache, wearing a jeweled crown and a uniform with shoulder boards, leans on the ship's rail with his arms folded and looks down at him. The title at the bottom reads \"Dropping the Pilot.\" A ship's pilot was an expert who guided ships through dangerous waters and then left once the ship was safely on its way.",
+   "attribution": "John Tenniel, British cartoonist, \"Dropping the Pilot,\" cartoon published in the London magazine Punch, March 29, 1890",
+   "credit": "Deutsches Historisches Museum, Berlin (engraving by Joseph Swain after Tenniel's drawing). Public domain image via Wikimedia Commons (file: Dropping the Pilot.jpg).",
+   "description": "A tall wood-engraved cartoon printed in black ink. Across the top runs the line \"Punch, or the London Charivari.—March 29, 1890.\" Most of the picture shows the high, dark side of a ship. A ladder with wooden steps and rope rails runs diagonally down the side of the hull. An old, stout man with a bushy white moustache, wearing a flat peaked cap, a long double-breasted coat, and heavy boots, stands on the lower steps, one hand holding a rope and the other resting against the hull. He looks straight ahead with a calm, grave expression. At the top of the hull, a young man in a military jacket with epaulettes and a large jeweled crown topped by an eagle leans over the rail with his arms crossed and watches the older man leave. Below the ladder, the edge of a small boat waits. The title \"Dropping the Pilot\" is printed in capital letters at the bottom.",
+   "glossary": [
+    {
+     "t": "pilot",
+     "d": "an expert sailor who guides ships through difficult waters, such as harbors and river mouths"
+    },
+    {
+     "t": "Punch",
+     "d": "a popular British humor magazine known for its political cartoons"
+    }
+   ]
+  },
+  "P5": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "Art. 1. Bulgaria is constituted an autonomous and tributary principality under the suzerainty of his Imperial Majesty the Sultan; it shall have a Christian government and a national militia. …",
+      "Art. 25. The provinces of Bosnia and Herzegovina shall be occupied and administered by Austria-Hungary.",
+      "Art. 26. The independence of Montenegro is recognized by the Sublime Porte and by all of those high contracting parties who have not hitherto admitted it.",
+      "Art. 34. The high contracting parties recognize the independence of the Principality of Servia, subject to the conditions set forth in the following article [on civil and religious liberty]. …",
+      "Art. 43. The high contracting parties recognize the independence of Roumania subject to the conditions set forth in the two following articles [on civil and religious liberty]. …"
+     ],
+     "attribution": "Treaty of Berlin, signed by Austria-Hungary, Britain, France, Germany, Italy, Russia, and the Ottoman Empire at the end of the Congress of Berlin, July 13, 1878",
+     "translation": "English text from Edward Hertslet, The Map of Europe by Treaty, vol. 4 (London, 1891), as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (Boston: Ginn, 1909), pp. 397–398 (bracketed words are Robinson and Beard's); adapted",
+     "glossary": [
+      {
+       "t": "autonomous",
+       "d": "self-governing"
+      },
+      {
+       "t": "tributary principality",
+       "d": "a small state that pays yearly tribute (money) to a stronger ruler"
+      },
+      {
+       "t": "suzerainty",
+       "d": "control by an overlord who allows local self-rule"
+      },
+      {
+       "t": "the Sultan / the Sublime Porte",
+       "d": "the ruler and the government of the Ottoman Empire"
+      },
+      {
+       "t": "militia",
+       "d": "an army of citizens"
+      },
+      {
+       "t": "high contracting parties",
+       "d": "the states signing the treaty"
+      },
+      {
+       "t": "Servia / Roumania",
+       "d": "older spellings of Serbia and Romania"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "When a generation ago our troops crossed the borders of your lands, you were assured that they came not as foes, but as friends, with the firm determination to remedy the evils from which your fatherland had suffered so grievously for many years. This promise given at a serious moment has been honestly kept. …",
+      "To our great joy we can say that the seed then scattered in the furrows of a troubled soil has richly thrived. You yourselves must feel it a boon that order and security have replaced violence and oppression, that trade and traffic are constantly extending, that the elevating influence of education has been brought to bear in your country, and that under the shield of an orderly administration every man may enjoy the fruits of his labors. …",
+      "… remembering the ties that existed of yore between our glorious ancestors on the Hungarian throne and these lands, we extend our suzerainty over Bosnia and Herzegovina, and it is our will that the order of succession of our House be extended to these lands also. The inhabitants of the two lands thus share all the benefits which a lasting confirmation of the present relation can offer."
+     ],
+     "attribution": "Francis Joseph, emperor of Austria and king of Hungary, proclamation to the inhabitants of Bosnia and Herzegovina, October 1908",
+     "translation": "English translation from the London Weekly Times, October 1908, as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (Boston: Ginn, 1909), pp. 401–402; adapted",
+     "glossary": [
+      {
+       "t": "remedy",
+       "d": "cure, fix"
+      },
+      {
+       "t": "grievously",
+       "d": "terribly"
+      },
+      {
+       "t": "boon",
+       "d": "a blessing"
+      },
+      {
+       "t": "of yore",
+       "d": "long ago"
+      },
+      {
+       "t": "suzerainty",
+       "d": "here, the emperor's rule"
+      },
+      {
+       "t": "order of succession of our House",
+       "d": "the rules for passing the throne down within the emperor's family, the Habsburgs"
+      }
+     ]
+    }
+   ]
+  },
+  "P6": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "The Jewish question exists wherever Jews live in perceptible numbers. … This is the case in every country, and will remain so, even in those most highly civilised—France itself being no exception—till the Jewish question finds a solution on a political basis. …",
+      "I think the Jewish question is no more a social than a religious one, notwithstanding that it sometimes takes these and other forms. It is a national question, which can only be solved by making it a political world-question to be discussed and controlled by the civilized nations of the world in council.",
+      "We are a people—One people.",
+      "We have honestly endeavoured everywhere to merge ourselves in the social life of surrounding communities, and to preserve only the faith of our fathers. It has not been permitted to us. In vain are we loyal patriots, our loyalty in some places running to extremes; in vain do we make the same sacrifices of life and property as our fellow citizens; in vain do we strive to increase the fame of our native land in science and art, or her wealth by trade and commerce. In countries where we have lived for centuries we are still cried down as strangers … The majority may decide which are the strangers; for this, as indeed every point which arises in the commerce of nations, is a question of might. …",
+      "Let the sovereignty be granted us over a portion of the globe large enough to satisfy the reasonable requirements of a nation; the rest we shall manage for ourselves."
+     ],
+     "attribution": "Theodor Herzl, Jewish journalist and writer in Vienna, Austria-Hungary, The Jewish State, 1896",
+     "translation": "Text from A Jewish State, revised from the English translation of Sylvie d'Avigdor, edited by J. de Haas (New York: Maccabaean Publishing, 1904), pp. 4–6, 25; adapted",
+     "glossary": [
+      {
+       "t": "perceptible",
+       "d": "noticeable"
+      },
+      {
+       "t": "notwithstanding that",
+       "d": "even though"
+      },
+      {
+       "t": "in council",
+       "d": "meeting together to decide"
+      },
+      {
+       "t": "endeavoured",
+       "d": "tried hard"
+      },
+      {
+       "t": "merge ourselves in",
+       "d": "blend into"
+      },
+      {
+       "t": "cried down",
+       "d": "insulted, put down"
+      },
+      {
+       "t": "commerce of nations",
+       "d": "here, dealings between peoples"
+      },
+      {
+       "t": "sovereignty",
+       "d": "the right to govern a territory"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "… I will tell the truth, for I have promised to tell it, if the courts, once regularly appealed to, did not bring it out fully and entirely. It is my duty to speak; I will not be an accomplice. My nights would be haunted by the specter of the innocent man who is atoning, in a far-away country,* by the most frightful of tortures, for a crime that he did not commit. …",
+      "It is a crime to mislead public opinion, to rouse it to a delirium with a view of compassing this man's death. It is a crime to poison the minds of the lowly and the humble, to exasperate the passions of reaction and intolerance, while seeking shelter behind odious anti-Semitism, which, if not suppressed, will destroy the great liberal France of the Rights of Man. It is crime to exploit patriotism for works of hatred, and, finally, it is a crime to make the sword the modern god …"
+     ],
+     "attribution": "Émile Zola, French novelist, open letter to the president of France, known as \"J'accuse\" (\"I Accuse\"), published in the Paris newspaper L'Aurore, January 13, 1898",
+     "translation": "English translation in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (Boston: Ginn, 1909), pp. 219–221, based on the translation in The Trial of Emile Zola (New York: Benjamin R. Tucker, 1898); adapted",
+     "footnotes": [
+      {
+       "mark": "*",
+       "text": "Devil's Island, a French prison colony off the coast of French Guiana in South America."
+      }
+     ],
+     "glossary": [
+      {
+       "t": "accomplice",
+       "d": "a person who helps someone do wrong"
+      },
+      {
+       "t": "specter",
+       "d": "ghost"
+      },
+      {
+       "t": "atoning",
+       "d": "paying, through suffering, for a wrong"
+      },
+      {
+       "t": "delirium",
+       "d": "a wild, confused state"
+      },
+      {
+       "t": "compassing",
+       "d": "bringing about"
+      },
+      {
+       "t": "exasperate",
+       "d": "stir up, make worse"
+      },
+      {
+       "t": "reaction",
+       "d": "here, the wish to go back to older, less free ways"
+      },
+      {
+       "t": "odious",
+       "d": "hateful"
+      },
+      {
+       "t": "the Rights of Man",
+       "d": "the Declaration of the Rights of Man and of the Citizen (1789)"
+      }
+     ]
+    }
+   ]
+  },
+  "P7": {
+   "type": "table",
+   "title": "Population of the Kingdom of Hungary by Mother Tongue, 1900 and 1910 (in thousands)",
+   "columns": [
+    "Mother tongue",
+    "1900",
+    "1910"
+   ],
+   "rows": [
+    [
+     "Hungarian (Magyar)",
+     "8,742",
+     "10,051"
+    ],
+    [
+     "Romanian",
+     "2,799",
+     "2,949"
+    ],
+    [
+     "German",
+     "2,135",
+     "2,037"
+    ],
+    [
+     "Slovak",
+     "2,020",
+     "1,968"
+    ],
+    [
+     "Croatian",
+     "1,682",
+     "1,833"
+    ],
+    [
+     "Serbian",
+     "1,049",
+     "1,106"
+    ],
+    [
+     "Ruthenian (Ukrainian)",
+     "429",
+     "473"
+    ],
+    [
+     "Others",
+     "398",
+     "469"
+    ],
+    [
+     "Total",
+     "19,255",
+     "20,886"
+    ]
+   ],
+   "text": "Figures include the lands of Croatia and Slavonia, which belonged to the Kingdom of Hungary, and are rounded to the nearest thousand. In Hungary not counting Croatia and Slavonia, people whose mother tongue was Hungarian made up 48.6 percent of the civilian population in 1890, 51.4 percent in 1900, and 54.5 percent in 1910.",
+   "source": "The Statesman's Year-Book, 1913 (London: Macmillan, 1913), Hungary, pp. 639–640 (official census figures); the totals are the census totals and include soldiers"
+  },
+  "P8": {
+   "type": "passage",
+   "paragraphs": [
+    "First. In every particular state of the world, those nations which are strongest tend to prevail over the others; and in certain marked peculiarities the strongest tend to be the best. …",
+    "These are the sort of doctrines with which, under the name of 'natural selection' in physical science, we have become familiar; and as every great scientific conception tends to advance its boundaries and to be of use in solving problems not thought of when it was started, so here, what was put forward for mere animal history may, with a change of form, but an identical essence, be applied to human history. …",
+    "… The strongest nation has always been conquering the weaker; sometimes even subduing it, but always prevailing over it. … Each nation tried constantly to be the stronger, and so made or copied the best weapons; by conscious and unconscious imitation each nation formed a type of character suitable to war and conquest. Conquest improved mankind by the intermixture of strengths; the armed truce, which was then called peace, improved them by the competition of training and the consequent creation of new power. …"
+   ],
+   "attribution": "Walter Bagehot, British journalist and editor of the business magazine The Economist, Physics and Politics, or Thoughts on the Application of the Principles of \"Natural Selection\" and \"Inheritance\" to Political Society, 1872",
+   "translation": "Text from Physics and Politics (New York: D. Appleton, 1873), pp. 43–44, 49; adapted",
+   "glossary": [
+    {
+     "t": "prevail over",
+     "d": "win out over"
+    },
+    {
+     "t": "marked peculiarities",
+     "d": "clear, special features"
+    },
+    {
+     "t": "doctrines",
+     "d": "sets of beliefs"
+    },
+    {
+     "t": "conception",
+     "d": "idea"
+    },
+    {
+     "t": "essence",
+     "d": "basic nature"
+    },
+    {
+     "t": "subduing",
+     "d": "conquering and controlling"
+    },
+    {
+     "t": "intermixture",
+     "d": "mixing together"
+    },
+    {
+     "t": "armed truce",
+     "d": "a pause in fighting while both sides stay armed"
+    }
+   ]
+  },
+  "P9": {
+   "type": "passage",
+   "paragraphs": [
+    "… From the study of the development of human intelligence, in all directions, and through all times, the discovery arises of a great fundamental law, to which it is necessarily subject … The law is this:—that each of our leading conceptions,—each branch of our knowledge,—passes successively through three different theoretical conditions: the Theological, or fictitious; the Metaphysical, or abstract; and the Scientific, or positive. … The first is the necessary point of departure of the human understanding; and the third is its fixed and definitive state. The second is merely a state of transition.",
+    "In the theological state, the human mind, seeking the essential nature of beings, the first and final causes (the origin and purpose) of all effects,—in short, Absolute knowledge,—supposes all phenomena to be produced by the immediate action of supernatural beings.",
+    "In the metaphysical state, which is only a modification of the first, the mind supposes, instead of supernatural beings, abstract forces, veritable entities (that is, personified abstractions) inherent in all beings, and capable of producing all phenomena. …",
+    "In the final, the positive state, the mind has given over the vain search after Absolute notions, the origin and destination of the universe, and the causes of phenomena, and applies itself to the study of their laws,—that is, their invariable relations of succession and resemblance. Reasoning and observation, duly combined, are the means of this knowledge."
+   ],
+   "attribution": "Auguste Comte, French philosopher, The Course of Positive Philosophy, published in six volumes, 1830–1842",
+   "translation": "Text from The Positive Philosophy of Auguste Comte, freely translated and condensed by Harriet Martineau, vol. 1 (London: George Bell, 1896), pp. 1–2; adapted",
+   "glossary": [
+    {
+     "t": "successively",
+     "d": "one after another"
+    },
+    {
+     "t": "theological",
+     "d": "having to do with religion and God"
+    },
+    {
+     "t": "metaphysical",
+     "d": "based on abstract ideas about what is real"
+    },
+    {
+     "t": "positive",
+     "d": "here, based only on facts that can be observed and tested"
+    },
+    {
+     "t": "definitive",
+     "d": "final"
+    },
+    {
+     "t": "phenomena",
+     "d": "things that happen and can be observed"
+    },
+    {
+     "t": "veritable entities",
+     "d": "things treated as if they were real beings"
+    },
+    {
+     "t": "invariable",
+     "d": "never changing"
+    }
+   ]
+  },
+  "P10": {
+   "type": "passage",
+   "paragraphs": [
+    "… In all those experiences, it had happened that a wish had been aroused, which was in sharp opposition to the other desires of the individual, and was not capable of being reconciled with the ethical, aesthetic and personal pretensions of the patient's personality. There had been a short conflict, and the end of this inner struggle was the repression of the idea which presented itself to consciousness as the bearer of this irreconcilable wish. This was, then, repressed from consciousness and forgotten. …",
+    "… Suppose that here in this hall and in this audience, whose exemplary stillness and attention I cannot sufficiently commend, there is an individual who is creating a disturbance, and, by his ill-bred laughing, talking, by scraping his feet, distracts my attention from my task. I explain that I cannot go on with my lecture under these conditions, and thereupon several strong men among you get up, and, after a short struggle, eject the disturber of the peace from the hall. He is now \"repressed,\" and I can continue my lecture. But in order that the disturbance may not be repeated, in case the man who has just been thrown out attempts to force his way back into the room, the gentlemen who have executed my suggestion take their chairs to the door and establish themselves there as a \"resistance,\" to keep up the repression. Now, if you transfer both locations to the psyche, calling this \"consciousness,\" and the outside the \"unconscious,\" you have a tolerably good illustration of the process of repression. …",
+    "Interpretation of dreams is in fact the via regia to the interpretation of the unconscious …"
+   ],
+   "attribution": "Sigmund Freud, Austrian doctor and founder of psychoanalysis, lectures given at Clark University in Massachusetts, United States, September 1909",
+   "translation": "Text from \"The Origin and Development of Psychoanalysis,\" translated by Harry W. Chase and revised by Freud, American Journal of Psychology 21 (April 1910), pp. 193–194, 200; adapted",
+   "glossary": [
+    {
+     "t": "reconciled with",
+     "d": "made to fit with"
+    },
+    {
+     "t": "ethical, aesthetic and personal pretensions",
+     "d": "the person's ideas of what is right, what is beautiful, and who they are"
+    },
+    {
+     "t": "repression",
+     "d": "pushing a thought or wish out of awareness"
+    },
+    {
+     "t": "consciousness",
+     "d": "the part of the mind a person is aware of"
+    },
+    {
+     "t": "irreconcilable",
+     "d": "impossible to fit together"
+    },
+    {
+     "t": "exemplary",
+     "d": "excellent"
+    },
+    {
+     "t": "commend",
+     "d": "praise"
+    },
+    {
+     "t": "eject",
+     "d": "throw out"
+    },
+    {
+     "t": "psyche",
+     "d": "the mind"
+    },
+    {
+     "t": "unconscious",
+     "d": "the part of the mind a person is not aware of"
+    },
+    {
+     "t": "tolerably",
+     "d": "fairly"
+    },
+    {
+     "t": "via regia",
+     "d": "Latin for \"royal road,\" meaning the main, surest path"
+    }
+   ]
+  },
+  "P11": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "I never shall forget the way\nThat Blood upon this awful day\nPreserved us all from death.\nHe stood upon a little mound,\nCast his lethargic eyes around,\nAnd said beneath his breath:\n\"Whatever happens we have got\nThe Maxim Gun, and they have not.\"",
+      "He marked them in their rude advance,\nHe hushed their rebel cheers;\nWith one extremely vulgar glance\nHe broke the Mutineers.\n…\nWe shot and hanged a few, and then\nThe rest became devoted men."
+     ],
+     "attribution": "Hilaire Belloc, British writer, The Modern Traveller, a comic poem in which a British traveller describes an expedition in Africa with his companion, a man named Blood, 1898",
+     "translation": "Text from the first edition (London: Edward Arnold, 1898), section VI; adapted",
+     "glossary": [
+      {
+       "t": "lethargic",
+       "d": "sleepy, lazy"
+      },
+      {
+       "t": "Maxim Gun",
+       "d": "an early machine gun, invented in 1884 by Hiram Maxim"
+      },
+      {
+       "t": "marked",
+       "d": "watched"
+      },
+      {
+       "t": "rude",
+       "d": "here, rough and disorganized"
+      },
+      {
+       "t": "vulgar",
+       "d": "crude, rude"
+      },
+      {
+       "t": "Mutineers",
+       "d": "people who rebel against those in charge"
+      }
+     ],
+     "verse": true
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "… They [the Khalifa's* soldiers] were in a dense mass, 2,800 yards from the 32nd Field Battery and the gunboats. The ranges were known. It was a matter of machinery. … It was a terrible sight, for as yet they had not hurt us at all, and it seemed an unfair advantage to strike thus cruelly when they could not reply. …",
+      "The infantry fired steadily and stolidly, without hurry or excitement, for the enemy were far away and the officers careful. … The rifles grew hot—so hot that they had to be changed for those of the reserve companies. The Maxim guns exhausted all the water in their jackets, and several had to be refreshed from the water-bottles of the Cameron Highlanders before they could go on with their deadly work. …",
+      "The Khalifa's plan of attack appears to have been complex and ingenious. It was, however, based on an extraordinary miscalculation of the power of modern weapons …"
+     ],
+     "attribution": "Winston Churchill, British army officer and newspaper reporter, describing the Battle of Omdurman in Sudan (September 2, 1898), in The River War, 1899",
+     "translation": "Text from The River War, new edition (London: Longmans, Green, 1902), chapter 15; adapted",
+     "footnotes": [
+      {
+       "mark": "*",
+       "text": "The Khalifa, Abdullahi ibn Muhammad, was the ruler of the Mahdist state in Sudan, which had been independent of Egyptian and British control since 1885."
+      }
+     ],
+     "glossary": [
+      {
+       "t": "Field Battery",
+       "d": "a unit of large guns (cannons)"
+      },
+      {
+       "t": "gunboats",
+       "d": "small armed river steamships"
+      },
+      {
+       "t": "stolidly",
+       "d": "calmly, without showing feeling"
+      },
+      {
+       "t": "reserve companies",
+       "d": "groups of soldiers kept back from the fighting"
+      },
+      {
+       "t": "jackets",
+       "d": "here, the water-filled tubes that kept the machine guns from overheating"
+      },
+      {
+       "t": "Cameron Highlanders",
+       "d": "a Scottish regiment of the British army"
+      },
+      {
+       "t": "ingenious",
+       "d": "clever"
+      }
+     ]
+    }
+   ]
+  },
+  "P12": {
+   "type": "passage",
+   "paragraphs": [
+    "We must look this matter in the face, and must recognise that in order that we may have more employment to give we must create more demand. (Hear, hear.) Give me the demand for more goods and then I will undertake to give plenty of employment in making the goods; and the only thing, in my opinion, that the Government can do in order to meet this great difficulty that we are considering, is so to arrange its policy that every inducement shall be given to the demand; that new markets shall be created, and that old markets shall be effectually developed. (Cheers.) …",
+    "… I am convinced that it is a necessity as well as a duty for us to uphold the dominion and empire which we now possess. (Loud cheers.) For these reasons, among others, I would never lose the hold which we now have over our great Indian dependency—(hear, hear)—by far the greatest and most valuable of all the customers we have or ever shall have in this country. For the same reasons I approve of the continued occupation of Egypt; and for the same reasons I have urged upon this Government, and upon previous Governments, the necessity for using every legitimate opportunity to extend our influence and control in that great African continent which is now being opened up to civilisation and to commerce; and, lastly, it is for the same reasons that I hold that our navy should be strengthened—(loud cheers)—until its supremacy is so assured that we cannot be shaken in any of the possessions which we hold or may hold hereafter.",
+    "Believe me, if in any one of the places to which I have referred any change took place which deprived us of that control and influence of which I have been speaking, the first to suffer would be the working-men of this country. …"
+   ],
+   "attribution": "Joseph Chamberlain, British member of Parliament and former mayor of Birmingham, speech at a meeting of a charity that helped unemployed workers, Birmingham, England, January 22, 1894",
+   "translation": "Text from Foreign and Colonial Speeches (London: George Routledge, 1897), pp. 131–133; adapted",
+   "glossary": [
+    {
+     "t": "employment",
+     "d": "jobs"
+    },
+    {
+     "t": "inducement",
+     "d": "encouragement"
+    },
+    {
+     "t": "effectually",
+     "d": "effectively"
+    },
+    {
+     "t": "dominion",
+     "d": "rule over territory"
+    },
+    {
+     "t": "Indian dependency",
+     "d": "British-ruled India"
+    },
+    {
+     "t": "legitimate",
+     "d": "lawful, proper"
+    },
+    {
+     "t": "supremacy",
+     "d": "position of being the strongest"
+    },
+    {
+     "t": "(Hear, hear.) / (Cheers.)",
+     "d": "notes showing how the audience reacted"
+    }
+   ]
+  },
+  "P13": {
+   "type": "passage",
+   "paragraphs": [
+    "… The Congo native, like the native of every part of the African tropics, must be protected in his rights in land, property, and labour. All those rights have been swept away from him by the most colossal act of spoliation ever imagined by mortal man. The right of trading freely in the produce of his soil, and in the fruits of his labour must be restored to him. …",
+    "To remove from a primitive community the right to trade is to strangle for ever the economic development of that community, to reduce it to perpetual sterility, or to enslave it.",
+    "But King Leopold has done this. He has done so juridically, by claiming that a \"State\" (which he calls his enterprise) is empowered to appropriate the entire merchantable products of the land in which the citizens of that \"State\" dwell; and, in practice, by appropriating the entire labour of the country … And how can compulsion be exercised in the African tropics, save by arming one black man and stationing him with a loaded rifle in his hand over his unarmed brother? …",
+    "\"British interests\" in this connection mean nothing more than the right provided under the Berlin Conference for the subjects of Britain, as for the subjects of the fourteen contracting Powers—neither more nor less—of commercial intercourse with the natives of the Congo. …"
+   ],
+   "attribution": "Edmund D. Morel, British journalist and founder of the Congo Reform Association, Red Rubber: The Story of the Rubber Slave Trade on the Congo, preface to the second edition, 1906",
+   "translation": "Text from Red Rubber, with an introduction by Sir Harry Johnston (New York: The Nassau Print, 1906), pp. xx–xxiii; adapted",
+   "glossary": [
+    {
+     "t": "native",
+     "d": "a word used at the time for the African people who lived in the Congo"
+    },
+    {
+     "t": "primitive community",
+     "d": "Morel's term for a farming and trading village society; today historians avoid the word \"primitive\""
+    },
+    {
+     "t": "perpetual sterility",
+     "d": "never-ending inability to grow"
+    },
+    {
+     "t": "colossal",
+     "d": "huge"
+    },
+    {
+     "t": "spoliation",
+     "d": "robbery, taking by force"
+    },
+    {
+     "t": "juridically",
+     "d": "by law"
+    },
+    {
+     "t": "appropriate",
+     "d": "take for oneself"
+    },
+    {
+     "t": "merchantable products",
+     "d": "goods that can be sold, such as rubber and ivory"
+    },
+    {
+     "t": "compulsion",
+     "d": "forcing people to do something"
+    },
+    {
+     "t": "commercial intercourse",
+     "d": "trade"
+    }
+   ]
+  },
+  "P14": {
+   "type": "passage",
+   "paragraphs": [
+    "Empire-building is done not by \"nations\" but by men. The problem before us is to discover the men, the active, interested minorities in each nation, who are directly interested in imperialism, and then to analyze the reasons why the majorities pay the expenses and fight the wars necessitated by imperialist expansion.",
+    "First and foremost among the active imperialist groups come certain business interests. Not the whole so-called \"capitalist class,\" as many an earnest Socialist would have us believe, but only a minority of business interests are directly interested in imperialism. …",
+    "… these active imperialist interests are minority interests. The overwhelming majority of a nation has no direct business, or professional, or military interest in colonial empire. … Why, then, does the majority so cheerfully follow the leadership of the imperialist minorities?",
+    "Not direct interests, but ideas, not property or profession, but principles, actuate the public at large. The theories spread broadcast by imperialist propaganda are the dynamic factors impelling nations to send out armies, defray expenditures, risk wars, for the conquest of distant colonies and protectorates. It requires ideas, attuned to instinctive emotions, to make modern nations fight. The ideas which have been particularly potent in imperialism are the idea of preventive self-defense, which awakens the primitive emotion of fear; the idea of surplus population, resting on the instinct of self-preservation; the ideas of economic nationalism, and national prestige, appealing to instincts of gregariousness and self-aggrandizement; and an aggressive sort of altruism, which gratifies our innate pride."
+   ],
+   "attribution": "Parker T. Moon, American historian at Columbia University, Imperialism and World Politics, 1926",
+   "translation": "Text from Imperialism and World Politics (New York: Macmillan, 1926; February 1927 printing), pp. 58–59, 67–68; adapted",
+   "glossary": [
+    {
+     "t": "necessitated by",
+     "d": "made necessary by"
+    },
+    {
+     "t": "actuate",
+     "d": "move to act"
+    },
+    {
+     "t": "propaganda",
+     "d": "information spread to win people to a cause"
+    },
+    {
+     "t": "defray expenditures",
+     "d": "pay the costs"
+    },
+    {
+     "t": "protectorates",
+     "d": "lands controlled by a stronger country that leaves some local rulers in place"
+    },
+    {
+     "t": "potent",
+     "d": "powerful"
+    },
+    {
+     "t": "surplus population",
+     "d": "more people than a country can support"
+    },
+    {
+     "t": "prestige",
+     "d": "respect and admiration"
+    },
+    {
+     "t": "gregariousness",
+     "d": "the wish to belong to a group"
+    },
+    {
+     "t": "self-aggrandizement",
+     "d": "making oneself greater"
+    },
+    {
+     "t": "altruism",
+     "d": "acting for the good of others"
+    }
+   ]
+  },
+  "P15": {
+   "type": "image",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg/1280px-Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg",
+   "width": 1280,
+   "height": 958,
+   "alt": "An oil painting of three peasant women in plain work clothes bending over a flat, harvested field to pick up leftover stalks of grain. Far behind them, workers load large haystacks onto a wagon near a farm.",
+   "caption": "In the foreground, three peasant women in rough, faded work clothes and head scarves bend low over a wide field that has already been harvested. Two of them stoop almost to the ground to pick up single stalks of wheat left behind by the harvesters, and the third holds a small bundle of stalks. Their faces are hidden or shadowed. Far in the background, in golden light, workers pile grain onto huge haystacks and a loaded wagon near the buildings of a large farm, and a man on horseback watches them.",
+   "attribution": "Jean-François Millet, French painter, The Gleaners, oil painting first shown at the official Paris art exhibition (the Salon) in 1857",
+   "credit": "Musée d'Orsay, Paris. Public domain image via Wikimedia Commons (file: Jean-François Millet - Gleaners - Google Art Project 2.jpg).",
+   "description": "A wide oil painting in soft browns, tans, and muted blues. Three women fill the lower half of the picture. On the left, a woman in a blue cap and brown jacket bends far forward, reaching one hand to the stubble on the ground while holding a bundle of stalks behind her back. In the middle, a woman in a red head scarf and white blouse bends almost double, her hand nearly touching the earth. On the right, a woman in a pale cap, light blue blouse, and apron stands half bent, holding stalks of grain in her hands. The ground is flat and covered with cut stubble. In the far distance, under a hazy sky, tall golden haystacks rise beside a wagon piled with grain; many small figures of workers bustle around them, and a man on a horse sits at the right near a group of farm buildings.",
+   "glossary": [
+    {
+     "t": "gleaners",
+     "d": "poor people who were allowed to gather the grain left in a field after the harvest"
+    },
+    {
+     "t": "the Salon",
+     "d": "the official art exhibition in Paris, run under government and Academy rules"
+    }
+   ]
+  },
+  "P16": {
+   "type": "passage",
+   "paragraphs": [
+    "Let us then speak boldly. The time for it has come, and it would be strange if, in this age, liberty, like the light, should penetrate everywhere except to the one place where freedom is most natural—the domain of thought. Let us take the hammer to theories and poetic systems. Let us throw down the old plastering that conceals the facade of art. There are neither rules nor models; or, rather, there are no other rules than the general laws of nature, which soar above the whole field of art, and the special rules which result from the conditions appropriate to the subject of each composition. …",
+    "… Genius, which divines rather than learns, devises for each work the general rules from the general plan of things, the special rules from the separate ensemble of the subject treated; not after the manner of the chemist, who lights the fire under his furnace, heats his crucible, analyzes and destroys; but after the manner of the bee, which flies on its golden wings, lights on each flower and extracts its honey, leaving it as brilliant and fragrant as before.",
+    "The poet—let us insist on this point—should take counsel therefore only of nature, truth, and inspiration which is itself both truth and nature. …"
+   ],
+   "attribution": "Victor Hugo, French poet, playwright, and novelist, preface to his play Cromwell, 1827",
+   "translation": "Text from Prefaces and Prologues to Famous Books, The Harvard Classics, vol. 39 (New York: P. F. Collier, 1910), pp. 383–384; adapted",
+   "glossary": [
+    {
+     "t": "penetrate",
+     "d": "reach into"
+    },
+    {
+     "t": "domain",
+     "d": "area, field"
+    },
+    {
+     "t": "facade",
+     "d": "the front of a building"
+    },
+    {
+     "t": "composition",
+     "d": "a work of art, such as a play or poem"
+    },
+    {
+     "t": "divines",
+     "d": "senses, discovers by feeling"
+    },
+    {
+     "t": "ensemble",
+     "d": "the whole of something"
+    },
+    {
+     "t": "crucible",
+     "d": "a pot used to melt and test chemicals"
+    },
+    {
+     "t": "take counsel of",
+     "d": "be guided by"
+    }
+   ]
+  }
+ },
+ "practice": [
+  {
+   "id": "E7-P01",
+   "set": "P1",
+   "topic": "7.3",
+   "lo": "C",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Which of the following best describes Bismarck's main argument in the passage?",
+   "options": {
+    "A": "Prussia should adopt the British system, in which the king's ministers answer to a majority in parliament.",
+    "B": "Prussia should unite Germany by winning over the liberal majority in its parliament.",
+    "C": "Military power and the king's authority, not parliamentary votes, would decide Prussia's future.",
+    "D": "Prussia should keep its army small so that it would not alarm Austria and France."
+   },
+   "answer": "C",
+   "explanation": "Bismarck says the big questions of the day will be decided \"by Iron and Blood,\" meaning war and weapons. He also says the ministers serve the king, not a majority in parliament.",
+   "whyNot": {
+    "A": "He says the opposite. The ministers serve the king, not a majority in parliament: \"We, however, are ministers of his Majesty the king.\"",
+    "B": "He mocks \"fine speeches and majority resolutions.\" In 1862 the liberal majority would not pay for his army plans.",
+    "D": "He wanted a bigger army. He says Prussia \"must keep her strength intact\" for \"the favorable moment.\""
+   },
+   "hint": "Look at what Bismarck says will decide \"the questions of the hour,\" and whom he says the ministers serve."
+  },
+  {
+   "id": "E7-P02",
+   "set": "P1",
+   "topic": "7.1",
+   "lo": "A",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "Bismarck's reference to \"the mistake of 1848 and 1849\" most likely refers to which of the following?",
+   "options": {
+    "A": "The crushing of the June Days uprising in Paris",
+    "B": "Prussia's war against Austria for leadership in Germany",
+    "C": "The Frankfurt Parliament's failed attempt to unite Germany",
+    "D": "The creation of the German Confederation at the Congress of Vienna"
+   },
+   "answer": "C",
+   "explanation": "In 1848 an elected assembly met in Frankfurt to unite Germany. It wrote a constitution and offered a German crown to the king of Prussia, who refused it in 1849. Bismarck saw this as proof that speeches and votes could not unite Germany.",
+   "whyNot": {
+    "A": "The June Days of 1848 were a French workers' uprising put down by the French government. They had nothing to do with uniting Germany.",
+    "B": "Prussia fought Austria in 1866, after these speeches of 1862 and 1863.",
+    "D": "The Congress of Vienna created the German Confederation in 1815, not in 1848 or 1849."
+   },
+   "hint": "What happened in the German states in 1848 and 1849 when liberals tried to unite Germany through an elected assembly?",
+   "reasoning": "Continuity and Change"
+  },
+  {
+   "id": "E7-P03",
+   "set": "P1",
+   "topic": "7.3",
+   "lo": "C",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "Bismarck's approach in the passage was most clearly put into practice in which of the following?",
+   "options": {
+    "A": "Prussia's wars with Denmark, Austria, and France from 1864 to 1871",
+    "B": "Prussia's support for the liberal revolutions in the German states in 1848",
+    "C": "Bismarck's decision to let the Prussian parliament choose the king's ministers",
+    "D": "Prussia's peaceful union with Austria in a single German empire"
+   },
+   "answer": "A",
+   "explanation": "Bismarck used three short wars to unite Germany under Prussia: against Denmark (1864), Austria (1866), and France (1870–1871). This was \"Iron and Blood\" in action.",
+   "whyNot": {
+    "B": "Prussian troops helped put down the revolts of 1848 and 1849. That was years before Bismarck took office in 1862.",
+    "C": "Bismarck insisted that ministers served the king. He even collected taxes without the parliament's approval.",
+    "D": "Prussia defeated Austria in 1866 and left it out of the new German Empire."
+   },
+   "hint": "What does \"Iron and Blood\" mean? Which choice describes Prussia using it?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E7-P04",
+   "set": "P2",
+   "topic": "7.3",
+   "lo": "C",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "According to his account, Bismarck shortened the telegram most likely in order to",
+   "options": {
+    "A": "calm French anger so that the quarrel over the Spanish throne could be settled peacefully",
+    "B": "persuade the Spanish government to choose a Hohenzollern prince as its king",
+    "C": "warn Austria not to join France in a war against Prussia",
+    "D": "provoke France into declaring war so that Prussia would seem to be the side attacked"
+   },
+   "answer": "D",
+   "explanation": "Bismarck says the short text would act like \"a red rag upon the Gallic bull.\" He wanted France to look like the attacker. France declared war on July 19, 1870.",
+   "whyNot": {
+    "A": "He says the new text would act like \"a red rag upon the Gallic bull.\" He wanted to stir up French anger, not calm it.",
+    "B": "The prince had already given up his claim. The edited telegram reports \"the renunciation of the hereditary Prince of Hohenzollern.\"",
+    "C": "Bismarck aimed the text at Paris and the newspapers. Austria had made peace with Prussia in 1866 and stayed out of the war of 1870."
+   },
+   "hint": "Find the animal comparison Bismarck uses. What does a red rag do to a bull?"
+  },
+  {
+   "id": "E7-P05",
+   "set": "P2",
+   "topic": "7.3",
+   "lo": "C",
+   "skill": "2.C",
+   "difficulty": "hard",
+   "stem": "Which of the following is the most important limitation of this passage as evidence of Bismarck's thinking in July 1870?",
+   "options": {
+    "A": "He was a liberal who opposed the war and so played down Prussia's part in starting it.",
+    "B": "His account is based mainly on what the French ambassador said about the talks at Ems.",
+    "C": "His memoirs were censored by the French government after Germany lost a war with France.",
+    "D": "He wrote it decades later and may have wanted to seem the clever planner of victory."
+   },
+   "answer": "D",
+   "explanation": "Bismarck wrote his memoirs in the 1890s, after Emperor William II forced him out of office. A historian should check his story against records from 1870, because he may have shaped it to make himself look clever and in control.",
+   "whyNot": {
+    "A": "Bismarck was a conservative who wanted the war. In the passage he plays up his own part in starting it.",
+    "B": "His account rests on the telegram sent from the king's side by Abeken, not on a French report.",
+    "C": "Germany defeated France in 1870–1871. It did not lose a war to France before the memoirs came out in 1898."
+   },
+   "hint": "When was this account written, and how might Bismarck have wanted readers to remember him?"
+  },
+  {
+   "id": "E7-P06",
+   "set": "P2",
+   "topic": "7.2",
+   "lo": "B",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The events Bismarck describes contributed most directly to which of the following?",
+   "options": {
+    "A": "Austria joined the North German Confederation and accepted Prussian leadership in Germany.",
+    "B": "The southern German states fought beside Prussia and joined a new German Empire.",
+    "C": "Napoleon III strengthened his hold on power after a quick French victory.",
+    "D": "Spain went to war with France to put a Hohenzollern prince on its throne."
+   },
+   "answer": "B",
+   "explanation": "The war set off a wave of German national feeling. Bavaria, Württemberg, and Baden fought beside Prussia, and in January 1871 the German princes proclaimed the Prussian king German emperor. Bismarck had used nationalism to build a Prussian-led state.",
+   "whyNot": {
+    "A": "Austria lost the war of 1866. It was kept out of both the North German Confederation and the new empire.",
+    "C": "France lost. Napoleon III was captured at Sedan in September 1870, and France became a republic.",
+    "D": "The Hohenzollern prince had already withdrawn, as the edited telegram says. And Spain stayed out of the war."
+   },
+   "hint": "Which German states had stayed outside Prussia's control before 1870? What did a war with France do for them?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E7-P07",
+   "set": "P3",
+   "topic": "7.3",
+   "lo": "C",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Which of the following best describes King's argument about Cavour?",
+   "options": {
+    "A": "Cavour believed Piedmont could defeat Austria alone if the Italian people rose in revolt.",
+    "B": "Cavour counted on diplomacy and French armies, not a popular revolt, to oust Austria.",
+    "C": "Cavour joined the war in the East mainly to win new territory near the Black Sea.",
+    "D": "Cavour refused to seek French help because he distrusted Napoleon III's ambitions."
+   },
+   "answer": "B",
+   "explanation": "King says Cavour chose \"diplomatic\" roads, not \"revolutionary\" ones. Cavour hoped French armies would help push Austria out of northern Italy.",
+   "whyNot": {
+    "A": "King says Cavour thought \"Piedmont alone could never hope for victory.\" He also \"had little faith in a popular rising.\"",
+    "C": "King mentions a hope of \"territorial gain,\" but he stresses winning \"a voice in the councils of Europe.\" Piedmont wanted land in Italy, not near the Black Sea, and the war gave it none.",
+    "D": "King says Cavour chose \"to court the good-will of France.\" He was willing \"to ask the help of Louis Napoleon.\""
+   },
+   "hint": "Which \"roads\" does King say Cavour chose?"
+  },
+  {
+   "id": "E7-P08",
+   "set": "P3",
+   "topic": "7.3",
+   "lo": "C",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The \"war in the East\" that King mentions contributed to Italian unification mainly because it",
+   "options": {
+    "A": "forced Austria to hand Venetia to Piedmont at the peace conference in Paris",
+    "B": "led Britain to send an army to help Piedmont fight Austria in Lombardy",
+    "C": "weakened the Concert of Europe and cost Austria the support of its old ally Russia",
+    "D": "turned Russia into Piedmont's ally in a war against France and Austria"
+   },
+   "answer": "C",
+   "explanation": "In the Crimean War (1853–1856) Austria stayed neutral, even though Russia had helped it crush a revolt in Hungary in 1849. Russia felt betrayed, and the great powers stopped working together to protect the 1815 settlement. This left Austria alone when France and Piedmont attacked it in 1859.",
+   "whyNot": {
+    "A": "Venetia went to Italy only in 1866, after Prussia defeated Austria. The peace conference of 1856 gave Piedmont no land.",
+    "B": "Britain sent no army to Italy. France fought beside Piedmont against Austria in 1859.",
+    "D": "Piedmont fought against Russia in the Crimean War. Russia never became Piedmont's ally."
+   },
+   "hint": "Think about how the great powers treated one another before and after the war of 1853–1856.",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E7-P09",
+   "set": "P3",
+   "topic": "7.3",
+   "lo": "C",
+   "skill": "3.D",
+   "difficulty": "hard",
+   "stem": "Which piece of evidence best supports King's claim that \"the Crimea was the road to Lombardy\"?",
+   "options": {
+    "A": "Garibaldi's volunteers conquered Sicily and Naples in 1860 and then handed their conquests over to King Victor Emmanuel II.",
+    "B": "Cavour raised the Italian question at the peace conference of 1856, and France helped Piedmont win Lombardy in 1859.",
+    "C": "Disease killed many more of Piedmont's soldiers in the Crimea than enemy fire did.",
+    "D": "Austria stayed out of the fighting in the Crimea even though Britain and France asked it to join them."
+   },
+   "answer": "B",
+   "explanation": "Cavour spoke about Italy at the Congress of Paris in 1856. Two years later Napoleon III promised to help him. In 1859 French and Piedmontese armies beat Austria and won Lombardy.",
+   "whyNot": {
+    "A": "This is true. But Garibaldi's campaign in the south came after Lombardy was won. It did not grow out of the Crimean War.",
+    "C": "This is true, but it shows what the war cost Piedmont, not how it led to gaining Lombardy.",
+    "D": "This is true. But Austria staying out of the war does not show that Piedmont's part in it won Lombardy."
+   },
+   "hint": "Which choice connects the war in the Crimea to Piedmont gaining Lombardy?"
+  },
+  {
+   "id": "E7-P10",
+   "set": "P4",
+   "topic": "7.3",
+   "lo": "D",
+   "skill": "1.B",
+   "difficulty": "medium",
+   "stem": "The cartoon most directly comments on which of the following?",
+   "options": {
+    "A": "Bismarck's defeat in an election for chancellor",
+    "B": "Bismarck's retirement after William I's death",
+    "C": "William II's abdication in favor of his son",
+    "D": "Emperor William II's forcing of Bismarck out of office"
+   },
+   "answer": "D",
+   "explanation": "In March 1890 the young emperor William II, who wanted to run policy himself, forced the 74-year-old Bismarck to resign. Tenniel shows Bismarck as a ship's pilot leaving while the new captain watches from the deck.",
+   "whyNot": {
+    "A": "The emperor chose German chancellors. Voters did not elect them.",
+    "B": "William I died in 1888, but Bismarck stayed in office until 1890.",
+    "C": "William II did not give up his throne until 1918, at the end of World War I. In the cartoon the crowned man stays on board."
+   },
+   "hint": "Who is the old pilot, and who wears the crown? What happened between them in 1890?"
+  },
+  {
+   "id": "E7-P11",
+   "set": "P4",
+   "topic": "7.3",
+   "lo": "D",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The event shown in the cartoon contributed most directly to which of the following?",
+   "options": {
+    "A": "Germany's failure to renew the Reinsurance Treaty with Russia",
+    "B": "The Congress of Berlin, where Bismarck acted as an \"honest broker\"",
+    "C": "The formation of the Three Emperors' League with Austria-Hungary and Russia",
+    "D": "The Dual Alliance between Germany and Austria-Hungary"
+   },
+   "answer": "A",
+   "explanation": "Bismarck had kept France isolated by staying friendly with Russia. After he left office, Germany let the Reinsurance Treaty with Russia lapse in 1890. Russia and France then formed an alliance, completed in 1894, so Germany faced possible enemies on two sides.",
+   "whyNot": {
+    "B": "The Congress of Berlin met in 1878, while Bismarck was still in office.",
+    "C": "Bismarck formed the Three Emperors' League in 1873, long before he left office.",
+    "D": "Bismarck made the Dual Alliance in 1879. It came before his fall and lasted until 1918."
+   },
+   "hint": "Bismarck worked hard to keep one large eastern power friendly to Germany. What happened to that friendship after 1890?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E7-P12",
+   "set": "P4",
+   "topic": "7.3",
+   "lo": "D",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Tenniel most likely drew the cartoon to suggest that",
+   "options": {
+    "A": "Bismarck had nearly wrecked the German ship and deserved to be put off it",
+    "B": "the German parliament now controlled the emperor's choice of ministers",
+    "C": "Germany's young emperor would keep relying on Bismarck's advice",
+    "D": "Germany was losing the experienced leader who had long guided it"
+   },
+   "answer": "D",
+   "explanation": "A pilot guides a ship through dangerous waters. Tenniel shows Bismarck as a pilot being put off the ship. The message is that Germany was losing its most skillful leader. Its course under the young emperor was uncertain.",
+   "whyNot": {
+    "A": "The pilot looks calm and dignified, and the ship is whole. He is shown as a guide, not as someone who wrecked it.",
+    "B": "The Reichstag did not choose ministers. The emperor did, which is how William II could remove Bismarck.",
+    "C": "The young emperor only watches as the pilot climbs down. William II wanted to rule without Bismarck."
+   },
+   "hint": "Read the caption's note on what a ship's pilot does. Why might people worry about dropping the pilot?"
+  },
+  {
+   "id": "E7-P13",
+   "set": "P5",
+   "topic": "7.1",
+   "lo": "A",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "Source 1 is best understood in the context of",
+   "options": {
+    "A": "the peace settlement drawn up after Britain and France defeated Russia in the Crimean War",
+    "B": "the great powers' effort to limit Russia's gains after it defeated the Ottoman Empire",
+    "C": "the breakup of Austria-Hungary into new national states after a lost war",
+    "D": "an Ottoman victory that restored the sultan's control over the Balkans"
+   },
+   "answer": "B",
+   "explanation": "Russia beat the Ottoman Empire in 1877–1878. It forced the sultan to accept a large Bulgaria that would be friendly to Russia. Britain and Austria-Hungary objected. At the Congress of Berlin, the powers made Bulgaria smaller and let Austria-Hungary take over Bosnia and Herzegovina.",
+   "whyNot": {
+    "A": "That settlement was the Treaty of Paris of 1856. Source 1 was signed in 1878.",
+    "C": "Austria-Hungary broke apart in 1918. In Source 1 it gains the right to occupy Bosnia and Herzegovina.",
+    "D": "The sultan lost land. The treaty recognizes the independence of Serbia, Montenegro, and Romania."
+   },
+   "hint": "Who won the war of 1877–1878, and why would the other great powers want to rewrite its peace terms?"
+  },
+  {
+   "id": "E7-P14",
+   "set": "P5",
+   "topic": "7.3",
+   "lo": "D",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Francis Joseph most likely issued Source 2 in order to",
+   "options": {
+    "A": "announce that Bosnia and Herzegovina would become a fully independent kingdom with its own king",
+    "B": "return Bosnia and Herzegovina to the Ottoman sultan, as Source 1 required",
+    "C": "invite Serbia to share in governing Bosnia and Herzegovina",
+    "D": "justify making permanent his rule over lands his empire had occupied since 1878"
+   },
+   "answer": "D",
+   "explanation": "Austria-Hungary had run Bosnia and Herzegovina since 1878, but on paper the lands still belonged to the Ottoman Empire. In October 1908 Francis Joseph annexed them. His proclamation stresses order, trade, and schools to make the takeover sound like a gift.",
+   "whyNot": {
+    "A": "He says his family's \"order of succession\" will \"be extended to these lands.\" They were joining his empire, not becoming free.",
+    "B": "Source 1 says the provinces \"shall be occupied and administered by Austria-Hungary.\" It sets no date for giving them back. Francis Joseph is taking them, not returning them.",
+    "C": "Serbia wanted Bosnia for itself. The proclamation shuts Serbia out."
+   },
+   "hint": "What does Francis Joseph say has improved since 1878, and what does he announce at the end?"
+  },
+  {
+   "id": "E7-P15",
+   "set": "P5",
+   "topic": "7.9",
+   "lo": "K",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "In the long term, the action announced in Source 2 contributed most directly to",
+   "options": {
+    "A": "growing hostility between Austria-Hungary and Serbia",
+    "B": "the Congress of Berlin's decision to make Bulgaria smaller",
+    "C": "the crisis between France and Germany over Morocco in 1911",
+    "D": "Greece's war for independence from the Ottoman Empire"
+   },
+   "answer": "A",
+   "explanation": "Serbia hoped to unite the South Slavs, including the Serbs of Bosnia. The 1908 annexation angered Serbia and Russia. In June 1914 a Bosnian Serb nationalist killed Archduke Franz Ferdinand in Sarajevo, the capital of Bosnia, setting off the crisis that led to World War I.",
+   "whyNot": {
+    "B": "The Congress of Berlin met in 1878, thirty years before the annexation. Source 1 comes from that meeting.",
+    "C": "The 1911 crisis was a quarrel between France and Germany over Morocco. It did not grow out of the Bosnian annexation.",
+    "D": "Greece won its independence by 1830, long before 1908."
+   },
+   "hint": "Which neighbor of Bosnia hoped to unite the South Slavs, including the Serbs of Bosnia?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E7-P16",
+   "set": "P6",
+   "topic": "7.2",
+   "lo": "B",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Herzl's main argument in Source 1 is that",
+   "options": {
+    "A": "Jews should give up their faith and blend fully into the nations around them",
+    "B": "anti-Semitism was found mainly in poor countries and would fade as Europe modernized",
+    "C": "the Jewish question was a national question that required land under Jewish self-rule",
+    "D": "the Jewish question was mainly a religious issue for church and synagogue leaders to settle"
+   },
+   "answer": "C",
+   "explanation": "Herzl says Jews are \"One people.\" Being loyal citizens had not protected them. So he asks for \"sovereignty\" over a land of their own. This became the goal of the Zionist movement he led.",
+   "whyNot": {
+    "A": "Herzl says Jews tried to merge into society while keeping \"the faith of our fathers.\" But \"It has not been permitted to us.\"",
+    "B": "He says the problem exists even in the \"most highly civilised\" countries, with \"France itself being no exception.\"",
+    "D": "He says the question \"is no more a social than a religious one\" but \"a national question.\""
+   },
+   "hint": "What kind of \"question\" does Herzl say the Jewish question is, and what does he ask for in the last paragraph?"
+  },
+  {
+   "id": "E7-P17",
+   "set": "P6",
+   "topic": "7.2",
+   "lo": "B",
+   "skill": "4.B",
+   "difficulty": "easy",
+   "stem": "Source 2 is best understood in the context of which of the following?",
+   "options": {
+    "A": "The Dreyfus affair",
+    "B": "The Paris Commune",
+    "C": "The Boulanger affair",
+    "D": "The Panama scandal"
+   },
+   "answer": "A",
+   "explanation": "In 1894 the French army wrongly convicted Alfred Dreyfus, a Jewish officer, of spying for Germany. He was sent to Devil's Island. In January 1898 an army court cleared the real spy. Two days later Zola published \"J'accuse.\"",
+   "whyNot": {
+    "B": "The Paris Commune was a workers' uprising in Paris in 1871. The French army crushed it. It did not involve an innocent man suffering \"in a far-away country.\"",
+    "C": "The Boulanger affair (1886–1889) was about a popular general who seemed to threaten the republic. No innocent prisoner was involved.",
+    "D": "The Panama scandal (1892–1893) was about a canal company that paid bribes to politicians. It was not about an innocent man found guilty of a crime."
+   },
+   "hint": "Who was \"the innocent man\" suffering \"in a far-away country\"?"
+  },
+  {
+   "id": "E7-P18",
+   "set": "P6",
+   "topic": "7.2",
+   "lo": "B",
+   "skill": "3.C",
+   "difficulty": "hard",
+   "stem": "Which of the following best describes a difference between the two sources?",
+   "options": {
+    "A": "Herzl hopes Jews will blend into European nations, while Zola wants Jews to leave France.",
+    "B": "Herzl sees a Jewish state as the answer, while Zola wants France to honor the Rights of Man.",
+    "C": "Herzl thinks anti-Semitism is dying out, while Zola warns that it is growing stronger.",
+    "D": "Herzl looks to the Christian Social Party for help, while Zola looks to the army's generals."
+   },
+   "answer": "B",
+   "explanation": "Herzl thought Jews would never be safe as a minority. He wanted a Jewish state. Zola believed in liberal France. He attacked the \"odious anti-Semitism\" that he said threatened the Rights of Man.",
+   "whyNot": {
+    "A": "Herzl says efforts to merge into society have failed. Zola defends a Jewish officer's rights in France.",
+    "C": "Herzl says the Jewish question exists in \"every country.\" He says it will last until it has \"a solution on a political basis.\" He does not think anti-Semitism is fading away.",
+    "D": "Karl Lueger's Christian Social Party in Vienna was itself anti-Semitic. And Zola attacks the army's leaders. He does not look to them for help."
+   },
+   "hint": "What solution does each writer offer: a new state, or a fairer old one?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E7-P19",
+   "set": "P7",
+   "topic": "7.2",
+   "lo": "B",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "Which conclusion about the Kingdom of Hungary is best supported by the data?",
+   "options": {
+    "A": "German was the mother tongue of most people in the kingdom, because it was the language of the Habsburg court.",
+    "B": "The Romanian, Croatian, and Serbian groups each became smaller between 1900 and 1910.",
+    "C": "Hungarian was the largest single mother tongue, but most people in the kingdom had a different mother tongue.",
+    "D": "Slavic-speaking groups together outnumbered Hungarian speakers in both census years."
+   },
+   "answer": "C",
+   "explanation": "In 1910 about 10.1 million of the kingdom's 20.9 million people had Hungarian as their mother tongue. That was the largest group. But more than half of the people had a different mother tongue.",
+   "whyNot": {
+    "A": "German speakers numbered only about 2 million out of more than 19 million people.",
+    "B": "All three grew: Romanian from 2,799 to 2,949 thousand, Croatian from 1,682 to 1,833, and Serbian from 1,049 to 1,106.",
+    "D": "Add up the Slovaks, Croats, Serbs, and Ruthenians. They were about 5.2 million in 1900 and 5.4 million in 1910. That is far fewer than the Hungarian speakers."
+   },
+   "hint": "Add up all the groups other than Hungarian and compare them with the total."
+  },
+  {
+   "id": "E7-P20",
+   "set": "P7",
+   "topic": "7.2",
+   "lo": "B",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "The trend described in the note below the table, a rising Hungarian share of Hungary's population from 1890 to 1910, is best explained by which of the following?",
+   "options": {
+    "A": "Germanization policies of the Habsburg court in Vienna",
+    "B": "Mass emigration of Hungarian speakers to the Americas",
+    "C": "The return of lands from the Ottoman Empire to Hungary",
+    "D": "Magyarization policies after the Compromise of 1867"
+   },
+   "answer": "D",
+   "explanation": "The Compromise of 1867 let Hungary run its own affairs inside Austria-Hungary. Hungarian leaders then pushed other peoples to use the Hungarian language, for example in schools and government jobs. This is called Magyarization.",
+   "whyNot": {
+    "A": "After 1867 Hungary ran its own internal affairs and pushed the Hungarian language, not German. The number of German speakers in the table went down.",
+    "B": "If many Hungarian speakers had left, their share would have fallen, not risen.",
+    "C": "The Ottomans had lost Hungary by the early 1700s. No lands came back to Hungary from the Ottoman Empire between 1890 and 1910."
+   },
+   "hint": "What did the Compromise of 1867 allow Hungary's leaders to do inside their own kingdom?"
+  },
+  {
+   "id": "E7-P21",
+   "set": "P7",
+   "topic": "7.9",
+   "lo": "K",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The data best help explain why Austria-Hungary's leaders",
+   "options": {
+    "A": "welcomed the Pan-Slav movement supported by Russia",
+    "B": "sought African colonies for the kingdom's growing Hungarian population",
+    "C": "made Romanian and Slovak official languages beside Hungarian",
+    "D": "feared South Slav nationalism encouraged by neighboring Serbia"
+   },
+   "answer": "D",
+   "explanation": "Nearly 2 million Croats and more than a million Serbs lived in the kingdom, next door to Serbia. When Serbia called for uniting the South Slavs, Austria-Hungary's leaders feared it would tear their state apart.",
+   "whyNot": {
+    "A": "Pan-Slavism called on Slavic peoples to look to Russia for leadership. Hungarian leaders feared it, because millions of the kingdom's people were Slavs.",
+    "B": "Austria-Hungary had no African colonies. It expanded in the Balkans instead, as in Bosnia.",
+    "C": "Hungarian was the language of the state. The other groups' languages had little official standing, which fed their resentment."
+   },
+   "hint": "Which neighboring country hoped to unite peoples who appear in this table?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E7-P22",
+   "set": "P8",
+   "topic": "7.4",
+   "lo": "E",
+   "skill": "1.B",
+   "difficulty": "easy",
+   "stem": "The ideas in the passage are best described as an example of",
+   "options": {
+    "A": "Social Darwinism",
+    "B": "Utopian socialism",
+    "C": "Romanticism",
+    "D": "Conservatism"
+   },
+   "answer": "A",
+   "explanation": "Bagehot takes Darwin's idea of \"natural selection\" and applies it to nations. He says the strongest nations win and \"tend to be the best.\" Using Darwin's ideas this way is called Social Darwinism.",
+   "whyNot": {
+    "B": "Utopian socialists such as Robert Owen and Charles Fourier wanted people to cooperate. They did not want a contest that the strongest nations win.",
+    "C": "Romantics cared most about feeling, nature, and the past. Bagehot applies a scientific theory to politics.",
+    "D": "Conservatives such as Edmund Burke and Metternich defended tradition. Bagehot builds his case on a new scientific idea."
+   },
+   "hint": "Which scientific idea does Bagehot say can be \"applied to human history\"?"
+  },
+  {
+   "id": "E7-P23",
+   "set": "P8",
+   "topic": "7.4",
+   "lo": "E",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "Bagehot's argument is best understood in the context of which of the following?",
+   "options": {
+    "A": "The Scientific Revolution's new model of the heavens",
+    "B": "The debate over Darwin's theory of natural selection",
+    "C": "Freud's new theory of the unconscious mind",
+    "D": "The Enlightenment's faith in natural human equality"
+   },
+   "answer": "B",
+   "explanation": "Darwin's On the Origin of Species came out in 1859. It said living things change through natural selection. Bagehot's book of 1872 shows how fast writers began to apply the idea to nations.",
+   "whyNot": {
+    "A": "The sun-centered model of the heavens came in the 1500s and 1600s. It said nothing about nations competing.",
+    "C": "Freud's theories came in the 1890s and 1900s, after Bagehot's book of 1872.",
+    "D": "Bagehot argues that the strongest nations win and \"tend to be the best.\" He does not say people are equal by nature."
+   },
+   "hint": "Bagehot says \"natural selection\" is an idea \"we have become familiar\" with. Who made it famous, and when?",
+   "reasoning": "Continuity and Change"
+  },
+  {
+   "id": "E7-P24",
+   "set": "P8",
+   "topic": "7.4",
+   "lo": "E",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "In the late 1800s, ideas like those in the passage were most often used to",
+   "options": {
+    "A": "call for disarmament and for settling disputes between nations by international arbitration",
+    "B": "support the Congo Reform Association's campaign against forced labor in Africa",
+    "C": "defend the right of small nations such as Poland to rule themselves",
+    "D": "justify imperial conquest by claiming that strong nations were also superior ones"
+   },
+   "answer": "D",
+   "explanation": "Social Darwinists said nations and races compete like species. They said the winners proved they were better. Imperialists used this claim to justify ruling peoples in Africa and Asia. Darwin did not mean his theory to be used this way.",
+   "whyNot": {
+    "A": "Bagehot praises competition. He says conquest \"improved mankind.\" People who wanted disarmament argued the opposite.",
+    "B": "The Congo Reform Association attacked the cruel treatment of Africans in Leopold's Congo. It spoke up for the suffering, not for the right of the strong to rule.",
+    "C": "The idea that \"the strongest tend to be the best\" was used to defend strong states ruling weaker peoples. It was not used to protect small nations."
+   },
+   "hint": "If \"the strongest tend to be the best,\" how might a strong nation justify ruling a weaker one?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E7-P25",
+   "set": "P9",
+   "topic": "7.5",
+   "lo": "F",
+   "skill": "1.B",
+   "difficulty": "easy",
+   "stem": "The passage most clearly expresses the ideas of which philosophy?",
+   "options": {
+    "A": "Positivism",
+    "B": "Social Darwinism",
+    "C": "Romanticism",
+    "D": "Deism"
+   },
+   "answer": "A",
+   "explanation": "Comte called his philosophy positivism. He said each kind of knowledge passes through three stages. In the last stage, the \"positive\" one, people use reasoning and observation to find the laws of nature and society.",
+   "whyNot": {
+    "B": "Social Darwinism applied natural selection to human societies. It came after Darwin's book of 1859. Comte writes about stages of knowledge, not competition.",
+    "C": "Romantics trusted feeling and intuition. Comte praises \"Reasoning and observation\" instead.",
+    "D": "Deists of the Enlightenment believed in a creator God who made natural laws. Comte says the mind should give up searching for \"first and final causes.\""
+   },
+   "hint": "What name does Comte give the third, \"fixed and definitive\" state?"
+  },
+  {
+   "id": "E7-P26",
+   "set": "P9",
+   "topic": "7.5",
+   "lo": "F",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "Comte's view of the \"positive state\" most clearly reflects which broader pattern in nineteenth-century Europe?",
+   "options": {
+    "A": "growing confidence that science could explain both nature and society",
+    "B": "a revival of Church authority as the main guide to truth about nature",
+    "C": "Romantic writers' preference for intuition and emotion over reason",
+    "D": "doubts that science could give an objective picture of nature"
+   },
+   "answer": "A",
+   "explanation": "Comte believed science could find laws for every subject, even society. His ideas helped create sociology. They also fed the trust in science that grew after 1848.",
+   "whyNot": {
+    "B": "Comte calls the theological state only \"the necessary point of departure.\" It is a stage the mind leaves behind.",
+    "C": "Romantics distrusted the cool reasoning that Comte praises.",
+    "D": "Such doubts grew later, around 1900, with new physics such as Einstein's theory of relativity. Comte had full confidence in science."
+   },
+   "hint": "Which choice matches Comte's trust in \"Reasoning and observation\"?",
+   "reasoning": "Continuity and Change"
+  },
+  {
+   "id": "E7-P27",
+   "set": "P9",
+   "topic": "7.5",
+   "lo": "F",
+   "skill": "5.A",
+   "difficulty": "hard",
+   "stem": "Thinkers of the late 1800s and early 1900s such as Friedrich Nietzsche and Georges Sorel differed most from Comte in that they",
+   "options": {
+    "A": "called on artists to return to the strict rules of classical art",
+    "B": "defended the Catholic Church's teachings against modern science",
+    "C": "stressed will, instinct, and the irrational in human life",
+    "D": "argued that free markets would bring harmony among social classes"
+   },
+   "answer": "C",
+   "explanation": "Comte trusted reason and observation. By the late 1800s Nietzsche and Sorel argued that will, instinct, and powerful myths moved people more than reason did. This turn toward the irrational helped lead from positivism to modernism.",
+   "whyNot": {
+    "A": "Nietzsche attacked fixed rules and traditions, and Sorel wrote about workers' struggle. Neither called for classical rules in art.",
+    "B": "Nietzsche attacked Christianity. Sorel wrote about the general strike, not about Church teaching.",
+    "D": "Sorel praised class struggle. Nietzsche scorned comfortable middle-class values. Neither said free markets would bring harmony."
+   },
+   "hint": "Comte trusted \"Reasoning and observation.\" What did later thinkers say really drives people?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E7-P28",
+   "set": "P10",
+   "topic": "7.5",
+   "lo": "F",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Freud's main point in the passage is that",
+   "options": {
+    "A": "mental illness comes mainly from physical damage to the brain or nerves",
+    "B": "people act mainly on reason once they clearly understand the facts",
+    "C": "hidden wishes pushed into the unconscious can keep on troubling the mind",
+    "D": "dreams are random images of little use to doctors"
+   },
+   "answer": "C",
+   "explanation": "Freud says some wishes clash with a person's sense of right and wrong. The mind pushes them out of awareness and forgets them. He calls this repression. Guards at the door keep them out, but they still affect the person.",
+   "whyNot": {
+    "A": "Freud explains illness by an inner \"conflict\" and \"repression,\" not by injury.",
+    "B": "Freud describes people forgetting wishes they cannot accept. Reason does not control the whole mind.",
+    "D": "Freud calls dreams \"the via regia,\" the main road, to understanding the unconscious."
+   },
+   "hint": "In the hall example, who is thrown out, and who guards the door?"
+  },
+  {
+   "id": "E7-P29",
+   "set": "P10",
+   "topic": "7.5",
+   "lo": "F",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "Freud's ideas most directly challenged which earlier belief?",
+   "options": {
+    "A": "The Romantic interest in dreams, emotion, and feeling",
+    "B": "The geocentric model of the universe",
+    "C": "The Darwinian theory of human origins",
+    "D": "The Enlightenment confidence in human reason"
+   },
+   "answer": "D",
+   "explanation": "Enlightenment thinkers saw people as reasonable beings who could understand themselves. Freud said much of the mind is unconscious. Hidden wishes and inner conflicts shape what people do.",
+   "whyNot": {
+    "A": "Romantics already prized dreams and feelings. Freud built on that interest, though he studied it as a doctor.",
+    "B": "The idea that the earth is the center of the universe was overturned in the Scientific Revolution. It has nothing to do with Freud's work.",
+    "C": "Freud accepted that humans had evolved. He stressed the animal drives that people share with other creatures."
+   },
+   "hint": "Freud says some wishes are hidden even from the person who has them. Which earlier view of human nature does that most undercut?",
+   "reasoning": "Continuity and Change"
+  },
+  {
+   "id": "E7-P30",
+   "set": "P10",
+   "topic": "7.5",
+   "lo": "F",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Freud most likely included the example of the man in the hall in order to",
+   "options": {
+    "A": "report the results of an experiment he had carried out in his clinic",
+    "B": "show that repression happens mainly when several people work together",
+    "C": "help his audience picture a process in the mind that cannot be seen",
+    "D": "warn the audience that he would stop if anyone disturbed the lecture"
+   },
+   "answer": "C",
+   "explanation": "Freud asks the audience to imagine a noisy man thrown out of the hall. Then he tells them to apply the picture to the mind. A simple scene made a hard idea easy to see.",
+   "whyNot": {
+    "A": "Freud begins the example with \"Suppose.\" It is an imagined scene, not an experiment.",
+    "B": "He says to \"transfer both locations to the psyche.\" The people in the hall stand for forces inside one person's mind.",
+    "D": "He says the example illustrates \"the process of repression\" in the mind. It is not a warning to the audience."
+   },
+   "hint": "Freud begins with \"Suppose.\" What does he ask the audience to do with the hall and the door at the end?"
+  },
+  {
+   "id": "E7-P31",
+   "set": "P11",
+   "topic": "7.6",
+   "lo": "H",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Belloc most likely wrote Source 1 in order to",
+   "options": {
+    "A": "praise British explorers for bringing Christianity, trade, and order to Africa",
+    "B": "mock Europeans who relied on superior weapons and brute force in Africa",
+    "C": "urge Britain to supply machine guns to its African allies",
+    "D": "celebrate the role of new weapons in ending the slave trade in Africa"
+   },
+   "answer": "B",
+   "explanation": "Belloc's tone is comic and bitter. The lazy, rude Blood wins only because he has a machine gun, and the casual line \"We shot and hanged a few\" exposes the violence behind European expeditions.",
+   "whyNot": {
+    "A": "The poem says nothing about missionaries, trade, or order. And words like \"lethargic\" and \"extremely vulgar glance\" make fun of Blood.",
+    "C": "The joke depends on the fact that \"we have got / The Maxim Gun, and they have not.\" Belloc is not asking Britain to arm anyone.",
+    "D": "Blood turns his gun on the \"Mutineers\" of his own expedition, not on slave traders. \"We shot and hanged a few\" is not a celebration of freedom."
+   },
+   "hint": "Is the poem's hero admirable? Look at the words Belloc uses to describe him."
+  },
+  {
+   "id": "E7-P32",
+   "set": "P11",
+   "topic": "7.6",
+   "lo": "H",
+   "skill": "3.C",
+   "difficulty": "medium",
+   "stem": "Both sources support which of the following conclusions?",
+   "options": {
+    "A": "Modern weapons such as machine guns gave Europeans a huge edge in battle.",
+    "B": "African armies lost mainly because their soldiers lacked courage.",
+    "C": "British forces in Africa suffered heavy losses in most of their battles against African armies.",
+    "D": "The Khalifa's soldiers fought with spears and swords rather than guns."
+   },
+   "answer": "A",
+   "explanation": "Belloc jokes, \"we have got / The Maxim Gun, and they have not.\" Churchill shows cannons and machine guns killing men who \"could not reply.\" Both show that new weapons gave Europeans a huge edge.",
+   "whyNot": {
+    "B": "Churchill says the Khalifa lost because he misjudged \"the power of modern weapons,\" not because his men lacked courage.",
+    "C": "Churchill says \"as yet they had not hurt us at all.\" At Omdurman the British and Egyptian army lost fewer than 50 men killed. About 10,000 Sudanese soldiers died.",
+    "D": "Belloc's poem is not about the Khalifa's army at all. And the Khalifa's soldiers did have many rifles; they just could not match British cannons and machine guns."
+   },
+   "hint": "What weapon appears in both sources?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E7-P33",
+   "set": "P11",
+   "topic": "7.6",
+   "lo": "H",
+   "skill": "1.B",
+   "difficulty": "medium",
+   "stem": "Besides advanced weapons, which other development most directly helped Europeans survive in tropical Africa as they extended their control there in the late 1800s?",
+   "options": {
+    "A": "Vaccines to prevent polio",
+    "B": "Spinning jennies to make thread",
+    "C": "Quinine to prevent malaria",
+    "D": "The Panama Canal for shipping"
+   },
+   "answer": "C",
+   "explanation": "Malaria had killed many Europeans in tropical Africa. From the mid-1800s Europeans learned to take quinine, made from the bark of the cinchona tree, to prevent and treat the disease. Along with steamships and machine guns, it made deeper conquest possible.",
+   "whyNot": {
+    "A": "Polio vaccines were developed in the 1950s, long after the conquest of Africa.",
+    "B": "The spinning jenny of the 1760s sped up cloth making in Britain. It did nothing for Europeans' survival in Africa.",
+    "D": "The Panama Canal (1914) joined the Atlantic and Pacific in Central America. The Suez Canal (1869) was the one that shortened sea routes to Africa and Asia."
+   },
+   "hint": "Which choice is a medicine, and which disease made tropical Africa so dangerous for Europeans?"
+  },
+  {
+   "id": "E7-P34",
+   "set": "P12",
+   "topic": "7.6",
+   "lo": "G",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Chamberlain argues that Britain should keep and extend its empire mainly because",
+   "options": {
+    "A": "markets in the empire meant demand for British goods and jobs for British workers",
+    "B": "Britain had a religious duty to convert the peoples of Africa and Asia",
+    "C": "Britain needed new farmland overseas for its growing number of farmers",
+    "D": "colonies would act as a shield protecting the British Isles from a French or German invasion"
+   },
+   "answer": "A",
+   "explanation": "Chamberlain says Britain \"must create more demand\" to make more jobs. He wants \"new markets.\" He calls India Britain's most valuable customer. He warns that workers would suffer first if the empire were lost.",
+   "whyNot": {
+    "B": "Chamberlain mentions \"civilisation\" once. But his reasons are demand, markets, and jobs. He says nothing about religion.",
+    "C": "He talks about selling goods made by workers, not about settling farmers overseas.",
+    "D": "He wants the navy strong to protect \"the possessions which we hold,\" not to stop an invasion of Britain."
+   },
+   "hint": "Count how many times Chamberlain mentions demand, markets, customers, or workers."
+  },
+  {
+   "id": "E7-P35",
+   "set": "P12",
+   "topic": "7.6",
+   "lo": "G",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Chamberlain's audience most likely explains why he",
+   "options": {
+    "A": "stressed the empire's value to the owners of large country estates",
+    "B": "linked the empire's fate to the jobs and wages of ordinary working people",
+    "C": "spoke mostly about the work of Christian missionaries overseas",
+    "D": "blamed factory owners for moving British jobs to India"
+   },
+   "answer": "B",
+   "explanation": "Chamberlain spoke in Birmingham, a factory city, at a meeting of a charity for unemployed workers. Many working men could vote by then. So he told them that colonies meant markets, and markets meant jobs.",
+   "whyNot": {
+    "A": "Landowners are not mentioned. He speaks about \"the working-men of this country.\"",
+    "C": "He mentions \"civilisation\" once but builds his whole case on trade and jobs.",
+    "D": "He calls India a \"customer,\" a buyer of British goods, not a place British jobs had moved to."
+   },
+   "hint": "Who was in the room when Chamberlain gave this speech?"
+  },
+  {
+   "id": "E7-P36",
+   "set": "P12",
+   "topic": "7.7",
+   "lo": "I",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "Chamberlain's argument that colonies meant work for British workers is most similar to the argument of",
+   "options": {
+    "A": "Jules Ferry",
+    "B": "Rudyard Kipling",
+    "C": "J. A. Hobson",
+    "D": "Vladimir Lenin"
+   },
+   "answer": "A",
+   "explanation": "In 1885 the French leader Jules Ferry told the French parliament that France needed colonies as markets for its factories. Like Chamberlain, he linked empire to markets for the goods that factories at home produced.",
+   "whyNot": {
+    "B": "Kipling's poem \"The White Man's Burden\" (1899) praised empire as a duty to rule others, not as a source of jobs.",
+    "C": "Hobson attacked empire. He said it made a few investors rich while most people paid its costs.",
+    "D": "Lenin attacked empire as a stage of capitalism that helped bankers and big business, not workers."
+   },
+   "hint": "Which of these leaders also wanted colonies as markets for goods made at home?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E7-P37",
+   "set": "P13",
+   "topic": "7.7",
+   "lo": "I",
+   "skill": "3.A",
+   "difficulty": "medium",
+   "stem": "Morel's main argument is that",
+   "options": {
+    "A": "European rule in tropical Africa had failed, and the colonies there should be given independence",
+    "B": "Britain should take over the Congo from Leopold and rule it from London as part of the British Empire",
+    "C": "the Berlin Conference had given Leopold the right to own the rubber and ivory of the Congo",
+    "D": "Leopold had stripped the Congolese of their land, produce, labor, and right to trade freely"
+   },
+   "answer": "D",
+   "explanation": "Morel says Leopold's state claimed \"the entire merchantable products of the land\" and \"the entire labour of the country,\" enforced by armed men. He demands that the Congolese people's \"right of trading freely\" be restored.",
+   "whyNot": {
+    "A": "Morel attacks Leopold's system in particular. Like most reformers of his time, he did not call for European rule in Africa to end.",
+    "B": "Morel asks Britain to defend the trade rights promised at the Berlin Conference. He does not ask Britain to seize the Congo.",
+    "C": "Morel says the Berlin Conference gave the people of all fourteen signing powers the right to trade with the Congolese. It did not give Leopold the land's products."
+   },
+   "hint": "What three rights does Morel say were \"swept away\"?"
+  },
+  {
+   "id": "E7-P38",
+   "set": "P13",
+   "topic": "7.7",
+   "lo": "I",
+   "skill": "2.C",
+   "difficulty": "hard",
+   "stem": "Which of the following should a historian consider when using this source as evidence of British attitudes toward empire?",
+   "options": {
+    "A": "Morel was a socialist who opposed private trade and so exaggerated the profits of Leopold's state.",
+    "B": "Morel's book was paid for by Leopold's press office, so it favors the king's government.",
+    "C": "Morel attacked Leopold's methods but framed reform as restoring trade rights, not as ending empire.",
+    "D": "Morel wrote as an official of the British government, which planned to annex the Congo."
+   },
+   "answer": "C",
+   "explanation": "Morel wants the Congolese to get back the \"right of trading freely.\" He also points to the trade rights promised at Berlin. He wanted to reform European rule in Africa, not end it.",
+   "whyNot": {
+    "A": "Morel defends \"the right of trading freely.\" He wanted more free trade, not less.",
+    "B": "Leopold's government paid writers to defend the king. Morel was one of the king's leading critics.",
+    "D": "Morel was a private journalist who led the Congo Reform Association. He pressed the British government to act, but it did not plan to take the Congo."
+   },
+   "hint": "Look at what Morel says \"British interests\" mean. What does that show about his goals?"
+  },
+  {
+   "id": "E7-P39",
+   "set": "P13",
+   "topic": "7.7",
+   "lo": "I",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The campaign led by Morel and others contributed most directly to which of the following?",
+   "options": {
+    "A": "The Berlin Conference's rules for claiming land in Africa",
+    "B": "The Fashoda crisis between Britain and France",
+    "C": "Britain's war against the Zulu kingdom in southern Africa",
+    "D": "Belgium's takeover of the Congo from Leopold in 1908"
+   },
+   "answer": "D",
+   "explanation": "Morel, Roger Casement, and missionaries spread reports of forced labor and killings in the rubber trade. Leopold was shamed. In 1908 Belgium took the Congo away from the king and made it a Belgian colony.",
+   "whyNot": {
+    "A": "The Berlin Conference met in 1884–1885, about twenty years before Morel's campaign. It helped Leopold get the Congo in the first place.",
+    "B": "The Fashoda crisis of 1898 was a quarrel between Britain and France over the upper Nile. It had nothing to do with Leopold's rubber system.",
+    "C": "Britain fought the Zulu kingdom in 1879, long before Morel's campaign began."
+   },
+   "hint": "Who ruled the Congo after so many Europeans learned about the abuses there?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E7-P40",
+   "set": "P14",
+   "topic": "7.6",
+   "lo": "G",
+   "skill": "3.A",
+   "difficulty": "medium",
+   "stem": "Which of the following best describes Moon's argument?",
+   "options": {
+    "A": "The whole capitalist class profited from empire and forced it on unwilling workers.",
+    "B": "Empire grew mainly because Europe's surplus population needed new lands overseas to settle.",
+    "C": "Each nation acted as one unit, and its citizens shared a common interest in colonies.",
+    "D": "Small interested groups drove empire, and the public followed ideas such as fear and pride."
+   },
+   "answer": "D",
+   "explanation": "Moon says small groups, such as some businessmen, pushed for empire. Most people had no direct stake in it. They went along because of ideas like fear, national \"prestige,\" and a wish to do good.",
+   "whyNot": {
+    "A": "Moon says \"only a minority of business interests,\" not \"the whole so-called 'capitalist class,'\" had a direct stake in empire. He also says the majority followed \"cheerfully.\"",
+    "B": "Moon lists \"surplus population\" as one of the ideas used to win public support. He does not call it the real cause of empire.",
+    "C": "He says \"Empire-building is done not by 'nations' but by men.\" He means certain small groups, not whole nations."
+   },
+   "hint": "Moon asks two questions: who pushed for empire, and why did the majority go along?"
+  },
+  {
+   "id": "E7-P41",
+   "set": "P14",
+   "topic": "7.6",
+   "lo": "G",
+   "skill": "3.D",
+   "difficulty": "hard",
+   "stem": "Which piece of evidence would best support Moon's claim that ideas, not direct interests, moved the general public?",
+   "options": {
+    "A": "Germany's population grew from about 41 million in 1871 to more than 56 million in 1900, despite emigration.",
+    "B": "Germans kept warning of \"surplus population\" after emigration from Germany fell sharply in the 1890s.",
+    "C": "British cotton makers sold large amounts of cloth to buyers in India.",
+    "D": "Many European factory workers made goods that were sold in the colonies."
+   },
+   "answer": "B",
+   "explanation": "Moon says ideas, not self-interest, moved the public. Suppose Germans kept talking about \"surplus population\" after fewer people were leaving Germany. That would show an idea driving opinion even when the facts did not support it.",
+   "whyNot": {
+    "A": "A growing population makes the worry about \"surplus population\" look reasonable. So it does not show people believing an idea that no longer fit the facts.",
+    "C": "This fits Moon's point about business groups. It does not show what moved the general public.",
+    "D": "This suggests that some workers had a direct stake in empire. That weakens Moon's point instead of supporting it."
+   },
+   "hint": "Which choice shows people believing an idea for reasons other than their own direct interest?"
+  },
+  {
+   "id": "E7-P42",
+   "set": "P14",
+   "topic": "7.7",
+   "lo": "I",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "Moon's argument about who gained from imperialism is most similar to the argument of",
+   "options": {
+    "A": "J. A. Hobson",
+    "B": "Vladimir Lenin",
+    "C": "Cecil Rhodes",
+    "D": "Karl Pearson"
+   },
+   "answer": "A",
+   "explanation": "In Imperialism: A Study (1902), J. A. Hobson argued that a small group of investors and financiers gained from empire while the nation paid the costs. Moon also says that \"active, interested minorities\" drove empire.",
+   "whyNot": {
+    "B": "Lenin called imperialism \"the highest stage\" of capitalism. He blamed capitalism as a whole. Moon rejects that view. He says only some business groups, not \"the whole so-called 'capitalist class,'\" pushed for empire.",
+    "C": "Rhodes was an empire-builder in southern Africa who wanted Britain to expand. He did not argue that only a few people gained.",
+    "D": "Pearson was a Social Darwinist. He said empire came from a struggle between races, not from the push of a few interested groups."
+   },
+   "hint": "Which writer also argued that only a small group really profited from empire?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E7-P43",
+   "set": "P15",
+   "topic": "7.8",
+   "lo": "J",
+   "skill": "1.B",
+   "difficulty": "easy",
+   "stem": "The painting is most closely associated with which artistic movement?",
+   "options": {
+    "A": "Romanticism",
+    "B": "Realism",
+    "C": "Neoclassicism",
+    "D": "Cubism"
+   },
+   "answer": "B",
+   "explanation": "Realist painters such as Millet and Gustave Courbet showed the lives of ordinary people, such as peasants and laborers, as they really were. Millet paints three poor women doing back-breaking work.",
+   "whyNot": {
+    "A": "Romantic painters liked strong feelings, wild nature, heroes, and the supernatural. Millet shows quiet, everyday work.",
+    "C": "Neoclassical painters such as Jacques-Louis David painted heroes from ancient Greece and Rome. Millet paints poor farm women of his own day.",
+    "D": "Cubism began around 1907 with Pablo Picasso and Georges Braque. It broke objects into geometric shapes."
+   },
+   "hint": "Who are the people in the painting, and are they shown as heroes or as they really looked?"
+  },
+  {
+   "id": "E7-P44",
+   "set": "P15",
+   "topic": "7.8",
+   "lo": "J",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "The painting is best understood in the context of",
+   "options": {
+    "A": "Catholic Reformation painters' efforts to inspire faith with dramatic religious scenes",
+    "B": "growing interest after 1848 in showing the lives of the poor and social problems",
+    "C": "Impressionist painters' interest in light and the leisure of city dwellers",
+    "D": "Romantic painters' use of medieval legends to stir national pride"
+   },
+   "answer": "B",
+   "explanation": "After the revolutions of 1848, many artists and writers turned to a realist outlook. Millet showed poor women gathering leftover grain while a rich harvest piles up in the distance. At the Salon of 1857, some critics attacked the painting. They feared it glorified the poor and stirred up the revolutionary ideas of 1848.",
+   "whyNot": {
+    "A": "That Baroque style belongs to the 1600s. This painting shows no religious scene.",
+    "C": "Impressionism began in the 1870s, after this 1857 painting. It focused on light and leisure, not hard work.",
+    "D": "The painting shows present-day peasants at work, not legends from the past."
+   },
+   "hint": "When was the painting shown, and what had just happened in Europe about ten years earlier?"
+  },
+  {
+   "id": "E7-P45",
+   "set": "P15",
+   "topic": "7.8",
+   "lo": "J",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "Compared with The Gleaners, paintings by Impressionists such as Claude Monet in the 1870s and 1880s placed greater emphasis on",
+   "options": {
+    "A": "heroic scenes from ancient history that taught moral lessons",
+    "B": "the hardship and poverty of rural laborers",
+    "C": "the changing effects of light and color at a particular moment",
+    "D": "religious stories painted for the walls of churches"
+   },
+   "answer": "C",
+   "explanation": "Monet and other Impressionists painted outdoors with quick brushstrokes to catch how light and color looked at one moment, as in Impression, Sunrise (1872). They cared less about telling a story or making a social point.",
+   "whyNot": {
+    "A": "That was the aim of Neoclassical painters such as Jacques-Louis David in the late 1700s.",
+    "B": "Millet's painting already stresses hard rural work. Monet painted mostly landscapes, city streets, and leisure.",
+    "D": "Impressionists seldom painted religious scenes. They painted modern life and nature, often outdoors."
+   },
+   "hint": "What did the Impressionists try to capture as they painted outdoors?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E7-P46",
+   "set": "P16",
+   "topic": "7.8",
+   "lo": "J",
+   "skill": "1.B",
+   "difficulty": "easy",
+   "stem": "Hugo's argument in the passage most clearly expresses the ideas of which movement?",
+   "options": {
+    "A": "Romanticism",
+    "B": "Neoclassicism",
+    "C": "Realism",
+    "D": "Positivism"
+   },
+   "answer": "A",
+   "explanation": "Hugo wants to break the old \"rules\" and \"models.\" He says the poet should follow nature, truth, and inspiration. His preface became a call to arms for French Romanticism.",
+   "whyNot": {
+    "B": "Neoclassicism followed rules and models from ancient Greece and Rome. Those are the very things Hugo wants to \"take the hammer to.\"",
+    "C": "Realism came later, around 1850. It tried to show everyday life as it really was. It did not follow inspiration.",
+    "D": "Positivists said true knowledge comes from observing facts. Hugo praises \"Genius, which divines rather than learns.\""
+   },
+   "hint": "Does Hugo want writers to follow rules, observe facts, or trust inspiration?"
+  },
+  {
+   "id": "E7-P47",
+   "set": "P16",
+   "topic": "7.8",
+   "lo": "J",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "Hugo's call to \"take the hammer to theories and poetic systems\" was most directly a reaction against",
+   "options": {
+    "A": "the realist novels of Gustave Flaubert and Émile Zola about everyday life",
+    "B": "the strict rules of French classical drama since the 1600s",
+    "C": "the Catholic Church's list of forbidden books",
+    "D": "the ugliness of new factory towns in Britain"
+   },
+   "answer": "B",
+   "explanation": "French playwrights since Corneille and Racine in the 1600s had followed strict classical rules, such as the \"unities\" of time, place, and action. Hugo argued that each work should find its own rules from nature and inspiration.",
+   "whyNot": {
+    "A": "Flaubert's and Zola's realist novels came decades later, in 1857 and after.",
+    "C": "Hugo attacks rules of art, \"theories and poetic systems.\" He says nothing about the Church banning books.",
+    "D": "Some Romantics disliked factory towns. But in this passage Hugo attacks rules of art, not industry."
+   },
+   "hint": "Hugo wrote in 1827. Which rules had French playwrights been following for almost two centuries?"
+  },
+  {
+   "id": "E7-P48",
+   "set": "P16",
+   "topic": "7.8",
+   "lo": "J",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "Hugo's ideas about art are most similar to those of which artist?",
+   "options": {
+    "A": "Jacques-Louis David",
+    "B": "Gustave Courbet",
+    "C": "Eugène Delacroix",
+    "D": "Paul Cézanne"
+   },
+   "answer": "C",
+   "explanation": "Delacroix was the leading French Romantic painter. Like Hugo, he broke classical rules. He used strong color, feeling, and drama, as in Liberty Leading the People (1830).",
+   "whyNot": {
+    "A": "David was the leading Neoclassical painter. He followed classical models and clear rules.",
+    "B": "Courbet was a Realist. He painted ordinary life as it looked. He rejected Romantic imagination.",
+    "D": "Cézanne was a Post-Impressionist of the late 1800s. He reduced nature to simple shapes and color."
+   },
+   "hint": "Which of these painters belonged to the same movement as Hugo in the 1820s and 1830s?",
+   "reasoning": "Comparison"
+  }
+ ],
+ "exam": {
+  "title": "Unit 7 Practice Exam: 19th-Century Perspectives and Political Developments",
+  "timeMinutes": 25,
+  "questionCount": 25,
+  "directions": "Each set of questions refers to a source: a primary source, a historian's writing, an image, or data. For each question, choose the best answer. Use the source and your knowledge of European history from c. 1815 to c. 1914. There is no penalty for guessing. Some sources use historical labels or words for groups of people that are no longer used; these words show the language of their time.",
+  "questions": [
+   {
+    "id": "E7-E01",
+    "set": "X1",
+    "topic": "7.2",
+    "lo": "B",
+    "skill": "3.A",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes Mazzini's view of the relationship between nations and humanity?",
+    "options": {
+     "A": "Loyalty to one's own nation should replace concern for the rest of humanity.",
+     "B": "Nations should be built around the royal families that had ruled them for centuries.",
+     "C": "Nations of peoples, not dynasties, were the means of serving all of humanity.",
+     "D": "Workers should win better conditions first and unite the nation afterward."
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. Mazzini says work for one's country is also work \"for Humanity.\" He expects \"harmony and brotherhood\" among nations.",
+     "B": "Incorrect. He says the new nations will rise \"upon the ruins of the Countries of Kings and privileged castes.\"",
+     "C": "Correct. Mazzini says that working for \"our Country\" is also \"labouring for Humanity.\" He wants the \"Countries of the People\" to replace those of kings.",
+     "D": "Incorrect. He tells workers to build the nation first. They should not seek better \"material conditions without first solving the national question.\""
+    },
+    "explanation": "For Mazzini, God divided humanity into nations so that people could work together for the good of all. He wanted nations \"defined by the voice of the free,\" not by kings and their families."
+   },
+   {
+    "id": "E7-E02",
+    "set": "X1",
+    "topic": "7.1",
+    "lo": "A",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "Mazzini's call for Italians to form a nation is best understood in the context of which of the following?",
+    "options": {
+     "A": "France's rule over Italy as part of Napoleon Bonaparte's empire",
+     "B": "The Ottoman Empire's control of Sicily and Naples",
+     "C": "Italy's union under the pope as head of state",
+     "D": "Italy's division into several states, some ruled by Austria"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. Napoleon's control of Italy ended in 1814–1815, long before this book was published.",
+     "B": "Incorrect. Sicily and Naples made up the Kingdom of the Two Sicilies. A Bourbon king ruled it, not the Ottomans.",
+     "C": "Incorrect. The pope ruled only the Papal States in central Italy. Pope Pius IX was against uniting Italy under Piedmont's king.",
+     "D": "Correct. Until 1859 Italy was split into several states, such as Piedmont-Sardinia, the Papal States, and the Kingdom of the Two Sicilies. Austria ruled Lombardy and Venetia in the north."
+    },
+    "explanation": "When Mazzini wrote, Italy was split into separate states. Austria controlled much of the north. Mazzini said workers could not improve their lives \"until you have an Italy.\""
+   },
+   {
+    "id": "E7-E03",
+    "set": "X1",
+    "topic": "7.2",
+    "lo": "B",
+    "skill": "5.B",
+    "difficulty": "hard",
+    "stem": "The argument in the last paragraph was most directly reflected in which later development?",
+    "options": {
+     "A": "Italy's decision to join Germany and Austria-Hungary in the Triple Alliance",
+     "B": "Italy's conquest of Libya from the Ottoman Empire in 1911",
+     "C": "Piedmont's handing over of Nice and Savoy to France in 1860",
+     "D": "Italian nationalists' demands for Austrian-ruled Trento and Trieste"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. The Triple Alliance of 1882 made Italy an ally of Austria-Hungary, the very state that ruled those Italian-speaking lands. So it worked against Mazzini's goal.",
+     "B": "Incorrect. Libya was an Ottoman land in North Africa. People there spoke Arabic, not Italian. Taking it was building an empire, not uniting Italian speakers.",
+     "C": "Incorrect. Cavour gave Nice and Savoy to France in return for French help. This took land away from the Italian state instead of adding Italian-speaking lands to it.",
+     "D": "Correct. Italians called these lands \"unredeemed\" (Italia irredenta). People there spoke Italian, but Austria-Hungary still ruled them."
+    },
+    "explanation": "Mazzini says Italians should have \"no joy or repose\" while any land where Italian is spoken is outside Italy. After 1870, nationalists called irredentists demanded Trento and Trieste from Austria-Hungary.",
+    "reasoning": "Continuity and Change"
+   },
+   {
+    "id": "E7-E04",
+    "set": "X2",
+    "topic": "7.2",
+    "lo": "B",
+    "skill": "3.C",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes a difference between the two sources?",
+    "options": {
+     "A": "Treitschke supports letting the people of Alsace choose, while Renan opposes letting them choose.",
+     "B": "Treitschke appeals to descent and history, while Renan says the inhabitants' will should decide.",
+     "C": "Treitschke says a shared language makes a nation, while Renan says natural frontiers such as rivers do.",
+     "D": "Treitschke calls for a vote in Alsace, while Renan calls on France to retake Alsace by force."
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. It is the other way around. Treitschke dismisses the right of peoples \"to decide on their own destinies.\" Renan says \"the inhabitants\" should be consulted.",
+     "B": "Correct. Treitschke appeals to \"the wishes of those who were there before them.\" Renan says a nation is \"a daily plebiscite.\" For him, a province \"means its inhabitants.\"",
+     "C": "Incorrect. Renan says \"In man there is something superior to language,—will.\" He does not base nations on rivers or mountains.",
+     "D": "Incorrect. Treitschke says the lands are \"ours by the right of the sword.\" Renan argues for consent, not war."
+    },
+    "explanation": "Treitschke says Germany will act \"Against their will\" because Alsace was German by descent and culture. Renan answers that no nation may say to a province \"Thou art mine\" without the people's consent.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "E7-E05",
+    "set": "X2",
+    "topic": "7.3",
+    "lo": "C",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "Source 1 is best understood in the context of which of the following?",
+    "options": {
+     "A": "The Crimean War",
+     "B": "The Austro-Prussian War",
+     "C": "The revolutions of 1848–1849",
+     "D": "The Franco-Prussian War"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. Prussia did not fight in the Crimean War (1853–1856), and Alsace was not at issue.",
+     "B": "Incorrect. The war of 1866 was between Prussia and Austria. France did not fight in it, and Alsace was not at stake.",
+     "C": "Incorrect. No German Empire existed in 1848–1849, and Treitschke wrote more than twenty years later.",
+     "D": "Correct. Treitschke wrote in 1870, as Prussian and other German armies were defeating France. He demanded Alsace and Lorraine as the prize of victory."
+    },
+    "explanation": "France declared war on Prussia in July 1870. After German victories, Treitschke argued that Germany should take Alsace and Lorraine. The Treaty of Frankfurt (1871) gave the new German Empire Alsace and part of Lorraine."
+   },
+   {
+    "id": "E7-E06",
+    "set": "X2",
+    "topic": "7.2",
+    "lo": "B",
+    "skill": "2.B",
+    "difficulty": "medium",
+    "stem": "Renan's argument in Source 2 was most likely a response to",
+    "options": {
+     "A": "Germany's annexation of Alsace and Lorraine without asking the people living there",
+     "B": "France's annexation of Nice and Savoy after the people living there voted to join France",
+     "C": "Russia's annexation of Bosnia and Herzegovina after the Congress of Berlin",
+     "D": "Britain's occupation of Egypt after its victory over Egyptian forces"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. In 1871 Germany took Alsace and part of Lorraine from France. Renan rejects claims like \"You are of our blood; you belong to us!\"",
+     "B": "Incorrect. In 1860 Nice and Savoy held votes before joining France. That is the kind of consent Renan praises, not something he attacks.",
+     "C": "Incorrect. The Congress of Berlin (1878) let Austria-Hungary occupy Bosnia and Herzegovina. Russia did not get them.",
+     "D": "Incorrect. Renan gave this lecture in March 1882. Britain occupied Egypt later, in September 1882. And no one claimed Egypt by \"blood.\""
+    },
+    "explanation": "Germans such as Treitschke used blood and history to justify taking Alsace and Lorraine. Renan, a Frenchman, answered that a nation rests on its people's consent. He said a province \"means its inhabitants.\""
+   },
+   {
+    "id": "E7-E07",
+    "set": "X2",
+    "topic": "7.3",
+    "lo": "C",
+    "skill": "5.A",
+    "difficulty": "hard",
+    "stem": "The way of deciding borders that Renan recommends is most similar to which earlier practice?",
+    "options": {
+     "A": "The plebiscites held in Italy in 1860",
+     "B": "The great powers' agreements at Vienna in 1815",
+     "C": "Prussia's annexation of Hanover in 1866",
+     "D": "The partitions of Poland in the 1700s"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. In 1860 voters in Tuscany, Emilia, Naples, Sicily, and other regions chose to join the kingdom of Victor Emmanuel II.",
+     "B": "Incorrect. At Vienna the great powers drew borders among themselves. They did not ask the people who lived there.",
+     "C": "Incorrect. Prussia took Hanover after beating it in war. There was no vote, and Hanover's king protested.",
+     "D": "Incorrect. Between 1772 and 1795, Russia, Prussia, and Austria split up Poland. They did not ask the Poles."
+    },
+    "explanation": "Renan calls a nation \"a daily plebiscite,\" or daily vote. He says the people of a province should be consulted. Italy's votes of 1860 used this idea, though the voting was not fully free.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "E7-E08",
+    "set": "X3",
+    "topic": "7.3",
+    "lo": "C",
+    "skill": "4.B",
+    "difficulty": "easy",
+    "stem": "The event shown in the painting took place as a direct result of which of the following?",
+    "options": {
+     "A": "Prussia's defeat of Denmark in 1864",
+     "B": "The Frankfurt Parliament's vote for an emperor",
+     "C": "Prussia's victories over France in 1870",
+     "D": "Austria's victory over Prussia in 1866"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. The Danish war of 1864 won Schleswig and Holstein, but it did not create an empire.",
+     "B": "Incorrect. In 1849 the Frankfurt Parliament did vote to offer a crown, but the king of Prussia refused it. The parliament then broke up without creating an empire.",
+     "C": "Correct. The German Empire was proclaimed at Versailles, near Paris, in January 1871. German armies were then surrounding the French capital.",
+     "D": "Incorrect. Prussia defeated Austria in 1866, not the other way around."
+    },
+    "explanation": "In 1870 Prussia and the other German states won battle after battle against France, and by September their armies surrounded Paris. On January 18, 1871, while the war was still going on, the German princes proclaimed King William I of Prussia German emperor. The ceremony took place in the Hall of Mirrors at Versailles."
+   },
+   {
+    "id": "E7-E09",
+    "set": "X3",
+    "topic": "7.3",
+    "lo": "C",
+    "skill": "2.B",
+    "difficulty": "medium",
+    "stem": "Given the painting and its context, it was most likely intended to",
+    "options": {
+     "A": "show that elected representatives of the German people had created the empire",
+     "B": "honor Bismarck and the Prussian army as the true makers of the new German Empire",
+     "C": "criticize the use of war and conquest to unite the German states",
+     "D": "celebrate the friendship of France and Germany after the war ended"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Everyone in the hall is in military uniform. No elected members of a parliament appear.",
+     "B": "Correct. The painting was a birthday gift to Bismarck from the royal family. It puts him at the center in a bright white uniform among cheering officers and princes.",
+     "C": "Incorrect. The officers cheer and raise their swords. The painting celebrates the event instead of criticizing it.",
+     "D": "Incorrect. No French officials appear. And holding the ceremony in the palace of the French kings at Versailles humiliated France."
+    },
+    "explanation": "Werner painted this version in 1885 for Bismarck's seventieth birthday. By placing Bismarck at the center in white, among officers and princes, it presents the empire as the work of Bismarck, the army, and the German princes."
+   },
+   {
+    "id": "E7-E10",
+    "set": "X3",
+    "topic": "7.9",
+    "lo": "K",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "In the decades after the event shown, the creation of the German Empire most directly led to which of the following?",
+    "options": {
+     "A": "A French alliance with Germany against the Russian Empire",
+     "B": "A return to the balance of power set in 1815",
+     "C": "Bismarck's alliances aimed at isolating France",
+     "D": "Germany's withdrawal from European diplomacy"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. France and Germany stayed rivals. France later allied with Russia against Germany (1894).",
+     "B": "Incorrect. A strong, united Germany in the middle of Europe upset the balance of power set up at Vienna in 1815.",
+     "C": "Correct. France wanted revenge and wanted Alsace-Lorraine back. To keep France without allies, Bismarck built the Three Emperors' League (1873), the Dual Alliance (1879), the Triple Alliance (1882), and the Reinsurance Treaty (1887).",
+     "D": "Incorrect. Germany was at the center of European diplomacy. Bismarck hosted the Congress of Berlin (1878) and the Berlin Conference on Africa (1884–1885)."
+    },
+    "explanation": "A united Germany became Europe's strongest land power, and France resented its defeat and the loss of Alsace-Lorraine. After 1871 Bismarck tried to keep the peace by keeping France from finding allies.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E7-E11",
+    "set": "X4",
+    "topic": "7.6",
+    "lo": "G",
+    "skill": "5.A",
+    "difficulty": "easy",
+    "stem": "Which conclusion is best supported by the data?",
+    "options": {
+     "A": "European colonial powers lost most of their territory in the Americas between 1876 and 1900.",
+     "B": "More than three-quarters of Asia was already under colonial rule in 1876.",
+     "C": "Colonial control of the Pacific islands declined between 1876 and 1900.",
+     "D": "The share of Africa under colonial rule grew far more than that of any other region."
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. The Americas barely changed, from 27.5 to 27.2 percent.",
+     "B": "Incorrect. Only about half of Asia, 51.5 percent, was under colonial rule in 1876.",
+     "C": "Incorrect. Polynesia rose from 56.8 to 98.9 percent.",
+     "D": "Correct. Africa jumped from 10.8 to 90.4 percent, a rise of almost 80 points. Polynesia rose about 42 points, and Asia about 5."
+    },
+    "explanation": "The chart shows the Scramble for Africa. In about 25 years, Europeans went from holding a small part of Africa to holding almost all of it."
+   },
+   {
+    "id": "E7-E12",
+    "set": "X4",
+    "topic": "7.6",
+    "lo": "H",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "During the period 1876–1900, which of the following best explains the change in Africa shown in the chart?",
+    "options": {
+     "A": "European rivalry aided by new weapons, steamships, and the drug quinine",
+     "B": "African rulers' requests for protection from the Ottoman Empire",
+     "C": "Britain's abolition of the Atlantic slave trade in 1807",
+     "D": "The independence wars of Latin America in the 1810s and 1820s"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. Britain, France, Germany, and other powers raced to claim land in Africa. Machine guns, steamships, and quinine let them push into the interior.",
+     "B": "Incorrect. Most African states fought European takeover. And the Ottoman Empire was itself losing land in North Africa. For example, France took Tunisia in 1881.",
+     "C": "Incorrect. Britain's ban came about seventy years before the rapid rise. It does not explain the sudden race for land after 1876.",
+     "D": "Incorrect. Those wars freed Spain's and Portugal's colonies in the Americas. That helps explain why the Americas' share stayed low, not why Africa's rose."
+    },
+    "explanation": "From the 1870s, European states raced each other for land. They wanted raw materials, markets, and power. New weapons, steamships, and quinine made it possible. The Berlin Conference (1884–1885) set rules for claiming Africa.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E7-E13",
+    "set": "X5",
+    "topic": "7.4",
+    "lo": "E",
+    "skill": "3.A",
+    "difficulty": "easy",
+    "stem": "Which of the following best describes Darwin's main claim in the passage?",
+    "options": {
+     "A": "Each species was created separately in its present form and has not changed since.",
+     "B": "God improves each creature during its life, and it then passes the improvements on.",
+     "C": "Species change over time as individuals with helpful variations survive and pass them on.",
+     "D": "Struggle in nature is rare, because most creatures that are born live to adulthood."
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. Darwin disagrees with writers who think \"each species has been independently created.\" He thinks species change.",
+     "B": "Incorrect. Darwin explains change through \"secondary causes,\" or natural causes, over many generations. He does not say God changes a creature during its life.",
+     "C": "Correct. Darwin says a creature that differs in a helpful way has \"a better chance of surviving.\" Its young then inherit the new form.",
+     "D": "Incorrect. Darwin says \"many more individuals of each species are born than can possibly survive.\""
+    },
+    "explanation": "Darwin says more creatures are born than can survive. Those with helpful differences are more likely to live and have young. Over long periods, this natural selection produces new forms of life."
+   },
+   {
+    "id": "E7-E14",
+    "set": "X5",
+    "topic": "7.4",
+    "lo": "E",
+    "skill": "2.B",
+    "difficulty": "medium",
+    "stem": "Members of which group would most likely have disagreed most strongly with the passage when it was published?",
+    "options": {
+     "A": "Church leaders who held that God created each species",
+     "B": "Animal breeders who chose which animals to mate",
+     "C": "Liberals who favored free competition in trade",
+     "D": "Positivists who trusted observation and reason"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. Many Christians believed, as the Bible's book of Genesis says, that God made each species separately. Church leaders such as Bishop Samuel Wilberforce attacked Darwin's theory in 1860.",
+     "B": "Incorrect. Breeders already changed animals by choosing which ones to mate. Darwin used their work to support his idea of natural selection.",
+     "C": "Incorrect. People who favored free competition already knew the idea of a \"struggle for existence.\" Some later used Darwin's ideas to defend it.",
+     "D": "Incorrect. Positivists wanted explanations based on facts that can be observed. Darwin gave exactly that kind of explanation."
+    },
+    "explanation": "Darwin said species came from natural causes, not separate creation. That challenged church teaching. In 1860 Bishop Wilberforce and Thomas Huxley debated the theory at Oxford."
+   },
+   {
+    "id": "E7-E15",
+    "set": "X5",
+    "topic": "7.4",
+    "lo": "E",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "In the late 1800s, other writers most often used ideas like Darwin's to",
+    "options": {
+     "A": "argue that human societies did not change or develop over long periods of time",
+     "B": "support religious teachings about the separate creation of each species",
+     "C": "claim that some nations and races were superior and had a right to rule others",
+     "D": "argue that conflict between nations was unnatural and would soon disappear"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. Social Darwinists said that societies change and compete with one another.",
+     "B": "Incorrect. Darwin's theory challenged the idea that God created each species separately. The writers who borrowed his ideas did not defend that teaching.",
+     "C": "Correct. Social Darwinists such as Herbert Spencer and Karl Pearson applied the idea of a \"struggle for existence\" to nations and races. Imperialists used this idea to defend empire.",
+     "D": "Incorrect. Social Darwinists often said that fighting between nations was natural and even useful."
+    },
+    "explanation": "Darwin wrote about plants and animals. Others applied \"the war of nature\" to human groups. This Social Darwinism was used to justify racism, empire, and fierce national rivalry. Darwin had not meant his ideas to be used this way.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E7-E16",
+    "set": "X6",
+    "topic": "7.5",
+    "lo": "F",
+    "skill": "1.B",
+    "difficulty": "medium",
+    "stem": "The passage most clearly reflects which intellectual development of the late 1800s?",
+    "options": {
+     "A": "A revival of Christian faith among educated Europeans",
+     "B": "A loss of confidence in shared religious and moral values",
+     "C": "Positivist confidence that science would provide certain truth",
+     "D": "Renewed faith in steady progress through reason"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. The madman calls churches \"the tombs and monuments of God.\"",
+     "B": "Correct. The madman announces \"God is dead.\" He asks, \"Is there still an above and below?\" In other words, are any fixed values left?",
+     "C": "Incorrect. Positivists expected science to bring certainty. The madman speaks of \"infinite nothingness,\" not of a new certainty.",
+     "D": "Incorrect. The madman feels lost and asks \"Whither do we move?\" He does not expect steady progress."
+    },
+    "explanation": "Nietzsche uses the madman to say that belief in God no longer guided modern Europeans, even if they had not yet realized it. Without God, he asks, what values and meaning remain?"
+   },
+   {
+    "id": "E7-E17",
+    "set": "X6",
+    "topic": "7.5",
+    "lo": "F",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "Nietzsche's ideas in the passage are best understood in the context of",
+    "options": {
+     "A": "the Catholic Reformation's campaign to win Protestants back to the Church",
+     "B": "the Romantic movement's renewed interest in medieval Christian art and religious faith",
+     "C": "the Protestant Reformation's challenge to the pope's authority",
+     "D": "the spread of secular and scientific ideas, such as Darwin's, that weakened faith"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. The Catholic Reformation took place in the 1500s and 1600s, and it aimed to strengthen faith.",
+     "B": "Incorrect. Romantics such as Chateaubriand praised Christianity in the early 1800s. The madman says that belief in God has died.",
+     "C": "Incorrect. Luther and Calvin attacked the pope's authority but kept their faith in God. The madman says God himself is \"dead.\"",
+     "D": "Correct. By the 1880s, Darwin's theory, new studies that questioned the Bible, and the growth of science had led many educated Europeans to doubt church teaching."
+    },
+    "explanation": "In the second half of the 1800s, science, Darwinism, and secular governments weakened the churches' influence. Nietzsche argued that Europeans had lost the faith that once held their values together."
+   },
+   {
+    "id": "E7-E18",
+    "set": "X6",
+    "topic": "7.5",
+    "lo": "F",
+    "skill": "5.A",
+    "difficulty": "hard",
+    "stem": "Nietzsche's view of the decline of religious belief differs most from that of the positivist Auguste Comte in that Nietzsche",
+    "options": {
+     "A": "welcomed it as proof that science could now explain nature and society",
+     "B": "expected it to end soon with a return to the authority of the Church",
+     "C": "believed it was limited to peasants who had moved to industrial cities",
+     "D": "saw it as a frightening crisis, not a step toward scientific certainty"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. That is closer to Comte's own view. The madman feels lost, not proud of science.",
+     "B": "Incorrect. The madman calls churches the \"tombs\" of God and does not expect the Church's power to return.",
+     "C": "Incorrect. The madman speaks to everyone in the market-place. He says \"you and I\" killed God, not one group of people.",
+     "D": "Correct. Comte saw leaving religion behind as a step forward, toward knowledge based on science. The madman feels lost. He asks, \"How shall we console ourselves,\" and speaks of \"infinite nothingness.\""
+    },
+    "explanation": "Comte believed that leaving religion behind was a step toward scientific knowledge. Nietzsche warned that losing faith in God would leave Europeans without fixed values, a theme that shaped modern thought and art.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "E7-E19",
+    "set": "X7",
+    "topic": "7.7",
+    "lo": "I",
+    "skill": "3.A",
+    "difficulty": "easy",
+    "stem": "Which of the following best describes Tilak's main argument?",
+    "options": {
+     "A": "Indians should keep petitioning the British Parliament until it agrees to grant reforms.",
+     "B": "Indians should refuse to help run British rule and use boycott to win self-rule.",
+     "C": "Indians should take up arms in a rising like the revolt of 1857.",
+     "D": "British rule had served India well and needed just a few small changes."
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Tilak says \"your future rests entirely in your own hands,\" not in the hands of the British Parliament.",
+     "B": "Correct. Tilak says British rule \"is carried on with our assistance\" and calls boycott \"a political weapon.\" His goal is \"Self-Government.\"",
+     "C": "Incorrect. He says \"We are not armed, and there is no necessity for arms either.\"",
+     "D": "Incorrect. He says \"this Government does not suit us\" and that \"in politics there is no benevolence.\""
+    },
+    "explanation": "Tilak says British rule depends on Indian help. If Indians stop collecting taxes, keeping order, and serving the government, British rule will fail. Then Indians can win self-government."
+   },
+   {
+    "id": "E7-E20",
+    "set": "X7",
+    "topic": "7.7",
+    "lo": "I",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "Tilak's statement that \"English education\" helped open Indians' eyes best illustrates which of the following?",
+    "options": {
+     "A": "British schools succeeded in making educated Indians loyal defenders of British rule.",
+     "B": "Colonized peoples who learned Western ideas used them to challenge European rule.",
+     "C": "Western education quickly ended the caste system across India.",
+     "D": "Indian leaders refused to learn English so as to protect Indian traditions."
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Tilak says education \"opened our eyes\" to the costs of British rule. He does not defend that rule.",
+     "B": "Correct. Like many colonized peoples, educated Indians used Western ideas, such as self-government and national rights, against their rulers. Tilak himself was a college graduate. He taught and ran newspapers.",
+     "C": "Incorrect. Caste remained strong in India long after 1907.",
+     "D": "Incorrect. Tilak and other leaders of the Indian National Congress learned English and used it in their politics."
+    },
+    "explanation": "Many leaders of the Indian National Congress, founded in 1885, were lawyers, teachers, and journalists who had studied in English. Western ideas about rights and self-rule helped them see British rule as unfair.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E7-E21",
+    "set": "X7",
+    "topic": "7.7",
+    "lo": "I",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "The call for boycott in the passage is best understood in the context of which of the following?",
+    "options": {
+     "A": "The Sepoy Mutiny against East India Company rule",
+     "B": "The Boxer Rebellion against foreigners in China",
+     "C": "The British partition of Bengal in 1905",
+     "D": "The Berlin Conference's rules for claiming Africa"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. The revolt of 1857 was an armed rising fifty years earlier. Tilak says \"there is no necessity for arms.\"",
+     "B": "Incorrect. The Boxer Rebellion (1899–1901) was a Chinese uprising, not an Indian campaign.",
+     "C": "Correct. The British split Bengal in 1905. Many Indians saw this as a plan to weaken their national movement. Protesters began to boycott British goods and buy Indian-made (swadeshi) goods.",
+     "D": "Incorrect. The Berlin Conference (1884–1885) set rules for claiming land in Africa, not India."
+    },
+    "explanation": "In 1905 Britain split the province of Bengal. Many Indians answered with the swadeshi (\"own country\") movement, which boycotted British goods. Tilak spoke in Calcutta, Bengal's chief city, in 1907. He wanted to use boycott as a wider political weapon."
+   },
+   {
+    "id": "E7-E22",
+    "set": "X7",
+    "topic": "7.7",
+    "lo": "I",
+    "skill": "3.C",
+    "difficulty": "hard",
+    "stem": "Compared with the leaders of the Indian revolt of 1857, Tilak",
+    "options": {
+     "A": "relied on boycott and refusal to cooperate rather than armed revolt",
+     "B": "aimed to restore the Mughal emperor as the ruler of India",
+     "C": "drew most of his support from the British officials who were serving in India",
+     "D": "wanted India returned to the rule of the East India Company"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. In 1857 Indian soldiers (sepoys) and others rose in armed revolt. Tilak says \"We are not armed\" and calls boycott \"a stronger weapon.\"",
+     "B": "Incorrect. Rebels in 1857 proclaimed the old Mughal emperor, Bahadur Shah II, as their leader. Tilak wants \"Self-Government,\" not the return of an emperor.",
+     "C": "Incorrect. Tilak says the government is run by \"a handful of Englishmen\" whom Indians should stop helping. British officials opposed him.",
+     "D": "Incorrect. After 1857 Britain ended Company rule and governed India directly. Tilak wants control in Indian hands, not a return to the Company."
+    },
+    "explanation": "The revolt of 1857 was an armed uprising, and Britain crushed it. Fifty years later Tilak called for refusing to work for the British and boycotting their goods. Mohandas Gandhi later used this method on a larger scale.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "E7-E23",
+    "set": "X8",
+    "topic": "7.8",
+    "lo": "J",
+    "skill": "3.A",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes Mauclair's view of the Impressionists?",
+    "options": {
+     "A": "They brought back the rules of classical art taught by the Academy.",
+     "B": "They made light the main subject and painted modern, everyday life.",
+     "C": "They painted mostly religious and historical scenes in a fresh style.",
+     "D": "They rejected Realism and returned to the goals of Romantic painting."
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Mauclair says they came from \"a reactionary movement against classic and romantic painting.\" They pushed back against the old rules.",
+     "B": "Correct. Mauclair says \"Light becomes the sole subject of the picture.\" He lists scenes of \"the street,\" \"the foundry,\" and \"modern interiors.\"",
+     "C": "Incorrect. Mauclair says they were \"altogether hostile to historical and symbolist painting.\" So they did not paint scenes like these.",
+     "D": "Incorrect. He says they \"had all been Realists\" and that Realism pushed back against \"classic and romantic painting.\""
+    },
+    "explanation": "Mauclair says that for the Impressionists, light became \"the sole subject\" of a picture. They painted dance halls, rivers, streets, and factories. They cared more about \"character\" than about ideal beauty."
+   },
+   {
+    "id": "E7-E24",
+    "set": "X8",
+    "topic": "7.8",
+    "lo": "J",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "The subjects listed in the last sentence of the passage are best understood in the context of",
+    "options": {
+     "A": "the growth of cities, railways, and middle-class leisure",
+     "B": "the decline of cities as most Europeans returned to farming villages",
+     "C": "rising demand from the Catholic Church for paintings of saints",
+     "D": "government demand for paintings that celebrated military victories"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. By the late 1800s Paris had wide new boulevards. Trains took city people out to the country and the rivers. A growing middle class went dancing and boating.",
+     "B": "Incorrect. Cities grew fast in the 1800s as people moved from villages to find work.",
+     "C": "Incorrect. Mauclair says the Impressionists were \"hostile to historical and symbolist painting.\" They seldom painted saints or Bible stories.",
+     "D": "Incorrect. Painters of battle victories followed the Academy's rules. The Impressionists painted everyday modern life."
+    },
+    "explanation": "Industrialization brought crowded cities, factories such as the \"foundry,\" new railways, and more leisure time for the middle class. The Impressionists painted this modern world."
+   },
+   {
+    "id": "E7-E25",
+    "set": "X8",
+    "topic": "7.8",
+    "lo": "J",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "In the years after Mauclair wrote, artists such as Pablo Picasso and Henri Matisse went further than the Impressionists by",
+    "options": {
+     "A": "turning from showing things as they look to more abstract, expressive forms",
+     "B": "returning to the Academy's strict rules and historical subjects",
+     "C": "copying photographs to record scenes exactly as the eye sees them",
+     "D": "painting wild mountain landscapes in the manner of Caspar David Friedrich"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. Matisse's Fauvism (about 1905) used bold, unnatural colors. Picasso's Cubism (from about 1907) broke objects into geometric shapes.",
+     "B": "Incorrect. Picasso and Matisse broke the Academy's rules even more than the Impressionists had.",
+     "C": "Incorrect. They moved away from exact copies of what the eye sees. Photography could now do that.",
+     "D": "Incorrect. Friedrich was a German Romantic painter of the early 1800s. Picasso and Matisse were known for new forms, not Romantic landscapes."
+    },
+    "explanation": "After 1900, modern artists went beyond the Impressionists. They stopped trying to show things as the eye sees them. They used color and shape to express feelings and ideas. This often shocked people who wanted art to be realistic and beautiful.",
+    "reasoning": "Continuity and Change"
+   }
+  ]
+ }
+}
