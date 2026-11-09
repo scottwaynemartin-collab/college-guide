@@ -1,4 +1,4 @@
-# AP European History — Unit 8 practice bank (v2026-11-09b)
+# AP European History — Unit 8 practice bank (v2026-11-09c)
 
 Unit 8: 20th-Century Global Conflicts, c. 1914–1945 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 8.1 Contextualizing 20th-Century Global Conflicts (LO A)
@@ -36,7 +36,7 @@ Each source shows its attribution and translation line as students see them, plu
 KEY: D. Explanation: Dickinson's "thesis" is that war "does become inevitable" wherever "the anarchy of armed states exists." He blames the whole system. That means armed states, secret policies made by a few men, and newspapers that stir up anger.
   - why not A: Dickinson blames a whole system of "armed States," not one country. The peace treaty of 1919 put the blame on Germany and its allies.
   - why not B: Dickinson says the opposite. He writes that modern war, "with all the resources of science," threatens "the continuance of civilization."
-  - why not C: That is the Marxist explanation of war. Dickinson blames the "international anarchy," the lack of any authority above the states.
+  - why not C: This choice describes conflict between social classes inside a country. Dickinson explains war through relations among armed states and the "international anarchy," the lack of any authority above them.
   - hint: Find the sentence that begins "My thesis is." What does Dickinson say makes war "inevitable"?
 
 **E8-P02** [Topic 8.4 · LO F · Skill 3.D · Comparison · hard]  Dickinson's argument most directly challenges which of the following?
@@ -52,13 +52,13 @@ KEY: B. Explanation: Article 231 of the Treaty of Versailles said Germany and it
 
 **E8-P03** [Topic 8.1 · LO A · Skill 4.B · Causation · medium]  Dickinson's book is best understood in the context of which of the following?
 - (A) the effort after the First World War to explain the war's causes and prevent another one
-- (B) the effort before 1914 to strengthen the Triple Entente against Germany and its allies
+- (B) the effort in the 1920s to return European currencies to the gold standard
 - (C) the effort during the Great Depression to protect national economies with high tariffs
-- (D) the effort during the Second World War to build an alliance against Nazi Germany
+- (D) the effort in the 1920s to spread communist revolution from the Soviet Union to other countries
 KEY: A. Explanation: Dickinson wrote in 1926 to show that the system of armed states made war certain. In the 1920s many writers and governments asked who was to blame for the war. The League of Nations tried to settle disputes peacefully.
-  - why not B: Dickinson writes about the years before 1914, but he wrote in 1926, after the war. He criticizes the armed alliances of those years.
+  - why not B: Britain went back to the gold standard in 1925, but Dickinson writes about war between armed states, not about money.
   - why not C: The Great Depression began in 1929, three years after this book. Dickinson writes about war, not trade policy.
-  - why not D: The Second World War began in 1939, more than ten years after this book was published.
+  - why not D: Soviet leaders did try to spread revolution in the 1920s, but Dickinson blames the system of armed states and calls for the peaceful settlement of disputes, not revolution.
   - hint: Look at the date of the book and at Dickinson's last sentence. What was he hoping to prevent?
 
 
@@ -87,13 +87,13 @@ KEY: C. Explanation: Jünger says life has meaning only when it is "pledged for 
   - why not D: Neither source blames generals or enemy soldiers. Remarque's narrator blames the older generation, such as his teacher Kantorek.
   - hint: Compare how each writer feels about the ideals he was taught before the war.
 
-**E8-P05** [Topic 8.2 · LO C · Skill 1.B · easy]  Jünger's statement that "all fine and personal feeling has to yield when machinery gets the upper hand" refers most directly to which kind of fighting?
+**E8-P05** [Topic 8.2 · LO C · Skill 1.A · easy]  Jünger's statement that "all fine and personal feeling has to yield when machinery gets the upper hand" refers most directly to which kind of fighting?
 - (A) Trench warfare with artillery and machine guns
 - (B) Cavalry charges with swords and lances
 - (C) Guerrilla raids by small bands of fighters
 - (D) Naval battles between fleets of battleships
 KEY: A. Explanation: On the Western Front, soldiers died by the thousands from artillery, machine guns, and poison gas. Barbed wire held them back. Old ideas of personal courage and chivalry seemed to count for little against these machines.
-  - why not B: Cavalry was used early in the war, but machine guns and barbed wire soon made cavalry charges useless on the Western Front.
+  - why not B: Machine guns, artillery, trenches, and barbed wire sharply limited cavalry charges on the Western Front. Cavalry still had some uses, but firepower decided the fighting Jünger describes.
   - why not C: Guerrilla bands fought in some places, such as the Arab Revolt, but Jünger fought in the trenches of the Western Front.
   - why not D: Jünger was an infantry officer, and he writes about "the field of battle," not the sea.
   - hint: Jünger fought for four years on the Western Front. What weapons decided battles there?
@@ -105,7 +105,7 @@ KEY: A. Explanation: On the Western Front, soldiers died by the thousands from a
 - (D) Liberal parties
 KEY: C. Explanation: Fascists glorified war and the nation and said the individual must serve the state. Like Jünger, they praised the soldiers of the First World War as a hardened generation.
   - why not A: Pacifists wanted to end war. Their views were closer to Remarque's than to Jünger's.
-  - why not B: Communists stressed loyalty to the working class across borders, not sacrifice for the Fatherland, and they called the First World War an imperialist war.
+  - why not B: Communists stressed class struggle and called the First World War an imperialist war. Jünger instead praises the nation and sacrifice in war, themes central to fascism.
   - why not D: Liberals defended individual rights. Jünger says the life of an individual "has no weight" compared with certain ideals.
   - hint: Jünger praises sacrifice for the Fatherland and says an individual life "has no weight." Which movement taught that?
 
@@ -148,7 +148,7 @@ KEY: B. Explanation: Germany was at war with Britain, so it was willing to help 
 KEY: C. Explanation: Women's war work helped them win the vote in many countries. Danish women won it in 1915 and Russian women in 1917. British and German women won it in 1918. Dutch women won it in 1919.
   - why not A: In Germany and Austria, women won the vote in November 1918 from the new republics, after the emperors had already lost power.
   - why not B: French women did not win the vote until 1944, many years after British women.
-  - why not D: In 1918 British women could vote only from the age of thirty. Women gained the vote on the same terms as men in 1928.
+  - why not D: In 1918 British women could vote only if they were at least thirty and met a property rule. Women gained the vote on the same terms as men in 1928.
   - hint: Think about the years right after 1914. What happened to women's voting rights across Europe?
 
 
@@ -175,7 +175,7 @@ KEY: B. Explanation: War brought high prices, refugees, defeats, and a weaker po
 - (B) give exact figures on how many workers took part in strikes and protests in Petrograd in March 1917
 - (C) show how ordinary peasants in the villages felt about the war and the tsar
 - (D) record what the tsar's own ministers said in private about the dangers the government faced
-KEY: D. Explanation: The notes come from secret meetings. They were not meant for the public, so the ministers spoke frankly. They show that the tsar's own government saw the danger of revolution more than a year before it came.
+KEY: D. Explanation: The notes come from secret meetings that were not meant for the public. They show what the tsar's own ministers feared more than a year before the revolution came. Historians still check them against other sources, because ministers could exaggerate problems or defend their own work.
   - why not A: The notes record the tsar's ministers, not revolutionaries. The ministers wanted to stop the "revolutionary movement."
   - why not B: The notes date from August 1915 and give no strike figures. The revolution came in March 1917.
   - why not C: The speakers are ministers in the capital. They describe workers, refugees, and crowds, not the views of peasants in the villages.
@@ -198,7 +198,7 @@ KEY: B. Explanation: In March 1917, strikes and bread protests filled Petrograd.
 > The Workers' and Peasants' Government, created by the revolution of November 6th and 7th and based on the Soviets of Workers', Soldiers' and Peasants' Deputies, proposes to all the belligerent peoples and to their Governments to begin immediately negotiations for a just and democratic peace.
 > The Government means by a just and democratic peace, which is desired by the immense majority of the workers and the labouring classes, exhausted and depleted by the war … immediate peace without annexations (that is to say, without conquest of foreign territory, without forcible annexation of other nationalities), and without indemnities. …
 > … The Government abolishes secret diplomacy, expressing before the whole country its firm decision to conduct all the negotiations in the light of day before the people …
-— Decree on Peace, adopted by the Second All-Russian Congress of Soviets the day after the Bolsheviks took power in Petrograd, November 8, 1917 (English translation in John Reed, Ten Days That Shook the World (New York: Boni and Liveright, 1919; Project Gutenberg edition); adapted)
+— Decree on Peace, adopted by the Second All-Russian Congress of Soviets, November 8, 1917 (English translation in John Reed, Ten Days That Shook the World (New York: Boni and Liveright, 1919; Project Gutenberg edition); adapted)
 > Words to know: Soviets = councils elected by workers, soldiers, and peasants; belligerent = at war; depleted = used up; worn out; annexations = takeovers of another country's land; indemnities = payments a defeated country is forced to make
 **Source 2**
 > (1.) All private ownership of land is abolished immediately without compensation.
@@ -207,15 +207,15 @@ KEY: B. Explanation: In March 1917, strikes and bread protests filled Petrograd.
 — Decree on Land, adopted by the same congress early the next morning, November 9, 1917 (English translation in John Reed, Ten Days That Shook the World (New York: Boni and Liveright, 1919; Project Gutenberg edition); adapted)
 > Words to know: compensation = payment for what is taken; appurtenances = things that go along with a property; disposition = control; Constituent Assembly = an elected assembly that was to write Russia's new constitution; Cossacks = communities in southern Russia whose men served as cavalry; confiscated = taken away by the government
 
-**E8-P13** [Topic 8.3 · LO E · Skill 4.B · easy]  The two decrees are best understood in the context of which of the following?
+**E8-P13** [Topic 8.3 · LO E · Skill 4.A · easy]  The two decrees are best understood in the context of which of the following?
 - (A) The February Revolution of 1917
 - (B) The Russian Civil War
 - (C) The New Economic Policy
 - (D) The Bolshevik seizure of power
 KEY: D. Explanation: On November 6–7, 1917, the Bolsheviks overthrew the Provisional Government. On November 8 and 9 the Congress of Soviets passed these decrees. They promised the peace and land that many soldiers and peasants wanted.
   - why not A: The February Revolution of March 1917 created the Provisional Government, which kept Russia in the war.
-  - why not B: The civil war began in 1918, after these decrees were passed.
-  - why not C: Lenin began the New Economic Policy in 1921, after the civil war.
+  - why not B: These decrees were passed right after the Bolshevik takeover, before the main fighting of the civil war in 1918–1920.
+  - why not C: Lenin began the New Economic Policy in 1921, more than three years after these decrees.
   - hint: The first sentence of Source 1 names the event that created this government. What was it?
 
 **E8-P14** [Topic 8.2 · LO D · Skill 5.B · Causation · medium]  The policy announced in Source 1 led most directly to which of the following?
@@ -236,7 +236,7 @@ KEY: A. Explanation: The Bolsheviks asked Germany for an armistice. In March 191
 - (D) Alexander II's emancipation of the serfs
 KEY: A. Explanation: Starting in 1929, Stalin forced peasants into collective farms under state control. Peasants lost control of their land. Those labeled kulaks were arrested, sent away, or killed.
   - why not B: The New Economic Policy (1921) let peasants sell their extra grain. It did not take their land away.
-  - why not C: Stolypin's reforms came in 1906–1911, before the revolution. They helped some peasants own land as private farms.
+  - why not C: Stolypin began his reforms in 1906, before the revolution. They helped some peasants own land as private farms.
   - why not D: Alexander II freed the serfs in 1861, long before these decrees.
   - hint: Source 2 hands land over to peasants' committees. Which leader later took control of the land away from the peasants?
 
@@ -281,7 +281,7 @@ KEY: C. Explanation: In October 1918 Germany asked for an armistice based on Wil
 - (B) The Bolshevik call for peace without annexations
 - (C) The Fourteen Points' call for open diplomacy
 - (D) The Locarno treaties on Germany's western borders
-KEY: A. Explanation: After the war, the League of Nations turned Germany's colonies and the Ottoman Empire's Arab lands into "mandates." Britain, France, and other Allies ruled them. They were to rule only until the people there were judged ready to rule themselves.
+KEY: A. Explanation: After the war, the League of Nations turned Germany's colonies and many of the Ottoman Empire's Arab lands into "mandates." Britain, France, and other Allies ruled them. The League's rules claimed that these peoples needed outside guidance. The rules were not the same everywhere: former Ottoman lands were to be guided toward independence, but most former German colonies were given no such promise.
   - why not B: The Bolsheviks called for peace without annexations and attacked the rule of strong nations over weak ones. They did not claim that colonial peoples needed outside rulers.
   - why not C: Open diplomacy meant ending secret treaties. It had nothing to do with ruling colonies.
   - why not D: The Locarno treaties of 1925 dealt with borders inside Europe, not with colonies.
@@ -361,12 +361,12 @@ KEY: C. Explanation: Mussolini boasts that he could have made the Chamber's hall
 **E8-P24** [Topic 8.6 · LO H · Skill 5.B · Causation · medium]  Mussolini's rise to power was helped most directly by which of the following?
 - (A) the economic crisis that followed the 1929 stock market crash in New York
 - (B) an alliance with Nazi Germany that supplied him with money and weapons
-- (C) the pope's support for a Catholic political party that Mussolini led
-- (D) fear of a socialist revolution and anger over Italy's gains from the First World War
+- (C) a Fascist election victory that gave the party a majority in parliament
+- (D) fear of socialism and anger over the postwar peace settlement
 KEY: D. Explanation: After the war, strikes and land seizures made many property owners fear a revolution like Russia's. Many Italians also felt cheated. The peace treaties gave Italy less land than it had been promised. Fascist squads attacked socialists, and Mussolini used this fear and anger to gain power.
   - why not A: The 1929 crash came seven years after Mussolini took power.
   - why not B: Hitler did not come to power until 1933, and Italy and Germany allied only in the late 1930s.
-  - why not C: Mussolini did not lead a Catholic party. He made peace with the pope in the Lateran Accords of 1929, after he was already in power.
+  - why not C: The Fascists held only about 35 of the 535 seats in parliament when the king made Mussolini prime minister in 1922. A Fascist-led list won a majority only in 1924, after a new election law.
   - hint: Think about Italy in 1919–1922. What were property owners afraid of, and why were many nationalists angry?
 
 
@@ -400,7 +400,7 @@ KEY: B. Explanation: Keynes argued that in a slump the government should spend m
   - why not D: Thomas Malthus wrote that population grows faster than the food supply. Mosley's subject is unemployment and government action.
   - hint: Which economist argued that governments should spend to create jobs during a depression?
 
-**E8-P27** [Topic 8.11 · LO N · Skill 5.B · Continuity and Change · hard]  Mosley's frustration with his government's response to unemployment best illustrates which broader development of the 1930s?
+**E8-P27** [Topic 8.11 · LO N · Skill 5.B · Continuity and Change · hard]  Mosley's political path after this speech best illustrates which broader development of the 1930s?
 - (A) Democratic governments ended mass unemployment quickly by returning to laissez-faire policies.
 - (B) Britain adopted Soviet-style central planning to run its factories and farms.
 - (C) Failures to end the Depression turned some Europeans against democracy.
@@ -409,7 +409,7 @@ KEY: C. Explanation: Mosley left the Labour Party, and in 1932 he founded the Br
   - why not A: Unemployment stayed high in Britain and France through much of the 1930s. Leaving the economy alone did not end it.
   - why not B: Britain did not adopt central planning. It took steps such as leaving the gold standard and raising tariffs, but most industry stayed private.
   - why not D: In many countries the opposite happened. In Germany, for example, the Nazi and Communist vote grew as unemployment rose.
-  - hint: Mosley says "the first duty of the Government is ... to govern." How did some people answer when democracies seemed too slow?
+  - hint: Mosley soon left the Labour Party. How did some Europeans react when democracies seemed too slow to end the Depression?
 
 
 ### Source P10 (questions E8-P28–E8-P30)
@@ -425,15 +425,15 @@ KEY: C. Explanation: Mosley left the Labour Party, and in 1932 he founded the Br
 Figures are GDP per person in 2011 international dollars: the value of all goods and services produced in a year, divided by the population, in dollars of equal value so that years and countries can be compared. They are modern estimates by economic historians. *All figures in this column are for the lands that later made up the Soviet Union (USSR), which was formed in 1922.
 Source: Maddison Project Database 2023 (J. Bolt and J. L. van Zanden, University of Groningen), sheet "Full data," series gdppc (also published by Our World in Data); CC BY 4.0. Original estimates: Markevich and Harrison (2011), Moorsteen and Powell (1966), Hoffmann (1965), Feinstein (1972)
 
-**E8-P28** [Topic 8.3 · LO E · Skill 5.A · Causation · easy]  The change in the Russia/USSR column between 1913 and 1921 is best explained by which of the following?
+**E8-P28** [Topic 8.3 · LO E · Skill 5.B · Causation · easy]  The change in the Russia/USSR column between 1913 and 1921 is best explained by which of the following?
 - (A) War, revolution, and civil war
 - (B) The Great Depression
 - (C) Stalin's collectivization of farms
-- (D) The German invasion of 1941
+- (D) The Russo-Japanese War
 KEY: A. Explanation: Russia fought in the First World War and had two revolutions in 1917. Then it fought a civil war until about 1921. Fighting, broken trade, and the Bolsheviks' seizure of grain cut output per person to less than half its 1913 level.
   - why not B: The Great Depression began in 1929. The drop in the table happened between 1913 and 1921.
   - why not C: Collectivization began in 1929, years after 1921.
-  - why not D: Germany invaded the Soviet Union in 1941, twenty years after 1921.
+  - why not D: Russia fought Japan in 1904–1905, years before 1913. The drop in the table came after 1913.
   - hint: What happened in Russia between 1914 and 1921?
 
 **E8-P29** [Topic 8.3 · LO E · Skill 5.B · Causation · medium]  The change in the Russia/USSR column between 1921 and 1928 resulted mainly from which of the following?
@@ -443,18 +443,18 @@ KEY: A. Explanation: Russia fought in the First World War and had two revolution
 - (D) Stolypin's reforms, which helped peasants leave the village commune and run their own farms
 KEY: C. Explanation: In 1921 Lenin replaced the seizure of grain with a tax and allowed some private trade. Farms and small businesses recovered, and by 1928 output per person was close to its 1913 level.
   - why not A: The first Five-Year Plan began in 1928, so it explains the later rise, not the recovery from 1921 to 1928.
-  - why not B: Britain and the United States sent large aid to the Soviet Union during the Second World War, not in the 1920s.
-  - why not D: Stolypin's reforms were carried out between 1906 and 1911, before the war and the revolution.
+  - why not B: Britain and the United States sent large military aid to the Soviet Union during the Second World War. American famine relief did reach Soviet Russia in 1921–1923, but the main cause of the recovery shown was Lenin's New Economic Policy.
+  - why not D: Stolypin began his land reforms in 1906, under the tsar. They did not cause the Soviet recovery of the 1920s.
   - hint: Which policy of the 1920s brought back some free trade in Soviet Russia?
 
-**E8-P30** [Topic 8.6 · LO I · Skill 2.C · hard]  A historian studying how Stalin's policies affected Soviet peasants would find the table least useful because it
-- (A) is based on figures that Stalin's officials made up to impress foreigners
-- (B) measures factory output but leaves out what farms produced
-- (C) gives one average for the whole country and does not show the famine of 1932–1933
-- (D) stops before Stalin took control of the Soviet Union
+**E8-P30** [Topic 8.6 · LO I · Skill 2.C · hard]  Which limitation most directly prevents the table from showing how Stalin's policies affected Soviet peasants?
+- (A) It was compiled by later historians rather than by people who lived under Stalin.
+- (B) It compares countries that had very different kinds of government.
+- (C) It gives national averages, not figures on peasants' food, income, or deaths.
+- (D) It ends before Stalin took full control of the Soviet Union.
 KEY: C. Explanation: Average output per person rose under Stalin. But an average hides who paid the price. Forced collectivization helped cause a famine in 1932–1933. It killed millions of people, especially in Ukraine and Kazakhstan.
-  - why not A: The note under the table says the figures are modern estimates by economic historians, not Soviet government claims.
-  - why not B: GDP counts all goods and services, including farm products, as the note under the table explains.
+  - why not A: Later historians can use records from the time to make careful estimates. Who made the table is not what hides the peasants' experience.
+  - why not B: Comparing countries with different governments can still be useful. It does not hide what happened to peasants inside the Soviet Union.
   - why not D: The table includes 1932 and 1937, when Stalin ruled the Soviet Union.
   - hint: What can a single national average not tell you about different groups of people?
 
@@ -497,7 +497,7 @@ KEY: D. Explanation: The first decree suspended rights such as free speech, free
 KEY: B. Explanation: In 1789 the French Declaration of the Rights of Man named liberty and property as natural rights. It also protected free speech. The 1933 decree set aside rights like these "until further notice."
   - why not A: The Carlsbad Decrees of 1819 censored the press and watched the universities in the German states. Like this decree, they limited freedom of expression.
   - why not C: Hobbes argued that people should give nearly all power to a ruler to keep order. That is close to the thinking of this decree.
-  - why not D: Machiavelli advised rulers to use any means to keep power. That fits with this decree more than it contrasts with it.
+  - why not D: Machiavelli argued that a ruler might have to break ordinary moral rules to keep his state safe. He did not treat individual rights as firm limits on a ruler's power.
   - hint: Which document said that people have natural rights, such as liberty and property, that government must protect?
 
 
@@ -515,33 +515,33 @@ KEY: B. Explanation: In 1789 the French Declaration of the Rights of Man named l
 - (B) encouraging Jews to serve in the German army and government
 - (C) giving each German state the power to decide who could be a citizen
 - (D) excluding Jews from German citizenship because of their ancestry
-KEY: D. Explanation: The Nazis wanted only people of "German or kindred blood" to be citizens. These laws took away Jews' citizenship. They banned marriages between Jews and other Germans. They decided who was a Jew mainly by the person's grandparents.
+KEY: D. Explanation: The Nazis wanted only people they classed as being of "German or kindred blood" to be citizens. These laws took away Jews' full citizenship and banned new marriages between Jews and those people. They decided who was a Jew mainly by the person's grandparents.
   - why not A: The laws define Jews mainly by their grandparents. A person with three or four Jewish grandparents counted as a Jew even after becoming a Christian.
   - why not B: The regulation says a Jew "cannot occupy a public office" and "has no right to vote."
   - why not C: These are laws of the Reich. The Nazis had taken power away from the German states.
   - hint: What do the laws take away from Jews, and how do they decide who is a Jew?
 
 **E8-P35** [Topic 8.9 · LO L · Skill 5.A · Continuity and Change · hard]  The definition of a Jew in the last paragraph differed from much earlier anti-Jewish policy in Europe mainly because it
-- (A) applied to Jews living in other European countries as well as in Germany
+- (A) applied to the Jews of other European countries as well as to those of Germany
 - (B) allowed Jews to keep the same political rights as other German citizens, such as voting
 - (C) was based on a person's ancestry rather than on the person's own religious beliefs
 - (D) was the first law in European history to limit the rights of Jews
 KEY: C. Explanation: In earlier centuries, anti-Jewish laws were mostly about religion. A Jew who became a Christian was often accepted. The Nazis claimed that Jews were a separate race. So a person with three Jewish grandparents counted as a Jew, even if that person was a Christian. (Race cannot really be measured. Officials checked whether each grandparent had belonged to a Jewish congregation.) This racial hatred of Jews spread in the late 1800s.
-  - why not A: These were German laws that applied inside Germany. They did not cover other countries in 1935.
+  - why not A: In 1935 these laws covered Germany and Germany's own citizens, not the Jews of other countries. Nazi Germany forced laws like these on other lands only after it began to expand in 1938.
   - why not B: The regulation says a Jew "has no right to vote" and "cannot occupy a public office."
   - why not D: Many earlier laws limited Jews' rights. For example, England expelled its Jews in 1290 and Spain in 1492, and Venice forced Jews to live in a ghetto starting in 1516.
   - hint: Look at how the regulation decides who is a Jew. Does it ask what the person believes?
 
-**E8-P36** [Topic 8.9 · LO L · Skill 3.D · Continuity and Change · medium]  Which of the following is the best evidence that the policy shown in the laws became more extreme after 1935?
+**E8-P36** [Topic 8.9 · LO L · Skill 5.B · Continuity and Change · medium]  Which of the following is the best evidence that the policy shown in the laws became more extreme after 1935?
 - (A) the one-day boycott of Jewish-owned shops called by the Nazis
 - (B) the Kristallnacht attacks on Jewish homes, shops, and synagogues
 - (C) the Olympic Games in Berlin, when some anti-Jewish signs were taken down
 - (D) the Beer Hall Putsch in Munich
-KEY: B. Explanation: On November 9–10, 1938, Nazis attacked Jewish homes, shops, and synagogues across Germany. They killed at least 91 Jews and sent about 30,000 Jewish men to concentration camps. Persecution had moved from laws to open violence.
+KEY: B. Explanation: On November 9–10, 1938, Nazis attacked Jewish homes, shops, and synagogues across Germany and the lands it had annexed. Hundreds of Jews died in the violence and its aftermath. About 26,000 Jewish men were sent to concentration camps. Jews had faced beatings and arrests since 1933, but this was a far larger attack, organized across the whole country.
   - why not A: The Nazi boycott of Jewish shops took place on April 1, 1933, before these laws.
   - why not C: The Berlin Olympics took place in 1936. For a few weeks the Nazis hid some signs of persecution from foreign visitors. That was a short pause, not a sign of harsher policy.
   - why not D: The Beer Hall Putsch took place in 1923, ten years before the Nazis took power.
-  - hint: Two choices came after 1935. Which one shows Nazi persecution turning violent?
+  - hint: Two choices came after 1935. Which one made life harsher for German Jews, not easier?
 
 
 ### Source P13 (questions E8-P37–E8-P39)
@@ -551,37 +551,37 @@ Caption shown to students: A street in Guernica lined with ruined buildings. Mos
 Description: A black-and-white photograph of a town street after heavy destruction. In the center, the shells of several tall buildings of three or four stories rise from heaps of rubble. Their roofs and inside floors are gone, so the empty window openings show the pale sky behind them; some walls stand only as narrow, jagged pillars. Broken stone, bricks, and pieces of wood cover the ground in front of the buildings and spill into the street. On the left, a tree in full leaf stands in front of more damaged walls. On the right, the wooden frame of a staircase or balcony rises at the edge of the picture. Far down the street, a few tiny figures of people stand among the ruins. The air looks hazy, as if from dust or smoke.
 > Words to know: Basque region = an area of northern Spain whose people have their own language and traditions
 
-**E8-P37** [Topic 8.6 · LO H · Skill 4.B · easy]  The destruction shown in the photograph is best understood in the context of which of the following?
-- (A) The Spanish Civil War
-- (B) The Russian Civil War
-- (C) The Italian invasion of Ethiopia
-- (D) The German invasion of Poland
-KEY: A. Explanation: The Spanish Civil War began in 1936. Army generals, soon led by Francisco Franco, rose up against Spain's elected government. Germany and Italy sent planes, troops, and weapons to help Franco.
-  - why not B: The Russian Civil War was fought in Russia from 1918 to about 1921.
-  - why not C: Italy invaded Ethiopia, in East Africa, in 1935.
-  - why not D: Germany invaded Poland in 1939, two years after this photograph.
-  - hint: Where and when was the photograph taken?
+**E8-P37** [Topic 8.6 · LO H · Skill 4.B · medium]  Foreign involvement in the war in which this destruction took place best illustrates which development of the 1930s?
+- (A) Fascist states used the war to aid an ally and test their weapons.
+- (B) The League of Nations sent troops to defend a member state.
+- (C) The United States joined the fighting to defend European democracy.
+- (D) Fascist and communist states worked together to overthrow democracies.
+KEY: A. Explanation: The Spanish Civil War began in 1936, when army generals, soon led by Francisco Franco, rose against Spain's elected government. Germany and Italy sent planes, troops, and weapons to help Franco. In April 1937 German and Italian planes bombed Guernica. Spain became a testing ground for weapons and tactics used in the Second World War.
+  - why not B: The League of Nations had no army of its own and sent no troops to Spain. It had also failed to stop Italy's invasion of Ethiopia in 1935.
+  - why not C: The United States stayed out of the war. In 1937 Congress banned American arms sales to both sides in Spain.
+  - why not D: In Spain, fascist and communist states were on opposite sides. Germany and Italy helped Franco, while the Soviet Union aided the Republic.
+  - hint: Which foreign countries sent planes and troops to help Franco, and what did they gain from it?
 
 **E8-P38** [Topic 8.7 · LO J · Skill 5.B · Causation · medium]  Britain and France responded to the war in which this destruction took place by
-- (A) refusing to send weapons or troops to either side
-- (B) sending their armies to defend the Spanish Republic
+- (A) promising not to send weapons or troops to either side
+- (B) sending their own armies to defend the Spanish Republic
 - (C) joining Germany and Italy in arming Franco's forces
 - (D) asking the Soviet Union to take control of Spain
-KEY: A. Explanation: Britain and France feared a wider war. In 1936 they set up a non-intervention agreement. Germany and Italy signed it but kept helping Franco, who won in 1939.
+KEY: A. Explanation: Britain and France feared a wider war. In 1936 they set up a non-intervention agreement, in which the European powers promised not to send arms to Spain. Germany and Italy signed it but kept helping Franco, and the Soviet Union aided the Republic. A small amount of French aid also reached the Republic in secret. Franco won in 1939.
   - why not B: Britain and France sent no armies. Some of their citizens went to Spain as volunteers in the International Brigades.
   - why not C: Britain and France did not arm Franco. Germany and Italy did.
-  - why not D: Britain and France distrusted the Soviet Union. The Soviet Union sent some weapons and advisers to the Republic on its own.
+  - why not D: Britain and France distrusted the Soviet Union and did not ask it to act in Spain. The Soviet Union sent weapons and advisers to the Republic.
   - hint: The policy was called non-intervention. What does that word mean?
 
-**E8-P39** [Topic 8.8 · LO K · Skill 5.B · Continuity and Change · medium]  The kind of attack that destroyed this town was used on a much larger scale during the Second World War in which of the following?
+**E8-P39** [Topic 8.8 · LO K · Skill 5.A · Continuity and Change · medium]  The kind of attack that destroyed this town was used on a much larger scale during the Second World War in which of the following?
 - (A) The Battle of the Atlantic
 - (B) The Blitz
 - (C) The Normandy landings
-- (D) The Maginot Line
+- (D) The Battle of El Alamein
 KEY: B. Explanation: German and Italian planes bombed Guernica in April 1937 and destroyed most of the town. In the Blitz of 1940–1941, the German air force bombed London and other British cities night after night.
   - why not A: The Battle of the Atlantic was a struggle between German submarines and Allied ships at sea.
   - why not C: The Normandy landings of June 1944 were an invasion from the sea by Allied soldiers.
-  - why not D: The Maginot Line was a line of French forts along the border with Germany. It was built for defense, not attack.
+  - why not D: El Alamein, fought in Egypt in 1942, was mainly a land battle in the desert, not a bombing campaign against cities.
   - hint: Guernica was destroyed from the air. Which choice was a bombing campaign against cities?
 
 
@@ -611,12 +611,12 @@ KEY: A. Explanation: The secret protocol split eastern Europe into German and So
 - (C) American aid to the Soviet Union under the Lend-Lease program
 - (D) Soviet distrust of Britain and France after the Munich Agreement
 KEY: D. Explanation: Stalin was not invited to the Munich conference in 1938. He doubted that Britain and France would fight Hitler. In 1939 talks between the Soviet Union and the Western powers went nowhere. So Stalin made his own deal with Germany.
-  - why not A: Britain and France stayed out of the Spanish Civil War. The Soviet Union helped the Spanish Republic on its own.
+  - why not A: Britain and France did not form a military alliance with the Soviet Union in Spain. The Soviet Union supplied weapons and advisers to the Republic.
   - why not B: The Battle of Stalingrad was fought in 1942–1943, after Germany broke this treaty by invading the Soviet Union.
   - why not C: Lend-Lease aid to the Soviet Union began in 1941, after Germany invaded it.
   - hint: What happened at Munich in 1938, and which great power was left out?
 
-**E8-P42** [Topic 8.8 · LO K · Skill 5.B · Causation · easy]  Article II of the treaty most directly made possible which of the following?
+**E8-P42** [Topic 8.7 · LO J · Skill 5.B · Causation · easy]  Article II of the treaty most directly made possible which of the following?
 - (A) The German invasion of the Soviet Union
 - (B) The German invasion of Poland
 - (C) The Japanese attack on Pearl Harbor
@@ -636,7 +636,7 @@ KEY: B. Explanation: Article II meant the Soviet Union would not help Germany's 
 — Winston Churchill, prime minister of Great Britain, speech to the House of Commons, June 18, 1940 (Text from Hansard, House of Commons Debates, 5th series, vol. 362, cols. 56–60 (June 18, 1940), UK Parliament, Open Parliament Licence v3.0; adapted)
 > Words to know: strategical opening = the first moves of the campaign; armoured columns = long lines of tanks and armored vehicles; preponderance = greater amount; despotic = ruling with total, unchecked power; the Dominions = self-governing parts of the British Empire, such as Canada and Australia; General Weygand = the commander of the French army in June 1940; perverted = twisted toward evil uses
 
-**E8-P43** [Topic 8.8 · LO K · Skill 1.B · easy]  Churchill's explanation of why the battle in France was lost best describes which method of war?
+**E8-P43** [Topic 8.8 · LO K · Skill 1.A · easy]  Churchill's explanation of why the battle in France was lost best describes which method of war?
 - (A) Trench warfare
 - (B) Blitzkrieg
 - (C) Naval blockade
@@ -663,7 +663,7 @@ KEY: A. Explanation: From July to October 1940, the German air force tried to de
 - (B) France's armistice with Germany and the new Vichy government
 - (C) The division of Poland between Germany and the Soviet Union
 - (D) The Soviet and American entry into the war against Germany
-KEY: D. Explanation: Germany attacked the Soviet Union in June 1941. Japan bombed Pearl Harbor in December 1941, and the United States joined the war. American factories and the Soviet army's huge losses helped the Allies win.
+KEY: D. Explanation: Germany invaded the Soviet Union in June 1941. Japan attacked Pearl Harbor on December 7, 1941, and four days later Germany declared war on the United States. American factories and troops made the Allies much stronger. The Soviet army defeated huge German armies, though it suffered immense losses.
   - why not A: Italy declared war on Britain and France on June 10, 1940, before this speech. That made Britain's position harder.
   - why not B: France signed an armistice with Germany on June 22, 1940, and a new French government at Vichy worked with the Germans. Losing France as an ally made Britain's position harder.
   - why not C: Germany and the Soviet Union divided Poland in 1939, before this speech.
@@ -722,7 +722,7 @@ KEY: B. Explanation: Physicists' study of the atom led to the discovery of nucle
 — Sir Edward Grey, foreign secretary of Great Britain, speech to the House of Commons, August 3, 1914 (Text from Hansard, House of Commons Debates, 5th series, vol. 65, cols. 1810–1823 (August 3, 1914), UK Parliament, Open Parliament Licence v3.0; adapted)
 > Words to know: Servia = an old English name for Serbia; obligation of honour = a duty a country has promised to carry out; conflagration = a huge fire; here, a huge war; ultimatum = a final demand, with a threat of force if it is refused; facilitate the passage of = make it easy for … to pass through; unmeasured aggrandisement = unlimited growth in power
 
-**E8-E01** [Topic 8.1 · LO A · Skill 4.B · Causation · easy]  The crisis that Grey describes began with which of the following?
+**E8-E01** [Topic 8.1 · LO A · Skill 1.A · Causation · easy]  The crisis that Grey describes began with which of the following?
 - (A) The annexation of Bosnia by Austria-Hungary
 - (B) The second Moroccan crisis at Agadir
 - (C) The assassination of Archduke Franz Ferdinand
@@ -768,7 +768,7 @@ KEY: A. Explanation: German war planners expected to fight France and Russia at 
 — Order No. 1 of the Petrograd Soviet of Workers' and Soldiers' Deputies, a council elected by workers and soldiers in Russia's capital, March 14, 1917 (English translation in Frank A. Golder, ed., Documents of Russian History, 1914–1917 (New York: Century, 1927), pp. 386–387; adapted)
 > Words to know: soviet = a council; here, a council of workers' and soldiers' representatives; garrison = the soldiers stationed in a city; lower ranks = ordinary soldiers, not officers; State Duma = Russia's elected parliament under the tsar; military commission of the State Duma = a committee of Duma members trying to take charge of the army in Petrograd; compulsory = required
 
-**E8-E04** [Topic 8.3 · LO E · Skill 4.B · easy]  The order was issued during which of the following?
+**E8-E04** [Topic 8.3 · LO E · Skill 4.A · easy]  The order was issued during which of the following?
 - (A) The Revolution of 1905
 - (B) The February Revolution
 - (C) The October Revolution
@@ -780,14 +780,14 @@ KEY: B. Explanation: In 1917 Russia still used an old calendar that was 13 days 
   - D: Incorrect. In the Kornilov Affair of September 1917, an army commander moved troops toward Petrograd. That came six months after this order.
 
 **E8-E05** [Topic 8.3 · LO E · Skill 5.B · Causation · medium]  The order contributed most directly to which of the following?
-- (A) the tsar's decision to take personal command of the army
-- (B) Russia's victory in the summer offensive of 1917
-- (C) Russia's entry into the war in support of Serbia
+- (A) the transfer of military authority in Petrograd from the Soviet to the Duma
+- (B) the end of soldiers' committees in the Petrograd garrison
+- (C) the immediate withdrawal of Russia from the First World War
 - (D) the weakening of the Provisional Government's control over the army
-KEY: D. Explanation: Order No. 1 told soldiers to obey the Duma's commission only if the Soviet agreed. So the Provisional Government did not fully control its own army. This helped the Bolsheviks seize power in November 1917.
-  - A: Incorrect. Nicholas II took command of the army in 1915, before this order.
-  - B: Incorrect. The offensive of July 1917 failed, partly because many soldiers would no longer obey their officers.
-  - C: Incorrect. Russia entered the war in 1914, before this order.
+KEY: D. Explanation: Order No. 1 told soldiers to obey the Duma's military commission only when its orders did not conflict with the Soviet's. Officers lost much of their authority, and the Provisional Government could not fully control its own army. This helped the Bolsheviks seize power in November 1917.
+  - A: Incorrect. The order says the Duma's military commission was to be obeyed only when its orders did not conflict with the Soviet's. Authority moved toward the Soviet, not the Duma.
+  - B: Incorrect. The order did the opposite. It set up elected committees in every unit and put weapons under their control.
+  - C: Incorrect. Russia stayed in the war under the Provisional Government. It left the war only in March 1918, when the Bolsheviks signed the Treaty of Brest-Litovsk.
   - D: Correct. The order put soldiers under the Soviet and their own committees and kept weapons out of officers' hands. Discipline broke down, and the Provisional Government could not rely on the army.
 
 **E8-E06** [Topic 8.3 · LO E · Skill 2.B · easy]  Members of which group would most likely have opposed the order most strongly?
@@ -832,7 +832,7 @@ KEY: D. Explanation: In 1919 the peacemakers in Paris planned to split the Ottom
 KEY: A. Explanation: During the First World War, Britain backed an Arab revolt against the Ottoman Empire. It promised to support Arab independence. The Congress says Arabs shed "so much blood" for their liberty and expect their reward.
   - A: Correct. In 1916 Sharif Hussein of Mecca led an Arab revolt against the Ottoman Empire with British support. His son Faisal's forces entered Damascus in 1918.
   - B: Incorrect. The Young Turk Revolution of 1908 was a revolt by Ottoman officers against the sultan's rule. It was not an Arab rising.
-  - C: Incorrect. In the Balkan Wars of 1912–1913, Serbia, Bulgaria, Greece, and Montenegro fought the Ottoman Empire in Europe.
+  - C: Incorrect. In the First Balkan War (1912–1913), Serbia, Bulgaria, Greece, and Montenegro fought the Ottoman Empire. In the Second Balkan War (1913), Bulgaria fought its former allies, Romania, and the Ottoman Empire. Neither was an Arab rising.
   - D: Incorrect. The Greeks fought for independence from the Ottoman Empire in the 1820s.
 
 **E8-E09** [Topic 8.4 · LO F · Skill 5.B · Causation · medium]  The hopes expressed in the resolution were most directly disappointed by which of the following?
@@ -909,15 +909,15 @@ KEY: C. Explanation: Total war needed whole societies to make weapons. By 1918 a
   - D: Incorrect. Britain did buy munitions from the United States, but it also built huge factories like this one at home.
 
 **E8-E14** [Topic 8.10 · LO M · Skill 5.B · Causation · medium]  Developments like the one shown in the photograph contributed most directly to which of the following in Britain?
-- (A) Women were allowed to serve as front-line soldiers in 1919.
+- (A) Women were allowed to serve as front-line soldiers in 1918.
 - (B) Parliament gave the vote to millions of women in 1918.
 - (C) Women won the vote on the same terms as men in 1918.
-- (D) Britain elected its first woman prime minister in 1919.
+- (D) Parliament required equal pay for women and men in 1918.
 KEY: B. Explanation: Women's war work helped convince many British leaders that women deserved the vote. Germany and several other countries also gave women the vote at the end of the war.
-  - A: Incorrect. Britain did not send women into combat in 1919.
+  - A: Incorrect. British women joined new services such as the Women's Army Auxiliary Corps, formed in 1917, but they did not fight at the front.
   - B: Correct. The Representation of the People Act of 1918 gave the vote to about 8.4 million women aged thirty and over who met property rules.
-  - C: Incorrect. In 1918 men could vote at twenty-one but most women only at thirty. Women won the vote on equal terms in 1928.
-  - D: Incorrect. Britain's first woman prime minister, Margaret Thatcher, took office in 1979. In 1919 Nancy Astor became the first woman to take a seat in Parliament.
+  - C: Incorrect. In 1918 most men could vote at twenty-one, but women had to be at least thirty and meet a property rule. Women won the vote on equal terms in 1928.
+  - D: Incorrect. Many women who did men's jobs were paid less than men. Britain did not pass an Equal Pay Act until 1970.
 
 
 ### Source X6 (questions E8-E15–E8-E18)
@@ -961,15 +961,15 @@ KEY: D. Explanation: Chamberlain says war "in a form more stark and terrible tha
   - D: Correct. Memories of the millions killed in 1914–1918, and fear of bombing raids on cities, made many Britons and French people eager to avoid war.
 
 **E8-E17** [Topic 8.7 · LO J · Skill 3.D · Causation · medium]  Which of the following later developments most strongly supports Churchill's prediction in the fourth paragraph?
-- (A) The remilitarization of the Rhineland
-- (B) The German occupation of Prague
-- (C) The union of Germany and Austria
-- (D) The Italian invasion of Ethiopia
+- (A) The signing of the Nazi–Soviet Pact in August 1939
+- (B) The German occupation of Prague in March 1939
+- (C) The Italian invasion of Albania in April 1939
+- (D) The German annexation of Memel in March 1939
 KEY: B. Explanation: Churchill warned that Czechoslovakia might be "engulfed" within months. He was right. In March 1939 Hitler broke the Munich Agreement and took Prague. Britain and France then promised to defend Poland.
-  - A: Incorrect. German troops entered the Rhineland in March 1936, before the Munich Agreement.
+  - A: Incorrect. The Nazi–Soviet Pact opened the way for Germany's attack on Poland. It did not itself bring the Czech lands under German rule.
   - B: Correct. In March 1939, less than six months after Munich, German troops occupied Prague and the rest of the Czech lands. Czechoslovakia was "engulfed in the Nazi régime," as Churchill had warned.
-  - C: Incorrect. Germany took over Austria in March 1938, before the Munich Agreement.
-  - D: Incorrect. Italy invaded Ethiopia in 1935, before the Munich Agreement.
+  - C: Incorrect. Italy's invasion of Albania did not affect Czechoslovakia, the state Churchill warned about.
+  - D: Incorrect. Germany forced Lithuania to give up Memel. Memel was not part of Czechoslovakia.
 
 **E8-E18** [Topic 8.8 · LO K · Skill 5.B · Causation · easy]  Britain and France went to war with Germany less than a year after this debate in response to which of the following?
 - (A) The German invasion of the Soviet Union
@@ -988,43 +988,43 @@ KEY: D. Explanation: Germany's attack on Poland was its first blitzkrieg. Tanks 
 > "The attention of the Governments of Belgium, Czechoslovakia, Greece, Luxembourg, the Netherlands, Norway, Poland, the United States of America, the United Kingdom of Great Britain and Northern Ireland, the Union of Soviet Socialist Republics and Yugoslavia, and of the French National Committee has been drawn to numerous reports from Europe that the German authorities, not content with denying to persons of Jewish race in all the territories over which their barbarous rule has been extended the most elementary human rights, are now carrying into effect Hitler's oft repeated intention to exterminate the Jewish people in Europe. From all the occupied countries Jews are being transported, in conditions of appalling horror and brutality, to Eastern Europe. In Poland, which has been made the principal Nazi slaughterhouse, the ghettoes established by the German invaders are being systematically emptied of all Jews except a few highly skilled workers required for war industries. None of those taken away are ever heard of again. The able-bodied are slowly worked to death in labour camps. The infirm are left to die of exposure and starvation or are deliberately massacred in mass executions. The number of victims of these bloody cruelties is reckoned in many hundreds of thousands of entirely innocent men, women and children.
 > "The above mentioned Governments and the French National Committee condemn in the strongest possible terms this bestial policy of cold-blooded extermination. They declare that such events can only strengthen the resolve of all freedom loving peoples to overthrow the barbarous Hitlerite tyranny. They re-affirm their solemn resolution to ensure that those responsible for these crimes shall not escape retribution, and to press on with the necessary practical measures to this end." …
 > … Certainly** we should like to do all we possibly can. There are, obviously, certain security formalities which have to be considered. It would clearly be the desire of the United Nations to do everything they could to provide wherever possible an asylum for these people, but the House will understand that there are immense geographical and other difficulties in the matter.
-> * In January 1942 the countries at war with Germany, Italy, and Japan signed a declaration that called them the "United Nations." The United Nations organization that exists today was founded in 1945.
+> * On January 1, 1942, 26 Allied governments signed a declaration that called them the "United Nations." The United Nations organization that exists today was founded in 1945.
 > ** Eden said these words a few minutes later, in answer to a member who asked whether Jews who escaped from the occupied countries would be given help in Allied countries.
 — Anthony Eden, foreign secretary of Great Britain, statement to the House of Commons reading a joint declaration of the Allied governments, December 17, 1942 (Text from Hansard, House of Commons Debates, 5th series, vol. 385, cols. 2082–2086 (December 17, 1942), UK Parliament, Open Parliament Licence v3.0; adapted, with three printing slips corrected)
-> Words to know: His Majesty's Government = the British government; French National Committee = the leaders of the Free French, who kept fighting Germany after France surrendered in 1940; exterminate = kill every member of a group; ghettoes = closed-off parts of cities where the Nazis forced Jews to live; the infirm = people who are sick or weak; retribution = punishment; asylum = safety given to people fleeing danger
+> Words to know: His Majesty's Government = the British government; French National Committee = the leaders of the Free French, who kept fighting Germany after France surrendered in 1940; exterminate = kill every member of a group; ghettoes = parts of towns or cities where German authorities forced Jews to live apart from other people, under harsh rules; the infirm = people who are sick or weak; retribution = punishment; asylum = safety given to people fleeing danger
 
 **E8-E19** [Topic 8.9 · LO L · Skill 3.A · medium]  Which of the following best describes the main claim of the declaration?
 - (A) German authorities were forcing Jews to leave Europe for neutral countries.
 - (B) German authorities were holding the Jews of Europe in camps until the war ended.
-- (C) German authorities were carrying out a plan to kill the Jews of Europe.
-- (D) Jews in the occupied countries were being drafted into the German army.
+- (C) German authorities were carrying out a plan to murder the Jews of Europe.
+- (D) German authorities were deporting Jews mainly to work in war industries.
 KEY: C. Explanation: The Allied governments said Germany had moved from denying Jews their rights to murdering them. Jews were being deported to Eastern Europe, worked to death, starved, or shot in mass executions.
   - A: Incorrect. The declaration says Jews were being "transported ... to Eastern Europe." They were not being sent to neutral countries.
   - B: Incorrect. The declaration says "none of those taken away are ever heard of again" and calls the policy "cold-blooded extermination." The Jews were not simply being held until the war ended.
   - C: Correct. The declaration says Germany was "carrying into effect Hitler's oft repeated intention to exterminate the Jewish people in Europe."
-  - D: Incorrect. The declaration says a few "skilled workers" were kept for "war industries." Jews were not drafted into the army.
+  - D: Incorrect. The declaration says the ghettoes are emptied of all Jews "except a few highly skilled workers required for war industries," and that those taken away are never "heard of again."
 
 **E8-E20** [Topic 8.9 · LO L · Skill 1.A · easy]  The events described in the declaration were part of which of the following?
-- (A) The Final Solution
+- (A) The "Final Solution"
 - (B) The Nuremberg Laws
 - (C) The Kristallnacht attacks
-- (D) The T4 euthanasia program
-KEY: A. Explanation: During 1942 the Nazis emptied the ghettos of Poland. They sent the people to death camps such as Treblinka and Auschwitz-Birkenau. About six million Jews were murdered in the Holocaust. The Nazis also murdered Roma, people with disabilities, and others.
+- (D) The T4 "euthanasia" program
+KEY: A. Explanation: In 1942 the Nazis began deporting the people of Poland's ghettos, on a huge scale, to killing centers such as Treblinka and Auschwitz-Birkenau. Most ghettos were destroyed in 1942 and 1943, and the last large one, in Łódź, in 1944. Nazi Germany and its allies and collaborators murdered about six million Jews in the Holocaust. The Nazis also murdered Roma, people with disabilities, and others.
   - A: Correct. In January 1942, at the Wannsee Conference, Nazi officials coordinated the plan to murder the Jews of Europe, which they called the "Final Solution."
-  - B: Incorrect. The Nuremberg Laws of 1935 took away German Jews' citizenship and banned marriages between Jews and other Germans. They did not order deportation or murder.
+  - B: Incorrect. The Nuremberg Laws of 1935 took away German Jews' full citizenship and banned marriages between Jews and people the Nazis classed as being of "German or kindred blood." They did not order deportation or murder.
   - C: Incorrect. Kristallnacht was a wave of attacks on Jewish homes, shops, and synagogues inside Germany in November 1938.
-  - D: Incorrect. The T4 program, begun in 1939, murdered people with disabilities, mostly in Germany. The declaration describes the deportation and killing of Jews from all the occupied countries.
+  - D: Incorrect. "Euthanasia" was the Nazis' false name for T4, a program begun in 1939 to murder people with disabilities, mostly inside Germany. The declaration describes the deportation and murder of Jews from all the occupied countries.
 
-**E8-E21** [Topic 8.9 · LO L · Skill 2.C · hard]  Eden's answer in the last paragraph best illustrates which of the following?
-- (A) an Allied plan to send British and American troops into Poland in 1943 to free the ghettos
-- (B) the limits of Allied efforts to rescue Jews
-- (C) Britain's decision to open Palestine to Jewish refugees without any limit
-- (D) the refusal of neutral countries to discuss refugees with the Allies
-KEY: B. Explanation: The Allies condemned the killings, but they did little to rescue Jews. In April 1943 Britain and the United States held a meeting on refugees in Bermuda. It led to almost no action.
-  - A: Incorrect. The Allies did not invade Poland in 1943. The Soviet army reached eastern Poland only in 1944.
-  - B: Correct. Eden says Britain would "like to do all we possibly can" but points to "security formalities" and "immense geographical and other difficulties."
-  - C: Incorrect. Britain had limited Jewish immigration to Palestine in 1939 and kept those limits during the war.
-  - D: Incorrect. Eden does not mention neutral countries. In 1943 neutral Sweden took in most of Denmark's Jews.
+**E8-E21** [Topic 8.9 · LO L · Skill 2.C · medium]  Which of the following best describes a limitation of Eden's answer in the last paragraph as evidence of what the Allies did to rescue Jews?
+- (A) It gives the views of neutral countries rather than those of the Allies.
+- (B) It states hopes and difficulties but does not show what rescue steps were taken.
+- (C) It was given before the Allies had received reports that Jews were being murdered.
+- (D) It describes refugees' own experiences rather than a government's position.
+KEY: B. Explanation: A public statement of hopes is weak evidence of action. To judge rescue efforts, a historian needs records of what governments actually did. In fact, the Allies did little to rescue Jews. In April 1943 Britain and the United States held a meeting on refugees in Bermuda. It led to almost no action.
+  - A: Incorrect. Eden speaks for the British government and the Allies. He does not give the views of neutral countries.
+  - B: Correct. Eden says Britain would "like to do all we possibly can" and points to "immense geographical and other difficulties." A statement of hopes does not show what the Allies actually did.
+  - C: Incorrect. Eden says "reliable reports have recently reached His Majesty's Government" about the killings. His answer came after those reports.
+  - D: Incorrect. Eden gives the British government's position to Parliament, not refugees' own stories.
 
 
 ### Source X8 (questions E8-E22–E8-E23)
@@ -1046,23 +1046,24 @@ KEY: A. Explanation: Valéry argues that the war broke Europe's confidence. Euro
   - C: Incorrect. Valéry says the economic crisis is "at its zenith." He does not expect science to solve it.
   - D: Incorrect. Valéry mourns the "thousands of young writers and young artists who are dead." He does not blame them for the war.
 
-**E8-E23** [Topic 8.10 · LO M · Skill 5.A · Continuity and Change · medium]  Valéry's doubts about knowledge and science contrast most strongly with the outlook of which of the following?
+**E8-E23** [Topic 8.10 · LO M · Skill 5.A · Comparison · medium]  Valéry's doubts about knowledge and science contrast most strongly with the outlook of which of the following?
 - (A) The Romantic movement
 - (B) Existentialism
 - (C) The Enlightenment
 - (D) Postmodernism
-KEY: C. Explanation: Enlightenment thinkers believed that reason and science would make life better and better. Many Europeans still believed this in 1914. Valéry says the war destroyed that hope.
+KEY: C. Explanation: Many Enlightenment thinkers believed that reason and science would make life better and better. Many Europeans still believed this in 1914. Valéry says the war, in which science was used to kill, destroyed that hope.
   - A: Incorrect. Romantic writers of the early 1800s stressed feeling over reason and doubted that science alone could explain life, so they shared some of Valéry's doubts.
   - B: Incorrect. Existentialist writers after the Second World War also stressed doubt and the lack of certain meaning in life.
-  - C: Correct. Enlightenment thinkers believed that reason and science would bring steady progress. Valéry describes "the lost illusion of a European culture."
+  - C: Correct. Many Enlightenment thinkers believed that reason and science would bring steady progress. Valéry describes "the lost illusion of a European culture."
   - D: Incorrect. Postmodern thinkers of the late 1900s questioned whether any knowledge could be objective, an outlook close to Valéry's doubts.
 
 
 ### Source X9 (questions E8-E24–E8-E25)
 > … And there is this to be said in favour of the Socialists who helped to fight the battles of their respective countries, that some measure of Socialism permeated the policy of all the belligerent countries. Their Governments everywhere found it necessary to bring under control all means of communication and transport, all imports and exports, the mines, and whatever branches of production were necessary for the feeding, clothing, and arming of their armies. Moreover, in order to conciliate the working classes, they took the trade union secretaries into their confidence, and ran the whole of the controlled industries in full and explicit agreement with the workmen's organizations. …
-> … Perhaps, it may be said that the world-crisis did not really begin in 1914 and come to an end in 1918. It began in October 1912, with the first Balkan War; it came to an end only in August 1920, when the last of the post-war treaties was signed at Sevres, when the Bolshevik army was defeated in Poland, when an attempt at a Communist revolution in Italy proved abortive, and the rise of Fascism began. Throughout, it had been a war of nationalities; and the Russian Revolution had acted as a solvent of imperialism for the benefit, not so much of Communism, or even of Socialism, as of nationality. …
+> … Perhaps, it may be said that the world-crisis did not really begin in 1914 and come to an end in 1918. It began in October 1912, with the first Balkan War; it came to an end only in August 1920, when the last of the post-war treaties was signed at Sevres, when the Bolshevik army was defeated in Poland, when an attempt at a Communist revolution in Italy proved abortive*, and the rise of Fascism began. Throughout, it had been a war of nationalities; and the Russian Revolution had acted as a solvent of imperialism for the benefit, not so much of Communism, or even of Socialism, as of nationality. …
+> * In late August and September 1920, hundreds of thousands of Italian workers occupied their factories. The occupations ended without a revolution.
 — Élie Halévy, French historian, The World Crisis of 1914–1918: An Interpretation, lectures given at the University of Oxford in 1929 (Text from the first edition (Oxford: Clarendon Press, 1930), pp. 48, 54–55; adapted)
-> Words to know: permeated = spread through; belligerent countries = countries at war; conciliate = win over; calm; Sevres = Sèvres, near Paris, where the Allies signed a peace treaty with the Ottoman Empire in August 1920; abortive = failed; solvent of imperialism = something that dissolved empires
+> Words to know: permeated = spread through; belligerent countries = countries at war; conciliate = win over; calm; Sevres = Sèvres, near Paris, where the Allies signed a peace treaty with the Ottoman Empire in August 1920 (the Treaty of Lausanne replaced it in 1923); abortive = failed; solvent of imperialism = something that dissolved empires
 
 **E8-E24** [Topic 8.11 · LO N · Skill 5.B · Continuity and Change · medium]  Halévy's description of wartime governments in the first paragraph best illustrates which development?
 - (A) Governments sold their mines and railways to private owners to pay for the war.
@@ -1078,18 +1079,18 @@ KEY: C. Explanation: To fight a total war, governments planned what factories ma
 **E8-E25** [Topic 8.6 · LO H · Skill 5.B · Causation · medium]  The events in Italy that Halévy mentions in the second paragraph helped lead most directly to which of the following?
 - (A) Mussolini's appointment as prime minister
 - (B) Italy's entry into the First World War
-- (C) The unification of Italy
-- (D) The Lateran Accords with the pope
-KEY: A. Explanation: Halévy dates "the rise of Fascism" to 1920, when a feared Communist revolution failed. Fear of the left won Mussolini the support of landowners, factory owners, and the king.
+- (C) The Italian invasion of Ethiopia
+- (D) The Lateran Accords between Italy and the pope
+KEY: A. Explanation: Halévy describes Italy's unrest as a failed Communist revolution. During the strikes and factory occupations of 1919–1920, many landowners and factory owners feared a socialist revolution. Many of them backed the Fascist squads that attacked socialists and unions, and in 1922 the king made Mussolini prime minister.
   - A: Correct. In 1920 Italian workers occupied factories, and many property owners feared a revolution. Fascist squads attacked the left, and in 1922 the king made Mussolini prime minister.
   - B: Incorrect. Italy entered the war in 1915, years before these events.
-  - C: Incorrect. Italy was unified between 1859 and 1870.
+  - C: Incorrect. Italy invaded Ethiopia in 1935, after Mussolini had ruled for thirteen years. The invasion grew out of his plans for an empire.
   - D: Incorrect. The Lateran Accords of 1929 settled quarrels between the Italian state and the Catholic Church. They did not grow out of the events of 1920.
 
 
 ## SOURCE NOTES
 
-Bank version 2026-11-09b.
+Bank version 2026-11-09c.
 
 Copyright rule for this unit (Units 8 and 9): no copyrighted post-1930 private text is used. Every source has its own license basis, given in the table below and argued in its own file (sources/<ID>.md):
 - **Texts published in 1930 or earlier** (X2, X8, X9, P1, P2, P3, P4, P5, P6, P8, P16; image P7). Halévy (X9) was published in 1930. Jünger (P2 Source 1) is read in a 1975 photographic reprint of the 1929 Chatto & Windus edition; the text and page numbers are those of 1929.
@@ -1098,7 +1099,7 @@ Copyright rule for this unit (Units 8 and 9): no copyrighted post-1930 private t
 - **CC BY 4.0 data**: Maddison Project Database 2023 (X4, P10), licence stated on the release page (raw/web/maddison2023_release.html; licence text raw/web/cc-by-4.0.html). The original country sources that the database asks users to cite for small subsets or graphs are listed in X4.md and P10.md and named on each source line ("Original estimates: …").
 - **Images**: X5 (IWM Q 30040, public domain, expired UK Crown copyright), P7 (published in the U.S. in 1923, public domain), P13 (Bundesarchiv Bild 183-H25224, CC BY-SA 3.0 DE, licence text raw/web/cc-by-sa-3.0-de.html). Licences confirmed with the Commons API (raw/commons/info_batch1.json, info_batch2.json). Every image was opened and viewed before its caption, alt text and description were written.
 
-Every text excerpt was copied from a raw download saved in sources/raw/ and machine-checked against it with check_excerpts.py: every stretch between ellipses, brackets or footnote marks had to occur in a raw text once both were reduced to lowercase letters (case, punctuation, digits, whitespace and line-end hyphens ignored). 129 stretches were checked; 117 match exactly, and the 12 that do not were each read by hand and are explained in the source files: X7 (Hansard's "Luxemberg," corrected and disclosed in the credit), X8 (the decorated initial "W" that the OCR drops; checked on the page image, raw/img/athenaeum1919-04-11_leaf21.jpg), X9, P2 Source 1 and P16 (running heads inside a sentence), P2 Source 2 (a stray OCR mark), P3 (two OCR slips, "ihe" and "sho"), P6 Source 2 ("fuU"), P11 ("follov^ing," "Sectioyi"), P12 (a page break inside "re-/solved"), and P16 ("Jatest"). The letters-only check does not see punctuation or numbers, so each excerpt was also compared word by word with its raw text by script; every non-letter change (added colon, capital, quotation mark, corrected OCR punctuation) is listed in the source file. Each source file prints the excerpt as it appears in the bank, the raw region it was cut from, a machine-made list of every cut, and notes on corrections. Table and chart values were read from the downloaded workbook by script and are listed in X4.md and P10.md. Hansard column ranges were read from the column anchors in the saved pages; the FRUS page range (X3) was confirmed on the page images of pp. 781–782 (raw/img/).
+Every text excerpt was copied from a raw download saved in sources/raw/ and machine-checked against it with check_excerpts.py: every stretch between ellipses, brackets or footnote marks had to occur in a raw text once both were reduced to lowercase letters (case, punctuation, digits, whitespace and line-end hyphens ignored). 130 stretches were checked (v2026-11-09c; the new footnote mark in X9 splits one stretch); 118 match exactly, and the 12 that do not were each read by hand and are explained in the source files: X7 (Hansard's "Luxemberg," corrected and disclosed in the credit), X8 (the decorated initial "W" that the OCR drops; checked on the page image, raw/img/athenaeum1919-04-11_leaf21.jpg), X9, P2 Source 1 and P16 (running heads inside a sentence), P2 Source 2 (a stray OCR mark), P3 (two OCR slips, "ihe" and "sho"), P6 Source 2 ("fuU"), P11 ("follov^ing," "Sectioyi"), P12 (a page break inside "re-/solved"), and P16 ("Jatest"). The letters-only check does not see punctuation or numbers, so each excerpt was also compared word by word with its raw text by script; every non-letter change (added colon, capital, quotation mark, corrected OCR punctuation) is listed in the source file. Each source file prints the excerpt as it appears in the bank, the raw region it was cut from, a machine-made list of every cut, and notes on corrections. Table and chart values were read from the downloaded workbook by script and are listed in X4.md and P10.md. Hansard column ranges were read from the column anchors in the saved pages; the FRUS page range (X3) was confirmed on the page images of pp. 781–782 (raw/img/).
 
 | Set | Type | Source | Edition / translation (year) | License basis |
 |---|---|---|---|---|
@@ -1384,8 +1385,8 @@ ADAPTATION IN THE BANK (every cut, machine-listed from the raw text with long cu
 - after '…wide publicity in the Press.' (63 words cut): ". His Majesty's Government in the United Kingdom have as a result been in [...] public to-day at this hour in London, Moscow and Washingto"
 - after '…practical measures to this end."' (1032 words cut): "." § Mr. Silverman While thanking the right hon. Gentleman for that statement, in [...] the territories of the United Nations? § Mr. Eden Certainly"
 - As usual for a quotation that runs over two paragraphs, the bank opens the declaration's second paragraph with a quotation mark.
-- The last paragraph ("Certainly we should like …") is Eden's answer to Sydney Silverman's supplementary question a few minutes later; footnote ** says so. Footnote * on the 1942 "United Nations" is editorial.
-- Glossary (His Majesty's Government, French National Committee, exterminate, ghettoes, the infirm, retribution, asylum) is editorial.
+- The last paragraph ("Certainly we should like …") is Eden's answer to Sydney Silverman's supplementary question a few minutes later; footnote ** says so. Footnote * on the 1942 "United Nations" is editorial (v2026-11-09c: reworded from "the countries at war with Germany, Italy, and Japan," which wrongly implied that every signatory was at war with all three; the Soviet Union, for example, was not at war with Japan until August 1945).
+- Glossary (His Majesty's Government, French National Committee, exterminate, ghettoes, the infirm, retribution, asylum) is editorial. v2026-11-09c: "ghettoes" now reads "parts of towns or cities where German authorities forced Jews to live apart from other people, under harsh rules" (not "closed-off," because some ghettos were open and not walled or fenced).
 
 CONTEXT NOTES:
 The declaration followed reports from the Polish government-in-exile (Raczyński note of 10 December 1942) and the Riegner telegram of August 1942. The House stood in silence after Eden read it. The Anglo-American Bermuda Conference on refugees (April 1943) produced little action.
@@ -1434,11 +1435,12 @@ License basis: Published in 1930 (the brief allows texts published in 1930 or ea
 (Raw excerpt region: see ae8/sources/X9.md)
 
 OCR / TEXT NOTES:
-The page's running head "WAR AND REVOLUTION" falls inside the last sentence in the OCR ("it had been war and revolution a war of nationalities") and is dropped; this is the one flagged stretch. "Sevres" is printed without the accent, as in the book.
+The page's running head "WAR AND REVOLUTION" falls inside the last sentence in the OCR ("it had been war and revolution a war of nationalities") and is dropped; this is the one flagged stretch. "Sevres" is printed without the accent, as in the book. Since v2026-11-09c the footnote mark after "abortive" splits that stretch in two; the part before the mark matches the raw text exactly, and the part after it is the same flagged stretch (running head).
 
 ADAPTATION IN THE BANK (every cut, machine-listed from the raw text with long cuts shown by their first and last words; an item that holds only footnotes, a running head or a page number marks a page break, not a cut; then notes):
 - after '…agreement with the workmen's organizations.' (1660 words cut): ". Some Socialists fondly hoped that the War had worked a miracle and that, [...] Germany. This new war failed under the walls of Warsaw."
-- Glossary (permeated, belligerent countries, conciliate, Sevres, abortive, solvent of imperialism) is editorial.
+- Glossary (permeated, belligerent countries, conciliate, Sevres, abortive, solvent of imperialism) is editorial. v2026-11-09c: the "Sevres" entry adds that the Treaty of Lausanne (24 July 1923) replaced the Treaty of Sèvres, since Halévy calls Sèvres "the last of the post-war treaties."
+- Footnote * (editorial, v2026-11-09c) dates the Italian factory occupations (from about 30 August 1920, at their height in September, ended later that month), because Halévy compresses them into "August 1920." The attribution already presents the lectures as "An Interpretation."
 
 CONTEXT NOTES:
 Halévy dates the crisis from the First Balkan War (October 1912) to August 1920: the Treaty of Sèvres (10 August 1920), the Polish victory at the Battle of Warsaw (August 1920), and the failed factory occupations in Italy (September 1920). In his 1936 essay "The Era of Tyrannies" he traced the new tyrannies to wartime state control.
@@ -1547,7 +1549,7 @@ ADAPTATION IN THE BANK (every cut, machine-listed from the raw text with long cu
 - Glossary (Irish Volunteers and Irish Citizen Army, resolutely, exiled children in America, sovereign, opportune, suffrages, in trust for) is editorial.
 
 CONTEXT NOTES:
-The 'gallant allies in Europe' were Germany: the German ship Aud, carrying rifles for the rising, was intercepted and scuttled on 22 April 1916, and Roger Casement was arrested after landing from a German submarine. Fifteen leaders were executed in May 1916. The Home Rule Act of 1914 had been suspended for the duration of the war.
+The 'gallant allies in Europe' were Germany: the German arms ship Libau, disguised as the Norwegian Aud and carrying rifles for the rising, was intercepted by the Royal Navy on 21 April 1916 (Good Friday) and scuttled by its crew on 22 April, and Roger Casement was arrested after landing from a German submarine. Fifteen leaders were executed in May 1916. The Home Rule Act of 1914 had been suspended for the duration of the war.
 
 ### P4
 ID: P4
@@ -1599,6 +1601,7 @@ ADAPTATION IN THE BANK (every cut, machine-listed from the raw text with long cu
 - after '…and depleted by the war' (21 words cut): "that peace which the Russian workers and peasants, after having struck down the Tsarist monarchy, have not ceased to demand categorically—i"
 - after '…other nationalities), and without indemnities.' (339 words cut): "The Government of Russia Proposes to all the belligerent peoples immediately to conclude such [...] above conditions, equally fair for all nationalities without exception. T"
 - Glossary (Soviets, belligerent, depleted, annexations, indemnities) is editorial.
+- Attribution (v2026-11-09c): the words "the day after the Bolsheviks took power in Petrograd" were removed because they gave away the answer to E8-P13; the excerpt itself still names "the revolution of November 6th and 7th."
 
 CONTEXT NOTES:
 The Bolsheviks seized power on 25 October/7 November 1917. Russia signed an armistice in December 1917 and the Treaty of Brest-Litovsk on 3 March 1918.
@@ -1734,7 +1737,7 @@ ADAPTATION IN THE BANK (every cut, machine-listed from the raw text with long cu
 - Glossary (tortuous and underhand manoeuvres, portfolios, "black shirts," Fascisti, slandered, bivouac, the Chamber, full powers) is editorial.
 
 CONTEXT NOTES:
-After the March on Rome (28 October 1922) King Victor Emmanuel III refused to sign a decree of martial law and asked Mussolini to form a government (30 October). The Chamber voted him full powers on 17 November 1922. The murder of the Socialist deputy Giacomo Matteotti followed in June 1924.
+After the March on Rome (28 October 1922) King Victor Emmanuel III refused to sign a decree of martial law and asked Mussolini to form a government (30 October). The Chamber voted confidence in his government on 17 November 1922. It passed the full-powers bill later in November, and the bill became law on 3 December 1922 (Law no. 1601), letting the government reform taxes and public administration by decree until 31 December 1923. (Corrected in v2026-11-09c: the earlier note had put the full-powers vote on 17 November.) The murder of the Socialist deputy Giacomo Matteotti followed in June 1924.
 
 ### P9
 ID: P9
@@ -1901,7 +1904,7 @@ Planes of the German Condor Legion and the Italian Aviazione Legionaria bombed G
 ### P14
 ID: P14
 Used as: practice set P14 (E8-P40–E8-P42)
-Topic(s): 8.7 (LO J), 8.8 (LO K)
+Topic(s): 8.7 (LO J)
 Work: Treaty of Nonaggression between Germany and the Union of Soviet Socialist Republics, with the Secret Additional Protocol, signed in Moscow by Joachim von Ribbentrop and V. M. Molotov, 23 August 1939.
 Edition / translation: English translation in Nazi-Soviet Relations, 1939–1941: Documents from the Archives of the German Foreign Office, ed. Raymond James Sontag and James Stuart Beddie (Washington: Department of State, 1948; Department of State Publication 3023), pp. 76–78. Two scans of the 1948 edition were downloaded.
 URL curled: https://archive.org/details/in.ernet.dli.2015.499061 (full text) ; second scan https://archive.org/details/department-of-state-1948-das-nationalsozialistische-deutschland-1939-1941_202011 (full text)

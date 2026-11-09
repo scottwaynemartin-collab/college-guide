@@ -4,7 +4,7 @@
  "period": "c. 1815–1914",
  "examWeighting": "10–15%",
  "blurb": "The Industrial Revolution's spread from Britain to the continent, the second industrial revolution, industry's social effects, conservatism and the Concert of Europe, the revolutions of 1830 and 1848, new ideologies, and the reforms that answered industrial problems.",
- "version": "2026-11-09b",
+ "version": "2026-11-09c",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 6: Learning Objectives A-K).",
  "topics": [
   {
@@ -85,7 +85,7 @@
    "paragraphs": [
     "We now enter the coal and iron country; everywhere are marks of manufacturing life; the cinder heaps form mountains; the earth is seamed with excavations; tall furnaces belch forth flames. We are nearing Manchester. In the bronzed sky at sunset a strangely-shaped cloud hangs over the plain; under this motionless covering are hundreds of bristling chimneys, as tall as obelisks; a huge and black mass is next distinguishable, then endless rows of buildings, and we enter the Babel of bricks.",
     "Walked through the city; seen close at hand, it is still more dismal. The air and the soil appear charged with fog and soot. Manufactories with their blackened bricks, their naked fronts, their windows destitute of shutters, and resembling huge and cheap penitentiaries, succeed each other in rows. … One of these buildings is a rectangle of six stories, in each of which are forty windows; it is there that, lit up by gas, amid the deafening noise of looms, thousands of workpeople, cabined, classified, immovable, mechanically drive their machines every day from morning to night; can any form of existence be more opposed to, and at variance with, the natural instincts of man? About six o'clock a bustling, noisy crowd pours from the mills into the streets; men, women, and children flock along in the open air; their clothes are filthy; many of the children are bare-footed, the faces of all are pinched and gloomy; several halt at the gin-palaces; the others scatter and hasten towards their hovels. …",
-    "They are powerful, that is their compensation. The life of one of the heads of these manufacturing or commercial houses may be likened to that of a minor prince. … they have to control and satisfy a host of workpeople; they have the power to become the benefactors of thousands of men; they are the generals and governors of human industry. … They despatch agents to examine particular districts of the globe; they discover outlets for commerce and markets for purchases in Japan, China, Australia, Egypt, and New Zealand …"
+    "… The life of one of the heads of these manufacturing or commercial houses may be likened to that of a minor prince. … they have to control and satisfy a host of workpeople; they have the power to become the benefactors of thousands of men; they are the generals and governors of human industry. … They despatch agents to examine particular districts of the globe; they discover outlets for commerce and markets for purchases in Japan, China, Australia, Egypt, and New Zealand …"
    ],
    "attribution": "Hippolyte Taine, French historian and critic, Notes on England, based on notes from visits he made to England over about ten years, published in 1872",
    "translation": "English translation by W. F. Rae, Notes on England (New York: Holt & Williams, 1872), pp. 273–276; adapted",
@@ -328,7 +328,7 @@
      "17,700"
     ]
    ],
-   "text": "Germany was not united until 1871 and Italy until 1861; the source gives figures for those lands for the earlier years as well. \"Austria\" means the lands of the Austrian emperor (Austria-Hungary after 1867). For 1840 the source shows no figure for Spain.",
+   "text": "Germany was not united until 1871 and Italy until 1861; the source gives figures for those lands for the earlier years as well. \"Austria\" means the lands of the Austrian emperor (Austria-Hungary after 1867). For 1840 the source shows no figure for Spain. These are the figures printed in an 1892 reference book. Later historians give somewhat different totals.",
    "source": "Michael G. Mulhall, The Dictionary of Statistics (London: George Routledge and Sons, 1892), \"Railways,\" p. 495"
   },
   "X5": {
@@ -396,7 +396,7 @@
     },
     {
      "t": "materialistic conception of history",
-     "d": "the idea that economic life shapes everything else in history"
+     "d": "Marx's theory of what drives history, explained in the last paragraph"
     },
     {
      "t": "surplus-value",
@@ -479,8 +479,8 @@
      "d": "piped into homes"
     },
     {
-     "t": "pecuniary gain",
-     "d": "a saving of money"
+     "t": "pecuniary",
+     "d": "having to do with money"
     },
     {
      "t": "premature mortality",
@@ -680,8 +680,8 @@
   "P4": {
    "type": "passage",
    "paragraphs": [
-    "The Census of Ireland, in 1841, gave a population of 8,175,125. At the usual rate of increase, there must have been, in 1846, when the Famine commenced, at least eight and a half millions; at the same rate of increase, there ought to have been, in 1851 (according to the estimate of the Census Commissioners), 9,018,799. But in that year, after five seasons of artificial famine, there were found alive only 6,552,385—a deficit of about two millions and a half. …",
-    "Further, I have called it an artificial famine: that is to say, it was a famine which desolated a rich and fertile island, that produced every year abundance and superabundance to sustain all her people and many more. The English,* indeed, call that famine a \"dispensation of Providence;\" and ascribe it entirely to the blight of the potatoes. But potatoes failed in like manner all over Europe; yet there was no famine save in Ireland. The British account of the matter, then, is first, a fraud—second, a blasphemy. The Almighty, indeed, sent the potato blight, but the English created the famine. …",
+    "The Census of Ireland, in 1841, gave a population of 8,175,125. At the usual rate of increase, there must have been, in 1846, when the Famine commenced,* at least eight and a half millions; at the same rate of increase, there ought to have been, in 1851 (according to the estimate of the Census Commissioners), 9,018,799. But in that year, after five seasons of artificial famine, there were found alive only 6,552,385—a deficit of about two millions and a half. …",
+    "Further, I have called it an artificial famine: that is to say, it was a famine which desolated a rich and fertile island, that produced every year abundance and superabundance to sustain all her people and many more. The English,** indeed, call that famine a \"dispensation of Providence;\" and ascribe it entirely to the blight of the potatoes. But potatoes failed in like manner all over Europe; yet there was no famine save in Ireland. The British account of the matter, then, is first, a fraud—second, a blasphemy. The Almighty, indeed, sent the potato blight, but the English created the famine. …",
     "… the benevolent contributions of Americans and other foreigners were turned aside from their destined objects—not, let us say, in order that none should be saved alive, but that no interference should be made with the principles of political economy."
    ],
    "attribution": "John Mitchel, Irish nationalist journalist who was convicted in 1848 of urging rebellion against British rule and sent to a British penal colony, The Last Conquest of Ireland (Perhaps), written in exile in the United States in the late 1850s and published as a book in Dublin in 1861",
@@ -689,6 +689,10 @@
    "footnotes": [
     {
      "mark": "*",
+     "text": "Potato blight first struck Ireland in the fall of 1845. The crop failure of 1846 was far worse."
+    },
+    {
+     "mark": "**",
      "text": "Ireland was part of the United Kingdom of Great Britain and Ireland from 1801 and was governed from London."
     }
    ],
@@ -815,7 +819,7 @@
      "label": "Source 1",
      "paragraphs": [
       "To men belongs the potent—(I had almost said the omnipotent) consideration of worldly aggrandisement; and it is constantly misleading their steps, closing their ears against the voice of conscience … This may be an extreme, but it is scarcely an exaggerated picture of the engagements of men of business in the present day. …",
-      "How often has man returned to his home with a mind confused by the many voices, which in the mart, the exchange, or the public assembly, have addressed themselves to his inborn selfishness or his worldly pride; … he has thought of the humble monitress who sat alone, guarding the fireside comforts of his distant home; and the remembrance of her character, clothed in moral beauty, has scattered the clouds before his mental vision, and sent him back to that beloved home, a wiser and a better man. …",
+      "… when the snares of the world were around him, … he has thought of the humble monitress who sat alone, guarding the fireside comforts of his distant home; and the remembrance of her character, clothed in moral beauty, has scattered the clouds before his mental vision, and sent him back to that beloved home, a wiser and a better man. …",
       "The sphere of their* direct personal influence is central, and consequently small; but its extreme operations are as widely extended as the range of human feeling."
      ],
      "attribution": "Sarah Stickney Ellis, English writer of advice books, The Women of England: Their Social Duties and Domestic Habits, 1839",
@@ -844,8 +848,8 @@
        "d": "activities"
       },
       {
-       "t": "the mart, the exchange",
-       "d": "the market and the stock exchange"
+       "t": "snares",
+       "d": "traps"
       },
       {
        "t": "monitress",
@@ -1362,14 +1366,14 @@
     "A": "England led in manufacturing because of its resources, its transport, and its secure laws.",
     "B": "England led in manufacturing because its government owned the mines, canals, and mills.",
     "C": "England led in manufacturing because its guilds trained more skilled workers than other countries.",
-    "D": "England led in manufacturing because it was the first country in the world to make cotton cloth."
+    "D": "England led in manufacturing because its growing population created a larger market for cotton cloth."
    },
    "answer": "A",
    "explanation": "Baines names three kinds of advantages. Some came from nature: water power, coal, and iron close together. Some were built: canals and new railways. Some came from government: \"just laws,\" secure property, and safe money for business. Together, he says, they explain England's lead.",
    "whyNot": {
     "B": "Baines says the canals were built \"by individual enterprise, not by national funds.\" British mines and mills were private businesses too.",
     "C": "Guilds had lost most of their power in England by the 1700s. Baines credits water, coal, iron, canals, railways, and secure property instead.",
-    "D": "Cotton cloth had been made for centuries in India and other lands before it was made in England. Baines credits England's resources, transport, and laws for its lead."
+    "D": "A growing population did help British industry. But Baines does not give it as a reason here. He credits England's resources, transport, and laws for its lead."
    },
    "hint": "Baines sorts England's advantages into a few kinds. What are they?"
   },
@@ -1408,15 +1412,15 @@
    "options": {
     "A": "Britain's kings ruled without Parliament for most of the 1700s, which kept taxes low for manufacturers.",
     "B": "Britain's Parliament, which included merchants and manufacturers, passed laws protecting property.",
-    "C": "Britain's Parliament took over the cotton mills and ran them for the nation.",
-    "D": "Britain's government ended private ownership of land so that factories could be built anywhere."
+    "C": "Britain's Reform Act of 1832 gave the vote to most adult men, including factory workers.",
+    "D": "Britain's Parliament passed the Corn Laws to keep bread cheap for factory workers."
    },
    "answer": "B",
    "explanation": "Baines says that in England \"personal liberty and property have been secure\" and \"capital has accumulated in safety.\" Britain's Parliament included men who made money from trade and industry. It passed laws that protected property and helped trade grow.",
    "whyNot": {
     "A": "Parliament met every year after 1689. Britain's kings did not rule without it.",
-    "C": "Britain's mills were private businesses. Parliament did not take over or run industries.",
-    "D": "Land in Britain stayed in private hands, much of it owned by great landlords."
+    "C": "The Reform Act of 1832 gave the vote mainly to middle-class men. Most working men still could not vote, as the Chartists complained a few years later.",
+    "D": "The Corn Laws taxed grain brought in from abroad. They kept bread prices high and helped landowners, and manufacturers such as Richard Cobden fought to repeal them."
    },
    "hint": "Baines praises \"just laws.\" Which choice describes British government accurately?"
   },
@@ -1483,7 +1487,7 @@
    "answer": "D",
    "explanation": "List's book helped convince Germans that new industries needed protection. In 1879, during a long economic slump, Bismarck's German Empire put tariffs on imported factory goods and grain.",
    "whyNot": {
-    "A": "The repeal of the Corn Laws ended taxes on imported grain. It was a step toward free trade, the policy List opposed.",
+    "A": "Repealing the Corn Laws moved Britain toward free trade in grain. List wanted something different: tariffs that protect a nation's new industries until they can compete.",
     "B": "Ending the Navigation Acts let foreign ships carry British trade. It was another step toward free trade.",
     "C": "The Cobden-Chevalier Treaty of 1860 cut tariffs between Britain and France. It moved away from protection, not toward it."
    },
@@ -1542,22 +1546,22 @@
    "topic": "6.10",
    "lo": "K",
    "skill": "3.D",
-   "difficulty": "hard",
-   "stem": "Williams's claim that \"the German Chemist of the early Seventies went far to do the same for the industrial State\" is best supported by which of the following?",
+   "difficulty": "medium",
+   "stem": "Which of the following would best support Williams's explanation of Germany's industrial success?",
    "options": {
-    "A": "Britain's invention of the Bessemer process for steel",
-    "B": "Belgium's early lead in coal mining and railways",
-    "C": "German firms' world lead in making synthetic dyes and drugs",
-    "D": "The Krupp family's steel and arms works at Essen"
+    "A": "Germany's rapidly growing population created a large home market for goods from its factories.",
+    "B": "The Zollverein removed customs barriers between many of the German states.",
+    "C": "German firms hired university-trained chemists to invent synthetic dyes and medicines.",
+    "D": "German governments placed large orders with German firms for steel rails and weapons."
    },
    "answer": "C",
-   "explanation": "German companies such as BASF, Bayer, and Hoechst hired chemists trained at universities. These chemists invented new man-made dyes and drugs. By 1900 Germany made most of the world's synthetic dyes.",
+   "explanation": "Williams credits \"the German Chemist\" and the state's \"Scientific and Technical Education.\" Companies such as BASF, Bayer, and Hoechst hired chemists trained at universities. These chemists invented new man-made dyes and drugs. By 1900 Germany made most of the world's synthetic dyes.",
    "whyNot": {
-    "A": "Henry Bessemer, an Englishman, invented his steel process in the 1850s. It is evidence about British steel, not German chemistry.",
-    "B": "Belgium was the first country on the continent to build industry. But its early lead was in coal, iron, and railways, not chemicals.",
-    "D": "Krupp's works were a great German success, but in steel and weapons, not chemicals. They do not support a claim about chemists."
+    "A": "A larger market could help industry grow. But it does not show the role of science and technical training that Williams stresses.",
+    "B": "The Zollverein helped trade among the German states. But it does not show the benefits of the education Williams praises.",
+    "D": "Government orders helped heavy industry. But Williams praises the German state for its schools, not for its orders."
    },
-   "hint": "The claim is about chemists. Which choice is about the chemical industry in Germany?",
+   "hint": "What does Williams connect to Germany's success in chemicals?",
    "reasoning": "Causation"
   },
   {
@@ -1579,7 +1583,7 @@
    "whyNot": {
     "A": "Britain did not ban emigration. More than a million people left Ireland during and after the famine.",
     "B": "Britain was at peace with France in the 1840s. The famine was caused by potato blight and made worse by policy, not by war.",
-    "C": "Ireland had no parliament of its own after the Act of Union of 1801. It was governed from London, as the footnote says."
+    "C": "Ireland had no parliament of its own after the Act of Union of 1801. It was governed from London, as the second footnote says."
    },
    "hint": "Mitchel blames \"the principles of political economy.\" What economic idea guided the British government in the 1840s?"
   },
@@ -1600,7 +1604,7 @@
    "answer": "D",
    "explanation": "Potato blight also struck the Scottish Highlands, Belgium, the Netherlands, and parts of the German states in the 1840s. This decade is known as the Hungry Forties. People went hungry and death rates rose there too. But no other place suffered as Ireland did.",
    "whyNot": {
-    "A": "The census figures Mitchel cites are real: about 8.2 million people in 1841 and about 6.6 million in 1851.",
+    "A": "The census figures Mitchel cites are real: about 8.2 million people in 1841 and about 6.6 million in 1851. That is a drop of about 1.6 million. His larger \"deficit\" compares the 1851 count with the number the census officials had expected.",
     "B": "Mitchel himself says \"The Almighty, indeed, sent the potato blight.\" Historians agree that blight destroyed the crops.",
     "C": "People in the United States and other countries did send money and food to Ireland, as Mitchel says."
    },
@@ -1613,19 +1617,19 @@
    "lo": "B",
    "skill": "5.B",
    "difficulty": "medium",
-   "stem": "The population change Mitchel describes most directly contributed to which of the following?",
+   "stem": "The famine Mitchel describes most directly contributed to which of the following in the second half of the 1800s?",
    "options": {
     "A": "The rapid growth of new factory towns in the west of Ireland",
     "B": "Mass emigration from Ireland to Britain and North America",
-    "C": "The end of British rule over Ireland in the decade after 1851",
-    "D": "Britain's repeal of the Corn Laws in 1846"
+    "C": "The creation of a separate parliament for Ireland in Dublin",
+    "D": "A return to rapid population growth as Irish couples married younger"
    },
    "answer": "B",
    "explanation": "About a million people died during the famine years, and more than a million left Ireland. People kept leaving for decades, so Ireland's population kept falling. Irish communities grew in Liverpool, Glasgow, New York, Boston, and other cities.",
    "whyNot": {
     "A": "Western Ireland stayed rural and poor. Ireland's main industrial area was around Belfast in the northeast.",
-    "C": "Ireland stayed part of the United Kingdom until most of it became the Irish Free State in 1922.",
-    "D": "The famine helped convince Parliament to end the Corn Laws in 1846. But that came before most of the population loss Mitchel counts."
+    "C": "Bills to give Ireland its own parliament, called Home Rule bills, failed in 1886 and 1893. Most of Ireland won its own parliament only in 1922, as the Irish Free State.",
+    "D": "Ireland's population kept falling for decades after the famine. Many people married later in life, and many did not marry at all."
    },
    "hint": "Where did many of the missing millions go?",
    "reasoning": "Causation"
@@ -1659,47 +1663,47 @@
    "set": "P5",
    "topic": "6.4",
    "lo": "E",
-   "skill": "2.C",
+   "skill": "3.C",
    "difficulty": "hard",
    "stem": "Clapham would most likely criticize the approach of the Hammonds in Source 1 because it",
    "options": {
     "A": "relies on descriptions rather than on wage and price figures",
     "B": "depends too heavily on government statistics about wages and hours",
     "C": "ignores the role of factory owners in building houses in the new towns",
-    "D": "focuses on the 1840s instead of on the years before the Reform Act of 1832"
+    "D": "blames the workers themselves for the crowded, unhealthy towns"
    },
    "answer": "A",
    "explanation": "Clapham complains that \"the work of statisticians on wages and prices\" is \"constantly ignored by social historians.\" He says they repeat a \"tradition\" that life got worse. The Hammonds' passage makes its case with vivid description, not numbers.",
    "whyNot": {
     "B": "The Hammonds' passage gives no statistics at all. Clapham's complaint is that social historians ignore the numbers.",
     "C": "The Hammonds do mention employers. Employers \"supplied\" houses and shops and stood behind the \"jerry-builder.\"",
-    "D": "The Hammonds' book covers 1760–1832, as its title shows. Clapham's own book covers 1820–1850."
+    "D": "The Hammonds blame \"the avarice of the jerry-builder\" and of \"the capitalist,\" not the workers."
    },
-   "hint": "What kind of evidence does Clapham say social historians leave out?"
+   "hint": "What kind of evidence does Clapham say social historians leave out?",
+   "reasoning": "Comparison"
   },
   {
    "id": "E6-P15",
    "set": "P5",
-   "topic": "6.10",
-   "lo": "K",
+   "topic": "6.4",
+   "lo": "E",
    "skill": "3.D",
    "difficulty": "medium",
    "stem": "Which of the following pieces of evidence would best support Clapham's argument?",
    "options": {
-    "A": "Reports of crowded cellars and frequent fever in Manchester in the 1840s",
+    "A": "Reports of crowded cellars and frequent outbreaks of fever in Manchester in the 1840s",
     "B": "Testimony that young children worked long hours in coal mines in 1842",
-    "C": "Records showing that factory-made cotton cloth became much cheaper after 1820",
+    "C": "Records showing that prices of food and clothing fell faster than wages after 1820",
     "D": "Accounts of hunger in the countryside during the \"Hungry '40s\""
    },
    "answer": "C",
-   "explanation": "If machines made cloth, pottery, and other goods cheaper while wages held steady or rose, workers could buy more. That is what Clapham means by the greater \"purchasing power of wages.\"",
+   "explanation": "What workers can buy depends on both their pay and the prices of goods. If prices fell faster than wages, a week's pay bought more. That is what Clapham means by the greater \"purchasing power of wages.\"",
    "whyNot": {
     "A": "Reports of crowded, unhealthy housing fit the Hammonds' picture of the new towns. They do not support Clapham's claim about wages.",
     "B": "Evidence of child labor in the mines shows hard working conditions. It does not show what wages could buy.",
-    "D": "Hunger in the 1840s would weaken, not strengthen, a claim that workers could buy more."
+    "D": "Hunger in the 1840s shows hard times for some people. But Clapham writes about wages \"in general,\" and these accounts do not measure what wages could buy."
    },
-   "hint": "Clapham's argument is about what wages could buy. Which choice is about prices?",
-   "reasoning": "Causation"
+   "hint": "What two kinds of numbers would show how much a week's pay could buy?"
   },
   {
    "id": "E6-P16",
@@ -1719,7 +1723,7 @@
    "explanation": "Work moved out of homes into offices and factories. So middle-class families came to see the home as a separate, moral \"sphere\" run by women. Ellis says men face a \"worldly\" struggle in business. They come home \"a wiser and a better man\" because of their wives.",
    "whyNot": {
     "A": "Most factory women were working-class girls and young women. Middle-class wives were expected to stay at home.",
-    "B": "The Married Women's Property Acts came in 1870 and 1882, decades after Ellis wrote. Source 2 shows that married women had no such control in the 1850s.",
+    "B": "The Married Women's Property Acts came in 1870 and 1882, decades after Ellis wrote. Source 2 shows that in the 1850s a wife's earnings still belonged to her husband.",
     "D": "Ellis was an English Protestant writer. Her ideas came from middle-class English culture, not from Catholic teaching."
    },
    "hint": "Where does Ellis place men's work, and where does she place women's influence?"
@@ -1739,7 +1743,7 @@
     "D": "Ellis praises women's influence in the home, while Smith attacks laws that strip married women of their rights."
    },
    "answer": "D",
-   "explanation": "Ellis accepts women's limited \"sphere\" and praises their moral power at home. Smith shows how the law of coverture made a wife part of her husband. It gave him her money and her children, and it kept single women from voting.",
+   "explanation": "Ellis accepts women's limited \"sphere\" and praises their moral power at home. Smith attacks the laws of her time. Under the law of coverture, a wife became part of her husband in law, and her earnings and the custody of her children belonged to him. Separate voting laws kept all women, even single women with property, from voting for Parliament.",
    "whyNot": {
     "A": "This reverses the sources. Smith is the one who wants married women to keep \"their own earnings.\"",
     "B": "Ellis does not mention voting. Smith points out that a woman \"cannot vote\" even if she has property, which she presents as unfair.",
@@ -1755,7 +1759,7 @@
    "lo": "I",
    "skill": "5.B",
    "difficulty": "medium",
-   "stem": "The changes Smith calls for in Source 2 were most directly achieved by which of the following?",
+   "stem": "The reform Smith calls for in the last paragraph of Source 2 was most directly addressed by which of the following?",
    "options": {
     "A": "The Married Women's Property Acts",
     "B": "The Ten Hours Act",
@@ -1763,13 +1767,13 @@
     "D": "The Second Reform Act"
    },
    "answer": "A",
-   "explanation": "Campaigns that Barbara Leigh Smith helped start led to the Married Women's Property Acts. The act of 1870 let wives keep their own earnings, and the act of 1882 let them own property in their own names.",
+   "explanation": "In the last paragraph, Smith wants wives to be able to keep \"their own earnings.\" Campaigns that Barbara Leigh Smith helped start led to the Married Women's Property Acts. The act of 1870 let wives keep their own earnings, and the act of 1882 let them own property in their own names.",
    "whyNot": {
     "B": "The Ten Hours Act of 1847 limited the working day of women and young people in textile mills. It did not change property law.",
     "C": "The Mines Act of 1842 barred women and girls from working underground. It did not let wives keep their earnings.",
     "D": "The Second Reform Act of 1867 gave the vote to many working men. Women still could not vote in parliamentary elections."
    },
-   "hint": "Smith complains that \"money earned by a married woman belongs absolutely to her husband.\" Which law dealt with that?",
+   "hint": "What does Smith want working wives to be able to keep?",
    "reasoning": "Causation"
   },
   {
@@ -1800,7 +1804,7 @@
    "set": "P7",
    "topic": "6.4",
    "lo": "E",
-   "skill": "5.A",
+   "skill": "3.A",
    "difficulty": "easy",
    "stem": "The testimony of Mr. Wood in the last paragraph most directly reflects which of the following beliefs common among reformers?",
    "options": {
@@ -1847,7 +1851,7 @@
    "set": "P8",
    "topic": "6.5",
    "lo": "F",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "The ideas in the passage most directly express which of the following ideologies?",
    "options": {
@@ -1922,19 +1926,19 @@
    "difficulty": "medium",
    "stem": "The journalists in Source 1 were most directly protesting against which of the following?",
    "options": {
-    "A": "The German Confederation's press law",
-    "B": "Britain's Six Acts against radicals",
-    "C": "The Troppau Protocol",
-    "D": "Charles X's July Ordinances"
+    "A": "Louis XVIII's Constitutional Charter of 1814",
+    "B": "Napoleon I's censorship of the French press",
+    "C": "Louis-Philippe's September Laws on the press",
+    "D": "Charles X's decrees suspending press freedom"
    },
    "answer": "D",
-   "explanation": "On July 25, 1830, King Charles X issued the July Ordinances. They stopped freedom of the press, broke up the newly elected Chamber of Deputies, and changed the election rules. Paris journalists refused to obey, and three days of street fighting followed.",
+   "explanation": "On July 25, 1830, King Charles X issued the July Ordinances. They suspended freedom of the press, broke up the newly elected Chamber of Deputies, and changed the election rules. Paris journalists refused to obey, and three days of street fighting followed.",
    "whyNot": {
-    "A": "The German Confederation's press law came from the Carlsbad Decrees of 1819. It applied in the German states, not in France.",
-    "B": "The Six Acts of 1819 limited meetings and the press in Britain, not in France.",
-    "C": "The Troppau Protocol of 1820 was an agreement among Austria, Prussia, and Russia to act against revolutions. It did not set French press rules."
+    "A": "The Charter of 1814 let the French publish their opinions, within the law. The journalists were not protesting against it. They say the king's new orders broke the law.",
+    "B": "Napoleon I censored newspapers while he ruled France. But his rule ended in 1815, fifteen years before this protest.",
+    "C": "Louis-Philippe became king only after the July Revolution. His September Laws of 1835 limited the press five years after this protest."
    },
-   "hint": "The protest is dated July 1830, in Paris. Which measure was French?"
+   "hint": "Which ruler governed France in July 1830, and what had he just ordered?"
   },
   {
    "id": "E6-P26",
@@ -1953,7 +1957,7 @@
    "answer": "B",
    "explanation": "The deputies made the Duke of Orleans king, as Louis-Philippe. His July Monarchy had a revised charter and a freer press. But only men who paid high taxes could vote, and they were a small share of the country's men.",
    "whyNot": {
-    "A": "France did not become a republic where all men could vote until the revolution of 1848.",
+    "A": "In 1830 the deputies chose a new king, not a republic. France's Second Republic, which let all adult men vote, began in 1848.",
     "C": "Foreign armies helped restore the Bourbon kings in 1814–1815. In 1830 Parisians overthrew the Bourbon king.",
     "D": "Napoleon's nephew, Louis Napoleon, did not make himself emperor until 1852."
    },
@@ -1999,7 +2003,7 @@
     "D": "The Bolshevik takeover of the Russian government in the capital, Petrograd"
    },
    "answer": "A",
-   "explanation": "In the 1890s, finance minister Sergei Witte pushed Russian industry ahead with state railways, tariffs, and foreign loans. Factories grew in cities like St. Petersburg. But workers could not legally strike or form unions, and they had no say in government.",
+   "explanation": "In the 1890s, finance minister Sergei Witte pushed Russian industry ahead with state railways, tariffs, and foreign loans. Factories grew in cities like St. Petersburg. But workers could not legally strike or form independent trade unions, and they had no say in government. The government allowed only a few workers' groups that it watched closely, such as Gapon's.",
    "whyNot": {
     "B": "Alexander II freed the serfs in 1861, more than forty years before this petition.",
     "C": "Russia was losing its war with Japan (1904–1905). The defeats weakened the tsar's government.",
@@ -2135,7 +2139,7 @@
    "difficulty": "medium",
    "stem": "Mill's argument is best described as support for",
    "options": {
-    "A": "a broad vote for both sexes, limited to people who can read, write, and count",
+    "A": "a broad vote for both sexes, limited to people who can read, write, and do arithmetic",
     "B": "universal male suffrage without any test of literacy or property",
     "C": "a vote limited to men who own land, since landowners have the most at stake",
     "D": "replacing elected assemblies with government by a council of trained scientific experts"
@@ -2202,7 +2206,7 @@
    "set": "P13",
    "topic": "6.7",
    "lo": "H",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "The ideas in the passage are most closely associated with which of the following?",
    "options": {
@@ -2330,7 +2334,7 @@
     "D": "was formed by trade unions and socialist groups to represent workers"
    },
    "answer": "D",
-   "explanation": "Trade unions and socialist groups formed the Labour Representation Committee in 1900. It took the name Labour Party in 1906. It became one of the large parties that spoke for workers.",
+   "explanation": "Trade unions and socialist groups formed the Labour Representation Committee in 1900. One of those groups was the Independent Labour Party, which Pankhurst belonged to. The committee took the name Labour Party in 1906 and became one of the large parties that spoke for workers.",
    "whyNot": {
     "A": "Landowners who wanted tariffs on grain were mostly Conservatives. Labour grew out of the workers' movement.",
     "B": "Free-trade liberals made up the Liberal Party. Labour wanted laws to help workers, not a smaller government.",
@@ -2441,16 +2445,16 @@
    "stem": "Wide, straight streets like the ones in the painting were built partly to",
    "options": {
     "A": "improve traffic and air and make barricades harder to build",
-    "B": "give each neighborhood its own walls and gates for defense against invaders",
+    "B": "give working-class families cheap new housing in the center of Paris",
     "C": "make room for large factories in the center of the city",
-    "D": "bring back the narrow streets of the Middle Ages"
+    "D": "carry new railway lines through the center of the city"
    },
    "answer": "A",
    "explanation": "The new boulevards let traffic, light, and fresh air into the city. They also let troops move quickly. And they made it harder for rebels to build barricades, as Parisians had done in 1830 and 1848.",
    "whyNot": {
-    "B": "Paris was protected by forts around the city. The new boulevards opened neighborhoods up rather than walling them off.",
-    "C": "Haussmann's projects moved factories and poorer workers toward the edges of the city.",
-    "D": "Haussmann tore down many narrow medieval streets to build the boulevards."
+    "B": "The new apartment buildings had high rents. Many poorer families were pushed out toward the edges of Paris.",
+    "C": "Haussmann's projects moved factories and workshops out toward the edges of the city.",
+    "D": "Paris's railway lines ended at large stations around the edge of the old center. Trains did not run along the new boulevards."
    },
    "hint": "Think about what had happened in Paris streets in 1830 and 1848.",
    "reasoning": "Causation"
@@ -2460,7 +2464,7 @@
    "set": "P16",
    "topic": "6.4",
    "lo": "E",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "The couple in the foreground most likely belonged to which of the following groups?",
    "options": {
@@ -2472,8 +2476,8 @@
    "answer": "B",
    "explanation": "The man's top hat and the woman's fur-trimmed dress and pearl earrings show that the couple is well off. They belong to the middle class, or bourgeoisie. Many such families lived in the new apartment buildings along Haussmann's boulevards.",
    "whyNot": {
-    "A": "Factory workers could not afford top hats, fur trim, and pearl earrings. Most lived in poorer areas at the edge of Paris.",
-    "C": "Artisans worked with their hands in workshops and dressed more plainly than the couple shown.",
+    "A": "The top hat, fur trim, and pearl earrings point to a well-off family, not factory workers. Most factory workers lived in poorer areas at the edge of Paris.",
+    "C": "Some skilled artisans owned good clothes. But the couple's fine clothes, jewelry, and stroll through a new district of Paris point to the well-off bourgeoisie.",
     "D": "Peasants who moved to Paris usually found low-paid jobs and lived in crowded housing."
    },
    "hint": "Look at the clothing and jewelry. Who could afford them?"
@@ -2525,11 +2529,11 @@
     "answer": "B",
     "rationales": {
      "A": "Incorrect. Taine calls the owners \"the generals and governors of human industry.\" Factory owners grew richer and more powerful in this period, not weaker.",
-     "B": "Correct. Taine shows thousands of workers who live in \"hovels\" and owners who live like \"a minor prince.\" Industry created these two classes.",
+     "B": "Correct. Taine contrasts workers who go home to \"hovels\" with business owners whose lives are like those of \"a minor prince.\"",
      "C": "Incorrect. Britain's mills were privately owned, as the \"heads of these manufacturing or commercial houses\" show.",
      "D": "Incorrect. Taine sees \"men, women, and children\" leaving the mills. Laws limited children's hours, but child labor did not end."
     },
-    "explanation": "Industry split society into two new classes. The working class, or proletariat, ran the machines. The middle class, or bourgeoisie, owned the factories and trading firms. Taine contrasts the workers' \"pinched and gloomy\" faces with the owners' princely power.",
+    "explanation": "Industry made the working class much larger. It also made factory owners and merchants richer and more powerful. Taine contrasts the workers' \"pinched and gloomy\" faces with the owners' princely power. Other groups, such as landowners, shopkeepers, and doctors and lawyers, still mattered too.",
     "reasoning": "Comparison"
    },
    {
@@ -2591,15 +2595,15 @@
     "options": {
      "A": "Manufacturers' growing power in Parliament after the 1832 Reform Act",
      "B": "Napoleon's efforts to keep British goods out of continental Europe",
-     "C": "The rise of socialist parties that demanded public ownership of land",
-     "D": "The British government's decision to build and run the nation's railways"
+     "C": "The Chartist campaign for universal male suffrage in Britain",
+     "D": "Reformers' campaigns to keep women and young children out of the coal mines"
     },
     "answer": "A",
     "rationales": {
      "A": "Correct. The Reform Act of 1832 gave seats to industrial towns. Manufacturers such as Cobden used their new voice to challenge the landowners who had long controlled Parliament.",
      "B": "Incorrect. Napoleon's Continental System ended when he was defeated in 1814–1815. That was decades before this debate.",
-     "C": "Incorrect. Mass socialist parties appeared in the 1870s and later. The debate in the 1840s was between free-trade liberals and protectionist landowners.",
-     "D": "Incorrect. Private companies built Britain's railways. The state did not build or run them."
+     "C": "Incorrect. The Chartists wanted the vote for all men. But neither speaker talks about who should vote. They argue about taxes on grain brought in from abroad.",
+     "D": "Incorrect. Reformers won the Mines Act of 1842 to protect women and children. These sources debate the Corn Laws, not working conditions."
     },
     "explanation": "By the 1840s, men of trade and industry had a voice in Parliament. They clashed with the landowning aristocracy. The repeal of the Corn Laws in 1846 showed how much power manufacturers had gained."
    },
@@ -2608,7 +2612,7 @@
     "set": "X2",
     "topic": "6.7",
     "lo": "H",
-    "skill": "1.B",
+    "skill": "1.A",
     "difficulty": "medium",
     "stem": "Cobden's argument in Source 1 most directly reflects which of the following ideologies?",
     "options": {
@@ -2659,16 +2663,16 @@
     "difficulty": "medium",
     "stem": "The painting is best understood in the context of which of the following?",
     "options": {
-     "A": "Prussia's withdrawal from the Zollverein, which cut its factories off from German markets",
+     "A": "Skilled craftworkers' efforts to keep production in small, hand-run workshops",
      "B": "The Continental System's encouragement of factories in Napoleon's empire",
-     "C": "The emancipation of the serfs, which created a factory labor force in Russia",
+     "C": "Prussian landowners' efforts to sell more of their estates' grain in western Europe",
      "D": "Prussia's rapid industrial growth, which helped it lead the unification of Germany"
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. Prussia founded and led the Zollverein and never left it. Austria was the great German state that stayed outside it.",
+     "A": "Incorrect. The painting shows a huge mill full of heavy machines and many workers. Factories like this were taking the place of small craft workshops.",
      "B": "Incorrect. The Continental System lasted from 1806 to 1814. Menzel painted this mill in the 1870s.",
-     "C": "Incorrect. Russia freed its serfs in 1861, but the painting shows an ironworks in Prussia, not Russia.",
+     "C": "Incorrect. Landowners in eastern Prussia had long sold grain abroad. But the painting shows an ironworks, not farming.",
      "D": "Correct. Prussia's coal, iron, and railways made it the strongest German state. Menzel painted a huge ironworks in Prussian Silesia just after Germany was united under Prussia in 1871."
     },
     "explanation": "Industry in Prussia grew fast after 1850. The Zollverein, state money for railways, and rich coal fields in the Ruhr and Silesia all helped. This strength helped Prussia unite Germany, and industry in the new German Empire kept growing fast."
@@ -2706,19 +2710,19 @@
     "difficulty": "medium",
     "stem": "Which conclusion about the period 1840–1860 is best supported by the data?",
     "options": {
-     "A": "Railways spread first in the northwest, while the south and east lagged behind.",
+     "A": "Railways spread earlier in the northwest, while the south and east lagged behind.",
      "B": "Russia's huge size let it build more miles of railway than any other country.",
-     "C": "France built railways faster than the United Kingdom because its government built and ran the lines.",
+     "C": "France added more miles of railway than the United Kingdom because its government built and ran the lines.",
      "D": "Spain and Italy began building railways as early as the United Kingdom did."
     },
     "answer": "A",
     "rationales": {
      "A": "Correct. In 1840 the United Kingdom had 838 miles and tiny Belgium had 210, while Italy had 13, Russia 16, and Spain none listed. By 1860 the United Kingdom had 10,430 miles, Germany 6,980, and France 5,880. Russia, Spain, and Italy each had only about 1,000.",
      "B": "Incorrect. Russia had only 990 miles in 1860, less than one-tenth of the United Kingdom's 10,430.",
-     "C": "Incorrect. The United Kingdom added far more miles than France (about 9,600 compared with about 5,500). France also relied on private companies working with the state.",
+     "C": "Incorrect. The United Kingdom added about 9,600 miles, compared with about 5,500 in France. Also, private companies ran France's lines, working with the state.",
      "D": "Incorrect. In 1840 Italy had only 13 miles and Spain none listed, compared with 838 in the United Kingdom."
     },
-    "explanation": "The table shows railways spreading unevenly. Britain, Belgium, France, and the German states started early. Russia, Spain, and Italy had few railways until after 1860.",
+    "explanation": "The table shows railways spreading unevenly. By 1840 Britain, Belgium, France, and the German states already had hundreds of miles of track, while Italy, Russia, and Spain had almost none. In 1860 Russia, Spain, and Italy still had only about 1,000 miles each.",
     "reasoning": "Comparison"
    },
    {
@@ -2761,7 +2765,7 @@
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. The Zollverein was never ended. It grew until the German Empire took it over in 1871, and its free trade among the states encouraged railway building.",
+     "A": "Incorrect. The Zollverein did not end in this period. It kept growing until the German Empire took over customs in 1871, and its free trade among the states encouraged railway building.",
      "B": "Incorrect. Germany's first colonies came in 1884, after most of this growth. The table counts railways in Europe.",
      "C": "Incorrect. France occupied the Ruhr only in 1923, long after this period.",
      "D": "Correct. German states built and backed railways, and Prussia took over most private lines after 1879. By 1880 Germany had more miles of railway than the United Kingdom."
@@ -2867,7 +2871,7 @@
     "set": "X6",
     "topic": "6.7",
     "lo": "H",
-    "skill": "1.B",
+    "skill": "1.A",
     "difficulty": "medium",
     "stem": "Which of the following thinkers would Engels most likely have classified among the \"Utopians\"?",
     "options": {
@@ -2878,12 +2882,12 @@
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Fourier, like Henri de Saint-Simon and Robert Owen, designed ideal communities based on reason and justice. In this pamphlet Engels discusses these three as the leading Utopians.",
+     "A": "Correct. Fourier planned model communities based on reason and justice. In this pamphlet Engels discusses him, Henri de Saint-Simon, and Robert Owen as the leading Utopians.",
      "B": "Incorrect. Bakunin was an anarchist who opposed all government. Marx and Engels fought with him in the First International around 1870, but over the state, not over plans for ideal communities.",
      "C": "Incorrect. Mill was a liberal thinker. He was not a socialist who planned ideal communities.",
      "D": "Incorrect. List was an economist. He wanted tariffs to protect and build German industry."
     },
-    "explanation": "In the early 1800s, utopian socialists such as Saint-Simon, Fourier, and Owen criticized industrial society. They designed model communities. Engels argued that they did not understand history and class in a scientific way."
+    "explanation": "Engels named Saint-Simon, Fourier, and Owen as the leading utopian socialists. In the early 1800s they attacked the new industrial society and planned a better one. Fourier and Owen designed model communities. Engels said their plans rested on reason and justice, not on a scientific study of history and class."
    },
    {
     "id": "E6-E18",
@@ -3046,7 +3050,7 @@
     "rationales": {
      "A": "Incorrect. The June Days were a fight between Paris workers and the republic's government. It was a class conflict, not a nationalist movement.",
      "B": "Correct. Hungarian nationalists wanted their own government within, and later outside, the Habsburg empire. They fought until Russian troops helped Austria defeat them in 1849.",
-     "C": "Incorrect. The Chartists wanted democratic reform in Britain. Seignobos says the movement of 1848 did not reach England.",
+     "C": "Incorrect. The Chartists wanted the vote for all men in Britain. They were not fighting for national independence or national unity.",
      "D": "Incorrect. Louis Napoleon was elected in France. His election was not a nationalist uprising."
     },
     "explanation": "In 1848 Hungarians, Italians, Czechs, and Germans wanted to rule themselves or to unite their nations. Kossuth led the Hungarian revolt against the Habsburgs, who ruled Austria."

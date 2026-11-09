@@ -1,0 +1,255 @@
+ChatGPT Pro review of Unit 8 bank (tab "AP Euro Review Findings", https://chatgpt.com/c/6af144ad-815c-83e9-8f80-7ae1d3992075), read 2026-11-08 via get_page_text. Reviewed export: CHATGPT_CHECK_U8_bank.md for v2026-11-09b.
+
+I reviewed all 73 items, all 25 source sets, and the accompanying glossaries, explanations, rationales, hints, and source notes against the Fall 2026 framework. I found no clearly incorrect answer letter. The corrections below preserve the existing keys. Apply repeated wording corrections in the source notes as well.
+
+MUST-FIX
+1. E8-P01 — incorrect description of Marxist explanations of war
+The why-not C conflates domestic class conflict with Marxist explanations of imperialist war. Replace it with:
+Why not C: This choice describes conflict between social classes within a country. Dickinson instead explains war through relations among armed states.
+Lenin's account emphasized competition among imperial powers over colonies and economic influence. [marxists.org]
+
+2. E8-P05 — cavalry did not become categorically "useless"
+Replace why-not B:
+Why not B: Machine guns, artillery, trenches, and barbed wire sharply limited cavalry charges on the Western Front. Cavalry still had some uses, but mass firepower dominated the fighting Jünger describes.
+Mounted cavalry still contributed to fighting in 1918, including at Moreuil Wood. [National Army Museum]
+
+3. Source P3 / E8-P08 — incorrect interception date in the source notes
+The notes combine interception and scuttling on April 22. Replace that sentence:
+The German arms ship Libau, disguised as the Norwegian Aud, was intercepted by the Royal Navy on April 21, 1916, and scuttled by its crew on April 22.
+The student-facing P08 explanation does not need this correction. [corkcoco.ie +1]
+
+4. E8-P18 — mandates did not all receive the same promise of independence
+Replace the explanation:
+The mandate system placed former German colonies and some former Ottoman lands under other powers' control. Its rules claimed these peoples needed outside guidance. The rules differed by territory; they did not promise all mandates the same path to independence.
+Article 22 distinguished between territories provisionally recognized as independent and territories administered under much tighter foreign control. [avalon.law.yale.edu]
+
+5. Source P8 / E8-P22–E8-P24 — confidence vote confused with full-powers vote
+Replace the source-note sentence assigning full powers on November 17:
+The Chamber voted confidence in Mussolini's government on November 17, 1922, and approved the full-powers bill on November 25. It became law on December 3, 1922.
+The student-facing P22 explanation's "Parliament soon let…" is acceptable. [St. Louis Fed +2]
+
+6. E8-P29 — the rebuttal incorrectly dismisses American aid during the 1920s
+Large American famine-relief operations reached Soviet Russia in 1921–1923. Replace why-not B:
+Why not B: Large-scale Allied military aid to the Soviet Union came during the Second World War. American famine relief did reach Soviet Russia in 1921–1923, but the policy behind the recovery shown was the NEP. [guides.hoover.org]
+
+7. E8-P34 and E8-E20 — specify whom the Nazi marriage restrictions targeted
+"Between Jews and other Germans" is broader than the law's actual classification and obscures its racist basis.
+E8-P34: Replace the marriage sentence:
+They banned new marriages between Jews and people the Nazis classified as being of "German or kindred blood."
+E8-E20: Replace rationale B:
+B: Incorrect. The Nuremberg Laws stripped Jews of full Reich citizenship and banned marriages between Jews and people classified as being of "German or related blood." They did not order the mass deportations and killings described here. [Office of the Historian]
+
+8. E8-P35 — the law was not limited to conduct inside Germany
+The why-not A is too categorical: the marriage law expressly invalidated marriages contracted abroad to evade it. The cleanest repair is to replace that distractor and its feedback:
+(A) made a person's birthplace the main test of whether that person was Jewish
+Why not A: The law classified people mainly by their grandparents, not their birthplace.
+Key remains C. [Holocaust Encyclopedia]
+
+9. E8-P36 — Nazi persecution was violent before 1935
+"Persecution had moved from laws to open violence" and the hint's "turning violent" imply an inaccurate starting point. Kristallnacht was an escalation.
+Replace the explanation:
+On November 9–10, 1938, Nazi leaders organized attacks on Jews, their homes, businesses, and synagogues across Germany and its annexed territories. Hundreds of Jews died during the violence and its aftermath. About 26,000 Jewish men were imprisoned in concentration camps. This greatly escalated persecution that already included discriminatory laws and physical violence.
+Replace the hint:
+Which event after 1935 shows a major escalation of organized violence against Jews?
+These figures follow the current US Holocaust Memorial Museum account; the older "at least 91" figure should not serve as the principal account of the death toll. [Holocaust Encyclopedia]
+
+10. E8-P38 and E8-P41 — distinguish official non-intervention from complete compliance
+France permitted some assistance to the Spanish Republic. P38's keyed wording therefore overstates actual conduct.
+E8-P38, replace A:
+(A) adopting an official policy of non-intervention and supporting an arms embargo
+Replace the explanation:
+Britain and France feared a wider European war and promoted non-intervention in 1936. France nevertheless permitted some aid to reach the Republic. Germany and Italy repeatedly violated the agreement by helping Franco, whose forces won in 1939.
+Replace P38's why-not D and P41's why-not A:
+Britain and France did not form a military alliance with the Soviet Union in Spain. The Soviet Union supplied weapons and advisers to the Republic.
+This also removes the misleading "on its own." [Office of the Historian +1]
+
+11. E8-E08 — rationale C conflates the two Balkan Wars
+Replace rationale C:
+C: Incorrect. In the First Balkan War of 1912–1913, Serbia, Bulgaria, Greece, and Montenegro fought the Ottoman Empire. In the Second Balkan War, Bulgaria fought its former allies and was also attacked by Romania and the Ottoman Empire. Neither was the Arab Revolt. [Office of the Historian +1]
+
+12. Source X7 / E8-E19–E8-E21 — two editorial corrections
+Replace the glossary entry for "ghettoes":
+ghettoes = areas of towns or cities where German authorities and their allies forced Jews to live apart from the rest of the population under harsh restrictions
+Some ghettos were physically enclosed; others were not. [Holocaust Encyclopedia]
+Replace footnote *:
+In January 1942, 26 Allied governments adopted the Declaration by United Nations. The United Nations organization that exists today was founded in 1945.
+The existing wording can imply that every signatory was already fighting Germany, Italy and Japan. [United Nations]
+
+13. E8-E20 — ghetto chronology and an unmarked Nazi euphemism
+The explanation makes the liquidation of Polish ghettos sound completed in 1942. Replace it:
+In 1942, Nazi Germany greatly expanded deportations from ghettos in occupied Poland to killing centers. These deportations continued after 1942. Nazi Germany and its collaborators murdered about six million Jews in the Holocaust. They also persecuted and murdered Roma, people with disabilities, and other targeted groups.
+Most ghettos were destroyed in 1942–1943; the Łódź ghetto survived until 1944. [Holocaust Encyclopedia]
+Replace option D and its rationale:
+(D) The Nazis' so-called "euthanasia" program, Aktion T4
+D: Incorrect. Aktion T4 targeted people with disabilities for murder. "Euthanasia" was the Nazis' misleading name for this program. The declaration concerns the mass murder of Europe's Jews. [Holocaust Encyclopedia]
+
+14. E8-E21 — misleading statement about Soviet entry into Poland
+"The Soviet army reached eastern Poland only in 1944" overlooks the Soviet invasion in 1939. If retaining the existing item, replace rationale A:
+A: Incorrect. There was no British-American invasion of Poland in 1943. Soviet forces had invaded eastern Poland in 1939; they advanced into the region again while fighting Germany in 1944.
+The sourcing rewrite under SHOULD-FIX below removes this problematic rationale entirely. [Holocaust Encyclopedia +1]
+
+15. Source X9 / E8-E25 — distinguish Halévy's interpretation from established chronology
+Preserve the authentic quotation, but do not present its compressed chronology as an uncontested factual account.
+Add after the attribution and in the source notes:
+Historical note: Halévy presents his own interpretation of the postwar crisis. Italy's mass factory occupations peaked in September 1920. The Treaty of Lausanne, signed in July 1923, later replaced the Treaty of Sèvres.
+Replace E8-E25's explanation:
+Halévy describes Italy's unrest as a failed Communist revolution. During the strikes and factory occupations of 1919–1920, many landowners and factory owners feared a socialist revolution. Their support for fascist violence helped Mussolini gain power in 1922. [assets.cambridge.org +1]
+
+SHOULD-FIX
+Short wording and explanation repairs (Item | Problem | Exact replacement)
+E8-P06 | Communist internationalism is presented too categorically for the entire interwar period. | Why not B: "Communists stressed class struggle and condemned the First World War as an imperialist war. The passage instead celebrates the nation and wartime sacrifice, themes central to fascism."
+E8-P09 | Age alone does not explain the restricted British franchise. | Why not D: "In 1918, Britain gave the parliamentary vote to some women aged thirty and older who met additional qualifications. Women gained the vote on the same terms as men in 1928."
+E8-P11 | Private discussion does not guarantee frankness or truthfulness. | Explanation: "The notes record concerns that senior officials raised in private before the revolution. They help show what the government feared, although the ministers could still exaggerate problems or defend their own work."
+E8-P15; E8-P29 | Distinguish the introduction of Stolypin's measures from their continued implementation after 1911. | P15, why not C: "Stolypin began his reforms in 1906, before the revolution. They helped some peasants establish private farms." P29, why not D: "Stolypin began his land reforms in 1906, under the tsar. They did not cause the Soviet recovery of the 1920s."
+E8-P27 | The 1930 speech alone does not show that Mosley rejected democracy; the intended inference depends on his later biography. | Stem: "Mosley's founding of the British Union of Fascists in 1932, following the frustrations expressed in this speech, best illustrates which broader development of the 1930s?"
+E8-P33 | "Any means" caricatures Machiavelli's argument. | Why not D: "Machiavelli argued that rulers might need to break ordinary moral rules to preserve their state. He did not present individual rights as firm limits on a ruler's power."
+E8-P39 | The Maginot Line is a fortification; the other options are campaigns or operations. | D: "The Battle of El Alamein." Why not D: "El Alamein was mainly a land battle in North Africa, not a sustained bombing campaign against cities."
+E8-P45 | Soviet losses themselves are presented as the mechanism of victory; American entry against Germany is blurred with Pearl Harbor. | Explanation: "Germany invaded the Soviet Union in June 1941. After Japan attacked Pearl Harbor in December, Germany declared war on the United States on December 11. American production and military forces strengthened the Allies. Soviet forces defeated large German armies while suffering immense losses."
+E8-E23 | Enlightenment thinkers are treated as uniformly believing in inevitable progress. | Explanation: "Many Enlightenment thinkers argued that reason and science could improve society. Valéry questions that confidence after seeing science used for mass killing in the First World War." Rationale C: "Many Enlightenment thinkers saw reason and science as tools for human progress. Valéry questions that faith after the war."
+The franchise qualifications, continued implementation of Stolypin's reforms, Machiavelli's qualifications, and December 11 declaration are supported by the corresponding institutional or primary sources. [UK Parliament +3]
+
+E8-P03 — all distractors are eliminated by the attribution date
+Keep A. Replace B–D and their feedback:
+B: "the campaign to restore hereditary monarchs in the states created after the war"
+Why not B: "Dickinson discusses relations among states, not restoring royal families."
+C: "the effort to justify colonial expansion as a way to preserve peace in Europe"
+Why not C: "The excerpt does not defend colonial expansion as a way to prevent war."
+D: "the attempt to prove that stronger national armies could prevent future wars"
+Why not D: "Dickinson argues that a system of armed states makes war more likely."
+Replace hint: "What does Dickinson think must change if countries are to avoid another war?"
+
+E8-P13 — the attribution directly states the answer
+In Source P5.1's attribution, replace the opening description with:
+Decree on Peace, adopted by the Second All-Russian Congress of Soviets, November 8, 1917
+Retain the existing translation credit. This removes "the day after the Bolsheviks took power," which directly supplies D.
+Also replace the unnecessarily categorical civil-war timing in the feedback:
+Why not B: The decrees announced policies immediately after the Bolshevik takeover, before the main civil-war fighting.
+Why not C: Lenin began the New Economic Policy in 1921, several years after these decrees.
+
+E8-P24 — anachronistic and implausible distractors
+Replace all options:
+A. A successful socialist revolution that abolished Italy's monarchy
+B. A Fascist election victory that gave the party a parliamentary majority
+C. Support from liberal leaders for replacing the king with a republic
+D. Fear of socialism and resentment over the postwar peace settlement
+Replace the incorrect-answer feedback:
+A: Italy's monarchy remained in place, and fear of a socialist revolution helped the Fascists.
+B: The Fascists lacked a parliamentary majority when the king appointed Mussolini prime minister.
+C: Mussolini became prime minister under the monarchy; replacing the king with a republic did not bring him to power.
+
+E8-P28 — D announces its own chronological impossibility
+Replace:
+D. The payment of large war reparations to Britain and France
+Why not D: The Bolshevik government did not pay war reparations to Britain and France after the First World War.
+
+E8-P30 — the source note directly eliminates most distractors
+For the intended sourcing task, replace the stem and options:
+Stem: Which limitation most directly prevents the table from showing how Stalin's policies affected Soviet peasants?
+A. It was compiled by later historians who did not witness Stalin's rule.
+B. It compares countries with different forms of government.
+C. It gives national averages rather than peasants' food supplies, incomes, and death rates.
+D. It lists selected years rather than every year of Stalin's rule.
+Replace the why-not lines:
+A: Later historians can use evidence from the period to produce useful estimates.
+B: Different political systems do not prevent comparison of economic output.
+D: Missing years limit detail, but the larger problem is the lack of information specifically about peasants.
+
+E8-P37 — the question mostly matches "Spain" to "Spanish"
+Replace the item's substantive wording:
+Stem: Foreign military involvement in the conflict shown in the photograph best illustrates which development of the 1930s?
+A. Fascist powers used foreign civil wars to extend their influence.
+B. The League of Nations sent troops to defend elected governments.
+C. Britain, France, and the Soviet Union formed a military alliance against Germany.
+D. Fascist and communist governments cooperated to overthrow liberal governments.
+Explanation: Germany and Italy supplied Franco's forces with aircraft, troops, and weapons. Their intervention helped his revolt against Spain's elected government. German and Italian aircraft bombed Guernica in April 1937.
+Why not B: The League did not send an army to defend the Spanish Republic.
+Why not C: Britain and France officially supported non-intervention; the Soviet Union aided the Republic.
+Why not D: Germany and Italy supported Franco, while the Soviet Union supported the opposing Republic.
+Hint: Which foreign governments helped Franco, and what did they hope to gain? [Holocaust Encyclopedia]
+
+E8-E05 — distractors do not require assessing the order
+Replace the options:
+A. the transfer of military authority from the Soviet to the Duma
+B. the restoration of officers' control over soldiers' political activity
+C. the immediate withdrawal of Russia from the First World War
+D. the weakening of the Provisional Government's control over the army
+Replace the explanation:
+Order No. 1 told Petrograd soldiers not to follow the Duma's military commission when its orders conflicted with Soviet decisions. This divided military authority and weakened the Provisional Government.
+Replace rationales A–C:
+A: The order gave Soviet decisions priority when orders conflicted.
+B: It gave soldiers political rights and placed weapons under elected committees.
+C: Russia remained in the war under the Provisional Government.
+
+E8-E14 — two distractors are particularly implausible
+Replace A and D:
+A. Parliament guaranteed women equal access to skilled industrial apprenticeships.
+D. Parliament required equal pay for women and men in industrial jobs.
+Replace their rationales:
+A: Wartime employment did not produce a general legal guarantee of equal access to skilled apprenticeships.
+D: Women did not gain a general legal right to equal pay after the First World War.
+Replace rationale C:
+C: In 1918, most men could vote from age twenty-one, while women had to be at least thirty and meet additional qualifications. Equal voting terms came in 1928. [UK Parliament]
+
+E8-E17 — only the correct option occurs after the speech
+Make all four developments later than October 1938:
+A. The signing of the German–Soviet Nonaggression Pact in August 1939
+B. The German occupation of Prague in March 1939
+C. The Italian invasion of Albania in April 1939
+D. The German annexation of Memel in March 1939
+Replace rationales A, C, and D:
+A: The pact did not itself bring the remaining Czech lands under German rule.
+C: Italy's invasion affected Albania, not the Czechoslovak state in Churchill's prediction.
+D: Memel was taken from Lithuania, not Czechoslovakia.
+
+E8-E19 — weak distractors reduce the task to recognizing "exterminate"
+Replace the options:
+A. German persecution of Jews was chiefly a response to armed resistance in occupied Europe.
+B. German deportations of Jews chiefly served a temporary need for industrial workers.
+C. German authorities were carrying out a policy of murdering Europe's Jewish population.
+D. German actions against Jews resulted mainly from local decisions without direction from national leaders.
+Replace the rationales:
+A: The declaration describes deliberate murder of civilians, not a response to armed resistance.
+B: It describes forced labor as part of a wider policy of mass murder.
+C: The declaration identifies a deliberate policy to murder Europe's Jews.
+D: It links the killings to Hitler's aims and German authorities.
+
+E8-E21 — rewrite to assess the stated sourcing skill
+The existing question asks about rescue policy, not the usefulness or limits of a source. This replacement retains Skill 2.C and key B while removing the faulty Poland rationale:
+Stem: Which limitation should a historian consider when using Eden's final answer to judge Allied rescue efforts?
+A. It reports neutral states' positions rather than Allied governments' positions.
+B. It states official aims and obstacles without showing which rescue measures officials carried out.
+C. It predates Allied governments' receipt of reports that Jews were being murdered across occupied Europe.
+D. It records refugees' personal experiences rather than a government's position.
+Explanation: Eden says what Britain hoped to do and names obstacles. His answer does not show which rescue measures the Allies carried out. A historian would need records of their actions as well as their public statements.
+A: Eden speaks as Britain's foreign secretary, not for neutral states.
+B: A public statement of aims does not establish what officials actually did.
+C: The declaration itself says that Allied governments had received reports of mass murder.
+D: Eden presents a government position, not refugees' personal accounts.
+
+E8-E25 — two distractors predate the relevant events by years or decades
+Keep A; replace B–D:
+B. the establishment of a workers' government under the Socialist Party
+C. the formation of a lasting coalition between Socialists and Fascists
+D. the adoption of a republican constitution that removed the monarchy
+Replace their rationales:
+B: Workers' protests did not produce a Socialist government; fear of revolution helped fascists gain support.
+C: Fascist squads attacked Socialist organizations rather than forming a lasting governing alliance with them.
+D: Italy remained a monarchy when the king appointed Mussolini prime minister in 1922.
+Use the corrected explanation in MUST-FIX 15.
+
+Skill, topic, and reasoning tags
+These replacements better match the task students actually perform. Topic 8.7/LO J addresses the political and diplomatic causes of World War II; Topic 8.8/LO K emphasizes its conduct, technology, and Allied victory. [apcentral.collegeboard.org]
+E8-P05; E8-P43 -> Skill 1.A
+E8-P13, retaining its original question -> Skill 4.A
+E8-P28 -> Skill 5.B
+E8-P36 -> Skill 5.B · Continuity and Change
+E8-P39 -> Skill 5.A · Comparison
+E8-P42; E8-E18 -> Topic 8.7 · LO J
+E8-E01 -> Topic 8.2 · LO B · Skill 1.A · Causation
+E8-E04 -> Skill 4.A
+E8-E23 -> Comparison
+
+E8-E01–E8-E25 — distinguish supported practice from exam simulation
+The full instructional glossaries add assistance beyond the source-centered exam format. For the timed mode, retain brief notes needed to understand unfamiliar historical wording, and move the full teaching glossaries to the results screen.
+Replacement heading on that screen: Vocabulary review — available after submitting the exam
+Keep the existing 25-question, 25-minute timing; it matches the actual multiple-choice section's one-minute-per-question pace. [College Board]

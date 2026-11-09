@@ -4,7 +4,7 @@
  "period": "c. 1914–1945",
  "examWeighting": "10–15%",
  "blurb": "The causes and course of the First World War, the Russian Revolution, the peace settlement, the Great Depression, fascism and Stalin's Soviet Union, appeasement, the Second World War, the Holocaust, and the doubts about reason and progress that followed.",
- "version": "2026-11-09b",
+ "version": "2026-11-09c",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 8: Learning Objectives A-N). Exam sets have 2-4 questions, as on the AP exam.",
  "topics": [
   {
@@ -401,7 +401,7 @@
    "footnotes": [
     {
      "mark": "*",
-     "text": "In January 1942 the countries at war with Germany, Italy, and Japan signed a declaration that called them the \"United Nations.\" The United Nations organization that exists today was founded in 1945."
+     "text": "On January 1, 1942, 26 Allied governments signed a declaration that called them the \"United Nations.\" The United Nations organization that exists today was founded in 1945."
     },
     {
      "mark": "**",
@@ -423,7 +423,7 @@
     },
     {
      "t": "ghettoes",
-     "d": "closed-off parts of cities where the Nazis forced Jews to live"
+     "d": "parts of towns or cities where German authorities forced Jews to live apart from other people, under harsh rules"
     },
     {
      "t": "the infirm",
@@ -480,10 +480,16 @@
    "type": "passage",
    "paragraphs": [
     "… And there is this to be said in favour of the Socialists who helped to fight the battles of their respective countries, that some measure of Socialism permeated the policy of all the belligerent countries. Their Governments everywhere found it necessary to bring under control all means of communication and transport, all imports and exports, the mines, and whatever branches of production were necessary for the feeding, clothing, and arming of their armies. Moreover, in order to conciliate the working classes, they took the trade union secretaries into their confidence, and ran the whole of the controlled industries in full and explicit agreement with the workmen's organizations. …",
-    "… Perhaps, it may be said that the world-crisis did not really begin in 1914 and come to an end in 1918. It began in October 1912, with the first Balkan War; it came to an end only in August 1920, when the last of the post-war treaties was signed at Sevres, when the Bolshevik army was defeated in Poland, when an attempt at a Communist revolution in Italy proved abortive, and the rise of Fascism began. Throughout, it had been a war of nationalities; and the Russian Revolution had acted as a solvent of imperialism for the benefit, not so much of Communism, or even of Socialism, as of nationality. …"
+    "… Perhaps, it may be said that the world-crisis did not really begin in 1914 and come to an end in 1918. It began in October 1912, with the first Balkan War; it came to an end only in August 1920, when the last of the post-war treaties was signed at Sevres, when the Bolshevik army was defeated in Poland, when an attempt at a Communist revolution in Italy proved abortive*, and the rise of Fascism began. Throughout, it had been a war of nationalities; and the Russian Revolution had acted as a solvent of imperialism for the benefit, not so much of Communism, or even of Socialism, as of nationality. …"
    ],
    "attribution": "Élie Halévy, French historian, The World Crisis of 1914–1918: An Interpretation, lectures given at the University of Oxford in 1929",
    "translation": "Text from the first edition (Oxford: Clarendon Press, 1930), pp. 48, 54–55; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "In late August and September 1920, hundreds of thousands of Italian workers occupied their factories. The occupations ended without a revolution."
+    }
+   ],
    "glossary": [
     {
      "t": "permeated",
@@ -499,7 +505,7 @@
     },
     {
      "t": "Sevres",
-     "d": "Sèvres, near Paris, where the Allies signed a peace treaty with the Ottoman Empire in August 1920"
+     "d": "Sèvres, near Paris, where the Allies signed a peace treaty with the Ottoman Empire in August 1920 (the Treaty of Lausanne replaced it in 1923)"
     },
     {
      "t": "abortive",
@@ -716,7 +722,7 @@
       "The Government means by a just and democratic peace, which is desired by the immense majority of the workers and the labouring classes, exhausted and depleted by the war … immediate peace without annexations (that is to say, without conquest of foreign territory, without forcible annexation of other nationalities), and without indemnities. …",
       "… The Government abolishes secret diplomacy, expressing before the whole country its firm decision to conduct all the negotiations in the light of day before the people …"
      ],
-     "attribution": "Decree on Peace, adopted by the Second All-Russian Congress of Soviets the day after the Bolsheviks took power in Petrograd, November 8, 1917",
+     "attribution": "Decree on Peace, adopted by the Second All-Russian Congress of Soviets, November 8, 1917",
      "translation": "English translation in John Reed, Ten Days That Shook the World (New York: Boni and Liveright, 1919; Project Gutenberg edition); adapted",
      "glossary": [
       {
@@ -1260,7 +1266,7 @@
    "whyNot": {
     "A": "Dickinson blames a whole system of \"armed States,\" not one country. The peace treaty of 1919 put the blame on Germany and its allies.",
     "B": "Dickinson says the opposite. He writes that modern war, \"with all the resources of science,\" threatens \"the continuance of civilization.\"",
-    "C": "That is the Marxist explanation of war. Dickinson blames the \"international anarchy,\" the lack of any authority above the states."
+    "C": "This choice describes conflict between social classes inside a country. Dickinson explains war through relations among armed states and the \"international anarchy,\" the lack of any authority above them."
    },
    "hint": "Find the sentence that begins \"My thesis is.\" What does Dickinson say makes war \"inevitable\"?",
    "reasoning": "Causation"
@@ -1299,16 +1305,16 @@
    "stem": "Dickinson's book is best understood in the context of which of the following?",
    "options": {
     "A": "the effort after the First World War to explain the war's causes and prevent another one",
-    "B": "the effort before 1914 to strengthen the Triple Entente against Germany and its allies",
+    "B": "the effort in the 1920s to return European currencies to the gold standard",
     "C": "the effort during the Great Depression to protect national economies with high tariffs",
-    "D": "the effort during the Second World War to build an alliance against Nazi Germany"
+    "D": "the effort in the 1920s to spread communist revolution from the Soviet Union to other countries"
    },
    "answer": "A",
    "explanation": "Dickinson wrote in 1926 to show that the system of armed states made war certain. In the 1920s many writers and governments asked who was to blame for the war. The League of Nations tried to settle disputes peacefully.",
    "whyNot": {
-    "B": "Dickinson writes about the years before 1914, but he wrote in 1926, after the war. He criticizes the armed alliances of those years.",
+    "B": "Britain went back to the gold standard in 1925, but Dickinson writes about war between armed states, not about money.",
     "C": "The Great Depression began in 1929, three years after this book. Dickinson writes about war, not trade policy.",
-    "D": "The Second World War began in 1939, more than ten years after this book was published."
+    "D": "Soviet leaders did try to spread revolution in the 1920s, but Dickinson blames the system of armed states and calls for the peaceful settlement of disputes, not revolution."
    },
    "hint": "Look at the date of the book and at Dickinson's last sentence. What was he hoping to prevent?",
    "reasoning": "Causation"
@@ -1342,7 +1348,7 @@
    "set": "P2",
    "topic": "8.2",
    "lo": "C",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "Jünger's statement that \"all fine and personal feeling has to yield when machinery gets the upper hand\" refers most directly to which kind of fighting?",
    "options": {
@@ -1354,7 +1360,7 @@
    "answer": "A",
    "explanation": "On the Western Front, soldiers died by the thousands from artillery, machine guns, and poison gas. Barbed wire held them back. Old ideas of personal courage and chivalry seemed to count for little against these machines.",
    "whyNot": {
-    "B": "Cavalry was used early in the war, but machine guns and barbed wire soon made cavalry charges useless on the Western Front.",
+    "B": "Machine guns, artillery, trenches, and barbed wire sharply limited cavalry charges on the Western Front. Cavalry still had some uses, but firepower decided the fighting Jünger describes.",
     "C": "Guerrilla bands fought in some places, such as the Arab Revolt, but Jünger fought in the trenches of the Western Front.",
     "D": "Jünger was an infantry officer, and he writes about \"the field of battle,\" not the sea."
    },
@@ -1378,7 +1384,7 @@
    "explanation": "Fascists glorified war and the nation and said the individual must serve the state. Like Jünger, they praised the soldiers of the First World War as a hardened generation.",
    "whyNot": {
     "A": "Pacifists wanted to end war. Their views were closer to Remarque's than to Jünger's.",
-    "B": "Communists stressed loyalty to the working class across borders, not sacrifice for the Fatherland, and they called the First World War an imperialist war.",
+    "B": "Communists stressed class struggle and called the First World War an imperialist war. Jünger instead praises the nation and sacrifice in war, themes central to fascism.",
     "D": "Liberals defended individual rights. Jünger says the life of an individual \"has no weight\" compared with certain ideals."
    },
    "hint": "Jünger praises sacrifice for the Fatherland and says an individual life \"has no weight.\" Which movement taught that?",
@@ -1450,7 +1456,7 @@
    "whyNot": {
     "A": "In Germany and Austria, women won the vote in November 1918 from the new republics, after the emperors had already lost power.",
     "B": "French women did not win the vote until 1944, many years after British women.",
-    "D": "In 1918 British women could vote only from the age of thirty. Women gained the vote on the same terms as men in 1928."
+    "D": "In 1918 British women could vote only if they were at least thirty and met a property rule. Women gained the vote on the same terms as men in 1928."
    },
    "hint": "Think about the years right after 1914. What happened to women's voting rights across Europe?",
    "reasoning": "Continuity and Change"
@@ -1494,7 +1500,7 @@
     "D": "record what the tsar's own ministers said in private about the dangers the government faced"
    },
    "answer": "D",
-   "explanation": "The notes come from secret meetings. They were not meant for the public, so the ministers spoke frankly. They show that the tsar's own government saw the danger of revolution more than a year before it came.",
+   "explanation": "The notes come from secret meetings that were not meant for the public. They show what the tsar's own ministers feared more than a year before the revolution came. Historians still check them against other sources, because ministers could exaggerate problems or defend their own work.",
    "whyNot": {
     "A": "The notes record the tsar's ministers, not revolutionaries. The ministers wanted to stop the \"revolutionary movement.\"",
     "B": "The notes date from August 1915 and give no strike figures. The revolution came in March 1917.",
@@ -1531,7 +1537,7 @@
    "set": "P5",
    "topic": "8.3",
    "lo": "E",
-   "skill": "4.B",
+   "skill": "4.A",
    "difficulty": "easy",
    "stem": "The two decrees are best understood in the context of which of the following?",
    "options": {
@@ -1544,8 +1550,8 @@
    "explanation": "On November 6–7, 1917, the Bolsheviks overthrew the Provisional Government. On November 8 and 9 the Congress of Soviets passed these decrees. They promised the peace and land that many soldiers and peasants wanted.",
    "whyNot": {
     "A": "The February Revolution of March 1917 created the Provisional Government, which kept Russia in the war.",
-    "B": "The civil war began in 1918, after these decrees were passed.",
-    "C": "Lenin began the New Economic Policy in 1921, after the civil war."
+    "B": "These decrees were passed right after the Bolshevik takeover, before the main fighting of the civil war in 1918–1920.",
+    "C": "Lenin began the New Economic Policy in 1921, more than three years after these decrees."
    },
    "hint": "The first sentence of Source 1 names the event that created this government. What was it?"
   },
@@ -1591,7 +1597,7 @@
    "explanation": "Starting in 1929, Stalin forced peasants into collective farms under state control. Peasants lost control of their land. Those labeled kulaks were arrested, sent away, or killed.",
    "whyNot": {
     "B": "The New Economic Policy (1921) let peasants sell their extra grain. It did not take their land away.",
-    "C": "Stolypin's reforms came in 1906–1911, before the revolution. They helped some peasants own land as private farms.",
+    "C": "Stolypin began his reforms in 1906, before the revolution. They helped some peasants own land as private farms.",
     "D": "Alexander II freed the serfs in 1861, long before these decrees."
    },
    "hint": "Source 2 hands land over to peasants' committees. Which leader later took control of the land away from the peasants?",
@@ -1659,7 +1665,7 @@
     "D": "The Locarno treaties on Germany's western borders"
    },
    "answer": "A",
-   "explanation": "After the war, the League of Nations turned Germany's colonies and the Ottoman Empire's Arab lands into \"mandates.\" Britain, France, and other Allies ruled them. They were to rule only until the people there were judged ready to rule themselves.",
+   "explanation": "After the war, the League of Nations turned Germany's colonies and many of the Ottoman Empire's Arab lands into \"mandates.\" Britain, France, and other Allies ruled them. The League's rules claimed that these peoples needed outside guidance. The rules were not the same everywhere: former Ottoman lands were to be guided toward independence, but most former German colonies were given no such promise.",
    "whyNot": {
     "B": "The Bolsheviks called for peace without annexations and attacked the rule of strong nations over weak ones. They did not claim that colonial peoples needed outside rulers.",
     "C": "Open diplomacy meant ending secret treaties. It had nothing to do with ruling colonies.",
@@ -1796,15 +1802,15 @@
    "options": {
     "A": "the economic crisis that followed the 1929 stock market crash in New York",
     "B": "an alliance with Nazi Germany that supplied him with money and weapons",
-    "C": "the pope's support for a Catholic political party that Mussolini led",
-    "D": "fear of a socialist revolution and anger over Italy's gains from the First World War"
+    "C": "a Fascist election victory that gave the party a majority in parliament",
+    "D": "fear of socialism and anger over the postwar peace settlement"
    },
    "answer": "D",
    "explanation": "After the war, strikes and land seizures made many property owners fear a revolution like Russia's. Many Italians also felt cheated. The peace treaties gave Italy less land than it had been promised. Fascist squads attacked socialists, and Mussolini used this fear and anger to gain power.",
    "whyNot": {
     "A": "The 1929 crash came seven years after Mussolini took power.",
     "B": "Hitler did not come to power until 1933, and Italy and Germany allied only in the late 1930s.",
-    "C": "Mussolini did not lead a Catholic party. He made peace with the pope in the Lateran Accords of 1929, after he was already in power."
+    "C": "The Fascists held only about 35 of the 535 seats in parliament when the king made Mussolini prime minister in 1922. A Fascist-led list won a majority only in 1924, after a new election law."
    },
    "hint": "Think about Italy in 1919–1922. What were property owners afraid of, and why were many nationalists angry?",
    "reasoning": "Causation"
@@ -1863,7 +1869,7 @@
    "lo": "N",
    "skill": "5.B",
    "difficulty": "hard",
-   "stem": "Mosley's frustration with his government's response to unemployment best illustrates which broader development of the 1930s?",
+   "stem": "Mosley's political path after this speech best illustrates which broader development of the 1930s?",
    "options": {
     "A": "Democratic governments ended mass unemployment quickly by returning to laissez-faire policies.",
     "B": "Britain adopted Soviet-style central planning to run its factories and farms.",
@@ -1877,7 +1883,7 @@
     "B": "Britain did not adopt central planning. It took steps such as leaving the gold standard and raising tariffs, but most industry stayed private.",
     "D": "In many countries the opposite happened. In Germany, for example, the Nazi and Communist vote grew as unemployment rose."
    },
-   "hint": "Mosley says \"the first duty of the Government is ... to govern.\" How did some people answer when democracies seemed too slow?",
+   "hint": "Mosley soon left the Labour Party. How did some Europeans react when democracies seemed too slow to end the Depression?",
    "reasoning": "Continuity and Change"
   },
   {
@@ -1885,21 +1891,21 @@
    "set": "P10",
    "topic": "8.3",
    "lo": "E",
-   "skill": "5.A",
+   "skill": "5.B",
    "difficulty": "easy",
    "stem": "The change in the Russia/USSR column between 1913 and 1921 is best explained by which of the following?",
    "options": {
     "A": "War, revolution, and civil war",
     "B": "The Great Depression",
     "C": "Stalin's collectivization of farms",
-    "D": "The German invasion of 1941"
+    "D": "The Russo-Japanese War"
    },
    "answer": "A",
    "explanation": "Russia fought in the First World War and had two revolutions in 1917. Then it fought a civil war until about 1921. Fighting, broken trade, and the Bolsheviks' seizure of grain cut output per person to less than half its 1913 level.",
    "whyNot": {
     "B": "The Great Depression began in 1929. The drop in the table happened between 1913 and 1921.",
     "C": "Collectivization began in 1929, years after 1921.",
-    "D": "Germany invaded the Soviet Union in 1941, twenty years after 1921."
+    "D": "Russia fought Japan in 1904–1905, years before 1913. The drop in the table came after 1913."
    },
    "hint": "What happened in Russia between 1914 and 1921?",
    "reasoning": "Causation"
@@ -1922,8 +1928,8 @@
    "explanation": "In 1921 Lenin replaced the seizure of grain with a tax and allowed some private trade. Farms and small businesses recovered, and by 1928 output per person was close to its 1913 level.",
    "whyNot": {
     "A": "The first Five-Year Plan began in 1928, so it explains the later rise, not the recovery from 1921 to 1928.",
-    "B": "Britain and the United States sent large aid to the Soviet Union during the Second World War, not in the 1920s.",
-    "D": "Stolypin's reforms were carried out between 1906 and 1911, before the war and the revolution."
+    "B": "Britain and the United States sent large military aid to the Soviet Union during the Second World War. American famine relief did reach Soviet Russia in 1921–1923, but the main cause of the recovery shown was Lenin's New Economic Policy.",
+    "D": "Stolypin began his land reforms in 1906, under the tsar. They did not cause the Soviet recovery of the 1920s."
    },
    "hint": "Which policy of the 1920s brought back some free trade in Soviet Russia?",
    "reasoning": "Causation"
@@ -1935,18 +1941,18 @@
    "lo": "I",
    "skill": "2.C",
    "difficulty": "hard",
-   "stem": "A historian studying how Stalin's policies affected Soviet peasants would find the table least useful because it",
+   "stem": "Which limitation most directly prevents the table from showing how Stalin's policies affected Soviet peasants?",
    "options": {
-    "A": "is based on figures that Stalin's officials made up to impress foreigners",
-    "B": "measures factory output but leaves out what farms produced",
-    "C": "gives one average for the whole country and does not show the famine of 1932–1933",
-    "D": "stops before Stalin took control of the Soviet Union"
+    "A": "It was compiled by later historians rather than by people who lived under Stalin.",
+    "B": "It compares countries that had very different kinds of government.",
+    "C": "It gives national averages, not figures on peasants' food, income, or deaths.",
+    "D": "It ends before Stalin took full control of the Soviet Union."
    },
    "answer": "C",
    "explanation": "Average output per person rose under Stalin. But an average hides who paid the price. Forced collectivization helped cause a famine in 1932–1933. It killed millions of people, especially in Ukraine and Kazakhstan.",
    "whyNot": {
-    "A": "The note under the table says the figures are modern estimates by economic historians, not Soviet government claims.",
-    "B": "GDP counts all goods and services, including farm products, as the note under the table explains.",
+    "A": "Later historians can use records from the time to make careful estimates. Who made the table is not what hides the peasants' experience.",
+    "B": "Comparing countries with different governments can still be useful. It does not hide what happened to peasants inside the Soviet Union.",
     "D": "The table includes 1932 and 1937, when Stalin ruled the Soviet Union."
    },
    "hint": "What can a single national average not tell you about different groups of people?"
@@ -2017,7 +2023,7 @@
    "whyNot": {
     "A": "The Carlsbad Decrees of 1819 censored the press and watched the universities in the German states. Like this decree, they limited freedom of expression.",
     "C": "Hobbes argued that people should give nearly all power to a ruler to keep order. That is close to the thinking of this decree.",
-    "D": "Machiavelli advised rulers to use any means to keep power. That fits with this decree more than it contrasts with it."
+    "D": "Machiavelli argued that a ruler might have to break ordinary moral rules to keep his state safe. He did not treat individual rights as firm limits on a ruler's power."
    },
    "hint": "Which document said that people have natural rights, such as liberty and property, that government must protect?",
    "reasoning": "Comparison"
@@ -2037,7 +2043,7 @@
     "D": "excluding Jews from German citizenship because of their ancestry"
    },
    "answer": "D",
-   "explanation": "The Nazis wanted only people of \"German or kindred blood\" to be citizens. These laws took away Jews' citizenship. They banned marriages between Jews and other Germans. They decided who was a Jew mainly by the person's grandparents.",
+   "explanation": "The Nazis wanted only people they classed as being of \"German or kindred blood\" to be citizens. These laws took away Jews' full citizenship and banned new marriages between Jews and those people. They decided who was a Jew mainly by the person's grandparents.",
    "whyNot": {
     "A": "The laws define Jews mainly by their grandparents. A person with three or four Jewish grandparents counted as a Jew even after becoming a Christian.",
     "B": "The regulation says a Jew \"cannot occupy a public office\" and \"has no right to vote.\"",
@@ -2054,7 +2060,7 @@
    "difficulty": "hard",
    "stem": "The definition of a Jew in the last paragraph differed from much earlier anti-Jewish policy in Europe mainly because it",
    "options": {
-    "A": "applied to Jews living in other European countries as well as in Germany",
+    "A": "applied to the Jews of other European countries as well as to those of Germany",
     "B": "allowed Jews to keep the same political rights as other German citizens, such as voting",
     "C": "was based on a person's ancestry rather than on the person's own religious beliefs",
     "D": "was the first law in European history to limit the rights of Jews"
@@ -2062,7 +2068,7 @@
    "answer": "C",
    "explanation": "In earlier centuries, anti-Jewish laws were mostly about religion. A Jew who became a Christian was often accepted. The Nazis claimed that Jews were a separate race. So a person with three Jewish grandparents counted as a Jew, even if that person was a Christian. (Race cannot really be measured. Officials checked whether each grandparent had belonged to a Jewish congregation.) This racial hatred of Jews spread in the late 1800s.",
    "whyNot": {
-    "A": "These were German laws that applied inside Germany. They did not cover other countries in 1935.",
+    "A": "In 1935 these laws covered Germany and Germany's own citizens, not the Jews of other countries. Nazi Germany forced laws like these on other lands only after it began to expand in 1938.",
     "B": "The regulation says a Jew \"has no right to vote\" and \"cannot occupy a public office.\"",
     "D": "Many earlier laws limited Jews' rights. For example, England expelled its Jews in 1290 and Spain in 1492, and Venice forced Jews to live in a ghetto starting in 1516."
    },
@@ -2074,7 +2080,7 @@
    "set": "P12",
    "topic": "8.9",
    "lo": "L",
-   "skill": "3.D",
+   "skill": "5.B",
    "difficulty": "medium",
    "stem": "Which of the following is the best evidence that the policy shown in the laws became more extreme after 1935?",
    "options": {
@@ -2084,13 +2090,13 @@
     "D": "the Beer Hall Putsch in Munich"
    },
    "answer": "B",
-   "explanation": "On November 9–10, 1938, Nazis attacked Jewish homes, shops, and synagogues across Germany. They killed at least 91 Jews and sent about 30,000 Jewish men to concentration camps. Persecution had moved from laws to open violence.",
+   "explanation": "On November 9–10, 1938, Nazis attacked Jewish homes, shops, and synagogues across Germany and the lands it had annexed. Hundreds of Jews died in the violence and its aftermath. About 26,000 Jewish men were sent to concentration camps. Jews had faced beatings and arrests since 1933, but this was a far larger attack, organized across the whole country.",
    "whyNot": {
     "A": "The Nazi boycott of Jewish shops took place on April 1, 1933, before these laws.",
     "C": "The Berlin Olympics took place in 1936. For a few weeks the Nazis hid some signs of persecution from foreign visitors. That was a short pause, not a sign of harsher policy.",
     "D": "The Beer Hall Putsch took place in 1923, ten years before the Nazis took power."
    },
-   "hint": "Two choices came after 1935. Which one shows Nazi persecution turning violent?",
+   "hint": "Two choices came after 1935. Which one made life harsher for German Jews, not easier?",
    "reasoning": "Continuity and Change"
   },
   {
@@ -2099,22 +2105,22 @@
    "topic": "8.6",
    "lo": "H",
    "skill": "4.B",
-   "difficulty": "easy",
-   "stem": "The destruction shown in the photograph is best understood in the context of which of the following?",
+   "difficulty": "medium",
+   "stem": "Foreign involvement in the war in which this destruction took place best illustrates which development of the 1930s?",
    "options": {
-    "A": "The Spanish Civil War",
-    "B": "The Russian Civil War",
-    "C": "The Italian invasion of Ethiopia",
-    "D": "The German invasion of Poland"
+    "A": "Fascist states used the war to aid an ally and test their weapons.",
+    "B": "The League of Nations sent troops to defend a member state.",
+    "C": "The United States joined the fighting to defend European democracy.",
+    "D": "Fascist and communist states worked together to overthrow democracies."
    },
    "answer": "A",
-   "explanation": "The Spanish Civil War began in 1936. Army generals, soon led by Francisco Franco, rose up against Spain's elected government. Germany and Italy sent planes, troops, and weapons to help Franco.",
+   "explanation": "The Spanish Civil War began in 1936, when army generals, soon led by Francisco Franco, rose against Spain's elected government. Germany and Italy sent planes, troops, and weapons to help Franco. In April 1937 German and Italian planes bombed Guernica. Spain became a testing ground for weapons and tactics used in the Second World War.",
    "whyNot": {
-    "B": "The Russian Civil War was fought in Russia from 1918 to about 1921.",
-    "C": "Italy invaded Ethiopia, in East Africa, in 1935.",
-    "D": "Germany invaded Poland in 1939, two years after this photograph."
+    "B": "The League of Nations had no army of its own and sent no troops to Spain. It had also failed to stop Italy's invasion of Ethiopia in 1935.",
+    "C": "The United States stayed out of the war. In 1937 Congress banned American arms sales to both sides in Spain.",
+    "D": "In Spain, fascist and communist states were on opposite sides. Germany and Italy helped Franco, while the Soviet Union aided the Republic."
    },
-   "hint": "Where and when was the photograph taken?"
+   "hint": "Which foreign countries sent planes and troops to help Franco, and what did they gain from it?"
   },
   {
    "id": "E8-P38",
@@ -2125,17 +2131,17 @@
    "difficulty": "medium",
    "stem": "Britain and France responded to the war in which this destruction took place by",
    "options": {
-    "A": "refusing to send weapons or troops to either side",
-    "B": "sending their armies to defend the Spanish Republic",
+    "A": "promising not to send weapons or troops to either side",
+    "B": "sending their own armies to defend the Spanish Republic",
     "C": "joining Germany and Italy in arming Franco's forces",
     "D": "asking the Soviet Union to take control of Spain"
    },
    "answer": "A",
-   "explanation": "Britain and France feared a wider war. In 1936 they set up a non-intervention agreement. Germany and Italy signed it but kept helping Franco, who won in 1939.",
+   "explanation": "Britain and France feared a wider war. In 1936 they set up a non-intervention agreement, in which the European powers promised not to send arms to Spain. Germany and Italy signed it but kept helping Franco, and the Soviet Union aided the Republic. A small amount of French aid also reached the Republic in secret. Franco won in 1939.",
    "whyNot": {
     "B": "Britain and France sent no armies. Some of their citizens went to Spain as volunteers in the International Brigades.",
     "C": "Britain and France did not arm Franco. Germany and Italy did.",
-    "D": "Britain and France distrusted the Soviet Union. The Soviet Union sent some weapons and advisers to the Republic on its own."
+    "D": "Britain and France distrusted the Soviet Union and did not ask it to act in Spain. The Soviet Union sent weapons and advisers to the Republic."
    },
    "hint": "The policy was called non-intervention. What does that word mean?",
    "reasoning": "Causation"
@@ -2145,21 +2151,21 @@
    "set": "P13",
    "topic": "8.8",
    "lo": "K",
-   "skill": "5.B",
+   "skill": "5.A",
    "difficulty": "medium",
    "stem": "The kind of attack that destroyed this town was used on a much larger scale during the Second World War in which of the following?",
    "options": {
     "A": "The Battle of the Atlantic",
     "B": "The Blitz",
     "C": "The Normandy landings",
-    "D": "The Maginot Line"
+    "D": "The Battle of El Alamein"
    },
    "answer": "B",
    "explanation": "German and Italian planes bombed Guernica in April 1937 and destroyed most of the town. In the Blitz of 1940–1941, the German air force bombed London and other British cities night after night.",
    "whyNot": {
     "A": "The Battle of the Atlantic was a struggle between German submarines and Allied ships at sea.",
     "C": "The Normandy landings of June 1944 were an invasion from the sea by Allied soldiers.",
-    "D": "The Maginot Line was a line of French forts along the border with Germany. It was built for defense, not attack."
+    "D": "El Alamein, fought in Egypt in 1942, was mainly a land battle in the desert, not a bombing campaign against cities."
    },
    "hint": "Guernica was destroyed from the air. Which choice was a bombing campaign against cities?",
    "reasoning": "Continuity and Change"
@@ -2204,7 +2210,7 @@
    "answer": "D",
    "explanation": "Stalin was not invited to the Munich conference in 1938. He doubted that Britain and France would fight Hitler. In 1939 talks between the Soviet Union and the Western powers went nowhere. So Stalin made his own deal with Germany.",
    "whyNot": {
-    "A": "Britain and France stayed out of the Spanish Civil War. The Soviet Union helped the Spanish Republic on its own.",
+    "A": "Britain and France did not form a military alliance with the Soviet Union in Spain. The Soviet Union supplied weapons and advisers to the Republic.",
     "B": "The Battle of Stalingrad was fought in 1942–1943, after Germany broke this treaty by invading the Soviet Union.",
     "C": "Lend-Lease aid to the Soviet Union began in 1941, after Germany invaded it."
    },
@@ -2214,8 +2220,8 @@
   {
    "id": "E8-P42",
    "set": "P14",
-   "topic": "8.8",
-   "lo": "K",
+   "topic": "8.7",
+   "lo": "J",
    "skill": "5.B",
    "difficulty": "easy",
    "stem": "Article II of the treaty most directly made possible which of the following?",
@@ -2240,7 +2246,7 @@
    "set": "P15",
    "topic": "8.8",
    "lo": "K",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "Churchill's explanation of why the battle in France was lost best describes which method of war?",
    "options": {
@@ -2297,7 +2303,7 @@
     "D": "The Soviet and American entry into the war against Germany"
    },
    "answer": "D",
-   "explanation": "Germany attacked the Soviet Union in June 1941. Japan bombed Pearl Harbor in December 1941, and the United States joined the war. American factories and the Soviet army's huge losses helped the Allies win.",
+   "explanation": "Germany invaded the Soviet Union in June 1941. Japan attacked Pearl Harbor on December 7, 1941, and four days later Germany declared war on the United States. American factories and troops made the Allies much stronger. The Soviet army defeated huge German armies, though it suffered immense losses.",
    "whyNot": {
     "A": "Italy declared war on Britain and France on June 10, 1940, before this speech. That made Britain's position harder.",
     "B": "France signed an armistice with Germany on June 22, 1940, and a new French government at Vichy worked with the Germans. Losing France as an ally made Britain's position harder.",
@@ -2389,7 +2395,7 @@
     "set": "X1",
     "topic": "8.1",
     "lo": "A",
-    "skill": "4.B",
+    "skill": "1.A",
     "difficulty": "easy",
     "stem": "The crisis that Grey describes began with which of the following?",
     "options": {
@@ -2460,7 +2466,7 @@
     "set": "X2",
     "topic": "8.3",
     "lo": "E",
-    "skill": "4.B",
+    "skill": "4.A",
     "difficulty": "easy",
     "stem": "The order was issued during which of the following?",
     "options": {
@@ -2487,19 +2493,19 @@
     "difficulty": "medium",
     "stem": "The order contributed most directly to which of the following?",
     "options": {
-     "A": "the tsar's decision to take personal command of the army",
-     "B": "Russia's victory in the summer offensive of 1917",
-     "C": "Russia's entry into the war in support of Serbia",
+     "A": "the transfer of military authority in Petrograd from the Soviet to the Duma",
+     "B": "the end of soldiers' committees in the Petrograd garrison",
+     "C": "the immediate withdrawal of Russia from the First World War",
      "D": "the weakening of the Provisional Government's control over the army"
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. Nicholas II took command of the army in 1915, before this order.",
-     "B": "Incorrect. The offensive of July 1917 failed, partly because many soldiers would no longer obey their officers.",
-     "C": "Incorrect. Russia entered the war in 1914, before this order.",
+     "A": "Incorrect. The order says the Duma's military commission was to be obeyed only when its orders did not conflict with the Soviet's. Authority moved toward the Soviet, not the Duma.",
+     "B": "Incorrect. The order did the opposite. It set up elected committees in every unit and put weapons under their control.",
+     "C": "Incorrect. Russia stayed in the war under the Provisional Government. It left the war only in March 1918, when the Bolsheviks signed the Treaty of Brest-Litovsk.",
      "D": "Correct. The order put soldiers under the Soviet and their own committees and kept weapons out of officers' hands. Discipline broke down, and the Provisional Government could not rely on the army."
     },
-    "explanation": "Order No. 1 told soldiers to obey the Duma's commission only if the Soviet agreed. So the Provisional Government did not fully control its own army. This helped the Bolsheviks seize power in November 1917.",
+    "explanation": "Order No. 1 told soldiers to obey the Duma's military commission only when its orders did not conflict with the Soviet's. Officers lost much of their authority, and the Provisional Government could not fully control its own army. This helped the Bolsheviks seize power in November 1917.",
     "reasoning": "Causation"
    },
    {
@@ -2567,7 +2573,7 @@
     "rationales": {
      "A": "Correct. In 1916 Sharif Hussein of Mecca led an Arab revolt against the Ottoman Empire with British support. His son Faisal's forces entered Damascus in 1918.",
      "B": "Incorrect. The Young Turk Revolution of 1908 was a revolt by Ottoman officers against the sultan's rule. It was not an Arab rising.",
-     "C": "Incorrect. In the Balkan Wars of 1912–1913, Serbia, Bulgaria, Greece, and Montenegro fought the Ottoman Empire in Europe.",
+     "C": "Incorrect. In the First Balkan War (1912–1913), Serbia, Bulgaria, Greece, and Montenegro fought the Ottoman Empire. In the Second Balkan War (1913), Bulgaria fought its former allies, Romania, and the Ottoman Empire. Neither was an Arab rising.",
      "D": "Incorrect. The Greeks fought for independence from the Ottoman Empire in the 1820s."
     },
     "explanation": "During the First World War, Britain backed an Arab revolt against the Ottoman Empire. It promised to support Arab independence. The Congress says Arabs shed \"so much blood\" for their liberty and expect their reward."
@@ -2700,17 +2706,17 @@
     "difficulty": "medium",
     "stem": "Developments like the one shown in the photograph contributed most directly to which of the following in Britain?",
     "options": {
-     "A": "Women were allowed to serve as front-line soldiers in 1919.",
+     "A": "Women were allowed to serve as front-line soldiers in 1918.",
      "B": "Parliament gave the vote to millions of women in 1918.",
      "C": "Women won the vote on the same terms as men in 1918.",
-     "D": "Britain elected its first woman prime minister in 1919."
+     "D": "Parliament required equal pay for women and men in 1918."
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. Britain did not send women into combat in 1919.",
+     "A": "Incorrect. British women joined new services such as the Women's Army Auxiliary Corps, formed in 1917, but they did not fight at the front.",
      "B": "Correct. The Representation of the People Act of 1918 gave the vote to about 8.4 million women aged thirty and over who met property rules.",
-     "C": "Incorrect. In 1918 men could vote at twenty-one but most women only at thirty. Women won the vote on equal terms in 1928.",
-     "D": "Incorrect. Britain's first woman prime minister, Margaret Thatcher, took office in 1979. In 1919 Nancy Astor became the first woman to take a seat in Parliament."
+     "C": "Incorrect. In 1918 most men could vote at twenty-one, but women had to be at least thirty and meet a property rule. Women won the vote on equal terms in 1928.",
+     "D": "Incorrect. Many women who did men's jobs were paid less than men. Britain did not pass an Equal Pay Act until 1970."
     },
     "explanation": "Women's war work helped convince many British leaders that women deserved the vote. Germany and several other countries also gave women the vote at the end of the war.",
     "reasoning": "Causation"
@@ -2772,17 +2778,17 @@
     "difficulty": "medium",
     "stem": "Which of the following later developments most strongly supports Churchill's prediction in the fourth paragraph?",
     "options": {
-     "A": "The remilitarization of the Rhineland",
-     "B": "The German occupation of Prague",
-     "C": "The union of Germany and Austria",
-     "D": "The Italian invasion of Ethiopia"
+     "A": "The signing of the Nazi–Soviet Pact in August 1939",
+     "B": "The German occupation of Prague in March 1939",
+     "C": "The Italian invasion of Albania in April 1939",
+     "D": "The German annexation of Memel in March 1939"
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. German troops entered the Rhineland in March 1936, before the Munich Agreement.",
+     "A": "Incorrect. The Nazi–Soviet Pact opened the way for Germany's attack on Poland. It did not itself bring the Czech lands under German rule.",
      "B": "Correct. In March 1939, less than six months after Munich, German troops occupied Prague and the rest of the Czech lands. Czechoslovakia was \"engulfed in the Nazi régime,\" as Churchill had warned.",
-     "C": "Incorrect. Germany took over Austria in March 1938, before the Munich Agreement.",
-     "D": "Incorrect. Italy invaded Ethiopia in 1935, before the Munich Agreement."
+     "C": "Incorrect. Italy's invasion of Albania did not affect Czechoslovakia, the state Churchill warned about.",
+     "D": "Incorrect. Germany forced Lithuania to give up Memel. Memel was not part of Czechoslovakia."
     },
     "explanation": "Churchill warned that Czechoslovakia might be \"engulfed\" within months. He was right. In March 1939 Hitler broke the Munich Agreement and took Prague. Britain and France then promised to defend Poland.",
     "reasoning": "Causation"
@@ -2822,15 +2828,15 @@
     "options": {
      "A": "German authorities were forcing Jews to leave Europe for neutral countries.",
      "B": "German authorities were holding the Jews of Europe in camps until the war ended.",
-     "C": "German authorities were carrying out a plan to kill the Jews of Europe.",
-     "D": "Jews in the occupied countries were being drafted into the German army."
+     "C": "German authorities were carrying out a plan to murder the Jews of Europe.",
+     "D": "German authorities were deporting Jews mainly to work in war industries."
     },
     "answer": "C",
     "rationales": {
      "A": "Incorrect. The declaration says Jews were being \"transported ... to Eastern Europe.\" They were not being sent to neutral countries.",
      "B": "Incorrect. The declaration says \"none of those taken away are ever heard of again\" and calls the policy \"cold-blooded extermination.\" The Jews were not simply being held until the war ended.",
      "C": "Correct. The declaration says Germany was \"carrying into effect Hitler's oft repeated intention to exterminate the Jewish people in Europe.\"",
-     "D": "Incorrect. The declaration says a few \"skilled workers\" were kept for \"war industries.\" Jews were not drafted into the army."
+     "D": "Incorrect. The declaration says the ghettoes are emptied of all Jews \"except a few highly skilled workers required for war industries,\" and that those taken away are never \"heard of again.\""
     },
     "explanation": "The Allied governments said Germany had moved from denying Jews their rights to murdering them. Jews were being deported to Eastern Europe, worked to death, starved, or shot in mass executions."
    },
@@ -2843,19 +2849,19 @@
     "difficulty": "easy",
     "stem": "The events described in the declaration were part of which of the following?",
     "options": {
-     "A": "The Final Solution",
+     "A": "The \"Final Solution\"",
      "B": "The Nuremberg Laws",
      "C": "The Kristallnacht attacks",
-     "D": "The T4 euthanasia program"
+     "D": "The T4 \"euthanasia\" program"
     },
     "answer": "A",
     "rationales": {
      "A": "Correct. In January 1942, at the Wannsee Conference, Nazi officials coordinated the plan to murder the Jews of Europe, which they called the \"Final Solution.\"",
-     "B": "Incorrect. The Nuremberg Laws of 1935 took away German Jews' citizenship and banned marriages between Jews and other Germans. They did not order deportation or murder.",
+     "B": "Incorrect. The Nuremberg Laws of 1935 took away German Jews' full citizenship and banned marriages between Jews and people the Nazis classed as being of \"German or kindred blood.\" They did not order deportation or murder.",
      "C": "Incorrect. Kristallnacht was a wave of attacks on Jewish homes, shops, and synagogues inside Germany in November 1938.",
-     "D": "Incorrect. The T4 program, begun in 1939, murdered people with disabilities, mostly in Germany. The declaration describes the deportation and killing of Jews from all the occupied countries."
+     "D": "Incorrect. \"Euthanasia\" was the Nazis' false name for T4, a program begun in 1939 to murder people with disabilities, mostly inside Germany. The declaration describes the deportation and murder of Jews from all the occupied countries."
     },
-    "explanation": "During 1942 the Nazis emptied the ghettos of Poland. They sent the people to death camps such as Treblinka and Auschwitz-Birkenau. About six million Jews were murdered in the Holocaust. The Nazis also murdered Roma, people with disabilities, and others."
+    "explanation": "In 1942 the Nazis began deporting the people of Poland's ghettos, on a huge scale, to killing centers such as Treblinka and Auschwitz-Birkenau. Most ghettos were destroyed in 1942 and 1943, and the last large one, in Łódź, in 1944. Nazi Germany and its allies and collaborators murdered about six million Jews in the Holocaust. The Nazis also murdered Roma, people with disabilities, and others."
    },
    {
     "id": "E8-E21",
@@ -2863,22 +2869,22 @@
     "topic": "8.9",
     "lo": "L",
     "skill": "2.C",
-    "difficulty": "hard",
-    "stem": "Eden's answer in the last paragraph best illustrates which of the following?",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes a limitation of Eden's answer in the last paragraph as evidence of what the Allies did to rescue Jews?",
     "options": {
-     "A": "an Allied plan to send British and American troops into Poland in 1943 to free the ghettos",
-     "B": "the limits of Allied efforts to rescue Jews",
-     "C": "Britain's decision to open Palestine to Jewish refugees without any limit",
-     "D": "the refusal of neutral countries to discuss refugees with the Allies"
+     "A": "It gives the views of neutral countries rather than those of the Allies.",
+     "B": "It states hopes and difficulties but does not show what rescue steps were taken.",
+     "C": "It was given before the Allies had received reports that Jews were being murdered.",
+     "D": "It describes refugees' own experiences rather than a government's position."
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. The Allies did not invade Poland in 1943. The Soviet army reached eastern Poland only in 1944.",
-     "B": "Correct. Eden says Britain would \"like to do all we possibly can\" but points to \"security formalities\" and \"immense geographical and other difficulties.\"",
-     "C": "Incorrect. Britain had limited Jewish immigration to Palestine in 1939 and kept those limits during the war.",
-     "D": "Incorrect. Eden does not mention neutral countries. In 1943 neutral Sweden took in most of Denmark's Jews."
+     "A": "Incorrect. Eden speaks for the British government and the Allies. He does not give the views of neutral countries.",
+     "B": "Correct. Eden says Britain would \"like to do all we possibly can\" and points to \"immense geographical and other difficulties.\" A statement of hopes does not show what the Allies actually did.",
+     "C": "Incorrect. Eden says \"reliable reports have recently reached His Majesty's Government\" about the killings. His answer came after those reports.",
+     "D": "Incorrect. Eden gives the British government's position to Parliament, not refugees' own stories."
     },
-    "explanation": "The Allies condemned the killings, but they did little to rescue Jews. In April 1943 Britain and the United States held a meeting on refugees in Bermuda. It led to almost no action."
+    "explanation": "A public statement of hopes is weak evidence of action. To judge rescue efforts, a historian needs records of what governments actually did. In fact, the Allies did little to rescue Jews. In April 1943 Britain and the United States held a meeting on refugees in Bermuda. It led to almost no action."
    },
    {
     "id": "E8-E22",
@@ -2921,11 +2927,11 @@
     "rationales": {
      "A": "Incorrect. Romantic writers of the early 1800s stressed feeling over reason and doubted that science alone could explain life, so they shared some of Valéry's doubts.",
      "B": "Incorrect. Existentialist writers after the Second World War also stressed doubt and the lack of certain meaning in life.",
-     "C": "Correct. Enlightenment thinkers believed that reason and science would bring steady progress. Valéry describes \"the lost illusion of a European culture.\"",
+     "C": "Correct. Many Enlightenment thinkers believed that reason and science would bring steady progress. Valéry describes \"the lost illusion of a European culture.\"",
      "D": "Incorrect. Postmodern thinkers of the late 1900s questioned whether any knowledge could be objective, an outlook close to Valéry's doubts."
     },
-    "explanation": "Enlightenment thinkers believed that reason and science would make life better and better. Many Europeans still believed this in 1914. Valéry says the war destroyed that hope.",
-    "reasoning": "Continuity and Change"
+    "explanation": "Many Enlightenment thinkers believed that reason and science would make life better and better. Many Europeans still believed this in 1914. Valéry says the war, in which science was used to kill, destroyed that hope.",
+    "reasoning": "Comparison"
    },
    {
     "id": "E8-E24",
@@ -2962,17 +2968,17 @@
     "options": {
      "A": "Mussolini's appointment as prime minister",
      "B": "Italy's entry into the First World War",
-     "C": "The unification of Italy",
-     "D": "The Lateran Accords with the pope"
+     "C": "The Italian invasion of Ethiopia",
+     "D": "The Lateran Accords between Italy and the pope"
     },
     "answer": "A",
     "rationales": {
      "A": "Correct. In 1920 Italian workers occupied factories, and many property owners feared a revolution. Fascist squads attacked the left, and in 1922 the king made Mussolini prime minister.",
      "B": "Incorrect. Italy entered the war in 1915, years before these events.",
-     "C": "Incorrect. Italy was unified between 1859 and 1870.",
+     "C": "Incorrect. Italy invaded Ethiopia in 1935, after Mussolini had ruled for thirteen years. The invasion grew out of his plans for an empire.",
      "D": "Incorrect. The Lateran Accords of 1929 settled quarrels between the Italian state and the Catholic Church. They did not grow out of the events of 1920."
     },
-    "explanation": "Halévy dates \"the rise of Fascism\" to 1920, when a feared Communist revolution failed. Fear of the left won Mussolini the support of landowners, factory owners, and the king.",
+    "explanation": "Halévy describes Italy's unrest as a failed Communist revolution. During the strikes and factory occupations of 1919–1920, many landowners and factory owners feared a socialist revolution. Many of them backed the Fascist squads that attacked socialists and unions, and in 1922 the king made Mussolini prime minister.",
     "reasoning": "Causation"
    }
   ]

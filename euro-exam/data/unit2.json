@@ -4,7 +4,7 @@
  "period": "c. 1450–c. 1648",
  "examWeighting": "10–15%",
  "blurb": "Luther and the Protestant Reformation, Calvin, the Anabaptists, and the English Reformation; the wars of religion and the Thirty Years' War; the Catholic Reformation; society, family, poor relief, and witch hunts; and Mannerist and Baroque art.",
- "version": "2026-11-09b",
+ "version": "2026-11-09c",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 2: Learning Objectives A-G).",
  "topics": [
   {
@@ -299,8 +299,6 @@
    "type": "passage",
    "paragraphs": [
     "The sacred and holy, oecumenical, and general Synod of Trent, … seeing clearly that this truth and discipline are contained in the written books, and the unwritten traditions which, received by the Apostles from the mouth of Christ himself, or from the Apostles themselves, the Holy Ghost dictating, have come down even unto us, transmitted as it were from hand to hand; (the Synod) following the examples of the orthodox Fathers, receives and venerates with an equal affection of piety, and reverence, all the books both of the Old and of the New Testament … as also the said traditions, as well those appertaining to faith as to morals. …",
-    "Moreover, the same Sacred and holy Synod, … ordains and declares, that the said old and vulgate edition, which, by the lengthened usage of so many ages, has been approved of in the Church, be, in public lectures, disputations, sermons and expositions, held as authentic; and that no one is to dare, or presume to reject it under any pretext whatever.",
-    "Furthermore, in order to restrain petulant spirits, It decrees, that no one, relying on his own skill, shall,—in matters of faith, and of morals pertaining to the edification of Christian doctrine,—wresting the sacred Scripture to his own senses, presume to interpret the said sacred Scripture contrary to that sense which holy mother Church,—whose it is to judge of the true sense and interpretation of the holy Scriptures,—hath held and doth hold. …",
     "And wishing, as is just, to impose a restraint, in this matter, also on printers, who now without restraint,—thinking, that is, that whatsoever they please is allowed them,—print, without the license of ecclesiastical superiors, the said books of sacred Scripture … (this Synod) ordains and decrees, that … it shall not be lawful for any one to print, or cause to be printed, any books whatever, on sacred matters, without the name of the author; nor to sell them in future, or even to keep them, unless they shall have been first examined, and approved of, by the Ordinary. …"
    ],
    "attribution": "Decrees of the Council of Trent, a council of Catholic bishops called by the pope, fourth session, April 8, 1546",
@@ -331,26 +329,6 @@
      "d": "having to do with"
     },
     {
-     "t": "the said old and vulgate edition",
-     "d": "the Vulgate, the Latin translation of the Bible long used in the Church"
-    },
-    {
-     "t": "disputations",
-     "d": "formal debates"
-    },
-    {
-     "t": "petulant",
-     "d": "rude and unruly"
-    },
-    {
-     "t": "edification",
-     "d": "building up"
-    },
-    {
-     "t": "wresting … to his own senses",
-     "d": "twisting to fit his own ideas"
-    },
-    {
      "t": "ecclesiastical superiors",
      "d": "church officials"
     },
@@ -362,7 +340,7 @@
   },
   "X5": {
    "type": "bar",
-   "title": "Persons Tried for Witchcraft in the Royal Courts of Five English Counties, by Decade, 1558–1707",
+   "title": "Persons Indicted and Hanged for Witchcraft in the Royal Courts of Five English Counties, by Decade, 1558–1707",
    "categories": [
     "1558–67",
     "1568–77",
@@ -423,7 +401,7 @@
     }
    ],
    "yLabel": "Number of persons",
-   "text": "The figures come from the records of the assizes, courts held by the king's judges, for the Home Circuit: the counties of Essex, Hertfordshire, Kent, Surrey, and Sussex, in southeastern England. Records survive for about three-quarters of the court sessions held in these years, and cases heard in town courts are not included. No one was indicted for witchcraft in these courts between 1708 and 1736. In all, 513 persons were indicted and 112 were hanged.",
+   "text": "The figures come from the records of the assizes, courts held by the king's judges, for the Home Circuit: the counties of Essex, Hertfordshire, Kent, Surrey, and Sussex, in southeastern England. Records survive for about three-quarters of the court sessions held in these years, and cases heard in town courts are not included. The surviving records list no witchcraft indictments in these courts from 1708 to 1736. In all, the records list 513 persons indicted and 112 hanged.",
    "source": "C. L'Estrange Ewen, Witch Hunting and Witch Trials: The Indictments for Witchcraft from the Records of 1373 Assizes Held for the Home Circuit, A.D. 1559–1736 (New York: Dial Press, 1929), table \"Witchcraft Statistics for the Home Circuit,\" p. 99 (totals columns)"
   },
   "X6": {
@@ -433,7 +411,7 @@
    "height": 687,
    "alt": "A wide, crowded painting of a crowning ceremony inside a church. A woman in a blue robe with gold lilies kneels at the center while a churchman holds a crown over her head. Nobles and court ladies watch from the left, two flying figures pour gold coins from above, and a man in black watches from a balcony.",
    "caption": "A large painting of a crowning ceremony inside a church with tall, pointed windows. At the center, Marie de' Medici, wife of King Henry IV of France, kneels in a blue robe covered with gold lilies, the emblem of the French kings, while a churchman in a gold robe holds a crown over her head. Bishops in tall pointed hats and cardinals in red robes and red hats stand on the steps near her. Crowds of richly dressed nobles and court ladies in wide lace collars watch from the left. Above the crowd, two flying figures, one with large wings and a palm branch, pour gold coins from a horn of plenty. King Henry IV, dressed in black, watches from a balcony at the top center. The ceremony took place in the church of Saint-Denis, near Paris, on May 13, 1610. Henry was murdered the next day.",
-   "description": "A wide oil painting, almost twice as wide as it is tall, crowded with dozens of life-size figures in bright reds, blues, and golds. The setting is a stone church with a tall Gothic window at the upper left and heavy curtains at the upper right. In the center, a woman with a wide lace collar kneels with her hands pressed together; her long blue mantle, lined with white ermine fur and covered with gold fleurs-de-lis (lily shapes), spreads across the steps behind her. A bearded churchman in a gold cope holds a gold crown above her head, with bishops in pointed miters behind him. To the right, two cardinals in long red robes and wide red hats stand with their backs half turned, and tall candles burn near an altar. A small boy in white and gold stands beside the kneeling woman. On the left, rows of court ladies with jeweled hair and stiff lace collars, nobles in rich cloaks, and guards with tall pikes look on; spectators fill a gallery behind them. In the air above, two flying figures with flowing drapery (the one on the left has large wings and holds a palm branch) tip a horn of plenty from which gold coins fall toward the crowd. At the top center, in a box-like balcony, a gray-haired, bearded man in black with a white ruff looks down. Two spotted dogs rest on the carpeted steps at the lower right.",
+   "description": "A wide oil painting, almost twice as wide as it is tall, crowded with dozens of life-size figures in bright reds, blues, and golds. The setting is a stone church with a tall Gothic window at the upper left and heavy curtains at the upper right. In the center, a woman with a wide lace collar kneels with her hands pressed together; her long blue mantle, lined with white ermine fur and covered with gold fleurs-de-lis (lily shapes), spreads across the steps behind her. A bearded churchman in a gold cope holds a gold crown above her head, with bishops in pointed miters behind him. To the right, two cardinals in long red robes and wide red hats stand with their backs half turned, and tall candles burn near an altar. A small boy in white and gold stands beside the kneeling woman. On the left, rows of court ladies with jeweled hair and stiff lace collars, nobles in rich cloaks, and guards with tall pikes look on; spectators fill a gallery behind them. In the air above, two flying figures with flowing drapery (the one on the left has large wings and holds a palm branch) tip a horn of plenty from which gold coins fall toward the crowd. At the top center, in a box-like balcony, a gray-haired, bearded man in black with a white ruff looks down. At the lower right, in front of the steps, are two black-and-white dogs: one lies on the floor and the other stands.",
    "attribution": "Peter Paul Rubens, Flemish painter, The Coronation of Marie de' Medici, part of a series of 24 large paintings, most of them scenes from her life, that Marie ordered from Rubens for her palace in Paris, painted 1622–1625",
    "credit": "Musée du Louvre, Paris. Public domain image via Wikimedia Commons (file: Peter Paul Rubens 049.jpg), from The Yorck Project.",
    "glossary": [
@@ -807,7 +785,6 @@
   "P6": {
    "type": "passage",
    "paragraphs": [
-    "The Articles, which we have drawn up and in which we agree, are these: Baptism, abstention, breaking of bread, avoidance of abominable pastors in the church, sword, swearing.",
     "First learn concerning baptism! Baptism ought to be administered to all who have been taught repentance and a change of life and in truth believe their sins to have been blotted out through Christ, … By these means are excluded all baptism of infants, the supreme abomination of the Roman Pontif. …",
     "Sixth: We agree and determine concerning the sword in this manner: The sword is an ordinance of God, outside the perfection of Christ by which the evil man is punished and killed, but the good one defended. In law the sword is ordained against the evil for vengeance and death, and for this purpose the magistracy of the world was constituted. But in the perfection of Christ we use excommunication only, for the warning and exclusion of him who has sinned. …",
     "Finally, it is taught that a Christian is not permitted to be a magistrate by the things which follow: Magistracy is an office after the flesh but a Christian is after the Spirit. The home and corporal habitation of those [magistrates] is in this world, but that of all Christians in heaven. Their citizenship is in this world, that of the Christians in heaven. Their arms are carnal and against the flesh, those of the Christians spiritual against the bulwarks of the devil. …",
@@ -817,16 +794,8 @@
    "translation": "English translation by W. J. McGlothlin from the Latin version made by the Zurich reformer Huldrych Zwingli, in McGlothlin, Baptist Confessions of Faith (Philadelphia: American Baptist Publication Society, 1911), pp. 3–9; adapted",
    "glossary": [
     {
-     "t": "abstention",
-     "d": "here, keeping separate from the world"
-    },
-    {
-     "t": "breaking of bread",
-     "d": "the Lord's Supper, or communion"
-    },
-    {
-     "t": "abominable",
-     "d": "hateful"
+     "t": "abomination",
+     "d": "something hateful"
     },
     {
      "t": "swearing",
@@ -1529,8 +1498,8 @@
    "width": 1280,
    "height": 1568,
    "alt": "A tall painting with a rounded top. In the lower half, two saints in gold robes lower a knight in armor into a tomb in front of a row of men dressed in black. In the upper half, saints and angels surround Christ on swirling clouds.",
-   "caption": "A tall painting with a rounded top, divided into two parts. In the lower part, two saints in gold-embroidered robes, one young and one old wearing a bishop's tall pointed hat, lower the body of a knight in shining armor into his tomb. Behind them stands a row of gentlemen dressed in black with white ruffled collars, along with a friar, a priest in a see-through white robe who looks up toward heaven, a churchman reading from a book, and a tall cross. In the upper part, the Virgin Mary, John the Baptist, and many saints and angels surround Christ, who is dressed in white at the top, on swirling clouds. An angel carries the dead man's soul upward through an opening in the clouds. The painting shows a local legend: when Don Gonzalo Ruiz, lord of the town of Orgaz, was buried in 1323, Saint Stephen and Saint Augustine came down from heaven and laid him in his tomb with their own hands, as a reward for the gifts he had given to the church of Santo Tomé in Toledo. The painting was made for that church.",
-   "description": "A tall oil painting with a rounded top, about one and a quarter times as tall as it is wide, in dark blacks, golds, and cool grays. Lower half: two saints bend over the body of a dead knight in black, shining armor. On the left, a young saint in a gold dalmatic (a deacon's robe) holds the knight's legs; on the right, an old, bearded saint in a gold cope and a white bishop's miter holds his shoulders. Small scenes of saints are embroidered on their robes. Behind them, a long row of serious men with pointed beards and white ruff collars, dressed in black, stand shoulder to shoulder; some raise a hand. At the far left stands a friar in a gray-brown hooded habit, and in front of him a small boy in black with a ruff points toward the knight. At the right, a priest in a white, see-through surplice stands with his back to the viewer, looks up, and stretches out one hand; beside him a bald churchman reads from a book, and a tall silver processional cross rises behind them. Torches burn above the crowd. Upper half: on curling, cloud-like shapes, Christ in white sits at the top. Below him, on the left, the Virgin Mary in a red dress and blue cloak leans forward, and on the right, John the Baptist, wearing only an animal skin around his waist, kneels and stretches out an arm toward Christ. Saint Peter, in yellow, holds a set of keys at the left, and crowds of saints with long, stretched bodies fill the right side. In the middle, an angel with large wings lifts a small, see-through figure (the dead man's soul) through a narrow opening in the clouds.",
+   "caption": "A tall painting with a rounded top, divided into two parts. In the lower part, two saints in gold-embroidered robes, one young and one old wearing a bishop's tall pointed hat, lower the body of a knight in shining armor into his tomb. Behind them stands a row of gentlemen dressed in black with white ruffled collars, along with a friar, a priest in a see-through white robe who looks up toward heaven, a churchman reading from a book, and a tall cross. In the upper part, the Virgin Mary, John the Baptist, and many saints and angels surround Christ, who is dressed in white at the top, on swirling clouds. An angel carries the dead man's soul upward through an opening in the clouds. The painting shows a local legend from the 1300s: when Don Gonzalo Ruiz, lord of the town of Orgaz, was buried, Saint Stephen and Saint Augustine came down from heaven and laid him in his tomb with their own hands, as a reward for the gifts he had given to the church of Santo Tomé in Toledo. The painting was made for that church.",
+   "description": "A tall oil painting with a rounded top, about one and a quarter times as tall as it is wide, in dark blacks, golds, and cool grays. Lower half: two saints bend over the body of a dead knight in black, shining armor. On the left, a young saint in a gold dalmatic (a deacon's robe) holds the knight's legs; on the right, an old, bearded saint in a gold cope and a gold, embroidered bishop's miter holds his shoulders. Small scenes of saints are embroidered on their robes. Behind them, a long row of serious men with pointed beards and white ruff collars, dressed in black, stand shoulder to shoulder; some raise a hand. At the far left stands a friar in a gray-brown hooded habit, and in front of him a small boy in black with a ruff points toward the knight. At the right, a priest in a white, see-through surplice stands with his back to the viewer, looks up, and stretches out one hand; beside him a bald churchman reads from a book, and a tall silver processional cross rises behind them. Torches burn above the crowd. Upper half: on curling, cloud-like shapes, Christ in white sits at the top. Below him, on the left, the Virgin Mary in a red dress and blue cloak leans forward, and on the right, John the Baptist, wearing only an animal skin around his waist, kneels and stretches out an arm toward Christ. Saint Peter, in yellow, holds a set of keys at the left, and crowds of saints with long, stretched bodies fill the right side. In the middle, an angel with large wings lifts a small, see-through figure (the dead man's soul) through a narrow opening in the clouds.",
    "attribution": "El Greco (Domenikos Theotokopoulos), Greek-born painter who worked in Toledo, Spain, The Burial of the Count of Orgaz, oil painting made for the church of Santo Tomé in Toledo, 1586–1588",
    "credit": "Church of Santo Tomé, Toledo, Spain. Public domain image via Wikimedia Commons (file: El Greco - The Burial of the Count of Orgaz.JPG).",
    "glossary": [
@@ -1581,7 +1550,7 @@
     },
     {
      "t": "imperial law",
-     "d": "the law of the Holy Roman Empire"
+     "d": "laws issued under an emperor's authority"
     },
     {
      "t": "destitute",
@@ -1638,14 +1607,14 @@
     "A": "Charles V's need for money to defend Hungary and Vienna against the Ottoman Turks",
     "B": "the Council of Trent's need for money to found new seminaries for training young priests",
     "C": "the papacy's need for money for projects such as rebuilding St. Peter's Basilica in Rome",
-    "D": "Philip II's need for money to pay the Spanish armies fighting rebels in the Netherlands"
+    "D": "Francis I's need for money to pay for the wars of the French kings in Italy"
    },
    "answer": "C",
    "explanation": "In 1515 Pope Leo X offered an indulgence to raise money for rebuilding St. Peter's Basilica. Archbishop Albert of Mainz shared in the money to pay off his own debts, and Tetzel preached the indulgence in Germany.",
    "whyNot": {
     "A": "Charles V was not elected emperor until 1519, and his wars against the Ottomans in Hungary came later. Tetzel preached a papal indulgence.",
     "B": "The Council of Trent first met in 1545, almost thirty years after this sermon. In 1562 it ended the use of special preachers to collect money for indulgences.",
-    "D": "Spain's wars in the Netherlands began in the 1560s, under Philip II, long after this sermon."
+    "D": "King Francis I of France did fight in Italy in 1515. But Tetzel preached an indulgence granted by the pope, in Germany, and the money did not go to the French king."
    },
    "hint": "Think about who granted indulgences and why the Church wanted to raise money in the 1510s."
   },
@@ -1703,21 +1672,21 @@
    "lo": "B",
    "skill": "1.B",
    "difficulty": "medium",
-   "stem": "Luther's statement that all believers are \"priests for ever\" expresses which idea?",
+   "stem": "Luther's claim that believers are \"priests for ever\" most directly challenged which feature of the Church of his time?",
    "options": {
-    "A": "Predestination",
-    "B": "Transubstantiation",
-    "C": "Apostolic succession",
-    "D": "Priesthood of all believers"
+    "A": "Its teaching that kings and princes received their power to rule from God",
+    "B": "Its use of sermons and teaching to explain the Christian faith to the people",
+    "C": "Its call for Christians to pray to God for the needs of other people",
+    "D": "Its belief that clergy had a higher spiritual rank than other Christians"
    },
    "answer": "D",
-   "explanation": "The priesthood of all believers is the idea that every Christian can come to God directly. Each believer can pray for others and read and teach the Bible. No priest has to stand in between.",
+   "explanation": "This idea is called the priesthood of all believers. Luther says every Christian is a priest who may \"appear before God,\" pray for others, and teach. This challenged the special spiritual rank of the clergy, although Luther still wanted pastors to preach and lead worship.",
    "whyNot": {
-    "A": "Predestination is the belief, stressed by John Calvin, that God has already chosen who will be saved. Luther's point here is about what every believer may do.",
-    "B": "Transubstantiation is the Catholic teaching that the bread and wine of the Mass become Christ's body and blood. Luther rejected it.",
-    "C": "Apostolic succession is the Catholic teaching that bishops' authority passes down from the apostles. Luther's idea lowers the special status of the clergy."
+    "A": "Luther does not challenge rulers' power. He says ruling is \"the office of kings, princes, and men upon earth.\"",
+    "B": "Luther wanted more teaching, not less. He says believers should \"teach one another mutually the things which are of God.\"",
+    "C": "Luther kept this practice. He says believers are worthy \"to pray for others.\""
    },
-   "hint": "Reread the last paragraph. What does Luther say every believer is \"worthy\" to do?"
+   "hint": "Think about what set priests apart from other Christians in the Church of 1520."
   },
   {
    "id": "E2-P06",
@@ -1729,16 +1698,16 @@
    "stem": "Luther's reliance on \"the most holy word of God\" is best understood in the context of which of the following?",
    "options": {
     "A": "the Council of Trent's ruling that the Latin Vulgate was the official Bible of the Catholic Church",
-    "B": "scientists' use of careful experiments to test old ideas about the natural world",
-    "C": "Enlightenment writers' claims that reason, not revelation, should guide religion",
+    "B": "Renaissance popes' use of art and grand buildings to display the Church's power",
+    "C": "Christian rulers' efforts to keep religious unity by enforcing the laws of the Church",
     "D": "Christian humanists' efforts to study the earliest Christian texts"
    },
    "answer": "D",
    "explanation": "Christian humanists such as Erasmus wanted scholars to study the oldest Christian writings. In 1516 Erasmus printed the New Testament in Greek. Luther used it when he translated the New Testament into German in 1522.",
    "whyNot": {
     "A": "The Council of Trent made the Vulgate the Church's official Bible in 1546. That was twenty-six years after this book, and partly a reply to Protestants like Luther.",
-    "B": "Scientists began testing ideas with experiments mostly after 1600. Luther's argument is based on the Bible, not on experiments.",
-    "C": "The Enlightenment came in the 1700s. Luther trusted Scripture and faith, not human reason."
+    "B": "Popes such as Leo X paid for grand art and buildings in Rome. That does not explain why Luther turns to the word of God in Scripture.",
+    "C": "Rulers punished heretics to keep their lands united in one faith. That explains how rulers treated reformers, not why Luther relies on Scripture."
    },
    "hint": "Which movement, active just before 1520, urged scholars to study the oldest Christian texts?"
   },
@@ -1816,7 +1785,7 @@
    "set": "P4",
    "topic": "2.2",
    "lo": "B",
-   "skill": "3.A",
+   "skill": "2.A",
    "difficulty": "easy",
    "stem": "Which of the following best describes the main purpose of the edict?",
    "options": {
@@ -1844,15 +1813,15 @@
    "stem": "Charles V's ability to enforce the edict in Germany in the 1520s and 1530s was most weakened by which of the following?",
    "options": {
     "A": "The defeat of the Spanish Armada",
-    "B": "The outbreak of the Thirty Years' War",
+    "B": "The Spanish conquest of the Aztec Empire",
     "C": "Wars with France and the Ottoman Empire",
     "D": "The Dutch revolt against Spanish rule"
    },
    "answer": "C",
-   "explanation": "Charles V spent years fighting France and the Ottoman Turks, who attacked Vienna in 1529. He needed help from the German princes, even Lutheran ones. So he could not crush the Lutherans.",
+   "explanation": "Charles V spent years fighting France and the Ottoman Turks, who attacked Vienna in 1529. He needed help from the German princes, even Lutheran ones. These wars limited his ability to force religious unity on Germany.",
    "whyNot": {
     "A": "The Spanish Armada was defeated in 1588, under Charles's son Philip II, decades after the 1520s and 1530s.",
-    "B": "The Thirty Years' War began in 1618, more than sixty years after Charles V gave up his thrones in 1555–1556.",
+    "B": "Hernán Cortés conquered the Aztec Empire for Charles in 1519–1521. It added to Charles's lands and wealth. It did not tie down his armies in Europe.",
     "D": "The Dutch revolt against Spain began in 1568, under Philip II."
    },
    "hint": "The edict lists the many lands Charles ruled. Which enemies threatened those lands in the 1520s and 1530s?",
@@ -1875,7 +1844,7 @@
    "answer": "A",
    "explanation": "In the Peace of Augsburg (1555), the empire's rulers agreed that each prince could choose Catholicism or Lutheranism for his lands. The edict had tried to stamp out Luther's faith, but now it was legal in the empire.",
    "whyNot": {
-    "B": "The Peace of Westphalia (1648) came almost a century later. It confirmed the earlier settlement and added Calvinism to the faiths a ruler could choose.",
+    "B": "The Peace of Westphalia came in 1648, almost a century later. It confirmed Lutheranism's legal standing and also recognized Calvinism.",
     "C": "The Edict of Nantes (1598) was issued by King Henry IV of France. It gave rights to French Protestants, not to Lutherans in the empire.",
     "D": "The Edict of Restitution (1629) ordered Protestants to give back church lands they had taken. It tried to undo Protestant gains, not protect them."
    },
@@ -1892,16 +1861,16 @@
    "stem": "Which of the following best explains the change in the number of works printed in German from 1517 to 1523?",
    "options": {
     "A": "The printing press with movable type was first invented in Germany during these years.",
-    "B": "Italian printers such as Aldus Manutius began printing ancient Greek and Latin works.",
+    "B": "Growing town trade increased the demand for German manuals for merchants and craftsmen.",
     "C": "Luther and other writers published many pamphlets in German about the religious dispute.",
-    "D": "Emperor Charles V paid printers to publish books in German to unite his empire."
+    "D": "Jesuits such as Peter Canisius printed German catechisms to win Protestants back to the Church."
    },
    "answer": "C",
-   "explanation": "After 1517 Luther wrote many short works in German, and printers rushed to reprint them. Supporters and opponents answered with pamphlets of their own. The number of German works printed rose from 81 in 1517 to 944 in 1523.",
+   "explanation": "After 1517 Luther wrote many short works in German, and printers rushed to reprint them. Supporters and opponents answered with pamphlets of their own. The number of German works in the catalogs rose from 81 in 1517 to 944 in 1523.",
    "whyNot": {
     "A": "Johannes Gutenberg began printing with movable type in Mainz in the 1450s, more than sixty years earlier.",
-    "B": "Aldus Manutius began printing Greek and Latin classics in Venice in the 1490s. The chart counts works printed in German.",
-    "D": "Charles V's Edict of Worms (1521) banned the printing of Luther's books."
+    "B": "Trade did create a demand for practical books, but trade grew slowly. It cannot explain a jump from 81 works to 944 in six years.",
+    "D": "Peter Canisius and other Jesuits wrote German catechisms in the 1550s, decades after this rise."
    },
    "hint": "What famous dispute began in Germany in 1517?",
    "reasoning": "Causation"
@@ -1909,25 +1878,26 @@
   {
    "id": "E2-P14",
    "set": "P5",
-   "topic": "2.1",
-   "lo": "A",
-   "skill": "4.A",
+   "topic": "2.3",
+   "lo": "B",
+   "skill": "5.A",
    "difficulty": "easy",
-   "stem": "The rise in printing shown in the chart depended most on which earlier development?",
+   "stem": "Which of the following conclusions is best supported by the chart?",
    "options": {
-    "A": "The spread of printing presses with movable type",
-    "B": "The founding of the Society of Jesus",
-    "C": "The wars between the Habsburgs and France over Italy",
-    "D": "The Treaty of Tordesillas's division of lands"
+    "A": "Printing in German grew sharply during the first years of the Reformation.",
+    "B": "Printing in German rose at a steady pace throughout the years shown.",
+    "C": "Printing in German reached its highest point in the year of the Diet of Worms.",
+    "D": "Printing in German was already growing quickly in the years before 1517."
    },
    "answer": "A",
-   "explanation": "Johannes Gutenberg's movable-type press, first used in Mainz in the 1450s, spread to many cities and towns across Europe by 1500. It made books and pamphlets much faster and cheaper to produce.",
+   "explanation": "Luther wrote his Ninety-Five Theses in 1517. The chart shows 81 German works that year and 944 in 1523, more than eleven times as many. So the sharp rise came in the first years of the Reformation.",
    "whyNot": {
-    "B": "The Society of Jesus (the Jesuits) was founded in 1540, after these years, and it worked against the spread of Protestant ideas.",
-    "C": "The wars in Italy (1494–1559) were fought over land and power. They had nothing to do with how books were made.",
-    "D": "The Treaty of Tordesillas (1494) divided newly reached lands between Spain and Portugal. It had nothing to do with printing."
+    "B": "The numbers fell in 1516, 1517, and 1521, and they jumped after 1518. The growth was not steady.",
+    "C": "The Diet of Worms met in 1521, when 523 works were printed. More works were printed in 1520, 1522, and 1523.",
+    "D": "Before 1517 the yearly numbers stayed between 90 and 145, and 1517 has the lowest number in the chart."
    },
-   "hint": "Which choice made it possible to make many copies of a pamphlet quickly?"
+   "hint": "Compare the bars before 1517 with the bars after it.",
+   "reasoning": "Continuity and Change"
   },
   {
    "id": "E2-P15",
@@ -1944,7 +1914,7 @@
     "D": "how many works each year were by Luther or about the religious dispute"
    },
    "answer": "D",
-   "explanation": "The chart counts German works \"on any subject.\" To tie the rise to Luther, a historian would need to know how many works were by Luther or about the religious fight. Later studies found that Luther wrote a large share of them.",
+   "explanation": "The chart counts German works \"on any subject.\" To tie the rise to Luther, a historian would need to know how many works each year were by Luther or about the religious fight.",
    "whyNot": {
     "A": "Latin works from before 1513 come before the change the historian wants to explain, and the chart is about German works.",
     "B": "Presses in Italy and France would not show what was being printed in German.",
@@ -2004,7 +1974,7 @@
    "set": "P6",
    "topic": "2.3",
    "lo": "B",
-   "skill": "3.C",
+   "skill": "5.A",
    "difficulty": "medium",
    "stem": "In which of the following ways did the Anabaptists' view of baptism differ from that of Luther and Zwingli?",
    "options": {
@@ -2017,7 +1987,7 @@
    "explanation": "Luther and Zwingli kept baptizing babies. The Anabaptists baptized only people who had turned from sin and believed. Their enemies said they baptized people a second time, so they called them Anabaptists, which means rebaptizers.",
    "whyNot": {
     "A": "This reverses the two sides. The articles exclude \"all baptism of infants.\"",
-    "C": "Anabaptists had no bishops. Their disagreement with Luther and Zwingli was about who should be baptized, not who performed it.",
+    "C": "The articles say who should receive baptism. They say nothing about bishops having to perform it. The dispute with Luther and Zwingli was about who should be baptized.",
     "D": "The dispute was about who should be baptized, not about the language used."
    },
    "hint": "Look at the First article. Who does it say should be baptized?",
@@ -2062,7 +2032,7 @@
     "D": "Divine-right absolutism"
    },
    "answer": "C",
-   "explanation": "In the 1500s, many towns, both Catholic and Protestant, made rules against swearing, drinking, gambling, and dancing. The Reformation weakened the old church courts, so town leaders did more of this work.",
+   "explanation": "In the 1500s, many towns, both Catholic and Protestant, made laws against swearing, drinking, gambling, and dancing. As the Reformation shifted the authority of church institutions, city governments took on more of this work, often together with church leaders.",
    "whyNot": {
     "A": "Source 2 punishes people for owning rosaries or going to Mass. That is the opposite of toleration.",
     "B": "Enclosure was the fencing of common land for private farming, mostly in England. These rules are about worship and behavior.",
@@ -2140,7 +2110,7 @@
     "D": "The Pilgrimage of Grace (1536) was a northern rising against Henry's religious changes. Henry crushed it, and the 1534 Act stayed in force."
    },
    "hint": "Which choice would have cancelled the 1534 Act?",
-   "reasoning": "Continuity and Change"
+   "reasoning": "Causation"
   },
   {
    "id": "E2-P24",
@@ -2230,7 +2200,7 @@
    "explanation": "After the massacre, the Huguenots took up arms again. Some Protestant writers argued that people could resist a king who acted like a tyrant. The French Wars of Religion went on until 1598.",
    "whyNot": {
     "A": "The Edict of Nantes came in 1598, after more than twenty-five more years of war. It was not a direct result of 1572.",
-    "B": "France expelled the Jesuits only briefly in the 1590s and again in 1764, for reasons that had nothing to do with this massacre.",
+    "B": "The Jesuits were expelled from much of France after an attempt to kill King Henry IV in 1594. Henry let them return in 1603. This had nothing to do with the 1572 massacre.",
     "C": "Philip II of Spain sent troops to help the Catholic League in the 1590s, but Spain never conquered France."
    },
    "hint": "Did the massacre end the conflict or make it worse?",
@@ -2278,7 +2248,7 @@
    "whyNot": {
     "A": "The Catholic League, led by the Guise family, wanted to wipe out Protestantism in France and refused to accept a Protestant king.",
     "C": "The Jesuits worked to win Protestants back to the Catholic Church. They did not favor liberty of conscience.",
-    "D": "Anabaptists separated from the world and refused to hold office. Montaigne writes as a loyal subject who accepts the choice of \"our kings\" to calm the conflict."
+    "D": "Many Anabaptist groups refused to hold government office and formed separate communities of believers. Montaigne writes as a loyal subject who accepts the choice of \"our kings\" to calm the conflict."
    },
    "hint": "Which group cared most about ending the civil war, even at the cost of religious unity?",
    "reasoning": "Comparison"
@@ -2345,7 +2315,7 @@
     "D": "It is a novel, though its author had served as a soldier in the war."
    },
    "answer": "D",
-   "explanation": "A novel can mix real events with made-up or exaggerated scenes. But Grimmelshausen served as a soldier in the war, so his story shows things that really happened to German villagers.",
+   "explanation": "A novel can mix real events with made-up or exaggerated scenes. Grimmelshausen had served as a soldier in the war, so the scene may draw on things he saw. A historian should compare it with other evidence before treating its details as fact.",
    "whyNot": {
     "A": "Grimmelshausen was a German writer, not a Swedish general, and the passage condemns the troopers' cruelty.",
     "B": "Nothing shows the emperor ordered the book. It describes soldiers' cruelty without praising either side.",
@@ -2428,24 +2398,24 @@
    "set": "P12",
    "topic": "2.7",
    "lo": "F",
-   "skill": "5.B",
+   "skill": "5.A",
    "difficulty": "medium",
-   "stem": "The vision described in the first two paragraphs is the subject of which later work of art?",
+   "stem": "Catholic Baroque artists who showed religious visions like the one in the first two paragraphs most often used",
    "options": {
-    "A": "Bernini's The Ecstasy of Saint Teresa",
-    "B": "Michelangelo's David",
-    "C": "Bruegel's painting The Peasant Wedding",
-    "D": "Rembrandt's The Night Watch"
+    "A": "dramatic poses, movement, and light to stir strong feelings in viewers",
+    "B": "balanced designs and ideal proportions to give a calm and orderly feeling",
+    "C": "everyday household scenes to celebrate the comforts of life in town",
+    "D": "scenes from ancient Roman history to teach lessons about civic duty"
    },
    "answer": "A",
-   "explanation": "Bernini made a marble statue of this vision between 1647 and 1652. It shows an angel about to pierce Teresa's heart with a golden spear. Its drama and strong feeling are typical of Baroque art in Catholic churches.",
+   "explanation": "Teresa describes pain and joy so strong that she \"could not wish to be rid of it.\" Catholic Baroque artists used dramatic poses, movement, and light to make such experiences feel real to viewers. Bernini's marble statue The Ecstasy of Saint Teresa (1647–1652) shows this very vision.",
    "whyNot": {
-    "B": "Michelangelo's David (1501–1504) shows the Bible hero David and was finished before Teresa was born.",
-    "C": "Bruegel's painting (about 1567) shows a village wedding feast, not a religious vision.",
-    "D": "Rembrandt's The Night Watch (1642) is a group portrait of members of a Dutch city militia."
+    "B": "Balance, calm, and ideal proportions mark High Renaissance art, such as Raphael's. Baroque artists wanted drama instead.",
+    "C": "Everyday household scenes were popular in Dutch painting of the 1600s. They do not show religious visions.",
+    "D": "Stern scenes from ancient Rome that teach civic duty belong to Neoclassical art of the late 1700s."
    },
-   "hint": "Which of these artists worked for the Catholic Church in Rome in the 1600s?",
-   "reasoning": "Continuity and Change"
+   "hint": "Teresa's vision is full of strong feeling. How could an artist make viewers feel it too?",
+   "reasoning": "Comparison"
   },
   {
    "id": "E2-P37",
@@ -2465,7 +2435,7 @@
    "explanation": "Ranke says the Jesuits built well-run schools that charged no fees. They also took control of \"the confessional\" and \"the direction of consciences.\" Their former students became cardinals and city leaders.",
    "whyNot": {
     "A": "Ranke says the order arose \"in strictest alliance\" with church power, but he credits schools and the confessional, not armies.",
-    "C": "Ranke says the Jesuits \"taught gratis,\" which means free of charge.",
+    "C": "Ranke says Jesuit colleges were founded by \"a city or a prince.\" He does not say that selling indulgences paid for them.",
     "D": "Ranke does not mention Bible translation. He stresses their schools and their work as confessors."
    },
    "hint": "Look at what Ranke says the Jesuits did in schools and in the confessional."
@@ -2571,7 +2541,7 @@
    "lo": "E",
    "skill": "5.B",
    "difficulty": "medium",
-   "stem": "Spee's criticism of trials based on rumor and of confessions forced by torture is most similar to the later arguments of which person?",
+   "stem": "Spee's criticism of trials based on rumor and of confessions forced by torture is most similar to the arguments of which person?",
    "options": {
     "A": "James VI and I",
     "B": "Cesare Beccaria",
@@ -2585,7 +2555,7 @@
     "C": "Cardinal Richelieu ran France's government for the king from 1624 to 1642. He is known for making royal power stronger, not for criticizing trials.",
     "D": "Philip II of Spain supported the Spanish Inquisition's harsh treatment of people accused of heresy."
    },
-   "hint": "Which person wrote about criminal justice during the Enlightenment?",
+   "hint": "Which of these people wrote about how courts should treat accused people?",
    "reasoning": "Comparison"
   },
   {
@@ -2649,7 +2619,7 @@
     "D": "realistic scenes of everyday life"
    },
    "answer": "B",
-   "explanation": "High Renaissance art stressed balance and perfect proportions. Mannerists such as El Greco stretched figures and crowded the space to stir strong religious feeling.",
+   "explanation": "Raphael's The School of Athens shows calm figures in a balanced, orderly space. El Greco stretches his figures and crowds the heavenly scene to create strong religious feeling.",
    "whyNot": {
     "A": "Balance and calm proportions are what Raphael's The School of Athens stresses most.",
     "C": "Raphael's The School of Athens shows ancient philosophers. El Greco shows saints, angels, and a funeral.",
@@ -2709,24 +2679,24 @@
    "set": "P16",
    "topic": "2.6",
    "lo": "E",
-   "skill": "5.B",
-   "difficulty": "easy",
-   "stem": "Plans like Vives's are most similar to which later English law?",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "Which feature of the English Poor Law of 1601 most closely resembled Vives's proposal?",
    "options": {
-    "A": "The Act of Supremacy of 1534",
-    "B": "The Navigation Acts",
-    "C": "The Corn Laws",
-    "D": "The Elizabethan Poor Law of 1601"
+    "A": "It kept help for the poor voluntary and left it mainly to private donors.",
+    "B": "It placed help for the poor under one office of the national government.",
+    "C": "It paid poor families a fixed weekly sum out of the royal treasury.",
+    "D": "It made officials in each parish organize help and work for the poor."
    },
    "answer": "D",
-   "explanation": "England's Poor Law of 1601 made each parish collect a tax to help the poor. It set people who could work to work and punished idle beggars. Like Vives's plan, it made local government responsible for the poor.",
+   "explanation": "The Poor Law of 1601 set up overseers of the poor in each parish. They collected a local tax, helped people who could not work, and set people who could work to work. Vives also wanted \"two Senators for each parish\" to register the poor, and he wanted no one fit for work to \"be idle.\"",
    "whyNot": {
-    "A": "The Act of Supremacy made Henry VIII head of the Church of England. It did not deal with the poor.",
-    "B": "The Navigation Acts (from 1651) required trade with England's colonies to be carried in English ships.",
-    "C": "The Corn Laws (best known from the law of 1815) taxed imported grain to protect the profits of English landowners."
+    "A": "The 1601 law made each parish collect a tax for the poor. Help no longer depended only on gifts.",
+    "B": "The law gave this work to officials in each parish, not to one national office.",
+    "C": "The law did not pay the poor from the royal treasury. The money came from a tax collected in each parish."
    },
-   "hint": "Which law made local officials responsible for people like those Vives describes?",
-   "reasoning": "Continuity and Change"
+   "hint": "Compare who organized help for the poor and what was expected of people able to work.",
+   "reasoning": "Comparison"
   }
  ],
  "exam": {
@@ -2801,7 +2771,7 @@
      "A": "Incorrect. Luther calls the rebels \"mad dogs\" and says their Twelve Articles were \"all vain pretense.\"",
      "B": "Incorrect. Thomas Müntzer, a radical preacher, led rebels in Thuringia in 1525. Luther attacked him, and the princes executed him after the rebels' defeat.",
      "C": "Correct. Luther says that \"whosoever can\" should \"smite, strangle, and stab\" the rebels. The princes and nobles wanted to hear this.",
-     "D": "Incorrect. Anabaptists taught that Christians should not use the sword, so they rejected Luther's call to kill rebels."
+     "D": "Incorrect. Many Anabaptists, such as those who met at Schleitheim in 1527, said Christians should not use the sword. They would have opposed Luther's call to kill rebels."
     },
     "explanation": "Luther said that \"whosoever can\" should strike down the rebels. German princes and nobles did so, killing tens of thousands of peasants in 1525."
    },
@@ -2824,7 +2794,7 @@
      "A": "Incorrect. The Peace of Augsburg (1555) let each prince, not each peasant, choose the religion of his land.",
      "B": "Incorrect. Serfdom lasted in many German lands until the 1800s.",
      "C": "Correct. After 1525 Luther and his followers relied on princes to protect and organize Lutheran churches. Many princes became heads of the churches in their lands.",
-     "D": "Incorrect. The Catholic Church kept bishops in charge of appointing priests."
+     "D": "Incorrect. The Catholic Church did not give parishes the right to elect their priests. The Council of Trent instead strengthened bishops' control over parish clergy."
     },
     "explanation": "After the Peasants' War, Luther and his followers relied on princes to set up and run Lutheran churches. In many German states the prince became head of the church. This gave the state more control over religion.",
     "reasoning": "Causation"
@@ -2865,14 +2835,14 @@
      "A": "ask the king to make Calvin's teachings the official religion of the French kingdom",
      "B": "urge French Protestants to take up arms against the king's officials",
      "C": "show the king that Protestants were loyal subjects, not rebels",
-     "D": "apologize to the king for teachings that Calvin now admitted were wrong"
+     "D": "win the king's permission for Calvin himself to return safely to France"
     },
     "answer": "C",
     "rationales": {
      "A": "Incorrect. Calvin defends Protestant teaching and protests the persecution. He does not ask the king to make it France's religion.",
      "B": "Incorrect. Calvin presents Protestants as loyal, peaceful subjects. He does not call for armed resistance.",
      "C": "Correct. Calvin protests that his teachings are falsely accused of aiming to \"subvert all orders and civil governments\" and of troubling \"the peace and quiet of the people.\"",
-     "D": "Incorrect. Here \"apology\" means a written defense. Calvin defends his teaching as the true gospel and takes none of it back."
+     "D": "Incorrect. Calvin says he is not seeking \"a safe return into my native country\" for himself. He takes up \"the common cause of all the godly.\""
     },
     "explanation": "After 1534 French Protestants were being jailed and burned. Calvin wanted to show Francis I that their faith was the old gospel of Paul, not a plot to overthrow kings."
    },
@@ -2953,21 +2923,21 @@
     "lo": "C",
     "skill": "5.B",
     "difficulty": "medium",
-    "stem": "Which Catholic power paid subsidies to support Sweden's war against the Habsburg emperor, showing that the war was not only about religion?",
+    "stem": "In 1631 France agreed to pay Sweden to keep fighting the Habsburg emperor. Which conclusion about the war is best supported by this alliance and by Gustavus's reply?",
     "options": {
-     "A": "Spain",
-     "B": "Bavaria",
-     "C": "Poland",
-     "D": "France"
+     "A": "Rulers chose their allies mainly because they shared the same faith.",
+     "B": "Protestant rulers asked the pope to settle their quarrels with the emperor.",
+     "C": "The emperor relied mainly on Protestant kingdoms to fight his wars.",
+     "D": "Rulers often fought to protect their states' power, not only their faith."
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. Spain was ruled by a branch of the Habsburg family and fought on the emperor's side.",
-     "B": "Incorrect. Maximilian, the Catholic duke of Bavaria, led the Catholic League. He fought on the emperor's side.",
-     "C": "Incorrect. Catholic Poland had fought Sweden in the 1620s and was its rival around the Baltic Sea.",
-     "D": "Correct. Under Cardinal Richelieu, Catholic France agreed in 1631 to pay Sweden to fight the Habsburgs, and in 1635 France entered the war itself."
+     "A": "Incorrect. Gustavus speaks of a fight \"between God and the devil,\" but Catholic France and Lutheran Sweden became allies anyway.",
+     "B": "Incorrect. Neither the passage nor the alliance shows Protestant rulers turning to the pope. Protestants rejected the pope's authority.",
+     "C": "Incorrect. The emperor relied mainly on Catholic allies, such as Spain and the Catholic League led by Bavaria. Gustavus fought against him.",
+     "D": "Correct. Gustavus says he seeks \"the security of my kingdom.\" Catholic France paid Protestant Sweden because Cardinal Richelieu wanted to weaken the Habsburgs, France's great rivals."
     },
-    "explanation": "Cardinal Richelieu, France's chief minister, cared more about weakening the Habsburgs than about religion. In 1631 Catholic France agreed to pay Protestant Sweden to keep fighting. In 1635 France itself joined the war against the Habsburgs.",
+    "explanation": "Gustavus says he wants \"the security of my kingdom.\" Cardinal Richelieu, France's chief minister, wanted to weaken the Habsburgs, who ruled Spain and Austria. So in 1631 Catholic France agreed to pay Lutheran Sweden, and in 1635 France itself joined the war. Political interests mattered as much as religion.",
     "reasoning": "Causation"
    },
    {
@@ -2988,10 +2958,10 @@
     "rationales": {
      "A": "Incorrect. The Peace of Westphalia accepted the religious split in the empire. It ended hopes of restoring Catholic unity.",
      "B": "Incorrect. The Holy Roman Empire lasted until 1806. The peace gave its princes more power, but it did not end the empire.",
-     "C": "Correct. The Peace of Westphalia (1648) added Calvinism to the faiths a ruler could follow and confirmed the princes' control over religion in their own lands.",
+     "C": "Correct. The Peace of Westphalia (1648) recognized Calvinism along with Catholicism and Lutheranism. It confirmed the princes' control over religion in their lands, but it also protected rights of worship as they had stood in 1624.",
      "D": "Incorrect. The peace kept Catholic, Lutheran, and Calvinist states side by side. No single church became official everywhere."
     },
-    "explanation": "The Peace of Westphalia (1648) made Calvinism a legal faith next to Catholicism and Lutheranism. It gave the empire's princes more control over religion and over their own lands. Sweden and France gained territory.",
+    "explanation": "The Peace of Westphalia (1648) recognized Catholicism, Lutheranism, and Calvinism. Princes kept strong control over religion in their lands, but they had to respect rights of worship that had existed in 1624. The princes also gained more power over their own lands, and Sweden and France gained territory.",
     "reasoning": "Continuity and Change"
    },
    {
@@ -3005,17 +2975,17 @@
     "options": {
      "A": "that God has already chosen which people will be saved and which will not",
      "B": "that monasteries should be closed and their lands sold for the public good",
-     "C": "that Scripture alone, without church tradition, is the source of religious truth",
+     "C": "that Scripture alone is the final authority in matters of faith",
      "D": "that the bread of the Lord's Supper does not become the body of Christ"
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. These decrees deal with which books and traditions carry God's truth and who may interpret them, not with who will be saved.",
+     "A": "Incorrect. These decrees deal with where God's truth is found and with printing religious books, not with who will be saved.",
      "B": "Incorrect. These decrees say nothing about monasteries.",
      "C": "Correct. Luther and other reformers said Scripture alone was the final authority. The Council answered that God's truth is found in Scripture and in \"unwritten traditions.\"",
      "D": "Incorrect. These decrees are about Scripture, tradition, and printing, not about the Lord's Supper."
     },
-    "explanation": "Protestants said Scripture alone had the final say, and that believers could read it for themselves. The Council answered that truth is found in Scripture and in \"unwritten traditions.\" It also said that only \"holy mother Church\" may judge what Scripture truly means."
+    "explanation": "Protestant reformers said Scripture alone had the final say. The Council answered that God's truth is found both in Scripture and in \"unwritten traditions\" handed down from the apostles, and it honored both \"with an equal affection of piety.\""
    },
    {
     "id": "E2-E13",
@@ -3049,17 +3019,17 @@
     "difficulty": "medium",
     "stem": "Which later Catholic measure most directly continued the policy in the decree on printers?",
     "options": {
-     "A": "The Edict of Nantes",
-     "B": "The Peace of Augsburg",
-     "C": "The Index of Prohibited Books",
-     "D": "The Concordat of 1801"
+     "A": "The founding of seminaries to train priests",
+     "B": "The papal reform of the calendar in 1582",
+     "C": "An official papal list of forbidden books",
+     "D": "The opening of Jesuit schools in many cities"
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. The Edict of Nantes (1598) was a French royal decree that gave Protestants the right to worship. It was not a church rule about books.",
-     "B": "Incorrect. The Peace of Augsburg (1555) let German princes choose Catholicism or Lutheranism. It was not about books.",
+     "A": "Incorrect. In 1563 the Council of Trent ordered seminaries to train priests. They educated clergy; they did not control books.",
+     "B": "Incorrect. Pope Gregory XIII reformed the calendar in 1582 to fix the date of Easter. It had nothing to do with books.",
      "C": "Correct. The papacy issued the Index, a list of books Catholics were forbidden to read, in 1559, and a revised Index followed the Council of Trent in 1564.",
-     "D": "Incorrect. Napoleon's Concordat with the pope (1801) dealt with relations between church and state in France."
+     "D": "Incorrect. Jesuit schools spread Catholic education from the 1540s on. They taught students; they did not ban books."
     },
     "explanation": "In 1559 the pope issued the Index of Prohibited Books, a list of books Catholics were not allowed to read. A new Index came out in 1564, after the Council of Trent.",
     "reasoning": "Continuity and Change"
@@ -3071,7 +3041,7 @@
     "lo": "E",
     "skill": "5.B",
     "difficulty": "medium",
-    "stem": "Which of the following most likely contributed to the rise in witchcraft trials in 1638–1657 compared with 1618–1637?",
+    "stem": "Which of the following most likely contributed to the increase in people indicted for witchcraft in 1638–1657 compared with 1618–1637?",
     "options": {
      "A": "The Spanish Inquisition",
      "B": "The Scientific Revolution",
@@ -3081,7 +3051,7 @@
     "answer": "D",
     "rationales": {
      "A": "Incorrect. The Spanish Inquisition never worked in England, and these trials were held in the king's courts.",
-     "B": "Incorrect. New scientific ideas later helped make educated people doubt witchcraft, which lowered the number of trials.",
+     "B": "Incorrect. New scientific ideas do not explain a sudden rise in the 1640s. The English Civil War, which disrupted government in these counties, is a more direct cause.",
      "C": "Incorrect. Elizabeth I's witchcraft law dates from 1563, long before this rise.",
      "D": "Correct. During the English Civil War (1642–1651), normal government broke down and fear ran high. In 1645 Matthew Hopkins led a witch hunt in Essex."
     },
@@ -3097,19 +3067,19 @@
     "difficulty": "easy",
     "stem": "Which of the following conclusions is best supported by the data?",
     "options": {
-     "A": "Witchcraft trials in these courts rose steadily from 1558 to 1707.",
+     "A": "Witchcraft indictments in these courts rose steadily from 1558 to 1707.",
      "B": "Most people indicted for witchcraft in these courts were not hanged.",
      "C": "More people were hanged in 1588–1597 than in any other decade.",
-     "D": "Witchcraft trials in these courts stopped in the 1660s."
+     "D": "Witchcraft indictments in these courts stopped in the 1660s."
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. Trials peaked in 1578–1597, fell, rose again in 1638–1657, and then dropped almost to zero.",
-     "B": "Correct. In every decade fewer people were hanged than were indicted. In all, 513 people were indicted and 112 were hanged.",
+     "A": "Incorrect. Indictments peaked in 1578–1597, fell, rose again in 1638–1657, and then dropped almost to zero.",
+     "B": "Correct. In every decade fewer people were hanged than were indicted. In all, the records list 513 people indicted and 112 hanged.",
      "C": "Incorrect. More people were hanged in 1638–1647 (22) than in 1588–1597 (18).",
-     "D": "Incorrect. Trials continued after the 1660s in small numbers, until 1698–1707."
+     "D": "Incorrect. Indictments continued after the 1660s in small numbers, until 1698–1707."
     },
-    "explanation": "In every decade fewer people were hanged than were indicted. Of the 513 people indicted, 112 were hanged, so about four out of five escaped hanging."
+    "explanation": "The records list 513 people indicted and 112 hanged, about 22 percent. So most people indicted in these courts were not hanged."
    },
    {
     "id": "E2-E17",
@@ -3150,9 +3120,9 @@
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Marie de' Medici ordered the series of paintings to celebrate her life and her right to rule as queen and regent after her husband's death.",
+     "A": "Correct. Marie ordered the series to celebrate her life, defend her years in power, and strengthen her standing as the king's mother.",
      "B": "Incorrect. Rubens painted the series for Marie herself, so it praises the court instead of criticizing it.",
-     "C": "Incorrect. Rubens arranged the scene to flatter the queen. Such paintings were meant to impress, not to be exact records.",
+     "C": "Incorrect. The flying figures pouring gold coins are symbols of glory, not people who were really there. Rubens painted an idealized scene, not an exact record.",
      "D": "Incorrect. The painting honors a Catholic ceremony, with bishops and cardinals taking part. It does not promote Protestant worship."
     },
     "explanation": "In 1622 Marie de' Medici hired Rubens to paint 24 large pictures for her palace in Paris. Most show scenes from her life. Like many Baroque works paid for by rulers, they were meant to show her power and glory."
@@ -3162,23 +3132,23 @@
     "set": "X6",
     "topic": "2.4",
     "lo": "C",
-    "skill": "4.B",
-    "difficulty": "easy",
-    "stem": "King Henry IV of France, who watches from the balcony in the painting, is best known for which of the following?",
+    "skill": "1.B",
+    "difficulty": "medium",
+    "stem": "King Henry IV, who watches from the balcony, had once led the French Protestants. Which policy did he use to bring peace to France?",
     "options": {
-     "A": "Signing the Peace of Augsburg",
-     "B": "Issuing the Edict of Nantes",
-     "C": "Passing the Act of Supremacy",
-     "D": "Issuing the Edict of Worms"
+     "A": "Giving the pope control over the choice of bishops in France",
+     "B": "Allowing Huguenot worship in some places within a Catholic kingdom",
+     "C": "Requiring French nobles to accept Calvinism in their lands",
+     "D": "Letting each French province choose either Catholicism or Lutheranism"
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. The Peace of Augsburg (1555) was made in the Holy Roman Empire, under Emperor Charles V's brother Ferdinand.",
-     "B": "Correct. In 1598 Henry IV issued the Edict of Nantes, which gave French Protestants the right to worship in many places and ended the French Wars of Religion.",
-     "C": "Incorrect. The Act of Supremacy (1534) was an English law that made Henry VIII head of the Church of England.",
-     "D": "Incorrect. The Edict of Worms (1521) was Emperor Charles V's decree against Martin Luther."
+     "A": "Incorrect. Since the Concordat of Bologna (1516), the French king had the right to name bishops, and Henry kept it.",
+     "B": "Correct. In 1598 Henry IV issued the Edict of Nantes. It let Huguenots worship in many places and hold office, while Catholicism stayed France's official religion. It ended the French Wars of Religion.",
+     "C": "Incorrect. Henry became a Catholic in 1593 to win the throne. He did not force anyone to become a Calvinist.",
+     "D": "Incorrect. Letting rulers choose between Catholicism and Lutheranism was the rule of the Peace of Augsburg (1555) in the Holy Roman Empire, not a French policy."
     },
-    "explanation": "Henry IV was a Protestant who became Catholic to win the French throne. In 1598 he issued the Edict of Nantes, which allowed Huguenots to worship in many places and ended the French Wars of Religion. He was murdered in 1610."
+    "explanation": "Henry IV became a Catholic in 1593 to win Paris and the throne. In 1598 he issued the Edict of Nantes. It allowed Huguenots to worship in many places while France stayed officially Catholic, and it ended the French Wars of Religion."
    },
    {
     "id": "E2-E20",
@@ -3215,16 +3185,16 @@
      "A": "taught that marriage was one of seven sacraments administered by priests",
      "B": "allowed priests to marry if they first received special permission from the pope",
      "C": "insisted that monks and nuns keep their vows of lifelong chastity",
-     "D": "rejected required celibacy for clergy and praised marriage as God's plan for all"
+     "D": "rejected required celibacy for clergy and supported marriage for pastors"
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. The Catholic Church counted marriage as one of seven sacraments. Luther did not count marriage as a sacrament, though he honored it.",
      "B": "Incorrect. Luther rejected the pope's authority. He says forbidding marriage is a sign of \"God's enmity to Popedom.\"",
      "C": "Incorrect. Luther urged monks and nuns to leave their vows and marry. In 1525 he married Katharina von Bora, a former nun.",
-     "D": "Correct. The Catholic Church required priests, monks, and nuns to stay unmarried. Luther calls forbidding marriage, \"a law of nature,\" a sign of \"God's enmity to Popedom.\""
+     "D": "Correct. The Catholic Church required priests, monks, and nuns to stay unmarried. Luther calls marriage \"a law of nature\" and says forbidding it is a sign of \"God's enmity to Popedom.\""
     },
-    "explanation": "The Catholic Church did not let priests, monks, or nuns marry. Luther said marriage is \"a law of nature.\" Banning it was like telling people not \"to eat, to drink, to sleep.\" Protestant pastors married and had families.",
+    "explanation": "The Catholic Church did not let priests, monks, or nuns marry. Luther said marriage is \"a law of nature.\" Banning it was like telling people not \"to eat, to drink, to sleep.\" Protestant pastors married and had families, though Luther accepted that a few people had a special gift from God for staying unmarried.",
     "reasoning": "Comparison"
    },
    {
@@ -3233,20 +3203,20 @@
     "topic": "2.6",
     "lo": "E",
     "skill": "2.C",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "A historian studying the daily lives of married women in Lutheran towns would find the passage limited mainly because it",
     "options": {
      "A": "gives a male reformer's opinions, not women's own experiences",
-     "B": "was recorded before the Protestant Reformation had begun in Germany",
-     "C": "describes Catholic marriage customs rather than Lutheran ones",
-     "D": "was written as a law that Lutheran families in Wittenberg were required to obey"
+     "B": "gives more attention to royal households than to the households of townspeople",
+     "C": "discusses the closing of convents rather than life within married households",
+     "D": "compares Catholic and Lutheran customs rather than presenting views about wives"
     },
     "answer": "A",
     "rationales": {
      "A": "Correct. The remarks show what one Protestant leader thought women should be. To learn about women's actual lives, a historian would need sources such as women's letters, court records, and household accounts.",
-     "B": "Incorrect. Luther made these remarks in the 1530s and 1540s, years after the Reformation had begun.",
-     "C": "Incorrect. Luther describes his own marriage and his own beliefs as a Protestant reformer.",
-     "D": "Incorrect. These were remarks at dinner, not a law. They show opinions, not rules that were enforced."
+     "B": "Incorrect. Luther talks about wives and households in general. He says nothing about royal households.",
+     "C": "Incorrect. The passage is about marriage and life at home. It does not discuss convents.",
+     "D": "Incorrect. Luther states his own views about wives directly. He mentions \"Popedom\" only to attack its ban on marriage."
     },
     "explanation": "The passage shows what one leading reformer believed about women and marriage. It does not show how women in Lutheran towns actually lived, worked, or thought."
    },
@@ -3283,18 +3253,18 @@
     "stem": "Which of the following, if true, would most challenge Weber's argument?",
     "options": {
      "A": "Calvinist merchants in the Dutch Republic built one of Europe's richest trading economies during the 1600s.",
-     "B": "Banking and trade flourished in Catholic cities such as Florence and Venice before the Reformation.",
+     "B": "Catholic and Calvinist merchants in similar regions showed the same habits of work and saving.",
      "C": "Puritan preachers in England urged believers to work hard at the jobs God had called them to.",
      "D": "Calvinist church courts in Geneva punished people for laziness and wasteful spending."
     },
     "answer": "B",
     "rationales": {
      "A": "Incorrect. Dutch Calvinist wealth fits Weber's argument, so it supports rather than challenges it.",
-     "B": "Correct. If capitalism was already strong in Catholic cities such as Florence and Venice in the 1300s and 1400s, then Protestant ideas cannot be its main cause.",
+     "B": "Correct. Weber argues that Calvinist worry about being \"one of the elect\" pushed believers toward \"intense worldly activity\" and saving. If Catholic merchants in similar places worked and saved in the same ways, Calvinist beliefs would not explain those habits.",
      "C": "Incorrect. Puritan preaching about hard work in a calling is the kind of evidence Weber uses to support his argument.",
      "D": "Incorrect. Punishing laziness and waste fits Weber's claim that Calvinists valued discipline and saving."
     },
-    "explanation": "Weber ties the rise of capitalism to Protestant ideas. But the Medici bankers of Florence and the merchants of Venice ran big businesses long before the Reformation. Many historians use this fact to argue against Weber.",
+    "explanation": "Weber links Calvinist beliefs to habits of hard work and saving. Evidence that Catholics in similar places had the same habits would weaken that link. Weber himself wrote that capitalism existed long before the Reformation, for example in Florence. His argument is about the attitude toward work and saving that Calvinism encouraged, so earlier banking in Catholic cities would not, by itself, disprove it.",
     "reasoning": "Causation"
    },
    {
@@ -3315,7 +3285,7 @@
     "rationales": {
      "A": "Correct. In the 1500s and 1600s Europe's commercial economy grew. Antwerp and later Amsterdam became centers of trade, banking, and joint-stock companies such as the Dutch East India Company (1602).",
      "B": "Incorrect. Mediterranean trade continued, and trade across the Atlantic and with Asia grew quickly in this period.",
-     "C": "Incorrect. After the Black Death, money payments and markets spread, and Europe moved further away from self-sufficient manors.",
+     "C": "Incorrect. Western Europe's growing markets, banking, and overseas trade made its economy more commercial. A return to self-sufficient manors would not explain that growth.",
      "D": "Incorrect. Steam-powered factories came with the Industrial Revolution, which began in Britain after about 1760."
     },
     "explanation": "In the 1500s and 1600s, trade with the Americas and Asia made cities like Antwerp and Amsterdam rich. New banks and trading companies, such as the Dutch East India Company (1602), helped business grow."

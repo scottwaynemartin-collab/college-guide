@@ -1,0 +1,297 @@
+ChatGPT Pro review of AP European History Unit 1 bank (v2026-11-09b)
+Source: ChatGPT conversation https://chatgpt.com/c/6af13ed7-bf14-83e8-9b07-bdf04916da9d (Chrome tab 1294094633), "Review AP Euro Items"; read with get_page_text on 2026-11-08. Worked for 26m 37s. Citation chips from the page are kept as plain text lines.
+
+---
+
+I reviewed all 73 items and all 24 source sets, including the feedback, glossaries, captions, and source notes. Findings only are below. The proposed repairs retain the existing answer letters. Apply source corrections wherever the wording recurs in the attribution, source inventory, or notes.
+
+1. MUST-FIX
+E1-E02 — D does not securely qualify the argument actually quoted
+
+Burckhardt's central claim concerns the emergence of individual identity in Italy. Erasmus's use of learning for religious reform does not directly challenge that claim. Medieval autobiography supplies a clearer qualification. Abelard's account predates the Italian Renaissance.
+sourcebooks.web.fordham.edu
+
+Replace:
+
+D: "Medieval writers such as Peter Abelard described their own experiences and inner lives."
+Explanation: "Abelard wrote about his own life in the 1100s. His work shows that people expressed a strong sense of self before the Italian Renaissance. This limits Burckhardt's sharp contrast between medieval and Renaissance people."
+D rationale: "Correct. Medieval autobiography provides evidence of personal identity before the period when Burckhardt says Italian individuality developed."
+E1-E03 — Artists did not first begin signing works during the Renaissance
+
+Medieval artists also signed works. The current option and explanation turn a change in emphasis into an invention.
+Getty News
+
+Replace:
+
+A: "Artists such as Benvenuto Cellini wrote autobiographies that celebrated their talents and achievements."
+Explanation: "Cellini's account of his own life presents him as a person with special talents and achievements. This supports Burckhardt's argument that Renaissance culture placed greater value on the individual."
+A rationale: "Correct. Cellini's autobiography highlights his own skills and deeds, matching Burckhardt's emphasis on individual identity."
+Source X4 / E1-E11–E1-E12 — The 1610 figure is internally inconsistent
+
+The bank correctly copies Rogers's 43 weeks, but his printed grain prices and daily wage imply approximately 56.4 six-day working weeks. This is a problem in the underlying source. Remove the inconsistent row; also identify the figures as estimates using selected wage rates, not national averages.
+Six Centuries of Work and Wages
+
+Replace:
+
+Table: Delete the 1610 row.
+Title: "Rogers's Estimates of Weeks of Work Needed to Buy a Year's Grain, Selected English Wage Rates, 1495–1593"
+Note: "Rogers's yearly grain basket contained three quarters of wheat, three of malt, and two of oatmeal. A quarter equals eight bushels. He used wages paid in 1495 and official wage rates from Rutland in 1564 and the East Riding of Yorkshire in 1593. These are selected estimates, not national averages. Wheat prices were unusually high in 1564."
+E1-E11 stem: "During the period 1495 to 1593, the major factor explaining the trend shown in the table was that"
+E1-E11 explanation: "In Rogers's estimates, a craftsman needed about 10 weeks of work to buy the grain in 1495 and 40 weeks in 1593. Grain prices rose faster than wages."
+E1-E12 explanation: "At the 1593 wage rate used here, a farm laborer's yearly pay would not buy the full grain supply. Such pressure helped increase poverty and demands for poor relief."
+Source-note replacement for the 1610 entry: "The 1610 row is omitted because Rogers's stated 43 weeks does not match his listed prices and wage rate."
+E1-E25 — The two quantities do not establish the claimed change
+
+A license authorizing 4,000 people is not a measure of the entire trade in 1518. The license itself refers to an existing trade, and its omitted text preserves earlier licenses. Comparing it with a claimed annual total from Luanda cannot establish that the trade began as one limited license.
+
+Replace:
+
+Stem: "Taken together, the two sources best support which conclusion about European participation in the Atlantic slave trade?"
+C: "Royal and religious authorities linked the enslavement of Africans to spreading Christianity."
+Explanation: "The 1518 license requires the captives to become Christians. In 1610, Brandão argues that conversion helps justify the trade. Both documents link slavery to spreading Christianity."
+C rationale: "Correct. The king requires Christian conversion, while Brandão cites church approval and the salvation of captives."
+E1-P23 — False workshop chronology; the painting cannot establish a population majority
+
+The why-not A incorrectly places large workshops entirely after the 1500s. Also, one commissioned painting cannot establish that most Europeans lived a particular way. Test what the image actually illustrates.
+
+Replace the item with:
+
+Stem: "Which feature of rural life in sixteenth-century Europe is most clearly illustrated by the painting?"
+
+A: "Farm families focused mainly on making cloth for urban merchants."
+B: "Landowners had replaced grain fields with pasture for sheep."
+C: "Farm work followed the seasons and relied heavily on human labor."
+D: "Peasants performed their harvest work under direct supervision by royal officials."
+
+Key: C
+
+Explanation: "Workers cut and bundle wheat by hand during harvest season. The scene illustrates the seasonal rhythm of farm life."
+
+Why-not A: "The painting focuses on harvesting grain, not making cloth."
+Why-not B: "The field is planted with grain, not used as sheep pasture."
+Why-not D: "The painting does not show royal officials directing the workers."
+Hint: "Look at the workers' tools and the crop they are gathering."
+Other factual corrections in questions and feedback
+Item | Problem | Exact replacement
+E1-P15 | Italians did participate in the Hundred Years' War; Genoese crossbowmen at Crécy are a clear example. The claim that Constantinople's fall "did not shame Italian soldiers" is also unsupported. [Royal Armouries] | Why-not A: "The fall of Constantinople occurred in 1453. The passage refers more directly to the foreign invasions of Italy that began in 1494." Why-not C: "The Hundred Years' War ended in 1453. The passage refers more directly to the recent French and Spanish invasions of Italy."
+E1-P20 | English landowners did not begin producing for markets in the 1500s; commercial agriculture existed centuries earlier. [Institute of Historical Research] | Explanation: "English landowners had sold farm products for centuries. In More's time, demand for wool encouraged some to turn crop fields into sheep pasture. This could raise their profits while leaving tenants without homes or work."
+E1-P41 | Spain's restrictions were not an exceptionless ban on foreign merchants. Foreigners could receive licenses. [bpb-us-e1.wpmucdn.com] | Why-not B: "Spain required royal permission for this trade. Some foreign merchants received licenses, but Hawkins had no Spanish license for his voyage."
+Source P15 / E1-P43–E1-P45 | Double-entry bookkeeping does not mean one account for "what is owed" and another for "what is paid." [KU Libraries Exhibits] | Glossary: "debit and credit method = double-entry bookkeeping, which records each business deal in two or more accounts, with equal total debits and credits"
+E1-E16 | Parliament's role in approving taxation long predates the 1600s. [UK Parliament] | B rationale: "Incorrect. Parliament already helped approve taxation before Henry VII. This passage concerns royal control of nobles, not Parliament gaining control over royal finances."
+E1-E18 | The Golden Bull confirmed and regulated an existing electoral system; it did not originate the princes' power to elect the emperor. [avalon.law.yale.edu] | B: "The Golden Bull's confirmation of the German electors' privileges" B rationale: "Incorrect. The Golden Bull of 1356 confirmed election rules and the privileges of seven electors. It reinforced their position rather than extending a ruler's control over nobles."
+
+Source P16 / E1-P46–E1-P48 — Lea's "1489 … all three" chronology is unreliable
+
+The quotation matches Lea, but control of the orders developed in separate stages. Their permanent attachment to the crown came in 1523. Do not teach Lea's compressed chronology as settled fact.
+Ministerio de Cultura
+
+Replace:
+
+End of the excerpt: Delete the sentence beginning "From Innocent VIII, in 1489." End the third paragraph after "of Calatrava and of Alcantara. …"
+E1-P46 why-not D: "The crown gained control of the orders with papal approval. Lea treats this as a step toward stronger royal power."
+Glossary: "military Orders = Catholic religious groups of knights that held land and wealth, each led by a master"
+Delete the now-unused glossary entries for Innocent VIII and brief.
+Context note: "Ferdinand gained control of the three military orders in separate stages in the late 1480s and 1490s. Their administration was permanently attached to the crown in 1523."
+Source P1 / E1-P01–E1-P03 — Missing omission mark
+
+The cited edition has an ellipsis after the first paragraph's "whole world." Retain it so the bank does not present separated passages as continuous.
+history.hanover.edu
+
+Replace the paragraph ending with: "than anything else in the whole world. …"
+Source-note replacement: "Paragraph 1 reproduces the opening of the printed extract; the printed ellipsis after 'the whole world.' is retained."
+Source P5 / E1-P13–E1-P15 — Incorrect page numbers
+
+The excerpt is on 58–59, not 57–58. The page break falls inside "only / too true."
+gutenberg.org
+
+Replace "pp. 57–58" with "pp. 58–59" throughout.
+Locator: "Book I, §§ 43–44, pp. 58–59."
+Replace the running-head note with: "The footer page number '58' and the following running head 'THE FIRST BOOK OF THE COURTIER' were removed from the break between 'only' and 'too true.'"
+2. SHOULD-FIX
+E1-P07 — Two distractors identify recipients ruled out by the attribution
+
+Keep C. Replace:
+
+A: "warn Milan's ruler that warfare threatened artists and scholars"
+B: "ask Milan's ruler to protect the privileges of painters' guilds"
+D: "persuade Milan's ruler to buy weapons from other Italian states"
+Why-not A: "Leonardo offers military inventions and services. He does not ask the ruler to avoid warfare."
+Why-not B: "Leonardo promotes his own skills, rather than making a request on behalf of a guild."
+Why-not D: "Leonardo offers inventions and services he can provide himself."
+E1-P09 — "Big guns" → "gunpowder weapons" is nearly tautological
+
+The invented firearms ban is also implausible. Test the technology's consequences for exploration.
+
+Stem: "The military technology Leonardo describes later helped European states expand overseas primarily by"
+
+A: "giving armed ships and forts greater power to control ports and sea routes"
+B: "allowing merchants to spread the financial risk of long voyages among investors"
+C: "helping sailors estimate their latitude during voyages far from land"
+D: "increasing the amount of cargo that merchant ships could carry"
+
+Explanation: "Cannons helped Europeans attack or defend ships and coastal forts. Portugal used this firepower to control some ports and key routes in the Indian Ocean."
+
+Why-not B: "Investments in trading companies spread financial risk. Cannons did not."
+Why-not C: "Navigational tools such as the astrolabe helped sailors estimate latitude."
+Why-not D: "Ship design affected cargo space. Leonardo's inventions concern military power."
+Hint: "How could cannons help a state control trade along a distant coast?"
+E1-P11 — "Praise" and an entirely "new way" of thinking overstate the passage
+
+The safer target is Machiavelli's explicit description of religion as a political instrument.
+
+Replace:
+
+Stem: "Machiavelli's description of religion as a 'cloak' and a 'pretext' best reflects which of the following?"
+D: "Analyzing how rulers use religion to strengthen their political power"
+Explanation: "Machiavelli describes how Ferdinand used religion to support wars and strengthen royal control. He treats religion as a tool of politics."
+Why-not B: "The passage focuses on the political uses of religion, rather than on a ruler's duty to follow Christ's teachings."
+Why-not C: "The passage explains how Ferdinand gained power. It does not discuss rules that limit a ruler's actions."
+Hint: "What do the words 'cloak' and 'pretext' suggest about Ferdinand's use of religion?"
+E1-P29 — The attribution supplies the answer; every distractor is later
+
+Replace:
+
+Stem: "The method used to produce this map most directly helped spread new geographic knowledge by"
+
+A: "giving navigators a reliable way to measure longitude at sea"
+B: "allowing geographic information to reach more readers across Europe"
+C: "settling disputes between Spain and Portugal over overseas territories"
+D: "giving governments tighter control over reports from overseas voyages"
+
+Explanation: "Printing allowed many copies of a map to be made. More readers could study information gathered during recent voyages."
+
+Why-not A: "Printing reproduced maps; it did not solve the problem of measuring longitude at sea."
+Why-not C: "Spain and Portugal negotiated claims through treaties. Printing a map did not settle those disputes."
+Why-not D: "Printed copies helped information circulate. The source does not show stronger government control over those reports."
+Hint: "How could making many copies change who had access to geographic information?"
+E1-P44 — All three distractors can be eliminated by chronology
+
+Replace:
+
+Stem: "Pacioli's advice about credit and written accounts is best understood in the context of which of the following developments?"
+
+A: "Stricter guild rules controlling the training of urban craftspeople"
+B: "Growing reliance on rents and labor dues from peasant households"
+C: "Church efforts to limit the interest charged on loans"
+D: "Expanding banking networks and long-distance trade among Italian cities"
+
+Replace the corresponding feedback:
+
+Why-not A: "Guilds regulated crafts and training. Pacioli's advice concerns merchants' money and accounts."
+Why-not B: "Rent and labor dues supported landowners. The passage concerns trade, credit, and business records."
+Why-not C: "Church teachings shaped views about lending, but Pacioli does not discuss interest rates."
+E1-E10 — Distractors are implausible opposites of printing and commerce
+
+Keep D. Replace:
+
+A: "the continued production of luxury manuscripts for courtly patrons"
+B: "the expansion of university teaching in Latin theology"
+C: "the collection of Greek and Roman manuscripts by humanist scholars"
+A rationale: "Incorrect. Luxury manuscripts were handwritten. The books shown here were printed."
+B rationale: "Incorrect. These books concern arithmetic and worship, rather than university teaching in Latin theology."
+C rationale: "Incorrect. These books concern business and Christian worship, rather than recovered ancient texts."
+E1-E14 — Luther and Trent make chronology do most of the work
+
+Keep A. Use contemporary alternatives:
+
+B: "Venice's efforts to protect its Mediterranean trading routes"
+C: "the papacy's efforts to reunite the Greek and Latin churches"
+D: "Italian rulers' plans for a crusade against Ottoman expansion"
+B rationale: "Incorrect. Valla attacks the pope's claims to land; he does not discuss Venetian trade."
+C rationale: "Incorrect. Valla questions papal rule over territory, not the division between the Greek and Latin churches."
+D rationale: "Incorrect. Valla challenges the pope's territorial claims; he does not argue for war against the Ottomans."
+E1-E17 — Distractors invent biographical facts about Bacon
+
+The current item rewards rejecting fabricated biographies. Use genuine features of the evidence as competing considerations.
+
+Keep A. Replace:
+
+B: "Bacon used an anecdote rather than a list of royal laws."
+C: "Bacon described an encounter with a noble rather than an ordinary worker."
+D: "Bacon named a fine without comparing it with other royal fines."
+B rationale: "Incorrect. An anecdote can be useful evidence. The greater concern is whether this later report accurately records the event."
+C rationale: "Incorrect. An encounter with a noble is relevant to studying Henry VII's control of nobles."
+D rationale: "Incorrect. Comparing fines could show how unusual the penalty was, but it would not establish whether the reported event occurred."
+Additional weak distractors
+Item | Exact replacement
+E1-P15 — Disease is an obvious mismatch for "martial valour." | B: "the wars between Italian cities and Holy Roman emperors during the Middle Ages" Why-not B: "The passage points to the recent French and Spanish invasions, rather than earlier medieval struggles against emperors."
+E1-P39 — Russian serfdom spreading to America is implausible. | D: "the growth of tobacco farms worked by European indentured servants" Why-not D: "European indentured servants worked on many tobacco farms. Sugar plantations relied increasingly on enslaved Africans."
+E1-E04 — D names countries contradicted immediately by the attribution. | D: "Source 1 assigns territory by a negotiated boundary, while Source 2 assigns trading rights according to earlier voyages." D rationale: "Incorrect. The treaty establishes a boundary, but Grotius says every nation has a right to trade. He does not give priority to the nation that sailed a route first."
+E1-E06 — Native American guides for this Atlantic survey are implausible. | C: "European efforts to reach Asian markets by sailing around Africa" C rationale: "Incorrect. The paragraph describes a joint survey to locate an Atlantic boundary, not a voyage around Africa to reach Asia."
+
+Precision in explanations, glossaries, and source presentation
+
+E1-P25 — Prevent the mistaken inference that an entire edition was printed in one day. Caxton means the copies shared a starting day and a finishing day.
+dev.gutenberg.org
+
+Replace explanation: "Caxton wanted to supply several readers without copying each book by hand. Printing let him produce an edition together. The copies shared a starting day and a finishing day; the whole job took longer than one day."
+
+E1-P28 — The why-not lines use invalid shortcuts. A mapmaker's nationality does not establish which sources he used; the absence of royal portraits does not prove that a map cannot honor monarchs.
+
+Replace:
+
+Why-not A: "The title credits Ptolemy's geographic tradition; it does not present the Bible as a replacement for that tradition."
+Why-not B: "The title credits Ptolemy, Vespucci, and other voyagers, not Chinese mapmakers."
+Why-not D: "The two portraits feature a geographer and a navigator, not the monarchs who financed voyages."
+
+E1-P30 — Naming America for Vespucci does not itself disprove knowledge of earlier Norse voyages.
+
+Replace why-not D: "The map provides no evidence that its makers knew about Norse voyages. Its title and portraits instead credit Ptolemy and recent Atlantic explorers."
+
+Source P10 / E1-P28–E1-P30 — The exact printing location is presented too confidently. The Library of Congress catalog records the publication location with uncertainty.
+loc.gov
+
+Replace the opening attribution: "Martin Waldseemüller, German mapmaker, world map, 1507; woodcut on twelve sheets. Library of Congress, Washington, D.C."
+
+Source P12.2 / E1-P34–E1-P36 — The footnote leaves out the immediate Portuguese comparison. The omitted passage describes a more painful killing method adopted after observing Portuguese violence.
+gutenberg.org
+
+Replace footnote: "In the omitted passage, Montaigne describes the killing and eating of war captives. He then says some Indigenous people adopted a more painful method of killing after seeing it used by the Portuguese. His account draws partly on a man who had lived in Brazil."
+
+Source X5 / E1-E13–E1-E15 — Clarify Alfonso's status in 1440. His conquest of Naples came in 1442; the current attribution obscures the dispute central to E1-E14.
+collections.louvre.fr
+
+Replace the biographical attribution: "Lorenzo Valla, Italian humanist scholar serving Alfonso V of Aragon and Sicily, who was then pursuing his claim to Naples, treatise on the Donation of Constantine, written in 1440."
+
+E1-E13 — Attribute the linguistic argument to Valla instead of presenting this one observation as complete proof.
+
+Replace A rationale: "Correct. Philology is the study of language in texts. Valla argues that the use of 'satraps' does not fit Constantine's government. He tests the document against ancient language and history."
+Project Gutenberg
+
+Source X6 / E1-E16–E1-E18 — "Yeomen" is defined too narrowly for this passage.
+
+Replace glossary entry: "yeomen = men below the gentry in social rank; here, attendants or retainers serving the earl"
+
+Source P2 / E1-P04–E1-P06 — Incorrect item cross-reference in the notes.
+
+Replace the final context-note sentence: "The phrase 'not one printed' is used in E1-P06 on attitudes toward printed books."
+
+Skill, topic, and difficulty tags
+
+These replacements follow the operation actually tested. The CED permits different topic–skill pairings; a mismatch with its suggested pairing alone is not an error. The French Wars of Religion belong under Topic 2.4, Unit 2 LO C.
+apcentral.collegeboard.org
++1
+
+Item | Replacement metadata | Reason
+E1-P06 | Skill 3.A · easy | Direct interpretation, not evaluation of evidence against an argument.
+E1-P07 | Skill 2.A | Identifies the letter's purpose.
+E1-P09, revised above | Skill 5.B · Causation · medium | Explains a technology's effects.
+E1-P15, E1-P20, E1-P44 | Skill 4.A | Identifies historical context.
+E1-P23, revised above | Skill 1.A | Identifies a historical pattern illustrated visually.
+E1-P24 | Skill 1.B | Concerns merchant patronage, not the source creator's purpose or viewpoint.
+E1-P29, revised above | Skill 5.B · Causation · medium | Explains printing's effect on circulation.
+E1-P30 | Skill 3.A · medium | Interprets a claim conveyed by the map.
+E1-P35 | Skill 1.A | Identifies exploration motives, not evidence used to support an author's argument.
+E1-P36 | Topic 2.4 · Unit 2 LO C · Skill 4.A · medium | Mark as a cross-unit item if retained here.
+E1-P39, revised above | medium | The plantation–slavery connection does not warrant "hard."
+E1-E02, revised above | Topic 1.2 · LO C · Skill 3.D · Continuity and Change · hard | Tests continuity of individual identity.
+E1-E07 | easy | "Dutch" and "East Indies" strongly cue the company's name.
+
+Timed-stimulus trimming
+
+These are editorial recommendations for the 25-minute version, not claims about an official word limit.
+
+Source X2.2 / E1-E04–E1-E07: Replace paragraphs 2–3 with "… Therefore this right belongs equally to all nations." Paragraph 1 already supplies the argument needed by the questions.
+Source X7 / E1-E19–E1-E21: Replace paragraph 1 with "… Of all these nations God our Lord gave charge to one man, called St. Peter, that he should be Lord and Superior of all the men in the world …" Delete the paragraph beginning "If you do so", marking that omission with an ellipsis before "But, if you do not do this". This preserves the papal claim, demand for submission, and threat of enslavement that the items test.
+
+ChatGPT can make mistakes. Check important info.

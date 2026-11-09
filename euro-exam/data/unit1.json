@@ -4,7 +4,7 @@
  "period": "c. 1450–c. 1648",
  "examWeighting": "10–15%",
  "blurb": "The Italian and Northern Renaissance, printing, the new monarchies, the voyages of exploration and the rivalries they caused, the Columbian Exchange, the Atlantic slave trade, and the Commercial Revolution.",
- "version": "2026-11-09b",
+ "version": "2026-11-09c",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 1: Learning Objectives A-O).",
  "topics": [
   {
@@ -188,8 +188,7 @@
      "label": "Source 2",
      "paragraphs": [
       "My intention is to demonstrate briefly and clearly that the Dutch—that is to say, the subjects of the United Netherlands—have the right to sail to the East Indies, as they are now doing, and to engage in trade with the people there. I shall base my argument on the following most specific and unimpeachable axiom of the Law of Nations, called a primary rule or first principle, the spirit of which is self-evident and immutable, to wit: Every nation is free to travel to every other nation, and to trade with it.",
-      "God Himself says this speaking through the voice of nature; and inasmuch as it is not His will to have Nature supply every place with all the necessaries of life, He ordains that some nations excel in one art and others in another. … So by the decree of divine justice it was brought about that one people should supply the needs of another …",
-      "Those therefore who deny this law, destroy this most praiseworthy bond of human fellowship, remove the opportunities for doing mutual service, in a word do violence to Nature herself. For do not the ocean, navigable in every direction with which God has encompassed all the earth, and the regular and the occasional winds which blow now from one quarter and now from another, offer sufficient proof that Nature has given to all peoples a right of access to all other peoples? … Therefore this right belongs equally to all nations."
+      "… Therefore this right belongs equally to all nations."
      ],
      "attribution": "Hugo Grotius, Dutch legal scholar, The Freedom of the Seas, 1609",
      "translation": "Translated from the Latin by Ralph Van Deman Magoffin (New York: Oxford University Press, 1916), pp. 7–8; adapted",
@@ -213,14 +212,6 @@
       {
        "t": "immutable",
        "d": "unchangeable"
-      },
-      {
-       "t": "ordains",
-       "d": "orders"
-      },
-      {
-       "t": "encompassed",
-       "d": "surrounded"
       }
      ]
     }
@@ -249,7 +240,7 @@
   },
   "X4": {
    "type": "table",
-   "title": "Weeks of Work Needed to Buy a Year's Grain for a Family in England, Selected Years, 1495–1610",
+   "title": "Weeks of Work Needed to Buy a Year's Grain for a Family in England, Selected Years, 1495–1593 (Rogers's Estimates)",
    "columns": [
     "Year",
     "Skilled craftsman",
@@ -270,14 +261,9 @@
      "1593",
      "40 weeks",
      "more than a full year of work"
-    ],
-    [
-     "1610",
-     "43 weeks",
-     "more than a full year of work"
     ]
    ],
-   "text": "Rogers estimated the grain a family needed for a year (three quarters of wheat, three of malt, and two of oatmeal; a quarter is about eight bushels). For each year, he compared the price of that grain with the daily wages paid or set by local officials. The wages for 1564 and 1610 were set by officials in Rutland, and those for 1593 in the East Riding of Yorkshire. Wheat prices were unusually high in 1564.",
+   "text": "Rogers estimated the grain a family needed for a year (three quarters of wheat, three of malt, and two of oatmeal; a quarter is eight bushels). For each year, he compared the price of that grain with daily wages: wages actually paid in 1495, and wages set by local officials in Rutland in 1564 and in the East Riding of Yorkshire in 1593. These are estimates for selected places, not averages for all of England. Wheat prices were unusually high in 1564.",
    "source": "James E. Thorold Rogers, English economic historian, Six Centuries of Work and Wages: The History of English Labour (New York: G. P. Putnam's Sons, 1884), pp. 389–392"
   },
   "X5": {
@@ -288,7 +274,7 @@
     "\"In this privilege, among other things, is this: We—together with all our satraps and the whole Senate and the nobles also, and all the people subject to the government of the Roman church—considered it advisable that, as the blessed Peter is seen to have been constituted vicar of God on the earth, so the pontiffs who are the representatives of that same chief of the apostles, should obtain from us and our Empire the power of a supremacy greater than the clemency of our earthly imperial serenity is seen to have conceded to it.\"",
     "O thou scoundrel, thou villain! … What! How do you want to have satraps come in here? Numskull, blockhead! Do the Caesars speak thus; are Roman decrees usually drafted thus? Whoever heard of satraps being mentioned in the councils of the Romans? I do not remember ever to have read of any Roman satrap being mentioned, or even of a satrap in any of the Roman provinces."
    ],
-   "attribution": "Lorenzo Valla, Italian humanist scholar who served as secretary to King Alfonso of Aragon, Sicily, and Naples, treatise on the Donation of Constantine, written in 1440. In the third paragraph Valla quotes the Donation",
+   "attribution": "Lorenzo Valla, Italian humanist scholar who served as secretary to King Alfonso V of Aragon and Sicily, who was then fighting to win the kingdom of Naples, treatise on the Donation of Constantine, written in 1440. In the third paragraph Valla quotes the Donation",
    "translation": "Translated from the Latin by Christopher B. Coleman, The Treatise of Lorenzo Valla on the Donation of Constantine (New Haven: Yale University Press, 1922), pp. 27, 85; adapted",
    "footnotes": [
     {
@@ -365,7 +351,7 @@
     },
     {
      "t": "yeomen",
-     "d": "farmers who owned their own land"
+     "d": "men ranked below gentlemen; here, attendants who served the earl"
     },
     {
      "t": "menial servants",
@@ -388,26 +374,21 @@
   "X7": {
    "type": "passage",
    "paragraphs": [
-    "On the part of the King, Don Fernando, and of Doña Juana, his daughter, Queen of Castille and Leon, subduers of the barbarous nations, we their servants notify and make known to you, as best we can, that the Lord our God, Living and Eternal, created the Heaven and the Earth, and one man and one woman, of whom you and we, and all the men of the world, were and are descendants … Of all these nations God our Lord gave charge to one man, called St. Peter, that he should be Lord and Superior of all the men in the world …",
+    "… Of all these nations God our Lord gave charge to one man, called St. Peter, that he should be Lord and Superior of all the men in the world …",
     "One of these Pontiffs, who succeeded that St. Peter as Lord of the world, … made donation of these isles and Terra-firma to the aforesaid King and Queen and to their successors, our lords, with all that there are in these territories … So their Highnesses are kings and lords of these islands and land of Terra-firma by virtue of this donation …",
     "Wherefore, as best we can, we ask and require you that you consider what we have said to you, and that you take the time that shall be necessary to understand and deliberate upon it, and that you acknowledge the Church as the Ruler and Superior of the whole world … and the high priest called Pope, and in his name the King and Queen Doña Juana our lords, in his place, as superiors and lords and kings of these islands and this Terra-firma by virtue of the said donation, and that you consent and give place that these religious fathers should declare and preach to you the aforesaid.",
-    "If you do so, you will do well … and we in their name shall receive you in all love and charity, and shall leave you your wives, and your children, and your lands, free without servitude …",
-    "But, if you do not do this, and maliciously make delay in it, I certify to you that, with the help of God, we shall powerfully enter into your country, and shall make war against you in all ways and manners that we can, and shall subject you to the yoke and obedience of the Church and of their Highnesses; we shall take you and your wives and your children, and shall make slaves of them, and as such shall sell and dispose of them as their Highnesses may command; and we shall take away your goods, and shall do you all the mischief and damage that we can … and we protest that the deaths and losses which shall accrue from this are your fault, and not that of their Highnesses, or ours, nor of these cavaliers who come with us."
+    "… But, if you do not do this, and maliciously make delay in it, I certify to you that, with the help of God, we shall powerfully enter into your country, and shall make war against you in all ways and manners that we can, and shall subject you to the yoke and obedience of the Church and of their Highnesses; we shall take you and your wives and your children, and shall make slaves of them, and as such shall sell and dispose of them as their Highnesses may command; and we shall take away your goods, and shall do you all the mischief and damage that we can … and we protest that the deaths and losses which shall accrue from this are your fault, and not that of their Highnesses, or ours, nor of these cavaliers who come with us."
    ],
    "attribution": "The Requirement (Requerimiento), a statement written in 1513 by Juan López de Palacios Rubios, a legal adviser to the Spanish crown, to be read aloud to Native American peoples by Spanish commanders before they made war",
    "translation": "English translation in Arthur Helps, The Spanish Conquest in America, vol. 1 (London: John W. Parker, 1855), pp. 379–382; adapted",
    "glossary": [
     {
-     "t": "Don Fernando",
-     "d": "King Ferdinand of Aragon, who governed Castile for his daughter, Queen Juana"
-    },
-    {
-     "t": "subduers",
-     "d": "conquerors"
-    },
-    {
      "t": "Pontiffs",
      "d": "popes"
+    },
+    {
+     "t": "the King and Queen Doña Juana",
+     "d": "King Ferdinand of Aragon and his daughter, Queen Juana of Castile, for whom he governed Castile"
     },
     {
      "t": "donation",
@@ -424,10 +405,6 @@
     {
      "t": "religious fathers",
      "d": "priests"
-    },
-    {
-     "t": "servitude",
-     "d": "forced service"
     },
     {
      "t": "maliciously",
@@ -538,7 +515,7 @@
   "P1": {
    "type": "passage",
    "paragraphs": [
-    "Your Cicero has been in my possession four years and more. There is a good reason, though, for so long a delay; namely, the great scarcity of copyists who understand such work. It is a state of affairs that has resulted in an incredible loss to scholarship. Books that by their nature are a little hard to understand are no longer multiplied, and have ceased to be generally intelligible, and so have sunk into utter neglect, and in the end have perished. This age of ours consequently has let fall, bit by bit, some of the richest and sweetest fruits that the tree of knowledge has yielded; has thrown away the results of the vigils and labours of the most illustrious men of genius, things of more value, I am almost tempted to say, than anything else in the whole world.",
+    "Your Cicero has been in my possession four years and more. There is a good reason, though, for so long a delay; namely, the great scarcity of copyists who understand such work. It is a state of affairs that has resulted in an incredible loss to scholarship. Books that by their nature are a little hard to understand are no longer multiplied, and have ceased to be generally intelligible, and so have sunk into utter neglect, and in the end have perished. This age of ours consequently has let fall, bit by bit, some of the richest and sweetest fruits that the tree of knowledge has yielded; has thrown away the results of the vigils and labours of the most illustrious men of genius, things of more value, I am almost tempted to say, than anything else in the whole world. …",
     "But I must return to your Cicero. I could not do without it, and the incompetence of the copyists would not let me possess it. What was left for me but to rely upon my own resources, and press these weary fingers and this worn and ragged pen into the service? … Not a single word did I read except as I wrote. … So the pen held back the eye, and the eye drove on the pen, and I covered page after page, delighting in my task, and committing many and many a passage to memory as I wrote.",
     "… I said to myself, \"So Cicero copied orations that another wrote, and you are not ready to copy his? What ardour! what scholarly devotion! what reverence for a man of godlike genius!\""
    ],
@@ -715,7 +692,7 @@
     "I would have him more than passably accomplished in letters, at least in those studies that are called the humanities, and conversant not only with the Latin language but with the Greek, for the sake of the many different things that have been admirably written therein. Let him be well versed in the poets, and not less in the orators and historians, and also proficient in writing verse and prose, especially in this vulgar tongue of ours …"
    ],
    "attribution": "Baldassare Castiglione, Italian diplomat who served at the court of Urbino, The Book of the Courtier, published in 1528. A nobleman at the court is describing the ideal courtier",
-   "translation": "Translated by Leonard Eckstein Opdycke (New York: Charles Scribner's Sons, 1901), pp. 57–58; adapted",
+   "translation": "Translated by Leonard Eckstein Opdycke (New York: Charles Scribner's Sons, 1901), pp. 58–59; adapted",
    "glossary": [
     {
      "t": "courtier",
@@ -960,7 +937,7 @@
    "height": 709,
    "alt": "A large printed world map made of twelve sheets, with portraits of two men at the top and a Latin title along the bottom.",
    "caption": "A large world map printed in black ink on twelve sheets. Along the bottom runs a Latin title: \"Universalis cosmographia secundum Ptholomaei traditionem et Americi Vespucii aliorumque lustrationes\" (\"A map of the whole world following the tradition of Ptolemy and the voyages of Amerigo Vespucci and others\"). At the top center are two portraits. On the left is Ptolemy, an ancient Greek geographer, holding a quadrant, beside a small map of Europe, Africa, and Asia. On the right is Amerigo Vespucci, an Italian navigator, holding a pair of dividers, beside a small map that shows a new land across the Atlantic. In the main map, Europe, Africa, and Asia fill the center, and the coasts of Africa are drawn in detail. On the far left, a long, narrow land lies between two oceans. On its southern part is the word AMERICA.",
-   "attribution": "Martin Waldseemüller, German mapmaker, world map printed from carved woodblocks at Saint-Dié, in the duchy of Lorraine, 1507",
+   "attribution": "Martin Waldseemüller, German mapmaker, world map printed from carved woodblocks on twelve sheets, 1507",
    "credit": "Library of Congress, Washington, D.C. Public domain image via Wikimedia Commons (file: Waldseemuller map 2.jpg).",
    "description": "A world map assembled from twelve printed sheets in three rows of four. The world is drawn on a curved, heart-like projection with lines of latitude and longitude, surrounded by clouds and the puffing heads of the winds. In the top row, two framed portraits face each other: on the left, the bearded Greek geographer Ptolemy, labeled CLAUDII PTHOLOMEI, holds a quadrant beside a small round map of the Old World; on the right, Amerigo Vespucci, labeled AMERICI VESPUCII, holds a pair of dividers beside a small round map showing a large land across the Atlantic Ocean. In the main map, Europe, North Africa, and Asia stretch across the middle sheets with many place names. Africa is shown as a large continent with a detailed coastline and its southern tip. Asia extends far to the east, with many islands. At the far left, separated from Asia by a wide ocean, is a long, thin land running north to south; on its southern part the word AMERICA is printed. A Latin title runs along the bottom edge: UNIVERSALIS COSMOGRAPHIA SECUNDUM PTHOLOMAEI TRADITIONEM ET AMERICI VESPUCII ALIORUMQUE LUSTRATIONES.",
    "glossary": [
@@ -1067,7 +1044,7 @@
      "footnotes": [
       {
        "mark": "*",
-       "text": "Montaigne has just described how the Tupinambá killed prisoners of war and ate their bodies. He learned about Brazil from a man who had lived there for many years."
+       "text": "Montaigne has just described how the Tupinambá killed prisoners of war and ate their bodies. He then explains that after they saw the Portuguese, who were allied with their enemies, kill prisoners in a more painful way, they began to copy it. He learned about Brazil from a man who had lived there for many years."
       }
      ],
      "glossary": [
@@ -1251,7 +1228,7 @@
     },
     {
      "t": "debit and credit method",
-     "d": "double-entry bookkeeping, which records every deal in two accounts, one for what is owed and one for what is paid"
+     "d": "double-entry bookkeeping, which records each business deal twice, once as a debit in one account and once as a credit in another, so that the two sides balance"
     }
    ]
   },
@@ -1260,7 +1237,7 @@
    "paragraphs": [
     "Great as were the services of the Hermandad* in repressing the turbulence of the nobles and rendering the roads safe, its cost was a source of complaint to the communities which defrayed it. … None of the reforms of Ferdinand and Isabella was so efficient in restoring order and none did more to centralize power. It was not only a rudimentary standing army which could be concentrated speedily to suppress disorder, but it carried the royal jurisdiction into every corner of the land and made the royal authority supreme everywhere. It was practically an alliance between the crown and the people against the centrifugal forces of feudalism …",
     "… Thus the crown had become absolute and its interposition could be invoked for the minutest details of local government. He reads history to little purpose who imagines that this was the work of the Inquisition.",
-    "Another measure of no little importance in establishing the royal supremacy was the virtual incorporation in the crown of the masterships of the three great military Orders of Santiago, of Calatrava and of Alcantara. … From Innocent VIII, in 1489, Ferdinand procured a brief granting him for life the administration of all three …"
+    "Another measure of no little importance in establishing the royal supremacy was the virtual incorporation in the crown of the masterships of the three great military Orders of Santiago, of Calatrava and of Alcantara. …"
    ],
    "attribution": "Henry Charles Lea, American historian, A History of the Inquisition of Spain, vol. 1, 1906",
    "translation": "Text from the first edition (New York: Macmillan, 1906), pp. 32–34; adapted",
@@ -1296,16 +1273,16 @@
      "d": "stepping in"
     },
     {
+     "t": "virtual incorporation in the crown",
+     "d": "being taken over by the crown in practice"
+    },
+    {
+     "t": "masterships",
+     "d": "the posts of master, or leader"
+    },
+    {
      "t": "military Orders",
-     "d": "rich organizations of knights, each led by a master"
-    },
-    {
-     "t": "Innocent VIII",
-     "d": "the pope from 1484 to 1492"
-    },
-    {
-     "t": "brief",
-     "d": "a letter from the pope"
+     "d": "Catholic religious groups of knights that held land and wealth, each led by a master"
     }
    ]
   }
@@ -1432,8 +1409,8 @@
    "set": "P2",
    "topic": "1.4",
    "lo": "E",
-   "skill": "3.D",
-   "difficulty": "hard",
+   "skill": "3.A",
+   "difficulty": "easy",
    "stem": "Vespasiano's remark that none of the books in the library was printed best supports which conclusion?",
    "options": {
     "A": "Some rich collectors at first valued handwritten books more.",
@@ -1459,17 +1436,17 @@
    "difficulty": "easy",
    "stem": "Leonardo most likely wrote this letter in order to",
    "options": {
-    "A": "persuade the pope to start a crusade against the Ottoman Empire",
-    "B": "ask the government of Florence to pay for a public statue",
-    "C": "win a position in the service of a powerful ruler",
-    "D": "offer to train the craftsmen of Milan's guilds"
+    "A": "warn Milan's ruler that warfare threatened artists and scholars",
+    "B": "ask Milan's ruler to protect the privileges of painters' guilds",
+    "C": "win a position in the service of Milan's ruler",
+    "D": "persuade Milan's ruler to buy weapons from other Italian states"
    },
    "answer": "C",
    "explanation": "Renaissance artists needed rich patrons. Leonardo lists all the things he can do, especially for war. He wants the ruler of Milan to hire him. Leonardo did move to Milan in the early 1480s and worked for Ludovico for years.",
    "whyNot": {
-    "A": "The letter is addressed to the ruler of Milan, not the pope, and it does not mention the Ottomans.",
-    "B": "Leonardo is writing to Milan's ruler, offering his own skills. He mentions sculpture as only one of many services.",
-    "D": "Leonardo lists what he himself can build and make. He says nothing about training guild members."
+    "A": "Leonardo offers to build bridges, mortars, and big guns for war. He does not warn the ruler against war.",
+    "B": "Leonardo promotes his own skills. He does not ask for anything on behalf of a guild.",
+    "D": "Leonardo offers weapons he can make himself: \"I will make big guns, mortars and light ordnance.\""
    },
    "hint": "What does Leonardo offer, and to whom?"
   },
@@ -1501,23 +1478,24 @@
    "set": "P3",
    "topic": "1.6",
    "lo": "G",
-   "skill": "1.B",
-   "difficulty": "easy",
-   "stem": "Leonardo's descriptions of mortars and \"big guns\" reflect which development of the period?",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The kind of military technology Leonardo describes later helped European states expand overseas mainly by",
    "options": {
-    "A": "the growing use of cannons and other gunpowder weapons in war",
-    "B": "the return of armored knights as the main force in battle",
-    "C": "a ban on firearms in the Italian city-states",
-    "D": "the use of the lateen sail to make warships faster"
+    "A": "giving armed ships and forts the power to control ports and sea routes",
+    "B": "allowing merchants to spread the financial risk of long voyages among investors",
+    "C": "helping sailors find their latitude during voyages far from land",
+    "D": "increasing the amount of cargo that merchant ships could carry"
    },
    "answer": "A",
-   "explanation": "By the late 1400s, cannons and handguns were changing war in Europe. Better guns later helped Europeans conquer lands and build empires overseas.",
+   "explanation": "Cannons let Europeans attack or defend ships and coastal forts. In the early 1500s, Portugal used this firepower to seize ports such as Goa and Malacca and to control key sea routes in the Indian Ocean.",
    "whyNot": {
-    "B": "Gunpowder weapons and trained foot soldiers were making armored knights less important, not more.",
-    "C": "There was no such ban. Italian states eagerly bought guns and cannons.",
-    "D": "The lateen sail was a real advance in sailing, but Leonardo is describing guns and mortars, not sails."
+    "B": "Joint-stock companies spread the risk of a voyage among many investors. Cannons did not do that.",
+    "C": "Instruments such as the astrolabe and the quadrant helped sailors find their latitude. Cannons are weapons, not tools for finding the way.",
+    "D": "Ship design decided how much cargo a ship could carry. Leonardo's inventions are weapons of war."
    },
-   "hint": "What do mortars and big guns use to fire?"
+   "hint": "Leonardo's inventions are for fighting. Think about how Portugal won trading ports in Asia.",
+   "reasoning": "Causation"
   },
   {
    "id": "E1-P10",
@@ -1549,7 +1527,7 @@
    "lo": "C",
    "skill": "1.B",
    "difficulty": "medium",
-   "stem": "Machiavelli's praise of Ferdinand's \"pious cruelty\" best reflects which of the following?",
+   "stem": "Machiavelli's way of judging Ferdinand's \"pious cruelty\" best reflects which of the following?",
    "options": {
     "A": "The belief that kings receive their power from God",
     "B": "The Christian humanist ideal of a prince who follows Christ",
@@ -1557,13 +1535,13 @@
     "D": "Judging a ruler by his success, not by Christian morals"
    },
    "answer": "D",
-   "explanation": "Machiavelli calls Ferdinand's act \"cruelty,\" yet he says no exploit \"could be more wonderful.\" He praises it because it made Ferdinand powerful. Judging a ruler by results instead of by Christian morals was a new way of thinking about power in the Renaissance.",
+   "explanation": "Machiavelli calls the act \"cruelty,\" yet he says it helped Ferdinand take on \"still greater undertakings\" and that no exploit \"could be more wonderful or uncommon.\" He judges Ferdinand by what his actions achieved, not by Christian morals. This secular way of judging rulers shocked many of Machiavelli's readers.",
    "whyNot": {
     "A": "Thinkers such as Bossuet in the 1600s argued that kings rule by God's will. Machiavelli does not say God chose Ferdinand. He says Ferdinand used religion as a \"cloak\" and a \"pretext.\"",
-    "B": "Christian humanists such as Erasmus urged princes to follow the teachings of Christ and keep the peace. Machiavelli praises Ferdinand's wars and an act he himself calls \"cruelty.\"",
+    "B": "Christian humanists such as Erasmus urged princes to follow the teachings of Christ and keep the peace. Machiavelli lists Ferdinand's wars as great achievements and does not condemn an act he himself calls \"cruelty.\"",
     "C": "Natural-law thinkers such as Grotius later argued that some rules bind all rulers and nations. Machiavelli sets no such limits. He judges actions by whether they make a ruler stronger."
    },
-   "hint": "Machiavelli calls the act \"cruelty,\" yet he praises it. What does he seem to care about most?"
+   "hint": "Machiavelli calls the act \"cruelty.\" What does he seem to care about most when he judges Ferdinand?"
   },
   {
    "id": "E1-P12",
@@ -1640,21 +1618,21 @@
    "set": "P5",
    "topic": "1.1",
    "lo": "A",
-   "skill": "4.B",
+   "skill": "4.A",
    "difficulty": "medium",
    "stem": "The speaker's complaint that \"the Italians have for some time since shown little martial valour\" most likely refers to",
    "options": {
     "A": "the Ottoman conquest of Constantinople, a great Christian city, in 1453",
-    "B": "the Black Death's toll on Italian cities",
+    "B": "the wars between Italian cities and Holy Roman emperors in the Middle Ages",
     "C": "the Hundred Years' War between England and France",
     "D": "the invasions of Italy by French and Spanish armies after 1494"
    },
    "answer": "D",
    "explanation": "In 1494 the French king Charles VIII invaded Italy. French and Spanish armies then fought over Italy for decades. Italy's small states often lost to these big foreign armies. That embarrassed Italians like Castiglione.",
    "whyNot": {
-    "A": "Constantinople was the capital of the Byzantine Empire, not an Italian state. Its fall did not shame Italian soldiers.",
-    "B": "The Black Death struck in 1347–1351, long before this book. It was a disease, not a defeat in war.",
-    "C": "The Hundred Years' War ended in 1453 and was fought between England and France, not by Italians."
+    "A": "Constantinople fell to the Ottomans in 1453, decades before this book. The speaker means more recent defeats, when foreign armies invaded Italy itself after 1494.",
+    "B": "Italian cities fought the German emperors in the 1100s and 1200s, centuries before this book. The speaker says \"for some time since,\" meaning recent years.",
+    "C": "The Hundred Years' War ended in 1453, decades before this book. The speaker means more recent defeats, when French and Spanish armies fought over Italy itself."
    },
    "hint": "The book appeared in 1528. Which choice was still shaming Italian soldiers around that time?"
   },
@@ -1766,7 +1744,7 @@
     "D": "The labor shortage after the Black Death"
    },
    "answer": "C",
-   "explanation": "In the 1500s, English landowners began running their land to make money in the market. Wool sold well, so they enclosed fields for sheep. This commercialization of agriculture helped large landowners but hurt many peasants.",
+   "explanation": "English landowners had sold farm goods for centuries. In More's time, wool sold so well that some of them turned crop fields into sheep pasture. Farming more and more for sale in the market is called the commercialization of agriculture. It raised some landowners' profits but left many tenants without homes or work.",
    "whyNot": {
     "A": "In eastern Europe, nobles tied peasants more tightly to the land as serfs. In England, landlords pushed peasants off the land instead.",
     "B": "More wrote in 1516, two centuries before the Agricultural Revolution of the 1700s.",
@@ -1826,30 +1804,30 @@
    "set": "P8",
    "topic": "1.10",
    "lo": "M",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "medium",
-   "stem": "The painting provides evidence for which of the following about European society in the 1500s?",
+   "stem": "Which feature of rural life in the 1500s is most clearly illustrated by the painting?",
    "options": {
-    "A": "Most people had moved to cities to work in large workshops.",
-    "B": "Machines had replaced most farm labor.",
-    "C": "Most people lived in villages and farmed by the seasons.",
+    "A": "Farm families worked mainly at making cloth for merchants.",
+    "B": "Landowners had turned grain fields into pasture for sheep.",
+    "C": "Farm work followed the seasons and depended on human labor.",
     "D": "Peasants in the Low Countries were bound to the land as serfs."
    },
    "answer": "C",
-   "explanation": "In the 1500s most Europeans were farmers who lived in villages and followed the seasons. Bruegel's harvest scene was one of a series of paintings showing the work of each time of year.",
+   "explanation": "Workers cut and bundle the wheat by hand at harvest time, then rest and eat in the field. Bruegel painted this scene as one of a series showing the work of each time of year. Most Europeans lived by farming, and the seasons set the pattern of their work.",
    "whyNot": {
-    "A": "Most Europeans still lived in the countryside in the 1500s. Cities were growing, but large workshops and factories came much later.",
-    "B": "The harvesters use scythes and their hands. Machines did not replace most farm work until the 1800s and 1900s.",
-    "D": "Serfdom was spreading in eastern Europe, but peasants in the Low Countries were mostly free and often paid rent."
+    "A": "Some rural families did spin and weave cloth for merchants, but these workers are harvesting grain, not making cloth.",
+    "B": "Some English landowners did turn fields into sheep pasture, but this painting shows a field full of wheat.",
+    "D": "Nothing in the painting shows serfdom. Serfdom was spreading in eastern Europe, but most peasants in the Low Countries were free and paid rent."
    },
-   "hint": "Look at the background as well as the people. Where do they live, and what decides the work they do?"
+   "hint": "Look at the workers' tools and the crop they are gathering. What time of year is it?"
   },
   {
    "id": "E1-P24",
    "set": "P8",
    "topic": "1.10",
    "lo": "N",
-   "skill": "2.B",
+   "skill": "1.B",
    "difficulty": "medium",
    "stem": "The fact that the painting was owned by a rich Antwerp merchant best illustrates which development?",
    "options": {
@@ -1882,7 +1860,7 @@
     "D": "the Church had asked him to print copies of the Bible"
    },
    "answer": "A",
-   "explanation": "Caxton's hand and eyes were tired from copying. With a press, he could make many copies at once. All the copies were \"begun in one day, and also finished in one day.\"",
+   "explanation": "Caxton's hand and eyes were tired from copying by hand. With a press, he could make many copies at the same time. When he says all the copies \"were begun in one day, and also finished in one day,\" he means they were made together, not one after another. The printing job itself took much longer than one day.",
    "whyNot": {
     "B": "Caxton says he learned printing \"at my great charge and dispense,\" meaning at his own cost. He does not say anyone ordered him to print.",
     "C": "Caxton never compares how long books last. His point is speed: he is tired of writing by hand.",
@@ -1955,9 +1933,9 @@
    "answer": "C",
    "explanation": "Ptolemy stands for the old Greek geography that Renaissance scholars found again. Vespucci stands for new knowledge from Atlantic voyages. The map joins the two.",
    "whyNot": {
-    "A": "The map honors Ptolemy, an ancient Greek geographer, and says it follows his \"tradition.\" Nothing on it is taken from the Bible.",
-    "B": "The portraits show a Greek geographer and an Italian navigator. Neither is Chinese.",
-    "D": "No king appears on the map. The two portraits show a scholar and a navigator."
+    "A": "The title says the map follows the \"tradition\" of Ptolemy, an ancient Greek geographer. It does not replace his geography with teachings from the Bible.",
+    "B": "The title credits Ptolemy, Vespucci, and other voyagers, not Chinese mapmakers.",
+    "D": "The title and the two portraits honor a geographer and a navigator, not the monarchs who paid for the voyages."
    },
    "hint": "Who are the two men at the top, and what does each one stand for?"
   },
@@ -1966,31 +1944,32 @@
    "set": "P10",
    "topic": "1.4",
    "lo": "E",
-   "skill": "5.A",
+   "skill": "5.B",
    "difficulty": "medium",
-   "stem": "The map best illustrates the connection between European exploration and which of the following?",
+   "stem": "The way this map was produced most directly affected European exploration by",
    "options": {
-    "A": "The Protestant Reformation",
-    "B": "The printing press",
-    "C": "The heliocentric theory of Copernicus",
-    "D": "The Dutch East India Company"
+    "A": "giving navigators a reliable way to measure longitude at sea",
+    "B": "spreading news of recent voyages to readers across Europe",
+    "C": "settling disputes between Spain and Portugal over new lands",
+    "D": "helping rulers keep the routes of their voyages secret"
    },
    "answer": "B",
-   "explanation": "The map was printed from carved woodblocks, so many copies could be made and sold. Printed maps and books spread news of the voyages across Europe.",
+   "explanation": "The map was printed from carved woodblocks, so many copies could be made and sold. Printed maps and books spread news of the voyages, and the new name \"America,\" across Europe.",
    "whyNot": {
-    "A": "The Reformation began in 1517, ten years after this map. The map is about geography, not religion.",
-    "C": "Copernicus published his idea that the Earth moves around the sun in 1543. This map shows the Earth's lands and seas, not the heavens.",
-    "D": "The Dutch East India Company was founded in 1602, almost a hundred years after this map."
+    "A": "Printing made copies of maps. It did not solve the problem of finding longitude at sea, which was solved only in the 1700s with accurate clocks.",
+    "C": "Spain and Portugal settled their claims by treaties, such as the Treaty of Tordesillas in 1494. A printed map did not settle them.",
+    "D": "Printing did the opposite. Many printed copies made news of the voyages harder to keep secret."
    },
-   "hint": "Look at how the attribution says the map was made."
+   "hint": "How is printing a map different from drawing it by hand?",
+   "reasoning": "Causation"
   },
   {
    "id": "E1-P30",
    "set": "P10",
    "topic": "1.6",
    "lo": "G",
-   "skill": "4.A",
-   "difficulty": "hard",
+   "skill": "3.A",
+   "difficulty": "medium",
    "stem": "The name printed on the land at the far left suggests that, by 1507, some Europeans",
    "options": {
     "A": "saw the lands across the Atlantic as a new continent and not as part of Asia",
@@ -2003,7 +1982,7 @@
    "whyNot": {
     "B": "Columbus claimed that the lands he reached were part of Asia. The mapmakers drew a separate land, with an ocean between it and Asia, and named it for Vespucci instead.",
     "C": "Spain conquered the Aztecs in 1521 and the Incas in the 1530s, years after this map was printed.",
-    "D": "Norse sailors had reached North America around the year 1000, but the mapmakers named the land for Vespucci, a recent navigator."
+    "D": "Norse sailors did reach North America around the year 1000, but nothing on the map points to them. Its title and portraits credit Ptolemy and recent voyagers such as Vespucci."
    },
    "hint": "Columbus thought he had reached Asia. Whom did the mapmakers name the land after, and how did they draw it?"
   },
@@ -2106,7 +2085,7 @@
    "set": "P12",
    "topic": "1.6",
    "lo": "H",
-   "skill": "3.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "Source 1 provides evidence for which motives for European exploration?",
    "options": {
@@ -2199,20 +2178,20 @@
    "topic": "1.9",
    "lo": "L",
    "skill": "5.B",
-   "difficulty": "hard",
+   "difficulty": "medium",
    "stem": "The \"sugar estates\" Garcilaso mentions are most closely connected to which development in the Atlantic world?",
    "options": {
     "A": "the rise of small family farms owned by Indigenous peoples",
     "B": "a fall in European demand for sugar",
     "C": "the growth of plantations worked by enslaved Africans",
-    "D": "the spread of Russian serfdom to the Americas"
+    "D": "the growth of tobacco farms worked by European indentured servants"
    },
    "answer": "C",
    "explanation": "Growing sugar took huge amounts of hard work. Disease and forced labor killed many Indigenous people. So colonists in Brazil, the Caribbean, and Peru turned to enslaved Africans.",
    "whyNot": {
     "A": "Sugar estates were large farms owned by Spanish colonists, not small Indigenous farms.",
     "B": "European demand for sugar grew quickly in the 1500s and 1600s.",
-    "D": "Serfdom grew in eastern Europe, including Russia, but it did not spread to the Americas. Plantations in the Americas used slavery."
+    "D": "In the 1600s many tobacco farms in English Virginia were worked by indentured servants from Europe. Sugar estates relied more and more on enslaved Africans."
    },
    "hint": "Think about what sugar plantations needed most besides land.",
    "reasoning": "Causation"
@@ -2257,7 +2236,7 @@
    "answer": "A",
    "explanation": "Disease, war, and forced labor killed most of the Taíno people of Hispaniola after 1492. Spanish colonists needed workers for sugar mills and cattle ranches. So enslaved Africans sold for high prices.",
    "whyNot": {
-    "B": "Spain did not allow foreigners to trade with its colonies. That is why Hawkins trusted the Spaniards only as far as \"his own strength\" could \"master them.\"",
+    "B": "Philip II did not invite English traders. Spain required royal permission to trade with its colonies, and some foreign merchants did get licenses, but Hawkins had none. That is why he trusted the Spaniards only as far as \"his own strength\" could \"master them.\"",
     "C": "The Treaty of Tordesillas (1494) put Africa on Portugal's side of the line. The Portuguese slave trade kept growing after it.",
     "D": "Spain's great silver mines were in Mexico and Peru, not on Hispaniola."
    },
@@ -2319,19 +2298,19 @@
    "difficulty": "medium",
    "stem": "Pacioli's treatise is best understood in the context of which of the following?",
    "options": {
-    "A": "The rise of joint-stock trading companies in Amsterdam and London",
-    "B": "The flow of American silver into Spain",
-    "C": "The mercantilist policies of Louis XIV's government",
-    "D": "The growth of banking and long-distance trade in Venice, Florence, and Genoa"
+    "A": "Stricter guild rules controlling the training of urban craftspeople",
+    "B": "Lords' growing demands for labor from peasants in eastern Europe",
+    "C": "Church efforts to limit the interest charged on loans",
+    "D": "The growth of banking and long-distance trade in Italian cities"
    },
    "answer": "D",
    "explanation": "Venice, Florence, and Genoa were centers of banking and trade. Their merchants used double-entry bookkeeping. Pacioli's printed book explained the Venetian way of keeping accounts.",
    "whyNot": {
-    "A": "Joint-stock companies such as the Dutch East India Company (1602) came about a century after this book.",
-    "B": "Large amounts of American silver did not reach Spain until the middle of the 1500s, decades after 1494.",
-    "C": "Louis XIV's minister Colbert used mercantilist policies in the late 1600s, almost two centuries later."
+    "A": "Guilds trained craftspeople such as weavers and goldsmiths. Pacioli writes for merchants about cash, credit, and keeping accounts.",
+    "B": "In eastern Europe, lords were demanding more labor from their peasants. Pacioli writes about merchants in the trading cities of Italy.",
+    "C": "The Church did condemn charging interest, which it called usury, but Pacioli does not discuss interest. He explains how merchants should keep their accounts."
    },
-   "hint": "Pacioli wrote in 1494 and praises the system used in Venice. What was happening in Italian cities at that time?"
+   "hint": "Pacioli praises merchants' credit and the way of keeping accounts \"used in Venice.\" What kind of business needed such careful records?"
   },
   {
    "id": "E1-P45",
@@ -2375,7 +2354,7 @@
    "whyNot": {
     "B": "Lea says, \"He reads history to little purpose who imagines that this was the work of the Inquisition.\"",
     "C": "Lea says the Hermandad was \"an alliance between the crown and the people\" against \"the centrifugal forces of feudalism,\" meaning the power of the nobles.",
-    "D": "Lea says Pope Innocent VIII gave Ferdinand the right to run all three orders in 1489."
+    "D": "Lea says the crown achieved \"the virtual incorporation\" of the orders' masterships, a step in \"establishing the royal supremacy.\" He does not say the popes blocked it. In fact, popes allowed Ferdinand to run the orders."
    },
    "hint": "What institutions does Lea say did the most to centralize power?"
   },
@@ -2420,7 +2399,7 @@
    "explanation": "In the Concordat of Bologna (1516), the pope let the French king name the bishops and abbots of France. Like Ferdinand with the military orders, the king gained control of rich and powerful church posts.",
    "whyNot": {
     "A": "The Petition of Right (1628) limited the English king's power. Ferdinand's control of the orders increased his power.",
-    "C": "The emperor's election by princes, set by the Golden Bull of 1356, gave the princes power over the emperor. That is the opposite of Ferdinand's gain.",
+    "C": "Seven princes chose the emperor, under rules confirmed by the Golden Bull of 1356. That gave the princes power over the emperor. It is the opposite of Ferdinand's gain.",
     "D": "The Dutch East India Company's powers (1602) were given by the Dutch government to a trading company. They did not increase a king's power."
    },
    "hint": "What did Ferdinand gain when he took over the military orders? Look for another ruler who gained the same kind of control.",
@@ -2460,26 +2439,26 @@
    {
     "id": "E1-E02",
     "set": "X1",
-    "topic": "1.3",
-    "lo": "D",
+    "topic": "1.2",
+    "lo": "B",
     "skill": "3.D",
     "difficulty": "hard",
     "stem": "A historian who wished to qualify Burckhardt's argument would most likely point to which of the following?",
     "options": {
      "A": "Italian rulers paid artists to paint portraits that celebrated their own achievements.",
-     "B": "Italian writers produced biographies and autobiographies of famous individuals.",
+     "B": "Italian humanists such as Pico della Mirandola praised human dignity and potential.",
      "C": "Machiavelli judged rulers by whether their actions worked rather than by Christian morals.",
-     "D": "Christian humanists such as Erasmus used Renaissance learning to reform religion."
+     "D": "Medieval writers such as Peter Abelard described their own experiences and inner lives."
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. Portraits that praised rulers support Burckhardt. He says despotism made the ruler himself a strong individual.",
-     "B": "Incorrect. Life stories of famous people support Burckhardt. He says Italy \"began to swarm with individuality.\"",
+     "B": "Incorrect. Pico's praise of human dignity and abilities, in 1486, supports Burckhardt's picture of Italians who saw themselves as individuals.",
      "C": "Incorrect. Machiavelli's secular view of politics supports Burckhardt. He says people began to look at \"the state\" in a new, \"objective\" way.",
-     "D": "Correct. Burckhardt describes the Renaissance as a lifting of a \"veil\" that was woven partly of \"faith.\" Northern humanists such as Erasmus show that Renaissance learning could also serve religious goals."
+     "D": "Correct. Burckhardt says that in the Middle Ages \"man was conscious of himself only as member of a race, people, party, family, or corporation.\" Abelard's story of his own life, written in the 1100s, shows that some medieval people already wrote about themselves as individuals."
     },
-    "explanation": "To qualify an argument is to show its limits. The Northern Renaissance kept a strong religious focus. That does not fit Burckhardt's picture of a Renaissance that moved away from faith.",
-    "reasoning": "Comparison"
+    "explanation": "To qualify an argument is to show its limits. Burckhardt says medieval people saw themselves only as members of groups. Medieval writers who described their own lives and feelings show that a strong sense of self did not begin only in Renaissance Italy.",
+    "reasoning": "Continuity and Change"
    },
    {
     "id": "E1-E03",
@@ -2490,19 +2469,19 @@
     "difficulty": "medium",
     "stem": "Which of the following would best support Burckhardt's claim about individuality in Renaissance Italy?",
     "options": {
-     "A": "Italian artists began to sign their works and to write about their own lives.",
+     "A": "Italian artists such as Benvenuto Cellini wrote about their own lives and talents.",
      "B": "Italian city-states stopped hiring mercenary captains as wars among them came to an end.",
      "C": "Italian guilds gained tighter control over how their members dressed and worked.",
      "D": "Italian humanists rejected Greek and Roman writers as pagans."
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Artists such as Benvenuto Cellini, who wrote a famous autobiography, show people taking pride in their own unique talents.",
+     "A": "Correct. Cellini wrote a famous autobiography in the 1550s and 1560s that boasts of his own talents and deeds. Such life stories show the pride in the self that Burckhardt describes.",
      "B": "Incorrect. Wars among the Italian states continued, and rulers kept hiring condottieri, commanders of hired soldiers.",
      "C": "Incorrect. Tighter guild control would show people living as members of a \"corporation,\" which is how Burckhardt describes the Middle Ages.",
      "D": "Incorrect. Italian humanists admired Greek and Roman writers and worked hard to recover their texts."
     },
-    "explanation": "Burckhardt says that in the Middle Ages people saw themselves only as members of a group. Signed works and life stories show a new pride in the self."
+    "explanation": "Burckhardt says that in the Middle Ages people saw themselves only as members of a group. An artist's life story that celebrates his own talents shows a new pride in the self."
    },
    {
     "id": "E1-E04",
@@ -2516,14 +2495,14 @@
      "A": "Source 1 opens the oceans to the Christian rulers of Europe, while Source 2 limits them to the Dutch.",
      "B": "Source 1 divides new lands between two crowns, while Source 2 defends the right of every nation to trade freely.",
      "C": "Source 1 bases its claims on the law of nations, while Source 2 bases its claims on a gift from the pope.",
-     "D": "Source 1 ends a war between Spain and France, while Source 2 calls for a new war against England."
+     "D": "Source 1 assigns territory by a negotiated boundary, while Source 2 assigns trading rights according to earlier voyages."
     },
     "answer": "B",
     "rationales": {
      "A": "Incorrect. Source 1 gives lands to Portugal and Castile alone, and Grotius says the right \"belongs equally to all nations.\"",
      "B": "Correct. Source 1 draws a line \"from pole to pole\" and gives the lands on each side to Portugal or to Castile. Grotius says, \"Every nation is free to travel to every other nation, and to trade with it.\"",
      "C": "Incorrect. Grotius, not the treaty, appeals to the \"Law of Nations.\" The treaty is an agreement between two sets of rulers, and Grotius does not rest his case on the pope.",
-     "D": "Incorrect. The treaty settled a dispute between Portugal and Castile, and Grotius argues for Dutch trade in the East Indies."
+     "D": "Incorrect. The treaty does set a boundary, but Grotius says the right to trade \"belongs equally to all nations.\" He does not give it to whoever sailed a route first."
     },
     "explanation": "The treaty split newly found lands between Portugal and Castile. Grotius argued that no nation could stop others from sailing the seas and trading.",
     "reasoning": "Comparison"
@@ -2562,14 +2541,14 @@
     "options": {
      "A": "European use of gunpowder weapons to seize land overseas",
      "B": "European use of joint-stock companies to raise money for long ocean voyages",
-     "C": "European reliance on Native American guides who knew the Atlantic currents",
+     "C": "European efforts to reach Asian markets by sailing around Africa",
      "D": "European use of new ways to find a ship's position at sea"
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. The paragraph describes measuring and mapping, not fighting.",
      "B": "Incorrect. Large joint-stock companies such as the English and Dutch East India Companies were founded around 1600, about a century after this treaty. These caravels were to be sent by the two monarchs.",
-     "C": "Incorrect. The treaty says each side will send its own pilots, astrologers, and sailors from Portugal and Castile.",
+     "C": "Incorrect. Portugal did seek a sea route to Asia around Africa, but this paragraph plans a joint survey to mark the boundary line in the Atlantic.",
      "D": "Correct. The treaty sends pilots and others to study \"the degrees of the sun or of north latitude.\" Sailors used instruments such as the astrolabe and the quadrant to measure the height of the sun and find their latitude."
     },
     "explanation": "To draw the line, sailors had to know where they were at sea. New skills and tools for measuring latitude, along with better maps, made long ocean voyages possible."
@@ -2580,7 +2559,7 @@
     "topic": "1.10",
     "lo": "M",
     "skill": "2.B",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "Grotius most likely wrote Source 2 to defend the activities of which of the following?",
     "options": {
      "A": "The merchants of the Hanseatic League",
@@ -2652,16 +2631,16 @@
     "difficulty": "medium",
     "stem": "The books on the lower level, an arithmetic book for merchants and a hymnbook, best reflect which of the following?",
     "options": {
-     "A": "the growth of hand copying of books in monasteries",
-     "B": "Church rules that stopped the sale of books in everyday languages",
-     "C": "the decline of trade and business in northern Europe",
-     "D": "the spread of printed books on both practical and religious subjects"
+     "A": "the continued production of luxury manuscripts for courtly patrons",
+     "B": "the expansion of university teaching in Latin theology",
+     "C": "the collection of Greek and Roman manuscripts by humanist scholars",
+     "D": "the spread of printed books on practical and religious subjects"
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. Copying by hand in monasteries was the old way of making books. Printing was replacing it by the 1530s.",
-     "B": "Incorrect. Printed books in everyday languages spread quickly in the 1500s, including the hymnbooks used in Protestant churches.",
-     "C": "Incorrect. A book of arithmetic for merchants shows that trade was growing and needed new skills.",
+     "A": "Incorrect. Some rich patrons still ordered handwritten luxury books, but an arithmetic book for merchants and a hymnbook for singing in church were everyday books. The two books in the painting were printed in Germany in the 1520s.",
+     "B": "Incorrect. These books teach arithmetic and hymns for worship. They are not works of Latin theology for university students.",
+     "C": "Incorrect. Humanists did collect ancient Greek and Roman texts, but these books are about business math and Christian worship.",
      "D": "Correct. By the 1530s, printers turned out many books on practical subjects such as arithmetic, along with hymnbooks and Bibles."
     },
     "explanation": "Printing made books cheaper and more common. Merchants bought books that taught arithmetic, and Protestant churches printed hymnbooks so that people could sing in their own language."
@@ -2673,7 +2652,7 @@
     "lo": "O",
     "skill": "5.B",
     "difficulty": "medium",
-    "stem": "During the period 1495 to 1610, the major factor explaining the trend shown in the table was that",
+    "stem": "During the period 1495 to 1593, the major factor explaining the trend shown in the table was that",
     "options": {
      "A": "a shortage of workers after the Black Death forced landowners to raise wages",
      "B": "rising population and American silver pushed food prices up faster than wages",
@@ -2687,7 +2666,7 @@
      "C": "Incorrect. Potatoes were not widely grown in England until much later, and cheap food would have lowered the weeks needed, not raised them.",
      "D": "Incorrect. Local officials set the highest wages that workers could be paid, and those wages did not keep up with prices, as the rising number of weeks shows."
     },
-    "explanation": "A craftsman needed 10 weeks of work to buy his family's grain in 1495 and 43 weeks in 1610. Wages rose slowly while grain prices rose quickly, so working people grew poorer.",
+    "explanation": "In Rogers's estimates, a craftsman needed 10 weeks of work to buy his family's grain in 1495 and 40 weeks in 1593. Wages rose slowly while grain prices rose quickly, so working people grew poorer.",
     "reasoning": "Causation"
    },
    {
@@ -2711,7 +2690,7 @@
      "C": "Incorrect. Rising food prices made farming for the market more profitable, and enclosure continued.",
      "D": "Incorrect. London grew quickly in the 1500s and early 1600s as poor people from the countryside moved there to look for work."
     },
-    "explanation": "By 1593 a farm laborer could not buy his family's grain even with a full year of work. Poverty spread, and the government tried to respond with poor laws.",
+    "explanation": "At the 1593 wage rates Rogers used, a farm laborer could not buy his family's grain even with a full year of work. Poverty spread, and the government tried to respond with poor laws.",
     "reasoning": "Causation"
    },
    {
@@ -2730,12 +2709,12 @@
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Philology is the study of how language is used in old texts. Valla shows that the word \"satraps\" was not used in Roman government, so the Donation could not have been written in Constantine's time.",
+     "A": "Correct. Philology is the study of how language is used in old texts. Valla argues that the word \"satraps\" does not fit the government of Constantine's Rome. He tests the document against the language and history of the time it claims to come from.",
      "B": "Incorrect. Scholastic theologians used logic to explain Christian teachings. Valla tests a document by studying its language.",
      "C": "Incorrect. Divine-right absolutism is the belief that kings get their power from God. Valla is studying the words of an old document.",
      "D": "Incorrect. Mystics sought a direct experience of God through prayer. Valla's argument is about Latin words and Roman history."
     },
-    "explanation": "Humanists knew old Latin and Roman history very well. They could spot words that did not belong in an old text. Valla used this skill to prove the Donation was a fake."
+    "explanation": "Humanists knew old Latin and Roman history very well. They could spot words that did not belong in an old text. Valla used this skill to show that the Donation was a fake."
    },
    {
     "id": "E1-E14",
@@ -2746,17 +2725,17 @@
     "difficulty": "medium",
     "stem": "Valla's treatise was most likely written to support",
     "options": {
-     "A": "King Alfonso's quarrel with the pope over control of lands in Italy",
-     "B": "Martin Luther's break with the Catholic Church in Germany",
-     "C": "the Holy Roman Emperor's war against the Ottoman Turks",
-     "D": "the Council of Trent's reform of the Church"
+     "A": "King Alfonso's quarrel with the pope over lands in Italy",
+     "B": "Venice's efforts to protect its Mediterranean trade routes",
+     "C": "the papacy's efforts to reunite the Greek and Latin churches",
+     "D": "Italian rulers' plans for a crusade against the Ottomans"
     },
     "answer": "A",
     "rationales": {
      "A": "Correct. Valla worked for Alfonso, who was in conflict with Pope Eugenius IV over lands in southern Italy. Valla writes that it is \"fairer to let the princes despoil you of all the empire you hold.\"",
-     "B": "Incorrect. Luther broke with the Church in the 1510s and 1520s, about eighty years after Valla wrote.",
-     "C": "Incorrect. Valla attacks the pope's claims to land. He does not mention the Ottomans.",
-     "D": "Incorrect. The Council of Trent met from 1545 to 1563, more than a hundred years after Valla wrote."
+     "B": "Incorrect. Valla attacks the pope's claims to land and power. He says nothing about Venetian trade.",
+     "C": "Incorrect. Popes did work to reunite the Greek and Latin churches at this time, but Valla attacks the pope's claim to rule lands in the West.",
+     "D": "Incorrect. Valla challenges the pope's claims to land. He does not call for war against the Ottomans."
     },
     "explanation": "Valla served a king who was in conflict with the pope. By proving the Donation false, he attacked the pope's right to rule lands in Italy and the West."
    },
@@ -2801,7 +2780,7 @@
     "answer": "D",
     "rationales": {
      "A": "Incorrect. Protestant reform from the top down began under Henry VII's son, Henry VIII, in the 1530s.",
-     "B": "Incorrect. Parliament gained real control over taxes in the 1600s. The passage shows the king using courts and fines to control nobles and raise money.",
+     "B": "Incorrect. English Parliaments had approved taxes since the Middle Ages, long before Henry VII. This passage is about the king using courts and fines to control nobles, not about Parliament gaining control over royal money.",
      "C": "Incorrect. The passage shows a royal court, the Star Chamber, gaining more authority.",
      "D": "Correct. Henry VII strengthened the Star Chamber, and Bacon reports that he fined the Earl of Oxford for keeping retainers. Like other new monarchs, he wanted to stop nobles from keeping private armies."
     },
@@ -2840,14 +2819,14 @@
     "stem": "Henry VII's efforts to control the nobles were most similar to which of the following?",
     "options": {
      "A": "The Hanseatic League's trading privileges in the Baltic",
-     "B": "The Golden Bull's grant of power to the German princes",
+     "B": "The Golden Bull's confirmation of the German electors' privileges",
      "C": "The Italian city-states' hiring of mercenary captains",
      "D": "Ferdinand and Isabella's use of the Santa Hermandad"
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. The Hanseatic League was a group of trading cities. It was not a ruler's effort to control nobles.",
-     "B": "Incorrect. The Golden Bull of 1356 gave the princes the power to elect the emperor. It strengthened the princes, not the ruler.",
+     "B": "Incorrect. The Golden Bull of 1356 set rules for electing the emperor and confirmed the rights of the seven princes, called electors, who chose him. It made those princes stronger, not the emperor.",
      "C": "Incorrect. Hiring condottieri was a way for Italian states to fight wars, not a way to control the private armies of nobles.",
      "D": "Correct. Ferdinand and Isabella used a royal police force, the Santa Hermandad, to stop violence by nobles and to spread royal justice across Castile."
     },
@@ -3003,17 +2982,17 @@
     "options": {
      "A": "Church leaders turned against the slave trade and persuaded rulers to limit it.",
      "B": "England and the Dutch Republic replaced Portugal as the main suppliers of enslaved Africans.",
-     "C": "The slave trade grew from a limited royal license into a large, regular business.",
+     "C": "The shipment of enslaved Africans to the Americas grew into a large, regular trade.",
      "D": "Enslaved Africans were increasingly sent to Europe rather than to the Americas."
     },
     "answer": "C",
     "rationales": {
      "A": "Incorrect. Brandão reports that learned churchmen approved the trade: \"never did they consider this trade as illicit.\" The trade kept growing.",
      "B": "Incorrect. The Dutch and English became major slave traders only later in the 1600s. In 1610 the Portuguese still led the trade.",
-     "C": "Correct. In 1518 the king licensed the shipment of 4,000 enslaved people in all. In 1610 Brandão says that \"ten or twelve thousand\" leave the single port of Luanda \"every year.\"",
+     "C": "Correct. In 1518 enslaved Africans were usually brought \"to these realms and to Portugal,\" and shipping 4,000 people straight to the Indies needed the king's special permission. In 1610 Brandão says that \"ten or twelve thousand\" leave the single port of Luanda \"every year.\"",
      "D": "Incorrect. Brandão writes to a priest in the Spanish colonies about Africans \"who are sent to your parts,\" that is, to the Americas."
     },
-    "explanation": "Between 1518 and 1610, sugar plantations spread in Brazil and the Caribbean. The demand for enslaved workers grew. The Atlantic slave trade became a huge, organized business.",
+    "explanation": "In 1518, the license says, enslaved Africans were usually brought to Spain and Portugal, and the king had to give special permission to ship them straight to the Americas. Between 1518 and 1610, sugar plantations spread in Brazil and the Caribbean, and the demand for enslaved workers grew. The Atlantic slave trade became a huge, organized business.",
     "reasoning": "Continuity and Change"
    }
   ]

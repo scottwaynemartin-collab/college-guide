@@ -1,4 +1,4 @@
-# AP European History — Unit 2 practice bank (v2026-11-09b)
+# AP European History — Unit 2 practice bank (v2026-11-09c)
 
 Unit 2: Age of Reformation, c. 1450–c. 1648 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 2.1 Contextualizing 16th- and 17th-Century Challenges and Developments (LO A)
@@ -40,11 +40,11 @@ KEY: A. Explanation: Tetzel says that letters bought for a small coin bring "ful
 - (A) Charles V's need for money to defend Hungary and Vienna against the Ottoman Turks
 - (B) the Council of Trent's need for money to found new seminaries for training young priests
 - (C) the papacy's need for money for projects such as rebuilding St. Peter's Basilica in Rome
-- (D) Philip II's need for money to pay the Spanish armies fighting rebels in the Netherlands
+- (D) Francis I's need for money to pay for the wars of the French kings in Italy
 KEY: C. Explanation: In 1515 Pope Leo X offered an indulgence to raise money for rebuilding St. Peter's Basilica. Archbishop Albert of Mainz shared in the money to pay off his own debts, and Tetzel preached the indulgence in Germany.
   - why not A: Charles V was not elected emperor until 1519, and his wars against the Ottomans in Hungary came later. Tetzel preached a papal indulgence.
   - why not B: The Council of Trent first met in 1545, almost thirty years after this sermon. In 1562 it ended the use of special preachers to collect money for indulgences.
-  - why not D: Spain's wars in the Netherlands began in the 1560s, under Philip II, long after this sermon.
+  - why not D: King Francis I of France did fight in Italy in 1515. But Tetzel preached an indulgence granted by the pope, in Germany, and the money did not go to the French king.
   - hint: Think about who granted indulgences and why the Church wanted to raise money in the 1510s.
 
 **E2-P03** [Topic 2.2 · LO B · Skill 5.B · Causation · easy]  Sermons like this one most directly provoked which of the following?
@@ -78,26 +78,26 @@ KEY: A. Explanation: Luther writes that the soul "is justified by faith alone an
   - why not D: Luther says Christian freedom is not "corporeal power." Ruling is "the office of kings, princes, and men upon earth."
   - hint: Find the sentence that begins "Hence it is clear." What does Luther say the soul needs?
 
-**E2-P05** [Topic 2.2 · LO B · Skill 1.B · medium]  Luther's statement that all believers are "priests for ever" expresses which idea?
-- (A) Predestination
-- (B) Transubstantiation
-- (C) Apostolic succession
-- (D) Priesthood of all believers
-KEY: D. Explanation: The priesthood of all believers is the idea that every Christian can come to God directly. Each believer can pray for others and read and teach the Bible. No priest has to stand in between.
-  - why not A: Predestination is the belief, stressed by John Calvin, that God has already chosen who will be saved. Luther's point here is about what every believer may do.
-  - why not B: Transubstantiation is the Catholic teaching that the bread and wine of the Mass become Christ's body and blood. Luther rejected it.
-  - why not C: Apostolic succession is the Catholic teaching that bishops' authority passes down from the apostles. Luther's idea lowers the special status of the clergy.
-  - hint: Reread the last paragraph. What does Luther say every believer is "worthy" to do?
+**E2-P05** [Topic 2.2 · LO B · Skill 1.B · medium]  Luther's claim that believers are "priests for ever" most directly challenged which feature of the Church of his time?
+- (A) Its teaching that kings and princes received their power to rule from God
+- (B) Its use of sermons and teaching to explain the Christian faith to the people
+- (C) Its call for Christians to pray to God for the needs of other people
+- (D) Its belief that clergy had a higher spiritual rank than other Christians
+KEY: D. Explanation: This idea is called the priesthood of all believers. Luther says every Christian is a priest who may "appear before God," pray for others, and teach. This challenged the special spiritual rank of the clergy, although Luther still wanted pastors to preach and lead worship.
+  - why not A: Luther does not challenge rulers' power. He says ruling is "the office of kings, princes, and men upon earth."
+  - why not B: Luther wanted more teaching, not less. He says believers should "teach one another mutually the things which are of God."
+  - why not C: Luther kept this practice. He says believers are worthy "to pray for others."
+  - hint: Think about what set priests apart from other Christians in the Church of 1520.
 
 **E2-P06** [Topic 2.1 · LO A · Skill 4.B · medium]  Luther's reliance on "the most holy word of God" is best understood in the context of which of the following?
 - (A) the Council of Trent's ruling that the Latin Vulgate was the official Bible of the Catholic Church
-- (B) scientists' use of careful experiments to test old ideas about the natural world
-- (C) Enlightenment writers' claims that reason, not revelation, should guide religion
+- (B) Renaissance popes' use of art and grand buildings to display the Church's power
+- (C) Christian rulers' efforts to keep religious unity by enforcing the laws of the Church
 - (D) Christian humanists' efforts to study the earliest Christian texts
 KEY: D. Explanation: Christian humanists such as Erasmus wanted scholars to study the oldest Christian writings. In 1516 Erasmus printed the New Testament in Greek. Luther used it when he translated the New Testament into German in 1522.
   - why not A: The Council of Trent made the Vulgate the Church's official Bible in 1546. That was twenty-six years after this book, and partly a reply to Protestants like Luther.
-  - why not B: Scientists began testing ideas with experiments mostly after 1600. Luther's argument is based on the Bible, not on experiments.
-  - why not C: The Enlightenment came in the 1700s. Luther trusted Scripture and faith, not human reason.
+  - why not B: Popes such as Leo X paid for grand art and buildings in Rome. That does not explain why Luther turns to the word of God in Scripture.
+  - why not C: Rulers punished heretics to keep their lands united in one faith. That explains how rulers treated reformers, not why Luther relies on Scripture.
   - hint: Which movement, active just before 1520, urged scholars to study the oldest Christian texts?
 
 
@@ -150,7 +150,7 @@ KEY: D. Explanation: Most books for scholars and churchmen were written in Latin
 — Edict of Worms, decree of the Holy Roman Emperor Charles V issued after the Imperial Diet (assembly of the princes and cities of the empire) at Worms, May 1521 (English translation in James Harvey Robinson, Readings in European History, vol. 2 (Boston: Ginn, 1906), pp. 83–88; adapted)
 > Words to know: emperor elect = emperor chosen by the electors, the princes who voted for the emperor; ever august = always majestic, a title of the emperors; salute and tender our gracious good wishes = send greetings; inasmuch as = because; unparalleled = never equaled; endowed = provided; papal bull = an official order from the pope; revoked = taken back; depraved = wicked; heresies = beliefs that go against official church teaching; blasphemies = statements that insult God or holy things; stiffnecked = stubborn
 
-**E2-P10** [Topic 2.2 · LO B · Skill 3.A · easy]  Which of the following best describes the main purpose of the edict?
+**E2-P10** [Topic 2.2 · LO B · Skill 2.A · easy]  Which of the following best describes the main purpose of the edict?
 - (A) to call a church council that would judge Luther's ideas fairly
 - (B) to let each German prince decide which religion his lands would follow
 - (C) to brand Luther a heretic and forbid the reading of his books
@@ -163,12 +163,12 @@ KEY: C. Explanation: After Luther refused to take back his writings at Worms in 
 
 **E2-P11** [Topic 2.4 · LO C · Skill 5.B · Causation · medium]  Charles V's ability to enforce the edict in Germany in the 1520s and 1530s was most weakened by which of the following?
 - (A) The defeat of the Spanish Armada
-- (B) The outbreak of the Thirty Years' War
+- (B) The Spanish conquest of the Aztec Empire
 - (C) Wars with France and the Ottoman Empire
 - (D) The Dutch revolt against Spanish rule
-KEY: C. Explanation: Charles V spent years fighting France and the Ottoman Turks, who attacked Vienna in 1529. He needed help from the German princes, even Lutheran ones. So he could not crush the Lutherans.
+KEY: C. Explanation: Charles V spent years fighting France and the Ottoman Turks, who attacked Vienna in 1529. He needed help from the German princes, even Lutheran ones. These wars limited his ability to force religious unity on Germany.
   - why not A: The Spanish Armada was defeated in 1588, under Charles's son Philip II, decades after the 1520s and 1530s.
-  - why not B: The Thirty Years' War began in 1618, more than sixty years after Charles V gave up his thrones in 1555–1556.
+  - why not B: Hernán Cortés conquered the Aztec Empire for Charles in 1519–1521. It added to Charles's lands and wealth. It did not tie down his armies in Europe.
   - why not D: The Dutch revolt against Spain began in 1568, under Philip II.
   - hint: The edict lists the many lands Charles ruled. Which enemies threatened those lands in the 1520s and 1530s?
 
@@ -178,7 +178,7 @@ KEY: C. Explanation: Charles V spent years fighting France and the Ottoman Turks
 - (C) The Edict of Nantes
 - (D) The Edict of Restitution
 KEY: A. Explanation: In the Peace of Augsburg (1555), the empire's rulers agreed that each prince could choose Catholicism or Lutheranism for his lands. The edict had tried to stamp out Luther's faith, but now it was legal in the empire.
-  - why not B: The Peace of Westphalia (1648) came almost a century later. It confirmed the earlier settlement and added Calvinism to the faiths a ruler could choose.
+  - why not B: The Peace of Westphalia came in 1648, almost a century later. It confirmed Lutheranism's legal standing and also recognized Calvinism.
   - why not C: The Edict of Nantes (1598) was issued by King Henry IV of France. It gave rights to French Protestants, not to Lutherans in the empire.
   - why not D: The Edict of Restitution (1629) ordered Protestants to give back church lands they had taken. It tried to undo Protestant gains, not protect them.
   - hint: Which agreement ended the religious fighting in Germany in the 1550s?
@@ -192,32 +192,32 @@ Source: Friedrich Kapp, Geschichte des deutschen Buchhandels (History of the Ger
 
 **E2-P13** [Topic 2.3 · LO B · Skill 5.B · Causation · medium]  Which of the following best explains the change in the number of works printed in German from 1517 to 1523?
 - (A) The printing press with movable type was first invented in Germany during these years.
-- (B) Italian printers such as Aldus Manutius began printing ancient Greek and Latin works.
+- (B) Growing town trade increased the demand for German manuals for merchants and craftsmen.
 - (C) Luther and other writers published many pamphlets in German about the religious dispute.
-- (D) Emperor Charles V paid printers to publish books in German to unite his empire.
-KEY: C. Explanation: After 1517 Luther wrote many short works in German, and printers rushed to reprint them. Supporters and opponents answered with pamphlets of their own. The number of German works printed rose from 81 in 1517 to 944 in 1523.
+- (D) Jesuits such as Peter Canisius printed German catechisms to win Protestants back to the Church.
+KEY: C. Explanation: After 1517 Luther wrote many short works in German, and printers rushed to reprint them. Supporters and opponents answered with pamphlets of their own. The number of German works in the catalogs rose from 81 in 1517 to 944 in 1523.
   - why not A: Johannes Gutenberg began printing with movable type in Mainz in the 1450s, more than sixty years earlier.
-  - why not B: Aldus Manutius began printing Greek and Latin classics in Venice in the 1490s. The chart counts works printed in German.
-  - why not D: Charles V's Edict of Worms (1521) banned the printing of Luther's books.
+  - why not B: Trade did create a demand for practical books, but trade grew slowly. It cannot explain a jump from 81 works to 944 in six years.
+  - why not D: Peter Canisius and other Jesuits wrote German catechisms in the 1550s, decades after this rise.
   - hint: What famous dispute began in Germany in 1517?
 
-**E2-P14** [Topic 2.1 · LO A · Skill 4.A · easy]  The rise in printing shown in the chart depended most on which earlier development?
-- (A) The spread of printing presses with movable type
-- (B) The founding of the Society of Jesus
-- (C) The wars between the Habsburgs and France over Italy
-- (D) The Treaty of Tordesillas's division of lands
-KEY: A. Explanation: Johannes Gutenberg's movable-type press, first used in Mainz in the 1450s, spread to many cities and towns across Europe by 1500. It made books and pamphlets much faster and cheaper to produce.
-  - why not B: The Society of Jesus (the Jesuits) was founded in 1540, after these years, and it worked against the spread of Protestant ideas.
-  - why not C: The wars in Italy (1494–1559) were fought over land and power. They had nothing to do with how books were made.
-  - why not D: The Treaty of Tordesillas (1494) divided newly reached lands between Spain and Portugal. It had nothing to do with printing.
-  - hint: Which choice made it possible to make many copies of a pamphlet quickly?
+**E2-P14** [Topic 2.3 · LO B · Skill 5.A · Continuity and Change · easy]  Which of the following conclusions is best supported by the chart?
+- (A) Printing in German grew sharply during the first years of the Reformation.
+- (B) Printing in German rose at a steady pace throughout the years shown.
+- (C) Printing in German reached its highest point in the year of the Diet of Worms.
+- (D) Printing in German was already growing quickly in the years before 1517.
+KEY: A. Explanation: Luther wrote his Ninety-Five Theses in 1517. The chart shows 81 German works that year and 944 in 1523, more than eleven times as many. So the sharp rise came in the first years of the Reformation.
+  - why not B: The numbers fell in 1516, 1517, and 1521, and they jumped after 1518. The growth was not steady.
+  - why not C: The Diet of Worms met in 1521, when 523 works were printed. More works were printed in 1520, 1522, and 1523.
+  - why not D: Before 1517 the yearly numbers stayed between 90 and 145, and 1517 has the lowest number in the chart.
+  - hint: Compare the bars before 1517 with the bars after it.
 
 **E2-P15** [Topic 2.2 · LO B · Skill 2.C · hard]  A historian wants to use the chart to argue that Luther's writings caused the rise in German printing. Which additional information would the historian most need?
 - (A) the number of works printed in Latin in German lands in the years before 1513
 - (B) the number of printing presses at work in Italy and France in the year 1523
 - (C) the number of people living in German cities and towns in the year 1450
 - (D) how many works each year were by Luther or about the religious dispute
-KEY: D. Explanation: The chart counts German works "on any subject." To tie the rise to Luther, a historian would need to know how many works were by Luther or about the religious fight. Later studies found that Luther wrote a large share of them.
+KEY: D. Explanation: The chart counts German works "on any subject." To tie the rise to Luther, a historian would need to know how many works each year were by Luther or about the religious fight.
   - why not A: Latin works from before 1513 come before the change the historian wants to explain, and the chart is about German works.
   - why not B: Presses in Italy and France would not show what was being printed in German.
   - why not C: Population figures from 1450 are from long before the change and say nothing about what was printed.
@@ -225,13 +225,12 @@ KEY: D. Explanation: The chart counts German works "on any subject." To tie the 
 
 
 ### Source P6 (questions E2-P16–E2-P18)
-> The Articles, which we have drawn up and in which we agree, are these: Baptism, abstention, breaking of bread, avoidance of abominable pastors in the church, sword, swearing.
 > First learn concerning baptism! Baptism ought to be administered to all who have been taught repentance and a change of life and in truth believe their sins to have been blotted out through Christ, … By these means are excluded all baptism of infants, the supreme abomination of the Roman Pontif. …
 > Sixth: We agree and determine concerning the sword in this manner: The sword is an ordinance of God, outside the perfection of Christ by which the evil man is punished and killed, but the good one defended. In law the sword is ordained against the evil for vengeance and death, and for this purpose the magistracy of the world was constituted. But in the perfection of Christ we use excommunication only, for the warning and exclusion of him who has sinned. …
 > Finally, it is taught that a Christian is not permitted to be a magistrate by the things which follow: Magistracy is an office after the flesh but a Christian is after the Spirit. The home and corporal habitation of those [magistrates] is in this world, but that of all Christians in heaven. Their citizenship is in this world, that of the Christians in heaven. Their arms are carnal and against the flesh, those of the Christians spiritual against the bulwarks of the devil. …
 > Seventh: … Christ who teaches the perfection of the law, forbids all swearing to his [followers], that they swear neither truly nor falsely. …
 — The Schleitheim Articles, a statement of beliefs agreed on by a meeting of Swiss and southern German Anabaptists at Schleitheim, near Schaffhausen, Switzerland, February 1527 (English translation by W. J. McGlothlin from the Latin version made by the Zurich reformer Huldrych Zwingli, in McGlothlin, Baptist Confessions of Faith (Philadelphia: American Baptist Publication Society, 1911), pp. 3–9; adapted)
-> Words to know: abstention = here, keeping separate from the world; breaking of bread = the Lord's Supper, or communion; abominable = hateful; swearing = taking oaths; administered = given; repentance = sorrow for sin and a turn to a new life; Roman Pontif = the pope; ordinance = arrangement set up by God; magistracy, magistrate = government officials, a government official; excommunication = expelling a person from the church community; corporal habitation = bodily home; carnal = of the body; worldly; bulwarks = defenses
+> Words to know: abomination = something hateful; swearing = taking oaths; administered = given; repentance = sorrow for sin and a turn to a new life; Roman Pontif = the pope; ordinance = arrangement set up by God; magistracy, magistrate = government officials, a government official; excommunication = expelling a person from the church community; corporal habitation = bodily home; carnal = of the body; worldly; bulwarks = defenses
 
 **E2-P16** [Topic 2.3 · LO B · Skill 3.A · easy]  Which of the following best describes the beliefs expressed in the articles?
 - (A) Christians should obey rulers who protect the true faith and should help them punish heretics.
@@ -255,14 +254,14 @@ KEY: D. Explanation: Rulers feared people who would not swear oaths, fight as so
   - why not C: The Council of Trent upheld infant baptism.
   - hint: How would rulers who depended on oaths and soldiers react to these beliefs?
 
-**E2-P18** [Topic 2.3 · LO B · Skill 3.C · Comparison · medium]  In which of the following ways did the Anabaptists' view of baptism differ from that of Luther and Zwingli?
+**E2-P18** [Topic 2.3 · LO B · Skill 5.A · Comparison · medium]  In which of the following ways did the Anabaptists' view of baptism differ from that of Luther and Zwingli?
 - (A) The Anabaptists kept infant baptism, while Luther and Zwingli baptized adult believers instead.
 - (B) The Anabaptists baptized only believers old enough to repent, while Luther and Zwingli kept infant baptism.
 - (C) The Anabaptists required bishops to baptize, while Luther and Zwingli let any pastor baptize.
 - (D) The Anabaptists baptized in Latin, while Luther and Zwingli baptized in German.
 KEY: B. Explanation: Luther and Zwingli kept baptizing babies. The Anabaptists baptized only people who had turned from sin and believed. Their enemies said they baptized people a second time, so they called them Anabaptists, which means rebaptizers.
   - why not A: This reverses the two sides. The articles exclude "all baptism of infants."
-  - why not C: Anabaptists had no bishops. Their disagreement with Luther and Zwingli was about who should be baptized, not who performed it.
+  - why not C: The articles say who should receive baptism. They say nothing about bishops having to perform it. The dispute with Luther and Zwingli was about who should be baptized.
   - why not D: The dispute was about who should be baptized, not about the language used.
   - hint: Look at the First article. Who does it say should be baptized?
 
@@ -296,7 +295,7 @@ KEY: B. Explanation: In Calvin's Geneva, elders chosen from the city councils wa
 - (B) Enclosure of common lands for private farming
 - (C) Regulation of public morals by local governments
 - (D) Divine-right absolutism
-KEY: C. Explanation: In the 1500s, many towns, both Catholic and Protestant, made rules against swearing, drinking, gambling, and dancing. The Reformation weakened the old church courts, so town leaders did more of this work.
+KEY: C. Explanation: In the 1500s, many towns, both Catholic and Protestant, made laws against swearing, drinking, gambling, and dancing. As the Reformation shifted the authority of church institutions, city governments took on more of this work, often together with church leaders.
   - why not A: Source 2 punishes people for owning rosaries or going to Mass. That is the opposite of toleration.
   - why not B: Enclosure was the fencing of common land for private farming, mostly in England. These rules are about worship and behavior.
   - why not D: Divine-right absolutism means kings claiming unlimited power from God, as Louis XIV did in the late 1600s. Geneva was a self-governing city.
@@ -336,7 +335,7 @@ KEY: C. Explanation: In 1534 Parliament named Henry VIII "the only supreme head 
   - why not D: Source 1 says the clergy "recognized" the king as head, and Source 2 makes clergy swear an oath to the queen.
   - hint: Who holds church authority in each source, and who is shut out?
 
-**E2-P23** [Topic 2.4 · LO C · Skill 5.B · Continuity and Change · medium]  Which development between 1534 and 1559 most directly explains why a new act was needed in 1559?
+**E2-P23** [Topic 2.4 · LO C · Skill 5.B · Causation · medium]  Which development between 1534 and 1559 most directly explains why a new act was needed in 1559?
 - (A) Mary I's return to papal authority
 - (B) Henry VIII's closing of the monasteries
 - (C) Edward VI's Book of Common Prayer
@@ -397,7 +396,7 @@ KEY: B. Explanation: Marguerite calls her brother "a prince of great prudence." 
 - (D) Renewed civil war in France
 KEY: D. Explanation: After the massacre, the Huguenots took up arms again. Some Protestant writers argued that people could resist a king who acted like a tyrant. The French Wars of Religion went on until 1598.
   - why not A: The Edict of Nantes came in 1598, after more than twenty-five more years of war. It was not a direct result of 1572.
-  - why not B: France expelled the Jesuits only briefly in the 1590s and again in 1764, for reasons that had nothing to do with this massacre.
+  - why not B: The Jesuits were expelled from much of France after an attempt to kill King Henry IV in 1594. Henry let them return in 1603. This had nothing to do with the 1572 massacre.
   - why not C: Philip II of Spain sent troops to help the Catholic League in the 1590s, but Spain never conquered France.
   - hint: Did the massacre end the conflict or make it worse?
 
@@ -428,7 +427,7 @@ KEY: B. Explanation: Montaigne, a Catholic, thinks the Catholic side is right. S
 KEY: B. Explanation: The politiques were French leaders, mostly Catholic. They cared more about peace and keeping France whole than about making everyone follow one church. Montaigne notes that "our kings" use liberty of conscience "to extinguish" civil conflict, and he accepts their choice.
   - why not A: The Catholic League, led by the Guise family, wanted to wipe out Protestantism in France and refused to accept a Protestant king.
   - why not C: The Jesuits worked to win Protestants back to the Catholic Church. They did not favor liberty of conscience.
-  - why not D: Anabaptists separated from the world and refused to hold office. Montaigne writes as a loyal subject who accepts the choice of "our kings" to calm the conflict.
+  - why not D: Many Anabaptist groups refused to hold government office and formed separate communities of believers. Montaigne writes as a loyal subject who accepts the choice of "our kings" to calm the conflict.
   - hint: Which group cared most about ending the civil war, even at the cost of religious unity?
 
 **E2-P30** [Topic 2.8 · LO G · Skill 5.B · Continuity and Change · medium]  Montaigne's point that toleration could "mollify and appease" people was most fully put into practice by which later measure?
@@ -467,7 +466,7 @@ KEY: A. Explanation: Armies in the Thirty Years' War (1618–1648) often went un
 - (B) It was written on the emperor's orders to blame the Protestants for the war.
 - (C) It was written before the war began, so it could do no more than predict what war would be like.
 - (D) It is a novel, though its author had served as a soldier in the war.
-KEY: D. Explanation: A novel can mix real events with made-up or exaggerated scenes. But Grimmelshausen served as a soldier in the war, so his story shows things that really happened to German villagers.
+KEY: D. Explanation: A novel can mix real events with made-up or exaggerated scenes. Grimmelshausen had served as a soldier in the war, so the scene may draw on things he saw. A historian should compare it with other evidence before treating its details as fact.
   - why not A: Grimmelshausen was a German writer, not a Swedish general, and the passage condemns the troopers' cruelty.
   - why not B: Nothing shows the emperor ordered the book. It describes soldiers' cruelty without praising either side.
   - why not C: The novel was published in 1668, twenty years after the war ended in 1648.
@@ -516,16 +515,16 @@ KEY: B. Explanation: Teresa repeats Peter of Alcantara's view that "women made g
   - why not D: Teresa says women should go to a confessor who is "a man of experience," so she accepts confessors' authority.
   - hint: Find two things Teresa says about women: one about their gifts, and one about whom they should turn to for advice.
 
-**E2-P36** [Topic 2.7 · LO F · Skill 5.B · Continuity and Change · medium]  The vision described in the first two paragraphs is the subject of which later work of art?
-- (A) Bernini's The Ecstasy of Saint Teresa
-- (B) Michelangelo's David
-- (C) Bruegel's painting The Peasant Wedding
-- (D) Rembrandt's The Night Watch
-KEY: A. Explanation: Bernini made a marble statue of this vision between 1647 and 1652. It shows an angel about to pierce Teresa's heart with a golden spear. Its drama and strong feeling are typical of Baroque art in Catholic churches.
-  - why not B: Michelangelo's David (1501–1504) shows the Bible hero David and was finished before Teresa was born.
-  - why not C: Bruegel's painting (about 1567) shows a village wedding feast, not a religious vision.
-  - why not D: Rembrandt's The Night Watch (1642) is a group portrait of members of a Dutch city militia.
-  - hint: Which of these artists worked for the Catholic Church in Rome in the 1600s?
+**E2-P36** [Topic 2.7 · LO F · Skill 5.A · Comparison · medium]  Catholic Baroque artists who showed religious visions like the one in the first two paragraphs most often used
+- (A) dramatic poses, movement, and light to stir strong feelings in viewers
+- (B) balanced designs and ideal proportions to give a calm and orderly feeling
+- (C) everyday household scenes to celebrate the comforts of life in town
+- (D) scenes from ancient Roman history to teach lessons about civic duty
+KEY: A. Explanation: Teresa describes pain and joy so strong that she "could not wish to be rid of it." Catholic Baroque artists used dramatic poses, movement, and light to make such experiences feel real to viewers. Bernini's marble statue The Ecstasy of Saint Teresa (1647–1652) shows this very vision.
+  - why not B: Balance, calm, and ideal proportions mark High Renaissance art, such as Raphael's. Baroque artists wanted drama instead.
+  - why not C: Everyday household scenes were popular in Dutch painting of the 1600s. They do not show religious visions.
+  - why not D: Stern scenes from ancient Rome that teach civic duty belong to Neoclassical art of the late 1700s.
+  - hint: Teresa's vision is full of strong feeling. How could an artist make viewers feel it too?
 
 
 ### Source P13 (questions E2-P37–E2-P39)
@@ -544,7 +543,7 @@ KEY: A. Explanation: Bernini made a marble statue of this vision between 1647 an
 - (D) translating the Bible into the everyday languages of Europe
 KEY: B. Explanation: Ranke says the Jesuits built well-run schools that charged no fees. They also took control of "the confessional" and "the direction of consciences." Their former students became cardinals and city leaders.
   - why not A: Ranke says the order arose "in strictest alliance" with church power, but he credits schools and the confessional, not armies.
-  - why not C: Ranke says the Jesuits "taught gratis," which means free of charge.
+  - why not C: Ranke says Jesuit colleges were founded by "a city or a prince." He does not say that selling indulgences paid for them.
   - why not D: Ranke does not mention Bible translation. He stresses their schools and their work as confessors.
   - hint: Look at what Ranke says the Jesuits did in schools and in the confessional.
 
@@ -610,7 +609,7 @@ KEY: C. Explanation: Across Europe, about three out of four people put to death 
   - why not D: Neither source mentions healing. Spee says rumor and "envy" could point to almost anyone, starting with poor women.
   - hint: Who does Spee say suffers first? Who was Junius?
 
-**E2-P42** [Topic 2.6 · LO E · Skill 5.B · Comparison · medium]  Spee's criticism of trials based on rumor and of confessions forced by torture is most similar to the later arguments of which person?
+**E2-P42** [Topic 2.6 · LO E · Skill 5.B · Comparison · medium]  Spee's criticism of trials based on rumor and of confessions forced by torture is most similar to the arguments of which person?
 - (A) James VI and I
 - (B) Cesare Beccaria
 - (C) Cardinal Richelieu
@@ -619,14 +618,14 @@ KEY: B. Explanation: In 1764 the Italian writer Cesare Beccaria argued that tort
   - why not A: King James VI of Scotland (later James I of England) wrote Daemonologie (1597), a book that supported witch hunting.
   - why not C: Cardinal Richelieu ran France's government for the king from 1624 to 1642. He is known for making royal power stronger, not for criticizing trials.
   - why not D: Philip II of Spain supported the Spanish Inquisition's harsh treatment of people accused of heresy.
-  - hint: Which person wrote about criminal justice during the Enlightenment?
+  - hint: Which of these people wrote about how courts should treat accused people?
 
 
 ### Source P15 (questions E2-P43–E2-P45)
 [IMAGE] El Greco (Domenikos Theotokopoulos), Greek-born painter who worked in Toledo, Spain, The Burial of the Count of Orgaz, oil painting made for the church of Santo Tomé in Toledo, 1586–1588. Church of Santo Tomé, Toledo, Spain. Public domain image via Wikimedia Commons (file: El Greco - The Burial of the Count of Orgaz.JPG).
 Image file: https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG/1280px-El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG (1280 × 1568)
-Caption shown to students: A tall painting with a rounded top, divided into two parts. In the lower part, two saints in gold-embroidered robes, one young and one old wearing a bishop's tall pointed hat, lower the body of a knight in shining armor into his tomb. Behind them stands a row of gentlemen dressed in black with white ruffled collars, along with a friar, a priest in a see-through white robe who looks up toward heaven, a churchman reading from a book, and a tall cross. In the upper part, the Virgin Mary, John the Baptist, and many saints and angels surround Christ, who is dressed in white at the top, on swirling clouds. An angel carries the dead man's soul upward through an opening in the clouds. The painting shows a local legend: when Don Gonzalo Ruiz, lord of the town of Orgaz, was buried in 1323, Saint Stephen and Saint Augustine came down from heaven and laid him in his tomb with their own hands, as a reward for the gifts he had given to the church of Santo Tomé in Toledo. The painting was made for that church.
-Description: A tall oil painting with a rounded top, about one and a quarter times as tall as it is wide, in dark blacks, golds, and cool grays. Lower half: two saints bend over the body of a dead knight in black, shining armor. On the left, a young saint in a gold dalmatic (a deacon's robe) holds the knight's legs; on the right, an old, bearded saint in a gold cope and a white bishop's miter holds his shoulders. Small scenes of saints are embroidered on their robes. Behind them, a long row of serious men with pointed beards and white ruff collars, dressed in black, stand shoulder to shoulder; some raise a hand. At the far left stands a friar in a gray-brown hooded habit, and in front of him a small boy in black with a ruff points toward the knight. At the right, a priest in a white, see-through surplice stands with his back to the viewer, looks up, and stretches out one hand; beside him a bald churchman reads from a book, and a tall silver processional cross rises behind them. Torches burn above the crowd. Upper half: on curling, cloud-like shapes, Christ in white sits at the top. Below him, on the left, the Virgin Mary in a red dress and blue cloak leans forward, and on the right, John the Baptist, wearing only an animal skin around his waist, kneels and stretches out an arm toward Christ. Saint Peter, in yellow, holds a set of keys at the left, and crowds of saints with long, stretched bodies fill the right side. In the middle, an angel with large wings lifts a small, see-through figure (the dead man's soul) through a narrow opening in the clouds.
+Caption shown to students: A tall painting with a rounded top, divided into two parts. In the lower part, two saints in gold-embroidered robes, one young and one old wearing a bishop's tall pointed hat, lower the body of a knight in shining armor into his tomb. Behind them stands a row of gentlemen dressed in black with white ruffled collars, along with a friar, a priest in a see-through white robe who looks up toward heaven, a churchman reading from a book, and a tall cross. In the upper part, the Virgin Mary, John the Baptist, and many saints and angels surround Christ, who is dressed in white at the top, on swirling clouds. An angel carries the dead man's soul upward through an opening in the clouds. The painting shows a local legend from the 1300s: when Don Gonzalo Ruiz, lord of the town of Orgaz, was buried, Saint Stephen and Saint Augustine came down from heaven and laid him in his tomb with their own hands, as a reward for the gifts he had given to the church of Santo Tomé in Toledo. The painting was made for that church.
+Description: A tall oil painting with a rounded top, about one and a quarter times as tall as it is wide, in dark blacks, golds, and cool grays. Lower half: two saints bend over the body of a dead knight in black, shining armor. On the left, a young saint in a gold dalmatic (a deacon's robe) holds the knight's legs; on the right, an old, bearded saint in a gold cope and a gold, embroidered bishop's miter holds his shoulders. Small scenes of saints are embroidered on their robes. Behind them, a long row of serious men with pointed beards and white ruff collars, dressed in black, stand shoulder to shoulder; some raise a hand. At the far left stands a friar in a gray-brown hooded habit, and in front of him a small boy in black with a ruff points toward the knight. At the right, a priest in a white, see-through surplice stands with his back to the viewer, looks up, and stretches out one hand; beside him a bald churchman reads from a book, and a tall silver processional cross rises behind them. Torches burn above the crowd. Upper half: on curling, cloud-like shapes, Christ in white sits at the top. Below him, on the left, the Virgin Mary in a red dress and blue cloak leans forward, and on the right, John the Baptist, wearing only an animal skin around his waist, kneels and stretches out an arm toward Christ. Saint Peter, in yellow, holds a set of keys at the left, and crowds of saints with long, stretched bodies fill the right side. In the middle, an angel with large wings lifts a small, see-through figure (the dead man's soul) through a narrow opening in the clouds.
 > Words to know: friar = a member of a Catholic religious order, such as the Franciscans, who preached and worked among ordinary people; legend = an old story that people have passed down, often about a miracle
 
 **E2-P43** [Topic 2.7 · LO F · Skill 1.B · medium]  Which feature of the painting is most typical of Mannerism?
@@ -656,7 +655,7 @@ KEY: A. Explanation: The Council of Trent taught that saints in heaven help livi
 - (B) distortion and intense spiritual feeling
 - (C) ancient Greek and Roman philosophers
 - (D) realistic scenes of everyday life
-KEY: B. Explanation: High Renaissance art stressed balance and perfect proportions. Mannerists such as El Greco stretched figures and crowded the space to stir strong religious feeling.
+KEY: B. Explanation: Raphael's The School of Athens shows calm figures in a balanced, orderly space. El Greco stretches his figures and crowds the heavenly scene to create strong religious feeling.
   - why not A: Balance and calm proportions are what Raphael's The School of Athens stresses most.
   - why not C: Raphael's The School of Athens shows ancient philosophers. El Greco shows saints, angels, and a funeral.
   - why not D: Neither painting shows everyday life. For that, think of Bruegel's peasant scenes.
@@ -669,7 +668,7 @@ KEY: B. Explanation: High Renaissance art stressed balance and perfect proportio
 > … Of the able-bodied vagrants the foreign-born should be returned to their native country—which indeed is provided for in the imperial law—with travelling money, for it would be inhuman to send a destitute man on a journey without any money, and would be nothing less than commanding him to rob. …
 > There are plenty of workshops in which they may find employment. The wool weavers of Armentium, nay, almost all craftsmen, complain of the scarcity of workmen, and the silk weavers of Bruges would hire almost any boys for turning certain little wheels, … And they cannot find boys to do this, because their parents assert that the children bring home more from begging.
 — Juan Luis Vives, Spanish humanist scholar living in Bruges, On the Relief of the Poor, a proposal addressed to the city council of Bruges, a trading city in the Habsburg Netherlands, 1526 (Translated by Margaret M. Sherwood, Concerning the Relief of the Poor (New York: New York School of Philanthropy, 1917), pp. 12–15; adapted)
-> Words to know: Senators = members of the city council of Bruges; parish = a local church district; ascertained = found out; hitherto = until now; idle = not working; vagrants = people with no home who wander from place to place; imperial law = the law of the Holy Roman Empire; destitute = very poor; Armentium = Armentières, a cloth-making town in Flanders; nay = indeed; assert = claim
+> Words to know: Senators = members of the city council of Bruges; parish = a local church district; ascertained = found out; hitherto = until now; idle = not working; vagrants = people with no home who wander from place to place; imperial law = laws issued under an emperor's authority; destitute = very poor; Armentium = Armentières, a cloth-making town in Flanders; nay = indeed; assert = claim
 
 **E2-P46** [Topic 2.6 · LO E · Skill 3.A · easy]  Vives's main proposal is that the city government should
 - (A) register the poor and put all who are able to work into jobs
@@ -693,16 +692,16 @@ KEY: C. Explanation: In the early 1500s, a growing population, rising prices, an
   - why not D: The Thirty Years' War began in 1618, long after 1526.
   - hint: What was happening to cities and the number of poor people in the early 1500s?
 
-**E2-P48** [Topic 2.6 · LO E · Skill 5.B · Continuity and Change · easy]  Plans like Vives's are most similar to which later English law?
-- (A) The Act of Supremacy of 1534
-- (B) The Navigation Acts
-- (C) The Corn Laws
-- (D) The Elizabethan Poor Law of 1601
-KEY: D. Explanation: England's Poor Law of 1601 made each parish collect a tax to help the poor. It set people who could work to work and punished idle beggars. Like Vives's plan, it made local government responsible for the poor.
-  - why not A: The Act of Supremacy made Henry VIII head of the Church of England. It did not deal with the poor.
-  - why not B: The Navigation Acts (from 1651) required trade with England's colonies to be carried in English ships.
-  - why not C: The Corn Laws (best known from the law of 1815) taxed imported grain to protect the profits of English landowners.
-  - hint: Which law made local officials responsible for people like those Vives describes?
+**E2-P48** [Topic 2.6 · LO E · Skill 5.A · Comparison · medium]  Which feature of the English Poor Law of 1601 most closely resembled Vives's proposal?
+- (A) It kept help for the poor voluntary and left it mainly to private donors.
+- (B) It placed help for the poor under one office of the national government.
+- (C) It paid poor families a fixed weekly sum out of the royal treasury.
+- (D) It made officials in each parish organize help and work for the poor.
+KEY: D. Explanation: The Poor Law of 1601 set up overseers of the poor in each parish. They collected a local tax, helped people who could not work, and set people who could work to work. Vives also wanted "two Senators for each parish" to register the poor, and he wanted no one fit for work to "be idle."
+  - why not A: The 1601 law made each parish collect a tax for the poor. Help no longer depended only on gifts.
+  - why not B: The law gave this work to officials in each parish, not to one national office.
+  - why not C: The law did not pay the poor from the royal treasury. The money came from a tax collected in each parish.
+  - hint: Compare who organized help for the poor and what was expected of people able to work.
 
 ## TIMED EXAM (25 questions, 25 minutes)
 
@@ -753,7 +752,7 @@ KEY: C. Explanation: Luther said that "whosoever can" should strike down the reb
   - A: Incorrect. Luther calls the rebels "mad dogs" and says their Twelve Articles were "all vain pretense."
   - B: Incorrect. Thomas Müntzer, a radical preacher, led rebels in Thuringia in 1525. Luther attacked him, and the princes executed him after the rebels' defeat.
   - C: Correct. Luther says that "whosoever can" should "smite, strangle, and stab" the rebels. The princes and nobles wanted to hear this.
-  - D: Incorrect. Anabaptists taught that Christians should not use the sword, so they rejected Luther's call to kill rebels.
+  - D: Incorrect. Many Anabaptists, such as those who met at Schleitheim in 1527, said Christians should not use the sword. They would have opposed Luther's call to kill rebels.
 
 **E2-E04** [Topic 2.8 · LO G · Skill 5.B · Causation · hard]  The events of 1525 described in the sources contributed most directly to which of the following?
 - (A) The Peace of Augsburg's grant of religious freedom to peasants
@@ -764,7 +763,7 @@ KEY: C. Explanation: After the Peasants' War, Luther and his followers relied on
   - A: Incorrect. The Peace of Augsburg (1555) let each prince, not each peasant, choose the religion of his land.
   - B: Incorrect. Serfdom lasted in many German lands until the 1800s.
   - C: Correct. After 1525 Luther and his followers relied on princes to protect and organize Lutheran churches. Many princes became heads of the churches in their lands.
-  - D: Incorrect. The Catholic Church kept bishops in charge of appointing priests.
+  - D: Incorrect. The Catholic Church did not give parishes the right to elect their priests. The Council of Trent instead strengthened bishops' control over parish clergy.
 
 **E2-E05** [Topic 2.3 · LO B · Skill 5.A · Comparison · medium]  Luther's call to "smite, strangle, and stab" rebels contrasts most strongly with the views of which group?
 - (A) Anabaptists
@@ -790,12 +789,12 @@ KEY: A. Explanation: Luther believed that God gave rulers the sword to keep orde
 - (A) ask the king to make Calvin's teachings the official religion of the French kingdom
 - (B) urge French Protestants to take up arms against the king's officials
 - (C) show the king that Protestants were loyal subjects, not rebels
-- (D) apologize to the king for teachings that Calvin now admitted were wrong
+- (D) win the king's permission for Calvin himself to return safely to France
 KEY: C. Explanation: After 1534 French Protestants were being jailed and burned. Calvin wanted to show Francis I that their faith was the old gospel of Paul, not a plot to overthrow kings.
   - A: Incorrect. Calvin defends Protestant teaching and protests the persecution. He does not ask the king to make it France's religion.
   - B: Incorrect. Calvin presents Protestants as loyal, peaceful subjects. He does not call for armed resistance.
   - C: Correct. Calvin protests that his teachings are falsely accused of aiming to "subvert all orders and civil governments" and of troubling "the peace and quiet of the people."
-  - D: Incorrect. Here "apology" means a written defense. Calvin defends his teaching as the true gospel and takes none of it back.
+  - D: Incorrect. Calvin says he is not seeking "a safe return into my native country" for himself. He takes up "the common cause of all the godly."
 
 **E2-E07** [Topic 2.4 · LO C · Skill 5.B · Causation · medium]  The conflict Calvin describes contributed most directly to which later development in France?
 - (A) The Fronde
@@ -839,44 +838,42 @@ KEY: D. Explanation: Gustavus says the emperor wants to root out "the evangelica
   - C: Incorrect. Gustavus fights against "the emperor and his followers."
   - D: Correct. Gustavus says the emperor wants "the evangelical religion" rooted out, and he also says he seeks "the security of my kingdom."
 
-**E2-E10** [Topic 2.4 · LO C · Skill 5.B · Causation · medium]  Which Catholic power paid subsidies to support Sweden's war against the Habsburg emperor, showing that the war was not only about religion?
-- (A) Spain
-- (B) Bavaria
-- (C) Poland
-- (D) France
-KEY: D. Explanation: Cardinal Richelieu, France's chief minister, cared more about weakening the Habsburgs than about religion. In 1631 Catholic France agreed to pay Protestant Sweden to keep fighting. In 1635 France itself joined the war against the Habsburgs.
-  - A: Incorrect. Spain was ruled by a branch of the Habsburg family and fought on the emperor's side.
-  - B: Incorrect. Maximilian, the Catholic duke of Bavaria, led the Catholic League. He fought on the emperor's side.
-  - C: Incorrect. Catholic Poland had fought Sweden in the 1620s and was its rival around the Baltic Sea.
-  - D: Correct. Under Cardinal Richelieu, Catholic France agreed in 1631 to pay Sweden to fight the Habsburgs, and in 1635 France entered the war itself.
+**E2-E10** [Topic 2.4 · LO C · Skill 5.B · Causation · medium]  In 1631 France agreed to pay Sweden to keep fighting the Habsburg emperor. Which conclusion about the war is best supported by this alliance and by Gustavus's reply?
+- (A) Rulers chose their allies mainly because they shared the same faith.
+- (B) Protestant rulers asked the pope to settle their quarrels with the emperor.
+- (C) The emperor relied mainly on Protestant kingdoms to fight his wars.
+- (D) Rulers often fought to protect their states' power, not only their faith.
+KEY: D. Explanation: Gustavus says he wants "the security of my kingdom." Cardinal Richelieu, France's chief minister, wanted to weaken the Habsburgs, who ruled Spain and Austria. So in 1631 Catholic France agreed to pay Lutheran Sweden, and in 1635 France itself joined the war. Political interests mattered as much as religion.
+  - A: Incorrect. Gustavus speaks of a fight "between God and the devil," but Catholic France and Lutheran Sweden became allies anyway.
+  - B: Incorrect. Neither the passage nor the alliance shows Protestant rulers turning to the pope. Protestants rejected the pope's authority.
+  - C: Incorrect. The emperor relied mainly on Catholic allies, such as Spain and the Catholic League led by Bavaria. Gustavus fought against him.
+  - D: Correct. Gustavus says he seeks "the security of my kingdom." Catholic France paid Protestant Sweden because Cardinal Richelieu wanted to weaken the Habsburgs, France's great rivals.
 
 **E2-E11** [Topic 2.8 · LO G · Skill 5.B · Continuity and Change · medium]  The war Gustavus describes ended with a peace settlement that
 - (A) restored Catholic unity across the Holy Roman Empire under the emperor
 - (B) broke up the Holy Roman Empire into independent nation-states
 - (C) recognized Calvinism and confirmed princes' control of religion in their lands
 - (D) made Lutheranism the single official religion of the entire Holy Roman Empire
-KEY: C. Explanation: The Peace of Westphalia (1648) made Calvinism a legal faith next to Catholicism and Lutheranism. It gave the empire's princes more control over religion and over their own lands. Sweden and France gained territory.
+KEY: C. Explanation: The Peace of Westphalia (1648) recognized Catholicism, Lutheranism, and Calvinism. Princes kept strong control over religion in their lands, but they had to respect rights of worship that had existed in 1624. The princes also gained more power over their own lands, and Sweden and France gained territory.
   - A: Incorrect. The Peace of Westphalia accepted the religious split in the empire. It ended hopes of restoring Catholic unity.
   - B: Incorrect. The Holy Roman Empire lasted until 1806. The peace gave its princes more power, but it did not end the empire.
-  - C: Correct. The Peace of Westphalia (1648) added Calvinism to the faiths a ruler could follow and confirmed the princes' control over religion in their own lands.
+  - C: Correct. The Peace of Westphalia (1648) recognized Calvinism along with Catholicism and Lutheranism. It confirmed the princes' control over religion in their lands, but it also protected rights of worship as they had stood in 1624.
   - D: Incorrect. The peace kept Catholic, Lutheran, and Calvinist states side by side. No single church became official everywhere.
 
 
 ### Source X4 (questions E2-E12–E2-E14)
 > The sacred and holy, oecumenical, and general Synod of Trent, … seeing clearly that this truth and discipline are contained in the written books, and the unwritten traditions which, received by the Apostles from the mouth of Christ himself, or from the Apostles themselves, the Holy Ghost dictating, have come down even unto us, transmitted as it were from hand to hand; (the Synod) following the examples of the orthodox Fathers, receives and venerates with an equal affection of piety, and reverence, all the books both of the Old and of the New Testament … as also the said traditions, as well those appertaining to faith as to morals. …
-> Moreover, the same Sacred and holy Synod, … ordains and declares, that the said old and vulgate edition, which, by the lengthened usage of so many ages, has been approved of in the Church, be, in public lectures, disputations, sermons and expositions, held as authentic; and that no one is to dare, or presume to reject it under any pretext whatever.
-> Furthermore, in order to restrain petulant spirits, It decrees, that no one, relying on his own skill, shall,—in matters of faith, and of morals pertaining to the edification of Christian doctrine,—wresting the sacred Scripture to his own senses, presume to interpret the said sacred Scripture contrary to that sense which holy mother Church,—whose it is to judge of the true sense and interpretation of the holy Scriptures,—hath held and doth hold. …
 > And wishing, as is just, to impose a restraint, in this matter, also on printers, who now without restraint,—thinking, that is, that whatsoever they please is allowed them,—print, without the license of ecclesiastical superiors, the said books of sacred Scripture … (this Synod) ordains and decrees, that … it shall not be lawful for any one to print, or cause to be printed, any books whatever, on sacred matters, without the name of the author; nor to sell them in future, or even to keep them, unless they shall have been first examined, and approved of, by the Ordinary. …
 — Decrees of the Council of Trent, a council of Catholic bishops called by the pope, fourth session, April 8, 1546 (Translated by J. Waterworth, The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London: C. Dolman, 1848), pp. 17–20; adapted)
-> Words to know: oecumenical = representing the whole Church; Synod = church council; the Holy Ghost dictating = as God's Spirit directed; orthodox Fathers = respected early Christian writers; venerates = honors as holy; appertaining to = having to do with; the said old and vulgate edition = the Vulgate, the Latin translation of the Bible long used in the Church; disputations = formal debates; petulant = rude and unruly; edification = building up; wresting … to his own senses = twisting to fit his own ideas; ecclesiastical superiors = church officials; the Ordinary = the local bishop
+> Words to know: oecumenical = representing the whole Church; Synod = church council; the Holy Ghost dictating = as God's Spirit directed; orthodox Fathers = respected early Christian writers; venerates = honors as holy; appertaining to = having to do with; ecclesiastical superiors = church officials; the Ordinary = the local bishop
 
 **E2-E12** [Topic 2.5 · LO D · Skill 3.A · medium]  The decrees were most directly a response to which Protestant idea?
 - (A) that God has already chosen which people will be saved and which will not
 - (B) that monasteries should be closed and their lands sold for the public good
-- (C) that Scripture alone, without church tradition, is the source of religious truth
+- (C) that Scripture alone is the final authority in matters of faith
 - (D) that the bread of the Lord's Supper does not become the body of Christ
-KEY: C. Explanation: Protestants said Scripture alone had the final say, and that believers could read it for themselves. The Council answered that truth is found in Scripture and in "unwritten traditions." It also said that only "holy mother Church" may judge what Scripture truly means.
-  - A: Incorrect. These decrees deal with which books and traditions carry God's truth and who may interpret them, not with who will be saved.
+KEY: C. Explanation: Protestant reformers said Scripture alone had the final say. The Council answered that God's truth is found both in Scripture and in "unwritten traditions" handed down from the apostles, and it honored both "with an equal affection of piety."
+  - A: Incorrect. These decrees deal with where God's truth is found and with printing religious books, not with who will be saved.
   - B: Incorrect. These decrees say nothing about monasteries.
   - C: Correct. Luther and other reformers said Scripture alone was the final authority. The Council answered that God's truth is found in Scripture and in "unwritten traditions."
   - D: Incorrect. These decrees are about Scripture, tradition, and printing, not about the Lord's Supper.
@@ -893,52 +890,52 @@ KEY: A. Explanation: Printed books and pamphlets spread Protestant ideas quickly
   - D: Incorrect. The expulsion of Spain's Jews in 1492 was a royal order about religion in Spain. It had nothing to do with printed books.
 
 **E2-E14** [Topic 2.5 · LO D · Skill 5.B · Continuity and Change · medium]  Which later Catholic measure most directly continued the policy in the decree on printers?
-- (A) The Edict of Nantes
-- (B) The Peace of Augsburg
-- (C) The Index of Prohibited Books
-- (D) The Concordat of 1801
+- (A) The founding of seminaries to train priests
+- (B) The papal reform of the calendar in 1582
+- (C) An official papal list of forbidden books
+- (D) The opening of Jesuit schools in many cities
 KEY: C. Explanation: In 1559 the pope issued the Index of Prohibited Books, a list of books Catholics were not allowed to read. A new Index came out in 1564, after the Council of Trent.
-  - A: Incorrect. The Edict of Nantes (1598) was a French royal decree that gave Protestants the right to worship. It was not a church rule about books.
-  - B: Incorrect. The Peace of Augsburg (1555) let German princes choose Catholicism or Lutheranism. It was not about books.
+  - A: Incorrect. In 1563 the Council of Trent ordered seminaries to train priests. They educated clergy; they did not control books.
+  - B: Incorrect. Pope Gregory XIII reformed the calendar in 1582 to fix the date of Easter. It had nothing to do with books.
   - C: Correct. The papacy issued the Index, a list of books Catholics were forbidden to read, in 1559, and a revised Index followed the Council of Trent in 1564.
-  - D: Incorrect. Napoleon's Concordat with the pope (1801) dealt with relations between church and state in France.
+  - D: Incorrect. Jesuit schools spread Catholic education from the 1540s on. They taught students; they did not ban books.
 
 
 ### Source X5 (questions E2-E15–E2-E16)
-**Persons Tried for Witchcraft in the Royal Courts of Five English Counties, by Decade, 1558–1707** (bar chart; y = Number of persons)
+**Persons Indicted and Hanged for Witchcraft in the Royal Courts of Five English Counties, by Decade, 1558–1707** (bar chart; y = Number of persons)
 - Persons indicted (formally charged): 1558–67 = 20, 1568–77 = 50, 1578–87 = 92, 1588–97 = 87, 1598–1607 = 39, 1608–17 = 36, 1618–27 = 16, 1628–37 = 11, 1638–47 = 52, 1648–57 = 60, 1658–67 = 23, 1668–77 = 12, 1678–87 = 9, 1688–97 = 4, 1698–1707 = 2
 - Persons hanged: 1558–67 = 4, 1568–77 = 16, 1578–87 = 19, 1588–97 = 18, 1598–1607 = 16, 1608–17 = 6, 1618–27 = 1, 1628–37 = 0, 1638–47 = 22, 1648–57 = 9, 1658–67 = 1, 1668–77 = 0, 1678–87 = 0, 1688–97 = 0, 1698–1707 = 0
-The figures come from the records of the assizes, courts held by the king's judges, for the Home Circuit: the counties of Essex, Hertfordshire, Kent, Surrey, and Sussex, in southeastern England. Records survive for about three-quarters of the court sessions held in these years, and cases heard in town courts are not included. No one was indicted for witchcraft in these courts between 1708 and 1736. In all, 513 persons were indicted and 112 were hanged.
+The figures come from the records of the assizes, courts held by the king's judges, for the Home Circuit: the counties of Essex, Hertfordshire, Kent, Surrey, and Sussex, in southeastern England. Records survive for about three-quarters of the court sessions held in these years, and cases heard in town courts are not included. The surviving records list no witchcraft indictments in these courts from 1708 to 1736. In all, the records list 513 persons indicted and 112 hanged.
 Source: C. L'Estrange Ewen, Witch Hunting and Witch Trials: The Indictments for Witchcraft from the Records of 1373 Assizes Held for the Home Circuit, A.D. 1559–1736 (New York: Dial Press, 1929), table "Witchcraft Statistics for the Home Circuit," p. 99 (totals columns)
 
-**E2-E15** [Topic 2.6 · LO E · Skill 5.B · Causation · medium]  Which of the following most likely contributed to the rise in witchcraft trials in 1638–1657 compared with 1618–1637?
+**E2-E15** [Topic 2.6 · LO E · Skill 5.B · Causation · medium]  Which of the following most likely contributed to the increase in people indicted for witchcraft in 1638–1657 compared with 1618–1637?
 - (A) The Spanish Inquisition
 - (B) The Scientific Revolution
 - (C) Elizabeth I's witchcraft law
 - (D) The English Civil War
 KEY: D. Explanation: During the English Civil War (1642–1651), courts and local government were disrupted and fear ran high. In 1645 Matthew Hopkins led a witch hunt in Essex, and 22 people were hanged in 1638–1647, the most of any decade in the chart.
   - A: Incorrect. The Spanish Inquisition never worked in England, and these trials were held in the king's courts.
-  - B: Incorrect. New scientific ideas later helped make educated people doubt witchcraft, which lowered the number of trials.
+  - B: Incorrect. New scientific ideas do not explain a sudden rise in the 1640s. The English Civil War, which disrupted government in these counties, is a more direct cause.
   - C: Incorrect. Elizabeth I's witchcraft law dates from 1563, long before this rise.
   - D: Correct. During the English Civil War (1642–1651), normal government broke down and fear ran high. In 1645 Matthew Hopkins led a witch hunt in Essex.
 
 **E2-E16** [Topic 2.6 · LO E · Skill 5.A · easy]  Which of the following conclusions is best supported by the data?
-- (A) Witchcraft trials in these courts rose steadily from 1558 to 1707.
+- (A) Witchcraft indictments in these courts rose steadily from 1558 to 1707.
 - (B) Most people indicted for witchcraft in these courts were not hanged.
 - (C) More people were hanged in 1588–1597 than in any other decade.
-- (D) Witchcraft trials in these courts stopped in the 1660s.
-KEY: B. Explanation: In every decade fewer people were hanged than were indicted. Of the 513 people indicted, 112 were hanged, so about four out of five escaped hanging.
-  - A: Incorrect. Trials peaked in 1578–1597, fell, rose again in 1638–1657, and then dropped almost to zero.
-  - B: Correct. In every decade fewer people were hanged than were indicted. In all, 513 people were indicted and 112 were hanged.
+- (D) Witchcraft indictments in these courts stopped in the 1660s.
+KEY: B. Explanation: The records list 513 people indicted and 112 hanged, about 22 percent. So most people indicted in these courts were not hanged.
+  - A: Incorrect. Indictments peaked in 1578–1597, fell, rose again in 1638–1657, and then dropped almost to zero.
+  - B: Correct. In every decade fewer people were hanged than were indicted. In all, the records list 513 people indicted and 112 hanged.
   - C: Incorrect. More people were hanged in 1638–1647 (22) than in 1588–1597 (18).
-  - D: Incorrect. Trials continued after the 1660s in small numbers, until 1698–1707.
+  - D: Incorrect. Indictments continued after the 1660s in small numbers, until 1698–1707.
 
 
 ### Source X6 (questions E2-E17–E2-E19)
 [IMAGE] Peter Paul Rubens, Flemish painter, The Coronation of Marie de' Medici, part of a series of 24 large paintings, most of them scenes from her life, that Marie ordered from Rubens for her palace in Paris, painted 1622–1625. Musée du Louvre, Paris. Public domain image via Wikimedia Commons (file: Peter Paul Rubens 049.jpg), from The Yorck Project.
 Image file: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Peter_Paul_Rubens_049.jpg/1280px-Peter_Paul_Rubens_049.jpg (1280 × 687)
 Caption shown to students: A large painting of a crowning ceremony inside a church with tall, pointed windows. At the center, Marie de' Medici, wife of King Henry IV of France, kneels in a blue robe covered with gold lilies, the emblem of the French kings, while a churchman in a gold robe holds a crown over her head. Bishops in tall pointed hats and cardinals in red robes and red hats stand on the steps near her. Crowds of richly dressed nobles and court ladies in wide lace collars watch from the left. Above the crowd, two flying figures, one with large wings and a palm branch, pour gold coins from a horn of plenty. King Henry IV, dressed in black, watches from a balcony at the top center. The ceremony took place in the church of Saint-Denis, near Paris, on May 13, 1610. Henry was murdered the next day.
-Description: A wide oil painting, almost twice as wide as it is tall, crowded with dozens of life-size figures in bright reds, blues, and golds. The setting is a stone church with a tall Gothic window at the upper left and heavy curtains at the upper right. In the center, a woman with a wide lace collar kneels with her hands pressed together; her long blue mantle, lined with white ermine fur and covered with gold fleurs-de-lis (lily shapes), spreads across the steps behind her. A bearded churchman in a gold cope holds a gold crown above her head, with bishops in pointed miters behind him. To the right, two cardinals in long red robes and wide red hats stand with their backs half turned, and tall candles burn near an altar. A small boy in white and gold stands beside the kneeling woman. On the left, rows of court ladies with jeweled hair and stiff lace collars, nobles in rich cloaks, and guards with tall pikes look on; spectators fill a gallery behind them. In the air above, two flying figures with flowing drapery (the one on the left has large wings and holds a palm branch) tip a horn of plenty from which gold coins fall toward the crowd. At the top center, in a box-like balcony, a gray-haired, bearded man in black with a white ruff looks down. Two spotted dogs rest on the carpeted steps at the lower right.
+Description: A wide oil painting, almost twice as wide as it is tall, crowded with dozens of life-size figures in bright reds, blues, and golds. The setting is a stone church with a tall Gothic window at the upper left and heavy curtains at the upper right. In the center, a woman with a wide lace collar kneels with her hands pressed together; her long blue mantle, lined with white ermine fur and covered with gold fleurs-de-lis (lily shapes), spreads across the steps behind her. A bearded churchman in a gold cope holds a gold crown above her head, with bishops in pointed miters behind him. To the right, two cardinals in long red robes and wide red hats stand with their backs half turned, and tall candles burn near an altar. A small boy in white and gold stands beside the kneeling woman. On the left, rows of court ladies with jeweled hair and stiff lace collars, nobles in rich cloaks, and guards with tall pikes look on; spectators fill a gallery behind them. In the air above, two flying figures with flowing drapery (the one on the left has large wings and holds a palm branch) tip a horn of plenty from which gold coins fall toward the crowd. At the top center, in a box-like balcony, a gray-haired, bearded man in black with a white ruff looks down. At the lower right, in front of the steps, are two black-and-white dogs: one lies on the floor and the other stands.
 > Words to know: coronation = a ceremony in which a king or queen is crowned; cardinal = a high official of the Catholic Church, chosen by the pope
 
 **E2-E17** [Topic 2.7 · LO F · Skill 1.A · medium]  The painting is most clearly an example of which artistic style?
@@ -958,21 +955,21 @@ KEY: B. Explanation: Rubens was the leading Baroque painter of northern Europe. 
 - (C) record a royal ceremony exactly as it happened, for a palace archive
 - (D) persuade French Catholics to accept Protestant forms of worship
 KEY: A. Explanation: In 1622 Marie de' Medici hired Rubens to paint 24 large pictures for her palace in Paris. Most show scenes from her life. Like many Baroque works paid for by rulers, they were meant to show her power and glory.
-  - A: Correct. Marie de' Medici ordered the series of paintings to celebrate her life and her right to rule as queen and regent after her husband's death.
+  - A: Correct. Marie ordered the series to celebrate her life, defend her years in power, and strengthen her standing as the king's mother.
   - B: Incorrect. Rubens painted the series for Marie herself, so it praises the court instead of criticizing it.
-  - C: Incorrect. Rubens arranged the scene to flatter the queen. Such paintings were meant to impress, not to be exact records.
+  - C: Incorrect. The flying figures pouring gold coins are symbols of glory, not people who were really there. Rubens painted an idealized scene, not an exact record.
   - D: Incorrect. The painting honors a Catholic ceremony, with bishops and cardinals taking part. It does not promote Protestant worship.
 
-**E2-E19** [Topic 2.4 · LO C · Skill 4.B · easy]  King Henry IV of France, who watches from the balcony in the painting, is best known for which of the following?
-- (A) Signing the Peace of Augsburg
-- (B) Issuing the Edict of Nantes
-- (C) Passing the Act of Supremacy
-- (D) Issuing the Edict of Worms
-KEY: B. Explanation: Henry IV was a Protestant who became Catholic to win the French throne. In 1598 he issued the Edict of Nantes, which allowed Huguenots to worship in many places and ended the French Wars of Religion. He was murdered in 1610.
-  - A: Incorrect. The Peace of Augsburg (1555) was made in the Holy Roman Empire, under Emperor Charles V's brother Ferdinand.
-  - B: Correct. In 1598 Henry IV issued the Edict of Nantes, which gave French Protestants the right to worship in many places and ended the French Wars of Religion.
-  - C: Incorrect. The Act of Supremacy (1534) was an English law that made Henry VIII head of the Church of England.
-  - D: Incorrect. The Edict of Worms (1521) was Emperor Charles V's decree against Martin Luther.
+**E2-E19** [Topic 2.4 · LO C · Skill 1.B · medium]  King Henry IV, who watches from the balcony, had once led the French Protestants. Which policy did he use to bring peace to France?
+- (A) Giving the pope control over the choice of bishops in France
+- (B) Allowing Huguenot worship in some places within a Catholic kingdom
+- (C) Requiring French nobles to accept Calvinism in their lands
+- (D) Letting each French province choose either Catholicism or Lutheranism
+KEY: B. Explanation: Henry IV became a Catholic in 1593 to win Paris and the throne. In 1598 he issued the Edict of Nantes. It allowed Huguenots to worship in many places while France stayed officially Catholic, and it ended the French Wars of Religion.
+  - A: Incorrect. Since the Concordat of Bologna (1516), the French king had the right to name bishops, and Henry kept it.
+  - B: Correct. In 1598 Henry IV issued the Edict of Nantes. It let Huguenots worship in many places and hold office, while Catholicism stayed France's official religion. It ended the French Wars of Religion.
+  - C: Incorrect. Henry became a Catholic in 1593 to win the throne. He did not force anyone to become a Calvinist.
+  - D: Incorrect. Letting rulers choose between Catholicism and Lutheranism was the rule of the Peace of Augsburg (1555) in the Holy Roman Empire, not a French policy.
 
 
 ### Source X7 (questions E2-E20–E2-E22)
@@ -999,23 +996,23 @@ KEY: A. Explanation: Luther praised marriage and gave wives authority at home. B
 - (A) taught that marriage was one of seven sacraments administered by priests
 - (B) allowed priests to marry if they first received special permission from the pope
 - (C) insisted that monks and nuns keep their vows of lifelong chastity
-- (D) rejected required celibacy for clergy and praised marriage as God's plan for all
-KEY: D. Explanation: The Catholic Church did not let priests, monks, or nuns marry. Luther said marriage is "a law of nature." Banning it was like telling people not "to eat, to drink, to sleep." Protestant pastors married and had families.
+- (D) rejected required celibacy for clergy and supported marriage for pastors
+KEY: D. Explanation: The Catholic Church did not let priests, monks, or nuns marry. Luther said marriage is "a law of nature." Banning it was like telling people not "to eat, to drink, to sleep." Protestant pastors married and had families, though Luther accepted that a few people had a special gift from God for staying unmarried.
   - A: Incorrect. The Catholic Church counted marriage as one of seven sacraments. Luther did not count marriage as a sacrament, though he honored it.
   - B: Incorrect. Luther rejected the pope's authority. He says forbidding marriage is a sign of "God's enmity to Popedom."
   - C: Incorrect. Luther urged monks and nuns to leave their vows and marry. In 1525 he married Katharina von Bora, a former nun.
-  - D: Correct. The Catholic Church required priests, monks, and nuns to stay unmarried. Luther calls forbidding marriage, "a law of nature," a sign of "God's enmity to Popedom."
+  - D: Correct. The Catholic Church required priests, monks, and nuns to stay unmarried. Luther calls marriage "a law of nature" and says forbidding it is a sign of "God's enmity to Popedom."
 
-**E2-E22** [Topic 2.6 · LO E · Skill 2.C · hard]  A historian studying the daily lives of married women in Lutheran towns would find the passage limited mainly because it
+**E2-E22** [Topic 2.6 · LO E · Skill 2.C · medium]  A historian studying the daily lives of married women in Lutheran towns would find the passage limited mainly because it
 - (A) gives a male reformer's opinions, not women's own experiences
-- (B) was recorded before the Protestant Reformation had begun in Germany
-- (C) describes Catholic marriage customs rather than Lutheran ones
-- (D) was written as a law that Lutheran families in Wittenberg were required to obey
+- (B) gives more attention to royal households than to the households of townspeople
+- (C) discusses the closing of convents rather than life within married households
+- (D) compares Catholic and Lutheran customs rather than presenting views about wives
 KEY: A. Explanation: The passage shows what one leading reformer believed about women and marriage. It does not show how women in Lutheran towns actually lived, worked, or thought.
   - A: Correct. The remarks show what one Protestant leader thought women should be. To learn about women's actual lives, a historian would need sources such as women's letters, court records, and household accounts.
-  - B: Incorrect. Luther made these remarks in the 1530s and 1540s, years after the Reformation had begun.
-  - C: Incorrect. Luther describes his own marriage and his own beliefs as a Protestant reformer.
-  - D: Incorrect. These were remarks at dinner, not a law. They show opinions, not rules that were enforced.
+  - B: Incorrect. Luther talks about wives and households in general. He says nothing about royal households.
+  - C: Incorrect. The passage is about marriage and life at home. It does not discuss convents.
+  - D: Incorrect. Luther states his own views about wives directly. He mentions "Popedom" only to attack its ban on marriage.
 
 
 ### Source X8 (questions E2-E23–E2-E25)
@@ -1039,12 +1036,12 @@ KEY: D. Explanation: Weber says Calvinists worried about whether they were "one 
 
 **E2-E24** [Topic 2.8 · LO G · Skill 3.D · Causation · hard]  Which of the following, if true, would most challenge Weber's argument?
 - (A) Calvinist merchants in the Dutch Republic built one of Europe's richest trading economies during the 1600s.
-- (B) Banking and trade flourished in Catholic cities such as Florence and Venice before the Reformation.
+- (B) Catholic and Calvinist merchants in similar regions showed the same habits of work and saving.
 - (C) Puritan preachers in England urged believers to work hard at the jobs God had called them to.
 - (D) Calvinist church courts in Geneva punished people for laziness and wasteful spending.
-KEY: B. Explanation: Weber ties the rise of capitalism to Protestant ideas. But the Medici bankers of Florence and the merchants of Venice ran big businesses long before the Reformation. Many historians use this fact to argue against Weber.
+KEY: B. Explanation: Weber links Calvinist beliefs to habits of hard work and saving. Evidence that Catholics in similar places had the same habits would weaken that link. Weber himself wrote that capitalism existed long before the Reformation, for example in Florence. His argument is about the attitude toward work and saving that Calvinism encouraged, so earlier banking in Catholic cities would not, by itself, disprove it.
   - A: Incorrect. Dutch Calvinist wealth fits Weber's argument, so it supports rather than challenges it.
-  - B: Correct. If capitalism was already strong in Catholic cities such as Florence and Venice in the 1300s and 1400s, then Protestant ideas cannot be its main cause.
+  - B: Correct. Weber argues that Calvinist worry about being "one of the elect" pushed believers toward "intense worldly activity" and saving. If Catholic merchants in similar places worked and saved in the same ways, Calvinist beliefs would not explain those habits.
   - C: Incorrect. Puritan preaching about hard work in a calling is the kind of evidence Weber uses to support his argument.
   - D: Incorrect. Punishing laziness and waste fits Weber's claim that Calvinists valued discipline and saving.
 
@@ -1056,7 +1053,7 @@ KEY: B. Explanation: Weber ties the rise of capitalism to Protestant ideas. But 
 KEY: A. Explanation: In the 1500s and 1600s, trade with the Americas and Asia made cities like Antwerp and Amsterdam rich. New banks and trading companies, such as the Dutch East India Company (1602), helped business grow.
   - A: Correct. In the 1500s and 1600s Europe's commercial economy grew. Antwerp and later Amsterdam became centers of trade, banking, and joint-stock companies such as the Dutch East India Company (1602).
   - B: Incorrect. Mediterranean trade continued, and trade across the Atlantic and with Asia grew quickly in this period.
-  - C: Incorrect. After the Black Death, money payments and markets spread, and Europe moved further away from self-sufficient manors.
+  - C: Incorrect. Western Europe's growing markets, banking, and overseas trade made its economy more commercial. A return to self-sufficient manors would not explain that growth.
   - D: Incorrect. Steam-powered factories came with the Industrial Revolution, which began in Britain after about 1760.
 
 
@@ -1070,7 +1067,7 @@ Every text excerpt was copied from raw text downloaded with curl and saved in so
 | X1.2 | pair (Source 2) | Martin Luther, Against the Murdering and Robbing Bands of the Peasants (May 1525) | Robinson, vol. 2 (1906), pp. 106–107 (page image p. 106) | Published 1906; public domain |
 | X2 | passage | John Calvin, prefatory letter to Francis I (dated Aug. 23, 1535), printed with the Institutes (1536) | Thomas Norton's translation (1561) via Robinson, vol. 2 (1906), pp. 123–125 | Published 1561/1906; public domain |
 | X3 | passage | Gustavus Adolphus, reply to the envoy of the elector of Brandenburg (July 1630) | Robinson, vol. 2 (1906), p. 210 (page image) | Published 1906; public domain |
-| X4 | passage | Council of Trent, Session IV decrees on Scripture and the Vulgate (Apr. 8, 1546) | tr. J. Waterworth, Canons and Decrees of the Council of Trent (Dolman, 1848), pp. 17–20 | Published 1848; public domain |
+| X4 | passage | Council of Trent, Session IV (Apr. 8, 1546): decree on Scripture and tradition, and the clause on printers from the decree on the edition and use of the sacred books | tr. J. Waterworth, Canons and Decrees of the Council of Trent (Dolman, 1848), pp. 17–20 | Published 1848; public domain |
 | X5 | bar chart | Persons indicted and hanged for witchcraft at the Home Circuit assizes (Essex, Herts., Kent, Surrey, Sussex), by decade, 1558–1707 | C. L'Estrange Ewen, Witch Hunting and Witch Trials (Dial Press, New York, 1929), p. 99 (page image) | Published 1929; U.S. public domain since Jan. 1, 2025; the chart uses only figures |
 | X6 | image | Peter Paul Rubens, The Coronation of Marie de' Medici (Marie de' Medici cycle, 1622–1625), Louvre | Commons file 'Peter Paul Rubens 049.jpg' (The Yorck Project), 1280px thumbnail | Painted 1622–1625; public domain (Commons API: 'Public domain', Copyrighted False) |
 | X7 | passage | Martin Luther, Table Talk (remarks of the 1530s–1540s, publ. 1566), on marriage and women | tr. William Hazlitt (Bohn, 1857), pp. 298–300 | Published 1857; public domain |
@@ -1080,7 +1077,7 @@ Every text excerpt was copied from raw text downloaded with curl and saved in so
 | P3 | image | Workshop of Lucas Cranach the Elder, Passional Christi und Antichristi (Wittenberg, 1521), money-changers / pope pair | Commons file 'Lucas Cranach d. Ä. - Passions of Christ and Antichrist - WGA05728.jpg' (Web Gallery of Art) | Printed 1521; public domain (Commons API: 'Public domain', Copyrighted False) |
 | P4 | passage | Edict of Worms (May 1521), arts. 1, 3, 9, 29 | Robinson, vol. 2 (1906), pp. 83–88 | Published 1906; public domain |
 | P5 | bar chart | Works printed in German, by year, 1513–1523 | Friedrich Kapp, Geschichte des deutschen Buchhandels, vol. 1 (Leipzig, 1886), pp. 407–408 (page images) | Published 1886; public domain; the chart uses only figures |
-| P6 | passage | The Schleitheim Articles (Feb. 1527), as translated into Latin by Zwingli | W. J. McGlothlin, Baptist Confessions of Faith (American Baptist Publication Society, 1911), pp. 3–9 | Published 1911; public domain |
+| P6 | passage | The Schleitheim Articles (Feb. 1527), as translated into Latin by Zwingli: articles 1, 6 (with its closing paragraph on magistrates) and 7 | W. J. McGlothlin, Baptist Confessions of Faith (American Baptist Publication Society, 1911), pp. 3–9 | Published 1911; public domain |
 | P7.1 | pair (Source 1) | Ecclesiastical Ordinances of Geneva (1541) | Robinson, vol. 2 (1906), p. 133 (page image) | Published 1906; public domain |
 | P7.2 | pair (Source 2) | Ordinances for the country churches under Geneva (1547) | Robinson, vol. 2 (1906), p. 134 | Published 1906; public domain |
 | P8.1 | pair (Source 1) | Act of Supremacy, 26 Henry VIII c. 1 (Nov. 1534) | Gee & Hardy, Documents Illustrative of English Church History (Macmillan, 1896), pp. 243–244 (page image p. 244) | Published 1896; public domain |
@@ -1105,6 +1102,7 @@ Notes:
 - No non-European voice fits this unit's eight topics with a verified pre-1930 English text: Hideyoshi's 1587 edict expelling missionaries was considered, but the only English version found (Murdoch, History of Japan, vol. 2, 1903; raw/murdoch1903v2_historyofjapan02murd_0.txt) is a paraphrase from a French Jesuit account, so it was not used. Multi-date data is supplied by X5 (fifteen decades) and P5 (eleven years).
 - Downloaded and considered but not used: W. H. Frere and C. E. Douglas, Puritan Manifestoes (1907) (raw/frere1907_puritanmanifesto00frer.txt; considered for the Admonition to Parliament of 1572, but Puritanism is outside the unit's main focus and Calvinist church discipline is covered by the Geneva pair, P7); Preserved Smith, The Age of the Reformation (1920) (raw/smith1920_agereformation00smitgoog.txt; Weber and Ranke were preferred as historians); Rubens, The Apotheosis of Henry IV (raw/commons/rubens_apotheosis_wga20342_1280.jpg; rejected because the canvas includes a central nude figure).
 - Not reused from other Euro units or from aw3 (World Unit 3): Luther's Ninety-five Theses and Address to the Christian Nobility (aw3), Trent Session XXV (aw3; this bank uses Session IV), Busbecq, the Edict of Nantes text, the Peace of Augsburg and Westphalia texts, Bruegel, Richelieu. Montaigne's 'Of Cannibals' is used by ae1 (P12.2) from the same Cotton/Hazlitt edition; this bank uses a different essay, 'Of Liberty of Conscience'.
+- Version 2026-11-09c (ChatGPT Pro review): P6 now begins at 'First learn concerning baptism!' (the opening list of article headings, whose 'abstention' means the ban, was cut); X4 omits the Vulgate and interpretation paragraphs (the excerpt keeps the decree on Scripture and tradition and the printers' clause); X5's title and note now say 'indicted' rather than 'tried' and no longer claim that no one was indicted after 1707; the P15 caption no longer dates the legendary burial; P15 and X6 long descriptions were corrected (gold miter; one dog lying, one standing); X6 and X8 context notes were corrected (Marie's regency 1610–1614; Weber's own acknowledgment of earlier capitalism). Both edited excerpts were re-checked against the raw text with the stretch checker (no new mismatches; X4's first paragraph shows only the documented 'wdth' OCR slip and page break).
 
 ### X1.1
 ID: X1.1
@@ -1211,7 +1209,7 @@ OCR / TEXT NOTES:
 Waterworth's footnote reference marks ('(')', '(h)', '(1)', '(t)') to his Latin notes are omitted. OCR 'wdth' corrected to 'with'. Waterworth's own parentheses '(the Synod)' and '(this Synod)' are part of his translation and are kept.
 
 ADAPTATION IN THE BANK (every cut):
-Cut 1: in the opening sentence, the words '— lawfully assembled in the Holy Ghost, the same three legates of the Apostolic See presiding therein, — keeping this always in view, that, errors being removed, the purity itself of the Gospel be preserved in the Church; which (Gospel) ... as the fountain of all, both saving truth, and moral discipline; and'. Cut 2: '— seeing that one God is the author of both —'. Cut 3: the list of canonical books and the anathema. Cut 4: in the second decree, '— considering that no small utility may accrue to the Church of God, if it be made known which out of all the Latin editions, now in circulation, of the sacred books, is to be held as authentic, —'. Cut 5: after 'hath held and doth hold' the rest ('or even contrary to the unanimous consent of the Fathers ...'). Cut 6: in the printers' decree, ', and the notes and comments upon them of all persons indifferently, with the press ofttimes unnamed, ... printed elsewhere;' and ', henceforth, the sacred Scripture, and especially the said old, and vulgate edition, be printed in the most correct manner possible; and'. Cut 7: the penalties after 'by the Ordinary'.
+Cut 1: in the opening sentence, the words '— lawfully assembled in the Holy Ghost, the same three legates of the Apostolic See presiding therein, — keeping this always in view, that, errors being removed, the purity itself of the Gospel be preserved in the Church; which (Gospel) ... as the fountain of all, both saving truth, and moral discipline; and'. Cut 2: '— seeing that one God is the author of both —'. Cut 3: the list of canonical books and the anathema. Cut 4: in the second decree, '— considering that no small utility may accrue to the Church of God, if it be made known which out of all the Latin editions, now in circulation, of the sacred books, is to be held as authentic, —'. Cut 5: after 'hath held and doth hold' the rest ('or even contrary to the unanimous consent of the Fathers ...'). Cut 6: in the printers' decree, ', and the notes and comments upon them of all persons indifferently, with the press ofttimes unnamed, ... printed elsewhere;' and ', henceforth, the sacred Scripture, and especially the said old, and vulgate edition, be printed in the most correct manner possible; and'. Cut 7: the penalties after 'by the Ordinary'. Cut 8 (version 2026-11-09c; ChatGPT Pro review, to shorten timed-exam reading): the two paragraphs of the second decree before the printers' clause are omitted, i.e. from 'Moreover, the same Sacred and holy Synod, ...' (the Vulgate declared authentic) through '... hath held and doth hold' (no private interpretation against the sense of holy mother Church), together with the rest of that sentence and the penalty sentence that follows it (raw lines 14357–14394 region; pp. 19–20). No item used them. The excerpt now has two paragraphs: the decree on Scripture and tradition (pp. 17–18), ending with the bank's ellipsis, and the printers' clause (p. 20), which begins 'And wishing, as is just, ...'. The credit's page range (pp. 17–20) is unchanged. Glossary entries used only in the omitted paragraphs were removed: 'the said old and vulgate edition', 'disputations', 'petulant', 'edification', 'wresting … to his own senses'. E2-E12's explanation no longer quotes 'holy mother Church'.
 
 CONTEXT NOTES:
 AP World Unit 3 (aw3, X2.2) uses Session XXV of the same translation; this bank uses only Session IV.
@@ -1236,7 +1234,7 @@ OCR / TEXT NOTES:
 (chart; values read from the page image)
 
 ADAPTATION IN THE BANK (every cut):
-The chart shows only the two 'Totals' person columns (not the number of bills of indictment or the county columns). The title, note and series names are the bank's own wording; 'Persons indicted (formally charged)' adds a plain-English gloss.
+The chart shows only the two 'Totals' person columns (not the number of bills of indictment or the county columns). The title, note and series names are the bank's own wording; 'Persons indicted (formally charged)' adds a plain-English gloss. Version 2026-11-09c (ChatGPT Pro review): the title said 'Persons Tried'; Ewen's columns count persons indicted (a bill of indictment was not always followed by a trial) and persons sentenced to hang, so the title is now 'Persons Indicted and Hanged for Witchcraft in the Royal Courts of Five English Counties, by Decade, 1558–1707'. The note said 'No one was indicted for witchcraft in these courts between 1708 and 1736'; since Ewen's figures rest on about 77 per cent of the original documents (p. 100), it now says 'The surviving records list no witchcraft indictments in these courts from 1708 to 1736. In all, the records list 513 persons indicted and 112 hanged.' E2-E15's stem and E2-E16's choices A and D now speak of indictments, not trials.
 
 CONTEXT NOTES:
 Elizabeth I's witchcraft statute was passed in 1563 (5 Eliz. c. 16); James I's harsher statute in 1604 (1 Jac. I c. 12). The 1638–1647 peak reflects the Essex trials of 1645 driven by Matthew Hopkins during the English Civil War. The 1736 Witchcraft Act ended prosecution for witchcraft as such.
@@ -1261,10 +1259,10 @@ OCR / TEXT NOTES:
 (image)
 
 ADAPTATION IN THE BANK (every cut):
-The caption and description were written from the downloaded image. The caption names Marie de' Medici and Henry IV (the man in black in the balcony at the top center, as the painting is usually described) and gives the date and place of the ceremony (Saint-Denis, May 13, 1610) and Henry's murder on May 14, 1610. It does not name the style. It calls the crowning figure 'a churchman in a gold robe' (Cardinal François de Joyeuse performed the coronation) and calls them 'two flying figures', saying only that the one on the left has large wings and a palm branch, without naming the allegories (version 2026-11-09b; the right-hand figure, with a flower wreath, shows no clear wings, so 'two winged figures' was dropped). The long description now says the canvas is 'almost' twice as wide as it is tall (727 × 394 cm; the image is 1280 × 687). The boy beside Marie (usually identified as the dauphin, the future Louis XIII) is mentioned only in the long description, without a name. Rubens's earlier Apotheosis of Henry IV from the same cycle was downloaded first (raw/commons/rubens_apotheosis_wga20342_1280.jpg) but rejected because its center includes a nude figure.
+The caption and description were written from the downloaded image. The caption names Marie de' Medici and Henry IV (the man in black in the balcony at the top center, as the painting is usually described) and gives the date and place of the ceremony (Saint-Denis, May 13, 1610) and Henry's murder on May 14, 1610. It does not name the style. It calls the crowning figure 'a churchman in a gold robe' (Cardinal François de Joyeuse performed the coronation) and calls them 'two flying figures', saying only that the one on the left has large wings and a palm branch, without naming the allegories (version 2026-11-09b; the right-hand figure, with a flower wreath, shows no clear wings, so 'two winged figures' was dropped). The long description now says the canvas is 'almost' twice as wide as it is tall (727 × 394 cm; the image is 1280 × 687). The boy beside Marie (usually identified as the dauphin, the future Louis XIII) is mentioned only in the long description, without a name. Version 2026-11-09c (ChatGPT Pro review, checked against raw/commons/rubens_coronation_049_1280.jpg): the long description said 'Two spotted dogs rest on the carpeted steps at the lower right'; in fact one black-and-white dog lies on the floor in front of the steps and the other stands beside it (the reviewer's 'one is seated' is also not what the image shows). The sentence now reads 'At the lower right, in front of the steps, are two black-and-white dogs: one lies on the floor and the other stands.' E2-E18's rationale for A now says Marie ordered the series to celebrate her life, defend her years in power, and strengthen her standing as the king's mother (in 1622 her regency was over; she had just been reconciled with Louis XIII). Rubens's earlier Apotheosis of Henry IV from the same cycle was downloaded first (raw/commons/rubens_apotheosis_wga20342_1280.jpg) but rejected because its center includes a nude figure.
 
 CONTEXT NOTES:
-Marie (1575–1642) married Henry IV in 1600 and ruled as regent for Louis XIII from 1610 to 1617. Henry IV, a former Huguenot leader who became Catholic in 1593, issued the Edict of Nantes in 1598; he was stabbed by François Ravaillac on May 14, 1610.
+Marie (1575–1642) married Henry IV in 1600. She was regent for Louis XIII from 1610 until he came of age in 1614, and she continued to dominate the government until 1617 (version 2026-11-09c; earlier this note said 'regent from 1610 to 1617'). Henry IV, a former Huguenot leader who became Catholic in 1593, issued the Edict of Nantes in 1598; he was stabbed by François Ravaillac on May 14, 1610.
 
 ### X7
 ID: X7
@@ -1308,7 +1306,7 @@ ADAPTATION IN THE BANK (every cut):
 Paragraph 1 is the book's first sentence (chapter I); the rest of the chapter is cut. Paragraph 2: begins at 'The question, Am I one of the elect?' (p. 110, after the end of the preceding sentence); cut after 'state of grace?' (Calvin's own certainty and the following pages); resumes mid-sentence on p. 112 at 'in order to attain that self-confidence'. Paragraph 3: begins mid-sentence on p. 172 ('asceticism looked upon...'). Paragraph 4 is the next sentence; the rest of the page is cut.
 
 CONTEXT NOTES:
-Weber's thesis has been criticized since publication, e.g., for overlooking earlier capitalism in Catholic Italy and the Low Countries.
+Historians debate how much Protestant beliefs helped shape modern business habits. Weber did not claim that capitalism first appeared after the Reformation: in the same 1930 translation he writes that 'Capitalism existed in China, India, Babylon, in the classic world, and in the Middle Ages' but that 'this particular ethos was lacking' (p. 52), and he calls Florence of the fourteenth and fifteenth centuries 'the most highly capitalistic centre of that time' (pp. 74–75) (raw lines 2227–2229 and 3127–3132). R. H. Tawney's foreword in this edition (p. 7) is a classic criticism: there was 'no lack of the "capitalist spirit"' in fourteenth-century Venice and Florence or fifteenth-century Antwerp. For this reason E2-E24 (version 2026-11-09c) no longer keys pre-Reformation banking in Florence and Venice as the strongest challenge (Weber himself grants it); the key is now evidence that Catholic and Calvinist merchants in similar regions showed the same habits of work and saving, which attacks his causal link directly.
 
 ### P1
 ID: P1
@@ -1440,9 +1438,10 @@ PD note: Published 1911 (McGlothlin); public domain.
 (Raw excerpt region: see ae2/sources/P6.md)
 
 OCR / TEXT NOTES:
-No OCR errors inside the excerpt stretches; the opening quotation mark McGlothlin places before 'The Articles' (because the text is quoted from Zwingli) is omitted. The bracketed '[magistrates]' and '[followers]' are McGlothlin's.
+No OCR errors inside the excerpt stretches. The bracketed '[magistrates]' and '[followers]' are McGlothlin's.
 
 ADAPTATION IN THE BANK (every cut):
+Cut 0 (version 2026-11-09c): the opening sentence of Zwingli's text, 'The Articles, which we have drawn up and in which we agree, are these: Baptism, abstention, breaking of bread, avoidance of abominable pastors in the church, sword, swearing.', is omitted; the excerpt begins at 'First learn concerning baptism!'. Reason (ChatGPT Pro review, checked against the raw text and the order of the articles in McGlothlin pp. 4–9): in this list 'abstention' stands for the ban (excommunication, Article Two), and 'avoidance of abominable pastors in the church' runs together the headings of Article Four (separation from abomination) and Article Five (pastors in the church). The wording is McGlothlin's, not a transcription slip, but it could not be glossed accurately without rewriting the translation, and the earlier gloss 'abstention = keeping separate from the world' was wrong. No item depended on the sentence. Glossary entries 'abstention', 'breaking of bread' and 'abominable' were removed; 'abomination' (Article One: 'the supreme abomination of the Roman Pontif') = 'something hateful' was added.
 Cut 1 (First): after 'blotted out through Christ,' the clause 'and who wholly wish to walk in the resurrection ... we administer it.'; after 'Roman Pontif.' the rest of the article. Articles Two through Five are omitted. Cut 2 (Sixth): after 'him who has sinned' the words ', for the destruction of the flesh alone, ...' and the rest of the first and second questions; the bank resumes at 'Finally, it is taught...'. Cut 3: after 'bulwarks of the devil.' Cut 4 (Seventh): 'We agree or determine I. Concerning the oath ... II. That it be done by the name of God alone, truly not fallaciously. But' and everything after 'neither truly nor falsely'.
 
 CONTEXT NOTES:
@@ -1712,7 +1711,7 @@ OCR / TEXT NOTES:
 (image)
 
 ADAPTATION IN THE BANK (every cut):
-The caption and description were written from the downloaded image. The caption tells the legend that the painting's contract asked El Greco to show: Don Gonzalo Ruiz de Toledo, lord of Orgaz (died 1323), a benefactor of Santo Tomé, was laid in his tomb by Saints Stephen and Augustine, who came down from heaven. The caption says 'lord of the town of Orgaz' because the title of count came to his descendants later; the painting's traditional English title is kept in the attribution. The caption does not describe the figures' proportions (needed for E2-P43); the long description, for screen readers, does mention the stretched bodies. Figures named: the Virgin Mary, John the Baptist, Christ, Saint Peter (keys; description only). The boy at the lower left (usually identified as El Greco's son Jorge Manuel) is described but not named. Correction in version 2026-11-09b (reviewer's MUST-FIX, checked against raw/commons/elgreco_orgaz_1280.jpg): the priest in the white, see-through surplice at the right stands with his back to the viewer, looks up, and stretches out one hand; he is not reading. The cleric reading from a book is the bald churchman beside him at the far right (identified by Smarthistory, 'El Greco, The Burial of the Count of Orgaz', as the parish priest Andrés Núñez, 'shown reading, far right'; not named in the bank). Caption and long description were corrected accordingly. John the Baptist (upper right) wears an animal skin around his waist, not a cloth; the long description was corrected.
+The caption and description were written from the downloaded image. The caption tells the legend that the painting's contract asked El Greco to show: Don Gonzalo Ruiz de Toledo, lord of Orgaz (died 1323), a benefactor of Santo Tomé, was laid in his tomb by Saints Stephen and Augustine, who came down from heaven. The caption says 'lord of the town of Orgaz' because the title of count came to his descendants later; the painting's traditional English title is kept in the attribution. The caption does not describe the figures' proportions (needed for E2-P43); the long description, for screen readers, does mention the stretched bodies. Figures named: the Virgin Mary, John the Baptist, Christ, Saint Peter (keys; description only). The boy at the lower left (usually identified as El Greco's son Jorge Manuel) is described but not named. Correction in version 2026-11-09b (reviewer's MUST-FIX, checked against raw/commons/elgreco_orgaz_1280.jpg): the priest in the white, see-through surplice at the right stands with his back to the viewer, looks up, and stretches out one hand; he is not reading. The cleric reading from a book is the bald churchman beside him at the far right (identified by Smarthistory, 'El Greco, The Burial of the Count of Orgaz', as the parish priest Andrés Núñez, 'shown reading, far right'; not named in the bank). Caption and long description were corrected accordingly. John the Baptist (upper right) wears an animal skin around his waist, not a cloth; the long description was corrected. Changes in version 2026-11-09c (ChatGPT Pro review): (1) the caption no longer dates the legendary burial to 1323. Gonzalo Ruiz died on December 9, 1323, but the reviewer reports that the church's own account places his burial in Santo Tomé (the moment of the legend) in 1327; this could not be confirmed here, so the caption now says 'a local legend from the 1300s: when Don Gonzalo Ruiz, lord of the town of Orgaz, was buried, ...', which is true on either date. (2) The long description called St. Augustine's miter white; in raw/commons/elgreco_orgaz_1280.jpg it is gold and richly embroidered (only a white lappet shows at the top), so it now reads 'a gold, embroidered bishop's miter'.
 
 CONTEXT NOTES:
 Toledo was the seat of Spain's chief archbishop. The Council of Trent's final session (1563) defended the invocation of saints and the use of religious images; its sixth session (1547) defended the role of good works in salvation.
@@ -1734,6 +1733,7 @@ OCR / TEXT NOTES:
 A reader's pencil slashes appear in the OCR as '/' and '//L/' (e.g., before 'let the Senators' and 'In the name of the state'); they are not part of the text. 'yji or example' is 'For example' (outside the excerpt).
 
 ADAPTATION IN THE BANK (every cut):
+Glossary (version 2026-11-09c): 'imperial law' is glossed 'laws issued under an emperor's authority' (earlier 'the law of the Holy Roman Empire'). Sherwood's phrase does not identify which imperial legislation Vives meant (Bruges was ruled by Charles V, and Vives may mean Roman imperial law or the emperor's ordinances), so the gloss no longer names a jurisdiction.
 Cut 1: after 'what their habits are.' the rest of the paragraph. Cut 2: after 'health.' the quotations from Paul and the Psalmist. Cut 3: paragraph 3 begins mid-paragraph at 'Of the able-bodied vagrants' (the sentences on health and impostors are cut) and ends after 'commanding him to rob.' (the clause on war refugees is cut). Cut 4: after 'certain little wheels,' the clause 'to each of whom they would pay a stuferus daily, more or less, besides board.'
 
 CONTEXT NOTES:

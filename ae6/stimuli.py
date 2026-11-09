@@ -1,7 +1,7 @@
 # AP European History Unit 6 sources. Texts follow the editions saved in ae6/sources/raw/ (all published
 # in 1930 or earlier) and documented in ae6/sources/*.md. Cuts are marked with ellipses; bracketed words are
 # clarifications. OCR slips in the scans were corrected against a second scan or the page image (see the .md files).
-VERSION = "2026-11-09b"
+VERSION = "2026-11-09c"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -23,7 +23,7 @@ STIM = {
 "X1": P([
     "We now enter the coal and iron country; everywhere are marks of manufacturing life; the cinder heaps form mountains; the earth is seamed with excavations; tall furnaces belch forth flames. We are nearing Manchester. In the bronzed sky at sunset a strangely-shaped cloud hangs over the plain; under this motionless covering are hundreds of bristling chimneys, as tall as obelisks; a huge and black mass is next distinguishable, then endless rows of buildings, and we enter the Babel of bricks.",
     "Walked through the city; seen close at hand, it is still more dismal. The air and the soil appear charged with fog and soot. Manufactories with their blackened bricks, their naked fronts, their windows destitute of shutters, and resembling huge and cheap penitentiaries, succeed each other in rows. … One of these buildings is a rectangle of six stories, in each of which are forty windows; it is there that, lit up by gas, amid the deafening noise of looms, thousands of workpeople, cabined, classified, immovable, mechanically drive their machines every day from morning to night; can any form of existence be more opposed to, and at variance with, the natural instincts of man? About six o'clock a bustling, noisy crowd pours from the mills into the streets; men, women, and children flock along in the open air; their clothes are filthy; many of the children are bare-footed, the faces of all are pinched and gloomy; several halt at the gin-palaces; the others scatter and hasten towards their hovels. …",
-    "They are powerful, that is their compensation. The life of one of the heads of these manufacturing or commercial houses may be likened to that of a minor prince. … they have to control and satisfy a host of workpeople; they have the power to become the benefactors of thousands of men; they are the generals and governors of human industry. … They despatch agents to examine particular districts of the globe; they discover outlets for commerce and markets for purchases in Japan, China, Australia, Egypt, and New Zealand …"],
+    "… The life of one of the heads of these manufacturing or commercial houses may be likened to that of a minor prince. … they have to control and satisfy a host of workpeople; they have the power to become the benefactors of thousands of men; they are the generals and governors of human industry. … They despatch agents to examine particular districts of the globe; they discover outlets for commerce and markets for purchases in Japan, China, Australia, Egypt, and New Zealand …"],
     "Hippolyte Taine, French historian and critic, Notes on England, based on notes from visits he made to England over about ten years, published in 1872",
     "English translation by W. F. Rae, Notes on England (New York: Holt & Williams, 1872), pp. 273–276; adapted",
     glossary=[{"t": "cinder heaps", "d": "piles of ash and waste from furnaces"},
@@ -87,7 +87,7 @@ STIM = {
         ["Italy", "13", "270", "1,120", "3,830", "5,340", "7,830"],
         ["Spain", "none listed", "80", "1,190", "3,200", "4,550", "5,930"],
         ["Russia", "16", "310", "990", "7,100", "14,020", "17,700"]],
-    "text": "Germany was not united until 1871 and Italy until 1861; the source gives figures for those lands for the earlier years as well. \"Austria\" means the lands of the Austrian emperor (Austria-Hungary after 1867). For 1840 the source shows no figure for Spain.",
+    "text": "Germany was not united until 1871 and Italy until 1861; the source gives figures for those lands for the earlier years as well. \"Austria\" means the lands of the Austrian emperor (Austria-Hungary after 1867). For 1840 the source shows no figure for Spain. These are the figures printed in an 1892 reference book. Later historians give somewhat different totals.",
     "source": "Michael G. Mulhall, The Dictionary of Statistics (London: George Routledge and Sons, 1892), \"Railways,\" p. 495"},
 
 "X5": P([
@@ -115,7 +115,7 @@ STIM = {
     "English translation by Edward Aveling, Socialism: Utopian and Scientific (London: Swan Sonnenschein, 1892), pp. 26–27, 44–46; adapted",
     glossary=[{"t": "mode of thought", "d": "way of thinking"},
               {"t": "by virtue of", "d": "because of"},
-              {"t": "materialistic conception of history", "d": "the idea that economic life shapes everything else in history"},
+              {"t": "materialistic conception of history", "d": "Marx's theory of what drives history, explained in the last paragraph"},
               {"t": "surplus-value", "d": "Marx's term for the value workers produce beyond what they are paid, which the owner keeps as profit"},
               {"t": "final causes", "d": "deepest causes"},
               {"t": "modes of production and exchange", "d": "the ways goods are made and traded"},
@@ -143,7 +143,7 @@ STIM = {
               {"t": "refuse", "d": "garbage and waste"},
               {"t": "habitations", "d": "homes"},
               {"t": "laid on in houses", "d": "piped into homes"},
-              {"t": "pecuniary gain", "d": "a saving of money"},
+              {"t": "pecuniary", "d": "having to do with money"},
               {"t": "premature mortality", "d": "dying too young"}]),
 
 "X8": P([
@@ -213,12 +213,13 @@ STIM = {
               {"t": "compulsory", "d": "required by law"}]),
 
 "P4": P([
-    "The Census of Ireland, in 1841, gave a population of 8,175,125. At the usual rate of increase, there must have been, in 1846, when the Famine commenced, at least eight and a half millions; at the same rate of increase, there ought to have been, in 1851 (according to the estimate of the Census Commissioners), 9,018,799. But in that year, after five seasons of artificial famine, there were found alive only 6,552,385—a deficit of about two millions and a half. …",
-    "Further, I have called it an artificial famine: that is to say, it was a famine which desolated a rich and fertile island, that produced every year abundance and superabundance to sustain all her people and many more. The English,* indeed, call that famine a \"dispensation of Providence;\" and ascribe it entirely to the blight of the potatoes. But potatoes failed in like manner all over Europe; yet there was no famine save in Ireland. The British account of the matter, then, is first, a fraud—second, a blasphemy. The Almighty, indeed, sent the potato blight, but the English created the famine. …",
+    "The Census of Ireland, in 1841, gave a population of 8,175,125. At the usual rate of increase, there must have been, in 1846, when the Famine commenced,* at least eight and a half millions; at the same rate of increase, there ought to have been, in 1851 (according to the estimate of the Census Commissioners), 9,018,799. But in that year, after five seasons of artificial famine, there were found alive only 6,552,385—a deficit of about two millions and a half. …",
+    "Further, I have called it an artificial famine: that is to say, it was a famine which desolated a rich and fertile island, that produced every year abundance and superabundance to sustain all her people and many more. The English,** indeed, call that famine a \"dispensation of Providence;\" and ascribe it entirely to the blight of the potatoes. But potatoes failed in like manner all over Europe; yet there was no famine save in Ireland. The British account of the matter, then, is first, a fraud—second, a blasphemy. The Almighty, indeed, sent the potato blight, but the English created the famine. …",
     "… the benevolent contributions of Americans and other foreigners were turned aside from their destined objects—not, let us say, in order that none should be saved alive, but that no interference should be made with the principles of political economy."],
     "John Mitchel, Irish nationalist journalist who was convicted in 1848 of urging rebellion against British rule and sent to a British penal colony, The Last Conquest of Ireland (Perhaps), written in exile in the United States in the late 1850s and published as a book in Dublin in 1861",
     "Text from John Mitchel, The Crusade of the Period: and Last Conquest of Ireland (Perhaps) (New York: Lynch, Cole & Meehan, 1873), pp. 323–324; adapted",
-    footnotes=[{"mark": "*", "text": "Ireland was part of the United Kingdom of Great Britain and Ireland from 1801 and was governed from London."}],
+    footnotes=[{"mark": "*", "text": "Potato blight first struck Ireland in the fall of 1845. The crop failure of 1846 was far worse."},
+               {"mark": "**", "text": "Ireland was part of the United Kingdom of Great Britain and Ireland from 1801 and was governed from London."}],
     glossary=[{"t": "census", "d": "an official count of the population"},
               {"t": "deficit", "d": "shortfall"},
               {"t": "desolated", "d": "ruined and emptied"},
@@ -256,7 +257,7 @@ STIM = {
 "P6": {"type": "pair", "items": [
     item("Source 1", [
         "To men belongs the potent—(I had almost said the omnipotent) consideration of worldly aggrandisement; and it is constantly misleading their steps, closing their ears against the voice of conscience … This may be an extreme, but it is scarcely an exaggerated picture of the engagements of men of business in the present day. …",
-        "How often has man returned to his home with a mind confused by the many voices, which in the mart, the exchange, or the public assembly, have addressed themselves to his inborn selfishness or his worldly pride; … he has thought of the humble monitress who sat alone, guarding the fireside comforts of his distant home; and the remembrance of her character, clothed in moral beauty, has scattered the clouds before his mental vision, and sent him back to that beloved home, a wiser and a better man. …",
+        "… when the snares of the world were around him, … he has thought of the humble monitress who sat alone, guarding the fireside comforts of his distant home; and the remembrance of her character, clothed in moral beauty, has scattered the clouds before his mental vision, and sent him back to that beloved home, a wiser and a better man. …",
         "The sphere of their* direct personal influence is central, and consequently small; but its extreme operations are as widely extended as the range of human feeling."],
         "Sarah Stickney Ellis, English writer of advice books, The Women of England: Their Social Duties and Domestic Habits, 1839",
         "Text from Mrs. Ellis, The Women of England: Their Social Duties and Domestic Habits (New York: D. Appleton, 1839), pp. 45–47; adapted",
@@ -265,7 +266,7 @@ STIM = {
                   {"t": "omnipotent", "d": "all-powerful"},
                   {"t": "worldly aggrandisement", "d": "getting more wealth and power"},
                   {"t": "engagements", "d": "activities"},
-                  {"t": "the mart, the exchange", "d": "the market and the stock exchange"},
+                  {"t": "snares", "d": "traps"},
                   {"t": "monitress", "d": "a woman who gives warnings and guidance"},
                   {"t": "sphere", "d": "area of life"}]),
     item("Source 2", [

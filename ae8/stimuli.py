@@ -4,7 +4,7 @@
 # second scan, the page image, or a second printing (each one is listed in the source's .md file).
 # Copyright basis for every source is given in ae8/sources/INDEX.md (published by 1930; U.S. government work;
 # UK Parliament Hansard under the Open Parliament Licence; CC BY 4.0 data; public-domain or CC BY-SA images).
-VERSION = "2026-11-09b"
+VERSION = "2026-11-09c"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -137,12 +137,12 @@ STIM = {
     "… Certainly** we should like to do all we possibly can. There are, obviously, certain security formalities which have to be considered. It would clearly be the desire of the United Nations to do everything they could to provide wherever possible an asylum for these people, but the House will understand that there are immense geographical and other difficulties in the matter."],
     "Anthony Eden, foreign secretary of Great Britain, statement to the House of Commons reading a joint declaration of the Allied governments, December 17, 1942",
     "Text from Hansard, House of Commons Debates, 5th series, vol. 385, cols. 2082–2086 (December 17, 1942), UK Parliament, Open Parliament Licence v3.0; adapted, with three printing slips corrected",
-    footnotes=[{"mark": "*", "text": "In January 1942 the countries at war with Germany, Italy, and Japan signed a declaration that called them the \"United Nations.\" The United Nations organization that exists today was founded in 1945."},
+    footnotes=[{"mark": "*", "text": "On January 1, 1942, 26 Allied governments signed a declaration that called them the \"United Nations.\" The United Nations organization that exists today was founded in 1945."},
                {"mark": "**", "text": "Eden said these words a few minutes later, in answer to a member who asked whether Jews who escaped from the occupied countries would be given help in Allied countries."}],
     glossary=[{"t": "His Majesty's Government", "d": "the British government"},
               {"t": "French National Committee", "d": "the leaders of the Free French, who kept fighting Germany after France surrendered in 1940"},
               {"t": "exterminate", "d": "kill every member of a group"},
-              {"t": "ghettoes", "d": "closed-off parts of cities where the Nazis forced Jews to live"},
+              {"t": "ghettoes", "d": "parts of towns or cities where German authorities forced Jews to live apart from other people, under harsh rules"},
               {"t": "the infirm", "d": "people who are sick or weak"},
               {"t": "retribution", "d": "punishment"},
               {"t": "asylum", "d": "safety given to people fleeing danger"}]),
@@ -163,13 +163,14 @@ STIM = {
 
 "X9": P([
     "… And there is this to be said in favour of the Socialists who helped to fight the battles of their respective countries, that some measure of Socialism permeated the policy of all the belligerent countries. Their Governments everywhere found it necessary to bring under control all means of communication and transport, all imports and exports, the mines, and whatever branches of production were necessary for the feeding, clothing, and arming of their armies. Moreover, in order to conciliate the working classes, they took the trade union secretaries into their confidence, and ran the whole of the controlled industries in full and explicit agreement with the workmen's organizations. …",
-    "… Perhaps, it may be said that the world-crisis did not really begin in 1914 and come to an end in 1918. It began in October 1912, with the first Balkan War; it came to an end only in August 1920, when the last of the post-war treaties was signed at Sevres, when the Bolshevik army was defeated in Poland, when an attempt at a Communist revolution in Italy proved abortive, and the rise of Fascism began. Throughout, it had been a war of nationalities; and the Russian Revolution had acted as a solvent of imperialism for the benefit, not so much of Communism, or even of Socialism, as of nationality. …"],
+    "… Perhaps, it may be said that the world-crisis did not really begin in 1914 and come to an end in 1918. It began in October 1912, with the first Balkan War; it came to an end only in August 1920, when the last of the post-war treaties was signed at Sevres, when the Bolshevik army was defeated in Poland, when an attempt at a Communist revolution in Italy proved abortive*, and the rise of Fascism began. Throughout, it had been a war of nationalities; and the Russian Revolution had acted as a solvent of imperialism for the benefit, not so much of Communism, or even of Socialism, as of nationality. …"],
     "Élie Halévy, French historian, The World Crisis of 1914–1918: An Interpretation, lectures given at the University of Oxford in 1929",
     "Text from the first edition (Oxford: Clarendon Press, 1930), pp. 48, 54–55; adapted",
+    footnotes=[{"mark": "*", "text": "In late August and September 1920, hundreds of thousands of Italian workers occupied their factories. The occupations ended without a revolution."}],
     glossary=[{"t": "permeated", "d": "spread through"},
               {"t": "belligerent countries", "d": "countries at war"},
               {"t": "conciliate", "d": "win over; calm"},
-              {"t": "Sevres", "d": "Sèvres, near Paris, where the Allies signed a peace treaty with the Ottoman Empire in August 1920"},
+              {"t": "Sevres", "d": "Sèvres, near Paris, where the Allies signed a peace treaty with the Ottoman Empire in August 1920 (the Treaty of Lausanne replaced it in 1923)"},
               {"t": "abortive", "d": "failed"},
               {"t": "solvent of imperialism", "d": "something that dissolved empires"}]),
 
@@ -248,7 +249,7 @@ STIM = {
         "The Workers' and Peasants' Government, created by the revolution of November 6th and 7th and based on the Soviets of Workers', Soldiers' and Peasants' Deputies, proposes to all the belligerent peoples and to their Governments to begin immediately negotiations for a just and democratic peace.",
         "The Government means by a just and democratic peace, which is desired by the immense majority of the workers and the labouring classes, exhausted and depleted by the war … immediate peace without annexations (that is to say, without conquest of foreign territory, without forcible annexation of other nationalities), and without indemnities. …",
         "… The Government abolishes secret diplomacy, expressing before the whole country its firm decision to conduct all the negotiations in the light of day before the people …"],
-        "Decree on Peace, adopted by the Second All-Russian Congress of Soviets the day after the Bolsheviks took power in Petrograd, November 8, 1917",
+        "Decree on Peace, adopted by the Second All-Russian Congress of Soviets, November 8, 1917",
         "English translation in John Reed, Ten Days That Shook the World (New York: Boni and Liveright, 1919; Project Gutenberg edition); adapted",
         glossary=[{"t": "Soviets", "d": "councils elected by workers, soldiers, and peasants"},
                   {"t": "belligerent", "d": "at war"},

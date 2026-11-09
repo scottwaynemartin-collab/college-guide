@@ -1,0 +1,368 @@
+ChatGPT Pro review of Unit 6 bank (v2026-11-09b)
+Source: Chrome tab 1294094646, https://chatgpt.com/c/6af1407b-ed70-83e9-a250-a233b31d818e ("Review AP Euro Items"), read 2026-11-08 via get_page_text.
+Prompt: review all 73 items; MUST-FIX / SHOULD-FIX with exact replacement wording. Worked for 12m 47s.
+==========================================================================
+
+I reviewed all 73 items, including the sources, glossaries, explanations, option rationales, hints, images, table, and source notes. The repairs below preserve the existing answer letters. The most consequential problems are the reversed causal relationship in P12, the overbroad stem in P18, inaccurate feedback in P17 and P26, and the unsupported inference in E10.
+
+MUST-FIX
+E6-P06 — The explanation overstates what repealing the Corn Laws accomplished
+
+Repeal phased out protective duties; a small grain-import duty remained until 1869. Also, List supported eventual free trade once developing industries could compete.
+UK Parliament
+
+Replace why-not A:
+
+Repeal moved Britain toward freer grain imports. List's proposal concerned protecting developing manufacturing industries until they could compete.
+
+Related correction, E6-P04, why-not A:
+
+List argues that nations building industry should protect it before adopting general free trade.
+
+E6-P12 — The stem reverses cause and effect
+
+Emigration helped cause the population decline. Simply changing "population change" to "famine" would also make the Corn Laws answer defensible.
+
+Replace the stem:
+
+The famine described in the passage most directly contributed to which of the following long-term demographic changes?
+
+Replace why-not D:
+
+Repeal of the Corn Laws changed trade policy. It was not a long-term change in population or migration.
+
+Keep B.
+
+E6-P17 — Coverture did not prevent single women from voting
+
+Coverture governed married women's legal position. Parliamentary voting restrictions were separate. The 1832 Reform Act expressly defined eligible voters as male.
+UK Parliament
+
+Replace the explanation:
+
+Ellis praises women's moral influence at home. Smith criticizes laws that limited women's rights. Under coverture, a married woman usually lacked separate control over her earnings and property. Separate voting rules barred both single and married women from parliamentary elections.
+
+E6-P18 — The keyed laws did not accomplish all the changes discussed by Smith
+
+The excerpt addresses voting, custody, and property. The Married Women's Property Acts addressed earnings and property rights.
+UK Parliament
+
+Replace the stem:
+
+Smith's demand that married women control their own earnings was most directly addressed by which of the following?
+
+Replace the explanation:
+
+The Married Women's Property Act of 1870 let wives keep their own earnings. The act of 1882 expanded their control over property. These laws addressed Smith's demand for married women to manage their own money.
+
+Keep A.
+
+E6-P26 — Why-not A incorrectly makes 1848 the first French republic with universal male suffrage
+
+The National Convention was elected under universal male suffrage in 1792.
+Assemblée nationale
+
+Replace why-not A:
+
+The revolution of 1848 established the Second Republic and restored universal male suffrage. The revolution of 1830 established a monarchy with a restricted electorate.
+
+E6-E10 — The table cannot establish where railways spread "first"
+
+The table begins in 1840. Network size at that date does not establish when construction began. "Faster" in C is also ambiguous: France's percentage growth exceeded Britain's, although Britain added more miles.
+
+Replace A:
+
+Railway networks expanded unevenly, with the United Kingdom retaining the largest network through 1860.
+
+Replace C:
+
+France added more miles of railway than the United Kingdom between 1840 and 1860.
+
+Replace D:
+
+Italy had more railway mileage than France in 1860.
+
+Replace the explanation:
+
+The United Kingdom had the largest railway network among the countries shown in 1840, 1850, and 1860. These figures show network size at selected dates, not when each country's first railway opened.
+
+Replace the corresponding rationales:
+
+A: "Correct. The United Kingdom had the highest mileage at all three dates."
+C: "Incorrect. The United Kingdom added 9,592 miles, compared with 5,520 miles in France."
+D: "Incorrect. In 1860, Italy had 1,120 miles, compared with 5,880 miles in France."
+
+Keep A.
+
+E6-E24 — The C rationale wrongly uses England's supposed exclusion from the 1848 movement
+
+The relevant distinction is democratic reform versus national independence or unification. Repeating Seignobos's broad exclusion of England is misleading beside the Chartist petition itself.
+UK Parliament
+
+Replace C's rationale:
+
+Incorrect. The Chartists sought voting rights for working men in Britain. They were not fighting for national independence or unification.
+
+Source P5.2 / E6-P13–P15 — Incorrect copyright arithmetic
+
+The note says Clapham, who died in 1946, died fewer than 70 years before 2026. That interval is 80 years.
+
+Replace the P5.2 PD note:
+
+PD note: Published in 1926; public domain in the United States.
+
+Also remove Clapham from the overview's statement that these authors "may still be in copyright in the UK and EU." In P5.1, replace "The author died less than 70 years before 2026" with:
+
+The last surviving coauthor, Barbara Hammond, died in 1961.
+
+SHOULD-FIX: sources and historical precision
+Source P4 / E6-P11 — Separate the recorded population decline from Mitchel's projected "deficit"
+
+The official totals were 8,175,124 and 6,552,385. Mitchel's quotation has a one-person discrepancy in the first figure. More importantly, his approximately 2.5 million deficit is measured against projected population, not against the 1841 count. Preserve the historical quotation and clarify the feedback.
+api.parliament.uk
+
+Replace P11's why-not A:
+
+Official census totals were 8,175,124 in 1841 and 6,552,385 in 1851—a fall of about 1.62 million. Mitchel's larger "deficit" compares the 1851 count with a projected population; it is not a count of deaths.
+
+Add this editorial note to P4:
+
+Potato blight first reached Ireland in 1845; the crop failure was much worse in 1846.
+
+This clarifies the authentic quotation's "1846, when the Famine commenced" without silently rewriting it.
+UK Parliament
+
+Source P6.1 / E6-P16–P18 — An omission makes the man return home twice
+
+The excerpt joins one example about returning home to another about remembering his wife while away. The original treats these as separate examples.
+webapp1.dlib.indiana.edu
+
+Replace the second source paragraph:
+
+… he has thought of the humble monitress who sat alone, guarding the fireside comforts of his distant home; and the remembrance of her character, clothed in moral beauty, has scattered the clouds before his mental vision, and sent him back to that beloved home, a wiser and a better man. …
+
+Source X1 / E6-E01–E6-E03 — The cut removes the antecedent of "They"
+
+"They are powerful, that is their compensation" now follows a description of workers, although it refers to wealthy businessmen in the omitted material.
+
+Delete that sentence. Begin the final paragraph:
+
+The life of one of the heads of these manufacturing or commercial houses may be likened to that of a minor prince. …
+
+The preceding ellipsis already marks the omitted material.
+
+Source X4 / E6-E10–E6-E12 — Identify the figures as a historical compilation
+
+The cells reproduce Mulhall accurately, but this should be presented as his reported figures, particularly because later historical series differ in coverage and totals.
+
+Replace the table title:
+
+Railway Mileage Reported by Michael G. Mulhall, 1840–1888 — miles
+
+Add to its note:
+
+Figures reproduce an 1892 compilation. Country labels and territorial coverage follow that source.
+
+Replace "First edition, 1892" in the source notes with:
+
+1892 edition (London: George Routledge and Sons)
+
+E6-P28 — Distinguish independent unions from approved workers' associations
+
+The statement that workers could not form unions needs qualification beside Gapon's government-approved association.
+escholarship.org
+
+Replace the explanation's final sentence:
+
+Workers lacked a national elected voice and could not freely organize independent trade unions or legally strike. The government did allow some approved workers' associations, including Gapon's.
+
+E6-P42 — Explain Pankhurst's Independent Labour Party membership
+
+The existing explanation jumps from her membership to the national Labour Party without explaining the connection. Preserve Pankhurst's original wording.
+UK Parliament
+
+Replace the explanation:
+
+Pankhurst belonged to the Independent Labour Party. That organization joined trade unions and other socialist groups in forming the Labour Representation Committee in 1900. The committee took the name Labour Party in 1906 and sought to represent workers in Parliament.
+
+E6-E02 — The explanation reduces society to two classes
+
+"Industry split society into two new classes" and "Industry created these two classes" are too sweeping. The entire middle class also did not consist of factory and trading-firm owners.
+
+Replace the explanation:
+
+Industrial growth expanded the working class and strengthened wealthy business owners. Taine contrasts the workers' poor living conditions with the owners' wealth and power. Landowners, farmers, shopkeepers, and professionals remained important parts of society.
+
+Replace B's rationale:
+
+Correct. Taine contrasts workers living in "hovels" with business owners whose power resembles that of "a minor prince."
+
+E6-E17 — Do not give all three utopian socialists the same model-community program
+
+Saint-Simon proposed a broader reorganization of industrial society; Fourier and Owen are the clearer examples of planned communities. Engels distinguishes their programs.
+marxists.org
+
+Replace the explanation:
+
+Engels grouped Saint-Simon, Fourier, and Owen as utopian socialists. Fourier proposed cooperative communities. Engels argued that their plans relied too much on reason and goodwill and too little on class conflict and economic change.
+
+Replace A's rationale:
+
+Correct. Fourier proposed planned cooperative communities. Engels named him as one of the three leading utopian socialists.
+
+SHOULD-FIX: distractors and evidence quality
+E6-P01 — D is implausible without historical analysis
+
+Being the first country ever to make cotton cloth is an unnecessarily weak alternative.
+
+Replace D:
+
+England led in manufacturing because its growing population created a larger market for cotton textiles.
+
+Replace why-not D:
+
+Population growth helped industry expand, but Baines's argument here focuses on resources, transport, and secure property.
+
+E6-P03 — All three distractors are caricatures
+
+Replace the claims about rule without Parliament, nationalized mills, and abolished private landownership with plausible evidence that tests the distinction between political and other advantages.
+
+Choice | Replacement wording
+A | Britain's agricultural output increased as landowners introduced new farming methods.
+C | Britain's Atlantic trading networks supplied raw cotton to its manufacturers.
+D | Britain had coal deposits near several major manufacturing districts.
+
+Replace the corresponding why-not lines:
+
+A: "This concerns agricultural production, not the legal protections Baines praises."
+C: "Trade supplied raw materials, but this does not establish Baines's claim about secure property and laws."
+D: "Coal deposits were a physical advantage, not a political or legal one."
+
+Keep B.
+
+E6-P09 — The answer is exposed by "German + chemistry" matching
+
+Only C concerns German chemistry. This does not justify the "hard" label.
+
+Replace the stem and choices:
+
+Which of the following best supports Williams's explanation for Germany's industrial success?
+
+(A) Germany's growing population increased demand for factory-made goods.
+(B) The Zollverein removed customs barriers between many German states.
+(C) German firms employed university-trained chemists to develop synthetic dyes and medicines.
+(D) German governments increased orders for steel rails and military equipment.
+
+Keep C; change difficulty to medium.
+
+Replace the explanation:
+
+This evidence connects scientific training with industrial success. Williams identifies that link as an important reason for Germany's strength.
+
+Replace the why-not lines and hint:
+
+A: "A larger market could help industry, but it does not show the role of scientific training."
+B: "The Zollverein helped trade, but it does not demonstrate the benefits of technical education."
+D: "Government orders helped heavy industry, but they do not explain the chemical research Williams emphasizes."
+Hint: "What does Williams connect to Germany's success in chemicals?"
+
+E6-P14 — D can be eliminated from the book title
+
+The title already identifies the Hammonds' period as 1760–1832.
+
+Replace D:
+
+treats workers' spending choices as the main cause of unhealthy living conditions
+
+Replace why-not D:
+
+The Hammonds blame how the towns were built and the power of employers, not workers' spending choices.
+
+E6-P15 — Cheaper cloth alone does not establish improved purchasing power
+
+C is the best existing option, but it supplies only one price and no wage evidence.
+
+Replace C:
+
+Wage and price records showing that workers could buy more basic goods after 1820–1821 than before the wars with revolutionary France
+
+Replace the explanation:
+
+Workers' buying power depends on both their pay and the prices of goods. These records compare the two, so they directly test Clapham's claim.
+
+Replace why-not D:
+
+These accounts show hardship in one period. They do not establish the change in purchasing power that Clapham describes.
+
+The original D rationale also overlooks Clapham's express qualification that he is discussing wages "in general."
+
+E6-P25 — The attribution eliminates every distractor by country
+
+Only the keyed option is French. Keep D and replace A–C with French measures:
+
+Choice | Replacement wording | Replacement why-not
+A | Louis XVIII's Constitutional Charter of 1814 | The Charter established the restored monarchy's constitutional framework in 1814. The journalists were protesting new restrictions imposed in July 1830.
+B | Napoleon I's censorship of the French press | Napoleon censored newspapers during his own rule, which ended years before this protest.
+C | Louis-Philippe's September Laws of 1835 | The September Laws restricted the press in 1835, five years after this protest.
+
+Replace the hint:
+
+Which action by Charles X threatened the constitutional protections the journalists believed they possessed?
+
+E6-P47 — B and D are refutable from wording alone
+
+Wide streets plainly cannot restore narrow medieval streets. Use competing purposes instead.
+
+Replace the choices:
+
+(A) Improve traffic and sanitation while making it easier for troops to control unrest.
+(B) Strengthen elected neighborhood councils by giving them greater control over police and public works.
+(C) Bring industrial workers closer to their jobs by moving factories into central residential districts.
+(D) Protect small workshops and shops by restricting the growth of large commercial buildings.
+
+Keep A. Replace the why-not lines:
+
+B: "Haussmann's rebuilding was directed by Napoleon III's government, not by independent neighborhood councils."
+C: "Redevelopment pushed many poorer residents and industrial activities toward the city's edges."
+D: "The new boulevards supported large stores and other commercial development; protecting small shops was not their main purpose."
+
+E6-E05 — Distractors rely on anachronism or an invented British railway policy
+
+Keep A and use contemporary alternatives.
+
+Choice | Replacement wording | Replacement rationale
+B | Landowners' support for laws limiting factory working hours | Incorrect. Some landowners supported factory reform, but these sources debate grain tariffs and the interests of farming and manufacturing.
+C | Workers' campaign for universal male suffrage through Chartism | Incorrect. Chartists demanded wider voting rights. Neither source makes suffrage its main concern.
+D | Religious reformers' campaign to restrict women's work in mines | Incorrect. Religious reformers pressed for changes in working conditions. These sources concern taxes on imported grain.
+
+E6-E08 — All distractors are exposed by date, location, or an invented event
+
+Keep D; replace A–C:
+
+Choice | Replacement wording | Replacement rationale
+A | Efforts by skilled craftworkers to preserve production in small workshops | Incorrect. The painting shows workers using large machines in a factory, rather than independent craftworkers producing goods in small workshops.
+B | Merchants' expansion of textile production in rural households | Incorrect. The scene shows heavy industry concentrated in a large workplace, rather than textile production in rural homes.
+C | Landowners' expansion of grain exports to western European markets | Incorrect. Grain exports mattered to eastern Prussian landowners, but this scene shows the growth of industrial production.
+
+SHOULD-FIX: smaller wording corrections
+Item / field | Problem | Exact replacement
+E6-P16, why-not B | "Married women had no such control" erases existing exceptions, including property settlements. | "The Married Women's Property Acts of 1870 and 1882 came after Ellis wrote. They expanded married women's control over earnings and property."
+E6-P34, A | "Count" understates Mill's arithmetic requirement. | "a broad vote for both sexes, with basic reading, writing, and arithmetic requirements"
+E6-P48, why-not A | Clothing supports a likely class identification, not a categorical claim about what workers could afford. | "The couple's formal clothes and jewelry most strongly suggest prosperous city residents rather than factory workers."
+E6-P48, why-not C | Artisans did not invariably dress plainly. | "Skilled artisans could own fine clothes, but the couple's clothing and setting most strongly suggest the urban bourgeoisie."
+E6-E12, A rationale | "The Zollverein was never ended" is unnecessarily absolute. | "Incorrect. The Zollverein expanded during this period. Its removal of tariffs between member states helped trade and railway growth. After unification, imperial institutions took over customs policy."
+Source X7 / E6-E20, glossary | "Pecuniary gain = a saving of money" nearly supplies the keyed purpose. | "pecuniary = relating to money"
+
+For Source X6 / E6-E16–E6-E19, move the glossary entry beginning "materialistic conception of history =" to the post-answer explanation. It defines the central interpretation that E16 asks students to identify.
+
+SHOULD-FIX: CED tags
+
+These changes align the metadata with the task students actually perform. The CED's suggested topic-skill pairings are not mandatory; the issue is whether the selected skill describes the question.
+apcentral.collegeboard.org +2
+
+Item(s) | Exact replacement
+E6-P22, E6-P37, E6-P48, E6-E06, E6-E17 | Replace Skill 1.B with Skill 1.A. These identify an ideology, thinker, or social group.
+E6-P20 | Replace Skill 5.A with Skill 3.A. The question identifies Wood's claim.
+E6-P14 | Replace Skill 2.C with Skill 3.C · Comparison. The question compares the historians' approaches to evidence.
+E6-P15 | Replace the content/skill tags with Topic 6.4 · LO E · Skill 3.D; remove Causation.
+E6-E07 | Replace Topic 6.10 · LO K with Topic 6.3 · LO D. The assessed relationship concerns protective tariffs and free trade.

@@ -2,7 +2,7 @@
 # and documented in ae1/sources/*.md. Cuts are marked with ellipses. Square brackets inside a quotation appear only where
 # the printed edition itself has them (Donnan's and Knight's brackets); the bank adds none. OCR slips were corrected
 # against page images or a second witness (see the .md files).
-VERSION = "2026-11-09b"
+VERSION = "2026-11-09c"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -53,17 +53,14 @@ STIM = {
                   {"t": "degrees of the sun or of north latitude", "d": "how far north or south a place is, found by measuring the height of the sun"}]),
     item("Source 2", [
         "My intention is to demonstrate briefly and clearly that the Dutch—that is to say, the subjects of the United Netherlands—have the right to sail to the East Indies, as they are now doing, and to engage in trade with the people there. I shall base my argument on the following most specific and unimpeachable axiom of the Law of Nations, called a primary rule or first principle, the spirit of which is self-evident and immutable, to wit: Every nation is free to travel to every other nation, and to trade with it.",
-        "God Himself says this speaking through the voice of nature; and inasmuch as it is not His will to have Nature supply every place with all the necessaries of life, He ordains that some nations excel in one art and others in another. … So by the decree of divine justice it was brought about that one people should supply the needs of another …",
-        "Those therefore who deny this law, destroy this most praiseworthy bond of human fellowship, remove the opportunities for doing mutual service, in a word do violence to Nature herself. For do not the ocean, navigable in every direction with which God has encompassed all the earth, and the regular and the occasional winds which blow now from one quarter and now from another, offer sufficient proof that Nature has given to all peoples a right of access to all other peoples? … Therefore this right belongs equally to all nations."],
+        "… Therefore this right belongs equally to all nations."],
         "Hugo Grotius, Dutch legal scholar, The Freedom of the Seas, 1609",
         "Translated from the Latin by Ralph Van Deman Magoffin (New York: Oxford University Press, 1916), pp. 7–8; adapted",
         glossary=[{"t": "the United Netherlands", "d": "the Dutch Republic"},
                   {"t": "the East Indies", "d": "South and Southeast Asia, especially the islands that produced spices"},
                   {"t": "unimpeachable axiom", "d": "a basic truth that cannot be questioned"},
                   {"t": "Law of Nations", "d": "rules thought to govern how all peoples deal with one another"},
-                  {"t": "immutable", "d": "unchangeable"},
-                  {"t": "ordains", "d": "orders"},
-                  {"t": "encompassed", "d": "surrounded"}])]},
+                  {"t": "immutable", "d": "unchangeable"}])]},
 
 "X3": {"type": "image",
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/1280px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
@@ -77,13 +74,12 @@ STIM = {
                  {"t": "lute", "d": "a stringed musical instrument"}]},
 
 "X4": {"type": "table",
-    "title": "Weeks of Work Needed to Buy a Year's Grain for a Family in England, Selected Years, 1495–1610",
+    "title": "Weeks of Work Needed to Buy a Year's Grain for a Family in England, Selected Years, 1495–1593 (Rogers's Estimates)",
     "columns": ["Year", "Skilled craftsman", "Farm laborer"],
     "rows": [["1495", "10 weeks", "15 weeks"],
              ["1564", "32 weeks", "more than 40 weeks"],
-             ["1593", "40 weeks", "more than a full year of work"],
-             ["1610", "43 weeks", "more than a full year of work"]],
-    "text": "Rogers estimated the grain a family needed for a year (three quarters of wheat, three of malt, and two of oatmeal; a quarter is about eight bushels). For each year, he compared the price of that grain with the daily wages paid or set by local officials. The wages for 1564 and 1610 were set by officials in Rutland, and those for 1593 in the East Riding of Yorkshire. Wheat prices were unusually high in 1564.",
+             ["1593", "40 weeks", "more than a full year of work"]],
+    "text": "Rogers estimated the grain a family needed for a year (three quarters of wheat, three of malt, and two of oatmeal; a quarter is eight bushels). For each year, he compared the price of that grain with daily wages: wages actually paid in 1495, and wages set by local officials in Rutland in 1564 and in the East Riding of Yorkshire in 1593. These are estimates for selected places, not averages for all of England. Wheat prices were unusually high in 1564.",
     "source": "James E. Thorold Rogers, English economic historian, Six Centuries of Work and Wages: The History of English Labour (New York: G. P. Putnam's Sons, 1884), pp. 389–392"},
 
 "X5": P([
@@ -91,7 +87,7 @@ STIM = {
     "I, on the contrary, think it fairer to let the princes despoil you of all the empire you hold. For, as I shall show, that Donation whence the supreme pontiffs will have their right derived was unknown equally to Sylvester and to Constantine. …",
     "\"In this privilege, among other things, is this: We—together with all our satraps and the whole Senate and the nobles also, and all the people subject to the government of the Roman church—considered it advisable that, as the blessed Peter is seen to have been constituted vicar of God on the earth, so the pontiffs who are the representatives of that same chief of the apostles, should obtain from us and our Empire the power of a supremacy greater than the clemency of our earthly imperial serenity is seen to have conceded to it.\"",
     "O thou scoundrel, thou villain! … What! How do you want to have satraps come in here? Numskull, blockhead! Do the Caesars speak thus; are Roman decrees usually drafted thus? Whoever heard of satraps being mentioned in the councils of the Romans? I do not remember ever to have read of any Roman satrap being mentioned, or even of a satrap in any of the Roman provinces."],
-    "Lorenzo Valla, Italian humanist scholar who served as secretary to King Alfonso of Aragon, Sicily, and Naples, treatise on the Donation of Constantine, written in 1440. In the third paragraph Valla quotes the Donation",
+    "Lorenzo Valla, Italian humanist scholar who served as secretary to King Alfonso V of Aragon and Sicily, who was then fighting to win the kingdom of Naples, treatise on the Donation of Constantine, written in 1440. In the third paragraph Valla quotes the Donation",
     "Translated from the Latin by Christopher B. Coleman, The Treatise of Lorenzo Valla on the Donation of Constantine (New Haven: Yale University Press, 1922), pp. 27, 85; adapted",
     footnotes=[{"mark": "*", "text": "The Donation of Constantine was a document in which the Roman emperor Constantine (ruled 306–337) appeared to give Pope Sylvester I and later popes rule over Rome and the western part of the Roman Empire. Popes had used it to support their claims to land and power."}],
     glossary=[{"t": "the Gauls, the Spains", "d": "the lands that are now France and Spain"},
@@ -114,28 +110,25 @@ STIM = {
               {"t": "maintenance or headship of great persons", "d": "powerful nobles keeping and leading bands of armed followers"},
               {"t": "sumptuously", "d": "in a rich, costly way"},
               {"t": "livery coats, with cognizances", "d": "uniforms bearing a noble family's badge"},
-              {"t": "yeomen", "d": "farmers who owned their own land"},
+              {"t": "yeomen", "d": "men ranked below gentlemen; here, attendants who served the earl"},
               {"t": "menial servants", "d": "household servants"},
               {"t": "retainers", "d": "followers who wore a lord's uniform and served him, often as armed men"},
               {"t": "compounded for", "d": "agreed to pay as a fine"},
               {"t": "marks", "d": "units of money; a mark was two-thirds of a pound"}]),
 
 "X7": P([
-    "On the part of the King, Don Fernando, and of Doña Juana, his daughter, Queen of Castille and Leon, subduers of the barbarous nations, we their servants notify and make known to you, as best we can, that the Lord our God, Living and Eternal, created the Heaven and the Earth, and one man and one woman, of whom you and we, and all the men of the world, were and are descendants … Of all these nations God our Lord gave charge to one man, called St. Peter, that he should be Lord and Superior of all the men in the world …",
+    "… Of all these nations God our Lord gave charge to one man, called St. Peter, that he should be Lord and Superior of all the men in the world …",
     "One of these Pontiffs, who succeeded that St. Peter as Lord of the world, … made donation of these isles and Terra-firma to the aforesaid King and Queen and to their successors, our lords, with all that there are in these territories … So their Highnesses are kings and lords of these islands and land of Terra-firma by virtue of this donation …",
     "Wherefore, as best we can, we ask and require you that you consider what we have said to you, and that you take the time that shall be necessary to understand and deliberate upon it, and that you acknowledge the Church as the Ruler and Superior of the whole world … and the high priest called Pope, and in his name the King and Queen Doña Juana our lords, in his place, as superiors and lords and kings of these islands and this Terra-firma by virtue of the said donation, and that you consent and give place that these religious fathers should declare and preach to you the aforesaid.",
-    "If you do so, you will do well … and we in their name shall receive you in all love and charity, and shall leave you your wives, and your children, and your lands, free without servitude …",
-    "But, if you do not do this, and maliciously make delay in it, I certify to you that, with the help of God, we shall powerfully enter into your country, and shall make war against you in all ways and manners that we can, and shall subject you to the yoke and obedience of the Church and of their Highnesses; we shall take you and your wives and your children, and shall make slaves of them, and as such shall sell and dispose of them as their Highnesses may command; and we shall take away your goods, and shall do you all the mischief and damage that we can … and we protest that the deaths and losses which shall accrue from this are your fault, and not that of their Highnesses, or ours, nor of these cavaliers who come with us."],
+    "… But, if you do not do this, and maliciously make delay in it, I certify to you that, with the help of God, we shall powerfully enter into your country, and shall make war against you in all ways and manners that we can, and shall subject you to the yoke and obedience of the Church and of their Highnesses; we shall take you and your wives and your children, and shall make slaves of them, and as such shall sell and dispose of them as their Highnesses may command; and we shall take away your goods, and shall do you all the mischief and damage that we can … and we protest that the deaths and losses which shall accrue from this are your fault, and not that of their Highnesses, or ours, nor of these cavaliers who come with us."],
     "The Requirement (Requerimiento), a statement written in 1513 by Juan López de Palacios Rubios, a legal adviser to the Spanish crown, to be read aloud to Native American peoples by Spanish commanders before they made war",
     "English translation in Arthur Helps, The Spanish Conquest in America, vol. 1 (London: John W. Parker, 1855), pp. 379–382; adapted",
-    glossary=[{"t": "Don Fernando", "d": "King Ferdinand of Aragon, who governed Castile for his daughter, Queen Juana"},
-              {"t": "subduers", "d": "conquerors"},
-              {"t": "Pontiffs", "d": "popes"},
+    glossary=[{"t": "Pontiffs", "d": "popes"},
+              {"t": "the King and Queen Doña Juana", "d": "King Ferdinand of Aragon and his daughter, Queen Juana of Castile, for whom he governed Castile"},
               {"t": "donation", "d": "gift"},
               {"t": "Terra-firma", "d": "the mainland of Central and South America"},
               {"t": "deliberate upon", "d": "think carefully about"},
               {"t": "religious fathers", "d": "priests"},
-              {"t": "servitude", "d": "forced service"},
               {"t": "maliciously", "d": "with bad intentions"},
               {"t": "accrue", "d": "result"},
               {"t": "cavaliers", "d": "soldiers on horseback"}]),
@@ -171,7 +164,7 @@ STIM = {
 
 # ============================== PRACTICE ==============================
 "P1": P([
-    "Your Cicero has been in my possession four years and more. There is a good reason, though, for so long a delay; namely, the great scarcity of copyists who understand such work. It is a state of affairs that has resulted in an incredible loss to scholarship. Books that by their nature are a little hard to understand are no longer multiplied, and have ceased to be generally intelligible, and so have sunk into utter neglect, and in the end have perished. This age of ours consequently has let fall, bit by bit, some of the richest and sweetest fruits that the tree of knowledge has yielded; has thrown away the results of the vigils and labours of the most illustrious men of genius, things of more value, I am almost tempted to say, than anything else in the whole world.",
+    "Your Cicero has been in my possession four years and more. There is a good reason, though, for so long a delay; namely, the great scarcity of copyists who understand such work. It is a state of affairs that has resulted in an incredible loss to scholarship. Books that by their nature are a little hard to understand are no longer multiplied, and have ceased to be generally intelligible, and so have sunk into utter neglect, and in the end have perished. This age of ours consequently has let fall, bit by bit, some of the richest and sweetest fruits that the tree of knowledge has yielded; has thrown away the results of the vigils and labours of the most illustrious men of genius, things of more value, I am almost tempted to say, than anything else in the whole world. …",
     "But I must return to your Cicero. I could not do without it, and the incompetence of the copyists would not let me possess it. What was left for me but to rely upon my own resources, and press these weary fingers and this worn and ragged pen into the service? … Not a single word did I read except as I wrote. … So the pen held back the eye, and the eye drove on the pen, and I covered page after page, delighting in my task, and committing many and many a passage to memory as I wrote.",
     "… I said to myself, \"So Cicero copied orations that another wrote, and you are not ready to copy his? What ardour! what scholarly devotion! what reverence for a man of godlike genius!\""],
     "Francesco Petrarca (Petrarch), Italian poet and scholar, letter to Lapo da Castiglionchio, a friend in Florence who had lent him a book by Cicero, written in the 1350s",
@@ -236,7 +229,7 @@ STIM = {
     "I should be far from willing to have an antagonist cite instances to the contrary in refutation of my view, and urge upon me that with all their knowledge of letters the Italians have for some time since shown little martial valour,—which is alas only too true. …",
     "I would have him more than passably accomplished in letters, at least in those studies that are called the humanities, and conversant not only with the Latin language but with the Greek, for the sake of the many different things that have been admirably written therein. Let him be well versed in the poets, and not less in the orators and historians, and also proficient in writing verse and prose, especially in this vulgar tongue of ours …"],
     "Baldassare Castiglione, Italian diplomat who served at the court of Urbino, The Book of the Courtier, published in 1528. A nobleman at the court is describing the ideal courtier",
-    "Translated by Leonard Eckstein Opdycke (New York: Charles Scribner's Sons, 1901), pp. 57–58; adapted",
+    "Translated by Leonard Eckstein Opdycke (New York: Charles Scribner's Sons, 1901), pp. 58–59; adapted",
     glossary=[{"t": "courtier", "d": "a nobleman who serves and advises a ruler at court"},
               {"t": "letters", "d": "learning and literature"},
               {"t": "injurious to arms", "d": "harmful to skill in war"},
@@ -322,7 +315,7 @@ STIM = {
     "width": 1280, "height": 709,
     "alt": "A large printed world map made of twelve sheets, with portraits of two men at the top and a Latin title along the bottom.",
     "caption": "A large world map printed in black ink on twelve sheets. Along the bottom runs a Latin title: \"Universalis cosmographia secundum Ptholomaei traditionem et Americi Vespucii aliorumque lustrationes\" (\"A map of the whole world following the tradition of Ptolemy and the voyages of Amerigo Vespucci and others\"). At the top center are two portraits. On the left is Ptolemy, an ancient Greek geographer, holding a quadrant, beside a small map of Europe, Africa, and Asia. On the right is Amerigo Vespucci, an Italian navigator, holding a pair of dividers, beside a small map that shows a new land across the Atlantic. In the main map, Europe, Africa, and Asia fill the center, and the coasts of Africa are drawn in detail. On the far left, a long, narrow land lies between two oceans. On its southern part is the word AMERICA.",
-    "attribution": "Martin Waldseemüller, German mapmaker, world map printed from carved woodblocks at Saint-Dié, in the duchy of Lorraine, 1507",
+    "attribution": "Martin Waldseemüller, German mapmaker, world map printed from carved woodblocks on twelve sheets, 1507",
     "credit": "Library of Congress, Washington, D.C. Public domain image via Wikimedia Commons (file: Waldseemuller map 2.jpg).",
     "description": "A world map assembled from twelve printed sheets in three rows of four. The world is drawn on a curved, heart-like projection with lines of latitude and longitude, surrounded by clouds and the puffing heads of the winds. In the top row, two framed portraits face each other: on the left, the bearded Greek geographer Ptolemy, labeled CLAUDII PTHOLOMEI, holds a quadrant beside a small round map of the Old World; on the right, Amerigo Vespucci, labeled AMERICI VESPUCII, holds a pair of dividers beside a small round map showing a large land across the Atlantic Ocean. In the main map, Europe, North Africa, and Asia stretch across the middle sheets with many place names. Africa is shown as a large continent with a detailed coastline and its southern tip. Asia extends far to the east, with many islands. At the far left, separated from Asia by a wide ocean, is a long, thin land running north to south; on its southern part the word AMERICA is printed. A Latin title runs along the bottom edge: UNIVERSALIS COSMOGRAPHIA SECUNDUM PTHOLOMAEI TRADITIONEM ET AMERICI VESPUCII ALIORUMQUE LUSTRATIONES.",
     "glossary": [{"t": "quadrant", "d": "an instrument for measuring how high the sun or a star is above the horizon"},
@@ -360,7 +353,7 @@ STIM = {
         "… I am not sorry that we should here take notice of the barbarous horror of so cruel an action,* but that, seeing so clearly into their faults, we should be so blind to our own. I conceive there is more barbarity in eating a man alive, than when he is dead; in tearing a body limb from limb by racks and torments, that is yet in perfect sense; in roasting it by degrees; in causing it to be bitten and worried by dogs and swine (as we have not only read, but lately seen, not amongst inveterate and mortal enemies, but among neighbours and fellow-citizens, and, which is worse, under colour of piety and religion), than to roast and eat him after he is dead."],
         "Michel de Montaigne, French nobleman and writer, \"Of Cannibals,\" an essay about the Tupinambá people of Brazil, published in 1580",
         "Translated by Charles Cotton (1685), revised by William Carew Hazlitt, Essays of Montaigne, vol. 1 (London: Reeves and Turner, 1877), pp. 253, 259; adapted",
-        footnotes=[{"mark": "*", "text": "Montaigne has just described how the Tupinambá killed prisoners of war and ate their bodies. He learned about Brazil from a man who had lived there for many years."}],
+        footnotes=[{"mark": "*", "text": "Montaigne has just described how the Tupinambá killed prisoners of war and ate their bodies. He then explains that after they saw the Portuguese, who were allied with their enemies, kill prisoners in a more painful way, they began to copy it. He learned about Brazil from a man who had lived there for many years."}],
         glossary=[{"t": "barbarous", "d": "uncivilized; cruel"},
                   {"t": "level", "d": "measure"},
                   {"t": "accomplished usage", "d": "polished way of doing things"},
@@ -417,12 +410,12 @@ STIM = {
               {"t": "capital", "d": "money used to run a business"},
               {"t": "credit", "d": "trust that lets a person borrow, or buy now and pay later"},
               {"t": "transactions", "d": "business deals"},
-              {"t": "debit and credit method", "d": "double-entry bookkeeping, which records every deal in two accounts, one for what is owed and one for what is paid"}]),
+              {"t": "debit and credit method", "d": "double-entry bookkeeping, which records each business deal twice, once as a debit in one account and once as a credit in another, so that the two sides balance"}]),
 
 "P16": P([
     "Great as were the services of the Hermandad* in repressing the turbulence of the nobles and rendering the roads safe, its cost was a source of complaint to the communities which defrayed it. … None of the reforms of Ferdinand and Isabella was so efficient in restoring order and none did more to centralize power. It was not only a rudimentary standing army which could be concentrated speedily to suppress disorder, but it carried the royal jurisdiction into every corner of the land and made the royal authority supreme everywhere. It was practically an alliance between the crown and the people against the centrifugal forces of feudalism …",
     "… Thus the crown had become absolute and its interposition could be invoked for the minutest details of local government. He reads history to little purpose who imagines that this was the work of the Inquisition.",
-    "Another measure of no little importance in establishing the royal supremacy was the virtual incorporation in the crown of the masterships of the three great military Orders of Santiago, of Calatrava and of Alcantara. … From Innocent VIII, in 1489, Ferdinand procured a brief granting him for life the administration of all three …"],
+    "Another measure of no little importance in establishing the royal supremacy was the virtual incorporation in the crown of the masterships of the three great military Orders of Santiago, of Calatrava and of Alcantara. …"],
     "Henry Charles Lea, American historian, A History of the Inquisition of Spain, vol. 1, 1906",
     "Text from the first edition (New York: Macmillan, 1906), pp. 32–34; adapted",
     footnotes=[{"mark": "*", "text": "The Santa Hermandad (\"Holy Brotherhood\") was a force of armed police that Ferdinand and Isabella organized in Castile in 1476, paid for by taxes on local communities."}],
@@ -432,9 +425,9 @@ STIM = {
               {"t": "jurisdiction", "d": "power to enforce the law"},
               {"t": "centrifugal forces of feudalism", "d": "the nobles' power, which pulled the kingdom apart"},
               {"t": "interposition", "d": "stepping in"},
-              {"t": "military Orders", "d": "rich organizations of knights, each led by a master"},
-              {"t": "Innocent VIII", "d": "the pope from 1484 to 1492"},
-              {"t": "brief", "d": "a letter from the pope"}]),
+              {"t": "virtual incorporation in the crown", "d": "being taken over by the crown in practice"},
+              {"t": "masterships", "d": "the posts of master, or leader"},
+              {"t": "military Orders", "d": "Catholic religious groups of knights that held land and wealth, each led by a master"}]),
 }
 
 # Raw files each stimulus (or pair item) was machine-checked against (ae1/sources/raw/...).

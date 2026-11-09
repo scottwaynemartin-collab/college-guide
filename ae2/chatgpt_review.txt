@@ -1,0 +1,335 @@
+ChatGPT Pro review of the Unit 2 bank (v2026-11-09b)
+Source: https://chatgpt.com/c/6af14268-4258-83ea-a7aa-acd5735c123a ("AP Euro Item Review"), tab 1294094647, read 2026-11-08 via get_page_text.
+Prompt asked for (1) MUST-FIX and (2) SHOULD-FIX findings with item IDs and exact replacement wording. "Worked for 17m 40s".
+Citation chips in the page (marxists.org, German History in Documents and Images, etc.) are shown as [cite: ...].
+
+==== ChatGPT said ====
+
+I reviewed all 73 items, all 24 source sets, and the source notes. E2-E24 needs a substantive validity repair: its keyed evidence challenges a claim Weber does not make. I did not find another item that needs a different answer letter, but several explanations, source details, and question designs need correction.
+
+Below, replacement choices preserve the current answer letters.
+
+1. MUST-FIX
+
+E2-E24 — The keyed answer does not adequately challenge Weber's actual argument
+The excerpt argues that Protestant beliefs helped capitalism develop, not that capitalism began with Protestantism. Earlier Catholic banking therefore does not contradict the argument as presented. Weber explicitly acknowledges that capitalist business existed before the Reformation. [cite: marxists.org]
+Replace B:
+  In otherwise similar regions, Catholic and Calvinist merchants showed the same patterns of work, saving, and investment.
+Replace the explanation and B rationale:
+  This finding would weaken Weber's link between Calvinist beliefs and business habits. Earlier banking in Catholic cities would not, by itself, disprove his claim that Protestant ideas later helped capitalism grow.
+Replace Source X8's context note:
+  Historians debate how much Protestant beliefs helped shape modern business habits. Weber did not claim that capitalism first appeared after the Reformation.
+Keep key B.
+
+Source P6 / E2-P16–P18 — Incorrect glossary and misleading inherited wording
+"Abstention" means the ban/excommunication here, not separation from the world. The opening phrase "avoidance of abominable pastors in the church" also merges two distinct article headings. That wording does appear in the cited translation, so this is not a bank transcription error. The confession distinguishes the ban, separation, and pastors as separate subjects. [cite: German History in Documents and Images]
+Recommended exact edit: Delete the introductory sentence beginning "The Articles, which we have drawn up…" Start the excerpt with the existing:
+  First learn concerning baptism!
+Delete the now-unused glossary entries "abstention," "breaking of bread," and "abominable." This removes both problems without silently rewriting the historical translation.
+
+Incorrect or misleading feedback (Item / field | Problem | Exact replacement wording)
+- E2-P06 — why-not B | The claim that scientists began experimenting mostly after 1600 is an unnecessary, misleading chronology. | "Luther bases this argument on Scripture and faith. He does not use experiments or observations of nature."
+- E2-P18 — why-not C | "Anabaptists had no bishops" is an unsafe claim about the entire movement. The excerpt establishes no such rule. | "The articles explain who may receive baptism. They do not say that only bishops may perform it."
+- E2-P27 — why-not B | "Only briefly in the 1590s" misstates the duration and scope of the Jesuit exclusion. The exclusion extended into the 1600s; Henry IV authorized their return in 1603. [cite: Bibliothèque des Facultés Loyola Paris +1] | "Jesuits were expelled from parts of France following an attempt to kill Henry IV in 1594. He allowed their return in 1603. This was not a direct result of the 1572 massacre."
+- E2-P29 — why-not D | Treats political separation as universal among Anabaptists. | "Many Anabaptist groups rejected government office and sought separate communities of believers. Montaigne instead discusses how kings could bring peace to a divided kingdom."
+- E2-E03 — D rationale | Treats Anabaptist pacifism as universal. The Swiss Brethren's position should not stand for every Anabaptist group. [cite: German History in Documents and Images] | "Many Anabaptists, including the Swiss Brethren, rejected Christians' use of armed force. They would have opposed Luther's call to kill rebels."
+- E2-P32 — explanation | Military service does not establish that a fictional scene records events that actually happened. | "Grimmelshausen had served in the war, but he wrote a novel. The scene may draw on real experiences. Historians must compare it with other evidence before treating its details as fact."
+- E2-P37 — why-not C | Free tuition does not disprove funding through indulgence sales. | "The passage says cities or princes founded Jesuit colleges. It does not say that indulgence sales paid for them."
+- E2-E04 — D rationale | "Bishops…appointing priests" oversimplifies a system that also included patrons' rights. | "The Catholic Church did not adopt a general policy allowing every parish to elect its priest."
+
+E2-P48 — Incorrect descriptions of the Corn Laws and Navigation Acts
+The 1815 Corn Law prohibited wheat imports below a price threshold; describing it simply as an import tax is inaccurate. The Navigation Acts also allowed qualifying colonial vessels and, under specified rules, vessels from the country producing European imports. [cite: api.parliament.uk +1]
+Replace why-not B:
+  The Navigation Acts restricted overseas trade to benefit English shipping and control colonial commerce. They did not organize poor relief.
+Replace why-not C:
+  The Corn Laws restricted grain imports to protect British farming. The 1815 law barred imported wheat until the domestic price reached a set level.
+
+E2-E21 — "God's plan for all" overstates Luther's position
+Luther recognized exceptions, including people with a special gift for voluntary celibacy. [cite: pages.uoregon.edu]
+Replace D:
+  rejected compulsory celibacy for clergy and supported marriage for pastors
+Replace the explanation and D rationale:
+  The Latin Catholic Church required clerical celibacy. Luther rejected that requirement and supported marriage for pastors. He accepted that some people had a special gift for remaining unmarried.
+Keep key D.
+
+Source P15 / E2-P43–P45 — Burial date and image detail
+The caption conflates Gonzalo's death in 1323 with the legendary burial at Santo Tomé. The church's own account places the transfer and miraculous burial in 1327. Avoid assigning the miracle to the death year. [cite: Santo Tomé]
+Replace the legend sentence:
+  The painting shows a local legend: at the burial in Santo Tomé of Don Gonzalo Ruiz de Toledo, lord of Orgaz, Saint Stephen and Saint Augustine came down from heaven and laid him in his tomb as a reward for his charity.
+In the long description, replace:
+  a white bishop's miter
+with:
+  a gold bishop's miter
+The supplied image shows a gold miter.
+
+Source X5 / E2-E15–E16 — Indictments are not interchangeable with trials
+The chart counts people indicted, not completed trials. Its claim that nobody was indicted after 1707 also exceeds what incomplete surviving records can establish.
+Replace the chart title:
+  Persons Indicted and Hanged for Witchcraft at the Home Circuit Assizes, 1558–1707
+Replace the note's final two sentences:
+  The surviving records used by Ewen contain no witchcraft indictments for 1708–1736. His table records 513 people indicted and 112 hanged.
+Replace E2-E15's stem:
+  Which of the following most likely contributed to the increase in people indicted for witchcraft in 1638–1657 compared with 1618–1637?
+In E2-E16, replace "trials" with "recorded indictments" in choices A and D and their rationales.
+Replace E2-E16's explanation:
+  Of the 513 people listed as indicted, 112 are listed as hanged—about 22 percent. Thus, most people indicted were not recorded as hanged.
+
+Source X6 / E2-E17–E19 — Regency dates and dogs
+Replace the source-note sentence about Marie's regency:
+  Marie de' Medici married Henry IV in 1600. She served as regent for Louis XIII from 1610 to 1614 and continued to dominate the government until 1617.
+This distinguishes the formal regency from her continued political control. [cite: Château de Versailles +1]
+Replace the long description's final sentence:
+  Two black-and-white dogs appear at the lower right; one is seated and the other stands.
+The supplied painting does not show both dogs resting.
+
+2. SHOULD-FIX: distractors and questions that give away their answers
+
+E2-P02 — All three distractors can be eliminated by chronology
+Replace the distractors with developments from the relevant period; retain C.
+  A: "German princes' efforts to gain control over church appointments and revenues"
+  B: "Christian humanists' efforts to reform religious life through the study of Scripture"
+  D: "Bishops' efforts to improve clerical discipline through visits to local parishes"
+Replacement feedback:
+  A: "Some princes sought greater control over church affairs, but Tetzel was promoting an indulgence authorized by the pope."
+  B: "Humanists stressed the study of Christian texts. Tetzel instead promotes indulgence letters that raise money."
+  D: "This sermon promotes an indulgence campaign, rather than inspections of parish clergy."
+
+E2-P05 — "Priests for ever" directly supplies the answer's name
+Replace the vocabulary match with a question about the doctrine's significance.
+Stem:
+  Luther's claim that believers are "priests for ever" most directly challenged which feature of the existing Church?
+Options:
+  A: "Its teaching that God had authority over earthly rulers"
+  B: "Its use of sermons to explain Christian beliefs"
+  C: "Its encouragement of prayer within Christian communities"
+  D: "Its sharp distinction between the spiritual status of clergy and laypeople"
+Explanation:
+  Luther gave all believers a shared spiritual status before God. This challenged the clergy's special position, although he still supported pastors who preached and led worship.
+Why-not A/B/C, respectively:
+  Luther did not reject God's authority over rulers.
+  Luther supported preaching and teaching.
+  Luther encourages believers to pray for one another.
+Keep key D and Skill 1.B.
+
+E2-P06 — Distractors are mostly later movements or unrelated methods
+For a stronger version, replace A–C below. These changes supersede the original why-not B correction above.
+  A: "Scholastic theologians' efforts to reconcile Christianity with Aristotle's philosophy"
+  B: "Renaissance popes' use of art and architecture to display Church authority"
+  C: "Christian rulers' efforts to preserve religious unity by enforcing Church law"
+Replacement feedback:
+  A: "Scholastic writers often used Aristotle's philosophy. Luther instead stresses the authority of Christian Scripture."
+  B: "Papal building projects displayed Church power. They do not explain Luther's emphasis on Christian texts."
+  C: "Enforcing Church law does not explain Luther's emphasis on Scripture rather than outward religious practices."
+Keep D.
+
+E2-P11 — Three distractors occur conspicuously after the specified decades
+Replace A, B, and D:
+  A: "Ferdinand of Habsburg's election as king of the Romans"
+  B: "The defeat of the German Peasants' War by princely armies"
+  D: "The expansion of Spanish rule in the Americas"
+Replacement feedback:
+  A: "Ferdinand's election strengthened Habsburg influence rather than creating the military pressures described."
+  B: "The peasants' defeat strengthened princely authority. It does not explain Charles's need for help against foreign enemies."
+  D: "American expansion was not the main reason Charles needed military support from German princes."
+Replace the explanation's final sentence:
+  These competing wars limited his ability to enforce religious unity in Germany.
+Keep C.
+
+E2-P13 — Distractors are easily rejected without interpreting the historical surge
+Replace A, B, and D:
+  A: "Growing urban trade increased demand for German manuals for merchants and craftspeople."
+  B: "Humanist teachers expanded the market for German translations of ancient literature."
+  D: "Territorial governments published more laws and proclamations in German."
+Replacement feedback:
+  A: "Trade created demand for practical books, but religious controversy best explains the sharp rise after 1517."
+  B: "Humanist publishing expanded the book market, but the timing of this surge points more directly to the Reformation."
+  D: "Governments printed laws and orders, but religious debate best explains this rapid increase."
+Replace the explanation's last sentence:
+  The number of cataloged German-language works rose from 81 in 1517 to 944 in 1523.
+Keep C.
+
+E2-P14 — "Printing grew because printing presses existed" is too close to a tautology
+Replace it with a question that actually requires the chart.
+Stem:
+  Which conclusion can be drawn from the chart without knowing the titles or authors of the works counted?
+Options:
+  A: "German-language printing expanded sharply during the early Reformation."
+  B: "Religious texts made up the largest share of German-language printing."
+  C: "Luther's writings reached more readers than those of Catholic authors."
+  D: "German-language publishing grew faster than Latin-language publishing."
+Explanation:
+  The chart shows a large increase after 1517. It does not identify the works' subjects, authors, or readers, and it gives no totals for Latin publishing.
+Why-not B/C/D, respectively:
+  The chart does not separate works by subject.
+  The chart does not identify authors or count readers.
+  The chart provides no figures for Latin publishing.
+Hint:
+  Separate what the chart measures from information it does not provide.
+Tags: Topic 2.3 · LO B · Skill 5.A · Continuity and Change · easy
+Key: A.
+
+E2-P36 — Teresa's name identifies the only plausible artwork
+The present item also does not assess continuity and change.
+Replace the stem:
+  Teresa's description of her religious experience most closely resembles the aims of Catholic Baroque artists in their use of
+Replace the options:
+  A: "dramatic gestures and movement to make religious scenes emotionally powerful"
+  B: "symmetrical designs and ideal proportions to present a calm, orderly world"
+  C: "familiar household objects to celebrate comfortable urban life"
+  D: "scenes from ancient Rome to present civic duty as the highest virtue"
+Explanation:
+  Teresa describes strong pain, love, and joy during a vision. Catholic Baroque artists used dramatic poses, movement, and light to make religious experiences vivid.
+Why-not B/C/D, respectively:
+  Calm balance fits High Renaissance classicism more closely than the intense experience described here.
+  The passage concerns a mystical vision, not domestic comfort.
+  Ancient civic duty does not explain Teresa's religious experience.
+Hint:
+  Connect Teresa's powerful feelings with the effect an artwork could have on viewers.
+Tags: Topic 2.7 · LO F · Skill 5.A · Comparison · medium
+Key: A.
+
+E2-P42 — "Later" gives away Beccaria; the answer also requires material beyond this unit
+A stronger Unit 2 item would use Spee's position within Catholicism.
+Stem:
+  Spee's identity as a Jesuit is especially useful to historians because it shows that
+Options:
+  A: "criticism of witch trials grew chiefly from Protestant attacks on Catholic government"
+  B: "criticism of witch-trial methods could come from within the Catholic clergy"
+  C: "Jesuit schools taught that belief in witchcraft was incompatible with Christianity"
+  D: "Catholic rulers had abandoned torture by the early seventeenth century"
+Explanation:
+  Spee was a Catholic priest criticizing trials in Catholic lands. His objections came from within that religious community.
+Why-not A/C/D, respectively:
+  Spee was a Catholic, not a Protestant attacking Catholic government.
+  The passage criticizes trial procedures; it does not describe Jesuit school teaching.
+  Both sources describe the continuing use of torture.
+Hint:
+  Compare Spee's religious identity with the authorities and practices he criticizes.
+Tags: Topic 2.6 · LO E · Skill 2.C · medium
+Key: B.
+
+E2-P48 — The source title points straight to "Poor Law"
+For a stronger comparison, replace the item rather than retaining the law-name choices.
+Stem:
+  Which feature of the English Poor Law of 1601 most closely resembled Vives's proposal?
+Options:
+  A: "It kept aid voluntary and left it mainly to private donors."
+  B: "It placed aid under a single office of the national government."
+  C: "It gave every poor household the same payment from the royal treasury."
+  D: "It made local officials organize relief and work for those able to work."
+Explanation:
+  The law required parishes to raise money for poor relief and arrange work for people able to work. Both approaches gave local officials responsibility.
+Why-not A/B/C, respectively:
+  The law required local taxes rather than relying only on gifts.
+  Parish officials organized relief locally.
+  The law did not provide equal royal payments to every poor household.
+Hint:
+  Compare who organized relief and what was expected of people able to work.
+Tags: Topic 2.6 · LO E · Skill 5.A · Comparison · medium
+Key: D. This replacement also removes the faulty law explanations identified above.
+
+E2-E06 — The glossary disposes of D as a vocabulary trap
+"Apology = written defense" immediately eliminates the option about apologizing for mistaken teachings.
+Replace D:
+  seek royal support for a council that would reconcile rival Protestant churches
+Replace D rationale:
+  Calvin defends persecuted Protestants against charges of rebellion. He does not propose a council to settle disagreements among Protestant churches.
+
+E2-E10 — Standalone country recall; the source is unnecessary
+Replace the stem:
+  France later paid subsidies to Sweden. Which part of Gustavus's explanation best helps account for this alliance?
+Options:
+  A: "Rulers' religious beliefs determined which allies they could accept."
+  B: "Protestant rulers expected the pope to settle their disputes."
+  C: "The emperor sought military help from Protestant kingdoms."
+  D: "Rulers entered the war to protect their states' political interests."
+Explanation and D rationale:
+  Gustavus cites Sweden's security as a reason for fighting. France supported Sweden to weaken Habsburg power, despite their religious differences.
+A/B/C rationales, respectively:
+  France and Sweden followed different religions.
+  Neither the passage nor the alliance shows an appeal to the pope.
+  Sweden fought against the emperor.
+Keep D and Skill 5.B.
+
+E2-E14 — Only one choice concerns books
+Use four Catholic reform measures rather than unrelated settlements.
+Replace the options:
+  A: "The founding of seminaries to train parish priests"
+  B: "The revision of the Roman Missal used at Mass"
+  C: "The publication of an official list of forbidden books"
+  D: "The creation of Jesuit schools in Catholic cities"
+Replacement A/B/D rationales:
+  Seminaries trained priests rather than regulated books.
+  The Roman Missal standardized worship rather than restricted reading.
+  Jesuit schools provided education rather than an official list of banned books.
+Keep C and its existing explanation.
+
+E2-E19 — The painting is dispensable; the item merely identifies Henry IV
+Replace the stem:
+  The king shown watching this Catholic ceremony had previously led French Protestants. Which policy best reflects his effort to restore political stability?
+Options:
+  A: "Restoring papal control over appointments to French bishoprics"
+  B: "Allowing Huguenot worship in specified places while keeping France officially Catholic"
+  C: "Requiring French nobles to accept Calvinism in their lands"
+  D: "Allowing each French province to choose between Catholicism and Lutheranism"
+Explanation and B rationale:
+  Henry IV became Catholic and issued the Edict of Nantes in 1598. The edict allowed Huguenot worship in specified places while France remained officially Catholic.
+A/C/D rationales, respectively:
+  The French crown retained its important role in choosing bishops.
+  Henry did not require nobles to become Calvinists.
+  The edict did not give French provinces the religious choices allowed to rulers under the Peace of Augsburg.
+Keep B.
+
+E2-E22 — The useful limitation is prescribed behavior versus actual practice
+The current "hard" item has three distractors directly contradicted by the attribution.
+Replace the options:
+  A: "describes expected roles for women more than the work women actually performed"
+  B: "gives more attention to royal households than to townspeople's households"
+  C: "discusses the loss of convents rather than life within married households"
+  D: "compares Catholic and Lutheran practices rather than presenting views about wives"
+Explanation and A rationale:
+  Luther describes how he thinks women should behave. A historian would need letters, court records, or household accounts to learn how closely daily life matched those expectations.
+B/C/D rationales, respectively:
+  The passage discusses wives and households generally, not royal households.
+  It focuses on marriage and household roles, not the closing of convents.
+  Luther directly states his views about wives.
+Keep A.
+
+3. SHOULD-FIX: precision, tags, and reading burden
+
+Smaller wording corrections (Item / field | Exact replacement)
+- E2-P12 — why-not B | "The Peace of Westphalia came in 1648, almost a century later. It confirmed Lutheranism's legal standing and also recognized Calvinism."
+- E2-P15 — explanation | "The chart groups all subjects together. A yearly count of Luther's works and other religious pamphlets would help show how much of the increase came from the Reformation." Delete the unsupported concluding reference to unspecified "later studies."
+- E2-P20 — explanation | "Many sixteenth-century towns made laws against swearing, gambling, drunkenness, and dancing. Church leaders and civil officials often worked together to enforce rules about worship and behavior."
+- E2-P45 — explanation | "El Greco uses stretched figures and a crowded heavenly scene to create strong religious feeling. Raphael's School of Athens presents a more balanced, orderly setting." This avoids assigning El Greco's religious purpose to Mannerism generally.
+- Source P16 / E2-P46–P48 — glossary | "imperial law = laws issued under an emperor's authority" The excerpt does not securely identify the specific jurisdiction; its wording should not automatically be equated with Holy Roman imperial legislation.
+- E2-E12 — C | "that Scripture is the highest religious authority and can overrule church tradition" This expresses sola scriptura without implying that Protestants rejected every use of tradition.
+- E2-E15 — B rationale | "New scientific ideas did not by themselves explain this sudden increase. The Civil War provides a more direct explanation for disruption in these counties."
+- E2-E18 — A rationale | "Marie commissioned the series to celebrate her life, defend her past political choices, and strengthen her standing as queen mother." This fits the commission's 1622 context. [cite chip text: "Temporarily closed"]
+- E2-E18 — C rationale | "The flying figures and falling coins add symbols of glory to the ceremony. They show that this is an idealized scene rather than a literal record."
+- E2-E25 — C rationale | "Western Europe's expanding markets, banking, and overseas trade helped its commercial economy grow. A return to self-sufficient manors would not explain that growth." This avoids presenting all Europe as following one path after the Black Death.
+
+E2-E11 — Keep the key; qualify the Westphalia explanation
+C is defensible under the CED. The explanation should acknowledge that territorial rulers' authority operated alongside protections for established religious communities. [cite: apcentral.collegeboard.org +1]
+Replace the explanation and C rationale:
+  The peace recognized Catholicism, Lutheranism, and Calvinism. Rulers kept important powers, but they also had to respect protected rights of worship. Many of these rights depended on what had been allowed in 1624.
+
+Definite tag corrections for items retained as written
+The Fall 2026 framework distinguishes identifying concepts, identifying source purpose, comparing two sources, and explaining causation. [cite: apcentral.collegeboard.org]
+Item | Replacement tag | Reason
+- E2-P05, if not rewritten | Skill 1.A · easy | Identifies a named concept.
+- E2-P10 | Skill 2.A | Identifies the edict's purpose.
+- E2-P18 | Skill 5.A · Comparison | Compares historical beliefs; only one source is supplied. Skill 3.C requires comparison of sources.
+- E2-P23 | Replace Continuity and Change with Causation | Asks why another act was needed.
+- E2-P36, if not rewritten | Skill 1.A | Identifies an artwork rather than analyzing change over time.
+- E2-E10, if not rewritten | Skill 1.A | Identifies France.
+- E2-E19, if not rewritten | Skill 1.A | Identifies a ruler's policy.
+
+Sources X2 and X4 — Reduce unnecessary reading in the timed exam
+The 25-minute timing uses the real exam's one-minute-per-question pace, but these excerpts contain substantial material their questions never use. [cite: College Board]
+- X2 / E2-E06–E08: Delete the paragraph beginning "Nor would I have you think…" and ending "…in despaired case." Retain an ellipsis between the surrounding paragraphs. No item depends on that autobiographical passage.
+- X4 / E2-E12–E14: Delete the two paragraphs beginning "Moreover, the same Sacred and holy Synod…" and "Furthermore, in order to restrain petulant spirits…" Retain the opening paragraph and the printers' decree, separated by an ellipsis.
+- After shortening X4, replace E2-E12's explanation: "Protestant reformers gave Scripture the final authority. Trent answered that religious truth was preserved in both Scripture and traditions passed down from the apostles."
+- Update the corresponding source notes and remove glossary entries used only in the deleted passages.
+
+[page footer: "ChatGPT can make mistakes. Check important info." / Thinking effort: Pro / Subagents: 3 used]

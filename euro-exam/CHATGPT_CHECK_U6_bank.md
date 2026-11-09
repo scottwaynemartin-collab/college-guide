@@ -1,4 +1,4 @@
-# AP European History — Unit 6 practice bank (v2026-11-09b)
+# AP European History — Unit 6 practice bank (v2026-11-09c)
 
 Unit 6: Industrialization and Its Effects, c. 1815–1914 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 6.1 Contextualizing Industrialization and Its Origins and Effects (LO A)
@@ -33,11 +33,11 @@ Each source shows its attribution and translation line as students see them, plu
 - (A) England led in manufacturing because of its resources, its transport, and its secure laws.
 - (B) England led in manufacturing because its government owned the mines, canals, and mills.
 - (C) England led in manufacturing because its guilds trained more skilled workers than other countries.
-- (D) England led in manufacturing because it was the first country in the world to make cotton cloth.
+- (D) England led in manufacturing because its growing population created a larger market for cotton cloth.
 KEY: A. Explanation: Baines names three kinds of advantages. Some came from nature: water power, coal, and iron close together. Some were built: canals and new railways. Some came from government: "just laws," secure property, and safe money for business. Together, he says, they explain England's lead.
   - why not B: Baines says the canals were built "by individual enterprise, not by national funds." British mines and mills were private businesses too.
   - why not C: Guilds had lost most of their power in England by the 1700s. Baines credits water, coal, iron, canals, railways, and secure property instead.
-  - why not D: Cotton cloth had been made for centuries in India and other lands before it was made in England. Baines credits England's resources, transport, and laws for its lead.
+  - why not D: A growing population did help British industry. But Baines does not give it as a reason here. He credits England's resources, transport, and laws for its lead.
   - hint: Baines sorts England's advantages into a few kinds. What are they?
 
 **E6-P02** [Topic 6.1 · LO A · Skill 5.B · Comparison · medium]  Baines notes that England's canals were built "by individual enterprise, not by national funds." In contrast, industrialization in many continental European states after 1815 was more often
@@ -54,12 +54,12 @@ KEY: A. Explanation: In Britain, private businessmen did most of the work of ind
 **E6-P03** [Topic 6.2 · LO B · Skill 3.D · medium]  Baines's claim about England's "political and moral advantages" is best supported by which of the following?
 - (A) Britain's kings ruled without Parliament for most of the 1700s, which kept taxes low for manufacturers.
 - (B) Britain's Parliament, which included merchants and manufacturers, passed laws protecting property.
-- (C) Britain's Parliament took over the cotton mills and ran them for the nation.
-- (D) Britain's government ended private ownership of land so that factories could be built anywhere.
+- (C) Britain's Reform Act of 1832 gave the vote to most adult men, including factory workers.
+- (D) Britain's Parliament passed the Corn Laws to keep bread cheap for factory workers.
 KEY: B. Explanation: Baines says that in England "personal liberty and property have been secure" and "capital has accumulated in safety." Britain's Parliament included men who made money from trade and industry. It passed laws that protected property and helped trade grow.
   - why not A: Parliament met every year after 1689. Britain's kings did not rule without it.
-  - why not C: Britain's mills were private businesses. Parliament did not take over or run industries.
-  - why not D: Land in Britain stayed in private hands, much of it owned by great landlords.
+  - why not C: The Reform Act of 1832 gave the vote mainly to middle-class men. Most working men still could not vote, as the Chartists complained a few years later.
+  - why not D: The Corn Laws taxed grain brought in from abroad. They kept bread prices high and helped landowners, and manufacturers such as Richard Cobden fought to repeal them.
   - hint: Baines praises "just laws." Which choice describes British government accurately?
 
 
@@ -98,7 +98,7 @@ KEY: B. Explanation: Cobden and the Anti-Corn Law League believed free trade mad
 - (C) The Anglo-French free-trade treaty of 1860
 - (D) The German Empire's protective tariff law of 1879
 KEY: D. Explanation: List's book helped convince Germans that new industries needed protection. In 1879, during a long economic slump, Bismarck's German Empire put tariffs on imported factory goods and grain.
-  - why not A: The repeal of the Corn Laws ended taxes on imported grain. It was a step toward free trade, the policy List opposed.
+  - why not A: Repealing the Corn Laws moved Britain toward free trade in grain. List wanted something different: tariffs that protect a nation's new industries until they can compete.
   - why not B: Ending the Navigation Acts let foreign ships carry British trade. It was another step toward free trade.
   - why not C: The Cobden-Chevalier Treaty of 1860 cut tariffs between Britain and France. It moved away from protection, not toward it.
   - hint: Three of these choices lowered trade barriers. Which one raised them?
@@ -134,23 +134,24 @@ KEY: A. Explanation: Williams dedicated his book to British factory owners and m
   - why not D: Williams says the opposite. He writes, "The industrial glory of England is departing." He adds that Germany has "given us a sounder beating in Chemicals."
   - hint: Who was the book written for, and what does Williams want them to notice?
 
-**E6-P09** [Topic 6.10 · LO K · Skill 3.D · Causation · hard]  Williams's claim that "the German Chemist of the early Seventies went far to do the same for the industrial State" is best supported by which of the following?
-- (A) Britain's invention of the Bessemer process for steel
-- (B) Belgium's early lead in coal mining and railways
-- (C) German firms' world lead in making synthetic dyes and drugs
-- (D) The Krupp family's steel and arms works at Essen
-KEY: C. Explanation: German companies such as BASF, Bayer, and Hoechst hired chemists trained at universities. These chemists invented new man-made dyes and drugs. By 1900 Germany made most of the world's synthetic dyes.
-  - why not A: Henry Bessemer, an Englishman, invented his steel process in the 1850s. It is evidence about British steel, not German chemistry.
-  - why not B: Belgium was the first country on the continent to build industry. But its early lead was in coal, iron, and railways, not chemicals.
-  - why not D: Krupp's works were a great German success, but in steel and weapons, not chemicals. They do not support a claim about chemists.
-  - hint: The claim is about chemists. Which choice is about the chemical industry in Germany?
+**E6-P09** [Topic 6.10 · LO K · Skill 3.D · Causation · medium]  Which of the following would best support Williams's explanation of Germany's industrial success?
+- (A) Germany's rapidly growing population created a large home market for goods from its factories.
+- (B) The Zollverein removed customs barriers between many of the German states.
+- (C) German firms hired university-trained chemists to invent synthetic dyes and medicines.
+- (D) German governments placed large orders with German firms for steel rails and weapons.
+KEY: C. Explanation: Williams credits "the German Chemist" and the state's "Scientific and Technical Education." Companies such as BASF, Bayer, and Hoechst hired chemists trained at universities. These chemists invented new man-made dyes and drugs. By 1900 Germany made most of the world's synthetic dyes.
+  - why not A: A larger market could help industry grow. But it does not show the role of science and technical training that Williams stresses.
+  - why not B: The Zollverein helped trade among the German states. But it does not show the benefits of the education Williams praises.
+  - why not D: Government orders helped heavy industry. But Williams praises the German state for its schools, not for its orders.
+  - hint: What does Williams connect to Germany's success in chemicals?
 
 
 ### Source P4 (questions E6-P10–E6-P12)
-> The Census of Ireland, in 1841, gave a population of 8,175,125. At the usual rate of increase, there must have been, in 1846, when the Famine commenced, at least eight and a half millions; at the same rate of increase, there ought to have been, in 1851 (according to the estimate of the Census Commissioners), 9,018,799. But in that year, after five seasons of artificial famine, there were found alive only 6,552,385—a deficit of about two millions and a half. …
-> Further, I have called it an artificial famine: that is to say, it was a famine which desolated a rich and fertile island, that produced every year abundance and superabundance to sustain all her people and many more. The English,* indeed, call that famine a "dispensation of Providence;" and ascribe it entirely to the blight of the potatoes. But potatoes failed in like manner all over Europe; yet there was no famine save in Ireland. The British account of the matter, then, is first, a fraud—second, a blasphemy. The Almighty, indeed, sent the potato blight, but the English created the famine. …
+> The Census of Ireland, in 1841, gave a population of 8,175,125. At the usual rate of increase, there must have been, in 1846, when the Famine commenced,* at least eight and a half millions; at the same rate of increase, there ought to have been, in 1851 (according to the estimate of the Census Commissioners), 9,018,799. But in that year, after five seasons of artificial famine, there were found alive only 6,552,385—a deficit of about two millions and a half. …
+> Further, I have called it an artificial famine: that is to say, it was a famine which desolated a rich and fertile island, that produced every year abundance and superabundance to sustain all her people and many more. The English,** indeed, call that famine a "dispensation of Providence;" and ascribe it entirely to the blight of the potatoes. But potatoes failed in like manner all over Europe; yet there was no famine save in Ireland. The British account of the matter, then, is first, a fraud—second, a blasphemy. The Almighty, indeed, sent the potato blight, but the English created the famine. …
 > … the benevolent contributions of Americans and other foreigners were turned aside from their destined objects—not, let us say, in order that none should be saved alive, but that no interference should be made with the principles of political economy.
-> * Ireland was part of the United Kingdom of Great Britain and Ireland from 1801 and was governed from London.
+> * Potato blight first struck Ireland in the fall of 1845. The crop failure of 1846 was far worse.
+> ** Ireland was part of the United Kingdom of Great Britain and Ireland from 1801 and was governed from London.
 — John Mitchel, Irish nationalist journalist who was convicted in 1848 of urging rebellion against British rule and sent to a British penal colony, The Last Conquest of Ireland (Perhaps), written in exile in the United States in the late 1850s and published as a book in Dublin in 1861 (Text from John Mitchel, The Crusade of the Period: and Last Conquest of Ireland (Perhaps) (New York: Lynch, Cole & Meehan, 1873), pp. 323–324; adapted)
 > Words to know: census = an official count of the population; deficit = shortfall; desolated = ruined and emptied; dispensation of Providence = an event sent by God; ascribe = give as the cause; save = except; blasphemy = an insult to God; benevolent contributions = gifts of charity; political economy = the study of how wealth is produced and traded; economics
 
@@ -162,7 +163,7 @@ KEY: C. Explanation: German companies such as BASF, Bayer, and Hoechst hired che
 KEY: D. Explanation: Many British officials believed in laissez-faire, the idea that government should stay out of markets. Help for the hungry was slow and limited, and food was still shipped out of Ireland. Mitchel blames "the principles of political economy" for the deaths.
   - why not A: Britain did not ban emigration. More than a million people left Ireland during and after the famine.
   - why not B: Britain was at peace with France in the 1840s. The famine was caused by potato blight and made worse by policy, not by war.
-  - why not C: Ireland had no parliament of its own after the Act of Union of 1801. It was governed from London, as the footnote says.
+  - why not C: Ireland had no parliament of its own after the Act of Union of 1801. It was governed from London, as the second footnote says.
   - hint: Mitchel blames "the principles of political economy." What economic idea guided the British government in the 1840s?
 
 **E6-P11** [Topic 6.2 · LO B · Skill 3.D · hard]  A historian would most likely challenge which of the following claims in the passage?
@@ -171,20 +172,20 @@ KEY: D. Explanation: Many British officials believed in laissez-faire, the idea 
 - (C) That Americans and other foreigners sent aid to Ireland during the famine
 - (D) That potatoes failed in other parts of Europe without causing famine there
 KEY: D. Explanation: Potato blight also struck the Scottish Highlands, Belgium, the Netherlands, and parts of the German states in the 1840s. This decade is known as the Hungry Forties. People went hungry and death rates rose there too. But no other place suffered as Ireland did.
-  - why not A: The census figures Mitchel cites are real: about 8.2 million people in 1841 and about 6.6 million in 1851.
+  - why not A: The census figures Mitchel cites are real: about 8.2 million people in 1841 and about 6.6 million in 1851. That is a drop of about 1.6 million. His larger "deficit" compares the 1851 count with the number the census officials had expected.
   - why not B: Mitchel himself says "The Almighty, indeed, sent the potato blight." Historians agree that blight destroyed the crops.
   - why not C: People in the United States and other countries did send money and food to Ireland, as Mitchel says.
   - hint: Three choices are facts most historians accept. Which claim goes too far?
 
-**E6-P12** [Topic 6.2 · LO B · Skill 5.B · Causation · medium]  The population change Mitchel describes most directly contributed to which of the following?
+**E6-P12** [Topic 6.2 · LO B · Skill 5.B · Causation · medium]  The famine Mitchel describes most directly contributed to which of the following in the second half of the 1800s?
 - (A) The rapid growth of new factory towns in the west of Ireland
 - (B) Mass emigration from Ireland to Britain and North America
-- (C) The end of British rule over Ireland in the decade after 1851
-- (D) Britain's repeal of the Corn Laws in 1846
+- (C) The creation of a separate parliament for Ireland in Dublin
+- (D) A return to rapid population growth as Irish couples married younger
 KEY: B. Explanation: About a million people died during the famine years, and more than a million left Ireland. People kept leaving for decades, so Ireland's population kept falling. Irish communities grew in Liverpool, Glasgow, New York, Boston, and other cities.
   - why not A: Western Ireland stayed rural and poor. Ireland's main industrial area was around Belfast in the northeast.
-  - why not C: Ireland stayed part of the United Kingdom until most of it became the Irish Free State in 1922.
-  - why not D: The famine helped convince Parliament to end the Corn Laws in 1846. But that came before most of the population loss Mitchel counts.
+  - why not C: Bills to give Ireland its own parliament, called Home Rule bills, failed in 1886 and 1893. Most of Ireland won its own parliament only in 1922, as the Irish Free State.
+  - why not D: Ireland's population kept falling for decades after the famine. Many people married later in life, and many did not marry at all.
   - hint: Where did many of the missing millions go?
 
 
@@ -212,37 +213,37 @@ KEY: D. Explanation: The Hammonds judge the new towns by how people lived. They 
   - why not C: This reverses the sources. Clapham says that after 1820–1821, what wages could buy was "definitely greater." He calls the idea that "everything was getting worse" a "legend."
   - hint: One source judges by how life felt and looked, the other by numbers. Which is which?
 
-**E6-P14** [Topic 6.4 · LO E · Skill 2.C · hard]  Clapham would most likely criticize the approach of the Hammonds in Source 1 because it
+**E6-P14** [Topic 6.4 · LO E · Skill 3.C · Comparison · hard]  Clapham would most likely criticize the approach of the Hammonds in Source 1 because it
 - (A) relies on descriptions rather than on wage and price figures
 - (B) depends too heavily on government statistics about wages and hours
 - (C) ignores the role of factory owners in building houses in the new towns
-- (D) focuses on the 1840s instead of on the years before the Reform Act of 1832
+- (D) blames the workers themselves for the crowded, unhealthy towns
 KEY: A. Explanation: Clapham complains that "the work of statisticians on wages and prices" is "constantly ignored by social historians." He says they repeat a "tradition" that life got worse. The Hammonds' passage makes its case with vivid description, not numbers.
   - why not B: The Hammonds' passage gives no statistics at all. Clapham's complaint is that social historians ignore the numbers.
   - why not C: The Hammonds do mention employers. Employers "supplied" houses and shops and stood behind the "jerry-builder."
-  - why not D: The Hammonds' book covers 1760–1832, as its title shows. Clapham's own book covers 1820–1850.
+  - why not D: The Hammonds blame "the avarice of the jerry-builder" and of "the capitalist," not the workers.
   - hint: What kind of evidence does Clapham say social historians leave out?
 
-**E6-P15** [Topic 6.10 · LO K · Skill 3.D · Causation · medium]  Which of the following pieces of evidence would best support Clapham's argument?
-- (A) Reports of crowded cellars and frequent fever in Manchester in the 1840s
+**E6-P15** [Topic 6.4 · LO E · Skill 3.D · medium]  Which of the following pieces of evidence would best support Clapham's argument?
+- (A) Reports of crowded cellars and frequent outbreaks of fever in Manchester in the 1840s
 - (B) Testimony that young children worked long hours in coal mines in 1842
-- (C) Records showing that factory-made cotton cloth became much cheaper after 1820
+- (C) Records showing that prices of food and clothing fell faster than wages after 1820
 - (D) Accounts of hunger in the countryside during the "Hungry '40s"
-KEY: C. Explanation: If machines made cloth, pottery, and other goods cheaper while wages held steady or rose, workers could buy more. That is what Clapham means by the greater "purchasing power of wages."
+KEY: C. Explanation: What workers can buy depends on both their pay and the prices of goods. If prices fell faster than wages, a week's pay bought more. That is what Clapham means by the greater "purchasing power of wages."
   - why not A: Reports of crowded, unhealthy housing fit the Hammonds' picture of the new towns. They do not support Clapham's claim about wages.
   - why not B: Evidence of child labor in the mines shows hard working conditions. It does not show what wages could buy.
-  - why not D: Hunger in the 1840s would weaken, not strengthen, a claim that workers could buy more.
-  - hint: Clapham's argument is about what wages could buy. Which choice is about prices?
+  - why not D: Hunger in the 1840s shows hard times for some people. But Clapham writes about wages "in general," and these accounts do not measure what wages could buy.
+  - hint: What two kinds of numbers would show how much a week's pay could buy?
 
 
 ### Source P6 (questions E6-P16–E6-P18)
 **Source 1**
 > To men belongs the potent—(I had almost said the omnipotent) consideration of worldly aggrandisement; and it is constantly misleading their steps, closing their ears against the voice of conscience … This may be an extreme, but it is scarcely an exaggerated picture of the engagements of men of business in the present day. …
-> How often has man returned to his home with a mind confused by the many voices, which in the mart, the exchange, or the public assembly, have addressed themselves to his inborn selfishness or his worldly pride; … he has thought of the humble monitress who sat alone, guarding the fireside comforts of his distant home; and the remembrance of her character, clothed in moral beauty, has scattered the clouds before his mental vision, and sent him back to that beloved home, a wiser and a better man. …
+> … when the snares of the world were around him, … he has thought of the humble monitress who sat alone, guarding the fireside comforts of his distant home; and the remembrance of her character, clothed in moral beauty, has scattered the clouds before his mental vision, and sent him back to that beloved home, a wiser and a better man. …
 > The sphere of their* direct personal influence is central, and consequently small; but its extreme operations are as widely extended as the range of human feeling.
 > * "Their" in the last paragraph means the women of England.
 — Sarah Stickney Ellis, English writer of advice books, The Women of England: Their Social Duties and Domestic Habits, 1839 (Text from Mrs. Ellis, The Women of England: Their Social Duties and Domestic Habits (New York: D. Appleton, 1839), pp. 45–47; adapted)
-> Words to know: potent = powerful; omnipotent = all-powerful; worldly aggrandisement = getting more wealth and power; engagements = activities; the mart, the exchange = the market and the stock exchange; monitress = a woman who gives warnings and guidance; sphere = area of life
+> Words to know: potent = powerful; omnipotent = all-powerful; worldly aggrandisement = getting more wealth and power; engagements = activities; snares = traps; monitress = a woman who gives warnings and guidance; sphere = area of life
 **Source 2**
 > A single woman has the same rights to property, to protection from the law, and has to pay the same taxes to the State, as a man. Yet a woman of the age of twenty-one, having the requisite property-qualifications, cannot vote in elections for members of Parliament. …
 > A man and wife are one person in law; the wife loses all her rights as a single woman, and her existence is entirely absorbed in that of her husband. … Money earned by a married woman belongs absolutely to her husband … The legal custody of children belongs to the father. …
@@ -257,7 +258,7 @@ KEY: C. Explanation: If machines made cloth, pottery, and other goods cheaper wh
 - (D) The Catholic Church's campaign to limit women's work outside the home
 KEY: C. Explanation: Work moved out of homes into offices and factories. So middle-class families came to see the home as a separate, moral "sphere" run by women. Ellis says men face a "worldly" struggle in business. They come home "a wiser and a better man" because of their wives.
   - why not A: Most factory women were working-class girls and young women. Middle-class wives were expected to stay at home.
-  - why not B: The Married Women's Property Acts came in 1870 and 1882, decades after Ellis wrote. Source 2 shows that married women had no such control in the 1850s.
+  - why not B: The Married Women's Property Acts came in 1870 and 1882, decades after Ellis wrote. Source 2 shows that in the 1850s a wife's earnings still belonged to her husband.
   - why not D: Ellis was an English Protestant writer. Her ideas came from middle-class English culture, not from Catholic teaching.
   - hint: Where does Ellis place men's work, and where does she place women's influence?
 
@@ -266,22 +267,22 @@ KEY: C. Explanation: Work moved out of homes into offices and factories. So midd
 - (B) Ellis wants women to vote for members of Parliament, while Smith thinks women should stay out of politics.
 - (C) Ellis describes the lives of working-class women, while Smith writes about the wives of rich landowners.
 - (D) Ellis praises women's influence in the home, while Smith attacks laws that strip married women of their rights.
-KEY: D. Explanation: Ellis accepts women's limited "sphere" and praises their moral power at home. Smith shows how the law of coverture made a wife part of her husband. It gave him her money and her children, and it kept single women from voting.
+KEY: D. Explanation: Ellis accepts women's limited "sphere" and praises their moral power at home. Smith attacks the laws of her time. Under the law of coverture, a wife became part of her husband in law, and her earnings and the custody of her children belonged to him. Separate voting laws kept all women, even single women with property, from voting for Parliament.
   - why not A: This reverses the sources. Smith is the one who wants married women to keep "their own earnings."
   - why not B: Ellis does not mention voting. Smith points out that a woman "cannot vote" even if she has property, which she presents as unfair.
   - why not C: Ellis writes about the wives of "men of business." Smith mentions "women of the labouring classes" whose earnings are taken.
   - hint: Does each author accept or challenge women's position in her time?
 
-**E6-P18** [Topic 6.8 · LO I · Skill 5.B · Causation · medium]  The changes Smith calls for in Source 2 were most directly achieved by which of the following?
+**E6-P18** [Topic 6.8 · LO I · Skill 5.B · Causation · medium]  The reform Smith calls for in the last paragraph of Source 2 was most directly addressed by which of the following?
 - (A) The Married Women's Property Acts
 - (B) The Ten Hours Act
 - (C) The Mines and Collieries Act
 - (D) The Second Reform Act
-KEY: A. Explanation: Campaigns that Barbara Leigh Smith helped start led to the Married Women's Property Acts. The act of 1870 let wives keep their own earnings, and the act of 1882 let them own property in their own names.
+KEY: A. Explanation: In the last paragraph, Smith wants wives to be able to keep "their own earnings." Campaigns that Barbara Leigh Smith helped start led to the Married Women's Property Acts. The act of 1870 let wives keep their own earnings, and the act of 1882 let them own property in their own names.
   - why not B: The Ten Hours Act of 1847 limited the working day of women and young people in textile mills. It did not change property law.
   - why not C: The Mines Act of 1842 barred women and girls from working underground. It did not let wives keep their earnings.
   - why not D: The Second Reform Act of 1867 gave the vote to many working men. Women still could not vote in parliamentary elections.
-  - hint: Smith complains that "money earned by a married woman belongs absolutely to her husband." Which law dealt with that?
+  - hint: What does Smith want working wives to be able to keep?
 
 
 ### Source P7 (questions E6-P19–E6-P21)
@@ -303,7 +304,7 @@ KEY: A. Explanation: Ashley is speaking to landowners and other men of property 
   - why not D: Ashley was a Conservative who sought laws to protect workers, not votes for them. His goal here is a law about mines.
   - hint: Who was Ashley speaking to, and what might worry them?
 
-**E6-P20** [Topic 6.4 · LO E · Skill 5.A · easy]  The testimony of Mr. Wood in the last paragraph most directly reflects which of the following beliefs common among reformers?
+**E6-P20** [Topic 6.4 · LO E · Skill 3.A · easy]  The testimony of Mr. Wood in the last paragraph most directly reflects which of the following beliefs common among reformers?
 - (A) Women should have the same right as men to work underground.
 - (B) Children learned useful skills by working beside their parents in the mines.
 - (C) Women's proper role was to keep a comfortable home for their families.
@@ -337,7 +338,7 @@ KEY: D. Explanation: The Mines Act of 1842 banned all women and girls, and boys 
 — Joseph de Maistre, Catholic writer and diplomat for the king of Sardinia, Essay on the Generative Principle of Political Constitutions, written in 1809 and published in 1814 (English translation, Essay on the Generative Principle of Political Constitutions (Boston: Little and Brown, 1847), preface, pp. xi–xvii; adapted)
 > Words to know: deliberation = careful discussion and planning; pre-existing = already there before; concessions = things granted or given up; sovereigns = kings and other rulers; constituted = set up, founded; folly = foolishness
 
-**E6-P22** [Topic 6.5 · LO F · Skill 1.B · easy]  The ideas in the passage most directly express which of the following ideologies?
+**E6-P22** [Topic 6.5 · LO F · Skill 1.A · easy]  The ideas in the passage most directly express which of the following ideologies?
 - (A) Liberalism
 - (B) Utopian socialism
 - (C) Anarchism
@@ -383,15 +384,15 @@ KEY: B. Explanation: Metternich was Austria's foreign minister from 1809 and its
 > Words to know: absolute power = rule by a king with no limits on his power; usurper = one who takes what is not rightfully his; repose = peace and quiet; the chambers = the two houses of France's legislature; lieutenant-general of the kingdom = acting head of the government; jury for press offences = trial by jury for people accused of breaking the press laws
 
 **E6-P25** [Topic 6.6 · LO G · Skill 4.B · medium]  The journalists in Source 1 were most directly protesting against which of the following?
-- (A) The German Confederation's press law
-- (B) Britain's Six Acts against radicals
-- (C) The Troppau Protocol
-- (D) Charles X's July Ordinances
-KEY: D. Explanation: On July 25, 1830, King Charles X issued the July Ordinances. They stopped freedom of the press, broke up the newly elected Chamber of Deputies, and changed the election rules. Paris journalists refused to obey, and three days of street fighting followed.
-  - why not A: The German Confederation's press law came from the Carlsbad Decrees of 1819. It applied in the German states, not in France.
-  - why not B: The Six Acts of 1819 limited meetings and the press in Britain, not in France.
-  - why not C: The Troppau Protocol of 1820 was an agreement among Austria, Prussia, and Russia to act against revolutions. It did not set French press rules.
-  - hint: The protest is dated July 1830, in Paris. Which measure was French?
+- (A) Louis XVIII's Constitutional Charter of 1814
+- (B) Napoleon I's censorship of the French press
+- (C) Louis-Philippe's September Laws on the press
+- (D) Charles X's decrees suspending press freedom
+KEY: D. Explanation: On July 25, 1830, King Charles X issued the July Ordinances. They suspended freedom of the press, broke up the newly elected Chamber of Deputies, and changed the election rules. Paris journalists refused to obey, and three days of street fighting followed.
+  - why not A: The Charter of 1814 let the French publish their opinions, within the law. The journalists were not protesting against it. They say the king's new orders broke the law.
+  - why not B: Napoleon I censored newspapers while he ruled France. But his rule ended in 1815, fifteen years before this protest.
+  - why not C: Louis-Philippe became king only after the July Revolution. His September Laws of 1835 limited the press five years after this protest.
+  - hint: Which ruler governed France in July 1830, and what had he just ordered?
 
 **E6-P26** [Topic 6.6 · LO G · Skill 5.B · Continuity and Change · medium]  The government that grew out of the events described in Source 2 is best described as
 - (A) a democratic republic with universal male suffrage
@@ -399,7 +400,7 @@ KEY: D. Explanation: On July 25, 1830, King Charles X issued the July Ordinances
 - (C) an absolute monarchy restored with the help of foreign armies
 - (D) an empire ruled by Napoleon's nephew, Louis Napoleon
 KEY: B. Explanation: The deputies made the Duke of Orleans king, as Louis-Philippe. His July Monarchy had a revised charter and a freer press. But only men who paid high taxes could vote, and they were a small share of the country's men.
-  - why not A: France did not become a republic where all men could vote until the revolution of 1848.
+  - why not A: In 1830 the deputies chose a new king, not a republic. France's Second Republic, which let all adult men vote, began in 1848.
   - why not C: Foreign armies helped restore the Bourbon kings in 1814–1815. In 1830 Parisians overthrew the Bourbon king.
   - why not D: Napoleon's nephew, Louis Napoleon, did not make himself emperor until 1852.
   - hint: The deputies chose a duke to lead France. Who could vote under the king he became?
@@ -429,7 +430,7 @@ KEY: A. Explanation: News of the July Revolution set off a revolt in Brussels in
 - (B) The emancipation of the serfs, which Tsar Alexander II had just announced to the empire
 - (C) Russia's victories over Japan, which had strengthened the tsar's government at home
 - (D) The Bolshevik takeover of the Russian government in the capital, Petrograd
-KEY: A. Explanation: In the 1890s, finance minister Sergei Witte pushed Russian industry ahead with state railways, tariffs, and foreign loans. Factories grew in cities like St. Petersburg. But workers could not legally strike or form unions, and they had no say in government.
+KEY: A. Explanation: In the 1890s, finance minister Sergei Witte pushed Russian industry ahead with state railways, tariffs, and foreign loans. Factories grew in cities like St. Petersburg. But workers could not legally strike or form independent trade unions, and they had no say in government. The government allowed only a few workers' groups that it watched closely, such as Gapon's.
   - why not B: Alexander II freed the serfs in 1861, more than forty years before this petition.
   - why not C: Russia was losing its war with Japan (1904–1905). The defeats weakened the tsar's government.
   - why not D: The Bolsheviks took power in 1917, twelve years later.
@@ -509,7 +510,7 @@ KEY: C. Explanation: The Ten Hours Act of 1847 limited women and young people in
 > Words to know: withhold = keep back; reckoned = counted; disposal of affairs = making of decisions; implicitly = without question; pariahs = outcasts; default = failure; wholly inadmissible = completely unacceptable; suffrage = the right to vote; graduated suffrage = a system in which some voters, such as the well educated, get extra votes
 
 **E6-P34** [Topic 6.7 · LO H · Skill 3.A · medium]  Mill's argument is best described as support for
-- (A) a broad vote for both sexes, limited to people who can read, write, and count
+- (A) a broad vote for both sexes, limited to people who can read, write, and do arithmetic
 - (B) universal male suffrage without any test of literacy or property
 - (C) a vote limited to men who own land, since landowners have the most at stake
 - (D) replacing elected assemblies with government by a council of trained scientific experts
@@ -550,7 +551,7 @@ KEY: B. Explanation: Mill argued that sex is as "irrelevant to political rights"
 — Mikhail Bakunin, Russian revolutionary who lived in exile in western Europe, God and the State, written in 1871 and published after his death in 1882 (English translation by Benjamin R. Tucker, God and the State, 8th edition (New York: Benj. R. Tucker, 1895), pp. 19–20; adapted)
 > Words to know: depraved = morally corrupted; constituent and legislative assemblies = elected bodies that write constitutions and make laws; universal suffrage = the right of all adults to vote; oligarchy = rule by a small group; savant = scholar or expert; subordination = following someone else's lead
 
-**E6-P37** [Topic 6.7 · LO H · Skill 1.B · easy]  The ideas in the passage are most closely associated with which of the following?
+**E6-P37** [Topic 6.7 · LO H · Skill 1.A · easy]  The ideas in the passage are most closely associated with which of the following?
 - (A) Marxian socialism
 - (B) Liberalism
 - (C) Anarchism
@@ -619,7 +620,7 @@ KEY: A. Explanation: British women had sent petitions for the vote since the 186
 - (B) was formed by free-trade liberals who wanted to limit the role of government
 - (C) refused to take part in elections and called for a general strike instead
 - (D) was formed by trade unions and socialist groups to represent workers
-KEY: D. Explanation: Trade unions and socialist groups formed the Labour Representation Committee in 1900. It took the name Labour Party in 1906. It became one of the large parties that spoke for workers.
+KEY: D. Explanation: Trade unions and socialist groups formed the Labour Representation Committee in 1900. One of those groups was the Independent Labour Party, which Pankhurst belonged to. The committee took the name Labour Party in 1906 and became one of the large parties that spoke for workers.
   - why not A: Landowners who wanted tariffs on grain were mostly Conservatives. Labour grew out of the workers' movement.
   - why not B: Free-trade liberals made up the Liberal Party. Labour wanted laws to help workers, not a smaller government.
   - why not C: Labour ran candidates in elections. Pankhurst says it had "returned Mr. Keir Hardie to Parliament."
@@ -687,23 +688,23 @@ KEY: B. Explanation: Under Napoleon III, Baron Georges Haussmann tore down crowd
 
 **E6-P47** [Topic 6.9 · LO J · Skill 5.B · Causation · medium]  Wide, straight streets like the ones in the painting were built partly to
 - (A) improve traffic and air and make barricades harder to build
-- (B) give each neighborhood its own walls and gates for defense against invaders
+- (B) give working-class families cheap new housing in the center of Paris
 - (C) make room for large factories in the center of the city
-- (D) bring back the narrow streets of the Middle Ages
+- (D) carry new railway lines through the center of the city
 KEY: A. Explanation: The new boulevards let traffic, light, and fresh air into the city. They also let troops move quickly. And they made it harder for rebels to build barricades, as Parisians had done in 1830 and 1848.
-  - why not B: Paris was protected by forts around the city. The new boulevards opened neighborhoods up rather than walling them off.
-  - why not C: Haussmann's projects moved factories and poorer workers toward the edges of the city.
-  - why not D: Haussmann tore down many narrow medieval streets to build the boulevards.
+  - why not B: The new apartment buildings had high rents. Many poorer families were pushed out toward the edges of Paris.
+  - why not C: Haussmann's projects moved factories and workshops out toward the edges of the city.
+  - why not D: Paris's railway lines ended at large stations around the edge of the old center. Trains did not run along the new boulevards.
   - hint: Think about what had happened in Paris streets in 1830 and 1848.
 
-**E6-P48** [Topic 6.4 · LO E · Skill 1.B · easy]  The couple in the foreground most likely belonged to which of the following groups?
+**E6-P48** [Topic 6.4 · LO E · Skill 1.A · easy]  The couple in the foreground most likely belonged to which of the following groups?
 - (A) Factory workers from the suburbs
 - (B) The urban bourgeoisie
 - (C) Skilled artisans in workshops
 - (D) Peasant migrants from the provinces
 KEY: B. Explanation: The man's top hat and the woman's fur-trimmed dress and pearl earrings show that the couple is well off. They belong to the middle class, or bourgeoisie. Many such families lived in the new apartment buildings along Haussmann's boulevards.
-  - why not A: Factory workers could not afford top hats, fur trim, and pearl earrings. Most lived in poorer areas at the edge of Paris.
-  - why not C: Artisans worked with their hands in workshops and dressed more plainly than the couple shown.
+  - why not A: The top hat, fur trim, and pearl earrings point to a well-off family, not factory workers. Most factory workers lived in poorer areas at the edge of Paris.
+  - why not C: Some skilled artisans owned good clothes. But the couple's fine clothes, jewelry, and stroll through a new district of Paris point to the well-off bourgeoisie.
   - why not D: Peasants who moved to Paris usually found low-paid jobs and lived in crowded housing.
   - hint: Look at the clothing and jewelry. Who could afford them?
 
@@ -712,7 +713,7 @@ KEY: B. Explanation: The man's top hat and the woman's fur-trimmed dress and pea
 ### Source X1 (questions E6-E01–E6-E03)
 > We now enter the coal and iron country; everywhere are marks of manufacturing life; the cinder heaps form mountains; the earth is seamed with excavations; tall furnaces belch forth flames. We are nearing Manchester. In the bronzed sky at sunset a strangely-shaped cloud hangs over the plain; under this motionless covering are hundreds of bristling chimneys, as tall as obelisks; a huge and black mass is next distinguishable, then endless rows of buildings, and we enter the Babel of bricks.
 > Walked through the city; seen close at hand, it is still more dismal. The air and the soil appear charged with fog and soot. Manufactories with their blackened bricks, their naked fronts, their windows destitute of shutters, and resembling huge and cheap penitentiaries, succeed each other in rows. … One of these buildings is a rectangle of six stories, in each of which are forty windows; it is there that, lit up by gas, amid the deafening noise of looms, thousands of workpeople, cabined, classified, immovable, mechanically drive their machines every day from morning to night; can any form of existence be more opposed to, and at variance with, the natural instincts of man? About six o'clock a bustling, noisy crowd pours from the mills into the streets; men, women, and children flock along in the open air; their clothes are filthy; many of the children are bare-footed, the faces of all are pinched and gloomy; several halt at the gin-palaces; the others scatter and hasten towards their hovels. …
-> They are powerful, that is their compensation. The life of one of the heads of these manufacturing or commercial houses may be likened to that of a minor prince. … they have to control and satisfy a host of workpeople; they have the power to become the benefactors of thousands of men; they are the generals and governors of human industry. … They despatch agents to examine particular districts of the globe; they discover outlets for commerce and markets for purchases in Japan, China, Australia, Egypt, and New Zealand …
+> … The life of one of the heads of these manufacturing or commercial houses may be likened to that of a minor prince. … they have to control and satisfy a host of workpeople; they have the power to become the benefactors of thousands of men; they are the generals and governors of human industry. … They despatch agents to examine particular districts of the globe; they discover outlets for commerce and markets for purchases in Japan, China, Australia, Egypt, and New Zealand …
 — Hippolyte Taine, French historian and critic, Notes on England, based on notes from visits he made to England over about ten years, published in 1872 (English translation by W. F. Rae, Notes on England (New York: Holt & Williams, 1872), pp. 273–276; adapted)
 > Words to know: cinder heaps = piles of ash and waste from furnaces; seamed with excavations = cut up by mines and pits; obelisks = tall, narrow stone towers; Babel = a huge, noisy, crowded place (from the Bible story of the Tower of Babel); manufactories = factories; destitute of = without; penitentiaries = prisons; cabined = shut in; gin-palaces = large, brightly lit bars that sold gin; hovels = small, dirty, run-down homes; commercial houses = trading companies; despatch = send
 
@@ -732,9 +733,9 @@ KEY: C. Explanation: Manchester grew up around cotton mills run by steam engines
 - (B) The growth of an industrial working class and a wealthy owning class
 - (C) The replacement of privately owned mills by state-run factories in Britain
 - (D) The end of child labor in Britain's textile mills by the 1860s
-KEY: B. Explanation: Industry split society into two new classes. The working class, or proletariat, ran the machines. The middle class, or bourgeoisie, owned the factories and trading firms. Taine contrasts the workers' "pinched and gloomy" faces with the owners' princely power.
+KEY: B. Explanation: Industry made the working class much larger. It also made factory owners and merchants richer and more powerful. Taine contrasts the workers' "pinched and gloomy" faces with the owners' princely power. Other groups, such as landowners, shopkeepers, and doctors and lawyers, still mattered too.
   - A: Incorrect. Taine calls the owners "the generals and governors of human industry." Factory owners grew richer and more powerful in this period, not weaker.
-  - B: Correct. Taine shows thousands of workers who live in "hovels" and owners who live like "a minor prince." Industry created these two classes.
+  - B: Correct. Taine contrasts workers who go home to "hovels" with business owners whose lives are like those of "a minor prince."
   - C: Incorrect. Britain's mills were privately owned, as the "heads of these manufacturing or commercial houses" show.
   - D: Incorrect. Taine sees "men, women, and children" leaving the mills. Laws limited children's hours, but child labor did not end.
 
@@ -777,15 +778,15 @@ KEY: A. Explanation: Cobden, a manufacturer, argued that the Corn Laws kept brea
 **E6-E05** [Topic 6.2 · LO B · Skill 4.B · medium]  The debate in the two sources is best understood in the context of which of the following?
 - (A) Manufacturers' growing power in Parliament after the 1832 Reform Act
 - (B) Napoleon's efforts to keep British goods out of continental Europe
-- (C) The rise of socialist parties that demanded public ownership of land
-- (D) The British government's decision to build and run the nation's railways
+- (C) The Chartist campaign for universal male suffrage in Britain
+- (D) Reformers' campaigns to keep women and young children out of the coal mines
 KEY: A. Explanation: By the 1840s, men of trade and industry had a voice in Parliament. They clashed with the landowning aristocracy. The repeal of the Corn Laws in 1846 showed how much power manufacturers had gained.
   - A: Correct. The Reform Act of 1832 gave seats to industrial towns. Manufacturers such as Cobden used their new voice to challenge the landowners who had long controlled Parliament.
   - B: Incorrect. Napoleon's Continental System ended when he was defeated in 1814–1815. That was decades before this debate.
-  - C: Incorrect. Mass socialist parties appeared in the 1870s and later. The debate in the 1840s was between free-trade liberals and protectionist landowners.
-  - D: Incorrect. Private companies built Britain's railways. The state did not build or run them.
+  - C: Incorrect. The Chartists wanted the vote for all men. But neither speaker talks about who should vote. They argue about taxes on grain brought in from abroad.
+  - D: Incorrect. Reformers won the Mines Act of 1842 to protect women and children. These sources debate the Corn Laws, not working conditions.
 
-**E6-E06** [Topic 6.7 · LO H · Skill 1.B · medium]  Cobden's argument in Source 1 most directly reflects which of the following ideologies?
+**E6-E06** [Topic 6.7 · LO H · Skill 1.A · medium]  Cobden's argument in Source 1 most directly reflects which of the following ideologies?
 - (A) Conservatism
 - (B) Utopian socialism
 - (C) Liberalism
@@ -816,14 +817,14 @@ Description: A large oil painting of the inside of an iron rolling mill. The hal
 > Words to know: rolling mill = a factory where hot iron or steel is pressed between heavy rollers to make rails, bars, or sheets; Upper Silesia = a coal-mining and iron-making region in the east of the Kingdom of Prussia
 
 **E6-E08** [Topic 6.3 · LO D · Skill 4.B · medium]  The painting is best understood in the context of which of the following?
-- (A) Prussia's withdrawal from the Zollverein, which cut its factories off from German markets
+- (A) Skilled craftworkers' efforts to keep production in small, hand-run workshops
 - (B) The Continental System's encouragement of factories in Napoleon's empire
-- (C) The emancipation of the serfs, which created a factory labor force in Russia
+- (C) Prussian landowners' efforts to sell more of their estates' grain in western Europe
 - (D) Prussia's rapid industrial growth, which helped it lead the unification of Germany
 KEY: D. Explanation: Industry in Prussia grew fast after 1850. The Zollverein, state money for railways, and rich coal fields in the Ruhr and Silesia all helped. This strength helped Prussia unite Germany, and industry in the new German Empire kept growing fast.
-  - A: Incorrect. Prussia founded and led the Zollverein and never left it. Austria was the great German state that stayed outside it.
+  - A: Incorrect. The painting shows a huge mill full of heavy machines and many workers. Factories like this were taking the place of small craft workshops.
   - B: Incorrect. The Continental System lasted from 1806 to 1814. Menzel painted this mill in the 1870s.
-  - C: Incorrect. Russia freed its serfs in 1861, but the painting shows an ironworks in Prussia, not Russia.
+  - C: Incorrect. Landowners in eastern Prussia had long sold grain abroad. But the painting shows an ironworks, not farming.
   - D: Correct. Prussia's coal, iron, and railways made it the strongest German state. Menzel painted a huge ironworks in Prussian Silesia just after Germany was united under Prussia in 1871.
 
 **E6-E09** [Topic 6.8 · LO I · Skill 5.A · Causation · medium]  Workers like those shown in the painting were most likely to join which of the following in the late 1800s?
@@ -850,18 +851,18 @@ KEY: B. Explanation: As factories grew, workers formed trade unions and mutual a
 | Italy | 13 | 270 | 1,120 | 3,830 | 5,340 | 7,830 |
 | Spain | none listed | 80 | 1,190 | 3,200 | 4,550 | 5,930 |
 | Russia | 16 | 310 | 990 | 7,100 | 14,020 | 17,700 |
-Germany was not united until 1871 and Italy until 1861; the source gives figures for those lands for the earlier years as well. "Austria" means the lands of the Austrian emperor (Austria-Hungary after 1867). For 1840 the source shows no figure for Spain.
+Germany was not united until 1871 and Italy until 1861; the source gives figures for those lands for the earlier years as well. "Austria" means the lands of the Austrian emperor (Austria-Hungary after 1867). For 1840 the source shows no figure for Spain. These are the figures printed in an 1892 reference book. Later historians give somewhat different totals.
 Source: Michael G. Mulhall, The Dictionary of Statistics (London: George Routledge and Sons, 1892), "Railways," p. 495
 
 **E6-E10** [Topic 6.2 · LO B · Skill 5.A · Comparison · medium]  Which conclusion about the period 1840–1860 is best supported by the data?
-- (A) Railways spread first in the northwest, while the south and east lagged behind.
+- (A) Railways spread earlier in the northwest, while the south and east lagged behind.
 - (B) Russia's huge size let it build more miles of railway than any other country.
-- (C) France built railways faster than the United Kingdom because its government built and ran the lines.
+- (C) France added more miles of railway than the United Kingdom because its government built and ran the lines.
 - (D) Spain and Italy began building railways as early as the United Kingdom did.
-KEY: A. Explanation: The table shows railways spreading unevenly. Britain, Belgium, France, and the German states started early. Russia, Spain, and Italy had few railways until after 1860.
+KEY: A. Explanation: The table shows railways spreading unevenly. By 1840 Britain, Belgium, France, and the German states already had hundreds of miles of track, while Italy, Russia, and Spain had almost none. In 1860 Russia, Spain, and Italy still had only about 1,000 miles each.
   - A: Correct. In 1840 the United Kingdom had 838 miles and tiny Belgium had 210, while Italy had 13, Russia 16, and Spain none listed. By 1860 the United Kingdom had 10,430 miles, Germany 6,980, and France 5,880. Russia, Spain, and Italy each had only about 1,000.
   - B: Incorrect. Russia had only 990 miles in 1860, less than one-tenth of the United Kingdom's 10,430.
-  - C: Incorrect. The United Kingdom added far more miles than France (about 9,600 compared with about 5,500). France also relied on private companies working with the state.
+  - C: Incorrect. The United Kingdom added about 9,600 miles, compared with about 5,500 in France. Also, private companies ran France's lines, working with the state.
   - D: Incorrect. In 1840 Italy had only 13 miles and Spain none listed, compared with 838 in the United Kingdom.
 
 **E6-E11** [Topic 6.2 · LO B · Skill 5.B · Causation · medium]  Which of the following best explains Russia's figures for 1850 and 1860?
@@ -881,7 +882,7 @@ KEY: B. Explanation: Serfdom, powerful landowners, huge distances, and little st
 - (C) French control of the Ruhr coal fields, which forced Germans to import coal by rail
 - (D) Investment by German states in railways linking coal fields, ports, and cities
 KEY: D. Explanation: Railways tied the German states into one market. They carried coal from the Ruhr and Silesia to iron works, and they served Prussia's army. With state support, Germany passed the United Kingdom in miles of track by 1880.
-  - A: Incorrect. The Zollverein was never ended. It grew until the German Empire took it over in 1871, and its free trade among the states encouraged railway building.
+  - A: Incorrect. The Zollverein did not end in this period. It kept growing until the German Empire took over customs in 1871, and its free trade among the states encouraged railway building.
   - B: Incorrect. Germany's first colonies came in 1884, after most of this growth. The table counts railways in Europe.
   - C: Incorrect. France occupied the Ruhr only in 1923, long after this period.
   - D: Correct. German states built and backed railways, and Prussia took over most private lines after 1879. By 1880 Germany had more miles of railway than the United Kingdom.
@@ -937,7 +938,7 @@ KEY: B. Explanation: Censorship lasted in the German states until 1848. The revo
 > These two great discoveries, the materialistic conception of history and the revelation of the secret of capitalistic production through surplus-value, we owe to Marx. With these discoveries Socialism became a science. …
 > The materialist conception of history starts from the proposition that the production of the means to support human life and, next to production, the exchange of things produced, is the basis of all social structure; that in every society that has appeared in history, the manner in which wealth is distributed and society divided into classes or orders, is dependent upon what is produced, how it is produced, and how the products are exchanged. From this point of view the final causes of all social changes and political revolutions are to be sought, not in men's brains, not in man's better insight into eternal truth and justice, but in changes in the modes of production and exchange. They are to be sought, not in the philosophy, but in the economics of each particular epoch.
 — Friedrich Engels, German socialist writer who worked closely with Karl Marx for nearly forty years, Socialism: Utopian and Scientific, a pamphlet first published in French in 1880 (English translation by Edward Aveling, Socialism: Utopian and Scientific (London: Swan Sonnenschein, 1892), pp. 26–27, 44–46; adapted)
-> Words to know: mode of thought = way of thinking; by virtue of = because of; materialistic conception of history = the idea that economic life shapes everything else in history; surplus-value = Marx's term for the value workers produce beyond what they are paid, which the owner keeps as profit; final causes = deepest causes; modes of production and exchange = the ways goods are made and traded; epoch = period of history
+> Words to know: mode of thought = way of thinking; by virtue of = because of; materialistic conception of history = Marx's theory of what drives history, explained in the last paragraph; surplus-value = Marx's term for the value workers produce beyond what they are paid, which the owner keeps as profit; final causes = deepest causes; modes of production and exchange = the ways goods are made and traded; epoch = period of history
 
 **E6-E16** [Topic 6.7 · LO H · Skill 3.A · medium]  Which of the following best describes Engels's main argument?
 - (A) Socialism became a science once it was based on economics rather than on ideals of justice.
@@ -950,13 +951,13 @@ KEY: A. Explanation: Engels says the earlier "Utopians" hoped good ideas would w
   - C: Incorrect. Engels says the causes of revolutions are "not in men's brains" but in "changes in the modes of production and exchange."
   - D: Incorrect. Engels says "all social changes and political revolutions" come from "changes in the modes of production and exchange." So no economic system lasts forever. Marxists expected capitalism to be replaced.
 
-**E6-E17** [Topic 6.7 · LO H · Skill 1.B · medium]  Which of the following thinkers would Engels most likely have classified among the "Utopians"?
+**E6-E17** [Topic 6.7 · LO H · Skill 1.A · medium]  Which of the following thinkers would Engels most likely have classified among the "Utopians"?
 - (A) Charles Fourier
 - (B) Mikhail Bakunin
 - (C) John Stuart Mill
 - (D) Friedrich List
-KEY: A. Explanation: In the early 1800s, utopian socialists such as Saint-Simon, Fourier, and Owen criticized industrial society. They designed model communities. Engels argued that they did not understand history and class in a scientific way.
-  - A: Correct. Fourier, like Henri de Saint-Simon and Robert Owen, designed ideal communities based on reason and justice. In this pamphlet Engels discusses these three as the leading Utopians.
+KEY: A. Explanation: Engels named Saint-Simon, Fourier, and Owen as the leading utopian socialists. In the early 1800s they attacked the new industrial society and planned a better one. Fourier and Owen designed model communities. Engels said their plans rested on reason and justice, not on a scientific study of history and class.
+  - A: Correct. Fourier planned model communities based on reason and justice. In this pamphlet Engels discusses him, Henri de Saint-Simon, and Robert Owen as the leading Utopians.
   - B: Incorrect. Bakunin was an anarchist who opposed all government. Marx and Engels fought with him in the First International around 1870, but over the state, not over plans for ideal communities.
   - C: Incorrect. Mill was a liberal thinker. He was not a socialist who planned ideal communities.
   - D: Incorrect. List was an economist. He wanted tariffs to protect and build German industry.
@@ -993,7 +994,7 @@ KEY: C. Explanation: Marx's ideas shaped the large socialist parties of the late
 > The primary and most important measures, and at the same time the most practicable, and within the recognized province of public administration, are drainage, the removal of all refuse of habitations, streets, and roads, and the improvement of the supplies of water. …
 > That the expense of public drainage, of supplies of water laid on in houses, and of means of improved cleansing would be a pecuniary gain, by diminishing the existing charges attendant on sickness and premature mortality. …
 — Edwin Chadwick, secretary of the Poor Law Commission of England and Wales, Report on the Sanitary Condition of the Labouring Population of Great Britain, 1842 (Text from Report to Her Majesty's Principal Secretary of State for the Home Department, from the Poor Law Commissioners, on an Inquiry into the Sanitary Condition of the Labouring Population of Great Britain (London: printed by W. Clowes and Sons for Her Majesty's Stationery Office, 1842), pp. 369–371; adapted)
-> Words to know: recapitulate = sum up; epidemic, endemic = diseases that break out and spread widely, and diseases that are always present in a place; aggravated = made worse; propagated = spread; atmospheric impurities = bad or polluted air; the metropolis = London; exemptions = protection; obstructed = blocked; within the recognized province of public administration = part of what government is accepted as responsible for; refuse = garbage and waste; habitations = homes; laid on in houses = piped into homes; pecuniary gain = a saving of money; premature mortality = dying too young
+> Words to know: recapitulate = sum up; epidemic, endemic = diseases that break out and spread widely, and diseases that are always present in a place; aggravated = made worse; propagated = spread; atmospheric impurities = bad or polluted air; the metropolis = London; exemptions = protection; obstructed = blocked; within the recognized province of public administration = part of what government is accepted as responsible for; refuse = garbage and waste; habitations = homes; laid on in houses = piped into homes; pecuniary = having to do with money; premature mortality = dying too young
 
 **E6-E20** [Topic 6.9 · LO J · Skill 2.B · medium]  Chadwick's argument that public works "would be a pecuniary gain" was most likely intended to
 - (A) convince doctors that disease was spread by germs carried in water
@@ -1055,7 +1056,7 @@ KEY: B. Explanation: Two things set off the revolutions of 1848. Bad harvests an
 KEY: B. Explanation: In 1848 Hungarians, Italians, Czechs, and Germans wanted to rule themselves or to unite their nations. Kossuth led the Hungarian revolt against the Habsburgs, who ruled Austria.
   - A: Incorrect. The June Days were a fight between Paris workers and the republic's government. It was a class conflict, not a nationalist movement.
   - B: Correct. Hungarian nationalists wanted their own government within, and later outside, the Habsburg empire. They fought until Russian troops helped Austria defeat them in 1849.
-  - C: Incorrect. The Chartists wanted democratic reform in Britain. Seignobos says the movement of 1848 did not reach England.
+  - C: Incorrect. The Chartists wanted the vote for all men in Britain. They were not fighting for national independence or national unity.
   - D: Incorrect. Louis Napoleon was elected in France. His election was not a nationalist uprising.
 
 **E6-E25** [Topic 6.5 · LO F · Skill 5.A · Continuity and Change · medium]  The events described in the last two paragraphs most directly show that by 1849
@@ -1072,7 +1073,7 @@ KEY: D. Explanation: By 1849 the revolutions had failed almost everywhere. Conse
 
 ## SOURCE NOTES
 
-Every text excerpt was copied from raw text downloaded with curl (archive.org full-text files; UK Parliament's Historic Hansard pages) and saved in sources/raw/ (second witnesses in raw/alt/, Hansard pages in raw/web/), then machine-checked stretch by stretch with ae6/check_excerpts.py: each stretch between ellipses, brackets, or footnote marks had to occur in a raw text after case, punctuation, whitespace, line-end hyphens, and HTML markup were normalized away. Result of the last run: 139 stretches checked, 21 not matching letter for letter; every one of the 21 was read by hand and is an OCR slip, a running head or page break, a footnote that splits a word, or a side note that the OCR ran into the text (Robinson & Beard; Leigh Smith), and each is listed in its file. Every cut is listed in its file together with the raw words it leaves out (generated by aligning each stretch to the raw text). Every edition or translation used was published in 1930 or earlier. Images are public-domain files on Wikimedia Commons, confirmed with the Commons API (spaced requests after HTTP 429 responses) and downloaded to raw/commons/ to write captions. Table values (X4) were read from the page image (archive.org IIIF), not from the OCR.
+Every text excerpt was copied from raw text downloaded with curl (archive.org full-text files; UK Parliament's Historic Hansard pages) and saved in sources/raw/ (second witnesses in raw/alt/, Hansard pages in raw/web/), then machine-checked stretch by stretch with ae6/check_excerpts.py: each stretch between ellipses, brackets, or footnote marks had to occur in a raw text after case, punctuation, whitespace, line-end hyphens, and HTML markup were normalized away. Result of the last run (v2026-11-09c): 140 stretches checked, 21 not matching letter for letter; every one of the 21 was read by hand and is an OCR slip, a running head or page break, a footnote that splits a word, or a side note that the OCR ran into the text (Robinson & Beard; Leigh Smith), and each is listed in its file. Every cut is listed in its file together with the raw words it leaves out (generated by aligning each stretch to the raw text). Every edition or translation used was published in 1930 or earlier. Images are public-domain files on Wikimedia Commons, confirmed with the Commons API (spaced requests after HTTP 429 responses) and downloaded to raw/commons/ to write captions. Table values (X4) were read from the page image (archive.org IIIF), not from the OCR.
 
 | Set | Type | Source | Edition / translation (year) | License basis |
 |---|---|---|---|---|
@@ -1080,7 +1081,7 @@ Every text excerpt was copied from raw text downloaded with curl (archive.org fu
 | X2.1 | pair (Source 1) | Richard Cobden, Commons speech, Aug. 25, 1841 | Speeches, ed. Bright & Rogers, vol. 1 (Macmillan, 1878) | Published 1878; public domain |
 | X2.2 | pair (Source 2) | Benjamin Disraeli, Commons speech, May 15, 1846 | Hansard, 3rd ser., vol. 86 (Historic Hansard) | Published 1846; public domain (also Open Parliament Licence) |
 | X3 | image | Adolph Menzel, The Iron Rolling Mill (1872-1875) | Commons file (Google Art Project), Alte Nationalgalerie | Public domain (Commons API; painter d. 1905) |
-| X4 | table (multi-date) | Miles of railway in eight European countries, 1840-1888 | M. G. Mulhall, Dictionary of Statistics (Routledge, 1892), p. 495 (page image) | Published 1892; public domain |
+| X4 | table (multi-date) | Miles of railway in eight European countries, 1840-1888 | M. G. Mulhall, Dictionary of Statistics, 1892 ed. (Routledge, 1892; a smaller pocket edition came out in 1884), p. 495 (page image) | Published 1892; public domain |
 | X5 | passage | Carlsbad Resolutions, Sept. 20, 1819 | Robinson & Beard, Readings in Modern European History, vol. 2 (Ginn, 1909; vol. 1 is 1908) | Published 1909; public domain |
 | X6 | passage | Friedrich Engels, Socialism: Utopian and Scientific (1880) | tr. Edward Aveling (Sonnenschein, 1892) | Published 1892; public domain |
 | X7 | passage | Edwin Chadwick, Sanitary Report, conclusions, 1842 | W. Clowes and Sons for HMSO, 1842 | Published 1842; public domain |
@@ -1090,7 +1091,7 @@ Every text excerpt was copied from raw text downloaded with curl (archive.org fu
 | P3 | passage | E. E. Williams, "Made in Germany," 1896 | 4th ed. (Heinemann, 1896) | Published 1896; public domain |
 | P4 | passage (colonial voice) | John Mitchel, The Last Conquest of Ireland (Perhaps), written late 1850s; book ed. Dublin, 1861 | Lynch, Cole & Meehan (New York, 1873) | Published 1873; public domain |
 | P5.1 | pair (Source 1, historians) | J. L. and Barbara Hammond, The Town Labourer, 1917 | 1st ed. (Longmans, 1917); 1920 printing | Published 1917; public domain in the US |
-| P5.2 | pair (Source 2, historian) | J. H. Clapham, Economic History of Modern Britain, vol. 1, preface, 1926 | 1st ed. (Cambridge UP, 1926) | Published 1926; public domain in the US |
+| P5.2 | pair (Source 2, historian) | J. H. Clapham, Economic History of Modern Britain, vol. 1, preface, 1926 | 1st ed. (Cambridge UP, 1926) | Published 1926; public domain in the US (author d. 1946, so also out of copyright in the UK and EU) |
 | P6.1 | pair (Source 1) | Sarah Stickney Ellis, The Women of England, 1839 | Appleton (New York, 1839) | Published 1839; public domain |
 | P6.2 | pair (Source 2) | Barbara Leigh Smith, Brief Summary of the Laws Concerning Women (1854) | 2nd ed. (Holyoake, 1856), pp. 2, 4-5, 9 | Published 1856; public domain |
 | P7 | passage | Lord Ashley, Commons speech on mines, June 7, 1842 | Hansard, 3rd ser., vol. 63 (Historic Hansard) | Published 1842; public domain (also Open Parliament Licence) |
@@ -1107,9 +1108,10 @@ Every text excerpt was copied from raw text downloaded with curl (archive.org fu
 
 Notes:
 - Mix: 24 sets built from 28 documents: 17 single-passage sets, 4 paired sets (X2, P5, P6, P9), 2 images (X3, P16), and 1 multi-date table (X4). Historians' interpretations: Seignobos (X8) and the Hammond/Clapham pair (P5). Colonial voice: John Mitchel (P4), an Irish nationalist transported by the British government, on the famine.
-- Licence notes: The Hammonds (P5.1, d. 1949/1961) and Clapham (P5.2, d. 1946) published before 1930 and are public domain in the United States; they may still be in copyright in the UK and EU. Seignobos's French original (X8, author d. 1942) may be protected in France; the bank uses the 1899 English translation, public domain in the US.
+- Licence notes: The Hammonds (P5.1) published before 1930 and are public domain in the United States; because the last surviving coauthor, Barbara Hammond, died in 1961, the book may still be in copyright in the UK and EU. Clapham (P5.2, d. 1946) is public domain in the United States and, since the end of 2016, in the UK and EU as well. Seignobos's French original (X8, author d. 1942) may be protected in France; the bank uses the 1899 English translation, public domain in the US.
 - Considered and not used: Léon Faucher, Manchester in 1844 (only a post-1930 facsimile found); the October Manifesto, the Erfurt Program, and Witte's memoirs (kept for other sets or later units); a Crystal Palace image (Great Exhibition covered by a footnote); Clapham's 1939 reprint (post-1930; the 1926 first edition was used); Mill's 1873 American printing (1861 London first edition used); Robert Ensor, Modern Socialism (1904), downloaded to raw/ and not used.
 - Corrections in v2026-11-09b (after the independent check): P1 is by Edward Baines Jr., editor (not owner) of the Leeds Mercury in 1835; Robinson & Beard vol. 2 (X5) is dated 1909 (title-page verso: 'Copyright, 1909'), vol. 1 being 1908; P4's attribution adds the Dublin 1861 book edition; X8's attribution uses the translation's English title; X6 says Engels 'worked closely with' Marx; page locators corrected for P6.2 (pp. 2, 4-5, 9, from the page images) and P14 (foreword and pp. 37-38); X2 Source 2 gets a glossary note on Hansard's 'Ministers tells us'. No excerpt text changed.
+- Corrections in v2026-11-09c (after the ChatGPT Pro review): X1's third paragraph no longer opens with Taine's "They are powerful, that is their compensation." (in the excerpt "They" seemed to mean the workers; in the book it means the rich), and now begins "… The life of one of the heads ..."; P6.1's second paragraph now starts inside Ellis's second example ("… when the snares of the world were around him, …"), so it no longer joins two different examples; P4 gains a footnote on the blight of 1845 and 1846 (Mitchel's "in 1846, when the Famine commenced" is kept as printed); X4's note now says the figures are those of an 1892 reference book and that later historians give somewhat different totals, and X4.md no longer calls the 1892 edition the first; glossary changes in X6 ('materialistic conception of history' now points to the last paragraph instead of summarizing it) and X7 ('pecuniary' = 'having to do with money', replacing 'pecuniary gain' = 'a saving of money', which echoed E6-E20's key) and P6.1 ('snares' added, 'the mart, the exchange' dropped); P5.1/P5.2 copyright notes corrected (Clapham died 80, not fewer than 70, years before 2026). The changed excerpts were re-checked with ae6/check_excerpts.py: 140 stretches (the new footnote mark splits one P4 stretch in two), the same 21 hand-checked mismatches as before, no new ones.
 - Overlap check: no work used here appears in the Euro Unit 4 or Unit 5 banks. Anderson's documents volume (1908) is also used in the Unit 5 bank, but for different documents. Pankhurst's foreword paragraph on militancy (P14) is also quoted in the AP World Unit 9 bank (aw9 P14).
 
 ### X1
@@ -1133,11 +1135,12 @@ OCR 'tbe' corrected to 'the' in 'Walked through the city' (the second witness re
 
 ADAPTATION IN THE BANK (every cut, with the omitted raw text):
 - CUT (…) between "...p penitentiaries, succeed each other in rows." and "One of these buildings is a rectangle of six ...": omitted raw text: ". A large bazaar for the sale of low-priced goods, a work- T 274 NOTES ON ENGLAND house to accommodate four hundred thousand persons, a prison for convicts condemned to penal servitude — such are the ideas created by the spectacle."
-- CUT (…) between "...hers scatter and hasten towards their hovels." and "They are powerful, that is their compensation...": omitted raw text: ". We follow them ; what wretched streets ! Through the half-open window may be seen a miserable room on the ground-floor, sometimes below the level of the damp pavement ; [...] It is a good thing to work, and it is a good thing to be wealthy ; but to work and be rich are not sufficient.  (537 words)"
+- CUT (…) between "...hers scatter and hasten towards their hovels." and "The life of one of the heads of these manufac...": omitted raw text: ". We follow them ; what wretched streets ! Through the half-open window may be seen a miserable room on the ground-floor, sometimes below the level of the damp pavement ; [...] It is a good thing to work, and it is a good thing to be wealthy ; but to work and be rich are not sufficient. They are powerful, that is their compensation.  (544 words)". The third paragraph opens with an ellipsis because it starts inside Taine's paragraph.
 - CUT (…) between "...ses may be likened to that of a minor prince." and "they have to control and satisfy a host of wo...": omitted raw text: ". They have the funds, the vast designs, the responsibility, the risks, the importance, and, it is said, the pride of a potentate. Like him they have their emissaries and [...] e bound to keep themselves versed daily in the condition and resources of neighbouring and distant countries ;  (58 words)"
 - CUT (…) between "...the generals and governors of human industry." and "They despatch agents to examine particular di...": omitted raw text: ". A quarter of a million sterling, half a million sterling, these are the phrases one hears used with regard to their enter- prises, their sales or purchases, the freights in their ships, the goods in their warehouses."
 - The excerpt ends with an ellipsis (the source continues).
 - Paragraph breaks follow the book. The glossary is editorial.
+- Revision v2026-11-09c (ChatGPT Pro review): up to v2026-11-09b the third paragraph began with Taine's sentence "They are powerful, that is their compensation." In the book "They" means the rich men described in the omitted pages, but in the excerpt it followed the workers going home to their hovels, so students could read it as being about the workers. The sentence is now inside the cut, and the paragraph begins "… The life of one of the heads of these manufacturing or commercial houses". Re-checked with ae6/check_excerpts.py (6 stretches, all matching).
 
 CONTEXT NOTES:
 Rae's introduction (raw lines 856-861) says that Taine visited England 'In 1861, and subsequently' and that the notes were 'revised after his last visit in 1871'; the attribution therefore says the notes come from visits 'over about ten years' and gives only the publication year.
@@ -1227,7 +1230,7 @@ ID: X4
 Used as: exam set X4 (E6-E10 to E6-E12)
 Topic(s): 6.2 (LO B); 6.3 (LO D)
 Work: Michael G. Mulhall (1836-1900), The Dictionary of Statistics (London: George Routledge and Sons, 1892), article 'Railways', table of miles of railway in operation by country, 1840-1888.
-Edition / translation: First edition, 1892 (archive.org scan dictionaryofstat00mulhuoft). The values were read from the page image of p. 495, fetched through archive.org's IIIF service, because the OCR scrambles the table's columns.
+Edition / translation: 1892 edition (London: George Routledge and Sons, Limited; archive.org scan dictionaryofstat00mulhuoft). Mulhall's preface says that in 1884 he 'brought out what may be termed a pocket edition, about one-fifth of the size of the present complete Dictionary', so 1892 is not the first edition (corrected in v2026-11-09c; earlier versions of this file said 'First edition, 1892'). The values were read from the page image of p. 495, fetched through archive.org's IIIF service, because the OCR scrambles the table's columns.
 URL curled: https://archive.org/download/dictionaryofstat00mulhuoft/dictionaryofstat00mulhuoft_djvu.txt ; page image https://iiif.archive.org/iiif/dictionaryofstat00mulhuoft$525/full/1600,/0/default.jpg
 Local raw copy: raw/mulhall1892_dictionaryofstat00mulhuoft.txt; raw/img/mulhall1892_p495.jpg
 Locator: p. 495
@@ -1237,7 +1240,7 @@ DATA CHECK:
 Values read from the page image (miles, for 1840 / 1850 / 1860 / 1870 / 1880 / 1888): United Kingdom 838 / 6,620 / 10,430 / 15,540 / 17,930 / 19,810; Belgium 210 / 550 / 1,070 / 1,800 / 2,400 / 2,760; France 360 / 1,890 / 5,880 / 9,770 / 14,500 / 20,900; Germany 341 / 3,640 / 6,980 / 11,730 / 20,690 / 24,270; Austria 90 / 960 / 2,810 / 5,950 / 11,500 / 15,610; Italy 13 / 270 / 1,120 / 3,830 / 5,340 / 7,830; Spain (no figure) / 80 / 1,190 / 3,200 / 4,550 / 5,930; Russia 16 / 310 / 990 / 7,100 / 14,020 / 17,700. Every value in the bank matches the page image.
 
 ADAPTATION IN THE BANK:
-Eight European countries from the source's table are shown; the source's other rows and totals are not. 'U. Kingdom' is written out. The source's blank for Spain in 1840 is shown as 'none listed'. The note under the table (unification dates; what 'Austria' means; the Spain blank) is editorial.
+Eight European countries from the source's table are shown; the source's other rows and totals are not. 'U. Kingdom' is written out. The source's blank for Spain in 1840 is shown as 'none listed'. The note under the table (unification dates; what 'Austria' means; the Spain blank) is editorial. Since v2026-11-09c it ends: "These are the figures printed in an 1892 reference book. Later historians give somewhat different totals." (ChatGPT Pro review: present the cells as Mulhall's reported figures. Later compilations built from railway company and government returns give different totals for several countries; Mulhall's own preface says his figures were gathered from many earlier works.) The table title and the source line are unchanged.
 
 CONTEXT NOTES:
 Belgium opened state railways from 1835; France's railway law came in 1842; the St. Petersburg-Moscow line opened in 1851. Mulhall was an Irish-born statistician who lived for many years in Buenos Aires.
@@ -1297,7 +1300,7 @@ ADAPTATION IN THE BANK (every cut, with the omitted raw text):
 - CUT (…) between "...enth century, and still governs some of them." and "To all these Socialism is the expression of a...": omitted raw text: ". Until very recently all French and English Socialists did homage to it. The earlier German Communism, including that of Weitling, was of the same school."
 - CUT (…) between "...ere accident when and where it is discovered." and "These two great discoveries, the materialisti...": omitted raw text: ", Utopian and Scientific. 2” With all this, absolute truth,. reason, and justice are different with the founder of each different school. And as each one’s special kind o [...] sses. The genesis of capitalist 4 A4 Socialism : production and the production of capital were both explained.  (3321 words)"
 - CUT (…) between "...these discoveries Socialism became a science." and "The materialist conception of history starts ...": omitted raw text: ". The next thing was to work out all its details and relations. | Utopian and Scientzfic. 45 (ee ty"
-- Paragraph breaks follow the book. The glossary is editorial.
+- Paragraph breaks follow the book. The glossary is editorial. Since v2026-11-09c the entry 'materialistic conception of history' reads "Marx's theory of what drives history, explained in the last paragraph" (it used to read "the idea that economic life shapes everything else in history", which a ChatGPT Pro review said summarized the interpretation E6-E16 asks about; the last paragraph of the excerpt defines the term in Engels's own words).
 
 CONTEXT NOTES:
 Engels names Saint-Simon, Fourier, and Owen as 'the three great Utopians' earlier in the pamphlet (raw line 1742, outside the excerpt). The bank's rationales mention this as background without quoting it as excerpt text.
@@ -1329,7 +1332,7 @@ ADAPTATION IN THE BANK (every cut, with the omitted raw text):
 - CUT (…) between "...the country has been engaged in modern times." and "The primary and most important measures, and ...": omitted raw text: ". That of the 43,000 cases of widowhood, and 112,000 cases of destitute orphanage relieved from the poor’s rates in England and Wales alone, it aj)pears that the greatest [...] econdly. As to the means by which the p>resent sanitary condition of the labouring classes may be improved : —  (467 words)"
 - CUT (…) between "...and the improvement of the supplies of water." and "That the expense of public drainage, of suppl...": omitted raw text: ". That the chief ob.stacles to the immediate removal of decom- posing refuse of towns and habitations have been the expense and annoyance of the hand labour and cartage r [...] s for private land-drainage, which is important for the health as well as sustenance of the labouring classes.  (182 words)"
 - The excerpt ends with an ellipsis (the source continues).
-- Each conclusion is a separate paragraph beginning 'That', as in the report. The glossary is editorial.
+- Each conclusion is a separate paragraph beginning 'That', as in the report. The glossary is editorial. Since v2026-11-09c the glossary defines 'pecuniary' as "having to do with money"; it used to define 'pecuniary gain' as "a saving of money", which echoed the keyed answer of E6-E20 ("... that sanitation would save money").
 
 CONTEXT NOTES:
 Chadwick, secretary of the Poor Law Commission, wrote the report. The Public Health Act of 1848 followed and set up a General Board of Health, of which Chadwick was a member.
@@ -1483,7 +1486,7 @@ One stretch does not match the OCR letter for letter: 'tliat' = 'that', and the 
 ADAPTATION IN THE BANK (every cut, with the omitted raw text):
 - CUT (…) between "...5—a deficit of about two millions and a half." and "Further, I have called it an artificial famin...": omitted raw text: ". Now, what became of those two millions and a half? The " government " Census Commissioners, and compilers of returns of all sorts, whose principal duty it has been, sin [...] itself from those who died of typhus fever, which in Ireland is always caused by famine. 324 THE LAST CONQUEST  (322 words)"
 - CUT (…) between "...o blight, but the English created the famine." and "the benevolent contributions of Americans and...": omitted raw text: ". And lastly, I have shown, in the course of this narrative, that the depopulation of the country was not only encour- aged by artificial means, namely, the Out-door Reli [...] at ex- treme care and diligence were used to prevent relief coming to the doomed Island from abroad ; and that  (60 words)"
-- The footnote on Ireland's place in the United Kingdom and the glossary are editorial. The first cut leaves out Mitchel's claim that a million and a half people 'were carefully, prudently, and peacefully slain by the English Government'; the excerpt keeps his charge in his own words, 'the English created the famine'.
+- The footnotes and the glossary are editorial. Since v2026-11-09c there are two footnote marks: '*' after "when the Famine commenced," (note: "Potato blight first struck Ireland in the fall of 1845. The crop failure of 1846 was far worse.") and '**' after "The English," (Ireland's place in the United Kingdom). The first note was added after the ChatGPT Pro review so that Mitchel's own dating ("in 1846, when the Famine commenced") is kept as he wrote it while students learn that the blight began in 1845 (as E6-E22's rationale also says). Mitchel's '8,175,125' is also kept as printed; the official 1841 census total is 8,175,124 (the P11 why-not gives only rounded figures). Re-checked with ae6/check_excerpts.py (5 stretches; the one mismatch is the old 'tliat' OCR slip). The first cut leaves out Mitchel's claim that a million and a half people 'were carefully, prudently, and peacefully slain by the English Government'; the excerpt keeps his charge in his own words, 'the English created the famine'.
 
 CONTEXT NOTES:
 Mitchel was convicted in 1848 and transported to Bermuda and then Van Diemen's Land (Tasmania); he escaped to the United States in 1853. First printed as a series of letters in Mitchel's newspaper the Southern Citizen (Knoxville, then Washington, 1857-1859; Dictionary of Irish Biography; the DNB, 1894, dates the paper October 1857 to August 1859). First separate edition: Dublin: Irishman Office, 1861, xii + 325 pp. (OCLC 15714331; Open Library OL16583745M, from a Boston College record). The DIB text gives 1860; its source list gives 1861. Ricorso's bibliographical note also says the book 'was next issued by The Irishman (Dublin) in book-form in 1861'. The DNB's list of works gives 'New York, 1860, Dublin and Glasgow, 1861', but no catalogue record of a New York 1860 edition was found. The attribution (v2026-11-09b) therefore says the book was 'published as a book in Dublin in 1861', which is true whichever edition came first, and does not call Dublin 1861 the first edition. The credit line still names the 1873 New York edition that was quoted (pp. 323-324); both witnesses (1873 and the Washbourne 'Author's Edition') read the excerpt identically.
@@ -1497,7 +1500,7 @@ Edition / translation: First edition (London: Longmans, Green, 1917). Second wit
 URL curled: https://archive.org/download/townlabourer17600000hamm/townlabourer17600000hamm_djvu.txt ; second witness https://archive.org/download/cu31924066848874/cu31924066848874_djvu.txt
 Local raw copy: raw/hammond1917_townlabourer17600000hamm.txt; raw/alt/hammond1920_cu31924066848874.txt
 Locator: pp. 39-40
-PD note: Published before 1930, so public domain in the United States. The author died less than 70 years before 2026 (J. L. Hammond d. 1949; Barbara Hammond d. 1961), so the text may still be in copyright in the UK and EU; the bank relies on US public-domain status, as the brief's 1930 rule does.
+PD note: Published before 1930, so public domain in the United States. For a jointly written book, UK and EU terms run 70 years from the death of the last surviving coauthor: J. L. Hammond died in 1949, and the last surviving coauthor, Barbara Hammond, died in 1961, less than 70 years before 2026. So the text may still be in copyright in the UK and EU (until the end of 2031); the bank relies on US public-domain status, as the brief's 1930 rule does. (Wording corrected in v2026-11-09c.)
 
 (Raw excerpt region: see ae6/sources/P5.1.md)
 
@@ -1525,7 +1528,7 @@ Edition / translation: First edition (Cambridge: Cambridge University Press, 192
 URL curled: https://archive.org/download/in.ernet.dli.2015.228742/2015.228742.An-Economic_djvu.txt ; second witness https://archive.org/download/economichistoryo0000jhcl_h5e4/economichistoryo0000jhcl_h5e4_djvu.txt
 Local raw copy: raw/clapham1926_in.ernet.dli.2015.228742.txt; raw/alt/clapham1926_economichistoryo0000jhcl_h5e4.txt
 Locator: pp. vii-viii
-PD note: Published before 1930, so public domain in the United States. The author died less than 70 years before 2026 (d. 1946), so the text may still be in copyright in the UK and EU; the bank relies on US public-domain status, as the brief's 1930 rule does.
+PD note: Published in 1926; public domain in the United States. Clapham died in 1946, 80 years before 2026, so the text is also out of copyright in the UK and EU (life + 70 years ran out at the end of 2016). (Corrected in v2026-11-09c; the earlier note wrongly said he died less than 70 years before 2026.)
 
 (Raw excerpt region: see ae6/sources/P5.2.md)
 
@@ -1564,10 +1567,11 @@ All 6 stretches match the raw text.
 
 ADAPTATION IN THE BANK (every cut, with the omitted raw text):
 - CUT (…) between "...ng their ears against the voice of conscience" and "This may be an extreme, but it is scarcely an...": omitted raw text: ", and beguiling them with the prom¬ ise of peace, where peace was never found. Long before the boy has learned to exult in the dignity of the man, his mind has become fam [...] n of strength unto the conflict, and who is consequent, ly borne down by numbers, hurried over, and forgotten.  (252 words)"
-- CUT (…) between "...ements of men of business in the present day." and "How often has man returned to his home with a...": omitted raw text: ". And surely they now need more than ever all the assistance which Providence has kindly provided, to win them away from this warfare, to remind them that they are hasten [...] n saying, that the society of woman, in her highest moral capacity, is best calculated to effect this purpose.  (94 words)"
-- CUT (…) between "... his inborn selfishness or his worldly pride;" and "he has thought of the humble monitress who sa...": omitted raw text: "; and while his integrity was shaken, and his resolution gave way be¬ neath the pressure of apparent necessity, or the insidious pretences of expediency, he has stood cor [...] nd temptations from within and without have bribed over the witness in his own THE WOMEN OF ENGLAND. 47 bosom,  (122 words)"
+- CUT (…) between "...ements of men of business in the present day." and "when the snares of the world were around him,": omitted raw text (since v2026-11-09c): ". And surely they now need more than ever all the assistance which Providence has kindly provided, to win them away from this warfare, to remind them that they are hasten [...] n saying, that the society of woman, in her highest moral capacity, is best calculated to effect this purpose. How often has man returned to his home with a mind confused by the many voices, which in the mart, the ex¬ change, or the public assembly, have addressed themselves to his inborn selfishness or his worldly pride ; and while his integrity was shaken, and his resolution gave way be¬ neath the pressure of apparent necessity, or the insidious pretences of expediency, he has stood corrected before the clear eye of woman, as it looked directly to the naked truth, and detected the lurking evil of the specious act he was about to commit. Nay, so potent may have become this secret influence, that he may have borne it about with him like a kind of second conscience, for mental reference, and spiritual counsel, in moments of trial : and  (220 words)"
+- CUT (…) between "...when the snares of the world were around him," and "he has thought of the humble monitress who sa...": omitted raw text: "and temptations from within and without have bribed over the witness in his own THE WOMEN OF ENGLAND. 47 bosom,"
 - CUT (…) between "... that beloved home, a wiser and a better man." and "The sphere of their...": omitted raw text: ". The women of England, possessing the grand privilege of being better instructed than those of any other country in the minutiae of domestic comfort, have obtained a deg [...] ing the minor mo¬ rals of life, from whence springs all that is elevated in pur¬ pose, and glorious in action.  (84 words)"
 - The footnote ('their' = the women of England) and the glossary are editorial.
+- Revision v2026-11-09c (ChatGPT Pro review): up to v2026-11-09b the second paragraph began "How often has man returned to his home with a mind confused by the many voices, which in the mart, the exchange, or the public assembly, have addressed themselves to his inborn selfishness or his worldly pride; … he has thought of the humble monitress ...". The cut was marked, but it joined two different examples in Ellis (the man corrected by his wife after coming home, and the man away from home who remembers her), so the excerpt seemed to send him home twice. The paragraph now starts at "when the snares of the world were around him", inside the second example, so it describes one scene. The glossary entry 'the mart, the exchange' was dropped (its words are no longer shown) and 'snares' = 'traps' added. The excerpt was re-checked against the raw text with ae6/check_excerpts.py (6 stretches, all matching).
 
 CONTEXT NOTES:
 Ellis's book was one of the most widely read Victorian advice books for middle-class women.
