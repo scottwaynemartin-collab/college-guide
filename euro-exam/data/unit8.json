@@ -369,11 +369,11 @@
       },
       {
        "t": "the mailed fist",
-       "d": "the threat of force (a mailed fist is a fist in an armored glove)"
+       "d": "armed strength (a mailed fist is a fist in an armored glove)"
       },
       {
        "t": "guaranteeing a frontier",
-       "d": "promising to defend a border; at Munich, Britain offered to guarantee Czechoslovakia's new borders"
+       "d": "promising to defend a border (at Munich, Britain and France offered to guarantee Czechoslovakia's new borders)"
       },
       {
        "t": "the Treaty of Locarno",
@@ -2269,7 +2269,7 @@
    "difficulty": "medium",
    "stem": "Hitler's complaint that England \"shows no sign of willingness to come to terms\" is best understood in the context of which of the following?",
    "options": {
-    "A": "Britain's refusal under Churchill to make peace after France fell",
+    "A": "Britain's decision under Churchill to keep fighting after France fell",
     "B": "Britain's wartime alliance with the Soviet Union against Germany",
     "C": "the entry of the United States into the war on Britain's side",
     "D": "Britain's acceptance of German demands at the Munich Conference"

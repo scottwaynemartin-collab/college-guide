@@ -2401,7 +2401,7 @@
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. The Berlin blockade began in 1948, three years after this agreement.",
+     "A": "Incorrect. The Berlin blockade began in 1948, almost three years after this agreement.",
      "B": "Incorrect. The passage is about Poland, Germany, and other states in Europe, not about colonies overseas.",
      "C": "Correct. In July and August 1945, the leaders of the Soviet Union, the United States, and Britain met at Potsdam, near Berlin, to decide the future of Germany and Eastern Europe.",
      "D": "Incorrect. Six Western European states signed the treaty creating the European Coal and Steel Community in 1951. It took effect in 1952, years after Potsdam."
@@ -2426,7 +2426,7 @@
     "rationales": {
      "A": "Correct. Poland's communists won rigged elections in 1947. Bulgaria's communists executed the opposition leader Nikola Petkov that year. Romania's king was forced to give up his throne that December. Hungary's communists pushed out their rivals by 1949.",
      "B": "Incorrect. Finland remained a parliamentary democracy after the war. That does not show that the freedoms promised in the passage were denied.",
-     "C": "Incorrect. The Soviet atomic bomb test in 1949 started a nuclear arms race. It had nothing to do with elections or a free press in the countries named in the passage.",
+     "C": "Incorrect. The Soviet atomic bomb test in 1949 ended the U.S. monopoly on the atomic bomb. It had nothing to do with elections or a free press in the countries named in the passage.",
      "D": "Incorrect. Greece is not named in the passage, and its government defeated the communist rebels. Greece stayed out of the Soviet bloc."
     },
     "explanation": "From 1945 to 1949, communist parties backed by the Soviet Union took power in Poland, Hungary, Romania, and Bulgaria. They used rigged elections, arrests, censorship, and threats. The promises made at Yalta and Potsdam were not kept."
@@ -2440,7 +2440,7 @@
     "difficulty": "medium",
     "stem": "The \"transfer to Germany of German populations\" described in the passage best illustrates which postwar development?",
     "options": {
-     "A": "postwar ethnic cleansing",
+     "A": "ethnic cleansing",
      "B": "the return of Holocaust survivors",
      "C": "guest-worker recruitment",
      "D": "the flight of East Germans before 1961"

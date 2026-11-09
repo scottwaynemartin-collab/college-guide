@@ -124,8 +124,8 @@ STIM = {
                   {"t": "Belgium", "d": "the neutral country Germany invaded in 1914, which brought Britain into the war"},
                   {"t": "decrees of morality", "d": "the rules of right and wrong"},
                   {"t": "sweet reasonableness", "d": "calm, polite argument"},
-                  {"t": "the mailed fist", "d": "the threat of force (a mailed fist is a fist in an armored glove)"},
-                  {"t": "guaranteeing a frontier", "d": "promising to defend a border; at Munich, Britain offered to guarantee Czechoslovakia's new borders"},
+                  {"t": "the mailed fist", "d": "armed strength (a mailed fist is a fist in an armored glove)"},
+                  {"t": "guaranteeing a frontier", "d": "promising to defend a border (at Munich, Britain and France offered to guarantee Czechoslovakia's new borders)"},
                   {"t": "the Treaty of Locarno", "d": "a 1925 treaty in which Germany accepted its borders with France and Belgium and agreed to keep its troops out of the Rhineland"},
                   {"t": "henchmen", "d": "loyal followers who carry out a leader's orders"}])]},
 
