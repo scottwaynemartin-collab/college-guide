@@ -1,0 +1,21 @@
+const {FILE_URL, HTML_PATH, OUT, FIX} = require('./lib');
+const {chromium}=require('playwright');const fs=require('fs');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1440,height:1000}});
+const errs=[];p.on('pageerror',e=>errs.push(e.message));p.on('console',m=>m.type()==='error'&&errs.push(m.text()));
+await p.goto(FILE_URL+'');await p.waitForTimeout(800);
+await p.screenshot({path:OUT+'/onboard.png'});
+await p.click('text=Try it with sample data');await p.waitForTimeout(400);
+await p.screenshot({path:OUT+'/sample.png',fullPage:true});
+await p.click('.card [data-student]');await p.waitForTimeout(300);await p.screenshot({path:OUT+'/drawer.png'});
+await p.keyboard.press('Escape');
+await p.click('[data-act=clear-sample]');
+await p.click('aside [data-go=import]');await p.waitForTimeout(200);
+await p.fill('#pasteBox',fs.readFileSync(FIX+'/std.csv','utf8'));await p.click('#pasteGo');await p.waitForTimeout(300);
+await p.screenshot({path:OUT+'/import.png',fullPage:true});
+// paste a tab-separated non-standard table → mapper
+await p.fill('#pasteBox','Name\tQuiz A\tQuiz B\nLiam Chen\t8\t9\nAva Reyes\t10\t7');await p.selectOption('#pasteSrc','Gradebook');await p.click('#pasteGo');await p.waitForTimeout(300);
+await p.click('#mGo');await p.waitForTimeout(300);
+console.log(await p.evaluate(()=>document.querySelector('[role=status]')?.innerText));
+console.log(await p.evaluate(()=>JSON.stringify(DB.scores)));
+await p.click('aside [data-go=overview]');await p.waitForTimeout(200);await p.screenshot({path:OUT+'/after.png',fullPage:true});
+console.log('ERR',errs);await b.close();})();
