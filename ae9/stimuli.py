@@ -3,7 +3,7 @@
 # Copyright basis (Units 8-9 rule): Hansard (Open Parliament Licence v3.0); EU documents (EUR-Lex / europa.eu,
 # Decision 2011/833/EU, CC BY 4.0); UN official documents; U.S. government works; texts published in 1930 or earlier;
 # CC BY data; Bundesarchiv images (CC BY-SA 3.0 DE). Cuts are marked with ellipses; bracketed words are clarifications.
-VERSION = "2026-11-09f"
+VERSION = "2026-11-09g"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -25,19 +25,21 @@ OPL = "Contains Parliamentary information licensed under the Open Parliament Lic
 STIM = {
 # ============================== EXAM ==============================
 "X1": P([
-    "It would be at once wrong and impossible to conceal the divergencies of view which exist inevitably between the victors* about the state of affairs in Eastern and Middle Europe. … We British have had very early and increasingly to recognise the limitations of our own power and influence, great though it be, in the gaunt world arising from the ruins of this hideous war. …",
-    "I am particularly concerned, at this moment, with the reports reaching us of the conditions under which the expulsion and exodus of Germans from the new Poland are being carried out. Between 8,000,000 and 9,000,000 persons dwelt in those regions before the war. … But enormous numbers are utterly unaccounted for. Where are they gone, and what has been their fate? The same conditions may reproduce themselves in a more modified form in the expulsion of great numbers of Sudeten and other Germans from Czechoslovakia. Sparse and guarded accounts of what has happened and is happening have filtered through, but it is not impossible that tragedy on a prodigious scale is unfolding itself behind the iron curtain which at the moment divides Europe in twain. …",
-    "… not many Members will be content with the situation in that region [the Balkans] to which I have referred, for almost everywhere Communist forces have obtained, or are in process of obtaining, dictatorial powers. It does not mean that the Communist system is everywhere being established, nor does it mean that Soviet Russia seeks to reduce all those independent States to provinces of the Soviet Union. … Nevertheless we must know where we stand, and we must make clear where we stand in these affairs of the Balkans and of Eastern Europe, and indeed of any country which comes into this field. Our idea is government of the people, by the people, for the people—the people being free without duress to express, by secret ballot without intimidation, their deep-seated wish as to the form and conditions of the Government under which they are to live."],
-    "Winston Churchill, former prime minister of Britain and leader of the opposition after losing the July 1945 election, speech in the House of Commons, August 16, 1945",
-    "Text from Hansard, House of Commons Debates, 5th series, vol. 413, cols. 83–85 (August 16, 1945). " + OPL + "; adapted",
-    footnotes=[{"mark": "*", "text": "The victors were Britain, the United States, and the Soviet Union, whose leaders had met at Potsdam, near Berlin, in July and August 1945."}],
-    glossary=[{"t": "divergencies", "d": "differences"},
-              {"t": "gaunt", "d": "bleak and bare"},
-              {"t": "exodus", "d": "mass departure"},
-              {"t": "Sudeten Germans", "d": "German-speaking people who lived in Czechoslovakia"},
-              {"t": "prodigious", "d": "enormous"},
-              {"t": "in twain", "d": "in two"},
-              {"t": "duress", "d": "force or threats"}]),
+    "… The Three Powers note that the Polish Provisional Government in accordance with the decisions of the Crimea Conference* has agreed to the holding of free and unfettered elections as soon as possible on the basis of universal suffrage and secret ballot in which all democratic and anti-Nazi parties shall have the right to take part and to put forward candidates; and that representatives of the Allied Press shall enjoy full freedom to report to the world upon developments in Poland before and during the elections. …",
+    "… The Three Governments have no doubt that in view of the changed conditions resulting from the termination of the war in Europe, representatives of the Allied Press will enjoy full freedom to report to the world upon developments in Roumania, Bulgaria, Hungary and Finland. …",
+    "… The Three Governments, having considered the question in all its aspects, recognise that the transfer to Germany of German populations, or elements thereof, remaining in Poland, Czechoslovakia and Hungary, will have to be undertaken. They agree that any transfers that take place should be effected in an orderly and humane manner. …",
+    "… The Czechoslovak Government, the Polish Provisional Government and the Control Council in Hungary are at the same time being informed of the above and are being requested meanwhile to suspend further expulsions …"],
+    "Protocol of the Potsdam Conference, agreed by the leaders of the Soviet Union (Joseph Stalin), the United States (Harry Truman), and Britain (Clement Attlee), August 1, 1945",
+    "Text from Foreign Relations of the United States: The Conference of Berlin (The Potsdam Conference), 1945, vol. II (Washington: U.S. Government Printing Office, 1960), document 1383, pp. 1491–1495 (U.S. government work, public domain); adapted",
+    footnotes=[{"mark": "*", "text": "The Crimea Conference was the meeting of the Allied leaders at Yalta in February 1945."}],
+    glossary=[{"t": "the Three Powers", "d": "the Soviet Union, the United States, and Britain"},
+              {"t": "Polish Provisional Government", "d": "the temporary government of Poland, set up in 1945 to rule until elections were held"},
+              {"t": "unfettered", "d": "free from limits"},
+              {"t": "universal suffrage", "d": "the right of all adult citizens to vote"},
+              {"t": "Allied Press", "d": "newspaper reporters from the Allied countries"},
+              {"t": "Roumania", "d": "Romania"},
+              {"t": "elements thereof", "d": "parts of those populations"},
+              {"t": "the Control Council in Hungary", "d": "the Allied commission, chaired by the Soviet Union, that oversaw defeated Hungary"}]),
 
 "X2": P([
     "This Bill brings to an end one chapter in the long connection between Britain and India, but it opens another. British rule which has endured so long is now, at the instance of this country, coming to an end.",
@@ -426,7 +428,7 @@ STIM = {
 
 # Raw files used by the excerpt checker (not part of the bank). Paths are relative to ae9/sources/raw/.
 RAWMAP = {
-    "X1": ["hansard/hc_1945-08-16_debate-on-the-address.txt"],
+    "X1": ["usgov/frus1945Berlinv02_d1383.txt"],
     "X2": ["hansard/hc_1947-07-10_indian-independence-bill.txt"],
     "X3.1": ["hansard/hc_1990-10-30_european-council-rome.txt"],
     "X3.2": ["eu/eurlex_11992M_TXT.txt"],

@@ -4,7 +4,7 @@
  "period": "c. 1914–present",
  "examWeighting": "10–15%",
  "blurb": "The Cold War division of Europe and its end, rebuilding and the welfare state, the revolts in the Soviet bloc, decolonization, European integration, migration, feminism, technology, globalization, and culture from 1914 to the present.",
- "version": "2026-11-09f",
+ "version": "2026-11-09g",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 9: Learning Objectives A-P).",
  "topics": [
   {
@@ -118,46 +118,51 @@
   "X1": {
    "type": "passage",
    "paragraphs": [
-    "It would be at once wrong and impossible to conceal the divergencies of view which exist inevitably between the victors* about the state of affairs in Eastern and Middle Europe. … We British have had very early and increasingly to recognise the limitations of our own power and influence, great though it be, in the gaunt world arising from the ruins of this hideous war. …",
-    "I am particularly concerned, at this moment, with the reports reaching us of the conditions under which the expulsion and exodus of Germans from the new Poland are being carried out. Between 8,000,000 and 9,000,000 persons dwelt in those regions before the war. … But enormous numbers are utterly unaccounted for. Where are they gone, and what has been their fate? The same conditions may reproduce themselves in a more modified form in the expulsion of great numbers of Sudeten and other Germans from Czechoslovakia. Sparse and guarded accounts of what has happened and is happening have filtered through, but it is not impossible that tragedy on a prodigious scale is unfolding itself behind the iron curtain which at the moment divides Europe in twain. …",
-    "… not many Members will be content with the situation in that region [the Balkans] to which I have referred, for almost everywhere Communist forces have obtained, or are in process of obtaining, dictatorial powers. It does not mean that the Communist system is everywhere being established, nor does it mean that Soviet Russia seeks to reduce all those independent States to provinces of the Soviet Union. … Nevertheless we must know where we stand, and we must make clear where we stand in these affairs of the Balkans and of Eastern Europe, and indeed of any country which comes into this field. Our idea is government of the people, by the people, for the people—the people being free without duress to express, by secret ballot without intimidation, their deep-seated wish as to the form and conditions of the Government under which they are to live."
+    "… The Three Powers note that the Polish Provisional Government in accordance with the decisions of the Crimea Conference* has agreed to the holding of free and unfettered elections as soon as possible on the basis of universal suffrage and secret ballot in which all democratic and anti-Nazi parties shall have the right to take part and to put forward candidates; and that representatives of the Allied Press shall enjoy full freedom to report to the world upon developments in Poland before and during the elections. …",
+    "… The Three Governments have no doubt that in view of the changed conditions resulting from the termination of the war in Europe, representatives of the Allied Press will enjoy full freedom to report to the world upon developments in Roumania, Bulgaria, Hungary and Finland. …",
+    "… The Three Governments, having considered the question in all its aspects, recognise that the transfer to Germany of German populations, or elements thereof, remaining in Poland, Czechoslovakia and Hungary, will have to be undertaken. They agree that any transfers that take place should be effected in an orderly and humane manner. …",
+    "… The Czechoslovak Government, the Polish Provisional Government and the Control Council in Hungary are at the same time being informed of the above and are being requested meanwhile to suspend further expulsions …"
    ],
-   "attribution": "Winston Churchill, former prime minister of Britain and leader of the opposition after losing the July 1945 election, speech in the House of Commons, August 16, 1945",
-   "translation": "Text from Hansard, House of Commons Debates, 5th series, vol. 413, cols. 83–85 (August 16, 1945). Contains Parliamentary information licensed under the Open Parliament Licence v3.0; adapted",
+   "attribution": "Protocol of the Potsdam Conference, agreed by the leaders of the Soviet Union (Joseph Stalin), the United States (Harry Truman), and Britain (Clement Attlee), August 1, 1945",
+   "translation": "Text from Foreign Relations of the United States: The Conference of Berlin (The Potsdam Conference), 1945, vol. II (Washington: U.S. Government Printing Office, 1960), document 1383, pp. 1491–1495 (U.S. government work, public domain); adapted",
    "footnotes": [
     {
      "mark": "*",
-     "text": "The victors were Britain, the United States, and the Soviet Union, whose leaders had met at Potsdam, near Berlin, in July and August 1945."
+     "text": "The Crimea Conference was the meeting of the Allied leaders at Yalta in February 1945."
     }
    ],
    "glossary": [
     {
-     "t": "divergencies",
-     "d": "differences"
+     "t": "the Three Powers",
+     "d": "the Soviet Union, the United States, and Britain"
     },
     {
-     "t": "gaunt",
-     "d": "bleak and bare"
+     "t": "Polish Provisional Government",
+     "d": "the temporary government of Poland, set up in 1945 to rule until elections were held"
     },
     {
-     "t": "exodus",
-     "d": "mass departure"
+     "t": "unfettered",
+     "d": "free from limits"
     },
     {
-     "t": "Sudeten Germans",
-     "d": "German-speaking people who lived in Czechoslovakia"
+     "t": "universal suffrage",
+     "d": "the right of all adult citizens to vote"
     },
     {
-     "t": "prodigious",
-     "d": "enormous"
+     "t": "Allied Press",
+     "d": "newspaper reporters from the Allied countries"
     },
     {
-     "t": "in twain",
-     "d": "in two"
+     "t": "Roumania",
+     "d": "Romania"
     },
     {
-     "t": "duress",
-     "d": "force or threats"
+     "t": "elements thereof",
+     "d": "parts of those populations"
+    },
+    {
+     "t": "the Control Council in Hungary",
+     "d": "the Allied commission, chaired by the Soviet Union, that oversaw defeated Hungary"
     }
    ]
   },
@@ -2387,21 +2392,21 @@
     "lo": "A",
     "skill": "4.B",
     "difficulty": "medium",
-    "stem": "Churchill's concerns in the passage are best understood in the context of",
+    "stem": "The agreements in the passage are best understood in the context of which of the following?",
     "options": {
-     "A": "plans to rebuild the economies of defeated Axis states",
-     "B": "debates over independence movements in Europe's overseas empires",
-     "C": "disagreements among the wartime Allies over Eastern Europe",
-     "D": "efforts to prosecute Nazi leaders for war crimes"
+     "A": "the Soviet blockade of West Berlin and the Western airlift that followed",
+     "B": "debates over independence movements in the overseas empires of Britain and France",
+     "C": "the victorious Allies' efforts to settle postwar Europe after Germany's defeat",
+     "D": "the creation of the European Coal and Steel Community"
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. Churchill talks about political control and the expulsion of Germans, not about rebuilding economies.",
-     "B": "Incorrect. The passage is about Europe, not about independence movements in colonies overseas.",
-     "C": "Correct. Churchill speaks of \"divergencies of view\" among \"the victors\" about Eastern Europe. Britain and the United States wanted free elections there. Soviet troops held the region.",
-     "D": "Incorrect. Churchill discusses governments and expulsions in Eastern Europe, not war-crimes trials."
+     "A": "Incorrect. The Berlin blockade began in 1948, three years after this agreement.",
+     "B": "Incorrect. The passage is about Poland, Germany, and other states in Europe, not about colonies overseas.",
+     "C": "Correct. In July and August 1945, the leaders of the Soviet Union, the United States, and Britain met at Potsdam, near Berlin, to decide the future of Germany and Eastern Europe.",
+     "D": "Incorrect. Six Western European states founded the European Coal and Steel Community in 1951. It was not part of the Potsdam agreements."
     },
-    "explanation": "At the end of World War II, the Allies disagreed about Poland and the rest of Eastern Europe. Soviet armies held the region. Communists there were taking power. Churchill warned that an \"iron curtain\" now divided Europe."
+    "explanation": "Germany surrendered in May 1945. At Potsdam, Stalin, Truman, and Attlee tried to settle the postwar order. Soviet armies already held most of Eastern Europe. The Western leaders asked for promises of free elections and a free press there, but they had little power to enforce them."
    },
    {
     "id": "E9-E02",
@@ -2410,7 +2415,7 @@
     "lo": "C",
     "skill": "3.D",
     "difficulty": "medium",
-    "stem": "Which of the following later developments would best support Churchill's claim that \"Communist forces have obtained, or are in process of obtaining, dictatorial powers\" in the Balkans and Eastern Europe?",
+    "stem": "Which of the following later developments most clearly shows that the hopes for free elections and a free press expressed in the passage were not met?",
     "options": {
      "A": "Communist parties took over Bulgaria, Romania, Hungary, and Poland by 1949.",
      "B": "Finland kept a democratic government after the war.",
@@ -2419,12 +2424,12 @@
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Bulgaria's communists executed the opposition leader Nikola Petkov in 1947. Romania's king was forced to give up his throne that December. Poland's communists won rigged elections in 1947. Hungary's communists pushed out their rivals by 1949.",
-     "B": "Incorrect. Finland stayed a democracy. That gives no evidence of communists taking power in the region Churchill discusses.",
-     "C": "Incorrect. Austria regained full independence in 1955 and stayed a democracy. That gives no evidence of communists taking power in Eastern Europe.",
-     "D": "Incorrect. The communist defeat in Greece shows the opposite of Churchill's claim. Greece stayed out of the Soviet bloc."
+     "A": "Correct. Poland's communists won rigged elections in 1947. Bulgaria's communists executed the opposition leader Nikola Petkov that year. Romania's king was forced to give up his throne that December. Hungary's communists pushed out their rivals by 1949.",
+     "B": "Incorrect. Finland is named in the passage, but it stayed a democracy. That shows a hope that was met, not one that failed.",
+     "C": "Incorrect. Austria regained full independence in 1955 and stayed a democracy. It is not one of the countries named in the passage.",
+     "D": "Incorrect. Greece is not named in the passage, and its government defeated the communist rebels. Greece stayed out of the Soviet bloc."
     },
-    "explanation": "From 1945 to 1949, communist parties backed by the Soviet Union took power in the Balkans and Eastern Europe. They used rigged elections, arrests, and threats."
+    "explanation": "From 1945 to 1949, communist parties backed by the Soviet Union took power in Poland, Hungary, Romania, and Bulgaria. They used rigged elections, arrests, censorship, and threats. The promises made at Yalta and Potsdam were not kept."
    },
    {
     "id": "E9-E03",
@@ -2433,7 +2438,7 @@
     "lo": "E",
     "skill": "1.A",
     "difficulty": "medium",
-    "stem": "Churchill's description of the expulsion of Germans best illustrates which postwar development?",
+    "stem": "The \"transfer to Germany of German populations\" described in the passage best illustrates which postwar development?",
     "options": {
      "A": "ethnic cleansing after 1945",
      "B": "the return of Holocaust survivors",
@@ -2443,11 +2448,11 @@
     "answer": "A",
     "rationales": {
      "A": "Correct. Between 1945 and 1950, about 12 million Germans fled or were driven out of Poland, Czechoslovakia, and other states. Many died on the way. Driving out a people because of its nationality is called ethnic cleansing.",
-     "B": "Incorrect. Churchill describes Germans being driven out, not Jewish survivors going home. Many survivors who tried to return home met hostility, and many left Eastern Europe.",
-     "C": "Incorrect. Guest workers came to West Germany in the 1950s and 1960s to fill jobs. Churchill describes Germans being forced out in 1945.",
-     "D": "Incorrect. Millions of East Germans moved west before the Berlin Wall went up in 1961. But Churchill describes something else: Germans driven out of Poland and Czechoslovakia."
+     "B": "Incorrect. The passage describes Germans being moved out of Poland, Czechoslovakia, and Hungary, not Jewish survivors going home. Many survivors who tried to return home met hostility, and many left Eastern Europe.",
+     "C": "Incorrect. Guest workers came to West Germany in the 1950s and 1960s to fill jobs. The passage describes Germans being forced out in 1945.",
+     "D": "Incorrect. Millions of East Germans moved west before the Berlin Wall went up in 1961. The passage describes something else: Germans driven out of Poland, Czechoslovakia, and Hungary."
     },
-    "explanation": "During and after World War II, millions of Germans fled or were driven out of Poland, Czechoslovakia, and other states. At Potsdam the Allies agreed to the transfer of Germans from Poland, Czechoslovakia, and Hungary and said it should be orderly and humane. In fact, many expulsions were brutal, and many people died. It was one of the largest forced migrations in European history."
+    "explanation": "The passage asks Poland, Czechoslovakia, and Hungary to \"suspend further expulsions,\" which shows that Germans were already being driven out. The Allies said the transfers should be \"orderly and humane.\" In fact, many expulsions were brutal, and many people died. It was one of the largest forced migrations in European history."
    },
    {
     "id": "E9-E04",

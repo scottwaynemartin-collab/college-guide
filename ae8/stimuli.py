@@ -4,7 +4,7 @@
 # second scan, the page image, or a second printing (each one is listed in the source's .md file).
 # Copyright basis for every source is given in ae8/sources/INDEX.md (published by 1930; U.S. government work;
 # UK Parliament Hansard under the Open Parliament Licence; CC BY 4.0 data; public-domain or CC BY-SA images).
-VERSION = "2026-11-09e"
+VERSION = "2026-11-09f"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -114,21 +114,20 @@ STIM = {
                   {"t": "appeasement", "d": "keeping the peace by meeting the demands of a rival"},
                   {"t": "bristles with", "d": "is full of"}]),
     item("Source 2", [
-        "… I will begin by saying what everybody would like to ignore or forget but which must nevertheless be stated, namely, that we have sustained a total and unmitigated defeat, and that France has suffered even more than we have. …",
-        "… The utmost he has been able to gain for Czechoslovakia and in the matters which were in dispute has been that the German dictator, instead of snatching his victuals from the table, has been content to have them served to him course by course. …",
-        "… I have always held the view that the maintenance of peace depends upon the accumulation of deterrents against the aggressor, coupled with a sincere effort to redress grievances. …",
-        "… All is over. Silent, mournful, abandoned, broken, Czechoslovakia recedes into the darkness. … You will find that in a period of time which may be measured by years, but may be measured only by months, Czechoslovakia will be engulfed in the Nazi régime. …",
-        "… there can never be friendship between the British democracy and the Nazi Power, that Power which spurns Christian ethics, which cheers its onward course by a barbarous paganism, which vaunts the spirit of aggression and conquest, which derives strength and perverted pleasure from persecution, and uses, as we have seen, with pitiless brutality the threat of murderous force."],
-        "Winston Churchill, member of Parliament from Chamberlain's Conservative Party, speech to the House of Commons, October 5, 1938",
-        "Text from Hansard, House of Commons Debates, 5th series, vol. 339, cols. 360–370 (October 5, 1938), UK Parliament, Open Parliament Licence v3.0; adapted",
-        glossary=[{"t": "unmitigated", "d": "complete; with nothing to soften it"},
-                  {"t": "he", "d": "Prime Minister Chamberlain"},
-                  {"t": "victuals", "d": "food"},
-                  {"t": "deterrents", "d": "things that discourage an attack, such as strong armies and alliances"},
-                  {"t": "redress grievances", "d": "fix complaints that are fair"},
-                  {"t": "engulfed", "d": "swallowed up"},
-                  {"t": "spurns", "d": "rejects with contempt"},
-                  {"t": "vaunts", "d": "boasts about"}])]},
+        "… It was not for Serbia that we fought in 1914. It was not even for Belgium, although it occasionally suited some people to say so. We were fighting then, as we should have been fighting last week, in order that one great Power should not be allowed, in disregard of treaty obligations, of the laws of nations and the decrees of morality to dominate by brutal force the Continent of Europe. …",
+        "… That is the deep difference between the Prime Minister and myself throughout these days. The Prime Minister has believed in addressing Herr Hitler through the language of sweet reasonableness. I have believed that he was more open to the language of the mailed fist. …",
+        "… We are left with the additional serious commitment that we are guaranteeing a frontier that we have at the same time destroyed. We have taken away the defences of Czechoslovakia in the same breath as we have guaranteed them, as though you were to deal a man a mortal blow and at the same time insure his life. …",
+        "… The Prime Minister has confidence in the good will and in the word of Herr Hitler, although when Herr Hitler broke the Treaty of Versailles he undertook to keep the Treaty of Locarno, and when he broke the Treaty of Locarno he undertook not to interfere further, or to have further territorial aims, in Europe. When he entered Austria by force he authorised his henchmen to give an authoritative assurance that he would not interfere with Czechoslovakia. That was less than six months ago. … Do [his promises] mean that Herr Hitler will take \"No\" for an answer? He has never taken it yet. Or do they mean that he believes that he will get away with this, as he has got away with everything else, without fighting, by well-timed bluff, bluster and blackmail? …"],
+        "Duff Cooper, member of Parliament from Chamberlain's Conservative Party, explaining to the House of Commons why he had resigned from the cabinet, October 3, 1938",
+        "Text from Hansard, House of Commons Debates, 5th series, vol. 339, cols. 32–39 (October 3, 1938), UK Parliament, Open Parliament Licence v3.0; adapted",
+        glossary=[{"t": "Serbia", "d": "the Balkan kingdom that Austria-Hungary attacked in 1914, starting World War I"},
+                  {"t": "Belgium", "d": "the neutral country Germany invaded in 1914, which brought Britain into the war"},
+                  {"t": "decrees of morality", "d": "the rules of right and wrong"},
+                  {"t": "sweet reasonableness", "d": "calm, polite argument"},
+                  {"t": "the mailed fist", "d": "the threat of force (a mailed fist is a fist in an armored glove)"},
+                  {"t": "guaranteeing a frontier", "d": "promising to defend a border; at Munich, Britain offered to guarantee Czechoslovakia's new borders"},
+                  {"t": "the Treaty of Locarno", "d": "a 1925 treaty in which Germany accepted its borders with France and Belgium"},
+                  {"t": "bluster", "d": "loud, threatening talk"}])]},
 
 "X7": P([
     "Yes, Sir, I regret to have to inform the House that reliable reports have recently reached His Majesty's Government regarding the barbarous and inhuman treatment to which Jews are being subjected in German-occupied Europe. They have in particular received a note from the Polish Government, which was also communicated to other United Nations* and which has received wide publicity in the Press. …",
@@ -406,19 +405,18 @@ STIM = {
               {"t": "Narew, Vistula, and San", "d": "rivers that run through the middle of Poland"}]),
 
 "P15": P([
-    "… But the great question is, Can we break Hitler's air weapon? …",
-    "… The battle was lost by the unfortunate strategical opening, by the extraordinary and unforeseen power of the armoured columns, and by the great preponderance of the German Army in numbers. …",
-    "… If Hitler can bring under his despotic control the industries of the countries he has conquered, this will add greatly to his already vast armament output. On the other hand, this will not happen immediately, and we are now assured of immense, continuous and increasing support in supplies and munitions of all kinds from the United States, and especially of aeroplanes and pilots from the Dominions and across the oceans, coming from regions which are beyond the reach of enemy bombers. …",
-    "… What General Weygand called the \"Battle of France\" is over. I expect that the battle of Britain is about to begin. … Hitler knows that he will have to break us in this island or lose the war. If we can stand up to him all Europe may be free, and the life of the world may move forward into broad, sunlit uplands; but if we fail then the whole world, including the United States, and all that we have known and cared for, will sink into the abyss of a new dark age made more sinister, and perhaps more prolonged, by the lights of a perverted science. …"],
-    "Winston Churchill, prime minister of Great Britain, speech to the House of Commons, June 18, 1940",
-    "Text from Hansard, House of Commons Debates, 5th series, vol. 362, cols. 56–60 (June 18, 1940), UK Parliament, Open Parliament Licence v3.0; adapted",
-    glossary=[{"t": "strategical opening", "d": "the first moves of the campaign"},
-              {"t": "armoured columns", "d": "long lines of tanks and armored vehicles"},
-              {"t": "preponderance", "d": "greater amount"},
-              {"t": "despotic", "d": "ruling with total, unchecked power"},
-              {"t": "the Dominions", "d": "self-governing parts of the British Empire, such as Canada and Australia"},
-              {"t": "General Weygand", "d": "the commander of the French army in June 1940"},
-              {"t": "perverted", "d": "twisted toward evil uses"}]),
+    "Since England, despite her militarily hopeless situation still shows no sign of willingness to come to terms, I have decided to prepare a landing operation against England, and if necessary to carry it out.",
+    "The aim of this operation is to eliminate the English homeland as a basis for the carrying on of the war against Germany, and if it should become necessary to occupy it completely. …",
+    "1. The Landing must be carried out in the form of a surprise crossing on a broad front approximately from Ramsgate to the area west of the Isle of Wight. … The preparations for the entire operation must be completed by mid-August.",
+    "2. To these preparations also belong the creation of those conditions which make a landing in England possible.",
+    "a. The English air-force must morally and actually be so far overcome, that it does not any longer show any considerable aggressive force against the German attack. …"],
+    "Adolf Hitler, Führer and supreme commander of the German armed forces, General Order (Directive) No. 16, a top-secret order to the German military, July 16, 1940",
+    "English translation by the U.S. prosecution staff at Nuremberg, Nazi Conspiracy and Aggression, vol. 3, pp. 399–400 (document 442-PS) (Washington: U.S. Government Printing Office, 1946); adapted",
+    glossary=[{"t": "come to terms", "d": "agree to make peace"},
+              {"t": "landing operation", "d": "an invasion by troops brought across the sea"},
+              {"t": "from Ramsgate to the area west of the Isle of Wight", "d": "along England's southeastern and southern coast, facing France"},
+              {"t": "morally and actually", "d": "in fighting spirit and in fact"},
+              {"t": "aggressive force", "d": "power to attack"}]),
 
 "P16": P([
     "This book is substantially the course of Gifford Lectures which I delivered in the University of Edinburgh in January to March 1927. It treats of the philosophical outcome of the great changes of scientific thought which have recently come about. The theory of relativity and the quantum theory have led to strange new conceptions of the physical world …",
@@ -441,7 +439,7 @@ RAWMAP = {
     "X2": ["golder1927_documentsofrussi027937mbp.txt", "alt/golder1927_dli88417.txt"],
     "X3": ["web/frus1919Parisv12_d380.html"],
     "X6.1": ["hansard/hc1938-10-03_pm.html"],
-    "X6.2": ["hansard/hc1938-10-05_policy.html"],
+    "X6.2": ["hansard/hc1938-10-03_personal.html"],
     "X7": ["hansard/hc1942-12-17_undecl.html"],
     "X8": ["valery1919_athenaeum_4641.txt"],
     "X9": ["halevy1930_worldcrisisof19100elie.txt", "alt/halevy1930_worldcrisisof1910000elie.txt"],
@@ -459,6 +457,6 @@ RAWMAP = {
     "P11": ["nca1946_v3_naziconspiracyag03unit.txt", "nca1946_v4_naziconspiracyag04unit.txt"],
     "P12": ["nca1946_v4_naziconspiracyag04unit.txt"],
     "P14": ["nazisoviet1948_dli499061.txt", "alt/nazisoviet1948_dos202011.txt"],
-    "P15": ["hansard/hc1940-06-18_war.html"],
+    "P15": ["nca1946_v3_naziconspiracyag03unit.txt"],
     "P16": ["alt/eddington1928_natureofphysical1927eddi.txt", "eddington1928_dli23480.txt"],
 }

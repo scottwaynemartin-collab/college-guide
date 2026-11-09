@@ -4,7 +4,7 @@
  "period": "c. 1914–1945",
  "examWeighting": "10–15%",
  "blurb": "The causes and course of the First World War, the Russian Revolution, the peace settlement, the Great Depression, fascism and Stalin's Soviet Union, appeasement, the Second World War, the Holocaust, and the doubts about reason and progress that followed.",
- "version": "2026-11-09e",
+ "version": "2026-11-09f",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 8: Learning Objectives A-N). Exam sets have 2-4 questions, as on the AP exam.",
  "topics": [
   {
@@ -343,46 +343,45 @@
     {
      "label": "Source 2",
      "paragraphs": [
-      "… I will begin by saying what everybody would like to ignore or forget but which must nevertheless be stated, namely, that we have sustained a total and unmitigated defeat, and that France has suffered even more than we have. …",
-      "… The utmost he has been able to gain for Czechoslovakia and in the matters which were in dispute has been that the German dictator, instead of snatching his victuals from the table, has been content to have them served to him course by course. …",
-      "… I have always held the view that the maintenance of peace depends upon the accumulation of deterrents against the aggressor, coupled with a sincere effort to redress grievances. …",
-      "… All is over. Silent, mournful, abandoned, broken, Czechoslovakia recedes into the darkness. … You will find that in a period of time which may be measured by years, but may be measured only by months, Czechoslovakia will be engulfed in the Nazi régime. …",
-      "… there can never be friendship between the British democracy and the Nazi Power, that Power which spurns Christian ethics, which cheers its onward course by a barbarous paganism, which vaunts the spirit of aggression and conquest, which derives strength and perverted pleasure from persecution, and uses, as we have seen, with pitiless brutality the threat of murderous force."
+      "… It was not for Serbia that we fought in 1914. It was not even for Belgium, although it occasionally suited some people to say so. We were fighting then, as we should have been fighting last week, in order that one great Power should not be allowed, in disregard of treaty obligations, of the laws of nations and the decrees of morality to dominate by brutal force the Continent of Europe. …",
+      "… That is the deep difference between the Prime Minister and myself throughout these days. The Prime Minister has believed in addressing Herr Hitler through the language of sweet reasonableness. I have believed that he was more open to the language of the mailed fist. …",
+      "… We are left with the additional serious commitment that we are guaranteeing a frontier that we have at the same time destroyed. We have taken away the defences of Czechoslovakia in the same breath as we have guaranteed them, as though you were to deal a man a mortal blow and at the same time insure his life. …",
+      "… The Prime Minister has confidence in the good will and in the word of Herr Hitler, although when Herr Hitler broke the Treaty of Versailles he undertook to keep the Treaty of Locarno, and when he broke the Treaty of Locarno he undertook not to interfere further, or to have further territorial aims, in Europe. When he entered Austria by force he authorised his henchmen to give an authoritative assurance that he would not interfere with Czechoslovakia. That was less than six months ago. … Do [his promises] mean that Herr Hitler will take \"No\" for an answer? He has never taken it yet. Or do they mean that he believes that he will get away with this, as he has got away with everything else, without fighting, by well-timed bluff, bluster and blackmail? …"
      ],
-     "attribution": "Winston Churchill, member of Parliament from Chamberlain's Conservative Party, speech to the House of Commons, October 5, 1938",
-     "translation": "Text from Hansard, House of Commons Debates, 5th series, vol. 339, cols. 360–370 (October 5, 1938), UK Parliament, Open Parliament Licence v3.0; adapted",
+     "attribution": "Duff Cooper, member of Parliament from Chamberlain's Conservative Party, explaining to the House of Commons why he had resigned from the cabinet, October 3, 1938",
+     "translation": "Text from Hansard, House of Commons Debates, 5th series, vol. 339, cols. 32–39 (October 3, 1938), UK Parliament, Open Parliament Licence v3.0; adapted",
      "glossary": [
       {
-       "t": "unmitigated",
-       "d": "complete; with nothing to soften it"
+       "t": "Serbia",
+       "d": "the Balkan kingdom that Austria-Hungary attacked in 1914, starting World War I"
       },
       {
-       "t": "he",
-       "d": "Prime Minister Chamberlain"
+       "t": "Belgium",
+       "d": "the neutral country Germany invaded in 1914, which brought Britain into the war"
       },
       {
-       "t": "victuals",
-       "d": "food"
+       "t": "decrees of morality",
+       "d": "the rules of right and wrong"
       },
       {
-       "t": "deterrents",
-       "d": "things that discourage an attack, such as strong armies and alliances"
+       "t": "sweet reasonableness",
+       "d": "calm, polite argument"
       },
       {
-       "t": "redress grievances",
-       "d": "fix complaints that are fair"
+       "t": "the mailed fist",
+       "d": "the threat of force (a mailed fist is a fist in an armored glove)"
       },
       {
-       "t": "engulfed",
-       "d": "swallowed up"
+       "t": "guaranteeing a frontier",
+       "d": "promising to defend a border; at Munich, Britain offered to guarantee Czechoslovakia's new borders"
       },
       {
-       "t": "spurns",
-       "d": "rejects with contempt"
+       "t": "the Treaty of Locarno",
+       "d": "a 1925 treaty in which Germany accepted its borders with France and Belgium"
       },
       {
-       "t": "vaunts",
-       "d": "boasts about"
+       "t": "bluster",
+       "d": "loud, threatening talk"
       }
      ]
     }
@@ -1171,41 +1170,34 @@
   "P15": {
    "type": "passage",
    "paragraphs": [
-    "… But the great question is, Can we break Hitler's air weapon? …",
-    "… The battle was lost by the unfortunate strategical opening, by the extraordinary and unforeseen power of the armoured columns, and by the great preponderance of the German Army in numbers. …",
-    "… If Hitler can bring under his despotic control the industries of the countries he has conquered, this will add greatly to his already vast armament output. On the other hand, this will not happen immediately, and we are now assured of immense, continuous and increasing support in supplies and munitions of all kinds from the United States, and especially of aeroplanes and pilots from the Dominions and across the oceans, coming from regions which are beyond the reach of enemy bombers. …",
-    "… What General Weygand called the \"Battle of France\" is over. I expect that the battle of Britain is about to begin. … Hitler knows that he will have to break us in this island or lose the war. If we can stand up to him all Europe may be free, and the life of the world may move forward into broad, sunlit uplands; but if we fail then the whole world, including the United States, and all that we have known and cared for, will sink into the abyss of a new dark age made more sinister, and perhaps more prolonged, by the lights of a perverted science. …"
+    "Since England, despite her militarily hopeless situation still shows no sign of willingness to come to terms, I have decided to prepare a landing operation against England, and if necessary to carry it out.",
+    "The aim of this operation is to eliminate the English homeland as a basis for the carrying on of the war against Germany, and if it should become necessary to occupy it completely. …",
+    "1. The Landing must be carried out in the form of a surprise crossing on a broad front approximately from Ramsgate to the area west of the Isle of Wight. … The preparations for the entire operation must be completed by mid-August.",
+    "2. To these preparations also belong the creation of those conditions which make a landing in England possible.",
+    "a. The English air-force must morally and actually be so far overcome, that it does not any longer show any considerable aggressive force against the German attack. …"
    ],
-   "attribution": "Winston Churchill, prime minister of Great Britain, speech to the House of Commons, June 18, 1940",
-   "translation": "Text from Hansard, House of Commons Debates, 5th series, vol. 362, cols. 56–60 (June 18, 1940), UK Parliament, Open Parliament Licence v3.0; adapted",
+   "attribution": "Adolf Hitler, Führer and supreme commander of the German armed forces, General Order (Directive) No. 16, a top-secret order to the German military, July 16, 1940",
+   "translation": "English translation by the U.S. prosecution staff at Nuremberg, Nazi Conspiracy and Aggression, vol. 3, pp. 399–400 (document 442-PS) (Washington: U.S. Government Printing Office, 1946); adapted",
    "glossary": [
     {
-     "t": "strategical opening",
-     "d": "the first moves of the campaign"
+     "t": "come to terms",
+     "d": "agree to make peace"
     },
     {
-     "t": "armoured columns",
-     "d": "long lines of tanks and armored vehicles"
+     "t": "landing operation",
+     "d": "an invasion by troops brought across the sea"
     },
     {
-     "t": "preponderance",
-     "d": "greater amount"
+     "t": "from Ramsgate to the area west of the Isle of Wight",
+     "d": "along England's southeastern and southern coast, facing France"
     },
     {
-     "t": "despotic",
-     "d": "ruling with total, unchecked power"
+     "t": "morally and actually",
+     "d": "in fighting spirit and in fact"
     },
     {
-     "t": "the Dominions",
-     "d": "self-governing parts of the British Empire, such as Canada and Australia"
-    },
-    {
-     "t": "General Weygand",
-     "d": "the commander of the French army in June 1940"
-    },
-    {
-     "t": "perverted",
-     "d": "twisted toward evil uses"
+     "t": "aggressive force",
+     "d": "power to attack"
     }
    ]
   },
@@ -2252,7 +2244,7 @@
    "lo": "K",
    "skill": "1.A",
    "difficulty": "easy",
-   "stem": "Churchill's explanation of why the battle in France was lost best describes which method of war?",
+   "stem": "Hitler calls England's situation \"militarily hopeless\" in July 1940. Germany had just won its victories on the continent mainly by which method of war?",
    "options": {
     "A": "Trench warfare",
     "B": "Blitzkrieg",
@@ -2260,60 +2252,59 @@
     "D": "Guerrilla warfare"
    },
    "answer": "B",
-   "explanation": "Blitzkrieg means \"lightning war.\" Masses of tanks and planes broke through the enemy's lines and moved fast. In May and June 1940 German \"armoured columns\" broke through the French front and defeated France in about six weeks.",
+   "explanation": "Blitzkrieg means \"lightning war.\" Masses of tanks and planes broke through the enemy's lines and moved fast. In May and June 1940 Germany used it to defeat the Netherlands, Belgium, and France in about six weeks. British troops escaped from Dunkirk, but Britain now stood almost alone.",
    "whyNot": {
     "A": "Trench warfare was slow fighting from fixed lines, as in the First World War. In 1940 the German army moved fast.",
-    "C": "A naval blockade cuts off supplies by sea. Churchill is explaining a battle fought on land in France.",
-    "D": "Guerrilla warfare is fought by small bands, often hiding among civilians. The German attack was made by huge regular armies."
+    "C": "A naval blockade cuts off supplies by sea. Germany defeated France in a land campaign led by tanks and planes.",
+    "D": "Guerrilla warfare is fought by small bands, often hiding among civilians. The German attacks were made by huge regular armies."
    },
-   "hint": "Churchill mentions the \"extraordinary and unforeseen power of the armoured columns.\" What was this kind of attack called?"
+   "hint": "Think about how Germany defeated France in only about six weeks in 1940. What was that fast-moving kind of attack called?"
   },
   {
    "id": "E8-P44",
    "set": "P15",
    "topic": "8.8",
    "lo": "K",
-   "skill": "5.B",
+   "skill": "4.B",
    "difficulty": "medium",
-   "stem": "Churchill's prediction that \"the battle of Britain is about to begin\" was fulfilled when",
+   "stem": "Hitler's complaint that England \"shows no sign of willingness to come to terms\" is best understood in the context of which of the following?",
    "options": {
-    "A": "German and British air forces fought for control of the skies over Britain",
-    "B": "German troops landed on England's southern coast and moved toward London",
-    "C": "German submarines attacked supply ships crossing the Atlantic Ocean",
-    "D": "Italian armies invaded British-ruled Egypt from Libya"
+    "A": "Britain's refusal under Churchill to make peace after France fell",
+    "B": "Britain's wartime alliance with the Soviet Union against Germany",
+    "C": "the entry of the United States into the war on Britain's side",
+    "D": "Britain's acceptance of German demands at the Munich Conference"
    },
    "answer": "A",
-   "explanation": "From July to October 1940, the German air force tried to destroy the Royal Air Force. Germany wanted control of the air before an invasion. British fighter pilots, helped by radar, held on, and Hitler put off the invasion.",
+   "explanation": "France signed an armistice with Germany on June 22, 1940. Hitler expected Britain to make peace too. Churchill's government refused to talk terms, so Hitler ordered plans for an invasion.",
    "whyNot": {
-    "B": "Germany never invaded Britain. It called off its invasion plans after failing to defeat the Royal Air Force.",
-    "C": "Submarine attacks were part of the Battle of the Atlantic, which lasted from 1939 to 1945.",
-    "D": "Italy did attack Egypt in September 1940, but that was a campaign in North Africa, not the battle for Britain itself."
+    "B": "In July 1940 the Soviet Union was still bound to Germany by the Nazi–Soviet Pact. Britain and the Soviet Union became allies only after Germany invaded the Soviet Union in June 1941.",
+    "C": "The United States entered the war in December 1941, after Japan attacked Pearl Harbor. In 1940 it sold Britain supplies but stayed out of the fighting.",
+    "D": "At Munich in 1938 Britain gave in to Hitler. In 1940 Britain did the opposite and refused to make peace."
    },
-   "hint": "Churchill asks, \"Can we break Hitler's air weapon?\" Where was the battle of Britain fought?",
-   "reasoning": "Causation"
+   "hint": "The order is dated July 16, 1940. France had just surrendered. What did Britain's new government decide to do?"
   },
   {
    "id": "E8-P45",
    "set": "P15",
    "topic": "8.8",
    "lo": "K",
-   "skill": "3.D",
+   "skill": "5.B",
    "difficulty": "medium",
-   "stem": "Which of the following later developments best supports Churchill's hope that Britain could hold out and win?",
+   "stem": "Which of the following best explains why Germany never carried out the landing operation ordered in the directive?",
    "options": {
-    "A": "Italy's entry into the war as Germany's ally against Britain",
-    "B": "France's armistice with Germany and the new Vichy government",
-    "C": "The division of Poland between Germany and the Soviet Union",
-    "D": "The Soviet and American entry into the war against Germany"
+    "A": "The United States entered the war against Germany in December 1941.",
+    "B": "The Soviet army defeated a German army at Stalingrad in early 1943.",
+    "C": "German troops were sent to help Italy in North Africa in early 1941.",
+    "D": "The German air force failed to defeat the Royal Air Force in the Battle of Britain."
    },
    "answer": "D",
-   "explanation": "Germany invaded the Soviet Union in June 1941. Japan attacked Pearl Harbor on December 7, 1941, and four days later Germany declared war on the United States. American factories and troops made the Allies much stronger. The Soviet army defeated huge German armies, though it suffered immense losses.",
+   "explanation": "Point 2a says the invasion depended on beating the British air force first. From July to October 1940, the German air force tried to destroy the Royal Air Force. British fighter pilots, helped by radar, held on. In September 1940 Hitler put off the invasion, and he soon turned his plans toward the Soviet Union.",
    "whyNot": {
-    "A": "Italy declared war on Britain and France on June 10, 1940, before this speech. That made Britain's position harder.",
-    "B": "France signed an armistice with Germany on June 22, 1940, and a new French government at Vichy worked with the Germans. Losing France as an ally made Britain's position harder.",
-    "C": "Germany and the Soviet Union divided Poland in 1939, before this speech."
+    "A": "The United States entered the war more than a year after Hitler had put off the invasion of Britain in September 1940.",
+    "B": "The battle of Stalingrad came more than two years after Hitler had put off the invasion of Britain.",
+    "C": "German troops went to North Africa in February 1941, months after Hitler had put off the invasion of Britain."
    },
-   "hint": "Churchill already counts on \"support in supplies\" from the United States. Which choice gave Britain powerful new allies?",
+   "hint": "Point 2a names a condition that had to come first. Did Germany ever achieve it?",
    "reasoning": "Causation"
   },
   {
@@ -2734,19 +2725,19 @@
     "difficulty": "medium",
     "stem": "Which of the following best describes a difference between the two sources?",
     "options": {
-     "A": "Chamberlain wants Britain to stop building weapons, while Churchill wants Britain to rearm.",
-     "B": "Chamberlain says the agreement saved Europe from war, while Churchill calls it a defeat that rewarded German threats.",
-     "C": "Chamberlain trusts the League of Nations to protect Czechoslovakia, while Churchill trusts Germany's written promises.",
-     "D": "Chamberlain blames France for the crisis, while Churchill blames Czechoslovakia."
+     "A": "Chamberlain wants Britain to stop building weapons, while Duff Cooper wants Britain to rearm.",
+     "B": "Chamberlain praises settling the crisis by discussion, while Duff Cooper says Hitler respects only force.",
+     "C": "Chamberlain trusts the League of Nations to protect Czechoslovakia, while Duff Cooper trusts Germany's written promises.",
+     "D": "Chamberlain blames France for the crisis, while Duff Cooper blames Czechoslovakia."
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. Chamberlain says Britain cannot \"relax our efforts\" on its \"great programme of rearmament.\" Both men support rearming.",
-     "B": "Correct. Chamberlain says the agreement \"averted a catastrophe.\" Churchill calls it \"a total and unmitigated defeat\" and says Hitler had his demands \"served to him course by course.\"",
-     "C": "Incorrect. Neither speaker relies on the League. Churchill says there can \"never be friendship\" with the Nazi Power.",
-     "D": "Incorrect. Neither speaker blames France or Czechoslovakia. Churchill pities Czechoslovakia as \"abandoned\" and \"broken.\""
+     "A": "Incorrect. Chamberlain says Britain cannot \"relax our efforts\" on its \"great programme of rearmament.\" He does not want Britain to stop building weapons.",
+     "B": "Correct. Chamberlain praises solving the problem \"by discussion instead of by force of arms.\" Duff Cooper says Hitler \"was more open to the language of the mailed fist.\"",
+     "C": "Incorrect. Neither speaker relies on the League. Duff Cooper distrusts Hitler's word and lists promises Hitler had broken.",
+     "D": "Incorrect. Neither speaker blames France or Czechoslovakia. Duff Cooper says Britain has \"taken away the defences of Czechoslovakia.\""
     },
-    "explanation": "Chamberlain says the Munich meeting solved a hard problem \"by discussion instead of by force of arms.\" Churchill calls it a defeat. He says Hitler got what he wanted just by threatening force.",
+    "explanation": "Chamberlain says the Munich meeting solved a hard problem \"by discussion instead of by force of arms.\" Duff Cooper resigned from the cabinet in protest. He says Hitler gives way only to force, and he points to the promises Hitler had already broken.",
     "reasoning": "Comparison"
    },
    {
@@ -2780,7 +2771,7 @@
     "lo": "J",
     "skill": "3.D",
     "difficulty": "medium",
-    "stem": "Which of the following later developments most strongly supports Churchill's prediction in the fourth paragraph?",
+    "stem": "Which of the following later developments most strongly supports Duff Cooper's doubts, in the fourth paragraph of Source 2, about Hitler's promises regarding Czechoslovakia?",
     "options": {
      "A": "The signing of the Nazi–Soviet Pact in August 1939",
      "B": "The German occupation of Prague in March 1939",
@@ -2789,12 +2780,12 @@
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. The Nazi–Soviet Pact opened the way for Germany's attack on Poland. It did not itself bring the Czech lands under German rule.",
-     "B": "Correct. In March 1939, less than six months after Munich, German troops occupied Prague and the rest of the Czech lands. Czechoslovakia was \"engulfed in the Nazi régime,\" as Churchill had warned.",
-     "C": "Incorrect. Italy's invasion of Albania did not affect Czechoslovakia, the state Churchill warned about.",
+     "A": "Incorrect. The Nazi–Soviet Pact opened the way for Germany's attack on Poland. It did not bring the Czech lands under German rule.",
+     "B": "Correct. In March 1939, less than six months after Munich, German troops occupied Prague and the rest of the Czech lands. Hitler broke the Munich Agreement, as Duff Cooper feared.",
+     "C": "Incorrect. Italy, not Germany, invaded Albania. That did not affect Czechoslovakia.",
      "D": "Incorrect. Germany forced Lithuania to give up Memel. Memel was not part of Czechoslovakia."
     },
-    "explanation": "Churchill warned that Czechoslovakia might be \"engulfed\" within months. He was right. In March 1939 Hitler broke the Munich Agreement and took Prague. Britain and France then promised to defend Poland.",
+    "explanation": "Duff Cooper lists promises Hitler had broken, including an assurance that he \"would not interfere with Czechoslovakia.\" In March 1939 Hitler broke the Munich Agreement and took Prague. Britain and France then promised to defend Poland.",
     "reasoning": "Causation"
    },
    {
