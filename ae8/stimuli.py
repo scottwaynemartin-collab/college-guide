@@ -4,7 +4,7 @@
 # second scan, the page image, or a second printing (each one is listed in the source's .md file).
 # Copyright basis for every source is given in ae8/sources/INDEX.md (published by 1930; U.S. government work;
 # UK Parliament Hansard under the Open Parliament Licence; CC BY 4.0 data; public-domain or CC BY-SA images).
-VERSION = "2026-11-09d"
+VERSION = "2026-11-09e"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}

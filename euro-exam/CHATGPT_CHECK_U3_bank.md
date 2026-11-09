@@ -1,4 +1,4 @@
-# AP European History — Unit 3 practice bank (v2026-11-09d): full export for independent check
+# AP European History — Unit 3 practice bank (v2026-11-09e): full export for independent check
 
 Unit 3: Absolutism and Constitutionalism, c. 1648–1815 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 3.1 Contextualizing State Building (LO A)
@@ -467,7 +467,7 @@ KEY: D. Explanation: The Dutch saw the act as an attack on their trade. Fights o
 KEY: C. Explanation: Sancho says God meant trade "to unite mankind" in "brotherly love." Then he shows "Christian" traders spreading greed, cruelty, and the slave trade. He judges them by the faith they claim to follow.
   - why not A: Sancho does not praise European rule. He blames European greed for encouraging the "petty Kings" to kill and kidnap.
   - why not B: Sancho says commerce was meant "to unite mankind," so he does not ask for trade to end. He attacks the greed and cruelty of the traders.
-  - why not D: Sancho mocks the traders' love of "money—money—money." He judges them by how they treat people, not by the wealth they bring Britain.
+  - why not D: Sancho says the "grand object" of the traders is "money—money—money," but he does not judge them by the wealth they bring Britain. He judges them by how they treat people.
   - hint: Compare what Sancho says trade was meant to do with what he says Christian traders actually do.
 
 **E3-P32** [Topic 3.4 · LO C · Skill 4.B · medium]  Sancho's criticism of "the Christians' abominable traffic for slaves" is best understood in the context of which of the following?
@@ -941,12 +941,12 @@ KEY: B. Explanation: Long wars against France wore down the Dutch Republic. Mean
 **E3-E15** [Topic 3.6 · LO E · Skill 3.A · medium]  Which of the following best describes Queen Anne's main argument in the speech?
 - (A) Britain should keep fighting until France gives up its colonies in North America.
 - (B) The peace would keep France and Spain apart and win trade advantages for Britain.
-- (C) The peace would place the emperor's son on the throne of Spain.
+- (C) The peace would place the Austrian Habsburg claimant on the throne of Spain.
 - (D) Parliament alone should decide whether Britain makes war or makes peace.
 KEY: B. Explanation: Anne says the peace keeps France and Spain apart, which was "the chief Inducement to begin this War." She says it creates "a real Balance of Power." She also lists new lands and trading rights for Britain.
   - A: Incorrect. Anne is announcing terms of peace, not calling for more war. Under these terms France kept Quebec and the rest of Canada, which it did not lose until 1763.
   - B: Correct. Anne says France and Spain will be "more effectually divided than ever" and lists gains such as Gibraltar, Minorca, Newfoundland, and the Asiento.
-  - C: Incorrect. Anne accepts the Duke of Anjou as king of Spain, as long as he gives up all claim to the crown of France. The emperor's son did not get Spain.
+  - C: Incorrect. Anne accepts the Duke of Anjou as king of Spain, as long as he gives up all claim to the crown of France. The Habsburg claimant, Archduke Charles, did not get Spain. By late 1711 he had become Holy Roman Emperor himself.
   - D: Incorrect. Anne says making peace and war is "the undoubted Prerogative of the Crown." She informs Parliament but does not hand it the decision.
 
 **E3-E16** [Topic 3.4 · LO C · Skill 5.B · Causation · medium]  The agreement described in the last paragraph most directly contributed to which of the following?

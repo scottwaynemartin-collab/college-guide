@@ -4,7 +4,7 @@
  "period": "c. 1648–1815",
  "examWeighting": "10–15%",
  "blurb": "The Fronde and the growth of royal power, the English Civil War and the Glorious Revolution, new economic practices and mercantilism, the Dutch Golden Age, the balance of power, and absolutism in France, Prussia, Austria, and Russia.",
- "version": "2026-11-09d",
+ "version": "2026-11-09e",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 3: Learning Objectives A-H).",
  "topics": [
   {
@@ -2195,7 +2195,7 @@
    "whyNot": {
     "A": "Sancho does not praise European rule. He blames European greed for encouraging the \"petty Kings\" to kill and kidnap.",
     "B": "Sancho says commerce was meant \"to unite mankind,\" so he does not ask for trade to end. He attacks the greed and cruelty of the traders.",
-    "D": "Sancho mocks the traders' love of \"money—money—money.\" He judges them by how they treat people, not by the wealth they bring Britain."
+    "D": "Sancho says the \"grand object\" of the traders is \"money—money—money,\" but he does not judge them by the wealth they bring Britain. He judges them by how they treat people."
    },
    "hint": "Compare what Sancho says trade was meant to do with what he says Christian traders actually do."
   },
@@ -2943,14 +2943,14 @@
     "options": {
      "A": "Britain should keep fighting until France gives up its colonies in North America.",
      "B": "The peace would keep France and Spain apart and win trade advantages for Britain.",
-     "C": "The peace would place the emperor's son on the throne of Spain.",
+     "C": "The peace would place the Austrian Habsburg claimant on the throne of Spain.",
      "D": "Parliament alone should decide whether Britain makes war or makes peace."
     },
     "answer": "B",
     "rationales": {
      "A": "Incorrect. Anne is announcing terms of peace, not calling for more war. Under these terms France kept Quebec and the rest of Canada, which it did not lose until 1763.",
      "B": "Correct. Anne says France and Spain will be \"more effectually divided than ever\" and lists gains such as Gibraltar, Minorca, Newfoundland, and the Asiento.",
-     "C": "Incorrect. Anne accepts the Duke of Anjou as king of Spain, as long as he gives up all claim to the crown of France. The emperor's son did not get Spain.",
+     "C": "Incorrect. Anne accepts the Duke of Anjou as king of Spain, as long as he gives up all claim to the crown of France. The Habsburg claimant, Archduke Charles, did not get Spain. By late 1711 he had become Holy Roman Emperor himself.",
      "D": "Incorrect. Anne says making peace and war is \"the undoubted Prerogative of the Crown.\" She informs Parliament but does not hand it the decision."
     },
     "explanation": "Anne says the peace keeps France and Spain apart, which was \"the chief Inducement to begin this War.\" She says it creates \"a real Balance of Power.\" She also lists new lands and trading rights for Britain."

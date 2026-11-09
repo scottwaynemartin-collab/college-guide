@@ -1,4 +1,4 @@
-# AP European History — Unit 2 practice bank (v2026-11-09d)
+# AP European History — Unit 2 practice bank (v2026-11-09e)
 
 Unit 2: Age of Reformation, c. 1450–c. 1648 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 2.1 Contextualizing 16th- and 17th-Century Challenges and Developments (LO A)
@@ -697,7 +697,7 @@ KEY: C. Explanation: In the early 1500s, a growing population, rising prices, an
 - (B) It placed help for the poor under one office of the national government.
 - (C) It set up royal workshops where able-bodied beggars were made to work for the crown.
 - (D) It made officials in each parish organize help and work for the poor.
-KEY: D. Explanation: The Poor Law of 1601 set up overseers of the poor in each parish. They collected a local tax, helped people who could not work, and set people who could work to work. Vives also wanted "two Senators for each parish" to register the poor, and he wanted no one fit for work to "be idle."
+KEY: D. Explanation: The Poor Law of 1601 required overseers of the poor in each parish. They collected a local tax, helped people who could not work, and set people who could work to work. Vives also wanted "two Senators for each parish" to register the poor, and he wanted no one fit for work to "be idle."
   - why not A: The 1601 law made each parish collect a tax for the poor. Help no longer depended only on gifts.
   - why not B: The law gave this work to officials in each parish, not to one national office.
   - why not C: The law did not set up royal workshops. Each parish bought materials such as wool, flax, and hemp and set its own poor to work.

@@ -2,7 +2,7 @@
 # and documented in ae1/sources/*.md. Cuts are marked with ellipses. Square brackets inside a quotation appear only where
 # the printed edition itself has them (Donnan's and Knight's brackets); the bank adds none. OCR slips were corrected
 # against page images or a second witness (see the .md files).
-VERSION = "2026-11-09d"
+VERSION = "2026-11-09e"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}

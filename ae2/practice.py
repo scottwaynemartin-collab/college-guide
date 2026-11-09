@@ -578,6 +578,6 @@ Q("E2-P48", "P16", "2.6", "E", "5.A",
   ["The 1601 law made each parish collect a tax for the poor. Help no longer depended only on gifts.",
    "The law gave this work to officials in each parish, not to one national office.",
    "The law did not set up royal workshops. Each parish bought materials such as wool, flax, and hemp and set its own poor to work."],
-  "The Poor Law of 1601 set up overseers of the poor in each parish. They collected a local tax, helped people who could not work, and set people who could work to work. Vives also wanted \"two Senators for each parish\" to register the poor, and he wanted no one fit for work to \"be idle.\"",
+  "The Poor Law of 1601 required overseers of the poor in each parish. They collected a local tax, helped people who could not work, and set people who could work to work. Vives also wanted \"two Senators for each parish\" to register the poor, and he wanted no one fit for work to \"be idle.\"",
   "Compare who organized help for the poor and what was expected of people able to work.", reasoning="Comparison"),
 ]

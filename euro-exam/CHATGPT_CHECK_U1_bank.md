@@ -1,4 +1,4 @@
-# AP European History — Unit 1 practice bank (v2026-11-09d)
+# AP European History — Unit 1 practice bank (v2026-11-09e)
 
 Unit 1: Renaissance and Exploration, c. 1450–c. 1648 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 1.1 Contextualizing Renaissance and Discovery (LO A)
@@ -829,7 +829,7 @@ KEY: A. Explanation: The globes and tools show a new interest in the stars and t
 - (B) the expansion of university teaching in Latin theology
 - (C) the collection of Greek and Roman manuscripts by humanist scholars
 - (D) the spread of printed books on practical and religious subjects
-KEY: D. Explanation: Printing made books cheaper and more common. Merchants bought books that taught arithmetic, and Protestant churches printed hymnbooks so that people could sing in their own language.
+KEY: D. Explanation: Printing made books cheaper and more common. Merchants bought books that taught arithmetic, and Protestant reformers had hymnbooks printed so that people could sing in their own language.
   - A: Incorrect. Some rich patrons still ordered handwritten luxury books, but an arithmetic book for merchants and a hymnbook for singing in church were everyday books. The two books in the painting were printed in Germany in the 1520s.
   - B: Incorrect. These books teach arithmetic and hymns for worship. They are not works of Latin theology for university students.
   - C: Incorrect. Humanists did collect ancient Greek and Roman texts, but these books are about business math and Christian worship.
@@ -1108,6 +1108,7 @@ Notes:
   - X5: attribution now says Valla served 'King Alfonso V of Aragon and Sicily, who was then fighting to win the kingdom of Naples' (Alfonso took Naples in 1442).
   - X6: gloss on 'yeomen' changed to fit a noble household ('men ranked below gentlemen; here, attendants who served the earl').
   - X7: trimmed for the timed exam: paragraph 1 now begins '… Of all these nations' (the royal heading and the creation sentence are cut), and the paragraph 'If you do so, you will do well …' is cut, with an ellipsis before 'But, if you do not do this'; glosses 'Don Fernando', 'subduers' and 'servitude' removed; a gloss for 'the King and Queen Doña Juana' added.
+- Review fixes (version 2026-11-09d, from ae1/check_report_final.md): X3's description now says 'an open hymnbook showing words and music' (it said 'printed with', which narrowed E1-E10 for anyone reading the description). No excerpt, attribution or credit line changed in 09d.
 
 ### X1
 ID: X1

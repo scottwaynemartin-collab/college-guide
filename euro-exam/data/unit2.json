@@ -4,7 +4,7 @@
  "period": "c. 1450–c. 1648",
  "examWeighting": "10–15%",
  "blurb": "Luther and the Protestant Reformation, Calvin, the Anabaptists, and the English Reformation; the wars of religion and the Thirty Years' War; the Catholic Reformation; society, family, poor relief, and witch hunts; and Mannerist and Baroque art.",
- "version": "2026-11-09d",
+ "version": "2026-11-09e",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 2: Learning Objectives A-G).",
  "topics": [
   {
@@ -2689,7 +2689,7 @@
     "D": "It made officials in each parish organize help and work for the poor."
    },
    "answer": "D",
-   "explanation": "The Poor Law of 1601 set up overseers of the poor in each parish. They collected a local tax, helped people who could not work, and set people who could work to work. Vives also wanted \"two Senators for each parish\" to register the poor, and he wanted no one fit for work to \"be idle.\"",
+   "explanation": "The Poor Law of 1601 required overseers of the poor in each parish. They collected a local tax, helped people who could not work, and set people who could work to work. Vives also wanted \"two Senators for each parish\" to register the poor, and he wanted no one fit for work to \"be idle.\"",
    "whyNot": {
     "A": "The 1601 law made each parish collect a tax for the poor. Help no longer depended only on gifts.",
     "B": "The law gave this work to officials in each parish, not to one national office.",

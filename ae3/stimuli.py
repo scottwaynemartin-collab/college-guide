@@ -1,7 +1,7 @@
 # AP European History Unit 3 sources. Texts follow the public-domain editions saved in ae3/sources/raw/ and
 # documented in ae3/sources/*.md. Cuts are marked with ellipses; bracketed words are clarifications.
 # OCR slips in the scans were corrected against the page image or a second scan (see the .md files).
-VERSION = "2026-11-09d"
+VERSION = "2026-11-09e"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}

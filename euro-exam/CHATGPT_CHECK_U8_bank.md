@@ -1,4 +1,4 @@
-# AP European History — Unit 8 practice bank (v2026-11-09d)
+# AP European History — Unit 8 practice bank (v2026-11-09e)
 
 Unit 8: 20th-Century Global Conflicts, c. 1914–1945 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 8.1 Contextualizing 20th-Century Global Conflicts (LO A)
@@ -404,7 +404,7 @@ KEY: B. Explanation: Keynes argued that in a slump the government should spend m
 - (A) Democratic governments ended mass unemployment quickly by returning to laissez-faire policies.
 - (B) Britain adopted Soviet-style central planning to run its factories and farms.
 - (C) Failures to end the Depression turned some Europeans against democracy.
-- (D) Voters in western Europe turned away from extreme parties as the economy worsened.
+- (D) Voters across Europe turned away from extreme parties as the economy worsened.
 KEY: C. Explanation: Mosley left the Labour Party, and in 1932 he founded the British Union of Fascists. Like many Europeans, he decided that slow parliamentary governments could not solve the crisis.
   - why not A: Unemployment stayed high in Britain and France through much of the 1930s. Leaving the economy alone did not end it.
   - why not B: Britain did not adopt central planning. It took steps such as leaving the gold standard and raising tariffs, but most industry stayed private.
@@ -525,11 +525,11 @@ KEY: D. Explanation: The Nazis wanted only people they classed as being of "Germ
 - (A) applied to the Jews of other European countries as well as to those of Germany
 - (B) allowed Jews to keep the same political rights as other German citizens, such as voting
 - (C) was based on a person's ancestry rather than on the person's own religious beliefs
-- (D) was the first law in European history to limit the rights of Jews
+- (D) was meant to make Jews convert to Christianity
 KEY: C. Explanation: In earlier centuries, anti-Jewish laws were mostly about religion. A Jew who became a Christian was often accepted. The Nazis claimed that Jews were a separate race. So a person with three Jewish grandparents counted as a Jew, even if that person was a Christian. (The Nazis' idea of a Jewish "race" had no basis in science. To decide who counted, officials checked whether each grandparent had belonged to a Jewish congregation.) This racial hatred of Jews spread in the late 1800s.
   - why not A: In 1935 these laws applied in Germany and to German nationals. They did not reach the Jews living in other countries. Nazi Germany forced laws like these on other lands only after it began to expand in 1938.
   - why not B: The regulation says a Jew "has no right to vote" and "cannot occupy a public office."
-  - why not D: Many earlier laws limited Jews' rights. For example, England expelled its Jews in 1290 and Spain in 1492, and Venice forced Jews to live in a ghetto starting in 1516.
+  - why not D: Pressure on Jews to convert was an older policy. In 1492, for example, Spain ordered all Jews who would not become Christians to leave. Under the Nazi definition, a Jew who became a Christian still counted as a Jew.
   - hint: Look at how the regulation decides who is a Jew. Does it ask what the person believes?
 
 **E8-P36** [Topic 8.9 · LO L · Skill 5.B · Continuity and Change · medium]  Which of the following is the best evidence that the policy shown in the laws became more extreme after 1935?

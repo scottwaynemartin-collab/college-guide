@@ -4,7 +4,7 @@
  "period": "c. 1450–c. 1648",
  "examWeighting": "10–15%",
  "blurb": "The Italian and Northern Renaissance, printing, the new monarchies, the voyages of exploration and the rivalries they caused, the Columbian Exchange, the Atlantic slave trade, and the Commercial Revolution.",
- "version": "2026-11-09d",
+ "version": "2026-11-09e",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 1: Learning Objectives A-O).",
  "topics": [
   {
@@ -2643,7 +2643,7 @@
      "C": "Incorrect. Humanists did collect ancient Greek and Roman texts, but these books are about business math and Christian worship.",
      "D": "Correct. By the 1530s, printers turned out many books on practical subjects such as arithmetic, along with hymnbooks and Bibles."
     },
-    "explanation": "Printing made books cheaper and more common. Merchants bought books that taught arithmetic, and Protestant churches printed hymnbooks so that people could sing in their own language."
+    "explanation": "Printing made books cheaper and more common. Merchants bought books that taught arithmetic, and Protestant reformers had hymnbooks printed so that people could sing in their own language."
    },
    {
     "id": "E1-E11",

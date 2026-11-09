@@ -144,7 +144,7 @@ X("E1-E10", "X3", "1.4", "E", "1.B",
    "Some rich patrons still ordered handwritten luxury books, but an arithmetic book for merchants and a hymnbook for singing in church were everyday books. The two books in the painting were printed in Germany in the 1520s.",
    "These books teach arithmetic and hymns for worship. They are not works of Latin theology for university students.",
    "Humanists did collect ancient Greek and Roman texts, but these books are about business math and Christian worship."],
-  "Printing made books cheaper and more common. Merchants bought books that taught arithmetic, and Protestant churches printed hymnbooks so that people could sing in their own language.",
+  "Printing made books cheaper and more common. Merchants bought books that taught arithmetic, and Protestant reformers had hymnbooks printed so that people could sing in their own language.",
   "B"),
 
 # ---------------- Set X4: Rogers, weeks of work for a year's grain, 1495-1593 (table) ----------------
