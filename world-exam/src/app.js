@@ -82,7 +82,7 @@
   const LOGO = `<svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="none" stroke="#C9A227" stroke-width="3" opacity=".9"/><circle cx="50" cy="50" r="39" fill="none" stroke="#C9A227" stroke-width="1.2" opacity=".5"/><path d="M50 16 L55 45 L84 50 L55 55 L50 84 L45 55 L16 50 L45 45 Z" fill="#E3C464" opacity=".55" transform="rotate(45 50 50)"/><path d="M50 7 L56.5 43.5 L93 50 L56.5 56.5 L50 93 L43.5 56.5 L7 50 L43.5 43.5 Z" fill="#C9A227"/><circle cx="50" cy="50" r="7" fill="#1E2761" stroke="#E3C464" stroke-width="2"/></svg>`;
   const upill = n => `<span class="upill" style="${unitVars(n)}"><i aria-hidden="true"></i>Unit ${n}</span>`;
   function topbar(ctx, acts) {
-    return `<header class="bar"><div class="bar-in"><button class="brand" data-act="home" aria-label="AP Practice Exam, back to start">${LOGO}<span><small>World Compass</small><span class="bt">AP Practice Exam</span></span></button>${ctx ? `<div class="bar-ctx">${ctx}</div>` : ''}<div class="bar-sp"></div><div class="bar-acts">${acts || ''}</div></div></header>`;
+    return `<header class="bar"><div class="bar-in"><button class="brand" data-act="home" aria-label="Practice Exam, back to start">${LOGO}<span><small>World Compass</small><span class="bt">Practice Exam</span></span></button>${ctx ? `<div class="bar-ctx">${ctx}</div>` : ''}<div class="bar-sp"></div><div class="bar-acts">${acts || ''}</div></div></header>`;
   }
   const metaTag = (unit, q) => {
     const d = DATA[unit] || {}; const topic = (d.topics || []).find(t => t.id === q.topic);
@@ -126,7 +126,7 @@
     const ns = avail.reduce((a, u) => a + Object.keys(DATA[u.n].stimuli || {}).length, 0);
     const kpi = (v, k) => `<div class="kpi"><span class="v">${v}</span><span class="k">${k}</span></div>`;
     return topbar('', '') + `<main id="main">
-      <section class="hero"><div class="hero-in"><div class="rose" aria-hidden="true">${LOGO}</div><div class="hero-txt"><div class="eyebrow">World Compass · AP® World History: Modern</div><h1>AP Practice Exam</h1><p class="sub">Read the source, then answer. Practice by topic with every answer explained, then take a timed exam built like the real one.</p>
+      <section class="hero"><div class="hero-in"><div class="rose" aria-hidden="true">${LOGO}</div><div class="hero-txt"><div class="eyebrow">World Compass · AP® World History: Modern</div><h1>Practice Exam</h1><p class="sub">Read the source, then answer. Practice by topic with every answer explained, then take a timed exam built like the real one.</p>
         <div class="kpis" aria-label="What's inside">${kpi(avail.length, avail.length === 1 ? 'Unit ready' : 'Units ready')}${kpi(pq, 'Practice questions')}${kpi(xq, 'Exam questions')}${kpi(ns, 'Sources')}</div></div></div></section>
       ${PERIODS.map(per => `<section class="period" aria-label="${esc(per.name)}"><div class="period-head"><h2>${esc(per.name)}</h2><span class="rule"></span><span class="dates">${esc(per.dates)}</span></div><div class="ugrid">${per.units.map(n => unitCard(UNITS.find(u => u.n === n))).join('')}</div></section>`).join('')}
       <section class="how" aria-label="How it works">
