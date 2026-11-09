@@ -1,0 +1,357 @@
+Title: Review AP Human Geography Bank
+URL: https://chatgpt.com/c/6af0f59d-eecc-83ea-ab2e-7d11d1df7cf1
+Saved from Chrome tab 1294094647 via get_page_text on Nov 8, 2026 (review of the export at commit 6cafc85, Unit 3 v2026-11-08b).
+---
+[User prompt: review all 57 items as an experienced AP Human Geography item writer: (1) single best answer / defensible distractors; (2) factual and arithmetic accuracy incl. languages, religions, diffusion; (3) whether each item needs its stimulus and fits topic/LO/skill; (4) test-taking tells; (5) reading level, respectful treatment; (6) content gaps. Numbered corrections, most serious first, exact replacement wording; keep answer letters unless unfixable.]
+
+ChatGPT said (Worked for 12m 35s):
+
+Scott, I reviewed all 57 items: 32 practice questions and 25 exam questions, including the explanations, whyNot lines, rationales, source notes, and supplied map specifications.
+
+Every existing answer letter can be retained. However, several items need substantive corrections before publication. P22 has the strongest competing interpretation; E15 needs additional evidence to support its key; P20's keyed answer names a variable the graph does not measure. Other important problems involve overgeneralized definitions and explanations that infer more than their stimuli establish.
+
+The numerical work checks out. I independently retrieved the World Bank values, recomputed the chart differences, checked the religion-table percentages, and calculated the music-map distances from the coordinates. For the maps, I checked the supplied geometry and labels; this export does not include the final browser rendering.
+
+Below, P22 means U3-P22, and similarly for the other IDs. All proposed replacements preserve the existing keys.
+
+Prioritized corrections
+
+1. P22 — Remove the potentially defensible distractor and the false rule about geographic scale. Keep E.
+The current explanation rejects C because it supposedly "reverses the scales." Convergence is not inherently global, and divergence is not inherently local. Local audiences can converge by adopting a shared international influence, while different local adaptations can increase variation among places.
+E remains the strongest description, but the current reasoning against C is unsound.
+Replace C with: Local adaptations indicate that Country X is becoming isolated from global media networks.
+Replace whyNot.C with: The adaptation occurs through contact with global media. It does not show that Country X is becoming isolated from those networks.
+Replace the explanation with: Streaming connects fans in Country X to a song circulating around the world. The fans then combine it with a local dance. Global connections can spread a shared cultural influence while local communities adapt it in different ways. Convergence and divergence are not limited to particular geographic scales.
+Keep the existing E. The item is a reasonable medium scale-analysis question; its present choices do not justify "hard."
+
+2. E15 — Establish national unity instead of assuming that religious uniformity produces it. Keep D.
+A large religious majority and government support do not, by themselves, demonstrate a centripetal effect. The item also attributes local conflict to the arrival of immigrants rather than identifying the opposition to their proposed religious institution.
+Replace the stem with: Country N's government supports Religion 1, whose shared festivals strengthen national identity across regions. In one city, some residents oppose an immigrant community's plan to build a house of worship for Religion 2. Which statement best describes religion's role at these two scales?
+Replace D with: Shared religious practices strengthen national unity, while opposition to a minority place of worship creates local division.
+Replace rationale C with: Incorrect. The shared festivals explicitly strengthen national identity. A local dispute does not demonstrate that religion has become unimportant nationally.
+Replace rationale D with: Correct. The shared festivals act as a centripetal force at the national scale. Opposition to the minority community's place of worship creates division at the local scale. A cultural factor can have different effects at different scales.
+Replace rationale E with: Incorrect. The scenario provides no evidence that Religion 2 spread from the national capital through hierarchical diffusion.
+Replace the explanation with: Nationally, the shared festivals strengthen people's connection to their country. Locally, opposition to a minority community's place of worship creates conflict. Religion has different effects at the two scales.
+This preserves the exam's strongest explicit opportunity to assess 5.C.
+
+3. E07 — Correct the overbroad aviation requirement. Keep B.
+The lingua-franca concept is correct. The regulatory statement is too broad: ICAO's detailed guidance allows pilots on international flights to demonstrate proficiency in English or the language used by the ground station. Requirements for controllers serving international routes are different. The technical rule is unnecessary to test the geographic concept. [icao.int]
+Replace the stem with: A pilot whose first language is Portuguese and an air traffic controller whose first language is Japanese use English to communicate during an international flight. English in this interaction is best described as
+Keep the options and B.
+Replace rationale A with: Incorrect. A creole develops in a language-contact setting and is spoken as a first language by a community. This example describes people using an existing language to communicate across language differences.
+Replace rationale E with: Incorrect. A pidgin develops for communication among groups without a shared language. Aviation English is a specialized use of English, not a separate pidgin language.
+Use 1.D for the revised contextual application.
+
+4. P20 — Change "access" to "use" in the key and remove the unsupported speed inference. Keep D.
+The World Bank indicator measures Internet use during the preceding three months. It does not directly measure availability, affordability, connection speed, or the cultural content exchanged. The chart therefore does not itself establish faster communication or time-space convergence. [DataBank]
+Replace D with: Internet use rose in every country shown, but large gaps in use remained in 2024.
+Replace the explanation with: The percentage using the Internet increased in all four countries. However, use remained uneven: about 95% of people in the United States used the Internet in 2024, compared with about 41% in Nigeria. Wider Internet use can make long-distance cultural exchange easier, but this graph does not measure communication speed or show which cultural traits spread.
+The existing numerical whyNot lines are correct.
+
+5. E21–E22 — Separate home-language use, language proficiency, and the timing of change. Keep E21 E and E22 D.
+E21: The graph compares age categories in two years. It does not follow the same individuals, measure fluency, or directly establish whether parents taught the language to their children.
+Replace E21 rationale E with: Correct. The share speaking Orvani at home declined in all four age groups. The largest decline was 36 percentage points among people ages 10–19, from 48 percent to 12 percent.
+Replace E21's explanation with: Compare each pair of bars. Every age group had a lower share using Orvani at home in 2025. The largest decline was among ages 10–19: 48 minus 12 equals 36 percentage points. The bars compare age groups in different years, not the same people. They do not show how well people speak Orvani in other settings.
+E22: The existing rationale for C risks treating a net decline from 1995 to 2025 as evidence against a recovery after 2023. A language could decline substantially, then partially recover, and still finish below its 1995 level.
+Replace E22 rationale C with: Incorrect. The chart has no 2023 measurement or annual trend, so it cannot show whether Orvani use rose, fell, or stabilized after the channel began. It also does not establish urbanization as the cause of a change.
+Replace rationale B with: Incorrect. The channel uses Orvani and can support its continued use. Using a global technology does not, by itself, demonstrate cultural convergence.
+Replace E22's explanation with: Online media can spread widely used languages, but they can also help people maintain minority languages. The channel creates opportunities to use and share Orvani online. It can help preserve cultural differences even when people use the same technology.
+The cautious "can promote" in D is appropriate. Do not turn it into a demonstrated reversal of language decline.
+
+6. P31 — Narrow the conclusion to linguistic assimilation. Keep A.
+The table measures Language F use at home, not whether respondents have lost the ability to speak it. Its three measures also cannot establish that most of an entire culture has disappeared.
+Replace A with: The data suggest increasing linguistic assimilation alongside continued heritage traditions.
+Replace the explanation with: Use of Language F at home is less common in later generations, while proficiency in Country G's language is more common. This pattern is consistent with linguistic assimilation. However, 52% of the third generation still celebrates the festival, so the table does not show complete loss of heritage culture.
+Replace whyNot.D with: Speaking Language F at home does not demonstrate full assimilation into Country G's culture. It shows continuing heritage-language use.
+The existing arithmetic and rejection of B are correct: 52% is a majority.
+
+7. P30 and related feedback — Stop defining assimilation as total cultural disappearance.
+The bank repeatedly treats assimilation as surrendering one's entire culture. That conflicts with P31's sensible recognition that linguistic assimilation can coexist with retained traditions.
+P30 — retain D, but replace its wording with: Acculturation involves adopting cultural traits; assimilation involves becoming less culturally distinct from a dominant group.
+Replace P30's explanation with: Acculturation involves adopting traits through contact with another culture while retaining aspects of one's existing culture. Assimilation involves becoming more similar to a dominant culture, often with reduced use of some heritage practices. These changes can happen unevenly: a person may shift languages while keeping family traditions.
+Apply these specific feedback repairs:
+- P10 whyNot.B: "Assimilation involves adopting a dominant culture and becoming less culturally distinct. These murals instead emphasize the community's Mexican American heritage."
+- P14 whyNot.E: "Assimilation would involve the local population adopting the incoming culture and becoming less culturally distinct. Here the restaurant changes its menu to accommodate local beliefs."
+- P32 whyNot.B: "Assimilation emphasizes adopting a dominant culture. This example specifically describes traditions combining into a shared celebration."
+- E06 rationale E: "Incorrect. The example supports the use of the Cherokee language rather than its replacement by English."
+- E14 rationale A: "Incorrect. The festivals and language programs support a distinctive regional culture rather than its replacement by the dominant culture."
+Also repair the related definition of multiculturalism:
+- P32 whyNot.C: Multiculturalism recognizes the presence and identities of multiple cultural groups. The question focuses more specifically on traditions blending, which is syncretism.
+- P30 whyNot.E: Multiculturalism involves multiple cultural groups maintaining identities within a shared society. It does not require them to remain fully separate.
+
+8. P28, P24, E16–E17, and E20 — Present religious classifications as useful geographic categories, not absolute rules.
+The principal classifications match the AP framework, including Sikhism as universalizing. Keep that classification. The problem is the repeated implication that ethnic religions belong to one homogeneous group, do not accept converts, or necessarily remain near their hearths. The CED expressly allows ethnic religions to spread through relocation. [apcentral.collegeboard.org]
+P28 — keep B.
+Replace the stem with: Which characteristic most directly supports the spread of universalizing religions, such as Christianity, Islam, and Buddhism, through conversion among people from different cultural backgrounds?
+Replace B with: They present their teachings as open to people of many backgrounds and accept converts.
+Replace the explanation with: Universalizing religions present teachings as open to people regardless of ancestry. Conversion helps them spread among cultural groups, along with migration and other contacts. Ethnic religions often have strong links to particular peoples, histories, and places. They may also accept converts and spread through migration.
+Replace whyNot.E with: Concentration near a hearth does not explain conversion across cultural groups. Some ethnic religions have communities far from their hearths, and some universalizing religions remain geographically concentrated.
+The bank's own hypothetical Religion T—seeking converts while retaining 70% of followers in its hearth—demonstrates why the original blanket distinction is unreliable.
+P24 — keep C.
+Replace the explanation with: Hinduism developed in South Asia, and most Hindus in the table live in India and Nepal. It therefore provides the clearest match between an ethnic religion and concentration near its hearth. This is a tendency, not a rule: migration has also established Hindu and Jewish communities far from their hearth regions.
+E16 — keep A.
+Replace the explanation with: Religion P does not actively seek converts, has 94% of its followers in its hearth region, and reaches the table's 1-million-follower threshold in only one region. Together, these characteristics best fit the pattern described in the question.
+"At least one million followers in only one region" does not mean there are no substantial communities elsewhere.
+E17 — keep E.
+Replace rationale A with: Incorrect. The table provides no evidence that rulers adopted the religion before their subjects. Migration of existing followers is more consistent with the pattern described.
+Replace rationale B with: Incorrect. The table does not describe conversion spreading from neighbor to neighbor. Communities outside the hearth can instead result from followers migrating.
+Do not equate "does not actively seek converts" with "cannot gain converts."
+E20 — keep A.
+Replace the explanation with: Buddhist monks, traders, and rulers helped spread Buddhism beyond South Asia through conversion and migration. Most Hindus live in South Asia, although Hindu traditions also spread historically to Southeast Asia and Hindu communities exist around the world.
+This preserves the intended comparison without implying that Hinduism remained geographically stationary. The historical diffusion of both traditions is more complex than their present concentrations alone suggest. [The Pluralism Project +2]
+
+9. E09, P17, P16, P21, P30, and E07 — Use a consistent, accurate account of creolization.
+Two recurring formulations need correction: A creole is not simply any mixture of languages. The pidgin-to-first-language pathway should not be presented as the universal history of every creole.
+For Haitian Creole specifically, the vocabulary/grammar split is too neat. Specialist accounts identify French contributions to both vocabulary and grammar, African influences, and innovations. [dspace.mit.edu]
+E09 — keep B.
+Replace the stem with: Haitian Creole developed in the 1600s and 1700s through contact among speakers of French and several African languages in the French colony of Saint-Domingue, now Haiti. Much of its vocabulary comes from French, and its grammar developed through this language contact and other language changes. Today it is the first language of most Haitians. Its development best illustrates
+Replace rationale A with: Incorrect. The passage describes the emergence of Haitian Creole. It does not establish that another language became extinct.
+The existing rationale incorrectly assumes that A names Haitian Creole as the disappearing language.
+Replace rationale B with: Correct. Contact among French-speaking colonists and enslaved speakers of different African languages contributed to the emergence of a new language. This is an example of creolization in a colonial setting.
+Replace the explanation with: Haitian Creole developed as people who spoke different languages interacted under French colonial rule. It developed its own patterns and rules, and children learned it as their first language. This is an example of creolization.
+P17 — keep C.
+The Tok Pisin example is sound, including its substantial first-language-speaking population. Remove wording suggesting a pidgin is not a real language until it becomes "full." [Survey chapter: Tok Pisin]
+Replace "a simple contact language" in the stem with: a contact language used among people who did not share a first language
+Replace the explanation with: A pidgin develops for communication among people who do not share a first language. One pathway to a creole occurs when a contact language becomes the first language of a community and is used across everyday life. The stem describes that process for Tok Pisin.
+Replace whyNot.A with: The language did not disappear. Tok Pisin continues to be widely used, including as a first language.
+Apply these additional replacements:
+- P16 whyNot.A: "Creolization involves the development of a new community language through sustained language contact. Haitian Creole is an example."
+- P21 whyNot.D: "Borrowing or combining words does not by itself create a creole. This example describes coining words within Icelandic."
+- P30 whyNot.B: "Religious blending is an example of syncretism. Creolization can produce a new community language through sustained language contact, but neither process defines acculturation or assimilation."
+The replacement for E07 rationale A is supplied in correction 3.
+
+10. P12–P15, E03–E04, and E06 — Distinguish the strongest evidence from proof that other processes did not occur.
+Several explanations incorrectly make diffusion categories mutually exclusive or turn missing evidence into evidence of absence.
+- P14 whyNot.C — replace with: Contagious diffusion describes spread through contact among people or nearby places. The key evidence here is that the restaurant model changes to fit local religious practices.
+- E06 rationale C — replace with: Incorrect. Person-to-person spread alone does not describe the central feature here: adapting the idea of writing into a different writing system.
+  Contagious diffusion does not require every detail of a trait to remain unchanged.
+- E06 rationale B — replace with: Incorrect. The example emphasizes how an idea was adapted, rather than the movement of people who carried a trait.
+- E03 — replace the stem with: The order of adoption shown on the map is most consistent with which type of diffusion?
+  Replace rationale B with: Incorrect. The map does not show migration. Its clearest pattern is that larger cities adopted the style before smaller places.
+  Replace rationale D with: Correct. Distant large cities adopted the style before nearby small towns. This sequence fits diffusion down an urban hierarchy better than a progression organized mainly by distance.
+  The map does not establish that adoption occurred without migration.
+- E04 rationale B — replace with: Incorrect. The map contains no migration history, so this particular explanation is not established by the evidence provided.
+- P12 — replace the explanation with: Relocation diffusion occurs when people move and bring cultural practices with them. The arrow represents merchants who moved from Land A, settled in the port town on Land B, and established a place of worship. Later adoption by other residents could involve additional forms of diffusion, but the migration shown by the arrow is relocation diffusion.
+  Replace P12 whyNot.A with: Contagious diffusion involves spread through contact among people or nearby places. The arrow specifically documents migrants moving and settling across the sea.
+  The surrounding shaded area alone does not establish that contagious diffusion produced it.
+- P13 whyNot.C — replace with: Adoption follows distance from Ora rather than a progression from smaller settlements to larger ones. Beginning in a small village does not, by itself, establish reverse hierarchical diffusion.
+- P15 — replace its second sentence with: About two years later it appeared in mid-sized cities, and only after that did stores in the country's largest city, which is also the national capital, begin selling it.
+  Replace P15 whyNot.C with: The stem gives no evidence that migration carried the style. The evidence provided is the order of adoption by settlement size.
+  Replace P15 whyNot.E with: The stem provides no evidence that communities changed the style as they adopted it.
+
+11. E05 — Establish the technological contrast explicitly. Keep E.
+Streaming and social media already existed during 2010–2016. The item needs to state that their availability in hypothetical Country R subsequently increased.
+Replace the stem with: Assume that access to streaming services and social media became much more widespread throughout Country R after 2016. If another music style first appeared in Arlo in 2024, compared with the pattern on the map, its spread would most likely be
+Keep E.
+Replace the explanation with: Wider access to streaming and social media can let people in small towns hear a new style at nearly the same time as people in large cities. This can reduce delays associated with distance and city size, although hearing a style does not guarantee adopting it.
+Use medium, rather than "hard," as the provisional difficulty.
+
+12. E18 — Replace the stimulus-independent question with a genuine limitation of the supplied data. Keep C.
+The current item can be answered by knowing the definition of hierarchical diffusion. Nothing about Religion S or the table is necessary.
+The following replacement retains C and assesses 3.F directly.
+Stem: Which comparison cannot be determined from the data in the table?
+Options:
+A. Whether Religion P or Religion R has a higher share of followers living in its hearth region
+B. Whether Religion Q or Religion S reaches the 1-million-follower threshold in more world regions
+C. Whether Religion Q or Religion S has more followers worldwide
+D. Whether Religion Q or Religion T has a higher share of followers living outside its hearth region
+E. Whether Religion P and Religion R differ in whether they seek converts
+Rationales:
+A: "Incorrect. The table gives 94 percent for Religion P and 45 percent for Religion R."
+B: "Incorrect. Religion Q reaches the threshold in six regions, compared with five for Religion S."
+C: "Correct. Counts of regions above a threshold do not give total followers. Each region can have far more than 1 million followers, and smaller groups may live elsewhere."
+D: "Incorrect. Subtracting from 100 gives 79 percent outside Religion Q's hearth region and 30 percent outside Religion T's."
+E: "Incorrect. The table states that neither Religion P nor Religion R seeks converts."
+Explanation: Knowing how many regions have at least 1 million followers does not tell us the total number of followers. One religion could have a few very large communities, while another has more communities just above 1 million.
+
+13. E04, E11, and E17 — Stop restating the necessary stimulus evidence in the stems.
+- E04 — C: "Which explanation best accounts for Fenn's adoption date compared with those of Benn and Cora?"
+- E11 — A: "Which statement best explains how the community living on the block shaped its cultural landscape between 1975 and 2005?"
+- E17 — E: "Based on Religion R's distribution and its approach to seeking converts, which process most plausibly accounts for its presence outside its hearth region?"
+For E11, also replace rationale A: Correct. Residents established religious institutions, restaurants, and signs that reflected their cultural background and served the local community. These features show how ethnicity can shape the use and appearance of space.
+The existing "mark the block as its own" unnecessarily implies exclusivity.
+P16 has a related efficiency problem: only the Swahili row is needed. Its other three rows increase reading without increasing the reasoning demand. That is acceptable for an introductory practice item, but it should not be presented as substantial comparative source analysis.
+Keep accessible descriptions of maps and charts. Providing an equivalent accessible representation is appropriate; the problem is giving away the relevant evidence again in the question itself.
+
+14. P09, P08, and P11 — Make the political effects of language and religion conditional.
+P09 — keep D.
+D is the only option using "may" while the distractors make stronger "will" claims. The explanation also asserts complete isolation and treats language difference as inherently divisive.
+Replace the options with:
+A. Region 2 may favor independence because it does not contain the national capital.
+B. The mountain border may make Language A easier to adopt in Region 3.
+C. Language A–only public institutions may strengthen Region 3's shared identity with Region 1.
+D. Excluding Language B from public institutions may strengthen regional demands for self-rule.
+E. Language B may replace Language A as the main language of communication in Regions 1 and 2.
+Replace the explanation with: A centrifugal force creates pressure that can weaken a country's unity. Most people in Region 3 speak Language B, but public institutions use only Language A. Some residents may see this policy as excluding their language and may seek more regional control. Mountains may limit contact, but the map does not establish complete isolation.
+Replace the affected whyNot lines:
+B: "Mountains can make movement and contact more difficult. The map gives no evidence that this range speeds the spread of Language A."
+C: "The exclusion of Language B from public institutions provides a reason for possible tension, rather than evidence that the policy strengthens unity."
+E: "The map provides no evidence that Language B is spreading into Regions 1 and 2 or becoming their shared language."
+Remove the Quebec analogy here. It introduces a real case with different language arrangements without explaining those differences.
+P08 — keep E.
+Replace the sentence beginning "Giving everyone…" with: Promoting Swahili as a widely shared language for public life helped communication across language groups and supported a national identity.
+Replace whyNot.A with: In this example, shared use of Swahili supports communication and national identity. That is a centripetal role.
+P11 — keep B.
+To justify its 5.B designation, replace the stem's question with: How could the religious pattern described strengthen identity at the regional scale while creating tension at the national scale?
+Replace B with: Regional religious identities may become stronger than identification with the country as a whole.
+Replace whyNot.D with: Religious diversity does not by itself cause countries to break apart. Political exclusion, unequal power, and regional divisions can affect whether religious differences become divisive.
+The existing "much of" north/south wording is appropriately qualified. Do not make it more categorical.
+
+15. P02 — Unfamiliar-food avoidance alone does not establish ethnocentrism. Keep B.
+Student 4 may be reluctant, anxious, or simply unadventurous. The entry does not establish a belief that the home culture provides the superior standard.
+Replace Student 4's entry with: Meals should be prepared the way they are at home. Because the local food does not follow our way of cooking, I refused to try it.
+Replace whyNot.D with: Student 4 treats the home culture's way of preparing food as the correct standard for judging another culture. That is ethnocentrism.
+Student 2 remains the uniquely best answer. Its hypothetical climate explanation is not a factual error, although this alternative provides a broader cultural context:
+My host family explained how work schedules and family traditions shape their late dinners. I tried to understand the custom in that setting instead of judging it by our dinner time at home.
+If using that version, replace the explanation with: Cultural relativism means understanding a practice in its cultural setting instead of judging it by your own culture's standards. Student 2 asks how the family's routines and traditions shape its dinner time.
+
+16. P24 and P25 — Repair source dating and the limits of the evidence.
+P24 — keep C.
+The broad distribution descriptions are defensible, including under newer Pew estimates. The problem is calling 2010 data "today" or "present-day." Pew's newer report uses 2020 estimates; it does not provide 2026 counts. [Pew Research Center +1]
+The smallest complete repair is to retain the cited 2010 dataset and change:
+Title: "HEARTHS, RELIGION TYPES, AND DISTRIBUTION OF FOLLOWERS, 2010"
+Last column: "Where most followers lived in 2010"
+Description: "A table listing five religions, their hearth regions, their classification as universalizing or ethnic, and the main regions where their followers lived in 2010."
+Also separate the bibliography's claims: the CED supports the religious classifications, but it is not a sufficient citation for every specific hearth location. Replace "standard references" with named references. For example, the Pluralism Project's historical accounts support the South Asian religious histories, and the Metropolitan Museum's account supports Islam's Arabian origin. [The Pluralism Project +2]
+The Type column makes P24 a very easy guided comparison. That is acceptable for practice. Removing it would require students to supply the classification themselves.
+P25 — keep D.
+The five naming histories and dates check out against the Handbook of Texas. The faulty statements are in the feedback, not the table. [tshaonline.org +4]
+Replace whyNot.B with: The two Spanish names shown are in south-central and far western Texas. These five examples do not establish where most Spanish place names occur.
+Replace whyNot.E with: The table gives Indigenous, Spanish, and German naming histories. It does not support a claim about most Texas place names or show contagious diffusion of English.
+"None of the names comes from English" is unnecessarily absolute, especially with the English element New in New Braunfels.
+
+17. P26, P27, and P29 — Remove unnecessary historical overclaims.
+P26 — keep B.
+The Anatolian pairing is correct. The explanation presents an overly static two-option account of current scholarship. Modern research continues to revise relationships among proposed homelands, populations, and language expansions. [PMC]
+Replace the stem with: Which pairing correctly describes one of the historical hypotheses proposed for the early spread of Indo-European languages?
+Replace the explanation with: Two influential historical hypotheses link language spread to migration. The Anatolian hypothesis connects early Indo-European expansion with the spread of farming from Anatolia, in present-day Türkiye. The steppe, or Kurgan, hypothesis connects a later expansion with pastoralist migrations from the grasslands north of the Black and Caspian Seas. Researchers continue to test and revise these explanations.
+This is a comparison/recall item, not convincingly "hard." The named hypotheses can remain enrichment, but they should not displace a directly assessed dialect item.
+P27 — keep E.
+Malagasy's relationship to languages of Borneo is sound. "Jumped over everything in between" asserts an unnecessarily specific migration route. The linguistic history includes multiple contacts and influences. [press-files.anu.edu.au]
+Replace the explanation with: Relocation diffusion occurs when migrants carry cultural traits to a new place. Malagasy's close relationship to languages of Borneo reflects migration across the Indian Ocean. Migrants carried an ancestral Austronesian language to Madagascar, where it developed through further contact with other languages.
+Replace whyNot.A with: Spread from neighboring mainland communities would not explain Malagasy's close family relationship to languages of Borneo.
+Replace whyNot.C with: Changes in writing do not by themselves move a language into a different language family.
+P29 — keep C.
+Remove the unsupported claim that migrants in all three places moved specifically for work and school.
+Replace the explanation with: Migrants established Sikh communities and gurdwaras while continuing their faith. When people carry their religion to a new place through migration, the process is relocation diffusion. A universalizing religion can spread through migration as well as conversion.
+
+18. Make these smaller feedback corrections.
+- P07 explanation: "Changes in gender roles can affect how communities use space. If paid employment outside the home becomes more common among parents and caregivers, demand for conveniently located childcare can grow. Childcare centers near homes, workplaces, and transit are therefore the most likely change among these choices."
+- P07 whyNot.C: "An increase in paid employment does not support the claim that fewer adults commute. Commuting needs also depend on work locations and transportation."
+- P07 option D: "More new housing located far from both employment centers and public transportation"
+- P07 whyNot.D: "The trend provides no reason to expect housing to become less connected to employment centers."
+- P10 whyNot.D: "The stem does not describe how an imported artistic idea was adapted. It emphasizes residents giving a public space meaning through their community's history and culture."
+- P16 explanation: "A lingua franca is a language people use to communicate when they have different first languages. Swahili spread through trade and other interactions. Today, many people in East Africa use it for communication across language groups in trade, education, and public life."
+- P16 whyNot.C: "A language isolate has no demonstrated relationship to another living language. Basque is an example."
+- P16 whyNot.D: "A dialect is a regional or social variety of a language, with differences in pronunciation, vocabulary, or grammar."
+- P21 whyNot.A: "The stated purpose is to maintain Icelandic vocabulary, not to establish a shared trade language for other Nordic countries."
+- P23 explanation: "When schools, jobs, and online media mainly use dominant languages, young speakers may have fewer chances to use their home language. If they do not pass it to children, it may become endangered. Families and community programs can also help preserve it."
+For P16, replace the vague source line with named references in the bibliography. "Compiled from standard references" is not a verifiable attribution.
+For P19, the trade/port/ruler explanation is defensible; change its provisional difficulty from hard to medium. Its distractors make the key comparatively easy to identify.
+
+19. E08 — Account for retained or restored official-language status. Keep E.
+The colonial explanation is correct. "Remained after independence" glosses over Timor-Leste's intervening occupation and later official-language choice. Its constitution establishes Portuguese and Tetum as official languages. [timor-leste.gov.tl +1]
+Replace E with: Portugal colonized these places, and Portuguese was retained or restored as an official language after independence.
+Replace rationale E with: Correct. Portuguese colonial rule spread the language through administration, education, religion, and trade. The independent states later retained or restored Portuguese as an official language.
+Replace the explanation with: These countries are far apart, but all experienced Portuguese colonial rule. That history influenced their later official-language choices. Portuguese is now official in all four countries, alongside Tetum in Timor-Leste.
+
+20. E12, E14, and E25 — Repair prominent test-taking cues.
+E12 — retain B; remove "traditional" from the stem.
+The current stem labels the houses traditional, and the key repeats traditional architecture.
+Replace the stem with: For several generations, residents of a hot, dry region have built houses with thick walls made from local earth, small windows, and flat roofs. Which explanation best accounts for this combination of features?
+A stronger, parallel option set is:
+A. Builders copied a colonial power's designs to express political allegiance.
+B. Builders adapted available materials and building designs to local environmental conditions.
+C. Builders combined decorative features from several historical styles to create visual novelty.
+D. Builders adopted standardized designs promoted by international construction companies.
+E. Builders preserved structures left by earlier groups while changing their cultural uses.
+Replacement rationales:
+A: "Incorrect. The account provides evidence of local materials and environmental conditions, but none of colonial rule or imported designs."
+B: "Correct. Earthen walls can slow heat transfer, small windows can limit solar heat gain, and flat roofs can be practical where rainfall is limited."
+C: "Incorrect. The account emphasizes materials and environmental conditions, not the combination of historical styles for visual effect."
+D: "Incorrect. The account provides no evidence of international companies or standardized global designs."
+E: "Incorrect. The account describes a continuing building tradition, not successive cultural uses of earlier groups' structures."
+E14 — retain E.
+Replace B's "will divide the United States" with: a centrifugal force weakening national political unity
+The current absolute is an easy elimination. Its rationale can still explain that no political separatism or weakening of national unity is demonstrated.
+E25 — retain D.
+The current key largely repeats the policy definition. A more geographic outcome would improve alignment with the landscape emphasis of Topic 3.8.
+Keep the historical introduction, but replace the final question with: Which change in the cultural landscape would this policy most likely encourage?
+Replace D with: Distinct cultural centers and festivals remaining visible while residents share public institutions
+Replace rationale D with: Correct. The landscape would show continued cultural distinctiveness alongside participation in shared public life.
+Replace the explanation with: Multiculturalism supports people's freedom to maintain cultural traditions while participating in a shared society. Cultural centers and festivals can preserve distinct traditions, while common public institutions support participation across groups.
+Canada's 1971 policy date is correct. Avoid saying the policy asks people to retain a particular identity; it supports cultural freedom. [Canada.ca]
+
+Framework, calibration, and coverage corrections
+
+21. Refine skill tags and provisional difficulty labels.
+The topic/learning-objective crosswalk is broadly correct. In particular, language questions legitimately belong in Topic 3.7 even though the wording of IMP-3.B foregrounds religion; the associated essential knowledge includes languages and dialects.
+These are the clearest recommended tag changes:
+- P09: 4.D → 2.C (predicts a likely geographic outcome)
+- P29: 2.A → 2.B (explains a distribution rather than merely describing it)
+- E03: 3.B → 3.E (infers the process illustrated by quantitative spatial evidence)
+- E07: 1.A → 1.D (applies a concept to a specified interaction)
+- E11: 4.C → 4.E (connects landscape features to a cultural process)
+- E18, revised: keep 3.F (directly assesses a limitation of supplied data)
+For P02 and P16, 1.D is a reasonable alternative to 4.A because the questions identify concepts in accounts. Treat that as a coding judgment, not an unequivocal factual error.
+Also, do not automatically reject source-analysis coding because a landscape is described in writing. The CED's instructional examples explicitly allow written accounts for these skills. Nevertheless, a text-only bank gives students less practice interpreting actual visual landscapes. [apcentral.collegeboard.org]
+Suggested difficulty revisions:
+Hard → medium: P11, P19, P22, P26, E05, revised E18.
+Hard → easy/medium: E22.
+Medium → easy: E25 if the original wording is retained.
+P17: closer to easy identification than a substantial medium item.
+These are editorial estimates. Actual difficulty and discrimination require student response data.
+
+22. Change the "exact match" claim and stop engineering away repeated keys.
+The official 2026–27 listing still specifies the Fall 2020 AP Human Geography CED. The current multiple-choice section has 60 questions in 60 minutes, with approximately 30–40% referencing stimuli. Your 25-minute timing and nominal 10/25 stimulus proportion are consistent with a shortened practice form. [College Board +1]
+Recommended replacement calibration wording:
+Original AP-style Unit 3 practice. The 25-question exam uses five answer choices and the AP multiple-choice pace of approximately one minute per question. It includes individual and stimulus-set questions. Difficulty and score interpretations have not been equated to an official AP Exam.
+The existing exam keys are:
+C A D C E A B E B D A B C E D A E C B A E D C B D
+Each letter appears five times, but no answer letter repeats consecutively anywhere. That is an avoidable pattern. Preserve the requested answer letters by reordering selected standalone items and intact stimulus sets, then updating n and setLabel. Do not treat zero consecutive repeats as a quality requirement.
+Option length is generally reasonably balanced. The more significant tells are:
+- The sole cautious option in P09.
+- The direct vocabulary echo in E12.
+- The near-paraphrase key in E25.
+- Repeated implausible climate explanations for language or religious distributions.
+- Distractors that reverse definitions rather than represent a plausible misconception.
+- E03–E04 testing closely related aspects of the same hierarchical pattern.
+
+23. Broaden the assessment tasks without expanding vocabulary demands.
+Topic distribution: 3.1 3/2; 3.2 4/3; 3.3 4/3; 3.4 4/3; 3.5 4/3; 3.6 4/4; 3.7 6/5; 3.8 3/2; total 32/25.
+The concentration on language and religion is reasonable for this unit. The more important gaps are in what students must do:
+- Dialects: appear in vocabulary and distractors but receive no direct assessment.
+- Gender and use of space: essentially one practice question, P07.
+- Indigenous beliefs and land use: a good practice example in P05, but no exam counterpart.
+- Acculturation and assimilation: meaningful practice coverage, but neither is directly assessed as a correct exam answer.
+- Actual landscape interpretation: no photograph or comparable visual landscape stimulus.
+- Real-world spatial distribution: no authentic language/religion distribution map.
+- Scale analysis: only E15 is tagged category 5 on the exam.
+The current exam tags allocate 1/25, or 4%, to scale analysis, compared with the official full-exam range of 13–20%. A unit test does not have to reproduce every full-exam weighting, but this is a material weakness in an "exact match" claim. Consider approximately three or four genuine scale-analysis questions in a 25-item form. [College Board]
+The stimulus mix is also uneven: three sets contain substantial numerical information, while only the city-block set is wholly qualitative. An image-based landscape set would improve the balance.
+A sensible content substitution would be to replace the supplementary P26 historical-hypothesis item with a dialect application while retaining B:
+Residents throughout Country R speak Language L. Surveys identify persistent regional differences in pronunciation and vocabulary. Geographers would classify these regional varieties of Language L as
+A. separate language families
+B. dialects
+C. creole languages
+D. lingua francas
+E. language isolates
+That is an optional coverage substitution, not a finding that P26's present key is wrong.
+
+Numerical and source checks that passed
+- P13 dance diffusion: Adoption follows increasing distance: 0, 20, 25, 60, 120, 180, 200 km correspond to 2000, 2001, 2001, 2002, 2004, 2006, 2007. Village Q adopted three years before City R.
+- P20 World Bank bars: All ten raw values match the official API response; all displayed rounding is correct.
+- P20 displayed gains: United States 27, Brazil 63, India 63, Nigeria 37, World 55 percentage points. These are differences between the rounded plotted values.
+- P20 U.S.–India gap: 66 → 30 percentage points, using the displayed values.
+- P31 generations: home use of F −78 points; proficiency in G +58 points; festival participation −36 points.
+- E03 music map: Distances from Arlo: Fenn 121.7 km, Eskar 219.5, Gale 272.0, Cora 451.2, Benn 468.4, Dell 490.1.
+- E16–E18 religion table: Religion R has 55% outside its hearth; Religion S has 92% outside.
+- E21 Orvani chart: Declines are 36, 30, 20, and 15 percentage points.
+For P20, distinguish rounding the endpoints from rounding the underlying difference: Nigeria's raw increase is about 37.66 points, and the world's is 55.6 points. The existing quoted U.S., Brazil, India, and gap calculations are valid as written.
+
+Items that do not need substantive rewriting
+Beyond the bank-wide calibration recommendations, I found no substantive correction necessary for: P01, P03, P04, P05, P06, P18, E01, E02, E10, E13, E19, E23, and E24.
+The main real-world examples in that group hold up. Uluru's closure occurred in 2019, the 1866 lasting transatlantic cable distinction is appropriate, and the Santería example supports syncretism. [Parks Australia +2]
+The bank's language is generally suitable for ninth and tenth graders, and the short definitions of unfamiliar terms help. The priority is greater conceptual precision and stronger use of evidence—not harder vocabulary or longer passages. After the corrections above, the bank would provide substantially better practice while retaining its existing answer keys.
+
+ChatGPT can make mistakes. Check important info.

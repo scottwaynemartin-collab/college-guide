@@ -22,9 +22,10 @@ def dot_map():
       features=[
         dict(kind="land", name="County R, west of the river", polygon=west, style="small"),
         dict(kind="land", name="County R, east of the river", polygon=east, style="small"),
-        dict(kind="marker", name="10 dairy farms", points=pts, symbol="baseN")],
+        dict(kind="marker", name="10 dairy farms", points=pts, symbol="baseN"),
+        dict(kind="line", name="For screen readers: A river runs north to south through the eastern part of County R. Twenty-two squares are packed into a band just east of the river; four squares are scattered across the western part of the county.", line=[[0, 0], [0, 0]])],
       legend=[dict(swatch="baseN", label="Each square = 10 dairy farms"), dict(swatch="water", label="River")],
-      description="A river runs north to south through the eastern part of County R. Every square is the same size and stands for 10 dairy farms. Twenty-two squares are packed into a band just east of the river; only four squares are scattered across the western part of the county.",
+      description="Each square represents 10 dairy farms. Symbol placement shows the approximate distribution of farms. North is at the top.",
       source="Hypothetical data")
 
 def contour_map():
@@ -46,15 +47,16 @@ def contour_map():
         feats.append(dict(kind="line", name=f"{180 - 20 * i} m contour line", line=loop))
     # point labels: zero-area land shapes so only the letter shows
     lab = {"J": (cx - (W[2] + W[3]) / 2, cy), "K": (cx + (E[2] + E[3]) / 2, cy),
-           "L": (cx, cy - (N[2] + N[3]) / 2), "M": (cx, cy + (S[2] + S[3]) / 2), "N": (720, 360)}
+           "L": (cx, cy - (N[2] + N[3]) / 2), "M": (cx, cy + (S[2] + S[3]) / 2), "N": (cx + (E[3] + E[4]) / 2, cy)}
     for name, (x, y) in lab.items():
         x, y = round(x, 1), round(y, 1)
         feats.append(dict(kind="land", name=name, polygon=[[x, y], [x, y], [x, y]], labelAt=[x, y - 1]))
+    feats.append(dict(kind="line", name="For screen readers: Points J (west side), K (east side), L (north side), and M (south side) each sit between the 120-meter and 140-meter lines. Point N sits on the east side between the 100-meter and 120-meter lines. Near Point J the lines are tightly packed; near Points K and N they are widely spaced; near Point L they are moderately spaced; near Point M they are fairly close together.", line=[[0, 0], [0, 0]]))
     stim = dict(type="schematicMap",
       title="CONTOUR MAP OF HILL Q (HYPOTHETICAL). CONTOUR INTERVAL: 20 METERS",
       canvas=dict(width=800, height=420),
       features=feats,
-      description="Five closed contour lines circle the top of Hill Q, from 100 meters (outer line) to 180 meters (inner line). Point J is on the west side of the hill, Point K on the east side, Point L on the north side, and Point M on the south side; each sits between the 120-meter and 140-meter lines. Point N is outside the 100-meter line. Near Point J the lines are tightly packed; near Point K they are widely spaced; near Point L they are moderately spaced; near Point M they are fairly close together.",
+      description="Contours connect points of equal elevation. The contour interval is 20 meters, from 100 meters (outer line) to 180 meters (inner line). North is at the top.",
       source="Hypothetical map")
     return stim, dict(cx=cx, cy=cy, W=W, E=E, N=N, S=S, labels=lab)
 
@@ -74,15 +76,16 @@ def floodplain_map():
                    [40, 120], [110, 220], [60, 290],
                    [600, 230], [690, 250], [740, 160], [620, 300]]),
       dict(kind="marker", name="School", symbol="baseS", points=[[300, 185]]),
-      dict(kind="marker", name="Hospital", symbol="baseN", points=[[660, 110]])]
+      dict(kind="marker", name="Hospital", symbol="baseN", points=[[660, 110]]),
+      dict(kind="line", name="For screen readers: A river runs north to south. The shaded floodplain lies along both banks and is much wider on the west side. Eight homes and the school are inside the floodplain on the west bank. Three homes stand on higher ground at the far west edge. The hospital and four homes stand on higher ground east of the river, outside the floodplain.", line=[[0, 0], [0, 0]])]
     return dict(type="schematicMap",
       title="FLOOD RISK AND BUILDINGS ALONG THE RIVER, COUNTY T (HYPOTHETICAL GIS MAP)",
       canvas=dict(width=800, height=400),
       features=feats,
-      legend=[dict(swatch="power", label="100-year floodplain (1% chance of flooding each year)"),
+      legend=[dict(swatch="power", label="Area covered by the 1%-annual-chance flood, often called the 100-year floodplain"),
               dict(swatch="small", label="Higher ground"), dict(swatch="water", label="River"),
               dict(swatch="house", label="Home"), dict(swatch="baseS", label="School"), dict(swatch="baseN", label="Hospital")],
-      description="A river runs north to south through the map. The shaded 100-year floodplain lies along both banks and is much wider on the west side. Eight homes and the school are inside the floodplain on the west bank. Three homes stand on higher ground at the far west edge. The hospital and four homes stand on higher ground east of the river, outside the floodplain.",
+      description="The map combines building locations with the mapped 1%-annual-chance floodplain. North is at the top.",
       source="Hypothetical map")
 
 CONTOUR, CONTOUR_GEOM = contour_map()
@@ -100,7 +103,7 @@ P.append(dict(id="U1-P01", topic="1.1", lo="IMP-1.A", skill="1.A", difficulty="e
   explanation="A reference map helps you find places. It shows general features like roads, cities, rivers, and borders. A highway map is a classic reference map. Thematic maps are different: each one is made to show one topic, like life expectancy or temperature.",
   whyNot={
     "A": "Shading countries by life expectancy shows one topic. That is a thematic map (a choropleth map).",
-    "C": "Circles sized by population show one topic. That is a thematic map (a graduated symbol map).",
+    "C": "Circles sized by population show one topic. That makes it a thematic symbol map (a graduated or proportional symbol map).",
     "D": "Lines joining places with the same temperature show one topic. That is a thematic map (an isoline map).",
     "E": "Resizing countries by population shows one topic. That is a thematic map (a cartogram)."},
   vocab=["reference map", "thematic map"]))
@@ -115,12 +118,12 @@ P.append(dict(id="U1-P02", topic="1.1", lo="IMP-1.A", skill="3.A", difficulty="e
     "D": "Dot density map",
     "E": "Cartogram"},
   answer="D",
-  explanation="On a dot density map, every dot (here, a small square) stands for the same number of things. More dots in one spot means more of that thing there. Each square here is 10 dairy farms, so you can see the farms are bunched together (clustered) just east of the river.",
+  explanation="On a dot density map, each repeated symbol stands for the same amount. Here, each square stands for 10 dairy farms. More squares in an area mean more farms there. A square does not show the exact spot of one farm. The squares are bunched (clustered) just east of the river.",
   whyNot={
     "A": "A choropleth map shades whole areas, like counties, darker or lighter. This map places symbols instead of shading areas.",
     "B": "A graduated symbol map uses bigger symbols for bigger amounts. Every square here is the same size.",
     "C": "An isoline map draws lines that connect places with equal values, like elevation. There are no lines like that here.",
-    "E": "A cartogram changes the size of places to match a number, like population. The county keeps its real shape here."},
+    "E": "A cartogram resizes areas to show a number, like population. This map uses repeated symbols instead."},
   vocab=["dot density map", "thematic map", "clustering"]))
 
 P.append(dict(id="U1-P03", topic="1.1", lo="IMP-1.A", skill="3.B", difficulty="medium",
@@ -133,23 +136,23 @@ P.append(dict(id="U1-P03", topic="1.1", lo="IMP-1.A", skill="3.B", difficulty="m
     "B": "At Point K the lines are far apart, so the land rises slowly. That is a gentle slope.",
     "C": "Point L's lines are closer than at K but farther apart than at J, so it is less steep than J.",
     "D": "Point M's lines are fairly close, but they are not packed as tightly as at J.",
-    "E": "Point N is past the lowest contour line, with no lines nearby. The land there is nearly flat."},
+    "E": "The lines around Point N are as far apart as the lines at Point K, so the slope there is gentle, not steep like at J."},
   vocab=["isoline", "contour line", "elevation"]))
 
 P.append(dict(id="U1-P04", topic="1.1", lo="IMP-1.A", skill="1.B", difficulty="medium",
-  stem="On a Mercator projection, Greenland looks about as large as Africa, even though Africa is about 14 times larger. Which of the following best explains this distortion?",
+  stem="On a Mercator projection, Greenland looks about as large as Africa, even though Africa is about 14 times as large. Which of the following best explains this distortion?",
   options={
     "A": "The Mercator projection keeps areas accurate, so its distortion is in the shapes of landmasses near the equator.",
-    "B": "Greenland's thick ice sheet makes the island look much larger on maps than its land area really is.",
-    "C": "The Mercator projection keeps local shapes and directions true but stretches area toward the poles.",
+    "B": "Mercator is a compromise projection that spreads small distortions evenly across the whole map.",
+    "C": "The Mercator projection preserves local angles and shapes while enlarging areas more toward the poles.",
     "D": "The Mercator projection is centered on the North Pole, so places close to the pole are drawn larger.",
     "E": "The Mercator projection keeps true distances from the equator, so places far from it look bigger."},
   answer="C",
-  explanation="Mercator made his map in 1569 for sailors. It keeps compass directions and the shapes of small areas correct. To do that, it stretches the map more and more as you move toward the North and South Poles. Greenland is far north, so it gets blown up a lot. Africa sits on the equator, where there is little stretching.",
+  explanation="Mercator made his map in 1569 for sailors. It keeps the shapes of small areas and local angles correct, and a route with one steady compass bearing shows up as a straight line. The price is area: the map stretches more and more toward the North and South Poles. Greenland is far north, so it looks much bigger than it really is. Africa sits on the equator, where there is little stretching.",
   whyNot={
     "A": "That describes an equal-area map like Gall-Peters. Mercator does the opposite: it keeps local shapes but distorts area.",
-    "B": "The problem is the map projection, not the ice. Greenland looks huge on Mercator maps that show only outlines.",
-    "D": "A map centered on the North Pole is an azimuthal (polar) map. Mercator is a rectangular map centered on the equator.",
+    "B": "That describes a compromise map like the Robinson. Mercator's distortion is not spread evenly; it grows toward the poles.",
+    "D": "The usual Mercator map is a rectangle centered on the equator, not on the North Pole. Its stretching grows toward both poles.",
     "E": "Mercator does not keep true distances. Its scale grows toward the poles, which is why far-north places look too big."},
   vocab=["Mercator projection", "map projection", "distortion"]))
 
@@ -158,16 +161,16 @@ P.append(dict(id="U1-P05", topic="1.1", lo="IMP-1.A", skill="1.E", difficulty="h
   options={
     "A": "A Mercator projection, which keeps compass bearings constant along straight lines",
     "B": "A Gall-Peters projection, which shows the true relative sizes of the continents",
-    "C": "A Robinson projection, which keeps overall distortion low across the map",
+    "C": "A Robinson projection with the hub airport placed near the map's center",
     "D": "A Goode's homolosine projection, which interrupts the oceans to reduce distortion of land",
-    "E": "An azimuthal equidistant projection, which is drawn outward from a single center point"},
+    "E": "An azimuthal equidistant projection centered on the hub airport"},
   answer="E",
-  explanation="An azimuthal equidistant map is drawn around one center point. A straight line from that center shows the true distance and the true direction to any other place. If the planner puts the hub airport at the center, the planner can measure the route to any city. Distances between two places that are NOT the center are distorted, but the planner only needs routes from the hub.",
+  explanation="An azimuthal equidistant map keeps distance and direction true from its center point. With the hub airport at the center, the planner can measure the distance and direction from the hub to any city. Distances between two places away from the center are generally not true, but the planner only needs routes from the hub.",
   whyNot={
     "A": "Mercator keeps compass bearings, which helps sailors, but its distances are badly stretched toward the poles.",
     "B": "Gall-Peters keeps area true, but it distorts distances and shapes, so it cannot measure routes from the hub.",
-    "C": "Robinson is a compromise map. It distorts a little of everything, so neither distance nor direction from the hub is exactly right.",
-    "D": "Goode's map keeps area true, but cutting the oceans breaks up the very routes the planner needs to measure."},
+    "C": "Robinson is a compromise map. Putting the hub near the center does not make distance or direction from the hub exactly right.",
+    "D": "Goode's map keeps relative area true, but its cuts and distance distortion make it a poor choice for measuring routes from the hub."},
   vocab=["azimuthal equidistant projection", "Mercator projection", "Gall-Peters projection", "Robinson projection"]))
 
 P.append(dict(id="U1-P06", topic="1.1", lo="IMP-1.A", skill="3.D", difficulty="medium",
@@ -182,10 +185,10 @@ P.append(dict(id="U1-P06", topic="1.1", lo="IMP-1.A", skill="3.D", difficulty="m
       ["Ellis", "45,000", "135"]],
     description="A table listing the population and the number of new businesses opened in 2025 for five counties: Adams, Baker, Cole, Dunn, and Ellis.",
     source="Hypothetical data"),
-  stem="A student wants to make a choropleth map showing where opening a new business was most common relative to the number of residents. Based on the table, which county should be shaded darkest?",
+  stem="A student wants to make a choropleth map of new business openings relative to population, using darker shading for higher values. Based on the table, which county should be shaded darkest?",
   options={"A": "Adams County", "B": "Baker County", "C": "Cole County", "D": "Dunn County", "E": "Ellis County"},
   answer="B",
-  explanation="A choropleth map should shade areas by a rate, not a total. Divide new businesses by population. Baker had 480 new businesses for 60,000 people. That is 8.0 per 1,000 residents, the highest rate. Adams had the most businesses only because it has the most people.",
+  explanation="To compare openings relative to population, divide each county's new businesses by its number of residents. Baker had 480 openings for 60,000 residents. That is 8.0 per 1,000 residents, the highest rate. Adams has the largest total, but its rate is only 3.5 per 1,000.",
   whyNot={
     "A": "Adams has the biggest total (2,870), but it has 820,000 people. That is only 3.5 per 1,000 residents.",
     "C": "Cole's rate is 6.0 per 1,000 residents. That is second highest, but below Baker's 8.0.",
@@ -193,7 +196,7 @@ P.append(dict(id="U1-P06", topic="1.1", lo="IMP-1.A", skill="3.D", difficulty="m
     "E": "Ellis is the smallest county, but its rate is only 3.0 per 1,000 residents, the lowest of the five."},
   vocab=["choropleth map", "rate", "per capita"]))
 
-P.append(dict(id="U1-P07", topic="1.1", lo="IMP-1.A", skill="3.A", difficulty="easy",
+P.append(dict(id="U1-P07", topic="1.1", lo="IMP-1.A", skill="1.D", difficulty="easy",
   stem="On a certain world map, India appears much larger than Canada, even though Canada has about three times as much area. The map draws each country's size in proportion to its population. This type of map is called a",
   options={
     "A": "cartogram",
@@ -202,16 +205,16 @@ P.append(dict(id="U1-P07", topic="1.1", lo="IMP-1.A", skill="3.A", difficulty="e
     "D": "dot density map",
     "E": "Mercator projection"},
   answer="A",
-  explanation="A cartogram changes the size of each place to match a number, like population, instead of land area. India has far more people than Canada, so India is drawn much bigger. Cartograms give up true shape and area to make one number easy to see.",
+  explanation="A cartogram changes each area's size on the map to show a number, like population. India has far more people than Canada, so a population cartogram draws India much bigger. Depending on the design, a cartogram may also change shapes and where places sit.",
   whyNot={
-    "B": "A choropleth map keeps true country sizes and shades them with colors.",
+    "B": "A choropleth map uses shading to show values in each area. It does not resize areas to show population.",
     "C": "A reference map shows real locations and features like borders and cities. It does not resize countries by population.",
-    "D": "A dot density map keeps true sizes and places dots inside each country.",
+    "D": "A dot density map uses repeated dots to show amounts. It does not resize countries to show population.",
     "E": "Mercator stretches places near the poles. That would make Canada look bigger, not smaller."},
   vocab=["cartogram", "thematic map"]))
 
 # ---------------- 1.2 Geographic Data (IMP-1.B) ----------------
-P.append(dict(id="U1-P08", topic="1.2", lo="IMP-1.B", skill="1.A", difficulty="easy",
+P.append(dict(id="U1-P08", topic="1.2", lo="IMP-1.B", skill="1.D", difficulty="easy",
   stem="A city planner uses a computer program to stack map layers showing roads, flood zones, school locations, and population density, and then analyzes how the layers relate to one another. This tool is best described as",
   options={
     "A": "remote sensing from satellites",
@@ -245,7 +248,7 @@ P.append(dict(id="U1-P09", topic="1.2", lo="IMP-1.B", skill="1.D", difficulty="e
     "E": "Interviews collect people's words and opinions, not measurements of a glacier's size."},
   vocab=["remote sensing", "satellite imagery"]))
 
-P.append(dict(id="U1-P10", topic="1.2", lo="IMP-1.B", skill="3.A", difficulty="medium",
+P.append(dict(id="U1-P10", topic="1.2", lo="IMP-1.B", skill="1.D", difficulty="medium",
   stem="A geographer wants to learn how longtime residents feel about the changes a new highway brought to their neighborhood. Which source would provide the most useful information?",
   options={
     "A": "Satellite images of the neighborhood before and after the highway was built",
@@ -277,7 +280,7 @@ P.append(dict(id="U1-P11", topic="1.2", lo="IMP-1.B", skill="3.A", difficulty="m
   stem="Which data set was collected using a satellite navigation system?",
   options={"A": "Data set 1", "B": "Data set 2", "C": "Data set 3", "D": "Data set 4", "E": "Data set 5"},
   answer="D",
-  explanation="A satellite navigation system, like GPS, uses signals from satellites to find an exact position. The receiver on each bus records where the bus is every 30 seconds. That is Data set 4.",
+  explanation="A satellite navigation system, like GPS, uses signals from satellites to estimate a receiver's location. The receiver on each bus can record where the bus is every 30 seconds. That is Data set 4.",
   whyNot={
     "A": "Data set 1 comes from a census, which counts people where they live.",
     "B": "Data set 2 comes from interviews, a field method that gathers people's words.",
@@ -298,7 +301,7 @@ P.append(dict(id="U1-P12", topic="1.3", lo="IMP-1.C", skill="3.D", difficulty="m
   stem="A school district plans to build one new elementary school where the number of young children is growing fastest. Based on the census data in the chart, which neighborhood is the best location?",
   options={"A": "Riverside", "B": "Oak Hill", "C": "Midtown", "D": "Westfield", "E": "Lakeview"},
   answer="A",
-  explanation="Riverside's number of children under 5 more than doubled, from 650 to 1,480. That is the biggest increase and the largest total in 2020. These children will start school soon, so a new school there would serve the most students. This is how census data guide government decisions.",
+  explanation="Riverside's number of children under 5 more than doubled, from 650 to 1,480. That is both the biggest increase and the largest total in 2020. If other things are similar, these children point to the fastest-growing need for elementary school seats. This is how census data guide government decisions.",
   whyNot={
     "B": "Oak Hill had the most young children in 2010, but its number fell by 2020 (1,200 to 1,050).",
     "C": "Midtown grew a little (400 to 520), but it still has the fewest young children.",
@@ -310,18 +313,18 @@ P.append(dict(id="U1-P13", topic="1.3", lo="IMP-1.C", skill="2.C", difficulty="m
   stem="A coffee company uses GIS to compare traffic counts, the locations of competing shops, and the incomes and ages of residents in each neighborhood before choosing where to open new stores. Which outcome is most likely?",
   options={
     "A": "New stores are spaced evenly across the city, one in each neighborhood",
-    "B": "New stores open where land is cheapest, whatever the traffic or customers",
-    "C": "New stores cluster along busy roads in areas with many likely customers",
+    "B": "New stores are concentrated in neighborhoods with the lowest property costs",
+    "C": "New stores are located where customer traits and access suggest strong demand",
     "D": "New stores are placed far from busy roads so customers can avoid traffic",
-    "E": "New stores open in the most crowded census tracts, even where few people pass by"},
+    "E": "New stores are located in the census tracts with the greatest total population"},
   answer="C",
-  explanation="Businesses use geographic data to decide where to locate. By layering traffic, competitors, and customer information, the company can find spots where lots of likely customers pass by. That usually means stores cluster along busy roads in neighborhoods that match the company's customers.",
+  explanation="GIS lets the company layer information about customers, traffic and access, and competing shops. Putting these layers together helps it choose places where many likely customers can easily reach a store. The data do not call for spacing stores evenly or choosing the cheapest land.",
   whyNot={
-    "A": "Spacing stores evenly ignores the data the company collected. Businesses go where customers are, not one per neighborhood.",
-    "B": "Cheap land does not help if few customers pass by. The company's data focus on customers and traffic.",
-    "D": "Coffee shops depend on passing traffic, so busy roads attract stores instead of pushing them away.",
-    "E": "Population matters, but the company also weighs traffic and competitors, so it would not ignore those layers."},
-  vocab=["GIS", "geospatial data", "clustering"]))
+    "A": "Even spacing is not what the data point to. Demand, access, and competition differ from one neighborhood to another.",
+    "B": "Cheap property is only one factor. The company is weighing customers, traffic, and competitors together.",
+    "D": "Putting stores far from busy routes could make them harder for likely customers to reach.",
+    "E": "Population is only one factor. The company also weighs traffic and competitors, so total population alone would not decide."},
+  vocab=["GIS", "geospatial data"]))
 
 P.append(dict(id="U1-P14", topic="1.3", lo="IMP-1.C", skill="4.C", difficulty="medium",
   stimulus=floodplain_map(),
@@ -329,16 +332,16 @@ P.append(dict(id="U1-P14", topic="1.3", lo="IMP-1.C", skill="4.C", difficulty="m
   options={
     "A": "Building a levee along the east bank to protect the hospital",
     "B": "Moving the school out of the shaded zone onto higher ground",
-    "C": "Placing a new fire station in the shaded zone, near the most homes",
-    "D": "Rezoning the shaded zone on the west bank for more new housing",
+    "C": "Moving the homes at the far west edge out of the shaded zone",
+    "D": "Moving the hospital out of the shaded zone onto higher ground",
     "E": "Requiring flood insurance for the homes on higher ground east of the river"},
   answer="B",
-  explanation="The shaded zone is where a big flood has a 1 percent chance of happening each year. The school sits inside that zone, so a flood could damage it and put children at risk. Moving it to higher ground outside the zone is the decision the map supports.",
+  explanation="The school is inside the mapped floodplain. A flood this big or bigger has a 1 percent chance of happening in any given year. Moving the school to higher ground outside this area would lower its risk from river floods.",
   whyNot={
-    "A": "The hospital is already on higher ground outside the shaded zone, so a levee there protects the wrong place.",
-    "C": "Being close to homes helps, but a fire station inside the flood zone could be cut off or damaged in a flood.",
-    "D": "Adding housing in the shaded zone would put more people and buildings at risk.",
-    "E": "The homes east of the river are outside the shaded zone, so they face the lowest flood risk on the map."},
+    "A": "The hospital is outside the mapped floodplain, while the school is inside it. The map points to protecting the school first.",
+    "C": "The three homes at the far west edge stand on higher ground, outside the shaded floodplain. The school is inside it.",
+    "D": "The hospital already stands on higher ground east of the river, outside the shaded floodplain. The school is inside it.",
+    "E": "These homes are outside the mapped floodplain. Places outside it can still flood, but the map shows the school at much greater risk."},
   vocab=["floodplain", "GIS", "layer"]))
 
 P.append(dict(id="U1-P15", topic="1.3", lo="IMP-1.C", skill="1.D", difficulty="medium",
@@ -354,6 +357,6 @@ P.append(dict(id="U1-P15", topic="1.3", lo="IMP-1.C", skill="1.D", difficulty="m
   whyNot={
     "A": "Images show physical damage, not people's opinions. Interviews would be needed for that.",
     "B": "Satellite images show what already happened. They cannot predict when the next earthquake will strike.",
-    "C": "Images show buildings, not how many people lived inside. Census data would be needed for that.",
+    "C": "Images alone do not show how many people lived in each building. Occupancy records or checks on the ground would be needed.",
     "D": "Satellite images show damage, not when a building was built or what rules it followed. City records would be needed for that."},
   vocab=["remote sensing", "satellite imagery"]))

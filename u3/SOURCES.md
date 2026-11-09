@@ -1,4 +1,4 @@
-# Unit 3 bank: sources and verification (v2026-11-08b)
+# Unit 3 bank: sources and verification (v2026-11-08d)
 
 All stimulus data are **hypothetical** (labeled "Hypothetical data" / "Hypothetical map") except the items below.
 Every number in every stimulus, and every computed claim in stems, keys, explanations, and rationales, is checked
@@ -40,7 +40,7 @@ by the DATA CHECKS block in `u3/assemble.py` (it fails the build if any check fa
 - https://www.tshaonline.org/handbook/entries/fredericksburg-tx — first settlers arrived May 8, 1846; Meusebach
   "named Fredericksburg after Prince Frederick of Prussia."
 
-### U3-P24 — Where followers of five religions live today
+### U3-P24 — Where followers of five religions lived in 2010 (table dated 2010 since review pass 3)
 - Pew Research Center, "The Global Religious Landscape" (Dec. 18, 2012; 2010 data):
   https://www.pewresearch.org/religion/2012/12/18/global-religious-landscape-exec/
 - Verified: 97% of Hindus live in India, Mauritius, and Nepal; 99% of Buddhists live in the Asia-Pacific region
@@ -48,13 +48,21 @@ by the DATA CHECKS block in `u3/assemble.py` (it fails the build if any check fa
   Latin America and the Caribbean 24%, sub-Saharan Africa 24%, plus North America); 44% of Jews live in North America
   and 41% in the Middle East and North Africa, "almost all of them in Israel"; 62% of Muslims live in Asia-Pacific,
   about 20% in the Middle East and North Africa, about 16% in sub-Saharan Africa.
-- Hearths and universalizing/ethnic types follow the AP course framework (Topic 3.7, IMP-3.B.4 and IMP-3.B.5);
-  the student-facing source line says "College Board AP Human Geography course guide."
+- Universalizing/ethnic types follow the AP course framework (Topic 3.7, IMP-3.B.4 and IMP-3.B.5).
+- Hearths (source line since v2026-11-08c: "Encyclopaedia Britannica articles on each religion"), checked Nov 8, 2026:
+  Britannica "Buddha" (born at Lumbini, "in what is today southern Nepal"); the Buddhism hearth cell reads "northern India and southern Nepal"
+  (v2026-11-08d) because the Buddha's main sites (Bodh Gaya, Sarnath, Kushinagar) are on the Ganges Plain, and
+  "northeastern India" usually means Assam and its neighbors; Britannica "Hinduism: The history of
+  Hinduism" (Vedic religion took shape on the Indian subcontinent; an Indus-valley link is called speculative, so
+  the hearth now reads "northern Indian subcontinent" instead of "Indus and Ganges river valleys"); Britannica
+  "Christianity: The history of Christianity" (began in 1st-century Jewish Palestine, in Galilee and Jerusalem,
+  "as a movement within Judaism," which also supports Judaism's Levant hearth); Britannica "Muhammad" (first
+  revelations near Mecca; emigration in 622 to Yathrib, "also known as Medina").
 - Pew's 2025 update ("How the Global Religious Landscape Changed From 2010 to 2020") exists; the independent checker
   confirmed the table's statements still hold with the newer data.
 
 ### U3-P16 — Four languages and their histories
-Cross-checked against English Wikipedia articles (Nov 8, 2026): "Swahili language" (Bantu language; emerged as a
+The source line (since v2026-11-08c) names these articles. Cross-checked against English Wikipedia articles (Nov 8, 2026): "Swahili language" (Bantu language; emerged as a
 lingua franca of the East African coast; official in Kenya and Tanzania); "Haitian Creole" (formed in Saint-Domingue
 in the 17th–18th centuries; vocabulary largely from French, grammar with West African influence; native language of
 the vast majority of Haitians; official with French); "Basque language" ("Europe's only known language isolate,"
@@ -113,7 +121,27 @@ Cross-checked against English Wikipedia (or Wiktionary where noted), Nov 8, 2026
 No photographs (none available); landscapes are described in text (P04 field notes, E10 city-block table, E12 desert
 houses). No `pyramid` or `line` stimuli were needed for this unit.
 
+## Review pass 3 (ChatGPT Pro, v2026-11-08c): new or changed facts and how they were checked
+- U3-E08 option B: the Community of Portuguese Language Countries (CPLP) was founded in Lisbon on July 17, 1996
+  (founders included Angola, Brazil, and Mozambique); Timor-Leste joined in 2002 after independence (Wikipedia
+  "Community of Portuguese Language Countries"). Key E now says Portuguese was "kept or restored," because
+  Timor-Leste chose Portuguese (with Tetum) after the Indonesian occupation (1975–1999).
+- U3-E07: the stem no longer states an ICAO rule (the review noted pilots may use English or the ground station's
+  language); it now describes a Portuguese-speaking pilot and a Japanese-speaking controller using English.
+- U3-P33: regional soft-drink words. Dictionary.com, "Soda vs. Pop": "Midwesterners and Northwesterners prefer pop;
+  Southerners say coke; and Easterners and Southwesterners ask for soda" (https://www.dictionary.com/articles/sodapop).
+- U3-P35: women-only rail cars. Wikipedia "Women-only passenger car": Keio introduced late-night women-only cars in
+  2000 "in response to complaints about groping"; Tokyo-area rush-hour cars followed in 2005; Mexico City Metro and
+  Delhi Metro have women-only cars. The stem gives the harassment reason for Tokyo only.
+  Earlier Tokyo women-only cars (1912 students; 1947 overcrowding) had other reasons; the stem (v2026-11-08d) dates
+  the harassment-driven cars to the 2000s.
+- U3-P34 (scale) and the rewritten U3-E18 use hypothetical data; their numbers are verified in assemble.py
+  (P34's national row is the population-weighted mean of the regions: 85.3% and 14.7%, shown as 85 and 15).
+
 ## Review history
 - v2026-11-08a: first draft; 0 errors / 0 warnings in assemble.py.
 - v2026-11-08b: independent Claude blind check (u3/check_report.md): 57/57 keys agreed, all stimulus numbers
   recomputed, World Bank / Pew / Handbook of Texas sources re-fetched, no must-fix. All should-fix items applied.
+- v2026-11-08c: ChatGPT Pro full review (u3/chatgpt_review.txt): all keys kept; corrections applied as
+  u3/fixes_c.py (final letters, applied after the swaps in assemble.py); P33–P35 added in u3/p3.py.
+- v2026-11-08d: final independent Claude blind check (u3/check_report_final.md, 60/60); fixes in u3/fixes_d.py.

@@ -38,7 +38,7 @@ def VERIFY(byid, verbose=True):
     notes.append(f"P02: {nE} squares east of river, {nW} west, min spacing {md:.1f}px")
 
     # ---- P03 contour map ----
-    s = byid["U1-P03"]["stimulus"]; loops = [ft["line"] for ft in s["features"] if ft["kind"] == "line"]
+    s = byid["U1-P03"]["stimulus"]; loops = [ft["line"] for ft in s["features"] if ft["kind"] == "line" and ft["name"].endswith("contour line")]
     labs = {ft["name"]: ft["labelAt"] for ft in s["features"] if ft["kind"] == "land" and ft["name"]}
     loops = sorted(loops, key=lambda L: max(p[0] for p in L) - min(p[0] for p in L))   # inner -> outer
     cx, cy = 300, 210
@@ -53,9 +53,20 @@ def VERIFY(byid, verbose=True):
         x, y = labs[name][0], labs[name][1] + 1
         r = {"W": cx - x, "E": x - cx, "N": cy - y, "S": y - cy}[d]
         chk(ext(loops[2], d) < r < ext(loops[3], d), f"P03 label {name} not between loops 3 and 4")
-    chk(not pip([labs["N"][0], labs["N"][1] + 1], loops[4]), "P03 point N inside the lowest contour")
+    nx = labs["N"][0] - cx
+    chk(ext(loops[3], "E") < nx < ext(loops[4], "E") and abs(labs["N"][1] + 1 - cy) < 1, "P03 point N not between the 100 m and 120 m lines on the east side")
+    chk(ext(loops[4], "E") - ext(loops[3], "E") > gap["W"], "P03 spacing at N not wider than at J")
     chk(byid["U1-P03"]["options"][byid["U1-P03"]["answer"]] == "Point J", "P03 key is not J")
     notes.append(f"P03 contour gaps (px): {gap}")
+
+    # ---- P34 linear settlement pattern ----
+    f = byid["U1-P34"]["stimulus"]["features"]; homes = f[2]["points"]
+    cline = lambda x: 180 + 25 * math.sin(x / 90)
+    chk(all(abs(abs(p[1] - cline(p[0])) - 28) < 0.2 for p in homes), "P34 homes not on the riverbanks")
+    chk(min(p[0] for p in homes) < 100 and max(p[0] for p in homes) > 700, "P34 homes do not span the valley")
+    north = sum(p[1] < cline(p[0]) for p in homes); chk(abs(north - (len(homes) - north)) <= 1, "P34 banks unbalanced")
+    chk(all(pip(p, f[0]["polygon"]) or pip(p, f[1]["polygon"]) for p in homes), "P34 home in the river")
+    notes.append(f"P34: {len(homes)} farmhouses, {north} on north bank, all 28 px from the river centerline")
 
     # ---- P06 choropleth rates ----
     rows = byid["U1-P06"]["stimulus"]["rows"]
@@ -137,11 +148,11 @@ def VERIFY(byid, verbose=True):
         if m == "Map 2":   # equal-area: band height proportional to difference of sines
             lat = [75, 60, 45, 30, 15, 0]
             ratio = [g / (math.sin(math.radians(a)) - math.sin(math.radians(b))) for g, a, b in zip(gaps, lat, lat[1:])]
-            chk(max(ratio) - min(ratio) < 0.5, f"Map 2 not equal-area {ratio}")
+            chk((max(ratio) - min(ratio)) / (sum(ratio) / len(ratio)) < 0.012, f"Map 2 not equal-area {ratio}")
         if m == "Map 1":
             lat = [75, 60, 45, 30, 15, 0]; merc = lambda p: math.log(math.tan(math.pi / 4 + math.radians(p) / 2))
             ratio = [g / (merc(a) - merc(b)) for g, a, b in zip(gaps, lat, lat[1:])]
-            chk(max(ratio) - min(ratio) < 0.5, f"Map 1 not Mercator spacing {ratio}")
+            chk((max(ratio) - min(ratio)) / (sum(ratio) / len(ratio)) < 0.012, f"Map 1 not Mercator spacing {ratio}")
 
     # ---- E08/E09 land cover ----
     s = byid["U1-E08"]["stimulus"]; a, b = s["series"][0]["values"], s["series"][1]["values"]

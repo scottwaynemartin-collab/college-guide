@@ -1,0 +1,765 @@
+Title: Review Urban Geography Bank
+URL: https://chatgpt.com/c/6af0f4d2-3d54-83ea-abc0-4441ed935bbf
+(Saved Nov 8, 2026 from Chrome tab 1294094620 via get_page_text; review of CHATGPT_CHECK_U6.md at commit 6cafc85, bank version 2026-11-08b.)
+---
+Review Urban Geography Bank
+You said:
+Pasted markdown(20261108-221653).md
+Document
+Above is a new AP Human Geography Unit 6 (Cities and Urban Land-Use Patterns and Processes) multiple-choice bank for high school students: practice items about 3 per topic (6.1-6.11) and a 25-item, 25-minute timed exam, 5 options A-E, meant to match the real AP Human Geography multiple-choice section exactly. All items are original; stimulus data is either labeled hypothetical or real World Bank and US Census data (sources included). It has had one independent review already. Please review every item as an experienced AP Human Geography item writer and reviewer would: (1) is the keyed answer the single best answer, and is any distractor also defensible; (2) factual and arithmetic accuracy of stems, options, explanations, whyNot lines, rationales, data, diagrams and source lines (including the urban models: Burgess, Hoyt, Harris-Ullman, Griffin-Ford, and the African and Southeast Asian models); (3) whether each item truly needs its stimulus and fits its stated topic, learning objective and skill under the current AP Human Geography course framework; (4) test-taking tells (absolute words, option length, answer patterns, options that can be ruled out without content knowledge, keys that echo the stem); (5) reading level and clarity for 9th and 10th graders, and respectful, accurate treatment of places and peoples; (6) any important Unit 6 content the bank misses or overweights. Give numbered corrections, most serious first, with item IDs and exact replacement wording. Keep the existing answer letters unless an item is unfixable without changing them.
+…
+Show more
+Worked for 11m 12s
+ChatGPT said:
+Overall verdict
+
+Keep the existing answer letters. I found no item that requires rekeying, but I would revise this bank before presenting it as closely equivalent to an AP exam. The main problems are inaccurate or overly categorical feedback, a few unsupported inferences from aggregate data, and several questions whose distractors or stems let students bypass the intended geographic reasoning.
+
+I reviewed all 66 items—41 practice questions and 25 exam questions—including their explanations, whyNot lines, rationales, source notes, and supplied diagram coordinates. My diagram review covers the exported geometry and rendering specifications; it does not establish how the live page handles text wrapping or small screens.
+
+The numerical verification was reassuring:
+
+All 28 World Bank chart values match the cited API release when rounded to one decimal. That includes Nigeria's 2020 value of 59.8%; it should not be replaced with an older textbook figure.
+All 12 Census population values match the three cited source files.
+The rank-size calculations, gravity-model calculations under an inverse-square formulation, bid-rent comparisons, percentage changes, and percentage-point changes are correct.
+The Burgess, Hoyt, and Griffin–Ford diagram geometries support their intended keys.
+
+I checked alignment against College Board's currently posted CED and its June 2026 clarifications. Those clarifications do not introduce a different Unit 6 content framework.
+apcentral.collegeboard.org
++1
+
+Below, fields not specifically identified can remain unchanged. I separate substantive accuracy corrections from recommended improvements to assessment quality.
+
+Substantive corrections
+1. U6-E09 and U6-P13 — Specify the gravity-model formulation
+
+Keep E09 = D and P13 = C.
+
+E09 has the strongest potential answer ambiguity. Geographic gravity models do not universally use distance squared; different distance-decay exponents are used. A student taught an inverse-distance formulation could defend C under the current unspecified stem.
+The Geography of Transport Systems
+
+Replace E09's stem:
+
+In a version of the gravity model in which interaction is proportional to the product of two cities' populations divided by distance squared, what happens to predicted interaction if the distance doubles and both populations remain unchanged?
+
+Keep the options.
+
+Replace these rationales:
+
+C: "Incorrect. One-half would result from dividing by distance rather than distance squared. This question specifies the inverse-square version."
+D: "Correct. Doubling distance multiplies the denominator by 2² = 4. With the population product unchanged, predicted interaction becomes one-fourth as large."
+E: "Incorrect. One-eighth would result from cubing the change in distance. This question specifies distance squared."
+
+Replace the explanation:
+
+In this version of the model, distance is squared. Doubling distance multiplies the denominator by four, so predicted interaction becomes one-fourth as large.
+
+For P13, begin the stem:
+
+Using the inverse-square version of the gravity model, which pair of cities would be expected to have the greatest interaction?
+
+Begin its explanation:
+
+An interaction index can be calculated as (population 1 × population 2) ÷ distance².
+
+Also replace "Pair 5 has the biggest cities" and "Pair 5 has the largest populations" with:
+
+Pair 5 has the largest population product.
+
+Pair 4, not Pair 5, contains the largest individual city. All five computed interaction indices are correct.
+
+2. U6-E11–E13 and U6-P19 — Correct the commercial-spine and elite-sector descriptions
+
+Keep E11 = B, E12 = C, E13 = D, and P19 = B.
+
+The most consequential error is E13's rationale A: wealthy residents do not necessarily live near the CBD rather than at the urban edge. Griffin and Ford's elite sector extends outward and can include wealthy suburbs. Also, the commercial spine and its surrounding elite residential sector are distinct components.
+Suburb
+
+Replace E13 rationale A:
+
+Incorrect. Area 5 represents peripheral informal settlements. Wealthy households are concentrated in Area 2, the elite residential sector, which can also extend to the urban edge. Distance from the CBD alone does not determine neighborhood income.
+
+Replace E11's explanation:
+
+Area 2 combines a commercial spine with the elite residential sector around it. The spine is a corridor of businesses extending from the CBD. The surrounding sector contains high-income housing and extensive services and amenities.
+
+Replace E12 option C:
+
+Outside the elite and disamenity sectors, housing quality generally declines toward the edge in the model shown, while Burgess places higher-income housing in the outer residential zones.
+
+The existing E12 rationale already gives the essential qualification. Putting it in the answer prevents students from learning an overly broad distance-income rule.
+
+In P19 option C, delete "near the CBD."
+
+No diagram redraw is necessary for these corrections.
+
+3. U6-P36 and U6-E13 — Distinguish ownership from secure land tenure
+
+Keep both keys D.
+
+Not owning land does not mean having no legal right to occupy it. Tenure includes arrangements such as leases and other recognized use rights. The current P36 moves too quickly from lack of ownership to lack of legal tenure.
+fao.org
+
+Replace P36's stem:
+
+In some rapidly growing cities, residents have built settlements without formal authorization to occupy the land, sometimes on steep hillsides or floodplains. Which of the following best explains why these settlements may lack piped water, sewers, and electricity?
+
+Replace D:
+
+Uncertain land rights and limited official recognition can delay investment in basic services.
+
+Replace the explanation:
+
+Land tenure refers to people's rights to use or occupy land. Uncertain tenure and limited official recognition can delay investment in basic services. Limited funding and rapid population growth can also slow the extension of water, sewer, and electricity networks.
+
+Because the revised stem does not locate every settlement at the edge, replace whyNot B:
+
+Informal settlements can occur in several parts of a city. The stem does not identify a CBD location as the reason services are missing.
+
+Replace whyNot E:
+
+The stem describes homes built by residents without formal authorization, not temporary housing planned by the government.
+
+For E13, change option D to:
+
+Rural migrants arrived faster than affordable housing was built, so many constructed homes without secure rights to occupy the land.
+
+Make the corresponding substitution in its rationale and explanation: use "without secure rights to occupy the land" instead of "on land they did not own."
+
+4. U6-P02 and U6-P04 — Population totals do not identify all causes of growth
+
+Keep P02 = B and P04 = B.
+
+P02's graph is consistent with rural-to-urban migration, but it does not measure migration. Urban population can also change through natural increase, international migration, and changes in boundaries or classification. P04's "cities can grow in two ways" is consequently incomplete.
+population.un.org
+
+Replace P02's stem:
+
+Which process could help explain both the increase in urban population and the decrease in rural population shown between 1990 and 2020?
+
+Replace B:
+
+Net migration from rural areas to urban areas added residents to cities while reducing the rural population.
+
+Replace the explanation:
+
+Urban population rose from 11 million to 38 million, while rural population fell from 24 million to 19 million. Net rural-to-urban migration could contribute to both changes. The graph alone does not show how much change came from migration, births and deaths, or the reclassification of places as urban.
+
+Replace whyNot D:
+
+A county can contain both urban and rural land. The graph shows that the rural share fell—from about 69 percent in 1990 to about 33 percent in 2020—rather than rose.
+
+For P04, replace the explanation:
+
+Recorded city populations can grow through natural increase, net migration, and changes in urban boundaries or classification. In many sub-Saharan African cities, population growth has outpaced formal manufacturing employment. Many residents work in informal trade and services, although employment patterns differ among cities.
+
+Replace whyNot C:
+
+Out-migration would work against urban population growth; it does not explain the rapid growth described in the stem.
+
+This avoids the false claim that any out-migration necessarily makes the whole city shrink.
+
+5. U6-P35 and U6-E23 — Separate discriminatory lending from an overly simple HOLC-map causal story
+
+Keep P35 = E and E23 = D.
+
+The broad explanation of redlining and persistent inequality is sound. The narrower implication that HOLC map grades themselves uniformly caused mortgage denial is too simple. Archival research distinguishes HOLC's maps and lending from FHA exclusionary practices that preceded those maps.
+Federal Reserve Bank of Chicago
++1
+
+Replace P35's note:
+
+Grades recorded appraisers' judgments of mortgage-lending risk, often influenced by racial and ethnic discrimination. Grade A was labeled "best" and Grade D "hazardous." Original HOLC maps shaded Grade D areas red.
+
+Replace P35's stem:
+
+Which lending pattern and long-term outcome were commonly associated with neighborhoods given the grade shown between the rail line and the river?
+
+Replace its explanation:
+
+Grade D marked neighborhoods that appraisers labeled hazardous for lending, often using discriminatory judgments about residents. In many such neighborhoods, residents faced restricted mortgage access. This made buying or repairing homes and building wealth more difficult, contributing to long-lasting inequalities.
+
+Replace E23 rationale D:
+
+Correct. Discriminatory neighborhood grading and lending practices limited mortgage access in many Black and immigrant neighborhoods. Restricted credit made home purchases and repairs harder, contributing to persistent differences in investment, property values, and household wealth.
+
+Replace E23's explanation:
+
+In redlined neighborhoods, many residents faced loan refusals or less favorable terms when trying to buy or repair homes. This reduced opportunities for homeownership and investment and contributed to wealth gaps across generations.
+
+This preserves the historical discrimination clearly while avoiding the blanket claim that affected families could not own homes.
+
+6. U6-P32, U6-P33, and U6-E20 — Correct claims that infer household movement from tract summaries
+
+Keep P32 = D, P33 = D, and E20 = A.
+
+The bank generally recognizes the limits of aggregate data, but several feedback lines contradict that principle.
+
+Replace P32 whyNot A:
+
+The table does not show rising incomes, rents, or reinvestment. The large increase in vacant housing provides stronger evidence of abandonment than of gentrification.
+
+Replace P32 whyNot C:
+
+The table does not show new construction on vacant lots. Falling population and a much higher vacancy rate provide stronger evidence of abandonment than of infilling.
+
+Gentrification and infill do not guarantee that an entire tract's population increases.
+
+Replace P33 option D:
+
+The data summarize the tract at two dates; they do not identify which earlier households moved or why.
+
+Replace P33's explanation:
+
+The medians describe the tract at two points in time. They do not follow the same households. Median income could rise because existing residents earned more, higher-income residents arrived, lower-income residents left, or several changes occurred together. Tracking earlier households can help determine whether housing costs contributed to their moves.
+
+Replace P33 whyNot C:
+
+Interviews can explain residents' experiences and reasons for moving. The two medians alone do not provide that information.
+
+Replace E20's explanation:
+
+Gentrification involves reinvestment in a lower-income neighborhood and an increased presence of higher-income residents. Tract 101 shows the strongest indicators: income and rent each more than doubled, and the college-graduate share rose from 14% to 46%. These changes suggest gentrification, but they do not establish who moved or whether anyone was displaced.
+
+Replace E20 rationale D:
+
+Incorrect. Tract 104 shows rising rent but no aggregate increase in income or educational attainment. The table does not directly identify who moved into or out of the tract.
+
+Also replace rationale E's "long-established high-income area" with:
+
+an area that was already high-income at the beginning of the period
+
+Finally, add to P32 and E20's source lines:
+
+Tract boundaries are held constant across the years shown.
+
+Keep E20's existing inflation adjustment. Census explicitly recommends checking geographic boundaries when comparing data over time.
+census.gov
+
+7. U6-P31 — Numerical data can describe attitudes
+
+Keep B.
+
+"Interviews tell how people FEEL about change. Numbers cannot show that" is false. Surveys can quantify reported attitudes.
+
+Replace the explanation:
+
+Qualitative data describe experiences, observations, and meanings, often through interview responses, field notes, or photographs. Quantitative data express measurements or counts as numbers. These interviews provide residents' descriptions of change. Surveys can also summarize attitudes numerically; the distinction is how information is recorded and analyzed.
+
+I would also change the primary skill from 3.A to 1.A. This item classifies research methods; it does not ask students to analyze an actual data representation.
+
+8. U6-P23 — Distance and construction date do not establish sprawl
+
+Keep A.
+
+Cedar Ridge could be infill within an already developed suburban area 22 kilometers from the CBD. The table does not establish its previous land use. Infill is defined by its relationship to existing development, not a particular distance from downtown.
+US EPA
+
+Replace whyNot D:
+
+Infilling means building on vacant or underused land within an already developed area. A recent construction date and distance from the CBD do not establish whether Cedar Ridge is infill.
+
+Replace the explanation:
+
+Old Mill has 60 housing units per hectare, Maple Park has 12, and Cedar Ridge has 4. In these three neighborhoods, density decreases with distance from the CBD. The newer neighborhoods are also less dense. This is consistent with car-oriented suburban development, although the table does not measure car ownership.
+
+9. U6-E10 and U6-P14 — Avoid turning central place theory into an absolute municipal-location rule
+
+Keep E10 = E and P14 = A.
+
+E10's B is not as good as E, because its reasoning is weak. Nevertheless, a specialty camera store can occupy a suburban retail node within a large metropolitan market. "Only a big city has enough people nearby" is too categorical. Central place theory concerns centers and their surrounding service markets.
+The Geography of Transport Systems
+
+Replace E10's stem:
+
+In a region following central place theory, a store sells specialized camera equipment that customers buy infrequently. Which explanation best predicts the level of central place most likely to support the store?
+
+Replace E:
+
+A high-order central place, because a large surrounding market can supply enough customers willing to travel farther.
+
+Replace rationale B:
+
+Incorrect. Being near grocery stores does not by itself establish sufficient demand for specialized equipment. The store must attract enough customers from its wider market area.
+
+Replace rationale C:
+
+Incorrect. Low land cost alone does not establish that a location can attract enough customers to support the store.
+
+Replace rationale E and the explanation:
+
+Specialized goods purchased infrequently are associated with higher-order central places serving large markets. Threshold is the minimum customer base needed to support the service; range is the distance customers are willing to travel.
+
+For P14, replace the final two explanation sentences:
+
+People buy gas and groceries frequently and usually choose nearby sellers, so these services can be supported by smaller market areas. Specialized hospitals serve larger populations, and patients may travel farther to reach them, so they are concentrated in higher-order central places.
+
+10. U6-P06 and SOURCES.md — Keep the broad boomburb interpretation, but correct its historical attribution
+
+Keep A.
+
+I would not mark A wrong under the bank's broad classroom definition. However, the displayed period does not establish the full historical growth criterion used in the originating research.
+
+The source note also attributes the 1970 starting year to the original Lang–Simmons study. Their original analysis used 1950; the later Lang–LeFurgy analysis shifted to 1970.
+brookings.edu
+
+Replace the source-note passage:
+
+Lang and Simmons' original study used sustained double-digit population growth since 1950; Lang and LeFurgy's later analysis used 1970 as its beginning year. This table covers 2000–2024 and does not establish either study's complete historical criterion. The item uses "boomburb" in the broader classroom sense of a large, rapidly growing suburban city.
+
+Replace the explanation's Dallas parenthesis and surrounding sentence:
+
+Both had more than 100,000 residents by 2010 and are suburban municipalities within the Dallas–Fort Worth metropolitan area.
+
+Replace whyNot C:
+
+The table supports rapid population growth in large municipalities. It provides no evidence about low density, location beyond the suburban fringe, or commuting distances.
+
+Use "about seven times as large" and "about four times as large" instead of "times bigger."
+
+11. U6-P38 and U6-E25 — Make governmental authority precise
+
+Keep P38 = E and E25 = B.
+
+P38's claim that all the listed governments must agree is stronger than the scenario establishes. Annexation also would not eliminate counties, school districts, and special-purpose agencies.
+
+Replace P38's explanation:
+
+Authority is divided among municipalities, counties, school districts, and service agencies. A regional transit project may cross several jurisdictions and require coordination over routes, funding, and approvals. Different priorities can make agreement difficult. This is functional and geographic fragmentation of government.
+
+Replace whyNot D:
+
+Annexation brings territory into a municipality. The stem instead describes many independent municipal governments.
+
+For E25, explicitly establish the hypothetical jurisdictional arrangement.
+
+Replace the stem:
+
+A central city restricts new urban development beyond a growth boundary on land under its planning authority. Neighboring suburban municipalities adopt no comparable limits. Which regional outcome is most likely?
+
+Replace rationale A:
+
+Incorrect. The scenario limits the policy to land under the central city's planning authority. It does not establish comparable restrictions in neighboring municipalities.
+
+Replace rationale B:
+
+Correct. Developers may respond to restrictions in one jurisdiction by building in neighboring municipalities without them. Regional sprawl can therefore continue despite local limits.
+
+Replace rationale E:
+
+Incorrect. The policy restricts development on protected land under the city's authority. It does not permit new housing there or require density inside the boundary to fall.
+
+The current rationale incorrectly implies that all land outside the boundary is protected, including land in the unrestricted neighboring municipalities.
+
+12. U6-P30, U6-P39, and U6-P41 — Replace three overly broad explanations
+
+Keep P30 = E, P39 = A, and P41 = C.
+
+P30 explanation:
+
+A greenbelt protects open land and limits some locations for new building. If housing demand remains strong and construction inside the city does not keep pace, limited supply can raise prices. The outcome also depends on how much infill and additional housing local rules allow.
+
+P30 whyNot B:
+
+A greenbelt does not require older neighborhoods to become less dense. Infill may increase density where local rules allow it.
+
+P30 whyNot C:
+
+A greenbelt does not by itself make existing neighborhoods more spread out. Some development may move beyond the protected belt, but that is a different spatial outcome.
+
+P39 explanation:
+
+A brownfield is a property whose reuse is complicated by possible or known contamination. Former factories, gas stations, and dry cleaners can be examples. Cleaning and reusing such land can add homes or jobs without developing more open land.
+
+Brownfields are not limited to former industrial property.
+US EPA
+
+P41 explanation:
+
+In many rapidly growing cities, population increases faster than water and sanitation networks can expand. Limited funding and uneven service provision can make the gap worse. The important comparison is population growth relative to infrastructure capacity; conditions vary within both groups of cities.
+
+P41 whyNot B:
+
+Growth boundaries regulate urban development. The stem does not identify such a policy as the reason sanitation services have fallen behind.
+
+P41 whyNot E:
+
+Gentrification changes population and investment within existing neighborhoods. It does not explain the overall growth pressure on sanitation systems described here.
+
+Remove the unsupported assertion that growth occurs mostly at the edges in informal settlements.
+
+13. U6-P05, U6-P09, and U6-E06 — Correct small but meaningful inferences
+
+Keep P05 = E, P09 = B, and E06 = C.
+
+P05 explanation:
+
+An edge city is a major concentration of offices, shops, and jobs outside the traditional downtown, often near a highway interchange. It attracts commuters from other parts of the metropolitan area. The office towers, regional mall, and large daytime workforce fit this pattern.
+
+Having more workers than residents does not establish that inbound commuters alone outnumber all residents.
+
+P09 option B:
+
+A decision made at a world-city headquarters shifts local employment between cities in other countries.
+
+P09 explanation:
+
+The bank's headquarters coordinates an international network. Closing one office and opening another changes local employment in India and the Philippines. This connects a global business decision to local outcomes.
+
+The Philippine city is unspecified, so "smaller cities" is not established.
+
+E06 explanation:
+
+Company managers in Paris coordinate a network connecting production in Bangladesh, shipping through Singapore, and retail sales in many cities. These international connections affect jobs and businesses in particular local places.
+
+E06 rationale C:
+
+Correct. Company decisions made at a world-city headquarters coordinate an international production network and affect local employment in connected places.
+
+This also strengthens the justification for 5.B by making the global-to-local relationship explicit.
+
+14. U6-E02 — Limit the comparison to the countries shown
+
+Keep B.
+
+Replace B:
+
+China's urban share rose by more percentage points from 1980 to 2020 than that of any other country shown.
+
+For a stronger distractor, replace D:
+
+The gap between the United Kingdom's and China's urban shares was larger in 2020 than in 1960.
+
+Replace rationale D:
+
+Incorrect. The gap narrowed from about 59 percentage points in 1960 to about 19 percentage points in 2020.
+
+The original "more than doubled" distractor is especially weak once students see the United Kingdom beginning near 80%.
+
+Recommended assessment-quality revisions
+15. U6-E03 — Make students use the graph and avoid claiming that urbanization automatically creates megacities
+
+Keep E.
+
+The current explanation—"When a country's urban share climbs this fast, its biggest cities grow huge"—does not follow from national percentages. The current stem also supplies the relevant countries and trend.
+
+A stronger replacement preserves the megacity-distribution concept:
+
+Stem
+
+Which pair of countries had the greatest percentage-point increases in urban share from 1980 to 2020, and which broader urban pattern is consistent with their growth?
+
+Options
+
+A. The United Kingdom and China; increasing concentration of megacities in periphery and semiperiphery countries.
+B. China and Nigeria; increasing concentration of megacities in core countries.
+C. India and Nigeria; increasing concentration of megacities in periphery and semiperiphery countries.
+D. China and India; a worldwide shift of population from urban areas to rural settlements.
+E. China and Nigeria; increasing concentration of megacities in periphery and semiperiphery countries.
+
+Rationales
+
+A: "Incorrect. The United Kingdom had the smallest percentage-point increase among the countries shown."
+B: "Incorrect. The countries are correctly identified, but the broader megacity-distribution trend is reversed."
+C: "Incorrect. China's increase was greater than India's."
+D: "Incorrect. Nigeria's increase exceeded India's, and rising urban shares do not indicate a shift toward rural settlement."
+E: "Correct. China and Nigeria had the two largest increases. Their urbanization is consistent with the broader concentration of megacities in periphery and semiperiphery countries."
+
+Explanation
+
+China gained about 44 percentage points and Nigeria about 32, more than the other countries shown. This is consistent with the broader megacity-distribution pattern studied in the course. However, the graph does not establish the population or number of individual megacities.
+
+Use 3.E for this revised task rather than 2.D.
+
+16. U6-E08 — Make the contrast between the two distributions necessary
+
+Keep A.
+
+The original capital/seaport/colonial-capital stem makes A answerable without the table.
+
+Replacement stem
+
+Which historical pattern would best help explain the difference between the city-size distributions of Country P and Country Q?
+
+Options
+
+A. Political power and port trade were concentrated in Country Q's largest city, while investment was spread among several major cities in Country P.
+B. Political power and port trade were concentrated in Country P's largest city, while investment was spread among several major cities in Country Q.
+C. Both countries divided government functions and investment equally among their five largest cities.
+D. Both countries moved government offices and port activities from their largest cities to smaller towns.
+E. Country Q restricted migration to its largest city, while Country P encouraged migration to its largest city.
+
+Rationales
+
+A: "Correct. Concentrating major functions in one city is a plausible explanation for Country Q's much stronger urban primacy."
+B: "Incorrect. This reverses the relationship suggested by the two distributions."
+C: "Incorrect. Similar investment patterns do not explain the pronounced difference between the urban systems."
+D: "Incorrect. Dispersing major functions does not explain Country Q's strong concentration."
+E: "Incorrect. These policies would tend to weaken concentration in Q and strengthen it in P, opposite to the contrast shown."
+
+Explanation
+
+Country P follows the rank-size pattern. Country Q's largest city has more than seven times the population of its second city. Concentrated government and port activity could help explain Q's pattern, although the table cannot prove either country's history.
+
+17. U6-E21 and U6-E22 — Require students to identify the relevant tract
+
+Keep E21 = E and E22 = C.
+
+E21 is a legitimate data-limitation concept, but its current options make the table dispensable. E22 explicitly repeats the relevant tract and rent change.
+
+E21 replacement
+
+Stem
+
+A researcher wants to investigate displacement in the tract with the greatest percentage-point increase in the share of college graduates. Which study would best address a limitation of the table?
+
+Options
+
+A. Interview households that moved into Tract 101 after 2010 about their housing choices.
+B. Follow Tract 102's 2010 households to learn who stayed, who moved, and why.
+C. Follow Tract 103's 2010 households to learn who stayed, who moved, and why.
+D. Follow Tract 104's 2010 households to learn who stayed, who moved, and why.
+E. Follow Tract 101's 2010 households to learn who stayed, who moved, and why.
+
+Rationales
+
+A: "Incorrect. Interviewing only newcomers does not establish what happened to earlier residents."
+B/C/D: "Incorrect. This method follows earlier residents, but it targets the wrong tract."
+E: "Correct. Tract 101 had the largest increase, 32 percentage points. Following its earlier households can reveal movement and reasons that aggregate statistics cannot."
+
+Explanation
+
+Tract 101's college-graduate share rose from 14% to 46%. The table summarizes the tract but does not follow individual households. Studying its 2010 households, including those who stayed and those who moved, can help identify displacement.
+
+Retain 3.F.
+
+E22 replacement
+
+Stem
+
+City M wants to help lower-income households remain in the tract with the largest percentage increase in median monthly rent. Which pairing of tract and policy best addresses this goal?
+
+Options
+
+A. Tract 101: require large minimum lot sizes for new housing.
+B. Tract 103: require units affordable to lower-income households in new apartment buildings.
+C. Tract 101: require units affordable to lower-income households in new apartment buildings.
+D. Tract 104: require units affordable to lower-income households in new apartment buildings.
+E. Tract 102: require units affordable to lower-income households in new apartment buildings.
+
+Rationales
+
+A: "Incorrect. This identifies the correct tract, but large minimum lot sizes can restrict housing supply and raise costs."
+B/D/E: "Incorrect. The policy addresses affordability, but the identified tract did not have the largest percentage rent increase."
+C: "Correct. Tract 101's median rent increased about 123%. Affordable-unit requirements can preserve housing options for lower-income households there."
+
+Explanation
+
+Tract 101's rent rose from $650 to $1,450, more than doubling. Its increase was much greater than those in the other tracts. Requiring affordable units in new buildings can help lower-income households remain.
+
+18. U6-E19 — Remove the "one plausible criticism" shortcut
+
+Keep B.
+
+The current A reverses the premise, C and E are benefits, and D implausibly excludes parks and greenbelts. B is consequently available through verbal elimination.
+
+Replacement stem
+
+A city adopts an urban growth boundary. Ten years later, farmland conversion has slowed, but housing construction has not kept pace with household growth. Which criticism is most directly supported by these conditions?
+
+Options
+
+A. Longer commutes may increase transportation costs when employment centers are located far from established residential neighborhoods.
+B. Insufficient housing construction may raise housing costs when the number of households grows faster than the supply of homes.
+C. Redevelopment may damage historic character when developers demolish older buildings to make room for new construction.
+D. Unequal transit access may disadvantage lower-income residents when new routes bypass the neighborhoods where they live.
+E. Reduced access to parks may worsen residents' quality of life when open spaces are converted to housing.
+
+Rationales
+
+A: "Incorrect. The scenario provides no evidence about employment locations or commuting times."
+B: "Correct. Housing construction has not kept pace with household growth, supporting concern about affordability."
+C: "Incorrect. No demolition of historic buildings is described."
+D: "Incorrect. No information about transit routes or unequal transit access is provided."
+E: "Incorrect. No conversion of parks is described."
+
+Explanation
+
+The boundary slowed farmland conversion, but housing supply did not keep pace with household growth. That shortage may put upward pressure on housing costs.
+
+For this revised applied scenario, use 2.C.
+
+19. U6-E24 — Give students competing strategies rather than one positive option
+
+Keep D.
+
+The current D is the only option that sounds like a sustainability benefit; several distractors also contradict explicit details in the stem.
+
+Replacement stem
+
+A growing city wants to add housing, clean up contaminated land, and limit development on surrounding farmland. Which strategy would most directly meet all three goals?
+
+Options
+
+A. Expand bus service to a new housing development built on farmland outside the city.
+B. Protect farmland with a growth boundary while leaving vacant industrial sites unchanged.
+C. Establish a greenbelt and move new apartment construction to the next municipality.
+D. Clean up contaminated soil at an unused downtown rail yard and redevelop the site with apartments.
+E. Build apartments on an undeveloped site near downtown and fence off the contaminated rail yard.
+
+Rationales
+
+A: "Incorrect. This adds housing and transit service but develops farmland and does not clean contaminated land."
+B: "Incorrect. This protects farmland but does not itself add housing or clean contaminated sites."
+C: "Incorrect. This shifts construction elsewhere without addressing contamination."
+D: "Correct. This adds housing, addresses contamination, and reuses developed land, reducing pressure to build on farmland."
+E: "Incorrect. This adds housing but leaves the contaminated site unremediated."
+
+Explanation
+
+Cleaning and rebuilding the rail yard provides housing on previously developed land. The project addresses contamination and can reduce pressure to expand onto farmland.
+
+Retain 2.C.
+
+20. U6-P17 and U6-P18 — Strengthen the use of the actual visual
+
+Keep P17 = D and P18 = E.
+
+P17: The current commercial–industrial–residential sequence can be selected from memorized textbook knowledge. A more data-specific version is:
+
+Based on the graph, which land uses would make the highest bids at 3 kilometers and 6 kilometers from the CBD, respectively?
+
+A. Commercial and industrial
+B. Commercial and residential
+C. Residential and industrial
+D. Industrial and residential
+E. Industrial and commercial
+
+Explanation:
+
+At 3 kilometers, industry bids $340 per square meter per year, above commercial users' $250 and residential users' $230. At 6 kilometers, residential users bid $160, above industry's $90 and commercial users' $20.
+
+whyNot:
+
+A: "Industry outbids commercial users at 3 kilometers; residential users outbid industry at 6 kilometers."
+B: "Residential is correct at 6 kilometers, but industry makes the highest bid at 3 kilometers."
+C: "Residential users make the lowest bid at 3 kilometers and the highest at 6 kilometers."
+E: "Industry is correct at 3 kilometers, but residential users outbid commercial users at 6 kilometers."
+
+P18: Its accessible description repeatedly says "wedges," and E repeats that feature while naming Hoyt. Replace the options with the model names alone:
+
+A. The Burgess concentric zone model
+B. The Harris and Ullman multiple nuclei model
+C. The galactic city model
+D. Bid-rent theory
+E. The Hoyt sector model
+
+Replace whyNot D:
+
+Bid-rent theory relates willingness to pay for land to accessibility. The sectors following transportation routes in this map are more directly explained by Hoyt's model.
+
+Keep the accessible map description. The answer echo is in the choices, not a reason to remove accessibility support.
+
+21. Smaller exact edits
+
+These improve precision or remove avoidable tells without changing the underlying item.
+
+Item and field Replacement wording
+P03, C "Federally backed mortgages and new highways made buying a suburban home and commuting by car easier."
+P16, stem opening Replace "which ring" with "which area." A is the CBD, so the existing wording gives a grammatical elimination.
+P16, explanation's final sentence "The model places many newcomers with limited incomes in this zone and describes some households moving into outer residential zones as their incomes rise."
+P22, E "Closely spaced 20-story condominium towers on small lots"
+P22, whyNot E "Tall, closely spaced buildings place many housing units on each acre, producing high density."
+P26, D "Lower-income neighborhoods have fewer reachable jobs mainly because residents choose jobs within walking distance."
+P26, whyNot D "The table does not show residents' job choices or jobs within walking distance. It shows unequal access by public transit."
+P26, explanation opening "Riverside and Eastfield have the highest percentages of households without cars: 31% and 27%."
+P28, whyNot B "Urban renewal means redeveloping existing urban areas. It does not identify a particular street-and-building design; a renewal project could use New Urbanism."
+P29, whyNot B "The policy directs growth toward rail stations; it does not require building on farmland."
+
+The P28 correction is consistent with New Urbanism's application to infill, revitalization, and new development.
+CNU
+
+Also use "at least 10 million" consistently for megacity, matching the bank's own "10 million+" source note. In P15, prefer "regularly spaced central places with hexagonal market areas" to towns "in a hexagonal pattern."
+
+Framework, exam design, and coverage
+22. Correct the "exactly matches AP" claim and distinguish stimulus count from skill balance
+
+Your 25 questions in 25 minutes reproduces the AP multiple-choice section's average pacing. Ten stimulus-linked questions out of 25 is 40%, within College Board's stated approximately 30–40%. However, College Board also describes the stimulus material as roughly evenly divided between quantitative and qualitative sources. Your current allocation is seven quantitative-linked questions and three qualitative-linked questions.
+College Board
+
+The current file's primary skill tags are:
+
+Skill category Items Current share College Board's full-exam range
+Concepts and Processes 8 32% 25–36%
+Spatial Relationships 9 36% 16–25%
+Data Analysis 4 16% 13–20%
+Source Analysis 2 8% 13–20%
+Scale Analysis 2 8% 13–20%
+
+The published ranges apply to the full exam, so a Unit 6 quiz need not reproduce them precisely. They do, however, weaken an "exact match" claim. A practical 25-item target would be 8 / 5 / 4 / 4 / 4, achieved through actual task changes rather than relabeling.
+College Board
+
+Replace the calibration claim with:
+
+Original Unit 6 practice designed to approximate AP Human Geography multiple-choice format and pacing, with five answer choices and a mixture of individual and stimulus-based questions. Difficulty labels are author estimates pending student piloting.
+
+Additional alignment findings:
+
+The topic and LO assignments are broadly defensible throughout.
+P05 and P28: 1.D is a more precise scenario-identification tag than 1.A.
+P20: 1.A is cleaner than 1.C because the Burgess contrast is supplied rather than meaningfully compared.
+E12: Retain 1.C. A diagram's presence does not automatically make the task Source Analysis.
+P09 and E06: The local/global wording revisions above strengthen 5.B.
+"Transportation-oriented development" is not an error: that wording appears in the current CED.
+
+The keys themselves are well distributed: the exam has five of each letter, and practice has eight each of A–D and nine E. I found no systematic longest-answer cue. The more significant tells are implausible reversals, benefits placed in a criticism question, and options that contradict the stem.
+
+Several "hard" labels—particularly P04, P15, P21, P27, and E14—look optimistic because their distractors are readily eliminated. Actual difficulty needs student response evidence.
+
+23. Fill the important content gaps before adding more repetition
+
+The bank gives substantial attention to urban models, city-size rules, gentrification, growth boundaries, and sprawl. Those are appropriate topics, but some other content receives little affirmative assessment.
+
+Content Current treatment Recommended adjustment
+Galactic/peripheral city model Mostly distractors; E14 addresses multiple centers generally Add a keyed application involving decentralized employment centers and beltways
+Metacities Vocabulary mention Assess the concept directly
+Environmental injustice Implicit in highway and lending examples Include unequal exposure to pollution or environmental hazards
+Local food movements Distractor only Assess a realistic benefit or limitation
+Urban renewal and gentrification Harms emphasized; benefits usually incidental Include a question weighing reinvestment or improved services against displacement
+Climate change, energy use, ecological footprint, air/water quality Thin coverage compared with sprawl and brownfields Replace a repetitive item with a substantive sustainability application
+Historical/place character Little direct assessment Include a planning tradeoff involving redevelopment and existing neighborhoods
+In situ accretion Area 4 appears but is not explained or tested Use a model question on gradual improvement of housing and services
+
+The first seven rows connect directly to named Unit 6 content; in situ accretion is a useful model-detail extension.
+apcentral.collegeboard.org
+
+For the exam, Topics 6.4 and 6.5 together occupy 8 of 25 questions, while density and infrastructure receive only one each. There is no official equal-per-topic quota, but this is a reasonable place to redistribute questions.
+
+Also replace the opening source-note assertion that every other stimulus is hypothetical with:
+
+Two data stimuli use observed statistics: P06 and E02–E03. Other numerical datasets are hypothetical. Conceptual model diagrams are simplified redrawings identified by their source lines.
+
+24. Retain the sound material and avoid unnecessary model "corrections"
+
+I found no additional substantive content or key correction necessary for:
+
+Practice: P01, P07, P08, P10, P11, P12, P15, P20, P21, P24, P25, P27, P34, P37, and P40.
+
+Exam: E01, E04, E05, E07, E14, E15, E16, E17, and E18.
+
+Some of those have optional wording, skill-tag, or difficulty refinements noted above.
+
+In particular:
+
+Burgess: The central CBD and four surrounding rings are correctly ordered and keyed.
+Hoyt: The industrial railroad sector, adjacent lower-income sectors, and higher-income lakeshore sector are appropriate.
+Harris–Ullman: Airports and universities as nuclei are valid examples.
+McGee: The port-focused account is sound as a historical generalized model.
+de Blij: "Transitional business center" is an accepted textbook variant alongside a colonial CBD and market zone; do not mark it wrong solely because another diagram labels the corresponding district "traditional CBD."
+9781000288797
+
+The reading level is generally suitable for ninth and tenth graders. The largest clarity gain will come from replacing overstatements with precise wording—"the data suggest," "can contribute," "in this model," and "among the places shown." Keep the AP vocabulary, but remove expressions such as "better rings" and "fancy boulevard," which add judgment without improving the geographic explanation.
+
+My publication recommendation is to retain all answer letters, apply the factual and feedback corrections, and strengthen the identified exam items. After those changes, this would be a solid Unit 6 practice resource; its claim should remain AP-style and framework-aligned, with difficulty established through student use.
+
+ChatGPT can make mistakes. Check important info.

@@ -10,11 +10,12 @@ import json, sys, re
 from collections import Counter
 from pathlib import Path
 H = Path(__file__).resolve().parent
-ns1, ns2, ns3 = {}, {}, {}
+ns1, ns2, ns3, ns4 = {}, {}, {}, {}
 exec((H / "p1.py").read_text(encoding="utf-8"), ns1)
 exec((H / "p2.py").read_text(encoding="utf-8"), ns2)
+exec((H / "p3.py").read_text(encoding="utf-8"), ns4)
 exec((H / "exam.py").read_text(encoding="utf-8"), ns3)
-practice = ns1["P"] + ns2["P"]
+practice = ns1["P"] + ns2["P"] + ns4["P"]
 exam = ns3["E"]
 
 def swap(qq, a, b):
@@ -38,8 +39,38 @@ SWAPS = [("U6-P12", "C", "A"), ("U6-P15", "C", "A"), ("U6-P20", "C", "A"), ("U6-
          ("U6-E12", "B", "C"), ("U6-E14", "C", "B"), ("U6-E15", "D", "A"), ("U6-E16", "C", "A"), ("U6-E19", "E", "B"), ("U6-E25", "D", "B")]
 FIXED_ORDER = {"U6-P10", "U6-P11", "U6-P13", "U6-P16", "U6-P17", "U6-E09", "U6-E11"}
 assert not FIXED_ORDER & {s[0] for s in SWAPS}
+
 for qid, a, b in SWAPS:
     swap(byid[qid], a, b)
+
+# review fixes applied AFTER the swaps, so letters in them are final letters:
+#   fixes_c.py (v2026-11-08c, ChatGPT Pro review), fixes_d.py (v2026-11-08d, final blind check)
+def apply_fixes(fname):
+    nsf = {}
+    exec((H / fname).read_text(encoding="utf-8"), nsf)
+    for qid, pt in nsf["PATCH"].items():
+        q = byid[qid]
+        for k, v in pt.items():
+            assert k in q, (qid, k)
+            if isinstance(v, dict):
+                for L, txt in v.items():
+                    if k != "stimulus": assert L in q[k], (qid, k, L)
+                    q[k][L] = txt
+            else:
+                q[k] = v
+    for qid, field, old, new in nsf["REPLACE"]:
+        q = byid[qid]
+        if "." in field:
+            f, L = field.split("."); assert q[f][L].count(old) == 1, (qid, field, old); q[f][L] = q[f][L].replace(old, new)
+        else:
+            assert q[field].count(old) == 1, (qid, field, old); q[field] = q[field].replace(old, new)
+    return nsf
+apply_fixes("fixes_c.py")
+nsd = apply_fixes("fixes_d.py")
+assert not FIXED_ORDER & {s[0] for s in nsd["SWAPS_FINAL"]}
+for qid, a, b in nsd["SWAPS_FINAL"]:
+    swap(byid[qid], a, b)
+apply_fixes("fixes_e.py")
 
 TOPICS = [
   ("6.1", "The Origin and Influences of Urbanization", "PSO-6.A"),
@@ -66,9 +97,9 @@ out = {
   "unit": 6,
   "title": "Cities and Urban Land-Use Patterns and Processes",
   "examWeighting": "12–17% of the AP Exam multiple-choice section",
-  "version": "2026-11-08b",
-  "calibration": "Modeled on the format of the College Board 2020 AP Human Geography Practice Exam and the Course and Exam Description (5 answer choices, set-based stimulus questions, skills 1–5). All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced. Real data (World Bank urban-share series; U.S. Census Bureau city populations) were checked against the official source files listed in u6/SOURCES.md.",
-  "checked": "Nov 8, 2026: draft. Automated checks in u6/assemble.py (answer balance and runs, option-length tells, absolute-word tells, field completeness, set structure, student-facing wording, reading level) and u6/verify.py (every number and computed answer re-derived by script; World Bank and Census values matched to the source files, re-fetched live). Independent blind Claude check (Nov 8): 66/66 keys agreed; World Bank and Census values re-downloaded and matched; fixes applied for P13 (Pair 3 distance 25 km so the key holds whether or not distance is squared), E11 diagram description, E20 inflation note moved to the source line, E16 D, E19 distractors (two benefits replace reversed-praise options; skill 1.B), absolute-word tells in P29/P33/P36, E11/E12 disamenity wording, P21 and P06 explanations, E22 stem tied to the data, E25 skill 5.B.",
+  "version": "2026-11-08e",
+  "calibration": "Modeled on the format of the College Board 2020 AP Human Geography Practice Exam and the Course and Exam Description (5 answer choices, set-based stimulus questions, skills 1–5). All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced. Designed to approximate AP multiple-choice format and pacing; difficulty labels are author estimates pending student piloting. Real data (World Bank urban-share series; U.S. Census Bureau city populations) were checked against the official source files listed in u6/SOURCES.md.",
+  "checked": "Nov 8, 2026: automated checks in u6/assemble.py (answer balance and runs, option-length tells, absolute-word tells, field completeness, set structure, student-facing wording, reading level) and u6/verify.py (every number and computed answer re-derived by script; World Bank and Census values matched to the source files, re-fetched live). Independent blind Claude check (Nov 8): 66/66 keys agreed; World Bank and Census values re-downloaded and matched; fixes applied for P13 (Pair 3 distance 25 km so the key holds whether or not distance is squared), E11 diagram description, E20 inflation note moved to the source line, E16 D, E19 distractors (two benefits replace reversed-praise options; skill 1.B), absolute-word tells in P29/P33/P36, E11/E12 disamenity wording, P21 and P06 explanations, E22 stem tied to the data, E25 skill 5.B. ChatGPT Pro full review (Nov 8, 11 min, version b): no rekeying; applied in u6/fixes_c.py: gravity formula stated in P13/E09; Griffin–Ford spine vs. elite-sector wording (E11–E13, P19); secure land tenure vs. ownership (P36, E13); aggregate-data inference limits (P02, P04, P23, P31, P32, P33, E20); HOLC/redlining causal wording (P35, E23); central place wording (E10, P14); boomburb attribution (P06, SOURCES); governmental authority (P38, E25); explanations P05, P09, P30, P39, P41, E03, E06, E08; E02 distractor D; P17 and E19 and E24 rewritten so the stimulus or scenario is needed; P18 options reduced to model names; smaller edits P03, P15, P16, P22, P26, P28, P29; skill and difficulty tags; six practice items added (P42–P47: galactic city, metacity, environmental injustice, local food movement, urban heat island, historic character). Final blind Claude check of version c (Nov 8): 72/72 keys agreed, no must-fix; sources re-downloaded and every number recomputed; applied in u6/fixes_d.py: E25 and P47 and P45 distractors no longer refutable from the stem, P46 options rebuilt (key moved to E), E24 options use brownfield/greenfield/inclusionary-zoning vocabulary, P36 E, P15 and E10 and E12 and P37 key wording, P02 why-not D, simpler P36/P42/P45 explanations, P23 wording, P40 stem, E17 hedge, P35 rail line moved to the Grade D edge, E13/E14 options swapped to break the E11-E13 key run. Final key check (Nov 8): 14/14 agreed, no must-fix; u6/fixes_e.py corrects P46 why-not D (temperatures re-checked against the chart) and replaces \"stem\" with \"the question\" in student-facing why-not lines (P04, P38, P41).",
   "schemaNotes": {
     "stimulus.type": "table | bar | line | districtMap | schematicMap | rings (line = multi-series line chart: categories[] on the x-axis, series[].name/values[], xLabel, yLabel, optional yMax; rings = concentric ring diagram: center, rings[].label, outer, description)",
     "practice[].explanation": "6th-grade-level reason the answer is right (show this first)",
@@ -89,7 +120,7 @@ out = {
 errs, warns = [], []
 topic_ids = {t for t, _, _ in TOPICS}
 ABS = re.compile(r"\b(always|never|only|all|every|none|entirely|completely|solely|totally|must|impossible|cannot)\b", re.I)
-BANNED = re.compile(r"\bCED\b|Mr\.|Mrs\.|Ms\.|Martin|Garrigus|Rask|Course and Exam Description", re.I)
+BANNED = re.compile(r"\bCED\b|\bMr\.|\bMrs\.|\bMs\.|Martin|Garrigus|Rask|Course and Exam Description", re.I)
 STIM_TYPES = {"table", "bar", "line", "districtMap", "schematicMap", "rings", "pyramid"}
 key_longest = {"practice": 0, "exam": 0}
 

@@ -1,0 +1,64 @@
+Unit 3 blind answers (independent check, from blind.md only, before opening key.txt)
+
+PRACTICE
+U3-P01 A  Each is a single learned behavior/item = culture trait.
+U3-P02 B  Student 2 judges the late dinner by local conditions = cultural relativism.
+U3-P03 D  Learned, shared, passed between generations; others are biology, climate, or one person's habit.
+U3-P04 B  Church-turned-mosque with old windows + new sign = layered imprints of successive groups.
+U3-P05 E  Anangu beliefs and land rights changed how Uluru is used.
+U3-P06 C  Mixing past styles playfully = postmodern architecture.
+U3-P07 A  More working mothers -> more childcare centers in the built landscape.
+U3-P08 E  Shared national language = centripetal force.
+U3-P09 D  Region 3 speaks a different language, cut off by mountains, excluded from official use -> centrifugal.
+U3-P10 C  Chicano Park murals = placemaking / sense of place.
+U3-P11 B  Religion lines matching regional lines can strengthen regional identity.
+U3-P12 C  Merchants physically moved and brought the religion = relocation diffusion.
+U3-P13 E  Adoption year follows distance (20,25,60,120,180,200 km), not size = contagious.
+U3-P14 A  Underlying idea (fast-food format) kept, content changed for local culture = stimulus.
+U3-P15 D  Small towns -> mid-sized cities -> capital = reverse hierarchical. (Last sentence is confusingly worded; see report.)
+U3-P16 B  Common language among speakers of many first languages = lingua franca.
+U3-P17 C  Pidgin becomes a first language = creolization.
+U3-P18 A  Colonial division of South America (Tordesillas) -> Portuguese in Brazil.
+U3-P19 E  Muslim traders on Indian Ocean routes; local rulers converted.
+U3-P20 D  All rose; Nigeria 41% vs US 95% gap remains. (B false: Nigeria <50; C false: gap narrowed 66->30; E false: US +27 smallest.)
+U3-P21 B  Coining native words to avoid English loanwords = resisting convergence.
+U3-P22 E  Global spread via media, local adaptation (glocalization).
+U3-P23 A  Youth shift to national language/English -> village language may become endangered.
+U3-P24 C  Hinduism: ethnic, followers still mainly in India/Nepal near hearth. (Judaism ethnic but large US population.)
+U3-P25 D  Caddo, Spanish, German names record successive groups.
+U3-P26 B  Anatolian = spread with farming from Anatolia.
+U3-P27 E  Austronesian speakers crossed the Indian Ocean = relocation.
+U3-P28 A  Universalizing religions seek converts from all cultures.
+U3-P29 C  Sikh migrants carried the faith = relocation.
+U3-P30 D  Acculturation = adopt some traits; assimilation = give up most of original culture.
+U3-P31 B  Language shifts strongly, but 52% of 3rd gen still celebrate festival.
+U3-P32 A  Catholic holy days + Indigenous customs blended = syncretism.
+
+EXAM
+U3-E01 C  Several related traits form a culture complex.
+U3-E02 A  Judging another culture by one's own = ethnocentrism.
+U3-E03 D  Biggest cities first (9M, 4M, 3M), smallest last regardless of distance = hierarchical.
+U3-E04 B  Trends jump between big connected cities, then trickle down to small towns.
+U3-E05 E  Near-universal online media -> faster, less tied to size (time-space convergence).
+U3-E06 A  Idea of writing adopted, new script created = stimulus diffusion.
+U3-E07 C  Common working language between non-native speakers = lingua franca.
+U3-E08 E  Portuguese colonization; language stayed after independence.
+U3-E09 B  Colonial contact -> creole = creolization.
+U3-E10 D  Successive groups leave layered imprints = sequent occupance.
+U3-E11 A  Ethnic neighborhood shaping space through businesses/institutions.
+U3-E12 E  Traditional architecture adapted to climate/materials.
+U3-E13 C  Language divides Belgium = centrifugal.
+U3-E14 B  Cajun festivals/immersion = placemaking/regional sense of place.
+U3-E15 D  Unifies nationally, tension locally.
+U3-E16 A  P: 94% in hearth, 1 region, no converts.
+U3-E17 E  Non-proselytizing spread outside hearth = migration/relocation.
+U3-E18 C  Hierarchical test = did rulers/large cities adopt first.
+U3-E19 B  Both Indo-European, from common ancestor that spread across Eurasia.
+U3-E20 D  Buddhism universalizing (missionaries, traders); Hinduism ethnic.
+U3-E21 E  Drops: 36, 30, 20, 15 points; youngest steepest.
+U3-E22 A  Minority-language online media resists convergence.
+U3-E23 C  Shrinking communication time = time-space convergence.
+U3-E24 B  Yoruba + Catholic blend = syncretism.
+U3-E25 D  Multiculturalism -> distinct identities in one society.
+
+FLAGS (two defensible / none): none found blind. Wording concern on P15 last sentence ("far from where the style began" — the style began in small towns across the country).

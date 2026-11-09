@@ -1,0 +1,72 @@
+Unit 7 FINAL blind check (version 2026-11-08c) -- answers from blind.md only, before opening key.txt
+Format: ID letter -- reasoning
+
+PRACTICE
+P01 C -- coal + iron ore, trade capital, inventions (steam engine).
+P02 E -- latecomers copy proven machines/methods; C's 1950s ISI is outside the 1800-1925 window; D reverses Rostow's order.
+P03 A -- agricultural surplus, population growth, rural-to-urban migration.
+P04 D -- data analyst = quaternary (information); E CEO = quinary; C cashier = tertiary.
+P05 B -- as economies develop, agriculture mechanizes and labor shifts to services.
+P06 E -- containerization cut transport cost, enabling offshoring to low-wage countries.
+P07 C -- concentrating copper ore is bulk-reducing -> near raw material; beer/soft drinks/bread/newspapers are market-oriented.
+P08 A -- software ships little bulky material; labor and agglomeration dominate.
+P09 D -- GDP = output inside borders; GNI adds net primary income from abroad.
+P10 B -- an average hides inequality and says nothing about health/schooling (B: 54% to top 10%, lower life expectancy and schooling).
+P11 E -- maternal mortality falling and more legislative seats both lower GII; A/B/C are not GII inputs; D raises GII.
+P12 C -- informal earnings are under-measured -> GNI per capita may understate.
+P13 A -- share rose 34->47 and earnings ratio < 100 in all years. (B false: +9 vs +13; C false: 47 < 50.)
+P14 D -- microlending.
+P15 B -- persistent pay gap and glass ceiling.
+P16 C -- take-off.
+P17 C -- Rostow = stage you grow out of; dependency = unequal ties to rich countries.
+P18 B -- Q: manufactured exports but mid income and few HQs = semi-periphery.
+P19 D -- commodity dependence.
+P20 A -- opportunity cost of 1 wheat: A = 2 cloth, B = 6 cloth -> A wheat, B cloth; A has absolute advantage in both. D inverts the logic (B gives up MORE cloth).
+P21 E -- tariff cuts, privatization, WTO membership = neoliberal policy.
+P22 C -- state-scale tax breaks and job training.
+P23 B -- austerity cut public services, hurting the poor.
+P24 D -- graph shows two job counts, not that firms actually moved production (correlation vs. causation).
+P25 A -- proximity to U.S. market/suppliers + lower wages.
+P26 E -- ports let foreign firms import inputs and export cheaply.
+P27 B -- uneven development: coast grows faster, draws interior migrants.
+P28 B -- just-in-time; suppliers cluster near the assembly plant.
+P29 C -- multiplier effect (basic/export jobs -> nonbasic jobs).
+P30 A -- standing forest earns local income -> incentive to protect (environmental + economic).
+P31 D -- national average hides urban-rural gaps.
+P32 E -- shares need the total electricity generated to compare absolute coal output.
+P33 D -- complementarity.
+P34 A -- economies of scale.
+P35 E -- growth pole.
+P36 B -- infant mortality, literacy, health access = social indicators.
+P37 C -- low-fare electric bus line: environmental + equity + economic.
+P38 A -- demand fell in the U.S./Europe -> export orders dropped.
+
+EXAM
+E01 A -- Britain -> continental W. Europe and N. America -> Russia, Japan.
+E02 D -- urban working class plus industrial middle class.
+E03 A -- industrial powers sought raw materials and markets -> colonialism/imperialism.
+E04 A -- 20:1 weight-losing -> refine at the ore mine (route mine-junction-market; any other site ships 20 t ore some distance).
+E05 D -- weight-gaining (ubiquitous water added), single market -> market city.
+E06 C -- port is a break-of-bulk point (cargo moves ship -> rail). A contradicts the map (market city is the largest market).
+E07 E -- life expectancy and schooling lag income.
+E08 B -- PPP adjusts for cost of living.
+E09 C -- GNI order Ethiopia < India < Vietnam < Mexico < Germany; ag share 62.2 > 43.5 > 27.0 > 12.0 > 1.2 (strictly falls). A false (Mexico 25.0 < Vietnam 33.5); B false (services 72.4); E false (3,060 vs 9,710).
+E10 E -- an average hides distribution.
+E11 A -- FDI factories in export-processing zones using lower-cost labor.
+E12 D -- income women control is often spent on food, health, schooling.
+E13 C -- Country L: lowest maternal deaths (9), adolescent births (8), most seats (41%), smallest LFPR gap (61 vs 68).
+E14 B -- LFPR omits unpaid care/household work.
+E15 E -- TFR declines.
+E16 B -- preconditions for take-off.
+E17 C -- semi-periphery: both core and periphery processes.
+E18 D -- hard to explain Asian Tigers like South Korea.
+E19 B -- A's relative edge is larger in laptops (4x vs 2x) -> A laptops, B coffee.
+E20 E -- regional trade bloc.
+E21 B -- steel towns gain; steel users pay more; foreign steelmakers sell less.
+E22 A -- deindustrialization.
+E23 D -- counts, not earnings/benefits/re-employment.
+E24 E -- global goals, national/local implementation.
+E25 C -- can protect forests and add jobs, limited by crowding and foreign ownership/leakage.
+
+FLAGS FROM BLIND PASS (no item had two defensible answers or none)
+- None with two defensible keys. Items to double-check in step 3: E06 distractor A contradicts the map on its face (by design; acceptable as a read-the-stimulus check); E06 B calls flour milling "weight-gaining" (it is roughly weight-neutral / slightly weight-losing; wrong either way, so harmless); P20 D is the reasoning-inverted trap (fine).

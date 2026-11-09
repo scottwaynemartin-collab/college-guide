@@ -1,7 +1,7 @@
 # Unit 6 question bank: full export for outside review
 
-Unit 6, Cities and Urban Land-Use Patterns and Processes. Version 2026-11-08b.
-41 untimed practice questions (instant feedback: a 6th-grade-level explanation plus one "why not" line per wrong option)
+Unit 6, Cities and Urban Land-Use Patterns and Processes. Version 2026-11-08d.
+47 untimed practice questions (instant feedback: a 6th-grade-level explanation plus one "why not" line per wrong option)
 and a 25-question timed exam (25 minutes, choices A–E, College Board-style rationales for every option,
 10 stimulus questions in 4 sets). Students are 9th graders in AP Human Geography.
 
@@ -12,7 +12,7 @@ How the stimulus types render (the JSON holds all of their data):
   Row labels such as "City P" and "Tract 101" contain a non-breaking space (shown in JSON as a plain-looking space).
   No Unit 6 table uses `note`; U6-E20's inflation statement is part of its source line.
 - bar: grouped vertical bars, one group per category, at most two series, value printed on each bar; `text` shows under
-  the chart. U6-P40 is the only bar chart.
+  the chart. Bar charts: U6-P40 (two series) and U6-P46 (one series).
 - line: one line per series across the categories, each series with its own marker shape and dash pattern, y-axis from 0
   (to `yMax` when given). Point values are not printed on the chart; students read them against the grid lines. The
   `description` paragraph shows under the chart. Line charts: U6-P02, U6-P17, U6-E02 (set for E02–E03).
@@ -29,7 +29,7 @@ How the stimulus types render (the JSON holds all of their data):
     Wedges alternate two fill colors, and all wedge labels are the same size.
   - U6-P35 (City H, 800×400): a 3×3-style grid. Top row (y 0–130): Grade A, Grade B, Grade A. Middle row (y 130–260): Grade C,
     CBD (lavender, larger label), Grade C. Bottom strip (y 260–340): Grade D (left half) and "Factories and rail yards" (right
-    half). A dashed rail line crosses the whole map at y 268, and a river (water) fills y 340–400. The note box explains the
+    half). A dashed rail line crosses the whole map at y 260 (the top edge of the Grade D strip), and a river (water) fills y 340–400. The note box explains the
     A ("best") to D ("hazardous") grades.
   - U6-E11 to E13 (Latin American city model, 800×420, center (400,210)): Area 5 is the cream background filling the whole
     canvas; Area 4 is a beige disk (radius 150); Area 3 a cream disk (radius 95); Area 1 a beige disk (radius 35) at the center.
@@ -45,9 +45,9 @@ How the stimulus types render (the JSON holds all of their data):
  "unit": 6,
  "title": "Cities and Urban Land-Use Patterns and Processes",
  "examWeighting": "12–17% of the AP Exam multiple-choice section",
- "version": "2026-11-08b",
- "calibration": "Modeled on the format of the College Board 2020 AP Human Geography Practice Exam and the Course and Exam Description (5 answer choices, set-based stimulus questions, skills 1–5). All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced. Real data (World Bank urban-share series; U.S. Census Bureau city populations) were checked against the official source files listed in u6/SOURCES.md.",
- "checked": "Nov 8, 2026: draft. Automated checks in u6/assemble.py (answer balance and runs, option-length tells, absolute-word tells, field completeness, set structure, student-facing wording, reading level) and u6/verify.py (every number and computed answer re-derived by script; World Bank and Census values matched to the source files, re-fetched live). Independent blind Claude check (Nov 8): 66/66 keys agreed; World Bank and Census values re-downloaded and matched; fixes applied for P13 (Pair 3 distance 25 km so the key holds whether or not distance is squared), E11 diagram description, E20 inflation note moved to the source line, E16 D, E19 distractors (two benefits replace reversed-praise options; skill 1.B), absolute-word tells in P29/P33/P36, E11/E12 disamenity wording, P21 and P06 explanations, E22 stem tied to the data, E25 skill 5.B.",
+ "version": "2026-11-08d",
+ "calibration": "Modeled on the format of the College Board 2020 AP Human Geography Practice Exam and the Course and Exam Description (5 answer choices, set-based stimulus questions, skills 1–5). All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced. Designed to approximate AP multiple-choice format and pacing; difficulty labels are author estimates pending student piloting. Real data (World Bank urban-share series; U.S. Census Bureau city populations) were checked against the official source files listed in u6/SOURCES.md.",
+ "checked": "Nov 8, 2026: draft. Automated checks in u6/assemble.py (answer balance and runs, option-length tells, absolute-word tells, field completeness, set structure, student-facing wording, reading level) and u6/verify.py (every number and computed answer re-derived by script; World Bank and Census values matched to the source files, re-fetched live). Independent blind Claude check (Nov 8): 66/66 keys agreed; World Bank and Census values re-downloaded and matched; fixes applied for P13 (Pair 3 distance 25 km so the key holds whether or not distance is squared), E11 diagram description, E20 inflation note moved to the source line, E16 D, E19 distractors (two benefits replace reversed-praise options; skill 1.B), absolute-word tells in P29/P33/P36, E11/E12 disamenity wording, P21 and P06 explanations, E22 stem tied to the data, E25 skill 5.B. ChatGPT Pro full review (Nov 8, 11 min, version b): no rekeying; applied in u6/fixes_c.py: gravity formula stated in P13/E09; Griffin–Ford spine vs. elite-sector wording (E11–E13, P19); secure land tenure vs. ownership (P36, E13); aggregate-data inference limits (P02, P04, P23, P31, P32, P33, E20); HOLC/redlining causal wording (P35, E23); central place wording (E10, P14); boomburb attribution (P06, SOURCES); governmental authority (P38, E25); explanations P05, P09, P30, P39, P41, E03, E06, E08; E02 distractor D; P17 and E19 and E24 rewritten so the stimulus or scenario is needed; P18 options reduced to model names; smaller edits P03, P15, P16, P22, P26, P28, P29; skill and difficulty tags; six practice items added (P42–P47: galactic city, metacity, environmental injustice, local food movement, urban heat island, historic character). Final blind Claude check of version c (Nov 8): 72/72 keys agreed, no must-fix; sources re-downloaded and every number recomputed; applied in u6/fixes_d.py: E25 and P47 and P45 distractors no longer refutable from the stem, P46 options rebuilt (key moved to E), E24 options use brownfield/greenfield/inclusionary-zoning vocabulary, P36 E, P15 and E10 and E12 and P37 key wording, P02 why-not D, simpler P36/P42/P45 explanations, P23 wording, P40 stem, E17 hedge, P35 rail line moved to the Grade D edge, E13/E14 options swapped to break the E11-E13 key run.",
  "schemaNotes": {
   "stimulus.type": "table | bar | line | districtMap | schematicMap | rings (line = multi-series line chart: categories[] on the x-axis, series[].name/values[], xLabel, yLabel, optional yMax; rings = concentric ring diagram: center, rings[].label, outer, description)",
   "practice[].explanation": "6th-grade-level reason the answer is right (show this first)",
@@ -192,20 +192,20 @@ How the stimulus types render (the JSON holds all of their data):
     "description": "Line graph of the urban population and the rural population of Country X, in millions, every ten years from 1960 to 2020.",
     "source": "Hypothetical data"
    },
-   "stem": "Which of the following best explains the changes shown in the graph between 1990 and 2020?",
+   "stem": "Which process could help explain both the increase in urban population and the decrease in rural population shown between 1990 and 2020?",
    "options": {
     "A": "Counterurbanization moved people from cities to rural areas, so rural areas grew faster than cities.",
-    "B": "People moved from rural areas to cities, so the rural population fell while the urban population more than tripled.",
+    "B": "Net migration from rural areas to cities added residents to cities while reducing the rural population.",
     "C": "High rural birth rates, with little migration to cities, made the rural population grow faster than the urban population.",
     "D": "Suburbanization moved city residents out into rural counties, so the rural share of the country's population rose.",
     "E": "Deindustrialization closed many city factories, so the urban population grew more slowly after 1990 than it had before."
    },
    "answer": "B",
-   "explanation": "From 1990 to 2020 the urban population jumped from 11 million to 38 million, which is more than three times as many people. At the same time, the rural population dropped from 24 million to 19 million. When the countryside shrinks while cities boom, many people are moving from farms and villages to cities. That is rural-to-urban migration, usually pulled by city jobs.",
+   "explanation": "Urban population rose from 11 million to 38 million, while rural population fell from 24 million to 19 million. More people moving from rural areas to cities (net rural-to-urban migration) could cause both changes. The graph alone does not show how much of the change came from migration, from births and deaths, or from places being reclassified as urban.",
    "whyNot": {
     "A": "Counterurbanization means moving OUT of cities. Here the rural population fell and cities grew.",
     "C": "The rural population shrank after 1990. It did not grow faster than the urban population.",
-    "D": "Suburbs count as part of urban areas, and the rural share went DOWN, not up.",
+    "D": "Suburbs usually count as urban areas, so suburbanization would not make the country more rural. The rural share actually fell, from about 69% in 1990 to about 33% in 2020.",
     "E": "Urban growth sped up after 1990: it rose by 27 million from 1990 to 2020, compared with 7 million from 1960 to 1990."
    },
    "vocab": [
@@ -224,7 +224,7 @@ How the stimulus types render (the JSON holds all of their data):
    "options": {
     "A": "Streetcar lines expanded quickly after the war, letting workers commute from new suburbs to downtown jobs.",
     "B": "Urban renewal programs built large numbers of single-family homes in downtown neighborhoods.",
-    "C": "Federal home loans and new interstate highways made buying a house and commuting by car easier.",
+    "C": "Federally backed mortgages and new highways made buying a suburban home and commuting by car easier.",
     "D": "Factories moved into central business districts, drawing workers away from the edges of cities.",
     "E": "Greenbelt laws in most large cities required new housing to be built beyond the city limits."
    },
@@ -247,7 +247,7 @@ How the stimulus types render (the JSON holds all of their data):
    "topic": "6.1",
    "lo": "PSO-6.A",
    "skill": "2.D",
-   "difficulty": "hard",
+   "difficulty": "medium",
    "stem": "During the 1800s, the growth of cities in Great Britain was closely tied to the spread of factory jobs. Today, many cities in sub-Saharan Africa are growing quickly even though manufacturing employs a relatively small share of their workers. Which of the following best explains this difference?",
    "options": {
     "A": "Wealthy residents are moving from the suburbs back to downtown areas, so central neighborhoods are growing quickly.",
@@ -257,10 +257,10 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Colonial governments are building new ports and capital cities to export the region's raw materials to Europe."
    },
    "answer": "B",
-   "explanation": "Cities can grow in two ways: more births than deaths among people already living there (natural increase), and people moving in. In much of sub-Saharan Africa, both are high. Many newcomers cannot find factory jobs, so they earn money in the informal economy, such as street selling or small repair shops. Britain's cities grew mostly because new factories pulled people in.",
+   "explanation": "A city can grow in three ways. More babies can be born than people die. More people can move in than move out. Or the city's borders can be drawn bigger. In many sub-Saharan African cities, the number of people has grown faster than the number of factory jobs. Many people earn money in informal work, like selling goods on the street, though this differs from city to city. Britain's cities in the 1800s grew mostly because new factories pulled people in.",
    "whyNot": {
     "A": "Moving from suburbs back downtown shifts people around inside a city. It does not explain fast growth of the whole city.",
-    "C": "That would make cities SHRINK. These cities are growing.",
+    "C": "People leaving cities would work against urban growth. It does not explain the fast growth described in the stem.",
     "D": "Most newcomers come from the same country, especially from rural areas, not from core countries.",
     "E": "Colonial rule in the region ended decades ago. Colonial ports and capitals explain how some cities began, not why they are growing today."
    },
@@ -274,7 +274,7 @@ How the stimulus types render (the JSON holds all of their data):
    "id": "U6-P05",
    "topic": "6.2",
    "lo": "PSO-6.A",
-   "skill": "1.A",
+   "skill": "1.D",
    "difficulty": "easy",
    "stem": "Near a busy beltway interchange, a suburban area has grown into a cluster of office towers, a regional shopping mall, hotels, and corporate campuses. More people work there each weekday than live there. This area is best described as",
    "options": {
@@ -285,7 +285,7 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "an edge city"
    },
    "answer": "E",
-   "explanation": "An edge city is a large center of offices and stores that grows in the suburbs, usually near a highway interchange. It has so many jobs that more people commute IN to work there than live there. It is like a second downtown out in the suburbs.",
+   "explanation": "An edge city is a big cluster of offices, stores, and jobs outside the old downtown, often near a highway interchange. Workers commute to it from other parts of the metro area. The office towers, regional mall, and large daytime workforce fit this pattern.",
    "whyNot": {
     "A": "An exurb is a mostly residential area of homes on large lots beyond the suburbs, with few offices.",
     "B": "A boomburb is a fast-growing suburban CITY with more than 100,000 residents. The clue here is jobs and offices, not a large, fast-growing population.",
@@ -350,10 +350,10 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "central cities that lost residents to their suburbs as the metropolitan area decentralized after 2000"
    },
    "answer": "A",
-   "explanation": "Frisco grew from about 34,000 people in 2000 to about 235,000 in 2024. That is about 7 times bigger. McKinney grew about 4 times bigger. Both passed 100,000 people by 2010, but neither is the main city of the area (Dallas is). Large, fast-growing suburban cities of more than 100,000 people that are not the main city of their metro area are often called boomburbs.",
+   "explanation": "Frisco grew from about 34,000 people in 2000 to about 235,000 in 2024, about seven times as large. McKinney became about four times as large. Both had more than 100,000 residents by 2010, and both are suburbs in the Dallas–Fort Worth metropolitan area, not its largest city. Large, fast-growing suburban cities of more than 100,000 people like these are often called boomburbs.",
    "whyNot": {
     "B": "The table shows how many people LIVE in each city, not how many jobs or offices it has. Edge cities are defined by jobs and office space.",
-    "C": "With more than 200,000 residents each, these are not small communities on the rural fringe.",
+    "C": "The table shows rapid growth in large cities. It gives no evidence of low density, a location beyond the suburbs, or long commutes.",
     "D": "Dallas is much larger than Frisco and McKinney, so neither of them is a primate city.",
     "E": "None of the four cities lost residents. Frisco and McKinney grew the fastest."
    },
@@ -378,7 +378,7 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Most of today's megacities were built as new planned capital cities by periphery governments after independence."
    },
    "answer": "C",
-   "explanation": "A megacity has more than 10 million people. Since 1950, many countries in Asia, Africa, and Latin America have had lots of births. Huge numbers of people also moved from farms to cities. So their cities grew much faster than cities in rich core countries. That is why most megacities today are in semiperiphery and periphery countries.",
+   "explanation": "A megacity has 10 million or more people. Since 1950, many countries in Asia, Africa, and Latin America have had lots of births. Huge numbers of people also moved from farms to cities. So their cities grew much faster than cities in rich core countries. That is why most megacities today are in semiperiphery and periphery countries.",
    "whyNot": {
     "A": "Big core-country cities such as New York and Tokyo are larger now than in 1950. They did not lose most of their people.",
     "B": "Factory jobs mostly moved the other way, from core countries to semiperiphery and periphery countries.",
@@ -402,7 +402,7 @@ How the stimulus types render (the JSON holds all of their data):
    "options": {
     "A": "It has the largest population of any city in its country.",
     "B": "It is the national capital of a large and powerful country.",
-    "C": "It has more than 10 million people living in its metropolitan area.",
+    "C": "It has 10 million or more people living in its metropolitan area.",
     "D": "It grew up at a break-of-bulk point on a major river or coast.",
     "E": "It is a center of global finance and corporate headquarters."
    },
@@ -429,16 +429,16 @@ How the stimulus types render (the JSON holds all of their data):
    "stem": "A bank headquartered in London decides to close a customer-service center in a mid-sized city in India and move the jobs to a city in the Philippines. Which statement best explains the relationship among places at different scales in this example?",
    "options": {
     "A": "Local governments in India decide where transnational banks locate their offices.",
-    "B": "A decision in a world city at the top of the urban hierarchy shifts jobs among smaller cities abroad.",
+    "B": "A decision made at a world-city headquarters shifts local employment between cities in other countries.",
     "C": "Decisions made in smaller cities shape the economies of the larger world cities that are linked to them.",
     "D": "The change will mainly affect London's own local economy, with little effect on the two cities in Asia.",
     "E": "Cities lower in the urban hierarchy are cut off from global networks of trade and information."
    },
    "answer": "B",
-   "explanation": "The decision happens at the TOP of the urban hierarchy, in London, a world city. Its effects land in smaller cities thousands of miles away: one city loses jobs and another gains them. World cities connect places around the globe and pass decisions down through the network.",
+   "explanation": "The bank's headquarters is in London, a world city. From there it runs offices around the world. When it closes one office and opens another, people in India lose jobs and people in the Philippines gain them. A choice made in one world city changes jobs in places far away.",
    "whyNot": {
     "A": "The bank's headquarters made this choice. Local governments can offer incentives, but they do not make the company's decision.",
-    "C": "Here the power flows the other way: from the world city down to the smaller cities.",
+    "C": "Here the decision flows the other way: from the world-city headquarters to the cities in Asia.",
     "D": "The biggest effects are in Asia, where jobs are lost in one city and gained in another.",
     "E": "Both Asian cities are clearly linked into the bank's global network."
    },
@@ -672,7 +672,7 @@ How the stimulus types render (the JSON holds all of their data):
     ],
     "source": "Hypothetical data"
    },
-   "stem": "According to the gravity model, which pair of cities would be expected to have the greatest interaction, such as trips, phone calls, and trade?",
+   "stem": "Using the gravity model, in which interaction = (population 1 × population 2) ÷ distance², which pair of cities would be expected to have the greatest interaction, such as trips, phone calls, and trade?",
    "options": {
     "A": "Pair 1",
     "B": "Pair 2",
@@ -681,12 +681,12 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Pair 5"
    },
    "answer": "C",
-   "explanation": "The gravity model says interaction = (population 1 × population 2) ÷ distance². Bigger cities interact more, but distance matters a LOT because it is squared. Pair 3 is only 25 km apart: 200,000 × 200,000 ÷ 25² = 64,000,000. That beats every other pair. Pair 5 has the biggest cities, but they are 300 km apart, so its score is only 4,000,000.",
+   "explanation": "An interaction index can be calculated as (population 1 × population 2) ÷ distance². Distance matters a LOT because it is squared. Pair 3 is only 25 km apart: 200,000 × 200,000 ÷ 25² = 64,000,000. That beats every other pair. Pair 5 has the largest population product, but its cities are 300 km apart, so its score is only 4,000,000.",
    "whyNot": {
     "A": "Pair 1: 400,000 × 100,000 ÷ 100² = 4,000,000. That is one-sixteenth of Pair 3.",
     "B": "Pair 2: 800,000 × 200,000 ÷ 400² = 1,000,000. The long distance shrinks the interaction.",
     "D": "Pair 4: 1,000,000 × 50,000 ÷ 200² = 1,250,000.",
-    "E": "Pair 5 has the largest populations, but 900,000 × 400,000 ÷ 300² = 4,000,000. Remember to SQUARE the distance."
+    "E": "Pair 5 has the largest population product, but 900,000 × 400,000 ÷ 300² = 4,000,000. Remember to SQUARE the distance."
    },
    "vocab": [
     "gravity model",
@@ -709,7 +709,7 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Large cities lie at the edges of hexagonal market areas, where competition from other central places is weakest."
    },
    "answer": "A",
-   "explanation": "Threshold = how many customers a business needs to stay open. Range = how far people will travel to get it. People buy gas and groceries often and will not drive far, so these need few customers and are everywhere. A specialized hospital needs a huge number of people, and people will travel far for it, so only big cities have one.",
+   "explanation": "Threshold = how many customers a business needs to stay open. Range = how far people will travel to get it. People buy gas and groceries often and usually go to nearby sellers, so small market areas can support them. A specialized hospital needs a very large number of patients, and people will travel farther to reach it, so these hospitals are found in higher-order central places.",
    "whyNot": {
     "B": "Backward. High-order services need a LARGE threshold, so they need lots of customers.",
     "C": "Backward. People will not travel far for everyday goods like gas, so those goods have SHORT ranges.",
@@ -728,10 +728,10 @@ How the stimulus types render (the JSON holds all of their data):
    "topic": "6.4",
    "lo": "PSO-6.C",
    "skill": "1.E",
-   "difficulty": "hard",
-   "stem": "Central place theory predicts that towns of the same size will be spaced evenly across a region in a hexagonal pattern. Which of the following best explains why real towns in a mountainous region crossed by one major highway often do not match this prediction?",
+   "difficulty": "medium",
+   "stem": "Central place theory predicts regularly spaced central places, each with a hexagonal market area. Which of the following best explains why real towns in a mountainous region crossed by one major highway often do not match this prediction?",
    "options": {
-    "A": "The theory assumes a flat, uniform plain, but mountains and a highway channel where towns can grow.",
+    "A": "The theory assumes a flat, uniform plain where travel is equally easy in every direction.",
     "B": "The theory was designed to explain where factories locate rather than where services and shops locate.",
     "C": "The theory assumes that shoppers travel to the farthest central place, so it overstates the size of market areas.",
     "D": "The theory assumes that one primate city holds most of the population, so it fails to explain regions with many towns.",
@@ -779,7 +779,7 @@ How the stimulus types render (the JSON holds all of their data):
     "description": "Four rings, labeled V, W, X, and Y, surround a central business district (CBD). Ring V touches the CBD; ring Y is farthest from it.",
     "source": "Simplified from the concentric zone model of Ernest W. Burgess (1925)"
    },
-   "stem": "According to the concentric zone model shown in the diagram, which ring would most likely have older, crowded housing mixed with factories and warehouses, where many newcomers to the city first settled?",
+   "stem": "According to the concentric zone model shown in the diagram, which area would most likely have older, crowded housing mixed with factories and warehouses, where many newcomers to the city first settled?",
    "options": {
     "A": "The CBD",
     "B": "Ring V",
@@ -788,7 +788,7 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Ring Y"
    },
    "answer": "B",
-   "explanation": "In the Burgess model, the ring right next to the CBD is the zone in transition (ring V). It had factories, warehouses, and old, crowded housing. Newcomers with little money often lived there first, then moved outward to better rings as they earned more.",
+   "explanation": "In the Burgess model, the ring right next to the CBD is the zone in transition (ring V). It had factories, warehouses, and old, crowded housing. The model places many newcomers with limited incomes in this zone, and some households move to outer residential zones as their incomes rise.",
    "whyNot": {
     "A": "The CBD is the business center with offices and stores, not the ring of crowded housing and factories.",
     "C": "Ring W is the zone of working-class homes, where many factory workers lived after moving out of ring V.",
@@ -871,21 +871,21 @@ How the stimulus types render (the JSON holds all of their data):
     "description": "Line graph of the highest rent that commercial, industrial, and residential users would each pay for land at distances of 0 to 8 kilometers from the center of the CBD.",
     "source": "Hypothetical data"
    },
-   "stem": "Based on the graph, which land-use pattern does bid-rent theory predict for City T, moving outward from the center of the CBD?",
+   "stem": "Based on the graph, which land uses would make the highest bids for land 3 kilometers and 6 kilometers from the center of the CBD, respectively?",
    "options": {
-    "A": "Residential, then commercial, then industrial",
-    "B": "Industrial, then commercial, then residential",
-    "C": "Commercial, then residential, then industrial",
-    "D": "Commercial, then industrial, then residential",
-    "E": "Residential, then industrial, then commercial"
+    "A": "Commercial and industrial",
+    "B": "Commercial and residential",
+    "C": "Residential and industrial",
+    "D": "Industrial and residential",
+    "E": "Industrial and commercial"
    },
    "answer": "D",
-   "explanation": "In bid-rent theory, each piece of land goes to whoever will pay the most for it, which is the highest line at that distance. Stores and offices pay the most near the center (0–2 km), because they make money from being easy to reach. Industry wins at 3–4 km. Housing wins from 5 km outward, where land is cheaper.",
+   "explanation": "In bid-rent theory, each piece of land goes to the user who will pay the most, which is the highest line at that distance. At 3 km, industry bids $340, more than commercial users ($250) and residents ($230). At 6 km, residents bid $160, more than industry ($90) and commercial users ($20). Overall, the graph shows the usual pattern: stores and offices near the center, then industry, then housing farther out.",
    "whyNot": {
-    "A": "Residential is the LOWEST curve near the center, so it cannot win the center.",
-    "B": "Commercial outbids industry from 0 to 2 km, so industry is not first.",
-    "C": "At 3 and 4 km, industry pays more than residential (340 vs. 230 and 260 vs. 200).",
-    "E": "This is the pattern in reverse. Commercial users pay the most near the center, not the least."
+    "A": "Industry outbids commercial users at 3 km, and residents outbid industry at 6 km.",
+    "B": "Residential is right for 6 km, but industry makes the highest bid at 3 km.",
+    "C": "Residents make the LOWEST bid at 3 km, and they make the highest bid at 6 km.",
+    "E": "Industry is right for 3 km, but residents outbid commercial users at 6 km."
    },
    "vocab": [
     "bid-rent theory",
@@ -1765,11 +1765,11 @@ How the stimulus types render (the JSON holds all of their data):
    },
    "stem": "The land-use pattern in City W best supports which model of urban structure?",
    "options": {
-    "A": "The Burgess concentric zone model, because land uses form rings that grow outward one after another from the CBD",
-    "B": "The Harris and Ullman multiple nuclei model, because the city has several separate business centers",
-    "C": "The galactic city model, because edge cities along a beltway have replaced the CBD as the main center",
-    "D": "Bid-rent theory, because land values fall at the same rate in each direction from the CBD",
-    "E": "The Hoyt sector model, because land uses extend outward from the CBD in wedges along transportation routes"
+    "A": "The Burgess concentric zone model",
+    "B": "The Harris and Ullman multiple nuclei model",
+    "C": "The galactic city model",
+    "D": "Bid-rent theory",
+    "E": "The Hoyt sector model"
    },
    "answer": "E",
    "explanation": "Look at the SHAPES. The land uses are wedges (slices of pie) coming out from the CBD, not rings. Industry and low-income housing follow the railroad, and high-income housing follows the lakeshore boulevard. Hoyt's sector model says cities grow outward in wedges along transportation routes and attractive features like a lakeshore.",
@@ -1777,7 +1777,7 @@ How the stimulus types render (the JSON holds all of their data):
     "A": "The Burgess model has rings around the CBD. These areas are wedges, not rings.",
     "B": "The map shows one business center, the CBD, not several separate centers.",
     "C": "There is no beltway or edge city on the map, and the CBD is still the center.",
-    "D": "If land values fell the same way in every direction, land uses would form rings, not wedges."
+    "D": "Bid-rent theory links land prices to accessibility. The wedges that follow the railroad and the lakeshore are better explained by Hoyt's sector model."
    },
    "vocab": [
     "sector model",
@@ -1795,7 +1795,7 @@ How the stimulus types render (the JSON holds all of their data):
    "options": {
     "A": "It shows that high-income housing extends outward from the CBD in wedges along major transportation routes.",
     "B": "It recognizes that a city can grow around several centers, such as an airport or a university.",
-    "C": "It explains why the wealthiest residents of many Latin American cities live along a commercial spine near the CBD.",
+    "C": "It explains why the wealthiest residents of many Latin American cities live along a commercial spine.",
     "D": "It assumes the city sits on a flat plain where land values fall at the same rate in each direction from the CBD.",
     "E": "It focuses on the old colonial port zone as the main center of commercial activity in the city."
    },
@@ -1817,7 +1817,7 @@ How the stimulus types render (the JSON holds all of their data):
    "id": "U6-P20",
    "topic": "6.5",
    "lo": "PSO-6.D",
-   "skill": "1.C",
+   "skill": "1.A",
    "difficulty": "medium",
    "stem": "Unlike the Burgess concentric zone model, McGee's model of the Southeast Asian city does not place a single CBD at its center. Instead, the focus of the city is",
    "options": {
@@ -1846,7 +1846,7 @@ How the stimulus types render (the JSON holds all of their data):
    "topic": "6.5",
    "lo": "PSO-6.D",
    "skill": "2.B",
-   "difficulty": "hard",
+   "difficulty": "medium",
    "stem": "De Blij's model of the sub-Saharan African city shows three separate CBDs. Which of the following best explains this feature of the model?",
    "options": {
     "A": "Rapid suburbanization of offices created several edge cities around a beltway.",
@@ -1881,7 +1881,7 @@ How the stimulus types render (the JSON holds all of their data):
     "B": "Rows of attached townhouses with small yards",
     "C": "High-rise apartment towers next to a downtown transit station",
     "D": "Scattered mobile homes on rural land beyond the suburbs",
-    "E": "Mid-rise and high-rise condominium buildings around a city park"
+    "E": "Closely spaced 20-story condominium towers on small lots"
    },
    "answer": "B",
    "explanation": "Density is how many homes fit on a piece of land. Townhouses share walls and sit close together, so they fit more homes than detached houses but far fewer than apartment towers. That middle level is medium density. Detached houses on big lots are low density, and big apartment buildings are high density.",
@@ -1889,7 +1889,7 @@ How the stimulus types render (the JSON holds all of their data):
     "A": "Detached houses on large lots put very few homes on each acre. That is low density.",
     "C": "Apartment towers stack hundreds of homes on a small lot. That is high density.",
     "D": "Scattered homes on rural land are very low density.",
-    "E": "Mid-rise and high-rise buildings hold many homes per acre. That is high density."
+    "E": "Tall, closely spaced buildings put many homes on each acre. That is high density."
    },
    "vocab": [
     "medium-density housing",
@@ -1947,11 +1947,11 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Maple Park has the highest density, because it was built during the housing boom after World War II."
    },
    "answer": "A",
-   "explanation": "Old Mill, close to the CBD, has 60 homes per hectare. Maple Park has 12, and Cedar Ridge, far out, has only 4. So density drops as you move away from the center. The farther neighborhoods were also built later, when most families had cars and could live on bigger lots far from downtown.",
+   "explanation": "Old Mill has 60 homes per hectare, Maple Park has 12, and Cedar Ridge has 4. In these three neighborhoods, density drops as distance from the CBD grows. The newer neighborhoods are also less dense, which fits car-oriented suburban growth from the 1950s on (the table does not measure car ownership).",
    "whyNot": {
     "B": "The numbers go DOWN with distance: 60, then 12, then 4.",
     "C": "Old Mill is the oldest AND the densest. Cities in the 1910s already had streetcars, and people lived close together near jobs and transit.",
-    "D": "Infilling means building on empty land INSIDE the city. Cedar Ridge is new building at the far edge, which is sprawl.",
+    "D": "Infilling means building on empty or underused land inside an area that is already developed. Being built recently and far from the CBD does not show that Cedar Ridge is infill.",
     "E": "Maple Park has 12 homes per hectare. Old Mill, with 60, is the densest."
    },
    "vocab": [
@@ -2069,16 +2069,16 @@ How the stimulus types render (the JSON holds all of their data):
     "A": "Neighborhoods with the most households that lack cars have the shortest transit commutes, because residents live near their jobs.",
     "B": "Higher-income neighborhoods have the fewest jobs that residents can reach by public transit.",
     "C": "Transit commutes are about the same length in each neighborhood, so access to jobs is roughly equal across the city.",
-    "D": "Most households in Riverside and Eastfield do not have a car, so they do not need transit service.",
+    "D": "Lower-income neighborhoods have fewer reachable jobs mainly because residents choose jobs within walking distance.",
     "E": "Neighborhoods where many households lack cars have the weakest transit access, which limits residents' access to jobs."
    },
    "answer": "E",
-   "explanation": "Riverside and Eastfield have the most families without cars (31% and 27%). Those are the people who most need buses and trains. But they also have the longest transit commutes (72 and 66 minutes) and can reach the fewest jobs (45,000 and 60,000). Weak transit in these neighborhoods makes it harder for residents to get to work.",
+   "explanation": "Riverside and Eastfield have the highest shares of households without cars (31% and 27%). Those are the people who most need buses and trains. But they also have the longest transit commutes (72 and 66 minutes) and can reach the fewest jobs (45,000 and 60,000). Weak transit in these neighborhoods makes it harder for residents to get to work.",
    "whyNot": {
     "A": "Riverside and Eastfield have the LONGEST transit commutes, not the shortest.",
     "B": "Northgate and Hillcrest, the higher-income neighborhoods, can reach the MOST jobs by transit.",
     "C": "Commutes range from 35 to 72 minutes, and job access ranges from 45,000 to 210,000. That is not equal.",
-    "D": "Most households in those neighborhoods DO have cars (69% and 73%), and carless households depend on transit the most."
+    "D": "The table does not show residents' job choices or jobs within walking distance. It shows unequal access by public transit."
    },
    "vocab": [
     "infrastructure",
@@ -2091,7 +2091,7 @@ How the stimulus types render (the JSON holds all of their data):
    "topic": "6.7",
    "lo": "IMP-6.B",
    "skill": "2.B",
-   "difficulty": "hard",
+   "difficulty": "medium",
    "stem": "During the 1950s and 1960s, many new urban interstate highways in the United States were routed through low-income and predominantly Black neighborhoods, splitting them apart and displacing many residents. Which of the following best explains why planners often chose these routes?",
    "options": {
     "A": "Residents of these neighborhoods asked for highways to replace their bus and streetcar lines.",
@@ -2118,7 +2118,7 @@ How the stimulus types render (the JSON holds all of their data):
    "id": "U6-P28",
    "topic": "6.8",
    "lo": "IMP-6.C",
-   "skill": "1.A",
+   "skill": "1.D",
    "difficulty": "easy",
    "stem": "A new development has narrow streets, wide sidewalks, homes with front porches set close to the street, and shops and offices within walking distance of most houses. This development best reflects which planning approach?",
    "options": {
@@ -2132,7 +2132,7 @@ How the stimulus types render (the JSON holds all of their data):
    "explanation": "New Urbanism designs neighborhoods like old-fashioned towns: homes close together, front porches, sidewalks, and shops you can walk to. Mixing homes and businesses means people can walk instead of driving everywhere.",
    "whyNot": {
     "A": "Single-use zoning keeps homes, shops, and offices in SEPARATE areas. This development mixes them.",
-    "B": "Urban renewal cleared old city neighborhoods to rebuild them. It is not a walkable neighborhood design.",
+    "B": "Urban renewal means redeveloping existing city areas. It is not a particular street and building design; a renewal project could even use New Urbanism.",
     "C": "Sprawl is spread-out, car-dependent growth with homes far from shops.",
     "E": "A greenbelt is a ring of protected open land around a city, not a neighborhood design."
    },
@@ -2160,7 +2160,7 @@ How the stimulus types render (the JSON holds all of their data):
    "explanation": "Transportation-oriented development puts homes, jobs, and stores right next to train stations. People can walk to the train and to shops, so they drive less. Fewer car trips means less traffic and less air pollution.",
    "whyNot": {
     "A": "This kind of development packs MORE homes and businesses near stations, raising density.",
-    "B": "It focuses growth near stations inside the city, which reduces building on farmland.",
+    "B": "The policy directs growth toward rail stations. It does not require building on farmland.",
     "D": "It MIXES homes and businesses together instead of separating them.",
     "E": "Being near a station usually makes land MORE valuable."
    },
@@ -2185,11 +2185,11 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "It will limit the land available for building, which can push up housing prices."
    },
    "answer": "E",
-   "explanation": "A greenbelt protects open land, but it also means fewer places to build new homes. When people still want to move to the city and there is less land to build on, housing gets more expensive. Higher housing costs are a common criticism of greenbelts and other growth limits.",
+   "explanation": "A greenbelt protects open land, so there are fewer places to build new homes. If many people still want to live in the city and building inside it does not keep up, housing prices can rise. How much prices rise depends on how much new housing local rules allow inside the city.",
    "whyNot": {
     "A": "Limiting land usually RAISES land values, because the same demand chases less land.",
-    "B": "Growth limits push building inward, which tends to RAISE density in older neighborhoods.",
-    "C": "Greenbelts push homes closer together inside the city, not farther apart.",
+    "B": "A greenbelt does not make older neighborhoods less dense. Infill can raise density where local rules allow it.",
+    "C": "A greenbelt does not spread existing neighborhoods out. Some building may jump beyond the protected belt, but that is a different outcome.",
     "D": "Protecting open space around the city is the main GOAL of a greenbelt."
    },
    "vocab": [
@@ -2202,7 +2202,7 @@ How the stimulus types render (the JSON holds all of their data):
    "id": "U6-P31",
    "topic": "6.9",
    "lo": "IMP-6.E",
-   "skill": "3.A",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "A researcher studying how a neighborhood has changed collects several kinds of information. Which of the following is an example of qualitative data?",
    "options": {
@@ -2213,7 +2213,7 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "The number of new building permits the city issued for the neighborhood each year"
    },
    "answer": "B",
-   "explanation": "Qualitative data are words and stories, like interviews, field notes, or photos. Quantitative data are numbers, like counts, percents, and averages. Interviews tell how people FEEL about change. Numbers cannot show that.",
+   "explanation": "Qualitative data are words and pictures, like interview answers, field notes, or photos. Quantitative data are numbers, like counts, percents, and averages. Recorded interviews give residents' own words about change. A survey can also turn opinions into numbers. What matters is how the facts are recorded.",
    "whyNot": {
     "A": "Population counts are numbers. That is quantitative data.",
     "C": "A median rent is a number. That is quantitative data.",
@@ -2277,7 +2277,7 @@ How the stimulus types render (the JSON holds all of their data):
       "6"
      ]
     ],
-    "source": "Hypothetical data"
+    "source": "Hypothetical data. Tract boundaries are the same in both years."
    },
    "stem": "Which of the following processes is best illustrated by the data for Tract 11?",
    "options": {
@@ -2290,9 +2290,9 @@ How the stimulus types render (the JSON holds all of their data):
    "answer": "D",
    "explanation": "Tract 11 lost more than a third of its people (6,200 down to 3,900), and empty homes jumped from 9% to 28%. It is near factories that have closed. When jobs disappear, people move away, and buildings are left empty. A place like that is called a zone of abandonment.",
    "whyNot": {
-    "A": "Gentrification brings new residents IN and fills empty homes. Tract 11 lost people and gained vacant homes.",
+    "A": "The table shows no rising incomes, rents, or new investment. A big jump in empty homes points to abandonment, not gentrification.",
     "B": "Sprawl onto farmland fits Tract 45, which grew from 1,100 to 7,900 people at the city's edge.",
-    "C": "Infilling adds housing and people. Tract 11 lost people.",
+    "C": "The table shows no new building on vacant lots. Falling population and many more empty homes point to abandonment, not infilling.",
     "E": "Rising density means more people in the same area. Tract 11's population fell."
    },
    "vocab": [
@@ -2312,15 +2312,15 @@ How the stimulus types render (the JSON holds all of their data):
     "A": "Census tracts are too large to show changes in a single neighborhood of a city.",
     "B": "Ten years is too short a period for census data to show how a neighborhood has changed.",
     "C": "Interviews with residents would give less useful information about the change than the census does.",
-    "D": "The data show changes in tract averages, not whether earlier households moved out or why.",
+    "D": "The data summarize the tract at two dates, not which earlier households moved or why.",
     "E": "Rising rents show that the tract's total population declined during the same decade."
    },
    "answer": "D",
-   "explanation": "Census numbers describe the whole tract at two moments in time. They can show that average income went up, but not WHO left, who arrived, or why. Income could rise because new, richer people moved in, or because the same residents got better jobs. To prove displacement, you need data that follow households, such as surveys or interviews.",
+   "explanation": "The medians describe the tract at two points in time. They do not follow the same households. Median income could rise because current residents earned more, richer people moved in, lower-income people moved out, or all three. To know whether housing costs pushed people out, you need to track the earlier households.",
    "whyNot": {
     "A": "Census tracts are small parts of a city, usually a few thousand people each. They are often used to study single neighborhoods.",
     "B": "Ten years is plenty of time to see change. The student's data already show income and rent rising sharply.",
-    "C": "Interviews add important information about why people moved and how they feel, which census numbers cannot show.",
+    "C": "Interviews can explain residents' experiences and reasons for moving. The two medians alone cannot.",
     "E": "Rising rent does not prove that population fell. The student's data do not include population at all."
    },
    "vocab": [
@@ -2594,11 +2594,11 @@ How the stimulus types render (the JSON holds all of their data):
       "line": [
        [
         0,
-        268
+        260
        ],
        [
         800,
-        268
+        260
        ]
       ],
       "dashed": true
@@ -2614,11 +2614,11 @@ How the stimulus types render (the JSON holds all of their data):
       "label": "Rail line"
      }
     ],
-    "note": "Grades rated the risk of lending money for home loans: Grade A = \"best\" (lowest risk) through Grade D = \"hazardous\" (highest risk). On the original federal maps, Grade D areas were shaded red.",
+    "note": "Grades recorded appraisers' judgments of the risk of lending money for home loans, often shaped by racial and ethnic discrimination: Grade A = \"best\" through Grade D = \"hazardous.\" On the original federal maps, Grade D areas were shaded red.",
     "description": "Map of City H. Two Grade A neighborhoods and one Grade B neighborhood lie along the northern edge, farthest from the river. Two Grade C neighborhoods lie on either side of the CBD. In the south, between a rail line and the river, a Grade D neighborhood sits next to factories and rail yards.",
     "source": "Hypothetical map modeled on the residential security maps of the federal Home Owners' Loan Corporation (1930s)"
    },
-   "stem": "Which of the following best describes a long-term effect of the grade given to the neighborhood between the rail line and the river?",
+   "stem": "Which of the following was commonly associated over the long term with neighborhoods given the grade shown between the rail line and the river?",
    "options": {
     "A": "Lenders competed to make loans there, which led to rapid gentrification in the 1940s.",
     "B": "The grade protected the neighborhood from later highway construction and urban renewal projects in the city.",
@@ -2627,7 +2627,7 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Lenders often refused or limited home loans there, leading to disinvestment and low home values for decades."
    },
    "answer": "E",
-   "explanation": "Grade D areas were marked as the riskiest places to lend money. Banks often would not give home loans there, so families could not easily buy or fix up homes. Without investment, buildings got older and values stayed low. These areas were often home to Black families and immigrants, and many still have lower home values today. This practice is called redlining.",
+   "explanation": "Grade D marked neighborhoods that appraisers called hazardous for lending, often based on discriminatory judgments about the people who lived there. In many such neighborhoods, residents had a hard time getting home loans. That made it harder to buy or repair homes and build wealth, which helped create inequalities that lasted for decades. This practice is called redlining.",
    "whyNot": {
     "A": "A \"hazardous\" grade scared lenders AWAY. It did not make them compete to lend there.",
     "B": "Redlined neighborhoods were often the ones chosen LATER for highways and urban renewal.",
@@ -2646,21 +2646,21 @@ How the stimulus types render (the JSON holds all of their data):
    "lo": "SPS-6.A",
    "skill": "2.B",
    "difficulty": "medium",
-   "stem": "In many fast-growing cities in periphery and semiperiphery countries, residents have built large neighborhoods on land they do not legally own, often on steep hillsides or floodplains at the edge of the city. Which of the following best explains why these squatter settlements often lack piped water, sewers, and electricity?",
+   "stem": "In some rapidly growing cities, residents have built squatter settlements without formal permission to occupy the land, sometimes on steep hillsides or floodplains. Which of the following best explains why these settlements may lack piped water, sewers, and electricity?",
    "options": {
     "A": "Their high population density leaves too little open land for water pipes and power lines.",
     "B": "Most of these neighborhoods are inside the CBD, where land is reserved for offices and stores.",
     "C": "Bid-rent theory predicts that utilities will be built first at the urban edge, where land is cheapest.",
-    "D": "Without legal land tenure, the settlements are often not officially recognized or served.",
-    "E": "They were built as temporary government housing that was not designed to connect to city services."
+    "D": "Uncertain land rights and limited official recognition can delay investment in basic services.",
+    "E": "Steep hillsides and floodplains are usually too far from the CBD for water and power lines to reach."
    },
    "answer": "D",
-   "explanation": "Land tenure means having a legal right to the land you live on. Squatters do not have it, so the government may not officially recognize their neighborhood. Cities and utility companies often will not invest in pipes or power lines for places that are not legal, so residents go without basic services.",
+   "explanation": "Land tenure means a person's right to use or live on a piece of land. In many squatter settlements that right is not clear, and the city does not officially count the neighborhood. So the city and utility companies are slow to put in pipes and power lines. Lack of money and very fast growth can slow things down too.",
    "whyNot": {
     "A": "Dense neighborhoods in many cities have full water and power service. Density is not the barrier.",
-    "B": "The question says these settlements are at the city's EDGE, not in the CBD.",
+    "B": "Squatter settlements usually form on unused or risky land, often at the city's edge, not mostly in the CBD. A CBD location is not why services are missing.",
     "C": "Bid-rent theory explains land values and land use. It does not say utilities are built first at the edge.",
-    "E": "Residents built these homes themselves, without government plans or permission."
+    "E": "Distance is not the main barrier. Many squatter settlements are close to areas that have services; some hillside favelas in Rio de Janeiro sit right above wealthy neighborhoods."
    },
    "vocab": [
     "squatter settlement",
@@ -2676,17 +2676,17 @@ How the stimulus types render (the JSON holds all of their data):
    "difficulty": "medium",
    "stem": "Higher-income households begin buying and renovating older homes in a low-income inner-city neighborhood. New cafés and shops open, and property values rise. Which of the following is the most likely negative consequence for longtime residents?",
    "options": {
-    "A": "Rising rents and property taxes may force some longtime residents to move.",
-    "B": "The neighborhood's tax base will shrink, reducing the money available for city services.",
-    "C": "Property values will fall as the new businesses compete for customers.",
-    "D": "The neighborhood will become a zone of abandonment as investment leaves it.",
-    "E": "Lenders will begin redlining the neighborhood and refuse to make loans there."
+    "A": "Rising rents and property taxes may price some of them out of the neighborhood.",
+    "B": "The neighborhood's tax base may shrink, reducing the money available for city services.",
+    "C": "Urban renewal may clear the neighborhood's homes to make room for highways and offices.",
+    "D": "The neighborhood may become a zone of abandonment as investment leaves it.",
+    "E": "Lenders may begin redlining the neighborhood and refuse to make loans there."
    },
    "answer": "A",
    "explanation": "This is gentrification. Fixed-up homes and new shops make the neighborhood more desirable, so rents and property taxes go up. Some longtime residents, especially renters with low incomes, can no longer afford to stay and have to move. That is called displacement.",
    "whyNot": {
     "B": "Rising property values make the tax base GROW, not shrink.",
-    "C": "The question says property values are rising.",
+    "C": "Urban renewal is a government program that clears old neighborhoods. Here private buyers are fixing up homes, which is gentrification.",
     "D": "Money is flowing INTO this neighborhood, the opposite of abandonment.",
     "E": "Lenders are investing here. Redlining was the refusal to lend in certain neighborhoods."
    },
@@ -2711,12 +2711,12 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Fragmentation of local government, which splits authority among many units at different scales"
    },
    "answer": "E",
-   "explanation": "Here power is split among MANY governments: a city, more than 80 suburbs, several counties, and special agencies. Each one controls its own piece at its own scale. A transit line crosses many of their borders, so they all have to agree. That makes regional problems hard to solve. Your AP course guide calls this functional and geographic fragmentation of governments.",
+   "explanation": "Power is split among many governments: a city, more than 80 suburbs, several counties, school districts, and special agencies. A transit line that crosses many of their borders needs agreement on the route, money, and approvals, and each has its own priorities. That makes regional problems hard to solve. Your AP course guide calls this functional and geographic fragmentation of governments.",
    "whyNot": {
     "A": "Primacy is about city size in a country. It does not explain why many governments struggle to agree.",
     "B": "Central place theory explains where goods and services are offered, not how governments make decisions.",
     "C": "Redlining was about home loans, not transit planning.",
-    "D": "If the central city had absorbed its suburbs, there would be ONE government, not more than 80."
+    "D": "Annexation brings land into a city. The stem describes the opposite: many separate local governments."
    },
    "vocab": [
     "fragmentation of local government",
@@ -2739,7 +2739,7 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "suburban sprawl at the urban edge"
    },
    "answer": "A",
-   "explanation": "A brownfield is old industrial land that may be polluted. Remediation means cleaning it up. Redevelopment means building something new on it, like homes or a park. This reuses land inside the city instead of building on fresh farmland at the edge.",
+   "explanation": "A brownfield is a property that may be polluted, which makes it harder to reuse. Old factories, gas stations, and dry cleaners are examples. Remediation means cleaning it up, and redevelopment means building something new on it. Reusing the site adds homes or a park without building on open land at the edge.",
    "whyNot": {
     "B": "A greenfield is land that has never been built on, like farmland. This site was a factory.",
     "C": "A greenbelt is a ring of protected open land around a city.",
@@ -2786,7 +2786,7 @@ How the stimulus types render (the JSON holds all of their data):
     "description": "Grouped bar chart. Metro A converted an average of 1,800 hectares of farmland per year in 2000–2009 and 600 hectares per year in 2010–2019. Metro B converted 1,700 hectares per year in 2000–2009 and 1,900 hectares per year in 2010–2019.",
     "source": "Hypothetical data"
    },
-   "stem": "Metro A adopted an urban growth boundary in 2010; Metro B did not. Which conclusion is best supported by the graph?",
+   "stem": "Which conclusion is best supported by the graph?",
    "options": {
     "A": "The growth boundary appears to have increased the amount of farmland Metro A converted.",
     "B": "The two metro areas converted farmland at about the same rate after 2010.",
@@ -2823,17 +2823,255 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Most of the growth in these cities comes from gentrification of older neighborhoods near the CBD."
    },
    "answer": "C",
-   "explanation": "These cities are adding people very fast, mostly at the edges in informal settlements. Building sewers and water-treatment plants takes time and money, and it has not kept up with the number of new residents. Most cities in core countries built their sewer and water systems decades ago, and they now grow much more slowly.",
+   "explanation": "In many fast-growing cities, people arrive faster than new water pipes and sewers can be built. Building them takes a lot of time and money, so the gap grows. The key is how fast the population grows compared with how fast pipes and treatment plants are added. Conditions also differ from city to city.",
    "whyNot": {
     "A": "People in core countries use more resources, so core cities usually have LARGER footprints per person.",
-    "B": "Growth boundaries are rare in these cities, and they limit building, not water pipes.",
+    "B": "Growth boundaries limit where building happens. Nothing in the stem points to them as the reason sanitation has fallen behind.",
     "D": "Many of these cities are very dense. Low density is not the reason sanitation lags.",
-    "E": "Most growth happens at the urban edge through migration and natural increase, not through gentrification."
+    "E": "Gentrification changes who lives in existing neighborhoods. It does not explain the overall growth pressure on sanitation systems."
    },
    "vocab": [
     "sanitation",
     "informal settlement",
     "urban sustainability"
+   ]
+  },
+  {
+   "id": "U6-P42",
+   "topic": "6.5",
+   "lo": "PSO-6.D",
+   "skill": "1.D",
+   "difficulty": "medium",
+   "stem": "A U.S. metropolitan area still has its old downtown, but most of its office jobs and big stores are now spread among several suburban centers near interchanges on a ring highway and near the airport. Suburban neighborhoods fill the land between these centers. Which model of urban structure best describes this metropolitan area?",
+   "options": {
+    "A": "The Burgess concentric zone model",
+    "B": "The Hoyt sector model",
+    "C": "The Latin American (Griffin–Ford) city model",
+    "D": "The galactic city (peripheral) model",
+    "E": "The Southeast Asian (McGee) city model"
+   },
+   "answer": "D",
+   "explanation": "The galactic city model is also called the peripheral model. A ring highway (beltway) links many suburban centers, like edge cities, office parks, and the airport. The old downtown is still there, but it is no longer the only place for jobs and shopping. Homes fill the spaces in between.",
+   "whyNot": {
+    "A": "The Burgess model has rings of land use around ONE CBD. Here, jobs and stores are spread among suburban centers.",
+    "B": "Hoyt's wedges grow outward from the CBD along routes. They do not show suburban centers along a ring highway.",
+    "C": "The Latin American model has an elite spine running out from the CBD and poor settlements at the edge, not suburban job centers on a beltway.",
+    "E": "The Southeast Asian model centers on an old colonial port zone, not a ring highway with suburban centers."
+   },
+   "vocab": [
+    "galactic city model",
+    "peripheral model",
+    "edge city",
+    "beltway"
+   ]
+  },
+  {
+   "id": "U6-P43",
+   "topic": "6.2",
+   "lo": "PSO-6.A",
+   "skill": "1.A",
+   "difficulty": "easy",
+   "stem": "Which of the following best describes the difference between a megacity and a metacity?",
+   "options": {
+    "A": "A metacity is a world city that controls global finance; a megacity is any city with a large population.",
+    "B": "A metacity has more than 20 million people; a megacity has 10 million or more.",
+    "C": "A metacity is a ring of edge cities around a beltway; a megacity has a single CBD.",
+    "D": "A metacity is more than twice the size of its country's second city; a megacity is not.",
+    "E": "A metacity grows mainly through suburbanization; a megacity grows mainly through migration."
+   },
+   "answer": "B",
+   "explanation": "Both words are about size. A megacity has 10 million or more people. A metacity is even bigger: more than 20 million people. Your AP course guide says both are increasingly found in semiperiphery and periphery countries.",
+   "whyNot": {
+    "A": "Control of global finance makes a city a world city. Metacity is about population size.",
+    "C": "A ring of edge cities around a beltway describes the galactic city model, not a metacity.",
+    "D": "A city that much bigger than its country's second city is a primate city.",
+    "E": "The two terms are defined by population size, not by how the city grows."
+   },
+   "vocab": [
+    "metacity",
+    "megacity",
+    "urban hierarchy"
+   ]
+  },
+  {
+   "id": "U6-P44",
+   "topic": "6.10",
+   "lo": "SPS-6.A",
+   "skill": "3.E",
+   "difficulty": "medium",
+   "stimulus": {
+    "type": "table",
+    "title": "SELECTED CONDITIONS IN FOUR NEIGHBORHOODS OF CITY J (HYPOTHETICAL DATA)",
+    "columns": [
+     "Neighborhood",
+     "Households below the poverty line (%)",
+     "Distance to the nearest highway or large factory (meters)",
+     "Days per year with unhealthy air at the local monitor",
+     "Tree canopy cover (%)"
+    ],
+    "rows": [
+     [
+      "Elm Hollow",
+      "8",
+      "1,900",
+      "4",
+      "38"
+     ],
+     [
+      "Larkspur",
+      "34",
+      "150",
+      "22",
+      "9"
+     ],
+     [
+      "Millbank",
+      "29",
+      "250",
+      "19",
+      "12"
+     ],
+     [
+      "Ridgeview",
+      "11",
+      "1,600",
+      "6",
+      "31"
+     ]
+    ],
+    "source": "Hypothetical data"
+   },
+   "stem": "The pattern in the table best illustrates which of the following?",
+   "options": {
+    "A": "Gentrification",
+    "B": "Transportation-oriented development",
+    "C": "Counterurbanization",
+    "D": "Environmental injustice",
+    "E": "Blockbusting"
+   },
+   "answer": "D",
+   "explanation": "Look at who lives closest to pollution. Larkspur and Millbank have the most households in poverty (34% and 29%). They are also closest to highways or factories (150 and 250 meters), have the most days with unhealthy air (22 and 19), and have the least tree cover. When lower-income neighborhoods carry more of a city's pollution and get fewer of its green spaces, that is called environmental injustice.",
+   "whyNot": {
+    "A": "Gentrification is a change over time, as higher-income people move in. The table shows one point in time, not a change in who lives there.",
+    "B": "Transportation-oriented development puts housing and shops near transit stations. The table is about pollution exposure, not transit.",
+    "C": "Counterurbanization is people moving from cities to rural areas. The table compares neighborhoods within one city.",
+    "E": "Blockbusting was real estate agents using racial fear to buy homes cheaply and resell them. The table is about pollution, not home sales."
+   },
+   "vocab": [
+    "environmental injustice",
+    "air quality",
+    "disamenity"
+   ]
+  },
+  {
+   "id": "U6-P45",
+   "topic": "6.10",
+   "lo": "SPS-6.A",
+   "skill": "2.C",
+   "difficulty": "medium",
+   "stem": "Several neighborhoods in a city have no full-service grocery store within walking distance. The city helps residents turn vacant lots into community gardens and opens a weekly farmers' market that accepts food assistance benefits. Which outcome is most likely?",
+   "options": {
+    "A": "Most households will grow enough of their own food that the neighborhoods will no longer need grocery stores.",
+    "B": "Large supermarket chains will soon open full-service stores there, because the market shows strong demand.",
+    "C": "Residents will gain better access to fresh produce, though they will still need other food stores.",
+    "D": "Property values will fall, because community gardens and markets make neighborhoods less attractive.",
+    "E": "Food prices across the whole city will fall sharply, because local produce costs less to ship."
+   },
+   "answer": "C",
+   "explanation": "Community gardens and farmers' markets are part of the local food movement. They bring fresh fruits and vegetables close to people who have few places to buy them. Taking food assistance benefits helps families with less money shop there. But a few gardens and a weekly market are small, so families still need other stores.",
+   "whyNot": {
+    "A": "Gardens on a few vacant lots cannot feed whole neighborhoods. They add some fresh food, not most of it.",
+    "B": "A few gardens and a weekly market do not prove enough steady demand to bring a full supermarket.",
+    "D": "Turning vacant lots into gardens usually makes a block MORE attractive, not less.",
+    "E": "A few gardens and one weekly market are too small to change food prices across a whole city."
+   },
+   "vocab": [
+    "local food movement",
+    "food desert",
+    "community garden"
+   ]
+  },
+  {
+   "id": "U6-P46",
+   "topic": "6.11",
+   "lo": "SPS-6.B",
+   "skill": "3.C",
+   "difficulty": "medium",
+   "stimulus": {
+    "type": "bar",
+    "title": "AVERAGE SUMMER AFTERNOON SURFACE TEMPERATURE BY LAND COVER IN CITY V (HYPOTHETICAL DATA)",
+    "yLabel": "Surface temperature (°C)",
+    "categories": [
+     "Downtown core",
+     "Tree-lined area",
+     "City park",
+     "Farmland"
+    ],
+    "series": [
+     {
+      "name": "Average surface temperature (°C)",
+      "values": [
+       48,
+       38,
+       31,
+       33
+      ]
+     }
+    ],
+    "yMax": 60,
+    "text": "Downtown core: mostly rooftops and pavement. Tree-lined area: an older neighborhood with many street trees. City park: grass and trees. Farmland: crops outside the city.",
+    "description": "Bar chart of average summer afternoon surface temperature in four kinds of places in City V: downtown core 48°C, tree-lined area 38°C, city park 31°C, farmland outside the city 33°C.",
+    "source": "Hypothetical data"
+   },
+   "stem": "Based on the graph, which strategy would most likely lower summer surface temperatures in City V's downtown core?",
+   "options": {
+    "A": "Replacing downtown parks with paved parking to speed the flow of traffic",
+    "B": "Converting more land outside the city to farmland, since farmland is cooler than downtown",
+    "C": "Building taller downtown towers closer together to trap cool air",
+    "D": "Replacing the city park with tree-lined housing, since tree-lined areas are cooler than downtown",
+    "E": "Adding street trees, green roofs, and small parks among the downtown buildings"
+   },
+   "answer": "E",
+   "explanation": "Downtown, covered in rooftops and pavement, is the hottest place on the graph (48°C). The city park (31°C) and the tree-lined area (38°C) are much cooler, because plants shade surfaces and release water that cools the air. Adding trees, green roofs, and small parks downtown matches what the graph shows. Extra heat in built-up areas is called the urban heat island effect.",
+   "whyNot": {
+    "A": "Pavement soaks up heat. The graph shows the paved downtown is the hottest land cover, so more pavement would make it hotter.",
+    "B": "Farmland is cooler, but it is outside the city. More farmland there would not cool the rooftops and pavement downtown.",
+    "C": "Tall buildings packed close together trap heat between them and block cooling breezes.",
+    "D": "The park (31°C) is cooler than tree-lined areas (38°C), and this change happens outside the downtown core."
+   },
+   "vocab": [
+    "urban heat island",
+    "green roof",
+    "urban sustainability"
+   ]
+  },
+  {
+   "id": "U6-P47",
+   "topic": "6.8",
+   "lo": "IMP-6.D",
+   "skill": "2.C",
+   "difficulty": "medium",
+   "stem": "A city rezones a neighborhood of 100-year-old two-story shops and row houses so that eight-story mixed-use buildings can be built near a new light-rail station. Which criticism would opponents of the plan most likely raise?",
+   "options": {
+    "A": "Older buildings could be torn down, weakening the historic character of the neighborhood's streets.",
+    "B": "It could increase sprawl, because mixed-use buildings use more land per resident than row houses.",
+    "C": "It could separate homes from stores, because mixed-use zoning puts housing and shops in different districts.",
+    "D": "It could lower land values near the station, because rail stations make nearby land less accessible.",
+    "E": "It could make the area less walkable, because mixed-use buildings face parking lots instead of sidewalks."
+   },
+   "answer": "A",
+   "explanation": "Building taller near transit is a smart-growth idea, and it can add homes and riders. But to make room, old shops and row houses may be torn down. Your AP course guide lists the possible loss of historical or place character as a criticism of urban design initiatives like this one.",
+   "whyNot": {
+    "B": "Mixed-use buildings stack homes and shops, so they use LESS land per person and ease pressure to build on farmland.",
+    "C": "Mixed-use zoning puts homes and shops in the SAME building or block. Single-use zoning separates them.",
+    "D": "A rail station makes nearby land EASIER to reach, so land values usually rise.",
+    "E": "Mixed-use buildings near transit are usually built up to the sidewalk with shops on the ground floor, which makes walking easier."
+   },
+   "vocab": [
+    "historic preservation",
+    "place character",
+    "transportation-oriented development",
+    "mixed land use"
    ]
   }
  ],
@@ -2949,9 +3187,9 @@ How the stimulus types render (the JSON holds all of their data):
     "stem": "Which of the following statements is best supported by the graph?",
     "options": {
      "A": "Nigeria's urban share was higher than China's in both 1960 and 2020.",
-     "B": "China's urban share rose by more percentage points from 1980 to 2020 than any other country's did.",
+     "B": "Of the four countries, China's urban share rose by the most percentage points from 1980 to 2020.",
      "C": "India's urban share rose by more percentage points between 1990 and 2020 than Nigeria's urban share did.",
-     "D": "The United Kingdom's urban share more than doubled over the sixty years between 1960 and 2020.",
+     "D": "The gap between the United Kingdom's and China's urban shares was larger in 2020 than in 1960.",
      "E": "China's urban share was higher than India's in 1980."
     },
     "answer": "B",
@@ -2959,7 +3197,7 @@ How the stimulus types render (the JSON holds all of their data):
      "A": "Incorrect. China's urban share was higher than Nigeria's in both years: 19.7 vs. 14.2 percent in 1960 and 63.5 vs. 59.8 percent in 2020.",
      "B": "Correct. China's urban share rose from 19.4 to 63.5 percent, a gain of about 44 percentage points. Nigeria gained about 32 points, India about 11, and the United Kingdom about 4.",
      "C": "Incorrect. India's urban share rose about 8.5 points (25.6 to 34.1), while Nigeria's rose about 24.6 points (35.2 to 59.8).",
-     "D": "Incorrect. The United Kingdom was already about 79 percent urban in 1960 and reached about 83 percent in 2020, so it could not double.",
+     "D": "Incorrect. The gap narrowed from about 59 percentage points in 1960 (78.6 vs. 19.7 percent) to about 19 points in 2020 (82.9 vs. 63.5 percent).",
      "E": "Incorrect. In 1980, China's urban share (19.4 percent) was lower than India's (23.5 percent)."
     },
     "explanation": "Subtract to find each country's gain from 1980 to 2020. China: 63.5 − 19.4 = about 44 points. Nigeria: about 32. India: about 11. The United Kingdom: about 4. China's line climbs the most."
@@ -2988,7 +3226,7 @@ How the stimulus types render (the JSON holds all of their data):
      "D": "Incorrect. The graph shows national urban shares, not the size of capital cities, and rapid urbanization has not generally produced a decline in primate cities.",
      "E": "Correct. Because of rapid urbanization in semiperiphery and periphery countries, most of today's megacities, such as Shanghai and Lagos, are located outside the core."
     },
-    "explanation": "When a country's urban share climbs this fast, its biggest cities grow huge. Shanghai in China and Lagos in Nigeria are now megacities (more than 10 million people). Your AP course guide says megacities are increasingly found in semiperiphery and periphery countries."
+    "explanation": "China and Nigeria became much more urban very quickly. Fast city growth in semiperiphery and periphery countries is part of why most megacities are now outside the core. A megacity has 10 million or more people. Shanghai and Lagos are examples. The graph shows national percentages, not the size of single cities."
    },
    {
     "id": "U6-E04",
@@ -3059,11 +3297,11 @@ How the stimulus types render (the JSON holds all of their data):
     "rationales": {
      "A": "Incorrect. Global trade depends on links among cities; the example shows cities tied together by design, production, shipping, and sales.",
      "B": "Incorrect. Control rests with the headquarters city, which makes design and sourcing decisions; factory cities carry out production.",
-     "C": "Correct. A world city at the top of the hierarchy (Paris) coordinates production in one country, shipping through a global hub, and sales in many cities, showing how cities at different scales are linked in a global network.",
+     "C": "Correct. Decisions made at a world-city headquarters (Paris) coordinate an international production network and affect local employment in connected places, linking the global and local scales.",
      "D": "Incorrect. The rank-size rule describes city sizes within one country, not the links in a global production network.",
      "E": "Incorrect. The example describes flows of goods, money, and decisions, not migration."
     },
-    "explanation": "Paris makes the decisions. Factories in Bangladesh make the clothes, Singapore moves them, and stores in many cities sell them. Big and small cities around the world are linked together, and the world city at the top runs the whole chain."
+    "explanation": "Managers in Paris run a chain that links factories in Bangladesh, ships passing through Singapore, and stores in many cities. Choices made in this world city affect jobs and businesses in places all over the world."
    },
    {
     "id": "U6-E07",
@@ -3137,7 +3375,7 @@ How the stimulus types render (the JSON holds all of their data):
     "lo": "PSO-6.C",
     "skill": "2.B",
     "difficulty": "medium",
-    "stem": "Country Q's largest city is the national capital and main seaport, and it was the colonial capital before independence. Which of the following best explains the pattern of city sizes in Country Q?",
+    "stem": "Which of the following best explains the pattern of city sizes shown for Country Q?",
     "options": {
      "A": "Government power, investment, and jobs became concentrated in one city, drawing migrants from across the country.",
      "B": "Central place theory predicts that a country's largest city will be about twice the size of its second-largest city.",
@@ -3147,13 +3385,13 @@ How the stimulus types render (the JSON holds all of their data):
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. A city that holds the national government, the main port, and the legacy of colonial administration attracts investment, jobs, and services, so migrants are drawn there far more than to other cities, producing a primate city.",
+     "A": "Correct. When government power, investment, and jobs concentrate in one city (often a national capital, main port, or former colonial capital), migrants are drawn there far more than to other cities, producing a primate city like Country Q's.",
      "B": "Incorrect. The expectation that the largest city is about twice the second city comes from the rank-size rule, not central place theory, and Country Q does not fit it.",
      "C": "Incorrect. The gravity model predicts more interaction with larger, closer places, which would draw migrants toward the largest city.",
      "D": "Incorrect. Counterurbanization would shrink the largest city relative to the others, the opposite of the pattern shown.",
      "E": "Incorrect. Bid-rent theory describes land values within a city, which are highest near the most accessible center, not across a country's cities."
     },
-    "explanation": "When one city has the government, the main port, and most of the money and jobs, people from all over the country move there. That city grows far bigger than any other, which makes it a primate city."
+    "explanation": "Country Q's largest city is more than seven times the size of its second city, so it is a primate city. That usually happens when one city gets most of the government offices, money, and jobs, so people from all over the country move there."
    },
    {
     "id": "U6-E09",
@@ -3162,7 +3400,7 @@ How the stimulus types render (the JSON holds all of their data):
     "lo": "PSO-6.C",
     "skill": "2.C",
     "difficulty": "medium",
-    "stem": "According to the gravity model, if the distance between two cities doubled while their populations stayed the same, the expected interaction between them would",
+    "stem": "According to the gravity model, in which interaction = (population 1 × population 2) ÷ distance², if the distance between two cities doubled while their populations stayed the same, the expected interaction between them would",
     "options": {
      "A": "double",
      "B": "stay the same",
@@ -3174,11 +3412,11 @@ How the stimulus types render (the JSON holds all of their data):
     "rationales": {
      "A": "Incorrect. Greater distance reduces interaction in the gravity model; it does not increase it.",
      "B": "Incorrect. Distance is part of the gravity model, so changing it changes the predicted interaction.",
-     "C": "Incorrect. Interaction falls by one-half only if it is divided by distance; the gravity model divides by distance squared.",
-     "D": "Correct. In the gravity model, interaction equals the product of the two populations divided by the distance squared. Doubling the distance multiplies the denominator by 2² = 4, so interaction falls to one-fourth.",
-     "E": "Incorrect. One-eighth would result from cubing the distance (2³ = 8); the gravity model squares it."
+     "C": "Incorrect. One-half would result from dividing by distance rather than distance squared. This question uses the distance-squared version.",
+     "D": "Correct. Doubling distance multiplies the denominator by 2² = 4. With the population product unchanged, predicted interaction becomes one-fourth as large.",
+     "E": "Incorrect. One-eighth would result from cubing the distance (2³ = 8). This question uses distance squared."
     },
-    "explanation": "The gravity model divides by distance SQUARED. If distance doubles, you divide by 2 × 2 = 4. So the cities would interact only one-fourth as much as before."
+    "explanation": "In this version of the model, distance is squared. Doubling the distance multiplies the bottom of the fraction by 2 × 2 = 4, so the cities would interact only one-fourth as much as before."
    },
    {
     "id": "U6-E10",
@@ -3187,23 +3425,23 @@ How the stimulus types render (the JSON holds all of their data):
     "lo": "PSO-6.C",
     "skill": "2.C",
     "difficulty": "medium",
-    "stem": "A company wants to open a store that sells expensive, specialized camera equipment, which people buy only once in a while. According to central place theory, where should the store locate?",
+    "stem": "A company plans a store that sells expensive, specialized camera equipment, which people buy only once in a while. According to central place theory, in which kind of place is the store most likely to succeed?",
     "options": {
      "A": "In a small town, because the store's threshold is low and its customers will not travel far",
-     "B": "In a suburb next to grocery stores, because shoppers for everyday goods will also buy cameras",
+     "B": "In a village with a grocery store, because shoppers buying everyday goods will also buy cameras",
      "C": "Halfway between two small towns, because bid-rent theory shows that land there is cheapest",
      "D": "In the smallest central place in the region, because high-order goods have the shortest range",
-     "E": "In a large city, because the store needs a large threshold drawn from a wide range"
+     "E": "In a high-order central place, whose large market area can meet the store's high threshold"
     },
     "answer": "E",
     "rationales": {
      "A": "Incorrect. A specialized, expensive good has a high threshold; a small town lacks enough customers to support it.",
-     "B": "Incorrect. Central place theory groups goods by order; the frequent trips people make for low-order goods like groceries do not supply the large threshold that a high-order good needs.",
-     "C": "Incorrect. Central place theory locates services at central places, not between them, and bid-rent theory describes land values within a city.",
+     "B": "Incorrect. A village is a low-order place; shoppers who come for groceries do not supply the large threshold that a high-order good needs.",
+     "C": "Incorrect. Low land cost alone does not mean a location can attract enough customers, and central place theory places services at central places, not between them.",
      "D": "Incorrect. High-order goods have long ranges, not short ones, and they are found in the largest central places.",
-     "E": "Correct. Specialized, rarely purchased goods are high-order goods. They need a large threshold population, and customers will travel a long distance (a wide range) to buy them, so they locate in large central places."
+     "E": "Correct. Specialized goods bought rarely are high-order goods, found in higher-order central places that serve large markets. Threshold is the minimum number of customers needed to stay open; range is how far customers will travel."
     },
-    "explanation": "Expensive cameras are a high-order good: a store needs LOTS of customers to stay open (a big threshold), and people will drive a long way to buy one (a long range). Only a big city has enough people nearby, so the store belongs there."
+    "explanation": "Expensive cameras are a high-order good. A camera store needs LOTS of customers to stay open (a big threshold), and people will travel a long way to buy one (a long range). A high-order central place, such as a large city or a major shopping center in a big metro area, serves a market big enough to support it."
    },
    {
     "id": "U6-E11",
@@ -4369,7 +4607,7 @@ How the stimulus types render (the JSON holds all of their data):
      "D": "Incorrect. Area 5 is the zone of peripheral squatter settlements, where many of the poorest residents, often recent migrants, live.",
      "E": "Incorrect. Area 6 is the disamenity sector, one of the poorest parts of the city, where many homes lack regular city services."
     },
-    "explanation": "In the Latin American city model, the richest people live along a fancy boulevard that runs out from the CBD. That wedge is called the spine (Area 2). It has the best services, shops, and homes."
+    "explanation": "In the Latin American city model, Area 2 has two parts. The spine is a strip of stores and offices running out from the CBD. Around it is the elite sector, where the richest families live. This area has the best services and shops."
    },
    {
     "id": "U6-E12",
@@ -4383,7 +4621,7 @@ How the stimulus types render (the JSON holds all of their data):
     "options": {
      "A": "The model shown has no CBD, while the Burgess model is organized around a single CBD.",
      "B": "The model shown places factories in rings around the CBD, while the Burgess model places them in a single wedge from the center.",
-     "C": "In the model shown, wealth mostly declines away from the CBD, while Burgess puts higher-income residents farther out.",
+     "C": "Apart from the elite spine, the model shown gets poorer toward the edge, while the Burgess model gets wealthier.",
      "D": "The model shown assumes a city grows around several separate nuclei, while the Burgess model assumes one center.",
      "E": "The model shown was designed for cities that grew without colonial influence, while the Burgess model was based on colonial cities."
     },
@@ -4408,20 +4646,20 @@ How the stimulus types render (the JSON holds all of their data):
     "stem": "Which of the following best explains the growth of the settlements in Area 5?",
     "options": {
      "A": "Wealthy residents moved to the urban edge to escape crowding and pollution near the CBD, as in many U.S. suburbs.",
-     "B": "Urban renewal programs relocated the city's elite families to new planned communities at the edge of the city.",
+     "B": "Rural migrants arrived faster than affordable housing was built, so many built homes without secure land rights.",
      "C": "Gentrification of the outer zone raised property values and attracted high-income buyers.",
-     "D": "Rural migrants arrived faster than affordable housing was built, so many built homes on land they did not own.",
+     "D": "Urban renewal programs relocated the city's elite families to new planned communities at the edge of the city.",
      "E": "Factories moved to Area 5 to take advantage of the city's highest land values at the urban edge."
     },
-    "answer": "D",
+    "answer": "B",
     "rationales": {
-     "A": "Incorrect. Wealthy residents in the Latin American model live mainly along the spine near the CBD, not at the urban edge.",
-     "B": "Incorrect. The elite are concentrated in the spine sector, and Area 5 is mostly informal housing, not planned communities.",
+     "A": "Incorrect. Area 5 represents peripheral informal settlements. Wealthy households are concentrated in Area 2, the elite residential sector, which can also extend to the urban edge; distance from the CBD alone does not determine neighborhood income.",
+     "B": "Correct. Rapid rural-to-urban migration outpaced the supply of affordable formal housing, so newcomers built self-made homes at the city's edge without secure rights to occupy the land, creating squatter settlements.",
      "C": "Incorrect. Area 5 is the zone of peripheral squatter settlements, which house many of the city's poorest residents; gentrification is not what created it.",
-     "D": "Correct. Rapid rural-to-urban migration outpaced the supply of affordable formal housing, so newcomers built self-made homes on land at the city's edge without legal title, creating squatter settlements with insecure land tenure.",
+     "D": "Incorrect. The elite are concentrated in the spine sector, and Area 5 is mostly informal housing, not planned communities.",
      "E": "Incorrect. Land values are generally lowest, not highest, at the urban edge, and Area 5 is mainly residential."
     },
-    "explanation": "Lots of people moved from the countryside to the city looking for work. There were not enough affordable homes for them, so they built their own homes at the edge of the city on land they did not legally own. Those neighborhoods are squatter settlements."
+    "explanation": "Lots of people moved from the countryside to the city looking for work. There were not enough affordable homes for them, so they built their own homes at the edge of the city without secure rights to the land. Those neighborhoods are squatter settlements."
    },
    {
     "id": "U6-E14",
@@ -4429,21 +4667,21 @@ How the stimulus types render (the JSON holds all of their data):
     "topic": "6.5",
     "lo": "PSO-6.D",
     "skill": "1.E",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Which of the following is a limitation of the Burgess concentric zone model when it is applied to large U.S. metropolitan areas today?",
     "options": {
      "A": "It places the wealthiest residents in the zone closest to the CBD, which does not match most U.S. cities.",
-     "B": "It assumes a single CBD, but many metropolitan areas now have several suburban business centers.",
+     "B": "It leaves out the CBD, which is still the main center of many U.S. cities.",
      "C": "It was based on cities in Latin America, so it does not reflect the history of U.S. cities.",
-     "D": "It leaves out the CBD, which is still the main center of many U.S. cities.",
+     "D": "It assumes a single CBD, but many metropolitan areas now have several suburban business centers.",
      "E": "It assumes that land uses form wedges along transportation routes, which is rare in U.S. cities."
     },
-    "answer": "B",
+    "answer": "D",
     "rationales": {
      "A": "Incorrect. The Burgess model places higher-income commuters in the outer zones, not next to the CBD.",
-     "B": "Correct. The model assumes growth outward from one CBD. Large metropolitan areas today also contain edge cities and suburban business centers, a pattern better described by the multiple nuclei and galactic city models.",
+     "B": "Incorrect. The CBD is the center of the Burgess model.",
      "C": "Incorrect. Burgess based his model on Chicago in the 1920s.",
-     "D": "Incorrect. The CBD is the center of the Burgess model.",
+     "D": "Correct. The model assumes growth outward from one CBD. Large metropolitan areas today also contain edge cities and suburban business centers, a pattern better described by the multiple nuclei and galactic city models.",
      "E": "Incorrect. Wedges along transportation routes describe the Hoyt sector model, not the Burgess model."
     },
     "explanation": "Burgess drew his rings around ONE downtown. Today, many big metro areas have several job centers, like edge cities near highways. A model with only one center cannot show that."
@@ -4511,7 +4749,7 @@ How the stimulus types render (the JSON holds all of their data):
      "B": "Farmland at the edge will be better protected, because the new infrastructure makes building there harder.",
      "C": "Commuting distances will shrink, because jobs and housing will both move to the CBD.",
      "D": "Land values at the edge will fall, because the new highway will bring more traffic.",
-     "E": "New development will shift to the edge, encouraging sprawl, while the older neighborhoods may decline."
+     "E": "New development will shift to the edge, encouraging sprawl, while older neighborhoods decline."
     },
     "answer": "E",
     "rationales": {
@@ -4553,25 +4791,25 @@ How the stimulus types render (the JSON holds all of their data):
     "n": 19,
     "topic": "6.8",
     "lo": "IMP-6.D",
-    "skill": "1.B",
+    "skill": "2.C",
     "difficulty": "medium",
-    "stem": "Supporters of smart-growth policies point to reduced sprawl and improved walkability. Which of the following is a criticism of these policies?",
+    "stem": "A city adopts an urban growth boundary. Ten years later, farmland loss at the city's edge has slowed, but the number of households inside the boundary has grown much faster than the number of homes. Which criticism of the policy do these results most directly support?",
     "options": {
-     "A": "They increase sprawl by encouraging low-density housing developments on open farmland at the urban edge.",
-     "B": "They can raise housing costs and price out lower-income residents, adding to de facto segregation.",
-     "C": "They focus new growth near transit, which can reduce how often residents need to drive.",
-     "D": "They lead to the loss of open space by ruling out parks and greenbelts.",
-     "E": "They encourage a mix of housing types, such as townhouses and apartments, near shops and jobs."
+     "A": "It may lower land values inside the boundary, because builders are not allowed to use that land.",
+     "B": "It may raise housing costs and price out lower-income households, adding to de facto segregation.",
+     "C": "It may lower density inside the boundary, because new homes there are built on large lots.",
+     "D": "It may increase car dependence, because the boundary separates homes from shops and jobs.",
+     "E": "It may harm the city's historic character as older buildings are torn down to make room for new towers."
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. Smart growth aims to reduce sprawl by focusing development in existing areas.",
-     "B": "Correct. Critics argue that limits on where building can happen and the popularity of walkable neighborhoods can raise housing costs, pricing out lower-income residents and contributing to de facto segregation.",
-     "C": "Incorrect. Fewer car trips is a benefit that supporters point to, not a criticism.",
-     "D": "Incorrect. Smart growth often protects open space through greenbelts and growth boundaries.",
-     "E": "Incorrect. More varied housing options is a benefit that supporters point to, not a criticism."
+     "A": "Incorrect. A growth boundary allows building inside it and restricts building outside it; limiting buildable land tends to raise, not lower, land values inside the boundary.",
+     "B": "Correct. Households grew much faster than homes, so demand outran supply inside the boundary. Rising housing costs that price out lower-income residents and can add to de facto segregation are a common criticism of growth limits.",
+     "C": "Incorrect. Growth boundaries usually encourage more compact, higher-density building inside the boundary; they do not require large lots.",
+     "D": "Incorrect. A growth boundary limits outward spread; it does not separate homes from shops and jobs, which is a result of single-use zoning.",
+     "E": "Incorrect. Loss of historic character is a criticism of some redevelopment, but these results describe a housing shortage, not the demolition of older buildings."
     },
-    "explanation": "Smart growth makes some neighborhoods very nice and limits where new homes can go. When a place is nice and space is limited, prices go up. Families with less money may get pushed out, so people end up separated by income."
+    "explanation": "The boundary slowed farmland loss, which is its goal. But households grew much faster than the number of homes. When more people want homes than there are homes, prices rise, and families with less money can get pushed out."
    },
    {
     "id": "U6-E20",
@@ -4632,7 +4870,7 @@ How the stimulus types render (the JSON holds all of their data):
        "21"
       ]
      ],
-     "source": "Hypothetical data. All dollar amounts are adjusted for inflation to 2020 dollars."
+     "source": "Hypothetical data. All dollar amounts are adjusted for inflation to 2020 dollars. Tract boundaries are the same in both years."
     },
     "stem": "Which tract shows the strongest evidence of gentrification between 2010 and 2020?",
     "options": {
@@ -4647,10 +4885,10 @@ How the stimulus types render (the JSON holds all of their data):
      "A": "Correct. In Tract 101, median income more than doubled ($31,000 to $68,000), median rent more than doubled ($650 to $1,450), and the share of adults with a bachelor's degree rose from 14 to 46 percent, a pattern consistent with higher-income, more-educated newcomers moving into a lower-income area.",
      "B": "Incorrect. Tract 102's rent rose modestly ($620 to $700), but its income and education levels barely changed, so there is little sign of new higher-income residents.",
      "C": "Incorrect. Tract 103 was already high-income in 2010 and changed little; gentrification describes change in a lower-income area.",
-     "D": "Incorrect. Tract 104 shows rising cost pressure on residents, but no inflow of higher-income or more-educated residents.",
-     "E": "Incorrect. Tract 103's 2020 income reflects a long-established high-income area, not a rapid change from low starting levels."
+     "D": "Incorrect. Tract 104 shows rising rent but no increase in income or education levels, and the table does not show who moved in or out.",
+     "E": "Incorrect. Tract 103's 2020 income reflects an area that was already high-income at the beginning of the period, not a rapid change from low starting levels."
     },
-    "explanation": "Gentrification = richer, more educated people moving into a poorer neighborhood, and prices going up. Tract 101 had low income and rent in 2010. By 2020, income and rent had more than doubled, and college graduates jumped from 14% to 46% of adults. That is the clearest sign."
+    "explanation": "Gentrification is reinvestment in a lower-income neighborhood along with more higher-income residents. Tract 101 shows the strongest signs: income and rent each more than doubled, and college graduates rose from 14% to 46% of adults. These numbers suggest gentrification, but they do not show who moved or whether anyone was pushed out."
    },
    {
     "id": "U6-E21",
@@ -4724,10 +4962,10 @@ How the stimulus types render (the JSON holds all of their data):
      "A": "Incorrect. Redlining restricted lending in neighborhoods rated hazardous; it did not increase lending there.",
      "B": "Incorrect. Redlining did the opposite of equal lending, steering credit away from certain neighborhoods and widening gaps in home values.",
      "C": "Incorrect. Federal mortgage programs of the period favored new suburban development, which grew rapidly after World War II.",
-     "D": "Correct. Maps that rated neighborhoods as hazardous, often because Black or immigrant families lived there, led lenders to deny or limit mortgages. The resulting lack of homeownership and investment contributed to lower home values and wealth that persisted for decades.",
+     "D": "Correct. Discriminatory neighborhood grading and lending practices limited mortgage access in many Black and immigrant neighborhoods. Restricted credit made buying and repairing homes harder, contributing to lasting differences in investment, property values, and household wealth.",
      "E": "Incorrect. Quickly reselling homes to profit from racial fear describes blockbusting, and it did not create stable mixed-income neighborhoods."
     },
-    "explanation": "In redlined neighborhoods, banks would not lend money to buy or fix up homes, often because of who lived there. Families could not build wealth by owning homes, and buildings were not kept up. Those gaps between neighborhoods lasted for many years and still show up today."
+    "explanation": "In redlined neighborhoods, many residents were refused loans or offered worse terms when they tried to buy or fix up homes. That cut chances to own homes and invest, and it helped create wealth gaps that lasted for generations."
    },
    {
     "id": "U6-E24",
@@ -4736,23 +4974,23 @@ How the stimulus types render (the JSON holds all of their data):
     "lo": "SPS-6.B",
     "skill": "2.C",
     "difficulty": "medium",
-    "stem": "A city cleans up the polluted soil at a closed rail yard near downtown and redevelops the site with apartments, offices, and a park. Which of the following is the most likely benefit of this project for urban sustainability?",
+    "stem": "A growing city wants to add housing, clean up contaminated land, and limit development on the farmland around it. Which strategy would most directly meet all three goals?",
     "options": {
-     "A": "It increases sprawl by moving jobs from downtown out to the suburbs.",
-     "B": "It lowers population density near the CBD by replacing existing housing with open space and offices.",
-     "C": "It creates a greenfield site that can be farmed once the soil is cleaned.",
-     "D": "It adds homes and jobs on land already developed, easing pressure to build on farmland.",
-     "E": "It raises the city's ecological footprint by converting parkland into new offices and apartments."
+     "A": "Build new apartment buildings on greenfield sites at the city's edge",
+     "B": "Adopt an urban growth boundary and require large-lot zoning inside it",
+     "C": "Require inclusionary zoning for new housing built in the city",
+     "D": "Redevelop brownfield sites near downtown with new apartment buildings",
+     "E": "Create a greenbelt and steer new apartment building to the next town over"
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. The project keeps jobs and housing near downtown instead of moving them outward.",
-     "B": "Incorrect. The project adds apartments to a site that had no housing, so it raises density near the CBD.",
-     "C": "Incorrect. A greenfield is land that has never been developed; a former rail yard is a brownfield.",
-     "D": "Correct. Remediating and redeveloping a brownfield puts new homes and jobs on previously developed land served by existing infrastructure, reducing the need to convert farmland at the urban edge.",
-     "E": "Incorrect. The site was a rail yard, not parkland, and the project adds a park."
+     "A": "Incorrect. Greenfield sites are undeveloped land such as farmland, so this adds housing but uses farmland and cleans up nothing.",
+     "B": "Incorrect. The boundary limits farmland loss, but large-lot zoning reduces the number of homes, and nothing is cleaned up.",
+     "C": "Incorrect. Inclusionary zoning makes some new units affordable; it does not clean up contaminated land or protect farmland.",
+     "D": "Correct. Brownfields are former industrial or commercial sites that may be contaminated; cleaning them up and redeveloping them with apartments adds housing, removes pollution, and reuses developed land, reducing pressure on farmland.",
+     "E": "Incorrect. A greenbelt protects farmland, but this sends housing to another town and leaves contaminated land as it is."
     },
-    "explanation": "A polluted old rail yard is a brownfield. Cleaning it up and building homes, offices, and a park there reuses land the city already has. That means fewer new buildings on farmland at the edge of the city."
+    "explanation": "Brownfields are old industrial or commercial sites that may be polluted. Cleaning them up and building apartments there does all three things: it adds homes, removes pollution, and reuses land the city already has, so less farmland is needed."
    },
    {
     "id": "U6-E25",
@@ -4760,22 +4998,22 @@ How the stimulus types render (the JSON holds all of their data):
     "topic": "6.11",
     "lo": "SPS-6.B",
     "skill": "5.B",
-    "difficulty": "hard",
-    "stem": "A central city adopts an urban growth boundary, but the many suburban municipalities around it do not. Which of the following is the most likely result?",
+    "difficulty": "medium",
+    "stem": "A central city restricts new development outside a growth boundary on land under its own planning authority. The suburban municipalities next to it adopt no similar limits. Which regional outcome is most likely?",
     "options": {
-     "A": "Sprawl will stop across the region, because the central city's boundary controls suburban land use.",
-     "B": "Development may jump past the boundary into nearby suburbs, so sprawl continues regionally.",
-     "C": "Farmland protection will be strongest in the suburbs, which gain new limits on development.",
+     "A": "Sprawl will slow across the whole metropolitan area, because the boundary marks the outer limit of regional growth.",
+     "B": "Development will shift past the boundary into nearby suburbs, so sprawl will continue across the region.",
+     "C": "The central city will annex its neighboring suburbs, so one government will control land use across the region.",
      "D": "Housing prices in the central city will fall, because land inside the boundary becomes more plentiful.",
-     "E": "Density inside the central city will fall as residents move onto its protected farmland."
+     "E": "Density inside the central city will fall, because builders will avoid the limited land inside the boundary."
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. A city's growth boundary applies only within its own jurisdiction; it does not control land use in independent suburbs.",
-     "B": "Correct. A boundary adopted at the city scale can be undercut at the regional scale: development blocked inside the city's limits can move to suburbs without limits, so sprawl continues. This is why regional planning efforts matter for urban sustainability.",
-     "C": "Incorrect. The suburbs did not adopt limits, so they face the least restriction on development.",
+     "A": "Incorrect. The boundary applies only to land under the central city's authority; the neighboring suburbs have no limits, so development can continue there.",
+     "B": "Correct. Developers may respond to limits in one jurisdiction by building in neighboring municipalities without them, so sprawl can continue at the regional scale. This is why regional planning efforts matter for urban sustainability.",
+     "C": "Incorrect. A city usually cannot annex an incorporated neighbor without its consent, and nothing in the scenario suggests it; the many separate local governments are why regional growth is hard to manage.",
      "D": "Incorrect. A growth boundary limits the land available for building, which tends to raise, not lower, housing prices inside it.",
-     "E": "Incorrect. Land outside the boundary is protected from development, so residents cannot move onto it; density inside the boundary tends to rise."
+     "E": "Incorrect. Limiting buildable land usually raises land values, which encourages more compact, denser building inside the boundary."
     },
     "explanation": "A growth boundary only works where it applies. If just the central city has one, builders can go to the suburbs next door that have no limits. Sprawl keeps happening in the region. That is why cities and suburbs often need to plan together."
    }
@@ -4787,8 +5025,9 @@ How the stimulus types render (the JSON holds all of their data):
 
 # Unit 6 bank: data sources and checks
 
-Only two stimuli use real data. Every other stimulus is labeled "Hypothetical data" or "Hypothetical map".
-`python3 u6/verify.py` re-derives every number and computed answer (70 checks). `python3 u6/verify.py --live`
+Two data stimuli use observed statistics: P06 and E02–E03. Other numerical datasets are hypothetical and labeled
+"Hypothetical data". Conceptual model diagrams are simplified redrawings identified by their source lines.
+`python3 u6/verify.py` re-derives every number and computed answer (80 checks). `python3 u6/verify.py --live`
 also re-downloads the two sources below and compares every stored value (last run Nov 8, 2026: 0 mismatches).
 
 ## 1. World Bank urban share: U6-E02 / U6-E03 line chart
@@ -4842,11 +5081,13 @@ carry only the April 2020 estimates base, not the count itself. Claims checked b
 (6.98) and McKinney about 4 times (4.18) from 2000 to 2024; both passed 100,000 by 2010; no city lost population;
 Dallas is the largest.
 
-Definition note (boomburb): the item and its explanation use the working definition "large, fast-growing suburban
-cities of more than 100,000 people that are not the main city of their metro area" ("often called boomburbs"). Lang and
-Simmons' original definition also required double-digit growth in every census from 1970 on. Per the independent check,
-McKinney grew only about 7% in the 1970s (1970: 15,193; 1980: 16,249; figures from the check, not re-verified here), so it
-would not meet that stricter test. No item claims that either city appears on Lang's original list.
+Definition note (boomburb): the item and its explanation use the broader classroom sense of "boomburb": a large,
+fast-growing suburban city of more than 100,000 people that is not the largest city of its metro area. Lang and Simmons'
+original study (2001) looked for sustained double-digit growth since 1950; Lang and LeFurgy's later book (2007) used 1970
+as its starting year ("The starting year in this analysis is 1970, not 1950, as in the original research":
+https://www.brookings.edu/wp-content/uploads/2016/07/boomburbs_chapter.pdf, checked Nov 8, 2026). The table covers
+2000–2024 and does not establish either study's full historical criterion, and no item claims that Frisco or McKinney
+appears on either list.
 
 ## Factual claims outside the stimuli
 
@@ -4862,7 +5103,7 @@ specifics that could not be checked:
   (population product over distance squared); the rank-size rule; primate cities.
 - Boomburb (large, fast-growing suburban city of 100,000+ that is not its metro area's main city; see the definition note
   above); edge
-  city; exurb; megacity (10 million+); metacity (20 million+).
+  city; exurb; megacity (10 million or more); metacity (20 million+).
 - U.S. suburbanization after 1945 (FHA and VA/GI Bill home loans; Federal-Aid Highway Act of 1956); urban interstates
   routed through low-income and predominantly Black neighborhoods; HOLC residential security maps of the 1930s
   (grades A–D, D shaded red); blockbusting.

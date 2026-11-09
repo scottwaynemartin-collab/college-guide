@@ -38,7 +38,7 @@ q(id="U2-E02", n=2, topic="2.2", lo="PSO-2.D", skill="1.B", difficulty="medium",
   explanation="Expensive, specialized services need lots of patients or customers nearby. A big metro area has enough people to keep a specialty hospital busy. A sparse rural county does not, so families travel to the city. This is how population density shapes services like medical care.")
 
 # ---- Set A: Country A pyramid, E03-E05 ----
-q(id="U2-E03", n=3, set="pyrA", topic="2.3", lo="PSO-2.F", skill="3.B", difficulty="easy",
+q(id="U2-E03", n=3, set="pyrA", setLabel="Questions 3–5 refer to the population pyramid below.", topic="2.3", lo="PSO-2.F", skill="3.B", difficulty="easy",
   stimulus=dict(type="pyramid",
     title="POPULATION PYRAMID, COUNTRY A, 2025 (HYPOTHETICAL DATA)",
     ageGroups=AGES, male=PYR_A_M, female=PYR_A_F,
@@ -163,7 +163,7 @@ q(id="U2-E09", n=9, topic="2.7", lo="SPS-2.A", skill="2.D", difficulty="medium",
   explanation="First Singapore wanted FEWER births (antinatalist: \"Stop at Two\"). Fertility fell below replacement level (about 2.1 children per woman). Then the government worried about too few future workers and too many older people, so it flipped to pronatalist: encouraging families who could afford it to have three or more children.")
 
 # ---- Set B: Country B pyramid, E10-E11 ----
-q(id="U2-E10", n=10, set="pyrB", topic="2.9", lo="SPS-2.C", skill="3.B", difficulty="medium",
+q(id="U2-E10", n=10, set="pyrB", setLabel="Questions 10–11 refer to the population pyramid below.", topic="2.9", lo="SPS-2.C", skill="3.B", difficulty="medium",
   stimulus=dict(type="pyramid",
     title="POPULATION PYRAMID, COUNTRY B, 2025 (HYPOTHETICAL DATA)",
     ageGroups=AGES, male=PYR_B_M, female=PYR_B_F,
@@ -271,7 +271,7 @@ q(id="U2-E15", n=15, topic="2.11", lo="IMP-2.D", skill="1.D", difficulty="easy",
   explanation="Asylum seeker = someone who fled to another country, asked for protection, and is still waiting for an answer. If the answer is yes, she may become a recognized refugee. If she had fled but stayed inside her own country, she would be an internally displaced person.")
 
 # ---- Set C: Country M DTM line graph, E16-E17 ----
-q(id="U2-E16", n=16, set="dtmM", topic="2.5", lo="IMP-2.B", skill="3.B", difficulty="medium",
+q(id="U2-E16", n=16, set="dtmM", setLabel="Questions 16–17 refer to the graph below.", topic="2.5", lo="IMP-2.B", skill="3.B", difficulty="medium",
   stimulus=dict(type="line",
     title="CRUDE BIRTH AND DEATH RATES, COUNTRY M, 1800–2025 (HYPOTHETICAL DATA)",
     xLabel="Year", yLabel="Rate per 1,000 people",
@@ -365,7 +365,7 @@ q(id="U2-E20", n=20, topic="2.11", lo="IMP-2.D", skill="1.A", difficulty="easy",
   explanation="Transhumance = moving animals up to cool mountain pastures in summer and back down to the valleys in winter, every year. It happens in the Alps, the Andes, the Himalayas, and parts of Africa.")
 
 # ---- Set D: Country V map, E21-E23 ----
-q(id="U2-E21", n=21, set="mapV", topic="2.1", lo="PSO-2.A", skill="4.C", difficulty="medium",
+q(id="U2-E21", n=21, set="mapV", setLabel="Questions 21–23 refer to the map and information below.", topic="2.1", lo="PSO-2.A", skill="4.C", difficulty="medium",
   stimulus=dict(type="schematicMap",
     title="POPULATION AND MIGRATION IN COUNTRY V, 2000–2020 (HYPOTHETICAL)",
     canvas=dict(width=800, height=420),

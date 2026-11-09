@@ -411,3 +411,72 @@ P.append(dict(id="U2-P42", topic="2.12", lo="IMP-2.E", skill="1.B", difficulty="
     "D": "Children who speak two languages is a cultural effect.",
     "E": "Filling jobs with migrant workers is an economic effect."},
   vocab=["effects of migration", "political effects", "cultural effects"]))
+
+# ---------------- v2026-11-08c additions (coverage gaps named in the ChatGPT Pro review) ----------------
+P.append(dict(id="U2-P43", topic="2.11", lo="IMP-2.D", skill="1.D", difficulty="easy",
+  stem="During a civil war, members of a family in Country R are threatened because of their ethnic group. They cross the border into Country S and ask for protection. Country S approves their claim because they would face persecution if they returned. The family members are now best described as",
+  options={
+    "A": "internally displaced persons",
+    "B": "refugees",
+    "C": "asylum seekers",
+    "D": "guest workers",
+    "E": "step migrants"},
+  answer="B",
+  explanation="Refugees are people who have fled their country because of persecution, war, or violence and who are protected in another country. This family crossed an international border, and Country S approved their claim, so they are refugees. Before the decision, they were asylum seekers. People who flee but stay inside their own country are internally displaced persons.",
+  whyNot={
+    "A": "Internally displaced persons stay inside their own country. This family crossed into Country S.",
+    "C": "Asylum seekers are still waiting for a decision. Once Country S approved the claim, the family became refugees.",
+    "D": "Guest workers are admitted for temporary jobs. This family fled persecution.",
+    "E": "Step migration is a series of moves from smaller to larger places. This family made one move to escape danger."},
+  vocab=["refugee", "asylum seeker", "forced migration"]))
+
+P.append(dict(id="U2-P44", topic="2.11", lo="IMP-2.D", skill="1.D", difficulty="easy",
+  stem="From the 1500s to the 1800s, the transatlantic slave trade carried millions of people from West and Central Africa to plantations and mines in the Americas. Which of the following best describes this movement?",
+  options={
+    "A": "Voluntary migration, drawn mainly by economic pull factors such as plantation jobs",
+    "B": "Chain migration, because each group followed relatives who had moved earlier",
+    "C": "Guest worker migration, because people were recruited for a fixed number of years",
+    "D": "Forced migration, because people were captured and moved against their will",
+    "E": "Step migration, because people moved through a series of larger and larger ports"},
+  answer="D",
+  explanation="The transatlantic slave trade was forced migration: people were captured, enslaved, and shipped across the Atlantic against their will. Your AP course guide lists slavery as a type of forced migration. Its effects still shape the Americas today, including the music, foods, religions, and languages of places such as Brazil, the Caribbean, and the United States.",
+  whyNot={
+    "A": "Voluntary migration means people decide to move. Enslaved people had no choice.",
+    "B": "Chain migration means choosing to follow relatives. These people were taken by force.",
+    "C": "Guest workers agree to work for a set time and are paid. Enslaved people had no such choice.",
+    "E": "People were shipped by force; they did not move step by step on their own."},
+  vocab=["forced migration", "slavery", "transatlantic slave trade"]))
+
+P.append(dict(id="U2-P45", topic="2.12", lo="IMP-2.E", skill="1.D", difficulty="medium",
+  stem="Since the 1950s, many people from India, Pakistan, and what is now Bangladesh have settled in cities in the United Kingdom. Which of the following is the best example of a cultural effect of this migration on those cities?",
+  options={
+    "A": "Many migrants send part of their wages each month to relatives in South Asia.",
+    "B": "Hospitals in these cities hire migrant doctors and nurses to help fill staff shortages.",
+    "C": "Political parties debate whether to raise or lower the number of visas issued.",
+    "D": "The average age of residents in these cities becomes slightly younger.",
+    "E": "Restaurants, mosques, temples, and festivals like Diwali become part of city life."},
+  answer="E",
+  explanation="Cultural effects involve food, religion, language, music, and celebrations. When migrants settle in a city, their traditions become part of its cultural landscape: restaurants, places of worship, shops, and festivals. Over time, people who are not migrants may share in these traditions too.",
+  whyNot={
+    "A": "Money sent home (remittances) is an economic effect, mostly felt in the home region.",
+    "B": "Filling jobs is an economic effect on the destination.",
+    "C": "Debates over visa numbers are a political effect.",
+    "D": "A younger average age is a demographic effect."},
+  vocab=["effects of migration", "cultural landscape", "cultural effects"]))
+
+P.append(dict(id="U2-P46", topic="2.11", lo="IMP-2.D", skill="1.D", difficulty="easy",
+  stem="In 1961, West Germany and Turkey signed an agreement under which Turkish workers came to West Germany to fill factory and construction jobs for a limited time. Under this agreement, the workers were admitted as",
+  options={
+    "A": "guest workers",
+    "B": "refugees",
+    "C": "asylum seekers",
+    "D": "internally displaced persons",
+    "E": "transnational migrants"},
+  answer="A",
+  explanation="Guest workers are people a country admits to work for a limited time. In the 1950s and 1960s, West Germany recruited workers from Italy, Greece, Turkey, and other countries. Recruitment stopped in 1973, but many Turkish workers stayed, and their families joined them, so a temporary flow became a permanent community. Many of these migrants also became transnational, keeping close ties to Turkey.",
+  whyNot={
+    "B": "Refugees flee persecution or war. These workers were recruited for jobs.",
+    "C": "Asylum seekers ask another country for protection. These workers came under a labor agreement.",
+    "D": "Internally displaced persons stay inside their own country. These workers moved from Turkey to West Germany.",
+    "E": "Many of these workers later kept strong ties to both countries, which is transnational, but the agreement admitted them as temporary guest workers."},
+  vocab=["guest worker", "transnational migration", "chain migration"]))

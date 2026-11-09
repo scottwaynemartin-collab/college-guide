@@ -1,0 +1,817 @@
+Title: Review AP Human Geography Bank
+URL: https://chatgpt.com/c/6af0f450-8954-83ea-861d-97d8611f93f1
+Source element: <main>
+---
+Review AP Human Geography Bank
+Share
+You said:
+Pasted markdown(20261108-221443).md
+Document
+Above is a new AP Human Geography Unit 7 (Industrial and Economic Development Patterns and Processes) multiple-choice bank for high school students: practice items about 3 per topic (7.1-7.8) and a 25-item, 25-minute timed exam, 5 options A-E, meant to match the real AP Human Geography multiple-choice section exactly. All items are original; stimulus data is either labeled hypothetical or real World Bank data (sources included). It has had one independent review already. Please review every item as an experienced AP Human Geography item writer and reviewer would: (1) is the keyed answer the single best answer, and is any distractor also defensible; (2) factual and arithmetic accuracy of stems, options, explanations, whyNot lines, rationales, data and source lines; (3) whether each item truly needs its stimulus and fits its stated topic, learning objective and skill under the current AP Human Geography course framework; (4) test-taking tells (absolute words, option length, answer patterns, options that can be ruled out without content knowledge, keys that echo the stem); (5) reading level and clarity for 9th and 10th graders, and respectful, accurate treatment of places and peoples; (6) any important Unit 7 content the bank misses or overweights. Give numbered corrections, most serious first, with item IDs and exact replacement wording. Keep the existing answer letters unless an item is unfixable without changing them.
+…
+Show more
+Worked for 13m 24s
+ChatGPT said:
+Overall verdict
+
+All 57 answer letters can be preserved, but I would revise the bank before describing it as an exact match to the AP Human Geography exam. I reviewed the 32 practice items and 25 exam items, including their options, explanations, whyNot lines, rationales, stimulus specifications, and source notes.
+
+The main problems are unsupported inferences, inaccurate simplifications in feedback, weak stimulus dependence, and distractors that make several “hard” items much easier than their labels suggest. I did not find an item that requires changing its answer letter to repair it.
+
+Your 25-minute timing is appropriate for 25 questions, and the nominal 10 stimulus questions out of 25—40%—fits the published stimulus range. The actual multiple-choice section has 60 questions in 60 minutes, with approximately 30–40% referencing stimuli. Standalone questions are therefore appropriate in this subject.
+College Board
+
+Below, P and E abbreviate the full U7-P and U7-E IDs. Replacement passages are ready to paste unless identified as an optional improvement.
+
+Numbered corrections, most serious first
+1. E13 — The table cannot establish the actual GII ranking without education data. Keep C.
+
+Country L is clearly the intended answer, but the GII also uses women’s and men’s secondary educational attainment, which the table omits. “Best value in every column” is also misleading: a lower male participation rate is not inherently a better result. The relevant comparison is between women’s and men’s participation.
+hdr.undp.org
+
+Replace the stem:
+
+Considering only the indicators shown, which country has the combination most consistent with a low Gender Inequality Index (GII) value?
+
+Add this stimulus note:
+
+Labor force participation rates refer to women or men ages 15 and older who are employed or are seeking and available for work. The GII also uses women’s and men’s secondary educational attainment, which is not shown here.
+
+Replace rationale C:
+
+Correct. Country L combines the lowest maternal mortality and adolescent birth rates, the greatest women’s representation in the legislature, and the smallest difference between women’s and men’s labor force participation rates: 7 percentage points. These indicators are consistent with relatively low gender inequality. Education data would also be needed to determine actual GII values.
+
+Replace rationale A:
+
+Incorrect. Country J has less favorable reproductive-health and legislative-representation indicators than Country L, along with a larger labor force participation gap.
+
+Replace rationale D:
+
+Incorrect. Country M has less favorable reproductive-health and legislative-representation indicators than Country L, and its labor force participation gap is larger: 18 percentage points rather than 7.
+
+Replace the explanation:
+
+Country L has the lowest maternal mortality and adolescent birth rates, the highest women’s representation in the legislature, and the smallest labor force participation gap. These are signs of lower inequality in the measures shown. The table does not include every measure used in the GII.
+
+The other two rationales can remain.
+
+2. P32 — Electricity generated from coal is not the same measurement as coal burned. Keep E.
+
+The percentages and total electricity generation let students calculate electricity generated from coal. Calculating the physical amount of coal burned also requires information about fuel energy content and generating efficiency. E remains the most useful offered information, but the current explanation overstates what it establishes.
+U.S. Energy Information Administration (EIA)
+
+Replace the stem:
+
+A student claims that the graph proves Country K generated less electricity from coal in 2025 than in 2000. Which additional information would be most useful for testing this claim?
+
+Replace the explanation:
+
+The graph shows percentages, not total amounts. Suppose Country K generated 100 units of electricity in 2000 and 250 units in 2025. Coal would provide 62 units in 2000 but 75 units in 2025, because 0.30 × 250 = 75. Coal’s share could fall while electricity generated from coal increases. We need total electricity generation to calculate the amount generated from coal.
+
+Replace the whyNot lines:
+
+Option Replacement
+A “Hydropower’s share does not provide the total electricity generation needed for this calculation.”
+B “Employment in services does not show how much electricity was generated.”
+C “Solar-panel imports do not show how much electricity was generated from coal.”
+D “HDI measures health, education, and income; it does not measure electricity generation.”
+
+No numerical stimulus values need changing.
+
+3. E19 — Specify a proportional productivity advantage. Keep B.
+
+“Its advantage is far greater” is ambiguous: a larger absolute difference in resource requirements does not necessarily establish comparative advantage. Comparative advantage depends on opportunity costs. Also, potential gains from trade should not become a guarantee that any exchange benefits both countries.
+imf.org
+
+Replace the stem:
+
+With the same amount of labor, Country A can produce four times as many laptops as Country B but only twice as much coffee. Assume constant opportunity costs and negligible transport costs. Which specialization follows comparative advantage?
+
+Replace B:
+
+Country A specializes in laptops and Country B in coffee, so both can gain from trade.
+
+Replace rationale B:
+
+Correct. Country A’s relative productivity advantage is greater in laptops, giving it a lower opportunity cost of producing laptops. Country B has a lower opportunity cost of producing coffee. Specializing accordingly and trading at mutually beneficial prices can benefit both countries.
+
+Replace rationale A:
+
+Incorrect. Country A has an absolute advantage in both goods, but comparative advantage depends on opportunity cost.
+
+Replace rationale C:
+
+Incorrect. Country A’s relative productivity advantage is greater in laptops, giving it the comparative advantage in laptops.
+
+Replace rationale E:
+
+Incorrect. Different opportunity costs create opportunities for mutually beneficial trade even when one country has an absolute advantage in both goods.
+
+Replace the explanation:
+
+Country A’s advantage is four to one in laptops but only two to one in coffee. It gives up less by concentrating on laptops. Country B gives up less by concentrating on coffee. They can both benefit if they exchange goods at a price each finds worthwhile.
+
+4. P09 and E10 — Correct the residence basis of GNI. Keep D and E.
+
+“Foreigners” is not interchangeable with nonresidents. A foreign citizen can be a resident, and GNI does not exclude that person’s earnings simply because of nationality. GNI also incorporates net primary income, rather than just adding money received from abroad.
+Economy
+
+P09, replace D:
+
+GDP measures production within a country; GNI adds residents’ income from abroad and subtracts income paid to nonresidents.
+
+P09, replace the explanation:
+
+GDP measures production within a country. GNI starts with GDP, adds primary income residents receive from abroad, and subtracts primary income paid to nonresidents. Primary income includes wages and investment income. The distinction depends on residence, not citizenship.
+
+P09, replace whyNot E:
+
+Both measures aim to include formal and informal economic activity, although some activity may be missed in practice.
+
+E10, replace rationale D:
+
+Incorrect. GDP measures production within a country’s borders. GNI equals GDP plus primary income residents receive from abroad minus primary income paid to nonresidents.
+
+E10, replace the explanation:
+
+GNI per capita divides national income by the population. It is an average, not the amount each person receives. Countries with similar averages can have very different gaps between higher-income and lower-income residents.
+
+To make E10 depend more meaningfully on its table, replace its stem with:
+
+A student uses the table to conclude that nearly every resident of Germany receives more income than nearly every resident of Mexico. Which limitation makes this conclusion unsupported?
+
+The existing options still work, with E correct.
+
+5. E04–E06 — Repair the map set’s assumptions, stimulus dependence, and distance claim. Keep A, D, C.
+
+The intended location logic is sound. The problems are that:
+
+E04–E05 invoke Weber without controlling nontransport costs.
+Their named options let students answer without using the map.
+E06’s distance rationale relies on measuring a schematic drawing.
+E06 overstates how much handling a port location eliminates.
+
+Weber’s model includes transportation, labor, and agglomeration; it is not exclusively a freight-weight model.
+secure-media.collegeboard.org
+
+Replace the shared note:
+
+For Questions 4–5, assume identical labor, energy, land, and other nontransport costs at all five sites. Rail shipping charges the same amount per ton per kilometer for all goods. Ignore inputs not mentioned in the question. The map is schematic and is not drawn to scale.
+
+Add site numbers to the map labels and use the following options for E04–E05:
+
+Option New option text Corresponding map label
+A Site 1 Ore mine — Site 1
+B Site 2 Rail junction — Site 2
+C Site 3 Port — Site 3
+D Site 4 Market city — Site 4
+E Site 5 Small town — Site 5
+
+Use these labels consistently in the map description.
+
+E04, replace the final sentence of the stem:
+
+Under the stated assumptions, which site minimizes the total transport cost of supplying the market city?
+
+E04, replace rationale C:
+
+Incorrect. Moving the ore to Site 3 would require transporting the heavy raw material away from the mine before processing removes most of its weight.
+
+This avoids the current unsupported assertion that the port is not “on the way.”
+
+E05, replace the stem:
+
+A soft-drink company receives lightweight syrup at the port and mixes it with water. Suitable water is available at all five sites, and all finished drinks are sold in the market city. Under the stated assumptions, which site minimizes total transport costs?
+
+“All” removes uncertainty about unspecified other markets.
+
+For E06, the following complete replacement makes the map consequential while retaining C:
+
+Stem:
+
+Imported wheat enters Region R by sea. A company plans to mill it into flour and sell the flour in the market city. Which feature of Site 3 would favor locating the mill there?
+
+Options:
+
+A: It is located within the largest concentration of consumers in Region R.
+B: It has direct rail connections to both the ore mine and the market city.
+C: It connects ocean shipping with inland rail transport, allowing the mill to use existing freight-handling facilities.
+D: It is the only site with a direct rail connection to the market city.
+E: It has the lowest wage rates and land prices of the five potential locations.
+
+Rationales:
+
+A: “Incorrect. The map identifies Site 4, the market city, as the largest concentration of consumers.”
+B: “Incorrect. Site 2, the rail junction, has direct rail connections to the ore mine and the market city.”
+C: “Correct. Site 3 is the port, where ocean shipping connects with inland rail transport. A mill can use existing facilities to receive imported wheat and ship flour inland.”
+D: “Incorrect. The market city also has direct rail connections to the rail junction and the small town.”
+E: “Incorrect. The map provides no information about wages or land prices.”
+
+Explanation:
+
+Site 3 is the port. Imported wheat must be unloaded there, and a mill can use the port’s freight facilities and rail connection. This can reduce handling costs, although the flour still needs to travel to the market city.
+
+6. P02 — Remove a plausible competing explanation and unsupported causal certainty. Keep E.
+
+The current C—colonial powers establishing processing factories—is historically possible. The graph does not establish whether either country was colonized, invented machinery, or borrowed technology. Moreover, the stem supplies the pattern students are supposed to read.
+
+Replace the stem:
+
+Which conclusion about industrial diffusion is most consistent with the trends in the graph?
+
+Replace the options:
+
+A: Country X’s manufacturing share grew faster than Country Y’s after 1875, suggesting faster adoption of industrial technology.
+B: Country Y’s manufacturing share grew at a nearly constant rate throughout the period, suggesting steady industrial change.
+C: Country X’s manufacturing share declined after 1875 as Country Y began attracting more factory production.
+D: Country Y’s manufacturing share had surpassed Country X’s by 1900, indicating an earlier shift toward manufacturing employment.
+E: Country Y’s later acceleration is consistent with adopting industrial technologies developed in countries that industrialized earlier.
+
+Replace the explanation:
+
+Country Y’s manufacturing share rose from 6 percent in 1875 to 29 percent in 1925. Country X’s rose from 27 percent to 31 percent over the same period. This pattern is consistent with later industrializers adopting existing machines and methods. The graph does not identify the technologies used or prove what caused the change.
+
+Replace the whyNot lines:
+
+Option Replacement
+A “After 1875, Country Y gained 23 percentage points, compared with 4 percentage points for Country X.”
+B “Country Y’s manufacturing share grew slowly before 1875 and much faster afterward.”
+C “Country X’s manufacturing share continued to rise after 1875.”
+D “In 1900, Country X’s manufacturing share was 30 percent and Country Y’s was 18 percent.”
+
+The original 12-point versus 6-point calculation is correct; the problem is interpretation.
+
+7. P12 — Distinguish income from production and informality from cash payment. Keep C.
+
+GNI per capita should not repeatedly be described as a production measure immediately after P09 distinguishes it from GDP. Street vending and cash payment also do not automatically make a business informal. National accounts aim to include informal activity; incomplete measurement is the concern.
+World Bank Data Help Desk
+
+Replace the stem:
+
+In Country Z, many people earn income through small, unregistered businesses, including street stalls, repair services, and taxi services. Which of the following best describes a possible effect on the country’s official GNI per capita?
+
+Replace C:
+
+GNI per capita may understate average income because some informal earnings are not fully measured.
+
+In A, D, and E, replace “production” with “average income.”
+
+Replace the explanation:
+
+Official national accounts aim to include both formal and informal economic activity. If some informal earnings are not measured, reported GNI per person can be too low. Informal work still creates income and provides goods and services. Payment in cash does not by itself make a business informal.
+
+Replace whyNot B:
+
+GNI includes residents’ income from domestic economic activity as well as net primary income from abroad.
+
+8. P08 — Do not imply that labor and agglomeration lie outside Weber’s theory. Keep A.
+
+The current explanation uses factors that Weber includes to explain why Weber supposedly fails.
+
+Replace the stem:
+
+A planner applies only the transportation-cost component of Weber’s least-cost theory to a software company and a steel mill. Why is this component less useful for explaining the software company’s location?
+
+Replace the explanation:
+
+Moving heavy inputs and finished products is a major cost for a steel mill. Software can be delivered digitally, so transporting physical goods usually matters less. Skilled workers, investors, and nearby technology firms can matter more. Weber’s full theory also considers labor costs and agglomeration; this comparison identifies a limit of using transportation costs alone.
+
+The current A can remain. B–E are still very weak distractors, so “hard” is not a convincing editorial difficulty estimate.
+secure-media.collegeboard.org
+
+9. P11 and E14 — Correct the GII and labor-force definitions. Keep E and B.
+
+P11 uses an absolute number of maternal deaths where the index uses a maternal mortality ratio. E14’s explanation incorrectly reduces labor-force participation to paid jobs and job seeking. Employment can include self-employment and contributing work in a family business.
+Human Development Reports
++1
+
+P11, replace E:
+
+Maternal deaths per 100,000 live births fell, and women gained a larger share of legislative seats.
+
+P11, replace D:
+
+The gap between women’s and men’s labor-force participation rates widened, with women’s rate remaining lower.
+
+P11, replace the explanation:
+
+A lower GII generally indicates less gender inequality. The index combines reproductive health, empowerment, and labor-force participation. A lower maternal mortality ratio and greater women’s representation in the legislature would tend to lower the index if other measures stayed the same.
+
+P11, replace whyNot A:
+
+GNI per capita is not a GII component. Higher income alone does not establish improvement in the measures used to calculate the index.
+
+P11, replace whyNot D:
+
+A wider participation-rate gap, with women’s rate remaining lower, indicates greater inequality in that component.
+
+E14, replace rationale B:
+
+Correct. Labor force participation includes employed people and unemployed people seeking and available for work. Employment includes self-employment and can include contributing work in a family business. Unpaid caregiving and household services for one’s own household are excluded, so these data do not measure all of women’s economic contributions.
+
+E14, replace the explanation:
+
+The labor force includes people with jobs or businesses and people seeking and available for work. It excludes unpaid cooking, cleaning, and care for one’s own household. Those activities still contribute to well-being, so participation rates do not measure all the work women do.
+
+10. P13 — The chart measures median earnings and worker shares, not equal pay for identical work. Keep A.
+
+The arithmetic is correct, but the feedback blurs four different measures: median earnings, equal pay, women’s share of workers, and women’s labor-force participation.
+
+Replace the title:
+
+WOMEN’S SHARE OF PAID WORKERS AND MEDIAN EARNINGS RELATIVE TO MEN’S, COUNTRY M, 1980–2020 (HYPOTHETICAL DATA)
+
+Replace A:
+
+Women’s share of paid workers rose, but their median earnings remained below men’s in every year shown.
+
+Replace D:
+
+Women’s median earnings equaled men’s once women represented more than 40 percent of paid workers.
+
+Replace the explanation:
+
+Women’s share of paid workers increased from 34 percent to 47 percent. Their median earnings also rose relative to men’s, from 59 percent to 81 percent. The chart shows a narrowing overall earnings gap, but it does not compare women and men doing the same jobs.
+
+Replace whyNot D:
+
+In 2000, women were 42 percent of paid workers, but their median earnings were 68 percent of men’s.
+
+Replace the vocabulary entry “labor force participation” with “women’s share of employment.”
+
+A useful chart note is:
+
+The earnings figures do not control for differences in occupation, hours worked, or experience.
+
+11. E09 and P05 — Keep employment shares separate from counts, income contributions, and the five-sector model. Keep C and B.
+
+E09’s conclusion is correct, but “richer countries have far fewer farm workers” is a claim about counts, which the table does not provide. Its rationale D also tries to infer sources of national income from employment shares.
+
+E09, replace rationale C:
+
+Correct. Among the five countries shown, higher GNI per capita is associated with a smaller agricultural share of employment. Ordered by GNI per capita, the agricultural shares are 62.2, 43.5, 27.0, 12.0, and 1.2 percent. This describes a relationship in this table; it does not establish a cause.
+
+E09, replace rationale D:
+
+Incorrect. The table gives employment shares, not each sector’s contribution to national income or output per worker. It cannot establish which sector is mainly responsible for Germany’s GNI per capita.
+
+E09, replace the explanation:
+
+Order the countries from lowest to highest GNI per capita: Ethiopia, India, Vietnam, Mexico, and Germany. The percentage of workers in agriculture decreases at each step. This compares employment shares, not the total number of agricultural workers.
+
+P05, replace stimulus.text:
+
+These figures use three broad employment groups. Agriculture includes farming, forestry, and fishing. Industry includes manufacturing, mining, construction, and utilities. Services includes activities classified as quaternary or quinary in a five-sector model. Figures are rounded.
+
+This prevents students from equating the dataset’s industry category with the classroom secondary sector.
+
+P05, replace the explanation:
+
+Ethiopia and India have larger agricultural employment shares than Mexico and the United States. Rising agricultural productivity can reduce the number of workers needed to produce a given amount of food. Growing incomes and other economic changes can increase demand for services. These are broad patterns; a large service sector alone does not establish a country’s income level.
+
+P05, replace whyNot A:
+
+The chart gives employment shares, not food-export quantities, so it does not establish this trade pattern.
+
+P05, replace whyNot E:
+
+Services include both low-paid and high-paid activities. A large service sector does not by itself imply lower incomes, and the chart contains no wage or income data.
+
+12. E11 — Present foreign investment as a plausible contributor, not a cause demonstrated by this table. Keep A.
+
+The foreign-investment explanation is credible, but the table does not isolate foreign-owned manufacturing, wages, automation, or the causes of sectoral differences. World Bank research supports the importance of export-oriented foreign firms to Vietnam’s employment growth; that evidence comes from outside this table.
+documents1.worldbank.org
+
+Replace the stem:
+
+Which development most plausibly contributed to Vietnam’s relatively large industrial employment share shown in the table?
+
+Replace rationale A:
+
+Correct. Foreign investment in export-oriented manufacturing has created industrial jobs in Vietnam. This is a plausible contributor to the pattern shown, although the table combines manufacturing with other industrial activities and does not isolate the effect of foreign investment.
+
+Replace rationale C:
+
+Incorrect. Employment per factory alone does not determine industry’s share of all employment. That share also depends on the number of factories and employment in other industrial activities and sectors.
+
+Replace the explanation:
+
+Foreign-owned factories producing goods for export have created jobs in Vietnam. That helps explain its relatively large industrial employment share. The table does not show how much of that share comes from foreign-owned manufacturing rather than other industrial activities.
+
+13. P20 — Keep the correct calculations; make the alternative outputs visible. Keep A.
+
+The opportunity costs are correct:
+
+Opportunity cost Country A Country B
+One bushel of wheat 2 meters of cloth 6 meters of cloth
+One meter of cloth ½ bushel of wheat ⅙ bushel of wheat
+
+However, your rendering instructions do not establish that a table’s description is visibly displayed. Students need to see that a worker produces one listed amount or the other, rather than both simultaneously.
+
+Add a visible note:
+
+Each row shows alternative outputs: a worker devotes the entire day to either cloth or wheat, not both amounts at once. Assume constant opportunity costs and no trade costs.
+
+Replace the explanation’s final sentence:
+
+If they trade at a rate between 2 and 6 meters of cloth per bushel of wheat, both can gain.
+
+Replace whyNot B:
+
+Absolute advantage compares output per worker. Comparative advantage compares opportunity costs, so Country A’s higher output does not eliminate potential gains from trade.
+
+Replace whyNot E:
+
+Both can gain at mutually beneficial trading rates because their opportunity costs differ.
+
+14. P29 — Correct the outsourcing definition. Keep C.
+
+A city can receive outsourced work. The current rejection—“Here the work came to the city”—does not distinguish outsourcing from the multiplier effect. Outsourcing concerns an outside supplier; offshoring concerns location abroad.
+oecd.org
+
+Replace whyNot E:
+
+Outsourcing means hiring an outside company to perform work. The scenario focuses on additional local spending and jobs, not on whether production was contracted to another company.
+
+Replace the explanation:
+
+The multiplier effect occurs when new economic activity leads to additional local spending and jobs. Factory workers spend part of their wages at local businesses, which may then hire more workers. The factory can therefore support jobs beyond its own employees.
+
+For a clearer basic/nonbasic employment connection, change the stem’s first sentence to:
+
+A company opens a large aircraft-parts factory in a small city and sells its products to customers outside the city.
+
+15. P21 and E20 — Distinguish the WTO from a trade bloc and avoid the sweeping organization-origin claim. Keep E and E.
+
+The WTO administers trade rules and provides a negotiating forum; calling it a “free-trade group” obscures its institutional role.
+What we do
+
+P21, replace the explanation:
+
+These changes fit neoliberal economic policy: reducing trade barriers and expanding the role of private businesses. Selling state-owned firms is privatization. The WTO is an international organization whose members negotiate and follow rules for trade.
+
+P21, replace whyNot C:
+
+Central economic planning gives government a major role in directing production and investment. Selling state-owned firms to private investors moves in the other direction.
+
+E20, replace rationale E:
+
+Correct. Mercosur is a regional South American trade bloc formed to reduce barriers among participating states. Its members retain their own currencies, so it is not a monetary union.
+
+This removes the unnecessary claim that the EU, WTO, Mercosur, and OPEC were all created by neoliberal policies and free-trade agreements.
+
+16. P26–P27 — Broaden the SEZ definition and limit the long-term prediction. Keep E and B.
+
+SEZs are not universally foreign-owned export-assembly areas. Their rules and activities vary. China’s early zones also served broader investment and policy-experimentation purposes.
+documents1.worldbank.org
+
+P26, replace the explanation:
+
+A special economic zone is an area where selected business and trade rules differ from those elsewhere in the country. Governments often offer tax incentives or simpler customs procedures to attract investment. In this map, ports and shipping routes give firms convenient access to imported parts and overseas customers.
+
+P26, replace whyNot A:
+
+The map provides evidence of access to ports and shipping routes, but it does not show mineral deposits.
+
+P26, replace whyNot C:
+
+Weber’s theory considers transportation costs, labor costs, and benefits from clustering. It does not predict that factories must locate at a country’s geographic center.
+
+P27, replace the stem:
+
+If the SEZs attract substantial new investment while investment in the interior remains limited, which result is most likely during the initial years of growth?
+
+P27, replace B:
+
+Coastal employment and incomes grow faster, attracting some workers from interior provinces.
+
+P27, replace the explanation:
+
+Concentrating new investment in coastal zones can make employment and income grow faster there than in the interior. New opportunities may attract workers from inland provinces. Regional differences can widen initially, although later investment and government policies can change the pattern.
+
+P27, replace whyNot C:
+
+The map identifies new zones on the coast and gives no evidence that industrial investment will reach the interior first.
+
+The original “next several decades” prediction is stronger than the supplied information warrants.
+
+17. P17, E17, and E18 — Keep the theories distinct without turning them into universal descriptions. Keep C, C, D.
+
+P17’s explanation shifts from describing dependency theory to asserting its account as an uncontested rule. Its whyNot B also implies that core–periphery thinking originated exclusively with Wallerstein, although it predates his work.
+unctad.org
+
+P17, replace the explanation:
+
+Rostow’s model describes development as a sequence of five stages, based largely on the histories of early industrial countries. Dependency theory emphasizes how colonial legacies and unequal economic relationships can limit development in lower-income countries. These are different explanations of development, not rules that every country must follow.
+
+P17, replace whyNot B:
+
+Rostow describes five stages of growth. Core–periphery relationships are associated with dependency and world-systems approaches, not Rostow’s stages.
+
+E17, replace the explanation:
+
+In world-systems theory, semi-peripheral economies combine core and peripheral economic activities. They may control some higher-value production while also supplying lower-wage labor to firms based in the core. Their position is intermediate within global production and trade networks.
+
+“Some factories,” “growing cities,” and “poorer areas” do not adequately distinguish the semi-periphery.
+
+E18, replace rationale D:
+
+Correct. Critics argue that strongly deterministic versions of dependency theory have difficulty explaining the development of former colonies such as South Korea. Its experience shows that unequal international relationships do not make development impossible; state policies, education, investment, and access to export markets also matter.
+
+E18, replace the explanation:
+
+Dependency theory emphasizes how unequal relationships can restrict development. South Korea’s growth shows that these constraints do not make development impossible. Critics argue that the theory can give too little attention to policies and investments that help some countries change their position.
+
+The World Bank’s account of South Korea’s transformation supports including investment, education, infrastructure, and technology rather than reducing its development to trading with wealthy countries.
+World Bank Group
+
+18. P30 and E25 — Avoid defining all nature tourism as ecotourism or dismissing possible negative effects. Keep A and C.
+
+Ecotourism includes conservation, interpretation or education, attention to environmental impacts, and benefits for host communities. Nature tourism alone does not establish those features.
+UN Tourism
+
+P30, replace the final sentence of the stem:
+
+Which outcome would best demonstrate both an environmental and an economic benefit of this change?
+
+P30, replace the explanation:
+
+Well-managed ecotourism combines nature-based tourism with conservation, learning, and benefits for local communities. Tours and locally owned lodges can provide income that depends on protecting the forest. Tourism still needs careful management to limit damage.
+
+P30, replace whyNot C:
+
+Clearing more land could occur, but it would reduce forest habitat rather than demonstrate a conservation benefit.
+
+P30, replace whyNot D:
+
+Tourism could increase demand for beef, but expanding cattle ranching would not demonstrate how tourism helps conserve the forest.
+
+E25, replace rationale D:
+
+Incorrect. Excluding residents can restrict local livelihoods and participation. It is not a requirement of ecotourism or a reliable way to meet its social and economic goals.
+
+E25’s key is defensible. Its main assessment weakness is that C is the only option combining a credible benefit with a credible limitation.
+
+19. E22 — Refine deindustrialization and the import-substitution rationale. Keep A.
+
+The numerical interpretation is correct. However, service-sector growth is not a necessary component of the definition of deindustrialization. A policy intended to support manufacturing can also coexist with declining employment.
+
+Replace rationale A:
+
+Correct. Deindustrialization is a decline in manufacturing’s importance to an economy, commonly measured by its share of employment. Here manufacturing jobs decline from 480,000 to 200,000 while service employment rises, so manufacturing’s share of the jobs shown falls sharply.
+
+Replace rationale C:
+
+Incorrect. The graph does not show import barriers or policies intended to replace imports with domestic production, so it does not establish import substitution.
+
+Replace the explanation:
+
+Manufacturing jobs fell from 480,000 to 200,000, and manufacturing became a much smaller share of the employment shown. That pattern illustrates deindustrialization. Service jobs grew during the same period.
+
+20. Make the following smaller field-level corrections.
+
+These are mostly feedback precision issues, not competing-key problems.
+
+Item Field Exact replacement
+P04 — D Stem “Using the five-sector classification of economic activity, which worker is employed in the quaternary sector?”
+P04 Explanation phrase Replace “Here is the ladder” with “Here are the five categories.”
+P06 — E Explanation opening “Before widespread containerization, general cargo often had to be handled piece by piece when transferred between transport modes. Standard containers reduced that handling.”
+P06 whyNot A “Ore and coal often travel as bulk cargo. Containers are widely used for manufactured and partly manufactured goods.”
+P10 — B PPP column heading “GNI per capita, PPP (international dollars)”
+P10 Explanation opening “GNI per capita is national income divided by population. It does not show how income is distributed.”
+P15 — B whyNot C “Lower fertility can make paid work easier to combine with caregiving. It does not by itself imply that women leave the workforce.”
+P15 whyNot D “Many microcredit programs target women and use alternatives to land as collateral.”
+P15 whyNot E “Quinary activities involve high-level decisions. They are not defined as the lowest-paid jobs.”
+P18 — B PPP column heading “GNI per capita, PPP (international dollars)”
+P18 Export-share heading “Manufactured goods as % of merchandise exports”
+P23 — B whyNot E “The scenario does not say that the loan required land reform. A return to subsistence farming cannot be inferred from the listed conditions.”
+P25 — A whyNot D “A higher U.S. import tariff would make Mexican goods more expensive for U.S. buyers. It would not explain why Mexican factories benefit from being close to the border.”
+P28 — B whyNot C “Fordism emphasizes standardized goods produced in large volumes. This scenario instead emphasizes precisely timed deliveries that reduce inventories.”
+E07 — E Rationale A “Incorrect. Income is included in the HDI, so oil-related income contributes to its income component.”
+E07 Rationale E “Correct. The HDI combines life expectancy, expected and mean years of schooling, and GNI per capita. Strong income results can coexist with weaker health and education results.”
+E08 — B Rationale C “Incorrect. PPP adjusts for price differences; it does not add unpaid caregiving and other household services performed for one’s own household.”
+E15 — E Rationale A “Incorrect. The scenario does not establish an increase in agricultural employment. Its clearest expected demographic association is a decline in fertility.”
+E15 Rationale B “Incorrect. More women completing school and entering paid employment does not establish that women earn more than men. Gender pay gaps can persist.”
+
+The HDI correction above follows UNDP’s distinction between its income, health, and two schooling indicators.
+hdr.undp.org
+
+One additional technical cleanup concerns P07 — C. Much of copper ore’s initial bulk reduction occurs in concentration before smelting. For a cleaner example, replace C with “Concentrating copper ore”, and replace its explanation with:
+
+Copper ore contains a large amount of material that will not become copper. Concentrating the ore removes much of that material. Locating this bulk-reducing step near the mine reduces the weight that must be shipped onward and can lower transportation costs.
+
+This preserves the intended geographic reasoning while correcting the processing description.
+U.S. Geological Survey
++1
+
+21. P24 and E23 — Strengthen the distractors if these are intended to be hard. Keep D and D.
+
+Both keys are good. Their current distractors make implausible assertions about what graphs can show. More demanding alternatives would all name genuinely missing information, with one omission most directly relevant to the question.
+
+P24, replace the options:
+
+A: It does not show whether growth in services offset manufacturing job losses in Metro D.
+B: It does not show how manufacturing wages changed in either location.
+C: It does not separate manufacturing workers by education or training.
+D: It does not identify which firms moved production from Metro D to Province N.
+E: It reports total jobs rather than manufacturing’s share of each workforce.
+
+Corresponding whyNot replacements:
+
+A: “Service growth would help explain Metro D’s wider economy, but it would not establish where manufacturing jobs moved.”
+B: “Wages might explain firms’ incentives, but they would not establish that firms relocated between these places.”
+C: “Workers’ qualifications would not show whether firms transferred production between these locations.”
+E: “Employment shares would show manufacturing’s relative importance, not whether jobs moved between the locations.”
+
+E23, replace the options:
+
+A: It does not show whether service jobs are concentrated in the central city or the suburbs.
+B: It does not separate manufacturing jobs by the types of products made.
+C: It does not identify which service firms are locally owned or foreign owned.
+D: It shows job counts but not earnings, benefits, or whether displaced workers found comparable work.
+E: It does not compare these employment trends with those of other metropolitan areas.
+
+Corresponding rationales:
+
+A: “Incorrect. Job location can affect access to employment, but it does not directly establish how workers’ compensation changed.”
+B: “Incorrect. Product categories do not establish the earnings and benefits associated with the jobs.”
+C: “Incorrect. Ownership alone does not establish workers’ compensation or whether displaced workers found comparable employment.”
+D: “Correct. Employment counts do not establish job quality or what happened to the workers who lost manufacturing jobs.”
+E: “Incorrect. Comparisons with other metropolitan areas would not provide the missing information about these workers’ compensation.”
+22. E03 — Remove the conspicuous WTO anachronism. Keep A.
+
+The example is appropriate, but the WTO option can be eliminated through chronology alone. The rationales also make unnecessarily broad claims about the history of outsourcing and Egyptian processing.
+
+Replace C:
+
+The trade pattern resulted from similar wages and industrial technology in Britain and its colonies.
+
+Replace rationale C:
+
+Incorrect. The example reflects different roles in production and unequal colonial relationships, not similar wages and industrial technology across the trading regions.
+
+Replace rationale B:
+
+Incorrect. The scenario describes cotton processing in British mills, not the relocation of those mills to India.
+
+Replace rationale E:
+
+Incorrect. The scenario describes British mills using imported cotton, not British factories closing and moving to Egypt.
+
+Framework, data, and whole-bank corrections
+23. Adjust the skill tags to describe what students actually do.
+
+The topic/LO assignments are generally defensible. E13 belongs under development measures, and E14 can appropriately address women’s economic roles using the same stimulus.
+
+The strongest retagging recommendations are:
+
+Item Current Recommended Reason
+P03 2.B 2.C Predicts an outcome of industrialization.
+P04 1.A 1.D Applies sector classification to occupations.
+P09 1.A 1.C Compares two geographic measures.
+P11 1.B 1.D Applies an index to a country scenario.
+P20 3.C 3.E Infers comparative advantage from data.
+P22 5.A 1.D Recognizes a government action; it does not analyze scale in a source.
+P28 1.B 2.B Explains supplier location in a production context.
+P29 2.C 1.D Identifies a concept from an outcome already supplied.
+E04–E06 2.C / 2.C / 1.D 4.E after the map revisions Uses a qualitative map to apply location principles.
+E08 1.A 1.B Explains why PPP is used.
+E09 3.C 3.D Compares country patterns.
+E22 3.C 3.E Identifies a process illustrated by data.
+E24 5.D 5.B Explains connections among scales, rather than evaluating explanatory power.
+
+These are best-fit judgments; some neighboring codes overlap. Keep P26’s 4.C. A qualitative schematic map appropriately belongs in Source Analysis; a map is not automatically Skill 3.
+apcentral.collegeboard.org
+
+24. Replace the “exact match” calibration claim and reconsider difficulty labels.
+
+Your current exam tags produce this distribution:
+
+Skill category Current exam Published full-exam range
+Concepts and Processes 8/25 = 32% 25–36%
+Spatial Relationships 9/25 = 36% 16–25%
+Data Analysis 6/25 = 24% 13–20%
+Source Analysis 0/25 = 0% 13–20%
+Scale Analysis 2/25 = 8% 13–20%
+
+The published ranges are for the complete exam, not compulsory quotas for a unit quiz. They nevertheless show why an exact-match claim is too strong. Retagging alone is insufficient; the underlying tasks must warrant the tags.
+College Board
+
+Suggested replacement calibration wording:
+
+Original AP-style Unit 7 practice aligned with the current AP Human Geography course framework. The timed assessment uses five answer choices and 25 questions in 25 minutes. Difficulty labels are editorial estimates pending student piloting.
+
+Specific assessment concerns:
+
+P08, P23, P27, E18, E23, and E24 are easier than their “hard” labels suggest.
+P22 repeats “state” in the stem and its only viable answer. It is acceptable as an easy recognition check.
+E12 has one plausible microfinance mechanism and four mechanisms operating at clearly inappropriate scales.
+E25 has a conspicuous “balanced benefit plus limitation” key.
+P05, P10, E10, E11, and E14 can largely be answered without their particular numerical values. This is not automatically invalid for a limitations question, but these should not all be treated as substantial data analysis.
+The exam has seven quantitative-stimulus questions and three qualitative-map questions. More qualitative source interpretation would improve resemblance to the published format.
+
+Answer positions: The exam has five of each letter and no concerning long runs. However, P06–P10 and P11–P15 repeat the exact sequence E–C–A–D–B. Preserve the requested answer letters; if desired, vary question presentation order while keeping sets together.
+
+25. Preserve the verified arithmetic; repair the source-note rounding ambiguity.
+
+My recomputation found these claims correct:
+
+Item Verified result
+P02 Y increases 12 percentage points during 1875–1900; X’s greatest 25-year increase is 6.
+P13 The earnings ratio rises 9 points in the first interval and 13 in the second.
+P20 Wheat opportunity costs are 2 and 6 meters of cloth; A specializes in wheat.
+E09 Agricultural shares decline at every step when countries are ordered by GNI per capita.
+E09 India’s quoted GNI per capita is approximately 3.17 times Ethiopia’s.
+E13 Participation gaps are J 41, K 32, L 7, M 18, N 42 percentage points.
+E22 Manufacturing employment falls about 58.3%; services rise about 124.2%.
+P32 Under the stated example, coal-generated electricity rises from 62 to 75 units.
+
+I independently confirmed all six quoted GNI PPP values in World Bank DataBank.
+DataBank
++5
+I also confirmed the six agricultural employment shares.
+DataBank
++5
+
+One documentation issue needs attention: SOURCES.md states that Vietnam’s services value is 39.5 (39.55) and that rounding is half-up. Literally rounding 39.55 half-up to one decimal produces 39.6. However, the World Bank’s displayed 2023 value is 39.5, so do not automatically change the student table to 39.6. The parenthetical number may conceal additional API precision.
+DataBank
+
+Replace the rounding sentence with:
+
+Employment shares are displayed to one decimal. Parenthetical values are shown to two decimals; consult the archived API responses for full precision and the rounding method.
+
+Verification limit: I found no confirmed published-data mismatch. I could not cleanly retrieve every remaining employment cell—particularly Ethiopia’s industry/services values and several services figures—or verify the claimed API update timestamp. The export contains descriptions of the scripts and cache, rather than those files themselves. Those exact provenance claims remain unverified.
+
+26. Rebalance content coverage before calling this a comprehensive Unit 7 assessment.
+
+The actual distribution is:
+
+Topic Practice Exam
+7.1 Industrial Revolution 3 3
+7.2 Economic Sectors and Patterns 5 4
+7.3 Measures of Development 4 4
+7.4 Women and Economic Development 3 3
+7.5 Theories of Development 4 3
+7.6 Trade and the World Economy 4 3
+7.7 Changes as a Result of the World Economy 6 3
+7.8 Sustainable Development 3 2
+Total 32 25
+
+All eight topics appear, but topic counts obscure uneven coverage within them.
+
+Highest-priority additions or substitutions:
+
+Complementarity. Comparative advantage is well represented; the distinct supply-and-demand basis for trade is not.
+Economies of scale. It appears repeatedly as a distractor, but students are not meaningfully required to apply it.
+Growth poles and agglomeration. P29 assesses a multiplier effect, and P08 mentions clustering, but these do not provide full direct assessment of both concepts.
+Post-Fordist flexibility beyond just-in-time delivery. P28 covers inventory timing, leaving flexible production and changing production networks thin.
+Development measures beyond GNI/GII. GNP, literacy, infant mortality, and access to health care receive little or no direct assessment.
+Sustainability beyond ecotourism and broad SDG statements. Resource depletion, pollution, mass consumption, and concrete industrial or transportation tradeoffs deserve more attention.
+Economic interdependence during financial crises. P23 examines loan conditions, but not the geographic transmission of a crisis.
+
+These priorities correspond to explicit Unit 7 framework content; a term appearing only as a wrong option should not count as full coverage.
+apcentral.collegeboard.org
++2
+
+For a fixed 25-item exam, I would first replace or substantially strengthen one of the three closely related location questions, one repetitive income-measure question, and E24’s very easy SDG recognition task.
+
+27. Keep the readable tone, but preserve distinctions in the simplified feedback.
+
+The prose is generally accessible for ninth and tenth graders. The main reading-level problem is simplification that changes meaning, rather than excessively difficult vocabulary.
+
+Use these distinctions consistently:
+
+Percentage of workers versus number of workers.
+Median earnings versus equal pay for the same work.
+Employment versus labor-force participation.
+Residents versus citizens.
+A possible explanation versus a cause established by the stimulus.
+A theoretical classification versus a permanent description of a country.
+
+The hypothetical country labels generally avoid stereotyping. The revised theory and gender explanations above also avoid suggesting that lower-income societies simply occupy an inferior “step,” that paid employment is women’s only economic contribution, or that national averages describe everyone’s experience.
+
+Items that can remain substantially as written: P01, P14, P16, P19, P31, E01, E02, and E16. P03 needs primarily a skill-tag adjustment; P04, P06, P10, P18, E07, E08, and E15 need the limited precision edits identified above. E12’s key D and E21’s key B are also defensible; E12 chiefly needs stronger distractors, while E21 is a sound conventional tariff-effects question under its “most likely” wording.
+
+ChatGPT can make mistakes. Check important info.
+Latest response
+
+Thinking effort
+Pro
+Activity
+Subagents
+3 used
+Outputs
+No outputs yet
+
+Tab Context:
+- Executed on tabId: 1294094622
+- Available tabs:
+  • tabId 1294094561: "GeoArcade - Google Sites" ("https://sites.google.com/d/15YHz4-VwGEPYoGj28eP0H044sltAm-ah/p/1WBfhA644Of8chnsNGYIU48UvNWT5WK3u/edit")
+  • tabId 1294094620: "Review Urban Geography Bank" ("https://chatgpt.com/c/6af0f4d2-3d54-83ea-abc0-4441ed935bbf")
+  • tabId 1294094621: "AP World Compass - Google Sites" ("https://sites.google.com/d/1xcbDTqpobWSVle-rqrxADbuIZes6BR7H/p/1Qosy-QR1nvMyorCuo7aBo6p_mfkzXWSh/edit")
+  • tabId 1294094622: "Review AP Human Geography Bank" ("https://chatgpt.com/c/6af0f450-8954-83ea-861d-97d8611f93f1")
+  • tabId 1294094632: "https://raw.githubusercontent.com/scottwaynemartin-collab/college-guide/6cafc8573ff9f690f15a324d1d4a34134d5533fe/practice-exam/CHATGPT_CHECK_U3.md" ("https://raw.githubusercontent.com/scottwaynemartin-collab/college-guide/6cafc8573ff9f690f15a324d1d4a34134d5533fe/practice-exam/CHATGPT_CHECK_U3.md")
+  • tabId 1294094633: "Review AP Geography Bank" ("https://chatgpt.com/c/6af0f507-254c-83ea-9f76-397641532052")
+  • tabId 1294094640: "AP Euro Atlas - Google Sites" ("https://sites.google.com/d/1BUGcdhgjrdIPxrxcbr3ITdMc_SaGp8qI/p/1zftB11zW37Kmm0Xj1RslwtLqFQaTxSEU/edit")
+  • tabId 1294094646: "Review AP Geography Bank" ("https://chatgpt.com/c/6af0f566-ac40-83ea-8919-011502681a06")
+  • tabId 1294094647: "Review AP Human Geography Bank" ("https://chatgpt.com/c/6af0f59d-eecc-83ea-ab2e-7d11d1df7cf1")

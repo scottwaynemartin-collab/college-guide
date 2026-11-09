@@ -1,0 +1,73 @@
+Unit 2 blind answers (independent reviewer, from blind.md only)
+
+U2-P01 C - cold climate / short growing season limits farming at high latitudes.
+U2-P02 A - Egypt arith 117 < NL 534, but phys 3,560 > 1,794.
+U2-P03 D - same people per arable km2, 5x farmers per arable km2 => larger farming share, less mechanized.
+U2-P04 B - Coastal+River Valley = 8.2M + 5.4M = 13.6M of 16.1M (84%); desert 0.42M.
+U2-P05 E - low density => few services nearby, long travel (threshold/access).
+U2-P06 A - overgrazing beyond the land's ability to regrow = exceeding carrying capacity.
+U2-P07 C - groundwater pumping => subsidence.
+U2-P08 B - sex ratio = males per 100 females.
+U2-P09 D - bulge at 55-69 becomes 70-84 in 15 yrs => elder care.
+U2-P10 E - male bars 20-49 far longer than both female bars and child bars => male labor in-migration.
+U2-P11 A - counties differ sharply from national => migration shapes local age structure.
+U2-P12 C - RNI = CBR - CDR, excludes migration.
+U2-P13 B - Germany CBR 8.1 < CDR 12.1 yet +0.3% => net in-migration.
+U2-P14 D - RNI 2.4% => 70/2.4 = 29.2 yrs.
+U2-P15 E - children as farm labor and old-age security.
+U2-P16 A - infant survival depends on water, nutrition, care.
+U2-P17 B - Stage 2: CDR falls, CBR high, rapid growth.
+U2-P18 D - urbanization, girls' schooling, contraception => CBR fall.
+U2-P19 C - infectious/parasitic -> chronic/degenerative.
+U2-P20 E - Eurocentric; imported medicine cut CDR fast.
+U2-P21 A - geometric pop vs arithmetic food.
+U2-P22 D - food index 395 vs pop 265 => food outpaced population.
+U2-P23 B - neo-Malthusians extend to resources/environment.
+U2-P24 C - pronatalist.
+U2-P25 E - aging + male-skewed SRB.
+U2-P26 B - points system selects young skilled workers.
+U2-P27 A - negative association; B (1.9 < 2.1), C (0.7), D (3.1x), E (causation) all false.
+U2-P28 D - delayed marriage/childbearing, opportunity cost.
+U2-P29 C - women's expanded economic roles (e.g., nursing).
+U2-P30 E - (0-14 + 65+) / 15-64.
+U2-P31 C - (9.6+14.4)/40 x 100 = 60.
+U2-P32 A - fewer taxpayers per retiree.
+U2-P33 D - environmental push.
+U2-P34 C - intervening opportunity.
+U2-P35 E - most migrants move short distances (distance decay).
+U2-P36 B - IDPs (stay within country).
+U2-P37 A - step migration.
+U2-P38 D - chain migration.
+U2-P39 E - transnational migrant.
+U2-P40 C - India/Mexico largest $ but 3.7% of GDP; Tajikistan/Tonga/Nepal small $ large share.
+U2-P41 A - brain drain, after paying to train them.
+U2-P42 B - anti-immigration party = political effect.
+
+U2-E01 C - milder climate, longer history of farming/cities/trade in the west.
+U2-E02 A - threshold population for specialized service.
+U2-E03 D - wide base, young, growing.
+U2-E04 B - CBR stays ~40, CDR fell 20->9 => Stage 2.
+U2-E05 E - girls' schooling, health care, contraception.
+U2-E06 C - RNI 2.0% => 70/2 = 35 yrs.
+U2-E07 A - CDR not age-adjusted; Japan old.
+U2-E08 E - Boserup: pressure -> intensification.
+U2-E09 B - below replacement => antinatalist -> pronatalist.
+U2-E10 D - 65+ = 25.5% vs under 15 = 11.7%.
+U2-E11 A - shrinking working age, more retirees.
+U2-E12 C - immigration of 20-40 yr olds adds workers immediately.
+U2-E13 E - male labor migration to mining region.
+U2-E14 B - urbanization, schooling, paid work, contraception.
+U2-E15 D - asylum seeker (pending).
+U2-E16 B - 1825-1875: CDR 35->23 while CBR 38->37.
+U2-E17 E - sanitation, clean water, food supply.
+U2-E18 C - intervening obstacles.
+U2-E19 D - arable 60,000 km2; 60M/60,000 = 1,000.
+U2-E20 A - transhumance.
+U2-E21 E - water, flat fertile land, trade access.
+U2-E22 A - internal rural-to-urban.
+U2-E23 B - environmental push (drought) + economic pull (port/factory jobs).
+U2-E24 D - household uses + national income source.
+U2-E25 C - left-behind elderly and children; farm labor shortages.
+
+Flags (two defensible / none): none found in blind pass.
+Notes for step 3: E25 D is self-contradictory on its face (male out-migration lowers the village sex ratio, not raises it) - fine as a distractor but check rationale.

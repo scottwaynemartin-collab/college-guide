@@ -1,0 +1,831 @@
+ChatGPT Pro review of Unit 1 bank (export at commit 6cafc85, v2026-11-08b before set labels).
+Source: chatgpt.com conversation 6af0f507-254c-83ea-9f76-397641532052 (Chrome tab 1294094633), "Worked for 9m 58s".
+Saved verbatim from get_page_text on Nov 8, 2026 (citation chips from the page appear as plain words such as "College Board").
+
+Review verdict
+
+I would revise this bank before publishing it as an exact AP exam match. I reviewed all 58 items—33 practice questions and 25 exam questions—including their options, keys, explanations, whyNot lines, rationales, numerical stimuli, and map coordinates.
+
+The most consequential problems are:
+
+P26 and E21 confuse geographic extent with the scale at which data are aggregated. Their current wording makes competing answers defensible.
+Several explanations make claims that the supplied evidence cannot establish.
+Both the practice bank and exam contain a conspicuous one-of-each-answer-letter pattern in successive five-question blocks.
+Some questions do not require their accompanying stimulus.
+Several skill tags and difficulty labels overstate the task students actually perform.
+
+Every existing answer letter can be retained with the revisions below. The Mercator and Gall–Peters coordinates are correct; they do not need rebuilding.
+
+For the current framework, College Board identifies the Fall 2020 AP Human Geography CED as the applicable CED for 2026–27. The later corrections document does not establish a new Unit 1 content framework.
+College Board
+
+I abbreviate the item IDs below: P26 means U1-P26, for example. Unless specified otherwise, retain the existing options and answer letter.
+
+Numbered corrections, most serious first
+1. P26 and E21 — Separate map extent from data aggregation
+
+P26: retain A. E21: retain B.
+
+These are the most important corrections. A map can cover the world while presenting nationally aggregated data. Likewise, a study covering Southeast Asia can compare national figures within a regional geographic extent.
+
+College Board's released 2025 scoring commentary explicitly rejects identifying a Finland map as national merely because it shows Finland; the municipal divisions shown require a local/subnational answer. That directly undermines the rule taught in P26's present explanation.
+FRQ 3, Set 2
+
+Replace P26 completely
+
+Stem:
+
+A world map shades each country using that country's average life expectancy. At which scale are the life-expectancy data aggregated for comparison?
+
+Option Replacement
+A National, because each mapped value summarizes one country
+B Regional, because neighboring countries may have similar life expectancies
+C Global, because the display includes countries throughout the world
+D Local, because life expectancy is calculated from records about individuals
+E Regional, because every country belongs to a larger world region
+
+Explanation:
+
+The map covers the world, but each value summarizes one country. The data are therefore aggregated at the national scale. The area displayed and the level at which data are grouped are different things.
+
+whyNot:
+
+B: "Similar values in neighboring countries do not change the fact that each reported value summarizes one country."
+C: "Global describes the map's extent. The map does not combine all countries into one worldwide value."
+D: "Records about individuals were combined into national averages; individual or neighborhood values are not shown."
+E: "The map reports country values rather than averages for larger world regions."
+
+This preserves A's position while correcting its content.
+
+Replace E21's stem and options
+
+This version preserves B = regional and tests actual regional aggregation.
+
+Stem:
+
+A study combines national internet-access data to calculate one rate for Southeast Asia as a whole, then compares that rate with rates for other world regions. At which scale are the comparison data aggregated?
+
+Option Replacement
+A Global, because the regions being compared cover much of the world
+B Regional, because each comparison value summarizes a world region
+C National, because the original figures came from individual countries
+D Local, because internet access can be measured for individual households
+E Global, because the internet connects places throughout the world
+
+Rationales:
+
+A: "Incorrect. Comparing regions across the world does not make each reported value a worldwide aggregate."
+B: "Correct. The study combines country-level figures into values for world regions. The comparison data are therefore aggregated at the regional scale."
+C: "Incorrect. The original figures came from countries, but the study combines them into regional values before making the comparison."
+D: "Incorrect. Household information has been combined into regional rates; individual household values are not compared."
+E: "Incorrect. The worldwide reach of the internet does not determine the aggregation level of the data."
+
+Explanation:
+
+The researchers produce one number for Southeast Asia and compare it with numbers for other world regions. The comparison uses regional data, even though the original figures came from countries.
+
+Keep both items under 1.6 / PSO-1.C / 5.A.
+
+2. P03 — Point N's slope is not established by the map
+
+Retain A.
+
+The contour spacing supports J over K, L, and M. However, N lies outside the lowest displayed contour. The statement that the land there is "nearly flat" is unsupported. Absence of a nearby contour does not, by itself, establish the local slope.
+
+The strongest repair is to put N between two displayed contours:
+
+JSON
+"polygon": [[585, 210], [585, 210], [585, 210]],
+"labelAt": [585, 209]
+
+Replace the description's sentence about N:
+
+Point N is on the east side between the 100-meter and 120-meter contours.
+
+Replace whyNot.E:
+
+The 100-meter and 120-meter contours around Point N are farther apart than the contours around Point J, indicating a gentler slope.
+
+The existing J–M geometry is correct: 18, 70, 38, and 30 pixels, respectively, between the relevant contours. A scale bar is unnecessary for this relative comparison. Closely spaced contours indicate steeper slopes when the contour interval is constant.
+U.S. Geological Survey
+
+3. P25 — Correct "dry farming" and narrow the groundwater conclusion
+
+Retain E.
+
+There are three issues:
+
+Dry farming means farming without irrigation, whereas the note describes irrigation from wells.
+Falling groundwater levels plus steady rainfall recharge do not establish that farmers' pumping alone exceeds rainfall recharge; the water budget includes other inflows and outflows.
+Groundwater is not universally renewable on useful human time scales. Some aquifers contain effectively nonrenewable fossil water.
+lod.nal.usda.gov
++2
+
+Replace the title:
+
+DEPTH TO GROUNDWATER IN AN ARID AGRICULTURAL REGION, 1980–2020 (HYPOTHETICAL DATA)
+
+Replace E:
+
+The falling water table raises concerns about the long-term sustainability of groundwater use.
+
+Replace the explanation:
+
+The water is farther below the surface in each decade. From 1980 to 2020, the water table falls 38 meters. Continued pumping and declining groundwater levels raise concerns about future water supplies. The chart does not directly measure pumping or every way water enters and leaves the aquifer.
+
+Replace these whyNot lines:
+
+B: "Environmental determinism claims that the environment determines human development. This example concerns how resource use can affect water supplies."
+C: "The note says rain adds water to this aquifer. Some aquifers refill very slowly, but groundwater is not always nonrenewable like coal."
+D: "The falling water table raises concerns about continued irrigation; it does not show that pumping can continue indefinitely at the same rate."
+
+The plotted numbers are correct. The problem is their interpretation.
+
+4. E20 — Total population growth does not establish primary-school demand
+
+Retain D.
+
+D is currently the best option, but the feedback treats total population growth as sufficient evidence for new schools. It omits school-age population, existing capacity, and enrollment. It also incorrectly calls more geographically detailed information "smaller-scale data."
+
+Use this revision to make the existing 3.F tag meaningful.
+
+Replacement stem:
+
+The government plans to use these population data to identify districts that may need new primary schools. Which approach best addresses a limitation of the table?
+
+Option Replacement
+A Use national growth to estimate the same increase in school demand in every district
+B Use provincial growth to rule out additional schools throughout Province 2
+C Use each district's total population to determine how many new classrooms it needs
+D Check school-age population and existing school capacity in each district before allocating new classrooms
+E Use percentage growth alone to give every growing district the same number of new schools
+
+Rationales:
+
+A: "Incorrect. The national average hides differences among districts and does not measure changes in the number of school-age children."
+B: "Incorrect. The Capital District grew even though Province 2 declined overall. Provincial totals can hide local needs."
+C: "Incorrect. Total population does not show how many children need primary schooling or how much classroom capacity already exists."
+D: "Correct. The table identifies population change but not school-age population or available classroom capacity. Those additional district-level data are needed to assess school demand."
+E: "Incorrect. Equal percentage growth does not imply equal numbers of additional students, and existing school capacity can differ."
+
+Explanation:
+
+The table tells us where total population grew or shrank. It does not tell us how many primary-school children live there or whether schools have room for them. The government needs those district-level details before deciding where to build.
+
+5. Entire bank — Remove the five-question answer pattern
+
+This is a substantial test-construction problem.
+
+The exam's successive blocks are:
+
+CADBE | ACBED | BACED | ABCED | BAECD
+
+The first 30 practice questions are:
+
+BDACE | BADCE | DACBE | ACDBE | ACBDE | ABCED
+
+Every block contains exactly one A, B, C, D, and E. Neither sequence contains consecutive repeated keys.
+
+Overall balance is fine. This repeated local structure is the problem: students who recognize it can infer an uncertain answer from the other four.
+
+Exact assembly-rule replacement:
+
+Preserve each item's answer key. Order questions without enforcing one of each answer letter in every five items and without prohibiting consecutive repeated letters. Keep shared-stimulus sets together.
+
+One valid exam order, preserving every original ID, answer letter, and set's internal order, is:
+
+Plain text
+E01, E06, E03, E04, E11,
+E18, E19, E20, E02, E22,
+E08, E09, E16, E07, E13,
+E14, E15, E24, E05, E21,
+E10, E12, E25, E23, E17
+
+Use n for the new displayed question number; retain the original IDs for tracking.
+
+6. P17 — Make the chart necessary and avoid treating customer shares as proof of distance decay
+
+Retain C.
+
+The current stem tells students that the chart shows distance decay, then asks about faster transportation. They can select C without examining the chart.
+
+Additionally, the distribution of actual customers does not establish residents' propensity to shop at the store. Population distribution and competing stores could also affect these shares.
+
+A complete replacement that uses the existing chart:
+
+Stem:
+
+Which pair of adjacent distance bands shows the largest decrease in customer share, and which geographic pattern is that decrease consistent with?
+
+Option Replacement
+A From 1–2 km to 2–3 km; distance decay
+B From 2–3 km to 3–4 km; time-space compression
+C From under 1 km to 1–2 km; distance decay
+D From 3–4 km to 4–5 km; time-space compression
+E From under 1 km to 1–2 km; environmental determinism
+
+Explanation:
+
+Customer share drops from 41% in the nearest band to 26% in the next band, a decrease of 15 percentage points. The other decreases are 10, 6, and 3 points. Smaller customer shares at greater distances are consistent with distance decay, although the chart alone does not establish every cause of the pattern.
+
+whyNot:
+
+A: "This decrease is 10 percentage points, smaller than the 15-point decrease between the two nearest bands."
+B: "This decrease is 6 percentage points. The chart does not show a change in travel technology or travel time."
+D: "This decrease is 3 percentage points. The chart does not show a change in travel technology or travel time."
+E: "This identifies the largest decrease, but the chart does not show the physical environment determining human behavior."
+
+For this version, use skill 3.D and a provisional medium difficulty.
+
+7. E08 — Strengthen stimulus dependence while preserving the data-collection objective
+
+Retain B.
+
+The original stem already names "land-cover data," making remote sensing the obvious answer without inspecting the chart. Its GIS distractor is also implausible because it claims GIS creates data without outside sources.
+
+Keep the chart and replace the question as follows.
+
+Stem:
+
+Which method would most directly produce the measurements summarized in the chart?
+
+Option Replacement
+A Recording the positions of public buses with satellite navigation receivers
+B Classifying satellite images and calculating each category's share of county area
+C Surveying residents about their satisfaction with changes in their neighborhoods
+D Collecting census counts of residents and homes in each neighborhood
+E Interviewing farmers about changes in crop yields and production costs
+
+Rationales:
+
+A: "Incorrect. Bus positions describe movement and location, not the area occupied by land-cover categories."
+B: "Correct. Satellite images can be classified into land-cover categories. Measuring each category's area and dividing by total county area produces the percentages shown."
+C: "Incorrect. Residents' satisfaction does not measure the land area occupied by each category."
+D: "Incorrect. Counts of people and homes do not directly measure forest, cropland, wetland, built-up land, and water as shares of county area."
+E: "Incorrect. Crop yields and production costs do not measure the countywide land-cover percentages shown."
+
+Explanation:
+
+The chart compares land-cover percentages in two years. Researchers can classify satellite images from each year, measure the area of each category, and calculate its share of the county.
+
+This preserves 1.2 / IMP-1.B and the ten stimulus-question total.
+
+8. E14 — Do not convert percentages into commuter counts
+
+Retain E.
+
+The explanation says nearby towns send "lots of workers" and distant towns send "only a few." The map supplies percentages, not worker totals. A large distant town could send more commuters than a small nearby town.
+
+Replace the explanation:
+
+Nearby towns send a larger share of their workers to City M, while farther towns send a smaller share. The map does not show total worker counts. The declining share with distance illustrates distance decay.
+
+Replace rationale A:
+
+Incorrect. The map gives distances and commuting shares, not travel times or changes in transportation technology.
+
+That also avoids suggesting that the observed pattern proves time-space compression is absent.
+
+9. P31, P33, E15, E23, and E25 — Remove false universal claims about formal and legal regions
+
+The correct regional classifications remain defensible. The feedback is sometimes broader than the evidence permits.
+
+In particular, "Language regions are not set by law" is false: Article 4 of Belgium's Constitution establishes linguistic regions and provides rules for changing their boundaries.
+dekamer.be
+
+Use these exact replacements:
+
+Item/field Replacement
+P31 whyNot.C "The stem defines the area through patient trips to a hospital, not through a common government jurisdiction."
+P33 whyNot.A "Some formal regions are established by agreements, but no single international rule assigns countries to all geographic regions. These three groupings use different criteria."
+E15 rationale C "Incorrect. The scenario concerns a changing flow to City M. It does not establish a separate region defined by a uniform characteristic."
+E23 rationale D "Incorrect. This map describes the distribution of language use, not a legally defined language jurisdiction. The gradual change in percentages supports a transition zone."
+E25 rationale B "Incorrect. The scenario describes changed traffic flows, not an area delimited by a uniform characteristic."
+
+For P33, the Mexico–United States–Canada economic grouping is valid, and its basis in an agreement is precisely why the original "No law assigns countries to regions" explanation is unsuitable.
+United States Trade Representative
+
+Optional replacement for P33's explanation:
+
+North America is a continental region. Latin America uses cultural and historical criteria, including the influence of Romance languages. The trade grouping is based on an economic agreement. The same country can belong to regions defined for different purposes.
+
+10. P29 and E25 — Correct explanations about connections across scales and relative location
+
+P29: retain E.
+
+The local scale is appropriate, but the wrong-answer feedback incorrectly says global trade and national policies cannot explain neighborhood differences.
+
+Replace P29's explanation:
+
+The study compares neighborhoods within one city, so it needs local data on store locations and residents' travel distances. National policies and global food markets may help explain the differences, but they do not replace the local comparison.
+
+Replace whyNot.A:
+
+Global food markets can affect local conditions, but global data alone would not reveal the neighborhood differences needed for this comparison.
+
+Replace whyNot.C:
+
+National policies can affect store locations, but this question requires data that distinguish neighborhoods within the city.
+
+E25: retain D.
+
+A place's relative accessibility can change without the place physically moving. Reject C for its unsupported claim about increased distance.
+
+Replace rationale C:
+
+Incorrect. Rerouting does not increase the neighborhoods' physical distance from the highway. Their traffic connections may change, but the option's claim that they are farther away is unsupported.
+
+11. P04, P05, E04, and E05 — Tighten projection language
+
+These are precision corrections, not reasons to reject the intended keys.
+
+P04 — Retain C
+
+Replace "14 times larger" with "14 times as large."
+
+Replace C:
+
+The Mercator projection preserves local angles and shapes while enlarging areas increasingly toward the poles.
+
+Replace the explanation:
+
+Mercator's projection preserves local angles and the shapes of small areas. It also shows constant compass-bearing routes as straight lines. Its area distortion increases toward the poles, so Greenland appears much larger relative to Africa than it really is.
+
+Replace whyNot.D:
+
+The standard Mercator is a cylindrical projection. Its increasing area distortion toward the poles does not result from centering the map on the North Pole.
+
+The original "directions true" wording is a common classroom simplification; the revision avoids implying preservation of every direction between distant locations.
+U.S. Geological Survey
+
+P05 — Retain E
+
+Replace E:
+
+An azimuthal equidistant projection centered on the hub airport
+
+Replace the explanation:
+
+An azimuthal equidistant map preserves distance and direction from its center. With the hub airport at the center, the planner can measure distance and direction from the hub to other cities. Distances between two places away from the center are not generally preserved.
+
+"Not generally preserved" is more accurate than saying every off-center distance is distorted.
+
+Replace whyNot.D:
+
+An interrupted Goode's homolosine map preserves relative areas, but its interruptions and distance distortion make it unsuitable for measuring routes from the hub around the world.
+
+E04 — Retain B
+
+Replace rationale E:
+
+Incorrect. A compromise projection balances different kinds of distortion without preserving either relative area or local shape everywhere. Map 2 preserves relative area.
+
+The present wording incorrectly guarantees that compromise projections have only "small" distortions.
+
+E05 — Retain E
+
+Replace rationale D:
+
+Incorrect. The deliberate straightening of routes and equal spacing of stations are design choices. Projection distortion does not explain that pattern.
+
+A city's small extent does not automatically guarantee negligible distortion under every projection.
+
+12. P07 — Ordinary thematic maps do not necessarily preserve true country areas
+
+Retain A.
+
+The whyNot lines for choropleth and dot-density maps claim that these preserve "true" country sizes. Their underlying projections can distort area.
+
+Also, some cartograms preserve individual shapes while resizing and separating them.
+
+Replace the explanation:
+
+A cartogram changes each area's displayed size to represent a variable such as population. Because India has more people than Canada, a population cartogram draws India larger. Depending on the design, a cartogram may also change shapes and relative positions.
+
+Replace whyNot.B:
+
+A choropleth map uses shading to represent values within areas; it does not resize those areas to represent population.
+
+Replace whyNot.D:
+
+A dot density map uses repeated symbols to represent quantities; it does not resize countries to represent population.
+
+13. P06 — Remove the unsupported causal claim about Adams County
+
+Retain B.
+
+All rates are correct. The explanation's assertion that Adams has the most openings "only because" it has the most people is not established by the table.
+
+Also specify the shading convention in the stem.
+
+Replacement stem:
+
+A student wants to make a choropleth map showing new business openings per 1,000 residents, using darker shading for higher rates. Based on the table, which county should be shaded darkest?
+
+Replacement explanation:
+
+To compare business openings relative to population, divide each county's new businesses by its number of residents. Baker has 480 openings for 60,000 residents, or 8.0 per 1,000—the highest rate. Adams has the largest total, but its rate is only 3.5 per 1,000.
+
+14. P13 — GIS use alone does not establish clustering along busy roads
+
+Retain C.
+
+The stem describes inputs to a decision, but supplies no results establishing that the selected sites form clusters. Coffee shops also do not universally depend on passing automobile traffic.
+
+Replace C:
+
+New stores are located where customer characteristics and access suggest strong demand.
+
+Replace the explanation:
+
+GIS helps the company compare customer characteristics, access, and competing stores. Combining these factors can help it choose locations likely to attract customers. The information does not require stores to be evenly spaced or clustered along busy roads.
+
+Replace whyNot.A:
+
+Even spacing is not a necessary result of comparing demand, access, and competition; these conditions can differ among neighborhoods.
+
+Replace whyNot.D:
+
+Locating stores far from busy routes could reduce access to likely customers. The company would need to evaluate access together with customer demand and competition.
+
+To reduce the conspicuous absolute-language tells, also replace:
+
+B: "New stores are concentrated in neighborhoods with the lowest property costs."
+E: "New stores are located in the census tracts with the greatest total population."
+
+Their feedback should explain that each uses only one consideration rather than the combination described.
+
+15. P12 — Qualify the school-siting inference
+
+Retain A.
+
+Riverside has the largest 2020 count, largest absolute increase, and largest percentage increase. There is no competing numerical key.
+
+However, the explanation cannot conclude that a new school there necessarily "would serve the most students."
+
+Replace the explanation:
+
+Riverside increased from 650 to 1,480 children under age 5, more than doubling. It has both the largest increase and the largest 2020 total. If other factors are similar, these data suggest the strongest growth in future elementary-school demand.
+
+That is sufficient for the simplified decision in the stem.
+
+16. P14 — Improve the floodplain definition and feedback
+
+Retain B.
+
+The geometry is correct, and moving the school is the best-supported option. The current explanation is too dismissive of risk outside the mapped floodplain.
+
+Replace the legend label:
+
+Area covered by the 1%-annual-chance flood, often called the 100-year floodplain
+
+Replace the explanation:
+
+The school is inside the mapped floodplain. A flood of this size or larger has a 1% chance of occurring in any given year. Moving the school to higher ground outside this area would reduce its exposure to the mapped river-flood hazard.
+
+This states the recurrence probability correctly.
+U.S. Geological Survey
+
+Replace whyNot.A:
+
+The hospital is outside the mapped floodplain, while the school is inside it. The map more directly supports reducing the school's exposure.
+
+Replace whyNot.E:
+
+These homes are outside the mapped floodplain. The map does not show the same level of exposure there as at the school, although areas outside a mapped floodplain can still flood.
+
+17. E10 — Qualify the reapportionment prediction
+
+Retain D.
+
+D is already the strongest answer because the stem asks what is most likely. Nevertheless, faster-than-average growth does not guarantee an additional House seat. Allocation uses state populations and a seat-allocation formula, with whole-number thresholds.
+census.gov
+
+Replace D:
+
+State A may gain House seats, while State B may lose a seat if its share of the national population falls.
+
+Replace rationale D:
+
+Correct. House seats are reapportioned after the decennial census using state populations and an allocation formula. Faster growth relative to other states can produce a seat gain, but growth does not guarantee that a state's number of seats will change.
+
+Replace rationale C:
+
+Incorrect. Census data can change representation and guide redistricting, but they do not redraw state boundaries.
+
+Replace the explanation:
+
+The census helps divide the 435 House seats among the states. A state whose share of the national population increases may gain a seat, while a state whose share falls may lose one. A state can also keep the same number of seats.
+
+18. P18 and E19 — Keep observed patterns separate from possible causes
+
+P18: retain D.
+
+The table demonstrates shorter travel times. It does not measure interaction or establish that distance decay has weakened.
+
+Replace whyNot.A:
+
+Distance decay concerns changes in interaction with distance. This table gives travel times between the same two cities, not interaction at different distances.
+
+Replace whyNot.C:
+
+The table connects shorter trips with changing transport technology. It does not show the environment determining how a society develops.
+
+E19: retain E.
+
+The speculative River/Hill-to-Capital migration example is explicitly conditional, so it is not a factual error. It is nevertheless unnecessary in a question that rejects other answers for unsupported causal claims.
+
+Replace rationale E:
+
+Correct. The Capital District grew by 6.0 percent while Province 2 as a whole declined by 5.0 percent. District-level data reveal variation hidden by the provincial total.
+
+Replace rationale D:
+
+Incorrect. The table gives total population, not births, deaths, or migration, so it cannot identify the cause of growth.
+
+19. E22 and P32 — Do not infer more agreement or boundary certainty than the evidence shows
+
+E22: retain A.
+
+Overlapping drawings do not mean everyone agrees about the center. Differing drawings also do not prove that no official boundary exists.
+
+Replacement rationale B:
+
+Incorrect. The item defines the region through residents' mental maps, not through a specified elevation threshold.
+
+Replacement rationale D:
+
+Incorrect. The item describes residents' perceptions rather than an official administrative boundary.
+
+Replacement explanation:
+
+People may share a general image of a region while drawing its edges differently. These differing mental maps illustrate a perceptual region.
+
+P32: retain C.
+
+The survey supports a broad transition in perceptions; it does not establish every individual's boundary.
+
+Replacement explanation:
+
+"Up North" is a perceptual region because it depends on how people understand a place. The percentages rise across the counties, and residents disagree within the same counties. The results support a broad transition in perceptions rather than one boundary accepted by everyone.
+
+Replacement whyNot.A:
+
+The survey does not establish an agreed boundary between Birch and Cedar. Responses vary within both counties and rise across several counties.
+
+Replacement whyNot.E:
+
+The table does not show a shared boundary at the capital. It shows differing perceptions across counties to the north.
+
+20. P22 — Explain human agency more carefully
+
+Retain C.
+
+"People changed nature, which is the opposite" of determinism is too simple. The relevant distinction is human choice among possibilities.
+
+Replace these whyNot lines:
+
+A: "The example emphasizes decisions and technology that changed how people could use low-lying land. It does not show that nature forced one outcome."
+B: "The sea constrained land use, but human choices and engineering changed what was possible."
+D: "The project changed the wetland and coastal environment. The stem does not establish whether that change was sustainable over the long term."
+
+P21's basic definition and P24's criticism of environmental determinism are otherwise suitable for this level.
+
+21. P01 and E02 — Clarify graduated versus proportional symbols
+
+P01 retains B; E02 retains A.
+
+This is a terminology refinement, not a wrong-key finding. In precise cartographic usage, graduated symbols represent classes or ranges, while proportional symbols scale to individual values.
+Documentation
++1
+
+P01 whyNot.C:
+
+Circles sized by population make this a thematic symbol map.
+
+E02 option A:
+
+A graduated symbol map with airport circles grouped into passenger-count ranges
+
+E02 rationale A:
+
+Correct. A graduated symbol map uses different symbol sizes for ranges of values. Placing the circles at airports shows where passenger totals are higher or lower.
+
+E02 explanation:
+
+Each airport receives a circle whose size represents its passenger-count range. Larger circles identify airports in higher ranges.
+
+22. P02, P11, P15, P16, and E06 — Make small but useful accuracy corrections
+
+These do not change any keys.
+
+Item/field Exact replacement
+P02 explanation "On a dot density map, each repeated symbol represents the same quantity. Here, each square represents 10 farms. More squares in an area indicate more farms there; a square does not show the exact location of one farm."
+P02 whyNot.E "A cartogram resizes areas to represent a quantity. This map uses repeated symbols instead."
+P11 explanation "A satellite navigation system such as GPS uses satellite signals to estimate a receiver's location. The receiver on each bus can record its position at regular intervals. That is Data set 4."
+P15 whyNot.C "Images alone do not reveal how many people lived inside each building. Detailed occupancy records or field checks would be needed."
+P16 explanation "Absolute location identifies a place using coordinates or an address. The latitude and longitude in A identify a position. The other choices describe where a place is in relation to another place."
+E06 stem "A delivery app shows customers their driver's current position as the driver moves through the city. The app most directly relies on which geospatial technology to find the driver's position?"
+E06 explanation "GPS uses signals from satellites to estimate a phone's location. The driver's phone sends its location to the app, which displays it on a map."
+E06 rationale D "Incorrect. Interviews would not continuously estimate the location of a moving phone."
+
+The last change also avoids implying that interviews can produce only qualitative information.
+
+23. E15 — Preserve the conditional nature of the prediction
+
+Retain D.
+
+Faster transportation makes increased commuting plausible; it does not guarantee that more people take jobs in City M.
+
+Replace the explanation:
+
+A faster train reduces the travel time from Town F to City M. That could encourage a larger share of Town F's workers to take jobs in City M. If the share reaches 25%, Town F would meet this map's rule for inclusion in the commuting region.
+
+The 25% threshold is a rule selected for this hypothetical map. Do not describe the town-based diagram as a complete application of official metropolitan-area delineation standards.
+
+24. Schematic-map captions — Preserve accessibility while reducing visible interpretation clues
+
+P02, P03, P14, and E03–E04 have descriptions that let students answer through prose rather than visual interpretation.
+
+That is not automatically a flaw in an accessible alternative description. It does weaken the claim that the sighted presentation measures map-reading skill when the detailed interpretation is displayed directly beneath the map.
+
+Use a neutral visible caption and retain a separate equivalent accessible description.
+
+Suggested visible captions:
+
+Stimulus Caption
+P02 "Each square represents 10 dairy farms. Symbol placement shows the approximate distribution of farms."
+P03 "Contours connect points of equal elevation. The contour interval is 20 meters. North is at the top."
+P14 "The map combines building locations with the mapped 1%-annual-chance floodplain. North is at the top."
+E03–E04 "Both grids show parallels at 15° intervals from 75° S to 75° N and meridians at 30° intervals. The dashed horizontal line is the equator."
+
+For E03–E04, adding 0°, 45°, and 75° latitude labels would improve readability. Do not identify the projection names in the pre-answer caption or source line.
+
+25. Skill metadata — Retag the task performed, not the topic's suggested skill
+
+The topic and LO assignments generally fit. The clearest metadata weakness is assigning data analysis to questions that primarily identify a concept in a described situation.
+
+These are my recommended principal-skill assignments, using the CED's skill distinctions. They are editorial best fits; adjacent tags are sometimes reasonable.
+apcentral.collegeboard.org
+
+Item Current Recommended
+P07 3.A 1.D
+P08 1.A 1.D
+P10 3.A 1.D
+P11 3.A 1.D
+P14 4.C 4.E
+P17, using replacement above 2.C 3.D
+P19 1.A 1.D
+P30 1.A 1.D
+E01 3.A 1.D
+E02 3.A 1.D
+E07 1.A 1.D
+E12 1.B 1.D
+E14 3.B 3.E
+E18 5.B 5.C
+E20, using replacement above 3.F Retain 3.F
+
+Do not mechanically assign each item the "suggested skill" printed on its topic page.
+
+26. Distractors and difficulty — The main tell is implausibility, not option length
+
+I did not find a pervasive longest-answer problem: only two exam keys are uniquely the longest option by a straightforward word count. Forcing identical lengths would not improve this bank much.
+
+The larger problems are obvious reversals, impossible claims, and excessive certainty:
+
+P04 B: Greenland's ice sheet causing projection enlargement.
+P13: "whatever the traffic or customers" and "even where few people pass by."
+P24: determinism presented as a new, untested idea.
+E15: faster rail supposedly making the trip longer.
+E24: regional boundaries changing every year or with each day's trade.
+
+The revisions above address several of these. For E24, retain C but replace the two most conspicuous distractors:
+
+A:
+
+The region has one official boundary, but some organizations use outdated maps.
+
+B:
+
+The region is organized around trade flows to a single central city.
+
+Replacement rationale A:
+
+Incorrect. There is no single universally accepted boundary for the Middle East; organizations can use different defining criteria.
+
+Replacement rationale B:
+
+Incorrect. The region is not defined here by flows to one central city. The question concerns different criteria used to select its member countries.
+
+Treat difficulty labels as provisional. E19 is a direct comparison of +6% and −5%; E15 is an uncomplicated transportation prediction. Neither deserves a confident "hard" designation without student-response evidence.
+
+Suggested metadata wording:
+
+Difficulty labels are editorial estimates and have not been calibrated using student-response data.
+
+27. Coverage and calibration — Change the "exact match" claim
+
+The current AP multiple-choice section has 60 questions in 60 minutes, includes both individual and set-based questions, and places approximately 30–40% of questions on stimuli, with quantitative and qualitative materials roughly balanced. Your pacing and five-option structure are appropriate, and 10/25 = 40% is within that stimulus range.
+College Board
+
+However, the bank does not reproduce the full exam's skill or stimulus balance.
+
+Using the stored tags, before the corrections above:
+
+Skill category Exam items Share
+Concepts and processes 10 40%
+Spatial relationships 4 16%
+Data analysis 6 24%
+Source analysis 2 8%
+Scale analysis 3 12%
+
+The official full-exam ranges are 25–36%, 16–25%, 13–20%, 13–20%, and 13–20%, respectively. Those are not mandatory quotas for every unit test, but they make an "exact" replication claim inappropriate.
+College Board
+
+The stimuli are also predominantly quantitative: land-cover percentages, commuting percentages, and population tables. The projection pair supplies the clearest qualitative visual analysis.
+
+Replace the calibration language with:
+
+Original AP Human Geography Unit 1 practice aligned to the course framework. The timed assessment follows the AP multiple-choice format and pacing, with five answer choices and a mixture of individual and stimulus-based questions. It is not an official College Board exam, and its difficulty has not been statistically equated to the AP Exam.
+
+Actual topic coverage
+Topic Practice Exam
+1.1 Introduction to Maps 7 5
+1.2 Geographic Data 4 3
+1.3 The Power of Geographic Data 4 3
+1.4 Spatial Concepts 5 4
+1.5 Human–Environmental Interaction 5 3
+1.6 Scales of Analysis 4 3
+1.7 Regional Analysis 4 4
+Total 33 25
+
+The most useful coverage improvements are:
+
+A genuine clustered/dispersed/linear-pattern interpretation task.
+Direct field observation as the best method, rather than mainly a distractor.
+A qualitative landscape or photograph that students must interpret.
+A clear distinction among map extent, data aggregation, and cartographic scale.
+Flow-map interpretation beyond recognizing that commuting creates a functional region.
+A limitation involving what aggregated data can establish about individuals or smaller places.
+
+The bank already gives considerable attention to projection identification, technology identification, and determinism/possibilism. Additional named projections are a lower priority than these gaps.
+
+28. SOURCES.md — Repair the Greenland source link and distinguish computed geometry from hypothetical data
+
+The cited CIA Greenland archive link now redirects to the CIA's announcement that the World Factbook has ended. It no longer retrieves the cited country summary. The MIT-hosted archived comparison table already used for P07 also contains Greenland's 2,166,086 km² figure.
+cia.gov
++1
+
+Replace the Greenland source text with:
+
+Greenland: 2,166,086 km². CIA, The World Factbook, archived "Country Comparison: Area," hosted by MIT.
+
+Use the existing accessible MIT-hosted archived table.
+
+For the projection source note, use:
+
+Original spherical graticules computed from the standard Mercator and cylindrical equal-area equations. The Gall–Peters grid uses standard parallels at 45° N and 45° S. Coordinates are rounded to one decimal pixel.
+
+The formulas and Gall–Peters standard parallels agree with the technical references.
+pubs.usgs.gov
++1
+
+For the commuting verification note, use:
+
+The hypothetical boundary includes towns whose share of workers commuting to City M is at least 25%, using the rule selected for this map.
+
+That is more defensible than treating the town diagram as verification against a complete official metropolitan-area standard.
+
+Numerical and map checks that passed
+
+These are results from recomputing the supplied data and coordinates.
+
+Item/stimulus Verified result
+P02 22 eastern squares and 4 western squares: 260 farms total
+P03 J–M contour gaps match the stated 18, 70, 38, and 30 pixels
+P04/P07 source arithmetic Using the supplied area figures, ratios are approximately 14.02 and 3.04
+P06 Openings per 1,000 residents: 3.5, 8.0, 6.0, 4.5, 3.0
+P12 Riverside gains 830 children, approximately 127.7%; it leads both growth measures and the 2020 count
+P14 Eight homes and the school lie within the shaded floodplain; the hospital lies outside
+P17 Customer shares total 100%
+P25 Depth increases from 20 to 58 meters: a 38-meter fall in the water table
+P27 Regional unemployed counts total 600,000 out of a 10-million labor force: 6.0%
+E03–E04 Both projection grids match their formulas; maximum stored-coordinate rounding error is under 0.04 pixel
+E08–E09 Each year totals 100%; built-up land increases by 16 percentage points
+E13–E15 Town distances match the intended values within negligible coordinate rounding; A–D are inside the boundary and E–F outside
+E18–E20 Provincial totals reconcile to the country, districts reconcile to Province 2, and all displayed percentage changes are correct
+
+E03's D and E04's B are correct. The Gall–Peters grid's shape distortion poleward of its 45° standard parallels supports the high-latitude flattening answer. The problem is not the mathematics or aspect ratio.
+
+Items requiring no further substantive content correction
+
+Beyond the metadata and general construction points above, I found no additional substantive defect in:
+
+Practice: P08—D, P09—C, P10—E, P19—B, P20—E, P21—A, P23—B, P24—D, P27—B, P28—C, and P30—D.
+Exam: E01—C, E03—D, E07—C, E09—E, E11—B, E12—A, E13—C, E16—A, E17—B, and E18—C.
+
+The language is generally accessible to ninth and tenth graders, and I found no material stereotyping or disrespectful treatment of places or peoples. The Middle East item appropriately treats regional definitions as contested, and the environmental-determinism discussion appropriately rejects ranking societies.
+
+The required work is concentrated in scale, evidentiary precision, and assessment construction. The numerical foundation is sound, and all original answer letters are recoverable. This review covers the exported content and coordinate geometry; final font size, label overlap, and mobile readability still require checking in the rendered page.
+
+ChatGPT can make mistakes. Check important info.

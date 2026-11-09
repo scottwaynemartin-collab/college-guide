@@ -1,0 +1,73 @@
+Unit 3 FINAL blind check (v2026-11-08c) - answers from blind.md only, before opening key.txt
+
+PRACTICE
+P01 A - each example is one single learned behavior/practice = culture trait.
+P02 B - Student 2 tries to understand the custom in its own context = cultural relativism.
+P03 D - shared, learned, passed between generations; B is learned but individual, not shared.
+P04 B - church->mosque with old windows kept + new sign = layered imprints of successive groups.
+P05 E - Anangu beliefs/ownership changed how the landscape is used; A, D contradict the stem.
+P06 C - mixing past styles playfully = postmodern architecture.
+P07 A - more working women -> more childcare near work/transit; B, C, E point the wrong way.
+P08 E - shared national language as a common identity = centripetal.
+P09 D - minority language excluded + mountain barrier -> devolution/self-rule pressure.
+P10 C - murals/park express local identity = placemaking, sense of place.
+P11 B - only option that explains a centrifugal mechanism; A factually false, D absolute.
+P12 C - the arrow is merchants migrating and carrying the religion = relocation.
+P13 E - adoption year rises strictly with distance (20,25,60,120,180,200 km), not size (City R 900k adopts in 2004 after Village S).
+P14 A - core idea kept (fast food), product changed to local religious rules = stimulus diffusion.
+P15 D - small towns -> mid-sized cities -> largest city = reverse hierarchical; B unsupported (no distances given).
+P16 B - Swahili used across many first languages for trade/school/government = lingua franca.
+P17 C - pidgin becomes children's first language = creolization.
+P18 A - Iberian division of colonial claims (Tordesillas); E wrong (Portugal, not Spain).
+P19 E - Muslim traders on Indian Ocean routes; local rulers converted.
+P20 D - every country rose; gap remains (95 vs 41). B false (Nigeria 41), C false (gap 66->30), E false (US +27, India/Brazil +63).
+P21 B - coining native words to avoid English loans = resisting convergence.
+P22 E - global spread by media + local adaptation (glocal).
+P23 A - youth out-migration + urban language use -> endangerment.
+P24 C - Hinduism: ethnic, followers in India/Nepal near hearth; Judaism is ethnic but split Israel/US.
+P25 D - names record Caddo, Spanish, German groups over time.
+P26 B - Anatolian hypothesis = spread with farming from Anatolia; A and C swap the two hypotheses.
+P27 E - Austronesian speakers crossed the Indian Ocean by boat = relocation.
+P28 B - universalizing religions seek converts from all cultures.
+P29 C - Sikh migration from Punjab = relocation diffusion.
+P30 D - acculturation = adopting some traits; assimilation = merging into dominant culture. (Wording of D's assimilation half is soft; see report.)
+P31 A - Language F at home 92->55->14 while festival 88->70->52 (still a majority in gen 3). B false (52% still celebrate).
+P32 A - Catholic holy days + Indigenous customs blended = syncretism.
+P33 C - mutually intelligible regional varieties = dialects.
+P34 E - weighted national B = 14.7% (rounds to 15), but East is 82% B; 56% of all B speakers live in East.
+P35 D - gender/safety concerns shape design and use of public space.
+
+EXAM
+E01 C - related traits forming a set = culture complex.
+E02 A - judging another culture by her own standards = ethnocentrism.
+E03 D - adoption follows population rank exactly (9M, 4M/3M, 0.8M/0.6M, 20k, 15k).
+E04 C - Fenn is close (~122 km) but small; Benn/Cora far (~451-468 km) but big = hierarchical.
+E05 E - time-space convergence -> faster spread, less tied to city size.
+E06 A - idea of writing borrowed, new system invented = stimulus diffusion.
+E07 B - shared language between speakers of different first languages = lingua franca.
+E08 E - Portuguese colonization; Timor-Leste restored Portuguese at independence.
+E09 B - colonial contact language with French vocabulary, own grammar, native speakers = creolization.
+E10 D - successive groups leave layered imprints = sequent occupance.
+E11 A - Vietnamese parish, restaurants, signs = ethnic neighborhood shaping space. (Only option without "because"; see report.)
+E12 B - local materials adapted to hot/dry climate = traditional/folk architecture.
+E13 C - language division -> devolution = centrifugal.
+E14 E - festivals + immersion = placemaking / regional sense of place.
+E15 D - centripetal nationally, tension locally.
+E16 A - Religion P: 94% in hearth, 1 region, no converts.
+E17 E - no converts but 55% outside hearth across 4 regions = migration/relocation.
+E18 C - table has percents and region counts, no follower totals.
+E19 B - common Proto-Indo-European ancestor.
+E20 A - Buddhism universalizing with missionaries/traders; Hinduism ethnic.
+E21 E - drops -36, -30, -20, -15 points; steepest for ages 10-19.
+E22 D - online minority-language media = cultural divergence/revitalization.
+E23 C - time-space convergence.
+E24 B - Yoruba orichas + Catholic saints = syncretism.
+E25 D - multiculturalism keeps many groups' centers/festivals visible.
+
+Exam letter count (my answers): A5 B5 C5 D5 E5.
+
+FLAGS FROM BLIND PASS (no item had two fully defensible answers or none):
+- P30: D is clearly best, but "becoming less distinct" also describes acculturation; tighten.
+- E11: stem says "statement" but options are concept phrases; A is the only option without "because" (structural tell).
+- E24: "brought this religion" can be read as Santeria itself, which formed in Cuba.
+- P35: Tokyo had women-only cars in 1912 and 1947 for other reasons; "began doing this in response to harassment" needs "in the 2000s"/"expanded" (verify in step 3).

@@ -13,11 +13,12 @@ sys.path.insert(0, str(H))
 sys.dont_write_bytecode = True
 import verify  # noqa: E402
 
-ns1, ns2, ns3 = {}, {}, {}
+ns1, ns2, ns3, nsp3 = {}, {}, {}, {}
 exec((H / "p1.py").read_text(encoding="utf-8"), ns1)
 exec((H / "p2.py").read_text(encoding="utf-8"), ns2)
+exec((H / "p3.py").read_text(encoding="utf-8"), nsp3)
 exec((H / "exam.py").read_text(encoding="utf-8"), ns3)
-practice = ns1["P"] + ns2["P"]
+practice = ns1["P"] + ns2["P"] + nsp3["P"]
 exam = ns3["E"]
 
 
@@ -43,8 +44,29 @@ st = byid["U7-E09"]["stimulus"]
 assert st["rows"] == "@@WDI_ROWS@@" and st["description"] == "@@WDI_DESC@@"
 st["rows"], st["description"] = rows, desc
 
+# review fixes (ChatGPT Pro review, Nov 8): whole-field replacements keyed by ORIGINAL option letters
+nsf = {}
+exec((H / "fixes1.py").read_text(encoding="utf-8"), nsf)
+nsf2, nsfe = {}, {}
+exec((H / "fixes2.py").read_text(encoding="utf-8"), nsf2)
+exec((H / "fixes_e.py").read_text(encoding="utf-8"), nsfe)
+for qid, pt in list(nsf["PATCH"].items()) + list(nsf2["PATCH"].items()) + list(nsfe["PATCH"].items()):
+    q = byid[qid]
+    for k, v in pt.items():
+        if k in ("options", "whyNot", "rationales"):
+            for L, txt in v.items():
+                assert L in q[k], (qid, k, L)
+                q[k][L] = txt
+        elif k == "stimulus":
+            assert "stimulus" in q, (qid, "stimulus")
+            for sk, sv in v.items(): q["stimulus"][sk] = sv
+        else:
+            assert k in q, (qid, k)
+            q[k] = v
+
 # answer-letter balancing (option order only; text unchanged)
-for qid, a, b in [("U7-P31", "A", "D"), ("U7-P32", "A", "E"), ("U7-E01", "A", "B")]:
+for qid, a, b in [("U7-P31", "A", "D"), ("U7-P32", "A", "E"), ("U7-E01", "A", "B"),
+                  ("U7-P01", "A", "C"), ("U7-P03", "A", "C"), ("U7-P07", "A", "C"), ("U7-P25", "A", "C")]:
     swap(byid[qid], a, b)
 
 # kid-facing wording: students don't know "CED"
@@ -76,9 +98,9 @@ out = {
   "unit": 7,
   "title": "Industrial and Economic Development Patterns and Processes",
   "examWeighting": "12–17% of the AP Exam multiple-choice section",
-  "version": "2026-11-08b",
-  "calibration": "Modeled on the format of the College Board 2020 AP Human Geography Practice Exam and the Course and Exam Description (5 answer choices, set-based stimulus questions, skills 1–5). All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced. Real data (P05 chart, exam Set B table) are World Bank World Development Indicators for 2023, re-read from the API by script; all other data are labeled hypothetical.",
-  "checked": "Nov 8, 2026: draft. Automated checks in u7/assemble.py (answer balance and runs, option-length tells, absolute-word tells, field completeness, set structure, student-facing wording) and u7/verify.py (every World Bank value re-derived from cached API responses and re-fetched live; every keyed answer and every data-based distractor in the hypothetical stimuli re-computed). Independent blind Claude check (Nov 8): 57/57 keys agreed; WDI values re-fetched and arithmetic re-verified; fixes applied for E11 rationale C, E21 balanced options, E12 rewrite, Rostow stage order in P16/E16 (E01 options swapped to keep 5 per letter), E10 distractors, E25 D/E, P09 key wording, skill tags P02/P24/P32/E23 (charts are Skill 3), hedge tells in P15/P31/P24, P30 B, E04 and E05 stems.",
+  "version": "2026-11-08e",
+  "calibration": "Original AP-style Unit 7 practice aligned with the current AP Human Geography course framework (2020 Course and Exam Description): five answer choices, set-based stimulus questions, skills 1–5; the timed exam is 25 questions in 25 minutes. All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced. Real data (P05 chart, exam Set B table) are World Bank World Development Indicators for 2023, re-read from the API by script; all other data are labeled hypothetical. Difficulty labels are editorial estimates pending student piloting.",
+  "checked": "Nov 8, 2026: automated checks in u7/assemble.py (answer balance and runs, option-length tells, absolute-word tells, field completeness, set structure, student-facing wording) and u7/verify.py (every World Bank value re-derived from cached API responses and re-fetched live; every keyed answer and every data-based distractor in the hypothetical stimuli re-computed). Independent blind Claude check (Nov 8): 57/57 keys agreed; WDI values re-fetched and arithmetic re-verified; fixes applied for E11 rationale C, E21 balanced options, E12 rewrite, Rostow stage order in P16/E16 (E01 options swapped to keep 5 per letter), E10 distractors, E25 D/E, P09 key wording, skill tags P02/P24/P32/E23 (charts are Skill 3), hedge tells in P15/P31/P24, P30 B, E04 and E05 stems. ChatGPT Pro review (Nov 8, v2026-11-08b): all 57 keys kept; fixes in u7/fixes1.py (E13 GII limits and note, P32 electricity vs coal, E19 proportional advantage, GNI residence wording in P09/E10, E10 tied to its table, Weber map note and E06 map-dependent options, P02 C, P12 income wording, P08 transport-cost framing, P11/E14 definitions, P13 median earnings, E09/P05/E11 shares vs causes, P20 note, P29, P21/E20, P26/P27, P17/E17/E18, P30/E25, E22, P24 and E23 distractors, E03 C, E12 A/E, P07 concentrating, skill and difficulty retags); six practice items added for coverage (P33 complementarity, P34 economies of scale, P35 growth pole, P36 social measures, P37 sustainable transit, P38 2008 crisis); verify.py and assemble.py re-run. Final blind Claude check (v2026-11-08c): 63/63 keys agreed, WDI data re-downloaded and matched, all hypothetical arithmetic and the Weber map network re-computed, P38 facts checked; fixes in u7/fixes2.py (P22 scale wording, P12 hedge balance, E12 A, E06 B, P02 stem and A, P37 E, P38 B, P30 E, P27 C, P09 and E23 key length, P08 B, P03 explanation, E14 A/D/E, P36 and P11 explanations); options A and C swapped in P01, P03, P07, P25 to break a repeating practice letter pattern; P39 (agglomeration) added. Final key check (v2026-11-08d): 18/18 agreement, no must-fix; fixes in u7/fixes_e.py (E14 rationale E, E23 key D and P30 key A reworded to remove length and wording tells, P34 whyNot D wording).",
   "schemaNotes": {
     "stimulus.type": "table | bar | line | districtMap | schematicMap | rings (rings = von Thünen-style concentric ring diagram: center, rings[].label, outer, description; line = multi-series line chart: xLabel, yLabel, categories[], series[{name, values[]}], yMax)",
     "practice[].explanation": "6th-grade-level reason the answer is right (show this first)",

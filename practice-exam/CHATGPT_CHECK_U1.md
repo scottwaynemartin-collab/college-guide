@@ -1,63 +1,75 @@
 # Unit 1 question bank: full export for outside review
 
-Unit 1, Thinking Geographically. Version 2026-11-08b.
-33 untimed practice questions (instant feedback: a 6th-grade-level explanation plus one "why not" line per wrong option)
+Unit 1, Thinking Geographically. Version 2026-11-08d.
+36 untimed practice questions (instant feedback: a 6th-grade-level explanation plus one "why not" line per wrong option)
 and a 25-question timed exam (25 minutes, choices A–E, College Board-style rationales for every option,
 10 stimulus questions in 4 sets). Students are 9th graders in AP Human Geography.
-All stimulus data are hypothetical; the projection grids in U1-E03/E04 are computed from the Mercator and Gall-Peters formulas.
+All stimulus data are hypothetical; the projection grids in U1-E03/E04 are computed from the Mercator and Gall-Peters formulas
+(students are not told which is which).
 
 Everything below is the complete data file the page uses (unit1.json), followed by the sources note (SOURCES.md).
 
+Order and numbering: items appear in the array order shown. Question IDs are stable tracking labels; in the exam, `n`
+is the displayed question number, so IDs and `n` do not match (for example, U1-E06 is question 2). Practice items are
+grouped by topic; P34–P36 were added in this version.
+
 How the stimulus types render (the JSON holds all of their data):
 - table: an HTML table with the given columns and rows; `text` and `note` (if any) show under the table, then the source
-  line. The table's `description` is not shown on screen. No Unit 1 table uses `note` or `text`.
+  line. A table's `description` is not shown on screen. No Unit 1 table uses `note` or `text`.
 - bar: grouped vertical bars, one group per category, at most two series, value printed on each bar, legend above;
   `text` shows under the chart (used in U1-P25 and U1-E08). The bar `description` is not shown on screen; screen readers
   get a generated data table.
 - schematicMap: an SVG drawn from `canvas` (pixel width and height) and `features` (coordinates in pixels; the
   background is water-colored wherever no land polygon covers it). Land polygons come in three fills (default beige,
-  `small` cream, `power` lavender) and are labeled at `labelAt`; markers `baseN` (purple square), `baseS` (teal square),
-  and `house` (house icon); `line` is a thin dark polyline (dashed if `dashed`); `shippingLane` is a thicker dashed line;
-  `arrow` has an arrowhead at `to`. The legend shows under the map, then the `description` paragraph (visible on
-  screen), then the source line.
+  `small` cream, `power` lavender) and are labeled at `labelAt` (zero-area land polygons are used as plain text labels);
+  markers `baseN` (purple square), `baseS` (teal square), and `house` (house icon); `line` is a thin dark polyline (dashed
+  if `dashed`); `shippingLane` is a thicker dashed line; `arrow` has an arrowhead at `to`. The legend shows under the map,
+  then the `description` paragraph (visible on screen, kept neutral), then the source line. A zero-length `line` whose
+  name begins "For screen readers:" draws nothing; its text goes only into the SVG description for screen readers.
   - U1-P02 (dot density): cream land fills the canvas except a narrow water-colored river running north–south at about
     x = 470–494. Twenty-two identical purple squares sit in a band just east of the river (x 510–650); four are scattered
     in the west. Legend: "Each square = 10 dairy farms"; "River".
-  - U1-P03 (contour map): beige land fills the canvas. Five closed egg-shaped contour lines surround a summit at
-    (300, 210). Horizontal gaps between the 120 m and 140 m lines: west 18 px, south 30 px, north 38 px, east 70 px.
-    Letters J (west), K (east), L (north), M (south) sit midway between those two lines; N sits at (720, 360), outside the
-    100 m line. No scale bar.
+  - U1-P03 (contour map): beige land fills the canvas. Five closed egg-shaped contour lines (100 m outer to 180 m inner)
+    surround a summit at (300, 210). Horizontal gaps between the 120 m and 140 m lines: west 18 px, south 30 px, north
+    38 px, east 70 px; J (west), K (east), L (north), M (south) sit midway between those two lines. N sits at (585, 210),
+    midway between the 100 m and 120 m lines on the east side, where the gap is also 70 px. No scale bar.
   - U1-P14 (floodplain): two lavender floodplain strips flank a water-colored river near x = 425–480; the west strip is
     wide (x ≈ 165–445), the east strip narrow (≈ 455–530). Cream "Higher ground" lies at the far west and east. Eight
     houses and the teal school square are in the west floodplain; three houses on west high ground; four houses and
     the purple hospital square on east high ground.
-  - U1-E03/E04 (two grids): two cream panels labeled Map 1 and Map 2 on a water-colored background. Each panel holds a
-    340-px-wide grid with 13 evenly spaced vertical meridians (every 30°) and 11 horizontal parallels (every 15°, 75° S
-    to 75° N); the equator is dashed. Map 1 parallel gaps from 75° N down to the equator: 38.4, 23.6, 18.0, 15.4, 14.3 px
-    (Mercator). Map 2: 10.8, 17.2, 22.4, 26.1, 28.0 px (Gall-Peters). The grids have no latitude labels; the title and
-    description give the latitudes.
-  - U1-E13 to E15 (commuting): beige land fills the canvas. City M is a lavender polygon at the center (400, 220). Six
-    cream boxes labeled "Town A 64%", "Town B 57%", "Town C 41%", "Town D 32%", "Town E 14%", "Town F 8%" sit 14, 18,
-    30, 36, 52, and 58 km from City M (6 px = 1 km; scale bar 0–10 km), each with an arrow pointing to City M. A thick
-    dashed line encloses City M and Towns A–D only.
-- In the exam, a set's stimulus is stored on the first question of the set and shown beside every question in the set.
-  Practice questions each carry their own stimulus (no practice sets).
+  - U1-P34 (linear pattern): cream land north and south of a water-colored river that winds west to east across the map
+    (centerline y = 180 + 25 sin(x/90), 20 px wide). Twenty-four house icons form two rows, 12 on each bank, each 28 px
+    from the centerline, spread from x = 45 to x = 780. The rest of the valley is empty.
+  - U1-E03/E04 (two grids, questions 3–4): two cream panels labeled Map 1 and Map 2 on a water-colored background. Each
+    panel holds a 300-px-wide grid with 13 evenly spaced vertical meridians (every 30°) and 11 horizontal parallels (every
+    15°, 75° S to 75° N), with text labels 75° N, 45° N, 0°, 45° S, 75° S at the left; the equator is dashed. Map 1
+    parallel gaps from 75° N down to the equator: 33.9, 20.8, 15.9, 13.6, 12.6 px (Mercator). Map 2: 9.5, 15.2, 19.8,
+    23.0, 24.7 px (Gall-Peters).
+  - U1-E13 to E15 (commuting, questions 15–17): beige land fills the canvas. City M is a lavender polygon at the center
+    (400, 220). Six cream boxes labeled "Town A 64%", "Town B 57%", "Town C 41%", "Town D 32%", "Town E 14%",
+    "Town F 8%" sit 14, 18, 30, 36, 52, and 58 km from City M (6 px = 1 km; scale bar 0–10 km), each with an arrow
+    pointing to City M. A thick dashed line encloses City M and Towns A–D only.
+- In the exam, a set's stimulus and its `setLabel` (e.g., "Questions 3–4 refer to the two map grids below.") are stored on
+  the first question of the set and shown beside every question in the set. Practice questions each carry their own
+  stimulus (no practice sets).
 
 ===== unit1.json =====
 {
  "unit": 1,
  "title": "Thinking Geographically",
  "examWeighting": "8–10% of the AP Exam multiple-choice section",
- "version": "2026-11-08b",
- "calibration": "Modeled on the format of the College Board 2020 AP Human Geography Practice Exam and the Course and Exam Description (5 answer choices, set-based stimulus questions, skills 1–5). All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced.",
- "checked": "Nov 8, 2026: automated checks in u1/assemble.py (answer balance and runs, option-length tells, absolute-word tells, field completeness, LO/skill tags, set structure) and u1/verify.py (every stimulus number, map geometry, and data-based key recomputed by script); independent Claude checker agent (blind answers 58/58, arithmetic and projection-grid geometry recomputed, E13 checked against the OMB 25% commuting standard); fixes applied in v2026-11-08b: P26 rewritten (scale asked by area studied), P23 rewritten, P03 description and stem, E03-E04 neutral source line, label-pair and hedge tells (E22, P32, E10), P05 E, P15 D, E05 key wording, E13 explanation, E19 rationale, E20 D.",
+ "version": "2026-11-08d",
+ "calibration": "Original AP Human Geography Unit 1 practice aligned to the course framework (Fall 2020 Course and Exam Description). The timed assessment follows the AP multiple-choice format and pacing, with five answer choices and a mix of individual and stimulus-based questions. It is not an official College Board exam, and its difficulty has not been statistically equated to the AP Exam; difficulty labels are editorial estimates not yet calibrated with student-response data. All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced.",
+ "checked": "Nov 8, 2026: automated checks in u1/assemble.py (answer balance and runs, option-length tells, absolute-word tells, field completeness, LO/skill tags, set structure) and u1/verify.py (every stimulus number, map geometry, and data-based key recomputed by script); independent Claude checker agent (blind answers 58/58, arithmetic and projection-grid geometry recomputed, E13 checked against the OMB 25% commuting standard); fixes applied in v2026-11-08b: P26 rewritten, P23 rewritten, P03 description and stem, E03-E04 neutral source line, label-pair and hedge tells (E22, P32, E10), P05 E, P15 D, E05 key wording, E13 explanation, E19 rationale, E20 D. ChatGPT Pro full review (v2026-11-08b, ~10 min; all arithmetic and projection/map geometry independently confirmed) applied in v2026-11-08c after each claim was checked: P26 and E21 now ask the scale at which data are aggregated; P17, E08, E20 rewritten to need the stimulus or the stated limitation; P03 Point N moved between two contours; P25 title and key narrowed; neutral visible captions on P02, P03, P14, E03-E04 with screen-reader details kept in the SVG description; latitude labels on the E03-E04 grids; evidence-precision fixes to explanations and rationales (P04-P07, P12-P16, P18, P22, P24, P29, P31-P33, E02, E04-E06, E10, E14, E15, E19, E22-E25); skill retags; one-letter-per-five answer pattern removed by reordering (IDs kept); P34-P36 added for pattern reading, field observation, and limits of aggregated data. Final independent Claude blind check of v2026-11-08c: 61/61, no must-fix; geometry and data recomputed; should-fix tells applied in v2026-11-08d (map-dependent distractors in P14 and P34, P36 E, E20 E, E15 B hedge, E25 E, P35 key moved from E to A for the topic 1.2 letter pattern and P36 key moved from C to E to keep practice letters balanced, P13 explanation, \"the question\" wording in P22, P31, E22).",
  "schemaNotes": {
   "stimulus.type": "table | bar | districtMap | schematicMap | rings (rings = von Thünen-style concentric ring diagram: center, rings[].label, outer, description)",
   "practice[].explanation": "6th-grade-level reason the answer is right (show this first)",
   "practice[].whyNot": "one line per wrong option",
   "exam.questions[].rationales": "College Board-style note on every option A–E",
   "exam.questions[].explanation": "6th-grade-level version for the review screen",
-  "set": "questions sharing a stimulus carry the same set id; the stimulus object lives on the first question of the set"
+  "set": "questions sharing a stimulus carry the same set id; the stimulus object (and setLabel) lives on the first question of the set",
+  "exam.questions[].n": "displayed question number (array order); ids are stable tracking labels and need not match n",
+  "schematicMap screen-reader lines": "a feature {kind: line, name: \"For screen readers: ...\", line: [[0,0],[0,0]]} draws nothing but puts its name in the SVG <desc>, so screen readers get map details that the visible description leaves out"
  },
  "topics": [
   {
@@ -115,7 +127,7 @@ How the stimulus types render (the JSON holds all of their data):
    "explanation": "A reference map helps you find places. It shows general features like roads, cities, rivers, and borders. A highway map is a classic reference map. Thematic maps are different: each one is made to show one topic, like life expectancy or temperature.",
    "whyNot": {
     "A": "Shading countries by life expectancy shows one topic. That is a thematic map (a choropleth map).",
-    "C": "Circles sized by population show one topic. That is a thematic map (a graduated symbol map).",
+    "C": "Circles sized by population show one topic. That makes it a thematic symbol map (a graduated or proportional symbol map).",
     "D": "Lines joining places with the same temperature show one topic. That is a thematic map (an isoline map).",
     "E": "Resizing countries by population shows one topic. That is a thematic map (a cartogram)."
    },
@@ -334,6 +346,20 @@ How the stimulus types render (the JSON holds all of their data):
        ]
       ],
       "symbol": "baseN"
+     },
+     {
+      "kind": "line",
+      "name": "For screen readers: A river runs north to south through the eastern part of County R. Twenty-two squares are packed into a band just east of the river; four squares are scattered across the western part of the county.",
+      "line": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ]
      }
     ],
     "legend": [
@@ -346,7 +372,7 @@ How the stimulus types render (the JSON holds all of their data):
       "label": "River"
      }
     ],
-    "description": "A river runs north to south through the eastern part of County R. Every square is the same size and stands for 10 dairy farms. Twenty-two squares are packed into a band just east of the river; only four squares are scattered across the western part of the county.",
+    "description": "Each square represents 10 dairy farms. Symbol placement shows the approximate distribution of farms. North is at the top.",
     "source": "Hypothetical data"
    },
    "stem": "The map above is best classified as which type of thematic map?",
@@ -358,17 +384,45 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Cartogram"
    },
    "answer": "D",
-   "explanation": "On a dot density map, every dot (here, a small square) stands for the same number of things. More dots in one spot means more of that thing there. Each square here is 10 dairy farms, so you can see the farms are bunched together (clustered) just east of the river.",
+   "explanation": "On a dot density map, each repeated symbol stands for the same amount. Here, each square stands for 10 dairy farms. More squares in an area mean more farms there. A square does not show the exact spot of one farm. The squares are bunched (clustered) just east of the river.",
    "whyNot": {
     "A": "A choropleth map shades whole areas, like counties, darker or lighter. This map places symbols instead of shading areas.",
     "B": "A graduated symbol map uses bigger symbols for bigger amounts. Every square here is the same size.",
     "C": "An isoline map draws lines that connect places with equal values, like elevation. There are no lines like that here.",
-    "E": "A cartogram changes the size of places to match a number, like population. The county keeps its real shape here."
+    "E": "A cartogram resizes areas to show a number, like population. This map uses repeated symbols instead."
    },
    "vocab": [
     "dot density map",
     "thematic map",
     "clustering"
+   ]
+  },
+  {
+   "id": "U1-P04",
+   "topic": "1.1",
+   "lo": "IMP-1.A",
+   "skill": "1.B",
+   "difficulty": "medium",
+   "stem": "On a Mercator projection, Greenland looks about as large as Africa, even though Africa is about 14 times as large. Which of the following best explains this distortion?",
+   "options": {
+    "A": "The Mercator projection keeps areas accurate, so its distortion is in the shapes of landmasses near the equator.",
+    "B": "Mercator is a compromise projection that spreads small distortions evenly across the whole map.",
+    "C": "The Mercator projection preserves local angles and shapes while enlarging areas more toward the poles.",
+    "D": "The Mercator projection is centered on the North Pole, so places close to the pole are drawn larger.",
+    "E": "The Mercator projection keeps true distances from the equator, so places far from it look bigger."
+   },
+   "answer": "C",
+   "explanation": "Mercator made his map in 1569 for sailors. It keeps the shapes of small areas and local angles correct, and a route with one steady compass bearing shows up as a straight line. The price is area: the map stretches more and more toward the North and South Poles. Greenland is far north, so it looks much bigger than it really is. Africa sits on the equator, where there is little stretching.",
+   "whyNot": {
+    "A": "That describes an equal-area map like Gall-Peters. Mercator does the opposite: it keeps local shapes but distorts area.",
+    "B": "That describes a compromise map like the Robinson. Mercator's distortion is not spread evenly; it grows toward the poles.",
+    "D": "The usual Mercator map is a rectangle centered on the equator, not on the North Pole. Its stretching grows toward both poles.",
+    "E": "Mercator does not keep true distances. Its scale grows toward the poles, which is why far-north places look too big."
+   },
+   "vocab": [
+    "Mercator projection",
+    "map projection",
+    "distortion"
    ]
   },
   {
@@ -1990,25 +2044,39 @@ How the stimulus types render (the JSON holds all of their data):
       "name": "N",
       "polygon": [
        [
-        720,
-        360
+        585.0,
+        210
        ],
        [
-        720,
-        360
+        585.0,
+        210
        ],
        [
-        720,
-        360
+        585.0,
+        210
        ]
       ],
       "labelAt": [
-       720,
-       359
+       585.0,
+       209
+      ]
+     },
+     {
+      "kind": "line",
+      "name": "For screen readers: Points J (west side), K (east side), L (north side), and M (south side) each sit between the 120-meter and 140-meter lines. Point N sits on the east side between the 100-meter and 120-meter lines. Near Point J the lines are tightly packed; near Points K and N they are widely spaced; near Point L they are moderately spaced; near Point M they are fairly close together.",
+      "line": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        0
+       ]
       ]
      }
     ],
-    "description": "Five closed contour lines circle the top of Hill Q, from 100 meters (outer line) to 180 meters (inner line). Point J is on the west side of the hill, Point K on the east side, Point L on the north side, and Point M on the south side; each sits between the 120-meter and 140-meter lines. Point N is outside the 100-meter line. Near Point J the lines are tightly packed; near Point K they are widely spaced; near Point L they are moderately spaced; near Point M they are fairly close together.",
+    "description": "Contours connect points of equal elevation. The contour interval is 20 meters, from 100 meters (outer line) to 180 meters (inner line). North is at the top.",
     "source": "Hypothetical map"
    },
    "stem": "Based on the map, at which labeled point is the land steepest?",
@@ -2025,7 +2093,7 @@ How the stimulus types render (the JSON holds all of their data):
     "B": "At Point K the lines are far apart, so the land rises slowly. That is a gentle slope.",
     "C": "Point L's lines are closer than at K but farther apart than at J, so it is less steep than J.",
     "D": "Point M's lines are fairly close, but they are not packed as tightly as at J.",
-    "E": "Point N is past the lowest contour line, with no lines nearby. The land there is nearly flat."
+    "E": "The lines around Point N are as far apart as the lines at Point K, so the slope there is gentle, not steep like at J."
    },
    "vocab": [
     "isoline",
@@ -2034,31 +2102,30 @@ How the stimulus types render (the JSON holds all of their data):
    ]
   },
   {
-   "id": "U1-P04",
+   "id": "U1-P07",
    "topic": "1.1",
    "lo": "IMP-1.A",
-   "skill": "1.B",
-   "difficulty": "medium",
-   "stem": "On a Mercator projection, Greenland looks about as large as Africa, even though Africa is about 14 times larger. Which of the following best explains this distortion?",
+   "skill": "1.D",
+   "difficulty": "easy",
+   "stem": "On a certain world map, India appears much larger than Canada, even though Canada has about three times as much area. The map draws each country's size in proportion to its population. This type of map is called a",
    "options": {
-    "A": "The Mercator projection keeps areas accurate, so its distortion is in the shapes of landmasses near the equator.",
-    "B": "Greenland's thick ice sheet makes the island look much larger on maps than its land area really is.",
-    "C": "The Mercator projection keeps local shapes and directions true but stretches area toward the poles.",
-    "D": "The Mercator projection is centered on the North Pole, so places close to the pole are drawn larger.",
-    "E": "The Mercator projection keeps true distances from the equator, so places far from it look bigger."
+    "A": "cartogram",
+    "B": "choropleth map",
+    "C": "reference map",
+    "D": "dot density map",
+    "E": "Mercator projection"
    },
-   "answer": "C",
-   "explanation": "Mercator made his map in 1569 for sailors. It keeps compass directions and the shapes of small areas correct. To do that, it stretches the map more and more as you move toward the North and South Poles. Greenland is far north, so it gets blown up a lot. Africa sits on the equator, where there is little stretching.",
+   "answer": "A",
+   "explanation": "A cartogram changes each area's size on the map to show a number, like population. India has far more people than Canada, so a population cartogram draws India much bigger. Depending on the design, a cartogram may also change shapes and where places sit.",
    "whyNot": {
-    "A": "That describes an equal-area map like Gall-Peters. Mercator does the opposite: it keeps local shapes but distorts area.",
-    "B": "The problem is the map projection, not the ice. Greenland looks huge on Mercator maps that show only outlines.",
-    "D": "A map centered on the North Pole is an azimuthal (polar) map. Mercator is a rectangular map centered on the equator.",
-    "E": "Mercator does not keep true distances. Its scale grows toward the poles, which is why far-north places look too big."
+    "B": "A choropleth map uses shading to show values in each area. It does not resize areas to show population.",
+    "C": "A reference map shows real locations and features like borders and cities. It does not resize countries by population.",
+    "D": "A dot density map uses repeated dots to show amounts. It does not resize countries to show population.",
+    "E": "Mercator stretches places near the poles. That would make Canada look bigger, not smaller."
    },
    "vocab": [
-    "Mercator projection",
-    "map projection",
-    "distortion"
+    "cartogram",
+    "thematic map"
    ]
   },
   {
@@ -2071,17 +2138,17 @@ How the stimulus types render (the JSON holds all of their data):
    "options": {
     "A": "A Mercator projection, which keeps compass bearings constant along straight lines",
     "B": "A Gall-Peters projection, which shows the true relative sizes of the continents",
-    "C": "A Robinson projection, which keeps overall distortion low across the map",
+    "C": "A Robinson projection with the hub airport placed near the map's center",
     "D": "A Goode's homolosine projection, which interrupts the oceans to reduce distortion of land",
-    "E": "An azimuthal equidistant projection, which is drawn outward from a single center point"
+    "E": "An azimuthal equidistant projection centered on the hub airport"
    },
    "answer": "E",
-   "explanation": "An azimuthal equidistant map is drawn around one center point. A straight line from that center shows the true distance and the true direction to any other place. If the planner puts the hub airport at the center, the planner can measure the route to any city. Distances between two places that are NOT the center are distorted, but the planner only needs routes from the hub.",
+   "explanation": "An azimuthal equidistant map keeps distance and direction true from its center point. With the hub airport at the center, the planner can measure the distance and direction from the hub to any city. Distances between two places away from the center are generally not true, but the planner only needs routes from the hub.",
    "whyNot": {
     "A": "Mercator keeps compass bearings, which helps sailors, but its distances are badly stretched toward the poles.",
     "B": "Gall-Peters keeps area true, but it distorts distances and shapes, so it cannot measure routes from the hub.",
-    "C": "Robinson is a compromise map. It distorts a little of everything, so neither distance nor direction from the hub is exactly right.",
-    "D": "Goode's map keeps area true, but cutting the oceans breaks up the very routes the planner needs to measure."
+    "C": "Robinson is a compromise map. Putting the hub near the center does not make distance or direction from the hub exactly right.",
+    "D": "Goode's map keeps relative area true, but its cuts and distance distortion make it a poor choice for measuring routes from the hub."
    },
    "vocab": [
     "azimuthal equidistant projection",
@@ -2134,7 +2201,7 @@ How the stimulus types render (the JSON holds all of their data):
     "description": "A table listing the population and the number of new businesses opened in 2025 for five counties: Adams, Baker, Cole, Dunn, and Ellis.",
     "source": "Hypothetical data"
    },
-   "stem": "A student wants to make a choropleth map showing where opening a new business was most common relative to the number of residents. Based on the table, which county should be shaded darkest?",
+   "stem": "A student wants to make a choropleth map of new business openings relative to population, using darker shading for higher values. Based on the table, which county should be shaded darkest?",
    "options": {
     "A": "Adams County",
     "B": "Baker County",
@@ -2143,7 +2210,7 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Ellis County"
    },
    "answer": "B",
-   "explanation": "A choropleth map should shade areas by a rate, not a total. Divide new businesses by population. Baker had 480 new businesses for 60,000 people. That is 8.0 per 1,000 residents, the highest rate. Adams had the most businesses only because it has the most people.",
+   "explanation": "To compare openings relative to population, divide each county's new businesses by its number of residents. Baker had 480 openings for 60,000 residents. That is 8.0 per 1,000 residents, the highest rate. Adams has the largest total, but its rate is only 3.5 per 1,000.",
    "whyNot": {
     "A": "Adams has the biggest total (2,870), but it has 820,000 people. That is only 3.5 per 1,000 residents.",
     "C": "Cole's rate is 6.0 per 1,000 residents. That is second highest, but below Baker's 8.0.",
@@ -2157,37 +2224,376 @@ How the stimulus types render (the JSON holds all of their data):
    ]
   },
   {
-   "id": "U1-P07",
+   "id": "U1-P34",
    "topic": "1.1",
    "lo": "IMP-1.A",
-   "skill": "3.A",
+   "skill": "3.B",
    "difficulty": "easy",
-   "stem": "On a certain world map, India appears much larger than Canada, even though Canada has about three times as much area. The map draws each country's size in proportion to its population. This type of map is called a",
-   "options": {
-    "A": "cartogram",
-    "B": "choropleth map",
-    "C": "reference map",
-    "D": "dot density map",
-    "E": "Mercator projection"
+   "stimulus": {
+    "type": "schematicMap",
+    "title": "FARMHOUSES IN VALLEY V (HYPOTHETICAL)",
+    "canvas": {
+     "width": 800,
+     "height": 360
+    },
+    "features": [
+     {
+      "kind": "land",
+      "name": "North side of the valley",
+      "polygon": [
+       [
+        0,
+        0
+       ],
+       [
+        800,
+        0
+       ],
+       [
+        800,
+        182.8
+       ],
+       [
+        760,
+        190.8
+       ],
+       [
+        720,
+        194.7
+       ],
+       [
+        680,
+        193.9
+       ],
+       [
+        640,
+        188.4
+       ],
+       [
+        600,
+        179.4
+       ],
+       [
+        560,
+        168.5
+       ],
+       [
+        520,
+        157.9
+       ],
+       [
+        480,
+        149.7
+       ],
+       [
+        440,
+        145.4
+       ],
+       [
+        400,
+        145.9
+       ],
+       [
+        360,
+        151.1
+       ],
+       [
+        320,
+        159.9
+       ],
+       [
+        280,
+        170.8
+       ],
+       [
+        240,
+        181.4
+       ],
+       [
+        200,
+        189.9
+       ],
+       [
+        160,
+        194.5
+       ],
+       [
+        120,
+        194.3
+       ],
+       [
+        80,
+        189.4
+       ],
+       [
+        40,
+        180.7
+       ],
+       [
+        0,
+        170.0
+       ]
+      ],
+      "style": "small"
+     },
+     {
+      "kind": "land",
+      "name": "South side of the valley",
+      "polygon": [
+       [
+        0,
+        190.0
+       ],
+       [
+        40,
+        200.7
+       ],
+       [
+        80,
+        209.4
+       ],
+       [
+        120,
+        214.3
+       ],
+       [
+        160,
+        214.5
+       ],
+       [
+        200,
+        209.9
+       ],
+       [
+        240,
+        201.4
+       ],
+       [
+        280,
+        190.8
+       ],
+       [
+        320,
+        179.9
+       ],
+       [
+        360,
+        171.1
+       ],
+       [
+        400,
+        165.9
+       ],
+       [
+        440,
+        165.4
+       ],
+       [
+        480,
+        169.7
+       ],
+       [
+        520,
+        177.9
+       ],
+       [
+        560,
+        188.5
+       ],
+       [
+        600,
+        199.4
+       ],
+       [
+        640,
+        208.4
+       ],
+       [
+        680,
+        213.9
+       ],
+       [
+        720,
+        214.7
+       ],
+       [
+        760,
+        210.8
+       ],
+       [
+        800,
+        202.8
+       ],
+       [
+        800,
+        360
+       ],
+       [
+        0,
+        360
+       ]
+      ],
+      "style": "small"
+     },
+     {
+      "kind": "marker",
+      "name": "Farmhouse",
+      "symbol": "house",
+      "points": [
+       [
+        45,
+        164.0
+       ],
+       [
+        110,
+        175.5
+       ],
+       [
+        175,
+        175.3
+       ],
+       [
+        240,
+        163.4
+       ],
+       [
+        305,
+        145.9
+       ],
+       [
+        370,
+        131.4
+       ],
+       [
+        435,
+        127.2
+       ],
+       [
+        500,
+        135.4
+       ],
+       [
+        565,
+        151.9
+       ],
+       [
+        630,
+        168.4
+       ],
+       [
+        695,
+        176.8
+       ],
+       [
+        760,
+        172.8
+       ],
+       [
+        75,
+        226.5
+       ],
+       [
+        140,
+        233.0
+       ],
+       [
+        205,
+        227.0
+       ],
+       [
+        270,
+        211.5
+       ],
+       [
+        335,
+        194.3
+       ],
+       [
+        400,
+        183.9
+       ],
+       [
+        465,
+        185.5
+       ],
+       [
+        530,
+        198.4
+       ],
+       [
+        595,
+        216.1
+       ],
+       [
+        660,
+        229.7
+       ],
+       [
+        725,
+        232.5
+       ],
+       [
+        790,
+        223.1
+       ]
+      ]
+     },
+     {
+      "kind": "line",
+      "name": "For screen readers: Farmhouses stand in two rows, one along each bank of the river, from the west edge of the map to the east edge. No farmhouses stand far from the river.",
+      "line": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ]
+     }
+    ],
+    "legend": [
+     {
+      "swatch": "house",
+      "label": "Farmhouse"
+     },
+     {
+      "swatch": "water",
+      "label": "River"
+     }
+    ],
+    "description": "Each house symbol stands for one farmhouse. A river crosses the valley from west to east. North is at the top.",
+    "source": "Hypothetical map"
    },
-   "answer": "A",
-   "explanation": "A cartogram changes the size of each place to match a number, like population, instead of land area. India has far more people than Canada, so India is drawn much bigger. Cartograms give up true shape and area to make one number easy to see.",
+   "stem": "Which of the following best describes the spatial pattern of farmhouses shown on the map?",
+   "options": {
+    "A": "Clustered around one central village",
+    "B": "Dispersed evenly across the whole valley",
+    "C": "Concentrated on the north bank of the river",
+    "D": "Linear, following the course of the river",
+    "E": "Scattered with no link to physical features"
+   },
+   "answer": "D",
+   "explanation": "A linear pattern means things are lined up along something long and narrow, like a river, road, or coast. Here the farmhouses form two lines, one on each bank, and follow the river's bends across the valley.",
    "whyNot": {
-    "B": "A choropleth map keeps true country sizes and shades them with colors.",
-    "C": "A reference map shows real locations and features like borders and cities. It does not resize countries by population.",
-    "D": "A dot density map keeps true sizes and places dots inside each country.",
-    "E": "Mercator stretches places near the poles. That would make Canada look bigger, not smaller."
+    "A": "There is no central village. The houses stretch from one side of the map to the other.",
+    "B": "A dispersed pattern spreads things out across the whole area. Here the houses stay close to the river, and the land away from it is empty.",
+    "C": "Twelve houses stand on each bank, so they are not concentrated on the north bank.",
+    "E": "The houses follow the river closely, so the pattern is clearly linked to a physical feature."
    },
    "vocab": [
-    "cartogram",
-    "thematic map"
+    "linear pattern",
+    "clustered",
+    "dispersed",
+    "spatial pattern"
    ]
   },
   {
    "id": "U1-P08",
    "topic": "1.2",
    "lo": "IMP-1.B",
-   "skill": "1.A",
+   "skill": "1.D",
    "difficulty": "easy",
    "stem": "A city planner uses a computer program to stack map layers showing roads, flood zones, school locations, and population density, and then analyzes how the layers relate to one another. This tool is best described as",
    "options": {
@@ -2239,34 +2645,6 @@ How the stimulus types render (the JSON holds all of their data):
    ]
   },
   {
-   "id": "U1-P10",
-   "topic": "1.2",
-   "lo": "IMP-1.B",
-   "skill": "3.A",
-   "difficulty": "medium",
-   "stem": "A geographer wants to learn how longtime residents feel about the changes a new highway brought to their neighborhood. Which source would provide the most useful information?",
-   "options": {
-    "A": "Satellite images of the neighborhood before and after the highway was built",
-    "B": "GPS data showing the average speed of cars on the highway",
-    "C": "Census tables showing the neighborhood's population in each decade",
-    "D": "A GIS layer showing property values along the highway",
-    "E": "Recorded interviews with people who have lived there for decades"
-   },
-   "answer": "E",
-   "explanation": "Feelings and opinions are qualitative information. The best way to get them is to ask people. Personal interviews are one of the sources of spatial information your AP course guide lists. Images, GPS, census tables, and GIS layers give numbers or pictures, but they cannot tell you how residents feel.",
-   "whyNot": {
-    "A": "Satellite images show physical changes, like new pavement, but not how people feel about them.",
-    "B": "GPS speed data tell how fast cars move, not what residents think.",
-    "C": "Census tables count people. They show who lives there, not their opinions.",
-    "D": "Property values are numbers. They might hint at change, but they do not record residents' feelings."
-   },
-   "vocab": [
-    "qualitative data",
-    "quantitative data",
-    "interview"
-   ]
-  },
-  {
    "id": "U1-P11",
    "topic": "1.2",
    "lo": "IMP-1.B",
@@ -2313,7 +2691,7 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Data set 5"
    },
    "answer": "D",
-   "explanation": "A satellite navigation system, like GPS, uses signals from satellites to find an exact position. The receiver on each bus records where the bus is every 30 seconds. That is Data set 4.",
+   "explanation": "A satellite navigation system, like GPS, uses signals from satellites to estimate a receiver's location. The receiver on each bus can record where the bus is every 30 seconds. That is Data set 4.",
    "whyNot": {
     "A": "Data set 1 comes from a census, which counts people where they live.",
     "B": "Data set 2 comes from interviews, a field method that gathers people's words.",
@@ -2328,95 +2706,58 @@ How the stimulus types render (the JSON holds all of their data):
    ]
   },
   {
-   "id": "U1-P12",
-   "topic": "1.3",
-   "lo": "IMP-1.C",
-   "skill": "3.D",
+   "id": "U1-P10",
+   "topic": "1.2",
+   "lo": "IMP-1.B",
+   "skill": "1.D",
    "difficulty": "medium",
-   "stimulus": {
-    "type": "bar",
-    "title": "CHILDREN UNDER AGE 5 BY NEIGHBORHOOD, CITY V, 2010 AND 2020 CENSUS (HYPOTHETICAL DATA)",
-    "categories": [
-     "Riverside",
-     "Oak Hill",
-     "Midtown",
-     "Westfield",
-     "Lakeview"
-    ],
-    "series": [
-     {
-      "name": "2010",
-      "values": [
-       650,
-       1200,
-       400,
-       900,
-       700
-      ]
-     },
-     {
-      "name": "2020",
-      "values": [
-       1480,
-       1050,
-       520,
-       1120,
-       610
-      ]
-     }
-    ],
-    "yLabel": "Children under age 5",
-    "yMax": 1600,
-    "description": "A grouped bar chart of the number of children under age 5 in five neighborhoods in 2010 and 2020. Riverside: 650 and 1,480. Oak Hill: 1,200 and 1,050. Midtown: 400 and 520. Westfield: 900 and 1,120. Lakeview: 700 and 610.",
-    "source": "Hypothetical data"
-   },
-   "stem": "A school district plans to build one new elementary school where the number of young children is growing fastest. Based on the census data in the chart, which neighborhood is the best location?",
+   "stem": "A geographer wants to learn how longtime residents feel about the changes a new highway brought to their neighborhood. Which source would provide the most useful information?",
    "options": {
-    "A": "Riverside",
-    "B": "Oak Hill",
-    "C": "Midtown",
-    "D": "Westfield",
-    "E": "Lakeview"
+    "A": "Satellite images of the neighborhood before and after the highway was built",
+    "B": "GPS data showing the average speed of cars on the highway",
+    "C": "Census tables showing the neighborhood's population in each decade",
+    "D": "A GIS layer showing property values along the highway",
+    "E": "Recorded interviews with people who have lived there for decades"
    },
-   "answer": "A",
-   "explanation": "Riverside's number of children under 5 more than doubled, from 650 to 1,480. That is the biggest increase and the largest total in 2020. These children will start school soon, so a new school there would serve the most students. This is how census data guide government decisions.",
+   "answer": "E",
+   "explanation": "Feelings and opinions are qualitative information. The best way to get them is to ask people. Personal interviews are one of the sources of spatial information your AP course guide lists. Images, GPS, census tables, and GIS layers give numbers or pictures, but they cannot tell you how residents feel.",
    "whyNot": {
-    "B": "Oak Hill had the most young children in 2010, but its number fell by 2020 (1,200 to 1,050).",
-    "C": "Midtown grew a little (400 to 520), but it still has the fewest young children.",
-    "D": "Westfield grew (900 to 1,120), but Riverside grew far more and now has more young children.",
-    "E": "Lakeview's number of young children fell (700 to 610)."
+    "A": "Satellite images show physical changes, like new pavement, but not how people feel about them.",
+    "B": "GPS speed data tell how fast cars move, not what residents think.",
+    "C": "Census tables count people. They show who lives there, not their opinions.",
+    "D": "Property values are numbers. They might hint at change, but they do not record residents' feelings."
    },
    "vocab": [
-    "census",
-    "geospatial data"
+    "qualitative data",
+    "quantitative data",
+    "interview"
    ]
   },
   {
-   "id": "U1-P13",
-   "topic": "1.3",
-   "lo": "IMP-1.C",
-   "skill": "2.C",
+   "id": "U1-P35",
+   "topic": "1.2",
+   "lo": "IMP-1.B",
+   "skill": "1.D",
    "difficulty": "medium",
-   "stem": "A coffee company uses GIS to compare traffic counts, the locations of competing shops, and the incomes and ages of residents in each neighborhood before choosing where to open new stores. Which outcome is most likely?",
+   "stem": "A geographer wants to find out which ground-floor storefronts on one downtown street are open for business, empty, or being renovated this month. Which method would collect the most accurate information?",
    "options": {
-    "A": "New stores are spaced evenly across the city, one in each neighborhood",
-    "B": "New stores open where land is cheapest, whatever the traffic or customers",
-    "C": "New stores cluster along busy roads in areas with many likely customers",
-    "D": "New stores are placed far from busy roads so customers can avoid traffic",
-    "E": "New stores open in the most crowded census tracts, even where few people pass by"
+    "A": "Walking the street and recording what is in each storefront",
+    "B": "Reviewing satellite images of the downtown rooftops",
+    "C": "Tracking delivery trucks on the street with GPS receivers",
+    "D": "Mapping the street's property values from tax records",
+    "E": "Counting the street's residents with the most recent national census"
    },
-   "answer": "C",
-   "explanation": "Businesses use geographic data to decide where to locate. By layering traffic, competitors, and customer information, the company can find spots where lots of likely customers pass by. That usually means stores cluster along busy roads in neighborhoods that match the company's customers.",
+   "answer": "A",
+   "explanation": "Field observation means going to a place and recording what you see. Walking the street lets the geographer check every storefront this month. Census counts, satellite pictures, GPS tracks, and tax records cannot show whether each store is open, empty, or being fixed up right now.",
    "whyNot": {
-    "A": "Spacing stores evenly ignores the data the company collected. Businesses go where customers are, not one per neighborhood.",
-    "B": "Cheap land does not help if few customers pass by. The company's data focus on customers and traffic.",
-    "D": "Coffee shops depend on passing traffic, so busy roads attract stores instead of pushing them away.",
-    "E": "Population matters, but the company also weighs traffic and competitors, so it would not ignore those layers."
+    "B": "Rooftop images cannot show whether a store is open, empty, or being renovated inside.",
+    "C": "Delivery routes might hint at which stores get goods, but they do not record the condition of every storefront.",
+    "D": "Property values do not show whether a store is open, empty, or being renovated right now.",
+    "E": "A census counts people where they live, usually once every ten years. It does not record whether each store is open this month."
    },
    "vocab": [
-    "GIS",
-    "geospatial data",
-    "clustering"
+    "field observation",
+    "qualitative data"
    ]
   },
   {
@@ -2697,12 +3038,26 @@ How the stimulus types render (the JSON holds all of their data):
         110
        ]
       ]
+     },
+     {
+      "kind": "line",
+      "name": "For screen readers: A river runs north to south. The shaded floodplain lies along both banks and is much wider on the west side. Eight homes and the school are inside the floodplain on the west bank. Three homes stand on higher ground at the far west edge. The hospital and four homes stand on higher ground east of the river, outside the floodplain.",
+      "line": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ]
      }
     ],
     "legend": [
      {
       "swatch": "power",
-      "label": "100-year floodplain (1% chance of flooding each year)"
+      "label": "Area covered by the 1%-annual-chance flood, often called the 100-year floodplain"
      },
      {
       "swatch": "small",
@@ -2725,29 +3080,56 @@ How the stimulus types render (the JSON holds all of their data):
       "label": "Hospital"
      }
     ],
-    "description": "A river runs north to south through the map. The shaded 100-year floodplain lies along both banks and is much wider on the west side. Eight homes and the school are inside the floodplain on the west bank. Three homes stand on higher ground at the far west edge. The hospital and four homes stand on higher ground east of the river, outside the floodplain.",
+    "description": "The map combines building locations with the mapped 1%-annual-chance floodplain. North is at the top.",
     "source": "Hypothetical map"
    },
    "stem": "County planners made this map in a GIS by combining a flood-risk layer with the locations of buildings. Which decision is best supported by the map?",
    "options": {
     "A": "Building a levee along the east bank to protect the hospital",
     "B": "Moving the school out of the shaded zone onto higher ground",
-    "C": "Placing a new fire station in the shaded zone, near the most homes",
-    "D": "Rezoning the shaded zone on the west bank for more new housing",
+    "C": "Moving the homes at the far west edge out of the shaded zone",
+    "D": "Moving the hospital out of the shaded zone onto higher ground",
     "E": "Requiring flood insurance for the homes on higher ground east of the river"
    },
    "answer": "B",
-   "explanation": "The shaded zone is where a big flood has a 1 percent chance of happening each year. The school sits inside that zone, so a flood could damage it and put children at risk. Moving it to higher ground outside the zone is the decision the map supports.",
+   "explanation": "The school is inside the mapped floodplain. A flood this big or bigger has a 1 percent chance of happening in any given year. Moving the school to higher ground outside this area would lower its risk from river floods.",
    "whyNot": {
-    "A": "The hospital is already on higher ground outside the shaded zone, so a levee there protects the wrong place.",
-    "C": "Being close to homes helps, but a fire station inside the flood zone could be cut off or damaged in a flood.",
-    "D": "Adding housing in the shaded zone would put more people and buildings at risk.",
-    "E": "The homes east of the river are outside the shaded zone, so they face the lowest flood risk on the map."
+    "A": "The hospital is outside the mapped floodplain, while the school is inside it. The map points to protecting the school first.",
+    "C": "The three homes at the far west edge stand on higher ground, outside the shaded floodplain. The school is inside it.",
+    "D": "The hospital already stands on higher ground east of the river, outside the shaded floodplain. The school is inside it.",
+    "E": "These homes are outside the mapped floodplain. Places outside it can still flood, but the map shows the school at much greater risk."
    },
    "vocab": [
     "floodplain",
     "GIS",
     "layer"
+   ]
+  },
+  {
+   "id": "U1-P13",
+   "topic": "1.3",
+   "lo": "IMP-1.C",
+   "skill": "2.C",
+   "difficulty": "medium",
+   "stem": "A coffee company uses GIS to compare traffic counts, the locations of competing shops, and the incomes and ages of residents in each neighborhood before choosing where to open new stores. Which outcome is most likely?",
+   "options": {
+    "A": "New stores are spaced evenly across the city, one in each neighborhood",
+    "B": "New stores are concentrated in neighborhoods with the lowest property costs",
+    "C": "New stores are located where customer traits and access suggest strong demand",
+    "D": "New stores are placed far from busy roads so customers can avoid traffic",
+    "E": "New stores are located in the census tracts with the greatest total population"
+   },
+   "answer": "C",
+   "explanation": "GIS lets the company layer information about customers, traffic and access, and competing shops. Putting these layers together helps it choose places where many likely customers can easily reach a store. The data do not call for spacing stores evenly or choosing the cheapest land.",
+   "whyNot": {
+    "A": "Even spacing is not what the data point to. Demand, access, and competition differ from one neighborhood to another.",
+    "B": "Cheap property is only one factor. The company is weighing customers, traffic, and competitors together.",
+    "D": "Putting stores far from busy routes could make them harder for likely customers to reach.",
+    "E": "Population is only one factor. The company also weighs traffic and competitors, so total population alone would not decide."
+   },
+   "vocab": [
+    "GIS",
+    "geospatial data"
    ]
   },
   {
@@ -2769,7 +3151,7 @@ How the stimulus types render (the JSON holds all of their data):
    "whyNot": {
     "A": "Images show physical damage, not people's opinions. Interviews would be needed for that.",
     "B": "Satellite images show what already happened. They cannot predict when the next earthquake will strike.",
-    "C": "Images show buildings, not how many people lived inside. Census data would be needed for that.",
+    "C": "Images alone do not show how many people lived in each building. Occupancy records or checks on the ground would be needed.",
     "D": "Satellite images show damage, not when a building was built or what rules it followed. City records would be needed for that."
    },
    "vocab": [
@@ -2778,40 +3160,75 @@ How the stimulus types render (the JSON holds all of their data):
    ]
   },
   {
-   "id": "U1-P16",
-   "topic": "1.4",
-   "lo": "PSO-1.A",
-   "skill": "1.A",
-   "difficulty": "easy",
-   "stem": "Which of the following describes the absolute location of a place?",
+   "id": "U1-P12",
+   "topic": "1.3",
+   "lo": "IMP-1.C",
+   "skill": "3.D",
+   "difficulty": "medium",
+   "stimulus": {
+    "type": "bar",
+    "title": "CHILDREN UNDER AGE 5 BY NEIGHBORHOOD, CITY V, 2010 AND 2020 CENSUS (HYPOTHETICAL DATA)",
+    "categories": [
+     "Riverside",
+     "Oak Hill",
+     "Midtown",
+     "Westfield",
+     "Lakeview"
+    ],
+    "series": [
+     {
+      "name": "2010",
+      "values": [
+       650,
+       1200,
+       400,
+       900,
+       700
+      ]
+     },
+     {
+      "name": "2020",
+      "values": [
+       1480,
+       1050,
+       520,
+       1120,
+       610
+      ]
+     }
+    ],
+    "yLabel": "Children under age 5",
+    "yMax": 1600,
+    "description": "A grouped bar chart of the number of children under age 5 in five neighborhoods in 2010 and 2020. Riverside: 650 and 1,480. Oak Hill: 1,200 and 1,050. Midtown: 400 and 520. Westfield: 900 and 1,120. Lakeview: 700 and 610.",
+    "source": "Hypothetical data"
+   },
+   "stem": "A school district plans to build one new elementary school where the number of young children is growing fastest. Based on the census data in the chart, which neighborhood is the best location?",
    "options": {
-    "A": "It is at 32.8° N latitude, 96.8° W longitude.",
-    "B": "It is about 50 kilometers south of the state capital.",
-    "C": "It is on the east bank of the river, across from the old mill.",
-    "D": "It is a two-hour drive from the nearest seaport.",
-    "E": "It is next to the main highway, halfway between two large cities."
+    "A": "Riverside",
+    "B": "Oak Hill",
+    "C": "Midtown",
+    "D": "Westfield",
+    "E": "Lakeview"
    },
    "answer": "A",
-   "explanation": "Absolute location is an exact spot that does not change, usually given with latitude and longitude. Anyone can find 32.8° N, 96.8° W on a globe. The other choices describe where the place is compared to something else. That is relative location.",
+   "explanation": "Riverside's number of children under 5 more than doubled, from 650 to 1,480. That is both the biggest increase and the largest total in 2020. If other things are similar, these children point to the fastest-growing need for elementary school seats. This is how census data guide government decisions.",
    "whyNot": {
-    "B": "Distance from the capital compares the place to another place, so it is relative location.",
-    "C": "'Across from the old mill' is relative location. You have to know where the mill is.",
-    "D": "Driving time to a seaport is relative location, and it can change if roads change.",
-    "E": "'Halfway between two cities' is relative location."
+    "B": "Oak Hill had the most young children in 2010, but its number fell by 2020 (1,200 to 1,050).",
+    "C": "Midtown grew a little (400 to 520), but it still has the fewest young children.",
+    "D": "Westfield grew (900 to 1,120), but Riverside grew far more and now has more young children.",
+    "E": "Lakeview's number of young children fell (700 to 610)."
    },
    "vocab": [
-    "absolute location",
-    "relative location",
-    "latitude",
-    "longitude"
+    "census",
+    "geospatial data"
    ]
   },
   {
    "id": "U1-P17",
    "topic": "1.4",
    "lo": "PSO-1.A",
-   "skill": "2.C",
-   "difficulty": "hard",
+   "skill": "3.D",
+   "difficulty": "medium",
    "stimulus": {
     "type": "bar",
     "title": "SHARE OF A GROCERY STORE'S WEEKLY CUSTOMERS, BY DISTANCE FROM HOME TO THE STORE (HYPOTHETICAL DATA)",
@@ -2839,94 +3256,61 @@ How the stimulus types render (the JSON holds all of their data):
     "description": "A bar chart. Of the store's weekly customers, 41 percent live less than 1 km away, 26 percent live 1–2 km away, 16 percent live 2–3 km away, 10 percent live 3–4 km away, and 7 percent live 4–5 km away.",
     "source": "Hypothetical data"
    },
-   "stem": "The chart shows distance decay. Suppose a new expressway cuts driving times to the store from neighborhoods 3 to 5 kilometers away. Which change in the chart would most likely result?",
+   "stem": "Which pair of neighboring distance groups shows the largest drop in customer share, and which geographic pattern is that drop consistent with?",
    "options": {
-    "A": "The share of customers living under 1 km away would rise sharply",
-    "B": "The bars would reverse, with the most customers living 4–5 km away",
-    "C": "The 3–5 km bars would grow, making the drop-off with distance less steep",
-    "D": "The chart would stay the same, because the distance in kilometers would not change",
-    "E": "The 3–5 km bars would shrink, because more traffic would slow the trip"
+    "A": "From 1–2 km to 2–3 km; distance decay",
+    "B": "From 2–3 km to 3–4 km; time-space compression",
+    "C": "From under 1 km to 1–2 km; distance decay",
+    "D": "From 3–4 km to 4–5 km; time-space compression",
+    "E": "From under 1 km to 1–2 km; environmental determinism"
    },
    "answer": "C",
-   "explanation": "Distance decay means fewer people interact with a place the farther away they are, mostly because the trip takes more time and money. A faster expressway cuts the travel time from farther neighborhoods, so the store feels 'closer' to them. More people from 3 to 5 km away would shop there, and the drop-off in the chart would become less steep.",
+   "explanation": "The share drops from 41% in the nearest group to 26% in the next group. That is a drop of 15 percentage points. The other drops are 10, 6, and 3 points. Fewer customers coming from farther away fits distance decay: interaction with a place tends to fall as distance grows. The chart alone cannot show every cause, such as how many people live in each group or where other stores are.",
    "whyNot": {
-    "A": "The expressway helps farther neighborhoods, not the ones next door, so the nearest group would not jump.",
-    "B": "Faster roads weaken distance decay but do not flip it. Nearby people still have the shortest trip.",
-    "D": "The distance in kilometers stays the same, but travel time drops. People react to time and cost, so the pattern changes.",
-    "E": "The expressway is built to cut driving times, so the trip from 3 to 5 km away gets easier, not harder."
+    "A": "This drop is 10 percentage points (26 to 16), smaller than the 15-point drop between the two nearest groups.",
+    "B": "This drop is only 6 points (16 to 10). Also, the chart shows nothing about faster travel or new technology.",
+    "D": "This drop is only 3 points (10 to 7). Also, the chart shows nothing about faster travel or new technology.",
+    "E": "This is the largest drop, but nothing in the chart shows the physical environment controlling what people do."
    },
    "vocab": [
     "distance decay",
-    "time-space compression",
-    "friction of distance"
+    "percentage point"
    ]
   },
   {
-   "id": "U1-P18",
+   "id": "U1-P16",
    "topic": "1.4",
    "lo": "PSO-1.A",
-   "skill": "3.E",
-   "difficulty": "medium",
-   "stimulus": {
-    "type": "table",
-    "title": "FASTEST COMMON TRAVEL TIME BETWEEN PORT CITY A AND INLAND CITY B (HYPOTHETICAL DATA)",
-    "columns": [
-     "Year",
-     "Fastest common way to travel",
-     "Travel time"
-    ],
-    "rows": [
-     [
-      "1820",
-      "Horse-drawn coach",
-      "12 days"
-     ],
-     [
-      "1880",
-      "Steam railroad",
-      "30 hours"
-     ],
-     [
-      "1950",
-      "Car on a paved highway",
-      "9 hours"
-     ],
-     [
-      "2020",
-      "Commercial airplane",
-      "1.5 hours"
-     ]
-    ],
-    "description": "A table of the fastest common travel time between two cities in four years: 12 days in 1820, 30 hours in 1880, 9 hours in 1950, and 1.5 hours in 2020.",
-    "source": "Hypothetical data"
-   },
-   "stem": "Which concept is best illustrated by the trend in the table?",
+   "skill": "1.A",
+   "difficulty": "easy",
+   "stem": "Which of the following describes the absolute location of a place?",
    "options": {
-    "A": "Distance decay, because the two cities interact less as time passes",
-    "B": "Absolute distance, because the distance between the cities has shrunk",
-    "C": "Environmental determinism, because terrain controls the travel time",
-    "D": "Time-space compression, because new technology shrinks travel time",
-    "E": "Flows, because the table counts the travelers moving between the cities"
+    "A": "It is at 32.8° N latitude, 96.8° W longitude.",
+    "B": "It is about 50 kilometers south of the state capital.",
+    "C": "It is on the east bank of the river, across from the old mill.",
+    "D": "It is a two-hour drive from the nearest seaport.",
+    "E": "It is next to the main highway, halfway between two large cities."
    },
-   "answer": "D",
-   "explanation": "Time-space compression means places feel closer together because new technology makes travel and communication faster. The two cities never moved, but the trip shrank from 12 days to 1.5 hours.",
+   "answer": "A",
+   "explanation": "Absolute location names a place's exact position, using coordinates like latitude and longitude, or an address. The latitude and longitude in A pin down one spot on Earth. The other choices describe where a place is compared to something else. That is relative location.",
    "whyNot": {
-    "A": "Distance decay says interaction drops with distance. Here the trip got easier, which weakens distance decay.",
-    "B": "Absolute distance, measured in kilometers, did not change. Only the travel time did.",
-    "C": "The terrain stayed the same while the technology changed, so the environment did not control the trend.",
-    "E": "The table shows how long the trip takes, not how many people or goods move between the cities."
+    "B": "Distance from the capital compares the place to another place, so it is relative location.",
+    "C": "'Across from the old mill' is relative location. You have to know where the mill is.",
+    "D": "Driving time to a seaport is relative location, and it can change if roads change.",
+    "E": "'Halfway between two cities' is relative location."
    },
    "vocab": [
-    "time-space compression",
-    "absolute distance",
-    "relative distance"
+    "absolute location",
+    "relative location",
+    "latitude",
+    "longitude"
    ]
   },
   {
    "id": "U1-P19",
    "topic": "1.4",
    "lo": "PSO-1.A",
-   "skill": "1.A",
+   "skill": "1.D",
    "difficulty": "medium",
    "stem": "A geographer describes a town's hilly landscape, its brick houses, the language its residents speak, and its yearly harvest festival. The geographer is describing the town's",
    "options": {
@@ -2980,58 +3364,64 @@ How the stimulus types render (the JSON holds all of their data):
    ]
   },
   {
-   "id": "U1-P21",
-   "topic": "1.5",
-   "lo": "PSO-1.B",
-   "skill": "1.A",
-   "difficulty": "easy",
-   "stem": "Which of the following best describes environmental determinism?",
-   "options": {
-    "A": "The idea that climate and landforms control how human societies develop",
-    "B": "The idea that people can choose among several ways to use their environment",
-    "C": "The idea that resources should be used so future generations can also meet their needs",
-    "D": "The idea that interaction between places declines as the distance between them increases",
-    "E": "The idea that new technology makes distant places feel closer together"
-   },
-   "answer": "A",
-   "explanation": "Environmental determinism is an old idea that the physical environment, like climate and landforms, controls what people do and how societies develop. Geographers today reject it. Possibilism replaced it: the environment sets limits, but people make choices.",
-   "whyNot": {
-    "B": "That is possibilism, the idea that replaced environmental determinism.",
-    "C": "That is sustainability.",
-    "D": "That is distance decay, a spatial concept.",
-    "E": "That is time-space compression."
-   },
-   "vocab": [
-    "environmental determinism",
-    "possibilism"
-   ]
-  },
-  {
-   "id": "U1-P22",
-   "topic": "1.5",
-   "lo": "PSO-1.B",
-   "skill": "1.B",
+   "id": "U1-P18",
+   "topic": "1.4",
+   "lo": "PSO-1.A",
+   "skill": "3.E",
    "difficulty": "medium",
-   "stem": "In the Netherlands, people built dikes and pumped water out of shallow seas and lakes to create new farmland called polders. Which concept does this best illustrate?",
-   "options": {
-    "A": "Environmental determinism, because the low, wet land forced the Dutch to become farmers",
-    "B": "Environmental determinism, because the sea set the limits of where people could live",
-    "C": "Possibilism, because people used technology to work around an environmental limit",
-    "D": "Sustainability, because the drained land went back to its natural condition",
-    "E": "Distance decay, because the new farmland was created close to growing cities"
+   "stimulus": {
+    "type": "table",
+    "title": "FASTEST COMMON TRAVEL TIME BETWEEN PORT CITY A AND INLAND CITY B (HYPOTHETICAL DATA)",
+    "columns": [
+     "Year",
+     "Fastest common way to travel",
+     "Travel time"
+    ],
+    "rows": [
+     [
+      "1820",
+      "Horse-drawn coach",
+      "12 days"
+     ],
+     [
+      "1880",
+      "Steam railroad",
+      "30 hours"
+     ],
+     [
+      "1950",
+      "Car on a paved highway",
+      "9 hours"
+     ],
+     [
+      "2020",
+      "Commercial airplane",
+      "1.5 hours"
+     ]
+    ],
+    "description": "A table of the fastest common travel time between two cities in four years: 12 days in 1820, 30 hours in 1880, 9 hours in 1950, and 1.5 hours in 2020.",
+    "source": "Hypothetical data"
    },
-   "answer": "C",
-   "explanation": "Possibilism says the environment sets limits and offers choices, and people decide what to do using their technology and culture. The Dutch faced low land and water, but they built dikes and pumps to make new farmland. People shaped the result; the environment did not decide it for them.",
+   "stem": "Which concept is best illustrated by the trend in the table?",
+   "options": {
+    "A": "Distance decay, because the two cities interact less as time passes",
+    "B": "Absolute distance, because the distance between the cities has shrunk",
+    "C": "Environmental determinism, because terrain controls the travel time",
+    "D": "Time-space compression, because new technology shrinks travel time",
+    "E": "Flows, because the table counts the travelers moving between the cities"
+   },
+   "answer": "D",
+   "explanation": "Time-space compression means places feel closer together because new technology makes travel and communication faster. The two cities never moved, but the trip shrank from 12 days to 1.5 hours.",
    "whyNot": {
-    "A": "Determinism says nature controls people. Here people changed nature, which is the opposite.",
-    "B": "The sea did limit where people could live at first, but people pushed back that limit. That goes against determinism.",
-    "D": "Draining seas and lakes changed the natural environment a lot. The land did not go back to a natural state.",
-    "E": "The story is about turning water into land, not about how interaction drops off with distance."
+    "A": "Distance decay is about how interaction changes with distance. This table gives travel times between the same two cities, not interaction at different distances.",
+    "B": "Absolute distance, measured in kilometers, did not change. Only the travel time did.",
+    "C": "The table links shorter trips to new transportation technology. It does not show the environment controlling how people live.",
+    "E": "The table shows how long the trip takes, not how many people or goods move between the cities."
    },
    "vocab": [
-    "possibilism",
-    "polder",
-    "environmental determinism"
+    "time-space compression",
+    "absolute distance",
+    "relative distance"
    ]
   },
   {
@@ -3064,30 +3454,31 @@ How the stimulus types render (the JSON holds all of their data):
    ]
   },
   {
-   "id": "U1-P24",
+   "id": "U1-P22",
    "topic": "1.5",
    "lo": "PSO-1.B",
-   "skill": "1.E",
-   "difficulty": "hard",
-   "stem": "Which of the following is the strongest criticism geographers make of environmental determinism?",
+   "skill": "1.B",
+   "difficulty": "medium",
+   "stem": "In the Netherlands, people built dikes and pumped water out of shallow seas and lakes to create new farmland called polders. Which concept does this best illustrate?",
    "options": {
-    "A": "It gives too much credit to human technology and too little to the physical environment",
-    "B": "It focuses on local places and cannot be applied to whole world regions",
-    "C": "It is a new idea that has not yet been tested with data from many places",
-    "D": "It ignores human choice and was used to rank some societies above others",
-    "E": "It overlooks climate, which has little effect on where people live or how they farm"
+    "A": "Environmental determinism, because the low, wet land forced the Dutch to become farmers",
+    "B": "Environmental determinism, because the sea set the limits of where people could live",
+    "C": "Possibilism, because people used technology to work around an environmental limit",
+    "D": "Sustainability, because the drained land went back to its natural condition",
+    "E": "Distance decay, because the new farmland was created close to growing cities"
    },
-   "answer": "D",
-   "explanation": "Environmental determinism says climate and landforms control how people act. Geographers reject it because people make choices using their culture and technology. It was also used in the past to rank some societies above others, which helped people justify colonialism and racism. That is why possibilism replaced it.",
+   "answer": "C",
+   "explanation": "Possibilism says the environment sets limits and offers choices, and people decide what to do using their technology and culture. The Dutch faced low land and water, but they built dikes and pumps to make new farmland. People shaped the result; the environment did not decide it for them.",
    "whyNot": {
-    "A": "That points the wrong way. Determinism gives too much weight to the environment, not to technology.",
-    "B": "Determinists did apply the idea to whole world regions, for example by claiming climate shaped entire civilizations.",
-    "C": "Environmental determinism is an old idea. It was popular in the late 1800s and early 1900s and has since been rejected.",
-    "E": "Climate does affect people, for example which crops they can grow. The problem is claiming that it controls them."
+    "A": "The story is about people's decisions and technology changing how low, wet land could be used. It does not show nature forcing one outcome.",
+    "B": "The sea did limit land use, but human choices and engineering changed what was possible. That goes against determinism.",
+    "D": "Draining seas and lakes changed the wetland and coastal environment. The question does not say whether that change can last over the long term, and the land did not go back to its natural state.",
+    "E": "The story is about turning water into land, not about how interaction drops off with distance."
    },
    "vocab": [
-    "environmental determinism",
-    "possibilism"
+    "possibilism",
+    "polder",
+    "environmental determinism"
    ]
   },
   {
@@ -3098,7 +3489,7 @@ How the stimulus types render (the JSON holds all of their data):
    "difficulty": "medium",
    "stimulus": {
     "type": "bar",
-    "title": "AVERAGE DEPTH TO GROUNDWATER BELOW A DRY FARMING REGION, 1980–2020 (HYPOTHETICAL DATA)",
+    "title": "DEPTH TO GROUNDWATER IN AN ARID AGRICULTURAL REGION, 1980–2020 (HYPOTHETICAL DATA)",
     "categories": [
      "1980",
      "1990",
@@ -3130,15 +3521,15 @@ How the stimulus types render (the JSON holds all of their data):
     "B": "The dry climate controls how much water farms use, which supports environmental determinism",
     "C": "Groundwater is a nonrenewable resource, like coal, so pumping it uses it up",
     "D": "The rising depth numbers show that irrigation in the region can continue at its current rate",
-    "E": "Farmers are pumping water out faster than rain refills it, which is not sustainable"
+    "E": "The falling water table raises doubts that current groundwater use is sustainable"
    },
    "answer": "E",
-   "explanation": "The bars show the water getting deeper below the surface, from 20 meters to 58 meters. That means the water table is dropping. Rain refills the aquifer at about the same rate as before, so the drop comes from farmers pumping water out faster than nature puts it back. Using a resource faster than it renews is not sustainable.",
+   "explanation": "The water is farther below the surface every decade. From 1980 to 2020, the water table fell 38 meters (from 20 to 58 meters down). Rain still refills the aquifer at about the same rate, so the water being taken out each year is more than what comes back in. If that keeps going, wells could run dry, so the current use may not be sustainable. The chart does not measure the pumping itself.",
    "whyNot": {
     "A": "A bigger depth number means the water is farther down. The water table is falling, not rising.",
-    "B": "Determinism says nature controls people. Here people's pumping is changing nature.",
-    "C": "Unlike coal, groundwater is refilled by rain. The water table drops when pumping is faster than the refill rate.",
-    "D": "A water table that drops every decade shows that current pumping cannot go on forever."
+    "B": "Determinism says the environment controls how people live. This example is about how people's water use is changing the environment.",
+    "C": "The note says rain refills this aquifer. Some aquifers refill very slowly, but groundwater is not always nonrenewable like coal.",
+    "D": "A water table that keeps falling is a warning sign. It does not show that pumping can go on at the same rate."
    },
    "vocab": [
     "sustainability",
@@ -3148,30 +3539,112 @@ How the stimulus types render (the JSON holds all of their data):
    ]
   },
   {
+   "id": "U1-P24",
+   "topic": "1.5",
+   "lo": "PSO-1.B",
+   "skill": "1.E",
+   "difficulty": "hard",
+   "stem": "Which of the following is the strongest criticism geographers make of environmental determinism?",
+   "options": {
+    "A": "It gives too much credit to human technology and too little to the physical environment",
+    "B": "It focuses on local places and cannot be applied to whole world regions",
+    "C": "It was built to explain cities, so it cannot be applied to rural areas",
+    "D": "It ignores human choice and was used to rank some societies above others",
+    "E": "It overlooks climate, which has little effect on where people live or how they farm"
+   },
+   "answer": "D",
+   "explanation": "Environmental determinism says climate and landforms control how people act. Geographers reject it because people make choices using their culture and technology. It was also used in the past to rank some societies above others, which helped people justify colonialism and racism. That is why possibilism replaced it.",
+   "whyNot": {
+    "A": "That points the wrong way. Determinism gives too much weight to the environment, not to technology.",
+    "B": "Determinists did apply the idea to whole world regions, for example by claiming climate shaped entire civilizations.",
+    "C": "Determinists applied the idea to whole societies, rural and urban alike. The real problem is that it ignores human choice.",
+    "E": "Climate does affect people, for example which crops they can grow. The problem is claiming that it controls them."
+   },
+   "vocab": [
+    "environmental determinism",
+    "possibilism"
+   ]
+  },
+  {
+   "id": "U1-P21",
+   "topic": "1.5",
+   "lo": "PSO-1.B",
+   "skill": "1.A",
+   "difficulty": "easy",
+   "stem": "Which of the following best describes environmental determinism?",
+   "options": {
+    "A": "The idea that climate and landforms control how human societies develop",
+    "B": "The idea that people can choose among several ways to use their environment",
+    "C": "The idea that resources should be used so future generations can also meet their needs",
+    "D": "The idea that interaction between places declines as the distance between them increases",
+    "E": "The idea that new technology makes distant places feel closer together"
+   },
+   "answer": "A",
+   "explanation": "Environmental determinism is an old idea that the physical environment, like climate and landforms, controls what people do and how societies develop. Geographers today reject it. Possibilism replaced it: the environment sets limits, but people make choices.",
+   "whyNot": {
+    "B": "That is possibilism, the idea that replaced environmental determinism.",
+    "C": "That is sustainability.",
+    "D": "That is distance decay, a spatial concept.",
+    "E": "That is time-space compression."
+   },
+   "vocab": [
+    "environmental determinism",
+    "possibilism"
+   ]
+  },
+  {
+   "id": "U1-P28",
+   "topic": "1.6",
+   "lo": "PSO-1.D",
+   "skill": "5.B",
+   "difficulty": "hard",
+   "stem": "World population is still growing. Country Z's population is shrinking. Yet the population of Country Z's capital city is growing quickly. Which statement best explains how these patterns can all be true at once?",
+   "options": {
+    "A": "The three numbers conflict, so at least one data source is probably inaccurate",
+    "B": "The capital grows because world population growth is shared equally among cities",
+    "C": "Migration within Country Z could be shifting people from rural areas to the capital",
+    "D": "Country Z's shrinking population shows that world population is about to fall",
+    "E": "The capital's growth will soon make Country Z's national population grow again"
+   },
+   "answer": "C",
+   "explanation": "Different things can happen at different scales. Worldwide, births still outnumber deaths. Country Z may have few births or many people leaving, so it shrinks. But inside Country Z, many people may be moving from the countryside to the capital for jobs, so the capital grows. Looking at only one scale would miss part of the story.",
+   "whyNot": {
+    "A": "The numbers do not conflict. Each scale can show a different trend at the same time.",
+    "B": "Population growth is not shared out equally. Some places grow while others shrink.",
+    "D": "One country shrinking says little about the world total, since many other countries are still growing.",
+    "E": "People moving to the capital from elsewhere in Country Z do not add to the national total."
+   },
+   "vocab": [
+    "scale of analysis",
+    "rural-to-urban migration"
+   ]
+  },
+  {
    "id": "U1-P26",
    "topic": "1.6",
    "lo": "PSO-1.C",
    "skill": "5.A",
    "difficulty": "easy",
-   "stem": "A map shades each of the world's countries by its average life expectancy. At which scale of analysis is this map?",
+   "stem": "A world map shades each country by that country's average life expectancy. At which scale are the life-expectancy data aggregated (grouped) on this map?",
    "options": {
-    "A": "Global, because the area being studied is the entire Earth",
-    "B": "Regional, because the countries are grouped into continents",
-    "C": "National, because each country's average is shown separately",
-    "D": "Local, because life expectancy is recorded for each person",
-    "E": "Regional, because nearby countries often have similar values"
+    "A": "National, because each mapped value summarizes one country",
+    "B": "Regional, because neighboring countries may have similar life expectancies",
+    "C": "Global, because the display includes countries throughout the world",
+    "D": "Local, because life expectancy is calculated from records about individuals",
+    "E": "Regional, because each country belongs to a larger world region"
    },
    "answer": "A",
-   "explanation": "The scale of analysis is the size of the area being studied. This map covers the whole world, so it is global, even though the data are shown country by country. A map of only the countries of South America would be regional. A map of the states of Mexico would be national. A map of one city's neighborhoods would be local.",
+   "explanation": "The map covers the whole world, but each color shows one country's average. So the data are grouped at the national scale. The area a map shows (here, the world) and the level at which its data are grouped (here, countries) are two different things.",
    "whyNot": {
-    "B": "The map does not group countries into continents or cover just one part of the world. It covers every country.",
-    "C": "Each country gets its own color, but the map covers the whole world. A national-scale study looks inside one country, such as state by state.",
-    "D": "Life expectancy starts with records of people, but this map shows country averages for the whole world. Local scale covers a city or neighborhood.",
-    "E": "Neighboring countries may look alike, but the map still covers the whole world, so its scale is global."
+    "B": "Neighboring countries may look alike, but each value on the map still summarizes one country.",
+    "C": "Global describes the area the map shows. The map does not combine all countries into one worldwide number.",
+    "D": "Records about people were combined into country averages. No individual or neighborhood values are shown.",
+    "E": "The map shows a value for each country, not one average for each larger world region."
    },
    "vocab": [
     "scale of analysis",
-    "global scale"
+    "national scale",
+    "aggregated data"
    ]
   },
   {
@@ -3241,33 +3714,6 @@ How the stimulus types render (the JSON holds all of their data):
    ]
   },
   {
-   "id": "U1-P28",
-   "topic": "1.6",
-   "lo": "PSO-1.D",
-   "skill": "5.B",
-   "difficulty": "hard",
-   "stem": "World population is still growing. Country Z's population is shrinking. Yet the population of Country Z's capital city is growing quickly. Which statement best explains how these patterns can all be true at once?",
-   "options": {
-    "A": "The three numbers conflict, so at least one data source is probably inaccurate",
-    "B": "The capital grows because world population growth is shared equally among cities",
-    "C": "Migration within Country Z could be shifting people from rural areas to the capital",
-    "D": "Country Z's shrinking population shows that world population is about to fall",
-    "E": "The capital's growth will soon make Country Z's national population grow again"
-   },
-   "answer": "C",
-   "explanation": "Different things can happen at different scales. Worldwide, births still outnumber deaths. Country Z may have few births or many people leaving, so it shrinks. But inside Country Z, many people may be moving from the countryside to the capital for jobs, so the capital grows. Looking at only one scale would miss part of the story.",
-   "whyNot": {
-    "A": "The numbers do not conflict. Each scale can show a different trend at the same time.",
-    "B": "Population growth is not shared out equally. Some places grow while others shrink.",
-    "D": "One country shrinking says little about the world total, since many other countries are still growing.",
-    "E": "People moving to the capital from elsewhere in Country Z do not add to the national total."
-   },
-   "vocab": [
-    "scale of analysis",
-    "rural-to-urban migration"
-   ]
-  },
-  {
    "id": "U1-P29",
    "topic": "1.6",
    "lo": "PSO-1.C",
@@ -3282,11 +3728,11 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Local, because the question compares neighborhoods within one city"
    },
    "answer": "E",
-   "explanation": "Pick the scale that matches the question. This question compares neighborhoods inside one city, so the local scale fits. Global, regional, or national data would blur the differences between neighborhoods.",
+   "explanation": "Pick the scale that matches the question. This study compares neighborhoods inside one city, so it needs local data on where stores are and how far residents travel. National rules or world food markets might help explain the differences, but they cannot replace the neighborhood-by-neighborhood comparison.",
    "whyNot": {
-    "A": "World trade affects food prices, but it cannot explain why one neighborhood lacks a store and another has one.",
+    "A": "World food markets can affect local conditions, but global data alone would not show the differences between neighborhoods.",
     "B": "Chains may cross borders, but the question is about differences between neighborhoods in one city.",
-    "C": "A national rule would not explain why one neighborhood differs from others in the same city.",
+    "C": "National policies can affect where stores open, but this question needs data that tell neighborhoods within the city apart.",
     "D": "The census does collect neighborhood data across the country, but this study compares neighborhoods in one city, which is the local scale."
    },
    "vocab": [
@@ -3296,58 +3742,31 @@ How the stimulus types render (the JSON holds all of their data):
    ]
   },
   {
-   "id": "U1-P30",
-   "topic": "1.7",
-   "lo": "SPS-1.A",
-   "skill": "1.A",
-   "difficulty": "easy",
-   "stem": "An area in which a majority of residents speak French at home is best described as",
-   "options": {
-    "A": "a functional region, organized around a central node",
-    "B": "a perceptual region, based on people's feelings and images",
-    "C": "a transition zone, where two regions blend together",
-    "D": "a formal region, defined by a shared measurable trait",
-    "E": "a cultural hearth, the place where a language began"
-   },
-   "answer": "D",
-   "explanation": "A formal region (also called a uniform region) is an area where people share one or more measurable traits, like a language. You can draw its borders using data, such as census counts of the language people speak at home.",
-   "whyNot": {
-    "A": "A functional region is tied together by connections to a center, like a city's commuter zone. A shared language is a trait, not a connection.",
-    "B": "A perceptual region exists in people's minds, like 'the South.' A language majority can be measured with data.",
-    "C": "A transition zone is the fuzzy edge where regions blend. The question describes the region itself, not its edge.",
-    "E": "A hearth is where something started. The question is about where French is spoken now, not where it began."
-   },
-   "vocab": [
-    "formal region",
-    "uniform region"
-   ]
-  },
-  {
-   "id": "U1-P31",
-   "topic": "1.7",
-   "lo": "SPS-1.A",
-   "skill": "1.D",
+   "id": "U1-P36",
+   "topic": "1.6",
+   "lo": "PSO-1.D",
+   "skill": "3.F",
    "difficulty": "medium",
-   "stem": "The area from which a hospital draws most of its patients, centered on the hospital and fading with distance, is best described as a",
+   "stem": "County R's average household income rose by 10 percent from 2015 to 2025. Which statement about this county-level figure is most accurate?",
    "options": {
-    "A": "functional region, because it is organized around flows to a central node",
-    "B": "functional region, because its people share the same language and culture",
-    "C": "formal region, because its border is drawn on an official government map",
-    "D": "perceptual region, because its edges are fuzzy and fade with distance",
-    "E": "perceptual region, because patients feel loyal to their hospital"
+    "A": "It shows that incomes rose in each of the county's neighborhoods",
+    "B": "It shows that the poorest households gained the most income",
+    "C": "It cannot show a change for the county, since an average hides the differences",
+    "D": "It shows that the county's income grew faster than the nation's",
+    "E": "It cannot show whether incomes rose or fell in each neighborhood"
    },
-   "answer": "A",
-   "explanation": "A functional (nodal) region is held together by connections to a central point, called the node. Patients travel to the hospital, so the hospital is the node. Its pull is strongest nearby and weaker farther away, which is distance decay at work.",
+   "answer": "E",
+   "explanation": "A county average is one number for the whole county. Some neighborhoods may have gained a lot, and others may have lost. To see those differences, you need data grouped at a finer level, such as neighborhoods. One scale can hide what happens at another.",
    "whyNot": {
-    "B": "Sharing a language or culture defines a formal region. This region is defined by trips to the hospital.",
-    "C": "An official border does not make a region formal; a formal region shares a measurable trait. This area is defined by trips to a center.",
-    "D": "Many regions have fuzzy edges. This one is defined by flows to a central node, which makes it functional.",
-    "E": "Feelings define perceptual regions, but this area is defined by where patients actually come from."
+    "A": "An average can rise even if some neighborhoods lost income, so it cannot show that each neighborhood gained.",
+    "B": "An average does not show which households gained. The gains could have gone mostly to richer households.",
+    "C": "The county average does show a change for the county as a whole: a 10 percent rise. What it cannot show is how that change differed from place to place.",
+    "D": "The statement gives no national data, so it cannot be compared with the nation."
    },
    "vocab": [
-    "functional region",
-    "nodal region",
-    "node"
+    "scale of analysis",
+    "aggregated data",
+    "average"
    ]
   },
   {
@@ -3408,12 +3827,12 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "It is a perceptual region that begins sharply at the state capital"
    },
    "answer": "C",
-   "explanation": "\"Up North\" is a perceptual (vernacular) region: it exists because of how people see where they live. The share of people who say they live \"Up North\" rises little by little as you go north, from 6% to 95%. There is no single line where it starts, so its edge is a transition zone, and different people would draw it in different places.",
+   "explanation": "\"Up North\" is a perceptual (vernacular) region: it depends on how people see the place where they live. The share who say they live \"Up North\" rises little by little from county to county, from 6% to 95%, and people in the same county disagree. So there is no one border everyone accepts; the edge is a broad transition zone.",
    "whyNot": {
-    "A": "The share climbs step by step through all six counties (6, 22, 47, 71, 88, 95), so there is no sharp border between any two of them.",
+    "A": "The survey does not show an agreed border between Birch and Cedar. Answers are split inside both counties, and the share keeps rising across several counties.",
     "B": "Nothing in the table shows trips or connections to the capital. The region is defined by what people say about where they live.",
     "D": "Putting numbers on people's opinions does not make a region formal. The region is still based on how people see it, so it is perceptual.",
-    "E": "Even in Alder, closest to the capital, only 6% say they live \"Up North.\" The share rises slowly, so the region has no sharp start at the capital."
+    "E": "The table does not show a shared border at the capital. Even in Alder, closest to the capital, only 6% say they live \"Up North,\" and the share rises slowly to the north."
    },
    "vocab": [
     "perceptual region",
@@ -3436,9 +3855,9 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Mexico belongs to whichever region its absolute location places it in"
    },
    "answer": "B",
-   "explanation": "Geographers create regions by choosing what ties places together. North America is based on a continent, a physical landmass. Latin America is based on culture, such as languages that came from Spain and Portugal. The trade bloc is based on economic ties. Because each region uses a different trait, the same country can fit in all three. Regions can overlap.",
+   "explanation": "Geographers define regions by choosing what ties places together. North America is a continent, a physical landmass. Latin America is based on culture and history, such as languages that came from Latin, like Spanish and Portuguese. The trade bloc is based on an economic agreement. Because each region uses a different trait, the same country can fit in all three. Regions can overlap.",
    "whyNot": {
-    "A": "No law assigns countries to regions. Geographers and others draw regions for different purposes.",
+    "A": "Some regions, like trade blocs, are set up by agreements, but no single international rule assigns countries to every kind of region. These three groupings use different criteria.",
     "C": "Mexico belongs to all three regions at the same time today. This is not about borders moving.",
     "D": "North America is a continent. Latin America is a cultural region that also includes most of South America, so they are not the same.",
     "E": "Absolute location (latitude and longitude) cannot tell you a region based on culture or trade."
@@ -3447,6 +3866,61 @@ How the stimulus types render (the JSON holds all of their data):
     "region",
     "formal region",
     "overlapping regions"
+   ]
+  },
+  {
+   "id": "U1-P31",
+   "topic": "1.7",
+   "lo": "SPS-1.A",
+   "skill": "1.D",
+   "difficulty": "medium",
+   "stem": "The area from which a hospital draws most of its patients, centered on the hospital and fading with distance, is best described as a",
+   "options": {
+    "A": "functional region, because it is organized around flows to a central node",
+    "B": "functional region, because its people share the same language and culture",
+    "C": "formal region, because its border is drawn on an official government map",
+    "D": "perceptual region, because its edges are fuzzy and fade with distance",
+    "E": "perceptual region, because patients feel loyal to their hospital"
+   },
+   "answer": "A",
+   "explanation": "A functional (nodal) region is held together by connections to a central point, called the node. Patients travel to the hospital, so the hospital is the node. Its pull is strongest nearby and weaker farther away, which is distance decay at work.",
+   "whyNot": {
+    "B": "Sharing a language or culture defines a formal region. This region is defined by trips to the hospital.",
+    "C": "The question defines this area by patients' trips to a hospital, not by a government's official boundary or a shared trait.",
+    "D": "Many regions have fuzzy edges. This one is defined by flows to a central node, which makes it functional.",
+    "E": "Feelings define perceptual regions, but this area is defined by where patients actually come from."
+   },
+   "vocab": [
+    "functional region",
+    "nodal region",
+    "node"
+   ]
+  },
+  {
+   "id": "U1-P30",
+   "topic": "1.7",
+   "lo": "SPS-1.A",
+   "skill": "1.D",
+   "difficulty": "easy",
+   "stem": "An area in which a majority of residents speak French at home is best described as",
+   "options": {
+    "A": "a functional region, organized around a central node",
+    "B": "a perceptual region, based on people's feelings and images",
+    "C": "a transition zone, where two regions blend together",
+    "D": "a formal region, defined by a shared measurable trait",
+    "E": "a cultural hearth, the place where a language began"
+   },
+   "answer": "D",
+   "explanation": "A formal region (also called a uniform region) is an area where people share one or more measurable traits, like a language. You can draw its borders using data, such as census counts of the language people speak at home.",
+   "whyNot": {
+    "A": "A functional region is tied together by connections to a center, like a city's commuter zone. A shared language is a trait, not a connection.",
+    "B": "A perceptual region exists in people's minds, like 'the South.' A language majority can be measured with data.",
+    "C": "A transition zone is the fuzzy edge where regions blend. The question describes the region itself, not its edge.",
+    "E": "A hearth is where something started. The question is about where French is spoken now, not where it began."
+   },
+   "vocab": [
+    "formal region",
+    "uniform region"
    ]
   }
  ],
@@ -3483,41 +3957,42 @@ How the stimulus types render (the JSON holds all of their data):
     "explanation": "Choropleth maps color whole areas, like counties or states, by a rate or percentage. Darker usually means higher. The percent of residents age 65 or older in each county is a perfect fit."
    },
    {
-    "id": "U1-E02",
+    "id": "U1-E06",
     "n": 2,
-    "topic": "1.1",
-    "lo": "IMP-1.A",
-    "skill": "3.A",
-    "difficulty": "medium",
-    "stem": "Which type of map would best show the total number of passengers using each of a country's 25 busiest airports?",
+    "topic": "1.2",
+    "lo": "IMP-1.B",
+    "skill": "1.D",
+    "difficulty": "easy",
+    "stem": "A delivery app shows customers their driver's current position as the driver moves through the city. The app most directly relies on which geospatial technology to find the driver's position?",
     "options": {
-     "A": "A graduated symbol map with circles at each airport sized by its total",
-     "B": "A choropleth map shading each state by its number of airport passengers",
-     "C": "An isoline map connecting airports that have equal numbers of passengers",
-     "D": "A reference map showing the location and name of each airport",
-     "E": "A dot density map with one dot for each airport in the country"
+     "A": "A satellite navigation system such as GPS",
+     "B": "Remote sensing images taken by satellites",
+     "C": "A national census of population and housing",
+     "D": "Field interviews with drivers and customers",
+     "E": "A choropleth map of the city's neighborhoods"
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. A graduated symbol map places a symbol at each location and scales its size to the quantity, which suits totals at point locations such as airports.",
-     "B": "Incorrect. Shading whole states would hide which airports carry the traffic, and choropleth maps are better suited to rates than to raw totals.",
-     "C": "Incorrect. Isolines represent a continuous surface such as elevation or temperature; passenger counts at separate airports do not form a continuous surface.",
-     "D": "Incorrect. A reference map would show where the airports are but not how many passengers each one handles.",
-     "E": "Incorrect. One dot per airport shows only where airports are; it would not show differences in passenger totals."
+     "A": "Correct. Satellite navigation systems such as the Global Positioning System (GPS) use signals from satellites to calculate a receiver's position, which the app can display in real time.",
+     "B": "Incorrect. Remote sensing gathers images or other data about Earth's surface from a distance; it does not track the position of a phone in a moving car.",
+     "C": "Incorrect. A census counts people and housing at set times; it cannot locate a moving driver.",
+     "D": "Incorrect. Interviews could not continuously estimate the location of a moving phone.",
+     "E": "Incorrect. A choropleth map shades areas by a rate or percentage; it does not track the position of anything."
     },
-    "explanation": "Graduated symbol maps put a symbol, usually a circle, at each place and make it bigger for bigger numbers. A big circle means a busy airport, and a small circle means a less busy one."
+    "explanation": "GPS uses signals from satellites to estimate where a phone is. The driver's phone sends that location to the app, which shows it on a map."
    },
    {
     "id": "U1-E03",
     "n": 3,
     "set": "grids",
+    "setLabel": "Questions 3–4 refer to the two map grids below.",
     "topic": "1.1",
     "lo": "IMP-1.A",
     "skill": "4.D",
     "difficulty": "medium",
     "stimulus": {
      "type": "schematicMap",
-     "title": "TWO WORLD MAP GRIDS DRAWN AT THE SAME WIDTH: LINES OF LATITUDE EVERY 15° (75° S TO 75° N) AND LONGITUDE EVERY 30°",
+     "title": "TWO WORLD MAP GRIDS DRAWN AT THE SAME WIDTH",
      "canvas": {
       "width": 800,
       "height": 410
@@ -3582,12 +4057,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 meridian",
        "line": [
         [
-         35.0,
-         105.3
+         70.0,
+         118.2
         ],
         [
-         35.0,
-         324.7
+         70.0,
+         311.8
         ]
        ]
       },
@@ -3596,26 +4071,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 meridian",
        "line": [
         [
-         63.3,
-         105.3
+         95.0,
+         118.2
         ],
         [
-         63.3,
-         324.7
-        ]
-       ]
-      },
-      {
-       "kind": "line",
-       "name": "Map 1 meridian",
-       "line": [
-        [
-         91.7,
-         105.3
-        ],
-        [
-         91.7,
-         324.7
+         95.0,
+         311.8
         ]
        ]
       },
@@ -3625,11 +4086,11 @@ How the stimulus types render (the JSON holds all of their data):
        "line": [
         [
          120.0,
-         105.3
+         118.2
         ],
         [
          120.0,
-         324.7
+         311.8
         ]
        ]
       },
@@ -3638,12 +4099,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 meridian",
        "line": [
         [
-         148.3,
-         105.3
+         145.0,
+         118.2
         ],
         [
-         148.3,
-         324.7
+         145.0,
+         311.8
         ]
        ]
       },
@@ -3652,12 +4113,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 meridian",
        "line": [
         [
-         176.7,
-         105.3
+         170.0,
+         118.2
         ],
         [
-         176.7,
-         324.7
+         170.0,
+         311.8
         ]
        ]
       },
@@ -3666,12 +4127,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 meridian",
        "line": [
         [
-         205.0,
-         105.3
+         195.0,
+         118.2
         ],
         [
-         205.0,
-         324.7
+         195.0,
+         311.8
         ]
        ]
       },
@@ -3680,12 +4141,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 meridian",
        "line": [
         [
-         233.3,
-         105.3
+         220.0,
+         118.2
         ],
         [
-         233.3,
-         324.7
+         220.0,
+         311.8
         ]
        ]
       },
@@ -3694,12 +4155,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 meridian",
        "line": [
         [
-         261.7,
-         105.3
+         245.0,
+         118.2
         ],
         [
-         261.7,
-         324.7
+         245.0,
+         311.8
         ]
        ]
       },
@@ -3708,12 +4169,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 meridian",
        "line": [
         [
-         290.0,
-         105.3
+         270.0,
+         118.2
         ],
         [
-         290.0,
-         324.7
+         270.0,
+         311.8
         ]
        ]
       },
@@ -3722,12 +4183,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 meridian",
        "line": [
         [
-         318.3,
-         105.3
+         295.0,
+         118.2
         ],
         [
-         318.3,
-         324.7
+         295.0,
+         311.8
         ]
        ]
       },
@@ -3736,12 +4197,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 meridian",
        "line": [
         [
-         346.7,
-         105.3
+         320.0,
+         118.2
         ],
         [
-         346.7,
-         324.7
+         320.0,
+         311.8
         ]
        ]
       },
@@ -3750,12 +4211,26 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 meridian",
        "line": [
         [
-         375.0,
-         105.3
+         345.0,
+         118.2
         ],
         [
-         375.0,
-         324.7
+         345.0,
+         311.8
+        ]
+       ]
+      },
+      {
+       "kind": "line",
+       "name": "Map 1 meridian",
+       "line": [
+        [
+         370.0,
+         118.2
+        ],
+        [
+         370.0,
+         311.8
         ]
        ]
       },
@@ -3764,12 +4239,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 parallel",
        "line": [
         [
-         35,
-         324.7
+         70,
+         311.8
         ],
         [
-         375,
-         324.7
+         370,
+         311.8
         ]
        ],
        "dashed": false
@@ -3779,12 +4254,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 parallel",
        "line": [
         [
-         35,
-         286.3
+         70,
+         277.9
         ],
         [
-         375,
-         286.3
+         370,
+         277.9
         ]
        ],
        "dashed": false
@@ -3794,12 +4269,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 parallel",
        "line": [
         [
-         35,
-         262.7
+         70,
+         257.1
         ],
         [
-         375,
-         262.7
+         370,
+         257.1
         ]
        ],
        "dashed": false
@@ -3809,12 +4284,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 parallel",
        "line": [
         [
-         35,
-         244.7
+         70,
+         241.2
         ],
         [
-         375,
-         244.7
+         370,
+         241.2
         ]
        ],
        "dashed": false
@@ -3824,12 +4299,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 parallel",
        "line": [
         [
-         35,
-         229.3
+         70,
+         227.6
         ],
         [
-         375,
-         229.3
+         370,
+         227.6
         ]
        ],
        "dashed": false
@@ -3839,11 +4314,11 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 Equator",
        "line": [
         [
-         35,
+         70,
          215.0
         ],
         [
-         375,
+         370,
          215.0
         ]
        ],
@@ -3854,12 +4329,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 parallel",
        "line": [
         [
-         35,
-         200.7
+         70,
+         202.4
         ],
         [
-         375,
-         200.7
+         370,
+         202.4
         ]
        ],
        "dashed": false
@@ -3869,12 +4344,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 parallel",
        "line": [
         [
-         35,
-         185.3
+         70,
+         188.8
         ],
         [
-         375,
-         185.3
+         370,
+         188.8
         ]
        ],
        "dashed": false
@@ -3884,12 +4359,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 parallel",
        "line": [
         [
-         35,
-         167.3
+         70,
+         172.9
         ],
         [
-         375,
-         167.3
+         370,
+         172.9
         ]
        ],
        "dashed": false
@@ -3899,12 +4374,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 parallel",
        "line": [
         [
-         35,
-         143.7
+         70,
+         152.1
         ],
         [
-         375,
-         143.7
+         370,
+         152.1
         ]
        ],
        "dashed": false
@@ -3914,27 +4389,137 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 1 parallel",
        "line": [
         [
-         35,
-         105.3
+         70,
+         118.2
         ],
         [
-         375,
-         105.3
+         370,
+         118.2
         ]
        ],
        "dashed": false
+      },
+      {
+       "kind": "land",
+       "name": "75° N",
+       "polygon": [
+        [
+         40,
+         118.2
+        ],
+        [
+         40,
+         118.2
+        ],
+        [
+         40,
+         118.2
+        ]
+       ],
+       "labelAt": [
+        40,
+        117.2
+       ]
+      },
+      {
+       "kind": "land",
+       "name": "45° N",
+       "polygon": [
+        [
+         40,
+         172.9
+        ],
+        [
+         40,
+         172.9
+        ],
+        [
+         40,
+         172.9
+        ]
+       ],
+       "labelAt": [
+        40,
+        171.9
+       ]
+      },
+      {
+       "kind": "land",
+       "name": "0°",
+       "polygon": [
+        [
+         40,
+         215.0
+        ],
+        [
+         40,
+         215.0
+        ],
+        [
+         40,
+         215.0
+        ]
+       ],
+       "labelAt": [
+        40,
+        214.0
+       ]
+      },
+      {
+       "kind": "land",
+       "name": "45° S",
+       "polygon": [
+        [
+         40,
+         257.1
+        ],
+        [
+         40,
+         257.1
+        ],
+        [
+         40,
+         257.1
+        ]
+       ],
+       "labelAt": [
+        40,
+        256.1
+       ]
+      },
+      {
+       "kind": "land",
+       "name": "75° S",
+       "polygon": [
+        [
+         40,
+         311.8
+        ],
+        [
+         40,
+         311.8
+        ],
+        [
+         40,
+         311.8
+        ]
+       ],
+       "labelAt": [
+        40,
+        310.8
+       ]
       },
       {
        "kind": "line",
        "name": "Map 2 meridian",
        "line": [
         [
-         425.0,
-         110.5
+         460.0,
+         122.8
         ],
         [
-         425.0,
-         319.5
+         460.0,
+         307.2
         ]
        ]
       },
@@ -3943,26 +4528,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 meridian",
        "line": [
         [
-         453.3,
-         110.5
+         485.0,
+         122.8
         ],
         [
-         453.3,
-         319.5
-        ]
-       ]
-      },
-      {
-       "kind": "line",
-       "name": "Map 2 meridian",
-       "line": [
-        [
-         481.7,
-         110.5
-        ],
-        [
-         481.7,
-         319.5
+         485.0,
+         307.2
         ]
        ]
       },
@@ -3972,11 +4543,11 @@ How the stimulus types render (the JSON holds all of their data):
        "line": [
         [
          510.0,
-         110.5
+         122.8
         ],
         [
          510.0,
-         319.5
+         307.2
         ]
        ]
       },
@@ -3985,12 +4556,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 meridian",
        "line": [
         [
-         538.3,
-         110.5
+         535.0,
+         122.8
         ],
         [
-         538.3,
-         319.5
+         535.0,
+         307.2
         ]
        ]
       },
@@ -3999,12 +4570,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 meridian",
        "line": [
         [
-         566.7,
-         110.5
+         560.0,
+         122.8
         ],
         [
-         566.7,
-         319.5
+         560.0,
+         307.2
         ]
        ]
       },
@@ -4013,12 +4584,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 meridian",
        "line": [
         [
-         595.0,
-         110.5
+         585.0,
+         122.8
         ],
         [
-         595.0,
-         319.5
+         585.0,
+         307.2
         ]
        ]
       },
@@ -4027,12 +4598,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 meridian",
        "line": [
         [
-         623.3,
-         110.5
+         610.0,
+         122.8
         ],
         [
-         623.3,
-         319.5
+         610.0,
+         307.2
         ]
        ]
       },
@@ -4041,12 +4612,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 meridian",
        "line": [
         [
-         651.7,
-         110.5
+         635.0,
+         122.8
         ],
         [
-         651.7,
-         319.5
+         635.0,
+         307.2
         ]
        ]
       },
@@ -4055,12 +4626,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 meridian",
        "line": [
         [
-         680.0,
-         110.5
+         660.0,
+         122.8
         ],
         [
-         680.0,
-         319.5
+         660.0,
+         307.2
         ]
        ]
       },
@@ -4069,12 +4640,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 meridian",
        "line": [
         [
-         708.3,
-         110.5
+         685.0,
+         122.8
         ],
         [
-         708.3,
-         319.5
+         685.0,
+         307.2
         ]
        ]
       },
@@ -4083,12 +4654,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 meridian",
        "line": [
         [
-         736.7,
-         110.5
+         710.0,
+         122.8
         ],
         [
-         736.7,
-         319.5
+         710.0,
+         307.2
         ]
        ]
       },
@@ -4097,12 +4668,26 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 meridian",
        "line": [
         [
-         765.0,
-         110.5
+         735.0,
+         122.8
         ],
         [
-         765.0,
-         319.5
+         735.0,
+         307.2
+        ]
+       ]
+      },
+      {
+       "kind": "line",
+       "name": "Map 2 meridian",
+       "line": [
+        [
+         760.0,
+         122.8
+        ],
+        [
+         760.0,
+         307.2
         ]
        ]
       },
@@ -4111,12 +4696,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 parallel",
        "line": [
         [
-         425,
-         319.5
+         460,
+         307.2
         ],
         [
-         765,
-         319.5
+         760,
+         307.2
         ]
        ],
        "dashed": false
@@ -4126,12 +4711,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 parallel",
        "line": [
         [
-         425,
-         308.7
+         460,
+         297.7
         ],
         [
-         765,
-         308.7
+         760,
+         297.7
         ]
        ],
        "dashed": false
@@ -4141,12 +4726,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 parallel",
        "line": [
         [
-         425,
-         291.5
+         460,
+         282.5
         ],
         [
-         765,
-         291.5
+         760,
+         282.5
         ]
        ],
        "dashed": false
@@ -4156,12 +4741,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 parallel",
        "line": [
         [
-         425,
-         269.1
+         460,
+         262.7
         ],
         [
-         765,
-         269.1
+         760,
+         262.7
         ]
        ],
        "dashed": false
@@ -4171,12 +4756,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 parallel",
        "line": [
         [
-         425,
-         243.0
+         460,
+         239.7
         ],
         [
-         765,
-         243.0
+         760,
+         239.7
         ]
        ],
        "dashed": false
@@ -4186,11 +4771,11 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 Equator",
        "line": [
         [
-         425,
+         460,
          215.0
         ],
         [
-         765,
+         760,
          215.0
         ]
        ],
@@ -4201,12 +4786,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 parallel",
        "line": [
         [
-         425,
-         187.0
+         460,
+         190.3
         ],
         [
-         765,
-         187.0
+         760,
+         190.3
         ]
        ],
        "dashed": false
@@ -4216,12 +4801,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 parallel",
        "line": [
         [
-         425,
-         160.9
+         460,
+         167.3
         ],
         [
-         765,
-         160.9
+         760,
+         167.3
         ]
        ],
        "dashed": false
@@ -4231,12 +4816,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 parallel",
        "line": [
         [
-         425,
-         138.5
+         460,
+         147.5
         ],
         [
-         765,
-         138.5
+         760,
+         147.5
         ]
        ],
        "dashed": false
@@ -4246,12 +4831,12 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 parallel",
        "line": [
         [
-         425,
-         121.3
+         460,
+         132.3
         ],
         [
-         765,
-         121.3
+         760,
+         132.3
         ]
        ],
        "dashed": false
@@ -4261,15 +4846,139 @@ How the stimulus types render (the JSON holds all of their data):
        "name": "Map 2 parallel",
        "line": [
         [
-         425,
-         110.5
+         460,
+         122.8
         ],
         [
-         765,
-         110.5
+         760,
+         122.8
         ]
        ],
        "dashed": false
+      },
+      {
+       "kind": "land",
+       "name": "75° N",
+       "polygon": [
+        [
+         430,
+         122.8
+        ],
+        [
+         430,
+         122.8
+        ],
+        [
+         430,
+         122.8
+        ]
+       ],
+       "labelAt": [
+        430,
+        121.8
+       ]
+      },
+      {
+       "kind": "land",
+       "name": "45° N",
+       "polygon": [
+        [
+         430,
+         147.5
+        ],
+        [
+         430,
+         147.5
+        ],
+        [
+         430,
+         147.5
+        ]
+       ],
+       "labelAt": [
+        430,
+        146.5
+       ]
+      },
+      {
+       "kind": "land",
+       "name": "0°",
+       "polygon": [
+        [
+         430,
+         215.0
+        ],
+        [
+         430,
+         215.0
+        ],
+        [
+         430,
+         215.0
+        ]
+       ],
+       "labelAt": [
+        430,
+        214.0
+       ]
+      },
+      {
+       "kind": "land",
+       "name": "45° S",
+       "polygon": [
+        [
+         430,
+         282.5
+        ],
+        [
+         430,
+         282.5
+        ],
+        [
+         430,
+         282.5
+        ]
+       ],
+       "labelAt": [
+        430,
+        281.5
+       ]
+      },
+      {
+       "kind": "land",
+       "name": "75° S",
+       "polygon": [
+        [
+         430,
+         307.2
+        ],
+        [
+         430,
+         307.2
+        ],
+        [
+         430,
+         307.2
+        ]
+       ],
+       "labelAt": [
+        430,
+        306.2
+       ]
+      },
+      {
+       "kind": "line",
+       "name": "For screen readers: On Map 1, the gaps between lines of latitude grow wider toward the poles. On Map 2, the gaps between lines of latitude grow narrower toward the poles. On both maps, lines of longitude are straight, parallel, and evenly spaced.",
+       "line": [
+        [
+         0,
+         0
+        ],
+        [
+         0,
+         0
+        ]
+       ]
       }
      ],
      "legend": [
@@ -4278,7 +4987,7 @@ How the stimulus types render (the JSON holds all of their data):
        "label": "Equator (0°)"
       }
      ],
-     "description": "Two rectangular grids of the same width. Each shows the same lines of latitude (every 15 degrees, from 75° S at the bottom to 75° N at the top) and the same lines of longitude (every 30 degrees). On both maps, lines of longitude are straight, parallel, and evenly spaced. On Map 1, the gaps between lines of latitude grow wider toward the poles. On Map 2, the gaps between lines of latitude grow narrower toward the poles.",
+     "description": "Both grids show parallels (lines of latitude) at 15° intervals from 75° S to 75° N and meridians (lines of longitude) at 30° intervals. The dashed horizontal line is the equator.",
      "source": "Grid spacing computed from two standard world map projection formulas"
     },
     "stem": "Which statement best describes how Map 1 differs from Map 2?",
@@ -4321,89 +5030,225 @@ How the stimulus types render (the JSON holds all of their data):
      "B": "Correct. To keep area true, an equal-area cylindrical map shrinks north–south distances toward the poles while east–west distances are stretched, so high-latitude landmasses look flattened. Equal-area maps give up correct shape.",
      "C": "Incorrect. Showing compass bearings as straight lines is the strength of the Mercator projection, the type shown in Map 1, not of an equal-area map.",
      "D": "Incorrect. True distances from a center point are a property of azimuthal equidistant projections, which are built around a center point rather than a rectangular grid.",
-     "E": "Incorrect. Compromise projections such as the Robinson spread small distortions across all four properties; Map 2 keeps area exact and gives up correct shape."
+     "E": "Incorrect. A compromise projection such as the Robinson balances several kinds of distortion without keeping area or shape exactly true; Map 2 keeps relative area true and gives up correct shape."
     },
     "explanation": "Every map projection gives something up. Map 2 keeps areas correct, but to do that it squishes places near the poles from top to bottom, so their shapes look flat and wide. You can trust Map 2 for comparing sizes, not shapes."
    },
    {
-    "id": "U1-E05",
+    "id": "U1-E11",
     "n": 5,
-    "topic": "1.1",
-    "lo": "IMP-1.A",
-    "skill": "1.B",
-    "difficulty": "medium",
-    "stem": "A subway map shows each line as a straight colored path with evenly spaced stations, even though the real tracks curve and the stations are different distances apart. Which statement best explains why the mapmaker drew it this way?",
-    "options": {
-     "A": "The mapmaker lacked accurate GPS data on the location of each station",
-     "B": "Subway maps are reference maps, which require exact distances and shapes",
-     "C": "The map is an isoline map that connects stations with equal numbers of riders",
-     "D": "Map projections badly distort shape and area on maps of small areas such as a city",
-     "E": "All maps are selective, and this one trades true distance for clear connections"
-    },
-    "answer": "E",
-    "rationales": {
-     "A": "Incorrect. The simplification is a deliberate design choice; accurate location data are easy to obtain, and the map leaves them out on purpose.",
-     "B": "Incorrect. Reference maps help users locate places, but no map shows everything exactly; this map deliberately gives up true distance.",
-     "C": "Incorrect. Isoline maps connect points of equal value on a continuous surface; subway lines connect stations along a route.",
-     "D": "Incorrect. Projection distortion is very small over an area as small as a city, so it cannot explain straightened lines and evenly spaced stations.",
-     "E": "Correct. All maps are selective in the information they show. A transit map gives up accurate distance and shape to make routes, transfers, and the order of stations easy to read."
-    },
-    "explanation": "Every map leaves things out or changes things on purpose. A subway rider needs to know the order of the stops and where to switch lines, not the exact curve of the tracks. So the mapmaker straightened the lines to make the map easy to use."
-   },
-   {
-    "id": "U1-E06",
-    "n": 6,
-    "topic": "1.2",
-    "lo": "IMP-1.B",
-    "skill": "1.D",
-    "difficulty": "easy",
-    "stem": "A delivery app shows customers exactly where their driver is as the driver moves through the city. The app most directly relies on which geospatial technology to find the driver's position?",
-    "options": {
-     "A": "A satellite navigation system such as GPS",
-     "B": "Remote sensing images taken by satellites",
-     "C": "A national census of population and housing",
-     "D": "Field interviews with drivers and customers",
-     "E": "A choropleth map of the city's neighborhoods"
-    },
-    "answer": "A",
-    "rationales": {
-     "A": "Correct. Satellite navigation systems such as the Global Positioning System (GPS) use signals from satellites to calculate a receiver's position, which the app can display in real time.",
-     "B": "Incorrect. Remote sensing gathers images or other data about Earth's surface from a distance; it does not track the position of a phone in a moving car.",
-     "C": "Incorrect. A census counts people and housing at set times; it cannot locate a moving driver.",
-     "D": "Incorrect. Interviews collect qualitative information about people's experiences, not precise real-time positions.",
-     "E": "Incorrect. A choropleth map shades areas by a rate or percentage; it does not track the position of anything."
-    },
-    "explanation": "GPS uses signals from satellites to figure out exactly where a phone or other receiver is. The driver's phone finds its spot with GPS, and the app shows that spot on a map."
-   },
-   {
-    "id": "U1-E07",
-    "n": 7,
-    "topic": "1.2",
-    "lo": "IMP-1.B",
+    "topic": "1.4",
+    "lo": "PSO-1.A",
     "skill": "1.A",
-    "difficulty": "medium",
-    "stem": "A geographer studying a neighborhood's history reads letters written by early settlers, newspaper stories from the 1920s, and a city planning report from 1965. These sources are best described as",
+    "difficulty": "easy",
+    "stem": "Which of the following statements describes a town's relative location?",
     "options": {
-     "A": "geospatial data collected with remote sensing",
-     "B": "quantitative data gathered by a national census",
-     "C": "written accounts that provide spatial information",
-     "D": "layers created with a geographic information system",
-     "E": "field data collected with a satellite navigation system"
+     "A": "The town hall stands at 35.2° N latitude and 97.4° W longitude.",
+     "B": "The town lies 60 kilometers upstream from the river's mouth.",
+     "C": "The town is home to about 25,000 people.",
+     "D": "The town's hilly land and rocky soil limit farming.",
+     "E": "The town's name comes from a local word for \"meeting place.\""
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Latitude and longitude give absolute location, a position that does not depend on other places.",
+     "B": "Correct. Relative location describes a place in relation to other places or features, here the river's mouth.",
+     "C": "Incorrect. Population size is a characteristic of the place, not a description of where it is.",
+     "D": "Incorrect. Hilly land and rocky soil describe the town's site, its physical setting, not its position relative to other places.",
+     "E": "Incorrect. A place name, or toponym, can reveal history or culture but does not describe location."
+    },
+    "explanation": "Relative location tells where a place is compared to something else, like \"60 kilometers upstream from the river's mouth.\" Absolute location uses exact coordinates instead."
+   },
+   {
+    "id": "U1-E18",
+    "n": 6,
+    "set": "scales",
+    "setLabel": "Questions 6–8 refer to the table below.",
+    "topic": "1.6",
+    "lo": "PSO-1.D",
+    "skill": "5.C",
+    "difficulty": "medium",
+    "stimulus": {
+     "type": "table",
+     "title": "POPULATION CHANGE IN COUNTRY Y AT THREE SCALES, 2015–2025 (HYPOTHETICAL DATA)",
+     "columns": [
+      "Area",
+      "Population, 2015 (millions)",
+      "Population, 2025 (millions)",
+      "Change (%)"
+     ],
+     "rows": [
+      [
+       "Country Y (national)",
+       "20.00",
+       "20.40",
+       "+2.0"
+      ],
+      [
+       "Province 1",
+       "8.00",
+       "8.64",
+       "+8.0"
+      ],
+      [
+       "Province 2",
+       "7.00",
+       "6.65",
+       "−5.0"
+      ],
+      [
+       "Province 3",
+       "5.00",
+       "5.11",
+       "+2.2"
+      ],
+      [
+       "Province 2: Capital District",
+       "2.00",
+       "2.12",
+       "+6.0"
+      ],
+      [
+       "Province 2: River District",
+       "3.00",
+       "2.73",
+       "−9.0"
+      ],
+      [
+       "Province 2: Hill District",
+       "2.00",
+       "1.80",
+       "−10.0"
+      ]
+     ],
+     "description": "A table of population in 2015 and 2025 for Country Y as a whole, for its three provinces, and for the three districts that make up Province 2.",
+     "source": "Hypothetical data"
+    },
+    "stem": "Which statement is best supported by comparing the national data with the provincial data?",
+    "options": {
+     "A": "The national growth rate accurately describes the change in each province",
+     "B": "Province 3's growth was caused by people moving there from Province 2",
+     "C": "Modest national growth hides a population decline in one province",
+     "D": "Province 2's decline means Country Y is likely to lose population soon",
+     "E": "Province 1 grew fastest because it has the largest land area"
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. Remote sensing collects data from a distance, such as satellite images, not letters or reports.",
-     "B": "Incorrect. Census data are counts of people and housing collected by a government; letters and news stories are written accounts.",
-     "C": "Correct. The AP course framework lists written accounts, such as field observations, media reports, travel narratives, policy documents, and personal interviews, as sources of spatial information. Settlers' letters, old newspaper stories, and a planning report fit this category.",
-     "D": "Incorrect. A GIS is a tool for storing and analyzing data in layers; the sources themselves are written documents.",
-     "E": "Incorrect. Satellite navigation systems such as GPS record precise positions; they do not produce letters or reports."
+     "A": "Incorrect. Provincial changes range from a gain of 8.0 percent to a loss of 5.0 percent, so the national figure of +2.0 percent does not describe each province.",
+     "B": "Incorrect. The table shows population change but not migration flows; it cannot show where Province 3's new residents came from.",
+     "C": "Correct. At the national scale Country Y grew by 2.0 percent, but at the provincial scale Province 2 lost 5.0 percent. Changing the scale of analysis reveals variation that the national figure hides.",
+     "D": "Incorrect. Growth in Provinces 1 and 3 more than offset Province 2's loss; the data do not show that the national population is about to fall.",
+     "E": "Incorrect. The table contains no data on land area, so it cannot support a claim about why Province 1 grew fastest."
     },
-    "explanation": "Letters, newspaper stories, and government reports are written accounts. Geographers use them to learn what places were like and how people saw them. They are not numbers from a census or pictures from a satellite."
+    "explanation": "The whole country grew a little (+2.0%). But zoom in to the provinces and you see Province 2 actually lost people (−5.0%). The national number hid that. Changing the scale shows a different pattern."
+   },
+   {
+    "id": "U1-E19",
+    "n": 7,
+    "set": "scales",
+    "topic": "1.6",
+    "lo": "PSO-1.D",
+    "skill": "5.C",
+    "difficulty": "medium",
+    "stem": "Which conclusion is best supported by the district-level data for Province 2?",
+    "options": {
+     "A": "River and Hill districts shrank because they are farthest from Country Y's capital",
+     "B": "The Capital District's growth shows that Province 2 as a whole is growing",
+     "C": "District data add little, since they show the same pattern as provincial data",
+     "D": "The Capital District grew because it has a higher birth rate than other districts",
+     "E": "The Capital District grew even though Province 2 as a whole lost people"
+    },
+    "answer": "E",
+    "rationales": {
+     "A": "Incorrect. The table gives no information about where the districts are or how far they are from the national capital, so it cannot support this explanation.",
+     "B": "Incorrect. Province 2 lost 5.0 percent overall; growth in one district did not offset losses in the other two.",
+     "C": "Incorrect. The district data reveal a growing Capital District that the provincial figure of −5.0 percent hides, so they add important information.",
+     "D": "Incorrect. The table gives total population, not births, deaths, or migration, so it cannot identify the cause of growth.",
+     "E": "Correct. The Capital District grew by 6.0 percent while Province 2 as a whole declined by 5.0 percent. District-level data reveal variation hidden by the provincial total."
+    },
+    "explanation": "Province 2 shrank overall. But zooming in again shows that its Capital District grew by 6%, while the other two districts lost a lot of people. One more change of scale reveals one more hidden pattern."
+   },
+   {
+    "id": "U1-E20",
+    "n": 8,
+    "set": "scales",
+    "topic": "1.3",
+    "lo": "IMP-1.C",
+    "skill": "3.F",
+    "difficulty": "hard",
+    "stem": "The government plans to use these population data to decide which districts need new primary schools. Which approach best addresses a limitation of the table?",
+    "options": {
+     "A": "Assume school demand grows by the national rate of 2.0 percent in each district",
+     "B": "Rule out new schools anywhere in Province 2, since the province lost population",
+     "C": "Use each district's total population to set how many new classrooms it needs",
+     "D": "Collect each district's number of school-age children and existing school capacity",
+     "E": "Collect each district's land area so planners can compare population density"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. The national average hides differences among districts and does not measure the number of school-age children.",
+     "B": "Incorrect. The Capital District grew by 6.0 percent even though Province 2 declined overall; provincial totals can hide local needs.",
+     "C": "Incorrect. Total population does not show how many children need primary school or how much classroom space already exists.",
+     "D": "Correct. Geographic data guide government decisions at every scale, but the table shows only total population change. District-level counts of school-age children and existing school capacity are needed to judge where new schools are required.",
+     "E": "Incorrect. Land area and density show crowding, not how many school-age children live in each district or whether existing schools have room."
+    },
+    "explanation": "The table shows where the total number of people grew or shrank. It does not show how many young children live in each district or whether schools there have room. The government needs those district-level facts before deciding where to build."
+   },
+   {
+    "id": "U1-E02",
+    "n": 9,
+    "topic": "1.1",
+    "lo": "IMP-1.A",
+    "skill": "3.A",
+    "difficulty": "medium",
+    "stem": "Which type of map would best show the total number of passengers using each of a country's 25 busiest airports?",
+    "options": {
+     "A": "A graduated symbol map with airport circles sized by passenger-count range",
+     "B": "A choropleth map shading each state by its number of airport passengers",
+     "C": "An isoline map connecting airports that have equal numbers of passengers",
+     "D": "A reference map showing the location and name of each airport",
+     "E": "A dot density map with one dot for each airport in the country"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. A graduated symbol map places a symbol at each location and uses bigger symbols for higher value ranges, which suits totals at point locations such as airports. (A proportional symbol map, which scales each circle to its exact value, works the same way.)",
+     "B": "Incorrect. Shading whole states would hide which airports carry the traffic, and choropleth maps are better suited to rates than to raw totals.",
+     "C": "Incorrect. Isolines represent a continuous surface such as elevation or temperature; passenger counts at separate airports do not form a continuous surface.",
+     "D": "Incorrect. A reference map would show where the airports are but not how many passengers each one handles.",
+     "E": "Incorrect. One dot per airport shows only where airports are; it would not show differences in passenger totals."
+    },
+    "explanation": "Each airport gets a circle, and the circle's size shows its range of passenger numbers. Bigger circles mean busier airports."
+   },
+   {
+    "id": "U1-E22",
+    "n": 10,
+    "topic": "1.7",
+    "lo": "SPS-1.A",
+    "skill": "1.A",
+    "difficulty": "medium",
+    "stem": "When residents of a state were asked to draw the boundaries of \"the Hill Country\" on a blank map, their drawings overlapped in the middle but differed a lot at the edges. \"The Hill Country\" is best described as",
+    "options": {
+     "A": "a perceptual region, based on people's ideas about an area",
+     "B": "a formal region, based on a single trait such as elevation",
+     "C": "a functional region, based on travel to a central city",
+     "D": "a perceptual region, based on a boundary set by state law",
+     "E": "a functional region, based on shared tourism businesses"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. Perceptual (vernacular) regions exist in people's minds and reflect shared ideas and feelings about a place. Different people draw their boundaries in different places, so the edges are fuzzy.",
+     "B": "Incorrect. The question defines the region through residents' mental maps, not through a set elevation level.",
+     "C": "Incorrect. A functional region is defined by connections to a central node, such as commuting to a city; the drawings reflect people's images of an area, not travel patterns.",
+     "D": "Incorrect. The question describes residents' perceptions, not an official boundary set by law.",
+     "E": "Incorrect. Tourism businesses could form part of a network, but the region in the question is defined by how residents picture it."
+    },
+    "explanation": "People can share a general picture of a region but still draw its edges in different places. Those different mental maps are the sign of a perceptual region."
    },
    {
     "id": "U1-E08",
-    "n": 8,
+    "n": 11,
     "set": "landcover",
+    "setLabel": "Questions 11–12 refer to the graph below.",
     "topic": "1.2",
     "lo": "IMP-1.B",
     "skill": "3.A",
@@ -4446,27 +5291,27 @@ How the stimulus types render (the JSON holds all of their data):
      "description": "A grouped bar chart of land cover as a percent of River County's area. Forest: 34 percent in 2005 and 30 percent in 2025. Cropland: 38 and 31. Wetland: 12 and 7. Built-up land: 10 and 26. Water: 6 and 6.",
      "source": "Hypothetical data"
     },
-    "stem": "The land-cover data in the chart were most likely gathered by",
+    "stem": "Which method would most directly produce the measurements summarized in the chart?",
     "options": {
-     "A": "a satellite navigation system that tracks the position of moving vehicles",
-     "B": "remote sensing, using images of the county taken from satellites",
-     "C": "a census that asks each household how its land is used",
-     "D": "interviews with longtime residents about how the county has changed",
-     "E": "a GIS, which creates new land-cover data without outside sources"
+     "A": "Recording the positions of public buses with satellite navigation receivers",
+     "B": "Classifying satellite images and calculating each category's share of county area",
+     "C": "Surveying residents about how satisfied they are with changes in their neighborhoods",
+     "D": "Collecting census counts of residents and homes in each neighborhood",
+     "E": "Interviewing farmers about changes in their crop yields and costs"
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. Satellite navigation systems such as GPS record the positions of receivers; they do not measure how much of a county is forest, cropland, or built-up land.",
-     "B": "Correct. Remote sensing gathers information about Earth's surface from a distance. Sorting satellite images into land-cover types is the usual way to measure land cover across a whole county and to compare different years.",
-     "C": "Incorrect. A census counts people and housing; it does not measure land cover such as forest or wetland across an entire county.",
-     "D": "Incorrect. Interviews provide qualitative information about people's experiences; they cannot produce consistent land-cover percentages for two different years.",
-     "E": "Incorrect. A GIS stores, analyzes, and displays data, but the land-cover data must first be collected, usually by remote sensing."
+     "A": "Incorrect. Bus positions from satellite navigation describe movement and location, not the area covered by each type of land.",
+     "B": "Correct. Remote sensing gathers information about Earth's surface from a distance. Satellite images can be sorted into land-cover types; measuring each type's area and dividing by the county's total area gives the percentages shown, and repeating this for two years allows comparison.",
+     "C": "Incorrect. Residents' satisfaction is qualitative opinion; it does not measure the land area in each category.",
+     "D": "Incorrect. Counts of people and homes do not measure forest, cropland, wetland, built-up land, and water as shares of the county's area.",
+     "E": "Incorrect. Crop yields and costs describe farm output, not the countywide land-cover percentages shown."
     },
-    "explanation": "To measure how much of a whole county is forest, farmland, or city, you need a view from above. Satellites take pictures from space, and computers sort the pictures into land types. That is remote sensing."
+    "explanation": "The chart shows what share of the county is forest, farmland, wetland, buildings, and water in two years. To measure that, you need a view from above. Researchers sort satellite images into land types, measure each type's area, and turn it into a percent of the county. That is remote sensing."
    },
    {
     "id": "U1-E09",
-    "n": 9,
+    "n": 12,
     "set": "landcover",
     "topic": "1.5",
     "lo": "PSO-1.B",
@@ -4491,84 +5336,60 @@ How the stimulus types render (the JSON holds all of their data):
     "explanation": "Built-up land (buildings, roads, and parking lots) went from 10% to 26% of the county. At the same time, forest and wetland got smaller. People changed the land to fit their needs. That is human–environment interaction."
    },
    {
-    "id": "U1-E10",
-    "n": 10,
-    "topic": "1.3",
-    "lo": "IMP-1.C",
-    "skill": "2.C",
+    "id": "U1-E16",
+    "n": 13,
+    "topic": "1.5",
+    "lo": "PSO-1.B",
+    "skill": "1.C",
     "difficulty": "medium",
-    "stem": "Between two censuses, State A's population grew much faster than the U.S. population as a whole, while State B's population stayed about the same. Based on the new census data, which outcome is most likely?",
+    "stem": "Which of the following statements best reflects possibilism rather than environmental determinism?",
     "options": {
-     "A": "State A is likely to lose seats in the U.S. Senate, and State B may gain one",
-     "B": "Both states keep the same number of House seats, since the number of seats per state is fixed",
-     "C": "State A's boundary expands to include part of a neighboring state",
-     "D": "State A is likely to gain House seats, and State B may lose one",
-     "E": "State B is likely to gain House seats to make up for its slower growth"
-    },
-    "answer": "D",
-    "rationales": {
-     "A": "Incorrect. Every state has two senators regardless of population, so census results do not change Senate seats.",
-     "B": "Incorrect. The total of 435 House seats is set by law, but how those seats are divided among the states is recalculated after every census.",
-     "C": "Incorrect. State boundaries do not change after a census; only the apportionment of House seats does.",
-     "D": "Correct. After each census, the 435 House seats are reapportioned according to each state's population. A state growing faster than the country is likely to gain seats, and a state with little growth may lose seats.",
-     "E": "Incorrect. Seats follow population; a state that grows slowly compared with the country tends to lose seats, not gain them."
-    },
-    "explanation": "The 435 House seats are divided up by population after every census. If a state grows faster than the rest of the country, it usually gets more seats. If it does not grow, it can lose a seat to a faster-growing state."
-   },
-   {
-    "id": "U1-E11",
-    "n": 11,
-    "topic": "1.4",
-    "lo": "PSO-1.A",
-    "skill": "1.A",
-    "difficulty": "easy",
-    "stem": "Which of the following statements describes a town's relative location?",
-    "options": {
-     "A": "The town hall stands at 35.2° N latitude and 97.4° W longitude.",
-     "B": "The town lies 60 kilometers upstream from the river's mouth.",
-     "C": "The town is home to about 25,000 people.",
-     "D": "The town's hilly land and rocky soil limit farming.",
-     "E": "The town's name comes from a local word for \"meeting place.\""
-    },
-    "answer": "B",
-    "rationales": {
-     "A": "Incorrect. Latitude and longitude give absolute location, a position that does not depend on other places.",
-     "B": "Correct. Relative location describes a place in relation to other places or features, here the river's mouth.",
-     "C": "Incorrect. Population size is a characteristic of the place, not a description of where it is.",
-     "D": "Incorrect. Hilly land and rocky soil describe the town's site, its physical setting, not its position relative to other places.",
-     "E": "Incorrect. A place name, or toponym, can reveal history or culture but does not describe location."
-    },
-    "explanation": "Relative location tells where a place is compared to something else, like \"60 kilometers upstream from the river's mouth.\" Absolute location uses exact coordinates instead."
-   },
-   {
-    "id": "U1-E12",
-    "n": 12,
-    "topic": "1.4",
-    "lo": "PSO-1.A",
-    "skill": "1.B",
-    "difficulty": "medium",
-    "stem": "Engineers in two countries on opposite sides of the world work on the same design in real time using video calls and shared online files. This situation best illustrates",
-    "options": {
-     "A": "time-space compression, because technology reduces the effect of distance",
-     "B": "distance decay, because the engineers interact less as the distance between them grows",
-     "C": "absolute distance, because the two countries are now closer together",
-     "D": "a functional region centered on the engineers' main office",
-     "E": "a formal region, because the engineers share the same profession"
+     "A": "A dry climate limits farming, but people can choose to irrigate, herd, or trade",
+     "B": "A region's climate decides what kind of economy its people will have",
+     "C": "Mountain landscapes cause the people who live in them to develop the same customs",
+     "D": "Societies near the sea become sea traders because the coast controls their choices",
+     "E": "The physical environment has no effect on how people live or what they grow"
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Time-space compression is the reduced importance of distance as transportation and communication technologies speed the movement of people, goods, and information. Real-time collaboration across the world is an example.",
-     "B": "Incorrect. Distance decay predicts less interaction with greater distance; here the engineers interact closely despite great distance, which shows distance decay being weakened.",
-     "C": "Incorrect. The absolute distance between the countries has not changed; what changed is how much that distance limits interaction.",
-     "D": "Incorrect. Nothing in the scenario describes a central office drawing in flows; it describes distance mattering less.",
-     "E": "Incorrect. A shared profession could help define a formal region, but the scenario is about technology overcoming distance, not about a region."
+     "A": "Correct. Possibilism holds that the physical environment sets limits and offers opportunities, but people choose among options based on their culture and technology.",
+     "B": "Incorrect. Claiming that climate decides a region's economy is environmental determinism, the view that the environment controls human activity.",
+     "C": "Incorrect. Claiming that a landscape causes people to share customs is environmental determinism.",
+     "D": "Incorrect. Saying that the coast controls people's choices is environmental determinism; possibilism would say the coast offers options that people may or may not use.",
+     "E": "Incorrect. Possibilism does not deny the environment's influence; it treats the environment as setting limits within which people make choices."
     },
-    "explanation": "Time-space compression means the world feels smaller because technology lets people connect quickly over long distances. Video calls let engineers on opposite sides of Earth work together as if they were in the same room."
+    "explanation": "Determinism says nature decides what people do. Possibilism says nature sets limits, but people choose what to do within those limits. A dry place limits farming, but people can still pick irrigation, herding, or trade."
+   },
+   {
+    "id": "U1-E07",
+    "n": 14,
+    "topic": "1.2",
+    "lo": "IMP-1.B",
+    "skill": "1.D",
+    "difficulty": "medium",
+    "stem": "A geographer studying a neighborhood's history reads letters written by early settlers, newspaper stories from the 1920s, and a city planning report from 1965. These sources are best described as",
+    "options": {
+     "A": "geospatial data collected with remote sensing",
+     "B": "quantitative data gathered by a national census",
+     "C": "written accounts that provide spatial information",
+     "D": "layers created with a geographic information system",
+     "E": "field data collected with a satellite navigation system"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. Remote sensing collects data from a distance, such as satellite images, not letters or reports.",
+     "B": "Incorrect. Census data are counts of people and housing collected by a government; letters and news stories are written accounts.",
+     "C": "Correct. The AP course framework lists written accounts, such as field observations, media reports, travel narratives, policy documents, and personal interviews, as sources of spatial information. Settlers' letters, old newspaper stories, and a planning report fit this category.",
+     "D": "Incorrect. A GIS is a tool for storing and analyzing data in layers; the sources themselves are written documents.",
+     "E": "Incorrect. Satellite navigation systems such as GPS record precise positions; they do not produce letters or reports."
+    },
+    "explanation": "Letters, newspaper stories, and government reports are written accounts. Geographers use them to learn what places were like and how people saw them. They are not numbers from a census or pictures from a satellite."
    },
    {
     "id": "U1-E13",
-    "n": 13,
+    "n": 15,
     "set": "commute",
+    "setLabel": "Questions 15–17 refer to the map below.",
     "topic": "1.7",
     "lo": "SPS-1.A",
     "skill": "1.D",
@@ -4973,11 +5794,11 @@ How the stimulus types render (the JSON holds all of their data):
    },
    {
     "id": "U1-E14",
-    "n": 14,
+    "n": 16,
     "set": "commute",
     "topic": "1.4",
     "lo": "PSO-1.A",
-    "skill": "3.B",
+    "skill": "3.E",
     "difficulty": "easy",
     "stem": "Which concept best explains the pattern of commuting percentages shown on the map?",
     "options": {
@@ -4989,68 +5810,218 @@ How the stimulus types render (the JSON holds all of their data):
     },
     "answer": "E",
     "rationales": {
-     "A": "Incorrect. The farthest towns have the lowest commuting shares, so distance still limits interaction; time-space compression would weaken this pattern.",
+     "A": "Incorrect. The map gives distances and commuting shares, not travel times or changes in transportation technology.",
      "B": "Incorrect. Clustering describes how features are arranged; the towns lie at different distances from City M, and the key pattern is that commuting shares fall with that distance.",
      "C": "Incorrect. Latitude and longitude describe absolute location. The pattern depends on each town's distance from City M.",
      "D": "Incorrect. The map shows no physical barriers, and commuting is a choice shaped by travel time and cost, not by the landscape alone.",
      "E": "Correct. Distance decay is the decline in interaction between places as the distance between them increases. Towns nearest City M send the largest shares of workers; the farthest towns send the smallest."
     },
-    "explanation": "Close towns send lots of workers to City M, and far towns send only a few. The farther away a town is, the smaller the share. That drop-off with distance is distance decay."
+    "explanation": "Nearby towns send a bigger share of their workers to City M, and farther towns send a smaller share. (The map shows shares, not the total number of workers.) The share drops as distance grows. That is distance decay."
    },
    {
     "id": "U1-E15",
-    "n": 15,
+    "n": 17,
     "set": "commute",
     "topic": "1.4",
     "lo": "PSO-1.A",
     "skill": "2.C",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Suppose a fast commuter rail line opened between City M and Town F. Which change would most likely follow?",
     "options": {
      "A": "Town F's commuting share would fall, because rail weakens ties to City M",
-     "B": "City M's functional region would shrink toward the towns nearest the city",
+     "B": "City M's functional region could shrink toward the towns nearest the city",
      "C": "Town F would form its own formal region of rail commuters",
      "D": "Town F's commuting share would rise, which could bring it inside the dashed line",
-     "E": "Distance decay would increase, because the trip from Town F would take longer"
+     "E": "Town F's commuting share would stay the same, since its distance to City M would not change"
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. Faster transportation lowers the time cost of travel, which strengthens, not weakens, a town's connection to the central city.",
      "B": "Incorrect. Better transportation tends to extend a functional region outward, not shrink it.",
-     "C": "Incorrect. Using the same mode of transportation does not create a formal region; the rail line would tie Town F more closely to City M's functional region.",
+     "C": "Incorrect. The scenario is about a changing flow to City M; it does not create a separate region defined by a shared, uniform trait.",
      "D": "Correct. A fast rail line would cut travel time, an example of time-space compression that weakens distance decay. More of Town F's workers would likely commute to City M, which could push its share above the 25 percent threshold and extend the functional region.",
-     "E": "Incorrect. A fast rail line would shorten the trip, reducing the effect of distance rather than increasing it."
+     "E": "Incorrect. The distance in kilometers stays the same, but travel time falls, and commuting responds to travel time and cost."
     },
-    "explanation": "A fast train makes Town F feel closer to City M because the trip takes less time. More people from Town F would take jobs in City M. If enough of them do, Town F could end up inside City M's commuting region."
+    "explanation": "A fast train cuts the travel time from Town F to City M. That could lead a bigger share of Town F's workers to take jobs in City M. If the share reaches 25%, Town F would meet this map's rule for being inside the commuting region."
    },
    {
-    "id": "U1-E16",
-    "n": 16,
-    "topic": "1.5",
-    "lo": "PSO-1.B",
-    "skill": "1.C",
-    "difficulty": "medium",
-    "stem": "Which of the following statements best reflects possibilism rather than environmental determinism?",
+    "id": "U1-E24",
+    "n": 18,
+    "topic": "1.7",
+    "lo": "SPS-1.A",
+    "skill": "1.B",
+    "difficulty": "hard",
+    "stem": "Maps of \"the Middle East\" made by different governments, news organizations, and textbooks often include different sets of countries. Which statement best explains this?",
     "options": {
-     "A": "A dry climate limits farming, but people can choose to irrigate, herd, or trade",
-     "B": "A region's climate decides what kind of economy its people will have",
-     "C": "Mountain landscapes cause the people who live in them to develop the same customs",
-     "D": "Societies near the sea become sea traders because the coast controls their choices",
-     "E": "The physical environment has no effect on how people live or what they grow"
+     "A": "The region has one official boundary, but some organizations use outdated maps",
+     "B": "The region is organized around trade flows to a single central city",
+     "C": "People define regions using different criteria, so boundaries can be contested",
+     "D": "The maps use different projections, which change which countries appear in a region",
+     "E": "The region has no shared characteristics, so it cannot be mapped consistently"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. There is no single, universally accepted boundary of the Middle East; organizations use different defining criteria.",
+     "B": "Incorrect. The region is not defined by flows to one central city; the question is about the different criteria used to choose its countries.",
+     "C": "Correct. Regions are defined by people using one or more chosen characteristics. Because organizations use different criteria, such as culture, history, or politics, regional boundaries are often contested and overlapping.",
+     "D": "Incorrect. A map projection changes the shape and size of places, not which countries a mapmaker chooses to include in a region.",
+     "E": "Incorrect. The countries share characteristics that many people use to define a region; the disagreement is over which countries meet the chosen criteria."
+    },
+    "explanation": "People make regions by choosing what ties places together, like language, religion, history, or politics. Different groups choose differently, so their maps include different countries. That is why regional boundaries are often argued over and can overlap."
+   },
+   {
+    "id": "U1-E05",
+    "n": 19,
+    "topic": "1.1",
+    "lo": "IMP-1.A",
+    "skill": "1.B",
+    "difficulty": "medium",
+    "stem": "A subway map shows each line as a straight colored path with evenly spaced stations, even though the real tracks curve and the stations are different distances apart. Which statement best explains why the mapmaker drew it this way?",
+    "options": {
+     "A": "The mapmaker lacked accurate GPS data on the location of each station",
+     "B": "Subway maps are reference maps, which require exact distances and shapes",
+     "C": "The map is an isoline map that connects stations with equal numbers of riders",
+     "D": "Map projections badly distort shape and area on maps of small areas such as a city",
+     "E": "All maps are selective, and this one trades true distance for clear connections"
+    },
+    "answer": "E",
+    "rationales": {
+     "A": "Incorrect. The simplification is a deliberate design choice; accurate location data are easy to obtain, and the map leaves them out on purpose.",
+     "B": "Incorrect. Reference maps help users locate places, but no map shows everything exactly; this map deliberately gives up true distance.",
+     "C": "Incorrect. Isoline maps connect points of equal value on a continuous surface; subway lines connect stations along a route.",
+     "D": "Incorrect. Straightening the routes and spacing the stations evenly are design choices; projection distortion does not explain that pattern.",
+     "E": "Correct. All maps are selective in the information they show. A transit map gives up accurate distance and shape to make routes, transfers, and the order of stations easy to read."
+    },
+    "explanation": "Every map leaves things out or changes things on purpose. A subway rider needs to know the order of the stops and where to switch lines, not the exact curve of the tracks. So the mapmaker straightened the lines to make the map easy to use."
+   },
+   {
+    "id": "U1-E21",
+    "n": 20,
+    "topic": "1.6",
+    "lo": "PSO-1.C",
+    "skill": "5.A",
+    "difficulty": "easy",
+    "stem": "A study combines national internet-access data to calculate one rate for Southeast Asia as a whole, then compares that rate with rates for other world regions. At which scale are the compared data aggregated (grouped)?",
+    "options": {
+     "A": "Global, because the regions being compared cover much of the world",
+     "B": "Regional, because each compared value summarizes a world region",
+     "C": "National, because the original figures came from individual countries",
+     "D": "Local, because internet access can be measured for individual households",
+     "E": "Global, because the internet connects places throughout the world"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Comparing regions from across the world does not make each compared value a worldwide total.",
+     "B": "Correct. The study combines country figures into one value for each world region, so the compared data are aggregated at the regional scale.",
+     "C": "Incorrect. The original figures came from countries, but the study combines them into regional values before comparing.",
+     "D": "Incorrect. Household information was combined into regional rates; individual household values are not compared.",
+     "E": "Incorrect. The worldwide reach of the internet does not decide the level at which the data are grouped."
+    },
+    "explanation": "The researchers make one number for Southeast Asia and compare it with one number for each other world region. So the compared data are regional, even though the original figures came from countries."
+   },
+   {
+    "id": "U1-E10",
+    "n": 21,
+    "topic": "1.3",
+    "lo": "IMP-1.C",
+    "skill": "2.C",
+    "difficulty": "medium",
+    "stem": "Between two censuses, State A's population grew much faster than the U.S. population as a whole, while State B's population stayed about the same. Based on the new census data, which outcome is most likely?",
+    "options": {
+     "A": "State A is likely to lose seats in the U.S. Senate, and State B may gain one",
+     "B": "Both states keep the same number of House seats, since the number of seats per state is fixed",
+     "C": "State A's boundary expands to include part of a neighboring state",
+     "D": "State A may gain House seats, and State B may lose one if its population share falls",
+     "E": "State B is likely to gain House seats to make up for its slower growth"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. Every state has two senators regardless of population, so census results do not change Senate seats.",
+     "B": "Incorrect. The total of 435 House seats is set by law, but how those seats are divided among the states is recalculated after every census.",
+     "C": "Incorrect. Census data can change representation and guide redistricting, but they do not redraw state boundaries.",
+     "D": "Correct. After each decennial census, the 435 House seats are reapportioned using state populations and a set formula. Growing faster than other states can produce a seat gain, and a falling share can cost a seat, but growth does not guarantee a change.",
+     "E": "Incorrect. Seats follow population; a state that grows slowly compared with the country tends to lose seats, not gain them."
+    },
+    "explanation": "The census helps divide the 435 House seats among the states. A state whose share of the U.S. population goes up may gain a seat, and a state whose share goes down may lose one. A state can also keep the same number of seats."
+   },
+   {
+    "id": "U1-E12",
+    "n": 22,
+    "topic": "1.4",
+    "lo": "PSO-1.A",
+    "skill": "1.D",
+    "difficulty": "medium",
+    "stem": "Engineers in two countries on opposite sides of the world work on the same design in real time using video calls and shared online files. This situation best illustrates",
+    "options": {
+     "A": "time-space compression, because technology reduces the effect of distance",
+     "B": "distance decay, because the engineers interact less as the distance between them grows",
+     "C": "absolute distance, because the two countries are now closer together",
+     "D": "a functional region centered on the engineers' main office",
+     "E": "a formal region, because the engineers share the same profession"
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Possibilism holds that the physical environment sets limits and offers opportunities, but people choose among options based on their culture and technology.",
-     "B": "Incorrect. Claiming that climate decides a region's economy is environmental determinism, the view that the environment controls human activity.",
-     "C": "Incorrect. Claiming that a landscape causes people to share customs is environmental determinism.",
-     "D": "Incorrect. Saying that the coast controls people's choices is environmental determinism; possibilism would say the coast offers options that people may or may not use.",
-     "E": "Incorrect. Possibilism does not deny the environment's influence; it treats the environment as setting limits within which people make choices."
+     "A": "Correct. Time-space compression is the reduced importance of distance as transportation and communication technologies speed the movement of people, goods, and information. Real-time collaboration across the world is an example.",
+     "B": "Incorrect. Distance decay predicts less interaction with greater distance; here the engineers interact closely despite great distance, which shows distance decay being weakened.",
+     "C": "Incorrect. The absolute distance between the countries has not changed; what changed is how much that distance limits interaction.",
+     "D": "Incorrect. Nothing in the scenario describes a central office drawing in flows; it describes distance mattering less.",
+     "E": "Incorrect. A shared profession could help define a formal region, but the scenario is about technology overcoming distance, not about a region."
     },
-    "explanation": "Determinism says nature decides what people do. Possibilism says nature sets limits, but people choose what to do within those limits. A dry place limits farming, but people can still pick irrigation, herding, or trade."
+    "explanation": "Time-space compression means the world feels smaller because technology lets people connect quickly over long distances. Video calls let engineers on opposite sides of Earth work together as if they were in the same room."
+   },
+   {
+    "id": "U1-E25",
+    "n": 23,
+    "topic": "1.3",
+    "lo": "IMP-1.C",
+    "skill": "2.C",
+    "difficulty": "medium",
+    "stem": "A popular navigation app uses real-time traffic data to send drivers off a jammed highway onto quiet residential streets. Which outcome is the most likely geographic effect of this decision?",
+    "options": {
+     "A": "The absolute distance between the highway and the neighborhoods will shrink",
+     "B": "The residential streets will become a formal region defined by app use",
+     "C": "The neighborhoods' relative location will change, since they are now farther from the highway",
+     "D": "More cars will use residential streets, and towns may add speed bumps",
+     "E": "Stores along the highway will move to the side streets to follow the traffic"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. Absolute distance does not change; rerouting changes travel time and traffic patterns, not the distance between places.",
+     "B": "Incorrect. The scenario describes changed traffic flows, not an area defined by a shared, uniform trait.",
+     "C": "Incorrect. Rerouting does not move the neighborhoods farther from the highway. Their traffic connections may change, but the claim that they are farther away is unsupported.",
+     "D": "Correct. Decisions made with geospatial data have geographic effects. Rerouting many drivers onto local streets increases traffic there, which can lead towns to lower speed limits, add speed bumps, or restrict turns.",
+     "E": "Incorrect. A short detour around a traffic jam gives stores no reason to move; the direct, likely effect is more cars on the side streets."
+    },
+    "explanation": "When the app sends lots of drivers onto small neighborhood streets, those streets get busy. Towns may then add speed bumps or new rules. A decision made with map data changed what happens on the ground."
+   },
+   {
+    "id": "U1-E23",
+    "n": 24,
+    "topic": "1.7",
+    "lo": "SPS-1.A",
+    "skill": "2.A",
+    "difficulty": "medium",
+    "stem": "On a map of the languages spoken at home in a border area, the share of people who speak Language X falls gradually from 90 percent to 10 percent over about 50 kilometers, with many bilingual towns in between. Which statement best describes the boundary of the Language X region?",
+    "options": {
+     "A": "It is a sharp line that follows the international border",
+     "B": "It is a functional boundary based on travel to one city",
+     "C": "It is a perceptual boundary, since the language people speak cannot be measured",
+     "D": "It is set by law, so mapmakers place it in the same spot",
+     "E": "It is a transition zone where the region blends into its neighbor"
+    },
+    "answer": "E",
+    "rationales": {
+     "A": "Incorrect. The share of Language X speakers changes gradually across about 50 kilometers, so there is no single sharp line.",
+     "B": "Incorrect. The region is defined by a shared trait, the language people speak, not by flows to a central city.",
+     "C": "Incorrect. The language spoken at home can be measured with surveys or census data; this is a formal region based on a measurable trait.",
+     "D": "Incorrect. The map shows where people use the language, not a legally defined language area; some countries do set language areas by law, but the gradual change in percentages here points to a transition zone.",
+     "E": "Correct. Regional boundaries are often transitional. Here the Language X region fades into its neighbor across a zone of bilingual towns rather than ending at a sharp line."
+    },
+    "explanation": "Regions often do not have sharp edges. As you travel across this border area, Language X becomes less and less common, and many towns speak two languages. That in-between area is a transition zone."
    },
    {
     "id": "U1-E17",
-    "n": 17,
+    "n": 25,
     "topic": "1.5",
     "lo": "PSO-1.B",
     "skill": "1.D",
@@ -5072,265 +6043,6 @@ How the stimulus types render (the JSON holds all of their data):
      "E": "Incorrect. Harvesting a renewable resource does not deplete it when the harvest stays within the rate of regrowth."
     },
     "explanation": "Sustainability means using what you need now while leaving enough for the future. Cutting only as many trees as grow back, and replanting, means the forest will still be there for people later."
-   },
-   {
-    "id": "U1-E18",
-    "n": 18,
-    "set": "scales",
-    "topic": "1.6",
-    "lo": "PSO-1.D",
-    "skill": "5.B",
-    "difficulty": "medium",
-    "stimulus": {
-     "type": "table",
-     "title": "POPULATION CHANGE IN COUNTRY Y AT THREE SCALES, 2015–2025 (HYPOTHETICAL DATA)",
-     "columns": [
-      "Area",
-      "Population, 2015 (millions)",
-      "Population, 2025 (millions)",
-      "Change (%)"
-     ],
-     "rows": [
-      [
-       "Country Y (national)",
-       "20.00",
-       "20.40",
-       "+2.0"
-      ],
-      [
-       "Province 1",
-       "8.00",
-       "8.64",
-       "+8.0"
-      ],
-      [
-       "Province 2",
-       "7.00",
-       "6.65",
-       "−5.0"
-      ],
-      [
-       "Province 3",
-       "5.00",
-       "5.11",
-       "+2.2"
-      ],
-      [
-       "Province 2: Capital District",
-       "2.00",
-       "2.12",
-       "+6.0"
-      ],
-      [
-       "Province 2: River District",
-       "3.00",
-       "2.73",
-       "−9.0"
-      ],
-      [
-       "Province 2: Hill District",
-       "2.00",
-       "1.80",
-       "−10.0"
-      ]
-     ],
-     "description": "A table of population in 2015 and 2025 for Country Y as a whole, for its three provinces, and for the three districts that make up Province 2.",
-     "source": "Hypothetical data"
-    },
-    "stem": "Which statement is best supported by comparing the national data with the provincial data?",
-    "options": {
-     "A": "The national growth rate accurately describes the change in each province",
-     "B": "Province 3's growth was caused by people moving there from Province 2",
-     "C": "Modest national growth hides a population decline in one province",
-     "D": "Province 2's decline means Country Y is likely to lose population soon",
-     "E": "Province 1 grew fastest because it has the largest land area"
-    },
-    "answer": "C",
-    "rationales": {
-     "A": "Incorrect. Provincial changes range from a gain of 8.0 percent to a loss of 5.0 percent, so the national figure of +2.0 percent does not describe each province.",
-     "B": "Incorrect. The table shows population change but not migration flows; it cannot show where Province 3's new residents came from.",
-     "C": "Correct. At the national scale Country Y grew by 2.0 percent, but at the provincial scale Province 2 lost 5.0 percent. Changing the scale of analysis reveals variation that the national figure hides.",
-     "D": "Incorrect. Growth in Provinces 1 and 3 more than offset Province 2's loss; the data do not show that the national population is about to fall.",
-     "E": "Incorrect. The table contains no data on land area, so it cannot support a claim about why Province 1 grew fastest."
-    },
-    "explanation": "The whole country grew a little (+2.0%). But zoom in to the provinces and you see Province 2 actually lost people (−5.0%). The national number hid that. Changing the scale shows a different pattern."
-   },
-   {
-    "id": "U1-E19",
-    "n": 19,
-    "set": "scales",
-    "topic": "1.6",
-    "lo": "PSO-1.D",
-    "skill": "5.C",
-    "difficulty": "hard",
-    "stem": "Which conclusion is best supported by the district-level data for Province 2?",
-    "options": {
-     "A": "River and Hill districts shrank because they are farthest from Country Y's capital",
-     "B": "The Capital District's growth shows that Province 2 as a whole is growing",
-     "C": "District data add little, since they show the same pattern as provincial data",
-     "D": "The Capital District grew because it has a higher birth rate than other districts",
-     "E": "The Capital District grew even though Province 2 as a whole lost people"
-    },
-    "answer": "E",
-    "rationales": {
-     "A": "Incorrect. The table gives no information about where the districts are or how far they are from the national capital, so it cannot support this explanation.",
-     "B": "Incorrect. Province 2 lost 5.0 percent overall; growth in one district did not offset losses in the other two.",
-     "C": "Incorrect. The district data reveal a growing Capital District that the provincial figure of −5.0 percent hides, so they add important information.",
-     "D": "Incorrect. The table shows population totals, not birth rates; the growth could come from migration, births, or both.",
-     "E": "Correct. The Capital District grew by 6.0 percent while Province 2 as a whole fell by 5.0 percent. Analysis at a finer scale reveals growth within a declining province, a pattern that could reflect people moving from the River and Hill districts to the Capital District."
-    },
-    "explanation": "Province 2 shrank overall. But zooming in again shows that its Capital District grew by 6%, while the other two districts lost a lot of people. One more change of scale reveals one more hidden pattern."
-   },
-   {
-    "id": "U1-E20",
-    "n": 20,
-    "set": "scales",
-    "topic": "1.3",
-    "lo": "IMP-1.C",
-    "skill": "3.F",
-    "difficulty": "hard",
-    "stem": "Country Y's national government will fund new primary schools based on where population is growing. Which approach would most likely lead to the best decisions?",
-    "options": {
-     "A": "Use the national rate of 2.0 percent and divide new schools equally among provinces",
-     "B": "Use provincial data alone, building no new schools anywhere in Province 2",
-     "C": "Wait for the next census, since current data do not show where people live",
-     "D": "Use district-level data so places like the Capital District are not missed",
-     "E": "Use provincial data and build the most schools in Province 2, since it lost the most people"
-    },
-    "answer": "D",
-    "rationales": {
-     "A": "Incorrect. The national rate hides large differences among provinces and districts, so dividing schools equally would send some to places that are shrinking.",
-     "B": "Incorrect. Province 2 lost population overall, but its Capital District grew by 6.0 percent; ignoring the whole province would overlook a growing area.",
-     "C": "Incorrect. The table already shows where population grew and shrank; waiting would delay decisions without adding needed information.",
-     "D": "Correct. Geographic data are used at all scales for government decision-making. Finer-scale data reveal growth that provincial or national figures hide, such as the Capital District's 6.0 percent increase within a shrinking province.",
-     "E": "Incorrect. New schools are needed where population is growing; Province 2 lost population overall, and most of its loss came in River and Hill districts."
-    },
-    "explanation": "The most detailed data show exactly where the number of people is going up. Province 2 shrank overall, but its Capital District grew. If the government looked only at provinces, it would miss that spot. Using smaller-scale data helps put schools where they are needed."
-   },
-   {
-    "id": "U1-E21",
-    "n": 21,
-    "topic": "1.6",
-    "lo": "PSO-1.C",
-    "skill": "5.A",
-    "difficulty": "easy",
-    "stem": "A study compares rates of internet access among the countries of Southeast Asia. At which scale of analysis is this study?",
-    "options": {
-     "A": "Global, because it compares countries",
-     "B": "Regional, because it covers one part of the world",
-     "C": "National, because each country reports its own data",
-     "D": "Local, because internet access is measured in each household",
-     "E": "Global, because the internet connects the whole world"
-    },
-    "answer": "B",
-    "rationales": {
-     "A": "Incorrect. Comparing countries does not make a study global; the global scale covers the whole world, while this study covers only Southeast Asia.",
-     "B": "Correct. The regional scale refers to a part of the world larger than one country, such as Southeast Asia, or to a large area within a country. Comparing Southeast Asian countries is regional-scale analysis.",
-     "C": "Incorrect. The national scale examines patterns within one country; this study compares several countries.",
-     "D": "Incorrect. Data may be collected from households, but the scale of analysis is set by the area the study covers: a world region.",
-     "E": "Incorrect. The internet is global, but the study covers only one world region."
-    },
-    "explanation": "Scale of analysis means the size of the area you are studying. Southeast Asia is one part of the world: bigger than one country but smaller than the whole planet. That is the regional scale."
-   },
-   {
-    "id": "U1-E22",
-    "n": 22,
-    "topic": "1.7",
-    "lo": "SPS-1.A",
-    "skill": "1.A",
-    "difficulty": "medium",
-    "stem": "When residents of a state were asked to draw the boundaries of \"the Hill Country\" on a blank map, their drawings overlapped in the middle but differed a lot at the edges. \"The Hill Country\" is best described as",
-    "options": {
-     "A": "a perceptual region, based on people's ideas about an area",
-     "B": "a formal region, based on a single trait such as elevation",
-     "C": "a functional region, based on travel to a central city",
-     "D": "a perceptual region, based on a boundary set by state law",
-     "E": "a functional region, based on shared tourism businesses"
-    },
-    "answer": "A",
-    "rationales": {
-     "A": "Correct. Perceptual (vernacular) regions exist in people's minds and reflect shared ideas and feelings about a place. Different people draw their boundaries in different places, so the edges are fuzzy.",
-     "B": "Incorrect. A formal region defined by elevation would have boundaries drawn from data, so residents' drawings would not need to differ.",
-     "C": "Incorrect. A functional region is defined by connections to a central node, such as commuting to a city; the drawings reflect people's images of an area, not travel patterns.",
-     "D": "Incorrect. A boundary set by law would be the same on every map and would not depend on people's ideas; the drawings differ because no official boundary exists.",
-     "E": "Incorrect. Tourism businesses could form part of a network, but the region in the question is defined by how residents picture it."
-    },
-    "explanation": "Perceptual regions live in people's heads. Everyone agrees about the middle, but people draw the edges in different places. That fuzzy, disagree-at-the-edges pattern is the sign of a perceptual region."
-   },
-   {
-    "id": "U1-E23",
-    "n": 23,
-    "topic": "1.7",
-    "lo": "SPS-1.A",
-    "skill": "2.A",
-    "difficulty": "medium",
-    "stem": "On a map of the languages spoken at home in a border area, the share of people who speak Language X falls gradually from 90 percent to 10 percent over about 50 kilometers, with many bilingual towns in between. Which statement best describes the boundary of the Language X region?",
-    "options": {
-     "A": "It is a sharp line that follows the international border",
-     "B": "It is a functional boundary based on travel to one city",
-     "C": "It is a perceptual boundary, since the language people speak cannot be measured",
-     "D": "It is set by law, so mapmakers place it in the same spot",
-     "E": "It is a transition zone where the region blends into its neighbor"
-    },
-    "answer": "E",
-    "rationales": {
-     "A": "Incorrect. The share of Language X speakers changes gradually across about 50 kilometers, so there is no single sharp line.",
-     "B": "Incorrect. The region is defined by a shared trait, the language people speak, not by flows to a central city.",
-     "C": "Incorrect. The language spoken at home can be measured with surveys or census data; this is a formal region based on a measurable trait.",
-     "D": "Incorrect. Language regions are not set by law; different mapmakers might draw the edge at different percentages.",
-     "E": "Correct. Regional boundaries are often transitional. Here the Language X region fades into its neighbor across a zone of bilingual towns rather than ending at a sharp line."
-    },
-    "explanation": "Regions often do not have sharp edges. As you travel across this border area, Language X becomes less and less common, and many towns speak two languages. That in-between area is a transition zone."
-   },
-   {
-    "id": "U1-E24",
-    "n": 24,
-    "topic": "1.7",
-    "lo": "SPS-1.A",
-    "skill": "1.B",
-    "difficulty": "hard",
-    "stem": "Maps of \"the Middle East\" made by different governments, news organizations, and textbooks often include different sets of countries. Which statement best explains this?",
-    "options": {
-     "A": "The Middle East is a formal region with an official boundary that changes each year",
-     "B": "The Middle East is a functional region, so its edges move with each day's trade flows",
-     "C": "People define regions using different criteria, so boundaries can be contested",
-     "D": "The maps use different projections, which change which countries appear in a region",
-     "E": "The region has no shared characteristics, so it cannot be mapped consistently"
-    },
-    "answer": "C",
-    "rationales": {
-     "A": "Incorrect. There is no official, legally fixed boundary of the Middle East; its extent depends on who is defining it and why.",
-     "B": "Incorrect. The Middle East is usually defined by shared cultural, historical, or political ties, not by daily flows to a single central node.",
-     "C": "Correct. Regions are defined by people using one or more chosen characteristics. Because organizations use different criteria, such as culture, history, or politics, regional boundaries are often contested and overlapping.",
-     "D": "Incorrect. A map projection changes the shape and size of places, not which countries a mapmaker chooses to include in a region.",
-     "E": "Incorrect. The countries share characteristics that many people use to define a region; the disagreement is over which countries meet the chosen criteria."
-    },
-    "explanation": "People make regions by choosing what ties places together, like language, religion, history, or politics. Different groups choose differently, so their maps include different countries. That is why regional boundaries are often argued over and can overlap."
-   },
-   {
-    "id": "U1-E25",
-    "n": 25,
-    "topic": "1.3",
-    "lo": "IMP-1.C",
-    "skill": "2.C",
-    "difficulty": "medium",
-    "stem": "A popular navigation app uses real-time traffic data to send drivers off a jammed highway onto quiet residential streets. Which outcome is the most likely geographic effect of this decision?",
-    "options": {
-     "A": "The absolute distance between the highway and the neighborhoods will shrink",
-     "B": "The residential streets will become a formal region defined by app use",
-     "C": "The neighborhoods' relative location will change, since they are now farther from the highway",
-     "D": "More cars will use residential streets, and towns may add speed bumps",
-     "E": "Fewer people will drive, since the app shows the highway is crowded"
-    },
-    "answer": "D",
-    "rationales": {
-     "A": "Incorrect. Absolute distance does not change; rerouting changes travel time and traffic patterns, not the distance between places.",
-     "B": "Incorrect. Using the same app does not create a formal region; the likely effect is a change in traffic flows on those streets.",
-     "C": "Incorrect. The neighborhoods have not moved and are no farther from the highway; what changes is the amount of traffic passing through them.",
-     "D": "Correct. Decisions made with geospatial data have geographic effects. Rerouting many drivers onto local streets increases traffic there, which can lead towns to lower speed limits, add speed bumps, or restrict turns.",
-     "E": "Incorrect. The app helps drivers continue their trips by another route; it does not by itself lead people to stop driving."
-    },
-    "explanation": "When the app sends lots of drivers onto small neighborhood streets, those streets get busy. Towns may then add speed bumps or new rules. A decision made with map data changed what happens on the ground."
    }
   ]
  }
@@ -5346,28 +6058,33 @@ Every number is rechecked by `u1/verify.py`, which `u1/assemble.py` runs on ever
 
 | Where | Claim | Source (URL) | What was checked |
 |---|---|---|---|
-| U1-P04 | Africa is about 14 times larger than Greenland | Greenland 2,166,086 sq km: CIA World Factbook (https://www.indexmundi.com/greenland/area.html, which quotes the Factbook; archived Factbook GL summary https://www.cia.gov/the-world-factbook/about/archives/2021/static/445b5377c20a6bb8caebb11040ac4395/GL-summary.pdf). Africa about 30,365,000 sq km: Encyclopaedia Britannica, "Africa" (https://www.britannica.com/place/Africa) | 30,365,000 / 2,166,086 = 14.02 (script) |
+| U1-P04 | Africa is about 14 times as large as Greenland | Greenland 2,166,086 sq km: CIA, The World Factbook, as quoted by IndexMundi (https://www.indexmundi.com/greenland/area.html; search snippet "Area: total: 2,166,086 sq km"); the archived Factbook "Country Comparison: Area" hosted by MIT (link in the P07 row) is the reviewer-recommended copy. (The cia.gov archive link used earlier now redirects to a notice that the Factbook has ended, so it was dropped.) Africa about 30,365,000 sq km: Encyclopaedia Britannica, "Africa" (https://www.britannica.com/place/Africa) | 30,365,000 / 2,166,086 = 14.02 (script) |
 | U1-P07 | Canada has about three times India's area | CIA World Factbook, Country Comparison: Area (mirror: https://start.csail.mit.edu/mirror/cia.gov/library/publications/the-world-factbook/rankorder/2147rank.html): Canada 9,984,670 sq km; India 3,287,263 sq km | 9,984,670 / 3,287,263 = 3.04 (script) |
-| U1-E03, E04 stimulus | Map 1 parallels spaced by the Mercator formula, y = R ln tan(π/4 + φ/2) | CRC Concise Encyclopedia of Mathematics, "Mercator Projection" (https://archive.lib.msu.edu/crcmath/math/math/m/m187.htm), formula (2); same as Snyder, *Map Projections: A Working Manual*, USGS PP 1395 (https://pubs.usgs.gov/publication/pp1395) | Gaps between 15° parallels grow toward the poles (14.3 → 38.4 px); gap ratios match the formula (script) |
-| U1-E03, E04 stimulus | Map 2 parallels spaced by the cylindrical equal-area formula, x = (λ − λ0) cos φs, y = sin φ / cos φs, with φs = 45° (Gall-Peters) | CRC Concise Encyclopedia of Mathematics, "Cylindrical Equal-Area Projection" (https://archive.lib.msu.edu/crcmath/math/math/c/c910.htm); MathWorks Mapping Toolbox, "Gall Orthographic Projection" (https://au.mathworks.com/help/map/gortho.html): "the standard parallel is by definition fixed at 45º" and "It is equal-area, but distortion of shape increases with distance from the standard parallels" | Gaps shrink toward the poles (28.0 → 10.8 px); band heights are proportional to the difference of sines, i.e., equal-area (script); shapes above 45° are flattened north–south (E04 key) |
+| U1-E03, E04 stimulus | Original spherical graticules computed from the standard Mercator and cylindrical equal-area equations; coordinates rounded to 0.1 px. Map 1 parallels use the Mercator formula, y = R ln tan(π/4 + φ/2) | CRC Concise Encyclopedia of Mathematics, "Mercator Projection" (https://archive.lib.msu.edu/crcmath/math/math/m/m187.htm), formula (2); same as Snyder, *Map Projections: A Working Manual*, USGS PP 1395 (https://pubs.usgs.gov/publication/pp1395) | Grid width 300 px. Gaps between 15° parallels grow toward the poles (12.6 → 33.9 px); gap ratios match the formula within 1.2% (script) |
+| U1-E03, E04 stimulus | Map 2 parallels spaced by the cylindrical equal-area formula, x = (λ − λ0) cos φs, y = sin φ / cos φs, with standard parallels at 45° N and 45° S (Gall-Peters) | CRC Concise Encyclopedia of Mathematics, "Cylindrical Equal-Area Projection" (https://archive.lib.msu.edu/crcmath/math/math/c/c910.htm); MathWorks Mapping Toolbox, "Gall Orthographic Projection" (https://au.mathworks.com/help/map/gortho.html): "the standard parallel is by definition fixed at 45º" and "It is equal-area, but distortion of shape increases with distance from the standard parallels" | Gaps shrink toward the poles (24.7 → 9.5 px); band heights are proportional to the difference of sines, i.e., equal-area (script); shapes above 45° are flattened north–south (E04 key) |
 
 ## Facts stated without a number (standard course content, no external data)
 - Mercator (1569) keeps compass bearings as straight lines and local shapes; area grows toward the poles. Gall-Peters
   is equal-area; Robinson is a compromise projection; Goode's homolosine is an interrupted equal-area projection;
   an azimuthal equidistant map shows true distance and direction from its center only.
-- The U.S. census is taken every ten years and is used to reapportion the 435 House seats; every state has two
-  senators (E10).
+- The U.S. census is taken every ten years and is used to reapportion the 435 House seats by formula; faster growth can,
+  but need not, change a state's seats; every state has two senators (E10).
+- Some countries set language regions by law (for example, Belgium's Constitution, Article 4, sets its linguistic regions),
+  which is why E23's rationale says the map shows language use, not a legal boundary.
 - Dutch polders are land reclaimed with dikes and drainage (P22). Coal is nonrenewable; wind is renewable (P23).
 - Sustainability wording follows the common "meet present needs without compromising future generations" definition (E17).
 - Environmental determinism was influential in the late 1800s and early 1900s and was used to rank societies (P24).
 
 ## Hypothetical stimuli (all arithmetic in `u1/verify.py`)
 P02 dot-density map (22 squares east of the river, 4 west); P03 contour map (line spacing west 18 < south 30 <
-north 38 < east 70 px; J, K, L, M each between the same two contours); P06 business rates (Baker 8.0 per 1,000 is
+north 38 < east 70 px; J, K, L, M each between the 120 m and 140 m lines; N on the east side between the 100 m and
+120 m lines, where spacing is also 70 px); P34 linear settlement map (24 farmhouses, 12 per bank, each 28 px from the
+river centerline, spanning the valley); P06 business rates (Baker 8.0 per 1,000 is
 highest); P11 bus-route data sets; P12 children under 5 (Riverside has the largest 2020 count, largest absolute and
 percent growth); P14 floodplain map (8 homes + school inside the floodplain; hospital and 4 homes on east high
 ground); P17 customer shares sum to 100 and fall with distance; P18 travel times fall; P25 groundwater depth rises;
 P27 regional unemployment averages to the 6.0% national rate (North 140,000 vs South 260,000 unemployed);
 P32 "Up North" shares rise steadily; E08 land cover sums to 100 in both years; E13 commuting map (shares fall with
-distance; towns at 25% or more are inside the dashed line, others outside; scale bar = 10 km); E18 provinces sum to
+distance; the hypothetical boundary includes towns whose share of workers commuting to City M is at least 25%, using
+the rule selected for this map, and excludes the others; scale bar = 10 km); E18 provinces sum to
 the nation and districts sum to Province 2 in both years, and every % change matches.

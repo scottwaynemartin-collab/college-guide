@@ -1,0 +1,82 @@
+Unit 2 FINAL blind key check (bank v2026-11-08c) - answers from blind.md only, before opening key.txt
+Reviewer: independent blind check, 2026-11-08
+
+PRACTICE
+U2-P01 C  cold climate / short growing season is the physical limit on high-latitude settlement; no storms, plenty of water, not mostly mountains.
+U2-P02 A  Egypt 117 < Netherlands 534 arithmetic, but 3,560 > 1,794 physiological; B/D wrong (Canada lowest, Egypt highest), C reversed, E 3,560 vs 108.
+U2-P03 D  same people per arable sq km, 5x the farmers per arable sq km -> larger farming share in X; A/E contradict equal physiological density, C pushes the wrong way.
+U2-P04 B  410x20k + 180x30k = 13.6M of 16.12M (84%) live in the two western provinces; desert 3/sq km. Avg 64.5 checks.
+U2-P05 A  low threshold population -> few doctors/hospitals -> long trips for care.
+U2-P06 A  overgrazing beyond regrowth = exceeding carrying capacity.
+U2-P07 C  groundwater pumping compacts old lakebed clays (subsidence); city is inland, not coastal.
+U2-P08 B  sex ratio = males per 100 females.
+U2-P09 D  55-64 bulge (16.9% of pop) becomes 70-79 in 15 years -> elder care demand.
+U2-P10 E  male surplus only at 20-49, children balanced -> male labor migrants; B would show in children, D would remove men.
+U2-P11 E  U has 38% aged 15-24, R has 42% aged 65+, national 13/17 hides both; F is closest to national, so D false.
+U2-P12 C  RNI = CBR - CDR, excludes migration.
+U2-P13 B  deaths > births only in Germany (8.1 < 12.1) and Japan; Germany grew +0.3% -> net in-migration.
+U2-P14 D  RNI 24/1000 = 2.4%; 70/2.4 = 29.2 years.
+U2-P15 E  children as farm labor and old-age security.
+U2-P16 A  infant survival reflects water, nutrition, health care.
+U2-P17 B  Stage 2: CDR falls sharply, CBR stays high.
+U2-P18 B  CBR 44 -> 19 from 1960-2020: urbanization, girls' schooling, contraception.
+U2-P19 C  infectious/parasitic -> chronic/degenerative.
+U2-P20 E  DTM is based on European history; imported medicine cuts CDR faster today.
+U2-P21 A  population geometric, food arithmetic.
+U2-P22 D  pop index 100->265, food 100->395; food outpaced population -> Malthus explains poorly.
+U2-P23 D  neo-Malthusians extend to resources/environment.
+U2-P24 C  cash per baby, parental leave, child-care = pronatalist.
+U2-P25 E  aging + male-skewed sex ratio at birth.
+U2-P26 B  points for degrees, skills, working age -> younger skilled workers; D reversed, E reversed direction.
+U2-P27 A  TFR falls steadily 5.9 -> 1.9 as education share rises; B (1.9 < 2.1), C (0.7, not 2), D (3.1x, not 2x), E (causation) all refutable.
+U2-P28 D  delayed childbearing + higher opportunity cost of child care.
+U2-P29 D  women's expanded economic roles -> international labor migration (e.g., nursing).
+U2-P30 E  (under 15 + 65+) vs 15-64.
+U2-P31 C  (9.6 + 14.4) / 40.0 x 100 = 60. Distractors: 24 (dependents in millions), 36 (old only), 62.5 (40/64), 167 (inverted).
+U2-P32 A  fewer workers per retiree, pension/health strain.
+U2-P33 C  drought = environmental push.
+U2-P34 C  job found en route = intervening opportunity.
+U2-P35 E  distance decay: longer moves cost more and need more information.
+U2-P36 B  displaced within own country = IDPs.
+U2-P37 A  village -> town -> city -> capital = step migration.
+U2-P38 D  relatives follow with letters and money = chain migration.
+U2-P39 E  ties maintained in both countries = transnational migrant.
+U2-P40 C  India 137.7 and Mexico 67.9 are the two largest totals and both have the table's lowest share (3.7%).
+U2-P41 A  brain drain reduces health-worker supply.
+U2-P42 B  anti-immigration party winning seats = political effect.
+U2-P43 B  crossed a border, claim approved (persecution) -> refugee; C would fit only while undecided.
+U2-P44 D  enslaved people were captured and moved against their will = forced migration.
+U2-P45 E  restaurants, places of worship, Diwali = cultural effect (A/B economic, C political, D demographic).
+U2-P46 A  1961 recruitment agreement, temporary factory/construction work = guest workers (Gastarbeiter).
+
+TIMED EXAM
+U2-E01 C  milder climate, older farming/cities/trade in European Russia; B false (main oil/gas fields in West Siberia), D false (Ob/Yenisei/Lena), E false (Urals are low).
+U2-E02 C  threshold: specialized hospital needs a large patient base within reach.
+U2-E03 D  wide base, 0-14 = 42.8% of pop -> young, high growth potential.
+U2-E04 B  CBR steady ~40, CDR 20 -> 9 = Stage 2; pyramid has big child groups, small old groups. D refuted by balanced sexes.
+U2-E05 E  girls' schooling + voluntary contraception lowers TFR; all others raise it or keep it high.
+U2-E06 C  RNI 20/1000 = 2.0%; 70/2 = 35 years.
+U2-E07 A  CDR not age-adjusted; Japan's population is much older.
+U2-E08 B  Boserup: population pressure -> agricultural intensification.
+U2-E09 B  fertility fell below replacement -> antinatalist to pronatalist.
+U2-E10 D  65+ = 25.5% vs under 15 = 11.7%.
+U2-E11 A  large 45-64 cohorts retire, small cohorts behind -> shrinking working-age pop, pension strain.
+U2-E12 A  immigrants aged 20-40 add workers immediately; baby bonus takes ~20 years.
+U2-E13 E  mining jobs pull young men -> male-heavy regional sex ratio; D runs the wrong way.
+U2-E14 E  urbanization, schooling, paid work, contraception.
+U2-E15 D  outside her country, claim undecided = asylum seeker.
+U2-E16 B  1825-1875: CBR 38 -> 37 while CDR 35 -> 23 = Stage 2. 1900-1950 = Stage 3.
+U2-E17 E  RNI 0.3% (1825) -> 1.4% (1925); death rate fell 21 points vs birth rate 10 points.
+U2-E18 C  desert + costly transit visa = intervening obstacles.
+U2-E19 D  arable = 0.15 x 400,000 = 60,000 sq km; 60M / 60,000 = 1,000. (150 arithmetic, 400 agricultural, 60 farmers per total land.)
+U2-E20 A  seasonal herd movement = transhumance.
+U2-E21 E  cities on coast/valley: water, flat fertile land, trade access.
+U2-E22 A  interior village -> capital, same country = internal rural-to-urban.
+U2-E23 B  drought = environmental push; port/factory jobs = economic pull.
+U2-E24 D  household uses + major national income source (~20% of GDP).
+U2-E25 C  out-migration of young adults ages the villages and drains farm labor.
+
+Exam letter count from my blind answers: A 5 (E07,E11,E12,E20,E22), B 5 (E04,E08,E09,E16,E23), C 5 (E01,E02,E06,E18,E25), D 5 (E03,E10,E15,E19,E24), E 5 (E05,E13,E14,E17,E21).
+
+FLAGS (two defensible answers / none): none found blind.
+Watch items noted blind (not ambiguities): P44-A distractor frames enslavement as a "voluntary ... plantation jobs" pull (respect concern); E25-D direction error depends on reasoning, not stimulus.

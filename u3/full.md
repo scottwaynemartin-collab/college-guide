@@ -1,0 +1,1545 @@
+# Unit 3: Cultural Patterns and Processes · FULL · v2026-11-08e
+
+- Exam weighting: 12–17% of the AP Exam multiple-choice section
+- Calibration: Original AP-style Unit 3 practice, built on the College Board AP Human Geography Course and Exam Description (Fall 2020, current). The 25-question exam uses five answer choices and the AP multiple-choice pace of about one minute per question, with individual and stimulus-set questions. Difficulty labels are editorial estimates; difficulty and score interpretations have not been equated to an official AP Exam. All questions and stimuli are original or compiled from cited public sources; no College Board items are reproduced.
+- Checked: Nov 8, 2026: automated checks (answer balance, run length, repeated answer blocks, option-length tells, absolute-word tells, field completeness, student-facing wording) and script verification of every stimulus number and computed claim. Real data: World Bank WDI internet-use values (U3-P20) re-downloaded and verified; Texas toponyms (U3-P25) checked against the Handbook of Texas; religion distribution (U3-P24) against Pew Research Center, hearths against Encyclopaedia Britannica (see u3/SOURCES.md). v2026-11-08b: independent Claude blind check (57/57 keys agreed; no must-fix), should-fix items applied. v2026-11-08c: ChatGPT Pro full review (12.5 min; numbers and sources re-verified, all keys kept); applied: P22 C replaced (was partly defensible), E15 evidence for national unity, E07 aviation rule removed, P20 'use' not 'access', E21/E22 data limits, assimilation/multiculturalism/creolization and religion categories worded as tendencies, E18 rewritten as a true data-limitation item, E03/E04/E11/E17 stems no longer restate evidence, P09 options all conditional, P02 Student 2 and 4 entries, P24 dated 2010 and sourced, E08 Timor-Leste 'restored' and climate distractor replaced, E12/E25 echo and paraphrase keys fixed, tags and difficulty; P33-P35 added (dialects, scale analysis, gender and use of space). v2026-11-08d: final independent Claude blind check (60/60 keys agreed, numbers and sources re-verified); applied: P35 stem now dates Tokyo's harassment-driven women-only cars to the 2000s (must-fix), face-value distractors replaced (P11 C, P22 C, E25 A/B), P26 name-place echo removed, E11 options in one form, hedges balanced (P23, P35, E22), E12 key no longer echoes 'local', P18 key shortened, P30 D, P17 A, P24 Buddhism hearth, E10 explanation, E08 rationale D, P05 'Indigenous', P34 skill 5.C, P35 and E12 easy; E02/E13 option swaps give the exam one back-to-back repeated letter (still 5 of each). v2026-11-08e: final key check (14/14 agreement, no must-fix); P22 C and P35 B why-not lines reworded, E11 A and P30 D keys shortened (length tells), and 'stem' replaced with 'the question' in all student-facing feedback. Data checks moved to u3/verify.py (run by assemble.py and standalone).
+
+Topics: 3.1 Introduction to Culture (PSO-3.A); 3.2 Cultural Landscapes (PSO-3.B, PSO-3.C); 3.3 Cultural Patterns (PSO-3.D); 3.4 Types of Diffusion (IMP-3.A); 3.5 Historical Causes of Diffusion (SPS-3.A); 3.6 Contemporary Causes of Diffusion (SPS-3.A); 3.7 Diffusion of Religion and Language (IMP-3.B); 3.8 Effects of Diffusion (SPS-3.B)
+
+## Practice
+
+### U3-P01  ·  Topic 3.1 · PSO-3.A · Skill 1.A · easy
+
+Eating tamales at Christmas, wearing a yukata (a light cotton kimono) to a summer festival in Japan, and building flat-roofed houses in a dry climate are each an example of a
+
+- **A.** culture trait
+- **B.** culture region
+- **C.** cultural hearth
+- **D.** culture complex
+- **E.** cultural landscape
+
+**Answer: A**
+
+_Explanation:_ A culture trait is one single piece of a culture, like a food, a style of clothing, or a type of building. Your AP course guide lists food preferences, architecture, and land use as culture traits. Each example in the question is one trait. When many related traits go together, that bigger group is called a culture complex.
+
+_Why not:_
+- B: A culture region is an area where people share many traits. The question lists single traits, not areas.
+- C: A cultural hearth is the place where a trait or a culture first started.
+- D: A culture complex is a group of related traits that go together. Each example here is just one trait.
+- E: The cultural landscape is what culture looks like on the land. A house fits, but eating tamales is not part of the landscape.
+
+_Vocab:_ culture trait, culture complex, cultural hearth
+
+### U3-P02  ·  Topic 3.1 · PSO-3.A · Skill 4.A · easy
+
+**Stimulus (table): JOURNAL ENTRIES FROM FIVE STUDENTS ON A SCHOOL TRIP ABROAD (HYPOTHETICAL)**
+
+| Student | Journal entry |
+|---|---|
+| Student 1 | People here eat dinner at 10 p.m. That is just wrong. Dinner should be at 6, like it is at home. |
+| Student 2 | My host family explained how work schedules and family traditions shape their late dinners. I tried to understand the custom in that setting instead of judging it by our dinner time at home. |
+| Student 3 | So many restaurants here look like the chains back home. Maybe every place is becoming the same. |
+| Student 4 | Meals should be prepared the way they are at home. Because the local food does not follow our way of cooking, I refused to try it. |
+| Student 5 | I wrote down the prices of meals here so I can compare them with prices back home. |
+
+_Description:_ A table of five short journal entries written by students during a school trip to another country. Each entry describes the student's reaction to something in the local culture.
+
+_Source:_ Hypothetical data
+
+Which student's journal entry best demonstrates cultural relativism?
+
+- **A.** Student 1
+- **B.** Student 2
+- **C.** Student 3
+- **D.** Student 4
+- **E.** Student 5
+
+**Answer: B**
+
+_Explanation:_ Cultural relativism means trying to understand a custom in its own setting. You do not judge it by your own culture's rules. Student 2 learned how work and family traditions shape the late dinners. Then Student 2 tried to understand the custom on those terms. Students 1 and 4 do the opposite. They judge the other culture by home rules. That is ethnocentrism.
+
+_Why not:_
+- A: Student 1 judges the other culture by home-culture rules. That is ethnocentrism.
+- C: Student 3 notices that places look alike (cultural convergence) but does not try to understand the local culture.
+- D: Student 4 treats the home culture's way of cooking as the correct standard for judging another culture. That is ethnocentrism.
+- E: Student 5 only compares prices. That is a fact-finding task, not an attitude toward cultural differences.
+
+_Vocab:_ cultural relativism, ethnocentrism
+
+### U3-P03  ·  Topic 3.1 · PSO-3.A · Skill 1.A · easy
+
+Which of the following is the best example of culture, as geographers use the term?
+
+- **A.** Eye color that children inherit from their parents
+- **B.** A pencil-tapping habit that one student invented and uses before big tests
+- **C.** The average amount of rain a region receives each year
+- **D.** A festival song that grandparents teach to their grandchildren
+- **E.** Blinking automatically when dust blows toward someone's eyes
+
+**Answer: D**
+
+_Explanation:_ Culture is the shared practices, technologies, attitudes, and behaviors that a society passes on. The key ideas are SHARED and LEARNED. A festival song is shared by a community, and grandparents teach it to the next generation. That makes it culture.
+
+_Why not:_
+- A: Eye color is passed on through genes. Nobody learns it from their society.
+- B: One person's private habit is not shared by a group, so it is not culture.
+- C: Rainfall is part of the physical environment. It can shape culture, but it is not culture itself.
+- E: Blinking is an automatic body reflex. Nobody has to learn it.
+
+_Vocab:_ culture
+
+### U3-P04  ·  Topic 3.2 · PSO-3.B · Skill 4.E · medium
+
+**Stimulus (table): FIELD NOTES FROM FIVE SITES (HYPOTHETICAL)**
+
+| Site | What a student observed |
+|---|---|
+| Site 1 | Glass office towers built in the 2010s, an international hotel, and coffee shops from chains found in many countries |
+| Site 2 | A brick church built in the 1920s that is now a mosque; the old stained-glass windows remain, and a new sign in Arabic and English hangs over the door |
+| Site 3 | Thick-walled adobe houses with small windows, built by one local family over several generations |
+| Site 4 | A row of new houses, all built in the same style by one company in 2022 |
+| Site 5 | A street where most shop signs, restaurants, and festival banners reflect one immigrant group |
+
+_Description:_ A table of field notes describing the buildings and other landscape features a student observed at five different sites.
+
+_Source:_ Hypothetical data
+
+Which site in the table provides the clearest evidence of sequent occupance?
+
+- **A.** Site 1
+- **B.** Site 2
+- **C.** Site 3
+- **D.** Site 4
+- **E.** Site 5
+
+**Answer: B**
+
+_Explanation:_ Sequent occupance means different groups live in a place one after another, and each group leaves its mark on the landscape. At Site 2, a church built by one group is now a mosque used by a later group, and the old windows are still there. You can see two layers of culture in one building.
+
+_Why not:_
+- A: Site 1 shows global, look-alike buildings, not layers left by different groups over time.
+- C: Site 3 shows traditional architecture built by one group, not a series of different groups.
+- D: Site 4 shows new houses from one year and one builder, with no older layer.
+- E: Site 5 shows one group's culture on the landscape, but not one group following another.
+
+_Vocab:_ sequent occupance, cultural landscape
+
+### U3-P05  ·  Topic 3.2 · PSO-3.C · Skill 2.B · easy
+
+In 2019, the climb to the top of Uluru, a huge rock formation in central Australia, was permanently closed. The Anangu, the traditional owners of the land, had long asked visitors not to climb Uluru because of its spiritual importance. This change best illustrates how
+
+- **A.** tourism tends to replace traditional land uses once a place becomes famous
+- **B.** a dry climate can make some landforms too dangerous for visitors
+- **C.** sequent occupance erases evidence of earlier groups from the landscape
+- **D.** a national government imposed its own religion on an Indigenous group
+- **E.** Indigenous beliefs and land rights can shape how a landscape is used
+
+**Answer: E**
+
+_Explanation:_ Uluru is a sacred place for the Anangu, the traditional owners of the land. For years they asked visitors not to climb it, and in 2019 the climb was closed for good. A group's beliefs and its rights to its land changed how the place is used. Your AP course guide says Indigenous communities and lands help shape the use of space.
+
+_Why not:_
+- A: Here the change went the other way: a tourist activity ended out of respect for a traditional belief.
+- B: Heat and safety were real concerns, but the question says the closure came after the traditional owners' long request based on the site's spiritual meaning.
+- C: Sequent occupance is about layers left by different groups. Nothing was erased here.
+- D: No religion was imposed. The change respected the Anangu's own beliefs.
+
+_Vocab:_ Indigenous lands, sacred space, cultural landscape
+
+### U3-P06  ·  Topic 3.2 · PSO-3.B · Skill 1.A · easy
+
+Some newer office buildings borrow details from many past styles, such as Greek columns, arches, and bright colors, and combine them in playful new ways. These buildings are best described as examples of
+
+- **A.** traditional architecture
+- **B.** sequent occupance
+- **C.** postmodern architecture
+- **D.** an ethnic enclave
+- **E.** colonial architecture
+
+**Answer: C**
+
+_Explanation:_ Postmodern buildings borrow pieces of older styles, like columns or arches, and mix them in new and often playful ways. They were a reaction against plain glass-box skyscrapers. Your AP course guide lists both traditional and postmodern architecture as parts of the cultural landscape.
+
+_Why not:_
+- A: Traditional architecture uses local materials and building styles passed down in one place over generations.
+- B: Sequent occupance is about layers left by different groups over time. The question describes a building style.
+- D: An ethnic enclave is a neighborhood where one ethnic group is concentrated, not a style of building.
+- E: Colonial architecture follows styles brought by a colonial power, such as Spanish missions in the Americas.
+
+_Vocab:_ postmodern architecture, traditional architecture
+
+### U3-P07  ·  Topic 3.2 · PSO-3.C · Skill 2.C · medium
+
+In Country Z, the share of women working in paid jobs rose sharply between 1970 and 2020. Which change in the cultural landscape would most likely go along with this trend?
+
+- **A.** More childcare centers near workplaces, transit stops, and neighborhoods
+- **B.** More stores shifting their busiest hours from evenings and weekends to weekday mornings
+- **C.** Fewer roads and parking lots, because fewer adults would commute to jobs
+- **D.** More new housing located far from both employment centers and public transportation
+- **E.** Fewer restaurants and take-out shops, because families would cook more meals at home
+
+**Answer: A**
+
+_Explanation:_ Changes in gender roles can affect how communities use space. When more parents and caregivers work outside the home, families need childcare close to where they live, work, and travel. So childcare centers near homes, workplaces, and transit are the most likely change among these choices.
+
+_Why not:_
+- B: With more adults at work on weekdays, busy shopping times tend to move to evenings and weekends, not mornings.
+- C: More people in paid jobs does not mean fewer adults commute. Commuting needs also depend on where jobs are and how people travel.
+- D: Nothing in the trend gives a reason for new housing to be farther from jobs and transit.
+- E: Households where both adults work usually have less time to cook, so demand for restaurants and take-out tends to grow.
+
+_Vocab:_ gender roles, use of space, cultural landscape
+
+### U3-P08  ·  Topic 3.3 · PSO-3.D · Skill 1.D · medium
+
+After independence in the 1960s, Tanzania's government promoted Swahili as the national language for primary schools and government in a country where more than 100 languages are spoken. Geographers would describe this shared language as
+
+- **A.** a centrifugal force, because it divides speakers of different first languages
+- **B.** an example of relocation diffusion, because it spread mainly through migration
+- **C.** an example of language extinction, because local languages are no longer spoken
+- **D.** an example of cultural relativism, because it judges each culture on its own terms
+- **E.** a centripetal force, because it gives many groups a common identity
+
+**Answer: E**
+
+_Explanation:_ A centripetal force pulls the people of a country together. More than 100 languages are spoken in Tanzania. The government promoted Swahili as one shared language for public life. It helped people from different language groups talk to each other and feel part of one nation. Language can also be a centrifugal force when it divides people, as in a country split into language regions.
+
+_Why not:_
+- A: In this example, shared use of Swahili supports communication and national identity. That is a centripetal role.
+- B: The question is about what the shared language does for the country, not about how it spread.
+- C: Many Tanzanians still speak their local languages too. Swahili was added as a common language.
+- D: Cultural relativism is an attitude toward other cultures, not a language policy.
+
+_Vocab:_ centripetal force, centrifugal force, national language
+
+### U3-P09  ·  Topic 3.3 · PSO-3.D · Skill 2.C · medium
+
+**Stimulus (schematicMap): LANGUAGE REGIONS OF COUNTRY V (HYPOTHETICAL)**
+
+Schematic map (800×380). Features:
+- zone "Region 1" (Most people speak Language A. National capital.)
+- zone "Region 2" (Most people speak Language A.)
+- zone "Region 3" (Most people speak Language B.)
+- line "High mountain range"
+- marker "National capital" symbol=baseN
+- legend: baseN = National capital
+
+_Description:_ Country V has three regions. Language A is the only official language, and national schools, courts, and television use only Language A. Most people in Regions 1 and 2 speak Language A at home; most people in Region 3 speak Language B. A zigzag line marks a high mountain range along the border between Region 2 and Region 3.
+
+_Source:_ Hypothetical map
+
+Based on the map and its description, which outcome is most likely?
+
+- **A.** Region 2 may favor independence because it does not contain the national capital.
+- **B.** The mountain border may make Language A easier to adopt in Region 3.
+- **C.** Using just Language A in public institutions may strengthen Region 3's shared identity with Region 1.
+- **D.** Excluding Language B from public institutions may strengthen demands for self-rule in Region 3.
+- **E.** Language B may replace Language A as the main language of communication in Regions 1 and 2.
+
+**Answer: D**
+
+_Explanation:_ A centrifugal force creates pressure that can weaken a country's unity. Most people in Region 3 speak Language B, but schools, courts, and TV use only Language A. Some residents may feel their language is left out and may push for more regional control. The mountains may limit contact, but the map does not show that Region 3 is completely cut off.
+
+_Why not:_
+- A: Region 2 shares Language A with the capital region, so language is not dividing it from the rest of the country.
+- B: Mountains can make movement and contact harder. The map gives no evidence that this range speeds the spread of Language A.
+- C: Leaving Language B out of schools, courts, and TV gives a reason for possible tension, not evidence that the policy builds unity.
+- E: The map gives no evidence that Language B is spreading into Regions 1 and 2 or becoming their shared language.
+
+_Vocab:_ centrifugal force, official language, physical barrier
+
+### U3-P10  ·  Topic 3.3 · PSO-3.D · Skill 1.D · medium
+
+Beginning in the 1970s, residents of Barrio Logan, a largely Mexican American neighborhood in San Diego, California, turned land beneath a highway bridge into Chicano Park and painted murals on the bridge's concrete pillars. The murals show Mexican and Mexican American history and culture. This is best described as
+
+- **A.** placelessness caused by the spread of global popular culture
+- **B.** assimilation into a dominant culture
+- **C.** placemaking that strengthens a sense of place
+- **D.** stimulus diffusion of an art style from abroad
+- **E.** ethnocentrism toward other groups
+
+**Answer: C**
+
+_Explanation:_ Placemaking is when people shape a public space so it reflects who they are. The residents of Barrio Logan turned the space under a highway into a park and painted murals about their history. That gives the neighborhood a strong sense of place: a feeling that the place is special and belongs to its community.
+
+_Why not:_
+- A: Placelessness is when places lose their uniqueness and look the same. These murals make the place more unique.
+- B: Assimilation means adopting a dominant culture and becoming less culturally distinct. These murals instead celebrate the community's Mexican American heritage.
+- D: The question does not describe an imported art idea being changed. It describes residents giving a public space meaning through their own history and culture.
+- E: Ethnocentrism is judging other cultures as worse than your own. The murals honor the residents' heritage without putting down other groups.
+
+_Vocab:_ placemaking, sense of place, placelessness
+
+### U3-P11  ·  Topic 3.3 · PSO-3.D · Skill 5.B · medium
+
+In Nigeria, Islam is the main religion in much of the north, while Christianity is the main religion in much of the south. Which of the following best explains how this pattern could act as a centrifugal force at the national scale?
+
+- **A.** Islam and Christianity are both ethnic religions, so neither can spread beyond its region.
+- **B.** Regional religious identities may become stronger than identification with the country as a whole.
+- **C.** Followers of each religion move outward from the center of the country toward its borders.
+- **D.** Religious diversity usually leads a state to split into separate countries.
+- **E.** The pattern resulted from hierarchical diffusion, which spreads religions from capital cities outward.
+
+**Answer: B**
+
+_Explanation:_ A centrifugal force divides a country. In Nigeria, the main religion in much of the north is different from the main religion in much of the south. When religion lines up with region, people may feel closer to their region than to the whole country. Arguments about laws, power, or money can then become both regional and religious, which can pull a state apart.
+
+_Why not:_
+- A: Islam and Christianity are universalizing religions that have spread around the world.
+- C: This uses the everyday meaning of "centrifugal" (moving outward). In geography, a centrifugal force is anything that divides a country's people, not people moving toward its borders.
+- D: Religious diversity does not by itself make countries break apart. Political exclusion, unequal power, and regional divisions affect whether religious differences become divisive.
+- E: How the religions spread does not explain why the pattern can divide the country today.
+
+_Vocab:_ centrifugal force, universalizing religion, regionalism
+
+### U3-P12  ·  Topic 3.4 · IMP-3.A · Skill 4.E · easy
+
+**Stimulus (schematicMap): SPREAD OF RELIGION Q (HYPOTHETICAL)**
+
+Schematic map (800×400). Features:
+- land "Land A"
+- land "Land B"
+- land "Area where most people follow Religion Q by 1500" style=power
+- land "Area where most people follow Religion Q by 1500 (port town)" style=power
+- island "Hearth city" center=[165, 185] r=8
+- island "Port town" center=[588, 200] r=6
+- arrow "Merchants from Land A who settled in the port town in the 1300s" from [330, 196] to [540, 202]
+- legend: power = Most people follow Religion Q (by 1500); land = Other land; water = Sea
+
+_Description:_ Religion Q began in the hearth city on Land A. By 1500 it had spread from the hearth city to the villages and towns around it (shaded area on Land A). The arrow shows merchants from Land A who sailed across the sea in the 1300s, settled in a port town on Land B, and built the first Religion Q house of worship there. By 1500 most people in the port town followed Religion Q.
+
+_Source:_ Hypothetical map
+
+The arrow on the map best illustrates which type of diffusion?
+
+- **A.** Contagious expansion diffusion
+- **B.** Hierarchical expansion diffusion
+- **C.** Relocation diffusion
+- **D.** Stimulus expansion diffusion
+- **E.** Reverse hierarchical diffusion
+
+**Answer: C**
+
+_Explanation:_ Relocation diffusion happens when people move and bring their culture with them. The arrow shows merchants who moved from Land A, settled in the port town on Land B, and built a place of worship. Later, other residents may have adopted the religion in other ways, but the move shown by the arrow is relocation diffusion.
+
+_Why not:_
+- A: Contagious diffusion is spread through contact among people or nearby places. The arrow specifically shows migrants moving and settling across the sea.
+- B: Hierarchical diffusion moves from powerful people or large places down to smaller ones. The arrow shows people moving.
+- D: Stimulus diffusion is when an idea spreads but changes form. Nothing shows the religion being changed.
+- E: Reverse hierarchical diffusion starts in small or less powerful places and moves up to larger ones.
+
+_Vocab:_ relocation diffusion, expansion diffusion, contagious diffusion
+
+### U3-P13  ·  Topic 3.4 · IMP-3.A · Skill 3.E · medium
+
+**Stimulus (table): YEAR A NEW DANCE STYLE BECAME POPULAR IN EACH PLACE, REGION J (HYPOTHETICAL DATA)**
+
+| Place | Population | Distance from Ora (km) | Year the dance became popular |
+|---|---|---|---|
+| Ora (hearth village) | 3,000 | 0 | 2000 |
+| Town P | 50,000 | 20 | 2001 |
+| Village Q | 1,500 | 25 | 2001 |
+| City R | 900,000 | 120 | 2004 |
+| Village S | 800 | 60 | 2002 |
+| Town T | 30,000 | 180 | 2006 |
+| Village U | 600 | 200 | 2007 |
+
+_Description:_ A table listing seven places in Region J with each place's population, its distance in kilometers from the village of Ora, where a new dance style began, and the year the dance became popular there.
+
+_Source:_ Hypothetical data
+
+Which type of diffusion is best supported by the data in the table?
+
+- **A.** Hierarchical, because the dance reached the largest place first
+- **B.** Relocation, because the dance reached places far from Ora
+- **C.** Reverse hierarchical, because the dance began in a small village
+- **D.** Stimulus, because the dance changed its steps as it moved from place to place
+- **E.** Contagious, because nearby places adopted it first, whatever their size
+
+**Answer: E**
+
+_Explanation:_ Look at distance and year together. The closer a place is to Ora, the sooner it adopted the dance, no matter how many people live there. Tiny Village Q (25 km away) got it in 2001, three years before huge City R (120 km away). Spreading to nearby places first, like a cold passing from person to person, is contagious diffusion.
+
+_Why not:_
+- A: City R, the largest place, did not adopt the dance until 2004, after several small villages.
+- B: Relocation needs people to move and carry the trait. A steady spread outward by distance points to contagious expansion instead.
+- C: Adoption follows distance from Ora, not a move from smaller places up to larger ones. Starting in a small village does not by itself make it reverse hierarchical diffusion.
+- D: The table shows only places, distances, and years. It gives no sign that the dance changed.
+
+_Vocab:_ contagious diffusion, distance decay, hierarchical diffusion
+
+### U3-P14  ·  Topic 3.4 · IMP-3.A · Skill 1.D · easy
+
+A U.S.-based burger chain opens restaurants in Country X, where most people do not eat beef for religious reasons. The chain keeps its counters, drive-throughs, and fast service but replaces beef burgers with sandwiches made from spiced potatoes and chicken. This best illustrates
+
+- **A.** stimulus diffusion
+- **B.** relocation diffusion
+- **C.** contagious diffusion
+- **D.** reverse hierarchical diffusion
+- **E.** assimilation
+
+**Answer: A**
+
+_Explanation:_ In stimulus diffusion, the basic idea spreads, but the trait changes to fit the new culture. The fast-food idea (counters, drive-throughs, quick service) spread to Country X. The menu changed to fit local beliefs about food. Same idea, new form.
+
+_Why not:_
+- B: Relocation diffusion happens when people move and take their culture with them. Here a business idea spreads and is changed to fit local beliefs.
+- C: Contagious diffusion describes spread through contact among people or nearby places. The key evidence here is that the restaurant model changes to fit local religious practices.
+- D: Reverse hierarchical diffusion moves from small or less powerful places up to larger ones.
+- E: Assimilation would mean the local population adopting the incoming culture and becoming less distinct. Here the restaurant changes its menu to fit local beliefs.
+
+_Vocab:_ stimulus diffusion, expansion diffusion
+
+### U3-P15  ·  Topic 3.4 · IMP-3.A · Skill 2.A · medium
+
+A new style of clothing first became popular among teenagers in several small towns in rural Country P. About two years later it appeared in mid-sized cities, and only after that did stores in the country's largest city, which is also the national capital, begin selling it. This pattern is best described as
+
+- **A.** hierarchical diffusion, because the style moved down from the capital
+- **B.** contagious diffusion, because the style spread to the nearest towns first
+- **C.** relocation diffusion, because teenagers moved to cities and took the style
+- **D.** reverse hierarchical diffusion, because it moved up from small towns
+- **E.** stimulus diffusion, because each city changed the style to fit local tastes
+
+**Answer: D**
+
+_Explanation:_ Reverse hierarchical diffusion starts at the bottom and moves UP. It begins in small towns or with less powerful groups. Then it climbs to bigger places. Here the style began in small towns. Next it reached mid-sized cities. The capital got it last. Your AP course guide names hierarchical diffusion, which usually moves DOWN from big or powerful places. Reverse hierarchical diffusion climbs the same ladder the other way.
+
+_Why not:_
+- A: The style moved UP from small towns to the capital, not down from the capital.
+- B: The style moved up by size, from small towns to mid-sized cities to the capital. Nothing shows it spreading to nearby places first.
+- C: The question gives no evidence that migration carried the style. The evidence is the order of adoption by settlement size.
+- E: The question gives no evidence that communities changed the style as they adopted it.
+
+_Vocab:_ reverse hierarchical diffusion, hierarchical diffusion
+
+### U3-P16  ·  Topic 3.5 · SPS-3.A · Skill 4.A · easy
+
+**Stimulus (table): FOUR LANGUAGES AND THEIR HISTORIES**
+
+| Language | Where it is widely used | History |
+|---|---|---|
+| Swahili | East Africa, including Kenya and Tanzania | Spread along Indian Ocean coastal trade routes and later inland trade routes; now widely used for trade, schooling, and government among people who speak many different first languages |
+| Haitian Creole | Haiti | Formed in the French colony of Saint-Domingue from contact between French and West African languages; now the first language of most Haitians |
+| French | Senegal, Côte d'Ivoire, Gabon | Brought by French colonization; still an official language after independence |
+| Basque | Northern Spain and southwestern France | Spoken mainly in its home region; not known to be related to any other living language |
+
+_Description:_ A table describing four languages, where each is widely used today, and how each spread or developed.
+
+_Source:_ Wikipedia articles "Swahili language," "Haitian Creole," "Languages of Senegal," "Languages of Ivory Coast," "Languages of Gabon," and "Basque language" (accessed November 8, 2026)
+
+The role of Swahili described in the table best illustrates which concept?
+
+- **A.** Creolization
+- **B.** Lingua franca
+- **C.** Language isolate
+- **D.** Dialect
+- **E.** Language extinction
+
+**Answer: B**
+
+_Explanation:_ A lingua franca is a language people use to communicate when they have different first languages. Swahili spread through trade and other contact. Today, many people in East Africa use it to communicate across language groups in trade, school, and public life.
+
+_Why not:_
+- A: Creolization is the development of a new community language through long language contact. Haitian Creole is an example.
+- C: A language isolate has no demonstrated relationship to any other living language. Basque is an example.
+- D: A dialect is a regional or social variety of one language, with differences in pronunciation, vocabulary, or grammar.
+- E: Swahili is growing in use, not disappearing.
+
+_Vocab:_ lingua franca, creolization, language isolate
+
+### U3-P17  ·  Topic 3.5 · SPS-3.A · Skill 1.B · easy
+
+Tok Pisin began in the 1800s as a pidgin, a contact language used on plantations among workers who did not share a first language; much of its vocabulary comes from English. Today it is one of the main languages of Papua New Guinea, and many children grow up speaking it as their first language. This change is best described as
+
+- **A.** language extinction, because the original plantation pidgin disappeared
+- **B.** stimulus diffusion, because English grammar was copied without changes
+- **C.** creolization, because a pidgin became the first language of a community
+- **D.** isolation, because the language developed without contact with other languages
+- **E.** assimilation, because speakers gave up their first languages for English
+
+**Answer: C**
+
+_Explanation:_ A pidgin develops so that people who do not share a first language can communicate. One path to a creole is when a contact language becomes the first language of a community and is used in everyday life. That is what happened with Tok Pisin.
+
+_Why not:_
+- A: The language did not disappear. Tok Pisin is still widely used, including as a first language.
+- B: Tok Pisin borrowed many English words but has its own grammar. The key change is a pidgin becoming a first language.
+- D: Tok Pisin formed through contact among many groups, which is the opposite of isolation.
+- E: Tok Pisin is not English, and many of its speakers also speak local languages.
+
+_Vocab:_ pidgin, creole, creolization
+
+### U3-P18  ·  Topic 3.5 · SPS-3.A · Skill 2.D · easy
+
+Portuguese is the main language of Brazil, while Spanish is the main language in most other countries of South America. Which of the following best explains this pattern?
+
+- **A.** Portugal and Spain divided South America's colonial claims, and each spread its language.
+- **B.** Brazil's tropical climate favored the spread of Portuguese over Spanish.
+- **C.** Portuguese spread to Brazil through contagious diffusion from neighboring Spanish-speaking countries.
+- **D.** Brazil's Indigenous peoples spoke languages closely related to Portuguese before 1500.
+- **E.** Portuguese became Brazil's main language after the country won independence from Spain.
+
+**Answer: A**
+
+_Explanation:_ In 1494, Spain and Portugal signed the Treaty of Tordesillas, which split their claims to newly reached lands. Portugal's share included eastern South America, which became Brazil. Each colonial power made its own language the language of government, church, and trade. Your AP course guide says colonialism and imperialism helped shape today's cultural patterns.
+
+_Why not:_
+- B: Climate does not decide which language people speak. Colonial history does.
+- C: Portuguese did not come from Spanish-speaking neighbors. It came by sea with Portuguese colonizers.
+- D: Indigenous languages of Brazil, such as the Tupi languages, are not related to Portuguese.
+- E: Brazil was a Portuguese colony and became independent from Portugal in 1822.
+
+_Vocab:_ colonialism, imperialism, relocation diffusion
+
+### U3-P19  ·  Topic 3.5 · SPS-3.A · Skill 2.B · medium
+
+Most people in Indonesia are Muslim, even though Indonesia lies thousands of kilometers from Islam's hearth on the Arabian Peninsula. Which historical process best explains how Islam first became established in the islands of present-day Indonesia?
+
+- **A.** Arab armies conquered the islands and ruled them directly for several centuries.
+- **B.** Spanish colonizers in the 1500s spread Islam as part of their empire.
+- **C.** Dutch colonial officials made Islam the official religion of the colony.
+- **D.** Farmers from India migrated to the islands in large numbers and brought Islam with them.
+- **E.** Muslim traders on Indian Ocean routes settled in ports, where local rulers adopted Islam.
+
+**Answer: E**
+
+_Explanation:_ Islam spread to the islands of Southeast Asia mostly through TRADE. Muslim merchants sailing the Indian Ocean, including traders from Arabia and from India's coast, settled in busy port towns. Local rulers and traders converted, and the religion spread from the ports to the people around them. Your AP course guide says trade, colonialism, and imperialism helped shape cultural patterns.
+
+_Why not:_
+- A: Arab armies never conquered these islands. Islam arrived mainly through trade.
+- B: Spain colonized the nearby Philippines and spread Catholicism, not Islam.
+- C: The Dutch arrived after Islam was already well established, and they did not make it an official religion.
+- D: Islam came mainly with merchants by sea, including traders from India's coast, not with large groups of farmers.
+
+_Vocab:_ relocation diffusion, hierarchical diffusion, trade routes
+
+### U3-P20  ·  Topic 3.6 · SPS-3.A · Skill 3.C · medium
+
+**Stimulus (bar): INDIVIDUALS USING THE INTERNET, SELECTED COUNTRIES AND THE WORLD, 2005 AND 2024**
+
+Bar chart. y-axis: Percent of population (max 100)
+
+| Category | 2005 | 2024 |
+|---|---|---|
+| United States | 68 | 95 |
+| Brazil | 21 | 84 |
+| India | 2 | 65 |
+| Nigeria | 4 | 41 |
+| World | 16 | 71 |
+
+_Source:_ World Bank, World Development Indicators, indicator IT.NET.USER.ZS, "Individuals using the Internet (% of population)," based on International Telecommunication Union data (accessed November 8, 2026). Values rounded to the nearest whole percent.
+
+Which conclusion about the spread of communication technology is best supported by the graph?
+
+- **A.** Internet use grew mainly in high-income countries, while lower-income ones changed little.
+- **B.** By 2024, more than half of the people in each country shown used the internet.
+- **C.** The gap in internet use between the United States and India widened after 2005.
+- **D.** Internet use rose in every country shown, but large gaps in use remained in 2024.
+- **E.** The United States gained the most percentage points because it started highest in 2005.
+
+**Answer: D**
+
+_Explanation:_ Every 2024 bar is taller than its 2005 bar. So internet use went up in every country shown and in the world. But use is still uneven. In 2024, about 95% of people in the United States used the internet. In Nigeria, about 41% did. More internet use can make it easier to share culture across long distances. But this graph does not show how fast messages travel or which cultural traits spread.
+
+_Why not:_
+- A: India went from about 2% to about 65%, a huge jump for a lower-income country.
+- B: Nigeria was at about 41% in 2024, which is less than half.
+- C: The U.S.–India gap shrank from about 66 points (68 vs. 2) to about 30 points (95 vs. 65).
+- E: The United States gained about 27 points, the smallest gain shown. Brazil and India each gained about 63.
+
+_Vocab:_ time-space convergence, globalization, communication technology
+
+### U3-P21  ·  Topic 3.6 · SPS-3.A · Skill 1.B · medium
+
+Iceland's language planners often create new Icelandic words for new technologies instead of borrowing English words. For example, the Icelandic word for computer, tölva, was built from older Icelandic words meaning "number" and "prophetess." This practice is best described as an effort to
+
+- **A.** create a shared trade language that people in other Nordic countries can easily learn
+- **B.** resist cultural convergence by keeping the language distinct from English
+- **C.** speed up the spread of English through relocation diffusion
+- **D.** turn Icelandic into a creole by mixing it with English
+- **E.** help immigrants assimilate by replacing Icelandic with English
+
+**Answer: B**
+
+_Explanation:_ Cultural convergence means cultures becoming more alike. One cause is the spread of English and global media. Iceland pushes back. It makes up new Icelandic words instead of borrowing English ones. This keeps the language different and special to Iceland. Your AP course guide says new technology can make cultures more alike (convergence) or more different (divergence).
+
+_Why not:_
+- A: The goal is to keep Icelandic vocabulary Icelandic, not to create a shared trade language for other Nordic countries.
+- C: The policy does the opposite: it avoids English words.
+- D: Borrowing or combining words does not by itself create a creole. This example describes making new words inside Icelandic.
+- E: The policy keeps Icelandic strong instead of replacing it.
+
+_Vocab:_ cultural convergence, cultural divergence, language preservation
+
+### U3-P22  ·  Topic 3.6 · SPS-3.A · Skill 5.B · medium
+
+A song by a South Korean pop group becomes a worldwide hit through streaming sites and social media. In Country X, fan groups learn the song's dance routine and perform it at local festivals, mixing in steps from a traditional local dance. Which statement best explains this example across scales?
+
+- **A.** The song spread mainly by relocation diffusion as Korean migrants moved to Country X.
+- **B.** The local dance groups show that globalization has little effect at the local scale.
+- **C.** The local performances show hierarchical diffusion, because the song reached Country X's largest cities first.
+- **D.** Time-space convergence slowed the song's spread, so it reached Country X years later.
+- **E.** Global media spread the song widely, and local groups adapt it to their own culture.
+
+**Answer: E**
+
+_Explanation:_ Streaming connects fans in Country X to a song heard around the world. The fans then mix it with a local dance. Global connections can spread a shared influence, while local communities change it in their own ways. Geographers look at both scales to see the whole story.
+
+_Why not:_
+- A: The song spread through streaming and social media, not because many people moved.
+- B: The fan groups formed because of the global song, so globalization clearly reached the local scale.
+- C: The question does not say which places in Country X got the song first. Streaming reaches fans wherever they are online, not mainly by moving down from the largest cities.
+- D: Streaming and social media make ideas spread faster, not slower.
+
+_Vocab:_ globalization, cultural convergence, scale of analysis
+
+### U3-P23  ·  Topic 3.6 · SPS-3.A · Skill 2.C · medium
+
+Many young people from rural villages in Country M move to the capital city for school and jobs. In the city, classes, most jobs, and much online content use the national language or English. Over the next few decades, which outcome is most likely for the Indigenous language spoken in their home villages?
+
+- **A.** Fewer young people will speak the village language, which may become endangered.
+- **B.** The village language will become the capital's main lingua franca within a generation.
+- **C.** The national language will disappear because migrants bring so many languages.
+- **D.** The village language will spread to other countries through hierarchical diffusion.
+- **E.** Language use will likely stay the same, because people keep their first language for life.
+
+**Answer: A**
+
+_Explanation:_ When schools, jobs, and online media mostly use the national language or English, young people have fewer chances to use their home language. If they do not pass it on to their children, it may become endangered. Families and community programs can also work to keep it alive.
+
+_Why not:_
+- B: A small minority language rarely becomes the shared language of a big city. Newcomers usually learn the city's main language.
+- C: The national language is used in schools, jobs, and media, so it grows stronger in the city.
+- D: Moving to the capital does not carry the village language to other countries.
+- E: Children raised in the city often grow up using the city's languages more than the village language.
+
+_Vocab:_ urbanization, language loss, endangered language
+
+### U3-P24  ·  Topic 3.7 · IMP-3.B · Skill 4.B · easy
+
+**Stimulus (table): HEARTHS, RELIGION TYPES, AND DISTRIBUTION OF FOLLOWERS, 2010**
+
+| Religion | Hearth | Type | Where most followers lived in 2010 |
+|---|---|---|---|
+| Buddhism | South Asia (northern India and southern Nepal) | Universalizing | East and Southeast Asia |
+| Christianity | Southwest Asia (the Levant, along the eastern Mediterranean) | Universalizing | Every inhabited continent, especially the Americas, Europe, and Africa south of the Sahara |
+| Hinduism | South Asia (northern Indian subcontinent) | Ethnic | India and Nepal |
+| Islam | Southwest Asia (Mecca and Medina, Arabian Peninsula) | Universalizing | Asia and Africa, from Southeast and South Asia to Southwest Asia and North Africa, and Africa south of the Sahara |
+| Judaism | Southwest Asia (the Levant, along the eastern Mediterranean) | Ethnic | Mainly Israel and the United States |
+
+_Description:_ A table listing five religions, their hearth regions, their classification as universalizing or ethnic, and the main regions where their followers lived in 2010.
+
+_Source:_ Where followers lived in 2010: Pew Research Center, "The Global Religious Landscape" (2012). Hearths: Encyclopaedia Britannica articles on each religion. Types: College Board AP Human Geography course guide.
+
+Which religion in the table best fits the pattern of an ethnic religion that is still found mainly near its hearth?
+
+- **A.** Buddhism
+- **B.** Christianity
+- **C.** Hinduism
+- **D.** Islam
+- **E.** Judaism
+
+**Answer: C**
+
+_Explanation:_ Hinduism began in South Asia, and most Hindus in the table live in India and Nepal. So it is the clearest match for an ethnic religion that is still found mostly near its hearth. This is a tendency, not a rule: migration has also created Hindu and Jewish communities far from their hearths.
+
+_Why not:_
+- A: Buddhism is a universalizing religion, and most Buddhists today live in East and Southeast Asia, far from where it began.
+- B: Christianity is a universalizing religion that is now found on every inhabited continent.
+- D: Islam is a universalizing religion that spread far beyond the Arabian Peninsula.
+- E: Judaism is an ethnic religion, but one of its two largest communities is in the United States, far from its hearth. It spread mainly by relocation diffusion.
+
+_Vocab:_ ethnic religion, universalizing religion, hearth
+
+### U3-P25  ·  Topic 3.7 · IMP-3.B · Skill 4.C · medium
+
+**Stimulus (table): SELECTED TEXAS PLACE NAMES AND THEIR ORIGINS**
+
+| Place | Part of Texas | Origin of the name |
+|---|---|---|
+| Nacogdoches | East Texas | Named for the Nacogdoche, a Caddo people |
+| San Antonio | South-central Texas | Spanish; from the San Antonio River, which a Spanish expedition named in 1691 for Saint Anthony of Padua |
+| El Paso | Far West Texas | Spanish; from El Paso del Norte, "the Pass of the North" |
+| New Braunfels | Central Texas, between San Antonio and Austin | German; founded by German immigrants in 1845 and named for Braunfels, a place in Germany |
+| Fredericksburg | Texas Hill Country | German; founded by German immigrants in 1846 and named for Prince Frederick of Prussia |
+
+_Description:_ A table listing five Texas cities and towns, the part of Texas where each is located, and where each place name came from.
+
+_Source:_ Handbook of Texas Online, Texas State Historical Association, entries for Nacogdoches, San Antonio, El Paso, New Braunfels, and Fredericksburg (accessed November 8, 2026)
+
+Which conclusion is best supported by the place names in the table?
+
+- **A.** German settlers were the first group to name places in East Texas.
+- **B.** Spanish place names are found mainly in the Hill Country of central Texas.
+- **C.** Indigenous place names disappeared from Texas after Spanish colonization.
+- **D.** Place names record the groups that lived in or settled Texas over time.
+- **E.** Most Texas place names came from English through contagious diffusion.
+
+**Answer: D**
+
+_Explanation:_ A toponym is a place name. Place names are like a history book written on the map. Nacogdoches comes from a Caddo people. San Antonio and El Paso come from Spanish explorers and settlers. New Braunfels and Fredericksburg come from German immigrants. Each group left its language on the land. Your AP course guide says toponyms can show how languages diffused.
+
+_Why not:_
+- A: Nacogdoches, in East Texas, comes from a Caddo people, not from German settlers.
+- B: The two Spanish names shown are in south-central and far western Texas. Five examples cannot show where most Spanish place names are.
+- C: Nacogdoches shows that Indigenous names are still on the map.
+- E: The table gives Indigenous, Spanish, and German naming histories. It does not support a claim about most Texas place names or show contagious diffusion of English.
+
+_Vocab:_ toponym, relocation diffusion, cultural landscape
+
+### U3-P26  ·  Topic 3.7 · IMP-3.B · Skill 1.C · medium
+
+Which pairing correctly describes one of the hypotheses proposed for the early spread of the Indo-European language family?
+
+- **A.** Kurgan hypothesis: the family spread with early farmers moving out of present-day Türkiye
+- **B.** Anatolian hypothesis: the family spread with the diffusion of farming from present-day Türkiye
+- **C.** Anatolian hypothesis: the family spread with horse-riding herders from the Eurasian steppe
+- **D.** Kurgan hypothesis: the family spread with traders from the Arabian Peninsula
+- **E.** Anatolian hypothesis: the family spread from China along the Silk Roads
+
+**Answer: B**
+
+_Explanation:_ Indo-European is the language family with the most speakers today. It includes English, Spanish, Hindi, and Russian. Two well-known ideas link its early spread to people moving. The Anatolian hypothesis ties it to farming, which spread out of Anatolia (in today's Türkiye). The steppe, or Kurgan, hypothesis ties a later spread to herders from the grasslands north of the Black and Caspian Seas. Researchers keep testing both ideas.
+
+_Why not:_
+- A: That swaps the two. The Kurgan hypothesis is about horse-riding herders from the steppe.
+- C: That swaps the two. The Anatolian hypothesis is about farming spreading from Anatolia, in present-day Türkiye.
+- D: Neither hypothesis puts the hearth on the Arabian Peninsula. Arabic, spoken there, belongs to a different family (Afro-Asiatic).
+- E: Neither hypothesis puts the hearth in China. Chinese languages belong to a different family (Sino-Tibetan).
+
+_Vocab:_ Indo-European, Anatolian hypothesis, Kurgan hypothesis, language family
+
+### U3-P27  ·  Topic 3.7 · IMP-3.B · Skill 2.B · medium
+
+Malagasy, the main language of Madagascar, an island off the southeastern coast of Africa, belongs to the Austronesian language family. Its closest relatives are languages spoken on the island of Borneo in Southeast Asia, thousands of kilometers away. Which process best explains this pattern?
+
+- **A.** Contagious diffusion through neighboring areas of the African mainland
+- **B.** Hierarchical diffusion from colonial capitals in Europe
+- **C.** Stimulus diffusion of an African language that was later rewritten
+- **D.** Creolization of French and Arabic during the colonial period
+- **E.** Relocation diffusion by settlers who crossed the Indian Ocean by boat
+
+**Answer: E**
+
+_Explanation:_ Relocation diffusion happens when people move and carry their culture to a new place. Malagasy's closest relatives are spoken on Borneo. That points to people who sailed across the Indian Ocean many centuries ago. They brought their language to Madagascar. There it kept changing through contact with other languages.
+
+_Why not:_
+- A: Spread from nearby mainland communities would not explain why Malagasy's closest relatives are languages of Borneo.
+- B: Madagascar was a French colony, but French is Indo-European. Colonial rule does not explain an Austronesian language.
+- C: Changes in writing do not move a language into a different language family.
+- D: Malagasy is not a mix of French and Arabic. It is related to languages of Borneo.
+
+_Vocab:_ relocation diffusion, language family, Austronesian
+
+### U3-P28  ·  Topic 3.7 · IMP-3.B · Skill 1.B · medium
+
+Which characteristic most helps explain why universalizing religions such as Christianity, Islam, and Buddhism have spread over much larger areas than ethnic religions such as Hinduism and Judaism?
+
+- **A.** They are much older than ethnic religions, so they had more time to spread.
+- **B.** They seek followers from all cultures and actively welcome new converts.
+- **C.** Their beliefs are closely tied to the land and people of their hearth.
+- **D.** They spread mainly when their followers migrated, rather than by converting others.
+- **E.** Their followers are concentrated in the region where the religion began.
+
+**Answer: B**
+
+_Explanation:_ Universalizing religions teach that their message is open to people of any background. Winning new believers helps them spread to many cultures. Migration and trade help too. Ethnic religions usually have strong ties to one people, history, and place. They may still accept converts and spread when their followers move.
+
+_Why not:_
+- A: Hinduism and Judaism are older than Christianity, Islam, and Buddhism, so age does not explain it.
+- C: Strong ties to the land and people of the hearth are more typical of ethnic religions.
+- D: Universalizing religions spread through conversion (expansion diffusion) as well as migration (relocation diffusion).
+- E: Staying near the hearth does not explain spread across many cultures. Some ethnic religions have communities far from their hearths, and some universalizing religions stay mostly in one region.
+
+_Vocab:_ universalizing religion, ethnic religion, expansion diffusion
+
+### U3-P29  ·  Topic 3.7 · IMP-3.B · Skill 2.B · easy
+
+Sikhism began in the Punjab region of South Asia in the late 1400s and early 1500s. Today large Sikh communities, with gurdwaras (Sikh houses of worship), are found in places such as Surrey in Canada, Southall in London, and Yuba City in California. These communities are best explained by
+
+- **A.** contagious diffusion from Punjab into neighboring regions of Europe
+- **B.** hierarchical diffusion, as the faith reached the world's largest cities first and then smaller towns
+- **C.** relocation diffusion, as Sikhs migrated from Punjab and brought their faith
+- **D.** stimulus diffusion, as local churches adopted and changed Sikh beliefs
+- **E.** expansion diffusion, as many local residents in these places converted to Sikhism
+
+**Answer: C**
+
+_Explanation:_ Families from Punjab moved to these cities. They built gurdwaras and kept practicing their faith. When people carry their religion to a new place by moving there, that is relocation diffusion. A universalizing religion like Sikhism can spread by people moving, not only by people converting.
+
+_Why not:_
+- A: Punjab and Europe are not neighbors. The faith jumped long distances with people who moved.
+- B: The communities formed where Sikh families settled for work, including small Yuba City, not in order of city size.
+- D: Stimulus diffusion means an idea spreads but changes form. Here Sikhs themselves moved and kept their religion.
+- E: The communities grew mainly because Sikh families moved there, not because many local residents converted.
+
+_Vocab:_ relocation diffusion, universalizing religion, diaspora
+
+### U3-P30  ·  Topic 3.8 · SPS-3.B · Skill 1.C · medium
+
+Which of the following best distinguishes acculturation from assimilation?
+
+- **A.** Acculturation affects immigrants, while assimilation affects the host society that receives them.
+- **B.** Acculturation blends two religions into one, while assimilation blends two languages into one.
+- **C.** Acculturation happens at the global scale, while assimilation happens at the local scale.
+- **D.** Acculturation adds some new traits, while assimilation means largely merging into the main culture
+- **E.** Acculturation keeps cultures fully separate, while assimilation lets them coexist as equals.
+
+**Answer: D**
+
+_Explanation:_ Acculturation means picking up some new traits from another culture while keeping parts of your own. Assimilation means becoming more like the main culture around you. People who assimilate often use some of their old traditions less. These changes can be uneven. A family may switch languages but keep its holiday traditions.
+
+_Why not:_
+- A: Both terms usually describe changes in a newcomer or minority group. The difference is how much of the original culture is kept.
+- B: Religious blending is syncretism. Creolization can produce a new community language through long language contact. Neither one defines acculturation or assimilation.
+- C: Both can happen at any scale. Scale is not what separates them.
+- E: Acculturation happens through contact and borrowing, so it does not keep cultures fully separate. Groups living side by side while keeping their identities is multiculturalism, not assimilation.
+
+_Vocab:_ acculturation, assimilation, multiculturalism
+
+### U3-P31  ·  Topic 3.8 · SPS-3.B · Skill 3.D · medium
+
+**Stimulus (table): LANGUAGE AND TRADITIONS AMONG FAMILIES FROM COUNTRY F LIVING IN COUNTRY G (HYPOTHETICAL DATA)**
+
+| Generation in Country G | Speak Language F at home (%) | Speak Country G's main language well (%) | Celebrate Country F's New Year festival (%) |
+|---|---|---|---|
+| First (born in Country F) | 92 | 41 | 88 |
+| Second (children of the first) | 55 | 96 | 70 |
+| Third (grandchildren of the first) | 14 | 99 | 52 |
+
+_Description:_ A table comparing three generations of families from Country F living in Country G: the percent who speak Language F at home, the percent who speak Country G's main language well, and the percent who celebrate Country F's New Year festival.
+
+_Source:_ Hypothetical data
+
+Which conclusion is best supported by the data in the table?
+
+- **A.** The data suggest growing linguistic assimilation alongside continued heritage traditions.
+- **B.** Most members of the third generation no longer celebrate the New Year festival.
+- **C.** The data show syncretism, because the families have blended two religions into one.
+- **D.** The first generation has fully assimilated, since 92 percent of them speak Language F.
+- **E.** Each generation keeps its heritage language as strongly as the generation before it.
+
+**Answer: A**
+
+_Explanation:_ Read down each column. Fewer people in each generation speak Language F at home. More of them speak Country G's language well. That fits linguistic assimilation, which means shifting toward the main language. But 52% of the grandchildren still celebrate the festival. So the table does not show that the heritage culture is gone.
+
+_Why not:_
+- B: 52% of the third generation still celebrate the festival. That is more than half.
+- C: The table has no data about religion, so it cannot show religions blending.
+- D: Speaking Language F at home does not show full assimilation into Country G's culture. It shows that the heritage language is still being used.
+- E: Speaking Language F at home falls in each generation, from 92% to 55% to 14%.
+
+_Vocab:_ assimilation, acculturation, heritage language
+
+### U3-P32  ·  Topic 3.8 · SPS-3.B · Skill 1.D · easy
+
+In Mexico, Día de los Muertos (Day of the Dead) falls on November 1 and 2, the dates of the Catholic holy days of All Saints' Day and All Souls' Day. Families build altars with marigolds, candles, food, and photos to honor relatives who have died, customs that many scholars trace to Indigenous Mesoamerican traditions. This celebration best illustrates
+
+- **A.** syncretism
+- **B.** assimilation
+- **C.** multiculturalism
+- **D.** ethnocentrism
+- **E.** relocation diffusion
+
+**Answer: A**
+
+_Explanation:_ Syncretism is the blending of two or more cultural traditions into something new. Many scholars see Day of the Dead as a mix of Catholic holy days, brought by the Spanish, and older Indigenous ways of honoring ancestors. Neither tradition simply replaced the other. They merged.
+
+_Why not:_
+- B: Assimilation means adopting a dominant culture. This example describes two traditions combining into one celebration.
+- C: Multiculturalism recognizes several cultural groups and their identities. This question is about traditions blending together, which is syncretism.
+- D: Ethnocentrism is judging other cultures by one's own standards. It does not describe this blending.
+- E: Relocation diffusion is spread by people moving. The key idea here is two traditions blending in one place.
+
+_Vocab:_ syncretism, assimilation, multiculturalism
+
+### U3-P33  ·  Topic 3.7 · IMP-3.B · Skill 1.D · easy
+
+English speakers in the southern United States, New England, and the Upper Midwest can understand one another, but they differ in pronunciation and in some everyday words. For example, a soft drink is often called "soda" in New England, "pop" in much of the Midwest, and "coke" in much of the South. These regional varieties of English are best described as
+
+- **A.** separate language families
+- **B.** pidgins
+- **C.** dialects
+- **D.** lingua francas
+- **E.** language isolates
+
+**Answer: C**
+
+_Explanation:_ A dialect is a regional or social version of one language. Speakers of different dialects can usually understand each other, but they use different sounds, words, or grammar. "Soda," "pop," and "coke" are a classic example in American English. A line on a map that marks where one word or sound stops and another starts is called an isogloss.
+
+_Why not:_
+- A: A language family is a group of related languages. These are all varieties of one language, English.
+- B: A pidgin is a contact language for people who share no language. These speakers all speak English.
+- D: A lingua franca is a shared language used by people with different first languages. Here everyone already shares English.
+- E: A language isolate has no known relatives, like Basque. English belongs to the Indo-European family.
+
+_Vocab:_ dialect, isogloss, language family
+
+### U3-P34  ·  Topic 3.3 · PSO-3.D · Skill 5.C · hard
+
+**Stimulus (table): LANGUAGE SPOKEN AT HOME, BY REGION, COUNTRY H (HYPOTHETICAL DATA)**
+
+| Region | Share of Country H's population (%) | Speak Language A at home (%) | Speak Language B at home (%) |
+|---|---|---|---|
+| North | 30 | 96 | 4 |
+| Central | 35 | 92 | 8 |
+| Coast | 25 | 90 | 10 |
+| East | 10 | 18 | 82 |
+| Country H (all regions) | 100 | 85 | 15 |
+
+_Description:_ A table showing, for each of four regions of Country H and for the country as a whole, the region's share of the national population and the percent of people who speak Language A or Language B at home.
+
+_Source:_ Hypothetical data
+
+A national report on Country H states, "Only 15 percent of people speak Language B at home, so language is unlikely to divide the country." Based on the table, which statement best explains a weakness in this conclusion?
+
+- **A.** The regional percentages add up to more than 100, so the national figure is wrong.
+- **B.** Language B is spoken by so few people that it cannot shape any region's identity.
+- **C.** The conclusion should use global-scale data, since languages cross national borders.
+- **D.** Language B is spreading quickly, so it will soon be the national majority language.
+- **E.** The national figure hides that Language B speakers are a large majority in the East region.
+
+**Answer: E**
+
+_Explanation:_ The national number, 15%, is an average for the whole country. Zoom in to the regional scale, and the picture changes: 82% of people in the East speak Language B at home. A group that is small nationally but a large majority in one region can have a strong regional identity, which can become a centrifugal force. Changing the scale of analysis can change the conclusion.
+
+_Why not:_
+- A: In each row, Language A and Language B add to 100%, and the regions' population shares add to 100%. The 15% national figure matches the regional data.
+- B: In the East, 82% speak Language B at home, so it clearly can shape that region's identity.
+- C: The question is about unity inside Country H. Regional data, not global data, show where Language B speakers are concentrated.
+- D: The table shows one point in time, so it gives no evidence about how fast Language B is spreading.
+
+_Vocab:_ scale of analysis, centrifugal force, regionalism
+
+### U3-P35  ·  Topic 3.2 · PSO-3.C · Skill 2.B · easy
+
+Rail systems in several large cities, including Tokyo, Mexico City, and Delhi, set aside some train cars for women only. In the 2000s, rail companies in Tokyo added women-only cars in response to complaints about the harassment of women on crowded trains. This policy best illustrates how
+
+- **A.** time-space convergence has made rush-hour trains much less crowded
+- **B.** religious laws in these cities require men and women to stay apart in public spaces
+- **C.** fewer women now ride public transportation to get to work
+- **D.** concerns about gender and safety can shape how public space is designed and used
+- **E.** cultural relativism can lead cities to copy one another's transit systems
+
+**Answer: D**
+
+_Explanation:_ Your AP course guide says attitudes about gender help shape how people use space. Many women ride crowded trains to work and school. Because of concerns about harassment, some cities reserve cars for women. That changes how a public space is designed and used.
+
+_Why not:_
+- A: The policy exists because trains are crowded, not because they have become less crowded.
+- B: The question describes a safety measure on crowded trains, not a religious law. Men and women share most public spaces in these cities.
+- C: Women-only cars make sense where many women ride trains, so the policy points to heavy use by women, not less.
+- E: Cultural relativism is an attitude toward other cultures. It does not explain this safety policy.
+
+_Vocab:_ gender, use of space, public space
+
+## Timed exam
+
+Unit 3 Practice Exam: Cultural Patterns and Processes · 25 minutes · 25 questions
+
+Each of the questions or incomplete statements below is followed by five suggested answers or completions. Select the one that is best in each case. Your score is based only on the number of questions answered correctly, so answer every question. Work quickly without losing accuracy, and come back to any question you skipped if time allows.
+
+### U3-E01  ·  Topic 3.1 · PSO-3.A · Skill 1.A · easy
+
+Friday-night high school football games, tailgating, marching bands, homecoming mums, and school colors are related traits that together form a
+
+- **A.** culture region
+- **B.** cultural hearth
+- **C.** culture complex
+- **D.** culture trait
+- **E.** cultural landscape
+
+**Answer: C**
+
+_Explanation:_ One trait is one piece of culture, like wearing school colors. A culture complex is a group of related traits that go together. Football games, tailgating, marching bands, homecoming mums, and school colors all connect to one activity, so together they form a culture complex.
+
+_Rationales:_
+- A: Incorrect. A culture region is an area in which people share particular culture traits; the question describes a set of related traits, not an area.
+- B: Incorrect. A cultural hearth is the place where a culture trait or culture originated.
+- C: Correct. A culture complex is a group of related culture traits that together make up a larger cultural activity, such as the practices connected to high school football.
+- D: Incorrect. A culture trait is a single attribute of a culture; the question lists several related traits that function together.
+- E: Incorrect. The cultural landscape is the visible imprint of culture on a place, such as a stadium. Tailgating, bands, and school colors together are better described as a complex of related traits.
+
+### U3-E02  ·  Topic 3.1 · PSO-3.A · Skill 1.D · easy
+
+A tourist complains that people in the country she is visiting eat with their hands instead of with forks, and she calls the local way of eating uncivilized. Her attitude is an example of
+
+- **A.** acculturation
+- **B.** cultural relativism
+- **C.** ethnocentrism
+- **D.** syncretism
+- **E.** cultural convergence
+
+**Answer: C**
+
+_Explanation:_ Ethnocentrism means judging another culture by your own culture's rules. It means deciding that your way is better. In many cultures, eating with your hands is normal and polite. Calling it "uncivilized" just because it is different from home is ethnocentric.
+
+_Rationales:_
+- A: Incorrect. Acculturation is the adoption of some traits of another culture; the tourist rejects the local practice rather than adopting it.
+- B: Incorrect. Cultural relativism is the opposite attitude: evaluating a culture's practices on their own terms rather than by an outside standard.
+- C: Correct. Ethnocentrism is the attitude that one's own culture is superior and the use of one's own cultural standards to judge other cultures.
+- D: Incorrect. Syncretism is the blending of traits from different cultures into a new form.
+- E: Incorrect. Cultural convergence is the process by which cultures become more alike through contact.
+
+### U3-E03  ·  Topic 3.4 · IMP-3.A · Skill 3.E · medium · set musicmap
+
+_Questions 3–5 refer to the map below._
+
+**Stimulus (schematicMap): SPREAD OF A NEW MUSIC STYLE IN COUNTRY R, 2010–2016 (HYPOTHETICAL)**
+
+Schematic map (800×420). Features:
+- land "Country R"
+- island "Arlo (hearth), 9 million: 2010" center=[170, 230] r=16
+- island "Benn, 4 million: 2011" center=[620, 100] r=13
+- island "Cora, 3 million: 2011" center=[610, 330] r=12
+- island "Dell, 800,000: 2013" center=[660, 220] r=9
+- island "Eskar, 600,000: 2013" center=[360, 340] r=9
+- island "Fenn, 20,000: 2015" center=[190, 110] r=6
+- island "Gale, 15,000: 2016" center=[430, 150] r=5
+- scaleBar from [50, 386] to [150, 386] label "100 kilometers"
+
+_Description:_ Circles show cities and towns in Country R; larger circles mean more people. Each label gives the place's name, its population, and the year the music style first became popular there. The style began in Arlo, the hearth. Fenn is about 120 kilometers from Arlo; Benn and Cora are each more than 450 kilometers from Arlo.
+
+_Source:_ Hypothetical map
+
+The order of adoption shown on the map is most consistent with which type of diffusion?
+
+- **A.** Contagious diffusion
+- **B.** Relocation diffusion
+- **C.** Stimulus diffusion
+- **D.** Hierarchical diffusion
+- **E.** Reverse hierarchical diffusion
+
+**Answer: D**
+
+_Explanation:_ Follow the years. Arlo, the biggest city, had it in 2010. The big cities Benn and Cora got it in 2011. The medium cities Dell and Eskar got it in 2013. The small towns Fenn and Gale got it last, in 2015 and 2016. The style moved down the ladder of city size, not outward by distance. That is hierarchical diffusion.
+
+_Rationales:_
+- A: Incorrect. Contagious diffusion would reach the places nearest the hearth first. Fenn, only about 120 kilometers from Arlo, adopted the style in 2015, years after much more distant large cities.
+- B: Incorrect. The map does not show migration. Its clearest pattern is that larger cities adopted the style before smaller places.
+- C: Incorrect. Stimulus diffusion involves an underlying idea spreading while the trait itself is changed; the map gives no evidence that the style changed.
+- D: Correct. Distant large cities adopted the style before nearby small towns. This sequence fits diffusion down an urban hierarchy better than a spread organized mainly by distance.
+- E: Incorrect. Reverse hierarchical diffusion moves from small places up to larger ones; here the smallest places adopted the style last.
+
+### U3-E04  ·  Topic 3.4 · IMP-3.A · Skill 3.E · medium · set musicmap
+
+_(uses the stimulus of set musicmap)_
+
+Which explanation best accounts for Fenn's adoption date compared with those of Benn and Cora?
+
+- **A.** Distance decay means places nearest a hearth tend to be the last to adopt a trait.
+- **B.** The style reached Fenn when people from Arlo moved there, through relocation diffusion.
+- **C.** New trends often move first between big, well-connected cities, then down to small towns.
+- **D.** Fenn's small population places it in a different culture region from the rest of Country R.
+- **E.** Contagious diffusion spreads a trait to the largest places first and the closest places last.
+
+**Answer: C**
+
+_Explanation:_ Big cities are tied to each other by media companies, concert tours, airports, and lots of travelers. So a new trend jumps from one big city to another first. Small towns get it later, even if they are close by. That is why little Fenn waited until 2015.
+
+_Rationales:_
+- A: Incorrect. Distance decay means interaction declines as distance increases, so nearby places usually adopt a trait sooner, not later.
+- B: Incorrect. The map contains no migration history, so this explanation is not supported by the evidence provided.
+- C: Correct. In hierarchical diffusion, a trait moves first among the largest and most connected places, through media, business, and travel links, and reaches small towns later, even towns close to the hearth.
+- D: Incorrect. Nothing on the map suggests Fenn belongs to a different culture region; Fenn and Gale, the two smallest places, both adopted the style last, which reflects their size.
+- E: Incorrect. This misdefines contagious diffusion, which spreads to the nearest people and places first regardless of size.
+
+### U3-E05  ·  Topic 3.6 · SPS-3.A · Skill 2.C · medium · set musicmap
+
+_(uses the stimulus of set musicmap)_
+
+Assume that use of streaming services and social media became much more widespread throughout Country R after 2016. If another music style first appeared in Arlo in 2024, its spread, compared with the pattern on the map, would most likely be
+
+- **A.** slower, because online media make distance decay stronger
+- **B.** limited mainly to large cities, because small towns lack media companies
+- **C.** about the same, because trends would still move down the urban hierarchy year by year
+- **D.** carried mainly by migrants, making relocation diffusion the main process
+- **E.** faster and less tied to city size, because of time-space convergence
+
+**Answer: E**
+
+_Explanation:_ When almost everyone can stream music, people in small towns can hear a new style at nearly the same time as people in big cities. That can shrink the delays caused by distance and city size. (Hearing a style does not guarantee that people will adopt it.) This is time-space convergence at work.
+
+_Rationales:_
+- A: Incorrect. Online media weaken the effect of distance on interaction; they do not strengthen distance decay.
+- B: Incorrect. Listeners do not need local media companies to stream music; anyone with internet access can hear a new style, wherever they live.
+- C: Incorrect. The AP course framework notes that communication technologies such as the internet are reshaping and accelerating interactions among people, so the slow, year-by-year movement down the urban hierarchy shown on the map would be much less likely.
+- D: Incorrect. Online sharing spreads a trait without people moving, so relocation diffusion would not become the main process.
+- E: Correct. Time-space convergence, the shrinking of the time it takes for people and ideas to travel between places, means people in small towns can hear a new style online at nearly the same time as people in big cities. Adoption would be faster and depend less on the urban hierarchy.
+
+### U3-E06  ·  Topic 3.4 · IMP-3.A · Skill 1.D · medium
+
+In the early 1800s, Sequoyah, a Cherokee man who did not read English, saw that English speakers could communicate through writing. He then created a new writing system, with a symbol for each syllable of the Cherokee language, which he completed in 1821. This is an example of
+
+- **A.** stimulus diffusion
+- **B.** relocation diffusion
+- **C.** contagious diffusion
+- **D.** hierarchical diffusion
+- **E.** assimilation
+
+**Answer: A**
+
+_Explanation:_ Stimulus diffusion means the IDEA spreads, but people change it to fit their own culture. Sequoyah got the idea of writing from seeing English, but he made a brand-new writing system for Cherokee.
+
+_Rationales:_
+- A: Correct. In stimulus diffusion, an underlying idea spreads, but the trait itself is changed or reinvented by the receiving culture. The idea of writing spread, and Sequoyah created a new system for the Cherokee language rather than adopting English writing.
+- B: Incorrect. The example emphasizes how an idea was adapted, rather than the movement of people who carried a trait.
+- C: Incorrect. Person-to-person spread alone does not describe the central feature here: adapting the idea of writing into a different writing system.
+- D: Incorrect. Hierarchical diffusion moves from people or places of high rank down the hierarchy; the key feature here is the transformation of the idea.
+- E: Incorrect. The syllabary supported the use of the Cherokee language rather than its replacement by English.
+
+### U3-E07  ·  Topic 3.5 · SPS-3.A · Skill 1.D · easy
+
+A pilot whose first language is Portuguese and an air traffic controller whose first language is Japanese use English to communicate during an international flight. English in this interaction is best described as
+
+- **A.** a creole
+- **B.** a lingua franca
+- **C.** a dialect
+- **D.** a language isolate
+- **E.** a pidgin
+
+**Answer: B**
+
+_Explanation:_ A lingua franca is a "bridge" language that people use when they do not share a first language. The pilot speaks Portuguese and the controller speaks Japanese, but both can use English. In international aviation, English often plays this role.
+
+_Rationales:_
+- A: Incorrect. A creole develops in a language-contact setting and is spoken as a first language by a community. This example describes people using an existing language to communicate across language differences.
+- B: Correct. A lingua franca is a language used for communication among people who do not share a first language. English plays this role in international aviation, as well as in much of international business and science.
+- C: Incorrect. A dialect is a regional or social variety of a language.
+- D: Incorrect. A language isolate has no known relationship to other languages, as with Basque; English belongs to the Germanic branch of the Indo-European family.
+- E: Incorrect. A pidgin develops for limited communication among groups without a shared language. Aviation English is a specialized use of English, not a separate pidgin language.
+
+### U3-E08  ·  Topic 3.5 · SPS-3.A · Skill 2.B · medium
+
+Portuguese is an official language in Brazil, Angola, Mozambique, and Timor-Leste, countries on three different continents. Which of the following best explains this pattern?
+
+- **A.** Portuguese spread by contagious diffusion from Brazil to Africa and then to Asia.
+- **B.** The four countries joined an international organization that made Portuguese their shared official language.
+- **C.** Portuguese formed as a pidgin among traders in Africa and later spread to Europe.
+- **D.** Large numbers of Portuguese workers moved to these countries during the last 20 years.
+- **E.** Portugal colonized these places, and each kept or restored Portuguese as an official language.
+
+**Answer: E**
+
+_Explanation:_ These countries are far apart, but all were once ruled by Portugal. That history shaped their later choices of official language. Today Portuguese is official in all four, alongside Tetum in Timor-Leste.
+
+_Rationales:_
+- A: Incorrect. Contagious diffusion spreads to nearby places; these countries are separated by oceans, and Portuguese reached each one by sea from Portugal.
+- B: Incorrect. The Community of Portuguese Language Countries, founded in 1996, brought together countries that already used Portuguese; the shared language came first, from colonial rule.
+- C: Incorrect. Portuguese is a Romance language that developed in Europe from Latin; it did not begin as an African trade pidgin.
+- D: Incorrect. Some Portuguese did move to Angola and Brazil recently, but Portuguese was official there long before that, and recent migration cannot explain centuries of use in all four countries.
+- E: Correct. Portuguese colonial rule spread the language through administration, education, religion, and trade. After independence, these states kept Portuguese as an official language or, in Timor-Leste's case, restored it after a period of Indonesian occupation.
+
+### U3-E09  ·  Topic 3.5 · SPS-3.A · Skill 1.B · medium
+
+Haitian Creole developed in the 1600s and 1700s in the French colony of Saint-Domingue (present-day Haiti), among French colonists and enslaved Africans who spoke many different African languages. Much of its vocabulary comes from French, but it has its own grammar. Today it is the first language of most Haitians. The development of Haitian Creole best illustrates
+
+- **A.** language extinction caused by the spread of a colonial language
+- **B.** creolization resulting from contact between cultures under colonialism
+- **C.** the diffusion of an Indo-European language by contagious expansion
+- **D.** stimulus diffusion of the idea of writing from West Africa to Europe
+- **E.** the formation of a dialect through isolation from other languages
+
+**Answer: B**
+
+_Explanation:_ Haitian Creole grew out of contact among people who spoke different languages under French colonial rule. It developed its own patterns and rules, and children learned it as their first language. That is creolization.
+
+_Rationales:_
+- A: Incorrect. The passage describes the emergence of Haitian Creole. It does not establish that another language became extinct.
+- B: Correct. Contact among French-speaking colonists and enslaved speakers of different African languages contributed to the emergence of a new language. This is an example of creolization in a colonial setting.
+- C: Incorrect. Haitian Creole formed through intense contact among groups within one colony, not through the gradual spread of French into neighboring areas.
+- D: Incorrect. The question describes a new spoken language forming, not the spread of the idea of writing.
+- E: Incorrect. Haitian Creole formed through contact among speakers of different languages, the opposite of isolation.
+
+### U3-E10  ·  Topic 3.2 · PSO-3.B · Skill 4.E · medium · set cityblock
+
+_Questions 10–11 refer to the table below._
+
+**Stimulus (table): CHANGES ON ONE CITY BLOCK IN CITY M, 1880–2025 (HYPOTHETICAL)**
+
+| Period | Main group living on the block | Features added to the landscape |
+|---|---|---|
+| 1880–1920 | Immigrants from Germany | Lutheran church with a tall steeple; bakery with a German-language name carved in stone over the door |
+| 1920–1975 | Families of many backgrounds; many German American families move to the suburbs | Bakery building becomes a hardware store; the Lutheran congregation shrinks and later moves away |
+| 1975–2005 | Refugees and immigrants from Vietnam | Church building bought by a Vietnamese Catholic parish; phở restaurants; shop signs in Vietnamese and English |
+| 2005–2025 | Immigrants from Mexico and Central America, alongside Vietnamese families | Taquería in the former bakery building, under the German name still carved over the door; mural of Our Lady of Guadalupe; shop signs in Spanish; the original church steeple still stands |
+
+_Description:_ A table showing which group mainly lived on one city block during four periods between 1880 and 2025 and the landscape features added in each period. In the latest period, the German name carved over the old bakery door and the original church steeple are still visible.
+
+_Source:_ Hypothetical data
+
+The changes shown in the table best illustrate
+
+- **A.** placelessness
+- **B.** cultural convergence
+- **C.** stimulus diffusion
+- **D.** sequent occupance
+- **E.** contagious diffusion
+
+**Answer: D**
+
+_Explanation:_ Sequent occupance means layers. Different groups live in the same place one after another, and each one adds to the landscape. On this block you can still see the German church steeple and the carved bakery name, along with features added later by Vietnamese and then Mexican and Central American residents.
+
+_Rationales:_
+- A: Incorrect. Placelessness is the loss of uniqueness in a place's landscape; this block has a distinct, layered landscape.
+- B: Incorrect. Cultural convergence is cultures becoming more alike through contact; the table shows a series of groups each adding distinct features.
+- C: Incorrect. Stimulus diffusion involves an idea spreading and being changed; the table shows successive groups occupying the same place.
+- D: Correct. Sequent occupance is the idea that successive societies leave their cultural imprints on a place, each adding to the cultural landscape. German, Vietnamese, and Mexican and Central American residents each added features, and older features such as the steeple and the carved name remain.
+- E: Incorrect. Contagious diffusion is the spread of a trait outward to nearby people and places; the table tracks layers of settlement on one block.
+
+### U3-E11  ·  Topic 3.2 · PSO-3.C · Skill 4.E · medium · set cityblock
+
+_(uses the stimulus of set cityblock)_
+
+Which concept best describes how the community living on the block shaped its cultural landscape between 1975 and 2005?
+
+- **A.** Ethnic neighborhood, because the newcomers' businesses and institutions shaped the space
+- **B.** Assimilation, because the newcomers gave up their own language and their religion
+- **C.** Syncretism, because the Lutheran and Catholic traditions blended into a new faith
+- **D.** Postmodern architecture, because the newcomers built structures that mix many older styles
+- **E.** Cultural convergence, because the block came to look like city neighborhoods everywhere else
+
+**Answer: A**
+
+_Explanation:_ When a group settles in one neighborhood, it often builds what it needs: a place of worship, restaurants with familiar food, and signs in its own language. Those choices shape how the space is used and make the block an ethnic neighborhood.
+
+_Rationales:_
+- A: Correct. Residents established a religious institution, restaurants, and signs that reflected their cultural background and served the local community. These features show how ethnicity can shape the use and appearance of space.
+- B: Incorrect. The Vietnamese-language signs and the Vietnamese parish show that residents kept their language and their religious community.
+- C: Incorrect. The earlier Lutheran congregation and the later Catholic parish are both Christian, and reusing a church building is not the blending of two religions into a new faith.
+- D: Incorrect. The table describes reuse of an existing church and new businesses and signs, not a new architectural style.
+- E: Incorrect. The features added are distinctive to one group, which makes the block more distinctive, not more like other places.
+
+### U3-E12  ·  Topic 3.2 · PSO-3.B · Skill 4.E · easy
+
+For several generations, residents of a hot, dry region have built houses with thick walls made from local earth, small windows, and flat roofs. Which explanation best accounts for this combination of features?
+
+- **A.** Builders copied a colonial power's designs to show loyalty to its rulers.
+- **B.** Builders adapted nearby materials and designs to the environment.
+- **C.** Builders mixed decorative details from several past styles to create something new.
+- **D.** Builders used standard designs promoted by international construction companies.
+- **E.** Builders reused buildings left by earlier groups but gave them new cultural uses.
+
+**Answer: B**
+
+_Explanation:_ People in hot, dry places have long built with what is nearby and designed homes to fit the weather. Thick earth walls slow the heat, small windows block the sun, and flat roofs work because it rarely rains. Geographers call this traditional architecture: building styles adapted to local materials and climate.
+
+_Rationales:_
+- A: Incorrect. The account gives evidence of local materials and environmental conditions, but none of colonial rule or imported designs.
+- B: Correct. Traditional architecture adapts to local conditions. Earthen walls slow the movement of heat, small windows limit the sun's heat, and flat roofs are practical where little rain falls.
+- C: Incorrect. Mixing details from past styles describes postmodern architecture; the account emphasizes materials and climate, not style.
+- D: Incorrect. The account gives no evidence of international companies or standardized global designs.
+- E: Incorrect. The account describes a continuing building tradition, not later groups reusing earlier groups' buildings.
+
+### U3-E13  ·  Topic 3.3 · PSO-3.D · Skill 2.B · medium
+
+Belgium includes Flanders in the north, where most people speak Dutch, and Wallonia in the south, where most people speak French. Disputes between the two regions have led Belgium's national government to give the regions more control over their own affairs. In this case, language has acted mainly as
+
+- **A.** a centrifugal force that divides the state
+- **B.** a lingua franca that both regions share
+- **C.** a centripetal force that unites the two regions
+- **D.** an example of syncretism between two languages
+- **E.** a result of hierarchical diffusion from Brussels
+
+**Answer: A**
+
+_Explanation:_ Centripetal forces pull a country together. Centrifugal forces push it apart. In Belgium, the north and south mostly speak different languages, and arguments between them led the government to give each region more power. Language here pushes the country apart, so it is a centrifugal force.
+
+_Rationales:_
+- A: Correct. A centrifugal force divides a state. Language differences between Dutch-speaking Flanders and French-speaking Wallonia have fueled political disputes and led to the devolution of power to the regions.
+- B: Incorrect. Dutch and French are separate languages that dominate different regions, not one shared language.
+- C: Incorrect. A centripetal force unites a state; here language differences have fueled disputes between regions.
+- D: Incorrect. Syncretism is the blending of traits into a new form; Dutch and French remain distinct languages.
+- E: Incorrect. The language divide reflects long-standing regional patterns, not diffusion outward from the capital.
+
+### U3-E14  ·  Topic 3.3 · PSO-3.D · Skill 1.D · medium
+
+In parts of southern Louisiana, communities hold festivals featuring Cajun French music and run French immersion programs in public schools. These efforts best illustrate
+
+- **A.** assimilation into the dominant national culture
+- **B.** a centrifugal force weakening national political unity
+- **C.** placelessness caused by global popular culture
+- **D.** hierarchical diffusion of French from Paris to Louisiana
+- **E.** placemaking that builds a regional sense of place
+
+**Answer: E**
+
+_Explanation:_ Placemaking means people shaping their places to show who they are. Cajun music festivals and French classes help the region feel special and different from other places. That builds a strong sense of place.
+
+_Rationales:_
+- A: Incorrect. The festivals and language programs support a distinctive regional culture rather than its replacement by the dominant culture.
+- B: Incorrect. Celebrating a regional culture does not by itself weaken national unity; nothing in the question describes a movement for separation or self-rule.
+- C: Incorrect. Placelessness is the loss of local uniqueness; these efforts make the region more distinctive.
+- D: Incorrect. The question describes current local efforts to celebrate and teach a regional language, not the original spread of French to Louisiana.
+- E: Correct. Placemaking is the shaping of places to reflect a community's identity. Festivals and language programs strengthen a distinctive regional identity and residents' attachment to the region, showing how language contributes to a sense of place.
+
+### U3-E15  ·  Topic 3.3 · PSO-3.D · Skill 5.C · hard
+
+In Country N, most people follow Religion 1, and its shared national festivals strengthen a common identity across regions. In one large city, some residents oppose an immigrant community's plan to build the city's first house of worship for Religion 2. Which statement best describes religion's role in Country N at these two scales?
+
+- **A.** Religion is a centrifugal force at the national scale and a centripetal force in the city.
+- **B.** Religion divides the country at both scales, so the state is likely to break apart.
+- **C.** The dispute shows that religion no longer shapes identity at the national scale.
+- **D.** Religion mainly unites the country nationally, but causes tension at the local scale.
+- **E.** Religion 2 spread to the city by hierarchical diffusion from the national capital.
+
+**Answer: D**
+
+_Explanation:_ Look at the whole country: shared festivals help people feel connected to their country. That is centripetal. Now zoom in to one city: opposition to a minority group's place of worship is causing conflict. That is centrifugal. Religion can work in different ways at different scales.
+
+_Rationales:_
+- A: Incorrect. This reverses the scales: a shared religion unites the country as a whole, and the dispute is local.
+- B: Incorrect. The question describes a dispute in one city; nothing suggests the whole state is dividing.
+- C: Incorrect. The shared festivals strengthen national identity. A local dispute does not show that religion has become unimportant nationally.
+- D: Correct. The shared festivals act as a centripetal force at the national scale. Opposition to the minority community's place of worship creates division at the local scale. A cultural factor can have different effects at different scales.
+- E: Incorrect. The scenario describes an immigrant community and gives no evidence that Religion 2 spread from the national capital through hierarchical diffusion.
+
+### U3-E16  ·  Topic 3.7 · IMP-3.B · Skill 3.B · easy · set religions
+
+_Questions 16–18 refer to the table below._
+
+**Stimulus (table): FOLLOWERS OF FIVE RELIGIONS, 2025 (HYPOTHETICAL DATA)**
+
+| Religion | Hearth region | Percent of followers living in hearth region | World regions with at least 1 million followers | Seeks converts? |
+|---|---|---|---|---|
+| Religion P | Region 1 | 94 | 1 | No |
+| Religion Q | Region 2 | 21 | 6 | Yes |
+| Religion R | Region 1 | 45 | 4 | No |
+| Religion S | Region 3 | 8 | 5 | Yes |
+| Religion T | Region 4 | 70 | 2 | Yes |
+
+_Description:_ A table of five religions showing each religion's hearth region, the percent of its followers who live in that hearth region, the number of world regions with at least 1 million followers, and whether the religion seeks converts.
+
+_Source:_ Hypothetical data
+
+Which religion in the table shows the pattern most typical of an ethnic religion that has stayed near its hearth?
+
+- **A.** Religion P
+- **B.** Religion Q
+- **C.** Religion R
+- **D.** Religion S
+- **E.** Religion T
+
+**Answer: A**
+
+_Explanation:_ Religion P does not seek converts, 94% of its followers live in its hearth region, and it reaches the table's 1-million-follower mark in only one region. Together, these facts best fit an ethnic religion that has stayed near its hearth. That does not mean it has no communities anywhere else.
+
+_Rationales:_
+- A: Correct. Ethnic religions generally do not seek converts and are usually concentrated near their hearth. Religion P does not seek converts, has 94 percent of its followers in its hearth region, and has at least 1 million followers in only one world region.
+- B: Incorrect. Religion Q seeks converts and has at least 1 million followers in six world regions, a pattern typical of a universalizing religion.
+- C: Incorrect. Religion R does not seek converts, but more than half of its followers (55 percent) live outside its hearth region, so it has not stayed near its hearth.
+- D: Incorrect. Religion S seeks converts and has only 8 percent of its followers in its hearth region.
+- E: Incorrect. Religion T is concentrated near its hearth (70 percent), but it seeks converts, a characteristic of universalizing religions.
+
+### U3-E17  ·  Topic 3.7 · IMP-3.B · Skill 3.E · medium · set religions
+
+_(uses the stimulus of set religions)_
+
+Based on Religion R's distribution and its approach to seeking converts, which process most plausibly accounts for its presence outside its hearth region?
+
+- **A.** Hierarchical diffusion, as rulers adopted it and spread it to their subjects
+- **B.** Contagious diffusion, as followers converted their neighbors in nearby regions
+- **C.** Stimulus diffusion, as other religions copied its main beliefs and practices
+- **D.** Expansion diffusion, as missionaries carried it to new continents
+- **E.** Relocation diffusion, as followers moved and carried the religion with them
+
+**Answer: E**
+
+_Explanation:_ If a religion does not try to win new members, the main way it can show up far away is if its own followers MOVE there. That is relocation diffusion. Judaism is a real example: over many centuries, Jewish communities moved, or were forced to move, to many parts of the world.
+
+_Rationales:_
+- A: Incorrect. The table provides no evidence that rulers adopted the religion before their subjects. Migration of existing followers is more consistent with the pattern described.
+- B: Incorrect. The table does not describe conversion spreading from neighbor to neighbor. Communities outside the hearth can instead result from followers migrating.
+- C: Incorrect. Stimulus diffusion would change other religions; it would not place Religion R's own followers outside its hearth.
+- D: Incorrect. Missionary work is a way of seeking converts, which Religion R does not do.
+- E: Correct. Ethnic religions, which generally do not seek converts, spread mainly through relocation diffusion when their followers migrate, whether by choice or by force. Judaism, whose communities spread through many migrations and expulsions over the centuries, is a real-world example.
+
+### U3-E18  ·  Topic 3.7 · IMP-3.B · Skill 3.F · medium · set religions
+
+_(uses the stimulus of set religions)_
+
+Which of the following comparisons CANNOT be made using the data in the table?
+
+- **A.** Whether Religion P or Religion R has a higher share of followers living in its hearth region
+- **B.** Whether Religion Q or Religion S reaches the 1-million-follower threshold in more world regions
+- **C.** Whether Religion Q or Religion S has more followers worldwide
+- **D.** Whether Religion Q or Religion T has a higher share of followers living outside its hearth region
+- **E.** Whether Religion P and Religion R differ in whether they seek converts
+
+**Answer: C**
+
+_Explanation:_ The table tells how many regions have at least 1 million followers. It does not tell the total number of followers. One religion could have a few huge communities. Another could have more communities that are just over 1 million. You can read or work out every other comparison from the table.
+
+_Rationales:_
+- A: Incorrect. The table gives 94 percent for Religion P and 45 percent for Religion R.
+- B: Incorrect. Religion Q reaches the threshold in six regions, compared with five for Religion S.
+- C: Correct. Counts of regions above a threshold do not give total followers. Each region can have far more than 1 million followers, and smaller groups may live elsewhere.
+- D: Incorrect. Subtracting from 100 gives 79 percent outside Religion Q's hearth region and 30 percent outside Religion T's.
+- E: Incorrect. The table states that neither Religion P nor Religion R seeks converts.
+
+### U3-E19  ·  Topic 3.7 · IMP-3.B · Skill 1.B · medium
+
+Which of the following best explains why Irish, spoken in western Europe, and Bengali, spoken in South Asia, belong to the same language family?
+
+- **A.** British colonial rule spread one language to both Ireland and South Asia.
+- **B.** Both descend from an ancestral language whose speakers spread across Eurasia.
+- **C.** Both borrowed many of the same words recently through the internet and global media.
+- **D.** Both developed in similar climates, which produced similar vocabularies.
+- **E.** Both are creoles that formed when European traders met local populations.
+
+**Answer: B**
+
+_Explanation:_ A language family is like a family tree. Irish and Bengali are very distant cousins. Both come from one very old language, Proto-Indo-European. As its speakers spread out over thousands of years, it split into many branches, like Celtic in the west and Indo-Iranian in the east.
+
+_Rationales:_
+- A: Incorrect. British rule spread English, but Irish and Bengali are separate languages whose relationship is thousands of years older than British colonialism.
+- B: Correct. Irish (Celtic branch) and Bengali (Indo-Iranian branch) both descend from Proto-Indo-European. As speakers of that ancestral language and its descendants spread across Europe and South and Southwest Asia, it split into branches and individual languages.
+- C: Incorrect. Language families are defined by shared ancestry, not by recent borrowing of words.
+- D: Incorrect. Climate does not produce related languages; relationships come from a common ancestral language.
+- E: Incorrect. Neither language is a creole; both are long-established languages with deep histories in their regions.
+
+### U3-E20  ·  Topic 3.7 · IMP-3.B · Skill 2.D · medium
+
+Buddhism and Hinduism both began in South Asia. Today most Buddhists live in East and Southeast Asia, while most Hindus still live in South Asia. Which of the following best explains this difference?
+
+- **A.** Buddhist missionaries and traders spread it widely; Hinduism is an ethnic religion.
+- **B.** Hinduism began more recently than Buddhism, so it has had less time to spread.
+- **C.** The climate of East Asia was better suited to Buddhist practices than South Asia's.
+- **D.** Buddhism is an ethnic religion tied to the peoples of East and Southeast Asia.
+- **E.** Buddhism spread mainly as large numbers of farmers from South Asia migrated east.
+
+**Answer: A**
+
+_Explanation:_ Buddhism is a universalizing religion. Monks, traders, and rulers carried it from South Asia along trade routes, and many people converted. Hinduism is an ethnic religion, and most Hindus still live in South Asia. Hindu traditions did spread long ago to parts of Southeast Asia, and Hindu communities now live around the world.
+
+_Rationales:_
+- A: Correct. Buddhism is a universalizing religion: monks, missionaries, and traders carried it along overland and sea routes to Central, East, and Southeast Asia, and some rulers adopted and promoted it. Hinduism is an ethnic religion that does not generally seek converts, so most Hindus still live near its hearth in South Asia.
+- B: Incorrect. Hinduism's roots are older than Buddhism, which began about 2,500 years ago.
+- C: Incorrect. Climate does not explain the spread of a belief system; the difference reflects how each religion relates to converts.
+- D: Incorrect. Buddhism is a universalizing religion; it began in South Asia and spread to East and Southeast Asia.
+- E: Incorrect. Buddhism spread mainly through missionaries, traders, and the support of rulers, not through mass migration of farmers.
+
+### U3-E21  ·  Topic 3.6 · SPS-3.A · Skill 3.C · medium · set orvani
+
+_Questions 21–22 refer to the graph and information below._
+
+**Stimulus (bar): SHARE OF PEOPLE WHO SPEAK ORVANI AT HOME, BY AGE GROUP, COUNTRY K, 1995 AND 2025 (HYPOTHETICAL DATA)**
+
+Bar chart. y-axis: Percent who speak Orvani at home (max 100)
+
+| Category | 1995 | 2025 |
+|---|---|---|
+| Ages 10–19 | 48 | 12 |
+| Ages 20–39 | 60 | 30 |
+| Ages 40–59 | 72 | 52 |
+| Ages 60 and over | 85 | 70 |
+
+Orvani is an Indigenous language spoken mainly in rural areas of Country K. Since 1995, many young people have moved to Country K's cities, where schools and most jobs use the national language and much online content is in English. In 2023, a group of young Orvani speakers launched a popular Orvani-language music channel and video series online.
+
+_Source:_ Hypothetical data
+
+Which conclusion is best supported by the graph?
+
+- **A.** Orvani use fell more among older people than among younger people.
+- **B.** In 2025, a majority of people ages 20–39 spoke Orvani at home.
+- **C.** Orvani use fell by the same number of percentage points in every age group.
+- **D.** Older people were less likely than younger people to speak Orvani at home in 2025.
+- **E.** Orvani use fell in every age group, and the steepest drop was among the youngest.
+
+**Answer: E**
+
+_Explanation:_ Compare each pair of bars. Every age group had a lower share using Orvani at home in 2025. The largest drop was among ages 10–19: 48 minus 12 equals 36 percentage points. The bars compare age groups in two different years, not the same people. They also do not show how well people speak Orvani in other settings.
+
+_Rationales:_
+- A: Incorrect. The youngest group fell the most (36 percentage points, from 48 to 12 percent), while people 60 and over fell the least (15 points).
+- B: Incorrect. In 2025, 30 percent of people ages 20–39 spoke Orvani at home, less than half.
+- C: Incorrect. The declines were 36, 30, 20, and 15 percentage points, so they were not equal.
+- D: Incorrect. In 2025, 70 percent of people 60 and over spoke Orvani at home, compared with 12 percent of people ages 10–19.
+- E: Correct. The share speaking Orvani at home declined in all four age groups. The largest decline was 36 percentage points among people ages 10–19, from 48 percent to 12 percent.
+
+### U3-E22  ·  Topic 3.6 · SPS-3.A · Skill 4.C · medium · set orvani
+
+_(uses the stimulus of set orvani)_
+
+The online Orvani-language music channel described in the information best illustrates which of the following?
+
+- **A.** Relocation diffusion carried Orvani from the cities back out to rural villages.
+- **B.** Online media can spread English worldwide, so the channel is an example of cultural convergence.
+- **C.** Urbanization reversed the decline in Orvani use among young people by 2025.
+- **D.** Online media can promote cultural divergence by helping a minority language stay distinct.
+- **E.** Assimilation, because young Orvani speakers adopted the national culture online.
+
+**Answer: D**
+
+_Explanation:_ Online media can spread widely used languages like English. But they can also help people keep minority languages alive. The channel gives people new chances to use and share Orvani. It can help keep cultures different even when everyone uses the same technology. Geographers call this kind of change cultural divergence.
+
+_Rationales:_
+- A: Incorrect. The information describes an online channel, not people moving from cities to villages.
+- B: Incorrect. The channel uses Orvani and can support its continued use. Using a global technology does not, by itself, show cultural convergence.
+- C: Incorrect. The information links moving to cities with less use of Orvani, not more, and the chart has no measurement between 1995 and 2025, so it cannot show a reversal after the channel began.
+- D: Correct. The AP course framework notes that communication technologies such as the internet can create both cultural convergence and cultural divergence. An Orvani-language channel uses global technology to keep a minority language distinct, an example of cultural divergence.
+- E: Incorrect. Creating content in their own minority language is the opposite of giving up that language for the national culture.
+
+### U3-E23  ·  Topic 3.6 · SPS-3.A · Skill 1.A · easy
+
+In the mid-1800s, before the first lasting telegraph cable crossed the Atlantic Ocean in 1866, news traveled between Europe and North America by ship and took more than a week to arrive. Today, a video posted in London can be watched in New York seconds later. This change best illustrates
+
+- **A.** distance decay
+- **B.** stimulus diffusion
+- **C.** time-space convergence
+- **D.** relocation diffusion
+- **E.** hierarchical diffusion
+
+**Answer: C**
+
+_Explanation:_ Time-space convergence means places feel closer together because it takes less time to reach them. News that once took more than a week by ship now arrives in seconds. London and New York did not move, but in travel time they got much closer.
+
+_Rationales:_
+- A: Incorrect. Distance decay is the decline in interaction as distance increases; the question describes the time needed to connect two places shrinking.
+- B: Incorrect. Stimulus diffusion is the spread of an idea that is changed by the culture receiving it.
+- C: Correct. Time-space convergence is the reduction in the time it takes for people, goods, or information to travel between places because of improvements in transportation and communication technology.
+- D: Incorrect. Relocation diffusion involves people moving and carrying culture with them; the video spreads without anyone moving.
+- E: Incorrect. Hierarchical diffusion moves from more important people or places to less important ones; the question is about how fast information travels.
+
+### U3-E24  ·  Topic 3.8 · SPS-3.B · Skill 1.D · medium
+
+Santería, a religion that developed in Cuba, honors spirits called orichas that come from the Yoruba religion of West Africa. Enslaved Yoruba people brought this religion to the island. Many orichas are identified with Roman Catholic saints introduced under Spanish colonial rule. Santería best illustrates
+
+- **A.** assimilation, because the Yoruba traditions disappeared into Catholicism
+- **B.** syncretism, because elements of two religions blended into a new form
+- **C.** multiculturalism, because the two religions stayed separate side by side
+- **D.** ethnocentrism, because one group judged the other's religion as inferior
+- **E.** contagious diffusion, because Santería spread from Cuba to nearby islands
+
+**Answer: B**
+
+_Explanation:_ Syncretism means blending. Santería took parts of Yoruba religion from West Africa and parts of Catholicism from Spain and merged them into something new. Both traditions are still visible inside it.
+
+_Rationales:_
+- A: Incorrect. Yoruba traditions did not disappear; they remain central to Santería.
+- B: Correct. Syncretism is the blending of elements from different cultures, such as religious beliefs and practices, into a new cultural form. Santería combines Yoruba religious traditions with elements of Roman Catholicism.
+- C: Incorrect. Multiculturalism describes distinct cultures coexisting while keeping their identities; in Santería, the traditions merged.
+- D: Incorrect. Ethnocentrism is an attitude of judging other cultures by one's own standards; it does not describe the blending of religions.
+- E: Incorrect. The question describes how Santería formed, not how it spread to other places.
+
+### U3-E25  ·  Topic 3.8 · SPS-3.B · Skill 2.C · medium
+
+In 1971, Canada adopted an official national policy of multiculturalism. The policy supports the freedom of immigrants and other groups to keep their languages, religions, and traditions while taking part in Canadian society. Which change in the cultural landscape would this policy most likely encourage?
+
+- **A.** Official government signs switching from English and French to immigrants' heritage languages
+- **B.** Immigrant families being required to settle outside ethnic neighborhoods so that groups mix evenly
+- **C.** New houses of worship that blend the country's religions into one shared faith
+- **D.** Cultural centers and festivals of many groups staying visible in shared public spaces
+- **E.** Identical shopping malls and chain stores replacing regional and ethnic differences
+
+**Answer: D**
+
+_Explanation:_ Multiculturalism supports people's freedom to keep their traditions while taking part in one shared society. On the landscape, you would see cultural centers, places of worship, and festivals of many groups. You would also see schools, parks, and other public places that everyone shares.
+
+_Rationales:_
+- A: Incorrect. Canada's policy was set within a framework of two official languages, English and French. It supports groups' freedom to keep heritage languages but does not replace the official languages.
+- B: Incorrect. The policy supports freedom to keep traditions; it does not decide where people live, and ethnic neighborhoods remain common in Canadian cities.
+- C: Incorrect. Blending religions into one faith describes syncretism; the policy supports groups' freedom to keep their own religions.
+- D: Correct. Multiculturalism supports many cultural groups keeping their traditions within one society, so the landscape would keep showing distinct cultural centers and festivals alongside shared public spaces and institutions.
+- E: Incorrect. Look-alike chain landscapes reflect placelessness and cultural convergence, not a policy that supports cultural distinctiveness.
+

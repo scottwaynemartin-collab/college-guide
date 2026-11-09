@@ -1,0 +1,81 @@
+Unit 6 FINAL blind check (v2026-11-08c) - answered from blind.md only, before opening key.txt
+Arithmetic recomputed with a script (gravity, bid-rent, urban share, rank-size).
+
+PRACTICE
+U6-P01 D  Situation = location relative to other places (rail line between cities); A,B,C,E are site.
+U6-P02 B  1990-2020 urban 11->38, rural 24->19: net rural-to-urban migration; A,C,D,E each contradict the graph.
+U6-P03 C  FHA/VA mortgages + interstates/cars; streetcars declined after WWII, urban renewal did not build downtown single-family homes.
+U6-P04 B  Today's SSA growth = natural increase + rural migration, informal economy, not factory-led.
+U6-P05 E  Edge city: office/retail cluster at beltway interchange, more jobs than residents.
+U6-P06 A  Boomburbs: >100k, fast-growing, not the main city (Frisco 33.7k->235k; McKinney 54.4k->228k). Table has no job data for B.
+U6-P07 C  High natural increase + rural-urban migration in periphery/semiperiphery.
+U6-P08 E  World city defined by global finance/HQ functions, not size or capital status.
+U6-P09 B  World-city HQ decision moves jobs between cities abroad (scale linkage).
+U6-P10 B  City Q: most Global 500 HQs (40), most international flights (4,800), stock exchange.
+U6-P11 C  6 / 3 = 2 million.
+U6-P12 A  F: 9.0 vs 1.6 (primate). G: 4.8, 2.4, 1.6, 1.2, 0.96 ~ rank-size. H is too flat.
+U6-P13 C  Interactions: P1 4.0e6, P2 1.0e6, P3 6.4e7, P4 1.25e6, P5 4.0e6 -> Pair 3 by a factor of 16.
+U6-P14 A  Threshold/range: low-order small threshold/short range; high-order large threshold/long range.
+U6-P15 A  CPT assumes an isotropic flat plain; terrain + one highway channel settlement.
+U6-P16 B  Burgess zone in transition = ring next to CBD (V).
+U6-P17 D  3 km: industrial 340 > commercial 250 > residential 230; 6 km: residential 160 > industrial 90 > commercial 20.
+U6-P18 E  Wedges along lakeshore boulevard and railroad = Hoyt sector.
+U6-P19 B  Multiple nuclei: several centers (airport, university). A=Hoyt, C=Griffin-Ford, E=McGee.
+U6-P20 A  McGee: old colonial port zone is the focus. B = de Blij African city.
+U6-P21 E  Colonial CBD alongside traditional/market CBDs.
+U6-P22 B  Townhouses = medium density; C and E high density; A, D low.
+U6-P23 A  60 -> 12 -> 4 units/ha with distance and with car-era building.
+U6-P24 D  Infill raises density, reduces edge pressure.
+U6-P25 C  Accessibility near stations raises land values and density (TOD).
+U6-P26 E  Riverside/Eastfield: most carless households, longest transit commutes, fewest reachable jobs.
+U6-P27 D  Cheap land + low political power (often racially targeted).
+U6-P28 D  New Urbanism.
+U6-P29 C  TOD supporters cite fewer car trips / walkability.
+U6-P30 E  Greenbelt limits land supply -> higher housing prices.
+U6-P31 B  Recorded interviews = qualitative.
+U6-P32 D  Tract 11: pop 6,200->3,900, vacancy 9%->28% = zone of abandonment.
+U6-P33 D  Cross-sectional snapshots cannot show who moved or why.
+U6-P34 E  Blockbusting.
+U6-P35 E  Grade D (redlined) -> loans refused/limited, disinvestment, low values for decades.
+U6-P36 D  Insecure tenure / no official recognition delays services.
+U6-P37 A  Displacement through rising rents/taxes.
+U6-P38 E  Fragmentation of local government.
+U6-P39 A  Brownfield redevelopment.
+U6-P40 C  Metro A 1,800->600; Metro B 1,700->1,900.
+U6-P41 C  Growth outpaced sewer/water-treatment construction.
+U6-P42 D  Several suburban centers near ring-road interchanges and airport, suburbs between = galactic/peripheral model.
+U6-P43 B  Metacity (UN-Habitat) >20 million; megacity >=10 million.
+U6-P44 D  Poorer neighborhoods closest to highways/factories, more bad-air days, less canopy = environmental injustice.
+U6-P45 C  Better produce access, but gardens/market do not replace full grocery stores.
+U6-P46 C  Trees/green roofs/parks (park 31 C, tree-lined 38 C vs downtown 48 C).
+U6-P47 A  Historic-preservation objection to upzoning old row houses. (Distractors B-E all contradict the stem; flag as weak.)
+
+TIMED EXAM
+U6-E01 C  Fall line: falls powered mills and blocked navigation (break-of-bulk).
+U6-E02 B  Rise 1980-2020: China 44.1, Nigeria 32.4, India 10.6, UK 4.3 pp. A false (1960 NG 14.2 < CN 19.7); C false (IN 8.5 vs NG 24.6); D false (gap 58.9 -> 19.4); E false (CN 19.4 < IN 23.5).
+U6-E03 E  Growing share of megacities in semiperiphery/periphery.
+U6-E04 A  Exurb.
+U6-E05 D  Concentration of HQs and financial markets.
+U6-E06 C  Linked hierarchy; world city coordinates.
+U6-E07 E  P = 7.2, 3.6, 2.4, 1.8, 1.44 (exact 1/n); Q = 9.6 vs 1.3 (primate).
+U6-E08 A  Primacy from concentrated government power, investment, jobs.
+U6-E09 D  Distance doubled -> divided by 2^2 = one-fourth.
+U6-E10 E  High-order good -> high-order central place with large threshold and wide range.
+U6-E11 B  Area 2 = commercial spine / elite residential sector.
+U6-E12 C  Griffin-Ford: quality falls toward the edge (outside spine/disamenity); Burgess: higher income farther out.
+U6-E13 D  Area 5 = zone of peripheral squatter settlements: migrants outpace formal housing.
+U6-E14 B  Single CBD assumption vs polycentric metros.
+U6-E15 A  Interchanges gain accessibility -> higher bids.
+U6-E16 A  Walking/streetcar era density.
+U6-E17 E  Edge infrastructure subsidizes sprawl; older areas decline.
+U6-E18 C  Slow-growth policy (permit caps, adequate-facilities requirement).
+U6-E19 B  Households outgrow homes -> higher prices, exclusion of lower-income households.
+U6-E20 A  Tract 101: income 31k->68k, rent 650->1,450, BA 14%->46%.
+U6-E21 E  Tracking earlier residents (interviews/surveys).
+U6-E22 C  Inclusionary zoning.
+U6-E23 D  Denial of loans by (often racial) risk rating -> long-term disinvestment.
+U6-E24 D  Brownfield cleanup + housing on it = all three goals.
+U6-E25 B  Leapfrog development into unregulated suburbs. FLAG: distractors A, C, E each contradict the stem on their face (A: city boundary controls suburbs; C: suburbs "gain new limits" though stem says they adopt none; E: residents move onto protected farmland).
+
+Letter distribution (my answers): practice A9 B9 C10 D10 E9, no run of 3; exam A5 B5 C5 D5 E5.
+Items flagged in blind pass as having two defensible answers or none: none. Weak-distractor flags: P47, E25.

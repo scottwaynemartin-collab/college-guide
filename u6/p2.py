@@ -266,7 +266,7 @@ P.append(dict(id="U6-P35", topic="6.10", lo="SPS-6.A", skill="4.E", difficulty="
       dict(kind="land", name="Grade C", style="land", polygon=[[530, 130], [800, 130], [800, 260], [530, 260]], labelAt=[665, 195]),
       dict(kind="land", name="Grade D", style="small", polygon=[[0, 260], [400, 260], [400, 340], [0, 340]], labelAt=[200, 300]),
       dict(kind="land", name="Factories and rail yards", style="land", polygon=[[400, 260], [800, 260], [800, 340], [400, 340]], labelAt=[600, 300]),
-      dict(kind="line", name="Rail line", line=[[0, 268], [800, 268]], dashed=True)],
+      dict(kind="line", name="Rail line", line=[[0, 260], [800, 260]], dashed=True)],
     legend=[{"swatch": "water", "label": "River"}, {"swatch": "road", "label": "Rail line"}],
     note="Grades rated the risk of lending money for home loans: Grade A = \"best\" (lowest risk) through Grade D = \"hazardous\" (highest risk). On the original federal maps, Grade D areas were shaded red.",
     description="Map of City H. Two Grade A neighborhoods and one Grade B neighborhood lie along the northern edge, farthest from the river. Two Grade C neighborhoods lie on either side of the CBD. In the south, between a rail line and the river, a Grade D neighborhood sits next to factories and rail yards.",

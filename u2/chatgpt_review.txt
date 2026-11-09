@@ -1,0 +1,723 @@
+Title: Review AP Geography Bank
+URL: https://chatgpt.com/c/6af0f566-ac40-83ea-8919-011502681a06
+Saved Nov 8, 2026 from Chrome tab 1294094646 (read-only; get_page_text). Reviews CHATGPT_CHECK_U2.md at commit 6cafc85 (v2026-11-08b, before the QA setLabel/P04 label fixes).
+---
+Review AP Geography Bank
+You said:
+Pasted markdown(20261108-221916).md
+Document
+Above is a new AP Human Geography Unit 2 (Population and Migration Patterns and Processes) multiple-choice bank for high school students: practice items about 3 per topic (2.1-2.12) and a 25-item, 25-minute timed exam, 5 options A-E, meant to match the real AP Human Geography multiple-choice section exactly. All items are original; stimulus data (population pyramids, birth/death-rate line charts, tables, maps) is either labeled hypothetical or real World Bank data (sources included). It has had one independent review already. Please review every item as an experienced AP Human Geography item writer and reviewer would: (1) is the keyed answer the single best answer, and is any distractor also defensible; (2) factual and arithmetic accuracy of stems, options, explanations, whyNot lines, rationales, data and source lines (recompute every rate, ratio, density, doubling time and pyramid reading); (3) whether each item truly needs its stimulus and fits its stated topic, learning objective and skill under the current AP Human Geography course framework; (4) test-taking tells (absolute words, option length, answer patterns, options that can be ruled out without content knowledge, keys that echo the stem); (5) reading level and clarity for 9th and 10th graders, and respectful, accurate treatment of places, migrants and refugees; (6) any important Unit 2 content the bank misses or overweights. Give numbered corrections, most serious first, with item IDs and exact replacement wording. Keep the existing answer letters unless an item is unfixable without changing them.
+…
+Show more
+Worked for 8m 16s
+ChatGPT said:
+Overall verdict
+
+All 67 answer letters can be retained, but I would revise the bank before publishing it as an exact match to AP multiple choice. I reviewed the 42 practice items and 25 exam items, including their options, explanations, distractor feedback, stimulus specifications, metadata, and source notes.
+
+The numerical work is strong: the keyed calculations are correct, all four pyramids total 100%, and the quoted World Bank figures match the underlying series. The most consequential problems involve conclusions that go beyond the evidence, an age-group mismatch in a scale comparison, and explanations that teach an inaccurate distinction.
+
+I used College Board's current guidance for 2026–27, which still identifies the AP Human Geography CED effective Fall 2020 as the governing framework.
+College Board
+
+Below, P10 means U2-P10, and similarly for the other IDs. All proposed revisions preserve the existing correct-answer letters.
+
+Corrections, most serious first
+1. P10 — Repair the cohort reasoning and the defensible female-emigration distractor. Keep E.
+
+The explanation incorrectly treats different age groups in one pyramid as though they were the same people observed over time:
+
+"Without migration, an age group can only shrink as it gets older, so many people must have moved IN…"
+
+The adult and child bars represent different birth cohorts. Moreover, the bars show percentages, whose denominator can change. The existing rejection of female emigration is also unsound: female emigration can contribute to a male surplus.
+
+Replace option C:
+
+Immigration of large numbers of families with young children
+
+Replace option D:
+
+A war that caused especially high mortality among working-age men
+
+Replace explanation:
+
+Country G has an unusually large share of men aged 20–49 compared with women of the same ages. This pattern is most consistent with the arrival of many male workers. Countries that recruit foreign workers for construction, energy, and other industries can develop this kind of pyramid. A single pyramid suggests this explanation; additional evidence would be needed to confirm the migration flows.
+
+Replace the corresponding whyNot lines:
+
+B: "The male surplus includes adults born before the 1990s, while the youngest male and female groups are nearly balanced. The stated timing of sex-selective abortion does not explain the whole pattern."
+C: "Immigration of families with young children would generally increase the child groups and both adult sexes, rather than produce this pronounced working-age male surplus."
+D: "High mortality among working-age men would reduce those male groups rather than create the surplus shown."
+2. E13 — Compare the same age group at both geographic scales. Keep E.
+
+The current stem compares an all-age national sex ratio with a regional ratio for ages 20–49. Both age composition and geographic scale change, so the comparison does not isolate the intended scale effect.
+
+Replace stem:
+
+Among people aged 20–49, Country L has about 100 males per 100 females nationally. In a remote mining region, the same age group has about 160 males per 100 females. Which of the following best explains this difference between the national and regional scales?
+
+Replace rationale D:
+
+Incorrect. An influx of women would tend to lower the regional sex ratio; it would not explain the excess of males described.
+
+The current claim that female immigration would necessarily lower the ratio below 100 is incorrect; it might lower it from 160 to 150.
+
+Replace rationale E and explanation with:
+
+Mining jobs can attract many men aged 20–49 to one region. Their movement raises the number of men in the mining region and reduces it in the regions they leave. Because these moves occur within Country L, they do not change the national totals of males and females.
+
+3. P29 — Remove the unsupported claim that women's share of international migrants increased. Keep C.
+
+The 48% figure is correct, but a current percentage does not demonstrate a historical increase. The explanation and whyNot E imply such an increase. UN DESA actually reports that male migrant numbers grew faster than female migrant numbers globally in recent decades.
+un.org
+
+Replace stem:
+
+In the 1880s, Ravenstein associated women's migration mainly with shorter moves within their home country. Today, many women migrate internationally for paid work. Which of the following best explains this contemporary pattern?
+
+Replace explanation:
+
+Ravenstein's generalizations reflected the places and conditions he studied; they are not universal rules. Expanded education, employment opportunities, and recruitment across borders help explain why many women migrate internationally for work. UN DESA estimated that women and girls made up about 48% of international migrants in 2024. That percentage alone does not show how their share changed over time.
+
+Replace whyNot E:
+
+The pattern described concerns women's employment opportunities, not a general immigration rule giving women priority.
+
+Replace the newspaper citation with UN DESA, International Migrant Stock 2024: Key facts and figures, section 10 and Annex II. The placement under 2.8 / SPS-2.B is appropriate.
+
+4. P30 and P31 — Separate age dependency from actual employment and financial support. Keep E and C.
+
+The formulas are correct. P30's statement that a higher ratio means "each worker supports more people" does not follow from an age-based measure. Some older adults work, and some working-age adults do not. World Bank's methodological note explicitly distinguishes these concepts.
+DataBank
+
+P30 — replace explanation:
+
+The total age-dependency ratio is (people aged 0–14 + people aged 65 and older) ÷ people aged 15–64 × 100. It compares age groups, not the number of people who actually work or need financial support. A higher ratio can indicate greater potential demand for support from the working-age population.
+
+P30 — replace whyNot C:
+
+Births minus deaths gives natural increase as a number of people. Dividing that number by the population and multiplying by 100 gives the percentage rate of natural increase.
+
+P31 — replace stem:
+
+Based on the table, what is Country T's total age-dependency ratio, expressed per 100 people aged 15–64?
+
+P31 — replace explanation:
+
+Add the two age groups outside ages 15–64: 9.6 + 14.4 = 24.0 million. Then calculate 24.0 ÷ 40.0 × 100 = 60. There are 60 people aged 0–14 or 65 and older for every 100 people aged 15–64. This does not show whether each person actually works or needs financial support.
+
+5. P22 — Rising food production does not establish the absence of famine. Keep D.
+
+The 49% calculation is correct. However, "The graph shows no famine" is an unsupported inference. National production does not establish access to food, distribution, or household food security.
+fao.org
+
+Replace whyNot A:
+
+Food production grew faster than population. The graph does not report whether famine occurred or how food was distributed.
+
+Replace explanation:
+
+Population rose to 2.65 times its 1960 level, while food production rose to 3.95 times its 1960 level. Food production per person therefore increased by about 49%: (395 ÷ 265 − 1) × 100. This does not fit the simple Malthusian prediction that population will grow faster than food supply. It does not show whether every household had enough food.
+
+The original Green Revolution reference is acceptable as a possible illustration, but the graph does not establish that Country N adopted those technologies.
+
+6. P40 and E24 — Distinguish remittances relative to GDP from remittances constituting GDP. Keep C and D.
+
+"Equal to 20% of GDP" compares two values. It does not mean the transfers themselves are domestic production. P40's key also generalizes beyond the six countries shown. World Bank defines this indicator as remittance receipts expressed as a percentage of GDP.
+DataBank
+
+P40 — replace option C:
+
+Among these six countries, the two largest remittance totals have the lowest ratios of remittances to GDP.
+
+P40 — replace explanation:
+
+India and Mexico receive the largest totals, but each amount equals about 3.7% of that country's GDP—the lowest percentages in this table. Tajikistan and Tonga receive much smaller totals, but their receipts equal 47.2% and 39.4% of GDP. These percentages compare remittances with the size of each economy; they do not mean the transfers are domestic production.
+
+P40 — replace whyNot B:
+
+The table does not provide population figures. Its largest remittance totals have the lowest ratios to GDP, so it does not support this claim.
+
+E24 — in rationale D, replace:
+
+"can make up a large share of GDP"
+
+with:
+
+"can equal a large percentage of GDP"
+
+E24 — replace explanation:
+
+At the household scale, money sent home can pay for food, school, and housing. At the national scale, it brings income from abroad and supports spending. An amount equal to one-fifth of GDP is large compared with the economy's annual production, so changes in these transfers can have important effects.
+
+E24 — replace rationale E:
+
+Incorrect. Remittances can reduce a family's need to migrate or help finance another person's move. Their effect on further migration depends on the circumstances.
+
+This also removes the unsupported assertion that "the whole country depends on them."
+
+7. E03 — A youthful pyramid indicates growth potential, not a guaranteed growth rate. Keep D.
+
+The age shares are correct. The explanation's "will keep growing fast" is too certain, and rationale C incorrectly equates the technical terms stable and stationary.
+
+Replace option D:
+
+It has a young age structure and considerable potential for future growth.
+
+Replace rationale D and explanation with:
+
+About 43% of Country A's population is under 15, while about 3% is 65 or older. As the large child cohorts reach reproductive ages, they can create population momentum. Actual future growth also depends on fertility, mortality, and migration.
+
+Replace rationale B:
+
+Incorrect. The youngest groups are larger than the groups immediately above them, so the pyramid does not support the claim that each new group of children is smaller.
+
+Replace rationale C:
+
+Incorrect. The age groups differ greatly in size. The pyramid does not show the roughly column-shaped age structure commonly associated with low birth and death rates.
+
+Population momentum is an appropriate concept to introduce here; UN population analysis distinguishes the effect of age structure from fertility, mortality, and migration.
+un.org
+
+8. E10, E11, and P09 — Remove unsupported historical claims and make projection assumptions explicit. Keep D, A, and D.
+
+E10's keyed comparison is completely correct: ages 65+ total 25.5%, versus 11.7% under 15.
+
+Replace these E10 rationales:
+
+A: "Incorrect. The youngest cohorts are smaller than the groups immediately above them, so the pyramid does not support a steadily rising birth rate. A single pyramid cannot establish past crude birth rates by itself."
+D: "Correct. People aged 65 and older account for 25.5% of the population, compared with 11.7% under age 15."
+E: "Incorrect. The pyramid shows more women than men at older ages. It does not directly measure the death rate for either sex."
+
+E11 — replace stem:
+
+Assume that fertility remains low, life expectancy remains high, and net migration is negligible. Which of the following outcomes is most likely in Country B during the next 20 years?
+
+E11 — replace rationale C:
+
+Incorrect. With low fertility continuing, the small younger cohorts do not indicate a need for rapid expansion of elementary-school capacity.
+
+In rationale A, replace "raises the dependency ratio" with "raises the ratio of older adults to working-age adults."
+
+P09 — replace explanation:
+
+Country C's largest cohorts are now aged 55–69. In 15 years, survivors in those cohorts will be aged 70–84. This makes increased demand for health care and support for older adults the strongest prediction. Future births and migration could change demand for other services.
+
+Replace whyNot A and whyNot B with:
+
+A: "The child cohorts are smaller than the large cohorts approaching older age, so the pyramid gives stronger support for expanding older-adult services."
+B: "The pyramid does not show a large young cohort that would make maternity and child-care services the strongest predicted increase."
+9. E25 — "Mostly older adults and children" is not established by the stem. Keep C.
+
+"Many young adults" leaving does not establish the majority composition of those remaining. Children can migrate too.
+
+Replace option C:
+
+An aging population and fewer working-age adults available for farm labor
+
+Replace rationale C:
+
+Correct. Sustained emigration of young adults can increase the average age of the remaining population and reduce the workers available for farming. Remittances may support households without replacing all of the workers who leave.
+
+Replace explanation:
+
+When many young adults leave and few return, the remaining population tends to grow older, and farms may have trouble finding workers. Money sent home can help families, but it does not directly replace the people who left.
+
+10. P41 — The stem does not establish who paid for medical training. Keep A.
+
+"Trained in Country D" does not mean the government paid for the training. The feedback also assumes the emigrating health professionals are young adults, although their ages are unspecified.
+
+Replace option A:
+
+A reduced supply of health-care workers available to serve patients
+
+Replace explanation:
+
+This can cause brain drain: the departure of skilled workers. If new training and returning migrants do not replace the workers who leave, patients may face longer waits or fewer services. Money sent home can help families, but it does not directly replace the lost health-care workers.
+
+Replace whyNot D:
+
+The scenario gives no evidence that more young adults are staying or that the birth rate is increasing.
+
+Replace whyNot E:
+
+Earnings abroad may increase the money migrants send home. The scenario gives no reason to predict that these transfers will fall.
+
+11. P18 — Crude mortality does not reveal infant mortality, and 20-year observations cannot rule out an epidemic. Keep D.
+
+Replace whyNot A:
+
+Rising infant mortality can encourage additional births to replace children who died. The graph gives the crude death rate for the whole population, so it does not establish infant mortality trends.
+
+Replace whyNot E:
+
+A disease outbreak could affect births, but the observations shown do not establish that one occurred. Long-term changes in urbanization, education, and access to contraception better explain the sustained decline.
+
+Replace whyNot C:
+
+A return to farming is not the best explanation for the sustained fertility decline. Urbanization, education, and access to contraception better fit the pattern.
+
+In the explanation, change "That is Stage 3" to:
+
+This pattern fits Stage 3 of the demographic transition.
+
+12. P11 — The table establishes local differences, not their cause. Keep A.
+
+Migration is a plausible explanation for the county patterns, but fertility and mortality histories could also contribute.
+
+Replace option A:
+
+The national age structure hides large county differences in the shares of young adults and older adults.
+
+Replace explanation:
+
+County U has 38% of its population aged 15–24, compared with 13% nationally. County R has 42% aged 65 or older, compared with 17% nationally. National averages can therefore hide important local patterns. Migration for college, work, or retirement is one possible explanation, but the table alone does not establish why these patterns developed.
+
+This strengthens the fit to 5.C.
+
+13. P39 and E22 — Do not treat migration classifications as mutually exclusive. Keep E and A.
+
+Employment does not exclude asylum-seeker or refugee status. Likewise, a rural-to-urban move is not necessarily voluntary merely because of its direction. UNHCR's protection categories concern circumstances and protection needs.
+UNHCR
+
+P39 — replace whyNot B:
+
+The scenario does not say she is seeking international protection. It emphasizes the ties she maintains across two countries.
+
+P39 — replace whyNot D:
+
+The scenario does not describe flight from persecution, war, or violence. It emphasizes the ties she maintains after moving.
+
+E22 — replace rationale A:
+
+Correct. The arrows begin at rural villages and end at the capital without crossing an international boundary. These features identify internal, rural-to-urban migration. The map does not establish how much choice each migrant had.
+
+E15 does not need a legal correction: it already says "recognized refugee," and asylum seeker is clearly the best answer.
+
+Stimulus and assessment-design repairs
+14. E04 — Require the pyramid to distinguish the answer. Keep B.
+
+The original stem supplies everything needed to identify Stage 2. A second Stage 2 option makes the pyramid consequential.
+
+Replace stem:
+
+Country A's crude birth rate has stayed near 40 per 1,000 since 1980, while its crude death rate has fallen from 20 to 9 per 1,000. Which pairing of a demographic-transition stage and a feature of Country A's pyramid is best supported?
+
+Replace options:
+
+Letter Replacement
+A Stage 1, with similarly sized age groups from childhood through old age
+B Stage 2, with large child cohorts and much smaller older cohorts
+C Stage 3, with child cohorts smaller than the middle-aged cohorts
+D Stage 2, with a large surplus of working-age men compared with women
+E Stage 4, with older cohorts larger than the youngest cohorts
+
+Replace rationales:
+
+A: "Incorrect. The falling death rate does not fit Stage 1, and the age groups are not similarly sized."
+B: "Correct. High birth rates and falling death rates fit Stage 2. The pyramid also shows large child cohorts and much smaller older cohorts."
+C: "Incorrect. The birth rate has remained high, and child cohorts are larger than middle-aged cohorts."
+D: "Incorrect. Stage 2 fits the rate history, but the pyramid does not show a large working-age male surplus."
+E: "Incorrect. The birth rate remains high, and older cohorts are much smaller than the youngest cohorts."
+
+Replace explanation:
+
+The high birth rate and falling death rate fit Stage 2. The pyramid adds another clue: its child cohorts are large and its older cohorts are small. The male and female sides are nearly balanced.
+
+15. E05 — Make it a standalone item. Keep E.
+
+Its answer does not depend on the pyramid. Removing it from the set is cleaner than forcing an unnecessary connection.
+
+Delete: "set": "pyrA".
+
+Replace stem:
+
+In a country with persistently high fertility, which of the following changes would most likely lower the total fertility rate over the next several decades?
+
+Replace option E:
+
+Expanding girls' schooling and women's voluntary access to health care and contraception
+
+Replace explanation:
+
+Education can expand women's choices and opportunities. Voluntary access to contraception helps people decide whether and when to have children. These changes are generally associated with lower fertility.
+
+Update stimulusCount and the introductory description from 10 to 9. E03–E04 still form a valid shared-pyramid pair.
+
+16. E17 — Require a graph reading as well as a demographic explanation. Keep E.
+
+The current stem announces declining mortality, so students can choose sanitation and food without consulting the graph.
+
+Replace stem:
+
+Between 1825 and 1875, which change in Country M's rate of natural increase is shown in the graph, and which process best explains it?
+
+Replace options:
+
+Letter Replacement
+A Natural increase declined as birth rates fell, consistent with greater access to contraception.
+B Natural increase declined as death rates rose, consistent with the spread of infectious disease.
+C Natural increase stayed near zero, consistent with little improvement in disease prevention.
+D Natural increase rose as birth rates increased, consistent with incentives for larger families.
+E Natural increase rose as death rates fell, consistent with improved sanitation, water, and food supplies.
+
+Replacement rationales:
+
+A: "Incorrect. Birth rates stayed near 37–38 per 1,000, and natural increase rose."
+B: "Incorrect. Death rates fell from 35 to 23 per 1,000."
+C: "Incorrect. The gap between birth and death rates widened substantially."
+D: "Incorrect. Birth rates did not increase; falling death rates widened the gap."
+E: "Correct. Natural increase rose from about 0.3% to 1.4% as death rates fell while birth rates stayed high. Improved public health and nutrition can reduce deaths from infections and hunger."
+
+Replacement explanation:
+
+Births exceeded deaths by 3 per 1,000 people in 1825 and by 14 per 1,000 in 1875. The widening gap means faster natural increase. Cleaner water, sanitation, and more reliable food supplies can lower deaths from infections and hunger.
+
+Change skill to 3.C.
+
+17. E21 — Remove the settlement pattern from the stem. Keep E.
+
+Replace stem:
+
+Which of the following best explains the distribution of cities and towns shown on the map?
+
+Replace rationale D:
+
+Incorrect. The map provides no information about when different areas were surveyed, so it does not support this explanation.
+
+Surveying and associated land allocation can affect settlement. The valid objection is that this map provides no evidence for that explanation.
+
+E23 is acceptable as a compound-stimulus question: its note supplies the drought and employment evidence. It principally tests interpretation of that note in relation to the flows.
+
+18. P35 — Align the actual task with its causal learning objective. Keep E.
+
+The present question identifies a Ravenstein generalization. Mentioning intervening obstacles afterward does not make the question itself assess IMP-2.C.
+
+Replace stem:
+
+Which factor could best help explain the pattern shown in the chart?
+
+Replace options:
+
+Letter Replacement
+A Political conflict forced people in distant areas to relocate.
+B Friends and relatives in City M provided distant migrants with free housing.
+C Fast, inexpensive trains made long-distance trips easier than local trips.
+D Recruiters offered larger travel grants to people living farther from City M.
+E Longer moves required more money and reliable information about the destination.
+
+Replace explanation:
+
+Of the 88,000 migrants shown, 66,000—75%—came from less than 200 kilometers away. Longer moves can cost more and require more information about jobs and housing. These difficulties can act as intervening obstacles. The chart is consistent with this explanation, although it does not show why each person moved.
+
+Replacement whyNot lines:
+
+A: "Conflict in distant areas would encourage departures from those areas; it does not explain why nearby origins dominate the chart."
+B: "Free housing would reduce a barrier for distant migrants."
+C: "Easier long-distance travel would reduce the obstacle created by distance."
+D: "Larger grants would reduce distant migrants' moving costs."
+
+Use 3.C for this version. If retaining the original question, clarify that 42,000 of 88,000 is 47.7%, not a majority; the under-200-km groups together constitute 75%. Counts from unequal distance bands also do not establish individual migration probabilities.
+
+Remaining factual and wording corrections
+19. P02, P03, E02, and E19 — Use "arable land" consistently; explain rounding.
+
+The World Bank figures are correct. Several densities cannot be reproduced exactly from the displayed rounded populations, which needs a visible note.
+
+Append to P02's source line:
+
+Population figures are rounded; densities were calculated from unrounded population values.
+
+P02 option A:
+
+Egypt has a lower arithmetic density than the Netherlands but more people per square kilometer of arable land.
+
+Replace "farmland" with "arable land" wherever it denotes the physiological-density denominator in P02, P03, E02 rationale B, and E19's explanation.
+
+For P02's explanation, replace "land that can grow crops" with:
+
+In these World Bank data, arable land includes temporary crop fields, temporary meadows, and temporarily fallow land; it does not include all farmland.
+
+That distinction matters because the cited indicator is a defined land-use category, not every area potentially capable of cultivation.
+DataBank
+
+20. P03 — Separate the farmer-share deduction from the machinery inference. Keep D.
+
+The larger farmer share follows from the density relationship. The machinery claim is plausible but not established.
+
+Replace option D:
+
+A larger share of Country X's population works as farmers than in Country Y.
+
+Replace the final two explanation sentences:
+
+This shows that a larger share of Country X's population works as farmers. The density figures alone do not establish which country uses more machinery or produces more food per hectare.
+
+21. P21, P23, E08, and SOURCES — Correct Boserup's name.
+
+Replace "Esther Boserup" with "Ester Boserup" in:
+
+P21 whyNot D
+P23 whyNot A
+E08's stem
+The corresponding SOURCES entry
+
+The publisher identifies the author as Ester Boserup.
+Rout
+
+E08 — replace explanation:
+
+Malthus argued that population growth could outpace food production. Boserup argued that population pressure could lead farmers to use land more intensively, for example by shortening fallow periods, adding labor, or expanding irrigation. These changes can increase food output.
+
+22. P09, P10, E03, and E10 — Correct the pyramid descriptions.
+
+Each description says "17 five-year age groups." The final 80+ group is open-ended.
+
+Replace that sentence with:
+
+The population pyramid shows sixteen five-year age groups from 0–4 through 75–79, followed by an open-ended group aged 80 and older.
+
+Keep the explanation that each bar represents a percentage of the total population.
+
+23. P24, P28, and E12 — Improve the treatment of family planning and employment.
+
+Family planning concerns people's desired number and spacing of children; reducing births is not its defining purpose.
+who.int
+
+P24 — replace whyNot D:
+
+Family-planning services help people decide whether, when, and how many children to have. The scenario focuses on financial and workplace incentives intended to increase births.
+
+E12 — replace rationale B:
+
+Incorrect. Expanding these services does not immediately add adults to the working-age population.
+
+P28 — replace option A, whose current "marry earlier…shortens childbearing years" wording is internally contradictory:
+
+Paid employment leads women to marry earlier, increasing the time available to have children.
+
+P28 — replace whyNot A:
+
+Earlier marriage would generally increase the time available for childbearing; it does not explain the lower fertility described.
+
+P28 — refine option D:
+
+Paid employment can delay childbearing and increase the income parents give up while caring for children.
+
+24. P26 — Restrict the conclusion to the admissions stream described. Keep B.
+
+A points system does not necessarily govern every immigration category.
+
+Replace the stem's final question:
+
+Which outcome is most likely among immigrants admitted through this system?
+
+Replace whyNot C:
+
+The points system described selects applicants by age and skills; the stem does not describe a humanitarian admission program.
+
+This also avoids implying that a person with refugee status could never qualify through an employment pathway.
+
+25. P25 — Qualify the policy's causal role. Keep E.
+
+The dates are acceptable. The policy contributed to aging and sex-ratio imbalances, alongside other factors; China's fertility decline began before it.
+UN DESA Publications
+
+Replace explanation:
+
+The one-child policy contributed to smaller younger generations and population aging. Longer lives and social and economic changes also mattered. Restrictions on family size, combined with a preference for sons among some families and access to prenatal sex selection, contributed to more boys than girls being born. China introduced a nationwide two-child policy in 2016 and a three-child policy in 2021.
+
+26. E20 — Define transhumance broadly enough to include horizontal movement. Keep A.
+
+The Alpine example is correct, but the explanation defines the whole concept as uphill/downhill movement. UNESCO recognizes both horizontal and vertical transhumance.
+UNESCO Intangible Cultural Heritage
+
+Replace explanation and the definition in rationale A:
+
+Transhumance is the seasonal movement of herders and livestock between grazing areas. In this Alpine example, herds use higher mountain pastures in warmer months and return to lower areas in colder months.
+
+27. Apply these smaller precision repairs.
+Item and field Exact replacement
+P01, whyNot A "Tropical cyclones develop over warm tropical oceans, not in the Arctic."
+P06, explanation opening "Carrying capacity is the population an environment can support over time with the resources and technology available."
+P06, explanation ending "The herd has exceeded the pasture's carrying capacity. Continued overgrazing can reduce the food supply available to the people who depend on it."
+P07, compaction explanation "Heavy groundwater withdrawal lowers water pressure in the sediments beneath Mexico City. Clay-rich layers compress, causing the ground above them to sink."
+P07, repeated final sentence in whyNot D/E "Groundwater withdrawal causes compression of the sediments beneath the city."
+P12, option A "The number of children a woman would have in her lifetime if current fertility rates continued"
+P12, whyNot D "That is doubling time. If migration is zero and a positive RNI stays constant, estimate it with 70 divided by RNI expressed as a percent."
+P15, whyNot D "The scenario provides no evidence that government payments differ between rural and urban families."
+P19, explanation opening "In the early stages, infectious diseases and food shortages cause a large share of deaths, especially among children."
+P32, whyNot C "Sustained low fertility generally limits the size of new child cohorts. The scenario does not support a growing need for elementary schools."
+P32, whyNot D "The scenario points toward more older people relative to working-age adults. The total dependency ratio also depends on the number of children."
+P36, whyNot D "Guest workers are migrants admitted for temporary employment in another country. These families have not crossed an international border, and no employment arrangement is described."
+P38, whyNot B "The scenario emphasizes social connections that support migration. It provides no evidence of force or persecution."
+E07, rationale B "Incorrect. The higher crude death rate does not establish poorer health care. Japan's much older age structure helps explain its higher crude death rate despite its long life expectancy."
+
+The P07 revision follows the physical mechanism described in the research: reduced groundwater pressure and sediment compaction, rather than simply pumping water directly "out of the clay."
+agupubs.onlinelibrary.wiley.com
+
+Bank-wide corrections
+28. Remove the answer-sequence tell without changing any answer letters.
+
+The current distributions are balanced:
+
+Section A B C D E
+Practice 9 8 9 8 8
+Exam 5 5 5 5 5
+
+However:
+
+Neither section contains a single consecutive repeated answer letter.
+Both begin C–A–D–B–E.
+
+That creates an avoidable guessing aid. Permute question order while preserving IDs, answer letters, and intact stimulus sets.
+
+One valid exam order is:
+
+E03–E04–E05, E06, E01, E07, E09, E10–E11, E15, E19, E02, E20, E12, E14, E13, E16–E17, E08, E18, E21–E22–E23, E25, E24.
+
+This preserves the existing sets and introduces four ordinary adjacent repeats. If E05 becomes standalone as recommended, it can still remain in that position.
+
+29. Correct skill tags according to the task students perform.
+
+These are the clearest changes:
+
+Item Current Recommended
+P01 2.A 2.B — explains a spatial pattern
+P24 1.A 1.D — identifies a concept in a scenario
+P33 1.A 1.D
+P36 1.A 1.D
+P40 3.C 3.D — compares quantitative measures across countries
+P42 1.B 1.D — identifies a contextual example
+E20 1.A 1.D
+Revised P35 3.E 3.C
+Revised E17 1.B 3.C
+
+The topic-to-LO assignments are broadly sound. P35 is the clearest mismatch between the assigned causal objective and the current question task. College Board's suggested skill for a topic is not a requirement that every question in that topic use that skill.
+apcentral.collegeboard.org
+
+30. Replace the "matches exactly" claim with a supportable description.
+
+The real multiple-choice section is 60 questions in 60 minutes, with approximately 30–40% referencing stimuli, roughly evenly divided between quantitative and qualitative sources. Your 25-minute exam reproduces the average pace, but it is a shortened unit assessment.
+College Board
+
+Recommended replacement for calibration:
+
+Original AP-style Unit 2 practice using five answer choices and a mixture of standalone and stimulus-based questions. The 25-question, 25-minute exam uses the AP multiple-choice section's average pace. It is a shortened unit assessment; its difficulty has not been calibrated against operational AP questions.
+
+The current exam's skill distribution, using its existing tags, is:
+
+Skill category Current exam Published full-exam range
+1. Concepts and Processes 32% 25–36%
+2. Spatial Relationships 24% 16–25%
+3. Data Analysis 24% 13–20%
+4. Source Analysis 12% 13–20%
+5. Scale Analysis 8% 13–20%
+
+The published ranges apply to the full exam; a 25-item unit test need not match every range precisely. They nevertheless show why "exactly" overstates the present alignment.
+College Board
+
+Also, the nominal ten stimulus questions currently divide seven quantitative to three qualitative. Removing E05 yields nine of 25, or 36%, but counting set membership alone does not establish meaningful stimulus use.
+
+31. Strengthen distractors where difficulty is being overstated.
+
+There is no pervasive longest-answer problem. The larger issue is obviously implausible alternatives.
+
+The clearest examples are:
+
+P01: tropical rainforest, tropical storms, and hot desert alternatives to Arctic conditions.
+P05/P15: several rural–urban comparisons run conspicuously backward.
+P20: all four distractors misstate elementary features of the DTM.
+E01: banned Siberian settlement, hot-desert Siberia, and effectively impassable Urals.
+E02: national laws generally forbidding rural hospitals.
+E14: most young women leaving the region and region-wide China-style one-child policies.
+
+These are not wrong keys. They make several "medium" or "hard" designations optimistic.
+
+For one concrete improvement, replace E02 option D with:
+
+Specialized hospitals mainly locate where local governments offer the lowest land taxes.
+
+Replacement rationale D:
+
+Incorrect. The scenario provides no information about tax incentives. The need for a large patient population better explains the metropolitan location.
+
+Keep straightforward definition questions as introductory practice. Treat the difficulty labels as provisional until student responses establish actual difficulty and distractor performance.
+
+32. Address the most important coverage gaps.
+
+All twelve topics appear. The strongest omissions or imbalances are:
+
+Area Finding
+Forced migration Slavery is absent. Refugees are defined or used as distractors but lack a direct correct-answer application. Both are explicitly within the framework.
+Guest workers P10's key provides some coverage, but a scenario distinguishing temporary labor admission from transnational ties would deepen it.
+Population momentum Implied in E03, but insufficiently distinguished from high fertility. The recommended E03 explanation helps.
+Effects of migration Remittances and sending-country labor loss dominate. Destination-country economic contributions and cultural effects mainly appear as distractors.
+Population distribution Physical explanations are stronger than political and historical explanations.
+Scale analysis P04, P11, E13, and E24 provide a foundation, but the exam has relatively little sustained comparison across scales.
+
+The framework explicitly includes slavery, refugees, multiple voluntary-migration types, and political, economic, and cultural effects of migration.
+apcentral.collegeboard.org
+
+I would prioritize a refugee application, a slavery/forced-displacement application, and a destination-country cultural-effects item before adding more basic remittance or rural-labor-loss questions.
+
+Quantitative verification
+
+These are the principal independently recomputed results. None requires changing a keyed numerical answer.
+
+Density calculations
+
+P02's densities correctly use the unrounded World Bank populations:
+
+Country Arithmetic density Physiological density
+Egypt 117.0709 3,559.5070
+Netherlands 534.4070 1,793.9666
+Japan 340.1245 3,081.6647
+Canada 4.6949 108.4025
+
+Egypt's arable share is 3.289%; its physiological density is 1.984 times the Netherlands'. The printed rounding is appropriate.
+
+Population pyramids
+
+Every value below is a percentage of the total population.
+
+Pyramid Total Under 15 Ages 15–64 Ages 65+
+P09, Country C 100.0 14.6 64.4 21.0
+P10, Country G 100.0 16.2 82.2 1.6
+E03, Country A 100.0 42.8 54.0 3.2
+E10, Country B 100.0 11.7 62.8 25.5
+
+Additional checks: P09 ages 55–69 total 24.9%; P10 is 72.5% male and 27.5% female; E10's under-30 share is 26.1%. These support the intended readings after the inference repairs above.
+
+Other calculations
+Item Recomputed result
+P03 With equal physiological density, a fivefold agricultural density implies approximately a fivefold farmer share.
+P04 Provincial populations total 16.12 million; national density 64.48/km²; western provinces contain 84.37% of people on 20% of land.
+P11 County U: 38/13 = 2.92 times the national young-adult share. County R: 42/17 = 2.47 times the national older-adult share. All rows total 100%.
+P12 example (30 − 10)/10 = 2.0% RNI.
+P13 Displayed-rate RNIs: Niger 3.27%, India 0.94%, Canada 0.10%, Germany −0.40%, Japan −0.76%. Germany uniquely combines natural decrease with positive total growth.
+P14 RNI 2.4%; rule-of-70 doubling time 29.17 years, appropriately "about 29."
+P18 CBR 44 → 19 and CDR 18 → 7, 1960–2020; RNI 2.6% → 1.2%.
+P22 Population +165%, food production +295%, production per person +49.06%.
+P27 2.6 − 1.9 = 0.7; 5.9/1.9 = 3.11, approximately three times.
+P31 Youth ratio 24, older-age ratio 36, total 60; working-age share 62.5%; reversed ratio 166.67, rounded 167.
+P35 Total 88,000; under 50 km 47.73%; under 200 km 75%.
+P37 2015 − 1998 = 17 years.
+E06 RNI 2.0%; doubling time 35 years.
+E16 RNI 0.3% in 1825 → 1.4% in 1875; Stage 2 is the best classification.
+E19 Arable area 60,000 km²; arithmetic density 150; physiological 1,000; agricultural 400.
+
+The real-data checks also passed for P13/E07 vital rates, P40's six remittance totals and GDP ratios, E14's Latin America and Caribbean figures, and E24's Nepal/Honduras comparison. The source notes correctly acknowledge that the regional infant-mortality series does not supply a 1970 value.
+
+For E09, the historical facts pass. Replace the Wikipedia reference with Singapore's National Library account, which documents the policy change in 1987.
+nlb.gov.sg
+
+Final disposition
+
+The questions with no required item-specific content correction are P04, P05, P08, P13, P14, P16, P17, P27, P34, P37, E06, E09, E14, E15, E16, and E18. P20, E01, and E02 have valid keys and core content but need attention to distractor quality; E23 works when its map and note are treated together. The remaining items are addressed in the numbered corrections.
+
+The language is generally accessible for ninth and tenth graders. The most useful reading-level improvement is to replace oversimplified certainties—"each worker supports," "the whole country depends," or "these people chose"—with short, accurate statements about what the evidence shows.
+
+My publication recommendation is to make the substantive and stimulus revisions above, retain all existing answer letters, and present the result as an original AP-style Unit 2 assessment. The exported data and map specifications are reviewable; final SVG label placement and readability still require inspection of the rendered page.
+
+ChatGPT can make mistakes. Check important info.

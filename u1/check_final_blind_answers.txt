@@ -1,0 +1,78 @@
+Unit 1 FINAL blind check, v2026-11-08c. Answered from blind.md in displayed order; reported by ID.
+Map items (P02, P03, P34, P14, E03-E04, E13) also read from the built JSON stimulus geometry only (no answer fields),
+because blind.md does not carry the drawn map. Caveat: the first 50 lines of SOURCES.md were opened before answering
+and mention P03/P06/P12 stimulus facts; every one of those answers was recomputed independently below.
+
+PRACTICE (displayed order)
+U1-P01 B  State highway map = general-purpose reference map; A, C, D, E are thematic.
+U1-P02 D  Uniform squares, each = a fixed count (10 farms), placed where farms are = dot density.
+U1-P04 C  Mercator is conformal (local angles/shapes kept), area grows toward the poles.
+U1-P03 A  Spacing between 120 m and 140 m lines: J (west) 18 px < M 30 < L 38 < K 70 = N 70 (N is 100-120 m, 70 px). Tightest = steepest = J.
+U1-P07 A  Countries sized by population = cartogram.
+U1-P05 E  Azimuthal equidistant centered on the hub gives true distance and direction from the center.
+U1-P06 B  Per 1,000: Adams 3.5, Baker 8.0, Cole 6.0, Dunn 4.5, Ellis 3.0 -> Baker highest.
+U1-P34 D  24 houses in two rows hugging both banks across the whole valley = linear along the river.
+U1-P08 D  Layered map analysis = GIS.
+U1-P09 C  Comparing satellite images over time = remote sensing.
+U1-P11 D  Automatic on-board receiver position every 30 s = GPS.
+U1-P10 E  Feelings/perceptions -> interviews (qualitative).
+U1-P35 E  Current storefront status on one street -> fieldwork/observation.
+U1-P14 B  School is in the shaded floodplain; higher ground exists; hospital is already outside the floodplain (A unnecessary).
+U1-P13 C  Multi-layer site analysis -> stores where demand (traits + access) is strongest.
+U1-P15 E  Before/after imagery locates damage and blocked roads -> routing aid.
+U1-P12 A  Riverside 650->1,480 (+830, +128%); next Westfield +220 (+24%), Midtown +120 (+30%).
+U1-P17 C  Drops 15, 10, 6, 3 -> largest is under 1 km to 1-2 km; falling share with distance = distance decay.
+U1-P16 A  Lat/long coordinates = absolute location.
+U1-P19 B  Physical + human characteristics (landscape, houses, language, festival) = place.
+U1-P20 E  Canal put the port on a busy route = relative location (situation) improved.
+U1-P18 D  Travel time falls with new technology = time-space compression.
+U1-P23 B  Wind renewable, coal nonrenewable.
+U1-P22 C  Dikes/pumps overcome a physical limit = possibilism.
+U1-P25 E  Depth to water rising (water table falling) while recharge flat -> use exceeds recharge -> unsustainable.
+U1-P24 D  Main critique: denies human agency; used to rank societies (racist/colonial uses).
+U1-P21 A  Environmental determinism = physical environment controls society.
+U1-P28 C  Internal (rural-to-urban) migration reconciles all three trends.
+U1-P26 A  Each mapped value summarizes one country = national-scale data (map extent is global, data unit is national).
+U1-P27 B  South 13% hidden by national 6%; E false (North 140k vs South 260k unemployed).
+U1-P29 E  Comparing neighborhoods within one city = local scale.
+U1-P36 C  A county average cannot show neighborhood-level variation.
+U1-P32 C  "Up North" share rises gradually 6 -> 95% = perceptual region with a fuzzy transition edge.
+U1-P33 B  Regions defined by different criteria (physical, cultural, economic) overlap.
+U1-P31 A  Hospital service area = functional (nodal) region.
+U1-P30 D  Majority speaks French = formal region (measurable shared trait).
+
+Practice letter counts: A 7, B 7, C 8, D 7, E 7. Longest run in displayed order = 2 (P03-P07 A, P34-P08 D, P10-P35 E, P36-P32 C).
+
+EXAM (displayed Q order; ID in brackets)
+Q1  [U1-E01] C  Percentage per county = choropleth.
+Q2  [U1-E06] A  Driver's live position = GPS.
+Q3  [U1-E03] D  Map 1 parallel gaps grow poleward (Mercator: area inflates); Map 2 gaps shrink (cylindrical equal-area).
+Q4  [U1-E04] B  Equal-area cylindrical squeezes high latitudes N-S (cells at 60-75 deg are 25 px wide x 9.5 px tall).
+Q5  [U1-E11] B  "60 km upstream from the river's mouth" = relative location; A absolute; D site.
+Q6  [U1-E18] C  National +2.0% hides Province 2 at -5.0%.
+Q7  [U1-E19] E  Capital District +6.0% while Province 2 -5.0%.
+Q8  [U1-E20] D  Total population is not school-age demand; need children counts + capacity.
+Q9  [U1-E02] A  Counts at point locations = graduated symbols.
+Q10 [U1-E22] A  Drawings agree at core, differ at edges = perceptual (vernacular) region.
+Q11 [U1-E08] B  Land-cover shares come from classified satellite imagery.
+Q12 [U1-E09] E  Built-up 10->26% while forest 34->30 and wetland 12->7.
+Q13 [U1-E16] A  Limit acknowledged, human choice among responses = possibilism.
+Q14 [U1-E07] C  Letters, newspapers, reports = written (qualitative) sources with spatial information.
+Q15 [U1-E13] C  Area tied to a node by daily commuting = functional region.
+Q16 [U1-E14] E  Share falls 64 -> 8% with distance 14 -> 58 km = distance decay.
+Q17 [U1-E15] D  Faster link reduces friction of distance -> Town F share rises, could cross the 25% line.
+Q18 [U1-E24] C  Different criteria -> contested/varying boundaries.
+Q19 [U1-E05] E  Topological map trades true distance for clarity; all maps are selective.
+Q20 [U1-E21] B  Value compared = one rate per world region = regional scale.
+Q21 [U1-E10] D  Faster-than-nation growth may add House seats; flat population loses share and may lose a seat.
+Q22 [U1-E12] A  Technology reduces effect of distance = time-space compression.
+Q23 [U1-E25] D  Rerouting adds traffic on residential streets; local response (speed bumps).
+Q24 [U1-E23] E  Gradual 90 -> 10% with bilingual towns = transition zone.
+Q25 [U1-E17] B  Harvest <= regrowth + replanting = sustainability.
+
+Exam letter counts: A 5, B 5, C 5, D 5, E 5. Longest run = 2 (Q4-Q5 B, Q9-Q10 A, Q14-Q15 C).
+
+Flags (two defensible answers / none): none. Watch items, single answer still clear:
+- P26 / E21: "aggregated (grouped)" wording makes national (P26) and regional (E21) the single defensible answers;
+  the "Global" options are reasonable traps on map extent / comparison scope, not second keys.
+- E13: D ("formal, because drawn using a measured percentage") is a trap; the measured trait is a flow to a node.

@@ -1,0 +1,71 @@
+U6 blind answers (independent check, from blind.md only)
+
+U6-P01 D  Situation = location relative to other places (rail line between two cities); others are site features.
+U6-P02 B  1990-2020 rural 24->19 fell, urban 11->38 (x3.45); rural-to-urban migration.
+U6-P03 C  FHA/VA loans + Interstate highways drove postwar suburbanization.
+U6-P04 B  African urban growth = natural increase + rural migration, informal economy (not industrial pull).
+U6-P05 E  Office/retail cluster at beltway interchange, more jobs than residents = edge city.
+U6-P06 A  Frisco and McKinney grew from <55k to >225k; >100k, not the main city = boomburbs.
+U6-P07 C  Megacity growth in periphery/semiperiphery from natural increase + rural-urban migration.
+U6-P08 E  World city defined by global finance/HQ functions, not size or capital status.
+U6-P09 B  Decision in a world city (London) shifts jobs among lower-order cities abroad.
+U6-P10 B  City Q: most HQs (40), most international flights, stock exchange.
+U6-P11 C  6 million / 3 = 2 million.
+U6-P12 A  F: 9.0 vs 1.6 = primate; G: 4.8, 2.4, 1.6, 1.2, 0.96 = rank-size.
+U6-P13 C  P1*P2/d^2: Pair 3 = 1.6e7, highest (Pairs 1 and 5 = 4e6). NOTE: with P1*P2/d (no square) Pair 5 wins (1.2e9) -> key depends on the d^2 convention.
+U6-P14 A  Low-order: small threshold/short range; high-order: large threshold/long range.
+U6-P15 A  CPT assumes an isotropic plain; mountains and a highway break that assumption.
+U6-P16 B  Ring V = zone in transition (older housing, factories, newcomers).
+U6-P17 D  Highest bid: commercial 0-2 km, industrial 3-4 km, residential 5-8 km.
+U6-P18 E  Wedges along a railroad and lakeshore boulevard = Hoyt sector model.
+U6-P19 B  Multiple nuclei recognizes several centers (airport, university).
+U6-P20 A  McGee: old colonial port zone is the focus.
+U6-P21 E  Colonial rule added a European-style CBD beside traditional/market CBDs.
+U6-P22 B  Attached townhouses = medium density.
+U6-P23 A  60 -> 12 -> 4 units/ha with distance and with car-era build dates.
+U6-P24 D  Infill raises density inside the city, eases edge pressure.
+U6-P25 C  Transit station access raises land values, densification.
+U6-P26 E  Car-less neighborhoods (Riverside, Eastfield) have longest commutes, fewest reachable jobs.
+U6-P27 D  Cheaper land, less political power (and racism) in route choice.
+U6-P28 D  Narrow streets, porches, walkable mixed use = New Urbanism.
+U6-P29 C  TOD supporters: fewer car trips.
+U6-P30 E  Greenbelt limits buildable land -> higher housing prices.
+U6-P31 B  Interviews = qualitative.
+U6-P32 D  Tract 11: population 6,200 -> 3,900, vacancy 9% -> 28% = zone of abandonment.
+U6-P33 D  Tract medians show averages, not whether earlier households left or why.
+U6-P34 E  Blockbusting.
+U6-P35 E  Grade D (redlined) -> loans refused/limited -> disinvestment for decades.
+U6-P36 D  No legal tenure -> not officially recognized or served.
+U6-P37 A  Gentrification -> rising rents/taxes displace longtime residents.
+U6-P38 E  Fragmentation of local government.
+U6-P39 A  Brownfield redevelopment.
+U6-P40 C  Metro A 1,800 -> 600 (slowed); Metro B 1,700 -> 1,900 (grew).
+U6-P41 C  Population growth outpacing sewer/water infrastructure.
+
+U6-E01 C  Fall line: waterfalls powered mills and blocked navigation -> break-of-bulk.
+U6-E02 B  China 1980-2020 +44.1 pts vs Nigeria +32.4, India +10.6, UK +4.3.
+U6-E03 E  Rising share of megacities in semiperiphery/periphery countries.
+U6-E04 A  Large-lot subdivisions ~50 mi out on former farmland, long commutes = exurb.
+U6-E05 D  Concentration of HQs and financial markets = top of global hierarchy.
+U6-E06 C  Linked hierarchy, world city (Paris HQ) coordinates.
+U6-E07 E  P: 7.2, 3.6, 2.4, 1.8, 1.44 = exact rank-size; Q: 9.6 vs 1.3 = primate.
+U6-E08 A  Colonial capital + seaport concentrated power/investment/jobs -> primacy.
+U6-E09 D  Interaction ~ 1/d^2 -> doubling distance = one-fourth.
+U6-E10 E  High-order good: large threshold, long range -> large city.
+U6-E11 B  Area 2 = spine / elite residential sector.
+U6-E12 C  Griffin-Ford: wealth declines outward; Burgess: higher-income farther out.
+U6-E13 D  Area 5 = peripheral squatter settlements from rural migration.
+U6-E14 B  Single-CBD assumption fails for polycentric metros.
+U6-E15 A  Interchanges gain accessibility -> higher bid rents.
+U6-E16 A  Built in walking/streetcar era near transit and jobs.
+U6-E17 E  Edge infrastructure subsidizes sprawl; older areas decline.
+U6-E18 C  Permit caps + adequate-facilities requirement = slow-growth policy.
+U6-E19 B  Smart growth can raise housing costs, price out lower-income residents.
+U6-E20 A  Tract 101: income 31k->68k, rent 650->1,450, BA 14%->46% from low base.
+U6-E21 E  Interviews/surveys tracking where earlier residents went.
+U6-E22 C  Inclusionary zoning.
+U6-E23 D  Loan denial in areas rated risky (often by race) held back investment.
+U6-E24 D  Brownfield reuse: homes/jobs on developed land, eases farmland pressure.
+U6-E25 B  Leapfrog development past boundary into suburbs (fragmentation).
+
+Flags (blind): P13 key flips between d and d^2 versions of the gravity model (C vs E). No item had zero defensible answers.

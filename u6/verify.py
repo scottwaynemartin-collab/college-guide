@@ -55,6 +55,7 @@ def run(byid):
     ok(u[cats.index("2000")] < r[cats.index("2000")] and u[cats.index("2010")] > r[cats.index("2010")], "P02 urban passes rural between 2000 and 2010")
     ok(u[i20] - u[i90] == 27 and u[i90] - u[i60] == 7, "P02 whyNot E increments 27 and 7")
     ok(all(u[i] < u[i + 1] for i in range(len(u) - 1)), "P02 urban rises every decade")
+    ok(round(100 * r[i90] / (u[i90] + r[i90])) == 69 and round(100 * r[i20] / (u[i20] + r[i20])) == 33, "P02 whyNot D rural share ~69% (1990) and ~33% (2020)")
     # P06: Census table matches official values; claims
     rw = rows("U6-P06")
     for city, (_, c00, c10, e24) in CENSUS.items():
@@ -103,6 +104,10 @@ def run(byid):
     ok(sr[ind][3] == 340 and sr[res][3] == 230 and sr[ind][4] == 260 and sr[res][4] == 200, "P17 whyNot C numbers")
     ok(len(set(round(sr[a][i] - sr[b][i]) for a in names for b in names if a != b for i in range(len(cats))) & {0}) == 0, "P17 no ties")
     ok(min(abs(sr[win[i]][i] - sorted(sr[nm][i] for nm in names)[-2]) for i in range(len(cats))) >= 15, "P17 winner margin >= 15 at every distance")
+    i3, i6 = cats.index("3"), cats.index("6")
+    ok(win[i3] == ind and win[i6] == res, "P17 key: industrial at 3 km, residential at 6 km")
+    ok((sr[ind][i3], sr[com][i3], sr[res][i3], sr[res][i6], sr[ind][i6], sr[com][i6]) == (340, 250, 230, 160, 90, 20), "P17 explanation values at 3 and 6 km")
+    ok(byid["U6-P17"]["options"][byid["U6-P17"]["answer"]] == "Industrial and residential", "P17 key text")
     # P23: density gradient
     rw = rows("U6-P23")
     d = sorted(rw.items(), key=lambda kv: num(kv[1][0]))
@@ -141,6 +146,8 @@ def run(byid):
     ok(round(wb("India", 2020) - wb("India", 1990), 1) == 8.5 and round(wb("Nigeria", 2020) - wb("Nigeria", 1990), 1) == 24.6, "E02 C rationale numbers")
     ok(wb("United Kingdom", 2020) < 2 * wb("United Kingdom", 1960), "E02 D false")
     ok(wb("China", 1980) < wb("India", 1980), "E02 E false")
+    g60, g20 = wb("United Kingdom", 1960) - wb("China", 1960), wb("United Kingdom", 2020) - wb("China", 2020)
+    ok(g20 < g60 and round(g60) == 59 and round(g20) == 19, "E02 D false: UK-China gap narrowed from ~59 to ~19 points")
     # E07: rank-size table
     rw = rows("U6-E07")
     Pp = [num(rw[k][0]) for k in "12345"]; Qq = [num(rw[k][1]) for k in "12345"]
@@ -159,6 +166,17 @@ def run(byid):
     ok(t["Tract 101"][1] > 60000 and t["Tract 103"][1] > 60000 and t["Tract 102"][1] < 60000 and t["Tract 104"][1] < 60000, "E20 option E premise")
     ok(max(t, key=lambda k: t[k][0]) == "Tract 103" and max(t, key=lambda k: t[k][1]) == "Tract 103" and max(t, key=lambda k: t[k][4]) == "Tract 103" and max(t, key=lambda k: t[k][5]) == "Tract 103", "E20 option C premise (103 highest both years)")
     ok(abs(chg["Tract 102"][0] - 1) < 0.06 and chg["Tract 102"][2] == 1, "E20 Tract 102 income about same")
+    # P44: environmental injustice table
+    rw = rows("U6-P44")
+    t = {k: [num(x) for x in v] for k, v in rw.items()}
+    top_pov = set(sorted(t, key=lambda k: -t[k][0])[:2])
+    ok(top_pov == {"Larkspur", "Millbank"}, "P44 highest poverty = Larkspur, Millbank")
+    ok(set(sorted(t, key=lambda k: t[k][1])[:2]) == top_pov and set(sorted(t, key=lambda k: -t[k][2])[:2]) == top_pov and set(sorted(t, key=lambda k: t[k][3])[:2]) == top_pov, "P44 same two: nearest pollution, most unhealthy days, least canopy")
+    ok((t["Larkspur"][0], t["Millbank"][0], t["Larkspur"][1], t["Millbank"][1], t["Larkspur"][2], t["Millbank"][2]) == (34, 29, 150, 250, 22, 19), "P44 explanation numbers")
+    # P46: urban heat island bars
+    sr, cats = series("U6-P46"); v = dict(zip(cats, list(sr.values())[0]))
+    ok(max(v, key=v.get) == "Downtown core" and min(v, key=v.get) == "City park" and v["City park"] < v["Tree-lined area"] < v["Downtown core"], "P46 downtown hottest, park coolest, trees between")
+    ok((v["Downtown core"], v["Tree-lined area"], v["City park"]) == (48, 38, 31), "P46 explanation numbers")
     return fails, n[0]
 
 def live_check():

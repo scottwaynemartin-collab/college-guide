@@ -11,7 +11,7 @@ P.append(dict(id="U1-P16", topic="1.4", lo="PSO-1.A", skill="1.A", difficulty="e
     "D": "It is a two-hour drive from the nearest seaport.",
     "E": "It is next to the main highway, halfway between two large cities."},
   answer="A",
-  explanation="Absolute location is an exact spot that does not change, usually given with latitude and longitude. Anyone can find 32.8° N, 96.8° W on a globe. The other choices describe where the place is compared to something else. That is relative location.",
+  explanation="Absolute location names a place's exact position, using coordinates like latitude and longitude, or an address. The latitude and longitude in A pin down one spot on Earth. The other choices describe where a place is compared to something else. That is relative location.",
   whyNot={
     "B": "Distance from the capital compares the place to another place, so it is relative location.",
     "C": "'Across from the old mill' is relative location. You have to know where the mill is.",
@@ -19,7 +19,7 @@ P.append(dict(id="U1-P16", topic="1.4", lo="PSO-1.A", skill="1.A", difficulty="e
     "E": "'Halfway between two cities' is relative location."},
   vocab=["absolute location", "relative location", "latitude", "longitude"]))
 
-P.append(dict(id="U1-P17", topic="1.4", lo="PSO-1.A", skill="2.C", difficulty="hard",
+P.append(dict(id="U1-P17", topic="1.4", lo="PSO-1.A", skill="3.D", difficulty="medium",
   stimulus=dict(type="bar",
     title="SHARE OF A GROCERY STORE'S WEEKLY CUSTOMERS, BY DISTANCE FROM HOME TO THE STORE (HYPOTHETICAL DATA)",
     categories=["Under 1 km", "1–2 km", "2–3 km", "3–4 km", "4–5 km"],
@@ -27,21 +27,21 @@ P.append(dict(id="U1-P17", topic="1.4", lo="PSO-1.A", skill="2.C", difficulty="h
     yLabel="Percent of weekly customers", yMax=50,
     description="A bar chart. Of the store's weekly customers, 41 percent live less than 1 km away, 26 percent live 1–2 km away, 16 percent live 2–3 km away, 10 percent live 3–4 km away, and 7 percent live 4–5 km away.",
     source="Hypothetical data"),
-  stem="The chart shows distance decay. Suppose a new expressway cuts driving times to the store from neighborhoods 3 to 5 kilometers away. Which change in the chart would most likely result?",
+  stem="Which pair of neighboring distance groups shows the largest drop in customer share, and which geographic pattern is that drop consistent with?",
   options={
-    "A": "The share of customers living under 1 km away would rise sharply",
-    "B": "The bars would reverse, with the most customers living 4–5 km away",
-    "C": "The 3–5 km bars would grow, making the drop-off with distance less steep",
-    "D": "The chart would stay the same, because the distance in kilometers would not change",
-    "E": "The 3–5 km bars would shrink, because more traffic would slow the trip"},
+    "A": "From 1–2 km to 2–3 km; distance decay",
+    "B": "From 2–3 km to 3–4 km; time-space compression",
+    "C": "From under 1 km to 1–2 km; distance decay",
+    "D": "From 3–4 km to 4–5 km; time-space compression",
+    "E": "From under 1 km to 1–2 km; environmental determinism"},
   answer="C",
-  explanation="Distance decay means fewer people interact with a place the farther away they are, mostly because the trip takes more time and money. A faster expressway cuts the travel time from farther neighborhoods, so the store feels 'closer' to them. More people from 3 to 5 km away would shop there, and the drop-off in the chart would become less steep.",
+  explanation="The share drops from 41% in the nearest group to 26% in the next group. That is a drop of 15 percentage points. The other drops are 10, 6, and 3 points. Fewer customers coming from farther away fits distance decay: interaction with a place tends to fall as distance grows. The chart alone cannot show every cause, such as how many people live in each group or where other stores are.",
   whyNot={
-    "A": "The expressway helps farther neighborhoods, not the ones next door, so the nearest group would not jump.",
-    "B": "Faster roads weaken distance decay but do not flip it. Nearby people still have the shortest trip.",
-    "D": "The distance in kilometers stays the same, but travel time drops. People react to time and cost, so the pattern changes.",
-    "E": "The expressway is built to cut driving times, so the trip from 3 to 5 km away gets easier, not harder."},
-  vocab=["distance decay", "time-space compression", "friction of distance"]))
+    "A": "This drop is 10 percentage points (26 to 16), smaller than the 15-point drop between the two nearest groups.",
+    "B": "This drop is only 6 points (16 to 10). Also, the chart shows nothing about faster travel or new technology.",
+    "D": "This drop is only 3 points (10 to 7). Also, the chart shows nothing about faster travel or new technology.",
+    "E": "This is the largest drop, but nothing in the chart shows the physical environment controlling what people do."},
+  vocab=["distance decay", "percentage point"]))
 
 P.append(dict(id="U1-P18", topic="1.4", lo="PSO-1.A", skill="3.E", difficulty="medium",
   stimulus=dict(type="table",
@@ -64,13 +64,13 @@ P.append(dict(id="U1-P18", topic="1.4", lo="PSO-1.A", skill="3.E", difficulty="m
   answer="D",
   explanation="Time-space compression means places feel closer together because new technology makes travel and communication faster. The two cities never moved, but the trip shrank from 12 days to 1.5 hours.",
   whyNot={
-    "A": "Distance decay says interaction drops with distance. Here the trip got easier, which weakens distance decay.",
+    "A": "Distance decay is about how interaction changes with distance. This table gives travel times between the same two cities, not interaction at different distances.",
     "B": "Absolute distance, measured in kilometers, did not change. Only the travel time did.",
-    "C": "The terrain stayed the same while the technology changed, so the environment did not control the trend.",
+    "C": "The table links shorter trips to new transportation technology. It does not show the environment controlling how people live.",
     "E": "The table shows how long the trip takes, not how many people or goods move between the cities."},
   vocab=["time-space compression", "absolute distance", "relative distance"]))
 
-P.append(dict(id="U1-P19", topic="1.4", lo="PSO-1.A", skill="1.A", difficulty="medium",
+P.append(dict(id="U1-P19", topic="1.4", lo="PSO-1.A", skill="1.D", difficulty="medium",
   stem="A geographer describes a town's hilly landscape, its brick houses, the language its residents speak, and its yearly harvest festival. The geographer is describing the town's",
   options={
     "A": "absolute location",
@@ -133,9 +133,9 @@ P.append(dict(id="U1-P22", topic="1.5", lo="PSO-1.B", skill="1.B", difficulty="m
   answer="C",
   explanation="Possibilism says the environment sets limits and offers choices, and people decide what to do using their technology and culture. The Dutch faced low land and water, but they built dikes and pumps to make new farmland. People shaped the result; the environment did not decide it for them.",
   whyNot={
-    "A": "Determinism says nature controls people. Here people changed nature, which is the opposite.",
-    "B": "The sea did limit where people could live at first, but people pushed back that limit. That goes against determinism.",
-    "D": "Draining seas and lakes changed the natural environment a lot. The land did not go back to a natural state.",
+    "A": "The story is about people's decisions and technology changing how low, wet land could be used. It does not show nature forcing one outcome.",
+    "B": "The sea did limit land use, but human choices and engineering changed what was possible. That goes against determinism.",
+    "D": "Draining seas and lakes changed the wetland and coastal environment. The question does not say whether that change can last over the long term, and the land did not go back to its natural state.",
     "E": "The story is about turning water into land, not about how interaction drops off with distance."},
   vocab=["possibilism", "polder", "environmental determinism"]))
 
@@ -161,7 +161,7 @@ P.append(dict(id="U1-P24", topic="1.5", lo="PSO-1.B", skill="1.E", difficulty="h
   options={
     "A": "It gives too much credit to human technology and too little to the physical environment",
     "B": "It focuses on local places and cannot be applied to whole world regions",
-    "C": "It is a new idea that has not yet been tested with data from many places",
+    "C": "It was built to explain cities, so it cannot be applied to rural areas",
     "D": "It ignores human choice and was used to rank some societies above others",
     "E": "It overlooks climate, which has little effect on where people live or how they farm"},
   answer="D",
@@ -169,13 +169,13 @@ P.append(dict(id="U1-P24", topic="1.5", lo="PSO-1.B", skill="1.E", difficulty="h
   whyNot={
     "A": "That points the wrong way. Determinism gives too much weight to the environment, not to technology.",
     "B": "Determinists did apply the idea to whole world regions, for example by claiming climate shaped entire civilizations.",
-    "C": "Environmental determinism is an old idea. It was popular in the late 1800s and early 1900s and has since been rejected.",
+    "C": "Determinists applied the idea to whole societies, rural and urban alike. The real problem is that it ignores human choice.",
     "E": "Climate does affect people, for example which crops they can grow. The problem is claiming that it controls them."},
   vocab=["environmental determinism", "possibilism"]))
 
 P.append(dict(id="U1-P25", topic="1.5", lo="PSO-1.B", skill="3.C", difficulty="medium",
   stimulus=dict(type="bar",
-    title="AVERAGE DEPTH TO GROUNDWATER BELOW A DRY FARMING REGION, 1980–2020 (HYPOTHETICAL DATA)",
+    title="DEPTH TO GROUNDWATER IN AN ARID AGRICULTURAL REGION, 1980–2020 (HYPOTHETICAL DATA)",
     categories=["1980", "1990", "2000", "2010", "2020"],
     series=[dict(name="Depth to groundwater (meters below the surface)", values=[20, 28, 37, 47, 58])],
     yLabel="Meters below the surface", yMax=60,
@@ -188,33 +188,33 @@ P.append(dict(id="U1-P25", topic="1.5", lo="PSO-1.B", skill="3.C", difficulty="m
     "B": "The dry climate controls how much water farms use, which supports environmental determinism",
     "C": "Groundwater is a nonrenewable resource, like coal, so pumping it uses it up",
     "D": "The rising depth numbers show that irrigation in the region can continue at its current rate",
-    "E": "Farmers are pumping water out faster than rain refills it, which is not sustainable"},
+    "E": "The falling water table raises doubts that current groundwater use is sustainable"},
   answer="E",
-  explanation="The bars show the water getting deeper below the surface, from 20 meters to 58 meters. That means the water table is dropping. Rain refills the aquifer at about the same rate as before, so the drop comes from farmers pumping water out faster than nature puts it back. Using a resource faster than it renews is not sustainable.",
+  explanation="The water is farther below the surface every decade. From 1980 to 2020, the water table fell 38 meters (from 20 to 58 meters down). Rain still refills the aquifer at about the same rate, so the water being taken out each year is more than what comes back in. If that keeps going, wells could run dry, so the current use may not be sustainable. The chart does not measure the pumping itself.",
   whyNot={
     "A": "A bigger depth number means the water is farther down. The water table is falling, not rising.",
-    "B": "Determinism says nature controls people. Here people's pumping is changing nature.",
-    "C": "Unlike coal, groundwater is refilled by rain. The water table drops when pumping is faster than the refill rate.",
-    "D": "A water table that drops every decade shows that current pumping cannot go on forever."},
+    "B": "Determinism says the environment controls how people live. This example is about how people's water use is changing the environment.",
+    "C": "The note says rain refills this aquifer. Some aquifers refill very slowly, but groundwater is not always nonrenewable like coal.",
+    "D": "A water table that keeps falling is a warning sign. It does not show that pumping can go on at the same rate."},
   vocab=["sustainability", "aquifer", "natural resources", "water table"]))
 
 # ---------------- 1.6 Scales of Analysis (PSO-1.C, PSO-1.D) ----------------
 P.append(dict(id="U1-P26", topic="1.6", lo="PSO-1.C", skill="5.A", difficulty="easy",
-  stem="A map shades each of the world's countries by its average life expectancy. At which scale of analysis is this map?",
+  stem="A world map shades each country by that country's average life expectancy. At which scale are the life-expectancy data aggregated (grouped) on this map?",
   options={
-    "A": "Global, because the area being studied is the entire Earth",
-    "B": "Regional, because the countries are grouped into continents",
-    "C": "National, because each country's average is shown separately",
-    "D": "Local, because life expectancy is recorded for each person",
-    "E": "Regional, because nearby countries often have similar values"},
+    "A": "National, because each mapped value summarizes one country",
+    "B": "Regional, because neighboring countries may have similar life expectancies",
+    "C": "Global, because the display includes countries throughout the world",
+    "D": "Local, because life expectancy is calculated from records about individuals",
+    "E": "Regional, because each country belongs to a larger world region"},
   answer="A",
-  explanation="The scale of analysis is the size of the area being studied. This map covers the whole world, so it is global, even though the data are shown country by country. A map of only the countries of South America would be regional. A map of the states of Mexico would be national. A map of one city's neighborhoods would be local.",
+  explanation="The map covers the whole world, but each color shows one country's average. So the data are grouped at the national scale. The area a map shows (here, the world) and the level at which its data are grouped (here, countries) are two different things.",
   whyNot={
-    "B": "The map does not group countries into continents or cover just one part of the world. It covers every country.",
-    "C": "Each country gets its own color, but the map covers the whole world. A national-scale study looks inside one country, such as state by state.",
-    "D": "Life expectancy starts with records of people, but this map shows country averages for the whole world. Local scale covers a city or neighborhood.",
-    "E": "Neighboring countries may look alike, but the map still covers the whole world, so its scale is global."},
-  vocab=["scale of analysis", "global scale"]))
+    "B": "Neighboring countries may look alike, but each value on the map still summarizes one country.",
+    "C": "Global describes the area the map shows. The map does not combine all countries into one worldwide number.",
+    "D": "Records about people were combined into country averages. No individual or neighborhood values are shown.",
+    "E": "The map shows a value for each country, not one average for each larger world region."},
+  vocab=["scale of analysis", "national scale", "aggregated data"]))
 
 P.append(dict(id="U1-P27", topic="1.6", lo="PSO-1.D", skill="5.C", difficulty="medium",
   stimulus=dict(type="table",
@@ -270,16 +270,16 @@ P.append(dict(id="U1-P29", topic="1.6", lo="PSO-1.C", skill="5.A", difficulty="m
     "D": "National, because the census collects neighborhood data for the whole country",
     "E": "Local, because the question compares neighborhoods within one city"},
   answer="E",
-  explanation="Pick the scale that matches the question. This question compares neighborhoods inside one city, so the local scale fits. Global, regional, or national data would blur the differences between neighborhoods.",
+  explanation="Pick the scale that matches the question. This study compares neighborhoods inside one city, so it needs local data on where stores are and how far residents travel. National rules or world food markets might help explain the differences, but they cannot replace the neighborhood-by-neighborhood comparison.",
   whyNot={
-    "A": "World trade affects food prices, but it cannot explain why one neighborhood lacks a store and another has one.",
+    "A": "World food markets can affect local conditions, but global data alone would not show the differences between neighborhoods.",
     "B": "Chains may cross borders, but the question is about differences between neighborhoods in one city.",
-    "C": "A national rule would not explain why one neighborhood differs from others in the same city.",
+    "C": "National policies can affect where stores open, but this question needs data that tell neighborhoods within the city apart.",
     "D": "The census does collect neighborhood data across the country, but this study compares neighborhoods in one city, which is the local scale."},
   vocab=["local scale", "scale of analysis", "food desert"]))
 
 # ---------------- 1.7 Regional Analysis (SPS-1.A) ----------------
-P.append(dict(id="U1-P30", topic="1.7", lo="SPS-1.A", skill="1.A", difficulty="easy",
+P.append(dict(id="U1-P30", topic="1.7", lo="SPS-1.A", skill="1.D", difficulty="easy",
   stem="An area in which a majority of residents speak French at home is best described as",
   options={
     "A": "a functional region, organized around a central node",
@@ -308,7 +308,7 @@ P.append(dict(id="U1-P31", topic="1.7", lo="SPS-1.A", skill="1.D", difficulty="m
   explanation="A functional (nodal) region is held together by connections to a central point, called the node. Patients travel to the hospital, so the hospital is the node. Its pull is strongest nearby and weaker farther away, which is distance decay at work.",
   whyNot={
     "B": "Sharing a language or culture defines a formal region. This region is defined by trips to the hospital.",
-    "C": "An official border does not make a region formal; a formal region shares a measurable trait. This area is defined by trips to a center.",
+    "C": "The question defines this area by patients' trips to a hospital, not by a government's official boundary or a shared trait.",
     "D": "Many regions have fuzzy edges. This one is defined by flows to a central node, which makes it functional.",
     "E": "Feelings define perceptual regions, but this area is defined by where patients actually come from."},
   vocab=["functional region", "nodal region", "node"]))
@@ -334,12 +334,12 @@ P.append(dict(id="U1-P32", topic="1.7", lo="SPS-1.A", skill="3.C", difficulty="m
     "D": "It is a formal region, because the survey measured residents' answers with numbers",
     "E": "It is a perceptual region that begins sharply at the state capital"},
   answer="C",
-  explanation="\"Up North\" is a perceptual (vernacular) region: it exists because of how people see where they live. The share of people who say they live \"Up North\" rises little by little as you go north, from 6% to 95%. There is no single line where it starts, so its edge is a transition zone, and different people would draw it in different places.",
+  explanation="\"Up North\" is a perceptual (vernacular) region: it depends on how people see the place where they live. The share who say they live \"Up North\" rises little by little from county to county, from 6% to 95%, and people in the same county disagree. So there is no one border everyone accepts; the edge is a broad transition zone.",
   whyNot={
-    "A": "The share climbs step by step through all six counties (6, 22, 47, 71, 88, 95), so there is no sharp border between any two of them.",
+    "A": "The survey does not show an agreed border between Birch and Cedar. Answers are split inside both counties, and the share keeps rising across several counties.",
     "B": "Nothing in the table shows trips or connections to the capital. The region is defined by what people say about where they live.",
     "D": "Putting numbers on people's opinions does not make a region formal. The region is still based on how people see it, so it is perceptual.",
-    "E": "Even in Alder, closest to the capital, only 6% say they live \"Up North.\" The share rises slowly, so the region has no sharp start at the capital."},
+    "E": "The table does not show a shared border at the capital. Even in Alder, closest to the capital, only 6% say they live \"Up North,\" and the share rises slowly to the north."},
   vocab=["perceptual region", "vernacular region", "transition zone"]))
 
 P.append(dict(id="U1-P33", topic="1.7", lo="SPS-1.A", skill="1.B", difficulty="hard",
@@ -351,9 +351,9 @@ P.append(dict(id="U1-P33", topic="1.7", lo="SPS-1.A", skill="1.B", difficulty="h
     "D": "Latin America and North America are the same region with two different names",
     "E": "Mexico belongs to whichever region its absolute location places it in"},
   answer="B",
-  explanation="Geographers create regions by choosing what ties places together. North America is based on a continent, a physical landmass. Latin America is based on culture, such as languages that came from Spain and Portugal. The trade bloc is based on economic ties. Because each region uses a different trait, the same country can fit in all three. Regions can overlap.",
+  explanation="Geographers define regions by choosing what ties places together. North America is a continent, a physical landmass. Latin America is based on culture and history, such as languages that came from Latin, like Spanish and Portuguese. The trade bloc is based on an economic agreement. Because each region uses a different trait, the same country can fit in all three. Regions can overlap.",
   whyNot={
-    "A": "No law assigns countries to regions. Geographers and others draw regions for different purposes.",
+    "A": "Some regions, like trade blocs, are set up by agreements, but no single international rule assigns countries to every kind of region. These three groupings use different criteria.",
     "C": "Mexico belongs to all three regions at the same time today. This is not about borders moving.",
     "D": "North America is a continent. Latin America is a cultural region that also includes most of South America, so they are not the same.",
     "E": "Absolute location (latitude and longitude) cannot tell you a region based on culture or trade."},

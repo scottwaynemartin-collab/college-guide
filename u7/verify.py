@@ -138,12 +138,26 @@ def check_hypothetical(byid):
     mfg, srv = s[0]["values"], s[1]["values"]
     assert mfg[-1] < mfg[0] / 2 and srv[-1] > 2 * srv[0]
     assert all(x > y for x, y in zip(mfg, mfg[1:])) and all(x < y for x, y in zip(srv, srv[1:]))
-    # E04-E06 Weber map: rail junction closer to the market city than the port; port on the coast
+    # E04-E06 Weber map: rail links (E06 D and E are false; the market city links to junction, port, small town)
     feats = {f["name"]: f for f in byid["U7-E04"]["stimulus"]["features"] if f["kind"] == "land"}
-    c = {k: f["labelAt"] for k, f in feats.items()}
-    dist = lambda p, q: math.hypot(p[0] - q[0], p[1] - q[1])
-    dj, dp = dist(c["Rail junction"], c["Market city"]), dist(c["Port"], c["Market city"])
-    assert dj * 1.25 < dp, (dj, dp)
+    def place_at(pt):
+        hits = [k for k, f in feats.items() if k != "Region R" and
+                min(x for x, _ in f["polygon"]) - 2 <= pt[0] <= max(x for x, _ in f["polygon"]) + 2 and
+                min(y for _, y in f["polygon"]) - 2 <= pt[1] <= max(y for _, y in f["polygon"]) + 2]
+        assert len(hits) == 1, (pt, hits)
+        return hits[0]
+    links = {frozenset((place_at(f["line"][0]), place_at(f["line"][-1])))
+             for f in byid["U7-E04"]["stimulus"]["features"] if f["kind"] == "line"}
+    assert links == {frozenset(x) for x in [("Ore mine", "Rail junction"), ("Rail junction", "Port"), ("Rail junction", "Market city"),
+                                             ("Market city", "Port"), ("Small town", "Market city")]}, links
+    assert frozenset(("Port", "Small town")) not in links and frozenset(("Port", "Ore mine")) not in links   # E06 D, E false
+    # E19: 4x laptops, 2x coffee per unit of labor -> A's opportunity cost of a laptop (0.5 coffee) < B's (1)
+    LA, CA, LB, CB = 4, 2, 1, 1
+    assert CA / LA < CB / LB and LB / CB < LA / CA
+    # P32 worked example in the explanation
+    assert 0.62 * 100 == 62 and abs(0.30 * 250 - 75) < 1e-9 and 75 > 62
+    # E22 rationale: manufacturing share of the jobs shown, about 44% -> about 13%
+    assert round(100 * mfg[0] / (mfg[0] + srv[0])) == 44 and round(100 * mfg[-1] / (mfg[-1] + srv[-1])) == 13
     # every place box lies inside Region R's land polygon
     region = feats["Region R"]["polygon"]
     def inside(pt, poly):

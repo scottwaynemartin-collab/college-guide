@@ -1,7 +1,8 @@
 # Unit 6 bank: data sources and checks
 
-Only two stimuli use real data. Every other stimulus is labeled "Hypothetical data" or "Hypothetical map".
-`python3 u6/verify.py` re-derives every number and computed answer (70 checks). `python3 u6/verify.py --live`
+Two data stimuli use observed statistics: P06 and E02–E03. Other numerical datasets are hypothetical and labeled
+"Hypothetical data". Conceptual model diagrams are simplified redrawings identified by their source lines.
+`python3 u6/verify.py` re-derives every number and computed answer (80 checks). `python3 u6/verify.py --live`
 also re-downloads the two sources below and compares every stored value (last run Nov 8, 2026: 0 mismatches).
 
 ## 1. World Bank urban share: U6-E02 / U6-E03 line chart
@@ -55,11 +56,13 @@ carry only the April 2020 estimates base, not the count itself. Claims checked b
 (6.98) and McKinney about 4 times (4.18) from 2000 to 2024; both passed 100,000 by 2010; no city lost population;
 Dallas is the largest.
 
-Definition note (boomburb): the item and its explanation use the working definition "large, fast-growing suburban
-cities of more than 100,000 people that are not the main city of their metro area" ("often called boomburbs"). Lang and
-Simmons' original definition also required double-digit growth in every census from 1970 on. Per the independent check,
-McKinney grew only about 7% in the 1970s (1970: 15,193; 1980: 16,249; figures from the check, not re-verified here), so it
-would not meet that stricter test. No item claims that either city appears on Lang's original list.
+Definition note (boomburb): the item and its explanation use the broader classroom sense of "boomburb": a large,
+fast-growing suburban city of more than 100,000 people that is not the largest city of its metro area. Lang and Simmons'
+original study (2001) looked for sustained double-digit growth since 1950; Lang and LeFurgy's later book (2007) used 1970
+as its starting year ("The starting year in this analysis is 1970, not 1950, as in the original research":
+https://www.brookings.edu/wp-content/uploads/2016/07/boomburbs_chapter.pdf, checked Nov 8, 2026). The table covers
+2000–2024 and does not establish either study's full historical criterion, and no item claims that Frisco or McKinney
+appears on either list.
 
 ## Factual claims outside the stimuli
 
@@ -75,7 +78,7 @@ specifics that could not be checked:
   (population product over distance squared); the rank-size rule; primate cities.
 - Boomburb (large, fast-growing suburban city of 100,000+ that is not its metro area's main city; see the definition note
   above); edge
-  city; exurb; megacity (10 million+); metacity (20 million+).
+  city; exurb; megacity (10 million or more); metacity (20 million+).
 - U.S. suburbanization after 1945 (FHA and VA/GI Bill home loans; Federal-Aid Highway Act of 1956); urban interstates
   routed through low-income and predominantly Black neighborhoods; HOLC residential security maps of the 1930s
   (grades A–D, D shaded red); blockbusting.

@@ -1,0 +1,66 @@
+U7 blind answers (from blind.md only, before opening key.txt)
+
+PRACTICE
+P01 C - coal/iron, trade capital, inventions = standard explanation; others false (oil, govt factories, least productive farms).
+P02 E - latecomers borrow proven technology (convergence); C would be export processing, not fast domestic manufacturing growth.
+P03 A - ag improvements + population growth + rural-to-urban migration to factory cities.
+P04 D - data analyst = information/knowledge work (quaternary); CEO = quinary (top-level decision making). FLAG (mild): some texts lump executives into quaternary; works only if course uses CED's quaternary/quinary split, which it does.
+P05 B - as development rises, ag share falls and service share rises (sector shift with mechanization).
+P06 E - containerization cut transport cost -> manufacturing offshored to low-wage countries far from markets.
+P07 C - copper smelting is weight-losing -> near raw material.
+P08 A - Weber's model is about transport cost of bulky inputs/outputs; software ships no bulk -> labor/agglomeration dominate.
+P09 D - GDP = inside borders; GNI adds income from abroad minus income sent abroad.
+P10 B - average hides distribution; says nothing about health/education (B's numbers differ sharply on those).
+P11 E - GII uses maternal mortality, adolescent births, parliament seats, education, LFP; E improves two of them.
+P12 C - informal economy unrecorded -> official GNI may understate.
+P13 A - women's share rose 34->47; pay ratio <100 every year. (B false: gap narrowed 9 pts then 13 pts.)
+P14 D - microlending/microcredit.
+P15 B - persistent wage gap and glass ceiling.
+P16 E - take-off = a few leading industries (textiles), rising investment.
+P17 C - modernization (stage growth) vs dependency (unequal core ties).
+P18 B - Country Q: mid income, manufacturing exports, few HQs = semi-periphery.
+P19 D - commodity dependence.
+P20 A - A: 1 wheat costs 2 cloth; B: 1 wheat costs 6 cloth -> A has comparative adv. in wheat, B in cloth.
+P21 E - liberalization/privatization/WTO = neoliberal policy.
+P22 C - state government incentives = local/state-scale initiative.
+P23 B - SAP austerity cut public services.
+P24 D - correlation/same-time trends do not show relocation/causation.
+P25 A - proximity to US market + lower wages (plus NAFTA/USMCA).
+P26 E - coastal ports cut cost of importing inputs and exporting outputs.
+P27 B - uneven development: coast gains faster, interior-to-coast migration.
+P28 B - just-in-time; suppliers cluster near assembly plant.
+P29 C - multiplier effect.
+P30 A - ecotourism gives locals income from keeping forest standing.
+P31 D - national averages hide internal (urban/rural) disparities.
+P32 E - shares alone; need total generation to know absolute coal use.
+
+EXAM
+E01 B - Britain -> W. Europe/N. America -> Russia/Japan.
+E02 D - urban working class + middle class.
+E03 A - raw materials + markets -> colonialism/imperialism.
+E04 A - weight-losing (20:1) -> locate at the ore mine.
+E05 D - weight-gaining (adds ubiquitous water) -> market city.
+E06 C - break-of-bulk point at port.
+E07 E - HDI includes health and education; oil states lag on those.
+E08 B - PPP adjusts for cost-of-living differences.
+E09 C - ag share falls monotonically with GNI (62.2, 43.5, 27.0, 12.0, 1.2). A false (Mexico 25.0 < Vietnam 33.5), B false (services 72.4 > industry 26.4), D causal/unsupported, E false.
+E10 E - average hides distribution.
+E11 A - FDI/export-processing zones using lower-cost labor (Vietnam's manufacturing boom).
+E12 D - own income improves family welfare.
+E13 C - Country L best on every GII-related column.
+E14 B - LFP ignores unpaid domestic/care work.
+E15 E - TFR declines with women's education/work.
+E16 A - preconditions for take-off (infrastructure, banking, entrepreneurs; still mostly farming).
+E17 C - semi-periphery = both core and periphery processes.
+E18 D - can't explain East Asian Tigers' success.
+E19 B - A specializes where its advantage is greatest (laptops), B in coffee.
+E20 E - regional trade bloc.
+E21 B - protects domestic steel jobs, raises input costs downstream, cuts imports.
+E22 A - deindustrialization.
+E23 D - counts not wages.
+E24 E - global goals, national/local implementation.
+E25 C - "degree to which": benefits plus limits.
+
+Exam letter count (blind): A5 B5 C5 D5 E5.
+
+FLAGS (two defensible answers or none): none hard. Soft flag P04 (quaternary vs quinary boundary; D is the CED-consistent answer). E12 answerable on common sense alone.

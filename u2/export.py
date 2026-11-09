@@ -115,7 +115,7 @@ hdr = f"""# AP Human Geography Unit 2 practice-exam bank: full export for review
   - `marker` features are drawn as small symbols: `baseN` is a purple square, `house` is a dark house icon, and `conflict` is a red starburst, used here for the capital.
   - `arrow` features are dark arrows.
   - The legend comes from `legend`. `description` and `note` are shown as paragraphs under the map.
-- **`set`:** exam questions that share a stimulus carry the same `set` id. The stimulus is stored on the first question and stays pinned beside each question in the set. Practice stimuli are self-contained.
+- **`set` and `setLabel`:** exam questions that share a stimulus carry the same `set` id. The stimulus is stored on the first question and stays pinned beside each question in the set. The first question also carries a `setLabel` (for example "Questions 3–4 refer to the population pyramid below."), which is shown above the stimulus. Practice stimuli are self-contained.
 
 ## unit2.json (complete)
 

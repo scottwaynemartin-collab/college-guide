@@ -1,16 +1,19 @@
 # Unit 7 question bank: full export for outside review
 
-Unit 7, Industrial and Economic Development Patterns and Processes. Version 2026-11-08b.
-32 untimed practice questions (instant feedback: a 6th-grade-level explanation plus one "why not" line per wrong option)
+Unit 7, Industrial and Economic Development Patterns and Processes. Version 2026-11-08c.
+38 untimed practice questions (instant feedback: a 6th-grade-level explanation plus one "why not" line per wrong option)
 and a 25-question timed exam (25 minutes, choices A–E, College Board-style rationales for every option,
 10 stimulus questions in 4 sets). Students are 9th graders in AP Human Geography.
+Practice items U7-P33 to U7-P38 were added after the previous review to cover complementarity, economies of scale,
+growth poles, social measures of development, sustainable transportation, and the 2008 financial crisis; they follow
+P32 in the file rather than sitting in topic order, so existing item IDs did not change.
 
 Everything below is the complete data file the page uses (unit7.json), followed by the sources note (SOURCES.md).
 
 How the stimulus types render (the JSON holds all of their data):
 - table: an HTML table with the given columns and rows; `note` and `text` show under the table, then the source line.
-  Row labels such as "Country P" contain a non-breaking space (shown in JSON as a plain-looking space).
-- bar: grouped vertical bars, one group per category, at most two series, value printed on each bar.
+  Row labels such as "Country P" contain a non-breaking space.
+- bar: grouped vertical bars, one group per category, at most two series, value printed on each bar; `text` shows below.
 - line: one line per series across the categories, each series with its own marker shape and dash pattern; the
   `description` paragraph shows under the chart.
 - schematicMap: an SVG drawn from `canvas` (pixel width and height) and `features` (polygon coordinates in pixels; the
@@ -18,11 +21,11 @@ How the stimulus types render (the JSON holds all of their data):
   - U7-P26 and U7-P27 (same map): Country C fills the left of the map. A wide block of interior provinces lies on the west,
     and a narrower strip of coastal provinces runs along the ocean on the east. Three special economic zone markers sit
     on the coast, each with a dashed shipping route running east out to sea.
-  - U7-E04 to E06 (Region R): the sea is on the east. Five labeled boxes are joined by dashed railroads: ore mine
-    (northwest), rail junction (center), port (east coast, with a shipping route out to sea), market city (south-center),
-    and small town (southwest). The railroads run mine to junction, junction to port, junction to market city, market city
-    to port, and small town to market city. Center points are junction (300,160), market city (430,300), port (595,95),
-    so the junction is about 191 px from the market city and the port is about 263 px away. The map has no scale bar.
+  - U7-E04 to E06 (Region R, schematic and not to scale): the sea is on the east. Five labeled boxes are joined by dashed
+    railroads: ore mine (northwest), rail junction (center), port (east coast, with a shipping route out to sea), market
+    city (south-center), and small town (southwest). The railroads run ore mine to rail junction, rail junction to port,
+    rail junction to market city, market city to port, and small town to market city. There is no rail line from the port
+    to the ore mine or to the small town.
 - In the exam, a set's stimulus is stored on the first question of the set (with `setLabel`) and shown beside every
   question in the set. In practice, both items in set "sez" carry their own copy of the map.
 
@@ -31,9 +34,9 @@ How the stimulus types render (the JSON holds all of their data):
  "unit": 7,
  "title": "Industrial and Economic Development Patterns and Processes",
  "examWeighting": "12–17% of the AP Exam multiple-choice section",
- "version": "2026-11-08b",
- "calibration": "Modeled on the format of the College Board 2020 AP Human Geography Practice Exam and the Course and Exam Description (5 answer choices, set-based stimulus questions, skills 1–5). All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced. Real data (P05 chart, exam Set B table) are World Bank World Development Indicators for 2023, re-read from the API by script; all other data are labeled hypothetical.",
- "checked": "Nov 8, 2026: draft. Automated checks in u7/assemble.py (answer balance and runs, option-length tells, absolute-word tells, field completeness, set structure, student-facing wording) and u7/verify.py (every World Bank value re-derived from cached API responses and re-fetched live; every keyed answer and every data-based distractor in the hypothetical stimuli re-computed). Independent blind Claude check (Nov 8): 57/57 keys agreed; WDI values re-fetched and arithmetic re-verified; fixes applied for E11 rationale C, E21 balanced options, E12 rewrite, Rostow stage order in P16/E16 (E01 options swapped to keep 5 per letter), E10 distractors, E25 D/E, P09 key wording, skill tags P02/P24/P32/E23 (charts are Skill 3), hedge tells in P15/P31/P24, P30 B, E04 and E05 stems.",
+ "version": "2026-11-08c",
+ "calibration": "Original AP-style Unit 7 practice aligned with the current AP Human Geography course framework (2020 Course and Exam Description): five answer choices, set-based stimulus questions, skills 1–5; the timed exam is 25 questions in 25 minutes. All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced. Real data (P05 chart, exam Set B table) are World Bank World Development Indicators for 2023, re-read from the API by script; all other data are labeled hypothetical. Difficulty labels are editorial estimates pending student piloting.",
+ "checked": "Nov 8, 2026: draft. Automated checks in u7/assemble.py (answer balance and runs, option-length tells, absolute-word tells, field completeness, set structure, student-facing wording) and u7/verify.py (every World Bank value re-derived from cached API responses and re-fetched live; every keyed answer and every data-based distractor in the hypothetical stimuli re-computed). Independent blind Claude check (Nov 8): 57/57 keys agreed; WDI values re-fetched and arithmetic re-verified; fixes applied for E11 rationale C, E21 balanced options, E12 rewrite, Rostow stage order in P16/E16 (E01 options swapped to keep 5 per letter), E10 distractors, E25 D/E, P09 key wording, skill tags P02/P24/P32/E23 (charts are Skill 3), hedge tells in P15/P31/P24, P30 B, E04 and E05 stems. ChatGPT Pro review (Nov 8, v2026-11-08b): all 57 keys kept; fixes in u7/fixes1.py (E13 GII limits and note, P32 electricity vs coal, E19 proportional advantage, GNI residence wording in P09/E10, E10 tied to its table, Weber map note and E06 map-dependent options, P02 C, P12 income wording, P08 transport-cost framing, P11/E14 definitions, P13 median earnings, E09/P05/E11 shares vs causes, P20 note, P29, P21/E20, P26/P27, P17/E17/E18, P30/E25, E22, P24 and E23 distractors, E03 C, E12 A/E, P07 concentrating, skill and difficulty retags); six practice items added for coverage (P33 complementarity, P34 economies of scale, P35 growth pole, P36 social measures, P37 sustainable transit, P38 2008 crisis); verify.py and assemble.py re-run.",
  "schemaNotes": {
   "stimulus.type": "table | bar | line | districtMap | schematicMap | rings (rings = von Thünen-style concentric ring diagram: center, rings[].label, outer, description; line = multi-series line chart: xLabel, yLabel, categories[], series[{name, values[]}], yMax)",
   "practice[].explanation": "6th-grade-level reason the answer is right (show this first)",
@@ -161,20 +164,20 @@ How the stimulus types render (the JSON holds all of their data):
     "description": "Line graph from 1800 to 1925. Country X's share of workers in manufacturing rises steadily from 10 percent in 1800 to 31 percent in 1925. Country Y stays between 3 and 6 percent until 1875, then jumps to 18 percent in 1900 and 29 percent in 1925.",
     "source": "Hypothetical data"
    },
-   "stem": "Country Y's line began rising later than Country X's but climbed faster once it began. Which of the following best explains this pattern?",
+   "stem": "Country Y's manufacturing share began rising later than Country X's but climbed faster once it began. Which of the following is the most likely explanation for this pattern?",
    "options": {
     "A": "Country Y had more coal and iron ore than Country X, which delayed its need to build factories.",
     "B": "Country Y's growth came from quaternary-sector jobs, which grow faster than factory jobs do.",
-    "C": "Colonial powers built Country Y's factories so that raw materials could be processed before export.",
+    "C": "Country Y adopted import substitution policies in the 1950s, which protected its new factories from competition.",
     "D": "Country Y followed Rostow's model, in which high mass consumption comes before the take-off stage.",
     "E": "Later industrializers could copy machines and methods already proven in early industrial countries."
    },
    "answer": "E",
-   "explanation": "Country X was an early industrializer. It had to invent and test new machines, so its factory jobs grew slowly. Country Y started later, but it could borrow steam engines, railroads, and factory methods that already worked. So once it began, it caught up fast. Between 1875 and 1900 its line jumped 12 points, twice as much as Country X ever rose in 25 years.",
+   "explanation": "Country X was an early industrializer, so its factory share grew slowly over a long time. Country Y started later and then rose fast: 12 points between 1875 and 1900, twice Country X's biggest 25-year rise of 6 points. This fits later industrializers copying machines and methods that already worked elsewhere. The graph alone does not prove the cause, but this explanation fits the pattern best.",
    "whyNot": {
     "A": "Having more coal and iron would help a country industrialize sooner, not later.",
     "B": "The graph shows manufacturing, which is the secondary sector, not the quaternary sector.",
-    "C": "Colonial powers usually shipped raw materials home to their own factories instead of building factories in colonies.",
+    "C": "The graph shows Country Y's fast rise happening between 1875 and 1925, decades before the 1950s.",
     "D": "Rostow puts take-off BEFORE high mass consumption. The order in this choice is backward."
    },
    "vocab": [
@@ -187,7 +190,7 @@ How the stimulus types render (the JSON holds all of their data):
    "id": "U7-P03",
    "topic": "7.1",
    "lo": "SPS-7.A",
-   "skill": "2.B",
+   "skill": "2.C",
    "difficulty": "medium",
    "stem": "As industrialization spread across Western Europe in the 1800s, which of the following changes most likely occurred?",
    "options": {
@@ -215,9 +218,9 @@ How the stimulus types render (the JSON holds all of their data):
    "id": "U7-P04",
    "topic": "7.2",
    "lo": "SPS-7.B",
-   "skill": "1.A",
+   "skill": "1.D",
    "difficulty": "easy",
-   "stem": "Which of the following workers is employed in the quaternary sector of the economy?",
+   "stem": "Using the five-sector model of the economy, which of the following workers is employed in the quaternary sector?",
    "options": {
     "A": "A logger who cuts timber in a forest",
     "B": "A worker who assembles cars in a factory",
@@ -226,7 +229,7 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "The chief executive who sets the strategy for a global corporation"
    },
    "answer": "D",
-   "explanation": "The quaternary sector is about information. Think research, data, and computers. A data analyst works with information, so the job is quaternary. Here is the ladder. Primary: take from nature. Secondary: make things. Tertiary: sell or serve. Quaternary: information. Quinary: top decision makers.",
+   "explanation": "The quaternary sector is about information. Think research, data, and computers. A data analyst works with information, so the job is quaternary. Here are the five sectors. Primary: take from nature. Secondary: make things. Tertiary: sell or serve. Quaternary: information. Quinary: top decision makers.",
    "whyNot": {
     "A": "Cutting timber takes a resource from nature. That is the primary sector.",
     "B": "Assembling cars turns parts into a finished product. That is the secondary sector.",
@@ -278,7 +281,7 @@ How the stimulus types render (the JSON holds all of their data):
     ],
     "yLabel": "Percent of total employment",
     "yMax": 100,
-    "text": "The rest of each country's workers are employed in industry (manufacturing, mining, construction, and utilities).",
+    "text": "Workers not shown are employed in industry (manufacturing, mining, construction, and utilities). Agriculture includes farming, forestry, and fishing. Services includes the jobs that a five-sector model splits into tertiary, quaternary, and quinary.",
     "description": "Grouped bar chart for 2023. Ethiopia: agriculture 62.2 percent, services 31.5 percent. India: agriculture 43.5 percent, services 31.5 percent. Mexico: agriculture 12.0 percent, services 63.0 percent. United States: agriculture 1.6 percent, services 79.1 percent.",
     "source": "World Bank, World Development Indicators: Employment in agriculture (SL.AGR.EMPL.ZS) and Employment in services (SL.SRV.EMPL.ZS), % of total employment, modeled ILO estimates, 2023 (data updated Oct. 8, 2026; accessed Nov. 8, 2026)"
    },
@@ -291,12 +294,12 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Countries with large service sectors have lower incomes, because service jobs pay less than farm jobs."
    },
    "answer": "B",
-   "explanation": "Look at the two bars together. Where the farm bar is tall (Ethiopia, India), the service bar is short. Where the farm bar is tiny (Mexico, United States), the service bar is tall. As countries develop, machines do most farm work, so fewer farmers are needed. People earn more and buy more services, like health care, stores, and banking, so service jobs grow.",
+   "explanation": "Where the farm bar is tall (Ethiopia, India), the service bar is short. Where the farm bar is tiny (Mexico, United States), the service bar is tall. As countries develop, machines and better methods let fewer farmers grow the food, and rising incomes increase demand for services such as health care, stores, and banking. These are broad patterns, not rules for every country.",
    "whyNot": {
-    "A": "Most farmers in places like Ethiopia grow food for their own country, not mainly for export to rich countries.",
+    "A": "The chart shows shares of workers, not food exports, so it cannot show this trade pattern.",
     "C": "The United States has a huge amount of cropland AND a huge service sector, so scarce farmland is not the reason.",
     "D": "In Rostow's last stage, services and consumer goods GROW. They do not shrink.",
-    "E": "It is the reverse: countries with big service sectors, like the United States, have the highest incomes."
+    "E": "Services include both low-paid and high-paid jobs, and the chart shows no income data. A big service sector does not by itself mean lower incomes."
    },
    "vocab": [
     "economic sectors",
@@ -319,9 +322,9 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Cheaper shipping let firms build factories in lower-wage countries far from the people who buy the goods."
    },
    "answer": "E",
-   "explanation": "Before containers, workers loaded and unloaded every box by hand, which was slow and costly. A container is packed once and lifted from ship to train to truck by crane. Shipping got so cheap that a company could make shoes or phones in a lower-wage country and still sell them far away at a low price. That is one big reason factories spread to semi-periphery and periphery countries.",
+   "explanation": "Before containers, cargo often had to be loaded and unloaded piece by piece every time it moved from ship to train to truck. A container is packed once and lifted between ships, trains, and trucks by crane. Shipping got so cheap that a company could make shoes or phones in a lower-wage country and still sell them far away at a low price. That is one big reason factories spread to semi-periphery and periphery countries.",
    "whyNot": {
-    "A": "Containers mostly carry finished and partly finished goods. Ore and coal travel loose in bulk ships.",
+    "A": "Ore and coal usually travel as loose bulk cargo. Containers are mostly used for manufactured and partly finished goods.",
     "B": "Containers made overseas shipping CHEAPER, not more expensive.",
     "C": "Containers made long-distance shipping cheap, which pushed many factories overseas, not back to rural areas.",
     "D": "The point of a container is that it does NOT have to be unpacked when it changes from ship to train or truck."
@@ -342,12 +345,12 @@ How the stimulus types render (the JSON holds all of their data):
    "options": {
     "A": "Brewing beer",
     "B": "Baking bread",
-    "C": "Smelting copper ore",
+    "C": "Concentrating copper ore",
     "D": "Bottling soft drinks",
     "E": "Printing daily newspapers"
    },
    "answer": "C",
-   "explanation": "Copper ore is mostly rock. Smelting throws away most of that weight and keeps a small amount of copper. This is a weight-losing (bulk-reducing) industry. Weber says it is cheaper to process the ore at the mine and ship only the light copper than to haul tons of rock to a faraway plant.",
+   "explanation": "Copper ore is mostly rock that will never become copper. Concentrating the ore removes much of that rock. Doing this bulk-reducing (weight-losing) step near the mine means much less weight has to be shipped onward, which lowers transport costs. Weber says weight-losing industries locate near their raw materials.",
    "whyNot": {
     "A": "Brewing adds water and makes a heavy product, so breweries tend to locate near their customers.",
     "B": "Bread goes stale fast, so bakeries locate near the people who buy it.",
@@ -356,7 +359,7 @@ How the stimulus types render (the JSON holds all of their data):
    },
    "vocab": [
     "least cost theory",
-    "weight-losing industry",
+    "weight-losing (bulk-reducing) industry",
     "weight-gaining industry"
    ]
   },
@@ -365,8 +368,8 @@ How the stimulus types render (the JSON holds all of their data):
    "topic": "7.2",
    "lo": "SPS-7.B",
    "skill": "1.E",
-   "difficulty": "hard",
-   "stem": "Weber's least cost theory explains the location of a steel mill in 1900 better than the location of a software company today. Which of the following best explains why?",
+   "difficulty": "medium",
+   "stem": "A planner uses only the transportation-cost part of Weber's least cost theory to explain the locations of a steel mill and a software company. Why does this part of the theory explain the software company's location less well?",
    "options": {
     "A": "Software firms ship little bulky material, so skilled workers and nearby firms matter more than transport costs.",
     "B": "Software firms ship heavier products than steel mills do, and Weber's theory cannot measure such large weights.",
@@ -375,7 +378,7 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Weber's theory assumes that firms locate at seaports, which describes steel mills but not software firms."
    },
    "answer": "A",
-   "explanation": "Weber built his theory around the cost of moving heavy things: coal, iron ore, and finished steel. A software company ships almost nothing heavy, so transport cost hardly matters. What matters more is being near skilled workers, investors, and other tech firms. That clustering is called agglomeration, and it is why tech firms bunch together in places like Silicon Valley.",
+   "explanation": "Moving heavy coal, iron ore, and steel is a big cost for a steel mill. Software can be sent over the internet, so moving physical goods matters much less. Skilled workers, investors, and nearby tech firms matter more. Weber's full theory does include labor costs and agglomeration (clustering); this question shows the limit of using transport costs alone.",
    "whyNot": {
     "B": "Software weighs almost nothing to ship. Steel is very heavy.",
     "C": "Weber's theory is about industry location. The farming land-use model is von Thünen's.",
@@ -392,23 +395,23 @@ How the stimulus types render (the JSON holds all of their data):
    "id": "U7-P09",
    "topic": "7.3",
    "lo": "SPS-7.C",
-   "skill": "1.A",
+   "skill": "1.C",
    "difficulty": "easy",
    "stem": "Which of the following best describes the difference between gross domestic product (GDP) and gross national income (GNI)?",
    "options": {
     "A": "GDP counts goods made in factories and mines, while GNI counts services such as banking, retail, and tourism.",
     "B": "GDP is adjusted for the cost of living in each country, while GNI uses market exchange rates instead.",
     "C": "GDP measures the income of the national government, while GNI measures the income of households.",
-    "D": "GDP counts output made inside a country; GNI adds income residents earn abroad and subtracts income foreigners earn there.",
+    "D": "GDP counts output made inside a country; GNI adds residents' income from abroad and subtracts income paid to nonresidents.",
     "E": "GDP includes unreported informal work, while GNI counts the formal, taxed part of the economy."
    },
    "answer": "D",
-   "explanation": "GDP asks: what was produced INSIDE this country's borders? GNI asks: what income did this country's PEOPLE and companies earn, wherever they earned it? So GNI starts with GDP, adds money residents earn from other countries, and subtracts money that foreign companies and workers earn inside the country.",
+   "explanation": "GDP asks: what was produced INSIDE this country's borders? GNI asks: what income did this country's RESIDENTS earn? GNI starts with GDP, adds income residents earn from other countries, and subtracts income paid to people and companies based outside the country (nonresidents). What counts is where people live, not their citizenship.",
    "whyNot": {
     "A": "Both GDP and GNI count goods AND services.",
     "B": "Either measure can be adjusted for cost of living (PPP). That is not the difference between them.",
     "C": "Both measure the whole economy, not just the government or just households.",
-    "E": "Neither measure is defined by formal versus informal work. Both miss some informal activity."
+    "E": "Both measures try to include formal and informal activity, although some informal activity may be missed in practice."
    },
    "vocab": [
     "gross domestic product (GDP)",
@@ -426,7 +429,7 @@ How the stimulus types render (the JSON holds all of their data):
     "title": "DEVELOPMENT INDICATORS FOR TWO COUNTRIES (HYPOTHETICAL DATA)",
     "columns": [
      "Country",
-     "GNI per capita, PPP (dollars)",
+     "GNI per capita, PPP (international dollars)",
      "Share of national income earned by the richest 10% of people",
      "Life expectancy at birth (years)",
      "Average years of schooling, adults"
@@ -459,7 +462,7 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "It leaves out the income of people who work in services, so Country A's income appears too low."
    },
    "answer": "B",
-   "explanation": "GNI per capita is the country's income divided evenly by every person. But money is not shared evenly. In Country B the richest 10% earn more than half of all income, and people live shorter lives with less school. The two countries look the same on GNI per capita but are very different places to live.",
+   "explanation": "GNI per capita is a country's income divided by its population. It does not show how that income is shared. In Country B the richest 10% earn more than half of all income, and people live shorter lives with less school. The two countries look the same on GNI per capita but are very different places to live.",
    "whyNot": {
     "A": "PPP is used precisely so that countries with different prices CAN be compared.",
     "C": "GNI per capita is only about income. The Human Development Index (HDI) is the measure that adds health and schooling.",
@@ -476,23 +479,23 @@ How the stimulus types render (the JSON holds all of their data):
    "id": "U7-P11",
    "topic": "7.3",
    "lo": "SPS-7.C",
-   "skill": "1.B",
+   "skill": "1.D",
    "difficulty": "medium",
    "stem": "Over twenty years, Country K's Gender Inequality Index (GII) value fell from 0.45 to 0.30. Which of the following changes would most likely help explain this decline?",
    "options": {
     "A": "GNI per capita rose quickly, while women's health, schooling, and jobs stayed about the same.",
     "B": "Life expectancy rose for men, while life expectancy for women stayed about the same.",
     "C": "The share of national income earned by the richest 10 percent of people fell sharply.",
-    "D": "Fewer women joined the paid labor force as household incomes in Country K rose.",
-    "E": "Fewer women died from pregnancy-related causes, and women won more seats in the legislature."
+    "D": "The gap between women's and men's labor force participation rates widened, with women's rate staying lower.",
+    "E": "Maternal deaths per 100,000 live births fell, and women gained a larger share of legislative seats."
    },
    "answer": "E",
-   "explanation": "On the GII, a LOWER number means MORE equality. The GII looks at three things: women's reproductive health (like deaths from pregnancy), empowerment (like seats in the legislature and schooling), and jobs (how many women versus men work). Healthier mothers and more women lawmakers both push the GII down.",
+   "explanation": "On the GII, a LOWER number means LESS gender inequality. The GII combines women's reproductive health (like the maternal death rate), empowerment (like legislative seats and schooling), and work (women's versus men's labor force participation). A lower maternal death rate and more women in the legislature would push the GII down if the other measures stayed the same.",
    "whyNot": {
-    "A": "The GII does not use income. Without changes for women, it would not fall.",
+    "A": "GNI per capita is not part of the GII. Higher income alone does not show progress on the measures the index uses.",
     "B": "Men's life expectancy is not part of the GII.",
     "C": "That is a change in income inequality between rich and poor, not between women and men.",
-    "D": "Fewer women in paid work would widen the gap with men and RAISE the GII."
+    "D": "A wider gap in labor force participation, with women's rate lower, means MORE inequality and would raise the GII."
    },
    "vocab": [
     "Gender Inequality Index (GII)",
@@ -506,19 +509,19 @@ How the stimulus types render (the JSON holds all of their data):
    "lo": "SPS-7.C",
    "skill": "1.D",
    "difficulty": "medium",
-   "stem": "In Country Z, many people earn a living by selling food at street stalls, doing repair work for cash, and driving unlicensed taxis. Which of the following best describes how this affects Country Z's official GNI per capita?",
+   "stem": "In Country Z, many people earn income through small, unregistered businesses, such as street food stalls, repair services, and taxi services. Which of the following best describes a possible effect on Country Z's official GNI per capita?",
    "options": {
-    "A": "GNI per capita will overstate production, because informal income is counted twice.",
+    "A": "GNI per capita will overstate average income, because informal income is counted twice.",
     "B": "GNI per capita will be unaffected, because GNI measures income earned abroad, not at home.",
-    "C": "GNI per capita may understate production, because informal work is often not fully recorded.",
-    "D": "GNI per capita will overstate production, because informal workers are counted as quinary jobs.",
-    "E": "GNI per capita may understate production, because PPP adjustments remove the value of services."
+    "C": "GNI per capita may understate average income, because some informal earnings are not fully measured.",
+    "D": "GNI per capita will overstate average income, because informal workers are counted as quinary jobs.",
+    "E": "GNI per capita may understate average income, because PPP adjustments remove the value of services."
    },
    "answer": "C",
-   "explanation": "Street vendors and cash repair jobs are part of the informal economy. This work is real, but much of it is never reported to the government. Official numbers can miss it, so Country Z may really produce more than its GNI per capita shows. Your AP course guide lists the formal and informal sectors as part of measuring development.",
+   "explanation": "Small, unregistered businesses are part of the informal economy. Official statistics try to count this work, but some of it is never reported. If some informal earnings are missed, Country Z's reported GNI per person can come out too low. (Being paid in cash does not by itself make a business informal.)",
    "whyNot": {
     "A": "Informal income is more likely to be missed than counted twice.",
-    "B": "GNI includes income earned at home. It starts with what is produced inside the country.",
+    "B": "GNI includes residents' income from work and business at home, plus net income from abroad.",
     "D": "Street vendors and taxi drivers are tertiary (service) workers, not quinary decision makers.",
     "E": "PPP adjusts for differences in prices. It does not remove services from the count."
    },
@@ -536,7 +539,7 @@ How the stimulus types render (the JSON holds all of their data):
    "difficulty": "medium",
    "stimulus": {
     "type": "bar",
-    "title": "WOMEN IN THE PAID WORKFORCE, COUNTRY M, 1980–2020 (HYPOTHETICAL DATA)",
+    "title": "WOMEN'S SHARE OF PAID WORKERS AND MEDIAN EARNINGS COMPARED WITH MEN'S, COUNTRY M, 1980–2020 (HYPOTHETICAL DATA)",
     "categories": [
      "1980",
      "2000",
@@ -552,7 +555,7 @@ How the stimulus types render (the JSON holds all of their data):
       ]
      },
      {
-      "name": "Women's median pay as % of men's",
+      "name": "Women's median earnings as % of men's",
       "values": [
        59,
        68,
@@ -562,28 +565,30 @@ How the stimulus types render (the JSON holds all of their data):
     ],
     "yLabel": "Percent",
     "yMax": 100,
-    "description": "Grouped bar chart for Country M. Women as a percentage of paid workers: 34 in 1980, 42 in 2000, 47 in 2020. Women's median pay as a percentage of men's: 59 in 1980, 68 in 2000, 81 in 2020.",
-    "source": "Hypothetical data"
+    "description": "Grouped bar chart for Country M. Women as a percentage of paid workers: 34 in 1980, 42 in 2000, 47 in 2020. Women's median earnings as a percentage of men's: 59 in 1980, 68 in 2000, 81 in 2020.",
+    "source": "Hypothetical data",
+    "text": "The earnings figures do not adjust for differences in jobs, hours worked, or experience."
    },
    "stem": "Which of the following conclusions is best supported by the chart?",
    "options": {
-    "A": "Women's share of paid work rose, but women still earned less than men in each year shown.",
-    "B": "The pay gap between women and men narrowed more from 1980 to 2000 than from 2000 to 2020.",
+    "A": "Women's share of paid workers rose, but their median earnings stayed below men's in every year shown.",
+    "B": "The earnings gap between women and men narrowed more from 1980 to 2000 than from 2000 to 2020.",
     "C": "By 2020, women made up a majority of the paid workers in Country M.",
-    "D": "Women's pay rose to equal men's once women held more than 40 percent of paid jobs.",
-    "E": "Men's pay fell from 1980 to 2020 as more women entered the paid workforce."
+    "D": "Women's median earnings equaled men's once women made up more than 40 percent of paid workers.",
+    "E": "Men's earnings fell from 1980 to 2020 as more women entered the paid workforce."
    },
    "answer": "A",
-   "explanation": "Women's share of paid workers went up: 34%, then 42%, then 47%. But women's pay never reached 100% of men's. It was 59%, then 68%, then 81%. That matches your AP course guide: more women are in the workforce, but they still do not have equal wages.",
+   "explanation": "Women's share of paid workers went up: 34%, then 42%, then 47%. Their median earnings also rose compared with men's: 59%, then 68%, then 81%. But they never reached 100%, so the overall earnings gap narrowed without closing. The chart compares all women and men who work, not women and men doing the same job.",
    "whyNot": {
-    "B": "From 1980 to 2000 the pay figure rose 9 points (59 to 68). From 2000 to 2020 it rose 13 points (68 to 81). It narrowed MORE in the later period.",
+    "B": "From 1980 to 2000 the earnings figure rose 9 points (59 to 68). From 2000 to 2020 it rose 13 points (68 to 81). The gap narrowed MORE in the later period.",
     "C": "In 2020 women were 47% of paid workers. That is close to half, but not a majority.",
-    "D": "In 2000 women held 42% of jobs, but their pay was only 68% of men's, not equal.",
-    "E": "The chart compares women's pay to men's. It does not show whether men's own pay went up or down."
+    "D": "In 2000 women were 42% of paid workers, but their median earnings were only 68% of men's.",
+    "E": "The chart compares women's earnings to men's. It does not show whether men's own earnings went up or down."
    },
    "vocab": [
     "gender wage gap",
-    "labor force participation"
+    "median earnings",
+    "women's share of employment"
    ]
   },
   {
@@ -631,9 +636,9 @@ How the stimulus types render (the JSON holds all of their data):
    "explanation": "Your AP course guide says that even though more women are in the workforce, they do not have equal wages or equal job opportunities. Around the world, women earn less than men on average and hold a smaller share of manager and leader jobs.",
    "whyNot": {
     "A": "In most countries women work in services in large numbers. Many service jobs are held by women.",
-    "C": "As fertility falls, women usually spend MORE time in paid work, not less.",
-    "D": "Microloan programs often focus ON women, and they do not require land as collateral.",
-    "E": "Quinary jobs are top decision-making jobs, which pay the MOST, and women hold fewer of them."
+    "C": "Lower fertility can make it easier to combine paid work with caring for children. It does not push women out of the workforce.",
+    "D": "Many microcredit programs focus ON women and use group guarantees instead of land as collateral.",
+    "E": "Quinary jobs are top decision-making jobs. They are not the lowest-paid jobs, and women hold fewer of them."
    },
    "vocab": [
     "gender equity",
@@ -682,10 +687,10 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Rostow argues that trade with rich countries keeps poor countries poor, while dependency theory calls for much more trade."
    },
    "answer": "C",
-   "explanation": "Rostow was hopeful: every country can climb the same five steps, like Britain and the United States did. Dependency theory says the steps are blocked. Poor countries were set up, often under colonialism, to sell cheap raw materials to rich countries and buy expensive goods back. That unequal relationship keeps them poor.",
+   "explanation": "Rostow describes development as five stages, based mostly on the history of early industrial countries such as Britain. He saw poverty as an early stage that countries can grow out of. Dependency theory focuses on how colonial history and unequal trade relationships with rich countries can hold lower-income countries back. These are two different explanations, not rules every country must follow.",
    "whyNot": {
     "A": "This switches the two. Dependency theory points to colonialism; Rostow says countries can follow one path.",
-    "B": "Core and periphery come from Wallerstein's world-system theory. The five stages are Rostow's.",
+    "B": "Rostow describes five stages of growth. Core and periphery ideas belong to dependency and world-system theories, not to Rostow's stages.",
     "D": "Neither theory is mainly about population growth or rural land use. Those are Malthus and von Thünen.",
     "E": "This switches them too. Rostow favors trade and investment; dependency theory warns that trade with the core can trap poor countries."
    },
@@ -706,8 +711,8 @@ How the stimulus types render (the JSON holds all of their data):
     "columns": [
      "Country",
      "Main exports",
-     "Manufactured goods as % of exports",
-     "GNI per capita, PPP (dollars)",
+     "Manufactured goods as % of merchandise exports",
+     "GNI per capita, PPP (international dollars)",
      "Headquarters of the world's 500 largest companies (number)"
     ],
     "rows": [
@@ -804,7 +809,7 @@ How the stimulus types render (the JSON holds all of their data):
    "id": "U7-P20",
    "topic": "7.6",
    "lo": "PSO-7.A",
-   "skill": "3.C",
+   "skill": "3.E",
    "difficulty": "hard",
    "stimulus": {
     "type": "table",
@@ -827,7 +832,8 @@ How the stimulus types render (the JSON holds all of their data):
      ]
     ],
     "description": "Table. In one day, a worker in Country A can make 80 meters of cloth or grow 40 bushels of wheat. A worker in Country B can make 60 meters of cloth or grow 10 bushels of wheat.",
-    "source": "Hypothetical data"
+    "source": "Hypothetical data",
+    "note": "Each row shows two different choices: one worker can spend the day making the cloth OR growing the wheat, not both. Assume these amounts stay the same and trade adds no extra costs."
    },
    "stem": "The table shows how much one worker can produce in a day in each of two countries. Based on the principle of comparative advantage, which of the following is the best prediction?",
    "options": {
@@ -838,12 +844,12 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Neither country gains from trade, because Country A is more productive in both goods."
    },
    "answer": "A",
-   "explanation": "Ask what each country gives up. In Country A, growing 1 bushel of wheat costs 2 meters of cloth (80 ÷ 40). In Country B, 1 bushel costs 6 meters of cloth (60 ÷ 10). Wheat is 'cheaper' for Country A, so A should grow wheat. Cloth is 'cheaper' for Country B (it gives up only 1/6 of a bushel per meter), so B should make cloth. Then they trade, and both end up with more.",
+   "explanation": "Ask what each country gives up. In Country A, growing 1 bushel of wheat costs 2 meters of cloth (80 ÷ 40). In Country B, 1 bushel costs 6 meters of cloth (60 ÷ 10). Wheat is 'cheaper' for Country A, so A should grow wheat. Cloth is 'cheaper' for Country B (it gives up only 1/6 of a bushel per meter, while A gives up 1/2), so B should make cloth. If they trade at a rate between 2 and 6 meters of cloth per bushel, both can gain.",
    "whyNot": {
-    "B": "Being better at both (absolute advantage) does not mean doing both. Each country gains by focusing on what it gives up the least to make.",
+    "B": "Absolute advantage compares output per worker. Comparative advantage compares what each country gives up, so Country A's higher output does not erase the gains from trade.",
     "C": "This is backward. Country A gives up less cloth per bushel, so wheat is A's comparative advantage.",
     "D": "Country B gives up 6 meters of cloth per bushel, but Country A gives up only 2. B gives up MORE, not less.",
-    "E": "Trade still helps both, because each country's costs of producing the two goods are different."
+    "E": "Both can gain at a fair trading rate, because their opportunity costs are different."
    },
    "vocab": [
     "comparative advantage",
@@ -866,11 +872,11 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "neoliberal economic policy"
    },
    "answer": "E",
-   "explanation": "Neoliberal policies give the government a smaller role in the economy and open the country up to trade. Three big signs: cut tariffs, sell government-owned companies, and join free-trade groups like the WTO. Your AP course guide says these policies tie countries together through trade.",
+   "explanation": "Neoliberal policies give the government a smaller role in the economy and lower barriers to trade. Cutting tariffs lowers trade barriers. Selling state-owned firms is called privatization. The WTO is an international organization whose members agree to follow shared trade rules. Your AP course guide links these policies to growing globalization.",
    "whyNot": {
     "A": "Import substitution uses high tariffs to protect local factories. Country X did the opposite.",
     "B": "Protectionism raises trade barriers. Country X lowered them.",
-    "C": "In central planning, the government owns and runs industry. Country X sold its companies.",
+    "C": "Central planning gives the government a big role in directing production. Selling state-owned firms to private investors moves the other way.",
     "D": "Commodity dependence is relying on a few raw-material exports, not a set of policy choices."
    },
    "vocab": [
@@ -884,7 +890,7 @@ How the stimulus types render (the JSON holds all of their data):
    "id": "U7-P22",
    "topic": "7.6",
    "lo": "PSO-7.A",
-   "skill": "5.A",
+   "skill": "1.D",
    "difficulty": "easy",
    "stem": "Which of the following is an example of a government initiative at the local or state scale that affects economic development?",
    "options": {
@@ -913,7 +919,7 @@ How the stimulus types render (the JSON holds all of their data):
    "topic": "7.6",
    "lo": "PSO-7.A",
    "skill": "2.C",
-   "difficulty": "hard",
+   "difficulty": "medium",
    "stem": "During a debt crisis in the 1980s, Country Y received loans from the International Monetary Fund on the condition that it cut government spending, sell state-owned firms, and open its markets to imports. Which of the following was a likely consequence?",
    "options": {
     "A": "Higher tariffs protected Country Y's own factories from foreign competitors that sold cheaper goods.",
@@ -982,19 +988,19 @@ How the stimulus types render (the JSON holds all of their data):
    },
    "stem": "A student concludes from the graph that factory jobs moved from Metro D to Province N. Which of the following is the most important limitation of the graph for supporting this conclusion?",
    "options": {
-    "A": "It shows numbers of jobs, which cannot be used to measure deindustrialization.",
-    "B": "Forty years is too short a period to show any economic restructuring.",
-    "C": "It puts places in two different countries on one graph, so their jobs cannot be compared.",
-    "D": "It shows that the two trends happened at the same time, but it cannot show that one caused the other.",
-    "E": "It does not show Province N's population, so its rise in factory jobs cannot be confirmed."
+    "A": "It does not show whether growth in services made up for manufacturing job losses in Metro D.",
+    "B": "It does not show how manufacturing wages changed in either place.",
+    "C": "It does not separate manufacturing workers by education or training.",
+    "D": "It does not identify which firms, if any, moved production from Metro D to Province N.",
+    "E": "It reports numbers of jobs rather than manufacturing's share of each workforce."
    },
    "answer": "D",
-   "explanation": "The graph shows jobs going down in one place and up in another at the same time. That does NOT prove the jobs moved. Metro D could have lost jobs to robots and automation, or to factories in a third country. Province N's new jobs could be from companies that were never in Metro D. To prove the move, you would need data on where specific companies relocated.",
+   "explanation": "The graph shows jobs going down in one place and up in another at the same time. That does NOT prove the jobs moved. Metro D could have lost jobs to automation or to factories in a third country, and Province N's new jobs could come from companies that were never in Metro D. To support the conclusion, you would need to know which firms actually moved production between the two places.",
    "whyNot": {
-    "A": "Falling numbers of factory jobs are one of the main ways deindustrialization is measured.",
-    "B": "Forty years is plenty of time to see restructuring. Many core cities lost most of their factory jobs in that span.",
-    "C": "Both lines use the same unit (thousands of jobs), so they can be compared.",
-    "E": "The graph counts jobs directly. You do not need population to see that the number of jobs grew."
+    "A": "Service growth would tell you about Metro D's wider economy, but not where its manufacturing jobs went.",
+    "B": "Wages might explain why firms would want to move, but they would not show that firms actually moved.",
+    "C": "Workers' training would not show whether firms moved production between these places.",
+    "E": "Shares would show how important manufacturing is in each place, not whether jobs moved between them."
    },
    "vocab": [
     "deindustrialization",
@@ -1021,7 +1027,7 @@ How the stimulus types render (the JSON holds all of their data):
    "whyNot": {
     "B": "Maquiladoras mostly assemble parts like electronics and auto parts. They do not depend on local ore or coal.",
     "C": "Mexico's most densely populated area is around Mexico City, not the northern border.",
-    "D": "Trade rules have mostly LOWERED tariffs on these goods. There is no extra tariff that protects border factories.",
+    "D": "A higher U.S. tariff would make Mexican goods MORE expensive for U.S. buyers. It would not explain why factories benefit from being near the border.",
     "E": "Tijuana and Ciudad Juárez are not major seaports; goods mostly cross the border by truck and rail."
    },
    "vocab": [
@@ -1233,11 +1239,11 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "Port locations let foreign firms import parts and ship finished goods to overseas markets cheaply."
    },
    "answer": "E",
-   "explanation": "SEZs are areas with special rules, like low taxes and low tariffs, to attract foreign companies that make goods for export. Those companies need to bring parts in and send products out by ship. Putting the zones at ports makes that cheap and fast. China placed its first SEZs, such as Shenzhen in 1980, on its southeast coast for the same reason.",
+   "explanation": "A special economic zone (SEZ) is an area where the government sets special business and trade rules, such as lower taxes or simpler customs, to attract investment. Many SEZ firms import parts and export goods, so ports and shipping routes are a big advantage. China's first SEZs, such as Shenzhen in 1980, were also on its coast.",
    "whyNot": {
-    "A": "The map shows ports and shipping routes, not mineral deposits, and SEZ factories mostly assemble imported parts.",
+    "A": "The map shows ports and shipping routes, but it does not show any mineral deposits.",
     "B": "SEZs are meant to BRING IN foreign companies and trade, not keep them out.",
-    "C": "Weber's theory is about being close to materials and markets, not the center of a country.",
+    "C": "Weber's theory looks at transport costs, labor costs, and the benefits of clustering. It does not say factories go to a country's geographic center.",
     "D": "Nothing suggests the interior is full. Interior locations would be farther from ships and world markets."
    },
    "vocab": [
@@ -1252,7 +1258,7 @@ How the stimulus types render (the JSON holds all of their data):
    "topic": "7.7",
    "lo": "PSO-7.A",
    "skill": "2.C",
-   "difficulty": "hard",
+   "difficulty": "medium",
    "stimulus": {
     "type": "schematicMap",
     "title": "SPECIAL ECONOMIC ZONES IN COUNTRY C (HYPOTHETICAL)",
@@ -1440,19 +1446,19 @@ How the stimulus types render (the JSON holds all of their data):
     "description": "Country C fills most of the map. Its interior provinces cover the western part of the country, and a narrower strip of coastal provinces runs along the ocean on the east. Three special economic zones (SEZs) sit at ports on the coast, each with a shipping route leading out to sea. There are no SEZs in the interior provinces.",
     "source": "Hypothetical map"
    },
-   "stem": "If the SEZs succeed in attracting foreign investment, which of the following is the most likely result over the next several decades?",
+   "stem": "If the SEZs attract a lot of new investment while investment in the interior stays limited, which result is most likely during the first years of growth?",
    "options": {
     "A": "Income gaps between coastal and interior provinces shrink as SEZ jobs spread evenly across Country C.",
-    "B": "Coastal provinces grow richer faster than interior ones, drawing migrants from the interior to the coast.",
+    "B": "Coastal jobs and incomes grow faster than interior ones, attracting some workers from the interior provinces.",
     "C": "Interior provinces industrialize first, because they are closer to Country C's center and its markets.",
     "D": "Many workers move from coastal cities to interior farms as SEZ factories push up coastal land prices.",
     "E": "Foreign firms leave soon after the SEZs open, because the zones raise tariffs on imported parts."
    },
    "answer": "B",
-   "explanation": "New factories bring jobs and higher wages to the coast first. People in poorer interior areas hear about the jobs and move to coastal cities. The coast pulls ahead, and the gap with the interior grows. This is uneven development, and it happened in China as millions of rural people moved to coastal factory cities.",
+   "explanation": "New investment on the coast makes jobs and incomes grow faster there than in the interior. Workers from inland provinces move to the coast for those jobs. The gap between regions often widens at first, although later investment and government policy can change the pattern. This happened in China as millions of rural people moved to coastal factory cities.",
    "whyNot": {
     "A": "Investment clusters near the zones, so the gap between regions usually grows at first instead of shrinking.",
-    "C": "The interior has no SEZs and is far from the ports, so it would likely industrialize later, not first.",
+    "C": "The new zones are on the coast, and nothing on the map suggests that industry will reach the interior first.",
     "D": "Jobs pull people TOWARD the coastal cities, not away from them.",
     "E": "SEZs usually LOWER tariffs and taxes to attract firms. They do not raise them."
    },
@@ -1466,7 +1472,7 @@ How the stimulus types render (the JSON holds all of their data):
    "id": "U7-P28",
    "topic": "7.7",
    "lo": "PSO-7.A",
-   "skill": "1.B",
+   "skill": "2.B",
    "difficulty": "medium",
    "stem": "An automaker requires its suppliers to deliver seats and dashboards a few hours before they are installed, rather than keeping large stockpiles of parts. Which of the following correctly identifies this practice and its likely effect on where suppliers locate?",
    "options": {
@@ -1480,7 +1486,7 @@ How the stimulus types render (the JSON holds all of their data):
    "explanation": "Just-in-time means parts arrive right when they are needed, so the plant does not pay to store piles of parts. But if a truck is late, the whole assembly line stops. So suppliers move close to the plant to make delivery quick and reliable. Just-in-time is part of post-Fordist, flexible production.",
    "whyNot": {
     "A": "It is just-in-time, but far-away suppliers make on-time delivery harder and riskier, not easier.",
-    "C": "Fordism is old-style mass production with large stockpiles, not deliveries timed to the hour.",
+    "C": "Fordism means making large numbers of identical goods on assembly lines. This scenario is about precisely timed deliveries that cut inventories.",
     "D": "Break-of-bulk is about changing transport modes, like ship to train. It does not describe timed deliveries.",
     "E": "Economies of scale means lower cost per unit from making more. It does not describe delivery timing."
    },
@@ -1494,9 +1500,9 @@ How the stimulus types render (the JSON holds all of their data):
    "id": "U7-P29",
    "topic": "7.7",
    "lo": "PSO-7.A",
-   "skill": "2.C",
+   "skill": "1.D",
    "difficulty": "easy",
-   "stem": "A company opens a large aircraft parts factory in a small city. Over the next few years, new restaurants, stores, and housing developments open as factory workers spend their wages. This best illustrates",
+   "stem": "A company opens a large aircraft parts factory in a small city and sells its parts to customers outside the city. Over the next few years, new restaurants, stores, and housing developments open as factory workers spend their wages. This best illustrates",
    "options": {
     "A": "economies of scale",
     "B": "deindustrialization",
@@ -1505,12 +1511,12 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "outsourcing of production"
    },
    "answer": "C",
-   "explanation": "The multiplier effect is a chain reaction. Factory workers get paid. They spend money at restaurants and stores and buy homes. Those businesses hire more people. So one new factory creates many more jobs than just the ones inside the factory.",
+   "explanation": "The multiplier effect is a chain reaction. The factory brings money into the city by selling to outside customers. Workers spend their wages at local restaurants and stores and buy homes. Those businesses hire more people. So the factory supports many more jobs than just the ones inside it.",
    "whyNot": {
     "A": "Economies of scale is about lower cost per unit when a firm makes more. It does not explain new restaurants and stores.",
     "B": "Deindustrialization is the LOSS of factory jobs. Here a factory opened.",
     "D": "Just-in-time is a way of timing parts deliveries, not a cause of new local businesses.",
-    "E": "Outsourcing sends work to another company or country. Here the work came to the city."
+    "E": "Outsourcing means hiring an outside company to do work. This scenario is about new local spending and jobs, not about hiring another company."
    },
    "vocab": [
     "multiplier effect",
@@ -1523,7 +1529,7 @@ How the stimulus types render (the JSON holds all of their data):
    "lo": "IMP-7.A",
    "skill": "2.C",
    "difficulty": "medium",
-   "stem": "A rainforest region that was being cleared for cattle ranches begins hosting visitors on guided wildlife tours, with lodges run by local families. Which of the following is the most likely benefit of this change?",
+   "stem": "A rainforest region that was being cleared for cattle ranches begins hosting visitors on guided wildlife tours, with lodges run by local families. Which outcome would best show both an environmental benefit and an economic benefit of this change?",
    "options": {
     "A": "Local families earn income from keeping the forest standing, which gives them a reason to protect it.",
     "B": "The region's main economic activity shifts from the tertiary sector to the primary sector.",
@@ -1532,11 +1538,11 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "The region becomes a break-of-bulk point where tourists transfer between ships and planes."
    },
    "answer": "A",
-   "explanation": "This is ecotourism: tourism based on nature. When local people earn money from tours and lodges, a standing forest is worth more to them than a cleared one. That gives them a reason to protect it. Your AP course guide says ecotourism often protects threatened environments while giving local people jobs.",
+   "explanation": "This is ecotourism: tourism based on nature that also protects the environment and helps local people. When local families earn money from tours and lodges, a standing forest is worth more to them than a cleared one. That gives them a reason to protect it. Ecotourism still needs careful management so visitors do not harm the forest.",
    "whyNot": {
     "B": "Ranching is a primary activity and tourism is a tertiary (service) activity, so the shift goes the other way.",
-    "C": "Clearing the forest would destroy what the tourists come to see.",
-    "D": "Ecotourism replaces forest clearing for ranches. It does not expand ranching.",
+    "C": "Clearing more forest would shrink wildlife habitat, so it would not be an environmental benefit.",
+    "D": "More ranching might add income, but clearing forest for cattle would harm the environment, not protect it.",
     "E": "Break-of-bulk is about transferring cargo between kinds of transport, not about tourism."
    },
    "vocab": [
@@ -1618,7 +1624,7 @@ How the stimulus types render (the JSON holds all of their data):
     "description": "Line graph from 2000 to 2025. Coal's share of Country K's electricity falls from 62 percent to 60, 55, 46, 38, and 30 percent. The share from solar and wind rises from 1 percent to 2, 6, 14, 24, and 33 percent.",
     "source": "Hypothetical data"
    },
-   "stem": "A student claims that the graph proves Country K burned less coal to make electricity in 2025 than in 2000. Which additional information would be most useful for testing this claim?",
+   "stem": "A student claims that the graph proves Country K generated less electricity from coal in 2025 than in 2000. Which additional information would be most useful for testing this claim?",
    "options": {
     "A": "The share of electricity Country K generated from hydropower",
     "B": "The share of Country K's workers employed in the service sector",
@@ -1627,17 +1633,183 @@ How the stimulus types render (the JSON holds all of their data):
     "E": "The total amount of electricity Country K generated in each year"
    },
    "answer": "E",
-   "explanation": "The graph shows SHARES (percents), not amounts. If Country K made much more electricity in 2025, then 30% of a big total could be more coal than 62% of a small total. For example, if total electricity grew 2.5 times, coal use would be 0.30 × 2.5 = 0.75 of the 2000 total, which is MORE than 0.62. You need the totals to know.",
+   "explanation": "The graph shows percentages, not total amounts. Suppose Country K made 100 units of electricity in 2000 and 250 units in 2025. Coal would supply 62 units in 2000 but 75 units in 2025, because 0.30 × 250 = 75. Coal's share can fall while the electricity made from coal goes up. You need the total amount of electricity to find out.",
    "whyNot": {
-    "A": "Another share still would not tell you the total amount of electricity, so you still could not find the amount of coal.",
-    "B": "Service jobs do not tell you how much coal was burned.",
-    "C": "Solar panel imports do not show the amount of coal used.",
-    "D": "HDI measures health, education, and income, not coal use."
+    "A": "Hydropower's share still does not give the total amount of electricity, which you need for this calculation.",
+    "B": "Service jobs do not show how much electricity was generated.",
+    "C": "Solar panel imports do not show how much electricity was generated from coal.",
+    "D": "HDI measures health, education, and income. It does not measure electricity generation."
    },
    "vocab": [
     "renewable energy",
     "fossil fuels",
     "sustainable development"
+   ]
+  },
+  {
+   "id": "U7-P33",
+   "topic": "7.6",
+   "lo": "PSO-7.A",
+   "skill": "1.D",
+   "difficulty": "easy",
+   "stem": "Country J has large forests but few paper mills. Country K has many paper mills but has already cut most of its own forests. Country J ships logs to Country K. Which concept best explains why trade happens between these two places?",
+   "options": {
+    "A": "Deindustrialization",
+    "B": "Economies of scale",
+    "C": "Import substitution",
+    "D": "Complementarity",
+    "E": "A break-of-bulk point"
+   },
+   "answer": "D",
+   "explanation": "Complementarity means one place has a supply of something that another place needs. Country J has extra logs, and Country K needs logs for its mills, so trade makes sense. Your AP course guide names complementarity and comparative advantage as the two bases for trade.",
+   "whyNot": {
+    "A": "Deindustrialization is the loss of factory jobs. Nothing here says jobs are disappearing.",
+    "B": "Economies of scale means making more units lowers the cost of each one. It does not explain why these two places trade.",
+    "C": "Import substitution means making goods at home instead of importing them. Country K is importing logs, not replacing imports.",
+    "E": "A break-of-bulk point is where cargo switches transport modes. It does not explain why the trade exists."
+   },
+   "vocab": [
+    "complementarity",
+    "comparative advantage"
+   ]
+  },
+  {
+   "id": "U7-P34",
+   "topic": "7.7",
+   "lo": "PSO-7.A",
+   "skill": "1.D",
+   "difficulty": "medium",
+   "stem": "A carmaker closes three small assembly plants and builds one very large plant that makes as many cars as the three plants did together, at a lower cost per car. Which concept best explains the lower cost per car?",
+   "options": {
+    "A": "Economies of scale",
+    "B": "The multiplier effect",
+    "C": "Deindustrialization",
+    "D": "Just-in-time delivery",
+    "E": "Outsourcing of production"
+   },
+   "answer": "A",
+   "explanation": "Economies of scale means the cost of making each unit drops as a company makes more units in one place. One big plant can spread the cost of its buildings, machines, and managers over many more cars, so each car costs less to make.",
+   "whyNot": {
+    "B": "The multiplier effect is about new jobs spreading to other local businesses, not the cost of each car.",
+    "C": "Deindustrialization is a decline in manufacturing. The company is still making the same number of cars.",
+    "D": "Just-in-time delivery is about timing parts deliveries. The stem is about making more cars in one bigger plant.",
+    "E": "Outsourcing means hiring another company to do the work. Here the carmaker builds its own bigger plant."
+   },
+   "vocab": [
+    "economies of scale",
+    "post-Fordism"
+   ]
+  },
+  {
+   "id": "U7-P35",
+   "topic": "7.7",
+   "lo": "PSO-7.A",
+   "skill": "1.B",
+   "difficulty": "medium",
+   "stem": "A government picks one small inland city and invests heavily there, building a new airport and a technology park and offering tax breaks to high-tech firms. Its goal is for growth in that city to spread to the surrounding region. This strategy is best described as creating",
+   "options": {
+    "A": "a break-of-bulk point",
+    "B": "a commodity-dependent economy",
+    "C": "a maquiladora district",
+    "D": "a deindustrialized region",
+    "E": "a growth pole"
+   },
+   "answer": "E",
+   "explanation": "A growth pole is a place where a government or company concentrates investment so that growth will spread outward to nearby areas. New firms bring jobs, those jobs bring suppliers and services, and the surrounding region benefits too.",
+   "whyNot": {
+    "A": "A break-of-bulk point is where cargo switches transport modes, such as ship to train. An inland technology park is not that.",
+    "B": "A commodity-dependent economy relies on exporting a few raw materials. This plan targets high-tech firms.",
+    "C": "Maquiladoras are assembly plants in Mexico near the U.S. border, not inland technology parks.",
+    "D": "Deindustrialization is a loss of industry. This plan is trying to add new industry and jobs."
+   },
+   "vocab": [
+    "growth pole",
+    "multiplier effect",
+    "high-technology industry"
+   ]
+  },
+  {
+   "id": "U7-P36",
+   "topic": "7.3",
+   "lo": "SPS-7.C",
+   "skill": "1.A",
+   "difficulty": "easy",
+   "stem": "Which of the following sets of data would best show differences in social development, rather than economic output, among countries?",
+   "options": {
+    "A": "GDP per capita, GNI per capita, and GNP per capita",
+    "B": "Infant mortality rates, literacy rates, and access to health care",
+    "C": "Number of factories, kilometers of railroad, and coal output",
+    "D": "Share of workers in industry, manufactured exports, and tariffs",
+    "E": "Foreign direct investment, national debt, and currency exchange rates"
+   },
+   "answer": "B",
+   "explanation": "Social measures show how well people live: whether babies survive, whether people can read, and whether they can see a doctor. Your AP course guide lists infant mortality, literacy, and access to health care as measures of development, alongside economic measures like GDP and GNI.",
+   "whyNot": {
+    "A": "GDP, GNI, and GNP all measure economic output or income, not social development.",
+    "C": "Factories, railroads, and coal output measure industry, not people's health or education.",
+    "D": "Industrial jobs, exports, and tariffs describe the economy and trade, not social well-being.",
+    "E": "Investment, debt, and exchange rates are financial measures, not social ones."
+   },
+   "vocab": [
+    "infant mortality rate",
+    "literacy rate",
+    "social development"
+   ]
+  },
+  {
+   "id": "U7-P37",
+   "topic": "7.8",
+   "lo": "IMP-7.A",
+   "skill": "2.C",
+   "difficulty": "medium",
+   "stem": "A fast-growing city has heavy traffic, poor air quality, and many residents who cannot afford cars. Which project best fits the goals of sustainable development?",
+   "options": {
+    "A": "Widening the main highways so that more private cars can reach downtown each day",
+    "B": "Building a new coal-fired power plant to keep electricity cheap for local factories",
+    "C": "Opening a low-fare electric bus line that links poorer neighborhoods to job centers",
+    "D": "Moving the city's most polluting factories to a poorer district at the city's edge",
+    "E": "Replacing a downtown park with parking garages so drivers spend less time circling"
+   },
+   "answer": "C",
+   "explanation": "Sustainable development meets people's needs today without harming the future. A low-fare electric bus line cuts car traffic and air pollution, and it helps people without cars reach jobs. Your AP course guide names public transportation projects as one way the UN Sustainable Development Goals measure progress.",
+   "whyNot": {
+    "A": "More highway lanes usually invite more car traffic and pollution, and they do not help people who cannot afford cars.",
+    "B": "Burning more coal adds air pollution and greenhouse gases.",
+    "D": "Moving polluting factories shifts the harm onto poorer residents instead of reducing it.",
+    "E": "Losing a park and adding parking encourages more driving and removes green space."
+   },
+   "vocab": [
+    "sustainable development",
+    "public transportation",
+    "Sustainable Development Goals (SDGs)"
+   ]
+  },
+  {
+   "id": "U7-P38",
+   "topic": "7.6",
+   "lo": "PSO-7.A",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "In 2008, a financial crisis that began with failing home loans in the United States spread around the world. Within months, many export factories in China cut jobs. Which of the following best explains how the crisis reached factory workers in China?",
+   "options": {
+    "A": "Spending fell in the United States and Europe, so orders for exported goods dropped.",
+    "B": "Chinese banks had made most of the home loans in the United States.",
+    "C": "The World Trade Organization ordered China to close its export factories.",
+    "D": "China raised tariffs on imported parts, so its export factories could no longer get supplies.",
+    "E": "The crisis pushed Chinese wages up sharply, so factories could no longer afford their workers."
+   },
+   "answer": "A",
+   "explanation": "When the crisis hit, people and businesses in the United States and Europe cut back on spending. They bought fewer phones, clothes, and toys, many of which were made in China. With fewer orders, Chinese export factories cut jobs. A problem that started in one country's housing market reached workers on the other side of the world because their economies were connected by trade.",
+   "whyNot": {
+    "B": "U.S. home loans were made mostly by U.S. banks and lenders, not Chinese banks.",
+    "C": "The WTO sets trade rules. It does not order countries to close factories.",
+    "D": "The crisis did not spread through new Chinese tariffs. Factories cut jobs because orders from abroad fell.",
+    "E": "Wages did not jump because of the crisis. Factories cut jobs because they had fewer orders to fill."
+   },
+   "vocab": [
+    "global financial crisis",
+    "interdependence",
+    "globalization"
    ]
   }
  ],
@@ -1709,17 +1881,17 @@ How the stimulus types render (the JSON holds all of their data):
     "options": {
      "A": "Industrial countries sought raw materials and new markets, which encouraged colonialism and imperialism.",
      "B": "Factories moved from Britain to India to take advantage of lower wages, an early form of outsourcing.",
-     "C": "Britain and India signed a free-trade agreement through the World Trade Organization.",
+     "C": "The trade pattern resulted from similar wages and industrial technology in Britain and its colonies.",
      "D": "India adopted import substitution to protect its own textile mills from British competition.",
      "E": "Britain deindustrialized as its textile mills closed and production shifted to Egypt."
     },
     "answer": "A",
     "rationales": {
      "A": "Correct. The AP course framework notes that investors in industry sought more raw materials and new markets, which contributed to the rise of colonialism and imperialism. Colonies and dependent territories supplied cotton and bought finished cloth.",
-     "B": "Incorrect. The mills stayed in Britain. India supplied raw cotton and bought British cloth; outsourcing of factory work to lower-wage countries is a much later pattern.",
-     "C": "Incorrect. The World Trade Organization was created in 1995, long after this period, and India was then under British rule rather than a partner in a trade agreement.",
+     "B": "Incorrect. The scenario describes cotton processed in British mills, not the relocation of those mills to India.",
+     "C": "Incorrect. The example reflects different roles in production and unequal colonial relationships, not similar wages and technology across the trading regions.",
      "D": "Incorrect. Under British rule, India's hand-weaving industry declined in competition with British machine-made cloth. India's import substitution policies came after independence in 1947.",
-     "E": "Incorrect. British textile production grew during the 1800s; cotton from Egypt was shipped to British mills, not processed there instead."
+     "E": "Incorrect. The scenario describes British mills using imported cotton, not British factories closing and moving to Egypt."
     },
     "explanation": "British factories needed cheap cotton, and they needed people to buy their cloth. Colonies like India did both jobs: they grew cotton and bought the finished cloth. That need for raw materials and markets helped push European countries to take colonies."
    },
@@ -1730,7 +1902,7 @@ How the stimulus types render (the JSON holds all of their data):
     "setLabel": "Questions 4–6 refer to the map below.",
     "topic": "7.2",
     "lo": "SPS-7.B",
-    "skill": "2.C",
+    "skill": "4.E",
     "difficulty": "medium",
     "stimulus": {
      "type": "schematicMap",
@@ -2027,10 +2199,10 @@ How the stimulus types render (the JSON holds all of their data):
       }
      ],
      "description": "Region R borders the sea on the east. An ore mine is in the northwest. A rail junction is near the center. The market city, the region's largest concentration of consumers, is in the south-center. A port is on the east coast, with a shipping route leading out to sea. A small town is in the southwest. Railroads connect the ore mine to the rail junction, the rail junction to the port and to the market city, the market city to the port, and the small town to the market city.",
-     "note": "Assume the cost of shipping one ton one kilometer by rail is the same for every product.",
+     "note": "Assume that labor, energy, land, and other nontransport costs are the same at all five places, and that shipping one ton one kilometer by rail costs the same for every product. The map is schematic and not drawn to scale.",
      "source": "Hypothetical map"
     },
-    "stem": "A company plans to refine ore from the mine into metal, which it will sell in the market city. Refining about 20 tons of ore yields 1 ton of metal. According to Weber's least cost theory, where should the refinery be built?",
+    "stem": "A company plans to refine ore from the mine into metal, which it will sell in the market city. Refining about 20 tons of ore yields 1 ton of metal. According to Weber's least cost theory, where should the refinery be built to keep total transport costs as low as possible?",
     "options": {
      "A": "At the ore mine",
      "B": "At the rail junction",
@@ -2042,7 +2214,7 @@ How the stimulus types render (the JSON holds all of their data):
     "rationales": {
      "A": "Correct. In a weight-losing (bulk-reducing) industry, the raw material weighs much more than the finished product. Weber's least cost theory predicts the plant will locate at the raw material source so that only the light finished product is shipped. Moving 1 ton of metal costs far less than moving 20 tons of ore.",
      "B": "Incorrect. A site between the mine and the market would still require hauling heavy ore part of the way, which costs more than refining at the mine.",
-     "C": "Incorrect. The ore comes from inside Region R by rail, so there is no ship-to-rail transfer to justify a port location; the port is also not on the way from the mine to the market city.",
+     "C": "Incorrect. Building at the port would mean hauling the heavy ore away from the mine before refining removes most of its weight, and nothing in the question requires a ship-to-rail transfer.",
      "D": "Incorrect. A market location suits weight-gaining industries. Here, building in the city would mean shipping 20 tons of ore for every ton of metal sold.",
      "E": "Incorrect. The small town is neither the source of the ore nor the market, so both the ore and the metal would have to travel farther."
     },
@@ -2054,9 +2226,9 @@ How the stimulus types render (the JSON holds all of their data):
     "set": "weber",
     "topic": "7.2",
     "lo": "SPS-7.B",
-    "skill": "2.C",
+    "skill": "4.E",
     "difficulty": "medium",
-    "stem": "A soft-drink company brings in lightweight syrup from outside Region R and mixes it with water, which is available everywhere in the region. Most of its drinks are sold in the market city. According to Weber's least cost theory, where should the bottling plant be built?",
+    "stem": "A soft-drink company receives lightweight syrup by ship at the port and mixes it with water, which is available at all five places. All of its drinks are sold in the market city. According to Weber's least cost theory, where should the bottling plant be built?",
     "options": {
      "A": "At the ore mine",
      "B": "At the rail junction",
@@ -2068,9 +2240,9 @@ How the stimulus types render (the JSON holds all of their data):
     "rationales": {
      "A": "Incorrect. The ore mine supplies none of the bottler's inputs, so locating there would add transport costs for both the syrup and the heavy finished drinks.",
      "B": "Incorrect. The rail junction is not the market, so the heavy bottled drinks would still have to be shipped to the market city.",
-     "C": "Incorrect. The port is not the main market, so bottling there would mean shipping the heavy finished drinks to the city by rail; only the light syrup should travel.",
+     "C": "Incorrect. The syrup arrives at the port, but bottling there would mean shipping the heavy finished drinks to the market city by rail. It costs less to ship the light syrup and add the water near the customers.",
      "D": "Correct. Bottling is weight-gaining (bulk-gaining): adding water, which is available everywhere, makes the product much heavier than the syrup. Weber's least cost theory predicts that weight-gaining industries locate near the market so the heavy finished product travels the shortest distance.",
-     "E": "Incorrect. The small town is a smaller market than the city, so most of the heavy drinks would still have to be shipped to the market city."
+     "E": "Incorrect. The drinks are sold in the market city, so a plant in the small town would have to ship the heavy drinks back to the city."
     },
     "explanation": "Adding water makes the drinks much heavier than the syrup. Water is everywhere, so there is no reason to add it far away and then haul heavy bottles to customers. Weight-gaining industries locate near their market."
    },
@@ -2080,25 +2252,25 @@ How the stimulus types render (the JSON holds all of their data):
     "set": "weber",
     "topic": "7.2",
     "lo": "SPS-7.B",
-    "skill": "1.D",
+    "skill": "4.E",
     "difficulty": "hard",
-    "stem": "A flour mill uses wheat that arrives at the port by ship, and it sells most of its flour in the market city. Which of the following best explains why the port could be a low-cost location for the mill?",
+    "stem": "A flour mill will use wheat that arrives at the port by ship, and it will sell its flour in the market city. Which of the following best explains why the port could be a low-cost location for the mill?",
     "options": {
      "A": "The port is the region's largest market, so flour milled there would need no further shipping.",
      "B": "Flour milling is a weight-gaining process, so the mill should be placed as far from its market as possible.",
-     "C": "The port is a break-of-bulk point where the wheat must be unloaded anyway, avoiding an extra transfer.",
-     "D": "The port is closer to the market city than any other place shown on the map is.",
-     "E": "Wages at the port are the lowest in the region because few people live near the coast."
+     "C": "The port is a break-of-bulk point where ship cargo moves onto trains, so the mill can use existing freight facilities.",
+     "D": "The port has a direct rail line to the small town, so the mill could easily serve a second market there.",
+     "E": "The port has a direct rail line to the ore mine, so the mill could share freight trains with the ore refinery."
     },
     "answer": "C",
     "rationales": {
      "A": "Incorrect. The map identifies the market city, not the port, as the region's largest concentration of consumers.",
      "B": "Incorrect. Weight-gaining industries locate near their markets, not far from them; and milling wheat into flour does not make the product heavier.",
-     "C": "Correct. A break-of-bulk point is a place where cargo is transferred from one mode of transportation to another, such as from ship to rail. The AP course framework lists the break-of-bulk point as a factor in manufacturing location. Because the wheat must be unloaded at the port anyway, processing it there avoids the cost of an extra transfer.",
-     "D": "Incorrect. On the map, the rail junction is clearly closer to the market city than the port is, so being near the market is not what makes the port a low-cost site.",
-     "E": "Incorrect. The map gives no information about wages, and nothing suggests that few people live near the port."
+     "C": "Correct. A break-of-bulk point is a place where cargo is transferred from one mode of transportation to another, such as from ship to rail. The AP course framework lists the break-of-bulk point as a factor in manufacturing location. A mill at the port can receive imported wheat straight from the ships and use the port's existing equipment and rail line to send flour to the market city.",
+     "D": "Incorrect. On the map, the small town's one rail line runs to the market city; the port's rail lines run to the rail junction and the market city.",
+     "E": "Incorrect. On the map, the port's rail lines run to the rail junction and the market city, not to the ore mine."
     },
-    "explanation": "The wheat has to come off the ship at the port no matter what. If the mill is right there, the wheat goes straight from the ship into the mill, with no extra loading and unloading. A place where goods switch from one kind of transport to another is called a break-of-bulk point."
+    "explanation": "The port is where the imported wheat comes off the ships. A mill there can take the wheat straight from the docks and use the port's cranes, storage, and rail line to send flour to the city. A place where cargo switches from one kind of transport to another is called a break-of-bulk point."
    },
    {
     "id": "U7-E07",
@@ -2117,11 +2289,11 @@ How the stimulus types render (the JSON holds all of their data):
     },
     "answer": "E",
     "rationales": {
-     "A": "Incorrect. GNI per capita is one of the three dimensions of the HDI, so higher income does raise the HDI.",
+     "A": "Incorrect. Income is one of the HDI's three dimensions, so oil income does count toward the HDI.",
      "B": "Incorrect. Gender inequality is measured by the Gender Inequality Index (GII), not the HDI.",
      "C": "Incorrect. The fertility rate is not one of the HDI's components.",
      "D": "Incorrect. The income part of the HDI is GNI per capita, which includes income from all sectors, including mining and oil.",
-     "E": "Correct. The HDI is a composite of three dimensions: health (life expectancy at birth), education (years of schooling), and income (GNI per capita). If a country's health and education results lag behind those of other countries with similar incomes, its HDI rank will be lower than its GNI per capita rank."
+     "E": "Correct. The HDI combines life expectancy at birth, expected and mean years of schooling, and GNI per capita. Strong income results can exist alongside weaker health and education results, which pulls a country's HDI rank below its GNI per capita rank."
     },
     "explanation": "The HDI has three parts: a long and healthy life, education, and income. Country Q scores high on income, but if people do not live as long or go to school as long as in other rich countries, its HDI rank drops."
    },
@@ -2130,7 +2302,7 @@ How the stimulus types render (the JSON holds all of their data):
     "n": 8,
     "topic": "7.3",
     "lo": "SPS-7.C",
-    "skill": "1.A",
+    "skill": "1.B",
     "difficulty": "medium",
     "stem": "Why do geographers often use GNI per capita measured in purchasing power parity (PPP) when comparing countries?",
     "options": {
@@ -2144,7 +2316,7 @@ How the stimulus types render (the JSON holds all of their data):
     "rationales": {
      "A": "Incorrect. Converting at market exchange rates is the method PPP is designed to improve on, because exchange rates do not reflect local prices.",
      "B": "Correct. Purchasing power parity adjusts income for differences in price levels, so a PPP dollar buys roughly the same amount of goods and services in every country. This makes comparisons of living standards more meaningful.",
-     "C": "Incorrect. PPP adjusts for prices; it does not add unpaid work, which is generally left out of GNI.",
+     "C": "Incorrect. PPP adjusts for price differences; it does not add unpaid caregiving and other household work done for one's own family.",
      "D": "Incorrect. GNI per capita divides by total population. PPP is an adjustment for prices, not for the number of workers.",
      "E": "Incorrect. PPP does not account for income distribution; GNI per capita remains an average."
     },
@@ -2157,7 +2329,7 @@ How the stimulus types render (the JSON holds all of their data):
     "setLabel": "Questions 9–11 refer to the table below.",
     "topic": "7.2",
     "lo": "SPS-7.B",
-    "skill": "3.C",
+    "skill": "3.D",
     "difficulty": "medium",
     "stimulus": {
      "type": "table",
@@ -2222,11 +2394,11 @@ How the stimulus types render (the JSON holds all of their data):
     "rationales": {
      "A": "Incorrect. Industry's share does not rise steadily: Vietnam (33.5 percent) has a larger industrial share than Mexico (25.0 percent) or Germany (26.4 percent), which have higher GNI per capita.",
      "B": "Incorrect. Germany has the highest GNI per capita, but services, not industry, employ the largest share of its workers (72.4 percent).",
-     "C": "Correct. Ranked from lowest to highest GNI per capita (Ethiopia, India, Vietnam, Mexico, Germany), the share of workers in agriculture falls each time: 62.2, 43.5, 27.0, 12.0, and 1.2 percent. This fits the pattern in which the primary sector shrinks as economies develop.",
-     "D": "Incorrect. Most German workers (72.4 percent) are in services, and Vietnam has a larger industrial share with a much lower GNI per capita, so the table does not support this claim.",
+     "C": "Correct. Among the five countries shown, higher GNI per capita goes with a smaller share of employment in agriculture. Ordered by GNI per capita (Ethiopia, India, Vietnam, Mexico, Germany), the agricultural shares are 62.2, 43.5, 27.0, 12.0, and 1.2 percent. This describes a relationship in the table; it does not by itself establish a cause.",
+     "D": "Incorrect. The table gives employment shares, not each sector's contribution to national income. Most German workers (72.4 percent) are in services, and Vietnam has a larger industrial share (33.5 percent) with a much lower GNI per capita, so the table cannot support this claim.",
      "E": "Incorrect. Their service shares are nearly equal (31.5 percent), but their GNI per capita is not similar: India's (9,710 dollars) is more than three times Ethiopia's (3,060 dollars)."
     },
-    "explanation": "Line the countries up from lowest income to highest: Ethiopia, India, Vietnam, Mexico, Germany. The farm share drops every step: 62.2, 43.5, 27.0, 12.0, 1.2. Richer countries have far fewer farm workers."
+    "explanation": "Line the countries up from lowest income to highest: Ethiopia, India, Vietnam, Mexico, Germany. The percentage of workers in farming drops every step: 62.2, 43.5, 27.0, 12.0, 1.2. These are shares of all workers, not the number of farm workers."
    },
    {
     "id": "U7-E10",
@@ -2236,7 +2408,7 @@ How the stimulus types render (the JSON holds all of their data):
     "lo": "SPS-7.C",
     "skill": "3.F",
     "difficulty": "medium",
-    "stem": "Which of the following is a limitation of using GNI per capita in the table to compare standards of living in these countries?",
+    "stem": "A student uses the table to conclude that almost every person in Germany has a higher income than almost every person in Mexico. Which of the following is a limitation of the data that makes this conclusion unsupported?",
     "options": {
      "A": "GNI per capita measures government income, so it leaves out what households earn.",
      "B": "GNI per capita leaves out income from farming, so it understates income in Ethiopia and India.",
@@ -2249,10 +2421,10 @@ How the stimulus types render (the JSON holds all of their data):
      "A": "Incorrect. GNI counts the income of the whole economy, including households and businesses, not just the government.",
      "B": "Incorrect. GNI includes income from all sectors: agriculture, industry, and services.",
      "C": "Incorrect. GNI per capita divides national income by total population, not by the number of workers.",
-     "D": "Incorrect. Counting output inside a country's borders describes GDP. GNI adds income that residents earn abroad.",
+     "D": "Incorrect. Measuring output inside a country's borders describes GDP. GNI equals GDP plus income residents receive from abroad minus income paid to nonresidents.",
      "E": "Correct. GNI per capita divides total national income by total population. The AP course framework lists income distribution as a separate measure of development because an average can hide large gaps between rich and poor within a country."
     },
-    "explanation": "GNI per capita pretends everyone gets an equal slice of the country's income. In real life, some people have much more than others. The average does not show that."
+    "explanation": "GNI per capita divides a country's income by its population. It is an average, not the amount each person receives. Two countries with very different averages can still overlap: some people in the lower-average country can earn more than many people in the higher-average one."
    },
    {
     "id": "U7-E11",
@@ -2262,7 +2434,7 @@ How the stimulus types render (the JSON holds all of their data):
     "lo": "PSO-7.A",
     "skill": "2.B",
     "difficulty": "hard",
-    "stem": "Vietnam has a larger share of its workers in industry than any other country in the table, including Germany. Which of the following best explains this?",
+    "stem": "Vietnam has a larger share of its workers in industry than any other country in the table. Which of the following most likely contributed to this?",
     "options": {
      "A": "Foreign firms have built factories in Vietnam's industrial and export-processing zones to use lower-cost labor.",
      "B": "Vietnam's industry consists mainly of quaternary research jobs that pay higher wages than Germany's.",
@@ -2272,13 +2444,13 @@ How the stimulus types render (the JSON holds all of their data):
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. The AP course framework notes that outsourcing has increased jobs in newly industrialized countries and that new manufacturing zones, including export-processing zones, have created an international division of labor. Since the late 1980s, Vietnam has opened its economy and attracted foreign-owned factories, such as electronics and clothing plants, drawn by its lower labor costs.",
+     "A": "Correct. The AP course framework notes that outsourcing has increased jobs in newly industrialized countries and that new manufacturing zones, including export-processing zones, have created an international division of labor. Since the late 1980s, foreign investment in export factories, such as electronics and clothing plants drawn by Vietnam's lower labor costs, has created many industrial jobs. This is a likely contributor; the table itself combines manufacturing with other industry and does not isolate the effect of foreign investment.",
      "B": "Incorrect. Quaternary research jobs are services, not industry, and wages in Vietnam are much lower than in Germany.",
-     "C": "Incorrect. How many workers each factory employs does not set the share of all jobs that are in industry. Germany's smaller share reflects its large service sector and highly automated factories.",
+     "C": "Incorrect. Employment per factory does not by itself set industry's share of all jobs. That share also depends on the number of factories and on employment in other industries and sectors.",
      "D": "Incorrect. Vietnam moved away from a closed, state-run economy beginning in 1986 and has welcomed foreign trade and investment.",
      "E": "Incorrect. Only 1.2 percent of German workers are in agriculture, so workers have not shifted into farming."
     },
-    "explanation": "Companies from other countries build factories in Vietnam. Wages there are lower than in places like Germany. Vietnam also set up special zones to welcome these companies. The factories hire millions of Vietnamese workers, so a big share of jobs is in industry."
+    "explanation": "Foreign companies have built factories in Vietnam to make goods for export, partly because wages are lower than in places like Germany. Vietnam also set up special zones to welcome them. Those jobs help explain why a big share of Vietnam's workers are in industry. The table alone cannot show how much of that share comes from foreign-owned factories."
    },
    {
     "id": "U7-E12",
@@ -2289,19 +2461,19 @@ How the stimulus types render (the JSON holds all of their data):
     "difficulty": "medium",
     "stem": "A lending group offers small loans without collateral to women in rural villages, who use the money to start businesses such as tailoring shops and food stalls. Which of the following best explains how programs like this can improve standards of living?",
     "options": {
-     "A": "The loans pay for large irrigation projects that raise crop yields for the whole village.",
+     "A": "The loans are gifts that do not have to be repaid, so families gain money without needing to run a business.",
      "B": "The loans come from the International Monetary Fund, which also requires new schools and clinics.",
      "C": "The new businesses draw large foreign-owned factories, which often hire village workers at high wages.",
      "D": "Women earn income that they control, which is often spent on food, health care, and schooling.",
-     "E": "The loans lower tariffs on imported goods, so village families pay less for food and clothing."
+     "E": "The loans require borrowers to move to cities, where they can find factory jobs that pay higher wages."
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. Microloans are very small and go to individual borrowers for small businesses, not to large projects such as irrigation systems.",
+     "A": "Incorrect. Microloans are loans that borrowers repay, usually with interest; the benefit comes from the income the businesses earn.",
      "B": "Incorrect. Microloans come from local lending groups and banks. The International Monetary Fund lends to national governments.",
      "C": "Incorrect. Small local businesses rarely draw large foreign factories, which follow large, concentrated investment that is often planned or encouraged by governments.",
      "D": "Correct. The AP course framework notes that microloans have given women opportunities to create small local businesses, which have improved standards of living. Income that women control is often spent on food, health, and children's schooling.",
-     "E": "Incorrect. Microloans pay for small businesses; they do not change tariffs, which national governments set."
+     "E": "Incorrect. Microloans help people start businesses where they already live; they do not require moving to cities."
     },
     "explanation": "A small loan helps a woman start a business in her village. If it does well, she earns money that she controls. Women often spend that money on food, medicine, and school for their children, so the whole family's life gets better."
    },
@@ -2368,9 +2540,10 @@ How the stimulus types render (the JSON holds all of their data):
       ]
      ],
      "description": "Table of five countries. Country J: 410 maternal deaths per 100,000 live births, 95 births per 1,000 women ages 15 to 19, women hold 12 percent of legislative seats, labor force participation 38 percent for women and 79 percent for men. Country K: 140; 52; 22 percent; 45 and 77 percent. Country L: 9; 8; 41 percent; 61 and 68 percent. Country M: 25; 18; 28 percent; 52 and 70 percent. Country N: 60; 30; 33 percent; 30 and 72 percent.",
-     "source": "Hypothetical data"
+     "source": "Hypothetical data",
+     "note": "Labor force participation is the percentage of women or men ages 15 and older who are working or are looking for and available for work. The GII also uses women's and men's secondary education levels, which are not shown here."
     },
-    "stem": "Based on the table, which country would most likely have the lowest Gender Inequality Index (GII) value, meaning the least gender inequality?",
+    "stem": "Based only on the indicators shown, which country's data are most consistent with a low Gender Inequality Index (GII) value, meaning less gender inequality?",
     "options": {
      "A": "Country J",
      "B": "Country K",
@@ -2380,13 +2553,13 @@ How the stimulus types render (the JSON holds all of their data):
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. Country J has the highest maternal mortality and adolescent birth rates and the smallest share of women in the legislature, so it would have one of the highest GII values.",
+     "A": "Incorrect. Country J has less favorable reproductive-health and legislative-representation indicators than Country L, along with a much larger gap in labor force participation (41 percentage points).",
      "B": "Incorrect. Country K does better than Country J, but its maternal mortality, adolescent births, and gap in labor force participation are all worse than Country L's.",
-     "C": "Correct. The GII combines reproductive health (maternal mortality and adolescent birth rates), empowerment (including women's share of legislative seats), and labor-market participation of women compared with men. Country L has the best value in every one of these columns: the lowest maternal deaths (9) and adolescent births (8), the highest share of seats (41 percent), and the smallest gap between women's and men's labor force participation (7 points).",
-     "D": "Incorrect. Country M ranks second on most measures, but Country L does better on every column shown.",
+     "C": "Correct. The GII combines reproductive health (maternal mortality and adolescent birth rates), empowerment (women's share of legislative seats and secondary education), and labor-market participation of women compared with men. Country L has the lowest maternal mortality and adolescent birth rates, the highest share of women in the legislature, and the smallest gap between women's and men's labor force participation rates (7 percentage points). Education data would also be needed to calculate actual GII values.",
+     "D": "Incorrect. Country M has less favorable reproductive-health and legislative-representation indicators than Country L, and its labor force participation gap is larger: 18 percentage points rather than 7.",
      "E": "Incorrect. Country N has a fairly high share of women in the legislature, but it has the lowest women's labor force participation (30 percent) and the largest gap with men (42 points)."
     },
-    "explanation": "A LOW GII means women and men are close to equal. Look for the country where mothers are safest, few teens have babies, women hold many seats, and women work almost as much as men. Country L wins on every column."
+    "explanation": "A LOW GII means women and men are closer to equal. Country L has the fewest maternal deaths and teen births, the most women in the legislature, and the smallest gap between women's and men's work rates. Those are signs of lower gender inequality in the measures shown. The table does not include every measure used in the GII."
    },
    {
     "id": "U7-E14",
@@ -2407,12 +2580,12 @@ How the stimulus types render (the JSON holds all of their data):
     "answer": "B",
     "rationales": {
      "A": "Incorrect. Percentages adjust for population size, so a larger population does not by itself raise a country's participation rate.",
-     "B": "Correct. Labor force participation counts people who are working or looking for work in the labor market. Unpaid caregiving and housework in the home are not counted, even though women do most of this work worldwide, so the data can understate women's economic contributions.",
+     "B": "Correct. Labor force participation counts people who are employed (including self-employed people and people helping in a family business) and people who are looking for and available for work. Unpaid caregiving and housework for one's own household are not counted, even though women do most of this work worldwide, so the data do not measure all of women's economic contributions.",
      "C": "Incorrect. Legislative seats are a separate column. The labor force participation columns describe work.",
      "D": "Incorrect. Having both women's and men's rates is what makes it possible to measure the gap between them.",
      "E": "Incorrect. Labor force participation by sex is part of the Gender Inequality Index, and it is commonly used to describe gender gaps."
     },
-    "explanation": "These numbers only count people who work for pay or look for paid work. Cooking, cleaning, and caring for children and older relatives at home are real work, but they are not counted. Women do most of that unpaid work, so the table can make women's work look smaller than it is."
+    "explanation": "The labor force includes people with jobs or their own businesses and people looking for work. It leaves out unpaid cooking, cleaning, and caring for children and older relatives at home. That is real work, and women do most of it, so these rates do not show all the work women do."
    },
    {
     "id": "U7-E15",
@@ -2431,8 +2604,8 @@ How the stimulus types render (the JSON holds all of their data):
     },
     "answer": "E",
     "rationales": {
-     "A": "Incorrect. As more people take paid jobs outside the home during development, the share of workers in agriculture usually falls.",
-     "B": "Incorrect. The AP course framework notes that although more women are in the workforce, they do not have equity in wages; pay gaps narrow over time but usually remain in men's favor.",
+     "A": "Incorrect. More women finishing school and taking paid jobs is not linked to a rise in farm employment; the clearest expected change is a decline in fertility.",
+     "B": "Incorrect. More women finishing school and entering paid work does not mean women earn more than men; gender pay gaps usually persist.",
      "C": "Incorrect. More education for women is associated with lower, not higher, infant mortality.",
      "D": "Incorrect. As women's education and paid work increase, families usually have fewer children, not more.",
      "E": "Correct. When women stay in school longer and work for pay, they tend to marry and have children later and have fewer children overall. This is one way changing roles for women are connected to economic development."
@@ -2487,7 +2660,7 @@ How the stimulus types render (the JSON holds all of their data):
      "D": "Incorrect. Headquarters of the largest corporations are concentrated in the core.",
      "E": "Incorrect. World-system theory treats all countries as part of one interconnected capitalist world economy."
     },
-    "explanation": "Think of the semi-periphery as the middle level. These countries have some factories and growing cities like the core, but also poorer areas like the periphery. Rich core countries profit from them, and they profit from poorer periphery countries."
+    "explanation": "In world-system theory, the semi-periphery is in the middle. These countries mix core and periphery activities: they may make some higher-value goods while also supplying lower-wage labor for companies based in the core. Their position is between the core and the periphery in global trade."
    },
    {
     "id": "U7-E18",
@@ -2495,7 +2668,7 @@ How the stimulus types render (the JSON holds all of their data):
     "topic": "7.5",
     "lo": "SPS-7.E",
     "skill": "1.E",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Which of the following is a common criticism of dependency theory?",
     "options": {
      "A": "It ignores the role that colonialism played in shaping the economies of former colonies in Africa and Asia.",
@@ -2509,10 +2682,10 @@ How the stimulus types render (the JSON holds all of their data):
      "A": "Incorrect. Dependency theory places colonialism and its legacy at the center of its explanation of underdevelopment.",
      "B": "Incorrect. A single sequence of stages is Rostow's model, and this is a common criticism of Rostow, not of dependency theory.",
      "C": "Incorrect. Comparing transport costs of raw materials and products describes Weber's least cost theory.",
-     "D": "Correct. Dependency theory holds that unequal ties with wealthy countries keep former colonies poor. Critics point out that some former colonies, such as South Korea (a Japanese colony until 1945), became high-income economies largely by trading with core countries, which the theory has difficulty explaining.",
+     "D": "Correct. Dependency theory holds that unequal ties with wealthy countries keep former colonies poor. Critics argue that strong versions of the theory have trouble explaining former colonies such as South Korea (a Japanese colony until 1945) that became high-income economies. South Korea's experience suggests that government policy, education, investment, and access to export markets can help a country change its position.",
      "E": "Incorrect. Dependency theory warns that trade with the core can keep poor countries dependent; support for freer trade is associated with neoliberal policies."
     },
-    "explanation": "Dependency theory says rich countries keep former colonies poor. But South Korea was once a colony and is now a rich country, partly by selling goods to rich countries. Critics say the theory has trouble explaining success stories like that."
+    "explanation": "Dependency theory says unequal relationships with rich countries hold former colonies back. But South Korea was once a colony and is now a high-income country, helped by education, investment, and selling goods abroad. Critics say the theory has trouble explaining success stories like that."
    },
    {
     "id": "U7-E19",
@@ -2521,23 +2694,23 @@ How the stimulus types render (the JSON holds all of their data):
     "lo": "PSO-7.A",
     "skill": "2.C",
     "difficulty": "medium",
-    "stem": "Country A can produce both laptops and coffee using fewer resources than Country B, but its advantage is far greater in laptops than in coffee. Based on comparative advantage, which outcome is most likely?",
+    "stem": "With the same amount of labor, Country A can produce four times as many laptops as Country B but only twice as much coffee. Assume these ratios stay the same and shipping costs are small. Based on comparative advantage, which outcome is most likely?",
     "options": {
      "A": "Country A produces both goods, because it is more efficient at making each of them.",
-     "B": "Country A specializes in laptops and Country B in coffee, and both gain from trade.",
+     "B": "Country A specializes in laptops and Country B in coffee, so both can gain from trade.",
      "C": "Country A specializes in coffee, because its advantage over Country B is smaller there.",
      "D": "Country B specializes in laptops so that it can catch up to Country A's technology.",
      "E": "The two countries do not trade, since Country A is better at producing both goods."
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. Being more efficient at both goods is an absolute advantage. Comparative advantage shows that Country A gains more by focusing on the good in which its advantage is greatest.",
-     "B": "Correct. The AP course framework identifies comparative advantage as a basis for trade. Country A gives up the least by making laptops, where its advantage is greatest; Country B gives up the least by making coffee. If each specializes and they trade, total output rises and both can gain.",
-     "C": "Incorrect. Country A should specialize where its advantage is LARGEST (laptops), not where it is smallest.",
+     "A": "Incorrect. Country A has an absolute advantage in both goods, but comparative advantage depends on opportunity cost, so Country A gains more by focusing on laptops.",
+     "B": "Correct. The AP course framework identifies comparative advantage as a basis for trade. Country A's productivity advantage is greater in laptops (4 to 1) than in coffee (2 to 1), so its opportunity cost of making laptops is lower. Country B has the lower opportunity cost for coffee. If each specializes and they trade at prices both find worthwhile, both can gain.",
+     "C": "Incorrect. Country A's productivity advantage is greater in laptops, which gives it the comparative advantage in laptops, not coffee.",
      "D": "Incorrect. Country B's comparative advantage lies in coffee, where it is least behind Country A.",
-     "E": "Incorrect. Trade benefits both countries as long as their relative costs differ, even if one is better at producing everything."
+     "E": "Incorrect. Different opportunity costs create chances for trade that benefits both countries, even when one country has an absolute advantage in both goods."
     },
-    "explanation": "Each country should make what it gives up the least to make. Country A is much better at laptops, so it makes laptops. Country B is closest to Country A in coffee, so it makes coffee. Then they trade, and both end up with more."
+    "explanation": "Country A's advantage is 4 to 1 in laptops but only 2 to 1 in coffee. So Country A gives up the least by making laptops, and Country B gives up the least by making coffee. If they trade at a price both think is fair, both can end up better off."
    },
    {
     "id": "U7-E20",
@@ -2560,7 +2733,7 @@ How the stimulus types render (the JSON holds all of their data):
      "B": "Incorrect. Lending to indebted governments with policy conditions describes the International Monetary Fund (IMF).",
      "C": "Incorrect. Settling trade disputes among most of the world's countries describes the World Trade Organization (WTO).",
      "D": "Incorrect. Mercosur members keep their own currencies. A shared currency and central bank describes the euro area of the European Union.",
-     "E": "Correct. Mercosur is a regional trade bloc in South America. The AP course framework lists it, with the EU, the WTO, and OPEC, as an organization created by neoliberal policies and free-trade agreements that fosters greater globalization."
+     "E": "Correct. Mercosur is a regional trade bloc in South America formed to reduce trade barriers among its members. Its members keep their own currencies, so it is not a monetary union. The AP course framework lists Mercosur among the organizations that foster greater globalization."
     },
     "explanation": "Mercosur is a group of neighboring South American countries that made trade among themselves easier by cutting tariffs. That makes it a regional trade bloc."
    },
@@ -2596,7 +2769,7 @@ How the stimulus types render (the JSON holds all of their data):
     "setLabel": "Questions 22–23 refer to the graph below.",
     "topic": "7.7",
     "lo": "PSO-7.A",
-    "skill": "3.C",
+    "skill": "3.E",
     "difficulty": "medium",
     "stimulus": {
      "type": "line",
@@ -2649,13 +2822,13 @@ How the stimulus types render (the JSON holds all of their data):
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Deindustrialization is the decline of manufacturing employment and the growth of the service sector in a place that was once industrial. Metro Area R lost more than half of its manufacturing jobs (480 to 200 thousand) while service jobs more than doubled (620 to 1,390 thousand).",
+     "A": "Correct. Deindustrialization is a decline in manufacturing's role in an economy, often measured by its share of jobs. In Metro Area R, manufacturing jobs fell from 480 thousand to 200 thousand while service jobs rose, so manufacturing's share of the jobs shown fell from about 44 percent to about 13 percent.",
      "B": "Incorrect. Agglomeration is the clustering of firms to share labor, suppliers, and infrastructure. The graph shows a shift between sectors, not clustering.",
-     "C": "Incorrect. Import substitution protects domestic manufacturing; it would be expected to support factory jobs, not coincide with their steady decline.",
+     "C": "Incorrect. The graph shows no import barriers or policies to replace imports with local production, so it does not show import substitution.",
      "D": "Incorrect. Take-off is a period of rapid growth in a few manufacturing industries. Here manufacturing is shrinking.",
      "E": "Incorrect. Commodity dependence is reliance on exporting a few raw materials, which the graph does not show."
     },
-    "explanation": "Factory jobs in Metro R dropped from 480 thousand to 200 thousand, while service jobs more than doubled. When a place loses factory jobs and shifts to services, that is deindustrialization."
+    "explanation": "Factory jobs in Metro R fell from 480 thousand to 200 thousand, so manufacturing became a much smaller part of the city's jobs. That is deindustrialization. Service jobs grew during the same years."
    },
    {
     "id": "U7-E23",
@@ -2667,29 +2840,29 @@ How the stimulus types render (the JSON holds all of their data):
     "difficulty": "hard",
     "stem": "Which of the following is the most important limitation of the graph for judging how these changes affected the standard of living of workers in Metro Area R?",
     "options": {
-     "A": "It reports jobs in thousands rather than as percentages of total jobs, so the two lines cannot be compared.",
-     "B": "It covers fifty years, which is too long a period for showing deindustrialization clearly.",
-     "C": "It groups manufacturing industries together, so it cannot show whether the metro area deindustrialized.",
-     "D": "It shows job counts but not wages, so it cannot show if service jobs pay as well as factory jobs did.",
-     "E": "It starts in 1970, after deindustrialization in core countries had already ended."
+     "A": "It does not show whether service jobs are in the central city or in the suburbs.",
+     "B": "It does not separate manufacturing jobs by the types of products made.",
+     "C": "It does not identify which service firms are locally owned or foreign owned.",
+     "D": "It shows job counts but not earnings, benefits, or whether laid-off workers found similar jobs.",
+     "E": "It does not compare these employment trends with those of other metropolitan areas."
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. Both lines use the same unit, thousands of jobs, so they can be compared directly.",
-     "B": "Incorrect. Deindustrialization unfolds over decades; a fifty-year span is well suited to showing it.",
-     "C": "Incorrect. Total manufacturing employment, with industries grouped together, is exactly the kind of data used to identify deindustrialization.",
-     "D": "Correct. Standard of living depends heavily on income. The graph counts jobs but gives no wages, so it cannot show whether workers who lost factory jobs found service jobs that pay as much. Many new service jobs pay less, while some, such as finance or technology jobs, pay more.",
-     "E": "Incorrect. In most core countries, deindustrialization sped up after 1970, and the graph itself shows manufacturing jobs falling throughout 1970 to 2020."
+     "A": "Incorrect. Where jobs are located can affect access to work, but it does not show how workers' pay or benefits changed.",
+     "B": "Incorrect. Product categories do not show the earnings and benefits that go with the jobs.",
+     "C": "Incorrect. Ownership alone does not show workers' pay or whether laid-off workers found comparable jobs.",
+     "D": "Correct. Standard of living depends heavily on income. Job counts do not show job quality or what happened to the workers who lost manufacturing jobs. Many new service jobs pay less than factory jobs did, while some, such as finance or technology jobs, pay more.",
+     "E": "Incorrect. Comparing with other metropolitan areas would not supply the missing information about these workers' pay."
     },
-    "explanation": "The graph counts jobs, but it does not tell you how much those jobs pay. A factory worker who loses a good-paying job and takes a low-paying service job is worse off, even though the total number of jobs went up."
+    "explanation": "The graph counts jobs, but it does not tell you how much those jobs pay or what happened to the people who lost factory jobs. A worker who loses a good-paying factory job and takes a low-paying service job is worse off, even though the total number of jobs went up."
    },
    {
     "id": "U7-E24",
     "n": 24,
     "topic": "7.8",
     "lo": "IMP-7.A",
-    "skill": "5.D",
-    "difficulty": "hard",
+    "skill": "5.B",
+    "difficulty": "medium",
     "stem": "Which of the following best describes how the UN Sustainable Development Goals (SDGs) operate across geographic scales?",
     "options": {
      "A": "The UN enforces the goals by fining national governments that miss their targets for each goal.",
@@ -2728,7 +2901,7 @@ How the stimulus types render (the JSON holds all of their data):
      "A": "Incorrect. Ecotourism's benefit depends on employing local people, which gives them a stake in protecting the environment.",
      "B": "Incorrect. Ecotourism depends on keeping natural environments intact; clearing forest would destroy the attraction.",
      "C": "Correct. The AP course framework notes that ecotourism frequently helps protect threatened environments while providing jobs for local people. Its benefits can be limited, however, if too many visitors damage the environment or if much of the income goes to companies based outside the region.",
-     "D": "Incorrect. Ecotourism usually depends on local people working as guides, cooks, and lodge staff, so it tends to create local jobs rather than keep local people out.",
+     "D": "Incorrect. Ecotourism usually depends on local people working as guides, cooks, and lodge staff. Keeping residents out would cut their jobs and participation, so it is not a reliable way to meet ecotourism's social and economic goals.",
      "E": "Incorrect. Ecotourism is a tertiary (service) activity. It shifts work toward services, not manufacturing."
     },
     "explanation": "Ecotourism can be a win-win: the forest is protected and local people get jobs. But it only works so far. Too many visitors can harm the forest, and if outside companies own the lodges, much of the money leaves the area."
@@ -2760,16 +2933,16 @@ Human-readable indicator pages: https://data.worldbank.org/indicator/NY.GNP.PCAP
 https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS , https://data.worldbank.org/indicator/SL.IND.EMPL.ZS ,
 https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS
 
-Values as published (employment shares rounded half-up to one decimal; GNI as published, whole dollars):
+Values as published. Employment shares are displayed to one decimal; the parenthetical values show three decimals of the API value (the cached responses in `u7/wdi/` hold full precision). Rounding is half-up from the full-precision value, so Vietnam's services share of 39.549... displays as 39.5. GNI is shown as published, in whole dollars.
 
 | Country | GNI per capita, PPP | Agriculture % | Industry % | Services % |
 |---|---|---|---|---|
-| Ethiopia | 3,060 | 62.2 (62.17) | 6.4 (6.36) | 31.5 (31.46) |
-| Germany | 74,600 | 1.2 (1.21) | 26.4 (26.40) | 72.4 (72.39) |
-| India | 9,710 | 43.5 (43.51) | 25.0 (25.03) | 31.5 (31.46) |
-| Mexico | 24,560 | 12.0 (11.96) | 25.0 (25.03) | 63.0 (63.00) |
-| Vietnam | 14,260 | 27.0 (26.98) | 33.5 (33.47) | 39.5 (39.55) |
-| United States | 81,870 (not shown) | 1.6 (1.57) | 19.3 (not shown) | 79.1 (79.09) |
+| Ethiopia | 3,060 | 62.2 (62.175) | 6.4 (6.361) | 31.5 (31.464) |
+| Germany | 74,600 | 1.2 (1.212) | 26.4 (26.396) | 72.4 (72.393) |
+| India | 9,710 | 43.5 (43.514) | 25.0 (25.029) | 31.5 (31.457) |
+| Mexico | 24,560 | 12.0 (11.965) | 25.0 (25.031) | 63.0 (63.004) |
+| Vietnam | 14,260 | 27.0 (26.983) | 33.5 (33.468) | 39.5 (39.549) |
+| United States | 81,870 (not shown) | 1.6 (1.570) | 19.3 (not shown) | 79.1 (79.095) |
 
 Where used:
 - **U7-P05** (bar chart): agriculture and services shares for Ethiopia, India, Mexico, United States.
@@ -2788,9 +2961,9 @@ source line on each stimulus gives the data-update date and access date.
 ## Hypothetical data
 
 Every other stimulus is labeled "Hypothetical data" or "Hypothetical map" (P02, P10, P13, P18, P20, P24, P26/P27,
-P32, E04 to E06, E13/E14, E22/E23). `verify.py` re-computes each keyed answer and each data-based distractor from the
+P32, E04 to E06, E13/E14, E22/E23). Practice items P33 to P38 have no stimulus. `verify.py` re-computes each keyed answer and each data-based distractor from the
 stimulus numbers (for example the comparative-advantage ratios in P20, the pay-gap changes in P13, Country L being
-best on every GII column in E13, the coal-share arithmetic in P32, and the Weber map distances in E06).
+Country L having the lowest maternal-death and teen-birth rates, the most legislative seats, and the smallest participation gap in E13, the coal-share arithmetic in P32, the rail links on the Weber map used by E06, and the ratios in E19 and E22).
 
 ## Course framework
 
@@ -2802,7 +2975,7 @@ pp. 119–131 (local copy /tmp/ced/hg.pdf).
 
 These widely documented facts appear in keys, explanations, or rationales; none is a statistic:
 Industrial Revolution begins in Great Britain in the late 1700s and spreads to Western Europe and the United States in the
-1800s, then Russia and Japan (Meiji Restoration 1868); Grameen Bank and Muhammad Yunus, 2006 Nobel Peace Prize;
+1800s, then Russia and Japan (Meiji Restoration 1868); the 2008 global financial crisis began in the U.S. housing-loan market and cut orders and jobs at export factories in China; Grameen Bank and Muhammad Yunus, 2006 Nobel Peace Prize;
 Mercosur founded 1991 by Argentina, Brazil, Paraguay, and Uruguay; WTO created 1995; China's first special economic
 zones (including Shenzhen) created 1980 on the southeast coast; Vietnam's economic opening (Doi Moi) begins 1986;
 South Korea a Japanese colony until 1945; UN Sustainable Development Goals adopted 2015 for all member states; HDI

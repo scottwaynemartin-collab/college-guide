@@ -36,6 +36,7 @@ def item_md(q, full, kind):
         L += [f"Topic {q['topic']} · {q['lo']} · Skill {q['skill']} · {q['difficulty']}" + (f" · set: {q['set']}" if q.get("set") else ""), ""]
     elif q.get("set"):
         L += [f"(Set: {q['set']})", ""]
+    if q.get("setLabel"): L += [f"*{q['setLabel']}*", ""]
     if q.get("stimulus"): L += stim_md(q["stimulus"])
     elif q.get("set") and not full: L += [f"(Uses the {q['set']} stimulus above.)", ""]
     L += [q["stem"], ""]

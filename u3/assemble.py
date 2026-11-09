@@ -10,11 +10,12 @@ import json, sys, re, math
 from collections import Counter
 from pathlib import Path
 H = Path(__file__).resolve().parent
-ns1, ns2, ns3 = {}, {}, {}
+ns1, ns2, ns3, nsp3 = {}, {}, {}, {}
 exec((H / "p1.py").read_text(encoding="utf-8"), ns1)
 exec((H / "p2.py").read_text(encoding="utf-8"), ns2)
 exec((H / "exam.py").read_text(encoding="utf-8"), ns3)
-practice = ns1["P"] + ns2["P"]
+exec((H / "p3.py").read_text(encoding="utf-8"), nsp3)   # P33-P35, added in review pass 3
+practice = ns1["P"] + ns2["P"] + nsp3["P"]
 exam = ns3["E"]
 byid = {q["id"]: q for q in practice + exam}
 assert len(byid) == len(practice) + len(exam), "duplicate ids"
@@ -40,6 +41,48 @@ SWAPS = [("U3-E04", "B", "C"), ("U3-E07", "B", "C"), ("U3-E12", "B", "E"), ("U3-
          ("U3-E20", "A", "D"), ("U3-E22", "A", "D"), ("U3-P28", "A", "B"), ("U3-P31", "A", "B")]
 for qid, a, b in SWAPS:
     swap(byid[qid], a, b)
+# review pass 3 (ChatGPT Pro, u3/chatgpt_review.txt): FINAL letters, applied after the swaps
+def apply_patch(patch):
+    for qid, pt in patch.items():
+        q = byid[qid]
+        for k, v in pt.items():
+            if k in ("options", "whyNot", "rationales"):
+                for L, txt in v.items():
+                    assert L in q[k], (qid, k, L)
+                    if k == "whyNot": assert L != q["answer"], (qid, "whyNot on key", L)
+                    q[k][L] = txt
+            elif k == "stimulus":
+                assert "stimulus" in q, qid
+                for sk in v: assert sk in q["stimulus"], (qid, sk)
+                q["stimulus"].update(v)
+            else:
+                assert k in q, (qid, k)
+                q[k] = v
+nsc = {}
+exec((H / "fixes_c.py").read_text(encoding="utf-8"), nsc)
+apply_patch(nsc["PATCH"])
+for qid, new in nsc["REPLACE"].items():
+    q = byid[qid]
+    for k, v in new.items():
+        assert k in q, (qid, k)
+        q[k] = v
+# final blind check (u3/check_report_final.md): v2026-11-08c letters, then one option-swap pair
+nsd = {}
+exec((H / "fixes_d.py").read_text(encoding="utf-8"), nsd)
+apply_patch(nsd["PATCH"])
+for qid, a, b in nsd["SWAPS_D"]:
+    swap(byid[qid], a, b)
+# final key check (fixes_e.py): FINAL letters; then "stem" -> "the question" in all student-facing text
+nse = {}
+exec((H / "fixes_e.py").read_text(encoding="utf-8"), nse)
+apply_patch(nse["PATCH"])
+def _subs(s):
+    for a, b in nse["TEXT_SUBS"]: s = s.replace(a, b)
+    return s
+for q in practice + exam:
+    q["stem"] = _subs(q["stem"]); q["explanation"] = _subs(q["explanation"])
+    for k in ("options", "whyNot", "rationales"):
+        if k in q: q[k] = {L: _subs(v) for L, v in q[k].items()}
 # keep whyNot/rationales in A-E order
 for q in practice + exam:
     for k in ("whyNot", "rationales"):
@@ -65,9 +108,9 @@ out = {
   "unit": 3,
   "title": TITLE,
   "examWeighting": "12–17% of the AP Exam multiple-choice section",
-  "version": "2026-11-08b",
-  "calibration": "Modeled on the format of the College Board 2020 AP Human Geography Practice Exam and the Course and Exam Description (5 answer choices, set-based stimulus questions, skills 1–5). All questions, stimuli, and data are original or compiled from public facts; no College Board items are reproduced.",
-  "checked": "Nov 8, 2026: automated checks (answer balance, run length, option-length tells, absolute-word tells, field completeness, student-facing wording) and script verification of every stimulus number and computed claim. Real data: World Bank WDI internet-use values (U3-P20) re-downloaded and verified; Texas toponyms (U3-P25) checked against the Handbook of Texas; religion distribution (U3-P24) checked against Pew Research Center (see u3/SOURCES.md). v2026-11-08b: independent Claude blind check (57/57 keys agreed, all numbers recomputed by script, sources re-fetched; no must-fix); should-fix items applied: exam answer-letter pattern broken up (6 option swaps, still 5 of each letter), E24 sentence split, P15 stem and whyNot B, P09 example changed to Quebec, P29 B/E and P07 D distractors replaced, P32 and P23 explanation wording, P16 Portuguese row replaced with French, P24 source wording, E22 key uses the term cultural divergence, skill/difficulty tags (P10, E22, P05), practice letter order (P28, P31).",
+  "version": "2026-11-08e",
+  "calibration": nsc["CALIBRATION"],
+  "checked": "Nov 8, 2026: automated checks (answer balance, run length, repeated answer blocks, option-length tells, absolute-word tells, field completeness, student-facing wording) and script verification of every stimulus number and computed claim. Real data: World Bank WDI internet-use values (U3-P20) re-downloaded and verified; Texas toponyms (U3-P25) checked against the Handbook of Texas; religion distribution (U3-P24) against Pew Research Center, hearths against Encyclopaedia Britannica (see u3/SOURCES.md). v2026-11-08b: independent Claude blind check (57/57 keys agreed; no must-fix), should-fix items applied. v2026-11-08c: ChatGPT Pro full review (12.5 min; numbers and sources re-verified, all keys kept); applied: P22 C replaced (was partly defensible), E15 evidence for national unity, E07 aviation rule removed, P20 'use' not 'access', E21/E22 data limits, assimilation/multiculturalism/creolization and religion categories worded as tendencies, E18 rewritten as a true data-limitation item, E03/E04/E11/E17 stems no longer restate evidence, P09 options all conditional, P02 Student 2 and 4 entries, P24 dated 2010 and sourced, E08 Timor-Leste 'restored' and climate distractor replaced, E12/E25 echo and paraphrase keys fixed, tags and difficulty; P33-P35 added (dialects, scale analysis, gender and use of space). v2026-11-08d: final independent Claude blind check (60/60 keys agreed, numbers and sources re-verified); applied: P35 stem now dates Tokyo's harassment-driven women-only cars to the 2000s (must-fix), face-value distractors replaced (P11 C, P22 C, E25 A/B), P26 name-place echo removed, E11 options in one form, hedges balanced (P23, P35, E22), E12 key no longer echoes 'local', P18 key shortened, P30 D, P17 A, P24 Buddhism hearth, E10 explanation, E08 rationale D, P05 'Indigenous', P34 skill 5.C, P35 and E12 easy; E02/E13 option swaps give the exam one back-to-back repeated letter (still 5 of each). v2026-11-08e: final key check (14/14 agreement, no must-fix); P22 C and P35 B why-not lines reworded, E11 A and P30 D keys shortened (length tells), and 'stem' replaced with 'the question' in all student-facing feedback. Data checks moved to u3/verify.py (run by assemble.py and standalone).",
   "schemaNotes": {
     "stimulus.type": "table | bar | districtMap | schematicMap | rings (rings = von Thünen-style concentric ring diagram: center, rings[].label, outer, description). Unit 3 uses table, bar, and schematicMap; its schematicMaps use zone (regions with sublabels), land, island (labeled city/town circles), line, marker, arrow, and scaleBar features.",
     "practice[].explanation": "6th-grade-level reason the answer is right (show this first)",
@@ -118,6 +161,7 @@ for q in practice + exam:
     for t in texts:
         if re.search(r"\bCED\b", t): errs.append(f"{q['id']} says CED")
         if re.search(r"Mr\.|Mrs\.|Ms\.|Martin|Garrigus|Rask", t): errs.append(f"{q['id']} teacher name")
+        if re.search(r"\bstem\b", t, re.I): errs.append(f"{q['id']} says 'stem' (students: 'the question')")
     s = q.get("stimulus")
     if s:
         if not s.get("description"): errs.append(f"{q['id']} stimulus lacks description")
@@ -179,6 +223,9 @@ def runs(seq):
 for name, qs in (("practice", practice), ("exam", exam)):
     r = runs([q["answer"] for q in qs])
     if r > 3: errs.append(f"{name} has a run of {r} identical answer letters")
+blocks = ["".join(q["answer"] for q in exam[i:i + 5]) for i in range(0, 25, 5)]
+if len(set(blocks)) < len(blocks): errs.append(f"exam has repeated answer blocks {blocks}")
+if sum(1 for b in blocks if len(set(b)) == 5) >= 4: errs.append(f"exam blocks are near-permutations of ABCDE {blocks}")
 missing = topic_ids - {q["topic"] for q in exam}
 if missing: errs.append(f"exam misses topics {sorted(missing)}")
 stim_exam = out["exam"]["stimulusCount"]
@@ -187,76 +234,11 @@ for kind, qs in (("practice", practice), ("exam", exam)):
     n = len(key_longest[kind])
     if n > 0.25 * len(qs): warns.append(f"{kind}: key is the longest option in {n}/{len(qs)} items (>25%)")
 
-# ---------------- DATA CHECKS (every stimulus number and computed claim) ----------------
-def chk(cond, msg):
-    if not cond: errs.append("DATA " + msg)
-num = lambda s: float(str(s).replace(",", ""))
-
-# U3-P13 contagious table: adoption year rises with distance regardless of size; largest place not first; smallest place last
-st = byid["U3-P13"]["stimulus"]; rows = [(r[0], num(r[1]), num(r[2]), int(r[3])) for r in st["rows"]]
-by_d = sorted(rows, key=lambda r: r[2])
-chk(all(a[3] <= b[3] for a, b in zip(by_d, by_d[1:])), "P13 year not monotone with distance")
-big = max(rows, key=lambda r: r[1]); small = min(rows, key=lambda r: r[1])
-chk(big[0] == "City R" and big[3] == 2004 and big[2] == 120, "P13 City R facts")
-chk(small[0] == "Village U" and small[3] == max(r[3] for r in rows), "P13 smallest place adopted last")
-chk([r for r in rows if r[0] == "Village Q"][0][3] == 2001 and [r for r in rows if r[0] == "Village Q"][0][2] == 25, "P13 Village Q facts")
-chk(any(r[1] < big[1] and r[3] < big[3] for r in rows if r[2] > 0), "P13 a smaller place beat City R")
-
-# U3-P20 World Bank WDI IT.NET.USER.ZS raw values downloaded Nov 8, 2026
-# https://api.worldbank.org/v2/country/WLD;IND;NGA;BRA;USA/indicator/IT.NET.USER.ZS?format=json&date=2005:2024
-WB = {"United States": (67.9681015, 94.69380188), "Brazil": (21.022747248827, 84.46347227),
-      "India": (2.388099909, 64.9434967), "Nigeria": (3.54915571796492, 41.21139908), "World": (15.6, 71.2)}
-st = byid["U3-P20"]["stimulus"]
-for i, c in enumerate(st["categories"]):
-    chk(st["series"][0]["values"][i] == round(WB[c][0]) and st["series"][1]["values"][i] == round(WB[c][1]), f"P20 rounding {c}")
-v05 = dict(zip(st["categories"], st["series"][0]["values"])); v24 = dict(zip(st["categories"], st["series"][1]["values"]))
-gain = {c: v24[c] - v05[c] for c in v05}
-chk(all(g > 0 for g in gain.values()), "P20 every value rose")
-chk(v24["Nigeria"] < 50, "P20 Nigeria under half")
-chk(min(gain, key=gain.get) == "United States" and gain["United States"] == 27, "P20 US gain smallest = 27")
-chk(gain["Brazil"] == 63 and gain["India"] == 63, "P20 Brazil/India gains 63")
-chk(v05["United States"] - v05["India"] == 66 and v24["United States"] - v24["India"] == 30, "P20 US-India gap 66 -> 30")
-chk(v24["United States"] == 95 and v24["Nigeria"] == 41 and v05["India"] == 2 and v24["India"] == 65, "P20 values cited in text")
-
-# U3-P31 generations table
-st = byid["U3-P31"]["stimulus"]; g = [[num(x) for x in r[1:]] for r in st["rows"]]
-chk([r[0] for r in g] == [92, 55, 14] and g[0][0] > g[1][0] > g[2][0], "P31 Language F falls 92-55-14")
-chk(g[2][1] == 99 and g[0][1] < g[1][1] < g[2][1], "P31 host language rises to 99")
-chk(g[2][2] == 52 and g[2][2] > 50, "P31 52% of third generation keep festival")
-
-# U3-E03 map: years ordered by population; Fenn nearest; distances from scale (100 px = 100 km)
-st = byid["U3-E03"]["stimulus"]
-cities = {}
-for f in st["features"]:
-    if f["kind"] == "island":
-        m = re.match(r"(\w+)(?: \(hearth\))?, ([\d,]+|\d+ million): (\d{4})$", f["name"]); chk(bool(m), f"E03 label parse {f['name']}")
-        pop = m.group(2); pop = float(pop.split()[0]) * 1e6 if "million" in pop else num(pop)
-        cities[m.group(1)] = dict(pop=pop, year=int(m.group(3)), xy=f["center"], r=f["radius"])
-sb = [f for f in st["features"] if f["kind"] == "scaleBar"][0]; px_per_km = (sb["to"][0] - sb["from"][0]) / 100
-dist = {c: math.dist(v["xy"], cities["Arlo"]["xy"]) / px_per_km for c, v in cities.items()}
-order_pop = sorted(cities, key=lambda c: -cities[c]["pop"])
-chk(all(cities[a]["year"] <= cities[b]["year"] for a, b in zip(order_pop, order_pop[1:])), "E03 year not monotone in population")
-chk(all(cities[a]["r"] >= cities[b]["r"] for a, b in zip(order_pop, order_pop[1:])), "E03 circle size not monotone in population")
-others = {c: d for c, d in dist.items() if c != "Arlo"}
-chk(min(others, key=others.get) == "Fenn" and 115 <= dist["Fenn"] <= 125, f"E03 Fenn nearest ~120 km ({dist['Fenn']:.1f})")
-chk(dist["Benn"] > 450 and dist["Cora"] > 450, f"E03 Benn/Cora > 450 km ({dist['Benn']:.0f}, {dist['Cora']:.0f})")
-chk(cities["Fenn"]["year"] == 2015 and cities["Gale"]["year"] == 2016 and cities["Arlo"]["year"] == 2010, "E03 years cited in text")
-chk(dist["Eskar"] < dist["Benn"] and cities["Eskar"]["year"] > cities["Benn"]["year"], "E03 nearer medium city later than far big city")
-
-# U3-E16-18 religions table
-st = byid["U3-E16"]["stimulus"]; rel = {r[0]: dict(home=num(r[2]), regions=int(r[3]), conv=r[4]) for r in st["rows"]}
-chk(100 - rel["Religion R"]["home"] == 55, "E17 Religion R 55% outside hearth")
-nonconv = [k for k, v in rel.items() if v["conv"] == "No"]
-chk(max(nonconv, key=lambda k: rel[k]["home"]) == "Religion P" and rel["Religion P"]["home"] == 94 and rel["Religion P"]["regions"] == 1, "E16 P is the ethnic/near-hearth pattern")
-chk(rel["Religion Q"]["regions"] == 6 and rel["Religion S"]["home"] == 8 and rel["Religion T"]["home"] == 70 and rel["Religion T"]["conv"] == "Yes", "E16 rationale numbers")
-
-# U3-E21 language-loss bar chart
-st = byid["U3-E21"]["stimulus"]; a, b = st["series"][0]["values"], st["series"][1]["values"]
-drops = [x - y for x, y in zip(a, b)]
-chk(drops == [36, 30, 20, 15], f"E21 drops {drops}")
-chk(all(d > 0 for d in drops) and drops.index(max(drops)) == 0, "E21 every group fell; youngest fell most")
-chk(b[1] == 30 and b[1] < 50 and b[3] == 70 and b[0] == 12 and a[0] == 48, "E21 values cited in text")
-chk(len(set(drops)) > 1, "E21 drops not all equal")
+# ---------------- DATA CHECKS (every stimulus number and computed claim): u3/verify.py ----------------
+nsv = {}
+exec((H / "verify.py").read_text(encoding="utf-8"), nsv)
+vfails, vchecks = nsv["run"](byid)
+errs += ["DATA " + f for f in vfails]
 
 # ---------------- reading level (Flesch-Kincaid grade of explanations) ----------------
 def syl(w):
@@ -283,6 +265,7 @@ print("difficulty practice", dict(Counter(q["difficulty"] for q in practice)), "
 print("skills", dict(sorted(Counter(q["skill"] for q in practice + exam).items())))
 print("skill categories", dict(sorted(Counter(q["skill"][0] for q in practice + exam).items())))
 print("key is longest option: practice", len(key_longest["practice"]), "/", len(practice), key_longest["practice"], "| exam", len(key_longest["exam"]), "/", len(exam), key_longest["exam"])
+print(f"data checks (u3/verify.py): {vchecks} run, {len(vfails)} failed")
 print("explanation reading grade (Flesch-Kincaid): mean %.1f, max %.1f" % (sum(fks.values()) / len(fks), max(fks.values())))
 for w in warns: print("WARN", w)
 for e in errs: print("ERR", e)

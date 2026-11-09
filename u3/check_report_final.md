@@ -1,0 +1,38 @@
+# Unit 3 FINAL blind key check (v2026-11-08c)
+
+**Agreement: 60/60** (35 practice + 25 exam). Blind answers: `u3/check_final_blind_answers.txt`, written before I opened key.txt. No item has two defensible answers, and every item has one. Exam letters are A5 B5 C5 D5 E5. Practice letters are 7 each.
+
+Checked: every number was recomputed by script. P20 was re-downloaded from the World Bank API (lastupdated 2026-10-08), and all ten values and their rounding match. P34's national row is the population-weighted mean: A = 85.3, B = 14.7, shown as 85/15. 55.8% of all Language B speakers live in the East. The P34 whyNot A is correct. E03 distances: Fenn 121.7 km, Cora 451.2 km, Benn 468.4 km. P13 adoption year rises strictly with distance. E21 drops are -36, -30, -20, -15. E18: only C cannot be determined, because A, B, D and E all come straight from the table (D is 79 vs 30 percent outside the hearth). CPLP and Timor-Leste facts were checked against Wikipedia: CPLP founded 17 July 1996 in Lisbon. Timor-Leste joined in 2002, after its 2002 constitution (s.13) made Portuguese and Tetum official, so E08 B is false and "kept or restored" in key E is accurate. P24 hearths and 2010 distributions match Pew 2012 and Britannica. Renderer: bar charts render `text`, schematic maps render `description`, practice stimuli are self-contained, and bars have 2 series. There are no "CED" or "Mr. Martin" strings. Every topic 3.1–3.8 appears in both practice and the exam. Explanations read at about FK grade 7.
+
+## MUST-FIX
+
+1. **U3-P35 stem (factual).** "In Tokyo, rail companies began doing this in response to complaints about the harassment of women..." is wrong as written. Tokyo first had women-only cars in 1912 (Chūō Line, to separate male and female students) and again in 1947 (postwar overcrowding). The harassment-driven cars began in 2000 (Keio) and spread to rush hour in 2005 (Wikipedia, "Women-only passenger car"). The key is unchanged.
+   - Replace sentence 2 with: **"In the 2000s, rail companies in Tokyo added women-only cars in response to complaints about the harassment of women on crowded trains."**
+   - SOURCES.md P35 note: add "Earlier Tokyo women-only cars (1912 students; 1947 overcrowding) had other reasons; the stem dates the harassment-driven cars to the 2000s."
+
+No other must-fix items: no wrong keys, no arithmetic errors, no stimulus problems.
+
+## SHOULD-FIX
+
+**Distractors that can be ruled out on their face, and other tells**
+- **P11 C** contradicts the stem's premise: it names a *centripetal* force when the stem asks how the pattern is centrifugal. Replace C: **"Followers of each religion move outward from the center of the country toward its borders."** whyNot C: **"This uses the everyday meaning of "centrifugal" (moving outward). In geography, a centrifugal force is anything that divides a country's people, not people moving toward its borders."**
+- **P26** name–place echo: B is the only option that pairs "Anatolian" with "Anatolia", so it can be picked without knowledge. Replace A: **"Kurgan hypothesis: the family spread with early farmers moving out of present-day Türkiye"**. Replace B: **"Anatolian hypothesis: the family spread with the diffusion of farming from present-day Türkiye"**. The explanation already says Anatolia is in today's Türkiye.
+- **E25**: A, B and E (and C) all contradict the policy text in the stem, so the item can be answered by reading alone. Replace A: **"Official government signs switching from English and French to immigrants' heritage languages"**. Rationale A: **"Incorrect. Canada's policy was set within a framework of two official languages, English and French. It supports groups' freedom to keep heritage languages but does not replace the official languages."** Replace B: **"Immigrant families being required to settle outside ethnic neighborhoods so that groups mix evenly"**. Rationale B: **"Incorrect. The policy supports freedom to keep traditions; it does not decide where people live, and ethnic neighborhoods remain common in Canadian cities."**
+- **E11**: the stem asks for a "statement", but A is the only option that is neither a statement nor in "X, because..." form. Stem: **"Which concept best describes how the community living on the block shaped its cultural landscape between 1975 and 2005?"** A: **"Ethnic neighborhood, because the newcomers' own businesses and institutions shaped how the space was used"**. C: replace "the German and Vietnamese religions" with **"the Lutheran and Catholic traditions"**.
+- **Only the key is hedged** in three items: P23 A ("may"), P35 D ("can"), E22 D ("can"). Hedge one distractor in each. P23 E: **"Language use will likely stay the same, because people keep their first language for life."** P35 E: **"cultural relativism can lead cities to copy one another's transit systems"**. E22 B: **"Online media can spread English worldwide, so the channel is an example of cultural convergence."**
+- **P22 C** ("identical... will soon disappear") is absolute and contradicts the stem. Replace: **"The local performances show hierarchical diffusion, because the song reached Country X's largest cities first."** whyNot C: **"The stem does not say which places in Country X got the song first. It describes a global hit that local groups mix with their own dance."**
+- **E12**: the key repeats "local" twice (echoing "local earth" in the stem), and every distractor can be ruled out from the stem. B: **"Builders adapted nearby materials and designs to the environment."** Difficulty: medium → easy.
+- **P18**: key A is 16 words against at most 12 for the distractors. A: **"Portugal and Spain divided South America's colonial claims, and each spread its language."**
+
+**Wording and accuracy**
+- **P30 D**: "becoming less distinct" also describes acculturation, so D does not cleanly distinguish the two terms. D: **"Acculturation means adopting some new traits; assimilation means largely merging into the dominant culture."** whyNot E (currently only defines multiculturalism): **"Acculturation happens through contact and borrowing, so it does not keep cultures fully separate. Groups living side by side while keeping their identities is multiculturalism, not assimilation."**
+- **P17 A** says "original trade language", but the stem describes a plantation pidgin. A: **"language extinction, because the original plantation pidgin disappeared"**.
+- **P24 Buddhism hearth**: in India, "Northeast India" means Assam and its neighbors, which could mislead South Asian–heritage students. The Buddha's main sites (Bodh Gaya, Sarnath, Kushinagar) are on the Ganges Plain. Hearth cell: **"South Asia (northern India and southern Nepal)"**.
+- **E10 explanation**: the table does not say Vietnamese signs are still visible. Replace "along with Vietnamese and Spanish signs from later groups" with **"along with features added later by Vietnamese and then Mexican and Central American residents."**
+- **P05 explanation and vocab**: "indigenous" → **"Indigenous"**, for consistency with the rest of the bank.
+- **E08 rationale D (optional)**: the premise is partly true, since many Portuguese moved to Angola and Brazil in the 2010s. Add: **"Some Portuguese did move to Angola and Brazil recently, but Portuguese was official there long before that."**
+
+**Tags, difficulty, form (optional)**
+- P34 skill 5.D → **5.C** (compares one pattern at national vs. regional scale). P35 difficulty medium → **easy**.
+- The exam key string `CADCEABEBDABCEDAECBAEDCBD` has zero adjacent repeats (Units 4 and 5 have one each). ChatGPT noted this and it was not changed. Optional: reorder a standalone item or set to create one repeat.
+- Exam scale analysis is 1 of 25 items (E15). Practice now has 3 (P11, P22, P34).

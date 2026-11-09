@@ -1,0 +1,1879 @@
+# Unit 2: Population and Migration Patterns and Processes — practice-exam bank v2026-11-08e
+
+Exam weighting: 12–17% of the AP Exam multiple-choice section
+
+Checked: Nov 8, 2026: automated checks in u2/assemble.py (answer balance and runs, option-length tells, absolute-word tells, field completeness, set structure and set labels, stimulus fields, LO-to-topic match); every rate, ratio, density, share, and doubling-time answer recomputed by script from the stimulus data (u2/data.py); real-data tables (P02, P13, P40) and the figures quoted in E07, E14, and E24 pulled from the World Bank WDI API (see u2/SOURCES.md). Independent Claude checker agent (v2026-11-08a): blind key agreement 67/67, all figures re-verified; fixes in v2026-11-08b (neutral stimulus descriptions, E10/E21/P11/P05/P07/P35/E25 and wording). QA (b): exam set labels, uniform P04 map labels. ChatGPT Pro full review of v2026-11-08b (u2/chatgpt_review.txt), each claim re-verified before applying (u2/fixes_c.py): inference wording tightened (P09, P10, P11, P22, P25, P30, P31, P40, P41, E03, E10, E11, E13, E24, E25); E04 and E17 rewritten so the stimulus is needed; E05 made a standalone item; P35 rewritten as a causal (intervening-obstacle) item; P29 stem and P26 stem narrowed; distractors replaced in P01, P10, P11, P12, P26, P28, E01, E02; Ester Boserup spelling; arable-land wording; pyramid descriptions (16 five-year groups plus 80+); skill tags; option order swapped on 10 items to remove a strict answer-letter cycle; new practice items P43 (refugees), P44 (slavery as forced migration), P45 (cultural effects), P46 (guest workers). Final independent blind check of v2026-11-08c: 71/71 agreement, all data and arithmetic re-verified; v2026-11-08d applies its fixes (u2/fixes_d.py): P44 distractors A and C reworded so no option frames enslavement as voluntary or recruited labor; P46 stem no longer echoes the key; E11 stem no longer states the trend the pyramid shows; P26 option E replaced and difficulty set to easy; E09 option D replaced; P10 whyNot B age wording. Final key check of v2026-11-08d: 5/5 agreement; v2026-11-08e (u2/fixes_e.py): P44 options A, B, D, E rewritten so four options name forced migration and the item tests destinations and lasting effects (difficulty medium; Trans-Atlantic Slave Trade Database figures via PBS); P03 whyNot wording; numeric checks moved to u2/verify.py (also runnable standalone).
+
+## Topics
+
+- 2.1 Population Distribution (PSO-2.A, PSO-2.B, PSO-2.C)
+- 2.2 Consequences of Population Distribution (PSO-2.D)
+- 2.3 Population Composition (PSO-2.E, PSO-2.F)
+- 2.4 Population Dynamics (IMP-2.A)
+- 2.5 The Demographic Transition Model (IMP-2.B)
+- 2.6 Malthusian Theory (IMP-2.B)
+- 2.7 Population Policies (SPS-2.A)
+- 2.8 Women and Demographic Change (SPS-2.B)
+- 2.9 Aging Populations (SPS-2.C)
+- 2.10 Causes of Migration (IMP-2.C)
+- 2.11 Forced and Voluntary Migration (IMP-2.D)
+- 2.12 Effects of Migration (IMP-2.E)
+
+## Practice (46 items)
+
+### U2-P01 · Topic 2.1 · PSO-2.A · Skill 2.B · easy
+
+Large parts of northern Canada and northern Russia have very low population densities. Which physical factor best explains this pattern?
+
+- A. Frequent tropical storms that damage homes and destroy crops
+- B. A lack of rivers and lakes that can supply fresh water
+- C. Long, cold winters and short growing seasons that limit farming
+- D. Rugged, high mountains that cover most of the land and block travel
+- E. Frequent earthquakes and volcanic eruptions that make settlement dangerous
+
+**Answer: C**
+
+Explanation: Northern Canada and northern Russia (Siberia) are very cold for most of the year. Winters are long, the ground can stay frozen, and the growing season is too short for most crops. Because it is hard to grow food there, few people live there. Climate is one of the main physical factors that shape where people live.
+
+Why not:
+- A: Tropical cyclones form over warm tropical oceans, not in the Arctic.
+- B: These regions actually have many rivers and lakes. Water is not the problem; cold is.
+- D: Most of these regions are low plains and plateaus, such as the West Siberian Plain and the Canadian Shield. Cold is the main limit.
+- E: A few places, such as Russia's Kamchatka Peninsula, have active volcanoes, but most of the far north does not. Cold is the main limit.
+
+Vocab: population distribution, population density, physical factors
+
+### U2-P02 · Topic 2.1 · PSO-2.C · Skill 3.D · medium
+
+**Stimulus (table): POPULATION DENSITY IN FOUR COUNTRIES, 2024**
+
+| Country | Population | Land area (sq km) | Arable land (sq km) | Arithmetic density (people per sq km of land) | Physiological density (people per sq km of arable land) |
+|---|---|---|---|---|---|
+| Egypt | 116.5 million | 995,450 | 32,740 | 117 | 3,560 |
+| Netherlands | 18.0 million | 33,670 | 10,030 | 534 | 1,794 |
+| Japan | 124.0 million | 364,500 | 40,230 | 340 | 3,082 |
+| Canada | 41.3 million | 8,788,700 | 380,640 | 4.7 | 108 |
+
+Description: Table comparing Egypt, the Netherlands, Japan, and Canada: population, land area, arable land, arithmetic density, and physiological density in 2024.
+
+Source: World Bank, World Development Indicators: population (SP.POP.TOTL), land area (AG.LND.TOTL.K2), and arable land (AG.LND.ARBL.HA), 2024 values, accessed November 8, 2026. Arable land is land under temporary crops, temporary meadows, market and kitchen gardens, and land temporarily fallow; converted from hectares (100 hectares = 1 sq km). Population is shown rounded; densities were calculated from unrounded values.
+
+The data in the table best support which of the following conclusions?
+
+- A. Egypt has a lower arithmetic density than the Netherlands but more people per square kilometer of arable land.
+- B. Canada has the highest physiological density in the table because it has the largest total land area.
+- C. Japan's arithmetic density is higher than its physiological density because much of Japan is mountainous.
+- D. The Netherlands has the highest physiological density in the table because it has the highest arithmetic density.
+- E. Egypt and Canada have similar physiological densities because each has a small share of land that is arable.
+
+**Answer: A**
+
+Explanation: Arithmetic density divides people by ALL land. Physiological density divides people by only the arable land, the land used to grow crops. Egypt's arithmetic density (117) is lower than the Netherlands' (534). But only about 3% of Egypt's land is arable. Most of it lies along the Nile River and its delta. So Egypt has about 3,560 people per square kilometer of arable land, about twice the Netherlands' 1,794. Physiological density shows pressure on farmland better than arithmetic density does.
+
+Why not:
+- B: Canada has the LOWEST physiological density in the table (108). A huge land area spreads people out; it does not crowd them.
+- C: Physiological density can never be lower than arithmetic density, because arable land is just part of all land. Japan: 340 vs. 3,082.
+- D: The Netherlands has the highest arithmetic density (534), but its physiological density (1,794) is lower than Egypt's and Japan's.
+- E: Both have small shares of arable land, but Egypt has about 3,560 people per sq km of arable land and Canada about 108. Canada has far fewer people.
+
+Vocab: arithmetic density, physiological density, arable land
+
+### U2-P03 · Topic 2.1 · PSO-2.C · Skill 1.B · hard
+
+Country X and Country Y have about the same physiological density. However, Country X's agricultural density is five times as high as Country Y's. Which of the following best explains this difference?
+
+- A. Country X has much more arable land per person than Country Y has.
+- B. Country Y has a much larger total land area than Country X has.
+- C. Country X imports most of its food, so a smaller share of its people need to farm.
+- D. A larger share of Country X's people work as farmers than in Country Y.
+- E. Country Y has more people living on each square kilometer of arable land.
+
+**Answer: D**
+
+Explanation: Physiological density = all people ÷ arable land. Agricultural density = farmers ÷ arable land. If both countries have the same number of people per square kilometer of arable land, but X has five times as many FARMERS per square kilometer of arable land, then a much bigger share of X's people must be farmers. That often goes with farming that uses more hand labor and less machinery, but the density numbers alone cannot prove that.
+
+Why not:
+- A: More arable land per person would make X's physiological density LOWER, but the two countries' physiological densities are the same.
+- B: Total land area changes arithmetic density, not agricultural density.
+- C: Fewer farmers would make X's agricultural density lower, not higher.
+- E: People per square kilometer of arable land is physiological density, which the question says is about the same in both countries.
+
+Vocab: agricultural density, physiological density, arable land
+
+### U2-P04 · Topic 2.1 · PSO-2.A · Skill 5.B · medium
+
+**Stimulus (schematicMap): ARITHMETIC POPULATION DENSITY BY PROVINCE, COUNTRY Z (HYPOTHETICAL)**
+
+Map features: Coastal Province: 410 people per sq km; River Valley Province: 180 people per sq km; Highland Province: 35 people per sq km; Desert Province: 3 people per sq km
+
+Legend: More than 100 people per sq km; Fewer than 100 people per sq km; Ocean
+
+Note: Country Z as a whole: 16.1 million people on 250,000 sq km, an arithmetic density of about 64 people per sq km. Province areas: Coastal 20,000 sq km; River Valley 30,000 sq km; Highland 60,000 sq km; Desert 140,000 sq km. Map not drawn to scale.
+
+Description: Map of Country Z, which has four provinces in a row from the ocean on the west to the desert on the east. Each province is labeled with its arithmetic population density: Coastal Province 410, River Valley Province 180, Highland Province 35, and Desert Province 3 people per square kilometer.
+
+Source: Hypothetical data
+
+A government report describes Country Z as having a density of about 64 people per square kilometer. Based on the map, which statement best explains why this national figure gives an incomplete picture of where people live?
+
+- A. The national figure divides people by arable land, so it overstates how crowded the four provinces are.
+- B. The national average hides that most people live in the two western provinces, while the desert is nearly empty.
+- C. Provincial densities should not be compared with a national density, because the two use different units of measure.
+- D. The Highland Province's density is closest to the national figure, so most of Country Z's people live there.
+- E. The national figure measures physiological density, while the map shows agricultural density by province.
+
+**Answer: B**
+
+Explanation: The national number (about 64 per sq km) is an average for the whole country. The map zooms in to a more local scale of analysis, the province, and shows that people are very unevenly spread. About 84% of the people live in the Coastal and River Valley provinces, which cover only 20% of the land, while the Desert Province has about 3 people per sq km. Changing the scale of analysis can reveal patterns that an average hides.
+
+Why not:
+- A: Arithmetic density divides people by ALL land, not just arable land. The note says the national figure is an arithmetic density.
+- C: Both are people per square kilometer, so they can be compared. The problem is that one average hides big differences.
+- D: Highland's 35 is the closest number to 64, but most people live in the coastal and river-valley provinces (410 and 180 per sq km).
+- E: The map title and the note both say arithmetic density.
+
+Vocab: arithmetic density, scale of analysis, population distribution
+
+### U2-P05 · Topic 2.2 · PSO-2.D · Skill 2.C · easy
+
+A sparsely populated ranching region is hundreds of kilometers from the nearest large city. Which outcome is most likely for the people who live there?
+
+- A. They travel long distances for medical care, because few doctors and hospitals locate there.
+- B. They pay much higher land prices than city residents, because land in the region is scarce.
+- C. They rely on public buses and trains more than city residents do, because fewer families own cars.
+- D. They can choose among many specialized doctors, because clinics locate where land is cheapest.
+- E. They live closer to hospitals than city residents do, because land for building is cheap.
+
+**Answer: A**
+
+Explanation: Hospitals, specialists, and many other services need enough patients or customers nearby to stay open. Where few people live spread over a big area, there are fewer clinics and hospitals. People often drive long distances, and some places rely on telemedicine or flying-doctor services. Population density affects how services such as medical care are provided.
+
+Why not:
+- B: Land is usually cheaper in sparsely populated areas, because fewer people want it.
+- C: Sparse areas have little public transit, so rural residents depend on cars more, not less.
+- D: Specialists locate where many patients live, mostly in cities, not where land is cheapest.
+- E: Low density spreads services far apart, so rural residents are usually FARTHER from hospitals.
+
+Vocab: population density, provision of services, rural
+
+### U2-P06 · Topic 2.2 · PSO-2.D · Skill 1.D · medium
+
+Which of the following scenarios best illustrates a population exceeding the carrying capacity of its environment?
+
+- A. Herders add animals to a dry pasture until the grass cannot regrow and the soil erodes.
+- B. A city builds apartment towers so that more people can live on the same amount of land.
+- C. Farmers build terraces on steep hillsides so they can grow rice without losing their soil.
+- D. A rural village loses half of its people as young adults move away to work in cities.
+- E. A coastal town builds a desalination plant to supply fresh water to its new residents.
+
+**Answer: A**
+
+Explanation: Carrying capacity is the number of people (or animals) an environment can support over time with the resources and technology available. When herders keep more animals than the grass can feed, the animals eat plants faster than they regrow. Bare soil blows or washes away, and later the land can support even fewer animals. The herd has gone past the pasture's carrying capacity, and the people who depend on the herd may end up with less food.
+
+Why not:
+- B: Building up lets more people live in a small area. Density rises, but nothing shows the environment is being used up.
+- C: Terracing protects soil and helps land support more people. It works within the carrying capacity, not past it.
+- D: People moving away lowers pressure on the land. It does not show overuse.
+- E: Desalination is a technology that raises the number of people an area can supply with water.
+
+Vocab: carrying capacity, overgrazing, population density
+
+### U2-P07 · Topic 2.2 · PSO-2.D · Skill 2.B · medium
+
+Mexico City is one of the largest metropolitan areas in the world and is built on the bed of a former lake. Which of the following best explains why parts of the city have been sinking?
+
+- A. Rising sea levels have flooded the low-lying neighborhoods closest to the coast.
+- B. Volcanic eruptions have caused the ground under older neighborhoods to collapse.
+- C. Pumping huge amounts of groundwater for residents has made the soil compact.
+- D. Rivers flowing through the city have carved deep channels that undercut its neighborhoods.
+- E. Coal mining under the city has left large empty tunnels beneath the streets.
+
+**Answer: C**
+
+Explanation: Millions of people need water, and much of Mexico City's water is pumped from an aquifer under the city. Pumping out so much groundwater lowers the water pressure in the soft, clay-rich layers of the old lake bed. The clay compresses (packs down), so the ground above it sinks. Some areas sink tens of centimeters a year, which cracks pipes, buildings, and subway lines. This shows how a large, dense population can strain natural resources.
+
+Why not:
+- A: Mexico City is far inland and more than 2,000 meters above sea level, so sea-level rise is not the cause.
+- B: The region has earthquakes and nearby volcanoes, but eruptions are not what makes the city slowly sink.
+- D: Most of the valley's old rivers now run through pipes. The ground sinks because pumping groundwater makes the clay layers below compress.
+- E: Coal mining is not the cause. The ground sinks because pumping groundwater makes the clay layers below compress.
+
+Vocab: natural resources, population density, carrying capacity
+
+### U2-P08 · Topic 2.3 · PSO-2.E · Skill 1.A · easy
+
+A country reports a sex ratio of 105. What does this number mean?
+
+- A. There are 105 births each year for every 1,000 people.
+- B. There are 105 males for every 100 females.
+- C. There are 105 females for every 100 males.
+- D. There are 105 dependents for every 100 working-age people.
+- E. There are 105 infant deaths for every 1,000 live births.
+
+**Answer: B**
+
+Explanation: Sex ratio compares the number of males to the number of females. It is usually given as males per 100 females. A ratio of 105 means 105 males for every 100 females. Above 100 = more males; below 100 = more females.
+
+Why not:
+- A: Births per 1,000 people is the crude birth rate.
+- C: That flips it. Sex ratio is males per 100 females.
+- D: Dependents per 100 working-age people is the dependency ratio.
+- E: Infant deaths per 1,000 live births is the infant mortality rate.
+
+Vocab: sex ratio, population composition
+
+### U2-P09 · Topic 2.3 · PSO-2.F · Skill 3.E · medium
+
+**Stimulus (pyramid): POPULATION PYRAMID, COUNTRY C, 2025 (HYPOTHETICAL DATA)**
+
+| Age group | Male (% of total population) | Female (% of total population) |
+|---|---|---|
+| 0–4 | 2.4 | 2.2 |
+| 5–9 | 2.5 | 2.4 |
+| 10–14 | 2.6 | 2.5 |
+| 15–19 | 2.7 | 2.6 |
+| 20–24 | 2.8 | 2.7 |
+| 25–29 | 3 | 2.8 |
+| 30–34 | 3.1 | 3.1 |
+| 35–39 | 3.2 | 3.2 |
+| 40–44 | 3.1 | 3 |
+| 45–49 | 2.9 | 2.9 |
+| 50–54 | 3.2 | 3.2 |
+| 55–59 | 4.1 | 4.2 |
+| 60–64 | 4.2 | 4.4 |
+| 65–69 | 3.8 | 4.2 |
+| 70–74 | 2.4 | 2.8 |
+| 75–79 | 1.6 | 2 |
+| 80+ | 1.6 | 2.6 |
+
+Totals: male 49.2%, female 50.8%
+
+Description: Population pyramid for Country C: 16 five-year age groups from 0–4 to 75–79, plus an open-ended 80+ group, youngest at the bottom. Males are on the left and females on the right; bar length is the percent of the total population.
+
+Source: Hypothetical data
+
+Based on the population pyramid, demand for which of the following will most likely grow the most in Country C over the next 15 years?
+
+- A. Elementary schools and children's clothing
+- B. Maternity wards and child-care centers
+- C. College dormitories and entry-level jobs
+- D. Nursing homes and health care for older adults
+- E. Starter apartments for young, newly married couples
+
+**Answer: D**
+
+Explanation: The largest age groups are people now aged 55–69. In 15 years, those who survive will be 70–84. Older people need more doctor visits, medicines, home care, and nursing homes, so that is the strongest prediction. The smaller child groups give no sign of a coming jump in demand for schools or baby products, although future births and migration could change that. Population pyramids help predict markets for goods and services.
+
+Why not:
+- A: The child groups are smaller than the large groups nearing old age, so the pyramid gives much stronger support for older-adult services.
+- B: The pyramid does not show a large young group, so maternity wards and child care are not the strongest predicted increase.
+- C: The children and teens who will reach college age and start work in the next 15 years are small groups.
+- E: Today's 5- to 19-year-olds will be young adults in 15 years, and those groups are small.
+
+Vocab: population pyramid, age structure, aging population
+
+### U2-P10 · Topic 2.3 · PSO-2.E · Skill 3.C · hard
+
+**Stimulus (pyramid): POPULATION PYRAMID, COUNTRY G, 2025 (HYPOTHETICAL DATA)**
+
+| Age group | Male (% of total population) | Female (% of total population) |
+|---|---|---|
+| 0–4 | 3 | 2.8 |
+| 5–9 | 2.8 | 2.7 |
+| 10–14 | 2.5 | 2.4 |
+| 15–19 | 2.3 | 2 |
+| 20–24 | 7.4 | 2.3 |
+| 25–29 | 11.6 | 3 |
+| 30–34 | 12.5 | 3.2 |
+| 35–39 | 10.4 | 2.7 |
+| 40–44 | 7.7 | 2 |
+| 45–49 | 5.2 | 1.5 |
+| 50–54 | 3.4 | 1 |
+| 55–59 | 1.9 | 0.7 |
+| 60–64 | 0.9 | 0.5 |
+| 65–69 | 0.5 | 0.3 |
+| 70–74 | 0.2 | 0.2 |
+| 75–79 | 0.1 | 0.1 |
+| 80+ | 0.1 | 0.1 |
+
+Totals: male 72.5%, female 27.5%
+
+Description: Population pyramid for Country G: 16 five-year age groups from 0–4 to 75–79, plus an open-ended 80+ group, youngest at the bottom. Males are on the left and females on the right; bar length is the percent of the total population.
+
+Source: Hypothetical data
+
+Which of the following best explains the shape of Country G's population pyramid?
+
+- A. A pronatalist policy that raised birth rates sharply about 30 years ago
+- B. Sex-selective abortion that has favored male births since the 1990s
+- C. Immigration of large numbers of families with young children to Country G
+- D. A war that caused especially high death rates among working-age men
+- E. Large numbers of working-age men moving to Country G as guest workers
+
+**Answer: E**
+
+Explanation: Country G has far more men than women aged 20–49; in the 25–34 age groups there are almost four men for every woman. The children's bars, by contrast, are balanced. That pattern fits the arrival of many male workers from other countries. Countries that recruit many foreign workers for construction, oil and gas, and service jobs, such as Qatar and the United Arab Emirates, have pyramids with this shape. One pyramid suggests this explanation; other evidence would be needed to prove it.
+
+Why not:
+- A: A baby boom would widen the bars for both sexes at the same ages, not mostly the male bars.
+- B: The male surplus includes men in their 40s, who were born before the 1990s, while the youngest boys' and girls' bars are nearly balanced.
+- C: Families with young children would add to the children's bars and to both adult sexes, not create a large surplus of working-age men.
+- D: A war that killed many working-age men would shrink those male bars, not create the surplus shown.
+
+Vocab: population pyramid, sex ratio, guest worker
+
+### U2-P11 · Topic 2.3 · PSO-2.E · Skill 5.C · medium
+
+**Stimulus (table): AGE STRUCTURE OF A COUNTRY AND THREE OF ITS COUNTIES (HYPOTHETICAL DATA)**
+
+| Place | Under 15 (%) | 15–24 (%) | 25–64 (%) | 65 and older (%) |
+|---|---|---|---|---|
+| Country (national total) | 18 | 13 | 52 | 17 |
+| County U | 11 | 38 | 41 | 10 |
+| County R | 10 | 7 | 41 | 42 |
+| County F | 21 | 12 | 47 | 20 |
+
+Description: Table showing the percent of the population in four age groups for a whole country and for three of its counties, U, R, and F.
+
+Source: Hypothetical data
+
+Which of the following conclusions about population composition is best supported by the table?
+
+- A. County F's age structure shows that it is losing population faster than Counties U and R.
+- B. County U has the highest birth rate in the table, because it has the largest share of people aged 15–24.
+- C. County R is likely to need more new schools, because its population is older than the nation's population.
+- D. County F's age structure differs from the national pattern more than those of Counties U and R.
+- E. The national age structure hides large county differences in the shares of young adults and older adults.
+
+**Answer: E**
+
+Explanation: County U has 38% of its people aged 15–24, compared with 13% nationally. County R has 42% aged 65 or older, compared with 17% nationally. A national average can hide big local differences like these. Migration for college or retirement is one likely reason, but the table alone does not prove why the patterns developed.
+
+Why not:
+- A: The table shows age structure at one point in time. It does not show whether any county is growing or shrinking.
+- B: The table shows age groups, not births. County U's share of children (11%) is lower than the nation's (18%).
+- C: Older places need more health care and senior services, not more schools. County R has only 10% under 15.
+- D: County F's shares are all within 5 percentage points of the national shares. Counties U and R each differ by 25 points in one age group.
+
+Vocab: population composition, age structure, scale of analysis
+
+### U2-P12 · Topic 2.4 · IMP-2.A · Skill 1.A · easy
+
+Which of the following best describes the rate of natural increase (RNI)?
+
+- A. The number of children a woman would have in her lifetime if current fertility rates continued
+- B. The difference between immigrants and emigrants per 1,000 people
+- C. The crude birth rate minus the crude death rate, not counting migration
+- D. The number of years it will take a population to double in size
+- E. The number of deaths of children under age 1 per 1,000 live births
+
+**Answer: C**
+
+Explanation: RNI = crude birth rate minus crude death rate. It is usually shown as a percent, so you divide by 10. Example: a birth rate of 30 per 1,000 and a death rate of 10 per 1,000 gives 20 per 1,000, or 2.0%. RNI leaves out migration, so a country's real growth can be higher or lower than its RNI.
+
+Why not:
+- A: That is the total fertility rate (TFR).
+- B: That is the net migration rate. RNI leaves migration out.
+- D: That is the doubling time. With no migration and a steady, positive RNI, estimate it with 70 ÷ RNI (as a percent).
+- E: That is the infant mortality rate (IMR).
+
+Vocab: rate of natural increase, crude birth rate, crude death rate
+
+### U2-P13 · Topic 2.4 · IMP-2.A · Skill 3.C · hard
+
+**Stimulus (table): BIRTHS, DEATHS, AND POPULATION GROWTH IN FIVE COUNTRIES, 2024**
+
+| Country | Crude birth rate (births per 1,000 people) | Crude death rate (deaths per 1,000 people) | Population growth rate (%) |
+|---|---|---|---|
+| Niger | 41.4 | 8.7 | 3.3 |
+| India | 16.0 | 6.6 | 0.9 |
+| Canada | 8.9 | 7.9 | 3.0 |
+| Germany | 8.1 | 12.1 | 0.3 |
+| Japan | 5.7 | 13.3 | −0.4 |
+
+Description: Table of the 2024 crude birth rate, crude death rate, and population growth rate for Niger, India, Canada, Germany, and Japan.
+
+Source: World Bank, World Development Indicators: crude birth rate (SP.DYN.CBRT.IN), crude death rate (SP.DYN.CDRT.IN), and population growth (SP.POP.GROW), 2024 values, accessed November 8, 2026.
+
+According to the table, which country's population grew in 2024 even though it had more deaths than births, and what best explains that growth?
+
+- A. Japan, because more people moved into Japan than moved out
+- B. Germany, because more people moved into Germany than moved out
+- C. Canada, because its birth rate was much higher than its death rate
+- D. Germany, because its death rate fell below its birth rate during the year
+- E. Niger, because it had the highest rate of natural increase in the table
+
+**Answer: B**
+
+Explanation: Germany's death rate (12.1) was higher than its birth rate (8.1), so its rate of natural increase was negative: (8.1 − 12.1) ÷ 10 = −0.4%. Yet its population grew 0.3%. The only other way to add people is migration, so more people moved into Germany than moved out. Population change = natural increase + net migration.
+
+Why not:
+- A: Japan also had more deaths than births, but the table shows its population shrank (−0.4%).
+- C: Canada's birth rate (8.9) was only a little higher than its death rate (7.9), an RNI of 0.1%. Its 3.0% growth came mostly from migration, not births.
+- D: The table shows Germany's death rate (12.1) was higher than its birth rate (8.1).
+- E: Niger had far more births than deaths, so it does not fit the question.
+
+Vocab: rate of natural increase, net migration, crude death rate
+
+### U2-P14 · Topic 2.4 · IMP-2.A · Skill 1.D · medium
+
+Country Q has a crude birth rate of 31 per 1,000 and a crude death rate of 7 per 1,000. Assuming no migration and no change in these rates, about how long will it take Country Q's population to double?
+
+- A. About 3 years
+- B. About 10 years
+- C. About 23 years
+- D. About 29 years
+- E. About 168 years
+
+**Answer: D**
+
+Explanation: Step 1: RNI = (31 − 7) ÷ 10 = 2.4%. Step 2: Use the rule of 70: 70 ÷ 2.4 ≈ 29 years. A population growing 2.4% a year doubles in about 29 years.
+
+Why not:
+- A: You divided 70 by 24. First change 24 per 1,000 into a percent: 2.4%.
+- B: You used only the death rate (70 ÷ 7). Use birth rate minus death rate.
+- C: You used only the birth rate (70 ÷ 3.1). Subtract the death rate first.
+- E: You multiplied 70 by 2.4. Divide instead: 70 ÷ 2.4.
+
+Vocab: doubling time, rate of natural increase, rule of 70
+
+### U2-P15 · Topic 2.4 · IMP-2.A · Skill 2.B · medium
+
+In many rural farming areas of lower-income countries, families tend to have more children than families in the same countries' cities. Which of the following best explains this pattern?
+
+- A. Rural areas usually have more hospitals, so more babies survive to adulthood.
+- B. Rural families usually have higher incomes, so they can afford larger families.
+- C. Rural areas usually have more schools, so children are cheaper to educate.
+- D. Governments usually pay rural families more than city families for each child.
+- E. Rural families often rely on children for farm work and for care in old age.
+
+**Answer: E**
+
+Explanation: On a farm, children can help plant, herd animals, and carry water, so each child adds a worker. Where there are few pensions, grown children also care for their parents when they are old. In cities, children cost more (rent, school fees) and add less income. Economic factors like these help explain differences in fertility.
+
+Why not:
+- A: Rural areas usually have FEWER hospitals and doctors than cities.
+- B: Rural incomes are usually LOWER than city incomes.
+- C: Cities usually have more schools. And school costs tend to shrink families, not grow them.
+- D: Nothing in the scenario shows that government payments differ between rural and city families.
+
+Vocab: total fertility rate, economic factors, rural
+
+### U2-P16 · Topic 2.4 · IMP-2.A · Skill 1.B · medium
+
+Geographers often use the infant mortality rate (IMR) as an indicator of a country's overall health and living conditions. Which of the following best explains why?
+
+- A. Whether infants survive depends on clean water, nutrition, and medical care.
+- B. Infants make up the largest share of the population in most countries.
+- C. Infant deaths are the main reason that a population's median age rises.
+- D. A high IMR means a country's population is aging and its birth rate is falling.
+- E. The IMR includes deaths of adults as well as infants, so it describes the whole population.
+
+**Answer: A**
+
+Explanation: Babies are very fragile. Whether they live to age 1 depends on things like clean water, enough food for mothers and babies, vaccines, and doctors or nurses at birth. So a low IMR usually means good health care and living conditions, and a high IMR usually means those are missing. IMR = deaths of babies under age 1 per 1,000 live births.
+
+Why not:
+- B: Babies under age 1 are a small share of any population.
+- C: Median age rises mainly because birth rates fall and people live longer.
+- D: A high IMR is common where birth rates are high and the population is young.
+- E: The IMR counts only deaths of babies under age 1. The crude death rate counts deaths at all ages.
+
+Vocab: infant mortality rate, crude death rate
+
+### U2-P17 · Topic 2.5 · IMP-2.B · Skill 1.A · easy
+
+Which of the following best describes what happens during Stage 2 of the demographic transition model?
+
+- A. Birth and death rates are both high, so the population grows slowly.
+- B. Death rates fall sharply while birth rates stay high, so the population grows rapidly.
+- C. Birth rates fall sharply while death rates stay low, so population growth slows.
+- D. Birth and death rates are both low, so the population grows slowly or stays stable.
+- E. Birth rates drop below death rates, so the population begins to shrink.
+
+**Answer: B**
+
+Explanation: In Stage 2, better food supplies, clean water, and basic medicine help more people survive, so the death rate drops. Birth rates stay high because families have not yet changed how many children they have. The big gap between births and deaths makes the population grow fast. Some countries, such as Niger, still have Stage 2 patterns today.
+
+Why not:
+- A: That is Stage 1.
+- C: That is Stage 3.
+- D: That is Stage 4.
+- E: That is Stage 5, which some geographers add to the model.
+
+Vocab: demographic transition model, crude birth rate, crude death rate
+
+### U2-P18 · Topic 2.5 · IMP-2.B · Skill 3.C · medium
+
+**Stimulus (line): CRUDE BIRTH AND DEATH RATES, COUNTRY K, 1900–2020 (HYPOTHETICAL DATA)**
+
+| Year | Crude birth rate | Crude death rate |
+|---|---|---|
+| 1900 | 44 | 38 |
+| 1920 | 44 | 33 |
+| 1940 | 45 | 26 |
+| 1960 | 44 | 18 |
+| 1980 | 35 | 11 |
+| 2000 | 26 | 8 |
+| 2020 | 19 | 7 |
+
+Y-axis: Rate per 1,000 people (max 50)
+
+Description: Line graph of Country K's crude birth rate and crude death rate, per 1,000 people, every 20 years from 1900 to 2020.
+
+Source: Hypothetical data
+
+Which of the following most likely explains the change in Country K's crude birth rate between 1960 and 2020?
+
+- A. An increase in infant deaths made parents decide to have fewer children.
+- B. Cities grew, more girls stayed in school, and contraception became easier to get.
+- C. Many workers left factory jobs in growing cities and returned to farming villages.
+- D. A government policy began paying families a bonus for each new child.
+- E. A disease outbreak killed many adults of childbearing age in Country K.
+
+**Answer: B**
+
+Explanation: Between 1960 and 2020 the birth rate fell from 44 to 19 per 1,000. This pattern fits Stage 3 of the demographic transition. In Stage 3, more people move to cities where children cost more, girls and women get more education and jobs, and family planning is easier to get, so families choose to have fewer children.
+
+Why not:
+- A: Rising infant deaths usually lead families to have MORE children, to replace those who died. Also, the graph shows the crude death rate for everyone, not infant deaths.
+- C: A return to farming usually raises birth rates, so it does not explain a long, steady drop. Cities, schooling, and contraception fit the pattern better.
+- D: A bonus for having children is a pronatalist policy. It would push the birth rate up, not down.
+- E: An outbreak could lower births for a short time, but nothing on the graph shows one, and the decline lasted 60 years. Cities, schooling, and contraception explain it better.
+
+Vocab: demographic transition model, Stage 3, crude birth rate
+
+### U2-P19 · Topic 2.5 · IMP-2.B · Skill 1.B · easy
+
+According to the epidemiological transition model, as a country develops, the leading causes of death shift in which way?
+
+- A. From heart disease and cancer to infectious diseases such as cholera and measles
+- B. From accidents and violence to diseases spread by mosquitoes
+- C. From infectious and parasitic diseases to chronic diseases such as heart disease
+- D. From diseases of old age to diseases that mainly affect infants
+- E. From diseases spread by dirty water to diseases spread by spoiled or undercooked food
+
+**Answer: C**
+
+Explanation: In the early stages, infectious diseases (like cholera, measles, and tuberculosis) and food shortages cause many deaths, especially among children. As clean water, vaccines, and medicine spread, those deaths drop. People live longer, so more of them die later in life from chronic (degenerative) diseases like heart disease, cancer, and stroke. The epidemiological transition explains why death rates fall in the demographic transition.
+
+Why not:
+- A: That is backward. Infectious diseases were the leading killers first.
+- B: Mosquito-borne diseases like malaria are infectious diseases, which decline as countries develop.
+- D: As countries develop, fewer infants die, and deaths shift toward old age.
+- E: Both of these are infectious diseases. The model's shift is from infectious diseases to chronic ones.
+
+Vocab: epidemiological transition, infectious disease, chronic disease
+
+### U2-P20 · Topic 2.5 · IMP-2.B · Skill 1.E · medium
+
+Which of the following is a limitation of the demographic transition model when it is used to predict population change in lower-income countries today?
+
+- A. It leaves out birth rates, so it is unable to show why a country's growth speeds up or slows down.
+- B. It describes how individual cities grow, so it does not apply to a whole country's population.
+- C. It assumes that countries move backward from Stage 4 to Stage 1 as they develop and industrialize.
+- D. It counts migration as part of growth, so it overstates growth in countries that send many emigrants.
+- E. It is based on Europe's past, so it may not fit places where imported medicines cut death rates quickly.
+
+**Answer: E**
+
+Explanation: The DTM was built from the history of Europe and North America, where death rates fell slowly over many decades as farming, industry, and sanitation improved. In many lower-income countries in the 1900s, vaccines and antibiotics from abroad cut death rates within a few decades, often before much industry developed. Birth rates also fall at different speeds because of culture and government policy. So the model may not predict when or how fast these countries move through the stages.
+
+Why not:
+- A: Birth rates are one of the two main lines in the model.
+- B: The DTM describes the population of a country, not how individual cities grow.
+- C: Countries are expected to move forward from Stage 1 toward Stage 4, not backward.
+- D: The DTM uses only births and deaths. Leaving migration out is actually another one of its limits.
+
+Vocab: demographic transition model, limitations of models
+
+### U2-P21 · Topic 2.6 · IMP-2.B · Skill 1.A · easy
+
+In 1798, Thomas Malthus predicted that famine and other disasters would eventually limit population growth. Which reasoning was the basis of his prediction?
+
+- A. Population tends to grow geometrically, while food supply grows only arithmetically.
+- B. Food supply tends to grow geometrically, while population grows only arithmetically.
+- C. Birth rates fall as countries industrialize, so populations will soon begin to shrink.
+- D. Population growth leads farmers to adopt new methods that raise food production.
+- E. Migration to cities will leave too few farmers in the countryside to grow enough food.
+
+**Answer: A**
+
+Explanation: Malthus said population grows geometrically (1, 2, 4, 8, 16…), because each generation can double. Food supply grows arithmetically (1, 2, 3, 4, 5…), adding about the same amount each time. Sooner or later, people would outnumber the food. He thought 'positive checks' like famine, disease, and war would then raise death rates, unless people married later and had fewer children.
+
+Why not:
+- B: That flips Malthus's idea. He said population, not food, grows faster.
+- C: That describes later stages of the demographic transition model, an idea developed long after Malthus.
+- D: That is Ester Boserup's argument, which criticizes Malthus.
+- E: Malthus focused on population growing faster than food, not on migration to cities.
+
+Vocab: Malthusian theory, geometric growth, arithmetic growth
+
+### U2-P22 · Topic 2.6 · IMP-2.B · Skill 2.E · medium
+
+**Stimulus (line): POPULATION AND FOOD PRODUCTION IN COUNTRY N, 1960–2020 (INDEX, 1960 = 100) (HYPOTHETICAL DATA)**
+
+| Year | Population | Food production |
+|---|---|---|
+| 1960 | 100 | 100 |
+| 1970 | 125 | 135 |
+| 1980 | 155 | 180 |
+| 1990 | 185 | 230 |
+| 2000 | 213 | 285 |
+| 2010 | 240 | 340 |
+| 2020 | 265 | 395 |
+
+Y-axis: Index (1960 = 100) (max 400)
+
+Description: Line graph with two lines, population and food production, for Country N from 1960 to 2020. Both lines are index numbers that start at 100 in 1960.
+
+Source: Hypothetical data
+
+To what degree does Malthusian theory explain the trends in Country N shown in the graph?
+
+- A. It explains them well, because population grew geometrically and caused famine by 2000.
+- B. It explains them well, because food grew arithmetically while population grew faster.
+- C. It explains them partly, because population and food production grew at the same rate.
+- D. It explains them poorly, because food production grew faster than population did.
+- E. It explains them poorly, because Country N's population declined after 1960.
+
+**Answer: D**
+
+Explanation: Malthus predicted population would outgrow food. In Country N the opposite happened: from 1960 to 2020, population grew to 2.65 times its 1960 level, but food production grew to 3.95 times. That means about 49% more food per person (395 ÷ 265 ≈ 1.49). This does not fit Malthus's prediction, though the graph cannot show whether every family had enough to eat. Critics of Malthus point to cases like this, where new farming technology raised food output faster than population.
+
+Why not:
+- A: Food production grew faster than population, but the graph does not show whether famine happened or how food was shared.
+- B: Food production (395) grew faster than population (265), the opposite of what Malthus predicted.
+- C: The two lines split apart after 1960. Food production grew much faster.
+- E: Population rose every decade, from 100 to 265.
+
+Vocab: Malthusian theory, critiques of Malthus, Green Revolution
+
+### U2-P23 · Topic 2.6 · IMP-2.B · Skill 1.C · hard
+
+Which of the following best describes how neo-Malthusians, such as Paul Ehrlich, built on the ideas of Thomas Malthus?
+
+- A. They argued that population growth encourages farmers to invent better tools and farming methods.
+- B. They predicted that birth rates would rise again once countries reach the last stage of the demographic transition.
+- C. They argued that hunger results mainly from poverty and unequal food distribution, not from too many people.
+- D. They warned that growing populations also use up water, energy, and other resources and harm the environment.
+- E. They argued that new technology lets food supply grow faster than population, so famine is unlikely.
+
+**Answer: D**
+
+Explanation: Malthus focused on food. Neo-Malthusians, like Paul Ehrlich in The Population Bomb (1968), widened the worry: more people also means more demand for water, energy, land, and minerals, plus more pollution. They argue that Earth has a carrying capacity, and many support family planning to slow growth.
+
+Why not:
+- A: That is Ester Boserup's critique of Malthus, not a neo-Malthusian idea.
+- B: Neo-Malthusians worry about too much growth. They did not predict birth rates rising again.
+- C: That is a critique of Malthus. These critics say poverty and unequal distribution, not population size, cause hunger.
+- E: That is the hopeful view of Malthus's critics, the opposite of a neo-Malthusian warning.
+
+Vocab: neo-Malthusian, Malthusian theory, carrying capacity
+
+### U2-P24 · Topic 2.7 · SPS-2.A · Skill 1.D · easy
+
+A government offers families a cash payment for each baby, extends paid parental leave, and pays for most child-care costs. These steps are best described as
+
+- A. an antinatalist policy
+- B. an immigration policy
+- C. a pronatalist policy
+- D. a family-planning program
+- E. a guest worker program
+
+**Answer: C**
+
+Explanation: Pronatalist policies try to raise the birth rate. Cash for babies, paid leave, and cheaper child care lower the cost of raising children, so families may decide to have more. France and several other European and East Asian countries use policies like these because their fertility rates are below replacement level (about 2.1 children per woman).
+
+Why not:
+- A: Antinatalist policies try to LOWER the birth rate.
+- B: Immigration policies control who can move into a country. These steps are about births.
+- D: Family-planning programs help people decide whether, when, and how many children to have. These steps are cash and workplace rewards meant to raise births.
+- E: Guest worker programs bring in temporary foreign workers. They do not reward births.
+
+Vocab: pronatalist policy, antinatalist policy, replacement level
+
+### U2-P25 · Topic 2.7 · SPS-2.A · Skill 2.C · medium
+
+China's one-child policy, in place from about 1980 until 2015, limited most urban couples to one child. Which of the following is a long-term consequence of this policy?
+
+- A. A sharp rise in the share of children under age 15 in China's population
+- B. A large increase in China's total fertility rate during the 1990s
+- C. A sex ratio at birth that favored girls over boys for several decades
+- D. A large wave of older adults emigrating from China to retire abroad
+- E. A rapidly aging population and more boys than girls born for many years
+
+**Answer: E**
+
+Explanation: The one-child policy helped make younger generations smaller, so China is now aging quickly and its workforce is shrinking. Longer lives and economic changes also played a part, and China's birth rate had already been falling before 1980. Because many families preferred sons and some used prenatal sex selection, far more boys than girls were born for many years. China switched to a two-child policy in 2016 and a three-child policy in 2021.
+
+Why not:
+- A: Fewer births made the share of children go DOWN, not up.
+- B: The policy lowered fertility. China's TFR fell well below replacement level.
+- C: It was the reverse: more boys than girls were born.
+- D: China's aging comes from low births and longer lives, not from older people leaving.
+
+Vocab: antinatalist policy, sex ratio, aging population
+
+### U2-P26 · Topic 2.7 · SPS-2.A · Skill 2.C · easy
+
+Country P adopts a points-based system for choosing work-visa immigrants. Applicants earn points for university degrees, job skills in demand, language ability, and being of working age. Which outcome is most likely?
+
+- A. Most immigrants admitted this way will be retirees moving to join their adult children.
+- B. Immigrants admitted this way will tend to be younger, skilled workers who add to the labor force.
+- C. Most immigrants admitted this way will be refugees fleeing armed conflict in neighboring countries.
+- D. Over time, the share of Country P's population aged 65 and older will rise more quickly.
+- E. Most immigrants admitted this way will be seasonal farmworkers who leave again after a few months.
+
+**Answer: B**
+
+Explanation: A points system picks immigrants based on what the country wants. Points for degrees, needed skills, language, and age favor young, educated workers. That adds people to the working-age part of the population pyramid, which can help a country with low birth rates. Canada and Australia are well-known users of points-based systems.
+
+Why not:
+- A: Points for being of working age make retirees less likely to qualify.
+- C: The points system described picks applicants by age and skills; it is not a program for admitting people who need protection.
+- D: Adding young workers slows aging. It does not speed it up.
+- E: Points for degrees, in-demand skills, and language ability favor skilled workers who come to stay and work, not short-term seasonal laborers.
+
+Vocab: immigration policy, labor force, working-age population
+
+### U2-P27 · Topic 2.8 · SPS-2.B · Skill 3.D · medium
+
+**Stimulus (bar): AVERAGE TOTAL FERTILITY RATE OF DISTRICTS IN COUNTRY E, GROUPED BY SHARE OF WOMEN AGED 20–24 WHO COMPLETED SECONDARY SCHOOL (HYPOTHETICAL DATA)**
+
+| Category | Average total fertility rate (children per woman) |
+|---|---|
+| Under 20% | 5.9 |
+| 20–39% | 4.8 |
+| 40–59% | 3.6 |
+| 60–79% | 2.6 |
+| 80% or more | 1.9 |
+
+Y-axis: Children per woman (max 7)
+
+Text: Each district in Country E is placed in one group based on the share of its women aged 20–24 who completed secondary school.
+
+Description: Bar chart with five groups of districts. Districts where under 20% of young women completed secondary school average 5.9 children per woman; 20–39%, 4.8; 40–59%, 3.6; 60–79%, 2.6; 80% or more, 1.9.
+
+Source: Hypothetical data
+
+Which of the following conclusions is best supported by the chart?
+
+- A. Districts where more women finished secondary school tend to have lower fertility rates.
+- B. Districts in the highest education group still have fertility above replacement level.
+- C. Moving from the 60–79% group to the top group lowers fertility by about two children.
+- D. Fertility in the lowest education group is about twice the fertility in the top group.
+- E. The chart proves that schooling by itself made fertility fall in each district over time.
+
+**Answer: A**
+
+Explanation: Going from districts where few women finished secondary school to districts where most did, the average fertility rate drops step by step, from 5.9 to 1.9 children per woman. Your AP course guide says more education, jobs, health care, and access to contraception for women have lowered fertility in most of the world. The chart shows a link (a correlation); by itself it does not prove the cause.
+
+Why not:
+- B: Replacement level is about 2.1. The top group's 1.9 is below replacement.
+- C: The drop from 2.6 to 1.9 is about 0.7 children, not 2.
+- D: 5.9 is about three times 1.9, not twice.
+- E: The chart compares districts at one point in time. It shows a pattern, not proof of a single cause or of change over time.
+
+Vocab: total fertility rate, replacement level, correlation
+
+### U2-P28 · Topic 2.8 · SPS-2.B · Skill 1.B · medium
+
+As more women in a country take paid jobs outside the home, the country's total fertility rate often falls. Which of the following best explains this relationship?
+
+- A. Paid jobs lead women to marry earlier, which gives them more years to have children.
+- B. Paid jobs usually require women to move to rural areas, where families are smaller.
+- C. Countries with more working women usually pass laws that limit how many children families have.
+- D. Paid jobs can delay childbearing and raise the income parents give up to care for children.
+- E. Women with paid jobs usually have less access to health care and to contraception.
+
+**Answer: D**
+
+Explanation: When women have careers, many choose to finish school and start working before they marry or have children. Starting later leaves fewer years to have children. Also, each child can mean time away from a paying job (economists call this an opportunity cost), so many families choose to have fewer children.
+
+Why not:
+- A: Marrying earlier would usually mean more years for having children, so it would not explain lower fertility.
+- B: Paid jobs are more common in cities, and rural families are usually larger, not smaller.
+- C: Few countries limit family size by law. Lower fertility here comes mostly from families' own choices.
+- E: Women with paid jobs usually have MORE access to health care and contraception.
+
+Vocab: total fertility rate, women and demographic change, opportunity cost
+
+### U2-P29 · Topic 2.8 · SPS-2.B · Skill 1.D · medium
+
+In the 1880s, E. G. Ravenstein observed that women most often migrated short distances within their home country. Today, many women migrate to other countries for paid work. Which of the following best explains this present-day pattern?
+
+- A. Laws in most countries now limit men's emigration, so more women move abroad instead.
+- B. Women today have more children than in the 1880s, so whole families move abroad together.
+- C. Most international moves are now short trips across one border, like women's moves in the 1880s.
+- D. Women's economic roles have expanded, and many now move abroad for jobs such as nursing.
+- E. Destination countries now give women's visa applications priority over applications from men.
+
+**Answer: D**
+
+Explanation: Ravenstein's laws describe migration in the 1800s, when most women's moves were short, for example from farms to nearby towns to work as household servants. His laws were patterns he observed, not rules that never change. Since then, women's education and job opportunities have grown, and employers in other countries recruit women for work such as nursing, caregiving, and domestic and service jobs. UN data show that women and girls were about 48% of international migrants in 2024.
+
+Why not:
+- A: Countries do not generally stop men from leaving. Men are still a little more than half of international migrants.
+- B: Women today have FEWER children than in the 1880s.
+- C: International migrants move many different distances, and short moves do not explain why so many women now migrate abroad for work.
+- E: There is no general rule that favors women's visas. The pattern comes from women's growing job opportunities.
+
+Vocab: Ravenstein's laws of migration, international migration, women and demographic change
+
+### U2-P30 · Topic 2.9 · SPS-2.C · Skill 1.A · easy
+
+The dependency ratio compares which groups in a population?
+
+- A. The number of people who live in cities and the number who live in rural areas
+- B. The number of men and the number of women in the same age group
+- C. The number of births and the number of deaths in a single year
+- D. The number of immigrants and the number of emigrants in a single year
+- E. People under age 15 or age 65 and older, compared with people aged 15 to 64
+
+**Answer: E**
+
+Explanation: Dependency ratio = (people aged 0–14 + people 65 and older) ÷ people aged 15–64 × 100. It compares age groups. Children and older adults are called 'dependents' because many do not work full-time, but the ratio does not count who actually has a job. A higher ratio means more potential pressure on people of working age.
+
+Why not:
+- A: That compares the urban and rural population.
+- B: That is the sex ratio.
+- C: Comparing births and deaths gives natural increase, not the dependency ratio.
+- D: That is net migration.
+
+Vocab: dependency ratio, aging population
+
+### U2-P31 · Topic 2.9 · SPS-2.C · Skill 3.C · medium
+
+**Stimulus (table): POPULATION OF COUNTRY T BY BROAD AGE GROUP, 2025 (HYPOTHETICAL DATA)**
+
+| Age group | Population (millions) |
+|---|---|
+| 0–14 | 9.6 |
+| 15–64 | 40.0 |
+| 65 and older | 14.4 |
+| Total | 64.0 |
+
+Description: Table of Country T's population in three broad age groups, in millions: 0–14, 9.6; 15–64, 40.0; 65 and older, 14.4; total, 64.0.
+
+Source: Hypothetical data
+
+Based on the table, what is Country T's dependency ratio?
+
+- A. 24
+- B. 36
+- C. 60
+- D. 62.5
+- E. 167
+
+**Answer: C**
+
+Explanation: Dependents are ages 0–14 and 65+: 9.6 + 14.4 = 24.0 million. Working-age people (15–64): 40.0 million. Dependency ratio = 24.0 ÷ 40.0 × 100 = 60. So there are 60 people aged 0–14 or 65 and older for every 100 people aged 15–64. (The ratio counts ages, not who actually works.)
+
+Why not:
+- A: 24 counts only the children (9.6 ÷ 40 × 100). Add the people 65 and older too.
+- B: 36 counts only the people 65 and older (14.4 ÷ 40 × 100). Add the children too.
+- D: 62.5 is working-age people as a percent of the total (40 ÷ 64 × 100).
+- E: 167 flips the fraction (40 ÷ 24 × 100). Put the dependents on top.
+
+Vocab: dependency ratio, working-age population
+
+### U2-P32 · Topic 2.9 · SPS-2.C · Skill 2.C · medium
+
+In Country S, life expectancy is rising, and the fertility rate has been below replacement level for 30 years. Which of the following is the most likely economic consequence over the next 20 years?
+
+- A. Fewer workers paying taxes for each retiree, straining pension and health systems
+- B. A growing number of young workers competing for a shrinking number of jobs
+- C. Rising demand for new elementary schools as the number of children increases
+- D. A falling dependency ratio as more and more people move into the working-age group
+- E. A rapid rise in the crude birth rate as the large older generation retires
+
+**Answer: A**
+
+Explanation: Low fertility means fewer young people are growing up to become workers. Longer lives mean more people are retired, and for longer. So each worker pays taxes that support more retirees, and health care costs rise. Governments may respond by raising the retirement age, raising taxes, cutting benefits, encouraging births, or admitting more working-age immigrants. Japan and Italy face this challenge today.
+
+Why not:
+- B: Low fertility means FEWER young workers, so labor shortages are more likely than job competition.
+- C: With fertility below replacement for 30 years, new groups of children stay small, so there is no sign of a growing need for elementary schools.
+- D: The scenario points to more older people for each working-age adult, so the dependency ratio is likely to RISE, not fall.
+- E: Retiring does not raise birth rates. An older population usually has a LOWER crude birth rate.
+
+Vocab: aging population, dependency ratio, replacement level
+
+### U2-P33 · Topic 2.10 · IMP-2.C · Skill 1.D · easy
+
+Several years of drought destroy crops in a farming region, and many families move to cities in another part of the country. The drought is best described as which type of migration factor?
+
+- A. An economic pull factor
+- B. A political push factor
+- C. An environmental push factor
+- D. A cultural pull factor
+- E. An intervening opportunity along the way
+
+**Answer: C**
+
+Explanation: A push factor makes people want to LEAVE a place. A drought comes from the natural environment, so it is an environmental push factor. Floods, hurricanes, and rising sea levels are other environmental push factors.
+
+Why not:
+- A: Pull factors attract people TO a place, like jobs in a city. The drought pushes people away.
+- B: Political push factors include war, persecution, and unfair laws. A drought is a natural event.
+- D: Cultural pull factors include joining a community that shares your language or religion.
+- E: An intervening opportunity is a chance found along the way that makes a migrant stop before reaching the planned destination.
+
+Vocab: push factor, pull factor, environmental factors
+
+### U2-P34 · Topic 2.10 · IMP-2.C · Skill 1.D · medium
+
+Amina leaves her village planning to look for work in the capital city, 600 kilometers away. On the way, she stops in a mining town 200 kilometers from home, finds a good job, and settles there. Her decision to stay in the mining town is an example of
+
+- A. an intervening obstacle
+- B. a forced migration
+- C. an intervening opportunity
+- D. chain migration
+- E. a political push factor at the origin
+
+**Answer: C**
+
+Explanation: An intervening opportunity is a chance (like a job) found between where a migrant started and where she planned to go, so she stops early. Amina found a job in the mining town, so she never went on to the capital. An intervening obstacle is the opposite: something that blocks or slows a move, like a mountain range or a strict border.
+
+Why not:
+- A: An obstacle blocks a move. Amina was not blocked; she found something better along the way.
+- B: Amina chose to move, so this is voluntary migration.
+- D: Chain migration means following family or friends who moved earlier. Amina followed a job.
+- E: Political push factors include war and persecution. Amina left to find work, an economic reason.
+
+Vocab: intervening opportunity, intervening obstacle, voluntary migration
+
+### U2-P35 · Topic 2.10 · IMP-2.C · Skill 3.C · medium
+
+**Stimulus (bar): PEOPLE WHO MOVED TO CITY M IN 2025, BY DISTANCE FROM THEIR PREVIOUS HOME (HYPOTHETICAL DATA)**
+
+| Category | Migrants (thousands) |
+|---|---|
+| Under 50 km | 42 |
+| 50–199 km | 24 |
+| 200–499 km | 12 |
+| 500–999 km | 6 |
+| 1,000 km or more | 4 |
+
+Y-axis: Thousands of migrants (max 50)
+
+Description: Bar chart of people who moved to City M in 2025, grouped by how far away they lived before: under 50 km, 42 thousand; 50–199 km, 24 thousand; 200–499 km, 12 thousand; 500–999 km, 6 thousand; 1,000 km or more, 4 thousand.
+
+Source: Hypothetical data
+
+Which factor could best help explain the pattern shown in the chart?
+
+- A. Political conflict forced people in distant areas to relocate.
+- B. Friends and relatives in City M provided distant migrants with free housing.
+- C. Fast, inexpensive trains made long-distance trips easier than local trips.
+- D. Recruiters offered larger travel grants to people living farther from City M.
+- E. Longer moves cost more and required more information about the destination.
+
+**Answer: E**
+
+Explanation: Of the 88,000 migrants shown, 66,000 (75%) came from less than 200 km away, and only 4,000 came from 1,000 km or more. Longer moves cost more and require more information about jobs and housing, so distance itself acts as an intervening obstacle. Ravenstein noticed this pattern in the 1880s: most migrants move a short distance (distance decay). The chart fits this explanation, though it does not show why each person moved.
+
+Why not:
+- A: Conflict in distant areas would push MORE people from far away; it does not explain why nearby origins dominate the chart.
+- B: Free housing would lower a barrier for distant migrants, so more of them would come, not fewer.
+- C: Easier long-distance travel would shrink the obstacle that distance creates.
+- D: Larger grants would lower distant migrants' moving costs, so more of them would come.
+
+Vocab: distance decay, intervening obstacle, Ravenstein's laws of migration
+
+### U2-P36 · Topic 2.11 · IMP-2.D · Skill 1.D · easy
+
+Fighting between armed groups forces thousands of families to leave their homes. They move to a camp in another province of the same country. These families are best described as
+
+- A. refugees
+- B. internally displaced persons
+- C. asylum seekers awaiting a decision
+- D. guest workers
+- E. transnational migrants
+
+**Answer: B**
+
+Explanation: Internally displaced persons (IDPs) are forced to flee their homes but stay inside their own country. These families did not cross an international border, so they are IDPs, not refugees. Refugees have crossed into another country to escape war, violence, or persecution.
+
+Why not:
+- A: Refugees have crossed an international border. These families stayed in their own country.
+- C: Asylum seekers have asked another country for protection and are waiting for a decision.
+- D: Guest workers are admitted to another country for temporary jobs. These families did not cross an international border, and no job program is described.
+- E: Transnational migrants live in one country while keeping strong ties to another. These families were forced to move within their own country.
+
+Vocab: internally displaced persons, refugee, forced migration
+
+### U2-P37 · Topic 2.11 · IMP-2.D · Skill 4.B · medium
+
+**Stimulus (schematicMap): ONE FAMILY'S MOVES WITHIN COUNTRY W, 1998–2015 (HYPOTHETICAL)**
+
+Map features: Village; Market town; Regional city; Capital city; Move 1 (1998): village to market town; Move 2 (2006): market town to regional city; Move 3 (2015): regional city to capital city
+
+Legend: Country W; Settlement (larger circle = larger population)
+
+Description: Map of Country W. Arrows show one family's three moves: from a village to a market town in 1998, from the market town to a regional city in 2006, and from the regional city to the capital city in 2015. Each place is larger than the one before it.
+
+Source: Hypothetical map
+
+The map shows the moves made by one family over 17 years. Which type of migration does it best illustrate?
+
+- A. Step migration
+- B. Chain migration
+- C. Transhumance
+- D. Forced migration
+- E. Transnational migration
+
+**Answer: A**
+
+Explanation: Step migration means moving in a series of smaller steps, usually from smaller places to bigger ones: village → market town → regional city → capital. Ravenstein noticed this pattern in the 1880s. Each step can give migrants time to save money and get used to city life before the next move.
+
+Why not:
+- B: Chain migration means following relatives or friends who moved earlier. The map shows one family's own moves.
+- C: Transhumance is moving herds between seasonal pastures and back again every year.
+- D: Nothing on the map shows that the family was forced to move.
+- E: Transnational migrants move to another country and keep ties to both. These moves all stay inside Country W.
+
+Vocab: step migration, internal migration, rural-to-urban migration
+
+### U2-P38 · Topic 2.11 · IMP-2.D · Skill 1.D · medium
+
+In the early 1900s, a man from a small town in southern Italy moved to Buenos Aires, Argentina. Over the next 20 years, his brothers, cousins, and neighbors followed him, helped by his letters and money, and settled in the same neighborhood. This pattern is best described as
+
+- A. step migration
+- B. forced migration
+- C. internal migration
+- D. chain migration
+- E. transhumance
+
+**Answer: D**
+
+Explanation: Chain migration happens when migrants follow family members or friends who moved before them. The first migrants send information and money and help with housing and jobs, so the next people can move more easily. It explains why people from one place often cluster in one neighborhood, like many Italian families in Buenos Aires.
+
+Why not:
+- A: Step migration is one migrant moving in stages, like village → town → city.
+- B: The scenario shows family ties helping people move. It gives no sign of force or persecution.
+- C: They crossed an ocean to another country. That is international, not internal, migration.
+- E: Transhumance is moving with livestock between seasonal pastures.
+
+Vocab: chain migration, voluntary migration, international migration
+
+### U2-P39 · Topic 2.11 · IMP-2.D · Skill 1.D · medium
+
+A nurse from the Philippines works in a hospital in Canada. She sends money to her parents in Manila every month, video-calls her family daily, votes in Philippine elections from abroad, and plans to retire in the Philippines. She is best described as
+
+- A. an internally displaced person
+- B. an asylum seeker
+- C. a step migrant
+- D. a refugee
+- E. a transnational migrant
+
+**Answer: E**
+
+Explanation: A transnational migrant lives in one country but keeps strong ties to another: sending money home (remittances), staying in close contact, taking part in politics back home, and often planning to return. Cheap calls, video chats, and air travel make it easier than ever to live 'between' two countries.
+
+Why not:
+- A: IDPs are forced to flee but stay inside their own country.
+- B: Nothing in the scenario says she is asking for protection. It describes the ties she keeps with two countries.
+- C: Step migration is a series of moves from smaller to larger places. Nothing here shows steps.
+- D: Nothing in the scenario describes fleeing war, violence, or persecution. It describes the ties she keeps after moving.
+
+Vocab: transnational migration, remittances, voluntary migration
+
+### U2-P40 · Topic 2.12 · IMP-2.E · Skill 3.D · medium
+
+**Stimulus (table): PERSONAL REMITTANCES RECEIVED BY SIX COUNTRIES, 2024**
+
+| Country | Remittances received (billions of US dollars) | Remittances received, as a percentage of GDP |
+|---|---|---|
+| India | 137.7 | 3.7 |
+| Mexico | 67.9 | 3.7 |
+| Philippines | 40.3 | 8.7 |
+| Nepal | 11.3 | 26.0 |
+| Tajikistan | 6.8 | 47.2 |
+| Tonga | 0.26 | 39.4 |
+
+Description: Table of personal remittances received in 2024 by India, Mexico, the Philippines, Nepal, Tajikistan, and Tonga, in billions of US dollars and as a percent of each country's GDP.
+
+Source: World Bank, World Development Indicators: personal remittances, received (current US$) (BX.TRF.PWKR.CD.DT) and personal remittances, received (% of GDP) (BX.TRF.PWKR.DT.GD.ZS), 2024 values, accessed November 8, 2026.
+
+Which of the following conclusions is best supported by the table?
+
+- A. India depends more on remittances than Nepal does, because India receives far more money in total.
+- B. The countries with the largest populations depend most heavily on remittances.
+- C. The two largest recipients of remittances have the lowest remittance-to-GDP ratios in the table.
+- D. Tonga's remittances are too small to matter much compared with the size of its economy.
+- E. Remittances make up a larger share of the economy in the Philippines than in Nepal.
+
+**Answer: C**
+
+Explanation: Look at both columns. India and Mexico receive the most money ($137.7 billion and $67.9 billion), but their economies are so big that these amounts equal only about 3.7% of their GDP, the lowest percentages in the table. Tajikistan (47.2%), Tonga (39.4%), and Nepal (26.0%) receive far less money, but it equals a large percentage of their GDP. For those countries, a recession in the places where their migrants work can have big effects at home.
+
+Why not:
+- A: Remittances are 26.0% of Nepal's GDP but only 3.7% of India's, so Nepal depends on them more.
+- B: The table does not list populations, but India and Mexico, the most populous countries in it, have the lowest percentages (3.7%).
+- D: Tonga's remittances are only $0.26 billion, but that equals 39.4% of its GDP.
+- E: Remittances are 8.7% of GDP in the Philippines and 26.0% in Nepal.
+
+Vocab: remittances, gross domestic product (GDP), effects of migration
+
+### U2-P41 · Topic 2.12 · IMP-2.E · Skill 2.C · medium
+
+Over 20 years, many doctors and nurses trained in Country D move to higher-income countries for better pay. Which of the following is the most likely effect on Country D?
+
+- A. A reduced supply of health-care workers to serve patients in Country D
+- B. A surplus of doctors that lowers wages for health-care workers in Country D
+- C. A brain gain that increases the number of medical specialists in Country D
+- D. A sharp rise in Country D's birth rate as more young adults stay at home
+- E. A drop in the money that families in Country D receive from relatives abroad
+
+**Answer: A**
+
+Explanation: This is brain drain: highly educated, skilled people emigrate. If new graduates and returning migrants do not replace the doctors and nurses who leave, patients in Country D may face longer waits and fewer services. Money sent home can help families, but it does not replace the lost health workers.
+
+Why not:
+- B: Doctors are leaving, so there would be fewer, not more.
+- C: A brain gain happens in the countries that receive the doctors, not in Country D.
+- D: Nothing in the scenario suggests that more young adults are staying home or that births are rising.
+- E: Higher pay abroad usually means migrants can send MORE money home, not less.
+
+Vocab: brain drain, remittances, effects of migration
+
+### U2-P42 · Topic 2.12 · IMP-2.E · Skill 1.D · medium
+
+Which of the following is the best example of a political effect of migration?
+
+- A. Restaurants serving migrants' home cooking open in a destination city's downtown.
+- B. A party in a destination country wins seats by promising to limit immigration.
+- C. Migrants send home money that pays for new houses in their home villages.
+- D. Children of migrants grow up speaking both their parents' language and the local one.
+- E. A destination country's construction industry fills jobs with migrant workers.
+
+**Answer: B**
+
+Explanation: Political effects involve laws, governments, voting, and power. When migration becomes a big election issue, parties can gain or lose seats because of their immigration plans, and governments may change border and citizenship laws. Migration also has economic effects (jobs, remittances) and cultural effects (food, language, religion).
+
+Why not:
+- A: New restaurants are a cultural (and economic) effect: the spread of food traditions.
+- C: Money sent home (remittances) is an economic effect.
+- D: Children who speak two languages is a cultural effect.
+- E: Filling jobs with migrant workers is an economic effect.
+
+Vocab: effects of migration, political effects, cultural effects
+
+### U2-P43 · Topic 2.11 · IMP-2.D · Skill 1.D · easy
+
+During a civil war, members of a family in Country R are threatened because of their ethnic group. They cross the border into Country S and ask for protection. Country S approves their claim because they would face persecution if they returned. The family members are now best described as
+
+- A. internally displaced persons
+- B. refugees
+- C. asylum seekers
+- D. guest workers
+- E. step migrants
+
+**Answer: B**
+
+Explanation: Refugees are people who have fled their country because of persecution, war, or violence and who are protected in another country. This family crossed an international border, and Country S approved their claim, so they are refugees. Before the decision, they were asylum seekers. People who flee but stay inside their own country are internally displaced persons.
+
+Why not:
+- A: Internally displaced persons stay inside their own country. This family crossed into Country S.
+- C: Asylum seekers are still waiting for a decision. Once Country S approved the claim, the family became refugees.
+- D: Guest workers are admitted for temporary jobs. This family fled persecution.
+- E: Step migration is a series of moves from smaller to larger places. This family made one move to escape danger.
+
+Vocab: refugee, asylum seeker, forced migration
+
+### U2-P44 · Topic 2.11 · IMP-2.D · Skill 1.D · medium
+
+From the 1500s to the 1800s, the transatlantic slave trade carried millions of people from West and Central Africa to plantations and mines in the Americas. Which of the following best describes this movement?
+
+- A. Forced migration, with most enslaved people taken to what became the United States
+- B. Forced migration, but its cultural effects in the Americas faded after slavery ended
+- C. Internal migration, because people were moved within a single continent
+- D. Forced migration, because people were captured, sold, and shipped against their will
+- E. Step migration, because people were moved through a series of larger and larger ports
+
+**Answer: D**
+
+Explanation: The transatlantic slave trade was forced migration: people were captured, sold, and shipped across the Atlantic against their will. Most were taken to Brazil and the Caribbean. Your AP course guide lists slavery as a type of forced migration. Its effects still shape the Americas today, including the music, foods, religions, and languages of places such as Brazil, the Caribbean, and the United States.
+
+Why not:
+- A: Most enslaved Africans were taken to Brazil and the Caribbean. Fewer than 1 in 20 of the people who survived the voyage were brought to North America.
+- B: These effects did not fade. African music, foods, religions, and languages still shape Brazil, the Caribbean, and the United States today.
+- C: People were taken across the Atlantic Ocean, from Africa to the Americas. And the move was forced, not chosen.
+- E: Step migration is a series of moves a migrant makes toward bigger and bigger places. These people were shipped across the ocean by force.
+
+Vocab: forced migration, slavery, transatlantic slave trade
+
+### U2-P45 · Topic 2.12 · IMP-2.E · Skill 1.D · medium
+
+Since the 1950s, many people from India, Pakistan, and what is now Bangladesh have settled in cities in the United Kingdom. Which of the following is the best example of a cultural effect of this migration on those cities?
+
+- A. Many migrants send part of their wages each month to relatives in South Asia.
+- B. Hospitals in these cities hire migrant doctors and nurses to help fill staff shortages.
+- C. Political parties debate whether to raise or lower the number of visas issued.
+- D. The average age of residents in these cities becomes slightly younger.
+- E. Restaurants, mosques, temples, and festivals like Diwali become part of city life.
+
+**Answer: E**
+
+Explanation: Cultural effects involve food, religion, language, music, and celebrations. When migrants settle in a city, their traditions become part of its cultural landscape: restaurants, places of worship, shops, and festivals. Over time, people who are not migrants may share in these traditions too.
+
+Why not:
+- A: Money sent home (remittances) is an economic effect, mostly felt in the home region.
+- B: Filling jobs is an economic effect on the destination.
+- C: Debates over visa numbers are a political effect.
+- D: A younger average age is a demographic effect.
+
+Vocab: effects of migration, cultural landscape, cultural effects
+
+### U2-P46 · Topic 2.11 · IMP-2.D · Skill 1.D · easy
+
+In 1961, West Germany and Turkey signed an agreement under which people from Turkey came to West Germany to fill factory and construction jobs for a limited time. Under this agreement, these migrants were admitted as
+
+- A. guest workers
+- B. refugees
+- C. asylum seekers
+- D. internally displaced persons
+- E. transnational migrants
+
+**Answer: A**
+
+Explanation: Guest workers are people a country admits to work for a limited time. In the 1950s and 1960s, West Germany recruited workers from Italy, Greece, Turkey, and other countries. Recruitment stopped in 1973, but many Turkish workers stayed, and their families joined them, so a temporary flow became a permanent community. Many of these migrants also became transnational, keeping close ties to Turkey.
+
+Why not:
+- B: Refugees flee persecution or war. These workers were recruited for jobs.
+- C: Asylum seekers ask another country for protection. These workers came under a labor agreement.
+- D: Internally displaced persons stay inside their own country. These workers moved from Turkey to West Germany.
+- E: Many of these workers later kept strong ties to both countries, which is transnational, but the agreement admitted them as temporary guest workers.
+
+Vocab: guest worker, transnational migration, chain migration
+
+## Timed exam: Unit 2 Practice Exam: Population and Migration Patterns and Processes (25 items, 25 minutes)
+
+Each of the questions or incomplete statements below is followed by five suggested answers or completions. Select the one that is best in each case. Your score is based only on the number of questions answered correctly, so answer every question. Work quickly without losing accuracy, and come back to any question you skipped if time allows.
+
+### 1. U2-E01 · Topic 2.1 · PSO-2.A · Skill 2.B · medium
+
+Most of Russia's people live west of the Ural Mountains, even though most of Russia's land lies east of them. Which of the following best explains this distribution?
+
+- A. Russia's government has banned permanent settlement in Siberia ever since the Soviet era.
+- B. Most of Russia's oil and natural gas fields are located west of the Ural Mountains.
+- C. The west has a milder climate and a longer history of farming, cities, and trade links.
+- D. Eastern Russia has too little fresh water, because few large rivers flow through it.
+- E. The Ural Mountains are so high and rugged that few settlers have ever crossed them.
+
+**Answer: C**
+
+Rationales:
+- A. Incorrect. Russia has not banned settlement east of the Urals. The Soviet Union actually encouraged people to settle and work in Siberia, where cities such as Novosibirsk grew.
+- B. Incorrect. Much of Russia's oil and natural gas comes from western Siberia, east of the Urals, so resource location does not explain the pattern.
+- C. Correct. Physical factors (a milder climate and longer growing season in the west, compared with long, severe winters and permafrost across much of Siberia) combine with human factors (centuries of farming, city growth, industry, and transportation links to the rest of Europe) to concentrate Russia's population west of the Urals.
+- D. Incorrect. Siberia has some of the world's largest rivers, including the Ob, Yenisei, and Lena. Cold, not a lack of water, limits settlement there.
+- E. Incorrect. The Urals are relatively low, old mountains, and roads and the Trans-Siberian Railway cross them. They are not a major barrier to settlement.
+
+Explanation (student): Western Russia is warmer and has a longer growing season, so farms and cities grew there first, and it is closer to the rest of Europe for trade. Most of Siberia has long, very cold winters and frozen ground (permafrost). Both physical factors (climate) and human factors (history, economics, transportation) explain where people live.
+
+### 2. U2-E02 · Topic 2.2 · PSO-2.D · Skill 1.B · medium
+
+A children's hospital that specializes in rare cancers is far more likely to be located in a large, densely populated metropolitan area than in a sparsely populated rural county. Which of the following best explains this pattern?
+
+- A. Land in rural counties costs more than in metropolitan areas, which makes hospitals too costly to build.
+- B. Rural counties have higher physiological densities, which leaves little land for large hospitals.
+- C. A specialized hospital needs a large number of possible patients within reach to keep operating.
+- D. Specialized hospitals mainly locate where local governments offer the lowest land taxes.
+- E. Children in metropolitan areas are far more likely than rural children to develop cancer.
+
+**Answer: C**
+
+Rationales:
+- A. Incorrect. Land is usually cheaper in rural counties, where demand for it is lower.
+- B. Incorrect. Physiological density compares people with arable land. Sparsely populated rural counties usually have more land per person, not less, so a shortage of land is not the reason.
+- C. Correct. Population density affects the provision of services. A highly specialized hospital needs many patients, doctors, and researchers to operate, so it locates where large numbers of people live within reach, and patients from sparsely populated rural areas travel to it.
+- D. Incorrect. The scenario gives no information about tax incentives. The need for a large number of patients nearby better explains the metropolitan location.
+- E. Incorrect. The hospital's location is explained by the number of patients who can reach it, not by a higher cancer rate among city children.
+
+Explanation (student): Expensive, specialized services need lots of patients or customers nearby. A big metro area has enough people to keep a specialty hospital busy. A sparse rural county does not, so families travel to the city. This is how population density shapes services like medical care.
+
+### 3. U2-E03 · Topic 2.3 · PSO-2.F · Skill 3.B · easy · set pyrA
+
+**Stimulus (pyramid): POPULATION PYRAMID, COUNTRY A, 2025 (HYPOTHETICAL DATA)**
+
+| Age group | Male (% of total population) | Female (% of total population) |
+|---|---|---|
+| 0–4 | 8.1 | 7.9 |
+| 5–9 | 7.2 | 7 |
+| 10–14 | 6.4 | 6.2 |
+| 15–19 | 5.5 | 5.4 |
+| 20–24 | 4.6 | 4.6 |
+| 25–29 | 3.9 | 3.8 |
+| 30–34 | 3.2 | 3.2 |
+| 35–39 | 2.6 | 2.7 |
+| 40–44 | 2.1 | 2.2 |
+| 45–49 | 1.7 | 1.8 |
+| 50–54 | 1.4 | 1.4 |
+| 55–59 | 1.1 | 1.1 |
+| 60–64 | 0.8 | 0.9 |
+| 65–69 | 0.6 | 0.7 |
+| 70–74 | 0.4 | 0.5 |
+| 75–79 | 0.3 | 0.3 |
+| 80+ | 0.2 | 0.2 |
+
+Totals: male 50.1%, female 49.9%
+
+Description: Population pyramid for Country A: 16 five-year age groups from 0–4 to 75–79, plus an open-ended 80+ group, youngest at the bottom. Males are on the left and females on the right; bar length is the percent of the total population.
+
+Source: Hypothetical data
+
+Which of the following best describes the population of Country A shown in the pyramid?
+
+- A. It is aging, because older adults make up the largest share of the population.
+- B. It is shrinking, because each new group of children is smaller than the group born before it.
+- C. It is not growing, because each age group is about the same size as the one above it.
+- D. It is young, with strong potential for growth, because a large share is under age 15.
+- E. It has a high dependency ratio, mainly because so many people are 65 or older.
+
+**Answer: D**
+
+Rationales:
+- A. Incorrect. People 65 and older are only about 3 percent of Country A's population; the top of the pyramid is very narrow.
+- B. Incorrect. The youngest groups are larger than the groups just above them, so the pyramid does not show each new group of children getting smaller.
+- C. Incorrect. The age groups differ greatly in size. The pyramid does not have the roughly column-shaped structure of a population that is barely growing.
+- D. Correct. About 43 percent of Country A's population is under 15, while about 3 percent is 65 or older. As these large child groups reach childbearing age, they can keep the population growing (population momentum). How fast it actually grows also depends on future fertility, mortality, and migration.
+- E. Incorrect. Country A's dependency ratio is high, but because of its many children; people 65 and older are only about 3 percent of the population.
+
+Explanation (student): A wide bottom and a narrow top = an expansive pyramid. About 43% of Country A's people are under 15, and only about 3% are 65 or older. Lots of children today means lots of future parents, so the population has strong potential to keep growing. Geographers call this population momentum.
+
+### 4. U2-E04 · Topic 2.5 · IMP-2.B · Skill 3.C · medium · set pyrA
+
+*(Uses the set pyrA stimulus above.)*
+
+Country A's crude birth rate has stayed near 40 per 1,000 since 1980, while its crude death rate has fallen from 20 to 9 per 1,000. Which pairing of a demographic transition stage and a feature of Country A's pyramid is best supported?
+
+- A. Stage 1, with age groups of similar size from childhood through old age
+- B. Stage 2, with large child age groups and much smaller older age groups
+- C. Stage 3, with child age groups smaller than the middle-aged groups
+- D. Stage 2, with many more working-age men than working-age women
+- E. Stage 4, with older age groups larger than the youngest age groups
+
+**Answer: B**
+
+Rationales:
+- A. Incorrect. A death rate that has fallen to 9 per 1,000 does not fit Stage 1, and the pyramid's age groups are not similar in size.
+- B. Correct. A high birth rate (about 40 per 1,000) and a falling death rate fit Stage 2. The pyramid also shows large child age groups and much smaller older age groups, the result of rapid natural increase.
+- C. Incorrect. The birth rate has stayed high, and the child age groups are larger, not smaller, than the middle-aged groups.
+- D. Incorrect. The birth and death rates do fit Stage 2, but the pyramid's male and female bars are nearly equal; it shows no large surplus of working-age men.
+- E. Incorrect. The birth rate is still high, and the older age groups are much smaller than the youngest ones.
+
+Explanation (student): Stage 2 = deaths drop while births stay high, and the population booms. Country A's death rate fell from 20 to 9, but its birth rate stayed near 40. The pyramid matches: big groups of children at the bottom and small groups of older people at the top, with the male and female sides nearly equal.
+
+### 5. U2-E05 · Topic 2.8 · SPS-2.B · Skill 2.C · medium
+
+In a country where fertility has stayed high for many years, which of the following changes would most likely lower the total fertility rate over the next several decades?
+
+- A. Lowering the minimum legal age at which women are allowed to marry
+- B. Expanding government cash programs that reward families for each additional child born
+- C. Increasing the share of the workforce employed in subsistence farming
+- D. Reducing the number of clinics and midwives that serve rural villages
+- E. Expanding girls' schooling and voluntary access to health care and contraception
+
+**Answer: E**
+
+Rationales:
+- A. Incorrect. Earlier marriage usually means women begin having children earlier, which tends to raise fertility.
+- B. Incorrect. Rewards for each additional child are pronatalist incentives designed to raise fertility.
+- C. Incorrect. Farm families often rely on children's labor, so a larger farming workforce is associated with higher fertility.
+- D. Incorrect. Fewer clinics would likely raise infant and child deaths; where child deaths are high, families tend to have more children.
+- E. Correct. As the AP course framework notes, access to education, employment, health care, and contraception has reduced fertility rates in most parts of the world. Women with more schooling tend to marry later, work outside the home, and choose smaller families.
+
+Explanation (student): When girls stay in school longer, they often marry later and have more choices about work. Voluntary access to health care and contraception lets people decide whether and when to have children, and more babies survive. These changes are linked to lower fertility in most parts of the world.
+
+### 6. U2-E06 · Topic 2.4 · IMP-2.A · Skill 1.D · medium
+
+Country R has a crude birth rate of 26 per 1,000 and a crude death rate of 6 per 1,000. If these rates stay the same and there is no migration, about how many years will it take Country R's population to double?
+
+- A. About 3.5 years
+- B. About 20 years
+- C. About 35 years
+- D. About 70 years
+- E. About 140 years
+
+**Answer: C**
+
+Rationales:
+- A. Incorrect. This divides 70 by 20 without first converting 20 per 1,000 into a percentage (2.0 percent).
+- B. Incorrect. This treats the natural increase of 20 per 1,000 as a number of years.
+- C. Correct. The rate of natural increase is (26 − 6) ÷ 10 = 2.0 percent. Using the rule of 70, the doubling time is 70 ÷ 2.0 = 35 years.
+- D. Incorrect. A doubling time of 70 years matches a growth rate of 1.0 percent, half of Country R's rate.
+- E. Incorrect. This multiplies 70 by 2.0 instead of dividing 70 by 2.0.
+
+Explanation (student): Two steps. 1) RNI = (26 − 6) ÷ 10 = 2.0%. 2) Rule of 70: 70 ÷ 2.0 = 35 years.
+
+### 7. U2-E07 · Topic 2.4 · IMP-2.A · Skill 3.F · hard
+
+In 2024, Japan's crude death rate was about 13 deaths per 1,000 people, while Niger's was about 9 per 1,000. Japan has one of the highest life expectancies in the world. Which of the following best explains why Japan's crude death rate is higher?
+
+- A. The crude death rate does not adjust for age, and Japan has a far larger share of older adults.
+- B. Japan's health-care system is less effective than Niger's at treating infectious diseases.
+- C. Niger's infant mortality rate is lower than Japan's, so fewer babies die in Niger each year.
+- D. Many older adults leave Niger to retire in other countries, which lowers Niger's death count.
+- E. Japan has a larger total population than Niger, so it records a higher number of deaths.
+
+**Answer: A**
+
+Rationales:
+- A. Correct. The crude death rate counts all deaths per 1,000 people without adjusting for age structure. Japan's population is very old (about 3 in 10 people are 65 or older), while Niger's is very young, so Japan records more deaths per 1,000 people even though people in Japan live much longer. This is a limitation of the crude death rate.
+- B. Incorrect. A higher crude death rate does not mean poorer health care. Japan's much older age structure explains its higher crude death rate despite its long life expectancy.
+- C. Incorrect. Niger's infant mortality rate is much higher than Japan's.
+- D. Incorrect. Retirement migration is not what keeps Niger's crude death rate low; its very young age structure is.
+- E. Incorrect. A crude death rate is a rate per 1,000 people, so it already accounts for total population size.
+
+Explanation (student): The crude death rate is just deaths per 1,000 people. It does not care how old the people are. Japan has lots of elderly people, and older people are more likely to die each year, even with great health care. Niger has mostly children and young adults. So Japan's crude death rate is higher even though people in Japan live much longer.
+
+### 8. U2-E08 · Topic 2.6 · IMP-2.B · Skill 1.C · hard
+
+Which of the following best describes how Ester Boserup's view of population growth differs from Thomas Malthus's view?
+
+- A. Boserup argued that food supply grows geometrically, while Malthus argued it grows arithmetically.
+- B. Boserup argued that population pressure pushes farmers to farm more intensively and raise output.
+- C. Boserup argued that industrialization causes population growth, while Malthus blamed farming.
+- D. Boserup argued that population growth would damage the environment, not just the food supply.
+- E. Boserup agreed that famine would limit population growth but predicted it would happen sooner.
+
+**Answer: B**
+
+Rationales:
+- A. Incorrect. Boserup did not simply reverse Malthus's growth curves; she argued that population pressure itself leads to changes in farming methods.
+- B. Correct. Boserup argued that as population grows, farmers respond by intensifying production (for example, shortening fallow periods, adding labor, irrigating, and adopting new tools), so food output can rise along with population. Malthus argued that food supply could not keep pace.
+- C. Incorrect. The two disagreed about how food production responds to population growth, not about what causes population growth.
+- D. Incorrect. Concern about resource depletion and environmental damage beyond food is associated with neo-Malthusians, not with Boserup.
+- E. Incorrect. Boserup was a critic of Malthus; she did not predict earlier famine.
+
+Explanation (student): Malthus: population can grow faster than food, leading to famine. Boserup: when population grows, farmers use the land more intensively (shorter fallow periods, more labor, irrigation, new tools), so food output can grow too. She saw population growth as a cause of change in farming, not just a problem.
+
+### 9. U2-E09 · Topic 2.7 · SPS-2.A · Skill 2.D · medium
+
+In the 1970s, Singapore's government urged families to "Stop at Two." In 1987, it began urging families who could afford it to have three or more children and offered incentives for larger families. Which of the following best explains this change?
+
+- A. Singapore's death rate rose sharply in the 1980s, so more births were needed to replace deaths.
+- B. Once fertility fell below replacement, the government moved from antinatalist to pronatalist policy.
+- C. International agreements required Singapore to raise its birth rate to ease global labor shortages.
+- D. Singapore's economy had shifted toward farming, so families needed more children to work the land.
+- E. The government shifted from pronatalist to antinatalist policy in order to slow population growth.
+
+**Answer: B**
+
+Rationales:
+- A. Incorrect. Singapore's death rate was low in the 1980s; the concern was that births had fallen too far.
+- B. Correct. "Stop at Two" was an antinatalist campaign. After Singapore's total fertility rate fell below replacement level (about 2.1) by the late 1970s (about 1.8 in 1977), the government grew concerned about an aging population and future labor shortages, so it switched to pronatalist incentives.
+- C. Incorrect. Population policies like these are set by national governments for national goals, not required by international agreements.
+- D. Incorrect. Singapore is a highly urbanized city-state whose economy grew through industry and services, not farming; the concern was that births had fallen too low.
+- E. Incorrect. The order is reversed: Singapore moved from an antinatalist policy ("Stop at Two") to a pronatalist one (three or more).
+
+Explanation (student): First Singapore wanted FEWER births (antinatalist: "Stop at Two"). Fertility fell below replacement level (about 2.1 children per woman). Then the government worried about too few future workers and too many older people, so it flipped to pronatalist: encouraging families who could afford it to have three or more children.
+
+### 10. U2-E10 · Topic 2.9 · SPS-2.C · Skill 3.B · medium · set pyrB
+
+**Stimulus (pyramid): POPULATION PYRAMID, COUNTRY B, 2025 (HYPOTHETICAL DATA)**
+
+| Age group | Male (% of total population) | Female (% of total population) |
+|---|---|---|
+| 0–4 | 1.8 | 1.7 |
+| 5–9 | 2 | 1.9 |
+| 10–14 | 2.2 | 2.1 |
+| 15–19 | 2.3 | 2.2 |
+| 20–24 | 2.5 | 2.3 |
+| 25–29 | 2.6 | 2.5 |
+| 30–34 | 2.8 | 2.7 |
+| 35–39 | 3 | 2.9 |
+| 40–44 | 3.2 | 3.2 |
+| 45–49 | 3.8 | 3.8 |
+| 50–54 | 4 | 4.1 |
+| 55–59 | 3.8 | 3.9 |
+| 60–64 | 3.5 | 3.7 |
+| 65–69 | 3.1 | 3.5 |
+| 70–74 | 2.9 | 3.4 |
+| 75–79 | 2.3 | 3.1 |
+| 80+ | 2.6 | 4.6 |
+
+Totals: male 48.4%, female 51.6%
+
+Description: Population pyramid for Country B: 16 five-year age groups from 0–4 to 75–79, plus an open-ended 80+ group, youngest at the bottom. Males are on the left and females on the right; bar length is the percent of the total population.
+
+Source: Hypothetical data
+
+Which of the following conclusions is best supported by Country B's population pyramid?
+
+- A. Country B's birth rate has risen steadily over the past 25 years.
+- B. Country B's population is young, with most people under age 30.
+- C. Country B has more males than females in its oldest age groups.
+- D. Country B has more people aged 65 and older than children under 15.
+- E. Country B's death rates are much higher for women than for men.
+
+**Answer: D**
+
+Rationales:
+- A. Incorrect. The youngest age groups are smaller than the groups just above them, so the pyramid does not support a steadily rising birth rate.
+- B. Incorrect. The largest age groups are people in their 40s, 50s, and 60s, and people under 30 are only about one-quarter of the population.
+- C. Incorrect. In the 80+ group, the female bar is much longer than the male bar.
+- D. Correct. People aged 65 and older make up about 25.5 percent of the population, compared with about 11.7 percent under age 15. A pyramid that is narrow at the base and wide near the top shows an aging population.
+- E. Incorrect. The pyramid shows more women than men at older ages, which fits women living longer on average; it does not show higher death rates for women.
+
+Explanation (student): Add up the bars: about a quarter of Country B's people are 65 or older, but only about 12% are under 15. A narrow base and a wide top mean few babies and many older people. That is an aging population.
+
+### 11. U2-E11 · Topic 2.9 · SPS-2.C · Skill 3.E · medium · set pyrB
+
+*(Uses the set pyrB stimulus above.)*
+
+If birth rates and life expectancy stay near their current levels and few people move in or out, which of the following is most likely to happen in Country B over the next 20 years?
+
+- A. Its working-age population will shrink as retirees increase, straining pensions.
+- B. Its dependency ratio will fall as large numbers of children reach working age.
+- C. It will need many more elementary schools to serve a growing number of young children.
+- D. Its crude death rate will fall as the large middle-aged groups grow older.
+- E. Its labor force will grow quickly as many young adults enter the job market.
+
+**Answer: A**
+
+Rationales:
+- A. Correct. The large groups now aged 45–64 will move into retirement over the next 20 years, while much smaller groups replace them in the workforce. That raises the number of older adults for each working-age adult and strains pension and health-care systems.
+- B. Incorrect. The child age groups are the smallest in the pyramid, so few people will enter the workforce, and the dependency ratio will most likely rise.
+- C. Incorrect. The child age groups are the smallest in the pyramid, and with birth rates near current levels, they give no sign that many more elementary schools will be needed.
+- D. Incorrect. As the large middle-aged groups grow older, more people will reach ages with high death rates, so the crude death rate will likely rise.
+- E. Incorrect. The groups entering the job market (today's 0- to 19-year-olds) are small, so the labor force will likely shrink.
+
+Explanation (student): The biggest groups in Country B are in their 40s, 50s, and 60s. In 20 years most of them will be retired. The groups that replace them as workers are much smaller. Fewer workers paying taxes and more retirees collecting pensions and needing health care = pressure on the system.
+
+### 12. U2-E12 · Topic 2.7 · SPS-2.A · Skill 2.C · hard
+
+Country J's total fertility rate is 1.3, and its working-age population has begun to shrink. Which policy would most quickly increase the number of working-age people in Country J?
+
+- A. Admitting more immigrants aged 20 to 40 through new work visas
+- B. Expanding free access to contraception and family-planning services
+- C. Offering a large cash bonus to parents for each child born in the next five years
+- D. Lowering the age at which workers can retire with a full pension
+- E. Raising the minimum age at which young people may leave school
+
+**Answer: A**
+
+Rationales:
+- A. Correct. Of the policies listed, only admitting working-age immigrants adds people to the 15–64 age groups right away. Immigration policy can change a population's size and composition quickly, which is why many low-fertility countries use immigration to address labor shortages.
+- B. Incorrect. Expanding these services does not add any adults to the working-age population, and it may lower future births.
+- C. Incorrect. Even if a pronatalist bonus raised births, babies born now would not reach working age for 15 to 20 years.
+- D. Incorrect. Retirement age does not change how many people are aged 15 to 64, and earlier retirement would reduce the number of people actually working.
+- E. Incorrect. School-leaving age does not change how many people are of working age; it only delays young people's entry into the workforce.
+
+Explanation (student): Babies take about 20 years to grow into workers, so pronatalist bonuses are slow. Immigrants who are already 20 to 40 years old join the working-age group the day they arrive. That is why countries with very low fertility often use immigration to fill jobs.
+
+### 13. U2-E13 · Topic 2.3 · PSO-2.E · Skill 5.B · medium
+
+Among people aged 20 to 49, Country L has about 100 males for every 100 females nationally. In a remote mining region of Country L, the same age group has about 160 males for every 100 females. Which of the following best explains this difference between the national and regional scales?
+
+- A. Women in the mining region have much longer life expectancies than women in other regions.
+- B. The national sex ratio is calculated differently from a regional sex ratio.
+- C. Most babies born in the mining region are girls, which lowers the regional sex ratio.
+- D. Women from across Country L move to the mining region to take mining jobs.
+- E. Mining jobs attract young men from other regions, many of whom move without families.
+
+**Answer: E**
+
+Rationales:
+- A. Incorrect. Longer-lived women would increase the number of women, which would lower the sex ratio, not raise it.
+- B. Incorrect. Sex ratio is calculated the same way at every scale: males per 100 females.
+- C. Incorrect. More girls would lower the sex ratio, but a ratio of 160 means far more males than females.
+- D. Incorrect. Women moving into the region would tend to lower its sex ratio; it would not explain the large surplus of men.
+- E. Correct. Mining jobs, which are filled mostly by men, can draw many men aged 20 to 49 to one region. Their moves raise the number of men in the mining region and lower it in the regions they leave. Because the moves happen inside Country L, the national ratio stays near 100, which shows that sex-ratio patterns vary with the scale of analysis.
+
+Explanation (student): Sex ratio = males per 100 females, so 160 means 160 men for every 100 women. Remote mining jobs draw many men aged 20 to 49 from other parts of the country, often without their families. The mining region gains men and other regions lose some, but the country's total stays the same, so the national ratio stays near 100.
+
+### 14. U2-E14 · Topic 2.8 · SPS-2.B · Skill 2.B · medium
+
+The average total fertility rate in Latin America and the Caribbean fell from about 5.2 children per woman in 1970 to about 1.9 in 2020. Which of the following best explains this decline?
+
+- A. Governments across the region adopted one-child policies modeled on China's policy.
+- B. Farming became the main source of jobs, so families needed fewer children to help.
+- C. Rising infant mortality led families to put off having children until conditions improved.
+- D. Most young women emigrated from the region, leaving few women of childbearing age.
+- E. As cities grew, women gained more schooling, paid work, and access to contraception.
+
+**Answer: E**
+
+Rationales:
+- A. Incorrect. Latin American governments did not adopt one-child policies; the decline came mainly from social and economic change.
+- B. Incorrect. The region urbanized rapidly, and the share of workers in farming fell. Farm families also tend to have more children, not fewer.
+- C. Incorrect. Infant mortality fell, not rose, across the region during these decades.
+- D. Incorrect. Emigration from the region was large, but most women of childbearing age stayed. The total fertility rate measures births per woman, not the number of women.
+- E. Correct. As the region urbanized, more women stayed in school longer, worked outside the home, and gained access to health care and contraception. As the AP course framework notes, these changes in women's roles have reduced fertility rates in most parts of the world.
+
+Explanation (student): In 50 years, the average number of children per woman in Latin America dropped from about 5 to under 2. As people moved to cities, girls stayed in school longer, more women took paid jobs, and birth control became easier to get. Those changes in women's lives led families to have fewer children.
+
+### 15. U2-E15 · Topic 2.11 · IMP-2.D · Skill 1.D · easy
+
+A journalist receives threats after reporting on government corruption. She flies to another country and applies for protection there. Her application has not yet been decided. She is best described as
+
+- A. an internally displaced person
+- B. a guest worker
+- C. an economic migrant
+- D. an asylum seeker
+- E. a step migrant
+
+**Answer: D**
+
+Rationales:
+- A. Incorrect. Internally displaced persons flee their homes but remain inside their own country; the journalist crossed an international border.
+- B. Incorrect. Guest workers move by choice for temporary jobs, usually through a labor program.
+- C. Incorrect. She left because of threats to her safety, not mainly to find a job or higher wages.
+- D. Correct. An asylum seeker is a person who has fled to another country and asked for protection but whose claim has not yet been decided. If her claim is approved, she may be granted refugee status.
+- E. Incorrect. Step migration is a series of moves from smaller to larger places; she made one move to escape danger.
+
+Explanation (student): Asylum seeker = someone who fled to another country, asked for protection, and is still waiting for an answer. If the answer is yes, she may become a recognized refugee. If she had fled but stayed inside her own country, she would be an internally displaced person.
+
+### 16. U2-E16 · Topic 2.5 · IMP-2.B · Skill 3.B · medium · set dtmM
+
+**Stimulus (line): CRUDE BIRTH AND DEATH RATES, COUNTRY M, 1800–2025 (HYPOTHETICAL DATA)**
+
+| Year | Crude birth rate | Crude death rate |
+|---|---|---|
+| 1800 | 38 | 36 |
+| 1825 | 38 | 35 |
+| 1850 | 38 | 29 |
+| 1875 | 37 | 23 |
+| 1900 | 34 | 18 |
+| 1925 | 28 | 14 |
+| 1950 | 21 | 11 |
+| 1975 | 15 | 10 |
+| 2000 | 12 | 9 |
+| 2025 | 11 | 9 |
+
+Y-axis: Rate per 1,000 people (max 40)
+
+Description: Line graph of Country M's crude birth rate and crude death rate, per 1,000 people, from 1800 to 2025. Points are every 25 years.
+
+Source: Hypothetical data
+
+During which period was Country M most clearly in Stage 2 of the demographic transition model?
+
+- A. 1800 to 1825
+- B. 1825 to 1875
+- C. 1900 to 1950
+- D. 1950 to 1975
+- E. 2000 to 2025
+
+**Answer: B**
+
+Rationales:
+- A. Incorrect. From 1800 to 1825, birth and death rates were both high (35 to 38 per 1,000) and close together, with little natural increase: Stage 1.
+- B. Correct. From 1825 to 1875, the death rate fell from 35 to 23 per 1,000 while the birth rate stayed near 37 to 38. A falling death rate with a high, steady birth rate defines Stage 2, and natural increase rose from 0.3 percent to 1.4 percent a year.
+- C. Incorrect. From 1900 to 1950, the birth rate fell steeply (34 to 21) while the death rate fell more slowly: Stage 3.
+- D. Incorrect. From 1950 to 1975, the birth rate was still falling toward an already low death rate, which is late Stage 3.
+- E. Incorrect. From 2000 to 2025, both rates were low and close together: Stage 4.
+
+Explanation (student): Stage 2 = the death rate drops while the birth rate stays high. On the graph, that happens from 1825 to 1875: deaths fall from 35 to 23, but births stay around 37 to 38. The gap between the lines gets wider, so the population grows faster.
+
+### 17. U2-E17 · Topic 2.5 · IMP-2.B · Skill 3.C · medium · set dtmM
+
+*(Uses the set dtmM stimulus above.)*
+
+Between 1825 and 1925, how did Country M's rate of natural increase change, and which process best explains that change?
+
+- A. It fell, because birth rates dropped as more couples gained access to contraception.
+- B. It fell, because death rates rose as infectious diseases spread quickly through growing cities.
+- C. It stayed near zero, because improvements in disease prevention were very limited.
+- D. It rose, because birth rates increased as families received incentives to have children.
+- E. It rose, because death rates fell faster than birth rates as sanitation and food improved.
+
+**Answer: E**
+
+Rationales:
+- A. Incorrect. The birth rate did fall after 1875, but natural increase rose, from about 0.3 percent in 1825 to about 1.4 percent in 1925.
+- B. Incorrect. The death rate fell, from 35 to 14 per 1,000.
+- C. Incorrect. The gap between the birth and death rates widened from 3 to 14 per 1,000.
+- D. Incorrect. The birth rate did not rise; it stayed near 37 to 38 until 1875 and then fell to 28.
+- E. Correct. Natural increase rose from about 0.3 percent (38 − 35) to about 1.4 percent (28 − 14) because the death rate fell much faster than the birth rate. According to the epidemiological transition, better sanitation, cleaner water, and more reliable food supplies reduce deaths from infectious disease and hunger.
+
+Explanation (student): Births minus deaths was 3 per 1,000 in 1825 and 14 per 1,000 in 1925, so natural increase rose. The death line dropped much faster than the birth line. Clean water, sewers, and better food cut deaths from infections and hunger. This is the epidemiological transition at work.
+
+### 18. U2-E18 · Topic 2.10 · IMP-2.C · Skill 1.D · medium
+
+Migrants from Country P hoping to reach jobs in Country Q must cross a wide desert and pass through Country S, which requires a transit visa that is expensive and slow to obtain. The desert and the visa requirement are best described as
+
+- A. pull factors
+- B. push factors
+- C. intervening obstacles
+- D. intervening opportunities
+- E. examples of distance decay
+
+**Answer: C**
+
+Rationales:
+- A. Incorrect. Pull factors attract migrants to a destination, such as the jobs in Country Q.
+- B. Incorrect. Push factors are conditions at the origin that make people want to leave Country P.
+- C. Correct. Intervening obstacles are barriers between the origin and the destination that make migration harder. The desert is an environmental obstacle, and the costly transit visa is a political obstacle.
+- D. Incorrect. Intervening opportunities are attractive options along the way that lead migrants to stop before reaching their destination.
+- E. Incorrect. Distance decay describes how interaction declines as distance increases; the desert and the visa rule are specific barriers along the route.
+
+Explanation (student): Intervening obstacles are things in the way between home and the destination. A desert is a physical (environmental) obstacle. A hard-to-get visa is a political obstacle. Obstacles do not make people want to leave or want to go; they make the trip harder.
+
+### 19. U2-E19 · Topic 2.1 · PSO-2.B · Skill 1.D · medium
+
+Country X has 60 million people and 400,000 square kilometers of land. Fifteen percent of its land is arable, and 24 million of its people work as farmers. What is Country X's physiological density?
+
+- A. 60 people per square kilometer
+- B. 150 people per square kilometer
+- C. 400 people per square kilometer
+- D. 1,000 people per square kilometer
+- E. 10,000 people per square kilometer
+
+**Answer: D**
+
+Rationales:
+- A. Incorrect. This divides the number of farmers (24 million) by all land (400,000 square kilometers), which is not a standard density measure.
+- B. Incorrect. 150 is the arithmetic density: 60 million people ÷ 400,000 square kilometers of total land.
+- C. Incorrect. 400 is the agricultural density: 24 million farmers ÷ 60,000 square kilometers of arable land.
+- D. Correct. Arable land = 15 percent of 400,000 = 60,000 square kilometers. Physiological density = 60 million people ÷ 60,000 square kilometers = 1,000 people per square kilometer of arable land.
+- E. Incorrect. This results from treating 1.5 percent, rather than 15 percent, of the land as arable.
+
+Explanation (student): Physiological density = ALL people ÷ ARABLE land. Arable land: 15% × 400,000 = 60,000 sq km. Then 60,000,000 ÷ 60,000 = 1,000 people per sq km of arable land. (Arithmetic density uses all land; agricultural density counts only farmers.)
+
+### 20. U2-E20 · Topic 2.11 · IMP-2.D · Skill 1.D · easy
+
+Each spring, herders in the Alps move their cattle up to high mountain pastures, and each fall they bring the herds back down to valley farms. This seasonal movement is called
+
+- A. transhumance
+- B. step migration
+- C. chain migration
+- D. rural-to-urban migration
+- E. forced migration
+
+**Answer: A**
+
+Rationales:
+- A. Correct. Transhumance is the seasonal movement of herders and their livestock between grazing areas. In mountain regions such as the Alps, herds use high pastures in summer and lower pastures or valley farms in winter. It is one of the types of voluntary migration in the AP course framework.
+- B. Incorrect. Step migration is a series of moves, usually toward larger places, that does not repeat every year.
+- C. Incorrect. Chain migration is following relatives or friends who moved earlier.
+- D. Incorrect. The herders move between pastures and farms, not from the countryside to cities.
+- E. Incorrect. The herders choose to move with the seasons; no one forces them.
+
+Explanation (student): Transhumance = herders moving their animals between grazing areas with the seasons, every year. In the Alps, herds go up to cool mountain pastures in summer and back down in winter. Other herders move across plains between wet-season and dry-season pastures, as in parts of Africa's Sahel.
+
+### 21. U2-E21 · Topic 2.1 · PSO-2.A · Skill 4.C · medium · set mapV
+
+**Stimulus (schematicMap): POPULATION AND MIGRATION IN COUNTRY V, 2000–2020 (HYPOTHETICAL)**
+
+Map features: Coastal plain; River valley; Dry interior; Mountains; City or town; Rural village; Capital city and main port; Migration flow from an interior village to the capital
+
+Legend: Coastal plain and river valley (fertile, well watered); Dry interior; Mountains; Capital city and main port; City or town; Rural village; Ocean
+
+Note: Arrows show the largest migration flows from 2000 to 2020. During those years, the dry interior had repeated droughts, and the capital's port and new factories added many jobs.
+
+Description: Map of Country V, with the ocean on the west. Land regions shown: a coastal plain, a river valley running east from the coast to mountains on the eastern edge, and a dry interior north and south of the valley. Symbols mark the capital city and main port, other cities and towns, and rural villages. Arrows show migration flows.
+
+Source: Hypothetical map
+
+Which of the following best explains the distribution of cities and towns shown on the map?
+
+- A. The dry interior has been set aside as a protected national park.
+- B. The coast and valley have the coolest year-round temperatures in Country V.
+- C. The mountains block people in the interior from reaching other areas.
+- D. The coast and valley were the first areas where the land was surveyed.
+- E. The coast and valley have water, flat fertile land, and access to trade.
+
+**Answer: E**
+
+Rationales:
+- A. Incorrect. The map shows no park, and people do live in small villages in the interior; the interior is sparsely settled because it is dry.
+- B. Incorrect. Nothing on the map shows that the lowlands are cooler, and mountains are usually cooler than lowlands.
+- C. Incorrect. The mountains lie along the eastern edge of the country; they do not separate the interior villages from the coast.
+- D. Incorrect. The map gives no information about when different areas were surveyed, so it does not support this explanation; the physical environment does.
+- E. Correct. Physical factors such as water bodies, landforms, and climate influence population distribution. The coast and the river valley provide water for people and irrigation, flat and fertile land, and easy transportation, so cities grew there, while the dry interior and the mountains remain sparsely settled.
+
+Explanation (student): People settle where life is easier: near water, on flat land with good soil, and where boats and roads make trade easy. In Country V that means the coast and the river valley. The dry interior and the mountains have far fewer people.
+
+### 22. U2-E22 · Topic 2.11 · IMP-2.D · Skill 4.B · easy · set mapV
+
+*(Uses the set mapV stimulus above.)*
+
+The arrows on the map best illustrate which type of migration?
+
+- A. Internal, rural-to-urban migration
+- B. International, transnational migration
+- C. Seasonal transhumance
+- D. Urban-to-rural migration
+- E. Guest worker migration
+
+**Answer: A**
+
+Rationales:
+- A. Correct. The arrows begin at rural villages in the dry interior and end at the capital city, and none of them crosses Country V's borders. These features identify internal, rural-to-urban migration. The map does not show how much choice each migrant had.
+- B. Incorrect. The arrows do not cross an international border, so the map does not show international or transnational migration.
+- C. Incorrect. Transhumance is the seasonal movement of herders and livestock; the arrows show one-way moves from villages to a city.
+- D. Incorrect. The arrows point from rural villages toward the capital, the opposite of urban-to-rural migration.
+- E. Incorrect. Guest workers move to another country for temporary jobs; these migrants stay in their own country.
+
+Explanation (student): Follow the arrows: they start at small villages in the dry interior and end at the capital. They never leave Country V. Moving from the countryside to a city inside your own country = internal, rural-to-urban migration.
+
+### 23. U2-E23 · Topic 2.10 · IMP-2.C · Skill 4.E · medium · set mapV
+
+*(Uses the set mapV stimulus above.)*
+
+Based on the map and its note, which combination of factors best explains the migration flows shown?
+
+- A. A political push factor in the interior and a cultural pull factor in the capital
+- B. An environmental push factor in the interior and an economic pull factor in the capital
+- C. An economic push factor in the capital and an environmental pull factor in the interior
+- D. An intervening opportunity in the interior and an intervening obstacle on the coast
+- E. A demographic pull factor in the interior and a political push factor in the capital city
+
+**Answer: B**
+
+Rationales:
+- A. Incorrect. The note describes droughts and new jobs, not war, persecution, or cultural ties.
+- B. Correct. Repeated droughts in the dry interior are an environmental push factor that makes farming harder, and new port and factory jobs in the capital are an economic pull factor. Together they explain the flows from interior villages to the capital.
+- C. Incorrect. This reverses the direction: push factors operate at the origin (the interior), and pull factors at the destination (the capital).
+- D. Incorrect. An intervening opportunity would cause migrants to stop partway, and nothing on the map shows an obstacle on the coast; the migrants reach the capital.
+- E. Incorrect. People are moving away from the interior, not toward it, and the capital is attracting migrants, not pushing them away.
+
+Explanation (student): Push = what makes people leave (drought in the interior: environmental). Pull = what draws them in (jobs at the port and factories: economic). Push factors are at the starting place; pull factors are at the destination.
+
+### 24. U2-E24 · Topic 2.12 · IMP-2.E · Skill 5.B · medium
+
+Which of the following best describes the effects of remittances at different scales in a country where remittances equal about one-fifth of its gross domestic product (GDP)?
+
+- A. They help individual households but have little effect on the national economy as a whole.
+- B. They strengthen the national economy but seldom reach individual families in rural villages.
+- C. They mainly benefit the destination countries where the migrants work and earn their wages.
+- D. Households use them for food, school, and housing, and nationally they are a major income source.
+- E. They mainly slow emigration, because families that receive the money no longer need to move.
+
+**Answer: D**
+
+Rationales:
+- A. Incorrect. When remittances equal about one-fifth of GDP, they are large compared with the national economy, not small.
+- B. Incorrect. Remittances are sent directly to migrants' families, so they reach households first.
+- C. Incorrect. Remittances flow from destination countries back to migrants' home countries.
+- D. Correct. At the household and local scale, remittances pay for food, school fees, health care, and new homes. At the national scale, they bring in foreign currency and can equal a large percentage of GDP; in 2024, remittances equaled about one-quarter of GDP in Nepal and in Honduras.
+- E. Incorrect. Remittances can reduce some families' need to migrate, but they can also pay for other relatives' moves. Slowing emigration is not their main effect.
+
+Explanation (student): Think at two scales. Family scale: the money buys food, pays for school, and builds houses. Country scale: an amount equal to one-fifth of the economy's yearly production is very large, so changes in remittances can have big effects. A recession in the countries where migrants work can mean less money sent home.
+
+### 25. U2-E25 · Topic 2.12 · IMP-2.E · Skill 2.C · hard
+
+For 30 years, many young adults from rural villages in Country H have migrated abroad for work. Which of the following is the most likely effect on those villages?
+
+- A. Village populations grow younger as migrants' children move back to run the family farms.
+- B. Villages gain more working-age adults than they lose, so farm labor becomes cheaper.
+- C. Villages grow older on average, and fewer working-age adults are left for farm work.
+- D. Villages develop sex ratios well above 100, because the migrants are mostly young men.
+- E. Villages see rising birth rates, because the people who remain are mostly young couples.
+
+**Answer: C**
+
+Rationales:
+- A. Incorrect. Most migrants are young adults, and many do not return to farm, so the villages tend to grow older, not younger.
+- B. Incorrect. The villages lose working-age adults to emigration, which tends to create labor shortages and raise farm wages.
+- C. Correct. Migration is selective by age: most migrants are young adults. When many leave over a long period, the remaining village population grows older on average and fewer workers are available for farming, even as remittances help families pay for food and housing.
+- D. Incorrect. If more young men than young women leave, the villages are left with more women than men, a sex ratio below 100, not above it.
+- E. Incorrect. The people most likely to have children are the young adults who left, so birth rates in the villages tend to fall.
+
+Explanation (student): Most people who migrate for work are young adults. When many leave and few come back, the village population grows older, and farms may have trouble finding workers. Money sent home (remittances) helps families, but it does not replace the people who left.
+

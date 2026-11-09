@@ -1,0 +1,63 @@
+Unit 1 blind check (answered from blind.md only, before opening key.txt)
+
+U1-P01 B  Highway map of roads, cities, rivers, county lines = general reference map; others are thematic.
+U1-P02 D  Equal-size symbols, each = a fixed count (10 farms), placed where they occur = dot density.
+U1-P03 A  Closest contour spacing (west side) = steepest slope = Point J. (Description names the closest side outright.)
+U1-P04 C  Mercator is conformal; area is stretched toward the poles.
+U1-P05 E  Azimuthal equidistant centered on the hub gives true distance and direction from that point.
+U1-P06 B  Per 1,000 residents: Adams 3.5, Baker 8.0, Cole 6.0, Dunn 4.5, Ellis 3.0 -> Baker.
+U1-P07 A  Countries resized by population = (area) cartogram.
+U1-P08 D  Stacking and analyzing layers = GIS.
+U1-P09 C  Satellite images compared over time = remote sensing.
+U1-P10 E  Feelings/perceptions -> qualitative interviews.
+U1-P11 D  On-board receiver logging position = GPS (satellite navigation).
+U1-P12 A  Riverside +830 (+128%) is the fastest-growing by any measure.
+U1-P13 C  GIS site selection -> busy roads + many likely customers.
+U1-P14 B  School sits in the 1% annual flood zone; moving it is the supported decision.
+U1-P15 E  Before/after imagery finds blocked roads -> routing supplies.
+U1-P16 A  Latitude/longitude = absolute location.
+U1-P17 C  Shorter travel time weakens friction of distance -> far bars grow, curve flattens.
+U1-P18 D  Travel time shrinks with technology = time-space compression.
+U1-P19 B  Physical + human characteristics of a town = place.
+U1-P20 E  Canal changed its position relative to trade routes = relative location (situation).
+U1-P21 A  Definition of environmental determinism.
+U1-P22 C  Polders = technology working around an environmental limit = possibilism.
+U1-P23 B  Wind renewable, coal nonrenewable. (E is a reworded A - weak.)
+U1-P24 D  Ignores human agency; used to rank societies.
+U1-P25 E  Water table falling while recharge flat -> overdraft, unsustainable.
+U1-P26 A  World map comparing countries = global scale. FLAG: "presents data at which scale" makes C (National - data unit is the country) arguable; see report.
+U1-P27 B  South 13% hidden by 6.0% national average.
+U1-P28 C  Internal (rural-to-urban) migration reconciles the three scales.
+U1-P29 E  Neighborhoods within one city = local scale.
+U1-P30 D  Majority speak French = shared measurable trait = formal region.
+U1-P31 A  Hospital service area = flows to a node = functional region.
+U1-P32 C  Self-identification survey, gradual rise = perceptual region with transition zone.
+U1-P33 B  Different criteria (physical, cultural, economic) -> overlapping regions.
+
+U1-E01 C  Percentage by county = rate by enumeration unit = choropleth.
+U1-E02 A  Totals at point locations = graduated symbols.
+U1-E03 D  Map 1 latitude gaps widen poleward = Mercator (area inflation); Map 2 narrowing = equal-area (Gall-Peters).
+U1-E04 B  Equal-area cylindrical squeezes high latitudes N-S (above 45 deg standard parallel), so shapes flatten.
+U1-E05 E  Maps are selective; schematic subway map trades distance for clarity of connections.
+U1-E06 A  Real-time position of a moving driver = GPS.
+U1-E07 C  Letters, newspapers, planning reports = written/narrative sources with spatial info.
+U1-E08 B  County-wide land cover over time = remote sensing (satellite imagery).
+U1-E09 E  Built-up 10->26 while forest 34->30 and wetland 12->7.
+U1-E10 D  Faster-than-nation growth -> gains House seats via reapportionment; flat state may lose one.
+U1-E11 B  Location relative to the river's mouth = relative location.
+U1-E12 A  Real-time collaboration across the world = time-space compression.
+U1-E13 C  Area tied to City M by commuting flows = functional region. D (formal, measured %) is a tempting trap, not a defensible best answer: the measured trait is a flow to a node, which is what makes a region functional (cf. US metro-area definitions using a 25% commuting test).
+U1-E14 E  Commuting share falls 64 -> 8 as distance rises 14 -> 58 km = distance decay.
+U1-E15 D  Faster link raises Town F's share; could pass 25% and join the dashed region.
+U1-E16 A  Environment limits but people choose = possibilism.
+U1-E17 B  Harvest <= regrowth + replanting = sustainability.
+U1-E18 C  National +2.0% hides Province 2's -5.0%.
+U1-E19 E  Capital District +6.0% while Province 2 fell 5.0%.
+U1-E20 D  District data reveal growth inside a declining province.
+U1-E21 B  Countries within one world region = regional scale.
+U1-E22 A  Mental-map boundaries that differ at the edges = perceptual region.
+U1-E23 E  Gradual change with bilingual towns = transition zone.
+U1-E24 C  Different criteria -> contested regional boundaries.
+U1-E25 D  Rerouted traffic -> more cars on residential streets; towns respond (traffic calming).
+
+Items flagged during blind pass: P26 (A vs C arguable from stem wording). E13 D considered and rejected as a second answer.
