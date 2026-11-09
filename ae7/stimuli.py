@@ -1,7 +1,7 @@
 # AP European History Unit 7 sources. Texts follow the editions saved in ae7/sources/raw/ (all published in 1930 or
 # earlier) and documented in ae7/sources/*.md. Cuts are marked with ellipses; bracketed words are clarifications.
 # OCR slips in the scans were corrected against a second scan or the page image (each one is listed in the .md files).
-VERSION = "2026-11-09b"
+VERSION = "2026-11-09c"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -86,7 +86,7 @@ STIM = {
     "yLabel": "Percent of land area",
     "yMax": 100,
     "text": "Each bar shows the percent of a region's land area held as colonies by European powers or by the United States. The author counted the United States as a colonial power and Alaska as a United States colony. Independent countries, such as the nations of Latin America, are not counted as colonies.",
-    "source": "Alexander Supan, German geographer, Die territoriale Entwicklung der europäischen Kolonien (The Territorial Growth of the European Colonies) (Gotha: Justus Perthes, 1906), p. 254"},
+    "source": "Alexander Supan, Austrian geographer, Die territoriale Entwicklung der europäischen Kolonien (The Territorial Growth of the European Colonies) (Gotha: Justus Perthes, 1906), p. 254"},
 
 "X5": P([
     "As many more individuals of each species are born than can possibly survive; and as, consequently, there is a frequently recurring struggle for existence, it follows that any being, if it vary however slightly in any manner profitable to itself, under the complex and sometimes varying conditions of life, will have a better chance of surviving, and thus be naturally selected. From the strong principle of inheritance, any selected variety will tend to propagate its new and modified form. …",
@@ -208,7 +208,7 @@ STIM = {
     "caption": "An old, heavy-set man with a large white moustache, dressed in a pilot's cap and a thick double-breasted coat, steps down a ladder hung over the side of a large ship. His face is calm and serious. High above him, a young man with an upturned moustache, wearing a jeweled crown and a uniform with shoulder boards, leans on the ship's rail with his arms folded and looks down at him. The title at the bottom reads \"Dropping the Pilot.\" A ship's pilot was an expert who guided ships through dangerous waters and then left once the ship was safely on its way.",
     "attribution": "John Tenniel, British cartoonist, \"Dropping the Pilot,\" cartoon published in the London magazine Punch, March 29, 1890",
     "credit": "Deutsches Historisches Museum, Berlin (engraving by Joseph Swain after Tenniel's drawing). Public domain image via Wikimedia Commons (file: Dropping the Pilot.jpg).",
-    "description": "A tall wood-engraved cartoon printed in black ink. Across the top runs the line \"Punch, or the London Charivari.—March 29, 1890.\" Most of the picture shows the high, dark side of a ship. A ladder with wooden steps and rope rails runs diagonally down the side of the hull. An old, stout man with a bushy white moustache, wearing a flat peaked cap, a long double-breasted coat, and heavy boots, stands on the lower steps, one hand holding a rope and the other resting against the hull. He looks straight ahead with a calm, grave expression. At the top of the hull, a young man in a military jacket with epaulettes and a large jeweled crown topped by an eagle leans over the rail with his arms crossed and watches the older man leave. Below the ladder, the edge of a small boat waits. The title \"Dropping the Pilot\" is printed in capital letters at the bottom.",
+    "description": "A tall wood-engraved cartoon printed in black ink. Across the top runs the line \"Punch, or the London Charivari.—March 29, 1890.\" Most of the picture shows the high, dark side of a ship. A ladder with wooden steps and rope rails runs diagonally down the side of the hull. An old, stout man with a bushy white moustache, wearing a flat peaked cap, a long double-breasted coat, and heavy boots, stands on the lower steps, one hand holding a rope and the other resting against the hull. He looks straight ahead with a calm, grave expression. At the top of the hull, a young man in a military jacket with epaulettes and a large jeweled crown topped by an eagle leans over the rail with his arms crossed and watches the older man leave. At the foot of the ladder, the curved side of a small rowboat is visible. The title \"Dropping the Pilot\" is printed in capital letters at the bottom.",
     "glossary": [{"t": "pilot", "d": "an expert sailor who guides ships through difficult waters, such as harbors and river mouths"},
                  {"t": "Punch", "d": "a popular British humor magazine known for its political cartoons"}]},
 
@@ -218,9 +218,9 @@ STIM = {
         "Art. 25. The provinces of Bosnia and Herzegovina shall be occupied and administered by Austria-Hungary.",
         "Art. 26. The independence of Montenegro is recognized by the Sublime Porte and by all of those high contracting parties who have not hitherto admitted it.",
         "Art. 34. The high contracting parties recognize the independence of the Principality of Servia, subject to the conditions set forth in the following article [on civil and religious liberty]. …",
-        "Art. 43. The high contracting parties recognize the independence of Roumania subject to the conditions set forth in the two following articles [on civil and religious liberty]. …"],
+        "Art. 43. The high contracting parties recognize the independence of Roumania subject to the conditions set forth in the two following articles. …"],
         "Treaty of Berlin, signed by Austria-Hungary, Britain, France, Germany, Italy, Russia, and the Ottoman Empire at the end of the Congress of Berlin, July 13, 1878",
-        "English text from Edward Hertslet, The Map of Europe by Treaty, vol. 4 (London, 1891), as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (Boston: Ginn, 1909), pp. 397–398 (bracketed words are Robinson and Beard's); adapted",
+        "English text from Edward Hertslet, The Map of Europe by Treaty, vol. 4 (London, 1891), as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (Boston: Ginn, 1909), pp. 397–398 (the bracketed words in Article 34 are Robinson and Beard's); adapted",
         glossary=[{"t": "autonomous", "d": "self-governing"},
                   {"t": "tributary principality", "d": "a small state that pays yearly tribute (money) to a stronger ruler"},
                   {"t": "suzerainty", "d": "control by an overlord who allows local self-rule"},
@@ -390,7 +390,7 @@ STIM = {
     "Edmund D. Morel, British journalist and founder of the Congo Reform Association, Red Rubber: The Story of the Rubber Slave Trade on the Congo, preface to the second edition, 1906",
     "Text from Red Rubber, with an introduction by Sir Harry Johnston (New York: The Nassau Print, 1906), pp. xx–xxiii; adapted",
     glossary=[{"t": "native", "d": "a word used at the time for the African people who lived in the Congo"},
-              {"t": "primitive community", "d": "Morel's term for a farming and trading village society; today historians avoid the word \"primitive\""},
+              {"t": "primitive community", "d": "Morel's term for a society he saw as less developed; today historians avoid the word \"primitive\""},
               {"t": "perpetual sterility", "d": "never-ending inability to grow"},
               {"t": "colossal", "d": "huge"},
               {"t": "spoliation", "d": "robbery, taking by force"},

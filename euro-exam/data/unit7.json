@@ -4,7 +4,7 @@
  "period": "c. 1815–c. 1914",
  "examWeighting": "10–15%",
  "blurb": "Nationalism and the unification of Italy and Germany, the alliances and Balkan crises that strained Europe, Darwin and Social Darwinism, new ideas from positivism to Nietzsche and Freud, the New Imperialism and its effects, and art from Romanticism to modernism.",
- "version": "2026-11-09b",
+ "version": "2026-11-09c",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 7: Learning Objectives A-K).",
  "topics": [
   {
@@ -273,7 +273,7 @@
    "yLabel": "Percent of land area",
    "yMax": 100,
    "text": "Each bar shows the percent of a region's land area held as colonies by European powers or by the United States. The author counted the United States as a colonial power and Alaska as a United States colony. Independent countries, such as the nations of Latin America, are not counted as colonies.",
-   "source": "Alexander Supan, German geographer, Die territoriale Entwicklung der europäischen Kolonien (The Territorial Growth of the European Colonies) (Gotha: Justus Perthes, 1906), p. 254"
+   "source": "Alexander Supan, Austrian geographer, Die territoriale Entwicklung der europäischen Kolonien (The Territorial Growth of the European Colonies) (Gotha: Justus Perthes, 1906), p. 254"
   },
   "X5": {
    "type": "passage",
@@ -627,7 +627,7 @@
    "caption": "An old, heavy-set man with a large white moustache, dressed in a pilot's cap and a thick double-breasted coat, steps down a ladder hung over the side of a large ship. His face is calm and serious. High above him, a young man with an upturned moustache, wearing a jeweled crown and a uniform with shoulder boards, leans on the ship's rail with his arms folded and looks down at him. The title at the bottom reads \"Dropping the Pilot.\" A ship's pilot was an expert who guided ships through dangerous waters and then left once the ship was safely on its way.",
    "attribution": "John Tenniel, British cartoonist, \"Dropping the Pilot,\" cartoon published in the London magazine Punch, March 29, 1890",
    "credit": "Deutsches Historisches Museum, Berlin (engraving by Joseph Swain after Tenniel's drawing). Public domain image via Wikimedia Commons (file: Dropping the Pilot.jpg).",
-   "description": "A tall wood-engraved cartoon printed in black ink. Across the top runs the line \"Punch, or the London Charivari.—March 29, 1890.\" Most of the picture shows the high, dark side of a ship. A ladder with wooden steps and rope rails runs diagonally down the side of the hull. An old, stout man with a bushy white moustache, wearing a flat peaked cap, a long double-breasted coat, and heavy boots, stands on the lower steps, one hand holding a rope and the other resting against the hull. He looks straight ahead with a calm, grave expression. At the top of the hull, a young man in a military jacket with epaulettes and a large jeweled crown topped by an eagle leans over the rail with his arms crossed and watches the older man leave. Below the ladder, the edge of a small boat waits. The title \"Dropping the Pilot\" is printed in capital letters at the bottom.",
+   "description": "A tall wood-engraved cartoon printed in black ink. Across the top runs the line \"Punch, or the London Charivari.—March 29, 1890.\" Most of the picture shows the high, dark side of a ship. A ladder with wooden steps and rope rails runs diagonally down the side of the hull. An old, stout man with a bushy white moustache, wearing a flat peaked cap, a long double-breasted coat, and heavy boots, stands on the lower steps, one hand holding a rope and the other resting against the hull. He looks straight ahead with a calm, grave expression. At the top of the hull, a young man in a military jacket with epaulettes and a large jeweled crown topped by an eagle leans over the rail with his arms crossed and watches the older man leave. At the foot of the ladder, the curved side of a small rowboat is visible. The title \"Dropping the Pilot\" is printed in capital letters at the bottom.",
    "glossary": [
     {
      "t": "pilot",
@@ -649,10 +649,10 @@
       "Art. 25. The provinces of Bosnia and Herzegovina shall be occupied and administered by Austria-Hungary.",
       "Art. 26. The independence of Montenegro is recognized by the Sublime Porte and by all of those high contracting parties who have not hitherto admitted it.",
       "Art. 34. The high contracting parties recognize the independence of the Principality of Servia, subject to the conditions set forth in the following article [on civil and religious liberty]. …",
-      "Art. 43. The high contracting parties recognize the independence of Roumania subject to the conditions set forth in the two following articles [on civil and religious liberty]. …"
+      "Art. 43. The high contracting parties recognize the independence of Roumania subject to the conditions set forth in the two following articles. …"
      ],
      "attribution": "Treaty of Berlin, signed by Austria-Hungary, Britain, France, Germany, Italy, Russia, and the Ottoman Empire at the end of the Congress of Berlin, July 13, 1878",
-     "translation": "English text from Edward Hertslet, The Map of Europe by Treaty, vol. 4 (London, 1891), as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (Boston: Ginn, 1909), pp. 397–398 (bracketed words are Robinson and Beard's); adapted",
+     "translation": "English text from Edward Hertslet, The Map of Europe by Treaty, vol. 4 (London, 1891), as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (Boston: Ginn, 1909), pp. 397–398 (the bracketed words in Article 34 are Robinson and Beard's); adapted",
      "glossary": [
       {
        "t": "autonomous",
@@ -1181,7 +1181,7 @@
     },
     {
      "t": "primitive community",
-     "d": "Morel's term for a farming and trading village society; today historians avoid the word \"primitive\""
+     "d": "Morel's term for a society he saw as less developed; today historians avoid the word \"primitive\""
     },
     {
      "t": "perpetual sterility",
@@ -1369,7 +1369,7 @@
    "set": "P1",
    "topic": "7.1",
    "lo": "A",
-   "skill": "4.B",
+   "skill": "4.A",
    "difficulty": "medium",
    "stem": "Bismarck's reference to \"the mistake of 1848 and 1849\" most likely refers to which of the following?",
    "options": {
@@ -1385,8 +1385,7 @@
     "B": "Prussia fought Austria in 1866, after these speeches of 1862 and 1863.",
     "D": "The Congress of Vienna created the German Confederation in 1815, not in 1848 or 1849."
    },
-   "hint": "What happened in the German states in 1848 and 1849 when liberals tried to unite Germany through an elected assembly?",
-   "reasoning": "Continuity and Change"
+   "hint": "What happened in the German states in 1848 and 1849 when liberals tried to unite Germany through an elected assembly?"
   },
   {
    "id": "E7-P03",
@@ -1395,19 +1394,19 @@
    "lo": "C",
    "skill": "5.B",
    "difficulty": "medium",
-   "stem": "Bismarck's approach in the passage was most clearly put into practice in which of the following?",
+   "stem": "Which later development most clearly illustrates Bismarck's proposed method for achieving German unification?",
    "options": {
     "A": "Prussia's wars with Denmark, Austria, and France from 1864 to 1871",
-    "B": "Prussia's support for the liberal revolutions in the German states in 1848",
-    "C": "Bismarck's decision to let the Prussian parliament choose the king's ministers",
-    "D": "Prussia's peaceful union with Austria in a single German empire"
+    "B": "The introduction of universal male suffrage for elections to the Reichstag",
+    "C": "Bismarck's request for parliamentary approval of past military spending in 1866",
+    "D": "The German Empire's federal system, which let member states keep their own rulers"
    },
    "answer": "A",
    "explanation": "Bismarck used three short wars to unite Germany under Prussia: against Denmark (1864), Austria (1866), and France (1870–1871). This was \"Iron and Blood\" in action.",
    "whyNot": {
-    "B": "Prussian troops helped put down the revolts of 1848 and 1849. That was years before Bismarck took office in 1862.",
-    "C": "Bismarck insisted that ministers served the king. He even collected taxes without the parliament's approval.",
-    "D": "Prussia defeated Austria in 1866 and left it out of the new German Empire."
+    "B": "Bismarck did give men the vote in Reichstag elections, but votes did not unite Germany. The passage says unity will come \"Not through fine speeches and majority resolutions\" but \"by Iron and Blood.\"",
+    "C": "In 1866, after the war with Austria, Bismarck asked parliament to approve the money his government had spent without its consent since 1862. This made peace with the liberals at home. It was not a way of uniting Germany.",
+    "D": "The federal system shaped how the new empire was governed. It does not show how the German states were brought together."
    },
    "hint": "What does \"Iron and Blood\" mean? Which choice describes Prussia using it?",
    "reasoning": "Causation"
@@ -1444,17 +1443,17 @@
    "difficulty": "hard",
    "stem": "Which of the following is the most important limitation of this passage as evidence of Bismarck's thinking in July 1870?",
    "options": {
-    "A": "He was a liberal who opposed the war and so played down Prussia's part in starting it.",
-    "B": "His account is based mainly on what the French ambassador said about the talks at Ems.",
-    "C": "His memoirs were censored by the French government after Germany lost a war with France.",
-    "D": "He wrote it decades later and may have wanted to seem the clever planner of victory."
+    "A": "He had not witnessed the king's meeting with the French ambassador at Ems.",
+    "B": "He based part of his account on a telegram sent by another Prussian official.",
+    "C": "He described a private discussion with military leaders rather than a public debate.",
+    "D": "He wrote decades later and may have wanted to look like the planner of victory."
    },
    "answer": "D",
    "explanation": "Bismarck wrote his memoirs in the 1890s, after Emperor William II forced him out of office. A historian should check his story against records from 1870, because he may have shaped it to make himself look clever and in control.",
    "whyNot": {
-    "A": "Bismarck was a conservative who wanted the war. In the passage he plays up his own part in starting it.",
-    "B": "His account rests on the telegram sent from the king's side by Abeken, not on a French report.",
-    "C": "Germany defeated France in 1870–1871. It did not lose a war to France before the memoirs came out in 1898."
+    "A": "Bismarck was not at Ems. But the question asks about his own thinking in July 1870, and he did not need to be at Ems to know that.",
+    "B": "Abeken's telegram was written in 1870, so it helps check Bismarck's story. It does not make the account less reliable.",
+    "C": "A private talk with generals can show how leaders really made decisions. The bigger problem is that Bismarck described it many years later."
    },
    "hint": "When was this account written, and how might Bismarck have wanted readers to remember him?"
   },
@@ -1520,11 +1519,11 @@
     "D": "turned Russia into Piedmont's ally in a war against France and Austria"
    },
    "answer": "C",
-   "explanation": "In the Crimean War (1853–1856) Austria stayed neutral, even though Russia had helped it crush a revolt in Hungary in 1849. Russia felt betrayed, and the great powers stopped working together to protect the 1815 settlement. This left Austria alone when France and Piedmont attacked it in 1859.",
+   "explanation": "During the Crimean War (1853–1856), Austria pressured Russia but did not join the fighting, even though Russia had helped it crush a revolt in Hungary in 1849. Russia felt betrayed, and the great powers stopped working together to protect the 1815 settlement. In 1859 Austria invaded Piedmont. France fought beside Piedmont, and Russia did nothing to help Austria.",
    "whyNot": {
     "A": "Venetia went to Italy only in 1866, after Prussia defeated Austria. The peace conference of 1856 gave Piedmont no land.",
     "B": "Britain sent no army to Italy. France fought beside Piedmont against Austria in 1859.",
-    "D": "Piedmont fought against Russia in the Crimean War. Russia never became Piedmont's ally."
+    "D": "Piedmont joined Britain and France against Russia in the Crimean War. In 1859 France fought beside Piedmont, not against it, and Russia stayed out of the war."
    },
    "hint": "Think about how the great powers treated one another before and after the war of 1853–1856.",
    "reasoning": "Causation"
@@ -1557,7 +1556,7 @@
    "set": "P4",
    "topic": "7.3",
    "lo": "D",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "medium",
    "stem": "The cartoon most directly comments on which of the following?",
    "options": {
@@ -1720,7 +1719,7 @@
    "set": "P6",
    "topic": "7.2",
    "lo": "B",
-   "skill": "4.B",
+   "skill": "4.A",
    "difficulty": "easy",
    "stem": "Source 2 is best understood in the context of which of the following?",
    "options": {
@@ -1732,9 +1731,9 @@
    "answer": "A",
    "explanation": "In 1894 the French army wrongly convicted Alfred Dreyfus, a Jewish officer, of spying for Germany. He was sent to Devil's Island. In January 1898 an army court cleared the real spy. Two days later Zola published \"J'accuse.\"",
    "whyNot": {
-    "B": "The Paris Commune was a workers' uprising in Paris in 1871. The French army crushed it. It did not involve an innocent man suffering \"in a far-away country.\"",
-    "C": "The Boulanger affair (1886–1889) was about a popular general who seemed to threaten the republic. No innocent prisoner was involved.",
-    "D": "The Panama scandal (1892–1893) was about a canal company that paid bribes to politicians. It was not about an innocent man found guilty of a crime."
+    "B": "The Paris Commune was a revolt in Paris in 1871 that the French army crushed. Zola's letter defends one man punished \"for a crime that he did not commit.\"",
+    "C": "The Boulanger affair (1886–1889) was about a popular general who seemed to threaten the republic. Zola's letter defends a man punished for a crime he did not commit.",
+    "D": "The Panama scandal (1892–1893) was about a canal company that paid bribes to politicians. Zola's letter attacks \"odious anti-Semitism\" and defends a wrongly punished man."
    },
    "hint": "Who was \"the innocent man\" suffering \"in a far-away country\"?"
   },
@@ -1803,7 +1802,7 @@
    "explanation": "The Compromise of 1867 let Hungary run its own affairs inside Austria-Hungary. Hungarian leaders then pushed other peoples to use the Hungarian language, for example in schools and government jobs. This is called Magyarization.",
    "whyNot": {
     "A": "After 1867 Hungary ran its own internal affairs and pushed the Hungarian language, not German. The number of German speakers in the table went down.",
-    "B": "If many Hungarian speakers had left, their share would have fallen, not risen.",
+    "B": "Emigration of Hungarian speakers would, by itself, push their share down. It cannot explain the rise described in the note.",
     "C": "The Ottomans had lost Hungary by the early 1700s. No lands came back to Hungary from the Ottoman Empire between 1890 and 1910."
    },
    "hint": "What did the Compromise of 1867 allow Hungary's leaders to do inside their own kingdom?"
@@ -1827,7 +1826,7 @@
    "whyNot": {
     "A": "Pan-Slavism called on Slavic peoples to look to Russia for leadership. Hungarian leaders feared it, because millions of the kingdom's people were Slavs.",
     "B": "Austria-Hungary had no African colonies. It expanded in the Balkans instead, as in Bosnia.",
-    "C": "Hungarian was the language of the state. The other groups' languages had little official standing, which fed their resentment."
+    "C": "Hungarian was the state language, and Romanian and Slovak were not given equal standing beside it. This fed resentment. Croatian did have official standing in self-governing Croatia-Slavonia."
    },
    "hint": "Which neighboring country hoped to unite peoples who appear in this table?",
    "reasoning": "Causation"
@@ -1837,7 +1836,7 @@
    "set": "P8",
    "topic": "7.4",
    "lo": "E",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "The ideas in the passage are best described as an example of",
    "options": {
@@ -1876,8 +1875,7 @@
     "C": "Freud's theories came in the 1890s and 1900s, after Bagehot's book of 1872.",
     "D": "Bagehot argues that the strongest nations win and \"tend to be the best.\" He does not say people are equal by nature."
    },
-   "hint": "Bagehot says \"natural selection\" is an idea \"we have become familiar\" with. Who made it famous, and when?",
-   "reasoning": "Continuity and Change"
+   "hint": "Bagehot says \"natural selection\" is an idea \"we have become familiar\" with. Who made it famous, and when?"
   },
   {
    "id": "E7-P24",
@@ -1894,11 +1892,11 @@
     "D": "justify imperial conquest by claiming that strong nations were also superior ones"
    },
    "answer": "D",
-   "explanation": "Social Darwinists said nations and races compete like species. They said the winners proved they were better. Imperialists used this claim to justify ruling peoples in Africa and Asia. Darwin did not mean his theory to be used this way.",
+   "explanation": "Social Darwinists said nations and races compete like species. They said the winners proved they were better. Imperialists used this claim to justify ruling peoples in Africa and Asia. These claims went beyond what Darwin's theory of natural selection showed.",
    "whyNot": {
     "A": "Bagehot praises competition. He says conquest \"improved mankind.\" People who wanted disarmament argued the opposite.",
     "B": "The Congo Reform Association attacked the cruel treatment of Africans in Leopold's Congo. It spoke up for the suffering, not for the right of the strong to rule.",
-    "C": "The idea that \"the strongest tend to be the best\" was used to defend strong states ruling weaker peoples. It was not used to protect small nations."
+    "C": "Bagehot praises strong nations that conquer weaker ones. Ideas like his were used to defend strong states ruling weaker peoples, not the right of small nations to rule themselves."
    },
    "hint": "If \"the strongest tend to be the best,\" how might a strong nation justify ruling a weaker one?",
    "reasoning": "Causation"
@@ -1908,23 +1906,23 @@
    "set": "P9",
    "topic": "7.5",
    "lo": "F",
-   "skill": "1.B",
+   "skill": "3.A",
    "difficulty": "easy",
-   "stem": "The passage most clearly expresses the ideas of which philosophy?",
+   "stem": "Which approach to knowledge does Comte favor in the passage?",
    "options": {
-    "A": "Positivism",
-    "B": "Social Darwinism",
-    "C": "Romanticism",
-    "D": "Deism"
+    "A": "Using observation and reasoning to find regular laws",
+    "B": "Using religious teachings to explain the purpose of nature",
+    "C": "Using abstract forces to explain why things happen",
+    "D": "Using intuition and feeling to find truths beyond observation"
    },
    "answer": "A",
-   "explanation": "Comte called his philosophy positivism. He said each kind of knowledge passes through three stages. In the last stage, the \"positive\" one, people use reasoning and observation to find the laws of nature and society.",
+   "explanation": "Comte says each branch of knowledge passes through three states. The first explains events by supernatural beings, and the second by abstract forces. In the final, \"positive\" state, people use \"Reasoning and observation\" to find laws. Comte called this philosophy positivism.",
    "whyNot": {
-    "B": "Social Darwinism applied natural selection to human societies. It came after Darwin's book of 1859. Comte writes about stages of knowledge, not competition.",
-    "C": "Romantics trusted feeling and intuition. Comte praises \"Reasoning and observation\" instead.",
-    "D": "Deists of the Enlightenment believed in a creator God who made natural laws. Comte says the mind should give up searching for \"first and final causes.\""
+    "B": "Comte puts religious explanations in the first, \"Theological\" state. It is where the mind starts, not where it ends up.",
+    "C": "Comte puts abstract forces in the second, \"Metaphysical\" state, which he calls \"merely a state of transition.\"",
+    "D": "Comte favors \"Reasoning and observation,\" not intuition or feeling. Romantic writers were the ones who prized feeling."
    },
-   "hint": "What name does Comte give the third, \"fixed and definitive\" state?"
+   "hint": "Which of the three states does Comte call \"fixed and definitive\"? How does the mind work in that state?"
   },
   {
    "id": "E7-P26",
@@ -1938,14 +1936,14 @@
     "A": "growing confidence that science could explain both nature and society",
     "B": "a revival of Church authority as the main guide to truth about nature",
     "C": "Romantic writers' preference for intuition and emotion over reason",
-    "D": "doubts that science could give an objective picture of nature"
+    "D": "doubts that Newtonian physics could fully explain nature"
    },
    "answer": "A",
    "explanation": "Comte believed science could find laws for every subject, even society. His ideas helped create sociology. They also fed the trust in science that grew after 1848.",
    "whyNot": {
     "B": "Comte calls the theological state only \"the necessary point of departure.\" It is a stage the mind leaves behind.",
     "C": "Romantics distrusted the cool reasoning that Comte praises.",
-    "D": "Such doubts grew later, around 1900, with new physics such as Einstein's theory of relativity. Comte had full confidence in science."
+    "D": "Around 1900, new physics, such as Einstein's theory of relativity, challenged Newton's picture of nature. Comte, writing decades earlier, shows full confidence in science."
    },
    "hint": "Which choice matches Comte's trust in \"Reasoning and observation\"?",
    "reasoning": "Continuity and Change"
@@ -1968,7 +1966,7 @@
    "explanation": "Comte trusted reason and observation. By the late 1800s Nietzsche and Sorel argued that will, instinct, and powerful myths moved people more than reason did. This turn toward the irrational helped lead from positivism to modernism.",
    "whyNot": {
     "A": "Nietzsche attacked fixed rules and traditions, and Sorel wrote about workers' struggle. Neither called for classical rules in art.",
-    "B": "Nietzsche attacked Christianity. Sorel wrote about the general strike, not about Church teaching.",
+    "B": "Nietzsche attacked Christianity, so these thinkers did not share a defense of Church teaching. What they shared was a stress on will and instinct.",
     "D": "Sorel praised class struggle. Nietzsche scorned comfortable middle-class values. Neither said free markets would bring harmony."
    },
    "hint": "Comte trusted \"Reasoning and observation.\" What did later thinkers say really drives people?",
@@ -1985,11 +1983,11 @@
    "options": {
     "A": "mental illness comes mainly from physical damage to the brain or nerves",
     "B": "people act mainly on reason once they clearly understand the facts",
-    "C": "hidden wishes pushed into the unconscious can keep on troubling the mind",
+    "C": "the mind pushes wishes that clash with one's values out of awareness",
     "D": "dreams are random images of little use to doctors"
    },
    "answer": "C",
-   "explanation": "Freud says some wishes clash with a person's sense of right and wrong. The mind pushes them out of awareness and forgets them. He calls this repression. Guards at the door keep them out, but they still affect the person.",
+   "explanation": "Freud says a wish can clash with a person's sense of right and wrong. The mind then pushes the wish out of awareness and forgets it. He calls this repression. His image of men guarding the door shows the mind working to keep the wish from coming back.",
    "whyNot": {
     "A": "Freud explains illness by an inner \"conflict\" and \"repression,\" not by injury.",
     "B": "Freud describes people forgetting wishes they cannot accept. Reason does not control the whole mind.",
@@ -2098,21 +2096,21 @@
    "lo": "H",
    "skill": "1.B",
    "difficulty": "medium",
-   "stem": "Besides advanced weapons, which other development most directly helped Europeans survive in tropical Africa as they extended their control there in the late 1800s?",
+   "stem": "Along with the weapons described in the sources, which development most directly reduced the danger of malaria to Europeans pushing into tropical Africa?",
    "options": {
-    "A": "Vaccines to prevent polio",
-    "B": "Spinning jennies to make thread",
-    "C": "Quinine to prevent malaria",
-    "D": "The Panama Canal for shipping"
+    "A": "Vaccination against smallpox",
+    "B": "Antiseptic methods in surgery",
+    "C": "Regular doses of quinine",
+    "D": "Pasteurization of milk"
    },
    "answer": "C",
    "explanation": "Malaria had killed many Europeans in tropical Africa. From the mid-1800s Europeans learned to take quinine, made from the bark of the cinchona tree, to prevent and treat the disease. Along with steamships and machine guns, it made deeper conquest possible.",
    "whyNot": {
-    "A": "Polio vaccines were developed in the 1950s, long after the conquest of Africa.",
-    "B": "The spinning jenny of the 1760s sped up cloth making in Britain. It did nothing for Europeans' survival in Africa.",
-    "D": "The Panama Canal (1914) joined the Atlantic and Pacific in Central America. The Suez Canal (1869) was the one that shortened sea routes to Africa and Asia."
+    "A": "Vaccination, first used by Edward Jenner in 1796, protects against smallpox. It does not protect against malaria.",
+    "B": "Joseph Lister's antiseptic methods, from 1867, cut infections after operations. They did not prevent malaria.",
+    "D": "Pasteurization kills germs in milk. Malaria is spread by the bites of mosquitoes, not by food or drink."
    },
-   "hint": "Which choice is a medicine, and which disease made tropical Africa so dangerous for Europeans?"
+   "hint": "Malaria is spread by mosquitoes. Which choice was a drug that Europeans in the tropics took again and again?"
   },
   {
    "id": "E7-P34",
@@ -2167,7 +2165,7 @@
    "lo": "I",
    "skill": "5.A",
    "difficulty": "medium",
-   "stem": "Chamberlain's argument that colonies meant work for British workers is most similar to the argument of",
+   "stem": "Which figure, like Chamberlain, defended colonial expansion as a way to create markets for goods made at home?",
    "options": {
     "A": "Jules Ferry",
     "B": "Rudyard Kipling",
@@ -2177,11 +2175,11 @@
    "answer": "A",
    "explanation": "In 1885 the French leader Jules Ferry told the French parliament that France needed colonies as markets for its factories. Like Chamberlain, he linked empire to markets for the goods that factories at home produced.",
    "whyNot": {
-    "B": "Kipling's poem \"The White Man's Burden\" (1899) praised empire as a duty to rule others, not as a source of jobs.",
+    "B": "Kipling's poem \"The White Man's Burden\" (1899) praised empire as a duty to rule others, not as a way to find markets.",
     "C": "Hobson attacked empire. He said it made a few investors rich while most people paid its costs.",
-    "D": "Lenin attacked empire as a stage of capitalism that helped bankers and big business, not workers."
+    "D": "Lenin attacked empire as a stage of capitalism. He said its profits bought off a small, favored group of workers, but he did not defend colonial expansion."
    },
-   "hint": "Which of these leaders also wanted colonies as markets for goods made at home?",
+   "hint": "Which of these figures defended empire, and which attacked it? Of the defenders, who gave economic reasons?",
    "reasoning": "Comparison"
   },
   {
@@ -2292,7 +2290,7 @@
     "D": "Many European factory workers made goods that were sold in the colonies."
    },
    "answer": "B",
-   "explanation": "Moon says ideas, not self-interest, moved the public. Suppose Germans kept talking about \"surplus population\" after fewer people were leaving Germany. That would show an idea driving opinion even when the facts did not support it.",
+   "explanation": "Moon says ideas, not self-interest, moved the public. If Germans kept warning of \"surplus population\" after emigration had sunk, the idea was still shaping opinion after the problem it described had eased.",
    "whyNot": {
     "A": "A growing population makes the worry about \"surplus population\" look reasonable. So it does not show people believing an idea that no longer fit the facts.",
     "C": "This fits Moon's point about business groups. It does not show what moved the general public.",
@@ -2310,14 +2308,14 @@
    "stem": "Moon's argument about who gained from imperialism is most similar to the argument of",
    "options": {
     "A": "J. A. Hobson",
-    "B": "Vladimir Lenin",
+    "B": "Joseph Chamberlain",
     "C": "Cecil Rhodes",
     "D": "Karl Pearson"
    },
    "answer": "A",
    "explanation": "In Imperialism: A Study (1902), J. A. Hobson argued that a small group of investors and financiers gained from empire while the nation paid the costs. Moon also says that \"active, interested minorities\" drove empire.",
    "whyNot": {
-    "B": "Lenin called imperialism \"the highest stage\" of capitalism. He blamed capitalism as a whole. Moon rejects that view. He says only some business groups, not \"the whole so-called 'capitalist class,'\" pushed for empire.",
+    "B": "Chamberlain said empire brought jobs to British working men, so the whole nation gained. Moon says small groups gained while \"the majorities pay the expenses and fight the wars.\"",
     "C": "Rhodes was an empire-builder in southern Africa who wanted Britain to expand. He did not argue that only a few people gained.",
     "D": "Pearson was a Social Darwinist. He said empire came from a struggle between races, not from the push of a few interested groups."
    },
@@ -2329,7 +2327,7 @@
    "set": "P15",
    "topic": "7.8",
    "lo": "J",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "The painting is most closely associated with which artistic movement?",
    "options": {
@@ -2365,7 +2363,7 @@
    "explanation": "After the revolutions of 1848, many artists and writers turned to a realist outlook. Millet showed poor women gathering leftover grain while a rich harvest piles up in the distance. At the Salon of 1857, some critics attacked the painting. They feared it glorified the poor and stirred up the revolutionary ideas of 1848.",
    "whyNot": {
     "A": "That Baroque style belongs to the 1600s. This painting shows no religious scene.",
-    "C": "Impressionism began in the 1870s, after this 1857 painting. It focused on light and leisure, not hard work.",
+    "C": "Impressionists painted light and modern life, sometimes including scenes of work. But their first group show came in 1874, long after this 1857 painting.",
     "D": "The painting shows present-day peasants at work, not legends from the past."
    },
    "hint": "When was the painting shown, and what had just happened in Europe about ten years earlier?"
@@ -2399,7 +2397,7 @@
    "set": "P16",
    "topic": "7.8",
    "lo": "J",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "Hugo's argument in the passage most clearly expresses the ideas of which movement?",
    "options": {
@@ -2412,7 +2410,7 @@
    "explanation": "Hugo wants to break the old \"rules\" and \"models.\" He says the poet should follow nature, truth, and inspiration. His preface became a call to arms for French Romanticism.",
    "whyNot": {
     "B": "Neoclassicism followed rules and models from ancient Greece and Rome. Those are the very things Hugo wants to \"take the hammer to.\"",
-    "C": "Realism came later, around 1850. It tried to show everyday life as it really was. It did not follow inspiration.",
+    "C": "Realism came later, around 1850. It stressed close observation of everyday life. Hugo instead praises freedom from rules and calls for \"inspiration.\"",
     "D": "Positivists said true knowledge comes from observing facts. Hugo praises \"Genius, which divines rather than learns.\""
    },
    "hint": "Does Hugo want writers to follow rules, observe facts, or trust inspiration?"
@@ -2504,16 +2502,16 @@
     "stem": "Mazzini's call for Italians to form a nation is best understood in the context of which of the following?",
     "options": {
      "A": "France's rule over Italy as part of Napoleon Bonaparte's empire",
-     "B": "The Ottoman Empire's control of Sicily and Naples",
-     "C": "Italy's union under the pope as head of state",
+     "B": "The survival of the Roman Republic set up in 1849",
+     "C": "The creation of an Italian confederation led by the pope",
      "D": "Italy's division into several states, some ruled by Austria"
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. Napoleon's control of Italy ended in 1814–1815, long before this book was published.",
-     "B": "Incorrect. Sicily and Naples made up the Kingdom of the Two Sicilies. A Bourbon king ruled it, not the Ottomans.",
-     "C": "Incorrect. The pope ruled only the Papal States in central Italy. Pope Pius IX was against uniting Italy under Piedmont's king.",
-     "D": "Correct. Until 1859 Italy was split into several states, such as Piedmont-Sardinia, the Papal States, and the Kingdom of the Two Sicilies. Austria ruled Lombardy and Venetia in the north."
+     "B": "Incorrect. Mazzini helped lead the Roman Republic of 1849, but French troops crushed it that same year.",
+     "C": "Incorrect. Some Italians hoped the pope would lead a league of Italian states, but no such league was formed. Mazzini wanted one united Italy.",
+     "D": "Correct. When Mazzini wrote, Italy was divided into several states, such as Piedmont-Sardinia, the Papal States, and the Kingdom of the Two Sicilies. Austria ruled Lombardy until 1859 and Venetia until 1866. The Kingdom of Italy was proclaimed in 1861."
     },
     "explanation": "When Mazzini wrote, Italy was split into separate states. Austria controlled much of the north. Mazzini said workers could not improve their lives \"until you have an Italy.\""
    },
@@ -2570,7 +2568,7 @@
     "set": "X2",
     "topic": "7.3",
     "lo": "C",
-    "skill": "4.B",
+    "skill": "4.A",
     "difficulty": "medium",
     "stem": "Source 1 is best understood in the context of which of the following?",
     "options": {
@@ -2620,19 +2618,19 @@
     "difficulty": "hard",
     "stem": "The way of deciding borders that Renan recommends is most similar to which earlier practice?",
     "options": {
-     "A": "The plebiscites held in Italy in 1860",
+     "A": "Tuscany's union with Piedmont-Sardinia in 1860",
      "B": "The great powers' agreements at Vienna in 1815",
      "C": "Prussia's annexation of Hanover in 1866",
      "D": "The partitions of Poland in the 1700s"
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. In 1860 voters in Tuscany, Emilia, Naples, Sicily, and other regions chose to join the kingdom of Victor Emmanuel II.",
+     "A": "Correct. In March 1860, Tuscany joined Victor Emmanuel II's kingdom after its voters approved the union. Like Renan's idea, this asked a province's inhabitants what they wished.",
      "B": "Incorrect. At Vienna the great powers drew borders among themselves. They did not ask the people who lived there.",
      "C": "Incorrect. Prussia took Hanover after beating it in war. There was no vote, and Hanover's king protested.",
      "D": "Incorrect. Between 1772 and 1795, Russia, Prussia, and Austria split up Poland. They did not ask the Poles."
     },
-    "explanation": "Renan calls a nation \"a daily plebiscite,\" or daily vote. He says the people of a province should be consulted. Italy's votes of 1860 used this idea, though the voting was not fully free.",
+    "explanation": "Renan calls a nation \"a daily plebiscite\" and admits this is a metaphor: a nation lives on its people's continuing wish to stay together. He also says the inhabitants of a province have a right to be consulted. In 1860 voters in Tuscany, Emilia, and other Italian regions approved joining Victor Emmanuel II's kingdom, though the voting was not fully free.",
     "reasoning": "Comparison"
    },
    {
@@ -2647,14 +2645,14 @@
      "A": "Prussia's defeat of Denmark in 1864",
      "B": "The Frankfurt Parliament's vote for an emperor",
      "C": "Prussia's victories over France in 1870",
-     "D": "Austria's victory over Prussia in 1866"
+     "D": "The formation of the North German Confederation in 1867"
     },
     "answer": "C",
     "rationales": {
      "A": "Incorrect. The Danish war of 1864 won Schleswig and Holstein, but it did not create an empire.",
      "B": "Incorrect. In 1849 the Frankfurt Parliament did vote to offer a crown, but the king of Prussia refused it. The parliament then broke up without creating an empire.",
      "C": "Correct. The German Empire was proclaimed at Versailles, near Paris, in January 1871. German armies were then surrounding the French capital.",
-     "D": "Incorrect. Prussia defeated Austria in 1866, not the other way around."
+     "D": "Incorrect. The North German Confederation, formed after the war of 1866, united the northern German states under Prussia. The southern states joined during the war with France in 1870, which led to the ceremony shown."
     },
     "explanation": "In 1870 Prussia and the other German states won battle after battle against France, and by September their armies surrounded Paris. On January 18, 1871, while the war was still going on, the German princes proclaimed King William I of Prussia German emperor. The ceremony took place in the Hall of Mirrors at Versailles."
    },
@@ -2674,7 +2672,7 @@
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. Everyone in the hall is in military uniform. No elected members of a parliament appear.",
+     "A": "Incorrect. The painting gives the central places to Bismarck, the king, and army officers. It does not show a parliament creating the empire.",
      "B": "Correct. The painting was a birthday gift to Bismarck from the royal family. It puts him at the center in a bright white uniform among cheering officers and princes.",
      "C": "Incorrect. The officers cheer and raise their swords. The painting celebrates the event instead of criticizing it.",
      "D": "Incorrect. No French officials appear. And holding the ceremony in the palace of the French kings at Versailles humiliated France."
@@ -2738,16 +2736,16 @@
     "stem": "During the period 1876–1900, which of the following best explains the change in Africa shown in the chart?",
     "options": {
      "A": "European rivalry aided by new weapons, steamships, and the drug quinine",
-     "B": "African rulers' requests for protection from the Ottoman Empire",
+     "B": "A wave of European settlers moving to farm Africa's interior",
      "C": "Britain's abolition of the Atlantic slave trade in 1807",
-     "D": "The independence wars of Latin America in the 1810s and 1820s"
+     "D": "Falling demand in Europe for tropical goods such as rubber and palm oil"
     },
     "answer": "A",
     "rationales": {
      "A": "Correct. Britain, France, Germany, and other powers raced to claim land in Africa. Machine guns, steamships, and quinine let them push into the interior.",
-     "B": "Incorrect. Most African states fought European takeover. And the Ottoman Empire was itself losing land in North Africa. For example, France took Tunisia in 1881.",
-     "C": "Incorrect. Britain's ban came about seventy years before the rapid rise. It does not explain the sudden race for land after 1876.",
-     "D": "Incorrect. Those wars freed Spain's and Portugal's colonies in the Americas. That helps explain why the Americas' share stayed low, not why Africa's rose."
+     "B": "Incorrect. Few Europeans settled in tropical Africa. Most Europeans who left home in these years went to the Americas, especially the United States.",
+     "C": "Incorrect. Britain's ban came about seventy years before the rapid rise. Europeans later claimed they were fighting slavery in Africa, but the ban does not explain the sudden race for land after 1876.",
+     "D": "Incorrect. Demand for rubber and palm oil rose in these years. Rubber was needed for bicycle tires, and palm oil for soap and machine oil. Rising demand helped drive the race for Africa."
     },
     "explanation": "From the 1870s, European states raced each other for land. They wanted raw materials, markets, and power. New weapons, steamships, and quinine made it possible. The Berlin Conference (1884–1885) set rules for claiming Africa.",
     "reasoning": "Causation"
@@ -2784,19 +2782,19 @@
     "difficulty": "medium",
     "stem": "Members of which group would most likely have disagreed most strongly with the passage when it was published?",
     "options": {
-     "A": "Church leaders who held that God created each species",
-     "B": "Animal breeders who chose which animals to mate",
-     "C": "Liberals who favored free competition in trade",
-     "D": "Positivists who trusted observation and reason"
+     "A": "Clergy who taught that each species was created separately",
+     "B": "Animal breeders who selected animals for useful traits",
+     "C": "Liberals who favored free competition in business and trade",
+     "D": "Positivists who trusted observation and natural explanations"
     },
     "answer": "A",
     "rationales": {
-     "A": "Correct. Many Christians believed, as the Bible's book of Genesis says, that God made each species separately. Church leaders such as Bishop Samuel Wilberforce attacked Darwin's theory in 1860.",
+     "A": "Correct. Many clergy taught, from the Bible's book of Genesis, that God made each species separately in a fixed form. Darwin's theory challenged this, and Bishop Samuel Wilberforce attacked it in 1860. Belief in God alone did not require rejecting evolution, and some clergy accepted it.",
      "B": "Incorrect. Breeders already changed animals by choosing which ones to mate. Darwin used their work to support his idea of natural selection.",
      "C": "Incorrect. People who favored free competition already knew the idea of a \"struggle for existence.\" Some later used Darwin's ideas to defend it.",
-     "D": "Incorrect. Positivists wanted explanations based on facts that can be observed. Darwin gave exactly that kind of explanation."
+     "D": "Incorrect. Positivists wanted explanations based on facts that can be observed. Darwin explained new species by natural causes, the kind of explanation they favored."
     },
-    "explanation": "Darwin said species came from natural causes, not separate creation. That challenged church teaching. In 1860 Bishop Wilberforce and Thomas Huxley debated the theory at Oxford."
+    "explanation": "Darwin said species came from natural causes, not separate creation. That challenged what many clergy taught, though Christians differed in how they responded. In 1860 Bishop Wilberforce and Thomas Huxley debated the theory at Oxford."
    },
    {
     "id": "E7-E15",
@@ -2816,10 +2814,10 @@
     "rationales": {
      "A": "Incorrect. Social Darwinists said that societies change and compete with one another.",
      "B": "Incorrect. Darwin's theory challenged the idea that God created each species separately. The writers who borrowed his ideas did not defend that teaching.",
-     "C": "Correct. Social Darwinists such as Herbert Spencer and Karl Pearson applied the idea of a \"struggle for existence\" to nations and races. Imperialists used this idea to defend empire.",
+     "C": "Correct. Social Darwinists such as Karl Pearson treated conflict among nations and races as a kind of natural selection. Imperialists used this idea to defend empire.",
      "D": "Incorrect. Social Darwinists often said that fighting between nations was natural and even useful."
     },
-    "explanation": "Darwin wrote about plants and animals. Others applied \"the war of nature\" to human groups. This Social Darwinism was used to justify racism, empire, and fierce national rivalry. Darwin had not meant his ideas to be used this way.",
+    "explanation": "In this book Darwin wrote about plants and animals. Other writers applied \"the war of nature\" to human groups. This Social Darwinism was used to justify racism, empire, and fierce national rivalry. These political claims went beyond what the theory of natural selection showed.",
     "reasoning": "Causation"
    },
    {
@@ -2827,7 +2825,7 @@
     "set": "X6",
     "topic": "7.5",
     "lo": "F",
-    "skill": "1.B",
+    "skill": "1.A",
     "difficulty": "medium",
     "stem": "The passage most clearly reflects which intellectual development of the late 1800s?",
     "options": {
@@ -2926,15 +2924,15 @@
     "options": {
      "A": "British schools succeeded in making educated Indians loyal defenders of British rule.",
      "B": "Colonized peoples who learned Western ideas used them to challenge European rule.",
-     "C": "Western education quickly ended the caste system across India.",
-     "D": "Indian leaders refused to learn English so as to protect Indian traditions."
+     "C": "Missionary schools converted most Western-educated Indians to Christianity.",
+     "D": "Western-educated Indians placed social reform ahead of demands for self-government."
     },
     "answer": "B",
     "rationales": {
      "A": "Incorrect. Tilak says education \"opened our eyes\" to the costs of British rule. He does not defend that rule.",
      "B": "Correct. Like many colonized peoples, educated Indians used Western ideas, such as self-government and national rights, against their rulers. Tilak himself was a college graduate. He taught and ran newspapers.",
-     "C": "Incorrect. Caste remained strong in India long after 1907.",
-     "D": "Incorrect. Tilak and other leaders of the Indian National Congress learned English and used it in their politics."
+     "C": "Incorrect. Missionary schools taught many Indians, but few became Christians. Tilak, a Hindu, used his education to challenge British rule.",
+     "D": "Incorrect. Tilak calls for \"Self-Government\" and boycott. He does not put social reform ahead of that goal."
     },
     "explanation": "Many leaders of the Indian National Congress, founded in 1885, were lawyers, teachers, and journalists who had studied in English. Western ideas about rights and self-rule helped them see British rule as unfair.",
     "reasoning": "Causation"
@@ -2944,7 +2942,7 @@
     "set": "X7",
     "topic": "7.7",
     "lo": "I",
-    "skill": "4.B",
+    "skill": "4.A",
     "difficulty": "medium",
     "stem": "The call for boycott in the passage is best understood in the context of which of the following?",
     "options": {
@@ -2967,21 +2965,21 @@
     "set": "X7",
     "topic": "7.7",
     "lo": "I",
-    "skill": "3.C",
+    "skill": "5.A",
     "difficulty": "hard",
     "stem": "Compared with the leaders of the Indian revolt of 1857, Tilak",
     "options": {
      "A": "relied on boycott and refusal to cooperate rather than armed revolt",
      "B": "aimed to restore the Mughal emperor as the ruler of India",
-     "C": "drew most of his support from the British officials who were serving in India",
-     "D": "wanted India returned to the rule of the East India Company"
+     "C": "built his campaign around grievances among Indian soldiers",
+     "D": "sought support chiefly from princes threatened by British annexation"
     },
     "answer": "A",
     "rationales": {
      "A": "Correct. In 1857 Indian soldiers (sepoys) and others rose in armed revolt. Tilak says \"We are not armed\" and calls boycott \"a stronger weapon.\"",
      "B": "Incorrect. Rebels in 1857 proclaimed the old Mughal emperor, Bahadur Shah II, as their leader. Tilak wants \"Self-Government,\" not the return of an emperor.",
-     "C": "Incorrect. Tilak says the government is run by \"a handful of Englishmen\" whom Indians should stop helping. British officials opposed him.",
-     "D": "Incorrect. After 1857 Britain ended Company rule and governed India directly. Tilak wants control in Indian hands, not a return to the Company."
+     "C": "Incorrect. The 1857 revolt began among Indian soldiers (sepoys). Tilak calls on Indians in general to refuse to help the British \"collect revenue and keep peace.\"",
+     "D": "Incorrect. Some leaders of 1857, such as the Rani of Jhansi, fought for princely states the British had taken over. Tilak wants \"Self-Government\" through boycott."
     },
     "explanation": "The revolt of 1857 was an armed uprising, and Britain crushed it. Fifty years later Tilak called for refusing to work for the British and boycotting their goods. Mohandas Gandhi later used this method on a larger scale.",
     "reasoning": "Comparison"
@@ -3004,7 +3002,7 @@
     "rationales": {
      "A": "Incorrect. Mauclair says they came from \"a reactionary movement against classic and romantic painting.\" They pushed back against the old rules.",
      "B": "Correct. Mauclair says \"Light becomes the sole subject of the picture.\" He lists scenes of \"the street,\" \"the foundry,\" and \"modern interiors.\"",
-     "C": "Incorrect. Mauclair says they were \"altogether hostile to historical and symbolist painting.\" So they did not paint scenes like these.",
+     "C": "Incorrect. Mauclair says they were \"altogether hostile to historical and symbolist painting.\" He says their greatest work was in landscape, and he lists scenes of modern life.",
      "D": "Incorrect. He says they \"had all been Realists\" and that Realism pushed back against \"classic and romantic painting.\""
     },
     "explanation": "Mauclair says that for the Impressionists, light became \"the sole subject\" of a picture. They painted dance halls, rivers, streets, and factories. They cared more about \"character\" than about ideal beauty."
@@ -3028,7 +3026,7 @@
      "A": "Correct. By the late 1800s Paris had wide new boulevards. Trains took city people out to the country and the rivers. A growing middle class went dancing and boating.",
      "B": "Incorrect. Cities grew fast in the 1800s as people moved from villages to find work.",
      "C": "Incorrect. Mauclair says the Impressionists were \"hostile to historical and symbolist painting.\" They seldom painted saints or Bible stories.",
-     "D": "Incorrect. Painters of battle victories followed the Academy's rules. The Impressionists painted everyday modern life."
+     "D": "Incorrect. The last sentence lists the ball-room, the river, the field, the street, and the foundry. These are scenes of everyday modern life, not battles or victories."
     },
     "explanation": "Industrialization brought crowded cities, factories such as the \"foundry,\" new railways, and more leisure time for the middle class. The Impressionists painted this modern world."
    },
@@ -3053,7 +3051,7 @@
      "C": "Incorrect. They moved away from exact copies of what the eye sees. Photography could now do that.",
      "D": "Incorrect. Friedrich was a German Romantic painter of the early 1800s. Picasso and Matisse were known for new forms, not Romantic landscapes."
     },
-    "explanation": "After 1900, modern artists went beyond the Impressionists. They stopped trying to show things as the eye sees them. They used color and shape to express feelings and ideas. This often shocked people who wanted art to be realistic and beautiful.",
+    "explanation": "After 1900, some modern artists went beyond the Impressionists. Matisse used bold colors that did not match nature. Picasso broke objects into geometric shapes and showed several viewpoints at once. Their art moved away from showing things as the eye sees them, and it often shocked people who wanted art to look realistic.",
     "reasoning": "Continuity and Change"
    }
   ]

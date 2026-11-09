@@ -1,4 +1,4 @@
-# AP European History — Unit 7 practice bank (v2026-11-09b)
+# AP European History — Unit 7 practice bank (v2026-11-09c)
 
 Unit 7: 19th-Century Perspectives and Political Developments, c. 1815–c. 1914 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 7.1 Contextualizing 19th-Century Perspectives and Political Developments (LO A)
@@ -36,7 +36,7 @@ KEY: C. Explanation: Bismarck says the big questions of the day will be decided 
   - why not D: He wanted a bigger army. He says Prussia "must keep her strength intact" for "the favorable moment."
   - hint: Look at what Bismarck says will decide "the questions of the hour," and whom he says the ministers serve.
 
-**E7-P02** [Topic 7.1 · LO A · Skill 4.B · Continuity and Change · medium]  Bismarck's reference to "the mistake of 1848 and 1849" most likely refers to which of the following?
+**E7-P02** [Topic 7.1 · LO A · Skill 4.A · medium]  Bismarck's reference to "the mistake of 1848 and 1849" most likely refers to which of the following?
 - (A) The crushing of the June Days uprising in Paris
 - (B) Prussia's war against Austria for leadership in Germany
 - (C) The Frankfurt Parliament's failed attempt to unite Germany
@@ -47,15 +47,15 @@ KEY: C. Explanation: In 1848 an elected assembly met in Frankfurt to unite Germa
   - why not D: The Congress of Vienna created the German Confederation in 1815, not in 1848 or 1849.
   - hint: What happened in the German states in 1848 and 1849 when liberals tried to unite Germany through an elected assembly?
 
-**E7-P03** [Topic 7.3 · LO C · Skill 5.B · Causation · medium]  Bismarck's approach in the passage was most clearly put into practice in which of the following?
+**E7-P03** [Topic 7.3 · LO C · Skill 5.B · Causation · medium]  Which later development most clearly illustrates Bismarck's proposed method for achieving German unification?
 - (A) Prussia's wars with Denmark, Austria, and France from 1864 to 1871
-- (B) Prussia's support for the liberal revolutions in the German states in 1848
-- (C) Bismarck's decision to let the Prussian parliament choose the king's ministers
-- (D) Prussia's peaceful union with Austria in a single German empire
+- (B) The introduction of universal male suffrage for elections to the Reichstag
+- (C) Bismarck's request for parliamentary approval of past military spending in 1866
+- (D) The German Empire's federal system, which let member states keep their own rulers
 KEY: A. Explanation: Bismarck used three short wars to unite Germany under Prussia: against Denmark (1864), Austria (1866), and France (1870–1871). This was "Iron and Blood" in action.
-  - why not B: Prussian troops helped put down the revolts of 1848 and 1849. That was years before Bismarck took office in 1862.
-  - why not C: Bismarck insisted that ministers served the king. He even collected taxes without the parliament's approval.
-  - why not D: Prussia defeated Austria in 1866 and left it out of the new German Empire.
+  - why not B: Bismarck did give men the vote in Reichstag elections, but votes did not unite Germany. The passage says unity will come "Not through fine speeches and majority resolutions" but "by Iron and Blood."
+  - why not C: In 1866, after the war with Austria, Bismarck asked parliament to approve the money his government had spent without its consent since 1862. This made peace with the liberals at home. It was not a way of uniting Germany.
+  - why not D: The federal system shaped how the new empire was governed. It does not show how the German states were brought together.
   - hint: What does "Iron and Blood" mean? Which choice describes Prussia using it?
 
 
@@ -79,14 +79,14 @@ KEY: D. Explanation: Bismarck says the short text would act like "a red rag upon
   - hint: Find the animal comparison Bismarck uses. What does a red rag do to a bull?
 
 **E7-P05** [Topic 7.3 · LO C · Skill 2.C · hard]  Which of the following is the most important limitation of this passage as evidence of Bismarck's thinking in July 1870?
-- (A) He was a liberal who opposed the war and so played down Prussia's part in starting it.
-- (B) His account is based mainly on what the French ambassador said about the talks at Ems.
-- (C) His memoirs were censored by the French government after Germany lost a war with France.
-- (D) He wrote it decades later and may have wanted to seem the clever planner of victory.
+- (A) He had not witnessed the king's meeting with the French ambassador at Ems.
+- (B) He based part of his account on a telegram sent by another Prussian official.
+- (C) He described a private discussion with military leaders rather than a public debate.
+- (D) He wrote decades later and may have wanted to look like the planner of victory.
 KEY: D. Explanation: Bismarck wrote his memoirs in the 1890s, after Emperor William II forced him out of office. A historian should check his story against records from 1870, because he may have shaped it to make himself look clever and in control.
-  - why not A: Bismarck was a conservative who wanted the war. In the passage he plays up his own part in starting it.
-  - why not B: His account rests on the telegram sent from the king's side by Abeken, not on a French report.
-  - why not C: Germany defeated France in 1870–1871. It did not lose a war to France before the memoirs came out in 1898.
+  - why not A: Bismarck was not at Ems. But the question asks about his own thinking in July 1870, and he did not need to be at Ems to know that.
+  - why not B: Abeken's telegram was written in 1870, so it helps check Bismarck's story. It does not make the account less reliable.
+  - why not C: A private talk with generals can show how leaders really made decisions. The bigger problem is that Bismarck described it many years later.
   - hint: When was this account written, and how might Bismarck have wanted readers to remember him?
 
 **E7-P06** [Topic 7.2 · LO B · Skill 5.B · Causation · medium]  The events Bismarck describes contributed most directly to which of the following?
@@ -125,10 +125,10 @@ KEY: B. Explanation: King says Cavour chose "diplomatic" roads, not "revolutiona
 - (B) led Britain to send an army to help Piedmont fight Austria in Lombardy
 - (C) weakened the Concert of Europe and cost Austria the support of its old ally Russia
 - (D) turned Russia into Piedmont's ally in a war against France and Austria
-KEY: C. Explanation: In the Crimean War (1853–1856) Austria stayed neutral, even though Russia had helped it crush a revolt in Hungary in 1849. Russia felt betrayed, and the great powers stopped working together to protect the 1815 settlement. This left Austria alone when France and Piedmont attacked it in 1859.
+KEY: C. Explanation: During the Crimean War (1853–1856), Austria pressured Russia but did not join the fighting, even though Russia had helped it crush a revolt in Hungary in 1849. Russia felt betrayed, and the great powers stopped working together to protect the 1815 settlement. In 1859 Austria invaded Piedmont. France fought beside Piedmont, and Russia did nothing to help Austria.
   - why not A: Venetia went to Italy only in 1866, after Prussia defeated Austria. The peace conference of 1856 gave Piedmont no land.
   - why not B: Britain sent no army to Italy. France fought beside Piedmont against Austria in 1859.
-  - why not D: Piedmont fought against Russia in the Crimean War. Russia never became Piedmont's ally.
+  - why not D: Piedmont joined Britain and France against Russia in the Crimean War. In 1859 France fought beside Piedmont, not against it, and Russia stayed out of the war.
   - hint: Think about how the great powers treated one another before and after the war of 1853–1856.
 
 **E7-P09** [Topic 7.3 · LO C · Skill 3.D · hard]  Which piece of evidence best supports King's claim that "the Crimea was the road to Lombardy"?
@@ -147,10 +147,10 @@ KEY: B. Explanation: Cavour spoke about Italy at the Congress of Paris in 1856. 
 [IMAGE] John Tenniel, British cartoonist, "Dropping the Pilot," cartoon published in the London magazine Punch, March 29, 1890. Deutsches Historisches Museum, Berlin (engraving by Joseph Swain after Tenniel's drawing). Public domain image via Wikimedia Commons (file: Dropping the Pilot.jpg).
 Image file: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Dropping_the_Pilot.jpg/960px-Dropping_the_Pilot.jpg (960 × 1504)
 Caption shown to students: An old, heavy-set man with a large white moustache, dressed in a pilot's cap and a thick double-breasted coat, steps down a ladder hung over the side of a large ship. His face is calm and serious. High above him, a young man with an upturned moustache, wearing a jeweled crown and a uniform with shoulder boards, leans on the ship's rail with his arms folded and looks down at him. The title at the bottom reads "Dropping the Pilot." A ship's pilot was an expert who guided ships through dangerous waters and then left once the ship was safely on its way.
-Description: A tall wood-engraved cartoon printed in black ink. Across the top runs the line "Punch, or the London Charivari.—March 29, 1890." Most of the picture shows the high, dark side of a ship. A ladder with wooden steps and rope rails runs diagonally down the side of the hull. An old, stout man with a bushy white moustache, wearing a flat peaked cap, a long double-breasted coat, and heavy boots, stands on the lower steps, one hand holding a rope and the other resting against the hull. He looks straight ahead with a calm, grave expression. At the top of the hull, a young man in a military jacket with epaulettes and a large jeweled crown topped by an eagle leans over the rail with his arms crossed and watches the older man leave. Below the ladder, the edge of a small boat waits. The title "Dropping the Pilot" is printed in capital letters at the bottom.
+Description: A tall wood-engraved cartoon printed in black ink. Across the top runs the line "Punch, or the London Charivari.—March 29, 1890." Most of the picture shows the high, dark side of a ship. A ladder with wooden steps and rope rails runs diagonally down the side of the hull. An old, stout man with a bushy white moustache, wearing a flat peaked cap, a long double-breasted coat, and heavy boots, stands on the lower steps, one hand holding a rope and the other resting against the hull. He looks straight ahead with a calm, grave expression. At the top of the hull, a young man in a military jacket with epaulettes and a large jeweled crown topped by an eagle leans over the rail with his arms crossed and watches the older man leave. At the foot of the ladder, the curved side of a small rowboat is visible. The title "Dropping the Pilot" is printed in capital letters at the bottom.
 > Words to know: pilot = an expert sailor who guides ships through difficult waters, such as harbors and river mouths; Punch = a popular British humor magazine known for its political cartoons
 
-**E7-P10** [Topic 7.3 · LO D · Skill 1.B · medium]  The cartoon most directly comments on which of the following?
+**E7-P10** [Topic 7.3 · LO D · Skill 1.A · medium]  The cartoon most directly comments on which of the following?
 - (A) Bismarck's defeat in an election for chancellor
 - (B) Bismarck's retirement after William I's death
 - (C) William II's abdication in favor of his son
@@ -190,8 +190,8 @@ KEY: D. Explanation: A pilot guides a ship through dangerous waters. Tenniel sho
 > Art. 25. The provinces of Bosnia and Herzegovina shall be occupied and administered by Austria-Hungary.
 > Art. 26. The independence of Montenegro is recognized by the Sublime Porte and by all of those high contracting parties who have not hitherto admitted it.
 > Art. 34. The high contracting parties recognize the independence of the Principality of Servia, subject to the conditions set forth in the following article [on civil and religious liberty]. …
-> Art. 43. The high contracting parties recognize the independence of Roumania subject to the conditions set forth in the two following articles [on civil and religious liberty]. …
-— Treaty of Berlin, signed by Austria-Hungary, Britain, France, Germany, Italy, Russia, and the Ottoman Empire at the end of the Congress of Berlin, July 13, 1878 (English text from Edward Hertslet, The Map of Europe by Treaty, vol. 4 (London, 1891), as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (Boston: Ginn, 1909), pp. 397–398 (bracketed words are Robinson and Beard's); adapted)
+> Art. 43. The high contracting parties recognize the independence of Roumania subject to the conditions set forth in the two following articles. …
+— Treaty of Berlin, signed by Austria-Hungary, Britain, France, Germany, Italy, Russia, and the Ottoman Empire at the end of the Congress of Berlin, July 13, 1878 (English text from Edward Hertslet, The Map of Europe by Treaty, vol. 4 (London, 1891), as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (Boston: Ginn, 1909), pp. 397–398 (the bracketed words in Article 34 are Robinson and Beard's); adapted)
 > Words to know: autonomous = self-governing; tributary principality = a small state that pays yearly tribute (money) to a stronger ruler; suzerainty = control by an overlord who allows local self-rule; the Sultan / the Sublime Porte = the ruler and the government of the Ottoman Empire; militia = an army of citizens; high contracting parties = the states signing the treaty; Servia / Roumania = older spellings of Serbia and Romania
 **Source 2**
 > When a generation ago our troops crossed the borders of your lands, you were assured that they came not as foes, but as friends, with the firm determination to remedy the evils from which your fatherland had suffered so grievously for many years. This promise given at a serious moment has been honestly kept. …
@@ -261,15 +261,15 @@ KEY: C. Explanation: Herzl says Jews are "One people." Being loyal citizens had 
   - why not D: He says the question "is no more a social than a religious one" but "a national question."
   - hint: What kind of "question" does Herzl say the Jewish question is, and what does he ask for in the last paragraph?
 
-**E7-P17** [Topic 7.2 · LO B · Skill 4.B · easy]  Source 2 is best understood in the context of which of the following?
+**E7-P17** [Topic 7.2 · LO B · Skill 4.A · easy]  Source 2 is best understood in the context of which of the following?
 - (A) The Dreyfus affair
 - (B) The Paris Commune
 - (C) The Boulanger affair
 - (D) The Panama scandal
 KEY: A. Explanation: In 1894 the French army wrongly convicted Alfred Dreyfus, a Jewish officer, of spying for Germany. He was sent to Devil's Island. In January 1898 an army court cleared the real spy. Two days later Zola published "J'accuse."
-  - why not B: The Paris Commune was a workers' uprising in Paris in 1871. The French army crushed it. It did not involve an innocent man suffering "in a far-away country."
-  - why not C: The Boulanger affair (1886–1889) was about a popular general who seemed to threaten the republic. No innocent prisoner was involved.
-  - why not D: The Panama scandal (1892–1893) was about a canal company that paid bribes to politicians. It was not about an innocent man found guilty of a crime.
+  - why not B: The Paris Commune was a revolt in Paris in 1871 that the French army crushed. Zola's letter defends one man punished "for a crime that he did not commit."
+  - why not C: The Boulanger affair (1886–1889) was about a popular general who seemed to threaten the republic. Zola's letter defends a man punished for a crime he did not commit.
+  - why not D: The Panama scandal (1892–1893) was about a canal company that paid bribes to politicians. Zola's letter attacks "odious anti-Semitism" and defends a wrongly punished man.
   - hint: Who was "the innocent man" suffering "in a far-away country"?
 
 **E7-P18** [Topic 7.2 · LO B · Skill 3.C · Comparison · hard]  Which of the following best describes a difference between the two sources?
@@ -318,7 +318,7 @@ KEY: C. Explanation: In 1910 about 10.1 million of the kingdom's 20.9 million pe
 - (D) Magyarization policies after the Compromise of 1867
 KEY: D. Explanation: The Compromise of 1867 let Hungary run its own affairs inside Austria-Hungary. Hungarian leaders then pushed other peoples to use the Hungarian language, for example in schools and government jobs. This is called Magyarization.
   - why not A: After 1867 Hungary ran its own internal affairs and pushed the Hungarian language, not German. The number of German speakers in the table went down.
-  - why not B: If many Hungarian speakers had left, their share would have fallen, not risen.
+  - why not B: Emigration of Hungarian speakers would, by itself, push their share down. It cannot explain the rise described in the note.
   - why not C: The Ottomans had lost Hungary by the early 1700s. No lands came back to Hungary from the Ottoman Empire between 1890 and 1910.
   - hint: What did the Compromise of 1867 allow Hungary's leaders to do inside their own kingdom?
 
@@ -330,7 +330,7 @@ KEY: D. Explanation: The Compromise of 1867 let Hungary run its own affairs insi
 KEY: D. Explanation: Nearly 2 million Croats and more than a million Serbs lived in the kingdom, next door to Serbia. When Serbia called for uniting the South Slavs, Austria-Hungary's leaders feared it would tear their state apart.
   - why not A: Pan-Slavism called on Slavic peoples to look to Russia for leadership. Hungarian leaders feared it, because millions of the kingdom's people were Slavs.
   - why not B: Austria-Hungary had no African colonies. It expanded in the Balkans instead, as in Bosnia.
-  - why not C: Hungarian was the language of the state. The other groups' languages had little official standing, which fed their resentment.
+  - why not C: Hungarian was the state language, and Romanian and Slovak were not given equal standing beside it. This fed resentment. Croatian did have official standing in self-governing Croatia-Slavonia.
   - hint: Which neighboring country hoped to unite peoples who appear in this table?
 
 
@@ -341,7 +341,7 @@ KEY: D. Explanation: Nearly 2 million Croats and more than a million Serbs lived
 — Walter Bagehot, British journalist and editor of the business magazine The Economist, Physics and Politics, or Thoughts on the Application of the Principles of "Natural Selection" and "Inheritance" to Political Society, 1872 (Text from Physics and Politics (New York: D. Appleton, 1873), pp. 43–44, 49; adapted)
 > Words to know: prevail over = win out over; marked peculiarities = clear, special features; doctrines = sets of beliefs; conception = idea; essence = basic nature; subduing = conquering and controlling; intermixture = mixing together; armed truce = a pause in fighting while both sides stay armed
 
-**E7-P22** [Topic 7.4 · LO E · Skill 1.B · easy]  The ideas in the passage are best described as an example of
+**E7-P22** [Topic 7.4 · LO E · Skill 1.A · easy]  The ideas in the passage are best described as an example of
 - (A) Social Darwinism
 - (B) Utopian socialism
 - (C) Romanticism
@@ -352,7 +352,7 @@ KEY: A. Explanation: Bagehot takes Darwin's idea of "natural selection" and appl
   - why not D: Conservatives such as Edmund Burke and Metternich defended tradition. Bagehot builds his case on a new scientific idea.
   - hint: Which scientific idea does Bagehot say can be "applied to human history"?
 
-**E7-P23** [Topic 7.4 · LO E · Skill 4.B · Continuity and Change · medium]  Bagehot's argument is best understood in the context of which of the following?
+**E7-P23** [Topic 7.4 · LO E · Skill 4.B · medium]  Bagehot's argument is best understood in the context of which of the following?
 - (A) The Scientific Revolution's new model of the heavens
 - (B) The debate over Darwin's theory of natural selection
 - (C) Freud's new theory of the unconscious mind
@@ -368,10 +368,10 @@ KEY: B. Explanation: Darwin's On the Origin of Species came out in 1859. It said
 - (B) support the Congo Reform Association's campaign against forced labor in Africa
 - (C) defend the right of small nations such as Poland to rule themselves
 - (D) justify imperial conquest by claiming that strong nations were also superior ones
-KEY: D. Explanation: Social Darwinists said nations and races compete like species. They said the winners proved they were better. Imperialists used this claim to justify ruling peoples in Africa and Asia. Darwin did not mean his theory to be used this way.
+KEY: D. Explanation: Social Darwinists said nations and races compete like species. They said the winners proved they were better. Imperialists used this claim to justify ruling peoples in Africa and Asia. These claims went beyond what Darwin's theory of natural selection showed.
   - why not A: Bagehot praises competition. He says conquest "improved mankind." People who wanted disarmament argued the opposite.
   - why not B: The Congo Reform Association attacked the cruel treatment of Africans in Leopold's Congo. It spoke up for the suffering, not for the right of the strong to rule.
-  - why not C: The idea that "the strongest tend to be the best" was used to defend strong states ruling weaker peoples. It was not used to protect small nations.
+  - why not C: Bagehot praises strong nations that conquer weaker ones. Ideas like his were used to defend strong states ruling weaker peoples, not the right of small nations to rule themselves.
   - hint: If "the strongest tend to be the best," how might a strong nation justify ruling a weaker one?
 
 
@@ -383,26 +383,26 @@ KEY: D. Explanation: Social Darwinists said nations and races compete like speci
 — Auguste Comte, French philosopher, The Course of Positive Philosophy, published in six volumes, 1830–1842 (Text from The Positive Philosophy of Auguste Comte, freely translated and condensed by Harriet Martineau, vol. 1 (London: George Bell, 1896), pp. 1–2; adapted)
 > Words to know: successively = one after another; theological = having to do with religion and God; metaphysical = based on abstract ideas about what is real; positive = here, based only on facts that can be observed and tested; definitive = final; phenomena = things that happen and can be observed; veritable entities = things treated as if they were real beings; invariable = never changing
 
-**E7-P25** [Topic 7.5 · LO F · Skill 1.B · easy]  The passage most clearly expresses the ideas of which philosophy?
-- (A) Positivism
-- (B) Social Darwinism
-- (C) Romanticism
-- (D) Deism
-KEY: A. Explanation: Comte called his philosophy positivism. He said each kind of knowledge passes through three stages. In the last stage, the "positive" one, people use reasoning and observation to find the laws of nature and society.
-  - why not B: Social Darwinism applied natural selection to human societies. It came after Darwin's book of 1859. Comte writes about stages of knowledge, not competition.
-  - why not C: Romantics trusted feeling and intuition. Comte praises "Reasoning and observation" instead.
-  - why not D: Deists of the Enlightenment believed in a creator God who made natural laws. Comte says the mind should give up searching for "first and final causes."
-  - hint: What name does Comte give the third, "fixed and definitive" state?
+**E7-P25** [Topic 7.5 · LO F · Skill 3.A · easy]  Which approach to knowledge does Comte favor in the passage?
+- (A) Using observation and reasoning to find regular laws
+- (B) Using religious teachings to explain the purpose of nature
+- (C) Using abstract forces to explain why things happen
+- (D) Using intuition and feeling to find truths beyond observation
+KEY: A. Explanation: Comte says each branch of knowledge passes through three states. The first explains events by supernatural beings, and the second by abstract forces. In the final, "positive" state, people use "Reasoning and observation" to find laws. Comte called this philosophy positivism.
+  - why not B: Comte puts religious explanations in the first, "Theological" state. It is where the mind starts, not where it ends up.
+  - why not C: Comte puts abstract forces in the second, "Metaphysical" state, which he calls "merely a state of transition."
+  - why not D: Comte favors "Reasoning and observation," not intuition or feeling. Romantic writers were the ones who prized feeling.
+  - hint: Which of the three states does Comte call "fixed and definitive"? How does the mind work in that state?
 
 **E7-P26** [Topic 7.5 · LO F · Skill 5.A · Continuity and Change · medium]  Comte's view of the "positive state" most clearly reflects which broader pattern in nineteenth-century Europe?
 - (A) growing confidence that science could explain both nature and society
 - (B) a revival of Church authority as the main guide to truth about nature
 - (C) Romantic writers' preference for intuition and emotion over reason
-- (D) doubts that science could give an objective picture of nature
+- (D) doubts that Newtonian physics could fully explain nature
 KEY: A. Explanation: Comte believed science could find laws for every subject, even society. His ideas helped create sociology. They also fed the trust in science that grew after 1848.
   - why not B: Comte calls the theological state only "the necessary point of departure." It is a stage the mind leaves behind.
   - why not C: Romantics distrusted the cool reasoning that Comte praises.
-  - why not D: Such doubts grew later, around 1900, with new physics such as Einstein's theory of relativity. Comte had full confidence in science.
+  - why not D: Around 1900, new physics, such as Einstein's theory of relativity, challenged Newton's picture of nature. Comte, writing decades earlier, shows full confidence in science.
   - hint: Which choice matches Comte's trust in "Reasoning and observation"?
 
 **E7-P27** [Topic 7.5 · LO F · Skill 5.A · Comparison · hard]  Thinkers of the late 1800s and early 1900s such as Friedrich Nietzsche and Georges Sorel differed most from Comte in that they
@@ -412,7 +412,7 @@ KEY: A. Explanation: Comte believed science could find laws for every subject, e
 - (D) argued that free markets would bring harmony among social classes
 KEY: C. Explanation: Comte trusted reason and observation. By the late 1800s Nietzsche and Sorel argued that will, instinct, and powerful myths moved people more than reason did. This turn toward the irrational helped lead from positivism to modernism.
   - why not A: Nietzsche attacked fixed rules and traditions, and Sorel wrote about workers' struggle. Neither called for classical rules in art.
-  - why not B: Nietzsche attacked Christianity. Sorel wrote about the general strike, not about Church teaching.
+  - why not B: Nietzsche attacked Christianity, so these thinkers did not share a defense of Church teaching. What they shared was a stress on will and instinct.
   - why not D: Sorel praised class struggle. Nietzsche scorned comfortable middle-class values. Neither said free markets would bring harmony.
   - hint: Comte trusted "Reasoning and observation." What did later thinkers say really drives people?
 
@@ -427,9 +427,9 @@ KEY: C. Explanation: Comte trusted reason and observation. By the late 1800s Nie
 **E7-P28** [Topic 7.5 · LO F · Skill 3.A · easy]  Freud's main point in the passage is that
 - (A) mental illness comes mainly from physical damage to the brain or nerves
 - (B) people act mainly on reason once they clearly understand the facts
-- (C) hidden wishes pushed into the unconscious can keep on troubling the mind
+- (C) the mind pushes wishes that clash with one's values out of awareness
 - (D) dreams are random images of little use to doctors
-KEY: C. Explanation: Freud says some wishes clash with a person's sense of right and wrong. The mind pushes them out of awareness and forgets them. He calls this repression. Guards at the door keep them out, but they still affect the person.
+KEY: C. Explanation: Freud says a wish can clash with a person's sense of right and wrong. The mind then pushes the wish out of awareness and forgets it. He calls this repression. His image of men guarding the door shows the mind working to keep the wish from coming back.
   - why not A: Freud explains illness by an inner "conflict" and "repression," not by injury.
   - why not B: Freud describes people forgetting wishes they cannot accept. Reason does not control the whole mind.
   - why not D: Freud calls dreams "the via regia," the main road, to understanding the unconscious.
@@ -494,16 +494,16 @@ KEY: A. Explanation: Belloc jokes, "we have got / The Maxim Gun, and they have n
   - why not D: Belloc's poem is not about the Khalifa's army at all. And the Khalifa's soldiers did have many rifles; they just could not match British cannons and machine guns.
   - hint: What weapon appears in both sources?
 
-**E7-P33** [Topic 7.6 · LO H · Skill 1.B · medium]  Besides advanced weapons, which other development most directly helped Europeans survive in tropical Africa as they extended their control there in the late 1800s?
-- (A) Vaccines to prevent polio
-- (B) Spinning jennies to make thread
-- (C) Quinine to prevent malaria
-- (D) The Panama Canal for shipping
+**E7-P33** [Topic 7.6 · LO H · Skill 1.B · medium]  Along with the weapons described in the sources, which development most directly reduced the danger of malaria to Europeans pushing into tropical Africa?
+- (A) Vaccination against smallpox
+- (B) Antiseptic methods in surgery
+- (C) Regular doses of quinine
+- (D) Pasteurization of milk
 KEY: C. Explanation: Malaria had killed many Europeans in tropical Africa. From the mid-1800s Europeans learned to take quinine, made from the bark of the cinchona tree, to prevent and treat the disease. Along with steamships and machine guns, it made deeper conquest possible.
-  - why not A: Polio vaccines were developed in the 1950s, long after the conquest of Africa.
-  - why not B: The spinning jenny of the 1760s sped up cloth making in Britain. It did nothing for Europeans' survival in Africa.
-  - why not D: The Panama Canal (1914) joined the Atlantic and Pacific in Central America. The Suez Canal (1869) was the one that shortened sea routes to Africa and Asia.
-  - hint: Which choice is a medicine, and which disease made tropical Africa so dangerous for Europeans?
+  - why not A: Vaccination, first used by Edward Jenner in 1796, protects against smallpox. It does not protect against malaria.
+  - why not B: Joseph Lister's antiseptic methods, from 1867, cut infections after operations. They did not prevent malaria.
+  - why not D: Pasteurization kills germs in milk. Malaria is spread by the bites of mosquitoes, not by food or drink.
+  - hint: Malaria is spread by mosquitoes. Which choice was a drug that Europeans in the tropics took again and again?
 
 
 ### Source P12 (questions E7-P34–E7-P36)
@@ -535,16 +535,16 @@ KEY: B. Explanation: Chamberlain spoke in Birmingham, a factory city, at a meeti
   - why not D: He calls India a "customer," a buyer of British goods, not a place British jobs had moved to.
   - hint: Who was in the room when Chamberlain gave this speech?
 
-**E7-P36** [Topic 7.7 · LO I · Skill 5.A · Comparison · medium]  Chamberlain's argument that colonies meant work for British workers is most similar to the argument of
+**E7-P36** [Topic 7.7 · LO I · Skill 5.A · Comparison · medium]  Which figure, like Chamberlain, defended colonial expansion as a way to create markets for goods made at home?
 - (A) Jules Ferry
 - (B) Rudyard Kipling
 - (C) J. A. Hobson
 - (D) Vladimir Lenin
 KEY: A. Explanation: In 1885 the French leader Jules Ferry told the French parliament that France needed colonies as markets for its factories. Like Chamberlain, he linked empire to markets for the goods that factories at home produced.
-  - why not B: Kipling's poem "The White Man's Burden" (1899) praised empire as a duty to rule others, not as a source of jobs.
+  - why not B: Kipling's poem "The White Man's Burden" (1899) praised empire as a duty to rule others, not as a way to find markets.
   - why not C: Hobson attacked empire. He said it made a few investors rich while most people paid its costs.
-  - why not D: Lenin attacked empire as a stage of capitalism that helped bankers and big business, not workers.
-  - hint: Which of these leaders also wanted colonies as markets for goods made at home?
+  - why not D: Lenin attacked empire as a stage of capitalism. He said its profits bought off a small, favored group of workers, but he did not defend colonial expansion.
+  - hint: Which of these figures defended empire, and which attacked it? Of the defenders, who gave economic reasons?
 
 
 ### Source P13 (questions E7-P37–E7-P39)
@@ -553,7 +553,7 @@ KEY: A. Explanation: In 1885 the French leader Jules Ferry told the French parli
 > But King Leopold has done this. He has done so juridically, by claiming that a "State" (which he calls his enterprise) is empowered to appropriate the entire merchantable products of the land in which the citizens of that "State" dwell; and, in practice, by appropriating the entire labour of the country … And how can compulsion be exercised in the African tropics, save by arming one black man and stationing him with a loaded rifle in his hand over his unarmed brother? …
 > "British interests" in this connection mean nothing more than the right provided under the Berlin Conference for the subjects of Britain, as for the subjects of the fourteen contracting Powers—neither more nor less—of commercial intercourse with the natives of the Congo. …
 — Edmund D. Morel, British journalist and founder of the Congo Reform Association, Red Rubber: The Story of the Rubber Slave Trade on the Congo, preface to the second edition, 1906 (Text from Red Rubber, with an introduction by Sir Harry Johnston (New York: The Nassau Print, 1906), pp. xx–xxiii; adapted)
-> Words to know: native = a word used at the time for the African people who lived in the Congo; primitive community = Morel's term for a farming and trading village society; today historians avoid the word "primitive"; perpetual sterility = never-ending inability to grow; colossal = huge; spoliation = robbery, taking by force; juridically = by law; appropriate = take for oneself; merchantable products = goods that can be sold, such as rubber and ivory; compulsion = forcing people to do something; commercial intercourse = trade
+> Words to know: native = a word used at the time for the African people who lived in the Congo; primitive community = Morel's term for a society he saw as less developed; today historians avoid the word "primitive"; perpetual sterility = never-ending inability to grow; colossal = huge; spoliation = robbery, taking by force; juridically = by law; appropriate = take for oneself; merchantable products = goods that can be sold, such as rubber and ivory; compulsion = forcing people to do something; commercial intercourse = trade
 
 **E7-P37** [Topic 7.7 · LO I · Skill 3.A · medium]  Morel's main argument is that
 - (A) European rule in tropical Africa had failed, and the colonies there should be given independence
@@ -613,7 +613,7 @@ KEY: D. Explanation: Moon says small groups, such as some businessmen, pushed fo
 - (B) Germans kept warning of "surplus population" after emigration from Germany fell sharply in the 1890s.
 - (C) British cotton makers sold large amounts of cloth to buyers in India.
 - (D) Many European factory workers made goods that were sold in the colonies.
-KEY: B. Explanation: Moon says ideas, not self-interest, moved the public. Suppose Germans kept talking about "surplus population" after fewer people were leaving Germany. That would show an idea driving opinion even when the facts did not support it.
+KEY: B. Explanation: Moon says ideas, not self-interest, moved the public. If Germans kept warning of "surplus population" after emigration had sunk, the idea was still shaping opinion after the problem it described had eased.
   - why not A: A growing population makes the worry about "surplus population" look reasonable. So it does not show people believing an idea that no longer fit the facts.
   - why not C: This fits Moon's point about business groups. It does not show what moved the general public.
   - why not D: This suggests that some workers had a direct stake in empire. That weakens Moon's point instead of supporting it.
@@ -621,11 +621,11 @@ KEY: B. Explanation: Moon says ideas, not self-interest, moved the public. Suppo
 
 **E7-P42** [Topic 7.7 · LO I · Skill 5.A · Comparison · medium]  Moon's argument about who gained from imperialism is most similar to the argument of
 - (A) J. A. Hobson
-- (B) Vladimir Lenin
+- (B) Joseph Chamberlain
 - (C) Cecil Rhodes
 - (D) Karl Pearson
 KEY: A. Explanation: In Imperialism: A Study (1902), J. A. Hobson argued that a small group of investors and financiers gained from empire while the nation paid the costs. Moon also says that "active, interested minorities" drove empire.
-  - why not B: Lenin called imperialism "the highest stage" of capitalism. He blamed capitalism as a whole. Moon rejects that view. He says only some business groups, not "the whole so-called 'capitalist class,'" pushed for empire.
+  - why not B: Chamberlain said empire brought jobs to British working men, so the whole nation gained. Moon says small groups gained while "the majorities pay the expenses and fight the wars."
   - why not C: Rhodes was an empire-builder in southern Africa who wanted Britain to expand. He did not argue that only a few people gained.
   - why not D: Pearson was a Social Darwinist. He said empire came from a struggle between races, not from the push of a few interested groups.
   - hint: Which writer also argued that only a small group really profited from empire?
@@ -638,7 +638,7 @@ Caption shown to students: In the foreground, three peasant women in rough, fade
 Description: A wide oil painting in soft browns, tans, and muted blues. Three women fill the lower half of the picture. On the left, a woman in a blue cap and brown jacket bends far forward, reaching one hand to the stubble on the ground while holding a bundle of stalks behind her back. In the middle, a woman in a red head scarf and white blouse bends almost double, her hand nearly touching the earth. On the right, a woman in a pale cap, light blue blouse, and apron stands half bent, holding stalks of grain in her hands. The ground is flat and covered with cut stubble. In the far distance, under a hazy sky, tall golden haystacks rise beside a wagon piled with grain; many small figures of workers bustle around them, and a man on a horse sits at the right near a group of farm buildings.
 > Words to know: gleaners = poor people who were allowed to gather the grain left in a field after the harvest; the Salon = the official art exhibition in Paris, run under government and Academy rules
 
-**E7-P43** [Topic 7.8 · LO J · Skill 1.B · easy]  The painting is most closely associated with which artistic movement?
+**E7-P43** [Topic 7.8 · LO J · Skill 1.A · easy]  The painting is most closely associated with which artistic movement?
 - (A) Romanticism
 - (B) Realism
 - (C) Neoclassicism
@@ -656,7 +656,7 @@ KEY: B. Explanation: Realist painters such as Millet and Gustave Courbet showed 
 - (D) Romantic painters' use of medieval legends to stir national pride
 KEY: B. Explanation: After the revolutions of 1848, many artists and writers turned to a realist outlook. Millet showed poor women gathering leftover grain while a rich harvest piles up in the distance. At the Salon of 1857, some critics attacked the painting. They feared it glorified the poor and stirred up the revolutionary ideas of 1848.
   - why not A: That Baroque style belongs to the 1600s. This painting shows no religious scene.
-  - why not C: Impressionism began in the 1870s, after this 1857 painting. It focused on light and leisure, not hard work.
+  - why not C: Impressionists painted light and modern life, sometimes including scenes of work. But their first group show came in 1874, long after this 1857 painting.
   - why not D: The painting shows present-day peasants at work, not legends from the past.
   - hint: When was the painting shown, and what had just happened in Europe about ten years earlier?
 
@@ -679,14 +679,14 @@ KEY: C. Explanation: Monet and other Impressionists painted outdoors with quick 
 — Victor Hugo, French poet, playwright, and novelist, preface to his play Cromwell, 1827 (Text from Prefaces and Prologues to Famous Books, The Harvard Classics, vol. 39 (New York: P. F. Collier, 1910), pp. 383–384; adapted)
 > Words to know: penetrate = reach into; domain = area, field; facade = the front of a building; composition = a work of art, such as a play or poem; divines = senses, discovers by feeling; ensemble = the whole of something; crucible = a pot used to melt and test chemicals; take counsel of = be guided by
 
-**E7-P46** [Topic 7.8 · LO J · Skill 1.B · easy]  Hugo's argument in the passage most clearly expresses the ideas of which movement?
+**E7-P46** [Topic 7.8 · LO J · Skill 1.A · easy]  Hugo's argument in the passage most clearly expresses the ideas of which movement?
 - (A) Romanticism
 - (B) Neoclassicism
 - (C) Realism
 - (D) Positivism
 KEY: A. Explanation: Hugo wants to break the old "rules" and "models." He says the poet should follow nature, truth, and inspiration. His preface became a call to arms for French Romanticism.
   - why not B: Neoclassicism followed rules and models from ancient Greece and Rome. Those are the very things Hugo wants to "take the hammer to."
-  - why not C: Realism came later, around 1850. It tried to show everyday life as it really was. It did not follow inspiration.
+  - why not C: Realism came later, around 1850. It stressed close observation of everyday life. Hugo instead praises freedom from rules and calls for "inspiration."
   - why not D: Positivists said true knowledge comes from observing facts. Hugo praises "Genius, which divines rather than learns."
   - hint: Does Hugo want writers to follow rules, observe facts, or trust inspiration?
 
@@ -735,14 +735,14 @@ KEY: C. Explanation: For Mazzini, God divided humanity into nations so that peop
 
 **E7-E02** [Topic 7.1 · LO A · Skill 4.B · medium]  Mazzini's call for Italians to form a nation is best understood in the context of which of the following?
 - (A) France's rule over Italy as part of Napoleon Bonaparte's empire
-- (B) The Ottoman Empire's control of Sicily and Naples
-- (C) Italy's union under the pope as head of state
+- (B) The survival of the Roman Republic set up in 1849
+- (C) The creation of an Italian confederation led by the pope
 - (D) Italy's division into several states, some ruled by Austria
 KEY: D. Explanation: When Mazzini wrote, Italy was split into separate states. Austria controlled much of the north. Mazzini said workers could not improve their lives "until you have an Italy."
   - A: Incorrect. Napoleon's control of Italy ended in 1814–1815, long before this book was published.
-  - B: Incorrect. Sicily and Naples made up the Kingdom of the Two Sicilies. A Bourbon king ruled it, not the Ottomans.
-  - C: Incorrect. The pope ruled only the Papal States in central Italy. Pope Pius IX was against uniting Italy under Piedmont's king.
-  - D: Correct. Until 1859 Italy was split into several states, such as Piedmont-Sardinia, the Papal States, and the Kingdom of the Two Sicilies. Austria ruled Lombardy and Venetia in the north.
+  - B: Incorrect. Mazzini helped lead the Roman Republic of 1849, but French troops crushed it that same year.
+  - C: Incorrect. Some Italians hoped the pope would lead a league of Italian states, but no such league was formed. Mazzini wanted one united Italy.
+  - D: Correct. When Mazzini wrote, Italy was divided into several states, such as Piedmont-Sardinia, the Papal States, and the Kingdom of the Two Sicilies. Austria ruled Lombardy until 1859 and Venetia until 1866. The Kingdom of Italy was proclaimed in 1861.
 
 **E7-E03** [Topic 7.2 · LO B · Skill 5.B · Continuity and Change · hard]  The argument in the last paragraph was most directly reflected in which later development?
 - (A) Italy's decision to join Germany and Austria-Hungary in the Triple Alliance
@@ -781,7 +781,7 @@ KEY: B. Explanation: Treitschke says Germany will act "Against their will" becau
   - C: Incorrect. Renan says "In man there is something superior to language,—will." He does not base nations on rivers or mountains.
   - D: Incorrect. Treitschke says the lands are "ours by the right of the sword." Renan argues for consent, not war.
 
-**E7-E05** [Topic 7.3 · LO C · Skill 4.B · medium]  Source 1 is best understood in the context of which of the following?
+**E7-E05** [Topic 7.3 · LO C · Skill 4.A · medium]  Source 1 is best understood in the context of which of the following?
 - (A) The Crimean War
 - (B) The Austro-Prussian War
 - (C) The revolutions of 1848–1849
@@ -804,12 +804,12 @@ KEY: A. Explanation: Germans such as Treitschke used blood and history to justif
   - D: Incorrect. Renan gave this lecture in March 1882. Britain occupied Egypt later, in September 1882. And no one claimed Egypt by "blood."
 
 **E7-E07** [Topic 7.3 · LO C · Skill 5.A · Comparison · hard]  The way of deciding borders that Renan recommends is most similar to which earlier practice?
-- (A) The plebiscites held in Italy in 1860
+- (A) Tuscany's union with Piedmont-Sardinia in 1860
 - (B) The great powers' agreements at Vienna in 1815
 - (C) Prussia's annexation of Hanover in 1866
 - (D) The partitions of Poland in the 1700s
-KEY: A. Explanation: Renan calls a nation "a daily plebiscite," or daily vote. He says the people of a province should be consulted. Italy's votes of 1860 used this idea, though the voting was not fully free.
-  - A: Correct. In 1860 voters in Tuscany, Emilia, Naples, Sicily, and other regions chose to join the kingdom of Victor Emmanuel II.
+KEY: A. Explanation: Renan calls a nation "a daily plebiscite" and admits this is a metaphor: a nation lives on its people's continuing wish to stay together. He also says the inhabitants of a province have a right to be consulted. In 1860 voters in Tuscany, Emilia, and other Italian regions approved joining Victor Emmanuel II's kingdom, though the voting was not fully free.
+  - A: Correct. In March 1860, Tuscany joined Victor Emmanuel II's kingdom after its voters approved the union. Like Renan's idea, this asked a province's inhabitants what they wished.
   - B: Incorrect. At Vienna the great powers drew borders among themselves. They did not ask the people who lived there.
   - C: Incorrect. Prussia took Hanover after beating it in war. There was no vote, and Hanover's king protested.
   - D: Incorrect. Between 1772 and 1795, Russia, Prussia, and Austria split up Poland. They did not ask the Poles.
@@ -826,12 +826,12 @@ Description: A wide oil painting of an indoor ceremony. The setting is a long ha
 - (A) Prussia's defeat of Denmark in 1864
 - (B) The Frankfurt Parliament's vote for an emperor
 - (C) Prussia's victories over France in 1870
-- (D) Austria's victory over Prussia in 1866
+- (D) The formation of the North German Confederation in 1867
 KEY: C. Explanation: In 1870 Prussia and the other German states won battle after battle against France, and by September their armies surrounded Paris. On January 18, 1871, while the war was still going on, the German princes proclaimed King William I of Prussia German emperor. The ceremony took place in the Hall of Mirrors at Versailles.
   - A: Incorrect. The Danish war of 1864 won Schleswig and Holstein, but it did not create an empire.
   - B: Incorrect. In 1849 the Frankfurt Parliament did vote to offer a crown, but the king of Prussia refused it. The parliament then broke up without creating an empire.
   - C: Correct. The German Empire was proclaimed at Versailles, near Paris, in January 1871. German armies were then surrounding the French capital.
-  - D: Incorrect. Prussia defeated Austria in 1866, not the other way around.
+  - D: Incorrect. The North German Confederation, formed after the war of 1866, united the northern German states under Prussia. The southern states joined during the war with France in 1870, which led to the ceremony shown.
 
 **E7-E09** [Topic 7.3 · LO C · Skill 2.B · medium]  Given the painting and its context, it was most likely intended to
 - (A) show that elected representatives of the German people had created the empire
@@ -839,7 +839,7 @@ KEY: C. Explanation: In 1870 Prussia and the other German states won battle afte
 - (C) criticize the use of war and conquest to unite the German states
 - (D) celebrate the friendship of France and Germany after the war ended
 KEY: B. Explanation: Werner painted this version in 1885 for Bismarck's seventieth birthday. By placing Bismarck at the center in white, among officers and princes, it presents the empire as the work of Bismarck, the army, and the German princes.
-  - A: Incorrect. Everyone in the hall is in military uniform. No elected members of a parliament appear.
+  - A: Incorrect. The painting gives the central places to Bismarck, the king, and army officers. It does not show a parliament creating the empire.
   - B: Correct. The painting was a birthday gift to Bismarck from the royal family. It puts him at the center in a bright white uniform among cheering officers and princes.
   - C: Incorrect. The officers cheer and raise their swords. The painting celebrates the event instead of criticizing it.
   - D: Incorrect. No French officials appear. And holding the ceremony in the palace of the French kings at Versailles humiliated France.
@@ -861,7 +861,7 @@ KEY: C. Explanation: A united Germany became Europe's strongest land power, and 
 - 1876: Africa = 10.8, Polynesia (Pacific islands) = 56.8, Asia = 51.5, Australia = 100, The Americas = 27.5
 - 1900: Africa = 90.4, Polynesia (Pacific islands) = 98.9, Asia = 56.6, Australia = 100, The Americas = 27.2
 Each bar shows the percent of a region's land area held as colonies by European powers or by the United States. The author counted the United States as a colonial power and Alaska as a United States colony. Independent countries, such as the nations of Latin America, are not counted as colonies.
-Source: Alexander Supan, German geographer, Die territoriale Entwicklung der europäischen Kolonien (The Territorial Growth of the European Colonies) (Gotha: Justus Perthes, 1906), p. 254
+Source: Alexander Supan, Austrian geographer, Die territoriale Entwicklung der europäischen Kolonien (The Territorial Growth of the European Colonies) (Gotha: Justus Perthes, 1906), p. 254
 
 **E7-E11** [Topic 7.6 · LO G · Skill 5.A · easy]  Which conclusion is best supported by the data?
 - (A) European colonial powers lost most of their territory in the Americas between 1876 and 1900.
@@ -876,14 +876,14 @@ KEY: D. Explanation: The chart shows the Scramble for Africa. In about 25 years,
 
 **E7-E12** [Topic 7.6 · LO H · Skill 5.B · Causation · medium]  During the period 1876–1900, which of the following best explains the change in Africa shown in the chart?
 - (A) European rivalry aided by new weapons, steamships, and the drug quinine
-- (B) African rulers' requests for protection from the Ottoman Empire
+- (B) A wave of European settlers moving to farm Africa's interior
 - (C) Britain's abolition of the Atlantic slave trade in 1807
-- (D) The independence wars of Latin America in the 1810s and 1820s
+- (D) Falling demand in Europe for tropical goods such as rubber and palm oil
 KEY: A. Explanation: From the 1870s, European states raced each other for land. They wanted raw materials, markets, and power. New weapons, steamships, and quinine made it possible. The Berlin Conference (1884–1885) set rules for claiming Africa.
   - A: Correct. Britain, France, Germany, and other powers raced to claim land in Africa. Machine guns, steamships, and quinine let them push into the interior.
-  - B: Incorrect. Most African states fought European takeover. And the Ottoman Empire was itself losing land in North Africa. For example, France took Tunisia in 1881.
-  - C: Incorrect. Britain's ban came about seventy years before the rapid rise. It does not explain the sudden race for land after 1876.
-  - D: Incorrect. Those wars freed Spain's and Portugal's colonies in the Americas. That helps explain why the Americas' share stayed low, not why Africa's rose.
+  - B: Incorrect. Few Europeans settled in tropical Africa. Most Europeans who left home in these years went to the Americas, especially the United States.
+  - C: Incorrect. Britain's ban came about seventy years before the rapid rise. Europeans later claimed they were fighting slavery in Africa, but the ban does not explain the sudden race for land after 1876.
+  - D: Incorrect. Demand for rubber and palm oil rose in these years. Rubber was needed for bicycle tires, and palm oil for soap and machine oil. Rising demand helped drive the race for Africa.
 
 
 ### Source X5 (questions E7-E13–E7-E15)
@@ -906,25 +906,25 @@ KEY: C. Explanation: Darwin says more creatures are born than can survive. Those
   - D: Incorrect. Darwin says "many more individuals of each species are born than can possibly survive."
 
 **E7-E14** [Topic 7.4 · LO E · Skill 2.B · medium]  Members of which group would most likely have disagreed most strongly with the passage when it was published?
-- (A) Church leaders who held that God created each species
-- (B) Animal breeders who chose which animals to mate
-- (C) Liberals who favored free competition in trade
-- (D) Positivists who trusted observation and reason
-KEY: A. Explanation: Darwin said species came from natural causes, not separate creation. That challenged church teaching. In 1860 Bishop Wilberforce and Thomas Huxley debated the theory at Oxford.
-  - A: Correct. Many Christians believed, as the Bible's book of Genesis says, that God made each species separately. Church leaders such as Bishop Samuel Wilberforce attacked Darwin's theory in 1860.
+- (A) Clergy who taught that each species was created separately
+- (B) Animal breeders who selected animals for useful traits
+- (C) Liberals who favored free competition in business and trade
+- (D) Positivists who trusted observation and natural explanations
+KEY: A. Explanation: Darwin said species came from natural causes, not separate creation. That challenged what many clergy taught, though Christians differed in how they responded. In 1860 Bishop Wilberforce and Thomas Huxley debated the theory at Oxford.
+  - A: Correct. Many clergy taught, from the Bible's book of Genesis, that God made each species separately in a fixed form. Darwin's theory challenged this, and Bishop Samuel Wilberforce attacked it in 1860. Belief in God alone did not require rejecting evolution, and some clergy accepted it.
   - B: Incorrect. Breeders already changed animals by choosing which ones to mate. Darwin used their work to support his idea of natural selection.
   - C: Incorrect. People who favored free competition already knew the idea of a "struggle for existence." Some later used Darwin's ideas to defend it.
-  - D: Incorrect. Positivists wanted explanations based on facts that can be observed. Darwin gave exactly that kind of explanation.
+  - D: Incorrect. Positivists wanted explanations based on facts that can be observed. Darwin explained new species by natural causes, the kind of explanation they favored.
 
 **E7-E15** [Topic 7.4 · LO E · Skill 5.B · Causation · medium]  In the late 1800s, other writers most often used ideas like Darwin's to
 - (A) argue that human societies did not change or develop over long periods of time
 - (B) support religious teachings about the separate creation of each species
 - (C) claim that some nations and races were superior and had a right to rule others
 - (D) argue that conflict between nations was unnatural and would soon disappear
-KEY: C. Explanation: Darwin wrote about plants and animals. Others applied "the war of nature" to human groups. This Social Darwinism was used to justify racism, empire, and fierce national rivalry. Darwin had not meant his ideas to be used this way.
+KEY: C. Explanation: In this book Darwin wrote about plants and animals. Other writers applied "the war of nature" to human groups. This Social Darwinism was used to justify racism, empire, and fierce national rivalry. These political claims went beyond what the theory of natural selection showed.
   - A: Incorrect. Social Darwinists said that societies change and compete with one another.
   - B: Incorrect. Darwin's theory challenged the idea that God created each species separately. The writers who borrowed his ideas did not defend that teaching.
-  - C: Correct. Social Darwinists such as Herbert Spencer and Karl Pearson applied the idea of a "struggle for existence" to nations and races. Imperialists used this idea to defend empire.
+  - C: Correct. Social Darwinists such as Karl Pearson treated conflict among nations and races as a kind of natural selection. Imperialists used this idea to defend empire.
   - D: Incorrect. Social Darwinists often said that fighting between nations was natural and even useful.
 
 
@@ -934,7 +934,7 @@ KEY: C. Explanation: Darwin wrote about plants and animals. Others applied "the 
 — Friedrich Nietzsche, German philosopher, The Joyful Wisdom (also translated as The Gay Science), section 125, "The Madman," 1882 (Text from The Joyful Wisdom, translated by Thomas Common, The Complete Works of Friedrich Nietzsche, vol. 10, edited by Oscar Levy (Edinburgh and London: T. N. Foulis, 1910), pp. 167–169; adapted)
 > Words to know: unceasingly = without stopping; transfixed = held still, as if pinned in place; whither = where; to what place; console = comfort; magnitude = great size or importance; extinguished = put out; prodigious = enormous
 
-**E7-E16** [Topic 7.5 · LO F · Skill 1.B · medium]  The passage most clearly reflects which intellectual development of the late 1800s?
+**E7-E16** [Topic 7.5 · LO F · Skill 1.A · medium]  The passage most clearly reflects which intellectual development of the late 1800s?
 - (A) A revival of Christian faith among educated Europeans
 - (B) A loss of confidence in shared religious and moral values
 - (C) Positivist confidence that science would provide certain truth
@@ -989,15 +989,15 @@ KEY: B. Explanation: Tilak says British rule depends on Indian help. If Indians 
 **E7-E20** [Topic 7.7 · LO I · Skill 5.B · Causation · medium]  Tilak's statement that "English education" helped open Indians' eyes best illustrates which of the following?
 - (A) British schools succeeded in making educated Indians loyal defenders of British rule.
 - (B) Colonized peoples who learned Western ideas used them to challenge European rule.
-- (C) Western education quickly ended the caste system across India.
-- (D) Indian leaders refused to learn English so as to protect Indian traditions.
+- (C) Missionary schools converted most Western-educated Indians to Christianity.
+- (D) Western-educated Indians placed social reform ahead of demands for self-government.
 KEY: B. Explanation: Many leaders of the Indian National Congress, founded in 1885, were lawyers, teachers, and journalists who had studied in English. Western ideas about rights and self-rule helped them see British rule as unfair.
   - A: Incorrect. Tilak says education "opened our eyes" to the costs of British rule. He does not defend that rule.
   - B: Correct. Like many colonized peoples, educated Indians used Western ideas, such as self-government and national rights, against their rulers. Tilak himself was a college graduate. He taught and ran newspapers.
-  - C: Incorrect. Caste remained strong in India long after 1907.
-  - D: Incorrect. Tilak and other leaders of the Indian National Congress learned English and used it in their politics.
+  - C: Incorrect. Missionary schools taught many Indians, but few became Christians. Tilak, a Hindu, used his education to challenge British rule.
+  - D: Incorrect. Tilak calls for "Self-Government" and boycott. He does not put social reform ahead of that goal.
 
-**E7-E21** [Topic 7.7 · LO I · Skill 4.B · medium]  The call for boycott in the passage is best understood in the context of which of the following?
+**E7-E21** [Topic 7.7 · LO I · Skill 4.A · medium]  The call for boycott in the passage is best understood in the context of which of the following?
 - (A) The Sepoy Mutiny against East India Company rule
 - (B) The Boxer Rebellion against foreigners in China
 - (C) The British partition of Bengal in 1905
@@ -1008,16 +1008,16 @@ KEY: C. Explanation: In 1905 Britain split the province of Bengal. Many Indians 
   - C: Correct. The British split Bengal in 1905. Many Indians saw this as a plan to weaken their national movement. Protesters began to boycott British goods and buy Indian-made (swadeshi) goods.
   - D: Incorrect. The Berlin Conference (1884–1885) set rules for claiming land in Africa, not India.
 
-**E7-E22** [Topic 7.7 · LO I · Skill 3.C · Comparison · hard]  Compared with the leaders of the Indian revolt of 1857, Tilak
+**E7-E22** [Topic 7.7 · LO I · Skill 5.A · Comparison · hard]  Compared with the leaders of the Indian revolt of 1857, Tilak
 - (A) relied on boycott and refusal to cooperate rather than armed revolt
 - (B) aimed to restore the Mughal emperor as the ruler of India
-- (C) drew most of his support from the British officials who were serving in India
-- (D) wanted India returned to the rule of the East India Company
+- (C) built his campaign around grievances among Indian soldiers
+- (D) sought support chiefly from princes threatened by British annexation
 KEY: A. Explanation: The revolt of 1857 was an armed uprising, and Britain crushed it. Fifty years later Tilak called for refusing to work for the British and boycotting their goods. Mohandas Gandhi later used this method on a larger scale.
   - A: Correct. In 1857 Indian soldiers (sepoys) and others rose in armed revolt. Tilak says "We are not armed" and calls boycott "a stronger weapon."
   - B: Incorrect. Rebels in 1857 proclaimed the old Mughal emperor, Bahadur Shah II, as their leader. Tilak wants "Self-Government," not the return of an emperor.
-  - C: Incorrect. Tilak says the government is run by "a handful of Englishmen" whom Indians should stop helping. British officials opposed him.
-  - D: Incorrect. After 1857 Britain ended Company rule and governed India directly. Tilak wants control in Indian hands, not a return to the Company.
+  - C: Incorrect. The 1857 revolt began among Indian soldiers (sepoys). Tilak calls on Indians in general to refuse to help the British "collect revenue and keep peace."
+  - D: Incorrect. Some leaders of 1857, such as the Rani of Jhansi, fought for princely states the British had taken over. Tilak wants "Self-Government" through boycott.
 
 
 ### Source X8 (questions E7-E23–E7-E25)
@@ -1035,7 +1035,7 @@ KEY: A. Explanation: The revolt of 1857 was an armed uprising, and Britain crush
 KEY: B. Explanation: Mauclair says that for the Impressionists, light became "the sole subject" of a picture. They painted dance halls, rivers, streets, and factories. They cared more about "character" than about ideal beauty.
   - A: Incorrect. Mauclair says they came from "a reactionary movement against classic and romantic painting." They pushed back against the old rules.
   - B: Correct. Mauclair says "Light becomes the sole subject of the picture." He lists scenes of "the street," "the foundry," and "modern interiors."
-  - C: Incorrect. Mauclair says they were "altogether hostile to historical and symbolist painting." So they did not paint scenes like these.
+  - C: Incorrect. Mauclair says they were "altogether hostile to historical and symbolist painting." He says their greatest work was in landscape, and he lists scenes of modern life.
   - D: Incorrect. He says they "had all been Realists" and that Realism pushed back against "classic and romantic painting."
 
 **E7-E24** [Topic 7.8 · LO J · Skill 4.B · medium]  The subjects listed in the last sentence of the passage are best understood in the context of
@@ -1047,14 +1047,14 @@ KEY: A. Explanation: Industrialization brought crowded cities, factories such as
   - A: Correct. By the late 1800s Paris had wide new boulevards. Trains took city people out to the country and the rivers. A growing middle class went dancing and boating.
   - B: Incorrect. Cities grew fast in the 1800s as people moved from villages to find work.
   - C: Incorrect. Mauclair says the Impressionists were "hostile to historical and symbolist painting." They seldom painted saints or Bible stories.
-  - D: Incorrect. Painters of battle victories followed the Academy's rules. The Impressionists painted everyday modern life.
+  - D: Incorrect. The last sentence lists the ball-room, the river, the field, the street, and the foundry. These are scenes of everyday modern life, not battles or victories.
 
 **E7-E25** [Topic 7.8 · LO J · Skill 5.B · Continuity and Change · medium]  In the years after Mauclair wrote, artists such as Pablo Picasso and Henri Matisse went further than the Impressionists by
 - (A) turning from showing things as they look to more abstract, expressive forms
 - (B) returning to the Academy's strict rules and historical subjects
 - (C) copying photographs to record scenes exactly as the eye sees them
 - (D) painting wild mountain landscapes in the manner of Caspar David Friedrich
-KEY: A. Explanation: After 1900, modern artists went beyond the Impressionists. They stopped trying to show things as the eye sees them. They used color and shape to express feelings and ideas. This often shocked people who wanted art to be realistic and beautiful.
+KEY: A. Explanation: After 1900, some modern artists went beyond the Impressionists. Matisse used bold colors that did not match nature. Picasso broke objects into geometric shapes and showed several viewpoints at once. Their art moved away from showing things as the eye sees them, and it often shocked people who wanted art to look realistic.
   - A: Correct. Matisse's Fauvism (about 1905) used bold, unnatural colors. Picasso's Cubism (from about 1907) broke objects into geometric shapes.
   - B: Incorrect. Picasso and Matisse broke the Academy's rules even more than the Impressionists had.
   - C: Incorrect. They moved away from exact copies of what the eye sees. Photography could now do that.
@@ -1104,6 +1104,7 @@ Notes:
 - Not used: the Gutenberg Herzl (#25282) follows a 1946 revision, so the 1904 revision of d'Avigdor's 1896 translation was used instead. Robinson & Beard's version of Bismarck's Ems account (no. 258) differs slightly from Butler's translation; the bank quotes Butler (1898) directly. A multi-census (1880–1910) language table for Hungary was sought in Seton-Watson's Racial Problems in Hungary (1908) and German, Slav, and Magyar (1916), but neither gives all four censuses, so P7 uses The Statesman's Year-Book 1913.
 - Robinson & Beard, Readings in Modern European History, vol. 2, is dated 1909 (both scans print "Copyright, 1909"; it includes events of December 1908). The raw file names (robinsonbeard1908v2_*) keep the year the builder first assumed; the citations in the bank and in these notes give 1909.
 - Ellipses mark omitted wording. Footnotes and glossaries are editorial unless credited. The excerpt checker compares letters only, so punctuation was checked by eye against the raw text and page images.
+- v2026-11-09c (ChatGPT Pro review): P5.1 no longer prints Robinson & Beard's bracketed gloss "[on civil and religious liberty]" after Treaty of Berlin Art. 43, because Art. 45 (Bessarabia returned to Russia) is not about liberty; the gloss after Art. 34 (which fits Art. 35) stays, and the credit line now says "the bracketed words in Article 34 are Robinson and Beard's." Art. 43 was re-checked against the raw text (exact letter match once the margin note is dropped). X4's source line now calls Alexander Supan an Austrian geographer (born in Innichen, Tyrol; he worked in Gotha, where the book was published). See P5.1.md and X4.md.
 
 ### X1
 ID: X1
@@ -1214,6 +1215,8 @@ CHART IN THE BANK: categories Africa, Polynesia (Pacific islands), Asia, Austral
 
 CONTEXT NOTES:
 Supan's next sentences (p. 254) say the period's characteristic feature was the partition of Africa and Polynesia, that France sought in overseas expansion a substitute for its lost position in Europe, and that Germany's entry into colonial politics set off the race. The same figures were later quoted by Lenin (1917); the bank cites Supan directly.
+
+ATTRIBUTION NOTE (Nov 9, 2026, v2026-11-09c): the chart's source line first called Supan a "German geographer." Supan (1847-1920) was born in Innichen, Tyrol, and is usually described as an Austrian geographer; he edited Petermanns Mitteilungen in Gotha from 1884 to 1909, then held the geography chair at Breslau. The source line now reads "Alexander Supan, Austrian geographer, ...". The data and page locator are unchanged.
 
 ### X5
 ID: X5
@@ -1387,6 +1390,8 @@ CAPTION NOTE (Nov 9, 2026): the student caption first said the pilot "steps down
 CONTEXT NOTES:
 Bismarck submitted his resignation on March 18, 1890, at William II's demand; it was accepted on March 20. The Reinsurance Treaty lapsed in June 1890. Not used: Tenniel's other Punch cartoons.
 
+DESCRIPTION NOTE (Nov 9, 2026, v2026-11-09c): a reviewer suggested the object at the foot of the ladder is a railed platform, not a boat. Re-viewed raw/commons/tenniel_960.jpg (bottom third): it is the curved, planked side of a small open boat with two thole pins (oar pegs) on its gunwale, so it stays a boat. The screen-reader description no longer says the boat "waits" (an interpretation); it now says "At the foot of the ladder, the curved side of a small rowboat is visible." The student caption is unchanged.
+
 ### P5.1
 ID: P5.1
 Used as: practice set P5 (E7-P13–E7-P15)
@@ -1404,10 +1409,12 @@ OCR / TEXT NOTES:
 Both scans read 'Art. I .' for article 1; in this book's typeface the figure 1 resembles I (other articles use Arabic numerals), and Hertslet's article is Article I, so the bank prints 'Art. 1.' Margin notes ('Bulgaria a tributary principality', 'Eastern Roumelia', 'Bosnia and Herzegovina', 'Montenegro', 'Servia', 'Roumania') were dropped.
 
 ADAPTATION IN THE BANK (every cut):
-Articles 3, 4, 9, and 13 (Bulgaria's prince, assembly, tribute; Eastern Roumelia) are cut after Art. 1 (marked by the ellipsis). The bracketed phrases '[on civil and religious liberty]' are Robinson and Beard's own insertions, as the credit line says; the ellipses after Arts. 34 and 43 are theirs. Footnotes and glossary entries are editorial unless stated otherwise.
+Articles 3, 4, 9, and 13 (Bulgaria's prince, assembly, tribute; Eastern Roumelia) are cut after Art. 1 (marked by the ellipsis). The bracketed phrase '[on civil and religious liberty]' after Art. 34 is Robinson and Beard's own insertion, as the credit line says (it fits: Art. 35 is the Serbian religious-equality clause). Robinson and Beard print the same bracketed gloss after Art. 43, but there it is inaccurate, because only Art. 44 (religious equality in Roumania) concerns liberty; Art. 45 requires Roumania to restore to Russia the part of Bessarabia detached from Russia in 1856. Since v2026-11-09c the bank therefore omits that editorial gloss in Art. 43 and prints the treaty's own words, '... subject to the conditions set forth in the two following articles. …' (the bracket is not treaty text, so nothing of the treaty is cut; the omission is disclosed here and the credit line now says 'the bracketed words in Article 34 are Robinson and Beard's'). The ellipses after Arts. 34 and 43 are theirs. Footnotes and glossary entries are editorial unless stated otherwise.
 
 CONTEXT NOTES:
 Russia defeated the Ottoman Empire in 1877–1878 (Treaty of San Stefano, March 1878); the Congress of Berlin met June 13–July 13, 1878, with Bismarck presiding.
+
+REVIEW NOTE (Nov 9, 2026, v2026-11-09c): ChatGPT Pro review item 5. Treaty wording of Arts. 34, 35, 43, 44 and 45 checked against the full English text at https://sourcebooks.web.fordham.edu/mod/1878berlin.asp (Art. XLIII: 'subject to the conditions set forth in the two following Articles'; Art. XLIV: religious creeds and confessions in Roumania; Art. XLV: 'The Principality of Roumania restores to His Majesty the Emperor of Russia that portion of the Bessarabian territory detached from Russia by the Treaty of Paris of 1856'). Re-checked the bank's Art. 43 against raw lines 21072-21074: letters match exactly up to 'two following articles' once the margin note 'Roumania' is dropped; the only omitted material is Robinson and Beard's bracket.
 
 ### P5.2
 ID: P5.2
@@ -1658,6 +1665,8 @@ Paragraph 1 begins mid-paragraph ('For the rest I can only repeat ... on an ever
 CONTEXT NOTES:
 Morel and Roger Casement founded the Congo Reform Association in 1904. Belgium annexed the Congo Free State on November 15, 1908. AP World used Casement's 1904 report (aw6 P9), not Morel.
 
+GLOSSARY NOTE (Nov 9, 2026, v2026-11-09c): "primitive community" is now glossed as "Morel's term for a society he saw as less developed; today historians avoid the word 'primitive'" (the earlier gloss, a farming and trading village society, was more specific than Morel's text supports).
+
 ### P14
 ID: P14
 Used as: practice set P14 (E7-P40–E7-P42)
@@ -1679,6 +1688,8 @@ Paragraph 2 cut after 'directly interested in imperialism.' ('They are easily id
 
 CONTEXT NOTES:
 Hobson's Imperialism: A Study (1902) and Lenin's Imperialism (1916–1917) are the CED's examples of participants in the imperialism debate (7.7).
+
+ITEM NOTE (Nov 9, 2026, v2026-11-09c): E7-P41's key (Germans kept warning of "surplus population" after emigration fell in the 1890s) restates Moon's own evidence later in the same book, p. 69 (raw lines ~4027-4037: "the argument was still being mouthed long after the emigration figures had sunk—as they did in the 1890's and after—to an insignificant figure"). That passage is not in the excerpt, and no student-facing text cites it.
 
 ### P15
 ID: P15

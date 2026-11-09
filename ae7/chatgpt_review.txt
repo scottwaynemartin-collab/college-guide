@@ -1,0 +1,188 @@
+ChatGPT Pro review of Unit 7 bank (v2026-11-09b), tab "AP Euro Item Review"
+https://chatgpt.com/c/6af13c30-0820-83e9-9c1d-07d67eb067e3 (captured 2026-11-08 via get_page_text)
+
+I reviewed all 73 items, including the sources, glossaries, explanations, distractor feedback, hints, rationales, and source notes. P42 has a clear two-answer problem. The other findings concern factual accuracy, unsupported inferences, distractor quality, and alignment. All proposed repairs below preserve the existing key letters.
+
+MUST-FIX
+1. E7-P42 — Hobson and Lenin are both defensible
+The stem asks who benefited from imperialism. Lenin also emphasized gains for financiers and explicitly quoted Hobson approvingly on this point. The existing explanation does not eliminate B. [marxists.org]
+Replace:
+B: "Joseph Chamberlain"
+Why not B: "Chamberlain argued that empire could provide markets and jobs for British workers. Moon stresses the gains of small groups and the costs paid by the wider public."
+
+2. E7-E14 — The keyed belief needs to specify separate, unchanging species
+Belief in divine creation did not necessarily imply rejection of evolution. Clergyman Charles Kingsley, for example, accepted that God could create forms capable of developing into others. [Darwin Correspondence Project]
+Replace:
+A: "Church leaders who taught that species were separately created and could not change"
+Explanation: "Darwin argued that species change through natural processes. This challenged belief in separately created, unchanging species. Christians differed in their responses to his theory."
+A rationale: "Correct. Belief in separately created, unchanging species conflicted with Darwin's theory. Belief in God alone did not require rejecting evolution."
+D rationale: "Incorrect. Trust in observation and natural explanations did not, by itself, require someone to reject Darwin's theory."
+
+3. E7-P24 and E7-E15 — Remove the categorical claim about Darwin's intentions
+"Darwin did not mean his theory to be used this way" is too sweeping. Darwin himself applied natural selection and competition to human societies. Also, Spencer opposed imperialism, making him a misleading exemplar in E15's imperialist justification rationale. [darwin-online.org.uk +1]
+E7-P24 — replace the explanation's final sentence:
+These writers used a theory about nature to claim a right to rule other peoples. The theory itself did not prove that right.
+E7-P24 — replace why-not C:
+The passage praises strong nations defeating weaker ones. It does not argue that smaller nations have a right to independence.
+E7-E15 — replace the stem:
+In the late 1800s, some writers applied Darwin's ideas to politics in order to
+E7-E15 — replace the explanation:
+Natural selection explains biological change. Some writers extended the idea of struggle to human groups and used it to defend racism, empire, and war. These political claims went beyond the theory of natural selection.
+E7-E15 — replace rationale C:
+Correct. Some Social Darwinists treated conflict among nations and racial groups as natural selection. They used this claim to justify empire.
+
+4. E7-P08 — Correct the sequence of the 1859 war
+Austria invaded Piedmont first; France intervened on Piedmont's side. Austria's Crimean War policy also involved pressure against Russia, rather than merely passive neutrality. [napoleon.org]
+Replace the explanation:
+During the Crimean War, Austria pressured Russia but did not enter the fighting. This angered Russia and weakened the Concert of Europe. In 1859 Austria invaded Piedmont. France fought alongside Piedmont, while Russia did not support Austria.
+Replace why-not D, removing the unnecessarily sweeping "Russia never became Piedmont's ally":
+Piedmont joined Britain and France against Russia in the Crimean War. That war did not produce the alliance described in D.
+
+5. Source P5.1 / E7-P13–P15 — Article 43's editorial gloss is inaccurate
+The bracketed phrase "[on civil and religious liberty]" misleadingly describes both following articles. Article 44 concerns religious equality; Article 45 requires Romania to return southern Bessarabia to Russia. This error is inherited from the cited editors. [Office of the Historian]
+Make these exact changes:
+Article 43: Delete " [on civil and religious liberty]".
+Attribution: Replace "bracketed words are Robinson and Beard's" with "the bracketed words in Article 34 are Robinson and Beard's".
+Source note: "Robinson and Beard's bracketed gloss in Article 43 has been omitted. Article 44 concerns religious equality; Article 45 requires Romania to return southern Bessarabia to Russia."
+
+6. E7-E09 — A uniform does not establish that someone was not a parliamentarian
+"No elected members of a parliament appear" is false: Moltke appears beside Bismarck and had been elected to the Reichstag in 1867. [Otto-von-Bismarck-Stiftung +1]
+Replace rationale A:
+Incorrect. The painting gives the central roles to Bismarck, the king, and military leaders. It does not show a parliament creating the empire.
+
+7. E7-P36 — Lenin did acknowledge benefits for some workers
+"Helped bankers and big business, not workers" misstates his argument about privileged sections of the working class. [marxists.org]
+Replace why-not D:
+Lenin condemned imperialism as a stage of capitalism. He argued that its profits could benefit a small, favored group of workers, but he did not defend colonial expansion as a policy for workers generally.
+To sharpen the distinction, replace the stem with:
+Which figure likewise defended colonial expansion as a way to create markets for goods made at home?
+
+8. E7-P21 — The language-policy explanation overlooks Croatia-Slavonia
+The table includes Croatia-Slavonia, where Croatian had official status. "The other groups' languages had little official standing" is therefore too broad. [land and people]
+Replace why-not C:
+Hungary's central government did not give Romanian and Slovak the same state status as Hungarian. Croatian did have official status in autonomous Croatia-Slavonia.
+
+9. E7-P27 — Sorel did write about Catholic thought
+"Sorel wrote about the general strike, not about Church teaching" is inaccurate. His works include La Crise de la pensée catholique. This does not make B correct. [catalogue.bnf.fr]
+Replace why-not B:
+Nietzsche strongly criticized Christianity. Defending Catholic teachings was not the shared basis of these thinkers' challenge to Comte.
+
+10. E7-P44 and E7-P46 — Remove false absolutes about artistic movements
+Impressionists depicted work as well as leisure; Realism did not exclude artistic inspiration. [Musée d'Orsay +1]
+E7-P44 — why-not C: "Impressionists explored light and modern life, including work. Millet's 1857 painting belongs to Realism and predates the first Impressionist group exhibition in 1874."
+E7-P46 — why-not C: "Realism became prominent in the mid-1800s and stressed close observation of ordinary life. Hugo's emphasis here on genius, intuition, and artistic freedom points to Romanticism."
+
+11. E7-E02 and E7-E07 — Correct misleading chronology and a literalized metaphor
+"Until 1859" suggests unification occurred that year; the Kingdom of Italy was proclaimed in 1861. Renan's "daily plebiscite" means continuing consent, rather than an actual daily ballot. [Archivio di Stato di Torino]
+E7-E02 — rationale D: "Correct. Italy was divided among several states. Austria ruled Lombardy until 1859 and Venetia until 1866. The Kingdom of Italy was proclaimed in 1861."
+E7-E07 — explanation: "Renan uses 'a daily plebiscite' as a metaphor for people's continued choice to live as one nation. The votes held in Italy in 1860 used residents' stated wishes to help decide borders, although the voting was not fully free."
+
+SHOULD-FIX
+12. E7-P41 — Falling emigration does not establish the claimed conclusion
+Fewer emigrants do not, by themselves, prove that population pressure disappeared or that people lacked economic motives for empire. B remains the best available answer, but the explanation overstates its evidentiary value.
+Replace:
+Stem: "Which hypothetical finding would most strongly support Moon's claim that ideas, rather than direct interests, moved the general public?"
+B: "Letters from workers who expected no financial gain from colonies but praised conquest as proof of national greatness"
+Explanation: "These letters would show people supporting empire because of national pride, without expecting financial gains. That supports Moon's claim about the power of ideas."
+Why not A: "Population growth could help explain demands for colonies. It does not show why people without colonial interests supported empire."
+Hint: "Look for support based on national pride rather than personal gain."
+
+13. E7-P05 — The "hard" sourcing question has three implausible distractors
+A liberal Bismarck, French censorship, and a German defeat before 1898 allow elimination without evaluating the memoir's limitations.
+Replace all four options:
+A: "He had not witnessed the king's meeting with the French ambassador at Ems."
+B: "He based part of his account on a telegram sent by another Prussian official."
+C: "He described a private discussion with military leaders rather than a public debate."
+D: "He wrote decades later and had reason to present himself as the planner of victory."
+Replace the distractor feedback:
+A: "This limits his firsthand knowledge of the talks at Ems, but the question asks about his own thinking in Berlin."
+B: "A telegram from 1870 could help support his account. It does not remove the problem of later memory and self-presentation."
+C: "Private talks can reveal how leaders made decisions. The larger concern is that Bismarck described them many years later."
+
+14. E7-P03 — The key is the only clearly real development
+Replace the fabricated alternatives with actual developments that distinguish military unification from constitutional arrangements.
+Replace the stem:
+Which later development most clearly illustrates Bismarck's proposed method for achieving German unification?
+Keep A. Replace:
+B: "The introduction of universal male suffrage for elections to the Reichstag" / why-not: "Voting rules helped draw voters into the new state. The passage stresses armies and royal power as the means of winning unity."
+C: "Bismarck's request for parliamentary approval of past military spending in 1866" / why-not: "The 1866 bill settled a dispute with parliament after Prussia's military victory over Austria."
+D: "The German Empire's adoption of federal institutions shared with other German states" / why-not: "Federal institutions shaped the new government. They do not show how military force brought the states together."
+
+15. E7-P25 — The title and glossary nearly supply the answer
+Positive Philosophy -> "Positivism" tests word matching more than understanding.
+Replace the stem and options:
+Which approach to knowledge does Comte favor in the last paragraph?
+A: "Using observation and reasoning to identify regular laws"
+B: "Using religious teachings to explain nature's final purpose"
+C: "Using abstract forces to explain the hidden nature of things"
+D: "Using intuition and feeling to discover truths beyond observation"
+Replace:
+Explanation: "Comte argues that people should study regular patterns through reasoning and observation. He rejects divine causes and hidden forces as the basis of the final stage of knowledge."
+Why not B: "Comte places religious explanations in the first stage, which the mind moves beyond."
+Why not C: "He places abstract forces in the middle stage, not the final one."
+Why not D: "He favors reasoning and observation, not intuition or feeling."
+Hint: "Look at the methods Comte names in the last sentence."
+Skill: 3.A
+
+16. E7-P33 — The distractors are unusually trivial
+Polio vaccines, spinning jennies, and the Panama Canal provide little competition. Specify malaria so that other useful medical advances cannot also satisfy the stem.
+Replace the stem and options:
+Besides the weapons described in the sources, which development most directly reduced the danger of malaria for Europeans expanding into tropical Africa?
+A: "Smallpox vaccination"  B: "Antiseptic surgery"  C: "Regular quinine use"  D: "Pasteurization of milk"
+Why not A: "Smallpox vaccination reduced smallpox, not malaria."
+Why not B: "Antiseptic surgery reduced wound infections, not malaria."
+Why not D: "Pasteurization reduced disease spread through milk. Malaria is spread by infected mosquitoes."
+Hint: "Which medical advance was used against malaria?"
+
+17. E7-E12 — Replace remote or implausible alternatives with relevant methods
+The current distractors are weak, and "Most African states fought European takeover" oversimplifies varied responses.
+Replace the stem and options:
+Which development most directly enabled European troops to operate for long periods in Africa's interior during the expansion shown in the chart?
+A: "River steamships and regular quinine use"
+B: "Coastal forts and transatlantic shipping routes"
+C: "Colonial treaties and conferences among European powers"
+D: "Missionary schools and religious conversions"
+Replace the explanation:
+Steamships helped move soldiers and supplies inland. Quinine reduced the danger from malaria. Together, these developments made prolonged inland operations easier.
+Replace the rationales:
+A: "Correct. Steamships improved transport, and quinine reduced deaths from malaria."
+B: "Incorrect. Coastal forts and ocean routes supported overseas trade but did not remove the main transport and disease barriers inland."
+C: "Incorrect. Treaties and conferences shaped territorial claims. They did not provide the transport or medicine needed for prolonged inland operations."
+D: "Incorrect. Missionaries spread European influence, but this does not best explain how troops sustained inland operations."
+
+18. Additional distractor repairs
+These changes address invented situations, direct glossary echoes, and alternatives that are too easy to dismiss.
+E7-E02, B: "The survival of the Roman Republic established in 1849" / "Incorrect. Mazzini helped lead the Roman Republic, but French troops ended it in 1849."
+E7-E02, C: "The creation of an Italian confederation under the pope" / "Incorrect. Some nationalists proposed a federation led by the pope, but it was not established. Mazzini wanted a united nation."
+E7-E07, A: "The incorporation of Tuscany and Emilia into Piedmont-Sardinia in 1860" / "Correct. Voters in Tuscany and Emilia approved joining Victor Emmanuel II's kingdom. Using votes resembles Renan's appeal to inhabitants' wishes."
+E7-E08, D: "The formation of the North German Confederation in 1867" / "Incorrect. The confederation united northern German states. The war against France helped bring southern states into the larger empire."
+E7-E20, C: "Colonial schools trained a local elite to help administer European rule." / "Incorrect. Colonial education did train people for government work. Here, Tilak describes educated Indians recognizing reasons to challenge British rule."
+E7-E20, D: "Western-educated Indians placed social reform ahead of demands for self-government." / "Incorrect. Tilak calls for self-government and boycott. He does not place social reform ahead of that goal."
+E7-E22, C: "built his campaign around grievances among Indian soldiers" / "Incorrect. The 1857 revolt began among Indian soldiers. Tilak calls for a wider campaign based on refusing to help the British government."
+E7-E22, D: "sought support chiefly from princes threatened by British annexation" / "Incorrect. Some leaders in 1857 fought to recover princely power. Tilak calls for self-government through boycott and refusal to cooperate."
+
+19. Tighten these explanations, glossaries, and descriptions
+E7-P17 — why-not B: Unnecessary claim that the Commune involved no innocent person suffering overseas. -> "The Commune was a revolt in Paris in 1871. Zola's letter concerns a wrongful military conviction driven by anti-Semitism."
+E7-P17 — why-not C: "No innocent prisoner was involved" is broader than necessary. -> "The Boulanger crisis involved a general's political challenge to the republic. Zola's letter defends a man convicted of spying."
+E7-P17 — why-not D: Another unnecessary generalization about innocent defendants. -> "The Panama scandal involved corruption linked to a canal company. Zola's letter concerns a wrongful conviction for spying."
+E7-P20 — why-not B: A population share does not automatically fall whenever members emigrate. -> "Emigration of Hungarian speakers would, by itself, push their share down. It does not explain the rise shown here."
+E7-P26 — option D: Confuses limits of Newtonian physics with rejection of objective science. -> "doubts that Newtonian physics could fully explain nature"
+E7-P26 — why-not D: Same overstatement. -> "Around 1900, new physics challenged Newton's account of nature. Comte's passage instead stresses confidence in scientific methods."
+E7-P28 — option C: The retained excerpt establishes repression more directly than continuing symptoms. -> "people may push wishes out of awareness when those wishes conflict with their values"
+E7-P28 — explanation: Match the revised key to the retained text. -> "Freud says a wish can clash with a person's values. Repression pushes that wish out of awareness. His image of guards at a door shows how the mind keeps it out."
+Source P13 / E7-P37–P39 — glossary: "Primitive community" does not specifically mean a farming-and-trading village. -> "primitive community = Morel's outdated term for a society he viewed as less developed"
+E7-E23 — rationale C: "Did not paint scenes like these" turns a predominant emphasis into an absolute. -> "Incorrect. Mauclair emphasizes landscapes and modern everyday scenes, rather than a main focus on religious or historical stories."
+E7-E24 — rationale D: Overgeneralizes about battle painters following Academy rules. -> "Incorrect. That choice concerns celebrations of military victory. Mauclair instead lists scenes of ordinary work and leisure."
+E7-E25 — explanation: "They stopped trying" treats modern artists as one uniform program. -> "Matisse used bold colors that did not match nature. Picasso broke forms into geometric shapes and combined viewpoints. Their work moved further from the Impressionists' focus on light as seen by the eye."
+Source P4 / E7-P10–P12 — description: The pictured structure below the ladder is a platform; a waiting boat is not established by the image. Replace "Below the ladder, the edge of a small boat waits" with "A small railed platform appears at the foot of the ladder."
+Source X4 / E7-E11–E12 — attribution: Supan's nationality label is unnecessarily contestable; he is commonly identified as Austrian. Replace "Alexander Supan, German geographer," with "Alexander Supan, geographer,"
+The physics distinction follows the CED's specific wording about Newtonian physics. The artistic qualification is also supported by the Musée d'Orsay's account of Impressionism's varied subjects, including occasional biblical and classical scenes. [apcentral.collegeboard.org +2]
+
+20. Skill and reasoning tags
+These changes distinguish identification from explanation and reserve 3.C for comparison of two supplied sources. Topic-page suggested skills do not automatically determine an individual item's skill. [apcentral.collegeboard.org]
+E7-P02: Replace Skill 4.B · Continuity and Change with Skill 4.A.
+E7-P10, P22, P43, P46; E7-E16: Replace Skill 1.B with Skill 1.A. These identify a development or movement.
+E7-P17; E7-E05, E21: Replace Skill 4.B with Skill 4.A. These identify the contextual event.
+E7-P23: Delete Continuity and Change; the item does not compare developments across time.
+E7-P25, as revised above: Replace Skill 1.B with Skill 3.A.
+E7-E22: Replace Skill 3.C with Skill 5.A; students compare one supplied source with historical knowledge.
