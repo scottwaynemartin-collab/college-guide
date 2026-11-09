@@ -1,0 +1,65 @@
+# INDEX: AP European History Unit 8 (20th-Century Global Conflicts, c. 1914–1945) sources
+
+Bank version 2026-11-09b.
+
+Copyright rule for this unit (Units 8 and 9): no copyrighted post-1930 private text is used. Every source has its own license basis, given in the table below and argued in its own file (sources/<ID>.md):
+- **Texts published in 1930 or earlier** (X2, X8, X9, P1, P2, P3, P4, P5, P6, P8, P16; image P7). Halévy (X9) was published in 1930. Jünger (P2 Source 1) is read in a 1975 photographic reprint of the 1929 Chatto & Windus edition; the text and page numbers are those of 1929.
+- **UK Parliament Hansard**, reused under the Open Parliament Licence v3.0, credited "UK Parliament, Open Parliament Licence v3.0" on every Hansard source (X1, X6, X7, P9, P15). The Hansard texts are reused under that licence, which covers Parliament's rights in the Official Report (the published record of debates). The OPL page answered curl with a Cloudflare challenge and the Wayback copy reset the connection, so no copy of the licence is in raw/web/; the Hansard pages in raw/hansard/ carry the UK Parliament copyright notice. Independently, Parliamentary copyright lasts 50 years from the end of the year the work was made (CDPA 1988 s. 165(3), saved as raw/web/cdpa1988_s165.xml), so it has expired for all five (1914–1942).
+- **Works of the U.S. government** used only as printers or translators of foreign texts, never for U.S. speeches: FRUS (X3), Nazi Conspiracy and Aggression (P11, P12), Nazi-Soviet Relations (P14) (17 U.S.C. § 105, raw/web/usc17_105.html). For each, the underlying text is also free: X3 is a 1919 resolution whose English text was printed in 1922 (Editor & Publisher, 2 Dec. 1922, raw/alt/editorpublisher1922-12-02.txt); P11 and P12 are German statutes and decrees and P14 is a German–Soviet treaty, official texts excluded from copyright by German UrhG § 5(1) (raw/web/urhg_s5.html, English raw/web/urhg_s5_en.html) and, for the treaty, by the Russian Civil Code art. 1259(6)(1) (raw/web/ru_gk_1259_legalacts.html); never protected at home, so not restored in the U.S. under 17 U.S.C. § 104A (raw/web/usc17_104A.html).
+- **CC BY 4.0 data**: Maddison Project Database 2023 (X4, P10), licence stated on the release page (raw/web/maddison2023_release.html; licence text raw/web/cc-by-4.0.html). The original country sources that the database asks users to cite for small subsets or graphs are listed in X4.md and P10.md and named on each source line ("Original estimates: …").
+- **Images**: X5 (IWM Q 30040, public domain, expired UK Crown copyright), P7 (published in the U.S. in 1923, public domain), P13 (Bundesarchiv Bild 183-H25224, CC BY-SA 3.0 DE, licence text raw/web/cc-by-sa-3.0-de.html). Licences confirmed with the Commons API (raw/commons/info_batch1.json, info_batch2.json). Every image was opened and viewed before its caption, alt text and description were written.
+
+Every text excerpt was copied from a raw download saved in sources/raw/ and machine-checked against it with check_excerpts.py: every stretch between ellipses, brackets or footnote marks had to occur in a raw text once both were reduced to lowercase letters (case, punctuation, digits, whitespace and line-end hyphens ignored). 129 stretches were checked; 117 match exactly, and the 12 that do not were each read by hand and are explained in the source files: X7 (Hansard's "Luxemberg," corrected and disclosed in the credit), X8 (the decorated initial "W" that the OCR drops; checked on the page image, raw/img/athenaeum1919-04-11_leaf21.jpg), X9, P2 Source 1 and P16 (running heads inside a sentence), P2 Source 2 (a stray OCR mark), P3 (two OCR slips, "ihe" and "sho"), P6 Source 2 ("fuU"), P11 ("follov^ing," "Sectioyi"), P12 (a page break inside "re-/solved"), and P16 ("Jatest"). The letters-only check does not see punctuation or numbers, so each excerpt was also compared word by word with its raw text by script; every non-letter change (added colon, capital, quotation mark, corrected OCR punctuation) is listed in the source file. Each source file prints the excerpt as it appears in the bank, the raw region it was cut from, a machine-made list of every cut, and notes on corrections. Table and chart values were read from the downloaded workbook by script and are listed in X4.md and P10.md. Hansard column ranges were read from the column anchors in the saved pages; the FRUS page range (X3) was confirmed on the page images of pp. 781–782 (raw/img/).
+
+| Set | Type | Source | Edition / translation (year) | License basis |
+|---|---|---|---|---|
+| X1 | passage | Sir Edward Grey, House of Commons, 3 Aug. 1914 | Hansard HC Deb vol. 65 cols. 1810–1823 (historic Hansard, api.parliament.uk) | Open Parliament Licence v3.0 |
+| X2 | passage | Order No. 1 of the Petrograd Soviet, 14 Mar. 1917 | Golder, ed., Documents of Russian History 1914–1917, trans. E. Aronsberg (Century, 1927), pp. 386–387 | published 1927 |
+| X3 | passage (non-European voice) | Resolution of the General Syrian Congress, Damascus, 2 July 1919 | King–Crane report in FRUS, Paris Peace Conference 1919, vol. 12 (GPO, 1947), pp. 780–781 | U.S. government work; English text printed 1922 |
+| X4 | bar chart | GDP per person, Germany, UK, France, US, 1929–1938 | Maddison Project Database 2023 (Bolt & van Zanden), "Full data" gdppc | CC BY 4.0 |
+| X5 | image | Horace Nicholls, women workers at the Chilwell shell-filling factory, July 1917 | IWM Q 30040 (Commons; 1280-px thumbnail) | public domain (PD-UKGov) |
+| X6 | pair | Neville Chamberlain, 3 Oct. 1938 / Winston Churchill, 5 Oct. 1938, House of Commons (Munich) | Hansard HC Deb vol. 339 cols. 41–50 / cols. 360–370 | Open Parliament Licence v3.0 |
+| X7 | passage | Anthony Eden reading the Allied declaration on the extermination of the Jews, House of Commons, 17 Dec. 1942 | Hansard HC Deb vol. 385 cols. 2082–2086 | Open Parliament Licence v3.0 |
+| X8 | passage (later writer) | Paul Valéry, "The Spiritual Crisis," letter I | The Athenaeum no. 4641 (London, 11 Apr. 1919), pp. 182–183, translator not named | published 1919 |
+| X9 | passage (historian) | Élie Halévy, The World Crisis of 1914–1918: An Interpretation (Rhodes lectures, 1929) | 1st ed. (Oxford: Clarendon Press, 1930), pp. 48, 54–55 | published 1930 |
+| P1 | passage (historian) | G. Lowes Dickinson, The International Anarchy, 1904–1914 | 1st American ed. (New York: Century, 1926), pp. v, 47–48 | published 1926 |
+| P2 | pair | Ernst Jünger, The Storm of Steel / Erich Maria Remarque, All Quiet on the Western Front | trans. Basil Creighton (Chatto & Windus, 1929), pp. 110, 316–317 / trans. A. W. Wheen (Little, Brown, 1929; Grosset & Dunlap printing, 1930), pp. 13, 15, 23 | published 1929 / 1929–1930 |
+| P3 | passage | Proclamation of the Irish Republic, Dublin, 24 Apr. 1916 | Sinn Fein Rebellion Handbook, Easter 1916 (Weekly Irish Times, 1917 issue) | published 1916/1917 |
+| P4 | passage | Russian Council of Ministers, secret meetings, Aug. 1915 (Iakhontov's notes) | Golder, ed., Documents of Russian History (Century, 1927), pp. 179, 182, 184 | published 1927 |
+| P5 | pair | Decree on Peace, 8 Nov. 1917 / Decree on Land, 9 Nov. 1917 | John Reed, Ten Days That Shook the World (Boni & Liveright, 1919), ch. V (Project Gutenberg #3076) | published 1919 |
+| P6 | pair | German delegation's comments on the peace terms, 29 May 1919 / Allied reply, covering letter signed by Clemenceau, 16 June 1919 | International Conciliation no. 143 (Oct. 1919), pp. 13–15 / Cmd. 258 (HMSO, 1919) | published 1919 |
+| P7 | image | Children playing with bundles of banknotes in Germany | The Literary Digest, 8 Dec. 1923, p. 17 (Commons; 960-px thumbnail) | public domain (published 1923) |
+| P8 | passage | Benito Mussolini, first speech as prime minister, Chamber of Deputies, 16 Nov. 1922 | Mussolini as Revealed in His Political Speeches, trans. B. Quaranta di San Severino (Dent, 1923), pp. 208, 217 | published 1923 |
+| P9 | passage | Sir Oswald Mosley, resignation speech, House of Commons, 28 May 1930 | Hansard HC Deb vol. 239 cols. 1348–1360 | Open Parliament Licence v3.0 |
+| P10 | table | GDP per person, Russia/USSR, Germany, UK, 1913–1937 | Maddison Project Database 2023 (Bolt & van Zanden), "Full data" gdppc | CC BY 4.0 |
+| P11 | passage | Reichstag Fire Decree, 28 Feb. 1933, and Enabling Act, 24 Mar. 1933 | U.S. prosecution translations, Nazi Conspiracy and Aggression (GPO, 1946), vol. 3 p. 968 (1390-PS), vol. 4 p. 638 (2001-PS) | U.S. government work; German official texts (UrhG § 5) |
+| P12 | passage | Reich Citizenship Law and Blood Protection Law, 15 Sept. 1935; First Regulation, 14 Nov. 1935 | Nazi Conspiracy and Aggression (GPO, 1946), vol. 4 pp. 7–9 (1416-PS, 1417-PS), 636–637 (2000-PS) | U.S. government work; German official texts (UrhG § 5) |
+| P13 | image | Ruins of Guernica, 1937, photographer unknown | Bundesarchiv Bild 183-H25224 (Commons, 798 × 584) | CC BY-SA 3.0 DE |
+| P14 | passage | German–Soviet Nonaggression Treaty and Secret Additional Protocol, 23 Aug. 1939 | Nazi-Soviet Relations 1939–1941 (Department of State, 1948), pp. 76–78 | U.S. government work; treaty text official in both states (UrhG § 5; Russian Civil Code art. 1259(6)) |
+| P15 | passage | Winston Churchill, "finest hour" speech, House of Commons, 18 June 1940 | Hansard HC Deb vol. 362 cols. 56–60 | Open Parliament Licence v3.0 |
+| P16 | passage | Arthur S. Eddington, The Nature of the Physical World (Gifford Lectures, 1927) | 1st American ed. (New York: Macmillan, 1928), pp. v, 294, 350 | published 1928 |
+
+Balance of voices (25 sets: 24 text sources, counting each half of a pair, plus 2 data sets and 3 images):
+- British: Grey, Chamberlain, Churchill (twice), Eden, Mosley (Hansard); Dickinson and Eddington (books); the Allied reply (Cmd. 258, with France).
+- French: Valéry, Halévy, Clemenceau's covering letter.
+- German: Jünger, Remarque, the German peace delegation, the Nazi laws of 1933 and 1935, the Nazi–Soviet treaty (with the USSR).
+- Russian and Soviet: the tsar's ministers (1915), Order No. 1 (1917), the Bolshevik decrees (1917).
+- Italian: Mussolini. Irish: the 1916 Proclamation.
+- Non-European/colonial voice: the General Syrian Congress (X3), which speaks against the mandate system.
+- No U.S. government speech is used (limit: 3). U.S. government publications appear only as the printers or translators of European and Syrian texts (FRUS, Nazi Conspiracy and Aggression, Nazi-Soviet Relations). Later writers and historians: Halévy, Dickinson, Valéry, Eddington.
+
+Not used (with the reason):
+- Siegfried Sassoon's 1917 protest as read in Parliament (30 July 1917): the sitting could not be found in the historic Hansard. Asquith's speech of 28 March 1917 on votes for women: the sections saved for that day (raw/hansard/hc1917-03-28_franchise*.html) do not contain it. The Chilwell photograph (X5), the 1916 Proclamation (P3) and Remarque (P2) cover these topics.
+- Pierre Renouvin, The Immediate Origins of the War (1928): downloaded (raw/alt/) but Dickinson (P1) covers the war-guilt debate in plainer English.
+- The 1936 Soviet constitution draft (raw/alt/ussr_constitution1936_draft.txt): its English text is a 1936 Soviet publication, and Unit 8's Stalin topics are covered by the P10 data and the Land Decree.
+- Statistical Abstract and League of Nations yearbook tables (raw/data/statab*, lnsyb*): image-only or garbled OCR; the Maddison data were used instead.
+- Bundesarchiv "Tapezieren mit Geldscheinen" (inflation, by Georg Pahl, CC BY-SA): the Literary Digest photograph (P7) is public domain and shows the same crisis.
+- Valéry's second letter (The Athenaeum no. 4644, 2 May 1919, raw/valery1919_athenaeum_4644.txt): not needed.
+- A second printing of All Quiet (raw/alt/remarque_202503.txt) has different wording; the Little, Brown text was used.
+
+Overlap with other units: none of these sources is used in Euro Units 4–7 or 9. Euro Unit 9 also uses the Maddison Project Database 2023, but for different countries and years (1950–1989). AP World Unit 7 uses Nazi Conspiracy and Aggression for different documents (Jackson's opening address; the Hossbach memorandum) and does not use the King–Crane report.
+
+Notes:
+- Fall 2026 CED Unit 8 has eleven topics (8.1–8.11) and Learning Objectives A–N; see ced_unit8_excerpt.txt.
+- Raw files in raw/ that are not used in the bank: hansard/hc1917-03-28_franchise*.html, hansard/hc1930-05-28_unemployment.html, hansard/commons_1938_feb_10_statistics.html, hansard/written*_*.html; alt/renouvin1928_*, alt/ussr_constitution1936_draft.txt, alt/remarque_202503.txt, alt/wikisource_proclamation_irish_republic.txt (a template only); data/statab*, data/lnsyb*; commons/tapezieren_960.jpg; web/avalon_nonagres.html (cross-check of P14 only); web/ru_civil_code_part4_wipo.html and web/ru_gk_1259_consultant.html (pages that did not show the article text; the article is in ru_gk_1259_legalacts.html).
+- The build and check scripts kept with the bank: assemble.py, check_excerpts.py, export.py, make_chatgpt_check.py.
