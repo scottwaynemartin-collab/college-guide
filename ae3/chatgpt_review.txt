@@ -1,0 +1,277 @@
+ChatGPT Pro review of Unit 3 bank (v2026-11-09b)
+Source: https://chatgpt.com/c/6af13dd5-f278-83ea-9b3d-b162ab0886ae (tab "AP Euro Review Corrections"), saved 2026-11-08
+---
+
+I reviewed all 73 items, including the sources, glossaries, explanations, distractor feedback, hints, and source notes. E3-E24 has a defensible alternative answer as written; E3-P45 asks something its keyed answer does not establish. The other mandatory corrections concern factual precision and source presentation.
+
+All existing answer letters can be retained after the repairs below. Apply corrections to repeated wording in the source notes as well.
+
+MUST-FIX
+1. E3-E24 — William III also fits the current stem
+
+William III also strengthened the state and expanded the army. His constitutional limits do not disprove the comparison currently asked. Specify the preservation of the monarch's supreme authority.
+[National Army Museum]
+
+Replace the stem:
+
+Peter's military and administrative reforms, carried out while preserving the ruler's supreme authority, were most similar to the policies of which ruler?
+
+Keep B. Replace the explanation:
+
+Peter and Louis XIV used royal authority to strengthen their armies and central governments. Their reforms preserved the monarch's control over government.
+
+Replace rationale A:
+
+Incorrect. William III also expanded military power, but Parliament controlled the taxes that financed it. Peter's reforms preserved the tsar's supreme authority.
+
+Replace rationale B:
+
+Correct. Louis XIV strengthened the army and royal administration while keeping the monarch at the center of government.
+
+2. E3-P45 — Forced conversion challenges sincerity, not whether conversion was recorded
+
+B does not refute the claim that people formally became Catholics. It challenges whether they accepted Catholic beliefs willingly.
+
+Replace the stem:
+
+Which of the following most limits the edict's usefulness as evidence that French Protestants had freely accepted Catholicism?
+
+Keep B. Replace the explanation:
+
+Royal officials forced many families to convert by lodging soldiers in their homes. A recorded conversion therefore does not prove that a person freely accepted Catholic beliefs.
+
+3. E3-E20 — The partition shares were unequal
+
+Rationale C explicitly teaches that each power received an "equal share." They received substantially different amounts of territory and population.
+[muzhp.pl]
+
+Replace the stem:
+
+The three powers' agreement to divide Polish territory among themselves best reflects which principle of eighteenth-century diplomacy?
+
+Keep C. Replace the explanation:
+
+Russia, Prussia, and Austria each gained territory. These gains were unequal, but the agreement aimed to satisfy the three powers and reduce the risk of war among them.
+
+Replace rationale B:
+
+Incorrect. Divine right concerns the source of a monarch's authority. This agreement concerns relations among rival states.
+
+Replace rationale C:
+
+Correct. The powers used territorial gains to settle rival claims and preserve their relative strength; they did not receive equal shares.
+
+4. E3-P31 / Source P11 — Sancho's birthplace is uncertain
+
+"Born on a slave ship" should not appear as an established fact. The National Portrait Gallery explicitly distinguishes that account from Sancho's own statement that he was born in Africa.
+[National Portrait Gallery]
+
+Replace the attribution's biographical portion:
+
+Ignatius Sancho, a Black British writer and London grocer, letter to a young English friend working in India, 1778, published in 1782
+
+Retain the edition reference.
+
+Replace the source-note claim about his birthplace:
+
+Accounts of Sancho's birthplace differ, so the bank does not state it as certain.
+
+Replace E3-P31 with the complete revision under SHOULD-FIX below. That also removes the attribution-to-answer giveaway.
+
+5. Factual corrections to explanations and feedback
+Item / field | Problem and exact replacement
+E3-P09 — explanation | Voting was not universally restricted to property owners. Replace: "After 1689 England still had a monarch and a House of Lords. Voting for the House of Commons remained limited, with rules that varied by place. The Agreement would have given an elected Parliament the power to make laws without the king or Lords, while reserving certain rights to the people."
+E3-P09 — why not A | Some borough qualifications depended on residence or freeman status rather than landownership. Replace: "The 1689 settlement did not create a general right to vote for men without property. Voting rules varied by place, and some boroughs allowed men to vote without owning land. The Agreement calls for fairer representation but does not settle who may vote."
+[researchbriefings.files.parliament.uk]
+E3-P10 — final explanation sentence | Hobbes's sovereign could be a person or an assembly. Replace: "Hobbes argued that peace required one supreme authority, held by a ruler or an assembly."
+[Project Gutenberg]
+E3-P11 — why not B | "The right to resist a ruler was John Locke's idea, not Hobbes's" incorrectly excludes Hobbes's right of self-defense. Replace: "Hobbes rejected a general right to overthrow the sovereign for breaking the law. He did allow people to defend their own lives."
+[Project Gutenberg]
+E3-P15 — why not A | Divine-right absolutism did not mean literally "without limits"; theorists retained obligations to God and moral law. Replace: "Divine-right theorists argued that kings received power from God and did not answer to their subjects. The Bill of Rights instead required Parliament's consent for taxes and a peacetime army."
+[history.hanover.edu]
+E3-P18 — first explanation sentence; E3-P23 — first explanation sentence | England entered the Nine Years' War in 1689, although the wider war began in 1688. P18 replacement: "England borrowed money from investors to fight France in the Nine Years' War, which England entered in 1689." P23 replacement: "The Nine Years' War lasted from 1688 to 1697; England joined the fight against France in 1689."
+[National Army Museum]
+E3-P19 — explanation | Spinners make yarn from fibers; do not teach "carried yarn to the spinners" as the production sequence. That anomalous wording really is in Defoe, so retain it in the quotation. Replace the explanation: "Clothiers and hired workers made cloth in houses and small workshops. Women and children in nearby cottages prepared and spun wool. This home-based production is called cottage industry."
+E3-P28 — why not A | The country-of-origin shipping exception applies to European goods, not all imports. Replace: "The act restricted foreign shipping. Imports from Asia, Africa, and the Americas had to arrive in English or colonial ships. European goods could also arrive in ships from their country of origin."
+E3-P32 — why not D | Distinguish passage of the abolition act from its effective date. Replace: "Parliament passed the Slavery Abolition Act in 1833. It took effect in most British colonies in 1834, decades after Sancho wrote this letter."
+[The National Archives]
+E3-P46 — why not B | The excerpt does not establish that Burnet "had no contact with ordinary Russians." Replace: "Burnet describes his conversations with Peter. The excerpt gives no views from ordinary Russians."
+E3-E17 — explanation | The Act of Settlement named Sophia and her Protestant descendants, not simply Hanover's "rulers." Replace: "The Bill of Rights barred Catholics from the throne. The Act of Settlement of 1701 named Sophia of Hanover and her Protestant descendants to succeed if William III and Anne left no surviving descendants. This excluded Anne's Catholic half-brother." Replace rationale D: "Correct. The Bill of Rights excluded Catholics from the throne. The Act of Settlement named Sophia of Hanover and her Protestant descendants as the next line of succession."
+[UK Parliament]
+E3-E21 — rationale A | The wording groups Austria into the 1793 partition. Replace: "Correct. Russia and Prussia took more Polish territory in 1793. In 1795, Russia, Prussia, and Austria divided the remaining territory, ending the Polish–Lithuanian Commonwealth."
+[Muzeum Historii Polski w Warszawie +1]
+
+6. Source, glossary, and attribution corrections
+Source / affected items | Exact correction
+P3 source notes — E3-P07–P09 | Replace "Thomason tract E. 413, 21" with "Thomason tract E.412[21]". The October 28 presentation date can remain.
+[catalog.folger.edu]
+P12 description and IMAGE CHECKS — E3-P34–P36 | The upper-right signature is not the securely authentic signature identified by the museum catalogue. Replace the signature sentence with: "Rembrandt's signature and the date 1662 appear on the table covering."
+[nationalgallery.org.uk]
+P15 footnote — E3-P43–P45 | Preserve the hostile meaning of prétendue. Replace with: "R.P.R. stands for religion prétendue réformée, meaning 'the supposedly Reformed religion,' a hostile royal label for French Protestantism. French Reformed Protestants were called Huguenots."
+[assemblee-nationale.fr]
+X2.2 glossary — E3-E04–E06 | "They all going in his name" does not mean that every court case was brought in the king's name. Replace with: "they all going in his name = Charles's claim that impeachments are brought under royal authority"
+
+SHOULD-FIX
+1. E3-P31 — Replace the biographical giveaway with actual source analysis
+
+The attribution currently supplies C almost verbatim, while the other three options invent implausible biographies.
+
+Replacement item:
+
+[Topic 3.4 · LO C · Skill 2.B · medium]
+
+Which of the following best describes how Sancho's point of view shapes his account?
+
+A. He presents European rule as a way to protect Africans from their own rulers.
+B. He presents overseas trade as a cause of conflict that should be ended.
+C. He judges European traders by Christian ideals that their conduct violates.
+D. He judges European trade mainly by the wealth it adds to Britain's economy.
+
+KEY: C. Explanation:
+
+Sancho says trade should bring people together. He condemns Christian traders for cruelty and slavery, which violate the faith they claim to follow.
+
+Why not A:
+
+He blames European greed for encouraging violence in Africa.
+
+Why not B:
+
+He praises honest trade as a way to link people, so he is not asking to end trade.
+
+Why not D:
+
+He judges trade by its treatment of people, not just its profits.
+
+Hint:
+
+Compare what Sancho says trade should do with what he says Christian traders actually do.
+
+2. E3-P21 — "Later" eliminates all three distractors by chronology
+
+Replace the choices with developments that overlap the relevant later period:
+
+A. The growth of commercial farming in southern England
+B. The expansion of British trade with Asian markets
+C. The growth of colonial sugar production in the Caribbean
+D. The rise of mechanized textile production in northern England
+
+Keep D and the existing explanation. Replace the why-not lines:
+
+A: The passage describes resources useful for making cloth. It does not describe changes in farming in southern England.
+B: The passage's coal and streams could power machinery. They do not directly explain Britain's growing trade with Asia.
+C: Caribbean sugar production depended on plantations and enslaved labor, not on coal and streams in Yorkshire.
+
+3. E3-P24 — "The Dutch Republic's absolute monarch" is a wording giveaway
+
+Replace C:
+
+The Dutch Republic's wealth came mainly from income earned by large noble estates.
+
+Replace why not C:
+
+Large noble estates were not the main source of Dutch wealth. Shipping, overseas trade, and finance were central to its prosperity.
+
+4. E3-E11 — All three distractors are nineteenth-century developments
+
+Replace A–C with relevant economic interpretations. Keep D.
+
+A. Britain's use of tariffs to reduce its reliance on goods from Asia
+B. A shift from importing finished goods to importing industrial raw materials
+C. The growth of European demand for goods made in Britain
+
+Replace their rationales:
+
+A: Incorrect. The table shows rising legal sales of an imported Asian product. It does not show Britain replacing tea imports with domestic goods.
+B: Incorrect. Tea was a finished consumer good, not a raw material used by British factories.
+C: Incorrect. The table records tea sold in London, not British goods sold to European buyers.
+
+5. E3-E21 — All three distractors substantially predate the source
+
+Keep A; replace B–D:
+
+B. The creation of a Polish constitutional monarchy protected by its neighbors
+C. The emergence of a Polish-led alliance that defeated Russia
+D. The establishment of Polish control over Baltic trade
+
+Replace their rationales:
+
+B: Incorrect. Polish reformers adopted a constitution in 1791, but neighboring powers intervened against their efforts to strengthen the state.
+C: Incorrect. Polish resistance did not defeat the neighboring powers or stop the later partitions.
+D: Incorrect. The partitions transferred Polish territory to neighboring states and weakened Polish control over trade.
+
+The constitutional reform and subsequent intervention are documented by the Polish History Museum.
+[Muzeum Historii Polski w Warszawie]
+
+6. Tighten these explanations and glosses
+Item / field | Exact replacement
+E3-E02 — explanation | "Louis XIV and Colbert used royal councils, subsidies, and trading companies to promote French trade and industry. The letter places these policies under the king's direction." This avoids implying complete government control of the economy.
+E3-E02 — rationale A | "Incorrect. The letter directs merchants to Colbert and places the council under the king. It does not give provincial nobles control of economic policy." This removes the blanket claim that great nobles were excluded from such decisions.
+E3-E06 — option C | "Divine-right monarchy". This better matches the argument and the existing explanation; Charles also invokes fundamental laws.
+E3-E08 — rationale B | "Incorrect. The Edict of Nantes granted rights to French Protestants in 1598. The Fronde more directly explains Louis's fear of rebellion and his effort to control the nobility." Avoid claiming that Nantes had no influence on his presentation of royal power.
+E3-E10 — explanation | "Legal tea sales rose sharply after the tax fell to 12.5 percent. The 1784 Commutation Act made legal tea more competitive with smuggled tea. The table records the rise in legal sales." The table does not establish that smuggled tea was categorically "no longer cheaper."
+E3-P42 — explanation | "The treaties of Utrecht (1713), Rastatt, and Baden (1714) ended the main fighting in the War of the Spanish Succession. Louis XIV's grandson kept Spain's throne as Philip V but gave up his claim to France's throne, keeping the two crowns separate." This distinguishes Utrecht from the later settlements.
+[Rastatt]
+P15 glossary — E3-P43–P45 | "designs of our said grandfather and father = plans that Louis XIV attributes to his grandfather Henry IV and his father Louis XIII". The current gloss presents Louis's justification as an independently established fact.
+
+7. Source P8 / E3-P22–P24 — Explain the original table's inconsistent ratios
+
+The transcription and currency conversions are correct. King's original figures themselves do not always reconcile: £17.5 million ÷ 13.5 million gives approximately £1.30, whereas he printed the equivalent of £1.25. England's corresponding calculation gives approximately £1.19 rather than £1.20.
+
+Replace the last column heading:
+
+King's estimated taxes per person (£)
+
+Append to the note:
+
+The per-person figures preserve King's own estimates; they have not been recalculated from the population and revenue columns and do not always match those totals exactly.
+
+Keep the historical figures and E3-P22's key.
+
+8. Source X7.2 / E3-E18–E21 — The excerpt cuts away the antecedent of "It"
+
+"It will make plain the whole unhappy history of that affair" refers to a document mentioned in the omitted opening, not to the partition.
+
+Replace the opening through "agree to it!" with:
+
+… this unfortunate partition of Poland, which is costing me ten years of my life. … How many times have I refused to agree to it!
+
+Continue with "But disaster after disaster…" as printed.
+
+Add to the cut notes:
+
+Omitted "It will make plain the whole unhappy history of that affair," whose subject is the document mentioned in the omitted opening.
+
+9. Correct these framework tags
+
+These are the clearest mismatches between what the question asks and its label. Identification is not comparison, and identifying likely opponents is not identifying a source's audience.
+[apcentral.collegeboard.org]
+
+Item | Exact metadata replacement
+E3-P08 | Change Skill 2.A to Skill 1.B.
+E3-P15 | [Topic 3.2 · LO B · Skill 1.A · easy] — remove Comparison.
+E3-P17 | [Topic 3.2 · LO B · Skill 3.D · hard] — the item evaluates evidence about English parliamentary power; it does not compare governments.
+E3-P19; E3-E01; E3-E20 | Change Skill 1.B to Skill 1.A.
+E3-P23 | Change Skill 4.B to Skill 4.A; the options identify a war.
+E3-P35 | Change Skill 2.A to Skill 1.B; the question concerns the broader pattern of patronage.
+E3-E06 | [Topic 3.2 · LO B · Skill 3.A · medium] — remove Comparison.
+E3-E19 | Change Topic 3.1 · LO A to Topic 3.6 · LO E; the CED places Poland's political weakness and partition there.
+[apcentral.collegeboard.org]
+
+10. Source presentation and timed-exam reading load
+
+P4 / E3-P10–P12; P12 / E3-P34–P36; X3 / E3-E07–E09: The long visible captions coach students through the images. Keep descriptive text available for accessibility, but replace the visible captions with:
+
+Source | Replacement visible caption
+P4 | "Frontispiece to Thomas Hobbes's Leviathan, 1651."
+P12 | "Rembrandt van Rijn, The Syndics of the Amsterdam Drapers' Guild, 1662."
+X3 | "Hyacinthe Rigaud, Louis XIV in Coronation Robes, 1701."
+
+X1, X2, X5: The timed exam contains approximately 2,336 words of quoted passages before glossaries, credits, questions, or image descriptions. X2 alone has approximately 551 words for three questions. These are priority cuts for more realistic pacing:
+
+X1 / E3-E01–E03: Delete the paragraph beginning "That there has already been expended…" and the paragraph beginning "That all the merchants and traders by sea…". In the final paragraph, retain only the sentence beginning "Let them understand…". Mark the omissions with ellipses.
+X2.1 / E3-E04–E06: Retain the opening through "for the good and benefit of the people,", followed by an ellipsis and "hath traitorously and maliciously levied war against the present Parliament, and the people therein represented … ." Delete the remaining material.
+X2.2 / E3-E04–E06: Retain the opening through "in question as a delinquent,", followed by an ellipsis. Retain the paragraph beginning "There is no proceeding just against any man…". Delete the final paragraph beginning "Thus you see…".
+X5 / E3-E12–E14: Delete the final two paragraphs beginning "Thus the trade of this country…" and "For never any country…". The remaining paragraphs preserve the evidence needed for all three questions.
+
+Update the corresponding cut notes and remove glossary entries for words no longer present.

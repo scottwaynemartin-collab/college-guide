@@ -1,0 +1,13 @@
+Facts read by web fetch for v2026-11-09c (pages could not be saved with curl: the NPG page returned a bot-check page, not the article).
+
+1. National Portrait Gallery, Schools Hub, "Ignatius Sancho, based on a work by Thomas Gainsborough"
+   https://www.npg.org.uk/schools-hub/ignatius-sancho-based-on-a-work-by-thomas-gainsborough  (read 2026-11-08)
+   Sentence used: "We can't be sure of the details of Ignatius Sancho's birth. It was said that he was born on a slave ship, but he later wrote that he was born in Africa."
+   Used for: P11 attribution no longer states Sancho's birthplace (see P11.md).
+
+2. Rijksmuseum, object SK-C-6, The Sampling Officials of the Amsterdam Drapers' Guild ("The Syndics"), data tab  (read 2026-11-08)
+   Inscriptions / marks listed: "signature and date: 'Rembrandt f. 1662'"; "signature and date (false): 'Rembrandt. f. 1661.'"
+   The page does not say where on the canvas each inscription is. The 1280 px Commons file shows 'Rembrandt f. 1661' on the wall at the upper right.
+   Used for: P12 description (see P12.md).
+
+3. Wikipedia, "Calico Acts" (read 2026-11-08), checked for the E3-E11 rationale: Act of 1700 against imported printed, painted, dyed or stained calicoes; Calico Act of 1721 against the sale and wear of most cotton textiles, "to Preserve and Encourage the Woollen and Silk Manufactures of this Kingdom"; repealed 1774.

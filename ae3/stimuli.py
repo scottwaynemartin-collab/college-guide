@@ -1,7 +1,7 @@
 # AP European History Unit 3 sources. Texts follow the public-domain editions saved in ae3/sources/raw/ and
 # documented in ae3/sources/*.md. Cuts are marked with ellipses; bracketed words are clarifications.
 # OCR slips in the scans were corrected against the page image or a second scan (see the .md files).
-VERSION = "2026-11-09b"
+VERSION = "2026-11-09c"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -24,11 +24,9 @@ STIM = {
     "Very dear and well beloved:",
     "Considering how advantageous it would be to this realm to reestablish its foreign and domestic commerce, … we have resolved to create a council particularly devoted to commerce, to be held every fortnight in our presence, in which all the interests of merchants and the means conducive to the revival of commerce shall be considered and determined upon, as well as all that which concerns manufactures.",
     "We also inform you that we are setting apart, among the expenses of our State, a million livres each year for the encouragement of manufactures and the increase of navigation, to say nothing of the considerable sums which we cause to be raised to supply the companies of the East and West Indies;",
-    "That we are working constantly to abolish all the tolls which are collected on the navigable rivers;",
-    "That there has already been expended more than a million livres for the repair of the public highways, to which we shall also devote our constant attention;",
+    "That we are working constantly to abolish all the tolls which are collected on the navigable rivers; …",
     "That we will assist by money from our royal treasury all those who wish to reestablish old manufactures or to undertake new ones; …",
-    "That all the merchants and traders by sea who purchase vessels, or who build new ones, for traffic or commerce shall receive from us subsidies for each ton of merchandise which they export or import on the said voyages.",
-    "We desire, in this present letter, not only to inform you concerning all these things, but to require you, as soon as you have received it, to cause to be assembled all the merchants and traders of your town of Marseilles, and explain to them very particularly our intentions in all matters mentioned above, in order that, being informed of the favorable treatment which we desire to give them, they may be the more desirous of applying themselves to commerce. Let them understand that for everything that concerns the welfare and advantage of the same they are to address themselves to Sieur Colbert. …"],
+    "… in order that, being informed of the favorable treatment which we desire to give them [the merchants of Marseilles], they may be the more desirous of applying themselves to commerce. Let them understand that for everything that concerns the welfare and advantage of the same they are to address themselves to Sieur Colbert. …"],
     "Louis XIV, king of France, letter to the town officials and people of Marseilles, a port city in southern France, August 26, 1664",
     "English translation in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (Boston, 1908), pp. 13–14; adapted",
     glossary=[{"t": "realm", "d": "kingdom"},
@@ -40,36 +38,30 @@ STIM = {
               {"t": "navigation", "d": "shipping"},
               {"t": "the companies of the East and West Indies", "d": "French trading companies for Asia and for the Americas"},
               {"t": "tolls", "d": "fees charged to travel on a road, river, or bridge"},
-              {"t": "subsidies", "d": "money the government pays to help a business"},
               {"t": "Sieur Colbert", "d": "Mr. Colbert, one of the king's ministers"}]),
 
 "X2": {"type": "pair", "items": [
     item("Source 1", [
-        "That the said Charles Stuart, being admitted King of England, and therein trusted with a limited power to govern by and according to the laws of the land, and not otherwise; and by his trust, oath, and office, being obliged to use the power committed to him for the good and benefit of the people, and for the preservation of their rights and liberties; yet, nevertheless, out of a wicked design to erect and uphold in himself an unlimited and tyrannical power to rule according to his will, and to overthrow the rights and liberties of the people, yea, to take away and make void the foundations thereof, and of all redress and remedy of misgovernment, which by the fundamental constitutions of this kingdom were reserved on the people's behalf in the right and power of frequent and successive Parliaments, or national meetings in Council; he, the said Charles Stuart, for accomplishment of such his designs, … hath traitorously and maliciously levied war against the present Parliament, and the people therein represented … .",
-        "… By which cruel and unnatural wars, by him, the said Charles Stuart, levied, continued, and renewed as aforesaid, much innocent blood of the free people of this nation hath been spilt, many families have been undone, the public treasure wasted and exhausted, trade obstructed and miserably decayed, vast expense and damage to the nation incurred, and many parts of this land spoiled, some of them even to desolation."],
+        "That the said Charles Stuart, being admitted King of England, and therein trusted with a limited power to govern by and according to the laws of the land, and not otherwise; and by his trust, oath, and office, being obliged to use the power committed to him for the good and benefit of the people, and for the preservation of their rights and liberties; yet, nevertheless, out of a wicked design to erect and uphold in himself an unlimited and tyrannical power to rule according to his will, and to overthrow the rights and liberties of the people, … hath traitorously and maliciously levied war against the present Parliament, and the people therein represented … ."],
         "The charge against King Charles I, read at his trial before the High Court of Justice, a special court set up by the House of Commons, London, January 20, 1649",
-        "Text from Samuel Rawson Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625–1660, 3rd ed. (Oxford, 1906), pp. 371–373; adapted",
+        "Text from Samuel Rawson Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625–1660, 3rd ed. (Oxford, 1906), pp. 371–372; adapted",
         glossary=[{"t": "Charles Stuart", "d": "King Charles I; Stuart was his family name"},
                   {"t": "admitted", "d": "accepted as"},
-                  {"t": "redress", "d": "a way to set a wrong right"},
-                  {"t": "levied war", "d": "raised armies and made war"},
-                  {"t": "undone", "d": "ruined"},
-                  {"t": "desolation", "d": "complete ruin"}]),
+                  {"t": "tyrannical", "d": "harsh and unjust, like a tyrant"},
+                  {"t": "levied war", "d": "raised armies and made war"}]),
     item("Source 2", [
-        "Having already made my protestations, not only against the illegality of this pretended Court, but also, that no earthly power can justly call me (who am your King) in question as a delinquent, … the duty I owe to God in the preservation of the true liberty of my people will not suffer me at this time to be silent: for, how can any free-born subject of England call life or anything he possesseth his own, if power without right daily make new, and abrogate the old fundamental laws of the land which I now take to be the present case? …",
-        "There is no proceeding just against any man, but what is warranted, either by God's laws or the municipal laws of the country where he lives. Now I am most confident this day's proceeding cannot be warranted by God's laws; for, on the contrary, the authority of obedience unto Kings is clearly warranted, and strictly commanded in both the Old and New Testament … . Then for the law of this land, I am no less confident, that no learned lawyer will affirm that an impeachment can lie against the King, they all going in his name: and one of their maxims is, that the King can do no wrong. … But how the House of Commons can erect a Court of Judicature, which was never one itself (as is well known to all lawyers) I leave to God and the world to judge.",
-        "… Thus you see that I speak not for my own right alone, as I am your King, but also for the true liberty of all my subjects, which consists not in the power of government, but in living under such laws, such a government, as may give themselves the best assurance of their lives, and property of their goods … ."],
+        "Having already made my protestations, not only against the illegality of this pretended Court, but also, that no earthly power can justly call me (who am your King) in question as a delinquent, … the duty I owe to God in the preservation of the true liberty of my people will not suffer me at this time to be silent … .",
+        "There is no proceeding just against any man, but what is warranted, either by God's laws or the municipal laws of the country where he lives. Now I am most confident this day's proceeding cannot be warranted by God's laws; for, on the contrary, the authority of obedience unto Kings is clearly warranted, and strictly commanded in both the Old and New Testament … . Then for the law of this land, I am no less confident, that no learned lawyer will affirm that an impeachment can lie against the King, they all going in his name: and one of their maxims is, that the King can do no wrong. … But how the House of Commons can erect a Court of Judicature, which was never one itself (as is well known to all lawyers) I leave to God and the world to judge. …"],
         "Charles I, king of England, Scotland, and Ireland, written statement of his reasons for refusing to accept the authority of the court, January 21, 1649",
         "Text from Samuel Rawson Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625–1660, 3rd ed. (Oxford, 1906), pp. 374–375; adapted",
         glossary=[{"t": "protestations", "d": "formal objections"},
                   {"t": "pretended", "d": "falsely claimed"},
                   {"t": "delinquent", "d": "a person who has broken the law"},
                   {"t": "suffer", "d": "allow"},
-                  {"t": "abrogate", "d": "cancel"},
                   {"t": "warranted", "d": "allowed; justified"},
                   {"t": "municipal laws", "d": "here, the laws of a country"},
                   {"t": "impeachment", "d": "a formal charge of wrongdoing against an official"},
-                  {"t": "they all going in his name", "d": "all court cases were brought in the king's name"},
+                  {"t": "they all going in his name", "d": "since all such charges are brought in the king's name"},
                   {"t": "Court of Judicature", "d": "law court"}])]},
 
 "X3": {"type": "image",
@@ -104,23 +96,15 @@ STIM = {
 "X5": P([
     "The use of their banks, which secures money, and makes all payments easy, and trade quick. …",
     "The government managed either by men that trade, or whose families have risen by it, or who have themselves some interest going in other men's traffic, or who are born and bred in towns, the soul and being whereof consists wholly in trade; which makes sure of all favour, that, from time to time, grows necessary, and can be given it by the government. …",
-    "The last I shall mention is, the mighty advance they have made towards engrossing the whole commerce of the East-Indies, by their successes against the Portuguese, and by their many wars and victories against the natives,* whereby they have forced them to treaties of commerce, exclusive to all other nations, and to the admission of forts to be built upon straits and passes that command the entrances into the traffic of such places. …",
-    "Thus the trade of this country is discovered to be no effect of common contrivances, of natural dispositions or situation, or of trivial accidents; but of a great concurrence of circumstances, a long course of time, force of orders and method, which never before met in the world to such a degree, or with so prodigious a success, and perhaps never will again. …",
-    "… For never any country traded so much, and consumed so little: they buy infinitely, but it is to sell again, either upon improvement of the commodity, or at a better market. They are the great masters of the Indian spices, and of the Persian silks, but wear plain woollen, and feed upon their own fish and roots. … In short, they furnish infinite luxury which they never practise, and traffic in pleasures which they never taste."],
+    "The last I shall mention is, the mighty advance they have made towards engrossing the whole commerce of the East-Indies, by their successes against the Portuguese, and by their many wars and victories against the natives,* whereby they have forced them to treaties of commerce, exclusive to all other nations, and to the admission of forts to be built upon straits and passes that command the entrances into the traffic of such places. …"],
     "Sir William Temple, English diplomat who had served as England's ambassador to the Dutch Republic, Observations upon the United Provinces of the Netherlands, published in London, 1673, describing the causes of Dutch trade",
-    "Text from The Works of Sir William Temple, vol. 1 (London, 1814), pp. 172–176; adapted",
+    "Text from The Works of Sir William Temple, vol. 1 (London, 1814), pp. 172–174; adapted",
     footnotes=[{"mark": "*", "text": "\"The natives\" here means the peoples of South and Southeast Asia."}],
     glossary=[{"t": "the government managed … by men that trade", "d": "the government run by merchants"},
               {"t": "traffic", "d": "trade"},
               {"t": "engrossing", "d": "taking complete control of"},
               {"t": "exclusive to", "d": "shutting out"},
-              {"t": "straits", "d": "narrow waterways between two seas"},
-              {"t": "contrivances", "d": "plans or tricks"},
-              {"t": "concurrence", "d": "coming together"},
-              {"t": "prodigious", "d": "enormous"},
-              {"t": "upon improvement of the commodity", "d": "after making the goods better or more valuable"},
-              {"t": "woollen", "d": "cloth made of wool"},
-              {"t": "furnish", "d": "supply"}]),
+              {"t": "straits", "d": "narrow waterways between two seas"}]),
 
 "X6": P([
     "The making Peace and War is the undoubted Prerogative of the Crown; yet such is the just Confidence I place in you, that at the Opening of this Session I acquainted you, That a Negotiation for a General Peace was begun; and afterwards, by Messages, I promised to communicate to you the Terms of Peace, before the same should be concluded. …",
@@ -165,7 +149,7 @@ STIM = {
                   {"t": "her Imperial Majesty of all the Russias", "d": "Catherine II of Russia"},
                   {"t": "effective possession", "d": "actual control"}]),
     item("Source 2", [
-        "… this unfortunate partition of Poland, which is costing me ten years of my life. It will make plain the whole unhappy history of that affair. How many times have I refused to agree to it! But disaster after disaster heaped upon us by the Turks; misery, famine, and pestilence at home; no hope of assistance either from France or England, and the prospect of being left isolated and threatened with a war both with Russia and Prussia,—it was all these considerations that finally forced me to accede to that unhappy proposal, which will remain a blot on my whole reign. God grant that I be not held responsible for it in the other world! I confess that I cannot keep from talking about this affair. I have taken it so to heart that it poisons and imbitters all my days, which even without that are sad enough. …"],
+        "… this unfortunate partition of Poland, which is costing me ten years of my life. … How many times have I refused to agree to it! But disaster after disaster heaped upon us by the Turks; misery, famine, and pestilence at home; no hope of assistance either from France or England, and the prospect of being left isolated and threatened with a war both with Russia and Prussia,—it was all these considerations that finally forced me to accede to that unhappy proposal, which will remain a blot on my whole reign. God grant that I be not held responsible for it in the other world! I confess that I cannot keep from talking about this affair. I have taken it so to heart that it poisons and imbitters all my days, which even without that are sad enough. …"],
         "Maria Theresa, ruler of the Austrian Habsburg lands, private letter to her son Archduke Ferdinand, September 17, 1772",
         "English translation in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (Boston, 1908), pp. 84–85; adapted",
         glossary=[{"t": "partition", "d": "a division of a country's land among other states"},
@@ -346,7 +330,7 @@ STIM = {
              ["England, 1695", "5,450,000", "7.80", "6.5", "1.20"],
              ["France, 1695", "13,500,000", "5.90", "17.5", "1.25"],
              ["Holland, 1695", "2,240,000", "8.14", "6.9", "3.08"]],
-    "text": "Gregory King, an English government official and statistician, made these estimates in 1696. They are estimates, not counts. King uses \"Holland\" for the whole Dutch Republic. All money is in English pounds (£). King gave money in pounds, shillings, and pence (20 shillings = £1); his per-person figures have been changed to decimals and rounded to the nearest £0.01.",
+    "text": "Gregory King, an English government official and statistician, made these estimates in 1696. They are estimates, not counts. King uses \"Holland\" for the whole Dutch Republic. All money is in English pounds (£). King gave money in pounds, shillings, and pence (20 shillings = £1); his per-person figures have been changed to decimals and rounded to the nearest £0.01. The per-person tax figures are King's own; they do not always match the population and revenue columns exactly.",
     "source": "Gregory King, Natural and Political Observations and Conclusions upon the State and Condition of England (1696), first printed in George Chalmers, An Estimate of the Comparative Strength of Great Britain (London, 1802), p. 444, King's \"general Account of England, France, and Holland, for the years 1688, and 1695\""},
 
 "P9": P([
@@ -383,7 +367,7 @@ STIM = {
 "P11": P([
     "In some of your letters which I do not recollect, you speak (with honest indignation) of the treachery and chicanery of the natives.*—My good friend, you should remember from whom they learnt those vices:—the first Christian visitors found them a simple, harmless people—but the cursed avidity for wealth urged these first visitors (and all the succeeding ones) to such acts of deception—and even wanton cruelty—that the poor ignorant natives soon learnt to turn the knavish and diabolical arts which they soon imbibed—upon their teachers.",
     "I am sorry to observe that the practice of your country (which as a resident I love—and for its freedom, and for the many blessings I enjoy in it, shall ever have my warmest wishes—prayers—and blessings;) I say, it is with reluctance that I must observe your country's conduct has been uniformly wicked in the East—West Indies—and even on the coast of Guinea.—The grand object of English navigators—indeed of all Christian navigators—is money—money—money—for which I do not pretend to blame them.—Commerce was meant, by the goodness of the Deity, to diffuse the various goods of the earth into every part—to unite mankind in the blessed chains of brotherly love—society—and mutual dependence … .—In Africa, the poor wretched natives—blessed with the most fertile and luxuriant soil—are rendered so much the more miserable for what Providence meant as a blessing:—the Christians' abominable traffic for slaves—and the horrid cruelty and treachery of the petty Kings—encouraged by their Christian customers—who carry them strong liquors, to enflame their national madness—and powder and bad fire arms, to furnish them with the hellish means of killing and kidnapping.—But enough—it is a subject that sours my blood … ."],
-    "Ignatius Sancho, writer of African descent who was born on a slave ship, was enslaved as a child, and later ran a grocery shop in London, letter to a young English friend working in India, 1778, published in 1782",
+    "Ignatius Sancho, writer of African descent who had been enslaved as a child and later ran a grocery shop in London, letter to a young English friend working in India, 1778, published in 1782",
     "Text from Letters of the Late Ignatius Sancho, an African, 3rd ed. (London, 1784), letter 68 (Project Gutenberg transcription); adapted",
     footnotes=[{"mark": "*", "text": "Here \"the natives\" means the people of India."}],
     glossary=[{"t": "indignation", "d": "anger at something unfair"},
@@ -407,7 +391,7 @@ STIM = {
     "caption": "Six men are gathered in a room with wooden walls. Five of them wear plain black clothes with flat white collars and tall black hats. They sit or stand behind a table covered with a thick red rug, and one of them rests his hand on a large open book. One man on the left is rising from his chair. A sixth man without a hat stands at the back against the wall. Most of the men look straight out of the picture, as if someone has just walked into their meeting.",
     "attribution": "Rembrandt van Rijn, Dutch painter, The Syndics of the Amsterdam Drapers' Guild, oil painting, 1662, made for the guild's hall in Amsterdam",
     "credit": "Rijksmuseum, Amsterdam. Public domain image via Wikimedia Commons (file: Rembrandt - De Staalmeesters- het college van staalmeesters (waardijns) van het Amsterdamse lakenbereidersgilde - Google Art Project.jpg).",
-    "description": "A large oil painting in dark brown, black, and red. Behind a table covered with a red Persian rug, five men in black suits with wide, flat white collars and tall black hats are grouped together. From left to right: an older man with gray hair sits in a chair; a tall man leans forward and seems to be getting up from his seat; a man with long fair hair sits in the middle and holds out one open hand toward a large open book; a younger man with long dark hair sits beside him on the right with his hand on the pages of the book; and a man on the far right sits holding a pair of gloves and a purse. A sixth man, bareheaded, with long hair, stands in the back between them. The background is a wall of dark wood paneling. The men look out toward the viewer with calm, serious faces. The painter's signature and the date are on the paneling at the upper right.",
+    "description": "A large oil painting in dark brown, black, and red. Behind a table covered with a red Persian rug, five men in black suits with wide, flat white collars and tall black hats are grouped together. From left to right: an older man with gray hair sits in a chair; a tall man leans forward and seems to be getting up from his seat; a man with long fair hair sits in the middle and holds out one open hand toward a large open book; a younger man with long dark hair sits beside him on the right with his hand on the pages of the book; and a man on the far right sits holding a pair of gloves and a purse. A sixth man, bareheaded, with long hair, stands in the back between them. The background is a wall of dark wood paneling. The men look out toward the viewer with calm, serious faces. Faint writing on the wall at the upper right reads \"Rembrandt f. 1661\"; the Rijksmuseum lists this signature as false and gives the painting's genuine signature as \"Rembrandt f. 1662.\"",
     "glossary": [{"t": "syndics", "d": "officials chosen each year to serve the guild"},
                  {"t": "drapers", "d": "people who made or sold cloth"},
                  {"t": "guild", "d": "an organization of people in the same trade"}]},
@@ -467,10 +451,10 @@ STIM = {
     "… X. We repeat our most express prohibition to all our subjects of the said R.P.R., together with their wives and children, against leaving our kingdom, lands, and territories subject to us, or transporting their goods and effects therefrom under penalty, as respects the men, of being sent to the galleys, and as respects the women, of imprisonment and confiscation."],
     "Louis XIV, king of France, Edict of Fontainebleau, which revoked the Edict of Nantes, October 1685",
     "English translation in James Harvey Robinson, Readings in European History, vol. 2 (Boston, 1906), pp. 288–290; adapted",
-    footnotes=[{"mark": "*", "text": "R.P.R. stands for the French words for \"the religion called the Reformed,\" the French government's name for Protestantism. French Protestants were called Huguenots."}],
+    footnotes=[{"mark": "*", "text": "R.P.R. stands for the French words religion prétendue réformée, \"the religion that claims to be Reformed,\" the French government's official name for Protestantism. French Protestants were called Huguenots."}],
     glossary=[{"t": "truce", "d": "a break in fighting"},
               {"t": "facilitated", "d": "made possible"},
-              {"t": "designs of our said grandfather and father", "d": "the plans of King Henry IV and King Louis XIII to bring Protestants back to the Catholic Church"},
+              {"t": "designs of our said grandfather and father", "d": "the plans that Louis XIV says his grandfather, King Henry IV, and his father, King Louis XIII, had for Protestants"},
               {"t": "Edict of Nantes", "d": "the law of 1598 that gave French Protestants the right to worship"},
               {"t": "ordained", "d": "ordered"},
               {"t": "nugatory", "d": "useless; no longer needed"},

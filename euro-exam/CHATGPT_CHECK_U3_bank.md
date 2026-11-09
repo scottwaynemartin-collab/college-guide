@@ -1,4 +1,4 @@
-# AP European History — Unit 3 practice bank (v2026-11-09b): full export for independent check
+# AP European History — Unit 3 practice bank (v2026-11-09c): full export for independent check
 
 Unit 3: Absolutism and Constitutionalism, c. 1648–1815 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 3.1 Contextualizing State Building (LO A)
@@ -125,7 +125,7 @@ KEY: B. Explanation: By 1646 Parliament's New Model Army had beaten Charles I. S
   - why not D: James I died in 1625. By 1647 his son, Charles I, had lost a civil war.
   - hint: The writers say God has delivered "the enemies" of their cause "into our hands." Whom had they just defeated?
 
-**E3-P08** [Topic 3.2 · LO B · Skill 2.A · medium]  Members of which group would most likely have opposed the Agreement of the People?
+**E3-P08** [Topic 3.2 · LO B · Skill 1.B · medium]  Members of which group would most likely have opposed the Agreement of the People?
 - (A) Royalists who supported Charles I
 - (B) Leveller writers in London
 - (C) Radical soldiers in the New Model Army
@@ -141,8 +141,8 @@ KEY: A. Explanation: Article IV gives Parliament its power "without the consent 
 - (B) The 1689 settlement made Catholicism the state religion, while the Agreement banned any official state church.
 - (C) The 1689 settlement kept a king and House of Lords, while the Agreement made an elected body supreme.
 - (D) The 1689 settlement ended Parliament's control over taxes, while the Agreement kept that control.
-KEY: C. Explanation: After 1689 England still had a king and a House of Lords. The House of Commons was elected by men with property. The Agreement would have made the elected Parliament supreme, with power "inferior only to theirs who choose them."
-  - why not A: After 1689, most voters had to own property, so men without property could not vote. The Agreement asks for seats based on "the number of the inhabitants" and does not limit voting to landowners.
+KEY: C. Explanation: After 1689 England still had a monarch and a House of Lords. Only some men could vote for the House of Commons, and the voting rules differed from place to place. The Agreement would have made the elected Parliament supreme, with power "inferior only to theirs who choose them."
+  - why not A: The 1689 settlement did not change who could vote. The Agreement asks for seats based on "the number of the inhabitants" and does not limit voting to landowners.
   - why not B: The 1689 settlement barred Catholics from the throne and kept the Church of England as the state church.
   - why not D: The Bill of Rights made it illegal for the crown to raise money without Parliament's consent, so Parliament kept control of taxes.
   - hint: Article IV says who holds supreme power under the Agreement. Who still shared power in England after 1689?
@@ -160,7 +160,7 @@ Description: A black-and-white engraving, taller than it is wide. In the upper h
 - (B) The Spanish Armada's attempt to invade England and restore Catholicism
 - (C) The breakdown of royal authority during the English Civil War
 - (D) Louis XIV's wars against the Dutch Republic
-KEY: C. Explanation: Hobbes wrote Leviathan in Paris in the last years of the English Civil Wars (1642–1651). In those years king and Parliament fought, and Charles I was executed. Hobbes argued that only one strong ruler could stop such chaos.
+KEY: C. Explanation: Hobbes wrote Leviathan in Paris in the last years of the English Civil Wars (1642–1651). In those years king and Parliament fought, and Charles I was executed. Hobbes argued that only one supreme power, held by a single ruler or by an assembly, could stop such chaos.
   - why not A: The Glorious Revolution took place in 1688–1689, almost forty years after the book was published.
   - why not B: The Spanish Armada sailed in 1588, more than sixty years before 1651.
   - why not D: Louis XIV's war against the Dutch began in 1672, two decades after the book appeared.
@@ -172,7 +172,7 @@ KEY: C. Explanation: Hobbes wrote Leviathan in Paris in the last years of the En
 - (C) the ruler shares power equally with an assembly elected by the people
 - (D) the people should obey the Church rather than the king
 KEY: A. Explanation: The tiny people make up the giant's body. This shows the people joining together to create one ruler. Hobbes said people give their power to that ruler, who must then be obeyed to keep the peace.
-  - why not B: The people form part of the ruler's body; they are not shown as a force that can remove him. The right to resist a ruler was John Locke's idea, not Hobbes's.
+  - why not B: The people form part of the ruler's body; they are not shown as a force that can remove him. Hobbes said people could defend their own lives, but he gave them no right to overthrow the sovereign. That idea is closer to John Locke's.
   - why not C: No assembly appears in the image. One crowned figure holds all the power.
   - why not D: The giant himself holds the crozier, a symbol of church power, so the ruler is over the Church.
   - hint: What do the tiny people make up? Who holds the sword and the crozier?
@@ -226,13 +226,13 @@ KEY: B. Explanation: Parliament had two houses. The House of Lords held nobles a
   - why not D: The Bill of Rights says a standing army in peacetime needs the "consent of parliament." This limited the army instead of protecting its officers.
   - hint: Many of the rights belong to "parliament." Who sat in Parliament in 1689?
 
-**E3-P15** [Topic 3.8 · LO H · Skill 5.A · Comparison · easy]  The Bill of Rights best reflects which form of government?
+**E3-P15** [Topic 3.2 · LO B · Skill 1.A · easy]  The Bill of Rights best reflects which form of government?
 - (A) Divine-right absolute monarchy
 - (B) Republican commonwealth
 - (C) Enlightened despotism
 - (D) Constitutional monarchy
 KEY: D. Explanation: In a constitutional monarchy, a king or queen rules within limits set by law. The Bill of Rights kept the monarchy. But the ruler now needed Parliament's consent for taxes and for a peacetime army.
-  - why not A: Divine-right absolutism lets a king rule without limits. The Bill of Rights says the crown may not suspend laws or raise money without the "consent of parliament."
+  - why not A: Divine-right thinkers said kings got their power from God and did not answer to their subjects. The Bill of Rights says the crown may not suspend laws or raise money without the "consent of parliament."
   - why not B: England remained a monarchy: Parliament offered the crown to William and Mary.
   - why not C: Enlightened despots, such as Frederick II of Prussia, made reforms by their own will in the later 1700s. The Bill of Rights limits the ruler by law.
   - hint: Does England still have a king or queen after 1689? Is that ruler's power limited?
@@ -257,7 +257,7 @@ KEY: B. Explanation: Acton says the same landowning class ruled after 1688. But 
   - why not D: Acton praises the Revolution for making Parliament supreme and the king's power conditional. He does not credit religious freedom for its success, and the Toleration Act of 1689 helped Protestant dissenters but not Catholics.
   - hint: Acton begins with what did not change. Then he writes, "And yet." What does he say did change?
 
-**E3-P17** [Topic 3.8 · LO H · Skill 3.D · hard]  Which of the following, if true, would best support Acton's claim that "Parliament became supreme in administration as well as in legislation"?
+**E3-P17** [Topic 3.2 · LO B · Skill 3.D · hard]  Which of the following, if true, would best support Acton's claim that "Parliament became supreme in administration as well as in legislation"?
 - (A) After 1689, William III chose his ministers and kept them when Parliament objected.
 - (B) After 1689, Parliament met just when the king decided to call it.
 - (C) After 1689, the crown needed money voted by Parliament each year to pay its army.
@@ -273,7 +273,7 @@ KEY: C. Explanation: If the king needed Parliament's vote every year to pay his 
 - (B) The collapse of the South Sea Company's stock in the bubble of 1720
 - (C) Britain's need to pay for the Seven Years' War against France
 - (D) Government borrowing from investors to pay for long, costly wars
-KEY: D. Explanation: England borrowed money from investors to fight Louis XIV from 1688 to 1697. In 1694 investors started the Bank of England to lend to the government. This long-term borrowing became the National Debt.
+KEY: D. Explanation: England joined the war against Louis XIV's France in 1689 and fought until 1697. To pay for it, the government borrowed money from investors. In 1694 investors started the Bank of England to lend to the government. This long-term borrowing became the National Debt.
   - why not A: The English Civil War ended decades before the Bank of England was founded in 1694.
   - why not B: The South Sea Bubble burst in 1720, more than twenty-five years after the Bank of England was founded.
   - why not C: The Seven Years' War (1756–1763) came long after the war Acton describes, which ended in 1697.
@@ -289,12 +289,12 @@ KEY: D. Explanation: England borrowed money from investors to fight Louis XIV fr
 — Daniel Defoe, English writer and merchant, A Tour Thro' the Whole Island of Great Britain, published in three volumes, 1724–1726, describing the country around Halifax in Yorkshire, northern England (Text from A Tour through England and Wales, vol. 2, Everyman's Library (London: J. M. Dent, 1928), pp. 193–195; adapted)
 > Words to know: the clothing trade = the making of woolen cloth; bounty = generous gifts; coals = coal; tenter = a wooden frame on which newly made cloth was stretched to dry; kersie, shalloon = kinds of woolen cloth; clothier = a person who made cloth and sold it; viz. = namely; wooll = old spelling of wool; fulling mill = a water-powered mill that beat and cleaned woven cloth; carding = combing wool to get it ready for spinning; antient = old spelling of ancient; here, the old; its hands are sufficient to it self = it can earn its own keep; without doors = outdoors; lusty = strong; dye-fat = a vat for dyeing cloth
 
-**E3-P19** [Topic 3.3 · LO C · Skill 1.B · easy]  The way of making cloth that Defoe describes is best identified as which of the following?
+**E3-P19** [Topic 3.3 · LO C · Skill 1.A · easy]  The way of making cloth that Defoe describes is best identified as which of the following?
 - (A) Factory production
 - (B) Manorial farming
 - (C) Guild workshops
 - (D) Cottage industry
-KEY: D. Explanation: Clothiers worked at home with a few hired men. Women and children in nearby cottages spun the wool. The clothier carried yarn to the spinners and took the cloth to market. This home-based work is called cottage industry, or the putting-out system.
+KEY: D. Explanation: Clothiers and a few hired men made cloth in their own houses. Women and children in nearby cottages carded and spun the wool. The clothier took the finished cloth to market. This home-based work is called cottage industry.
   - why not A: Factories bring workers together under one roof to work machines. Defoe describes work done in many scattered houses and cottages.
   - why not B: Under the manorial system, peasants farmed a lord's land and owed him labor. Defoe's clothiers make cloth "to be sold" at market.
   - why not C: Guilds were town organizations that controlled who could practice a trade. Defoe describes families spread across the countryside, not town guild masters.
@@ -312,14 +312,14 @@ KEY: A. Explanation: Defoe shows country families making cloth to be sold at mar
   - hint: Where does the finished cloth go after it is made?
 
 **E3-P21** [Topic 3.3 · LO C · Skill 5.B · Causation · easy]  Features of the region Defoe describes, such as coal and running water, would later most directly support which development?
-- (A) The Price Revolution
-- (B) The Protestant Reformation
-- (C) The Scientific Revolution
-- (D) The Industrial Revolution
+- (A) The growth of commercial farming and enclosure
+- (B) The growth of British trade with Asian markets
+- (C) The growth of sugar plantations in the Caribbean
+- (D) The growth of mechanized textile factories
 KEY: D. Explanation: Running water could turn mill wheels, and coal could fuel steam engines. In the late 1700s and 1800s, cloth making in northern England moved into water-powered and then steam-powered factories. This was part of the Industrial Revolution.
-  - why not A: The Price Revolution was the steep rise in prices in the 1500s, when American silver flowed into Europe. It came before Defoe's time.
-  - why not B: The Protestant Reformation began in 1517, two centuries before Defoe's journey.
-  - why not C: The Scientific Revolution changed how Europeans studied nature in the 1500s and 1600s. It did not depend on coal or water in Yorkshire.
+  - why not A: Commercial farming and enclosure changed how land was used. Coal and running water power machines, not farms.
+  - why not B: British trade with Asia grew through ships and trading companies such as the East India Company. It did not depend on coal and streams in Yorkshire.
+  - why not C: Caribbean sugar plantations depended on a warm climate and enslaved labor, not on coal and streams in Yorkshire.
   - hint: What could running water and coal be used to power?
 
 
@@ -333,7 +333,7 @@ KEY: D. Explanation: Running water could turn mill wheels, and coal could fuel s
 | England, 1695 | 5,450,000 | 7.80 | 6.5 | 1.20 |
 | France, 1695 | 13,500,000 | 5.90 | 17.5 | 1.25 |
 | Holland, 1695 | 2,240,000 | 8.14 | 6.9 | 3.08 |
-Gregory King, an English government official and statistician, made these estimates in 1696. They are estimates, not counts. King uses "Holland" for the whole Dutch Republic. All money is in English pounds (£). King gave money in pounds, shillings, and pence (20 shillings = £1); his per-person figures have been changed to decimals and rounded to the nearest £0.01.
+Gregory King, an English government official and statistician, made these estimates in 1696. They are estimates, not counts. King uses "Holland" for the whole Dutch Republic. All money is in English pounds (£). King gave money in pounds, shillings, and pence (20 shillings = £1); his per-person figures have been changed to decimals and rounded to the nearest £0.01. The per-person tax figures are King's own; they do not always match the population and revenue columns exactly.
 Source: Gregory King, Natural and Political Observations and Conclusions upon the State and Condition of England (1696), first printed in George Chalmers, An Estimate of the Comparative Strength of Great Britain (London, 1802), p. 444, King's "general Account of England, France, and Holland, for the years 1688, and 1695"
 
 **E3-P22** [Topic 3.6 · LO F · Skill 5.A · Continuity and Change · easy]  Which of the following conclusions is best supported by the data in the table?
@@ -347,12 +347,12 @@ KEY: C. Explanation: Taxes per person rose in England (£0.36 to £1.20), in Fra
   - why not D: France collected £10.5 million in 1688 and £17.5 million in 1695, far more than Holland.
   - hint: Compare the last column for each country in 1688 and in 1695.
 
-**E3-P23** [Topic 3.6 · LO F · Skill 4.B · medium]  The change in taxes between 1688 and 1695 is best understood in the context of which of the following?
+**E3-P23** [Topic 3.6 · LO F · Skill 4.A · medium]  The change in taxes between 1688 and 1695 is best understood in the context of which of the following?
 - (A) The Thirty Years' War
 - (B) The War of the Spanish Succession
 - (C) The Nine Years' War
 - (D) The English Civil War
-KEY: C. Explanation: From 1688 to 1697, France fought England, the Dutch Republic, and their allies in the Nine Years' War. Big armies and navies cost a lot of money. So all three countries raised taxes sharply.
+KEY: C. Explanation: The Nine Years' War lasted from 1688 to 1697. France fought the Dutch Republic, England (from 1689), and their allies. Big armies and navies cost a lot of money. So all three countries raised taxes sharply.
   - why not A: The Thirty Years' War ended in 1648, forty years before the first date in the table.
   - why not B: The War of the Spanish Succession began in 1701, after the second date in the table.
   - why not D: The English Civil War was fought in the 1640s, long before 1688.
@@ -361,12 +361,12 @@ KEY: C. Explanation: From 1688 to 1697, France fought England, the Dutch Republi
 **E3-P24** [Topic 3.5 · LO D · Skill 5.B · Causation · medium]  Which of the following best explains why Holland had the highest income per person in the table?
 - (A) The Dutch Republic had more farmland per person than England or France.
 - (B) The Dutch Republic received large amounts of silver from its mines in the Americas.
-- (C) The Dutch Republic's absolute monarch controlled trade through royal monopolies.
+- (C) The Dutch Republic earned most of its income from large noble estates.
 - (D) The Dutch Republic had grown rich from shipping, overseas trade, and banking.
 KEY: D. Explanation: In the 1600s Dutch ships carried much of Europe's trade. The Dutch East India Company traded across Asia, and Amsterdam had Europe's leading bank. This trade made the Dutch the richest people per person in Europe.
   - why not A: The Dutch Republic was small and crowded, with less land per person than England or France. Its wealth came mostly from trade.
   - why not B: Spain, not the Dutch Republic, controlled the great silver mines of the Americas.
-  - why not C: The Dutch Republic had no king. It was a republic led by wealthy merchants and town officials.
+  - why not C: Dutch wealth did not come mainly from noble estates. Merchants, shipping, and trade made the Dutch Republic rich.
   - hint: What was the Dutch Republic best known for in the 1600s?
 
 
@@ -424,7 +424,7 @@ KEY: B. Explanation: Adam Smith wrote The Wealth of Nations in 1776. He attacked
 - (C) end the trade in salted fish between England and the nations around it
 - (D) build up English shipping at the expense of foreign carriers such as the Dutch
 KEY: D. Explanation: The act says it is "for the increase of the shipping" of England. At the time, Dutch ships carried much of England's trade. The act tried to win that business for English ships and sailors.
-  - why not A: The act does the opposite. Goods may come in English ships or in ships of the country where the goods were made.
+  - why not A: The act does the opposite: it limits foreign ships. Goods from Asia, Africa, and America must come in English or colonial ships. Goods from Europe may also come in ships of the country where they were made.
   - why not B: The act lets goods from the colonies in, as long as they come in English or colonial ships.
   - why not C: The act lets fish into England if it is caught in English vessels. It protects English fishermen; it does not end the trade.
   - hint: Read the first line of the act. What does it say the act is for?
@@ -456,19 +456,19 @@ KEY: D. Explanation: The Dutch saw the act as an attack on their trade. Fights o
 > In some of your letters which I do not recollect, you speak (with honest indignation) of the treachery and chicanery of the natives.*—My good friend, you should remember from whom they learnt those vices:—the first Christian visitors found them a simple, harmless people—but the cursed avidity for wealth urged these first visitors (and all the succeeding ones) to such acts of deception—and even wanton cruelty—that the poor ignorant natives soon learnt to turn the knavish and diabolical arts which they soon imbibed—upon their teachers.
 > I am sorry to observe that the practice of your country (which as a resident I love—and for its freedom, and for the many blessings I enjoy in it, shall ever have my warmest wishes—prayers—and blessings;) I say, it is with reluctance that I must observe your country's conduct has been uniformly wicked in the East—West Indies—and even on the coast of Guinea.—The grand object of English navigators—indeed of all Christian navigators—is money—money—money—for which I do not pretend to blame them.—Commerce was meant, by the goodness of the Deity, to diffuse the various goods of the earth into every part—to unite mankind in the blessed chains of brotherly love—society—and mutual dependence … .—In Africa, the poor wretched natives—blessed with the most fertile and luxuriant soil—are rendered so much the more miserable for what Providence meant as a blessing:—the Christians' abominable traffic for slaves—and the horrid cruelty and treachery of the petty Kings—encouraged by their Christian customers—who carry them strong liquors, to enflame their national madness—and powder and bad fire arms, to furnish them with the hellish means of killing and kidnapping.—But enough—it is a subject that sours my blood … .
 > * Here "the natives" means the people of India.
-— Ignatius Sancho, writer of African descent who was born on a slave ship, was enslaved as a child, and later ran a grocery shop in London, letter to a young English friend working in India, 1778, published in 1782 (Text from Letters of the Late Ignatius Sancho, an African, 3rd ed. (London, 1784), letter 68 (Project Gutenberg transcription); adapted)
+— Ignatius Sancho, writer of African descent who had been enslaved as a child and later ran a grocery shop in London, letter to a young English friend working in India, 1778, published in 1782 (Text from Letters of the Late Ignatius Sancho, an African, 3rd ed. (London, 1784), letter 68 (Project Gutenberg transcription); adapted)
 > Words to know: indignation = anger at something unfair; chicanery = trickery; avidity = greed; wanton = cruel for no reason; knavish and diabolical arts = dishonest and evil tricks; imbibed = took in; learned; the East—West Indies = Asia and the Caribbean; the coast of Guinea = the coast of West Africa; navigators = sea traders and explorers; diffuse = spread; Providence = God's care and guidance; abominable traffic = hateful trade; petty Kings = rulers of small African states
 
-**E3-P31** [Topic 3.4 · LO C · Skill 2.B · easy]  Sancho's point of view in the letter was most likely shaped by
-- (A) his years of service as an official of the East India Company in India
-- (B) his work as a sugar planter who owned land in the West Indies
-- (C) his own background as an African who had been enslaved as a child
-- (D) his position as a bishop in the Church of England
-KEY: C. Explanation: Sancho was born on a slave ship and was enslaved as a child. He later gained his freedom in England. His life helps explain why he condemns the greed of "Christian navigators" and the slave trade.
-  - why not A: Sancho's young friend was the one working in India. Sancho himself lived and worked in London.
-  - why not B: Sancho ran a shop in London. He condemns the "abominable traffic for slaves" that supplied the planters.
-  - why not D: Sancho was a shopkeeper and writer, not a clergyman. He writes as a Christian, but not as a church official.
-  - hint: Reread the attribution. What do you learn there about Sancho's life?
+**E3-P31** [Topic 3.4 · LO C · Skill 2.B · medium]  Which of the following best describes the point of view from which Sancho judges European traders?
+- (A) He judges them as protectors who saved Africans from their own rulers.
+- (B) He judges them as people whose overseas trade should be ended.
+- (C) He judges them by religious ideals that their own conduct violates.
+- (D) He judges them mainly by the wealth their trade adds to Britain.
+KEY: C. Explanation: Sancho says God meant trade "to unite mankind" in "brotherly love." Then he shows "Christian" traders spreading greed, cruelty, and the slave trade. He judges them by the faith they claim to follow.
+  - why not A: Sancho does not praise European rule. He blames European greed for encouraging the "petty Kings" to kill and kidnap.
+  - why not B: Sancho says commerce was meant "to unite mankind," so he does not ask for trade to end. He attacks the greed and cruelty of the traders.
+  - why not D: Sancho mocks the traders' love of "money—money—money." He judges them by how they treat people, not by the wealth they bring Britain.
+  - hint: Compare what Sancho says trade was meant to do with what he says Christian traders actually do.
 
 **E3-P32** [Topic 3.4 · LO C · Skill 4.B · medium]  Sancho's criticism of "the Christians' abominable traffic for slaves" is best understood in the context of which of the following?
 - (A) The growth of the Atlantic slave trade to supply plantations
@@ -478,7 +478,7 @@ KEY: C. Explanation: Sancho was born on a slave ship and was enslaved as a child
 KEY: A. Explanation: In the 1600s and 1700s, Europeans wanted more sugar, tobacco, coffee, and cotton. Plantation owners in the Americas bought millions of enslaved Africans to grow these crops. Sancho condemned the trade that supplied them.
   - why not B: The Peace of Utrecht gave Britain the right to sell enslaved Africans in Spanish America, which expanded the trade.
   - why not C: The Spanish conquered the Aztec and Inca empires in the 1500s. Sancho writes in 1778 about the trade in enslaved Africans.
-  - why not D: Britain abolished slavery in its colonies in 1833, more than fifty years after this letter.
+  - why not D: Parliament passed the act ending slavery in most British colonies in 1833, and it took effect in 1834, more than fifty years after this letter.
   - hint: Where were most enslaved Africans taken in the 1700s, and what did they produce?
 
 **E3-P33** [Topic 3.4 · LO C · Skill 5.B · Causation · easy]  Arguments like Sancho's most directly contributed to which later development?
@@ -497,7 +497,7 @@ KEY: A. Explanation: Writings by Black authors in Britain, such as Sancho, Olaud
 [IMAGE] Rembrandt van Rijn, Dutch painter, The Syndics of the Amsterdam Drapers' Guild, oil painting, 1662, made for the guild's hall in Amsterdam. Rijksmuseum, Amsterdam. Public domain image via Wikimedia Commons (file: Rembrandt - De Staalmeesters- het college van staalmeesters (waardijns) van het Amsterdamse lakenbereidersgilde - Google Art Project.jpg).
 Image file: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg/1280px-Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg (1280 × 865)
 Caption shown to students: Six men are gathered in a room with wooden walls. Five of them wear plain black clothes with flat white collars and tall black hats. They sit or stand behind a table covered with a thick red rug, and one of them rests his hand on a large open book. One man on the left is rising from his chair. A sixth man without a hat stands at the back against the wall. Most of the men look straight out of the picture, as if someone has just walked into their meeting.
-Description: A large oil painting in dark brown, black, and red. Behind a table covered with a red Persian rug, five men in black suits with wide, flat white collars and tall black hats are grouped together. From left to right: an older man with gray hair sits in a chair; a tall man leans forward and seems to be getting up from his seat; a man with long fair hair sits in the middle and holds out one open hand toward a large open book; a younger man with long dark hair sits beside him on the right with his hand on the pages of the book; and a man on the far right sits holding a pair of gloves and a purse. A sixth man, bareheaded, with long hair, stands in the back between them. The background is a wall of dark wood paneling. The men look out toward the viewer with calm, serious faces. The painter's signature and the date are on the paneling at the upper right.
+Description: A large oil painting in dark brown, black, and red. Behind a table covered with a red Persian rug, five men in black suits with wide, flat white collars and tall black hats are grouped together. From left to right: an older man with gray hair sits in a chair; a tall man leans forward and seems to be getting up from his seat; a man with long fair hair sits in the middle and holds out one open hand toward a large open book; a younger man with long dark hair sits beside him on the right with his hand on the pages of the book; and a man on the far right sits holding a pair of gloves and a purse. A sixth man, bareheaded, with long hair, stands in the back between them. The background is a wall of dark wood paneling. The men look out toward the viewer with calm, serious faces. Faint writing on the wall at the upper right reads "Rembrandt f. 1661"; the Rijksmuseum lists this signature as false and gives the painting's genuine signature as "Rembrandt f. 1662."
 > Words to know: syndics = officials chosen each year to serve the guild; drapers = people who made or sold cloth; guild = an organization of people in the same trade
 
 **E3-P34** [Topic 3.5 · LO D · Skill 2.B · medium]  Given its context, the painting was most likely intended to
@@ -511,7 +511,7 @@ KEY: C. Explanation: The guild ordered this group portrait for its hall in Amste
   - why not D: The men are shown with respect, in plain, serious clothes. Nothing in the painting mocks them or their wealth.
   - hint: Where did the painting hang, and who would have seen it there?
 
-**E3-P35** [Topic 3.5 · LO D · Skill 2.A · medium]  In the Dutch Republic in the 1600s, which group most often paid for paintings like this one?
+**E3-P35** [Topic 3.5 · LO D · Skill 1.B · medium]  In the Dutch Republic in the 1600s, which group most often paid for paintings like this one?
 - (A) Catholic bishops and monasteries
 - (B) Merchants, guilds, and town officials
 - (C) Kings, princes, and their royal households
@@ -617,7 +617,7 @@ KEY: B. Explanation: The allies feared that France and Spain together would "bec
 - (B) The emperor's son became king of Spain and ruled its empire in the Americas.
 - (C) France took over the Spanish Netherlands as a barrier against the Dutch.
 - (D) Spain's colonies in the Americas were divided between Britain and the Dutch.
-KEY: A. Explanation: The War of the Spanish Succession (1701–1714) ended with the Peace of Utrecht. Louis XIV's grandson stayed king of Spain as Philip V. But he gave up his claim to France, so the two crowns stayed apart.
+KEY: A. Explanation: The War of the Spanish Succession (1701–1714) ended with the treaties of Utrecht (1713) and of Rastatt and Baden (1714). Louis XIV's grandson stayed king of Spain as Philip V. But he gave up his claim to France, so the two crowns stayed apart.
   - why not B: The emperor's son Charles fought for the Spanish throne but did not win it. In 1711 he became Holy Roman Emperor instead.
   - why not C: The Spanish Netherlands went to Austria, not France, in the peace treaties of 1713–1714.
   - why not D: Spain kept its colonies in the Americas. Britain gained trading rights there, such as the right to sell enslaved Africans.
@@ -630,9 +630,9 @@ KEY: A. Explanation: The War of the Spanish Succession (1701–1714) ended with 
 > … II. We forbid our subjects of the R.P.R. to meet any more for the exercise of the said religion in any place or private house, under any pretext whatever, … .
 > … IV. We enjoin all ministers of the said R.P.R., who do not choose to become converts and to embrace the Catholic, apostolic, and Roman religion, to leave our kingdom and the territories subject to us within a fortnight of the publication of our present edict … .
 > … X. We repeat our most express prohibition to all our subjects of the said R.P.R., together with their wives and children, against leaving our kingdom, lands, and territories subject to us, or transporting their goods and effects therefrom under penalty, as respects the men, of being sent to the galleys, and as respects the women, of imprisonment and confiscation.
-> * R.P.R. stands for the French words for "the religion called the Reformed," the French government's name for Protestantism. French Protestants were called Huguenots.
+> * R.P.R. stands for the French words religion prétendue réformée, "the religion that claims to be Reformed," the French government's official name for Protestantism. French Protestants were called Huguenots.
 — Louis XIV, king of France, Edict of Fontainebleau, which revoked the Edict of Nantes, October 1685 (English translation in James Harvey Robinson, Readings in European History, vol. 2 (Boston, 1906), pp. 288–290; adapted)
-> Words to know: truce = a break in fighting; facilitated = made possible; designs of our said grandfather and father = the plans of King Henry IV and King Louis XIII to bring Protestants back to the Catholic Church; Edict of Nantes = the law of 1598 that gave French Protestants the right to worship; ordained = ordered; nugatory = useless; no longer needed; obliterate = wipe out; revoke = cancel; pretext = excuse; enjoin = order; ministers = here, Protestant pastors; galleys = warships rowed by prisoners in chains; confiscation = having property taken by the government
+> Words to know: truce = a break in fighting; facilitated = made possible; designs of our said grandfather and father = the plans that Louis XIV says his grandfather, King Henry IV, and his father, King Louis XIII, had for Protestants; Edict of Nantes = the law of 1598 that gave French Protestants the right to worship; ordained = ordered; nugatory = useless; no longer needed; obliterate = wipe out; revoke = cancel; pretext = excuse; enjoin = order; ministers = here, Protestant pastors; galleys = warships rowed by prisoners in chains; confiscation = having property taken by the government
 
 **E3-P43** [Topic 3.7 · LO G · Skill 5.B · Causation · easy]  The edict most directly resulted in which of the following?
 - (A) The flight of many Huguenots abroad
@@ -656,12 +656,12 @@ KEY: B. Explanation: Louis XIV wanted his kingdom to share one faith as well as 
   - why not D: The edict forbids Protestant worship. It does not mention selling church buildings.
   - hint: Who decides here how French people may worship?
 
-**E3-P45** [Topic 3.7 · LO G · Skill 2.C · hard]  A historian would most likely question the edict's claim that "the better and the greater part" of Protestants had become Catholics because
-- (A) Protestants in France still outnumbered Catholics in the 1680s
-- (B) many conversions had been forced by soldiers lodged in their homes
-- (C) the king had no reliable way of learning the religion of his subjects
-- (D) most Huguenots had left France well before 1685
-KEY: B. Explanation: In the early 1680s royal officials sent soldiers, called dragoons, to live in Protestant homes until the families converted. Many conversions were forced in this way. So the edict's claim does not prove real belief.
+**E3-P45** [Topic 3.7 · LO G · Skill 2.C · hard]  Which of the following most limits the edict's usefulness as evidence of how many French Protestants had truly accepted the Catholic faith?
+- (A) Protestants in France still outnumbered Catholics in the 1680s.
+- (B) Many conversions had been forced by soldiers lodged in Protestant homes.
+- (C) The king had no reliable way to learn what religion his subjects followed.
+- (D) Most Huguenots had left France well before 1685.
+KEY: B. Explanation: In the early 1680s royal officials sent soldiers, called dragoons, to live in Protestant homes until the families converted. Many conversions were forced in this way. So a recorded conversion does not prove that a person truly accepted Catholic beliefs.
   - why not A: Catholics were a large majority in France. Protestants were a small minority.
   - why not C: Royal officials sent the king reports on conversions. The problem is how the conversions were won, not whether they could be counted.
   - why not D: Article X shows that many Protestants were still in France and had to be forbidden to leave. Most of the flight came after 1685.
@@ -682,7 +682,7 @@ KEY: B. Explanation: In the early 1680s royal officials sent soldiers, called dr
 - (C) how Peter's later wars against Sweden were planned and fought
 - (D) how the Russian Church reacted to Peter's control of its leaders
 KEY: A. Explanation: Burnet spent many hours with Peter in England. His account shows how an Anglican bishop saw the young tsar: clever and hardworking, but hot-tempered. It tells us much less about Russia itself.
-  - why not B: Burnet met Peter in England and spoke with him through interpreters. He had no contact with ordinary Russians.
+  - why not B: Burnet describes his own talks with Peter in England. The excerpt gives no views from ordinary Russians.
   - why not C: Burnet describes Peter's visit in 1698, two years before Russia's war with Sweden began in 1700.
   - why not D: Burnet says Peter "did not seem disposed to mend matters in Moscovy," but he gives no Russian church leader's views.
   - hint: Where did Burnet meet Peter, and with whom did he talk?
@@ -715,15 +715,13 @@ KEY: A. Explanation: Russia had few seaports that did not freeze. Peter fought t
 > Very dear and well beloved:
 > Considering how advantageous it would be to this realm to reestablish its foreign and domestic commerce, … we have resolved to create a council particularly devoted to commerce, to be held every fortnight in our presence, in which all the interests of merchants and the means conducive to the revival of commerce shall be considered and determined upon, as well as all that which concerns manufactures.
 > We also inform you that we are setting apart, among the expenses of our State, a million livres each year for the encouragement of manufactures and the increase of navigation, to say nothing of the considerable sums which we cause to be raised to supply the companies of the East and West Indies;
-> That we are working constantly to abolish all the tolls which are collected on the navigable rivers;
-> That there has already been expended more than a million livres for the repair of the public highways, to which we shall also devote our constant attention;
+> That we are working constantly to abolish all the tolls which are collected on the navigable rivers; …
 > That we will assist by money from our royal treasury all those who wish to reestablish old manufactures or to undertake new ones; …
-> That all the merchants and traders by sea who purchase vessels, or who build new ones, for traffic or commerce shall receive from us subsidies for each ton of merchandise which they export or import on the said voyages.
-> We desire, in this present letter, not only to inform you concerning all these things, but to require you, as soon as you have received it, to cause to be assembled all the merchants and traders of your town of Marseilles, and explain to them very particularly our intentions in all matters mentioned above, in order that, being informed of the favorable treatment which we desire to give them, they may be the more desirous of applying themselves to commerce. Let them understand that for everything that concerns the welfare and advantage of the same they are to address themselves to Sieur Colbert. …
+> … in order that, being informed of the favorable treatment which we desire to give them [the merchants of Marseilles], they may be the more desirous of applying themselves to commerce. Let them understand that for everything that concerns the welfare and advantage of the same they are to address themselves to Sieur Colbert. …
 — Louis XIV, king of France, letter to the town officials and people of Marseilles, a port city in southern France, August 26, 1664 (English translation in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (Boston, 1908), pp. 13–14; adapted)
-> Words to know: realm = kingdom; commerce = trade; fortnight = two weeks; conducive to = helpful for; manufactures = goods made in workshops, or the businesses that make them; livres = French units of money; navigation = shipping; the companies of the East and West Indies = French trading companies for Asia and for the Americas; tolls = fees charged to travel on a road, river, or bridge; subsidies = money the government pays to help a business; Sieur Colbert = Mr. Colbert, one of the king's ministers
+> Words to know: realm = kingdom; commerce = trade; fortnight = two weeks; conducive to = helpful for; manufactures = goods made in workshops, or the businesses that make them; livres = French units of money; navigation = shipping; the companies of the East and West Indies = French trading companies for Asia and for the Americas; tolls = fees charged to travel on a road, river, or bridge; Sieur Colbert = Mr. Colbert, one of the king's ministers
 
-**E3-E01** [Topic 3.4 · LO C · Skill 1.B · easy]  The measures described in the letter are most clearly an example of which economic policy?
+**E3-E01** [Topic 3.4 · LO C · Skill 1.A · easy]  The measures described in the letter are most clearly an example of which economic policy?
 - (A) Laissez-faire
 - (B) Physiocracy
 - (C) Manorialism
@@ -732,15 +730,15 @@ KEY: D. Explanation: Mercantilism tried to make the state rich and strong throug
   - A: Incorrect. Laissez-faire means the government leaves the economy alone. Here the king spends royal money to direct trade and industry.
   - B: Incorrect. The Physiocrats were French thinkers of the 1750s and 1760s who said land and farming were the source of wealth and called for free trade. This letter is from 1664 and is about trade and manufactures.
   - C: Incorrect. Manorialism was the medieval system in which peasants worked a lord's land. The letter is about trade, shipping, and workshops.
-  - D: Correct. The king pays subsidies to workshops and shipping and funds trading companies so that France can make and sell more and depend less on other countries.
+  - D: Correct. The king sets aside royal money for workshops and shipping and supports trading companies so that France can make and sell more and depend less on other countries.
 
 **E3-E02** [Topic 3.7 · LO G · Skill 1.B · medium]  The letter best illustrates which development in France under Louis XIV?
 - (A) Provincial nobles took charge of the kingdom's economic policy.
 - (B) Merchants won the right to elect members of the king's councils.
 - (C) The king's government directed the growth of trade and industry.
 - (D) The Catholic Church took over the regulation of trade and prices.
-KEY: C. Explanation: Louis XIV and his minister Colbert put the central government in charge of the economy. The king's council, his treasury, and his minister all appear in this letter.
-  - A: Incorrect. The letter goes from the king to the town and points merchants to a royal minister, Colbert. Louis XIV kept great nobles out of such decisions.
+KEY: C. Explanation: Louis XIV and his minister Colbert used royal councils, money from the treasury, and trading companies to promote French trade and industry. The letter places these policies under the king's direction.
+  - A: Incorrect. The letter goes from the king to the town and points merchants to a royal minister, Colbert. It does not give provincial nobles control of economic policy.
   - B: Incorrect. The king tells merchants to bring their concerns to Sieur Colbert. They do not elect anyone to his councils.
   - C: Correct. The king creates a council of commerce to meet "in our presence," pays help from the "royal treasury," and tells merchants to deal with his minister, Colbert.
   - D: Incorrect. The letter says nothing about the Church. Trade is directed by the king and his minister.
@@ -759,16 +757,14 @@ KEY: D. Explanation: Towns, lords, and provinces collected tolls on rivers and r
 
 ### Source X2 (questions E3-E04–E3-E06)
 **Source 1**
-> That the said Charles Stuart, being admitted King of England, and therein trusted with a limited power to govern by and according to the laws of the land, and not otherwise; and by his trust, oath, and office, being obliged to use the power committed to him for the good and benefit of the people, and for the preservation of their rights and liberties; yet, nevertheless, out of a wicked design to erect and uphold in himself an unlimited and tyrannical power to rule according to his will, and to overthrow the rights and liberties of the people, yea, to take away and make void the foundations thereof, and of all redress and remedy of misgovernment, which by the fundamental constitutions of this kingdom were reserved on the people's behalf in the right and power of frequent and successive Parliaments, or national meetings in Council; he, the said Charles Stuart, for accomplishment of such his designs, … hath traitorously and maliciously levied war against the present Parliament, and the people therein represented … .
-> … By which cruel and unnatural wars, by him, the said Charles Stuart, levied, continued, and renewed as aforesaid, much innocent blood of the free people of this nation hath been spilt, many families have been undone, the public treasure wasted and exhausted, trade obstructed and miserably decayed, vast expense and damage to the nation incurred, and many parts of this land spoiled, some of them even to desolation.
-— The charge against King Charles I, read at his trial before the High Court of Justice, a special court set up by the House of Commons, London, January 20, 1649 (Text from Samuel Rawson Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625–1660, 3rd ed. (Oxford, 1906), pp. 371–373; adapted)
-> Words to know: Charles Stuart = King Charles I; Stuart was his family name; admitted = accepted as; redress = a way to set a wrong right; levied war = raised armies and made war; undone = ruined; desolation = complete ruin
+> That the said Charles Stuart, being admitted King of England, and therein trusted with a limited power to govern by and according to the laws of the land, and not otherwise; and by his trust, oath, and office, being obliged to use the power committed to him for the good and benefit of the people, and for the preservation of their rights and liberties; yet, nevertheless, out of a wicked design to erect and uphold in himself an unlimited and tyrannical power to rule according to his will, and to overthrow the rights and liberties of the people, … hath traitorously and maliciously levied war against the present Parliament, and the people therein represented … .
+— The charge against King Charles I, read at his trial before the High Court of Justice, a special court set up by the House of Commons, London, January 20, 1649 (Text from Samuel Rawson Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625–1660, 3rd ed. (Oxford, 1906), pp. 371–372; adapted)
+> Words to know: Charles Stuart = King Charles I; Stuart was his family name; admitted = accepted as; tyrannical = harsh and unjust, like a tyrant; levied war = raised armies and made war
 **Source 2**
-> Having already made my protestations, not only against the illegality of this pretended Court, but also, that no earthly power can justly call me (who am your King) in question as a delinquent, … the duty I owe to God in the preservation of the true liberty of my people will not suffer me at this time to be silent: for, how can any free-born subject of England call life or anything he possesseth his own, if power without right daily make new, and abrogate the old fundamental laws of the land which I now take to be the present case? …
-> There is no proceeding just against any man, but what is warranted, either by God's laws or the municipal laws of the country where he lives. Now I am most confident this day's proceeding cannot be warranted by God's laws; for, on the contrary, the authority of obedience unto Kings is clearly warranted, and strictly commanded in both the Old and New Testament … . Then for the law of this land, I am no less confident, that no learned lawyer will affirm that an impeachment can lie against the King, they all going in his name: and one of their maxims is, that the King can do no wrong. … But how the House of Commons can erect a Court of Judicature, which was never one itself (as is well known to all lawyers) I leave to God and the world to judge.
-> … Thus you see that I speak not for my own right alone, as I am your King, but also for the true liberty of all my subjects, which consists not in the power of government, but in living under such laws, such a government, as may give themselves the best assurance of their lives, and property of their goods … .
+> Having already made my protestations, not only against the illegality of this pretended Court, but also, that no earthly power can justly call me (who am your King) in question as a delinquent, … the duty I owe to God in the preservation of the true liberty of my people will not suffer me at this time to be silent … .
+> There is no proceeding just against any man, but what is warranted, either by God's laws or the municipal laws of the country where he lives. Now I am most confident this day's proceeding cannot be warranted by God's laws; for, on the contrary, the authority of obedience unto Kings is clearly warranted, and strictly commanded in both the Old and New Testament … . Then for the law of this land, I am no less confident, that no learned lawyer will affirm that an impeachment can lie against the King, they all going in his name: and one of their maxims is, that the King can do no wrong. … But how the House of Commons can erect a Court of Judicature, which was never one itself (as is well known to all lawyers) I leave to God and the world to judge. …
 — Charles I, king of England, Scotland, and Ireland, written statement of his reasons for refusing to accept the authority of the court, January 21, 1649 (Text from Samuel Rawson Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625–1660, 3rd ed. (Oxford, 1906), pp. 374–375; adapted)
-> Words to know: protestations = formal objections; pretended = falsely claimed; delinquent = a person who has broken the law; suffer = allow; abrogate = cancel; warranted = allowed; justified; municipal laws = here, the laws of a country; impeachment = a formal charge of wrongdoing against an official; they all going in his name = all court cases were brought in the king's name; Court of Judicature = law court
+> Words to know: protestations = formal objections; pretended = falsely claimed; delinquent = a person who has broken the law; suffer = allow; warranted = allowed; justified; municipal laws = here, the laws of a country; impeachment = a formal charge of wrongdoing against an official; they all going in his name = since all such charges are brought in the king's name; Court of Judicature = law court
 
 **E3-E04** [Topic 3.2 · LO B · Skill 3.C · Comparison · medium]  Which of the following best describes a difference between the two sources?
 - (A) Source 1 says the king ruled in trust for the people, while Source 2 says no earthly court may judge a king.
@@ -792,10 +788,10 @@ KEY: A. Explanation: The court found Charles I guilty of treason, and he was exe
   - C: Incorrect. The Glorious Revolution came in 1688–1689, when James II was replaced by William and Mary.
   - D: Incorrect. England and Scotland were joined into one kingdom by the Act of Union in 1707.
 
-**E3-E06** [Topic 3.8 · LO H · Skill 3.A · Comparison · medium]  Charles's argument in Source 2 most closely reflects which political idea?
+**E3-E06** [Topic 3.2 · LO B · Skill 3.A · medium]  Charles's argument in Source 2 most closely reflects which political idea?
 - (A) Popular sovereignty
 - (B) Parliamentary supremacy
-- (C) Divine-right absolutism
+- (C) Divine-right monarchy
 - (D) Freedom of religious worship
 KEY: C. Explanation: Charles says kings answer to God, not to any "earthly power." This is the idea of divine-right monarchy. His father, James I, had argued the same thing.
   - A: Incorrect. Popular sovereignty means that power comes from the people. That is closer to Source 1's claim that the king was "trusted" with power for the people's benefit.
@@ -829,7 +825,7 @@ KEY: B. Explanation: Louis XIV used art, buildings, and ceremony to show that he
 - (D) The Glorious Revolution
 KEY: A. Explanation: As a child, Louis XIV saw nobles and Paris rebel against the crown in the Fronde. As king, he ruled without a chief minister and kept great nobles busy at Versailles. He used art like this portrait to show that all power came from him.
   - A: Correct. During the Fronde (1648–1653), nobles and the Parlement of Paris rose against the crown while Louis was a boy. He grew up determined to keep the nobles under control.
-  - B: Incorrect. The Edict of Nantes (1598) gave French Protestants rights. Louis XIV later revoked it, but it did not shape his display of royal power.
+  - B: Incorrect. The Edict of Nantes (1598) gave French Protestants rights. Louis XIV later revoked it, but the Fronde more directly explains his fear of rebellion and his effort to control the nobles.
   - C: Incorrect. The Peace of Westphalia (1648) ended the Thirty Years' War and weakened the Holy Roman Empire. It did not set off Louis's efforts to control his own nobles.
   - D: Incorrect. The Glorious Revolution (1688–1689) limited the English monarchy. Louis XIV's way of ruling had been set long before.
 
@@ -868,21 +864,21 @@ Source: William Milburn, Oriental Commerce, vol. 2 (London, 1813), p. 542, table
 - (B) Legal tea sales were highest when the tax on tea was highest.
 - (C) The tax on tea stayed about the same from 1713 to 1793.
 - (D) Legal tea sales jumped after the tax on tea was cut to 12.5 percent.
-KEY: D. Explanation: Legal tea sales grew during the century. Then they jumped when the tax fell to 12.5 percent. In 1784 Parliament cut the tax so much that smuggled tea was no longer cheaper than legal tea.
+KEY: D. Explanation: Legal tea sales grew during the century. Then they jumped when the tax fell to 12.5 percent. In 1784 Parliament cut the tax so much that legal tea could compete with smuggled tea.
   - A: Incorrect. Sales rose from 0.3 million pounds a year in 1713–1721 to 8.1 million in 1768–1772, so they did not fall during most of the century.
   - B: Incorrect. The highest tax shown, 128 percent, came in 1734–1744, when sales were 1.5 million pounds a year. The highest sales came when the tax was lowest.
   - C: Incorrect. In the table, the tax ranges from 12.5 percent to 128 percent of the sale price, so it did not stay about the same.
   - D: Correct. Sales were 5.9 million pounds in 1783, when the tax was 114 percent. With the tax at 12.5 percent, sales were 15.1 million pounds in 1785 and 16.7 million a year in 1786–1793.
 
 **E3-E11** [Topic 3.4 · LO C · Skill 4.B · medium]  The overall rise in tea sales from 1713 to 1772 is best understood in the context of which of the following?
-- (A) Britain's victory over China in the Opium War
-- (B) The spread of British-owned tea plantations across India
-- (C) The end of the East India Company's control over the tea trade
-- (D) A growing consumer culture in which overseas goods became part of daily life
+- (A) Britain's growing supply of tea from its own colonies in India
+- (B) Britain's laws against printed cotton cloth from India
+- (C) The growth of European demand for goods made in Britain
+- (D) A consumer culture that made overseas goods part of daily life
 KEY: D. Explanation: As trade with Asia and the Americas grew, tea and sugar became cheaper and more common in Britain. Many families began to drink sweet tea every day. This was part of a new consumer culture.
-  - A: Incorrect. The Opium War was fought from 1839 to 1842, long after 1772, and Britain did not rule China's tea-growing regions.
-  - B: Incorrect. British tea plantations in India began in the 1830s, long after 1772.
-  - C: Incorrect. The Company kept its control of Britain's tea trade with China until 1834. The note says it had the only legal right to bring tea into Britain.
+  - A: Incorrect. In these years the Company bought its tea in China. Tea plantations in British India began only in the 1830s.
+  - B: Incorrect. The Calico Acts of 1700 and 1721 limited cotton cloth from India to protect British wool and silk makers. They did not cause the rise in tea sales.
+  - C: Incorrect. The table records tea sold at the Company's London auctions. It does not show British goods sold to other Europeans.
   - D: Correct. In the 1700s tea, sugar, coffee, and tobacco from Asia and the Americas became everyday goods for many Europeans, not just for the rich.
 
 
@@ -890,11 +886,9 @@ KEY: D. Explanation: As trade with Asia and the Americas grew, tea and sugar bec
 > The use of their banks, which secures money, and makes all payments easy, and trade quick. …
 > The government managed either by men that trade, or whose families have risen by it, or who have themselves some interest going in other men's traffic, or who are born and bred in towns, the soul and being whereof consists wholly in trade; which makes sure of all favour, that, from time to time, grows necessary, and can be given it by the government. …
 > The last I shall mention is, the mighty advance they have made towards engrossing the whole commerce of the East-Indies, by their successes against the Portuguese, and by their many wars and victories against the natives,* whereby they have forced them to treaties of commerce, exclusive to all other nations, and to the admission of forts to be built upon straits and passes that command the entrances into the traffic of such places. …
-> Thus the trade of this country is discovered to be no effect of common contrivances, of natural dispositions or situation, or of trivial accidents; but of a great concurrence of circumstances, a long course of time, force of orders and method, which never before met in the world to such a degree, or with so prodigious a success, and perhaps never will again. …
-> … For never any country traded so much, and consumed so little: they buy infinitely, but it is to sell again, either upon improvement of the commodity, or at a better market. They are the great masters of the Indian spices, and of the Persian silks, but wear plain woollen, and feed upon their own fish and roots. … In short, they furnish infinite luxury which they never practise, and traffic in pleasures which they never taste.
 > * "The natives" here means the peoples of South and Southeast Asia.
-— Sir William Temple, English diplomat who had served as England's ambassador to the Dutch Republic, Observations upon the United Provinces of the Netherlands, published in London, 1673, describing the causes of Dutch trade (Text from The Works of Sir William Temple, vol. 1 (London, 1814), pp. 172–176; adapted)
-> Words to know: the government managed … by men that trade = the government run by merchants; traffic = trade; engrossing = taking complete control of; exclusive to = shutting out; straits = narrow waterways between two seas; contrivances = plans or tricks; concurrence = coming together; prodigious = enormous; upon improvement of the commodity = after making the goods better or more valuable; woollen = cloth made of wool; furnish = supply
+— Sir William Temple, English diplomat who had served as England's ambassador to the Dutch Republic, Observations upon the United Provinces of the Netherlands, published in London, 1673, describing the causes of Dutch trade (Text from The Works of Sir William Temple, vol. 1 (London, 1814), pp. 172–174; adapted)
+> Words to know: the government managed … by men that trade = the government run by merchants; traffic = trade; engrossing = taking complete control of; exclusive to = shutting out; straits = narrow waterways between two seas
 
 **E3-E12** [Topic 3.5 · LO D · Skill 1.B · medium]  Temple's description of the Dutch government best supports which of the following conclusions?
 - (A) The Dutch Republic was governed by merchant elites who ran it to promote trade.
@@ -971,11 +965,11 @@ KEY: C. Explanation: The Asiento let Britain sell enslaved Africans in Spain's A
 - (B) The Edict of Nantes, which protected the rights of Protestants in France
 - (C) Henry VIII's break with Rome over the end of his first marriage
 - (D) Laws after the Glorious Revolution that kept Catholics from the throne
-KEY: D. Explanation: After Catholic James II lost the throne in 1688, Parliament barred Catholics from the throne. Anne had no living children. So in 1701 Parliament named the Protestant rulers of Hanover as her heirs.
+KEY: D. Explanation: After Catholic James II lost the throne in 1688, the Bill of Rights barred Catholics from the throne. Anne's last living child died in 1700. So in 1701 the Act of Settlement named Sophia of Hanover, a Protestant granddaughter of James I, and her Protestant heirs to rule after William III and Anne. This shut out James II's Catholic son.
   - A: Incorrect. The Peace of Westphalia dealt with the princes of the Holy Roman Empire. It did not decide who would rule Britain.
   - B: Incorrect. The Edict of Nantes protected French Protestants, and Louis XIV revoked it in 1685. It did not apply to Britain.
   - C: Incorrect. Henry VIII broke with Rome in the 1530s. The question of a Catholic heir arose again after James II became a Catholic.
-  - D: Correct. The Bill of Rights (1689) barred Catholics from the throne, and the Act of Settlement (1701) gave the succession to the Protestant House of Hanover.
+  - D: Correct. The Bill of Rights (1689) barred Catholics from the throne, and the Act of Settlement (1701) named Sophia of Hanover and her Protestant heirs as next in line.
 
 
 ### Source X7 (questions E3-E18–E3-E21)
@@ -987,7 +981,7 @@ KEY: D. Explanation: After Catholic James II lost the throne in 1688, Parliament
 — Declaration presented to the king and republic of Poland by Russia's minister in the name of Empress Catherine II of Russia, September 18, 1772 (English translation in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (Boston, 1908), pp. 82–84; adapted)
 > Words to know: interregnums = periods when a country has no monarch, as between the death of one king and the choice of the next; factions = small groups working against others within a country; usurped = seized without the right to it; the republic = the name used for the Polish state, which had a king; her Majesty the Empress, Queen of Hungary and Bohemia = Maria Theresa of Austria; her Imperial Majesty of all the Russias = Catherine II of Russia; effective possession = actual control
 **Source 2**
-> … this unfortunate partition of Poland, which is costing me ten years of my life. It will make plain the whole unhappy history of that affair. How many times have I refused to agree to it! But disaster after disaster heaped upon us by the Turks; misery, famine, and pestilence at home; no hope of assistance either from France or England, and the prospect of being left isolated and threatened with a war both with Russia and Prussia,—it was all these considerations that finally forced me to accede to that unhappy proposal, which will remain a blot on my whole reign. God grant that I be not held responsible for it in the other world! I confess that I cannot keep from talking about this affair. I have taken it so to heart that it poisons and imbitters all my days, which even without that are sad enough. …
+> … this unfortunate partition of Poland, which is costing me ten years of my life. … How many times have I refused to agree to it! But disaster after disaster heaped upon us by the Turks; misery, famine, and pestilence at home; no hope of assistance either from France or England, and the prospect of being left isolated and threatened with a war both with Russia and Prussia,—it was all these considerations that finally forced me to accede to that unhappy proposal, which will remain a blot on my whole reign. God grant that I be not held responsible for it in the other world! I confess that I cannot keep from talking about this affair. I have taken it so to heart that it poisons and imbitters all my days, which even without that are sad enough. …
 — Maria Theresa, ruler of the Austrian Habsburg lands, private letter to her son Archduke Ferdinand, September 17, 1772 (English translation in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (Boston, 1908), pp. 84–85; adapted)
 > Words to know: partition = a division of a country's land among other states; pestilence = a deadly disease that spreads widely; accede to = agree to; imbitters = old spelling of embitters, makes bitter
 
@@ -1002,7 +996,7 @@ KEY: B. Explanation: The declaration says the partition restores order and sets 
   - C: Incorrect. Source 1 says the three powers came to an agreement among themselves. Neither source says that the Polish king or nobles asked for a partition.
   - D: Incorrect. Source 1 announces the partition. Maria Theresa says she agreed to it only after refusing "many times."
 
-**E3-E19** [Topic 3.1 · LO A · Skill 4.B · medium]  The "disorders" in Poland described in Source 1 are best understood in the context of which of the following?
+**E3-E19** [Topic 3.6 · LO E · Skill 4.B · medium]  The "disorders" in Poland described in Source 1 are best understood in the context of which of the following?
 - (A) A Protestant revolt against Poland's Catholic kings and bishops
 - (B) Pugachev's peasant revolt against serfdom
 - (C) Polish nobles' power to elect kings and block laws in their parliament
@@ -1013,27 +1007,27 @@ KEY: C. Explanation: Poland's elected kings had little power over the nobles. In
   - C: Correct. Polish nobles elected their kings, and a single deputy could break up the diet with the liberum veto. Rival noble groups invited foreign powers to take sides.
   - D: Incorrect. Poland's great wars with Sweden came in the 1600s and early 1700s. In 1772 Russia was at war with the Ottoman Empire.
 
-**E3-E20** [Topic 3.6 · LO E · Skill 1.B · medium]  The plan that the three powers "will each take an equivalent" share of Poland best reflects which principle?
+**E3-E20** [Topic 3.6 · LO E · Skill 1.A · medium]  The three powers' agreement to divide Polish lands among themselves best reflects which principle?
 - (A) Popular sovereignty
 - (B) Divine-right monarchy
 - (C) The balance of power
 - (D) Religious toleration
-KEY: C. Explanation: Russia, Prussia, and Austria each took an "equivalent" share. This kept a balance among the three powers and helped them avoid fighting one another.
+KEY: C. Explanation: Russia, Prussia, and Austria each took Polish land. The shares were not equal, but each power gained something, so none of them gained too much compared with the others. This helped them avoid a war with one another.
   - A: Incorrect. The Polish people were not asked. The three rulers made the decision after "having come to an agreement" among themselves.
-  - B: Incorrect. Divine right is about where a king's power comes from. The phrase is about keeping three powers equal.
-  - C: Correct. Each power takes an equal share, so none of the three gains an advantage over the others.
-  - D: Incorrect. The phrase says nothing about religion. It is about dividing land.
+  - B: Incorrect. Divine right is about where a king's power comes from. This agreement is about relations among rival states.
+  - C: Correct. Each power gained land, so none of the three gained too much compared with the others. Their shares were not equal, but the deal kept a balance among them.
+  - D: Incorrect. The agreement says nothing about religion. It is about dividing land.
 
 **E3-E21** [Topic 3.6 · LO E · Skill 5.B · Causation · medium]  In the long term, the events described in the sources contributed most directly to which of the following?
 - (A) The disappearance of the Polish state
-- (B) The union of Poland and Lithuania
-- (C) The Polish victory at Vienna
-- (D) The election of a French prince as Poland's king
+- (B) A stronger Polish monarchy backed by its neighbors
+- (C) A Prussian alliance that protected Poland from Russia
+- (D) Polish control of trade on the Baltic Sea
 KEY: A. Explanation: The first partition took almost a third of Poland's land. Polish reformers tried to make the state stronger. But Russia and Prussia took more land in 1793, and in 1795 the three powers divided the rest.
-  - A: Correct. In the Second (1793) and Third (1795) Partitions, Russia, Prussia, and Austria took the rest of Poland. It did not exist again as an independent state until 1918.
-  - B: Incorrect. Poland and Lithuania were joined in the Union of Lublin in 1569, two centuries before 1772.
-  - C: Incorrect. King John III Sobieski defeated the Ottomans at Vienna in 1683, almost a century before 1772.
-  - D: Incorrect. Henry of Valois, a French prince, was elected king of Poland in 1573, long before the partitions.
+  - A: Correct. In the Second Partition (1793), Russia and Prussia took more Polish land. In the Third (1795), Russia, Prussia, and Austria divided the rest. Poland did not exist again as an independent state until 1918.
+  - B: Incorrect. Polish reformers tried to strengthen the government with a new constitution in 1791, but Russia sent troops against it in 1792.
+  - C: Incorrect. Prussia signed an alliance with Poland in 1790 but did not defend Poland when Russia attacked in 1792. In 1793 Prussia joined Russia in taking more Polish land.
+  - D: Incorrect. The first partition gave Prussia most of Poland's Baltic coast. Prussia took the port of Danzig in 1793.
 
 
 ### Source X8 (questions E3-E22–E3-E25)
@@ -1066,14 +1060,14 @@ KEY: A. Explanation: Waliszewski says war came first. A bigger army needed money
   - C: Incorrect. Replacing the patriarch with the Holy Synod increased Peter's control of the Church. It was not mainly a way to pay for war.
   - D: Incorrect. The Academy of Sciences, which Peter planned and which opened in 1725, aimed at learning. It does not show war leading to financial measures.
 
-**E3-E24** [Topic 3.8 · LO H · Skill 5.A · Comparison · medium]  Peter's efforts to strengthen his state and army were most similar to those of which of the following rulers?
+**E3-E24** [Topic 3.8 · LO H · Skill 5.A · Comparison · medium]  Peter's efforts to strengthen his army and central government while keeping supreme authority in his own hands were most similar to the efforts of which of the following leaders?
 - (A) William III of England
 - (B) Louis XIV of France
 - (C) Stanisław II Augustus of Poland
 - (D) Johan de Witt of the Dutch Republic
-KEY: B. Explanation: Peter and Louis XIV were both absolute monarchs. Both built large armies, raised heavy taxes, and grew the central government. Both made nobles serve the crown.
-  - A: Incorrect. William III ruled within the limits of the Bill of Rights and needed Parliament's consent for taxes and a peacetime army.
-  - B: Correct. Like Peter, Louis XIV built a large standing army, expanded the central government, and brought the church and the nobles under royal control.
+KEY: B. Explanation: Peter and Louis XIV were both absolute monarchs. Both built large armies, raised heavy taxes, and grew the central government. Both made nobles serve the crown, and neither shared supreme power with an elected assembly.
+  - A: Incorrect. William III also built up England's army, but he ruled within the limits of the Bill of Rights. He needed Parliament's consent for taxes and a peacetime army.
+  - B: Correct. Like Peter, Louis XIV built a large standing army, expanded the central government, and brought the church and the nobles under royal control, while keeping final power in his own hands.
   - C: Incorrect. Stanisław II was an elected king who could not control Poland's nobles, and his country was partitioned.
   - D: Incorrect. De Witt led the Dutch Republic, a merchant republic without a king, from 1653 to 1672.
 
@@ -1096,10 +1090,10 @@ Every text excerpt was copied from raw text downloaded with curl (Internet Archi
 | Set | Type | Source | Edition / translation (year) | License basis |
 |---|---|---|---|---|
 | X1 | passage | Louis XIV, letter to the town officials and people of Marseilles, Aug. 26, 1664 (Colbert's program) | Robinson & Beard, Readings in Modern European History, vol. 1 (1908), pp. 13–14 | Published 1908 (≤1930); public domain |
-| X2 | pair | The charge against Charles I (Jan. 20, 1649) / Charles I's reasons for refusing the court (Jan. 21, 1649) | Gardiner, Constitutional Documents of the Puritan Revolution, 3rd ed. (1906), pp. 371–375 | Published 1906; public domain |
+| X2 | pair | The charge against Charles I (Jan. 20, 1649) / Charles I's reasons for refusing the court (Jan. 21, 1649) | Gardiner, Constitutional Documents of the Puritan Revolution, 3rd ed. (1906), pp. 371–372, 374–375 | Published 1906; public domain |
 | X3 | image | Hyacinthe Rigaud, Portrait of Louis XIV in Coronation Robes (1701), Louvre INV 7492 | Commons, File:Louis XIV of France.jpg | Public domain (PD-old-100, PD-Art), Commons API |
 | X4 | table | Tea sold at the East India Company's London sales, 1713–1793 | William Milburn, Oriental Commerce, vol. 2 (1813), p. 542 (page image) | Published 1813; public domain |
-| X5 | passage | Sir William Temple, Observations upon the United Provinces of the Netherlands (1673), ch. VI | Works of Sir William Temple, vol. 1 (London, 1814), pp. 172–176; checked against the 1705 ed. | Published 1673/1814; public domain |
+| X5 | passage | Sir William Temple, Observations upon the United Provinces of the Netherlands (1673), ch. VI | Works of Sir William Temple, vol. 1 (London, 1814), pp. 172–174; checked against the 1705 ed. | Published 1673/1814; public domain |
 | X6 | passage | Queen Anne, speech to Parliament on the peace terms, June 6, 1712 | A Compleate History of Europe for 1712 (1713), via Robinson & Beard, vol. 1 (1908), pp. 50–52 | Published 1713/1908; public domain |
 | X7 | pair | Catherine II's declaration on the first partition of Poland (Sept. 18, 1772) / Maria Theresa, letter to Archduke Ferdinand (Sept. 17, 1772) | Robinson & Beard, vol. 1 (1908), pp. 82–85 | Published 1908; public domain |
 | X8 | passage (historian) | K. Waliszewski, Peter the Great (1897), Part III, Book II, ch. I | tr. Lady Mary Loyd (New York: Appleton, 1897), pp. 395–397 | Published 1897; public domain |
@@ -1122,12 +1116,13 @@ Every text excerpt was copied from raw text downloaded with curl (Internet Archi
 
 Notes:
 - Fall 2026 AP European History CED Unit 3 has eight topics (3.1–3.8) and Learning Objectives A–H (3.3 and 3.4 share C; 3.6 has E and F); see ced_unit3_excerpt.txt. Section I Part A: 55 questions in sets of about three to four, at least one paired-text set. Following the calibration notes, the timed exam uses sets of 2–4 questions (one 2-question data set and two 4-question sets).
-- Stimulus mix: 16 passages, 3 pairs (X2, X7, P14), 3 images (X3, P4, P12), 2 tables (X4, a multi-row table across many dates; P8), 3 historians or later writers (X8 Waliszewski, P6 Acton, P9 Schmoller). P11 (Ignatius Sancho) gives a formerly enslaved African writer's view of European empire and the slave trade.
+- Stimulus mix: 16 passages, 3 pairs (X2, X7, P14), 3 images (X3, P4, P12), 2 tables (X4, a multi-row table across many dates; P8), 3 historians or later writers (X8 Waliszewski, P6 Acton, P9 Schmoller). P11 (Ignatius Sancho) gives the view of a writer of African descent who had been enslaved as a child, on European empire and the slave trade.
 - Overlap avoided: no source repeats one used in ae4 or ae5 (ae4 used Locke, Montesquieu, Voltaire, Frederick II, Catherine II's Instruction, and others; ae5 used Mahan, Seeley, Tocqueville, and others). The ae1 and ae2 folders had no sources yet when this bank was built. Not reused from aw3 (AP World Unit 3): Saint-Simon on Versailles, Bossuet's Politics, Rousset de Missy on Peter's dress decrees. Not used because aw4 already did: Equiano. Not used to avoid a likely Unit 1 pick: Thomas Mun's England's Treasure by Forraign Trade (written c. 1630).
 - Not used for lack of a usable 1930-or-earlier English text: Louis XIV's Mémoires for the Dauphin (the 1924 Wilson translation exists on the Internet Archive only as a lending copy); Kliuchevsky's History of Russia vol. 4 (1926, not found in full text); the Putney Debates (only the Clarke Papers' 1891 old-spelling text, which would have needed heavy modernization; the Agreement of the People in Gardiner's modern spelling is used instead); Pieter de la Court and John Perry (only long-s OCR of the 1702 and 1716 editions); Ottobah Cugoano (only long-s OCR of the 1787 edition).
 - Who appointed the Amsterdam syndics (P12, E3-P36): the burgomasters and schepenen (aldermen) of Amsterdam, each Good Friday, per Hans Bontemantel's De regeeringe van Amsterdam (1653–1672), ed. Kernkamp (1897), read on DBNL; extract in raw/web/bontemantel_staalmeesters_extract.txt (see P12.md).
 - v2026-11-09b changes to source lines and attributions: X4 source line names the left-out rows; X5 pages corrected to 172–176; P4 caption and description no longer call the labels Latin; P11 attribution says Sancho was born on a slave ship and no longer names the East India Company; P13 translation line says Sobieski wrote in Polish; P16 attribution calls Burnet Scottish-born, and the date bracket moved to 'He came this winter [early 1698]'; P2 ends with '…' for the cut third point. Each is noted in its source file.
 - The Queen Anne date (June 6, 1712) was confirmed from the University of Nebraska "Teaching Legal History" catalog record for the speech (item 1284), read by web fetch; the page could not be saved with curl (TLS chain error).
+- v2026-11-09c changes (ChatGPT Pro review, checked item by item; see ae3/chatgpt_review.txt): exam excerpts shortened to cut timed-exam reading (X1 drops the highways and shipping-subsidy paragraphs and the opening of the last paragraph, with '[the merchants of Marseilles]' added; X2 Source 1 now ends at 'therein represented … .', pp. 371–372; X2 Source 2 drops the 'how can any free-born subject' question and the 'Thus you see' paragraph; X5 drops its last two paragraphs, pp. 172–174); X7 Source 2 cuts 'It will make plain the whole unhappy history of that affair' (its 'It' is a document named in the omitted opening); P3.md Thomason shelfmark corrected to E. 412, 21 (page image); P8 note says King's per-person tax figures do not always match his other columns; P11 attribution no longer states Sancho's birthplace (accounts differ; National Portrait Gallery); P12 description now says the upper-right 'Rembrandt f. 1661' signature is listed as false by the Rijksmuseum; P15 footnote gives religion prétendue réformée as 'the religion that claims to be Reformed', and the glossary reports the 'designs' of Henry IV and Louis XIII as Louis XIV's claim; X2 Source 2 glossary for 'they all going in his name' corrected. Every changed excerpt was re-run through the excerpt checker against the raw text; web facts used are in raw/web/web_fetch_notes_v2026-11-09c.txt.
 
 ### X1
 ID: X1
@@ -1147,17 +1142,15 @@ THE EXCERPT AS PRINTED IN THE BANK:
 > Very dear and well beloved:
 > Considering how advantageous it would be to this realm to reestablish its foreign and domestic commerce, … we have resolved to create a council particularly devoted to commerce, to be held every fortnight in our presence, in which all the interests of merchants and the means conducive to the revival of commerce shall be considered and determined upon, as well as all that which concerns manufactures.
 > We also inform you that we are setting apart, among the expenses of our State, a million livres each year for the encouragement of manufactures and the increase of navigation, to say nothing of the considerable sums which we cause to be raised to supply the companies of the East and West Indies;
-> That we are working constantly to abolish all the tolls which are collected on the navigable rivers;
-> That there has already been expended more than a million livres for the repair of the public highways, to which we shall also devote our constant attention;
+> That we are working constantly to abolish all the tolls which are collected on the navigable rivers; …
 > That we will assist by money from our royal treasury all those who wish to reestablish old manufactures or to undertake new ones; …
-> That all the merchants and traders by sea who purchase vessels, or who build new ones, for traffic or commerce shall receive from us subsidies for each ton of merchandise which they export or import on the said voyages.
-> We desire, in this present letter, not only to inform you concerning all these things, but to require you, as soon as you have received it, to cause to be assembled all the merchants and traders of your town of Marseilles, and explain to them very particularly our intentions in all matters mentioned above, in order that, being informed of the favorable treatment which we desire to give them, they may be the more desirous of applying themselves to commerce. Let them understand that for everything that concerns the welfare and advantage of the same they are to address themselves to Sieur Colbert. …
+> … in order that, being informed of the favorable treatment which we desire to give them [the merchants of Marseilles], they may be the more desirous of applying themselves to commerce. Let them understand that for everything that concerns the welfare and advantage of the same they are to address themselves to Sieur Colbert. …
 
 OCR / TEXT NOTES:
 OCR 'Veiy' read as 'Very'; '^\'e' and 'AVe' read as 'We'; '\ ery' read as 'very'. The running head '14 Readings in Modern European History' and the side notes ('7. Commercial policy of Colbert shown in a letter of the king's') were dropped.
 
 ADAPTATION IN THE BANK (every cut):
-No cuts beyond the editors' own: every ellipsis in the bank (after 'domestic commerce,', after 'new ones;', and at the end) is printed as '. . .' in Robinson & Beard. The letter is given as the editors print it. Glossary is editorial.
+The editors' own ellipses (after 'domestic commerce,', after 'new ones;', and at the end) are printed as '. . .' in Robinson & Beard. v2026-11-09c cuts (to shorten the timed-exam reading): after 'on the navigable rivers;' the paragraph 'That there has already been expended more than a million livres for the repair of the public highways, to which we shall also devote our constant attention;'; after the editors' ellipsis following 'new ones;', the paragraph 'That all the merchants and traders by sea ... on the said voyages.' and the opening of the last paragraph, 'We desire, in this present letter, not only to inform you concerning all these things, but to require you, as soon as you have received it, to cause to be assembled all the merchants and traders of your town of Marseilles, and explain to them very particularly our intentions in all matters mentioned above,'. The last paragraph now begins '… in order that'. The bracket '[the merchants of Marseilles]' after 'give them' is editorial, added because the cut removed the words 'them' refers to. Glossary is editorial ('subsidies' removed with the cut paragraph).
 
 CONTEXT NOTES:
 Colbert directed royal finances from 1661 (controller-general from 1665). The French East and West India Companies were founded in 1664. Colbert's tariffs of 1664 and 1667 are referred to in rationales (1667 tariff raised duties on foreign goods).
@@ -1165,26 +1158,25 @@ Colbert directed royal finances from 1661 (controller-general from 1665). The Fr
 ### X2.1
 ID: X2.1
 Used as: exam set X2, Source 1 (E3-E04-E3-E06)
-Topic(s): 3.2 (LO B), 3.8 (LO H)
+Topic(s): 3.2 (LO B)
 Work: The Charge against the King (Charles I), read before the High Court of Justice, January 20, 1648/9 (Gardiner's source: Rushworth, Historical Collections, vii. 1396).
-Edition / translation: S. R. Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625-1660, 3rd ed., revised (Oxford: Clarendon Press, 1906), no. 82, pp. 371-374 (excerpt from pp. 371-373).
+Edition / translation: S. R. Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625-1660, 3rd ed., revised (Oxford: Clarendon Press, 1906), no. 82, pp. 371-374 (excerpt from pp. 371-372).
 URL curled: https://archive.org/download/constitutionald00gardgoog/constitutionald00gardgoog_djvu.txt (1906 printing); second witness https://archive.org/download/cu31924014656353/cu31924014656353_djvu.txt (an unchanged later reprint of the same 3rd edition, used only because its OCR is cleaner)
 Local raw copy: raw/gardiner1906_constitutionald00gardgoog.txt; raw/alt/gardiner1906-reprint_cu31924014656353.txt
-Locator: pp. 371-373; heading '[January 20, 1648-9]' (Old Style year; 1649 by the modern calendar).
+Locator: pp. 371-372 (pp. 371-373 before v2026-11-09c); heading '[January 20, 1648-9]' (Old Style year; 1649 by the modern calendar).
 PD / license note: Published 1906; public domain in the United States (published 1930 or earlier).
 
 (Raw excerpt region: see ae3/sources/X2.1.md)
 
 THE EXCERPT AS PRINTED IN THE BANK:
 
-> That the said Charles Stuart, being admitted King of England, and therein trusted with a limited power to govern by and according to the laws of the land, and not otherwise; and by his trust, oath, and office, being obliged to use the power committed to him for the good and benefit of the people, and for the preservation of their rights and liberties; yet, nevertheless, out of a wicked design to erect and uphold in himself an unlimited and tyrannical power to rule according to his will, and to overthrow the rights and liberties of the people, yea, to take away and make void the foundations thereof, and of all redress and remedy of misgovernment, which by the fundamental constitutions of this kingdom were reserved on the people's behalf in the right and power of frequent and successive Parliaments, or national meetings in Council; he, the said Charles Stuart, for accomplishment of such his designs, … hath traitorously and maliciously levied war against the present Parliament, and the people therein represented … .
-> … By which cruel and unnatural wars, by him, the said Charles Stuart, levied, continued, and renewed as aforesaid, much innocent blood of the free people of this nation hath been spilt, many families have been undone, the public treasure wasted and exhausted, trade obstructed and miserably decayed, vast expense and damage to the nation incurred, and many parts of this land spoiled, some of them even to desolation.
+> That the said Charles Stuart, being admitted King of England, and therein trusted with a limited power to govern by and according to the laws of the land, and not otherwise; and by his trust, oath, and office, being obliged to use the power committed to him for the good and benefit of the people, and for the preservation of their rights and liberties; yet, nevertheless, out of a wicked design to erect and uphold in himself an unlimited and tyrannical power to rule according to his will, and to overthrow the rights and liberties of the people, … hath traitorously and maliciously levied war against the present Parliament, and the people therein represented … .
 
 OCR / TEXT NOTES:
-The 1906 Google scan has noisy OCR; the excerpt was checked against both scans. Reprint OCR 'overthrovv' read as 'overthrow'; 'th?' read as 'the'. Running heads ('372 Constitutional Documents [1648-9', '1648-9] The Charge against the King 373') dropped.
+The 1906 Google scan has noisy OCR; the excerpt was checked against both scans. Reprint OCR 'overthrovv' read as 'overthrow'; 'th?' read as 'the' (in text cut in v2026-11-09c). Running head '372 Constitutional Documents [1648-9' dropped (the p. 373 head is now past the end of the excerpt).
 
 ADAPTATION IN THE BANK (every cut):
-Cut 1 (after 'for accomplishment of such his designs,'): 'and for the protecting of himself and his adherents in his and their wicked practices, to the same ends'. Cut 2 (after 'therein represented'): the list of battles and dates from 'particularly upon or about the 30th day of June, in the year of our Lord 1642' through '... against the said Parliament and people as aforesaid.' Cut 3: everything after 'even to desolation.' The second paragraph break is editorial (the charge is one long paragraph up to 'desolation').
+Cut 1 (v2026-11-09c; after 'and to overthrow the rights and liberties of the people,'): 'yea, to take away and make void the foundations thereof, and of all redress and remedy of misgovernment, which by the fundamental constitutions of this kingdom were reserved on the people's behalf in the right and power of frequent and successive Parliaments, or national meetings in Council; he, the said Charles Stuart, for accomplishment of such his designs, and for the protecting of himself and his adherents in his and their wicked practices, to the same ends'. The sentence still reads 'That the said Charles Stuart, ... hath traitorously and maliciously levied war'. Cut 2 (after 'therein represented'): everything that follows, from the list of battles ('particularly upon or about the 30th day of June, in the year of our Lord 1642 ...') through the end of the charge. Before v2026-11-09c the bank also printed a second paragraph ('By which cruel and unnatural wars ... even to desolation.'); it was cut to shorten the timed-exam reading, and the glossary entries 'redress', 'undone', and 'desolation' went with it. 'tyrannical' was added to the glossary.
 
 CONTEXT NOTES:
 Charles was tried January 20-27, 1649, and executed January 30, 1649. The House of Commons created the High Court of Justice by its own act in January 1649 after Pride's Purge (December 1648).
@@ -1192,7 +1184,7 @@ Charles was tried January 20-27, 1649, and executed January 30, 1649. The House 
 ### X2.2
 ID: X2.2
 Used as: exam set X2, Source 2 (E3-E04-E3-E06)
-Topic(s): 3.2 (LO B), 3.8 (LO H)
+Topic(s): 3.2 (LO B)
 Work: The King's Reasons for declining the jurisdiction of the High Court of Justice, January 21, 1648/9 (Gardiner's source: Rushworth vii. 1403). Charles intended to read it in Westminster Hall on Monday, January 22.
 Edition / translation: S. R. Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625-1660, 3rd ed., revised (Oxford: Clarendon Press, 1906), no. 83, pp. 374-377 (excerpt from pp. 374-375).
 URL curled: https://archive.org/download/constitutionald00gardgoog/constitutionald00gardgoog_djvu.txt (1906 printing); second witness https://archive.org/download/cu31924014656353/cu31924014656353_djvu.txt (an unchanged later reprint of the same 3rd edition, used only because its OCR is cleaner)
@@ -1204,15 +1196,14 @@ PD / license note: Published 1906; public domain in the United States (published
 
 THE EXCERPT AS PRINTED IN THE BANK:
 
-> Having already made my protestations, not only against the illegality of this pretended Court, but also, that no earthly power can justly call me (who am your King) in question as a delinquent, … the duty I owe to God in the preservation of the true liberty of my people will not suffer me at this time to be silent: for, how can any free-born subject of England call life or anything he possesseth his own, if power without right daily make new, and abrogate the old fundamental laws of the land which I now take to be the present case? …
-> There is no proceeding just against any man, but what is warranted, either by God's laws or the municipal laws of the country where he lives. Now I am most confident this day's proceeding cannot be warranted by God's laws; for, on the contrary, the authority of obedience unto Kings is clearly warranted, and strictly commanded in both the Old and New Testament … . Then for the law of this land, I am no less confident, that no learned lawyer will affirm that an impeachment can lie against the King, they all going in his name: and one of their maxims is, that the King can do no wrong. … But how the House of Commons can erect a Court of Judicature, which was never one itself (as is well known to all lawyers) I leave to God and the world to judge.
-> … Thus you see that I speak not for my own right alone, as I am your King, but also for the true liberty of all my subjects, which consists not in the power of government, but in living under such laws, such a government, as may give themselves the best assurance of their lives, and property of their goods … .
+> Having already made my protestations, not only against the illegality of this pretended Court, but also, that no earthly power can justly call me (who am your King) in question as a delinquent, … the duty I owe to God in the preservation of the true liberty of my people will not suffer me at this time to be silent … .
+> There is no proceeding just against any man, but what is warranted, either by God's laws or the municipal laws of the country where he lives. Now I am most confident this day's proceeding cannot be warranted by God's laws; for, on the contrary, the authority of obedience unto Kings is clearly warranted, and strictly commanded in both the Old and New Testament … . Then for the law of this land, I am no less confident, that no learned lawyer will affirm that an impeachment can lie against the King, they all going in his name: and one of their maxims is, that the King can do no wrong. … But how the House of Commons can erect a Court of Judicature, which was never one itself (as is well known to all lawyers) I leave to God and the world to judge. …
 
 OCR / TEXT NOTES:
 Reprint OCR 'suifer' read as 'suffer'; the 1958 reprint OCR '[January 31, 164J' is a misreading of '[January 21, 1648/9' (page image). Running head 'The King's Reasons 375' dropped.
 
 ADAPTATION IN THE BANK (every cut):
-Cut 1 (after 'as a delinquent,'): 'I would not any more open my mouth upon this occasion, more than to refer myself to what I have spoken, were I in this case alone concerned: but'. Cut 2 (after 'the present case?'): 'Wherefore when I came hither ... seek to impose a belief upon my subjects.' Cut 3 (after 'Old and New Testament'): ', which, if denied, I am ready instantly to prove. And for the question now in hand, there it is said ... Eccles. viii. 4.' Cut 4 (after 'the King can do no wrong.'): 'Besides, the law upon which you ground your proceedings ... hath made it, and when.' Cut 5 (after 'I leave to God and the world to judge.'): 'And it were full as strange ... so far are you from having it.' Cut 6: everything after 'property of their goods'.
+Cut 1 (after 'as a delinquent,'): 'I would not any more open my mouth upon this occasion, more than to refer myself to what I have spoken, were I in this case alone concerned: but'. Cut 2 (after 'to be silent'; widened in v2026-11-09c): ': for, how can any free-born subject of England call life or anything he possesseth his own, if power without right daily make new, and abrogate the old fundamental laws of the land which I now take to be the present case? Wherefore when I came hither ... seek to impose a belief upon my subjects.' Cut 3 (after 'Old and New Testament'): ', which, if denied, I am ready instantly to prove. And for the question now in hand, there it is said ... Eccles. viii. 4.' Cut 4 (after 'the King can do no wrong.'): 'Besides, the law upon which you ground your proceedings ... hath made it, and when.' Cut 5 (after 'I leave to God and the world to judge.'; widened in v2026-11-09c): everything that follows, from 'And it were full as strange ...' to the end. Before v2026-11-09c the bank also printed the paragraph 'Thus you see that I speak not for my own right alone ... and property of their goods'; it was cut to shorten the timed-exam reading, and the glossary entry 'abrogate' went with Cut 2. Glossary 'they all going in his name' changed from 'all court cases were brought in the king's name' to 'since all such charges are brought in the king's name' ('they' are the impeachments of the same sentence). The excerpt is still from pp. 374-375.
 
 CONTEXT NOTES:
 Charles refused to plead throughout the trial. Gardiner prints the paper he had prepared to read.
@@ -1264,10 +1255,10 @@ ID: X5
 Used as: exam set X5 (E3-E12-E3-E14)
 Topic(s): 3.5 (LO D), 3.3 (LO C)
 Work: Sir William Temple, Observations upon the United Provinces of the Netherlands (London, 1673), chapter VI, 'Of their Trade'.
-Edition / translation: The Works of Sir William Temple, Bart., vol. 1 (London, 1814), pp. 172-176 (Bayerische Staatsbibliothek scan on archive.org). Wording checked against the 1705 edition (London: J. Tonson et al.).
+Edition / translation: The Works of Sir William Temple, Bart., vol. 1 (London, 1814), pp. 172-174 (Bayerische Staatsbibliothek scan on archive.org). Wording checked against the 1705 edition (London: J. Tonson et al.).
 URL curled: https://archive.org/download/10605094bsb/10605094bsb_djvu.txt ; second witness https://archive.org/download/observationsupo00tempgoog/observationsupo00tempgoog_djvu.txt
 Local raw copy: raw/temple1814v1_10605094bsb.txt; raw/alt/temple1705_observationsupo00tempgoog.txt
-Locator: 1814 ed., vol. 1, ch. VI, pp. 172-176. The excerpt begins on p. 172 ('The use of their banks') and ends on p. 176 ('traffic in pleasures which they never taste'); the p. 177 running head follows that line. (Corrected in v2026-11-09b; the credit line had said pp. 172-177.)
+Locator: 1814 ed., vol. 1, ch. VI, pp. 172-174. The excerpt begins on p. 172 ('The use of their banks') and ends on p. 174 ('the traffic of such places'); the p. 175 running head comes after the next paragraph begins. (v2026-11-09b had pp. 172-176, when the excerpt ran on to 'traffic in pleasures which they never taste' on p. 176; the last two paragraphs were cut in v2026-11-09c.)
 PD / license note: Published 1673/1814; public domain in the United States (published 1930 or earlier).
 
 (Raw excerpt region: see ae3/sources/X5.md)
@@ -1277,14 +1268,12 @@ THE EXCERPT AS PRINTED IN THE BANK:
 > The use of their banks, which secures money, and makes all payments easy, and trade quick. …
 > The government managed either by men that trade, or whose families have risen by it, or who have themselves some interest going in other men's traffic, or who are born and bred in towns, the soul and being whereof consists wholly in trade; which makes sure of all favour, that, from time to time, grows necessary, and can be given it by the government. …
 > The last I shall mention is, the mighty advance they have made towards engrossing the whole commerce of the East-Indies, by their successes against the Portuguese, and by their many wars and victories against the natives,* whereby they have forced them to treaties of commerce, exclusive to all other nations, and to the admission of forts to be built upon straits and passes that command the entrances into the traffic of such places. …
-> Thus the trade of this country is discovered to be no effect of common contrivances, of natural dispositions or situation, or of trivial accidents; but of a great concurrence of circumstances, a long course of time, force of orders and method, which never before met in the world to such a degree, or with so prodigious a success, and perhaps never will again. …
-> … For never any country traded so much, and consumed so little: they buy infinitely, but it is to sell again, either upon improvement of the commodity, or at a better market. They are the great masters of the Indian spices, and of the Persian silks, but wear plain woollen, and feed upon their own fish and roots. … In short, they furnish infinite luxury which they never practise, and traffic in pleasures which they never taste.
 
 OCR / TEXT NOTES:
-1814 OCR 'imfinitely' read as 'infinitely'; running heads ('172 Observations upon the United Provinces.', 'CHAP. VI. Of their Trade. 173') dropped. The 1814 text modernizes the 1705 spelling and long s; the bank follows 1814.
+1814 OCR 'imfinitely' read as 'infinitely' (in a paragraph cut in v2026-11-09c); running heads ('172 Observations upon the United Provinces.', 'CHAP. VI. Of their Trade. 173') dropped. The 1814 text modernizes the 1705 spelling and long s; the bank follows 1814.
 
 ADAPTATION IN THE BANK (every cut):
-Paragraph 1 is Temple's item on banks (preceded in the book by items on low interest and dearness of land, which are not used); cut after it: 'The sale by registry ... and breeds up seamen for their ships of war. The lowness of their customs ... Order and exactness in managing their trade ... by our former trade to parts where it is now lost or decayed.' Paragraph 2 is complete; cut after it: the items on towns' particular trades and the fishing trade. Paragraph 3 is cut after 'the traffic of such places.' (omitting 'This has been atchieved by the multitude of their people ... the Baltic ...'). Paragraph 4 is complete; cut after it: 'Being [Having in 1705] grown (to sum up all) from the situation ... and what is imported for their own.' and the next two paragraphs on the balance of trade. Paragraph 5 begins at 'For never any country traded so much' (the cut omits 'By this we find out the foundation of the riches of Holland, as of their trade by the circumstances already rehearsed.'); inside it, cut 'Nay, they sell the finest of their own cloth to France ... for their own use.' The footnote on 'the natives' and the glossary are editorial.
+Paragraph 1 is Temple's item on banks (preceded in the book by items on low interest and dearness of land, which are not used); cut after it: 'The sale by registry ... and breeds up seamen for their ships of war. The lowness of their customs ... Order and exactness in managing their trade ... by our former trade to parts where it is now lost or decayed.' Paragraph 2 is complete; cut after it: the items on towns' particular trades and the fishing trade. Paragraph 3 is cut after 'the traffic of such places.' (omitting 'This has been atchieved by the multitude of their people ... the Baltic ...'). v2026-11-09c: the excerpt now ends there. The two paragraphs that followed in v2026-11-09b ('Thus the trade of this country is discovered to be no effect of common contrivances ... and perhaps never will again.' and 'For never any country traded so much ... traffic in pleasures which they never taste.') were cut to shorten the timed-exam reading; no question, explanation, or rationale used them. Glossary entries 'contrivances', 'concurrence', 'prodigious', 'upon improvement of the commodity', 'woollen', and 'furnish' went with them. (For the record, v2026-11-09b printed the 'Thus the trade' paragraph complete, cut 'Being [Having in 1705] grown (to sum up all) ... ' and two paragraphs on the balance of trade, and then printed 'For never any country traded so much ...' with the cut 'Nay, they sell the finest of their own cloth to France ... for their own use.') The footnote on 'the natives' and the glossary are editorial.
 
 CONTEXT NOTES:
 Temple was English ambassador at The Hague 1668-1670 (and again from 1674); the book was published in 1673, during the Third Anglo-Dutch War (1672-1674). The Bank of Amsterdam was founded in 1609.
@@ -1324,7 +1313,7 @@ Treaty of Utrecht signed April 1713. Asiento for 30 years granted to Britain (op
 ### X7.1
 ID: X7.1
 Used as: exam set X7, Source 1 (E3-E18-E3-E21)
-Topic(s): 3.6 (LO E), 3.1 (LO A)
+Topic(s): 3.6 (LO E)
 Work: Declaration communicated by the Russian minister plenipotentiary in the name of Catherine II to the king and republic of Poland, September 18, 1772 (French text in Ghillany, Diplomatisches Handbuch, vol. 1 (Nordlingen, 1855), pp. 208 f., as cited by the editors).
 Edition / translation: Robinson & Beard, Readings in Modern European History, vol. 1 (Boston: Ginn, 1908), no. 41, pp. 82-84 (translation by the editors).
 URL curled: https://archive.org/download/cu31924088053818/cu31924088053818_djvu.txt
@@ -1365,13 +1354,13 @@ PD / license note: Published 1908; public domain in the United States (published
 
 THE EXCERPT AS PRINTED IN THE BANK:
 
-> … this unfortunate partition of Poland, which is costing me ten years of my life. It will make plain the whole unhappy history of that affair. How many times have I refused to agree to it! But disaster after disaster heaped upon us by the Turks; misery, famine, and pestilence at home; no hope of assistance either from France or England, and the prospect of being left isolated and threatened with a war both with Russia and Prussia,—it was all these considerations that finally forced me to accede to that unhappy proposal, which will remain a blot on my whole reign. God grant that I be not held responsible for it in the other world! I confess that I cannot keep from talking about this affair. I have taken it so to heart that it poisons and imbitters all my days, which even without that are sad enough. …
+> … this unfortunate partition of Poland, which is costing me ten years of my life. … How many times have I refused to agree to it! But disaster after disaster heaped upon us by the Turks; misery, famine, and pestilence at home; no hope of assistance either from France or England, and the prospect of being left isolated and threatened with a war both with Russia and Prussia,—it was all these considerations that finally forced me to accede to that unhappy proposal, which will remain a blot on my whole reign. God grant that I be not held responsible for it in the other world! I confess that I cannot keep from talking about this affair. I have taken it so to heart that it poisons and imbitters all my days, which even without that are sad enough. …
 
 OCR / TEXT NOTES:
 Side notes ('42. Letter of Maria Theresa on the partition of Poland') and running head ('The Wars of Frederick the Great 85') dropped.
 
 ADAPTATION IN THE BANK (every cut):
-The excerpt begins inside the letter's first sentence: cut '. . . Firmian will receive a lengthy document with instructions in regard to our present situation, our engagements toward Russia, Prussia, and the Turks, but particularly in regard to'. The closing '. . .' is the editors'. Nothing else is cut.
+The excerpt begins inside the letter's first sentence: cut '. . . Firmian will receive a lengthy document with instructions in regard to our present situation, our engagements toward Russia, Prussia, and the Turks, but particularly in regard to'. v2026-11-09c: also cut, after 'ten years of my life.', the sentence 'It will make plain the whole unhappy history of that affair.' Its subject 'It' is the 'lengthy document' named in the omitted opening, so with the opening cut the sentence read as if 'It' were the partition. The closing '. . .' is the editors'. Nothing else is cut.
 
 CONTEXT NOTES:
 Archduke Ferdinand was governor of Austrian Lombardy; Count Firmian was the Austrian minister in Milan.
@@ -1468,7 +1457,7 @@ James I reigned in England 1603-1625; Charles I's personal rule 1629-1640; civil
 ID: P3
 Used as: practice set P3 (E3-P07-E3-P09)
 Topic(s): 3.2 (LO B), 3.8 (LO H)
-Work: An Agreement of the People for a firm and present peace upon grounds of common right, presented to the General Council of the Army at Putney, October 28, 1647 (Gardiner's source: Thomason tract E. 413, 21).
+Work: An Agreement of the People for a firm and present peace upon grounds of common right, presented to the General Council of the Army at Putney, October 28, 1647 (Gardiner's source: Thomason tract E. 412, 21, as printed on p. 333).
 Edition / translation: S. R. Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625-1660, 3rd ed., revised (Oxford: Clarendon Press, 1906), no. 74, pp. 333-335.
 URL curled: https://archive.org/download/constitutionald00gardgoog/constitutionald00gardgoog_djvu.txt (1906 printing); second witness https://archive.org/download/cu31924014656353/cu31924014656353_djvu.txt (an unchanged later reprint of the same 3rd edition, used only because its OCR is cleaner)
 Local raw copy: raw/gardiner1906_constitutionald00gardgoog.txt; raw/alt/gardiner1906-reprint_cu31924014656353.txt
@@ -1496,6 +1485,9 @@ Cut 1 (after 'another war'): '; for, as it cannot be imagined ... nor made usele
 CONTEXT NOTES:
 The Putney Debates (October 28-November 11, 1647) followed. The New Model Army had won the first civil war by 1646.
 
+CHANGES IN v2026-11-09c:
+Thomason shelfmark corrected from 'E. 413, 21' to 'E. 412, 21'. The reprint's OCR (raw/alt) reads '413'; the 1906 printing's OCR reads 'E. 412, ai', and the page image raw/img/gardiner1906r_p333.jpg clearly shows 'E. 412, 21' (British Library form E.412[21]). The excerpt is unchanged.
+
 ### P4
 ID: P4
 Used as: practice set P4 (E3-P10-E3-P12)
@@ -1519,7 +1511,7 @@ Hobbes wrote Leviathan in exile in Paris; it was published in London in 1651. Th
 ### P5
 ID: P5
 Used as: practice set P5 (E3-P13-E3-P15)
-Topic(s): 3.2 (LO B), 3.8 (LO H)
+Topic(s): 3.2 (LO B)
 Work: The Bill of Rights, 1 William and Mary, sess. 2, c. 2, December 16, 1689, which enacted the Declaration of Right presented to William and Mary on February 13, 1688/9.
 Edition / translation: George Burton Adams and H. Morse Stephens, eds., Select Documents of English Constitutional History (New York: Macmillan, 1901), no. 239, pp. 462-466.
 URL curled: https://archive.org/download/documentsofengli00adamiala/documentsofengli00adamiala_djvu.txt
@@ -1555,7 +1547,7 @@ James II fled in December 1688; the Convention offered the crown to William and 
 ### P6
 ID: P6
 Used as: practice set P6 (E3-P16-E3-P18)
-Topic(s): 3.2 (LO B), 3.8 (LO H), 3.3 (LO C)
+Topic(s): 3.2 (LO B), 3.3 (LO C)
 Work: John Emerich Edward Dalberg-Acton, Lord Acton, lecture XIII, 'The English Revolution', Lectures on Modern History (lectures given at Cambridge in 1899-1900 and 1900-1901).
 Edition / translation: Lectures on Modern History, ed. John Neville Figgis and Reginald Vere Laurence (London: Macmillan, 1906), pp. 230-232.
 URL curled: https://archive.org/download/lecturesonmodern00acto_0/lecturesonmodern00acto_0_djvu.txt
@@ -1632,6 +1624,9 @@ Only the four columns above are used. King's 'Holland' is the whole Dutch Republ
 
 CONTEXT NOTES:
 King wrote in 1696, during the Nine Years' War (1688-1697). His figures are estimates; the note says so.
+
+CHANGES IN v2026-11-09c:
+King's per-person tax figures do not always reconcile with his own population and revenue columns: France 1695 gives 17,500,000 / 13,500,000 = about 1.30, but King prints 1 l. 5 s. (1.25); England 1695 gives 6,500,000 / 5,450,000 = about 1.19, but King prints 1 l. 4 s. (1.20). The other four rows match to the nearest 0.01. The bank keeps King's printed figures and adds to the table note: 'The per-person tax figures are King's own; they do not always match the population and revenue columns exactly.' The column heading was not lengthened, since the table title already marks every figure as King's estimate. E3-P22's key (taxes per person rose in all three countries) holds on either reading.
 
 ### P9
 ID: P9
@@ -1713,11 +1708,12 @@ Gutenberg's double hyphens '--' are rendered as dashes '—'; Gutenberg's footno
 ADAPTATION IN THE BANK (every cut):
 Paragraph 1 is complete. Paragraph 2: cut after 'mutual dependence:—': 'the enlightened Christian should diffuse the riches of the Gospel of peace—with the commodities of his respective land.—Commerce, attended with strict honesty—and with Religion for its companion—would be a blessing to every shore it touched at.' Cut after 'sours my blood': '—and I am sure will not please the friendly bent of your social affections ...'.
 
-ATTRIBUTION (v2026-11-09b):
+ATTRIBUTION (v2026-11-09b, revised in v2026-11-09c):
 The attribution now reads 'writer of African descent who was born on a slave ship, was enslaved as a child, and later ran a grocery shop in London'. The earlier 'African-born' was wrong: Joseph Jekyll's 'Life' at the front of the same edition (raw lines 93-95) says Sancho 'was born A. D. 1729, on board a ship in the Slave trade, a few days after it had quitted the coast of Guinea for the Spanish West-Indies'. Key (C) of E3-P31 was changed to match ('his own background as an African who had been enslaved as a child').
+v2026-11-09c: accounts of Sancho's birthplace differ, so the bank no longer states it. Jekyll's 1782 'Life' says he was born on a slave ship; the National Portrait Gallery's schools page on Sancho (read by web fetch, 2026-11-08; https://www.npg.org.uk/schools-hub/ignatius-sancho-based-on-a-work-by-thomas-gainsborough) says: 'We can't be sure of the details of Ignatius Sancho's birth. It was said that he was born on a slave ship, but he later wrote that he was born in Africa.' The attribution now reads 'writer of African descent who had been enslaved as a child and later ran a grocery shop in London'. E3-P31 was replaced by a point-of-view question (how Sancho judges European traders by the religious ideals their conduct violates), so the attribution no longer supplies a key.
 
 CONTEXT NOTES:
-Sancho was born on a slave ship, brought to England as a child, became a servant in Greenwich and with the Montagu family, and opened a grocery in Westminster in 1774. Britain abolished its slave trade in 1807.
+Accounts of Sancho's birthplace differ (on a slave ship, per Jekyll's 'Life'; in Africa, per Sancho himself, as the National Portrait Gallery notes), so the bank does not state it as certain. He was brought to England as a child, became a servant in Greenwich and with the Montagu family, and opened a grocery in Westminster in 1774. Britain abolished its slave trade in 1807.
 
 ### P12
 ID: P12
@@ -1731,7 +1727,7 @@ Locator: Commons metadata: Artist Rembrandt; DateTimeOriginal 1662; LicenseShort
 PD / license note: Painting of 1662; public domain, confirmed with the Commons API.
 
 IMAGE CHECKS:
-Caption written after viewing the file: five men in black with white collars and tall hats around a table covered with a red rug, an open book; one rising from his chair; a bareheaded man standing behind; signature and date on the paneling.
+Caption written after viewing the file: five men in black with white collars and tall hats around a table covered with a red rug, an open book; one rising from his chair; a bareheaded man standing behind; a signature and date on the wall at the upper right (read on the 1280 px file as 'Rembrandt f. 1661').
 
 NOTES ON WHAT IS SHOWN:
 Not applicable (image).
@@ -1740,6 +1736,9 @@ CONTEXT NOTES:
 The staalmeesters judged the quality of dyed cloth; the painting hung in the guild's Staalhof in Amsterdam.
 Who appointed the syndics (checked for v2026-11-09b): the city, not the guild. Hans Bontemantel, a member of Amsterdam's government, De regeeringe van Amsterdam ... (1653-1672), ed. G. W. Kernkamp (Werken Historisch Genootschap, 1897), pp. 257-258 of the edition, says that on Good Friday, 'volgens de previlegiën en willekeuren', were made ('werden gemaekt') the 'Superintendenten van de laekenhal, Waerdijns ofte Staelmeesters, Taermeesters ...', in the same way as the other city offices chosen by the burgomasters with the schepenen (aldermen). His record for Good Friday, 27 March 1671 (Bijlage I, 'Magistraatsverkiezingen', pp. 174-175 of the edition) is explicit: 'volgens de previlegiën, werden gemaeckt door Burgemeesteren en Schepenen de waerdijns en taermeesters', and the 'Waerdijns of Staelmeesters' named include Arnout van der Mije, Jochem de Neve, and Willem Doyenburg, three of the men in this painting. Read on DBNL (https://www.dbnl.org/tekst/bont014rege01_01/bont014rege01_01_0035.php and _0056.php); the passages are saved as plain text in raw/web/bontemantel_staalmeesters_extract.txt. Their term ran for one year from Good Friday (Wikipedia, 'Syndics of the Drapers' Guild'). So the E3-P36 explanation says 'Each year, Amsterdam's mayors and aldermen chose syndics to check the quality of cloth for the drapers' guild', and the glossary now says only 'officials chosen each year to serve the guild' (the old gloss, 'officials chosen to inspect and approve the quality of the cloth made by members of the guild', gave away E3-P36).
 Description fixed in v2026-11-09b after a second look at raw/commons/syndics_1280.jpg: the fair-haired man in the middle holds out an open palm beside the book; the dark-haired man to the right of him has his hand on the pages. The caption ('one of them rests his hand on a large open book') was already right.
+
+CHANGES IN v2026-11-09c:
+The description had said 'The painter's signature and the date are on the paneling at the upper right.' The writing there reads 'Rembrandt f. 1661' (raw/commons/syndics_1280.jpg, upper right, on the wall above the paneling). The Rijksmuseum's object data for SK-C-6 (read by web fetch, 2026-11-08) lists two inscriptions: signature and date 'Rembrandt f. 1662', and signature and date (false) 'Rembrandt. f. 1661.' The description now says that the upper-right signature is listed as false and gives the genuine one as 'Rembrandt f. 1662'. It does not say where the genuine signature is, because the Rijksmuseum page read does not say (the reviewer's 'on the table covering' was not confirmed, and the signature cannot be read on the 1280 px file). The visible caption does not mention signatures and is unchanged.
 
 ### P13
 ID: P13
@@ -1855,6 +1854,10 @@ The preamble's first two paragraphs (Henry IV's edict; Louis XIII) are not used.
 
 CONTEXT NOTES:
 Dragonnades from 1681; perhaps 150,000-200,000 Huguenots emigrated; Edict of Potsdam (Brandenburg) October 29, 1685.
+
+CHANGES IN v2026-11-09c:
+Footnote: was '"the religion called the Reformed," the French government's name for Protestantism' (Robinson's rendering). It now gives the French words, religion prétendue réformée, as 'the religion that claims to be Reformed,' the French government's official name for Protestantism. A reviewer asked for 'the supposedly Reformed religion, a hostile royal label'. Robinson's own note at the Edict of Nantes (Readings, vol. 2, raw lines 12728-12735) argues the term 'was in no way insulting' and that prétendre means 'claim' or 'allege'; many later writers read it as disparaging. The bank's wording keeps the literal sense both sides accept (the crown did not grant the claim to be 'Reformed') without calling the label hostile; the edict's own phrase 'this false religion' shows the crown's attitude in 1685.
+Glossary: 'designs of our said grandfather and father' was 'the plans of King Henry IV and King Louis XIII to bring Protestants back to the Catholic Church'; it now reads 'the plans that Louis XIV says his grandfather, King Henry IV, and his father, King Louis XIII, had for Protestants', so the gloss reports Louis XIV's claim instead of stating it as fact (Henry IV issued the Edict of Nantes).
 
 ### P16
 ID: P16
