@@ -3,7 +3,7 @@
 # Copyright basis (Units 8-9 rule): Hansard (Open Parliament Licence v3.0); EU documents (EUR-Lex / europa.eu,
 # Decision 2011/833/EU, CC BY 4.0); UN official documents; U.S. government works; texts published in 1930 or earlier;
 # CC BY data; Bundesarchiv images (CC BY-SA 3.0 DE). Cuts are marked with ellipses; bracketed words are clarifications.
-VERSION = "2026-11-09c"
+VERSION = "2026-11-09d"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -54,7 +54,7 @@ STIM = {
               {"t": "abdication", "d": "giving up power or duty"},
               {"t": "fulfilment", "d": "completion"},
               {"t": "Dominions", "d": "self-governing countries of the British Commonwealth, such as Canada"},
-              {"t": "allegiance to the Sovereign", "d": "loyalty to the British king or queen as head of the Commonwealth"}]),
+              {"t": "allegiance to the Sovereign", "d": "loyalty to the king, who was head of state of Britain and of each Dominion"}]),
 
 "X3": {"type": "pair", "items": [
     item("Source 1", [
@@ -66,7 +66,7 @@ STIM = {
         glossary=[{"t": "hard ecu", "d": "a proposed shared European money that would be used alongside national currencies, not in place of them"},
                   {"t": "sterling", "d": "the British currency, the pound"},
                   {"t": "the Commission", "d": "the European Commission, the appointed body that proposes and carries out European Community laws"},
-                  {"t": "the House", "d": "the House of Commons, Britain's elected parliament"},
+                  {"t": "the House", "d": "the House of Commons, the elected chamber of Britain's Parliament"},
                   {"t": "Council of Ministers", "d": "the body made up of ministers from each member government"}]),
     item("Source 2", [
         "RESOLVED to mark a new stage in the process of European integration undertaken with the establishment of the European Communities,",
@@ -95,11 +95,12 @@ STIM = {
 
 "X5": {"type": "pair", "items": [
     item("Source 1", [
-        "On 20 August, around 11 p.m., the troops of the Union of Soviet Socialist Republics, Polish People's Republic, Hungarian People's Republic, Bulgarian People's Republic and German Democratic Republic crossed the state borders of the Czechoslovak Socialist Republic. This happened without the knowledge of the President of the Republic, the Chairman of the National Assembly, the Prime Minister, the First Secretary of the Central Committee of the Communist Party of Czechoslovakia, or those organs. …",
+        "On 20 August, around 11 p.m., the troops of the Union of Soviet Socialist Republics, Polish People's Republic, Hungarian People's Republic, Bulgarian People's Republic and German Democratic Republic* crossed the state borders of the Czechoslovak Socialist Republic. This happened without the knowledge of the President of the Republic, the Chairman of the National Assembly, the Prime Minister, the First Secretary of the Central Committee of the Communist Party of Czechoslovakia, or those organs. …",
         "The Presidium of the Central Committee of the Communist Party of Czechoslovakia called upon all citizens of the Czechoslovak Socialist Republic to maintain calm and not to resist the advancing troops, because the defence of our state sovereignty by force was impossible at that time.",
         "Therefore, the Czechoslovak Army, People's Militia and public security did not receive the order to defend our country. The Presidium of the Central Committee of the Communist Party of Czechoslovakia considers this act as contrary not only to principles of relations among socialist States but also to the fundamental norms of international law."],
         "Declaration of the leaders (the Presidium) of the Communist Party of Czechoslovakia, issued in Prague early on August 21, 1968, and read to the United Nations Security Council the same day by Jan Muzík, Czechoslovakia's deputy representative at the United Nations",
-        "Text from United Nations, Security Council Official Records, 1441st meeting (August 21, 1968), document S/PV.1441, para. 137; adapted"),
+        "Text from United Nations, Security Council Official Records, 1441st meeting (August 21, 1968), document S/PV.1441, para. 137; adapted",
+        footnotes=[{"mark": "*", "text": "East Germany (the German Democratic Republic) helped plan the invasion, but at the last moment its combat troops were held back. They did not enter Czechoslovakia."}]),
     item("Source 2", [
         "The attempt to deny the socialist countries' right to render assistance to fraternal socialist States, to the people of the socialist countries, is an old trick of the imperialists; its purpose is to shatter the unity and solidarity of the socialist countries, to seek openings for such divisions. The military units of the socialist countries entered the territory of Czechoslovakia on the basis of a request by the Government of that State. It was that Government itself which appealed to the Governments of its allies for assistance. …",
         "Czechoslovakia's appeal to the friendly socialist States for assistance was prompted precisely by the threat posed to the existence of the socialist system in Czechoslovakia by the counter-revolutionary forces, entering into an agreement with the foreign powers hostile to socialism. …",
@@ -113,7 +114,7 @@ STIM = {
                   {"t": "socialist gains", "d": "the changes made under communist rule"}])]},
 
 "X6": {"type": "table",
-    "title": "Average Income per Person in Selected European Countries, 1950–1989",
+    "title": "GDP per Person in Selected European Countries, 1950–1989",
     "columns": ["Country", "1950", "1960", "1970", "1980", "1989"],
     "rows": [["France", "8,300", "11,800", "18,200", "23,500", "27,600"],
              ["Italy", "5,600", "9,400", "15,500", "21,000", "25,500"],
@@ -122,7 +123,7 @@ STIM = {
              ["Hungary", "4,000", "5,800", "8,000", "10,100", "11,000"],
              ["Poland", "3,900", "5,100", "7,100", "9,100", "9,100"],
              ["Soviet Union", "4,500", "6,300", "8,900", "10,200", "11,300"]],
-    "text": "The figures are gross domestic product (GDP) per person, a measure of the average value of goods and services produced per person each year. They are given in U.S. dollars of the year 2011, adjusted for differences in prices between countries, and rounded to the nearest 100. Figures for the communist countries are later estimates by economists.",
+    "text": "GDP (gross domestic product) per person is the value of all the goods and services a country produced in a year, divided by its population. It is not the same as the amount each person earned. Figures are in U.S. dollars of the year 2011, adjusted for differences in prices between countries, and rounded to the nearest 100. Figures for the communist countries are later estimates by economists.",
     "source": "Maddison Project Database, version 2023, by Jutta Bolt and Jan Luiten van Zanden (University of Groningen), table \"GDPpc\" (licensed CC BY 4.0)"},
 
 "X7": P([
@@ -225,9 +226,10 @@ STIM = {
     "After the destruction of the Second World War, the nations of Europe struggled to rebuild their economies and ensure their security. The former required a massive influx of aid to help the war-torn landscapes re-establish industries and produce food, and the latter required assurances against a resurgent Germany or incursions from the Soviet Union. The United States viewed an economically strong, rearmed, and integrated Europe as vital to the prevention of communist expansion across the continent. … Soviet refusal either to participate in the Marshall Plan or to allow its satellite states in Eastern Europe to accept the economic assistance helped to reinforce the growing division between east and west in Europe.",
     "In 1947–1948, a series of events caused the nations of Western Europe to become concerned about their physical and political security and the United States to become more closely involved with European affairs. The ongoing civil war in Greece, along with tensions in Turkey, led President Harry S. Truman to assert that the United States would provide economic and military aid to both countries, as well as to any other nation struggling against an attempt at subjugation. A Soviet-sponsored coup in Czechoslovakia resulted in a communist government coming to power on the borders of Germany. Attention also focused on elections in Italy as the communist party had made significant gains among Italian voters. …",
     "… In 1952, the members agreed to admit Greece and Turkey to NATO and added the Federal Republic of Germany in 1955. West German entry led the Soviet Union to retaliate with its own regional alliance, which took the form of the Warsaw Treaty Organization and included the Soviet satellite states of Eastern Europe as members.",
-    "The collective defense arrangements in NATO served to place the whole of Western Europe under the American \"nuclear umbrella.\" …"],
+    "The collective defense arrangements in NATO served to place the whole of Western Europe under the American \"nuclear umbrella.\"* …"],
     "Office of the Historian, U.S. Department of State, \"North Atlantic Treaty Organization (NATO), 1949,\" an online essay by the department's historians in the series Milestones in the History of U.S. Foreign Relations (undated; online since at least 2009; the series was retired in 2017)",
     "Text from history.state.gov (U.S. government work, public domain); adapted",
+    footnotes=[{"mark": "*", "text": "NATO's nuclear protection covered its member states. Some Western European countries, such as Sweden, Switzerland, and Ireland, stayed neutral and outside NATO."}],
     glossary=[{"t": "influx", "d": "large arrival"},
               {"t": "resurgent", "d": "rising again in strength"},
               {"t": "incursions", "d": "invasions or raids"},
@@ -241,13 +243,13 @@ STIM = {
     "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Bundesarchiv_Bild_183-13498-0010%2C_Berlin%2C_Marshallplan%2C_Bau_Hotel_Kempinski.jpg",
     "width": 800, "height": 536,
     "alt": "A black-and-white photograph of a large building under construction behind wooden scaffolding. In front stand billboards. The one at left shows a bear emblem and a shield with stars and stripes and the German words for the Berlin emergency program and the Marshall Plan. The one at right announces a new building for the Hotel Kempinski and lists building firms.",
-    "caption": "A large building is going up behind wooden scaffolding. On the left, a tall billboard shows the bear of Berlin's coat of arms and, below it, a shield with stars and stripes. Its German words read, \"Here work is being carried out in the Berlin emergency program with Marshall Plan …\" (the last words are hidden behind another sign). On the right, a second sign announces the \"new building of the Hotel Kempinski\" and its architect, and boards list the firms doing the work. The photograph was taken in West Berlin in February 1952. It was sent out by Zentralbild, the photo service of East Germany's state news agency. Zentralbild's caption complained that hotels, banks, and office buildings in West Berlin were going up with American money while many people still lived in huts, and that West Berlin's leaders served the Americans instead of rebuilding homes.",
-    "attribution": "Photograph of the building site of the Hotel Kempinski on the Kurfürstendamm, a main shopping street in West Berlin, released by Zentralbild, the photo service of the East German state news agency, February 1952",
+    "caption": "A large building is going up behind wooden scaffolding. On the left, a tall billboard shows the bear of Berlin's coat of arms and, below it, a shield with stars and stripes. Its German words read, \"Here work is being carried out in the Berlin emergency program with Marshall Plan …\" (the last words are hidden behind another sign). On the right, a second sign announces the \"new building of the Hotel Kempinski\" and its architect, and boards list the firms doing the work. The photograph was taken in West Berlin in February 1952. It was sent out by Zentralbild, an East German photo agency. Zentralbild's caption complained that hotels, banks, and office buildings in West Berlin were going up with American money while many people still lived in huts, and that West Berlin's leaders served the Americans instead of rebuilding homes.",
+    "attribution": "Photograph of the building site of the Hotel Kempinski on the Kurfürstendamm, a main shopping street in West Berlin, released by Zentralbild, an East German photo agency, February 1952",
     "credit": "Photographer unknown. Bundesarchiv (German Federal Archives), Bild 183-13498-0010, licensed CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), via Wikimedia Commons (file: Bundesarchiv Bild 183-13498-0010, Berlin, Marshallplan, Bau Hotel Kempinski.jpg). Sign and caption translated from German for this exam.",
     "description": "A black-and-white photograph of a construction site. Behind a forest of wooden scaffolding poles and planks, the concrete frame of a large building rises several stories. In the foreground on the left stands a tall billboard. At its top are the German words \"Hier werden Arbeiten im\" and a coat of arms with a black bear, the symbol of Berlin. Across the middle in large letters is \"Berliner Not-Programm\" (Berlin emergency program). Below that is a shield with stars and vertical stripes, and the words \"mit Marshall-Plan-\" followed by letters hidden behind a second sign. To the right stand rows of white boards listing building firms for steel windows, wooden windows, heating, plumbing, kitchens, and other work. A larger board reads \"Neubau Hotel Kempinski\" (new building, Hotel Kempinski) and names the architect, Paul Schwebes. Along the bottom edge is a strip with the archive number and the date, February 1952.",
     "glossary": [{"t": "Marshall Plan", "d": "a U.S. program begun in 1948, named for Secretary of State George Marshall"},
                  {"t": "emergency program", "d": "a West Berlin plan to create jobs and rebuild the city"},
-                 {"t": "Zentralbild", "d": "the photo service of East Germany's official news agency"}]},
+                 {"t": "Zentralbild", "d": "an East German photo agency (from 1956 part of East Germany's state news agency)"}]},
 
 "P6": {"type": "pair", "items": [
     item("Source 1", [
@@ -268,7 +270,7 @@ STIM = {
                   {"t": "exclusive jurisdiction", "d": "authority that belongs only to one government"}])]},
 
 "P7": {"type": "table",
-    "title": "Average Number of Children Born per Woman in Selected European Countries, 1960–2023",
+    "title": "Total Fertility Rates in Selected European Countries, 1960–2023 (births per woman)",
     "columns": ["Country", "1960", "1965", "1975", "1990", "2010", "2023"],
     "rows": [["Ireland", "3.78", "4.04", "3.37", "2.11", "2.05", "1.50"],
              ["France", "2.85", "2.84", "2.09", "1.77", "2.03", "1.66"],
@@ -277,7 +279,7 @@ STIM = {
              ["Italy", "2.40", "2.60", "2.17", "1.33", "1.44", "1.21"],
              ["Hungary", "2.02", "1.82", "2.35", "1.87", "1.25", "1.55"],
              ["Poland", "2.98", "2.52", "2.27", "2.06", "1.41", "1.20"]],
-    "text": "The figures are the total fertility rate: the average number of children a woman would have if she had children at each age at that year's rates. A rate of about 2.1 keeps a population the same size over time, not counting migration.",
+    "text": "The figures are the total fertility rate: the average number of children a woman would have if she had children at each age at that year's rates. Where most children live to adulthood, a rate of about 2.1, kept up over many years, replaces each generation, not counting migration.",
     "source": "World Bank, World Development Indicators, \"Fertility rate, total (births per woman)\" (SP.DYN.TFRT.IN), based on United Nations, Eurostat, and national estimates, October 2026 update (licensed CC BY 4.0)"},
 
 "P8": P([
@@ -310,7 +312,7 @@ STIM = {
               {"t": "scrutiny", "d": "close examination"},
               {"t": "lay", "d": "not professional; ordinary citizens"},
               {"t": "statutory body", "d": "an official organization set up by law"},
-              {"t": "embryos", "d": "unborn humans at the earliest stage of development"},
+              {"t": "embryos", "d": "the earliest stage of development after an egg is fertilized"},
               {"t": "surrogacy", "d": "an arrangement in which a woman carries a baby for another couple"}]),
 
 "P10": P([

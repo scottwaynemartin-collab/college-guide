@@ -1,0 +1,401 @@
+ChatGPT Pro review of the Unit 9 bank (v2026-11-09c export)
+Source: https://chatgpt.com/c/6af14b09-1064-83ea-b7ad-4946a0f619b9 (Chrome tab 1294094620), read 2026-11-08 via get_page_text. "Worked for 14m 1s". Web-citation chips shown in the page are kept as plain source names on their own lines.
+
+ChatGPT said:
+
+I reviewed all 73 items, including the sources, glossaries, explanations, why-not lines, hints, rationales, and source notes. I found no clear key-letter reversal, but E9-P29 and E9-P39 need repairs because another answer is defensible as written. The main remaining weaknesses are factual overstatements in supporting text, easily eliminated distractors, and missing cultural content.
+
+Unless specified, retain the existing key and unchanged wording.
+
+MUST-FIX
+1. E9-P29 — A also fits "workers … from third countries"
+
+Americans working in the Community qualify as workers from outside it. The explanation's claim that Americans were not targets of anti-immigrant violence does not resolve that category problem.
+
+Replace A:
+
+Italians who moved to West Germany to take industrial jobs
+
+Replace why not A:
+
+Italy belonged to the European Community in 1986. Italian workers therefore came from another member state, not a "third country."
+
+Replace why not C:
+
+These soldiers were deployed troops, not civilian labor migrants. East Germany was also outside the European Community.
+
+Keep D.
+
+2. E9-P39 — The treaty allowed alliance choice, not exclusively NATO membership
+
+Article 6's wording could also permit joining another alliance. Ask what Germany actually did. The existing C also creates ambiguity about Soviet weapons temporarily remaining on German territory.
+
+Replace the stem:
+
+After reunification, Germany exercised the right recognized in Article 6 by choosing to
+
+Replace C:
+
+produce nuclear weapons of its own
+
+Replace why not B:
+
+Germany remained in NATO rather than joining the Warsaw Pact, which dissolved in 1991.
+
+Replace why not C:
+
+Germany continued its commitment not to manufacture or control nuclear weapons. The treaty reaffirmed that commitment.
+
+Keep A.
+
+3. Source P5 / E9-P13–E9-P15 — Zentralbild attribution is anachronistic
+
+Zentralbild did not become ADN's photographic department until 1956. The photograph dates to 1952.
+bundesarchiv.de
+
+Make these replacements in the attribution, caption, glossary, and source notes:
+
+Agency description: "Zentralbild, an East German photo agency"
+Caption sentence: "It was distributed by Zentralbild, an East German photo agency."
+Glossary: "Zentralbild = an East German photo agency"
+E9-P14 stem: "Given its context, Zentralbild most likely released the photograph and its caption in order to"
+E9-P14 explanation: "Both sides used propaganda in the Cold War. Zentralbild used this photo to attack the Marshall Plan. Its caption contrasted new hotels and banks with the huts where some people still lived."
+4. Source X5 / E9-E13–E9-E15 — An authentic quotation contains a mistaken contemporary claim
+
+The declaration genuinely names East Germany among the invading countries. Preserve the quotation, but distinguish its claim from established history: East German combat divisions did not enter Czechoslovakia.
+Bundesarchiv
+
+Add below Source 1:
+
+Editor's note: The declaration lists East Germany among the invading states. East Germany supported the operation, but its combat divisions did not enter Czechoslovakia.
+
+Replace E9-E13 rationale B:
+
+Source 1 describes a Soviet-led invasion. Source 2 blames unnamed Western powers and opponents of communist rule. Neither presents the contrast described in B.
+
+5. E9-E13 — "The only request" is incorrect
+
+The Czech archive documents both the five-signature invitation and a separate letter from Antonín Kapek.
+Archiv bezpečnostních složek
+
+Replace the explanation's final two sentences:
+
+The Czechoslovak government had not requested the invasion. Some pro-Soviet party officials had secretly asked Moscow for help, including in a letter signed by five officials and a separate letter from Antonín Kapek.
+
+6. E9-E18 — The table does not show slower post-1970 growth for every Western country
+
+Using the displayed figures, Britain's annual growth averages approximately 2.21% in 1950–1970 and 2.24% in 1970–1989. France and Italy show the stated slowdown.
+
+Replace the stem:
+
+The slower growth shown for France and Italy after 1970, compared with 1950–1970, was part of a wider economic change that contributed most directly to which of the following?
+
+Keep D.
+
+7. Supporting-text corrections
+Item/source | Problem and exact replacement
+E9-P21 — why not D | Immigration does not necessarily raise a country's fertility rate; arriving children are not new births. Replace: "The arrival of children born abroad does not itself count as births in this rate. The table gives no evidence that immigration caused the decline."
+DataBank
+
+E9-P22 — why not A | The ruling did not eliminate national authority over pay legislation. Replace: "Member states could make their own pay laws, but those laws had to respect the Community's equal-pay requirement."
+eur-lex.europa.eu
+
+E9-P27 — why not B | The 1857 law did not first legalize divorce throughout Britain. Replace: "IVF did not establish divorce rights. The 1857 Matrimonial Causes Act created a civil divorce court in England and Wales; divorce had been possible earlier."
+UK Parliament
+
+E9-P32 — explanation, first sentence | Green political organization began before the late 1970s. Replace: "Green parties became more influential during the 1970s and 1980s."
+Coventry Green Party
+
+E9-P33 — why not D | The Green movement did not simply begin after this 1973 document. Replace: "The Green movement shared the passage's concern about environmental damage. It did not treat economic growth as the only measure of progress."
+Coventry Green Party
+
+E9-P35 — explanation | Cross-border television predates the 1980s. Replace: "Satellite and cable television expanded in the 1980s, making programs from other countries more widely available. This growth encouraged the Community to adopt shared broadcasting rules." Replace why not B: "Mass household Internet access spread after this 1989 directive." Replace why not D: "Television existed before World War II, but its later expansion through satellite and cable networks created the market addressed by this directive."
+EBU
+
+E9-P43 — why not D | The ruble area survived the USSR's dissolution. Replace: "Several former Soviet republics kept using the ruble after 1991. That currency area largely broke apart in 1993. The euro was a separate EU project."
+WP/01/101
+
+E9-P46 — explanation, first sentence | The approximately 3,500 deaths did not all occur inside Northern Ireland. Replace: "From the late 1960s through the 1990s, about 3,500 people were killed in the Troubles, mostly in Northern Ireland but also elsewhere."
+extracts from Sutton's book
+
+E9-E15 — option B and rationale B | SALT I produced an ABM treaty and an interim agreement, not one general "SALT I treaty." Replace B: "the superpowers signed the SALT I arms-control agreements in 1972." Replace rationale B: "The SALT I agreements limited certain strategic weapons systems. They did not end Soviet control over Eastern Europe."
+Office of the Historian
+
+E9-E23 — rationale B | Soviet criminalization concerned sexual relations between men, not homosexuality indiscriminately. Replace: "In 1934, Soviet law made sexual relations between men a crime. Soviet policy did not provide the equal-rights protections described in the Charter."
+Wiley Online Library
+
+E9-E24 — rationale D | Environmental legislation predates modern Green parties. Replace: "Industrialization created long-term pollution problems, and some laws addressed pollution before modern Green parties formed. Article 37 more directly reflects the later growth of environmental movements." Alternatively, use the stronger distractor replacement below, which removes this rationale entirely.
+
+Source X2 / E9-E04–E9-E06 — glossary | The 1947 allegiance concerned the shared monarch as head of state; the later Commonwealth arrangement dates to 1949. Replace: "allegiance to the Sovereign = loyalty to the monarch, then the shared head of state of Britain and the Dominions."
+Commonwealth
+
+Source X3 / E9-E07–E9-E10 — glossary | The Commons is one chamber of Parliament. Replace: "the House = the House of Commons, the elected chamber of the United Kingdom's Parliament."
+UK Parliament
+
+Source P11 / E9-P31–E9-P33 — source-note locator | The numbered principles appear under Title II. Replace: "Part I, Introduction and Title II, principles 3, 5, 6, and 11; Official Journal C 112, pp. 5–7."
+eur-lex.europa.eu
+
+Source notes — "Not used" entry for Rome/Single European Act | English text of the Single European Act is available in EUR-Lex. Replace: "The Treaty of Rome (1957) and the Single European Act (1986): English texts were not retrieved for use in this bank."
+EUR-Lex
+
+SHOULD-FIX
+A. Data labels and interpretations
+
+Source P7 / E9-P19–E9-P21: The title suggests actual completed family size.
+
+Replace title:
+
+Total Fertility Rates in Selected European Countries, 1960–2023 (births per woman)
+
+Replace the replacement-level sentence:
+
+Where most children survive to adulthood, a sustained rate near 2.1 replaces each generation over the long run if migration is excluded.
+
+E9-P21 — why not A: Avoid claiming that all countries' baby booms ended on the same schedule.
+
+World War II ended well before most of the decline shown here. Postwar baby booms also varied by country.
+
+Source X6 / E9-E16–E9-E18: GDP per capita is not the same as people's actual average income. Replace the title with:
+
+Real GDP per Person in Selected European Countries, 1950–1989
+
+Replace "income per person" with "GDP per person" throughout these items. Replace the table note with:
+
+GDP per person measures the value of goods and services produced in a year divided by the population. It is not the amount each person earns. Figures are in 2011 international dollars, adjusted for price differences between countries and rounded to the nearest 100.
+
+E9-E17: Rounded equality does not establish literal zero change. The underlying Polish values are 9,149 and 9,060.
+rug.nl
+
+Explanation: Replace "Poland's did not grow at all" with "Poland's GDP per person changed little."
+Rationale A: "Poland's figures both round to $9,100. They show almost no change, rather than the fastest growth."
+
+B. Improve reasoning and avoid overstatement
+Item/source | Exact replacement
+E9-P02 — why not C | "China was outside Soviet control, so this event does not show whether Gorbachev allowed Soviet allies to choose their own governments."
+E9-P07 — why not B | "Bevan argues that cost keeps people from seeking care. Howe blames taxes and government interference for weak economic growth."
+E9-P09 — stem, A, explanation | The existing key makes Marshall aid sound like the distinction from Britain, which also received it. Stem: "Which postwar development helped France and West Germany achieve the economic gains described by Howe?" A: "Industrial investment and expanding trade within the Common Market." Explanation: "France and West Germany invested in factories and new technology. The Common Market lowered trade barriers and opened larger markets. Britain also received Marshall Plan aid, but it did not join the European Community until 1973."
+Source P4 / E9-P10–E9-P12 — footnote | The quoted "whole of Western Europe" is overbroad. Add: "Here, the nuclear umbrella refers to U.S. protection of NATO allies. Several Western European states remained outside NATO."
+Source P9 / E9-P25–E9-P27 — glossary | Replace the morally loaded definition with: "embryos = organisms in an early stage of development after fertilization."
+E9-P25 — C | The law could regulate practices without settling moral disagreement. Replace: "New fertility techniques raised moral questions that called for public debate and legal rules."
+E9-P28 — why not D | Replace the vague claim that free movement arrived "after 1989" with: "The Soviet government still restricted emigration in 1986. Restrictions eased in the late 1980s, but they did not disappear in 1989."
+E9-P40 — D and explanation | The source blames central policy broadly, not exclusively perestroika. D: "Moscow's handling of economic reform and demands for national autonomy." Explanation: "The leaders blame the Soviet government for economic hardship and rising national conflict. They use those problems to justify a new association of independent states."
+E9-E02 — rationales B and C | These cases do not necessarily refute Churchill's geographically qualified claim. B: "Finland remained a democracy. This does not provide evidence of communist dictatorships taking control in the countries Churchill discusses." C: "Austria regained sovereignty in 1955 and remained a democracy. This does not show communist parties taking control of Eastern European states."
+E9-E03 — explanation | Distinguish approval of transfers from approval of atrocities: "During and after World War II, millions of ethnic Germans fled or were expelled from Eastern Europe. At Potsdam, the Allies approved transfers from Poland, Czechoslovakia, and Hungary, requiring them to be orderly and humane. Many expulsions caused severe suffering and deaths."
+Office of the Historian
+
+E9-E08 — stem | Require use of both sources: "Which goal expressed in Source 2 would Thatcher most likely have opposed, based on her remarks in Source 1?"
+E9-E12 — rationale D | "A government press photo would not attack employers" teaches an invalid rule about sources. Replace: "The photograph presents a clean, busy workplace and smiling workers. It gives no information about wages or evidence of a complaint against employers."
+
+E9-E22 — Narrow the stem to the provision that B specifically explains. Article 3 covers several distinct issues; the current rationales make sweeping claims about what contraception and medicine did not raise.
+
+New stem:
+
+The ban on reproductive cloning in Article 3 is best understood in the context of
+
+New rationales:
+
+A: "Birth control prevents pregnancy; it does not create a genetic copy of a person."
+C: "Penicillin treats bacterial infections; it does not copy genetic material."
+D: "AIDS raised concerns about public health and discrimination, rather than the cloning of human beings."
+
+C. Replace especially weak distractors
+
+These are the clearest cases where students can answer through dates, attribution, or obviously invented events.
+
+E9-P11 — Only D addresses Soviet interference with aid
+
+Keep the stem and D. Replace:
+
+A: "Communist parties in several European states joined the Soviet-backed Cominform in 1947."
+B: "The Soviet Union supported the communist takeover of Czechoslovakia in 1948."
+C: "The Soviet Union established COMECON to coordinate Eastern European economies in 1949."
+
+Replacement why-not lines:
+
+A: "Cominform coordinated Communist parties. Its creation does not directly show restrictions on accepting Marshall Plan aid."
+B: "The takeover shows Soviet influence, but not direct interference with Marshall Plan participation."
+C: "COMECON shows economic coordination within the Soviet bloc, but does not directly prove that states were barred from accepting U.S. aid."
+
+E9-P17 — The attribution eliminates A and C; B reverses Kádár's identity
+
+Replace the choices:
+
+A: "His government faced economic shortages after the fighting."
+B: "His government claimed that Hungary controlled its own internal affairs."
+C: "His government included officials who had also served in Nagy's administration."
+D: "His government depended on the Soviet intervention that displaced Nagy."
+
+Replacement why-not lines:
+
+A: "Economic shortages do not explain why Kádár denied Nagy's right to speak for Hungary."
+B: "Claiming control of internal affairs does not establish which government had legitimate authority."
+C: "Shared officials did not remove Kádár's interest in defending the Soviet-backed change of government."
+
+E9-P20 — Difficulty comes from obscure national-policy recall
+
+The Hungarian policy dates are sound. Make the task an inference from the trend.
+
+Stem:
+
+Which type of government policy would most likely help explain Hungary's different fertility trend between 1965 and 1975?
+
+A: "Expanding access to contraception through public health services"
+B: "Encouraging longer periods of education before marriage"
+C: "Increasing family payments while limiting access to abortion"
+D: "Reducing paid leave for parents of young children"
+
+Key C; change difficulty to medium. Retain the factual explanation.
+
+Why-not lines: A: "Greater access to contraception generally made avoiding or delaying births easier." B: "Longer education before marriage often delayed childbearing." D: "Less paid leave would make caring for young children harder for many workers."
+
+E9-P24 — Distractors should concern the actual legal issue
+
+Keep B. Replace:
+
+A: "National courts would lose authority to apply Community law to private employers."
+C: "Member states would have to eliminate differences in wage levels between their national economies."
+D: "National parliaments would gain final authority to interpret Community treaties within their borders."
+
+Why-not lines: A: "National courts could apply the treaty's equal-pay rule." C: "The ruling did not require the same wage in every member state." D: "The ruling made a Community treaty right enforceable in national courts, limiting national discretion."
+
+E9-P27 — The other choices are unrelated achievements or absolute claims
+
+Keep C. Replace:
+
+A: "expanding married women's legal rights to own property"
+B: "removing legal barriers to admission to universities"
+D: "increasing women's representation in elected office"
+
+Why-not lines: A: "Property rights changed through legal reforms, not fertility treatment." B: "University access expanded through laws and social changes, not IVF." D: "Political representation changed through voting rights, party policies, and activism. IVF chiefly affected reproduction."
+
+These replacements also remove the faulty divorce rationale.
+
+E9-P45 — Two fabricated events and a pre-euro event make D obvious
+
+Replace the options:
+
+A: "the EU's admission of several former communist states in 2004"
+B: "Britain's decision to leave the EU after its 2016 referendum"
+C: "disputes over admitting refugees to EU states in 2015"
+D: "the Greek debt crisis and rescue loans beginning in 2010"
+
+Explanation:
+
+Euro members could not set separate national interest rates or devalue a national currency. In 2010 Greece lost access to affordable borrowing and received rescue loans. The conditions included spending cuts.
+
+Why-not lines: A: "EU membership did not require immediate euro adoption." B: "Britain kept the pound, so its withdrawal did not demonstrate a problem caused by sharing the euro." C: "These disputes concerned migration and borders rather than a shared currency."
+
+The first Greek assistance agreement was in May 2010, so "beginning in 2010" is more precise than "after 2010."
+European Commission
+
+E9-P48 — Long key, invented alternatives, and an oversimplified comparison
+
+Replace the whole item:
+
+Which feature most clearly distinguishes the Northern Ireland peace process from the settlements in Bosnia and Kosovo in the 1990s?
+
+A. Outside governments played important diplomatic roles.
+B. The settlements sought to protect different ethnic or religious communities.
+C. Negotiations helped establish a new political framework.
+D. An agreement was reached without NATO military intervention.
+
+Key D. Explanation:
+
+The Good Friday Agreement followed multiparty talks and was approved in referendums in 1998. The settlements in Bosnia in 1995 and Kosovo in 1999 followed NATO air campaigns as well as diplomacy.
+
+Why-not lines: A: "Outside governments supported negotiations in all three cases." B: "Protecting different communities was a goal in all three cases." C: "Negotiations and new political arrangements played roles in all three cases."
+
+E9-E01 — Replace invented events with plausible postwar contexts
+
+Keep C. Replace:
+
+A: "plans to rebuild the economies of defeated Axis states"
+B: "debates over independence movements in Europe's overseas empires"
+D: "efforts to prosecute Nazi leaders for war crimes"
+
+Rationales: A: "Churchill focuses on political control and forced migration rather than reconstruction." B: "This passage concerns Europe rather than overseas independence." D: "Churchill discusses Europe's governments and borders rather than war-crimes trials."
+
+E9-E06 — Replace the three implausible alternatives
+
+Keep D. Replace:
+
+A: "migration from southern Europe to Britain under European Community labor rules"
+B: "the recruitment of Italian workers by West German employers"
+C: "the settlement of displaced Europeans in Britain after World War II"
+
+Rationales: A: "These rules arose from European integration, not Commonwealth ties." B: "This recruitment depended on agreements between Italy and West Germany." C: "This movement resulted from wartime displacement rather than Britain's ties with India and Pakistan."
+
+E9-E20 — Attribution alone eliminates A–C
+
+Keep D. Replace:
+
+A: "It used international law to describe actions during a civil war."
+B: "It addressed political leaders rather than the soldiers who fought in the war."
+C: "It discussed violence in several parts of the former Yugoslavia."
+
+Rationales: A: "Using international law does not by itself explain how the authors' position could shape their account." B: "Audience matters, but the authors' own involvement is more directly relevant here." C: "Geographic scope does not explain the limits of an organization reviewing its own decisions."
+
+E9-E24 — Only the key currently concerns environmental politics
+
+Keep C. Replace:
+
+A: "social democratic campaigns to expand public welfare"
+B: "conservative campaigns to reduce state regulation"
+D: "business campaigns to lower barriers to trade"
+
+Rationales: A: "Welfare campaigns focused on income support and public services." B: "Campaigns for less regulation did not directly produce a requirement for stronger environmental protection." D: "Lowering trade barriers concerns economic exchange; Article 37 establishes an environmental goal."
+
+D. Correct skill tags
+
+These changes follow what the questions actually ask, rather than automatically copying a topic's suggested skill.
+apcentral.collegeboard.org
+
+Item IDs | Replacement
+E9-P10, E9-P29, E9-E14 | Skill 1.A
+E9-P22 | Skill 3.A
+E9-E03 | Skill 1.A; delete Causation
+E9-E16 | Skill 5.B · Causation
+E9-P32, E9-P42, E9-E10 | Skill 5.A · Continuity and Change
+
+E. Major coverage gaps
+
+BANK / Topic 9.14: Fertility data and LGBTQ rights do not cover the missing philosophy, arts, religion, and youth protest content. BANK / Topics 9.3–9.4: Proxy wars and the international financial system receive little meaningful assessment; appearing as wrong answers does not fill that gap. These are substantive omissions against the Fall 2026 framework.
+apcentral.collegeboard.org
+
+Use these exact revision instructions:
+
+Add a post-1945 cultural source set assessing existentialism or postmodernism and a postwar artistic development. Add assessed coverage of the Second Vatican Council and Christian responses to communist rule. Keep these distinct from demographic data and civil-rights campaigns.
+
+Add a source-based question on U.S. and Soviet support for opposing sides in a conflict outside Europe, and a question distinguishing the postwar roles of the International Monetary Fund and World Bank.
+
+Two existing questions can address additional gaps without adding sources:
+
+Replace E9-P12 to assess détente:
+
+Which development in the 1970s represented an effort to reduce the nuclear risks of the military rivalry described in the passage?
+
+A. Soviet military intervention in Afghanistan
+B. Superpower support for rival forces in Angola
+C. The development of missiles carrying several nuclear warheads
+D. U.S.–Soviet agreements limiting strategic nuclear weapons
+
+Key D. Explanation: "During détente, the superpowers tried to reduce tensions while continuing to compete. The 1972 SALT I agreements limited some nuclear weapons systems. They did not end the arms race."
+
+Why-not lines: A: "The invasion intensified Cold War tensions." B: "Support for opposing forces extended the rivalry." C: "Multiple-warhead missiles increased nuclear capabilities rather than placing negotiated limits on them."
+
+Replace E9-P33 to assess the Western European protests of 1968:
+
+Which demand of many European student protesters in 1968 most closely resembled the passage's argument?
+
+A. Less emphasis on consumer goods and greater attention to personal freedom
+B. Stronger executive leadership and greater national prestige
+C. Higher industrial output through centralized state planning
+D. Faster economic growth through closer integration of European markets
+
+Key A. Tag: Topic 9.14 · LO O · Skill 5.A · Comparison.
+
+Explanation: "Many student protesters challenged consumerism and traditional authority. Like the passage, they questioned whether producing and buying more goods was enough to make society better."
+
+Why-not lines: B: "This emphasizes state authority and prestige rather than criticism of consumer society." C: "This makes higher production the main goal." D: "This emphasizes faster growth rather than questioning growth as the measure of progress."
+
+ChatGPT can make mistakes. Check important info.

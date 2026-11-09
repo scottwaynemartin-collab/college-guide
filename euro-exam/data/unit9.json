@@ -4,7 +4,7 @@
  "period": "c. 1914–present",
  "examWeighting": "10–15%",
  "blurb": "The Cold War division of Europe and its end, rebuilding and the welfare state, the revolts in the Soviet bloc, decolonization, European integration, migration, feminism, technology, globalization, and culture from 1914 to the present.",
- "version": "2026-11-09c",
+ "version": "2026-11-09d",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 9: Learning Objectives A-P).",
  "topics": [
   {
@@ -200,7 +200,7 @@
     },
     {
      "t": "allegiance to the Sovereign",
-     "d": "loyalty to the British king or queen as head of the Commonwealth"
+     "d": "loyalty to the king, who was head of state of Britain and of each Dominion"
     }
    ]
   },
@@ -231,7 +231,7 @@
       },
       {
        "t": "the House",
-       "d": "the House of Commons, Britain's elected parliament"
+       "d": "the House of Commons, the elected chamber of Britain's Parliament"
       },
       {
        "t": "Council of Ministers",
@@ -296,12 +296,18 @@
     {
      "label": "Source 1",
      "paragraphs": [
-      "On 20 August, around 11 p.m., the troops of the Union of Soviet Socialist Republics, Polish People's Republic, Hungarian People's Republic, Bulgarian People's Republic and German Democratic Republic crossed the state borders of the Czechoslovak Socialist Republic. This happened without the knowledge of the President of the Republic, the Chairman of the National Assembly, the Prime Minister, the First Secretary of the Central Committee of the Communist Party of Czechoslovakia, or those organs. …",
+      "On 20 August, around 11 p.m., the troops of the Union of Soviet Socialist Republics, Polish People's Republic, Hungarian People's Republic, Bulgarian People's Republic and German Democratic Republic* crossed the state borders of the Czechoslovak Socialist Republic. This happened without the knowledge of the President of the Republic, the Chairman of the National Assembly, the Prime Minister, the First Secretary of the Central Committee of the Communist Party of Czechoslovakia, or those organs. …",
       "The Presidium of the Central Committee of the Communist Party of Czechoslovakia called upon all citizens of the Czechoslovak Socialist Republic to maintain calm and not to resist the advancing troops, because the defence of our state sovereignty by force was impossible at that time.",
       "Therefore, the Czechoslovak Army, People's Militia and public security did not receive the order to defend our country. The Presidium of the Central Committee of the Communist Party of Czechoslovakia considers this act as contrary not only to principles of relations among socialist States but also to the fundamental norms of international law."
      ],
      "attribution": "Declaration of the leaders (the Presidium) of the Communist Party of Czechoslovakia, issued in Prague early on August 21, 1968, and read to the United Nations Security Council the same day by Jan Muzík, Czechoslovakia's deputy representative at the United Nations",
-     "translation": "Text from United Nations, Security Council Official Records, 1441st meeting (August 21, 1968), document S/PV.1441, para. 137; adapted"
+     "translation": "Text from United Nations, Security Council Official Records, 1441st meeting (August 21, 1968), document S/PV.1441, para. 137; adapted",
+     "footnotes": [
+      {
+       "mark": "*",
+       "text": "East Germany (the German Democratic Republic) helped plan the invasion, but at the last moment its combat troops were held back. They did not enter Czechoslovakia."
+      }
+     ]
     },
     {
      "label": "Source 2",
@@ -339,7 +345,7 @@
   },
   "X6": {
    "type": "table",
-   "title": "Average Income per Person in Selected European Countries, 1950–1989",
+   "title": "GDP per Person in Selected European Countries, 1950–1989",
    "columns": [
     "Country",
     "1950",
@@ -406,7 +412,7 @@
      "11,300"
     ]
    ],
-   "text": "The figures are gross domestic product (GDP) per person, a measure of the average value of goods and services produced per person each year. They are given in U.S. dollars of the year 2011, adjusted for differences in prices between countries, and rounded to the nearest 100. Figures for the communist countries are later estimates by economists.",
+   "text": "GDP (gross domestic product) per person is the value of all the goods and services a country produced in a year, divided by its population. It is not the same as the amount each person earned. Figures are in U.S. dollars of the year 2011, adjusted for differences in prices between countries, and rounded to the nearest 100. Figures for the communist countries are later estimates by economists.",
    "source": "Maddison Project Database, version 2023, by Jutta Bolt and Jan Luiten van Zanden (University of Groningen), table \"GDPpc\" (licensed CC BY 4.0)"
   },
   "X7": {
@@ -669,10 +675,16 @@
     "After the destruction of the Second World War, the nations of Europe struggled to rebuild their economies and ensure their security. The former required a massive influx of aid to help the war-torn landscapes re-establish industries and produce food, and the latter required assurances against a resurgent Germany or incursions from the Soviet Union. The United States viewed an economically strong, rearmed, and integrated Europe as vital to the prevention of communist expansion across the continent. … Soviet refusal either to participate in the Marshall Plan or to allow its satellite states in Eastern Europe to accept the economic assistance helped to reinforce the growing division between east and west in Europe.",
     "In 1947–1948, a series of events caused the nations of Western Europe to become concerned about their physical and political security and the United States to become more closely involved with European affairs. The ongoing civil war in Greece, along with tensions in Turkey, led President Harry S. Truman to assert that the United States would provide economic and military aid to both countries, as well as to any other nation struggling against an attempt at subjugation. A Soviet-sponsored coup in Czechoslovakia resulted in a communist government coming to power on the borders of Germany. Attention also focused on elections in Italy as the communist party had made significant gains among Italian voters. …",
     "… In 1952, the members agreed to admit Greece and Turkey to NATO and added the Federal Republic of Germany in 1955. West German entry led the Soviet Union to retaliate with its own regional alliance, which took the form of the Warsaw Treaty Organization and included the Soviet satellite states of Eastern Europe as members.",
-    "The collective defense arrangements in NATO served to place the whole of Western Europe under the American \"nuclear umbrella.\" …"
+    "The collective defense arrangements in NATO served to place the whole of Western Europe under the American \"nuclear umbrella.\"* …"
    ],
    "attribution": "Office of the Historian, U.S. Department of State, \"North Atlantic Treaty Organization (NATO), 1949,\" an online essay by the department's historians in the series Milestones in the History of U.S. Foreign Relations (undated; online since at least 2009; the series was retired in 2017)",
    "translation": "Text from history.state.gov (U.S. government work, public domain); adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "NATO's nuclear protection covered its member states. Some Western European countries, such as Sweden, Switzerland, and Ireland, stayed neutral and outside NATO."
+    }
+   ],
    "glossary": [
     {
      "t": "influx",
@@ -714,8 +726,8 @@
    "width": 800,
    "height": 536,
    "alt": "A black-and-white photograph of a large building under construction behind wooden scaffolding. In front stand billboards. The one at left shows a bear emblem and a shield with stars and stripes and the German words for the Berlin emergency program and the Marshall Plan. The one at right announces a new building for the Hotel Kempinski and lists building firms.",
-   "caption": "A large building is going up behind wooden scaffolding. On the left, a tall billboard shows the bear of Berlin's coat of arms and, below it, a shield with stars and stripes. Its German words read, \"Here work is being carried out in the Berlin emergency program with Marshall Plan …\" (the last words are hidden behind another sign). On the right, a second sign announces the \"new building of the Hotel Kempinski\" and its architect, and boards list the firms doing the work. The photograph was taken in West Berlin in February 1952. It was sent out by Zentralbild, the photo service of East Germany's state news agency. Zentralbild's caption complained that hotels, banks, and office buildings in West Berlin were going up with American money while many people still lived in huts, and that West Berlin's leaders served the Americans instead of rebuilding homes.",
-   "attribution": "Photograph of the building site of the Hotel Kempinski on the Kurfürstendamm, a main shopping street in West Berlin, released by Zentralbild, the photo service of the East German state news agency, February 1952",
+   "caption": "A large building is going up behind wooden scaffolding. On the left, a tall billboard shows the bear of Berlin's coat of arms and, below it, a shield with stars and stripes. Its German words read, \"Here work is being carried out in the Berlin emergency program with Marshall Plan …\" (the last words are hidden behind another sign). On the right, a second sign announces the \"new building of the Hotel Kempinski\" and its architect, and boards list the firms doing the work. The photograph was taken in West Berlin in February 1952. It was sent out by Zentralbild, an East German photo agency. Zentralbild's caption complained that hotels, banks, and office buildings in West Berlin were going up with American money while many people still lived in huts, and that West Berlin's leaders served the Americans instead of rebuilding homes.",
+   "attribution": "Photograph of the building site of the Hotel Kempinski on the Kurfürstendamm, a main shopping street in West Berlin, released by Zentralbild, an East German photo agency, February 1952",
    "credit": "Photographer unknown. Bundesarchiv (German Federal Archives), Bild 183-13498-0010, licensed CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), via Wikimedia Commons (file: Bundesarchiv Bild 183-13498-0010, Berlin, Marshallplan, Bau Hotel Kempinski.jpg). Sign and caption translated from German for this exam.",
    "description": "A black-and-white photograph of a construction site. Behind a forest of wooden scaffolding poles and planks, the concrete frame of a large building rises several stories. In the foreground on the left stands a tall billboard. At its top are the German words \"Hier werden Arbeiten im\" and a coat of arms with a black bear, the symbol of Berlin. Across the middle in large letters is \"Berliner Not-Programm\" (Berlin emergency program). Below that is a shield with stars and vertical stripes, and the words \"mit Marshall-Plan-\" followed by letters hidden behind a second sign. To the right stand rows of white boards listing building firms for steel windows, wooden windows, heating, plumbing, kitchens, and other work. A larger board reads \"Neubau Hotel Kempinski\" (new building, Hotel Kempinski) and names the architect, Paul Schwebes. Along the bottom edge is a strip with the archive number and the date, February 1952.",
    "glossary": [
@@ -729,7 +741,7 @@
     },
     {
      "t": "Zentralbild",
-     "d": "the photo service of East Germany's official news agency"
+     "d": "an East German photo agency (from 1956 part of East Germany's state news agency)"
     }
    ]
   },
@@ -792,7 +804,7 @@
   },
   "P7": {
    "type": "table",
-   "title": "Average Number of Children Born per Woman in Selected European Countries, 1960–2023",
+   "title": "Total Fertility Rates in Selected European Countries, 1960–2023 (births per woman)",
    "columns": [
     "Country",
     "1960",
@@ -867,7 +879,7 @@
      "1.20"
     ]
    ],
-   "text": "The figures are the total fertility rate: the average number of children a woman would have if she had children at each age at that year's rates. A rate of about 2.1 keeps a population the same size over time, not counting migration.",
+   "text": "The figures are the total fertility rate: the average number of children a woman would have if she had children at each age at that year's rates. Where most children live to adulthood, a rate of about 2.1, kept up over many years, replaces each generation, not counting migration.",
    "source": "World Bank, World Development Indicators, \"Fertility rate, total (births per woman)\" (SP.DYN.TFRT.IN), based on United Nations, Eurostat, and national estimates, October 2026 update (licensed CC BY 4.0)"
   },
   "P8": {
@@ -954,7 +966,7 @@
     },
     {
      "t": "embryos",
-     "d": "unborn humans at the earliest stage of development"
+     "d": "the earliest stage of development after an egg is fertilized"
     },
     {
      "t": "surrogacy",
@@ -1278,7 +1290,7 @@
    "explanation": "In June 1989 Poland held partly free elections. Solidarity won almost every seat it was allowed to run for. Gorbachev did not send troops. In August 1989 Tadeusz Mazowiecki of Solidarity became prime minister.",
    "whyNot": {
     "A": "Using troops against Lithuanians who wanted independence went against freedom of choice. It would challenge the argument, not support it.",
-    "C": "China was not under Soviet control. What China's leaders did tells us nothing about Soviet policy.",
+    "C": "China was outside Soviet control. So this event does not show whether Gorbachev let the Soviet Union's allies choose their own governments.",
     "D": "Yugoslavia was a communist country outside the Soviet bloc. Its wars grew out of conflict among its own peoples, not out of a Soviet decision."
    },
    "hint": "Which choices are about a country in the Soviet bloc? What did the Soviet Union do there?"
@@ -1395,7 +1407,7 @@
    "explanation": "Bevan wanted a universal health service, free to everyone and paid for by the public. Howe argued that high taxes and a large state were holding Britain back and that the state's role should shrink.",
    "whyNot": {
     "A": "Bevan says it is \"repugnant\" for hospitals to rely on private charity. Howe does not call for a new health service.",
-    "B": "Bevan blames the lack of money for doctors' bills, not the war. Howe blames high taxes and government interference.",
+    "B": "Bevan argues that cost keeps people from seeking care; he does not blame the war. Howe blames taxes and government interference for weak economic growth.",
     "D": "Howe attacks government planning of the economy. Bevan is talking about health care, not about who runs the economy."
    },
    "hint": "Compare what each speaker wants the government to do more of or less of.",
@@ -1431,15 +1443,15 @@
    "lo": "B",
    "skill": "5.B",
    "difficulty": "medium",
-   "stem": "The faster growth of France and West Germany that Howe describes is best explained by",
+   "stem": "Which of the following best explains the faster growth of France and West Germany that Howe describes?",
    "options": {
-    "A": "postwar rebuilding aided by the Marshall Plan and the new Common Market",
+    "A": "industrial investment and expanding trade within the Common Market",
     "B": "the colonial empires that France and West Germany kept after 1945",
     "C": "the reparations that Britain paid to France and Germany after the war",
     "D": "the absence of welfare programs in France and West Germany"
    },
    "answer": "A",
-   "explanation": "With Marshall Plan aid after 1948, West Germany and France rebuilt their industries, and the Common Market created in 1957 gave them a large market for their goods. West Germany's fast growth was called its economic miracle. Britain did not join the Common Market until 1973.",
+   "explanation": "After the war, France and West Germany invested heavily in new factories and machines. The Common Market, created in 1957, lowered trade barriers among its members and gave them a large market for their goods. West Germany's fast growth was called its economic miracle. Britain also received Marshall Plan aid, but it did not join the Common Market until 1973.",
    "whyNot": {
     "B": "West Germany had no colonies after 1945, and France was losing most of its empire in the 1950s and 1960s.",
     "C": "Britain paid no reparations. Germany, not Britain, was the defeated power.",
@@ -1453,7 +1465,7 @@
    "set": "P4",
    "topic": "9.1",
    "lo": "A",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "easy",
    "stem": "Truman's promise of aid described in the second paragraph is best understood as an early example of which U.S. policy?",
    "options": {
@@ -1480,19 +1492,19 @@
    "difficulty": "medium",
    "stem": "Which of the following provides the best evidence for the historians' claim that the Soviet Union would not \"allow its satellite states in Eastern Europe to accept the economic assistance\"?",
    "options": {
-    "A": "The Soviet Union joined the United Nations as a founding member with a veto in 1945.",
-    "B": "West Germany received Marshall Plan aid beginning in 1948.",
-    "C": "Britain and France received the largest amounts of Marshall Plan aid.",
+    "A": "Communist parties in several European states joined the Soviet-backed Cominform in 1947.",
+    "B": "The Soviet Union supported the communist takeover of Czechoslovakia in 1948.",
+    "C": "The Soviet Union set up COMECON to coordinate Eastern European economies in 1949.",
     "D": "Czechoslovakia and Poland refused Marshall Plan aid in 1947 under Soviet pressure."
    },
    "answer": "D",
    "explanation": "In July 1947 Czechoslovakia agreed to attend the Paris talks on the Marshall Plan. Then Stalin called its leaders to Moscow, and they pulled out. Poland also turned down the aid under Soviet pressure.",
    "whyNot": {
-    "A": "Joining the United Nations in 1945 says nothing about the Marshall Plan, which began in 1947–1948.",
-    "B": "This is about aid to West Germany. It says nothing about the Soviet satellites.",
-    "C": "This is about Western countries. It says nothing about what Moscow allowed its satellites to do."
+    "A": "The Cominform linked communist parties to Moscow. Its founding does not directly show that the satellites were kept from taking Marshall Plan aid.",
+    "B": "The takeover shows Soviet power over Czechoslovakia. But it is not about whether the country could accept Marshall Plan aid.",
+    "C": "COMECON was the Soviet answer to the Marshall Plan. But it does not directly show that the satellites were stopped from taking the aid."
    },
-   "hint": "Look for a choice about an Eastern European country and the Marshall Plan."
+   "hint": "The claim is about whether the satellites could accept economic aid. Which choice is directly about that?"
   },
   {
    "id": "E9-P12",
@@ -1548,7 +1560,7 @@
    "lo": "C",
    "skill": "2.B",
    "difficulty": "medium",
-   "stem": "Given its context, East Germany's news agency most likely released the photograph and its caption in order to",
+   "stem": "Given its context, Zentralbild most likely released the photograph and its caption in order to",
    "options": {
     "A": "portray American aid as serving the rich instead of ordinary Berliners",
     "B": "thank the United States for helping to rebuild both halves of the divided city of Berlin",
@@ -1556,9 +1568,9 @@
     "D": "show that East Germany had also received aid from the Marshall Plan"
    },
    "answer": "A",
-   "explanation": "Both sides used propaganda in the Cold War. East Germany's news agency used this photo to attack the Marshall Plan. It said the money built hotels and banks while people lived in huts.",
+   "explanation": "Both sides used propaganda in the Cold War. Zentralbild used this photo to attack the Marshall Plan. Its caption said the money built hotels and banks while some people still lived in huts.",
    "whyNot": {
-    "B": "East Germany's government was allied with the Soviet Union and opposed the Marshall Plan. Its caption attacks the aid instead of thanking anyone.",
+    "B": "Zentralbild worked in East Germany, whose government was allied with the Soviet Union and opposed the Marshall Plan. Its caption attacks the aid instead of thanking anyone.",
     "C": "East Germany wanted to stop its people from leaving for the West, not encourage them to work there.",
     "D": "East Germany received no Marshall Plan aid. The Soviet Union refused it for the whole Soviet bloc."
    },
@@ -1621,17 +1633,17 @@
    "difficulty": "hard",
    "stem": "A historian should be cautious about accepting Kádár's claim that Nagy's requests did not come from \"Hungary as a State\" mainly because",
    "options": {
-    "A": "Kádár's telegram was written many years after the events, when his memories had faded",
-    "B": "Kádár was an anti-communist leader who wanted Hungary to join NATO and the Western alliance",
-    "C": "Kádár's telegram was translated from Russian and may contain errors",
-    "D": "Kádár's government had just been installed by Soviet troops that were then crushing the revolt"
+    "A": "Kádár's government faced economic shortages after the fighting",
+    "B": "Kádár's government claimed that Hungary controlled its own internal affairs",
+    "C": "Kádár's government included officials who had also served under Nagy",
+    "D": "Kádár's government depended on the Soviet attack that had just pushed Nagy aside"
    },
    "answer": "D",
    "explanation": "On November 4, 1956, Soviet tanks attacked Budapest, and Kádár announced a new government backed by the Soviet Union. His telegram served Soviet aims by trying to keep the UN from acting. Nagy was later arrested and executed in 1958.",
    "whyNot": {
-    "A": "The telegram is dated November 4, 1956, the same week as the events.",
-    "B": "Kádár was a communist leader who governed Hungary as a Soviet ally until 1988. He kept Hungary in the Warsaw Pact.",
-    "C": "The UN record says the telegram's original text was in English."
+    "A": "Shortages do not explain why Kádár would deny that Nagy spoke for Hungary.",
+    "B": "This repeats Kádár's own claim. It does not explain why a historian should doubt it.",
+    "C": "Sharing some officials with Nagy's government does not make Kádár's claim more or less believable. What matters most is that his government owed its power to the Soviet attack."
    },
    "hint": "Think about how Kádár came to power and what his government needed from the world."
   },
@@ -1688,22 +1700,22 @@
    "topic": "9.14",
    "lo": "O",
    "skill": "5.B",
-   "difficulty": "hard",
-   "stem": "The change in Hungary's rate between 1965 and 1975 is best explained by",
+   "difficulty": "medium",
+   "stem": "Which type of government policy would most likely help explain Hungary's different trend between 1965 and 1975?",
    "options": {
-    "A": "the arrival of large numbers of migrant workers from Western Europe",
-    "B": "the Soviet invasion of 1956, which brought many Soviet families to Hungary",
-    "C": "government payments to mothers and new limits on abortion",
-    "D": "the end of communist rule and the return of the Catholic Church to influence"
+    "A": "expanding access to contraception through public health services",
+    "B": "encouraging longer periods of education before marriage",
+    "C": "increasing family payments while limiting access to abortion",
+    "D": "reducing paid leave for parents of young children"
    },
    "answer": "C",
    "explanation": "Communist Hungary worried about its low birth rate. From 1967 it paid mothers an allowance to stay home with young children. In 1973 it decided to limit abortion, starting in January 1974, and it raised family payments. Births rose for a few years. Policies like these, meant to raise the birth rate, are called pronatalist.",
    "whyNot": {
-    "A": "In this period, migrant workers moved from southern Europe and Turkey to Western Europe. They did not move from Western Europe to communist Hungary.",
-    "B": "The 1956 invasion came nearly ten years before the rise. It did not bring large numbers of Soviet families to settle in Hungary.",
-    "D": "Communist rule in Hungary ended in 1989, long after this rise."
+    "A": "Easier access to birth control makes it easier to avoid or delay having children. It would not raise the rate.",
+    "B": "Staying in school longer before marriage usually delays having children.",
+    "D": "Less paid leave would make caring for young children harder for working parents. It would not encourage more births."
    },
-   "hint": "Hungary's rate went up while most others went down. What could a government do to encourage people to have more children?",
+   "hint": "Hungary's rate went up while most others went down. Would each policy make people more likely or less likely to have children?",
    "reasoning": "Causation"
   },
   {
@@ -1723,9 +1735,9 @@
    "answer": "B",
    "explanation": "The birth control pill became available in many European countries in the 1960s. More women stayed in school and took paid jobs. Couples chose to have fewer children. Birth rates fell well below the baby-boom levels of the early 1960s.",
    "whyNot": {
-    "A": "War deaths came before 1945. The birth rate rose after the war in the baby boom and fell only from the mid-1960s.",
+    "A": "World War II ended in 1945, long before most of the fall shown in the table. Birth rates rose after the war in the baby boom.",
     "C": "Contraception became easier to get after 1960. France legalized the pill in 1967 and Britain offered it from 1961.",
-    "D": "Migrant families would have raised birth rates, not lowered them."
+    "D": "Families with many children could not explain a fall in the number of children born per woman. Children born abroad are not counted in a country's rate."
    },
    "hint": "Check the dates. Which choice describes a change that began in the 1960s and would lead to fewer births?",
    "reasoning": "Causation"
@@ -1735,7 +1747,7 @@
    "set": "P8",
    "topic": "9.10",
    "lo": "J",
-   "skill": "3.B",
+   "skill": "3.A",
    "difficulty": "medium",
    "stem": "According to the Court, one aim of Article 119 was to",
    "options": {
@@ -1747,7 +1759,7 @@
    "answer": "B",
    "explanation": "The Court gave two aims. The economic aim was fair competition: firms in states that paid women equally should not lose out to firms in states that did not. The social aim was to improve living and working conditions.",
    "whyNot": {
-    "A": "The Court says equal pay is part of \"the foundations of the Community.\" So states may not each set their own rules.",
+    "A": "The Court says equal pay is part of \"the foundations of the Community.\" So Article 119 set a common rule. States still made their own pay laws, but those laws had to respect equal pay.",
     "C": "The case is about a flight attendant who was paid less than men doing the same work. It is not about keeping women out of jobs.",
     "D": "The Court says Article 119 aims at \"social progress\" for workers. It does not tell women to leave paid work."
    },
@@ -1785,17 +1797,17 @@
    "difficulty": "medium",
    "stem": "The ruling best illustrates which challenge that membership in the European Community posed to its member states?",
    "options": {
-    "A": "Member states had to close their own national courts and send their cases to the Court of Justice.",
+    "A": "National courts could no longer apply Community law in cases against private employers.",
     "B": "Community law could force changes even where national laws lagged behind.",
-    "C": "Member states had to adopt a single currency before they could join the Community.",
-    "D": "Member states had to let the Community choose which immigrants they would admit."
+    "C": "Member states had to bring wages to one level across the Community.",
+    "D": "Member states had to let the Court of Justice write their labor laws."
    },
    "answer": "B",
    "explanation": "The Court said workers could use Article 119 in their own national courts. They could do so even before national laws changed. So Community law could override national rules. Some people saw this as a threat to national sovereignty.",
    "whyNot": {
-    "A": "National courts kept working. The case came to the European Court from a Belgian labor court, which then applied the ruling.",
-    "C": "There was no single currency in 1976. The euro was introduced in 1999.",
-    "D": "In the 1970s each member state still set most of its own rules for immigrants from outside Europe."
+    "A": "The ruling did the opposite. Workers could now use the equal-pay rule in their own national courts, even against private employers.",
+    "C": "The ruling was about equal pay for women and men doing the same work. It did not make wages the same in every member state.",
+    "D": "Member states still wrote their own labor laws. Those laws had to respect the equal-pay rule."
    },
    "hint": "What does the last paragraph say about the \"resistance\" of some member states?"
   },
@@ -1810,7 +1822,7 @@
    "options": {
     "A": "Doctors, not Parliament, should decide how new fertility treatments are used.",
     "B": "The Warnock committee's members agreed about surrogacy and embryo research.",
-    "C": "New fertility techniques raised moral questions that the law had to settle.",
+    "C": "New fertility techniques raised moral questions that called for debate and legal rules.",
     "D": "The government planned to ban fertility treatment and embryo research in Britain."
    },
    "answer": "C",
@@ -1855,17 +1867,17 @@
    "difficulty": "medium",
    "stem": "Technologies like the one described in the passage most directly affected women's lives by",
    "options": {
-    "A": "ending the need for women to work outside the home",
-    "B": "making divorce legal in Britain for the first time",
+    "A": "lowering the age at which most women had their first child",
+    "B": "making large families common again in Western Europe",
     "C": "giving some women more choices about motherhood",
-    "D": "giving women the right to vote in British elections"
+    "D": "reducing the number of women who took paid jobs"
    },
    "answer": "C",
    "explanation": "IVF and other new methods let some women who could not conceive have children. With the birth control pill, these tools gave women more choices about motherhood. They also caused moral debates.",
    "whyNot": {
-    "A": "Fertility treatment did not change women's need for paid work. The share of British women in paid jobs kept rising in the 1980s.",
-    "B": "Divorce had been legal in Britain since 1857, and a 1969 law made it easier.",
-    "D": "British women won the vote in 1918 and equal voting rights with men in 1928."
+    "A": "Women in Britain had their first child at older ages after the 1970s, not younger. IVF helped some older women become mothers.",
+    "B": "Families stayed small. Birth rates in Western Europe stayed low in the 1980s and 1990s.",
+    "D": "More British women took paid jobs in the 1980s, not fewer."
    },
    "hint": "What did the new technique offer couples who could not have children?",
    "reasoning": "Causation"
@@ -1889,7 +1901,7 @@
    "whyNot": {
     "B": "The wars in Yugoslavia began in 1991, five years after this declaration.",
     "C": "The end of empire led to more migration to Europe from former colonies, not less.",
-    "D": "The Soviet Union kept tight limits on emigration in 1986. Free movement came only after 1989."
+    "D": "The Soviet Union still kept tight limits on emigration in 1986. The limits eased only in the late 1980s."
    },
    "hint": "The declaration speaks of the \"growth of xenophobic attitudes, movements.\" What movements were growing in the 1980s?"
   },
@@ -1898,21 +1910,21 @@
    "set": "P10",
    "topic": "9.11",
    "lo": "L",
-   "skill": "1.B",
+   "skill": "1.A",
    "difficulty": "medium",
    "stem": "The workers who had their \"origins … in third countries\" most likely included",
    "options": {
-    "A": "Americans who had come to Europe to work for U.S. companies after 1945",
+    "A": "Italians who moved to West Germany to take industrial jobs",
     "B": "East Germans who had moved to the West after the Berlin Wall opened",
     "C": "Soviet soldiers stationed in East Germany under the Warsaw Pact",
     "D": "Turks and North Africans recruited to fill jobs during the boom of the 1960s"
    },
    "answer": "D",
-   "explanation": "West Germany signed deals to recruit workers from Turkey (1961), Morocco (1963), and Tunisia (1965). France drew many workers from Algeria and Morocco. Workers also came from Italy, Spain, Portugal, and Greece. Many stayed and brought their families.",
+   "explanation": "West Germany signed deals to recruit workers from Turkey (1961), Morocco (1963), and Tunisia (1965). France drew many workers from Algeria and Morocco. Many stayed and brought their families. In 1986 none of these four countries belonged to the Community.",
    "whyNot": {
-    "A": "Some Americans worked in Europe, but they were a small group and were not targets of anti-immigrant violence.",
+    "A": "Italy was a founding member of the European Community. Italian workers came from another member state, not from a \"third country.\"",
     "B": "The Berlin Wall opened in 1989, three years after this declaration. East Germans were also not foreigners under West German law.",
-    "C": "Soviet soldiers were not workers. Also, East Germany was not in the European Community."
+    "C": "These soldiers were troops sent by their government, not workers who had moved for jobs. Also, East Germany was not in the European Community."
    },
    "hint": "\"Third countries\" are countries outside the Community. Who came from outside to work in Western Europe during the boom years?"
   },
@@ -1967,7 +1979,7 @@
    "set": "P11",
    "topic": "9.13",
    "lo": "N",
-   "skill": "5.B",
+   "skill": "5.A",
    "difficulty": "medium",
    "stem": "In the following decades, ideas like those in the passage were taken up most strongly by which of the following?",
    "options": {
@@ -1977,7 +1989,7 @@
     "D": "Anti-immigrant nationalist parties"
    },
    "answer": "B",
-   "explanation": "Green parties grew up in the late 1970s and 1980s. West Germany's Greens first won seats in its parliament in 1983. They criticized consumerism and fought to protect the environment.",
+   "explanation": "Green parties began to form in the 1970s and grew stronger in the 1980s. West Germany's Greens first won seats in its parliament in 1983. They criticized consumerism and fought to protect the environment.",
    "whyNot": {
     "A": "Free-market conservatives such as Thatcher's Conservatives stressed growth, lower taxes, and fewer rules on business. The environment was not their main cause.",
     "C": "Communist governments in Eastern Europe built heavy industry and caused terrible pollution. Acid rain hurt forests in Czechoslovakia and Poland.",
@@ -1989,26 +2001,26 @@
   {
    "id": "E9-P33",
    "set": "P11",
-   "topic": "9.15",
-   "lo": "P",
+   "topic": "9.14",
+   "lo": "O",
    "skill": "5.A",
    "difficulty": "medium",
-   "stem": "The statement that \"economic expansion is not an end in itself\" marks a shift away from which earlier attitude?",
+   "stem": "Which demand of many European student protesters in 1968 most closely resembled the argument of the passage?",
    "options": {
-    "A": "the postwar idea that rising output and consumption were the measure of progress",
-    "B": "the Romantic belief that nature was a source of beauty and deep feeling",
-    "C": "the Enlightenment hope that human reason could improve people's lives",
-    "D": "the Green movement's call to protect forests from acid rain"
+    "A": "less focus on consumer goods and more personal freedom",
+    "B": "stronger executive leadership and greater national prestige",
+    "C": "higher industrial output through central state planning",
+    "D": "faster economic growth through closer European trade ties"
    },
    "answer": "A",
-   "explanation": "After 1945, governments judged success mostly by how much was made and bought. By the early 1970s, European leaders said that growth must also make life better and protect the environment.",
+   "explanation": "In 1968 students protested in France, West Germany, Italy, and other countries. Many attacked the consumer society and old-fashioned authority. Like the passage, they asked whether making and buying more goods really made life better.",
    "whyNot": {
-    "B": "The Romantics' love of nature is close to the passage's concern for the environment, not opposed to it.",
-    "C": "The passage shares this hope. It wants \"progress\" to be \"put at the service of mankind.\"",
-    "D": "The Green movement came later, in the late 1970s and 1980s, and it agreed with the passage."
+    "B": "In France the students protested against President de Gaulle's strong rule. Strong leadership and national prestige were de Gaulle's goals, not theirs.",
+    "C": "This makes producing more the main goal. The passage says that \"economic expansion is not an end in itself.\"",
+    "D": "This makes faster growth the main goal. The passage warns against judging growth \"from purely quantitative aspects.\""
    },
-   "hint": "Which choice describes an attitude that cared about growth but not about its cost to the environment?",
-   "reasoning": "Continuity and Change"
+   "hint": "What did the young protesters of 1968 criticize about the societies built after the war?",
+   "reasoning": "Comparison"
   },
   {
    "id": "E9-P34",
@@ -2048,11 +2060,11 @@
     "D": "the first public television broadcasts in the 1930s"
    },
    "answer": "C",
-   "explanation": "In the 1980s, satellites and cable networks began to carry TV programs across Europe's borders. People could watch channels from other countries. So the Community needed common rules.",
+   "explanation": "Satellite and cable television spread quickly in the 1980s. More people could watch channels from other countries. So the Community wanted common rules for broadcasts that crossed borders.",
    "whyNot": {
     "A": "Radio was invented in the 1890s. That was almost a hundred years before this directive about TV.",
     "B": "Most European homes went online only in the late 1990s and 2000s, after this 1989 directive.",
-    "D": "Early television in the 1930s reached only a few nearby viewers and did not cross borders."
+    "D": "Television began in the 1930s, but early stations reached only nearby viewers. The directive answers the later spread of satellite and cable TV."
    },
    "hint": "Check the date of the directive. Which technology was spreading across Europe at that time?",
    "reasoning": "Causation"
@@ -2134,19 +2146,19 @@
    "lo": "G",
    "skill": "1.B",
    "difficulty": "medium",
-   "stem": "Article 6 most directly allowed the united Germany to",
+   "stem": "After reunification, Germany used the right recognized in Article 6 by choosing to",
    "options": {
     "A": "remain a member of NATO",
     "B": "join the Warsaw Pact",
-    "C": "keep Soviet nuclear weapons on its soil",
+    "C": "become a neutral state outside both alliances",
     "D": "leave the European Community"
    },
    "answer": "A",
    "explanation": "West Germany had belonged to NATO since 1955. In July 1990 Gorbachev agreed that a united Germany could choose its own alliances, and it stayed in NATO.",
    "whyNot": {
-    "B": "The Warsaw Pact was the Soviet alliance. West Germany was a NATO member, and the Warsaw Pact itself dissolved in 1991.",
-    "C": "The treaty provided for Soviet troops to leave by the end of 1994. It did not let Germany keep Soviet weapons.",
-    "D": "The treaty says nothing about leaving the European Community. The united Germany stayed a leading member."
+    "B": "The Warsaw Pact was the Soviet alliance. Germany stayed in NATO, and the Warsaw Pact itself broke up in 1991.",
+    "C": "The Soviet Union at first wanted a united Germany to be neutral. Germany chose to stay in NATO instead.",
+    "D": "Article 6 is about military alliances. The united Germany stayed a leading member of the European Community."
    },
    "hint": "What did the Soviet Union most fear about a united Germany, and what did it finally accept in 1990?"
   },
@@ -2202,7 +2214,7 @@
    "set": "P14",
    "topic": "9.5",
    "lo": "E",
-   "skill": "5.B",
+   "skill": "5.A",
    "difficulty": "medium",
    "stem": "The \"conflicts between nationalities\" that the declaration mentions continued after 1991, most notably in",
    "options": {
@@ -2240,7 +2252,7 @@
    "whyNot": {
     "A": "The Marshall Plan ended in 1952 and created no currency. It did push European countries to work together.",
     "B": "The Coal and Steel Community of 1951 pooled coal and steel. It did not create a currency.",
-    "D": "The ruble zone broke up when the Soviet Union ended. The euro was a project of the European Union."
+    "D": "Several former Soviet republics kept using the ruble after 1991, until the ruble zone largely broke apart in 1993. The euro was a separate European Union project."
    },
    "hint": "Look at the date of the regulation and its talk of a \"third stage.\" Which choice is closest to it in time and purpose?"
   },
@@ -2276,17 +2288,17 @@
    "difficulty": "hard",
    "stem": "Which later development most clearly revealed a problem with sharing one currency?",
    "options": {
-    "A": "Britain's adoption of the euro in place of the pound sterling in 2002",
-    "B": "Germany's return to its old currency, the mark, after the 2008 financial crisis",
-    "C": "the collapse of the Soviet Union in 1991",
-    "D": "the debt crisis that forced Greece to seek rescue loans after 2010"
+    "A": "the EU's admission of several former communist states in 2004",
+    "B": "Britain's decision to leave the EU after its 2016 referendum",
+    "C": "disputes over admitting refugees to EU states in 2015",
+    "D": "the Greek debt crisis and rescue loans beginning in 2010"
    },
    "answer": "D",
-   "explanation": "Countries using the euro could no longer set their own interest rates. They could not change the value of their money either. In 2010 Greece could not pay its debts. In 2010 and 2011, Greece, Ireland, and Portugal needed rescue loans tied to harsh spending cuts.",
+   "explanation": "Countries using the euro could no longer set their own interest rates or lower the value of their own money. In 2010 Greece could no longer borrow at prices it could afford. In May 2010 it received rescue loans tied to harsh spending cuts. Ireland (2010) and Portugal (2011) also needed rescue loans.",
    "whyNot": {
-    "A": "Britain kept the pound and never adopted the euro.",
-    "B": "Germany has kept the euro since 1999. It never brought back the mark.",
-    "C": "The Soviet Union collapsed before the euro existed."
+    "A": "New members did not have to adopt the euro right away. Their joining the EU was not a problem caused by a shared currency.",
+    "B": "Britain kept the pound, so its decision to leave did not come from sharing the euro.",
+    "C": "These disputes were about migration and borders, not about a shared currency."
    },
    "hint": "What does a country give up when it stops using its own currency?",
    "reasoning": "Causation"
@@ -2306,7 +2318,7 @@
     "D": "the Cold War arms race"
    },
    "answer": "B",
-   "explanation": "From the late 1960s to the 1990s, about 3,500 people were killed in Northern Ireland. Republican and loyalist armed groups and British security forces were involved. This period is called the Troubles. The Good Friday Agreement tried to end it.",
+   "explanation": "From the late 1960s to the 1990s, about 3,500 people were killed in the Troubles, most of them in Northern Ireland. Republican and loyalist armed groups and British security forces were involved. This period is called the Troubles. The Good Friday Agreement tried to end it.",
    "whyNot": {
     "A": "The Irish War of Independence ended in 1921. Mowlam speaks of violence that the agreement of 1998 was meant to end.",
     "C": "The expulsion of Germans took place in Central Europe. It had nothing to do with Northern Ireland.",
@@ -2344,19 +2356,19 @@
    "lo": "P",
    "skill": "5.A",
    "difficulty": "hard",
-   "stem": "Unlike the wars in Bosnia and Kosovo in the 1990s, the conflict Mowlam describes",
+   "stem": "Which of the following most clearly distinguishes the peace process Mowlam describes from the settlements in Bosnia and Kosovo in the 1990s?",
    "options": {
-    "A": "ended after United Nations peacekeepers defeated the armed groups in battle",
-    "B": "ended when one side won a military victory over the other",
-    "C": "ended when Northern Ireland became an independent country",
-    "D": "ended through a negotiated deal that voters approved, without any NATO bombing"
+    "A": "Outside governments played important roles in the talks.",
+    "B": "The settlement tried to protect communities that had fought each other.",
+    "C": "Negotiations helped set up a new way of governing the region.",
+    "D": "An agreement was reached without NATO military intervention."
    },
    "answer": "D",
-   "explanation": "In May 1998, voters in both parts of Ireland approved the deal by large majorities. In Bosnia (1995) and Kosovo (1999), the fighting ended only after NATO bombing.",
+   "explanation": "The Good Friday Agreement came out of talks among the parties, and in May 1998 voters in both parts of Ireland approved it. In Bosnia (1995) and Kosovo (1999), peace came after NATO bombing as well as diplomacy.",
    "whyNot": {
-    "A": "UN peacekeepers did not fight in Northern Ireland. British troops were there, but the conflict ended through talks.",
-    "B": "Mowlam says \"compromises have been made\" so that \"everyone can be a winner.\" No side won the war.",
-    "C": "Under the principle of consent, Northern Ireland stayed in the United Kingdom."
+    "A": "Outside governments helped in all three cases. In Northern Ireland, the former U.S. senator George Mitchell chaired the talks.",
+    "B": "All three settlements tried to protect communities that had been in conflict.",
+    "C": "All three settlements set up new ways of governing after talks."
    },
    "hint": "How did the wars in Bosnia and Kosovo come to an end?",
    "reasoning": "Comparison"
@@ -2377,17 +2389,17 @@
     "difficulty": "medium",
     "stem": "Churchill's concerns in the passage are best understood in the context of",
     "options": {
-     "A": "Britain's decision to withdraw from the newly founded United Nations",
-     "B": "the Soviet Union's refusal to join the war against Nazi Germany",
+     "A": "plans to rebuild the economies of defeated Axis states",
+     "B": "debates over independence movements in Europe's overseas empires",
      "C": "disagreements among the wartime Allies over Eastern Europe",
-     "D": "the founding of NATO to defend Western Europe against the Soviet Union"
+     "D": "efforts to prosecute Nazi leaders for war crimes"
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. Britain helped found the United Nations in 1945. It held a permanent seat on the Security Council. It did not withdraw.",
-     "B": "Incorrect. The Soviet Union fought Nazi Germany from June 1941 until May 1945. Its armies took Berlin.",
+     "A": "Incorrect. Churchill talks about political control and the expulsion of Germans, not about rebuilding economies.",
+     "B": "Incorrect. The passage is about Europe, not about independence movements in colonies overseas.",
      "C": "Correct. Churchill speaks of \"divergencies of view\" among \"the victors\" about Eastern Europe. Britain and the United States wanted free elections there. Soviet troops held the region.",
-     "D": "Incorrect. NATO was founded in 1949, four years after this speech."
+     "D": "Incorrect. Churchill discusses governments and expulsions in Eastern Europe, not war-crimes trials."
     },
     "explanation": "At the end of World War II, the Allies disagreed about Poland and the rest of Eastern Europe. Soviet armies held the region. Communists there were taking power. Churchill warned that an \"iron curtain\" now divided Europe."
    },
@@ -2408,8 +2420,8 @@
     "answer": "A",
     "rationales": {
      "A": "Correct. Bulgaria's communists executed the opposition leader Nikola Petkov in 1947. Romania's king was forced to give up his throne that December. Poland's communists won rigged elections in 1947. Hungary's communists pushed out their rivals by 1949.",
-     "B": "Incorrect. Finland stayed a democracy, which would challenge Churchill's claim, not support it.",
-     "C": "Incorrect. Soviet troops left Austria in 1955, and it stayed a democracy. That would challenge the claim.",
+     "B": "Incorrect. Finland stayed a democracy. That gives no evidence of communists taking power in the region Churchill discusses.",
+     "C": "Incorrect. Austria regained full independence in 1955 and stayed a democracy. That gives no evidence of communists taking power in Eastern Europe.",
      "D": "Incorrect. The communist defeat in Greece shows the opposite of Churchill's claim. Greece stayed out of the Soviet bloc."
     },
     "explanation": "From 1945 to 1949, communist parties backed by the Soviet Union took power in the Balkans and Eastern Europe. They used rigged elections, arrests, and threats."
@@ -2419,7 +2431,7 @@
     "set": "X1",
     "topic": "9.5",
     "lo": "E",
-    "skill": "1.B",
+    "skill": "1.A",
     "difficulty": "medium",
     "stem": "Churchill's description of the expulsion of Germans best illustrates which postwar development?",
     "options": {
@@ -2435,8 +2447,7 @@
      "C": "Incorrect. Guest workers came to West Germany in the 1950s and 1960s to fill jobs. Churchill describes Germans being forced out in 1945.",
      "D": "Incorrect. Millions of East Germans moved west before the Berlin Wall went up in 1961. But Churchill describes something else: Germans driven out of Poland and Czechoslovakia."
     },
-    "explanation": "After World War II, Poland and Czechoslovakia expelled most of their German people. The Allies approved this at Potsdam. Millions lost their homes, and many died. It was one of the largest forced migrations in European history.",
-    "reasoning": "Causation"
+    "explanation": "During and after World War II, millions of Germans fled or were driven out of Poland, Czechoslovakia, and other states. At Potsdam the Allies agreed to the transfer of Germans from Poland, Czechoslovakia, and Hungary and said it should be orderly and humane. In fact, many expulsions were brutal, and many people died. It was one of the largest forced migrations in European history."
    },
    {
     "id": "E9-E04",
@@ -2493,16 +2504,16 @@
     "difficulty": "medium",
     "stem": "The ties between Britain and the new Dominions that Attlee hoped would continue contributed most directly to which later development?",
     "options": {
-     "A": "Britain's role as a founding member of the European Economic Community",
-     "B": "the end of immigration to Britain from Asia by 1950",
-     "C": "the resettlement of most British civil servants in India after 1947",
+     "A": "migration from southern Europe to Britain under European Community rules",
+     "B": "the arrival of Hungarian refugees in Britain after 1956",
+     "C": "the settlement of displaced Europeans in Britain after World War II",
      "D": "migration from India and Pakistan to Britain"
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. Britain did not help found the European Economic Community in 1957. It joined in 1973.",
-     "B": "Incorrect. Migration from South Asia to Britain grew in the 1950s and 1960s. It did not end.",
-     "C": "Incorrect. Some British officials stayed in India for a time when the new governments asked them to. Most went back to Britain.",
+     "A": "Incorrect. Britain joined the European Community only in 1973. Its rules on moving for work came from European unity, not from ties with India and Pakistan.",
+     "B": "Incorrect. Hungarian refugees fled Soviet rule after the 1956 revolution. Their arrival had nothing to do with Britain's ties with India and Pakistan.",
+     "C": "Incorrect. Displaced Europeans, such as Polish soldiers who fought for the Allies, settled in Britain because of the war. Ties with India and Pakistan had nothing to do with it.",
      "D": "Correct. The British Nationality Act of 1948 let citizens of Commonwealth countries, including India and Pakistan, enter Britain freely. Many came to fill jobs. The Commonwealth Immigrants Act of 1962 began to limit entry."
     },
     "explanation": "India and Pakistan stayed in the Commonwealth. Under a 1948 law, their citizens could move to Britain freely. Many came to work in factories, in hospitals, and on buses and trains. Large South Asian communities grew in British cities.",
@@ -2583,7 +2594,7 @@
     "set": "X3",
     "topic": "9.15",
     "lo": "P",
-    "skill": "5.B",
+    "skill": "5.A",
     "difficulty": "medium",
     "stem": "The disagreement shown in the two sources is most similar to which later development?",
     "options": {
@@ -2644,7 +2655,7 @@
      "A": "Correct. The photograph was made for the West German government's press office. Its cheerful, orderly scene shows the recruiting of foreign workers as a success.",
      "B": "Incorrect. In 1962 West Germany had more jobs than workers. The government was busy recruiting foreign workers.",
      "C": "Incorrect. The government wanted the workers to stay and work. The smiling, busy women send no message to go home.",
-     "D": "Incorrect. A government press photo would not attack employers. The government's own program sent them these workers."
+     "D": "Incorrect. The photograph shows a clean, busy workplace and smiling workers. It gives no sign of low wages or of a complaint against the factory owners."
     },
     "explanation": "Governments use photographs to shape opinion. This photo from the government's press office shows guest workers fitting in well. Later, after the slowdown of the 1970s, many guest workers faced hostility."
    },
@@ -2665,11 +2676,11 @@
     "answer": "C",
     "rationales": {
      "A": "Incorrect. Source 1 says the party leaders told citizens \"not to resist the advancing troops.\" Armed defense was impossible.",
-     "B": "Incorrect. Source 1 names the Soviet Union and four of its allies as the invaders. Source 2 blames \"imperialists\" and \"foreign powers hostile to socialism\" in general.",
+     "B": "Incorrect. Source 1 names the troops of the Soviet Union and its allies, not the United States. Source 2 blames \"imperialists\" and \"foreign powers hostile to socialism\" without naming West Germany.",
      "C": "Correct. Source 1 says the invasion \"happened without the knowledge\" of the country's leaders. Source 2 claims the troops came \"on the basis of a request by the Government of that State.\"",
      "D": "Incorrect. Unlike Hungary's Nagy in 1956, Dubček's government never said it would leave the Warsaw Pact. Source 1 does not say so either."
     },
-    "explanation": "Czechoslovakia's leaders said the invasion came without their knowledge and broke international law. The Soviet Union claimed that the government had asked for help. It had not. The only request was a secret letter from five pro-Soviet hard-liners.",
+    "explanation": "Czechoslovakia's leaders said the invasion came without their knowledge and broke international law. The Soviet Union claimed that the government had asked for help. It had not. A few pro-Soviet party leaders had secretly written to Moscow, most famously in a letter signed by five of them.",
     "reasoning": "Comparison"
    },
    {
@@ -2677,7 +2688,7 @@
     "set": "X5",
     "topic": "9.4",
     "lo": "D",
-    "skill": "1.B",
+    "skill": "1.A",
     "difficulty": "medium",
     "stem": "The argument in the last paragraph of Source 2 is most closely associated with which of the following?",
     "options": {
@@ -2705,14 +2716,14 @@
     "stem": "The policy defended in Source 2 was abandoned when",
     "options": {
      "A": "Nikita Khrushchev denounced Stalin's crimes in 1956",
-     "B": "the superpowers signed the SALT I treaty limiting nuclear missiles in 1972",
+     "B": "the superpowers signed the SALT I arms agreements in 1972",
      "C": "Gorbachev let Eastern European states go their own way in 1989",
      "D": "Poland's government declared martial law against Solidarity in 1981"
     },
     "answer": "C",
     "rationales": {
      "A": "Incorrect. Khrushchev's 1956 speech came before this source. Later that year he sent troops to crush the Hungarian Revolution.",
-     "B": "Incorrect. SALT I (1972) limited nuclear missiles. It did not change Soviet control over Eastern Europe.",
+     "B": "Incorrect. The SALT I agreements of 1972 limited some nuclear weapons. They did not change Soviet control over Eastern Europe.",
      "C": "Correct. Gorbachev let the revolutions of 1989 happen without sending troops. A Soviet spokesman joked that the Brezhnev Doctrine had become the Sinatra Doctrine. Frank Sinatra sang the song My Way, and now each country could go its own way.",
      "D": "Incorrect. Martial law in Poland in 1981 crushed Solidarity under Soviet pressure. It continued the policy instead of ending it."
     },
@@ -2724,7 +2735,7 @@
     "set": "X6",
     "topic": "9.2",
     "lo": "B",
-    "skill": "5.A",
+    "skill": "5.B",
     "difficulty": "medium",
     "stem": "During the period 1950 to 1970, the major factor explaining the trend in France and Italy was",
     "options": {
@@ -2737,10 +2748,10 @@
     "rationales": {
      "A": "Incorrect. Decolonization ended Europe's control of its colonies' wealth. Italy had lost its colonies after World War II.",
      "B": "Incorrect. France and Italy had market economies. France did some planning, but not Soviet-style central planning.",
-     "C": "Correct. Income per person in France more than doubled. In Italy it nearly tripled. Rebuilding after the war, cheap oil, and the Common Market of 1957 all helped both economies grow fast.",
+     "C": "Correct. GDP per person in France more than doubled. In Italy it nearly tripled. Rebuilding after the war, cheap oil, and the Common Market of 1957 all helped both economies grow fast.",
      "D": "Incorrect. France and Italy imported most of their oil. Oil was cheap until 1973, and that helped them grow."
     },
-    "explanation": "Western Europe's boom lasted from about 1950 to the early 1970s. Rebuilding, American aid, cheap oil, and freer trade in the Common Market all helped incomes rise fast.",
+    "explanation": "Western Europe's boom lasted from about 1950 to the early 1970s. Rebuilding, American aid, cheap oil, and freer trade in the Common Market all helped these economies grow fast.",
     "reasoning": "Causation"
    },
    {
@@ -2752,19 +2763,19 @@
     "difficulty": "medium",
     "stem": "Which conclusion about the period from 1980 to 1989 is best supported by the data?",
     "options": {
-     "A": "Poland's income per person grew faster than that of any other country shown.",
-     "B": "The income gap between the Western and the communist countries grew.",
-     "C": "Income per person in the Soviet Union fell below its 1970 level.",
+     "A": "Poland's GDP per person grew faster than that of any other country shown.",
+     "B": "The gap between the Western and the communist countries grew.",
+     "C": "GDP per person in the Soviet Union fell below its 1970 level.",
      "D": "The communist countries caught up with Britain by the end of the decade."
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. Poland's income stayed at $9,100. That was the weakest record in the table.",
+     "A": "Incorrect. Poland's figures for 1980 and 1989 both round to $9,100, so it barely changed. That was the weakest record in the table.",
      "B": "Correct. In 1980 France was about $14,400 ahead of Poland. By 1989 it was about $18,500 ahead. Britain's lead over the Soviet Union grew from about $10,400 to about $14,900.",
      "C": "Incorrect. The Soviet figure rose from $8,900 in 1970 to $11,300 in 1989.",
      "D": "Incorrect. In 1989 Britain's figure was $26,200. That was higher than the figure for any communist country shown."
     },
-    "explanation": "In the 1980s the Western economies grew. The communist economies grew slowly, and Poland's did not grow at all. This slowdown helped lead to Gorbachev's reforms and to the fall of communism in Eastern Europe in 1989.",
+    "explanation": "In the 1980s the Western economies grew. The communist economies grew slowly, and Poland's GDP per person barely changed. This slowdown helped lead to Gorbachev's reforms and to the fall of communism in Eastern Europe in 1989.",
     "reasoning": "Comparison"
    },
    {
@@ -2774,7 +2785,7 @@
     "lo": "F",
     "skill": "5.B",
     "difficulty": "hard",
-    "stem": "The slower growth of the Western European economies after 1970 compared with the 1950s and 1960s contributed most directly to which of the following?",
+    "stem": "The slower growth shown for France and Italy after 1970 was part of a wider slowdown in Western Europe in the 1970s. That slowdown contributed most directly to which of the following?",
     "options": {
      "A": "the creation of Britain's National Health Service",
      "B": "the founding of the European Coal and Steel Community",
@@ -2823,16 +2834,16 @@
     "difficulty": "medium",
     "stem": "Which of the following is most important for a historian to consider when using the passage as evidence about the fall of Srebrenica?",
     "options": {
-     "A": "It was written long after the events, when no witnesses were still alive.",
-     "B": "It was written by Bosnian Serb leaders to defend their own actions.",
-     "C": "It was written for the Serbian government and kept secret from the public.",
-     "D": "It was written by the UN Secretariat, which was judging its own past failures."
+     "A": "It was written about four years after the fall of Srebrenica.",
+     "B": "It discusses the war in Kosovo as well as the war in Bosnia.",
+     "C": "It was written in English, not in a language of the former Yugoslavia.",
+     "D": "Its UN authors were judging their own organization's failures."
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. The report came out in 1999, about four years after the massacre. Many witnesses were still alive.",
-     "B": "Incorrect. The report calls the Serb campaign \"mass murder.\" It was written by the UN Secretary-General.",
-     "C": "Incorrect. The report was sent to the UN General Assembly. It was published for all member states.",
+     "A": "Incorrect. Four years is a short time. Many witnesses and records were still available when the report was written.",
+     "B": "Incorrect. Mentioning Kosovo widens the report's lesson. It does not limit the report's value as evidence about Srebrenica.",
+     "C": "Incorrect. The language of the report does not change its point of view. What matters most is that the UN was judging its own actions.",
      "D": "Correct. The report was written by the UN's own leaders. It openly admits \"error\" and \"misjudgement.\" A historian should still compare it with other sources, such as court records and survivors' accounts."
     },
     "explanation": "Kofi Annan's report is unusual. In it, an organization judges its own mistakes. That makes it valuable. But the authors' point of view still shapes which failures they stress."
@@ -2868,19 +2879,19 @@
     "lo": "M",
     "skill": "4.B",
     "difficulty": "medium",
-    "stem": "Article 3, paragraph 2, is best understood in the context of",
+    "stem": "The ban on reproductive cloning in Article 3 is best understood in the context of",
     "options": {
      "A": "the development of the birth control pill in the 1950s and 1960s",
-     "B": "advances in genetics, such as the cloning of a sheep in Scotland in 1996",
+     "B": "advances in genetics, such as the birth of Dolly the sheep",
      "C": "the discovery of penicillin in the 1920s",
      "D": "the spread of the AIDS epidemic in the 1980s"
     },
     "answer": "B",
     "rationales": {
-     "A": "Incorrect. The pill raised questions about birth control. It did not raise questions about cloning, eugenics, or selling body parts.",
+     "A": "Incorrect. The pill prevents pregnancy. It does not make a genetic copy of a person.",
      "B": "Correct. In 1996 scientists in Scotland cloned a sheep, Dolly, from an adult cell. Her birth was announced in 1997. Many people feared that human cloning would follow.",
-     "C": "Incorrect. Penicillin, an antibiotic, saved many lives. It raised none of the questions about cloning and eugenics in Article 3.",
-     "D": "Incorrect. AIDS raised questions about public health and unfair treatment. It did not raise questions about cloning or selecting persons."
+     "C": "Incorrect. Penicillin treats infections caused by bacteria. It does not copy genetic material.",
+     "D": "Incorrect. AIDS raised concerns about public health and unfair treatment, not about cloning human beings."
     },
     "explanation": "New genetic and medical tools raised hard moral questions. People of different beliefs did not agree about them. Article 3 bans the reproductive cloning of human beings. It also bans eugenic practices, which recall Nazi Germany's efforts to control who could have children."
    },
@@ -2901,7 +2912,7 @@
     "answer": "D",
     "rationales": {
      "A": "Incorrect. The Second Vatican Council (1962–1965) changed Catholic worship and ties with other faiths. It did not call for laws against discrimination based on sexual orientation.",
-     "B": "Incorrect. The Soviet Union made homosexuality a crime in 1934. It stayed illegal there until after the Soviet Union ended.",
+     "B": "Incorrect. In 1934 Soviet law made sexual relations between men a crime. That law lasted until after the Soviet Union ended.",
      "C": "Incorrect. In the 1990s Western European countries were removing laws against homosexuality. They were not passing new ones.",
      "D": "Correct. After the 1960s, gay and lesbian groups campaigned against unfair treatment. Denmark created registered partnerships for same-sex couples in 1989. In 2001 the Netherlands became the first country to allow same-sex marriage."
     },
@@ -2917,17 +2928,17 @@
     "difficulty": "medium",
     "stem": "The inclusion of Article 37 in the Charter most directly reflects",
     "options": {
-     "A": "strikes by guest workers for better pay",
-     "B": "the Suez Crisis",
-     "C": "Green parties and environmental groups",
-     "D": "the Industrial Revolution"
+     "A": "social democratic campaigns to expand public welfare",
+     "B": "conservative campaigns to reduce state regulation",
+     "C": "campaigns by Green parties and environmental groups",
+     "D": "business campaigns to lower barriers to trade"
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. Some guest workers went on strike for better pay and working conditions. But Article 37 is about the environment, not workers' rights.",
-     "B": "Incorrect. The Suez Crisis of 1956 briefly cut oil supplies. It did not lead to rules protecting the environment.",
+     "A": "Incorrect. These campaigns were about pensions, health care, and other public services. Article 37 is about the environment.",
+     "B": "Incorrect. These campaigns wanted fewer rules. Article 37 asks for more protection of the environment.",
      "C": "Correct. Green parties, such as West Germany's Greens, challenged consumerism and called for sustainable development. Fears about acid rain, nuclear accidents, and climate change made the environment a European issue.",
-     "D": "Incorrect. Factories spread in the 1800s and caused pollution. But laws to protect the environment came much later, after green groups pushed for them."
+     "D": "Incorrect. Lower trade barriers help trade between countries. Article 37 is about protecting nature."
     },
     "explanation": "From the 1970s on, Green parties and environmental groups pushed governments to protect nature. By 2000 the European Union treated sustainable development as a basic rule.",
     "reasoning": "Causation"

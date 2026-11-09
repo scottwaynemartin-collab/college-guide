@@ -1,0 +1,233 @@
+ 
+
+ Maddison Project Database 2023 | Releases | Groningen Growth and Development Centre | Rijksuniversiteit Groningen 
+
+ Javascript must be enabled for the correct page display 
+
+ Skip to Content Skip to Navigation 
+
+ Groningen Growth and Development Centre Onderdeel van Rijksuniversiteit Groningen 
+
+ Sluiten 
+
+ Menu en zoeken 
+
+ Nederlands English 
+
+ Contrastmodus 
+
+ Zoekpagina 
+
+ Groningen Growth and Development Centre
+
+ Faculty of Economics and Business
+
+ <div class="rug-mask js--requires-cookie-consent-trigger"><div class="rug-warning--overlay rug-hidden rug-theme--content"><span class="rug-icon rug-icon--close rug-absolute rug-absolute--top-right rug-mt-xs rug-mr-xs rug-cursor--pointer js--requires-cookie-consent-close"/><div class="rug-notification--info rug-p js-id--alert"><span class="rug-icon rug-icon--warn rug-icon--xl rug-mr-s" aria-hidden="true"/><p>Voor het tonen van deze inhoud is uw toestemming nodig voor het plaatsen van bepaalde cookies.</p><p>U kunt uw <button class="rug-inline-button js--cookie-consent-popup">cookie instellingen aanpassen</button>.</p></div></div></div> 
+ {
+ "requiresCookieConsentCheck": "true",
+ "checkedCookieConsent": "no",
+ "hasCookieConsent": "no"
+ }
+
+ Zoeken Zoeken Zoeken 
+
+ Home 
+
+ Productivity 
+
+ Productivity 
+
+ Penn World Table 
+
+ EU KLEMS 
+
+ Productivity Level Database 
+
+ WorldKLEMS Initiative 
+
+ Related Projects 
+
+ Productivity News 
+
+ Global Value Chains 
+
+ Global Value Chains 
+
+ World Input-Output Database 
+
+ GVC Research 
+
+ Long-run WIOD 
+
+ Related Projects 
+
+ Global Value Chains News 
+
+ Historical Development 
+
+ Historical Development 
+
+ Maddison Historical Statistics 
+
+ Historical National Accounts 
+
+ Related Projects 
+
+ Historical Development News 
+
+ Structural Change 
+
+ Structural Change 
+
+ Economic Transformation Database 
+
+ ETD Transition Economies 
+
+ Previous Sector Databases 
+
+ Related Projects 
+
+ Structural Change News 
+
+ Events 
+
+ Events 
+
+ GGDC Conference 2027 
+
+ Maddison Lectures 
+
+ Events News 
+
+ Previous Conferences 
+
+ About Us 
+
+ About the GGDC 
+
+ Contact 
+
+ Experts 
+
+ GGDC News 
+
+ Research Memoranda 
+
+ Affiliates 
+
+ Partners 
+
+ Overview Projects 
+
+ Faculty of Economics and Business 
+
+ Impact Case: Groningen Growth and Development Centre 
+
+ Zoeken 
+
+ Groningen Growth and Development Centre 
+
+ Historical Development 
+
+ Maddison Historical Statistics 
+
+ Releases 
+
+ HOME 
+
+ Productivity 
+
+ Global Value Chains 
+
+ Historical Development 
+
+ Structural Change 
+
+ Events 
+
+ About Us 
+
+ Releases 
+
+ Releases 
+
+ Maddison Project Database 2023 
+
+ Maddison Project Database 2020 
+
+ Maddison Project Database 2018 
+
+ Maddison Project Database 2013 
+
+ Maddison Database 2010 
+
+ Nederlands English 
+
+ Contrast modus 
+
+ Maddison Project Database 2023 
+
+ The Maddison Project Database provides information on comparative economic growth and income levels over the very long run. The 2023 version of this database covers 169 countries and the period up to 2022. The new estimates are presented and discussed in Bolt and Van Zanden (2024), " Maddison style estimates of the evolution of the world economy: A new 2023 update ", Journal of Economic Surveys, 1–41. For questions not covered in the documentation, please contact ggdc rug.nl .
+
+ Excel Stata 
+
+ User information 
+
+ This data set is hosted on Dataverse , it can be accessed in its entirety through the following doi: 10.34894/INZBF2 
+
+ Attribution requirement 
+
+ All original papers must be cited when:
+
+ the data is shown in any graphical form
+
+ subsets of the full dataset that include less than a dozen (12) countries are used for statistical analysis or any other purposes
+
+ A list of original papers can be found in the source sheet of the database. When neither a) or b) apply, then the MPD as a whole should be cited.
+
+ MPD version 2023: Bolt, Jutta and Jan Luiten van Zanden (2024), "Maddison style estimates of the evolution of the world economy: A new 2023 update", Journal of Economic Surveys, 1–41. DOI: 10.1111/joes.12618 ”.
+
+ License and funding 
+
+Maddison Project Database, version 2023 by Jutta Bolt and Jan Luiten van Zanden is licensed under a Creative Commons Attribution 4.0 International License .
+
+ Documentation 
+
+ Document
+
+ Content
+
+ Maddison style estimates of the evolution of the world economy: A new 2023 update 
+
+ Paper introducing new concepts and new results of the Maddison Project Database, version 2023
+
+ Last modified: 24 September 2024 2.16 p.m. 
+
+ ﻿⠀ 
+
+ ﻿⠀ 
+
+ ﻿⠀ 
+
+ ﻿⠀ 
+
+ ﻿⠀ 
+
+ ﻿⠀ 
+
+ Disclaimer & Copyright Privacy Cookies Inloggen 
+
+ Essentieel
+
+ Biedt de basisfuncties en maakt gebruik van geanonimiseerde cookies.
+
+ Standaard
+
+ Biedt de optimale werking en maakt gebruik van onder andere videocookies.
+
+ Volledig
+
+ Biedt gepersonaliseerde content en maakt gebruik van marketingcookies.
+
+ Stel je cookievoorkeur in. Lees onze privacy en cookie disclaimer voor meer informatie.
+

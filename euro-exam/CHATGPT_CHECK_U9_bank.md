@@ -1,4 +1,4 @@
-# AP European History — Unit 9 practice bank (v2026-11-09c)
+# AP European History — Unit 9 practice bank (v2026-11-09d)
 
 Unit 9: Cold War and Contemporary Europe, c. 1914–present (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 9.1 Contextualizing Cold War and Contemporary Europe (LO A)
@@ -52,7 +52,7 @@ KEY: C. Explanation: By the late 1970s the Soviet economy grew very slowly. Fact
 - (D) Yugoslavia broke apart in a series of wars beginning in 1991.
 KEY: B. Explanation: In June 1989 Poland held partly free elections. Solidarity won almost every seat it was allowed to run for. Gorbachev did not send troops. In August 1989 Tadeusz Mazowiecki of Solidarity became prime minister.
   - why not A: Using troops against Lithuanians who wanted independence went against freedom of choice. It would challenge the argument, not support it.
-  - why not C: China was not under Soviet control. What China's leaders did tells us nothing about Soviet policy.
+  - why not C: China was outside Soviet control. So this event does not show whether Gorbachev let the Soviet Union's allies choose their own governments.
   - why not D: Yugoslavia was a communist country outside the Soviet bloc. Its wars grew out of conflict among its own peoples, not out of a Soviet decision.
   - hint: Which choices are about a country in the Soviet bloc? What did the Soviet Union do there?
 
@@ -138,7 +138,7 @@ KEY: A. Explanation: Portugal's dictatorship fought long wars against independen
 - (D) Bevan wants local councils to run the economy, while Howe wants the national government to plan it.
 KEY: C. Explanation: Bevan wanted a universal health service, free to everyone and paid for by the public. Howe argued that high taxes and a large state were holding Britain back and that the state's role should shrink.
   - why not A: Bevan says it is "repugnant" for hospitals to rely on private charity. Howe does not call for a new health service.
-  - why not B: Bevan blames the lack of money for doctors' bills, not the war. Howe blames high taxes and government interference.
+  - why not B: Bevan argues that cost keeps people from seeking care; he does not blame the war. Howe blames taxes and government interference for weak economic growth.
   - why not D: Howe attacks government planning of the economy. Bevan is talking about health care, not about who runs the economy.
   - hint: Compare what each speaker wants the government to do more of or less of.
 
@@ -153,12 +153,12 @@ KEY: A. Explanation: Oil prices rose sharply in 1973 and again in 1979. Britain 
   - why not D: The Great Depression was in the 1930s. Howe is reacting to the problems of the 1970s.
   - hint: When was this speech given, and what had happened to the world economy in the years before it?
 
-**E9-P09** [Topic 9.2 · LO B · Skill 5.B · Causation · medium]  The faster growth of France and West Germany that Howe describes is best explained by
-- (A) postwar rebuilding aided by the Marshall Plan and the new Common Market
+**E9-P09** [Topic 9.2 · LO B · Skill 5.B · Causation · medium]  Which of the following best explains the faster growth of France and West Germany that Howe describes?
+- (A) industrial investment and expanding trade within the Common Market
 - (B) the colonial empires that France and West Germany kept after 1945
 - (C) the reparations that Britain paid to France and Germany after the war
 - (D) the absence of welfare programs in France and West Germany
-KEY: A. Explanation: With Marshall Plan aid after 1948, West Germany and France rebuilt their industries, and the Common Market created in 1957 gave them a large market for their goods. West Germany's fast growth was called its economic miracle. Britain did not join the Common Market until 1973.
+KEY: A. Explanation: After the war, France and West Germany invested heavily in new factories and machines. The Common Market, created in 1957, lowered trade barriers among its members and gave them a large market for their goods. West Germany's fast growth was called its economic miracle. Britain also received Marshall Plan aid, but it did not join the Common Market until 1973.
   - why not B: West Germany had no colonies after 1945, and France was losing most of its empire in the 1950s and 1960s.
   - why not C: Britain paid no reparations. Germany, not Britain, was the defeated power.
   - why not D: Both France and West Germany built large welfare systems after the war. Their growth came alongside welfare spending.
@@ -169,11 +169,12 @@ KEY: A. Explanation: With Marshall Plan aid after 1948, West Germany and France 
 > After the destruction of the Second World War, the nations of Europe struggled to rebuild their economies and ensure their security. The former required a massive influx of aid to help the war-torn landscapes re-establish industries and produce food, and the latter required assurances against a resurgent Germany or incursions from the Soviet Union. The United States viewed an economically strong, rearmed, and integrated Europe as vital to the prevention of communist expansion across the continent. … Soviet refusal either to participate in the Marshall Plan or to allow its satellite states in Eastern Europe to accept the economic assistance helped to reinforce the growing division between east and west in Europe.
 > In 1947–1948, a series of events caused the nations of Western Europe to become concerned about their physical and political security and the United States to become more closely involved with European affairs. The ongoing civil war in Greece, along with tensions in Turkey, led President Harry S. Truman to assert that the United States would provide economic and military aid to both countries, as well as to any other nation struggling against an attempt at subjugation. A Soviet-sponsored coup in Czechoslovakia resulted in a communist government coming to power on the borders of Germany. Attention also focused on elections in Italy as the communist party had made significant gains among Italian voters. …
 > … In 1952, the members agreed to admit Greece and Turkey to NATO and added the Federal Republic of Germany in 1955. West German entry led the Soviet Union to retaliate with its own regional alliance, which took the form of the Warsaw Treaty Organization and included the Soviet satellite states of Eastern Europe as members.
-> The collective defense arrangements in NATO served to place the whole of Western Europe under the American "nuclear umbrella." …
+> The collective defense arrangements in NATO served to place the whole of Western Europe under the American "nuclear umbrella."* …
+> * NATO's nuclear protection covered its member states. Some Western European countries, such as Sweden, Switzerland, and Ireland, stayed neutral and outside NATO.
 — Office of the Historian, U.S. Department of State, "North Atlantic Treaty Organization (NATO), 1949," an online essay by the department's historians in the series Milestones in the History of U.S. Foreign Relations (undated; online since at least 2009; the series was retired in 2017) (Text from history.state.gov (U.S. government work, public domain); adapted)
 > Words to know: influx = large arrival; resurgent = rising again in strength; incursions = invasions or raids; satellite states = countries formally independent but controlled by a stronger country; subjugation = being conquered and controlled by another power; coup = a sudden, illegal seizure of power; collective defense = an agreement that an attack on one member is an attack on all; nuclear umbrella = protection by the threat of using nuclear weapons
 
-**E9-P10** [Topic 9.1 · LO A · Skill 1.B · easy]  Truman's promise of aid described in the second paragraph is best understood as an early example of which U.S. policy?
+**E9-P10** [Topic 9.1 · LO A · Skill 1.A · easy]  Truman's promise of aid described in the second paragraph is best understood as an early example of which U.S. policy?
 - (A) détente
 - (B) containment
 - (C) appeasement
@@ -185,15 +186,15 @@ KEY: B. Explanation: In March 1947 Truman asked Congress for aid to Greece and T
   - hint: According to the first paragraph, what did the United States want to prevent?
 
 **E9-P11** [Topic 9.4 · LO D · Skill 3.D · medium]  Which of the following provides the best evidence for the historians' claim that the Soviet Union would not "allow its satellite states in Eastern Europe to accept the economic assistance"?
-- (A) The Soviet Union joined the United Nations as a founding member with a veto in 1945.
-- (B) West Germany received Marshall Plan aid beginning in 1948.
-- (C) Britain and France received the largest amounts of Marshall Plan aid.
+- (A) Communist parties in several European states joined the Soviet-backed Cominform in 1947.
+- (B) The Soviet Union supported the communist takeover of Czechoslovakia in 1948.
+- (C) The Soviet Union set up COMECON to coordinate Eastern European economies in 1949.
 - (D) Czechoslovakia and Poland refused Marshall Plan aid in 1947 under Soviet pressure.
 KEY: D. Explanation: In July 1947 Czechoslovakia agreed to attend the Paris talks on the Marshall Plan. Then Stalin called its leaders to Moscow, and they pulled out. Poland also turned down the aid under Soviet pressure.
-  - why not A: Joining the United Nations in 1945 says nothing about the Marshall Plan, which began in 1947–1948.
-  - why not B: This is about aid to West Germany. It says nothing about the Soviet satellites.
-  - why not C: This is about Western countries. It says nothing about what Moscow allowed its satellites to do.
-  - hint: Look for a choice about an Eastern European country and the Marshall Plan.
+  - why not A: The Cominform linked communist parties to Moscow. Its founding does not directly show that the satellites were kept from taking Marshall Plan aid.
+  - why not B: The takeover shows Soviet power over Czechoslovakia. But it is not about whether the country could accept Marshall Plan aid.
+  - why not C: COMECON was the Soviet answer to the Marshall Plan. But it does not directly show that the satellites were stopped from taking the aid.
+  - hint: The claim is about whether the satellites could accept economic aid. Which choice is directly about that?
 
 **E9-P12** [Topic 9.3 · LO C · Skill 5.B · Causation · medium]  The "nuclear umbrella" described in the last paragraph contributed most directly to which of the following?
 - (A) the Berlin Airlift
@@ -208,11 +209,11 @@ KEY: D. Explanation: The United States promised to defend Western Europe with nu
 
 
 ### Source P5 (questions E9-P13–E9-P15)
-[IMAGE] Photograph of the building site of the Hotel Kempinski on the Kurfürstendamm, a main shopping street in West Berlin, released by Zentralbild, the photo service of the East German state news agency, February 1952. Photographer unknown. Bundesarchiv (German Federal Archives), Bild 183-13498-0010, licensed CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), via Wikimedia Commons (file: Bundesarchiv Bild 183-13498-0010, Berlin, Marshallplan, Bau Hotel Kempinski.jpg). Sign and caption translated from German for this exam.
+[IMAGE] Photograph of the building site of the Hotel Kempinski on the Kurfürstendamm, a main shopping street in West Berlin, released by Zentralbild, an East German photo agency, February 1952. Photographer unknown. Bundesarchiv (German Federal Archives), Bild 183-13498-0010, licensed CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), via Wikimedia Commons (file: Bundesarchiv Bild 183-13498-0010, Berlin, Marshallplan, Bau Hotel Kempinski.jpg). Sign and caption translated from German for this exam.
 Image file: https://upload.wikimedia.org/wikipedia/commons/5/5a/Bundesarchiv_Bild_183-13498-0010%2C_Berlin%2C_Marshallplan%2C_Bau_Hotel_Kempinski.jpg (800 × 536)
-Caption shown to students: A large building is going up behind wooden scaffolding. On the left, a tall billboard shows the bear of Berlin's coat of arms and, below it, a shield with stars and stripes. Its German words read, "Here work is being carried out in the Berlin emergency program with Marshall Plan …" (the last words are hidden behind another sign). On the right, a second sign announces the "new building of the Hotel Kempinski" and its architect, and boards list the firms doing the work. The photograph was taken in West Berlin in February 1952. It was sent out by Zentralbild, the photo service of East Germany's state news agency. Zentralbild's caption complained that hotels, banks, and office buildings in West Berlin were going up with American money while many people still lived in huts, and that West Berlin's leaders served the Americans instead of rebuilding homes.
+Caption shown to students: A large building is going up behind wooden scaffolding. On the left, a tall billboard shows the bear of Berlin's coat of arms and, below it, a shield with stars and stripes. Its German words read, "Here work is being carried out in the Berlin emergency program with Marshall Plan …" (the last words are hidden behind another sign). On the right, a second sign announces the "new building of the Hotel Kempinski" and its architect, and boards list the firms doing the work. The photograph was taken in West Berlin in February 1952. It was sent out by Zentralbild, an East German photo agency. Zentralbild's caption complained that hotels, banks, and office buildings in West Berlin were going up with American money while many people still lived in huts, and that West Berlin's leaders served the Americans instead of rebuilding homes.
 Description: A black-and-white photograph of a construction site. Behind a forest of wooden scaffolding poles and planks, the concrete frame of a large building rises several stories. In the foreground on the left stands a tall billboard. At its top are the German words "Hier werden Arbeiten im" and a coat of arms with a black bear, the symbol of Berlin. Across the middle in large letters is "Berliner Not-Programm" (Berlin emergency program). Below that is a shield with stars and vertical stripes, and the words "mit Marshall-Plan-" followed by letters hidden behind a second sign. To the right stand rows of white boards listing building firms for steel windows, wooden windows, heating, plumbing, kitchens, and other work. A larger board reads "Neubau Hotel Kempinski" (new building, Hotel Kempinski) and names the architect, Paul Schwebes. Along the bottom edge is a strip with the archive number and the date, February 1952.
-> Words to know: Marshall Plan = a U.S. program begun in 1948, named for Secretary of State George Marshall; emergency program = a West Berlin plan to create jobs and rebuild the city; Zentralbild = the photo service of East Germany's official news agency
+> Words to know: Marshall Plan = a U.S. program begun in 1948, named for Secretary of State George Marshall; emergency program = a West Berlin plan to create jobs and rebuild the city; Zentralbild = an East German photo agency (from 1956 part of East Germany's state news agency)
 
 **E9-P13** [Topic 9.2 · LO B · Skill 4.B · easy]  The building project shown in the photograph is best understood in the context of
 - (A) Soviet efforts to rebuild East Berlin as a model communist city
@@ -225,13 +226,13 @@ KEY: B. Explanation: The Marshall Plan (1948–1952) sent billions of dollars in
   - why not D: The photograph is from 1952. Germany reunited almost forty years later.
   - hint: Look at the date of the photograph and the program named on the sign.
 
-**E9-P14** [Topic 9.3 · LO C · Skill 2.B · medium]  Given its context, East Germany's news agency most likely released the photograph and its caption in order to
+**E9-P14** [Topic 9.3 · LO C · Skill 2.B · medium]  Given its context, Zentralbild most likely released the photograph and its caption in order to
 - (A) portray American aid as serving the rich instead of ordinary Berliners
 - (B) thank the United States for helping to rebuild both halves of the divided city of Berlin
 - (C) encourage East Germans to cross into West Berlin to take jobs on its building sites
 - (D) show that East Germany had also received aid from the Marshall Plan
-KEY: A. Explanation: Both sides used propaganda in the Cold War. East Germany's news agency used this photo to attack the Marshall Plan. It said the money built hotels and banks while people lived in huts.
-  - why not B: East Germany's government was allied with the Soviet Union and opposed the Marshall Plan. Its caption attacks the aid instead of thanking anyone.
+KEY: A. Explanation: Both sides used propaganda in the Cold War. Zentralbild used this photo to attack the Marshall Plan. Its caption said the money built hotels and banks while some people still lived in huts.
+  - why not B: Zentralbild worked in East Germany, whose government was allied with the Soviet Union and opposed the Marshall Plan. Its caption attacks the aid instead of thanking anyone.
   - why not C: East Germany wanted to stop its people from leaving for the West, not encourage them to work there.
   - why not D: East Germany received no Marshall Plan aid. The Soviet Union refused it for the whole Soviet bloc.
   - hint: Who sent out this photograph, and which side of the Cold War were they on?
@@ -270,14 +271,14 @@ KEY: B. Explanation: Nagy declared Hungary neutral and pulled out of the Warsaw 
   - hint: What does each telegram ask the United Nations to do?
 
 **E9-P17** [Topic 9.4 · LO D · Skill 2.C · hard]  A historian should be cautious about accepting Kádár's claim that Nagy's requests did not come from "Hungary as a State" mainly because
-- (A) Kádár's telegram was written many years after the events, when his memories had faded
-- (B) Kádár was an anti-communist leader who wanted Hungary to join NATO and the Western alliance
-- (C) Kádár's telegram was translated from Russian and may contain errors
-- (D) Kádár's government had just been installed by Soviet troops that were then crushing the revolt
+- (A) Kádár's government faced economic shortages after the fighting
+- (B) Kádár's government claimed that Hungary controlled its own internal affairs
+- (C) Kádár's government included officials who had also served under Nagy
+- (D) Kádár's government depended on the Soviet attack that had just pushed Nagy aside
 KEY: D. Explanation: On November 4, 1956, Soviet tanks attacked Budapest, and Kádár announced a new government backed by the Soviet Union. His telegram served Soviet aims by trying to keep the UN from acting. Nagy was later arrested and executed in 1958.
-  - why not A: The telegram is dated November 4, 1956, the same week as the events.
-  - why not B: Kádár was a communist leader who governed Hungary as a Soviet ally until 1988. He kept Hungary in the Warsaw Pact.
-  - why not C: The UN record says the telegram's original text was in English.
+  - why not A: Shortages do not explain why Kádár would deny that Nagy spoke for Hungary.
+  - why not B: This repeats Kádár's own claim. It does not explain why a historian should doubt it.
+  - why not C: Sharing some officials with Nagy's government does not make Kádár's claim more or less believable. What matters most is that his government owed its power to the Soviet attack.
   - hint: Think about how Kádár came to power and what his government needed from the world.
 
 **E9-P18** [Topic 9.3 · LO C · Skill 5.B · Causation · medium]  Which of the following best explains why Western governments did not send troops to help Nagy's government?
@@ -293,7 +294,7 @@ KEY: B. Explanation: The UN General Assembly condemned the Soviet attack, but th
 
 
 ### Source P7 (questions E9-P19–E9-P21)
-**Average Number of Children Born per Woman in Selected European Countries, 1960–2023** (table)
+**Total Fertility Rates in Selected European Countries, 1960–2023 (births per woman)** (table)
 | Country | 1960 | 1965 | 1975 | 1990 | 2010 | 2023 |
 |---|---|---|---|---|---|---|
 | Ireland | 3.78 | 4.04 | 3.37 | 2.11 | 2.05 | 1.50 |
@@ -303,7 +304,7 @@ KEY: B. Explanation: The UN General Assembly condemned the Soviet attack, but th
 | Italy | 2.40 | 2.60 | 2.17 | 1.33 | 1.44 | 1.21 |
 | Hungary | 2.02 | 1.82 | 2.35 | 1.87 | 1.25 | 1.55 |
 | Poland | 2.98 | 2.52 | 2.27 | 2.06 | 1.41 | 1.20 |
-The figures are the total fertility rate: the average number of children a woman would have if she had children at each age at that year's rates. A rate of about 2.1 keeps a population the same size over time, not counting migration.
+The figures are the total fertility rate: the average number of children a woman would have if she had children at each age at that year's rates. Where most children live to adulthood, a rate of about 2.1, kept up over many years, replaces each generation, not counting migration.
 Source: World Bank, World Development Indicators, "Fertility rate, total (births per woman)" (SP.DYN.TFRT.IN), based on United Nations, Eurostat, and national estimates, October 2026 update (licensed CC BY 4.0)
 
 **E9-P19** [Topic 9.14 · LO O · Skill 5.A · easy]  Which conclusion about the period from 1965 to 1990 is best supported by the data?
@@ -317,16 +318,16 @@ KEY: A. Explanation: Six of the seven countries had lower rates in 1990 than in 
   - why not D: Ireland's rate fell by almost half, from 4.04 to 2.11.
   - hint: Compare the 1965 and 1990 columns row by row.
 
-**E9-P20** [Topic 9.14 · LO O · Skill 5.B · Causation · hard]  The change in Hungary's rate between 1965 and 1975 is best explained by
-- (A) the arrival of large numbers of migrant workers from Western Europe
-- (B) the Soviet invasion of 1956, which brought many Soviet families to Hungary
-- (C) government payments to mothers and new limits on abortion
-- (D) the end of communist rule and the return of the Catholic Church to influence
+**E9-P20** [Topic 9.14 · LO O · Skill 5.B · Causation · medium]  Which type of government policy would most likely help explain Hungary's different trend between 1965 and 1975?
+- (A) expanding access to contraception through public health services
+- (B) encouraging longer periods of education before marriage
+- (C) increasing family payments while limiting access to abortion
+- (D) reducing paid leave for parents of young children
 KEY: C. Explanation: Communist Hungary worried about its low birth rate. From 1967 it paid mothers an allowance to stay home with young children. In 1973 it decided to limit abortion, starting in January 1974, and it raised family payments. Births rose for a few years. Policies like these, meant to raise the birth rate, are called pronatalist.
-  - why not A: In this period, migrant workers moved from southern Europe and Turkey to Western Europe. They did not move from Western Europe to communist Hungary.
-  - why not B: The 1956 invasion came nearly ten years before the rise. It did not bring large numbers of Soviet families to settle in Hungary.
-  - why not D: Communist rule in Hungary ended in 1989, long after this rise.
-  - hint: Hungary's rate went up while most others went down. What could a government do to encourage people to have more children?
+  - why not A: Easier access to birth control makes it easier to avoid or delay having children. It would not raise the rate.
+  - why not B: Staying in school longer before marriage usually delays having children.
+  - why not D: Less paid leave would make caring for young children harder for working parents. It would not encourage more births.
+  - hint: Hungary's rate went up while most others went down. Would each policy make people more likely or less likely to have children?
 
 **E9-P21** [Topic 9.12 · LO M · Skill 5.B · Causation · medium]  The overall trend in the table after 1965 was most directly influenced by
 - (A) the deaths of millions of young men in the Second World War
@@ -334,9 +335,9 @@ KEY: C. Explanation: Communist Hungary worried about its low birth rate. From 19
 - (C) government bans on contraception across Western Europe
 - (D) the arrival of migrant families with many children
 KEY: B. Explanation: The birth control pill became available in many European countries in the 1960s. More women stayed in school and took paid jobs. Couples chose to have fewer children. Birth rates fell well below the baby-boom levels of the early 1960s.
-  - why not A: War deaths came before 1945. The birth rate rose after the war in the baby boom and fell only from the mid-1960s.
+  - why not A: World War II ended in 1945, long before most of the fall shown in the table. Birth rates rose after the war in the baby boom.
   - why not C: Contraception became easier to get after 1960. France legalized the pill in 1967 and Britain offered it from 1961.
-  - why not D: Migrant families would have raised birth rates, not lowered them.
+  - why not D: Families with many children could not explain a fall in the number of children born per woman. Children born abroad are not counted in a country's rate.
   - hint: Check the dates. Which choice describes a change that began in the 1960s and would lead to fewer births?
 
 
@@ -351,13 +352,13 @@ KEY: B. Explanation: The birth control pill became available in many European co
 — Court of Justice of the European Communities, judgment in the case of Gabrielle Defrenne, a former flight attendant, against Sabena, the Belgian national airline, April 8, 1976 (Text from EUR-Lex, Judgment of the Court in Case 43/75 (European Court Reports 1976, p. 455), paras. 2, 8–10, 12, 14. EUR-Lex prints this judgment in capital letters; ordinary capital letters are used here. © European Union, reused under Commission Decision 2011/833/EU (CC BY 4.0); adapted)
 > Words to know: air hostess = an older term for a female flight attendant; applicant in the main action = the person who brought the case to court (Defrenne); undertakings = businesses; intra-Community = among the member countries of the Community; dilatoriness = slowness; delay
 
-**E9-P22** [Topic 9.10 · LO J · Skill 3.B · medium]  According to the Court, one aim of Article 119 was to
+**E9-P22** [Topic 9.10 · LO J · Skill 3.A · medium]  According to the Court, one aim of Article 119 was to
 - (A) allow each member state to set its own rules on how much women should be paid
 - (B) protect firms in equal-pay states from rivals that paid women less
 - (C) protect women from working in dangerous jobs such as flying on airplanes
 - (D) encourage women to leave paid work and stay home to raise children
 KEY: B. Explanation: The Court gave two aims. The economic aim was fair competition: firms in states that paid women equally should not lose out to firms in states that did not. The social aim was to improve living and working conditions.
-  - why not A: The Court says equal pay is part of "the foundations of the Community." So states may not each set their own rules.
+  - why not A: The Court says equal pay is part of "the foundations of the Community." So Article 119 set a common rule. States still made their own pay laws, but those laws had to respect equal pay.
   - why not C: The case is about a flight attendant who was paid less than men doing the same work. It is not about keeping women out of jobs.
   - why not D: The Court says Article 119 aims at "social progress" for workers. It does not tell women to leave paid work.
   - hint: Reread the paragraph that begins "First."
@@ -374,14 +375,14 @@ KEY: A. Explanation: In the 1960s and 1970s, feminists pushed for equal pay. In 
   - hint: What were women's groups demanding in the years when Defrenne brought her case?
 
 **E9-P24** [Topic 9.10 · LO K · Skill 5.B · medium]  The ruling best illustrates which challenge that membership in the European Community posed to its member states?
-- (A) Member states had to close their own national courts and send their cases to the Court of Justice.
+- (A) National courts could no longer apply Community law in cases against private employers.
 - (B) Community law could force changes even where national laws lagged behind.
-- (C) Member states had to adopt a single currency before they could join the Community.
-- (D) Member states had to let the Community choose which immigrants they would admit.
+- (C) Member states had to bring wages to one level across the Community.
+- (D) Member states had to let the Court of Justice write their labor laws.
 KEY: B. Explanation: The Court said workers could use Article 119 in their own national courts. They could do so even before national laws changed. So Community law could override national rules. Some people saw this as a threat to national sovereignty.
-  - why not A: National courts kept working. The case came to the European Court from a Belgian labor court, which then applied the ruling.
-  - why not C: There was no single currency in 1976. The euro was introduced in 1999.
-  - why not D: In the 1970s each member state still set most of its own rules for immigrants from outside Europe.
+  - why not A: The ruling did the opposite. Workers could now use the equal-pay rule in their own national courts, even against private employers.
+  - why not C: The ruling was about equal pay for women and men doing the same work. It did not make wages the same in every member state.
+  - why not D: Member states still wrote their own labor laws. Those laws had to respect the equal-pay rule.
   - hint: What does the last paragraph say about the "resistance" of some member states?
 
 
@@ -392,12 +393,12 @@ KEY: B. Explanation: The Court said workers could use Article 119 in their own n
 > There is no doubt that many of the issues in this report will arouse strong and widely differing opinions. Indeed, among the public at large they are already doing so. There will not be a consensus view on all recommendations. The members of the committee were divided in their view on certain aspects of research and on surrogacy.
 > * Louise Brown, born in England in July 1978, was the first baby conceived by in vitro fertilisation (IVF): an egg was fertilised in a laboratory dish and then placed in the mother's womb.
 — Lord Glenarthur, junior health minister in Margaret Thatcher's Conservative government, speech in the House of Lords opening a debate on the report of a government inquiry into human fertilisation and embryology (the Warnock Report), October 31, 1984 (Text from Hansard, House of Lords Debates, 5th series, vol. 456, cols. 524–525 (October 31, 1984); the online text's "in this county" is corrected to "in this country". Contains Parliamentary information licensed under the Open Parliament Licence v3.0; adapted)
-> Words to know: genetically their own = born from the couple's own egg and sperm; disquiet = worry; medical ethics = rules of right and wrong for doctors; scrutiny = close examination; lay = not professional; ordinary citizens; statutory body = an official organization set up by law; embryos = unborn humans at the earliest stage of development; surrogacy = an arrangement in which a woman carries a baby for another couple
+> Words to know: genetically their own = born from the couple's own egg and sperm; disquiet = worry; medical ethics = rules of right and wrong for doctors; scrutiny = close examination; lay = not professional; ordinary citizens; statutory body = an official organization set up by law; embryos = the earliest stage of development after an egg is fertilized; surrogacy = an arrangement in which a woman carries a baby for another couple
 
 **E9-P25** [Topic 9.12 · LO M · Skill 3.A · easy]  Which of the following best describes Glenarthur's main point?
 - (A) Doctors, not Parliament, should decide how new fertility treatments are used.
 - (B) The Warnock committee's members agreed about surrogacy and embryo research.
-- (C) New fertility techniques raised moral questions that the law had to settle.
+- (C) New fertility techniques raised moral questions that called for debate and legal rules.
 - (D) The government planned to ban fertility treatment and embryo research in Britain.
 KEY: C. Explanation: The birth of the first "test-tube baby" in 1978 raised hopes and fears. Glenarthur explains that the government set up an inquiry. The inquiry proposed rules set by law. People strongly disagreed about some of the issues.
   - why not A: Glenarthur says the issues were "wider than those of medical ethics." He says "society as a whole" should examine them.
@@ -417,14 +418,14 @@ KEY: A. Explanation: In 1990 Parliament passed the Human Fertilisation and Embry
   - hint: Find the choice that fits the report's proposals, then check whether the date and the details are right.
 
 **E9-P27** [Topic 9.8 · LO H · Skill 5.B · Causation · medium]  Technologies like the one described in the passage most directly affected women's lives by
-- (A) ending the need for women to work outside the home
-- (B) making divorce legal in Britain for the first time
+- (A) lowering the age at which most women had their first child
+- (B) making large families common again in Western Europe
 - (C) giving some women more choices about motherhood
-- (D) giving women the right to vote in British elections
+- (D) reducing the number of women who took paid jobs
 KEY: C. Explanation: IVF and other new methods let some women who could not conceive have children. With the birth control pill, these tools gave women more choices about motherhood. They also caused moral debates.
-  - why not A: Fertility treatment did not change women's need for paid work. The share of British women in paid jobs kept rising in the 1980s.
-  - why not B: Divorce had been legal in Britain since 1857, and a 1969 law made it easier.
-  - why not D: British women won the vote in 1918 and equal voting rights with men in 1928.
+  - why not A: Women in Britain had their first child at older ages after the 1970s, not younger. IVF helped some older women become mothers.
+  - why not B: Families stayed small. Birth rates in Western Europe stayed low in the 1980s and 1990s.
+  - why not D: More British women took paid jobs in the 1980s, not fewer.
   - hint: What did the new technique offer couples who could not have children?
 
 
@@ -446,18 +447,18 @@ KEY: C. Explanation: IVF and other new methods let some women who could not conc
 KEY: A. Explanation: After the slowdown of the 1970s, many immigrants faced hatred. In 1984 France's anti-immigrant National Front won about 11 percent of the vote in the European elections. European leaders made this statement to condemn racism.
   - why not B: The wars in Yugoslavia began in 1991, five years after this declaration.
   - why not C: The end of empire led to more migration to Europe from former colonies, not less.
-  - why not D: The Soviet Union kept tight limits on emigration in 1986. Free movement came only after 1989.
+  - why not D: The Soviet Union still kept tight limits on emigration in 1986. The limits eased only in the late 1980s.
   - hint: The declaration speaks of the "growth of xenophobic attitudes, movements." What movements were growing in the 1980s?
 
-**E9-P29** [Topic 9.11 · LO L · Skill 1.B · medium]  The workers who had their "origins … in third countries" most likely included
-- (A) Americans who had come to Europe to work for U.S. companies after 1945
+**E9-P29** [Topic 9.11 · LO L · Skill 1.A · medium]  The workers who had their "origins … in third countries" most likely included
+- (A) Italians who moved to West Germany to take industrial jobs
 - (B) East Germans who had moved to the West after the Berlin Wall opened
 - (C) Soviet soldiers stationed in East Germany under the Warsaw Pact
 - (D) Turks and North Africans recruited to fill jobs during the boom of the 1960s
-KEY: D. Explanation: West Germany signed deals to recruit workers from Turkey (1961), Morocco (1963), and Tunisia (1965). France drew many workers from Algeria and Morocco. Workers also came from Italy, Spain, Portugal, and Greece. Many stayed and brought their families.
-  - why not A: Some Americans worked in Europe, but they were a small group and were not targets of anti-immigrant violence.
+KEY: D. Explanation: West Germany signed deals to recruit workers from Turkey (1961), Morocco (1963), and Tunisia (1965). France drew many workers from Algeria and Morocco. Many stayed and brought their families. In 1986 none of these four countries belonged to the Community.
+  - why not A: Italy was a founding member of the European Community. Italian workers came from another member state, not from a "third country."
   - why not B: The Berlin Wall opened in 1989, three years after this declaration. East Germans were also not foreigners under West German law.
-  - why not C: Soviet soldiers were not workers. Also, East Germany was not in the European Community.
+  - why not C: These soldiers were troops sent by their government, not workers who had moved for jobs. Also, East Germany was not in the European Community.
   - hint: "Third countries" are countries outside the Community. Who came from outside to work in Western Europe during the boom years?
 
 **E9-P30** [Topic 9.15 · LO P · Skill 2.B · medium]  The declaration's claim that rejecting racial discrimination is part of "the common cultural and legal heritage of all the Member States" is best understood as part of an effort to
@@ -492,27 +493,27 @@ KEY: D. Explanation: The programme says that growth is not a goal in itself. It 
   - why not C: The leaders say "economic expansion is not an end in itself" and that the environment must be protected.
   - hint: What do the leaders say economic expansion should lead to?
 
-**E9-P32** [Topic 9.13 · LO N · Skill 5.B · Continuity and Change · medium]  In the following decades, ideas like those in the passage were taken up most strongly by which of the following?
+**E9-P32** [Topic 9.13 · LO N · Skill 5.A · Continuity and Change · medium]  In the following decades, ideas like those in the passage were taken up most strongly by which of the following?
 - (A) Free-market conservative parties
 - (B) Green parties
 - (C) Communist parties of Eastern Europe
 - (D) Anti-immigrant nationalist parties
-KEY: B. Explanation: Green parties grew up in the late 1970s and 1980s. West Germany's Greens first won seats in its parliament in 1983. They criticized consumerism and fought to protect the environment.
+KEY: B. Explanation: Green parties began to form in the 1970s and grew stronger in the 1980s. West Germany's Greens first won seats in its parliament in 1983. They criticized consumerism and fought to protect the environment.
   - why not A: Free-market conservatives such as Thatcher's Conservatives stressed growth, lower taxes, and fewer rules on business. The environment was not their main cause.
   - why not C: Communist governments in Eastern Europe built heavy industry and caused terrible pollution. Acid rain hurt forests in Czechoslovakia and Poland.
   - why not D: Anti-immigrant parties cared most about stopping immigration. Protecting nature was not their main goal.
   - hint: Compare each party's main concern with the main concern of the passage.
 
-**E9-P33** [Topic 9.15 · LO P · Skill 5.A · Continuity and Change · medium]  The statement that "economic expansion is not an end in itself" marks a shift away from which earlier attitude?
-- (A) the postwar idea that rising output and consumption were the measure of progress
-- (B) the Romantic belief that nature was a source of beauty and deep feeling
-- (C) the Enlightenment hope that human reason could improve people's lives
-- (D) the Green movement's call to protect forests from acid rain
-KEY: A. Explanation: After 1945, governments judged success mostly by how much was made and bought. By the early 1970s, European leaders said that growth must also make life better and protect the environment.
-  - why not B: The Romantics' love of nature is close to the passage's concern for the environment, not opposed to it.
-  - why not C: The passage shares this hope. It wants "progress" to be "put at the service of mankind."
-  - why not D: The Green movement came later, in the late 1970s and 1980s, and it agreed with the passage.
-  - hint: Which choice describes an attitude that cared about growth but not about its cost to the environment?
+**E9-P33** [Topic 9.14 · LO O · Skill 5.A · Comparison · medium]  Which demand of many European student protesters in 1968 most closely resembled the argument of the passage?
+- (A) less focus on consumer goods and more personal freedom
+- (B) stronger executive leadership and greater national prestige
+- (C) higher industrial output through central state planning
+- (D) faster economic growth through closer European trade ties
+KEY: A. Explanation: In 1968 students protested in France, West Germany, Italy, and other countries. Many attacked the consumer society and old-fashioned authority. Like the passage, they asked whether making and buying more goods really made life better.
+  - why not B: In France the students protested against President de Gaulle's strong rule. Strong leadership and national prestige were de Gaulle's goals, not theirs.
+  - why not C: This makes producing more the main goal. The passage says that "economic expansion is not an end in itself."
+  - why not D: This makes faster growth the main goal. The passage warns against judging growth "from purely quantitative aspects."
+  - hint: What did the young protesters of 1968 criticize about the societies built after the war?
 
 
 ### Source P12 (questions E9-P34–E9-P36)
@@ -539,10 +540,10 @@ KEY: A. Explanation: After World War II, American movies, music, and TV shows be
 - (B) the arrival of the internet in most European homes
 - (C) satellite and cable television in the 1980s
 - (D) the first public television broadcasts in the 1930s
-KEY: C. Explanation: In the 1980s, satellites and cable networks began to carry TV programs across Europe's borders. People could watch channels from other countries. So the Community needed common rules.
+KEY: C. Explanation: Satellite and cable television spread quickly in the 1980s. More people could watch channels from other countries. So the Community wanted common rules for broadcasts that crossed borders.
   - why not A: Radio was invented in the 1890s. That was almost a hundred years before this directive about TV.
   - why not B: Most European homes went online only in the late 1990s and 2000s, after this 1989 directive.
-  - why not D: Early television in the 1930s reached only a few nearby viewers and did not cross borders.
+  - why not D: Television began in the 1930s, but early stations reached only nearby viewers. The directive answers the later spread of satellite and cable TV.
   - hint: Check the date of the directive. Which technology was spreading across Europe at that time?
 
 **E9-P36** [Topic 9.10 · LO K · Skill 5.B · medium]  Taken together, Articles 2 and 4 best illustrate the European Community's effort to
@@ -589,15 +590,15 @@ KEY: D. Explanation: At Potsdam in 1945, the Allies put German lands east of the
   - why not C: The Munich Agreement of 1938 was undone in 1945. The Sudetenland went back to Czechoslovakia then.
   - hint: Article 1 mentions Poland. When had Poland's border with Germany been moved, and by whom?
 
-**E9-P39** [Topic 9.7 · LO G · Skill 1.B · medium]  Article 6 most directly allowed the united Germany to
+**E9-P39** [Topic 9.7 · LO G · Skill 1.B · medium]  After reunification, Germany used the right recognized in Article 6 by choosing to
 - (A) remain a member of NATO
 - (B) join the Warsaw Pact
-- (C) keep Soviet nuclear weapons on its soil
+- (C) become a neutral state outside both alliances
 - (D) leave the European Community
 KEY: A. Explanation: West Germany had belonged to NATO since 1955. In July 1990 Gorbachev agreed that a united Germany could choose its own alliances, and it stayed in NATO.
-  - why not B: The Warsaw Pact was the Soviet alliance. West Germany was a NATO member, and the Warsaw Pact itself dissolved in 1991.
-  - why not C: The treaty provided for Soviet troops to leave by the end of 1994. It did not let Germany keep Soviet weapons.
-  - why not D: The treaty says nothing about leaving the European Community. The united Germany stayed a leading member.
+  - why not B: The Warsaw Pact was the Soviet alliance. Germany stayed in NATO, and the Warsaw Pact itself broke up in 1991.
+  - why not C: The Soviet Union at first wanted a united Germany to be neutral. Germany chose to stay in NATO instead.
+  - why not D: Article 6 is about military alliances. The united Germany stayed a leading member of the European Community.
   - hint: What did the Soviet Union most fear about a united Germany, and what did it finally accept in 1990?
 
 
@@ -635,7 +636,7 @@ KEY: D. Explanation: In August 1991 hard-line communists tried to remove Gorbach
   - why not C: The Cuban Missile Crisis was a confrontation with the United States. It did not lead republics to leave the Soviet Union.
   - hint: What happened in Moscow a few months before this declaration?
 
-**E9-P42** [Topic 9.5 · LO E · Skill 5.B · Continuity and Change · medium]  The "conflicts between nationalities" that the declaration mentions continued after 1991, most notably in
+**E9-P42** [Topic 9.5 · LO E · Skill 5.A · Continuity and Change · medium]  The "conflicts between nationalities" that the declaration mentions continued after 1991, most notably in
 - (A) the Troubles in Northern Ireland
 - (B) the Basque separatist campaign in Spain
 - (C) Russia's wars with separatists in Chechnya
@@ -665,7 +666,7 @@ KEY: C. Explanation: Chechnya, a region inside Russia, declared independence in 
 KEY: C. Explanation: The Maastricht Treaty of 1992 set a timetable for a shared currency. In 1998 eleven member states met its conditions. They adopted the euro on January 1, 1999. Euro notes and coins followed in 2002.
   - why not A: The Marshall Plan ended in 1952 and created no currency. It did push European countries to work together.
   - why not B: The Coal and Steel Community of 1951 pooled coal and steel. It did not create a currency.
-  - why not D: The ruble zone broke up when the Soviet Union ended. The euro was a project of the European Union.
+  - why not D: Several former Soviet republics kept using the ruble after 1991, until the ruble zone largely broke apart in 1993. The euro was a separate European Union project.
   - hint: Look at the date of the regulation and its talk of a "third stage." Which choice is closest to it in time and purpose?
 
 **E9-P44** [Topic 9.10 · LO K · Skill 5.B · medium]  The recitals about the United Kingdom and Denmark best illustrate
@@ -680,14 +681,14 @@ KEY: B. Explanation: Britain and Denmark won the right to stay out of the single
   - hint: Britain and Denmark were among the richer members. Why might they still choose to stay out?
 
 **E9-P45** [Topic 9.10 · LO J · Skill 5.B · Causation · hard]  Which later development most clearly revealed a problem with sharing one currency?
-- (A) Britain's adoption of the euro in place of the pound sterling in 2002
-- (B) Germany's return to its old currency, the mark, after the 2008 financial crisis
-- (C) the collapse of the Soviet Union in 1991
-- (D) the debt crisis that forced Greece to seek rescue loans after 2010
-KEY: D. Explanation: Countries using the euro could no longer set their own interest rates. They could not change the value of their money either. In 2010 Greece could not pay its debts. In 2010 and 2011, Greece, Ireland, and Portugal needed rescue loans tied to harsh spending cuts.
-  - why not A: Britain kept the pound and never adopted the euro.
-  - why not B: Germany has kept the euro since 1999. It never brought back the mark.
-  - why not C: The Soviet Union collapsed before the euro existed.
+- (A) the EU's admission of several former communist states in 2004
+- (B) Britain's decision to leave the EU after its 2016 referendum
+- (C) disputes over admitting refugees to EU states in 2015
+- (D) the Greek debt crisis and rescue loans beginning in 2010
+KEY: D. Explanation: Countries using the euro could no longer set their own interest rates or lower the value of their own money. In 2010 Greece could no longer borrow at prices it could afford. In May 2010 it received rescue loans tied to harsh spending cuts. Ireland (2010) and Portugal (2011) also needed rescue loans.
+  - why not A: New members did not have to adopt the euro right away. Their joining the EU was not a problem caused by a shared currency.
+  - why not B: Britain kept the pound, so its decision to leave did not come from sharing the euro.
+  - why not C: These disputes were about migration and borders, not about a shared currency.
   - hint: What does a country give up when it stops using its own currency?
 
 
@@ -705,7 +706,7 @@ KEY: D. Explanation: Countries using the euro could no longer set their own inte
 - (B) the Troubles
 - (C) the expulsion of Germans after 1945
 - (D) the Cold War arms race
-KEY: B. Explanation: From the late 1960s to the 1990s, about 3,500 people were killed in Northern Ireland. Republican and loyalist armed groups and British security forces were involved. This period is called the Troubles. The Good Friday Agreement tried to end it.
+KEY: B. Explanation: From the late 1960s to the 1990s, about 3,500 people were killed in the Troubles, most of them in Northern Ireland. Republican and loyalist armed groups and British security forces were involved. This period is called the Troubles. The Good Friday Agreement tried to end it.
   - why not A: The Irish War of Independence ended in 1921. Mowlam speaks of violence that the agreement of 1998 was meant to end.
   - why not C: The expulsion of Germans took place in Central Europe. It had nothing to do with Northern Ireland.
   - why not D: The Cold War arms race was a contest between the superpowers. The Northern Ireland conflict was not part of it.
@@ -722,15 +723,15 @@ KEY: A. Explanation: Under the principle of consent, Northern Ireland stays in t
   - why not D: Under the principle of consent, a majority decides. No community has a veto over a vote on the border.
   - hint: Reread the sentence that begins "First, on constitutional issues."
 
-**E9-P48** [Topic 9.15 · LO P · Skill 5.A · Comparison · hard]  Unlike the wars in Bosnia and Kosovo in the 1990s, the conflict Mowlam describes
-- (A) ended after United Nations peacekeepers defeated the armed groups in battle
-- (B) ended when one side won a military victory over the other
-- (C) ended when Northern Ireland became an independent country
-- (D) ended through a negotiated deal that voters approved, without any NATO bombing
-KEY: D. Explanation: In May 1998, voters in both parts of Ireland approved the deal by large majorities. In Bosnia (1995) and Kosovo (1999), the fighting ended only after NATO bombing.
-  - why not A: UN peacekeepers did not fight in Northern Ireland. British troops were there, but the conflict ended through talks.
-  - why not B: Mowlam says "compromises have been made" so that "everyone can be a winner." No side won the war.
-  - why not C: Under the principle of consent, Northern Ireland stayed in the United Kingdom.
+**E9-P48** [Topic 9.15 · LO P · Skill 5.A · Comparison · hard]  Which of the following most clearly distinguishes the peace process Mowlam describes from the settlements in Bosnia and Kosovo in the 1990s?
+- (A) Outside governments played important roles in the talks.
+- (B) The settlement tried to protect communities that had fought each other.
+- (C) Negotiations helped set up a new way of governing the region.
+- (D) An agreement was reached without NATO military intervention.
+KEY: D. Explanation: The Good Friday Agreement came out of talks among the parties, and in May 1998 voters in both parts of Ireland approved it. In Bosnia (1995) and Kosovo (1999), peace came after NATO bombing as well as diplomacy.
+  - why not A: Outside governments helped in all three cases. In Northern Ireland, the former U.S. senator George Mitchell chaired the talks.
+  - why not B: All three settlements tried to protect communities that had been in conflict.
+  - why not C: All three settlements set up new ways of governing after talks.
   - hint: How did the wars in Bosnia and Kosovo come to an end?
 
 ## TIMED EXAM (25 questions, 25 minutes)
@@ -744,15 +745,15 @@ KEY: D. Explanation: In May 1998, voters in both parts of Ireland approved the d
 > Words to know: divergencies = differences; gaunt = bleak and bare; exodus = mass departure; Sudeten Germans = German-speaking people who lived in Czechoslovakia; prodigious = enormous; in twain = in two; duress = force or threats
 
 **E9-E01** [Topic 9.1 · LO A · Skill 4.B · medium]  Churchill's concerns in the passage are best understood in the context of
-- (A) Britain's decision to withdraw from the newly founded United Nations
-- (B) the Soviet Union's refusal to join the war against Nazi Germany
+- (A) plans to rebuild the economies of defeated Axis states
+- (B) debates over independence movements in Europe's overseas empires
 - (C) disagreements among the wartime Allies over Eastern Europe
-- (D) the founding of NATO to defend Western Europe against the Soviet Union
+- (D) efforts to prosecute Nazi leaders for war crimes
 KEY: C. Explanation: At the end of World War II, the Allies disagreed about Poland and the rest of Eastern Europe. Soviet armies held the region. Communists there were taking power. Churchill warned that an "iron curtain" now divided Europe.
-  - A: Incorrect. Britain helped found the United Nations in 1945. It held a permanent seat on the Security Council. It did not withdraw.
-  - B: Incorrect. The Soviet Union fought Nazi Germany from June 1941 until May 1945. Its armies took Berlin.
+  - A: Incorrect. Churchill talks about political control and the expulsion of Germans, not about rebuilding economies.
+  - B: Incorrect. The passage is about Europe, not about independence movements in colonies overseas.
   - C: Correct. Churchill speaks of "divergencies of view" among "the victors" about Eastern Europe. Britain and the United States wanted free elections there. Soviet troops held the region.
-  - D: Incorrect. NATO was founded in 1949, four years after this speech.
+  - D: Incorrect. Churchill discusses governments and expulsions in Eastern Europe, not war-crimes trials.
 
 **E9-E02** [Topic 9.3 · LO C · Skill 3.D · medium]  Which of the following later developments would best support Churchill's claim that "Communist forces have obtained, or are in process of obtaining, dictatorial powers" in the Balkans and Eastern Europe?
 - (A) Communist parties took over Bulgaria, Romania, Hungary, and Poland by 1949.
@@ -761,16 +762,16 @@ KEY: C. Explanation: At the end of World War II, the Allies disagreed about Pola
 - (D) Greece's government defeated communist rebels in a civil war that ended in 1949.
 KEY: A. Explanation: From 1945 to 1949, communist parties backed by the Soviet Union took power in the Balkans and Eastern Europe. They used rigged elections, arrests, and threats.
   - A: Correct. Bulgaria's communists executed the opposition leader Nikola Petkov in 1947. Romania's king was forced to give up his throne that December. Poland's communists won rigged elections in 1947. Hungary's communists pushed out their rivals by 1949.
-  - B: Incorrect. Finland stayed a democracy, which would challenge Churchill's claim, not support it.
-  - C: Incorrect. Soviet troops left Austria in 1955, and it stayed a democracy. That would challenge the claim.
+  - B: Incorrect. Finland stayed a democracy. That gives no evidence of communists taking power in the region Churchill discusses.
+  - C: Incorrect. Austria regained full independence in 1955 and stayed a democracy. That gives no evidence of communists taking power in Eastern Europe.
   - D: Incorrect. The communist defeat in Greece shows the opposite of Churchill's claim. Greece stayed out of the Soviet bloc.
 
-**E9-E03** [Topic 9.5 · LO E · Skill 1.B · Causation · medium]  Churchill's description of the expulsion of Germans best illustrates which postwar development?
+**E9-E03** [Topic 9.5 · LO E · Skill 1.A · medium]  Churchill's description of the expulsion of Germans best illustrates which postwar development?
 - (A) ethnic cleansing after 1945
 - (B) the return of Holocaust survivors
 - (C) guest-worker recruitment
 - (D) the flight of East Germans before 1961
-KEY: A. Explanation: After World War II, Poland and Czechoslovakia expelled most of their German people. The Allies approved this at Potsdam. Millions lost their homes, and many died. It was one of the largest forced migrations in European history.
+KEY: A. Explanation: During and after World War II, millions of Germans fled or were driven out of Poland, Czechoslovakia, and other states. At Potsdam the Allies agreed to the transfer of Germans from Poland, Czechoslovakia, and Hungary and said it should be orderly and humane. In fact, many expulsions were brutal, and many people died. It was one of the largest forced migrations in European history.
   - A: Correct. Between 1945 and 1950, about 12 million Germans fled or were driven out of Poland, Czechoslovakia, and other states. Many died on the way. Driving out a people because of its nationality is called ethnic cleansing.
   - B: Incorrect. Churchill describes Germans being driven out, not Jewish survivors going home. Many survivors who tried to return home met hostility, and many left Eastern Europe.
   - C: Incorrect. Guest workers came to West Germany in the 1950s and 1960s to fill jobs. Churchill describes Germans being forced out in 1945.
@@ -785,7 +786,7 @@ KEY: A. Explanation: After World War II, Poland and Czechoslovakia expelled most
 > … In this Bill, we set up two independent Dominions, free and equal, of no less status than the United Kingdom or the Dominion of Canada, completely free in all respects from any control by this country, but united by a common allegiance to the Sovereign and by a community of ideas, receiving from their membership of the Commonwealth great advantages, but in no way suffering any restriction. …
 > I saw with great regret in one paper, and I think in one paper only, that the action which we are now taking was described as abdication. It is not the abdication, but the fulfilment of Britain's mission in India.
 — Clement Attlee, prime minister of Britain (Labour Party), speech in the House of Commons opening the debate on the Indian Independence Bill, July 10, 1947 (Text from Hansard, House of Commons Debates, 5th series, vol. 439, cols. 2441–2446 (July 10, 1947); the printed "We. and" is corrected to "We and". Contains Parliamentary information licensed under the Open Parliament Licence v3.0; adapted)
-> Words to know: at the instance of = at the request or by the decision of; partition = division of a country into separate states; communities = here, religious groups such as Hindus, Muslims, and Sikhs; abdication = giving up power or duty; fulfilment = completion; Dominions = self-governing countries of the British Commonwealth, such as Canada; allegiance to the Sovereign = loyalty to the British king or queen as head of the Commonwealth
+> Words to know: at the instance of = at the request or by the decision of; partition = division of a country into separate states; communities = here, religious groups such as Hindus, Muslims, and Sikhs; abdication = giving up power or duty; fulfilment = completion; Dominions = self-governing countries of the British Commonwealth, such as Canada; allegiance to the Sovereign = loyalty to the king, who was head of state of Britain and of each Dominion
 
 **E9-E04** [Topic 9.9 · LO I · Skill 2.B · medium]  Attlee's description of the end of British rule in India was most likely intended to
 - (A) persuade Parliament to keep British troops in India after independence
@@ -810,14 +811,14 @@ KEY: B. Explanation: Attlee says that Britain chose to leave. Many historians di
   - D: Incorrect. The 1935 law fits Attlee's claim that self-government was Britain's "settled policy." It does not challenge it.
 
 **E9-E06** [Topic 9.11 · LO L · Skill 5.B · Causation · medium]  The ties between Britain and the new Dominions that Attlee hoped would continue contributed most directly to which later development?
-- (A) Britain's role as a founding member of the European Economic Community
-- (B) the end of immigration to Britain from Asia by 1950
-- (C) the resettlement of most British civil servants in India after 1947
+- (A) migration from southern Europe to Britain under European Community rules
+- (B) the arrival of Hungarian refugees in Britain after 1956
+- (C) the settlement of displaced Europeans in Britain after World War II
 - (D) migration from India and Pakistan to Britain
 KEY: D. Explanation: India and Pakistan stayed in the Commonwealth. Under a 1948 law, their citizens could move to Britain freely. Many came to work in factories, in hospitals, and on buses and trains. Large South Asian communities grew in British cities.
-  - A: Incorrect. Britain did not help found the European Economic Community in 1957. It joined in 1973.
-  - B: Incorrect. Migration from South Asia to Britain grew in the 1950s and 1960s. It did not end.
-  - C: Incorrect. Some British officials stayed in India for a time when the new governments asked them to. Most went back to Britain.
+  - A: Incorrect. Britain joined the European Community only in 1973. Its rules on moving for work came from European unity, not from ties with India and Pakistan.
+  - B: Incorrect. Hungarian refugees fled Soviet rule after the 1956 revolution. Their arrival had nothing to do with Britain's ties with India and Pakistan.
+  - C: Incorrect. Displaced Europeans, such as Polish soldiers who fought for the Allies, settled in Britain because of the war. Ties with India and Pakistan had nothing to do with it.
   - D: Correct. The British Nationality Act of 1948 let citizens of Commonwealth countries, including India and Pakistan, enter Britain freely. Many came to fill jobs. The Commonwealth Immigrants Act of 1962 began to limit entry.
 
 
@@ -827,7 +828,7 @@ KEY: D. Explanation: India and Pakistan stayed in the Commonwealth. Under a 1948
 > … while we fully accept our commitments under the treaties and wish to co-operate more closely with other countries in the European Community, we are determined to retain our fundamental ability to govern ourselves through Parliament. …
 > … Yes, the Commission wants to increase its powers. Yes, it is a non-elected body and I do not want the Commission to increase its powers at the expense of the House, so of course we differ. The President of the Commission, Mr. Delors, said at a press conference the other day that he wanted the European Parliament to be the democratic body of the Community, he wanted the Commission to be the Executive and he wanted the Council of Ministers to be the Senate. No. No. No.
 — Margaret Thatcher, prime minister of Britain (Conservative Party), statement and answers to questions in the House of Commons after a meeting of European Community leaders in Rome, October 30, 1990 (Text from Hansard, House of Commons Debates, 6th series, vol. 178, cols. 870–871, 873 (October 30, 1990). Contains Parliamentary information licensed under the Open Parliament Licence v3.0; adapted)
-> Words to know: hard ecu = a proposed shared European money that would be used alongside national currencies, not in place of them; sterling = the British currency, the pound; the Commission = the European Commission, the appointed body that proposes and carries out European Community laws; the House = the House of Commons, Britain's elected parliament; Council of Ministers = the body made up of ministers from each member government
+> Words to know: hard ecu = a proposed shared European money that would be used alongside national currencies, not in place of them; sterling = the British currency, the pound; the Commission = the European Commission, the appointed body that proposes and carries out European Community laws; the House = the House of Commons, the elected chamber of Britain's Parliament; Council of Ministers = the body made up of ministers from each member government
 **Source 2**
 > RESOLVED to mark a new stage in the process of European integration undertaken with the establishment of the European Communities,
 > RECALLING the historic importance of the ending of the division of the European continent and the need to create firm bases for the construction of the future Europe, …
@@ -872,7 +873,7 @@ KEY: B. Explanation: When the Maastricht Treaty was signed in February 1992, the
   - C: Incorrect. The Helsinki Accords of 1975 eased tensions. But they accepted Europe's borders, and the Cold War went on for fifteen more years.
   - D: Incorrect. Britain joined the European Community in 1973. That made the Community bigger in the West. It did not end the split between East and West.
 
-**E9-E10** [Topic 9.15 · LO P · Skill 5.B · Continuity and Change · medium]  The disagreement shown in the two sources is most similar to which later development?
+**E9-E10** [Topic 9.15 · LO P · Skill 5.A · Continuity and Change · medium]  The disagreement shown in the two sources is most similar to which later development?
 - (A) France's withdrawal from NATO's military command in 1966
 - (B) Britain's 2016 referendum vote to leave the European Union, known as Brexit
 - (C) the peaceful division of Czechoslovakia into two states in 1993
@@ -911,14 +912,15 @@ KEY: A. Explanation: Governments use photographs to shape opinion. This photo fr
   - A: Correct. The photograph was made for the West German government's press office. Its cheerful, orderly scene shows the recruiting of foreign workers as a success.
   - B: Incorrect. In 1962 West Germany had more jobs than workers. The government was busy recruiting foreign workers.
   - C: Incorrect. The government wanted the workers to stay and work. The smiling, busy women send no message to go home.
-  - D: Incorrect. A government press photo would not attack employers. The government's own program sent them these workers.
+  - D: Incorrect. The photograph shows a clean, busy workplace and smiling workers. It gives no sign of low wages or of a complaint against the factory owners.
 
 
 ### Source X5 (questions E9-E13–E9-E15)
 **Source 1**
-> On 20 August, around 11 p.m., the troops of the Union of Soviet Socialist Republics, Polish People's Republic, Hungarian People's Republic, Bulgarian People's Republic and German Democratic Republic crossed the state borders of the Czechoslovak Socialist Republic. This happened without the knowledge of the President of the Republic, the Chairman of the National Assembly, the Prime Minister, the First Secretary of the Central Committee of the Communist Party of Czechoslovakia, or those organs. …
+> On 20 August, around 11 p.m., the troops of the Union of Soviet Socialist Republics, Polish People's Republic, Hungarian People's Republic, Bulgarian People's Republic and German Democratic Republic* crossed the state borders of the Czechoslovak Socialist Republic. This happened without the knowledge of the President of the Republic, the Chairman of the National Assembly, the Prime Minister, the First Secretary of the Central Committee of the Communist Party of Czechoslovakia, or those organs. …
 > The Presidium of the Central Committee of the Communist Party of Czechoslovakia called upon all citizens of the Czechoslovak Socialist Republic to maintain calm and not to resist the advancing troops, because the defence of our state sovereignty by force was impossible at that time.
 > Therefore, the Czechoslovak Army, People's Militia and public security did not receive the order to defend our country. The Presidium of the Central Committee of the Communist Party of Czechoslovakia considers this act as contrary not only to principles of relations among socialist States but also to the fundamental norms of international law.
+> * East Germany (the German Democratic Republic) helped plan the invasion, but at the last moment its combat troops were held back. They did not enter Czechoslovakia.
 — Declaration of the leaders (the Presidium) of the Communist Party of Czechoslovakia, issued in Prague early on August 21, 1968, and read to the United Nations Security Council the same day by Jan Muzík, Czechoslovakia's deputy representative at the United Nations (Text from United Nations, Security Council Official Records, 1441st meeting (August 21, 1968), document S/PV.1441, para. 137; adapted)
 **Source 2**
 > The attempt to deny the socialist countries' right to render assistance to fraternal socialist States, to the people of the socialist countries, is an old trick of the imperialists; its purpose is to shatter the unity and solidarity of the socialist countries, to seek openings for such divisions. The military units of the socialist countries entered the territory of Czechoslovakia on the basis of a request by the Government of that State. It was that Government itself which appealed to the Governments of its allies for assistance. …
@@ -932,13 +934,13 @@ KEY: A. Explanation: Governments use photographs to shape opinion. This photo fr
 - (B) Source 1 blames the United States for the invasion, while Source 2 blames West Germany.
 - (C) Source 1 says the troops came without its leaders' knowledge, while Source 2 says the government asked for them.
 - (D) Source 1 announces that Czechoslovakia will leave the Warsaw Pact, while Source 2 demands that it stay in the alliance.
-KEY: C. Explanation: Czechoslovakia's leaders said the invasion came without their knowledge and broke international law. The Soviet Union claimed that the government had asked for help. It had not. The only request was a secret letter from five pro-Soviet hard-liners.
+KEY: C. Explanation: Czechoslovakia's leaders said the invasion came without their knowledge and broke international law. The Soviet Union claimed that the government had asked for help. It had not. A few pro-Soviet party leaders had secretly written to Moscow, most famously in a letter signed by five of them.
   - A: Incorrect. Source 1 says the party leaders told citizens "not to resist the advancing troops." Armed defense was impossible.
-  - B: Incorrect. Source 1 names the Soviet Union and four of its allies as the invaders. Source 2 blames "imperialists" and "foreign powers hostile to socialism" in general.
+  - B: Incorrect. Source 1 names the troops of the Soviet Union and its allies, not the United States. Source 2 blames "imperialists" and "foreign powers hostile to socialism" without naming West Germany.
   - C: Correct. Source 1 says the invasion "happened without the knowledge" of the country's leaders. Source 2 claims the troops came "on the basis of a request by the Government of that State."
   - D: Incorrect. Unlike Hungary's Nagy in 1956, Dubček's government never said it would leave the Warsaw Pact. Source 1 does not say so either.
 
-**E9-E14** [Topic 9.4 · LO D · Skill 1.B · medium]  The argument in the last paragraph of Source 2 is most closely associated with which of the following?
+**E9-E14** [Topic 9.4 · LO D · Skill 1.A · medium]  The argument in the last paragraph of Source 2 is most closely associated with which of the following?
 - (A) the Brezhnev Doctrine
 - (B) the Truman Doctrine
 - (C) de-Stalinization
@@ -951,18 +953,18 @@ KEY: A. Explanation: Malik says that defending "the socialist gains" of each cou
 
 **E9-E15** [Topic 9.7 · LO G · Skill 5.B · Continuity and Change · medium]  The policy defended in Source 2 was abandoned when
 - (A) Nikita Khrushchev denounced Stalin's crimes in 1956
-- (B) the superpowers signed the SALT I treaty limiting nuclear missiles in 1972
+- (B) the superpowers signed the SALT I arms agreements in 1972
 - (C) Gorbachev let Eastern European states go their own way in 1989
 - (D) Poland's government declared martial law against Solidarity in 1981
 KEY: C. Explanation: In 1989 Gorbachev needed to cut costs and improve ties with the West. He refused to use force to save the communist governments of Eastern Europe. One after another they fell, and the Soviet bloc came to an end.
   - A: Incorrect. Khrushchev's 1956 speech came before this source. Later that year he sent troops to crush the Hungarian Revolution.
-  - B: Incorrect. SALT I (1972) limited nuclear missiles. It did not change Soviet control over Eastern Europe.
+  - B: Incorrect. The SALT I agreements of 1972 limited some nuclear weapons. They did not change Soviet control over Eastern Europe.
   - C: Correct. Gorbachev let the revolutions of 1989 happen without sending troops. A Soviet spokesman joked that the Brezhnev Doctrine had become the Sinatra Doctrine. Frank Sinatra sang the song My Way, and now each country could go its own way.
   - D: Incorrect. Martial law in Poland in 1981 crushed Solidarity under Soviet pressure. It continued the policy instead of ending it.
 
 
 ### Source X6 (questions E9-E16–E9-E18)
-**Average Income per Person in Selected European Countries, 1950–1989** (table)
+**GDP per Person in Selected European Countries, 1950–1989** (table)
 | Country | 1950 | 1960 | 1970 | 1980 | 1989 |
 |---|---|---|---|---|---|
 | France | 8,300 | 11,800 | 18,200 | 23,500 | 27,600 |
@@ -972,32 +974,32 @@ KEY: C. Explanation: In 1989 Gorbachev needed to cut costs and improve ties with
 | Hungary | 4,000 | 5,800 | 8,000 | 10,100 | 11,000 |
 | Poland | 3,900 | 5,100 | 7,100 | 9,100 | 9,100 |
 | Soviet Union | 4,500 | 6,300 | 8,900 | 10,200 | 11,300 |
-The figures are gross domestic product (GDP) per person, a measure of the average value of goods and services produced per person each year. They are given in U.S. dollars of the year 2011, adjusted for differences in prices between countries, and rounded to the nearest 100. Figures for the communist countries are later estimates by economists.
+GDP (gross domestic product) per person is the value of all the goods and services a country produced in a year, divided by its population. It is not the same as the amount each person earned. Figures are in U.S. dollars of the year 2011, adjusted for differences in prices between countries, and rounded to the nearest 100. Figures for the communist countries are later estimates by economists.
 Source: Maddison Project Database, version 2023, by Jutta Bolt and Jan Luiten van Zanden (University of Groningen), table "GDPpc" (licensed CC BY 4.0)
 
-**E9-E16** [Topic 9.2 · LO B · Skill 5.A · Causation · medium]  During the period 1950 to 1970, the major factor explaining the trend in France and Italy was
+**E9-E16** [Topic 9.2 · LO B · Skill 5.B · Causation · medium]  During the period 1950 to 1970, the major factor explaining the trend in France and Italy was
 - (A) wealth flowing back to Europe from colonies after decolonization
 - (B) central planning of the economy modeled on the Soviet Union
 - (C) rebuilding, cheap oil, and freer trade in the Common Market
 - (D) high oil prices that brought profits to European oil exporters
-KEY: C. Explanation: Western Europe's boom lasted from about 1950 to the early 1970s. Rebuilding, American aid, cheap oil, and freer trade in the Common Market all helped incomes rise fast.
+KEY: C. Explanation: Western Europe's boom lasted from about 1950 to the early 1970s. Rebuilding, American aid, cheap oil, and freer trade in the Common Market all helped these economies grow fast.
   - A: Incorrect. Decolonization ended Europe's control of its colonies' wealth. Italy had lost its colonies after World War II.
   - B: Incorrect. France and Italy had market economies. France did some planning, but not Soviet-style central planning.
-  - C: Correct. Income per person in France more than doubled. In Italy it nearly tripled. Rebuilding after the war, cheap oil, and the Common Market of 1957 all helped both economies grow fast.
+  - C: Correct. GDP per person in France more than doubled. In Italy it nearly tripled. Rebuilding after the war, cheap oil, and the Common Market of 1957 all helped both economies grow fast.
   - D: Incorrect. France and Italy imported most of their oil. Oil was cheap until 1973, and that helped them grow.
 
 **E9-E17** [Topic 9.7 · LO G · Skill 5.A · Comparison · medium]  Which conclusion about the period from 1980 to 1989 is best supported by the data?
-- (A) Poland's income per person grew faster than that of any other country shown.
-- (B) The income gap between the Western and the communist countries grew.
-- (C) Income per person in the Soviet Union fell below its 1970 level.
+- (A) Poland's GDP per person grew faster than that of any other country shown.
+- (B) The gap between the Western and the communist countries grew.
+- (C) GDP per person in the Soviet Union fell below its 1970 level.
 - (D) The communist countries caught up with Britain by the end of the decade.
-KEY: B. Explanation: In the 1980s the Western economies grew. The communist economies grew slowly, and Poland's did not grow at all. This slowdown helped lead to Gorbachev's reforms and to the fall of communism in Eastern Europe in 1989.
-  - A: Incorrect. Poland's income stayed at $9,100. That was the weakest record in the table.
+KEY: B. Explanation: In the 1980s the Western economies grew. The communist economies grew slowly, and Poland's GDP per person barely changed. This slowdown helped lead to Gorbachev's reforms and to the fall of communism in Eastern Europe in 1989.
+  - A: Incorrect. Poland's figures for 1980 and 1989 both round to $9,100, so it barely changed. That was the weakest record in the table.
   - B: Correct. In 1980 France was about $14,400 ahead of Poland. By 1989 it was about $18,500 ahead. Britain's lead over the Soviet Union grew from about $10,400 to about $14,900.
   - C: Incorrect. The Soviet figure rose from $8,900 in 1970 to $11,300 in 1989.
   - D: Incorrect. In 1989 Britain's figure was $26,200. That was higher than the figure for any communist country shown.
 
-**E9-E18** [Topic 9.6 · LO F · Skill 5.B · Causation · hard]  The slower growth of the Western European economies after 1970 compared with the 1950s and 1960s contributed most directly to which of the following?
+**E9-E18** [Topic 9.6 · LO F · Skill 5.B · Causation · hard]  The slower growth shown for France and Italy after 1970 was part of a wider slowdown in Western Europe in the 1970s. That slowdown contributed most directly to which of the following?
 - (A) the creation of Britain's National Health Service
 - (B) the founding of the European Coal and Steel Community
 - (C) the Soviet invasion of Afghanistan in 1979
@@ -1029,14 +1031,14 @@ KEY: A. Explanation: Yugoslavia broke apart in 1991 and 1992. In the war in Bosn
   - D: Incorrect. The Soviet war in Afghanistan (1979–1989) took place in Central Asia. It ended before the war in Bosnia began.
 
 **E9-E20** [Topic 9.5 · LO E · Skill 2.C · medium]  Which of the following is most important for a historian to consider when using the passage as evidence about the fall of Srebrenica?
-- (A) It was written long after the events, when no witnesses were still alive.
-- (B) It was written by Bosnian Serb leaders to defend their own actions.
-- (C) It was written for the Serbian government and kept secret from the public.
-- (D) It was written by the UN Secretariat, which was judging its own past failures.
+- (A) It was written about four years after the fall of Srebrenica.
+- (B) It discusses the war in Kosovo as well as the war in Bosnia.
+- (C) It was written in English, not in a language of the former Yugoslavia.
+- (D) Its UN authors were judging their own organization's failures.
 KEY: D. Explanation: Kofi Annan's report is unusual. In it, an organization judges its own mistakes. That makes it valuable. But the authors' point of view still shapes which failures they stress.
-  - A: Incorrect. The report came out in 1999, about four years after the massacre. Many witnesses were still alive.
-  - B: Incorrect. The report calls the Serb campaign "mass murder." It was written by the UN Secretary-General.
-  - C: Incorrect. The report was sent to the UN General Assembly. It was published for all member states.
+  - A: Incorrect. Four years is a short time. Many witnesses and records were still available when the report was written.
+  - B: Incorrect. Mentioning Kosovo widens the report's lesson. It does not limit the report's value as evidence about Srebrenica.
+  - C: Incorrect. The language of the report does not change its point of view. What matters most is that the UN was judging its own actions.
   - D: Correct. The report was written by the UN's own leaders. It openly admits "error" and "misjudgement." A historian should still compare it with other sources, such as court records and survivors' accounts.
 
 **E9-E21** [Topic 9.15 · LO P · Skill 5.A · Continuity and Change · medium]  The report's conclusion that an attempt "to terrorize, expel or murder an entire people must be met decisively" most clearly reflects lessons drawn from which earlier event?
@@ -1061,16 +1063,16 @@ KEY: B. Explanation: The memory of the Holocaust shaped postwar ideas about huma
 — Charter of Fundamental Rights of the European Union, proclaimed by the European Parliament, the Council of the European Union, and the European Commission at Nice, France, December 7, 2000 (Text from the Official Journal of the European Communities, C 364 (December 18, 2000), via EUR-Lex. The four parts of Article 3, paragraph 2, are printed there as a bulleted list. © European Union, reused under Commission Decision 2011/833/EU (CC BY 4.0); adapted)
 > Words to know: integrity of the person = the right to have one's body and mind left unharmed; informed consent = agreement given after being told the facts and risks; eugenic practices = efforts to "improve" the human race by controlling who is born; reproductive cloning = creating a person who is a genetic copy of another; under-represented sex = the sex (male or female) that has fewer people in a job or body; sustainable development = growth that meets present needs without harming the ability of future generations to meet theirs
 
-**E9-E22** [Topic 9.12 · LO M · Skill 4.B · medium]  Article 3, paragraph 2, is best understood in the context of
+**E9-E22** [Topic 9.12 · LO M · Skill 4.B · medium]  The ban on reproductive cloning in Article 3 is best understood in the context of
 - (A) the development of the birth control pill in the 1950s and 1960s
-- (B) advances in genetics, such as the cloning of a sheep in Scotland in 1996
+- (B) advances in genetics, such as the birth of Dolly the sheep
 - (C) the discovery of penicillin in the 1920s
 - (D) the spread of the AIDS epidemic in the 1980s
 KEY: B. Explanation: New genetic and medical tools raised hard moral questions. People of different beliefs did not agree about them. Article 3 bans the reproductive cloning of human beings. It also bans eugenic practices, which recall Nazi Germany's efforts to control who could have children.
-  - A: Incorrect. The pill raised questions about birth control. It did not raise questions about cloning, eugenics, or selling body parts.
+  - A: Incorrect. The pill prevents pregnancy. It does not make a genetic copy of a person.
   - B: Correct. In 1996 scientists in Scotland cloned a sheep, Dolly, from an adult cell. Her birth was announced in 1997. Many people feared that human cloning would follow.
-  - C: Incorrect. Penicillin, an antibiotic, saved many lives. It raised none of the questions about cloning and eugenics in Article 3.
-  - D: Incorrect. AIDS raised questions about public health and unfair treatment. It did not raise questions about cloning or selecting persons.
+  - C: Incorrect. Penicillin treats infections caused by bacteria. It does not copy genetic material.
+  - D: Incorrect. AIDS raised concerns about public health and unfair treatment, not about cloning human beings.
 
 **E9-E23** [Topic 9.14 · LO O · Skill 5.B · Causation · medium]  The inclusion of "sexual orientation" in Article 21 most directly reflects
 - (A) the teachings of the Catholic Church's Second Vatican Council
@@ -1079,20 +1081,20 @@ KEY: B. Explanation: New genetic and medical tools raised hard moral questions. 
 - (D) campaigns by gay and lesbian movements for equal rights
 KEY: D. Explanation: After the 1960s, gay and lesbian groups, like women's groups, campaigned for equal rights. By 2000 several Western European countries had passed laws to protect gay and lesbian people. These groups also faced strong opposition.
   - A: Incorrect. The Second Vatican Council (1962–1965) changed Catholic worship and ties with other faiths. It did not call for laws against discrimination based on sexual orientation.
-  - B: Incorrect. The Soviet Union made homosexuality a crime in 1934. It stayed illegal there until after the Soviet Union ended.
+  - B: Incorrect. In 1934 Soviet law made sexual relations between men a crime. That law lasted until after the Soviet Union ended.
   - C: Incorrect. In the 1990s Western European countries were removing laws against homosexuality. They were not passing new ones.
   - D: Correct. After the 1960s, gay and lesbian groups campaigned against unfair treatment. Denmark created registered partnerships for same-sex couples in 1989. In 2001 the Netherlands became the first country to allow same-sex marriage.
 
 **E9-E24** [Topic 9.13 · LO N · Skill 5.B · Causation · medium]  The inclusion of Article 37 in the Charter most directly reflects
-- (A) strikes by guest workers for better pay
-- (B) the Suez Crisis
-- (C) Green parties and environmental groups
-- (D) the Industrial Revolution
+- (A) social democratic campaigns to expand public welfare
+- (B) conservative campaigns to reduce state regulation
+- (C) campaigns by Green parties and environmental groups
+- (D) business campaigns to lower barriers to trade
 KEY: C. Explanation: From the 1970s on, Green parties and environmental groups pushed governments to protect nature. By 2000 the European Union treated sustainable development as a basic rule.
-  - A: Incorrect. Some guest workers went on strike for better pay and working conditions. But Article 37 is about the environment, not workers' rights.
-  - B: Incorrect. The Suez Crisis of 1956 briefly cut oil supplies. It did not lead to rules protecting the environment.
+  - A: Incorrect. These campaigns were about pensions, health care, and other public services. Article 37 is about the environment.
+  - B: Incorrect. These campaigns wanted fewer rules. Article 37 asks for more protection of the environment.
   - C: Correct. Green parties, such as West Germany's Greens, challenged consumerism and called for sustainable development. Fears about acid rain, nuclear accidents, and climate change made the environment a European issue.
-  - D: Incorrect. Factories spread in the 1800s and caused pollution. But laws to protect the environment came much later, after green groups pushed for them.
+  - D: Incorrect. Lower trade barriers help trade between countries. Article 37 is about protecting nature.
 
 **E9-E25** [Topic 9.8 · LO H · Skill 5.B · hard]  The second sentence of Article 23 would most likely be used to defend
 - (A) parity rules for women and men on party candidate lists
@@ -1108,7 +1110,7 @@ KEY: A. Explanation: Women held few seats in most European parliaments in the 19
 
 ## SOURCE NOTES
 
-Bank version 2026-11-09c.
+Bank version 2026-11-09d.
 
 Copyright rule for this unit (Units 8 and 9): no copyrighted post-1930 private text is used (no memoirs, novels, newspaper articles, or modern historians). Every source has its own license basis, given in the table below and argued in its own file:
 - **UK Parliament Hansard**, reused under the Open Parliament Licence v3.0, with the credit "Contains Parliamentary information licensed under the Open Parliament Licence v3.0" on every Hansard source (X1, X2, X3 Source 1, P3, P9, P16). The OPL page answered HTTP 403 to curl and the Wayback Machine refused the connection, so no copy of the licence is in raw/web/; the Hansard pages saved in raw/hansard/ carry "© UK Parliament" and a link to the copyright page.
@@ -1134,7 +1136,7 @@ Every text excerpt was copied from a raw download saved in sources/raw/ and mach
 | P2 | passage (non-European voice: proposed by 43 African and Asian states) | UN General Assembly resolution 1514 (XV), Declaration on the Granting of Independence to Colonial Countries and Peoples, 14 Dec. 1960 | GAOR, 15th session, Supplement No. 16 (A/4684), pp. 66–67 (A/RES/1514(XV)); vote from A/PV.947 | UN official record (ST/AI/189/Add.9/Rev.2) |
 | P3 | pair | Aneurin Bevan, NHS Bill, House of Commons, 30 Apr. 1946 / Geoffrey Howe, budget speech, 12 June 1979 | Hansard HC Deb vol. 422 cols. 43–47 / vol. 968 cols. 237, 239–240 | Open Parliament Licence v3.0 |
 | P4 | passage (later writer) | Office of the Historian, U.S. State Dept., "North Atlantic Treaty Organization (NATO), 1949" | history.state.gov Milestones essay (undated; online since at least 2009; series retired 2017) | U.S. government work (17 U.S.C. § 105; State Dept. copyright notice saved) |
-| P5 | image | Marshall Plan building site of the Hotel Kempinski, West Berlin, Feb. 1952, released by East Germany's Zentralbild | Bundesarchiv Bild 183-13498-0010 (Commons, 800 × 536) | CC BY-SA 3.0 DE |
+| P5 | image | Marshall Plan building site of the Hotel Kempinski, West Berlin, Feb. 1952, released by Zentralbild, an East German photo agency | Bundesarchiv Bild 183-13498-0010 (Commons, 800 × 536) | CC BY-SA 3.0 DE |
 | P6 | pair | Imre Nagy, telegram to the UN Secretary-General, 1 Nov. 1956 / János Kádár and Imre Horváth, telegram, 4 Nov. 1956 | UN documents A/3251 (GAOR, 2nd emergency special session, Annexes) and A/3311; both "original text: English" | UN official documents |
 | P7 | table | Total fertility rate, Ireland, France, UK, Sweden, Italy, Hungary, Poland, 1960–2023 | World Bank WDI SP.DYN.TFRT.IN (UN Population Division, Eurostat, national statistical offices), Oct. 2026 update | CC BY 4.0 |
 | P8 | passage | Court of Justice of the European Communities, Defrenne v. Sabena (Case 43/75), 8 Apr. 1976 | ECR 1976 p. 455 (EUR-Lex 61975CJ0043) | EU reuse policy (CC BY 4.0) |
@@ -1151,18 +1153,19 @@ Balance of voices (22 text sources):
 - British (Hansard): Churchill, Attlee, Thatcher, Bevan, Howe, Glenarthur, Mowlam (six sets).
 - European Community / Union institutions: the Maastricht Treaty, the Charter, the Court of Justice, the 1973 environment programme, the 1986 declaration, the 1989 directive, the 1998 euro regulation.
 - Central and Eastern Europe and the Soviet Union: Gorbachev (Soviet leader, 1988), Czechoslovakia's Communist Party leaders, the Soviet UN representative, Nagy and Kádár (Hungary), the leaders of Belarus, Russia and Ukraine, and the Two Plus Four Treaty (both German states, France, the USSR, Britain, the U.S.).
-- The UN General Assembly's 1960 declaration against colonialism, proposed by 43 African and Asian states (a non-European voice on empire and self-determination); the UN Secretary-General (Annan, a later writer on Bosnia); U.S. government historians (one essay). Images are German government (West) and East German news-agency photographs.
+- The UN General Assembly's 1960 declaration against colonialism, proposed by 43 African and Asian states (a non-European voice on empire and self-determination); the UN Secretary-General (Annan, a later writer on Bosnia); U.S. government historians (one essay). Images are a West German government photograph and an East German photo-agency photograph.
 
 Not used (with the reason):
 - The Schuman Declaration (1950): it is a source in the official College Board practice exam used for calibration, so a different EU text was chosen.
-- A 1950 Marshall Plan poster on Commons tagged PD-USGov: the designer was a private Dutch artist, so the public-domain basis is doubtful. The East German news-agency photo (P5) is used instead.
+- A 1950 Marshall Plan poster on Commons tagged PD-USGov: the designer was a private Dutch artist, so the public-domain basis is doubtful. The East German photo-agency photo (P5) is used instead.
 - The Brundtland Report (UN document A/42/427, 1987): its text was also published commercially under the World Commission's own copyright, so the 1973 EC environment programme (P11) is used instead.
 - The Basic Law of 1949 in a U.S. State Department translation: the only scans found are lending-library copies whose text cannot be downloaded.
-- The Treaty of Rome (1957) and the Single European Act (1986): EUR-Lex has no English text of either online.
+- The Treaty of Rome (1957) and the Single European Act (1986): English texts were not retrieved for use in this bank (the saved EUR-Lex page for the 1957 treaty, eu/eurlex_11957E_TXT.*, is empty; EUR-Lex does carry an English text of the Single European Act, which was not downloaded). Corrected in v2026-11-09d; the earlier note said EUR-Lex had no English text of either.
 - The Good Friday Agreement in the UN Treaty Series: the volume link could not be found; Mowlam's Commons statement (P16) is used instead.
 - David Steel's 1966 abortion bill speech (Hansard) was downloaded but not used; the Warnock debate (P9) covers medical technology and moral debate.
 
 Notes:
+- Changes in v2026-11-09d (ChatGPT Pro review, saved as ae9/chatgpt_review.txt; every finding was checked before it was applied). Sources: P5's attribution, caption and glossary now call Zentralbild "an East German photo agency" (it joined ADN only in January 1956; Bundesarchiv and ZZF pages saved in raw/web/); X5 Source 1 gets a footnote that East German combat troops were held back and did not enter Czechoslovakia (Bundesarchiv page saved in raw/web/); P4 gets a footnote that NATO's nuclear protection covered its members and that some Western European states stayed neutral; P7's title is now "Total Fertility Rates ... (births per woman)" and its replacement-level sentence is more exact; X6's title is now "GDP per Person ..." and its note says GDP per person is not what each person earned; glossaries changed for X2 ("allegiance to the Sovereign": no "head of the Commonwealth" in 1947), X3 Source 1 ("the House": a chamber of Parliament) and P9 ("embryos": neutral wording); P11's locator now names Part I, Introduction and Title II. No excerpt's words changed (the only additions are two footnote asterisks, which the checker strips; check_excerpts.py still reports the same five documented misses). No source was added or replaced. Items: E9-P33 was rewritten to assess the revolts of 1968 (KC-4.4.III.C; now 9.14, LO O), so topic counts are now 9.14: 4 and 9.15: 4; distractors were replaced in E9-P11, P17, P20, P24, P27, P39, P45, P48, E01, E06, E20, E22, E24; skill tags follow the review (1.A for E9-P10, P29, E03, E14; 3.A for P22; 5.A for P32, P42, E10; 5.B for E16).
 - Changes in v2026-11-09c (coverage gaps named in check_report.md, "Coverage of core Cold War content"): two practice sets were replaced; set IDs and item IDs (E9-P01 to E9-P06) are kept, so nothing else shifts. The two sets chosen were the weakest fits to the Unit 9 CED: P1 (Marinetti, 1909) predates the unit's c. 1914 start, and Learning Objective O concerns culture after the Second World War; P2 (Zaghlul, 1919) duplicated the only decolonization angle the bank already had (British, peaceful, before 1947), while KC-4.1.VI.C (delayed independence after 1945, Cold War alignments, the FLN) had no source. New P1: Gorbachev's address to the UN General Assembly, 7 Dec. 1988 (A/43/PV.72), items on perestroika and economic stagnation (9.7), the Polish elections of 1989 (9.4), and the purpose of unilateral troop cuts (9.1). New P2: UN General Assembly resolution 1514 (XV), 14 Dec. 1960, items linking self-determination back to Wilson (KC-4.1.VI.A, which the Zaghlul letter used to cover), the Algerian War and the FLN, and Portugal's colonies and the 1974 revolution (all 9.9). Trade-off: Futurism and Dada are no longer tested; 9.14 keeps three items (P7 fertility data and E9-E23). Topic counts are now 9.1: 4, 9.4: 7, 9.7: 8, 9.9: 5, 9.14: 3 (others unchanged). tools/write_sources.py has the new P1/P2 metadata and can now write selected files only (python3 ae9/tools/write_sources.py P1 P2).
 - Retired sources (v2026-11-09c). Their source files were moved to sources/retired/ (P1_marinetti_1909.md, P2_zaghlul_1919.md) and their raw files stay in raw/. Old P1: F. T. Marinetti, "Manifesto of Futurism" (Le Figaro, 20 Feb. 1909), anonymous English translation in Exhibition of Works by the Italian Futurist Painters (London: Sackville Gallery, March 1912), pp. 3–4; raw/ia/futurist_1912_sackville.pdf and _djvu.txt; transcription raw/transcribed/futurist_1912_catalogue_pp3-4.txt; basis: published 1912 (pre-1931). Old P2: Saad Zaghlul to Woodrow Wilson, Paris, 6 June 1919, in White Book: Egyptian Delegation to the Peace Conference (Paris, 1919), pp. 58–60; raw/ia/egypt_delegation_1919_cu31924027900921.txt; basis: published 1919 (pre-1931); Zaghlul's account of British reprisals had been left out on purpose. No pre-1931 text remains in the bank.
 - Changes in v2026-11-09b (after the independent check, check_report.md): X1 adds the clarification "[the Balkans]" after "that region" and corrects the columns to 83–85; P2's credit gives pp. 58–60; P4 restores the Truman Doctrine sentence (paragraph 2 now has no inner cut) and cites the saved State Department copyright notice; P11 keeps principle 3's number; P5's Marshall Plan glossary entry is shortened; P7's source line names the UN, Eurostat and national estimates; both image credits give the license URL; X4's description is corrected. No source set was added or replaced.
@@ -1216,6 +1219,7 @@ EXCERPT AS PRINTED IN THE BANK:
 
 NOTES ON MISMATCHES, CUTS AND CORRECTIONS:
 The online text reads "We. and the Indian statesmen" (a stray period); corrected to "We and" and disclosed in the credit line. "alternative— partition" printed with a space; the space is dropped. Cuts: Campbell-Bannerman/Smuts parallel; history of the East India Company; Elphinstone quotation; Simon Commission; "There has been a tendency..."; League of Nations sentence; New Zealand quotation; rest of the Commonwealth paragraph.
+v2026-11-09d (ChatGPT review): the glossary entry "allegiance to the Sovereign" said "as head of the Commonwealth," a title created only in 1949 (London Declaration); it now reads "loyalty to the king, who was head of state of Britain and of each Dominion." The excerpt is unchanged.
 
 ### X3.1
 ID: X3.1
@@ -1238,6 +1242,7 @@ EXCERPT AS PRINTED IN THE BANK:
 
 NOTES ON MISMATCHES, CUTS AND CORRECTIONS:
 Paragraphs 1–2 are from the prepared statement; paragraph 3 is from her reply to Kinnock; the gap is marked with an ellipsis. Cut: "Leon Brittan is a loyal member of the Commission." (start of the reply paragraph) and the closing attack on the Labour party. The hard-ecu explanation sentence is cut.
+v2026-11-09d (ChatGPT review): the glossary entry "the House" now reads "the House of Commons, the elected chamber of Britain's Parliament" (it said "Britain's elected parliament"; the Commons is one chamber of Parliament). The excerpt is unchanged.
 
 ### X3.2
 ID: X3.2
@@ -1295,7 +1300,7 @@ License basis: United Nations official record / document. Under UN administrativ
 
 EXCERPT AS PRINTED IN THE BANK:
 
-> On 20 August, around 11 p.m., the troops of the Union of Soviet Socialist Republics, Polish People's Republic, Hungarian People's Republic, Bulgarian People's Republic and German Democratic Republic crossed the state borders of the Czechoslovak Socialist Republic. This happened without the knowledge of the President of the Republic, the Chairman of the National Assembly, the Prime Minister, the First Secretary of the Central Committee of the Communist Party of Czechoslovakia, or those organs. …
+> On 20 August, around 11 p.m., the troops of the Union of Soviet Socialist Republics, Polish People's Republic, Hungarian People's Republic, Bulgarian People's Republic and German Democratic Republic* crossed the state borders of the Czechoslovak Socialist Republic. This happened without the knowledge of the President of the Republic, the Chairman of the National Assembly, the Prime Minister, the First Secretary of the Central Committee of the Communist Party of Czechoslovakia, or those organs. …
 > The Presidium of the Central Committee of the Communist Party of Czechoslovakia called upon all citizens of the Czechoslovak Socialist Republic to maintain calm and not to resist the advancing troops, because the defence of our state sovereignty by force was impossible at that time.
 > Therefore, the Czechoslovak Army, People's Militia and public security did not receive the order to defend our country. The Presidium of the Central Committee of the Communist Party of Czechoslovakia considers this act as contrary not only to principles of relations among socialist States but also to the fundamental norms of international law.
 
@@ -1303,6 +1308,7 @@ EXCERPT AS PRINTED IN THE BANK:
 
 NOTES ON MISMATCHES, CUTS AND CORRECTIONS:
 Muzík spoke in English (no 'translated from' note). The PDF text layer interleaves the two columns and has slips ("Cornrnittee", "becausethe"); the transcription follows the page image. Cut: the paragraph about the Presidium discussing the Fourteenth Congress (first sentence of the second quoted paragraph), and the last two quoted paragraphs.
+v2026-11-09d (ChatGPT review): the declaration lists the German Democratic Republic among the invaders, which is what it says but not what happened. A footnote of ours was added after "German Democratic Republic": "East Germany (the German Democratic Republic) helped plan the invasion, but at the last moment its combat troops were held back. They did not enter Czechoslovakia." Basis: Bundesarchiv history gallery "21. August 1968 – Einmarsch / kein Einmarsch" (saved as raw/web/bundesarchiv_21-august-1968-einmarsch-kein-einmarsch.html + .txt): the NVA's 7th Panzer and 11th Motorized Rifle Divisions "wurden kurzerhand in die Reserve versetzt"; "Die NVA beteiligte sich trotz der ursprünglichen Absicht nicht mit Kampftruppen am Einmarsch in die ČSSR." The quotation is unchanged apart from the asterisk (stripped by the checker). The explanation of E9-E13 no longer says the five-signature letter was "the only request": the Czech Security Services Archive (raw/web/abscr_two-letters-from-czechoslovakia.html + .txt) holds that letter and a separate one signed by Antonín Kapek alone.
 
 ### X5.2
 ID: X5.2
@@ -1394,7 +1400,7 @@ de Grenoble, 1987
     1945-50 R. Moorsteen and R.P. Powell, The Soviet Capital Stock 1928-1962, Irwin, Illinois, 1966, p. 362
     1950-90 CIA
 
-NOTES: The bank labels the series "Average Income per Person"; the note under the table explains that the figures are GDP per person in 2011 dollars adjusted for price differences, rounded to the nearest 100, and that figures for the communist countries are later estimates. "Soviet Union" is the database's "Former USSR" (SUN). Germany is left out because the database gives one series for the territory of today's Germany rather than separate West and East German figures.
+NOTES: The bank labels the series "GDP per Person" (until v2026-11-09c "Average Income per Person"; changed after the ChatGPT review because GDP per person is not what people earn); the note under the table explains that the figures are GDP per person in 2011 dollars adjusted for price differences, rounded to the nearest 100, that GDP per person is not the amount each person earned (added in v2026-11-09d), and that figures for the communist countries are later estimates. "Soviet Union" is the database's "Former USSR" (SUN). Germany is left out because the database gives one series for the territory of today's Germany rather than separate West and East German figures.
 
 ### X7
 ID: X7
@@ -1557,18 +1563,19 @@ EXCERPT AS PRINTED IN THE BANK:
 > After the destruction of the Second World War, the nations of Europe struggled to rebuild their economies and ensure their security. The former required a massive influx of aid to help the war-torn landscapes re-establish industries and produce food, and the latter required assurances against a resurgent Germany or incursions from the Soviet Union. The United States viewed an economically strong, rearmed, and integrated Europe as vital to the prevention of communist expansion across the continent. … Soviet refusal either to participate in the Marshall Plan or to allow its satellite states in Eastern Europe to accept the economic assistance helped to reinforce the growing division between east and west in Europe.
 > In 1947–1948, a series of events caused the nations of Western Europe to become concerned about their physical and political security and the United States to become more closely involved with European affairs. The ongoing civil war in Greece, along with tensions in Turkey, led President Harry S. Truman to assert that the United States would provide economic and military aid to both countries, as well as to any other nation struggling against an attempt at subjugation. A Soviet-sponsored coup in Czechoslovakia resulted in a communist government coming to power on the borders of Germany. Attention also focused on elections in Italy as the communist party had made significant gains among Italian voters. …
 > … In 1952, the members agreed to admit Greece and Turkey to NATO and added the Federal Republic of Germany in 1955. West German entry led the Soviet Union to retaliate with its own regional alliance, which took the form of the Warsaw Treaty Organization and included the Soviet satellite states of Eastern Europe as members.
-> The collective defense arrangements in NATO served to place the whole of Western Europe under the American "nuclear umbrella." …
+> The collective defense arrangements in NATO served to place the whole of Western Europe under the American "nuclear umbrella."* …
 
 (Raw excerpt region: see ae9/sources/P4.md)
 
 NOTES ON MISMATCHES, CUTS AND CORRECTIONS:
 Cuts: the two sentences on Marshall's proposal and the European Recovery Program inside paragraph 1, the Berlin blockade paragraph, the Brussels Treaty and negotiation paragraphs (which misspell Vandenberg and list Ireland among countries the U.S. wanted to include), the Korean War sentence. The Truman Doctrine sentence ("The ongoing civil war in Greece ... any other nation struggling against an attempt at subjugation.") was cut in v2026-11-09a and restored in v2026-11-09b, so paragraph 2 now runs without a cut from its first sentence to the Italian elections; the raw text copy has a space before that sentence's final period (a link boundary), which is closed up. Not quoted: anything outside these paragraphs.
+v2026-11-09d (ChatGPT review): a footnote of ours was added after "nuclear umbrella" because the historians' "the whole of Western Europe" is too broad: "NATO's nuclear protection covered its member states. Some Western European countries, such as Sweden, Switzerland, and Ireland, stayed neutral and outside NATO." The source's words are unchanged; the asterisk is the only addition, and the excerpt checker strips it.
 
 ### P5
 ID: P5
 Used as: practice set P5 (E9-P13–E9-P15)
 Topic(s): 9.2 (LO B), 9.3 (LO C), 9.4 (LO D)
-Work: Photograph of the building site of the Hotel Kempinski on the Kurfürstendamm, West Berlin, February 1952, released by Zentralbild (the photo service of ADN, the East German state news agency) with a caption dated 5 February 1952. Photographer unknown.
+Work: Photograph of the building site of the Hotel Kempinski on the Kurfürstendamm, West Berlin, February 1952, released by Zentralbild (an East German state photo agency founded in 1952; it merged with ADN, the East German news agency, in January 1956) with a caption dated 5 February 1952. Photographer unknown.
 Edition: Bundesarchiv Bild 183-13498-0010, on Wikimedia Commons as "File:Bundesarchiv Bild 183-13498-0010, Berlin, Marshallplan, Bau Hotel Kempinski.jpg" (original upload 800 × 536 px).
 URL used in the bank (src): https://upload.wikimedia.org/wikipedia/commons/5/5a/Bundesarchiv_Bild_183-13498-0010%2C_Berlin%2C_Marshallplan%2C_Bau_Hotel_Kempinski.jpg (original file, 800 px)
 Local copies: the 800 px original could not be saved (upload.wikimedia.org answered HTTP 429 to every request from this build machine; the bank links to the original on Commons); raw/commons/kempinski_thumb500_preview.jpg; a 1280 px rendering was viewed to read the signs.
@@ -1581,6 +1588,7 @@ The student caption summarizes this in plain English, without quotation marks: h
 SIGNS IN THE PHOTO (read from the image): left billboard "HIER WERDEN ARBEITEN IM / [Berlin bear arms] / BERLINER NOT-PROGRAMM / [ERP shield with stars and stripes] / MIT MARSHALL-PLAN-V… / AUSGE…" (the end of the last two lines is hidden behind the second board). The caption translates the visible words and says that the last words are hidden. Right board: "NEUBAU HOTEL KEMPINSKI / ENTWURF u. KÜNSTLER. OBERLEITUNG / PAUL SCHWEBES / DIPL. ING. ARCHITEKT" and lists of firms (Stahlfenster, Holzfenster, Stahltüren, Heizung, Sanitäre Anl., Küchenanl., Oberlichte, Statik, Bauausführung). Bottom strip: "Bundesarchiv, Bild 183-13498-0010 / Foto: o.Ang. | Februar 1952".
 
 NOTES: "Sign and caption translated from German for this exam" is stated in the credit line. The student caption leaves out Zentralbild's sentence about preparations for an American war ("Die Vorbereitungen für den amerikanischen Krieg gehen ihr vor"), so since v2026-11-09b question E9-P14's key no longer mentions war plans ("portray American aid as serving the rich instead of ordinary Berliners"). The glossary entry "Marshall Plan" was shortened in v2026-11-09b to "a U.S. program begun in 1948, named for Secretary of State George Marshall" so that it no longer gives away E9-P13.
+v2026-11-09d (ChatGPT review): until v2026-11-09c the attribution, caption and glossary called Zentralbild "the photo service of the East German state news agency." That is anachronistic for February 1952: Zentralbild (Zentrale Bildstelle GmbH) was founded in 1952 and merged with ADN only in January 1956, and ADN itself became a state agency on 1 May 1953 (Bundesarchiv, "Gründung und Umwandlung des Allgemeinen Deutschen Nachrichtendienstes", saved as raw/web/bundesarchiv_gruendung-und-umwandlung-adn.html + .txt: "Am 1. Mai 1953 wurde die GmbH in eine staatliche Nachrichtenagentur umgewandelt ... Im Januar 1956 erfolgte der Zusammenschluss mit der Fotoagentur Zentrale Bildstelle GmbH (Zentralbild)"; ZZF Potsdam project page, raw/web/zzf_zentralbild_project.html + .txt: "The state-run photo agency Zentralbild was founded in the GDR in 1952 and became affiliated with the news agency ADN in 1956"). The attribution and caption now say "Zentralbild, an East German photo agency"; the glossary says "an East German photo agency (from 1956 part of East Germany's state news agency)"; E9-P14's question and explanation name Zentralbild instead of "East Germany's news agency."
 
 ### P6.1
 ID: P6.1
@@ -1644,6 +1652,7 @@ VALUES (as returned by the API, already rounded to two decimals; the bank prints
 | Poland | 2.98 | 2.52 | 2.27 | 2.06 | 1.41 | 1.2 |
 
 NOTES: Germany is left out because the World Bank series for 1960–1990 covers the territory of today's Germany, not West Germany alone. The note under the table defines the total fertility rate and the replacement level of about 2.1.
+v2026-11-09d (ChatGPT review): the title "Average Number of Children Born per Woman ..." could be read as completed family size, so it is now "Total Fertility Rates in Selected European Countries, 1960–2023 (births per woman)", the World Bank series name. The replacement-level sentence now reads "Where most children live to adulthood, a rate of about 2.1, kept up over many years, replaces each generation, not counting migration." No value changed.
 
 ### P8
 ID: P8
@@ -1692,6 +1701,7 @@ EXCERPT AS PRINTED IN THE BANK:
 
 NOTES ON MISMATCHES, CUTS AND CORRECTIONS:
 The online text reads '1978 saw the birth in this county of a child'; corrected to 'country' (disclosed in the credit line; an apparent slip). The quotations from the Warnock Report's foreword (Crown copyright) are not used. Cuts as marked.
+v2026-11-09d (ChatGPT review): the glossary entry "embryos" ("unborn humans at the earliest stage of development") took a side in the moral debate the passage describes; it now reads "the earliest stage of development after an egg is fertilized." The excerpt is unchanged.
 
 ### P10
 ID: P10
@@ -1721,12 +1731,12 @@ Points 3–5 are cut. The recitals are split into separate paragraphs at their s
 ### P11
 ID: P11
 Used as: practice set P11 (E9-P31–E9-P33)
-Topic(s): 9.13 (LO N), 9.15 (LO P)
+Topic(s): 9.13 (LO N), 9.14 (LO O) (E9-P33 moved from 9.15 to 9.14 in v2026-11-09d)
 Work: Declaration of the Council of the European Communities and of the representatives of the Governments of the Member States meeting in the Council of 22 November 1973 on the programme of action of the European Communities on the environment (First Environmental Action Programme)
 Edition / translation: Official Journal of the European Communities C 112, 20 December 1973, via EUR-Lex CELEX 41973X1220
 URL curled: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:41973X1220
 Local raw copy: raw/eu/eurlex_41973X1220.html (+ .txt)
-Locator: Part I, Title I (objectives and principles): the quotation of the Paris summit declaration and principles 3, 5, 6, 11
+Locator: Part I, Introduction (the programme's quotation of the Paris summit declaration) and Part I, Title II "Principles of a Community environment policy" (principles 3, 5, 6, 11); corrected in v2026-11-09d from "Part I, Title I" (raw .txt line 46 "PART I", line 47 "INTRODUCTION", line 62 "TITLE II PRINCIPLES OF A COMMUNITY ENVIRONMENT POLICY"). EUR-Lex gives no page numbers for the annexed programme, so none are cited.
 License basis: Official EU document. EUR-Lex legal notice: "Unless otherwise specified, you can re-use the legal documents published in EUR-Lex" under the Commission's reuse policy, Decision 2011/833/EU (raw/web/eurlex_legal_notice.html; raw/eu/eurlex_32011D0833.txt); the europa.eu legal notice licenses EU-owned content under CC BY 4.0 (raw/web/europa_legal_notice.html).
 
 EXCERPT AS PRINTED IN THE BANK:
