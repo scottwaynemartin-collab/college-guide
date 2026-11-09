@@ -25,6 +25,7 @@ Printable student handouts and teacher keys for every FRQ are in `print/` (rebui
 ## How it's built
 
 - `src/engine.html` is the tutor itself (design, steps, scoring). A fix here reaches every unit.
+  Its screens, per-part lifecycle, and save format are written down in `tools/ENGINE-STATE.md`; `node tools/test-engine-state.js` checks the engine still follows it (run after `python3 build.py`).
 - `src/frqs/*.js` holds one FRQ each: stimulus, parts, hints, lessons, rubric, model answers, quick checks, and its background pop-outs.
 - `build.py` combines them. After any change, run:
 
