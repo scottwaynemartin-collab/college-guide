@@ -62,7 +62,7 @@
   const LOGO = `<svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="gA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2F6FED"/><stop offset=".55" stop-color="#7C3AED"/><stop offset="1" stop-color="#FF6A3D"/></linearGradient></defs><rect width="40" height="40" rx="11" fill="url(#gA)"/><circle cx="19" cy="20" r="10.5" fill="none" stroke="#fff" stroke-width="2.4"/><ellipse cx="19" cy="20" rx="4.4" ry="10.5" fill="none" stroke="#fff" stroke-width="1.8" opacity=".9"/><path d="M8.6 20h20.8M10.4 14.6h17.2M10.4 25.4h17.2" stroke="#fff" stroke-width="1.5" fill="none" opacity=".8"/><circle cx="30.5" cy="29.5" r="6.2" fill="#FFC83D" stroke="#fff" stroke-width="1.6"/><path d="M28.9 26.7v5.6l4.4-2.8z" fill="#1F1B3A"/></svg>`;
   const upill = n => `<span class="upill" style="${unitVars(n)}"><i aria-hidden="true"></i>Unit ${n}</span>`;
   function topbar(ctx, acts) {
-    return `<header class="bar"><div class="bar-in"><button class="brand" data-act="home" aria-label="AP Practice Exam, back to start">${LOGO}<span><small>GeoArcade</small><span class="bt">AP Practice Exam</span></span></button>${ctx ? `<div class="bar-ctx">${ctx}</div>` : ''}<div class="bar-sp"></div><div class="bar-acts">${acts || ''}</div></div></header>`;
+    return `<header class="bar"><div class="bar-in"><button class="brand" data-act="home" aria-label="Practice Exam, back to start">${LOGO}<span><small>GeoArcade</small><span class="bt">Practice Exam</span></span></button>${ctx ? `<div class="bar-ctx">${ctx}</div>` : ''}<div class="bar-sp"></div><div class="bar-acts">${acts || ''}</div></div></header>`;
   }
   const metaTag = (unit, q) => {
     const d = DATA[unit] || {}; const topic = (d.topics || []).find(t => t.id === q.topic);
@@ -101,7 +101,7 @@
     const xq = avail.reduce((a, u) => a + DATA[u.n].exam.questions.length, 0);
     const kpi = (v, k) => `<div class="kpi"><span class="v">${v}</span><span class="k">${k}</span></div>`;
     return topbar('', '') + `<main id="main">
-      <section class="hero"><div class="eyebrow">GeoArcade · AP Human Geography</div><h1>AP <span class="gl">Practice Exam</span></h1><p class="sub">Practice by topic, then take a timed exam built like the real one.</p>
+      <section class="hero"><div class="eyebrow">GeoArcade · AP® Human Geography</div><h1><span class="gl">Practice Exam</span></h1><p class="sub">Practice by topic, then take a timed exam built like the real one.</p>
         <div class="kpis" aria-label="What's inside">${kpi(avail.length, avail.length === 1 ? 'Unit available' : 'Units available')}${kpi(pq, 'Practice questions')}${kpi(xq, 'Exam questions')}</div></section>
       <section class="ugrid" aria-label="Units">${UNITS.map(unitCard).join('')}</section>
       <section class="how" aria-label="How it works">
@@ -297,7 +297,7 @@
   }
   function resultsText() {
     const r = E.result, d = DATA[E.unit];
-    const lines = [`AP Practice Exam · Unit ${E.unit}: ${d.title}`, `Score: ${r.correct}/${r.total} (${r.pct}%)${SHOW_AP_ESTIMATE ? ` · Estimated AP score: ${apEstimate(r.pct)} (rough estimate)` : ''}`, `Time used: ${mmss(r.timeUsed)} of ${d.exam.timeMinutes}:00${r.auto ? ' (auto-submitted)' : ''}`, '', 'By topic:'];
+    const lines = [`GeoArcade Practice Exam · Unit ${E.unit}: ${d.title}`, `Score: ${r.correct}/${r.total} (${r.pct}%)${SHOW_AP_ESTIMATE ? ` · Estimated AP score: ${apEstimate(r.pct)} (rough estimate)` : ''}`, `Time used: ${mmss(r.timeUsed)} of ${d.exam.timeMinutes}:00${r.auto ? ' (auto-submitted)' : ''}`, '', 'By topic:'];
     (d.topics || []).forEach(t => { const x = r.byTopic[t.id]; if (x) lines.push(`  ${t.id} ${t.name}: ${x.c}/${x.t}`); });
     lines.push('', 'By skill:');
     Object.keys(r.bySkill).sort().forEach(k => lines.push(`  ${SKILLS[k] || 'Skill ' + k} (${k}.x): ${r.bySkill[k].c}/${r.bySkill[k].t}`));
