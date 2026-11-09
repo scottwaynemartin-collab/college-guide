@@ -1,7 +1,7 @@
 # AP European History Unit 3 sources. Texts follow the public-domain editions saved in ae3/sources/raw/ and
 # documented in ae3/sources/*.md. Cuts are marked with ellipses; bracketed words are clarifications.
 # OCR slips in the scans were corrected against the page image or a second scan (see the .md files).
-VERSION = "2026-11-09c"
+VERSION = "2026-11-09d"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -50,7 +50,7 @@ STIM = {
                   {"t": "tyrannical", "d": "harsh and unjust, like a tyrant"},
                   {"t": "levied war", "d": "raised armies and made war"}]),
     item("Source 2", [
-        "Having already made my protestations, not only against the illegality of this pretended Court, but also, that no earthly power can justly call me (who am your King) in question as a delinquent, … the duty I owe to God in the preservation of the true liberty of my people will not suffer me at this time to be silent … .",
+        "Having already made my protestations, not only against the illegality of this pretended Court, but also, that no earthly power can justly call me (who am your King) in question as a delinquent, … but the duty I owe to God in the preservation of the true liberty of my people will not suffer me at this time to be silent … .",
         "There is no proceeding just against any man, but what is warranted, either by God's laws or the municipal laws of the country where he lives. Now I am most confident this day's proceeding cannot be warranted by God's laws; for, on the contrary, the authority of obedience unto Kings is clearly warranted, and strictly commanded in both the Old and New Testament … . Then for the law of this land, I am no less confident, that no learned lawyer will affirm that an impeachment can lie against the King, they all going in his name: and one of their maxims is, that the King can do no wrong. … But how the House of Commons can erect a Court of Judicature, which was never one itself (as is well known to all lawyers) I leave to God and the world to judge. …"],
         "Charles I, king of England, Scotland, and Ireland, written statement of his reasons for refusing to accept the authority of the court, January 21, 1649",
         "Text from Samuel Rawson Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625–1660, 3rd ed. (Oxford, 1906), pp. 374–375; adapted",
@@ -100,7 +100,7 @@ STIM = {
     "Sir William Temple, English diplomat who had served as England's ambassador to the Dutch Republic, Observations upon the United Provinces of the Netherlands, published in London, 1673, describing the causes of Dutch trade",
     "Text from The Works of Sir William Temple, vol. 1 (London, 1814), pp. 172–174; adapted",
     footnotes=[{"mark": "*", "text": "\"The natives\" here means the peoples of South and Southeast Asia."}],
-    glossary=[{"t": "the government managed … by men that trade", "d": "the government run by merchants"},
+    glossary=[{"t": "managed", "d": "run"},
               {"t": "traffic", "d": "trade"},
               {"t": "engrossing", "d": "taking complete control of"},
               {"t": "exclusive to", "d": "shutting out"},
@@ -122,7 +122,7 @@ STIM = {
     glossary=[{"t": "prerogative", "d": "a special right or power"},
               {"t": "acquainted", "d": "told"},
               {"t": "succession", "d": "the order in which people inherit the throne"},
-              {"t": "House of Hanover", "d": "a German royal family, Protestant relatives of the Stuarts"},
+              {"t": "House of Hanover", "d": "the ruling family of the German state of Hanover, Protestant relatives of the Stuarts"},
               {"t": "apprehension", "d": "fear"},
               {"t": "inducement", "d": "reason"},
               {"t": "renounce", "d": "formally give up"},
@@ -246,7 +246,7 @@ STIM = {
     "caption": "A giant wearing a crown rises above hills, fields, and a town with a large church. His body and arms are made of hundreds of tiny people, all turned toward his head. In his right hand he holds a sword, and in his left hand a crozier. A line in Latin from the Bible runs across the top. Below the town, a curtain shows the title of the book: \"Leviathan, or the Matter, Forme and Power of a Common-wealth Ecclesiasticall and Civil.\" On the left, under the sword, small pictures show a castle, a crown, a cannon, a pile of weapons and flags, and a battle. On the right, under the crozier, small pictures show a church, a bishop's hat, lightning bolts, forked weapons labeled with words used in arguments, and a meeting of churchmen.",
     "attribution": "Engraved title page of Leviathan, a book by the English philosopher Thomas Hobbes, published in London in 1651; the engraving is usually credited to the French artist Abraham Bosse",
     "credit": "British Library, London. Public domain (CC0) image via Wikimedia Commons (file: Leviathan frontispiece cropped British Library.jpg).",
-    "description": "A black-and-white engraving, taller than it is wide. In the upper half, a giant figure wearing a crown rises from behind a range of hills, as if wading out of the land. He has long hair and a mustache and looks straight at the viewer. His chest and arms are made of hundreds of tiny human figures in hats and cloaks, packed together and turned toward his head. His right arm raises a long sword; his left arm holds a tall, richly carved crozier. Below him lie hills, farms, villages, and a walled town with neat streets, houses, soldiers, and a large church with two spires. Across the top runs the Latin line Non est potestas Super Terram quae Comparetur ei, Iob 41.24. The lower half is divided into three columns. In the center, a fringed curtain carries the title: Leviathan, or the Matter, Forme and Power of a Common-wealth Ecclesiasticall and Civil, by Thomas Hobbes of Malmesbury, London, printed for Andrew Crooke, 1651. The left column has five small pictures, one above another: a castle on a hill, a crown, a cannon, a pile of muskets, swords, flags, and a drum, and a battle with horsemen. The right column has five matching pictures: a church, a bishop's miter, crossed lightning bolts, a set of forked weapons labeled with terms from logic and church debate, such as Syllogisme, Spiritual, and Temporal, with a pair of horns labeled Dilemma, and a meeting of churchmen in a hall.",
+    "description": "A black-and-white engraving, taller than it is wide. In the upper half, a giant figure wearing a crown rises from behind a range of hills, as if wading out of the land. He has long hair and a mustache and looks straight at the viewer. His chest and arms are made of hundreds of tiny human figures in hats and cloaks, packed together and turned toward his head. His right arm raises a long sword; his left arm holds a tall, richly carved crozier. Below him lie hills, farms, villages, and a walled town with neat streets, houses, soldiers, and a large church with two spires. Across the top runs the Latin line Non est potestas Super Terram quae Comparetur ei, Iob 41.24. The lower half is divided into three columns. In the center, a fringed curtain carries the title: Leviathan, or the Matter, Forme and Power of a Common-wealth Ecclesiasticall and Civil, by Thomas Hobbes of Malmesbury. A scroll below the curtain reads London, Printed for Andrew Crooke, 1651. The left column has five small pictures, one above another: a castle on a hill, a crown, a cannon, a pile of muskets, swords, flags, and a drum, and a battle with horsemen. The right column has five matching pictures: a church, a bishop's miter, crossed lightning bolts, a set of forked weapons labeled with terms from logic and church debate, such as Syllogisme, Spiritual, and Temporal, with a pair of horns labeled Dilemma, and a meeting of churchmen in a hall.",
     "glossary": [{"t": "Leviathan", "d": "a giant sea monster in the Bible; Hobbes used the name for the state"},
                  {"t": "crozier", "d": "a hooked staff carried by a bishop as a sign of church authority"},
                  {"t": "Common-wealth Ecclesiasticall and Civil", "d": "a state, with its church and its government"},

@@ -1,7 +1,7 @@
 # AP European History Unit 7 sources. Texts follow the editions saved in ae7/sources/raw/ (all published in 1930 or
 # earlier) and documented in ae7/sources/*.md. Cuts are marked with ellipses; bracketed words are clarifications.
 # OCR slips in the scans were corrected against a second scan or the page image (each one is listed in the .md files).
-VERSION = "2026-11-09c"
+VERSION = "2026-11-09d"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}

@@ -1,4 +1,4 @@
-# AP European History — Unit 7 practice bank (v2026-11-09c)
+# AP European History — Unit 7 practice bank (v2026-11-09d)
 
 Unit 7: 19th-Century Perspectives and Political Developments, c. 1815–c. 1914 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 7.1 Contextualizing 19th-Century Perspectives and Political Developments (LO A)
@@ -163,11 +163,11 @@ KEY: D. Explanation: In March 1890 the young emperor William II, who wanted to r
 
 **E7-P11** [Topic 7.3 · LO D · Skill 5.B · Causation · medium]  The event shown in the cartoon contributed most directly to which of the following?
 - (A) Germany's failure to renew the Reinsurance Treaty with Russia
-- (B) The Congress of Berlin, where Bismarck acted as an "honest broker"
+- (B) The Congress of Berlin's peace terms after the Russo-Turkish War
 - (C) The formation of the Three Emperors' League with Austria-Hungary and Russia
 - (D) The Dual Alliance between Germany and Austria-Hungary
 KEY: A. Explanation: Bismarck had kept France isolated by staying friendly with Russia. After he left office, Germany let the Reinsurance Treaty with Russia lapse in 1890. Russia and France then formed an alliance, completed in 1894, so Germany faced possible enemies on two sides.
-  - why not B: The Congress of Berlin met in 1878, while Bismarck was still in office.
+  - why not B: The Congress of Berlin met in 1878, while Bismarck was still in office. He presided over it as an "honest broker."
   - why not C: Bismarck formed the Three Emperors' League in 1873, long before he left office.
   - why not D: Bismarck made the Dual Alliance in 1879. It came before his fall and lasted until 1918.
   - hint: Bismarck worked hard to keep one large eastern power friendly to Germany. What happened to that friendship after 1890?
@@ -224,11 +224,11 @@ KEY: D. Explanation: Austria-Hungary had run Bosnia and Herzegovina since 1878, 
 
 **E7-P15** [Topic 7.9 · LO K · Skill 5.B · Causation · medium]  In the long term, the action announced in Source 2 contributed most directly to
 - (A) growing hostility between Austria-Hungary and Serbia
-- (B) the Congress of Berlin's decision to make Bulgaria smaller
+- (B) the agreement between Britain and Russia over Persia, Afghanistan, and Tibet
 - (C) the crisis between France and Germany over Morocco in 1911
 - (D) Greece's war for independence from the Ottoman Empire
 KEY: A. Explanation: Serbia hoped to unite the South Slavs, including the Serbs of Bosnia. The 1908 annexation angered Serbia and Russia. In June 1914 a Bosnian Serb nationalist killed Archduke Franz Ferdinand in Sarajevo, the capital of Bosnia, setting off the crisis that led to World War I.
-  - why not B: The Congress of Berlin met in 1878, thirty years before the annexation. Source 1 comes from that meeting.
+  - why not B: Britain and Russia made this agreement in 1907, a year before the annexation, so the annexation could not have caused it.
   - why not C: The 1911 crisis was a quarrel between France and Germany over Morocco. It did not grow out of the Bosnian annexation.
   - why not D: Greece won its independence by 1830, long before 1908.
   - hint: Which neighbor of Bosnia hoped to unite the South Slavs, including the Serbs of Bosnia?
@@ -495,12 +495,12 @@ KEY: A. Explanation: Belloc jokes, "we have got / The Maxim Gun, and they have n
   - hint: What weapon appears in both sources?
 
 **E7-P33** [Topic 7.6 · LO H · Skill 1.B · medium]  Along with the weapons described in the sources, which development most directly reduced the danger of malaria to Europeans pushing into tropical Africa?
-- (A) Vaccination against smallpox
+- (A) Edward Jenner's method of vaccination
 - (B) Antiseptic methods in surgery
 - (C) Regular doses of quinine
 - (D) Pasteurization of milk
 KEY: C. Explanation: Malaria had killed many Europeans in tropical Africa. From the mid-1800s Europeans learned to take quinine, made from the bark of the cinchona tree, to prevent and treat the disease. Along with steamships and machine guns, it made deeper conquest possible.
-  - why not A: Vaccination, first used by Edward Jenner in 1796, protects against smallpox. It does not protect against malaria.
+  - why not A: Edward Jenner's vaccination, first used in 1796, protects against smallpox. There was no vaccine against malaria in the 1800s.
   - why not B: Joseph Lister's antiseptic methods, from 1867, cut infections after operations. They did not prevent malaria.
   - why not D: Pasteurization kills germs in milk. Malaria is spread by the bites of mosquitoes, not by food or drink.
   - hint: Malaria is spread by mosquitoes. Which choice was a drug that Europeans in the tropics took again and again?
@@ -538,11 +538,11 @@ KEY: B. Explanation: Chamberlain spoke in Birmingham, a factory city, at a meeti
 **E7-P36** [Topic 7.7 · LO I · Skill 5.A · Comparison · medium]  Which figure, like Chamberlain, defended colonial expansion as a way to create markets for goods made at home?
 - (A) Jules Ferry
 - (B) Rudyard Kipling
-- (C) J. A. Hobson
+- (C) Herbert Spencer
 - (D) Vladimir Lenin
-KEY: A. Explanation: In 1885 the French leader Jules Ferry told the French parliament that France needed colonies as markets for its factories. Like Chamberlain, he linked empire to markets for the goods that factories at home produced.
+KEY: A. Explanation: In 1885 Jules Ferry, who had led France's government until that spring, told the French parliament that France needed colonies as markets for its factories. Like Chamberlain, he linked empire to markets for goods made at home.
   - why not B: Kipling's poem "The White Man's Burden" (1899) praised empire as a duty to rule others, not as a way to find markets.
-  - why not C: Hobson attacked empire. He said it made a few investors rich while most people paid its costs.
+  - why not C: Spencer, the best-known Social Darwinist, was a free-trade liberal who opposed wars of conquest. He did not call for colonies as markets.
   - why not D: Lenin attacked empire as a stage of capitalism. He said its profits bought off a small, favored group of workers, but he did not defend colonial expansion.
   - hint: Which of these figures defended empire, and which attacked it? Of the defenders, who gave economic reasons?
 
@@ -662,12 +662,12 @@ KEY: B. Explanation: After the revolutions of 1848, many artists and writers tur
 
 **E7-P45** [Topic 7.8 · LO J · Skill 5.A · Comparison · medium]  Compared with The Gleaners, paintings by Impressionists such as Claude Monet in the 1870s and 1880s placed greater emphasis on
 - (A) heroic scenes from ancient history that taught moral lessons
-- (B) the hardship and poverty of rural laborers
+- (B) smooth, carefully finished surfaces painted in the studio
 - (C) the changing effects of light and color at a particular moment
 - (D) religious stories painted for the walls of churches
 KEY: C. Explanation: Monet and other Impressionists painted outdoors with quick brushstrokes to catch how light and color looked at one moment, as in Impression, Sunrise (1872). They cared less about telling a story or making a social point.
   - why not A: That was the aim of Neoclassical painters such as Jacques-Louis David in the late 1700s.
-  - why not B: Millet's painting already stresses hard rural work. Monet painted mostly landscapes, city streets, and leisure.
+  - why not B: Impressionists used quick, visible brushstrokes and often painted outdoors. A smooth, polished finish was the style the official Academy taught.
   - why not D: Impressionists seldom painted religious scenes. They painted modern life and nature, often outdoors.
   - hint: What did the Impressionists try to capture as they painted outdoors?
 
@@ -877,7 +877,7 @@ KEY: D. Explanation: The chart shows the Scramble for Africa. In about 25 years,
 **E7-E12** [Topic 7.6 · LO H · Skill 5.B · Causation · medium]  During the period 1876–1900, which of the following best explains the change in Africa shown in the chart?
 - (A) European rivalry aided by new weapons, steamships, and the drug quinine
 - (B) A wave of European settlers moving to farm Africa's interior
-- (C) Britain's abolition of the Atlantic slave trade in 1807
+- (C) Britain's abolition of the Atlantic slave trade
 - (D) Falling demand in Europe for tropical goods such as rubber and palm oil
 KEY: A. Explanation: From the 1870s, European states raced each other for land. They wanted raw materials, markets, and power. New weapons, steamships, and quinine made it possible. The Berlin Conference (1884–1885) set rules for claiming Africa.
   - A: Correct. Britain, France, Germany, and other powers raced to claim land in Africa. Machine guns, steamships, and quinine let them push into the interior.
@@ -999,14 +999,14 @@ KEY: B. Explanation: Many leaders of the Indian National Congress, founded in 18
 
 **E7-E21** [Topic 7.7 · LO I · Skill 4.A · medium]  The call for boycott in the passage is best understood in the context of which of the following?
 - (A) The Sepoy Mutiny against East India Company rule
-- (B) The Boxer Rebellion against foreigners in China
-- (C) The British partition of Bengal in 1905
-- (D) The Berlin Conference's rules for claiming Africa
+- (B) Gandhi's Salt March against the British salt tax
+- (C) The British partition of the province of Bengal
+- (D) Britain's annexation of the Punjab after the Sikh wars
 KEY: C. Explanation: In 1905 Britain split the province of Bengal. Many Indians answered with the swadeshi ("own country") movement, which boycotted British goods. Tilak spoke in Calcutta, Bengal's chief city, in 1907. He wanted to use boycott as a wider political weapon.
   - A: Incorrect. The revolt of 1857 was an armed rising fifty years earlier. Tilak says "there is no necessity for arms."
-  - B: Incorrect. The Boxer Rebellion (1899–1901) was a Chinese uprising, not an Indian campaign.
+  - B: Incorrect. Gandhi's Salt March took place in 1930, more than twenty years after this speech.
   - C: Correct. The British split Bengal in 1905. Many Indians saw this as a plan to weaken their national movement. Protesters began to boycott British goods and buy Indian-made (swadeshi) goods.
-  - D: Incorrect. The Berlin Conference (1884–1885) set rules for claiming land in Africa, not India.
+  - D: Incorrect. Britain took over the Punjab in 1849, more than fifty years before this speech. It did not set off a boycott.
 
 **E7-E22** [Topic 7.7 · LO I · Skill 5.A · Comparison · hard]  Compared with the leaders of the Indian revolt of 1857, Tilak
 - (A) relied on boycott and refusal to cooperate rather than armed revolt

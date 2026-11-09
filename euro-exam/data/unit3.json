@@ -4,7 +4,7 @@
  "period": "c. 1648–1815",
  "examWeighting": "10–15%",
  "blurb": "The Fronde and the growth of royal power, the English Civil War and the Glorious Revolution, new economic practices and mercantilism, the Dutch Golden Age, the balance of power, and absolutism in France, Prussia, Austria, and Russia.",
- "version": "2026-11-09c",
+ "version": "2026-11-09d",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 3: Learning Objectives A-H).",
  "topics": [
   {
@@ -153,7 +153,7 @@
     {
      "label": "Source 2",
      "paragraphs": [
-      "Having already made my protestations, not only against the illegality of this pretended Court, but also, that no earthly power can justly call me (who am your King) in question as a delinquent, … the duty I owe to God in the preservation of the true liberty of my people will not suffer me at this time to be silent … .",
+      "Having already made my protestations, not only against the illegality of this pretended Court, but also, that no earthly power can justly call me (who am your King) in question as a delinquent, … but the duty I owe to God in the preservation of the true liberty of my people will not suffer me at this time to be silent … .",
       "There is no proceeding just against any man, but what is warranted, either by God's laws or the municipal laws of the country where he lives. Now I am most confident this day's proceeding cannot be warranted by God's laws; for, on the contrary, the authority of obedience unto Kings is clearly warranted, and strictly commanded in both the Old and New Testament … . Then for the law of this land, I am no less confident, that no learned lawyer will affirm that an impeachment can lie against the King, they all going in his name: and one of their maxims is, that the King can do no wrong. … But how the House of Commons can erect a Court of Judicature, which was never one itself (as is well known to all lawyers) I leave to God and the world to judge. …"
      ],
      "attribution": "Charles I, king of England, Scotland, and Ireland, written statement of his reasons for refusing to accept the authority of the court, January 21, 1649",
@@ -309,8 +309,8 @@
    ],
    "glossary": [
     {
-     "t": "the government managed … by men that trade",
-     "d": "the government run by merchants"
+     "t": "managed",
+     "d": "run"
     },
     {
      "t": "traffic",
@@ -372,7 +372,7 @@
     },
     {
      "t": "House of Hanover",
-     "d": "a German royal family, Protestant relatives of the Stuarts"
+     "d": "the ruling family of the German state of Hanover, Protestant relatives of the Stuarts"
     },
     {
      "t": "apprehension",
@@ -731,7 +731,7 @@
    "caption": "A giant wearing a crown rises above hills, fields, and a town with a large church. His body and arms are made of hundreds of tiny people, all turned toward his head. In his right hand he holds a sword, and in his left hand a crozier. A line in Latin from the Bible runs across the top. Below the town, a curtain shows the title of the book: \"Leviathan, or the Matter, Forme and Power of a Common-wealth Ecclesiasticall and Civil.\" On the left, under the sword, small pictures show a castle, a crown, a cannon, a pile of weapons and flags, and a battle. On the right, under the crozier, small pictures show a church, a bishop's hat, lightning bolts, forked weapons labeled with words used in arguments, and a meeting of churchmen.",
    "attribution": "Engraved title page of Leviathan, a book by the English philosopher Thomas Hobbes, published in London in 1651; the engraving is usually credited to the French artist Abraham Bosse",
    "credit": "British Library, London. Public domain (CC0) image via Wikimedia Commons (file: Leviathan frontispiece cropped British Library.jpg).",
-   "description": "A black-and-white engraving, taller than it is wide. In the upper half, a giant figure wearing a crown rises from behind a range of hills, as if wading out of the land. He has long hair and a mustache and looks straight at the viewer. His chest and arms are made of hundreds of tiny human figures in hats and cloaks, packed together and turned toward his head. His right arm raises a long sword; his left arm holds a tall, richly carved crozier. Below him lie hills, farms, villages, and a walled town with neat streets, houses, soldiers, and a large church with two spires. Across the top runs the Latin line Non est potestas Super Terram quae Comparetur ei, Iob 41.24. The lower half is divided into three columns. In the center, a fringed curtain carries the title: Leviathan, or the Matter, Forme and Power of a Common-wealth Ecclesiasticall and Civil, by Thomas Hobbes of Malmesbury, London, printed for Andrew Crooke, 1651. The left column has five small pictures, one above another: a castle on a hill, a crown, a cannon, a pile of muskets, swords, flags, and a drum, and a battle with horsemen. The right column has five matching pictures: a church, a bishop's miter, crossed lightning bolts, a set of forked weapons labeled with terms from logic and church debate, such as Syllogisme, Spiritual, and Temporal, with a pair of horns labeled Dilemma, and a meeting of churchmen in a hall.",
+   "description": "A black-and-white engraving, taller than it is wide. In the upper half, a giant figure wearing a crown rises from behind a range of hills, as if wading out of the land. He has long hair and a mustache and looks straight at the viewer. His chest and arms are made of hundreds of tiny human figures in hats and cloaks, packed together and turned toward his head. His right arm raises a long sword; his left arm holds a tall, richly carved crozier. Below him lie hills, farms, villages, and a walled town with neat streets, houses, soldiers, and a large church with two spires. Across the top runs the Latin line Non est potestas Super Terram quae Comparetur ei, Iob 41.24. The lower half is divided into three columns. In the center, a fringed curtain carries the title: Leviathan, or the Matter, Forme and Power of a Common-wealth Ecclesiasticall and Civil, by Thomas Hobbes of Malmesbury. A scroll below the curtain reads London, Printed for Andrew Crooke, 1651. The left column has five small pictures, one above another: a castle on a hill, a crown, a cannon, a pile of muskets, swords, flags, and a drum, and a battle with horsemen. The right column has five matching pictures: a church, a bishop's miter, crossed lightning bolts, a set of forked weapons labeled with terms from logic and church debate, such as Syllogisme, Spiritual, and Temporal, with a pair of horns labeled Dilemma, and a meeting of churchmen in a hall.",
    "glossary": [
     {
      "t": "Leviathan",
@@ -1794,7 +1794,7 @@
     "D": "Officers of the king's standing army"
    },
    "answer": "B",
-   "explanation": "Parliament had two houses. The House of Lords held nobles and bishops. The House of Commons was elected mostly by landowners. By limiting the king and protecting Parliament, the Bill of Rights protected these landowning gentry and nobles.",
+   "explanation": "Parliament had two houses. The House of Lords held nobles and bishops. Most members of the House of Commons were landowning gentry, chosen by a small number of voters. By limiting the king and protecting Parliament, the Bill of Rights protected these gentry and nobles.",
    "whyNot": {
     "A": "The Bill of Rights accuses James II of trying \"to subvert and extirpate the Protestant religion.\" It did not protect Catholics' power.",
     "C": "Most men who voted for Parliament owned property, and the Bill of Rights did not widen the vote.",
@@ -1909,7 +1909,7 @@
     "D": "Cottage industry"
    },
    "answer": "D",
-   "explanation": "Clothiers and a few hired men made cloth in their own houses. Women and children in nearby cottages carded and spun the wool. The clothier took the finished cloth to market. This home-based work is called cottage industry.",
+   "explanation": "Clothiers and their hired workers made cloth in the clothiers' own houses. Women and children in nearby cottages carded and spun the wool. The clothier took the finished cloth to market. This home-based work is called cottage industry.",
    "whyNot": {
     "A": "Factories bring workers together under one roof to work machines. Defoe describes work done in many scattered houses and cottages.",
     "B": "Under the manorial system, peasants farmed a lord's land and owed him labor. Defoe's clothiers make cloth \"to be sold\" at market.",
@@ -2183,12 +2183,12 @@
    "lo": "C",
    "skill": "2.B",
    "difficulty": "medium",
-   "stem": "Which of the following best describes the point of view from which Sancho judges European traders?",
+   "stem": "Which of the following best describes Sancho's point of view on European traders?",
    "options": {
-    "A": "He judges them as protectors who saved Africans from their own rulers.",
-    "B": "He judges them as people whose overseas trade should be ended.",
-    "C": "He judges them by religious ideals that their own conduct violates.",
-    "D": "He judges them mainly by the wealth their trade adds to Britain."
+    "A": "He sees them as protectors who saved Africans from their own rulers.",
+    "B": "He sees their overseas trade as harmful and wants it ended.",
+    "C": "He sees them as believers whose conduct betrays their own faith.",
+    "D": "He sees them as useful mainly for the wealth they add to Britain."
    },
    "answer": "C",
    "explanation": "Sancho says God meant trade \"to unite mankind\" in \"brotherly love.\" Then he shows \"Christian\" traders spreading greed, cruelty, and the slave trade. He judges them by the faith they claim to follow.",
@@ -2234,14 +2234,14 @@
     "A": "The end of Britain's slave trade",
     "B": "The Glorious Revolution in England",
     "C": "The repeal of the Navigation Acts",
-    "D": "The cut in Britain's tax on tea in 1784"
+    "D": "Napoleon's restoration of slavery in French colonies"
    },
    "answer": "A",
    "explanation": "Writings by Black authors in Britain, such as Sancho, Olaudah Equiano, and Ottobah Cugoano, helped the fight against slavery. Parliament banned the British slave trade in 1807.",
    "whyNot": {
     "B": "The Glorious Revolution took place in 1688–1689, long before Sancho wrote in 1778.",
     "C": "Britain repealed the Navigation Acts in 1849 because of arguments for free trade, not protests against the slave trade.",
-    "D": "Parliament cut the tea tax in 1784 to stop smuggling. Sancho's letter attacks the greed and cruelty of European traders, not taxes."
+    "D": "Napoleon brought slavery back to France's colonies in 1802 to restore the plantation economy. Arguments like Sancho's pushed the other way, toward ending the slave trade."
    },
    "hint": "Sancho calls the slave trade \"abominable.\" Which later change dealt with the problem he describes?",
    "reasoning": "Causation"
@@ -2261,7 +2261,7 @@
     "D": "warn viewers that wealth and fine clothes lead people into sin"
    },
    "answer": "C",
-   "explanation": "The guild ordered this group portrait for its hall in Amsterdam. It shows the officials as calm, serious men at work. This told the cloth makers and merchants who came there that the officials judged fairly.",
+   "explanation": "The syndics themselves ordered this group portrait for the guild's hall in Amsterdam. It shows them as calm, serious men at work. This told the cloth makers and merchants who came there that the officials judged fairly.",
    "whyNot": {
     "A": "The painting shows six men at a meeting, not a saint, and it was made for the guild's hall. Dutch Reformed churches did not display religious paintings.",
     "B": "No prince, soldier, or battle appears. The men are cloth officials at a meeting.",
@@ -2304,10 +2304,10 @@
     "A": "Joint-stock companies that sold shares to investors",
     "B": "Royal ministers who ran state-owned workshops",
     "C": "Central banks that lent money to governments at war",
-    "D": "Guilds that set and enforced standards for goods"
+    "D": "Inspectors who enforced quality standards for goods"
    },
    "answer": "D",
-   "explanation": "Guilds controlled many trades in European towns. Each year, Amsterdam's mayors and aldermen chose syndics to check the quality of cloth for the drapers' guild. Such rules protected buyers, but they could also limit competition.",
+   "explanation": "Guilds controlled many trades in European towns. Each year, Amsterdam's mayors and aldermen chose syndics to check the quality of cloth for the drapers' guild. Such checks protected buyers, but guild rules could also limit competition.",
    "whyNot": {
     "A": "Joint-stock companies, such as the Dutch East India Company, raised money by selling shares. These men are guild officials who inspect cloth.",
     "B": "The Dutch Republic had no king or royal ministers. State-run workshops were more common in France under Colbert.",
@@ -2510,7 +2510,7 @@
    "lo": "G",
    "skill": "2.C",
    "difficulty": "hard",
-   "stem": "Which of the following most limits the edict's usefulness as evidence of how many French Protestants had truly accepted the Catholic faith?",
+   "stem": "Which of the following most limits the edict's usefulness as evidence that French Protestants had freely accepted the Catholic faith?",
    "options": {
     "A": "Protestants in France still outnumbered Catholics in the 1680s.",
     "B": "Many conversions had been forced by soldiers lodged in Protestant homes.",
@@ -2647,7 +2647,7 @@
      "C": "Correct. The king creates a council of commerce to meet \"in our presence,\" pays help from the \"royal treasury,\" and tells merchants to deal with his minister, Colbert.",
      "D": "Incorrect. The letter says nothing about the Church. Trade is directed by the king and his minister."
     },
-    "explanation": "Louis XIV and his minister Colbert used royal councils, money from the treasury, and trading companies to promote French trade and industry. The letter places these policies under the king's direction."
+    "explanation": "Louis XIV and his minister Colbert used royal councils, royal money, and trading companies to help French trade and industry grow. The letter shows the king in charge of these plans."
    },
    {
     "id": "E3-E03",
@@ -2857,7 +2857,7 @@
     "rationales": {
      "A": "Incorrect. In these years the Company bought its tea in China. Tea plantations in British India began only in the 1830s.",
      "B": "Incorrect. The Calico Acts of 1700 and 1721 limited cotton cloth from India to protect British wool and silk makers. They did not cause the rise in tea sales.",
-     "C": "Incorrect. The table records tea sold at the Company's London auctions. It does not show British goods sold to other Europeans.",
+     "C": "Incorrect. The table counts tea bought in Britain, an import from Asia. Demand in other European countries for British-made goods does not explain why people in Britain bought more tea.",
      "D": "Correct. In the 1700s tea, sugar, coffee, and tobacco from Asia and the Americas became everyday goods for many Europeans, not just for the rich."
     },
     "explanation": "As trade with Asia and the Americas grew, tea and sugar became cheaper and more common in Britain. Many families began to drink sweet tea every day. This was part of a new consumer culture."
@@ -3038,7 +3038,7 @@
      "A": "A Protestant revolt against Poland's Catholic kings and bishops",
      "B": "Pugachev's peasant revolt against serfdom",
      "C": "Polish nobles' power to elect kings and block laws in their parliament",
-     "D": "Poland's war with Sweden for the Baltic coast"
+     "D": "Poland's war with Sweden for control of the Baltic coast"
     },
     "answer": "C",
     "rationales": {

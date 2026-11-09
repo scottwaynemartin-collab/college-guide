@@ -1,0 +1,16 @@
+Facts read by web fetch for v2026-11-09d (read 2026-11-08; pages not saved with curl).
+
+1. Rijksmuseum, object SK-C-6, The Sampling Officials of the Amsterdam Drapers' Guild, Known as 'The Syndics', data tab
+   https://www.rijksmuseum.nl/en/collection/SK-C-6 (object page, data tab)
+   Provenance line: "Commissioned by the sitters for the hall of the Drapers' Guild (Staalhof), Staalstraat, Amsterdam." (Later moved to the Town Hall's 'Konstkamer' in 1771; on loan from the City of Amsterdam since 1808.)
+   Inscriptions as before: "signature and date: 'Rembrandt f. 1662'"; "signature and date (false): 'Rembrandt. f. 1661.'"
+   Used for: E3-P34 explanation ("The syndics themselves ordered this group portrait for the guild's hall in Amsterdam"). See P12.md.
+
+2. Wikipedia, "Reinstatement of slavery by Napoleon"
+   https://en.wikipedia.org/wiki/Reinstatement_of_slavery_by_Napoleon
+   Law of 20 May 1802 maintained slavery in Martinique, Tobago and Saint Lucia (returned by Britain under the Treaty of Amiens); in Guadeloupe, Richepance's troops imposed the return of slavery in 1802, formalized by the consular decree of 16 July 1802; in French Guiana by the consular decree of 7 December 1802. Motive: reviving the colonial plantation economy ("revive the prosperity of the sugar islands").
+   Used for: E3-P33 new choice "Napoleon's restoration of slavery in French colonies" and its why-not ("Napoleon brought slavery back to France's colonies in 1802 to restore the plantation economy").
+
+3. Image check (local file, not web): raw/commons/leviathan_bl_1280.jpg shows the imprint "London / Printed for Andrew Crooke / 1651" in a scroll-framed cartouche below the title curtain. Used for the P4 description.
+
+4. Page image check (local file): raw/img/gardiner1906_p374.jpg, line "I in this case alone concerned: but the duty I owe to God in". Used for X2 Source 2 ('but' restored).
