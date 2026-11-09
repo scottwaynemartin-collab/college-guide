@@ -1,4 +1,4 @@
-# AP European History — Unit 9 practice bank (v2026-11-09d)
+# AP European History — Unit 9 practice bank (v2026-11-09e)
 
 Unit 9: Cold War and Contemporary Europe, c. 1914–present (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 9.1 Contextualizing Cold War and Contemporary Europe (LO A)
@@ -43,7 +43,7 @@ KEY: C. Explanation: By the late 1970s the Soviet economy grew very slowly. Fact
   - why not A: The Hungarian Revolution came in 1956, more than thirty years before this speech, and Soviet troops crushed it. Gorbachev's reforms answered problems inside the Soviet Union in the 1970s and 1980s.
   - why not B: The oil price rises of 1973 and 1979 hurt Western Europe. The Soviet Union sold oil abroad, so for a time it earned more money.
   - why not D: The Berlin Wall fell in November 1989, almost a year after this speech.
-  - hint: Which choice describes a problem at home that Gorbachev's reforms were meant to fix?
+  - hint: Gorbachev took power in 1985. What had been happening to the Soviet economy in the years before that?
 
 **E9-P02** [Topic 9.4 · LO D · Skill 3.D · medium]  Which of the following later developments would best support the argument that Gorbachev put his principle of "freedom of choice" into practice?
 - (A) Soviet troops attacked independence protesters in Lithuania in 1991.
@@ -219,11 +219,11 @@ Description: A black-and-white photograph of a construction site. Behind a fores
 - (A) Soviet efforts to rebuild East Berlin as a model communist city
 - (B) U.S. aid to rebuild Western Europe after the war
 - (C) West German payments to the victims of the Holocaust
-- (D) the building boom that followed the reunification of Germany in 1990
+- (D) British aid to rebuild the British sector of Berlin
 KEY: B. Explanation: The Marshall Plan (1948–1952) sent billions of dollars in American aid to Western Europe. West Berlin got some of it. The money helped rebuild industry, housing, and businesses after the war.
   - why not A: The Kurfürstendamm is in West Berlin, and the sign names the Marshall Plan, an American program. The Soviet Union refused Marshall Plan aid.
   - why not C: In 1952 West Germany did agree to pay Israel and Jewish groups. But that money did not build hotels in Berlin.
-  - why not D: The photograph is from 1952. Germany reunited almost forty years later.
+  - why not D: The Kurfürstendamm was in the British sector of West Berlin, but the sign names the Marshall Plan, an American program. Britain itself received Marshall Plan aid.
   - hint: Look at the date of the photograph and the program named on the sign.
 
 **E9-P14** [Topic 9.3 · LO C · Skill 2.B · medium]  Given its context, Zentralbild most likely released the photograph and its caption in order to
@@ -393,7 +393,7 @@ KEY: B. Explanation: The Court said workers could use Article 119 in their own n
 > There is no doubt that many of the issues in this report will arouse strong and widely differing opinions. Indeed, among the public at large they are already doing so. There will not be a consensus view on all recommendations. The members of the committee were divided in their view on certain aspects of research and on surrogacy.
 > * Louise Brown, born in England in July 1978, was the first baby conceived by in vitro fertilisation (IVF): an egg was fertilised in a laboratory dish and then placed in the mother's womb.
 — Lord Glenarthur, junior health minister in Margaret Thatcher's Conservative government, speech in the House of Lords opening a debate on the report of a government inquiry into human fertilisation and embryology (the Warnock Report), October 31, 1984 (Text from Hansard, House of Lords Debates, 5th series, vol. 456, cols. 524–525 (October 31, 1984); the online text's "in this county" is corrected to "in this country". Contains Parliamentary information licensed under the Open Parliament Licence v3.0; adapted)
-> Words to know: genetically their own = born from the couple's own egg and sperm; disquiet = worry; medical ethics = rules of right and wrong for doctors; scrutiny = close examination; lay = not professional; ordinary citizens; statutory body = an official organization set up by law; embryos = the earliest stage of development after an egg is fertilized; surrogacy = an arrangement in which a woman carries a baby for another couple
+> Words to know: genetically their own = born from the couple's own egg and sperm; disquiet = worry; medical ethics = rules of right and wrong for doctors; scrutiny = close examination; lay = not professional; ordinary citizens; statutory body = an official organization set up by law; embryos = fertilized eggs in the earliest stage of growth; surrogacy = an arrangement in which a woman carries a baby for another couple
 
 **E9-P25** [Topic 9.12 · LO M · Skill 3.A · easy]  Which of the following best describes Glenarthur's main point?
 - (A) Doctors, not Parliament, should decide how new fertility treatments are used.
@@ -408,11 +408,11 @@ KEY: C. Explanation: The birth of the first "test-tube baby" in 1978 raised hope
 
 **E9-P26** [Topic 9.12 · LO M · Skill 5.B · Causation · medium]  The proposals described in the passage most directly led to which of the following?
 - (A) a 1990 law creating an authority to license fertility clinics
-- (B) a British law in 1985 that banned fertility treatment for married couples
+- (B) a 1985 law that banned research on human embryos
 - (C) a European Union law requiring member states to allow surrogacy
 - (D) the Catholic Church's approval of in vitro fertilisation
 KEY: A. Explanation: In 1990 Parliament passed the Human Fertilisation and Embryology Act. It set up an authority to license fertility clinics and embryo research. The law kept the 14-day limit that the Warnock Report proposed.
-  - why not B: Britain did not ban fertility treatment. The number of clinics grew in the 1980s.
+  - why not B: In 1985 Enoch Powell's bill to ban embryo research won a large vote in the House of Commons, but it ran out of time and never became law. The 1990 act allowed research up to 14 days.
   - why not C: The European Union has left surrogacy to its member states, and many of them forbid it.
   - why not D: The Catholic Church spoke out against IVF in 1987. It still opposes it.
   - hint: Find the choice that fits the report's proposals, then check whether the date and the details are right.
@@ -507,11 +507,11 @@ KEY: B. Explanation: Green parties began to form in the 1970s and grew stronger 
 **E9-P33** [Topic 9.14 · LO O · Skill 5.A · Comparison · medium]  Which demand of many European student protesters in 1968 most closely resembled the argument of the passage?
 - (A) less focus on consumer goods and more personal freedom
 - (B) stronger executive leadership and greater national prestige
-- (C) higher industrial output through central state planning
+- (C) making polluters pay the cost of the harm they cause
 - (D) faster economic growth through closer European trade ties
 KEY: A. Explanation: In 1968 students protested in France, West Germany, Italy, and other countries. Many attacked the consumer society and old-fashioned authority. Like the passage, they asked whether making and buying more goods really made life better.
   - why not B: In France the students protested against President de Gaulle's strong rule. Strong leadership and national prestige were de Gaulle's goals, not theirs.
-  - why not C: This makes producing more the main goal. The passage says that "economic expansion is not an end in itself."
+  - why not C: The passage does say polluters should pay. But this rule came from governments in the early 1970s; for example, a group of rich countries called the OECD adopted it in 1972. It was not a main demand of the student protesters of 1968.
   - why not D: This makes faster growth the main goal. The passage warns against judging growth "from purely quantitative aspects."
   - hint: What did the young protesters of 1968 criticize about the societies built after the war?
 
@@ -685,7 +685,7 @@ KEY: B. Explanation: Britain and Denmark won the right to stay out of the single
 - (B) Britain's decision to leave the EU after its 2016 referendum
 - (C) disputes over admitting refugees to EU states in 2015
 - (D) the Greek debt crisis and rescue loans beginning in 2010
-KEY: D. Explanation: Countries using the euro could no longer set their own interest rates or lower the value of their own money. In 2010 Greece could no longer borrow at prices it could afford. In May 2010 it received rescue loans tied to harsh spending cuts. Ireland (2010) and Portugal (2011) also needed rescue loans.
+KEY: D. Explanation: Countries using the euro could no longer set their own interest rates or lower the value of their own money. In 2010 Greece could no longer borrow money at interest rates it could afford. In May 2010 it received rescue loans tied to harsh spending cuts. Ireland (2010) and Portugal (2011) also needed rescue loans.
   - why not A: New members did not have to adopt the euro right away. Their joining the EU was not a problem caused by a shared currency.
   - why not B: Britain kept the pound, so its decision to leave did not come from sharing the euro.
   - why not C: These disputes were about migration and borders, not about a shared currency.
@@ -706,7 +706,7 @@ KEY: D. Explanation: Countries using the euro could no longer set their own inte
 - (B) the Troubles
 - (C) the expulsion of Germans after 1945
 - (D) the Cold War arms race
-KEY: B. Explanation: From the late 1960s to the 1990s, about 3,500 people were killed in the Troubles, most of them in Northern Ireland. Republican and loyalist armed groups and British security forces were involved. This period is called the Troubles. The Good Friday Agreement tried to end it.
+KEY: B. Explanation: From the late 1960s to the 1990s, about 3,500 people were killed in the conflict over Northern Ireland, most of them in Northern Ireland itself. Republican and loyalist armed groups and British security forces were involved. This period is called the Troubles. The Good Friday Agreement tried to end it.
   - why not A: The Irish War of Independence ended in 1921. Mowlam speaks of violence that the agreement of 1998 was meant to end.
   - why not C: The expulsion of Germans took place in Central Europe. It had nothing to do with Northern Ireland.
   - why not D: The Cold War arms race was a contest between the superpowers. The Northern Ireland conflict was not part of it.
@@ -811,14 +811,14 @@ KEY: B. Explanation: Attlee says that Britain chose to leave. Many historians di
   - D: Incorrect. The 1935 law fits Attlee's claim that self-government was Britain's "settled policy." It does not challenge it.
 
 **E9-E06** [Topic 9.11 · LO L · Skill 5.B · Causation · medium]  The ties between Britain and the new Dominions that Attlee hoped would continue contributed most directly to which later development?
-- (A) migration from southern Europe to Britain under European Community rules
-- (B) the arrival of Hungarian refugees in Britain after 1956
-- (C) the settlement of displaced Europeans in Britain after World War II
+- (A) India's leading role in the Non-Aligned Movement
+- (B) Britain's entry into the European Community in 1973
+- (C) the wars between India and Pakistan over Kashmir
 - (D) migration from India and Pakistan to Britain
 KEY: D. Explanation: India and Pakistan stayed in the Commonwealth. Under a 1948 law, their citizens could move to Britain freely. Many came to work in factories, in hospitals, and on buses and trains. Large South Asian communities grew in British cities.
-  - A: Incorrect. Britain joined the European Community only in 1973. Its rules on moving for work came from European unity, not from ties with India and Pakistan.
-  - B: Incorrect. Hungarian refugees fled Soviet rule after the 1956 revolution. Their arrival had nothing to do with Britain's ties with India and Pakistan.
-  - C: Incorrect. Displaced Europeans, such as Polish soldiers who fought for the Allies, settled in Britain because of the war. Ties with India and Pakistan had nothing to do with it.
+  - A: Incorrect. India stayed in the Commonwealth, but it refused to join either side in the Cold War. Non-alignment came from India's own foreign policy, not from its ties with Britain.
+  - B: Incorrect. Joining the European Community pulled Britain's trade toward Europe and away from the Commonwealth. It did not grow out of Britain's ties with India and Pakistan.
+  - C: Incorrect. The fighting over Kashmir began in 1947. It grew out of partition and the dispute over which new country Kashmir would join, not out of ties with Britain.
   - D: Correct. The British Nationality Act of 1948 let citizens of Commonwealth countries, including India and Pakistan, enter Britain freely. Many came to fill jobs. The Commonwealth Immigrants Act of 1962 began to limit entry.
 
 
@@ -894,12 +894,12 @@ Description: A black-and-white photograph of a long, bright workroom in a chocol
 
 **E9-E11** [Topic 9.2 · LO B · Skill 4.B · medium]  The scene in the photograph is best understood in the context of
 - (A) the forced labor of foreign workers in German factories during World War II
-- (B) high unemployment in West Germany after the oil crisis of 1973
+- (B) high unemployment in West Germany in the years just after the war
 - (C) the flight of refugees from Hungary after the revolution of 1956
 - (D) labor shortages during West Germany's postwar economic boom
 KEY: D. Explanation: West Germany's economy grew fast after 1950, and it needed more workers. From 1955 the government recruited guest workers from southern Europe and later from Turkey. The need grew after the Berlin Wall stopped East Germans from coming west in 1961.
   - A: Incorrect. The photograph was taken in 1962. Nazi forced labor ended in 1945. These women came under a peacetime recruitment deal.
-  - B: Incorrect. After the 1973 oil crisis, West Germany stopped recruiting foreign workers. This photograph is from 1962, during the boom.
+  - B: Incorrect. Unemployment was high in West Germany around 1950. By 1962 there were more jobs than workers, so the government recruited workers abroad.
   - C: Incorrect. Hungarian refugees went to many countries after 1956. But the archive says these women were guest workers from Italy.
   - D: Correct. In the boom of the 1950s and 1960s, West German factories needed more workers. The government signed deals to recruit them. It began with Italy in 1955, then Spain and Greece in 1960 and Turkey in 1961.
 
@@ -952,12 +952,12 @@ KEY: A. Explanation: Malik says that defending "the socialist gains" of each cou
   - D: Incorrect. Peaceful coexistence was Khrushchev's idea that communist and capitalist states could compete without war. It did not justify invading allies.
 
 **E9-E15** [Topic 9.7 · LO G · Skill 5.B · Continuity and Change · medium]  The policy defended in Source 2 was abandoned when
-- (A) Nikita Khrushchev denounced Stalin's crimes in 1956
+- (A) Leonid Brezhnev died and Yuri Andropov took power in 1982
 - (B) the superpowers signed the SALT I arms agreements in 1972
 - (C) Gorbachev let Eastern European states go their own way in 1989
 - (D) Poland's government declared martial law against Solidarity in 1981
 KEY: C. Explanation: In 1989 Gorbachev needed to cut costs and improve ties with the West. He refused to use force to save the communist governments of Eastern Europe. One after another they fell, and the Soviet bloc came to an end.
-  - A: Incorrect. Khrushchev's 1956 speech came before this source. Later that year he sent troops to crush the Hungarian Revolution.
+  - A: Incorrect. Brezhnev died in November 1982, but Andropov and then Konstantin Chernenko kept the policy. Only Gorbachev gave it up.
   - B: Incorrect. The SALT I agreements of 1972 limited some nuclear weapons. They did not change Soviet control over Eastern Europe.
   - C: Correct. Gorbachev let the revolutions of 1989 happen without sending troops. A Soviet spokesman joked that the Brezhnev Doctrine had become the Sinatra Doctrine. Frank Sinatra sang the song My Way, and now each country could go its own way.
   - D: Incorrect. Martial law in Poland in 1981 crushed Solidarity under Soviet pressure. It continued the policy instead of ending it.
@@ -1007,7 +1007,7 @@ KEY: B. Explanation: In the 1980s the Western economies grew. The communist econ
 KEY: D. Explanation: The postwar boom had paid for generous welfare programs. Growth slowed after the oil shock of 1973. Critics on the right then called for lower taxes and a smaller state. Some governments cut spending.
   - A: Incorrect. The National Health Service began in 1948. That was before the slowdown, not after it.
   - B: Incorrect. The Coal and Steel Community was founded in 1951, during the years of fast growth.
-  - C: Incorrect. The Soviet invasion of Afghanistan came from Soviet aims in Central Asia, not from slower growth in Western Europe.
+  - C: Incorrect. The Soviet invasion of Afghanistan came from the Soviet wish to keep a communist government in power there, not from slower growth in Western Europe.
   - D: Correct. In the 1970s growth slowed and prices rose. Government budgets came under strain. Conservative leaders such as Margaret Thatcher, prime minister from 1979, blamed high taxes and a large welfare state.
 
 
@@ -1088,7 +1088,7 @@ KEY: D. Explanation: After the 1960s, gay and lesbian groups, like women's group
 **E9-E24** [Topic 9.13 · LO N · Skill 5.B · Causation · medium]  The inclusion of Article 37 in the Charter most directly reflects
 - (A) social democratic campaigns to expand public welfare
 - (B) conservative campaigns to reduce state regulation
-- (C) campaigns by Green parties and environmental groups
+- (C) campaigns by Green parties
 - (D) business campaigns to lower barriers to trade
 KEY: C. Explanation: From the 1970s on, Green parties and environmental groups pushed governments to protect nature. By 2000 the European Union treated sustainable development as a basic rule.
   - A: Incorrect. These campaigns were about pensions, health care, and other public services. Article 37 is about the environment.
@@ -1165,6 +1165,7 @@ Not used (with the reason):
 - David Steel's 1966 abortion bill speech (Hansard) was downloaded but not used; the Warnock debate (P9) covers medical technology and moral debate.
 
 Notes:
+- Changes in v2026-11-09e (final independent check, check_report_final.md: 73/73 blind agreement, no MUST-FIX; all twelve SHOULD-FIXes applied after each fact was checked). Sources: only the P9 glossary entry "embryos" changed (now "fertilized eggs in the earliest stage of growth"). No excerpt, attribution, credit line or footnote changed; no source was added or replaced. Items: distractors replaced in E9-E06 (non-alignment, Britain's entry into the EC in 1973, the Kashmir wars), E9-P33 C (polluter pays; OECD Council Recommendation adopted 26 May 1972, checked on legalinstruments.oecd.org), E9-P13 D (British aid to the British sector; the Kurfürstendamm/Fasanenstraße site is in Charlottenburg), E9-E11 B (unemployment just after the war: about 11% in 1950), E9-E15 A (Brezhnev's death and Andropov, November 1982) and E9-P26 B (a 1985 embryo-research ban: Enoch Powell's Unborn Children (Protection) Bill was read a second time 238–66 on 15 Feb. 1985, HC Deb vol. 73; its Report stage was never completed and the time motion was talked out on 7 June 1985, HC Deb vol. 80 cols. 608–611, so it never became law); the E9-E24 key is shortened to "campaigns by Green parties"; wording fixes in the E9-P01 hint, the E9-P45 and E9-P46 explanations and E9-E18 rationale C.
 - Changes in v2026-11-09d (ChatGPT Pro review, saved as ae9/chatgpt_review.txt; every finding was checked before it was applied). Sources: P5's attribution, caption and glossary now call Zentralbild "an East German photo agency" (it joined ADN only in January 1956; Bundesarchiv and ZZF pages saved in raw/web/); X5 Source 1 gets a footnote that East German combat troops were held back and did not enter Czechoslovakia (Bundesarchiv page saved in raw/web/); P4 gets a footnote that NATO's nuclear protection covered its members and that some Western European states stayed neutral; P7's title is now "Total Fertility Rates ... (births per woman)" and its replacement-level sentence is more exact; X6's title is now "GDP per Person ..." and its note says GDP per person is not what each person earned; glossaries changed for X2 ("allegiance to the Sovereign": no "head of the Commonwealth" in 1947), X3 Source 1 ("the House": a chamber of Parliament) and P9 ("embryos": neutral wording); P11's locator now names Part I, Introduction and Title II. No excerpt's words changed (the only additions are two footnote asterisks, which the checker strips; check_excerpts.py still reports the same five documented misses). No source was added or replaced. Items: E9-P33 was rewritten to assess the revolts of 1968 (KC-4.4.III.C; now 9.14, LO O), so topic counts are now 9.14: 4 and 9.15: 4; distractors were replaced in E9-P11, P17, P20, P24, P27, P39, P45, P48, E01, E06, E20, E22, E24; skill tags follow the review (1.A for E9-P10, P29, E03, E14; 3.A for P22; 5.A for P32, P42, E10; 5.B for E16).
 - Changes in v2026-11-09c (coverage gaps named in check_report.md, "Coverage of core Cold War content"): two practice sets were replaced; set IDs and item IDs (E9-P01 to E9-P06) are kept, so nothing else shifts. The two sets chosen were the weakest fits to the Unit 9 CED: P1 (Marinetti, 1909) predates the unit's c. 1914 start, and Learning Objective O concerns culture after the Second World War; P2 (Zaghlul, 1919) duplicated the only decolonization angle the bank already had (British, peaceful, before 1947), while KC-4.1.VI.C (delayed independence after 1945, Cold War alignments, the FLN) had no source. New P1: Gorbachev's address to the UN General Assembly, 7 Dec. 1988 (A/43/PV.72), items on perestroika and economic stagnation (9.7), the Polish elections of 1989 (9.4), and the purpose of unilateral troop cuts (9.1). New P2: UN General Assembly resolution 1514 (XV), 14 Dec. 1960, items linking self-determination back to Wilson (KC-4.1.VI.A, which the Zaghlul letter used to cover), the Algerian War and the FLN, and Portugal's colonies and the 1974 revolution (all 9.9). Trade-off: Futurism and Dada are no longer tested; 9.14 keeps three items (P7 fertility data and E9-E23). Topic counts are now 9.1: 4, 9.4: 7, 9.7: 8, 9.9: 5, 9.14: 3 (others unchanged). tools/write_sources.py has the new P1/P2 metadata and can now write selected files only (python3 ae9/tools/write_sources.py P1 P2).
 - Retired sources (v2026-11-09c). Their source files were moved to sources/retired/ (P1_marinetti_1909.md, P2_zaghlul_1919.md) and their raw files stay in raw/. Old P1: F. T. Marinetti, "Manifesto of Futurism" (Le Figaro, 20 Feb. 1909), anonymous English translation in Exhibition of Works by the Italian Futurist Painters (London: Sackville Gallery, March 1912), pp. 3–4; raw/ia/futurist_1912_sackville.pdf and _djvu.txt; transcription raw/transcribed/futurist_1912_catalogue_pp3-4.txt; basis: published 1912 (pre-1931). Old P2: Saad Zaghlul to Woodrow Wilson, Paris, 6 June 1919, in White Book: Egyptian Delegation to the Peace Conference (Paris, 1919), pp. 58–60; raw/ia/egypt_delegation_1919_cu31924027900921.txt; basis: published 1919 (pre-1931); Zaghlul's account of British reprisals had been left out on purpose. No pre-1931 text remains in the bank.
@@ -1702,6 +1703,7 @@ EXCERPT AS PRINTED IN THE BANK:
 NOTES ON MISMATCHES, CUTS AND CORRECTIONS:
 The online text reads '1978 saw the birth in this county of a child'; corrected to 'country' (disclosed in the credit line; an apparent slip). The quotations from the Warnock Report's foreword (Crown copyright) are not used. Cuts as marked.
 v2026-11-09d (ChatGPT review): the glossary entry "embryos" ("unborn humans at the earliest stage of development") took a side in the moral debate the passage describes; it now reads "the earliest stage of development after an egg is fertilized." The excerpt is unchanged.
+v2026-11-09e (final check): the glossary entry "embryos" now reads "fertilized eggs in the earliest stage of growth" (the old wording defined a thing as a stage). The excerpt is unchanged.
 
 ### P10
 ID: P10
@@ -1751,6 +1753,7 @@ EXCERPT AS PRINTED IN THE BANK:
 
 NOTES ON MISMATCHES, CUTS AND CORRECTIONS:
 The quotation inside the first paragraph is the programme's own quotation of the Paris summit declaration (October 1972); the inner cut is marked. The space before semicolons ('resources ; it') is closed up. The raw text has the misprint 'manged'; that sentence is cut. Principle 3 is quoted from its second paragraph; since v2026-11-09b its number is kept and its first sentence is marked as cut ("3. … The natural environment"), so all four principles show their numbers. Replaced an earlier draft that used the Brundtland Report (A/42/427), dropped because its text was also published commercially (Oxford University Press, 1987) under the World Commission on Environment and Development's own copyright.
+v2026-11-09d (ChatGPT review, coverage gap): E9-P33 now asks which demand of the 1968 student protesters most resembled the passage (KC-4.4.III.C, Topic 9.14, LO O, Skill 5.A, Comparison). Its why-nots quote only words printed in the excerpt ("economic expansion is not an end in itself", "from purely quantitative aspects"). The old E9-P33 (shift away from the postwar growth attitude; why-not on the Green movement's date) is retired. The excerpt is unchanged.
 
 ### P12
 ID: P12

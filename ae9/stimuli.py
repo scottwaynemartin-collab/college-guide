@@ -3,7 +3,7 @@
 # Copyright basis (Units 8-9 rule): Hansard (Open Parliament Licence v3.0); EU documents (EUR-Lex / europa.eu,
 # Decision 2011/833/EU, CC BY 4.0); UN official documents; U.S. government works; texts published in 1930 or earlier;
 # CC BY data; Bundesarchiv images (CC BY-SA 3.0 DE). Cuts are marked with ellipses; bracketed words are clarifications.
-VERSION = "2026-11-09d"
+VERSION = "2026-11-09e"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -312,7 +312,7 @@ STIM = {
               {"t": "scrutiny", "d": "close examination"},
               {"t": "lay", "d": "not professional; ordinary citizens"},
               {"t": "statutory body", "d": "an official organization set up by law"},
-              {"t": "embryos", "d": "the earliest stage of development after an egg is fertilized"},
+              {"t": "embryos", "d": "fertilized eggs in the earliest stage of growth"},
               {"t": "surrogacy", "d": "an arrangement in which a woman carries a baby for another couple"}]),
 
 "P10": P([

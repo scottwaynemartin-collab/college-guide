@@ -4,7 +4,7 @@
  "period": "c. 1914–present",
  "examWeighting": "10–15%",
  "blurb": "The Cold War division of Europe and its end, rebuilding and the welfare state, the revolts in the Soviet bloc, decolonization, European integration, migration, feminism, technology, globalization, and culture from 1914 to the present.",
- "version": "2026-11-09d",
+ "version": "2026-11-09e",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 9: Learning Objectives A-P).",
  "topics": [
   {
@@ -966,7 +966,7 @@
     },
     {
      "t": "embryos",
-     "d": "the earliest stage of development after an egg is fertilized"
+     "d": "fertilized eggs in the earliest stage of growth"
     },
     {
      "t": "surrogacy",
@@ -1270,7 +1270,7 @@
     "B": "The oil price rises of 1973 and 1979 hurt Western Europe. The Soviet Union sold oil abroad, so for a time it earned more money.",
     "D": "The Berlin Wall fell in November 1989, almost a year after this speech."
    },
-   "hint": "Which choice describes a problem at home that Gorbachev's reforms were meant to fix?"
+   "hint": "Gorbachev took power in 1985. What had been happening to the Soviet economy in the years before that?"
   },
   {
    "id": "E9-P02",
@@ -1542,14 +1542,14 @@
     "A": "Soviet efforts to rebuild East Berlin as a model communist city",
     "B": "U.S. aid to rebuild Western Europe after the war",
     "C": "West German payments to the victims of the Holocaust",
-    "D": "the building boom that followed the reunification of Germany in 1990"
+    "D": "British aid to rebuild the British sector of Berlin"
    },
    "answer": "B",
    "explanation": "The Marshall Plan (1948–1952) sent billions of dollars in American aid to Western Europe. West Berlin got some of it. The money helped rebuild industry, housing, and businesses after the war.",
    "whyNot": {
     "A": "The Kurfürstendamm is in West Berlin, and the sign names the Marshall Plan, an American program. The Soviet Union refused Marshall Plan aid.",
     "C": "In 1952 West Germany did agree to pay Israel and Jewish groups. But that money did not build hotels in Berlin.",
-    "D": "The photograph is from 1952. Germany reunited almost forty years later."
+    "D": "The Kurfürstendamm was in the British sector of West Berlin, but the sign names the Marshall Plan, an American program. Britain itself received Marshall Plan aid."
    },
    "hint": "Look at the date of the photograph and the program named on the sign."
   },
@@ -1844,14 +1844,14 @@
    "stem": "The proposals described in the passage most directly led to which of the following?",
    "options": {
     "A": "a 1990 law creating an authority to license fertility clinics",
-    "B": "a British law in 1985 that banned fertility treatment for married couples",
+    "B": "a 1985 law that banned research on human embryos",
     "C": "a European Union law requiring member states to allow surrogacy",
     "D": "the Catholic Church's approval of in vitro fertilisation"
    },
    "answer": "A",
    "explanation": "In 1990 Parliament passed the Human Fertilisation and Embryology Act. It set up an authority to license fertility clinics and embryo research. The law kept the 14-day limit that the Warnock Report proposed.",
    "whyNot": {
-    "B": "Britain did not ban fertility treatment. The number of clinics grew in the 1980s.",
+    "B": "In 1985 Enoch Powell's bill to ban embryo research won a large vote in the House of Commons, but it ran out of time and never became law. The 1990 act allowed research up to 14 days.",
     "C": "The European Union has left surrogacy to its member states, and many of them forbid it.",
     "D": "The Catholic Church spoke out against IVF in 1987. It still opposes it."
    },
@@ -2009,14 +2009,14 @@
    "options": {
     "A": "less focus on consumer goods and more personal freedom",
     "B": "stronger executive leadership and greater national prestige",
-    "C": "higher industrial output through central state planning",
+    "C": "making polluters pay the cost of the harm they cause",
     "D": "faster economic growth through closer European trade ties"
    },
    "answer": "A",
    "explanation": "In 1968 students protested in France, West Germany, Italy, and other countries. Many attacked the consumer society and old-fashioned authority. Like the passage, they asked whether making and buying more goods really made life better.",
    "whyNot": {
     "B": "In France the students protested against President de Gaulle's strong rule. Strong leadership and national prestige were de Gaulle's goals, not theirs.",
-    "C": "This makes producing more the main goal. The passage says that \"economic expansion is not an end in itself.\"",
+    "C": "The passage does say polluters should pay. But this rule came from governments in the early 1970s; for example, a group of rich countries called the OECD adopted it in 1972. It was not a main demand of the student protesters of 1968.",
     "D": "This makes faster growth the main goal. The passage warns against judging growth \"from purely quantitative aspects.\""
    },
    "hint": "What did the young protesters of 1968 criticize about the societies built after the war?",
@@ -2294,7 +2294,7 @@
     "D": "the Greek debt crisis and rescue loans beginning in 2010"
    },
    "answer": "D",
-   "explanation": "Countries using the euro could no longer set their own interest rates or lower the value of their own money. In 2010 Greece could no longer borrow at prices it could afford. In May 2010 it received rescue loans tied to harsh spending cuts. Ireland (2010) and Portugal (2011) also needed rescue loans.",
+   "explanation": "Countries using the euro could no longer set their own interest rates or lower the value of their own money. In 2010 Greece could no longer borrow money at interest rates it could afford. In May 2010 it received rescue loans tied to harsh spending cuts. Ireland (2010) and Portugal (2011) also needed rescue loans.",
    "whyNot": {
     "A": "New members did not have to adopt the euro right away. Their joining the EU was not a problem caused by a shared currency.",
     "B": "Britain kept the pound, so its decision to leave did not come from sharing the euro.",
@@ -2318,7 +2318,7 @@
     "D": "the Cold War arms race"
    },
    "answer": "B",
-   "explanation": "From the late 1960s to the 1990s, about 3,500 people were killed in the Troubles, most of them in Northern Ireland. Republican and loyalist armed groups and British security forces were involved. This period is called the Troubles. The Good Friday Agreement tried to end it.",
+   "explanation": "From the late 1960s to the 1990s, about 3,500 people were killed in the conflict over Northern Ireland, most of them in Northern Ireland itself. Republican and loyalist armed groups and British security forces were involved. This period is called the Troubles. The Good Friday Agreement tried to end it.",
    "whyNot": {
     "A": "The Irish War of Independence ended in 1921. Mowlam speaks of violence that the agreement of 1998 was meant to end.",
     "C": "The expulsion of Germans took place in Central Europe. It had nothing to do with Northern Ireland.",
@@ -2504,16 +2504,16 @@
     "difficulty": "medium",
     "stem": "The ties between Britain and the new Dominions that Attlee hoped would continue contributed most directly to which later development?",
     "options": {
-     "A": "migration from southern Europe to Britain under European Community rules",
-     "B": "the arrival of Hungarian refugees in Britain after 1956",
-     "C": "the settlement of displaced Europeans in Britain after World War II",
+     "A": "India's leading role in the Non-Aligned Movement",
+     "B": "Britain's entry into the European Community in 1973",
+     "C": "the wars between India and Pakistan over Kashmir",
      "D": "migration from India and Pakistan to Britain"
     },
     "answer": "D",
     "rationales": {
-     "A": "Incorrect. Britain joined the European Community only in 1973. Its rules on moving for work came from European unity, not from ties with India and Pakistan.",
-     "B": "Incorrect. Hungarian refugees fled Soviet rule after the 1956 revolution. Their arrival had nothing to do with Britain's ties with India and Pakistan.",
-     "C": "Incorrect. Displaced Europeans, such as Polish soldiers who fought for the Allies, settled in Britain because of the war. Ties with India and Pakistan had nothing to do with it.",
+     "A": "Incorrect. India stayed in the Commonwealth, but it refused to join either side in the Cold War. Non-alignment came from India's own foreign policy, not from its ties with Britain.",
+     "B": "Incorrect. Joining the European Community pulled Britain's trade toward Europe and away from the Commonwealth. It did not grow out of Britain's ties with India and Pakistan.",
+     "C": "Incorrect. The fighting over Kashmir began in 1947. It grew out of partition and the dispute over which new country Kashmir would join, not out of ties with Britain.",
      "D": "Correct. The British Nationality Act of 1948 let citizens of Commonwealth countries, including India and Pakistan, enter Britain freely. Many came to fill jobs. The Commonwealth Immigrants Act of 1962 began to limit entry."
     },
     "explanation": "India and Pakistan stayed in the Commonwealth. Under a 1948 law, their citizens could move to Britain freely. Many came to work in factories, in hospitals, and on buses and trains. Large South Asian communities grew in British cities.",
@@ -2623,14 +2623,14 @@
     "stem": "The scene in the photograph is best understood in the context of",
     "options": {
      "A": "the forced labor of foreign workers in German factories during World War II",
-     "B": "high unemployment in West Germany after the oil crisis of 1973",
+     "B": "high unemployment in West Germany in the years just after the war",
      "C": "the flight of refugees from Hungary after the revolution of 1956",
      "D": "labor shortages during West Germany's postwar economic boom"
     },
     "answer": "D",
     "rationales": {
      "A": "Incorrect. The photograph was taken in 1962. Nazi forced labor ended in 1945. These women came under a peacetime recruitment deal.",
-     "B": "Incorrect. After the 1973 oil crisis, West Germany stopped recruiting foreign workers. This photograph is from 1962, during the boom.",
+     "B": "Incorrect. Unemployment was high in West Germany around 1950. By 1962 there were more jobs than workers, so the government recruited workers abroad.",
      "C": "Incorrect. Hungarian refugees went to many countries after 1956. But the archive says these women were guest workers from Italy.",
      "D": "Correct. In the boom of the 1950s and 1960s, West German factories needed more workers. The government signed deals to recruit them. It began with Italy in 1955, then Spain and Greece in 1960 and Turkey in 1961."
     },
@@ -2715,14 +2715,14 @@
     "difficulty": "medium",
     "stem": "The policy defended in Source 2 was abandoned when",
     "options": {
-     "A": "Nikita Khrushchev denounced Stalin's crimes in 1956",
+     "A": "Leonid Brezhnev died and Yuri Andropov took power in 1982",
      "B": "the superpowers signed the SALT I arms agreements in 1972",
      "C": "Gorbachev let Eastern European states go their own way in 1989",
      "D": "Poland's government declared martial law against Solidarity in 1981"
     },
     "answer": "C",
     "rationales": {
-     "A": "Incorrect. Khrushchev's 1956 speech came before this source. Later that year he sent troops to crush the Hungarian Revolution.",
+     "A": "Incorrect. Brezhnev died in November 1982, but Andropov and then Konstantin Chernenko kept the policy. Only Gorbachev gave it up.",
      "B": "Incorrect. The SALT I agreements of 1972 limited some nuclear weapons. They did not change Soviet control over Eastern Europe.",
      "C": "Correct. Gorbachev let the revolutions of 1989 happen without sending troops. A Soviet spokesman joked that the Brezhnev Doctrine had become the Sinatra Doctrine. Frank Sinatra sang the song My Way, and now each country could go its own way.",
      "D": "Incorrect. Martial law in Poland in 1981 crushed Solidarity under Soviet pressure. It continued the policy instead of ending it."
@@ -2796,7 +2796,7 @@
     "rationales": {
      "A": "Incorrect. The National Health Service began in 1948. That was before the slowdown, not after it.",
      "B": "Incorrect. The Coal and Steel Community was founded in 1951, during the years of fast growth.",
-     "C": "Incorrect. The Soviet invasion of Afghanistan came from Soviet aims in Central Asia, not from slower growth in Western Europe.",
+     "C": "Incorrect. The Soviet invasion of Afghanistan came from the Soviet wish to keep a communist government in power there, not from slower growth in Western Europe.",
      "D": "Correct. In the 1970s growth slowed and prices rose. Government budgets came under strain. Conservative leaders such as Margaret Thatcher, prime minister from 1979, blamed high taxes and a large welfare state."
     },
     "explanation": "The postwar boom had paid for generous welfare programs. Growth slowed after the oil shock of 1973. Critics on the right then called for lower taxes and a smaller state. Some governments cut spending.",
@@ -2930,7 +2930,7 @@
     "options": {
      "A": "social democratic campaigns to expand public welfare",
      "B": "conservative campaigns to reduce state regulation",
-     "C": "campaigns by Green parties and environmental groups",
+     "C": "campaigns by Green parties",
      "D": "business campaigns to lower barriers to trade"
     },
     "answer": "C",
