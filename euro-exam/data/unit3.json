@@ -1,0 +1,3243 @@
+{
+ "unit": 3,
+ "title": "Absolutism and Constitutionalism",
+ "period": "c. 1648–1815",
+ "examWeighting": "10–15%",
+ "blurb": "The Fronde and the growth of royal power, the English Civil War and the Glorious Revolution, new economic practices and mercantilism, the Dutch Golden Age, the balance of power, and absolutism in France, Prussia, Austria, and Russia.",
+ "version": "2026-11-09b",
+ "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP European History CED (Unit 3: Learning Objectives A-H).",
+ "topics": [
+  {
+   "id": "3.1",
+   "name": "Contextualizing State Building",
+   "lo": [
+    "A"
+   ]
+  },
+  {
+   "id": "3.2",
+   "name": "The English Civil War and the Glorious Revolution",
+   "lo": [
+    "B"
+   ]
+  },
+  {
+   "id": "3.3",
+   "name": "Continuities and Changes to Economic Practice and Development",
+   "lo": [
+    "C"
+   ]
+  },
+  {
+   "id": "3.4",
+   "name": "Economic Development and Mercantilism",
+   "lo": [
+    "C"
+   ]
+  },
+  {
+   "id": "3.5",
+   "name": "The Dutch Golden Age",
+   "lo": [
+    "D"
+   ]
+  },
+  {
+   "id": "3.6",
+   "name": "Balance of Power",
+   "lo": [
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "3.7",
+   "name": "Absolutist Approaches to Power",
+   "lo": [
+    "G"
+   ]
+  },
+  {
+   "id": "3.8",
+   "name": "Comparison in the Age of Absolutism and Constitutionalism",
+   "lo": [
+    "H"
+   ]
+  }
+ ],
+ "stimuli": {
+  "X1": {
+   "type": "passage",
+   "paragraphs": [
+    "Very dear and well beloved:",
+    "Considering how advantageous it would be to this realm to reestablish its foreign and domestic commerce, … we have resolved to create a council particularly devoted to commerce, to be held every fortnight in our presence, in which all the interests of merchants and the means conducive to the revival of commerce shall be considered and determined upon, as well as all that which concerns manufactures.",
+    "We also inform you that we are setting apart, among the expenses of our State, a million livres each year for the encouragement of manufactures and the increase of navigation, to say nothing of the considerable sums which we cause to be raised to supply the companies of the East and West Indies;",
+    "That we are working constantly to abolish all the tolls which are collected on the navigable rivers;",
+    "That there has already been expended more than a million livres for the repair of the public highways, to which we shall also devote our constant attention;",
+    "That we will assist by money from our royal treasury all those who wish to reestablish old manufactures or to undertake new ones; …",
+    "That all the merchants and traders by sea who purchase vessels, or who build new ones, for traffic or commerce shall receive from us subsidies for each ton of merchandise which they export or import on the said voyages.",
+    "We desire, in this present letter, not only to inform you concerning all these things, but to require you, as soon as you have received it, to cause to be assembled all the merchants and traders of your town of Marseilles, and explain to them very particularly our intentions in all matters mentioned above, in order that, being informed of the favorable treatment which we desire to give them, they may be the more desirous of applying themselves to commerce. Let them understand that for everything that concerns the welfare and advantage of the same they are to address themselves to Sieur Colbert. …"
+   ],
+   "attribution": "Louis XIV, king of France, letter to the town officials and people of Marseilles, a port city in southern France, August 26, 1664",
+   "translation": "English translation in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (Boston, 1908), pp. 13–14; adapted",
+   "glossary": [
+    {
+     "t": "realm",
+     "d": "kingdom"
+    },
+    {
+     "t": "commerce",
+     "d": "trade"
+    },
+    {
+     "t": "fortnight",
+     "d": "two weeks"
+    },
+    {
+     "t": "conducive to",
+     "d": "helpful for"
+    },
+    {
+     "t": "manufactures",
+     "d": "goods made in workshops, or the businesses that make them"
+    },
+    {
+     "t": "livres",
+     "d": "French units of money"
+    },
+    {
+     "t": "navigation",
+     "d": "shipping"
+    },
+    {
+     "t": "the companies of the East and West Indies",
+     "d": "French trading companies for Asia and for the Americas"
+    },
+    {
+     "t": "tolls",
+     "d": "fees charged to travel on a road, river, or bridge"
+    },
+    {
+     "t": "subsidies",
+     "d": "money the government pays to help a business"
+    },
+    {
+     "t": "Sieur Colbert",
+     "d": "Mr. Colbert, one of the king's ministers"
+    }
+   ]
+  },
+  "X2": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "That the said Charles Stuart, being admitted King of England, and therein trusted with a limited power to govern by and according to the laws of the land, and not otherwise; and by his trust, oath, and office, being obliged to use the power committed to him for the good and benefit of the people, and for the preservation of their rights and liberties; yet, nevertheless, out of a wicked design to erect and uphold in himself an unlimited and tyrannical power to rule according to his will, and to overthrow the rights and liberties of the people, yea, to take away and make void the foundations thereof, and of all redress and remedy of misgovernment, which by the fundamental constitutions of this kingdom were reserved on the people's behalf in the right and power of frequent and successive Parliaments, or national meetings in Council; he, the said Charles Stuart, for accomplishment of such his designs, … hath traitorously and maliciously levied war against the present Parliament, and the people therein represented … .",
+      "… By which cruel and unnatural wars, by him, the said Charles Stuart, levied, continued, and renewed as aforesaid, much innocent blood of the free people of this nation hath been spilt, many families have been undone, the public treasure wasted and exhausted, trade obstructed and miserably decayed, vast expense and damage to the nation incurred, and many parts of this land spoiled, some of them even to desolation."
+     ],
+     "attribution": "The charge against King Charles I, read at his trial before the High Court of Justice, a special court set up by the House of Commons, London, January 20, 1649",
+     "translation": "Text from Samuel Rawson Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625–1660, 3rd ed. (Oxford, 1906), pp. 371–373; adapted",
+     "glossary": [
+      {
+       "t": "Charles Stuart",
+       "d": "King Charles I; Stuart was his family name"
+      },
+      {
+       "t": "admitted",
+       "d": "accepted as"
+      },
+      {
+       "t": "redress",
+       "d": "a way to set a wrong right"
+      },
+      {
+       "t": "levied war",
+       "d": "raised armies and made war"
+      },
+      {
+       "t": "undone",
+       "d": "ruined"
+      },
+      {
+       "t": "desolation",
+       "d": "complete ruin"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "Having already made my protestations, not only against the illegality of this pretended Court, but also, that no earthly power can justly call me (who am your King) in question as a delinquent, … the duty I owe to God in the preservation of the true liberty of my people will not suffer me at this time to be silent: for, how can any free-born subject of England call life or anything he possesseth his own, if power without right daily make new, and abrogate the old fundamental laws of the land which I now take to be the present case? …",
+      "There is no proceeding just against any man, but what is warranted, either by God's laws or the municipal laws of the country where he lives. Now I am most confident this day's proceeding cannot be warranted by God's laws; for, on the contrary, the authority of obedience unto Kings is clearly warranted, and strictly commanded in both the Old and New Testament … . Then for the law of this land, I am no less confident, that no learned lawyer will affirm that an impeachment can lie against the King, they all going in his name: and one of their maxims is, that the King can do no wrong. … But how the House of Commons can erect a Court of Judicature, which was never one itself (as is well known to all lawyers) I leave to God and the world to judge.",
+      "… Thus you see that I speak not for my own right alone, as I am your King, but also for the true liberty of all my subjects, which consists not in the power of government, but in living under such laws, such a government, as may give themselves the best assurance of their lives, and property of their goods … ."
+     ],
+     "attribution": "Charles I, king of England, Scotland, and Ireland, written statement of his reasons for refusing to accept the authority of the court, January 21, 1649",
+     "translation": "Text from Samuel Rawson Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625–1660, 3rd ed. (Oxford, 1906), pp. 374–375; adapted",
+     "glossary": [
+      {
+       "t": "protestations",
+       "d": "formal objections"
+      },
+      {
+       "t": "pretended",
+       "d": "falsely claimed"
+      },
+      {
+       "t": "delinquent",
+       "d": "a person who has broken the law"
+      },
+      {
+       "t": "suffer",
+       "d": "allow"
+      },
+      {
+       "t": "abrogate",
+       "d": "cancel"
+      },
+      {
+       "t": "warranted",
+       "d": "allowed; justified"
+      },
+      {
+       "t": "municipal laws",
+       "d": "here, the laws of a country"
+      },
+      {
+       "t": "impeachment",
+       "d": "a formal charge of wrongdoing against an official"
+      },
+      {
+       "t": "they all going in his name",
+       "d": "all court cases were brought in the king's name"
+      },
+      {
+       "t": "Court of Judicature",
+       "d": "law court"
+      }
+     ]
+    }
+   ]
+  },
+  "X3": {
+   "type": "image",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Louis_XIV_of_France.jpg/1280px-Louis_XIV_of_France.jpg",
+   "width": 1280,
+   "height": 1819,
+   "alt": "A full-length oil portrait of an older king in a long, dark, curly wig, standing in a grand room. He wears a huge blue robe covered with gold lilies and lined with white fur, white stockings, and shoes with red heels. He leans on a long gold scepter. A crown sits on a cushion beside him, and a great red curtain hangs above him.",
+   "caption": "King Louis XIV, in his early sixties, stands in a grand room and looks down at the viewer. He wears a long, dark, curly wig, a lace collar, and an enormous blue velvet robe covered with gold fleur-de-lis and lined with white ermine. One leg in a white stocking steps forward, showing shoes with red heels. A sword with a jeweled handle hangs at his side. His right hand rests on a long gold scepter, which he holds upside down like a walking stick. Beside him, a crown sits on a cushion on a stool. Behind him are a stone column, a throne, and a huge red curtain with gold trim.",
+   "attribution": "Hyacinthe Rigaud, French court painter, Portrait of Louis XIV in Coronation Robes, oil painting, 1701",
+   "credit": "Musée du Louvre, Paris (INV 7492). Public domain image via Wikimedia Commons (file: Louis XIV of France.jpg).",
+   "description": "A tall, full-length oil portrait. Louis XIV stands slightly turned, with his left hand on his hip and his right hand resting on the top of a long gold scepter whose tip touches a cushion. He wears a long, dark, curly wig, a white lace cravat, and a gold chain with a cross badge. Over his shoulders hangs a coronation robe of deep blue velvet decorated with gold fleur-de-lis and lined with white ermine fur with small black tips. The robe falls in heavy folds to the floor. Under it he wears white silk knee breeches, white stockings with garters, and white shoes with red heels and red bows. A sword with a jeweled gold handle hangs at his left side. To the left, a stool covered with the same blue and gold cloth holds a crown on a cushion and a rod topped with a small hand (the hand of justice). Behind the king stands a large stone column on a base carved with a female figure. To the right is a throne covered in blue and gold cloth. A huge red velvet curtain with gold trim and tassels is drawn across the top of the picture, and the floor is covered with a patterned carpet.",
+   "glossary": [
+    {
+     "t": "ermine",
+     "d": "white fur with small black tips, worn by royalty"
+    },
+    {
+     "t": "fleur-de-lis",
+     "d": "a stylized lily, the symbol of the French kings"
+    },
+    {
+     "t": "scepter",
+     "d": "a rod carried by a monarch as a sign of power"
+    }
+   ]
+  },
+  "X4": {
+   "type": "table",
+   "title": "Tea Sold Each Year by the British East India Company in London, Selected Periods, 1713–1793",
+   "columns": [
+    "Years",
+    "Average tea sold per year (millions of pounds by weight)",
+    "Tax on tea (percent of the sale price)"
+   ],
+   "rows": [
+    [
+     "1713–1721",
+     "0.3",
+     "82"
+    ],
+    [
+     "1724–1733",
+     "0.7",
+     "84"
+    ],
+    [
+     "1734–1744",
+     "1.5",
+     "128"
+    ],
+    [
+     "1748–1759",
+     "2.6",
+     "75"
+    ],
+    [
+     "1760–1767",
+     "4.3",
+     "90"
+    ],
+    [
+     "1768–1772",
+     "8.1",
+     "64"
+    ],
+    [
+     "1773–1777",
+     "5.6",
+     "106"
+    ],
+    [
+     "1780–1781",
+     "6.3",
+     "106"
+    ],
+    [
+     "1783",
+     "5.9",
+     "114"
+    ],
+    [
+     "1785",
+     "15.1",
+     "12.5"
+    ],
+    [
+     "1786–1793",
+     "16.7",
+     "12.5"
+    ]
+   ],
+   "text": "The East India Company had the only legal right to bring tea from Asia into Britain and sold it at auctions in London. The figures count only tea sold legally at these auctions, not tea smuggled into Britain. For each period, the average is the source's total for the period divided by the number of years, rounded to the nearest 0.1 million pounds (weight). The tax column is the source's estimate of the duty as a percent of the sale price. Some periods in the source are not shown.",
+   "source": "William Milburn, Oriental Commerce, vol. 2 (London, 1813), p. 542, table of tea sold at the East India Company's sales, 1711–1793 (rows for 1711–1712, 1722–1723, 1745–1747, 1778–1779, 1782, and 1784 not shown)"
+  },
+  "X5": {
+   "type": "passage",
+   "paragraphs": [
+    "The use of their banks, which secures money, and makes all payments easy, and trade quick. …",
+    "The government managed either by men that trade, or whose families have risen by it, or who have themselves some interest going in other men's traffic, or who are born and bred in towns, the soul and being whereof consists wholly in trade; which makes sure of all favour, that, from time to time, grows necessary, and can be given it by the government. …",
+    "The last I shall mention is, the mighty advance they have made towards engrossing the whole commerce of the East-Indies, by their successes against the Portuguese, and by their many wars and victories against the natives,* whereby they have forced them to treaties of commerce, exclusive to all other nations, and to the admission of forts to be built upon straits and passes that command the entrances into the traffic of such places. …",
+    "Thus the trade of this country is discovered to be no effect of common contrivances, of natural dispositions or situation, or of trivial accidents; but of a great concurrence of circumstances, a long course of time, force of orders and method, which never before met in the world to such a degree, or with so prodigious a success, and perhaps never will again. …",
+    "… For never any country traded so much, and consumed so little: they buy infinitely, but it is to sell again, either upon improvement of the commodity, or at a better market. They are the great masters of the Indian spices, and of the Persian silks, but wear plain woollen, and feed upon their own fish and roots. … In short, they furnish infinite luxury which they never practise, and traffic in pleasures which they never taste."
+   ],
+   "attribution": "Sir William Temple, English diplomat who had served as England's ambassador to the Dutch Republic, Observations upon the United Provinces of the Netherlands, published in London, 1673, describing the causes of Dutch trade",
+   "translation": "Text from The Works of Sir William Temple, vol. 1 (London, 1814), pp. 172–176; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "\"The natives\" here means the peoples of South and Southeast Asia."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "the government managed … by men that trade",
+     "d": "the government run by merchants"
+    },
+    {
+     "t": "traffic",
+     "d": "trade"
+    },
+    {
+     "t": "engrossing",
+     "d": "taking complete control of"
+    },
+    {
+     "t": "exclusive to",
+     "d": "shutting out"
+    },
+    {
+     "t": "straits",
+     "d": "narrow waterways between two seas"
+    },
+    {
+     "t": "contrivances",
+     "d": "plans or tricks"
+    },
+    {
+     "t": "concurrence",
+     "d": "coming together"
+    },
+    {
+     "t": "prodigious",
+     "d": "enormous"
+    },
+    {
+     "t": "upon improvement of the commodity",
+     "d": "after making the goods better or more valuable"
+    },
+    {
+     "t": "woollen",
+     "d": "cloth made of wool"
+    },
+    {
+     "t": "furnish",
+     "d": "supply"
+    }
+   ]
+  },
+  "X6": {
+   "type": "passage",
+   "paragraphs": [
+    "The making Peace and War is the undoubted Prerogative of the Crown; yet such is the just Confidence I place in you, that at the Opening of this Session I acquainted you, That a Negotiation for a General Peace was begun; and afterwards, by Messages, I promised to communicate to you the Terms of Peace, before the same should be concluded. …",
+    "The Assuring of the Protestant Succession, as by Law established, in the House of Hanover, to these Kingdoms, being what I have nearest at Heart, particular Care is taken, not only to have that acknowledged in the strongest Terms, but to have an additional Security, by the Removal of that Person out of the Dominions of France, who has pretended to disturb this Settlement.*",
+    "The Apprehension that Spain and the West Indies might be united to France was the chief Inducement to begin this War; and the effectual Preventing of such an Union was the Principle I laid down at the Commencement of this Treaty. …",
+    "I can, therefore, now tell you, That France at last is brought to offer, that the Duke of Anjou** shall, for himself and his Descendants, renounce forever all Claim to the Crown of France. … France and Spain are now more effectually divided than ever. And thus, by the Blessing of God, will a real Balance of Power be fixed in Europe, and remain liable to as few Accidents as Human Affairs can be exempted from. …",
+    "Our Interest is so deeply concerned in the Trade of North America, that I have used my utmost Endeavours to adjust that Article in the most beneficial Manner. France consents to restore to us the whole Bay and Streights of Hudson; to deliver up the Island of Newfoundland, with Placentia, and to make an absolute Cession of Annapolis, with the rest of Nova Scotia or Acadia. …",
+    "Our Mediterranean Trade, and the British Interest and Influence in those Parts, will be secured by the Possession of Gibraltar and Port Mahon, with the whole Island of Minorca, which are offered to remain in my Hands. …",
+    "But the Part which we have born in the Prosecution of this War, intitling us to some Distinction in the Terms of Peace, I have insisted and obtained, That the Asiento, or Contract for furnishing the Spanish West-Indies with Negroes,*** shall be made with us for the Term of Thirty Years, in the same Manner as it has been enjoyed by the French for these Ten Years past."
+   ],
+   "attribution": "Queen Anne of Great Britain, speech to both houses of Parliament on the terms of peace being worked out with France and Spain, June 6, 1712",
+   "translation": "Text from A Compleate History of Europe for the year 1712 (London, 1713), as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (Boston, 1908), pp. 50–52; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "\"That Person\" was James Francis Edward Stuart, the Catholic son of the former king James II. He claimed the British throne and lived in France."
+    },
+    {
+     "mark": "**",
+     "text": "Philip, Duke of Anjou, a grandson of King Louis XIV of France."
+    },
+    {
+     "mark": "***",
+     "text": "\"Negroes\" here means enslaved Africans. The word was common in 1712 and is now considered offensive."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "prerogative",
+     "d": "a special right or power"
+    },
+    {
+     "t": "acquainted",
+     "d": "told"
+    },
+    {
+     "t": "succession",
+     "d": "the order in which people inherit the throne"
+    },
+    {
+     "t": "House of Hanover",
+     "d": "a German royal family, Protestant relatives of the Stuarts"
+    },
+    {
+     "t": "apprehension",
+     "d": "fear"
+    },
+    {
+     "t": "inducement",
+     "d": "reason"
+    },
+    {
+     "t": "renounce",
+     "d": "formally give up"
+    },
+    {
+     "t": "Streights",
+     "d": "old spelling of straits, narrow waterways"
+    },
+    {
+     "t": "cession",
+     "d": "a handing over of land"
+    },
+    {
+     "t": "Port Mahon",
+     "d": "the main harbor of the island of Minorca"
+    },
+    {
+     "t": "prosecution",
+     "d": "here, carrying on"
+    },
+    {
+     "t": "intitling",
+     "d": "old spelling of entitling, giving a right to"
+    },
+    {
+     "t": "furnishing",
+     "d": "supplying"
+    }
+   ]
+  },
+  "X7": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "The States bordering upon Poland have so often been involved in the disorders which have arisen during interregnums in that kingdom, that the experience of the past would in any case have led the neighboring powers to occupy themselves seriously with the affairs of that State the moment that the throne became vacant by the death of King Augustus III. …",
+      "… Everything seemed to promise a firm peace for both Poland and her neighbors, but unhappily the spirit of discord took possession of a portion of the nation, and destroyed in an instant all these hopes. Citizens armed themselves against one another, factions usurped the legitimate authority, which they abused in utter contempt of law, good order, and public security. Justice, the police, commerce, yes, agriculture itself, all were destroyed. …",
+      "… These powers have agreed accordingly to attempt to reach without loss of time a common understanding, in order to restore peace and good order in Poland, and establish the ancient constitution of this State and the liberties of the nation upon a sound basis. …",
+      "… They all had considerable claims upon various possessions of the republic. … Consequently his Majesty the King of Prussia, her Majesty the Empress, Queen of Hungary and Bohemia, and her Imperial Majesty of all the Russias, having mutually set forth their rights and claims, and having come to an agreement, will each take an equivalent of the district to which they lay claim, and will put themselves in effective possession of those portions of Poland which are calculated to serve hereafter as the most natural and secure boundary between them. …"
+     ],
+     "attribution": "Declaration presented to the king and republic of Poland by Russia's minister in the name of Empress Catherine II of Russia, September 18, 1772",
+     "translation": "English translation in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (Boston, 1908), pp. 82–84; adapted",
+     "glossary": [
+      {
+       "t": "interregnums",
+       "d": "periods when a country has no monarch, as between the death of one king and the choice of the next"
+      },
+      {
+       "t": "factions",
+       "d": "small groups working against others within a country"
+      },
+      {
+       "t": "usurped",
+       "d": "seized without the right to it"
+      },
+      {
+       "t": "the republic",
+       "d": "the name used for the Polish state, which had a king"
+      },
+      {
+       "t": "her Majesty the Empress, Queen of Hungary and Bohemia",
+       "d": "Maria Theresa of Austria"
+      },
+      {
+       "t": "her Imperial Majesty of all the Russias",
+       "d": "Catherine II of Russia"
+      },
+      {
+       "t": "effective possession",
+       "d": "actual control"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "… this unfortunate partition of Poland, which is costing me ten years of my life. It will make plain the whole unhappy history of that affair. How many times have I refused to agree to it! But disaster after disaster heaped upon us by the Turks; misery, famine, and pestilence at home; no hope of assistance either from France or England, and the prospect of being left isolated and threatened with a war both with Russia and Prussia,—it was all these considerations that finally forced me to accede to that unhappy proposal, which will remain a blot on my whole reign. God grant that I be not held responsible for it in the other world! I confess that I cannot keep from talking about this affair. I have taken it so to heart that it poisons and imbitters all my days, which even without that are sad enough. …"
+     ],
+     "attribution": "Maria Theresa, ruler of the Austrian Habsburg lands, private letter to her son Archduke Ferdinand, September 17, 1772",
+     "translation": "English translation in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (Boston, 1908), pp. 84–85; adapted",
+     "glossary": [
+      {
+       "t": "partition",
+       "d": "a division of a country's land among other states"
+      },
+      {
+       "t": "pestilence",
+       "d": "a deadly disease that spreads widely"
+      },
+      {
+       "t": "accede to",
+       "d": "agree to"
+      },
+      {
+       "t": "imbitters",
+       "d": "old spelling of embitters, makes bitter"
+      }
+     ]
+    }
+   ]
+  },
+  "X8": {
+   "type": "passage",
+   "paragraphs": [
+    "The great Reformer's predecessors were fully conscious of this condition of things, and did what they could to remedy it. … Their programme included the reorganisation of the armed forces, and, as an inevitable consequence, the improvement of the finances,—the development of the economic resources of the country,—and the encouragement of foreign commerce. They admitted the necessity of more direct intercourse and co-operation with foreign countries. …",
+    "Then we come to Peter. What other, what new thing did he do? Nothing, or, at most, very little indeed. The programme above referred to was his programme; he enlarged it a little, added the Reform of the national customs; he modified the nature of the intercourse already in existence with the Western world; but he, too, left the foundations of the political edifice he had inherited, intact … . It was begun before his time,—what he did was to change the conditions under which it was to be carried on in future. The new factor was, in the first place, the endless war, which, for twenty long years, was to inspire, direct and drive him forward … . In the second place, we have the tastes, habits of mind, manias and fancies, which the gifted but whimsical ruler owed to his education, … and his intercourse with Europe. … Finally, the Reformer's personal temperament, which endued all his measures with qualities of violence, excess and hastiness, both painful and disconcerting to every one they affected, must be taken into account. What had been a peaceful evolution became, in consequence of these peculiarities, a revolution. …",
+    "… Peter, in a few years, had performed the work of several centuries. It may be doubted whether this sudden bound across time and space was an unmixed benefit. …",
+    "… The war made military reforms a first necessity, and these called forth financial measures, which, in their turn, made economic enterprises indispensable."
+   ],
+   "attribution": "Kazimierz Waliszewski, Polish-born historian who wrote in French, Peter the Great, 1897",
+   "translation": "Translated by Lady Mary Loyd (New York: D. Appleton, 1897), pp. 395–397; adapted",
+   "glossary": [
+    {
+     "t": "predecessors",
+     "d": "the rulers who came before him"
+    },
+    {
+     "t": "programme",
+     "d": "British spelling of program, a plan"
+    },
+    {
+     "t": "intercourse",
+     "d": "dealings; contact"
+    },
+    {
+     "t": "edifice",
+     "d": "building; structure"
+    },
+    {
+     "t": "whimsical",
+     "d": "acting on sudden ideas"
+    },
+    {
+     "t": "endued",
+     "d": "filled"
+    },
+    {
+     "t": "disconcerting",
+     "d": "upsetting"
+    },
+    {
+     "t": "an unmixed benefit",
+     "d": "something wholly good"
+    },
+    {
+     "t": "indispensable",
+     "d": "absolutely needed"
+    }
+   ]
+  },
+  "P1": {
+   "type": "passage",
+   "paragraphs": [
+    "When the Parisians lost sight of their Broussel* they were like madmen, shouting through the streets that they were lost, that they would have their protector restored to them, that they would die, every one of them, cheerfully in his behalf. They assembled, they stretched chains across the streets, and in a few hours they erected barricades in every quarter of the town. …",
+    "The Coadjutor of Paris [Jean-François-Paul de Gondi, afterwards Cardinal de Retz], who, from inordinate ambition, had inclinations that were far from wishing to endeavour to remedy these evils, was also sent. … he went out on foot with his hood and rochet; and mingling with the crowd he reproved the people, shouted peace to them, and pointed out the obedience they owed to the king … .",
+    "The populace replied to what he said to them with respect for his person, but with audacity and anger against the idea of what they owed to the king. They demanded their protector, with protestations that they would never be pacified until he was returned to them; and without considering the respect they owed to the Grand-Master, the Maréchal de La Meilleraye, they flung stones at him, overwhelmed him with insults, and, in threatening him, uttered horrible imprecations against the queen and her minister. Against the latter they launched such insolence as deserved the gibbet if the king had been master … .",
+    "… Kings flatter themselves readily; our regent did so, and being born with intrepid courage, she ridiculed the emotions of the populace and could not believe they would ever do her any serious harm."
+   ],
+   "attribution": "Madame de Motteville, a close companion and attendant of Queen Anne of Austria, the mother of King Louis XIV, memoirs describing Paris on August 26, 1648, first published in 1723",
+   "translation": "Translated by Katharine Prescott Wormeley, Memoirs of Madame de Motteville on Anne of Austria and Her Court, vol. 1 (Boston, 1902), pp. 317–319; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "Pierre Broussel, a judge in the Parlement of Paris, France's most important royal law court. He had been arrested that morning on the queen's orders."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "barricades",
+     "d": "barriers built across streets to block soldiers"
+    },
+    {
+     "t": "coadjutor",
+     "d": "a church official who helps an archbishop and will take his place"
+    },
+    {
+     "t": "inordinate",
+     "d": "too great"
+    },
+    {
+     "t": "rochet",
+     "d": "a white robe worn by church officials"
+    },
+    {
+     "t": "populace",
+     "d": "the common people"
+    },
+    {
+     "t": "audacity",
+     "d": "boldness"
+    },
+    {
+     "t": "Grand-Master … Maréchal de La Meilleraye",
+     "d": "a high-ranking royal army commander whom the queen had sent to calm the crowd"
+    },
+    {
+     "t": "imprecations",
+     "d": "curses"
+    },
+    {
+     "t": "her minister",
+     "d": "Cardinal Mazarin, the queen's chief minister"
+    },
+    {
+     "t": "gibbet",
+     "d": "a gallows used for hanging"
+    },
+    {
+     "t": "regent",
+     "d": "a person who rules in place of the monarch; here, Queen Anne, Louis XIV's mother"
+    },
+    {
+     "t": "intrepid",
+     "d": "fearless"
+    }
+   ]
+  },
+  "P2": {
+   "type": "passage",
+   "paragraphs": [
+    "The state of monarchy is the supremest thing upon earth; for kings are not only God's lieutenants upon earth, and sit upon God's throne, but even by God himself they are called gods. …",
+    "Kings are justly called gods, for that they exercise a manner or resemblance of divine power upon earth; for if you will consider the attributes to God, you shall see how they agree in the person of a king. God hath power to create or destroy, make or unmake at his pleasure, to give life or send death, to judge all and to be judged nor accountable to none, to raise low things and to make high things low at his pleasure, and to God are both soul and body due. And the like power have kings: they make and unmake their subjects, they have power of raising and casting down, of life and of death, judges over all their subjects and in all causes and yet accountable to none but God only. …",
+    "I would wish you to be careful to avoid three things in the matter of grievances:",
+    "First, that you do not meddle with the main points of government; that is my craft … to meddle with that were to lessen me. … I must not be taught my office.",
+    "Secondly, I would not have you meddle with such ancient rights of mine as I have received from my predecessors … . All novelties are dangerous as well in a politic as in a natural body, and therefore I would be loath to be quarreled in my ancient rights and possessions; for that were to judge me unworthy of that which my predecessors had and left me. …"
+   ],
+   "attribution": "James I, king of England and Scotland, speech to both houses of Parliament, March 21, 1610",
+   "translation": "Text from The Workes of the Most High and Mightie Prince, James (London, 1616), as printed in James Harvey Robinson, Readings in European History, vol. 2 (Boston, 1906), pp. 219–220; adapted",
+   "glossary": [
+    {
+     "t": "lieutenants",
+     "d": "officers who act for a higher authority"
+    },
+    {
+     "t": "attributes",
+     "d": "qualities"
+    },
+    {
+     "t": "accountable",
+     "d": "required to explain one's actions"
+    },
+    {
+     "t": "grievances",
+     "d": "complaints"
+    },
+    {
+     "t": "meddle with",
+     "d": "interfere in"
+    },
+    {
+     "t": "craft",
+     "d": "skilled job"
+    },
+    {
+     "t": "predecessors",
+     "d": "the rulers who came before"
+    },
+    {
+     "t": "novelties",
+     "d": "new things"
+    },
+    {
+     "t": "politic … body",
+     "d": "the state, compared to a human body"
+    },
+    {
+     "t": "loath",
+     "d": "unwilling"
+    },
+    {
+     "t": "quarreled in",
+     "d": "challenged in"
+    }
+   ]
+  },
+  "P3": {
+   "type": "passage",
+   "paragraphs": [
+    "Having by our late labours and hazards made it appear to the world at how high a rate we value our just freedom, and God having so far owned our cause as to deliver the enemies thereof into our hands, we do now hold ourselves bound in mutual duty to each other to take the best care we can for the future to avoid both the danger of returning into a slavish condition and the chargeable remedy of another war … . In order whereunto we declare:—",
+    "[I.] That the people of England, being at this day very unequally distributed by Counties, Cities, and Boroughs for the election of their deputies in Parliament, ought to be more indifferently proportioned according to the number of the inhabitants … .",
+    "III. That the people do, of course, choose themselves a Parliament once in two years … .",
+    "IV. That the power of this, and all future Representatives of this Nation, is inferior only to theirs who choose them, and doth extend, without the consent or concurrence of any other person or persons, to the enacting, altering, and repealing of laws, to the erecting and abolishing of offices and courts, to the appointing, removing, and calling to account magistrates and officers of all degrees, to the making war and peace, to the treating with foreign States, and, generally, to whatsoever is not expressly or impliedly reserved by the represented to themselves: Which are as followeth.",
+    "1. That matters of religion and the ways of God's worship are not at all entrusted by us to any human power … .",
+    "4. That in all laws made or to be made every person may be bound alike, and that no tenure, estate, charter, degree, birth, or place do confer any exemption from the ordinary course of legal proceedings whereunto others are subjected. …",
+    "These things we declare to be our native rights, and therefore are agreed and resolved to maintain them with our utmost possibilities against all opposition whatsoever … ."
+   ],
+   "attribution": "An Agreement of the People, a plan for a new government presented to the General Council of Parliament's New Model Army, October 28, 1647",
+   "translation": "Text from Samuel Rawson Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625–1660, 3rd ed. (Oxford, 1906), pp. 333–335; adapted",
+   "glossary": [
+    {
+     "t": "late labours and hazards",
+     "d": "recent efforts and dangers, meaning the civil war"
+    },
+    {
+     "t": "owned our cause",
+     "d": "supported our side"
+    },
+    {
+     "t": "chargeable",
+     "d": "costly"
+    },
+    {
+     "t": "boroughs",
+     "d": "towns that elected members of Parliament"
+    },
+    {
+     "t": "indifferently proportioned",
+     "d": "fairly divided"
+    },
+    {
+     "t": "Representatives",
+     "d": "here, Parliaments"
+    },
+    {
+     "t": "inferior only to theirs who choose them",
+     "d": "lower only than the power of the voters"
+    },
+    {
+     "t": "concurrence",
+     "d": "agreement"
+    },
+    {
+     "t": "magistrates",
+     "d": "officials who enforce the law"
+    },
+    {
+     "t": "impliedly reserved",
+     "d": "kept back without being stated"
+    },
+    {
+     "t": "tenure, estate, charter, degree",
+     "d": "kinds of land holding, property, special legal grants, and rank"
+    },
+    {
+     "t": "exemption",
+     "d": "freedom from a rule others must follow"
+    }
+   ]
+  },
+  "P4": {
+   "type": "image",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Leviathan_frontispiece_cropped_British_Library.jpg/1280px-Leviathan_frontispiece_cropped_British_Library.jpg",
+   "width": 1280,
+   "height": 2041,
+   "alt": "A black-and-white engraving. A huge crowned giant rises from behind hills above a town. His body and arms are made of hundreds of tiny people. He holds a sword in one hand and a bishop's staff in the other. Below, on either side of a curtain that shows the book's title, are two columns of small pictures.",
+   "caption": "A giant wearing a crown rises above hills, fields, and a town with a large church. His body and arms are made of hundreds of tiny people, all turned toward his head. In his right hand he holds a sword, and in his left hand a crozier. A line in Latin from the Bible runs across the top. Below the town, a curtain shows the title of the book: \"Leviathan, or the Matter, Forme and Power of a Common-wealth Ecclesiasticall and Civil.\" On the left, under the sword, small pictures show a castle, a crown, a cannon, a pile of weapons and flags, and a battle. On the right, under the crozier, small pictures show a church, a bishop's hat, lightning bolts, forked weapons labeled with words used in arguments, and a meeting of churchmen.",
+   "attribution": "Engraved title page of Leviathan, a book by the English philosopher Thomas Hobbes, published in London in 1651; the engraving is usually credited to the French artist Abraham Bosse",
+   "credit": "British Library, London. Public domain (CC0) image via Wikimedia Commons (file: Leviathan frontispiece cropped British Library.jpg).",
+   "description": "A black-and-white engraving, taller than it is wide. In the upper half, a giant figure wearing a crown rises from behind a range of hills, as if wading out of the land. He has long hair and a mustache and looks straight at the viewer. His chest and arms are made of hundreds of tiny human figures in hats and cloaks, packed together and turned toward his head. His right arm raises a long sword; his left arm holds a tall, richly carved crozier. Below him lie hills, farms, villages, and a walled town with neat streets, houses, soldiers, and a large church with two spires. Across the top runs the Latin line Non est potestas Super Terram quae Comparetur ei, Iob 41.24. The lower half is divided into three columns. In the center, a fringed curtain carries the title: Leviathan, or the Matter, Forme and Power of a Common-wealth Ecclesiasticall and Civil, by Thomas Hobbes of Malmesbury, London, printed for Andrew Crooke, 1651. The left column has five small pictures, one above another: a castle on a hill, a crown, a cannon, a pile of muskets, swords, flags, and a drum, and a battle with horsemen. The right column has five matching pictures: a church, a bishop's miter, crossed lightning bolts, a set of forked weapons labeled with terms from logic and church debate, such as Syllogisme, Spiritual, and Temporal, with a pair of horns labeled Dilemma, and a meeting of churchmen in a hall.",
+   "glossary": [
+    {
+     "t": "Leviathan",
+     "d": "a giant sea monster in the Bible; Hobbes used the name for the state"
+    },
+    {
+     "t": "crozier",
+     "d": "a hooked staff carried by a bishop as a sign of church authority"
+    },
+    {
+     "t": "Common-wealth Ecclesiasticall and Civil",
+     "d": "a state, with its church and its government"
+    },
+    {
+     "t": "Non est potestas Super Terram quae Comparetur ei",
+     "d": "Latin for \"There is no power on earth to be compared to him\" (from the Bible, Job 41)"
+    }
+   ]
+  },
+  "P5": {
+   "type": "passage",
+   "paragraphs": [
+    "Whereas the late king James the Second by the assistance of divers evil counsellors, judges and ministers employed by him did endeavour to subvert and extirpate the Protestant religion and the laws and liberties of this kingdom.",
+    "By assuming and exercising a power of dispensing with and suspending of laws, and the execution of laws, without consent of parliament. …",
+    "By levying money for and to the use of the crown, by pretence of prerogative, for other time and in other manner than the same was granted by parliament.",
+    "By raising and keeping a standing army within this kingdom in time of peace, without consent of parliament, and quartering of soldiers contrary to law. …",
+    "… do in the first place (as their ancestors in like case have usually done) for the vindicating and asserting their ancient rights and liberties, declare:",
+    "That the pretended power of suspending of laws or the execution of laws by regal authority without consent of parliament is illegal. …",
+    "That the levying money for or to the use of the crown by pretence of prerogative without grant of parliament for a longer time or in other manner than the same is or shall be granted is illegal. …",
+    "That the raising or keeping a standing army within the kingdom in time of peace unless it be with consent of parliament is against law. …",
+    "That election of members of parliament ought to be free.",
+    "That the freedom of speech and debates or proceedings in parliament ought not to be impeached or questioned in any court or place out of parliament. …",
+    "And that for redress of all grievances and for the amending, strengthening and preserving of the laws parliaments ought to be held frequently."
+   ],
+   "attribution": "The Bill of Rights, act passed by the English Parliament in December 1689; it repeated the Declaration of Right that Parliament had presented to William and Mary in February 1689",
+   "translation": "Text from George Burton Adams and H. Morse Stephens, eds., Select Documents of English Constitutional History (New York: Macmillan, 1901), pp. 462–465; adapted",
+   "glossary": [
+    {
+     "t": "divers",
+     "d": "various"
+    },
+    {
+     "t": "subvert and extirpate",
+     "d": "undermine and wipe out"
+    },
+    {
+     "t": "dispensing with and suspending of laws",
+     "d": "excusing people from laws, or stopping laws from being enforced"
+    },
+    {
+     "t": "levying",
+     "d": "collecting taxes"
+    },
+    {
+     "t": "pretence of prerogative",
+     "d": "a false claim of special royal power"
+    },
+    {
+     "t": "standing army",
+     "d": "a permanent army kept in peacetime"
+    },
+    {
+     "t": "quartering",
+     "d": "housing soldiers in private homes"
+    },
+    {
+     "t": "vindicating",
+     "d": "defending"
+    },
+    {
+     "t": "regal",
+     "d": "royal"
+    },
+    {
+     "t": "impeached or questioned",
+     "d": "challenged"
+    },
+    {
+     "t": "redress of all grievances",
+     "d": "fixing all complaints"
+    }
+   ]
+  },
+  "P6": {
+   "type": "passage",
+   "paragraphs": [
+    "This is the war* to which we owe the National Debt, the Bank of England, the growth of the moneyed interest. …",
+    "Two of our greatest writers, to speak truly, our two greatest writers, Burke and Macaulay, have taken pains to show that the Revolution of 1688 was not revolutionary but conservative, that it was little more than a rectification of recent error, and a return to ancient principles. … No change took place in the governing class. The gentry who managed the affairs of the county managed the affairs of the country after 1688 as they had done before. There was no transfer of force from the aristocratic element of society to the democratic. …",
+    "And yet it is the greatest thing done by the English nation. It established the State upon a contract, and set up the doctrine that a breach of contract forfeited the crown … . Parliament gave the crown, and gave it under conditions. Parliament became supreme in administration as well as in legislation. The king became its servant on good behaviour, liable to dismissal for himself or his ministers. All this was not restitution, but inversion. Passive obedience had been the law of England. Conditional obedience and the right of resistance became the law. Authority was limited and regulated and controlled. … The great achievement is that this was done without bloodshed, without vengeance, without exclusion of entire parties … . The Act itself was narrow, spiritless, confused, tame, and unsatisfactory. It was perfectly compatible with the oppression of class by class, and of the country by the State, as the agent of a class."
+   ],
+   "attribution": "Lord Acton, British historian at the University of Cambridge, lecture \"The English Revolution,\" given in 1899–1901 and published in his Lectures on Modern History, 1906",
+   "translation": "Text from Lectures on Modern History, edited by J. N. Figgis and R. V. Laurence (London: Macmillan, 1906), pp. 230–232; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "The war that William III and his allies fought against Louis XIV's France from 1688 to 1697."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "the moneyed interest",
+     "d": "bankers, lenders, and investors"
+    },
+    {
+     "t": "Burke and Macaulay",
+     "d": "two famous British writers of the 1700s and 1800s"
+    },
+    {
+     "t": "rectification",
+     "d": "correction"
+    },
+    {
+     "t": "gentry",
+     "d": "wealthy landowners ranked below the titled nobles"
+    },
+    {
+     "t": "aristocratic element",
+     "d": "the noble and wealthy few"
+    },
+    {
+     "t": "forfeited",
+     "d": "caused someone to lose"
+    },
+    {
+     "t": "legislation",
+     "d": "making laws"
+    },
+    {
+     "t": "restitution",
+     "d": "putting things back the way they were"
+    },
+    {
+     "t": "inversion",
+     "d": "turning something upside down"
+    },
+    {
+     "t": "passive obedience",
+     "d": "the idea that subjects must never resist the king"
+    },
+    {
+     "t": "compatible with",
+     "d": "able to exist alongside"
+    }
+   ]
+  },
+  "P7": {
+   "type": "passage",
+   "paragraphs": [
+    "This business is the clothing trade, for the convenience of which the houses are thus scattered and spread upon the sides of the hills, as above, even from the bottom to the top; the reason is this; such has been the bounty of nature to this otherwise frightful country, that two things essential to the business, as well as to the ease of the people are found here, … I mean coals and running water upon the tops of the highest hills … .",
+    "… we could see that almost at every house there was a tenter, and almost on every tenter a piece of cloth, or kersie, or shalloon, for they are the three articles of that country's labour … .",
+    "Then, as every clothier must keep a horse, perhaps two, to fetch and carry for the use of his manufacture, (viz.) to fetch home his wooll and his provisions from the market, to carry his yarn to the spinners, his manufacture to the fulling mill, and, when finished, to the market to be sold, and the like … .",
+    "… Among the manufacturers houses are likewise scattered an infinite number of cottages or small dwellings, in which dwell the workmen which are employed, the women and children of whom, are always busy carding, spinning, &c. so that no hands being unemploy'd, all can gain their bread, even from the youngest to the antient; hardly any thing above four years old, but its hands are sufficient to it self.",
+    "This is the reason also why we saw so few people without doors; but if we knock'd at the door of any of the master manufacturers, we presently saw a house full of lusty fellows, some at the dye-fat, some dressing the cloths, some in the loom, some one thing, some another, all hard at work, and full employed upon the manufacture, and all seeming to have sufficient business."
+   ],
+   "attribution": "Daniel Defoe, English writer and merchant, A Tour Thro' the Whole Island of Great Britain, published in three volumes, 1724–1726, describing the country around Halifax in Yorkshire, northern England",
+   "translation": "Text from A Tour through England and Wales, vol. 2, Everyman's Library (London: J. M. Dent, 1928), pp. 193–195; adapted",
+   "glossary": [
+    {
+     "t": "the clothing trade",
+     "d": "the making of woolen cloth"
+    },
+    {
+     "t": "bounty",
+     "d": "generous gifts"
+    },
+    {
+     "t": "coals",
+     "d": "coal"
+    },
+    {
+     "t": "tenter",
+     "d": "a wooden frame on which newly made cloth was stretched to dry"
+    },
+    {
+     "t": "kersie, shalloon",
+     "d": "kinds of woolen cloth"
+    },
+    {
+     "t": "clothier",
+     "d": "a person who made cloth and sold it"
+    },
+    {
+     "t": "viz.",
+     "d": "namely"
+    },
+    {
+     "t": "wooll",
+     "d": "old spelling of wool"
+    },
+    {
+     "t": "fulling mill",
+     "d": "a water-powered mill that beat and cleaned woven cloth"
+    },
+    {
+     "t": "carding",
+     "d": "combing wool to get it ready for spinning"
+    },
+    {
+     "t": "antient",
+     "d": "old spelling of ancient; here, the old"
+    },
+    {
+     "t": "its hands are sufficient to it self",
+     "d": "it can earn its own keep"
+    },
+    {
+     "t": "without doors",
+     "d": "outdoors"
+    },
+    {
+     "t": "lusty",
+     "d": "strong"
+    },
+    {
+     "t": "dye-fat",
+     "d": "a vat for dyeing cloth"
+    }
+   ]
+  },
+  "P8": {
+   "type": "table",
+   "title": "Gregory King's Estimates for England, France, and Holland, 1688 and 1695",
+   "columns": [
+    "Country and year",
+    "Population",
+    "Yearly income per person (£)",
+    "Total taxes and public revenue (millions of £)",
+    "Taxes per person (£)"
+   ],
+   "rows": [
+    [
+     "England, 1688",
+     "5,500,000",
+     "7.90",
+     "2.0",
+     "0.36"
+    ],
+    [
+     "France, 1688",
+     "14,000,000",
+     "6.15",
+     "10.5",
+     "0.75"
+    ],
+    [
+     "Holland, 1688",
+     "2,200,000",
+     "8.07",
+     "4.75",
+     "2.16"
+    ],
+    [
+     "England, 1695",
+     "5,450,000",
+     "7.80",
+     "6.5",
+     "1.20"
+    ],
+    [
+     "France, 1695",
+     "13,500,000",
+     "5.90",
+     "17.5",
+     "1.25"
+    ],
+    [
+     "Holland, 1695",
+     "2,240,000",
+     "8.14",
+     "6.9",
+     "3.08"
+    ]
+   ],
+   "text": "Gregory King, an English government official and statistician, made these estimates in 1696. They are estimates, not counts. King uses \"Holland\" for the whole Dutch Republic. All money is in English pounds (£). King gave money in pounds, shillings, and pence (20 shillings = £1); his per-person figures have been changed to decimals and rounded to the nearest £0.01.",
+   "source": "Gregory King, Natural and Political Observations and Conclusions upon the State and Condition of England (1696), first printed in George Chalmers, An Estimate of the Comparative Strength of Great Britain (London, 1802), p. 444, King's \"general Account of England, France, and Holland, for the years 1688, and 1695\""
+  },
+  "P9": {
+   "type": "passage",
+   "paragraphs": [
+    "… The whole internal history of the seventeenth and eighteenth centuries, not only in Germany but everywhere else, is summed up in the opposition of the economic policy of the state to that of the town, the district, and the several Estates; the whole foreign history is summed up in the opposition to one another of the separate interests of the newly rising states, each of which sought to obtain and retain its place in the circle of European nations, and in that foreign trade which now included America and India. …",
+    "Only he who thus conceives of mercantilism will understand it; in its innermost kernel it is nothing but state making—not state making in a narrow sense, but state making and national-economy making at the same time … . The essence of the system lies not in some doctrine of money, or of the balance of trade; not in tariff barriers, protective duties, or navigation laws; but in something far greater:—namely, in the total transformation of society and its organisation, as well as of the state and its institutions, in the replacing of a local and territorial economic policy by that of the national state. …",
+    "The struggle against the great nobility, the towns, the corporations, and provinces, the economic as well as political blending of these isolated groups into a larger whole, the struggle for uniform measures and coinage, for a well-ordered system of currency and credit, for uniform laws and uniform administration, for freer and more active traffic within the land,—this it was which created a new division of labour, a new prosperity, and which liberated a thousand forces towards progress."
+   ],
+   "attribution": "Gustav Schmoller, German economist and historian, The Mercantile System and Its Historical Significance, first published in German in 1884",
+   "translation": "Translated by W. J. Ashley (New York and London: Macmillan, 1896), pp. 50–51; adapted",
+   "glossary": [
+    {
+     "t": "the several Estates",
+     "d": "the separate orders of society, such as nobles, clergy, and townspeople, and their assemblies"
+    },
+    {
+     "t": "conceives of",
+     "d": "thinks of"
+    },
+    {
+     "t": "innermost kernel",
+     "d": "deepest core"
+    },
+    {
+     "t": "balance of trade",
+     "d": "the difference between what a country sells abroad and what it buys"
+    },
+    {
+     "t": "tariff barriers, protective duties",
+     "d": "taxes on imported goods"
+    },
+    {
+     "t": "navigation laws",
+     "d": "laws about which ships may carry a country's trade"
+    },
+    {
+     "t": "corporations",
+     "d": "here, guilds and other privileged groups"
+    },
+    {
+     "t": "uniform",
+     "d": "the same everywhere"
+    },
+    {
+     "t": "traffic",
+     "d": "trade"
+    }
+   ]
+  },
+  "P10": {
+   "type": "passage",
+   "paragraphs": [
+    "For the increase of the shipping and the encouragement of the navigation of this nation, which under the good providence and protection of God is so great a means of the welfare and safety of this Commonwealth: be it enacted … that from and after the first day of December, one thousand six hundred fifty and one, and from thence forwards, no goods or commodities whatsoever of the growth, production or manufacture of Asia, Africa or America, or of any part thereof … as well of the English plantations as others, shall be imported or brought into this Commonwealth of England, or into Ireland, or any other lands, islands, plantations, or territories to this Commonwealth belonging, or in their possession, in any other ship or ships, vessel or vessels whatsoever, but only in such as do truly and without fraud belong only to the people of this Commonwealth, or the plantations thereof, as the proprietors or right owners thereof; and whereof the master and mariners are also for the most part of them of the people of this Commonwealth, under the penalty of the forfeiture and loss of all the goods that shall be imported contrary to this act … .",
+    "And it is further enacted … that no goods or commodities of the growth, production, or manufacture of Europe, or of any part thereof, shall … be imported or brought into this Commonwealth of England … in any ship or ships, vessel or vessels whatsoever, but in such as do truly and without fraud belong only to the people of this Commonwealth, as the true owners and proprietors thereof, and in no other, except only such foreign ships and vessels as do truly and properly belong to the people of that country or place, of which the said goods are the growth, production or manufacture … .",
+    "And it is further enacted … that no sort of cod-fish, ling, herring, pilchard, or any other kind of salted fish, usually fished for and caught by the people of this nation … shall from henceforth be imported into this Commonwealth … but only such as shall be caught in vessels that do or shall truly and properly belong to the people of this nation … ."
+   ],
+   "attribution": "The Navigation Act, passed by the Parliament of the Commonwealth of England, October 9, 1651",
+   "translation": "Text from Samuel Rawson Gardiner, ed., The Constitutional Documents of the Puritan Revolution, 1625–1660, 3rd ed. (Oxford, 1906), pp. 468–470; adapted",
+   "glossary": [
+    {
+     "t": "navigation",
+     "d": "shipping"
+    },
+    {
+     "t": "Commonwealth",
+     "d": "the name of England's government after the monarchy was abolished in 1649"
+    },
+    {
+     "t": "commodities",
+     "d": "goods for trade"
+    },
+    {
+     "t": "plantations",
+     "d": "here, colonies"
+    },
+    {
+     "t": "proprietors",
+     "d": "owners"
+    },
+    {
+     "t": "master and mariners",
+     "d": "the ship's captain and sailors"
+    },
+    {
+     "t": "forfeiture",
+     "d": "loss as a penalty"
+    },
+    {
+     "t": "ling, pilchard",
+     "d": "kinds of fish"
+    }
+   ]
+  },
+  "P11": {
+   "type": "passage",
+   "paragraphs": [
+    "In some of your letters which I do not recollect, you speak (with honest indignation) of the treachery and chicanery of the natives.*—My good friend, you should remember from whom they learnt those vices:—the first Christian visitors found them a simple, harmless people—but the cursed avidity for wealth urged these first visitors (and all the succeeding ones) to such acts of deception—and even wanton cruelty—that the poor ignorant natives soon learnt to turn the knavish and diabolical arts which they soon imbibed—upon their teachers.",
+    "I am sorry to observe that the practice of your country (which as a resident I love—and for its freedom, and for the many blessings I enjoy in it, shall ever have my warmest wishes—prayers—and blessings;) I say, it is with reluctance that I must observe your country's conduct has been uniformly wicked in the East—West Indies—and even on the coast of Guinea.—The grand object of English navigators—indeed of all Christian navigators—is money—money—money—for which I do not pretend to blame them.—Commerce was meant, by the goodness of the Deity, to diffuse the various goods of the earth into every part—to unite mankind in the blessed chains of brotherly love—society—and mutual dependence … .—In Africa, the poor wretched natives—blessed with the most fertile and luxuriant soil—are rendered so much the more miserable for what Providence meant as a blessing:—the Christians' abominable traffic for slaves—and the horrid cruelty and treachery of the petty Kings—encouraged by their Christian customers—who carry them strong liquors, to enflame their national madness—and powder and bad fire arms, to furnish them with the hellish means of killing and kidnapping.—But enough—it is a subject that sours my blood … ."
+   ],
+   "attribution": "Ignatius Sancho, writer of African descent who was born on a slave ship, was enslaved as a child, and later ran a grocery shop in London, letter to a young English friend working in India, 1778, published in 1782",
+   "translation": "Text from Letters of the Late Ignatius Sancho, an African, 3rd ed. (London, 1784), letter 68 (Project Gutenberg transcription); adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "Here \"the natives\" means the people of India."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "indignation",
+     "d": "anger at something unfair"
+    },
+    {
+     "t": "chicanery",
+     "d": "trickery"
+    },
+    {
+     "t": "avidity",
+     "d": "greed"
+    },
+    {
+     "t": "wanton",
+     "d": "cruel for no reason"
+    },
+    {
+     "t": "knavish and diabolical arts",
+     "d": "dishonest and evil tricks"
+    },
+    {
+     "t": "imbibed",
+     "d": "took in; learned"
+    },
+    {
+     "t": "the East—West Indies",
+     "d": "Asia and the Caribbean"
+    },
+    {
+     "t": "the coast of Guinea",
+     "d": "the coast of West Africa"
+    },
+    {
+     "t": "navigators",
+     "d": "sea traders and explorers"
+    },
+    {
+     "t": "diffuse",
+     "d": "spread"
+    },
+    {
+     "t": "Providence",
+     "d": "God's care and guidance"
+    },
+    {
+     "t": "abominable traffic",
+     "d": "hateful trade"
+    },
+    {
+     "t": "petty Kings",
+     "d": "rulers of small African states"
+    }
+   ]
+  },
+  "P12": {
+   "type": "image",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg/1280px-Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg",
+   "width": 1280,
+   "height": 865,
+   "alt": "A dark oil painting of six men in a wood-paneled room. Five of them wear black clothes, white collars, and tall black hats and sit or stand behind a table covered with a red patterned rug, with an open book on it. A sixth man without a hat stands at the back. Several of the men look straight out at the viewer.",
+   "caption": "Six men are gathered in a room with wooden walls. Five of them wear plain black clothes with flat white collars and tall black hats. They sit or stand behind a table covered with a thick red rug, and one of them rests his hand on a large open book. One man on the left is rising from his chair. A sixth man without a hat stands at the back against the wall. Most of the men look straight out of the picture, as if someone has just walked into their meeting.",
+   "attribution": "Rembrandt van Rijn, Dutch painter, The Syndics of the Amsterdam Drapers' Guild, oil painting, 1662, made for the guild's hall in Amsterdam",
+   "credit": "Rijksmuseum, Amsterdam. Public domain image via Wikimedia Commons (file: Rembrandt - De Staalmeesters- het college van staalmeesters (waardijns) van het Amsterdamse lakenbereidersgilde - Google Art Project.jpg).",
+   "description": "A large oil painting in dark brown, black, and red. Behind a table covered with a red Persian rug, five men in black suits with wide, flat white collars and tall black hats are grouped together. From left to right: an older man with gray hair sits in a chair; a tall man leans forward and seems to be getting up from his seat; a man with long fair hair sits in the middle and holds out one open hand toward a large open book; a younger man with long dark hair sits beside him on the right with his hand on the pages of the book; and a man on the far right sits holding a pair of gloves and a purse. A sixth man, bareheaded, with long hair, stands in the back between them. The background is a wall of dark wood paneling. The men look out toward the viewer with calm, serious faces. The painter's signature and the date are on the paneling at the upper right.",
+   "glossary": [
+    {
+     "t": "syndics",
+     "d": "officials chosen each year to serve the guild"
+    },
+    {
+     "t": "drapers",
+     "d": "people who made or sold cloth"
+    },
+    {
+     "t": "guild",
+     "d": "an organization of people in the same trade"
+    }
+   ]
+  },
+  "P13": {
+   "type": "passage",
+   "paragraphs": [
+    "Praised be our Lord God forever for granting our nation such a victory and such glory as was never heard of in all times past! The whole camp of the enemy, with their artillery and untold treasure, has fallen into our hands. They are now retreating in great confusion, and the approaches to the town, the camp, and the open fields are covered with their corpses. …",
+    "… The grand vizier lost all his rich treasure and barely escaped, on horseback, with nothing but the coat on his back, and I have become his heir and successor. …",
+    "… It cannot be denied that they defended themselves bravely, especially the companies of janizaries who guarded the approaches to the camp and so bore the brunt of the battle. …",
+    "This morning early I went into the town and found that it could not have held out five days longer. Never have the eyes of men beheld so great damage done in so brief a time; great masses of stone and rock have been broken up and tossed about in heaps by the enemy's mines, and the imperial castle is riddled with holes and ruined by their cannon balls.",
+    "… Then (when the victory was won) I was surrounded by the elector of Bavaria, Prince von Waldeck, and many more of the imperial princes, who embraced and kissed me; … Finally, the governor of Vienna, Count von Stahrenberg, accompanied by a great crowd of people of both high and low degree, came out to greet me, all kissing and petting me and calling me their savior. …",
+    "… Let Christendom rejoice and thank the Lord our God … ."
+   ],
+   "attribution": "John III Sobieski, king of Poland, letter to his wife, written outside Vienna, September 13, 1683",
+   "translation": "English translation in James Harvey Robinson, Readings in European History, vol. 2 (Boston, 1906), pp. 312–315, made from a German version printed in the Theatrum Europaeum; Sobieski wrote the letter in Polish; adapted",
+   "glossary": [
+    {
+     "t": "the enemy",
+     "d": "the Ottoman army, which had besieged Vienna, the Habsburg capital, for two months"
+    },
+    {
+     "t": "grand vizier",
+     "d": "the Ottoman sultan's chief minister, who led the army"
+    },
+    {
+     "t": "janizaries",
+     "d": "the Ottoman sultan's elite foot soldiers"
+    },
+    {
+     "t": "bore the brunt",
+     "d": "took the hardest blows"
+    },
+    {
+     "t": "mines",
+     "d": "tunnels dug under city walls and filled with gunpowder"
+    },
+    {
+     "t": "imperial castle",
+     "d": "the Habsburg emperor's palace in Vienna"
+    },
+    {
+     "t": "elector of Bavaria, imperial princes",
+     "d": "rulers of German states in the Holy Roman Empire"
+    },
+    {
+     "t": "Christendom",
+     "d": "the Christian lands of Europe"
+    }
+   ]
+  },
+  "P14": {
+   "type": "pair",
+   "items": [
+    {
+     "label": "Source 1",
+     "paragraphs": [
+      "The sensible grief which we feel for the loss of a prince, whom his excellent qualities and the strict ties of blood rendered most dear to us, is infinitely increased by the proofs which he gave us at his death, of his justice and love for his faithful subjects, and the desire he showed to maintain, after his death, the general quiet of all Europe, and the happiness of his kingdoms. We will on our part contribute to the one and the other … . All our care henceforth will be to raise, by an inviolable and most strict correspondence, the Spanish Monarchy to the highest pitch of grandeur it has ever arrived at. We accept, in favor of our Grandson, the Duke of Anjou, the Will of the deceased Catholic king … .",
+      "… We shall exhort him to remember his birth, to preserve the love of his country, but, above all, to maintain forever that peace and perfect good understanding so necessary to the common happiness of our subjects and his own, which has always been the principal object of our wishes … ."
+     ],
+     "attribution": "Louis XIV, king of France, letter to the queen and the governing council of Spain after the death of King Charles II of Spain, November 12, 1700",
+     "translation": "English translation of 1701, as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (Boston, 1908), pp. 45–46; adapted",
+     "glossary": [
+      {
+       "t": "sensible",
+       "d": "deeply felt"
+      },
+      {
+       "t": "a prince",
+       "d": "Charles II of Spain, who died without children"
+      },
+      {
+       "t": "strict ties of blood",
+       "d": "close family relationship"
+      },
+      {
+       "t": "inviolable … correspondence",
+       "d": "an unbreakable close relationship"
+      },
+      {
+       "t": "the Will of the deceased Catholic king",
+       "d": "the will of Charles II, which named the Duke of Anjou as heir to all of Spain's lands"
+      },
+      {
+       "t": "exhort",
+       "d": "strongly urge"
+      }
+     ]
+    },
+    {
+     "label": "Source 2",
+     "paragraphs": [
+      "Whereas Charles II King of Spain, of most glorious memory, being not long since dead without issue, his sacred Imperial Majesty has claimed the succession in the kingdoms and provinces of the deceased king as lawfully belonging to his august family, but the Most Christian King, aiming at the same succession for his grandson, the Duke of Anjou, and pretending that a right did accrue to him by a certain Will of the deceased king, has usurped the possession of the entire inheritance or Spanish monarchy for the aforesaid Duke of Anjou and invaded by his arms the provinces of the Spanish Low Countries and the duchy of Milan, … and by this and many other ways the kingdoms of France and Spain are so closely united and cemented that they may seem henceforward not to be otherwise considered than as one and the same kingdom.",
+      "So that it sufficiently appears, unless timely care be taken, that … the free intercourse or Navigation and Commerce which the English and Dutch have in the Mediterranean, the Indies, and other places will be utterly destroyed; and the United Provinces will be deprived of the security which they enjoyed in the provinces of Spanish Netherlands lying between them and the French, which is commonly called a Barrier; lastly, that the French and Spaniards, being thus united, will within a short time become so formidable to all that they may easily assume to themselves the dominion over all Europe."
+     ],
+     "attribution": "Treaty of the Grand Alliance among the Holy Roman Emperor, King William III of England, and the Dutch Republic, signed at The Hague, September 7, 1701, opening section",
+     "translation": "English text from A General Collection of Treaties (London, 1733), as printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 1 (Boston, 1908), pp. 46–47; adapted",
+     "glossary": [
+      {
+       "t": "without issue",
+       "d": "without children"
+      },
+      {
+       "t": "his sacred Imperial Majesty",
+       "d": "the Holy Roman Emperor, Leopold I, head of the Austrian Habsburg family"
+      },
+      {
+       "t": "august",
+       "d": "noble and respected"
+      },
+      {
+       "t": "the Most Christian King",
+       "d": "the official title of the king of France"
+      },
+      {
+       "t": "accrue",
+       "d": "come"
+      },
+      {
+       "t": "usurped",
+       "d": "seized without the right to it"
+      },
+      {
+       "t": "the Spanish Low Countries",
+       "d": "the Spanish Netherlands, roughly today's Belgium"
+      },
+      {
+       "t": "intercourse",
+       "d": "dealings"
+      },
+      {
+       "t": "the United Provinces",
+       "d": "the Dutch Republic"
+      },
+      {
+       "t": "formidable",
+       "d": "powerful and frightening"
+      },
+      {
+       "t": "dominion",
+       "d": "rule"
+      }
+     ]
+    }
+   ]
+  },
+  "P15": {
+   "type": "passage",
+   "paragraphs": [
+    "… God having at last permitted that our people should enjoy perfect peace, we, no longer absorbed in protecting them from our enemies, are able to profit by this truce (which we have ourselves facilitated), and devote our whole attention to the means of accomplishing the designs of our said grandfather and father, which we have consistently kept before us since our succession to the crown.",
+    "And now we perceive, with thankful acknowledgment of God's aid, that our endeavors have attained their proposed end, inasmuch as the better and the greater part of our subjects of the said R.P.R.* have embraced the Catholic faith. And since by this fact the execution of the Edict of Nantes and of all that has ever been ordained in favor of the said R.P.R. has been rendered nugatory, we have determined that we can do nothing better, in order wholly to obliterate the memory of the troubles, the confusion, and the evils which the progress of this false religion has caused in this kingdom, … than entirely to revoke the said Edict of Nantes … .",
+    "… II. We forbid our subjects of the R.P.R. to meet any more for the exercise of the said religion in any place or private house, under any pretext whatever, … .",
+    "… IV. We enjoin all ministers of the said R.P.R., who do not choose to become converts and to embrace the Catholic, apostolic, and Roman religion, to leave our kingdom and the territories subject to us within a fortnight of the publication of our present edict … .",
+    "… X. We repeat our most express prohibition to all our subjects of the said R.P.R., together with their wives and children, against leaving our kingdom, lands, and territories subject to us, or transporting their goods and effects therefrom under penalty, as respects the men, of being sent to the galleys, and as respects the women, of imprisonment and confiscation."
+   ],
+   "attribution": "Louis XIV, king of France, Edict of Fontainebleau, which revoked the Edict of Nantes, October 1685",
+   "translation": "English translation in James Harvey Robinson, Readings in European History, vol. 2 (Boston, 1906), pp. 288–290; adapted",
+   "footnotes": [
+    {
+     "mark": "*",
+     "text": "R.P.R. stands for the French words for \"the religion called the Reformed,\" the French government's name for Protestantism. French Protestants were called Huguenots."
+    }
+   ],
+   "glossary": [
+    {
+     "t": "truce",
+     "d": "a break in fighting"
+    },
+    {
+     "t": "facilitated",
+     "d": "made possible"
+    },
+    {
+     "t": "designs of our said grandfather and father",
+     "d": "the plans of King Henry IV and King Louis XIII to bring Protestants back to the Catholic Church"
+    },
+    {
+     "t": "Edict of Nantes",
+     "d": "the law of 1598 that gave French Protestants the right to worship"
+    },
+    {
+     "t": "ordained",
+     "d": "ordered"
+    },
+    {
+     "t": "nugatory",
+     "d": "useless; no longer needed"
+    },
+    {
+     "t": "obliterate",
+     "d": "wipe out"
+    },
+    {
+     "t": "revoke",
+     "d": "cancel"
+    },
+    {
+     "t": "pretext",
+     "d": "excuse"
+    },
+    {
+     "t": "enjoin",
+     "d": "order"
+    },
+    {
+     "t": "ministers",
+     "d": "here, Protestant pastors"
+    },
+    {
+     "t": "galleys",
+     "d": "warships rowed by prisoners in chains"
+    },
+    {
+     "t": "confiscation",
+     "d": "having property taken by the government"
+    }
+   ]
+  },
+  "P16": {
+   "type": "passage",
+   "paragraphs": [
+    "I mentioned in the relation of the former year the tsar's coming out of his own country; on which I will now enlarge. He came this winter [early 1698] over to England and stayed some months among us. I waited often on him, and was ordered both by the king and the archbishop and bishops to attend upon him and to offer him such informations of our religion and constitution as he was willing to receive. I had good interpreters, so I had much free discourse with him. He is a man of a very hot temper, soon inflamed and very brutal in his passion. … He wants not capacity, and has a larger measure of knowledge than might be expected from his education, which was very indifferent. …",
+    "He is mechanically turned, and seems designed by nature rather to be a ship carpenter than a great prince. This was his chief study and exercise while he stayed here. He wrought much with his own hands and made all about him work at the models of ships. He told me he designed a great fleet at Azuph [i.e. Azov] and with it to attack the Turkish empire. …",
+    "He was desirous to understand our doctrine, but he did not seem disposed to mend matters in Moscovy. He was, indeed, resolved to encourage learning and to polish his people by sending some of them to travel in other countries and to draw strangers to come and live among them. …",
+    "After I had seen him often, and had conversed much with him, I could not but adore the depth of the providence of God that had raised up such a furious man to so absolute an authority over so great a part of the world. …"
+   ],
+   "attribution": "Gilbert Burnet, Scottish-born bishop of the Church of England and historian, History of His Own Time, describing Tsar Peter I of Russia's visit to England in 1698; the volume with this passage was published in 1734, after Burnet's death",
+   "translation": "Text from Burnet's History of His Own Time, vol. 2 (London, 1734), as printed in James Harvey Robinson, Readings in European History, vol. 2 (Boston, 1906), pp. 303–304; adapted",
+   "glossary": [
+    {
+     "t": "the relation of the former year",
+     "d": "the part of his history about the year before"
+    },
+    {
+     "t": "enlarge",
+     "d": "say more"
+    },
+    {
+     "t": "waited … on him",
+     "d": "visited him to serve him"
+    },
+    {
+     "t": "discourse",
+     "d": "conversation"
+    },
+    {
+     "t": "wants not capacity",
+     "d": "does not lack ability"
+    },
+    {
+     "t": "indifferent",
+     "d": "poor"
+    },
+    {
+     "t": "mechanically turned",
+     "d": "good with machines and tools"
+    },
+    {
+     "t": "wrought",
+     "d": "worked"
+    },
+    {
+     "t": "doctrine",
+     "d": "religious teaching"
+    },
+    {
+     "t": "disposed to mend matters in Moscovy",
+     "d": "willing to change the Church in Russia"
+    },
+    {
+     "t": "polish",
+     "d": "make more refined"
+    },
+    {
+     "t": "strangers",
+     "d": "foreigners"
+    },
+    {
+     "t": "providence of God",
+     "d": "God's plan"
+    }
+   ]
+  }
+ },
+ "practice": [
+  {
+   "id": "E3-P01",
+   "set": "P1",
+   "topic": "3.1",
+   "lo": "A",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "The events Motteville describes are best understood in the context of which of the following?",
+   "options": {
+    "A": "Protestant revolts in France after Louis XIV revoked the Edict of Nantes",
+    "B": "Peasant uprisings against feudal dues on the eve of the French Revolution",
+    "C": "Resistance to new taxes and to royal power while Louis XIV was a child",
+    "D": "Riots in Paris over the cost of France's war with the Dutch Republic"
+   },
+   "answer": "C",
+   "explanation": "In 1648 Louis XIV was nine years old. His mother ruled for him with Cardinal Mazarin, and they wanted new taxes to pay for war. Judges of the Parlement of Paris fought the taxes. When the queen had Broussel arrested, Paris rose up. This began the revolts called the Fronde (1648–1653).",
+   "whyNot": {
+    "A": "Louis XIV revoked the Edict of Nantes in 1685, almost forty years after these riots of 1648.",
+    "B": "The French Revolution began in 1789, more than a century later. This crowd is in Paris and is defending a judge, not attacking feudal dues.",
+    "D": "France's war with the Dutch Republic began in 1672. In 1648 the crowd wanted the queen to free Broussel."
+   },
+   "hint": "Who was ruling France in 1648, and why might a judge of the Parlement have angered the queen and her minister?"
+  },
+  {
+   "id": "E3-P02",
+   "set": "P1",
+   "topic": "3.1",
+   "lo": "A",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Motteville's account of the riot was most likely shaped by which of the following?",
+   "options": {
+    "A": "Her loyalty to the queen, whom she served at court",
+    "B": "Her support for Broussel and the judges of the Parlement",
+    "C": "Her role as one of the leaders of the revolt in Paris",
+    "D": "Her experience as a Protestant living under a Catholic king"
+   },
+   "answer": "A",
+   "explanation": "Motteville served Queen Anne and lived at court. She calls the crowd \"madmen\" and praises the queen's \"intrepid courage.\" She saw the Fronde from the queen's side, and a historian should keep that in mind.",
+   "whyNot": {
+    "B": "Motteville says the crowd acted \"like madmen\" and that their insults \"deserved the gibbet.\" She does not take Broussel's side.",
+    "C": "Motteville was with the queen at the palace, not in the streets. She was frightened by the riot, not leading it.",
+    "D": "Motteville was a Catholic attendant of a Catholic queen. Nothing in her account suggests she was a Protestant."
+   },
+   "hint": "Look at the attribution. Where did Motteville live and work, and how does she describe the crowd?"
+  },
+  {
+   "id": "E3-P03",
+   "set": "P1",
+   "topic": "3.1",
+   "lo": "A",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "In the long term, revolts like the one Motteville describes most directly contributed to which of the following?",
+   "options": {
+    "A": "Louis XIV's decision to abolish the Parlement of Paris and replace its judges",
+    "B": "Louis XIV's efforts to keep great nobles under watch at Versailles",
+    "C": "Louis XIV's creation of an elected assembly to approve new taxes",
+    "D": "Louis XIV's grant of self-government to the city of Paris"
+   },
+   "answer": "B",
+   "explanation": "As a boy, Louis XIV saw nobles and the people of Paris rise against the crown. As king, he ruled without a chief minister and used royal officials called intendants. He also brought great nobles to live at his court at Versailles, where he could watch them.",
+   "whyNot": {
+    "A": "Louis XIV limited the Parlement's right to protest his laws, but he did not abolish it. The Parlement of Paris still existed in 1789.",
+    "C": "Louis XIV never called the Estates-General, France's assembly of the three estates. It did not meet between 1614 and 1789.",
+    "D": "Louis XIV distrusted Paris and moved his court to Versailles. He did not give the city self-government."
+   },
+   "hint": "How might a king who lived through these riots as a child treat powerful nobles and the city of Paris later on?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E3-P04",
+   "set": "P2",
+   "topic": "3.7",
+   "lo": "G",
+   "skill": "3.A",
+   "difficulty": "easy",
+   "stem": "Which of the following best describes James I's main argument in the speech?",
+   "options": {
+    "A": "Kings must follow the ancient laws that Parliament has passed.",
+    "B": "Parliament should advise the king on the main points of government.",
+    "C": "Kings get their power from God and answer to God alone.",
+    "D": "Subjects may resist a king who governs against the laws of God."
+   },
+   "answer": "C",
+   "explanation": "James says kings are \"God's lieutenants upon earth.\" He says they answer to God alone. This is the idea of the divine right of kings.",
+   "whyNot": {
+    "A": "James warns Parliament not to question his \"ancient rights\" and says kings are \"accountable to none but God only.\"",
+    "B": "James tells Parliament \"that you do not meddle with the main points of government; that is my craft.\"",
+    "D": "James says kings answer to God, not to their subjects. He gives subjects no right to resist."
+   },
+   "hint": "To whom does James say a king must answer?"
+  },
+  {
+   "id": "E3-P05",
+   "set": "P2",
+   "topic": "3.2",
+   "lo": "B",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "Claims like those in James I's speech most directly contributed to which of the following?",
+   "options": {
+    "A": "The Wars of the Roses between rival noble families for the English throne",
+    "B": "Henry VIII's break with the pope and creation of the Church of England",
+    "C": "The union of the English and Scottish parliaments into one Parliament in 1707",
+    "D": "Conflict between the Stuart kings and Parliament that led to civil war"
+   },
+   "answer": "D",
+   "explanation": "James I and his son Charles I claimed powers that many in Parliament rejected. They argued most about taxes and religion. Charles I ruled without Parliament from 1629 to 1640, and in 1642 war broke out between king and Parliament.",
+   "whyNot": {
+    "A": "The Wars of the Roses ended in the 1480s, more than a century before James became king of England in 1603.",
+    "B": "Henry VIII broke with the pope in the 1530s, long before this speech.",
+    "C": "England and Scotland joined their parliaments in 1707 for political and economic reasons, long after the Stuarts' quarrels over divine right."
+   },
+   "hint": "Put the choices in time order. Which one came after 1610 and grew out of arguments about royal power?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E3-P06",
+   "set": "P2",
+   "topic": "3.8",
+   "lo": "H",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "James I's view of monarchy is most similar to the views of which of the following writers?",
+   "options": {
+    "A": "John Locke",
+    "B": "Baron de Montesquieu",
+    "C": "John Lilburne",
+    "D": "Bishop Bossuet"
+   },
+   "answer": "D",
+   "explanation": "Bossuet was a French bishop. He wrote that kings rule as God's agents and answer only to God. Like James I, he defended the divine right of kings.",
+   "whyNot": {
+    "A": "Locke argued that government rests on the consent of the people and that people may resist a ruler who abuses power.",
+    "B": "Montesquieu argued for separating the powers of government so that no single ruler holds them all.",
+    "C": "Lilburne was a leader of the Levellers, who wanted the people's elected representatives to hold supreme power."
+   },
+   "hint": "Which writer defended absolute monarchy in France?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E3-P07",
+   "set": "P3",
+   "topic": "3.2",
+   "lo": "B",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "The Agreement of the People is best understood in the context of which of the following?",
+   "options": {
+    "A": "Debate over how to govern England after Charles II returned to the throne",
+    "B": "Debate over how to govern England after Parliament's army defeated Charles I",
+    "C": "Protests against James II's efforts to give Catholics high offices",
+    "D": "Quarrels between James I and Parliament over the divine right of kings"
+   },
+   "answer": "B",
+   "explanation": "By 1646 Parliament's New Model Army had beaten Charles I. Soldiers and their allies, the Levellers, then argued about the next government. The Agreement asked for fairer seats in Parliament, elections every two years, and rights that no government could take away.",
+   "whyNot": {
+    "A": "Charles II returned to the throne in 1660, more than twelve years after this plan was written.",
+    "C": "James II ruled from 1685 to 1688, long after 1647.",
+    "D": "James I died in 1625. By 1647 his son, Charles I, had lost a civil war."
+   },
+   "hint": "The writers say God has delivered \"the enemies\" of their cause \"into our hands.\" Whom had they just defeated?"
+  },
+  {
+   "id": "E3-P08",
+   "set": "P3",
+   "topic": "3.2",
+   "lo": "B",
+   "skill": "2.A",
+   "difficulty": "medium",
+   "stem": "Members of which group would most likely have opposed the Agreement of the People?",
+   "options": {
+    "A": "Royalists who supported Charles I",
+    "B": "Leveller writers in London",
+    "C": "Radical soldiers in the New Model Army",
+    "D": "Baptist congregations seeking freedom of worship"
+   },
+   "answer": "A",
+   "explanation": "Article IV gives Parliament its power \"without the consent or concurrence of any other person.\" That leaves out the king and the House of Lords. Royalists believed the king must help make the laws, so they would have opposed the plan.",
+   "whyNot": {
+    "B": "The Levellers helped write the Agreement and spread its ideas in pamphlets.",
+    "C": "Radical soldiers chose agents, called agitators, to speak for their regiments, and plans like this one were presented to the army's council.",
+    "D": "Article 1 says religion is not \"entrusted by us to any human power,\" which matches what Baptists and other sects wanted."
+   },
+   "hint": "Article IV says who would make the laws. Who is left out?"
+  },
+  {
+   "id": "E3-P09",
+   "set": "P3",
+   "topic": "3.8",
+   "lo": "H",
+   "skill": "5.A",
+   "difficulty": "hard",
+   "stem": "Which of the following best describes a difference between the plan in the Agreement and the settlement after the Glorious Revolution of 1688–1689?",
+   "options": {
+    "A": "The 1689 settlement gave the vote to men without property, while the Agreement limited voting to landowners.",
+    "B": "The 1689 settlement made Catholicism the state religion, while the Agreement banned any official state church.",
+    "C": "The 1689 settlement kept a king and House of Lords, while the Agreement made an elected body supreme.",
+    "D": "The 1689 settlement ended Parliament's control over taxes, while the Agreement kept that control."
+   },
+   "answer": "C",
+   "explanation": "After 1689 England still had a king and a House of Lords. The House of Commons was elected by men with property. The Agreement would have made the elected Parliament supreme, with power \"inferior only to theirs who choose them.\"",
+   "whyNot": {
+    "A": "After 1689, most voters had to own property, so men without property could not vote. The Agreement asks for seats based on \"the number of the inhabitants\" and does not limit voting to landowners.",
+    "B": "The 1689 settlement barred Catholics from the throne and kept the Church of England as the state church.",
+    "D": "The Bill of Rights made it illegal for the crown to raise money without Parliament's consent, so Parliament kept control of taxes."
+   },
+   "hint": "Article IV says who holds supreme power under the Agreement. Who still shared power in England after 1689?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E3-P10",
+   "set": "P4",
+   "topic": "3.2",
+   "lo": "B",
+   "skill": "4.B",
+   "difficulty": "easy",
+   "stem": "The image is best understood in the context of which of the following?",
+   "options": {
+    "A": "The Glorious Revolution and the passage of the Bill of Rights",
+    "B": "The Spanish Armada's attempt to invade England and restore Catholicism",
+    "C": "The breakdown of royal authority during the English Civil War",
+    "D": "Louis XIV's wars against the Dutch Republic"
+   },
+   "answer": "C",
+   "explanation": "Hobbes wrote Leviathan in Paris in the last years of the English Civil Wars (1642–1651). In those years king and Parliament fought, and Charles I was executed. Hobbes argued that only one strong ruler could stop such chaos.",
+   "whyNot": {
+    "A": "The Glorious Revolution took place in 1688–1689, almost forty years after the book was published.",
+    "B": "The Spanish Armada sailed in 1588, more than sixty years before 1651.",
+    "D": "Louis XIV's war against the Dutch began in 1672, two decades after the book appeared."
+   },
+   "hint": "The book came out in London in 1651. What had England just lived through?"
+  },
+  {
+   "id": "E3-P11",
+   "set": "P4",
+   "topic": "3.7",
+   "lo": "G",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "The artist most likely made the giant's body out of many small people in order to suggest that",
+   "options": {
+    "A": "the ruler's power comes from the people, joined together under one sovereign",
+    "B": "the people have the right to overthrow a ruler who breaks the law",
+    "C": "the ruler shares power equally with an assembly elected by the people",
+    "D": "the people should obey the Church rather than the king"
+   },
+   "answer": "A",
+   "explanation": "The tiny people make up the giant's body. This shows the people joining together to create one ruler. Hobbes said people give their power to that ruler, who must then be obeyed to keep the peace.",
+   "whyNot": {
+    "B": "The people form part of the ruler's body; they are not shown as a force that can remove him. The right to resist a ruler was John Locke's idea, not Hobbes's.",
+    "C": "No assembly appears in the image. One crowned figure holds all the power.",
+    "D": "The giant himself holds the crozier, a symbol of church power, so the ruler is over the Church."
+   },
+   "hint": "What do the tiny people make up? Who holds the sword and the crozier?"
+  },
+  {
+   "id": "E3-P12",
+   "set": "P4",
+   "topic": "3.8",
+   "lo": "H",
+   "skill": "5.A",
+   "difficulty": "hard",
+   "stem": "Hobbes's idea of the sovereign, as shown in the image, differs most from James I's view of kingship in that Hobbes",
+   "options": {
+    "A": "gives the people the right to remove a ruler who breaks the law",
+    "B": "argues that the Church should be independent of the ruler",
+    "C": "says that a ruler must share the making of laws with an elected Parliament",
+    "D": "bases the ruler's power on the people's agreement, not on God's choice"
+   },
+   "answer": "D",
+   "explanation": "James I said God chooses kings. Hobbes said the ruler's power starts when people agree to join together under one ruler. Both men said subjects must obey, but they explained the ruler's power in different ways.",
+   "whyNot": {
+    "A": "Hobbes wanted people to obey the sovereign so that the country would not fall back into civil war. He did not give them a right to remove a ruler.",
+    "B": "The giant holds the crozier, a symbol of church power. Hobbes put the Church under the sovereign.",
+    "C": "Hobbes wanted all power held by one sovereign. The image shows one crowned figure holding both the sword and the crozier."
+   },
+   "hint": "Both men wanted subjects to obey. Where does each one say the ruler's power comes from?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E3-P13",
+   "set": "P5",
+   "topic": "3.2",
+   "lo": "B",
+   "skill": "4.B",
+   "difficulty": "easy",
+   "stem": "The Bill of Rights is best understood in the context of which of the following?",
+   "options": {
+    "A": "Parliament's victory over Charles I and the creation of a republic",
+    "B": "Parliament's removal of a Catholic king who had ruled without its consent",
+    "C": "The return of the Stuart kings after the collapse of the Commonwealth",
+    "D": "William III's war against Louis XIV over the throne of Spain"
+   },
+   "answer": "B",
+   "explanation": "James II was a Catholic king. He was accused of setting aside laws and keeping an army without Parliament's consent. In 1688 he fled, and Parliament gave the throne to William and Mary. In 1689 it listed rights that rulers could not take away.",
+   "whyNot": {
+    "A": "Charles I was defeated in the 1640s and executed in 1649. The Bill of Rights names \"the late king James the Second.\"",
+    "C": "Charles II returned to the throne in 1660. The Bill of Rights was passed after his brother, James II, lost the throne in 1688.",
+    "D": "The War of the Spanish Succession began in 1701–1702, more than ten years after the Bill of Rights."
+   },
+   "hint": "Which king does the Bill of Rights accuse, and what had he done?"
+  },
+  {
+   "id": "E3-P14",
+   "set": "P5",
+   "topic": "3.2",
+   "lo": "B",
+   "skill": "1.B",
+   "difficulty": "medium",
+   "stem": "The rights declared in the Bill of Rights most directly protected the power of which group?",
+   "options": {
+    "A": "Catholic subjects of the English crown",
+    "B": "Gentry and nobles in Parliament",
+    "C": "Urban workers who owned no property",
+    "D": "Officers of the king's standing army"
+   },
+   "answer": "B",
+   "explanation": "Parliament had two houses. The House of Lords held nobles and bishops. The House of Commons was elected mostly by landowners. By limiting the king and protecting Parliament, the Bill of Rights protected these landowning gentry and nobles.",
+   "whyNot": {
+    "A": "The Bill of Rights accuses James II of trying \"to subvert and extirpate the Protestant religion.\" It did not protect Catholics' power.",
+    "C": "Most men who voted for Parliament owned property, and the Bill of Rights did not widen the vote.",
+    "D": "The Bill of Rights says a standing army in peacetime needs the \"consent of parliament.\" This limited the army instead of protecting its officers."
+   },
+   "hint": "Many of the rights belong to \"parliament.\" Who sat in Parliament in 1689?"
+  },
+  {
+   "id": "E3-P15",
+   "set": "P5",
+   "topic": "3.8",
+   "lo": "H",
+   "skill": "5.A",
+   "difficulty": "easy",
+   "stem": "The Bill of Rights best reflects which form of government?",
+   "options": {
+    "A": "Divine-right absolute monarchy",
+    "B": "Republican commonwealth",
+    "C": "Enlightened despotism",
+    "D": "Constitutional monarchy"
+   },
+   "answer": "D",
+   "explanation": "In a constitutional monarchy, a king or queen rules within limits set by law. The Bill of Rights kept the monarchy. But the ruler now needed Parliament's consent for taxes and for a peacetime army.",
+   "whyNot": {
+    "A": "Divine-right absolutism lets a king rule without limits. The Bill of Rights says the crown may not suspend laws or raise money without the \"consent of parliament.\"",
+    "B": "England remained a monarchy: Parliament offered the crown to William and Mary.",
+    "C": "Enlightened despots, such as Frederick II of Prussia, made reforms by their own will in the later 1700s. The Bill of Rights limits the ruler by law."
+   },
+   "hint": "Does England still have a king or queen after 1689? Is that ruler's power limited?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E3-P16",
+   "set": "P6",
+   "topic": "3.2",
+   "lo": "B",
+   "skill": "3.A",
+   "difficulty": "medium",
+   "stem": "Which of the following best describes Acton's main argument about the Revolution of 1688?",
+   "options": {
+    "A": "It moved power from the aristocracy to ordinary people through violence.",
+    "B": "It kept the same ruling class but made Parliament supreme over the king.",
+    "C": "It changed little, because the king kept full control of the government.",
+    "D": "It succeeded mainly because it granted religious freedom to Catholics and dissenters."
+   },
+   "answer": "B",
+   "explanation": "Acton says the same landowning class ruled after 1688. But he says the Revolution still changed English government. Parliament now gave the crown \"under conditions,\" and \"Conditional obedience\" took the place of \"Passive obedience.\"",
+   "whyNot": {
+    "A": "Acton says there was \"no transfer of force from the aristocratic element of society to the democratic\" and that it was done \"without bloodshed.\"",
+    "C": "Acton says \"Parliament became supreme\" and the king became \"its servant on good behaviour.\"",
+    "D": "Acton praises the Revolution for making Parliament supreme and the king's power conditional. He does not credit religious freedom for its success, and the Toleration Act of 1689 helped Protestant dissenters but not Catholics."
+   },
+   "hint": "Acton begins with what did not change. Then he writes, \"And yet.\" What does he say did change?"
+  },
+  {
+   "id": "E3-P17",
+   "set": "P6",
+   "topic": "3.8",
+   "lo": "H",
+   "skill": "3.D",
+   "difficulty": "hard",
+   "stem": "Which of the following, if true, would best support Acton's claim that \"Parliament became supreme in administration as well as in legislation\"?",
+   "options": {
+    "A": "After 1689, William III chose his ministers and kept them when Parliament objected.",
+    "B": "After 1689, Parliament met just when the king decided to call it.",
+    "C": "After 1689, the crown needed money voted by Parliament each year to pay its army.",
+    "D": "After 1689, the gentry kept running local government in the counties."
+   },
+   "answer": "C",
+   "explanation": "If the king needed Parliament's vote every year to pay his army, he could not rule without Parliament. After 1689 Parliament usually voted army money one year at a time. So it had to meet every year.",
+   "whyNot": {
+    "A": "A king who kept his ministers against Parliament's wishes would show royal power. This would weaken Acton's claim.",
+    "B": "If Parliament met just when the king chose, the king would still be in charge. This would weaken the claim.",
+    "D": "This fits Acton's point that the governing class did not change, but it says nothing about Parliament's power over the king."
+   },
+   "hint": "Look for the choice that shows the king depending on Parliament."
+  },
+  {
+   "id": "E3-P18",
+   "set": "P6",
+   "topic": "3.3",
+   "lo": "C",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "Acton's statement that the war gave England \"the National Debt, the Bank of England\" is best understood in the context of which of the following?",
+   "options": {
+    "A": "The Dutch Republic lending money to Charles I during the English Civil War",
+    "B": "The collapse of the South Sea Company's stock in the bubble of 1720",
+    "C": "Britain's need to pay for the Seven Years' War against France",
+    "D": "Government borrowing from investors to pay for long, costly wars"
+   },
+   "answer": "D",
+   "explanation": "England borrowed money from investors to fight Louis XIV from 1688 to 1697. In 1694 investors started the Bank of England to lend to the government. This long-term borrowing became the National Debt.",
+   "whyNot": {
+    "A": "The English Civil War ended decades before the Bank of England was founded in 1694.",
+    "B": "The South Sea Bubble burst in 1720, more than twenty-five years after the Bank of England was founded.",
+    "C": "The Seven Years' War (1756–1763) came long after the war Acton describes, which ended in 1697."
+   },
+   "hint": "The footnote tells you which war Acton means. How did England pay for it?"
+  },
+  {
+   "id": "E3-P19",
+   "set": "P7",
+   "topic": "3.3",
+   "lo": "C",
+   "skill": "1.B",
+   "difficulty": "easy",
+   "stem": "The way of making cloth that Defoe describes is best identified as which of the following?",
+   "options": {
+    "A": "Factory production",
+    "B": "Manorial farming",
+    "C": "Guild workshops",
+    "D": "Cottage industry"
+   },
+   "answer": "D",
+   "explanation": "Clothiers worked at home with a few hired men. Women and children in nearby cottages spun the wool. The clothier carried yarn to the spinners and took the cloth to market. This home-based work is called cottage industry, or the putting-out system.",
+   "whyNot": {
+    "A": "Factories bring workers together under one roof to work machines. Defoe describes work done in many scattered houses and cottages.",
+    "B": "Under the manorial system, peasants farmed a lord's land and owed him labor. Defoe's clothiers make cloth \"to be sold\" at market.",
+    "C": "Guilds were town organizations that controlled who could practice a trade. Defoe describes families spread across the countryside, not town guild masters."
+   },
+   "hint": "Where does the work take place, and who does it?"
+  },
+  {
+   "id": "E3-P20",
+   "set": "P7",
+   "topic": "3.3",
+   "lo": "C",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "Which of the following changes in the European economy does the passage best illustrate?",
+   "options": {
+    "A": "Rural households making goods for distant markets, not just for their own use",
+    "B": "Guilds tightening their control over cloth making in the countryside",
+    "C": "Large steam-powered mills replacing work that had been done in homes",
+    "D": "Landowners forcing peasants back into serfdom to keep them on the land"
+   },
+   "answer": "A",
+   "explanation": "Defoe shows country families making cloth to be sold at market. In the 1600s and 1700s, more and more rural households made goods for faraway buyers.",
+   "whyNot": {
+    "B": "Defoe describes clothiers and families working on their own, outside town guilds. Rural cloth making grew partly because it escaped guild rules.",
+    "C": "Steam-powered mills spread in the late 1700s and 1800s, after Defoe wrote in the 1720s. Here, cloth is made in houses.",
+    "D": "Serfdom grew stronger in eastern Europe, not in England. Defoe's workers are paid laborers and small clothiers."
+   },
+   "hint": "Where does the finished cloth go after it is made?",
+   "reasoning": "Continuity and Change"
+  },
+  {
+   "id": "E3-P21",
+   "set": "P7",
+   "topic": "3.3",
+   "lo": "C",
+   "skill": "5.B",
+   "difficulty": "easy",
+   "stem": "Features of the region Defoe describes, such as coal and running water, would later most directly support which development?",
+   "options": {
+    "A": "The Price Revolution",
+    "B": "The Protestant Reformation",
+    "C": "The Scientific Revolution",
+    "D": "The Industrial Revolution"
+   },
+   "answer": "D",
+   "explanation": "Running water could turn mill wheels, and coal could fuel steam engines. In the late 1700s and 1800s, cloth making in northern England moved into water-powered and then steam-powered factories. This was part of the Industrial Revolution.",
+   "whyNot": {
+    "A": "The Price Revolution was the steep rise in prices in the 1500s, when American silver flowed into Europe. It came before Defoe's time.",
+    "B": "The Protestant Reformation began in 1517, two centuries before Defoe's journey.",
+    "C": "The Scientific Revolution changed how Europeans studied nature in the 1500s and 1600s. It did not depend on coal or water in Yorkshire."
+   },
+   "hint": "What could running water and coal be used to power?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E3-P22",
+   "set": "P8",
+   "topic": "3.6",
+   "lo": "F",
+   "skill": "5.A",
+   "difficulty": "easy",
+   "stem": "Which of the following conclusions is best supported by the data in the table?",
+   "options": {
+    "A": "Income per person fell in all three countries between 1688 and 1695.",
+    "B": "England had a larger population than France in both years shown.",
+    "C": "Taxes per person rose in all three countries between 1688 and 1695.",
+    "D": "France collected less in total taxes than Holland in both years shown."
+   },
+   "answer": "C",
+   "explanation": "Taxes per person rose in England (£0.36 to £1.20), in France (£0.75 to £1.25), and in Holland (£2.16 to £3.08). All three went up.",
+   "whyNot": {
+    "A": "Holland's income per person rose slightly, from £8.07 to £8.14.",
+    "B": "France had about 14 million people in 1688, more than twice England's 5.5 million.",
+    "D": "France collected £10.5 million in 1688 and £17.5 million in 1695, far more than Holland."
+   },
+   "hint": "Compare the last column for each country in 1688 and in 1695.",
+   "reasoning": "Continuity and Change"
+  },
+  {
+   "id": "E3-P23",
+   "set": "P8",
+   "topic": "3.6",
+   "lo": "F",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "The change in taxes between 1688 and 1695 is best understood in the context of which of the following?",
+   "options": {
+    "A": "The Thirty Years' War",
+    "B": "The War of the Spanish Succession",
+    "C": "The Nine Years' War",
+    "D": "The English Civil War"
+   },
+   "answer": "C",
+   "explanation": "From 1688 to 1697, France fought England, the Dutch Republic, and their allies in the Nine Years' War. Big armies and navies cost a lot of money. So all three countries raised taxes sharply.",
+   "whyNot": {
+    "A": "The Thirty Years' War ended in 1648, forty years before the first date in the table.",
+    "B": "The War of the Spanish Succession began in 1701, after the second date in the table.",
+    "D": "The English Civil War was fought in the 1640s, long before 1688."
+   },
+   "hint": "Which war was being fought in 1695?"
+  },
+  {
+   "id": "E3-P24",
+   "set": "P8",
+   "topic": "3.5",
+   "lo": "D",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "Which of the following best explains why Holland had the highest income per person in the table?",
+   "options": {
+    "A": "The Dutch Republic had more farmland per person than England or France.",
+    "B": "The Dutch Republic received large amounts of silver from its mines in the Americas.",
+    "C": "The Dutch Republic's absolute monarch controlled trade through royal monopolies.",
+    "D": "The Dutch Republic had grown rich from shipping, overseas trade, and banking."
+   },
+   "answer": "D",
+   "explanation": "In the 1600s Dutch ships carried much of Europe's trade. The Dutch East India Company traded across Asia, and Amsterdam had Europe's leading bank. This trade made the Dutch the richest people per person in Europe.",
+   "whyNot": {
+    "A": "The Dutch Republic was small and crowded, with less land per person than England or France. Its wealth came mostly from trade.",
+    "B": "Spain, not the Dutch Republic, controlled the great silver mines of the Americas.",
+    "C": "The Dutch Republic had no king. It was a republic led by wealthy merchants and town officials."
+   },
+   "hint": "What was the Dutch Republic best known for in the 1600s?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E3-P25",
+   "set": "P9",
+   "topic": "3.4",
+   "lo": "C",
+   "skill": "3.A",
+   "difficulty": "medium",
+   "stem": "Which of the following best describes Schmoller's main argument?",
+   "options": {
+    "A": "Mercantilism was mainly a way of building strong, unified states.",
+    "B": "Mercantilism was mainly a belief that wealth means having gold and silver.",
+    "C": "Mercantilism was mainly a plan to let merchants trade without government rules.",
+    "D": "Mercantilism was mainly a way for towns and guilds to protect local markets."
+   },
+   "answer": "A",
+   "explanation": "Schmoller says mercantilism was \"nothing but state making.\" Rulers worked against the power of nobles, towns, guilds, and provinces. They wanted one economy with the same laws, coins, and measures for the whole state.",
+   "whyNot": {
+    "B": "Schmoller says the essence of the system \"lies not in some doctrine of money.\"",
+    "C": "Schmoller describes states taking an active role in the economy, working for \"uniform laws and uniform administration.\"",
+    "D": "Schmoller says mercantilism replaced \"a local and territorial economic policy\" with that of the national state. It worked against the towns and corporations."
+   },
+   "hint": "Schmoller says what mercantilism is \"in its innermost kernel.\" What does he say?"
+  },
+  {
+   "id": "E3-P26",
+   "set": "P9",
+   "topic": "3.7",
+   "lo": "G",
+   "skill": "3.D",
+   "difficulty": "hard",
+   "stem": "Which of the following developments would best support Schmoller's argument?",
+   "options": {
+    "A": "The Dutch provinces' success in keeping their own separate systems of taxes",
+    "B": "Polish nobles' success in blocking royal efforts to raise taxes and armies",
+    "C": "Colbert's efforts to remove tolls and set one tariff for much of France",
+    "D": "Adam Smith's call for governments to stop regulating trade"
+   },
+   "answer": "C",
+   "explanation": "In the 1660s Colbert cut tolls and customs barriers inside France. His tariff of 1664 set one system of duties for a large part of the kingdom. This is the kind of national policy that Schmoller praises.",
+   "whyNot": {
+    "A": "Schmoller argues that states replaced local systems with national ones. Provinces keeping separate taxes would show the opposite.",
+    "B": "Schmoller says states struggled against \"the great nobility.\" Nobles who blocked their king would show that struggle failing, not a national economy being built.",
+    "D": "Smith attacked mercantilism in 1776. His call for less regulation does not show states building national economies."
+   },
+   "hint": "Schmoller praises \"freer and more active traffic within the land.\" Which choice shows that happening?"
+  },
+  {
+   "id": "E3-P27",
+   "set": "P9",
+   "topic": "3.4",
+   "lo": "C",
+   "skill": "5.A",
+   "difficulty": "medium",
+   "stem": "Schmoller's positive view of mercantilism contrasts most strongly with the views of which of the following?",
+   "options": {
+    "A": "Jean-Baptiste Colbert",
+    "B": "Adam Smith",
+    "C": "Thomas Mun",
+    "D": "Frederick William I of Prussia"
+   },
+   "answer": "B",
+   "explanation": "Adam Smith wrote The Wealth of Nations in 1776. He attacked the mercantile system. He said free trade and competition, not government control, make nations rich.",
+   "whyNot": {
+    "A": "Colbert, Louis XIV's minister, put mercantilist policies into practice in France.",
+    "C": "Mun was an English merchant whose book England's Treasure by Forraign Trade defended mercantilist ideas.",
+    "D": "Frederick William I built up Prussia's army and treasury with strict state control of the economy, much as Schmoller describes."
+   },
+   "hint": "Which person argued that governments should leave trade more free?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E3-P28",
+   "set": "P10",
+   "topic": "3.4",
+   "lo": "C",
+   "skill": "1.B",
+   "difficulty": "medium",
+   "stem": "The Navigation Act was mainly intended to",
+   "options": {
+    "A": "lower prices in England by opening its ports to ships from any nation",
+    "B": "stop England's colonies from selling the goods they produced in England",
+    "C": "end the trade in salted fish between England and the nations around it",
+    "D": "build up English shipping at the expense of foreign carriers such as the Dutch"
+   },
+   "answer": "D",
+   "explanation": "The act says it is \"for the increase of the shipping\" of England. At the time, Dutch ships carried much of England's trade. The act tried to win that business for English ships and sailors.",
+   "whyNot": {
+    "A": "The act does the opposite. Goods may come in English ships or in ships of the country where the goods were made.",
+    "B": "The act lets goods from the colonies in, as long as they come in English or colonial ships.",
+    "C": "The act lets fish into England if it is caught in English vessels. It protects English fishermen; it does not end the trade."
+   },
+   "hint": "Read the first line of the act. What does it say the act is for?"
+  },
+  {
+   "id": "E3-P29",
+   "set": "P10",
+   "topic": "3.5",
+   "lo": "D",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "The Navigation Act is best understood in the context of which of the following?",
+   "options": {
+    "A": "Spain's control of trade between Europe and the East Indies",
+    "B": "The Dutch lead in Europe's shipping and carrying trade",
+    "C": "France's leading role in the Atlantic slave trade in the 1600s",
+    "D": "The Hanseatic League's control of trade in the Baltic Sea"
+   },
+   "answer": "B",
+   "explanation": "In the mid-1600s Dutch ships carried goods from all over the world into Europe's ports, including England's. English leaders hoped the act would cut the Dutch out of this trade.",
+   "whyNot": {
+    "A": "Spain's empire was mainly in the Americas and the Philippines. In the 1600s the Dutch, not Spain, led Europe's trade with the East Indies.",
+    "C": "France's slave trade grew mainly in the 1700s. In 1651 the Portuguese and the Dutch led the trade.",
+    "D": "By the 1600s the Hanseatic League had lost most of its power, and the Dutch led trade in the Baltic."
+   },
+   "hint": "Which country had Europe's largest merchant fleet in the mid-1600s?"
+  },
+  {
+   "id": "E3-P30",
+   "set": "P10",
+   "topic": "3.6",
+   "lo": "E",
+   "skill": "5.B",
+   "difficulty": "easy",
+   "stem": "The Navigation Act most directly contributed to which of the following?",
+   "options": {
+    "A": "The Thirty Years' War",
+    "B": "The War of the Spanish Succession",
+    "C": "The Great Northern War",
+    "D": "The First Anglo-Dutch War"
+   },
+   "answer": "D",
+   "explanation": "The Dutch saw the act as an attack on their trade. Fights over trade and shipping led to the First Anglo-Dutch War (1652–1654). It was the first of three wars between England and the Dutch Republic in the 1600s.",
+   "whyNot": {
+    "A": "The Thirty Years' War ended in 1648, three years before the act.",
+    "B": "The War of the Spanish Succession (1701–1714) was fought over who would inherit Spain's throne.",
+    "C": "The Great Northern War (1700–1721) was fought mainly between Russia and Sweden."
+   },
+   "hint": "Which country's merchants lost the most business because of the act?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E3-P31",
+   "set": "P11",
+   "topic": "3.4",
+   "lo": "C",
+   "skill": "2.B",
+   "difficulty": "easy",
+   "stem": "Sancho's point of view in the letter was most likely shaped by",
+   "options": {
+    "A": "his years of service as an official of the East India Company in India",
+    "B": "his work as a sugar planter who owned land in the West Indies",
+    "C": "his own background as an African who had been enslaved as a child",
+    "D": "his position as a bishop in the Church of England"
+   },
+   "answer": "C",
+   "explanation": "Sancho was born on a slave ship and was enslaved as a child. He later gained his freedom in England. His life helps explain why he condemns the greed of \"Christian navigators\" and the slave trade.",
+   "whyNot": {
+    "A": "Sancho's young friend was the one working in India. Sancho himself lived and worked in London.",
+    "B": "Sancho ran a shop in London. He condemns the \"abominable traffic for slaves\" that supplied the planters.",
+    "D": "Sancho was a shopkeeper and writer, not a clergyman. He writes as a Christian, but not as a church official."
+   },
+   "hint": "Reread the attribution. What do you learn there about Sancho's life?"
+  },
+  {
+   "id": "E3-P32",
+   "set": "P11",
+   "topic": "3.4",
+   "lo": "C",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "Sancho's criticism of \"the Christians' abominable traffic for slaves\" is best understood in the context of which of the following?",
+   "options": {
+    "A": "The growth of the Atlantic slave trade to supply plantations",
+    "B": "The end of the slave trade after the Peace of Utrecht in 1713",
+    "C": "The Spanish conquest of the Aztec and Inca empires",
+    "D": "Britain's abolition of slavery in its colonies"
+   },
+   "answer": "A",
+   "explanation": "In the 1600s and 1700s, Europeans wanted more sugar, tobacco, coffee, and cotton. Plantation owners in the Americas bought millions of enslaved Africans to grow these crops. Sancho condemned the trade that supplied them.",
+   "whyNot": {
+    "B": "The Peace of Utrecht gave Britain the right to sell enslaved Africans in Spanish America, which expanded the trade.",
+    "C": "The Spanish conquered the Aztec and Inca empires in the 1500s. Sancho writes in 1778 about the trade in enslaved Africans.",
+    "D": "Britain abolished slavery in its colonies in 1833, more than fifty years after this letter."
+   },
+   "hint": "Where were most enslaved Africans taken in the 1700s, and what did they produce?"
+  },
+  {
+   "id": "E3-P33",
+   "set": "P11",
+   "topic": "3.4",
+   "lo": "C",
+   "skill": "5.B",
+   "difficulty": "easy",
+   "stem": "Arguments like Sancho's most directly contributed to which later development?",
+   "options": {
+    "A": "The end of Britain's slave trade",
+    "B": "The Glorious Revolution in England",
+    "C": "The repeal of the Navigation Acts",
+    "D": "The cut in Britain's tax on tea in 1784"
+   },
+   "answer": "A",
+   "explanation": "Writings by Black authors in Britain, such as Sancho, Olaudah Equiano, and Ottobah Cugoano, helped the fight against slavery. Parliament banned the British slave trade in 1807.",
+   "whyNot": {
+    "B": "The Glorious Revolution took place in 1688–1689, long before Sancho wrote in 1778.",
+    "C": "Britain repealed the Navigation Acts in 1849 because of arguments for free trade, not protests against the slave trade.",
+    "D": "Parliament cut the tea tax in 1784 to stop smuggling. Sancho's letter attacks the greed and cruelty of European traders, not taxes."
+   },
+   "hint": "Sancho calls the slave trade \"abominable.\" Which later change dealt with the problem he describes?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E3-P34",
+   "set": "P12",
+   "topic": "3.5",
+   "lo": "D",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Given its context, the painting was most likely intended to",
+   "options": {
+    "A": "decorate a Catholic church with a scene from the life of a saint",
+    "B": "celebrate the military victories of the Dutch prince of Orange",
+    "C": "honor the guild officials and show that they could be trusted",
+    "D": "warn viewers that wealth and fine clothes lead people into sin"
+   },
+   "answer": "C",
+   "explanation": "The guild ordered this group portrait for its hall in Amsterdam. It shows the officials as calm, serious men at work. This told the cloth makers and merchants who came there that the officials judged fairly.",
+   "whyNot": {
+    "A": "The painting shows six men at a meeting, not a saint, and it was made for the guild's hall. Dutch Reformed churches did not display religious paintings.",
+    "B": "No prince, soldier, or battle appears. The men are cloth officials at a meeting.",
+    "D": "The men are shown with respect, in plain, serious clothes. Nothing in the painting mocks them or their wealth."
+   },
+   "hint": "Where did the painting hang, and who would have seen it there?"
+  },
+  {
+   "id": "E3-P35",
+   "set": "P12",
+   "topic": "3.5",
+   "lo": "D",
+   "skill": "2.A",
+   "difficulty": "medium",
+   "stem": "In the Dutch Republic in the 1600s, which group most often paid for paintings like this one?",
+   "options": {
+    "A": "Catholic bishops and monasteries",
+    "B": "Merchants, guilds, and town officials",
+    "C": "Kings, princes, and their royal households",
+    "D": "Peasant villages and their lords"
+   },
+   "answer": "B",
+   "explanation": "The Dutch Republic was rich and run mostly by town merchants. Merchants bought paintings for their homes. Guilds and other town groups ordered group portraits like this one for their halls.",
+   "whyNot": {
+    "A": "The Dutch Republic was mostly Protestant, and the Catholic Church could not worship openly or order art for public churches there.",
+    "C": "The Dutch Republic had no king. Its leaders were wealthy townspeople.",
+    "D": "Most Dutch paintings were bought by people in towns, not by villages or noble lords."
+   },
+   "hint": "Who held wealth and power in Dutch towns?"
+  },
+  {
+   "id": "E3-P36",
+   "set": "P12",
+   "topic": "3.3",
+   "lo": "C",
+   "skill": "1.B",
+   "difficulty": "easy",
+   "stem": "The officials shown in the painting best illustrate which feature of the early modern European economy?",
+   "options": {
+    "A": "Joint-stock companies that sold shares to investors",
+    "B": "Royal ministers who ran state-owned workshops",
+    "C": "Central banks that lent money to governments at war",
+    "D": "Guilds that set and enforced standards for goods"
+   },
+   "answer": "D",
+   "explanation": "Guilds controlled many trades in European towns. Each year, Amsterdam's mayors and aldermen chose syndics to check the quality of cloth for the drapers' guild. Such rules protected buyers, but they could also limit competition.",
+   "whyNot": {
+    "A": "Joint-stock companies, such as the Dutch East India Company, raised money by selling shares. These men are guild officials who inspect cloth.",
+    "B": "The Dutch Republic had no king or royal ministers. State-run workshops were more common in France under Colbert.",
+    "C": "The men work for a cloth guild, not a bank."
+   },
+   "hint": "What job did these men do for their guild?"
+  },
+  {
+   "id": "E3-P37",
+   "set": "P13",
+   "topic": "3.6",
+   "lo": "E",
+   "skill": "5.B",
+   "difficulty": "easy",
+   "stem": "The victory Sobieski describes most directly contributed to which of the following?",
+   "options": {
+    "A": "The Ottoman conquest of Constantinople",
+    "B": "The Holy League's naval victory at Lepanto",
+    "C": "The Habsburg conquest of Hungary",
+    "D": "The first partition of Poland"
+   },
+   "answer": "C",
+   "explanation": "After their defeat at Vienna in 1683, the Ottomans were pushed back. In the Treaty of Karlowitz (1699), they gave most of Hungary to the Habsburgs. Their push into central Europe was over.",
+   "whyNot": {
+    "A": "The Ottomans took Constantinople in 1453, more than two centuries earlier.",
+    "B": "Lepanto was a sea battle in 1571, more than a century before Vienna.",
+    "D": "The first partition of Poland came in 1772 and grew out of Poland's weakness and its neighbors' rivalry, not out of the victory at Vienna."
+   },
+   "hint": "Once the Ottoman army was driven back from Vienna, which power could push east into lands the Ottomans held?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E3-P38",
+   "set": "P13",
+   "topic": "3.6",
+   "lo": "E",
+   "skill": "2.B",
+   "difficulty": "medium",
+   "stem": "Sobieski most likely describes the praise he received from princes and from the people of Vienna because",
+   "options": {
+    "A": "he was writing privately to his wife and wanted to share his personal glory",
+    "B": "he hoped to persuade the princes to elect him Holy Roman Emperor",
+    "C": "he wanted to frighten the Ottoman sultan into giving up Hungary",
+    "D": "he was answering charges that his army had arrived too late to help"
+   },
+   "answer": "A",
+   "explanation": "This is a personal letter to his wife. Sobieski tells her about the treasure, the grand vizier's escape, and the crowds \"calling me their savior.\" He wants her to share in his glory and Poland's.",
+   "whyNot": {
+    "B": "This is a private letter to his wife, not a message to the German princes, and Sobieski asks for no title.",
+    "C": "The letter was written to his wife, not to the sultan.",
+    "D": "Sobieski says the town \"could not have held out five days longer,\" so he arrived in time. He does not mention any charge against him."
+   },
+   "hint": "To whom was the letter written? How might that shape what Sobieski chose to tell?"
+  },
+  {
+   "id": "E3-P39",
+   "set": "P13",
+   "topic": "3.6",
+   "lo": "E",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "The alliance that fought at Vienna is best understood in the context of which of the following?",
+   "options": {
+    "A": "Wars of religion between Catholic and Protestant princes in Germany",
+    "B": "France's alliance with the Habsburgs against the Ottoman sultan",
+    "C": "Poland's war to win its independence from the Holy Roman Empire",
+    "D": "Habsburg-Ottoman rivalry for control of central Europe"
+   },
+   "answer": "D",
+   "explanation": "Since the 1500s the Ottomans and the Austrian Habsburgs had fought over Hungary and the lands along the Danube River. In 1683 the Ottomans attacked Vienna. The emperor's allies, including Poland and German princes, came to save it.",
+   "whyNot": {
+    "A": "Germany's religious wars ended in 1648. At Vienna, princes of the Holy Roman Empire fought together against the Ottomans.",
+    "B": "France was the Habsburgs' main rival and did not join the fight at Vienna.",
+    "C": "Poland was not part of the Holy Roman Empire. Sobieski came as the emperor's ally."
+   },
+   "hint": "Which two powers had been fighting over Hungary and the Danube lands since the 1500s?"
+  },
+  {
+   "id": "E3-P40",
+   "set": "P14",
+   "topic": "3.6",
+   "lo": "E",
+   "skill": "3.C",
+   "difficulty": "easy",
+   "stem": "Which of the following best describes a difference between the two sources?",
+   "options": {
+    "A": "Source 1 refuses Charles II's will, while Source 2 urges the Duke of Anjou to accept it.",
+    "B": "Source 1 is mainly concerned with trade, while Source 2 is mainly concerned with religion.",
+    "C": "Source 1 links the inheritance to peace, while Source 2 calls it a danger to Europe.",
+    "D": "Source 1 claims Spain's lands for the emperor, while Source 2 claims them for France."
+   },
+   "answer": "C",
+   "explanation": "Louis XIV says Charles II wanted \"the general quiet of all Europe\" and promises to keep the peace. The allies say France and Spain together could \"assume to themselves the dominion over all Europe.\"",
+   "whyNot": {
+    "A": "Source 1 says \"We accept\" the will for Louis's grandson. Source 2 objects to the will.",
+    "B": "Source 2, not Source 1, worries about \"Navigation and Commerce.\" Neither source is mainly about religion.",
+    "D": "Source 1 accepts the lands for Louis XIV's grandson, the Duke of Anjou. Source 2 supports the emperor's claim."
+   },
+   "hint": "How does each source describe what the inheritance will mean for the rest of Europe?",
+   "reasoning": "Comparison"
+  },
+  {
+   "id": "E3-P41",
+   "set": "P14",
+   "topic": "3.6",
+   "lo": "E",
+   "skill": "3.A",
+   "difficulty": "medium",
+   "stem": "The concerns expressed in Source 2 most directly reflect which goal of European diplomacy after 1648?",
+   "options": {
+    "A": "Restoring the religious unity of Christian Europe under the pope",
+    "B": "Keeping any one state from growing strong enough to dominate the rest",
+    "C": "Protecting the rights of subjects against the power of their kings",
+    "D": "Spreading republican government to the monarchies of Europe"
+   },
+   "answer": "B",
+   "explanation": "The allies feared that France and Spain together would \"become so formidable to all\" that they could rule Europe. Keeping one power from ruling the rest is called the balance of power.",
+   "whyNot": {
+    "A": "After 1648, religion mattered less in wars between European states. The allies included both Catholic and Protestant rulers.",
+    "C": "The treaty is about the claims and safety of rulers and states. It says nothing about subjects' rights.",
+    "D": "The emperor and William III were monarchs, and the alliance did not try to turn monarchies into republics."
+   },
+   "hint": "What do the allies fear will happen if France and Spain become \"one and the same kingdom\"?"
+  },
+  {
+   "id": "E3-P42",
+   "set": "P14",
+   "topic": "3.6",
+   "lo": "E",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "The war that followed the events in the sources most directly resulted in which of the following?",
+   "options": {
+    "A": "Louis XIV's grandson kept Spain's throne but gave up his claim to France's.",
+    "B": "The emperor's son became king of Spain and ruled its empire in the Americas.",
+    "C": "France took over the Spanish Netherlands as a barrier against the Dutch.",
+    "D": "Spain's colonies in the Americas were divided between Britain and the Dutch."
+   },
+   "answer": "A",
+   "explanation": "The War of the Spanish Succession (1701–1714) ended with the Peace of Utrecht. Louis XIV's grandson stayed king of Spain as Philip V. But he gave up his claim to France, so the two crowns stayed apart.",
+   "whyNot": {
+    "B": "The emperor's son Charles fought for the Spanish throne but did not win it. In 1711 he became Holy Roman Emperor instead.",
+    "C": "The Spanish Netherlands went to Austria, not France, in the peace treaties of 1713–1714.",
+    "D": "Spain kept its colonies in the Americas. Britain gained trading rights there, such as the right to sell enslaved Africans."
+   },
+   "hint": "The allies feared France and Spain becoming \"one and the same kingdom.\" What compromise could prevent that?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E3-P43",
+   "set": "P15",
+   "topic": "3.7",
+   "lo": "G",
+   "skill": "5.B",
+   "difficulty": "easy",
+   "stem": "The edict most directly resulted in which of the following?",
+   "options": {
+    "A": "The flight of many Huguenots abroad",
+    "B": "The outbreak of the French Wars of Religion",
+    "C": "The revolts of the Fronde against the crown",
+    "D": "The Civil Constitution of the Clergy"
+   },
+   "answer": "A",
+   "explanation": "Article X said Huguenots could not leave. Even so, perhaps 150,000 or more fled after 1685. Many went to the Dutch Republic, England, and Brandenburg-Prussia, where they used their skills in trade and crafts.",
+   "whyNot": {
+    "B": "The French Wars of Religion began in 1562 and ended with the Edict of Nantes in 1598.",
+    "C": "The Fronde revolts took place from 1648 to 1653, decades before 1685.",
+    "D": "The Civil Constitution of the Clergy was passed during the French Revolution, in 1790."
+   },
+   "hint": "Article X forbids Protestants to leave France. Why would the king need such a rule?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E3-P44",
+   "set": "P15",
+   "topic": "3.7",
+   "lo": "G",
+   "skill": "1.B",
+   "difficulty": "medium",
+   "stem": "The edict best illustrates which goal of Louis XIV's government?",
+   "options": {
+    "A": "Making the French Catholic Church independent of royal control",
+    "B": "Extending royal control over the religious life of French subjects",
+    "C": "Winning support from Protestant powers such as England",
+    "D": "Raising money by selling Protestant church buildings"
+   },
+   "answer": "B",
+   "explanation": "Louis XIV wanted his kingdom to share one faith as well as one king. By ending the Edict of Nantes, he used royal power to force religious unity. He controlled France's government and army in the same way.",
+   "whyNot": {
+    "A": "The edict is the king's own decision about how his subjects may worship. It does not free the Church from royal control.",
+    "C": "The edict angered Protestant states, and many Huguenots fled to them.",
+    "D": "The edict forbids Protestant worship. It does not mention selling church buildings."
+   },
+   "hint": "Who decides here how French people may worship?"
+  },
+  {
+   "id": "E3-P45",
+   "set": "P15",
+   "topic": "3.7",
+   "lo": "G",
+   "skill": "2.C",
+   "difficulty": "hard",
+   "stem": "A historian would most likely question the edict's claim that \"the better and the greater part\" of Protestants had become Catholics because",
+   "options": {
+    "A": "Protestants in France still outnumbered Catholics in the 1680s",
+    "B": "many conversions had been forced by soldiers lodged in their homes",
+    "C": "the king had no reliable way of learning the religion of his subjects",
+    "D": "most Huguenots had left France well before 1685"
+   },
+   "answer": "B",
+   "explanation": "In the early 1680s royal officials sent soldiers, called dragoons, to live in Protestant homes until the families converted. Many conversions were forced in this way. So the edict's claim does not prove real belief.",
+   "whyNot": {
+    "A": "Catholics were a large majority in France. Protestants were a small minority.",
+    "C": "Royal officials sent the king reports on conversions. The problem is how the conversions were won, not whether they could be counted.",
+    "D": "Article X shows that many Protestants were still in France and had to be forbidden to leave. Most of the flight came after 1685."
+   },
+   "hint": "How might the king's officials have won so many conversions so quickly?"
+  },
+  {
+   "id": "E3-P46",
+   "set": "P16",
+   "topic": "3.7",
+   "lo": "G",
+   "skill": "2.C",
+   "difficulty": "medium",
+   "stem": "Burnet's account would be most useful to a historian studying",
+   "options": {
+    "A": "how Peter's interests and character struck an Anglican bishop",
+    "B": "how ordinary Russians felt about Peter's plans to change their customs",
+    "C": "how Peter's later wars against Sweden were planned and fought",
+    "D": "how the Russian Church reacted to Peter's control of its leaders"
+   },
+   "answer": "A",
+   "explanation": "Burnet spent many hours with Peter in England. His account shows how an Anglican bishop saw the young tsar: clever and hardworking, but hot-tempered. It tells us much less about Russia itself.",
+   "whyNot": {
+    "B": "Burnet met Peter in England and spoke with him through interpreters. He had no contact with ordinary Russians.",
+    "C": "Burnet describes Peter's visit in 1698, two years before Russia's war with Sweden began in 1700.",
+    "D": "Burnet says Peter \"did not seem disposed to mend matters in Moscovy,\" but he gives no Russian church leader's views."
+   },
+   "hint": "Where did Burnet meet Peter, and with whom did he talk?"
+  },
+  {
+   "id": "E3-P47",
+   "set": "P16",
+   "topic": "3.7",
+   "lo": "G",
+   "skill": "5.B",
+   "difficulty": "medium",
+   "stem": "Peter's plan \"to polish his people\" most directly led to which of the following later policies?",
+   "options": {
+    "A": "Freedom for Russia's serfs",
+    "B": "Western dress and schooling for nobles",
+    "C": "Restoration of the patriarch's power",
+    "D": "An elected assembly to advise the tsar"
+   },
+   "answer": "B",
+   "explanation": "Back from Europe, Peter made nobles at court shave their beards and wear Western clothes. He sent young nobles abroad to study and opened schools for math and sailing. Catherine the Great later continued these changes.",
+   "whyNot": {
+    "A": "Peter made serfdom heavier to support his army and state. Russia's serfs were not freed until 1861.",
+    "C": "Peter left the office of patriarch empty and in 1721 replaced it with a church council, the Holy Synod, under state control.",
+    "D": "Peter ruled as an absolute monarch and did not create an elected assembly."
+   },
+   "hint": "Burnet says Peter planned to send Russians \"to travel in other countries.\" What would he want them to bring home?",
+   "reasoning": "Causation"
+  },
+  {
+   "id": "E3-P48",
+   "set": "P16",
+   "topic": "3.6",
+   "lo": "E",
+   "skill": "4.B",
+   "difficulty": "medium",
+   "stem": "Peter's plan for \"a great fleet at Azuph\" to attack the Turkish empire is best understood in the context of which of the following?",
+   "options": {
+    "A": "Russia's wars to win ports on the Black Sea and the Baltic Sea",
+    "B": "Russia's alliance with the Ottoman Empire against Sweden",
+    "C": "Russia's plans to found colonies across the Atlantic in the Americas",
+    "D": "Russia's efforts to spread Orthodox Christianity to western Europe"
+   },
+   "answer": "A",
+   "explanation": "Russia had few seaports that did not freeze. Peter fought the Ottomans for Azov, near the Black Sea. Then he fought Sweden from 1700 to 1721 to win land on the Baltic Sea, where he built St. Petersburg.",
+   "whyNot": {
+    "B": "Russia and the Ottomans were enemies. Peter captured Azov from the Ottomans in 1696.",
+    "C": "Russia later expanded across the Pacific into Alaska, but in 1698 Peter's goal was seaports close to Europe.",
+    "D": "Peter wanted to learn from western Europe, not convert it. Burnet says Peter planned \"to draw strangers to come and live among\" Russians."
+   },
+   "hint": "Look at a map: where could Russian ships reach the open sea?"
+  }
+ ],
+ "exam": {
+  "title": "Unit 3 Practice Exam: Absolutism and Constitutionalism",
+  "timeMinutes": 25,
+  "questionCount": 25,
+  "directions": "Each set of questions refers to a source: a primary source, a historian's writing, an image, or data. For each question, choose the best answer. Use the source and your knowledge of European history from c. 1648 to c. 1815. There is no penalty for guessing. Some sources use historical labels or words for groups of people that are no longer used; these words show the language of their time.",
+  "questions": [
+   {
+    "id": "E3-E01",
+    "set": "X1",
+    "topic": "3.4",
+    "lo": "C",
+    "skill": "1.B",
+    "difficulty": "easy",
+    "stem": "The measures described in the letter are most clearly an example of which economic policy?",
+    "options": {
+     "A": "Laissez-faire",
+     "B": "Physiocracy",
+     "C": "Manorialism",
+     "D": "Mercantilism"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. Laissez-faire means the government leaves the economy alone. Here the king spends royal money to direct trade and industry.",
+     "B": "Incorrect. The Physiocrats were French thinkers of the 1750s and 1760s who said land and farming were the source of wealth and called for free trade. This letter is from 1664 and is about trade and manufactures.",
+     "C": "Incorrect. Manorialism was the medieval system in which peasants worked a lord's land. The letter is about trade, shipping, and workshops.",
+     "D": "Correct. The king pays subsidies to workshops and shipping and funds trading companies so that France can make and sell more and depend less on other countries."
+    },
+    "explanation": "Mercantilism tried to make the state rich and strong through trade, industry, shipping, and colonies. The government often helped. Here Louis XIV pays money to workshops and shippers and supports trading companies."
+   },
+   {
+    "id": "E3-E02",
+    "set": "X1",
+    "topic": "3.7",
+    "lo": "G",
+    "skill": "1.B",
+    "difficulty": "medium",
+    "stem": "The letter best illustrates which development in France under Louis XIV?",
+    "options": {
+     "A": "Provincial nobles took charge of the kingdom's economic policy.",
+     "B": "Merchants won the right to elect members of the king's councils.",
+     "C": "The king's government directed the growth of trade and industry.",
+     "D": "The Catholic Church took over the regulation of trade and prices."
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. The letter goes from the king to the town and points merchants to a royal minister, Colbert. Louis XIV kept great nobles out of such decisions.",
+     "B": "Incorrect. The king tells merchants to bring their concerns to Sieur Colbert. They do not elect anyone to his councils.",
+     "C": "Correct. The king creates a council of commerce to meet \"in our presence,\" pays help from the \"royal treasury,\" and tells merchants to deal with his minister, Colbert.",
+     "D": "Incorrect. The letter says nothing about the Church. Trade is directed by the king and his minister."
+    },
+    "explanation": "Louis XIV and his minister Colbert put the central government in charge of the economy. The king's council, his treasury, and his minister all appear in this letter."
+   },
+   {
+    "id": "E3-E03",
+    "set": "X1",
+    "topic": "3.3",
+    "lo": "C",
+    "skill": "5.A",
+    "difficulty": "medium",
+    "stem": "The plan to abolish tolls on France's rivers is best seen as part of which broader change in the European economy?",
+    "options": {
+     "A": "Guilds' growing power to set the prices of goods across whole kingdoms",
+     "B": "States' decisions to stop taxing goods brought in from other countries",
+     "C": "A return to trade by barter as gold and silver became scarce in Europe",
+     "D": "States' efforts to remove local barriers to trade inside their own borders"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. Guilds controlled trades in individual towns. Freeing trade from local controls worked against their power.",
+     "B": "Incorrect. Mercantilist states such as France raised taxes on foreign goods to protect their own industries. Colbert raised these tariffs in 1667.",
+     "C": "Incorrect. In the 1600s European trade relied more and more on money, credit, and banks, as American silver flowed into Europe.",
+     "D": "Correct. Local tolls raised the cost of moving goods inside a country. Rulers who wanted one national economy tried to remove them."
+    },
+    "explanation": "Towns, lords, and provinces collected tolls on rivers and roads. By removing these tolls, France tried to let goods move freely inside the kingdom. This was part of a long move away from local limits on trade.",
+    "reasoning": "Continuity and Change"
+   },
+   {
+    "id": "E3-E04",
+    "set": "X2",
+    "topic": "3.2",
+    "lo": "B",
+    "skill": "3.C",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes a difference between the two sources?",
+    "options": {
+     "A": "Source 1 says the king ruled in trust for the people, while Source 2 says no earthly court may judge a king.",
+     "B": "Source 1 calls for restoring the king with new limits, while Source 2 calls for creating a republic.",
+     "C": "Source 1 blames the war on the king's advisers, while Source 2 blames it on foreign invaders.",
+     "D": "Source 1 says the king was chosen by Parliament, while Source 2 says kings are chosen by the people."
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. Source 1 says Charles was \"trusted with a limited power to govern by and according to the laws.\" Source 2 says \"no earthly power can justly call me (who am your King) in question.\"",
+     "B": "Incorrect. Source 1 charges the king with treason; it does not seek to restore him. Source 2 is the king's own defense, not a call for a republic.",
+     "C": "Incorrect. Source 1 blames \"the said Charles Stuart\" himself for the wars. Source 2 does not discuss the causes of the war.",
+     "D": "Incorrect. Source 1 says Charles was \"admitted King,\" not chosen by Parliament. Source 2 says obedience to kings is commanded by God."
+    },
+    "explanation": "The charge says the king was trusted with power \"for the good and benefit of the people\" and broke that trust. Charles answers that kings answer to God. He says no court, least of all this \"pretended Court,\" can try him.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "E3-E05",
+    "set": "X2",
+    "topic": "3.2",
+    "lo": "B",
+    "skill": "5.B",
+    "difficulty": "easy",
+    "stem": "The trial described in the sources most directly resulted in which of the following?",
+    "options": {
+     "A": "The execution of the king",
+     "B": "The Restoration of the Stuarts",
+     "C": "The Glorious Revolution",
+     "D": "The union of England and Scotland"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. The court found Charles guilty, and he was beheaded on January 30, 1649. The monarchy and the House of Lords were abolished soon after.",
+     "B": "Incorrect. Charles II returned to the throne in 1660, eleven years later, after the Commonwealth fell apart.",
+     "C": "Incorrect. The Glorious Revolution came in 1688–1689, when James II was replaced by William and Mary.",
+     "D": "Incorrect. England and Scotland were joined into one kingdom by the Act of Union in 1707."
+    },
+    "explanation": "The court found Charles I guilty of treason, and he was executed in January 1649. His death shocked Europe's rulers. England then became a republic, the Commonwealth, until 1660.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E3-E06",
+    "set": "X2",
+    "topic": "3.8",
+    "lo": "H",
+    "skill": "3.A",
+    "difficulty": "medium",
+    "stem": "Charles's argument in Source 2 most closely reflects which political idea?",
+    "options": {
+     "A": "Popular sovereignty",
+     "B": "Parliamentary supremacy",
+     "C": "Divine-right absolutism",
+     "D": "Freedom of religious worship"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. Popular sovereignty means that power comes from the people. That is closer to Source 1's claim that the king was \"trusted\" with power for the people's benefit.",
+     "B": "Incorrect. Charles denies that the House of Commons can \"erect a Court of Judicature\" to try him. He rejects Parliament's supremacy.",
+     "C": "Correct. Charles says \"the authority of obedience unto Kings\" is \"commanded\" in the Bible and that \"the King can do no wrong.\"",
+     "D": "Incorrect. Charles does not discuss freedom of worship. He argues about who has the right to judge a king."
+    },
+    "explanation": "Charles says kings answer to God, not to any \"earthly power.\" This is the idea of divine-right monarchy. His father, James I, had argued the same thing.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "E3-E07",
+    "set": "X3",
+    "topic": "3.7",
+    "lo": "G",
+    "skill": "2.B",
+    "difficulty": "easy",
+    "stem": "Given its context, the portrait was most likely intended to",
+    "options": {
+     "A": "show the king's humility as a servant of the people of France",
+     "B": "display the king's majesty and power to visitors at court",
+     "C": "record the king's victory in a battle against the Dutch Republic",
+     "D": "mock the king's vanity on behalf of his critics among the nobles"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. The king's rich robe, crown, and grand pose show glory and power, not humility.",
+     "B": "Correct. The coronation robe, crown, scepter, sword, and grand setting all present Louis XIV as a powerful and majestic ruler.",
+     "C": "Incorrect. No battle or enemy appears. The king stands in a palace room surrounded by symbols of royal power.",
+     "D": "Incorrect. Rigaud was a court painter, and the portrait treats the king with great respect. It does not mock him."
+    },
+    "explanation": "Louis XIV used art, buildings, and ceremony to show that he was the center of the state. This portrait shows him in his coronation robes with symbols of royal power."
+   },
+   {
+    "id": "E3-E08",
+    "set": "X3",
+    "topic": "3.1",
+    "lo": "A",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "Which earlier development most directly shaped Louis XIV's efforts to strengthen and display royal power, as seen in the portrait?",
+    "options": {
+     "A": "The Fronde",
+     "B": "The Edict of Nantes",
+     "C": "The Peace of Westphalia",
+     "D": "The Glorious Revolution"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. During the Fronde (1648–1653), nobles and the Parlement of Paris rose against the crown while Louis was a boy. He grew up determined to keep the nobles under control.",
+     "B": "Incorrect. The Edict of Nantes (1598) gave French Protestants rights. Louis XIV later revoked it, but it did not shape his display of royal power.",
+     "C": "Incorrect. The Peace of Westphalia (1648) ended the Thirty Years' War and weakened the Holy Roman Empire. It did not set off Louis's efforts to control his own nobles.",
+     "D": "Incorrect. The Glorious Revolution (1688–1689) limited the English monarchy. Louis XIV's way of ruling had been set long before."
+    },
+    "explanation": "As a child, Louis XIV saw nobles and Paris rebel against the crown in the Fronde. As king, he ruled without a chief minister and kept great nobles busy at Versailles. He used art like this portrait to show that all power came from him.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E3-E09",
+    "set": "X3",
+    "topic": "3.8",
+    "lo": "H",
+    "skill": "5.A",
+    "difficulty": "medium",
+    "stem": "The kind of kingship shown in the portrait differed most from the English monarchy after 1689 in that Louis XIV",
+    "options": {
+     "A": "handed command of the royal army over to an assembly of great nobles",
+     "B": "did not need an elected assembly's consent for taxes and laws",
+     "C": "claimed no religious basis for his right to rule",
+     "D": "was chosen by an assembly of nobles rather than by birth"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Louis XIV kept command of the army himself and made it larger and more firmly under the crown's control.",
+     "B": "Correct. After 1689 English monarchs needed Parliament's consent for taxes, laws, and a peacetime army. France's Estates-General did not meet at all between 1614 and 1789.",
+     "C": "Incorrect. Louis XIV claimed to rule by divine right, with the support of writers such as Bishop Bossuet.",
+     "D": "Incorrect. Louis XIV inherited the throne from his father. Kings were elected by nobles in Poland, not in France."
+    },
+    "explanation": "In England after 1689, Parliament had to approve taxes and laws. Louis XIV never called France's Estates-General. He made laws on his own authority, as an absolute monarch.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "E3-E10",
+    "set": "X4",
+    "topic": "3.4",
+    "lo": "C",
+    "skill": "5.A",
+    "difficulty": "medium",
+    "stem": "Which of the following conclusions is best supported by the data in the table?",
+    "options": {
+     "A": "Legal tea sales fell during most of the 1700s as smuggling grew.",
+     "B": "Legal tea sales were highest when the tax on tea was highest.",
+     "C": "The tax on tea stayed about the same from 1713 to 1793.",
+     "D": "Legal tea sales jumped after the tax on tea was cut to 12.5 percent."
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. Sales rose from 0.3 million pounds a year in 1713–1721 to 8.1 million in 1768–1772, so they did not fall during most of the century.",
+     "B": "Incorrect. The highest tax shown, 128 percent, came in 1734–1744, when sales were 1.5 million pounds a year. The highest sales came when the tax was lowest.",
+     "C": "Incorrect. In the table, the tax ranges from 12.5 percent to 128 percent of the sale price, so it did not stay about the same.",
+     "D": "Correct. Sales were 5.9 million pounds in 1783, when the tax was 114 percent. With the tax at 12.5 percent, sales were 15.1 million pounds in 1785 and 16.7 million a year in 1786–1793."
+    },
+    "explanation": "Legal tea sales grew during the century. Then they jumped when the tax fell to 12.5 percent. In 1784 Parliament cut the tax so much that smuggled tea was no longer cheaper than legal tea.",
+    "reasoning": "Continuity and Change"
+   },
+   {
+    "id": "E3-E11",
+    "set": "X4",
+    "topic": "3.4",
+    "lo": "C",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "The overall rise in tea sales from 1713 to 1772 is best understood in the context of which of the following?",
+    "options": {
+     "A": "Britain's victory over China in the Opium War",
+     "B": "The spread of British-owned tea plantations across India",
+     "C": "The end of the East India Company's control over the tea trade",
+     "D": "A growing consumer culture in which overseas goods became part of daily life"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. The Opium War was fought from 1839 to 1842, long after 1772, and Britain did not rule China's tea-growing regions.",
+     "B": "Incorrect. British tea plantations in India began in the 1830s, long after 1772.",
+     "C": "Incorrect. The Company kept its control of Britain's tea trade with China until 1834. The note says it had the only legal right to bring tea into Britain.",
+     "D": "Correct. In the 1700s tea, sugar, coffee, and tobacco from Asia and the Americas became everyday goods for many Europeans, not just for the rich."
+    },
+    "explanation": "As trade with Asia and the Americas grew, tea and sugar became cheaper and more common in Britain. Many families began to drink sweet tea every day. This was part of a new consumer culture."
+   },
+   {
+    "id": "E3-E12",
+    "set": "X5",
+    "topic": "3.5",
+    "lo": "D",
+    "skill": "1.B",
+    "difficulty": "medium",
+    "stem": "Temple's description of the Dutch government best supports which of the following conclusions?",
+    "options": {
+     "A": "The Dutch Republic was governed by merchant elites who ran it to promote trade.",
+     "B": "The Dutch Republic was ruled by an absolute monarch who controlled its trade.",
+     "C": "The Dutch Republic was governed by landed nobles who kept merchants out of power.",
+     "D": "The Dutch Republic was governed by officials chosen by the votes of ordinary townsmen."
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. Temple says the government was \"managed either by men that trade, or whose families have risen by it,\" which made sure trade got \"all favour.\"",
+     "B": "Incorrect. The Dutch Republic had no king. Temple describes a government run by merchants and townsmen.",
+     "C": "Incorrect. Temple says the men who governed were traders or men \"born and bred in towns.\"",
+     "D": "Incorrect. Dutch town governments were run by small groups of wealthy families who chose their own members. Ordinary men did not vote for them."
+    },
+    "explanation": "The Dutch Republic was ruled by a small group of rich town families and landowners. Many of them made their money in trade. So they used the government to protect and grow trade."
+   },
+   {
+    "id": "E3-E13",
+    "set": "X5",
+    "topic": "3.3",
+    "lo": "C",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "Temple's praise for \"the use of their banks\" is best understood in the context of which of the following?",
+    "options": {
+     "A": "The Catholic Church's ban on lending at interest, which the Dutch enforced strictly",
+     "B": "Dutch merchants' use of gold from mines in Dutch colonies",
+     "C": "The collapse of British credit after the South Sea Bubble of 1720",
+     "D": "New financial institutions, such as the Bank of Amsterdam, that eased payments"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. The Dutch Republic was mostly Protestant, and Dutch lenders charged interest openly. Cheap credit helped Dutch trade.",
+     "B": "Incorrect. The Dutch did not own large gold mines in their colonies. Their wealth came from trade and shipping.",
+     "C": "Incorrect. The South Sea Bubble burst in 1720, almost fifty years after Temple wrote.",
+     "D": "Correct. The Bank of Amsterdam, founded in 1609, held merchants' money and let them pay one another safely, making trade \"quick,\" as Temple says."
+    },
+    "explanation": "In the 1600s Amsterdam had Europe's leading bank and stock exchange. These new institutions made it easier for merchants to pay, borrow, and invest. This helped the Dutch lead European trade."
+   },
+   {
+    "id": "E3-E14",
+    "set": "X5",
+    "topic": "3.5",
+    "lo": "D",
+    "skill": "5.A",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes how the Dutch position Temple describes changed during the 1700s?",
+    "options": {
+     "A": "The Dutch Republic conquered the Spanish Netherlands and became a great land power.",
+     "B": "Britain overtook the Dutch Republic as Europe's leading trading and naval power.",
+     "C": "The Dutch Republic became an absolute monarchy under the princes of Orange.",
+     "D": "The Dutch Republic took over France's colonies in North America."
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. The Spanish Netherlands passed to Austria in 1713–1714, not to the Dutch Republic.",
+     "B": "Correct. After costly wars against Louis XIV, the Dutch Republic declined as a great power, while Britain's navy, trade, and empire grew.",
+     "C": "Incorrect. The princes of Orange served as stadtholders, but the Dutch Republic did not become an absolute monarchy in the 1700s.",
+     "D": "Incorrect. France lost Canada and other North American lands to Britain in 1763, not to the Dutch."
+    },
+    "explanation": "Long wars against France wore down the Dutch Republic. Meanwhile Britain built a bigger navy and empire. By the late 1700s London had replaced Amsterdam as the center of world trade.",
+    "reasoning": "Continuity and Change"
+   },
+   {
+    "id": "E3-E15",
+    "set": "X6",
+    "topic": "3.6",
+    "lo": "E",
+    "skill": "3.A",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes Queen Anne's main argument in the speech?",
+    "options": {
+     "A": "Britain should keep fighting until France gives up its colonies in North America.",
+     "B": "The peace would keep France and Spain apart and win trade advantages for Britain.",
+     "C": "The peace would place the emperor's son on the throne of Spain.",
+     "D": "Parliament alone should decide whether Britain makes war or makes peace."
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Anne is announcing terms of peace, not calling for more war. Under these terms France kept Quebec and the rest of Canada, which it did not lose until 1763.",
+     "B": "Correct. Anne says France and Spain will be \"more effectually divided than ever\" and lists gains such as Gibraltar, Minorca, Newfoundland, and the Asiento.",
+     "C": "Incorrect. Anne accepts the Duke of Anjou as king of Spain, as long as he gives up all claim to the crown of France. The emperor's son did not get Spain.",
+     "D": "Incorrect. Anne says making peace and war is \"the undoubted Prerogative of the Crown.\" She informs Parliament but does not hand it the decision."
+    },
+    "explanation": "Anne says the peace keeps France and Spain apart, which was \"the chief Inducement to begin this War.\" She says it creates \"a real Balance of Power.\" She also lists new lands and trading rights for Britain."
+   },
+   {
+    "id": "E3-E16",
+    "set": "X6",
+    "topic": "3.4",
+    "lo": "C",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "The agreement described in the last paragraph most directly contributed to which of the following?",
+    "options": {
+     "A": "End of slavery in Spanish America",
+     "B": "Decline of Caribbean sugar production",
+     "C": "Growth of Britain's slave trade",
+     "D": "French control of Britain's trade with Spain"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. Slavery continued in Spanish America into the 1800s. The Asiento brought more enslaved people there.",
+     "B": "Incorrect. Sugar production in the Caribbean grew in the 1700s, and planters bought more enslaved Africans to work the fields.",
+     "C": "Correct. The Asiento let British merchants, through the South Sea Company, sell enslaved Africans in Spanish America. Britain became the leading slave-trading nation of the 1700s.",
+     "D": "Incorrect. The Asiento passed from France to Britain. Anne says it had been \"enjoyed by the French for these Ten Years past.\""
+    },
+    "explanation": "The Asiento let Britain sell enslaved Africans in Spain's American colonies for thirty years. Along with Britain's own sugar colonies, it helped make Britain the leading slave-trading country of the 1700s.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E3-E17",
+    "set": "X6",
+    "topic": "3.2",
+    "lo": "B",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "Anne's concern for \"the Protestant Succession … in the House of Hanover\" is best understood in the context of which of the following?",
+    "options": {
+     "A": "The Peace of Westphalia's rule that each prince could choose his state's religion",
+     "B": "The Edict of Nantes, which protected the rights of Protestants in France",
+     "C": "Henry VIII's break with Rome over the end of his first marriage",
+     "D": "Laws after the Glorious Revolution that kept Catholics from the throne"
+    },
+    "answer": "D",
+    "rationales": {
+     "A": "Incorrect. The Peace of Westphalia dealt with the princes of the Holy Roman Empire. It did not decide who would rule Britain.",
+     "B": "Incorrect. The Edict of Nantes protected French Protestants, and Louis XIV revoked it in 1685. It did not apply to Britain.",
+     "C": "Incorrect. Henry VIII broke with Rome in the 1530s. The question of a Catholic heir arose again after James II became a Catholic.",
+     "D": "Correct. The Bill of Rights (1689) barred Catholics from the throne, and the Act of Settlement (1701) gave the succession to the Protestant House of Hanover."
+    },
+    "explanation": "After Catholic James II lost the throne in 1688, Parliament barred Catholics from the throne. Anne had no living children. So in 1701 Parliament named the Protestant rulers of Hanover as her heirs."
+   },
+   {
+    "id": "E3-E18",
+    "set": "X7",
+    "topic": "3.6",
+    "lo": "E",
+    "skill": "3.C",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes a difference between the two sources?",
+    "options": {
+     "A": "Source 1 blames Prussia for the partition, while Source 2 blames Russia for it.",
+     "B": "Source 1 calls the partition a lawful way to restore order, while Source 2 calls it shameful.",
+     "C": "Source 1 says Poland's king asked for the partition, while Source 2 says Poland's nobles asked for it.",
+     "D": "Source 1 rejects the partition, while Source 2 supports it as good for Austria."
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. Source 1 says the three powers acted together. Source 2 blames hard times and Austria's isolation, not Russia alone.",
+     "B": "Correct. Source 1 speaks of the powers' \"rights and claims\" and of a plan \"to restore peace and good order in Poland.\" Maria Theresa calls the partition \"a blot on my whole reign.\"",
+     "C": "Incorrect. Source 1 says the three powers came to an agreement among themselves. Neither source says that the Polish king or nobles asked for a partition.",
+     "D": "Incorrect. Source 1 announces the partition. Maria Theresa says she agreed to it only after refusing \"many times.\""
+    },
+    "explanation": "The declaration says the partition restores order and sets safe borders. In a private letter, Maria Theresa admits she agreed only under pressure. She calls it \"a blot on my whole reign.\"",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "E3-E19",
+    "set": "X7",
+    "topic": "3.1",
+    "lo": "A",
+    "skill": "4.B",
+    "difficulty": "medium",
+    "stem": "The \"disorders\" in Poland described in Source 1 are best understood in the context of which of the following?",
+    "options": {
+     "A": "A Protestant revolt against Poland's Catholic kings and bishops",
+     "B": "Pugachev's peasant revolt against serfdom",
+     "C": "Polish nobles' power to elect kings and block laws in their parliament",
+     "D": "Poland's war with Sweden for the Baltic coast"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. The nobles who rose in arms in 1768 were mainly Catholics who opposed Russia's demands for more rights for Protestant and Orthodox Christians.",
+     "B": "Incorrect. Pugachev's revolt broke out in Russia in 1773, not in Poland. The fighting in Poland was among nobles and their followers.",
+     "C": "Correct. Polish nobles elected their kings, and a single deputy could break up the diet with the liberum veto. Rival noble groups invited foreign powers to take sides.",
+     "D": "Incorrect. Poland's great wars with Sweden came in the 1600s and early 1700s. In 1772 Russia was at war with the Ottoman Empire."
+    },
+    "explanation": "Poland's elected kings had little power over the nobles. In the 1760s Polish nobles formed armed groups against the king and against Russia. Poland's neighbors used this disorder as an excuse to take its land."
+   },
+   {
+    "id": "E3-E20",
+    "set": "X7",
+    "topic": "3.6",
+    "lo": "E",
+    "skill": "1.B",
+    "difficulty": "medium",
+    "stem": "The plan that the three powers \"will each take an equivalent\" share of Poland best reflects which principle?",
+    "options": {
+     "A": "Popular sovereignty",
+     "B": "Divine-right monarchy",
+     "C": "The balance of power",
+     "D": "Religious toleration"
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. The Polish people were not asked. The three rulers made the decision after \"having come to an agreement\" among themselves.",
+     "B": "Incorrect. Divine right is about where a king's power comes from. The phrase is about keeping three powers equal.",
+     "C": "Correct. Each power takes an equal share, so none of the three gains an advantage over the others.",
+     "D": "Incorrect. The phrase says nothing about religion. It is about dividing land."
+    },
+    "explanation": "Russia, Prussia, and Austria each took an \"equivalent\" share. This kept a balance among the three powers and helped them avoid fighting one another."
+   },
+   {
+    "id": "E3-E21",
+    "set": "X7",
+    "topic": "3.6",
+    "lo": "E",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "In the long term, the events described in the sources contributed most directly to which of the following?",
+    "options": {
+     "A": "The disappearance of the Polish state",
+     "B": "The union of Poland and Lithuania",
+     "C": "The Polish victory at Vienna",
+     "D": "The election of a French prince as Poland's king"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. In the Second (1793) and Third (1795) Partitions, Russia, Prussia, and Austria took the rest of Poland. It did not exist again as an independent state until 1918.",
+     "B": "Incorrect. Poland and Lithuania were joined in the Union of Lublin in 1569, two centuries before 1772.",
+     "C": "Incorrect. King John III Sobieski defeated the Ottomans at Vienna in 1683, almost a century before 1772.",
+     "D": "Incorrect. Henry of Valois, a French prince, was elected king of Poland in 1573, long before the partitions."
+    },
+    "explanation": "The first partition took almost a third of Poland's land. Polish reformers tried to make the state stronger. But Russia and Prussia took more land in 1793, and in 1795 the three powers divided the rest.",
+    "reasoning": "Causation"
+   },
+   {
+    "id": "E3-E22",
+    "set": "X8",
+    "topic": "3.7",
+    "lo": "G",
+    "skill": "3.A",
+    "difficulty": "medium",
+    "stem": "Which of the following best describes Waliszewski's main argument?",
+    "options": {
+     "A": "Peter invented a new program of reform that no earlier tsar had imagined or attempted.",
+     "B": "Peter's reforms were slow and peaceful because he consulted his nobles before acting.",
+     "C": "Peter carried on earlier tsars' plans, but war and his temper made them violent.",
+     "D": "Peter's reforms were driven mainly by the demands of Russia's merchants and towns."
+    },
+    "answer": "C",
+    "rationales": {
+     "A": "Incorrect. Waliszewski asks what new thing Peter did and answers, \"Nothing, or, at most, very little indeed.\"",
+     "B": "Incorrect. Waliszewski says Peter's measures were marked by \"violence, excess and hastiness.\"",
+     "C": "Correct. Waliszewski says of the earlier tsars' plan, \"The programme above referred to was his programme.\" He says war and Peter's \"violence, excess and hastiness\" turned \"a peaceful evolution\" into \"a revolution.\"",
+     "D": "Incorrect. Waliszewski names war, Peter's own tastes, and his temper as the forces behind the reforms. He does not mention merchants' demands."
+    },
+    "explanation": "Waliszewski says earlier tsars had already planned to rebuild the army, the money system, and trade. Peter's long wars and fierce temper made those plans move fast and with force."
+   },
+   {
+    "id": "E3-E23",
+    "set": "X8",
+    "topic": "3.7",
+    "lo": "G",
+    "skill": "3.D",
+    "difficulty": "hard",
+    "stem": "Which of the following, if true, would best support Waliszewski's claim that \"the war made military reforms a first necessity, and these called forth financial measures\"?",
+    "options": {
+     "A": "Peter created a new tax on each male peasant to pay for his growing army.",
+     "B": "Peter ordered nobles at court to shave their beards and wear Western clothes.",
+     "C": "Peter replaced the head of the Russian Church with a council under state control.",
+     "D": "Peter founded an Academy of Sciences to bring Western learning to Russia."
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. A tax created to pay for the army shows a military need leading to a financial measure, just as the claim says. Peter's poll tax of the 1720s did this.",
+     "B": "Incorrect. Rules about beards and dress reflect what Waliszewski calls Peter's \"tastes\" and \"fancies,\" not the needs of war.",
+     "C": "Incorrect. Replacing the patriarch with the Holy Synod increased Peter's control of the Church. It was not mainly a way to pay for war.",
+     "D": "Incorrect. The Academy of Sciences, which Peter planned and which opened in 1725, aimed at learning. It does not show war leading to financial measures."
+    },
+    "explanation": "Waliszewski says war came first. A bigger army needed money, and that led to new taxes. Peter's tax on male peasants, collected from the 1720s, was created to pay for his army."
+   },
+   {
+    "id": "E3-E24",
+    "set": "X8",
+    "topic": "3.8",
+    "lo": "H",
+    "skill": "5.A",
+    "difficulty": "medium",
+    "stem": "Peter's efforts to strengthen his state and army were most similar to those of which of the following rulers?",
+    "options": {
+     "A": "William III of England",
+     "B": "Louis XIV of France",
+     "C": "Stanisław II Augustus of Poland",
+     "D": "Johan de Witt of the Dutch Republic"
+    },
+    "answer": "B",
+    "rationales": {
+     "A": "Incorrect. William III ruled within the limits of the Bill of Rights and needed Parliament's consent for taxes and a peacetime army.",
+     "B": "Correct. Like Peter, Louis XIV built a large standing army, expanded the central government, and brought the church and the nobles under royal control.",
+     "C": "Incorrect. Stanisław II was an elected king who could not control Poland's nobles, and his country was partitioned.",
+     "D": "Incorrect. De Witt led the Dutch Republic, a merchant republic without a king, from 1653 to 1672."
+    },
+    "explanation": "Peter and Louis XIV were both absolute monarchs. Both built large armies, raised heavy taxes, and grew the central government. Both made nobles serve the crown.",
+    "reasoning": "Comparison"
+   },
+   {
+    "id": "E3-E25",
+    "set": "X8",
+    "topic": "3.6",
+    "lo": "E",
+    "skill": "5.B",
+    "difficulty": "medium",
+    "stem": "In the long term, the changes Waliszewski describes most directly contributed to which of the following?",
+    "options": {
+     "A": "Russia's rise as a great power that took land from its neighbors",
+     "B": "Russia's adoption of a constitution limiting the tsar",
+     "C": "The end of serfdom in Russia under Catherine the Great",
+     "D": "Russia's return to the old customs that Peter had banned"
+    },
+    "answer": "A",
+    "rationales": {
+     "A": "Correct. Peter defeated Sweden in the Great Northern War, and under Catherine the Great Russia won land from the Ottomans and took part in the partitions of Poland.",
+     "B": "Incorrect. Russia had no constitution limiting the tsar until the early 1900s.",
+     "C": "Incorrect. Serfdom grew harsher under Catherine the Great. It was not ended until 1861.",
+     "D": "Incorrect. Later rulers, especially Catherine the Great, continued Peter's westernizing policies rather than undoing them."
+    },
+    "explanation": "Peter's new army and navy beat Sweden in 1721, and Russia gained land on the Baltic Sea. Later, Catherine the Great won land on the Black Sea and much of Poland. Russia became one of Europe's great powers.",
+    "reasoning": "Causation"
+   }
+  ]
+ }
+}
