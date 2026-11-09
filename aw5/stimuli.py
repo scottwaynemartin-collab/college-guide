@@ -1,7 +1,7 @@
 # AP World Unit 5 sources. Texts follow the public-domain editions saved in aw5/sources/raw/ and
 # documented in aw5/sources/*.md. Cuts are marked with ellipses; bracketed words are clarifications.
 # OCR slips in the scans were corrected against a second scan where one exists (see the .md files).
-VERSION = "2026-11-07a"
+VERSION = "2026-11-09a"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -158,7 +158,7 @@ STIM = {
     "It was to the nobility themselves that, in conformity to their own wishes, we reserved the right of formulating the provisions for the new organization of the peasants. … Our confidence has not been deceived. We have found the nobility … ready to make … the voluntary sacrifices of their rights so far as the personal servitude of the peasants is concerned. …",
     "The peasants now bound to the soil shall, within the term fixed by the law, be vested with the full rights of freemen. The landed proprietors, while they shall retain all the rights of ownership over all the lands now belonging to them, shall transfer to the peasants, in return for a rent fixed by law, the full enjoyment of their cottages, farm buildings, and gardens. Furthermore, in order to assure to the peasants their subsistence and enable them to meet their obligations toward the State, the landlords shall turn over to the peasants a quantity of arable and other land provided for in the regulations above mentioned. In return for these allotments the peasant families shall be required to pay rent to the landlords, as fixed by the provisions of the law."],
     "Tsar Alexander II of Russia, manifesto freeing the serfs, March 1861",
-    "Translation printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (1908); adapted",
+    "Translation printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (1909); adapted",
     glossary=[{"t": "peasants bound to the soil", "d": "serfs: farmers who could not leave the land and owed labor or payments to a landlord"},
               {"t": "hereditarily", "d": "passed down from parents to children"},
               {"t": "in conformity to", "d": "following"},
@@ -185,7 +185,7 @@ STIM = {
     "Young Italy is republican and unitarian*—republican, because theoretically every nation is destined, by the law of God and humanity, to form a free and equal community of brothers; and the republican government is the only form of government that insures this future. …",
     "Young Italy is unitarian, because, without unity there is no true nation; because, without unity there is no real strength; and Italy, surrounded as she is by powerful, united, and jealous nations, has need of strength above all things; because federalism, by reducing her to the political impotence of Switzerland, would necessarily place her under the influence of one of the neighboring nations. …"],
     "Giuseppe Mazzini, Italian nationalist, General Instructions for the Members of Young Italy, a secret society he founded in 1831",
-    "English translation from Life and Writings of Joseph Mazzini (1864), as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (1908); adapted",
+    "English translation from Life and Writings of Joseph Mazzini (1864), as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (1909); adapted",
     footnotes=[{"mark": "*", "text": "wanting one central government for all of Italy, not a loose union (federation) of separate states"}],
     glossary=[{"t": "consecrating", "d": "dedicating"}, {"t": "reconstituting", "d": "putting back together"},
               {"t": "sovereign", "d": "ruling itself, free of outside control"},
@@ -295,14 +295,14 @@ STIM = {
         "The boy. I am going fourteen; my sister is eleven. I have worked in Milnes's factory two years. She goes there also. … We go at half past five; give over at half past nine. I am now just come home. We sometimes stay till twelve. We are obliged to work overhours. … I asked to come away one night lately, at eight o'clock, being ill; I was told, if I went I must not come again. I am not well now. …",
         "Mother. I have worked in the same mills myself. … There's many young ones in that hot room. There's six of 'em badly now, with bad eyes and sick headache. … I would prefer their coming home at seven, without additional wages."],
         "Testimony of a family in Lenton, near Nottingham, England, to government commissioners investigating the work of children in factories, 1833",
-        "From the Reports of the Factory Commissioners (1833), as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (1908); adapted",
+        "From the Reports of the Factory Commissioners (1833), as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (1909); adapted",
         glossary=[{"t": "going fourteen", "d": "almost fourteen years old"}, {"t": "give over", "d": "stop work"},
                   {"t": "overhours", "d": "overtime"}, {"t": "badly", "d": "sick"}]),
     item("Source 2", [
         "No one would accuse him* of a want of sympathy with the working classes; but this he would tell the House, that if they went on, at the bidding of the working classes, to legislate against the capitalists, they would find a very different feeling engendered among the latter towards the operatives. … [In his own factory] they had a large infant school, together with a reading room and news room, and a school for adults, where the workmen attended after working hours. …",
         "He would warn the House that if they now armed the workmen against the capitalists by fixing by law ten hours, or any other number of hours for the duration of labor, and thus interfered with the established custom of the kingdom, he believed it would be impossible that the feeling which hitherto existed on the part of the manufacturers towards the operatives would continue. …"],
         "John Bright, cotton-mill owner and member of the British Parliament, speech in the House of Commons opposing the Ten Hours Bill, a law to limit the workday of women and young people in textile mills, 1847",
-        "From the official record of debates (Hansard), as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (1908); adapted",
+        "From the official record of debates (Hansard), as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (1909); adapted",
         footnotes=[{"mark": "*", "text": "The official record reports the speech in the third person, so \"he\" and \"him\" mean Bright."}],
         glossary=[{"t": "a want of", "d": "a lack of"}, {"t": "the House", "d": "the House of Commons, Britain's elected lawmaking body"},
                   {"t": "engendered", "d": "created"}, {"t": "operatives", "d": "factory workers"},

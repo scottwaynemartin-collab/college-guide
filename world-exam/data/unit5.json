@@ -4,7 +4,7 @@
  "period": "c. 1750–1900",
  "examWeighting": "12–15%",
  "blurb": "Enlightenment ideas, Atlantic revolutions, nationalism, industrialization and its spread, and reactions to the industrial economy.",
- "version": "2026-11-07a",
+ "version": "2026-11-09a",
  "schemaNotes": "Every question has a set id; data.stimuli[set] holds its source (passage | pair | image | table | bar). Options A-D. LO letters follow the Fall 2026 AP World CED (Unit 5: Learning Objectives A-K).",
  "topics": [
   {
@@ -480,7 +480,7 @@
     "The peasants now bound to the soil shall, within the term fixed by the law, be vested with the full rights of freemen. The landed proprietors, while they shall retain all the rights of ownership over all the lands now belonging to them, shall transfer to the peasants, in return for a rent fixed by law, the full enjoyment of their cottages, farm buildings, and gardens. Furthermore, in order to assure to the peasants their subsistence and enable them to meet their obligations toward the State, the landlords shall turn over to the peasants a quantity of arable and other land provided for in the regulations above mentioned. In return for these allotments the peasant families shall be required to pay rent to the landlords, as fixed by the provisions of the law."
    ],
    "attribution": "Tsar Alexander II of Russia, manifesto freeing the serfs, March 1861",
-   "translation": "Translation printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (1908); adapted",
+   "translation": "Translation printed in James Harvey Robinson and Charles A. Beard, Readings in Modern European History, vol. 2 (1909); adapted",
    "glossary": [
     {
      "t": "peasants bound to the soil",
@@ -566,7 +566,7 @@
     "Young Italy is unitarian, because, without unity there is no true nation; because, without unity there is no real strength; and Italy, surrounded as she is by powerful, united, and jealous nations, has need of strength above all things; because federalism, by reducing her to the political impotence of Switzerland, would necessarily place her under the influence of one of the neighboring nations. …"
    ],
    "attribution": "Giuseppe Mazzini, Italian nationalist, General Instructions for the Members of Young Italy, a secret society he founded in 1831",
-   "translation": "English translation from Life and Writings of Joseph Mazzini (1864), as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (1908); adapted",
+   "translation": "English translation from Life and Writings of Joseph Mazzini (1864), as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (1909); adapted",
    "footnotes": [
     {
      "mark": "*",
@@ -921,7 +921,7 @@
       "Mother. I have worked in the same mills myself. … There's many young ones in that hot room. There's six of 'em badly now, with bad eyes and sick headache. … I would prefer their coming home at seven, without additional wages."
      ],
      "attribution": "Testimony of a family in Lenton, near Nottingham, England, to government commissioners investigating the work of children in factories, 1833",
-     "translation": "From the Reports of the Factory Commissioners (1833), as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (1908); adapted",
+     "translation": "From the Reports of the Factory Commissioners (1833), as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (1909); adapted",
      "glossary": [
       {
        "t": "going fourteen",
@@ -948,7 +948,7 @@
       "He would warn the House that if they now armed the workmen against the capitalists by fixing by law ten hours, or any other number of hours for the duration of labor, and thus interfered with the established custom of the kingdom, he believed it would be impossible that the feeling which hitherto existed on the part of the manufacturers towards the operatives would continue. …"
      ],
      "attribution": "John Bright, cotton-mill owner and member of the British Parliament, speech in the House of Commons opposing the Ten Hours Bill, a law to limit the workday of women and young people in textile mills, 1847",
-     "translation": "From the official record of debates (Hansard), as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (1908); adapted",
+     "translation": "From the official record of debates (Hansard), as printed in Robinson and Beard, Readings in Modern European History, vol. 2 (1909); adapted",
      "footnotes": [
       {
        "mark": "*",
