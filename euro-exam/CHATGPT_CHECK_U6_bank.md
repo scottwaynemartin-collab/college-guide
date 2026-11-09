@@ -1,4 +1,4 @@
-# AP European History — Unit 6 practice bank (v2026-11-09c)
+# AP European History — Unit 6 practice bank (v2026-11-09d)
 
 Unit 6: Industrialization and Its Effects, c. 1815–1914 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 6.1 Contextualizing Industrialization and Its Origins and Effects (LO A)
@@ -158,12 +158,12 @@ KEY: C. Explanation: Williams credits "the German Chemist" and the state's "Scie
 **E6-P10** [Topic 6.2 · LO B · Skill 4.B · medium]  Mitchel's argument is best understood in the context of which of the following?
 - (A) A British ban on emigration that kept starving Irish families from leaving the island
 - (B) A war between Britain and France that cut off food shipments to Ireland
-- (C) The Irish Parliament's decision to keep exporting grain to pay its war debts
+- (C) Government orders that kept Irish grain and cattle from being sold abroad
 - (D) Britain's reluctance to interfere with free markets during the Irish famine
 KEY: D. Explanation: Many British officials believed in laissez-faire, the idea that government should stay out of markets. Help for the hungry was slow and limited, and food was still shipped out of Ireland. Mitchel blames "the principles of political economy" for the deaths.
   - why not A: Britain did not ban emigration. More than a million people left Ireland during and after the famine.
   - why not B: Britain was at peace with France in the 1840s. The famine was caused by potato blight and made worse by policy, not by war.
-  - why not C: Ireland had no parliament of its own after the Act of Union of 1801. It was governed from London, as the second footnote says.
+  - why not C: The government did not stop food from leaving Ireland. Grain, cattle, and butter were still shipped out during the famine.
   - hint: Mitchel blames "the principles of political economy." What economic idea guided the British government in the 1840s?
 
 **E6-P11** [Topic 6.2 · LO B · Skill 3.D · hard]  A historian would most likely challenge which of the following claims in the passage?
@@ -184,7 +184,7 @@ KEY: D. Explanation: Potato blight also struck the Scottish Highlands, Belgium, 
 - (D) A return to rapid population growth as Irish couples married younger
 KEY: B. Explanation: About a million people died during the famine years, and more than a million left Ireland. People kept leaving for decades, so Ireland's population kept falling. Irish communities grew in Liverpool, Glasgow, New York, Boston, and other cities.
   - why not A: Western Ireland stayed rural and poor. Ireland's main industrial area was around Belfast in the northeast.
-  - why not C: Bills to give Ireland its own parliament, called Home Rule bills, failed in 1886 and 1893. Most of Ireland won its own parliament only in 1922, as the Irish Free State.
+  - why not C: Bills to give Ireland its own parliament, called Home Rule bills, failed in 1886 and 1893. Most of Ireland did not govern itself until 1922, when it became the Irish Free State.
   - why not D: Ireland's population kept falling for decades after the famine. Many people married later in life, and many did not marry at all.
   - hint: Where did many of the missing millions go?
 
@@ -239,7 +239,7 @@ KEY: C. Explanation: What workers can buy depends on both their pay and the pric
 ### Source P6 (questions E6-P16–E6-P18)
 **Source 1**
 > To men belongs the potent—(I had almost said the omnipotent) consideration of worldly aggrandisement; and it is constantly misleading their steps, closing their ears against the voice of conscience … This may be an extreme, but it is scarcely an exaggerated picture of the engagements of men of business in the present day. …
-> … when the snares of the world were around him, … he has thought of the humble monitress who sat alone, guarding the fireside comforts of his distant home; and the remembrance of her character, clothed in moral beauty, has scattered the clouds before his mental vision, and sent him back to that beloved home, a wiser and a better man. …
+> … when the snares of the world were around him [a man of business], … he has thought of the humble monitress who sat alone, guarding the fireside comforts of his distant home; and the remembrance of her character, clothed in moral beauty, has scattered the clouds before his mental vision, and sent him back to that beloved home, a wiser and a better man. …
 > The sphere of their* direct personal influence is central, and consequently small; but its extreme operations are as widely extended as the range of human feeling.
 > * "Their" in the last paragraph means the women of England.
 — Sarah Stickney Ellis, English writer of advice books, The Women of England: Their Social Duties and Domestic Habits, 1839 (Text from Mrs. Ellis, The Women of England: Their Social Duties and Domestic Habits (New York: D. Appleton, 1839), pp. 45–47; adapted)
@@ -316,12 +316,12 @@ KEY: C. Explanation: Wood blames women's mine work for homes that are not "comfo
   - hint: What does Wood say goes wrong at home when girls work in mines?
 
 **E6-P21** [Topic 6.4 · LO E · Skill 5.B · Causation · medium]  The law passed soon after this speech most directly
-- (A) banned children under thirteen from working in textile factories
+- (A) made mine owners pay miners who were hurt at work
 - (B) gave miners the right to form trade unions for the first time
 - (C) limited the working day of adult miners to eight hours
 - (D) barred women, girls, and young boys from underground work
 KEY: D. Explanation: The Mines Act of 1842 banned all women and girls, and boys under ten, from working underground. It was one of the first laws to limit the labor of women as well as children.
-  - why not A: The Factory Act of 1833 dealt with textile mills. It limited children's hours but did not ban all work under age thirteen.
+  - why not A: The 1842 law did not make owners pay for injuries. The Workmen's Compensation Act of 1897 was the first law to make employers pay workers hurt on the job even when no one was to blame.
   - why not B: Trade unions became legal in 1824–1825, when the Combination Acts were repealed. That was long before 1842.
   - why not C: An eight-hour day for coal miners came only in 1908.
   - hint: The speech focuses on young children and on women and girls underground. What did the new law do about them?
@@ -607,11 +607,11 @@ KEY: B. Explanation: Suffragettes broke windows, set fires, and went on hunger s
 **E6-P41** [Topic 6.8 · LO I · Skill 4.B · Causation · medium]  The founding of the Women's Social and Political Union is best understood in the context of which of the following?
 - (A) Decades of failed petitions and bills for women's suffrage
 - (B) A recent law granting universal male suffrage in Britain
-- (C) A recent law that allowed women to sit in the House of Commons
+- (C) The election of women to the House of Commons a few years earlier
 - (D) A recent law that took away married women's right to keep their own earnings
 KEY: A. Explanation: British women had sent petitions for the vote since the 1860s, and bills for women's suffrage kept failing. Pankhurst says the old leaders were "content with expressions of sympathy" from politicians. In 1903 she founded the WSPU with the motto "Deeds, not words."
   - why not B: Britain did not give the vote to nearly all adult men until 1918. In 1903 many working men still could not vote.
-  - why not C: Women could not sit in the House of Commons until 1918.
+  - why not C: Women could not be elected to the House of Commons until 1918, and the first woman took her seat in 1919.
   - why not D: Parliament did not take that right away. The Married Women's Property Act of 1882 gave wives even more control of their property than the act of 1870. It was still in force in 1903.
   - hint: Pankhurst complains about "the old leaders." What had they been doing, and how well had it worked?
 
@@ -922,12 +922,12 @@ KEY: D. Explanation: The resolutions went after universities, student clubs, and
   - D: Correct. Student clubs such as the Burschenschaft wanted a united Germany with a constitution and freedom of the press. The resolutions banned their union and watched their teachers.
 
 **E6-E15** [Topic 6.6 · LO G · Skill 5.B · Continuity and Change · medium]  Which of the following later developments most directly reversed the policies in the resolutions?
-- (A) The Congress of Vienna's creation of the German Confederation
+- (A) The Troppau Protocol of 1820, which pledged to put down revolutions
 - (B) The revolutions of 1848 and the election of the Frankfurt Parliament
 - (C) The July Revolution of 1830, which ended press censorship across the German states
 - (D) The founding of the Zollverein, which replaced the German Confederation
 KEY: B. Explanation: Censorship lasted in the German states until 1848. The revolutions of that year swept away the Carlsbad system for a time. But conservatives took back control in 1849.
-  - A: Incorrect. The Congress of Vienna created the German Confederation in 1815. That body passed the resolutions, so it did not reverse them.
+  - A: Incorrect. At Troppau in 1820, Austria, Prussia, and Russia agreed to act together against revolutions. That supported the policies in the resolutions instead of reversing them.
   - B: Correct. In March 1848 revolts forced German rulers to grant freedom of the press. The Confederation repealed the Carlsbad Decrees, and Germans elected the Frankfurt Parliament.
   - C: Incorrect. The July Revolution led to some new constitutions in German states. But the Confederation answered with even more controls on the press and on meetings.
   - D: Incorrect. The Zollverein of 1834 was a customs union. It lowered tariffs but did not replace the German Confederation.
@@ -1009,12 +1009,12 @@ KEY: D. Explanation: Chadwick knew that Parliament and taxpayers worried about c
 
 **E6-E21** [Topic 6.9 · LO J · Skill 5.B · Causation · medium]  Chadwick's report most directly contributed to which of the following?
 - (A) A Public Health Act creating a General Board of Health
-- (B) A Factory Act limiting children's hours in textile mills
+- (B) A national insurance system that paid for workers' medical care
 - (C) A New Poor Law that set up workhouses for the poor
 - (D) A Reform Act that gave the vote to more middle-class men
 KEY: A. Explanation: The report showed how filth and bad water killed thousands. It led to the Public Health Act of 1848, which let towns set up local boards of health to build drains and water supplies.
   - A: Correct. The Public Health Act of 1848 followed Chadwick's report. Chadwick sat on the General Board of Health it created.
-  - B: Incorrect. The Factory Act of 1833 came before the report and dealt with working hours, not drains and water.
+  - B: Incorrect. Britain set up national health insurance for workers only in 1911, long after the report. It followed Germany's example.
   - C: Incorrect. The New Poor Law of 1834 came before the report. Chadwick helped design it, but it dealt with poor relief.
   - D: Incorrect. The Reform Act of 1832 came before the report and changed voting, not public health.
 
@@ -1112,6 +1112,7 @@ Notes:
 - Considered and not used: Léon Faucher, Manchester in 1844 (only a post-1930 facsimile found); the October Manifesto, the Erfurt Program, and Witte's memoirs (kept for other sets or later units); a Crystal Palace image (Great Exhibition covered by a footnote); Clapham's 1939 reprint (post-1930; the 1926 first edition was used); Mill's 1873 American printing (1861 London first edition used); Robert Ensor, Modern Socialism (1904), downloaded to raw/ and not used.
 - Corrections in v2026-11-09b (after the independent check): P1 is by Edward Baines Jr., editor (not owner) of the Leeds Mercury in 1835; Robinson & Beard vol. 2 (X5) is dated 1909 (title-page verso: 'Copyright, 1909'), vol. 1 being 1908; P4's attribution adds the Dublin 1861 book edition; X8's attribution uses the translation's English title; X6 says Engels 'worked closely with' Marx; page locators corrected for P6.2 (pp. 2, 4-5, 9, from the page images) and P14 (foreword and pp. 37-38); X2 Source 2 gets a glossary note on Hansard's 'Ministers tells us'. No excerpt text changed.
 - Corrections in v2026-11-09c (after the ChatGPT Pro review): X1's third paragraph no longer opens with Taine's "They are powerful, that is their compensation." (in the excerpt "They" seemed to mean the workers; in the book it means the rich), and now begins "… The life of one of the heads ..."; P6.1's second paragraph now starts inside Ellis's second example ("… when the snares of the world were around him, …"), so it no longer joins two different examples; P4 gains a footnote on the blight of 1845 and 1846 (Mitchel's "in 1846, when the Famine commenced" is kept as printed); X4's note now says the figures are those of an 1892 reference book and that later historians give somewhat different totals, and X4.md no longer calls the 1892 edition the first; glossary changes in X6 ('materialistic conception of history' now points to the last paragraph instead of summarizing it) and X7 ('pecuniary' = 'having to do with money', replacing 'pecuniary gain' = 'a saving of money', which echoed E6-E20's key) and P6.1 ('snares' added, 'the mart, the exchange' dropped); P5.1/P5.2 copyright notes corrected (Clapham died 80, not fewer than 70, years before 2026). The changed excerpts were re-checked with ae6/check_excerpts.py: 140 stretches (the new footnote mark splits one P4 stretch in two), the same 21 hand-checked mismatches as before, no new ones.
+- Corrections in v2026-11-09d (after the final independent check): P6.1's second paragraph now reads "when the snares of the world were around him [a man of business]" (an editorial bracket, since "him" follows the plural "men of business" after the 11-09c cut). No other excerpt, attribution or credit line changed. Re-checked with ae6/check_excerpts.py: 140 stretches, the same 21 hand-checked mismatches, none new.
 - Overlap check: no work used here appears in the Euro Unit 4 or Unit 5 banks. Anderson's documents volume (1908) is also used in the Unit 5 bank, but for different documents. Pankhurst's foreword paragraph on militancy (P14) is also quoted in the AP World Unit 9 bank (aw9 P14).
 
 ### X1
@@ -1570,8 +1571,11 @@ ADAPTATION IN THE BANK (every cut, with the omitted raw text):
 - CUT (…) between "...ements of men of business in the present day." and "when the snares of the world were around him,": omitted raw text (since v2026-11-09c): ". And surely they now need more than ever all the assistance which Providence has kindly provided, to win them away from this warfare, to remind them that they are hasten [...] n saying, that the society of woman, in her highest moral capacity, is best calculated to effect this purpose. How often has man returned to his home with a mind confused by the many voices, which in the mart, the ex¬ change, or the public assembly, have addressed themselves to his inborn selfishness or his worldly pride ; and while his integrity was shaken, and his resolution gave way be¬ neath the pressure of apparent necessity, or the insidious pretences of expediency, he has stood corrected before the clear eye of woman, as it looked directly to the naked truth, and detected the lurking evil of the specious act he was about to commit. Nay, so potent may have become this secret influence, that he may have borne it about with him like a kind of second conscience, for mental reference, and spiritual counsel, in moments of trial : and  (220 words)"
 - CUT (…) between "...when the snares of the world were around him," and "he has thought of the humble monitress who sa...": omitted raw text: "and temptations from within and without have bribed over the witness in his own THE WOMEN OF ENGLAND. 47 bosom,"
 - CUT (…) between "... that beloved home, a wiser and a better man." and "The sphere of their...": omitted raw text: ". The women of England, possessing the grand privilege of being better instructed than those of any other country in the minutiae of domestic comfort, have obtained a deg [...] ing the minor mo¬ rals of life, from whence springs all that is elevated in pur¬ pose, and glorious in action.  (84 words)"
+- BRACKET (since v2026-11-09d): "[a man of business]" after "when the snares of the world were around him" is an editorial clarification, not Ellis's words. In Ellis "him" is the generic "man" of her two examples; with the cut, it follows the plural "men of business" of the first paragraph, which is whom Ellis is describing.
 - The footnote ('their' = the women of England) and the glossary are editorial.
 - Revision v2026-11-09c (ChatGPT Pro review): up to v2026-11-09b the second paragraph began "How often has man returned to his home with a mind confused by the many voices, which in the mart, the exchange, or the public assembly, have addressed themselves to his inborn selfishness or his worldly pride; … he has thought of the humble monitress ...". The cut was marked, but it joined two different examples in Ellis (the man corrected by his wife after coming home, and the man away from home who remembers her), so the excerpt seemed to send him home twice. The paragraph now starts at "when the snares of the world were around him", inside the second example, so it describes one scene. The glossary entry 'the mart, the exchange' was dropped (its words are no longer shown) and 'snares' = 'traps' added. The excerpt was re-checked against the raw text with ae6/check_excerpts.py (6 stretches, all matching).
+
+- Revision v2026-11-09d (final independent check, optional readability fix): "him" in the second paragraph now carries the bracket "[a man of business]", since after the v2026-11-09c cut it follows the plural "men of business". Brackets count as editorial in ae6/check_excerpts.py; the re-check found 6 stretches, all matching (bank-wide: 140 stretches, the same 21 hand-checked mismatches, none new).
 
 CONTEXT NOTES:
 Ellis's book was one of the most widely read Victorian advice books for middle-class women.

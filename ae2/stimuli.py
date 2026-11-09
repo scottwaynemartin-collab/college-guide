@@ -2,7 +2,7 @@
 # documented in ae2/sources/*.md. Cuts are marked with ellipses. Words in square brackets inside a passage are the
 # printed edition's own clarifications (Robinson, Burr, McGlothlin); none were added by the bank.
 # OCR slips in the scans were corrected against the page image or a second scan (see the .md files).
-VERSION = "2026-11-09c"
+VERSION = "2026-11-09d"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}

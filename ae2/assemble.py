@@ -60,7 +60,8 @@ def balanced_letters(n, seed):
 # 2026-11-09b review: sets P4, P5 and P6 all opened with two C keys. Move E2-P14 to A and E2-P17 to D, and
 # compensate with E2-P33 and E2-P39 (D->C, A->C) so the counts stay 12/12/12/12. (The reviewer's suggested
 # P24->C would have made a C-A-C-A-C run at P20-P24, so P39 is used instead.)
-LETTER_OVERRIDES = {"E2-P14": "A", "E2-P17": "D", "E2-P33": "C", "E2-P39": "C"}
+# 2026-11-09d final check: E17-E23 ran B-A-B-A-D-A-D, so E2-E06 moves C->A and E2-E20 moves A->C (exam stays 7/6/6/6).
+LETTER_OVERRIDES = {"E2-P14": "A", "E2-P17": "D", "E2-P33": "C", "E2-P39": "C", "E2-E06": "A", "E2-E20": "C"}
 for items, seed in ((PRACTICE, 2241), (EXAM, 2242)):
     letters = balanced_letters(len(items), seed)
     letters = [LETTER_OVERRIDES.get(q["id"], t) for q, t in zip(items, letters)]

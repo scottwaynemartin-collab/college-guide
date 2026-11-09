@@ -1,7 +1,7 @@
 # AP European History Unit 6 sources. Texts follow the editions saved in ae6/sources/raw/ (all published
 # in 1930 or earlier) and documented in ae6/sources/*.md. Cuts are marked with ellipses; bracketed words are
 # clarifications. OCR slips in the scans were corrected against a second scan or the page image (see the .md files).
-VERSION = "2026-11-09c"
+VERSION = "2026-11-09d"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -257,7 +257,7 @@ STIM = {
 "P6": {"type": "pair", "items": [
     item("Source 1", [
         "To men belongs the potent—(I had almost said the omnipotent) consideration of worldly aggrandisement; and it is constantly misleading their steps, closing their ears against the voice of conscience … This may be an extreme, but it is scarcely an exaggerated picture of the engagements of men of business in the present day. …",
-        "… when the snares of the world were around him, … he has thought of the humble monitress who sat alone, guarding the fireside comforts of his distant home; and the remembrance of her character, clothed in moral beauty, has scattered the clouds before his mental vision, and sent him back to that beloved home, a wiser and a better man. …",
+        "… when the snares of the world were around him [a man of business], … he has thought of the humble monitress who sat alone, guarding the fireside comforts of his distant home; and the remembrance of her character, clothed in moral beauty, has scattered the clouds before his mental vision, and sent him back to that beloved home, a wiser and a better man. …",
         "The sphere of their* direct personal influence is central, and consequently small; but its extreme operations are as widely extended as the range of human feeling."],
         "Sarah Stickney Ellis, English writer of advice books, The Women of England: Their Social Duties and Domestic Habits, 1839",
         "Text from Mrs. Ellis, The Women of England: Their Social Duties and Domestic Habits (New York: D. Appleton, 1839), pp. 45–47; adapted",

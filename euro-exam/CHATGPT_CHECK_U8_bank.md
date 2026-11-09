@@ -1,4 +1,4 @@
-# AP European History — Unit 8 practice bank (v2026-11-09c)
+# AP European History — Unit 8 practice bank (v2026-11-09d)
 
 Unit 8: 20th-Century Global Conflicts, c. 1914–1945 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 8.1 Contextualizing 20th-Century Global Conflicts (LO A)
@@ -281,7 +281,7 @@ KEY: C. Explanation: In October 1918 Germany asked for an armistice based on Wil
 - (B) The Bolshevik call for peace without annexations
 - (C) The Fourteen Points' call for open diplomacy
 - (D) The Locarno treaties on Germany's western borders
-KEY: A. Explanation: After the war, the League of Nations turned Germany's colonies and many of the Ottoman Empire's Arab lands into "mandates." Britain, France, and other Allies ruled them. The League's rules claimed that these peoples needed outside guidance. The rules were not the same everywhere: former Ottoman lands were to be guided toward independence, but most former German colonies were given no such promise.
+KEY: A. Explanation: After the war, the League of Nations turned Germany's colonies and many of the Ottoman Empire's Arab lands into "mandates." Britain, France, and other Allies ruled them. The League's rules said these peoples needed outside guidance. The rules were not the same for every mandate. The former Ottoman lands were to be guided toward independence. Most former German colonies got no such promise.
   - why not B: The Bolsheviks called for peace without annexations and attacked the rule of strong nations over weak ones. They did not claim that colonial peoples needed outside rulers.
   - why not C: Open diplomacy meant ending secret treaties. It had nothing to do with ruling colonies.
   - why not D: The Locarno treaties of 1925 dealt with borders inside Europe, not with colonies.
@@ -409,7 +409,7 @@ KEY: C. Explanation: Mosley left the Labour Party, and in 1932 he founded the Br
   - why not A: Unemployment stayed high in Britain and France through much of the 1930s. Leaving the economy alone did not end it.
   - why not B: Britain did not adopt central planning. It took steps such as leaving the gold standard and raising tariffs, but most industry stayed private.
   - why not D: In many countries the opposite happened. In Germany, for example, the Nazi and Communist vote grew as unemployment rose.
-  - hint: Mosley soon left the Labour Party. How did some Europeans react when democracies seemed too slow to end the Depression?
+  - hint: Mosley soon left the Labour Party. What kind of party did he found in 1932, and what did it think of parliament?
 
 
 ### Source P10 (questions E8-P28–E8-P30)
@@ -471,11 +471,11 @@ KEY: C. Explanation: Average output per person rose under Stalin. But an average
 - (A) justify taking away rights by claiming the state was in danger
 - (B) warn the Soviet Union that Germany would defend its borders
 - (C) promise that Germans' rights would return after the next election
-- (D) invite the Communist Party to join a coalition government
+- (D) assure Germans that the government would protect the rights in the constitution
 KEY: A. Explanation: On February 27, 1933, a fire burned the Reichstag building. Hitler had been chancellor for less than a month, and he blamed the Communists. The next day President Hindenburg signed this decree. Calling it "defensive" made the loss of rights look like protection. The Nazis used it to arrest Communists and other opponents.
   - why not B: The decree is about "acts of violence" inside Germany, and it suspends Germans' own rights. It says nothing about the Soviet Union or Germany's borders.
   - why not C: The decree suspends rights "until further notice." They stayed suspended until the Nazi regime fell in 1945.
-  - why not D: After the Reichstag fire, the Nazis arrested thousands of Communists. They did not invite them into the government.
+  - why not D: The decree suspends seven sections of the constitution "until further notice." It took those rights away instead of protecting them.
   - hint: Why might a government that takes away rights say it is only defending the state?
 
 **E8-P32** [Topic 8.6 · LO H · Skill 5.B · Causation · medium]  Together, the two laws most directly allowed Hitler's government to
@@ -526,8 +526,8 @@ KEY: D. Explanation: The Nazis wanted only people they classed as being of "Germ
 - (B) allowed Jews to keep the same political rights as other German citizens, such as voting
 - (C) was based on a person's ancestry rather than on the person's own religious beliefs
 - (D) was the first law in European history to limit the rights of Jews
-KEY: C. Explanation: In earlier centuries, anti-Jewish laws were mostly about religion. A Jew who became a Christian was often accepted. The Nazis claimed that Jews were a separate race. So a person with three Jewish grandparents counted as a Jew, even if that person was a Christian. (Race cannot really be measured. Officials checked whether each grandparent had belonged to a Jewish congregation.) This racial hatred of Jews spread in the late 1800s.
-  - why not A: In 1935 these laws covered Germany and Germany's own citizens, not the Jews of other countries. Nazi Germany forced laws like these on other lands only after it began to expand in 1938.
+KEY: C. Explanation: In earlier centuries, anti-Jewish laws were mostly about religion. A Jew who became a Christian was often accepted. The Nazis claimed that Jews were a separate race. So a person with three Jewish grandparents counted as a Jew, even if that person was a Christian. (The Nazis' idea of a Jewish "race" had no basis in science. To decide who counted, officials checked whether each grandparent had belonged to a Jewish congregation.) This racial hatred of Jews spread in the late 1800s.
+  - why not A: In 1935 these laws applied in Germany and to German nationals. They did not reach the Jews living in other countries. Nazi Germany forced laws like these on other lands only after it began to expand in 1938.
   - why not B: The regulation says a Jew "has no right to vote" and "cannot occupy a public office."
   - why not D: Many earlier laws limited Jews' rights. For example, England expelled its Jews in 1290 and Spain in 1492, and Venice forced Jews to live in a ghetto starting in 1516.
   - hint: Look at how the regulation decides who is a Jew. Does it ask what the person believes?
@@ -566,11 +566,11 @@ KEY: A. Explanation: The Spanish Civil War began in 1936, when army generals, so
 - (A) promising not to send weapons or troops to either side
 - (B) sending their own armies to defend the Spanish Republic
 - (C) joining Germany and Italy in arming Franco's forces
-- (D) asking the Soviet Union to take control of Spain
+- (D) recognizing Franco's government as soon as the fighting began
 KEY: A. Explanation: Britain and France feared a wider war. In 1936 they set up a non-intervention agreement, in which the European powers promised not to send arms to Spain. Germany and Italy signed it but kept helping Franco, and the Soviet Union aided the Republic. A small amount of French aid also reached the Republic in secret. Franco won in 1939.
   - why not B: Britain and France sent no armies. Some of their citizens went to Spain as volunteers in the International Brigades.
   - why not C: Britain and France did not arm Franco. Germany and Italy did.
-  - why not D: Britain and France distrusted the Soviet Union and did not ask it to act in Spain. The Soviet Union sent weapons and advisers to the Republic.
+  - why not D: Britain and France recognized Franco's government only in February 1939, near the end of the war.
   - hint: The policy was called non-intervention. What does that word mean?
 
 **E8-P39** [Topic 8.8 · LO K · Skill 5.A · Continuity and Change · medium]  The kind of attack that destroyed this town was used on a much larger scale during the Second World War in which of the following?
@@ -989,9 +989,9 @@ KEY: D. Explanation: Germany's attack on Poland was its first blitzkrieg. Tanks 
 > "The above mentioned Governments and the French National Committee condemn in the strongest possible terms this bestial policy of cold-blooded extermination. They declare that such events can only strengthen the resolve of all freedom loving peoples to overthrow the barbarous Hitlerite tyranny. They re-affirm their solemn resolution to ensure that those responsible for these crimes shall not escape retribution, and to press on with the necessary practical measures to this end." …
 > … Certainly** we should like to do all we possibly can. There are, obviously, certain security formalities which have to be considered. It would clearly be the desire of the United Nations to do everything they could to provide wherever possible an asylum for these people, but the House will understand that there are immense geographical and other difficulties in the matter.
 > * On January 1, 1942, 26 Allied governments signed a declaration that called them the "United Nations." The United Nations organization that exists today was founded in 1945.
-> ** Eden said these words a few minutes later, in answer to a member who asked whether Jews who escaped from the occupied countries would be given help in Allied countries.
+> ** Eden said these words a few minutes later. A member had asked whether anyone who escaped from these occupied lands would be welcomed and helped in Allied countries.
 — Anthony Eden, foreign secretary of Great Britain, statement to the House of Commons reading a joint declaration of the Allied governments, December 17, 1942 (Text from Hansard, House of Commons Debates, 5th series, vol. 385, cols. 2082–2086 (December 17, 1942), UK Parliament, Open Parliament Licence v3.0; adapted, with three printing slips corrected)
-> Words to know: His Majesty's Government = the British government; French National Committee = the leaders of the Free French, who kept fighting Germany after France surrendered in 1940; exterminate = kill every member of a group; ghettoes = parts of towns or cities where German authorities forced Jews to live apart from other people, under harsh rules; the infirm = people who are sick or weak; retribution = punishment; asylum = safety given to people fleeing danger
+> Words to know: His Majesty's Government = the British government; French National Committee = the leaders of the Free French, who kept fighting Germany after France surrendered in 1940; persons of Jewish race = Jewish people (the declaration uses the language of 1942); exterminate = kill every member of a group; ghettoes = parts of towns or cities where German authorities forced Jews to live apart from other people, under harsh rules; the infirm = people who are sick or weak; retribution = punishment; asylum = safety given to people fleeing danger
 
 **E8-E19** [Topic 8.9 · LO L · Skill 3.A · medium]  Which of the following best describes the main claim of the declaration?
 - (A) German authorities were forcing Jews to leave Europe for neutral countries.
@@ -1009,7 +1009,7 @@ KEY: C. Explanation: The Allied governments said Germany had moved from denying 
 - (B) The Nuremberg Laws
 - (C) The Kristallnacht attacks
 - (D) The T4 "euthanasia" program
-KEY: A. Explanation: In 1942 the Nazis began deporting the people of Poland's ghettos, on a huge scale, to killing centers such as Treblinka and Auschwitz-Birkenau. Most ghettos were destroyed in 1942 and 1943, and the last large one, in Łódź, in 1944. Nazi Germany and its allies and collaborators murdered about six million Jews in the Holocaust. The Nazis also murdered Roma, people with disabilities, and others.
+KEY: A. Explanation: In 1942 the Nazis began sending the Jews of Poland's ghettos, on a huge scale, to killing centers such as Treblinka and Auschwitz-Birkenau. Most of these ghettos were destroyed in 1942 and 1943. Łódź, one of the last large ghettos, was destroyed in 1944. Nazi Germany and its allies and collaborators murdered about six million Jews in the Holocaust. The Nazis also murdered Roma, people with disabilities, and others.
   - A: Correct. In January 1942, at the Wannsee Conference, Nazi officials coordinated the plan to murder the Jews of Europe, which they called the "Final Solution."
   - B: Incorrect. The Nuremberg Laws of 1935 took away German Jews' full citizenship and banned marriages between Jews and people the Nazis classed as being of "German or kindred blood." They did not order deportation or murder.
   - C: Incorrect. Kristallnacht was a wave of attacks on Jewish homes, shops, and synagogues inside Germany in November 1938.
@@ -1078,12 +1078,12 @@ KEY: C. Explanation: To fight a total war, governments planned what factories ma
 
 **E8-E25** [Topic 8.6 · LO H · Skill 5.B · Causation · medium]  The events in Italy that Halévy mentions in the second paragraph helped lead most directly to which of the following?
 - (A) Mussolini's appointment as prime minister
-- (B) Italy's entry into the First World War
+- (B) Italy's entry into the Second World War
 - (C) The Italian invasion of Ethiopia
 - (D) The Lateran Accords between Italy and the pope
-KEY: A. Explanation: Halévy describes Italy's unrest as a failed Communist revolution. During the strikes and factory occupations of 1919–1920, many landowners and factory owners feared a socialist revolution. Many of them backed the Fascist squads that attacked socialists and unions, and in 1922 the king made Mussolini prime minister.
+KEY: A. Explanation: Halévy calls Italy's unrest a failed Communist revolution. In 1919 and 1920 many workers went on strike, and in 1920 they took over factories. Landowners and factory owners feared a revolution like Russia's. Many of them backed the Fascist squads that attacked socialists and unions. In 1922 the king made Mussolini prime minister.
   - A: Correct. In 1920 Italian workers occupied factories, and many property owners feared a revolution. Fascist squads attacked the left, and in 1922 the king made Mussolini prime minister.
-  - B: Incorrect. Italy entered the war in 1915, years before these events.
+  - B: Incorrect. Italy entered the Second World War in June 1940 as Germany's ally. That grew out of Mussolini's alliance with Hitler, not out of the unrest of 1920.
   - C: Incorrect. Italy invaded Ethiopia in 1935, after Mussolini had ruled for thirteen years. The invasion grew out of his plans for an empire.
   - D: Incorrect. The Lateran Accords of 1929 settled quarrels between the Italian state and the Catholic Church. They did not grow out of the events of 1920.
 
@@ -1099,7 +1099,7 @@ Copyright rule for this unit (Units 8 and 9): no copyrighted post-1930 private t
 - **CC BY 4.0 data**: Maddison Project Database 2023 (X4, P10), licence stated on the release page (raw/web/maddison2023_release.html; licence text raw/web/cc-by-4.0.html). The original country sources that the database asks users to cite for small subsets or graphs are listed in X4.md and P10.md and named on each source line ("Original estimates: …").
 - **Images**: X5 (IWM Q 30040, public domain, expired UK Crown copyright), P7 (published in the U.S. in 1923, public domain), P13 (Bundesarchiv Bild 183-H25224, CC BY-SA 3.0 DE, licence text raw/web/cc-by-sa-3.0-de.html). Licences confirmed with the Commons API (raw/commons/info_batch1.json, info_batch2.json). Every image was opened and viewed before its caption, alt text and description were written.
 
-Every text excerpt was copied from a raw download saved in sources/raw/ and machine-checked against it with check_excerpts.py: every stretch between ellipses, brackets or footnote marks had to occur in a raw text once both were reduced to lowercase letters (case, punctuation, digits, whitespace and line-end hyphens ignored). 130 stretches were checked (v2026-11-09c; the new footnote mark in X9 splits one stretch); 118 match exactly, and the 12 that do not were each read by hand and are explained in the source files: X7 (Hansard's "Luxemberg," corrected and disclosed in the credit), X8 (the decorated initial "W" that the OCR drops; checked on the page image, raw/img/athenaeum1919-04-11_leaf21.jpg), X9, P2 Source 1 and P16 (running heads inside a sentence), P2 Source 2 (a stray OCR mark), P3 (two OCR slips, "ihe" and "sho"), P6 Source 2 ("fuU"), P11 ("follov^ing," "Sectioyi"), P12 (a page break inside "re-/solved"), and P16 ("Jatest"). The letters-only check does not see punctuation or numbers, so each excerpt was also compared word by word with its raw text by script; every non-letter change (added colon, capital, quotation mark, corrected OCR punctuation) is listed in the source file. Each source file prints the excerpt as it appears in the bank, the raw region it was cut from, a machine-made list of every cut, and notes on corrections. Table and chart values were read from the downloaded workbook by script and are listed in X4.md and P10.md. Hansard column ranges were read from the column anchors in the saved pages; the FRUS page range (X3) was confirmed on the page images of pp. 781–782 (raw/img/).
+Every text excerpt was copied from a raw download saved in sources/raw/ and machine-checked against it with check_excerpts.py: every stretch between ellipses, brackets or footnote marks had to occur in a raw text once both were reduced to lowercase letters (case, punctuation, digits, whitespace and line-end hyphens ignored). 130 stretches were checked (v2026-11-09d, no excerpt changed since v2026-11-09c; the footnote mark added to X9 in v2026-11-09c splits one stretch); 118 match exactly, and the 12 that do not were each read by hand and are explained in the source files: X7 (Hansard's "Luxemberg," corrected and disclosed in the credit), X8 (the decorated initial "W" that the OCR drops; checked on the page image, raw/img/athenaeum1919-04-11_leaf21.jpg), X9, P2 Source 1 and P16 (running heads inside a sentence), P2 Source 2 (a stray OCR mark), P3 (two OCR slips, "ihe" and "sho"), P6 Source 2 ("fuU"), P11 ("follov^ing," "Sectioyi"), P12 (a page break inside "re-/solved"), and P16 ("Jatest"). The letters-only check does not see punctuation or numbers, so each excerpt was also compared word by word with its raw text by script; every non-letter change (added colon, capital, quotation mark, corrected OCR punctuation) is listed in the source file. Each source file prints the excerpt as it appears in the bank, the raw region it was cut from, a machine-made list of every cut, and notes on corrections. Table and chart values were read from the downloaded workbook by script and are listed in X4.md and P10.md. Hansard column ranges were read from the column anchors in the saved pages; the FRUS page range (X3) was confirmed on the page images of pp. 781–782 (raw/img/).
 
 | Set | Type | Source | Edition / translation (year) | License basis |
 |---|---|---|---|---|
@@ -1385,8 +1385,8 @@ ADAPTATION IN THE BANK (every cut, machine-listed from the raw text with long cu
 - after '…wide publicity in the Press.' (63 words cut): ". His Majesty's Government in the United Kingdom have as a result been in [...] public to-day at this hour in London, Moscow and Washingto"
 - after '…practical measures to this end."' (1032 words cut): "." § Mr. Silverman While thanking the right hon. Gentleman for that statement, in [...] the territories of the United Nations? § Mr. Eden Certainly"
 - As usual for a quotation that runs over two paragraphs, the bank opens the declaration's second paragraph with a quotation mark.
-- The last paragraph ("Certainly we should like …") is Eden's answer to Sydney Silverman's supplementary question a few minutes later; footnote ** says so. Footnote * on the 1942 "United Nations" is editorial (v2026-11-09c: reworded from "the countries at war with Germany, Italy, and Japan," which wrongly implied that every signatory was at war with all three; the Soviet Union, for example, was not at war with Japan until August 1945).
-- Glossary (His Majesty's Government, French National Committee, exterminate, ghettoes, the infirm, retribution, asylum) is editorial. v2026-11-09c: "ghettoes" now reads "parts of towns or cities where German authorities forced Jews to live apart from other people, under harsh rules" (not "closed-off," because some ghettos were open and not walled or fenced).
+- The last paragraph ("Certainly we should like …") is Eden's answer to Mr. McGovern's supplementary question a few minutes later (col. 2086); footnote ** says so. Footnote * on the 1942 "United Nations" is editorial (v2026-11-09c: reworded from "the countries at war with Germany, Italy, and Japan," which wrongly implied that every signatory was at war with all three; the Soviet Union, for example, was not at war with Japan until August 1945).
+- Glossary (His Majesty's Government, French National Committee, persons of Jewish race, exterminate, ghettoes, the infirm, retribution, asylum) is editorial. v2026-11-09c: "ghettoes" now reads "parts of towns or cities where German authorities forced Jews to live apart from other people, under harsh rules" (not "closed-off," because some ghettos were open and not walled or fenced). v2026-11-09d: added "persons of Jewish race" = "Jewish people (the declaration uses the language of 1942)", so students see that this is the declaration's 1942 wording; footnote ** reworded to follow Mr. McGovern's question ("any persons who can escape from any of these occupied territories"), which asked about anyone who escaped, not only Jews.
 
 CONTEXT NOTES:
 The declaration followed reports from the Polish government-in-exile (Raczyński note of 10 December 1942) and the Riegner telegram of August 1942. The House stood in silence after Eden read it. The Anglo-American Bermuda Conference on refugees (April 1943) produced little action.

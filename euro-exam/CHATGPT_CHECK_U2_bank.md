@@ -1,4 +1,4 @@
-# AP European History — Unit 2 practice bank (v2026-11-09c)
+# AP European History — Unit 2 practice bank (v2026-11-09d)
 
 Unit 2: Age of Reformation, c. 1450–c. 1648 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 2.1 Contextualizing 16th- and 17th-Century Challenges and Developments (LO A)
@@ -213,14 +213,14 @@ KEY: A. Explanation: Luther wrote his Ninety-Five Theses in 1517. The chart show
   - hint: Compare the bars before 1517 with the bars after it.
 
 **E2-P15** [Topic 2.2 · LO B · Skill 2.C · hard]  A historian wants to use the chart to argue that Luther's writings caused the rise in German printing. Which additional information would the historian most need?
-- (A) the number of works printed in Latin in German lands in the years before 1513
-- (B) the number of printing presses at work in Italy and France in the year 1523
-- (C) the number of people living in German cities and towns in the year 1450
+- (A) the number of printing shops at work in German towns in each of these years
+- (B) the prices that printers charged for German books in these years
+- (C) the share of Germans who could read in the early 1500s
 - (D) how many works each year were by Luther or about the religious dispute
 KEY: D. Explanation: The chart counts German works "on any subject." To tie the rise to Luther, a historian would need to know how many works each year were by Luther or about the religious fight.
-  - why not A: Latin works from before 1513 come before the change the historian wants to explain, and the chart is about German works.
-  - why not B: Presses in Italy and France would not show what was being printed in German.
-  - why not C: Population figures from 1450 are from long before the change and say nothing about what was printed.
+  - why not A: More printing shops could explain more books, but a count of shops would not show whether the new works were by or about Luther.
+  - why not B: Book prices would show what books cost, not who wrote them or what they were about.
+  - why not C: Reading rates would show how many people could read the works, not whether Luther's writings made up the rise.
   - hint: The note says the chart counts works "on any subject." What does that leave unclear?
 
 
@@ -244,25 +244,25 @@ KEY: C. Explanation: The Anabaptists who met at Schleitheim wanted a church made
   - hint: Look at the Sixth and Seventh articles. What will these Christians refuse to do?
 
 **E2-P17** [Topic 2.8 · LO G · Skill 5.B · Causation · medium]  Beliefs like those in the articles most directly led to which of the following?
-- (A) The adoption of Anabaptist beliefs by the city council of Zurich in 1527
+- (A) The Zurich council's adoption of Zwingli's reforms
 - (B) Recognition of Anabaptists in the Peace of Augsburg
-- (C) The Council of Trent's decision to end infant baptism
+- (C) The Edict of Worms's condemnation of Luther
 - (D) Persecution by both Catholic and Protestant rulers
 KEY: D. Explanation: Rulers feared people who would not swear oaths, fight as soldiers, or baptize babies. Both Catholic and Protestant rulers jailed, drowned, and burned Anabaptists. Michael Sattler, who led the Schleitheim meeting, was put to death in May 1527.
-  - why not A: Zurich made Anabaptism a crime. In January 1527 the city drowned the Anabaptist leader Felix Manz.
+  - why not A: Zurich's council backed Zwingli's reforms from 1523, before these articles were written. Zurich then made Anabaptism a crime, and in January 1527 it drowned the Anabaptist leader Felix Manz.
   - why not B: The Peace of Augsburg (1555) allowed only two faiths: Catholic and Lutheran.
-  - why not C: The Council of Trent upheld infant baptism.
+  - why not C: The Edict of Worms (1521) came six years before these articles. It outlawed Luther, not the Anabaptists.
   - hint: How would rulers who depended on oaths and soldiers react to these beliefs?
 
 **E2-P18** [Topic 2.3 · LO B · Skill 5.A · Comparison · medium]  In which of the following ways did the Anabaptists' view of baptism differ from that of Luther and Zwingli?
 - (A) The Anabaptists kept infant baptism, while Luther and Zwingli baptized adult believers instead.
 - (B) The Anabaptists baptized only believers old enough to repent, while Luther and Zwingli kept infant baptism.
-- (C) The Anabaptists required bishops to baptize, while Luther and Zwingli let any pastor baptize.
-- (D) The Anabaptists baptized in Latin, while Luther and Zwingli baptized in German.
+- (C) The Anabaptists counted baptism as one of seven sacraments, while Luther and Zwingli did not.
+- (D) The Anabaptists taught that baptism was needed for salvation, while Luther and Zwingli taught that it was not.
 KEY: B. Explanation: Luther and Zwingli kept baptizing babies. The Anabaptists baptized only people who had turned from sin and believed. Their enemies said they baptized people a second time, so they called them Anabaptists, which means rebaptizers.
   - why not A: This reverses the two sides. The articles exclude "all baptism of infants."
-  - why not C: The articles say who should receive baptism. They say nothing about bishops having to perform it. The dispute with Luther and Zwingli was about who should be baptized.
-  - why not D: The dispute was about who should be baptized, not about the language used.
+  - why not C: The Catholic Church counted seven sacraments. The Anabaptists rejected that list, just as Luther and Zwingli did.
+  - why not D: The Catholic Church taught that baptism was needed for salvation, and the Lutheran Augsburg Confession (1530) said so too. The Anabaptists baptized people who already believed.
   - hint: Look at the First article. Who does it say should be baptized?
 
 
@@ -518,12 +518,12 @@ KEY: B. Explanation: Teresa repeats Peter of Alcantara's view that "women made g
 **E2-P36** [Topic 2.7 · LO F · Skill 5.A · Comparison · medium]  Catholic Baroque artists who showed religious visions like the one in the first two paragraphs most often used
 - (A) dramatic poses, movement, and light to stir strong feelings in viewers
 - (B) balanced designs and ideal proportions to give a calm and orderly feeling
-- (C) everyday household scenes to celebrate the comforts of life in town
-- (D) scenes from ancient Roman history to teach lessons about civic duty
+- (C) tiny, exact details and hidden symbols painted in clear, even light
+- (D) plain, simple scenes that keep attention on the words of the Bible
 KEY: A. Explanation: Teresa describes pain and joy so strong that she "could not wish to be rid of it." Catholic Baroque artists used dramatic poses, movement, and light to make such experiences feel real to viewers. Bernini's marble statue The Ecstasy of Saint Teresa (1647–1652) shows this very vision.
   - why not B: Balance, calm, and ideal proportions mark High Renaissance art, such as Raphael's. Baroque artists wanted drama instead.
-  - why not C: Everyday household scenes were popular in Dutch painting of the 1600s. They do not show religious visions.
-  - why not D: Stern scenes from ancient Rome that teach civic duty belong to Neoclassical art of the late 1700s.
+  - why not C: Tiny details and hidden symbols mark Flemish painting of the 1400s, such as Jan van Eyck's. Baroque artists used bold movement and strong contrasts of light instead.
+  - why not D: Plain scenes that keep attention on the Bible's words fit Protestant art, such as Lutheran altarpieces. Catholic Baroque artists wanted rich drama instead.
   - hint: Teresa's vision is full of strong feeling. How could an artist make viewers feel it too?
 
 
@@ -560,13 +560,13 @@ KEY: D. Explanation: Ranke quotes Orlandini, a Jesuit. Orlandini says many men "
 
 **E2-P39** [Topic 2.5 · LO D · Skill 5.B · Causation · medium]  Jesuit work like that Ranke describes most directly contributed to which of the following?
 - (A) The spread of Calvinism in Scotland
-- (B) Permission for Catholic priests to marry
+- (B) The Dutch Republic's independence from Spain
 - (C) A Catholic revival in Poland, Bohemia, and Austria
-- (D) The closing of Catholic universities in Spain
+- (D) The Peace of Westphalia's recognition of Calvinism
 KEY: C. Explanation: Many nobles in Poland, Austria, and Bohemia had become Protestant. Jesuit schools, preachers, and confessors helped bring much of these lands back to the Catholic Church. Catholic rulers often backed their work.
   - why not A: Calvinism spread in Scotland in spite of Catholic efforts, and the Scottish Parliament broke with the pope in 1560.
-  - why not B: The Council of Trent kept the rule that Catholic priests must not marry.
-  - why not D: The Jesuits founded many colleges and universities. Catholic higher education grew in this period.
+  - why not B: The Dutch won independence from Catholic Spain after a long revolt, and the Calvinist church became the favored church of the new republic. Jesuit work did not cause it.
+  - why not D: Westphalia (1648) recognized Calvinism, a Protestant church. Jesuit work aimed to win people back to the Catholic Church.
   - hint: Did Jesuit work help Protestant or Catholic churches grow?
 
 
@@ -695,12 +695,12 @@ KEY: C. Explanation: In the early 1500s, a growing population, rising prices, an
 **E2-P48** [Topic 2.6 · LO E · Skill 5.A · Comparison · medium]  Which feature of the English Poor Law of 1601 most closely resembled Vives's proposal?
 - (A) It kept help for the poor voluntary and left it mainly to private donors.
 - (B) It placed help for the poor under one office of the national government.
-- (C) It paid poor families a fixed weekly sum out of the royal treasury.
+- (C) It set up royal workshops where able-bodied beggars were made to work for the crown.
 - (D) It made officials in each parish organize help and work for the poor.
 KEY: D. Explanation: The Poor Law of 1601 set up overseers of the poor in each parish. They collected a local tax, helped people who could not work, and set people who could work to work. Vives also wanted "two Senators for each parish" to register the poor, and he wanted no one fit for work to "be idle."
   - why not A: The 1601 law made each parish collect a tax for the poor. Help no longer depended only on gifts.
   - why not B: The law gave this work to officials in each parish, not to one national office.
-  - why not C: The law did not pay the poor from the royal treasury. The money came from a tax collected in each parish.
+  - why not C: The law did not set up royal workshops. Each parish bought materials such as wool, flax, and hemp and set its own poor to work.
   - hint: Compare who organized help for the poor and what was expected of people able to work.
 
 ## TIMED EXAM (25 questions, 25 minutes)
@@ -756,14 +756,14 @@ KEY: C. Explanation: Luther said that "whosoever can" should strike down the reb
 
 **E2-E04** [Topic 2.8 · LO G · Skill 5.B · Causation · hard]  The events of 1525 described in the sources contributed most directly to which of the following?
 - (A) The Peace of Augsburg's grant of religious freedom to peasants
-- (B) The end of serfdom in the German states by the 1550s
+- (B) The abolition of feudal dues in France
 - (C) Princes' growing control over Lutheran churches
-- (D) The Catholic Church's decision to let parishes elect their priests
+- (D) Henry VIII's break with the Roman Catholic Church
 KEY: C. Explanation: After the Peasants' War, Luther and his followers relied on princes to set up and run Lutheran churches. In many German states the prince became head of the church. This gave the state more control over religion.
   - A: Incorrect. The Peace of Augsburg (1555) let each prince, not each peasant, choose the religion of his land.
-  - B: Incorrect. Serfdom lasted in many German lands until the 1800s.
+  - B: Incorrect. France ended feudal dues during the French Revolution, beginning in 1789, more than 250 years later. Serfdom lasted in many German lands until the 1800s.
   - C: Correct. After 1525 Luther and his followers relied on princes to protect and organize Lutheran churches. Many princes became heads of the churches in their lands.
-  - D: Incorrect. The Catholic Church did not give parishes the right to elect their priests. The Council of Trent instead strengthened bishops' control over parish clergy.
+  - D: Incorrect. Henry VIII broke with the pope in the 1530s because the pope would not end his marriage to Catherine of Aragon. The German Peasants' War did not cause it.
 
 **E2-E05** [Topic 2.3 · LO B · Skill 5.A · Comparison · medium]  Luther's call to "smite, strangle, and stab" rebels contrasts most strongly with the views of which group?
 - (A) Anabaptists
@@ -786,14 +786,14 @@ KEY: A. Explanation: Luther believed that God gave rulers the sword to keep orde
 > Words to know: perceived = saw; realm = kingdom; sound doctrine = correct religious teaching; travail = hard work; apology = a written defense; slanders = false statements meant to harm; wrest = take by force; scepters = rods held by kings as a sign of power; subvert = overthrow; proprieties = property; procure = get; miscontent = unhappy; the godly = faithful believers; lieth as it were in despaired case = is in a hopeless state; justification = being made right with God
 
 **E2-E06** [Topic 2.3 · LO B · Skill 2.B · easy]  Calvin most likely wrote the letter in order to
-- (A) ask the king to make Calvin's teachings the official religion of the French kingdom
-- (B) urge French Protestants to take up arms against the king's officials
-- (C) show the king that Protestants were loyal subjects, not rebels
+- (A) show the king that Protestants were loyal subjects, not rebels
+- (B) ask the king to make Calvin's teachings the official religion of the French kingdom
+- (C) urge French Protestants to take up arms against the king's officials
 - (D) win the king's permission for Calvin himself to return safely to France
-KEY: C. Explanation: After 1534 French Protestants were being jailed and burned. Calvin wanted to show Francis I that their faith was the old gospel of Paul, not a plot to overthrow kings.
-  - A: Incorrect. Calvin defends Protestant teaching and protests the persecution. He does not ask the king to make it France's religion.
-  - B: Incorrect. Calvin presents Protestants as loyal, peaceful subjects. He does not call for armed resistance.
-  - C: Correct. Calvin protests that his teachings are falsely accused of aiming to "subvert all orders and civil governments" and of troubling "the peace and quiet of the people."
+KEY: A. Explanation: After 1534 French Protestants were being jailed and burned. Calvin wanted to show Francis I that their faith was the old gospel of Paul, not a plot to overthrow kings.
+  - A: Correct. Calvin protests that his teachings are falsely accused of aiming to "subvert all orders and civil governments" and of troubling "the peace and quiet of the people."
+  - B: Incorrect. Calvin defends Protestant teaching and protests the persecution. He does not ask the king to make it France's religion.
+  - C: Incorrect. Calvin presents Protestants as loyal, peaceful subjects. He does not call for armed resistance.
   - D: Incorrect. Calvin says he is not seeking "a safe return into my native country" for himself. He takes up "the common cause of all the godly."
 
 **E2-E07** [Topic 2.4 · LO C · Skill 5.B · Causation · medium]  The conflict Calvin describes contributed most directly to which later development in France?
@@ -840,25 +840,25 @@ KEY: D. Explanation: Gustavus says the emperor wants to root out "the evangelica
 
 **E2-E10** [Topic 2.4 · LO C · Skill 5.B · Causation · medium]  In 1631 France agreed to pay Sweden to keep fighting the Habsburg emperor. Which conclusion about the war is best supported by this alliance and by Gustavus's reply?
 - (A) Rulers chose their allies mainly because they shared the same faith.
-- (B) Protestant rulers asked the pope to settle their quarrels with the emperor.
-- (C) The emperor relied mainly on Protestant kingdoms to fight his wars.
+- (B) Catholic rulers joined together to restore the pope's authority across Germany.
+- (C) Religion had stopped mattering to the rulers who took part in the war.
 - (D) Rulers often fought to protect their states' power, not only their faith.
 KEY: D. Explanation: Gustavus says he wants "the security of my kingdom." Cardinal Richelieu, France's chief minister, wanted to weaken the Habsburgs, who ruled Spain and Austria. So in 1631 Catholic France agreed to pay Lutheran Sweden, and in 1635 France itself joined the war. Political interests mattered as much as religion.
   - A: Incorrect. Gustavus speaks of a fight "between God and the devil," but Catholic France and Lutheran Sweden became allies anyway.
-  - B: Incorrect. Neither the passage nor the alliance shows Protestant rulers turning to the pope. Protestants rejected the pope's authority.
-  - C: Incorrect. The emperor relied mainly on Catholic allies, such as Spain and the Catholic League led by Bavaria. Gustavus fought against him.
+  - B: Incorrect. Catholic France paid Lutheran Sweden to fight the Catholic emperor, so Catholic rulers were not united.
+  - C: Incorrect. Gustavus calls the war a fight "between God and the devil." Faith still mattered, even though it was not the only motive.
   - D: Correct. Gustavus says he seeks "the security of my kingdom." Catholic France paid Protestant Sweden because Cardinal Richelieu wanted to weaken the Habsburgs, France's great rivals.
 
 **E2-E11** [Topic 2.8 · LO G · Skill 5.B · Continuity and Change · medium]  The war Gustavus describes ended with a peace settlement that
 - (A) restored Catholic unity across the Holy Roman Empire under the emperor
-- (B) broke up the Holy Roman Empire into independent nation-states
+- (B) ended the Holy Roman Empire and created the Confederation of the Rhine
 - (C) recognized Calvinism and confirmed princes' control of religion in their lands
-- (D) made Lutheranism the single official religion of the entire Holy Roman Empire
+- (D) allowed princes to choose Catholicism or Lutheranism for their lands, but not Calvinism
 KEY: C. Explanation: The Peace of Westphalia (1648) recognized Catholicism, Lutheranism, and Calvinism. Princes kept strong control over religion in their lands, but they had to respect rights of worship that had existed in 1624. The princes also gained more power over their own lands, and Sweden and France gained territory.
   - A: Incorrect. The Peace of Westphalia accepted the religious split in the empire. It ended hopes of restoring Catholic unity.
-  - B: Incorrect. The Holy Roman Empire lasted until 1806. The peace gave its princes more power, but it did not end the empire.
+  - B: Incorrect. The Holy Roman Empire lasted until 1806. It ended during the wars with Napoleon, who set up the Confederation of the Rhine that year. The Peace of Westphalia gave the princes more power, but it did not end the empire.
   - C: Correct. The Peace of Westphalia (1648) recognized Calvinism along with Catholicism and Lutheranism. It confirmed the princes' control over religion in their lands, but it also protected rights of worship as they had stood in 1624.
-  - D: Incorrect. The peace kept Catholic, Lutheran, and Calvinist states side by side. No single church became official everywhere.
+  - D: Incorrect. This describes the Peace of Augsburg of 1555. The Peace of Westphalia (1648) added Calvinism to the faiths it recognized.
 
 
 ### Source X4 (questions E2-E12–E2-E14)
@@ -982,36 +982,36 @@ KEY: B. Explanation: Henry IV became a Catholic in 1593 to win Paris and the thr
 > Words to know: matrimony = marriage; shun = avoid; subsist = continue to exist; house-honours = a German expression for wives as the honor of the household; solace = comfort; sovereignty = supreme power; pretence = excuse; interdicted = forbidden; with impunity = without being punished; enmity = hatred; Popedom = the papacy; assail = attack; conjugal union = marriage
 
 **E2-E20** [Topic 2.6 · LO E · Skill 3.A · easy]  Which of the following best describes Luther's view of women in the passage?
-- (A) Women's chief role is to be wives and mothers who manage the household.
-- (B) Women should share equally with men in governing the church and state.
-- (C) Women should enter convents instead of marrying, to keep themselves pure.
+- (A) Women should share equally with men in governing the church and state.
+- (B) Women should enter convents instead of marrying, to keep themselves pure.
+- (C) Women's chief role is to be wives and mothers who manage the household.
 - (D) Women understand Scripture better than men and should teach in churches.
-KEY: A. Explanation: Luther praised marriage and gave wives authority at home. But he believed women were made mainly "to bear children" and to "keep house," and he kept public authority for men.
-  - A: Correct. Luther says women should "keep house, and bear and bring up children," and he gives his wife command only "in all household matters."
-  - B: Incorrect. Luther says "Never any good came out of female domination" and keeps his own rights "in other points."
-  - C: Incorrect. Luther praises marriage as "the chief in the world after religion" and attacks the forbidding of marriage.
+KEY: C. Explanation: Luther praised marriage and gave wives authority at home. But he believed women were made mainly "to bear children" and to "keep house," and he kept public authority for men.
+  - A: Incorrect. Luther says "Never any good came out of female domination" and keeps his own rights "in other points."
+  - B: Incorrect. Luther praises marriage as "the chief in the world after religion" and attacks the forbidding of marriage.
+  - C: Correct. Luther says women should "keep house, and bear and bring up children," and he gives his wife command only "in all household matters."
   - D: Incorrect. Luther claims men have "more understanding than the women."
 
 **E2-E21** [Topic 2.2 · LO B · Skill 5.A · Comparison · medium]  Luther's views on marriage differed most from Catholic teaching of his time in that Luther
-- (A) taught that marriage was one of seven sacraments administered by priests
-- (B) allowed priests to marry if they first received special permission from the pope
+- (A) taught that marriage was one of the seven sacraments of the Church
+- (B) taught that a valid marriage could not be ended by divorce, even after adultery
 - (C) insisted that monks and nuns keep their vows of lifelong chastity
 - (D) rejected required celibacy for clergy and supported marriage for pastors
 KEY: D. Explanation: The Catholic Church did not let priests, monks, or nuns marry. Luther said marriage is "a law of nature." Banning it was like telling people not "to eat, to drink, to sleep." Protestant pastors married and had families, though Luther accepted that a few people had a special gift from God for staying unmarried.
   - A: Incorrect. The Catholic Church counted marriage as one of seven sacraments. Luther did not count marriage as a sacrament, though he honored it.
-  - B: Incorrect. Luther rejected the pope's authority. He says forbidding marriage is a sign of "God's enmity to Popedom."
+  - B: Incorrect. The Catholic Church taught that a valid marriage could not be ended, even after adultery. Luther allowed divorce in some cases, such as adultery.
   - C: Incorrect. Luther urged monks and nuns to leave their vows and marry. In 1525 he married Katharina von Bora, a former nun.
   - D: Correct. The Catholic Church required priests, monks, and nuns to stay unmarried. Luther calls marriage "a law of nature" and says forbidding it is a sign of "God's enmity to Popedom."
 
 **E2-E22** [Topic 2.6 · LO E · Skill 2.C · medium]  A historian studying the daily lives of married women in Lutheran towns would find the passage limited mainly because it
 - (A) gives a male reformer's opinions, not women's own experiences
 - (B) gives more attention to royal households than to the households of townspeople
-- (C) discusses the closing of convents rather than life within married households
+- (C) was recorded by Catholic opponents who wanted to make Luther look foolish
 - (D) compares Catholic and Lutheran customs rather than presenting views about wives
 KEY: A. Explanation: The passage shows what one leading reformer believed about women and marriage. It does not show how women in Lutheran towns actually lived, worked, or thought.
   - A: Correct. The remarks show what one Protestant leader thought women should be. To learn about women's actual lives, a historian would need sources such as women's letters, court records, and household accounts.
   - B: Incorrect. Luther talks about wives and households in general. He says nothing about royal households.
-  - C: Incorrect. The passage is about marriage and life at home. It does not discuss convents.
+  - C: Incorrect. The attribution says Luther's own students and guests recorded these remarks at his table.
   - D: Incorrect. Luther states his own views about wives directly. He mentions "Popedom" only to attack its ban on marriage.
 
 
@@ -1039,7 +1039,7 @@ KEY: D. Explanation: Weber says Calvinists worried about whether they were "one 
 - (B) Catholic and Calvinist merchants in similar regions showed the same habits of work and saving.
 - (C) Puritan preachers in England urged believers to work hard at the jobs God had called them to.
 - (D) Calvinist church courts in Geneva punished people for laziness and wasteful spending.
-KEY: B. Explanation: Weber links Calvinist beliefs to habits of hard work and saving. Evidence that Catholics in similar places had the same habits would weaken that link. Weber himself wrote that capitalism existed long before the Reformation, for example in Florence. His argument is about the attitude toward work and saving that Calvinism encouraged, so earlier banking in Catholic cities would not, by itself, disprove it.
+KEY: B. Explanation: Weber links Calvinist beliefs to habits of hard work and saving. If Catholics in similar places had the same habits, Calvinist beliefs would not explain them. Weber himself wrote that capitalism existed before the Reformation, for example in Florence. His claim is about the new attitude toward work and saving that Calvinism encouraged.
   - A: Incorrect. Dutch Calvinist wealth fits Weber's argument, so it supports rather than challenges it.
   - B: Correct. Weber argues that Calvinist worry about being "one of the elect" pushed believers toward "intense worldly activity" and saving. If Catholic merchants in similar places worked and saved in the same ways, Calvinist beliefs would not explain those habits.
   - C: Incorrect. Puritan preaching about hard work in a calling is the kind of evidence Weber uses to support his argument.

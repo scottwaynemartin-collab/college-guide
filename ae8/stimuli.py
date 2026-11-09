@@ -4,7 +4,7 @@
 # second scan, the page image, or a second printing (each one is listed in the source's .md file).
 # Copyright basis for every source is given in ae8/sources/INDEX.md (published by 1930; U.S. government work;
 # UK Parliament Hansard under the Open Parliament Licence; CC BY 4.0 data; public-domain or CC BY-SA images).
-VERSION = "2026-11-09c"
+VERSION = "2026-11-09d"
 
 def P(paragraphs, attribution, translation="", footnotes=None, glossary=None, **kw):
     d = {"type": "passage", "paragraphs": paragraphs, "attribution": attribution}
@@ -138,9 +138,10 @@ STIM = {
     "Anthony Eden, foreign secretary of Great Britain, statement to the House of Commons reading a joint declaration of the Allied governments, December 17, 1942",
     "Text from Hansard, House of Commons Debates, 5th series, vol. 385, cols. 2082–2086 (December 17, 1942), UK Parliament, Open Parliament Licence v3.0; adapted, with three printing slips corrected",
     footnotes=[{"mark": "*", "text": "On January 1, 1942, 26 Allied governments signed a declaration that called them the \"United Nations.\" The United Nations organization that exists today was founded in 1945."},
-               {"mark": "**", "text": "Eden said these words a few minutes later, in answer to a member who asked whether Jews who escaped from the occupied countries would be given help in Allied countries."}],
+               {"mark": "**", "text": "Eden said these words a few minutes later. A member had asked whether anyone who escaped from these occupied lands would be welcomed and helped in Allied countries."}],
     glossary=[{"t": "His Majesty's Government", "d": "the British government"},
               {"t": "French National Committee", "d": "the leaders of the Free French, who kept fighting Germany after France surrendered in 1940"},
+              {"t": "persons of Jewish race", "d": "Jewish people (the declaration uses the language of 1942)"},
               {"t": "exterminate", "d": "kill every member of a group"},
               {"t": "ghettoes", "d": "parts of towns or cities where German authorities forced Jews to live apart from other people, under harsh rules"},
               {"t": "the infirm", "d": "people who are sick or weak"},

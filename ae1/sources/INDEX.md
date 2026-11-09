@@ -52,3 +52,4 @@ Notes:
   - X5: attribution now says Valla served 'King Alfonso V of Aragon and Sicily, who was then fighting to win the kingdom of Naples' (Alfonso took Naples in 1442).
   - X6: gloss on 'yeomen' changed to fit a noble household ('men ranked below gentlemen; here, attendants who served the earl').
   - X7: trimmed for the timed exam: paragraph 1 now begins '… Of all these nations' (the royal heading and the creation sentence are cut), and the paragraph 'If you do so, you will do well …' is cut, with an ellipsis before 'But, if you do not do this'; glosses 'Don Fernando', 'subduers' and 'servitude' removed; a gloss for 'the King and Queen Doña Juana' added.
+- Review fixes (version 2026-11-09d, from ae1/check_report_final.md): X3's description now says 'an open hymnbook showing words and music' (it said 'printed with', which narrowed E1-E10 for anyone reading the description). No excerpt, attribution or credit line changed in 09d.

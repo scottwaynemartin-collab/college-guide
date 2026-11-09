@@ -1,4 +1,4 @@
-# AP European History — Unit 1 practice bank (v2026-11-09c)
+# AP European History — Unit 1 practice bank (v2026-11-09d)
 
 Unit 1: Renaissance and Exploration, c. 1450–c. 1648 (10–15% of the AP exam). Topics and Learning Objectives follow the Fall 2026 AP European History CED:
 - 1.1 Contextualizing Renaissance and Discovery (LO A)
@@ -136,13 +136,13 @@ KEY: A. Explanation: Italy was split into rival states, such as Milan, Venice, F
 
 **E1-P09** [Topic 1.6 · LO G · Skill 5.B · Causation · medium]  The kind of military technology Leonardo describes later helped European states expand overseas mainly by
 - (A) giving armed ships and forts the power to control ports and sea routes
-- (B) allowing merchants to spread the financial risk of long voyages among investors
-- (C) helping sailors find their latitude during voyages far from land
-- (D) increasing the amount of cargo that merchant ships could carry
+- (B) letting small European armies conquer the Ming and Mughal empires in the 1500s
+- (C) allowing the Spanish to defeat the Aztec and Inca empires without Native allies
+- (D) breaking the Ottoman Empire's control of the eastern Mediterranean Sea
 KEY: A. Explanation: Cannons let Europeans attack or defend ships and coastal forts. In the early 1500s, Portugal used this firepower to seize ports such as Goa and Malacca and to control key sea routes in the Indian Ocean.
-  - why not B: Joint-stock companies spread the risk of a voyage among many investors. Cannons did not do that.
-  - why not C: Instruments such as the astrolabe and the quadrant helped sailors find their latitude. Cannons are weapons, not tools for finding the way.
-  - why not D: Ship design decided how much cargo a ship could carry. Leonardo's inventions are weapons of war.
+  - why not B: European guns gave them power at sea and along coasts, but the great land empires of Asia, such as Ming China and Mughal India, stayed strong. Europeans held only small trading posts there, such as Goa and Macau.
+  - why not C: Guns and horses helped the Spanish, but they also depended on thousands of Native allies, such as the Tlaxcalans who fought beside Cortés, and on diseases that killed many Native people.
+  - why not D: The Ottomans kept their power in the eastern Mediterranean even after their defeat at Lepanto in 1571. Portugal and Spain expanded by sailing around Africa and across the Atlantic instead.
   - hint: Leonardo's inventions are for fighting. Think about how Portugal won trading ports in Asia.
 
 
@@ -170,10 +170,10 @@ KEY: C. Explanation: Machiavelli says Ferdinand went from a weak king to "the fo
 - (A) The belief that kings receive their power from God
 - (B) The Christian humanist ideal of a prince who follows Christ
 - (C) The idea that natural law limits what rulers may do
-- (D) Judging a ruler by his success, not by Christian morals
+- (D) The view that results matter more than Christian morals
 KEY: D. Explanation: Machiavelli calls the act "cruelty," yet he says it helped Ferdinand take on "still greater undertakings" and that no exploit "could be more wonderful or uncommon." He judges Ferdinand by what his actions achieved, not by Christian morals. This secular way of judging rulers shocked many of Machiavelli's readers.
   - why not A: Thinkers such as Bossuet in the 1600s argued that kings rule by God's will. Machiavelli does not say God chose Ferdinand. He says Ferdinand used religion as a "cloak" and a "pretext."
-  - why not B: Christian humanists such as Erasmus urged princes to follow the teachings of Christ and keep the peace. Machiavelli lists Ferdinand's wars as great achievements and does not condemn an act he himself calls "cruelty."
+  - why not B: Christian humanists such as Erasmus urged princes to follow Christ's teachings and keep the peace. Machiavelli praises Ferdinand's wars. He does not condemn an act that he himself calls "cruelty."
   - why not C: Natural-law thinkers such as Grotius later argued that some rules bind all rulers and nations. Machiavelli sets no such limits. He judges actions by whether they make a ruler stronger.
   - hint: Machiavelli calls the act "cruelty." What does he seem to care about most when he judges Ferdinand?
 
@@ -561,14 +561,14 @@ KEY: C. Explanation: Garcilaso's mother was an Inca noblewoman, and his father w
   - hint: Think about the people Garcilaso grew up among. Whose reactions does he describe in the second paragraph?
 
 **E1-P39** [Topic 1.9 · LO L · Skill 5.B · Causation · medium]  The "sugar estates" Garcilaso mentions are most closely connected to which development in the Atlantic world?
-- (A) the rise of small family farms owned by Indigenous peoples
+- (A) the growth of sugar estates worked mainly by Native laborers who were paid wages
 - (B) a fall in European demand for sugar
 - (C) the growth of plantations worked by enslaved Africans
-- (D) the growth of tobacco farms worked by European indentured servants
+- (D) a shift from enslaved Africans to European indentured servants on sugar plantations
 KEY: C. Explanation: Growing sugar took huge amounts of hard work. Disease and forced labor killed many Indigenous people. So colonists in Brazil, the Caribbean, and Peru turned to enslaved Africans.
-  - why not A: Sugar estates were large farms owned by Spanish colonists, not small Indigenous farms.
+  - why not A: Some Native people did work for wages, but disease and forced labor had killed many of them. Sugar estates came to rely more and more on enslaved Africans.
   - why not B: European demand for sugar grew quickly in the 1500s and 1600s.
-  - why not D: In the 1600s many tobacco farms in English Virginia were worked by indentured servants from Europe. Sugar estates relied more and more on enslaved Africans.
+  - why not D: The change went the other way. In English Barbados, beginning in the 1640s, sugar planters replaced most of their indentured servants from Europe with enslaved Africans.
   - hint: Think about what sugar plantations needed most besides land.
 
 
@@ -596,7 +596,7 @@ KEY: D. Explanation: The account calls the captured Africans "very good merchand
 - (C) the end of the Portuguese slave trade after the Treaty of Tordesillas
 - (D) the discovery of rich silver mines on Hispaniola
 KEY: A. Explanation: Disease, war, and forced labor killed most of the Taíno people of Hispaniola after 1492. Spanish colonists needed workers for sugar mills and cattle ranches. So enslaved Africans sold for high prices.
-  - why not B: Philip II did not invite English traders. Spain required royal permission to trade with its colonies, and some foreign merchants did get licenses, but Hawkins had none. That is why he trusted the Spaniards only as far as "his own strength" could "master them."
+  - why not B: Philip II did not invite English traders. Spain required royal permission to trade with its colonies, and some foreign merchants did get licenses, but Hawkins had no license from the Spanish crown. That is why he trusted the Spaniards only as far as "his own strength" could "master them."
   - why not C: The Treaty of Tordesillas (1494) put Africa on Portugal's side of the line. The Portuguese slave trade kept growing after it.
   - why not D: Spain's great silver mines were in Mexico and Peru, not on Hispaniola.
   - hint: What had happened to the Native people of Hispaniola since 1492?
@@ -799,7 +799,7 @@ KEY: C. Explanation: Grotius says the Dutch "have the right to sail to the East 
 [IMAGE] Hans Holbein the Younger, German painter working in England, The Ambassadors, oil painting on oak panels, 1533. It shows Jean de Dinteville, the French ambassador to England, and his friend Georges de Selve, a French bishop. National Gallery, London. Public domain image via Wikimedia Commons (file: Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg).
 Image file: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/1280px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg (1280 × 1261)
 Caption shown to students: Two men stand on either side of a two-level table in front of a green curtain. The man on the left wears rich clothes trimmed with fur and a gold chain. The man on the right wears a long dark robe. On the top level, which is covered with a patterned carpet, are a globe of the heavens and several instruments for measuring the sun and stars, such as sundials and a quadrant. On the lower level are a globe of the Earth, an arithmetic book for merchants, a lute, a case of flutes, and an open hymnbook. A long, stretched-out shape lies across the floor; seen from the side, it becomes a human skull.
-Description: A life-size double portrait painted in oil. Against a heavy green damask curtain, two young men stand facing the viewer. On the left, Jean de Dinteville wears a black velvet coat lined with white fur over a pink satin shirt, a black cap, and a gold chain with a medallion, and he holds a dagger in a gold sheath. On the right, Georges de Selve wears a long dark brown robe lined with fur and a square black cap, and rests his arm on the table. Between them stands a wooden table with two shelves. The upper shelf is covered by a red and blue patterned carpet from the Middle East and holds a celestial globe, a cylinder-shaped sundial, a brass quadrant, a many-sided sundial, and another instrument for measuring the positions of the stars. The lower shelf holds a terrestrial globe, a book on arithmetic for merchants with a ruler inside it, a lute with a broken string, a case of flutes, a pair of dividers, and an open hymnbook printed with words and music. Across the patterned stone floor in the foreground lies a long, pale, slanted shape that looks like a smear when seen from the front but becomes a human skull when seen from a sharp angle at the side. In the top left corner, half hidden by the curtain, is a small silver crucifix.
+Description: A life-size double portrait painted in oil. Against a heavy green damask curtain, two young men stand facing the viewer. On the left, Jean de Dinteville wears a black velvet coat lined with white fur over a pink satin shirt, a black cap, and a gold chain with a medallion, and he holds a dagger in a gold sheath. On the right, Georges de Selve wears a long dark brown robe lined with fur and a square black cap, and rests his arm on the table. Between them stands a wooden table with two shelves. The upper shelf is covered by a red and blue patterned carpet from the Middle East and holds a celestial globe, a cylinder-shaped sundial, a brass quadrant, a many-sided sundial, and another instrument for measuring the positions of the stars. The lower shelf holds a terrestrial globe, a book on arithmetic for merchants with a ruler inside it, a lute with a broken string, a case of flutes, a pair of dividers, and an open hymnbook showing words and music. Across the patterned stone floor in the foreground lies a long, pale, slanted shape that looks like a smear when seen from the front but becomes a human skull when seen from a sharp angle at the side. In the top left corner, half hidden by the curtain, is a small silver crucifix.
 > Words to know: quadrant = an instrument for measuring how high the sun or a star is above the horizon; lute = a stringed musical instrument
 
 **E1-E08** [Topic 1.3 · LO D · Skill 1.A · easy]  The painting's lifelike detail in the people, cloth, and objects best reflects which artistic development?
