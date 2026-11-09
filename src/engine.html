@@ -258,6 +258,28 @@ function addFRQ(f){FRQ.push(f)}
 const UNIT="/*@@UNIT@@*/";
 /*@@DATA@@*/
 /* ===== State & helpers ===== */
+// STATE MACHINE (full write-up with a transition table: tools/ENGINE-STATE.md; test: node tools/test-engine-state.js)
+// These // lines are stripped by build.py, so they cost the embeds nothing.
+//
+// S is the only state. render() redraws everything from it and saves it; no view keeps state of its own.
+//   S.k   which screen:  -1 home (FRQ menu) | 0 stimulus / warm-up | 1..n Part A..  (partV(S.k-1)) | n+1 results (doneV)
+//   S.max highest S.k reached; S.vis[k]=1 once screen k was shown (progress bar styling only)
+//   S.cb  combo: parts earned in a row; reset to 0 by a miss. S.rc=1 means "Start over" was tapped once and awaits confirm.
+//   S.bo  boss round on the results screen: {l:[part indexes], k:current, s:pick|null, r:first-try right} or null.
+// Each part S.p[i] moves through CARDS (c): 0 Ask -> 1 Verb -> 2 Learn -> 3 Think -> 4 Write -> 5 Check.
+//   Cards 0-4 can be jumped to freely ('card'). Card 5 is reachable ONLY through 'check' (needs ck=1).
+//   st   next Think step to reveal (starts 1); 'step' increments; h["step-hint"]=1 marks a revealed hint
+//   q    Quick-check pick (null until answered); cf confidence pick (null|0|1|2)
+//   a    answer text (live, from the textarea); w=1 shows the "fill the ___ blanks" warning
+//   ck   1 = answer has been checked (card 5 unlocked); g = per-rubric-line regex matches; box = what the student ticked
+//   done 1 = the student pressed Next/See results on card 5; ok = earned(i) frozen at that moment (scoring uses done&&ok)
+// Transitions on a part (click handler below):
+//   check : a has '___' -> w=1, stay  |  a too short -> stay  |  else ck=1, c=5, g/box from the rubric
+//   rev   : card 5 -> card 4, ck=0, done=0 (answer kept)      next : done=1, ok=earned(i), cb updated, go(i+2)
+//   retry : first part with done&&!ok -> card 4, ck=0, done=0, go(part)   restart : second tap wipes the save and starts fresh
+// Persistence: save() writes {k,max,vis,p,nt,cb} to localStorage['geoarcade-frq:'+FRQ title] on every render.
+//   loadSave() ignores a save whose p.length differs from the FRQ, so changing the number of parts resets progress;
+//   renaming or reshaping fields in S.p[] silently breaks saved student work unless loadSave() is taught to migrate.
 const app=document.getElementById('app'),sh=document.getElementById('sh');
 let S={f:null,fi:0,k:-1,max:0,p:[],nt:[]};
 const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
